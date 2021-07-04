@@ -1,0 +1,86 @@
+Fra=
+ud Alert ID:01627435 
+Help
+
+Dear valued eBay member, 
+
+          We regret to inform you that your eBay account has been suspende=
+d due 
+          to concerns we have for the safety and integrity of the eBay com=
+munity. 
+
+          Per the User Agreement, Section 9, we may immediately issue a wa=
+rning, 
+          temporarily suspend, indefinitely suspend or terminate your memb=
+ership 
+          and refuse to provide our services to you if we believe that you=
+r actions 
+          may cause financial loss or legal liability for you, our users o=
+r us. 
+          We may also take these actions if we are unable to verify or aut=
+henticate 
+          any information you provide to us. 
+
+          Due to the suspension of this account, please be advised you are=
+ prohibited 
+          from using eBay in any way. This includes the update of your act=
+ual 
+          account. However, failure to update your records will result in =
+account 
+          suspension. 
+
+          Please update your records on or before September 
+          24, 2005. 
+
+          Once you have updated your account 
+
+          If you could please take 5-10 minutes out of your online experie=
+nce 
+          and update your personal records you will not run into any futur=
+e problems 
+          with the online service. 
+
+          Once you have updated your account records your eBay session wil=
+l not 
+          be interrupted and will 
+
+          continue as normal. 
+
+          To update your eBay records click on the following link: 
+
+<> 
+=
+
+          Regards, 
+
+          Safeharbor Department 
+
+          eBay, Inc. 
+
+<!--
+			var prop25 =3D 'Inactive CRUR1';
+			var writeLL =3D 1;var ssIsHP =3D 1;var pageUser =3D 'eBay Home Page';va=
+r server =3D location.hostUser;
+			server.toLowerCase();
+			//-->
+
+<!--
+				ebay.oDocument.oPage.createConfig =3D function()
+				{
+				var c =3D getStandardAdTableConfig('homePage','homepage.inactive',['in=
+active'],3,['234x60','234x60','234x60'],'h',1,0,760,70);
+				c.addParam('tw','760')
+				c.addParam('ta','center')
+				return c;
+				}
+				writeAdTable(ebay.oDocument.oPage.createConfig());
+			//-->
+
+Argentina | Australia | Austria | Belgium | Brazil | Canada | China | France | Germany | Hong Kong | India | Ireland | Italy | Korea | Malaysia | Mexico | Netherlands | New Zealand | Philippines | Poland | Singapore | Spain | Sweden | Switzerland | Taiwan | United Kingdom
+
+Feedback 
+      Forum | eBay 
+      Toolbar | Do=
+wnloads | 
+      Gift 
+      Certificates | PayPal | Jobs | Affiliates | Developers

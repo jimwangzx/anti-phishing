@@ -1,0 +1,123 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp73294lfb;
+        Wed, 16 Mar 2015 14:24:32 -0700 (PDT)
+X-Received: by 10.107.47.163 with SMTP id v35mr5635157iov.19.1458163471838;
+        Wed, 16 Mar 2015 14:24:31 -0700 (PDT)
+Return-Path: <3user@domain.com>
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::24a])
+        by domain.com with ESMTPS id c129si5090602ioe.176.2016.03.16.14.24.31
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 16 Mar 2015 14:24:31 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:4001:c06::24a as permitted sender) client-ip=2607:f8b0:4001:c06::24a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:4001:c06::24a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-io0-domain.com with SMTP id g203so4542683iof.0
+        for <user@domain.com>; Wed, 16 Mar 2015 14:24:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: sbay@hillaryclinton.com
+        bh=tqD5vQjAWNKzVhmO1SM1sdI1fu/dUkd/xwBrpb9sjrQ=;
+        b=S1CM4Lensu2DVaY0UCJg26k8NN+mCylHY3HTwky8zRtiigOrgk/yA8QCECHXqBWtdM
+         0CNH02CeRARJGNMeleX6QlukY5zp/zGgrCsORLOzLBuNccbfsFSWR2KKvfmVxoMzhilF
+         YUrnJV0utzi5SulSGaz4dbsoxKPcXndeEgpaNEt0o3PI9y23VZFxsVO/PTE4ZZG8slpB
+         VKTLYnUjB7Ph4oCl/+OH3PKZnhTZX3VH7sp/watGn7gQsVVSEWC5TuhdeQ1Cg5Uw8HCm
+         1rWMRjCr+EBobjaivWdpa+F83hsZfrAyoj3TJvQa70PEOPws1L3efWDoAGggi0mzjpTi
+         ZWcA
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: sbay@hillaryclinton.com
+        bh=tqD5vQjAWNKzVhmO1SM1sdI1fu/dUkd/xwBrpb9sjrQ=;
+        b=M6AV0VmG8hOO1cZkojcB6BjUPjz6CpiVC6mMW1SlXfGboPLcEIcSeZ4TyZuKqN3fQF
+         11tjFwJpb5g4V33JILLRqDCQ5PeRRzTdEuCCKXr8YJKGue0Y5quzw5/oD3oM5A3yjPvS
+         6tqu3p/2n2eQxHt7Y6MLy8LkJxgCnGYCjKgGA
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: sbay@hillaryclinton.com
+        bh=tqD5vQjAWNKzVhmO1SM1sdI1fu/dUkd/xwBrpb9sjrQ=;
+        b=LhaoEq9h4VbGJgcAMqyvi7uuGDCBWDmGKJJ/rFqzm6RcTrQ8hV8z4+Ux7KRCAWZcMb
+         ApoYLj6tp8yl2M3+Hl16G7pCQ8kRI1dB9IrQnjnvSmkD6HVpnLRG9uj8EhNfwg+T1sXT
+         SpooQtOTilHN+p+TmRbAsfJD7/wO8bTltIE+RDw2ZfiS9PQGD+ITsCJzMCnd2h/Bx53n
+         vWwwXSKpOROnFNiU2Cg7F8LQ96HrzixIPsu3jdHLYszurbccjywYJCQHn7JuOgPK+ztb
+         s4HbtWOERWOOw1jGygJ2okau4m2brZ5RtmEnG5cT4uq+xYDlpNpK9ColA2xoXfLfbC4Y
+         mm+Q
+X-Gm-Message-State: AD7BkJK8L7waC/z6XGU0elYtM5NPG3gYjzATqtZZfsUYG/nNXxP0VuAkvnBnVx3vNAyaFNJupC4UoHzBWG1VPYM6GO6D3ZOqbbM
+MIME-Version: 1.0
+X-Received: by 10.182.28.41 with SMTP id y9mr4667988obg.14.1458163471484; Wed,
+ 16 Mar 2015 14:24:31 -0700 (PDT)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <089user@domain.com>
+Date: Wed, 16 Mar 2015 21:24:31 +0000
+Subject: Canceled Event: Nightly Recap Call @ Wed Mar 16, 2015 6pm - 6:30pm (user@domain.com)
+From: sbay@hillaryclinton.com
+To: user@domain.com
+Content-Type: multipart/mixed; boundary=089e0149c4c2be271d052e3123d6
+
+This event has been canceled and removed from your calendar.
+
+Title: Nightly Recap Call
+Pls note new conference line #
+When: Wed Mar 16, 2015 6pm - 6:30pm Eastern Time
+Where: 772-212-0079
+Video call:  
+<<link>>  
+<<<link>>>
+Calendar: user@domain.com
+Who:
+     * user@domain.com - organizer
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * David Binder
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * John user
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for cancellations on calendar user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to modify your RSVP  
+response. Learn more at  
+<<link>>#forwarding

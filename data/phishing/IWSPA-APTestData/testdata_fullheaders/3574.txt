@@ -1,0 +1,110 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.207 with SMTP id r198csp3056429lfr;
+        Thu, 17 Sep 2015 13:40:47 -0700 (PDT)
+X-Received: by 10.140.133.198 with SMTP id 189mr2040918qhf.99.1442522447192;
+        Thu, 17 Sep 2015 13:40:47 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-dock-front-14.domain.com (mta-dock-front-14.domain.com. [66.151.230.133])
+        by domain.com with ESMTPS id 199si4440725qhy.112.2015.09.17.13.40.46
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 17 Sep 2015 13:40:47 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.151.230.133 as permitted sender) client-ip=66.151.230.133;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 66.151.230.133 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (unknown [10.0.200.157])
+	by mta-dock-front-14.domain.com (Postfix) with ESMTP id 3nH9DG4hGWz1Q65T
+	for <user@domain.com>; Thu, 17 Sep 2015 20:40:46 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=barackobama.com;
+	s=ofakey; t=1442522446;
+	bh=58q9yrv14jSISFyFyGXIe0VVaSTpJkoVPlB1B7wgvSs=;
+	h=Date:To:From: "Abby Witt, BarackObama.com" <info@barackobama.com>
+	b=dnhLDfv4uTGOnzCoHYlzrR4akPFwvTAgzG3cERVNDoGsAFmAMmkXscBsR2AZc8W4G
+	 nxMV/YvCIsBRwC+i/f2FkGeogBnDNmoAUC5m8ANr+QJg9u2ufNYql7BQ6Rl56qU8ly
+	 mYNr2jsFxvzZD/VNx//Q6dbYYg/GBPUE/IB98Y+k
+Received: from phpmailer 
+	by domain.com with local (PHPMailer);
+	Thu, 17 Sep 2015 16:40:46 -0400
+Date: Thu, 17 Sep 2015 16:40:46 -0400
+To: John user <user@domain.com>
+From: "Abby Witt, BarackObama.com" <info@barackobama.com>
+Reply-to: user@domain.com
+Subject: A manufactured crisis
+Message-ID: <6user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 1711b5deba3e80b4
+X-rpcampaign: rp_121204
+X-maillist-guid: CgdXWAJtVwNUAlIAVQBRAFBcCAJWA2xZDVFcTUZbUQEWEVd1BAkHXQkdU1pcbAdVUgEG
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_6edc0ff44881c4bb08e800b166240829"
+
+John --
+
+There's a lot going on right now, but we can't lose track of
+this: As of today, Congress has just six scheduled days of
+work to avoid another government shutdown.
+
+It's deja vu -- just like they did in 2013, extreme voices in
+Congress are taking pet political issues that have nothing
+to do with funding our government and using them to
+manufacture a crisis.
+
+If they refuse to do their jobs, it'll affect millions of
+Americans. It's simply beyond irresponsible.
+
+And let's be clear: It's Congress' job to pass a budget.
+Putting together a budget isn't the time to play political
+games to try and take health care away from millions,
+restrict women's health care options, or block efforts to cut
+back on carbon pollution.
+
+They've done it before, and it cost us $24 billion -- an
+unnecessary and very real expense, and one that doesn't
+even begin to describe the damage done to people's lives by
+deferred paychecks and the loss of services that businesses
+and working families depend on.
+
+There's still time for Congress to come together to pass a
+smart budget. But if Congressional leaders choose politics
+over people, we'll be headed toward a shutdown soon. It's
+going to be up to OFA supporters to fight back, just like we
+did to end the shutdown in 2013. Like President Obama said:
+
+"We've fought back because of you. We shouldn't slip back
+because of Congress. I urge them to send me a budget that
+invests in our future."
+
+Stay tuned -- we'll keep you up-to-date on the latest.
+
+Thanks,
+
+Abby
+
+Abby Witt
+Managing Director
+Organizing for Action
+
+----
+This movement is powered by small-dollar donations
+from organizers across the country.
+
+Chip in today to help keep it going:
+
+<<link>>
+
+---------------------------------------------------------------------
+Paid for by Organizing for Action
+
+Contributions or gifts to Organizing for Action are not tax deductible.
+
+This email was sent to: user@domain.com
+To update your address, go to: 
+<<link>>
+To unsubscribe from these messages, go to: 
+<<link>>
+Organizing for Action, P.O. Box 618120 Chicago, IL 60661
+

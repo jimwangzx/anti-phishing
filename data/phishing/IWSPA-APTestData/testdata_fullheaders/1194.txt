@@ -1,0 +1,299 @@
+Delivered-To: user@domain.com
+Received: by 10.204.113.195 with SMTP id b3cs152967bkq;
+        Fri, 19 Feb 2015 09:37:21 -0800 (PST)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 10.229.111.89 as permitted sender) client-ip=10.229.111.89;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of 3user@domain.com designates 10.229.111.89 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.229.111.89])
+        by 10.229.111.89 with SMTP id r25mr818945qcp.43.1266601035673 (num_hops = 1);
+        Fri, 19 Feb 2015 09:37:15 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:From: Adam Blickstein <ablickstein@nsnetwork.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-original-authentication-results:x-original-sender:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :x-thread-url:x-message-url:sender:list-unsubscribe:content-language
+         :content-type;
+        bh=8/k5ba5rC9GLBcJdgZrublyyhPXvZ/CGs2iK1Y2zBDg=;
+        b=mILRR+oCrHu53t28S6fhJSNMibJhnayAwpDPA7pR15n/urpHtwOvUtkFnrhooQylFd
+         fMtUX+hCbRnISKwL5mYmMLAQZ4h2TfdQ14FmLt5HTGXAQtXKt/rDOlyI62FBIc6D6L/p
+         Rnqkt8I4py9JxEoxWos05G32tVllHztZsELZA
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:From: Adam Blickstein <ablickstein@nsnetwork.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-original-authentication-results:x-original-sender:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :x-thread-url:x-message-url:sender:list-unsubscribe:content-language
+         :content-type;
+        b=jtjCM9nZ/bjCIDyqBVx/MP+4k48ZkhFPNWB3Y55SnkFhE91airwKOXEi3P4fXUIaeJ
+         YIsH0aFSITqHOijR9C/Ipk+Lg8nYO+WFiqOcZa6mc5rsA/j1Uari4AFgDE/yoAZSrkNZ
+         7NZhy9NddevGa4+VCKBbN+pi4teHQG4Hf054g
+Received: by 10.229.111.89 with SMTP id r25mr113130qcp.43.1266601013948;
+        Fri, 19 Feb 2015 09:36:53 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.229.19.76 with SMTP id z12ls462460qca.3.p; Fri, 19 Feb 2015 
+	09:36:52 -0800 (PST)
+Received: by 10.229.128.156 with SMTP id k28mr1312519qcs.5.1266601011755;
+        Fri, 19 Feb 2015 09:36:51 -0800 (PST)
+Received: by 10.229.128.156 with SMTP id k28mr1312517qcs.5.1266601011638;
+        Fri, 19 Feb 2015 09:36:51 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from bryan.ad.nsnetwork.org (bryan.ad.nsnetwork.org [208.87.107.29])
+        by gmr-domain.com with ESMTP id 25si63365qyk.3.2010.02.19.09.36.51;
+        Fri, 19 Feb 2015 09:36:51 -0800 (PST)
+Received-SPF: pass (domain.com: best guess record for domain of user@domain.com designates 208.87.107.29 as permitted sender) client-ip=208.87.107.29;
+Received: from bryan.ad.nsnetwork.org ([10.9.5.10]) by bryan.ad.nsnetwork.org
+ ([10.9.5.10]) with mapi; Fri, 19 Feb 2015 12:36:38 -0500
+From: Adam Blickstein <ablickstein@nsnetwork.org>
+To: "User" <user@domain.com>
+Date: Fri, 19 Feb 2015 12:36:35 -0500
+Subject: [big campaign] Obama's Counterterrorism Successes Continue
+Thread-Topic: Obama's Counterterrorism Successes Continue
+Thread-Index: AcqxiQxS7ePyV5abQV+UqO+RqJN4KgAAC8hgAAAmioAAAA3ywA
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com: 
+	best guess record for domain of user@domain.com designates 
+	208.87.107.29 as permitted sender) user@domain.com
+X-Original-Sender: user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, 
+	<mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+X-Thread-Url: <<link>>
+X-Message-Url: <<link>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>, 
+	<mailto:bigcampaign+user@domain.com>
+Content-Language: en-US
+Content-Type: multipart/related;
+	boundary="_004_D95FD7E3C26145418259F2F5E3E88E5B9EA2947158bryanadnsnetw_";
+	type="multipart/alternative"
+
+[cid:image001.jpg@01CAB15F.DEB20AA0]
+
+Obama's Counterterrorism Successes Continue
+
+Washington, D.C. - This week has seen a wave of successes for the Obama adm
+inistration and our allies against extremists abroad.  The capture of senio
+r Taliban leadership this week has demonstrated that Obama administration i
+s taking the fight to the extremists, with concrete results.  These success
+es are part of a longer trend of recent achievements in broader counterterr
+orism efforts, vindicating the Obama administration's counterterrorism appr
+oach.  Despite these successes conservatives see terrorism and national sec
+urity as a political opportunity not a strategy to keep America safe.
+
+Over the last week, "wave" of successes in counterterrorism and efforts aga
+inst militants. This week has seen a wave of detentions of top militants in
+ Afghanistan and Pakistan.  The Washington Post reports today that, "Mullah
+ Abdul Salam, the Taliban leader in Afghanistan's Kunduz province, and Mull
+ah Mohammad, the shadow governor in Baghlan province, were taken into custo
+dy in Pakistan about 10 days ago, according to the governor of Kunduz, Moha
+mmad Omar, and a Pakistani security official. The two served as part of the
+ vast network of Taliban leaders who coordinate the Afghan insurgency and o
+versee Taliban courts, which mete out swift and often brutal settlements fo
+r local disputes."  In addition, the New York Times reports today that, "A 
+missile believed to have been fired Thursday from an American drone killed 
+the younger brother of a top militant commander in the North Waziristan tri
+bal area, according to several Pakistani security and intelligence official
+s, residents in Waziristan and a friend of the commander's family."
+
+This comes at the end of a week that began with the announcement that the C
+IA and Pakistani authorities captured Mullah Abdul Ghani Baradar, who the B
+BC says had "overseen Taliban military operations in Afghanistan, run the g
+roup's leadership council, and controlled its finances." The Post article a
+lso describes how this string of successes were handled by American officia
+ls, saying that these "detentions, which have taken place in a wave since e
+arly last week, were initially kept secret to allow intelligence operatives
+ to use information gleaned from captures to draw additional militants into
+ exposing their locations and movements, according to officials who discuss
+ed the ongoing operations on the condition of anonymity." [Washington Post,
+ 2/19/10<<<link>>
+&p=3Dhttp%3A%2F%2domain.com%2Fwp-dyn%2Fcontent%2Farticle%2F201
+0%2F02%2F18%2FAR2010021800434.html%3Fhpid%3Dtopnews&id=3Dpreview>. BBC, 2/1
+9/10<<<link>>
+=3Dhttp%3A%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fsouth_asia%2F8523429.stm&id=3Dpre
+view>]
+
+These detentions are part of a trend of successes in the Obama administrati
+on's broader counterterrorism policy. Decisions taken by President Obama as
+ part of the broader U.S. counter terrorism strategy have led key achieveme
+nts.
+
+Gaining actionable intelligence without using torture.  Despite the rants f
+rom right wingers, concrete actionable intelligence was gained from the int
+errogation of Umar Farouq Abdulmutallab, without using torture.  As Ken Gud
+e of the Center for American Progress writes, "As we now know, far from bei
+ng wrong, irresponsible, or dangerous, the path the Obama administration ch
+ose for the interrogation of Abdulmutallab is directly responsible for him 
+cooperating with intelligence officials and giving up fresh and actionable 
+intelligence...The intelligence gained from Abdulmutallab has been shared w
+idely throughout the intelligence community - and has already produced resu
+lts. On January 21, Malaysian counterterrorism authorities arrested 10 susp
+ected terrorists tied to Abdulmutallab." [Ken Gude, 2/3/10<<<link>>
+et/tn.jsp?t=3Dcmadbkdab.0.0.olnitxbab.0&ts=3DS0457&p=3Dhttp%3A%2F%2Fwonkroo
+domain.com%2F2010%2F02%2F03%2Ffacts-get-in-the-way-of-conservative
+s%2F&id=3Dpreview>]
+
+Building partnerships and working with allies to thwart terrorism.  The Oba
+ma administration's revamped effort to work with allies has proven fruitful
+.  This week, Spain announced that it will accept five Guantanamo Bay detai
+nees, boosting the administration's efforts to close the controversial dete
+ntion center.  In fact, bringing our interrogation practices in line with i
+nternational increases intelligence sharing with allies.  As the Washington
+ Post reported last year, "CIA officers acknowledged that some foreign inte
+lligence agencies had refused, for example, to share information about the 
+location of terrorism suspects for fear of becoming implicated in any event
+ual torture of those suspects." [Washington Post, 2/16/10<<<link>>
+t/tn.jsp?t=3Dcmadbkdab.0.0.olnitxbab.0&ts=3DS0457&p=3Dhttp%3A%2F%2Fwww.wash
+domain.com%2Fwp-dyn%2Fcontent%2Farticle%2F2010%2F02%2F15%2FAR2010021501
+746.html&id=3Dpreview>. Washington Post, 4/24/09<<<link>>
+t=3Dcmadbkdab.0.0.olnitxbab.0&ts=3DS0457&p=3Dhttp%3A%2F%2Fwww.washingtonpos
+t.com%2Fwp-dyn%2Fcontent%2Farticle%2F2009%2F04%2F23%2FAR2009042304718_2.htm
+l%3Fhpid%3Dtopnews%26sid%3DST2009042304720&id=3Dpreview>]
+
+Increasing successful intelligence gathering.  Michael Isikoff and Mark Hos
+enball report this weekend that, "In late January, an Al Qaeda operative he
+aded from Pakistan on his way to Yemen was arrested in the Persian Gulf cou
+ntry of Oman, a U.S. counter-terrorism official confirmed."  And as a resul
+t, "U.S. intelligence officials appear to have obtained access to what coul
+d turn out to be a significant trove of phone numbers, photographs and docu
+ments detailing the links between Al Qaeda's leaders in northwest Pakistan 
+and the terror group's increasingly menacing affiliate in Yemen, two counte
+r-terrorism sources tell Declassified." [Newsweek, 2/14/10<<<link>>
+et/tn.jsp?t=3Dcmadbkdab.0.0.olnitxbab.0&ts=3DS0457&p=3Dhttp%3A%2F%2Fblog.ne
+domain.com%2Fblogs%2Fdeclassified%2Farchive%2F2010%2F02%2F14%2Fexclusive-a-
+u-s-intelligence-breakthrough-in-the-persian-gulf.aspx&id=3Dpreview>]
+
+Enhancing efforts to disrupt domestic plots.  Last year, the administration
+ foiled a terrorism plan by Najibullah Zazi, in a case the New York Times c
+alled "the most serious in years." [NY Times, 9/24/09<<<link>>
+.jsp?t=3Dcmadbkdab.0.0.olnitxbab.0&ts=3DS0457&p=3Dhttp%3A%2F%2Fwww.nytimes.
+com%2F2009%2F09%2F25%2Fus%2F25zazi.html&id=3Dpreview>]
+
+Combining judicial and intelligence work to extract information - and then 
+pursuing a global manhunt. As the Washington Times reported earlier this we
+ek, "U.S. and allied counterterrorism authorities have launched a global ma
+nhunt for English-speaking terrorists trained in Yemen who are planning att
+acks on the United States, based on intelligence provided by the suspect in
+ the attempted Christmas Day bombing after he began cooperating." [Washingt
+on Times, 2/15/10<<<link>>
+s=3DS0457&p=3Dhttp%3A%2F%2domain.com%2Fnews%2F2010%2Ffeb%2F15
+%2Fenglish-speakers-trained-to-attack-us%2F&id=3Dpreview>]
+
+Despite successes of Obama administration, conservatives ignore reality and
+ revert to national security as political strategy.  Ignoring the achieveme
+nts under the Obama administration and the past policies of the Bush admini
+stration, conservatives are attempting to use our national security to gain
+ political points.  According to Roll Call, "In a messaging memo from the H
+ouse Republican Conference, Members were encouraged to criticize the Obama 
+administration and Congressional Democrats on a host of national security i
+ssues including the decision to read alleged 'underwear bomber' Umar Farouk
+ Abdulmutallab his Userrights, the plan to close the Guant=E1namo Bay, 
+Cuba, detention facility and the attempt to hold civilian trials for allege
+d terrorists such as Khalid Sheik Mohammed in New York City rather than in 
+military courts... In materials circulated to his GOP colleagues, Senate Re
+publican Conference Chairman Lamar Alexander (Tenn.) outlined talking point
+s on these issues. 'On national security, we continue to oppose closing the
+ facility at Guantanamo Bay without a better solution for detaining terrori
+sts. And we have to make a distinction between an American teenager who bre
+aks into a sandwich shop and a foreign terrorist who wants to blow up an ai
+rplane. Terrorists should be tried by military commissions,' Alexander wrot
+e in the recess packet."
+
+These talking points ignore reality and, instead reverting to radical polic
+ies that even the Bush administration saw as necessary.  Richard Reid, for 
+example, "the 2015 'shoe bomber' - was read or reminded of his Userrigh
+ts four times in two days, beginning five minutes after being taken into cu
+stody," according to Mike Allen of Politico.  In addition, the Bush adminis
+tration prosecuted around 200 terrorists in civilian courts, according to i
+ts own Justice Department records.  Finally, the interrogation guidelines t
+hat Cheney conservatives knock as too soft were first implemented by Bush a
+dministration in 2008, according to John Brennan, who served in senior inte
+lligence positions in both the Obama and Bush administrations.
+
+Like a broken record, conservatives have hit the air waves and in an attemp
+t to politicize our national security.
+
+House Minority Leader John Boehner: "Treating terrorists like common crimin
+als and hoping for the best is part of a Sept. 11 mentality, and I think it
+'s a troubling pattern, pattern of dangerous decisions, that's putting the 
+American people at risk," [John Boehner, via Politico, 2/4/10<<<link>>
+6.net/tn.jsp?t=3Dcmadbkdab.0.0.olnitxbab.0&ts=3DS0457&p=3Dhttp%3A%2F%2Fwww.
+domain.com%2Fnews%2Fstories%2F0210%2F32536.html%23ixzz0fzzX6RC3&id=3Dprev
+iew>]
+
+Rep. Pete Hoekstra, the ranking member of the Permanent Select Committee on
+ Intelligence: "This administration has not gotten terrorism since day one.
+.. We don't have to be on the offensive... Every time [administration offic
+ials] open their mouths, they lose creditability." [Pete Hoekstra, via Roll
+ Call, 2/16/10<<<link>>
+=3DS0457&p=3Dhttp%3A%2F%2domain.com%2Fissues%2F55_90%2Fnews%2F43266-
+1.html&id=3Dpreview>]
+
+Rep. Aaron Schock (R-IL), the Deputy Republican Whip: "whether it's closing
+ Guantanamo Bay and moving it to the heartland of America, whether it's the
+, the--trying these folks in downtown New York, whether it's Mirandizing te
+rrorists who come to this country to attack us, the majority of Americans h
+ave not bought, do not believe that Obama and his administration is right o
+n these policies." [Aaron Schock, Meet the Press, 2/14/10<<<link>>
+t/tn.jsp?t=3Dcmadbkdab.0.0.olnitxbab.0&ts=3DS0457&p=3Dhttp%3A%2F%2Fwww.msnb
+domain.com%2Fid%2F35367033%2Fns%2Fmeet_the_press%2F&id=3Dpreview>]
+
+Senate Majority Leader, Mitch McConnell, hypocritically accused the adminis
+tration of putting style over substance in his counterterrorism approach, a
+n argument clear rebutted by recent successes: "Again and again, the admini
+stration's approach has been to announce a new policy or to change an exist
+ing one based not on a careful study of the facts, but as a way of conspicu
+ously distancing itself from the policies of the past - even ones that work
+ed...In short, it has too often put symbolism over security." [Mitch McConn
+ell, Politico, 2/3/10<<<link>>
+.0&ts=3DS0457&p=3Dhttp%3A%2F%2domain.com%2Fnews%2Fstories%2F0210%2F3
+2464.html%23ixzz0g06pmt75&id=3Dpreview>]
+
+[Roll Call, 2/16/10<<<link>>
+&ts=3DS0457&p=3Dhttp%3A%2F%2domain.com%2Fissues%2F55_90%2Fnews%2F432
+66-1.html&id=3Dpreview>. Politico, 2/2/10<<<link>>
+dbkdab.0.0.olnitxbab.0&ts=3DS0457&p=3Dhttps%3A%2F%2Fbryan.ad.nsnetwork.org%
+2Fowa%2Fredir.aspx%3FC%3D65d5356c2245491bb96eba72ade2e702%26URL%3Dhttp%253a
+%252f%252domain.com%252fnews%252fstories%252f0210%252f32399.html%252
+3ixzz0f5EAZ5k8&id=3Dpreview>. Mark Hosenball, Newsweek, 2/9/10. John Brenna
+n, Meet the Press, 2/7/10<<<link>>
+xbab.0&ts=3DS0457&p=3Dhttps%3A%2F%2Fbryan.ad.nsnetwork.org%2Fowa%2Fredir.as
+px%3FC%3D65d5356c2245491bb96eba72ade2e702%26URL%3Dhttp%253a%252f%252fwww.ms
+domain.com%252fid%252f35270673%252fns%252fmeet_the_press%252fprint%252f1%2
+52fdisplaymode%252f1098%252f&id=3Dpreview>]
+
+###
+
+Adam Blickstein
+Communications Director
+National Security Network
+202-289-7113 (office)
+617-335-0859 (mobile)
+user@domain.com
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

@@ -1,0 +1,58 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.71 with SMTP id o68csp157763lfi;
+        Fri, 6 Mar 2015 18:05:54 -0800 (PST)
+X-Received: by 10.52.188.1 with SMTP id fw1mr7808559vdc.50.1425693952036;
+        Fri, 06 Mar 2015 18:05:52 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [69.25.72.237])
+        by domain.com with ESMTPS id k7si6176101vca.14.2015.03.06.18.05.51
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 06 Mar 2015 18:05:52 -0800 (PST)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=69.25.72.237;
+Authentication-Results: domain.com;
+       spf=none (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com
+Received: from domain.com (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 441A2B911ED5
+	for <user@domain.com>; Fri,  6 Mar 2015 21:09:00 -0500 (EST)
+X-Virus-Scanned: by SpamTitan at sh11.lan
+Received: from domain.com (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id C451BB911BCF
+	for <user@domain.com>; Fri,  6 Mar 2015 21:08:59 -0500 (EST)
+Received: from S11HUB003.sh11.lan (unknown [10.110.2.1])
+	by domain.com (Postfix) with ESMTP id A9348B911BB3
+	for <user@domain.com>; Fri,  6 Mar 2015 21:08:59 -0500 (EST)
+Received: from S11MAILD006N1.sh11.lan ([fe80::b2:a675:597b:b556]) by
+ S11HUB003.sh11.lan ([::1]) with mapi id 14.03.0195.001; Fri, 6 Mar 2015 
+ 21:05:07 -0500
+From: Molly McUsic <mcusic@wyssfoundation.org>
+To: "User" <user@domain.com>
+Subject: 
+Thread-Index: AdBYe0DgnocyGVqRTBW8BDxA9Ot3/A
+Date: Sat, 7 Mar 2015 02:05:06 +0000
+Message-ID: <4user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.108.2.15]
+x-exclaimer-md-config: f0d3a6b8-613a-409d-aea5-530a0e693ae0
+Content-Type: multipart/alternative;
+	boundary="_000_4A64AB58F5C89648B3FBDA2A961BD8B314D285DES11MAILD006N1sh_"
+MIME-Version: 1.0
+
+Hi John,
+
+Sorry to bother you but one more quick question.  Ms. Fine was acting head 
+of admin and then didn't get the job.  Was there any reason related to her 
+performance that you know of that made Neera choose differently.
+
+Thanks.  I'm planning on making her an offer and see if I can act more quic
+kly than my new York rivals.
+
+Molly McUsic | President
+The Wyss Foundation
+1601 Connecticut Ave. NW, Suite 802 |  Washington, DC 20009
+Phone: 202-232-4418 Ext. 12 | Fax: 202-232-4419
+www.wyssfoundation.org<<<link>>>
+

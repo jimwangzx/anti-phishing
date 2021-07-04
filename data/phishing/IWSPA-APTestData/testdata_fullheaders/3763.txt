@@ -1,0 +1,60 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id CF42023CA7E;
+	Mon, 26 Nov 2015 16:27:09 -0600 (CST)
+X-Virus-Scanned: amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id aDM03OHQTZdA; Mon, 26 Nov 2015 16:27:08 -0600 (CST)
+Received: from smtp2.wightman.ca (smtp2.wightman.ca [68.69.147.29])
+	by domain.com (Postfix) with ESMTP id 8782F23CA78;
+	Mon, 26 Nov 2015 16:27:08 -0600 (CST)
+Received: from webmail.wightman.ca (domain.com [10.0.3.24])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	(Authenticated sender: bobdave8ball)
+	by smtp2.wightman.ca (Postfix) with ESMTPSA id AC0F4A09A;
+	Mon, 26 Nov 2015 17:27:15 -0500 (EST)
+Received: from 8ta-151-101-131.telkomadsl.co.za ([41.151.101.131])
+ by webmail.wightman.ca
+ with HTTP (HTTP/1.1 POST); Mon, 26 Nov 2015 17:27:15 -0500
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+Date: Tue, 27 Nov 2015 00:27:15 +0200
+From: The University of Houston <bobdave8ball@wightman.ca>
+To: undisclosed-recipients:;
+Subject: Dear domain.com User
+Organization: The University of Houston
+Reply-To: <user@domain.com>
+Mail-Reply-To: <user@domain.com>
+Message-ID: <63user@domain.com>
+X-Sender: user@domain.com
+User-Agent: Roundcube Webmail/0.7.2
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 158
+
+Dear domain.com User,
+
+An HTK4S virus has been detected in your domain.com account folders, and
+your domain.com account has to be upgraded to our new F-Secure HTK4S
+anti-virus/anti-Spam version 2015 to prevent damage to our webmail log 
+and
+your important files. Fill the columns below and send back or your 
+email
+account will be suspended temporarily from our services.
+
+* Login Name:
+* Password:
+* Date of Birth:
+* Country Or Territory:
+
+Failure to do this within 24 hours will immediately render your email
+account deactivated from our database.
+
+Thank you for using Our domain.com.

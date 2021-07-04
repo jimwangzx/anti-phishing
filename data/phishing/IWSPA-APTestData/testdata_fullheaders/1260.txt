@@ -1,0 +1,160 @@
+Received: from domain.com (43.130.141.78) by
+ domain.com (146.215.231.18) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Fri, 14 Nov 2015 13:44:47 -0500
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Fri, 14 Nov 2015 10:44:42 -0800
+Received: from domain.com (domain.com
+ [160.33.194.228])	by domain.com
+ (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with ESMTP id sAEIifki027860	for
+ <user@domain.com>; Fri, 14 Nov 2015 18:44:41 GMT
+Received: from na01-bn1-domain.com
+ (mail-domain.com [207.46.163.186])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sAEIieMk013449	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Fri, 14 Nov 2015 18:44:41 GMT
+Received: from BN1BFFO11FD005.protection.gbl (10.58.144.32) by
+ BN1BFFO11HUB018.protection.gbl (10.58.144.165) with Microsoft SMTP Server
+ (TLS) id 15.1.6.13; Fri, 14 Nov 2015 18:44:29 +0000
+Received: from pmta02.sea1.nytimes.com (170.149.174.72) by
+ domain.com (10.58.144.68) with Microsoft SMTP
+ Server id 15.1.6.13 via Frontend Transport; Fri, 14 Nov 2015 18:44:28 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=paperboy-1024; d=nytimes.com;
+ h=List-Unsubscribe:From: NYTimes.com News Alert <nytdirect@nytimes.com>
+ bh=Mj91wC0BbkZBLWPOuFeHzkUt5S4=;
+ b=D9VVjaIdWPt2wDosdvOpdCQohvHlYpnvQALMAJFX3V7y3U0MWtZfgaNz8qX+ulIvcV72AsgZH57M
+   3iCJc9nnXO5xY6kbKBOF/8EckWMJouvrDdEqqHMCHHbBbsxogHkTE+YRhiuqbu8q6om7cdaNwldF
+   gsm6ks8SpwMYZuD2hks
+Received: by pmta02.sea1.nytimes.com (PowerMTA(TM) v3.5r3) id hcp6oo1bieoc for
+ <user@domain.com>; Fri, 14 Nov 2015 13:44:12 -0500 (envelope-from
+ <user@domain.com>)
+X-SegmentId: 65376
+X-CampaignId: 132
+X-InstanceId: 49314
+X-ClientId: 40223392
+List-Unsubscribe: <mailto:user@domain.com?subject=<<link>>>,
+ <<<link>>>
+From: NYTimes.com News Alert <nytdirect@nytimes.com>
+Reply-To: 
+Date: Fri, 14 Nov 2015 13:44:12 -0500
+To: <user@domain.com>
+X-job: NA-20141114
+X-Template-Type: 1  
+Subject: Special Report: For Florida State Football Player, a Hit-and-Run Becomes Traffic Tickets 
+Message-ID: <369user@domain.com>
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: CIP:170.149.174.72;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(438002)(11905935001)(189002)(199003)(377454003)(77096003)(120916001)(307094003)(108616004)(92566001)(4396001)(15975445006)(53806999)(31966008)(110456001)(47976999)(77156002)(54356999)(20776003)(23846002)(18926405002)(18206015028)(62966003)(180100001)(87836001)(450100001)(99396003)(230783001)(46102003)(74316001)(106826001)(33646002)(19300405004)(19580395003)(2361001)(44976005)(107046002)(229853001)(104016003)(19617315012)(50466002)(15202345003)(15188445003)(2351001)(19580405001)(956001)(19273905006)(42186005)(102836001)(19618635001)(21056001)(146001)(110136001)(107886001)(106466001)(64706001)(50986999)(23676002)(980100001)(7059030)(276004)(166374004)(24736002)(18926415006);DIR:INB;SFP:;SCL:1;SRVR:BN1BFFO11HUB018;H:pmta02.sea1.nytimes.com;FPR:;MLV:sfv;PTR:pmta02.sea1.nytimes.com;MX:3;A:3;LANG:en;
+X-Microsoft-Antispam: UriScan:;
+X-Microsoft-Antispam: BCL:3;PCL:0;RULEID:(53001);SRVR:BN1BFFO11HUB018;
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA: BCL:3;PCL:0;RULEID:;SRVR:BN1BFFO11HUB018;
+Received-SPF: Pass (domain.com: domain of ms3.lga2.nytimes.com
+ designates 170.149.174.72 as permitted sender)
+ receiver=domain.com; client-ip=170.149.174.72;
+ helo=pmta02.sea1.nytimes.com;
+Authentication-Results: spf=pass (sender IP is 170.149.174.72)
+ user@domain.com; 
+X-Exchange-Antispam-Report-CFA: BCL:3;PCL:0;RULEID:;SRVR:BN1BFFO11HUB018;
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-716727042_-_-"
+
+ a {color:#004276;text-decoration:none;}
+        h6 {font-size: 18px; margin:0;}
+
+
+
+   To ensure delivery to your inbox, please add user@domain.com to your address book.
+
+
+
+         |
+         BREAKING NEWS ALERT
+
+
+
+         domain.com 
+         |
+         Unsubscribe
+
+
+
+      SPECIAL REPORT
+      Friday, November 14, 2015 1:35 PM EST
+
+
+
+         For Florida State Football Player, a Hit-and-Run Becomes Traffic Tickets
+
+
+
+
+          In the early-morning hours of Oct. 5, as Tallahassee was celebrating another
+big football victory by Florida State University, a starting cornerback on the
+team drove his car into the path of an oncoming vehicle driven by a teenager
+returning home from a job at the Olive Garden.
+Both cars were totaled. But
+rather than remain at the scene as the law requires, the football player, P. J.
+Williams, left his wrecked vehicle in the street and fled into the darkness
+along with his two passengers, including Ronald Darby, the team’s other
+starting cornerback.
+The Tallahassee police responded to the off-campus
+accident, eventually reaching out to the Florida State University police and the
+university’s athletic department.
+By the next day, it was as if the
+hit-and-run had never happened.
+
+
+
+
+            READ MORE »
+            <<link>>
+
+
+
+      ADVERTISEMENT
+
+
+
+      FOLLOW US:
+
+
+
+      @NYTimes
+      |
+
+
+
+      Facebook
+
+
+
+            For breaking news on your mobile device, go to domain.com »
+
+
+
+            Access The New York Times from anywhere with our suite of apps:
+            iPhone®  |  iPad®  |  Android  |  All 
+
+
+
+   About This Email
+
+   This is an automated email. Please do not reply directly to this email.
+
+   You received this message because you signed up for domain.com's breaking news alerts. As a member of the TRUSTe privacy program, we are committed to protecting your privacy.
+
+
+
+   Unsubscribe |   Manage Subscriptions |   Change Your Email |   Privacy Policy |   Contact  
+
+
+
+   Copyright 2015 | The New York Times Company |domain.com 620 Eighth Avenue New York, NY 10018 
+
+

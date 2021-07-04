@@ -1,0 +1,94 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp122851lfb;
+        Fri, 11 Dec 2015 07:00:54 -0800 (PST)
+X-Received: by 10.182.24.37 with SMTP id r5mr14198427obf.77.1449846054875;
+        Fri, 11 Dec 2015 07:00:54 -0800 (PST)
+Return-Path: <bounces+963262-477user@domain.com>
+Received: from domain.com (domain.com. [167.89.32.35])
+        by domain.com with ESMTPS id w197si17755449oia.105.2015.12.11.07.00.54
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 11 Dec 2015 07:00:54 -0800 (PST)
+Received-SPF: pass (domain.com: domain of bounces+963262-477user@domain.com designates 167.89.32.35 as permitted sender) client-ip=167.89.32.35;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of bounces+963262-477user@domain.com designates 167.89.32.35 as permitted sender) smtp.mailfrom=bounces+963262-477user@domain.com;
+       dkim=temperror (no key for signature) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=powerpacplus.org; 
+	h=From: "Steve Phillips, PowerPAC+" <info@powerpacplus.org>
+	s=smtpapi; bh=IQ+QyxgCtl0gCvvekcG8iSaZAhE=; b=m+Fn1DOHrN40GtRE/P
+	vrSCXqbZ12XPPEf8RzMV/qW5y1euJpioPliADE08WknhLJVdYYLuqoA/bIbFUtfB
+	4iKTtQd+tDUO1BDu8EVpqt2WeXVwx7keaGGgk8gTN0Bfwlf+yhmVyde7Zp6J9DGP
+	Y9JYofn1MyDPQFJSvwkMK383g
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.info; 
+	h=From: "Steve Phillips, PowerPAC+" <info@powerpacplus.org>
+	s=smtpapi; bh=IQ+QyxgCtl0gCvvekcG8iSaZAhE=; b=CiLYMMpaVXkkAejtwN
+	OAdl+i6H5ugchJEbeNapEnnunfn482+b/kvQXaq4ZGWpnCx3CR4NKhpjm8Xb5LEI
+	QRS363zz3+n6jTGfjQnzPrUaL8RB60xbV5xnZu8AEKgLT+znY+HGjshJgnaXISWB
+	3m92Dzr+PkBdWPVS5AACGZ5NI
+Received: by domain.com with SMTP id filter0478p1mdw1.16815.566AE5233C
+        2015-12-11 15:00:51.309814711 +0000 UTC
+Received: from domain.com (ip-162-219-220-2.rdns.3dna.io [162.219.220.2])
+	by domain.com (SG) with ESMTP id Nx8ItbhjSTOCaeO2QkG-cQ
+	for <user@domain.com>; Fri, 11 Dec 2015 15:00:51.185 +0000 (UTC)
+Date: Fri, 11 Dec 2015 15:00:50 +0000
+From: "Steve Phillips, PowerPAC+" <info@powerpacplus.org>
+To: John user <user@domain.com>
+Message-ID: <566user@domain.com>
+Subject: URGENT! Demand Cleveland Prosecutor Question the Cops
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_566ae522dd6fa_5164c7d328932e8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-SG-EID: p7DGjev3kDhYNXGtfGO9jbmQ3Oi75URC5nx+Didgsq/r6w2V1W6hYN3wBlLYF9G4OAfLCFlDxCJfG9
+ 4UKIQZUBCJt3t166+DoVyal/5Z7LnLH5eRwPuxKBJQfpJIdoTRyKnBWYwI8SN22ye9p7xAbwIZX7Pm
+ 6tkk9rznqwqNpSZ+LXTfSi0O4B7BBIR41str+J2nvKSy92+X/B2D7PFI0D2ZYu2EHHKeZzt/fxSFmi
+ wIQzyLV46lYXT2Hzgzi/QF
+X-SG-ID: SolyLoj4M+6t0KZQOavh+OVwtfIHaa/4aZMUhLO3nSF2fHQJ3xftLZ+tkWDKTgl6adZBVzWF1CH3KE
+ sbJKFixt6oYfOvKN94nwYFtbd/exBjYG4DYxrHsLzAY5qceFgksB5L9M0qC8voZ5JlzFBomg
+X-Feedback-ID: 963262:0+4PUjukUpdegaXQ/+/YC3s5G4/laP8x+LmHWV+yVOE=:ODbypnXPhHQHJFpt/3gPkB5d9PXphUyzH5XFS6w5qxY=:SG
+
+Dear John,
+
+The epidemic of police killings of unarmed Black males has become one of th
+e most pressing issues facing the country. I am writing you with a time-urg
+ent appeal to help get justice for Tamir Rice, the 12-year old boy shot and
+ killed by Cleveland police last year. =C2=A0
+
+Rather than aggressively pursuing justice for Tamir and his family, Clevela
+nd prosecutor Tim McGinty is bending over backwards to protect the officers
+ who did the shooting.=C2=A0 I explain the issues in THIS PIECE <<<link>>
+domain.com/@stevepwrites/tamirrice-cleveland-prosecutor-should-question-the-c
+ops-3a3f0dd83e46#.5m8v9rwq6>. The bottom line is that McGinty has allowed t
+he officers who shot Tamir to present their side of the story to the grand 
+jury, but he won't cross-examine them, wrongly claiming they have asserted 
+their 5th Amendment Rights.=C2=A0
+
+Please take one minute to call the prosecutor's office and tell them your n
+ame and that you want McGinty to question the cops who killed Tamir. Here i
+s the number -=C2=A0216.443.7800. <>
+
+Thank you for everything you do.
+
+In Solidarity,
+
+Steve Phillips
+PowerPAC+ Chair
+
+-=3D-=3D-
+Paid for by PowerPAC+ and not authorized by any candidate or candidate=E2
+=80=99s committee.
+
+Donate: <<link>>
+=09=09=09
+Facebook: <<link>>
+Twitter: <<link>>
+YouTube: <<link>>
+Instagram: <<link>>
+
+This email was sent to user@domain.com  To stop receiving emails: h
+ttp://www.powerpacplus.org/unsubscribe
+-=3D-=3D-
+
+Created with NationBuilder - <<link>>

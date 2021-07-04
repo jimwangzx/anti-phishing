@@ -1,0 +1,113 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 11 Sep 2015 06:57:30 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with
+ ESMTP id s8BDvT8H015334	for <user@domain.com>; Thu, 11 Sep 2015 
+ 13:57:30 GMT
+Received: from na01-by2-domain.com
+ (mail-domain.com [207.46.163.236])	by
+ domain.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with
+ ESMTP id s8BDvSxi023132	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 11 Sep 2015 13:57:29 GMT
+Received: from BN1BFFO11FD033.protection.gbl (10.58.144.34) by
+ BN1BFFO11HUB007.protection.gbl (10.58.144.154) with Microsoft SMTP Server
+ (TLS) id 15.0.1019.14; Thu, 11 Sep 2015 13:57:26 +0000
+Received: from domain.com (17.254.6.168) by
+ domain.com (10.58.144.96) with Microsoft SMTP
+ Server (TLS) id 15.0.1019.14 via Frontend Transport; Thu, 11 Sep 2015 
+ 13:57:25 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=new.itunes.com; s=itunes2048; c=relaxed/simple;
+	q=dns/txt; user@domain.com; t=1410443844;
+	h=From: iTunes <discover@new.itunes.com>
+	bh=JvsYlywZlOG5i3Wc1XNOtNtgbko=;
+	b=TKikBHmsSMvXyaycb8t7KejNenqwuSroTDnYFi0Ksjzi3OK+WmlcXLB0BswsMQXd
+	f6yUqNFYadKaSSMvR7SGjVT2U91qT0REDttbMCeKdcA1gyfthzT4IdO6gtWGvyUA
+	CIGz8E1+prnMz1vSWOnFC/Ylzpus4YL8YMbpqiLCiVmJdlwqY6tXPzOQJSR+ZngY
+	zuog5xbCOgvXFj6rsFe/GMZyvQwbA1P9ImIEWU4tbqPmgAiGuOmIyfSYvtaqP3Sl
+	qNUKKkGLGw3uctpAs7kQcj3O3ka63fxydcqynyvjuPcCZ5RZbuAQVlAXgEX3zg8B
+	tMngs39Ckz4y19zWbNyi+A==;
+Date: Thu, 11 Sep 2015 13:57:24 +0000
+From: iTunes <discover@new.itunes.com>
+To: <user@domain.com>
+Message-ID: <384844272.723195687.1410443844125.user@domain.com>
+Subject: U2's New Album: A Gift to You
+X-Broadcast-Id: 127338
+List-Unsubscribe: <<<link>>>
+X-Sent-To: user@domain.com,2,RZ%2BgoeR71UiH4QLdX0jy1wfr4VvRNfFLvdxnFRHQibCRp7ooq5sQ%2B7CIuDwCFH8uJNYSojHBXfsOlVwZ2E7wEtobr8n0mWod53Wv9QaJARrVbwCrDuvkavnZUzijFpiL
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: CIP:17.254.6.168;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(438002)(539002);DIR:INB;SFP:;SCL:1;SRVR:BN1BFFO11HUB007;H:domain.com;FPR:;MLV:nov;PTR:domain.com;A:1;MX:1;LANG:en;
+X-Microsoft-Antispam: BCL:3;PCL:0;RULEID:(50001);UriScan:;
+Received-SPF: Pass (domain.com: domain of new.itunes.com
+ designates 17.254.6.168 as permitted sender) receiver=domain.com;
+ client-ip=17.254.6.168; helo=domain.com;
+Authentication-Results: spf=pass (sender IP is 17.254.6.168)
+ user@domain.com; 
+X-OriginatorOrg: domain.com
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1565345516_-_-"
+
+iTunes
+
+A { text-decoration: none; } A:link { color: #777777; text-decoration: none; } A:visited { text-decoration: none; } A:active { color: #696969; text-decoration: underline; } A:hover { text-decoration: underline;}
+
+Apple and U2 are giving the band's new album to over 500 million iTunes Store customers worldwide. It's available from your Purchased page on iTunes and in your music library, ready for you to listen now. Never before have this many people owned an album — let alone on the day it was released. This is a big moment in music history. And you're a part of it. Learn more about accessing your album, watch the ad, and get more U2 albums at limited-time prices.
+
+
+
+
+Music
+
+Movies
+
+TV
+
+App Store
+
+Books
+
+
+
+
+Apple and U2 are giving the band's new album to over 500 million iTunes Store customers worldwide. It's available from your Purchased page on iTunes and in your music library, ready for you to listen now. Never before have this many people owned an album — let alone on the day it was released. This is a big moment in music history. And you're a part of it. Learn more about accessing your album, watch the ad, and get more U2 albums at limited-time prices.
+
+Check It Out
+
+
+
+
+Explore
+
+Podcasts
+iTunes U
+Games
+
+Features
+
+iTunes Radio
+Beats Music
+iTunes Festival
+
+Help
+
+Support
+Privacy Policy
+Terms and Conditions
+
+Manage
+
+Account
+Subscribe
+Unsubscribe
+
+
+
+
+iTunes for Mac and Windows
+
+All rights reserved. Copyright © 2015 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014
+
+The iTunes Store, iBooks Store, and App Store are available only to persons age 13 or older and in the U.S. iTunes 11 or later, compatible hardware and software, and domain.com access (fees may apply) are required. iTunes Radio requires iTunes 11.1 or iOS 7. Multi-Touch and iBooks Author books are only viewable on an iPad or desktop computer with compatible software. Some content has specific hardware or software requirements; please review product information before purchasing. Full terms apply, available at domain.com/legal/itunes/us/terms.html. For more information see domain.com/itunes. Content prices and availability subject to change and do not include taxes.
+

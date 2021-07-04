@@ -1,0 +1,83 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 1 Jan 2015 04:00:29 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s01C0TRc015541	for <user@domain.com>; Wed, 1 Jan 2015 
+ 12:00:29 GMT
+Received: from mail12-va3-domain.com (mail-domain.com
+ [216.32.180.114])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s01C0SuU030251
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Wed, 1 Jan 2015 12:00:29 GMT
+Received: from mail12-va3 (localhost [127.0.0.1])	by mail12-va3-domain.com
+ (Postfix) with ESMTP id 8B4A82C0127	for <user@domain.com>; Wed,  1
+ Jan 2015 12:00:28 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:97.107.25.101;KIP:(null);UIP:(null);IPV:NLI;H:outbound3.email-domain.com;RD:outbound3.email-domain.com;EFVD:NLI
+X-SpamScore: -13
+X-BigFish: vps-13(zzdddahc3f3Rzz1f42h2148h208ch1ee6h1de0hdcah1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah199bM1fc6h1f8fizz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h1de096h186068h18602eh1ce121iz2fheh5eh5fh839h944h950ha12h10d2h1288h12a5h137ah13b6h13eah1441h14ddh1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1a75h1b0ah224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1fe8h1ff5h2216h2336h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail12-va3: domain of e.marquiswhoswho.com designates 97.107.25.101 as permitted sender) client-ip=97.107.25.101; user@domain.com; helo=outbound3.email-domain.com ;domain.com ;
+Received: from mail12-va3 (localhost.localdomain [127.0.0.1]) by mail12-va3
+ (MessageSwitch) id 1388577625656038_24275; Wed,  1 Jan 2015 12:00:25 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.226])	by
+ mail12-domain.com (Postfix) with ESMTP id 2112D2004F	for
+ <user@domain.com>; Wed,  1 Jan 2015 12:00:25 +0000 (UTC)
+Received: from outbound3.email-domain.com (97.107.25.101) by
+ domain.com (10.7.99.34) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 1 Jan 2015 12:00:20 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=e.marquiswhoswho.com; s=ym1024; c=relaxed/simple;
+	q=dns/txt; user@domain.com; t=1388577620;
+	h=From: Marquis Who's Who <Info@e.marquiswhoswho.com>
+	bh=r8ZjKsZvoIpNS1bROHhy1iaX29s=;
+	b=jeqSfaqT1ELMnS7BVHPTvG68Mjnr7tzIqFs80olFTCclMCn8QkltYu0Iiy9aKTBx
+	3T6W4ULqkhT5ppySajQsq0ThftpxIgGGve73Ptn5aDjFy6WC/fgIUA3fUtzQrtMy
+	MT/4KpINJ4BfmX6spFcZbveEXDTRZ/TMr/4i3KhSLJk=;
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=ym1024; d=e.marquiswhoswho.com;
+	h=Date:From: Marquis Who's Who <Info@e.marquiswhoswho.com>
+	b=O/ZG760e+qvmc6QdoTKdZecFq6233TE/xplknxNrPY38TRzJCaIiUtZZBGPyKjWd
+	MD0C5Tey/rMWHbVGn26+Ro9YFnt6Unfb8H3ZGan7xZjcP3xfm5KnqAAU0tMhGiq3
+	Iwcy6jr1HgJVZPT1sattcUry5BOPQUWde7WYBd6doxs
+Date: Wed, 1 Jan 2015 04:00:18 -0800
+From: Marquis Who's Who <Info@e.marquiswhoswho.com>
+Subject: Wishing you a Happy New Year!
+To: Amy Pascal <user@domain.com>
+X-Header-Versions: MarquisWho'user@domain.com
+X-Header-CompanyDBUserName: marquisww
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>
+Message-ID: <MarquisWho'user@domain.com>
+X-Vitals: 1.130639.294824.1441566.12.9f3b
+Reply-To: <MarquisWho'user@domain.com>
+X-Header-MasterId: 1441566
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Wishing you a Happy New Year!
+
+Have a Happy and Healthy 2014! 
+
+Click here if you are unable to view the images in this email. 
+
+Happy New Year from Marquis Who's Who!  
+
+Dear Amy Pascal,
+
+We would like to take this opportunity to wish you a happy and healthy New Year, and to thank you for your continued support of Marquis Who's Who.
+
+As a member of the Marquis Who's Who family, you play a key role in upholding a tradition of excellence that spans more than a century, one that can be proudly shared with family, friends, and colleagues.
+
+Only with your participation, and the careful review of your biographical information, are we able to produce accurate and up-to-date publications, relied upon by many of the world's most prestigious libraries and corporations.
+
+We're honored to have you as a listee and wish you continued success in 2014.
+
+Sincerely,
+
+Fred Marks, Editor-in-Chief
+and the entire Marquis Who's Who staff
+
+P.S. If you'd like to nominate a friend or colleague to be listed in a Marquis Who's Who publication in the coming year, simply click here. 
+

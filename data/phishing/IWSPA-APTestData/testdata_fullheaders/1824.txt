@@ -1,0 +1,44 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp1293711lfi;
+        Mon, 27 Apr 2015 06:01:25 -0700 (PDT)
+X-Received: by 10.107.17.198 with SMTP id 67mr13039918ior.64.1430139684460;
+        Mon, 27 Apr 2015 06:01:24 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [209.85.213.169])
+        by domain.com with ESMTPS id qf5si2551914igb.22.2015.04.27.06.01.23
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Apr 2015 06:01:24 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.213.169 as permitted sender) client-ip=209.85.213.169;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.213.169 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-domain.com with SMTP id hj9so60652975igb.1
+        for <user@domain.com>; Mon, 27 Apr 2015 06:01:23 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Robby Mook <re47@hillaryclinton.com>
+         :content-type;
+        bh=EEeot61nFsFZ5AnMP9MCtfFuLuKTr/jgBoDNWaLeBBE=;
+        b=EJaS6HdUcFUhAOeYJmencaub0P7q7ny2bgYGSW091UlO9vw7Q16SS6Xs1Xh/71SPB/
+         db3jUqrolRqU9kVc/wZ+xkjvSKgwoy5u/drgRK2CUcoZzGs+OW66SVh1gvUbDad1sXcz
+         pXKhMo7ovkZqUFHNTRDiI+GL5Trc2/u26XThkPGzVMTGb3PbhUo4Yy2bPUr2WgxL9tKA
+         MKoDXEQJ2xp1844oqxiODllGXY00uKR/fKYqXB4GgJJa4wwnECVNLYho+9ennhPPfm3m
+         T//d33jtw8JEAKFg9GZSdQ3VcfscQI3zwPvWCwrS0eQ8DUhyxWe+wyUM9e02EQOO0AT5
+         1v8Q
+X-Gm-Message-State: ALoCoQkgwKEJniiPtiKJsqVQbi5iGwQ3dOpibFETOIOR9xfBbNdmwrkzDUKvl1DpWDIB4cVkQ9Y3
+X-Received: by 10.50.57.112 with SMTP id h16mr12966245igq.35.1430139683742;
+ Mon, 27 Apr 2015 06:01:23 -0700 (PDT)
+From: Robby Mook <re47@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+Date: Mon, 27 Apr 2015 08:31:59 -0400
+Message-ID: <4572815821509451438@unknownmsgid>
+Subject: Foundation
+To: John user <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+
+Should we do another convo w Maura about really beefing up their
+efforts?  Still feels like their plan to push accomplishments is thin.
+Or am I just being anxious?

@@ -1,0 +1,95 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 093AE536E43
+	for <user@domain.com>; Mon,  3 Oct 2015 13:27:11 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 685296FA305
+	for <user@domain.com>; Mon,  3 Oct 2015 13:27:07 -0400 (EDT)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Mon,  3 Oct 2015 13:27:07 -0400 (EDT)
+Received: by domain.com (Postfix)
+	id C32251BC17; Mon,  3 Oct 2015 19:26:41 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from localhost (unknown [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 6555C1BBE7
+	for <user@domain.com>; Mon,  3 Oct 2015 17:26:41 +0000 (UTC)
+Received: from domain.com ([193.146.180.21])
+	by localhost (lujan [193.146.180.21]) (amavisd-new, port 10024)
+	with ESMTP id 17453-06 for <user@domain.com>;
+	Mon, 3 Oct 2015 19:26:23 +0200 (CEST)
+Received: from 62.193.212.129 (unknown [62.193.212.129])
+	by domain.com (Postfix) with SMTP id 1A2701BB50
+	for <user@domain.com>; Mon,  3 Oct 2015 19:26:22 +0200 (CEST)
+Received: from 163.93.236.159 by ; Mon, 03 Oct 2015 23:20:08 +0500
+Message-ID: <user@domain.com>
+From: "Credit Union National Association (CUNA)" <support@cuna.org>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: [*** POSIBLE SPAM***] IMPORTANT: CUNA Verification
+Date: Mon, 03 Oct 2015 19:26:08 +0100
+X-Mailer: Microsoft Outlook, Build 10.0.2627
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--513144460204740"
+X-Priority: 1
+X-MSMail-Priority: High
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at domain.com
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ******************
+X-Spam-Status: Yes, score=18.3 required=5.0 tests=FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,FORGED_OUTLOOK_TAGS,HTML_40_50,HTML_IMAGE_ONLY_20,
+	HTML_MESSAGE,MIME_BOUND_DD_DIGITS,MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,
+	MISSING_MIMEOLE,MPART_ALT_DIFF,MSGID_SPAM_CAPS,NORMAL_HTTP_TO_IP,
+	RCVD_IN_BL_SPAMCOP_NET,RCVD_NUMERIC_HELO,WEIRD_PORT autolearn=spam 
+	version=3.0.2
+X-Spam-Report: 
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  3.8 MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.1 WEIRD_PORT URI: Uses non-standard port number for HTTP
+	*  0.0 HTML_40_50 BODY: Message is 40% to 50% HTML
+	*  0.4 HTML_IMAGE_ONLY_20 BODY: HTML: images with 1600-2000 bytes of words
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  0.1 FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Content-Length: 1908
+Lines: 56
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 294
+
+National domain.com Union Administrat
+ion
+
+Dear CU holder account,
+      This notice informs you that your domain.com Union bank has joined ou
+r Federal domain.com Union(FCU) network. For both, our and your security, we a
+re asking you to activate an online account on our database. After activat
+ion you can login on our system with your SSN and your domain.com/domain.com PIN nu
+mber. 
+You must domain.com the FCU activation page and fill in the form to ac
+tivate your online account:
+<>
+In accordance with NCUA User Agreement, you can use your online a
+ccount in 24 hours after activation. We thank you for your prompt attentio
+n to this matter. Please understand that this is a security measure intend
+ed to help protect you and your account.
+
+We apologize for any inconvenience. 
+Sincerely, NCUA Account Review Department 
+
+          Please do not reply to this e-mail. Mail sent to this address ca
+nnot be answered

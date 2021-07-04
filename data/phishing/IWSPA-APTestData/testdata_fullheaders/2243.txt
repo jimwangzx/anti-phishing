@@ -1,0 +1,84 @@
+Delivered-To: user@domain.com
+Received: by 10.204.35.132 with SMTP id p4csp369683bkd;
+        Fri, 19 Apr 2015 11:08:31 -0700 (PDT)
+X-Received: by 10.236.167.103 with SMTP id h67mr12262899yhl.1.1366394910170;
+        Fri, 19 Apr 2015 11:08:30 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [69.48.252.166])
+        by domain.com with ESMTP id l50si10245805yhl.243.2013.04.19.11.08.29;
+        Fri, 19 Apr 2015 11:08:30 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.48.252.166 as permitted sender) client-ip=69.48.252.166;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 69.48.252.166 as permitted sender) user@domain.com;
+       dkim=pass (test mode) user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=selector1; d=mta-domain.com;
+ h=Message-ID:Date:Reply-To:Mime-Version:Content-Type:From: Vanessa Kritzer <feedback@lcv.org>
+ bh=SUKRgI4gn1WA549bQ3VTg5tQGgU=;
+ b=jJBJbUNLbuLkACfZXVwCBRjHhkDC7Yr6nGhPYojE3qVnYO5NfH95HBmCYIAUnLr+wYTwQGIZ/mrv
+   H9K8YrobVWMOK2yzYYSflupYMToCBlOaVI5ZzheKBE3udTqL2L4mMPLVARHZAC7i2cuPNVLNMc56
+   84YfVLp/gmyQRHxQ9fs
+Received: from 10.0.31.216 (10.0.31.59) by mta-domain.com id he63mq1iipsi for <user@domain.com>; Fri, 19 Apr 2015 12:59:04 -0500 (envelope-from <user@domain.com>)
+Message-ID: <24446020.1366394522006.user@domain.com>
+Date: Fri, 19 Apr 2015 10:55:51 -0500 (CDT)
+Reply-To: Vanessa Kritzer <user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8750146_18109088.1366394521997"
+Organization: League of Conservation Voters
+X-campaignid: Convio-poola-lcv-28001
+X-Gateway: c3poola2
+XData: 1010,user@domain.com@user@domain.com
+X-ConvioDeliveryGroup: poola
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; 
+  s=convio1; d=lcv.org; 
+  h=From: Vanessa Kritzer <feedback@lcv.org>
+  b=RkMUkQp1LPX0JBeVu0cNGTafILmtfnDqrrBxx0SdoA/ra5N/wtr0fx98om1Q2Z8AR4ANJqvbX79Sc6W3Ap8Sdg==  
+From: Vanessa Kritzer <feedback@lcv.org>
+To: user@domain.com
+Subject: No. More. Oil. Spills. 
+
+ACTION DEADLINE: Monday. We only have four days left to reach one million comments against the risky Keystone XL tar sands pipeline! Tell the Obama Administration to protect us against more tar sands spills by rejecting this dangerous pipeline now: <<link>> .
+
+John,
+
+Three years after the oil spill in the Gulf of Mexico and we're still letting Big Oil put our air, water, and wildlife at risk. Help us end the cycle of risky dirty energy projects and oil spills now. Tell the Obama Administration to reject the dangerous Keystone XL Pipeline by Monday's comment period DEADLINE: <<link>> .
+
+Tomorrow marks three years since the Deepwater Horizon rig exploded in the Gulf of Mexico, causing the largest offshore oil spill in U.S. history.
+
+Three years and the communities along the Gulf are still reeling from the impacts of this horrible disaster on their health and their environment. Three years and BP still has not fully paid their dues for the cost of the cleanup. Three years and we're still letting Big Oil run dangerous operations that put our air, water, and wildlife at risk.
+
+Join us in saying NO to more spills and NO to the risky Keystone XL tar sands pipeline. Make your voice heard by Monday's deadline: <<link>> .
+
+If we want to protect our health, our environment, and our climate for future generations, we must end this cycle of allowing risky dirty energy projects to go forward and then suffering the consequences of terrible oil spills.
+
+Here's why stopping the Keystone XL pipeline is so important for protecting our domain.com: The Keystone XL pipeline would carry tar sands oil, which is more toxic and releases more global warming pollution than regular oil. NASA climate scientist James Hansen has said that if the Keystone XL pipeline is built it will mean "game over" for climate.
+
+This pipeline would go straight through America's heartland and we know from past pipelines that spills are bound to happen. When spills do happen, like we've just seen in Arkansas, it turns out that companies don't know how to effectively clean up tar sands oil and it has already been causing health problems for many people living near the spill. And what could make matters even worse? Because of a legal loophole that doesn't classify tar sands crude as "oil," companies like Exxon are not required to fully pay for tar sands cleanup efforts.
+
+This is infuriating, but we can stop this irresponsible pipeline if we show the Obama Administration that millions of their citizens are demanding it.
+
+Help us reach our goal of sending one million messages to the Obama Administration by this Monday. Send a message now: <<link>> .
+
+Until this Monday, April 22, the State Department is accepting comments on its review of the potential environmental impacts of the Keystone XL pipeline. That means that you have the chance to weigh in about the risks this dirty pipeline would pose to our health, environment, and future. But you have to send your message in by Monday or it won't be counted!
+
+We're joining with groups across the environmental movement to gather one million comments opposing this risky pipeline by the end of the comment period. Right now, we have gathered more than 850,000 messages, but with only 4 days left, we need every single LCV supporter to speak out if we're going to hit our goal. 
+
+Will you take one minute to domain.com your comment today? Just go to:
+<<link>>
+
+Thanks so much,
+
+Vanessa Kritzer
+Online Campaigns Manager
+League of Conservation Voters
+
+Update Your Profile
+<<link>>
+
+To Unsubscribe Click Here
+<<link>>
+
+1920 L Street, NW Suite 800
+Washington, DC 20036
+202-785-8683
+

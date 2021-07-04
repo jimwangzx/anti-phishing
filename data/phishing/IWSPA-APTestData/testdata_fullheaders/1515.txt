@@ -1,0 +1,75 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1467993lfr;
+        Mon, 7 Sep 2015 10:01:14 -0700 (PDT)
+X-Received: by 10.55.192.75 with SMTP id o72mr27758568qki.88.1441645274575;
+        Mon, 07 Sep 2015 10:01:14 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [8.21.238.172])
+        by domain.com with ESMTP id d81si392946qkh.66.2015.09.07.10.01.13
+        for <user@domain.com>;
+        Mon, 07 Sep 2015 10:01:14 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 8.21.238.172 as permitted sender) client-ip=8.21.238.172;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 8.21.238.172 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Return-Path: <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1441645273;
+	h=Sender:From: "Glenn Ivey" <glenn@iveyforcongress.com>
+	Content-Type;
+	bh=W76o5DGsqv0Ss2OVJvAWYR3OATU=;
+	b=SbUYwdzfL/u7NK8vsasfjNXmjZ4ijYE08yYJ6z8J5FO7MmneWfaOAp2yu3hfhAht
+	JVzfWRFCfOW05JJe9+0IEhba+KMjQlxpoirOdkjZZpIu1/ndL1GF/xdanNwDiiuH
+	mIcCrUq3KqlnSExulIvzrjiVcprJEy6GY9DWQBGhj3Q=;
+X-MSFBL: am9obi5wb2Rlc3RhQGdtYWlsLmNvbUBtYWlsb3V0Mjk4QGRlZmF1bHRncm91cDA3
+	QGJvdW5jZV8yNDAwMDAwMDgyNDcxMjQ5X3BvZDI
+Received: from [10.0.1.173] ([10.0.1.173:64693] helo=OBPROD14)
+	by nvmta03 (envelope-from <user@domain.com>)
+	(ecelerity 3.6.3.44158 r(Platform:3.6.3.2)) with ESMTP
+	id EC/9A-08561-9D2CDE55; Mon, 07 Sep 2015 13:01:13 -0400
+Sender: =?UTF-8?B?R2xlbm4gSXZleQ==?= <user@domain.com>
+X-Binding: default
+Reply-To: user@domain.com
+From: "Glenn Ivey" <glenn@iveyforcongress.com>
+To: "User" <user@domain.com>
+Message-ID: <13user@domain.com>
+Date: Mon, 07 Sep 2015 13:01:13 -0400
+Subject: before you start up that grill
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----4038AA2D516B45E39EB923311F8D43A1"
+
+Dear John,
+
+Happy Labor Day! Before you start up that grill I wanted to draw your a
+ttention to President Obama's announcement today that he will expand pa
+id sick leave to employees of federal contractors=2E This is the right 
+move and I applaud him for it=2E As a father of six, I know the pressur
+e of choosing between work and family=2E For many Americans that choice
+ is cruelly stark, too often choosing between taking care of their sick
+ child and losing their job=2E A number of states and municipalities ha
+ve implemented paid sick leave policies proving it can be done successf
+ully=2E In Congress, I will be a strong leader in the fight for paid si
+ck and maternity leave=2E Working with our friends in labor we can secu
+re stronger protections for our families=2E
+
+But until then, for today at least, I will be a strong leader in the fi
+ght for that last burger from my five sons=2E
+
+Hope you're having a great holiday weekend!
+
+Glenn
+
+=C2=A0
+
+---------------------------------------------
+|    Paid for by Glenn Ivey for Congress    |
+---------------------------------------------
+
+Glenn Ivey for Congress
+PO Box 674
+Bladensburg MD 20710 United States
+
+If you believe you received this message in error or wish to no longer 
+receive email from us, please <<link>>
+/unsubscribe?mmid=3D5866326164599343104&tiid=3D-8393731639200053248=2E

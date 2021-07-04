@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.31 with SMTP id o31csp2458254lfi;
+        Tue, 17 Feb 2015 15:18:50 -0800 (PST)
+X-Received: by 10.140.106.228 with SMTP id e91mr101133qgf.19.1424215129634;
+        Tue, 17 Feb 2015 15:18:49 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qc0-domain.com (mail-qc0-domain.com. [2607:f8b0:400d:c01::232])
+        by domain.com with ESMTPS id 22si11071246qhx.64.2015.02.17.15.18.48
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 17 Feb 2015 15:18:49 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::232 as permitted sender) client-ip=2607:f8b0:400d:c01::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qc0-domain.com with SMTP id p6so31191088qcv.9;
+        Tue, 17 Feb 2015 15:18:48 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Jake Sullivan <jake.sullivan@gmail.com>
+         :message-id:date:to;
+        bh=QYftO+70zC78ZdJK7g30u6pr+s9/jRJuuzMEIfFJrWo=;
+        b=zgYJGiItDWV9hofJXLNNbm/J0W5LBzH2JDrckRn/UN9aGopYBXHq0BAqtOQzXuc0El
+         +Y1B8Zfe2KZLgQcfecJI9HgjYlzlWUaoU6qpfmCimsmnw3Nk4KbxO5p83fKVsj5tK11I
+         xplpXeBisqrC9n9s9ZslfdlOZ37G1CSKcYeIBmnk7itONfhdI2QFlvPjMTZ2LDSPb9oC
+         uO97xIkghGv02D8gLR4k6JRV71hjVUFjfBHHGLn5tT5kM+EVZMEDZXHjgb3E9la95ted
+         xlTRCfoxIoWq4Da4COCtd2WZBohL4LbPXzlNgSKmeHeG3TjXgrdB+reGBk8GInqM1Zkp
+         qBmQ
+X-Received: by 10.140.82.234 with SMTP id h97mr622557qgd.75.1424215128487;
+        Tue, 17 Feb 2015 15:18:48 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [29.242.52.112] ([66.87.124.112])
+        by domain.com with ESMTPSA id 142sm6694967qhg.16.2015.02.17.15.18.47
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 17 Feb 2015 15:18:47 -0800 (PST)
+From: Jake Sullivan <jake.sullivan@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+Subject: Wally
+Message-Id: <user@domain.com>
+Date: Tue, 17 Feb 2015 18:18:43 -0500
+To: Robby Mook <user@domain.com>, Cheryl Mills <user@domain.com>, 
+ John user <user@domain.com>
+X-Mailer: iPhone Mail (12B436)
+
+I couldn't meet Wally in person today because of travel issues related to th
+e "snow" but we talked by phone. He's very interested and wants to talk deta
+ils.  We're having breakfast Friday am to go through the role, the structure
+, and the timing and then if all goes well I'll set him up to talk to HRC ne
+xt week.

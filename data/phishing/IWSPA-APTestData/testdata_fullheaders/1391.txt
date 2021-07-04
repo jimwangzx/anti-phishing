@@ -1,0 +1,83 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp574483lfi;
+        Thu, 21 May 2015 16:48:20 -0700 (PDT)
+X-Received: by 10.180.101.3 with SMTP id fc3mr1987475wib.47.1432252100491;
+        Thu, 21 May 2015 16:48:20 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wg0-domain.com (mail-wg0-domain.com. [74.125.82.41])
+        by domain.com with ESMTPS id lg6si119350wjb.12.2015.05.21.16.48.20
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 21 May 2015 16:48:20 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.82.41 as permitted sender) client-ip=74.125.82.41;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 74.125.82.41 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wg0-domain.com with SMTP id z8so1019wge.0
+        for <user@domain.com>; Thu, 21 May 2015 16:48:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Marissa Astor <mastor@hillaryclinton.com>
+        bh=JJsrcRtdvkcOF8bcvT7QXMNIf86AC0Fxp5Pc6sNMmLc=;
+        b=WMqBzApjYCKKjfZgdi6QPnx/kddpWu+AJ+0KtskcIe6U9IgYBDJwp967JYMCbQBQsq
+         26y2Wy0ZyEh1XF00zou6Gx6PKgfYgoOzZ8f5c6BqsNFk64y3zhP/jaPORZiFQK4P6Xy9
+         A7uWpaIvdQtedIOu/NSskbIfvnBWRsFl3enY8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Marissa Astor <mastor@hillaryclinton.com>
+         :content-type;
+        bh=JJsrcRtdvkcOF8bcvT7QXMNIf86AC0Fxp5Pc6sNMmLc=;
+        b=jYjBv7xg0MfVtMZPZKWlP2qTCK/uGU1uDOoh0i19frX9qSK/kUV1L/bUJq0wG9WbMA
+         M2LGccgcVRWrmShOyUXNJsLKIqeobhtmE7jDR+23t+czf/GIkPQKJ5Hg6RkkHwWX2NjV
+         M2aOzi3KA67Q35N6Dv5U/dpjeq06kQTQMVRv7KDysdcglHxDeBLdoUWa1qKsDcLNyPWh
+         dKNYRU85xZrCGUcIgX6ETyhxtNWCyTCJFpd5Nh9nK/priYjIDSV4skxtGUXlMVC0ltYL
+         dLhMj6sk/t5mriX+iBwTgV4LmWnvTINzWwFVrEVgcpGixLXORjUfO7bgphhV1TuYLtKj
+         wA8Q
+X-Gm-Message-State: ALoCoQmilh6iXwFzHRNujFE8eLIWkNSMkAZpEDZ81GazWuV77koLQKUBnJtm+27Kp5CrX5VpZSDV
+MIME-Version: 1.0
+X-Received: by 10.181.29.36 with SMTP id jt4mr1981176wid.21.1432252100223;
+ Thu, 21 May 2015 16:48:20 -0700 (PDT)
+Received: by 10.27.224.21 with HTTP; Thu, 21 May 2015 16:48:20 -0700 (PDT)
+Date: Thu, 21 May 2015 19:48:20 -0400
+Message-ID: <CALV_K1QsE73CGKZ_RZHj4ik8kGOsPgR4DfjBTe9oPWaih+user@domain.com>
+Subject: Next Week: Policy Schedule Meeting
+From: Marissa Astor <mastor@hillaryclinton.com>
+To: Jake Sullivan <user@domain.com>, 
+ "Ann O'Leary" <user@domain.com>, 
+ Maya Harris <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Robby Mook <user@domain.com>, John user <user@domain.com>, 
+ Joel Benenson <user@domain.com>, Jim <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>, David Binder <user@domain.com>, 
+ John Anzalone <user@domain.com>, Huma Abedin <user@domain.com>
+CC: Corey Ciorciari <user@domain.com>, 
+ Varun Anand <user@domain.com>, 
+ Sawsan Bay <user@domain.com>, 
+ Caitlin Merchant <user@domain.com>, 
+ "Esterhay, Ellen" <user@domain.com>, 
+ Shannon Currie <user@domain.com>, Mona Thinavongsa <user@domain.com>, 
+ Eryn Sepp <user@domain.com>, 
+ Milia Fisher <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11330192a9bb860516a02dbd
+
+Hello=E2=80=94on Thursday, May 28, we are planning to do a 90-minute meetin
+g to
+discuss the policy schedule until the debates. We would like to do this *Po
+licy
+Schedule Meeting* from *2:30 =E2=80=93 4:00 PM* ahead of the 4:00 PM Commun
+ications
+Look Ahead Meeting.
+
+Both meetings will take place in person at Brooklyn HQ=E2=80=94we can add a
+ dial in
+if needed.
+
+Please let us know ASAP if this will be an issue for you. I will circulate
+a meeting invite shortly.
+
+Thanks,
+
+Marissa

@@ -1,0 +1,177 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp2501333lfr;
+        Wed, 29 Jul 2015 05:51:26 -0700 (PDT)
+X-Received: by 10.202.46.209 with SMTP id u200mr35771196oiu.66.1438174286198;
+        Wed, 29 Jul 2015 05:51:26 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::22c])
+        by domain.com with ESMTPS id d6si17452666oif.77.2015.07.29.05.51.25
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 29 Jul 2015 05:51:26 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22c as permitted sender) client-ip=2607:f8b0:4003:c01::22c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22c as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id op1so5497708obb.2
+        for <user@domain.com>; Wed, 29 Jul 2015 05:51:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Oren Shur <oshur@hillaryclinton.com>
+         :content-type;
+        bh=RiuAPiEgFhUBao6rOc5ZaBZKxRGnsRnCAmygizvYHK0=;
+        b=J8KRvh2bBQ0ID0+xw8LLLUDVFd0Zos27UNLT1NbsBhaTzz6aPLj9bitNCBUgFR/Ie3
+         zez2Z5TS62s+8RwjfPIsMw2/sjuuuR6TOuxQ8NpIqPQnIC3NYQdjUkfx6YXulNFk9ifO
+         mpYREcQQ6o2CIpfDsqByLa3RuEGiFMcJFBw9Q
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Oren Shur <oshur@hillaryclinton.com>
+         :subject:to:content-type;
+        bh=RiuAPiEgFhUBao6rOc5ZaBZKxRGnsRnCAmygizvYHK0=;
+        b=fCBEamnLE9U9ZcZqQrQEeROhlWKixOdHjog9i4AVzYbzdrKLj5aguI+2SOLAY9K8ep
+         Tmfv0Kz5JXF0mdcoVJfb19m/aPMWGKhUPVysHwVppgPcAzvImUrancAYA7NRuT6TFIsg
+         A8OZx4T4DwRhVBvR7BnjLT9lnWUJIydjgUZazZpzEu+t1L4uRa49SttVFa4hDzgyPLtA
+         /iykgDLAxnOipmsdTwSKKEl2eaTbWdWMzbfqlkydC9k6xNQ0+GwK/i5eKDkz7SteR93L
+         fTjNGzN/6zsdVQGIPeD5pTWu9WpaKNmNa6GaUwmlDEew5mvGV9NzKTwNg8/yhlKEn0Lz
+         sNJg
+X-Gm-Message-State: ALoCoQkwXC2n24v2g2ZCC/Fayfra00lQJDVFTulJPniPurvBgJ2ys41V/u0NncR+gnZa1WgC4wCm
+X-Received: by 10.182.115.161 with SMTP id jp1mr39688876obb.53.1438174285342;
+ Wed, 29 Jul 2015 05:51:25 -0700 (PDT)
+From: Oren Shur <oshur@hillaryclinton.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdDJ/SFl6eeFOXFqSt6P/hg59cOBPw
+Date: Wed, 29 Jul 2015 08:51:21 -0400
+Message-ID: <447user@domain.com>
+Subject: Morning Consult poll - HRC leads primary and general
+To: John user <user@domain.com>, Joel Benenson <user@domain.com>, 
+ Robby Mook <user@domain.com>, Huma Abedin <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>, "Margolis, Jim" <user@domain.com>, 
+ John Anzalone <user@domain.com>, David Binder <user@domain.com>, 
+ Jeff Liszt <user@domain.com>, Katie Connolly <user@domain.com>, 
+ Peter Brodnitz <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Karen Finney <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Jesse Ferguson <user@domain.com>, 
+ user Carrk <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Maya Harris <user@domain.com>, 
+ Elan Kriegel <user@domain.com>, 
+ Teddy Goff <user@domain.com>, 
+ Marlon Marshall <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e01182cf2676683051c030b96
+
+H/t to Anzo. Online national survey.
+
+HRC 59 =E2=80=93 Sanders 19
+HRC 45 =E2=80=93 Bush 39
+HRC 46 =E2=80=93 Walker 37
+HRC 46 =E2=80=93 Rubio 38
+HRC 46 =E2=80=93 Trump 41
+
+HRC has a higher approval rating than any other candidate in the field.
+And Trump leads GOP field.
+
+<<<link>>>
+<<<link>>>
+<<<link>>>
+
+Trump Leads GOP Field, But More Think Bush Will Win
+
+For Immediate Release
+
+Contact: Megan Waring, user@domain.com, (631) 942-9820
+
+WASHINGTON =E2=80=93 A new poll conducted by Morning Consult, Washington=E2
+=80=99s leading
+publication for professional political insiders, shows real estate mogul
+Donald Trump leading the field =E2=80=93 but more Republicans and
+Republican-leaning independents who say they plan to participate in the
+presidential nominating process believe former Florida Gov. Jeb Bush (R)
+will win the Republican primary.
+
+Trump leads the Republican field with 24 percent of the vote, more than the
+13 percent who say they plan to vote for Bush. Wisconsin Gov. Scott Walker
+(R) is the choice of 9 percent of Republicans and Republican-leaners, while
+retired neurosurgeon Ben Carson comes in fourth place with 8 percent of the
+vote.
+
+Fifteen percent of Republican voters =E2=80=93 including 20 percent of thos
+e who
+say they will vote for Trump =E2=80=93 say Bush is their second choice. Ten
+ percent
+choose former Arkansas Gov. Mike Huckabee (R) as their second choice.
+
+[image: table1.JPG]
+
+Fewer Republicans believe Trump will actually win the nomination. The poll
+shows 25 percent of Republican voters believe Bush will win; 19 percent
+think Trump is the favorite for the nomination; and 9 percent say Walker
+will emerge on top. No other Republican candidate gets more than 4 percent.
+
+=E2=80=9CDonald Trump holds a significant lead among Republicans and
+Republican-leaning independents,=E2=80=9D said Morning Consult pollster Kyl
+e Dropp.
+=E2=80=9CHowever, there are key signs of strength for Jeb Bush. More Republ
+ican
+registered voters believe Bush will win the nomination than Trump, more
+Republicans say they would definitely not vote for Trump than for Bush, and
+Bush is the second choice for more Republicans than Trump.=E2=80=9D
+
+On the Democratic side, former Secretary of State Hillary Clinton leads the
+field by a wide margin. Fifty-nine percent of Democrats and
+Democratic-leaning independents say they will vote for Clinton, while just
+16 percent said they will choose Sen. Bernie Sanders, the Vermont
+independent running for president. And two-thirds of those voters, 66
+percent, say they believe Clinton will win the Democratic primary.
+
+[image: table 2.JPG]
+
+In the general election, Clinton leads every Republican candidate tested,
+though she is below the critical 50 percent mark. Clinton leads Bush by a
+45 percent to 39 percent margin; she takes 46 percent against both Walker,
+who takes 37 percent, and Sen. Marco Rubio (R-Fla.), who receives 38
+percent. Clinton leads Trump by a narrower 46 percent to 41 percent margin.
+More Americans view Clinton in a favorable light, 46 percent, than any of
+her possible Republican rivals, though an even greater number =E2=80=93 48 
+percent
+=E2=80=93 say they have an unfavorable view of her.
+
+[image: table 3.JPG]
+
+The poll also shows just 41 percent of Americans approve of the job
+President Obama is doing, while 55 percent say they disapprove.
+
+The Morning Consult national tracking poll was conducted July 23-27 among a
+national sample of 1,979 registered voters. The poll, conducted online,
+carries a margin of error of plus or minus 2 percentage points. The poll
+included a subsample of 750 Republicans and Republican-leaning
+independents, which carries a margin of error of plus or minus 3.57
+percent. The subsample of 872 Democrats and Democratic-leaning independents
+carries a margin of error of plus or minus 3.32 percent.
+
+For complete cross tabs or toplines, or to set up an interview with Morning
+Consult pollster Kyle Dropp, please contact Megan Waring:
+user@domain.com, or (631) 942-9820.
+
+Subscribe <<<link>>>
+
+<<<link>>>
+<<<link>>>
+<<<link>>>
+The Morning Consult
+Morning Consult, P.O. Box 15628
+Washington District of Columbia 20003
+United States
+
+This email is intended for user@domain.com
+Update your preferences
+<<<link>>
+=3D2> or
+Unsubscribe
+<<<link>>
+=3D2>

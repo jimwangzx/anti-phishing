@@ -1,0 +1,110 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 1 May 2015 15:03:10 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s41M39Nk025294	for <user@domain.com>; Thu, 1 May 2015 
+ 22:03:10 GMT
+Received: from mail161-va3-domain.com (mail-domain.com
+ [216.32.180.113])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s41M4h0d016282
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 1 May 2015 22:04:44 GMT
+Received: from mail161-va3 (localhost [127.0.0.1])	by
+ mail161-va3-domain.com (Postfix) with ESMTP id 56FA018034F	for
+ <user@domain.com>; Thu,  1 May 2015 22:03:09 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:65.39.215.134;KIP:(null);UIP:(null);SRV:BULK;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z579eh5109h5105hzc89bh758Ic857hc545Idbb0izz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h172c6ch1ce120h1a691ciz2fheh5fh839h8aahe5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h2565h25f6h2605h268bh26d3h214ai24c8i1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail161-va3: domain of domain.com designates 65.39.215.134 as permitted sender) client-ip=65.39.215.134; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail161-va3 (localhost.localdomain [127.0.0.1]) by mail161-va3
+ (MessageSwitch) id 1398981786164081_30167; Thu,  1 May 2015 22:03:06 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.246])	by
+ mail161-domain.com (Postfix) with ESMTP id 024781E008A	for
+ <user@domain.com>; Thu,  1 May 2015 22:03:05 +0000 (UTC)
+Received: from mx-domain.com (65.39.215.134) by domain.com
+ (10.7.99.51) with Microsoft SMTP Server id 14.16.227.3; Thu, 1 May 2015 
+ 22:03:04 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Variety Daily Headlines <donotreply@variety.com>
+ bh=JHtgpTp40AJ86pxvqXAYjJeg94o=;
+ b=M6K3diE0FaYWakfzUqhKGognhHz29Ghi8QlyAI/0P8XQKUTPzGCmcX40/pjaQ25OfFjZBNdoVqKF
+   VXjFwAIkmVXo7TgHDsL2KAFNbefjDEoKWgCD+3HzlZ+dCD3YvAYHTjPyGblf1bOz+ZidU3ncVb+9
+   s8+9ituNgL1Vz96/9e8
+Received: from nyp1-p-p4321-prd-jma-22.sailthru.pvt (65.39.215.174) by
+ mx-domain.com id hcb29m1qqbst for <user@domain.com>; Thu, 1 May
+ 2015 18:03:07 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1398981787;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Daily Headlines <donotreply@variety.com>
+	bh=NjdWAPfihbtW/Kx+vWn26e+mnZ2MOcWiu8J/dhH3PDc=;
+	b=cH3vsu5YD8nEltJkJ0EF8mfQ+XQqbBhBB//w4+zU6DuSG59x9nSyW86SwpA715Xd
+	96a4jxnepszhR17wJ/Pb8nQMUo+gHB8wCLhrK/QhmKoo3s5Ycf8vlC1TOzIoA7F9wBF
+	zk6mmJP/oDVzYF7TKunbwtWMWwovhrLfVC05Cc6k
+Date: Thu, 1 May 2015 18:03:07 -0400
+From: Variety Daily Headlines <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140501220307.2619548.19005@domain.com>
+Subject: =?utf-8?B?TWVldCB0aGUgOS1ZZWFyLU9sZCBLaWQgd2l0aCBhIFBpdm90?
+ =?utf-8?B?YWwgUm9sZSBpbiDigJhUaGUgQW1hemluZyBTcGlkZXItTWFuIDLigLI=?
+Precedence: bulk
+X-TM-ID: 20140501220307.2619548.19005
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4321-prd-jma-22.sailthru.pvt
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2619548
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Meet the 9-Year-Old Kid with a Pivotal Role in ‘The Amazing Spider-Man 2'
+
+At last week’s New York premiere of Sony Picture's “The Amazing Spider-Man 2,” one of the only acto...  
+
+
+
+
+Variety         
+
+Daily Headlines         
+
+Thursday, May 1, 2015   
+
+
+
+
+<<link>>         
+
+Meet the 9-Year-Old Kid with a Pivotal Role in ‘The Amazing Spider-Man 2′      
+
+At last week’s New York premiere of Sony Picture's “The Amazing Spider-Man 2,” one of the only actors from the film gracious enough to speak to print journalists was 9-year-old Jorge Vega. Jorge p...         
+
+<<link>> ‘Amazing Spider-Man 2′ Pumped $210 Million into New York Economy
+Sony Pictures Entertainment spent a whopping $210.1 million in New York state to produce "The Amazing Spider-Man 2," touted as the largest production ever to be filmed in New York. The sum, accord...
+
+Has Kevin Spacey Found His Next Villain Role in ‘Call of Duty’?
+Kevin Spacey, who is a pro at playing slithery characters, could be making his first villainous turn in a video game, namely Activision's blockbuster "Call of Duty" franchise. A short audio clip m...
+
+Watch: ‘The Simpsons’ Lego Episode Gets Full Trailer
+"Is it just me or does something feel weird today?" asks Bart Simpson in the new trailer for Sunday's episode of "The Simpsons." Something is definitely off -- the characters, the items and all of...
+
+‘Star Wars’ Goes Mobile with Interactive Storybooks from Disney, Lucasfilm (EXCLUSIVE)
+The Walt Disney Co. and Lucasfilm want to introduce the "Star Wars" film franchise to younger audiences and families through interactive story books called "Star Wars Journeys" that launch today. ...
+
+As Focus Moves Into More Commercial Territory, Indie Films Need a New Champion
+Specialty films usually go into hiding during tentpole season, but filmgoers should worry about the disappearance not only of the films but of the companies that make them. Even stalwart Focus Fea...
+
+Could Chelsea Handler Stick With E! After All?
+Chelsea Handler says she’s leaving E! Her manager, Irving Azoff, says she’s lea
+

@@ -1,0 +1,110 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp2221981lfr;
+        Tue, 4 Aug 2015 05:49:02 -0700 (PDT)
+X-Received: by 10.129.74.135 with SMTP id x129mr3283877ywa.98.1438692542252;
+        Tue, 04 Aug 2015 05:49:02 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::245])
+        by domain.com with ESMTPS id i204si6073ywg.133.2015.08.04.05.49.01
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 04 Aug 2015 05:49:02 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4002:c07::245 as permitted sender) client-ip=2607:f8b0:4002:c07::245;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4002:c07::245 as permitted sender) smtp.mail=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com
+Received: by mail-yk0-domain.com with SMTP id x123sf312745yka.0
+        for <user@domain.com>; Tue, 04 Aug 2015 05:49:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=google;
+        h=sender:From: Joel Benenson <jbenenson@bsgco.com>
+         :references:in-reply-to:accept-language:content-language
+         :content-type:mime-version:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=gU0I/ntxSBaeSgb3WKCPBh4I0XFrart2dGvOKkpfpPw=;
+        b=FFdib5Ps66JAUTBVggF46ZCCsR228F6Dt9B5FKPE2UD1DhZzoep/KvkKnEJDXhcIZT
+         wC4TDncErTTviMJS5EhiTqy+dx1Ikk+EXGxmMwZpOfWl5cXdkd0D9sk2LEZqoVb5AvGB
+         f3eIEXz73u+WsgbGOf3KVLT80/8z9nIkrLYR4
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:From: Joel Benenson <jbenenson@bsgco.com>
+         :thread-index:date:message-id:references:in-reply-to:accept-language
+         :content-language:content-type:mime-version:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=gU0I/ntxSBaeSgb3WKCPBh4I0XFrart2dGvOKkpfpPw=;
+        b=L4OLjXRuhpNonuvQwhgk1r/gfw2CL1dCZlA4HcEWtjkUh71St1iNxJkYqMvNNq72H7
+         CjzqzZPBBA2v05bcu1k4mAkeNB1to3maSVrFYThzbgqv9zH7d/cjTWA53NVBpC6PHm7+
+         38IEttNqKQlE0YqEQjuPg0nJ3GnYWeMmP9hfExsWN4cMxBNv15fR5eY92iNQWsxViT2R
+         a7K21GaaZdzw5G8eTsYD47OtnCMMH4GxlItqdNlxj7LI0X3bqTkO80vQC8sYU90Xyt9W
+         OGboc0QSESB5xCEOaMSNJ8n5uhpw5hm/L2BTnapbFvLI1wS9oKpshNgIDf9Ai2AGtol0
+         JKsQ
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQmzpK/ZHoI+aTPoxueJCVlcv1qiQfdtL+DF1/r0MCR/HiDyqp9/SkKkvkBy1Hs48FYJD4ZN
+X-Received: by 10.129.131.212 with SMTP id t203mr2954361ywf.35.1438692541572;
+        Tue, 04 Aug 2015 05:49:01 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.140.85.177 with SMTP id n46ls129263qgd.35.gmail; Tue, 04 Aug
+ 2015 05:49:01 -0700 (PDT)
+X-Received: by 10.140.133.145 with SMTP id 139mr6956493qhf.76.1438692541128;
+        Tue, 04 Aug 2015 05:49:01 -0700 (PDT)
+Received: from hub031-co-8.domain.com (hub031-co-8.domain.com. [199.193.204.142])
+        by domain.com with ESMTPS id f89si1598632qkf.59.2015.08.04.05.49.00
+        (version=TLSv1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 04 Aug 2015 05:49:01 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 199.193.204.142 as permitted sender) client-ip=199.193.204.142;
+Received: from MBX031-W1-CO-6.domain.com ([10.224.113.72]) by
+ HUB031-CO-8.domain.com ([10.224.113.61]) with mapi id
+ 14.03.0224.002; Tue, 4 Aug 2015 05:48:59 -0700
+From: Joel Benenson <jbenenson@bsgco.com>
+To: Megan Rooney <user@domain.com>
+CC: Jennifer Palmieri <user@domain.com>, 
+ Speech Drafts <user@domain.com>
+Subject: Re: REVISED DRAFT: Talking points for tonight in Colorado
+Thread-Topic: REVISED DRAFT: Talking points for tonight in Colorado
+Thread-Index: AQHQzqckrqZQLMBXyEagf3L7P7o0RJ37yo4N
+Date: Tue, 4 Aug 2015 12:48:59 +0000
+Message-ID: <789264user@domain.com>
+References: <user@domain.com>
+In-Reply-To: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Content-Type: multipart/alternative;
+	boundary="_000_789264A9762544D9B5797C6CC9EA3C0Bbsgcocom_"
+MIME-Version: 1.0
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 199.193.204.142 as permitted sender) user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <domain.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+I think right to rise works fine this way not the way it was in earlier dra
+ft with her saying she believed in right to rise.
+
+On climate-  I know she probably likes crouching these in her terms of her 
+first term etc but I would do both solar panels and lowering homes both in 
+terms of years-- 5 years and 10 and link them see lesson because the second
+ one is they real payoff for people because it's about their homes.
+
+Megan, if what I'm suggesting isn't clear just call me at 917-991-0155.
+
+Otherwise this looks great.
+
+Sent from my iPhone
+
+On Aug 4, 2015, at 7:17 AM, Megan Rooney <user@domain.com<mailto

@@ -1,0 +1,105 @@
+Delivered-To: user@domain.com
+Received: by 10.76.168.197 with SMTP id zy5csp71517oab;
+        Mon, 30 Jul 2015 17:29:59 -0700 (PDT)
+Received: by 10.52.95.116 with SMTP id dj20mr11211785vdb.39.1343694598965;
+        Mon, 30 Jul 2015 17:29:58 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [66.151.230.134])
+        by domain.com with ESMTP id h11si3455285vce.115.2012.07.30.17.29.58;
+        Mon, 30 Jul 2015 17:29:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.151.230.134 as permitted sender) client-ip=66.151.230.134;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 66.151.230.134 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from mta-domain.com (mta-domain.com [10.0.200.50])
+	by mta-domain.com (Postfix) with ESMTP id 3WmH9R1YBHz5rtsmc
+	for <user@domain.com>; Mon, 30 Jul 2015 19:31:39 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=barackobama.com;
+	s=ofakey; t=1343691099;
+	bh=c/rkeH6xFxi1O1MpU3F1f4aQv3LvC/SKK/NKtYdDstk=;
+	h=Date:To:From: "Ann Marie Habershaw, BarackObama.com" <info@barackobama.com>
+	 MIME-Version:Content-Type;
+	b=m2rKl2G2Rp3l/15xB8WEQOKp439tSZBMfCKg4BB3RSXZO2Lxov3Wtf9OgmjaZZAVm
+	 Wh71CQXGFhAh33f0M7L3irDxjAapV98reEvGhLykNFsXqjebfqGbT/yhKGQUvhZxbK
+	 SsYQV4BnxufbJkh4OSM4qR+LbFMdIOnMkmVp2xPE
+Received: by mta-domain.com (Postfix, from userid 508)
+	id 3WmH9R1TDjz9klSys; Mon, 30 Jul 2015 19:31:31 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=barackobama.com;
+	s=ofakey; t=1343691099;
+	bh=c/rkeH6xFxi1O1MpU3F1f4aQv3LvC/SKK/NKtYdDstk=;
+	h=Date:To:From: "Ann Marie Habershaw, BarackObama.com" <info@barackobama.com>
+	 MIME-Version:Content-Type;
+	b=m2rKl2G2Rp3l/15xB8WEQOKp439tSZBMfCKg4BB3RSXZO2Lxov3Wtf9OgmjaZZAVm
+	 Wh71CQXGFhAh33f0M7L3irDxjAapV98reEvGhLykNFsXqjebfqGbT/yhKGQUvhZxbK
+	 SsYQV4BnxufbJkh4OSM4qR+LbFMdIOnMkmVp2xPE
+Received: from maillist-o 
+	by domain.com with local (PHPMailer);
+	Mon, 30 Jul 2015 19:31:31 -0400
+Date: Mon, 30 Jul 2015 19:31:31 -0400
+To: John user <user@domain.com>
+From: "Ann Marie Habershaw, BarackObama.com" <info@barackobama.com>
+Reply-to: user@domain.com
+Subject: Surprise!
+Message-ID: <911user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 57926841ec01c293
+X-maillist-guid: CgdXWAJtUwNcAQYNBVRWAlMIUwANBGxZDVFcTUZbUQEWEVd1BAkHXQkdU1pc
+List-Unsubscribe: <<<link>>>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_911b208aaf539259310c5aff989bde4f"
+
+John --
+
+Yep, me again. Surprise: I'm here to ask you for money.
+
+Here's why: Tomorrow is our biggest fundraising deadline
+yet, and I wouldn't be doing my job if I didn't ask everyone
+who is able to make a donation.
+
+We just can't win without supporters like you pitching in what
+you can, when you can -- we're facing too much special-interest
+spending on the other side to keep up without everyone doing
+their part.
+
+Can you donate $3 or more before tomorrow night's deadline?
+
+<<link>>
+
+To be frank, we've gotten our behinds handed to us the past two
+FEC deadlines by Mitt Romney and his crew. I'll refrain from sharing
+how that really makes me feel.
+
+But that hasn't stopped us from opening more offices, hiring more
+field organizers, and reaching out to more voters. Ultimately, that's
+what's going to deliver us a win in November -- and that's all thanks
+to the 2.4 million grassroots donors like you who are building this
+campaign.
+
+It might sound crass, but ramping up our ground game to the level
+it needs to be across the country takes cash -- a whole lot of it.
+
+You know what to do. Chip in if you can, before tomorrow at midnight:
+
+<<link>>
+
+99 days left. Here we go.
+
+Ann Marie
+
+Ann Marie Habershaw
+Chief Operating Officer
+Obama for America
+
+---------------------------------------------------------------------
+Paid for by Obama for America
+
+Contributions or gifts to Obama for America are not tax deductible.
+
+This email was sent to: user@domain.com
+To update your address, go to: 
+<<link>>
+To unsubscribe from these messages, go to: 
+<<link>>
+To contact the campaign with any questions or concerns, go to: 
+<<link>>
+

@@ -1,0 +1,75 @@
+Delivered-To: weicheng@edison.tech
+Received: by 2002:a0c:aa0d:0:0:0:0:0 with SMTP id d13csp211800qvb;
+        Thu, 9 Jul 2020 00:10:57 -0700 (PDT)
+X-Received: by 2002:a37:ae01:: with SMTP id x1mr56311859qke.179.1594278417710;
+        Thu, 09 Jul 2020 00:06:57 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJzrp6X+cLDc8XzDTaTBJ5BsnjplvazpY/6geo1MHgL26R7gDGNEgs61AKN1MhHWpfI6S/w4
+X-Received: by 2002:a37:ae01:: with SMTP id x1mr56311777qke.179.1594278416286;
+        Thu, 09 Jul 2020 00:06:56 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1594278416; cv=none;
+        d=google.com; s=arc-20160816;
+        b=kfK/ZT1FcAp8dQCNfEnoutgHgdcNYpWfaTGX1zFbq5yIrWO0D7AvkNgZEGUr3ueUdF
+         dnTQHNbeWQIpiSQMGOgB033UCXO7osYpEaZ5rI7fdaP607hm4g9fkGMZE58zhZ8melua
+         SWTCw3M8AtVyQ9bTf8H/U6DeW6rGHIp7yAMSTXGaPLSAmet9kDgX3Kb2BWwhXLfaUSYt
+         XNiJoHzt6mlX6tCY1ydKAyz4OplGJdQi2fucjnCmmtWdofSFX+U1/BYnvFdz9OGRZ7VK
+         ILZkwI1w1wrC0E7Bv7v4nrBX/twGad54DwdPf5EioT3/WTsxI2zn4Qu0YcaYeBX01JFf
+         jcfw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:mime-version:from:date:message-id;
+        bh=Xq4kdkEaeAtTw4oS0rO1m3/ipTo+fbiCrC2bgHKg3V4=;
+        b=EMbU80IK5ZuuPpaTc4f2DMgSBqIBGP5fr4C5SYO01dEW5BH14qPrcT3+Bk/7qD/QyP
+         9f1NnuTt3AeQIvWeiENQk5phoCHyZJ5nn+8toI6ef4vT5seGVMKmjdrLnlIjvjeihC7X
+         wkSSkZPLAektcUmDbBr+AIRaQBvPiEOKhApQtSIUsf2stzte6+p/4N1TvpRcKHUl0Ybo
+         rQQJTc50Wl/VHOyFmXhL2/SQWYtjmNloptNU9QPF0HqxD7ACDMTkPH0I2Ee4f9MMWmMo
+         n4T/QbNSVDiCCyzFqKL7tSG0x163oaVLs2edwmo6NRpfM/z0Um6fadUQxNlOS+E26VLK
+         qFhQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of security@onmail.com designates 3.212.134.175 as permitted sender) smtp.mailfrom=security@onmail.com;
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=onmail.com
+Return-Path: <security@onmail.com>
+Received: from mail-ue1-f04.onmail.com (mail-ue1-f04.onmail.com. [3.212.134.175])
+        by mx.google.com with ESMTPS id a26si1001375qtk.358.2020.07.09.00.06.56
+        for <weicheng@edison.tech>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 09 Jul 2020 00:06:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of security@onmail.com designates 3.212.134.175 as permitted sender) client-ip=3.212.134.175;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of security@onmail.com designates 3.212.134.175 as permitted sender) smtp.mailfrom=security@onmail.com;
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=onmail.com
+Message-ID: <5f06c210.1c69fb81.4ad5c.422dSMTPIN_ADDED_MISSING@mx.google.com>
+Received: from localhost (unknown [174.120.96.211])
+	by onmail.com (Postfix) with ESMTP id D4B8480005
+	for <weicheng@edison.tech>; Thu,  9 Jul 2020 00:06:55 -0700 (PDT)
+Content-Type: text/html; charset=utf-8
+Date: Thu, 09 Jul 2020 00:06:55 -0700
+From: "OnMail" <security@onmail.com>
+MIME-Version: 1.0
+Subject: Please verify your Onmail recovery email
+To: "Platform Beijing" <weicheng@edison.tech>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body style="width: 100% !important; padding:40px; background-color:#F6F9FC; -webkit-text-size-adjust: none; margin: 0; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:14px;">
+<table width="600px" style="margin:auto;">
+  <tr>
+    <td style="padding:40px; margin:auto; background-color:#fff; text-align:center;">
+      <img src="https://assets.easilydo.com/onmail/logo-color.png" style="max-width:150px; width:100%; margin-bottom:30px;" />
+      <h2><b>Please verify your recovery email</b></h2>
+      <p style="margin-top: 10px; color:#666666;">
+        Verify your email here.
+      </p>
+      <a href="https://mail.onmail.com/verify?token=eyJhbGciOiJIUzI1NiIsImtpZCI6IjI1NyIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIzIiwiZXhwIjoxNTk0ODgzMjE1LCJpYXQiOjE1OTQyNzg0MTUsImlzcyI6IlNlY1V0aWxzIiwibmJmIjoxNTk0Mjc4NDE1fQ.2hih2jHTGYa0q6sVyB88rhTUok65wgzNoXztCgtCsmk" style="margin-top:40px; display: inline-block; padding:20px; padding-left: 40px; padding-right: 40px; text-align:center; background-color:#136AEE; color:#fff; text-decoration:none;">
+        <b>Verify Email</b>
+      </a>
+      <p style="margin-top: 80px; color:#666666; font-size:12px;"><b>Onmail</b></p>
+      <p style="margin-top: 5px; color:#666666; font-size:12px;">
+        1054 S De Anza Blvd, San Jose Ca 95129<br />
+        www.onmail.com
+      </p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

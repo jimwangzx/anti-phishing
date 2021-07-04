@@ -1,0 +1,75 @@
+Delivered-To: user@domain.com
+Received: by 10.31.129.149 with SMTP id c143csp432647vkd;
+        Fri, 18 Mar 2015 10:37:29 -0700 (PDT)
+X-Received: by 10.25.146.197 with SMTP id u188mr6218399lfd.139.1458322649196;
+        Fri, 18 Mar 2015 10:37:29 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-lf0-domain.com (mail-lf0-domain.com. [2a00:1450:4010:c07::22b])
+        by domain.com with ESMTPS id e7si4414932lbp.42.2016.03.18.10.37.29
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 18 Mar 2015 10:37:29 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c07::22b as permitted sender) client-ip=2a00:1450:4010:c07::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c07::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lf0-domain.com with SMTP id d82so1515lfe.3
+        for <user@domain.com>; Fri, 18 Mar 2015 10:37:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: LaDavia Drane <ldrane@hillaryclinton.com>
+         :cc;
+        bh=cFOQsTZAhiqMKOzSTv/+BzSzHQv+e3IxNNPPzabSkGY=;
+        b=GbVDP/z2E6z6eCJKmMufRPddTSUGBuPCrDbB5M9ZFTGQiiumb1i8o1BOUzEsNgLaur
+         d3Onba/0HFHb/6xYdDnzTOE3WIfKKutFoET88t9XwoY9lSouaBt456E760+xJlf4ESNb
+         OQcm8UsMvlTCnyp4/apSopaqhnRy3Ksvr3FQ0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: LaDavia Drane <ldrane@hillaryclinton.com>
+         :message-id:subject:to:cc;
+        bh=cFOQsTZAhiqMKOzSTv/+BzSzHQv+e3IxNNPPzabSkGY=;
+        b=bAkjq4dew/ACIKZDJXid/PuQ3A6Tyjjj8A+vQVo1992UtuzvkQenp9JVjxoVcz5gwx
+         5NJNvXOWIBMSNRxPwi/ASPdUQAhBrjaSRdUeN8iIilJx/PUexIQR/msYFMQFUP+gWHsD
+         lm588Jm3nudLyBV8XGRo4eZ5JBRB2Wg4F9MophJpS0QrY+tjcTwqN9Mp7j19DIbrzYEB
+         RdPPioUn4aWSbb5xIoyjA+BMlj+Dts9G70ZwIn22pifm5U8muowRXE5biKrcN5DVPfU0
+         ktgvJWE/Tl74bPTtvIBx0J5AqrkDJh5DOdyOMJ5RNXOd6NGiqGU6e0J+iqpJkmM7e1xE
+         NjLQ
+X-Gm-Message-State: AD7BkJJc5qyGBWBFp9ui7uZmdJbbRR9MG7knqnyJcZuEcthRZyLTymsWzMkObiPVU0dhPQliVdabNXIR3YpgPWql
+X-Received: by 10.25.41.140 with SMTP id p134mr6697968lfp.15.1458322648839;
+ Fri, 18 Mar 2015 10:37:28 -0700 (PDT)
+From: LaDavia Drane <ldrane@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <user@domain.com>
+ <CALr7Cn1+=user@domain.com>
+ <CAFjSERBp63+Y__XPkzLS+e+0b7+iTfkzQrLYKq+0user@domain.com>
+ <CABvAcWekK2Rsj8ChFq+Wj79z+KqupeapbmbBnjhCnb+5user@domain.com>
+ <user@domain.com>
+ <user@domain.com>
+ <CAH2oiqKgOHrSui1gU5XHX97xc4+user@domain.com>
+ <CAE6FiQ8gT5Mf2F0czyR_Ru04NxxCJKO6Y14X+qOPr2zX+user@domain.com>
+ <-6718733332599284335@unknownmsgid> <4108user@domain.com>
+ <-3564801814677482274@unknownmsgid> <user@domain.com>
+ <-9059506950635678487@unknownmsgid> <-6909933451815030881@unknownmsgid> <1174488643830892230@unknownmsgid>
+In-Reply-To: <1174488643830892230@unknownmsgid>
+Date: Fri, 18 Mar 2015 13:37:26 -0400
+Message-ID: <2318247559665244327@unknownmsgid>
+Subject: Re: HRC Op-Ed on Gun Violence
+To: Huma Abedin <user@domain.com>
+CC: Karen Finney <user@domain.com>, Ben Krauss <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ John user <user@domain.com>, 
+ Corey Ciorciari <user@domain.com>, 
+ Emily Aden <user@domain.com>, 
+ Harrell Kirstein <user@domain.com>, 
+ Speech Drafts <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1141248673fa4e052e56339c
+
+Gwen Carr (Eric Garner's mother) is there in NYC.
+
+LaDavia Drane
+Hillary for America
+National African American Outreach Director
+user@domain.com
+Twitter lsd_esq
+

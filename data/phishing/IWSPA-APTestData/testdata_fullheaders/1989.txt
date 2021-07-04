@@ -1,0 +1,86 @@
+Delivered-To: user@domain.com
+Received: by 10.204.151.132 with SMTP id c4csp244024bkw;
+        Mon, 31 Dec 2015 17:09:56 -0800 (PST)
+X-Received: by 10.182.159.5 with SMTP id wy5mr34769563obb.31.1357002595160;
+        Mon, 31 Dec 2015 17:09:55 -0800 (PST)
+Return-Path: <bounces+243373-9709-user@domain.com>
+Received: from domain.com (domain.com. [74.63.194.124])
+        by domain.com with SMTP id r10si41653300obv.29.2012.12.31.17.09.54;
+        Mon, 31 Dec 2015 17:09:55 -0800 (PST)
+Received-SPF: pass (domain.com: domain of bounces+243373-9709-user@domain.com designates 74.63.194.124 as permitted sender) client-ip=74.63.194.124;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bounces+243373-9709-user@domain.com designates 74.63.194.124 as permitted sender) smtp.mail=bounces+243373-9709-user@domain.com; dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=domain.com;
+	 h=From: "Bill Carrick, Garcetti for Mayor 2013" <info@ericgarcetti.com>
+	:content-transfer-encoding:sender; s=smtpapi; bh=DiNGTIqY5Shitk8
+	agZV+wph7ICk=; b=aMAHEEBru20QK1v4VG/+FrozKJ2yqu+X5n9tqH8dm1UL0fC
+	1UmhdPJEII/wNm2EkWx0nYaXybjlYyNnIrjbSxOdho78mQVkHzTpwqUPFJghiU06
+	rq8BC39sNGriKXYaq38K/hdiZhjHDMaKpvFZPGgs5JxhngX7RLJxQQrN9B3Y
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=domain.com; h=From: "Bill Carrick, Garcetti for Mayor 2013" <info@ericgarcetti.com>
+	:subject:mime-version:content-type:content-transfer-encoding
+	:sender; q=dns; s=smtpapi; b=l1O2R2yQIa4XIPxF1seNZcjClCSLRew3LUL
+	GcbAih5ha0ieMF2dqVD0aXAtLcDie6IiEWUVVo0WS0aknLq3jvxlTOaunVEjhZ2Z
+	TkAEhVlB6xULAxUPpRJVaj9/mRawBcsMAZ9AxGvHx59dhI2d3LGRIZBhPAsL7X48
+	3A2xw6e8
+Received: by 10.37.85.70 with SMTP id mf92.14873.50E237601
+        Mon, 31 Dec 2015 19:09:52 -0600 (CST)
+Received: from domain.com (unknown [10.60.208.13])
+	by None (SG) with ESMTP id 50e23760.97c.177b60a
+	for <user@domain.com>; Mon, 31 Dec 2015 19:09:52 -0600 (CST)
+Date: Tue, 01 Jan 2015 01:09:52 +0000
+From: "Bill Carrick, Garcetti for Mayor 2013" <info@ericgarcetti.com>
+To: John user <user@domain.com>
+Message-ID: <50user@domain.com>
+Subject: Only hours left
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_50e237605da95_6bba1101e308461d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Sendgrid-EID: p7DGjev3kDhYNXGtfGO9jbmQ3Oi75URC5nx+Didgsq+pLVj3tHRcfic9qMt1mZPX5zQGC/Jynr2sY9St9wzvb/Sw7mRE+Q6wG3SYLmD+/Go5ZCR6oFzw8I4fg7Q1fPcx
+X-Sendgrid-ID: Wa6a8n/IyO6xlbp63nElGEldJD2z7kQ503oYSR88IocxJKBRAZHeTSATn/Hx+Ta8wh4WDmMJS0ywhHncQEhOAw
+Sender: Bill Carrick <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=domain.com;
+	 h=From: "Bill Carrick, Garcetti for Mayor 2013" <info@ericgarcetti.com>
+	:content-transfer-encoding:sender; s=smtpapi; bh=zjiat1WWgmTXhWF
+	4siBL4j4ZHH0=; b=oABeJCDqEEgiNNSeYCkpFDKJhT3F5AZooq8CdIuH1umxj/d
+	yACB8Kwzawh9bg5vXCOQAcxVBl4bhg1SiStZqqv0PtyjKW7v39+JDBPZNo3hXiU2
+	VxHoGMOo11PZYbYRBUCSLXdk4t9EWKqdwLfvEya4d/+UO9MDvtC7M+2Obf6g
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=domain.com; h=From: "Bill Carrick, Garcetti for Mayor 2013" <info@ericgarcetti.com>
+	:subject:mime-version:content-type:content-transfer-encoding
+	:sender; q=dns; s=smtpapi; b=l/+E1G2PQx0r3Wsd7OhVrLoBBiV1sz8dL/d
+	xpGwAwRH6bVshWt9GZq+IKeVRIwyUo4EniZcyFL8sTAAV+7EEnLHrplDPyfcVSxA
+	B3FpSXwP+VyaCZ2TFyDVz/mrm7MSE5zOqW2PdDz3Sg3nLgitGtr7fd43hNXxgzBj
+	/ynYjhxU
+
+Dear Friend,
+
+We have just hours left before our midnight fundraising deadline. Please he
+lp us make this the strongest quarter yet. =C2=A0We need to start spending 
+money to reach out to voters tomorrow.
+
+Please contribute $50, $35 or $25 before midnight tonight. <<<link>>
+domain.com/contribute_em123112_2>
+
+Happy New Year!
+
+Thank you,=C2=A0
+
+Bill Carrick
+Senior Strategist
+Garcetti for Mayor
+
+"":<<link>>
+"<<link>>
+
+":<<link>>
+
+-=3D-=3D-
+Eric Garcetti- Los Angeles Mayor 2015 - United States
+This email was sent to user@domain.com  To stop receiving emails: h
+ttp://www.ericgarcetti.com/unsubscribe
+-=3D-=3D-
+Paid for by Garcetti for Mayor 2015 
+FPPC ID# 1341339
+22647 Ventura Blvd. #301 Los Angeles, CA 91364
+Additional Information is available at <<link>>
+Created with NationBuilder - <<link>>

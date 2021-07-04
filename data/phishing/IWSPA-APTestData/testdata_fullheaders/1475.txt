@@ -1,0 +1,58 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp673595lfb;
+        Thu, 17 Mar 2015 16:05:08 -0700 (PDT)
+X-Received: by 10.182.107.137 with SMTP id hc9mr7726869obb.74.1458255908622;
+        Thu, 17 Mar 2015 16:05:08 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::22f])
+        by domain.com with ESMTPS id c126si7313127oia.29.2016.03.17.16.05.08
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 17 Mar 2015 16:05:08 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22f as permitted sender) client-ip=2607:f8b0:4003:c01::22f;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22f as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id fz5so98671754obc.0
+        for <user@domain.com>; Thu, 17 Mar 2015 16:05:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+        bh=EbynxXjzhfvSeHhRARwh2OHGXozyM1YgupkMxWyHmT8=;
+        b=cH2JoBm0qZT56/4Lg8EZdAhy0dS0ZEHT9yn7VECSwh08HE2GFca9oEQaOxYWLwR6XK
+         rSzJ+Yrc0R/U3nCaDFcJOI05Ghxyq5k5CsuCEnCnKHuQu9ij6O6kQXJGN+Xi/3znMriK
+         1Mnv6s/uZCSg0Jr22519sTSUpf0Gcc0ZnrQM8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+        bh=EbynxXjzhfvSeHhRARwh2OHGXozyM1YgupkMxWyHmT8=;
+        b=Cll71SyH14Q2zOoLfcZYLHsp5LfLqImoq3dm0uUfbWfASrpVzBgLNP1etY6K+RrpMJ
+         94jsu9PAeHY9ONZgby0YUj9+HKNezRG8yZ5hjdjGBQLrxdfOeOCcD/6nLg4ZMQtYNzGe
+         aMBABYobYiZ033qqsg7tqf4k8l/mnnDgbJcrWKTNPNXDLvb1fwzISESr6bf/wBblWZS9
+         NUqoqkk6r9b4L6ApsDF1mhSQEl+8iu/MIZmLTNUOVzzVewktlhViy9qDSDBD9FPXrouk
+         MrxuhoPdb/GLY9JPl+yd7U8JXXhBKYTwlv3i2iCOHTisSSo3getTalV9QFaZHTrows4s
+         3a6A
+X-Gm-Message-State: AD7BkJI/+zILpSuvj7gIonwJWdTCs2sXU+o4wDxYjVuz5tVFUfV6VrxH9sz/IEOyiy5UpYrW8gOxbyB5e3bYJjx3
+MIME-Version: 1.0
+X-Received: by 10.60.135.98 with SMTP id pr2mr8222064oeb.65.1458255908130;
+ Thu, 17 Mar 2015 16:05:08 -0700 (PDT)
+Received: by 10.202.59.3 with HTTP; Thu, 17 Mar 2015 16:05:08 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <443user@domain.com>
+	<user@domain.com>
+Date: Thu, 17 Mar 2015 19:05:08 -0400
+Message-ID: <CAEMn5QmdvvyhqJeCR8_JZGu809HM+user@domain.com>
+Subject: Re: speaker
+From: Milia Fisher <mfisher@hillaryclinton.com>
+To: John user <user@domain.com>, 
+ Sara Latham <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7b417921658d9d052e46a9ed
+
+Thanks. Adrienne and Brynne are looking into senior surrogates to send and
+Mike is going to gather info about how finance can plug in.
+
+About to send you a full roundup of your inbox!
+
+On Thu, Mar 17, 2015 at 7:01 PM, John user <user@domain.com>

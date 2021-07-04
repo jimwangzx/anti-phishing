@@ -1,0 +1,81 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp1039339lfb;
+        Fri, 18 Mar 2015 08:32:27 -0700 (PDT)
+X-Received: by 10.55.212.207 with SMTP id s76mr22870761qks.78.1458315146918;
+        Fri, 18 Mar 2015 08:32:26 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mx-washpost-domain.com (mx-washpost-domain.com. [192.64.237.168])
+        by domain.com with ESMTPS id h22si234382qge.80.2016.03.18.08.32.26
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 18 Mar 2015 08:32:26 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 192.64.237.168 as permitted sender) client-ip=192.64.237.168;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 192.64.237.168 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: The Washington Post <email@e.washingtonpost.com>
+ bh=0cVm2qfcE7tz38Vyyn2Bu0HPuY8=;
+ b=iAIuYvNJdrnnpEmGQKtO4AaoTdTfFzqq1dS/QfATVM4RhFon02Hlf01/nfNpvGewDb3UKV8hGWtF
+   JmjkLQ1gRfcfh1HmV93X3weudDvk+PDI878qsFZOaURpUP9pdJQmt3NW8rghj0+2I2RYmjSYVzwd
+   cjz3NBuPItWm0O2fYRE
+Received: from mtast-04.domain.com (204.153.121.10) by mx-washpost-domain.com id htgfok1qqbs9 for <user@domain.com>; Fri, 18 Mar 2015 11:32:25 -0400 (envelope-from <user@domain.com>)
+Received: from nj1-illcherry.flt (172.18.20.10) by mtast-04.domain.com id htgfoi1s6j0h for <user@domain.com>; Fri, 18 Mar 2015 11:32:25 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1458315145;
+	s=sailthru; d=e.washingtonpost.com;
+	h=Date:From: The Washington Post <email@e.washingtonpost.com>
+	bh=bt5Z0HxtGz/WdcdJ0ZSSGpd9eI16ExKKe2LKeYR9DYI=;
+	b=XZYAJhwOfpHXc4d8r/scKn1q8666jM92Srq1e5NIA7adFW9a+xgXb4UZAPl6/W/Y
+	XdfKPnnAU/9qWHC4AzrPOAbfpNm5n7xyfnx0jgDGP7TvJHkycHAjcomfcKGA8c7tIs5
+	Ge4MRLRffoRfM76jpl9zpgD4UKFTh3+pEiBOLdww
+Date: Fri, 18 Mar 2015 11:32:25 -0400 (EDT)
+From: The Washington Post <email@e.washingtonpost.com>
+To: user@domain.com
+Message-ID: <20160318113225.6321496.512546@domain.com>
+Subject: We explore: What's happening in America? What does it mean to be an
+ American?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8195714_1025212453.1458315145717"
+Precedence: bulk
+X-Feedback-ID: 4956:6321496:campaign:sailthru
+X-TM-ID: 20160318113225.6321496.512546
+X-Info: Message sent by domain.com customer The Washington Post
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: sthiq6321496
+
+LOOKING FOR AMERICA
+
+
+
+In an election year like no other, one question has dominated the discussion: What's happening in America? Underlying that question is another, more profound and more personal one: What does it mean to be an American?
+For nearly 35 days, during the thick of the primary season when voters at last had their say, David Maraniss and Robert Samuels crossed the nation in search of answers. They went everywhere the election went - at rallies in airport hangars and high school gymnasiums, with canvassers rounding up votes, at Rotary Club breakfasts and fraternity house debate watch parties and morning coffee klatches and church sermons and sidewalk picket lines and Donald Trump's hotel and John Kasich's bus.
+The answers they found were as profound as the questions they asked - individual notions of what it means to be an American and a collective sense of why we've landed at this mysterious moment in the nation's history.
+
+Read more >> <<<link>>> 
+
+LONGING FOR SOMETHING LOST
+PART 2 | In New Hampshire, the feeling is widespread. But what it truly means varies across demographics.
+By David Maraniss and Robert Samuels
+Read more >> <<<link>>>
+
+AWAITING A POLITICAL AWAKENING
+PART 3 | In Las Vegas and across the nation in South Carolina, people wonder whether the American Dream is still attainable.
+By David Maraniss and Robert Samuels
+Read more >> <<<link>>>
+
+A NATION, DIVIDED
+PART 4 | In Michigan and Texas, voters choose between hope and fear.
+By David Maraniss and Robert Samuels
+Read more >> <<<link>>>
+
+You received this email because you are registered on domain.com. For additional free newsletters or to manage your newsletters, click here >> <<<link>>>.
+We respect your privacy <<<link>>>. If you believe that this email has been sent to you in error or you no longer wish to receive email from The Washington Post, click here >> <<<link>>>. Contact us <<<link>>> for help.
+
+(c)2016 The Washington Post, 1301 K St NW, Washington DC 20071

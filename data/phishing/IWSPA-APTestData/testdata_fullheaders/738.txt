@@ -1,0 +1,99 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 17 Jul 2015 13:46:30 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s6HKkEqt031440	for <user@domain.com>; Thu, 17 Jul 2015 
+ 20:46:14 GMT
+Received: from mail128-ch1-domain.com (mail-domain.com
+ [216.32.181.171])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s6HKiXRh021497
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 17 Jul 2015 20:44:33 GMT
+Received: from mail128-ch1 (localhost [127.0.0.1])	by
+ mail128-ch1-domain.com (Postfix) with ESMTP id D422F1E0898	for
+ <user@domain.com>; Thu, 17 Jul 2015 20:46:13 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.237.156;KIP:(null);UIP:(null);IPV:NLI;H:mx-justfab-domain.com;RD:mx-justfab-domain.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(z59c9hzc89bhd79ah758Ic857hc545Idbb0izz1f42h1ee6h1de0h2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch1fdahzebhz8275ch1d7338h1de098h17326ah1df2f4h1def87h8275bh8275dh1defc1h1def86h1bc7b9h1de097h1def03h186068h172c6ch1ce120h1a691ciz2fheh5fh839he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h2565h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h29d0h2a24h2b05h214ai)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail128-ch1: domain of domain.com designates 192.64.237.156 as permitted sender) client-ip=192.64.237.156; user@domain.com; helo=mx-justfab-domain.com ;domain.com ;
+Received: from mail128-ch1 (localhost.localdomain [127.0.0.1]) by mail128-ch1
+ (MessageSwitch) id 1405629971500174_6071; Thu, 17 Jul 2015 20:46:11 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.249])	by mail128-domain.com (Postfix) with ESMTP id
+ 76AEF2A004E	for <user@domain.com>; Thu, 17 Jul 2015 20:46:11 +0000
+ (UTC)
+Received: from mx-justfab-domain.com (192.64.237.156) by
+ domain.com (10.43.70.24) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 17 Jul 2015 20:46:10 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Variety Breaking News <donotreply@variety.com>
+ bh=qh01ukVc0sNK/CUjy75qsuEqBps=;
+ b=QkQisvlhB+kRb8Es7I7Hx2hXSLMlxC6BX5FaC2vHhTqwjS7kDF9S1w9rXHcU5i1xKVFs+Ghbhb9x
+   XHDVq3ZJdv+NvipCmwMVWPkCwb05zfyDQk6E509g3a93rfAkKZqtxVubvNts8X1bRUfqG+QSE9WM
+   vf3s5XaaJMTte4Q0ysQ
+Received: from nyp1-p-p4137-prd-jma-02.sailthru.pvt (64.34.57.231) by
+ mx-justfab-domain.com id hp0r1q1qqbsu for <user@domain.com>; Thu,
+ 17 Jul 2015 16:46:21 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1405629948;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=4CLJICjj3baNdNoAN6yMr/A5oSeE6ypoD07OnNU/FDU=;
+	b=fid1Cmg0MmldGHhHCLFFL0rrZeVoKQmrhuOoNFsIU7p/FaOOgvlKJXrPEcEEMcdR
+	n5AMA61meamuzhGCCbKn1NMIomoSuKNvaOFO6yJ6PaPeJE8tkM/3qwWk91OrzqZeMra
+	PX2e484Dwvo4V2EiN0TMnUXXY60vB7yBrdSBEs2U
+Date: Thu, 17 Jul 2015 16:45:48 -0400
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140717204548.2835216.18314@domain.com>
+Subject: 'Midnight Rider' Filmmakers Issue Statement: 'This Was Not a Crime'
+Precedence: bulk
+X-TM-ID: 20140717204548.2835216.18314
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4137-prd-jma-02.sailthru.pvt
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2835216
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+'Midnight Rider' Filmmakers Issue Statement: 'This Was Not a Crime'
+
+Through their attorneys, "Midnight Rider" filmmakers Randall Miller and Jody Savin issued a publ... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Thursday, July 17, 2015         
+
+​ 
+
+<<link>> 
+
+        'Midnight Rider' Filmmakers Issue Statement: 'This Was Not a Crime'             
+
+        Through their attorneys, "Midnight Rider" filmmakers Randall Miller and Jody Savin issued a public statement in which they call t...            
+
+        Full Story              
+
+
+
+
+Check out the redesigned Variety411      <<link>>         
+
+This email was sent to user@domain.com by Variety. To ensure delivery to your inbox (and not
+

@@ -1,0 +1,85 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id 0349A46869
+	for <user@domain.com>; Sat, 29 Nov 2015 14:59:39 -0500 (EST)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id CA49E131F792
+	for <user@domain.com>; Sat, 29 Nov 2015 14:59:37 -0500 (EST)
+Received: by domain.com (Postfix)
+	id F09A51B8FC; Sat, 29 Nov 2015 20:59:34 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.90])
+	by domain.com (Postfix) with ESMTP id DA9191B905
+	for <user@domain.com>; Sat, 29 Nov 2015 20:59:34 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id CB6CD60D
+	for <user@domain.com>; Sat, 29 Nov 2015 20:59:34 +0100 (CET)
+X-Quarantine-ID: <o1cbCgm4Xh-N>
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Amavis-Alert: BAD HEADER Non-encoded 8-bit data (char AE hex): Subject:
+	Capital One Online\256 $90 Reward Survey\n
+X-Spam-Flag: YES
+X-Spam-Score: 5.615
+X-Spam-Level: *****
+X-Spam-Status: Yes, score=5.615 tagged_above=0 required=5
+	tests=[BAYES_50=0.001, FORGED_MUA_OUTLOOK=3.116,
+	NO_DNS_FOR_FROM=1.496, SUBJECT_NEEDS_ENCODING=0.001,
+	TVD_PH_SUBJ_META=1, URIBL_RED=0.001]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id o1cbCgm4Xh-N for <user@domain.com>;
+	Sat, 29 Nov 2015 20:59:28 +0100 (CET)
+Received: from domain.com (domain.com [66.119.48.19])
+	by domain.com (Postfix) with ESMTP id ADCB71B8FC
+	for <user@domain.com>; Sat, 29 Nov 2015 20:59:21 +0100 (CET)
+Received: from yoda ([67.100.174.58]) by domain.com with Microsoft SMTPSVC(6.0.3790.3959);
+	 Sat, 29 Nov 2015 12:59:14 -0700
+From: "Reward Survey" <Reward-Survey@capitalone-Reward-Survey.com>
+Subject: ***SPAM*** Capital One =?iso-8859-1?Q?Online=AE?= $90 Reward Survey
+Date: Sat, 29 Nov 2015 14:55:32 -0500
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <user@domain.com>
+X-OriginalArrivalTime: 29 Nov 2015 19:59:15.0400 (UTC) FILETIME=[F4C83480:01C9525C]
+To: undisclosed-recipients: ;
+Content-Length: 964
+Lines: 26
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 910
+
+Dear CapitalOne Bank Client, 
+
+We kindly ask you to spare two minutes of your time to read this e-mail from us 
+and take advantage of this offer. 
+
+CapitalOne Online Department has 9 simple questions for you, 
+all in one simple survey. This quick survey can bring you $90 as a reward for your time. 
+
+CapitalOne is committed to our clients needs and is serious about your online banking problems.
+
+After this quick survey we can improve our system and expand our online services. 
+
+The information you provide us is anonymous and no other obligations, the transfer 
+of the reward is being made by our automatic payment system.
+
+SERVICE: CapitalOne Online $90 Reward Survey
+EXPIRATION: 48 hours
+
+Confirm Now your $90 Reward Survey with CapitalOne Online Reward services.
+
+<>
+
+Thank you, 
+Customers Support Service
+
+Copyright 1996 - 2015 CapitalOne Bank, N.A. Member FDIC Copyright  2015 

@@ -1,0 +1,452 @@
+Delivered-To: user@domain.com
+Received: by 10.151.98.20 with SMTP id a20cs22487ybm;
+        Thu, 26 Jun 2015 08:50:35 -0700 (PDT)
+Received: by 10.70.77.2 with SMTP id z2mr22638wxa.76.1214495433937;
+        Thu, 26 Jun 2015 08:50:33 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wr-out-0708.domain.com (wr-out-0708.domain.com [64.233.184.249])
+        by domain.com with ESMTP id h11si378725wxd.1.2008.06.26.08.50.33;
+        Thu, 26 Jun 2015 08:50:33 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.233.184.249 as permitted sender) client-ip=64.233.184.249;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 64.233.184.249 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by wr-out-0708.domain.com with SMTP id b72so104008wra.6
+        for <user@domain.com>; Thu, 26 Jun 2015 08:50:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Evan Whitbeck" <ewhitbeck@progressivemediausa.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=+KX0iDrRaGYDhcNet28abhTuyak549VaqfoaB0W1SPw=;
+        b=ZEO/W8P/h6yqrD41D+7NVyG0Adq3XoT1p2b6F2l0Gu3wWIf9oxHF7T+4jc7GgHP0kt
+         Doa0kXl2eRYd+W3AxgGDqBvHYDHAeEMm4omEqOQziHO9myV2XQse2tusaCrh4X1/Q+oE
+         yGWUpnfDvOwANEY+XQhi4RLM63ZKERVm5xDnc
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Evan Whitbeck" <ewhitbeck@progressivemediausa.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=Pvt7fs37W5pdEJsholLW4kqbSzGwft/dmUVGtT6ze7LyuELXoMarKs8rsBT8C4x2AQ
+         r2IXHrF87588/FHw3GfVH6UfZGMR+MlV2gcfhPwy4DPPu1q3jP7ygVxB/Fy2J8QeyUnk
+         aMPF5agRoFksPOG7N45Vublg42OVAEC9AJIzA
+Received: by 10.150.49.16 with SMTP id w16mr11866ybw.11.1214495427054;
+        Thu, 26 Jun 2015 08:50:27 -0700 (PDT)
+Received: by 10.107.113.4 with SMTP id q4gr1027prm.0;
+	Thu, 26 Jun 2015 08:50:19 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.115.88.12 with SMTP id q12mr41234wal.23.1214495417576; Thu, 26 Jun 2015 08:50:17 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wf-out-1314.domain.com (wf-out-1314.domain.com [209.85.200.173]) by domain.com with ESMTP id m36si112948wag.3.2008.06.26.08.50.17; Thu, 26 Jun 2015 08:50:17 -0700 (PDT)
+Received-SPF: neutral (domain.com: 209.85.200.173 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=209.85.200.173;
+Authentication-Results: domain.com; spf=neutral (domain.com: 209.85.200.173 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by wf-out-1314.domain.com with SMTP id 24so67196wfg.7 for <user@domain.com>; Thu, 26 Jun 2015 08:50:17 -0700 (PDT)
+Received: by 10.142.180.11 with SMTP id c11mr23436wff.113.1214495417183; Thu, 26 Jun 2015 08:50:17 -0700 (PDT)
+Received: by 10.142.98.9 with HTTP; Thu, 26 Jun 2015 08:50:17 -0700 (PDT)
+Message-ID: <96753user@domain.com>
+Date: Thu, 26 Jun 2015 11:50:17 -0400
+From: "Evan Whitbeck" <ewhitbeck@progressivemediausa.org>
+To: user@domain.com
+Subject: [big campaign] Media Monitoring Report - Morning 06/26/08
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_3066_6753307.1214495417178"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+*Main Topics:* McSame, McDifferent, Nuclear Power, Oil*
+Summary of Shift:* Foreign policy was the word, today began with an address
+from President Bush announcing the easing of sanctions on North Korea. This
+prompted some discussion of the candidates' foreign policy strategies and
+abilities as well as the obligatory comparisons to Bush. The Supreme Court
+ruled the DC gun ban unconstitutional. Fires continue in California and
+rains fall in Missouri, worsening the situation there.
+
+Highlights:
+
+1.     MSNBC: McCain is "aggressive," more of a neocon than Bush, "more
+confrontational" than Bush
+2.     Romney interviews
+
+a.     CNN: Romney talks McCain and partisanship, state of the Republican
+Party
+b.     FNC: Romney talks McCain on Korea and drilling
+c.     MSNBC: Romney on energy and green technology
+
+3.     MSNBC Shrum: McCain has the style of Dole and the substance of Bush
+4.     FNC: Nancy Pfotenhauer talks McCain, oil and energy
+5.     ABC: Religion and politics examined, McCain's pastor problems
+highlighted
+6.     CNN: McCain is computer illiterate, importance of president and
+domain.com examined
+
+Local Highlights:
+
+7.     KTNV ABC NV: Protestors dog McCain in Nevada
+
+Clips:
+
+Highlight #1
+*McCain is "Aggressive," More of a Neocon than Bush, "More Confrontational"
+than Bush *(MSNBC 06/26/08 7:39am)
+RICHARD C. HOLBROOKE: We've just seen a step forward in North Korea. We have
+a presidential campaign in which this is a big, big difference between the
+two candidates.
+
+JOE SCARBOROUGH: you are exactly right, I mean John McCain's position is
+even tougher than, I don't know if you'd say more conservative but it's more
+of a neocon approach than even George W. Bush's . . .
+
+HOLBROOKE: You just made a very important point for the voters . . . I've
+been taking the McCain positions and the Obama positions and looking at them
+and what's really interesting is that McCain, on issue after issue, McCain
+is taking positions tougher than Bush, there's kind of an aggressive. He
+knows his issues but=97on Russia, he wants to kick Russia out of the G8. You
+can't do that. On Iran he says the only thing worse than war with Iran is a
+nuclear Iran. On Iraq we know his positions. He is taking very, very hard
+line positions.
+
+SCARBOROUGH: Let's underline this point right now . . . John McCain's
+positions are even further, let's say more confrontational than Bush's.
+There is a greater distance between Obama and McCain than Obama and Bush.
+
+Highlight #2
+*Romney Talks McCain and Partisanship, State of Republican Party* (CNN,
+06/25/08, 7:24am)
+JOHN ROBERTS: John McCain is launching a new line of attack this morning,
+his campaign released a memo just a couple of hours ago saying, Barack Obama
+has consistently put his party and his own self interests ahead of the
+nation. This comes after Karl Rove said that the democratic candidate was
+quote "arrogant".
+
+[=85]
+
+MITT ROMNEY: [=85] The fact, and reality is that he's not a very experienced
+person. He's not someone who has shown, if you will, the kind of leadership
+that I think America needs right now in such a critical time. He has
+consistently voted with his party on the most partisan issues and put his
+party's and his personal interests ahead of those of the nation. And I think
+been unable during his career, at any time, to reach across the aisle, find
+compromise, find ways to get things done, other than simply toeing the party
+line. I think people feel we've had too much of that in Washington and
+that's in part why I think John McCain will be successful. His reputation
+and record is as a leader, who reaches across the line, sometimes, you know,
+he's thumbed his nose at his own party and said, look you guys are wrong. He
+does what he thinks is right.
+
+[=85]
+
+ROMNEY: John, there's no question there are a number of republicans, and
+that's John McCain included, who are willing to reach across the aisle and
+work with democrats. [=85]
+
+ROBERTS: You know, there's an interesting column that Robert Novak has got
+out there today. He's talking about this group of people called the
+Obama-cons, conservatives who may support Barack Obama. And he suggests that
+Senator John McCain is at risk of losing some conservative votes, not
+necessarily because they agree with Senator Obama's positions, but because
+they do not like the Bush administration and they are looking for something
+different. And he quotes a conservative, Larry Hunter, who says quote, "The
+Republican party is a dead rotting carcass with a few domain.com old leaders
+stumbling around like zombies in a  horror version of weekend with Bernie,
+handcuffed to a corpse." Do you agree with any of that? Is that what the
+Republican party is these days?
+
+ROMNEY: Gee, I don't think so. You know you're going to find some
+discontents in any party. And are there things that our party could do
+better? Absolutely. And are there opportunities for new ideas and strong
+leadership? Absolutely. And I think John McCain represents that. At the same
+time, I think you're finding in our party that people are rallying strongly
+around Senator McCain. I've had the chance to speak now at convention in
+Maine, Nevada, and frankly all over the country, Texas. And people are
+enthusiastic about Senator McCain, in party because they recognize how
+critical the times are right now and how wrong Barack Obama is. Look, he's a
+very nice fellow, but on the issues of the day he's just simply wrong. [=85]
+
+*Romney Talks McCain on Korea and Oil Drilling/Energy *(FNC, 06/25/08,
+7:57am)
+ [=85]
+
+BRIAN KILMEADE: Governor, when you talk about six party talks, there's a lot
+of people who think that we should not have been in them, there's a lot of
+democrats in particular that say, let's just go and talk to our enemies.
+Does John McCain subscribe to the six party talks? I know you're also a
+worker, trying to get John McCain in that White House.
+
+MITT ROMNEY: Well, Senator McCain recognizes that in order for us to make
+progress in negotiations diplomatically with other nations, we have to
+strength at our side. That when you bargain with a position of strength,
+that when you have leverage, you're able to get more done. When you're
+dealing with a nation like Iran for instance, that it's critical to have
+Europe combined with us, in putting in place the kind of sanctions to get
+Iran to move. And the same is true in regards to North Korea. You have to
+have our friends around the world, and even some of those, if you will, are
+partners with the same interests, come in together and put in pressure on a
+regime like Kim Jong Il's regime. The idea of just showing up and saying,
+hey let's talk, no preconditions, no pressure, no leverage, that's something
+that accomplished virtually nothing. I think history has shown that where
+that was done, America's interests were not advanced.
+
+CLAYTON MORRIS: Governor, you just mentioned leverage, the President
+mentioning leverage in asking how it was actually working in North Korea and
+he said you had to do it with leverage. John McCain in an interview about a
+week ago said, he didn't think the United States had sufficient leverage.
+Where's the disconnect there between John McCain and the Bush White House?
+
+ROMNEY: Well, actually I don't think it's a disconnect. The President
+indicated that the United States alone doesn't have the kind of leverage on
+a nation like North Korea that the United States has if we're combined with
+Russia, and South Korea, and China, and Japan. And particularly China,
+2/3rds of the trade that goes on in North Korea goes on with China. And so
+when China sits at the table, which they did last Fall. Which they're saying
+you know, we're going to pull back on our shipments of gasoline into North
+Korea. That's a message that's heard loud and clear by Kim Jong Il.
+
+GRETCHEN CARLSON: Governor, I want to ask you a quick question, this of
+course was breaking news this morning, but I do want to ask you about the
+gas situation in the United States. Because, it's interesting to watch our
+political season this year, who would have known that this would become the
+hot topic now. You would like to point out that you feel that John McCain
+and Senator Barack Obama have very differing plans when it comes to how to
+control high gas prices.
+
+ROMNEY: Well, there's no question about that. Barack Obama I think, pretty
+consistently through his career has proven that he puts the partisan
+interests of the left-wing of the Democratic party first. And with regards
+to energy, that means he has to be, and he is, anti-nuclear power. He stands
+in favor of putting a new tax on coal and natural gas, those are of course
+the two big domestic sources of energy that we have to tap into. He's
+against offshore drilling, ANWR drilling, and so forth. John McCain, on the
+other hand , is saying look, we got to get ourselves off of our dependence
+on foreign sources of energy. And so John McCain is saying, look, let's
+explore drilling offshore, let's think again about ANWR. Let's certainly
+fast-track nuclear power plants. Everybody agrees we ought to have all of
+the renewable sources of energy that we can. Solar, wind power,
+agriculturally based sources of energy. We all agree on that. But we also
+need those additional sources, which John McCain supports and of course,
+Barack Obama, unwilling to part with the partisan part of his party. He's
+unwilling to take those steps.
+
+*Romney on Energy and Green Technology *(MSNBC 06/26/08 8:03am)
+JOE SCARBOROUGH:  . . . you're a Michigan guy. Tell me, why can't Americans
+make a car like Toyota that gets fifty miles to the gallon?
+
+MITT ROMNEY: It's one of the great imponderables . . . we have been so far
+behind on the technology front . . . and I'd like to see us as a nation
+invest dramatically more in terms of energy efficiency. That's something I
+think you're going to see coming out of a McCain White House . . .
+investments in technology to help us become energy independent.
+
+[. . .]
+
+ROMNEY: We haven't had an energy policy. We haven't been investing in
+technology to find new sources of energy . . . we got to be far more
+committed to spending the research dollars it takes to find new sources of
+energy . . . we can do that and that's why I'm convinced that John McCain's
+right. We need more drilling, more nuclear power, clean burning coal, you
+need all of the sources that really have great promise for us to finally get
+us energy indepndent.
+
+MIKA BRZEZINSKI: But doesn't he need to demand it? . . . at this point I
+think that the criticism has been that there hasn't been real leadership on
+this issue? . . . what does John McCain need to do to really draw the line
+on this?
+
+[. . .]
+
+ROMNEY: Well, I think you're going to see over the course of this campaign
+that people are going to listen to both candidates and people are going to
+make their assessment as to what they really think about the candidates when
+they've heard from them. And this is a little early and I think with time .
+=2E . people are going to recognize the Barack Obama consistently puts the
+partisan interests of his party and his own personal interests . . . ahead
+of the country.
+
+Highlight #3
+*Shrum: McCain has the Style of Dole and the Substance of Bush *(MSNBC
+06/26/08 7:12am)
+BOB SHRUM: And I'm not sure so far that John McCain has shown he's a much
+better candidate than President Ford was.
+
+JOE SCARBOROUGH: Really?
+
+SHRUM: Right now, John McCain, who I said was the strongest Republican
+nominee . . . is coming across as a combination, stylistically, of Bob Dole,
+and, substanitvaly, of George Bush.
+
+MIKA BRZEZINSKI: That's how I see.
+
+SCARBOROUGH: What's happened to him?
+
+SHRUM: . . . they had three or four months where they had the nomination
+consolidated and they didn't seem to do anything with it. They didn't seem
+to come up with a long-term game plan. They didn't seem to come up with a
+big positive argument about how he does represent change. Maybe he is just
+so determined to spend his time talking about the Iraq War, talking about
+international policy, not really addressing the economy and placating the
+Republican base that he's never going to do it.
+
+SCARBOROUGH: But as long as the news is good out of Iraq, which it has been,
+at least over the last couple weeks . . . Americans don't care about Iraq,
+they don't want to hear about Iraq. . .
+
+Highlight #4
+*Pfotenhauer Talks McCain and Oil and Energy *(FNC, 06/25/08, 8:51am)
+BRIAN KILMEADE: First off, Nancy, you're getting a lot of grief foe,
+according to Barack Obama, Senator McCain's getting some grief because he
+used the term "psychological effect" when it comes to drilling at home, not
+a financial effect.
+
+NANCY PFOTENHAUER: Well that just reveals ignorance of the future markets. I
+mean on the one hand, people complain about speculators, on the other hand
+Obama wants to dismiss the role that they play on oil prices. So, when we
+announce that we are no longer going to be relying on foreign sources for
+our oil , and that we're going to take our destiny into our own hands, if
+you will, by increasing domestic production. That sends an immediate signal
+to the market, and the market reacts very very quickly. Also, Obama people,
+and Obama himself would like you to believe that it's going to be about a
+decade before we actually see oil out of the ground. They exaggerate that by
+about twice as long as what we've heard it to be. So about 5 years until we
+see that oil actually come online, but an immediate short term effect on
+prices is absolutely possible.
+
+*Pfotenhauer Talks McCain and Oil and Energy Cont.* (FNC, 6/25/08, 9:03am)
+GRETCHEN CARLSON: McCain yesterday did say that he's setting a goal of
+weaning the U.S. off of foreign oil by 2025. Sounds like a long way off, but
+it's really not, right?
+
+NANCY PFOTENHAUER: It's not, you know, and if I can just say that this is
+really emblematic of Senator McCain. He's the type of person who has always
+put his country first and has been willing to take on controversial issues
+when they were essential to ensuring our prosperity and our peace. And this
+is very emblematic of him. I have to say, I think it is also emblematic of
+Senator Obama's unwillingness to ever break with his party leadership, to do
+something that is difficult but in our country's interest. And you see, he
+has no short term policy solutions, because he would alienate the left, the
+hard left part of his base.
+
+BRIAN KILMEADE: Will you confirm some reports that say that the Senator is
+revisiting ANWR and might consider supporting drilling there?
+
+PFOTENHAUER: I can't confirm that, I certainly have not heard anything along
+those lines.
+
+Highlight #5
+*Religion and Politics Examined, McCain's Pastor Problems Highlighted* (ABC,
+06/25/08, 7:16am)
+DAN ABRAMS: So why is religion playing such a combustible role in this
+election? In part, some observers say, because we have an unusual situation
+where the democrat seems more comfortable talking about his faith than the
+republican. Obama is trying to turn that to his advantage by aggressively
+courting evangelicals.
+
+[=85]
+
+ABRAMS: It's worth noting that John McCain has had pastor problems too.
+Choosing to renounce endorsements from John Hagee and Rob Parsley after
+their controversial comments came to light.
+
+ROD PARSLEY: Islam is an anti-Christ religion.
+
+ABRAMS: At this point John McCain has a solid lead among evangelical voters,
+but some observers believe that Obama may have a real shot at peeling off
+some moderates. Which is why you can expect Obama to keep emphasizing his
+faith, despite Robin, what we've seen to be the obvious risks of this
+strategy.
+
+Highlight #6
+*McCain is Computer Illiterate, Importance of President and domain.com
+Examined* (CNN, 06/25/08, 6:55am)
+JOHN ROBERTS: It turns out that the man who could be our next president is
+far from computer savvy.
+
+[=85]
+
+JEANE MOOS: We don't expect the president to be the Liberace of the
+keyboard. But still, should the next President of the United States know how
+to work a computer?
+
+CHILD: I mean, yeah, I guess so, it would be helpful. Why not?
+
+MOOS: Ask John McCain. Here's how he describes his computer skills.
+
+JOHN MCCAIN: I am an illiterate that has to rely on my wife for all of the
+assistance that I can get.
+
+ANNONYMOUS: Oh that's absolutely ridiculous. It's the 21st Century and you
+should know how to do it. He's got people to do that! He's got to be
+thinking of more important things.
+
+MOOS: While Cindy McCain's been spotted scrolling her blackberry. John
+McCain tends to be handed a blackberry to talk on. Barack Obama on the other
+hand is one of those guys so intent on reading his blackberry that he could
+run into something. He is a blackberry fiend, says his spokesperson, has a
+laptop on the road and sometimes uses it to talk to his daughters, and surfs
+the web when he is in need of important information such as sports scores. A
+far cry from this guy [Bush]
+
+GEORGE BUSH: I hear there's rumors on the internets. And on of the things
+I've used
+on the Google is [=85]
+
+MOOS: Just the other day President Bush did it again.
+
+BUSH: They can go on their computers and dial up domain.com.
+
+MOOS: At least John McCain isn't still dialing up, he knows to leave off the
+"the". But
+McCain's admission that he was computer illiterate was fodder for debate at
+something called the Personal Democracy Forum. The online expert who had
+worked for John Edwards got into it with the domain.com expert for the McCain
+campaign. [=85] But when McCain's guy said this, "John McCain is aware of th
+e
+domain.com" became a joke on the domain.com. But do we really want a president
+that sits around the oval office googling all day? This 74 year old likes to
+Google.
+
+74 YEAR OLD WOMAN: I mean this is such an easy thing to learn, I taught
+myself how to use the computer.
+
+MOOS: At least John McCain knows the difference between a laptop and a lap
+dance. Even if jokers made a mockup of McCain's real website with "How does
+this thing work?" and "Should I double click here?"
+
+Local Highlight #1
+STEVE WOLFORD: Along with supporters, there were also a number of protestors
+at UNLV for McCain's domain.com. A group of disabled veterans asked McCain to
+"walk the walk" by supporting the troops and green energy to create jobs in
+Nevada.
+
+--
+Evan Whitbeck
+Progressive Media USA
+202.609.7677 (office)
+360.480.0786 (cell)
+user@domain.com
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" g
+roup.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organi
+zation.
+-~----------~----~----~----~------~----~------~--~---
+

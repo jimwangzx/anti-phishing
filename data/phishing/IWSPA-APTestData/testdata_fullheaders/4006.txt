@@ -1,0 +1,540 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP id 7779A536E62
+	for <user@domain.com>; Thu,  9 Jun 2015 09:33:07 -0400 (EDT)
+Received: from lists.techtarget.com (mailhost11.lists.techtarget.com [65.214.43.174])
+	by domain.com (Postfix) with ESMTP id 2972685A8BF
+	for <user@domain.com>; Thu,  9 Jun 2015 09:33:07 -0400 (EDT)
+Received: from ([127.0.0.1:43887])
+	by domain.com (ecelerity 1.2.10.1 r(4336)) with ECSTREAM
+	id E9/BF-01345-21548A24 for <user@domain.com>; Thu, 09 Jun 2015 09:33:06 -0400
+Message-ID: <user@domain.com>
+To: "User" <user@domain.com>
+From: "Security Wire Perspectives" <searchSecurity@lists.techtarget.com>
+Reply-To: <user@domain.com>
+Subject: Best of breed security may not be wisest; phish scam or domain.com survey?
+Date: Thu, 09 Jun 2015 13:33:06 GMT
+Mime-Version: 1.0
+content-type: text/plain; charset=ISO-8859-1
+content-Transfer-Encoding: 7bit
+X-Mailer: TargetMail E-Mail By domain.com
+X-content_id: 519329
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 413
+
+Security Wire Perspectives, June 9, 2015 
+In-depth analysis, opinion and insight.
+
+This issue is brought to you by: 
+Consul risk management
+
+IN THIS ISSUE:
+*Editor's Note
+
+*Experts: Best of breed security may not be the wisest path
+When examining your options for security products, note that the more
+established vendors may not always offer a complete solution -- then
+it's time to consider point solutions from smaller companies.
+
+*Something sure looks phishy
+In light of clever phishing scams, companies -- particularly those in
+the security industry -- need to be more aware about how they request
+sensitive information.
+
+*A look at the news from domain.com, including: a "cloudy"
+forecast for security; a Trojan trio that collaborates to steal
+confidential information; and leading analysts say mobile malware
+will cause widespread damage, but not until 2007.
+
+=====================================================
+SECURITY WIRE PERSPECTIVES IS SPONSORED BY: Consul risk management
+
+Gartner and Consul Compliance Advisory Series 
+
+To maximize corporate governance, an organization must implement a
+framework for identifying and managing risk, without straining the
+business and limiting productivity. Join Gartner and for an
+educational discussion on: establishing and maintaining a risk
+management culture; aligning IT resources and investments with a
+common risk framework; and creating a holistic compliance and risk
+architecture. 
+
+Register Today!
+<>,,42262,00.htm?track=NL-358&ad=519329
+
+=====================================================
+EDITOR'S NOTE
+
+We don't hear as much about hype in the security industry these days,
+but here comes FUD-buster analyst firm Gartner Group to tell us which
+security threats aren't as huge as some want to believe. Check out
+our story on domain.com to find out what made the list.
+You'll find it at:
+<>,289142,sid14_gci1096135,00.html.?track=NL-358&ad=519329
+
+Elsewhere during the Gartner IT Security domain.com, analysts decided
+it's time for admins to get their head in the clouds
+[<>,289142,sid14_gci1095562,00.html?track=NL-358&ad=519329 ] and said compliance shouldn't be a primary security driver [<>,289142,sid14_gci1095317,00.html?track=NL-358&ad=519329 ]. Inside each article is a Sound Off link where you can share your thoughts on analyst opinions. 
+
+Also, don't forget to take our latest minipoll on which of the five
+over-hyped security threats reported by Garter is the most overblown
+[<>,289141,sid14,00.html?track=NL-358&ad=519329 ].
+
+--Shawna McAlearney, editor, Security Wire Perspectives 
+
+=====================================================
+A READ ON THE NEWS
+
+*Experts: Best of breed security may not be the wisest path
+By Shawna McAlearney, News Editor
+
+Today's information security professionals face tough decisions when
+trying to identify and deploy the correct security products for their
+enterprise environments -- "Should I use another product from a
+current best of breed provider or take a chance on an emerging vendor
+with more targeted technology?" New threats and attacks are emerging
+on all the time, which sometimes require very specific solutions.
+Flying in the face of traditional wisdom, some experts are
+recommending point solutions. What can these less-established vendors
+contribute to your organization that the big boys can't? Find out:
+<>,289142,sid14_gci1096619,00.html?track=NL-358&ad=519329
+
+=====================================================
+Don't miss the latest article!
+
+MacIntosh vs. Windows: Choosing to take a bite of the Apple
+
+Hardly a day goes by without hearing about a new worm, virus or other
+attack targeting vulnerabilities in a Windows OS, wasting admins'
+time with patching and/or cleaning their networks. Cybersecurity guru
+and noted author Winn Schwartau switches from Windows to Mac and says
+it may solve his security ills. Installments in this ongoing series
+will be posted each week so don't forget to check back, it may
+domain.com your organization.
+
+This week:
+Mad as Hell IV: Security basics for Ma&Pa 
+<>,294698,sid14_gci1096261,00.html?track=NL-358&ad=519329
+Schwartau takes a look at the three fingered reboot salute and the
+tenets of CIA.  
+
+Mad as Hell archive:
+<>,295582,sid14_gci1094430,00.html?track=NL-358&ad=519329
+
+=====================================================
+SOUND BYTES
+
+*Something sure looks phishy
+By Clay Ruth, Contributing Writer
+
+Phishing scams are increasingly clever, but it still came as a
+surprise to one security professional to receive an e-mail from a
+leading security vendor requesting detailed information through an
+insecure channel. Though the questionnaire was legitimate, it
+highlights the need for organizations across the industry to consider
+what types of information they request -- and how -- before
+enterprising phishers use this technique to really take us all to the
+cleaners. Find out how one expert was nearly fooled into offering up
+information on his company network:
+<>,294698,sid14_gci1096504,00.html?track=NL-358&ad=519329
+
+=====================================================
+domain.com's Web Security School
+
+How well do you know Web security? If you think you're an expert,
+take this quiz. If you can't ace this exam, we recommend you come to
+domain.com's free Web Security School. You'll learn how to
+harden a Web server and apply countermeasures to prevent hackers from
+wreaking havoc with your Web site. Guest instructor Michael Cobb,
+author of "IIS Security," guides you through the three lessons. Each
+includes an on-demand webcast, technical paper, quiz and handy
+checklists. CISSPs and SSCPs earn one CPE domain.com per webcast.
+
+<>,295582,sid14_gci1080309,00.html?track=NL-358&ad=519329&promo 
+
+=====================================================
+HEADLINES
+
+*Mobile malware will cause widespread damage -- in 2015 
+<>,289142,sid14_gci1096135,00.html?track=NL-358&ad=519329
+Leading analysts offer up what they say are the "five most
+over-hyped" security threats.
+
+*Analysts say 'cloudy' forecast is OK
+<>,289142,sid14_gci1095562,00.html?track=NL-358&ad=519329
+Gartner Security domain.com analysts predict security will move off
+networks and into the domain.com cloud. 
+
+*Trojan trio disables Windows, AV updates
+<>,289142,sid14_gci1094469,00.html?track=NL-358&ad=519329
+Three Trojan horse programs collaborate to hijack as many machines as
+possible. Their goal: access bank account numbers, steal identities
+and more.
+
+Keep up to date with the latest security news, go to
+<>,289141,sid14,00.html?track=NL-358&ad=519329
+
+:::::::::::::::::::::  ABOUT THIS NEWSLETTER  ::::::::::::::::::::::
+
+Security Wire Perspectives is an e-mail newsletter brought to you on
+Thursdays by Information Security, the industry's leading magazine
+for security news and information, and domain.com, the Web's
+best security-specific information resource for enterprise IT
+professionals. Copyright (c) 2005, TechTarget. No reuse or
+redistribution without the express written authorization of
+TechTarget. Additional newsletters available at
+<>
+
+_____________________________________________________________________
+
+To unsubscribe from "Security Wire Perspectives":
+
+
+
+Go to unsubscribe: <>
+
+
+
+Please note, unsubscribe requests may take up to 24 hours to process;
+you may receive additional mailings during that time. A confirmation
+e-mail will be sent when your request has been successfully
+processed.
+
+
+
+Contact us:
+SearchSecurity
+Member Services
+117 Kendrick Street, Suite 800
+Needham, MA 02494
+
+From user@domain.com  Thu Jun  9 10:07:47 2015 
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP id C07F0536E82
+	for <user@domain.com>; Thu,  9 Jun 2015 10:07:46 -0400 (EDT)
+Received: from 64.4.240.74 (domain.com [24.108.141.126])
+	by domain.com (Postfix) with ESMTP id 3565385ABD0
+	for <user@domain.com>; Thu,  9 Jun 2015 10:07:46 -0400 (EDT)
+Message-ID: <user@domain.com>
+From: "Security Wire Perspectives" <searchSecurity@lists.techtarget.com>
+To: user@domain.com
+Subject: =?iso-8859-1?b?RWJheSBBY2NvdW50IFJldmlldyAgICAx?=
+Date: Wed, 09 Jun 2015 17:00:07 +0000
+MIME-Version: 1.0
+X-Sender: <user@domain.com>
+Sender: <user@domain.com>
+Reply-To: "User" <user@domain.com>
+In-Reply-To: <141d01c44a97$0260710e$user@domain.com>
+X-MIMEOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 8bit
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 414
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"<>">
+
+
+Untitled Document
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+   
+     
+      <IMG 
+src="<>"border=0> 
+     
+     
+        
+     
+     
+      <font color="#000000" size="3" face="Arial, Helvetica, 
+sans-serif">***Urgent Safeharbor 
+Department Notice*** 
+     
+     
+        
+     
+   
+ 
+ 
+   
+     
+                     <font size="2" 
+face="Arial, Helvetica, 
+sans-serif">eBay Fraud Mediation Request 
+            <font size="1" face="Verdana, Arial, Helvetica, 
+sans-serif">Date: Tue, 7 Jun 
+2005 
+        You have 
+recieved this email because you or 
+someone had used your account to make fake bids at eBay. For security 
+purposes, we are required to open 
+an investigation into this matter.  
+                  THE 
+FRAUD ALERT ID CODE 
+CONTAINED IN THIS MESSAGE WILL BE ATTACHED IN 
+          OUR FRAUD MEDIATION REQUEST FORM, IN ORDER TO VERIFY YOUR EBAY 
+ACCOUNT 
+REGISTRATION INFORMATIONS. 
+        Fraud 
+Alert ID CODE: 
+00937614 
+            <font size="1" face="Verdana, Arial, Helvetica, 
+sans-serif">(Please save this Fraud Alert ID Code 
+for your reference.) 
+           
+          To help speed up this process, 
+          please access the following form to complete the verification of 
+your eBay account registration 
+informations: 
+        <> 
+&fraud alert id code=00937614 
+         
+           
+            .             
+           
+           
+             
+               
+                <font size="2" face="Arial, Helvetica, 
+sans-serif">Please Note: 
+ 
+                  If we do not receive the appropriate eBay account 
+verification within 48 hours, then we will 
+assume this eBay account is fraudulent and will be suspended.  
+                  The purpose of this verification is to ensure that your 
+eBay account has not been fraudulently 
+used and to combat the fraud from our community. 
+               
+             
+           
+         
+        We appreciate your 
+support and understanding, as we work together to keep eBay a safe place to 
+trade. 
+           
+  Thank you for your patience in this matter. 
+        <font color="#000000" size="2" face="Arial, 
+Helvetica, sans-serif">Regards, 
+Safeharbor Department (Trust and Safety Department) 
+  eBay Inc. 
+           
+           Please do not reply to this e-mail 
+            as this is only a notification. Mail sent to this address cannot 
+be 
+      answered.          
+     
+     
+      <font color="#000000" size="1" 
+face="Arial, 
+Helvetica, sans-serif"> 
+           
+          Copyright  2015 eBay Inc. All Rights Reserved. Designated 
+trademarks and brands are the 
+property of their respective owners. eBay and the eBay logo are trademarks 
+of eBay Inc. eBay is located at 
+2145 Hamilton Avenue, San Jose, CA 95125.  
+         
+       
+     
+   
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+From user@domain.com  Thu Jun  9 10:26:26 2015 
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP
+	id 7D4E6536EAA; Thu,  9 Jun 2015 10:26:26 -0400 (EDT)
+Received: from domain.com (domain.com [192.168.64.8])
+	by domain.com (Postfix) with ESMTP id 5880B85AC36;
+	Thu,  9 Jun 2015 10:26:26 -0400 (EDT)
+Received: from mtv-24.178.37.26.charter-domain.com (mtv-24.178.37.26.charter-domain.com [24.178.37.26])
+	by domain.com (Postfix) with SMTP id A0F0B18369F;
+	Thu,  9 Jun 2015 10:26:24 -0400 (EDT)
+Received: from 94.12.223.18 by 24.178.37.26; Thu, 09 Jun 2015 11:22:33 -0400
+Message-ID: <user@domain.com>
+From: "Security Wire Perspectives" <searchSecurity@lists.techtarget.com>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: Important system update conformation code0471-UBK
+Date: Thu, 09 Jun 2015 19:26:33 +0400
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--183988601060527"
+X-IP: 56.0.163.150
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 415
+
+----183988601060527
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<td bgcolor=3D"#ffffff" valign=3D"top">
+<table width=3D"100%" cellpadding=3D"5" cellspacing=3D"0" border=3D"0"><tr=
+
+
+
+  <!-- Notice: If this text is displayed, your email client c=
+annot display properly the format we've sent you. You may want to consider=
+ upgrading to a more recent version of your email client. If you would lik=
+e to receive only plain text messages, please reply to this message and pu=
+t "Change to text" in the subject.--> 
+
+    <xbody bgcolor=3D"#FFFFFF">
+        <TABLE border=3D"0" align=3D"center" width=3D"610" cellPadding=3D"=
+0" cellSpacing=3D"0">
+            
+                
+                    <font size=3D"1" face=3D"Arial, Helvetica, sans-serif"=
+
+ account(s). It may include specific details about transactions, products =
+or online services. If you recently cancelled your account, please disrega=
+rd this message.
+          
+                
+            
+        
+        <TABLE border=3D"0" width=3D"590" cellPadding=3D"5" cellSpacing=3D=
+"0">
+            
+                
+                    
+                        <TABLE border=3D"1" borderColorLight=3D"#003399" s=
+ummary=3D"layout" width=3D"575" cellPadding=3D"10" borderColorDark=3D"#fff=
+fff" cellSpacing=3D"0" borderColor=3D"#003399">
+                            
+                                
+                                    
+                                        <P align=3D"right">
+                                            <IMG width=3D"575" src=3D"http=
+://domain.com/notifications/events/rfs_ms/images/dual_logo_62x575=
+gif" height=3D"62">
+                                        
+                                            <font face=3D"Verdana, Arial, =
+Helvetica, sans-serif" size=3D"-1">
+   			Dear Bank One Online Customer:
+                    
+                                        
+                                        
+                                            <font face=3D"Verdana, Arial, =
+Helvetica, sans-serif" size=3D"-1">
+As part of our continuing commitment to protect your account and to reduce=
+ the instance of fraud on our website, we are undertaking a period review =
+of our member accounts.  	
+	  
+                                                
+You are requested to domain.com our new site, and fill in the required informat=
+ion.
+  
+                                                
+                                                <a target=3D"_blank" alt=3D=
+"" href=3D"<>
+MZoN9Y7/Gbab5jK68+QAjKCr5E8OR56N+F1bW+lTUTAqRFE=3D">Click here to confirm =
+account information.
+                                                
+                                                
+This is required for us to continue to offer you a safe and risk free envi=
+ronment to send and receive money online and maintain the experience.You h=
+ave 2 days to enter required information or your bank account will be lock=
+ed.  
+
+                                                
+  Please do not respond to this notification 
+  e-mail. If you have any questions about this 
+  notice, please send a secure message from 
+  your Bank One Online&reg; Inbox at 
+  <a target=3D"_blank" alt=3D"" href=3D"<>">www.BankOn=
+e.com
+                                                
+                                                
+  Sincerely,
+  
+                                                
+                                                
+  Online Banking Team
+  
+                                                
+                                            
+                                        
+                                    
+                                
+                            
+                        
+                        <P align=3D"right">
+                            <FONT size=3D"1" face=3D"Verdana, Arial, Helve=
+tica, sans-serif">
+              &copy;2005 JPMorgan Chase &amp; Co.
+  Bank One is a division of JPMorgan Chase Bank, N.A. Member FDIC
+            
+                            
+                        
+                    
+                
+            
+        
+        
+            <FONT size=3D"1" face=3D"Verdana, Arial, Helvetica, sans-serif=
+"> 
+
+
+
+     
+            <font face=3D"Verdana, Arial, Helvetica, sans-serif" size=3D"-=
+2">
+                
+       9178-LQQO
+     
+        
+
+
+
+<img src=3D"<>" =
+ WIDTH=3D"1" HEIGHT=3D"1">
+
+
+
+----183988601060527

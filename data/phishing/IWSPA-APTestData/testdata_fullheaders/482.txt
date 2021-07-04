@@ -1,0 +1,100 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.99 with SMTP id n90csp119717qga;
+        Tue, 22 Jul 2015 09:27:49 -0700 (PDT)
+X-Received: by 10.224.69.202 with SMTP id a10mr57705275qaj.100.1406046469342;
+        Tue, 22 Jul 2015 09:27:49 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-dock-front-2.domain.com (mta-dock-front-2.domain.com. [66.151.230.145])
+        by domain.com with ESMTP id k9si1567594qay.84.2014.07.22.09.27.49
+        for <user@domain.com>;
+        Tue, 22 Jul 2015 09:27:49 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.151.230.145 as permitted sender) client-ip=66.151.230.145;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 66.151.230.145 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (unknown [10.0.200.80])
+	by mta-dock-front-2.domain.com (Postfix) with ESMTP id 3hHlb52ML4zPpwf
+	for <user@domain.com>; Tue, 22 Jul 2015 16:27:45 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=votevets.org;
+	s=votevetskey; t=1406046465;
+	bh=OpYpMBkOZsi0OxNz80+F+UA0ne9SMaeZaaElITNibdg=;
+	h=Date:To:From: "Jon Soltz, VoteVets.org" <info@votevets.org>
+	b=XbelwBv38TrfhFHeN2yBqs+tyaYqxerc53tH+HaLEw80N+zxAm7rIJinr5LvTc+R5
+	 VkK79F0tcihCmEtGbux2AySdovifHQunI/zIplW09o4qj3ZW3Q/b5iBgBlqt8kPjX8
+	 8eEDZNYBWLQV/+m8Lie4aekFfHwYZNdWVKipXJwc
+Received: from build 
+	by domain.com with local (PHPMailer);
+	Tue, 22 Jul 2015 16:27:45 +0000
+Date: Tue, 22 Jul 2015 16:27:45 +0000
+To: John user <user@domain.com>
+From: "Jon Soltz, VoteVets.org" <info@votevets.org>
+Reply-to: user@domain.com
+Subject: 442nd
+Message-ID: <1user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 674733a7d75e4be8
+X-rpcampaign: rp_2694
+X-maillist-guid: EwpCUBUBEkdsBQcBBlYAAFRdBwdRAwdWWjBYDF5aGxQKAVNGFwUmUwhSWVkfBlwMagoGBA
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_1cbb51cb1114786b8a84f16b0090c297"
+
+John -
+
+Comprised mostly of Japanese-American soldiers from Hawaii -- many who had 
+families interned during World War II -- the 442nd Regimental Combat Team 
+is the most decorated domain.com in the history of the United States military.
+
+With over 18,000 individual decorations, their motto was "Go for 
+Broke."
+
+Famed U.S. Senator Daniel Inouye was a member of the 442nd. Hawaii Senator 
+Daniel Akaka also during World War II as part of the Army Corps of 
+Engineers.
+
+With our help, Iraq War Veteran Mark Takai will carry on their legacy of 
+service in the United States Congress.
+
+Mark is running in a Democratic Primary against ultra-conservative 
+Democrat Donna Kim, and polls show the race is a dead heat.
+
+We're running a powerful ad in Hawaii that shares Mark's story ahead of 
+August 8th primary. We hope you'll watch it and help keep it on the air 
+with a contribution today.
+
+<<link>>
+
+Two years ago, VoteVets endorsed a long-shot Iraq War veteran running to 
+serve Hawaii's other Congressional District. With our support, she won a 
+tough primary against another conservative Democrat and has gone to 
+faithfully represent Hawaii's 116,000 veterans in the effort to end our 
+wars abroad and improve their care at home.
+
+But through all of Congresswoman Gabbard's distinguished work, we still 
+know her as Tulsi.
+
+Right now, there are 16 Iraq and Afghanistan veterans serving in Congress, 
+and we have a chance to add one more -- Mark Takai --  a progressive 
+candidate who will fight to provide equality of opportunity for veterans, 
+military family members, and all Americans.
+
+Watch our ad about Mark Takai and contribute to help keep it on the 
+air:
+
+<<link>>
+
+Hawaii's First Congressional District represents Pearl Harbor, and it 
+should have a veteran in the seat to represent the needs and requirements 
+of the families who comprise the area.
+
+Let's Go for Broke for Mark Takai,
+
+Jon Soltz
+Iraq War Veteran and Chairman
+domain.com
+
+<<link>>
+Paid for by VoteVets Action Fund
+

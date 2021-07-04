@@ -1,0 +1,79 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs350622wfw;
+        Mon, 3 Nov 2015 22:45:23 -0800 (PST)
+Received: by 10.215.67.10 with SMTP id u10mr1369949qak.158.1225781122123;
+        Mon, 03 Nov 2015 22:45:22 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com [69.25.74.172])
+        by domain.com with ESMTP id 7si7491247ywo.7.2008.11.03.22.45.21;
+        Mon, 03 Nov 2015 22:45:22 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.25.74.172 as permitted sender) client-ip=69.25.74.172;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 69.25.74.172 as permitted sender) user@domain.com
+Received: by mta-domain.com (Postfix, from userid 502)
+	id 72AE8DAD86DAA; Tue,  4 Nov 2015 01:43:13 -0500 (EST)
+Date: Tue, 4 Nov 2015 01:43:13 -0500
+To: John user <user@domain.com>
+From: Michelle Obama <info@barackobama.com>
+Reply-to: user@domain.com
+Subject: Vote today
+Message-ID: <40user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.72-blue_mailer]
+X-maillist-id: 7bf33d6392c8838e
+X-maillist-guid: CgdXWAJtUVYDAANRB1YKUwABCAEMUg
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_40b0077e6818111132665cc6037d6f1f"
+
+John --
+
+Today is Election Day.
+
+The opportunity to set our country on a new path has never felt more real 
+than it does right now.
+
+The polls are open in most places, and people are already making their 
+voices heard for change.
+
+There's just one thing left to do -- vote and make sure everyone you know 
+votes, too.
+
+You can find or verify your polling location by looking up your most 
+recent registration address at domain.com:
+
+<<link>>
+
+Go vote today, and make sure you take your friends and family with you.
+
+This is the day when we have to domain.com to doing everything we can. We 
+can't afford not to -- for our families, our communities, and our future.
+
+Once you vote, you can do more than just domain.com as the returns come in.
+
+You can help get every last vote for Barack by volunteering in your 
+community or making calls from home. Help put us over the top today:
+
+<<link>>
+
+It's not too late to knock on doors, make calls, and make sure that every 
+one of our supporters gets to the polls today.
+
+Change is within our reach. We're counting on you to get us there today.
+
+Thank you for everything you're doing,
+
+Michelle
+
+P.S. -- If anyone you know hasn't yet made up their mind, please invite 
+them to learn more about Barack's positions on important issues at 
+<<link>>
+
+Last chance to donate: <<link>>
+
+Look up your polling location: <<link>>
+
+---------------------------------------------------------------------
+Paid for by Obama for America
+This email was sent to: user@domain.com
+To unsubscribe, go to: <<link>>
+

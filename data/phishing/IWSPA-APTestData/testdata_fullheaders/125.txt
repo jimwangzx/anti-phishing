@@ -1,0 +1,81 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp1349480lfy;
+        Mon, 4 Jan 2015 18:37:58 -0800 (PST)
+X-Received: by 10.31.142.16 with SMTP id q16mr61924123vkd.95.1451961478231;
+        Mon, 04 Jan 2015 18:37:58 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-vk0-domain.com (mail-vk0-domain.com. [2607:f8b0:400c:c05::22a])
+        by domain.com with ESMTPS id 81si74886582vkl.78.2016.01.04.18.37.57
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 04 Jan 2015 18:37:58 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::22a as permitted sender) client-ip=2607:f8b0:400c:c05::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-vk0-domain.com with SMTP id f2so218497639vkb.3
+        for <user@domain.com>; Mon, 04 Jan 2015 18:37:57 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Lona Valmoro <lvalmoro@hillaryclinton.com>
+        bh=jMfZXpkoiCrVLkQjxMrP2qXhI7Q7PzQUPtH7e+liMEQ=;
+        b=gQmZG+RlmNcvMxOOe778K/OCvmwD2jX2LSnku5wSKIkH6wEguKD5SBgLZvBfs3e82P
+         0XopKcRL1Ax+oQZQh26x/A8crPtzEct8RyNj5RpuWY++M5HHoD19nfVecUK9LPgw4CXt
+         KznQaXRhbcW+vZMP8cAzz92qeUwAd8TldUG6k
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Lona Valmoro <lvalmoro@hillaryclinton.com>
+         :content-type;
+        bh=jMfZXpkoiCrVLkQjxMrP2qXhI7Q7PzQUPtH7e+liMEQ=;
+        b=Zses8US/VZPlyDDMOpcA4bQi9REvMWJIG59xt2zKTX6M/pz/tqNy8a6uLyAWM5Dc3K
+         le9c8kFkVV1H57b0gMNaOv40LU+mrrLIgS5ilL0mM5UNSs/GgcZK0P1TC/huvLhV3/fp
+         96GCMsJii2XePmBhkhlEcBRrXXioyb4F64+Ltm6kLnZMROA4juW+DDdbullruxe/DMGf
+         6QtaU4jj6uHBQsp8FcV6yOMJ6Ij0yddaimuvN/HNhUYeAUz9gfBwhsZZ/4Iu9K1SXt0g
+         gruTq7YXK5saXrjXLgX0pVJk2oKUue4eG1xwmMztA+oVzt3FXpFEsagcNZGFc3hsOjt+
+         bGWg
+X-Gm-Message-State: ALoCoQlhQd68BYQw2lYiFNGRqJM/8d+Nbxs7PExq87QNNFHN0sFLwa01E+yieB4hh7Kdv2At5RUtlHe4acW2GeYfJNbvgB/CI6KHRuCDNXUwEa+BdcvnNYI
+MIME-Version: 1.0
+X-Received: by 10.31.52.195 with SMTP id b186mr10966711vka.39.1451961477787;
+ Mon, 04 Jan 2015 18:37:57 -0800 (PST)
+Received: by 10.31.155.7 with HTTP; Mon, 4 Jan 2015 18:37:57 -0800 (PST)
+Date: Mon, 4 Jan 2015 21:37:57 -0500
+Message-ID: <user@domain.com>
+Subject: REVISED TIME -- Prep Call with HRC tomorrow, Tuesday January 5th
+From: Lona Valmoro <lvalmoro@hillaryclinton.com>
+To: Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ John user <user@domain.com>, 
+ Huma Abedin <user@domain.com>, 
+ Nick Merrill <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Laura Rosenberger <user@domain.com>, 
+ Kristina Costa <user@domain.com>, 
+ John user <user@domain.com>, Robby Mook <user@domain.com>, 
+ "Margolis, Jim" <user@domain.com>, 
+ Joel Benenson <user@domain.com>
+CC: Milia Fisher <user@domain.com>, 
+ Sara Latham <user@domain.com>, 
+ Sawsan Bay <user@domain.com>, 
+ Caitlin Merchant <user@domain.com>, 
+ Bonnie Rubin <user@domain.com>, 
+ Lona Valmoro <user@domain.com>, 
+ Alex Hornbrook <user@domain.com>, 
+ Ashley Woolheater <user@domain.com>, 
+ Kate Offerdahl <user@domain.com>, 
+ "Esterhay, Ellen" <user@domain.com>, 
+ Shannon Currie <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1143e5421c848005288d2061
+
+We would like to have a prep call with HRC tomorrow to prepare for the
+Chris Matthews interview in Iowa.
+
+*Tuesday, January 5th*
+*8:30am Iowa Time/9:30am Eastern Time*
+*Dial-in Number: 724-707-3387 <724-707-3387>*
+*Passcode: 18197#*
+
+Please let me know if you have any questions -- thank you.

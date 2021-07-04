@@ -1,0 +1,135 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp2198710lfr;
+        Tue, 14 Jul 2015 18:50:39 -0700 (PDT)
+X-Received: by 10.60.96.35 with SMTP id dp3mr1350516oeb.47.1436925039412;
+        Tue, 14 Jul 2015 18:50:39 -0700 (PDT)
+Return-Path: <3user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::24a])
+        by domain.com with ESMTPS id z20si1919084oem.4.2015.07.14.18.50.38
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 14 Jul 2015 18:50:39 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:4003:c01::24a as permitted sender) client-ip=2607:f8b0:4003:c01::24a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:4003:c01::24a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id op1so1519602obb.1
+        for <user@domain.com>; Tue, 14 Jul 2015 18:50:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:cc:auto-submitted:message-id:date
+         :subject:From: vanand@hillaryclinton.com
+        bh=7YY2rzPNYSPChIUuKLEvKPfDbagshNtaRhMAx1+BDIY=;
+        b=k4ZojqS2RE+5Vvl7G3XnOkL/b23hYVerPZlyMXNLtvBeIt+x3q8GR8lNadXOaL1X4c
+         uHGnAk41F+Z1jWng2g8IqO5Dn+r+dTBQuAaRCGUbCsPB+6OrMxZt2Q7NC9rfgiZ8lJNE
+         yU7k1sJoOZVpFd/ecLG/DpUJNfBmUUEdxsABpzlq1bcH09N3wCk76qzzSsBx2LNzIdYO
+         TITAX49sZ++TYvVg7MUVhVhlUk50xNVZ06U+SnfcbsEMDHqlH7+NJ9R+a6Fm71VWqFB2
+         emRrZZ5+yGQgDE8WaArH2NKQswcJc1kgspfD6i5UBhGlb2PsAaMM3m/n5xImMaTaMnIl
+         cqfQ
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:cc:auto-submitted:message-id:date
+         :subject:From: vanand@hillaryclinton.com
+        bh=7YY2rzPNYSPChIUuKLEvKPfDbagshNtaRhMAx1+BDIY=;
+        b=EirBTWgEHginXvrqmlqlxWJDJFhN0fXSXhoGeORLheH6JIMPIkJdcbzv9k26k0LElI
+         XVgZr9G+C6BgwnyjA+ZdEMVIzfgQa+2WBeBKfYFC1al3r5VDxGpA2K8VCEZ1cLQ/1cZd
+         VKOTrBOYDMmmSCfqBZ6ALlHPNuiDRLoQLXdoU
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:cc:auto-submitted
+         :message-id:date:subject:From: vanand@hillaryclinton.com
+        bh=7YY2rzPNYSPChIUuKLEvKPfDbagshNtaRhMAx1+BDIY=;
+        b=d9dgjPp05XDdToY/vY8A9g1+3PQQUK8uIQl++aeoo+6zDooOgo4OJnJujNaJaWIyLn
+         D+05CwpDV6QKWgETgG35yYO8L7bQuRONjB/YhXBakR6D7xhdgDr5qLYRiMVzTln+dqFV
+         1341O9U2kfZPJdC034OfvdGelaNxexwuZXFhXUIXxnhrCwviXTzCADCU9FpR3Gpv5UfU
+         WLacSK8QHUOW+w5qy5Trd/5LcmpWD2c1m5lxGcDEVOhayKDTuOWlRLAez1Y8SR68oMwL
+         SMyq6l3QAmYbJKoKJMc+6QCmatshEtpceWwwGWjba+sipNQIoYSQrtsXNyAt4pP/ZsRW
+         0vMw
+X-Gm-Message-State: ALoCoQmFbQJofmyFLOqHbpsDV4sy1PfckzL3U+gt+78M652jEqQLA20dlrlHmv9Yco9IDfFNixrB
+MIME-Version: 1.0
+X-Received: by 10.182.32.1 with SMTP id e1mr2183759obi.31.1436925038649; Tue,
+ 14 Jul 2015 18:50:38 -0700 (PDT)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+CC: user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com
+Auto-Submitted: auto-generated
+Message-ID: <089user@domain.com>
+Date: Wed, 15 Jul 2015 01:50:38 +0000
+Subject: [Update] Strategic Discussion
+From: vanand@hillaryclinton.com
+To: user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, 
+ "user@domain.com" <user@domain.com>, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com
+Content-Type: multipart/alternative; boundary=089e01177baf7f830a051ae02e34
+
+Hi everyone,
+
+Here are the topics for discussion tomorrow morning:
+
+- Branding for NH event on Thursday
+- Public polling memo
+- Q & A review
+
+You have been invited to the following event.
+
+Title: Strategic Discussion
+Purpose: Receive consultants' input on the issues of the day.
+
+Agenda:
+1. HRC schedule today
+2. Opponents' activities today
+3. News today
+4. Input on response
+When: Wed Jul 15, 2015 8am - 8:30am Eastern Time
+Where: Iowa (Conference Room 1) / 718-441-3763 (no pin)
+Who:
+     * Robby Mook - organizer
+     * Marissa Astor - creator
+     * user Carrk
+     * user@domain.com
+     * Teddy Goff
+     * Jennifer Palmieri
+     * John user
+     * user@domain.com
+     * Marlon Marshall
+     * user@domain.com
+     * user@domain.com
+     * Kristina Schake
+     * user@domain.com
+     * Amanda Renteria
+     * user@domain.com
+     * user@domain.com
+     * Maya Harris
+     * Jake Sullivan
+     * Oren Shur
+     * David Binder
+     * user@domain.com
+     * Christina Reynolds
+     * Brian Fallon
+     * Dan Schwerin
+     * Karen Finney
+     * user@domain.com
+     * John user
+     * Sawsan Bay - optional

@@ -1,0 +1,105 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 1C14E23CA7F;
+	Thu,  5 Dec 2015 10:18:29 -0600 (CST)
+X-Virus-Scanned: amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id xQb6NDTQbUwE; Thu,  5 Dec 2015 10:18:25 -0600 (CST)
+Received: from domain.com (mail14-domain.com [157.56.73.67])
+	by domain.com (Postfix) with ESMTP id 6425A23CA80;
+	Thu,  5 Dec 2015 10:18:25 -0600 (CST)
+Received: from domain.com (10.243.78.248) by
+ domain.com (10.243.66.58) with Microsoft SMTP Server (TLS) id
+ 14.1.225.23; Thu, 5 Dec 2015 16:18:24 +0000
+Received: from mail161-co1-domain.com (10.243.78.252) by
+ domain.com (10.243.66.71) with Microsoft SMTP Server id
+ 14.1.225.22; Thu, 5 Dec 2015 16:18:24 +0000
+Received: from mail161-co1 (localhost [127.0.0.1])	by
+ mail161-co1-domain.com (Postfix) with ESMTP id 3962EA804F9;	Thu,  5 Dec
+ 2015 16:18:24 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:155.72.128.174;KIP:(null);UIP:(null);IPV:NLI;H:stcexcpsm04.corp.star;RD:none;EFVD:NLI
+X-BigFish: VPS54(zzc85dhdd5eha898kkzz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch177df4h17326ah1de097h186068hz2fh109h839hd25hf0ah1288h12a5h12bdh137ah1441h14ddh1504h1537h153bh15d0h162dh1631h16deh1758h184fh18e1h1946h19b5h1ad9h1b0ah1b2fh1bceh224fh1fb3h1c24h1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h20f0h2162h2216h2336h1724k)
+X-FB-OUTBOUND-SPAM: yes
+X-SpamScore: 54
+X-BigFish-Rule-Generated: 0
+Received-SPF: pass (mail161-co1: domain of starwoodhotels.com designates 155.72.128.174 as permitted sender) client-ip=155.72.128.174; user@domain.com; helo=stcexcpsm04.corp.star ;04.corp.star ;
+Received: from mail161-co1 (localhost.localdomain [127.0.0.1]) by mail161-co1
+ (MessageSwitch) id 1386260301998242_5726; Thu,  5 Dec 2015 16:18:21 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.246])	by
+ mail161-domain.com (Postfix) with ESMTP id 6C7AB20068;	Thu,  5 Dec 2015 
+ 16:18:21 +0000 (UTC)
+Received: from stcexcpsm04.corp.star (155.72.128.174) by
+ domain.com (10.243.66.12) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 5 Dec 2015 16:18:21 +0000
+Received: from stcexcpsm02.corp.star ([10.20.223.164]) by
+ stcexcpsm04.corp.star with Microsoft SMTPSVC(6.0.3790.4675);	 Thu, 5 Dec 2015 
+ 11:19:04 -0500
+Received: from stcexcpmb23.amer.star ([10.20.223.125]) by
+ stcexcpsm02.corp.star with Microsoft SMTPSVC(6.0.3790.4675);	 Thu, 5 Dec 2015 
+ 11:19:02 -0500
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-Class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01CEF1D5.9FFAF8B0"
+Subject: Exceeded domain.com:
+Date: Thu, 5 Dec 2015 11:18:25 -0500
+Message-ID: <user@domain.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Exceeded domain.com:
+Thread-Index: Ac7x1Z7Q+Trn9oFeTFmlkKPuap46Yg
+From: "Liu, Grace (SSO)" <Grace.Liu3@starwoodhotels.com>
+X-OriginalArrivalTime: 05 Dec 2015 16:19:02.0481 (UTC) FILETIME=[B60AC410:01CEF1D5]
+X-CFilter-Loop: Reflected
+X-FOPE-CRA-Verdict: 155.72.128.174$domain.com%0%1%starwoodhotels.com%False%False%0$domain.com%0%1%starwoodhotels.com%False%False%0$domain.com%0%1%starwoodhotels.com%False%False%0$domain.com%0%1%starwoodhotels.com%False%False%0$domain.com%0%1%starwoodhotels.com%False%False%0$domain.com%0%1%starwoodhotels.com%False%False%0$domain.com%0%1%starwoodhotels.com%False%False%0$domain.com%0%1%starwoodhotels.com%False%False%0$domain.com%0%1%starwoodhotels.com%False%False%0$domain.com%15434%4%starwoodhotels.com%True%True%0$domain.com%0%1%starwoodhotels.com%False%False%0$
+To: Undisclosed recipients:;
+X-FOPE-CONNECTOR: Id%0$Dn%*$RO%0$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%UCD.IE$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%ILLINOIS.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%CCTEXAS.COM$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%ASU.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%TYLIN.COM$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%NMSU.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%ITHACA.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%CORNELL.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%UPC.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%OKSTATE.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%WISC.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%UTA.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%CLARKU.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%RCI.ROGERS.COM$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%UNCC.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%UNL.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%IASTATE.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-FOPE-CONNECTOR: Id%0$Dn%OKCU.EDU$RO%1$TLS%0$FQDN%$TlsDn%
+X-OriginatorOrg: starwoodhotels.com
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 187
+
+Your Webmail Quota Has Exceeded The Set Quota/domain.com Which Is 20GB. You Are 
+Currently Running On 23GB Due To Hidden Files And Folder On Your Mailbox. P
+lease CLICK HERE To Validate Your Mailbox And Increase Your Quota. 
+
+CLICK HERE <<>> 
+
+Thanks.
+Webmail Upgrade Support Team 2013.
+
+This electronic message transmission contains information from the Company 
+that may be proprietary, confidential and/or privileged. 
+
+The information is intended only for the use of the individual(s) or entity
+ named above.  If you are not the intended recipient, be 
+
+aware that any disclosure, copying or distribution or use of the contents o
+f this information is prohibited.  If you have received 
+
+this electronic transmission in error, please notify the sender immediately
+ by replying to the address listed in the "From: "Liu, Grace (SSO)" <Grace.Liu3@starwoodhotels.com>

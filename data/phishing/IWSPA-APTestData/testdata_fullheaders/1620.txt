@@ -1,0 +1,66 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp2804200lfi;
+        Sat, 16 May 2015 11:39:35 -0700 (PDT)
+X-Received: by 10.68.165.197 with SMTP id za5mr30262704pbb.146.1431801575181;
+        Sat, 16 May 2015 11:39:35 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-pa0-domain.com (mail-pa0-domain.com. [2607:f8b0:400e:c03::236])
+        by domain.com with ESMTPS id qg8si8207370pdb.230.2015.05.16.11.39.34
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 16 May 2015 11:39:35 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c03::236 as permitted sender) client-ip=2607:f8b0:400e:c03::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c03::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-pa0-domain.com with SMTP id wv17so76586801pac.2
+        for <user@domain.com>; Sat, 16 May 2015 11:39:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:content-transfer-encoding:From: Jennifer Palmieri <jennifer.m.palmieri@gmail.com>
+         :message-id:date:references:in-reply-to:to;
+        bh=l/Xh+Dgvtj6C5IJOvAJQcaHUK0ecCMUnNCndIOfsw3U=;
+        b=u5mfUe+A4llTvf7ic5Vpj39o6OIi+7foIOe6sius1A9+caSaFpe8FBqP4DMqfrHclf
+         oK3y2hQhpkaeHbHir+BPKyoDtcqsEJAup+4hoGpiLX6casGrUExWufp8FHCE4dn+zbBW
+         3/uGB6PKS9SIudPJe/Cv8ATMXYogrV0M88gy8ThsBabrOn6hLOSTTfgxuLWE/oUnKdoO
+         xy8IeNRGl0Y8v2N/+yTd2dx/sLxldKGcQZeaKiYMPPR8enkhJjHLj7MmfMCdew5G+ogK
+         mtYFIz457oX89rY0VdTNGoJhvWFwVeyW3SLlWbbPzrzRordiK0gfbZhb36EegXoSnYu4
+         QAAQ
+X-Received: by 10.70.95.228 with SMTP id dn4mr29766419pdb.89.1431801574279;
+        Sat, 16 May 2015 11:39:34 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [10.222.35.72] ([166.170.46.93])
+        by domain.com with ESMTPSA id l10sm2261pbq.87.2015.05.16.11.39.31
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sat, 16 May 2015 11:39:32 -0700 (PDT)
+Content-Type: multipart/alternative; boundary=Apple-Mail-44881542-435F-41D0-B03D-3225F6D749CA
+Content-Transfer-Encoding: 7bit
+From: Jennifer Palmieri <jennifer.m.palmieri@gmail.com>
+Mime-Version: 1.0 (1.0)
+Subject: Re: 4th Annual user Family Pig Roast
+Message-Id: <10user@domain.com>
+Date: Sat, 16 May 2015 11:55:28 -0600
+References: <user@domain.com> <75user@domain.com> <user@domain.com>
+In-Reply-To: <user@domain.com>
+To: John user <user@domain.com>
+X-Mailer: iPhone Mail (12F70)
+
+Well, that doesn't sound annual, then.
+
+I am afraid my parents are visiting that weekend and we are going to the eas
+tern shore.
+
+I hadn't thought you had fallen off disclosure train.  Think only thing you m
+issed was call Cheryl set up yesterday with extended Clinton world so all we
+re mirandized on what was in PFD and timing of release.  At any rate i tried
+ to get you on a number of calls on a few different issues yesterday and ear
+lier in the week but you were raising money, traveling or grading.  I hear y
+ou are in NYC for three days next week?   That's exciting.
+
+Btw - I am in Idaho this weekend with super spotty service, so kind of hard t
+o reach.  Hope you guys have a good weekend.  Cold here but beautiful.
+
+Sent from my iPhone
+

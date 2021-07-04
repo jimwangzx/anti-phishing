@@ -1,0 +1,47 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id A28B123CA8C
+	for <user@domain.com>; Thu, 18 Jul 2015 03:34:03 -0500 (CDT)
+X-Virus-Scanned: amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id LP-WrZj9fBy6 for <user@domain.com>;
+	Thu, 18 Jul 2015 03:34:03 -0500 (CDT)
+Received: from nihxway2out.hub.nih.gov (nihxway2out.hub.nih.gov [128.231.90.110])
+	by domain.com (Postfix) with ESMTP id 61BBF23CA8A
+	for <user@domain.com>; Thu, 18 Jul 2015 03:34:03 -0500 (CDT)
+X-IronportRThresh: 
+X-IronPortListener: Outbound_SMTP
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: Av//AMOm51GcKEev/2dsb2JhbAA5DRSDBjRQqEeHRwEBAQEBKgGCMYZXhnMEASNvFnSCCQEBAQ8KAQEDBwt5ARUVD0cmAR8ahVSCGj6VLIRmikOCDIMWjAeOOQoEAQYMI0yBNB4BAVgDcSVuA4hvkBaFHYptGoIYeoEZAU4BAQMCAgsBAQoGGng
+X-Ironport-Out-SPAM: Positive
+Received: from unknown (HELO CASHTV11.nih.gov) ([156.40.71.175])
+  by nihxway2out.hub.nih.gov with ESMTP; 18 Jul 2015 04:34:22 -0400
+Received: from MLBXV04.nih.gov ([169.254.2.33]) by CASHTV11.nih.gov
+ ([156.40.71.175]) with mapi id 14.02.0328.009; Thu, 18 Jul 2015 04:34:21
+ -0400
+From: "Llosa, Nicolas (NIH/NCI) [E]" <nicolas.llosa@nih.gov>
+Subject: Your mailbox has exceeded
+Thread-Topic: Your mailbox has exceeded
+Thread-Index: Ac6DkMw3gd/+x5+hR4exbkiOp24K/w
+Date: Thu, 18 Jul 2015 08:34:21 +0000
+Message-ID: <39874user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [156.40.71.188]
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 180
+
+Your mailbox has exceeded the storage domain.com set by your administrator, you 
+may not be able to send or receive new mail until you re-validate your mail
+box To re-validate your mailbox please CLICK HERE<<>

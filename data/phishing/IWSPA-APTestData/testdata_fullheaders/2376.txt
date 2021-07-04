@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.31 with SMTP id o31csp57744lfi;
+        Fri, 13 Feb 2015 10:51:02 -0800 (PST)
+X-Received: by 10.66.235.137 with SMTP id um9mr17566939pac.89.1423853461614;
+        Fri, 13 Feb 2015 10:51:01 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from vmta004.mail.paperlesspost.com (vmta004.mail.paperlesspost.com. [66.117.40.84])
+        by domain.com with ESMTP id yb6si1019762pbc.219.2015.02.13.10.51.00
+        for <user@domain.com>;
+        Fri, 13 Feb 2015 10:51:01 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.117.40.84 as permitted sender) client-ip=66.117.40.84;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 66.117.40.84 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=key1; d=paperlesspost.com;
+ h=To:From: Gigi Huberman and user user <paperlesspost@paperlesspost.com>
+ bh=qt15Ij2+GEKYAxxJOCA3bDxf0qA=;
+ b=G0akoNq8nzevyPuHdzk1dJYeiqM4ADdE0RJCA11iOwR0vh4wxpiQJlfhySWQlfewJxcvdmqIK2PU
+   9Xr8SnKUDGapeR0JTpMST7Uliq1PDD8bI7kmJ2g5uxnlp9HnSVavwa+syWn6JomX5f3V22RkuYaZ
+   WALYrNhwWbz/blDrtbw
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=key1; d=paperlesspost.com;
+ b=eGfKZoYmhXuP7mXYvuG+jJANYMXmhZhizmyDK/FBggGJekogbMhXC2v4iWKSXbl0UIlp3UG59UIk
+   +oBTdf/twNN2qSOCn/3xfwhcGekQJNyJ67Er0kBPbRUijRsJBkbWiDtBjf2PEp+BY6oHQGRtpj6G
+   TAF01qDUmeIJ7inmwoo=;
+To: user@domain.com
+From: Gigi Huberman and user user <paperlesspost@paperlesspost.com>
+Reply-To: user@domain.com
+Date: Fri, 13 Feb 2015 18:51:00 +0000
+Subject: =?UTF-8?B?UmVjZXB0aW9uIGNlbGVicmF0aW5nIFBvc3RDbGFzc2ljYWwgRW5zZW1ibGU=?
+X-Campaign: Paperlesspost 11117214-d70af2d2
+List-Unsubscribe: <mailto:user@domain.com>, <<<link>>>
+Message-Id: <user@domain.com>
+X-Message-Tracking-Id: <user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary=related_part_1422234263
+
+You have received an invitation from Gigi Huberman and user user.
+Please view it at <<link>>
+replies/188806332-b73bd88e.
+You can also copy and paste the link below into your browser to view your
+ invitation:
+<<link>>
+b73bd88e
+--
+paperlesspost.com
+If you found this email in your junk/bulk folder, please add paperlesspos
+user@domain.com to your address book to ensure that you'll receive al
+l future Paperless Post mail in your inbox.
+Paperless Post respects your privacy. To see how we treat your informatio
+n, please review our privacy policy.
+domain.com <<link>> to stop receiving emails f
+rom Paperless Post.
+Paperless Post
+115 Broadway, Suite 1803, New York, NY 10006

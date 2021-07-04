@@ -1,0 +1,81 @@
+Delivered-To: user@domain.com
+Received: by 10.205.118.144 with SMTP id fq16csp80248bkc;
+        Fri, 19 Jul 2015 11:41:13 -0700 (PDT)
+X-Received: by 10.236.180.3 with SMTP id i3mr9504244yhm.139.1374259271901;
+        Fri, 19 Jul 2015 11:41:11 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [64.94.250.8])
+        by domain.com with ESMTP id y65si1870210yhy.245.2013.07.19.11.41.11
+        for <user@domain.com>;
+        Fri, 19 Jul 2015 11:41:11 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.94.250.8 as permitted sender) client-ip=64.94.250.8;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 64.94.250.8 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (localhost [127.0.0.1])
+	by mta-domain.com (Postfix) with ESMTP id 3bxgyv1MQMz7db0
+	for <user@domain.com>; Fri, 19 Jul 2015 14:41:11 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1374259271;
+	bh=feoTHDnrWT3DjTaM/ue062VtriIopNPJxvNr8eernXQ=;
+	h=Date:To:From: Team Bustos <admin@cheribustos.com>
+	 MIME-Version:Content-Type;
+	b=MXwJKrrRNVHaxsZYoYiGd6GIgTpkfStofgmdXlFrJzTRbeZMJqPDife1dsS0nx2/l
+	 n/jES/CQRDH3U46Z5hpH6VLHYeWqqnGKPIru+E7wpo5xY5LE10Xg61fcFdySJqrwjI
+	 bJD9qzdC1bKkdnW0BYe4Jckz1aI/kzes0whQkpIE
+Received: from maillist-a 
+	by domain.com with local (PHPMailer);
+	Fri, 19 Jul 2015 18:41:11 +0000
+Date: Fri, 19 Jul 2015 18:41:11 +0000
+To: John user <user@domain.com>
+From: Team Bustos <admin@cheribustos.com>
+Reply-to: user@domain.com
+Subject: John, can't stop now
+Message-ID: <9user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 2461376d1e288715
+X-rpcampaign: rp_178187
+X-CampaignID: xgreenarrow:AQZVVmpVVwNdBA
+X-maillist-guid: AQZVVmpWUgJUAAcDVVRWU1sBBwMBPg9cClccE1lQUBcRBHZSDgUPWEtQX1g4VAFVVQg
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_9ac00c6f66e0e03e8c7f0f563bc3e775"
+
+John --
+
+Since we asked you to take a stand last week, over 900 of you signed our 
+petition telling Congress that we won't accept irresponsible sequester 
+cuts. That's great! And it proves this issue seriously hits home for you.
+
+Take the Rock Island Arsenal right here in Illinois' 17th district: the 
+sequester budget cuts are having a seriously detrimental effect on 
+civilian workers. How? Let's break it down:
+
+A minimum of 11 unpaid days off
+A 500,000 hour cut for the entire Arsenal workforce
+An average of $3,000 in wage losses for each of six thousand employees 
+(that's $18 million total!)
+Middle-class families simply cannot afford these cuts -- and Congress 
+needs to fix this NOW. Cheri's working hard to find a solution, but she 
+needs your help.
+
+Stand with Cheri: Will you sign your name to help us reach 1,000 strong to 
+STOP the sequester and support Illinois workers?
+<<link>>
+
+We all know these cuts are wrong, now we need to do something about it.
+
+Thanks for stepping up,
+
+Team Bustos
+
+This message was emailed to: user@domain.com
+
+To unsubscribe from this email list, please paste this URL into your 
+browser:
+<<link>>
+
+Paid for by the Friends of Cheri Bustos
+

@@ -1,0 +1,58 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 5D9E823CA80
+	for <user@domain.com>; Mon,  7 Oct 2015 10:00:43 -0500 (CDT)
+X-Virus-Scanned: amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id cuMtfkfTd03D for <user@domain.com>;
+	Mon,  7 Oct 2015 10:00:39 -0500 (CDT)
+Received: from email.cassne.org (email.cassne.org [173.190.246.53])
+	by domain.com (Postfix) with ESMTP id BC90323CA9D
+	for <user@domain.com>; Mon,  7 Oct 2015 07:44:29 -0500 (CDT)
+X-Envelope-Sender: <user@domain.com>
+Received: from mail.cassne.org (HELO cassmail.cassne.org) (173.190.246.52)
+    by email.cassne.org (qpsmtpd/0.43rc1) with (AES128-SHA encrypted) ESMTPS; Mon, 07 Oct 2015 08:09:31 -0500
+Received: from MAIL.cassne.org ([fe80::7874:74db:c579:85e5]) by
+ mail.cassne.org ([fe80::7874:74db:c579:85e5%10]) with mapi id 14.02.0347.000;
+ Sat, 5 Oct 2015 09:29:29 -0500
+From: assessor <assessor@cassne.org>
+Subject: IT Service
+Thread-Topic: IT Service
+Thread-Index: Ac7B10wSdYXN2kHMSc2vBJJrQK1lHQ
+Date: Sat, 5 Oct 2015 14:29:27 +0000
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [184.107.171.52]
+Content-Type: multipart/alternative;
+	boundary="_000_E27F4858182CBF4A90E1BA6FF91E63CFA422A1D0mailcassneorg_"
+MIME-Version: 1.0
+Message-Id: <user@domain.com>
+X-DC-Version: 5.2.66
+X-Spam-Check-By: email.cassne.org
+X-Spam: No
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 184
+
+IT Service,
+
+You have exceeded the domain.com of 23432 storage on your mailbox set by your
+WEBCTSERVICE/Administrator, and you will be having problems in sending and
+recieving mails Until You Re-Validate. To prevent this, please click on the
+link below to reset your account.
+
+<>
+
+Failure to do this, will result in limited access to your mailbox Warning
+!!! Do not send your username and password via email.
+
+Regards,
+IT Service
+System Administrator

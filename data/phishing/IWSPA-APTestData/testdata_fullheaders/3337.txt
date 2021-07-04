@@ -1,0 +1,109 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Wed, 23 Jul 2015 15:50:15 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with
+ ESMTP id s6NMoFnh013890	for <user@domain.com>; Wed, 23 Jul 2015 
+ 22:50:15 GMT
+Received: from na01-by2-domain.com
+ (mail-domain.com [207.46.163.244])	by
+ domain.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with
+ ESMTP id s6NMkXCQ018235	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Wed, 23 Jul 2015 22:46:34 GMT
+Received: from BY2FFO11FD003.protection.gbl (10.1.14.30) by
+ BY2FFO11HUB055.protection.gbl (10.1.14.244) with Microsoft SMTP Server (TLS)
+ id 15.0.980.11; Wed, 23 Jul 2015 22:50:08 +0000
+Received: from mx-justfab-domain.com (192.64.237.155) by
+ domain.com (10.1.14.125) with Microsoft SMTP
+ Server id 15.0.980.11 via Frontend Transport; Wed, 23 Jul 2015 22:50:08 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Variety Breaking News <donotreply@variety.com>
+ bh=JLviGEv/2wGxVmgm+VNU0bW5zME=;
+ b=cax2o5WfP21/FG5GocEn/xw9ea2N2YltJXI6aEisG6oTgTRwHR3rZjwgiqvJ+LILEEJ93F3NTJPK
+   z6I2cQEtNmLsofLEtitZyVWIu9+dUVBt1CqEvUVeu0BtDSHrNS+leKA/gS0NSBt6EYZvifKxSFnc
+   BGSwO/09/EPiNd7zsjk
+Received: from nyp1-p-p4129-prd-jma-05.sailthru.pvt (64.34.57.234) by
+ mx-justfab-domain.com id hq0u2o1qqbsp for <user@domain.com>; Wed,
+ 23 Jul 2015 18:48:07 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1406155706;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=iVOuUbnlWZpCKZaGkGxsdWVKQs5FJoqt/lZ4KpMxnf8=;
+	b=BQeuhzpjcgBFlhj+iqKegATlrqZ2TOuGx07cvVSLGRxFMl4BDitxtSKslhSWUSSV
+	Eyj8CQDFdTnWRUirq9RyW9d7QTQdAkrzmHf6kntEB+0CeaoHGM5umCuF2amLHcN2n3r
+	SCgMNOhr1dbjgDoUgulZFJvHUqISpFfrIxeQLctM
+Date: Wed, 23 Jul 2015 18:48:26 -0400
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140723224826.2852353.40367@domain.com>
+Subject: Paul Williams Debuts a Love Song He Wrote for Elaine Stritch
+ (Exclusive Audio)
+Precedence: bulk
+X-TM-ID: 20140723224826.2852353.40367
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4129-prd-jma-05.sailthru.pvt
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>,
+ <mailto:user@domain.com>
+X-rpcampaign: stcoy2852353
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: =?us-ascii?Q?UriScan:(133331);SFV:NSPM;SFS:(18804003)(505014003)(189002)(?
+ =?us-ascii?Q?199002)(2009002)(15202345003)(104016003)(15187005004)(629660?
+ =?us-ascii?Q?02)(110146005)(959005)(53416004)(110126003)(2361001)(1041660?
+ =?us-ascii?Q?01)(102836001)(106356001)(105586002)(110136001)(19617315012)?
+ =?us-ascii?Q?(19627405001)(77096002)(69596002)(19580405001)(85306003)(195?
+ =?us-ascii?Q?80395003)(15975445006)(44976005)(71186001)(81156004)(8332200?
+ =?us-ascii?Q?1)(106996001)(80022001)(2351001)(107886001)(146001)(21056001?
+ =?us-ascii?Q?)(36756003)(77156001)(956001)(19618635001)(74502001)(7466200?
+ =?us-ascii?Q?1)(31966008)(50226001)(99396002)(95736001)(4396001)(50986999?
+ =?us-ascii?Q?)(18926405002)(47976999)(101416001)(92726001)(81542001)(9256?
+ =?us-ascii?Q?6001)(19619215002)(85852003)(46102001)(81342001)(575784001)(?
+ =?us-ascii?Q?84326002)(93916002)(83072002)(18206015026)(229853001)(107046?
+ =?us-ascii?Q?002)(87286001)(106476002)(89996001)(88136002)(106466001)(878?
+ =?us-ascii?Q?36001)(79102001)(64706001)(76482001)(19300405004)(77982001)(?
+ =?us-ascii?Q?20776003)(548874003)(105646008)(85226002)(17308445002)(56240?
+ =?us-ascii?Q?4015);DIR:INB;SFP:;SCL:1;SRVR:BY2FFO11HUB055;H:mx-justfab-b.?
+ =?us-ascii?Q?domain.com;FPR:;MLV:ovrnspm;PTR:InfoNoRecords;MX:1;A:1;LAN?
+ =?us-ascii?Q?G:en;?
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(120001)
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Paul Williams Debuts a Love Song He Wrote for Elaine Stritch (Exclusive Audio)
+
+Last year, legendary songwriter Paul Williams wrote a ballad for Elaine Stritch after he saw an ... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Wednesday, July 23, 2015        
+
+​ 
+
+<<link>> 
+
+        Paul Williams Debuts a Love Song He Wrote for Elaine Stritch (Exclusive Audio)          
+
+        Last year, legendary songwriter Paul Williams wrote a ballad for Elaine Stritch after he saw an early cut of the documentary, "El...            
+
+        Full Story              
+
+
+
+
+Check out the redesigned Variety411      <<link>>         
+
+This email was sent to user@domain.com by Variety. To ensure delivery to your inbox (and not
+

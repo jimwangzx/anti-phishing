@@ -1,0 +1,61 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 12 Feb 2015 19:17:46 -0800
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1D3HaIs017565	for <user@domain.com>; Thu, 13 Feb 2015 
+ 03:17:36 GMT
+Received: from mail41-tx2-domain.com (mail-domain.com [65.55.88.116])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1D3HZxX000667	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 13 Feb 2015 03:17:36 GMT
+Received: from mail41-tx2 (localhost [127.0.0.1])	by mail41-tx2-domain.com
+ (Postfix) with ESMTP id 9B6E6120230	for <user@domain.com>; Thu,
+ 13 Feb 2015 03:17:35 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:17.158.185.186;KIP:(null);UIP:(null);IPV:NLI;H:nk11p10mm-domain.com;RD:nk11p10mm-domain.com;EFVD:NLI
+X-SpamScore: 14
+X-BigFish: vps14(z3e03szc85fhe0eahzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1fc6h1082kzzz2fh839hd25he5bh1288h12a5h12bdh137ah139eh13eah1441h1504h1537h162dh1631h1662h1758h1898h18e1h1946h19b5h1b0ah1b2bh1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e23h1fe8h1ff5h2052h20b3h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail41-tx2: domain of me.com designates 17.158.185.186 as permitted sender) client-ip=17.158.185.186; user@domain.com; helo=nk11p10mm-domain.com ;domain.com ;
+Received: from mail41-tx2 (localhost.localdomain [127.0.0.1]) by mail41-tx2
+ (MessageSwitch) id 1392261454454628_23036; Thu, 13 Feb 2015 03:17:34 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.239])	by
+ mail41-domain.com (Postfix) with ESMTP id 639581E0059	for
+ <user@domain.com>; Thu, 13 Feb 2015 03:17:34 +0000 (UTC)
+Received: from nk11p10mm-domain.com (17.158.185.186) by
+ domain.com (10.9.99.115) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 13 Feb 2015 03:17:34 +0000
+Received: from [192.168.1.74] (107-206-161-216.domain.com
+ [107.206.161.216]) by nk11p10mm-domain.com (Oracle Communications
+ Messaging Server 7u4-27.07(7.0.4.27.6) 64bit (built Jun 21 2013)) with
+ ESMTPSA id <0user@domain.com> for
+ user@domain.com; Thu, 13 Feb 2015 03:17:33 +0000 (GMT)
+X-Proofpoint-Virus-Version: vendor=fsecure
+ engine=2.50.10432:5.11.87,1.0.14,0.0.0000
+ definitions=2014-02-13_01:2014-02-12,2014-02-13,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+ suspectscore=1 phishscore=0 adultscore=0 bulkscore=0 classifier=spam adjust=0
+ reason=mlx scancount=1 engine=7.0.1-1401130000 definitions=main-1402120206
+From: Aaron Sorkin <endofshow@me.com>
+Subject: from a. sorkin
+Date: Wed, 12 Feb 2015 19:17:32 -0800
+Message-ID: <user@domain.com>
+To: <user@domain.com>
+X-Mailer: Apple Mail (2.1283)
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+from a. sorkin
+
+Michael,
+
+I understand from Amy and Ari there's a minor kerfuffle brewing with Steve Jobs. I wanted to let you know that I'm sensitive to your concerns and that there's nothing that can't be easily solved. (And that Michael Moritz is, again, an of-screen character, is a bizarre coincidence and of course I'll change his name if that makes you more comfortable but I get that there are other issues as well.) I'm grateful in the extreme that you tapped me for the screenplay and signed off on such a risky and uncommon structure and all I want is for you and Amy to be beaming with pride at the premiere. 
+
+Best,
+
+Aaron
+

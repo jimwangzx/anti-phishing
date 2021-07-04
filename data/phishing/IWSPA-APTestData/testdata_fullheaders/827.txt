@@ -1,0 +1,74 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp669276lfy;
+        Fri, 8 Jan 2015 13:09:26 -0800 (PST)
+X-Received: by 10.182.153.35 with SMTP id vd3mr58104259obb.16.1452287366659;
+        Fri, 08 Jan 2015 13:09:26 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.73])
+        by domain.com with ESMTPS id ji3si11975032obb.37.2016.01.08.13.09.26
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 08 Jan 2015 13:09:26 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.55.169.73 as permitted sender) client-ip=65.55.169.73;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 65.55.169.73 as permitted sender) user@domain.com
+Received: from domain.com (10.141.204.139) by
+ domain.com (10.141.204.143) with Microsoft SMTP
+ Server (TLS) id 15.1.365.19; Fri, 8 Jan 2015 21:09:25 +0000
+Received: from domain.com ([10.141.204.139]) by
+ domain.com ([10.141.204.139]) with mapi id
+ 15.01.0365.019; Fri, 8 Jan 2015 21:09:25 +0000
+From: John user <juser@americanprogress.org>
+To: "User" <user@domain.com>
+Subject: Fw: Happy Birthday!
+Thread-Topic: Happy Birthday!
+Thread-Index: AQHRSgbyiEa2HgHhFUybxGBIS+bkNZ7yHXdq
+Date: Fri, 8 Jan 2015 21:09:25 +0000
+Message-ID: <user@domain.com>
+References: <user@domain.com>
+In-Reply-To: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ user@domain.com; 
+x-originating-ip: [216.15.37.100]
+x-microsoft-exchange-diagnostics: 1;BLUPR05MB626;5:FRbzYrjRFF1j88ZOF9bEyh8CSAPrlc8ZqaGSuKGUg0ix/domain.com/xsjlxeYQwirQEcA1EbZyNiIoteioUB4o07CNg==;24:Kwrma42deF26Zc0wkbnaw9nPaoZM3Hkl1hfD5tQcYckBye6pXZaQDQbJuliHPCuqlZ6S8x3rjx0FAQiCYJBkAn6wXhvi3XoZNKNQocY0+jM
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BLUPR05MB626;
+x-ms-office365-filtering-correlation-id: e09e1925-0253-400e-a3c8-08d3186ffcf5
+x-microsoft-antispam-prvs: <user@domain.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(520078)(8121501046)(10201501046)(3002001);SRVR:BLUPR05MB626;BCL:0;PCL:0;RULEID:;SRVR:BLUPR05MB626;
+x-forefront-prvs: 0815F8251E
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(189002)(199003)(2950100001)(19580405001)(5001960100002)(54356999)(19580395003)(2900100001)(11100500001)(77096005)(2906002)(189998001)(87936001)(19627405001)(107886002)(92566002)(110136002)(101416001)(66066001)(19625215002)(5003600100002)(40100003)(5002640100001)(86362001)(33656002)(15975445007)(102836003)(6116002)(3846002)(586003)(122556002)(74316001)(1096002)(50986999)(76176999)(1220700001)(99286002)(106116001)(97736004)(5004730100002)(81156007)(10400500002)(16236675004)(19617315012)(106356001)(5008740100001)(450100001)(226693001)(105586002)(76576001)(491001);DIR:OUT;SFP:1101;SCL:1;SRVR:BLUPR05MB626;H:domain.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+received-spf: None (domain.com: americanprogress.org does not
+ designate permitted sender hosts)
+spamdiagnosticoutput: 1:23
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_BLUPR05MB625C8167D2F602E2BCAC48CBFF60BLUPR05MB625namprd_"
+MIME-Version: 1.0
+X-OriginatorOrg: americanprogress.org
+X-MS-Exchange-CrossTenant-originalarrivaltime: 08 Jan 2015 21:09:25.2983
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 08d3764b-1fe7-4bfc-a551-4415fd4cfab2
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR05MB626
+
+Birthday greetings from Bill Dauster to your AmProg.
+
+________________________________
+From: John user <juser@americanprogress.org>
+Sent: Friday, January 8, 2015 6:23
+To: John user
+Subject: Happy Birthday!
+
+Have a spectacular birthday, John!
+<<link>>
+January 8 - Wikipedia, the free encyclopedia<<<link>>
+January_8>
+domain.com
+January 8 is the eight day of the year in the Gregorian calendar. There are
+ 357 days remaining until the end of the year (358 in leap years
+

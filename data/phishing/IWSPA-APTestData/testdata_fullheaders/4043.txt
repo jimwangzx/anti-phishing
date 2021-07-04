@@ -1,0 +1,81 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id A7E19468D3
+	for <user@domain.com>; Thu,  4 Sep 2015 23:24:18 -0400 (EDT)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id 80DA5131F785
+	for <user@domain.com>; Thu,  4 Sep 2015 23:24:18 -0400 (EDT)
+Received: by domain.com (Postfix)
+	id 5F4D51B7EF; Fri,  5 Sep 2015 05:24:17 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.90])
+	by domain.com (Postfix) with ESMTP id 4F14B1B92D
+	for <user@domain.com>; Fri,  5 Sep 2015 05:24:17 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 3D1F97DC
+	for <user@domain.com>; Fri,  5 Sep 2015 05:24:17 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Score: 3.937
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.937 tagged_above=0 required=5
+	tests=[BAYES_50=0.001, FORGED_MUA_OUTLOOK=3.116,
+	MSOE_MID_WRONG_CASE=0.82]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id EFa4JIbH542C for <user@domain.com>;
+	Fri,  5 Sep 2015 05:24:17 +0200 (CEST)
+Received: from domain.com.tw (domain.com.tw [219.87.32.1])
+	by domain.com (Postfix) with ESMTP id 99C7F1B7EF
+	for <user@domain.com>; Fri,  5 Sep 2015 05:24:10 +0200 (CEST)
+Received: from User ([76.227.39.114])
+          by domain.com.tw (Lotus Domino Release 6.5.5FP3)
+          with ESMTP id 2008090511243412-1816 ;
+          Fri, 5 Sep 2015 11:24:34 +0800 
+From: "Message Wachovia Center" <important@wachovia.com>
+Subject: New Message Alert
+Date: Thu, 4 Sep 2015 23:25:04 -0400
+MIME-Version: 1.0
+X-Priority: 1 (High)
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-MIMETrack: Itemize by SMTP Server on ksmail/sunon(Release 6.5.5FP3|March 22, 2007) at
+ 2008/09/05 =?Big5?B?pFekyCAxMToyNDozNA==?=,
+	Serialize by Router on outmail/sunon(Release 6.5.5FP3|March 22, 2007) at
+ 2008/09/05 =?Big5?B?pFekyCAxMToxODoxNw==?=,
+	Serialize complete at 2008/09/05 =?Big5?B?pFekyCAxMToxODoxNw==?
+Message-ID: <user@domain.com>
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset="Windows-1251"
+To: undisclosed-recipients: ;
+Content-Length: 655
+Lines: 31
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 851
+
+Second Warning
+
+Because you did not respond to our first warning 
+we were obligated to change your account status.
+We have to do this for the safety of your account and your
+personal informations.
+
+New Account Status:
+
+Account temporary suspended
+
+So you can gain again full access to your online account
+you need to follow the steps on our secured website bellow:
+
+   <>
+
+This is now your second warning, if you will not follow this
+steps we will be forced to disable your account.
+
+After this steps are done an Wachovia reprezentative will call
+you so you can finish this security measurements.

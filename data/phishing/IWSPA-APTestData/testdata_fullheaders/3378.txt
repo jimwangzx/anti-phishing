@@ -1,0 +1,330 @@
+From: "Shine Design Inc" <joetaddeojr@gmail.com>
+To: "User"
+Subject: Take a bite out of Shark Week
+Date: Wed, 13 Aug 2015 17:46:30 -0400
+Message-ID: <user@domain.com>
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQKEeSC+d6dl7fYkzU2Hsyn5JhFaRg
+Content-Language: en-us
+x-ms-exchange-organization-authas: Internal
+x-ms-exchange-organization-authmechanism: 10
+x-ms-exchange-organization-authsource: domain.com
+x-forefront-antispam-report: CIP:209.85.192.194;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(438002)(189002)(199003)(19618635001)(50466002)(15975445006)(36756003)(83072002)(63696999)(20776003)(81542001)(50986999)(85852003)(15202345003)(80022001)(107886001)(19580405001)(18206015026)(6806004)(110136001)(15395725005)(85306004)(19627405001)(23846002)(21056001)(59656003)(92726001)(74502001)(74662001)(229853001)(2361001)(95666004)(33656002)(73392001)(46102001)(79102001)(93516999)(4396001)(81442001)(99396002)(16236675004)(16601075003)(59286002)(73972005)(59536001)(87572001)(23676002)(15198665003)(54356999)(19617315012)(77982001)(18926405002)(956001)(44976005)(87836001)(107046002)(106466001)(81342001)(19580395003)(2351001)(82202001)(86362001)(106996001)(9984715007)(4068875011);DIR:INB;SFP:;SCL:1;SRVR:BN1AFFO11HUB062;H:mail-pd0-domain.com;FPR:;MLV:sfv;PTR:mail-pd0-domain.com;MX:1;A:1;LANG:en;
+received-spf: Pass (domain.com: domain of gmail.com designates 209.85.192.194 as permitted sender) receiver=domain.com; client-ip=209.85.192.194; helo=mail-pd0-domain.com;
+authentication-results: spf=pass (sender IP is 209.85.192.194) user@domain.com; 
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(120001);UriScan:(96343)(51053);
+x-eopattributedmessage: 0
+x-domain.com: domain.com
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=From: "Shine Design Inc" <joetaddeojr@gmail.com>
+x-received: by 10.68.232.34 with SMTP id tl2mr444417pbc.81.1407966392017;        Wed, 13 Aug 2015 14:46:32 -0700 (PDT)
+x-bounce-tracking-info: <CQkJYW15X3Bhc2NhbEBzcGUuc29ueS5jb20JVGFrZSBhIGJpdGUgb3V0IG9mIFNoYXJrIFdlZWsJMTgJU2hpbmUgRGVzaWduIExpc3QJMTQ4Mglib3VuY2UJbm8Jbm8=>
+x-google-original-From: "Shine Design Inc" <joetaddeojr@gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Shine Design Inc, Strategic Creative Thinking.
+
+#outlook a{
+padding:0;
+}
+body{
+width:100% !important;
+}
+.ReadMsgBody{
+width:100%;
+}
+.ExternalClass{
+width:100%;
+}
+img{
+border:0;
+height:auto;
+line-height:100%;
+}
+table td{
+border-collapse:collapse;
+}
+#bodyTable{
+height:100% !important;
+margin:0;
+padding:0;
+width:100% !important;
+}
+body,#bodyTable{
+background-color:#F3F3F3;
+}
+h1{
+color:#303030 !important;
+display:block;
+font-family:Helvetica;
+font-size:30px;
+font-style:normal;
+font-weight:bold;
+line-height:100%;
+letter-spacing:-1px;
+margin-top:0;
+margin-right:0;
+margin-bottom:0;
+margin-left:0;
+text-align:center;
+}
+h2{
+color:#D61F26 !important;
+display:block;
+font-family:Helvetica;
+font-size:20px;
+font-style:normal;
+font-weight:bold;
+line-height:100%;
+letter-spacing:-1px;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+text-align:left;
+}
+h3{
+color:#505050 !important;
+display:block;
+font-family:Helvetica;
+font-size:16px;
+font-style:normal;
+font-weight:bold;
+line-height:100%;
+letter-spacing:normal;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+text-align:left;
+}
+h4{
+color:#D61F26 !important;
+display:block;
+font-family:Helvetica;
+font-size:12px;
+font-style:normal;
+font-weight:bold;
+line-height:100%;
+letter-spacing:normal;
+margin-top:0;
+margin-right:0;
+margin-bottom:10px;
+margin-left:0;
+text-align:left;
+}
+#templateHeader{
+background-color:#D61F26;
+border-top:10px solid #000000;
+border-bottom:1px solid #FFFFFF;
+}
+.headerUtilityContent,.headerUtilityContent a:link,.headerUtilityContent a:visited,.headerUtilityContent a .yshortcuts{
+color:#A3AAB1;
+font-family:Helvetica;
+font-size:11px;
+font-weight:bold;
+line-height:200%;
+letter-spacing:-.5px;
+text-align:center;
+text-decoration:none;
+}
+.ribbonContent,.ribbonContent a:link,.ribbonContent a:visited,.ribbonContent a .yshortcuts{
+color:#A3AAB1;
+font-family:Helvetica;
+font-size:49px;
+font-weight:bold;
+line-height:100%;
+letter-spacing:0px;
+text-align:center;
+text-decoration:none;
+}
+.headerContent,.headerContent a:link,.headerContent a:visited,.headerContent a .yshortcuts{
+color:none;
+font-family:Helvetica;
+font-size:49px;
+font-weight:bold;
+line-height:100%;
+letter-spacing:-2px;
+text-align:left;
+text-decoration:none;
+text-shadow:none;
+}
+#templateBody{
+background-color:#F4F4F4;
+border-top:1px solid #FFFFFF;
+}
+.introTitle{
+color:#303030;
+font-family:Helvetica;
+font-size:30px;
+font-style:normal;
+font-weight:bold;
+line-height:100%;
+letter-spacing:-1px;
+text-align:center;
+text-shadow:1px 1px 0px #FFFFFF;
+}
+.introContent{
+color:#505050;
+font-family:Helvetica;
+font-size:17px;
+line-height:125%;
+text-align:center;
+}
+.subjectTitle{
+color:#D61F26;
+font-family:Helvetica;
+font-size:20px;
+font-style:normal;
+font-weight:bold;
+line-height:100%;
+letter-spacing:-.5px;
+text-align:left;
+text-shadow:1px 1px 0px #FFFFFF;
+}
+.subjectContent{
+color:#505050;
+font-family:Helvetica;
+font-size:13px;
+line-height:150%;
+text-align:left;
+}
+.subjectContent a:link,.subjectContent a:visited,.subjectContent a .yshortcuts{
+color:#D61F26;
+font-weight:normal;
+text-decoration:none;
+}
+.guideIntro,.guideIntro a:link,.guideIntro a:visited,.guideIntro a .yshortcuts{
+color:#505050;
+font-family:Helvetica;
+font-size:14px;
+font-weight:bold;
+letter-spacing:-1px;
+line-height:100%;
+text-align:left;
+text-decoration:none;
+}
+.guideTitle,.guideTitle a:link,.guideTitle a:visited,.guideTitle a .yshortcuts{
+color:#D61F26;
+font-family:Helvetica;
+font-size:22px;
+font-weight:bold;
+letter-spacing:-.5px;
+line-height:100%;
+text-align:left;
+text-decoration:none;
+}
+#templateFooter{
+background-color:#353535;
+border-top:1px solid #FFFFFF;
+}
+.footerUtilityContent,.footerUtilityContent a:link,.footerUtilityContent a:visited,.footerUtilityContent a .yshortcuts{
+color:#707070;
+font-family:Helvetica;
+font-size:11px;
+font-weight:bold;
+line-height:200%;
+letter-spacing:-.5px;
+text-align:center;
+text-decoration:none;
+}
+.footerContent{
+color:#707070;
+font-family:Helvetica;
+font-size:10px;
+font-weight:bold;
+line-height:150%;
+text-align:left;
+}
+.footerContent a:link,.footerContent a:visited,.footerContent a .yshortcuts{
+color:#A3AAB1;
+font-weight:bold;
+text-decoration:none;
+}
+@media (max-device-width:480px){
+table[id=bodyTable]{
+padding:15px !important;
+}
+noscript {
+display: none !important;
+}
+
+}
+
+web view 
+
+archive 
+
+forward 
+
+
+
+
+Shine's Newsletter 03
+
+
+
+
+Looking for Summertime Entertainment?
+
+Take a bite out of Shark Week. Discover your favorite Clone. Watch the Lord of the Wild Things. Parents can learn how to protect their child's First Set of Wheels.
+
+Take a Bite Out of Shark Week
+
+
+
+
+Shark Week is almost here and BBC America is offering four great dvd's that will feed your hunger of watching sharks in their natural habitat. GREAT WHITE SHARK - PERFECT SHARK - SHARK BATTLEFIELD - HAMMERHEAD - Get up close and personal with one of the most vicious predators of our oceans. Check out the package designs – Click Here
+
+Wild Things with Dominic Monaghan - Season 1
+
+
+
+
+Follow Dominic Monaghan's travels to the corners of the globe in search of the deadliest creatures known to man. Actor Dominic Monaghan keeps a menagerie of bugs, snakes and reptiles at his home in LA, and his passion for wild things is more than matched by his encyclopedic knowledge of them. Check out the package design – Click Here
+
+BBC America Congrats to Wild Things Emmy Nod – Read More
+
+Orphan Black - Season 2
+
+
+
+
+Season two of Orphan Black hits the ground running with Sarah (Tatiana Maslany, Picture Day, Parks and Recreation) in a desperate race to find her missing daughter Kira (Skyler Wexler, Carrie). Her scorched earth tactics spark a war with pro-clone, Rachel (Maslany), dividing and imperiling all the clones.  As Sarah discovers more about her past, mysterious newcomers appear, but can they be trusted? Check out the package design – Click Here 
+Orphan Black at Comic-Con 2015  – Read More
+
+Stroller ID Tags for Summer Vacations
+
+
+
+
+Take the stress out of vacations if your stroller gets lost. Our Eco-Friendly Stroller ID Tag is stylish and is a convenient way to quickly identify your stroller. The Stroller ID Tag will have your information on how you want to be contacted. Our tags assist in a quick and safe return of the lost stroller. Coming Soon, a Protection Kit for Theft Prevention and Lost+Found Returns.
+
+Click Here to Learn  More
+
+About Shine Design
+
+
+
+
+Shine Design positions itself to be a fully integrated advertising agency. With the ever changing market trends a new entity and rebrand was a key factor in making them stand out in a market saturated with... | Read More
+Startegic Vision |  Creative Thinking | Innovative Design | Effectice Solutions
+
+
+
+
+Check out our mobile page on Scan
+
+Shine's Page 
+
+© 2015 Shine Design Inc. All Rights Reserved.
+325 North Maple Drive • Beverly Hills, CA 90213 
+424.281.9418 | user@domain.com | domain.com
+
+archive 
+
+forward 
+
+unsubscribe 
+

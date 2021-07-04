@@ -1,0 +1,120 @@
+Received: from relay.Organization.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 8 May 2015 13:34:00 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ relay.Organization.com (Postfix) with ESMTP id 4B4B460063	for
+ <user@domain.com>; Thu,  8 May 2015 12:23:07 +0100 (BST)
+Received: by domain.com (Postfix)	id 199DBB6603C; Thu,  8 May 2015 
+ 13:34:00 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from manta.Organization.com (manta.Organization.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 0F925B6600D	for
+ <user@domain.com>; Thu,  8 May 2015 13:34:00 +0200 (CEST)
+X-ASG-Debug-ID: 1399548837-066a75057d276a0001-Aet2rw
+Received: from domain.com
+ (domain.com [206.253.208.239]) by
+ manta.Organization.com with ESMTP id wr52Z5kpKj0m9KGo for
+ <user@domain.com>; Thu, 08 May 2015 13:33:58 +0200 (CEST)
+X-Barracuda-Envelope-From: =?UTF-8?Q?The=20Animal=20Rescue=20Site?
+X-Barracuda-Apparent-Source-IP: 206.253.208.239
+X-ASG-Whitelist: Barracuda Reputation
+Received: from localhost ([127.0.0.1])	by domain.com
+ (-); Thu, 08 May 2015 04:33:56 -0700
+X-VirtualServer: domain.com, domain.com, 192.168.40.130
+X-VirtualServerGroup: domain.com
+X-MailingID: 16820232::990831::5501::444408::1_4592::4592_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: user@domain.com
+X-SMFBL: YS5jYXBhbGRvQGhhY2tpbmd0ZWFtLml0
+DomainKey-Signature: a=rsa-sha1;
+ c=nofws;
+ s=sm;
+ d=domain.com;
+ q=dns;
+ b=KexdIhXIlNpoFOzMkQo2g2/hbleK8uud3MTuOcRJ97OKkE5UyL+Wr4ec+OUa72P7As7Exzsza8IGBezq6LS1POypxiSM+pKWjTc1yldpTSJFY9X3IYlXAg8S0mlzjJO4qGAFCaQemUolDBap2WtHFcuTW2LRrywltqpR5Lc7nxQ
+DKIM-Signature: v=1; a=rsa-sha1; c=simple;
+	d=domain.com; s=sm; user@domain.com; h=Content-Transfer-Encoding:
+	Content-Type:Reply-To:MIME-Version:Message-ID:X-ReportingKey:
+	Subject:Date:To:From; bh=hMJU+9qiymYECDBuu4Qy3s0jCIc=; b=Beq0Bs4
+	PSNQFL18VCfhY9X7lfvz9pkawlnoR+Uwi4Hv1NXR1AtXQIVbQp6oZs8VjMqe2xFV
+	7A0DFG0uGJO8Hh080yACUkfc0HsNfkPeFcY3ic/5LrCTmX/lfyXit3bDFKkYt9pn
+	PZeJkqdjx952lddNdR1i4E7j5TF3L+xuBR+g
+Reply-To: <user@domain.com>
+Message-ID: <16820232.4592@domain.com>
+X-ReportingKey: LJ7B8DJ37F0-F4TKK653JJJCDWJJ::user@domain.com::1_4592
+Subject: =?UTF-8?Q?Save=20Up=20to=2075=25=20at=20Our=20NEW=20May=20Flowers=20Sale=20=2B=20Buy=20a=20Pair=20of=20Shoes=2C=20Get=20a=20FREE=20Pair=21?
+Date: Thu, 8 May 2015 04:33:55 -0700
+X-ASG-Orig-Subj: =?UTF-8?Q?Save=20Up=20to=2075=25=20at=20Our=20NEW=20May=20Flowers=20Sale=20=2B=20Buy=20a=20Pair=20of=20Shoes=2C=20Get=20a=20FREE=20Pair=21?
+To: <user@domain.com>
+From: =?UTF-8?Q?The=20Animal=20Rescue=20Site?
+	<user@domain.com>
+X-Barracuda-Connect: domain.com[206.253.208.239]
+X-Barracuda-Start-Time: 1399548837
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at Organization.com
+X-Barracuda-BRTS-Status: 1
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1505733112_-_-"
+
+	.ai {display:inline;}
+	#outlook a {padding:0;}
+	body {-domain.com-text-size-adjust:none; -ms-text-size-adjust:none; margin:0; padding:0; width:100% !important;} .ReadMsgBody {width:100%;} .ExternalClass {width: 100%;}
+   	table td {border-collapse:collapse;}
+
+
+
+
+   Last Day: 30% Off Jewelry Jubilee!
+
+	    View email in web browser.
+
+
+
+      10% Off New Apparel!
+
+
+
+
+      Bags, Packs & Purses Sale!
+
+
+
+
+      Everyday Values
+
+
+
+
+      Outlet
+
+
+
+
+    You're receiving this email because you subscribed to The Animal Rescue Site newsletter, opted in with domain.com to receive partner emails, or joined Cute Dispute or Operation Kibble on Facebook. We email our supporters multiple times a week with special offers and news in the world of good causes and domain.com shopping. 
+
+One-click unsubscribe here or click here to manage your subscription(s).
+
+
+
+To ensure delivery to your inbox, add user@domain.com to your address book/contacts. 
+
+The Animal Rescue Site, One Union Square, 600 University Street, Suite 1000, Seattle, WA 98101   1-888-355-4321 Customer Service Hours: M-F 7am - 3pm PT
+
+
+
+
+        Click to Give--FREE   |  
+        Shop Our Store & Give More
+
+
+
+		Check us out on:   
+          Facebook   
+		  Causes   
+		  Twitter
+

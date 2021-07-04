@@ -1,0 +1,78 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp2011852lfb;
+        Sun, 31 Jan 2015 10:02:28 -0800 (PST)
+X-Received: by 10.107.2.65 with SMTP id 62mr17558387ioc.78.1454263348388;
+        Sun, 31 Jan 2015 10:02:28 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::233])
+        by domain.com with ESMTPS id 92si20266331ioh.107.2016.01.31.10.02.27
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 31 Jan 2015 10:02:28 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::233 as permitted sender) client-ip=2607:f8b0:4001:c06::233;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::233 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-io0-domain.com with SMTP id f81so130337836iof.0
+        for <user@domain.com>; Sun, 31 Jan 2015 10:02:27 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+         :cc:content-type;
+        bh=sPvPYg2QJWEvFuw9pDxmQsRokVPUfz6qJU78RJz25xs=;
+        b=hxsy5wJGtXN6tGcyAoEQmba/OOmJt1Bluyo9QZP1dFSfncbmNmwXwmUOysk4C6piOn
+         wLQ5fcvNK9lFNJgt6ZX83OqLp7ll8zECrxCj1Wx3ogo5GjjBsgkqXeq1w2fjMcGf6kNx
+         Od/Xj0G/ZGHQdg5S2nTRG2LJCqHkF1kq4Peys
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+        bh=sPvPYg2QJWEvFuw9pDxmQsRokVPUfz6qJU78RJz25xs=;
+        b=SqzlHKyURmKkK/7UEDJg7cKAPwBJng1rHoF0JBY40lQyMxFCWGa7qRlw+i0LySsNKB
+         9R4MY1vU+fPopLghN7Tx38icwctxEJq/D1RaraJ5PPhzF78d6O0Pr5Dmos8o/bs1uy7U
+         OJIEhF+U8eZDe4kh50DSWFpRyWoaJOiZisDGSPiDodnGMQvilJJHh8bJpxI6VsKunY4d
+         kgKmGWysR+lLT9mwlLw4wMF3hnTSJFR+i7jdH8dJbkUz65EOXHsrym5HnZyF8v8XCw1w
+         wHnd3kf4XCFdhpfuH1ffVdg4311fOxBHZJV9u3QGMAGrLoRR8igHo3tlRl3XgbqXiUG/
+         09Ug
+X-Gm-Message-State: AG10YOTzkyYcfL9gsKeDowF5kIacJcrl5z9e7KxW/EpUH5MK+aELHsshK9LtBun8wlNRtV9pA6Y2H3lq8/NeoSQD
+MIME-Version: 1.0
+X-Received: by 10.107.18.163 with SMTP id 35mr4386015ios.116.1454263347731;
+ Sun, 31 Jan 2015 10:02:27 -0800 (PST)
+Received: by 10.36.59.5 with HTTP; Sun, 31 Jan 2015 10:02:27 -0800 (PST)
+In-Reply-To: <user@domain.com>
+References: <CAMhPeA-FVgum+8Q5AVnfrNAV+=z0jo7bHCTGiZ5+mz+user@domain.com>
+	<user@domain.com>
+Date: Sun, 31 Jan 2015 13:02:27 -0500
+Message-ID: <CAMhPeA_rT_FV7x3Cdt3ccZ3M+user@domain.com>
+Subject: Re: Some notes in advance of our 1pm CT tick tock call
+From: Robby Mook <re47@hillaryclinton.com>
+To: John user <user@domain.com>
+CC: Alex Hornbrook <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Elan Kriegel <user@domain.com>, 
+ Heather Stone <user@domain.com>, 
+ Huma Abedin <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Jim Margolis <user@domain.com>, Joel Benenson <user@domain.com>, 
+ John Anzalone <user@domain.com>, John user <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Lily Adams <user@domain.com>, Mandy Grunwald <user@domain.com>, 
+ Matt Paul <user@domain.com>, 
+ Michael Davidson <user@domain.com>, 
+ Michael Halle <user@domain.com>, 
+ Michelle Kleppe <user@domain.com>, 
+ Oren Shur <user@domain.com>, 
+ Sara Latham <user@domain.com>, 
+ Simon Vance <user@domain.com>, 
+ Stephanie Hannon <user@domain.com>, 
+ Teddy Goff <user@domain.com>, 
+ marlon marshall <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113f68f0406cd4052aa51267
+
+The Human Resources Department recommends a light hug or handshake, but I
+agree with John!
+
+On Sun, Jan 31, 2015 at 1:01 PM, John user <user@domain.com>

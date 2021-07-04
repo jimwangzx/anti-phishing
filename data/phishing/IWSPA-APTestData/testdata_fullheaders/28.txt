@@ -1,0 +1,87 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 15 May 2015 13:37:56 -0700
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4FKbuN8007408	for <user@domain.com>; Thu, 15 May 2015 
+ 20:37:56 GMT
+Received: from mail123-ch1-domain.com (mail-domain.com
+ [216.32.181.170])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s4FKcwqt025537
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 15 May 2015 20:38:58 GMT
+Received: from mail123-ch1 (localhost [127.0.0.1])	by
+ mail123-ch1-domain.com (Postfix) with ESMTP id 407F34003FC	for
+ <user@domain.com>; Thu, 15 May 2015 20:37:55 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.59.150.86;KIP:(null);UIP:(null);IPV:NLI;H:spruce-goose-aq.twitter.com;RD:spruce-goose-aq.twitter.com;EFVD:NLI
+X-SpamScore: 11
+X-BigFish: vps11(z568mzc89bhc616hd772hc857h1fdcIbb0bIzz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch2233kzz1730fah177df4h17326ah8275bh1bc7b9h8275dh1de097h186068h1b778fh1ce120hb64e9k1ce121iz2fh5fh2a8h839ha12hd25h1288h12a5h12bdh137ah13eah1441h14ddh1504h1537h153bh162dh1631h1758h18e1h1901h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h22d0h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h282bh214ai)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail123-ch1: domain of bounce.twitter.com designates 199.59.150.86 as permitted sender) client-ip=199.59.150.86; user@domain.com; helo=spruce-goose-aq.twitter.com ;.twitter.com ;
+Received: from mail123-ch1 (localhost.localdomain [127.0.0.1]) by mail123-ch1
+ (MessageSwitch) id 1400186271660643_9732; Thu, 15 May 2015 20:37:51 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.240])	by mail123-domain.com (Postfix) with ESMTP id B4998C00CB
+	for <user@domain.com>; Thu, 15 May 2015 20:37:38 +0000 (UTC)
+Received: from spruce-goose-aq.twitter.com (199.59.150.86) by
+ domain.com (10.43.70.5) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Thu, 15 May 2015 20:37:33 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=twitter.com;
+	s=dkim-201303; t=1400186252;
+	bh=FXikgJwHiJy5tyZKYGSXScWXExLINLQp7NcLhPMGTl4=;
+	h=Date:From: Twitter <info@twitter.com>
+	b=CUohs/VGwHC/qC0K9uMLb15xrCgDP62wAurOZS3aVSWF5c6Qa44E84vgkVIyWeoXU
+	 GJUuowhJkOxjnvnAUQVHXNSHq0Ao5aBj9GrkBPTJtkQLKqnRoKhnWHIM44f602mjOM
+	 DMp/tKLfhQORZV9/q2VnbCrHONOZsUKhQ8dxTyho
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21Ac21mMS1iZHEtMjMtc3IxLUV2ZXJ5dGhp
+	bmcuMTg2QEV2ZXJ5dGhpbmdAYW15X3Bhc2NhbFxAc3BlLnNvbnkuY29tXEAyNjRc
+	QDgzMDMxMTgzXEAwXEBiNDIxNTQ5MmQyMmQzYWMyMTlhMzM3ODY0ZWQ2MjNjMjM0
+	OTMwN2Vh
+Date: Thu, 15 May 2015 20:37:32 +0000
+From: Twitter <info@twitter.com>
+To: Amy Pascal <user@domain.com>
+Subject: L.A. Has the 2nd Least Affordable Housing Market in America
+Precedence: Bulk
+Message-ID: <9user@domain.com>
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+L.A. Has the 2nd Least Affordable Housing Market in America
+
+<<link>>+21+20140514
+
+        <<link>>+21+20140514                    Amy Pascal,     
+
+Here's what's trending on Twitter this week.    
+
+
+
+
+                  <<link>>+20+20140514&t;=1              
+
+
+
+
+<<link>>+123+20140514              Which Way, LA? @WWLA
+
+In case you forgot, it's still nearly impossible to buy a house in LA. fb.me/6U4831sOP
+
+14 May   
+
+
+
+
+        L.A. Has the 2nd Least Affordable Housing Market in America
+
+If you dream of one day owning a home, you might want to sit on your hands a little while longer. The latest edition of the annual "Middle Class Report" from real estate website Trulia found what you probably already…
+
+        <<link>>+1489+20140514      
+
+
+
+
+<<link>>+163+20140514   
+

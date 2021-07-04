@@ -1,0 +1,64 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp730218lfb;
+        Sat, 6 Feb 2015 18:57:43 -0800 (PST)
+X-Received: by 10.129.44.212 with SMTP id s203mr11649429yws.280.1454813863564;
+        Sat, 06 Feb 2015 18:57:43 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-yw0-domain.com (mail-yw0-domain.com. [2607:f8b0:4002:c05::234])
+        by domain.com with ESMTPS id w7si5462528ywd.223.2016.02.06.18.57.43
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 06 Feb 2015 18:57:43 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c05::234 as permitted sender) client-ip=2607:f8b0:4002:c05::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c05::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-yw0-domain.com with SMTP id q190so49289952ywd.3;
+        Sat, 06 Feb 2015 18:57:43 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:content-transfer-encoding:From: Fred Rotondaro <fred.rotondaro@gmail.com>
+         :subject:message-id:to;
+        bh=ih2bPp6YldDS0Gx7Qx+mF92McujKVhpXB6kvVtD/+Es=;
+        b=nnvhw+p67hMVqJya9ct4nAI0rYD/c5Z7cgq1G6Crj1DU5I5yuLmO6Xw6XnNrNIiixn
+         1sHOBIaC5j8JeusnIP0Ct9H7nKdbo+PyMHFtVsq4GA9EM60DrbbUtY78Ine8pszx5ANy
+         v4szKRFzSSkWufjt+aVpHWmPM03Ok4xRBT6z3CG+tM2C15q4KB1FDByLnXGQ0NVCYfyS
+         m/2w+E0vLULqyabAqvozMIVhuXh1xLefrmO7e3vEFkszbhwOkrtBj3kzd+0mZ56p9+V0
+         YtsxeEGngfBhckIwBSMtJTjYhkDeAtk8Rbaxhbwopeaxph0MuA7pm0PyVUis+SkALPOR
+         gc7g
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:content-type:content-transfer-encoding:from
+         :mime-version:date:subject:message-id:to;
+        bh=ih2bPp6YldDS0Gx7Qx+mF92McujKVhpXB6kvVtD/+Es=;
+        b=A55K6syNO0T8oCnhi+1oCboIVAOZ+vfXRur2JqO0CdW0S5TbNhTwFAKG1iiTHnbuD9
+         a4yWcLnDEoiaXcGfSeSqkUBw2HSLnYomz6kJ+SbKkBYmxgfeiZwmKDSjjEOUBZzVf5OV
+         3Kb9vQger4aecsVgpANQhrIeL8eZOdaJTBkhIu5UyCGc/Y8JD8Y7ynG64yW/lHvcdm0N
+         kiy9MqCz393lC3S0ksnods8oiEF0KyrBe/k6A9/D2LWcv2ZFG4KkUGedy8cmI/XWVlzQ
+         qHG06xas2vkSBaZwldPKs8qC25sqeVzCvoHHtqobHsV3SUDu8RklpNxhvdTrNknqyJfX
+         XmCA
+X-Gm-Message-State: AG10YORE8eCZChLRFsAChQ+Pqd/+7nT0sAkPaRy41NtxDqOi3HHWEqUHdX43Zj13GsrYZQ
+X-Received: by 10.129.91.132 with SMTP id p126mr10969567ywb.188.1454813863305;
+        Sat, 06 Feb 2015 18:57:43 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2601:585:4202:a230:a942:a117:95b4:1a78? ([2601:585:4202:a230:a942:a117:95b4:1a78])
+        by smtp.gmail.com with ESMTPSA id n7sm16268840ywd.22.2016.02.06.18.57.42
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sat, 06 Feb 2015 18:57:42 -0800 (PST)
+Content-Type: multipart/alternative; boundary=Apple-Mail-1F62A612-1A68-4B82-8733-5D0C24B725B2
+Content-Transfer-Encoding: 7bit
+From: Fred Rotondaro <fred.rotondaro@gmail.com>
+Mime-Version: 1.0 (1.0)
+Date: Sat, 6 Feb 2015 21:57:41 -0500
+Subject: Tweet by NCR on Twitter
+Message-Id: <user@domain.com>
+To: John user <user@domain.com>, Eryn Sepp <user@domain.com>
+X-Mailer: iPad Mail (12F69)
+
+	NCR (@NCRonline)
+2/6/16, 10:27 AM
+.@ThomasReeseSJ on the Catholic vote in 2016: bit.ly/1mi4X65
+
+Download the Twitter app
+
+Sent from my iPad

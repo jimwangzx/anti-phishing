@@ -1,0 +1,159 @@
+Delivered-To: user@domain.com
+Received: by 10.25.30.9 with SMTP id e9csp323828lfe;
+        Tue, 9 Sep 2015 12:49:53 -0700 (PDT)
+X-Received: by 10.140.88.243 with SMTP id t106mr52521133qgd.12.1410292193258;
+        Tue, 09 Sep 2015 12:49:53 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.14])
+        by domain.com with ESMTPS id t20si16388744qgt.96.2014.09.09.12.49.52
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Tue, 09 Sep 2015 12:49:53 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.251.14;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211:3373] by server-14.bemta-12.domain.com id 80/3E-09859-ED95F045; Tue, 09 Sep 2015 19:49:50 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-2.tower-53.domain.com!1410292185!8447253!7
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 26334 invoked from network); 9 Sep 2015 19:49:50 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-2.tower-53.domain.com with AES128-SHA encrypted SMTP; 9 Sep 2015 19:49:50 -0000
+Resent-From: Environmental Justice EPA <environmental-justice@epa.gov>
+Received: from domain.com (216.82.243.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Tue, 9 Sep 2015 15:49:46 -0400
+Received: from [216.82.241.131:64729] by server-7.bemta-8.domain.com id
+ 3A/E3-03760-AD95F045; Tue, 09 Sep 2015 19:49:46 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-9.tower-54.domain.com!1410292184!9506675!1
+X-Originating-IP: [134.67.100.72]
+X-SpamReason: No, hits=0.9 required=7.0 tests=BODY_RANDOM_LONG,
+  HTML_60_70,HTML_MESSAGE,MIME_QP_LONG_LINE,ML_RADAR_SPEW_LINKS_23,
+  spamassassin: 
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 13672 invoked from network); 9 Sep 2015 19:49:44 -0000
+Received: from mblast12.rtp.epa.gov (HELO mblast12.rtp.epa.gov)
+ (134.67.100.72)  by server-9.tower-54.domain.com with SMTP; 9 Sep 2015 
+ 19:49:44 -0000
+Received: from mintra12.rtp.epa.gov (mintra12.rtp.epa.gov [134.67.221.149])	by
+ mblast12.rtp.epa.gov (Postfix) with ESMTP id 7B786A883	for
+ <user@domain.com>; Tue,  9 Sep 2015 15:49:44 -0400 (EDT)
+Received: from lists.epa.gov (cactus.epa.gov [134.67.99.12])	by
+ mintra12.rtp.epa.gov (Postfix) with SMTP id 6863652E04	for
+ <user@domain.com>; Tue,  9 Sep 2015 15:49:44 -0400 (EDT)
+From: Environmental Justice EPA <environmental-justice@epa.gov>
+To: user@domain.com
+Subject: [epa-ej] Reminder: October, 2015 National Environmental Justice Advisory Council (NEJAC) Public Meeting
+Date: Tue, 9 Sep 2015 15:13:30 -0400
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="MIMEBoundary6d6a0fd02094d9fea221d32fd958cf71"
+List-Unsubscribe: <mailto:user@domain.com>
+Reply-To: Environmental Justice information <user@domain.com>
+Message-ID: <LYRIS-526356-1504616-2014.09.09-15.13.35--user#user@domain.com>
+
+Reminder: October 2015 National Environmental Justice Advisory Council (NEJ
+AC) Public Meeting
+
+Registration is Now Open
+
+October 1-2, 2015 
+Arlington, VA
+
+The next face-to-face meeting of the National Environmental Justice Advisor
+y Council (NEJAC) will be held at the EPA Potomac Yard Conference Center lo
+cated at 2015 South Crystal Drive, Arlington, VA 22202 on October 1 and 2, 
+2014. The meeting will include a public comment period.
+
+Date and Time:
+
+	* October 1, 2015 from 9 a.m. to 3:45 p.m. Eastern Time.
+	* October 2, 2015 from 9 a.m. to 5:00 p.m. Eastern Time.
+	* Public comment is October 1 from 4:00 p.m. to 10:00 p.m. Eastern Time.
+
+The primary topics of discussion will be:
+
+	* Climate Adaptation
+	* Community Sustainability
+	* Agency Efforts on Climate Adaptation
+	* Engaging Low-Income, Minority, Tribal and Indigenous Communities to addr
+ess climate change.
+
+Pre-registration is required:
+
+	* Registration closes at Noon Eastern Time on Monday, September 22, 2014.
+	* Deadline for public comment period sign-up, is also Noon, Eastern Time o
+n Monday, September 22.
+	* To register, domain.com <<link>>
+	* If you can't join us face to face you can register for the teleconferenc
+e line: <<link>>
+
+When registering:
+
+	* Please provide your name, organization, city and state, email address, a
+nd telephone number for follow up.
+	* Please also state whether you would like to be put on the list to provid
+e public comment, and whether you are submitting written comments before th
+e Monday, September 22, 2014, noon deadline.
+	* Non-English speaking attendees wishing to arrange for a foreign language
+ interpreter may also make appropriate arrangements using the email address
+ or telephone/fax number provided at the end of this message
+
+Public Comment:
+
+	* Members of the public who wish to provide public comment must pre-regist
+er by Noon Eastern Time on Monday, September 22, 2014.
+	* Individuals or groups making remarks during the public comment period wi
+ll be limited to seven minutes.
+	* To accommodate the number of people who want to address the NEJAC, only 
+one representative of a particular community, organization, or group will b
+e allowed to speak.
+	* Written comments can also be submitted for the record.
+	* The suggested format for individuals providing public comments is as fol
+lows: name of speaker; name of organization/community; city and state; and 
+email address; brief description of the concern, and what you want the NEJA
+C to advise EPA to do.
+	* Written comments received by Noon Eastern Time on Monday, September 22, 
+2014, will be included in the materials distributed to the NEJAC prior to t
+he meeting.
+	* Written comments received after that time will be provided to the NEJAC 
+as time allows.
+	* All written comments should be sent to Jasmin Muriel, EPA, via email at 
+user@domain.com Read the NEJAC public comment guidelines (PDF) (3 pp
+, 28K).
+
+For Further Information: Contact Jasmin Muriel by email at user@domain.com
+a.gov or telephone at 202-564-4287. Information about the NEJAC is availabl
+e at: www.epa.gov/environmentaljustice/nejac.
+
+00531
+
+###########################################################################
+##################
+If you are not already a member, the Office of Environmental Justice would 
+like to invite you to join the EJ List Serve. The purpose of this informati
+on tool is to notify individuals about activities at EPA in the field of en
+vironmental justice. By subscribing to this list you will receive informati
+on on EPA's activities, programs, projects grants and about environmental j
+ustice activities at other agencies. Noteworthy news items, National meetin
+g announcements, meeting summaries of NEJAC meetings, and new publication n
+otices will also be distributed. Postings can only be made by the Office of
+ Environmental Justice. To request an item to be posted, send your informat
+ion to user@domain.com and indicate in the subject "Post to E
+PA-EJ List Serve"
+
+To join the list serve go to: <<link>>
+be?name=3Depa-ej
+
+To change the way you receive these emails, go to: <<link>>
+ad/?forum=3Depa-ej and click "My Account."
+
+To unsubscribe, send a blank email to=20
+user@domain.com

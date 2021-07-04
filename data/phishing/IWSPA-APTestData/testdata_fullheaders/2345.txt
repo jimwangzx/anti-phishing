@@ -1,0 +1,97 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Tue, 12 Nov 2015 15:06:10 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rACN69Xf030277	for <user@domain.com>; Tue, 12 Nov 2015 
+ 23:06:09 GMT
+Received: from mail130-va3-domain.com (mail-domain.com
+ [216.32.180.113])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rACN6912020330
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 12 Nov 2015 23:06:09 GMT
+Received: from mail130-va3 (localhost [127.0.0.1])	by
+ mail130-va3-domain.com (Postfix) with ESMTP id 07E9A400DE	for
+ <user@domain.com>; Tue, 12 Nov 2015 23:06:09 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.105;KIP:(null);UIP:(null);IPV:NLI;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z579ehzc545Ic89bhc857hdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h17326ah1def87h8275bh1bc7b9h8275dh1def03h1def86h1de097h1de096h186068h172c6ch1ce120h1def83h1a691ciz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail130-va3: domain of domain.com designates 192.64.236.105 as permitted sender) client-ip=192.64.236.105; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail130-va3 (localhost.localdomain [127.0.0.1]) by mail130-va3
+ (MessageSwitch) id 138429756715793_22652; Tue, 12 Nov 2015 23:06:07 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.232])	by
+ mail130-domain.com (Postfix) with ESMTP id F3EE520069	for
+ <user@domain.com>; Tue, 12 Nov 2015 23:06:06 +0000 (UTC)
+Received: from mx-domain.com (192.64.236.105) by domain.com
+ (10.7.99.26) with Microsoft SMTP Server id 14.16.227.3; Tue, 12 Nov 2015 
+ 23:06:06 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1384297566;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Daily Headlines <donotreply@variety.com>
+	bh=CorM8z79LXZ+v8gtN9BuhIvffzr7T7rXPtNKvrQzfCM=;
+	b=SfIr4yTDpyKvOzllYiutaptGsOxonef9yPjdXAbQae4H+Y+DstdZ09rV5ZM7ONzZ
+	bl6HXsEQ8tWTiv88FTmiQhIVKrg/lyZTsRrXAcoejE4qomCuapPhg1N7LQrU2LOGmNO
+	vTGEppbgCgK7SNYutt96+UTLytGkHREv9v9YdUkI
+Date: Tue, 12 Nov 2015 18:06:06 -0500
+From: Variety Daily Headlines <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20131112230606.2039420.20588@domain.com>
+Subject: Industry Figures Paint Bleak Picture for L.A. Film and TV
+ Production
+Precedence: bulk
+X-TM-ID: 20131112230606.2039420.20588
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.105
+X-IADB-IP-REVERSE: 105.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2039420
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Industry Figures Paint Bleak Picture for L.A. Film and TV Production
+
+While job growth in the entertainment industry has been on the upswing since 2005, California has a...  
+
+
+
+
+Variety         
+
+Daily Headlines         
+
+Tuesday, November 12, 2015      
+
+
+
+
+<<link>>         
+
+Industry Figures Paint Bleak Picture for L.A. Film and TV Production    
+
+While job growth in the entertainment industry has been on the upswing since 2005, California has actually lost employment while other cities like New York have reaped the gains from increases in ...         
+
+<<link>> AFM: Kristen Stewart’s ‘American Ultra’ Sold in Asia (EXCLUSIVE)
+Indie comedy “American Ultra,” starring Kristen Stewart and Jesse Eisenberg, has picked up traction at the American Film Market with multiple market sales for Asia. Apsara Distribution, IM Global'...
+
+Film Review: ‘Delivery Man’
+In the 17 years since “Swingers,” Vince Vaughn has cultivated the comedic persona of an obnoxious and insensitive boor, so it may come as a surprise to learn that “Delivery Man” reveals a softer s...
+
+Audience Shocked and Squirming at Spike Lee’s ‘Oldboy’ Screening
+ The aud at the screening of Spike Lee’s latest, “Oldboy,” squirmed about in the AMC Lincoln Square theater from the graphic violence, but the film’s climactic twist moved many to audible discomfo...
+
+‘SpongeBob’ Loses Job, Earns Big Ratings for Nickelodeon
+Nick's "SpongeBob SquarePants" drew 5.2 million viewers — its biggest audience in two years — for its Monday episode, "SpongeBob, You're Fired!" The episode, which created some level of controvers...
+
+Cover Story: Jimmy Kimmel Pushes Limits for Latenight Laughs
+Jimmy Kimmel may have earned himself a seat at the big kids’ table in latenight TV, but that doesn’t mean he’s dulled his edge. If anything, Kimmel’s penchant for grabbing headlines and igniting c...
+

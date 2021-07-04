@@ -1,0 +1,56 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id 5D78446879
+	for <user@domain.com>; Mon, 19 Jan 2015 00:27:41 -0500 (EST)
+X-Greylist: delayed 1421 seconds by postgrey-1.27 at domain.com; Mon, 19 Jan 2015 00:27:40 EST
+Received: from mailhost.auckland.ac.nz (larry.its.auckland.ac.nz [130.216.12.34])
+	by domain.com (Postfix) with ESMTP id DDD23131F785
+	for <user@domain.com>; Mon, 19 Jan 2015 00:27:40 -0500 (EST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mailhost.auckland.ac.nz (Postfix) with ESMTP id 79736197DD;
+	Mon, 19 Jan 2015 18:03:57 +1300 (NZDT)
+X-Virus-Scanned: by amavisd-new at mailhost.auckland.ac.nz
+Received: from mailhost.auckland.ac.nz ([127.0.0.1])
+	by localhost (larry.its.auckland.ac.nz [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id h9+uw+biaW6N; Mon, 19 Jan 2015 18:03:56 +1300 (NZDT)
+Received: from fmhsx1.fmhs.auckland.ac.nz (fmhsx1.fmhs.auckland.ac.nz [130.216.128.61])
+	by mailhost.auckland.ac.nz (Postfix) with ESMTP id 2F860197AE;
+	Mon, 19 Jan 2015 17:56:23 +1300 (NZDT)
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C979EA.00F78694"
+Subject: mailbox has exceeded the storage domain.com 
+Date: Mon, 19 Jan 2015 16:57:10 +1300
+Message-ID: <02user@domain.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: mailbox has exceeded the storage domain.com 
+thread-index: Acl56f2HcdE/9VHyTqSKPX55rMAbDg
+From: "Toni Ashton" <t.ashton@auckland.ac.nz>
+To: undisclosed-recipients:;
+Content-Length: 2015 
+Lines: 52
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 958
+
+Your mailbox has exceeded the storage domain.com set by your administrator. 
+You may not be able to send or receive new mail until your mailbox size 
+is increased by your system administrator. You are required to contact 
+your system administrator through e-mail with your Username:{ } and 
+Password:{ } to increase your storage domain.com.
+
+System Administrator
+E-mail: user@domain.com
+
+You will continue to receive this warning message periodically if your 
+inbox size continues to exceed its size domain.com.
+
+This email is intended only for the use of the individual or entity to 
+which it is addressed and contains information that is privileged and 
+confidential.

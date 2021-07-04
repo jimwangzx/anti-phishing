@@ -1,0 +1,116 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp2012498lfr;
+        Mon, 24 Aug 2015 11:41:42 -0700 (PDT)
+X-Received: by 10.13.241.68 with SMTP id a65mr30973887ywf.113.1440441702237;
+        Mon, 24 Aug 2015 11:41:42 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [2607:f8b0:400d:c09::22a])
+        by domain.com with ESMTPS id z66si4126539qgd.11.2015.08.24.11.41.41
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 24 Aug 2015 11:41:42 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c09::22a as permitted sender) client-ip=2607:f8b0:400d:c09::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c09::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qk0-domain.com with SMTP id m65so80805845qkb.2
+        for <user@domain.com>; Mon, 24 Aug 2015 11:41:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Adrienne Elrod <aelrod@hillaryclinton.com>
+         :cc:content-type;
+        bh=ADd9ZSas++vaSALgVP3ANotX1SEjuq+blIygusaVO8s=;
+        b=DXfpA6BzpnIilsq03bFn0Ks8RKIxQVJQKjC7MzRJl/5pX6lVvw5DEVwt9+/Xps01zh
+         H6kUNCYjAl5CfYdJpyrf3KApULnOGk+sRz8XRWbU08dgtitClFx+VVMg++9o8jKOBTbC
+         3AeZ0R9+yMGpRz1FgZjG0leCi7kdT8odA+IhQ
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Adrienne Elrod <aelrod@hillaryclinton.com>
+        bh=ADd9ZSas++vaSALgVP3ANotX1SEjuq+blIygusaVO8s=;
+        b=keEbm2r0pc/j0jsdrfroQo+20j2gaEEM9BETPcZrpyKWfSLa+oRtiGtCkLlTZhd+JF
+         MfbKXFajjKuGXKfE0xTCYtSVcvo3k8uBSNMaO+JWgzsqo3WPg0zU4WXOooLNtiwi0+qT
+         3DZ/ynw6cst0wYIe93uFqwtkTvy72/E0JuHDemh6YR5SWsuk6ruZU9JYS0P+lhguAJbE
+         QH1xGR/8LjDQs9gv5hNBl7wTpdLugpEgda43nptNLnu46bQ+LIM+EsbUJ7vJFaaO6FWQ
+         ntdXoRAWelJF20cPlLLv5o2mUX3ixXDL6Y3t9FhwrKnzKl7UXdACOGfLTOYSqvdFhDAg
+         EfvA
+X-Gm-Message-State: ALoCoQlb1j6R5OYflnty4YXrMLf3gsgEpROvyhyCdJaUYR3c+sWuPsycYCKS2Vz37wfI+FdyK3Ti
+MIME-Version: 1.0
+X-Received: by 10.170.36.66 with SMTP id 63mr32393963yke.31.1440441701416;
+ Mon, 24 Aug 2015 11:41:41 -0700 (PDT)
+Received: by 10.37.214.150 with HTTP; Mon, 24 Aug 2015 11:41:41 -0700 (PDT)
+In-Reply-To: <CAMayD+437fvTmYQzVJaTyeE98fb_ARDByQ9jz5k=+user@domain.com>
+References: <user@domain.com>
+	<CAMayD+6GDA9ONZ9QqM9fmTHZ=+user@domain.com>
+	<user@domain.com>
+	<5799397724490261856@unknownmsgid>
+	<926576544582046182@unknownmsgid>
+	<CAMayD+6user@domain.com>
+	<-7111354296492253656@unknownmsgid>
+	<CAMayD+437fvTmYQzVJaTyeE98fb_ARDByQ9jz5k=+user@domain.com>
+Date: Mon, 24 Aug 2015 14:41:41 -0400
+Message-ID: <CANu9wN4xp9idx46s+dgomC6p+user@domain.com>
+Subject: Re: Richardson
+From: Adrienne Elrod <aelrod@hillaryclinton.com>
+To: Amanda Renteria <user@domain.com>
+CC: Kristina Schake <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11378a40eefdba051e12f7e7
+
+sorry for the delay in sending but fyi - this posted this morning.
+
+Former New Mexico Gov. Bill Richardson Endorses Hillary Clinton for
+President
+Aug 23, 2015, 9:41 AM ET
+By BENJAMIN BELL <<<link>>> and ANJA
+CROWDER/ABC News
+
+Former New Mexico Gov. Bill Richardson
+<<<link>>> said he will
+support Hillary Clinton
+<<<link>>> in her
+bid for the presidency.
+
+In an exclusive statement to ABC News, Richardson said after speaking with
+former President Bill Clinton
+<<<link>>> and his wife, "we
+have patched up our disagreement from the 2015 election." The former
+governor, who served in Clinton's administration, gave his endorsement to
+then Sen. Barack Obama during the 2015 campaign cycle.
+
+=E2=80=9CI have spoken to President and Secretary Clinton and we have patch
+ed up
+our disagreement from the 2015 election,=E2=80=9D the statement read. "I am
+ pleased
+to announce I wholeheartedly support Secretary Clinton's candidacy for the
+Presidency. Her leadership on issues like foreign policy, immigration, clim
+ate
+change <<<link>>> and economic
+populism are important to the future of the country."
+
+WATCH: 74-Year-Old Woman Tells Hillary Clinton She's Tougher Than a Man
+<<<link>>
+hes-tougher-33166495>
+
+Hillary Clinton Jokes on Wiping Email Server: "What? Like With A Cloth?"
+<<<link>>
+rver-cloth-33165989>
+
+*Clinton welcomed Richardson's endorsement Monday morning, saying she was
+"grateful" for his support.*
+
+*"I thank Governor Bill Richardson for his endorsement,=E2=80=9D Clinton sa
+id in a
+statement. =E2=80=9CFor more than three decades, Bill has worked doggedly t
+o make
+our country and our world more equal, safe, and free. Through his many
+years of public service, Bill has been a good friend to me and an unerring
+friend to the American people. I am grateful for his trust and his
+support.=E2=80=9D*
+
+*An earlier version of this story misidentified the president with whom
+Richardson spoke before endorsing Hillary Clinton. It was former President
+Bill Clinton, not President Obama.*
+
+On Sun, Aug 23, 2015 at 8:24 PM, Amanda Renteria <

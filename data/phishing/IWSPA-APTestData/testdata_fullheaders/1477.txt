@@ -1,0 +1,80 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Mon, 17 Mar 2015 21:12:51 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2I4CofK004658	for <user@domain.com>; Tue, 18 Mar 2015 
+ 04:12:50 GMT
+Received: from mail158-co9-domain.com (mail-domain.com
+ [207.46.163.20])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s2I4Cmf2001321
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 18 Mar 2015 04:12:49 GMT
+Received: from mail158-co9 (localhost [127.0.0.1])	by
+ mail158-co9-domain.com (Postfix) with ESMTP id B214E340301	for
+ <user@domain.com>; Tue, 18 Mar 2015 04:12:48 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:62.24.128.253;KIP:(null);UIP:(null);IPV:NLI;H:mxot-1.domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 5
+X-BigFish: vps5(zzc85dhzz1f42h2148h208ch1ee6h1de0h1d18h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1fc6hzz1de098h1b1984h29e4I17326ah8275bh1bc7b9h18c673h19a27bh1de097h186068hz31h54h49h839hd25he5bh10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18b6h18e1h1946h19b5h1b0ah1b2fh1bceh224fh1fb3h1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2462h2487h24d7h2516h2545h255eh25f6h2605h15cam34h2463i1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: softfail (mail158-co9: transitioning domain of talentedcafe.co.uk does not designate 62.24.128.253 as permitted sender) client-ip=62.24.128.253; user@domain.com; helo=mxot-1.domain.com ;domain.com ;
+Received: from mail158-co9 (localhost.localdomain [127.0.0.1]) by mail158-co9
+ (MessageSwitch) id 1395115967136837_1484; Tue, 18 Mar 2015 04:12:47 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.254])	by
+ mail158-domain.com (Postfix) with ESMTP id 1AE74440051	for
+ <user@domain.com>; Tue, 18 Mar 2015 04:12:47 +0000 (UTC)
+Received: from mxot-1.domain.com (62.24.128.253) by
+ domain.com (10.236.130.30) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 18 Mar 2015 04:12:46 +0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AhoQAHjGJ1M+GID9/2dsb2JhbAARLhqCQn+7JRIFLHsnhW8igRt0gjFqBScWAQEBAQkeBQgBBwEONxIBBhqHXQk2iSCVVIcVihCDT50vjX9IglAPgXsEgy0BhWyIbIdyhRqLZIMv
+X-IPAS-Result: AhoQAHjGJ1M+GID9/2dsb2JhbAARLhqCQn+7JRIFLHsnhW8igRt0gjFqBScWAQEBAQkeBQgBBwEONxIBBhqHXQk2iSCVVIcVihCDT50vjX9IglAPgXsEgy0BhWyIbIdyhRqLZIMv
+X-IronPort-AV: E=Sophos;i="4.97,675,1389744000"; 
+   d="jpg'145?scan'145,208,217,145";a="433495442"
+Received: from domain.com (HELO rslr-smtp-1.domain.com)
+ ([62.24.128.253])  by domain.com with ESMTP; 18 Mar 2015 
+ 04:12:44 +0000
+Received: from [213.78.196.215] (helo=SMALLROOM)	by
+ rslr-smtp-1.domain.com with smtps (TLSv1:AES256-SHA:256)	(Exim 4.63)
+	(envelope-from <user@domain.com>)	id 1WPlO1-0007MF-Pp	for
+ user@domain.com; Tue, 18 Mar 2015 04:12:33 +0000
+Date: Tue, 18 Mar 2015 06:12:30 +0200
+Subject: Make 10,000 a Month - Simple - Just Write a Book
+From: A Book Writing Coup <booksales@talentedcafe.co.uk>
+To: amy_pascal <user@domain.com>
+Message-ID: <318612.user@domain.com>
+Reply-To: <user@domain.com>
+Original-recipient: rfc822;user@domain.com
+X-Antivirus: avast! (VPS 140317-1, 17/03/2014), Outbound message
+X-Antivirus-Status: Clean
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Make 10,000 a Month - Simple - Just Write a Book
+
+Well, one of our Member Authors is doing just that, so take note people...
+
+
+
+
+HOW? YOU ASK - SIMPLE - WRITE A GOOD BOOK!
+Here is a perfect example of how you too can do it!
+
+African Chess by Frank Graves is a newly updated and revamped book of political conspiracy, adventure thriller that was originally published in 1990.
+
+Recent events in South Africa such as Nelson Mandela's Death, Oscar Pistorius's Trial, Shrien Dewani's Extradition for Murder, 16,259 Murders in 2012/13 and Epidemic Governmental Corruption have all helped to heighten international attention drawing in huge focus on that country. This marketing opportunity means that African Chess has come out in a completly updated format.
+
+Graves is completing the rewrite of Ancestral Trail Trilogy this time in full book format (450 pages each) to be published in three stages between Januuary 2015 and July 2014. (The first book of the trilogy "Long Ago & Far Away" was published in January 2014.)
+
+His original work has become cultist with various parts continually being traded globally from within the domain.com Auction Rooms. Each of 52 issues were originally centered on an adventure against a particular adversary and each issue ended on a cliffhanger. (The New Trilogy consists of the Mythological World - Cyber World - Present Day World).
+
+His overall intention is to then publish the Ancestral Trail Trilogy plus a further three adult thrillers similar to African Chess during 2015 which means another 5 books will be released during this year.
+
+Lastly, if you should domain.com one of the above links such as domain.com (We suggest using the Kindle Section for the Better Sample Reader) to see what the books are about, please be so kind as to leave a review, it always helps the author seller rating in the long run.
+
+...and that's how it gets done! ...Just write a Book! ...or Simply Reply to Us
+

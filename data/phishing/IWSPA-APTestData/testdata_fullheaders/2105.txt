@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1367955lfr;
+        Mon, 7 Sep 2015 06:27:32 -0700 (PDT)
+X-Received: by 10.194.103.71 with SMTP id fu7mr15637792wjb.90.1441632452368;
+        Mon, 07 Sep 2015 06:27:32 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::22c])
+        by domain.com with ESMTPS id bm10si1274809wib.34.2015.09.07.06.27.32
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 07 Sep 2015 06:27:32 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22c as permitted sender) client-ip=2a00:1450:400c:c05::22c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22c as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id lk2so86638040wic.0
+        for <user@domain.com>; Mon, 07 Sep 2015 06:27:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Sara Latham <slatham@hillaryclinton.com>
+        bh=VjI2Xramv9tWluALzaHigBs3DIf58kupEeObDAdDE/Q=;
+        b=VmLdDHhNqxLHvEVaHd0ZDDo8f/Gqz4CCBL2EZnA2muMfhS4s1THLHffcx+xXmGE9Xg
+         T/1FAagp6tOm+HxUZ+V4dmyvsfhtRQl81IC3BZ8eAagPlEmdCXGTtliU+LoHAKi98MWU
+         Qk7kUWjE2/DzxEmQweAs05leWtVBaG9MiVyD8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Sara Latham <slatham@hillaryclinton.com>
+         :content-type;
+        bh=VjI2Xramv9tWluALzaHigBs3DIf58kupEeObDAdDE/Q=;
+        b=KpMqE4BzZ4Ts6JDBn7B//gO2YPWPSPa/R2SSRns/6Slsk+qxJwqkpvfYNAC70AvpFi
+         9f6kbxCHMmNs1usxnDYswyZfsO45c2Kvn4jeGLESV16b9NMSJcAcqZSXB1p1dFitTksB
+         U+7v+1X1+SInTBJxUddGdPUemLFVoov8xhXcYohaXBnRcSjivbeJkE66jvuGLvLuEiWX
+         RsjVjnVo9Fig7i/oQF/4zWYalxMAJQe7OLCbpwzIm8VkhNM/QOSW9vLYrz6W0tg4WxFr
+         QgpT9NJ+NBXOn0n9hWck3GflbZhq1rguyKmMfw8cXCH8Zn8KJx5jLjKC6Kx+VR85ZVPm
+         fjkg
+X-Gm-Message-State: ALoCoQkua9NSX5GOiLqPgUdSVzXRjiG6IsuV6kNxTdEddU82wQIyoVKjuxHF/nqkF5yGEmBvdZfn
+X-Received: by 10.180.206.211 with SMTP id lq19mr36150229wic.81.1441632452067;
+ Mon, 07 Sep 2015 06:27:32 -0700 (PDT)
+From: Sara Latham <slatham@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+Date: Mon, 7 Sep 2015 09:27:31 -0400
+Message-ID: <-8316708916584789962@unknownmsgid>
+Subject: FYI
+To: John user <user@domain.com>
+CC: Milia Fisher <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+
+I'm on a flight from 10am-11:20 EWR
+
+Then around/in ofc after moving my stuff to donor housing!
+
+Sent from my iPhone

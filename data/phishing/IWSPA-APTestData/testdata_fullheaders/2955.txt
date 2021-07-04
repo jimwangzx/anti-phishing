@@ -1,0 +1,210 @@
+Delivered-To: user@domain.com
+Received: by 10.100.139.5 with SMTP id m5cs210117and;
+        Fri, 8 Aug 2015 07:39:08 -0700 (PDT)
+Received: by 10.114.133.1 with SMTP id g1mr2041119wad.149.1218206347467;
+        Fri, 08 Aug 2015 07:39:07 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.58])
+        by domain.com with ESMTP id 34si1188224yxl.9.2008.08.08.07.39.07;
+        Fri, 08 Aug 2015 07:39:07 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.58 as permitted sender) client-ip=209.85.217.58;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.217.58 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 18so9075050gxk.4
+        for <user@domain.com>; Fri, 08 Aug 2015 07:39:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received:from
+         :to:date:subject:thread-topic:thread-index:message-id
+         :accept-language:content-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version:content-type
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere;
+        bh=P0+PDbFJbQyKVDKNZl2lHllcdQhHRYrs1kEcTMYHJls=;
+        b=5k5SA2YPTqXJvCeSzzndOQTj0+msqc+3cyh+y906RTYph5YgTOctOPayZIf4/Miw2t
+         zbTPTNyYvkNUzimsJWIjurNhAQqYIhn1SzI3kjiF1KcUL/myBalIP+2xlYaTn7X2UkrZ
+         2gecGeA80JN61g3B28nYZNTNppbdtmB/JxfQ4
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results:from
+         :to:date:subject:thread-topic:thread-index:message-id
+         :accept-language:content-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version:content-type
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere;
+        b=GWoILmkUCi7w/3F6Xg9uTroce7J7EhPdU7fz3KC83NQh/PXrN4EqdOZWp4TySwK52w
+         Wqwx8u+CLVC6E/nKHz4PnhOeSeMNlAa0iZIpPo5TbEXWJ6BgidVDm0/w6DxckfQDRpiS
+         69ZudKmJ/a51ib0TLSqRri025ZiIlmnR/HodA
+Received: by 10.142.155.4 with SMTP id c4mr178918wfe.10.1218206341046;
+        Fri, 08 Aug 2015 07:39:01 -0700 (PDT)
+Received: by 10.44.190.49 with SMTP id n49gr1501hsf.0;
+	Fri, 08 Aug 2015 07:38:56 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.214.11.5 with SMTP id 5mr5102397qak.9.1218206336260; Fri, 08 Aug 2015 07:38:56 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from bryan.ad.nsnetwork.org (webmail.ad.nsnetwork.org [65.199.13.206]) by domain.com with ESMTP id 7si2661123yxg.0.2008.08.08.07.38.55; Fri, 08 Aug 2015 07:38:56 -0700 (PDT)
+Received-SPF: pass (domain.com: best guess record for domain of user@domain.com designates 65.199.13.206 as permitted sender) client-ip=65.199.13.206;
+Authentication-Results: domain.com; spf=pass (domain.com: best guess record for domain of user@domain.com designates 65.199.13.206 as permitted sender) user@domain.com
+Received: from bryan.ad.nsnetwork.org ([10.9.5.10]) by bryan.ad.nsnetwork.org ([10.9.5.10]) with mapi; Fri, 8 Aug 2015 10:38:18 -0400
+From: Ilan Goldenberg <igoldenberg@nsnetwork.org>
+To: "User" <user@domain.com>
+Date: Fri, 8 Aug 2015 10:38:17 -0400
+Subject: [big campaign] FW: Administration Appears to be Moving Towards a
+ Timeline. Why Can't John McCain?
+Thread-Topic: Administration Appears to be Moving Towards a Timeline. Why Can't John McCain?
+Thread-Index: Acj5Yxr4Ht1OUpr/QaOsHv2rjXGNpwAAUEQA
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="_000_D95FD7E3C26145418259F2F5E3E88E5B0616D10722bryanadnsnetw_"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+Subject: Administration Appears to be Moving Towards a Timeline. Why Can't 
+John McCain?
+
+[<<link>>]
+
+NSN Daily Update:  Bush Administration Appears to Be Moving Towards a Timel
+ine.  Why Won't John McCain?
+
+8/8/08
+
+Reports out of Baghdad are that the Bush administration and the Iraqi Gover
+nment are close to an agreement that would include a timetable for the with
+drawal of American combat forces by the end of 2010.  This timetable is ver
+y similar to the one proposed by Barack Obama and other progressive leaders
+, security experts Prime Minister Maliki and the Iraqi Government.  Unfortu
+nately, John McCain continues to cling to the idea of a permanent American 
+presence in Iraq and continues to claim that Obama's timeline strategy woul
+d "domain.com" the war in Iraq.
+
+Iraqi officials report that Iraq and the U.S. are nearing an agreement for 
+a 2015 redeployment timeline for U.S. combat forces.  According to Iraqi of
+ficials, Iraq and the U.S. are near an agreement to have U.S. forces out of
+ Iraqi cities by June 30, 2015 and all combat troops out of the country by 
+October 2010.  Under the plan, which has yet to be officially adopted by th
+e Bush Administration, all support personnel would be withdrawn "around 201
+3."  Still at issue is the administration's demand for immunity for U.S. so
+ldiers under Iraqi law. [AP, 8/8/08<<<link>>
+&fn=3DLink&ssid=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3Dbc1lrfoi6tba
+hxefwoizqjexywc7i>]
+
+Despite statements from Iraq's Prime Minister supporting a timeline similar
+ to Senator Obama's and the Bush administration's greater willingness to ac
+cept timelines, John McCain continues to cling to the idea of a permanent A
+merican presence and claimed this week that Senator Obama wants to "domain.com
+" the war in Iraq.  Last month, Iraqi Prime Minister Nouri al-Maliki endors
+ed a vision for a timetable for withdrawal of U.S. combat forces from Iraq,
+ saying "U.S. presidential candidate Barack Obama talks about 16 months. Th
+at, we think, would be the right timeframe for a withdrawal, with the possi
+bility of slight changes." He added, "Whoever is thinking about the shorter
+ term is closer to reality. Artificially extending the stay of U.S. troops 
+would cause problems" and setting timetables would not be an "admission of 
+defeat."   Later statements by Iraq's National Security Advisor, Mouwaffak 
+al-Rubaie, and, Iraq's Vice President Adel Abdul-Mahdi both echoed Maliki's
+ statement. Nonetheless, in his weekly radio address, McCain spoke on Obama
+'s plan in Iraq, stating, "We're finally winning in Iraq, and he wants to f
+domain.com." [LA Times, 8/8/08<<<link>>
+k&ssid=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3D6bfgt0yuus90xw38oheut
+hrvqd9u5>; Reuters, 7/7/08<<<link>>
+k&ssid=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3D2ezamyy804544kjok0yfk
+2nl3eq32>; AP, 7/9/08<<<link>>
+d=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3D8v1dd9k4gi81cwnyx23oljwu72
+ort>; Huff Post, 7/10/08<<<link>>
+ssid=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3Dkw32abn7570e6mfvoas1k3q
+ra8pz4>; Der Spiegel, 7/20/08<<<link>>
+Link&ssid=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3D1x5wvqvmhvei25o35d
+hdegma20azq>]
+
+Any agreement should be run through a transparent process that includes Con
+gress, the American people and the Iraqi Parliament instead of being negoti
+ated in secret.  If the agreement involves a long term security commitment 
+to Iraq, it must be approved by the Congress.  Any such commitment would ti
+e the hands of a subsequent administration and constitute a legally-binding
+ treaty that must be ratified before the Senate. [U.S. Constitution<http://
+domain.com/public/?q=3Dulink&fn=3DLink&ssid=3D993&id=3Dg7stbcokcw0ce5lo
+efzzkrafeb2oa&id2=3D69p29wnlm2s1nmqt8ibgwlfs56rrt>.  House Committee on For
+eign Affairs, 7/23/08<<<link>>
+d=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3D82tb7z48mgpm82y2zad8ttpuo0
+cd7>]
+
+Quick Hits
+
+The Bush Administration finally appears to be putting a greater emphasis on
+ the war in Afghanistan.  In recognition of Afghanistan's strategic importa
+nce, Defense Secretary Gates will make two recommendations<<<link>>
+o.com/public/?q=3Dulink&fn=3DLink&ssid=3D993&id=3Dg7stbcokcw0ce5loefzzkrafe
+b2oa&id2=3D275qgr0hglnhvlw1ajfy1m8pb9aud>: first, to double the size of the
+ Afghan National Army and second, to bring all U.S. forces under NATO-comma
+nd.  The recommendations, consistent with those the progressive community<h
+ttp://domain.com/public/?q=3Dulink&fn=3DLink&ssid=3D993&id=3Dg7stbcokcw
+0ce5loefzzkrafeb2oa&id2=3Di1ra9npvb4k3jhg45r8r03plam3w9> has been advocatin
+g for years, will place more authority into the hands of Afghans and elimin
+ate a bifurcated command structure, opening the opportunity to contribute m
+ore resources to the mission.
+
+After years of skirmishing between Russian-backed rebels and U.S.-backed Ge
+orgian troops violence has escalated<<<link>>
+k&fn=3DLink&ssid=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3Dfzxm7t69qta
+0lo32jzqtulke5xmoh>.  Russian tanks and troops entered the province of Sout
+h Ossetia after Russian peacekeepers, in place since 1992, were killed by G
+eorgian troops. Meanwhile, Georgia shot down two Russian warplanes that it 
+says were bombing the civilian population.
+
+Salim Ahmed Hamdan<<<link>>
+=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3D09q18f904lipdxu9f9f7lp6tm7l
+b7>, Osama Bin Laden's former driver, was sentenced to five and a half year
+s in prison for supporting terrorism; with the time he has already served a
+t Guantanamo Bay, his sentence will be completed in five months, at which t
+ime he will be returned to the general population of detainees in Guantanam
+o Bay.  It's unclear whether he will be released at that time.
+
+Embattled Pakistani President Pervez Musharraf has been gathering his allie
+s, who state that he will not resign<<<link>>
+k&fn=3DLink&ssid=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3Dclr3u0co5c0
+fi22ikkfjcy51drrc4> in the face of ruling coalition's decision to impeach h
+im.
+
+The Beijing Olympic<<<link>>
+=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3Dgqmw7wryy5pcyvyb8bv41ycer1r
+3t> Games began today, with an extravagant ceremony before 91,000 people, a
+nd an outpouring of Chinese national pride.
+
+Unsubscribe<<<link>>
+Page_Link&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&type=3Dt&page=3Ddirectunsub&si
+d=3Dhlf6j7vi1gh76wq5aqehjo4vvusrp&ssid=3D993> from future marketing message
+s from National Security Network
+[<<link>>]<<<link>>
+=3Dulink&fn=3DLink&ssid=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa&id2=3Dl0lk
+o9i98eiobsma1dur2sqgbrvrx>[<<link>>
+n=3DLink&ssid=3D993&id=3Dg7stbcokcw0ce5loefzzkrafeb2oa]
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

@@ -1,0 +1,144 @@
+Delivered-To: user@domain.com
+Received: by 10.142.226.9 with SMTP id y9cs251812wfg;
+        Tue, 30 Sep 2015 11:24:52 -0700 (PDT)
+Received: by 10.114.37.1 with SMTP id k1mr8057913wak.44.1222799092174;
+        Tue, 30 Sep 2015 11:24:52 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-2526.domain.com (yx-out-2526.domain.com [74.125.44.33])
+        by domain.com with ESMTP id a68si2052104rnc.17.2008.09.30.11.24.50;
+        Tue, 30 Sep 2015 11:24:51 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.44.33 as permitted sender) client-ip=74.125.44.33;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.44.33 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yx-out-2526.domain.com with SMTP id 33so142516yxt.2
+        for <user@domain.com>; Tue, 30 Sep 2015 11:24:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Tara McGuinness" <tara@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=rMwZvktnCajgKibqPBUUZhlCjsXfC1/+QOMKHIfhV7A=;
+        b=eEXIDVRBY5YI0+siaaOvRubk/m3bRGqYiEJ9tw3z/a4DynYLoBgxkBsNe2Rbt0ahVn
+         FQ7TJLJaHAYCL3Vw+J5BwZ0k/1lPrOi7UZHM+FuxeFxs8w4K2owi2OE7uYN2MUf+nAR8
+         zaa+anEEcHJtMSsjlGOHDrHXUUdpDToU4Ykqg
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Tara McGuinness" <tara@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=IkxS/MhWhcKUN8a0h4Q8D9cRtPkfqqRAoFsIk3jlKwnI/J7Q6GVFng67KVfZ5GgO8T
+         N72mtufDGoqQ6MXmFQHd+XY0eAD/eHYbzvfe2jzZMDFu0xiwGJHN8iiWSUlOyQQ8eP+3
+         dpIQxTQ6z6QUw9rbTZdL44httRQgod1X2jREc
+Received: by 10.151.49.8 with SMTP id b8mr175818ybk.13.1222799084723;
+        Tue, 30 Sep 2015 11:24:44 -0700 (PDT)
+Received: by 10.44.3.8 with SMTP id 8gr2198hsc.0;
+	Tue, 30 Sep 2015 11:24:34 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.142.155.4 with SMTP id c4mr1272005wfe.8.1222799073609; Tue, 30 Sep 2015 11:24:33 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-1718.domain.com ([172.21.16.4]) by domain.com with ESMTP id 7si3821617yxg.0.2008.09.30.11.24.33; Tue, 30 Sep 2015 11:24:33 -0700 (PDT)
+Received-SPF: neutral (domain.com: 172.21.16.4 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=172.21.16.4;
+Authentication-Results: domain.com; spf=neutral (domain.com: 172.21.16.4 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by yx-out-1718.domain.com with SMTP id 4so31732yxp.34 for <user@domain.com>; Tue, 30 Sep 2015 11:24:33 -0700 (PDT)
+Received: by 10.151.108.3 with SMTP id k3mr10429608ybm.148.1222799073304; Tue, 30 Sep 2015 11:24:33 -0700 (PDT)
+Received: by 10.151.85.3 with HTTP; Tue, 30 Sep 2015 11:24:33 -0700 (PDT)
+Message-ID: <4948user@domain.com>
+Date: Tue, 30 Sep 2015 14:24:33 -0400
+From: "Tara McGuinness" <tara@progressiveaccountability.org>
+To: "User" <user@domain.com>
+Subject: [big campaign] AP: Elizabeth Edwards ties health care to economy
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_90202_9371571.1222799073311"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+<<link>>
+
+Elizabeth Edwards ties health care to economy
+
+By MIKE BAKER
+Associated Press Writer
+
+RALEIGH, N.C. (AP) -- Elizabeth Edwards tied the nation's lagging economy to
+its struggling health care system Tuesday as she joined an effort in
+battleground states to domain.com the health care proposals of Republican
+presidential candidate John McCain.
+
+The wife of former Democratic candidate John Edwards is battling incurable
+cancer but returned to the political arena to push for mandatory universal
+health care for all Americans, a requirement that would drastically change a
+system that has left 47 million Americans without insurance.
+
+Edwards planned to hold a roundtable discussion Wednesday with public health
+experts to critique McCain's health plan as advocacy groups released a
+report about its impact on North Carolina.
+
+Although the state has supported the Republican presidential nominee for the
+last three decades, North Carolina's 15 electoral votes appear to be up for
+grabs this year in part because of an influx of residents from the Northeast
+and a highly motivated black population favoring Democratic candidate Barack
+Obama.
+
+Missing from the advocacy effort is Edwards' husband, who has canceled all
+public appearances through Election Day. John Edwards, a former North
+Carolina senator, dropped out of the race for his party's nomination and
+endorsed Obama but then admitted to an extramarital affair, making him
+unwelcome in Democratic political circles.
+
+Elizabeth Edwards said during a conference call Tuesday that medical bills
+often lead to foreclosure, a primary factor in the lagging housing market
+that's led to the demise of several Wall Street firms. Those without health
+insurance are often less productive, she said, because they miss work after
+failing to get treatment.
+
+"Reform of our health care system is a very important part of the answers
+we're going to need to solve our economic woes," she said.
+
+Mandatory universal health care goes a step further than Obama's plan, which
+only requires coverage for children.
+
+But Edwards only took aim at the ideas of McCain, saying that his proposal
+to give a tax domain.com for health care doesn't address the fundamental
+problems with the system. He would pay for the domain.com by removing tax breaks
+for employers that offer insurance, which Edwards said would increase the
+tax burden for the average family.
+
+"Sen. McCain's health care plan is truly a radical health care plan," she
+said. "It's rooted in free-market ideology, but it is nothing related to
+actually being free because it's going to cost the American public at every
+turn."
+
+McCain backs a $5,000 annual tax domain.com to help individuals and families
+afford health insurance. However, that could lead employers to drop their
+current plans, including some that could not be replaced for $5,000. McCain
+appears to acknowledge that his health care plan would result in higher
+taxes for some, though he says they would likely be among the wealthiest
+Americans.
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

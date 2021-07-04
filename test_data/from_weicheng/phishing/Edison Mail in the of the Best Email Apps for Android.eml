@@ -1,0 +1,110 @@
+Delivered-To: jessica@edison.tech
+Received: by 2002:a17:90a:cf:0:0:0:0 with SMTP id v15csp1799426pjd;
+        Thu, 25 Jun 2020 14:30:26 -0700 (PDT)
+X-Received: by 2002:a1c:2146:: with SMTP id h67mr50296wmh.46.1593120626423;
+        Thu, 25 Jun 2020 14:30:26 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1593120626; cv=none;
+        d=google.com; s=arc-20160816;
+        b=MDWLuz5d1GZJcSm+qSaM6v4MHX62gPcEwB5ORYHJI90zn4uod2YY7raYVF7zQoiabK
+         i8jORn1m4/PSj2qQoBZZ9ai8T9fLJNruhgJeMBDeySkkbHwVOqFn+Mav/UnVK5RGIhAU
+         b6K1R+zvzUpKIOs713iKsQJ50p7dIhgY7BfeHDmFLV1XsR4wXEqRspJfuCgNthkrPi5/
+         L9DN/68yNmNRjKiAqenvDc8BrfP0DRSPJcvu2KgxwDWbANWBy7K5Y+aiiQOQ6PZF0WXX
+         V6ITkfFztbJkDEuzxp9M74mk93h8w2PEaGT1ltk6JYyjN2iHmtopLuiMUi46vR9GLPsv
+         otuw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=zF4tBR+p0nECLUUYqUy9BtjArMpVoF2gUELyGu5zvm8=;
+        b=otej7VHVE9fCNAAB0+8VOc4V/bjf3fgXVS5+4y54dJM5ZdmoOfcmSvgozpJHmmSPDE
+         XOJ87len+qJ4kFiOekse9JJMkDQrnkMG8aBqKjZFPR04KcrlNufn+V6ZurNO3zETpO/l
+         OyYA1yeIgGsdMVfT/O2O5C6XCPZ5baJY7oCSvo+cMt9hPQSFYxs2bXnKuumbynaN/QM0
+         EZNGQKaEWkB0z+/9CxFwt1GoAEQ/FpRmEjrN7jXwLTpjHJSVN7EYCfpu4v/ibbZhxUKW
+         ISJEtlykWjzBdjrvDyg6cwK1QCIjuNunrWpHAcXQfpn3fMm5eHYmG/56kdhrkt4+es6R
+         TfEQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@clean-email.20150623.gappssmtp.com header.s=20150623 header.b=qWuW74r+;
+       spf=softfail (google.com: domain of transitioning julia@clean.email does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=julia@clean.email;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=clean.email
+Return-Path: <julia@clean.email>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l13sor2688882wru.2.2020.06.25.14.30.26
+        for <jessica@edison.tech>
+        (Google Transport Security);
+        Thu, 25 Jun 2020 14:30:26 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning julia@clean.email does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@clean-email.20150623.gappssmtp.com header.s=20150623 header.b=qWuW74r+;
+       spf=softfail (google.com: domain of transitioning julia@clean.email does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=julia@clean.email;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=clean.email
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=clean-email.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=zF4tBR+p0nECLUUYqUy9BtjArMpVoF2gUELyGu5zvm8=;
+        b=qWuW74r+yJl50+gsF1KE8C27CsXVg0X50OOI5RLwYTA/Y/+BVIW6RtrdJkORzPM6Yl
+         O4n0+28rZgIL8HX8e6gU7xG9w3UlFjD5vrMwkUAo9yOkkG8MZ/WN8GMqtLD6M260L1yi
+         dT74YlDsB0yUOg9EnV7IiZ2kGmjq6yKToiwxKxrTnpsjwBgKh8pkRqL3m7n8i1dBUCKE
+         HFQiUYFw+EOgyH8moowj8hcHjzYUzX6rvqjB6OMdluJtiHVCPGzBPgU5Fdb67E2fTTcv
+         jJyuZ3C0olF6oSwq6UxBnLye2Hezu/wJ4jYFe54Bx96WVBOXG77JlRO2+n1Ugyk2TEhC
+         hAnA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=zF4tBR+p0nECLUUYqUy9BtjArMpVoF2gUELyGu5zvm8=;
+        b=jZmMSuCTNjnjn9wKuuPm4Trk976+nlEh4PEArXN06jMRlFqUj0CpuNWsjz3Pupynvm
+         2B4I0RGdgxBUl7QoWS8C+YBxSpnL3q0di1ZqhOyl7CMGyd8xXS3ZP4U1Gn0ofXkJo+sh
+         YfC4SM36GHdKUHnjZ9YD/WTPpNShTmZXZrDjbm1JUYfntK+Rr2bYneP6mhMsQQuy8UCf
+         mFA3VfABAdK33TnZPBGLJdNGtB7E1/xvv+SULgBAz/mgB/ivvFreAnpM0V+jsDxox9ka
+         pWAFp983UpHjTwm7I6eYoZchIJs82MOPmQZSA8xVOD6rE2ITkKjvhZF10OMtUyua5ZR9
+         YR7g==
+X-Gm-Message-State: AOAM531r3ibAFJXa+ACcOzaupGFsJYTJ+6Y3gRqQk0N+rUJIQEZptW3J
+	V4w/z6+L04/HGLWj90D0cKKmc95uo+JINFW+Z6QaO4lC+MQ=
+X-Google-Smtp-Source: ABdhPJxDvX4NDC0Y9Qj3gA/A1V8T1nb5SMUIzMsAkn0oTWvFuP8y4EDPpk0HOIL/Hbah6Z3O70PFaZQT+IRB4P+IMt4=
+X-Received: by 2002:a5d:6846:: with SMTP id o6mr95556wrw.370.1593120625829;
+ Thu, 25 Jun 2020 14:30:25 -0700 (PDT)
+MIME-Version: 1.0
+From: Julia Furkulitsa <julia@clean.email>
+Date: Fri, 26 Jun 2020 00:30:00 +0300
+Message-ID: <CAHhaCRuqH2545VQnwHKJ37sbJGMGn2sjd2T8EhqVyJur-=1eSQ@mail.gmail.com>
+Subject: Edison Mail in the of the Best Email Apps for Android
+To: jessica@edison.tech
+Content-Type: multipart/alternative; boundary="000000000000fcb2ab05a8ef4c3d"
+
+--000000000000fcb2ab05a8ef4c3d
+Content-Type: text/plain; charset="UTF-8"
+
+Hi Jessica,
+
+My name is Julia from Clean Email team. We were making a list of the best
+email apps for Android and included Edison Mail, you can check it here
+<https://mailtrack.io/trace/link/be8d2f285690c2bd23eefcb118399eebdbb01fc2?url=https%3A%2F%2Fclean.email%2Fbest-email-apps-for-android&userId=2746602&signature=cca6f4bdddaeb00a>
+:) Please let me know if you would like to add more details about your
+product, I'll gladly add them to the post.
+
+It would be awesome if you could mention this top list somewhere on your
+website or social media accounts. Or could you please advise me the right
+contact to reach out to?
+
+Look forward to hearing from you.
+Kind regards,
+Julia
+
+--000000000000fcb2ab05a8ef4c3d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Jessica,<br><br>My name is Julia from Clean Email team.=
+ We were making a list of the best email apps for Android and included Edis=
+on Mail, you can check it <a href=3D"https://mailtrack.io/trace/link/be8d2f=
+285690c2bd23eefcb118399eebdbb01fc2?url=3Dhttps%3A%2F%2Fclean.email%2Fbest-e=
+mail-apps-for-android&amp;userId=3D2746602&amp;signature=3Dcca6f4bdddaeb00a=
+" target=3D"_blank">here</a> :) Please let me know if you would like to add=
+ more details about your product, I&#39;ll gladly add them to the post.<br>=
+<br>It would be awesome if you could mention this top list somewhere on you=
+r website or social media accounts. Or could you please advise me the right=
+ contact to reach out to?<br><br>Look forward to hearing from you.<br>Kind =
+regards,<br>Julia<br><img width=3D"0" height=3D"0" alt=3D"" style=3D"displa=
+y:flex" src=3D"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALA=
+AAAAABAAEAAAIBRAA7"><img width=3D"0" height=3D"0" class=3D"mailtrack-img" a=
+lt=3D"" style=3D"display:flex" src=3D"https://mailtrack.io/trace/mail/99a3d=
+0eee8d109fcb22d65a4a3d93852f4223c6f.png?u=3D2746602"></div>
+
+--000000000000fcb2ab05a8ef4c3d--

@@ -1,0 +1,51 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id 0BE6446A55
+	for <user@domain.com>; Fri, 11 Jan 2015 07:01:24 -0500 (EST)
+X-Greylist: delayed 83 seconds by postgrey-1.27 at domain.com; Fri, 11 Jan 2015 07:01:23 EST
+Received: from domain.com.cn (unknown [211.71.192.67])
+	by domain.com (Postfix) with SMTP id 1FE41131FC16
+	for <user@domain.com>; Fri, 11 Jan 2015 07:01:22 -0500 (EST)
+Received: (eyou send program); Fri, 11 Jan 2015 19:58:35 +0800
+Message-ID: <400052715.27111@domain.com.cn>
+X-EYOUMAIL-SMTPAUTH: user@domain.com
+Received: from unknown (HELO user) (217.118.0.121)
+ by 211.71.192.67 with SMTP; Fri, 11 Jan 2015 19:58:35 +0800
+Reply-To: <user@domain.com>
+From: "PayPal"<service@email-paypal.com>
+Subject: PayPal Warning Notification
+Date: Fri, 11 Jan 2015 12.59.53 +0100
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients:;
+Content-Length: 6197
+Lines: 134
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 516
+
+Warning Notification
+
+Dear Customer, 
+It has come to our attention that your PayPal account information needs to be 
+updated as part of our continuing commitment to protect your account and to 
+reduce the instance of fraud on our website. If you could please take 5-10 minutes
+out of your online experience and update your personal records you will not run into any future problems with the online service.
+However, failure to update your records will result in account suspension. 
+Please update your records before January 16, 2008.
+Once you have updated your account records, your PayPal account activity will not be interrupted and will continue as normal.
+Click here to update your PayPal account information
+
+Copyright © 1999-2008 PayPal. All rights reserved.
+
+Information about FDIC
+pass-through insurance

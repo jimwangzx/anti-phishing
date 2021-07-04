@@ -1,0 +1,97 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id B57D846990
+	for <user@domain.com>; Tue, 12 Feb 2015 15:44:28 -0500 (EST)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id 8A5F6131FF4E
+	for <user@domain.com>; Tue, 12 Feb 2015 15:44:27 -0500 (EST)
+Received: by domain.com (Postfix)
+	id 9E8461B8F7; Tue, 12 Feb 2015 21:44:07 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.90])
+	by domain.com (Postfix) with ESMTP id 85AB11B936
+	for <user@domain.com>; Tue, 12 Feb 2015 21:44:07 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 6ED5576D
+	for <user@domain.com>; Tue, 12 Feb 2015 21:44:07 +0100 (CET)
+X-Quarantine-ID: 
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 14.379
+X-Spam-Level: **************
+X-Spam-Status: Yes, score=14.379 tagged_above=0 required=5
+	tests=[BAYES_99=3.5, EXTRA_MPART_TYPE=1.091, FORGED_RCVD_HELO=0.135,
+	FROM_HAS_ULINE_NUMS=0.291, HTML_30_40=0.374, HTML_IMAGE_ONLY_20=1.157,
+	HTML_MESSAGE=0.001, RAZOR2_CF_RANGE_51_100=0.5,
+	RAZOR2_CF_RANGE_E8_51_100=1.5, SPOOF_OURI=0.104, URIBL_JP_SURBL=4.087,
+	URIBL_SBL=1.639]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id RDoTyLrV907H for <user@domain.com>;
+	Tue, 12 Feb 2015 21:44:02 +0100 (CET)
+Received: from domain.com.ar (unknown [200.69.230.3])
+	by domain.com (Postfix) with ESMTP id 8FEE81B8F7
+	for <user@domain.com>; Tue, 12 Feb 2015 21:44:01 +0100 (CET)
+Received: from localhost (rocinante [127.0.0.1])
+	by domain.com.ar (Postfix) with ESMTP id 8EAB950002C
+	for <user@domain.com>; Tue, 12 Feb 2015 18:44:00 -0200 (ARST)
+Received: from domain.com.ar ([127.0.0.1])
+	by localhost (rocinante [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 20870-01 for <user@domain.com>;
+	Tue, 12 Feb 2015 18:43:59 -0200 (ARST)
+Received: from domain.com (domain.com [83.25.213.184])
+	by domain.com.ar (Postfix) with SMTP id 1AC91500033
+	for <user@domain.com>; Tue, 12 Feb 2015 18:43:57 -0200 (ARST)
+Message-ID: <002c01c86db7$f91ec368$0600000user@domain.com>
+From: "Bank of America Group Inc. Commercial " <customers_department-id_41foa@bankofamerica.com>
+To: <user@domain.com>
+Subject: ***SPAM*** BofA Inc. Direct: domain.com Your Account Records
+Date: Tue, 12 Feb 2015  21:43:50 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="multipart/alternative";
+	boundary="----=_NextPart_000_0028_01C86DC0.5AE0A7C0"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2180
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at localhost
+Content-Length: 9530
+Lines: 185
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 585
+
+[IMAGE]
+
+   Dear Bank of America Direct User:
+
+   Our records indicate that a new digital certificate has been issued to
+   your Bank of America Direct user ID.
+   The new certificate will be available for an installation period of 90
+   days, or until May 01, 2015 before expiration. If you choose not
+   install your digital certificate prior to the expiration date, then
+   your access to Bank of America Direct will remain interrupted.
+
+   Digital certificates are computer-based records issued to individual
+   user IDs that allow Bank of America Direct to validate your identity
+   and protect your information from unauthorized access. In order to
+   access Bank of America Direct, you must use a valid digital
+   certificate.
+
+   Installation Instructions
+
+   To install your newly-granted digital certificate, please access the
+   Digital Certificate Pick-Up site at:
+
+   <>
+
+   Sincerely,
+
+   Bank of America Direct Technical Care Center
+
+   NOTE: This is an automatically generated communication.
+   Please do not reply to this message. Thank you.

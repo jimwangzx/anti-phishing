@@ -1,0 +1,143 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Tue, 11 Feb 2015 05:00:01 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1BD00d7029474	for <user@domain.com>; Tue, 11 Feb 2015 
+ 13:00:01 GMT
+Received: from mail141-va3-domain.com (mail-domain.com
+ [216.32.180.118])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s1BD1Bht021800
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 11 Feb 2015 13:01:11 GMT
+Received: from mail141-va3 (localhost [127.0.0.1])	by
+ mail141-va3-domain.com (Postfix) with ESMTP id 5BC414C0726	for
+ <user@domain.com>; Tue, 11 Feb 2015 13:00:00 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:198.37.159.128;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 14
+X-BigFish: vps14(zzc89bhe0eahdd5ehc857hd799h4f15kdbb0izz1f42h2148h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h1ce121iz2fh5eh5fh839h8aah8e2h8e3hd24h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h2336h2461h2487h24d7h2516h2545h255eh740ibe9i9a9j783m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail141-va3: domain of domain.com designates 198.37.159.128 as permitted sender) client-ip=198.37.159.128; envelope-from=bounces+554242-74user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail141-va3 (localhost.localdomain [127.0.0.1]) by mail141-va3
+ (MessageSwitch) id 1392123597712278_532; Tue, 11 Feb 2015 12:59:57 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.244])	by
+ mail141-domain.com (Postfix) with ESMTP id A4036400050	for
+ <user@domain.com>; Tue, 11 Feb 2015 12:59:57 +0000 (UTC)
+Received: from domain.com (198.37.159.128) by
+ domain.com (10.7.99.33) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 11 Feb 2015 12:59:57 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=crowdtwistmail.com; 
+	h=subject:From: Eric Rosenthal <eric_r@crowdtwistmail.com>
+	bh=P7CNuZ4a1P1JDtuHJ585Zlt15Fo=; b=VzYGFkqT7f7qykz8adnZzk6Tos5Ko
+	g2VficubQ0Z03nfy+0+T2hjjCinpNMR5CJYF99E0YrYAMS+tEeyqVUSxpi6ggqPz
+	ZaJOgoPckJdIWo/odrQr4eBZU3IwK6WLjXPUy16AQ6BhWsuk87R/k30OBf0nitWM
+	ErBAJvsR2UJGNI
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=crowdtwistmail.com; 
+	h=subject:From: Eric Rosenthal <eric_r@crowdtwistmail.com>
+	s=smtpapi; b=e0Mcj46ZtAgEpjO1w9Wg05VewerEGq92IV4M/DRAFIrvN7CQNev
+	HlWnGX5FnBfN6DQ4pJOJmHPVdFxz58DR12sxrnd3jqfAELbqVI4qXdqnJ4/NANz8
+	V584t+A9rJd8gROMEuqIsCEYInIFUbYe6CaNreIlrJ99bn0CAShLyA8Y
+Received: by filter-224.domain.com with SMTP id
+ filter-224.3940.52FA1ECC3        Tue, 11 Feb 2015 12:59:56 +0000 (UTC)
+Received: from [127.0.0.1] (184.173.91.84-domain.com
+ [184.173.91.84])	by ismtpd-026 (SG) with ESMTP id 14421084f4b.f8b.39867	for
+ <user@domain.com>; Tue, 11 Feb 2015 12:59:56 +0000 (GMT)
+Message-ID: <user@domain.com>
+Date: Tue, 11 Feb 2015 07:59:56 -0500
+Subject: Loyalty in 2014: A new approach
+From: Eric Rosenthal <eric_r@crowdtwistmail.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+X-SG-EID: crjdrkBCnHFBAoM6m/Gp9m3skGmMR9d/9Wh2P3ndSBfWVX3u9WxAt8Vwu1Gv+uwmE7rTOxhRzkAmPdjte3mbYp9tLksCMydi+4xiyst317I4MFxwL7nUyyfCRf+bcLPoQOnfmLdGcZ83D0bz+gvHw9WkbCh18+9VHovCmgBKPHE
+X-SG-ID: s78jXjc54Sh5tx9yFLGsWSVgP7deeyi89jjwqux6R/WGj2iB7k6fRq/dPN+wKHEONqrMtrAA+jE73A3ZqLRRF8ggS434kn8G+gS14oqtMVgflUFS4R2uvZ/MJOTGOH23
+Return-Path: bounces+554242-74user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Loyalty in 2014: A new approach
+
+Loyalty in 2014: A new approach
+
+Is this email not displaying correctly?
+View it in your browser.
+
+ <<link>>
+
+ <<link>>    
+
+
+
+
+ <<link>>
+
+Hi Amy,
+
+This year, our clients including Pepsi, VIZIO, Nestle, L'Oreal and many others are relying on our vast suite of loyalty and analytics solutions to help them: 
+
+gain a singular view of their customer's across digital, social, mobile and transactional channels
+
+identify which channels their customers engage across and how each channel contributes to driving sales
+
+drive significant lifts in overall brand engagement, social activity and spend
+
+capture and activate 1st party customer data to power their ongoing acquisition and retention efforts
+
+Do you have 20 mins to discuss what we could be doing with you?
+
+
+
+Best,
+Eric
+
+ Signature Logo
+
+
+
+ERIC ROSENTHAL | Head of Sales | 110 E. 23rd St. 7th FL New York, NY 10010 
+
+m: 917.968.9965 | t: 646.845.0646
+
+domain.com | user@domain.com
+
+Why Loyalty Programs Are Critical in 2015 
+
+Existing customers are your most valuable. According to data from both Forrester and Adobe:
+
+Existing customers account for approximately 50% of a companies total annual revenues
+
+Repeat customers spend up to 8x more per transaction
+
+To make up for the revenue impact of losing a 1 loyal customer, a company would need to acquire approximately 5 new customers
+
+A multi-channel loyalty program not only helps you acquire customers, it gives you a way of better retaining the ones you've already spent time and money getting. What's the ROI of loyalty? 
+
+DOWNLOAD WHITEPAPER
+
+<<link>>
+
+<<link>>
+
+A Collection of Case Studies
+
+Marketers are being asked to constantly find better ways of getting more people, to do more, share more and spend more with their brands, MORE often! Take a look at how several leading brands leverage our loyalty and analytics solutions to drive results that include:
+
+7x more online engagement
+
+109% higher email open rates
+
+25% higher email click-through rates
+
+32% increase in average order value
+
+11% more frequent purchase
+
+83% fewer returns
+
+​DOWNLOAD CASE STUDIES
+
+Solving the Customer Identity Crisis
+
+Marketing used to be simple. You chose a channel, spent 
+

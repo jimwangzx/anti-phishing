@@ -1,0 +1,264 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp909794lfb;
+        Thu, 4 Feb 2015 20:11:17 -0800 (PST)
+X-Received: by 10.31.7.140 with SMTP id 134mr8084100vkh.155.1454645477671;
+        Thu, 04 Feb 2015 20:11:17 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-vk0-domain.com (mail-vk0-domain.com. [2607:f8b0:400c:c05::235])
+        by domain.com with ESMTPS id s74si8998134vks.1.2016.02.04.20.11.17
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 04 Feb 2015 20:11:17 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::235 as permitted sender) client-ip=2607:f8b0:400c:c05::235;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::235 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-vk0-domain.com with SMTP id e6so27989072vkh.2
+        for <user@domain.com>; Thu, 04 Feb 2015 20:11:17 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Sara Latham <slatham@hillaryclinton.com>
+         :content-type;
+        bh=eUivJ7kgKk1KPLvx7ACmiovj5n9gOcR3hd2RQbDg7s8=;
+        b=BzEbVaKl52t+xtyFRYbaTWFAQzNu4FgB+d0l2e+598Fe0tbZITQTQsegX1x5I56C5U
+         46m574M8TZo80XhG6PGsdWCnqOWczDCGnG9zWcq8nb95OuYGI8WuJcLSapuD6pX4bzss
+         dnj5vwZ774/NnjUu9iE3Xp18x6mEXTPGX0/rY
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Sara Latham <slatham@hillaryclinton.com>
+         :subject:to:content-type;
+        bh=eUivJ7kgKk1KPLvx7ACmiovj5n9gOcR3hd2RQbDg7s8=;
+        b=cDsZ4UbTPfm0dxkAQvR7zipf2JR8dGXqkcsVNwA+BJpouD1VlzaHcrMX5Y9Y1zWX5K
+         sfpio5pd41OlMiqpNupcTdg6F9wsdOzXQUBQfDKvhfX/tixuGD+Jslhrvb5ZnbZEMWo3
+         jF83qPMZzdEBZkrl0zH4+caCdWKXrCOoeMp9h6MSNNVIYHBRHBFe5MVWHe22YR+8dJop
+         C+18vlSYpYe0qkEDgxQhO+nzcX2icsc+fZ2jzwXGr7ZeDOvxiIEQXF3IzfqY24W3N5lQ
+         fUxk5cclzZ/+0x0K3jsYLP9DFURBp7keJnP4vwv/6ZzOyAfXmDXHDyvo6ux//WLynNO8
+         Kktw
+X-Gm-Message-State: AG10YORdriHQqCXrcZFzeOrQ0UkkRNxwTpG3X+AkoWOEIi2vXM+N8udNeBfEKdjXalBuIhsDZCKK5qgDnlH/cX8s
+X-Received: by 10.31.54.23 with SMTP id d23mr8011456vka.25.1454645477324; Thu,
+ 04 Feb 2015 20:11:17 -0800 (PST)
+From: Sara Latham <slatham@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CAMGPAasJJRag=saa+j=95BxUgZzAk3tooN1+8user@domain.com>
+Date: Thu, 4 Feb 2015 23:11:17 -0500
+Message-ID: <4394123666692334943@unknownmsgid>
+Subject: =?UTF-8?Q?Fwd=3A_CLIP_=7C_WaPo=3A_Hillary_Clinton=E2=80=99s_new_unlikely_a?
+	=?UTF-8?Q?lly_in_email_controversy=3A_Colin_Powell?
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a114385d8f35156052afe0aa3
+
+Begin forwarded message:
+
+*From: Sara Latham <slatham@hillaryclinton.com>
+*Date:* February 4, 2015 at 10:48:42 PM EST
+*To:* HRCRR <user@domain.com>,  Jennifer Palmieri <
+user@domain.com>, Kristina Schake <user@domain.com>
+,
+Jake Sullivan <user@domain.com>,  Laura Rosenberger <
+user@domain.com>
+*Subject:* *CLIP | WaPo: Hillary Clinton=E2=80=99s new unlikely ally in ema
+il
+controversy: Colin Powell*
+
+Hillary Clinton=E2=80=99s new unlikely ally in email controversy: Colin Pow
+ell
+</>
+By Karen DeYoung and Greg Miller February 4 at 7:35 PM  Follow
+@karendeyoung1 Follow @gregpmiller
+
+Hillary Clinton gained an apparent ally Thursday in her fight to domain.com the
+political damage from her growing email controversy, as former Republican
+secretary of state Colin L. Powell said he disagreed with a State
+Department decision to retroactively classify two emails from his personal
+account while in office.
+
+=E2=80=9CI have reviewed the messages, and I do not see what makes them
+classified,=E2=80=9D Powell said of the emails, which were uncovered late l
+ast year
+by the State Department=E2=80=99s inspector general and, he said, brought t
+o his
+attention by the department in recent weeks.
+
+The emails, initially sent to the State Department by two U.S. ambassadors
+serving abroad and forwarded to Powell=E2=80=99s account by an aide, were d
+escribed
+in notifications sent to Congress in recent days by the State Department
+and intelligence community inspectors general.
+
+Those notifications also said that 10 emails with retroactively classified
+information had been found on private accounts of the =E2=80=9Cimmediate st
+aff=E2=80=9D of
+Condoleezza Rice, Powell=E2=80=99s immediate successor in the second term o
+f the
+George W. Bush administration.
+
+The originators of the messages to Powell did not classify them, he said,
+and =E2=80=9Cif the department wishes to say a dozen years later they shoul
+d have
+been classified, that is an opinion of the department that I do not share.
+=E2=80=9D
+
+Powell has said in the past that he found the State Department computer
+system, including domain.com and email, to be woefully inadequate when he
+took office there in 2001. He devoted substantial re=C2=ADsources to improv
+ing
+it but also made liberal use of his personal AOL account.
+
+His entry into the controversy capped a week of revelations and allegations
+coinciding with the nation=E2=80=99s hotly contested first presidential pri
+mary
+contests in Iowa and New Hampshire. It began with the State Department=E2
+=80=99s
+acknowledgment last week that it agreed with an intelligence assessment
+that =E2=80=9Ctop secret=E2=80=9D information was included in 22 of the ten
+s of thousands
+of emails that passed through the private server Clinton used while in
+office.
+
+Clinton has said that the emails in question did not originate with her,
+and that the information was not =E2=80=9Cmarked classified=E2=80=9D when s
+he received it.
+Late Thursday, after Powell=E2=80=99s remarks, her campaign released a stat
+ement
+saying she =E2=80=9Cagrees with her predecessor that his emails, like hers,
+ are
+being inappropriately subjected to over-classification.=E2=80=9D
+
+The existence of Clinton=E2=80=99s private email server was uncovered as pa
+rt of a
+Republican-led congressional investigation of her actions before and after
+the 2015 attacks in Benghazi, Libya, that left two State Department
+officials and two CIA contractors dead.
+
+The =E2=80=9Ctop secret=E2=80=9D 22 are part of 1,600 Clinton emails the St
+ate Department
+has retroactively classified all or in part, according to a senior
+congressional aide with access to the material, with the vast majority in
+the lowest-level category of =E2=80=9Cconfidential.=E2=80=9D
+
+One or more refer to North Korea, the aide said, including =E2=80=9Csome de
+ployment
+of assets,=E2=80=9D an apparent reference to intelligence-collection capabi
+lities.
+But the emails include no attached classified documents or material that
+could definitively be said to come from classified analysis. =E2=80=9CI wou
+ldn=E2=80=99t
+characterize it as typing off the high side,=E2=80=9D the aide said, referr
+ing to
+clearly sensitive material. The messages contain =E2=80=9Cfar more operatio
+nal
+discussion than regurgitation of [intelligence] analytical product.=E2=80
+=9D
+
+Other published accounts have said the classified emails include internal
+commentary on a New York Times story about drone attacks.
+
+Catch up on the controversy and read the e-mailsVIEW GRAPHIC
+
+The State Department and the intelligence community have clashed over the
+origin of some of the material, with intelligence agencies saying
+information could only be gleaned from classified sources and State saying
+much of it comes from its own personnel simply paying attention to the
+obvious in the countries in question.
+
+After the =E2=80=9Ctop secret=E2=80=9D revelations, Rep. Jason Chaffetz (R-
+Utah), chairman
+of the House Oversight and Government Reform Committee, indicated to the
+State Department that he was considering opening an investigation into the
+extent to which Clinton may have compromised national security.
+
+The House Republican leadership was already considering how to respond to
+the Clinton email issue, according to a congressional source familiar with
+the sequence of events. That discussion was pushed toward resolution when
+Chaffetz, in a Politico interview published Wednesday, said he was
+preparing to open a new probe of Clinton.
+
+On Wednesday evening, Speaker Paul Ryan (R-Wis.) and Majority Leader Kevin
+McCarthy (R-Calif.) called Chaffetz to a meeting to temper his zeal. He was
+told that the leaders had made a =E2=80=9Ccollective decision=E2=80=9D that
+ anything
+related to Clinton and her emails =E2=80=9Cwas best left to the FBI,=E2=80
+=9D said the
+source, who spoke on the condition of anonymity to relate the closed-door
+discussions. The only exception was the ongoing Benghazi investigation.
+
+The FBI has been conducting an investigation of whether the use of
+non=C2=ADgovernment servers violated federal records laws and classificatio
+n
+regulations.
+
+Some lawmakers with access to the 22 emails have offered public
+assessments, generally along partisan lines, of their potential to cause
+security damage.
+
+=E2=80=9CThey do reveal classified methods. They do reveal classified sourc
+es, and
+they do reveal human assets,=E2=80=9D Rep. Chris Stewart (R-Utah), a member
+ of the
+House Intelligence Committee, told Fox News on Wednesday. =E2=80=9CI can=E2
+=80=99t imagine
+how anyone could be familiar with these emails, whether they=E2=80=99re sen
+ding
+them or receiving them, and not realize that these are highly classified.
+=E2=80=9D
+
+Committee member Adam B. Schiff (D-Calif.) said Thursday that he would not
+comment on the content, =E2=80=9Cand I urge others to let the process proce
+ed
+unimpeded by politics."
+
+But, Schiff said, =E2=80=9Cit is more than a little ironic that people are 
+leaking
+classified information about this while excoriating Secretary Clinton for
+her handling of classified information. In light of reports that have
+surfaced indicating that Republican secretaries of state and their
+immediate staffs had classified information on their personal accounts, the
+GOP focus on Secretary Clinton is all the more transparently political.=E2
+=80=9D
+
+Senate Minority Leader Harry M. Reid (D-Nev.) took to the Senate floor late
+Thursday to agree. By GOP logic, he said, =E2=80=9Cwe would have to crimina
+lly
+charge Secretary Rice, Secretary Powell, the senior staff and everyone else
+who received these emails. We might have to indict the entire senior level
+of America=E2=80=99s national security team. . . . This is absurd.=E2=80=9D
+
+Rep. Elijah E. Cummings (Md.), the ranking Democrat on the House Oversight
+Committee, first revealed the inspector general notifications Thursday. He
+said in a statement that he had been informed of the Powell and Rice emails
+through a memo marked =E2=80=9CNot for Distribution=E2=80=9D that was sent 
+by the
+department=E2=80=99s inspector general to Undersecretary for Management Pat
+rick
+Kennedy on Wednesday.
+
+The same information, he said, had already been provided to =E2=80=9Cother
+congressional staff without authorization=E2=80=9D by the intelligence insp
+ector
+general.
+
+In a letter requesting further information from Secretary of State John F.
+Kerry, Cummings said the memo indicated that a records review was being
+conducted of five previous secretaries of state and their immediate staffs.
+Out of =E2=80=9Cpotentially sensitive records=E2=80=9D referred by the insp
+ector general to
+the department for further review, he said, the inspector general reported
+that 12, dating between February 2015 and June 2008, were determined to
+contain =E2=80=9Cclassified national security information.=E2=80=9D Two had
+ been sent to
+Powell=E2=80=99s personal account and 10 sent to accounts of Rice=E2=80=99s
+ staff.
+
+=E2=80=9CAccording to the memo,=E2=80=9D Cummings wrote, =E2=80=9Cnone of t
+he emails was marked as
+classified.=E2=80=9D
+
+Mike DeBonis contributed to this report.
+
+--
+You received this message because you are subscribed to the Google Groups
+"HRCRR" group.
+To unsubscribe from this group and stop receiving emails from it, send an
+email to hrcrr+user@domain.com
+To post to this group, send email to user@domain.com

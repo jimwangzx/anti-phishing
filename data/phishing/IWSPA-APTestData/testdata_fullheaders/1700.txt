@@ -1,0 +1,132 @@
+Delivered-To: user@domain.com
+Received: by 10.141.113.8 with SMTP id q8cs298871rvm;
+        Thu, 24 Jul 2015 20:16:16 -0700 (PDT)
+Received: by 10.90.92.14 with SMTP id p14mr1414095agb.28.1216955769863;
+        Thu, 24 Jul 2015 20:16:09 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2122.domain.com (yw-out-2122.domain.com [74.125.46.24])
+        by domain.com with ESMTP id 6si4999756ywn.0.2008.07.24.20.16.08;
+        Thu, 24 Jul 2015 20:16:09 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.24 as permitted sender) client-ip=74.125.46.24;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.24 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2122.domain.com with SMTP id 1so5560298ywp.29
+        for <user@domain.com>; Thu, 24 Jul 2015 20:16:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Ian Mandel" <ian@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=4awMI4JLWjnCCoAEcKKBZPshT0yr+hpuK6soYWPX39E=;
+        b=cBgC5bd6Ih57j+qWI1iJ3q+KQDdRRcDzwhEDEV3h9Nmy4hvQ3Vfc4d3AlH/2+fPbK9
+         H4upxxIwhHQQ9SxgtwkIZSiiosTqRVVJwfnRHnyIpecd6bblaawHkvKm/Gic5KYrXvUK
+         Ier/rP6AJYn6+veewXnNCL2eU2J7XCcGsSlLE
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Ian Mandel" <ian@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=eTjsPoIAPsWkG6wdA0PFd07voJfjXTvaCOVp3q86HWtSfuOZid4ZbBPvI0wV+IBM1S
+         drF06rCymwy5Q2GE8AcmtNao/ggnRLF2N8IBYfdXKA5zHHCx3hSa68WxVkHlOcLWibI7
+         M7xAf4xXcXzHnkMreHBz5KdTB1t6juTUt+ZSw
+Received: by 10.141.27.16 with SMTP id e16mr87632rvj.6.1216955762424;
+        Thu, 24 Jul 2015 20:16:02 -0700 (PDT)
+Received: by 10.107.67.19 with SMTP id u19gr1317prk.0;
+	Thu, 24 Jul 2015 20:15:59 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.125.91.10 with SMTP id t10mr1872089mkl.15.1216955758201; Thu, 24 Jul 2015 20:15:58 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from fg-out-1718.domain.com (fg-out-1718.domain.com [72.14.220.153]) by domain.com with ESMTP id 22si11794279yxr.2.2008.07.24.20.15.57; Thu, 24 Jul 2015 20:15:58 -0700 (PDT)
+Received-SPF: neutral (domain.com: 72.14.220.153 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=72.14.220.153;
+Authentication-Results: domain.com; spf=neutral (domain.com: 72.14.220.153 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by fg-out-1718.domain.com with SMTP id 19so2218918fgg.16 for <user@domain.com>; Thu, 24 Jul 2015 20:15:57 -0700 (PDT)
+Received: by 10.86.100.19 with SMTP id x19mr1511917fgb.40.1216955756547; Thu, 24 Jul 2015 20:15:56 -0700 (PDT)
+Received: by 10.86.94.19 with HTTP; Thu, 24 Jul 2015 20:15:56 -0700 (PDT)
+Message-ID: <8user@domain.com>
+Date: Thu, 24 Jul 2015 23:15:56 -0400
+From: "Ian Mandel" <ian@progressiveaccountability.org>
+To: user@domain.com, 
+ "Ian Mandel" <user@domain.com>
+Subject: [big campaign] IE Watch 7/24
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_13570_28302323.1216955756522"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+*SEIU:
+-* $35,000 for door-to-door canvass staff & costs (SEIU) on 7/22 in support
+of Obama
+
+*Life and Liberty PAC:
+- *$23,895.69 for phone/mail communication (Political Advertising) on 7/23
+in opposition to Obama
+
+*DCCC:*- $10,620.96 for media production (Shorr Johnson Magnus Media) on
+7/24 in support of Paul Kanjorski (PA-11)
+- $10,620.95 for media production (Shorr Johnson Magnus Media) on 7/24 in
+opposition to Lou Barietta (PA-11)
+
+*EMILY's List:*
+- $1,166.64 for phone banks (Stone's Phones) on 7/24 in support of Joan
+Fitz-Gerald (CO-02)
+*Defenders of Wilflife:*- $11.02 for mileage (Jesse Lifton) on 7/21 in
+opposition to Steve Pearce (NM-Senate)- $10.44 for mileage (Jesse Lifton) on
+7/23 in opposition to Steve Pearce (NM-Senate)- $31.32 for mileage (Brian
+McGann) on 7/21 in opposition to Steve Pearce (NM-Senate)
+- $4.64 for mileage (Brian McGann) on 7/23 in opposition to Steve Pearce
+(NM-Senate)- $53.76 for pizza for canvassers (Papa John's) on 7/21 in
+opposition to Steve Pearce (NM-Senate)
+- $43.13 for pizza for canvassers (Papa John's) on 7/23 in opposition to
+Steve Pearce (NM-Senate)
+- $74.70 for paper (Staples) on 7/21 in opposition to Steve Pearce
+(NM-Senate)
+- $17.40 for mileage (Barbara Swietkowski) on 7/23 in opposition to Steve
+Pearce (NM-Senate)
+- $312.71 for cell phone and wireless cards (Verizon) on 7/17 in opposition
+to Steve Pearce (NM-Senate)
+- $13.37 for supplies (Wal-Mart) on 7/21 in opposition to Steve Pearce
+(NM-Senate)
+- $10,000 for payment of canvassers (Ed Yoon) on 7/22 in opposition to Steve
+Pearce (NM-Senate)
+- $68 for staff dinner (Crown Pub) on 7/18 in opposition to Marilyn Musgrave
+(CO-04)
+**- $116.88 for paper and shredder (Office Depot) on 7/18 in opposition to
+Marilyn Musgrave (CO-04)
+- $21.13 for supplies (Office Depot) on 7/19 in opposition to Marilyn
+Musgrave (CO-04)
+- $20.24 for poster-boards (Office Depot) on 7/21 in opposition to Marilyn
+Musgrave (CO-04)
+- $299.52 for mileage (Ed Yoon) on 7/20 in opposition to Marilyn Musgrave
+(CO-04)
+- $315.90 for mileage (Ed Yoon) on 7/23 in opposition to Marilyn Musgrave
+(CO-04)
+
+*Teamsters:*- $917 for banner (Hargrove Inc.) on 7/24 in support of Bruce
+Lunsford (KY-Senate)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

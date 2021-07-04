@@ -1,0 +1,82 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Sun, 22 Jun 2015 13:51:36 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s5MKpZOl014398	for <user@domain.com>; Sun, 22 Jun 2015 
+ 20:51:35 GMT
+Received: from mail122-co9-domain.com (mail-domain.com
+ [207.46.163.23])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s5MKpSxu027895
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Sun, 22 Jun 2015 20:51:29 GMT
+Received: from mail122-co9 (localhost [127.0.0.1])	by
+ mail122-co9-domain.com (Postfix) with ESMTP id 56191CC0886	for
+ <user@domain.com>; Sun, 22 Jun 2015 20:51:34 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.16.156.165;KIP:(null);UIP:(null);IPV:NLI;H:spring-chicken-az.twitter.com;RD:spring-chicken-az.twitter.com;EFVD:NLI
+X-SpamScore: 9
+X-BigFish: vps9(zzc89bhc616hd772he0eahc857hzz1f42h1ee6h1de0h2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch1fdah2233kzz1730fah1def03h177df4h17326ah8275bh1bc7b9h8275dh1de097h186068h1b778fh1ce120h1df280hb64e9k1ce121iz2fh5fh2a8h839ha12hd25h1288h12a5h12bdh137ah13eah1441h14ddh1504h1537h153bh162dh1631h1758h18e1h1901h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h22d0h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h282bh28a1h214ai24c8i)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail122-co9: domain of bounce.twitter.com designates 199.16.156.165 as permitted sender) client-ip=199.16.156.165; user@domain.com; helo=spring-chicken-az.twitter.com ;.twitter.com ;
+Received: from mail122-co9 (localhost.localdomain [127.0.0.1]) by mail122-co9
+ (MessageSwitch) id 1403470290322458_27701; Sun, 22 Jun 2015 20:51:30 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.237])	by
+ mail122-domain.com (Postfix) with ESMTP id 484DE240047	for
+ <user@domain.com>; Sun, 22 Jun 2015 20:51:30 +0000 (UTC)
+Received: from spring-chicken-az.twitter.com (199.16.156.165) by
+ domain.com (10.236.130.34) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Sun, 22 Jun 2015 20:51:30 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=twitter.com;
+	s=dkim-201303; t=1403470288;
+	bh=8u723XHT6wb1UfrqpWFTe89xRpagpL4Jeepzzeexhsw=;
+	h=Date:From: Twitter <info@twitter.com>
+	b=Rz7/H3nLEZRm8SohMzd52kqZaZNQHCyO4un20UDYziRtyWGAzusO52URZrwduMUnN
+	 MaVjjJv7DW/CWisRJU17jfWOGZzDVZjF9Ost5CahzVqHpTqrpHATLxTJOfmrMFw1+g
+	 6Txp3lsOh3BLSaJ6ZTGhRkVzX+mYCC7oVKDnmtfU
+X-MSFBL: c3RldmVuX29kZWxsQHNwZS5zb255LmNvbUBhdGxhLWFxaC0zOC1zcjEtRXZlcnl0
+	aGluZy4xODVARXZlcnl0aGluZ0BzdGV2ZW5fb2RlbGxcQHNwZS5zb255LmNvbVxA
+	MjY0XEAyMzI3NzYxMFxAMFxAMWE2MjNlM2ZhYTc0NzJjNTlkYWFhM2VjNjIwNzUz
+	ZGI3NDBkMjcxNA
+Date: Sun, 22 Jun 2015 20:51:27 +0000
+From: Twitter <info@twitter.com>
+To: Steven O'Dell <user@domain.com>
+Subject: SF Giants on the verge of a significant roster move
+Precedence: Bulk
+Message-ID: <user@domain.com>
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-406539735_-_-"
+
+SF Giants on the verge of a significant roster move
+
+<<link>>+21+20140621
+
+        <<link>>+21+20140621                    Steven O'Dell,  
+
+Here's what's trending on Twitter this week.    
+
+        Steven O'Dell           
+
+                  <<link>>+20+20140621&t;=1              
+
+
+
+
+<<link>>+123+20140621              Henry Schulman @hankschulman
+
+#sfgiants on the verge of a significant roster move: domain.com/giants/2014/06…
+
+21 Jun   
+
+
+
+
+        SF Giants on the verge of a significant roster move
+
+The Giants are ready to dip into Triple-A and give one of their top prospects a shot to help them turn things around amid a losing skien that has reached six games and nine out of 10. Sources confi...
+
+
+

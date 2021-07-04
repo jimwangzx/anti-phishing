@@ -1,0 +1,122 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp1007985lfb;
+        Sun, 20 Mar 2015 20:26:23 -0700 (PDT)
+X-Received: by 10.98.75.28 with SMTP id y28mr12131461pfa.126.1458530783314;
+        Sun, 20 Mar 2015 20:26:23 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-pf0-domain.com (mail-pf0-domain.com. [2607:f8b0:400e:c00::246])
+        by domain.com with ESMTPS id d10si3904822pap.88.2016.03.20.20.26.23
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 20 Mar 2015 20:26:23 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400e:c00::246 as permitted sender) client-ip=2607:f8b0:400e:c00::246;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400e:c00::246 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pf0-domain.com with SMTP id e67sf228912276pfe.0
+        for <user@domain.com>; Sun, 20 Mar 2015 20:26:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:From: Megan Rooney <mrooney@hillaryclinton.com>
+         :subject:to:cc:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-unsubscribe;
+        bh=DdwyESwXO7wJY+3Zt2X0i/sC3h8+BUO7j39gFrpYm/8=;
+        b=I/Mx4H45skFQUkVEqQlux2AJgXoEQWyVYx2CBsAL+ZXvgu+3pOHaFdQx8dvoefzBAJ
+         0E245LLeGFM5wQ72dJVZwGlo3hWKhBLw2lIQc3XUnotzGVhXguIpfjGZbF6H9JkRMr7L
+         t3oLX3IgIDntvYFkiR1x45i3qMjPaTs080Uy8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:from
+         :date:message-id:subject:to:cc:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=DdwyESwXO7wJY+3Zt2X0i/sC3h8+BUO7j39gFrpYm/8=;
+        b=L/UPyfJmGnFq7xP5YYuTskRz7/wvA5pKDIJebz0JwtebqnAAAAQWUjOUhW7d7/35cD
+         XDtAE4fkcOHfqtn/FwPW3l+rNLnjL8pcV4ca2vlHATcCB9tjLJwzm3EowwmkYntfD4UE
+         +AuakF2ySf17GhopK7typjjZPM5EOTfE6bcIRZ6X3BMcon5QpoD2luU4bvD88CwE4o2Q
+         xY13MZ+Wko1+RovOokoCqONZ01MZg/WYjLLfL6XaCiA/nucKfdVAwZOY3k4kz/moJkWv
+         fXPHY2OruRhsavvJ7/U86oyTfIFtc8S7laZGq+cRlyi18UvebBy/rew01MX8mE73KOXl
+         lvcQ
+Sender: user@domain.com
+X-Gm-Message-State: AD7BkJKiPrxY4HyLwlnvqsGW9a7eakPAowQLI7QIMu+qHYBYzsgytsB87Z6BfpYZgQ2seqCV
+X-Received: by 10.66.224.68 with SMTP id ra4mr21321637pac.45.1458530782993;
+        Sun, 20 Mar 2015 20:26:22 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.50.160.39 with SMTP id xh7ls398146igb.44.gmail; Sun, 20 Mar
+ 2015 20:26:22 -0700 (PDT)
+X-Received: by 10.107.135.226 with SMTP id r95mr24817752ioi.59.1458530782607;
+        Sun, 20 Mar 2015 20:26:22 -0700 (PDT)
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::22d])
+        by domain.com with ESMTPS id s102si14303799ioi.21.2016.03.20.20.26.22
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 20 Mar 2015 20:26:22 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::22d as permitted sender) client-ip=2607:f8b0:4001:c06::22d;
+Received: by mail-io0-domain.com with SMTP id 124so44839491iov.3
+        for <user@domain.com>; Sun, 20 Mar 2015 20:26:22 -0700 (PDT)
+X-Received: by 10.107.32.20 with SMTP id g20mr26525735iog.149.1458530782408;
+ Sun, 20 Mar 2015 20:26:22 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.64.32.104 with HTTP; Sun, 20 Mar 2015 20:26:02 -0700 (PDT)
+In-Reply-To: <5977151929031331021@unknownmsgid>
+References: <CAFcwtWBJ1+Phub+user@domain.com>
+ <6user@domain.com> <5896user@domain.com>
+ <user@domain.com>
+ <user@domain.com> <CAFcwtWBr7mLOYtRYiovyJEf3fYVPXwr-rPAd+1W+Vf8ai0+user@domain.com>
+ <4496149961188517070@unknownmsgid> <user@domain.com>
+ <user@domain.com>
+ <CAFcwtWCi=p3nffFrBzTXTtGYs2XbvQRdBw+user@domain.com>
+ <user@domain.com>
+ <user@domain.com>
+ <CAFcwtWCiz_Lr6+e8xwXX-ZytzwaficWV70cyBUX7G3Z+user@domain.com>
+ <user@domain.com> <5977151929031331021@unknownmsgid>
+From: Megan Rooney <mrooney@hillaryclinton.com>
+Date: Sun, 20 Mar 2015 23:26:02 -0400
+Message-ID: <CAFcwtWA7UwT+ZexYtNC3skYta+user@domain.com>
+Subject: Re: DRAFT: inserts for tomorrow's AZ rally (K-12, guns and immigration)
+To: Amanda Renteria <user@domain.com>
+CC: Lorella Praeli <user@domain.com>, 
+ Sara Solow <user@domain.com>, 
+ Maya Harris <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Oren Shur <user@domain.com>, 
+ Speech Drafts <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1140cd042e00d8052e86a957
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:4001:c06::22d as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+OK, so here is the bullet with Sara's revisions.  The question is whether
+we keep the sentence in brackets.  Lorella votes yes.  I personally think
+specificity is better -- I don't really know what we're talking about here
+otherwise.  It feels too vague without SOMETHING concrete.
+
+Arizona passed the strictest anti-immigration law in the country back in
+2010 =E2=80=93 the so-called =E2=80=9Cshow me your papers=E2=80=9D law, whi
+ch opened the door to
+racial profiling of Latinos.  Now Republicans in the Arizona state
+legislature are proposing bills that would crack down even harder on
+undocumented immigrants. [They even want to deny healthcare to *kids* with
+undocumented parents -- even if those kids aren't undocumented themselves.]
+ I don=E2=80=99t think the hundreds of thousands of people in Arizona who l
+ive in
+fear every day should be pushed even further into the shadows.
+
+On Sun, Mar 20, 2015 at 11:20 PM, Amanda Renteria <

@@ -1,0 +1,127 @@
+Description
+
+The data set is provided both in text file and csv file which provides the following resources that can be used as inputs for model building :
+
+A collection of website URLs for 11000+ websites. Each sample has 30 website parameters and a class label identifying it as a phishing website or not (1 or -1).
+The code template containing these code blocks:
+a. Import modules (Part 1)
+b. Load data function + input/output field descriptions
+The data set also serves as an input for project scoping and tries to specify the functional and non-functional requirements for it.
+
+Background of Problem Statement :
+
+You are expected to write the code for a binary classification model (phishing website or not) using Python Scikit-Learn that trains on the data and calculates the accuracy score on the test data. You have to use one or more of the classification algorithms to train a model on the phishing website data set.
+
+Dataset Description:
+
+The dataset for a “.txt” file is with no headers and has only the column values.
+The actual column-wise header is described above and, if needed, you can add the header manually if you are using '.txt' file.If you are using '.csv' file then the column names were added and given.
+The header list (column names) is as follows :
+[ 'UsingIP', 'LongURL', 'ShortURL', 'Symbol@', 'Redirecting//',
+'PrefixSuffix-', 'SubDomains', 'HTTPS', 'DomainRegLen', 'Favicon',
+'NonStdPort', 'HTTPSDomainURL', 'RequestURL', 'AnchorURL',
+'LinksInScriptTags', 'ServerFormHandler', 'InfoEmail', 'AbnormalURL',
+'WebsiteForwarding', 'StatusBarCust', 'DisableRightClick',
+'UsingPopupWindow', 'IframeRedirection', 'AgeofDomain',
+'DNSRecording', 'WebsiteTraffic', 'PageRank', 'GoogleIndex',
+'LinksPointingToPage', 'StatsReport', 'class' ]
+Brief Description of the features in data set
+
+● UsingIP (categorical - signed numeric) : { -1,1 }
+● LongURL (categorical - signed numeric) : { 1,0,-1 }
+● ShortURL (categorical - signed numeric) : { 1,-1 }
+● Symbol@ (categorical - signed numeric) : { 1,-1 }
+● Redirecting// (categorical - signed numeric) : { -1,1 }
+● PrefixSuffix- (categorical - signed numeric) : { -1,1 }
+● SubDomains (categorical - signed numeric) : { -1,0,1 }
+● HTTPS (categorical - signed numeric) : { -1,1,0 }
+● DomainRegLen (categorical - signed numeric) : { -1,1 }
+● Favicon (categorical - signed numeric) : { 1,-1 }
+● NonStdPort (categorical - signed numeric) : { 1,-1 }
+● HTTPSDomainURL (categorical - signed numeric) : { -1,1 }
+● RequestURL (categorical - signed numeric) : { 1,-1 }
+● AnchorURL (categorical - signed numeric) : { -1,0,1 }
+
+having_IPhaving_IP_Address
+If an IP address is used as an alternative of the domain name in the URL, such as “http://125.98.3.123/fake.html”, users can be sure that someone is trying to steal their personal information. Sometimes, the IP address is even transformed into hexadecimal code as shown in the following link “http://0x58.0xCC.0xCA.0x62/2/paypal.ca/index.html”.
+
+URLURL_Length
+Phishers can use long URL to hide the doubtful part in the address bar. For example: http://federmacedoadv.com.br/3f/aze/ab51e2e319e51502f416dbe46b773a5e/?cmd=_home&dispatch=11004d58f5b74f8dc1e7c2e8dd4105e811004d58f5b74f8dc1e7c2e8dd4105e8@phishing.website.html To ensure accuracy of our study, we calculated the length of URLs in the dataset and produced an average URL length. The results showed that if the length of the URL is greater than or equal 54 characters then the URL classified as phishing. By reviewing our dataset we were able to find 1220 URLs lengths equals to 54 or more which constitute&nbsp;48.8% of the total dataset size. Rule: IF We have been able to update this feature rule by using a method based on frequency and thus improving upon its accuracy.
+
+Shortining_Service
+Using “@” symbol in the URL leads the browser to ignore everything preceding the “@” symbol and the real address often follows the “@” symbol. Rule: IF
+
+double_slash_redirecting
+The existence of “//” within the URL path means that the user will be redirected to another website. An example of such URL’s is: “http://www.legitimate.com//http://www.phishing.com”. We examin the location where the “//” appears. We find that if the URL starts with “HTTP”, that means the “//” should appear in the sixth position. However, if the URL employs “HTTPS” then the “//” should appear in seventh position. Rule: IF
+
+Prefix_Suffix
+The dash symbol is rarely used in legitimate URLs. Phishers tend to add prefixes or suffixes separated by (-) to the domain name so that users feel that they are dealing with a legitimate webpage. For example http://www.Confirme-paypal.com/. Rule: IF
+
+having_Sub_Domain
+Let us assume we have the following link: http://www.hud.ac.uk/students/. A domain name might include the country-code top-level domains (ccTLD), which in our example is “uk”. The “ac” part is shorthand for “academic”, the combined “ac.uk” is called a second-level domain (SLD) and “hud” is the actual name of the domain. To produce a rule for extracting this feature, we firstly have to omit the (www.) from the URL which is in fact a sub domain in itself. Then, we have to remove the (ccTLD
+
+SSLfinal_State
+The existence of HTTPS is very important in giving the impression of website legitimacy, but this is clearly not enough. The authors in (Mohammad, Thabtah and McCluskey 2012) (Mohammad, Thabtah and McCluskey 2013) suggest checking the certificate assigned with HTTPS including the extent of the trust certificate issuer, and the certificate age. Certificate Authorities that are consistently listed among the top trustworthy names include: “GeoTrust, GoDaddy, Network Solutions, Thawte, Comodo, Doster and VeriSign”. Furthermore, by testing out our datasets, we find that the minimum age of a reputable certificate is two years. Rule: IF
+
+Domain_registeration_length
+Based on the fact that a phishing website lives for a short period of time, we believe that trustworthy domains are regularly paid for several years in
+
+Favicon
+A favicon is a graphic image (icon) associated with a specific webpage. Many existing user agents such as graphical browsers and newsreaders show favicon as a visual reminder of the website identity in the address bar. If the favicon is loaded from a domain other than that shown in the address bar, then the webpage is likely to be considered a Phishing attempt. Rule: IF
+
+port
+This feature is useful in validating if a particular service (e.g. HTTP) is up or down on a specific server. In the aim of controlling intrusions, it is much better to merely open ports that you need. Several firewalls, Proxy and Network Address Translation (NAT) servers will, by default, block all or most of the ports and only open the ones selected.&nbsp;If all ports are open, phishers can run almost any service they want and as a result, user information is threatened. Rule: IF
+
+HTTPS_token
+The phishers may add the “HTTPS” token to the domain part of a URL in order to trick users. For example, http://https-www-paypal-it-webapps-mpp-home.soft-hair.com/. Rule: IF
+
+Request_URL
+Request URL examines whether the external objects contained within a webpage such as images, videos and sounds are loaded from another domain. In legitimate webpages, the webpage address and most of objects embedded within the webpage are sharing the same domain. Rule: IF
+
+URL_of_Anchor
+An anchor is an element defined by the <a> tag. This feature is treated exactly as “Request URL”. However, for this feature we examine: 1.If the </a><a> tags and the website have different domain names. This is similar to request URL feature. 2.If the anchor does not link to any webpage, e.g.: A.</a><a href="“#”"> B.</a><a href="“#content”"> C.</a><a href="“#skip”"> D.</a><a href="“JavaScript"> Rule: IF</a>
+
+Links_in_tags
+Given that our investigation covers all angles likely to be used in the webpage source code, we find that it is common for legitimate websites to use tags to offer metadata about the HTML document;
+
+SFH
+Web form allows a user to submit his personal information that is directed to a server for processing. A phisher might redirect the user’s information to his personal email. To that end, a server-side script language might be used such as “mail()” function in PHP. One more client-side function that might be used for this purpose is the “mailto:” function. Rule: IF
+
+Abnormal_URL
+This feature can be extracted from WHOIS database. For a legitimate website, identity is typically part of its URL. Rule: IF
+
+Redirect
+The fine line that distinguishes phishing websites from legitimate ones is how many times a website has been redirected. In our dataset, we find that legitimate websites have been redirected one time max. On the other hand, phishing websites containing this feature have been redirected at least 4 times. Rule: IF
+
+on_mouseover
+Phishers may use JavaScript to show a fake URL in the status bar to users. To extract this feature, we must dig-out the webpage source code, particularly the “onMouseOver” event, and check if it makes any changes on the status bar. Rule: IF
+
+RightClick
+Phishers use JavaScript to disable the right-click function, so that users cannot view and save the webpage source code. This feature is treated exactly as “Using onMouseOver to hide the Link”. Nonetheless, for this feature, we will search for event “event.button==2” in the webpage source code and check if the right click is disabled. Rule: IF
+
+popUpWidnow
+It is unusual to find a legitimate website asking users to submit their personal information through a pop-up window. On the other hand, this feature has been used in some legitimate websites and its main goal is to warn users about fraudulent activities or broadcast a welcome announcement, though no personal information was asked to be filled in through these pop-up windows. Rule: IF
+
+Iframe
+IFrame is an HTML tag used to display an additional webpage into one that is currently shown. Phishers can make use of the “iframe” tag and make it invisible i.e. without frame borders. In this regard, phishers make use of the “frameBorder” attribute which causes the browser to render a visual delineation. Rule: IF
+
+DNSRecord
+For phishing websites, either the claimed identity is not recognized by the WHOIS database (Whois 2005) or no records founded for the hostname (Pan and Ding 2006). If the DNS record is empty or not found then the website is classified as “Phishing”, otherwise it is classified as “Legitimate”. Rule: IF
+
+web_traffic
+This feature measures the popularity of the website by determining the number of visitors and the number of pages they visit. However, since phishing websites live for a short period of time, they may not be recognized by the Alexa database (Alexa the Web Information Company., 1996). By reviewing our dataset, we find that in worst scenarios, legitimate websites ranked among the top 100,000. Furthermore, if the domain has no traffic or is not recognized by the Alexa database, it is classified as “Phishing”. Otherwise, it is classified as “Suspicious”. Rule: IF
+
+Page_Rank
+PageRank is a value ranging from “0” to “1”. PageRank aims to measure how important a webpage is on the Internet. The greater the PageRank value the more important the webpage. In our datasets, we find that about 95% of phishing webpages have no PageRank. Moreover, we find that the remaining 5% of phishing webpages may reach a PageRank value up to “0.2”. Rule: IF
+
+Google_Index
+This feature examines whether a website is in Google’s index or not. When a site is indexed by Google, it is displayed on search results (Webmaster resources, 2014). Usually, phishing webpages are merely accessible for a short period and as a result, many phishing webpages may not be found on the Google index. Rule: IF
+
+Links_pointing_to_page
+The number of links pointing to the webpage indicates its legitimacy level, even if some links are of the same domain (Dean, 2014). In our datasets and due to its short life span, we find that 98% of phishing dataset items have no links pointing to them. On the other hand, legitimate websites have at least 2 external links pointing to them. Rule: IF
+
+Statistical_report
+Several parties such as PhishTank (PhishTank Stats, 2010-2012), and StopBadware (StopBadware, 2010-2012) formulate numerous statistical reports on phishing websites at every given period of time; some are monthly and others are quarterly. In our research, we used 2 forms of the top ten statistics from PhishTank: “Top 10 Domains” and “Top 10 IPs” according to statistical-reports published in the last three years, starting in January2010 to November 2012. Whereas for “StopBadware”, we used “Top 50” IP addresses. Rule: IF
+
+Result
+1 means legitimate 0 is suspicious -1 is phishing

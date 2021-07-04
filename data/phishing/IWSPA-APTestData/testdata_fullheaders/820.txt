@@ -1,0 +1,106 @@
+Received: from USCCIMTA02.spe.sony.com (172.23.144.44) by
+ ussdixhub21.spe.sony.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 12 Dec 2015 06:01:13 -0800
+Received: from ussdixtran21.spe.sony.com ([43.130.141.78])          by
+ USCCIMTA02.spe.sony.com (Lotus Domino Release 6.5.6)          with ESMTP id
+ 2013121206011252-81242 ;          Thu, 12 Dec 2015 06:01:12 -0800 
+Received: from domain.com (146.215.230.103) by
+ ussdixtran21.spe.sony.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Thu, 12 Dec 2015 06:01:12 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBCE1BVg009111;	Thu, 12 Dec 2015 14:01:11 GMT
+Received: from mail25-co1-domain.com
+ (mail-domain.com [216.32.180.180])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBCE19l9026421	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL);	Thu, 12 Dec 2015 14:01:10 GMT
+Received: from mail25-co1 (localhost [127.0.0.1])	by mail25-co1-domain.com
+ (Postfix) with ESMTP id 7A6C2440558;	Thu, 12 Dec 2015 14:01:09 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:207.46.163.181;KIP:(null);UIP:(null);IPV:NLI;H:na01-bn1-domain.com;RD:reserved;EFVD:RES
+X-SpamScore: 3
+X-BigFish: vps3(zz9371Ic85fh542Izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h8275bh18c673h1de097hz2fh109h2a8h839hbe3he5bh1288h12a5h12bdh137ah13eah1441h1504h1537h153bh162dh1631h1758h18e1h1946h19b5h19ceh1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h22d0h2336hbcam1155h)
+X-FFO-Routing-Override: spe.sony.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail25-co1: domain of 22domain.com designates 207.46.163.181 as permitted sender) client-ip=207.46.163.181; envelope-from=coop@22domain.com; helo=na01-bn1-domain.com ;.domain.com ;
+X-Forefront-Antispam-Report-Untrusted: SFV:NSPM;SFS:(10019001)(199002)(189002)(13464003)(377454003)(74366001)(77096001)(31966008)(81686001)(74662001)(81816001)(85852003)(59766001)(77982001)(83322001)(19580405001)(19580395003)(85306002)(47976001)(50986001)(47736001)(49866001)(4396001)(80976001)(54316002)(36756003)(16236675002)(83072002)(46102001)(74706001)(76796001)(76786001)(74876001)(51856001)(2656002)(69226001)(87266001)(65816001)(81342001)(87936001)(74502001)(66066001)(63696002)(56776001)(76176001)(81542001)(76482001)(54356001)(53806001)(80022001)(90146001)(79102001)(56816005)(47446002);DIR:OUT;SFP:1102;SCL:1;SRVR:BL2PR08MB355;H:domain.com;CLIP:198.228.222.142;FPR:;RD:InfoNoRecords;A:1;MX:1;LANG:en;
+Received: from mail25-co1 (localhost.localdomain [127.0.0.1]) by mail25-co1
+ (MessageSwitch) id 1386856866739060_28505; Thu, 12 Dec 2015 14:01:06 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.226])	by
+ mail25-domain.com (Postfix) with ESMTP id B0355340046;	Thu, 12 Dec 2015 
+ 14:01:06 +0000 (UTC)
+Received: from na01-bn1-domain.com (207.46.163.181)
+ by domain.com (10.243.66.26) with Microsoft SMTP Server (TLS)
+ id 14.16.227.3; Thu, 12 Dec 2015 14:01:06 +0000
+Received: from domain.com (10.141.89.147) by
+ domain.com (10.141.89.149) with Microsoft SMTP
+ Server (TLS) id 15.0.842.7; Thu, 12 Dec 2015 14:01:04 +0000
+Received: from domain.com ([169.254.11.149]) by
+ domain.com ([169.254.11.149]) with mapi id
+ 15.00.0842.003; Thu, 12 Dec 2015 14:01:03 +0000
+From: Bradley Cooper <coop@22indiana.com>
+To: "User" <user@domain.com>, Jeff Blake
+	<user@domain.com>, Grosses-AH <user@domain.com>
+CC: Grosses-Weekend <user@domain.com>, Amy pascal
+	<user@domain.com>, Josh Lieberman <user@domain.com>, Dave Bugliari
+	<user@domain.com>, john campisi <user@domain.com>, Doug Belgrad
+	<user@domain.com>, Hannah Minghella
+	<user@domain.com>, Sam Dickerman
+	<user@domain.com>, Charles Roven <user@domain.com>, "Megan
+ Ellison" <user@domain.com>, Megan Crawford <user@domain.com>,
+	Richard Suckle <user@domain.com>, Jon Gordon <user@domain.com>, "jay
+ cassidy" <user@domain.com>, Holly Davis <user@domain.com>,
+	"user@domain.com" <user@domain.com>
+Subject: Re: A sweep !
+Thread-Topic: A sweep !
+Thread-Index: AQHO90IROSomD3buRYKszQKLJgRVaZpQlqmA
+Date: Thu, 12 Dec 2015 14:01:03 +0000
+Message-ID: <20131212140101.5083276.54010.20288@22domain.com>
+In-Reply-To: <user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [198.228.222.142]
+x-forefront-prvs: 0058ABBBC7
+X-OriginatorOrg: 22domain.com
+Return-Path: coop@22domain.com
+X-MIMETrack: Itemize by SMTP Server on USCCiMTA02/SVR/SPE(Release 6.5.6|March 06, 2007) at
+ 12/12/2013 06:01:12 AM,
+	Serialize by Router on USCCiMTA02/SVR/SPE(Release 6.5.6|March 06, 2007) at
+ 12/12/2013 06:01:13 AM,
+	Serialize complete at 12/12/2013 06:01:13 AM
+Content-Language: en-US
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-406539735_-_-"
+
+Re: A sweep !
+
+Come on mother fuckers!!!!!
+
+Sent from my BlackBerry 10 smartphone.
+
+From: Bradley Cooper <coop@22indiana.com>
+
+Sent: Thursday, December 12, 2015 3:57 AM
+
+To: Jeff Blake; Grosses-AH
+
+Reply To: user@domain.com
+
+Cc: Grosses-Weekend; Amy pascal; Bradley Cooper; Josh Lieberman; Dave Bugliari; john campisi; Doug Belgrad; Hannah Minghella; Sam Dickerman; Charles Roven; Megan Ellison; Megan Crawford; Richard Suckle; Jon Gordon; jay cassidy; Holly Davis; user@domain.com
+
+Subject: Re: A sweep !
+
+Righteous! Just landed London to this news. Onward! Amazing. Humble. Grateful. One day at a time.
+------Original Message------
+From: Bradley Cooper <coop@22indiana.com>
+To: Grosses-AH
+Cc: Grosses-Weekend
+Subject: A sweep !
+Sent: Dec 12, 2015 1:47 PM
+
+All 4 acting categories , Picture , Director and Screenplay !! Just fantastic .
+Sent via BlackBerry by AT&T
+

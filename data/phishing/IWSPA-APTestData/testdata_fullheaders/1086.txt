@@ -1,0 +1,57 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.48 with SMTP id n45csp147264qga;
+        Mon, 7 Apr 2015 13:32:14 -0700 (PDT)
+X-Received: by 10.50.57.109 with SMTP id h13mr22250398igq.3.1396902733667;
+        Mon, 07 Apr 2015 13:32:13 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ie0-domain.com (mail-ie0-domain.com [2607:f8b0:4001:c03::232])
+        by domain.com with ESMTPS id mx10si19971014icb.32.2014.04.07.13.32.13
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 07 Apr 2015 13:32:13 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::232 as permitted sender) client-ip=2607:f8b0:4001:c03::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ie0-domain.com with SMTP id lx4so6589974iec.23
+        for <user@domain.com>; Mon, 07 Apr 2015 13:32:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:mime-version:subject:From: wendy Abrams <wabrams1@gmail.com>
+         :content-transfer-encoding:message-id:references:to;
+        bh=jm3uyMh2RZxV0oUXMKMeRwQ5hLpeDQ1AzLb6hEos4bs=;
+        b=Ess8eNBECFlKH3hKYMOCeJy85G4/76H0ejWy2bmJRosatbrGEYhRFSceWKMWHAains
+         omllYHPIHTw5P2C2PVUOnej3dQjqBTB/HyjANJV13RcasmyTlM0PzL0dp5U/fEbcFkeX
+         x+5iE4bqGLXDgzPYGaDbLBjnzRBh16TpA0fWbxtCJSjU4hhgNRgs6Slu3ORqRZzNBeEr
+         C5UDe4MXcnrdZ0LeOXtUtXajiA53gROmAFLQveseZd7M/kMIuunvV5AUQYXTPe57Msh3
+         6W+4Fn5EZSO4cxeIuqhrS0C6+4KXKkx1PXuA0YebSUMFvUBnn6582cVfW8UfPSnzjJFi
+         xLlQ
+X-Received: by 10.43.74.198 with SMTP id yx6mr28267670icb.40.1396902733487;
+        Mon, 07 Apr 2015 13:32:13 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [192.168.1.186] (75-150-240-73-domain.com. [75.150.240.73])
+        by domain.com with ESMTPSA id g1sm526638igt.14.2014.04.07.13.32.12
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 07 Apr 2015 13:32:12 -0700 (PDT)
+Content-Type: text/plain; charset=windows-1252
+Mime-Version: 1.0 (Mac OS X Mail 7.2 \(1874\))
+Subject: Re: house of cards
+From: wendy Abrams <wabrams1@gmail.com>
+In-Reply-To: <9user@domain.com>
+Date: Mon, 7 Apr 2015 15:32:11 -0500
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <user@domain.com>
+References: <user@domain.com> <561user@domain.com> <50user@domain.com> <9user@domain.com>
+To: "User" <user@domain.com>
+X-Mailer: Apple Mail (2.1874)
+
+Jeff Goodell is a friend of mine, he writes for Rolling Stone.. he asked 
+for an email for you.. don=92t know if you want me to pass along gmail 
+or if you have an email for your assistant i can give him.
+
+best
+w
+
+On Mar 28, 2014, at 1:36 AM, John user <user@domain.com> 

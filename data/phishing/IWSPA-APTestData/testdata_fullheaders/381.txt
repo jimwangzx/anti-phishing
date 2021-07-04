@@ -1,0 +1,103 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp940730lfb;
+        Tue, 15 Mar 2015 18:36:02 -0700 (PDT)
+X-Received: by 10.67.7.197 with SMTP id de5mr1692019pad.105.1458092162424;
+        Tue, 15 Mar 2015 18:36:02 -0700 (PDT)
+Return-Path: <3user@domain.com>
+Received: from mail-pf0-domain.com (mail-pf0-domain.com. [2607:f8b0:400e:c00::249])
+        by domain.com with ESMTPS id wt1si175936pab.238.2016.03.15.18.36.02
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 15 Mar 2015 18:36:02 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400e:c00::249 as permitted sender) client-ip=2607:f8b0:400e:c00::249;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400e:c00::249 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pf0-domain.com with SMTP id q129so4440789pfb.1
+        for <user@domain.com>; Tue, 15 Mar 2015 18:36:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: re47@hillaryclinton.com
+        bh=Gk+Q8K8AseF5KZ6sEjjvck25EyqcNVBwJgbzguY6WMk=;
+        b=YvtL62djdsuro/Dw5J63FBpQeGOfI6Bby+PKnSp6v+yg0quBhSHR6jCZIjw4lShaHe
+         /R4ZiN/pKwM0SGtNSI8XQxidUS2X8nxmd6EdK2lqJ5JsiAgcUq/PX5gofdaUxTKI86r9
+         kjN0V2m+DS6KZqcT7JljQF1/qrVE68zvjsgQ+dq4Joru3nzKe1smS6/lPISzrkd6Q0F9
+         gleVF9lYemTQwIWJVSDkt0pCyznXiTDowQ8ABma8SB18WHvc5RgwfVq9gm5v0VwsKCgZ
+         ISsep076ZTI5zsGE0j0i78X1+Mq2/qB/f7yGhY5hWvWtYpbeRigwM9DVmPvQDHOKbofd
+         brwA
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: re47@hillaryclinton.com
+        bh=Gk+Q8K8AseF5KZ6sEjjvck25EyqcNVBwJgbzguY6WMk=;
+        b=fzrjCf+k7qNWKOo5Xy/gH97ZCQ9hI9pxVGaieOeDEadp/hbVs0Kz2Lezofvh7f3wxX
+         RpmYLWI1XQyQcyFIilGHb1ErOH/IUjp/6SbD/EAnYL2e3hMU7mzh/74hfcK/lLrddrTi
+         w8ljbRXYiGc6ikiWgh44SFWbhteviOQJ3M6mA
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: re47@hillaryclinton.com
+        bh=Gk+Q8K8AseF5KZ6sEjjvck25EyqcNVBwJgbzguY6WMk=;
+        b=d92KiTM27aRzGQJjexp6HD6UnuqCAU1AIc+1OIpZxpj2hd9lCdy2J9njkMSYet1Xlw
+         asNCyeuLtIu8eO+kPZRP1P9D4s1vwPyVyW+/T++7DLE9GLe/TYuUSG+L4VFmca/1EhbO
+         CRXzo3r89LmIiwSFXZvveTBOHSg6zxV06upVFa/gT245ZGhi61pV2gpB5nRdSvo0+NCW
+         yxI+1xy949gW9vUn7kkC66cNhH+hNkQeDE99ccVoJ6f2dZi1sSc9Cklagbre35W+4tTA
+         VxB0RNK/ct3JmcmdYCvYWqAVaraVeKMFQ2b8Sgd2bud1mk9iBoshaOUWo1VrKek9+Bty
+         n1Tg
+X-Gm-Message-State: AD7BkJKvpTxIdQ6SSIilAMXE2zQzQ9QaHIYH9mjIedyfpIOGITSmjUFG4H7Hx9QiKnBf40ZAVSAXn3qC7z7OZA8BZA
+MIME-Version: 1.0
+X-Received: by 10.98.12.66 with SMTP id u63mr905327pfi.12.1458092161982; Tue,
+ 15 Mar 2015 18:36:01 -0700 (PDT)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <001user@domain.com>
+Date: Wed, 16 Mar 2015 01:36:01 +0000
+Subject: Invitation: Call @ Tue Mar 15, 2015 9:35pm - 10:05pm (user@domain.com)
+From: re47@hillaryclinton.com
+To: user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com
+Content-Type: multipart/mixed; boundary=001a114592c85d85bf052e20891e
+
+You have been invited to the following event.
+
+Title: Call
+When: Tue Mar 15, 2015 9:35pm - 10:05pm Eastern Time
+Where: 718-441-3763, no pin
+Video call: <<link>>  
+<<<link>>>
+Calendar: user@domain.com
+Who:
+     * user@domain.com - organizer
+     * user@domain.com - creator
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * John user
+
+Event details:  
+<<link>>
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for invitations on calendar user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to modify your RSVP  
+response. Learn more at  
+<<link>>#forwarding

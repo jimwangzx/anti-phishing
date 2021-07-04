@@ -1,0 +1,89 @@
+Delivered-To: user@domain.com
+Received: by 10.205.118.144 with SMTP id fq16csp94299bkc;
+        Mon, 15 Jul 2015 11:10:40 -0700 (PDT)
+X-Received: by 10.229.66.67 with SMTP id m3mr12367242qci.83.1373911838598;
+        Mon, 15 Jul 2015 11:10:38 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [69.25.74.172])
+        by domain.com with ESMTP id hg10si16702839qeb.114.2013.07.15.11.10.37
+        for <user@domain.com>;
+        Mon, 15 Jul 2015 11:10:38 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.25.74.172 as permitted sender) client-ip=69.25.74.172;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 69.25.74.172 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (localhost [127.0.0.1])
+	by mta-domain.com (Postfix) with ESMTP id 3bvCTT4fzHzY7bg
+	for <user@domain.com>; Mon, 15 Jul 2015 14:10:37 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1373911837;
+	bh=G/lNzDvay2Jk8s+Mc3bVZbzVBcGkxiAfHK8EveI5tBc=;
+	h=Date:To:From: Cheri Bustos <admin@cheribustos.com>
+	 MIME-Version:Content-Type;
+	b=ok1zNpCpCvwjrr/laurBpWS2mpJjrMnZt0GjgRtouAG/wmo2ttPIUu6lrc/G0N0pL
+	 /C53u7sgOa+rHvOXncQDeUK4Gp8lHxYFDt8J1v3247pLCbzxgmUOfoAl9/saYQibY7
+	 0FoE2Hm/lhL9wutHkNueVD62HfCFaho10n6i3qqI
+Received: from maillist-a 
+	by domain.com with local (PHPMailer);
+	Mon, 15 Jul 2015 18:10:37 +0000
+Date: Mon, 15 Jul 2015 18:10:37 +0000
+To: John user <user@domain.com>
+From: Cheri Bustos <admin@cheribustos.com>
+Reply-to: user@domain.com
+Subject: John, what would you do with $1,000?
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 2405c872847de551
+X-rpcampaign: rp_178556
+X-CampaignID: xgreenarrow:AQZVVmpVVwNWBg
+X-maillist-guid: AQZVVmpWUgRQUAgCA10HVgdcBQcFPg9cClccE1lQUBcRBHZSDgUPWEtQX1g
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_bea3f8c3825d03dcada0a16e56bc2107"
+
+John --
+
+What does $1,000 mean to you?
+
+For many young Americans, $1,000 is the difference between making ends 
+meet and falling behind.
+
+For young adults paying off expensive student loans, that's the difference 
+between being able to pay for rent or food -- or defaulting on payments. 
+That extra $1000 a year could easily plunge them even deeper into debt.
+
+Thanks to Congress' inaction on July 1st, student loan rates doubled from 
+3.4% to 6.8%. Now, many college students will have to pay an extra $1,000 
+a year in interest. That's just irresponsible.
+
+Millions of Americans will be affected by this and Congress needs to hear 
+their stories. If you have a student loan story, share it with us--tell us 
+what $1,000 means to you.
+
+Share your student loan story to tell Congress to stop the student loan 
+rate hike >>
+<<link>>
+
+Student loan rates should be kept low so that every young American has the 
+opportunity to improve their future. College graduates deserve to find 
+good-paying jobs so they can support their families and give back to their 
+communities. That's what America needs, not more debt.
+
+Add your story now to tell Congress what $1,000 means to you and to act on 
+student loans >>
+<<link>>
+
+Thank you for taking action and sharing your story!
+
+Cheri
+
+This message was emailed to: user@domain.com
+
+To unsubscribe from this email list, please paste this URL into your 
+browser:
+<<link>>
+
+Paid for by the Friends of Cheri Bustos
+

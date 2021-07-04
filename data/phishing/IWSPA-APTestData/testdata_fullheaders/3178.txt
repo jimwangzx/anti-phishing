@@ -1,0 +1,427 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp703383lfb;
+        Thu, 17 Dec 2015 17:10:14 -0800 (PST)
+X-Received: by 10.31.139.84 with SMTP id n81mr563878vkd.78.1450401014386;
+        Thu, 17 Dec 2015 17:10:14 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [12.130.136.26])
+        by domain.com with ESMTP id 17si11920728vki.29.2015.12.17.17.10.14
+        for <user@domain.com>;
+        Thu, 17 Dec 2015 17:10:14 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 12.130.136.26 as permitted sender) client-ip=12.130.136.26;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 12.130.136.26 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=hotwire; d=domain.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From: "Hotwire Deals" <Hotwire@e.Hotwire.com>
+ bh=G4dbag2HIvoTTXMGUlCidyWO4YQ=;
+ b=kXSU1tLMI6Uh6XNyPk2Zncn9IZJDvVJIDbyT0SY3vf8ZDLDLeJkbz4kvnhPqn7yG45YhJtBpyaLi
+   QICuibryJLfxNVJqFZuS4o2SWlP+2izTNfju/mK8RFU7ZCc6UUSmKjQqwIorSJHIBpcyGNkfD2aw
+   eo9fwsWA55C6N7MOESM
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=oraclersys; d=domain.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From: "Hotwire Deals" <Hotwire@e.Hotwire.com>
+ bh=G4dbag2HIvoTTXMGUlCidyWO4YQ=;
+ b=G6a2UClSTGlv8BsbaHru7gYnAKpXjRJmm9a1wRfCzxBFesGXXCK5lG7JtaymI40tSWdI3+MWLem6
+   RS2t9PCCRcXVEZrTCKZehocWiorjxibJSgPZbevEQCaYKCVfoyuUYBotpXO8dQLimMQ3bEWvTuTj
+   k83YNgAX+A7dhs8aOBM
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=hotwire; d=domain.com;
+ b=TkyxJ404lutP+LTZ8souZmZXRmWmAw0mdJgix3ImTj5ng+OF8iQqBB6bmBn3e+UfAPCe6DJAAJtu
+   ++zdaED1ixEU6p23mwxYxcd0ofaub3U1ge9bBGndmT/LIR+zXZ/SWlOcC4mNxxugGcvBHbOFtcWJ
+   14USA9no1KiXyWK0MJQ=;
+Received: by domain.com id hedefc16230p for <user@domain.com>; Thu, 17 Dec 2015 16:47:58 -0800 (envelope-from <user@domain.com>)
+X-CSA-Complaints: user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=oraclersys; d=domain.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From: "Hotwire Deals" <Hotwire@e.Hotwire.com>
+ bh=G4dbag2HIvoTTXMGUlCidyWO4YQ=;
+ b=G6a2UClSTGlv8BsbaHru7gYnAKpXjRJmm9a1wRfCzxBFesGXXCK5lG7JtaymI40tSWdI3+MWLem6
+   RS2t9PCCRcXVEZrTCKZehocWiorjxibJSgPZbevEQCaYKCVfoyuUYBotpXO8dQLimMQ3bEWvTuTj
+   k83YNgAX+A7dhs8aOBM
+Received: by domain.com id hedbrs16230o for <user@domain.com>; Thu, 17 Dec 2015 16:36:47 -0800 (envelope-from <user@domain.com>)
+X-CSA-Complaints: user@domain.com
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Thu, 17 Dec 2015 16:36:47 -0800
+To: user@domain.com
+From: "Hotwire Deals" <Hotwire@e.Hotwire.com>
+Reply-To: "User" <user@domain.com>
+Subject: Deals for every leg for your trip!
+Feedback-ID: 1343:1174845:oraclersys
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com?subject=List-Unsubscribe>
+X-sgxh1: rhogQihKLklHxnuHptQJhu
+X-rext: 5.interact2.EhRHcG80K_dB21x-v4q9AGLXiVxO6Z7z5SSpJ0rbhx3LdQbC9Es
+X-cid: hwire.11221485
+Message-ID: <0.1.26.357.1user@domain.com>
+
+<=21DOCTYPE html PUBLIC =22-//W3C//DTD XHTML 1=2E0 Transitional//EN=22 =22h
+ttp://www=2Ew3=2Eorg/TR/xhtml1/DTD/xhtml1-transitional=2Edtd=22>
+
+Hotwire
+
+    table th =7B margin:0 =21important; padding:0 =21important; vertical-al
+ign:top =21important; font-weight: normal =21important; =7D
+    body=7B padding:0; margin:0; width:100%; margin-left:0px =21important; 
+margin-right:0px =21important; =7D
+    html =7B -domain.com-text-size-adjust:none; =7D
+    v=5C:* =7B behavior: url(=23default=23VML); display:block;=7D
+    =2EExternalClass * =7B line-height: 100%; =7D
+
+    html =7B -domain.com-text-size-adjust:none; -ms-text-size-adjust:none; =7D
+    body =7B margin:0; padding:0; =7D
+
+    =2EReadMsgBody =7B width: 100%; =7D
+    =2EExternalClass =7B width: 100%; =7D
+    =2EExternalClass *=7Bline-height:100%; =7D
+
+    =40media screen and (max-width: 620px) =7B
+    /* general */
+    *=5Bclass=5D=2Eblock =7Bdisplay:block =21important;=7D
+    *=5Bclass=5D=2Eblockhead =7Bdisplay: table-header-group =21important; 
+=7D
+    *=5Bclass=5D=2Eblockfoot =7Bdisplay: table-footer-group =21important; 
+=7D
+    *=5Bclass=5D=2Ehide =7Bdisplay:none =21important;=7D
+    *=5Bclass=5D=2Eshow =7Bdisplay: block =21important; width: auto =21impo
+rtant; overflow: visible =21important; float: none =21important; max-height
+: domain.com =21important; line-height: domain.com =21important;=7D
+    *=5Bclass=5D=2Ecentertable =7Bmargin:0 auto =21important;=7D
+    *=5Bclass=5D=2Ealigncenter =7Btext-align:center =21important;=7D
+    *=5Bclass=5D=2Ealignleft =7Btext-align:left =21important;=7D
+	*=5Bclass=5D=2Ealignright =7Btext-align:right =21important;=7D
+    *=5Bclass=5D=2Ewidth320 =7Bwidth:320px =21important;=7D
+    *=5Bclass=5D=2Emin320 =7Bmin-width:320px =21important;=7D
+    *=5Bclass=5D=2Ehauto   =7Bheight:auto =21important;=7D
+
+    /* mod 1=2E1 */
+    *=5Bclass=5D=2Ewidth15 =7Bwidth:15px =21important; =7D
+    *=5Bclass=5D=2Ewidth45 =7Bwidth:45px =21important; =7D
+    *=5Bclass=5D=2Ewidth55 =7Bwidth:55px =21important; =7D
+    *=5Bclass=5D=2Ewidth61 =7Bwidth:61px =21important; =7D
+    *=5Bclass=5D=2Ewidth125 =7Bwidth:125px =21important; =7D
+    *=5Bclass=5D=2Ewidth144 =7Bwidth:144px =21important; =7D
+    *=5Bclass=5D=2Emin320 =7Bmin-width:320px =21important; =7D
+
+    /* mod 1=2E2 */
+    *=5Bclass=5D=2Epl1 =7Bpadding-left:1px =21important; =7D
+    *=5Bclass=5D=2Epr48 =7Bpadding-right:48px =21important; =7D
+    *=5Bclass=5D=2Eplr15 =7Bpadding-left:15px =21important; padding-right:1
+5px =21important; =7D
+    *=5Bclass=5D=2Ewidth148 =7Bwidth:148px =21important; =7D
+    *=5Bclass=5D=2Ewidth162 =7Bwidth:162px =21important; =7D
+    *=5Bclass=5D=2Eline2 =7Bline-height:2px =21important; =7D
+    *=5Bclass=5D=2Eline6 =7Bline-height:6px =21important; =7D
+    *=5Bclass=5D=2Efont10 =7Bfont-size:10px =21important; =7D
+
+    /* body */
+    *=5Bclass=5D=2Ebgswap =7Bbackground: url('<<link>>
+=2Enet/i2/responsysimages/content/hwire/bg_m=2Ejpg') =21important; width: 3
+20px =21important; height: 1425px =21important ;=7D
+    *=5Bclass=5D=2Efont40 =7Bfont-size:40px =21important; =7D
+    *=5Bclass=5D=2Eline4 =7Bline-height:4px =21important; =7D
+    *=5Bclass=5D=2Eline28 =7Bline-height:28px =21important; =7D
+    *=5Bclass=5D=2Eline33 =7Bline-height:33px =21important; =7D
+    *=5Bclass=5D=2Eline42 =7Bline-height:42px =21important; =7D
+    *=5Bclass=5D=2Eline45 =7Bline-height:45px =21important; =7D
+    *=5Bclass=5D=2Eheight30 =7Bheight:30px =21important; =7D
+    *=5Bclass=5D=2Ewidth46 =7Bwidth:46px =21important; =7D
+    *=5Bclass=5D=2Ewidth251 =7Bwidth:251px =21important; =7D
+    *=5Bclass=5D=2Ewidth306 =7Bwidth:306px =21important; =7D
+=7D
+
+<=21--=5Bif gte mso 9=5D>
+
+    =2Elhfix =7Bmso-line-height-rule: exactly;=7D
+    =2Eml4 =7Bmargin-left:4px;=7D
+    =2Eml8 =7Bmargin-left:8px;=7D
+    =2Eml10 =7Bmargin-left:10px;=7D
+    div =7Bmso-line-height-rule: 100%;=7D
+
+<=21=5Bendif=5D-->
+
+<=21-- module 1=2E1 -->
+
+
+
+
+                &nb;
+sp;
+
+
+
+                    Get the deals you want this year=2E
+
+
+
+                &nb;
+sp;
+
+
+
+Hotels
+
+
+
+Cars
+
+
+
+Flights
+
+
+
+Vacations
+
+
+
+                &n;
+bsp;
+
+
+
+<=21-- /module 1=2E1 -->
+
+<=21-- content -->
+
+
+
+
+                <=21--=5Bif gte mso 9=5D>
+
+
+
+                <=21=5Bendif=5D-->
+
+
+
+Make your trav
+el list and check it twice=2E
+
+
+
+Room
+
+
+
+                            <=21--=5Bif =21mso=5D><=21-->
+
+
+
+at a great hotel
+
+
+
+                            <=21--<=21=5Bendif=5D-->
+
+
+
+at a great hotel
+
+
+
+                            <=21-- cta -->
+
+
+
+Find a hotel
+
+
+
+                            <=21-- /cta -->
+
+
+
+                    <=21--=5Bif =21mso=5D><=21-->
+
+
+
+                        <=21-- cta -->
+
+
+
+Find a hotel
+
+
+
+                        <=21-- /cta -->
+
+
+
+                    <=21--<=21=5Bendif=5D-->
+
+
+
+Car
+
+
+
+                            <=21--=5Bif =21mso=5D><=21-->
+
+
+
+to take on the road
+
+
+
+                            <=21--<=21=5Bendif=5D-->
+
+
+
+to take
+
+
+
+on the road
+
+
+
+                            <=21-- cta -->
+
+
+
+Find a car
+
+
+
+                            <=21-- /cta -->
+
+
+
+                    <=21--=5Bif =21mso=5D><=21-->
+
+
+
+                        <=21-- cta -->
+
+
+
+Find a car
+
+
+
+                        <=21-- /cta -->
+
+
+
+                    <=21--<=21=5Bendif=5D-->
+
+
+
+Flight
+
+
+
+                            <=21--=5Bif =21mso=5D><=21-->
+
+
+
+to your destination
+
+
+
+                            <=21--<=21=5Bendif=5D-->
+
+
+
+to your
+
+
+
+destination
+
+
+
+                            <=21-- cta -->
+
+
+
+Find a flight
+
+
+
+                            <=21-- /cta -->
+
+
+
+                    <=21--=5Bif =21mso=5D><=21-->
+
+
+
+                        <=21-- cta -->
+
+
+
+Find a flight
+
+
+
+                        <=21-- /cta -->
+
+
+
+                    <=21--<=21=5Bendif=5D-->
+
+
+
+                <=21--=5Bif gte mso 9=5D>
+
+
+
+                <=21=5Bendif=5D-->
+
+
+
+<=21-- /content -->
+
+<=21-- module 1=2E2 -->
+
+
+
+
+                &n;
+bsp;
+
+
+
+                                    Download the free app
+
+
+
+                                    Connect with us
+
+
+
+Customer Care         &nbs;
+p;      
+                            Terms of Use          
+;      
+                            Update Zip Code     &
+nbsp;     
+                            Privacy Policy  
+
+
+
+                            Unsubscribe
+
+
+
+                            This commercial message is from Hotwire, Inc=2E
+ Please do not reply to this message, as we cannot respond to messages sent
+ to this address=2E You may reach Hotwire at Contact Us or via postal mail at: Hotwire, PO Box 26285, San Francisco, CA 94126
+                            © 2015 Hotwire, Inc=2E All rights reserved
+=2E Hotwire, the Hotwire logo, Hot Fare, and Hot Rate are either registered
+ trademarks or trademarks of Hotwire, Inc=2E Other product and company name
+s shown may be trademarks of their respective owners=2E
+                            CST 2053390-40; NST 20003-0209=2E
+
+
+
+                    (NID: N-PC-121715) (VID: V-P
+C-121715-V1) (HWID: 2389661922) (MD: 12/17/2015)
+
+
+
+<=21-- /module 1=2E2 -->

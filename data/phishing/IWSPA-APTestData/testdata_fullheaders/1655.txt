@@ -1,0 +1,302 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 18 Jun 2015 09:23:03 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id ACA2C60391	for
+ <user@domain.com>; Thu, 18 Jun 2015 07:58:28 +0100 (BST)
+Received: by domain.com (Postfix)	id 44ECF4440BA4; Thu, 18 Jun 2015 
+ 09:21:51 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 442614440B81	for
+ <user@domain.com>; Thu, 18 Jun 2015 09:21:51 +0200 (CEST)
+X-ASG-Debug-ID: 1434612181-066a754c8922af0001-Aet2rw
+Received: from domain.com
+ (domain.com [67.216.225.172]) by domain.com
+ with ESMTP id tq4oe8UyloPPuDvm for <user@domain.com>; Thu, 18 Jun
+ 2015 09:23:02 +0200 (CEST)
+X-Barracuda-Envelope-From: "Parallels, Inc." <announce@parallels-universe.com>
+X-Barracuda-IPDD: Level1 [domain.com/67.216.225.172]
+X-Barracuda-Apparent-Source-IP: 67.216.225.172
+X-MSFBL: YS5jYXBhbGRvQGhhY2tpbmd0ZWFtLml0QG9yYW5nZWdyb3ZlQGRlZmF1bHRAYm91
+	bmNlLXVzZT1NPTMwMzY5NjcxMzYxPWVjaG80PTE2OTU5REM3MjU2Qjk4MkVDMkQx
+	MDMzNTkyMjcwRTE1
+DKIM-Signature: v=1; a=rsa-sha256; d=parallels-domain.com; s=s1024-1.bh; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1434612181;
+	h=From: "Parallels, Inc." <announce@parallels-universe.com>
+	bh=F7akCnJo71ZuMSLgOK8Sr1+TfEWDdnP3OmpXqg73rec=;
+	b=cKlc3s0qBGlOasHdDZj2A+/2H9ReG5OWkn9kJ1305XpkjFwOKRMztzLxTTrBWPUf
+	O9u2VkxjjRmCI2cPPKPCGEpvPBXdDeZMrKGFWapU6pzhjQGCy+bQSPg07wlxcax4
+	BasNrXrDqwSyMfYMUjjA1WFeBcWNKjdFB6vvLk72WAU=;
+Received: from [10.46.3.11] ([10.46.3.11:20549] helo=localhost.localdomain)	by
+ domain.com (envelope-from
+ <user@domain.com>)
+	(ecelerity 3.5.3.37097 r(Platform:3.5.3.0)) with ESMTP	id
+ AD/AE-62497-5D172855; Thu, 18 Jun 2015 00:23:01 -0700
+Message-ID: <user@domain.com>
+Date: Thu, 18 Jun 2015 00:10:01 -0700
+From: "Parallels, Inc." <announce@parallels-universe.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+X-Outgoing: orangegrove
+Subject: =?UTF-8?B?RXNlZ3VpIGwnYWdnaW9ybmFtZW50byBhIFBhcmFsbGVscyBEZXNrdG9wIDEwIGNvbiBpbCAyMCUgZGkgc2NvbnRvOiDDqCBpbCBub3N0cm8gcmVnYWxvIGRpIGNvbXBsZWFubm8gIA==?
+List-Unsubscribe: <mailto:user@domain.com>
+X-ASG-Orig-Subj: =?UTF-8?B?RXNlZ3VpIGwnYWdnaW9ybmFtZW50byBhIFBhcmFsbGVscyBEZXNrdG9wIDEwIGNvbiBpbCAyMCUgZGkgc2NvbnRvOiDDqCBpbCBub3N0cm8gcmVnYWxvIGRpIGNvbXBsZWFubm8gIA==?
+X-Base64-Encode: Subject
+X-Barracuda-Connect: domain.com[67.216.225.172]
+X-Barracuda-Start-Time: 1434612181
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_SC0_COMMENT_TEXT_1K, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.19947
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 BSF_SC0_COMMENT_TEXT_1K Custom Rule BSF_SC0_COMMENT_TEXT_1K
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-705965116_-_-"
+
+/*  - - - - MOBILE FRIENDLY + MISC FIXES*/
+body, td {
+	-domain.com-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:100%;
+
+
+
+}
+table {
+	border-collapse: collapse;
+}
+
+.appleLinks a {color:#ffffff; text-decoration: none;}
+.appleLinksWhite a {color:#ffffff; text-decoration: none;}
+
+
+
+@media screen and (max-width: 480px), screen and (max-device-width: 480px) {
+
+body[id=parallels] .mobile320 {
+	width:320px !important;
+	margin:0px auto !important;
+	padding:0px !important;
+	background-color:#ffffff;
+}
+
+body[id=parallels] .mobileoff {
+	display:none !important;
+	width:0 !important;
+}
+
+body[id=parallels] .snippet {
+	margin:0 auto !important;
+	padding:5px 5px 0px 5px !important;
+	padding-bottom: 0px;
+	line-height:100%;
+	width:320px !important;
+	background-color:#ffffff !important;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px !important;
+	line-height:16px !important;
+}
+body[id=parallels] .hero {
+	width:320px !important;
+	padding:11px 0px !important;
+	margin:0px !important;
+}
+body[id=parallels] .hero img {
+	width:320px !important;
+	height:auto !important;
+	border:0 !important;
+	margin:0px;
+	padding:0px;
+}
+
+body[id=parallels] .expiressoon {
+	width: 320px !important;
+	margin: 0px !important;
+	color: #ffffff !important;
+	background-color: #555354 !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px !important;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+}
+
+body[id=parallels] .content {
+	width: 320px !important;
+	margin: 0px !important;
+	color: #666666 !important;
+	background-color: #ffffff !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px !important;
+	line-height: 24px !important;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+body[id=parallels] .valuediscount {
+	width: 320px !important;
+	margin: 0px !important;
+	color: #706e70 !important;
+	background-color: #ffffff !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px !important;
+	line-height: 24px !important;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+body[id=parallels] .quote {
+	width: 320px !important;
+	margin: 0px !important;
+	color: #666666 !important;
+	background-color: #ffffff !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px !important;
+	line-height: 16px !important;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+body[id=parallels] .cellcontent {
+	width:320px !important;
+	padding:0px !important;
+	margin:0px !important;
+	color:#666666 !important;
+	background-color:#ffffff !important;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px !important;
+	line-height:24px !important;
+}
+
+body[id=parallels] .social {
+	margin:0 auto !important;
+	padding:11px !important;
+	width:320px !important;
+	color:#ffffff !important;
+	background-color:#555354 !important;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px !important;
+	line-height:16px !important;
+}
+
+body[id=parallels] .logoinfooter {
+	margin:0 auto !important;
+	padding-bottom:10px;
+	width:320px !important;
+	background-color:#555354 !important;
+
+
+
+}
+
+body[id=parallels] .footer {
+	margin:0 auto !important;
+	padding:11px !important;
+	width:320px !important;
+	color:#666666 !important;
+	background-color:#efefef !important;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px !important;
+	line-height:16px !important;
+}
+
+/*SAMPLE STARTING STYLE*/
+body[id=parallels] .xxxx {
+	margin:0 auto !important;
+	padding:0px 0px 0px 0px !important;
+	width:320px !important;
+}
+
+         table[class=devicewidthinner] {width: 320px!important;text-align:center!important;}
+
+
+
+
+      Esegui l'aggiornamento a Parallels Desktop 10 con il 20% di sconto: è il nostro regalo di compleanno Per visualizzare
+questo messaggio sul Web, fai clic qui
+
+
+
+Completamente ottimizzato e
+potenziato per OS X® Yosemite. Utilizza
+le straordinarie nuove funzioni di Yosemite in Windows®.
+
+
+
+    Prestazioni eccezionali: fino al 50%
+più veloce con 30% in più di durata della batteria.
+
+
+
+    Le macchine virtuali usano il 10% in meno di memoria e consentono di ottenere il massimo dal tuo Mac®.
+
+
+
+    Apri documenti Windows più velocemente del
+48%!
+
+
+
+"...Questa versione del software è decisamente superiore e offre molto di più di nuove
+funzioni: miglioramenti e innovazioni basate sulla formula affidabile ed efficiente delle precedenti release". 
+          Stephen Hall, 9to5Mac
+
+
+
+Valore 49,99€
+
+ Sconto del 20%
+
+ Risparmi 10€
+
+
+
+Acquista ora 49,99€
+39,99€ 
+
+
+
+      Affrettati! Offerta valida solo fino
+al 23 giugno.
+
+
+
+Domande su Parallels Desktop? Segui il Supporto Parallels su Twitter: @ParallelsCares 
+
+      I prezzi possono variare a seconda del paese. L'offerta scade il 23 giugno 2015 alle 23:59 CET.
+
+
+
+      © 2015 Parallels IP Holdings GmbH. Tutti i diritti riservati. Parallels e il logo Parallels sono marchi registrati di Parallels IP
+Holdings GmbH. Altri nomi di prodotto e società menzionati sono marchi o marchi registrati dei rispettivi proprietari.
+      Hai ricevuto questa notifica di aggiornamento perché i nostri dati indicano che sei un cliente Parallels Desktop per Mac registrato.
+                    Questo messaggio è stato inviato a: user@domain.com Per aggiornare le opzioni della tua iscrizione, clicca qui. Usa questo link per annullare l'iscrizione.                    
+                    Parallels
+                      31 Rue de Chateaudun
+                    75009 Paris, FR
+      Contratto di licenza | Norme sull'utilizzo | Norme sulla privacy
+
+

@@ -1,0 +1,46 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP id EDD39536E90
+	for <user@domain.com>; Sat, 30 Apr 2015 12:35:35 -0400 (EDT)
+Received: from p6.ich-3.com (unknown [67.19.105.42])
+	by domain.com (Postfix) with ESMTP id C1FB985AD8B
+	for <user@domain.com>; Sat, 30 Apr 2015 12:35:35 -0400 (EDT)
+Received: from netshare by p6.ich-3.com with local (Exim 4.43)
+	id 1DRuwI-0008KT-6O
+	for user@domain.com; Sat, 30 Apr 2015 11:35:34 -0500
+To: user@domain.com
+Subject: PayPal Flagged Account
+From: PayPal <service@paypal.com>
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <user@domain.com>
+Date: Sat, 30 Apr 2015 11:35:34 -0500
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - p6.ich-3.com
+X-AntiAbuse: Original Domain - domain.com
+X-AntiAbuse: Originator/Caller UID/GID - [32627 32628] / [47 12]
+X-AntiAbuse: Sender Address Domain - p6.ich-3.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 304
+
+Dear PayPal Member,
+
+Your account has been randomly flagged in our system as a part of our routine security measures. 
+This is a must to ensure that only you have access and use of your PayPal account and to ensure a safe PayPal experience. We require all flagged accounts to verify their information on file with us. To verify your Information at this time, please domain.com our secure server webform by clicking the hyperlink below:
+
+ Thank you for using PayPal!
+
+The PayPal Team
+
+Please do not reply to this e-mail. Mail sent
+to this address cannot be answered. For assistance, log
+in

@@ -1,0 +1,57 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp305718lfr;
+        Thu, 20 Aug 2015 15:28:58 -0700 (PDT)
+X-Received: by 10.55.209.25 with SMTP id s25mr10341979qki.84.1440109738183;
+        Thu, 20 Aug 2015 15:28:58 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::236])
+        by domain.com with ESMTPS id 65si9620007qgk.24.2015.08.20.15.28.57
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 20 Aug 2015 15:28:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::236 as permitted sender) client-ip=2607:f8b0:400d:c04::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-domain.com with SMTP id d69so36724740qge.0
+        for <user@domain.com>; Thu, 20 Aug 2015 15:28:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=subject:references:From: cosgrovetc@gmail.com
+         :content-transfer-encoding:mime-version;
+        bh=k/+NfyTETJKOWf5rFbe3liQEXDAqjR046iZeL+iRknA=;
+        b=c0WyoaE/8zsXUZAlVKeLodU+DpXgegX37KxWzyBW5fHgQC/MT/fupinTJYZ3TQhUNw
+         ChslwSivFeOTxU5Exk2ycaVwPDb0pI0yM2l9wN/XLd215HuS6+6STtJnj7OYK5vsq2pR
+         v8nG4DFk2nk2PZYnQXJrczNyo7tlPBm8VF8uk87Xh2JyyRI3Xdv3v3sIBZzIetlX6MfX
+         v1aHQrSZYsnsOOFClTbJ+ScyoKo/vjbtyK/uarGIYm/scNazLG4ZnK1Hr07EhoMysyZL
+         FwG1XNcEXVpmhGNY3iQ8H1lJvt0SSdHDmiQwJyXdUQw0pQkIXB5amikaL3Q/S7gVOHSD
+         y3zg
+X-Received: by 10.140.234.133 with SMTP id f127mr10879909qhc.69.1440109737519;
+        Thu, 20 Aug 2015 15:28:57 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [10.0.0.245] (c-50-133-222-255.domain.com. [50.133.222.255])
+        by smtp.gmail.com with ESMTPSA id o199sm3096824qhb.25.2015.08.20.15.28.56
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 20 Aug 2015 15:28:56 -0700 (PDT)
+Subject: Re: An idea I think can help HRC. It is worth three minutes of your time
+References: <CA+Q+7user@domain.com> <user@domain.com>
+From: cosgrovetc@gmail.com
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-5B0C9F80-4E88-4D41-83C4-BA9C189C9550
+X-Mailer: iPhone Mail (12H321)
+In-Reply-To: <user@domain.com>
+Message-Id: <user@domain.com>
+Date: Thu, 20 Aug 2015 18:28:55 -0400
+To: John user <user@domain.com>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+
+We moderate with a journalist, people have to register with full name , emai
+l and phone to participate and we can eliminate and then block trolls.
+
+I can explain better if we talk
+
+Sent from my iPhone
+

@@ -1,0 +1,140 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Fri, 17 Jan 2015 14:59:18 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0HMxFTT031608;	Fri, 17 Jan 2015 22:59:15 GMT
+Received: from mail216-db9-domain.com
+ (mail-domain.com [213.199.154.241])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0HMxCKl021711	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL);	Fri, 17 Jan 2015 22:59:13 GMT
+Received: from mail216-db9 (localhost [127.0.0.1])	by
+ mail216-db9-domain.com (Postfix) with ESMTP id 0DDF83E01DD;	Fri, 17 Jan
+ 2015 22:59:12 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:208.185.194.154;KIP:(null);UIP:(null);IPV:NLI;H:DVS-domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 10
+X-BigFish: vps10(z551bizbb2dI9371Izz1f42h2148h208ch1ee6h1de0hdcah1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1fc6h1649m1082kzdch70kz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h1de096h186068hz2fh2a8h839h944h950h10d2h1288h12a5h12bdh137ah13b6h13eah1441h1537h153bh162dh1631h16a6h1758h18e1h1946h19b5h1b0ah224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h2216h22d0h2336h2438h2461h2487h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail216-db9: domain of mediamaxonline.com designates 208.185.194.154 as permitted sender) client-ip=208.185.194.154; user@domain.com; helo=DVS-domain.com ;domain.com ;
+Received: from mail216-db9 (localhost.localdomain [127.0.0.1]) by mail216-db9
+ (MessageSwitch) id 1389999550532641_658; Fri, 17 Jan 2015 22:59:10 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.16.243])	by
+ mail216-domain.com (Postfix) with ESMTP id 4376D260047;	Fri, 17 Jan 2015 
+ 22:59:10 +0000 (UTC)
+Received: from DVS-domain.com (208.185.194.154) by
+ domain.com (10.174.14.13) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Fri, 17 Jan 2015 22:59:09 +0000
+Received: from DVS-domain.com (192.168.20.150) by
+ DVS-domain.com (192.168.20.150) with Microsoft SMTP Server (TLS) id
+ 15.0.620.29; Fri, 17 Jan 2015 14:59:00 -0800
+Received: from domain.com (192.168.62.103) by DVS-domain.com
+ (192.168.20.150) with Microsoft SMTP Server id 15.0.620.29 via Frontend
+ Transport; Fri, 17 Jan 2015 14:59:00 -0800
+Received: from mail pickup service by domain.com with Microsoft SMTPSVC;
+	 Fri, 17 Jan 2015 14:59:00 -0800
+From: Christina Gizoni <info@mediamaxonline.com>
+To: <user@domain.com>, <user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>
+CC: <user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>, <user@domain.com>,
+	<user@domain.com>
+Reply-To: Christina Gizoni <user@domain.com>
+Date: Fri, 17 Jan 2015 14:58:59 -0800
+Subject: THE MONUMENTS MEN - A First Look on ET and Bob Balaban on GOOD DAY LA
+Message-ID: <user@domain.com>
+X-OriginalArrivalTime: 17 Jan 2015 22:59:00.0115 (UTC) FILETIME=[B5825E30:01CF13D7]
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+THE MONUMENTS MEN - A First Look on ET and Bob Balaban on GOOD DAY LA
+
+
+
+
+Below please find a First Look at THE MONUMENTS MEN EPK from ENTERTAINMENT TONIGHT, an interview with Bob Balaban on GOOD DAY LA on behalf of THE MONUMENTS MEN, and an interview with Cate Blachett on GOOD MORNING AMERICA which mentions THE MONUMENTS MEN. If you would like a DVD copy of any broadcast breaks, please email user@domain.com        
+
+The Monuments Men
+
+Release Date: 2/7/14 Total Media Value:  $430,325
+
+Total Impression:  9,820,971
+
+  _____  
+
+Broadcast
+
+
+
+
+<<link>>                Entertainment Tonight (Syndicated)
+
+Wednesday, January 15, 2015 04:37 PM - Syndicated
+
+Media Value: $347,976  Impressions: 4,687,333
+
+Film Packages [00:04:08]
+
+Behind the scenes of The Monuments Men
+
+Play video       
+
+  _____  
+
+<<link>>                Good Day LA
+
+Friday, January 17, 2015 08:50 AM - KTTV
+
+Media Value: $6,448  Impressions: 54,194
+
+Broadcast Appearances [00:07:33]
+
+In-studio interview with Bob Balaban of The Monuments Men
+
+Play video       
+
+  _____  
+
+<<link>>                Good Morning America
+
+Friday, January 17, 2015 05:13 AM - Network Owned - ABC
+
+Media Value: $75,901  Impressions: 5,079,444
+
+Film Mentions [00:01:09]
+
+The Monuments Men star Cate Blanchett is having a busy award season
+
+Play video       
+
+Material supplied by Daily Buzz, LLC to you may be used for non-commercial and internal review, analysis and research purposes only. Any editing, reproduction, modification, publication, rebroadcasting, public display or public distribution is forbidden and may violate U.S. and international copyright laws. This material may include printed 
+

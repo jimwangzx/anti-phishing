@@ -1,0 +1,109 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp211315lfi;
+        Fri, 5 Jun 2015 13:19:10 -0700 (PDT)
+X-Received: by 10.70.18.130 with SMTP id w2mr8625231pdd.73.1433535550149;
+        Fri, 05 Jun 2015 13:19:10 -0700 (PDT)
+Return-Path: <3user@domain.com>
+Received: from mail-pa0-domain.com (mail-pa0-domain.com. [2607:f8b0:400e:c03::249])
+        by domain.com with ESMTPS id nx10si537061pdb.51.2015.06.05.13.19.09
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 13:19:10 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400e:c03::249 as permitted sender) client-ip=2607:f8b0:400e:c03::249;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400e:c03::249 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pa0-domain.com with SMTP id li10so6113257pab.1
+        for <user@domain.com>; Fri, 05 Jun 2015 13:19:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: Robby Mook <re47@hillaryclinton.com>
+        bh=XwmdW83GGS5mwh5Et702oWakSHT9s0CLo0AHEj8HqYw=;
+        b=d5mNJI0ELF471LOoUbIjuhFSYOPt7QLtjsyFhY0Sqwqmf9baENEKcxWXwQQMzG5A1q
+         QFabTac4uGosE9YAsZjm0fgmtBL0O52I/oDpCmdjjPbPtbWr3BwC/Q94oxieRTiHjVt8
+         K8fPxui2PLzShZJaGlbpcussw3Ih7TA3uvndJ/Tmx+xtGAv/1k62/f7JQcyO9pIyEGQC
+         wt6gHOQZz9ZrW8Wr3oTGK5usLfLvbYYWCtXLs1GzCpETmi8/vNgZhN3Xfqg1AX3vz2SO
+         T5d6R7/fATbQTkNc1nK+ryljr+uivn/8Rh/fb8FlaKfL6VE8wGJGBpRQQVw/+Dft5lla
+         PdOw
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: Robby Mook <re47@hillaryclinton.com>
+        bh=XwmdW83GGS5mwh5Et702oWakSHT9s0CLo0AHEj8HqYw=;
+        b=eGjZPfPdpKdLPWJemNdt3BSTcMBS7rnZD0uI/cijzdkTtyrbPfBHyZEfRVvWVzi2M4
+         dI4N7qoIsaTLusqXbQDK187Lc0Dxk60+BBeP0YRMw9FKBR1cCJT2UKh7bZaLrwRea1d9
+         MXjVZiDJNu5EZUOELWS3BVRK8/+7jOSy6XHyc
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: Robby Mook <re47@hillaryclinton.com>
+        bh=XwmdW83GGS5mwh5Et702oWakSHT9s0CLo0AHEj8HqYw=;
+        b=Z8WnVmq1TEWLdIBLBlOC5ZfOzvB2IBCHjdryQYijxIzL/KtnZwGijYxio4EIjomPjx
+         ocTmS81g5jD+ltw+8jKSq+ytLIjZABRSh2zU8jIkNLV0HbFL/MEW7jvhj08YGUXUQkCw
+         t1FF5TTIMSnNnOPOH5JZKJZ0c7ZZrVINTbiHu07xpxlD8X6PTlmMNCR3o3BIbKIhF65X
+         RXa40eFTGKMpgmqZUEv/uug8fvVnHAdr7qQFryU8MvjA3TaI/ALNYYvojeWYwnHAv8pg
+         w7xi+gnT9w7Ug9ph2tPnY1nNMZhtenDsbjtoVWfoUN7VaN592YlHqMU2xbmWSCkDgeLv
+         cLqg
+X-Gm-Message-State: ALoCoQmLKFKnWtEmqOhK2POia0Z/BS4dPvdIU4vTBFazgmoEMnY3QhSG/R2D3qkxAOpd8R3/ZU6r
+MIME-Version: 1.0
+X-Received: by 10.67.22.102 with SMTP id hr6mr6068644pad.45.1433535549181;
+ Fri, 05 Jun 2015 13:19:09 -0700 (PDT)
+Reply-To: "User" <user@domain.com>
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <047user@domain.com>
+Date: Fri, 05 Jun 2015 20:19:09 +0000
+Subject: Invitation: Launch Speech Call @ Sun Jun 7, 2015 9pm - 10pm (user@domain.com)
+From: Robby Mook <re47@hillaryclinton.com>
+To: "User" <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Lissa Muscatine <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>
+Content-Type: multipart/mixed; boundary=047d7b672fa02eaf870517cb01be
+
+You have been invited to the following event.
+
+Title: Launch Speech Call
+When: Sun Jun 7, 2015 9pm - 10pm Eastern Time
+Where: 718-441-3763
+Video call:  
+<<link>>  
+<<<link>>>
+Calendar: user@domain.com
+Who:
+     * Robby Mook - organizer
+     * Kate Offerdahl - creator
+     * Dan Schwerin
+     * user@domain.com
+     * user@domain.com
+     * Lissa Muscatine
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * Jennifer Palmieri
+     * Kristina Schake
+     * John user
+     * user@domain.com
+     * user@domain.com
+
+Event details:  
+<<link>>
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for invitations on calendar user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.

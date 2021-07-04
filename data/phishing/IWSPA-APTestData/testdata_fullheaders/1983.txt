@@ -1,0 +1,61 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp498959lfr;
+        Sat, 11 Jul 2015 09:59:06 -0700 (PDT)
+X-Received: by 10.129.15.215 with SMTP id 206mr28770508ywp.60.1436633945558;
+        Sat, 11 Jul 2015 09:59:05 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22a])
+        by domain.com with ESMTPS id x66si8295529ywb.70.2015.07.11.09.59.05
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 11 Jul 2015 09:59:05 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22a as permitted sender) client-ip=2607:f8b0:4002:c07::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id e186so85175029yke.2
+        for <user@domain.com>; Sat, 11 Jul 2015 09:59:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+         :cc:content-type;
+        bh=AsjW5WIm54Pj7P1Jk98XtsXITtVBIxWJvyjtxFhRQXU=;
+        b=Ra+qQdPsG1jINW+3OPVkoaQNF+Ir+xcsbJ+FL29DHzKHoZnQp9wmFTXKsXJUfSPjiC
+         6103DRsWk71hK0Nd2jStLoAyz2IkNeVSp+n+fQzegpndWcc6/SzUgOZfp6teQzeAEFJf
+         otjh/LWpE0iR5FsAsPytfs8R5UGUDwIr7+Q3Y
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+        bh=AsjW5WIm54Pj7P1Jk98XtsXITtVBIxWJvyjtxFhRQXU=;
+        b=gZv/x+ZBFcufe2Vc4zTvrwFoRrs9ne6GFnZr0FFJToZ+v4wAlGgrqhQqqdx3TKNmLv
+         sdtwKRTbeR28fL+Ukt1ZhQzVpHwN4oAx0WPC/e1bYrS0CDvj1i1zo1nocGfbxTT4NIcI
+         DwaSv1dbWXOVhl+gpem9b2wfFa/I+R1JNjH0leUZYtNHk8eyrCFZA/O3Gh5OUVoecIAm
+         M480xUVb2Yid9Lg774WOyWhG8XhdWmZQNIEz+mdD019Ub77Kfs3r1lBI5v3FG0ba34eQ
+         BMILqnYSd43P6rZp8QWBQ2iAWD9DD1m+gSpHfW5Q+pOdD7PiDUx+IG5U43Een+Ps2T1j
+         iWMw
+X-Gm-Message-State: ALoCoQkmQD3rWAwJ1iRcd6CCB0ksdhh0w9YoUvaYjtPObopSB1XVFAoFGRbSR7C8Zt+5WnV7g8zv
+MIME-Version: 1.0
+X-Received: by 10.170.135.75 with SMTP id b72mr29481180ykc.4.1436633944887;
+ Sat, 11 Jul 2015 09:59:04 -0700 (PDT)
+Received: by 10.129.71.193 with HTTP; Sat, 11 Jul 2015 09:59:04 -0700 (PDT)
+In-Reply-To: <1user@domain.com>
+References: <1user@domain.com>
+Date: Sat, 11 Jul 2015 12:59:04 -0400
+Message-ID: <user@domain.com>
+Subject: Re: Hill meetings
+From: Robby Mook <re47@hillaryclinton.com>
+To: H <user@domain.com>
+CC: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1139179ef5596b051a9c670c
+
+It's a good idea.
+John and I just conferred.  John, Amanda, and Huma are already scheduled to
+be there with you.  We thought we could add Marlon and Jake into the group
+(checking with them now).  If it's ok with you, I'd prefer that Dennis and
+me remain here because we're planning to do a bunch of work related to
+Priorities raising.
+FYI: our expectation is that only John will be allowed into the Senate
+caucus.
+

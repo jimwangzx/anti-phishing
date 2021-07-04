@@ -1,0 +1,109 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.3.4.5])
+	by domain.com (Postfix) with ESMTP id 57AE053715A
+	for <user@domain.com>; Sun, 11 Dec 2015 20:00:33 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 53EAB6FA475
+	for <user@domain.com>; Sun, 11 Dec 2015 20:00:23 -0500 (EST)
+Received: from adsl-64-171-253-130.domain.com (adsl-64-171-253-130.domain.com [64.171.253.130])
+	by domain.com (Postfix) with SMTP
+	for <user@domain.com>; Sun, 11 Dec 2015 20:00:21 -0500 (EST)
+Received: from 89.0.79.132 by 64.171.253.130; Mon, 12 Dec 2015 06:51:08 +0600
+Message-ID: <user@domain.com>
+From: "aw-confirm@eBay.com" <aw-confirm@eBay.com>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: TKO NOTICE: eBay Account Suspended
+Date: Sun, 11 Dec 2015 22:56:08 -0200
+X-Mailer: Microsoft Outlook, Build 10.0.2627
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--27850814275193816995"
+X-Priority: 1
+X-MSMail-Priority: High
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: *************************************
+X-Spam-Status: Yes, score=37.1 required=5.0 tests=FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,FORGED_OUTLOOK_TAGS,HELO_DYNAMIC_DHCP,
+	HELO_DYNAMIC_HCC,HELO_DYNAMIC_IPADDR,HTML_20_30,HTML_MESSAGE,
+	MIME_BOUND_DD_DIGITS,MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,
+	MISSING_MIMEOLE,MPART_ALT_DIFF,MSGID_SPAM_CAPS,RCVD_BY_IP,
+	RCVD_DOUBLE_IP_SPAM,RCVD_IN_BL_SPAMCOP_NET,RCVD_IN_DSBL,RCVD_IN_XBL 
+	autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  1.2 HELO_DYNAMIC_DHCP Relay HELO'd using suspicious hostname (DHCP)
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  3.7 HELO_DYNAMIC_HCC Relay HELO'd using suspicious hostname (HCC)
+	*  4.4 HELO_DYNAMIC_IPADDR Relay HELO'd using suspicious hostname (IP addr 1)
+	*  3.8 MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
+	*  0.1 RCVD_BY_IP Received by mail server with no name
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 HTML_20_30 BODY: Message is 20% to 30% HTML
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  3.8 RCVD_IN_DSBL RBL: Received via a relay in domain.com
+	*      [<<>>]
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [64.171.253.130 listed in sbl-domain.com]
+	*  4.1 RCVD_DOUBLE_IP_SPAM Bulk email fingerprint (double IP) found
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  0.1 FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 120
+
+Dear eBay user:
+
+We regret to inform you that your eBay account has been suspended due
+
+to concerns we have for the safety and integrity of the eBay community.
+
+Per the User Agreement, Section 9, we may immediately issue a warning,
+
+temporarily suspend, indefinitely suspend or terminate your membership
+
+and refuse to provide our services to you if we believe that your
+
+actions may cause financial loss or legal liability for you, our users or<
+br>
+us. We may also take these actions if we are unable to verify or
+
+authenticate any information you provide to us.
+
+To speed up this process, you are required to verify your personal informa
+tion
+
+against the account registration data we have on file by following the lin
+k
+below.
+
+<>
+n
+
+Due to the suspension of this account, please be advised you are
+
+prohibited from using eBay in any way. This includes the registering of a 
+new
+
+account.
+
+Please note that any seller fees due to eBay will immediately become
+
+due and payable. eBay will charge any amounts you have not previously
+
+disputed to the billing method currently on file.
+
+Regards,
+
+Safeharbor Department
+
+eBay, Inc.

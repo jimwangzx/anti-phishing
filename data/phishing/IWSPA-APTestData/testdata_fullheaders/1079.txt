@@ -1,0 +1,72 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp187725lfb;
+        Sun, 2 Nov 2015 18:11:27 -0800 (PST)
+X-Received: by 10.140.108.35 with SMTP id i32mr57705498qgf.66.1414980686377;
+        Sun, 02 Nov 2015 18:11:26 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mta-dock-front-12.domain.com (mta-dock-front-12.domain.com. [66.151.230.136])
+        by domain.com with ESMTP id y7si10341727qay.103.2014.11.02.18.11.25
+        for <user@domain.com>;
+        Sun, 02 Nov 2015 18:11:26 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.151.230.136 as permitted sender) client-ip=66.151.230.136;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 66.151.230.136 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (unknown [10.0.200.184])
+	by mta-dock-front-12.domain.com (Postfix) with ESMTP id 3jWHg15JYzz1S4sJ
+	for <user@domain.com>; Mon,  3 Nov 2015 02:11:25 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1414980685;
+	bh=dgfSiiClYNTHpNXkP3yVcKnULadHO0lEpU6YN6JM5LI=;
+	h=Date:To:From: Sean Patrick Maloney <info@seanmaloney.com>
+	b=R7kjx5IUGYI0LlR2P0u0cZY0MgDv7daJ0vS2845STl2uC28PyfFcV/kOTvIu7MbP4
+	 FWVIA/kh7a+nrYlyY54Jy892IRvyqHbQvv4opXZeV76vl0/RmGKNdy1tf7prDyPEN2
+	 vjacoCXdgwrW4lbHNHtWLCO403wMIC2/eTvhog94
+Received: from build 
+	by domain.com with local (PHPMailer);
+	Mon, 3 Nov 2015 02:11:25 +0000
+Date: Mon, 3 Nov 2015 02:11:25 +0000
+To: John user <user@domain.com>
+From: Sean Patrick Maloney <info@seanmaloney.com>
+Reply-to: user@domain.com
+Subject: following up re: field
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 564cd6712f0b41ba
+X-rpcampaign: rp_2076
+X-maillist-guid: CARaWg0BHz1QBQRWVVMEUFFfAFAABgdSa1NdC1gaRQsBAEVBAiQBWQRaXBtSCl5oVAwC
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_c2f2794cff8b7bd2fa3c18f26b668305"
+
+
+
+
+Hey -
+
+I know Chris reached out, but I wanted to follow up. We're still $6,213 
+from our fundraising goal with 79,586 voters left to talk to all over the 
+Hudson Valley. With the polls this close (one has us LITERALLY TIED), we 
+can't afford to have even ONE person stay home, and talking to them all 
+takes a lot of resources. Please give, or we will lose: 
+<<link>>
+1102-9pm-ld&amounts=3D250,500,1000,2500,2600
+
+Thanks,
+
+Sean
+
+--
+
+This email was sent to user@domain.com
+
+To unsubscribe from the Sean Patrick Maloney for Congress email list, 
+please click here:
+
+<<link>>
+.com
+
+Paid for by Sean Patrick Maloney for Congress
+

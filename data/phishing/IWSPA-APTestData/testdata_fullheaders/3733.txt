@@ -1,0 +1,67 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.1.2.3])
+	by domain.com (Postfix) with ESMTP id 9A4B8536EC0
+	for <user@domain.com>; Fri, 18 Nov 2015 08:01:36 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 6B3F96CCF24
+	for <user@domain.com>; Fri, 18 Nov 2015 08:01:35 -0500 (EST)
+Received: from telchar.epud.net (epud.net [12.33.21.247])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Fri, 18 Nov 2015 08:01:35 -0500 (EST)
+Received: by telchar.epud.net (Postfix, from userid 33)
+	id 393C929FA; Fri, 18 Nov 2015 04:55:44 -0800 (PST)
+To: user@domain.com
+Subject: Your Account Is Suspended
+From: Amazon.com <Amazon.com@epud.net>
+Reply-To: user@domain.com
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <20051118125544.393user@domain.com>
+Date: Fri, 18 Nov 2015 04:55:44 -0800 (PST)
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: 
+X-Spam-Status: No, score=0.4 required=5.0 tests=HOT_NASTY,HTML_FONT_FACE_BAD,
+	HTML_MESSAGE,HTML_TAG_EXIST_TBODY,MIME_HTML_ONLY autolearn=no 
+	version=3.0.2
+X-Spam-Report: 
+	*  0.1 HOT_NASTY BODY: Possible porn - Hot, Nasty, Wild, Young
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.0 HTML_FONT_FACE_BAD BODY: HTML font face is not a word
+	*  0.1 HTML_TAG_EXIST_TBODY BODY: HTML has "tbody" tag
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 10
+
+domain.com
+
+Dear Amazon member,
+
+We regret to inform you that your Amazon account was been suspended for a period of 3-4 days,after that it will be terminated.
+During our regularly schedule account maintenance and verification we have detected a slight error in your billing information on file with Amazon. 
+This might be due to either following reasons:
+
+- A recent change in your personal information (i.e. change of address)
+- Submitting invalid information during the initial sign up process.
+-An inability to accurately verify your selected option of payment due an internal error within processors.
+
+Your domain.com card on file with Amazon
+
+Card number: 
+                  XXXX-XXXX-XXXX-XXXX (Not shown for security 
+                purposes)
+
+Expiration date: XX/XX
+
+Please sign in to your Amazon account and update your billing information:
+
+<> 
+
+If your account information is not update, your account on Amazon will be terminated.
+
+Thank you for your time!
+Amazon Security Departament

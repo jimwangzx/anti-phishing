@@ -1,0 +1,61 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Sun, 24 Nov 2015 15:35:24 -0800
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAONZNAh027677	for <user@domain.com>; Sun, 24 Nov 2015 
+ 23:35:24 GMT
+Received: from mail1-co9-domain.com (domain.com
+ [207.46.163.22] (may be forged))	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rAONZMGc031959
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Sun, 24 Nov 2015 23:35:23 GMT
+Received: from mail1-co9 (localhost [127.0.0.1])	by mail1-co9-domain.com
+ (Postfix) with ESMTP id 59361360425	for <user@domain.com>; Sun, 24
+ Nov 2015 23:35:22 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:38.107.104.18;KIP:(null);UIP:(null);IPV:NLI;H:LA-EX-ET-02.area1.dmz;RD:error;EFVD:FOP
+X-SpamScore: 9
+X-BigFish: VvPps9(z569euz98dI9371I542I1432Izz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1de098h8275bh1de097hz2fh109h2a8h839h944hd25he5bhf0ah1220h1288h12a5h12a9h12bdh137ah13b6h1441h14ddh1504h1537h153bh162dh1631h1758h18e1h1946h19b5h1ad9h1b0ah1b2fh224fh1fb3h1d0ch1d2eh1d3fh1dfeh1dffh1e1dh1fe8h1ff5h2052h20b3h2216h22d0h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail1-co9: domain of caa.com designates 38.107.104.18 as permitted sender) client-ip=38.107.104.18; user@domain.com; helo=LA-EX-ET-02.area1.dmz ;02.area1.dmz ;
+Received: from mail1-co9 (localhost.localdomain [127.0.0.1]) by mail1-co9
+ (MessageSwitch) id 138533612144475_18972; Sun, 24 Nov 2015 23:35:21 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.239])	by
+ mail1-domain.com (Postfix) with ESMTP id F13CE340033	for
+ <user@domain.com>; Sun, 24 Nov 2015 23:35:20 +0000 (UTC)
+Received: from LA-EX-ET-02.area1.dmz (38.107.104.18) by
+ domain.com (10.236.130.17) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Sun, 24 Nov 2015 23:35:20 +0000
+Received: from LA-EX-CA-01.caa.com (10.252.2.97) by LA-EX-ET-02.area1.dmz
+ (192.168.130.121) with Microsoft SMTP Server (TLS) id 14.3.158.1; Sun, 24 Nov
+ 2015 15:35:19 -0800
+Received: from LV-EX-MBX-P-01.caa.com ([fe80::b501:e63c:573d:99e8]) by
+ LA-EX-CA-01.caa.com ([10.252.2.97]) with mapi id 14.03.0158.001; Sun, 24 Nov
+ 2015 15:35:18 -0800
+From: "Lieberman, Josh" <JLieberman@caa.com>
+To: "User" <user@domain.com>
+Subject: Re: Santa Barbara Film Society Q&A
+Thread-Topic: Santa Barbara Film Society Q&A
+Thread-Index: AQHO6Wz8DvoMc6Ger0mGNLaf8hCtQpo1B7KpgACGlYD//3qJ/Q
+Date: Sun, 24 Nov 2015 23:35:18 +0000
+Message-ID: <96user@domain.com>
+References: <686user@domain.com>,<787user@domain.com>
+In-Reply-To: <787user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+X-OriginatorOrg: caa.com
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Re: Santa Barbara Film Society Q&A
+
+nope. told your office a week ago we were clear on my side.
+
+Josh 
+

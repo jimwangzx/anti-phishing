@@ -1,0 +1,89 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1547970lfr;
+        Mon, 31 Aug 2015 10:06:00 -0700 (PDT)
+X-Received: by 10.129.52.10 with SMTP id b10mr3997128ywa.58.1441040760437;
+        Mon, 31 Aug 2015 10:06:00 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::22b])
+        by domain.com with ESMTPS id 97si12620952qgl.37.2015.08.31.10.05.59
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 31 Aug 2015 10:06:00 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::22b as permitted sender) client-ip=2607:f8b0:400d:c04::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-domain.com with SMTP id b6so49021485qge.3;
+        Mon, 31 Aug 2015 10:05:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Eryn Sepp <eryn.sepp@gmail.com>
+         :message-id:date:references:to;
+        bh=XBCcKZhH0Aa6p2xDCxH8WKtLWkhAkXEkZkKD0NkvAcI=;
+        b=cYSpybeh3er8QGnrTvnLi7/pk5SbgknR3Z/3wKBdfkB8GWcNRfx6wecv1oRSCD2GMO
+         qIPr+qO9gNmfRD22c03vP5lFWRmuw8Vg01iwuzV/d4qE1m8tOfBJEKYI6/I5gRy/n32o
+         ypVCgDxmJYYQUsdHPG+1aT00njTA+YJBgpV0vVhkP/tacftgNrB0PKbSwZa/XD/he/b9
+         Szj5fsshpyT3zOFdEyrv5fSj5TOhC9ekBeG1srx81Yn8VpKCFKg+8ZvA7230UhA0zKg7
+         CFWfceGuM0CuJaQ7Gvol5/JeFxDbs0GO0xOgiSmKfuuJuMHm7dGglPlCUopD/IBVZBwB
+         DeVA
+X-Received: by 10.140.133.67 with SMTP id 64mr40904532qhf.52.1441040759146;
+        Mon, 31 Aug 2015 10:05:59 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [192.168.2.14] (216-15-37-100.c3-0.gth-ubr1.lnh-domain.com. [216.15.37.100])
+        by smtp.gmail.com with ESMTPSA id m12sm9150943qkh.34.2015.08.31.10.05.58
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 31 Aug 2015 10:05:58 -0700 (PDT)
+From: Eryn Sepp <eryn.sepp@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-3E428FD5-087C-4279-8B9E-CAB6B9A74294
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Fwd: Ragnar Washington DC Participants - Get Ready!
+Message-Id: <497user@domain.com>
+Date: Mon, 31 Aug 2015 13:05:57 -0400
+References: <37user@domain.com>
+To: Tamara Fucile <user@domain.com>, Clay Dumas <user@domain.com>, 
+ Emily Wu <user@domain.com>, user {PEP} West <user@domain.com>, 
+ Dustin Kouba <user@domain.com>, Gabe user <user@domain.com>, 
+ Bridget Ansel <user@domain.com>, 
+ Larissa Paule Carres Sneathern <user@domain.com>, 
+ Peter Velz <user@domain.com>, 
+ John user <user@domain.com>, user@domain.com, 
+ "user@domain.com " <user@domain.com>
+X-Mailer: iPhone Mail (12B436)
+
+ICYMI. Not sure if you all receive these as well from Ragnar.
+
+For our preferred start, options are currently 9:15, 9:30, or 10:30 (10 am i
+s our usual start time but for some reason is not listed as an option). Unle
+ss I get guidance otherwise, I'll list our preference as 9:30, 10:30, 9:15? 
+ 9:30 is most in line with our likely finish (so we're not running behind) b
+ut I don't want to put you out there too early Van 1! We can always appeal i
+f we get a bad start time (like pre-9 am).
+
+Eryn M. Sepp
+Cell: 818-456-2881
+
+Begin forwarded message:
+
+eadlines head to our race updates page and for rules and other information b
+e sure to check the Race Bible. We'll see you on race day!
+
+ little fun doing it at a FREE adventure run hosted by our friends at Road R
+unner Sports. Join us in Falls Church September 10th.
+
+ you registered for the 2015 Ragnar Relay Washington DC referenced the "2014
+ Ragnar Relay Washington DC". We apologize for the mistake and want to clari
+fy that your participation in the event will serve as your acknowledgement t
+hat Ragnar may modify the release to properly reflect the proper year of the
+ event.
+
+our account page to request your team's start time.
+
+our volunteers before September 18th. Remember, your team must provide or pa
+y for 3 volunteers to avoid disqualification.
+
+ebsite for some useful race information.
+
+nsubscribe
+

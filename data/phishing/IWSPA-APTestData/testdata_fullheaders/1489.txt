@@ -1,0 +1,130 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 29 Jul 2015 04:12:52 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with
+ ESMTP id s6TBCqkU001863	for <user@domain.com>; Tue, 29 Jul 2015 
+ 11:12:52 GMT
+Received: from na01-bn1-domain.com
+ (mail-domain.com [207.46.163.141])	by
+ domain.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with
+ ESMTP id s6TBEpgR027198	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 29 Jul 2015 11:14:52 GMT
+Received: from BN1BFFO11FD030.protection.gbl (10.58.144.30) by
+ BN1BFFO11HUB009.protection.gbl (10.58.144.156) with Microsoft SMTP Server
+ (TLS) id 15.0.980.11; Tue, 29 Jul 2015 11:12:30 +0000
+Received: from mx-alm-domain.com (192.64.236.54) by
+ domain.com (10.58.144.93) with Microsoft SMTP
+ Server id 15.0.990.10 via Frontend Transport; Tue, 29 Jul 2015 11:12:30 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Corporate Counsel Daily Update <corporatecounsel@alm.com>
+ bh=oFPER9sPIcanE0K/4DBDNbUkl70=;
+ b=Qh+6XOLAdpoZdF5Bn0kW0ghb1F/P9iKkkTf2PzBS62n9m8X5hicNvsggM/a6T8hpJ/5/OWyslOQW
+   I9TUcMWIbvtXZNE6ketOWTuwEeC0CMQGNZC0Nfkdgjj4WcHFOfn0PHujBIrD+5iaOCBZQVNa1Nwd
+   Dndv59i92vwp627erVY
+Received: from nyp1-p-p4321-prd-jma-22.sailthru.pvt (65.39.215.174) by
+ mx-alm-domain.com id hqu0p01s6j04 for <user@domain.com>; Tue, 29
+ Jul 2015 07:05:23 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1406631972;
+	s=sailthru; d=e.alm.com;
+	h=Date:From: Corporate Counsel Daily Update <corporatecounsel@alm.com>
+	bh=HJ52CGFZbmbxb12CjNbD7lNY/qWuppYJb5tD+rA+IVU=;
+	b=IM2rpbci3G8tuXd2sRKdek/4WtVqNZnqJnOpRiMsD/5Bb6bTjKjHFt3VKYPnaT88
+	HyGff3bPQM5xvwSBWOgwJeNisqXdnwgXunkP3tiTRN7xywXekvmTRSFUsOpvY8NEaFw
+	e5CnnYliYw7Ge/2yfdi4K4hdTO5JF4bUf0P8zznM
+Date: Tue, 29 Jul 2015 07:06:12 -0400
+From: Corporate Counsel Daily Update <corporatecounsel@alm.com>
+To: <user@domain.com>
+Message-ID: <20140729110612.2869324.68951@domain.com>
+Subject: GC Survey: Cybersecurity a Problem, Outside Counsel AOK
+Precedence: bulk
+X-TM-ID: 20140729110612.2869324.68951
+X-Info: Message sent by domain.com customer ALM Media
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4321-prd-jma-22.sailthru.pvt
+X-IADB-IP: 65.39.215.19
+X-IADB-IP-REVERSE: 19.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>,
+ <mailto:user@domain.com>
+X-rpcampaign: stfyc2869324
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: 
+ CIP:192.64.236.54;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(438002)(149424002)(46244003)(22564002)(199002)(189002)(81342001)(64706001)(2351001)(20776003)(21056001)(106826001)(81542001)(110136001)(19626725001)(85306003)(19627405001)(36756003)(110456001)(106466001)(107046002)(19617315012)(62966002)(2361001)(146001)(229853001)(956001)(46102001)(79102001)(77156001)(18206015026)(107886001)(104016003)(19625215002)(15202345003)(76482001)(307094003)(50986999)(95736001)(102836001)(87836001)(15975445006)(19580405001)(47976999)(92726001)(104166001)(19618635001)(44976005)(19580395003)(89996001)(53416004)(77096002)(74502001)(74662001)(4396001)(93916002)(80022001)(99396002)(88136002)(15187005004)(50226001)(551944002)(85852003)(77982001)(83072002)(87286001)(575784001)(84326002)(83322001)(71186001)(85226002)(184035003)(19623405001)(19622745005)(19625765002)(19625245003);DIR:INB;SFP:;SCL:1;SRVR:BN1BFFO11HUB009;H:mx-alm-domain.com;FPR:;MLV:sfv;PTR:mx-alm-domain.com;A:0;MX:1;LANG:en;
+X-Microsoft-Antispam: BCL:3;PCL:0;RULEID:(53001)
+Received-SPF: Pass (: domain of st.alm.com designates 192.64.236.54 as
+ permitted sender) receiver=; client-ip=192.64.236.54;
+ helo=mx-alm-domain.com;
+Authentication-Results: spf=pass (sender IP is 192.64.236.54)
+ user@domain.com; 
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1224682741_-_-"
+
+GC Survey: Cybersecurity a Problem, Outside Counsel AOK
+
+<<link>>     
+
+ <<link>>      in  tw         
+
+Today's Top Stories
+
+• GC Survey: Cybersecurity a Problem, Outside Counsel AOK 
+
+• NLRB Boosts 'Micro Units' With Macy's Decision 
+
+• Howard Diamond Ready for Takeoff as Frontier Airlines GC 
+
+• Overseas Trademark Troubles for 'Glee' and Pinterest 
+
+• Where Have All the Unpaid Internships Gone? 
+
+• Corporate Firms Not So Spooked by NSA Snoops 
+
+More Stories from ALM
+
+• Whistleblower Presses Challenges Over Access to KBR Docs 
+
+• Anti-Arbitration Provisions and Dodd-Frank Act 
+
+• Liquidation Ends Insurance Coverage Regardless of Policy Terms 
+
+• Corporate Firms Not So Spooked by NSA Snoops 
+
+Your digital membership gives you complimentary access to five articles per month from other award-winning ALM publications.
+
+<<link>>    
+
+
+
+
+GC Survey: Cybersecurity a Problem, Outside Counsel AOK 
+
+The general counsel surveyed by the Consero Group have concerns about data breaches and compliance, but are generally... Read More »
+
+NLRB Boosts 'Micro Units' With Macy's Decision 
+
+A National Labor Relations Board decision bolstered the standard for employers seeking to prevent small collective bargaining... Read More »
+
+Howard Diamond Ready for Takeoff as Frontier Airlines GC 
+
+The new general counsel comes to Frontier with nearly 15 years of in-house experience, including previous stints in... Read More »
+
+Overseas Trademark Troubles for 'Glee' and Pinterest 
+
+U.S. trademark owners might need to reconsider their international IP strategies. Read More »
+
+Where Have All the Unpaid Internships Gone? 
+
+Well-publicized lawsuits over the past few years have caused many employers to reevaluate whether to make use of an... Read More »
+
+Corporate Firms Not So Spooked by NSA Snoops 
+
+A new report finds corporate lawyers less troubled by National Security 
+

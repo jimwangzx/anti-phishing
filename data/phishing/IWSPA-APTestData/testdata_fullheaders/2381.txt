@@ -1,0 +1,104 @@
+Delivered-To: user@domain.com
+Received: by 10.204.130.12 with SMTP id q12csp36969bks;
+        Wed, 6 Mar 2015 08:31:24 -0800 (PST)
+X-Received: by 10.49.30.70 with SMTP id q6mr48493049qeh.28.1362587483554;
+        Wed, 06 Mar 2015 08:31:23 -0800 (PST)
+Return-Path: <2user@domain.com>
+Received: from domain.com (domain.com. [208.94.21.252])
+        by domain.com with ESMTP id r5si13289195qct.55.2013.03.06.08.31.17;
+        Wed, 06 Mar 2015 08:31:23 -0800 (PST)
+Received-SPF: pass (domain.com: domain of 2user@domain.com designates 208.94.21.252 as permitted sender) client-ip=208.94.21.252;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 2user@domain.com designates 208.94.21.252 as permitted sender) user@domain.com;
+       dkim=policy (weak key) user@domain.com
+Return-Path: <2user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=em.sportsauthority.com; s=ED-DKIM; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1362587473;
+	h=From;
+	bh=CR3DK9PInhp0k4bdgi/EcdR4Uno=;
+	b=hSTPhIly76O+TGoURrpagWRzbWC+mO6H4MRaee9rNT7KwSF+FcHHPh2KXJWuDGkq
+	McBp/SdG+Sr4keURAnZMqQau/IyrbptCdAab/Zlq+dZE2tX91483gxlr/SjGRaC9;
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=ED2008-07; d=em.sportsauthority.com;
+	h=Received:Date:Content-Type:Content-Transfer-Encoding:MIME-Version:From: "SportsAuthority.com" <SportsAuthority.com@em.sportsauthority.com>
+	b=DI4VjMUwpDtW7lnXtyrU3nZNmBSQPzSE5UhMqxoFmOdIywaubyTp25lrNzojWuRR
+	TZurthKE2HsTxCskXjxV6cheAiIe1NFbO2RVSNjqopG8mFWUItxmDrsq00kKTJxO
+Received: from [127.0.0.1] ([127.0.0.1:60653])
+	by bm1-03.bo3.e-domain.com (envelope-from <2user@domain.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ECSTREAM
+	id 62/D3-00564-15F67315; Wed, 06 Mar 2015 11:31:13 -0500
+Date: Wed, 06 Mar 2015 11:31:13 -0500
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+From: "SportsAuthority.com" <SportsAuthority.com@em.sportsauthority.com>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: Step Into Spring with New Gear from NIKE
+Message-Id: <21194-330-2user@domain.com>
+X-Mail-From: "SportsAuthority.com" <SportsAuthority.com@em.sportsauthority.com>
+X-Match: domain.com
+X-RCPT-To: user@domain.com
+X-Mailer: EDMAIL R6.00.02
+
+The Sports Authority
+
+Spring Running Shoes and Apparel. Shop Now
+View Online Version
+
+                        Store Locator 
+
+
+
+                        Events 
+
+
+
+
+My Account
+Help
+
+FOLLOWTHEAUTHORITY
+
+
+
+
+QUICKLINKS
+
+ APPAREL
+
+ BASEBALL
+
+ BICYCLING
+
+ ACTION SPORTS
+
+ MENS
+
+ FOOTWEAR
+ BASKETBALL
+ GOLF
+ SKI/SNOWBOARD
+ WOMENS
+
+ RUNNING
+ FOOTBALL
+ TENNIS
+ CAMPING
+ KIDS
+
+ FITNESS
+ SOCCER
+ LACROSSE
+ FISHING/HUNTING
+
+
+
+EMAIL SUBSCRIPTION
+This email was sent to user@domain.com To update your email preferences or change your email address, domain.com My Account. If you would rather not receive email updates from Sports Authority, you can UNSUBSCRIBE at any time. Or, write us at domain.com, Email Permissions Manager, 915 S Babcock Street, Melbourne, FL 32901.
+CONTACT US
+Please do not reply to this email, as we are not able to respond to messages sent to this domain.com our Online HelpOnline Customer Service: 1.888.801.9164In-Store Customer Service: 1.800.360.8721
+Privacy Policy.
+
+
+

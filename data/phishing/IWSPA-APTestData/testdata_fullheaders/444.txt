@@ -1,0 +1,41 @@
+Delivered-To: user@domain.com
+Received: by 10.140.18.140 with SMTP id 12csp134479qgf;
+        Thu, 30 Jan 2015 06:20:51 -0800 (PST)
+X-Received: by 10.140.24.193 with SMTP id 59mr21125238qgr.11.1391091651287;
+        Thu, 30 Jan 2015 06:20:51 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [207.46.163.157])
+        by domain.com with ESMTPS id v62si4587983qge.128.2014.01.30.06.20.51
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 30 Jan 2015 06:20:51 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 207.46.163.157 as permitted sender) client-ip=207.46.163.157;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 207.46.163.157 as permitted sender) user@domain.com
+Received: from domain.com (10.141.142.24) by
+ domain.com (10.141.142.11) with Microsoft SMTP
+ Server (TLS) id 15.0.859.15; Thu, 30 Jan 2015 14:20:49 +0000
+Received: from domain.com ([10.141.142.24]) by
+ domain.com ([10.141.142.24]) with mapi id
+ 15.00.0859.020; Thu, 30 Jan 2015 14:20:49 +0000
+From: Tim Wirth <twirth@unfoundation.org>
+To: "User" <user@domain.com>
+Subject: SOTU
+Thread-Topic: SOTU
+Thread-Index: Ac8dxnhx2Fp4U4qeSIeCOPV3u5xjCQ
+Date: Thu, 30 Jan 2015 14:20:48 +0000
+Message-ID: <60user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [66.192.169.2]
+x-forefront-prvs: 0107098B6C
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019001)(6009001)(66544003)(189002)(199002)(47976001)(80022001)(65816001)(49866001)(47736001)(4396001)(50986001)(66066001)(59766001)(54316002)(63696002)(56816005)(51856001)(83072002)(77982001)(85852003)(74366001)(76176001)(76786001)(76796001)(33646001)(80976001)(94946001)(76482001)(46102001)(53806001)(558084003)(90146001)(74316001)(94316002)(87266001)(47446002)(81542001)(74502001)(81816001)(2656002)(87936001)(93516002)(81686001)(74662001)(54356001)(79102001)(31966008)(81342001)(74706001)(83322001)(92566001)(85306002)(93136001)(76576001)(221733001)(74876001)(86362001)(56776001)(69226001)(24736002)(215093002);DIR:OUT;SFP:1102;SCL:1;SRVR:BY2PR08MB393;H:domain.com;CLIP:66.192.169.2;FPR:;InfoNoRecordsMX:1;A:1;LANG:en;
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginatorOrg: unfoundation.org
+
+John: excellent speech last night - the best that Obama has given. Congratu
+lations - keep up the good work, and see you soon.  T

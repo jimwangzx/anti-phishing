@@ -1,0 +1,58 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.88 with SMTP id o85csp176698lfi;
+        Thu, 2 Jul 2015 09:36:20 -0700 (PDT)
+X-Received: by 10.182.86.72 with SMTP id n8mr8063280obz.9.1435854980524;
+        Thu, 02 Jul 2015 09:36:20 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::235])
+        by domain.com with ESMTPS id p64si4878279oih.11.2015.07.02.09.36.19
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 02 Jul 2015 09:36:20 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::235 as permitted sender) client-ip=2607:f8b0:4003:c06::235;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::235 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-oi0-domain.com with SMTP id x81so59843186oig.1
+        for <user@domain.com>; Thu, 02 Jul 2015 09:36:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Oren Shur <oshur@hillaryclinton.com>
+         :content-type;
+        bh=wBnZ+dXp+118TCZdXypuiP6MmXiv3VV++RmBnCN1Bvw=;
+        b=ekKHJ3u60GCsGpSrp4qBymrPA+bjXMjwGu/fju19RvTREvujKCZWKrs3QxteI3mCxE
+         AsHpxXe4XzkPnrCO5y3uCZNgYpppkm6brPukd8yYwEsytZ8PM/JS2vpDtrWvmz5v4dzY
+         NC6ooXFcntcScN5X+6nD+GHOcu0he5yLs4zGY
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Oren Shur <oshur@hillaryclinton.com>
+         :subject:to:cc:content-type;
+        bh=wBnZ+dXp+118TCZdXypuiP6MmXiv3VV++RmBnCN1Bvw=;
+        b=cPduzWkILAVDBnFCMKlwiK7/yr72BW/uvr5wq3Jfu28h3viTTNTaWEuRccRPXYcx30
+         SzePRtTO8iTGMegMm9Kv0THphAad0mOTiPBjYstg6FbPqNY25zFtylZMdJdONXUFlyNt
+         JXihWpC0uDwNWsuTl8achpImo6cXZ8/KR3tOizA8AjzBmgdl+HiaKt/pwKuWpidUddQY
+         azz+oZocq+ZilOOjQAOwqIm2cP18YpdycGUt9u2t8FdOYEHrB2Stmd34Fig6I662j45r
+         lLJ5k4icvlgrYP7MsBBm+WDpNdQMVEdbZ5k+cUKKlkhWkurih0uD8NYl6hp3sPaMlSiA
+         7EPg
+X-Gm-Message-State: ALoCoQn8dJTOBAhpbStrWx/qVEjPur2B8wCFYIdl29Xl9kBJY7JZvVcDNHzauI9o3SjH/38zHwkq
+X-Received: by 10.60.131.147 with SMTP id om19mr30784861oeb.78.1435854979596;
+ Thu, 02 Jul 2015 09:36:19 -0700 (PDT)
+From: Oren Shur <oshur@hillaryclinton.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdC05QOPIwr8S2dPR3WDcbbPKdnIgg
+Date: Thu, 2 Jul 2015 12:36:11 -0400
+Message-ID: <user@domain.com>
+Subject: updated box
+To: John user <user@domain.com>, Robby Mook <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ Jake Sullivan <user@domain.com>
+CC: Kate Offerdahl <user@domain.com>
+Content-Type: multipart/mixed; boundary=047d7b41cc5c02495a0519e70a4c
+
+Please see the attached. Tried to do what we covered on call: chop down the
+sentences, more to tie back to central theme. I think what it could use are
+some more personal HRC touches. Dan, maybe you have some thoughts here?

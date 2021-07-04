@@ -1,0 +1,71 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP id 04FFC536E2C
+	for <user@domain.com>; Tue, 17 May 2015 12:46:26 -0400 (EDT)
+Received: from 192.168.1.10 (unknown [80.96.225.74])
+	by domain.com (Postfix) with SMTP id 8FE7685B097
+	for <user@domain.com>; Tue, 17 May 2015 12:46:24 -0400 (EDT)
+Received: from 55.59.76.104 by ; Tue, 17 May 2015 20:37:23 +0300
+Message-ID: <user@domain.com>
+From: "PayPal" <service@paypal.com>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: Notification of Limited Account Access
+Date: Tue, 17 May 2015 11:44:23 -0600
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--05054975606583261457"
+X-Priority: 3
+X-MSMail-Priority: Normal
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 350
+
+<!--
+msg {display:inline-block}.mb {font-size:80%;padding:6 8 0 14;width:100=
+%}.cb {background-image:url('<>
+t.gif');background-position: left 50%;background-repeat:repeat-y;border-ri=
+ght:1px solid #e8e8e8;}-->
+Dear PayPal Member (username@=
+domain.com),
+
+As part of our security measures, we regularly screen =
+activity in the PayPal system.
+We recently noticed the following issue =
+on your account:
+
+Your domain.com card issuer notified us that a card as=
+sociated with your account has been reported as lost or stolen, or that th=
+ere were additional problems with your card. For more information about th=
+e problem with your card.<>
+n/webscr? cmd=3D_login-runCase ID Number: PP-082-171-288
+
+For your protectio=
+n, we have limited access to your account until additional security measur=
+es can be completed. We apologize for any inconvenience this may cause.
+To review your account and some or all of the information that PayPal=
+ used to make its decision to domain.com your account access, please domain.com the =
+following link:<>
+n/webscr? cmd=3D_login-run If, after reviewing your account information, you seek fu=
+rther clarification regarding your account access, please contact PayPal b=
+y visiting the Help Center and clicking "Contact Us".
+We than=
+k you for your prompt attention to this matter. Please understand that thi=
+s is a security measure intended to help protect you and your account. We =
+apologize for any inconvenience.
+
+Sincerely,
+PayPal Account Revie=
+w Department
+
+-------------------------------------------------=
+---------------PayPal=
+ (Europe) Limited is authorized and regulated by the Financial Services Au=
+thority in the United Kingdom as an electronic money institution.
+
+&=
+nbsp;

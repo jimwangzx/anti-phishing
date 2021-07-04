@@ -1,0 +1,50 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp1257960lfr;
+        Sun, 9 Aug 2015 08:17:39 -0700 (PDT)
+X-Received: by 10.60.79.193 with SMTP id l1mr15473865oex.60.1439133459235;
+        Sun, 09 Aug 2015 08:17:39 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::236])
+        by domain.com with ESMTPS id k10si9650960oel.57.2015.08.09.08.17.38
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 09 Aug 2015 08:17:39 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::236 as permitted sender) client-ip=2607:f8b0:4003:c06::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-oi0-domain.com with SMTP id 137so64326560oio.0
+        for <user@domain.com>; Sun, 09 Aug 2015 08:17:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: user.mary@gmail.com
+         :message-id:date:to;
+        bh=Zb5vI/H0Dek1zgXtfwzKSeunjRoemxg3uQDeGodZW30=;
+        b=Pnh9zuYDtNK1lSUk3JV3Sne8wbe2Ms/kX6AFBMkglJKZZ5/swEFPLuJ5VWcjEdjWCs
+         2mHKQiB9g99JTgIpa7hgW4NcwdR0sAFPAPho9aiDYLhCoGXHd9ycn/u4pfEX+j5yUxMh
+         jautGSXl9s27tCba9cCT5l1ZG/3uN2d7u6oweL+pfnfIewyTsFN07cJ53+xwLdGttKGv
+         mPRNsOw0DbBCh8kH7qBQUG4Uxij+yjJfF6y4Znq09NUCPfu2lk5qmAjGmvKhj37z0+gr
+         qo2iCudSj1BLSvkMC6OTvAb+fOjePpWZR7DiS1L1T2SiZ2mMjXKV7HwdR6MA7NdTWQM6
+         10Fw
+X-Received: by 10.202.84.78 with SMTP id i75mr4034204oib.114.1439133458374;
+        Sun, 09 Aug 2015 08:17:38 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [192.168.0.17] (c75-111-101-71.domain.com. [75.111.101.71])
+        by smtp.gmail.com with ESMTPSA id r3sm10419179oia.22.2015.08.09.08.17.36
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 09 Aug 2015 08:17:37 -0700 (PDT)
+From: user.mary@gmail.com
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+Subject: Question for you 
+Message-Id: <92user@domain.com>
+Date: Sun, 9 Aug 2015 08:17:35 -0700
+To: John user <user@domain.com>
+X-Mailer: iPhone Mail (12H143)
+
+You left a pair of white ear phone things on the floor in our bedroom. Do yo
+u want them to stay here or should I bring them home?

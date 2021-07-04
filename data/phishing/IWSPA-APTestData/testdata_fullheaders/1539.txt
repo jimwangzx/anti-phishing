@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp780797lfy;
+        Sun, 3 Jan 2015 17:44:23 -0800 (PST)
+X-Received: by 10.98.75.10 with SMTP id y10mr123252724pfa.86.1451871863047;
+        Sun, 03 Jan 2015 17:44:23 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from omr-m007e.mx.aol.com (omr-m007e.mx.aol.com. [204.29.186.9])
+        by domain.com with ESMTPS id hw5si12258416pac.152.2016.01.03.17.44.22
+        for <user@domain.com>
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Sun, 03 Jan 2015 17:44:23 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 204.29.186.9 as permitted sender) client-ip=204.29.186.9;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 204.29.186.9 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=aol.com
+Received: from mtaout-mbd01.mx.aol.com (mtaout-mbd01.mx.aol.com [172.26.252.13])
+	by omr-m007e.mx.aol.com (Outbound Mail Relay) with ESMTP id 0BE2B380018A
+	for <user@domain.com>; Sun,  3 Jan 2015 20:44:22 -0500 (EST)
+Received: from [100.112.237.63] (60.sub-70-213-0.domain.com [70.213.0.60])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mtaout-mbd01.mx.aol.com (MUA/Third Party Client Interface) with ESMTPSA id B4F7338000087
+	for <user@domain.com>; Sun,  3 Jan 2015 20:44:21 -0500 (EST)
+From: Dianne <feinsteindianne0622@aol.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-E3B44D32-359A-411F-A05B-B6B6C511F589
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Re: Happy New Year
+Message-Id: <6user@domain.com>
+Date: Sun, 3 Jan 2015 17:44:15 -0800
+References: <CAE6FiQ_G6L8cUN-eYmMmyO3kYaUsAuknsqw2+M+0user@domain.com>
+In-Reply-To: <CAE6FiQ_G6L8cUN-eYmMmyO3kYaUsAuknsqw2+M+0user@domain.com>
+To: John user <user@domain.com>
+X-Mailer: iPhone Mail (12F70)
+x-aol-global-disposition: G
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+	s=20150623; t=1451871862;
+	bh=8kPptbkMZEd3cbosZUifiE8E68CZau9LWgFBXheRQVw=;
+	h=From: Dianne <feinsteindianne0622@aol.com>
+	b=ME1EzkKIJObn4tQPJqfNn0jaePVG1TnH4GGBd0gRzY2FQN+eTOO+5cNnrc66ZZdw7
+	 d7ss4ltTcBc/AREU1/V7pmmaKXK5SzxYMiRlEsc0/7dHPQKTluL0JlvuHfOphidHof
+	 kyqasV/3vmuqXYg81HqgtmeBJRI2YZg0+etixogE
+x-aol-sid: 3039ac1afc0d5689ce75792e
+X-AOL-IP: 70.213.0.60
+
+Thanks John. Count on me. And let's hope this year is a good one for our cou
+ntry!
+
+Sent from my iPhone
+

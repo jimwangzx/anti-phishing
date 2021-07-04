@@ -1,0 +1,198 @@
+Delivered-To: user@domain.com
+Received: by 10.220.100.82 with SMTP id x18cs31583vcn;
+        Fri, 25 Sep 2015 09:03:50 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.220.4.30 as permitted sender) client-ip=10.220.4.30;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.220.4.30 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.220.4.30])
+        by 10.220.4.30 with SMTP id 30mr794434vcp.17.1253894629032 (num_hops = 1);
+        Fri, 25 Sep 2015 09:03:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received:received-spf:received:received:received
+         :message-id:date:From: Daniel Mintz <daniel@moveon.org>
+         :subject:reply-to:sender:precedence:x-google-loop:mailing-list
+         :list-id:list-post:list-help:list-unsubscribe:x-beenthere-env
+         :x-beenthere;
+        bh=/RmiFXr/KFcOYOnJePbLLSiwLjpn+0bY6XZNLSYiUj0=;
+        b=T6Zm/YkynOihF1M9x7kPDn0uZB5vJPPViRx35We/RY7nXpWU7269KfJQPBCcXU0ahO
+         XAimJzqHYN2n1PgUgD30FyNY2qdKr0u1SZhiZXwhfVcqL3PACdKjDZCf7izKXtFY6xTq
+         NzCh2aWjkkLYc2IqPedrNqx/L8FXg+UEWC1FY
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: Daniel Mintz <daniel@moveon.org>
+         :subject:reply-to:sender:precedence:x-google-loop:mailing-list
+         :list-id:list-post:list-help:list-unsubscribe:x-beenthere-env
+         :x-beenthere;
+        b=2Bad18y9KAkyKJfr4mTnBG2X1k9dSaXPk4ZJ5ec8y10rs2KmzszXxqkqhIUFvZK24d
+         p28AJRkZp1kQVurFhyk8MlC5QyocJs2f/o5GA39lL3mQCXzVBH0//wgCFvr5Ks1pc6OQ
+         ro/swkbCZawBbPqPl8XWlJ05o49aWatB8z1W8
+Received: by 10.220.4.30 with SMTP id 30mr103025vcp.17.1253894622330;
+        Fri, 25 Sep 2015 09:03:42 -0700 (PDT)
+Received: by 10.230.15.132 with SMTP id k4gr3499vba.0;
+	Fri, 25 Sep 2015 09:03:40 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.220.78.101 with SMTP id j37mr159194vck.19.1253894617936; Fri, 25 Sep 2015 09:03:37 -0700 (PDT)
+Received: by 10.220.78.101 with SMTP id j37mr159193vck.19.1253894617867; Fri, 25 Sep 2015 09:03:37 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qy0-domain.com (mail-qy0-domain.com [209.85.221.197]) by gmr-domain.com with ESMTP id 20si345839vws.11.2009.09.25.09.03.37; Fri, 25 Sep 2015 09:03:37 -0700 (PDT)
+Received-SPF: neutral (domain.com: 209.85.221.197 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=209.85.221.197;
+Authentication-Results: gmr-domain.com; spf=neutral (domain.com: 209.85.221.197 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by mail-qy0-domain.com with SMTP id 35so2273854qyk.19 for <user@domain.com>; Fri, 25 Sep 2015 09:03:37 -0700 (PDT)
+Received: by 10.224.40.11 with SMTP id i11mr387123qae.53.1253894617533; Fri, 25 Sep 2015 09:03:37 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ?127.0.0.1? (cpe-24-90-215-231.domain.com [24.90.215.231]) by domain.com with ESMTPS id 7sm233460qwb.6.2009.09.25.09.03.33 (version=TLSv1/SSLv3 cipher=RC4-MD5); Fri, 25 Sep 2015 09:03:37 -0700 (PDT)
+Message-ID: <4user@domain.com>
+Date: Fri, 25 Sep 2015 12:03:30 -0400
+From: Daniel Mintz <daniel@moveon.org>
+User-Agent: Thunderbird 2.0.0.23 (Windows/20090812)
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="------------080901000103070205040003"
+To: user@domain.com
+Subject: [big campaign] MoveOn Standing up to Hawks' Reckless Escalation in
+ Afghanistan
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+We just emailed our members about the hawks' call for a big escalation 
+in Afghanistan.  We encouraged them to write to the White House asking 
+for a clear domain.com strategy and opposing a rush to escalate. 
+
+We thought that it was important to push back as quickly as possible to 
+give the voices in the administration pushing for a strategy shift room 
+to make their case. Greg Sargent just posted about it at 
+<<link>> 
+and the email is below.
+
+-d
+
+-------- Original Message --------
+Subject: 	[Bounce] Afghanistan
+Date: 	Fri, 25 Sep 2015 08:43:51 -0700
+From: Daniel Mintz <daniel@moveon.org>
+<user@domain.com>
+To: 	Johnny Neumann <user@domain.com>
+
+Dear MoveOn member,
+
+U.S. policy in Afghanistan has reached a pivotal moment. President Obama 
+is poised to make a critical decision about the Afghanistan war in the 
+next few weeks. And there's a big debate happening right now about what 
+to do.^1
+
+Pro-war advocates both inside and outside the administration---including 
+John McCain and Joe Lieberman---are calling for a big escalation.^2 The 
+general in charge of Afghanistan is expected to request tens of 
+thousands more troops, and that may just be the beginning.^3 They're 
+cranking up the pressure for an immediate surge.
+
+But other powerful voices are urging caution: Vice President Biden and 
+White House Chief of Staff Rahm Emanuel have raised real concerns about 
+the idea of sending more troops to Afghanistan without a clear 
+strategy^4 , as have Democrats in Congress.^5  And a majority of 
+Americans oppose increasing troop levels.^6  
+
+Can you write to the White House and tell them we need a clear domain.com 
+strategy---not tens of thousands more US troops stuck in a 
+quagmire? *You can send the President a message by clicking below:*
+
+<<link>> 
+<<<link>>>
+
+Some administration officials are arguing for a smaller, nimbler 
+approach with a narrow focus on the threat from al-Qaeda. But 
+cheerleaders for the war refuse to acknowledge that there could be any 
+viable strategy other than more and more troops. So they're trotting out 
+the same tired old lines and questioning the motives of those who 
+disagree with them.^7  
+
+They figure they can cut off any debate about our ultimate goals in 
+Afghanistan and the region. But President Obama has consistently shown a 
+willingness to stand up for his more thoughtful approach to foreign 
+policy, and that's what he needs to do here, too.
+
+The hawks are making their position heard. Now, the majority of 
+Americans---those of us who are for as quick and as responsible an end 
+to the war as possible---need to make our voices heard, too.
+
+Can you write to the President now?
+
+<<link>> 
+<<<link>>>
+
+--Daniel, Lenore, Kat, Marika, and the rest of the team
+
+Sources:
+
+1. "Obama is reevaluating Afghanistan war strategy," /Los Angeles 
+Times/, September 22, 2015 
+<<link>> 
+<<<link>>>
+
+2. "Senate GOP Anxious Over War Moves," /Roll Call/, September 23, 2015 
+<<link>> 
+<<<link>>>
+
+3. "U.S. scrambling to come up with new Afghanistan plan?," /CNN/, 
+September 23, 2015 
+<<link>> 
+<<<link>>>
+
+4. "Obama is reevaluating Afghanistan war strategy," /Los Angeles 
+Times/, September 22, 2015 
+<<link>> 
+<<<link>>>
+
+5. "Senate GOP Anxious Over War Moves," /Roll Call/, September 23, 2015 
+<<link>> 
+<<<link>>>
+
+6. "Poll Finds Majority Opposes Troop Increase in Afghanistan. Obama To 
+Defy Public Opinion?,"/The Plum Line/, September 23, 2015 
+<<link>> 
+<<<link>>>
+
+7. "Senate GOP Anxious Over War Moves," /Roll Call/, September 23, 2015 
+<<link>> 
+<<<link>>>
+
+Want to support our work? We're entirely funded by our 5 million 
+members---no corporate contributions, no big checks from CEOs. And our 
+tiny staff ensures that small contributions go a long way. Chip in here 
+<<<link>>>.
+
+------------------------------------------------------------------------
+PAID FOR BY MOVEON.ORG POLITICAL ACTION, <<link>> Not 
+authorized by any candidate or candidate's committee. This email was 
+sent to Johnny Neumann on September 25, 2009. To change your email 
+address or update your contact info, click here 
+<<<link>>>. To remove yourself from this 
+list, click here <<<link>>>.
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

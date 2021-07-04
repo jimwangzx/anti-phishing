@@ -1,0 +1,219 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp1605199lfy;
+        Sun, 17 Jan 2015 17:17:39 -0800 (PST)
+X-Received: by 10.25.17.89 with SMTP id g86mr6018644lfi.82.1453079859848;
+        Sun, 17 Jan 2015 17:17:39 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-lf0-domain.com (mail-lf0-domain.com. [2a00:1450:4010:c07::232])
+        by domain.com with ESMTPS id 99si11024985lfq.179.2016.01.17.17.17.39
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 17 Jan 2015 17:17:39 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c07::232 as permitted sender) client-ip=2a00:1450:4010:c07::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c07::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lf0-domain.com with SMTP id c192so309586602lfe.2
+        for <user@domain.com>; Sun, 17 Jan 2015 17:17:39 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: user Carrk <tcarrk@hillaryclinton.com>
+         :message-id:subject:to:content-type;
+        bh=kHJLqa8k/itQBsSvfTiwRVmcWuhW3SYLmj7ZSDSXuZc=;
+        b=iVRsTKJ+rYsihzp7EA1+RoEwVCDyAkD+mRNjF8Jx9npZAqmqTEZxxCBJdWrW8DhN6h
+         CRTx3LC8jM/uxjBnCMX6waJ8QUw0TavF1pL0H2+VPq6mJKu8aPjA0fwF2Ivunb3NNVC9
+         M+N2PdXbpkd1zHVF9sG95JgtePmpB9JQE5fnU
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: user Carrk <tcarrk@hillaryclinton.com>
+         :thread-index:date:message-id:subject:to:content-type;
+        bh=kHJLqa8k/itQBsSvfTiwRVmcWuhW3SYLmj7ZSDSXuZc=;
+        b=e9W4NVokA5nimOXxideBLy6leTvBNBeRfv0fNfPk6ldOziGXaLxH20JtupzPqXEvcf
+         9r3wZufTks418T+NqMmMt4N+wP91gerylKtXtKJyic30TpAbbApdnm1zCSsOMj9LZupt
+         wagkwPO64l1JDhuB7vH5dm2XpZrtz5fSJR8Y/grXKgTNUAhzOX/1C+WIyRChdc30NBK8
+         78QfdvOL1EJUjVO+dNOxkylWPd2m1Qd/rO3FnyH6kug6B9E9VMYfaGvYzrQlN8MydyJF
+         CfoKSlJddJJ707UPVA0aUSCKQ7BMiUMgkikHAdWiky2TkD4Z0ZmD3DhYJ7Xzdph3YceW
+         J0fw
+X-Gm-Message-State: ALoCoQlMDXQq2gh0gHNBT9gkg5jFzH4IZ7vojQOJZhl13tIpfZlTDSJoIt8M9viZEc4rRxsRxEy77Cu6KWEYyMOJScgrf8eBAbV/E3TZc3vuDZIIcHH0LN8
+X-Received: by 10.25.33.198 with SMTP id h189mr7508337lfh.91.1453079859637;
+ Sun, 17 Jan 2015 17:17:39 -0800 (PST)
+From: user Carrk <tcarrk@hillaryclinton.com>
+References: <user@domain.com>
+In-Reply-To: <user@domain.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQGKymxEAwmSr1lxpH4vN8XI9Uh9Gp+Nhx9Q
+Date: Sun, 17 Jan 2015 20:17:35 -0500
+Message-ID: <user@domain.com>
+Subject: =?UTF-8?Q?FW=3A_CLIP_=7C_MSNBC=E2=80=99s_Pre=2DDebate_coverage=3A_Jeff_Weave?
+	=?UTF-8?Q?r_on_Sanders=E2=80=99_healthcare_plan?
+To: Ron Klain <user@domain.com>, Karen Dunn <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Kristina Costa <user@domain.com>, 
+ Sara Solow <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11410d68dd487d0529918451
+
+*From: user Carrk <tcarrk@hillaryclinton.com>
+Behalf Of *Brooke Goren
+*Sent:* Sunday, January 17, 2015 8:17 PM
+*To:* HRCRR <user@domain.com>; Jennifer Palmieri <
+user@domain.com>; Kristina Schake <user@domain.com>
+*Subject:* CLIP | MSNBC=E2=80=99s Pre-Debate coverage: Jeff Weaver on Sande
+rs=E2=80=99
+healthcare plan
+
+*MSNBC=E2=80=99s Pre-Debate coverage: Jeff Weaver on Sanders=E2=80=99 healt
+hcare plan*
+
+Link:
+<<link>>
+9336-ee75d6bf49d2
+
+Rough Transcript
+
+*CHUCK TODD: *right now i have the campaign manager for bernie sanders
+campaign, jeff mr. weaver, welcome. weaver. i know we've got some -- we had
+some audio issues. i assume we have them fixed and everybody is hearing you
+just fine.
+
+*JEFF WEAVER: *i hope so.
+
+*CHUCK TODD: *we'll find out. you guys put out your health care plan
+tonight. i'm guessing it was ready a week ago but you picked tonight for
+gamesmanship reasons, no.
+
+*JEFF WEAVER: *so we have been working with on it for sometime. but this is
+a complicated issue and we wanted to make sure we got it right and put
+together a pax tax plan that would fund it progressively. i thought tonight
+was appropriately and a chance for the candidates to discuss health care
+which has been in the news.
+
+*CHUCK TODD: *let's walk through the details of it. medicare for all.
+
+*JEFF WEAVER: *yes.
+
+*CHUCK TODD: *how do you pay for it?
+
+*JEFF WEAVER: *in a number of ways a 6.2% payroll tax on employers, which
+for ploifrs who are providing health care now is a saving of thousands and
+thousands of dollars. we with will put on a 2.2% premium on households,
+funded the same way, calculated like the income tax which for a family of
+four makg 50 grand, they will pay $446 a year, no copayments, no
+deductibles. raise the income tax rates on upper income taxpayers, fix the
+estate tax and few other changes.
+
+*CHUCK TODD: *as you know, a couple of times ago when bernie sanders was on
+the show, he seemed to say that he would only raise taxes on the middle
+class for one issue and that was to pay for paid leave. this is violating
+that pledge, no.
+
+*JEFF WEAVER: *what you have to appreciate and i know you do because you
+follow these things, the average family is going to save $5,000 in health
+care costs. so if you are a family of four making 50 grand and you have to
+pay 446 to uncle sam but save $5,000 and no copayments or deductibles it
+seems like a good deal.
+
+*CHUCK TODD: *one of the arguments Clinton campaign will say is this is a
+fine idea but the democratic party has spent nearly eight years litigating
+health care and doing this is another eight years of litigating health
+care. does the political system, can the political system handle another
+health care debate.
+
+*JEFF WEAVER: *senator sanders will be the first to toll you this will not
+happen tomorrow. this is where he'd like to go. universal health care has
+been a central domain.com of the democratic party since franklin dell nor
+roosevelt but it would be tragic to elect a candidate who does not support
+that anymore.
+
+*CHUCK TODD: *does this mean that the senator thinks that obamacare didn't
+go far enough or wasn't good enough?
+
+*JEFF WEAVER: *he looked on the affordable care act and supported it and on
+the senate committee that wrote it and strongly supported it and it is a
+critically important step forward to get universal health care. no doubt
+about that. major accomplishment but 29 million are still without
+insurance. many people with high payments and deductibles. we did medicaid,
+medicare. we have been trying to expand it than the afford tbl care act.
+
+*CHUCK TODD: *you argue this is an evolution not a scrapping of obamacare.
+
+*JEFF WEAVER: *absolutely.
+
+*CHUCK TODD: *it doesn't look like i builds on.
+
+*JEFF WEAVER: *iise fulfillment of the democratic vision since roosevelt.
+
+*CHUCK TODD: *it doesn't build on obamacare. it does scrap it.
+
+*JEFF WEAVER: *i don't think that is true. it incorporates the programs in
+to a new comprehensive program that covers everybody. like every other
+major industrial country does.
+
+*CHUCK TODD: *one of the things watching senator sanders in this process,
+it seems he hasn't been comfortable in those formats. what have you done to
+get him more comfortable.
+
+*JEFF WEAVER: *i wouldn't say that. the first debate was an opportunity to
+talk about to america. the second and third debate you have seen more
+interaction between him and the two candidates and this week more
+engagement than in past debates.
+
+*CHUCK TODD: *you feel the sense of urgency. in a 24-hour period, senator
+sanders tried to answer two criticisms of the Clinton campaign, one on the
+gun manufacturers and suddenly putting on a health care plan.
+
+*JEFF WEAVER: *and his tax plan. everybody knows to know what the top
+marginal rate.
+
+*CHUCK TODD: *what is it.
+
+*JEFF WEAVER: *10 million or more is 52%.
+
+*CHUCK TODD: *what about for those 250,000 up to --
+
+*JEFF WEAVER: *500 to 2 million is 43 and 2 million to 10 million is 48.
+
+*CHUCK TODD: *52 is the top and a progressive rate that will have -- are we
+talking six, seven. how many categories.
+
+*JEFF WEAVER: *including the current tiers looking at four there and then
+three under each. eight tiers.
+
+*CHUCK TODD: *let me play political cynic here yochl i get the democratic
+nomination. you and i both know how the republican party will characterize
+this. he wants to return to tax rates we haven't seen in 50 years. this
+isn't john kennedy's democratic party anymore. this is something different.
+
+*JEFF WEAVER: *what we have seen the is time to switch and middle income
+and working people are the beneficiaries of what goesen on in our so
+
+*CHUCK TODD: *what do you think it will take for bernie sanders to go from
+40 to 45% in iowa to whatever the last five to ten points he needs and who
+are those voters? are they people who like him but don't think he can win?
+people that like him and are wondering can he pass the commander in chief
+test? who do you think it is?
+
+*JEFF WEAVER: *i think there are three groups of people, consistent
+democratic voters who obviously know secretary Clinton much better. she is
+a better known commodity. independents who with we are bringing in and new
+democratic voters who we are bringing in. it is not just convincing people
+who are current democrats which we are trying to do but expanding the
+democratic base which is why he does well in general election matchups
+against republicans.
+
+*CHUCK TODD: *the last 24 hours, tax and health care plan and last minute
+to make sure that Hillary Clinton had to cram for it, huh.
+
+*JEFF WEAVER: *we released six pages. i think the secretary can read six
+pages in thee hours.
+
+*CHUCK TODD: *thank you for coming on.
+
+--
+You received this message because you are subscribed to the Google Groups
+"HRCRR" group.
+To unsubscribe from this group and stop receiving emails from it, send an
+email to hrcrr+user@domain.com
+To post to this group, send email to user@domain.com

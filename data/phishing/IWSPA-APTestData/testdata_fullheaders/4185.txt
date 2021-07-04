@@ -1,0 +1,86 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id 323E6468E8
+	for <user@domain.com>; Sun,  9 Sep 2015 10:38:32 -0400 (EDT)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id 46C8D131FD38
+	for <user@domain.com>; Sun,  9 Sep 2015 10:38:31 -0400 (EDT)
+Received: by domain.com (Postfix)
+	id 4B16C1C4EB; Sun,  9 Sep 2015 16:38:24 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.90])
+	by domain.com (Postfix) with ESMTP id E180A1C4B1
+	for <user@domain.com>; Sun,  9 Sep 2015 16:38:23 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id BC4A3898
+	for <user@domain.com>; Sun,  9 Sep 2015 16:38:23 +0200 (CEST)
+X-Quarantine-ID: 
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 25.082
+X-Spam-Level: *************************
+X-Spam-Status: Yes, score=25.082 tagged_above=0 required=5 tests=[BAYES_80=2,
+	FORGED_MUA_OUTLOOK=4.056, FORGED_OUTLOOK_HTML=2.713,
+	FORGED_RCVD_HELO=0.135, HTML_30_40=0.374, HTML_MESSAGE=0.001,
+	MIME_HTML_ONLY=0.001, NO_REAL_NAME=0.961, RAZOR2_CF_RANGE_51_100=0.5,
+	RAZOR2_CF_RANGE_E4_51_100=1.5, RAZOR2_CHECK=12, UNDISC_RECIPS=0.841]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id mZaqZ3EFet1M for <user@domain.com>;
+	Sun,  9 Sep 2015 16:38:12 +0200 (CEST)
+Received: from domain.com (unknown [64.90.160.66])
+	by domain.com (Postfix) with ESMTP id 15B811C45D
+	for <user@domain.com>; Sun,  9 Sep 2015 16:38:10 +0200 (CEST)
+Received: from User ([212.90.253.121]) by domain.com with Microsoft SMTPSVC(6.0.3790.3959);
+	 Sun, 9 Sep 2015 10:33:08 -0400
+From: <accounts@bankofamerica.com>
+Subject: ***SPAM*** View Your Account (Action Required)
+Date: Sun, 9 Sep 2015 16:36:44 +0200
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <user@domain.com>
+X-OriginalArrivalTime: 09 Sep 2015 14:33:08.0312 (UTC) FILETIME=[573D4580:01C7F2EE]
+To: undisclosed-recipients: ;
+Content-Length: 1274
+Lines: 38
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 122
+
+Dear Bank of America User,
+As part of our security measures, we regularly screen activity in the
+
+banking system. During a recent screening, we noticed an issue regarding
+
+your domain.com card account. It may have been accessed by an unauthorized 
+
+third party.
+As a precaution, we are requesting additional verification 
+of your identity
+
+and payment information in order to protect your domain.com card against
+future 
+
+unauthorized transactions.
+
+Please follow the link below and complete the requested information. The 
+
+situation will be immediately reviewed by the fraud department and we will 
+
+remove any holds on this account.
+
+<>
+
+Sincerely,
+
+Bank of America
+Fraud Prevention

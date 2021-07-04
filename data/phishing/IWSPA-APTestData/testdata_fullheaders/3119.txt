@@ -1,0 +1,271 @@
+From: "Corporate Counsel Daily Update" <corporatecounsel@alm.com>
+To: "User"
+Subject: IBM's Watson: A Natural Assistant for Patent Attorneys?
+Date: Fri, 19 Sep 2015 07:07:43 -0400
+Message-ID: <20140919110743.3084487.69782@domain.com>
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQIZDRJH8ouu7ztdMGPO0ou2LVWSPw
+Content-Language: en-us
+x-ms-exchange-organization-authsource: domain.com
+x-ms-exchange-organization-authas: Internal
+x-ms-exchange-organization-authmechanism: 10
+x-forefront-antispam-report: CIP:192.64.236.54;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(438002)(189002)(149424002)(199003)(46244003)(22564002)(2351001)(21056001)(107886001)(15187005004)(44976005)(31966008)(19626725001)(110456001)(107046002)(229853001)(77156001)(19627405001)(2361001)(36756003)(19580395003)(19580405001)(83322001)(62966002)(15202345003)(71186001)(106466001)(50986999)(53416004)(102836001)(15975445006)(89996001)(307094003)(47976999)(104166001)(93916002)(19625215002)(84326002)(99396002)(20776003)(92726001)(87286001)(87836001)(4396001)(575784001)(19618635001)(88136002)(81542003)(551944002)(92566001)(80022003)(83072002)(50226001)(956001)(74662003)(85852003)(81342003)(85306004)(110136001)(77096002)(18206015026)(77982003)(146001)(46102003)(19617315012)(74502003)(76482002)(88526003)(79102003)(104016003)(90102001)(7059019)(85226002)(184035003)(19625765002)(19623405001)(19622745005)(19625245003);DIR:INB;SFP:;SCL:1;SRVR:BY2FFO11HUB007;H:mx-alm-domain.com;FPR:;MLV:sfv;PTR:mx-alm-domain.com;MX:1;A:0;LANG:en;
+received-spf: Pass (domain.com: domain of st.alm.com designates 192.64.236.54 as permitted sender) receiver=domain.com; client-ip=192.64.236.54; helo=mx-alm-domain.com;
+dkim-signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1411124863;	s=sailthru; d=e.alm.com;	h=Date:From: "Corporate Counsel Daily Update" <corporatecounsel@alm.com>
+x-domain.com: domain.com
+authentication-results: spf=pass (sender IP is 192.64.236.54) user@domain.com; 
+x-eopattributedmessage: 0
+x-microsoft-antispam: BCL:3;PCL:0;RULEID:(53001);UriScan:;
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+x-unsubscribe-web: <<link>>
+x-info: user@domain.com
+x-rpcampaign: stfyc3084487
+x-iadb-url: <<link>>
+x-iadb-ip-reverse: 19.215.39.65
+x-iadb-ip: 65.39.215.19
+x-tm-id: 20140919110743.3084487.69782
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1224682741_-_-"
+
+Corporate Counsel | Daily Update
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)  {
+table[class="content"] {
+width:100%!important;
+}
+td[class="header"] {
+background-image: url("<<link>>");
+width:320px!important;
+height: 46px!important;
+background-repeat:no-repeat;
+display:block;
+border-top:1px solid #ccc;
+}
+td[class="header"] img {
+display: none;
+}
+td[class="box"]  {
+border:none;
+background:#e1e1e1!important;
+}
+td[class="ad"] {
+background-image: url(<<link>>);
+width: 320px !important;
+height: 50px !important;
+background-repeat:no-repeat;
+margin-bottom:10px;
+}
+td[class="ad2"]{
+background-image: url(<<link>>);
+width: 320px !important;
+height: 50px !important;
+background-repeat:no-repeat;
+margin-bottom:10px;
+}
+td[class="ad"] img {
+display: none;
+}
+td[class="ad2"] img {
+display: none;
+}
+td[class="ad"] a{
+display: block;
+width: 320px !important;
+height: 50px !important;
+text-decoration:none;
+border:none;
+}
+td[class="ad2"] a{
+display:block;
+width: 320px !important;
+height: 50px !important;
+text-decoration:none;
+border:none;
+}
+td[class="noMobileAd"] img {
+display: none;
+}
+td[class="MobileAd"]{
+background-image: url(<<link>>);
+width: 320px !important;
+height: 50px !important;
+background-repeat:no-repeat;
+margin-bottom:10px;
+}
+td[class="MobileAd2"]{
+background-image: url(<<link>>);
+width: 320px !important;
+height: 50px !important;
+background-repeat:no-repeat;
+margin-bottom:10px;
+}
+td[class="MobileAd"] a{
+display: block;
+width: 320px !important;
+height: 50px !important;
+text-decoration:none;
+border:none;
+}
+td[class="MobileAd2"] a{
+display:block;
+width: 320px !important;
+height: 50px !important;
+text-decoration:none;
+border:none;
+}
+td[class="story"] {
+width:100%!important;
+}
+td[class="employer"] {
+display:none;}
+td[class="social"] {
+display:none;}
+td[class="positionTitle"] {
+padding:10px!important;
+width:70%!important;
+}
+td[class="location"] {
+padding:10px!important;
+width:30%!important;
+}
+}
+
+Today's Top Stories
+
+• IBM's Watson: A Natural Assistant for Patent Attorneys?
+
+• Answering Big Data Questions, by the Book
+
+• Apple's New Privacy Policy Might Not Be Bulletproof
+
+• Time for the Board to Call Its Own Counsel
+
+• The Temporal Implications of Survival Clauses
+
+• Who Represents America's Biggest Companies 2015 
+
+• Presented by GCG: Five Reasons to Outsource your Legal Administration Needs
+
+
+
+
+More Stories from ALM
+
+• Dodd-Frank's New Deputies—States
+
+• Pharma Whistleblower Can Bring Wrongful-Termination Claim
+
+• What Has Happened to Stock Options?
+
+• Apple's Privacy Policy May Not Prove Unassailable
+
+Your digital membership gives you complimentary access to five articles per month from other award-winning ALM publications.
+
+
+
+
+IBM's Watson: A Natural Assistant for Patent Attorneys?
+
+Two IBM patent attorneys ponder ways to apply the advanced analytics and processing capabilities of a cognitive computing... Read More »
+
+Answering Big Data Questions, by the Book
+
+A new book from two Foley & Lardner partners explains how big data can help businesses, and outlines the legal issues... Read More »
+
+Apple's New Privacy Policy Might Not Be Bulletproof
+
+Apple Inc.'s new privacy policy won't stop law enforcement officers determined to view encrypted data on iPhones and... Read More »
+
+Time for the Board to Call Its Own Counsel
+
+Directors need to know when it's time to thank the GC for her time and call in separate counsel. Read More »
+
+The Temporal Implications of Survival Clauses
+
+Most private company acquisition agreements provide that certain representations and warranties will survive for a specific... Read More »
+
+Who Represents America's Biggest Companies 2015 
+
+We asked corporate counsel and some law firm partners what bothers them about their opposite numbers. They dished—but... Read More »
+
+
+
+
+Dodd-Frank's New Deputies—States
+In their Federal Civil Enforcement column, Richard Strassberg, William Harrington and Benjamin P. Saul write: In the... Read More »
+
+Pharma Whistleblower Can Bring Wrongful-Termination Claim
+A marketing director who blew the whistle on the pharmaceutical company she worked for can bring her state-law claim... Read More »
+
+What Has Happened to Stock Options?
+In his Executive Compensation column, Joseph E. Bachelder III examines the 100-year history of stock options, including... Read More »
+
+Apple's Privacy Policy May Not Prove Unassailable
+Apple Inc.'s new privacy policy won't stop law enforcement officers determined to view encrypted data on iPhones and... Read More »
+
+
+
+
+Who's Hiring
+
+
+
+
+Position title
+
+Employer Name
+
+Location
+
+VP - Domestic Regulatory Compliance Officer
+
+Argo Group
+San Antonio, Texas, United States
+
+Corporate Associate
+
+Hunton & Williams LLP
+Charlotte, North Carolina, United States
+
+Corporate Associate
+
+Duane Morris LLP
+San Diego, California, United States
+
+Assistant General Counsel
+
+ATEN Technology
+Foothill Ranch, California, United States
+
+
+
+
+POWERED BY domain.com
+
+
+
+Email Management Area
+Please do not reply to the address you received this email from. Manage your email communications below.
+Why you received this email message:
+You are subscribed to the Corporate Counsel Daily Update as user@domain.com You may be subscribed to multiple publications as part of your relationship with us.
+To stop receiving the Corporate Counsel Daily Update (unsubscribe) or to update your email marketing preferences, please click here. On this page, please update your subscription choices to this publication, and any others you may receive. You may also change your opt-in of email marketing promotions from ALM. It may take up to 10 days for your changes to take effect. 
+How to contact us should you have questions:
+Corporate Counsel®
+120 Broadway, 5th Floor,
+New York, NY  10271-1101
+Customer Service Phone:  1-877-256-2472
+
+
+
+
+About ALM |
+
+Customer Support |
+
+Privacy Policy |
+
+Terms & Conditions
+   © 2015 ALM Media Properties, LLC. All rights reserved.
+

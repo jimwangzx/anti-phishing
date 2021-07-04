@@ -1,0 +1,60 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp2950352lfi;
+        Wed, 6 May 2015 04:20:53 -0700 (PDT)
+X-Received: by 10.50.117.35 with SMTP id kb3mr2380697igb.13.1430911252286;
+        Wed, 06 May 2015 04:20:52 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from nm20-domain.com (nm20-domain.com. [98.138.91.150])
+        by domain.com with ESMTPS id g20si620220igt.61.2015.05.06.04.20.51
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 06 May 2015 04:20:51 -0700 (PDT)
+Received-SPF: softfail (domain.com: domain of transitioning user@domain.com does not designate 98.138.91.150 as permitted sender) client-ip=98.138.91.150;
+Authentication-Results: domain.com;
+       spf=softfail (domain.com: domain of transitioning user@domain.com does not designate 98.138.91.150 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=domain.com; s=s2048; t=1430911251; bh=RXnU5ZjoCoMIYqaCIkjj3EXVB1LLUWU2nxHWLziOv7o=; h=Subject:From: John West <gardens@jwlandscapes.com>
+Received: from [98.138.101.131] by domain.com with NNFMP; 06 May 2015 11:20:51 -0000
+Received: from [98.138.226.125] by domain.com with NNFMP; 06 May 2015 11:20:51 -0000
+Received: from [127.0.0.1] by domain.com with NNFMP; 06 May 2015 11:20:50 -0000
+X-Yahoo-Newman-Id: 992015.34047.user@domain.com
+X-Yahoo-Newman-Property: ymail-3
+X-YMail-OSG: B3FCZOoVM1l.XoYPuEGNmseeJssfRwhwc80.qErjVL3dHBr
+ gfmbvjzqMcxzcm74UaX3535SgbGEEUnV4XrH5uQrIbvaIgJLdhhowr3kGhT5
+ i9udX1fvjwN.UhBXcoWRBVPONPVPIJLAtRRguIE10GCcIIxWZubM3yY0uee.
+ ty4ZyxzaYRN0FOCgq7FVw4kG8ettTOG472R3PVRx4W.fM4kyYCbK5OmRM.cB
+ 1_nFCb9p5sylBjDbSP9Nm3jMzQuF1sK2hddWdThR9EEioIsuD0TmACsPn7dF
+ 99m0aGp3kSGgrToRoK_jCqRM29dM1KzsZEk8FRj18lGFEXOtqVK1gWw1pbsX
+ j.OlazE7gvxTYTeVGk6lbij0K4TsOtAX1cdUiL5evtSENWX.VK.aK8jDIzlu
+ LEne9gNXex3ol_C4dXsVt.N.MC0Ye9Qeu7Qnbyh5F9VMHEr.c8vEcrRlkW.4
+ uQ9KUWdryV02dD7MysXNQj7lYbCIlT3dvIT8c7ez1BuUGni8frgno31WIGGn
+ krla5qv1IIybTYAnE4TVUVoyTB6L1g6NPhc6YBjU8xMU5WHEsjKzAFhqekk4
+ m
+X-Yahoo-SMTP: Z4DR3i2swBC802UDzgx.HR2x231nsiN2HkdpD2Y-
+Content-Type: text/plain;
+	charset=us-ascii
+Mime-Version: 1.0 (1.0)
+Subject: Re: Pickup
+From: John West <gardens@jwlandscapes.com>
+X-Mailer: iPhone Mail (12D508)
+In-Reply-To: <CAE6FiQ8DAtEpy=Z_6xz+-OQV+08user@domain.com>
+Date: Wed, 6 May 2015 06:20:49 -0500
+CC: Milia Fisher <user@domain.com>
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <user@domain.com>
+References: <CAE6FiQ8DAtEpy=Z_6xz+-OQV+08user@domain.com>
+To: John user <user@domain.com>
+
+Good Morning,
+
+It's an honor and privilege to be asked and the opportunity to help in these
+ small ways is most welcome. 
+
+I'll be at the meeting as well and will see you there and will it still be o
+kay to provide the ride to the airport afterward?
+
+-JW
+312-213-3052
+
+Sent from my iPhone
+

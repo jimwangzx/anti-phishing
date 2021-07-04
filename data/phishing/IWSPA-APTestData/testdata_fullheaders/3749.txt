@@ -1,0 +1,68 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 6226323CA64;
+	Thu, 30 Aug 2015 20:27:24 -0500 (CDT)
+X-Virus-Scanned: amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Uy-GH12kqpG8; Thu, 30 Aug 2015 20:27:23 -0500 (CDT)
+Received: from mail.inp.gob.ec (mail.inp.gob.ec [190.110.215.78])
+	by domain.com (Postfix) with ESMTP id C64DE23CA62;
+	Thu, 30 Aug 2015 20:27:19 -0500 (CDT)
+Received: from inp.gob.ec (localhost.localdomain [127.0.0.1])
+	by mail.inp.gob.ec (Postfix) with ESMTP id 0483D23188DB;
+	Thu, 30 Aug 2015 20:27:59 -0500 (ECT)
+Received: from 41.203.65.220 ([41.203.65.220]) by mail.inp.gob.ec (Horde
+ Framework) with HTTP; Thu, 30 Aug 2015 20:27:59 -0500
+Message-ID: <20120830202759.1037512user@domain.com>
+Date: Thu, 30 Aug 2015 20:27:59 -0500
+From: Help Desk Copyright 2015 <info@admin.net>
+To: undisclosed-recipients:;
+Subject: Technical Upgrading
+MIME-Version: 1.0
+Content-Type: text/plain;
+ charset=ISO-8859-1;
+ DelSp="Yes";
+ format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+User-Agent: domain.com Messaging Program (IMP) H3 (4.3.7)
+X-INP-MailScanner-Information: Please contact the ISP for more information
+X-INP-MailScanner-ID: 0483D23188DB.A0C35
+X-INP-MailScanner: Found to be clean
+X-INP-MailScanner-From: Help Desk Copyright 2015 <info@admin.net>
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 124
+
+Webmail Account Warning
+
+This mail is from Webmail Service; we wish to bring to your notice the
+Condition of your email account.
+
+We have just noticed that you have exceeded your email Database domain.com of
+500 MB quota and your email IP is causing conflict because it is been
+accessed in different server location. You need to Upgrade and expand your
+email quota domain.com before you can continue to use your email.
+
+Update your email quota domain.com to 2.6 GB, use the below web link:
+
+<>
+
+Failure to do this will result to email deactivation within 24hours
+
+Thank you for your understanding.
+
+Copyright 2015 Help Desk
+Technical Upgrading
+
+----------------------------------------------------------------
+This message was sent using IMP, the domain.com Messaging Program.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.

@@ -1,0 +1,98 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 4 Mar 2015 12:23:52 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s24KNp8G011319	for <user@domain.com>; Tue, 4 Mar 2015 
+ 20:23:51 GMT
+Received: from mail223-ch1-domain.com (mail-domain.com
+ [216.32.181.171])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s24KP6UG019091
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 4 Mar 2015 20:25:07 GMT
+Received: from mail223-ch1 (localhost [127.0.0.1])	by
+ mail223-ch1-domain.com (Postfix) with ESMTP id C3A7B3405BB	for
+ <user@domain.com>; Tue,  4 Mar 2015 20:23:50 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.15.213.92;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 5
+X-BigFish: vps5(zz9371Ic89bhdc43he0eahc857hzz1f42h2148h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h1082kzz1def03h172cfch17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h18602eh1b778fh1ce120h1ce121iz2fheh839h8e2h8e3h10d2h1288h12a5h137ah13eah1441h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6hbe9i214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail223-ch1: domain of domain.com designates 199.15.213.92 as permitted sender) client-ip=199.15.213.92; user@domain.com; helo=domain.com ;1.domain.com ;
+Received: from mail223-ch1 (localhost.localdomain [127.0.0.1]) by mail223-ch1
+ (MessageSwitch) id 1393964629253318_8123; Tue,  4 Mar 2015 20:23:49 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.253])	by mail223-domain.com (Postfix) with ESMTP id
+ 38A5B160064	for <user@domain.com>; Tue,  4 Mar 2015 20:23:49 +0000
+ (UTC)
+Received: from domain.com (199.15.213.92) by
+ domain.com (10.43.70.32) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 4 Mar 2015 20:23:48 +0000
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AZHZwLTE5OS0xNS0yMTMtOTJAYmctYWJk
+	LTI3QDAwNC1RU0stNjI0OjE2NDE0OjYyNDk6MzUwMDQ6MDozMDUxOjc6MTY3Njkw
+	OA
+Received: from [10.1.12.141] ([10.1.12.141:58019] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.0.35861 r(Momo-dev:tip)) with ESMTP	id E3/17-19397-45636135; Tue, 04 Mar
+ 2015 14:23:48 -0600
+Date: Tue, 4 Mar 2015 14:23:48 -0600
+From: Steve Preston <marketing@everbridgemail.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <2034729663.167797296.1393964628218.user@domain.com>
+Subject: Webinar: ISO 22301: A Gap in the Defenses
+X-Report-Abuse: Please report abuse here: <<link>>
+X-Binding: bg-abd-27
+X-MarketoID: 004-QSK-624:16414:6249:35004:0:3051:7:1676908
+List-Unsubscribe: <mailto:user@domain.com>
+X-MailFrom: Steve Preston <marketing@everbridgemail.com>
+Return-Path: 004-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Webinar: ISO 22301: A Gap in the Defenses
+
+Webinar  
+
+
+
+
+Dear Amy,
+
+ISO 22301 is quickly being adopted around the world as the standard for ensuring recoverability for both organizations and their supply chains. But what does it mean to be certified? Is recoverability a simple “yes” or “no” proposition? In domain.com of the Do, Plan, Check, Act strategy described by ISO, how and what do we check to measure preparedness? 
+
+Join us for this complimentary webinar, ISO 22301: A Gap in the Defenses, on March 13, 2015 at 11:00 a.m. PT/2:00 p.m. ET. Hosted by organizational recoverability expert, David Lindstedt, PhD, CBCP, PMP, this webinar will discuss:
+
+Emphasis on measurement in ISO 22301
+
+How to evaluate preparedness
+
+A model to help us meet requirements 
+
+What ISO 22301 means to you
+
+Register Now!
+
+   Reserve your seat now!
+
+
+
+Calendar icon
+
+Title: ISO 22301: A Gap in the Defenses
+
+Date: Thursday Mar 13, 2015 
+Time: 2:00 PM (ET)/11:00 AM (PT)
+
+Speaker: David Lindstedt, PhD, CBCP, PMP
+
+This webinar is free, but space
+is limited. Register today!
+
+About Us
+
+Everbridge provides a critical communication suite that helps clients be better prepared, make better decisions, and respond quickly and confidently during disruptive events. When an incident happens, whether it’s a natural disaster or an IT service outage, we automate communications to ensure that the right messages get to the right people at the right time. For more information, please see domain.com
+
+Stay
+

@@ -1,0 +1,90 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.3.4.5])
+	by domain.com (Postfix) with ESMTP id 660BE536F86
+	for <user@domain.com>; Wed, 21 Dec 2015 16:16:09 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 03F496FA552
+	for <user@domain.com>; Wed, 21 Dec 2015 16:15:56 -0500 (EST)
+Received: from domain.com (domain.com [10.2.3.4])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Wed, 21 Dec 2015 16:15:55 -0500 (EST)
+Received: by domain.com (Postfix)
+	id 8F2C31BC51; Wed, 21 Dec 2015 22:15:56 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from localhost (unknown [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 5ECFB1BB39
+	for <user@domain.com>; Wed, 21 Dec 2015 21:15:53 +0000 (UTC)
+Received: from domain.com ([10.2.3.4])
+	by localhost (lujan [10.2.3.4]) (amavisd-new, port 10024)
+	with ESMTP id 13557-02 for <user@domain.com>;
+	Wed, 21 Dec 2015 22:15:35 +0100 (CET)
+Received: from 192.168.2.5 (ont-cust-208.57.93.68.domain.com [208.57.93.68])
+	by domain.com (Postfix) with SMTP id 4E6C81BB19
+	for <user@domain.com>; Wed, 21 Dec 2015 22:15:33 +0100 (CET)
+Received: from 248.156.13.6 by ; Wed, 21 Dec 2015 17:11:06 -0400
+Message-ID: <user@domain.com>
+From: "eBay Security Center" <support@ebay.com>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: [*** POSIBLE SPAM***] Update your eBay records
+Date: Thu, 22 Dec 2015 02:18:06 +0500
+X-Mailer: Microsoft Outlook Express 6.00.2462.0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--999754966164574424"
+X-Priority: 1
+X-MSMail-Priority: High
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at domain.com
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ******************
+X-Spam-Status: Yes, score=18.5 required=5.0 tests=FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,FRONTPAGE,HTML_MESSAGE,MIME_BOUND_DD_DIGITS,
+	MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,MISSING_MIMEOLE,MPART_ALT_DIFF,
+	MSGID_SPAM_CAPS,NORMAL_HTTP_TO_IP,RCVD_IN_BL_SPAMCOP_NET 
+	autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  3.8 MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  2.1 FRONTPAGE RAW: Frontpage used to create the message
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 163
+
+Update
+Your Account Information
+
+According to our site policy you will have to confirm that you are 
+the
+    real owner of the eBay account by completing the following form.
+Never shar
+e your
+    eBay password to anyone! 
+Establish your proof
+ of
+    identity with ID Verify (free of charge) - an easy way to help others 
+trust
+    you as their trading partner. The process takes about 5 minutes to com
+plete
+    and involves updating your eBay information. When you're successfully
+    verified, you will receive an ID Verify icon
+
+    in your feedback profile. 
+
+To update
+ your eBay records 
+
+Click here

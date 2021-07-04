@@ -1,0 +1,88 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Tue, 17 Dec 2015 09:35:52 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBHHZqRK023477	for <user@domain.com>; Tue, 17 Dec 2015 
+ 17:35:52 GMT
+Received: from mail175-db9-domain.com
+ (mail-domain.com [213.199.154.242])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBHHZoSH015527	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 17 Dec 2015 17:35:51 GMT
+Received: from mail175-db9 (localhost [127.0.0.1])	by
+ mail175-db9-domain.com (Postfix) with ESMTP id 9503216028E	for
+ <user@domain.com>; Tue, 17 Dec 2015 17:35:50 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:64.94.250.8;KIP:(null);UIP:(null);SRV:BULK;H:mta-domain.com;RD:none;EFVD:NLI
+X-SpamScore: 16
+X-BigFish: vps16(z3c5bpbb4mzc540Ic857hzz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h1de096h186068h172c6ch1ce121i199020iz2fheh5fh839h8aah92ahd24h10d2h1239h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h19b5h1ad9h1b0ah1b2fh1bceh224fh1fb3h1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1ff5h20f0h2218h2216h226dh2336h9a9j41h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail175-db9: domain of domain.com designates 64.94.250.8 as permitted sender) client-ip=64.94.250.8; user@domain.com; helo=mta-domain.com ;domain.com ;
+Received: from mail175-db9 (localhost.localdomain [127.0.0.1]) by mail175-db9
+ (MessageSwitch) id 1387301747707495_3183; Tue, 17 Dec 2015 17:35:47 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.16.233])	by
+ mail175-domain.com (Postfix) with ESMTP id A115B4600A0	for
+ <user@domain.com>; Tue, 17 Dec 2015 17:35:47 +0000 (UTC)
+Received: from mta-domain.com (64.94.250.8) by
+ domain.com (10.174.14.26) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 17 Dec 2015 17:35:47 +0000
+Received: from domain.com (localhost [127.0.0.1])	by
+ mta-domain.com (Postfix) with ESMTP id 3dkRMk4PfDz7dc5	for
+ <user@domain.com>; Tue, 17 Dec 2015 12:35:46 -0500 (EST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1387301746;
+	bh=3YWYMIJXsm1X8vJBOLbWjTkFfJiVsB3WvjEz3cuBBfg=;
+	h=Date:To:From: "Jay Sanderson, The Jewish Federation" <JFC@JewishLA.org>
+	 MIME-Version:Content-Type;
+	b=RNGmbibH6OzvNpCnpSu5voVCLBPPi0VzKKITkLowQ7g3BoljiQ/ATM+84IBxzPwYw
+	 D520cdvKrUWMolOlVjFl5aX2bK0vgHDSNsPDVBW3JtipqBvEtYm46HAhPM1M3z9Qav
+	 PnRLqX2QfvPTPyLfhSFoB4PqNqecMnBwJaxlNXAo
+Received: from maillist-b 	by domain.com with local
+ (PHPMailer);	Tue, 17 Dec 2015 17:35:46 +0000
+Date: Tue, 17 Dec 2015 17:35:46 +0000
+To: Amy Pascal <user@domain.com>
+From: "Jay Sanderson, The Jewish Federation" <JFC@JewishLA.org>
+Reply-To: <user@domain.com>
+Subject: Only 2 Weeks Left to Make a Difference
+Message-ID: <721user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 738fe05206268973
+X-rpcampaign: rp_1094571
+X-maillist-guid: DwNTUQ8FbwNWC1ZQAVABUVULBgoNAFY6I1RLPEZVRgcECXZGEwFIRwpdSRtSCl5oUg0CAg
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+Return-Path: 
+ user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Only 2 Weeks Left to Make a Difference
+
+The Jewish Federation of Greater Los Angeles    
+
+
+
+
+         Dear Amy,
+
+You have the power to make a big difference in the lives of members of our local Jewish community who are counting on our support. But with only two weeks left in the year, time is running out to put your Jewish values into action in 2013.
+
+Make your gift to The Jewish Federation’s 2015 Annual Campaign right now. 
+
+Your gift could be the one that makes sure:
+
+A child without regular access to food has a nutritious meal.
+
+A father out of work receives critical job counseling after an unexpected layoff.
+
+A frail Holocaust survivor is given basic medications and homecare to live with dignity.
+
+We do all of this and much more, but we can only reach so many people without your generosity. The more funds we raise by the end of the year, the more lives we will be able to impact.
+
+<<link>>
+
+In addition to helping Jews in need, your gift will support our critical work engaging with the community and ensuring the Jewish future we all share. Together, we truly can accomplish the extraordinary.
+

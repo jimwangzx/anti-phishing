@@ -1,0 +1,185 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp611673lfb;
+        Thu, 28 Jan 2015 13:48:44 -0800 (PST)
+X-Received: by 10.140.101.201 with SMTP id u67mr6621747qge.33.1454017724831;
+        Thu, 28 Jan 2015 13:48:44 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.111.254])
+        by domain.com with ESMTPS id a140si13615817qhc.57.2016.01.28.13.48.44
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 28 Jan 2015 13:48:44 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.111.254 as permitted sender) client-ip=157.56.111.254;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.111.254 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Received: from domain.com (10.160.24.47) by
+ domain.com (10.242.216.17) with Microsoft SMTP
+ Server (TLS) id 15.1.390.13; Thu, 28 Jan 2015 21:48:43 +0000
+Received: from BN1AFFO11FD050.protection.gbl (2a01:111:f400:7c10::161) by
+ domain.com (2a01:111:e400:8ae::47) with Microsoft
+ SMTP Server (TLS) id 15.1.396.8 via Frontend Transport; Thu, 28 Jan 2015 
+ 21:48:43 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=domain.com;domain.com; dmarc=none action=none
+ header.from=nancyroteringforcongress.com;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.74;
+ helo=domain.com;
+Received: from domain.com (141.161.191.74) by
+ domain.com (10.58.53.65) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Thu, 28 Jan 2015 21:48:43
+ +0000
+Resent-From: Team Rotering <TeamRotering@nancyroteringforcongress.com>
+Received: from na01-bn1-domain.com (141.161.191.13)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Thu, 28 Jan 2015 16:47:14 -0500
+Received: from domain.com (10.163.126.26) by
+ domain.com (10.141.199.15) with Microsoft SMTP
+ Server (TLS) id 15.1.396.15; Thu, 28 Jan 2015 21:46:50 +0000
+Received: from BL2FFO11FD024.protection.gbl (2a01:111:f400:7c09::186) by
+ domain.com (2a01:111:e400:52fd::26) with Microsoft
+ SMTP Server (TLS) id 15.1.396.15 via Frontend Transport; Thu, 28 Jan 2015 
+ 21:46:49 +0000
+Authentication-Results: spf=pass (sender IP is 192.82.209.154)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass (signature was
+ verified) header.d=domain.com;domain.com; dmarc=none
+ action=none header.from=nancyroteringforcongress.com;
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 192.82.209.154 as permitted sender)
+ receiver=domain.com; client-ip=192.82.209.154;
+ helo=domain.com;
+Received: from domain.com (192.82.209.154) by
+ domain.com (10.173.161.103) with Microsoft
+ SMTP Server id 15.1.355.15 via Frontend Transport; Thu, 28 Jan 2015 21:46:49
+ +0000
+Return-Path: user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1454017609;
+	h=Sender:From: Team Rotering <TeamRotering@nancyroteringforcongress.com>
+	Content-Type;
+	bh=AcMfVJyIUe39XjDElvsg3Ek+8P8=;
+	b=jaALmMCfEmrZH5N5c9RWd7z3e2VkWGR+dVVnjo9DzCWyVQLnCqDcIKsAe7JIgcRC
+	R8c3pNUBsgH1QDl7AlTG+E4DKhCQfXsEIZH0ylKE/JtBrcTGNa6NYYP/Jkd3O6Fy
+	gfELtXBwiiYOZz5bzhM2bwm6xfmXtGfE5XoR4XhQSkw=;
+X-MSFBL: 8l6yzyu0HOLq3M8Q7Y/MglHANbNc+a4zggsiyftJHw0=|eyJiIjoibWFpbG91dDc
+	5MCIsInIiOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsImciOiJkZWZhdWx
+	0Z3JvdXAwMiIsInUiOiJib3VuY2VfMjQwMDAwMDE1NDkyMzYxMV9wb2QxMiJ9
+Received: from [10.11.74.253] ([10.11.74.253:61012] helo=NSV11OBMAIL1203)	by
+ domain.com (envelope-from
+ <user@domain.com>)	(ecelerity 4.2.1.51032
+ r(Core:4.2.1.4)) with ESMTP	id 0E/25-03510-94C8AA65; Thu, 28 Jan 2015 
+ 16:46:49 -0500
+Sender: =?UTF-8?B?VGVhbSBSb3RlcmluZw==?= <user@domain.com>
+X-Binding: default
+Reply-To: <user@domain.com>
+From: Team Rotering <TeamRotering@nancyroteringforcongress.com>
+To: user@domain.com
+Message-ID: <user@domain.com>
+Date: Thu, 28 Jan 2015 16:46:49 -0500
+Subject: Get your yard signs!
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----60C1A72A2EBC4B7D8577D1740F98FC91"
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD024;1:GNC6BUL6qzWroXqr7r909aOe9Vt6EQAqFJSlnc00+HBZ02zivz7HNB2z70NH5Y433w652Xy4+l5r794kxcoLLrHY6nsSJUyncu4N0U58ftzqKDtBwQS1lyAmkxJy24UUs70TCp3nSoTjOMzvGQQi3x5E0cQWGp0qaFOo5yLb4H5VTkr1ns/zdEECE+GUHwAQ197O3ZNB8qw5nTkBBbfVl4uTdRzfsg7Q8CUR1IhpUTuxeeX726reGLHHB5l5ysq+StEAtXIC5EI5Ol2OgcRSUKLHBZQdWft8TmQXA6B3eMqUj+o5UEoVfmXnGhMcFo/ezpIjCdTMYx6Yev5WP79LYZGyppray/b6LFbCeWg+QZLOtLyeDiogAY6nyTwGm9BEpR/7kwaEOCxRk6SXTfgWAA11k4iDVWq5Fe80tIcowpuQmBSIoVF1yBHFv5VtsdThntYNO7ZTjpJ/Ux4TgTlzlA
+X-Forefront-Antispam-Report-Untrusted: CIP:192.82.209.154;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31610200002)(31580200002)(1140300003)(2980300002)(438002)(596005)(286005)(359002)(189002)(199003)(349900001)(349012);DIR:INB;SFP:;SCL:9;SRVR:CO2PR07MB538;H:domain.com;FPR:;SPF:Pass;PTR:domain.com;MX:1;A:0;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB538;2:VvxeVMbGY3IdSslpjdVNPmQxKMuZR16989aOiRnz8VNv8SF9wxwMoHnLtWL4w58YXHOrSDdYZmpeyMrFA1S6oZBTF/ZBtAn2jewA6iurw3qBLXdZ0lO7lvtdAZN2GtvSXy5bCNLSHBixm/GvK12Itw==;3:Wzdbeh6AuvClW4wepwR62FZuRnsE3Kr9N0pRo4f9N5sOyXg/WOwFP391mpkXNw6ZB8rpQO/JA6z3lXS6nL0WjlgFftrHuV8fq3x9RH1tenoEXq6lvSBQUE/8ehVi1BcTVpEf/YfbWjtd2Mp1CJxkzEz0QJXgbmbk+em7Ec5f/TVg/EN65jehfdfa51AmE8VbVG32g5IX8Z+3mW5V4BBhEf+Prvea/4/wVz4tzJyaHzbm9poNGPIp4tQBrelkHZ7U+JaQuc2Z3JZwAEAMHJzHf8A4gYqnK/zh9OeRjoTFxsJ6gEGudXE/IPmVoJqote7w/Q1VKC+vDIqcSM7CIWmUdQ==;25:HsG4F/HqTQsWtW1TNJAi4nzpNpT6xZZj5UBsdT5JHPjlY87jY0+En7ixXSxSzil4fn88T+p9ZHtpLk7ziBN8g2Ptx3kc77i/OPs9/Pmgv2/X7+vgCUrDvj+A/K9oRGEpCqaxxJmlNJDoQ11+TiSrobgi8uX4AYY0RKSMoXgftJpv2erroL69Qgo0Nt6KSW7qs94kZ+8Kc9NcnMzWwPgIwS1xnQuD81ngzYucvDsil7mT+rd0QImYfmP1IxYaegsi
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:5;PCL:0;RULEID:(42134001)(42139001)(3001015)(71701003)(71702001);SRVR:CO2PR07MB538;
+X-MS-Office365-Filtering-Correlation-Id: d7e556cf-22d5-4eb3-6809-08d3282ccace
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB538;20:melLo1gLW5KiK5979WPucohdB1Lzmg7DPxWbPVacWP7ngUXRq+6sSI+J3qykyFDtc/2n35WCMT11x8b5JbUekgJJ7cmPTLnXIjJmDul2lS+PWWrUMfsMnUAVWoOftJOe4bmQU0/SuQkc4VrOxIJpkHiIu6xzGCurt/OfuLJ2mwmB5SXTXyGA/w0/vfMBa9sggRq5dEDef6t71Fj0qKnEiDiaETJjmZKXwJzHiE5JdRLDReK+bfWAH2qGATP3X67hQrbNxvyTTHH5rklR0cRJ67xBmuh7zbZuSeJ3czKNvLk6UEFj2FiJaCTXemk9W3XRqVpEqWGaKOrwx/kXialNIw2fl/qSCfBaAkqHxH7zMZtYiGdczYCLIO0j68kcnFX94iB12cE7VwnUHcbR1R6zp/h8fGA/sOp9SsK850eY0B0=;4:4sZ/7eZcbEjZjpfZcyt86YRoyqwRkW0ODJd8EEKXgWHP2Sl7k4VxJ+q9CJGXqlCqjUK31CYgiHbFhIhkRdlQ0ozjah6p4jpBktTW3hAzyh0q6Jc/ZcfYeJgaReIiS04fkxdOdh87WHKrtCd/tKi69FiHdr9hlZ6mYDP1QB9m29c6ZT4NoJw2s8bpFg00DXRVAlIEjPTT120tZJvXVola+qH+fbbh5Y4JQvdDdmd/WTxTuL2x6W4lQeQDblqhlMZtL0xLG1Wg9Pjkfp1jJ/8f1u4xITR8WtwpM3UNNJRldxtpBWZGxHRu0i32TyszVQFk6Y7lHmSa6eKeadr6wqx8P1Ll43pHYgxD/k5makp7B5sUCwBmgjmiX19nc6R/qJqn2oUmjzsz1bfOlT9e81CyIw31FzH57XTPA1Q97cObejJdAVWcBKZLUU5a9TyE37We30tJRj0JLW5iZQSth5L03lrsSPXZw9s1X5FN/M60ZD4
+X-Exchange-Antispam-Report-Test: 
+	UriScan:(76009858676777)(6594202986349);UriScan:(76009858676777)(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:5;PCL:0;RULEID:(601004)(2401047)(2000001)(13018025)(13016025)(8121501046)(3002001)(10201501046);SRVR:CO2PR07MB538;BCL:5;PCL:0;RULEID:;SRVR:CO2PR07MB538;BCL:9;PCL:0;RULEID:(601004)(2401047)(2000001)(5005006)(8121501046)(13018025)(13016025)(3002001)(10201501046);SRVR:BN1PR07MB103;BCL:9;PCL:0;RULEID:;SRVR:BN1PR07MB103;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB538;23:/FqKRSL6fFB1UI+i3YVLdvq/N43YWKKVvaqWA5mhVVYD00lH1tLYi6R/nsb3svDoRWaNZ70/EOymbVa9X/dke/Cei0fQdOaPjpaBj5PUDQr0+gY8wNfxcr40ZdD/fkYMYi7EJPtm16TJzz5PTDvm9VSaAbWVAbyxTtBrPJkW53CxYx9MOPPiLDw+2li1MJAsJTmulaZPHXvusLC3WfDtGy7MH39WouGBAl3M/ZdiDSJkzQdytMykdUBvtz1TkFJtC7owqFjpjocIx0FyITNAE3gWswkLqhD1I9xu1SFktWUk+4p4QFmM0rJPfyTP31dRhLCyd4xWTo2LToLDECkgEZYeSVPOmcCpkFq7fIyPCtYg3Q+WeIF0BqiOk5ezNNm6YmrJbYhg/+k2R3HlIJxyMaMBy9ABp2lENiVO0ZOjHBoO6Ow++VbsvMmieJmELah8dsbk4sRsDHlNAa9HHROAkA==;5:QWFj8gFND6RSlW2ZmTj9G4vLWpnN7U41ut8Tc8vSMO1ODvDaVRH47pGakmvZQtvweB7Dvu237pWHYNYbn9cd8naOIltUztJDJfu+3lyJZkB0YPXWFRqhaDQtU7TrVBZAvZqbVLGaYIJbngX1eC//Cg==;24:KqgVZxGp2V2rApiwboSCOdEptNA4SHrfARAUgI2T++8BBtcdKsopB9kPHWLslR7rw/KOrcaStLyMwKlIVLuTHg
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 5
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB538
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD050.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD050;1:rS65bnVJ3xMWyE2wfTiMXn2U0Wh16XIti0g90KLp5wlbbK1Fj84izkSEpfXuAQuljorwYa4sU32YpldGrvwhyfSDwfMH59/9vMn8+u+P6twJLM/U/70qrQD6+CEj5V56Hop1Zu+iyf8+auzHCfMwunsmp2axYxqeVt9dp8nZ69bkKohdo+pG0TqTeJizZPXio+mAMQJyYw2G3J9HH5IfijJ1RtZj/rPVOwpm+kvukEQY9dzE7+NFa4eZb6zFXyK64GxwEBsvGrLKP6hIbE7pBCTkbqkIaOf70tZHA98F/EhIULhXBFVhKwrsogYDTdZ+/kfT3ZtUBUtMIblSaIn79YfPTqH5QK598zURVsjEQ/Za01ltkPal8jZQ2MGlapcYmH6iBKrcX29C/rSDJIEy8IsxzoswO5//C27lXl2i4GQ
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(10009020)(2980300002)(1140300003)(1109001)(1110001)(339900001)(596005)(359002)(349900001)(189002)(199003)(349012);DIR:OUT;SFP:1501;SCL:9;SRVR:BN1PR07MB103;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB103;2:GOoID5EBG+o9ukFUS4F4tV9rEBPRJrybwZWjcQrCziHiEITbsySCsdpRxH4vlmfQ5dxN4hZFgbBiKhzWqJyTsUnXrklO12cdH9W3rzou6EqfXGLJz2SgcCHNtp1Kfu/O7ddnaAzpRV8HI417y7I9OQ==;3:654pEvLcdohTVZBbeQTfrNBcyZJbdiLwYZRyRr6HnwbaysbNdCanT5IDtCNBiijEB6N9A8DWpeYkzOsyWw5pw9KrqznqEbcZ2APq/2HBZ5F+Ota2d2bwuyQzdccWmKuhhkzAZtur7Mkb9DG9qQIq47QIwhPuICc5uYyjC+djTRW0HzX3/RJ4x+cz5SoU2zzw5HaJIb2XkuN96ZiUNgL9yRCWiSzDRSGbPfsV0ldiiE3rwigVk3TUPi6BAUC2JPu+OsztBqDSJFfnVTAJP5YE/njZ1sPhufKMd40eUzV7AVI=;25:QtzdGLJpLbWM19x94mEg0PWgVoiQVsFTHw39gIimtYLVAIkNKXOEWZ1wE1NLQk5wDIxHbBPu8zHaWyrDAkqHihaJU7CsqqpzFx5n+O0S7TTIXXczPYAfBMFopvHry0z6zJBMQj6yjALCW3lnObsmzniLtB2IrEehUVEwcjhDX9lgqLEhu/HORMxLMACy8NV4sDsxrPVvPMyP8DKBAuWgGHuhxOVDiJybZLoTffUD/soBk3RHNjNiuPsMnnfa+4QZ
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:;BCL:9;PCL:0;RULEID:(42134001)(42139001)(3002015);SRVR:BN1PR07MB103;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB103;20:C4e1LWjG5bfo/4tjzljk/hTIp1ONq1/gm+b2lsckd9eEO2Zwaa3zHEFJBrIpT4/sW2ksNlIkWibSTl4NYcqfTxTyUjshh02Uo195O4HnIe2sNmOXyUyg6B+r7WUcd9I+RrhF7QrDQhr2SX5vrl84G4p2r6BBdZmxgblnLipgh11oTgY6xTtXExAaK93L5ELbPVq6903qZJvhN4HAuo/MT2jN2FBpFu0TjjPmrfUtkOX7t0TpcS8/BTq527D1OG7eVC5CVOvkr5Qa3XUjsEDFtD6srFT/Rbei4NIrzBG0/tJy3b3TZlG2KEdrMYYWgnKwL88bC0xrt0u3OjxHns7UXSCD17+O9zNTxsdikD2WsUDe9MqFXHUoy04a6w4iMfYz0o3r1iZGFOBrR8ZIrlNUmQjenLL82V5sRQq6szCTD7c=;4:DzBMw1zIb+w3d9fL9CK9FcYbVNd0gt4zzUAqE+XIWiGotQwNz8dY1SaBANkGH46An91y/Tx77D2yXYj8rieV83C+GE3gGEF97NsYkBcAaIqOiYghPvUX8VTdv8RL9UZ+lQnMtvYnUaSaAlBNvrLkQHg+lr4TlRYBbClmZEwwQ5ZPamqR//SlEtAqTowEGheaEuHDWGjlfETDX2rVDQMMJb6+OulbqupOuup/tNkv79pP0v+8hV+hpDegiCk9Ou4iXyw5jZYrxJLI9qfjrtMLow2ur+UXnVuYzUFSWItGivL8C93Rubt98CHRckGxL2P7qVILwnHmhMNK5Fwx9GVxjHVybZM2pnnp1hGcKn3CaO+hFMX3nssr9Yiksq+KBnkJy3jIJqGR6hIhn464Dh/YbIKC011h5rLzxBsBzNeTngMkAA+GqdiV57z5vdntdYGjq5kaO44DBCo/WpuVsm34hNWotm1pynWw9LPI0dKUdri0FibPsnxOgXzTWS/OujpG
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 083526BF8A
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB103;23:T4J8WTPVGI3f43qfVwq2kKEYPqLZ9SLdrTp1jElupkPe0dy3vBo19J7Lmo4NKjbJH0rBgfdSQwL7WYgQ8ciSv9YXLGsy18+pleTisyC4moVFLMtKFre5dDngiinmkiFCqcN91cQJOD1d8TZoIr1vgDSfL5WGvhk4tRQEJHN598xqW8z4UOJ7GGcSGSKiQzNplSiyK2CpsAkKHpwTQkaLl83CvaTFR9poZcanInNeigiLdCq+Ryu663cY4u917dF7lVFrNSbOchtNnZ3w2UygI3fhwGqAsPE3v8glMAqg14lnZZGJhi5yS/NFC4geyPjwdIZ/BE7kVlQKKaO67S0W7zdf7A9dUgkwD91i0on160ujk6C8UqHP9eL68H0cvMAS9hr8+LWh102lLZ+H9Ess7Ey2rJb2Y6DuFPp+DU2cl2bLBH6vlVKRv7qaARoi5tND;5:eHdBURmjf0voNIhl/fzp/XI1pCH+BFcS3FQsuFAzxD4cnc6nQaHbA3lCeWVILjZtIZogEPW9A/tU7XryXGBtetbKPJEz6Hvg5J91a/GVYDBll31RabR0IUVgmaqLUC8XvROkmBjhXFHF4U62bPcxEg==;24:UGhXrMwHBv3NcScuJbraKJytFXKxrlPIA7magbyvjWlXzFn2DmN2OIJBfizOFapUp8Dp19fQ8MDPA0/l48AnhQ
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 9
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 28 Jan 2015 21:48:43.3384
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN1PR07MB103
+
+Friends,
+
+Green signs are sprouting up from one end of the district to the other=2E
+ Is it spring yet? Not yet, but it is a 'sign' of great things to come!
+ Our team is hard at work planting yard signs=2E
+
+To get one for your yard, click the link below and we will get a sign t
+o you ASAP!
+
+Yard Signs >>> <<link>>
+
+If you know other people in your area who would like a yard sign or hav
+e any questions, please contact Daniel Berkowitz at user@domain.com
+gforCongress=2Ecom or 847-266-4900=2E
+
+Sincerely,
+
+Team Rotering
+
+Contribute Here >>> <<link>>
+8
+
+www=2ENancyRoteringForCongress=2Ecom
+
+Mailing Address
+PO Box 18
+Highland Park, IL 60035
+
+Office Address
+1910 First St=2E Suite 1S
+Highland Park, IL 60035
+
+-------------------------------------------------------
+|    Paid for by Nancy Rotering for Congress, Inc=2E    |
+-------------------------------------------------------
+
+If you believe you received this message in error or wish to no longer 
+receive email from us, please <<link>>
+9701376/5242326906082560000=2E
+
+Nancy Rotering is the two-term Mayor of Highland Park, Illinois and is 
+running to represent Illinois=E2=80=99 10th Congressional District=2E S
+he challenged the status quo to get the results residents needed=2E Nan
+cy enacted tough reforms, balanced five consecutive budgets and had the
+ courage to take on the NRA and pass one of the nation's only local ass
+ault weapons bans and won when the U=2ES=2E Supreme Court allowed the b
+an to stand=2E Under Nancy=E2=80=99s leadership, a legal aid clinic ope
+ned providing free services to vulnerable residents=2E Nancy has been a
+ leader in inclusive government, making sure all residents have a voice
+ and that the civil rights of all are respected=2E To learn more about 
+where Nancy stands on issues that matter most domain.com www=2ENancyRotering
+ForCongress=2Ecom=2E

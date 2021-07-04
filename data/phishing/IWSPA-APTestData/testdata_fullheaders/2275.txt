@@ -1,0 +1,77 @@
+Received: from domain.com (43.130.141.78) by
+ domain.com (146.215.231.44) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Thu, 30 Oct 2015 16:12:01 -0400
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 30 Oct 2015 13:12:00 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id s9UKBxb0004914	for <user@domain.com>; Thu, 30 Oct 2015 
+ 20:11:59 GMT
+Received: from na01-bn1-domain.com
+ (mail-domain.com [207.46.163.184])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id s9UKBxTG005804	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 30 Oct 2015 20:11:59 GMT
+Received: from BY2FFO11FD009.protection.gbl (10.1.14.34) by
+ BY2FFO11HUB061.protection.gbl (10.1.15.236) with Microsoft SMTP Server (TLS)
+ id 15.0.1049.20; Thu, 30 Oct 2015 20:11:57 +0000
+Received: from nm17-vm1.bullet.mail.bf1.yahoo.com (98.139.213.55) by
+ domain.com (10.1.14.73) with Microsoft SMTP
+ Server (TLS) id 15.1.6.13 via Frontend Transport; Thu, 30 Oct 2015 20:11:57
+ +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1414699916; bh=BVoo+IadYo5NLN+0jVg4g7TmsFHcfVXA0h9JSW5J5P0=; h=Subject:References:From: Lili Lynton <lililynton@yahoo.com>
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s2048; d=yahoo.com;
+	b=g3DdTQJcIXOdWlnEaWtTvL7dosNuDVR3eqROhaJ2uMHbZ89S2dBq37Wcu1anfOSXhS2VI5m5W9svzPX8TCMQT0puX4KBbX7S4R2X070FhY6qMxJmwBbX3jldD7hFLBY6eWyPMQXUoHZ2qUTE7jnEkBVCuCvCkKuH+e7iDuDDvVEYwd866ATzq68CGJDAZoJIReo5hyLePaWiyWVBmLnAkSBZdBDbnyFHyWJ3xLutlJTNHVWHGa6fUWMQiUYqzUmPqRwBVgX8dEtWSWpCf/hj8qOz/eaNIHCi+cgUtn73k+Rjcvn4mDqADbAzQVrX8qJC0Ae2gqYN1S/2XoFT8tqxFw==;
+Received: from [98.139.212.151] by nm17.bullet.mail.bf1.yahoo.com with NNFMP;
+ 30 Oct 2015 20:11:56 -0000
+Received: from [98.139.213.13] by tm8.bullet.mail.bf1.yahoo.com with NNFMP; 30
+ Oct 2015 20:11:56 -0000
+Received: from [127.0.0.1] by smtp113.mail.bf1.yahoo.com with NNFMP; 30 Oct
+ 2015 20:11:56 -0000
+X-Yahoo-Newman-Id: 385889.38320.user@domain.com
+X-Yahoo-Newman-Property: ymail-3
+X-YMail-OSG: B9J95IMVM1nJMhxs1l_lttS5qwXfJL7erjTU1Ht2rddijAD
+ av8anvJQYTwbXFCFiOvprfzTyHG2rbbuQpo.wWBIXiT2FaXVMJFXvXKKkIQN
+ YkOJfsPVyZIGMOLhZK8YEY1v7JkJOYN71jeh55nenA4gG9__zD5WpLRCVlUh
+ 7wU.O.Pt4UCXjQl6Lwpm8rdt4Q26rJshpcxYSD14mSol._5s80d9UNhn_0A5
+ Au33HFDE2bzWY4B6IW5FlhfzViEIbCfDNtzDfQVEb34uszPt6FPj.fnVg79I
+ ja_gB4eVR6WV8tGno797_ZaYOOCsjLZiwZGckwg.EZ3WvAF0AQRKp7vbJv2q
+ Sz7YkGe0WlHptjmMbUBjolbkjJju3tzghsU3u8JQwhlvmZQnW3MjuWQ.AF3E
+ ifL8qK1PuHTt4NOYAdxjrJSRbQQ5MK0r7eBMfheVdQEzbx27sL3cLPH913Dt
+ jmSlrmiIexHHZGOIZD6X1ZQq4bOsco0OJwm6c276d0V_QkTj74WHvfzPZntz
+ mjbADhgY9nXgFPRbaz6tD9vNcwkBoOp8-
+X-Yahoo-SMTP: 1xFhRmCswBDDlZV.VtukA4OpzcUv7KE-
+Subject: Re: a billion dollar idea, but a bit sick given my life
+References: <70user@domain.com>
+From: Lili Lynton <lililynton@yahoo.com>
+X-Mailer: iPad Mail (12A365)
+In-Reply-To: <70user@domain.com>
+Message-ID: <user@domain.com>
+Date: Thu, 30 Oct 2015 16:11:54 -0400
+To: "User" <user@domain.com>
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: CIP:98.139.213.55;CTRY:US;IPV:NLI;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(6009001)(438002)(24454002)(199003)(51704005)(377454003)(189002)(102836001)(50466002)(19580395003)(17816001)(946001)(34756002)(83716003)(31966008)(16796002)(62966002)(85306004)(956001)(21056001)(85852003)(50226001)(88136002)(87286001)(110136001)(52886002)(87836001)(44976005)(450100001)(83332001)(95666004)(34766002)(19580405001)(104166001)(76176999)(50986999)(89996001)(36756003)(92566001)(77156001)(92726001)(86362001)(93916002)(82202001)(46406003)(6806004)(106466001)(82312001)(107046002)(107886001)(23726002)(87572001)(47776003)(64706001)(46102003)(76482002)(82746002)(4396001)(97756001)(20776003)(33656002)(99396003)(120916001)(81542999)(73972006)(104396001)(7059028)(42496004)(47276003)(117466002)(62882003)(37276004);DIR:INB;SFP:;SCL:1;SRVR:BY2FFO11HUB061;H:nm17-vm1.bullet.mail.bf1.yahoo.com;FPR:;MLV:nov;PTR:nm17-vm1.bullet.mail.bf1.yahoo.com;A:1;MX:1;LANG:en;
+X-Microsoft-Antispam: UriScan:;
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:;SRVR:BY2FFO11HUB061;
+X-Exchange-Antispam-Report-Test: UriScan:;
+Received-SPF: Pass (domain.com: domain of yahoo.com designates
+ 98.139.213.55 as permitted sender) receiver=domain.com;
+ client-ip=98.139.213.55; helo=nm17-vm1.bullet.mail.bf1.yahoo.com;
+Authentication-Results: spf=pass (sender IP is 98.139.213.55)
+ user@domain.com; 
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+I 100% agree.  The trick is to take on the protein bar market and get some famous folks to reason why a diet chocolate bar is better than those protein bars (that I hate).  Let me give it more thought.  
+
+Lili Lynton
+user@domain.com
+917.602.4208
+

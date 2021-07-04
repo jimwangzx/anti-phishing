@@ -1,0 +1,69 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp107111lfr;
+        Fri, 17 Jul 2015 19:48:44 -0700 (PDT)
+X-Received: by 10.70.123.37 with SMTP id lx5mr34846273pdb.83.1437187723834;
+        Fri, 17 Jul 2015 19:48:43 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from omr-m09.mx.aol.com (omr-m09.mx.aol.com. [64.12.143.82])
+        by domain.com with ESMTPS id xu4si21522098pab.154.2015.07.17.19.48.42
+        for <user@domain.com>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Fri, 17 Jul 2015 19:48:43 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.12.143.82 as permitted sender) client-ip=64.12.143.82;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 64.12.143.82 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=aol.com
+Received: from mtaout-aac01.mx.aol.com (mtaout-aac01.mx.aol.com [172.27.2.33])
+	by omr-m09.mx.aol.com (Outbound Mail Relay) with ESMTP id 383E07000008D;
+	Fri, 17 Jul 2015 22:48:42 -0400 (EDT)
+Received: from [192.168.1.153] (c-73-200-105-233.domain.com [73.200.105.233])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mtaout-aac01.mx.aol.com (MUA/Third Party Client Interface) with ESMTPSA id CBAA838000084;
+	Fri, 17 Jul 2015 22:48:41 -0400 (EDT)
+Content-Type: text/plain;
+	charset=utf-8
+Mime-Version: 1.0 (1.0)
+Subject: Re: HRC did great
+From: Mandy Grunwald <gruncom@aol.com>
+X-Mailer: iPad Mail (12F69)
+In-Reply-To: <27375840602513402@unknownmsgid>
+Date: Fri, 17 Jul 2015 22:48:39 -0400
+CC: Christina Reynolds <user@domain.com>, 
+ user Carrk <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Robby Mook <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ John user <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Nick Merrill <user@domain.com>, 
+ Joel Benenson <user@domain.com>, Jim Margolis <user@domain.com>, 
+ Oren Shur <user@domain.com>
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <user@domain.com>
+References: <-2046417954853816209@unknownmsgid> <-2527568893391183255@unknownmsgid> <-673281769227672534@unknownmsgid> <58user@domain.com> <212492490363723650@unknownmsgid> <2user@domain.com> <-1122406549546820344@unknownmsgid> <user@domain.com> <27375840602513402@unknownmsgid>
+To: Lily Adams <user@domain.com>
+x-aol-global-disposition: G
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+	s=20150623; t=1437187722;
+	bh=ZteTGI9bFV3FNwvLooGHsZphVT8AN/VoDeUbj99lllM=;
+	h=From: Mandy Grunwald <gruncom@aol.com>
+	b=EZd0cL/Odsg7fXGLzNKY3N173mBRQTGzqEhxEqI/M1oTm1MwCMg19zpjeByRWQTDk
+	 mJeDGKxug4955E+GBIaKxtxwsw0bX85XqPP5YbIQ12RxKJXzF6r9j+sM7IYSEw0KNi
+	 9gvtSSZV6Br3zNrgyZ61h5gxMQKLT9Es2cweUxmk
+x-aol-sid: 3039ac1b022155a9be894fd1
+X-AOL-IP: 73.200.105.233
+
+Interesting that Bernie is making a big play on AA and Latino issues -- and g
+etting good reaction,
+
+Huge applause on Citizens United.
+
+Mandy Grunwald
+Grunwald Communications
+202 973-9400
+
+:
+

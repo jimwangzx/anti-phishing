@@ -1,0 +1,88 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp913649lfr;
+        Sat, 22 Aug 2015 13:07:52 -0700 (PDT)
+X-Received: by 10.140.147.85 with SMTP id 82mr35672139qht.90.1440274072425;
+        Sat, 22 Aug 2015 13:07:52 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [198.232.218.223])
+        by domain.com with ESMTP id q16si20198159qkh.99.2015.08.22.13.07.51
+        for <user@domain.com>;
+        Sat, 22 Aug 2015 13:07:52 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 198.232.218.223 as permitted sender) client-ip=198.232.218.223;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 198.232.218.223 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkey01; d=opinionmilesclub.com;
+ h=Date:From: Opinion Miles Club <info@opinionmilesclub.com>
+ bh=YsW4wLIFzB/SNKSKr798ki2j20M=;
+ b=IHq1PDa2mK3VTtybFyi0frHF6XRiHB4axCl1wXV+nU94pcgDwQXwVeo6pTHJlbYVuUb6C8GLQjbx
+   Uc1qRGKrOE33GWAFZ6+n47h1UaNatQrUQwbtd3ioWG4yfqcRXlJPS0WQpihhQwao37E2E8+p3DRh
+   Ewlx4xY3iPTbGzDQJUs
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkey01; d=opinionmilesclub.com;
+ b=HMZyMfrHrQCnJ/MVpWdN9rKAJ959U07HVxStkEac+fo43foaYGM6vGGTxoe96zHqXo2HWG9iOUId
+   vl80EdXy9ftPg99hQKs8ew7w+HMNciFVd6oZjuevV4PSPT/StFo/gzMSP6vgtXSmwTkev0TgVGsO
+   /khCxyMZGA5Ky5ZkcKg=;
+Date: Sat, 22 Aug 2015 16:07:05 -0400 (EDT)
+From: Opinion Miles Club <info@opinionmilesclub.com>
+To: John user <user@domain.com>
+Message-ID: <1481437028.79823574.1440274025643.user@domain.com>
+Subject: Alert - Opportunity for business professionals
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_79823572_510813812.1440274025641"
+x-mail_job_id: 2198123
+X-Shipjob: N2198123
+X-subpanel_id: 44
+X-PID: 1280492913
+X-panelmember: T
+X-DubProjectID: ORD-189926-M4H6
+X-ProjectID: 250930
+
+ Professional Survey
+New Opportunity to earn MileagePlus=C2=AE Award Miles!
+
+Award Miles:  Award Miles: 60 Award Miles
+
+Survey Length: 10 minutes
+Survey Number: ORD-189926-M4H6
+
+Start Survey <<link>>
+LH-DW8rciwfbeayIDfm
+
+Valued professionals have the ability to participate in surveys that focus 
+on their work experience. Professional surveys are very engaging and offer 
+additional award miles - Start Now!
+
+------------------------------------------
+
+You received this e-mail as a member of Opinion Miles Club. Add Opinion Mil
+es Club to your address book so you won't miss a single survey invitation.
+
+Contact us
+Please do not reply using this e-mail address. If you have any questions re
+garding this survey, please domain.com our help page.
+<<link>>
+=3D167804
+
+Update your Profile
+Every time something changes in your personal situation you can domain.com your p
+rofile so we can invite you for questionnaires which are of interest to you
+.
+<<link>>
+1280492913&pw=3D167804
+
+Guaranteed Privacy:
+Any personal information collected will be held in accordance with the Priv
+acy Policy:
+<<link>>
+
+Please also domain.com our Terms & Conditions:
+<<link>>
+
+We'll be sorry to see you go but you can unsubscribe at any time:
+<<link>>
+pw=3D167804
+
+Opinion Miles Club is a panel maintained and operated by Survey Sampling In
+ternational, LLC (=E2=80=9CSSI=E2=80=9D). Please contact SSI at 6 Research 
+Drive, Shelton, Connecticut 06484 USA.

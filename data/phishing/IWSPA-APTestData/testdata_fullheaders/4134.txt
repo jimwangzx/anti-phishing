@@ -1,0 +1,74 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id 3E5EF4688C
+	for <user@domain.com>; Thu, 16 Aug 2015 19:24:44 -0400 (EDT)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id 9B7CB131FB49
+	for <user@domain.com>; Thu, 16 Aug 2015 19:24:42 -0400 (EDT)
+Received: by domain.com (Postfix)
+	id 595201C429; Fri, 17 Aug 2015 01:24:33 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.90])
+	by domain.com (Postfix) with ESMTP id 854CA1BF49
+	for <user@domain.com>; Fri, 17 Aug 2015 01:24:31 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 1D6628A5
+	for <user@domain.com>; Fri, 17 Aug 2015 01:24:31 +0200 (CEST)
+X-Quarantine-ID: <bZTs5WfDF+Mz>
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 19.621
+X-Spam-Level: *******************
+X-Spam-Status: Yes, score=19.621 tagged_above=0 required=5
+	tests=[BAYES_50=0.001, HTML_MESSAGE=0.001,
+	HTML_MIME_NO_HTML_TAG=1.082, MIME_HTML_ONLY=0.001,
+	NORMAL_HTTP_TO_IP=0.175, NO_REAL_NAME=0.961,
+	RAZOR2_CF_RANGE_51_100=0.5, RAZOR2_CF_RANGE_E4_51_100=1.5,
+	RAZOR2_CHECK=12, REPLY_TO_EMPTY=0.6, URIBL_PH_SURBL=2.8]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id bZTs5WfDF+Mz for <user@domain.com>;
+	Fri, 17 Aug 2015 01:24:26 +0200 (CEST)
+Received: from domain.com (domain.com [72.29.65.181])
+	by domain.com (Postfix) with ESMTP id 26A4E1BF49
+	for <user@domain.com>; Fri, 17 Aug 2015 01:24:25 +0200 (CEST)
+Received: from nobody by domain.com with local (Exim 4.63)
+	(envelope-from <user@domain.com>)
+	id 1ILoh5-0000uC-Ag
+	for user@domain.com; Thu, 16 Aug 2015 19:23:59 -0400
+To: user@domain.com
+Subject: ***SPAM*** Question from eBay member
+From: <member@ebay.com>
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <user@domain.com>
+Date: Thu, 16 Aug 2015 19:23:59 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - domain.com
+X-AntiAbuse: Original Domain - domain.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - domain.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Content-Length: 17715
+Lines: 263
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 28
+
+ TD Banknorth Inc.
+Dear TD Banknorth Group Inc. Corporate Banking user!
+Our Technical Division is carrying out a scheduled software update
+By clicking on the link below you will start the procedure of the user login authorization:
+<>
+These directions are to be mailed and followed by all clients of the TD Banknorth U.S. Corporate Banking
+TD Banknorth USA Treasury Management does apologize for the troubles caused to you, and is very grateful for your collaboration.
+If you are not user of TD Banknorth Group Corporate Banking please delete this e-mail!
+*** This is an automated message, please do not respond ***
+ 2015 TD Banknorth Group Business Banking. All Rights Reserved.

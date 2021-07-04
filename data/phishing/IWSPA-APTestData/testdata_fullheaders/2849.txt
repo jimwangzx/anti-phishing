@@ -1,0 +1,83 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 17 Jun 2015 14:06:26 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s5HL6PB3025234	for <user@domain.com>; Tue, 17 Jun 2015 
+ 21:06:25 GMT
+Received: from mail97-ch1-domain.com (mail-domain.com
+ [216.32.181.175])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s5HL8Cbp013034
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 17 Jun 2015 21:08:12 GMT
+Received: from mail97-ch1 (localhost [127.0.0.1])	by mail97-ch1-domain.com
+ (Postfix) with ESMTP id B890C40022C	for <user@domain.com>; Tue, 17
+ Jun 2015 21:06:24 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:74.116.91.38;KIP:(null);UIP:(null);SRV:BULK;H:mkt4-domain.com;RD:mkt4-domain.com;EFVD:NLI
+X-SpamScore: -5
+X-BigFish: vps-5(zzc89bhdc43hf01Mc857hzz1f42h2148h1ee6h1de0h2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch1fdahzz1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h18602eh1b778fh1ce120hz2fheh5eh5fh839h8aah93fhd24h10d2h1288h12a5h137ah13eah1441h1537h153bh158dh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h282bh28a1h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail97-ch1: domain of domain.com designates 74.116.91.38 as permitted sender) client-ip=74.116.91.38; user@domain.com; helo=mkt4-domain.com ;domain.com ;
+Received: from mail97-ch1 (localhost.localdomain [127.0.0.1]) by mail97-ch1
+ (MessageSwitch) id 140303918313160_25238; Tue, 17 Jun 2015 21:06:23 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.243])	by mail97-domain.com (Postfix) with ESMTP id E9EA444004D
+	for <user@domain.com>; Tue, 17 Jun 2015 21:06:22 +0000 (UTC)
+Received: from mkt4-domain.com (74.116.91.38) by
+ domain.com (10.43.70.19) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 17 Jun 2015 21:06:22 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=dkim; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1403039181;
+	h=From: Los Angeles Mission - Herb Smith
+	bh=CU21XDemetfQkAseWyyhezV3hRk=;
+	b=miFQA9svpEqlz7Uc2MMlCIgAYUnyf6x2gNGSsY5QFi1exdz5Uoz8Cvp0E2ZzWdXz
+	DmUhJZ0DRtT+JcVRF8kySexZGPv0Af82SHjMaTr3iTKJzUyy5Gu4WyXyeu9ia5OC
+	C2YrdXABm3tjMWY7wKoFEDif6UKWfizLLvUvG8/bqWg=;
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=mkt; d=domain.com;
+	h=Received:From: Los Angeles Mission - Herb Smith
+	b=jVa3sP6uvzg8YdQX8WZWM5RFyhascfM5sXCOPD/bW9qwbi1C0DQhArUOLOOKFOuA
+	ti3BDeH3zXNKM5WXZ0tYSGR7JKpIsBc8XJBOJn9Y1TtqbHzb1AEJyZBAYytZg6Kz
+	lGbGbgwMlTRW3J5kh1XuxfGfLrWi9sZ9qZq6H6J1xVA
+Received: from [10.4.33.155] ([10.4.33.155:55697]
+ helo=vm-domain.com)	by napa (envelope-from
+ <user@domain.com>)	(ecelerity 3.1.6.41536
+ r(41536)) with ESMTP	id 36/47-02065-DCDA0A35; Tue, 17 Jun 2015 14:06:21 -0700
+From: Los Angeles Mission - Herb Smith
+	<user@domain.com>
+Reply-To: Los Angeles Mission - Herb Smith
+	<user@domain.com>
+To: <user@domain.com>
+Subject: Summer Video: Hope Beyond a Meal & Care
+Date: Tue, 17 Jun 2015 21:06:22 +0000
+Message-ID: <6user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>
+X-Company_ID: 464770
+X-vrfbldomain: domain.com
+X-vrpod: p0
+X-CTS-Enabled: 6bc545317e-2ce53a1d78
+X-Campaign: 6bc545317e
+X-vrrpmm: 464770-6bc545317e
+X-Feedback-ID: 6bc545317e:464770:vr1
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Summer Video: Hope Beyond a Meal & Care
+
+Click to view this email in a browser
+
+june2014_header  
+
+june14_ethumb
+
+Dear Amy,
+
+In four short days the summer season will officially begin. With summer comes the heat, hunger and hygiene problems faced by thousands of men, women and children on the streets of Los Angeles. While giving to the Los Angeles Mission will be at an annual low, we fully anticipate a record number of people coming through our doors needing hope and that literal “cup of cold water in Jesus’ name.”
+
+
+
+As you’ll see in this video, that’s exactly what you’re providing when you give a gift to the Los Angeles Mission. Please prayerfully consider a generous gift today so that men and women like these can find hope beyond a meal and care this summer. And when you give now, you gift will be doubled. Please 
+

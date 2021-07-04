@@ -1,0 +1,49 @@
+Delivered-To: user@domain.com
+Received: by 10.140.18.137 with SMTP id 9csp62488qgf;
+        Sun, 9 Mar 2015 15:25:22 -0700 (PDT)
+X-Received: by 10.229.89.65 with SMTP id d1mr7190478qcm.14.1394403921703;
+        Sun, 09 Mar 2015 15:25:21 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [198.137.240.20])
+        by domain.com with ESMTPS id k45si8509853qgd.142.2014.03.09.15.25.21
+        for <user@domain.com>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 09 Mar 2015 15:25:21 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 198.137.240.20 as permitted sender) client-ip=198.137.240.20;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 198.137.240.20 as permitted sender) user@domain.com;
+       dkim=pass (test mode) user@domain.com
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=domain.com; user@domain.com; q=dns/txt; s=oa; t=1394403921;
+  x=1425939921;
+  h=From: "Sepp, Eryn" <Eryn_M_Sepp@who.eop.gov>
+  bh=Iio+C9vrNHHQEGdVo30exr9grh3usW/xT1XQkzQsy30=;
+  b=FTcscBuCsfE2rncBtZGgt2xQ5F+7Ra4zlBdj3JWkKuwpG8Ed2I6v7n9M
+   Ny/9mzK++ZX99vONvrM/gluVNuOFnzKSeOqYrHnQHlikHRuepuTIiOX53
+   cIcaNh9cuijw5zP8RTtzKTqYpgtucRRjXBUN3QB42KhyAWIJ4WbkNCSpr
+   8=;
+mid: 76284843
+X-ExtLoop1: 1
+From: "Sepp, Eryn" <Eryn_M_Sepp@who.eop.gov>
+To: 'John user' <user@domain.com>
+Subject: Receipts Reminder
+Thread-Topic: Receipts Reminder
+Thread-Index: Ac875mz+MNwSS6L7Qdye3GYlqwtnOg
+Date: Sun, 9 Mar 2015 22:25:19 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+x-originating-ip: [165.119.154.10]
+Content-Type: multipart/alternative;
+	boundary="_000_C5303CF47707FC429A24D83940BDD739E54A5FSMEOPD04DSEOPGOV_"
+MIME-Version: 1.0
+Return-Path: user@domain.com
+
+Remember to bring/give me receipts for Flex Spending and I will handle tomo
+rrow.
+
+Eryn M. Sepp
+Special Assistant to the Counselor to the President
+202-456-1404
+user@domain.com
+

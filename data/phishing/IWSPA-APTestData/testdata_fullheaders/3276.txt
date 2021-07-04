@@ -1,0 +1,73 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp7948039lfb;
+        Thu, 31 Dec 2015 13:25:11 -0800 (PST)
+X-Received: by 10.55.217.78 with SMTP id u75mr94869879qki.16.1451597111597;
+        Thu, 31 Dec 2015 13:25:11 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail2997.e.leahyforvermont.com (mail2997.e.leahyforvermont.com. [208.85.51.243])
+        by domain.com with ESMTP id g3si82760497qkb.15.2015.12.31.13.25.11
+        for <user@domain.com>;
+        Thu, 31 Dec 2015 13:25:11 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.85.51.243 as permitted sender) client-ip=208.85.51.243;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 208.85.51.243 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=spop1024; d=leahyforvermont.com;
+ h=Date:From: Patrick Leahy <info@leahyforvermont.com>
+ bh=8FK6Kqc4xaD55Xf3dS9K4I5IHlk=;
+ b=m/eQolzn0q9Z0Mf2T+NT5L92GELpKWhdSUVbl+dqXzHBJlcZZI5JZPM2t+xfG4ZyPnopC3E1Gqd6
+   +EwqVZQhc6B8BndDkvZFwHPVx5OouFZXHT14Y1ua9W4GtkHIvq+JV3rWI7SNnhx455MbFVOSD06j
+   XW09eA1lgw8GjO/L7oQ
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=spop1024; d=leahyforvermont.com;
+ b=DO6msIzglhsxBekeb0H4J+3hz4/1nlmKeZe4CK0ZYaEAzghWz3xkuCc207mjtAxn2FuIIeDHVR5I
+   JN4Ax/KN4DkBzBe5gu5fbOEBja4gSMqZI5M+GvTruC9UvcKA8SFBAVS0H1Fl0twvwjYIXhL1SSwg
+   265rSSGZCJHIH+Cta1Q=;
+Received: by mail2997.e.leahyforvermont.com id hgmeje19if4l for <user@domain.com>; Thu, 31 Dec 2015 21:22:50 +0000 (envelope-from <user@domain.com>)
+Date: Thu, 31 Dec 2015 21:22:50 +0000 (GMT)
+From: Patrick Leahy <info@leahyforvermont.com>
+Reply-To: user@domain.com
+To: user@domain.com
+Message-ID: <1649090020.850792911451596970385.user@domain.com>
+Subject: Before the resolutions.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_427176_1650657954.1451596925173"
+x-mid: 8393041
+x-job: 8393041
+Feedback-ID: pod2_24128_8393041_840008280:pod2_24128:ibmsilverpop
+x-rpcampaign: sp8393041
+x-orgId: 24128
+List-Unsubscribe: <mailto:user@domain.com?subject=Unsubscribe>
+
+We're almost there.
+
+John,						
+
+Before the new year, before the ball drops, and before all the resolutions: Will you pitch in to help my campaign meet our $15,000 goal?
+
+We're filing our last FEC report of the year and need to meet this goal to be in a strong position as we start 2016. We're still just $3,632 short!
+
+Contribute $500, $750, or more today, before our midnight deadline:
+
+ <<link>> 	
+
+Thank you for your support this year. I look forward to working together in 2016.
+
+Happy New Year,
+
+Patrick Leahy
+U.S. Senator						
+
+CONTRIBUTE: <<link>> 			
+
+
+
+
+			This email was sent to user@domain.com Click here to unsubscribe <<link>>						
+
+Contributions or gifts to Leahy for Senate are not tax deductible.												
+Paid for by Leahy for Senate												
+All content (c) 2015 Leahy for Senate, All Rights Reserved						
+
+Privacy Policy <<link>> 
+

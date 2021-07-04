@@ -1,0 +1,90 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 27 Mar 2015 06:35:27 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2RDZQZL004558	for <user@domain.com>; Thu, 27 Mar 2015 
+ 13:35:26 GMT
+Received: from mail58-ch1-domain.com (mail-domain.com
+ [216.32.181.174])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s2RDZPqE014965
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 27 Mar 2015 13:35:25 GMT
+Received: from mail58-ch1 (localhost [127.0.0.1])	by mail58-ch1-domain.com
+ (Postfix) with ESMTP id EB4D51A055A	for <user@domain.com>; Thu, 27
+ Mar 2015 13:35:25 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.15.214.47;KIP:(null);UIP:(null);IPV:NLI;H:em-sj-47.domain.com;RD:em-sj-47.domain.com;EFVD:NLI
+X-SpamScore: -2
+X-BigFish: vps-2(zzc89bhf01Me0eahc857h13ddIzz1f42h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h172cfch17326ah1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h186068h172d07h1ce121i177f16iz2fheh5fh839h8e2h8e3h10d2h1288h12a5h137ah13eah1441h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bhbe9i214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail58-ch1: domain of em-sj-77.domain.com designates 199.15.214.47 as permitted sender) client-ip=199.15.214.47; user@domain.com; helo=em-sj-47.domain.com ;domain.com ;
+Received: from mail58-ch1 (localhost.localdomain [127.0.0.1]) by mail58-ch1
+ (MessageSwitch) id 1395927323738825_5115; Thu, 27 Mar 2015 13:35:23 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.230])	by mail58-domain.com (Postfix) with ESMTP id AF2642E0059
+	for <user@domain.com>; Thu, 27 Mar 2015 13:35:23 +0000 (UTC)
+Received: from em-sj-47.domain.com (199.15.214.47) by
+ domain.com (10.43.70.19) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 27 Mar 2015 13:35:21 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=birddog.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1395927321;
+	h=From: "BirdDog Solutions, Inc." <joellsitak@birddog.com>
+	bh=cJX4cRSEFOR7e39QKBo7Nt0tHz1FcaCCF8qI2Kh5GCw=;
+	b=GImyIXgqH9XMrMsUc5QWdROTOUHB0tc87uEI5/91suRVJejYiI0vowrHjthloYWM
+	HpOW2yHQbQIErKalWvpFU1W+3cAjUdvSC3R9DQS7gGr5BTXJBclGTLL2lo9Ayk7B
+	N/ryFWiW7laL7NIVbrrMVvQz1GYzuxHeIFN0DOoIAPE=;
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AZHZwLTE5OS0xNS0yMTQtNDdAYmctc2ot
+	MDFANzc2LUVBSS0xOTM6MTE5NjoxNjUzOjE3NTU6MDoyMDM5Ojc6MTA5OTUyOS03
+Received: from [10.0.8.1] ([10.0.8.1:57277] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.0.35861 r(Momo-dev:tip)) with ESMTP	id D6/FC-04697-91924335; Thu, 27 Mar
+ 2015 08:35:21 -0500
+Date: Thu, 27 Mar 2015 08:35:21 -0500
+From: "BirdDog Solutions, Inc." <joellsitak@birddog.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <885144796.1959315376.1395927321153.user@domain.com>
+Subject: Last Chance: attend a trade show on us!
+X-Report-Abuse: Please report abuse here: <<link>>
+X-Binding: bg-sj-01
+X-MarketoID: 776-EAI-193:1196:1653:1755:0:2039:7:1099529-7
+List-Unsubscribe: <mailto:user@domain.com>
+X-MailFrom: "BirdDog Solutions, Inc." <joellsitak@birddog.com>
+Return-Path: 776-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Last Chance: attend a trade show on us!
+
+
+
+
+         Answer 3 questions for a chance to attend the trade show of your choice.        Last Chance to Attend a Trade Show on BirdDog
+
+View this email online
+
+
+
+
+         Answer 3 questions for a chance to attend the trade show of your choice.
+
+It's so hard to choose which industry event(s) to attend, each year. We'd like to hear about your favorite trade shows and why you go.
+
+One survey respondent will be selected to attend* a trade show on us. Choose From: "BirdDog Solutions, Inc." <joellsitak@birddog.com>
+
+Operations domain.com (Indianapolis, IN) – 4/22-4/24
+
+Gartner Supply Chain Executive Conference (Phoenix, AZ) – 5/20-5/22
+
+IRCE – Exhibition (Chicago, IL) – 6/10-6/13
+
+CSCMP’s Annual Global Conference (San Antonio, TX) – 9/21-9/24
+
+Parcel Forum (Dallas, TX) – 9/29-10/1
+
+Complete the survey between now and March 31 for your chance!
+
+
+

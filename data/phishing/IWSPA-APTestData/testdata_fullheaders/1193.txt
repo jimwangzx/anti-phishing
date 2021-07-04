@@ -1,0 +1,42 @@
+Delivered-To: user@domain.com
+Received: by 10.25.30.9 with SMTP id e9csp284815lfe;
+        Tue, 9 Sep 2015 07:47:31 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.112.28.8 as permitted sender) client-ip=10.112.28.8
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 10.112.28.8 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+X-Received: from domain.com ([10.112.28.8])
+        by 10.112.28.8 with SMTP id x8mr2773902lbg.104.1410274051693 (num_hops = 1);
+        Tue, 09 Sep 2015 07:47:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: user Carrk <user.carrk@gmail.com>
+        bh=aFu7mE/0p9vFBy6OALMwGalRw6WmqAVg2FCmOip5O34=;
+        b=mi8jqS0t4yDq1FQUFN72U+LZ8GEDcD5n62eJd/pnUb8Nhl86UMANtLie4KshoJaryf
+         hOPqEuOlzB1Hd8mpbwUPIkkh5AYm4rWdely2NjXKuvjfLoyxoti5IROMfkKSl8xSYFlG
+         LoKFsqK0cLUvGAPUYoupb4pYrj9v9EWjqjR58NpjB7DKbvjApbkZSs3I8GLoLErjuQja
+         UHTf7aDQGJax85P9q/TVL9+Hm+DqcNNLik1cRI8wbHU9ii38sUYdSPc3689VvBbUdsHR
+         Aq+b03rmXLojyJ+6t1KVYrJ4sOXCqmc02jnyowLYhzpzL9VU8WNHK0A9dT4EQO3XDTc7
+         9Q5g
+MIME-Version: 1.0
+X-Received: by 10.112.28.8 with SMTP id x8mr2773902lbg.104.1410274051688; Tue,
+ 09 Sep 2015 07:47:31 -0700 (PDT)
+Received: by 10.112.130.102 with HTTP; Tue, 9 Sep 2015 07:47:31 -0700 (PDT)
+Date: Tue, 9 Sep 2015 10:47:31 -0400
+Message-ID: <CAOoDEt8OH3-WeKGxz=7sPxiE3HFXO765qVgi+PnpS+aOnHo5+user@domain.com>
+Subject: Hello, sir
+From: user Carrk <user.carrk@gmail.com>
+To: user@domain.com
+Content-Type: multipart/alternative; boundary=001a11340428e30f450502a30322
+
+Hi sir,
+
+I just wanted to drop you a line now that summer is over to see how you
+were doing. It looks as though our team's transition is going to happen
+this week, with Lori leaving for HHS and all. I hope to see you at some
+upcoming events, and would love to catch up.
+
+All the best,
+
+user

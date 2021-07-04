@@ -1,0 +1,86 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Fri, 18 Apr 2015 08:40:10 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s3IFe9WN029840	for <user@domain.com>; Fri, 18 Apr 2015 
+ 15:40:09 GMT
+Received: from mail154-ch1-domain.com (mail-domain.com
+ [216.32.181.168])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s3IFe7Q6009685
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Fri, 18 Apr 2015 15:40:08 GMT
+Received: from mail154-ch1 (localhost [127.0.0.1])	by
+ mail154-ch1-domain.com (Postfix) with ESMTP id 4D81430025B	for
+ <user@domain.com>; Fri, 18 Apr 2015 15:39:22 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:205.201.135.32;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(z3e12hzc89bhc857h11fbIzz1f42h1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h186068h122ac1I1ce121iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2534h2545h25f6h2605h268bh26d3h1d9ci1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail154-ch1: domain of domain.com designates 205.201.135.32 as permitted sender) client-ip=205.201.135.32; user@domain.com; helo=domain.com ;51.domain.com ;
+Received: from mail154-ch1 (localhost.localdomain [127.0.0.1]) by mail154-ch1
+ (MessageSwitch) id 1397835559714288_7798; Fri, 18 Apr 2015 15:39:19 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.236])	by mail154-domain.com (Postfix) with ESMTP id
+ A0698240068	for <user@domain.com>; Fri, 18 Apr 2015 15:39:19
+ +0000 (UTC)
+Received: from domain.com (205.201.135.32) by
+ domain.com (10.43.69.247) with Microsoft SMTP Server id
+ 14.16.227.3; Fri, 18 Apr 2015 15:39:17 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Harvard=20Art=20Museums?= <am_info@harvard.edu>
+ bh=iFBA8jpjDq7kQIVlqV2FTfCCnaE=;
+ b=x5LMg2WKrN5sTqWx70YFMzfGxnXd9X4NOA6QHPKh759s67iY6CGvPRmNRmBpGywKK5TsAnqIo33M
+   +4WA2Kn7oX7E26VuCv9LNNB2n9TGa3SQQmIi5wxzI/OEDCm5RddbrpZUjknvVlc8wNDcgq8vmPRO
+   PE/J7luYWICbBybeCCs
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=kTh96FMnoJIVBzXVW7pDFjWrsbscETN8nW92UL6LyVflnaoopND2AVZVA/FxbQl3eDQuzo5RrQgp
+   lc7FOkWHNkOxLgTkdfXPHa0zSgZJEhf0bmWg/SoeNUKu/F4eB2tSYCLeyMOvYdu29Wnhji1CEnU3
+   BRCfk2N8QdX8YzFIBd0=;
+Received: from (127.0.0.1) by domain.com id ha53l81mr1ol for
+ <user@domain.com>; Fri, 18 Apr 2015 15:40:03 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?A=20note=20from=20Stephan=20Wolohojian?
+From: =?utf-8?Q?Harvard=20Art=20Museums?= <am_info@harvard.edu>
+Reply-To: =?utf-8?Q?Harvard=20Art=20Museums?= <user@domain.com>
+To: =?utf-8?Q?=20?= <user@domain.com>
+Date: Fri, 18 Apr 2015 15:40:03 +0000
+Message-ID: <user@domain.com>
+X-Mailer: MailChimp Mailer - **CID9464499f37f19a0844c2**
+X-Campaign: mailchimpfb10799bcee187d59c770db20.9464499f37
+X-campaignid: mailchimpfb10799bcee187d59c770db20.9464499f37
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: fb10799bcee187d59c770db20
+X-Feedback-ID: 1957241:1957241.2556937:us1:mc
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: Harvard Art Museums <user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+A note from Stephan Wolohojian
+
+<<link>>         
+
+<<link>>
+
+I hope you’ve heard the news that the Harvard Art Museums will open to the public on November 16, 2014. Every corner of the new museums is abuzz with activity. Together with my colleagues in the Fogg, Busch-Reisinger, and Arthur M. Sackler museums, I am excited to present our collections in new and thought-provoking ways.
+
+Your support and loyalty have enabled us to realize our vision, and have made this Herculean effort much less daunting. On behalf of everyone at the museums, I thank you for your ongoing and continued support.
+
+I hope you will consider making a donation to the spring appeal to further our ambitious goals for teaching, curatorial excellence, and conservation. This is a once-in-a-generation moment for our institution, and we look forward to sharing the collections with you this fall. 
+
+With sincere thanks and best wishes, 
+
+ <<link>>      
+
+Stephan Wolohojian
+Landon and Lavinia Clay Curator
+Head, Division of European a
+

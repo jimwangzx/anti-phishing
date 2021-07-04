@@ -1,0 +1,28 @@
+From: "Fred Seibert" <fred@frederator.com>
+To: "User"
+References: <user@domain.com>	<852user@domain.com>	<CAHrNiZGvLR4EAOo7o3ge1ATVynS_Cf03+user@domain.com>	<60user@domain.com>
+In-Reply-To: <60user@domain.com>
+Subject: Re: A Request
+Date: Mon, 17 Nov 2015 20:39:45 -0500
+Message-ID: <user@domain.com>
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQEcMlq2GyXJ7eb0LktL22d1is5YXQKR9V/rAkVMoesBA1F1RQJzD54P
+Content-Language: en-us
+x-ms-exchange-organization-authmechanism: 10
+x-ms-exchange-organization-authsource: domain.com
+x-ms-exchange-organization-authas: Internal
+x-forefront-antispam-report: CIP:74.125.82.43;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(428002)(377454003)(252514010)(199003)(24454002)(189002)(51704005)(31966008)(92566001)(62966003)(19617315012)(102836001)(15395725005)(20776003)(106466001)(76176999)(450100001)(54356999)(15202345003)(84326002)(87836001)(50986999)(93516999)(42186005)(101416001)(110136001)(54606007)(106996001)(107886001)(63696999)(55446002)(19580395003)(19580405001)(512874002)(61266001)(61726006)(77156002)(77096003)(221733001)(4396001)(93886004)(64706001)(6806004)(18206015028)(107046002)(15975445006)(99396003)(92726001)(120916001)(21056001)(71186001)(86362001)(44976005)(95666004)(46102003)(15198665003)(105586002)(16601075003)(180100001)(54206007)(7059030)(55456009)(19622745005)(18926415006)(19622755008)(19605345002);DIR:INB;SFP:;SCL:1;SRVR:BL2FFO11HUB055;H:mail-wg0-domain.com;FPR:;MLV:sfv;PTR:mail-wg0-domain.com;A:1;MX:1;LANG:en;
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(120001);SRVR:BL2FFO11HUB055;
+x-eopattributedmessage: 0
+received-spf: None (domain.com: frederator.com does not designate permitted sender hosts)
+authentication-results: spf=none (sender IP is 74.125.82.43) user@domain.com; 
+x-google-dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20130820;        h=x-gm-message-state:mime-version:in-reply-to:references:date         :message-id:subject:From: "Fred Seibert" <fred@frederator.com>
+x-received: by 10.180.101.102 with SMTP id ff6mr36267530wib.0.1416274785503; Mon, 17 Nov 2015 17:39:45 -0800 (PST)
+x-gm-message-state: ALoCoQnFHAZ/pB3HNv5aGnfk67XA8m+M5REGRi9jdmYZW+9udwwynyiA9kNUicvc0hQrIwNktXTq
+x-exchange-antispam-report-test: UriScan:;
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Hey Amy,I'm going to be in LA for a day or two later this week. In fact, over with Osher's team Thursday afternoon. Any time for coffee, breakfast, or something? I get in Wednesday noon, leave Friday noon, flexible in between.FredFredFred Seibert Frederator Networks22 West 21st Street  7th floor    New York, New York 10010www.frederator.comPhone: +1 646-274-4601 Skype: fredseibert email: user@domain.com 

@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp268672lfr;
+        Wed, 30 Sep 2015 21:18:01 -0700 (PDT)
+X-Received: by 10.50.114.165 with SMTP id jh5mr967469igb.16.1443673081700;
+        Wed, 30 Sep 2015 21:18:01 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from nm15-domain.com (nm15-domain.com. [98.138.91.108])
+        by domain.com with ESMTPS id a19si736785igr.24.2015.09.30.21.18.00
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 30 Sep 2015 21:18:01 -0700 (PDT)
+Received-SPF: softfail (domain.com: domain of transitioning user@domain.com does not designate 98.138.91.108 as permitted sender) client-ip=98.138.91.108;
+Authentication-Results: domain.com;
+       spf=softfail (domain.com: domain of transitioning user@domain.com does not designate 98.138.91.108 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=domain.com; s=s2048; t=1443673080; bh=uqadvRghoGPaudrKFwt1dJ3CUcsH+SyY+BlHmLQL4II=; h=Date:From: John West <gardens@jwlandscapes.com>
+Received: from [98.138.100.117] by domain.com with NNFMP; 01 Oct 2015 04:18:00 -0000
+Received: from [98.138.87.11] by domain.com with NNFMP; 01 Oct 2015 04:18:00 -0000
+Received: from [127.0.0.1] by domain.com with NNFMP; 01 Oct 2015 04:18:00 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 535724.65444.user@domain.com
+X-YMail-OSG: TiAwn2wVM1kiem3XBoCE_1cIPXrN.nTZJOeAxP0wza6R2MKFtyRDLcj1J.g2ROW
+ 4VaIoMlEC2ILtX_LWy_IPxEcTDTgbNBVL.VHneRHZVVl2eLWrLlaQn8pFrL41l43_LMdkKlIN0A.
+ mS3It1ALRM1bvEWgM.FhcFRmKMEJSjkAyy9Ov9ECe10qLgwGAmDL49JZrjibB7hQlQqmgDPMeb4y
+ Hhov1e3lhQwwHinQjjRGSCL54tNAnNyVDFlQ.mknci2sztp3ZVYaW9nHR3_xdQ.yY7JLSzHiNFUL
+ _vu6_LWaasTWPNQOAicsGiKs.MlI1KttsTA5pea_bTeX9Bp397NoVOWPvni72TpTiZoQ65WcY8hB
+ z3WV0p3lQg.GcetCtTuB4ZaN7dgAd9RErTFpZUmgcTS6H3Le5vc2GjbDzhULYUNzZFHKScIFEX_D
+ ADlwky_CkjfNAcI.J8FtVxnFYl_nIZf7WfZomLludIlXUVARISM4du4Sta31CVscRnToTPVMccG7
+ xZZTYz47s_E3hw_Owg9ldBBw7ETU-
+Received: by 98.138.105.199; Thu, 01 Oct 2015 04:18:00 +0000 
+Date: Thu, 1 Oct 2015 04:17:59 +0000 (UTC)
+From: John West <gardens@jwlandscapes.com>
+Reply-To: John West <user@domain.com>
+To: John user <user@domain.com>
+Message-ID: <1184243627.3833632.1443673079821.user@domain.com>
+Subject: Question
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3833631_466083568.1443673079818"
+Content-Length: 2015 
+
+Dear Chairman,
+Good seeing you in Chicago the other day at Parliament, and thank you for s
+peaking with Maureen Pikarski about ethnic outreach.
+Question: I would like to know it's okay to send you a rather lengthy email
+ of loving critiques/feedback that has some urgency to it. =C2=A0I hesitate
+, because I would hate for anything I email you to reflect poorly or seem a
+ssociated with the HRC Super Volunteers...this is just my feedback as donor
+, a long time supporter and organizer.=C2=A0
+Is that okay? =C2=A0
+I know you are so very busy, but I would prefer this to go just to you if t
+hat is okay.
+Many thanks as always.
+-JW

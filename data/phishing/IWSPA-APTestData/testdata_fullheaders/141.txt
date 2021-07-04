@@ -1,0 +1,51 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.31 with SMTP id o31csp1716586lfi;
+        Mon, 16 Feb 2015 11:18:30 -0800 (PST)
+X-Received: by 10.140.46.7 with SMTP id j7mr1019061qga.12.1424114309770;
+        Mon, 16 Feb 2015 11:18:29 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::232])
+        by domain.com with ESMTPS id e4si15216826qai.92.2015.02.16.11.18.29
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 16 Feb 2015 11:18:29 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::232 as permitted sender) client-ip=2607:f8b0:400d:c04::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-domain.com with SMTP id e89so24731732qgf.9;
+        Mon, 16 Feb 2015 11:18:29 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Hartina Flournoy <tflournoy11@gmail.com>
+         :to:mime-version;
+        bh=Doz2ZPfYRvRynR0LV+hf50nHDDX8AjPC6RYcKO5Eaa4=;
+        b=cjPW9Gd/ucfLtKIWzNqD+InEwMvjEm87+lXeHLjJMHwIo5w+LRSOzl3oU/kksdVtxg
+         TDWnjXrkBwAp+z/K0MjA1DOG49Zn2HNUys2Zfs0+fzdACHS1Nri/2rjmoxZ9KHla7cGQ
+         haJgrjgObdQ1WmbqNQ4i0SMuJc1pDw99sBrTFCHLaylH+Bi258xzQ/GasK32y82Jf4Xp
+         qLILwRsbsmT3+1cJeUeG/FEO3l3uJSojQ9ZOe1z3/PXV+N9M/qgMQJpZIl/76Nsk+8bD
+         mvWTw21ODr6LqCcItjnxi6QPlPbK4jk1HC9d8JSsoRl9M6m2bzyOGVLBAUOtSNSmZz9o
+         kUPQ
+X-Received: by 10.140.21.48 with SMTP id 45mr2868584qgk.87.1424114309074;
+        Mon, 16 Feb 2015 11:18:29 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [192.168.0.2] (cpe-74-71-28-26.domain.com. [74.71.28.26])
+        by domain.com with ESMTPSA id 201sm4309204qhb.32.2015.02.16.11.18.28
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 16 Feb 2015 11:18:28 -0800 (PST)
+From: Hartina Flournoy <tflournoy11@gmail.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Subject: Labor Dinner
+Message-Id: <user@domain.com>
+Date: Mon, 16 Feb 2015 14:18:26 -0500
+To: Huma Abedin Contact <user@domain.com>, Robert Mook <user@domain.com>, 
+ John user <user@domain.com>
+Mime-Version: 1.0 (Mac OS X Mail 6.6 \(1510\))
+X-Mailer: Apple Mail (2.1510)
+
+Forgot to mention this am - there's a right to work vote going on in New 
+Mexico.  AFT state president was looking for help swaying some d members 
+of  the legislature.  They did a soft reach to us to see if WJC could 
+help. I said that we would not get involved.  Don't think, it'll come up 
+- but wanted you to know=20

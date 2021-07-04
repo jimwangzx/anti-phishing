@@ -1,0 +1,256 @@
+Delivered-To: user@domain.com
+Received: by 10.140.128.2 with SMTP id a2cs103353rvd;
+        Wed, 2 Jul 2015 07:20:35 -0700 (PDT)
+Received: by 10.90.50.5 with SMTP id x5mr8735822agx.62.1215008434541;
+        Wed, 02 Jul 2015 07:20:34 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-2526.domain.com (yx-out-2526.domain.com [74.125.44.34])
+        by domain.com with ESMTP id 33si3501846yxr.3.2008.07.02.07.20.33;
+        Wed, 02 Jul 2015 07:20:34 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.44.34 as permitted sender) client-ip=74.125.44.34;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.44.34 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yx-out-2526.domain.com with SMTP id 8so39388yxr.82
+        for <user@domain.com>; Wed, 02 Jul 2015 07:20:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Ian Mandel" <ian@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=wuSWG30ui46OS+YzwrsF+889gh7u3NwIINr/6tGfe0g=;
+        b=1eDxODmTpDVqIDEjhGL/+ZNd5aI2se+2onLfZX4qQs4A+ZQijdqsGlOAZcnuSWKydT
+         1RkCSj14MX7KsJUZ4QM34Uulkkn0/fvIy30T1BUBpbNwErMSLz/55h2AqSPpFCwTzEcL
+         zPepwNfBPWETZFiZOhD8u+w+2+H4uQupdGBoQ
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Ian Mandel" <ian@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=YWEvHoBHQMid5snRm90wXdAKev3qhKPCRNADrHcwtSvUDXGHVtJZLLASYysFWUgu0R
+         c5it75dqwvRGJgYC3RSKE3nhCwd9m/sUJIQkVN2BLIU7XIakcX2Ohx9t6jN4vdBeTSSt
+         vsynslB2o5xyNDgliIDlqbnHM6szKpgXZ0CrU
+Received: by 10.151.108.5 with SMTP id k5mr155159ybm.0.1215008427311;
+        Wed, 02 Jul 2015 07:20:27 -0700 (PDT)
+Received: by 10.107.3.34 with SMTP id f34gr1078pri.0;
+	Wed, 02 Jul 2015 07:20:11 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.115.17.11 with SMTP id u11mr4567689wai.18.1215008411051; Wed, 02 Jul 2015 07:20:11 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from fg-out-1718.domain.com (fg-out-1718.domain.com [72.14.220.156]) by domain.com with ESMTP id 39si8214105yxd.0.2008.07.02.07.20.10; Wed, 02 Jul 2015 07:20:11 -0700 (PDT)
+Received-SPF: neutral (domain.com: 72.14.220.156 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=72.14.220.156;
+Authentication-Results: domain.com; spf=neutral (domain.com: 72.14.220.156 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by fg-out-1718.domain.com with SMTP id l26so151294fgb.8 for <user@domain.com>; Wed, 02 Jul 2015 07:20:09 -0700 (PDT)
+Received: by 10.86.70.8 with SMTP id s8mr9070048fga.79.1215008409710; Wed, 02 Jul 2015 07:20:09 -0700 (PDT)
+Received: by 10.86.94.19 with HTTP; Wed, 2 Jul 2015 07:20:09 -0700 (PDT)
+Message-ID: <8user@domain.com>
+Date: Wed, 2 Jul 2015 10:20:09 -0400
+From: "Ian Mandel" <ian@progressiveaccountability.org>
+To: user@domain.com, 
+ "Ian Mandel" <user@domain.com>
+Subject: [big campaign] IE Watch 7/2
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_7481_10090856.1215008409725"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+*Republican Majority Campaign:
+- *$63,976.52 for phone/mail communication (Political Advertising) on 6/30
+in opposition to Obama
+*
+domain.com PAC:
+- *$5,775.13 for phone/mail communication (Political Advertising) on 6/30 in
+opposition to Obama
+*
+NARAL:
+- *$140 for online advertising (Facebook) on 7/1 in support of Obama
+- $88 for Google Adwords (Google) on 7/1 in opposition to McCain
+- $88 for Google Adwords (Google) on 7/1 in support of Obama
+- $7,262.38 for List Rental (NARAL) on 7/1 in opposition to McCain
+- $7,262.38 for Lis Rental (NARAL) on 7/1 in opposition to McCain- $402.50
+for postage (Pitney Bowes) on 6/30 in opposition to McCain- $ 5,856 for
+printing and design (Political Media Inc.) on 6/30 in opposition to McCain
+
+*
+Life & Liberty PAC:*- $17,473.47 for phone/mail communication (Political
+Advertising) on 6/30 in opposition to Obama
+- $2,151.38 for printing (United Printing and Mailing) on 6/30 in opposition
+to Obama
+*National Campaign Fund:*- $10,525.37 for printing (Mid America Printing) on
+6/17 in support of McCain
+- $1,000 for postage (USPS) on 6/13 in support of McCain
+- $10,965.04 for postage (Response Dynamics) on 6/12 in support of McCain
+- $8,266.09 for postage (Response Dynamics) on 6/12 in support of McCain
+- $3,185.28 for folding / inserting mail (Fullfillment Management Svc) on
+6/11 in support of McCain
+- $6,703.61 for printing (Mid America Printing) on 6/11 in support of McCain
+- $15,883.83 for postage (Response Dynamics) on 6/11 in support of McCain
+- $7,409.80 for postage (Response Dynamics) on 6/6 in support of McCain
+- $4,068.75 for mailing services (Response Dynamics) on 6/10 in support of
+McCain
+- $2,000 for postage (USPS) on 6/6 in support of McCain
+- $8,314.03 for printing (Mid America Printing) on 6/4 in support of McCain
+- $8,854.98 for printing (Mid America Printing) on 6/5 in support of McCain
+- $6,685.81 for postage (Response Dynamics) on 6/2 in support of McCain
+- $8,870.32 for postage (Response Dynamics) on 6/3 in support of McCain
+- $1,210 for advertising (Apex Advertising) on 5/27 in support of McCain
+- $7,448.42 for lists (The Best List) on 5/28 in support of McCain
+- $5,957.05 for lists (The Best List) on 5/29 in support of McCain
+- $7,776.65 for printing (Mid America Printing) on 5/21 in support of McCain
+- $4,687.78 for printing (Mid America Printing) on 5/22 in support of McCain
+- $9,140.88 for printing (Mid America Printing) on 5/20 in support of McCain
+- $1,178.10 for postage (Response Dynamics) on 5/19 in support of McCain
+- $7,243.07 for postage (Response Dynamics) on 5/19 in support of McCain
+- $13,659.32 for data entry for mailings (Direct Response Data Management)
+on 5/19 in support of McCain
+- $867.43 for folding/inserting mail (Fullfillment Management Svc) on 5/8 in
+support of McCain
+- $1,116.70 for mailing services (Response Dynamics) on 5/8 in support of
+McCain
+- $7,243.07 for postage (Response Dynamics) on 5/19 in support of McCain
+- $9,638.14 for printing (Mid America Printing) on 5/7 in support of McCain
+- $5,848.02 for lists (The  Best List) on 5/7 in support of McCain
+- $2,559.58 for data entry for mailings (Direct Response Data Management) on
+4/23 in support of McCain
+- $1,233.21 for folding/inserting mail (Fullfillment Management Svc) on 4/23
+in support of McCain
+- $1,475.20 for mailing services (Response Dynamics) on 4/23 in support of
+McCain
+- $2,971.08 for postage (Response Dynamics) on 4/23 in support of McCain
+- $11,617.89 for postage (Response Dynamics) on 5/7 in support of McCain
+- $45.03 for Lists (The Best List) on 4/23 in support of McCain
+- $1,413.18 for folding/inserting mail (Fullfillment Management Svc) on 4/16
+in support of McCain
+- $6,697.67 for postage (Response Dynamics) on 4/15 in support of McCain
+- $1,622.65 for mailing services (Response Dynamics) on 4/16 in support of
+McCain
+- $8,177.14 for postage (Response Dynamics) on 4/17 in support of McCain
+- $450.30 for lists (The  Best List) on 4/16 in support of McCain
+- $858.18 for folding/inserting mail (Fullfillment Management Svc) on 4/7 in
+support of McCain
+- $8,053.08 for printing (Mid America Printing) on 4/9 in support of McCain
+- $1,554.55 for mailing services Response Dynamics) on 4/7 in support of
+McCain
+- $3,710.69 for postage (Response Dynamics) on 4/8 in support of McCain
+- $810.45 for lists (The  Best List) on 4/7 in support of McCain
+- $3,415.19 for data entry for mailings (Direct Response Data Mngt) on 4/7
+in support of McCain
+- $7,045.76 for printing (Mid America Printing) on 4/3 in support of McCain
+- $250 for photos (Wide World Photos) on 4/3 in support of McCain
+
+*Defenders of Wildlife:*- $207.28 for campaign tools (Apple Store) on 6/18
+in opposition to Steve Pearce (NM-Senate)
+- $98.44 for salary (Jessica Brand) on 6/29 in opposition to Steve Pearce
+(NM-Senate)
+- $21.79 for campaign lunch (Coaches) on 6/16 in opposition to Steve Pearce
+(NM-Senate)
+- $1,600 for salary (Liam Flynn) on 6/29 in opposition to Steve Pearce
+(NM-Senate)
+- $314.23 for poster boards and banner (Focus Ink) on 6/17 in opposition to
+Steve Pearce (NM-Senate) - $2,240 for salary (David Kirk) on 6/29 in
+opposition to Steve Pearce (NM-Senate)
+- $150.06 for paid canvass (Labor Ready) on 6/29 in opposition to Steve
+Pearce (NM-Senate)
+- $38.25 for mileage (Jesse Lifton) on 6/18 in opposition to Steve Pearce
+(NM-Senate)
+- $40.40 for mileage (Jesse Lifton) on 6/23 in opposition to Steve Pearce
+(NM-Senate)
+- $13.13 for mileage (Jesse Lifton) on 6/25 in opposition to Steve Pearce
+(NM-Senate)
+- $295.56 for food and lodging (Lodge at Santa Fe) on 6/29 in opposition to
+Steve Pearce (NM-Senate)
+- $400.61 for salary (Wil Lutz) on 6/29 in opposition to Steve Pearce
+(NM-Senate)
+- $47.95 for staff lunch (Main Moon Chinese Buffet) on 6/20 in opposition to
+Steve Pearce (NM-Senate)
+- $1,600 for salary (Brian McGann) on 6/29 in opposition to Steve Pearce
+(NM-Senate)
+- $66.66 for mileage (Brian McGann) on 6/23 in opposition to Steve Pearce
+(NM-Senate)
+- $13.13 for mileage (Brian McGann) on 6/23 in opposition to Steve Pearce
+(NM-Senate)
+- $100 for cell phone (Brian McGann) on 6/29 in opposition to Steve Pearce
+(NM-Senate)
+- $15 for parking (Michael's PLS) on 6/29 in opposition to Steve Pearce
+(NM-Senate)
+- $40 for dinner event (O'Neills Pub) on 6/17 in opposition to Steve Pearce
+(NM-Senate)
+- $7.47 for campaign car wash (Octopus Car Wash) on 6/25 in opposition to
+Steve Pearce (NM-Senate)
+- $3.52 for mileage (Maggie Raiken) on 6/18 in opposition to Steve Pearce
+(NM-Senate)
+- $15.15 for mileage (Maggie Raiken) on 6/25 in opposition to Steve Pearce
+(NM-Senate)- $2,560 for salary (Joshua Sabato) on 6/29 in opposition to
+Steve Pearce (NM-Senate)
+- $27.27 for mileage (Joshua Sabato) on 6/23 in opposition to Steve Pearce
+(NM-Senate)
+- $100 for cell phone (Joshua Sabato) on 6/23 in opposition to Steve Pearce
+(NM-Senate)
+- $10 for map (Sandoval County Clerk) on 6/16 in opposition to Steve Pearce
+(NM-Senate)
+- $8.40 for stamps (Smith's) on 6/17 in opposition to Steve Pearce
+(NM-Senate)
+- $5.06 for supplies (Wal Mart) on 6/18 in opposition to Steve Pearce
+(NM-Senate)
+- $45.99 for supplies (Wal Mart) on 6/29 in opposition to Steve Pearce
+(NM-Senate)
+- $5,120 for salary (Ed Yoon) on 6/29 in opposition to Steve Pearce
+(NM-Senate)
+- $21 for mileage (Ed Yoon) on 6/14 in opposition to Steve Pearce
+(NM-Senate)
+- $66.66 for mileage (Ed Yoon) on 6/23 in opposition to Steve Pearce
+(NM-Senate)
+- $78.78 for mileage (Ed Yoon) on 6/25 in opposition to Steve Pearce
+(NM-Senate)
+- $83.83 for mileage (Ed Yoon) on 6/26 in opposition to Steve Pearce
+(NM-Senate)
+- $70.70 for mileage (Ed Yoon) on 6/27 in opposition to Steve Pearce
+(NM-Senate)
+- $67.67 for mileage (Ed Yoon) on 6/29 in opposition to Steve Pearce
+(NM-Senate)
+
+*Legacy Committee PAC:*- $2,925.86 for printing (Mid America Printing) on
+6/11 in support of McCain
+- $3,243.73 for printing (Mid America Printing) on 6/12 in support of McCain
+- $1,000 for postage (Postmaster) on 6/12 in support of McCain
+- $7,713.65 for postage (Response Dynamics) on 6/9 in support of McCain
+- $4,230.50 for mailing services (Response Dynamics) on 6/10 in support of
+McCain
+- $3,096.47 for postage (Response Dynamics) on 6/2 in support of McCain
+- $5,148.02 for postage (Response Dynamics) on 6/3 in support of McCain
+- $6,232.50 for mailing lists (The Best List) on 5/28 in support of McCain
+
+*MoveOn:*- $250 for graphic design t-shirt (Jeff French) on 6/27 in support
+of Obama
+- $200 for graphic design bumper sticker (Jeff French) on 6/27 in support of
+Obama
+- $950 for flyers (Moonlight Design) on 6/27 in support of Obama
+- $300 for graphic design bumper stickers (Moonlight Design) on 6/27 in
+support of Obama- $2,525.84 for TV Ad Production (domain.com Vox) on 6/27 in
+opposition to McCain
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

@@ -1,0 +1,49 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp2773140lfr;
+        Tue, 25 Aug 2015 11:37:20 -0700 (PDT)
+X-Received: by 10.66.142.132 with SMTP id rw4mr38431752pab.19.1440527837765;
+        Tue, 25 Aug 2015 11:37:17 -0700 (PDT)
+Return-Path: <>
+Received: from domain.com (domain.com. [216.82.255.51])
+        by domain.com with ESMTPS id mj6si23434531pab.217.2015.08.25.11.37.16
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 25 Aug 2015 11:37:17 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of domain.com designates 216.82.255.51 as permitted sender) client-ip=216.82.255.51;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 216.82.255.51 as permitted sender) smtp.mailfrom
+Return-Path: <>
+Received: from [216.82.254.67] by server-13.bemta-7.domain.com id DD/E5-28439-CD5BCD55; Tue, 25 Aug 2015 18:37:16 +0000
+X-Msg-Ref: server-13.tower-196.domain.com!1440527833!22592947!3
+X-Originating-IP: [141.161.191.75]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.16; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 22279 invoked from network); 25 Aug 2015 18:37:15 -0000
+Received: from unknown (HELO LAW-CAS2.law.georgetown.edu) (141.161.191.75)
+  by server-13.tower-196.domain.com with AES256-SHA encrypted SMTP; 25 Aug 2015 18:37:15 -0000
+Received: from LAW-MBX02.law.georgetown.edu ([169.254.2.126]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0210.002;
+ Tue, 25 Aug 2015 14:37:04 -0400
+From: Peter Mattingly <pm932@law.georgetown.edu>
+To: Announcements <user@domain.com>
+Subject: Free Cans of Coke/Coke Zero - MCD 123
+Thread-Topic: Free Cans of Coke/Coke Zero - MCD 123
+Thread-Index: AdDfZQoMvDuD4/z5Sa6GBDYhqkFrvQ
+Date: Tue, 25 Aug 2015 18:37:04 +0000
+Message-ID: <1113user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.212.84]
+Content-Type: multipart/alternative;
+	boundary="_000_1113B17C82E99D4CB29AE7A74EE774EDAD784FLAWMBX02lawgeorge_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+
+Outside McDonough 123, there is a limited number of free cans of chilled Co
+ke and Coke Zero, as well as some bottles of water in the white cooler.
+
+Hurry before all the popular people get them...
+

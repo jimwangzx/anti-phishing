@@ -1,0 +1,161 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp832521lfi;
+        Fri, 24 Apr 2015 06:07:17 -0700 (PDT)
+X-Received: by 10.180.78.65 with SMTP id z1mr3807210wiw.14.1429880835878;
+        Fri, 24 Apr 2015 06:07:15 -0700 (PDT)
+Return-Path: <hrcrapid+user@domain.com>
+Received: from mail-wg0-domain.com (mail-wg0-domain.com. [2a00:1450:400c:c00::238])
+        by domain.com with ESMTPS id o1si3979499wix.88.2015.04.24.06.07.14
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 24 Apr 2015 06:07:15 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of hrcrapid+user@domain.com designates 2a00:1450:400c:c00::238 as permitted sender) client-ip=2a00:1450:400c:c00::238;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of hrcrapid+user@domain.com designates 2a00:1450:400c:c00::238 as permitted sender) smtp.mail=hrcrapid+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wg0-domain.com with SMTP id z12sf16647824wgg.0;
+        Fri, 24 Apr 2015 06:07:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120806;
+        h=mime-version:date:message-id:subject:From: Josh Schwerin <jschwerin@hillaryclinton.com>
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive:sender
+         :list-unsubscribe;
+        bh=m0U/EvkkEuDVOAPcafOyzknkBRCvNHR5t/rc5jbGGJs=;
+        b=JXFNN5D0k5G0AJ9qcoDAzE5Bt12erKVZVkOHTLz8nU2HXY16yWYdYNR7TbISRXqI0/
+         qwMPIhsqUyj1/0Y8z0FzdQHV221NSnyQrMcCauG+NJCivFy+OUMg3tCYuS1JdaZY8lbE
+         lh49S3X8WczoNAPZ+q64Hgw8dAGqCfOOfi7Xi2kX/uTGSUqy3qip5+DzrcJ+E/LzOQxW
+         kWkYjTfPCLKBNJyCcf3PuiXCXxLXP+B0YzRujO0Ng+T+EgqKzRxamwaMMfGNitMAc9yi
+         st38B+poEJYyxoHN8qqVXOsRrUYwNlZj6+Akiu4/Y8c7Do69Tl30FxLJQXbgfWiM/lnD
+         H3DQ
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Josh Schwerin <jschwerin@hillaryclinton.com>
+         :content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe;
+        bh=m0U/EvkkEuDVOAPcafOyzknkBRCvNHR5t/rc5jbGGJs=;
+        b=KFZVI6HlHMlLT11e+W5uHPoFwDtDzputG+2GSZg7VMhUz+Jb1DopReLFbaB0OCZVRE
+         VGkYCI0fytYopqtHRVG0uewwchxnr2JxoptmT6sHJihqn5wwqaO2ZLuYt7PDLxHogK8F
+         5Hs8XYTG0DWuODgBPMGMYID4o+AI5Qe+ROHlx4uhq0O6kVK9XQ9+vBH1JD9Zmo890Aat
+         J0djtc2QeAoVm+9m9MK5jhqI+pHE9FUO0lhlAK5tggqDIGphviufYYOnKtS/4iWsxQpz
+         S3C4lNNIL2KbpOD++8UUSRYNy5aR6yh0nB+ARjhsbl4YBzpPndf56ecFryBo6GdVyozW
+         3D5Q
+X-Received: by 10.152.1.129 with SMTP id 1mr121014lam.2.1429880834619;
+        Fri, 24 Apr 2015 06:07:14 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.152.5.38 with SMTP id p6ls410087lap.17.gmail; Fri, 24 Apr 2015 
+ 06:07:14 -0700 (PDT)
+X-Received: by 10.112.28.111 with SMTP id a15mr4078437lbh.21.1429880834105;
+        Fri, 24 Apr 2015 06:07:14 -0700 (PDT)
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [209.85.212.170])
+        by gmr-domain.com with ESMTPS id bc3si128081wib.2.2015.04.24.06.07.14
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 24 Apr 2015 06:07:14 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.212.170 as permitted sender) client-ip=209.85.212.170;
+Received: by mail-wi0-domain.com with SMTP id n10so19512664wiu.1
+        for <user@domain.com>; Fri, 24 Apr 2015 06:07:14 -0700 (PDT)
+X-Gm-Message-State: ALoCoQmoKTNXuPJ7skpqs9nLM3NAlkMwsS1H97GTD4oWfMfqWSn6GEcZ7bRWH7OPoiy9vXSZkAxo
+MIME-Version: 1.0
+X-Received: by 10.180.208.7 with SMTP id ma7mr3907218wic.0.1429880833944; Fri,
+ 24 Apr 2015 06:07:13 -0700 (PDT)
+Received: by 10.28.226.138 with HTTP; Fri, 24 Apr 2015 06:07:13 -0700 (PDT)
+Date: Fri, 24 Apr 2015 09:07:13 -0400
+Message-ID: <CAPrY+5+user@domain.com>
+Subject: Jake Tapper will anchor CNN's State of the Union
+From: Josh Schwerin <jschwerin@hillaryclinton.com>
+To: hrcrapid <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c383ce2dc4d90514781395
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com;       spf=pass
+ (domain.com: domain of user@domain.com designates 209.85.212.170
+ as permitted sender) user@domain.com;       dmarc=pass
+ (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact hrcrapid+user@domain.com
+List-ID: <domain.com>
+X-Google-Group-Id: 612515467801
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:hrcrapid+user@domain.com>
+List-Archive: <<<link>>
+Sender: user@domain.com
+List-Unsubscribe: <mailto:googlegroups-manage+612515467801+user@domain.com>,
+ <<<link>>>
+
+Jake Tapper will anchor CNN's State of the Union
+[image: CNN Sundays are about to change]
+
+<<link>>
+
+New York (CNN)Jake Tapper <<<link>>> is
+the next anchor of CNN's Sunday morning political interview program "State
+of the Union."
+
+CNN announced Tapper's promotion on Friday morning. He will take over the
+program in June; he'll remain the channel's chief Washington correspondent
+and the anchor of the weekday afternoon newscast "The Lead."
+
+Among his peers, Tapper is seen as an authority on politics, something a
+program like "State of the Union
+<<<link>>>" demands. He received rave
+reviews when he was the interim anchor of ABC's Sunday morning hour "This
+Week" in 2010.
+
+"I couldn't be more excited about this election season and the new platform
+I will have at CNN to cover it," Tapper said in a statement. "'State Of The
+Union' has a rich tradition and I hope to not only build on its history but
+expand the definition of what a Sunday show can be."
+
+Tapper thanked CNN Worldwide CEO Jeff Zucker "for the confidence he
+continues to show in me and to my colleagues at CNN for the incredible
+support on air and off that I've received since beginning this adventure
+two years ago."
+
+Tapper joined CNN from ABC in 2015 to anchor "The Lead."
+
+On "State of the Union," he succeeds Candy Crowley, who signed off the
+program last December. A rotation of fill-in hosts have been anchoring the
+program this year.
+
+Zucker announced Tapper's appointment on the network's editorial conference
+call on Friday morning.
+
+"I am thrilled that Jake will take on this additional role at such a
+pivotal time in the election cycle," Zucker said in a statement. "He has
+the perfect combination of skills that make him uniquely qualified -- he's
+a relentless reporter, a gifted storyteller, and a terrific interviewer who
+doesn't stop until he gets answers. We are lucky to have him on both 'The
+Lead' and 'State of the Union.'"
+
+Sunday political programs are among the most prestigious chairs at
+television networks. And changes are afoot: CBS is about to say goodbye to
+Bob Schieffer, the longtime moderator of "Face the Nation," who will be
+succeeded by John Dickerson in June.
+
+Additionally, NBC replaced David Gregory with Chuck Todd on the original
+Sunday public affairs program, "Meet the Press," last fall.
+
+With the anchor moves at the other networks, CNN may see an opportunity for
+what's known in the industry as share-shifting -- viewers switching
+networks and sampling the new anchors.
+
+With his new position, Tapper will become the second man to work weekdays
+and Sunday mornings. ABC's George Stephanopoulos is both a co-host of "Good
+Morning America" and the moderator of "This Week."
+
+There is precedent for this at CNN: for many years Wolf Blitzer anchored on
+the weekdays and led the Sunday morning program "Late Edition," the
+forerunner to "State of the Union."
+
+-- 
+Josh Schwerin
+Spokesperson
+Hillary for America
+@Josh Schwerin
+
+-- 
+You received this message because you are subscribed to the Google Groups "HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to hrcrapid+user@domain.com
+To post to this group, send email to user@domain.com
+For more options, domain.com <<link>>

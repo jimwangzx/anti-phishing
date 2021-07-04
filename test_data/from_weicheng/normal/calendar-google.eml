@@ -1,0 +1,423 @@
+Delivered-To: weicheng@edison.tech
+Received: by 2002:a0c:aa0d:0:0:0:0:0 with SMTP id d13csp578631qvb;
+        Wed, 24 Jun 2020 13:14:09 -0700 (PDT)
+X-Received: by 2002:a05:6830:1499:: with SMTP id s25mr23307744otq.234.1593029648835;
+        Wed, 24 Jun 2020 13:14:08 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1593029648; cv=none;
+        d=google.com; s=arc-20160816;
+        b=IWT/00LkrBcROz39j9GWM8pmHYnflS0SVqzn5+pFrqAJAHUx028b9eWCjZKbt3DjN9
+         RDXhxETCsNyMhiWQHZe26/Oxe7Kc+3c8clljlSjYKDR6ugZkkmmDw5jm2C7kihJfDMdC
+         8jpXIIZQLuH5yeKauvnGOWrejGLOMgtqQExodpOVMGAxDYJ5WRPF0W1jtothBxHw0EJu
+         s9P8q/Gzj7xl6dB4MJIY7JF3RXtxidvJWtAyzBTj2GCUzDrAdS/s1Z03bmIuRMHTd8dM
+         NPeFV9zfCq/6ltHuwhwBeUEj2VIfmFdhDk6kbA8ZdwVliqQoicI+eMJzKavL3IRhukM4
+         LIQA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:from:subject:date:message-id:auto-submitted:sender:reply-to
+         :mime-version:dkim-signature:dkim-signature;
+        bh=+HI8DLF281nbcC6VEfzu9vB/bLJc6sd5KYVjZFhsgb0=;
+        b=Kewjubanib2NKprYivZqnmv3tywV0T3atfCa63t9fAs4Ib61bau9pbOi/pLHMcv3X6
+         3dOuzXidAgdIiVEjQ4SL6aGelPoPXLWiAqvHd6AvVskOpfYwld7ICzkSqXJ3ID9QY9Gv
+         Ir0H/L+oA8H3qF6q6Jp98X2jHz7TXODCqBHw+1yqZrCiIzHmAS7elgnCQnUJfWqGfpj8
+         DkIkN1ji3PI4ZC86oPxM8GeEV12qzCiVHcG793E0OSaZ5MmcscZf8npF0BqL8EQNIxzk
+         yesu+/Y+QwqWrYfbUex6BTOl1imBdG3hv9jqEA/QFiwGC2SuV/EoLUX7OAB9Fijwov+Q
+         ICjQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@google.com header.s=20161025 header.b=p43hfQt5;
+       dkim=pass header.i=@edison-tech.20150623.gappssmtp.com header.s=20150623 header.b="LgVz/XjQ";
+       spf=pass (google.com: domain of 3eltzxgylceuzo1ohvlkpzvu.0ljo3lpjolunlkpzvu.0ljo@calendar-server.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3ELTzXgYLCEUzo1ohvlkpzvu.0ljo3lpjolunlkpzvu.0ljo@calendar-server.bounces.google.com
+Return-Path: <3ELTzXgYLCEUzo1ohvlkpzvu.0ljo3lpjolunlkpzvu.0ljo@calendar-server.bounces.google.com>
+Received: from mail-sor-f73.google.com (mail-sor-f73.google.com. [209.85.220.73])
+        by mx.google.com with SMTPS id t20sor12559619otq.186.2020.06.24.13.14.08
+        for <weicheng@edison.tech>
+        (Google Transport Security);
+        Wed, 24 Jun 2020 13:14:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3eltzxgylceuzo1ohvlkpzvu.0ljo3lpjolunlkpzvu.0ljo@calendar-server.bounces.google.com designates 209.85.220.73 as permitted sender) client-ip=209.85.220.73;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@google.com header.s=20161025 header.b=p43hfQt5;
+       dkim=pass header.i=@edison-tech.20150623.gappssmtp.com header.s=20150623 header.b="LgVz/XjQ";
+       spf=pass (google.com: domain of 3eltzxgylceuzo1ohvlkpzvu.0ljo3lpjolunlkpzvu.0ljo@calendar-server.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3ELTzXgYLCEUzo1ohvlkpzvu.0ljo3lpjolunlkpzvu.0ljo@calendar-server.bounces.google.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :from:to;
+        bh=+HI8DLF281nbcC6VEfzu9vB/bLJc6sd5KYVjZFhsgb0=;
+        b=p43hfQt5BlReoVNZXtWkixaRKK9MrZADp5yMtjg/ZU+zQLMptXJm/BpMcsrPmoZl9J
+         8Cwf6CH4St/qrxcRhae6xRlh3ACbxaValE7Ev67FuLcASwyPH/TzGPEYflJ9u894AHf7
+         5xP2IzYR42G3GuLTafjyB6X5bWwHavBIWtlZlQzFMr4oivPX0Be17CMMGVdsd8KvCRDO
+         yQGzcf4K9pw6NwsKTFhcWZ4gCTC/+xI3vV2l5a9ZWPMgxtvxoVwvmelx/haIY6RjKI/f
+         Kml+dsZUumvqKzszE4AexjlBBrmHkTNmS5Ivx/X3u3ZYq8DZC6p8ipmGYWsCETUBIcMD
+         KKsA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=edison-tech.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :from:to;
+        bh=+HI8DLF281nbcC6VEfzu9vB/bLJc6sd5KYVjZFhsgb0=;
+        b=LgVz/XjQ/O4MznnhvKQkHnQFR5TE3uHGBoYryPIH/IKy4JAbrYX5CIHgtikW45MR2L
+         2wnmYRyJCa9ZNZk/avWQllYmUmiY8U+EhDmZlB9AkyNvK7A1iGBY7yvdAE7pMoifDv7G
+         YryWr0g1cBdTPnsEgao+GiV43PzRJmaynpYCY9xm1OEFQYivnnMnhcywCfLSUDQhfI39
+         H8WCG43xuJPSy+brEOvVMpRva7wY7Xf2gGoHyM7G4iVImW4ssQetWHpSzJ2x11EN3D1v
+         IF2Lwyk7AaELsB7n/cet2aSL9Tq993nGDY6o9d4pZ8vNnuj2IH0HKsqp7Fmm6WyYTcec
+         1izA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:from:to;
+        bh=+HI8DLF281nbcC6VEfzu9vB/bLJc6sd5KYVjZFhsgb0=;
+        b=JjEfDm1hbAQWKpeRbQYMGlyoBZnEidJJBoLwKqFvEp4JIx7XxZsu9uLmNI7RW6E7S/
+         rgGhYnYhQFxdqf0Z3mxIWkPED1HIP67Vnb1PWW9d7O2pm2TKDI0iPjHlSBlLK7WI0+AR
+         0EeEJjwoCCxuVPZTJZtylSsT8jN4rApDoSrRIlwMkiw3DBm68SipNwr9iY+vMqkE2dRD
+         I4jZRx6Z4QOC3x/2D15ez30bgsU73jT1U8Cm6kZtFZYliSNsZHVgbM2V5wIfpIDEwJ7/
+         Gp13IbzwhdZLoUhLNKku4OOH5Tow6FyJ6D+RvJucM1DmXAxEWZXCE4J93WNrMdNYBs14
+         CDow==
+X-Gm-Message-State: AOAM5303gK3YsexuuYWDawtoRXyX2mFP2X8E9Zm6e6k1vfotzQuU0o5L
+	LTa+sW9hM2hixMPJbbYSE9E/+YFl85hk9mWmUHJapUW4ZA==
+X-Google-Smtp-Source: ABdhPJya4I9+2A0rvz9H6R0z+uolVtczZuUV6+1135aj/0izjyW1RwNUWAOAftDyMwbWuESUXXuUFwt/0mvqx+fcs6Sg
+MIME-Version: 1.0
+X-Received: by 2002:a05:6830:210d:: with SMTP id i13mr22478206otc.252.1593029648374;
+ Wed, 24 Jun 2020 13:14:08 -0700 (PDT)
+Reply-To: Shuhao Zhang <shuhao@edison.tech>
+Sender: Google Calendar <calendar-notification@google.com>
+Auto-Submitted: auto-generated
+Message-ID: <0000000000004f08f605a8da1e62@google.com>
+Date: Wed, 24 Jun 2020 20:14:08 +0000
+Subject: Updated invitation: Core Team update @ Weekly from 9:30am to 10am on
+ Friday except Fri Jun 26 8:30am (CST) (Weicheng Qian)
+From: Shuhao Zhang <shuhao@edison.tech>
+To: Weicheng Qian <weicheng@edison.tech>, hui@edison.tech, 
+	Youbing Yang <youbing@edison.tech>, lu@edison.tech, zhaoshuo@edison.tech, 
+	lida@edison.tech
+Content-Type: multipart/mixed; boundary="0000000000004f08dd05a8da1e5f"
+
+--0000000000004f08dd05a8da1e5f
+Content-Type: multipart/alternative; boundary="0000000000004f08dc05a8da1e5d"
+
+--0000000000004f08dc05a8da1e5d
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+This event has been changed.
+
+Title: Core Team update
+https://zoom.us/j/2666218168
+When: Weekly from 9:30am to 10am on Friday except Fri Jun 26 8:30am China  
+Standard Time - Shanghai (changed)
+Where: Edison Conference 2
+Calendar: Weicheng Qian
+Who:
+     * Shuhao Zhang - organizer
+     * hui@edison.tech
+     * Youbing Yang
+     * lu@edison.tech
+     * zhaoshuo@edison.tech
+     * Weicheng Qian
+     * lida@edison.tech
+
+Event details:  
+https://www.google.com/calendar/event?action=VIEW&eid=NjRoZHV2dWZub2M1a3BmczRqOWtqc2NrdDYgd2VpY2hlbmdAZWRpc29uLnRlY2g&tok=MTgjc2h1aGFvQGVkaXNvbi50ZWNoZDIwOTM5MDFkMzViYzljZjkyMDk4NWQwZjlmMmIwNzIwYzRhOTE0MA&ctz=Asia%2FShanghai&hl=en&es=1
+
+Invitation from Google Calendar: https://www.google.com/calendar/
+
+You are receiving this email at the account weicheng@edison.tech because  
+you are subscribed for updated invitations on calendar Weicheng Qian.
+
+To stop receiving these emails, please log in to  
+https://www.google.com/calendar/ and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to send a response to  
+the organizer and be added to the guest list, or invite others regardless  
+of their own invitation status, or to modify your RSVP. Learn more at  
+https://support.google.com/calendar/answer/37135#forwarding
+
+--0000000000004f08dc05a8da1e5d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<span itemscope itemtype=3D"http://schema.org/InformAction"><span style=3D"=
+display:none" itemprop=3D"about" itemscope itemtype=3D"http://schema.org/Th=
+ing/Clock"><meta itemprop=3D"description" content=3D"Time updated"/></span>=
+<span itemprop=3D"object" itemscope itemtype=3D"http://schema.org/Event"><d=
+iv style=3D""><table cellspacing=3D"0" cellpadding=3D"8" border=3D"0" summa=
+ry=3D"" style=3D"width:100%;font-family:Arial,Sans-serif;border:1px Solid #=
+ccc;border-width:1px 2px 2px 1px;background-color:#fff;"><tr><td><meta item=
+prop=3D"eventStatus" content=3D"http://schema.org/EventRescheduled"/><h4 st=
+yle=3D"padding:6px 10px;margin:0 0 4px 0;font-family:Arial,Sans-serif;font-=
+size:13px;line-height:1.4;border:1px Solid #d9f2db;background:#d9f2db;color=
+:#222;font-weight:normal"><strong>This event has been changed.</strong></h4=
+><div style=3D"padding:2px"><span itemprop=3D"publisher" itemscope itemtype=
+=3D"http://schema.org/Organization"><meta itemprop=3D"name" content=3D"Goog=
+le Calendar"/></span><meta itemprop=3D"eventId/googleCalendar" content=3D"6=
+4hduvufnoc5kpfs4j9kjsckt6"/><h3 style=3D"padding:0 0 6px 0;margin:0;font-fa=
+mily:Arial,Sans-serif;font-size:16px;font-weight:bold;color:#222"><span ite=
+mprop=3D"name">Core Team update</span></h3><table style=3D"display:inline-t=
+able" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" summary=3D"Event det=
+ails"><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;fo=
+nt-size:13px;color:#888;white-space:nowrap" valign=3D"top"><div><i style=3D=
+"font-style:normal">When</i></div></td><td style=3D"padding-bottom:10px;fon=
+t-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top"><strong=
+ style=3D"color:#080">Changed: </strong><time itemprop=3D"startDate" dateti=
+me=3D"20200214T013000Z"></time><time itemprop=3D"endDate" datetime=3D"20200=
+214T020000Z"></time>Weekly from 9:30am to 10am on Friday except Fri Jun 26 =
+8:30am <span style=3D"color:#888">China Standard Time - Shanghai</span></td=
+></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;fo=
+nt-size:13px;color:#888;white-space:nowrap" valign=3D"top"><div><i style=3D=
+"font-style:normal">Where</i></div></td><td style=3D"padding-bottom:10px;fo=
+nt-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top"><span =
+itemprop=3D"location" itemscope itemtype=3D"http://schema.org/Place"><span =
+itemprop=3D"name" class=3D"notranslate">Edison Conference 2</span><span dir=
+=3D"ltr"> (<a href=3D"https://www.google.com/maps/search/Edison+Conference+=
+2?hl=3Den" style=3D"color:#20c;white-space:nowrap" target=3D"_blank" itempr=
+op=3D"map">map</a>)</span></span></td></tr><tr><td style=3D"padding:0 1em 1=
+0px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:no=
+wrap" valign=3D"top"><div><i style=3D"font-style:normal">Calendar</i></div>=
+</td><td style=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-siz=
+e:13px;color:#222" valign=3D"top">Weicheng Qian</td></tr><tr><td style=3D"p=
+adding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;=
+white-space:nowrap" valign=3D"top"><div><i style=3D"font-style:normal">Who<=
+/i></div></td><td style=3D"padding-bottom:10px;font-family:Arial,Sans-serif=
+;font-size:13px;color:#222" valign=3D"top"><table cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td style=3D"padding-right:10px;font-family:Arial,Sans-serif=
+;font-size:13px;color:#222"><span style=3D"font-family:Courier New,monospac=
+e">&#x2022;</span></td><td style=3D"padding-right:10px;font-family:Arial,Sa=
+ns-serif;font-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0">=
+<span itemprop=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"=
+><span itemprop=3D"name" class=3D"notranslate">Shuhao Zhang</span><meta ite=
+mprop=3D"email" content=3D"shuhao@edison.tech"/></span><span itemprop=3D"or=
+ganizer" itemscope itemtype=3D"http://schema.org/Person"><meta itemprop=3D"=
+name" content=3D"Shuhao Zhang"/><meta itemprop=3D"email" content=3D"shuhao@=
+edison.tech"/></span><span style=3D"font-size:11px;color:#888"> - organizer=
+</span></div></div></td></tr><tr><td style=3D"padding-right:10px;font-famil=
+y:Arial,Sans-serif;font-size:13px;color:#222"><span style=3D"font-family:Co=
+urier New,monospace">&#x2022;</span></td><td style=3D"padding-right:10px;fo=
+nt-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style=3D"ma=
+rgin:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope itemtype=3D"http://=
+schema.org/Person"><span itemprop=3D"name" class=3D"notranslate">hui@edison=
+.tech</span><meta itemprop=3D"email" content=3D"hui@edison.tech"/></span></=
+div></div></td></tr><tr><td style=3D"padding-right:10px;font-family:Arial,S=
+ans-serif;font-size:13px;color:#222"><span style=3D"font-family:Courier New=
+,monospace">&#x2022;</span></td><td style=3D"padding-right:10px;font-family=
+:Arial,Sans-serif;font-size:13px;color:#222"><div><div style=3D"margin:0 0 =
+0.3em 0"><span itemprop=3D"attendee" itemscope itemtype=3D"http://schema.or=
+g/Person"><span itemprop=3D"name" class=3D"notranslate">Youbing Yang</span>=
+<meta itemprop=3D"email" content=3D"youbing@edison.tech"/></span></div></di=
+v></td></tr><tr><td style=3D"padding-right:10px;font-family:Arial,Sans-seri=
+f;font-size:13px;color:#222"><span style=3D"font-family:Courier New,monospa=
+ce">&#x2022;</span></td><td style=3D"padding-right:10px;font-family:Arial,S=
+ans-serif;font-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"=
+><span itemprop=3D"attendee" itemscope itemtype=3D"http://schema.org/Person=
+"><span itemprop=3D"name" class=3D"notranslate">lu@edison.tech</span><meta =
+itemprop=3D"email" content=3D"lu@edison.tech"/></span></div></div></td></tr=
+><tr><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size=
+:13px;color:#222"><span style=3D"font-family:Courier New,monospace">&#x2022=
+;</span></td><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;f=
+ont-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><span item=
+prop=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"><span ite=
+mprop=3D"name" class=3D"notranslate">zhaoshuo@edison.tech</span><meta itemp=
+rop=3D"email" content=3D"zhaoshuo@edison.tech"/></span></div></div></td></t=
+r><tr><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-siz=
+e:13px;color:#222"><span style=3D"font-family:Courier New,monospace">&#x202=
+2;</span></td><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;=
+font-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><span ite=
+mprop=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"><span it=
+emprop=3D"name" class=3D"notranslate">Weicheng Qian</span><meta itemprop=3D=
+"email" content=3D"weicheng@edison.tech"/></span></div></div></td></tr><tr>=
+<td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px=
+;color:#222"><span style=3D"font-family:Courier New,monospace">&#x2022;</sp=
+an></td><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-s=
+ize:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=
+=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"><span itempro=
+p=3D"name" class=3D"notranslate">lida@edison.tech</span><meta itemprop=3D"e=
+mail" content=3D"lida@edison.tech"/></span></div></div></td></tr></table></=
+td></tr></table><div style=3D"float:right;font-weight:bold;font-size:13px">=
+ <a href=3D"https://www.google.com/calendar/event?action=3DVIEW&amp;eid=3DN=
+jRoZHV2dWZub2M1a3BmczRqOWtqc2NrdDYgd2VpY2hlbmdAZWRpc29uLnRlY2g&amp;tok=3DMT=
+gjc2h1aGFvQGVkaXNvbi50ZWNoZDIwOTM5MDFkMzViYzljZjkyMDk4NWQwZjlmMmIwNzIwYzRhO=
+TE0MA&amp;ctz=3DAsia%2FShanghai&amp;hl=3Den&amp;es=3D1" style=3D"color:#20c=
+;white-space:nowrap" itemprop=3D"url">more details &raquo;</a><br></div><di=
+v style=3D"padding-bottom:15px;font-family:Arial,Sans-serif;font-size:13px;=
+color:#222;white-space:pre-wrap!important;white-space:-moz-pre-wrap!importa=
+nt;white-space:-pre-wrap!important;white-space:-o-pre-wrap!important;white-=
+space:pre;word-wrap:break-word"><span><span><a href=3D"https://www.google.c=
+om/url?q=3Dhttps%3A%2F%2Fzoom.us%2Fj%2F2666218168&amp;sa=3DD&amp;ust=3D1593=
+461648349000&amp;usg=3DAOvVaw3REhKNZfAOtqrMw2HzYYtO" target=3D"_blank">http=
+s://zoom.us/j/2666218168</a></span></span><meta itemprop=3D"description" co=
+ntent=3D"https://zoom.us/j/2666218168"/></div></div><p style=3D"color:#222;=
+font-size:13px;margin:0"><span style=3D"color:#888">Going (weicheng@edison.=
+tech)?&nbsp;&nbsp;&nbsp;</span><wbr>All events in this series:&nbsp;&nbsp;&=
+nbsp;<strong><span itemprop=3D"potentialaction" itemscope itemtype=3D"http:=
+//schema.org/RsvpAction"><meta itemprop=3D"attendance" content=3D"http://sc=
+hema.org/RsvpAttendance/Yes"/><span itemprop=3D"handler" itemscope itemtype=
+=3D"http://schema.org/HttpActionHandler"><link itemprop=3D"method" href=3D"=
+http://schema.org/HttpRequestMethod/GET"/><a href=3D"https://www.google.com=
+/calendar/event?action=3DRESPOND&amp;eid=3DNjRoZHV2dWZub2M1a3BmczRqOWtqc2Nr=
+dDYgd2VpY2hlbmdAZWRpc29uLnRlY2g&amp;rst=3D1&amp;tok=3DMTgjc2h1aGFvQGVkaXNvb=
+i50ZWNoZDIwOTM5MDFkMzViYzljZjkyMDk4NWQwZjlmMmIwNzIwYzRhOTE0MA&amp;ctz=3DAsi=
+a%2FShanghai&amp;hl=3Den&amp;es=3D1" style=3D"color:#20c;white-space:nowrap=
+" itemprop=3D"url">Yes</a></span></span><span style=3D"margin:0 0.4em;font-=
+weight:normal"> - </span><span itemprop=3D"potentialaction" itemscope itemt=
+ype=3D"http://schema.org/RsvpAction"><meta itemprop=3D"attendance" content=
+=3D"http://schema.org/RsvpAttendance/Maybe"/><span itemprop=3D"handler" ite=
+mscope itemtype=3D"http://schema.org/HttpActionHandler"><link itemprop=3D"m=
+ethod" href=3D"http://schema.org/HttpRequestMethod/GET"/><a href=3D"https:/=
+/www.google.com/calendar/event?action=3DRESPOND&amp;eid=3DNjRoZHV2dWZub2M1a=
+3BmczRqOWtqc2NrdDYgd2VpY2hlbmdAZWRpc29uLnRlY2g&amp;rst=3D3&amp;tok=3DMTgjc2=
+h1aGFvQGVkaXNvbi50ZWNoZDIwOTM5MDFkMzViYzljZjkyMDk4NWQwZjlmMmIwNzIwYzRhOTE0M=
+A&amp;ctz=3DAsia%2FShanghai&amp;hl=3Den&amp;es=3D1" style=3D"color:#20c;whi=
+te-space:nowrap" itemprop=3D"url">Maybe</a></span></span><span style=3D"mar=
+gin:0 0.4em;font-weight:normal"> - </span><span itemprop=3D"potentialaction=
+" itemscope itemtype=3D"http://schema.org/RsvpAction"><meta itemprop=3D"att=
+endance" content=3D"http://schema.org/RsvpAttendance/No"/><span itemprop=3D=
+"handler" itemscope itemtype=3D"http://schema.org/HttpActionHandler"><link =
+itemprop=3D"method" href=3D"http://schema.org/HttpRequestMethod/GET"/><a hr=
+ef=3D"https://www.google.com/calendar/event?action=3DRESPOND&amp;eid=3DNjRo=
+ZHV2dWZub2M1a3BmczRqOWtqc2NrdDYgd2VpY2hlbmdAZWRpc29uLnRlY2g&amp;rst=3D2&amp=
+;tok=3DMTgjc2h1aGFvQGVkaXNvbi50ZWNoZDIwOTM5MDFkMzViYzljZjkyMDk4NWQwZjlmMmIw=
+NzIwYzRhOTE0MA&amp;ctz=3DAsia%2FShanghai&amp;hl=3Den&amp;es=3D1" style=3D"c=
+olor:#20c;white-space:nowrap" itemprop=3D"url">No</a></span></span></strong=
+>&nbsp;&nbsp;&nbsp;&nbsp;<wbr><a href=3D"https://www.google.com/calendar/ev=
+ent?action=3DVIEW&amp;eid=3DNjRoZHV2dWZub2M1a3BmczRqOWtqc2NrdDYgd2VpY2hlbmd=
+AZWRpc29uLnRlY2g&amp;tok=3DMTgjc2h1aGFvQGVkaXNvbi50ZWNoZDIwOTM5MDFkMzViYzlj=
+ZjkyMDk4NWQwZjlmMmIwNzIwYzRhOTE0MA&amp;ctz=3DAsia%2FShanghai&amp;hl=3Den&am=
+p;es=3D1" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">more opt=
+ions &raquo;</a></p></td></tr><tr><td style=3D"background-color:#f6f6f6;col=
+or:#888;border-top:1px Solid #ccc;font-family:Arial,Sans-serif;font-size:11=
+px"><p>Invitation from <a href=3D"https://www.google.com/calendar/" target=
+=3D"_blank" style=3D"">Google Calendar</a></p><p>You are receiving this ema=
+il at the account weicheng@edison.tech because you are subscribed for updat=
+ed invitations on calendar Weicheng Qian.</p><p>To stop receiving these ema=
+ils, please log in to https://www.google.com/calendar/ and change your noti=
+fication settings for this calendar.</p><p>Forwarding this invitation could=
+ allow any recipient to send a response to the organizer and be added to th=
+e guest list, or invite others regardless of their own invitation status, o=
+r to modify your RSVP. <a href=3D"https://support.google.com/calendar/answe=
+r/37135#forwarding">Learn More</a>.</p></td></tr></table></div></span></spa=
+n>
+--0000000000004f08dc05a8da1e5d
+Content-Type: text/calendar; charset="UTF-8"; method=REQUEST
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20200213T173000
+DTEND;TZID=America/Los_Angeles:20200213T180000
+EXDATE;TZID=America/Los_Angeles:20200521T173000
+EXDATE;TZID=America/Los_Angeles:20200625T173000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+DTSTAMP:20200624T201408Z
+ORGANIZER;CN=Shuhao Zhang:mailto:shuhao@edison.tech
+UID:64hduvufnoc5kpfs4j9kjsckt6@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=hui@edison.tech;X-NUM-GUESTS=0:mailto:hui@edison.tech
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=Youbing Yang;X-NUM-GUESTS=0:mailto:youbing@edison.tech
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=lu@edison.tech;X-NUM-GUESTS=0:mailto:lu@edison.tech
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=zhaoshuo@edison.tech;X-NUM-GUESTS=0:mailto:zhaoshuo@edison.tech
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Shuhao Zhang;X-NUM-GUESTS=0:mailto:shuhao@edison.tech
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Weicheng Qian;X-NUM-GUESTS=0:mailto:weicheng@edison.tech
+ATTENDEE;CUTYPE=RESOURCE;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;C
+ N=Edison Conference 2;X-NUM-GUESTS=0:mailto:edison.tech_2d36313132303530313
+ 43231@resource.calendar.google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=lida@edison.tech;X-NUM-GUESTS=0:mailto:lida@edison.tech
+X-MICROSOFT-CDO-OWNERAPPTID:-1982749942
+CREATED:20200206T232537Z
+DESCRIPTION:<span><a href="https://zoom.us/j/2666218168">https://zoom.us/j/
+ 2666218168</a></span>\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section of t
+ he description.\n\nView your event at https://www.google.com/calendar/event
+ ?action=VIEW&eid=NjRoZHV2dWZub2M1a3BmczRqOWtqc2NrdDYgd2VpY2hlbmdAZWRpc29uLn
+ RlY2g&tok=MTgjc2h1aGFvQGVkaXNvbi50ZWNoZDIwOTM5MDFkMzViYzljZjkyMDk4NWQwZjlmM
+ mIwNzIwYzRhOTE0MA&ctz=Asia%2FShanghai&hl=en&es=1.\n-::~:~::~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20200624T201359Z
+LOCATION:Edison Conference 2
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Core Team update
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+--0000000000004f08dc05a8da1e5d--
+--0000000000004f08dd05a8da1e5f
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VlRJTUVaT05FDQpUWklEOkFtZXJpY2EvTG9zX0FuZ2VsZXMNClgtTElDLUxPQ0FU
+SU9OOkFtZXJpY2EvTG9zX0FuZ2VsZXMNCkJFR0lOOkRBWUxJR0hUDQpUWk9GRlNFVEZST006LTA4
+MDANClRaT0ZGU0VUVE86LTA3MDANClRaTkFNRTpQRFQNCkRUU1RBUlQ6MTk3MDAzMDhUMDIwMDAw
+DQpSUlVMRTpGUkVRPVlFQVJMWTtCWU1PTlRIPTM7QllEQVk9MlNVDQpFTkQ6REFZTElHSFQNCkJF
+R0lOOlNUQU5EQVJEDQpUWk9GRlNFVEZST006LTA3MDANClRaT0ZGU0VUVE86LTA4MDANClRaTkFN
+RTpQU1QNCkRUU1RBUlQ6MTk3MDExMDFUMDIwMDAwDQpSUlVMRTpGUkVRPVlFQVJMWTtCWU1PTlRI
+PTExO0JZREFZPTFTVQ0KRU5EOlNUQU5EQVJEDQpFTkQ6VlRJTUVaT05FDQpCRUdJTjpWRVZFTlQN
+CkRUU1RBUlQ7VFpJRD1BbWVyaWNhL0xvc19BbmdlbGVzOjIwMjAwMjEzVDE3MzAwMA0KRFRFTkQ7
+VFpJRD1BbWVyaWNhL0xvc19BbmdlbGVzOjIwMjAwMjEzVDE4MDAwMA0KRVhEQVRFO1RaSUQ9QW1l
+cmljYS9Mb3NfQW5nZWxlczoyMDIwMDUyMVQxNzMwMDANCkVYREFURTtUWklEPUFtZXJpY2EvTG9z
+X0FuZ2VsZXM6MjAyMDA2MjVUMTczMDAwDQpSUlVMRTpGUkVRPVdFRUtMWTtCWURBWT1USA0KRFRT
+VEFNUDoyMDIwMDYyNFQyMDE0MDhaDQpPUkdBTklaRVI7Q049U2h1aGFvIFpoYW5nOm1haWx0bzpz
+aHVoYW9AZWRpc29uLnRlY2gNClVJRDo2NGhkdXZ1Zm5vYzVrcGZzNGo5a2pzY2t0NkBnb29nbGUu
+Y29tDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJU
+U1RBVD1BQ0NFUFRFRDtSU1ZQPVRSVUUNCiA7Q049aHVpQGVkaXNvbi50ZWNoO1gtTlVNLUdVRVNU
+Uz0wOm1haWx0bzpodWlAZWRpc29uLnRlY2gNCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JP
+TEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049
+WW91YmluZyBZYW5nO1gtTlVNLUdVRVNUUz0wOm1haWx0bzp5b3ViaW5nQGVkaXNvbi50ZWNoDQpB
+VFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1B
+Q0NFUFRFRDtSU1ZQPVRSVUUNCiA7Q049bHVAZWRpc29uLnRlY2g7WC1OVU0tR1VFU1RTPTA6bWFp
+bHRvOmx1QGVkaXNvbi50ZWNoDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1Q
+QVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPXpoYW9zaHVv
+QGVkaXNvbi50ZWNoO1gtTlVNLUdVRVNUUz0wOm1haWx0bzp6aGFvc2h1b0BlZGlzb24udGVjaA0K
+QVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9
+QUNDRVBURUQ7UlNWUD1UUlVFDQogO0NOPVNodWhhbyBaaGFuZztYLU5VTS1HVUVTVFM9MDptYWls
+dG86c2h1aGFvQGVkaXNvbi50ZWNoDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJF
+US1QQVJUSUNJUEFOVDtQQVJUU1RBVD1BQ0NFUFRFRDtSU1ZQPVRSVUUNCiA7Q049V2VpY2hlbmcg
+UWlhbjtYLU5VTS1HVUVTVFM9MDptYWlsdG86d2VpY2hlbmdAZWRpc29uLnRlY2gNCkFUVEVOREVF
+O0NVVFlQRT1SRVNPVVJDRTtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1BQ0NFUFRFRDtS
+U1ZQPVRSVUU7Qw0KIE49RWRpc29uIENvbmZlcmVuY2UgMjtYLU5VTS1HVUVTVFM9MDptYWlsdG86
+ZWRpc29uLnRlY2hfMmQzNjMxMzEzMjMwMzUzMDMxMw0KIDQzMjMxQHJlc291cmNlLmNhbGVuZGFy
+Lmdvb2dsZS5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQ
+QU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049bGlkYUBlZGlzb24udGVj
+aDtYLU5VTS1HVUVTVFM9MDptYWlsdG86bGlkYUBlZGlzb24udGVjaA0KWC1NSUNST1NPRlQtQ0RP
+LU9XTkVSQVBQVElEOi0xOTgyNzQ5OTQyDQpDUkVBVEVEOjIwMjAwMjA2VDIzMjUzN1oNCkRFU0NS
+SVBUSU9OOjxzcGFuPjxhIGhyZWY9Imh0dHBzOi8vem9vbS51cy9qLzI2NjYyMTgxNjgiPmh0dHBz
+Oi8vem9vbS51cy9qLw0KIDI2NjYyMTgxNjg8L2E+PC9zcGFuPlxuXG4tOjp+On46On46fjp+On46
+fjp+On46fjp+On46fjp+On46fjp+On46fjp+On46fjp+Og0KIH46fjp+On46fjp+On46fjp+On46
+fjp+On46fjp+Ojp+On46Oi1cblBsZWFzZSBkbyBub3QgZWRpdCB0aGlzIHNlY3Rpb24gb2YgdA0K
+IGhlIGRlc2NyaXB0aW9uLlxuXG5WaWV3IHlvdXIgZXZlbnQgYXQgaHR0cHM6Ly93d3cuZ29vZ2xl
+LmNvbS9jYWxlbmRhci9ldmVudA0KID9hY3Rpb249VklFVyZlaWQ9TmpSb1pIVjJkV1p1YjJNMWEz
+Qm1jelJxT1d0cWMyTnJkRFlnZDJWcFkyaGxibWRBWldScGMyOXVMbg0KIFJsWTJnJnRvaz1NVGdq
+YzJoMWFHRnZRR1ZrYVhOdmJpNTBaV05vWkRJd09UTTVNREZrTXpWaVl6bGpaamt5TURrNE5XUXda
+amxtTQ0KIG1Jd056SXdZelJoT1RFME1BJmN0ej1Bc2lhJTJGU2hhbmdoYWkmaGw9ZW4mZXM9MS5c
+bi06On46fjo6fjp+On46fjp+On46fjp+Og0KIH46fjp+On46fjp+On46fjp+On46fjp+On46fjp+
+On46fjp+On46fjp+On46fjp+On46fjp+On46On46fjo6LQ0KTEFTVC1NT0RJRklFRDoyMDIwMDYy
+NFQyMDEzNTlaDQpMT0NBVElPTjpFZGlzb24gQ29uZmVyZW5jZSAyDQpTRVFVRU5DRToxDQpTVEFU
+VVM6Q09ORklSTUVEDQpTVU1NQVJZOkNvcmUgVGVhbSB1cGRhdGUNClRSQU5TUDpPUEFRVUUNCkVO
+RDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==
+--0000000000004f08dd05a8da1e5f--

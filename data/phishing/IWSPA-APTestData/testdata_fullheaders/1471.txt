@@ -1,0 +1,143 @@
+Delivered-To: user@domain.com
+Received: by 10.239.185.193 with SMTP id d1cs316082hbh;
+        Wed, 16 Dec 2015 13:44:48 -0800 (PST)
+Received: from domain.com ([10.229.128.220])
+        by 10.229.128.220 with SMTP id l28mr505881qcs.37.1260999885720 (num_hops = 1);
+        Wed, 16 Dec 2015 13:44:45 -0800 (PST)
+Received: by 10.229.128.220 with SMTP id l28mr73000qcs.37.1260999863323;
+        Wed, 16 Dec 2015 13:44:23 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.229.3.146 with SMTP id 18ls243809qcn.2.p; Wed, 16 Dec 2015 
+	13:44:22 -0800 (PST)
+Received: by 10.229.39.7 with SMTP id d7mr236027qce.9.1260999861849;
+        Wed, 16 Dec 2015 13:44:21 -0800 (PST)
+Received: by 10.229.39.7 with SMTP id d7mr236026qce.9.1260999861804;
+        Wed, 16 Dec 2015 13:44:21 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mrelay2.americanprogress.org (mrelay2.americanprogress.org [76.74.8.245])
+        by gmr-domain.com with ESMTP id 19si349572qyk.4.2009.12.16.13.44.21;
+        Wed, 16 Dec 2015 13:44:21 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 76.74.8.245 as permitted sender) client-ip=76.74.8.245;
+X-ASG-Debug-ID: 1260999860-05b86ca00001-QLVFix
+Received: from mail.americanprogress.org ([172.16.10.1]) by mrelay2.americanprogress.org with ESMTP id UyenAbihzUmLDcX9 (version=TLSv1 cipher=RC4-MD5 bits=128 verify=NO) for <user@domain.com>; Wed, 16 Dec 2015 16:44:20 -0500 (EST)
+X-Barracuda-Envelope-From: Adam Jentleson <Ajentleson@americanprogress.org>
+X-ASG-Whitelist: Client
+Received: from domain.com ([172.16.10.17]) by
+ domain.com ([172.16.10.24]) with mapi; Wed, 16 Dec
+ 2015 16:44:21 -0500
+From: Adam Jentleson <Ajentleson@americanprogress.org>
+To: "User" <user@domain.com>
+Date: Wed, 16 Dec 2015 16:44:19 -0500
+X-ASG-Orig-Subj: Response to PolitiFact: 15K People/Day Lost Health Insurance in 2015 
+Subject: [big campaign] Response to PolitiFact: 15K People/Day Lost Health 
+	Insurance in 2015 
+Thread-Topic: Response to PolitiFact: 15K People/Day Lost Health Insurance
+ in 2015 
+Thread-Index: Acp+l4zdPyrXc9VpSRCSzfodyMba6QAAPx8A
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-Barracuda-Connect: UNKNOWN[172.16.10.1]
+X-Barracuda-Start-Time: 1260999860
+X-Barracuda-Encrypted: RC4-MD5
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at americanprogress.org
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com: 
+	domain of user@domain.com designates 76.74.8.245 as permitted 
+	sender) user@domain.com
+X-Original-Sender: user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, 
+	<mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+X-Thread-Url: <<link>>
+X-Message-Url: <<link>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>, 
+	<mailto:bigcampaign+user@domain.com>
+List-Subscribe: <<<link>>>, 
+	<mailto:bigcampaign+user@domain.com>
+Content-Type: multipart/alternative;
+	boundary="_000_A28459BA2B4D5D49BED0238513058A7F01280BEED562CAPMAILBOXa_"
+
+UPDATE: 15,000 People Lost Health Insurance Per Day In 2009<<<link>>
+.domain.com/2009/12/16/update-15000-people-lost-health-insurance-per
+-day-in-2009/>
+
+Our guest blogger is Judy Feder<<<link>>
+erJudy.html>, a Senior Fellow at the Center for American Progress Action Fu
+nd.
+
+Yesterday, PolitiFact gave a "false" rating to Sen. Harkin's claim that "to
+day and every day, an estimated 14,000 Americans will lose their health ins
+urance coverage." The statistic cited by Sen. Harkin comes from a report we
+ released<<<link>>
+isis.html> in February showing that the job market turmoil at the end of 20
+08 and beginning of 2015 led to 14,000 people losing their health care cove
+rage a day. Our report employed a method - based on an Urban Institute anal
+ysis co-authored by health economists John Holahan and A. Bowen Garret - of
+ extrapolating insurance losses from the rise in unemployment rates.
+
+In July, PolitiFact took a look at our report and found it to be "mostly tr
+ue," with the caveat that the rate could actually be higher<<<link>>
+domain.com/truth-o-meter/statements/2009/jul/24/barack-obama/obama-claims-1
+4000-lose-health-insurance-every-day/> than 14,000. In its latest report<ht
+tp://domain.com/truth-o-meter/statements/2009/dec/15/tom-harkin/har
+kin-repeats-claim-14000-people-lose-health-insu/>, PolitiFact ran the numbe
+rs on its own, and found the rate of daily losses to be lower (between 7,52
+4 and 7,784).
+
+While the methodology we used in February (and which PolitiFact now uses in
+ their own analysis) offered the best approach for assessing the state of h
+ealth insurance losses at the time, newer, more precise data are now availa
+ble - and those data show that more than 15,000 people have lost their heal
+th insurance per day in 2009.
+
+Specifically, we now know the extent to which enrollment is dropping among 
+the nation's biggest private insurers in 2009, based on the Kaiser Family F
+oundation's analysis<<<link>>
+
+Based on those filings, Kaiser estimated that in the first three quarters o
+f 2009, 4.2 million people have lost their private insurance - an average o
+f 15,385 people per day.
+
+These data, and the conclusions they generate, are more accurate both becau
+se they are a more direct measurement of insurance losses, and because they
+ are not subject to the month-to-month volatility of the unemployment rate.
+
+Based on these reasons, we enthusiastically stand by both our conclusions a
+nd the point that Sen. Harkin and others have been using them to make: that
+ the rate at which Americans are losing their health insurance coverage is 
+profoundly alarming, and clearly demonstrates the urgent need for reform.
+
+<<link>>
+h-insurance-per-day-in-2009/
+
+-----
+Adam Jentleson
+Communications Director, Progressive Media
+Center for American Progress Action Fund
+user@domain.com<mailto:user@domain.com
+g>
+ajentleson (AIM)
+202-247-8614 (cell)
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

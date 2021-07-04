@@ -1,0 +1,96 @@
+Return-Path: <788-user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 619DFB6603C
+	for <user@domain.com>; Tue, 18 Feb 2015 13:51:31 +0100 (CET)
+X-ASG-Debug-ID: 1392727887-066a750c92b2ba0002-4ddLus
+Received: from em-sj-47.domain.com (em-sj-47.domain.com [199.15.214.47]) by domain.com with ESMTP id mPCmpj0JBNWisIRX for <user@domain.com>; Tue, 18 Feb 2015 13:51:29 +0100 (CET)
+X-Barracuda-Envelope-From: "SS8, Inc." <info@ss8.com>
+X-Barracuda-Apparent-Source-IP: 199.15.214.47
+DKIM-Signature: v=1; a=rsa-sha256; d=ss8.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1392727887;
+	h=From: "SS8, Inc." <info@ss8.com>
+	bh=zi7SrBw9/f5W2Ox/kNUYAe8nUeKrI1H3v2zkP6CKWGw=;
+	b=toeWLE5Bh8qYLtkEw9K7Rp7be+elhfW7MXV7BgIJP3LwAS5QVzZtLF5LkXyvMBPR
+	c8oX/X0jH9GXSSY4U48/v9lc14FGJZ3WptJMCwO0RZviZ7l++ETyJ3l6jDnQSUdr
+	d52K7O30N4sBymoDbSnImc2DFMAQmpVmMEBBweIhBWE=;
+X-MSFBL: YS52ZWxhc2NvQGhhY2tpbmd0ZWFtLml0QGR2cC0xOTktMTUtMjE0LTQ3QGJnLXNq
+	LTAxQDc4OC1ZU0MtOTA5OjM2MToyNzk0OjY3NzY6MDoxNTQ5Ojc6MTAyMjAyNw
+Received: from [10.0.8.1] ([10.0.8.1:48149] helo=domain.com)
+	by domain.com (envelope-from <user@domain.com>)
+	(ecelerity 3.5.0.35861 r(Momo-dev:tip)) with ESMTP
+	id 53/B1-04319-F4753035; Tue, 18 Feb 2015 06:51:27 -0600
+Date: Tue, 18 Feb 2015 06:51:27 -0600
+From: "SS8, Inc." <info@ss8.com>
+Reply-To: user@domain.com
+To: user@domain.com
+Message-ID: <339370864.1484685456.1392727887691.user@domain.com>
+Subject: [INFOGRAPHIC] Data Discovery: Finding Your Target in a Sea of
+ Communications
+X-ASG-Orig-Subj: [INFOGRAPHIC] Data Discovery: Finding Your Target in a Sea of
+ Communications
+X-Report-Abuse: Please report abuse here: <<link>>
+X-Binding: bg-sj-01
+X-MarketoID: 788-YSC-909:361:2794:6776:0:1549:7:1022027
+X-MailFrom: "SS8, Inc." <info@ss8.com>
+X-Barracuda-Connect: em-sj-47.domain.com[199.15.214.47]
+X-Barracuda-Start-Time: 1392727889
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.27
+X-Barracuda-Spam-Status: No, SCORE=0.27 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_SC0_SA085, HTML_IMAGE_RATIO_04, HTML_MESSAGE, REMOVE_BEFORE_LINK
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.145242
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 REMOVE_BEFORE_LINK     BODY: Removal phrase right before a link
+	0.17 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.10 BSF_SC0_SA085          Custom Rule SA085
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-2135562172_-_-"
+
+SS8, Inc.
+
+
+
+
+DATA DISCOVERY: HOW MUCH DATA IS GENERATED EVERY MINUTE?
+
+Hi Alex,
+Global IP traffic has increased eight fold over the past five years, and will increase threefold over the next five years. The number of devices connected to IP networks will be nearly three times as high as the global population in 2016. Traffic from wireless devices will exceed that from wired devices by 2014. And, by 2015 61% of IP traffic will be wireless – from WiFi or mobile devices.
+What are you doing to prepare? What are you doing to find your target in a sea of communications?
+As an investigator or analyst, it's crucial that you're adopting technology as fast or faster than your suspects - especially in a world where data never sleeps. 
+To get a visual of how much data is generated every minute, check out this infographic from Domo below.
+
+Download our Data Discovery solution brief to learn more about searching for relevant data across disparate data sets and platforms.
+
+Multi-Source Data Discovery Solution Brief
+
+The wealth of information available today can be both good news and bad news to LEAs and intelligence agencies. Too much data and too many tools to get to each data type can throttle progress rather than improve insights. With the right solution, analysts can go from data overload to a plethora of benefits all in one platform.
+Download the Multi-Source Data Discovery Solution Brief to learn more. 
+
+Next Steps:
+
+Sign up for Live Demo with SS8 rep
+domain.com our Resource Library
+Contact us to get your questions answered.
+
+To learn more about our advanced monitoring and analysis platform, click here.
+Kind regards,
+SS8
+
+About SS8: Our solutions help service providers get the most return on their compliance investments. We also enable LEAs and national governments to collect and monitor current and evolving voice and IP data communications in accordance with local laws and standards.
+
+Follow us on Twitter & LinkedIn, and please be sure to subscribe to our blog for industry related news, events, and more.
+
+
+
+SS8, Inc. | 750 Tasman Drive Milpitas, CA 95035 USA | +1 408 428-3732 | www.ss8.com
+
+This email was sent to user@domain.com If you no longer wish to receive these emails you may unsubscribe at any time.  
+

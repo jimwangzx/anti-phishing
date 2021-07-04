@@ -1,0 +1,129 @@
+Received: from domain.com (43.130.141.76) by
+ domain.com (146.215.231.18) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Fri, 7 Nov 2015 12:48:29 -0500
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Fri, 7 Nov 2015 09:48:20 -0800
+Received: from domain.com (domain.com
+ [160.33.194.229])	by domain.com
+ (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with ESMTP id sA7HmJLn017099	for
+ <user@domain.com>; Fri, 7 Nov 2015 17:48:19 GMT
+Received: from na01-bn1-domain.com
+ (mail-domain.com [207.46.163.190])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sA7HmJPf011597	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Fri, 7 Nov 2015 17:48:19 GMT
+Received: from BN1AFFO11FD019.protection.gbl (10.58.52.34) by
+ BN1AFFO11HUB058.protection.gbl (10.58.52.209) with Microsoft SMTP Server
+ (TLS) id 15.1.6.13; Fri, 7 Nov 2015 17:48:08 +0000
+Received: from mx-domain.com (64.34.57.228) by
+ domain.com (10.58.52.79) with Microsoft SMTP
+ Server id 15.1.6.13 via Frontend Transport; Fri, 7 Nov 2015 17:48:08 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Variety Breaking News <donotreply@variety.com>
+ bh=QLqy6bWtPt+Tcf5j4dpCwonFoxQ=;
+ b=NOwke1rFO19M47nzdh8GIEPQHHZxIEt8lRE6O1bvSf1qmubGFLpBx9i2DzeUz4LN45DwmGOkAsXQ
+   ftaR7IRuJWDiUHoCwYOiEyif3CkRX0mp3f4DardwYHKpDZVTGirgUFrPoDixjlcfEG5A1/wMefG7
+   9J3sQcpwJ7XGJBdDrMY
+Received: from 173-228-155-10-domain.com (173.228.155.10) by
+ mx-domain.com id hbk2tg1qqbsn for <user@domain.com>; Fri, 7
+ Nov 2015 12:44:01 -0500 (envelope-from <user@domain.com>)
+Received: from nj1-p-heypurple-prd-jma-7.flt (172.18.20.12) by
+ 173-228-155-10-domain.com id hbk2e21qqbsm for
+ <user@domain.com>; Fri, 7 Nov 2015 12:43:25 -0500 (envelope-from
+ <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1415382205;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=HFFeaV9iSw2+8IP0lmAQtLfoEXffVlRr9FwuG14r0Jo=;
+	b=kFZdIuTt5UIIGpsd5+Gjp2h1rMJY7wl8HLqCNFVWBYSVHoZQhXh30b+K3Q/AOKHv
+	AWtLT5oTKgHlHqNpRxwyZLMKlu3sXkVtIiZRyFZZ5NBAgkzhwkg4XhZG51LYigNpn+M
+	ymIzm478/y8J47JBuPv6OfEzn2j/FqeQeSZPA8AE
+Date: Fri, 7 Nov 2015 12:43:25 -0500
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20141107174325.3308600.35541@domain.com>
+Subject: NBC Eyes Live Staging of Aaron Sorkin's 'A Few Good Men'
+ (EXCLUSIVE)
+Precedence: bulk
+X-TM-ID: 20141107174325.3308600.35541
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nj1-p-heypurple-prd-jma-7.flt
+X-IADB-IP: 172.18.56.50
+X-IADB-IP-REVERSE: 50.56.18.172
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>,
+ <mailto:user@domain.com>
+X-rpcampaign: stcoy3308600
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: CIP:64.34.57.228;CTRY:US;SRV:BULK;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:BN1AFFO11HUB058;H:mx-domain.com;FPR:;LANG:en;
+X-Microsoft-Antispam: UriScan:(133331);
+X-Microsoft-Antispam: BCL:6;PCL:0;RULEID:(82001)(120001);SRVR:BN1AFFO11HUB058;
+X-Exchange-Antispam-Report-Test: UriScan:;
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+Breaking News | Variety
+
+@import url(<<link>>+Sans:400,700);
+/* -----------------------------------------------
+FOR MOBILE DEVICES, HIDE THE PREHEADER AND 
+MAKE THE MAIN TEXT 25% LARGER.
+ALSO RESIZE TD WIDTHS AND LEADERBOARD IMAGE.
+----------------------------------------------- */
+@media only screen and (max-width:728px) {
+span[class="head"] { font-size:31.25px; }
+span[class="desc"] { font-size:23.75px; }
+span[class="link"] { font-size:23.75px; }
+span[class="collapse"] { display:none; }
+#maintable { width:100%; max-width:728px; min-width:480px; }
+#leaderboardtable { width:100%; max-width:728px; }
+#leaderboardimage { width:100%; max-width:728px; }
+#headernestedtable { max-width:728px; min-width:480px; }
+#storynestedtable { max-width:588px; min-width:340px; }
+#prefsnestedtable { max-width:708px; min-width:460px; }
+#footernestedtable { max-width:708px; min-width:460px; }
+}
+
+In its domain.com of audience-grabbing event programming, NBC is said to be eyeing a live staging o...
+
+​
+
+Breaking News
+
+Friday, November 7, 2015 
+
+​
+
+NBC Eyes Live Staging of Aaron Sorkin's 'A Few Good Men' (EXCLUSIVE)
+
+In its domain.com of audience-grabbing event programming, NBC is said to be eyeing a live staging of Aaron Sorkin’s play “A Few Good...
+
+Full Story
+
+Check out the redesigned Variety411
+
+This email was sent to user@domain.com by Variety. To ensure delivery to your inbox (and not your spam folder), please add user@domain.com to your address book. If you prefer not to continue receiving email communications, please unsubscribe here instead of replying to this email.
+
+
+
+
+To update your profile and customize what email alerts and newsletters you receive, please click here.
+
+Having trouble reading this email? View the web version here.
+
+Copyright © 2014 Variety Media, LLC, a subsidiary of Penske Business Media.1​1​1​7​5 Santa Monica Blvd. Los Angeles, CA 9​0​0​2​5
+
+Variety and the Flying V logos are trademarks of Variety Media, LLC., used under license.
+

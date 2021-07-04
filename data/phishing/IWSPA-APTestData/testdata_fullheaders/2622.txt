@@ -1,0 +1,47 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.30 with SMTP id o30csp1278897lfi;
+        Fri, 27 Mar 2015 06:20:34 -0700 (PDT)
+X-Received: by 10.182.55.68 with SMTP id q4mr3662865obp.33.1427462432740;
+        Fri, 27 Mar 2015 06:20:32 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::230])
+        by domain.com with ESMTPS id l4si825232obe.10.2015.03.27.06.20.30
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 27 Mar 2015 06:20:32 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::230 as permitted sender) client-ip=2607:f8b0:4003:c06::230;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::230 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-oi0-domain.com with SMTP id f142so61157465oic.3;
+        Fri, 27 Mar 2015 06:20:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: David Goodfriend <david.goodfriend@gmail.com>
+         :cc:content-type;
+        bh=r48XSNLQ9Ya3FdAv1ABXwgA6QiHYYpJUII/33FY8iv8=;
+        b=kEFpjs9FbDKa0I3qFgHMI9EvMT9yarkIT1z55Oktdrf9mA1pIppls3c8evkuKU8cbI
+         3/xZpmkRMm8BFWN8Q4RfkLXihLOCAkaTZs+0+9Qk1wR5YgobBL30FM+ucp97R0Zp6lwI
+         F9PXQFQw2IVJIVXqRJNmNA62lbtWofWdhBEHCzB1666KeaDU9FF8uzIiL34EPkoI1G/V
+         DwIfe6B9rKFa9Vu7lXYg0+vzmGQXelBwqPL7CHCJrxXRpEs0wPApodCkNZWdrk4Bymu9
+         O+p74xM4qi0aBl1pEEq2XY8XVdT2nbDLcPkMYRUD9czqlwMG1umImecc8Dt1nkGyxe01
+         kXXA
+MIME-Version: 1.0
+X-Received: by 10.202.219.87 with SMTP id s84mr11245748oig.114.1427462430681;
+ Fri, 27 Mar 2015 06:20:30 -0700 (PDT)
+Received: by 10.202.55.3 with HTTP; Fri, 27 Mar 2015 06:20:30 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+Date: Fri, 27 Mar 2015 09:20:30 -0400
+Message-ID: <CAGcN_c8qcFUpR0gFDq3TU0Q75xMT+=Z+36user@domain.com>
+Subject: Re: Charlie
+From: David Goodfriend <david.goodfriend@gmail.com>
+To: John user <user@domain.com>
+CC: Eryn Sepp <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113d3f1e1c6e56051244ff70
+
+OK.  Eryn knows how to find me.
+Thanks
+--dg
+
+On Fri, Mar 27, 2015 at 9:19 AM, John user <user@domain.com>

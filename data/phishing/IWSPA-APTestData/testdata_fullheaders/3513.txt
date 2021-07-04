@@ -1,0 +1,199 @@
+Received: from domain.com (43.130.141.77) by
+ domain.com (146.215.231.18) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Fri, 31 Oct 2015 15:52:51 -0400
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Fri, 31 Oct 2015 12:52:49 -0700
+Received: from domain.com (domain.com
+ [160.33.194.228])	by domain.com
+ (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with ESMTP id s9VJqnrk014657	for
+ <user@domain.com>; Fri, 31 Oct 2015 19:52:49 GMT
+Received: from na01-bn1-domain.com
+ (mail-domain.com [207.46.163.185])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id s9VJqmgq009868	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Fri, 31 Oct 2015 19:52:49 GMT
+Received: from BN1BFFO11FD056.protection.gbl (10.58.144.30) by
+ BN1BFFO11HUB045.protection.gbl (10.58.144.192) with Microsoft SMTP Server
+ (TLS) id 15.0.1049.20; Fri, 31 Oct 2015 19:52:47 +0000
+Received: from domain.com (198.2.138.46) by
+ domain.com (10.58.145.11) with Microsoft SMTP
+ Server id 15.0.1049.20 via Frontend Transport; Fri, 31 Oct 2015 19:52:47
+ +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?TheWrap=20Screenings?= <noreply@thewrap.com>
+ bh=8Rol6Tn36w5nRVCo6RknDrxoKVs=;
+ b=t32BhB9FrFGy9zbOaRvpA6psZOfuw/RYrPW/uQ3TequbdnyJmqICfMZgbHLvnIu1LV5MSvgbls85
+   OWpm/3b5wqDr8E/A0EXYpzkgRyOfNPqIRdaJ5mNu+c+Pf2T62zlGWzetQ3JFmRz/vhOKiPIsYmMn
+   J19/7Qcw+S0CLvPBYhM
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=M7shwh7QjU/LVR3foOf8nGgkH3/5uvVAjRWmcw7gjaY6xJrJ4mYZUDQetPAdqkcHLNbJ00hDRqrf
+   fr3sNdqVh5d1EZVtA8gV55r8R16aDBeuch2Q4pGETzTf6S/H/scfIzDZkeKyMiiIMRusZrJr/sNS
+   broQrM6x2qkJczaFqLc=;
+Received: from (127.0.0.1) by domain.com id hafk8u1sb4gk for
+ <user@domain.com>; Fri, 31 Oct 2015 19:52:38 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?You=27re=20Invited=20to=20a=20Screening=20of=20=22Dancing=20in=20Jaffa=22=20with=20Producers=20Nigel=20Lythgoe=2C=20Diane=20Nabatoff=20and=20Subject=20of=20the=20film=20Pierre=20Dulaine?
+From: =?utf-8?Q?TheWrap=20Screenings?= <noreply@thewrap.com>
+Reply-To: =?utf-8?Q?TheWrap=20Screenings?= <user@domain.com>
+To: =?utf-8?Q?Michael?= <user@domain.com>
+Date: Fri, 31 Oct 2015 19:52:38 +0000
+Message-ID: <4300user@domain.com>
+X-Mailer: MailChimp Mailer - **CIDb1df84dcc8302c86ebb5**
+X-Campaign: mailchimp4300eb945fab9dc8942c198f9.b1df84dcc8
+X-campaignid: mailchimp4300eb945fab9dc8942c198f9.b1df84dcc8
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 4300eb945fab9dc8942c198f9
+X-Feedback-ID: 112894:112894.2291665:us1:mc
+List-ID: 4300eb945fab9dc8942c198f9mc list <4300eb945fab9dc8942c198f9.924301.list-domain.com>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>,
+ <<<link>>>
+Sender: TheWrap Screenings <user@domain.com>
+x-mcda: FALSE
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: CIP:198.2.138.46;CTRY:;IPV:NLI;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:BN1BFFO11HUB045;H:domain.com;FPR:;LANG:en;
+X-Microsoft-Antispam: UriScan:(96343)(92638)(92639)(92640);
+X-Microsoft-Antispam: BCL:3;PCL:0;RULEID:(53001)(120001);SRVR:BN1BFFO11HUB045;
+X-Exchange-Antispam-Report-Test: UriScan:;
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+TheWrap Screening Series
+
+		body,html{
+			margin:0;
+			padding:0;
+		}
+		table.table{
+			color:#333333;
+			font:normal 70% helvetica,arial,sans-serif;
+			margin:0 auto;
+			padding:0;
+		}
+		a{
+			color:#000000;
+		}
+		a img{
+			border:none;
+		}
+		h1{
+			font-size:24px;
+			font-weight:normal;
+			margin:0px 0 9px;
+		}
+		h2{
+			font-size:18px;
+			font-weight:bold;
+			color:#F00;
+			margin:0 0 5px 0;
+		}
+		.textlink{
+			font-size:13px;
+		}
+		.whitelink a{
+			color:#fff;
+			font-size:11px;
+		}
+		.nonunderline a{
+			text-decoration:none;
+		}
+		.footer{
+			line-height:18px;
+		}
+		ul.list{
+			list-style:none;
+			padding:0;
+			display:block;
+			background:url(images/dottedline.gif) repeat-x bottom;
+		}
+		ul.list li{
+			list-style:none;
+			font-size:13px;
+			background:url(images/dottedline.gif) repeat-x top;
+			padding:10px 0;
+		}
+		ul.list2{
+			list-style:none;
+			padding:0;
+			margin:0;
+			display:block;
+		}
+		ul.list2 li{
+			list-style:none;
+			font-size:13px;
+			background:url(images/dottedline.gif) repeat-x bottom;
+			padding:10px 0;
+		}
+		ul.list2 li:first-child{
+			padding-top:0;
+		}
+		ul.list2 li:last-child{
+			background:none;
+			padding-bottom:0;
+		}
+
+
+
+
+    2014/2015
+*All screenings
+are first-come,
+first-serve seating
+
+
+
+
+																		 You and a guest are invited to
+TheWrap's Award Season Screening Series Presentation of
+
+
+
+
+Pierre Dulaine, an internationally renowned ballroom dancer, fulfills a life-long dream when he takes his program, Dancing Classrooms, back to his city of birth, Jaffa. Over a ten-week period, Pierre teaches 10-year- old Palestinian-Israeli and Jewish- Israeli children to dance and compete together. Dancing in Jaffa explores the complex stories of three different children, who are forced to confront issues of identity, segregation and racial prejudice as they dance with their enemy. The classroom becomes a microcosm of the Middle East's struggle to work together harmoniously while still caught in the politics of the region and race. With the guidance of Pierre, the children learn to dance together and trust one another. Dancing In Jaffa offers an up-close-and-personal perspective of how the future might unfold if the art of movement and dance could triumph over the politics of history and geography.
+
+
+
+
+FOLLOWED BY A CONVERSATION WITH:
+
+
+
+
+Pierre Dulaine    Nigel Lythgoe, Executive Producer     Diane Nabatoff, Producer     
+
+Wednesday November 5th, 2015 at 7:30pm
+
+RSVP HERE
+
+The Landmark Theater
+10850 W Pico Blvd
+Los Angeles, CA 90064
+
+View the complete listing of upcoming screenings.
+
+*Seating is FIRST-COME, FIRST-SERVE*
+Audience participation during the Q&A will be encouraged.
+Steve Pond, TheWrap's Award Columnist will moderate.
+
+
+
+
+Advertisement
+
+
+
+
+    Unsubscribe user@domain.com | View our privacy policy | Update your profile 
+    Sent from TheWrap | 2015 South Barrington Ave. | Los Angeles, CA 90064 | attn: Email Coordinator
+
+
+
+    © TheWrap 2015 
+
+

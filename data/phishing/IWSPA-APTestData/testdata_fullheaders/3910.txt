@@ -1,0 +1,55 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id D418423CA75;
+	Tue, 26 Mar 2015 16:10:31 -0500 (CDT)
+X-Virus-Scanned: amavisd-new at domain.com
+X-Amavis-Alert: BAD HEADER, Duplicate header field: "Cc"
+X-Spam-Score: 4.075
+X-Spam-Level: ****
+X-Spam-Status: No, score=4.075 tagged_above=2 required=5
+	tests=[BAYES_00=-2.599, HELO_DYNAMIC_IPADDR2=3.818, HTML_30_40=0.374,
+	HTML_MESSAGE=0.001, RCVD_IN_PBL=0.001, RCVD_IN_SORBS_DUL=2.046,
+	URIBL_RED=0.001, X_PRIORITY_HIGH=0.433]
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id BX9M43fz2hR8; Tue, 26 Mar 2015 16:10:26 -0500 (CDT)
+Received: from 86-44-200-111-dynamic.b-domain.com (86-44-200-111-dynamic.b-domain.com [86.44.200.111])
+	by domain.com (Postfix) with ESMTP id 6270623CA78;
+	Tue, 26 Mar 2015 16:10:21 -0500 (CDT)
+Received: from apache by domain.com with local (Exim 4.67)
+	(envelope-from <user@domain.com>)
+	id 9QA3N3-02E3G9-DN
+	for <user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>
+Cc: <user@domain.com>; Tue, 26 Mar 2015 21:10:37 +0000
+To: <user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>
+Cc: <user@domain.com>
+Subject: Direct domain.com No. 834598449309 rejected
+X-PHP-Script: domain.com/sendmail.php for 86.44.200.111
+From: =?koi8-r?B?Ii7uycvPzMHF10BkaXJlY3QubmFjaGEub3JnIg==?
+	<user@domain.com>
+X-Sender: =?koi8-r?B?Ii7uycvPzMHF10BkaXJlY3QubmFjaGEub3JnIg==?= 
+	<user@domain.com>
+X-Mailer: PHP
+X-Priority: 1
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------03030800401080303050909"
+Message-Id: <user@domain.com>
+Date: Tue, 26 Mar 2015 21:10:37 +0000
+Content-Length: 1847
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 172
+
+Attn: Chief AccountantWe are sorry to notify you, that your most recent Direct domain.com transaction (#600935062349) was rejected,because your current Direct domain.com software version was out of date. Please domain.com the secure section of our web site to see the details:Click here for more informationPlease apply to your financial institution to obtain the necessary updates of the Direct domain.com software.Best regards,ACH Network Rules DepartmentNACHA - The Electronic Payments Association10361 Sunrise Valley Drive, Suite 612Herndon, VA 20175Phone: 703-561-9071 Fax: 703-787-8332

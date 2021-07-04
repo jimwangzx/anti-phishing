@@ -1,0 +1,183 @@
+Delivered-To: zhangshuhao@gmail.com
+Received: by 2002:adf:a29b:0:0:0:0:0 with SMTP id s27csp277325wra;
+        Mon, 8 Jun 2020 20:37:49 -0700 (PDT)
+X-Received: by 2002:adf:ed4f:: with SMTP id u15mr1982262wro.126.1591673869188;
+        Mon, 08 Jun 2020 20:37:49 -0700 (PDT)
+X-Atlas-Received: from 10.248.230.79 by atlas202.free.mail.gq1.yahoo.com with http; Tue, 9 Jun 2020 03:37:21 +0000
+Return-Path: <38APfXggTCHEcd-gTeanPRRdjcih.VddVaT.RdbhWjWPd_onPWdd.Rdb@gaia.bounces.google.com>
+Received: from 209.85.222.74 (EHLO mail-ua1-f74.google.com)
+ by atlas202.free.mail.gq1.yahoo.com with SMTPs; Tue, 9 Jun 2020 03:37:21 +0000
+X-Originating-Ip: [209.85.222.74]
+Received-SPF: pass (domain of gaia.bounces.google.com designates 209.85.222.74 as permitted sender)
+Authentication-Results: atlas202.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@accounts.google.com header.s=@20161025;
+ spf=pass smtp.mailfrom=gaia.bounces.google.com;
+ dmarc=success(p=REJECT) header.from=accounts.google.com;
+X-Apparently-To: shuhao_z@yahoo.com; Tue, 9 Jun 2020 03:37:21 +0000
+X-YMailISG: HrDxMiAWLDu9kGMu.zZfLXSs1Q6_cGMiXN9gaBeHXbGWsDfA
+ M4TlMTPgIpMEM0Sleta850N9SiiKzFL9t5cdmHjmyxOogG4fCOJ800jLSd1p
+ 9hcJUB50gMYWVdpm2OHE5kwdtRJUPa9sZkq4xjmsIxnF1Dy.aK8IwNTmdN_J
+ 3EOy0P06bqBPqc_hExC4hnmk1y_b4uw2fjOG2ZUnULIXQCjU2Jr1RSJ0eU4A
+ USboDt9FGkM78KFulggm9d2efrWJopuqt20qMzwFc_TYoJMZVl2R06L4DfG9
+ zKH2t2VRqC4CP11y.yEdXx4_x0OqsQyyEtMSvy0s5yrMI2OlkmIG9nUO4Xr.
+ _jqAgVMvd5y0RJTeHdkhtDOgewdY1UEdad1oHdCRuI.pvT0f6Xzp8StGUMNm
+ x7lSlVsWK2PRkwRZ0kBBOUIqONd8rZLps4ytJfmvnpv_IR5.g6i0CNyixjaj
+ .uEYnvBV.xWoWVEuN6YAfEtED2n4u_BAwTfW307o27z4dPjcdIp5nhRn8qn4
+ Il0OXe_3csV2Hf9.P3RAWJSqfSAGPkSNxuojE7LHuD3D.Qj6N1Omwdoj1SXC
+ DGipIZiCM8_r7_scmKOy87M.IKoPwM4rM3ARdB5LYXsEyWwdqV5cmSz.rfWA
+ QI3.HYv7IxWOghwzDD5UxSxIrUqBV2Av5CKwjtCWEht1uPeMZj5wkUjvoNPo
+ wN4GhgjE7BZve6jK.snHrEnyuxPbXDwLvwe8R8S2uyZzZpeJTvqe1msaVxQv
+ HpqwKyEw4.21mDfy2RU9prbzPRvH9A0pGzLz7DsfBH1C5HfixzsporoxyKCT
+ Kmgx3lz5jFFYiuu8lVZo1JcHGyTnSthIjOOsTu9IgsERwHCeNjtNuuhuXsmL
+ gxyXgBQSYdj0JOEAz0hoJv2NSLhL06CIUvKCSWFh7zZMul.Hc.O9xUjRGsXQ
+ IW4VluQNGGAJid99GqgCtAvCCGjYhPPL11KgsFKGATPwS7P.xWiMzAUjmbWZ
+ JJEsyz1zKB4uiKJ89GrxXEBZNxOtvrlf4d36NVFn3x_nQd751teyO6ZXe41i
+ mZTAJQPB_gcxEp96qzmojiTYYgjfmoOFVE_fpjwGs5Db8oqbTF0Biie7Zcnp
+ xMjIDtPuWs4FNtWJll__r49pnGk015XopvxG3olMJhMQaeNkbDcvURPWrg_b
+ EPwrEVGT1QsukoZyoO5NOe7LdH7ftQ--
+X-Originating-IP: [209.85.222.74]
+Received: from 10.253.62.153  (EHLO mail-ua1-f74.google.com) (209.85.222.74)
+  by mta4152.mail.gq1.yahoo.com with SMTPS; Tue, 09 Jun 2020 03:37:20 +0000
+Received: by mail-ua1-f74.google.com with SMTP id k12so7383965uag.3
+        for <shuhao_z@yahoo.com>; Mon, 08 Jun 2020 20:37:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=accounts.google.com; s=20161025;
+        h=mime-version:date:feedback-id:message-id:subject:from:to;
+        bh=YUyqARLz68VADVU5Vxt+aiL7QXqLhZFnx9G+E/kwefk=;
+        b=pmJG21EO9B9ABDHGz/bbjbdfkvxjW8bF9jI6EjiNE8TN8/aWFhcO51EFGNORRuiQ2t
+         oW7Ee4KNoWV5QI5jhnex/o+GgtxqggCZUuIVhAwVj5qsp0yBdDNKMqAO/bInUvEarKJv
+         llstKUSyXiWb+35XJyDbgFVQkvG656Vm5b5AjA6GpzwefHp9LekZclFsWESBYFEX1Pth
+         No5NQE0lgfNcQvEn7Ci8oqyds8NBxy4/gf5L6Ywah7emYkpf/QXOujrkltSdhvqTaOoW
+         u0XaR5ugPhSIakrXGdws4oeUMtbBFmROdOXViZMDDDkIHphlgSlZrTUW1Au9fI3Yp0zv
+         PwCw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:date:feedback-id:message-id:subject
+         :from:to;
+        bh=YUyqARLz68VADVU5Vxt+aiL7QXqLhZFnx9G+E/kwefk=;
+        b=f01qL8rmCo2rSiOUmLSL5koAGK99hQBnDF7VCcrxFkJFS69OtfPZfXNIf3hBXKCX8o
+         TMemET/wPLucWkoyaNqM/MS29/ZQ2/bopDj9HkLKYC7i2USbjsQMP0ThrDMG3aQXjs+s
+         5mFyzg8fw2wlMUW4pWCQdJSzMHN8r5prRZDatQhU1o50FiYS4tFncnSE7FKXO2TVhEWH
+         H2fg4HOzmhrIAzfolfECR+c+hV6AJ14jV5HXERpWiKe//gU+NvRfKmTDYt0DgRht/rIa
+         Y6/ye8o0GBZElt+Gn13GLtV5aHTc+MuqPMU45gJRfSXBqoAJOLaRy1+uch7b9eeLcPbc
+         PiSA==
+X-Gm-Message-State: AOAM532HTQcW/i4dLNXwnglzO26gaaZ72gpnEuJVDEb6YJEHiUqoTsID
+	f/FhAPcrGapTVC8bV3rBC7vnUOk3bvlv
+X-Google-Smtp-Source: ABdhPJyGIE0C4qCeA4QcPWKVJp5CHL1jQbZAxhOuYFQZnWGkoCJS3EgQicNei3dzKbwJU85BSrONbLJJdq6GEBvBOupMCA==
+MIME-Version: 1.0
+X-Received: by 2002:a1f:1b8d:: with SMTP id b135mr1176892vkb.46.1591673840085;
+ Mon, 08 Jun 2020 20:37:20 -0700 (PDT)
+Date: Tue, 09 Jun 2020 03:37:19 GMT
+X-Account-Notification-Type: 127-RECOVERY
+Feedback-ID: 127-RECOVERY:account-notifier
+X-Notifications: ba1f0a1952400000
+Message-ID: <bunGc2EzT-Usx66jC2D0vA.0@notifications.google.com>
+Subject: Security alert for your linked Google Account
+From: Google <no-reply@accounts.google.com>
+To: shuhao_z@yahoo.com
+Content-Type: multipart/alternative; boundary="000000000000d62c0805a79e7122"
+X-Yahoo-Forwarded: From shuhao_z@yahoo.com To shuhao@onmail.com
+Content-Length: 7378
+
+--000000000000d62c0805a79e7122
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+WW91ciBhY2NvdW50IHNodWhhb196QHlhaG9vLmNvbSBpcyBsaXN0ZWQgYXMgdGhlIHJlY292ZXJ5
+IGVtYWlsIGZvcg0KemhhbmdzaHVoYW9AZ21haWwuY29tLiBEb24ndCByZWNvZ25pemUgdGhpcyBh
+Y2NvdW50PyBDbGljayBoZXJlDQo8aHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tL0FjY291bnRE
+aXNhdm93P2FkdD1BT1g4a2lvbHhtQ29HMDJwWnd6M0MtOVlETlpWcDZOR3dWYzhlenJzV1VVLUlC
+VlE3MTZqRnJSX1pxNkZfUkEmcmZuPTEyNz4NCltpbWFnZTogR29vZ2xlXQ0KRW1haWwgLSBFZGlz
+b24gTWFpbCB3YXMgZ3JhbnRlZCBhY2Nlc3MgdG8geW91ciBsaW5rZWQgR29vZ2xlIEFjY291bnQN
+Cg0KDQp6aGFuZ3NodWhhb0BnbWFpbC5jb20NCg0KSWYgeW91IGRpZCBub3QgZ3JhbnQgYWNjZXNz
+LCB5b3Ugc2hvdWxkIGNoZWNrIHRoaXMgYWN0aXZpdHkgYW5kIHNlY3VyZSB5b3VyDQphY2NvdW50
+Lg0KQ2hlY2sgYWN0aXZpdHkNCjxodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20vQWNjb3VudENo
+b29zZXI/RW1haWw9emhhbmdzaHVoYW9AZ21haWwuY29tJmNvbnRpbnVlPWh0dHBzOi8vbXlhY2Nv
+dW50Lmdvb2dsZS5jb20vYWxlcnQvbnQvMTU5MTY3MzgzOTAwMD9yZm4lM0QxMjclMjZyZm5jJTNE
+MSUyNmVpZCUzRC0xNjgxOTQ3ODE4NTU2ODQ0ODI5JTI2ZXQlM0QxPg0KWW91IHJlY2VpdmVkIHRo
+aXMgZW1haWwgdG8gbGV0IHlvdSBrbm93IGFib3V0IGltcG9ydGFudCBjaGFuZ2VzIHRvIHlvdXIN
+Ckdvb2dsZSBBY2NvdW50IGFuZCBzZXJ2aWNlcy4NCsKpIDIwMjAgR29vZ2xlIExMQywgMTYwMCBB
+bXBoaXRoZWF0cmUgUGFya3dheSwgTW91bnRhaW4gVmlldywgQ0EgOTQwNDMsIFVTQQ0K
+--000000000000d62c0805a79e7122
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head><meta name=3D"format-detection" cont=
+ent=3D"email=3Dno"/><meta name=3D"format-detection" content=3D"date=3Dno"/>=
+<style nonce=3D"df9ybC5c+fsXet2aRXAG4Q">.awl a {color: #FFFFFF; text-decora=
+tion: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,=
+Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color=
+: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; tex=
+t-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: =
+6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 6=
+00px) {.mdv2rw {padding: 40px 40px;}} </style><link href=3D"//fonts.googlea=
+pis.com/css?family=3DGoogle+Sans" rel=3D"stylesheet" type=3D"text/css"/></h=
+ead><body style=3D"margin: 0; padding: 0;" bgcolor=3D"#FFFFFF"><table width=
+=3D"100%" height=3D"100%" style=3D"min-width: 348px;" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" lang=3D"en"><tr height=3D"32" style=3D"height: =
+32px;"><td></td></tr><tr align=3D"center"><td><div itemscope itemtype=3D"//=
+schema.org/EmailMessage"><div itemprop=3D"action" itemscope itemtype=3D"//s=
+chema.org/ViewAction"><link itemprop=3D"url" href=3D"https://accounts.googl=
+e.com/AccountChooser?Email=3Dzhangshuhao@gmail.com&amp;continue=3Dhttps://m=
+yaccount.google.com/alert/nt/1591673839000?rfn%3D127%26rfnc%3D1%26eid%3D-16=
+81947818556844829%26et%3D1"/><meta itemprop=3D"name" content=3D"Review Acti=
+vity"/></div></div><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"padding-bottom: 20px; max-width: 516px; min-width: 220px;"><tr><td=
+ width=3D"8" style=3D"width: 8px;"></td><td><div style=3D"background-color:=
+ #F5F5F5; direction: ltr; padding: 16px;margin-bottom: 6px;"><table width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td s=
+tyle=3D"vertical-align: top;"><img height=3D"20" src=3D"https://www.gstatic=
+.com/accountalerts/email/Icon_recovery_x2_20_20.png"></td><td width=3D"13" =
+style=3D"width: 13px;"></td><td style=3D"direction: ltr;"><span style=3D"fo=
+nt-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 13px; colo=
+r: rgba(0,0,0,0.87); line-height: 1.6; color: rgba(0,0,0,0.54);">Your accou=
+nt <a style=3D"text-decoration: none; color: rgba(0,0,0,0.87);">shuhao_z@ya=
+hoo.com</a> is listed as the recovery email for <a style=3D"text-decoration=
+: none; color: rgba(0,0,0,0.87);">zhangshuhao@gmail.com</a>.</span> <span><=
+span style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-=
+size: 13px; color: rgba(0,0,0,0.87); line-height: 1.6; color: rgba(0,0,0,0.=
+54);">Don't recognize this account? <a href=3D"https://accounts.google.com/=
+AccountDisavow?adt=3DAOX8kiolxmCoG02pZwz3C-9YDNZVp6NGwVc8ezrsWUU-IBVQ716jFr=
+R_Zq6F_RA&amp;rfn=3D127" data-meta-key=3D"disavow" style=3D"text-decoration=
+: none; color: #4285F4;" target=3D"_blank">Click here</a></span></span></td=
+></tr></tbody></table></div><div style=3D"border-style: solid; border-width=
+: thin; border-color:#dadce0; border-radius: 8px; padding: 40px 20px;" alig=
+n=3D"center" class=3D"mdv2rw"><img src=3D"https://www.gstatic.com/images/br=
+anding/googlelogo/2x/googlelogo_color_74x24dp.png" width=3D"74" height=3D"2=
+4" aria-hidden=3D"true" style=3D"margin-bottom: 16px;" alt=3D"Google"><div =
+style=3D"font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Helvetica,Ar=
+ial,sans-serif;border-bottom: thin solid #dadce0; color: rgba(0,0,0,0.87); =
+line-height: 32px; padding-bottom: 24px;text-align: center; word-break: bre=
+ak-word;"><div style=3D"font-size: 24px;"><a>Email - Edison Mail</a> was gr=
+anted access to your linked Google&nbsp;Account</div><table align=3D"center=
+" style=3D"margin-top:8px;"><tr style=3D"line-height: normal;"><td align=3D=
+"right" style=3D"padding-right:8px;"><img width=3D"20" height=3D"20" style=
+=3D"width: 20px; height: 20px; vertical-align: sub; border-radius: 50%;;" s=
+rc=3D"https://www.gstatic.com/accountalerts/email/anonymous_profile_photo.p=
+ng" alt=3D""></td><td><a style=3D"font-family: &#39;Google Sans&#39;,Roboto=
+,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size:=
+ 14px; line-height: 20px;">zhangshuhao@gmail.com</a></td></tr></table></div=
+><div style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font=
+-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; =
+text-align: left;"><br>If you did not grant access, you should check this a=
+ctivity and secure your account.<div style=3D"padding-top: 32px; text-align=
+: center;"><a href=3D"https://accounts.google.com/AccountChooser?Email=3Dzh=
+angshuhao@gmail.com&amp;continue=3Dhttps://myaccount.google.com/alert/nt/15=
+91673839000?rfn%3D127%26rfnc%3D1%26eid%3D-1681947818556844829%26et%3D1" tar=
+get=3D"_blank" link-id=3D"main-button-link" style=3D"font-family: &#39;Goog=
+le Sans&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16=
+px; color: #ffffff; font-weight: 400; text-decoration: none;font-size: 14px=
+;display:inline-block;padding: 10px 24px;background-color: #4184F3; border-=
+radius: 5px; min-width: 90px;">Check activity</a></div></div></div><div sty=
+le=3D"text-align: left;"><div style=3D"font-family: Roboto-Regular,Helvetic=
+a,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 1=
+8px; padding-top: 12px; text-align: center;"><div>You received this email t=
+o let you know about important changes to your Google Account and services.=
+</div><div style=3D"direction: ltr;">&copy; 2020 Google LLC, <a class=3D"af=
+al" style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: =
+rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-top: 12px; te=
+xt-align: center;">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA<=
+/a></div></div></div></td><td width=3D"8" style=3D"width: 8px;"></td></tr><=
+/table></td></tr><tr height=3D"32" style=3D"height: 32px;"><td></td></tr></=
+table></body></html>
+--000000000000d62c0805a79e7122--

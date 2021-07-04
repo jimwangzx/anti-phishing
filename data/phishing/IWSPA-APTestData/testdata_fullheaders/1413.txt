@@ -1,0 +1,79 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp297931lfb;
+        Mon, 20 Oct 2015 07:48:46 -0700 (PDT)
+X-Received: by 10.140.84.106 with SMTP id k97mr34458731qgd.76.1413816525789;
+        Mon, 20 Oct 2015 07:48:45 -0700 (PDT)
+Return-Path: <>
+Received: from domain.com (domain.com. [216.82.243.51])
+        by domain.com with ESMTPS id d5si8879713qam.35.2014.10.20.07.48.45
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Mon, 20 Oct 2015 07:48:45 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of domain.com designates 216.82.243.51 as permitted sender) client-ip=216.82.243.51;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 216.82.243.51 as permitted sender) smtp.mail
+Return-Path: <>
+Received: from [216.82.241.243:19905] by server-3.bemta-8.domain.com id 31/12-01183-DC025445; Mon, 20 Oct 2015 14:48:45 +0000
+X-Msg-Ref: server-15.tower-192.domain.com!1413816523!8317527!11
+X-Originating-IP: [141.161.191.75]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 1485 invoked from network); 20 Oct 2015 14:48:44 -0000
+Received: from unknown (HELO LAW-CAS2.law.georgetown.edu) (141.161.191.75)
+  by server-15.tower-192.domain.com with AES128-SHA encrypted SMTP; 20 Oct 2015 14:48:44 -0000
+Received: from LAW-MBX01.law.georgetown.edu ([169.254.1.6]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0181.006;
+ Mon, 20 Oct 2015 10:48:12 -0400
+From: Monica Stearns <smithstm@law.georgetown.edu>
+To: Announcements <user@domain.com>
+Subject: Announcing the 2nd Annual Great Pumpkin Decorating Contest
+Thread-Topic: Announcing the 2nd Annual Great Pumpkin Decorating Contest
+Thread-Index: Ac/sdMFaoPeMTwyAQReG5SJxX5n8LA
+Date: Mon, 20 Oct 2015 14:48:12 +0000
+Message-ID: <543user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.130.198]
+Content-Type: multipart/alternative;
+	boundary="_000_543D844B42837C4C958DB610DFB00D07301CFDCALAWMBX01lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+
+It's that time again! Time for what, you ask? Time for the OJA & Office of 
+Faculty Support's . . .
+
+Second Annual
+(Friendly but Competitive)
+Great
+Pumpkin
+Decorating
+Contest
+
+We've painted 'em, now we need you to pick 'em. Once again, the Office of F
+aculty Support & OJA are holding a friendly-but competitive-pumpkin decorat
+ing contest, and as always, we've gotten pretty inventive with our creation
+s.
+
+Now we need your unbiased help! Come by Faculty Support (McD 475), and vote
+ for your favorite!  We'll  provide the ballots, just toss your vote in the
+ ballot box.  Remember, only vote once - Please No Ballot Box Stuffing.
+
+Voting starts at noon on Wednesday, October 22nd and runs through close of 
+business on Wednesday, October 29th. We'll count votes and announce the win
+ner on Friday, October 31st.
+
+Happy Fall,
+Monica
+
+Monica S. Stearns, Director
+Faculty Support/Campus Services &
+Journal Administration
+Georgetown University Law Center
+600 New Jersey Ave., NW
+Washington, D.C. 20001
+202-662-9097 (phone)
+202-662-9444 (fax)
+user@domain.com<mailto:user@domain.com>

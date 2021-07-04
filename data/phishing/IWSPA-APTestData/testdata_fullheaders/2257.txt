@@ -1,0 +1,63 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.207 with SMTP id r198csp843211lfr;
+        Sat, 19 Sep 2015 12:09:50 -0700 (PDT)
+X-Received: by 10.180.86.231 with SMTP id s7mr4513479wiz.90.1442689790851;
+        Sat, 19 Sep 2015 12:09:50 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [209.85.212.177])
+        by domain.com with ESMTPS id w11si5896973wie.106.2015.09.19.12.09.50
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 19 Sep 2015 12:09:50 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.212.177 as permitted sender) client-ip=209.85.212.177;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.212.177 as permitted sender) user@domain.com
+Received: by mail-wi0-domain.com with SMTP id fx3so65477844wic.0
+        for <user@domain.com>; Sat, 19 Sep 2015 12:09:50 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Jeffrey Katzenberg <jeffreyk@dreamworks.com>
+         :content-type;
+        bh=IW3Zife9XCr97PquVhmxtIGkkp0FLp1xc7Wz++K7IKU=;
+        b=EVEinyBZN5zp+GUl0IIZ5Z3qEUHLMsv3dWhAY4M5AeEdcrmtDa2R8Bm3PuD2wr0Vm7
+         BuoSabOjbAIHXtXAx42LEfh/aBWAvXJWzT1CNvQo2PlZZPYbxWikAsf4JvQuCL/LqzM0
+         nyJKGqDhLgz9GJkspnCMiNg3hZ4aIsNJbmB4W0Zm62EYEPGgKwqVEBv/42oVgHjSlYnu
+         d32djNNHzW267hNtG9z05GivPlcaEYrxSMSjwFzIpfOherQQtoPUZmJHaH5HEOgo9x0Q
+         CaF4qsFXJHqx092GRDCxMsnwO11pngfMUPeeP+r2KZOOJeeOyXZijARV59IyGkO6fdnY
+         BcJg
+X-Gm-Message-State: ALoCoQnPWufNtMkEpjRn0NmUkoOJAdU0o7aEMZXOQE1o7u27LwVpii7JDLRq0F/J61o/dLCSn8AW
+X-Received: by 10.180.188.33 with SMTP id fx1mr4966659wic.31.1442689790551;
+ Sat, 19 Sep 2015 12:09:50 -0700 (PDT)
+From: Jeffrey Katzenberg <jeffreyk@dreamworks.com>
+Mime-Version: 1.0 (1.0)
+Date: Sat, 19 Sep 2015 12:09:27 -0700
+Message-ID: <3443632544881558015@unknownmsgid>
+Subject: 
+To: John user <user@domain.com>
+CC: Andy Spahn <user@domain.com>, Tom Nides <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+
+Hey John, good catching up at dinner Thursday.
+
+I wanted to give you a heads up that President Clinton called me late
+yesterday and we ended having a lengthy conversation about how HRC
+might best  engage with voters/media going forward.
+
+I expressed my point of view about how she's at her very best when she
+engages directly with voters in Q+A forums.
+
+I shared with him your idea about doing these as media sponsored town
+halls in order to insure wide coverage and distribution. He was
+extremely enthusiastic and thought your approach to this would be
+perfect for her.
+
+I told him I was certain you were going to be discussing it with HRC ASAP.
+
+I do think your idea is great for her and I believe if you could have
+her doing one of these a day for the next few weeks you could very
+well turn the narrative on her in a very different direction.
+
+Please let me know if I can be of any help. Let's chat after your
+lunch on Monday.
+
+Best

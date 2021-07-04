@@ -1,0 +1,69 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 3 Apr 2015 07:23:31 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s33ENVZc017404	for <user@domain.com>; Thu, 3 Apr 2015 
+ 14:23:31 GMT
+Received: from mail164-ch1-domain.com (mail-domain.com
+ [216.32.181.171])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s33EOtFO004500
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 3 Apr 2015 14:24:56 GMT
+Received: from mail164-ch1 (localhost [127.0.0.1])	by
+ mail164-ch1-domain.com (Postfix) with ESMTP id 5B9FE80965	for
+ <user@domain.com>; Thu,  3 Apr 2015 14:23:30 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.126;KIP:(null);UIP:(null);SRV:BULK;H:mx126.b2b-domain.com;RD:mx126.b2b-domain.com;EFVD:NLI
+X-SpamScore: 6
+X-BigFish: vps6(zzc89bh12dbKc857h77f5h609Izz1f42h2148he68I1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch10c0jzz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h1ce120hf9138oz2fh5eh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h25f6h2605h268bh26d3h1361i214ai1155h1362h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail164-ch1: domain of b2b-domain.com designates 209.162.194.126 as permitted sender) client-ip=209.162.194.126; user@domain.com; helo=mx126.b2b-domain.com ;b2b-domain.com ;
+Received: from mail164-ch1 (localhost.localdomain [127.0.0.1]) by mail164-ch1
+ (MessageSwitch) id 139653500690761_13458; Thu,  3 Apr 2015 14:23:26 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.237])	by mail164-domain.com (Postfix) with ESMTP id
+ 03AC0200031	for <user@domain.com>; Thu,  3 Apr 2015 14:23:25 +0000
+ (UTC)
+Received: from mx126.b2b-domain.com (209.162.194.126) by
+ domain.com (10.43.70.21) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 3 Apr 2015 14:23:25 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=acton2012; d=techproductupdate.com;
+ h=Message-ID:Date:From: Tech Insider <admin@techproductupdate.com>
+ bh=wpcrvOkmVIwsjdc+exi8KvuNk/I=;
+ b=Np5a9U/VrbhA3MGYD+KoYMAlBfWsfP7B2+GgC1OrdIrlaWUseoRluxHsBCUlJqO/O+VfjAaAlyHu
+   IwL+J4qbIvNXM2GJkI7eJwJJCK0zIonRiqQsokIs/fOOwL/hGGxAhwG6KlVxKA4rNFDS17BwYhYZ
+   7Cx2zHXYRNU2nvPRo7E
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=acton2012; d=techproductupdate.com;
+ b=gG7CPO60v1pPxbXedbzHtvum5/ENVpQIJYf5RlYlpcRzFdyIGQV5gGL1/KlcZK1XghkL+f5tx0WU
+   fWhHYDXDz1oM72EQR/EndxbXNTVZ/jpb4Uj+wBAT1xB5XK+dSRhAcR98Z4ssrtLA4sp/J+OYBAa6
+   bhH0do1HhDeCc3wINbs=;
+Received: from 10.10.40.64 (172.16.0.16) by mx126.b2b-domain.com id h7lndq1lgdc6
+ for <user@domain.com>; Thu, 3 Apr 2015 07:23:25 -0700 (envelope-from
+ <user@domain.com>)
+Message-ID: <VBVYWBVAA$UWCZYWYTTYUVV@10.10.40.64>
+Date: Thu, 3 Apr 2015 07:23:25 -0700
+From: Tech Insider <admin@techproductupdate.com>
+Reply-To: Tech Insider <user@domain.com>
+To: AMY PASCAL <user@domain.com>
+Subject: Are You Ready for a Sales Tax domain.com?
+X-MESSAGEID: WCZX.rEUUUV.KVWHK.mEWYYGEVYUY
+X-COD: ^^184.169.176.89/acton/delivery?accountid=2853&msuid=s-244a-1404&rcptid=l-0001%3Ae12be&srcid=q-03c0
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Are You Ready for a Sales Tax domain.com?
+
+View this message in a browser   Please add user@domain.com to your address book to ensure properly delivery        
+
+TechProduct Update       
+
+Are You Ready for a Sales Tax domain.com?
+
+domain.com consumers have enjoyed tax-free shopping for years, but that’s quickly becoming a thing of the past as state and local governments revise tax laws. Your business will need to comply with new sales and use tax regulations to avoid audits and costly fines.
+
+The Definitive Guide to Sales and Use Tax provides the information you need to understand the changing e-commerce landscape and it offers practical advice for managing sales and use tax. Read on to find answers to common sales tax questions, learn the four keys to compliance and read a state-by-state summary of sales tax practices.
+

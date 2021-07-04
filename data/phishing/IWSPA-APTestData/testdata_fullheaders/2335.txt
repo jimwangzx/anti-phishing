@@ -1,0 +1,26 @@
+Return-Path: <user@domain.com>
+From: "Alberto Pelliccione" <a.pelliccione@Organization.com>
+To: "User" <user@domain.com>
+CC: "fae" <user@domain.com>,
+	"a.ornaghi" <user@domain.com>
+References: <80898user@domain.com>
+In-Reply-To: <80898user@domain.com>
+Subject: Re: Rmi causing network issue
+Date: Wed, 28 Aug 2015 14:25:21 +0200
+Message-ID: <521user@domain.com>
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQJFvy8IutVfNhUyruok+9RkfL8qdwGQQtfh
+X-OlkEid: 000000007D2091DA92D3914ABB4C05769578F4790700C3B68E10F77511CEB4CD00AA00BBB6E600000000000C0000A96A85A9D2A04643865EB2097E3CF3A300000000073000007EF7F958DFADF04DBEB511C35410E37F
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-615933390_-_-"
+
+I haven't seen these behavior before, but today in fact we found that
+the modem registers itself
+as a gateway. Data is not required because wap push are not carried over
+the domain.com, so just
+check that the utility is *not* automatically connecting to the domain.com
+when the modem is started
+and you should be good to go :).
+

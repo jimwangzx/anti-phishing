@@ -1,0 +1,72 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Wed, 21 May 2015 08:32:13 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4LFWCiP021826	for <user@domain.com>; Wed, 21 May 2015 
+ 15:32:13 GMT
+Received: from mail4-co9-domain.com (mail-domain.com [207.46.163.17])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4LFW6AD027287	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Wed, 21 May 2015 15:32:07 GMT
+Received: from mail4-co9 (localhost [127.0.0.1])	by mail4-co9-domain.com
+ (Postfix) with ESMTP id 369F480351	for <user@domain.com>; Wed, 21 May
+ 2015 15:32:11 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:198.37.146.100;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 26
+X-BigFish: vps26(z579eh4240m187l672k2ef5izc89bhe0eahc857hzz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1de098h1def03h1df219h17326ah172cdfh1def87h8275bh1bc7b9h8275dh1def86h19a27bh1de097h186068h132fbel24b1k1ce121i1df151iz2fheh5fh839h8e2h8e3hd2bh10d2h1288h12a5h137ah13eah1441h1537h153bh162dh1631h16a6h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h282bh740ibe9i214ai251ci)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail4-co9: domain of domain.com designates 198.37.146.100 as permitted sender) client-ip=198.37.146.100; envelope-from=bounces+58369-87user@domain.com; helo=domain.com ;.domain.com ;
+Received: from mail4-co9 (localhost.localdomain [127.0.0.1]) by mail4-co9
+ (MessageSwitch) id 1400686327160569_28975; Wed, 21 May 2015 15:32:07 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.250])	by
+ mail4-domain.com (Postfix) with ESMTP id 1AEA84C009F	for
+ <user@domain.com>; Wed, 21 May 2015 15:32:07 +0000 (UTC)
+Received: from domain.com (198.37.146.100) by
+ domain.com (10.236.130.34) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 21 May 2015 15:32:05 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=domain.com; 
+	h=From: Trace3 Webinars <Webinars@Trace3.com>
+	s=smtpapi; bh=pu0kVQhifsaWYcq9f/ZTIZVAiEM=; b=Yf6Q5nTqsrHkqyYCay
+	F8wc6RcAZHM0ytHRXu/EBNZMOqVzDudByag5N/edpgQLaOnK9KQ5hYaohAjf0lXq
+	5Y0Nx3ru9U8ogEW0zzMT5LpNwtHkcDIwzoyKebyKe9+JOj7i3LUb1Gc+FhYor2bc
+	Ksu2QvOcDMIRrDsbptOsPaJlk
+Received: by domain.com with SMTP id mf157.33143.537CC6F47        Wed,
+ 21 May 2015 15:32:04 +0000 (UTC)
+Received: from bigditney (ec2-54-221-122-37.compute-1.domain.com
+ [54.221.122.37])	by ismtpd-019 (SG) with ESMTP id 1461f692a97.7d19.266320	for
+ <user@domain.com>; Wed, 21 May 2015 15:32:04 +0000 (GMT)
+From: Trace3 Webinars <Webinars@Trace3.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <492785851.46942411400686324369.user@domain.com>
+Subject: Last chance to register for live webinar TODAY:  Learn How to
+ Achieve Business Agility and Non-Stop Operations with FlexPod from NetApp
+ and Earn a Chance to Win a $50 Gift Card
+List-Unsubscribe: <mailto:user@domain.com>, <<<link>>>
+X-HubSpot-MID: CiQ2YWU2ZjNiMC0xZGMzLTQ5OGYtOTI3Yy1kOGMxZWQ4YjU5NjUQ2fAVGHEgACjG648GMIGDDjoXYW15X3Bhc2NhbEBzcGUuc29ueS5jb21AgtWk++EoSAFaIGE3YmVhNzE0MTc4NmNjNTcxYTRkZTA2NzY1ODY0ZWIzZQAA4EBoAHDXogI
+Date: Wed, 21 May 2015 15:32:04 +0000
+X-SG-EID: crjdrkBCnHFBAoM6m/Gp9m3skGmMR9d/9Wh2P3ndSBc4ojwnmhUtWRHFFgMsmNYK7vj+ZGfN9VKiZm1Is/KEJWkOtNSXmd2gELI4ZtsB1VpFejBeXk/OmQXKHISOiOl2EH0gT5c5nOVhB6o4mGLz80LZNsasc+3PW4AnHOarOTs
+X-SG-ID: BaKDar+VrkG/S9kwb9JXA9YxjQY2v464ECcBC4cykOXWIuklBJQhG/WKKPvlTMjR5zgTTpbFfYRei2TlK/S5NksBBCNfqHha4NBHKjQW1f3NV0xFCoCeJ1wV3nZMMRtZ+TumKRXyrmGKULAYiTmWH9QMnRPcpczhBy1MiIARBjzRa5omJO//VWJ3V2ioW0Dj9QHlc4H1WXBYNxHO+tXhWLpAgRZYMmnelz/qgSNZnPuTGNqxPYA+fGW6ErYfVfd9UKTH2tN7l6OKaXOTT48U/A
+Return-Path: bounces+58369-87user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Last chance to register for live webinar TODAY:  Learn How to Achieve Business Agility and Non-Stop Operations with FlexPod from NetApp and Earn a Chance to Win a $50 Gift Card
+
+img-logo.png
+
+ header.gif
+
+ ScreenHunter_177_Apr._29_23.26
+
+Hi Amy,
+
+Learn how a simplified, flexible data center architecture can help you stop doing things the old way and become a true service provider to the business.
+
+Business Agility and Non-Stop Operations
+May 21, 2015 11AM PT /  
+

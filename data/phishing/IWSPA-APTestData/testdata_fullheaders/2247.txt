@@ -1,0 +1,254 @@
+Delivered-To: user@domain.com
+Received: by 10.25.30.9 with SMTP id e9csp753711lfe;
+        Tue, 2 Sep 2015 09:05:05 -0700 (PDT)
+X-Received: by 10.224.92.83 with SMTP id q19mr55444128qam.29.1409673905124;
+        Tue, 02 Sep 2015 09:05:05 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com ([216.82.251.12])
+        by domain.com with ESMTPS id h63si5717397qgd.77.2014.09.02.09.05.04
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Tue, 02 Sep 2015 09:05:05 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.251.12;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211:60072] by server-12.bemta-12.domain.com id D4/89-27306-CAAE5045; Tue, 02 Sep 2015 16:05:00 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-6.tower-53.domain.com!1409673894!8390120!7
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 16304 invoked from network); 2 Sep 2015 16:04:59 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-6.tower-53.domain.com with AES128-SHA encrypted SMTP; 2 Sep 2015 16:04:59 -0000
+Resent-From: =?utf-8?Q?EnergyEfficiencyMarkets.com?
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Tue, 2 Sep 2015 12:04:51 -0400
+Received: from [216.82.254.67:12799] by server-10.bemta-7.domain.com id
+ 46/44-15477-0AAE5045; Tue, 02 Sep 2015 16:04:48 +0000
+X-Env-Sender: user@domain.com
+  domain.com
+X-Msg-Ref: server-2.tower-196.domain.com!1409673883!8207159!1
+X-Originating-IP: [198.2.131.195]
+X-SpamReason: No, hits=0.7 required=7.0 tests=FROM_EXCESS_QP,HTML_90_100,
+  HTML_MESSAGE,MIME_QP_LONG_LINE,ML_RADAR_SPEW_LINKS_16,SUBJECT_EXCESS_QP,
+  UNPARSEABLE_RELAY,spamassassin: 
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 26767 invoked from network); 2 Sep 2015 16:04:43 -0000
+Received: from domain.com (HELO domain.com)
+ (198.2.131.195)  by server-2.tower-196.domain.com with SMTP; 2 Sep 2015 
+ 16:04:43 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?EnergyEfficiencyMarkets.com?
+ bh=2cUPAWcM6Q3EV355dkv3f5oKThs=;
+ b=fjvQFJaBmdxhm4Ek9zbHDnOHxrUvN+wtv4TnZs3YOqix93XhZ6HIJOkQt/wrKxifuttcBnqNKfxW
+   3Vgpc2vMqj2gaI46E5djX7c3RAqaGVUhLP1g0GHXgmRbPGJ9eJKd/whpIT6+eCj3XlridVBWmjOX
+   zy353fWP0SnyzQ3uvB4
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=IM33O7Ay6/MN0QoPkZP1nDKV8qQkAw9Qwh6fzsJYEovn65YogvCxVhYf3tOuJWgGpqkd0kCj4tUf
+   +JEekKqbxZ3th6jzfcHIawtiTcM2jGVWNR3ZAZLyxdhZl5Zrl9I9PVkoUWWEHSIt1XuP20qHFv3V
+   qVeL24rfBPejz1W+ZYE=;
+Received: from (127.0.0.1) by domain.com id h0nl9m1ohncv for
+ <user@domain.com>; Tue, 2 Sep 2015 16:04:42 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?Posts=20from=20Energy=20Efficiency=20Markets=20for=2009=2F02=2F2014?
+From: =?utf-8?Q?EnergyEfficiencyMarkets.com?
+	<user@domain.com>
+Reply-To: =?utf-8?Q?domain.com?
+	<user@domain.com>
+To: user@domain.com
+Date: Tue, 2 Sep 2015 16:04:42 +0000
+Message-ID: <25user@domain.com>
+X-Mailer: MailChimp Mailer - **CID1d9e033562d335b7960a**
+X-Campaign: mailchimp25b85319ed833b816410d639b.1d9e033562
+X-campaignid: mailchimp25b85319ed833b816410d639b.1d9e033562
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 25b85319ed833b816410d639b
+X-Feedback-ID: 18310731:18310731.349489:us7:mc
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: domain.com
+	<user@domain.com>
+x-mcda: FALSE
+Content-Type: multipart/alternative;
+	boundary="_----------=_MCPart_2112194816"
+MIME-Version: 1.0
+
+Energy Efficiency Markets :: Tracking New Business Opportunities
+------------------------------------------------------------
+Email not displaying correctly?
+View it in your browser ( <<link>>
+833b816410d639b&id=3D1d9e033562&e=3Dd335b7960a ) .
+<<link>> <<link>>
+/55432/0/9/37484125
+
+Energy Efficiency Markets
+
+** Weekly Newsletter for 09/02/2014
+------------------------------------------------------------
+
+** NRG & GMP Strike Deal to Remake the Vermont Grid ( <<link>>
+domain.com/nrg-energy-green-mountain-power-strike-deal-remake-vermonts
+-grid/ )
+------------------------------------------------------------
+
+** By Elisa Wood on Sep 02=2C 2015 11:42 am
+------------------------------------------------------------
+<img width=3D"430" height=3D"286" src=3D"<<link>>
+m/wp-content/uploads/2014/09/Downtown_Rutland_Vermont-paint.jpg" class=3D"
+attachment-large wp-post-image" alt=3D"Vermont&#039;s grid" style=3D"float
+: left; margin-right: 5px;" border=3D"0">NRG Energy and Green Mountain Pow
+er have teamed up to remake the Vermont grid with microgrids=2C distribute
+d energy=2C and products to help consumers manage energy
+
+Get the full story here ( <<link>>
+een-mountain-power-strike-deal-remake-vermonts-grid/ ) .
+
+<<link>>
+
+** Challenges of Microgrid Integration ( <<link>>
+m/challenges-microgrid-integration/ )
+------------------------------------------------------------
+
+** By Lisa Cohn on Sep 02=2C 2015 10:56 am
+------------------------------------------------------------
+<img width=3D"430" height=3D"322" src=3D"<<link>>
+m/wp-content/uploads/2014/09/Microgrid.jpg" class=3D"attachment-large wp-p
+ost-image" alt=3D"Microgrid" style=3D"float: left; margin-right: 5px;" bor
+der=3D"0">David Chiesa=2C director of commercial and industrial and micro
+ grid market segments for S &#038; C Electric Co.=2C says that the militar
+y is on the leading edge of using microgrids to provide reliable power.
+
+Listen to the podcast here ( <<link>>
+-microgrid-integration/ ) .
+
+** Other Recent Articles
+------------------------------------------------------------
+
+* New York Outlines Next Steps in $40 Million Community Microgrid domain.com
+ion ( <<link>>
+illion-microgrid-competition/ )
+* New York Grapples with Utility Monopoly Role in =E2=80=98REV=E2=80=99 Di
+stributed Energy Market ( <<link>>
+tributed-energy-revolution-revolutionary-enough/ )
+* Innovation in Energy Storage and its Big Benefits ( <<link>>
+domain.com/innovation-energy-storage-big-benefits/ )
+* Why Electricity Pricing Remains a Mystery=E2=80=A6and How that Has to Ch
+ange ( <<link>>
+ery-us-change/ )
+
+** Industry Perspectives
+------------------------------------------------------------
+
+* The Consumer-Centric Energy Provider: Moving from Concept To Reality ( h
+ttp://domain.com/consumer-centric-energy-provider-moving-
+concept-reality/ )
+* Upholding FERC Order 1000 Unlocks Efficiency and Spurs Clean Energy Solu
+tions ( <<link>>
+ks-efficiency-spurs-clean-energy-solutions/ )
+
+Read more Industry Perspectives here ( <<link>>
+com/category/industry-perspectives/ ) .
+<<link>> <<link>>
+ml-domain.com/ic2?634=2C1166=2C12737=2C668=2C0=2C2
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+
+** Latest RFPs
+------------------------------------------------------------
+
+* Hawaii Energy Launches State=E2=80=99s First-Ever Energy Efficiency Auct
+ion  =C2=A0 ( <<link>>
+ates-first-ever-energy-efficiency-auction/ )
+* Singapore Microgrid Seeks Technologies to Test; Eyes Commercialization (
+ <<link>>
+-test-eyes-export-market/ )
+
+See all the RFPs here ( <<link>>
+ps/ ) .
+
+** Events
+------------------------------------------------------------
+
+See our comprehensive listing of upcoming industry events on our website a
+t: <<link>>
+
+Follow Us
+
+** facebook (<<link>>)
+** ( <<link>> )
+** linkedin ( <<link>>
+5095376 )
+
+Interested in Sponsoring the Energy Efficiency Markets Newsletter? ** Clic
+k Here. ( <<link>>
+iency-markets/ )
+
+Copyright =C2=A9 2015 Energy Efficiency Markets=2C All rights reserved.
+ You are receiving this email because you opted for our newsletter at Ener
+gy Efficiency Markets (formerly known as Real Energy Writers).
+
+Our mailing address is:
+Energy Efficiency Markets
+PO Box 113
+Westborough=2C MA 01581
+USA
+** unsubscribe from this list ( <<link>>
+domain.com/unsubscribe?u=3D25b85319ed833b816410d639b&id=3D1774229f01&e=3D
+d335b7960a&c=3D1d9e033562 )
+** update subscription preferences ( <<link>>
+st-domain.com/profile?u=3D25b85319ed833b816410d639b&id=3D1774229f01&e=3D
+d335b7960a )

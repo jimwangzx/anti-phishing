@@ -1,0 +1,115 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 30 Jan 2015 15:52:51 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0UNqoMm020835;	Thu, 30 Jan 2015 23:52:50 GMT
+Received: from mail213-ch1-domain.com (mail-domain.com
+ [216.32.181.170])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s0UNqnSM029894
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL);	Thu, 30 Jan 2015 
+ 23:52:50 GMT
+Received: from mail213-ch1 (localhost [127.0.0.1])	by
+ mail213-ch1-domain.com (Postfix) with ESMTP id 3842B3A01CA;	Thu, 30 Jan
+ 2015 23:52:49 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:208.65.144.71;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: -17
+X-BigFish: Vvps-17(z569dhz13dbM9f17Rc430I148cIe0eahc857hd799hzz208ch1ee6h1fdah2073h2146h1202h1e76h2189h1d2ah21bch1fc6hzz1de098h8275bh18c673h1de097hz2dh87h109h2a8h839hbe3hd25he5bh1288h12a5h12bdh137ah13eah1441h1504h1537h153bh162dh1631h1758h18b6h18e1h1946h19b5h1b0ah1bceh2222h224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h2052h20b3h20f0h2216h22d0h2336h2438h2461h2487h24d7h2516h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+X-FB-DOMAIN-IP-MATCH: fail
+Received: from mail213-ch1 (localhost.localdomain [127.0.0.1]) by mail213-ch1
+ (MessageSwitch) id 1391125967493586_28347; Thu, 30 Jan 2015 23:52:47 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.228])	by mail213-domain.com (Postfix) with ESMTP id
+ 7119E1800A5;	Thu, 30 Jan 2015 23:52:47 +0000 (UTC)
+Received: from domain.com (208.65.144.71) by
+ domain.com (10.43.70.3) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Thu, 30 Jan 2015 23:52:45 +0000
+Received: from unknown [38.94.138.82] (EHLO vai-domain.com)	by
+ domain.com(mxl_mta-7.2.4-1) over TLS secured channel	with ESMTP
+ id 8c5eae25.0.24733.00-377.68680.domain.com (envelope-from
+ <user@domain.com>);	Thu, 30 Jan 2015 16:52:41 -0700 (MST)
+X-MXL-Hash: 52eae5c91667bcfd-61991fa9b4ff7858c2d6e9efc4707993eed57459
+Received: from VINE-domain.com ([fe80::e55e:a3b9:469d:f071]) by
+ VINE-domain.com ([fe80::e55e:a3b9:469d:f071%14]) with mapi id
+ 14.01.0438.000; Thu, 30 Jan 2015 18:52:37 -0500
+From: "Stephen A. Kovach" <stephen.a.kovach@vai-llc.com>
+To: Tom Rothman <user@domain.com>, Michael Lynton
+	<user@domain.com>
+CC: "James P. Moore" <user@domain.com>, "William E. Lambert"
+	<user@domain.com>
+Subject: Our Meeting
+Thread-Topic: Our Meeting
+Thread-Index: Ac8eFlkT4BWDBfIXRCahk52GU/oQ3g
+Date: Thu, 30 Jan 2015 23:52:35 +0000
+Message-ID: <9user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+X-AnalysisOut: [v=2.0 cv=LbOLHEji c=1 sm=1 a=uiVl7sHebTwQYdAm7TeqYQ==:17 a]
+X-AnalysisOut: [=-tNSFYWjmmQA:10 a=BLceEmwcHowA:10 a=xqWC_Br6kY4A:10 a=jSg]
+X-AnalysisOut: [xO9f0AAAA:8 a=iQcbnJfEeZwA:10 a=CWmipVYM_ETyZyq8GPsA:9 a=Q]
+X-AnalysisOut: [EXdDO2ut3YA:10 a=-xnhgOiq-gcA:10 a=L7rwA1eDKfcA:10 a=YMIac]
+X-AnalysisOut: [6Kuox4A:10 a=C57Au5UOdWcA:10 a=eUoaNgf_pJcA:10 a=nzDHiyS8T]
+X-AnalysisOut: [nncuqgc:21 a=GKig_VhVjW8tDhS2:21 a=pj2eNXEoILLmqn64PRMA:9 ]
+X-AnalysisOut: [a=_W_S_7VecoQA:10 a=tXsnliwV7b4A:10 a=LJB87crLslj9FjLd:21 ]
+X-AnalysisOut: [a=cxBpMa9BrC6a9b5G:21 a=7QAuyxMg6goyEx5J:21]
+X-Spam: [F=0.2000000000; CM=0.500; MH=0.500(2014013013); S=0.200(2010122901)]
+X-MAIL-From: "Stephen A. Kovach" <stephen.a.kovach@vai-llc.com>
+X-SOURCE-IP: [38.94.138.82]
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+Our Meeting
+
+Thanks for taking the time for the meeting this week with our team and Mark. We are incredibly excited about the prospects of a deal here. 
+
+We are waiting to get the valuation and model data from EMC so we can analyze and discuss a constructive strategy for our investment. 
+
+I am in the office all day tomorrow of you would like to follow up but I will keep you posted as soon as we have some concrete info. 
+
+If we don't speak before the weekend, enjoy your weekend and the SuperBowl. 
+
+Best,
+
+Stephen. 
+
+
+
+
+Stephen Kovach, CFA
+
+Co-founding Partner
+
+Vine Alternative Investments
+
+810 Seventh Avenue, Ste 802
+
+New York, New York 10019
+
+user@domain.com
+
+
+
+
+917-512-7053 office
+
+646-943-1113 mobile
+
+212-221-9252 fax
+
+
+
+
+Generally, this e-mail message and all attachments hereto are for informational purposes only and are not intended as an offer or solicitation for the purchase or sale of any financial instrument or as an official confirmation of any transaction.  All market prices, data and other information are not warranted as to completeness or accuracy and are subject to change without notice.  All terms contained herein are intended for negotiation purposes only and are conditioned upon the execution of a final agreement.  All investment or security trades are discretionary unless otherwise noted. Any comments or statements made herein do not necessarily reflect those of Vine Alternative Investments Group, LLC., its subsidiaries and affiliates.
+
+
+
+
+This e-mail message and all attachments transmitted with it may contain legally privileged and confidential information intended solely for the use of the intended addressee.  If the reader of this message is not the sender's intended recipient, you are hereby notified that any reading, dissemination, distribution, copying, or other use of this message or its attachments is strictly prohibited.  If you have received this message i
+

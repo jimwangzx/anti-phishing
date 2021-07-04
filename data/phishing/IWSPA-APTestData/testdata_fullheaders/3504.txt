@@ -1,0 +1,31 @@
+Delivered-To: user@domain.com
+Received: by 10.151.114.18 with SMTP id r18cs246131ybm;
+        Fri, 22 Aug 2015 07:19:53 -0700 (PDT)
+Received: by 10.70.34.13 with SMTP id h13mr1396964wxh.81.1219414793683;
+        Fri, 22 Aug 2015 07:19:53 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (66-200-192-51.domain.com [66.200.192.51])
+        by domain.com with ESMTP id i33si5868129wxd.14.2008.08.22.07.19.47;
+        Fri, 22 Aug 2015 07:19:53 -0700 (PDT)
+Received-SPF: neutral (domain.com: 66.200.192.51 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=66.200.192.51;
+Authentication-Results: domain.com; spf=neutral (domain.com: 66.200.192.51 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C90461.776D2430"
+Subject: Out of Office AutoReply: September 2 meeting in D.C.
+Date: Fri, 22 Aug 2015 10:15:01 -0400
+Message-ID: <user@domain.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: September 2 meeting in D.C.
+Thread-Index: AckEYXdq1DYtdtBITsS4Hx/RPgvflQAAAADF
+From: "Carol Browner" <cbrowner@thealbrightgroupllc.com>
+To: "User" <user@domain.com>
+
+I will be out of the office until Friday, August 22 with very limited 
+email access.  If this is an urgent matter, please call Anne Fauvre at 
+202-842-7222
+
+Thanks.

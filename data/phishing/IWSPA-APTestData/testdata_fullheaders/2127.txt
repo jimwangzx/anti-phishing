@@ -1,0 +1,68 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 14 Jan 2015 07:01:50 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0EF1oAp019844	for <user@domain.com>; Tue, 14 Jan 2015 
+ 15:01:50 GMT
+Received: from mail243-tx2-domain.com (mail-domain.com [65.55.88.117])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0EF1nUc014957	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 14 Jan 2015 15:01:49 GMT
+Received: from mail243-tx2 (localhost [127.0.0.1])	by
+ mail243-tx2-domain.com (Postfix) with ESMTP id 39CBC1700215	for
+ <user@domain.com>; Tue, 14 Jan 2015 15:01:49 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:69.25.195.220;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 4
+X-BigFish: vps4(z5574hzc89bhc857h77f5h609Izz1f42h2148he68I208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h1de096h186068h1954cbh1ce120h1ce121iz2fheh5eh5fh839h8aaha12h1288h12a5h137ah13eah1441h14ddh1504h1537h153bh158dh162dh1631h1758h18e1h19b5h1a75h1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h213dh2216h2336h2438h2461h12d8m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail243-tx2: domain of domain.com designates 69.25.195.220 as permitted sender) client-ip=69.25.195.220; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail243-tx2 (localhost.localdomain [127.0.0.1]) by mail243-tx2
+ (MessageSwitch) id 1389711707576527_4612; Tue, 14 Jan 2015 15:01:47 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.236])	by
+ mail243-domain.com (Postfix) with ESMTP id 898541480047	for
+ <user@domain.com>; Tue, 14 Jan 2015 15:01:47 +0000 (UTC)
+Received: from domain.com (69.25.195.220) by domain.com
+ (10.9.99.120) with Microsoft SMTP Server id 14.1.225.23; Tue, 14 Jan 2015 
+ 15:01:45 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; q=dns/txt; l=6991;
+ d=enterpriseguide.com;s=nacusdkim;
+ h=from;
+ bh=nuJwE+IS8lYmyex101zcf4bNtCCQzEEoEtrOi5lbp/s=;
+ b=mV8A+TVq1vziRP0BiNevlre+AFnv1CoCEDa+BQw3swhId1oWVgZ/HrYOyUmiXKhHwE8p+vRS
+ 6CRpKCoSSayeFsNs93mFkUHPKaxQbR1t4Nrt5Zoqtvu6Lb9iU72vmzqZuqswZq8DVKDhicyn
+ bXew//VBr+P5+Rp63K7E71pv5O4=;
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=nacusdkim; d=enterpriseguide.com;
+ h=from;
+ b=GomoFaulUePP95aixDgMcHidKBIaHNWroMIPWJxTV1oE57cpg2fs/WOp2Pub+7cx3Zm95CeV cPWMrcKlgKQOyNrMuvK0NBM96ZK9/CBTojIQsqHwBsTmJ7pm7ZDlqz4Kc6rmqxznbgvvak3a
+ 4aSmqJpRmvNe2Ahg0Godb82xBuY
+From: Enterprise Guide <admin@enterpriseguide.com>
+To: <user@domain.com>
+Subject: What Does a State-of-the-Art Mobile Strategy Look Like?
+Date: Tue, 14 Jan 2015 10:00:00 -0500
+List-Unsubscribe: <mailto:user@domain.com>
+Message-ID: <LYRIS-271110524-5640126-2014.01.14-10.00.07--amy_pascal#user@domain.com>
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+What Does a State-of-the-Art Mobile Strategy Look Like?
+
+Having trouble viewing this email? View in your browser
+
+Please add user@domain.com to your email address book to ensure proper delivery.       
+
+Resource Review  
+
+
+
+
+What Does a State-of-the-Art Mobile Strategy Look Like?
+
+Your most productive employees are working on the go, dependent on their mobile devices to drive every aspect of your business. A true IT mobility strategy provides them with reliable 24/7 access to the business information they need from any device from anywhere in the world.
+
+This paper examines how savvy enterprises are meeting the mobile IT challenge. Discover the key considerations that must be addressed when developing a mobility strategy and see how other successful enterprises balance the needs of busy mobile workers with simple IT deplo
+

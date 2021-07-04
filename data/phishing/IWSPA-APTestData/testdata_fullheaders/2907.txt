@@ -1,0 +1,93 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp2232610lfr;
+        Tue, 4 Aug 2015 06:10:02 -0700 (PDT)
+X-Received: by 10.66.141.5 with SMTP id rk5mr7854054pab.16.1438693801392;
+        Tue, 04 Aug 2015 06:10:01 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-pa0-domain.com (mail-pa0-domain.com. [2607:f8b0:400e:c03::247])
+        by domain.com with ESMTPS id pu4si649532pbb.18.2015.08.04.06.10.00
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 04 Aug 2015 06:10:01 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400e:c03::247 as permitted sender) client-ip=2607:f8b0:400e:c03::247;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400e:c03::247 as permitted sender) smtp.mail=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pa0-domain.com with SMTP id um4sf5313490pac.1
+        for <user@domain.com>; Tue, 04 Aug 2015 06:10:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:From: user Carrk <tcarrk@hillaryclinton.com>
+         :content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-unsubscribe;
+        bh=/LPLbyeHDF7GulcLfrC5y6Gs6Uz4m0vJh8ocWLgOo+A=;
+        b=I2akiZNrHi2WnJXnXKLIzuN9mQo/oc29rm1rNp1NwToQmsgDY+LJtSNgiphez0iR8R
+         kI+9b5aXQe97YS2uIR1iBmhG0NGBSGJzfvRJgzgYMpX3o/zVM/FCuI4FxzNDgxi3TQ7h
+         9bxgnX47+4ZjKvYskNgIb50xQS3ANxxh/H8e4
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:From: user Carrk <tcarrk@hillaryclinton.com>
+         :message-id:subject:to:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=/LPLbyeHDF7GulcLfrC5y6Gs6Uz4m0vJh8ocWLgOo+A=;
+        b=KShlyxRDWWGWCUXyOkPO0lzTPO+ocqQYRKnE+l8bF+l7cJO/3wZEAGTh5Sze8Gkfmt
+         G35W/XKVBHfLdKj/aNLly/7K+nysIf8uz9cNubjCRBkk0GLL3ej5vdTEJe2oSUUPYsfg
+         NsQmZy0B5v6POq+upfvq5cDWn9MKdW+hrbzH9gvJhac0khAbU3pQEHpenkKvvxSDZRpg
+         rqPJ3vtEjUn1vnSzgYT9M/Mi41d/wCT1VXsb45tmpCvBrfvP79hr7Wva43wdTqUrefee
+         ofdluCycSQDcabkqSCHBskT+4mf+jnjtNNoAYwijfLAkP8V04QjSRaA3hzeawy0L5zeT
+         4GkQ
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQlwzZwPpfu0nnJbllc1iD4Ak4YiGRscBRzpNJzkN6wYbAvHn/rkyWfV5j3wnVzW2m8HNgLy
+X-Received: by 10.66.233.105 with SMTP id tv9mr3001652pac.27.1438693800319;
+        Tue, 04 Aug 2015 06:10:00 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.107.130.211 with SMTP id m80ls173374ioi.33.gmail; Tue, 04 Aug
+ 2015 06:10:00 -0700 (PDT)
+X-Received: by 10.107.130.231 with SMTP id m100mr3472048ioi.162.1438693800006;
+        Tue, 04 Aug 2015 06:10:00 -0700 (PDT)
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::22d])
+        by domain.com with ESMTPS id l10si1089392igx.31.2015.08.04.06.09.59
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 04 Aug 2015 06:09:59 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::22d as permitted sender) client-ip=2607:f8b0:4001:c06::22d;
+Received: by ioii16 with SMTP id i16so16086357ioi.0
+        for <user@domain.com>; Tue, 04 Aug 2015 06:09:59 -0700 (PDT)
+X-Received: by 10.107.131.199 with SMTP id n68mr3449023ioi.63.1438693799870;
+ Tue, 04 Aug 2015 06:09:59 -0700 (PDT)
+From: user Carrk <tcarrk@hillaryclinton.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdDOtq/NlpscOV07QHmXKyP9xswxUQ
+Date: Tue, 4 Aug 2015 09:09:58 -0400
+Message-ID: <26user@domain.com>
+Subject: CO remarks
+To: Speech Drafts <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113eca94e1cf2a051c7c00ee
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:4001:c06::22d as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+One slight domain.com from Research: on the Bush hit, can we say =E2=80=9Cleaving
+=E2=80=9D
+millions of hard-working people in second class status instead of =E2=80=9C
+turning
+them into.=E2=80=9D

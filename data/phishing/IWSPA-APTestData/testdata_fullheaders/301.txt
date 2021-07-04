@@ -1,0 +1,130 @@
+Received: from domain.com (43.130.141.76) by
+ domain.com (146.215.231.43) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Fri, 14 Nov 2015 22:04:42 -0500
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Fri, 14 Nov 2015 19:04:37 -0800
+Received: from domain.com (domain.com [160.33.194.230])
+	by domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sAF34b5A026733	for <user@domain.com>; Sat, 15 Nov 2015 
+ 03:04:37 GMT
+Received: from na01-bn1-domain.com
+ (mail-domain.com [207.46.163.186])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sAF34aAY016397	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Sat, 15 Nov 2015 03:04:37 GMT
+Received: from BL2FFO11FD008.protection.gbl (10.173.160.34) by
+ BL2FFO11HUB039.protection.gbl (10.173.160.245) with Microsoft SMTP Server
+ (TLS) id 15.1.6.13; Sat, 15 Nov 2015 03:04:25 +0000
+Received: from mx-domain.com (64.34.57.228) by
+ domain.com (10.173.161.4) with Microsoft SMTP
+ Server id 15.1.6.13 via Frontend Transport; Sat, 15 Nov 2015 03:04:25 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Variety Breaking News <donotreply@variety.com>
+ bh=lFXikhKsO4+b/Vz9Nkz1LVevG9Y=;
+ b=jK+cZR4fZ9utoAVYO4HAnXVmSkfHT5ZXAovUiGBJ42OvTTf57/SEQOBZ/LzbgFu5/SXwZ0iCmSKI
+   k2r5tsyn+DG1Q+jN7Y83r9/ENl1DivA5hBcjwOnXYmsk91eEJHD3I7d7Q1VshD9disrZbv01ifTw
+   /gXVlqBLgKr/3siX1Ng
+Received: from 162.208.119.174.domain.com (162.208.119.174) by
+ mx-domain.com id hcr1bi1qqbs8 for <user@domain.com>; Fri, 14
+ Nov 2015 22:03:12 -0500 (envelope-from <user@domain.com>)
+Received: from nj1-p-illcherry-prd-jma-5.flt (172.18.20.10) by
+ 162.208.119.174.domain.com id hcr1701qqbsm for
+ <user@domain.com>; Fri, 14 Nov 2015 22:03:12 -0500 (envelope-from
+ <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1416020592;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=kdnMrZ+gTlAzsdBOJ5jnZP19bSY02vrKDwIuKPHUHDo=;
+	b=w65943Wy+D5Xt083MrrvdpEy/+oNryry34Ukqr6v5vV0K+V1fkCe0bFoS89Fm6Kr
+	qyUf/puCVpIBaDQhI11Oa4Mp469zFWm4xIfOIE7h8lIVJGpvFBa8kr6JxiXRp3aFzI6
+	c2GllMBmV91tQDxwpI9Xfu/8JIl63mSW5HxhO15Q
+Date: Fri, 14 Nov 2015 22:03:12 -0500
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20141115030312.3344904.35445@domain.com>
+Subject: Why Can't Jeffrey Katzenberg Find a Buyer for DreamWorks Animation?
+Precedence: bulk
+X-TM-ID: 20141115030312.3344904.35445
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nj1-p-illcherry-prd-jma-5.flt
+X-IADB-IP: 172.18.56.4
+X-IADB-IP-REVERSE: 4.56.18.172
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>,
+ <mailto:user@domain.com>
+X-rpcampaign: stcoy3344904
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: CIP:64.34.57.228;CTRY:US;SRV:BULK;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:BL2FFO11HUB039;H:mx-domain.com;FPR:;LANG:en;
+X-Microsoft-Antispam: UriScan:(133331);
+X-Microsoft-Antispam: BCL:6;PCL:0;RULEID:(82001)(120001);SRVR:BL2FFO11HUB039;
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA: BCL:6;PCL:0;RULEID:;SRVR:BL2FFO11HUB039;
+X-Exchange-Antispam-Report-CFA: BCL:6;PCL:0;RULEID:;SRVR:BL2FFO11HUB039;
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-716727042_-_-"
+
+Breaking News | Variety
+
+@import url(<<link>>+Sans:400,700);
+/* -----------------------------------------------
+FOR MOBILE DEVICES, HIDE THE PREHEADER AND 
+MAKE THE MAIN TEXT 25% LARGER.
+ALSO RESIZE TD WIDTHS AND LEADERBOARD IMAGE.
+----------------------------------------------- */
+@media only screen and (max-width:728px) {
+span[class="head"] { font-size:31.25px; }
+span[class="desc"] { font-size:23.75px; }
+span[class="link"] { font-size:23.75px; }
+span[class="collapse"] { display:none; }
+#maintable { width:100%; max-width:728px; min-width:480px; }
+#leaderboardtable { width:100%; max-width:728px; }
+#leaderboardimage { width:100%; max-width:728px; }
+#headernestedtable { max-width:728px; min-width:480px; }
+#storynestedtable { max-width:588px; min-width:340px; }
+#prefsnestedtable { max-width:708px; min-width:460px; }
+#footernestedtable { max-width:708px; min-width:460px; }
+}
+
+After courting and being snubbed by several deep-pocketed investors including a Japanese tech gi...
+
+​
+
+Breaking News
+
+Friday, November 14, 2015 
+
+​
+
+Why Can't Jeffrey Katzenberg Find a Buyer for DreamWorks Animation?
+
+After courting and being snubbed by several deep-pocketed investors including a Japanese tech giant, the Hollywood’s major studio...
+
+Full Story
+
+Check out the redesigned Variety411
+
+This email was sent to user@domain.com by Variety. To ensure delivery to your inbox (and not your spam folder), please add user@domain.com to your address book. If you prefer not to continue receiving email communications, please unsubscribe here instead of replying to this email.
+
+
+
+
+To update your profile and customize what email alerts and newsletters you receive, please click here.
+
+Having trouble reading this email? View the web version here.
+
+Copyright © 2014 Variety Media, LLC, a subsidiary of Penske Business Media.1​1​1​7​5 Santa Monica Blvd. Los Angeles, CA 9​0​0​2​5
+
+Variety and the Flying V logos are trademarks of Variety Media, LLC., used under license.
+

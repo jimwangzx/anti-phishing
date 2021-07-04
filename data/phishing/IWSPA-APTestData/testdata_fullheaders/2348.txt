@@ -1,0 +1,145 @@
+Delivered-To: user@domain.com
+Received: by 10.204.68.206 with SMTP id w14csp121580bki;
+        Mon, 12 Aug 2015 08:00:47 -0700 (PDT)
+X-Received: by 10.182.143.5 with SMTP id sa5mr578984obb.80.1376319646284;
+        Mon, 12 Aug 2015 08:00:46 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [69.48.252.194])
+        by domain.com with ESMTP id fy6si16048723obb.47.2013.08.12.08.00.45
+        for <user@domain.com>;
+        Mon, 12 Aug 2015 08:00:46 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.48.252.194 as permitted sender) client-ip=69.48.252.194;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 69.48.252.194 as permitted sender) user@domain.com;
+       dkim=pass (test mode) user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=selector1; d=mta-domain.com;
+ h=Message-ID:Date:Reply-To:Mime-Version:Content-Type:From: Denise Cardinal <denise@progressnow.org>
+ bh=5YqAA6nFvlaR9KsfSEAFo0q4BN8=;
+ b=ms79OHdPuNz2oujOgdlKh9iKy4jNvlLIaOTbiE3k8cLjlwhS9uwT/HeOvRPyfc/IN3SLsJaifqO8
+   Z3rXQZzhRZStgL1VcM6YjMIxr3Qv/Uh2E8kbBwDwQo/KIi2k65jiJhMQqCuaUnHi5pUN0nRa/BFZ
+   m1l1wneSj7G/HvLk6zQ
+Received: from 10.0.31.219 (10.0.31.29) by mta-domain.com id h13s9s1argke for <user@domain.com>; Mon, 12 Aug 2015 10:00:45 -0500 (envelope-from <user@domain.com>)
+Message-ID: <1854797.1376319645482.user@domain.com>
+Date: Mon, 12 Aug 2015 10:00:39 -0500 (CDT)
+Reply-To: Denise Cardinal <user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_19264857_4191169.1376319645469"
+Organization: ProgressNow National Network
+X-campaignid: Convio-c3tmp194-pn-127841
+X-Gateway: c3tmp194
+XData: 1010,499user@domain.com@user@domain.com
+X-ConvioDeliveryGroup: poolb
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; 
+  s=convio1; d=progressnow.org; 
+  h=From: Denise Cardinal <denise@progressnow.org>
+  b=ifqZL3rh0wnGboV4sMxOj4AcBP1TvihTAaJEX5zkSHTC/VXzvTYVaoR5ik+1pgyFwO/As+c8vCbMGtujIKw9vA==  
+From: Denise Cardinal <denise@progressnow.org>
+To: user@domain.com
+Subject: Repeal Times 40
+
+::: ProgressNow - Advancing Progressive Agendas, State by State :::
+
+Dear Friends and Colleagues,
+
+Before going on their summer recess last week, the House GOP voted to
+repeal the Affordable Care Act for the 40th time. The GOP's
+continuous attacks on health care are not only happening on a national
+level, our affiliates are seeing state actors actively discouraging
+coverage as well. We are working hard to expose these conservative
+politicians and ensure that all Americans have the access to the
+quality health care that they deserve. These are just two of our 21
+states doing what we do every day - make progress happen, and
+happen NOW.
+
+As always, let me know what you think, or even better, contribute to
+us here.
+
+<<link>>
+
+Best,
+
+Denise Cardinal
+Executive Director
+ProgressNow
+ProgressNow Education
+
+=A0
+
+=A0
+
+Granite State Progress Reveals Congressional Candidate Bill
+O'Brien's Stance on the Affordable Care Act
+
+On August 1st, Americans for Prosperity, one of the political
+organizations funded by the Koch brothers, came through New Hampshire
+as part of their national conservative campaign to discourage people
+from accessing health care. They hosted an event featuring
+Congressional candidate and former New Hampshire Speaker Bill
+O'Brien, and he made his opposition to the Affordable Care Act
+very clear. O'Brien compared the ACA to the Fugitive Slave Act,
+which condoned human slavery. Specifically, O'Brien said that
+Obamacare is "as destructive to personal and individual liberty
+as the Fugitive Slave Act of 1850". By linking the ACA to
+slavery, conservatives such as Bill O'Brien are trying to
+mislead voters and convince them to oppose the expansion of health
+care coverage.
+<<link>>
+
+<<link>>
+
+The AFP event was part of a larger campaign to dissuade uninsured
+Americans from obtaining health coverage. The campaign is particularly
+targeting young adult men and encouraging them to skip out on health
+coverage. As executive director Zandra Rice Hawkins says,
+"groups like Americans for Prosperity and politicians like Bill
+O'Brien are trying to come between people and their doctors and
+make health access as burdensome as possible, all so that they can use
+health reform as a political wedge issue in the next election. We
+refuse to let them play politics with people's lives." Contribute to
+Granite State Progress to help stand up against this hurtful campaign
+and instead promote the ACA and the beneficial coverage it will
+provide for uninsured Americans.
+
+<<link>>
+
+<<link>>
+
+=A0
+
+Alliance for a Better Utah Speaks Out Against Senator Mike Lee's
+Radical Tactic to Defund the Affordable Care Act
+
+Utah Senator Mike Lee is attempting to defund the Affordable Care
+Act's individual mandate by threatening a federal government
+shutdown if Congress doesn't comply. Alliance for a Better Utah
+isn't alone in thinking that this plan is outrageous.
+Republicans such as Senator John McCain, Senator Mitch McConnell and
+House Speaker John Boehner agree that this tactic is radical and
+unnecessary. By making this threat, Lee is disregarding the bargain
+that was made between the Obama administration, Congress, and the
+insurance industry to pass the individual mandate.
+
+<<link>>
+
+Founder of Alliance for a Better Utah, Josh Kanter, explains in his
+Salt Lake Tribue opinion piece that Lee's plan speaks to his
+idea of governing.=A0 This action shows that Lee has a "lack
+of respect for the deliberation and its results, and [refuses] to
+abide by a democratic process of governing that is often built on
+compromise". The fact that Republicans in Congress disagree with
+Lee's tactics make it clear that he is not only out of touch
+with voters and also those in his own party. Alliance for a Better
+Utah is holding Lee accountable for his radical views, and believes
+Utah would be better represented by someone=A0who will stand with
+the moderate majority of Utahns.=A0
+
+<<link>>
+
+:::
+
+Copyright 2015 ProgressNow
+
+Change your e-mail preferences or unsubscribe: <<link>>
+CO?i=3DoMMVUB9ta1imv9O3nfeMwX04WyTinRH3&cid=3D0
+

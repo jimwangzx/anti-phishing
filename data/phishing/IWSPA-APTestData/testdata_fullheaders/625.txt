@@ -1,0 +1,242 @@
+Received: from USSDIXHUB21.spe.sony.com (43.130.141.76) by
+ domain.com (146.215.231.43) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Wed, 19 Nov 2015 23:30:17 -0500
+Received: from domain.com (146.215.230.103) by
+ ussdixhub21.spe.sony.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Wed, 19 Nov 2015 20:29:54 -0800
+Received: from domain.com (domain.com [160.33.194.230])
+	by domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sAK4Tp4B028437	for <user@domain.com>; Thu, 20 Nov 2015 
+ 04:29:51 GMT
+Received: from na01-bl2-domain.com
+ (mail-domain.com [207.46.163.207])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sAK4TpNT031041	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 20 Nov 2015 04:29:51 GMT
+Received: from BN1BFFO11FD048.protection.gbl (10.58.144.33) by
+ BN1BFFO11HUB059.protection.gbl (10.58.144.206) with Microsoft SMTP Server
+ (TLS) id 15.1.6.13; Thu, 20 Nov 2015 04:29:49 +0000
+Received: from domain.com (146.82.220.59) by
+ domain.com (10.58.145.3) with Microsoft SMTP
+ Server id 15.1.6.13 via Frontend Transport; Thu, 20 Nov 2015 04:29:48 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=news.marketing-domain.com; s=ei0; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1416457788;
+	h=From: =?utf-8?B?TWFya2V0aW5nIE1hZ2F6aW5l?
+	bh=z3qCR1MN+eaqcmhVlVHmh+pCjiw=;
+	b=mgNBRc1k9YfoFBSX1VJc4cUV59+RN+FadLX4qv+6eScBpnTAylU3wScMRh1lDxCg
+	pzRsws2r9omJjL4J9Yr/aN0hmliNHS2DwE0Ev8DoFfYUAXGfp8ZFLM7SDt+KTbVi
+	VzzXxko6euYe6yDk6Fq/Y7yDZ44yiWF4AIF++k9+Eks=;
+Received: from [10.21.250.250] ([10.21.250.250:2588] helo=CORE16PUMPER1)	by
+ pc1udsmta1n14 (envelope-from <user@domain.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ESMTP	id FB/F9-30789-B3E6D645; Wed, 19
+ Nov 2015 23:29:47 -0500
+Date: Thu, 20 Nov 2015 13:29:47 +0900
+Message-ID: <user@domain.com>
+X-DMHA-ID-Packet: Z4gvK5o622ozTB0yWzQ48ThVy2YQZr4rYl56YwYdIsl4DFtBhZEtC1ajAKEEXG9As2khkYLMQ-Q
+From: =?utf-8?B?TWFya2V0aW5nIE1hZ2F6aW5l?
+	<user@domain.com>
+Reply-To: =?utf-8?B?TWFya2V0aW5nIENpcmN1bGF0aW9u?
+	<user@domain.com>
+To: <user@domain.com>
+Subject: =?utf-8?B?TWFya2V0aW5nIERhaWx5IFNpbmdhcG9yZSwgMjAgTm92ZW1iZXI6IERvZXMg?
+ =?utf-8?B?QmlsbCBDb3NieSBuZWVkIGEgbW9yZSBkaWdpdGFsbHkgc2F2dnkgUFIgdGVh?
+ =?utf-8?B?bT8gUGl6emEgSHV0IG1ha2VzIGdsb2JhbCBicmFuZCByZXZhbXAgcGx1cyA5?
+ =?utf-8?B?R0FHIG9uIGNvbnRlbnQgbWFya2V0aW5n?
+X-EOPAttributedMessage: 0
+Received-SPF: Pass (domain.com: domain of
+ news.marketing-domain.com designates 146.82.220.59 as permitted sender)
+ receiver=domain.com; client-ip=146.82.220.59;
+ helo=domain.com;
+Authentication-Results: spf=pass (sender IP is 146.82.220.59)
+ user@domain.com; 
+X-Forefront-Antispam-Report: CIP:146.82.220.59;CTRY:US;SRV:BULK;EFV:NLI;SFV:NSPM;SFS:(438002)(189002)(4423002)(3542004)(199003)(18950595002)(22186001)(36756003)(120916001)(104016003)(956001)(23846002)(15202345003)(107886001)(110136001)(2361001)(95666004)(2351001)(107046002)(110466001)(229853001)(19617315012)(62966003)(450100001)(99396003)(106866001)(180100001)(77156002)(18206015028)(22756005)(106466001)(19580405001)(44976005)(102836001)(86362001)(87836001)(20776003)(50986999)(54356999)(53806999)(19625215002)(15975445006)(19580395003)(43066003)(46102003)(50466002)(92726001)(4396001)(21056001)(23676002)(22746005)(19618635001)(23603001)(7059030)(166374004)(47402002)(14613045004)(15398625002)(79686002)(579004)(15072585003)(19622755008);DIR:INB;SFP:;SCL:1;SRVR:BN1BFFO11HUB059;H:domain.com;FPR:;MLV:nov;PTR:domain.com;MX:1;A:1;LANG:en;
+X-Microsoft-Antispam: UriScan:;
+X-Microsoft-Antispam: BCL:4;PCL:0;RULEID:(71001);SRVR:BN1BFFO11HUB059;
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:4;PCL:0;RULEID:;SRVR:BN1BFFO11HUB059;
+X-Exchange-Antispam-Report-CFA-Test: BCL:4;PCL:0;RULEID:;SRVR:BN1BFFO11HUB059;
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: ussdixhub21.spe.sony.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+        Marketing Interactive
+
+
+
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-domain.com-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent domain.com and Windows mobile changing default text sizes */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in domain.com Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			#bodyCell{padding:10px;}
+			#templateContainer{width:645px;}
+			body, #bodyTable{ background-color:#FFFFFF;}
+			#bodyCell{ border-top:4px solid #BBBBBB;}
+			#templateContainer{ border:none;}
+			h1{ color:#202020 !important; display:block; font-family:Helvetica, Arial; font-size:24px; font-style:normal; font-weight:bold; line-height:100%; letter-spacing:normal; text-transform: none; margin-top:4px; margin-right:0; margin-bottom:5px; margin-left:0; text-align:left;}
+			h2{ color:#404040 !important; display:block; font-family:Helvetica, Arial; font-size:20px; font-style:normal; font-weight:bold; line-height:100%; letter-spacing:normal; margin-top:0; margin-right:0; margin-bottom:10px; margin-left:0; text-align:left;}
+			h3{ color:#606060 !important; display:block; font-family:Helvetica, Arial; font-size:16px; font-style:italic; font-weight:normal; line-height:100%; letter-spacing:normal; margin-top:0; margin-right:0; margin-bottom:10px; margin-left:0; text-align:left;}
+			h4{ color:#808080 !important; display:block; font-family:Helvetica, Arial; font-size:14px; font-style:italic; font-weight:normal; line-height:100%; letter-spacing:normal; margin-top:0; margin-right:0; margin-bottom:10px; margin-left:0; text-align:left;}
+			h6{ color:#999999 !important; display:block; font-family:Helvetica, Arial; font-size:9px; font-style:normal; font-weight:normal; line-height:100%; letter-spacing:normal; margin-top:15px; margin-right:0; margin-bottom:5px; margin-left:0; text-align:left;}
+      h6 a{ color: #0066cc;
+    font-size: 11px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;}
+
+			/* ========== Header Styles ========== */
+
+			#templatePreheader{ background-color:#FFFFFF; border:1px solid #E0E0E0; border-top:3px solid #081f65;}
+			.preheaderContent{ color:#808080; font-family:Helvetica, Arial; font-size:10px; line-height:125%; text-align:center;}
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{ color:#606060; font-weight:normal; text-decoration:none;}
+
+
+
+			#templateHeader{ background-color:#FFFFFF; border:1px solid #E0E0E0; border-top: 0px;}
+			.headerContent{ color:#333333; font-family:Helvetica, Arial; font-size:20px; font-weight:bold; line-height:100%; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; text-align:center; vertical-align:middle;}
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{ color:#0066cc; font-weight:normal; text-decoration:none;}
+
+			/* ========== Body Styles ========== */
+
+			.templateBody{ background-color:#FFFFFF; border:1px solid #E0E0E0;}
+			.bodyContent{ color:#333333; font-family:Helvetica, Arial; font-size:14px; line-height:120%; padding-top:10px; padding-right:10px; padding-bottom:10px; padding-left:10px; text-align:left;}
+			.articleCol { padding-right: 0px;}
+            .articleText {width:423px;}
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{ color:#0066cc; font-weight:normal; font-size:11px; text-decoration:none; text-transform:none;}
+			.bodyContent img{ display:inline; height:auto; min-width:50px; }
+
+			/* ========== Footer Styles ========== */
+			#templateFooter{ background-color:#FFFFFF; border-top:1px solid #FFFFFF;}
+			.footerContent{ color: #808080; font-family: Helvetica,Arial; font-size: 10px; line-height: 150%; padding: 20px 0 20px 0; text-align: left;}
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{ color:#1155cc; font-weight:normal; text-decoration:none;}
+			a[href^="tel"], a[href^="sms"] { text-decoration: none; color: #1155cc; pointer-events: none; cursor: default;}
+			.mobile_link, .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] { text-decoration: default; color: #1155cc !important; pointer-events: auto; cursor: default;}
+
+
+
+
+														SUBSCRIBE       
+                            JOBS       
+                            EVENTS
+
+
+
+                                                        Find us on:
+
+
+
+												20 NOVEMBER 2015 
+
+
+
+                                                    Does Bill Cosby need a more digitally savvy PR team?                                                    
+
+
+
+
+                                                      Sex scandals are not a good time to be asking the public to create memes about you.                                                      
+                                                      » More
+
+
+
+                                            BREAKING NEWS
+
+
+
+                                                Top 10 most loved brands on social media last month
+
+
+
+                                                Viber moves into social networking space
+
+
+
+                                                Natixis Global Asset Management launches new campaign
+
+
+
+                                NEWSLETTER CONTINUES AFTER THE AD
+
+
+
+                                                Pizza Hut makes global brand revamp
+
+
+
+                                                The logo and digital experience will be revamped, said Pizza Hut. More here.                                                
+
+                                                Lessons from Uber senior VP’s “off the record” rant
+
+
+
+                                                What senior executives can learn from the PR crisis surrounding Uber senior VP Emil Michael's blunder over dinner about the idea of hiring researchers to dig up dirt about journalists.                                                
+
+                                                Is engagement our last hope?
+
+
+
+                                                "While as creative agencies, we’ve conveniently ignored the science in marketing led by ‘Big Data’ rants for the longest time, we’ve not been able to wish it away."                                                
+
+
+
+
+                                NEWSLETTER CONTINUES AFTER THE AD
+
+
+
+                                                DBS’ SG$25 million regional brand campaign
+
+
+
+                                                The campaign was created with the help of recently appointed agency R/GA.                                                
+
+                                                9GAG’s Ray Chan on content marketing
+
+
+
+                                                9GAG co-founder Ray Chan shares how content marketing should be about entertaining and building up a relationship with users rather than done for the sole aim of generating sales.                                                
+
+                                                The new age of data-driven PR
+
+
+
+                                                How PR is evolving inside IBM. Jojo Cheung, director of marketing & communications, IBM ASEAN writes.                                                
+
+
+
+
+                                            	Copyright © 2015 Lighthouse Independent Media 
+												Pte Ltd
+                                            	100C Pasir Panjang Road #05-01, See Hoy Chan Hub 
+                                            	Singapore 118519 
+                                            	Tel: +65 6423 0329 
+                                            	Fax: +65 6423 0117 
+                                            	All Rights Reserved.
+
+
+
+                                            	Sent to user@domain.com
+                                                To subscribe, please click 
+												here. 
+                                                To unsubscribe, please click 
+                                                                        here.                                                   
+                                                                        This is a computer generated email, please do not reply to it. If you have any enquiries, please email
+												user@domain.com
+
+

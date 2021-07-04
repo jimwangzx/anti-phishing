@@ -1,0 +1,54 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id 3BB834687E
+	for <user@domain.com>; Mon, 12 Jan 2015 20:36:31 -0500 (EST)
+X-Greylist: delayed 4701 seconds by postgrey-1.27 at domain.com; Mon, 12 Jan 2015 20:36:31 EST
+Received: from epo-int2.asu.edu (epo-int2.asu.edu [129.219.187.21])
+	by domain.com (Postfix) with ESMTP id 28807131F747
+	for <user@domain.com>; Mon, 12 Jan 2015 20:36:31 -0500 (EST)
+Received: from exhub1.asurite.ad.asu.edu (exhub1.asurite.ad.asu.edu [129.219.103.59])
+	by epo-int2.asu.edu (Switch-3.1.8/Switch-3.1.7/asu-postoffice-prod) with ESMTP id n0CN7AU5010606
+	(version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=FAIL);
+	Mon, 12 Jan 2015 16:11:20 -0700
+Received: from EX03.asurite.ad.asu.edu (129.219.12.197) by
+ exhub1.asurite.ad.asu.edu (129.219.103.59) with Microsoft SMTP Server id
+ 8.1.336.2; Mon, 12 Jan 2015 16:11:09 -0700
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-Class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Subject: You have exceeded the storage domain.com for your mailbox
+Date: Mon, 12 Jan 2015 16:11:06 -0700
+Message-ID: <user@domain.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: You have exceeded the storage domain.com for your mailbox
+Thread-Index: Acl1CwOKiJqyX647QCmKUOx85DCT9Q
+From: Kate Duncan <Kate.Duncan@asu.edu>
+To: Undisclosed recipients:;
+X-Virus-Scanned: by amavisd-new
+Content-Length: 667
+Lines: 15
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 950
+
+Your mailbox has exceeded the storage domain.com set by your administrator. 
+You may not be able to send or receive new mail until your mailbox size 
+is increased by your system administrator. You are required to contact 
+your system administrator through e-mail with your Username:{ } and 
+Password:{ } to increase your storage domain.com.
+
+System Administrator
+E-mail: user@domain.com
+
+You will continue to receive this warning message periodically if your 
+inbox size continues to exceed its size domain.com.
+
+This email is intended only for the use of the individual or entity to 
+which it is addressed and contains information that is privileged and 
+confidential.

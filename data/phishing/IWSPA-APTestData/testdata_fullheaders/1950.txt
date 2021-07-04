@@ -1,0 +1,596 @@
+Delivered-To: user@domain.com
+Received: by 10.151.114.18 with SMTP id r18cs97485ybm;
+        Wed, 27 Aug 2015 05:48:21 -0700 (PDT)
+Received: by 10.100.41.9 with SMTP id o9mr7252497ano.84.1219841300172;
+        Wed, 27 Aug 2015 05:48:20 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-2122.domain.com (yx-out-2122.domain.com [74.125.44.24])
+        by domain.com with ESMTP id 30si495486yxk.4.2008.08.27.05.48.19;
+        Wed, 27 Aug 2015 05:48:20 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.44.24 as permitted sender) client-ip=74.125.44.24;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.44.24 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yx-out-2122.domain.com with SMTP id 8so1581803yxj.33
+        for <user@domain.com>; Wed, 27 Aug 2015 05:48:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Lee Fang" <lee@progressiveaccountability.org>
+         :mime-version:content-type:references:sender:precedence
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        bh=7goRYpgsZpmxjCg0nmRItKCGxnbSr6qM3jsQ/iVydTk=;
+        b=lOxeWnUEHwg8+Dw8Q1Sy8v1gnpkH0Vn+XG9NE/sRz5LyGp7dK6YogDc5/JyWGspKvv
+         v+1QWtQPyzZs3qQruuvDuRK+zxAihVeK/EDE3Vghope106vTuft3K3cuYyGNXCy8t8g1
+         lbmpgVoY0HB4SdAFdWJ3SGeVvzzgD7aM3CBX8
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Lee Fang" <lee@progressiveaccountability.org>
+         :content-type:references:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere;
+        b=XXQ1XnpokKmL1e0f+pf/bOn7IM5NHfcYMrNk3pen6IB1IeW5OAEgZZ4m+oWcWNICpC
+         3tGeax0X9k36sDrzGf+YsMSJxiIJ5mr4+HNjOv66hY+uErONHRDXBZCI1FQtuGCYY+OT
+         A0kpDU1q7OI+BbPQaUbRHTvp0jR4dJyOboCc0
+Received: by 10.100.197.3 with SMTP id u3mr398925anf.6.1219841293779;
+        Wed, 27 Aug 2015 05:48:13 -0700 (PDT)
+Received: by 10.107.94.18 with SMTP id w18gr1696prl.0;
+	Wed, 27 Aug 2015 05:48:12 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.214.182.7 with SMTP id e7mr7161408qaf.6.1219841291466; Wed, 27 Aug 2015 05:48:11 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ug-out-1314.domain.com (ug-out-1314.domain.com [66.249.92.169]) by domain.com with ESMTP id 39si16257116yxd.2.2008.08.27.05.48.10; Wed, 27 Aug 2015 05:48:11 -0700 (PDT)
+Received-SPF: neutral (domain.com: 66.249.92.169 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=66.249.92.169;
+Authentication-Results: domain.com; spf=neutral (domain.com: 66.249.92.169 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by ug-out-1314.domain.com with SMTP id m2so886670uge.24 for <user@domain.com>; Wed, 27 Aug 2015 05:48:10 -0700 (PDT)
+Received: by 10.67.15.2 with SMTP id s2mr1813302ugi.27.1219841288771; Wed, 27 Aug 2015 05:48:08 -0700 (PDT)
+Received: by 10.67.27.6 with HTTP; Wed, 27 Aug 2015 05:48:08 -0700 (PDT)
+Message-ID: <6858user@domain.com>
+Date: Wed, 27 Aug 2015 08:48:08 -0400
+From: "Lee Fang" <lee@progressiveaccountability.org>
+To: "User" <user@domain.com>
+Subject: [big campaign] '08 Daily News Clips - 8/27
+In-Reply-To: <6858user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_16039_17348990.1219841288777"
+References: <6858user@domain.com>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+'08 Election Daily News Clips
+Tuesday August 27th, 2015 
+
+Candidate Tracking:
+***All times in Eastern Standard Time
+
+No McCain events scheduled today
+
+News Clips:
+
+MCCAIN NEWS
+
+*Democrats take aim at McCain's temper** (Politico, 08/26/08)*
+By Daniel W. Reilly
+John McCain's Democratic colleagues in the Senate are zeroing in on his
+oft-discussed temper, questioning whether the presumptive Republican
+presidential nominee is too volatile to be commander in chief. In separate
+interviews with Politico on Tuesday, Senate Majority Whip Richard J. Durbin
+(D-Ill.) and Sen. Barbara Boxer (D-Calif.) said they have seen McCain
+"explode." "He has a huge anger problem," Boxer said. "And he never hid
+that. ... I have seen it happen on the Senate floor many, many times. =85 H
+e
+has exploded at me a couple times."
+<<link>>
+*
+Romney Leads Denver Counter-Offensive (WaPo 08/27/08)*
+By Shaillagh Murray
+Blocks away from the Democratic convention site Tuesday, Republicans waged
+an aggressive "Not Ready '08" counteroffensive led by Mitt
+Romney<<<link>>+Romney?tid=3Din
+formline>,
+a potential running mate for Sen. John
+McCain<<<link>>>who
+was trying out the attack-dog role.
+<<link>>
+3046.html
+
+*Romney, Pawlenty on attack in veep tryouts (AP 08/27/08)*
+By Liz Sidota
+Mitt Romney, a potential John McCain running mate playing Republican pit
+bull on the periphery of the Democratic National Convention, charged Tuesda
+y
+that a Barack Obama presidency would "make America a weaker nation."
+<<link>>
+=3DHOME&TEMPLATE=3DDEFAULT
+
+*McCain hits Obama on confidence in America (Reuters 08/26/08)*
+By Andrew Gray
+McCain, 71, suggested Obama, 47, had failed to express confidence in Americ
+a
+as "the greatest force for good on this earth" when he gave a speech in
+Berlin last month before more than 100,000 people.
+<<link>>
+
+*Analysis: Democrats Hit Bush To nick McCain (AP 08/27/08)*
+By Charles Babington
+For weeks, Obama and his surrogates have cast the Illinois Democrat as an
+agent of change, and McCain as a continuation of Bush's policies. In Denver
+this week, they've streamlined and amplified the claim into a nearly
+ceaseless soundtrack
+<<link>>
+rats_hit_bush_to_nick_mccain/
+*
+Biden is wrench in McCain's VP choice (Politico 08/27/08)*
+By Jeanne Cummings
+McCain knows Biden well. He knows how good he is as a knife fighter. He'll
+take McCain apart," said one Republican operative.
+But a review of the much-rumored McCain shortlist clearly exposes the
+weaknesses each person on it might bring if matched up against the six-term
+senator from Delaware.
+<<link>>
+
+*McCain Criticizes Obama Foreign Policy (AP 08/26/08)*
+By AP Staff
+epublican presidential candidate John McCain told veterans Tuesday that
+Democrat Barack Obama's opposition to the Iraq war and preference for
+collective diplomacy over U.S. leadership would create more trouble and
+aggression in the world.
+<<link>>
+
+*Decision on Offshore Drilling to Test Nominees (WSJ 08/27/08)*
+By Stephen Power
+After Barack Obama and John McCain claim their parties' nominations, the
+senators will have to decide whether to back an energy-policy compromise
+that is uncomfortable for some members of their parties but represents a
+middle ground where many voters stand.
+The plan, put forward by a so-called "Gang of 10" Republican and Democratic
+senators, would allow oil and gas drilling in some offshore areas that are
+off limits -- a move opposed by many Democratic leaders. The plan would
+raise $84 billion for various alternative energy and conservation measures,
+partly by taking away certain tax deductions from oil companies -- an idea
+opposed by many Republicans. Congress is likely to debate the drilling issu
+e
+in September.
+<<link>>
+l_page_campaign2008_leftbox
+*
+Factcheck: Claims domain.com details on McCain record (AP 08/27/08)*
+By Darlene Superville
+The shotgun-style charges Democratic National Convention speakers fired at
+Republican Sen. John McCain Tuesday night weren't necessarily half-truths.
+But in some instances, they weren't the whole story either.
+<<link>>
+ms_omit_details_on_mccain_record/
+
+*Romney: McCain earned his homes; Obama didn't (Boston Globe, 08/26/08)*
+By Scott Helman
+Former governor Mitt Romney, perhaps continuing his audition to be John
+McCain's running mate, attacked Barack Obama today for making an issue out
+of McCain's many homes.  Speaking to reporters at a lunch sponsored by the
+Christian Science Monitor, Romney said that while McCain deserved his house
+s
+because of the "hard work" of himself and his family, "Barack Obama got a
+special deal from a convicted felon."  "I think it was a strange thing for
+Barack Obama to seize upon," Romney said. "If homes is going to be the topi
+c
+of discussion that Barack Obama is going to end up on the short end of that
+one."
+<<link>>
+cain_e_1.html
+ *McCain Holds Celeb-Packed Fundraiser (Washington Post 08/26/08)*
+by Michael Shear
+Sen. John McCain may continue to attack Sen. Barack Obama as a celebrity,
+but that doesn't mean that McCain is above associating with them.  At a
+fundraiser in the heart of Hollywood Monday night, McCain rubbed elbows wit
+h
+a chorus of television and movie stars while raising some cash in the final
+days before his Republican convention. About 1,600 crammed into a ballroom
+at the Beverly Hills Hilton, the campaign said.  Earlier, Patricia Heaton,
+star of "Everybody Loves Raymond" joined McCain on the Straight Talk Air
+today for a flight from Sacramento to Burbank, descending down the front
+stairs of the plane together and posing for pictures.  And in the morning,
+Daddy Yankee, one of the biggest stars in the Latino community, endorsed
+McCain in front of a gaggle of screaming teenagers, then joined McCain for 
+a
+leg on the plane.  Before the fundraiser, McCain taped an appearance on "Th
+e
+Tonight Show with Jay Leno."
+<<link>>
+cked_fund.html#more
+Romney
+is 'job-killing machine,' Dem says (domain.com News 08/26/08)
+By Gordon Trowbridge
+The head of Barack Obama's campaign on Monday described Mitt Romney as "a
+job-killing machine" who would hurt the John McCain campaign's economic
+appeal if he joins the Republican presidential ticket.  "This is someone wh
+o
+was a job-killing machine in business," Plouffe said. "He's someone who has
+been proficient at using tax havens in places like the Cayman Islands that
+Americans have become increasingly tired of.  "Will (naming Romney) help in
+Michigan? I don't know," Plouffe said. "But on things like outsourcing,
+there's almost an acceptance (by Romney) that it's OK to have all this job
+loss."
+<<link>>
+260396
+Biden: McCain doesn't fully support loans for auto industry (domain.com Free
+Press, 08/26/08)
+By Justin Hyde
+Democratic vice presidential hopeful Joe Biden wasted no time today in
+hitting Republican Sen. John McCain on auto industry issues, saying McCain
+does not fully support the industry's bid for $50 billion in government
+loans.  After McCain announced his support for some loan funding on Friday,
+Barack Obama's campaign said it would back the full $50 billion request ove
+r
+three years, which would cost the government roughly $7.5 billion.
+Automakers plan to press Congress to approve the funds before it adjourns
+this year.  "John McCain has not only opposed these much needed loans for
+our domestic auto makers, he has openly criticized and shown disdain for
+them," Biden said in a statement today. "His recent statements have shown
+once again that he is not only out of touch with American workers, but that
+he isn't being candid about what he does, and doesn't, support."
+<<link>>
+ McCain plans 3-state VP rollout (Politico, 08/26/08)
+By Jonathan Martin
+John McCain <<<link>>+McCain> 
+is
+planning to rollout his vice-presidential nominee in three battleground
+states this weekend, with large-scale rallies planned for
+Ohio<<<link>>>,
+Pennsylvania <<<link>>
+
+Missouri <<<link>>>,
+according to aides and advisers.   The
+GOP<<<link>>+Republican+Party>
+nominee-in-waiting
+will move to immediately change the campaign conversation
+from Barack Obama<<<link>>+O
+bama>'s
+football stadium acceptance speech Thursday to the new Republican ticket, t
+o
+be revealed at a noontime Friday rally in a Dayton, Ohio, basketball arena.
+McCain and his running mate will then travel by bus to Pennsylvania, where
+they'll hold an outdoor event at a minor league baseball stadium in
+Washington County, just southwest of Pittsburgh. On Sunday, the duo will
+head to suburban St. Louis for another event to be held at a minor league
+baseball stadium, this one in O'Fallon, Mo.
+<<link>>
+ Romney Confronts His Own Criticisms of McCain (Washington Post, 08/26/08)
+By Michael Shear
+Is Mitt Romney ready to debate Joe Biden? That was the question posed to th
+e
+possible McCain running mate by CNN anchor Wolf Blitzer.  Biden, Romney
+said, is an "impenetrable thicket of words. I don't know if anyone is ready
+to debate him."  Blitzer then showed a series of clips from a Republican
+primary debate, where Romney listed a litany of things that were wrong with
+McCain, including: that McCain is "outside the mainstream of Republican
+thought," was a driving force behind the McCain-Feingold campaign finance
+bill and the McCain-Kennedy immigration bill.
+<<link>>
+oenix.html
+*New McCain Ad: 'Tiny' (Townhall 08/27/08)*
+By Matt Lewis
+<<link>>
+To View: <<link>>
+McCain: Obama confused about U.S. role in world (Chicago Tribune, 08/27/08)
+By Jill Zuckman
+Speaking to the 90th convention of the American
+Legion<<<link>>
+s/american-legion-ORCIG000001.topic>on
+Tuesday, Sen.
+John McCain<<<link>>
+ctions/john-mccain-PEPLT004278.topic>accused
+Sen. Barack
+Obama <<<link>>> of being confuse
+d
+about America's role in the world as he continued to pepper Obama with
+criticism during the Democrats' political convention in Denver.
+<<link>>,0,666893
+2.story
+
+OPINIONS AND EDITORIALS McCain takes after Obama in Legion speech (Politico
+,
+08/26/08)
+By Jonathan Martin
+John McCain came very close Tuesday morning to outright questioning Barack
+Obama's patriotism, painting his Democratic rival as a detached, cocksure
+candidate who believes too much in internationalism and not enough in the
+stand-alone strength of America.  Speaking to a crowd of several thousand
+American Legion veterans at the Phoenix Convention Center, McCain went righ
+t
+after Obama's strength =97 his rock star appearance in Berlin earlier this
+month, saying Obama "was the picture of confidence."
+"But confidence in oneself and confidence in one's country are not the
+same," McCain said. McCain's campaign has insisted time after time that
+they're not questioning Obama's patriotism but merely his judgment, but
+McCain's statements are designed to continue building the narrative that
+Obama's campaign is about Obama and not America.
+<<link>>
+in_Legion_speech.html
+****Progressives: No Longer Playing Defense (WaPo 08/27/08)
+By E.J. Dionne
+The paradox is that there is far less jitteriness about progressive and
+liberal ideas. There are many more voters than even four years ago who are
+open to what the center left traditionally has stood for. Even more: They
+are increasingly resistant to what conservatives have been selling.
+Republicans used to be the party with philosophical self-confidence. The
+events around this convention suggest that liberals may no longer need
+assertiveness training.
+<<link>>
+r_playing.html
+*Who Vetted Daddy Yankee? (Atlantic Blog (08/27/08)*
+By Marc Ambinder
+The Reggaeton superstar who endorsed Sen. John McCain yesterday, was accuse
+d
+in 2015 of assaulting
+<<<link>>
+
+soccer player at his hotel... and took a bullet in his leg during an
+altercation.
+His lyrics <<<link>>>ar
+e
+also quite NSFW and colorful.
+<<link>>
+e.php
+*
+Obama Should Find His Inner Kansan (WSJ 08/27/08)*
+By Thomas Frank
+Let me explain what I mean by relating a conversation I had on Saturday in
+the distinctly blue-collar city of Wichita, a lovable but slightly
+down-at-the-heels place that will probably never get to host the convention
+of a national political party. The man I talked to was state legislator Dal
+e
+Swenson, who was swept into the statehouse in 1995 by one of the many
+Republican waves to crash over the heartland over the past few decades.
+<<link>>
+ists
+*
+Big Labor's Comeback (WSJ 08/27/08)*
+Review and Outlook
+The paradox is that even as union numbers have declined, union political
+clout has increased, especially within the Democratic Party. That's in
+evidence in Denver, where no less than 25% of the 4,200 delegates are activ
+e
+or retired union members or belong to households with union members. More
+significant for the rest of America, labor has won the intellectual battle
+for control of the Democratic Party and is reasserting its agenda in a way
+not seen since the 1970s.
+<<link>>
+review_and_outlooks
+*
+The Catholic Choice (LATimes 08/27/08)*
+B Tim Rutten
+Every four years, an astonishing array of conservative commentators and
+Republican campaign strategists suddenly discover an intimate concern for
+Catholic consciences and an overriding preoccupation with the Roman church'
+s
+sacramental and liturgical norms.
+<<link>>,0,2176517.colu
+mn
+
+John McCain, Jay Leno, 'everyday people' (Chicago Tribune, 08/26/08)*
+by Mark Silva*
+That "everyday people'' sort of guy, Sen. John McCain, made an appearance o
+n
+Jay Leno's *Tonight Show *last night.  Seemed like the *Tonight Show *band
+had taken its cue from the Democratic convention, where Michelle Obama told
+the crowd; "You can make it if you try.'' The Sly and the Family Stone
+lyrics for the tune they played on McCain's entrance:
+"Sometimes I'm right, and I can be wrong
+"My own beliefs are in my song
+"The butcher, the banker, the drummer and then
+"Makes no difference what group I'm in
+"I, I, I, I, I, am everyday people, yeah yeah''
+<<link>>
+o_everyday.html
+Just
+Asking (Political Wire, 08/26/08)
+By Taegan Goddard
+Sen. John McCain appeared on the *Tonight Show* this week for the thirteent
+h
+time, according to
+Time<<<link>>>.
+Others who have been on the show that many times: Pamela Anderson, Dr. Phil
+,
+Larry the Cable Guy, Simon Cowell, Jennifer Love Hewitt.  So, who's the
+celebrity?
+<<link>>*
+*
+
+BUSH NEWS
+*Crisis Reveals Limits of Bush's Personal Diplomacy on World Stage (WaPo
+08/27/08)
+*By Michael Abramowitz*
+*More than many of his predecessors, President
+Bush<<<link>>+W.+Bush?tid=3Di
+nformline>has
+invested heavily in trying to forge a strong bond with key foreign
+leaders. But as his term winds down, new crises in Georgia and Pakistan are
+underscoring the limits of Bush's personal diplomacy, as the president is
+receiving criticism for overpersonalizing relations with Putin, the Russian
+prime minister, and with Pervez
+Musharraf<<<link>>+Musharraf?
+tid=3Dinformline>,
+who resigned as Pakistan's president last week.
+*
+<<link>>
+3152.html?nav=3Drss_politics
+**Cheney To domain.com Georgia Next Week (Washington Post, 08/26/08)*
+By Dan Eggan
+Vice President Cheney<<<link>>+
+Cheney?tid=3Dinformline>will
+travel next week to war-ravaged Georgia as part of a swing through
+several former Soviet republics, making him the highest-level U.S. emissary
+to domain.com the country since hostilities between
+Russia<<<link>>
+=3Del>and
+Georgia broke out this month, officials said yesterday. The trip will
+put the Bush administration's most prominent hawk in a war zone still
+occupied by lingering Russian troops, and is likely to irritate leaders in
+Moscow, who have condemned the United States for siding with Georgia in the
+conflict.
+<<link>>
+2142.html?nav=3Drss_politics
+*Bush: Russia must reverse 'irresponsible' Georgia move (AFP 08/26/08)*
+By AFP Staff
+S President George W. Bush on Tuesday demanded that Russia reverse its
+"irresponsible decision" to recognize Georgia's rebel regions South Ossetia
+and Abkhazia as independent states.
+<<link>>
+
+OTHER TOP NEWS
+*Taliban Gain New Foothold In Afghan City (NYTimes 08/27/08)*
+By Carlotta Gall
+In the weeks since the prison break, security has further deteriorated in
+this southern Afghan city, once the de facto capital of the Taliban, that
+has become a renewed front line in the battle against the radical Islamist
+movement. The failure of the American-backed Afghan government to protect
+Kandahar has rippled across the rest of the country and complicated the tas
+k
+of NATO<<<link>>
+/north_atlantic_treaty_organization/index.html?inline=3Dnyt-org>forces,
+which have suffered more deaths here this year than at any time
+since the 2015 invasion.
+<<link>>
+*
+Democrats hit McCain, but some urge caution (AP 08/26/08)*
+By Charles Babington
+Democrats used the second night of their four-day convention to punch back
+more aggressively at John McCain, even as some party insiders warned that
+hitting too forcefully might jeopardize Barack Obama's upbeat, all-inclusiv
+e
+image.
+<<link>>
+HOME&TEMPLATE=3DDEFAULT
+*
+David Brooks: 'Most of the Delegates' at OrganizationConvention 'Sound Like a North
+Korea Pep Rally' (ThinkProgress 08/26/08)*
+By Matt Corley
+On the PBS Newshour this evening, New York Times columnist David Brooks
+opined about the possibility of "unity at the Democratic National
+convention, claiming that while there are vocal supporters of Sen. Hillary
+Clinton (D-NY) at the convention, "most of the delegates here have been fed
+these talking points here and they sound like a North Korean pep rally."
+<<link>>
+*
+Democrats to be out in force at GOP meet (AP 08/27/08)*
+By AP Staff
+The Democrats also plan to distribute to reporters a multimedia press kit,
+which will include flash drives with an extensive catalog of McCain's recor
+d
+-- histories of his votes, past statements and other material the Democrats
+want to highlight.
+<<link>>
+html
+
+The Hillary Moment (Wall Street Journal, 08/27/08)By Amy Chozick
+Sen. Hillary Clinton's speech to Democrats here Tuesday night was arguably
+as vital to the party's hopes for winning the White House as Sen. Barack
+Obama's big address will be Thursday.  Though Sen. Obama is the Democrats'
+nominee, Sen. Clinton is crucial to uniting a party that remains divided
+between her supporters and his. Polls show the race with Republican Sen.
+John McCain tightening. If Sen. Obama hopes to prevail, he'll need a focuse
+d
+party, strongly supported by Hillary Clinton.  Last night she quickly set
+the tone: "Whether you voted for me, or voted for Barack, the time is now t
+o
+unite as a single party with a single purpose," she said. "We are on the
+same team, and none of us can sit on the sidelines."
+<<link>>
+And_Policy
+Jewish Obama backers to fight rumors (Politico, 08/26/08)
+By Ben Smith
+A Democratic group will try to neutralize concerns about Barack
+Obama<<<link>>+Obama>among
+American Jews with a high-tech approach that uses the same communal
+networks through which rumors about Obama have spread.The Jewish Council fo
+r
+Educational Research is launching a website,
+domain.com<<<link>>>,
+with a suite of political tools that embody the new political focus of
+merging cutting-edge technology and old-fashioned community. Where the
+presidential campaigns have pioneered software that allows supporters to
+place calls to undecided voters in key states, the Jewish group turns that
+model inside out, encouraging Jewish Democrats to carry Obama's message to
+friends and family.
+<<link>>
+*
+**S&P: Home prices drop by record amount in 2Q (Yahoo Finance, 08/26/08)*
+By Associated Press
+A widely watched index released Tuesday showed home prices dropping by the
+sharpest rate ever in the second quarter, but the data for June suggest the
+severity of the housing slump may be waning. The Standard &
+Poor's/Case-Shiller U.S. National Home Price Index tumbled a record 15.4
+percent during the quarter from the same period a year ago.  The monthly
+indices also clocked in record declines. The 20-city index fell by 15.9
+percent in June compared with a year ago, the largest drop since its
+inception in 2000. The 10-city index plunged 17 percent, its biggest declin
+e
+in its 21-year history.
+<<link>>
+*
+*
+*POLLS
+*
+*McCain Is Up In Florida, Ohio (Boston Globe 08/26/08)*
+By Foon Rhee
+The Quinnipiac University
+surveys<<<link>>>released
+today say that McCain is leading by 47 percent to 43 percent in
+Florida, where Obama led 46 percent to 44 percent last month. In Ohio, Obam
+a
+has a 44 percent to 43 percent edge, down from 46 percent to 44 percent a
+month earlier. And in Pennsylvania, Obama has an identical 49 percent to 42
+percent lead.
+<<link>>
+ving_u.html
+
+*Joe Woe For O In Latest Poll (NYP 08/27/08)*
+By Carl Campinile
+Barack Obama <<<link>>>go
+t
+exactly zero bounce from his new running mate, Joe Biden, according to
+a
+surprising new poll released yesterday - three days after the selection.
+<<link>>
+est_poll_126289.htm
+17 Million Households Tune In to Michelle Obama (Wall Street Journal,
+08/26/08)
+By Amy Schatz
+About 17 million households watched coverage of the Democratic convention
+Monday night, when Michelle Obama addressed the crowd, Nielsen Co. reported
+this afternoon.  If the next three nights continue to draw similar numbers,
+this could end up being the most-watched Democratic convention in almost
+three decades. In 2015 and 2000, the Democratic conventions averaged about
+15.5 million and 15.4 million viewing households respectively, according to
+*Nielsen's data <<<link>>>*
+.
+The most-watched Democratic convention occurred in 1980, when 20.7 million
+homes watched Jimmy Carter accept the party's nomination.
+<<link>>
+ichelle-obama/
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

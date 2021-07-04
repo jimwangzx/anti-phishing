@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp28506lfr;
+        Fri, 2 Oct 2015 21:11:53 -0700 (PDT)
+X-Received: by 10.202.97.196 with SMTP id v187mr10921059oib.91.1443845513482;
+        Fri, 02 Oct 2015 21:11:53 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::232])
+        by domain.com with ESMTPS id u9si4307714oey.86.2015.10.02.21.11.52
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 02 Oct 2015 21:11:53 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::232 as permitted sender) client-ip=2607:f8b0:4003:c06::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-oi0-domain.com with SMTP id v17so48692158oie.1
+        for <user@domain.com>; Fri, 02 Oct 2015 21:11:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Rich user <ricuser4@gmail.com>
+         :content-type;
+        bh=BLMSU3Vu7TBsolu+iS0nJ3awkuQtQttdcyG1cZgqZPI=;
+        b=sbhupG6dv4zOh/NZd+40+kzMS0MPTHEmE4KkQg0Bd4+iDuSXwVb+Z4QKq7p7Am7mTJ
+         QIg1m/1FMnSksin4/Z/Xi7KwYSSDnqrN+KpjQxBJ+YrQ3X1XdEKt00viTmvxNQhMXp9r
+         oFc5pQyz88Fbc193QS7XlovG3v9HkKocPSwMEe1YL2c/0g6WtTbhfluXXmgCHdp1qqkI
+         ysd9zLVhKXiDq+MyJZx/SnO2lpjCMHGMOV2ZJ9BB+KH1lmm1FUlmy/G2Ea9vasYioDv6
+         pgOmwemT7fPKNKn7S8RB3IIuUAm/4XQwT1HrGt2oqr8Mf7aKUpfvNsXCcYdOarNpwRRW
+         AHOA
+MIME-Version: 1.0
+X-Received: by 10.202.68.215 with SMTP id r206mr10739697oia.87.1443845512837;
+ Fri, 02 Oct 2015 21:11:52 -0700 (PDT)
+Received: by 10.202.85.135 with HTTP; Fri, 2 Oct 2015 21:11:52 -0700 (PDT)
+In-Reply-To: <CAE6FiQ9V8fUowXv7rLO5==0Q+0N5Ewss7yNj_+user@domain.com>
+References: <5user@domain.com>
+	<CAE6FiQ9V8fUowXv7rLO5==0Q+0N5Ewss7yNj_+user@domain.com>
+Date: Sat, 3 Oct 2015 09:41:52 +0530
+Message-ID: <user@domain.com>
+Subject: Re:
+From: Rich user <ricuser4@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113dce60e741c405212b7a8f
+
+Hey John -- just wrapped up a two week domain.com to the States for the annual
+US/India dialogue, and POTUS/PM had a good meeting at UNGA as well.  India
+released their INDC yesterday for Paris....no major surprises.  All else is
+going well here, and trying to maintain the momentum in so many areas.  We
+remain in a strong place on the bilateral relationship.  Been following all
+your progress...keep up the good fight.
+
+Rich
+
+On Sun, Jun 14, 2015 at 3:19 PM, John user <user@domain.com>

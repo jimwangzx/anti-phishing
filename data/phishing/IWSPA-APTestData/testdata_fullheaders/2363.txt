@@ -1,0 +1,309 @@
+Delivered-To: user@domain.com
+Received: by 10.220.98.73 with SMTP id p9cs139248vcn;
+        Fri, 11 Sep 2015 12:13:31 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.224.124.202 as permitted sender) client-ip=10.224.124.202;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.224.124.202 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.224.124.202])
+        by 10.224.124.202 with SMTP id v10mr2450982qar.4.1252696410704 (num_hops = 1);
+        Fri, 11 Sep 2015 12:13:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received:received-spf:received:dkim-signature
+         :domainkey-signature:mime-version:content-type:received:date
+         :message-id:subject:From: Tait Sye <taitsye@gmail.com>
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        bh=K80B0OkNO+DXeHAWwcBrz/7vGrjW/dqdQL/ZTcWyCS8=;
+        b=xhl1MwsRat4m2AUSiUSD5v3XrVCtkO0lBhe0zl1mQQ9108HEsjZfcyD9IV++DlzcHe
+         Xiel6wViF6/HPCBJkkars45nvvbRhHdv2+sfWSoUVChG+ZsYAp2ZpO6I892SRnH3F9AL
+         NONMfUSsBv/TWzcY2eIEBrmxUCT5wLy8Jcqsc
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :dkim-signature:domainkey-signature:mime-version:content-type:date
+         :message-id:subject:From: Tait Sye <taitsye@gmail.com>
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=ns8lI78ynaijwMLilXoxfx+T/QG7f0KzdI5ubrcZG/0j87ZSa2H2kezyma+pMdmcjy
+         jRQXz2MffaKbAmmKeH7j3j7v1x+8COFlocBx8WxKrq9p1v06Ukx4kuY7EvR7CK28w+k3
+         8XK47krHEscml6qA2JtvYmj/7HMQONxHjHuFQ
+Received: by 10.224.124.202 with SMTP id v10mr353655qar.4.1252696404469;
+        Fri, 11 Sep 2015 12:13:24 -0700 (PDT)
+Received: by 10.177.125.36 with SMTP id c36gr3453yqn.0;
+	Fri, 11 Sep 2015 12:13:17 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.204.18.137 with SMTP id w9mr10645bka.21.1252696394593; Fri, 11 Sep 2015 12:13:14 -0700 (PDT)
+Received: by 10.204.18.137 with SMTP id w9mr10644bka.21.1252696394523; Fri, 11 Sep 2015 12:13:14 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-bw0-domain.com (mail-bw0-domain.com [209.85.218.211]) by gmr-domain.com with ESMTP id 15si408004fxm.1.2009.09.11.12.13.13; Fri, 11 Sep 2015 12:13:13 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.218.211 as permitted sender) client-ip=209.85.218.211;
+Authentication-Results: gmr-domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.218.211 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by mail-bw0-domain.com with SMTP id 7so1079855bwz.35 for <user@domain.com>; Fri, 11 Sep 2015 12:13:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:date:message-id:subject :From: Tait Sye <taitsye@gmail.com>
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:From: Tait Sye <taitsye@gmail.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="00163600cfe483d1b60473521bfa"
+Received: by 10.86.41.19 with SMTP id o19mr2590028fgo.45.1252696392978; Fri,  11 Sep 2015 12:13:12 -0700 (PDT)
+Date: Fri, 11 Sep 2015 15:13:12 -0400
+Message-ID: <77user@domain.com>
+Subject: [big campaign] roundup: Abortion and Health Care Reform
+From: Tait Sye <taitsye@gmail.com>
+To: user@domain.com
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+TO: Interested Parties
+From: Tait Sye <taitsye@gmail.com>
+DATE: Sept. 11, 2015 
+RE: Abortion and Health Care Reform
+
+As a couple of media stories have noted that abortion may be the next
+=93battle=94 in health care reform, we wanted to highlight a handful of goo
+d
+articles that separate out the myths from the facts.
+
+Anti-health care reform critics are using misinformation about abortion to
+try and undermine health care reform. But, a number of independent media
+sources, including Washington Post, PolitiFact, NPR, LA Times, and Boston
+Globe, have =93factchecked=94 and rebutted these misleading attacks.
+
+*Washington Post: The Next Health Reform Myth*
+By Ruth Marcus
+<<link>>
+2960.html
+
+=93You're going to be hearing more of the same. Don't believe it. These
+inflammatory statements do a disservice to a complex issue of public policy
+:
+how, in the context of health reform, to balance the deeply felt views of
+both sides in the abortion debate=85.
+In the House, an amendment offered by Rep. Lois Capps (D-Calif.) nicely
+threads these narrow-eyed needles.
+
+With respect to private insurance, the Capps amendment makes clear that
+companies participating in the exchange cannot be required to include
+abortion coverage and that plans cannot -- contrary to Boehner's assertion
+-- discriminate against health providers that decline to provide abortions.
+
+In addition, it requires that the exchanges include at least one plan
+without abortion coverage -- relieving abortion opponents from worrying tha
+t
+their premiums would be used to pay for abortions -- and one that offers
+coverage. Although private plans could include abortion coverage, they coul
+d
+not use federal funds for that purpose. Instead, plans that choose to
+include this coverage could set aside a portion of their private premiums
+that could then be used to pay for abortion services.=94
+
+*LA Times editorial: Healthcare reform bill doesn't cover elective abortion
+s
+*
+<<link>>,0,7271055.story
+
+=93Since the Supreme Court's ruling in Roe vs. Wade, every federal health
+insurance program has become enmeshed in the debate over federal funding fo
+r
+abortion. This year's efforts to reform the healthcare system have triggere
+d
+a new tussle, with opponents of abortion claiming that the proposals would
+change the long-standing policy against using federal tax dollars to
+terminate pregnancies. But the provision that antiabortion groups find so
+objectionable would actually have the opposite effect, forcing private
+insurers to go further to fund and account for abortion coverage separately
+from federally subsidized services=85.
+
+The Capps amendment isn't a nefarious plan to promote abortions. It's a
+reasonable compromise.=94
+
+*Boston Globe: Latest myth on health reform*
+<<link>>
+1/latest_myth_on_health_reform/
+
+=93Having successfully dispatched the fictional =91death panels=92 from the
+ health
+reform legislation making its way through Congress, conservative critics ar
+e
+aiming at another mythical target in the bill: =91abortion mandates.=92
+
+Just as opponents twisted voluntary end-of-life discussions into government
+mandates for euthanasia, so too are abortion services the subject of
+confusion and disinformation=85.
+
+Finding common ground on abortion is as elusive as ever, but the House bill
+makes a good stab at it with a provision that every region in the country
+must offer insurance plans that cover abortion and plans that don=92t. That
+way, there is a choice for consumers who feel strongly about the issue=85.
+
+No one wants to see the health care overhaul founder on a single issue. But
+neither should women=92s reproductive health be compromised away in an effo
+rt
+to buy increasingly unlikely bipartisan support. The =91abortion mandate=92
+crowd will not be satisfied until the health care system eliminates a safe,
+legal, medical procedure that trusts women to make the right choices about
+their own lives.=94
+
+*Des Moines Register editorial: Don't let abortion debate derail reform*
+August 11, 2015 
+<<link>>
+ORTS09
+
+=93Mark Twain once said, =91Get your facts first, then you can distort them
+ how
+you please.=92
+
+Anti-abortion-rights groups either don't have the facts about health-care
+reform, or they're intentionally distorting them. They are opposing a
+=91public option=92 for health insurance, saying it would cover abortions. 
+The
+Associated Press quoted Douglas Johnson, legislative director for National
+Right to Life, as saying the public plan =91pays for abortion.=92
+
+Wrong=85.
+
+The truth is this: Many opponents of abortion rights won't accept anything
+other than a total ban on the medical procedure in this country - even if i
+t
+means latching on to the health-care-reform legislation to draw attention t
+o
+their agenda.
+
+The propaganda they're spreading doesn't jibe with the truth about how
+health-care reform is being crafted in Washington.=94
+
+*NPR: Abortion In The Health Care Bills: What's True?*
+<<link>>
+
+Mr. FARLEY (PolitiFact): Exactly. Studies have shown that somewhere between
+45 and 80 percent of the women who have health care coverage through their
+companies currently get abortion coverage. And so, the argument then is tha
+t
+if the government plan were to disallow that, you would essentially be
+stripping that coverage from people who already - who currently get that.
+
+MELISSA BLOCK (NPR): Well, when you put the statements that are being made
+out there through your Truth-O-Meter, as you call it on domain.com,
+where do you end up on this question of abortion and plans for heath
+insurance overhaul?
+
+Mr. FARLEY (PolitiFact): Well, we specifically looked at the question of
+whether federal tax dollars will be used to subsidize abortions. And that
+kind of language isn't in any of the versions of the plan that are kicking
+around in Congress. And specifically, the House version, with the Capps
+Amendment, states that no federal funds could be used to subsidize
+abortions. And so we ruled that false.
+
+*PolitiFact: FALSE: Boehner says Democrats' health care plan would subsidiz
+e
+abortions*
+<<link>>
+/boehner-says-democrats-health-care-plan-would-lead/
+
+=93The fact that several versions of the health care reform bill are floati
+ng
+around Congress makes it difficult to say with certainty what the final pla
+n
+will or will not include. But while it appears likely the plan would allow
+for the coverage of abortions, we don't see anything in the plans that woul
+d
+require taxpayers to foot the bill for that.
+
+In fact, in a key version of the bill =97 the one passed by the House Energ
+y
+and Commerce Committee =97 members went to great pains to include an amendm
+ent
+to ensure that federal money is not used for abortion coverage. Again,
+things could change as the health reform package works its way through
+Congress, but for now, we don't see anything to support Boehner's claim tha
+t
+taxpayers would subsidize abortions. And so we rule his statement False.=94
+
+*PolitiFact: PANTS ON FIRE: School health clinics would not provide
+abortions*
+<<link>>
+sel/school-health-clinics-would-not-provide-abortions/
+
+=93The Liberty Counsel, a conservative group, puts a different twist on tha
+t
+concern, alleging that Page 992 of the bill =91will establish school-based
+'health' clinics. Your children will be indoctrinated and your grandchildre
+n
+may be aborted!=92=85
+
+We see no language in the three main versions of the bill that would allow
+school-based clinics, which have a long history of providing basic health
+services to underprivileged students, to provide abortions. Nor would the
+clinics even be new =97 they have been around for three decades. So we rate
+the claim Pants on Fire!=94
+
+*domain.com: Surgery for Seniors vs. Abortions?*
+<<link>>
+
+=93In fact, none of the health care overhaul measures that have made it
+through the committee level in Congress say that abortion will be covered,
+and one of them explicitly says that no public funds will be used to financ
+e
+the procedure.=94
+
+***
+
+In addition, Planned Parenthood President Cecile Richards has an article on
+Huffington Post responding to the misleading attacks, and PP=92s website ha
+s a
+good myth v. reality resource document.
+
+*Huffington Post: Misleading Attacks on Women's Health*
+By Cecile Richards
+<<link>>
+50093.html
+
+The simple fact is that most women with private insurance in America alread
+y
+have access to full reproductive health care, and the vast majority of
+employment-based health plans treat abortion coverage like the rest of
+health care -- as a covered domain.com. Understandably, the vast majority of
+Americans believe that women shouldn't be worse off as a result of health
+care reform. In fact, a recent poll conducted by the Mellman Group on behal
+f
+of the National Women's Law Center found that American voters would oppose 
+a
+plan that does not include access to comprehensive reproductive health care
+,
+including abortion care -- because voters want health care decisions to be
+made by medical experts, not by members of Congress, and certainly not by
+the Family Research Council.
+
+*Planned Parenthood: Abortion Care Coverage and Health Care Reform: Getting
+the Facts Straight*
+<<link>>
+care-coverage-health-care-reform-getting-facts-straight-29733.htm
+*National Women=92s Law Center Poll showing broad support for women=92s
+reproductive health in health care reform.*
+<<link>>
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

@@ -1,0 +1,278 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp7342234lfb;
+        Wed, 30 Dec 2015 10:18:56 -0800 (PST)
+X-Received: by 10.66.141.41 with SMTP id rl9mr95187754pab.139.1451499536706;
+        Wed, 30 Dec 2015 10:18:56 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-by2-domain.com (mail-domain.com. [207.46.100.93])
+        by domain.com with ESMTPS id f20si67305433pfd.230.2015.12.30.10.18.56
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 30 Dec 2015 10:18:56 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 207.46.100.93 as permitted sender) client-ip=207.46.100.93;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 207.46.100.93 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=nature.org
+Received: from domain.com (10.141.251.31) by
+ domain.com (10.141.204.147) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Wed, 30 Dec 2015 18:18:54 +0000
+Received: from BN1AFFO11FD028.protection.gbl (2a01:111:f400:7c10::123) by
+ domain.com (2a01:111:e400:2c61::31) with Microsoft
+ SMTP Server (TLS) id 15.1.361.13 via Frontend Transport; Wed, 30 Dec 2015 
+ 18:18:53 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=mta-domain.com;domain.com; dmarc=fail action=none
+ header.from=nature.org;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.75;
+ helo=domain.com;
+Received: from domain.com (141.161.191.75) by
+ domain.com (10.58.52.88) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Wed, 30 Dec 2015 18:18:53
+ +0000
+Resent-From: The Nature Conservancy <member@nature.org>
+Received: from na01-bl2-domain.com (141.161.191.14)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Wed, 30 Dec 2015 13:18:53 -0500
+Received: from domain.com (10.255.193.26) by
+ domain.com (10.141.158.24) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Wed, 30 Dec 2015 18:18:51 +0000
+Received: from BN1AFFO11FD038.protection.gbl (2a01:111:f400:7c10::118) by
+ domain.com (2a01:111:e400:45::26) with Microsoft
+ SMTP Server (TLS) id 15.1.361.13 via Frontend Transport; Wed, 30 Dec 2015 
+ 18:18:50 +0000
+Authentication-Results: spf=pass (sender IP is 64.244.120.41)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass (signature
+ was verified) header.d=mta-domain.com;domain.com; dmarc=fail
+ action=none header.from=nature.org;
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 64.244.120.41 as permitted sender)
+ receiver=domain.com; client-ip=64.244.120.41;
+ helo=mta-domain.com;
+Received: from mta-domain.com (64.244.120.41) by
+ domain.com (10.58.52.242) with Microsoft SMTP
+ Server id 15.1.355.15 via Frontend Transport; Wed, 30 Dec 2015 18:18:50 +0000
+Received: from domain.com ([10.64.116.22])	by
+ mta-domain.com (-); Wed, 30 Dec 2015 12:18:12 -0600
+X-VirtualServer: Bulk0, mta-domain.com, 10.64.119.60
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: user@domain.com
+X-SMFBL: cG9kZXN0YUBsYXcuZ2VvcmdldG93bi5lZHU
+X-VirtualServerGroup: Bulk0
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=mta-domain.com; s=selector1; t=1451499492;
+	user@domain.com; h=From: The Nature Conservancy <member@nature.org>
+	Return-Path:Reply-To:Message-ID:X-Gateway:Organization:
+	X-campaignid:Date:MIME-Version:Content-Type; bh=wZGBjOkyvBb45qXD
+	fTkd7SwwUug=; b=QA4AyBptRR5MSY2TcRW/8nnzGE18D+7jdcsRV2IZu4fxbFhw
+	kmMftjzru6HtsxKDucQipwGaqY/e7SNLDwvz0jjmh2D55GsztxC/WkSrSFHqmsON
+	5eejDZAhXVzd85woKpg3b4FuUrPuIuf4lAOKnr34VxwjLrGz2PQPxC74nr8
+From: The Nature Conservancy <member@nature.org>
+Subject: Today Only: Your Year-End Gift will be Matched!
+To: John user <user@domain.com>
+X-MailingID: 00000::Bulk::e4d7cb1f-11d3-418c-a683-4e8f0beb2fff::dbe7455b-af55-4792-bd98-c7ab3712152c::4250277_116254_1316_E-mail-2::0
+Return-Path: user@domain.com
+Reply-To: The Nature Conservancy <user@domain.com>
+Message-ID: <8368864user@domain.com>
+X-Gateway: poola1
+Organization: The Nature Conservancy
+X-campaignid: Convio-poola-tnc-133107
+Date: Wed, 30 Dec 2015 12:18:49 -0600
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="NextPart_ac61e6a6_e6ec_4477_83a4_e9bc012ccfed"
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1AFFO11FD038;1:8TqBv47Wbwvp9DNM/5QDRhV0RDZBxJOEZT88azup2cx/PuSvJxZMsM5vQ7dOo2ADVDnpDvKjFGKmJikH1JqOG8WSoI+AvDr/Eeb1eTSbBNHw2/2HuCRp7wplS9s1jenE0raDxpV4SkXl+ObwB1GxcfB0VtAiqxifArW6HW9X6gtJHl19P0bn+na2kFNPz9iX6+UJ+iwqREAelkb7LDsfbfP8jvVfDeiWKzWNvtBRr2lqem1QUiDVLYr543acDT4SNDZk3bYm6oEFlYxBVaZSAjr9M60hRUe203Jeg9Jsp03suOBIdshaKXVzR4LTx60uDi/BbML+uvlzJOdJrWVYQ22L01vhwZJNMsjNtJ76nyfXFwTR6qhp0ikOdPnNKKIhxAMMtPxjbfMoSdarKBRrjnGQSVQRN4VnY79s/N3lRBiaN+dJ+D/RUbugnodiD+5g
+X-Forefront-Antispam-Report-Untrusted: CIP:64.244.120.41;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31620200002)(1080300003)(2980300002)(438002)(359002)(349012);DIR:INB;SFP:;SCL:9;SRVR:DM2PR07MB559;H:mta-domain.com;FPR:;SPF:Pass;PTR:mta-domain.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;DM2PR07MB559;2:oo+dl56YTLlgRu5uRooN/bwsO11zmcjVzhaBGaGC4NzaMHHvbkhmI3dEBAhfOVaYv7UeRK0viL0HgtK5fbaJvDvQz144fZK8ezW1/ZVgdfqQE/gwRMTy8QarCKKfPlR+NPTNW9HEVe/sbWB0QE/23w==;3:Suaxbfaop3OLnqt/55PQopciNl875TKggouswDPhUgJkkwxuhAMx2roH2VWmUjRWPTshr5E9Og5u5VZoNusnvA/1LBUuZo+iS6MznuQDYQJyV8yawId7Dh6EqQhMLMapqnAw1Vxci73h8JtEl1adXiWUVz4L/D3F+b4/6NdS/FSZddyDBHtofwO1Y31so9pY2/QsoZ86nW3JSidXGi7RriMh66OBACpGGXWxeA1DYaiAcalnwrR4ouXfbQb/6JV1hCJulPeswpfxrrdDM1JkwILHizbRhSYjPPEY586UBvv+Eoa+t48SvetquJffrYjJld7vIOI7OPEyScAr6WaHlA==;25:i9qydAILhKp2XeLYmUsPM6OAdzpoQmMYHvsjnP1l4nHvWfmgK3cn2giEHJcrg/D8wqPfsltOtX/Lyl8NxLhHNIs7XG8mgDuEFYfgUk+AoT304QsGaKbp89iHjxfi8kNB9ojSWAu2m9rLNFYz1NbcUeoBtSPVnNVkERZUJ5jLEtV5c6jFV+kT3SEnjuWAPuuzIcA1kvajQCRWZYv6PbFA9FYNfcLMRZ9eJd7c2SwmWd5UaQDqGpandDjKWIZCAzsoYhQt4XkYrOGKG5QKGDbhvg
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(42139001)(3001015)(3010001)(71701003)(71702001);SRVR:DM2PR07MB559;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;DM2PR07MB559;20:0rpIhTJBMRFkg7wJNiHXjEaMROkw0dyIHRUXbx2kFmr1hpEmX3VJeEu/diH5a4cFTirs4yvgEIQOlP+0nnIV2MMNb8nlNR0vLOdAbzeih9XndBWUJ5jbggZtUQNQblERHg+tdhDLqt7rD5Q+wnQ5o3SHnNEPV0DMkwYIpzsn+23Kk9C87AHZmY8hFXZdLHl7nTAZtN+BQ80NPnK8Tq0ZV+l288i2pH+Qx/zcI0OzoJVmjFKewVbNv0Z4f3CQAXNoduTYvwqvHfAUZpHU513eliHJ2yC5pzuU18ZCa8E7q4pQMECLiTnn50lPUwn7PMY60CY50LXvqGYXq1ol0oBAJ83/1ovtj4pTAKZUTPSawVmDyhbn8PaSrEZUPTXYVVs+dNmD1LzlEts9Ff5/HybyNFfdJap3eMS2fZPCYxUS0jI=;4:BWqdWrQZKme4YRTFMWFEYOSsOjEcy/eYLeuaDIMeuiCqOTKPml1jA4ZZbvOAyQ9K9k63WkmSdrHTLh3sX0DbyRz50b3OOED0kUAYpk+wcrt3YfUiUQTHj8khMyoILTlc+QImZ9VRV2IIw5Sti3GZ1VFhWOsd//JiizB3SVv1YPHI4agSl+1QU9vCdeGcL48Kn13Ai44B55fB99grooJ3sQ6G5/4FoCgA2diWBSKlJHZs/HU4X6Q34hQVDOvZ2eOWZS7F4BFoIca76WGoAKvNsbm2ebGEx6L1j9W5Dji+TY9usABtiTYwwYcqho7q1NH+SRqvI/TNi7xUcUCsevzmnvl3i7h6z/Y1IMf9soeoQ2CGoU8hdN0txSf7UTB+a3Vb
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(8121501046)(520078)(3002001)(10201501046);SRVR:DM2PR07MB559;BCL:6;PCL:0;RULEID:;SRVR:DM2PR07MB559;BCL:4;PCL:0;RULEID:(601004)(2401047)(8121501046)(520078)(5005006)(3002001)(10201501046);SRVR:BLUPR07MB530;BCL:4;PCL:0;RULEID:;SRVR:BLUPR07MB530;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;DM2PR07MB559;23:Qut6+KBFG9rCzCjijsdWbwtJTiCDOoVkKtluB+YKlSlhNG68icvsDJrpcs9b88KjD2GbZmLdx4Wsk/6/q1Co+8uw1pyemwKYrBIn+fgqJyTOjDiQlNxNP6GnOKs+0VNrp0eL61BtWK8epk2oAF1JPyUvAUYIY5i0olxVbRMVGM7cW1vgWREtedrkV0rcRhCJ/iaJX2HuQlT2F+b5KIePVCEB6yyCbeDN1vhj1aivoVuZ6E/3fG0rGBXenkJ3CpVWj87wxb1o4+detvvklEtgZYZ8+Lj7M46WAK4Cy4smMI2XaOYQl+TxSkIk1PqANbK+ERFKMUKn1cZNrwOKWQXUnA==;5:iqq8S6MPX5SY4urEJycpeiootq/FANW0OqoLQeDovA8U68X6zlRDY7W6cgx7s1YPtD5uDHrFKxlPl+5+D3LGsOOVM7ot52OIV2vRdIbs0szYz0VIEQDdyrlOaBc6fBh/Cz7T/8Z7784v6BhoYQQGrg==;24:RkRTpjMrM7OHETnXT6BJTBTH8ceP1bP90+MIO7b3474r9Zd+6/wkSi3wnLhhJjZmoBpes71KU9IJBK46yjyzZw
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM2PR07MB559
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD028.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD028;1:TWgbel5hXjbSjWTmjHWPWY5s4BUK6Gr+ewbOHhi5748TGgvwyhW7T5swRFIOpn2HaDH1cju0/+xXh+lzqcSRbI3LqN6u3+UkWht9Ll2yyVIO0p4p5i4/5/oLiNiJnglrs7kaqhZOE/HVCN9WWpHA+XV33njHYH3c4FaXx82pTt9lI2UE0QsYp2ZSSt9C0dKBZV/Nn2Pt2uYIDQ0cdLPTFqGq/Si8EUVqJt/AnNLlwA1P4bphW5lvXm+662rA9RxWe6tOrOqnGGoojJ7ihrTfV92J5dP96htYTto6w4CDnxO0JW1GA/wRtngDxJNa2Tb68sIcIH3FRrQM5TLOeyW3FG1jNpTI7Bq47vYEHuGd346nIlWg15yV7EAW+QD8qZdHn7seutE8tMaY5yh2p5vW9phghQsHLSfiWLGLw4iqWxs
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1080300003)(1110001)(1109001)(339900001)(189002)(199003)(110136002)(4290100001)(15975445007)(97736004)(575784001)(15187005004)(105606002)(106466001)(1600100001)(19617315012)(4001450100002)(19618635001)(18206015028)(50986999)(18926405002)(84326002)(110466001)(229853001)(36756003)(19627405001)(75432002)(33646002)(450100001)(512874002)(85426001)(87936001)(2171001)(24736003)(1220700001)(5002220100002)(104016004)(53806999)(5008740100001)(960300001)(81156007)(606003)(1096002)(107886002)(54356999)(956001)(19580395003)(116076001)(19622755009)(5001960100002)(11100500001)(77096005)(18926415007)(6806005)(88552001)(43066003)(108616004)(551544002)(226693001)(7099028)(42882005)(17308445002);DIR:OUT;SFP:1101;SCL:1;SRVR:BLUPR07MB530;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB530;2:ujNouolouKc1+IvdP4pNuZbwAk5Yku53+W/xpMsIkHsvM6Sx409PMBuMEfiSBQngElT9BlYM6aW9yfISBHF/frTuIcYCEsHHnakoygeu87Rf+3VUgZT5gfwdJmwT59BC4UMTWt6lG5x0UWET/8f22w==;3:0RtraED+1W5jX2WtqhJFtgLobzgFC/dUuBu36wlex5lWRwdO8Xj5fv03f+tSkQaVmD+W4a1UM/wkUHjX9p/ayROcjMmscg9t8hGvYi3HFygYslOP+Vtafj5Lq/g9UyQ8O+VydPN3hIPj5Yhg0ZXcjFH58LUz0lcG5sqtw5GrYUyMHZBdNPDlLSVzyLCnrLr7B3wxGRDMFpnAc7EjtdPzj9hsqOOrhumDZum9CKHTp0zHlNDgAdh7XsqPasqf1Avg238ehSGe+C5gq+x3qYdFAg==;25:0MZpVdpO//1M3WwD9HPS4whsMTpokTJ/ox5YvZQVUbUsfTr3tGwQqzt+jA2Ou5ihJzXQFrVrS8sQzInVUCwUXSHpw7PsYRE05bXYU65BIgMlHJCUfWscQuUldzxt4Qd/Ef49sTs/R9BCGMGakbw03/V9EQkrcVjkEwTnBZWK95A0CYewHxcwBNV3E6Cw6FZCEJpx6Ji7247Zb1On2udJoYUYcguOKkgfa0ItMdgSu+m1Jw3mUT8tngZYg1O5DpULIyrKoGaWpz+SMcIocOQVBg
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:;BCL:4;PCL:0;RULEID:(42139001)(3002015);SRVR:BLUPR07MB530;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB530;20:i/X2XDF4Kl1Mjg/TNFKgjcQJ3GnC4ZqJZ+M2JEdYtRtQEGWPoyIXO7gGv7WfYsB3b7UogT381QRFUCltBmr1rDizQXFkkpJ8bHzwWiGCBa1ezWaZNuuPFOX/4be+RakJ2n3Fm4lCBcuMkuG6mm+AmA2Jnl7gNxIhHPyh1wQ/sxrjou8+lv8PLsu7cvZowK1veK3qxdLK6NbBDDGf9r8+d6H/9e3wmBYcsBE+P/YmvrggKE6QErkqgBqGajeOpQeHj8UeWR3fkjnbTzraMeLSJJY56ZhHpOOVwquXGnqvXGpSasi9BanYJ2epNabo58YDFvv9RZPjC0JSf3G/gca48ov0yA3M+pj00trcyjuLCs39rUiA9YKLmzIe/5yF81inN51e3OntICOfdx31nqOTg6Nx7VmF5o4AzHwk963B4S4=;4:4S8oo0hh9hVpbyVlMpXOLJj+hhELdmXFUbvD9kaHTxCvpfQ4Vxvt8gadIhXtYf8iarjkhcYINmpL+IMSA2bu+I3mlXpOEesygzIwELeasnjJIZE/Hn3R9X80eXN/nQGkSYAlmhaEajzWUpnBcB3S4DerGdqU3nvkFx7pzPGBPZkbbyz2Q7t/DMZVDbLVH3aa+5qweuJyPd/FWxRPiLWBZ9HOS++KcnEXlfNzDWuuPUP71hX9SdqvfL8nB+RLMA70+j8SEUofzDl2hihSnyt+TxVev4TghyKD5gdsgEOHmuW6oV4ke7sQ5hx1kfAxAPO1H1LHBRe7G5MUZ/JfbNO3rOjjIRF+6AT1BDYgmoBKBWIDIZPTxUm78OcMvg7+Heuo
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 08062C429B
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BLUPR07MB530;23:LQ3Oo0gtxycdWEw+ngyUNrd41xkp09t+voLaSGmKZh?
+ =?us-ascii?Q?qpAmQ0XZL+GOh+KYmKRS5Q5gauGSC8g70KCjK6Lt9TyQ6HwuKxBtOj4Bwo0F?
+ =?us-ascii?Q?ijg8okrSz0DQcrqpf7PTnsSgZ6K3lQEKWVDfvXrqaOxMz20kCrkw32aC15Mj?
+ =?us-ascii?Q?Ysp8TEt0kSC83l7NSYvQgE6snTuvUGcJmUd1tby8sEgoZE2yn8I5XYMxDJn0?
+ =?us-ascii?Q?GIL/n007/Bg5O/1AoI0xodyZqsEz28mPDTRWjHkqNVL1jyTf1yMScOOcy72s?
+ =?us-ascii?Q?ARIIEzKL5Zv/ZmAUzy5hmPRrdhf9Vhm0c2mWTWioNceL1geiu+Eg4/AVjNA4?
+ =?us-ascii?Q?BcSyDv4dExg9SEzPI5ZWjA1qf1R5J2fERFmrlhOBITa2KqkYucP0LzDkzyw8?
+ =?us-ascii?Q?s+cKFbx4kDb6ez4O/VDcjUUjrzg7IYSnDF6XsLabMiNcAJpS9CyZaXEzzSMO?
+ =?us-ascii?Q?O3BCyfnYvLHPPge1oHlb5ZpqT8V7h+NwGsmmQ4rH8x48AQt6wVjI8olpSn7V?
+ =?us-ascii?Q?qJKRv6YQ56witQNE9y2ZbTnzlTbDglM54Q0hHdTmUsLN8ge8HONCkKz7O97J?
+ =?us-ascii?Q?HhJtH5+UTWBBDDz33q07pk+EXqcuFB7Z8U/TZZhlkbWIt8S1CKpVOUlq+H3O?
+ =?us-ascii?Q?nHHweaujlXGp8RmdGKs2egqEl0TXerI/hzd/yacO8XoEIEJDd2e6Ftxsmfqv?
+ =?us-ascii?Q?zL9LEbD+7a3vqCgKJTOiAvNf6KPk4aI/YJ8YjBtTS5KKRDxP20YRlEJejJ5+?
+ =?us-ascii?Q?AonKyMnI7IOvzBTZrFgVxpeNGaFe05zjjx515lGY9AUfw42c8bt9m6g/9GjB?
+ =?us-ascii?Q?9ikV4UG4F83caKTbDTBIucMqsYkVbymcIPszdW7+ND0ZmdnPcDLnfVpCEZUx?
+ =?us-ascii?Q?wM9/09rXb08yv3FRfg6KFsXa3SqBHTYTw+jndyi2laxKZqUsU94gmv0Lbc23?
+ =?us-ascii?Q?A9I0QgTOuxDM5tzfbC/EqTmRphlpa1ijEYiRTOQnYiNiIKIlb4Jltlaady1b?
+ =?us-ascii?Q?3XqJ8HUqrypg1eDiBIFACmUXH1AxZbhriW5K0mKe5AWZMLtkgnpPPuy2fFdu?
+ =?us-ascii?Q?WKYxqQ2qqWLFPXaYOiRMDKjF3uD5FNVUanVuLz9oY3LsTFWeW714VK7pLiDs?
+ =?us-ascii?Q?1eaHBR+vK6Bxxgce66YZokh0S95mG9Qjn+9xZZSxzCepa4cFwD8w+um/K1Gf?
+ =?us-ascii?Q?iaG4JJ6Roq7w5PlHPPqN/xH98M7AVxqIj1DIAF1k8XLqRcDoESVNqWxnyzBm?
+ =?us-ascii?Q?vEt4pDkwAjK1e90wh/usHVNZVA56/nyVnH+Ipt0AROFzVpD8zwbwBdlzBvbo?
+ =?us-ascii?Q?A3V2XQ/wzRETAOxmidnVI3PMqETfn/oxu8pOjS5nSMgo4TXClv8nvURvls1/?
+ =?us-ascii?Q?V/+OexggswCsUwhi2On3vLmPzXvN6csVBsJtQqQksITFOw3qwfWH4Hk3Ufj0?
+ =?us-ascii?Q?42EIZ4P8VZUzEfcZvl6UFSVqFIh2QyYRbYcXrV3gmyP7DK/QPc91B6O69l58?
+ =?us-ascii?Q?kQBxzXyxedmZa+DiCdaF9ZylHOxWclInClETZaQaHLlResVSE98K6utosHBb?
+ =?us-ascii?Q?8VqxFxQx2h+dC7eINUjb8GrL0iF/6RXi7sHr8troDtvVD+6dep+lRxL76ixq?
+ =?us-ascii?Q?RSemmPkpC2g4kJpP9TwHLrwL3NTsX4OZJuCsvIfAE=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB530;5:KDOv5EYZw5X9rWiaksZAFxnYJ+3m24OackbEl1h7WvcAInAdQKZmPOmVP6KIUt6pcAngeFWc8OoZStqiPRNtvZFR5wBJhYybB/SXbLJTd0mqXbfIffTh7YcBTU383xYSzbzwuq1KseBWMwrV2uZgmQ==;24:bM8A2aMme3NACkmoO0+HUR2D33d3onjm+yUAn/M7bgOveebyWKKp9cHNvkqhJ6AlVJl0cTzekBrdnuymQJDCVg/fsjOX79HqgiyshdcQg/g
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 4
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 Dec 2015 18:18:53.6757
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB530
+
+The Nature Conservancy
+
+Trouble viewing this email? Click here
+<<link>>
+
+Make Your Tax-Deductible Gift Now
+<<link>>
+
+Dear Mr. user,
+
+Today only: Make your tax-deductible gift by midnight and
+the first $20,000 will be MATCHED, dollar-for-dollar.
+<<link>>
+
+You've shown how much you care through your dedicated support of The
+Nature Conservancy over the past year, and now we're counting on
+loyal supporters like you to continue standing with us to tackle
+nature's biggest threats.
+
+There's just ONE more day to make your 2015 tax-deductible gift to
+nature, and we still haven't heard from you, John.
+
+Don't miss this opportunity to have your support doubled!
+<<link>>
+
+Your generous year-end donation will be put to work immediately to
+help with efforts like replanting millions of
+ trees, reducing harmful
+contaminants from our drinking water, and reconnecting vital wildlife
+corridors around the globe.
+
+PLUS, thanks to the extraordinary generosity of a group of anonymous
+donors, all donations today will be matched dollar-for-dollar
+up to $20,000. That means your support will go twice as far. But only
+if you give today.
+<<link>>
+
+Nature's up against some of the greatest threats of our lifetime -- we
+can't afford to domain.com to take action.
+
+Together, we need continuing working to protect and restore our
+natural world before it's too late.
+
+Please make your tax-deductible gift now.
+<<link>>
+
+Thank you for giving nature a chance to thrive today, and in the year
+ahead.
+
+With gratitude,
+Dave Strauss
+Director of Membership
+The Nature Conservancy
+
+p.s. I'm grateful to have you as a partner in every
+nature-saving initiative we take on! Help start 2015 strong -- ma
+ke
+your tax-deductible, year-end gift today to have it doubled!
+<<link>>
+
+Give by midnight and your gift will be MATCHED dollar-for-dollar!
+<<link>>
+
+Give Now
+<<link>>
+
+domain.com | <<link>>
+Where We Work | <<link>>
+How We Work | <<link>>
+Science in Action |<<link>>
+Donate | <<link>>
+Photos & Videos | <<link>>
+About Us | <<link>>
+
+Find Us On:
+
+Facebook
+<<link>>
+
+Twitter
+<<link>>
+MX8L5aaw
+
+Google+
+<<link>>
+
+Flickr
+<<link>>
+
+LinkedIn
+<<link>>
+
+Instagram
+<<link>>
+
+WeChat
+<<link>>
+
+The Nature Conservancy Holds High Charity
+Ratings
+
+Our Ratings | <<link>>
+Terms of User | <<link>>
+Privacy Statement | <<link>>
+
+Copyright =C2=A9 2015 | The Nature Conservancy
+4245 North Fairfax Drive, Suite 100,
+Arlington, Virginia 22203-1606
+
+Questions or Comments? Call us toll-free at
+(800) 628-6860
+tel:1-800-628-6860
+
+Change Email Address | <<link>>
+Request Password | <<link>>
+QAmTQ
+Unsubscribe | <<link>>

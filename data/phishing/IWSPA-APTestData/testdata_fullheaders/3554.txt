@@ -1,0 +1,85 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.9 with SMTP id o9csp88454lfi;
+        Mon, 9 Feb 2015 09:58:08 -0800 (PST)
+X-Received: by 10.202.0.204 with SMTP id 195mr11926306oia.96.1423504687445;
+        Mon, 09 Feb 2015 09:58:07 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::243])
+        by domain.com with ESMTPS id bh9si6156748obb.2.2015.02.09.09.58.06
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 09 Feb 2015 09:58:07 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::243 as permitted sender) client-ip=2607:f8b0:4003:c01::243;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::243 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ob0-domain.com with SMTP id va2so6310740obc.2
+        for <user@domain.com>; Mon, 09 Feb 2015 09:58:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Daschle Staff Reunion <daschlestaffreunion@gmail.com>
+        bh=mOedx6j7lDthW+hQ3P4ov6fZmNkMdwm5brDhl5J3m+E=;
+        b=brAcNdzq0hfWnm+dtVsTUuDtm/VQXIrwDcg8dEBQ+4v/Dmej/X4SwuxwRMruSTNjPg
+         mcxQ0F377g7AHk1l6EpVMrOP7mCsi1Rqid8aUff3+IDwz9CHMPm97QdcJhRbeDlpK3QZ
+         rFSyjjeeeqLK2/Gj2S9bv25ZU7bc+MsRC0LWQtbUPdgYiXmBLxxkYzBCQmC4zGjm/W6B
+         VcbX84hF130Rs9f2kXVHRh1Flcsp8BaMOvwJq9lIPK0qdEb/Q+qMh1+CWPtcBOCgfeE6
+         ULGPKn1i9VYW3Jg1V01y9buAa7PE/KrvJ5Jj22uc9TNKg1NbKLbsG8jpQ273d+Zdnb4X
+         6leg
+MIME-Version: 1.0
+X-Received: by 10.202.199.79 with SMTP id x76mr12195297oif.88.1423504686623;
+ Mon, 09 Feb 2015 09:58:06 -0800 (PST)
+Received: by 10.76.168.66 with HTTP; Mon, 9 Feb 2015 09:58:06 -0800 (PST)
+Date: Mon, 9 Feb 2015 12:58:06 -0500
+Message-ID: <user@domain.com>
+Subject: Daschle Staff Reunion, March 19
+From: Daschle Staff Reunion <daschlestaffreunion@gmail.com>
+To: Daschle Staff Reunion <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1134eb4c2eb1b6050eab83cb
+BCC: user@domain.com
+
+To All Former Daschle Staff:
+
+It has been ten years since most of us left the Senate, and I thought that
+was a good reason to have a reunion. I=E2=80=99ve included the details belo
+w for a
+March 19 reception in Washington, DC and hope you can join us. It would be
+great to get everyone together!
+
+*When: March 19, 2015*
+*6PM =E2=80=93 10PM *
+
+*Where: Guarisco Art Gallery (next to the Ritz Carlton entrance)*
+*1150 22nd Street NW, Washington, DC*
+
+*Click HERE to RSVP
+<<<link>>
+Fn0ECjbyZimJJkxH60i_nez4snjPN5jZr4EjyA60Q_b9XK5vhQzEdFYCpVxpIyQL0pqvPUIY8oN
+kK8KlJTJYwTS-C8GzpWcMFKwMN7oMcHBoYlU-C9mq0W3mokSXTUPOXPqlFRSE6TGEBmHk6nkG0W
+fKldyro9tP7TcP-_Dx-2weXrYPA7sjovt3S7kV_f-cr_iRes_ozkrebJ4ntrrkvgqYdC7aaqb61
+Xp97X59w8R-VSf>*
+
+Please send questions/comments to Veronica at: user@domain.com
+m
+
+And please share the invitation with other staff members you may be in
+touch with - I want to be sure we reach as many people as possible.
+
+If you are traveling to DC from out of town, please note there are a number
+of hotels near the Ritz which you could check (For example: Renaissance
+Washington
+<<<link>>
+nt-circle-hotel/>
+; Hilton Garden Inn Washington DC
+<<<link>>
+arden-inn-washington-dc-georgetown-area-WASWEGI/index.html>
+; Fairmont Washington DC <<<link>>>).
+
+Also, there is a small block of rooms reserved at the Ritz for the nights
+of March 19 and 20 at a rate of $289/night. If you=E2=80=99d like to book o
+ne of
+these rooms, please call *1 800 241 3333 <1%20800%20241%203333> *and
+request reservations for the *Daschle Group Room Block. *
+
+All the best,
+Tom

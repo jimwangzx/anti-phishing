@@ -1,0 +1,84 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.194 with SMTP id 63csp209391lfy;
+        Wed, 21 Jan 2015 16:25:00 -0800 (PST)
+X-Received: by 10.70.95.35 with SMTP id dh3mr17548324pdb.91.1421886299852;
+        Wed, 21 Jan 2015 16:24:59 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.73])
+        by domain.com with ESMTPS id y8si5774396pdm.53.2015.01.21.16.24.58
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 21 Jan 2015 16:24:59 -0800 (PST)
+Received-SPF: neutral (domain.com: 65.55.169.73 is neither permitted nor denied by domain of user@domain.com) client-ip=65.55.169.73;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 65.55.169.73 is neither permitted nor denied by domain of user@domain.com) user@domain.com
+Received: from domain.com (25.160.63.155) by
+ domain.com (25.160.125.24) with Microsoft SMTP
+ Server (TLS) id 15.1.59.20; Thu, 22 Jan 2015 00:24:56 +0000
+Received: from domain.com ([25.160.63.155]) by
+ domain.com ([25.160.63.155]) with mapi id
+ 15.01.0059.007; Thu, 22 Jan 2015 00:24:56 +0000
+From: Nick Merrill <nmerrill@hrcoffice.com>
+To: Joel Benenson <user@domain.com>
+CC: Jim Margolis <user@domain.com>, Robby Mook <user@domain.com>, 
+ John Anzalone <user@domain.com>, 
+ =?windows-1252?Q?Mandy=0D=0A_Grunwald?= <user@domain.com>, 
+ Huma Abedin <user@domain.com>, Dan Schwerin <user@domain.com>, 
+ John user <user@domain.com>, 
+ =?windows-1252?Q?Philippe=0D=0A_Reines?= <user@domain.com>, 
+ Cheryl Mills <user@domain.com>
+Subject: Too Small to Fail Tweet
+Thread-Topic: Too Small to Fail Tweet
+Thread-Index: AQHQNdnZe6CevBBQ8kWlEqZUiOTJtQ
+Date: Thu, 22 Jan 2015 00:24:56 +0000
+Message-ID: <1user@domain.com>
+References: <D0DBFD63.B0285%user@domain.com>
+ <D0DBFF7D.B02B0%user@domain.com>
+ <D0DED7F7.B82C0%user@domain.com>
+ <D0DEE574.B8393%user@domain.com>
+ <D0E2E2FA.B8878%user@domain.com>
+ <6010966user@domain.com>
+ <user@domain.com>
+ <user@domain.com>
+ <CAB5o6bZ3YAc+WLjK-GfqyXbOUFjxUUAfe8H+5user@domain.com>
+ <D0E2F15F.E7CB%user@domain.com> <D0E2F1FF.B889C%user@domain.com>
+ <0user@domain.com>,<D0E481DD.E969%user@domain.com>,<user@domain.com>,<330user@domain.com>
+In-Reply-To: <330user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [166.172.57.249]
+authentication-results: spf=none (sender IP is )
+ user@domain.com; 
+x-dmarcaction-test: None
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(3005004);SRVR:BY2PR0301MB0614;
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:;SRVR:BY2PR0301MB0614;
+x-forefront-prvs: 0464DBBBC4
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(69234005)(377454003)(24454002)(53754006)(377424004)(189002)(479174004)(199003)(11905935001)(19580405001)(33656002)(2900100001)(2950100001)(18206015028)(68736005)(15975445007)(122556002)(77156002)(40100003)(19617315012)(76176999)(19580395003)(54356999)(50986999)(102836002)(82746002)(86362001)(99286002)(83716003)(2656002)(97736003)(87936001)(46102003)(110136001)(101416001)(106356001)(93886004)(16236675004)(92566002)(105586002)(106116001)(229853001)(64706001)(36756003)(66066001)(104396002);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR0301MB0614;H:domain.com;FPR:;SPF:None;MLV:sfv;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+received-spf: None (domain.com: hrcoffice.com does not designate
+ permitted sender hosts)
+Content-Type: multipart/alternative;
+	boundary="_000_1C62A25E9943451884740F99CDB86D88hrcofficecom_"
+MIME-Version: 1.0
+X-OriginatorOrg: hrcoffice.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 22 Jan 2015 00:24:56.3688
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: cd8891aa-8599-4062-9818-7b7cb05e1dad
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR0301MB0614
+
+As an FYI, HRC is going to tweet out a link to the interview Chelsea did wi
+th Elmo for People Magazine to promote our early childhood education initia
+tive at the Foundation.  For context, the reference to HRC's singing is fro
+m a story she often tells about Chelsea asking her not to sing to her anymo
+re as a baby, which Chelsea resells in the interview.
+
+The video embedded is worth a watch too.
+
+Tweet:
+Looks like @Elmo enjoyed reading with @ChelseaClinton more than when I sang
+ to her as a baby. #tinear @2SmallToFail <<link>>
+e/article/0,,20894100,00.html
+
+On Jan 20, 2015, at 9:16 PM, Joel Benenson <user@domain.com<mailto:jben

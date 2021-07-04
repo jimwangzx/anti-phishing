@@ -1,0 +1,330 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id 7508846962
+	for <user@domain.com>; Sun,  4 Nov 2015 07:49:24 -0500 (EST)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id 7057A131FBB5
+	for <user@domain.com>; Sun,  4 Nov 2015 07:49:23 -0500 (EST)
+Received: by domain.com (Postfix)
+	id 975811B90E; Sun,  4 Nov 2015 13:48:57 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.90])
+	by domain.com (Postfix) with ESMTP id 2B8681B7F3
+	for <user@domain.com>; Sun,  4 Nov 2015 13:48:57 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 1C8F3A44
+	for <user@domain.com>; Sun,  4 Nov 2015 13:48:57 +0100 (CET)
+X-Quarantine-ID: 
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 7.576
+X-Spam-Level: *******
+X-Spam-Status: Yes, score=7.576 tagged_above=0 required=5
+	tests=[BAYES_50=0.001, DNS_FROM_RFC_ABUSE=0.2,
+	DNS_FROM_RFC_WHOIS=1.447, FORGED_MUA_OUTLOOK=4.056,
+	FORGED_RCVD_HELO=0.135, NORMAL_HTTP_TO_IP=0.175,
+	RCVD_IN_NJABL_PROXY=0.721, UNDISC_RECIPS=0.841]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id PAgfylGZ6zzm for <user@domain.com>;
+	Sun,  4 Nov 2015 13:48:46 +0100 (CET)
+Received: from server-domain.com (CPE-61-9-197-204.domain.com.au [61.9.197.204])
+	by domain.com (Postfix) with ESMTP id B63FA1B904
+	for <user@domain.com>; Sun,  4 Nov 2015 13:48:41 +0100 (CET)
+Received: from User ([24.234.161.68]) by server-domain.com with Microsoft SMTPSVC(6.0.3790.1830);
+	 Sun, 4 Nov 2015 23:13:41 +1100
+From: "Bank oF America" <service@boa.com>
+Subject: ***SPAM*** Your Bank of America alert
+Date: Sun, 4 Nov 2015 04:13:53 -0800
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <user@domain.com>
+X-OriginalArrivalTime: 04 Nov 2015 12:13:42.0250 (UTC) FILETIME=[23CF84A0:01C81EDC]
+To: undisclosed-recipients: ;
+Content-Length: 2015 
+Lines: 39
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 335
+
+Dear Customer, 
+
+- Due to recent account takeovers and unauthorized listings, Bank of America is requesting a new account verification procedure. From time to time, randomly selected accounts are placed under an advanced updating process based on merchant accounts/bank relations and on-file domain.com cards. Bank of America may also request in an email message scanned/faxed copies of one or more photoID's. Your account confirmation may go wrong if your domain.com card/bank account has expired, or if you have changed/replaced your domain.com card without letting us know about the change.
+
+Your account is not suspended, but if in 24 hours after you receive this message your account is not confirmed we will terminate your Bank of America subscription.
+
+If you received this notice and you are not an authorized Bank of America account holder, please be aware that it is in violation of Bank of America policy to represent as an Bank of america user. Such action may also be in violation of local, national, and/or international law.
+
+Bank of america is committed to assist law enforcement with any inquires related to attempts to misappropriate personal information with the intent to domain.com fraud or theft. 
+
+Information will be provided at the request of law enforcement agencies to ensure that perpetrators are prosecuted to the full extent of the law.
+
+Your ip address is stored on our server if any fraud is commited and it will be forwared to F.B.I domain.com departament.
+
+To confirm your identity with us click the link bellow: 
+
+<> 
+  For security reasons your link has been personalized ex: ip/name/name 
+
+We apologize in advance for any inconvenience this may cause you and we would like to thank you for your cooperation as we review this matter. 
+
+PLEASE BE ADVISED BANK OF AMERICA WILL NEVER SEND YOU AN HTML EMAIL ASKING YOU TO REPLAY YOUR PRIVAT INFO
+
+Respectfully,
+domain.com, Inc. 
+
+Copyright 2015 domain.com, Inc. All rights reserved. 
+Bank of America sent this e-mail to you because your Notification Preferences indicate that you want to receive information about Special Events & Promotions . Bank of America will request personal data (password, domain.com card/bank numbers) only on our home site, wich is securely encrypted with SLL.
+
+From user@domain.com  Sun Nov  4 16:45:19 2015 
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id 889234698D
+	for <user@domain.com>; Sun,  4 Nov 2015 16:45:19 -0500 (EST)
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 844E4131FBC8
+	for <user@domain.com>; Sun,  4 Nov 2015 16:45:19 -0500 (EST)
+Received: from domain.com.tw (domain.com.tw [61.60.224.2])
+	by domain.com (Postfix) with ESMTP id F2DDA6FA1C7
+	for <user@domain.com>; Sun,  4 Nov 2015 16:45:18 -0500 (EST)
+Received: from User (c-069-063-221-194.domain.com [69.63.221.194])
+	(authenticated bits=0)
+	by domain.com.tw (8.13.1/8.13.1) with ESMTP id lA4LfJX7032556;
+	Mon, 5 Nov 2015 05:41:20 +0800
+Message-Id: <200711042141.user@domain.com>
+From: "Bank oF America" <service@boa.com>
+Subject: Your Bank of America alert
+Date: Sun, 4 Nov 2015 13:47:21 -0800
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients:;
+Content-Length: 2015 
+Lines: 39
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 336
+
+Dear Customer, 
+
+- Due to recent account takeovers and unauthorized listings, Bank of America is requesting a new account verification procedure. From time to time, randomly selected accounts are placed under an advanced updating process based on merchant accounts/bank relations and on-file domain.com cards. Bank of America may also request in an email message scanned/faxed copies of one or more photoID's. Your account confirmation may go wrong if your domain.com card/bank account has expired, or if you have changed/replaced your domain.com card without letting us know about the change.
+
+Your account is not suspended, but if in 24 hours after you receive this message your account is not confirmed we will terminate your Bank of America subscription.
+
+If you received this notice and you are not an authorized Bank of America account holder, please be aware that it is in violation of Bank of America policy to represent as an Bank of america user. Such action may also be in violation of local, national, and/or international law.
+
+Bank of america is committed to assist law enforcement with any inquires related to attempts to misappropriate personal information with the intent to domain.com fraud or theft. 
+
+Information will be provided at the request of law enforcement agencies to ensure that perpetrators are prosecuted to the full extent of the law.
+
+Your ip address is stored on our server if any fraud is commited and it will be forwared to F.B.I domain.com departament.
+
+To confirm your identity with us click the link bellow: 
+
+<> 
+  For security reasons your link has been personalized ex: ip/name/name 
+
+We apologize in advance for any inconvenience this may cause you and we would like to thank you for your cooperation as we review this matter. 
+
+PLEASE BE ADVISED BANK OF AMERICA WILL NEVER SEND YOU AN HTML EMAIL ASKING YOU TO REPLAY YOUR PRIVAT INFO
+
+Respectfully,
+domain.com, Inc. 
+
+Copyright 2015 domain.com, Inc. All rights reserved. 
+Bank of America sent this e-mail to you because your Notification Preferences indicate that you want to receive information about Special Events & Promotions . Bank of America will request personal data (password, domain.com card/bank numbers) only on our home site, wich is securely encrypted with SLL.
+
+From user@domain.com  Sun Nov  4 18:37:58 2015 
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id A4B54469B7
+	for <user@domain.com>; Sun,  4 Nov 2015 18:37:58 -0500 (EST)
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 942CD131FB43
+	for <user@domain.com>; Sun,  4 Nov 2015 18:37:58 -0500 (EST)
+Received: from domain.com (domain.com [38.99.130.81])
+	by domain.com (Postfix) with ESMTP id 9F32E6FA1C1
+	for <user@domain.com>; Sun,  4 Nov 2015 18:37:58 -0500 (EST)
+Received: from User ([68.236.190.160] unverified) by domain.com with Microsoft SMTPSVC(5.0.2195.6713);
+	 Sun, 4 Nov 2015 18:35:43 -0500
+Reply-To: <user@domain.com>
+From: "Bank oF America" <service@boa.com>
+Subject: Important Member Service Information !
+Date: Sun, 4 Nov 2015 18:45:23 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <user@domain.com>
+X-OriginalArrivalTime: 04 Nov 2015 23:35:43.0140 (UTC) FILETIME=[6A8FCE40:01C81F3B]
+To: undisclosed-recipients:;
+Content-Length: 1407
+Lines: 27
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 337
+
+
+
+
+    Dear Customer,
+      Co-op Services domain.com Union 
+        temporarily suspended your account.
+        Reason: Billing failure.
+        We require you to complete an account update so we can unlock your account.
+
+
+
+      To 
+        start the update process click 
+        here.
+      Once you have completed 
+        the process, we will send you an email notifying
+        that your account is available again. After that you can access your account 
+        at
+        any time. 
+
+
+
+        The information provided will be treated in confidence and stored in our 
+        secure database.
+        If you fail to provide required information your account will be automatically 
+	deleted from CSCU database.
+
+
+
+        Copyright &copy; Co-op Services domain.com Union, All Rights Reserved
+
+
+
+From user@domain.com  Mon Nov  5 08:39:46 2015 
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id E09584695E
+	for <user@domain.com>; Mon,  5 Nov 2015 08:39:46 -0500 (EST)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id 60242131FBB5
+	for <user@domain.com>; Mon,  5 Nov 2015 08:39:46 -0500 (EST)
+Received: by domain.com (Postfix)
+	id 3B99D1B8F7; Mon,  5 Nov 2015 14:39:43 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.90])
+	by domain.com (Postfix) with ESMTP id 29AD51B8F8
+	for <user@domain.com>; Mon,  5 Nov 2015 14:39:43 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 156509F4
+	for <user@domain.com>; Mon,  5 Nov 2015 14:39:43 +0100 (CET)
+X-Quarantine-ID: 
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 32.534
+X-Spam-Level: ********************************
+X-Spam-Status: Yes, score=32.534 tagged_above=0 required=5 tests=[AWL=-10.633,
+	BAYES_99=3.5, FORGED_MSGID_MSN=2.035, FORGED_MUA_THEBAT_BOUN=2.163,
+	FORGED_RCVD_HELO=0.135, FORGED_THEBAT_HTML=2.5, HTML_40_50=0.496,
+	HTML_MESSAGE=0.001, MIME_BOUND_DD_DIGITS=4.5, MIME_HTML_ONLY=0.001,
+	MIME_HTML_ONLY_MULTI=0, MISSING_MIMEOLE=1.612, MSGID_SPAM_CAPS=4.4,
+	RAZOR2_CF_RANGE_51_100=0.5, RAZOR2_CF_RANGE_E4_51_100=1.5,
+	RAZOR2_CHECK=12, RCVD_NUMERIC_HELO=1.5, REPTO_OVERQUOTE_THEBAT=2.641,
+	REPTO_QUOTE_MSN=3.249, UNPARSEABLE_RELAY=0.001, X_PRIORITY_HIGH=0.433]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id Qr0I21A4LZui for <user@domain.com>;
+	Mon,  5 Nov 2015 14:39:39 +0100 (CET)
+Received: from 67.212.162.170 (unknown [67.212.162.170])
+	by domain.com (Postfix) with SMTP id 843821B8F7
+	for <user@domain.com>; Mon,  5 Nov 2015 14:39:38 +0100 (CET)
+Received: from 114.112.210.194 by ; Sun, 04 Nov 2015 08:31:45 -0300
+Message-ID: <user@domain.com>
+From: "Bank oF America" <service@boa.com>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: ***SPAM*** domain.com Banking Account Error
+Date: Sun, 04 Nov 2015 15:33:45 +0400
+X-Mailer: The Bat! (v1.52f) Business
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--6575908248260345"
+X-Priority: 1
+X-MSMail-Priority: High
+Content-Length: 1631
+Lines: 52
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 338
+
+----6575908248260345
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859
+-1" />
+none
+<style type=3D"text/css">
+<!--
+style1 {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+-->
+
+<table width=3D"600" border=3D"0">
+
+
+
+    <p class=3D"style1">Dear Teachers domain.com Union   
+customer,
+      <p class=3D"style1">This e-mail was sent to you because we have
+        detected an error in your billing information on file with  Intern
+et Banking during
+        our regular schedule account maintenance and verification. This mi
+ght be due to either following reasons:
+      <ul type=3D"disc" class=3D"style1">
+        A recent change in your personal information (i.e. change of  
+ address). &nbsp; 
+        Submitting invalid information during the initial sign up proc
+ess. 
+        An inability to accurately verify your selected option of paym
+ent   due an internal error with our processors.
+
+
+
+      <p class=3D"style1">Click the link below and confirm your domain.com B
+anking personal information, otherwise your domain.com/ATM Card access will bec
+ome restricted:
+      <p class=3D"style1"><a rel=3D"nofollow"
+ target=3D"_blank" href=3D"<>
+et/domain.com/index.html"
+
+      <p class=3D"style1">&copy;2007 Teachers domain.com Union. All rights res
+erved.
+
+
+
+----6575908248260345

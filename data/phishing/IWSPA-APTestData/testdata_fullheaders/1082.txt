@@ -1,0 +1,73 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp7934751lfb;
+        Thu, 31 Dec 2015 12:46:18 -0800 (PST)
+X-Received: by 10.140.249.2 with SMTP id u2mr99384374qhc.53.1451594778778;
+        Thu, 31 Dec 2015 12:46:18 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [192.82.209.26])
+        by domain.com with ESMTP id w19si21203516qhw.97.2015.12.31.12.46.18
+        for <user@domain.com>;
+        Thu, 31 Dec 2015 12:46:18 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 192.82.209.26 as permitted sender) client-ip=192.82.209.26;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 192.82.209.26 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Return-Path: <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1451594777;
+	h=Sender:From: "Glenn Ivey" <glenn@iveyforcongress.com>
+	Content-Type;
+	bh=OgffEbUbyjfk3TiBxBwn2VujmZI=;
+	b=fGAHnLyXK2ryBSwJjM83BJYNLXfIm32UwfThtjaDjmwc6FKpBJsLqvA5mJBZnWXc
+	2P1hwxM+3I2AX0BT7OE2FPslG2wTqv9skTWGzHrJElQBwxd2hjrSDlREqi5U0JWZ
+	3Hw/XEjwuNOupKzomJfrehaaxXq2GDFYgJkYu5Yplzg=;
+X-MSFBL: xyJxo+O3sdM3sms4ZL+isfOiUUvjDdMV0cLEc+KMAR4=|eyJiIjoibWFpbG91dDY
+	2MiIsInUiOiJib3VuY2VfMjQwMDAwMDE0Mzk3NTM0Ml9wb2QxMiIsImciOiJkZWZ
+	hdWx0Z3JvdXAwMSIsInIiOiJqb2huLnBvZGVzdGFAZ21haWwuY29tIn0
+Received: from [10.11.74.252] ([10.11.74.252:62244] helo=NSV11OBMAIL1202)
+	by domain.com (envelope-from <user@domain.com>)
+	(ecelerity 4.2.1.51032 r(Core:4.2.1.4)) with ESMTP
+	id CA/C3-06660-81495865; Thu, 31 Dec 2015 15:46:17 -0500
+Sender: =?UTF-8?B?R2xlbm4gSXZleQ==?= <user@domain.com>
+X-Binding: default
+Reply-To: user@domain.com
+From: "Glenn Ivey" <glenn@iveyforcongress.com>
+To: "User" <user@domain.com>
+Message-ID: <user@domain.com>
+Date: Thu, 31 Dec 2015 15:46:16 -0500
+Subject: Before you head out
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----9F0EF1B1B1614BDEBC4F1D29F828DD8C"
+
+Dear John,
+
+It's about the time when most of you are grabbing your coats and headin
+g out the door to ring in 2016, but there is still time left on the clo
+ck for our last fundraising deadline of the year=2E
+
+Donate tonight by 11:59 pm for your contribution to count towards our m
+ost important FEC fundraising deadline of 2015=2E
+
+Contribute $50, $100, or $250 tonight before you ring in the New Year b
+y clicking this link - www=2Eact=2Emyngp=2Ecom/forms/570196894598129459
+2
+
+Help us celebrate the New Year by contributing as soon as possible!
+
+Thank you for your support and happy New Year
+
+Glenn
+
+---------------------------------------------
+|    Paid for by Glenn Ivey for Congress    |
+---------------------------------------------
+
+Glenn Ivey for Congress
+410 1st Street, SE
+Suite 310
+Washington DC 20003 United States
+
+If you believe you received this message in error or wish to no longer 
+receive email from us, please <<link>>
+/unsubscribe?mmid=3D-5844816257244329984&tiid=3D-5959251267094706176=2E

@@ -1,0 +1,88 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Mon, 20 Jan 2015 19:52:00 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0L3q0lp013501	for <user@domain.com>; Tue, 21 Jan 2015 
+ 03:52:00 GMT
+Received: from mail39-ch1-domain.com (mail-domain.com
+ [216.32.181.172])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s0L3px52009280
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 21 Jan 2015 03:51:59 GMT
+Received: from mail39-ch1 (localhost [127.0.0.1])	by mail39-ch1-domain.com
+ (Postfix) with ESMTP id 34BD5602D4	for <user@domain.com>; Tue, 21
+ Jan 2015 03:51:59 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.105;KIP:(null);UIP:(null);IPV:NLI;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z579ehzc545Ic89bhc857hdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1defc1h1def86h1de097h1de096h186068h172c6ch1ce120h1a691ciz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail39-ch1: domain of domain.com designates 192.64.236.105 as permitted sender) client-ip=192.64.236.105; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail39-ch1 (localhost.localdomain [127.0.0.1]) by mail39-ch1
+ (MessageSwitch) id 1390276317357350_3445; Tue, 21 Jan 2015 03:51:57 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.237])	by mail39-domain.com (Postfix) with ESMTP id 52C1F14004A
+	for <user@domain.com>; Tue, 21 Jan 2015 03:51:57 +0000 (UTC)
+Received: from mx-domain.com (192.64.236.105) by domain.com
+ (10.43.69.246) with Microsoft SMTP Server id 14.16.227.3; Tue, 21 Jan 2015 
+ 03:51:57 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1390276303;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=rlQrXatKlt7kLDfrov6lSAOn8U3LkcwhHdM3I3rplFY=;
+	b=tE+KAnNIP2ubT3u7DSY63nfTcdarO0ep9Zupimz4y1EJoSQKnYRDCPFZ7fg6o+5p
+	LwM+aUFuKYlc3AWH7aqEb4XV1wjkZhGIjBNq4/DBvnwmASy3n+2LXHQ8p06c/giIRbx
+	9qQt7xCYRXBlCGEwQIz0otlJFtDpNycywnIOZxxU
+Date: Mon, 20 Jan 2015 22:51:43 -0500
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140121035143.2366126.16736@domain.com>
+Subject: Sundance: Anne Hathaway's 'Song One' Strikes a Nerve at World
+ Premiere
+Precedence: bulk
+X-TM-ID: 20140121035143.2366126.16736
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.105
+X-IADB-IP-REVERSE: 105.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2366126
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+Sundance: Anne Hathaway's 'Song One' Strikes a Nerve at World Premiere
+
+Less than a year after winning the Oscar for "Les Miserables," Anne Hathaway is back on the bigs... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Monday, January 20, 2015        
+
+​ 
+
+<<link>> 
+
+        Sundance: Anne Hathaway's 'Song One' Strikes a Nerve at World Premiere          
+
+        Less than a year after winning the Oscar for "Les Miserables," Anne Hathaway is back on the bigscreen with another music drama --...            
+
+        Full Story              
+
+
+
+
+Subscribe to Other Variety Newsletters   
+

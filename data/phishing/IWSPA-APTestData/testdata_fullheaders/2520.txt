@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.88 with SMTP id o85csp2479335lfi;
+        Tue, 7 Jul 2015 13:59:52 -0700 (PDT)
+X-Received: by 10.202.72.4 with SMTP id v4mr5518097oia.82.1436302792258;
+        Tue, 07 Jul 2015 13:59:52 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [208.65.145.71])
+        by domain.com with ESMTPS id b188si17360108oif.31.2015.07.07.13.59.50
+        for <user@domain.com>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 07 Jul 2015 13:59:52 -0700 (PDT)
+Received-SPF: neutral (domain.com: 208.65.145.71 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=208.65.145.71;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 208.65.145.71 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: from unknown [64.74.242.122] (EHLO domain.com)
+	by domain.com(mxl_mta-8.4.0-1) over TLS secured channel
+	with ESMTP id 6cd3c955.0.526474.00-256.1466735.domain.com (envelope-from <user@domain.com>);
+	Tue, 07 Jul 2015 14:59:52 -0600 (MDT)
+X-MXL-Hash: 559c3dc803eccfce-c5a18a191f282037d2a534ff3dc48fd346b0a03d
+Received: from CESC-domain.com ([fe80::2de5:d8da:800c:9fc4]) by
+ CESC-domain.com ([fe80::2de5:d8da:800c:9fc4%14]) with mapi id
+ 14.02.0387.000; Tue, 7 Jul 2015 16:58:14 -0400
+From: Ilya Aspis <Ilya@presidentclinton.com>
+To: "User" <user@domain.com>
+Subject: 
+Thread-Index: AdC496Py1jGQUpT8RwKO2GrZobniTw
+Date: Tue, 7 Jul 2015 20:58:14 +0000
+Message-ID: <1user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Content-Type: text/plain; charset="us-ascii"
+Content-ID: <user@domain.com>
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-AnalysisOut: [v=2.1 cv=S/bNwecP c=1 sm=1 tr=0 a=lWaCaaTd1tIBQFb89xQ1Hg==]
+X-AnalysisOut: [:117 a=lWaCaaTd1tIBQFb89xQ1Hg==:17 a=kS8a_5sYAAAA:8 a=YtYA]
+X-AnalysisOut: [UljIAAAA:8 a=YlVTAMxIAAAA:8 a=BLceEmwcHowA:10 a=kj9zAlcOel]
+X-AnalysisOut: [0A:10 a=xqWC_Br6kY4A:10 a=zOBTXjUuO1YA:10 a=4ty19ZHFGr1QTv]
+X-AnalysisOut: [IK_78A:9 a=CjuIK1q_8ugA:10 a=QUt60FR7DrQA:10 a=qvMH1Fz1lFw]
+X-AnalysisOut: [A:10 a=l6DtdWTcmRgA:10 a=IP_YTW74n1QA:10 a=wvfb7SxDqMIA:10]
+X-AnalysisOut: [ a=gyFmUB2hHWIA:10]
+X-Spam: [F=0.5000000000; CM=0.500; MH=0.500(2015070710); S=0.200(2014051901)]
+X-MAIL-From: Ilya Aspis <Ilya@presidentclinton.com>
+X-SOURCE-IP: [64.74.242.122]
+
+Hi sir,
+
+What's the best # for us to reach you to connect President Clinton? I have 
+(202) 460-3847 but it doesn't appear to work.
+
+Ilya

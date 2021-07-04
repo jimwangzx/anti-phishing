@@ -1,0 +1,177 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp1657829lfr;
+        Mon, 27 Jul 2015 18:04:48 -0700 (PDT)
+X-Received: by 10.60.76.4 with SMTP id g4mr30300982oew.81.1438045488348;
+        Mon, 27 Jul 2015 18:04:48 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::236])
+        by domain.com with ESMTPS id u5si14881501oet.92.2015.07.27.18.04.47
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Jul 2015 18:04:48 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::236 as permitted sender) client-ip=2607:f8b0:4003:c01::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id op1so72755181obb.2
+        for <user@domain.com>; Mon, 27 Jul 2015 18:04:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+        bh=yL90hRXDO12HVKXYwKsHThb+gfbm957dMbuLwELv6mc=;
+        b=duOVCThJV+STBRMzGPL1AIPWcNCoByLDp5/fkin9zi3JKghIClhvHi0gl3lmwFgnOJ
+         mA8/71gNE2LBlWRBPro7XdQra13k5lcJL/HL7WGvhORXVFEC4edy7DPh9K/z8uUP3X0X
+         mSKr70WRbgYYSC8yCJo/ySSUnkN1HBMLFr73k
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :content-type;
+        bh=yL90hRXDO12HVKXYwKsHThb+gfbm957dMbuLwELv6mc=;
+        b=GSXHaFh2hLzWyvwTh+pPCICSBDiIpGd4go7HWhKTLqPSqceojYhHyUZRl2HPCmPERe
+         Ra+Aoh9a93Wt7oAYuVveef8+fjQJqjdDS+ncolv1gwHvFE2ox9wqZCLGK/uDOcH3PWjn
+         v5WOjtUu8mZRVEzQ6eTOBo7HHJGpMraGgKA+bm0tVBL9rMgCPYvpnrkey8sVBDRfUi1a
+         HgDwst6hzRoSHmSGN53kYZ+Xjb/07uA6CZ+BAhWXMlf8WSmuXbTQ1lkaOYWoTq9yV1cI
+         bjObyvAqzVMeqoX6YhdLX9VBqKMdTqVIIcocBM0iqn4Sc9PpclMKTkooG6VQjcq6uwGE
+         uuMg
+X-Gm-Message-State: ALoCoQlr+XK3y+zjlj/bOcxVfpCBZTVKkIWfv9flnNNOOLJGMyB5OKzM16D+gKu84I7aMKTHYv2P
+MIME-Version: 1.0
+X-Received: by 10.182.60.130 with SMTP id domain.com.42.1438045487362;
+ Mon, 27 Jul 2015 18:04:47 -0700 (PDT)
+Received: by 10.202.131.78 with HTTP; Mon, 27 Jul 2015 18:04:47 -0700 (PDT)
+Date: Mon, 27 Jul 2015 21:04:47 -0400
+Message-ID: <CAEMn5Qk8=5BGDCZ7-+user@domain.com>
+Subject: End of Day Roundup 7/27
+From: Milia Fisher <mfisher@hillaryclinton.com>
+To: John user <user@domain.com>
+CC: Eryn Sepp <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e01634c36720d64051be50e6b
+
+Contained herein: New missed calls/vmails/call requests; Important emails
+missed over the weekend; Reno-SFO flight options; Other FYIs.
+
+Responses required in this email? YES--several. Noted in red.
+
+---------------------------------------------------------------------
+
+2 Missed Calls / Cell Phone Voicemail:
+
+Nothing new since this morning
+
+Doug Band (I think--it was garbled at the front)
+
+Today, 10:24 am Eastern
+
+917-670-0000
+
+Totally spaced and had a house full of guests in the Hamptons this past
+weekend.  Would appreciate a call back.
+
+Congressman Frank Pallone
+
+Sunday, 5 pm Eastern
+
+Cell: 202-225-7136
+
+Sorry I missed you.
+
+4 Call Requests:
+
+C.H. Tung Call Reschedule
+
+He=E2=80=99s actually in San Francisco this entire week. He lands at noon t
+oday,
+and if you prefer not to set a time, he can be reached at Newman's US cell
+917-708-3238.  Shall we offer:
+
+   -
+
+   Between 7:30 - 9 am or just after 10:30 am Pacific tomorrow
+   -
+
+   Around lunch time on Wednesday, before the AFL-CIO call?
+
+Don=E2=80=99t want to fill your days with phone calls, so we can just look 
+to
+setting around the fringes of other calls that are already set.
+
+Brian Deese Call Request
+
+If not, please let us know what we can offer him, or we=E2=80=99ll just ask
+ them to
+hold off.
+
+Robby Mook Call Request
+
+Not urgent at all, wants to respect your vacation
+
+Cell: 802-272-8878
+
+Anna Soellner job recommendation call request, for Will Polkinghorn, CEO of
+cancer genomics start-up based in San Francisco where Anna is applying for
+a comms and partnerships position.  She=E2=80=99d appreciate it if you coul
+d set a
+call with Will and offer your recommendation.  Is this something you=E2=80
+=99re
+willing to do this week or next week? Anna emailed you about this over the
+weekend but will ping you this morning.
+
+NEW: Fred Krupp Call Request
+
+Said you agreed to set up a call later this week -- since your schedule is
+starting to look jammed with calls, when would you prefer to speak with
+Fred again?
+
+FYIs, Pings, and Emails:
+
+From Robby & Katie Dowd: We submitted asks to begin integrating / asking
+more of WJC and CVC to help support the campaign. In particular, the
+digital team / campaign wants to use WJC's birthday on the 19th of August
+to run a digital campaign to invite people to wish him happy birthday with
+an online card. Is there anything else they can do to help push the
+birthday piece with WJC? You were going to talk about it with Tina?
+
+Huma Birthday Video: Do you want to record a video for Huma=E2=80=99s birth
+day? The
+party is tomorrow at 10:30 AM PT/1:30 PM ET
+
+Heather Boushey: Resent the Cash Flow email from Friday.  She=E2=80=99d lik
+e to
+know if you need anything else from her?  Eryn spoke with her and Ed today
+-- more explicitly, they said your feedback is urgently needed for moving
+forward on an essential new hire that we are in danger of losing.
+
+China: Melanie wants to know if you=E2=80=99re done reviewing the CCIEE rem
+arks.  Do
+you need those again?
+
+Flight Options: RNO - SFO Aug 5th & 6th
+
+ADDED RETURN OPTIONS- what would you like Milia to book?
+
+OUTBOUND:
+
+$336- UNITED
+
+Dept: 10:37 am Arr: 11:51 am
+
+$336- UNITED
+
+Dept:1:26 pm Arr: 2:45 pm
+
+RETURN:
+
+$371- UNITED
+
+Dept: 4:08 pm Arr: 5:13 pm
+
+$371- UNITED
+
+Dept: 5:47 pm Arr: 6:39 pm
+
+--
+Milia Fisher
+Special Assistant to the Chair
+Hillary for America
+user@domain.com
+o: 646.854.1198 c: 858.395.1741

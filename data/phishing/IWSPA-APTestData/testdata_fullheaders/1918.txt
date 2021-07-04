@@ -1,0 +1,81 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Wed, 9 Apr 2015 12:01:11 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s39J11Ko029451	for <user@domain.com>; Wed, 9 Apr 2015 
+ 19:01:10 GMT
+Received: from mail31-am1-domain.com (mail-domain.com
+ [213.199.154.202])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s39J0OhA012103
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Wed, 9 Apr 2015 19:00:25 GMT
+Received: from mail31-am1 (localhost [127.0.0.1])	by mail31-am1-domain.com
+ (Postfix) with ESMTP id 5A554A0060	for <user@domain.com>; Wed,  9 Apr
+ 2015 19:00:38 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:198.61.254.4;KIP:(null);UIP:(null);SRV:BULK;H:so254-4.domain.com;RD:so254-4.domain.com;EFVD:NLI
+X-SpamScore: 5
+X-BigFish: vps5(z1001kzc89bhe0eahc857hzz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz1d7338h1def03h172cfch177df4h17326ah1def87h8275bh1bc7b9h1de097h186068h154cf6h172c6chz2fh5eh5fh839h8aah107ah10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h17ffh18e1h19b5h1b0ah1bd2h1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h1a94i1b0ei1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail31-am1: domain of email.withings.com designates 198.61.254.4 as permitted sender) client-ip=198.61.254.4; envelope-from=bounce+943user@domain.com; helo=so254-4.domain.com ;.domain.com ;
+Received: from mail31-am1 (localhost.localdomain [127.0.0.1]) by mail31-am1
+ (MessageSwitch) id 1397070035566929_27815; Wed,  9 Apr 2015 19:00:35 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.245])	by
+ mail31-domain.com (Postfix) with ESMTP id 84E7D3C0083	for
+ <user@domain.com>; Wed,  9 Apr 2015 19:00:35 +0000 (UTC)
+Received: from so254-4.domain.com (198.61.254.4) by domain.com
+ (10.3.207.153) with Microsoft SMTP Server id 14.16.227.3; Wed, 9 Apr 2015 
+ 19:00:34 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=email.withings.com; q=dns/txt;
+ s=mailo; t=1397070054; h=Content-Type: Mime-Version: Subject: From: Withings <community@email.withings.com>
+ Reply-To: Message-Id: Date: Sender;
+ bh=1ZsfhEoPlFxpx+bcEFL645klt1hYidEglcOBZDOAY54=; b=Q4rPGyCVEUzBjm6biaDYexzR9SGs4qrTXpEkuH+U0s0KoBHwgj+cegJIlEpYCnmI5LPgpYx2
+ 9Fk+oLF1LFxLbbpGdNXuKitdKPHDiyrWaP8su3hV/0ulEuUmf7aEMzBe2lBOiTf7PRHX871T
+ HLgfWW/ouzdDxonMtew0IfxGTtg
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=email.withings.com;
+ s=mailo; q=dns; h=Content-Type: Mime-Version: Subject: From: Withings <community@email.withings.com>
+ Reply-To: Message-Id: Date: Sender;
+ b=crp4VqiZJE1lIO6oi/cj0vbCgein97Qq6UtI/brqw62vpqdvWeRlJMMC12rF2GW/juC7i1
+ S+ROsUyxnRmdD2Ks1/Vk29LtgwpC77wBnghvYYVZRrN3Ih2gZLyUQ0NsLJ3WDhYqEbRkU2b8
+ k7Ho8csUBlwAjm20t55iH276CPahw
+Received: by domain.com with HTTP; Wed, 09 Apr 2015 18:01:28 +0000
+Subject: Listen to your heart, it says a lot about your health
+From: Withings <community@email.withings.com>
+To: <user@domain.com>
+X-Mailgun-Deliver-By: Wed, 09 Apr 2015 19:00:01 -0000
+Reply-To: Withings <user@domain.com>
+X-Mailgun-Variables: {"wdata": "{\"e\":32067}"}
+Message-ID: <20140409180128.23154.62656@email.withings.com>
+X-Mailgun-Sid: WyIzMTI2MCIsICJhbXlfcGFzY2FsQHNwZS5zb255LmNvbSIsICI2NGJkNCJd
+Date: Wed, 9 Apr 2015 19:00:54 +0000
+Sender: <user@domain.com>
+Return-Path: bounce+943user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Listen to your heart, it says a lot about your health
+
+ Withings       
+
+Turn on your well-being         
+
+ <<link>> 
+
+The next step after monitoring your weight      
+
+After weight, monitoring your BP is a key health decision. You may want to control the impact of a treatment or simply adopt a preventive approach to cardio-vascular disease. In any case you'll be surprised by the simplicity of use of our new Wireless Blood Pressure Monitor.     
+
+Discover it     
+
+
+
+
+ <<link>>   
+
+The power of self-tracking      
+
+A 2015 clinical study showed that if you self-track at home you are more likely to reach your blood pressure goal. Track your BP on a regular basis to have a complete view of your health. 
+

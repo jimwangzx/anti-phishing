@@ -1,0 +1,135 @@
+Received: from domain.com (43.130.141.77) by
+ domain.com (146.215.231.16) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Thu, 20 Nov 2015 05:37:25 -0500
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 20 Nov 2015 02:37:21 -0800
+Received: from domain.com (domain.com [160.33.194.228])
+	by domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sAKAbLaK020923	for <user@domain.com>; Thu, 20 Nov 2015 
+ 10:37:21 GMT
+Received: from na01-bn1-domain.com
+ (mail-domain.com [207.46.163.185])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sAKAbK4r013460	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 20 Nov 2015 10:37:21 GMT
+Received: from BN1BFFO11FD009.protection.gbl (10.58.144.31) by
+ BN1BFFO11HUB055.protection.gbl (10.58.144.202) with Microsoft SMTP Server
+ (TLS) id 15.1.6.13; Thu, 20 Nov 2015 10:37:14 +0000
+Received: from domain.com (64.202.167.77) by
+ domain.com (10.58.144.72) with Microsoft SMTP
+ Server id 15.1.6.13 via Frontend Transport; Thu, 20 Nov 2015 10:37:14 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=2012-1; d=domain.com;
+ h=Subject:To:Reply-To:From: beActive Books <adr@beactivemedia.com>
+ bh=7cD1VE3RGY437eqoUFDZTHopIGA=;
+ b=GNVnBXP4+MEz1L1ImvI2BYX8e0eMhV0dxo9FfW248adyq9KWw0VvNX7zCO0kFSlOACtdlVjsc1Sc
+   s5GKK1JVpw+mZZ5JRIdkmW/UTe9Aoj+/Ydt79fRcdRHZxu+G94yDo/49D2gB+4Awocgdd+92sR4/
+   mOwF1nUViXr9tGMTHRU
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=2012-1; d=domain.com;
+ b=ePWN4AwJ+6zPgTu4o0bCXwZ3hM38m//ugwhNyVYp85W2k6AbVvfhb55EjuvagpeShcLST/Ya2G2G
+   ViEYZfPwNu7rRg99jxmv53YbpOdvfL1k0qbk6NWxLtfDJ27YqrIqBgJoNQC6ObMhfOKtc+8jCqwG
+   tHTDQbrkAMDvt11mchc=;
+Received: from M1PWEEMAPP001 (64.202.163.35) by
+ domain.com id hdn25k1epagk for
+ <user@domain.com>; Thu, 20 Nov 2015 03:36:40 -0700 (envelope-from
+ <user@domain.com>)
+Subject: beActive Books is proud to offer you a free copy of M. K. Shaddix???s new book ???Made With Love???
+To: <user@domain.com>
+X-Receiver: <user@domain.com>
+x-subscriberid: 611727893
+x-campaignid: 2057448
+x-customerid: 200839
+Reply-To: <user@domain.com>
+From: beActive Books <adr@beactivemedia.com>
+Sender: beActive Books <user@domain.com>
+Importance: normal
+Priority: normal
+X-Sender: user@domain.com
+X-Mailer: EEM.Mail v2.1
+X-vMTA: No
+Date: Thu, 20 Nov 2015 03:36:40 -0700
+Message-ID: <33user@domain.com>
+X-EOPAttributedMessage: 0
+Received-SPF: TempError (domain.com: error in processing during
+ lookup of domain.com: DNS Timeout)
+Authentication-Results: spf=temperror (sender IP is 64.202.167.77)
+ user@domain.com; 
+X-Forefront-Antispam-Report: CIP:64.202.167.77;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(51744003)(48214007)(189002)(199003)(107245004)(15202345003)(16799955002)(18206015028)(74316001)(46102003)(21056001)(99396003)(89996001)(120916001)(15188155005)(93916002)(108616004)(44976005)(450100001)(77156002)(956001)(16601075003)(71186001)(62966003)(77096003)(20776003)(50226001)(64706001)(946001)(180100001)(87836001)(104166001)(33646002)(104016003)(19617315012)(43066003)(110136001)(307094003)(229853001)(102836001)(53806999)(50986999)(88136002)(87286001)(15395725005)(15975445006)(107046002)(106466001)(19580395003)(19618635001)(84326002)(18926405002)(107886001)(4396001)(7059030)(104876003)(40256004)(24736002)(42882002)(45286004)(19623215001);DIR:INB;SFP:;SCL:1;SRVR:BN1BFFO11HUB055;H:domain.com;FPR:;MLV:nov;PTR:domain.com;MX:1;A:1;LANG:en;
+X-Microsoft-Antispam: UriScan:;
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:;SRVR:BN1BFFO11HUB055;
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:;SRVR:BN1BFFO11HUB055;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:;SRVR:BN1BFFO11HUB055;
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+X-MS-Exchange-Organization-AVStamp-Mailbox: MSFTFF;1;0;0 0 0
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+beActive Books is proud to offer you a free copy of M. K. Shaddix's new book "Made With Love"
+
+
+
+  Email not displaying correctly? View in your browser.
+Dear Book Lover, 
+
+
+
+    beActive Books is sending you this quick email to announce that our latest book, Made with Love by M.K. Shaddix, will be available for free for Amazon Kindle between 20th and 23th of November. After this period, the book is on sale for USD $5.99.
+
+
+
+    Please download your free Kindle copy at Amazon 
+
+
+
+    Note that you don't need to own a Kindle to be able to read this free eBook.
+      Amazon has free readers for the main Operating Systems (Mac, PC), Tablets and Smartphones. Download your reader HERE and you will be able to read Made With Love for free even if you don't own a Kindle device. 
+
+
+
+      The only thing we would like you to do is, after reading the book, to leave a comment on the Amazon Book page with your thoughts about M. K. Shaddix's new book. 
+
+
+
+      In the last few months, Made with Love gathered an extended community and fans have expressed great enthusiasm for the story and awarded the author with comments: 
+
+
+
+    "It made me laugh, smile, and cry all at the same time. It takes a lot for a book to do that to me." Anisa Nasir 
+
+
+
+    "I had an instant connection with this story because the main character was into Advertising & Marketing. Following that, I was also drawn to Ireland and cheese ... all three happen to be close to my heart." Russ R. 
+
+
+
+    "I really enjoyed this quirky little book. It was a nice, quick read and kept me interested the entire time. I loved the little Irish quirks and I'd love to see a sequel for this." Kristen 
+
+
+
+    Thank you for your time and we hope that you will be able to help us to promote this amazing book by M. K. Shaddix. 
+
+
+
+    Adriana Sandu, 
+
+
+
+    beActive Books
+      10/13 Thomas Street
+      The Digital Hub
+      Dublin 8
+      Ireland
+      Phone: +353 1 4404205
+      Fax: +353 1 4430639
+
+
+
+beActive Books, 10/13 Thomas Street, The Digital Hub, Dublin, Dublin 8
+
+Unsubscribe | Privacy policy
+

@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.31 with SMTP id o31csp3691130lfi;
+        Thu, 26 Feb 2015 19:25:36 -0800 (PST)
+X-Received: by 10.52.248.179 with SMTP id yn19mr11569462vdc.32.1425007535599;
+        Thu, 26 Feb 2015 19:25:35 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-vc0-domain.com (mail-vc0-domain.com. [2607:f8b0:400c:c03::22d])
+        by domain.com with ESMTPS id er1si1002795vdb.51.2015.02.26.19.25.35
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 26 Feb 2015 19:25:35 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c03::22d as permitted sender) client-ip=2607:f8b0:400c:c03::22d;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c03::22d as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-vc0-domain.com with SMTP id hy4so5322763vcb.4
+        for <user@domain.com>; Thu, 26 Feb 2015 19:25:35 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:mime-version:subject:From: Robby Mook <robbymook2015@gmail.com>
+         :content-transfer-encoding:message-id:references:to;
+        bh=Kfro5DUXGzaiNeGAWOcw3duDaXWqPvD7efEAp05kPKg=;
+        b=ieCAWZ71Q4MCEjef+Rmi+lEhQl7vUlW9l6z2hzoMHW9k7pYPeBnmMuZ3FDyTNcf1z7
+         jIKAzh9K7uMYYa1v2Pp1IHy0Jf5t/tyA1yseGXi1JIHrTBq1nTbh3reIJYg1DbmOiGGk
+         UEAbdI35NpHoTpHFk/e0nwAoexHm8dk5DaFpA6ct7bQv3atuErWwNKttFvVFy+/cnR1F
+         dtmgMojDSLOLQma2Vyfxqp0EXy00eFoikSDkepfq+rPI43ECm6kSFpwcIV8U1n6MOT1X
+         +l2VrKIVbpKP/c/EnRIiecbdXCF8jtoua9LVCRTNHxFQ9ccAZwXr/qX8CNsWFUWoPXsm
+         iOGA
+X-Received: by 10.52.135.39 with SMTP id pp7mr11408055vdb.47.1425007534947;
+        Thu, 26 Feb 2015 19:25:34 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [100.106.43.247] (3.sub-70-199-103.domain.com. [70.199.103.3])
+        by domain.com with ESMTPSA id vp20sm546864vdb.22.2015.02.26.19.25.34
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 26 Feb 2015 19:25:34 -0800 (PST)
+Content-Type: text/plain;
+	charset=us-ascii
+Mime-Version: 1.0 (1.0)
+Subject: Re: Foundation mtg
+From: Robby Mook <robbymook2015@gmail.com>
+X-Mailer: iPhone Mail (12B466)
+In-Reply-To: <7user@domain.com>
+Date: Thu, 26 Feb 2015 22:25:33 -0500
+CC: John user <user@domain.com>
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <user@domain.com>
+References: <user@domain.com> <7user@domain.com>
+To: Huma Abedin <user@domain.com>
+
+I like consolidating unless we think it's too many people
+

@@ -1,0 +1,274 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.86 with SMTP id y83csp849744lfc;
+        Tue, 27 Oct 2015 12:10:25 -0700 (PDT)
+X-Received: by 10.194.89.166 with SMTP id bp6mr20920438wjb.96.1445973025565;
+        Tue, 27 Oct 2015 12:10:25 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.110.61])
+        by domain.com with ESMTPS id s5si51929246wjs.1.2015.10.27.12.10.24
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 27 Oct 2015 12:10:25 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.110.61 as permitted sender) client-ip=157.56.110.61;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.110.61 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Received: from domain.com (10.255.193.29) by
+ domain.com (10.242.216.26) with Microsoft SMTP
+ Server (TLS) id 15.1.306.13; Tue, 27 Oct 2015 19:10:22 +0000
+Received: from BL2FFO11FD040.protection.gbl (2a01:111:f400:7c09::193) by
+ domain.com (2a01:111:e400:45::29) with Microsoft
+ SMTP Server (TLS) id 15.1.306.13 via Frontend Transport; Tue, 27 Oct 2015 
+ 19:10:21 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=domain.com;domain.com; dmarc=none action=none
+ header.from=tcf.org;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.75;
+ helo=domain.com;
+Received: from domain.com (141.161.191.75) by
+ domain.com (10.173.161.136) with Microsoft
+ SMTP Server (TLS) id 15.1.306.13 via Frontend Transport; Tue, 27 Oct 2015 
+ 19:10:21 +0000
+Resent-From: =?utf-8?Q?The=20Century=20Foundation?= <events@tcf.org>
+Received: from na01-bl2-domain.com (141.161.191.14)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Tue, 27 Oct 2015 15:10:13 -0400
+Received: from domain.com (10.162.96.44) by
+ domain.com (10.141.204.151) with Microsoft SMTP
+ Server (TLS) id 15.1.306.13; Tue, 27 Oct 2015 19:09:35 +0000
+Received: from BL2FFO11FD009.protection.gbl (2a01:111:f400:7c09::188) by
+ domain.com (2a01:111:e400:5173::44) with Microsoft
+ SMTP Server (TLS) id 15.1.306.13 via Frontend Transport; Tue, 27 Oct 2015 
+ 19:09:34 +0000
+Authentication-Results: spf=pass (sender IP is 198.2.183.230)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass
+ (signature was verified) header.d=domain.com;domain.com;
+ dmarc=none action=none header.from=tcf.org;
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 198.2.183.230 as permitted sender)
+ receiver=domain.com; client-ip=198.2.183.230;
+ helo=domain.com;
+Received: from domain.com (198.2.183.230) by
+ domain.com (10.173.161.15) with Microsoft SMTP
+ Server id 15.1.306.13 via Frontend Transport; Tue, 27 Oct 2015 19:09:34 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?The=20Century=20Foundation?= <events@tcf.org>
+ bh=wNCoqp9rQlRsKCqT8PA4Q6kep88=;
+ b=pNhPJgO6n7gqGaSys8gLieGWyQAHQ5LUhZ4Neuxvoqkfhww7gTMS2ySL1zbKK+tLuNI0L+bKO+CL
+   yFjKI+anI2RrwYHxA4avoV0RgL1YFtRzr4X3luYcjeXocb1u+Mj3dZuyTlTxtZZReaBwcFUtQcPG
+   +w6NtBMQDNz9d6hmQeE
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=lTGu8HG5+Wn8MzZX4cYH9Xv8M9Pu8YsWQv9n/OYLuqPKp45D/EcoKFf+hyY3hdW7XDsSaBCacbOH
+   56GgEVGNnCKfB8zbELkSNJ1ZyYY3RjNNwk/o7eVnMzbjhdmCaY9Hl3hQM/mXWrGZZFQBpHIIscf2
+   XDGhwGxvGlyo47uqPkk=;
+Received: from (127.0.0.1) by domain.com id h5v5us22s94t for
+ <user@domain.com>; Tue, 27 Oct 2015 19:09:34 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?Policy=20Update=3A=20Lawmakers=20Respond=20to=20TCF=20=22Covert=20For=2domain.com=22=20Report?
+From: =?utf-8?Q?The=20Century=20Foundation?= <events@tcf.org>
+Reply-To: =?utf-8?Q?The=20Century=20Foundation?= <user@domain.com>
+To: John <user@domain.com>
+Date: Tue, 27 Oct 2015 19:09:34 +0000
+Message-ID: <7103user@domain.com>
+X-Mailer: MailChimp Mailer - **CID3dea5a76dc952c590b54**
+X-Campaign: mailchimp7103af3351935621d42f3b80a.3dea5a76dc
+X-campaignid: mailchimp7103af3351935621d42f3b80a.3dea5a76dc
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 7103af3351935621d42f3b80a
+X-Feedback-ID: 12495863:12495863.413909:us5:mc
+List-ID: 7103af3351935621d42f3b80amc list <7103af3351935621d42f3b80a.118913.list-domain.com>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: The Century Foundation <user@domain.com>
+x-mcda: FALSE
+Content-Type: multipart/alternative;
+	boundary="_----------=_MCPart_580716286"
+MIME-Version: 1.0
+Return-Path: user@domain.com
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD009;1:vmlTWU3TWekrPivh+F5fMKp52CxDK7q5RLDG6BUhFlu+LQ6jN741DfbdJrbmd3w+rhw+OxV6tqTJC+zGT8nQQT84SSLyzsBPUMdky37YpE4W1VkmNucAvP5Ok4Fe0JEwPCUyCrk0pLa9Pz5LbtQUP/66gdZnAKeQbztCB4wj+CKOLD2/Yp0zhbstAOkCcaDc3aZZjEzaKEiq6WSzPN5qrDFFFGxPRsHR/nZkA9+MI2OMz07f6DDMzyGP9GzIoH9bNmDI0RENkS5kd0gAU6q0GgOw0e5jsKoaV0iM04J5A1TnA2SQ0w6mOVP8zK0UUaFN4VP3nklFntp8N5KJVn7OajtevaXvnS5i6jx+/u/9HAxHns/LcyE2sn7oW1uyk/SX3KAiGnQhP11okAMiprVXeA
+X-Forefront-Antispam-Report-Untrusted: CIP:198.2.183.230;CTRY:;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(6039001)(31590200002)(2990300002)(438002)(359002)(199003)(27962003)(349012);DIR:INB;SFP:;SCL:9;SRVR:BLUPR07MB531;H:domain.com;FPR:;SPF:Pass;PTR:domain.com;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB531;2:ItF0rH5KP62t3LdPWOgYlAUA5kyT+xIANIvMwBMgpdZUwoO8Upjygx8e1LrSKetydzwgiQPB4v3oqdGxDUb3c0sGGvqLU+/gZdvKr1pK7axB9khGDi3hg8C9+OmVMjm/PioKTphSHehvUAwoHFyk4M6eYyJy6hGKsa4237MIfXU=;3:CcdeiAOuq5tdcbunyvr07uHm1v9XXhNNuTHZSqPcLhvqmzolt8Wz/Y9PqfULjo+bR1YxHPdFeT3dWMhfq1/8+1zwkCYq3KQDMtrQh1zVmkfnr9wXMRGmtABuT43IkXo+ZO0PxcrlHmRvZ/dn7wuDdjzPH4WPk0B3X3dnyjgmBshW3inO7JeGFaadF7V25i9rGnGeFQPO/9mPLTv3LjVLNcfWNqrCUaZew/NfFXzUgdmtB3eEbJUmJEduqA9uRZdRfTN+c3l0Ye1PN2A3UoIBpSUFz1niuSqL2qLBMcw2FfK9dYlx3YliHijNfn2YijIIsc3GvjvW6QpIQQV4te5BWozK3wUNYOI/DNk+qwF5oKQ9n37iLVrjScUTbUlkapOO1G9NoxkICKDB0bshmK4vCA==;25:51YLAXJXDG8E6z+ZBljPIoh36U7XMV/ffk502Et6NpZVpmSJ11/PUH/nUp9F0HkbzFWlN16L3bRBK4rnl0r2SyKr4zgRzKd0stTBtsDVUi2vxIfoU+gOxDDcUcjItjKrBqMMJJMRMEqjGBkfk2sxEtEqcaYO8jVEWag6U+7XNBClszBuTUFZHIBaI+J7LWZQiiP5cPRMhc189aPYnpuf6Bu5kTlQw0XyGe4G34tWMR7Dr4AwzFAGv+0briH8SXYcRnzXZKBJWXveyxuDhPFhtQ
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:(96343)(92638)(92639)(92640);BCL:3;PCL:0;RULEID:(421252001)(42134001)(42139001)(42140001)(3001015)(120001)(71701003)(71702001);SRVR:BLUPR07MB531;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB531;20:ZkjFrw2epkf52bsqHMJ6xbGFfXKDpBeWFNXOpSmw2a6WK3kKf0rNhKy3Pl9VnUR8Nk+W/VFjBKbXHkqaYLDdeH7qoGS7mmfhfPfCeiRxATugnuTwfwFwYm3382rDYSzHcBo52GqD9MKQMkpng/EqJjevobMM5piDCl/SJ2T+zFw=;4:URMy0DICzHovTgSsEpmHVv7WzmdvgRYVp6ZleHyxUksLkmGAV7DSErULmo/nc+T4DsZcUyJrbm4A2ZN/m9+tM2JDF+EPMOLuc3yqM8jfFKyw+bWNM9NbAzhQ0NAgX5CVBWrgckz8s7gyHjnnodYGMktfme/3I1DXyJmbTPwGoe1FXruZ0/f6xwOz/PkNFkCSfmF4IpDo1ky5H+jWx0A67a+Qu6eoUMgmM0yfInAI+SFIMZ8dWshocWHHHQGRG7Gc8iP6EWw/MJzOQXCOPKwHOy7iNwFvRCpUIj0ozQpnsO5Mj/vLxQmyUrNK5dJ5Rzuzyh20Zj4t26aK1Pfu+SOcZ2+wYGGJZqjSHS7K0x+HwOo=;23:5gvNoT0WJluyVXBvBBUkOJLx0wFgPJEZ+ESHbQyuI76w0273iZo2fEfKj3oAZnsDJ+gYh3en+OWUxUISA/xQqjUrSc+/dd/lE3kGajQNV8V7M/RgLJKNAAqRVrKqvgaii6L798HkwG+juBIyAnhS+VcpcErIFrKwkSqFe/8Py6dpuGlwFp3HkO9oIRpaf0NF+N0NOw7IokvQXUVK+SEg3O0P+8cMpQofJEHiUpnTmpOY1EtyFhMdl9Wt/WwNhBzQs5PP6lkZGGdRaf9oj1gAhMjDBcASx5L7jY60/YsW/1pa3s3n1yNO70XOG6d2eFXPDk07SDxhEUU/tDVzFVvetg
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:3;PCL:0;RULEID:(601004)(2401047)(520078)(8121501046)(3002001)(102215026);SRVR:BLUPR07MB531;BCL:3;PCL:0;RULEID:;SRVR:BLUPR07MB531;BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(520078)(8121501046)(3002001)(102215026);SRVR:BN1PR07MB104;BCL:0;PCL:0;RULEID:;SRVR:BN1PR07MB104;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB531;5:g8AIjTkE4BuQCLNgzai2pjAe36X2iEwN0YaMGHbPB0sSP+PDG97FbNuSaEKLMR1hFjha+A++aYPdAK0XLKT2bvNlmtlmhh6AKUyU3kDwiIyGK92uiYS5QzWTNEU4vVWuup82AhLQIg6lzRQggxI3Ag==;24:j2a/ED5lIYJH1q1TMWqB3+jLICwnycHy1WJykVD83mPuplvLj/e+30PjSv/hZOHnymKfm+oybEq8KqbSlpgOAg==;20:cKuKQc3TqxNQ/gRGhKq7OnZWC60NA+o1BrUOGFfbWSJlrpLqZVq3pjbTxOM7NbxSV4CUi5ylkd12KNZGpZzvBQ
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 3
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB531
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BL2FFO11FD040.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BL2FFO11FD040;1:Q5kNBbLKEokjoEmTJr913ADVfJh66+LH6SareOHFeH8GC6oH6AGPyp5FNVlqGf2DZfB/ksDi46NKTj18icyTl9DrvcJ8/BkT346XH5V5BBfsYoBdfcJSQ1FFxyzdfahkb4/OpiO105RPIqz6giyEE4v5Q7EKKXIeSxnUxRFfnk4xccsCq0Ge+jpTt8+qJ1z9yIyarHVjpciLUtaEDTaKuWhv+By66EfNNF2QViXycQ4E4FEw6LW9IFJqJD3kANjYrTyp06irXiqmHjjcq2oJfuilRtwZ3Ay43QgskvBAkbMFYSjHl2NoZFYUTCP2WHVidVQ55RlUcg+DTt1Ln43jB4/22/Ici1tgBa9vdbGnH+KIDJORPqepXNYE/KhGXpTTDS6lmHET/qCzEU/XgIyS/Q
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1110001)(1109001)(339900001)(189002)(199003)(27962003)(53806999)(95246002)(19618635001)(229853001)(512874002)(43066003)(2420400006)(50986999)(105606002)(18926415007)(5001920100001)(106466001)(107886002)(47976999)(81156007)(110136002)(189998001)(5001960100002)(76806002)(575784001)(85426001)(84326002)(5002220100002)(97736004)(4001450100002)(88552001)(16236675004)(2171001)(75432002)(87936001)(956001)(15974865002)(146001)(104016004)(960300001)(946001)(118296001)(15975445007)(26296002)(4290100001)(19580395003)(95666005)(50226001)(19627405001)(5007970100001)(6806005)(5006070100001)(450100001)(77096005)(18206015028)(11100500001)(19617315012)(33646002)(16799955002)(7099028)(7029013)(16560400002)(42882005)(75806003)(559001)(579004);DIR:OUT;SFP:1101;SCL:1;SRVR:BN1PR07MB104;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB104;2:o/ls6pMxm8pnhK5WwzGt6DwOin/vlzW+kVETYlKaL8Xc88d9XGTyurNi4/bUeA47un82MjX3IDA8bo87zOaz0G6mpP0S4435GfVOEqSl8hsSH6f2XFMh5OdZ5eucM7m3cfWh1G07m+/IrOzGXXcRgw/hdc5n9UqzewJVM8iUMw0=;3:DbDMeVsYu2aVRE6Jzvg8LcnaJ/uZqsmEG9hM2wLqIXya5VMVEwb+0vdQGZLBQMflUqSo/GP1UHrLMEA+6krylcbkuMh9zXOS8HpHkBvPpYW9x+u6JxjvcQk762vv+0K0tpL5hoRHNXzLAKzH60866esTQXSxgQXQKqkpPYJpb/gA4eHsv9X1ZzBL8zXV8Az4IJkA4QRIzkxIFWEU5bmNkKJ/2841roOQK0my2VSKfwT6DPlFeVxXBSBi1E5lBgSQLTiB7O47umBMWWPH9gZ3MZtIrxf0dHGq3pj40GjppzCERC4mzORcPpyy+A/5L63slLJw3+A02ysvguFRRGAsgLPys6lz5XKWSQGVNn9Sqa8=;25:L0lCaNqYNGTwztgBr5sf2ZjaRJVqtFXPNo9KDvMO8fvX1oTIZN17YYmEESDlCn6VhXT6+RJ8VYCJ7Oz9ObF6mm+5MHJrfGadfH9VBb0iD5xn/UuSDEut4EcdmQJbp9893x7mV5K+eVg63g8OQPa+o96g/P76hCZQ8+Ui1tuOLqd6EYF7QJZxorRX/Df15YIAyhjRr5S8D3lUJ3scJipAjii484W+DMcxX0nc4kFcqQzMEku2R5kU4oPvipYIf96RVuD7nk0ugBMHMFT+79Nvnw
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:(96343)(92638)(92639)(92640);BCL:0;PCL:0;RULEID:(421252001)(42134001)(42139001)(42140001)(3002015)(120001);SRVR:BN1PR07MB104;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB104;20:Yqy8tRAdyz7TZMfdz8q5P4uk/mQeTe3+OCMDKJ/domain.com+loGOZI1qo0/HTtwuXmdAkwUlF3fJGQtRVvzVIZgzp3J2LgdZnkVAiiyv4sQhVFrFpHD6BBXH9totgAbUc3iYrIPUB+jUxBhg+k18XduEDuVigkYJrsUUOPrn3whL0=;4:ALnlCGj9CyZyXc1jD4zn1KpVumXMULkd1wS/a+FYMoRH5/LG8wpydbc0vKU4yKLi6+Ov223JGI2BrQ9hj/lBxaNLfr+Jpy+fxEPw2OnKyjGrqfLTfPF3vi1QS3GLB9obEEqeuelwIeZ9h7MAvbv7f33mxO8HvFhTgzRWnIg3xH/SoIrwkpPJqjvxHGm+wCd+Pn/lbpEGumXl4ImfbDVxs6T3FLFFjzvHp3QPcQt3A4uBaTon9GaMSInUYn1IRVIzUHiLBbTDulzDJ6ngLK2zuTyxz72OxAcT0zklLZO1o32nHcJ8rK5xHClXYS8uRjlLJTopwzLBi+AK+bu6p7o6mMEXEmctbuvRX0GhFVLo7ut0goAsx6yN/D5oYgYqEaPF
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 0742443479
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BN1PR07MB104;23:F7QnIyO13D0Kfo+0gSUEqthIne4UG7gdaFF55h5So6?
+ =?us-ascii?Q?BG9kC8Ftb4K4u1KbatkWplCMYgBbKehSnwzYOluM0Dj8JHw0D2yQZZxq7Bec?
+ =?us-ascii?Q?OJT9557hxF2VFcQ7uHBPIXNzut0au+WYKNhXYEHZAia8cz7R4asXASRiDOf6?
+ =?us-ascii?Q?BoSUPaxWF2s+kbgpIcqIqnrzi7HdPCG8X8RkIUWK3bXzB+pybn9vbGKc01Fc?
+ =?us-ascii?Q?nF92hAaVuuiupGy3+oecQNZ8D3WSt2JBkDyImccZm7YmhjD4yTyvWch10QMi?
+ =?us-ascii?Q?K6SHJubxgsNpX/4gf6yg2xV++OlcseofyDPtSd1CsgYluVRVxuDlf0koK3Gu?
+ =?us-ascii?Q?h7y9Hf7pq5AxZDx3TH8qcr4u/8g3Uilx1z3bkUxpOWiGDQwm48E6SR+Hggje?
+ =?us-ascii?Q?65HgJMYmXXDapTaxJ2SRxnzwBJB9OLosaGhKPozGIwbxFDvhOPgfrLtvFvRV?
+ =?us-ascii?Q?x7CL3H1zz2/FcAaLwa4M4nYB+RuHHPREV8PTFLNE2lq37XF0IggjgVn7/g9b?
+ =?us-ascii?Q?op97mLyXELcFaw0N/5pqEr6DmVOGVav5W8MFAZ+2j6NWuiwAuSeddp4QuGt0?
+ =?us-ascii?Q?4NthHte5axeZO4RtqgzYGaBWsVwXGECz4T4u1e09NNmn541VhZrSz5j0EcAw?
+ =?us-ascii?Q?vzuMQ8RKjZBCcIta7wmssamyqOdZBjvvWmHnKEF7vNbKuZzGzyUmvIX0GUQl?
+ =?us-ascii?Q?4ZVSTsdc493prxizhk1Z9fTFhAt3Kp1wqyHWkbeKQyIu/nIOVwgEHpO/wrpy?
+ =?us-ascii?Q?UJMXCfGoVwFrJozR+rYHT61thQNgAjfGEElT6+fIFm1hohjqxXNwGsT36po8?
+ =?us-ascii?Q?pC6Xrv9uAuuGPkl0xw1Ue+qlnqT23l5JUHlwd0OdxV4Fr6kx5HR0wi/yMQ4T?
+ =?us-ascii?Q?vgXuhXCR/sgPY6pTg5jNgHXAFvHiZm6DQosM4xBeUBxpkc3e3w976ffJdWYF?
+ =?us-ascii?Q?zhDB9bAfd6smLx+jtuDy62hhfPm7Kl5BjlacKmBpPNcgJ6KglxoRvlT08Uyi?
+ =?us-ascii?Q?3IBVAcj3qdoN5vfKtNMJbxY7dxnAwGQAfpbJmcBRR0EW/wRoNtDLD153EcV2?
+ =?us-ascii?Q?fV+uqC7yAD/igaJ6DC9PDiyS+LKo8vV1Sv5Rcd1tWrqfkI8u7NHjY9RkEdnP?
+ =?us-ascii?Q?yC/q6Bs2NO8U2iE9A4TZMpQfFp0nEvh33wTQ7IktxMBIGs+4ebehPC6493TV?
+ =?us-ascii?Q?AZsy2fe6lyitqRXKvMlXZipXEGyFss00I/WfKTf8ywWlxPW31lsOSAa4l5dT?
+ =?us-ascii?Q?fNf+GR5TaYRI0JojlKy40gKGUsdno2RoYeI8TUWv6LODOsml3X/G+sA8hD50?
+ =?us-ascii?Q?8u2y40M4lvt0k4IAYFNGKuZErc+xWPIbi8oOlEdXaooRpxtXLBsZOaFONRvv?
+ =?us-ascii?Q?251m1lsXAl5gmA7ACuH7hHNeDa78KSnf0now14O90OUXnzpXtHrc5gVWRLjZ?
+ =?us-ascii?Q?lIRiimsnwtwyRkmOq+Pu1FTFFJ3xt6nPLT8AhUkhXzY71Iy60jUk2AbO6UaN?
+ =?us-ascii?Q?+ZngyfqeO6S1rZMIYQMbJc+7jJMgmimM9A1rfEUkHdWvez1UhvpJ1cfx5iYp?
+ =?us-ascii?Q?pz6DbWdqlXLyisfKfcxZ2j0B9NLa4M3/eJ/CGNOfbs8tI84WH0M3fa8efiX/?
+ =?us-ascii?Q?2dslMYWlxq0wkL84RpJ26LBDTv07pBqf6HCGQfnpL9pucwxl5+W4oc3Xw0c6?
+ =?us-ascii?Q?GtvhpoXVTI5iNyXkGEcBcRj6OBi066gRvV4JrJO/vS1nrOdGKmK3k+IVKkK3?
+ =?us-ascii?Q?0NgGAiikElihvsuqKDXFQHTpXjGw=3D=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB104;5:1TlwuJXWWZSBec9MRVA40ZJ44BTB6qf6pKYGMssID8SEduR1+Du13ZnoeNimICD2UdIax2aJmXq+x2xfxUVUTJ0vI1qe+Op++WuQLmKoWt4XD86S0+6BUSh3hJNl1XlbqX2z+Y/3J7qJxh5qBHrpJA==;24:qV79lNL6Go4tT/418xBHwd5svgPUi8Q1H1bJyzY/ERr1Al6d0C+ssTDvxqljJlTLQGk1xSMd6j3B/64cY+Rxuv/aAeAUMVMl2yeij7W41Ac=;20:8modWSpKx22zcCIoNh4A6+pSqqwi3f16voiRwmv5a7xiZuDcaKBTdwglb6nJgbyCdDK/JNHW60YB/Y52k5Xlxg
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 27 Oct 2015 19:10:21.5272
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN1PR07MB104
+
+tcf.org | Facebook (<<link>>
+e=3DTCF+Email+Updates&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10
+_27_2015&utm_medium=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-
+92514157) | Twitter (<<link>>+Email+U
+pdates&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_2015&utm_me
+dium=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-92514157)
+<<link>>
+-for-domain.com-colleges?utm_source=3DTCF+Email+Updates&utm_campaign=3D3dea5a7
+6dc-UPDATE_Covert_For_Profit10_27_2015&utm_medium=3Demail&utm_term=3D0_e54
+57eab21-3dea5a76dc-92514157
+
+Policy Update: (<<link>>
+action-on-covert-for-domain.com-colleges?utm_source=3DTCF+Email+Updates&utm_ca
+mpaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_2015&utm_medium=3Demail&
+utm_term=3D0_e5457eab21-3dea5a76dc-92514157) Lawmakers Respond to T
+CF "Covert For-domain.com" Report (<<link>>
+-are-demanding-action-on-covert-for-domain.com-colleges?utm_source=3DTCF+Email
++Updates&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_2015&utm_
+medium=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-92514157) =2C Ask
+ for Immediate Action (<<link>>
+anding-action-on-covert-for-domain.com-colleges?utm_source=3DTCF+Email+Updates
+&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_2015&utm_medium
+=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-92514157)
+
+Last week=2C seven senators including Sherrod Brown (OH)=2C Elizabeth Warr
+en (MA) and minority whip Richard Durbin (IL) sent a letter (<<link>>
+f.org/assets/downloads/domain.com.pdf?utm_source=3DTCF+Email+Updat
+es&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_2015&utm_medium
+=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-92514157) to Department
+ of Education secretary Arne Duncan and Internal Revenue Service Commissio
+ner John Koskinen urging them to take swift action against possibly fraudu
+lent for-domain.com education companies:
+
+=E2=80=9CAs the agencies responsible for granting non-domain.com=2C tax exempt
+ status and protecting students=2C the Internal Revenue Service and U.S. D
+epartment of Education must work together to better assess these conversio
+ns based on the priorities and authority of both agencies.=E2=80=9D
+This call to action came in response to TCF senior fellow Robert Shireman'
+s report=2C The Covert For-domain.com: How College Owners Escape Oversight thr
+ough a Regulatory Blind Spot (<<link>>
+urce=3DTCF+Email+Updates&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profi
+t10_27_2015&utm_medium=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-
+92514157) =2C that exposes for-domain.com colleges that claim domain.com status
+ yet do not follow the norms of domain.com governance=2C putting financial
+ gain ahead of students=E2=80=99 best interests.
+Read the full report. (<<link>>
+TCF+Email+Updates&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_
+2015&utm_medium=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-92514157
+)
+
+Within two weeks of the release=2C a number of media outlets covered the r
+eport=2C increasing awareness of the issue and building support to stop th
+ese institutions from further abusing students and taxpayers. In a follow-
+up to the Senate letter=2C Shireman explains that swift actions is needed
+ because the strategies that the former owners are using to enrich themsel
+ves could start spreading like an infection to other domain.com organizatio
+ns.
+
+Read Shireman's follow-up. (<<link>>
+e-demanding-action-on-covert-for-domain.com-colleges?utm_source=3DTCF+Email+Up
+dates&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_2015&utm_med
+ium=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-92514157)
+
+The Century Foundation is proud be a leading voice sounding the alarm abou
+t abuses of the public trust and encouraging reforms aimed at providing st
+udents with high quality higher education.
+
+Join the conversation online via @domain.com (<<link>>
+?utm_source=3DTCF+Email+Updates&utm_campaign=3D3dea5a76dc-UPDATE_Covert_Fo
+r_Profit10_27_2015&utm_medium=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-
+92514157) and @ (<<link>>+
+Email+Updates&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_2015
+&utm_medium=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-92514157) Bo
+b_Shireman (<<link>>+Email+Update
+s&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_2015&utm_medium
+=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-92514157) . For more in
+formation on recent publications from The Century Foundation=2C domain.com tcf.
+org (<<link>>
+80a&id=3D86619f7092&e=3D9f65d92c29&utm_source=3DTCF+Email+Updates&utm_camp
+aign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_2015&utm_medium=3Demail&ut
+m_term=3D0_e5457eab21-3dea5a76dc-92514157) .
+
+** (<<link>>+Email+Up
+dates&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_2015&utm_med
+ium=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-92514157)
+** (<<link>>+Email+Updates&utm_ca
+mpaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_2015&utm_medium=3Demail&
+utm_term=3D0_e5457eab21-3dea5a76dc-92514157)
+** (<<link>>
+TCF+Email+Updates&utm_campaign=3D3dea5a76dc-UPDATE_Covert_For_Profit10_27_
+2015&utm_medium=3Demail&utm_term=3D0_e5457eab21-3dea5a76dc-92514157
+)
+Copyright =C2=A9 2015 The Century Foundation=2C All rights reserved.
+ You are receiving this email because you opted in on The Century Foundati
+on's website at www.tcf.org.
+
+Our mailing address is:
+The Century Foundation
+One Whitehall St
+15th Floor
+New York=2C NY 10004
+USA
+** unsubscribe from this list (<<link>>
+?u=3D7103af3351935621d42f3b80a&id=3De5457eab21&e=3D952c590b54&c=3D3dea5a76dc
+)
+** update subscription preferences (<<link>>
+e?u=3D7103af3351935621d42f3b80a&id=3De5457eab21&e=3D952c590b54)

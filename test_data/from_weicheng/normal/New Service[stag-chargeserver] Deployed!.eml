@@ -1,0 +1,64 @@
+Delivered-To: weicheng@edison.tech
+Received: by 2002:a0c:aa0d:0:0:0:0:0 with SMTP id d13csp350553qvb;
+        Thu, 13 Aug 2020 21:13:26 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJziOmQslh3R5B0mxXlJe3QS7SBRZsL3g4bAbCg/XVEFCFouWDJVwyAlTnrnDbWCNttrUA+0
+X-Received: by 2002:a17:90a:ea91:: with SMTP id h17mr760993pjz.36.1597378406769;
+        Thu, 13 Aug 2020 21:13:26 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1597378406; cv=none;
+        d=google.com; s=arc-20160816;
+        b=TiNQcnTXiIDMORTzcUIghgxFfSyDRBCb92NV4d6XMl1rJYFtdgIYZxwfw/GFsEcT78
+         L4yFYUfxLTOHQ+iGe4o5g/4G7F9N+T7xySU1PFyjbN2MMIK/qamr5LPJwuA9o4WNHM23
+         0QFx3FC/Vh2XQ/c+u6Gf4fB2wldnCfvBn30ajVFfD3wLF421IFWCnnwVBseu051Kn4cu
+         hZ21c4ilidSoPpxUdDgSegmGFIdpLQ7a3BFQtLZGJIg7k+/aEhZhNrSKZ17zjbjJtJLQ
+         w4ifcGfDGgLEivoPi/L7wtQxXstOslbk2Vk6q7rJ1u7dXgbKbFVHgtcpCL3Eo2Gjm3Rw
+         LTRA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:mime-version:subject:message-id:to:from:date
+         :dkim-signature;
+        bh=EegszK55AW0u1fMHpoR/RfgRcVbYkSCKRntmqTkCnj4=;
+        b=DOfCN3Btc0q2UyuA/rZZhQLCIB46IQtPazHTDvUquDgaZgWwFFyq9U6TU057M7eugg
+         mUDPjBirUUJUd6AZ+MlT5jEywdKRxTOdlAWCHDTntTA1J4KxEE066cUhDqdlwailN7lr
+         BCFLFRxCzIjlaDfr3HoR/2Eo5ZIZijdGxpccO+H0nNw479KAMP5IHRbfPWPsZWwqt44s
+         rEybSkpl7lhDzLFIg9l88FQiVuDrp7/VwPcvBB7NYb4Q1ePVooyaj8W5S9g106f1DVTF
+         HV8u9DzzVA62CMQ99i983y/V285+Ojab/ldvk7FyZf0chB4EKoMl5PvVimX+QXFSfmlq
+         U4hg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=hsbnp7p3ensaochzwyq5wwmceodymuwv header.b=Uqvb2fmn;
+       spf=pass (google.com: domain of 01010173eb2c2515-8e679587-8c1e-4c74-abaa-7b5f0c9964be-000000@us-west-2.amazonses.com designates 54.240.27.116 as permitted sender) smtp.mailfrom=01010173eb2c2515-8e679587-8c1e-4c74-abaa-7b5f0c9964be-000000@us-west-2.amazonses.com
+Return-Path: <01010173eb2c2515-8e679587-8c1e-4c74-abaa-7b5f0c9964be-000000@us-west-2.amazonses.com>
+Received: from a27-116.smtp-out.us-west-2.amazonses.com (a27-116.smtp-out.us-west-2.amazonses.com. [54.240.27.116])
+        by mx.google.com with ESMTPS id c20si5260708pgb.329.2020.08.13.21.13.26
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-SHA bits=128/128);
+        Thu, 13 Aug 2020 21:13:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 01010173eb2c2515-8e679587-8c1e-4c74-abaa-7b5f0c9964be-000000@us-west-2.amazonses.com designates 54.240.27.116 as permitted sender) client-ip=54.240.27.116;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=hsbnp7p3ensaochzwyq5wwmceodymuwv header.b=Uqvb2fmn;
+       spf=pass (google.com: domain of 01010173eb2c2515-8e679587-8c1e-4c74-abaa-7b5f0c9964be-000000@us-west-2.amazonses.com designates 54.240.27.116 as permitted sender) smtp.mailfrom=01010173eb2c2515-8e679587-8c1e-4c74-abaa-7b5f0c9964be-000000@us-west-2.amazonses.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=hsbnp7p3ensaochzwyq5wwmceodymuwv; d=amazonses.com; t=1597378405;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=EegszK55AW0u1fMHpoR/RfgRcVbYkSCKRntmqTkCnj4=;
+	b=Uqvb2fmnlDfvrr16upu/0azJOtLVfeVcB2lsFdn8j++u+uZS5LUvnzm3Kj+2xvBv
+	f2tJEM6c49Ez1SYl7Ab7DYatZdIDI77Zqgxsk5AKh8y/Yalz7OqcYh14qx3/N8GVBkX
+	d27ijlKPhRzQ0YURhwpN2jeWCWvodAodev2DD+dU=
+Date: Fri, 14 Aug 2020 04:13:25 +0000
+From: chat.system@edison.tech
+To: chat.alarm@edison.tech, weicheng@edison.tech, jia@edison.tech
+Message-ID: <01010173eb2c2515-8e679587-8c1e-4c74-abaa-7b5f0c9964be-000000@us-west-2.amazonses.com>
+Subject: New Service[stag-chargeserver] Deployed!
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_224_820754154.1597378404157"
+X-Jenkins-Job: stag-chargeserver
+X-Jenkins-Result: SUCCESS
+X-SES-Outgoing: 2020.08.14-54.240.27.116
+Feedback-ID: 1.us-west-2.SK64Hb0iaJU5P6aN2hzel1nsxy4lpETy5H8O0BCHUTo=:AmazonSES
+
+------=_Part_224_820754154.1597378404157
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+stag-chargeserver - Build # 271 - Successful:
+
+Check console output at https://jenkins.edisonpark.net/job/stag-chargeserver/271/ to view the details.
+------=_Part_224_820754154.1597378404157--

@@ -1,0 +1,99 @@
+Delivered-To: user@domain.com
+Received: by 10.25.30.9 with SMTP id e9csp838243lfe;
+        Wed, 3 Sep 2015 00:17:46 -0700 (PDT)
+X-Received: by 10.70.56.10 with SMTP id w10mr14748290pdp.135.1409728666016;
+        Wed, 03 Sep 2015 00:17:46 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.254.107])
+        by domain.com with ESMTPS id qb9si9133764pbb.256.2014.09.03.00.17.32
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Wed, 03 Sep 2015 00:17:32 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.254.107;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.254.67:20279] by server-11.bemta-7.domain.com id 4B/96-31290-C50C6045; Wed, 03 Sep 2015 07:16:44 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-3.tower-196.domain.com!1409728602!8361289!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 8847 invoked from network); 3 Sep 2015 07:16:43 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-3.tower-196.domain.com with AES128-SHA encrypted SMTP; 3 Sep 2015 07:16:43 -0000
+Resent-From: Louise Hidalgo-INTERNET <louise.hidalgo@bbc.co.uk>
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Wed, 3 Sep 2015 03:16:42 -0400
+Received: from [216.82.249.211:49515] by server-3.bemta-12.domain.com id
+ 24/41-09492-950C6045; Wed, 03 Sep 2015 07:16:41 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-9.tower-53.domain.com!1409728597!7602515!1
+X-Originating-IP: [132.185.240.35]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogMTMyLjE4NS4yNDAuMzUgPT4gNDY3MTY3\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 21254 invoked from network); 3 Sep 2015 07:16:39 -0000
+Received: from mailout0.thls.bbc.co.uk (HELO mailout0.thls.bbc.co.uk)
+ (132.185.240.35)  by server-9.tower-53.domain.com with
+ DHE-RSA-AES256-SHA encrypted SMTP; 3 Sep 2015 07:16:39 -0000
+Received: from BGB01XI1004.national.core.bbc.co.uk ([10.184.50.54])	by
+ mailout0.thls.bbc.co.uk (8.14.4/8.14.3) with ESMTP id s837Gbxw006560	for
+ <user@domain.com>; Wed, 3 Sep 2015 08:16:37 +0100 (BST)
+Received: from BGB01XI1015.national.core.bbc.co.uk (10.161.14.78) by
+ BGB01XI1004.national.core.bbc.co.uk (10.184.50.54) with Microsoft SMTP Server
+ (TLS) id 14.2.342.4; Wed, 3 Sep 2015 08:16:37 +0100
+Received: from BGB01XUD1001.national.core.bbc.co.uk ([169.254.1.241]) by
+ BGB01XI1015.national.core.bbc.co.uk ([10.161.14.78]) with mapi id
+ 14.02.0342.004; Wed, 3 Sep 2015 08:16:36 +0100
+From: Louise Hidalgo-INTERNET <louise.hidalgo@bbc.co.uk>
+To: "User" <user@domain.com>
+Subject: BBC World Service
+Thread-Topic: BBC World Service
+Thread-Index: Ac/HRqfiDOmX7ItlR/+IkC8FZ8Yb0w
+Date: Wed, 3 Sep 2015 07:16:36 +0000
+Message-ID: <0user@domain.com>
+Accept-Language: en-GB, en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.10.56.249]
+Content-Type: multipart/alternative;
+	boundary="_000_0EFB6957D35B414086D5DDC980ABE610263D5BC6BGB01XUD1001nat_"
+MIME-Version: 1.0
+X-EXCLAIMER-MD-CONFIG: c91d45b2-6e10-4209-9543-d9970fac71b7
+
+Dear Mr user
+
+I work on BBC News' award-winning radio history programme, Witness, in whic
+h we talk to people who lived through, or witnessed, great events in histor
+y.
+
+We want to do an edition on the historic handshake between Yasser Arafat an
+d Yitzhak Rabin, in September 1993, to be broadcast next week.
+
+And we want to get a sense of what was going on behind the scenes that day 
+- the last minute flurry of negotiations, the atmosphere, the worries about
+ what might or might not go wrong; the scene which President Clinton recoun
+ts in his memoirs of how he and his aides practised  what might happen if C
+hairman Arafat moved to embrace Prime Minister Rabin, and how to ensure tha
+t they did shake hands. Witness is a programme of personal memories and we 
+would be delighted if you would be willing to share with us your memories o
+f that day.
+
+With best wishes
+
+Louise
+Louise Hidalgo
+Presenter/Senior Producer
+"Witness", BBC World Service
+Tel: 44 (0) 20 361 41143
+Mob: 44 (0) 7800 835 325
+
+Named "Best Speech Programme" at the Sony Radio Awards 2015 <<link>>
+co.uk/programmes/p004t1hd
+

@@ -1,0 +1,33 @@
+From: "Larry David" <ldcubes1@gmail.com>
+To: "User"
+References: <28569948-7user@domain.com>
+In-Reply-To: <28569948-7user@domain.com>
+Subject: Re: A meal
+Date: Tue, 14 Oct 2015 18:48:35 -0400
+Message-ID: <1user@domain.com>
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQJ6qmHA1Fbiu9V9hP/os1/soPXzNAH2GapM
+Content-Language: en-us
+x-ms-exchange-organization-authas: Internal
+x-ms-exchange-organization-authmechanism: 10
+x-ms-exchange-organization-authsource: domain.com
+x-forefront-antispam-report: CIP:209.85.216.169;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(6009001)(438002)(189002)(51704005)(377454003)(199003)(24454002)(46102003)(77156001)(59656003)(80022003)(93516999)(50986999)(31966008)(73392002)(23726002)(76176999)(63696999)(87572001)(81442002)(21056001)(102836001)(104166001)(33656002)(73972006)(95666004)(85306004)(19580395003)(107886001)(110316003)(110136001)(92566001)(107046002)(110306001)(88136002)(82746002)(92726001)(89996001)(20776003)(47776003)(36756003)(82202001)(61266001)(64706001)(59286002)(59536001)(6806004)(62966002)(86362001)(956001)(55446002)(83322999)(4396001)(93916002)(19580405001)(120916001)(85852003)(83716003)(87286001)(106466001)(44976005)(221733001)(87836001)(50226001)(50466002)(99396003)(7059027)(104396001)(117466002)(42262002);DIR:INB;SFP:;SCL:1;SRVR:BY2FFO11HUB046;H:mail-qc0-domain.com;FPR:;MLV:sfv;PTR:mail-qc0-domain.com;MX:1;A:1;LANG:en;
+received-spf: Pass (domain.com: domain of gmail.com designates 209.85.216.169 as permitted sender) receiver=domain.com; client-ip=209.85.216.169; helo=mail-qc0-domain.com;
+authentication-results: spf=pass (sender IP is 209.85.216.169) user@domain.com; 
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:;SRVR:BY2FFO11HUB046;
+x-eopattributedmessage: 0
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=From: "Larry David" <ldcubes1@gmail.com>
+x-received: by 10.224.65.9 with SMTP id g9mr12640764qai.96.1413326914994;        Tue, 14 Oct 2015 15:48:34 -0700 (PDT)
+x-domain.com: domain.com
+x-exchange-antispam-report-test: UriScan:;
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+Hi Michael. 
+I appreciate the invite but 
+I'm in NY rehearsing the play. Always available to talk on the phone though! 
+
+Larry
+

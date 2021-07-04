@@ -1,0 +1,94 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp1573364lfi;
+        Mon, 13 Apr 2015 14:49:37 -0700 (PDT)
+X-Received: by 10.229.66.132 with SMTP id n4mr334230qci.1.1428961776767;
+        Mon, 13 Apr 2015 14:49:36 -0700 (PDT)
+Return-Path: <hrcrapid+user@domain.com>
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [2607:f8b0:400d:c09::23d])
+        by domain.com with ESMTPS id f1si11467106qcd.49.2015.04.13.14.49.35
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 13 Apr 2015 14:49:36 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of hrcrapid+user@domain.com designates 2607:f8b0:400d:c09::23d as permitted sender) client-ip=2607:f8b0:400d:c09::23d;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of hrcrapid+user@domain.com designates 2607:f8b0:400d:c09::23d as permitted sender) smtp.mail=hrcrapid+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qk0-domain.com with SMTP id x191sf131416631qkb.0;
+        Mon, 13 Apr 2015 14:49:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120806;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Matt Ortega <mortega@hillaryclinton.com>
+         :cc:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe;
+        bh=NftU1PfahJMAww2NdRSI1KAjTecd0BKADGs/aXn2Kv8=;
+        b=hK3Fa9801cglMJZzBnV9B4qW/0cpkSpxyIuVVEn1HKK+XuB/NpZfv/V1xoP67n/mlE
+         +Vi7m5SBKkiDjKZ1+Um/bA35EwrZ2VfWb6p751kinO8wQhUkoPnPmShvaWH6mYDQN1po
+         8JtIRB8YAdJW6SjOYJzn81p/sEwyEOSTRJZsdDCAFGaz5dMnGxTFWhPiYeRLg8wUIi7G
+         CSDvx8W4kGosyvKiQRQi/LKDTzAUzlOIVZ9m4VI8jRqa5efp9dG5HmsqyaBFy8VpgN2U
+         R6p0dL+BSfqsNU0Hm4c0712tVmIM3MJcSx8eyQs39s7NWkHfxX9+7szVZcAZxLbX9GIc
+         y7aA
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Matt Ortega <mortega@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:sender:list-unsubscribe;
+        bh=NftU1PfahJMAww2NdRSI1KAjTecd0BKADGs/aXn2Kv8=;
+        b=HbcfdnGKCZd5K0Vbj2dZv6msOutINZ6qNqeB0+G2guOgb7kDg2xzXQODgmh/5aENtl
+         q+SyI6FDXrdYLX7mvywpT40dCp/Kvpg603z/Ez3qpZUEmXqqcLwSOjKISZW5pYD5F7ez
+         fTs4dNFiQjvx2tbg22ZxKh3DfVIqIijW/03sfVOluMJLeVWpTlAf76DGLkQ3FtXr1sD8
+         6PwVSyNCX021QmNgOGRxnEJQurZn8eWRK384xVeKGaUsDGbZqfrLHGJcHy0B8F5ul1j3
+         WsZ0cAt5qW+L0CGbPN+Ti++7IQ2IONnUQJN2l/ENA44rpfBoUk9qMNaKXRVNL0x2u0lm
+         VXlg
+X-Received: by 10.140.87.70 with SMTP id q64mr195278qgd.10.1428961775656;
+        Mon, 13 Apr 2015 14:49:35 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.140.46.8 with SMTP id j8ls3019281qga.56.gmail; Mon, 13 Apr
+ 2015 14:49:35 -0700 (PDT)
+X-Received: by 10.236.60.202 with SMTP id u50mr25236518yhc.9.1428961775440;
+        Mon, 13 Apr 2015 14:49:35 -0700 (PDT)
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [209.85.213.181])
+        by gmr-domain.com with ESMTPS id v1si557228igk.0.2015.04.13.14.49.35
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 13 Apr 2015 14:49:35 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.213.181 as permitted sender) client-ip=209.85.213.181;
+Received: by mail-ig0-domain.com with SMTP id lo3so58540369igb.1
+        for <user@domain.com>; Mon, 13 Apr 2015 14:49:35 -0700 (PDT)
+X-Gm-Message-State: ALoCoQnN5yAliQOzB4gQOxL+xWAEGjpRezWWeYHTnyjRxrBQxNLuDwQnkzyADUJ7LtQcjZHOLW51
+MIME-Version: 1.0
+X-Received: by 10.50.8.6 with SMTP id n6mr19667251iga.12.1428961775064; Mon,
+ 13 Apr 2015 14:49:35 -0700 (PDT)
+Received: by 10.36.98.200 with HTTP; Mon, 13 Apr 2015 14:49:34 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <CABd81JKDAKt7CM+user@domain.com>
+	<user@domain.com>
+Date: Mon, 13 Apr 2015 17:49:34 -0400
+Message-ID: <CAEj1YxrH82JzbOLeuXJyN_kbk09R1E-VfGO2+user@domain.com>
+Subject: Re: HRC at Chipotle
+From: Matt Ortega <mortega@hillaryclinton.com>
+To: Ian Sams <user@domain.com>
+CC: hrcrapid <user@domain.com>
+Content-Type: multipart/related; boundary=089e0115f6da00a5240513a217fb
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com;       spf=pass
+ (domain.com: domain of user@domain.com designates 209.85.213.181
+ as permitted sender) user@domain.com;       dmarc=pass
+ (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact hrcrapid+user@domain.com
+List-ID: <domain.com>
+X-Google-Group-Id: 612515467801
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:hrcrapid+user@domain.com>
+List-Archive: <<<link>>
+Sender: user@domain.com
+List-Unsubscribe: <mailto:googlegroups-manage+612515467801+user@domain.com>,
+ <<<link>>>
+
+Hillary trending in Columbus. Rubio does not place.
+
+=E2=80=8B
+
+On Mon, Apr 13, 2015 at 5:19 PM, Matt Ortega <user@domain.com>

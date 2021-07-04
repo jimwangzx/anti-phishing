@@ -1,0 +1,57 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.48 with SMTP id n45csp68145qga;
+        Thu, 3 Apr 2015 02:45:45 -0700 (PDT)
+X-Received: by 10.224.88.131 with SMTP id a3mr6243948qam.54.1396518345597;
+        Thu, 03 Apr 2015 02:45:45 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qc0-domain.com (mail-qc0-domain.com [2607:f8b0:400d:c01::22f])
+        by domain.com with ESMTPS id s49si1928350qge.66.2014.04.03.02.45.45
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 03 Apr 2015 02:45:45 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22f as permitted sender) client-ip=2607:f8b0:400d:c01::22f;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22f as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qc0-domain.com with SMTP id e16so1567489qcx.34
+        for <user@domain.com>; Thu, 03 Apr 2015 02:45:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=subject:references:From: Cheryl Mills <cheryl.mills@gmail.com>
+         :content-transfer-encoding:mime-version;
+        bh=XUUBJ0D7UpYhUxMkZoyAbEGbtZR/o0V8dxnhqPZcp6U=;
+        b=CRMw4fMJbSWZHkaX2JTQiJuT6GsX2UGXRWzX6eAlYFm8uIQsEcEMpY+yYS/hxQ2T8g
+         6xZ6FhQHnlkNF3nhRhXL4OGMjf8S7MEibppJqJUCBkdcaPk9O0aMCJ/IPSGAqEi6EzkZ
+         s50Olto3uKg6nk1P9hKzMOl8qiwLCEgE5mhuRTzXhyewZsp3Duis0/p+nWUlyMXVor/V
+         t2a24lEBkXSa10b5kWCNwmeixTVwT18Xn+743oZAk98v+KraAW11oXqr+ES1V1P4fRZ3
+         PGCyt5IucctH5S/R5CJnIz9SIuJXUTXswah0JvznK0UA5k6HtGKIe7qRTH/hYSgjnM6z
+         GQfw
+X-Received: by 10.140.19.212 with SMTP id 78mr5978344qgh.84.1396518345512;
+        Thu, 03 Apr 2015 02:45:45 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [192.168.1.11] (c-68-55-108-86.domain.com. [68.55.108.86])
+        by domain.com with ESMTPSA id c5sm6222801qge.21.2014.04.03.02.45.44
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 03 Apr 2015 02:45:44 -0700 (PDT)
+Subject: Re: Launch assessment
+References: <CA+NiFyMJ+tJUZDAp2Uqcf-u9pnT1hzK25mGg+user@domain.com> <user@domain.com> <6user@domain.com> <06user@domain.com> <5user@domain.com> <69user@domain.com>
+From: Cheryl Mills <cheryl.mills@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+X-Mailer: iPhone Mail (10B142)
+In-Reply-To: <69user@domain.com>
+Message-Id: <9user@domain.com>
+Date: Thu, 3 Apr 2015 05:45:44 -0400
+To: John user <user@domain.com>
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+
+K
+
+How flex is this - I am at friendship heights - would he come up or do I nee
+d to come downtown?
+
+cdm
+

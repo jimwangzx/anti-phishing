@@ -1,0 +1,126 @@
+Received: from domain.com (43.130.141.76) by
+ domain.com (146.215.231.43) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Fri, 21 Nov 2015 16:30:52 -0500
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Fri, 21 Nov 2015 13:30:50 -0800
+Received: from domain.com (domain.com
+ [160.33.194.228])	by domain.com
+ (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with ESMTP id sALLUnfw007096	for
+ <user@domain.com>; Fri, 21 Nov 2015 21:30:49 GMT
+Received: from na01-bn1-domain.com
+ (mail-domain.com [207.46.163.182])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sALLUmBF021534	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Fri, 21 Nov 2015 21:30:49 GMT
+Received: from BN1BFFO11FD020.protection.gbl (10.58.144.33) by
+ BN1BFFO11HUB052.protection.gbl (10.58.144.199) with Microsoft SMTP Server
+ (TLS) id 15.1.6.13; Fri, 21 Nov 2015 21:30:47 +0000
+Received: from domain.com (69.174.83.171) by
+ domain.com (10.58.144.83) with Microsoft SMTP
+ Server id 15.1.6.13 via Frontend Transport; Fri, 21 Nov 2015 21:30:46 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1416605446;
+	h=From: Josh Block <digital@theisraelproject.org>
+	bh=1Ktrjc4SzVGfSV+4uNINNiVWwJ0=;
+	b=rvkT1ERscxNPQjYvRjZuWWFgPukouLPEJCNkI3SdmPs0/HdMp9bzQE2WQ9ibUOQ3
+	9oAZ+rQzJYkQPggPoVbQAMDJQ64mD8ARiUUZzKsrP3norlFBWgKGOBxptaxCOxXs
+	+ivzRJXs8hfSAxzInmoXbov3Rwjll8r7Xqiicrt2Ups=;
+Received: from [10.174.83.204] ([10.174.83.204:50296] helo=10.174.83.204)	by
+ domain.com (envelope-from
+ <183486787-1255588-user@domain.com>)	(ecelerity
+ 3.5.10.45038 r(Core:3.5.10.0)) with ESMTP	id 09/F9-07373-60FAF645; Fri, 21
+ Nov 2015 16:30:46 -0500
+Date: Fri, 21 Nov 2015 16:30:46 -0500
+From: Josh Block <digital@theisraelproject.org>
+Sender: <user@domain.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <183486787.-1616064292@domain.com>
+Subject: Top 3: THE TOWER: Former CIA Director: Iran is "too close to a
+ nuclear weapon"
+Envelope-From: Josh Block <digital@theisraelproject.org>
+List-Unsubscribe: <<<link>>>
+X_email_KEY: 183486787
+X-campaignid: salsasalsa450872-1255588
+X-EOPAttributedMessage: 0
+Received-SPF: TempError (domain.com: error in processing during
+ lookup of domain.com: DNS Timeout)
+Authentication-Results: spf=temperror (sender IP is 69.174.83.171)
+ user@domain.com; 
+X-Forefront-Antispam-Report: CIP:69.174.83.171;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(46034005)(189002)(199003)(2361001)(15975445006)(180100001)(15202345003)(64706001)(102836001)(92726001)(146001)(106916001)(567944001)(21056001)(110136001)(20776003)(107886001)(106466001)(2351001)(107046002)(18206015028)(53806999)(450100001)(95666004)(19617315012)(104016003)(229853001)(87836001)(54356999)(4396001)(19618635001)(16799955002)(120916001)(71186001)(19580395003)(16601075003)(104766002)(44976005)(43066003)(512874002)(50986999)(956001)(99396003)(46102003)(77156002)(110496001)(47976999)(62966003)(7059030)(42262002)(85226002)(18926415006);DIR:INB;SFP:;SCL:1;SRVR:BN1BFFO11HUB052;H:domain.com;FPR:;MLV:sfv;PTR:domain.com;MX:1;A:1;LANG:en;
+X-Microsoft-Antispam: UriScan:;
+X-Microsoft-Antispam: BCL:7;PCL:0;RULEID:(84001);SRVR:BN1BFFO11HUB052;
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:7;PCL:0;RULEID:;SRVR:BN1BFFO11HUB052;
+X-Exchange-Antispam-Report-CFA-Test: BCL:7;PCL:0;RULEID:;SRVR:BN1BFFO11HUB052;
+Return-Path: 183486787-1255588-user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+
+
+
+            Dear Amy,
+
+
+
+            While I write this, Secretary Kerry, Foreign Minister Zarif of Iran and High Commissioner Ashton of the EU are just across the street, meeting to discuss how negotiations will proceed through the deadline on Monday. One foreign minister from the P5+1 has left the city, though he may return later this weekend. Earlier in the day, it was reported Secretary Kerry was also leaving Vienna. For now, he appears to be staying put.
+
+
+
+            At the close of talks today, big gaps remain on a number of key issues:
+
+
+
+                The scope and size of Iran’s future enrichment capabilities,
+                What happens to the nuclear materials they enrich,
+                The number and type of centrifuges they are allowed to keep, and
+                The future of Iran’s plutonium bomb factory.
+
+
+
+            It also seems that two key issues foreshadowing major threats to American and global security — Iran’s ballistic missile program and past work on nuclear weapons development — are no longer being discussed.
+
+
+
+            At the same time, we have seen lawmakers in Washington lay down some very direct terms to the administration in a show of bipartisan consensus.
+
+
+
+            We have to be very skeptical about the agreement that may be coming together. The Iranian regime is a very dangerous group of people that cannot be trusted. Iran-backed Palestinian terrorists have killed more Americans this year than ISIS. This is not a regime that can be allowed to possess the world’s most dangerous weapons.
+
+
+
+            Check out more of the day’s major news below.
+
+
+
+            Josh Block
+            CEO & President
+            The Israel Project
+
+
+
+                        Click here to sign the petition and 
+                        fight Iran's deadly nuclear ambitions
+
+
+
+                                    THE TOWER: Former CIA Director: Iran is “too close to a nuclear weapon”
+
+
+
+                                    LISTEN: TIP media round-table with Yuval Steinitz, Israel's Minister of Intelligence
+
+
+
+                                    Bipartisan push in congress for oversight on Iran nuclear deal
+
+
+
+Click here to unsubscribe

@@ -1,0 +1,97 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Sun, 27 Jul 2015 10:55:00 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with
+ ESMTP id s6RHt077006002	for <user@domain.com>; Sun, 27 Jul 2015 
+ 17:55:00 GMT
+Received: from na01-bn1-domain.com
+ (mail-domain.com [207.46.163.144])	by
+ domain.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with
+ ESMTP id s6RHuvPr017408	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Sun, 27 Jul 2015 17:56:57 GMT
+Received: from BY2FFO11FD041.protection.gbl (10.1.14.31) by
+ BY2FFO11HUB057.protection.gbl (10.1.15.232) with Microsoft SMTP Server (TLS)
+ id 15.0.980.11; Sun, 27 Jul 2015 17:54:53 +0000
+Received: from mx-justfab-domain.com (192.64.237.157) by
+ domain.com (10.1.14.226) with Microsoft SMTP
+ Server id 15.0.990.10 via Frontend Transport; Sun, 27 Jul 2015 17:54:53 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Deadline.com <alerts@deadline.com>
+ bh=MaiQyYIu5k019XHcevFoTfrM6Zk=;
+ b=QKRZOSi/o0oUNYpYpF5TjWnXQDWzc0GnE7ZAe6NnpmTwHrmc8tAWVdAfIusLZJEzCkHlUZHoprIs
+   QZlmiBziKTkBvHdINqxA787juKMIttrVcfCXNg8kA/WnRDLbYT0i7skQio1Ard7RUgqqRlQGV0/Q
+   vPnWtGo12+F3K1Rz3mQ
+Received: from nyp1-p-p4136-prd-jma-04.sailthru.pvt (64.34.57.233) by
+ mx-justfab-domain.com id hqkufm1qqbse for <user@domain.com>; Sun,
+ 27 Jul 2015 13:55:00 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1406483670;
+	s=sailthru; d=deadline.com;
+	h=Date:From: Deadline.com <alerts@deadline.com>
+	bh=NpUq5CS01YpwnSrhSLm8BKgDTETQi08MTXWGduHG+2I=;
+	b=cXAiva06LwC1J5SWmAHqyoS1UBAyrlJ5TyMCvI6HYd4ayNCJ0mD95npkCE/BLO5b
+	nVe+tqyYtlsVK+CUQgVRt8X1zgPysDDA1nl3e4C5cmq8SJgYW+y9u4FW0J/KnW4GtbI
+	pFVSDsWeoHjKvPZDz8DOJUjjfad2+Bj2/VgeqvsU
+Date: Sun, 27 Jul 2015 13:54:30 -0400
+From: Deadline.com <alerts@deadline.com>
+To: <user@domain.com>
+Message-ID: <20140727175430.2864858.2744@domain.com>
+Subject: [domain.com] Specialty B.O.: 'Magic In The Moonlight,' 'A Most
+ Wanted Man' Find A Little Magic In Debuts
+Precedence: bulk
+X-TM-ID: 20140727175430.2864858.2744
+X-Info: Message sent by domain.com customer Deadline
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4136-prd-jma-04.sailthru.pvt
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>,
+ <mailto:user@domain.com>
+X-rpcampaign: stdgp2864858
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: =?us-ascii?Q?UriScan:(133331);SFV:NSPM;SFS:(189002)(199002)(18804003)(771?
+ =?us-ascii?Q?56001)(106996001)(93916002)(85306003)(2361001)(106466001)(81?
+ =?us-ascii?Q?156004)(15975445006)(18926405002)(15202345003)(107046002)(23?
+ =?us-ascii?Q?51001)(101416001)(229853001)(92566001)(62966002)(77096002)(1?
+ =?us-ascii?Q?04016003)(36756003)(77982001)(46102001)(4396001)(15187005004?
+ =?us-ascii?Q?)(106476002)(92726001)(64706001)(69596002)(102836001)(993960?
+ =?us-ascii?Q?02)(575784001)(74502001)(88136002)(105586002)(106356001)(815?
+ =?us-ascii?Q?42001)(95736001)(87836001)(19617315012)(110146005)(196186350?
+ =?us-ascii?Q?01)(19619215002)(956001)(18206015026)(50226001)(50986999)(31?
+ =?us-ascii?Q?966008)(53416004)(83322001)(83072002)(76482001)(110126003)(9?
+ =?us-ascii?Q?59005)(146001)(19580395003)(89996001)(2009002)(84326002)(193?
+ =?us-ascii?Q?00405004)(21056001)(79102001)(19580405001)(71186001)(1078860?
+ =?us-ascii?Q?01)(74662001)(80022001)(87286001)(81342001)(85852003)(449760?
+ =?us-ascii?Q?05)(47976999)(110136001)(104166001)(20776003)(105646008)(562?
+ =?us-ascii?Q?404015)(85226002)(94166001)(17308445002);DIR:INB;SFP:;SCL:1;?
+ =?us-ascii?Q?SRVR:BY2FFO11HUB057;H:mx-justfab-domain.com;FPR:;MLV:ovr?
+ =?us-ascii?Q?nspm;PTR:InfoNoRecords;MX:1;A:1;LANG:en;?
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(120001)
+Received-SPF: None (: domain.com does not designate permitted sender
+ hosts)
+Authentication-Results: spf=none (sender IP is )
+ user@domain.com; 
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+[domain.com] Specialty B.O.: 'Magic In The Moonlight,' 'A Most Wanted Man' Find A Little Magic In Debuts
+
+<<link>> 
+
+<<link>> 
+
+        Deadline Hollywood has posted urgent news:              
+
+        Specialty B.O.: 'Magic In The Moonlight,' 'A Most Wanted Man' Find A Little Magic In Debuts             
+
+        For all of Deadline's headlines, follow us @Deadline on Twitter.                
+
+This email was sent to user@domain.com by Deadline. To ensure delivery to your inbox (and not your spam folder), please add user@domain.com to your address book. If you prefer not to continue receiving email communications, ple
+

@@ -1,0 +1,37 @@
+Received: from relay.Organization.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 5 Feb 2015 21:14:13 +0100
+Received: from domain.com (unknown [192.168.100.50])	by
+ relay.Organization.com (Postfix) with ESMTP id 611D4621B3	for
+ <user@domain.com>; Thu,  5 Feb 2015 19:53:32 +0000 (GMT)
+Received: by domain.com (Postfix)	id ECD812BC0F1; Thu,  5 Feb 2015 
+ 21:14:13 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from ALESSANDROHP (unknown [2.238.180.148])	(using TLSv1 with cipher
+ AES256-SHA (256/256 bits))	(No client certificate requested)	by
+ domain.com (Postfix) with ESMTPSA id 01F3A2BC03E;	Thu,  5 Feb 2015 
+ 21:14:12 +0100 (CET)
+From: Alessandro Scarafile <a.scarafile@Organization.com>
+To: 'said ortiz' <user@domain.com>, <user@domain.com>
+CC: 'Daniele Milan' <user@domain.com>, 'Daniel Martinez Moreno'
+	<user@domain.com>, 'Alex Velasco' <user@domain.com>
+References: <1user@domain.com> <54user@domain.com>
+In-Reply-To: <54user@domain.com>
+Subject: R: Fw: Firewall
+Date: Thu, 5 Feb 2015 21:14:19 +0100
+Organization: Hacking Team
+Message-ID: <00fc01d04180$541fbd90$fc5f38b0$@Organization.com>
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQH8CKj0UkTwCnVtbh0B/yfwfER+SwGwndLunH1o+oA
+Content-Language: it
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+X-libpst-forensic-sender: /O=Organization/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=ALESSANDRO SCARAFILED45
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-2135562172_-_-"
+
+Hi all.Just a very quick re-cap. Unfortunately, at the moment the TeamViewer connection is the only connection working properly there. Remote Desktop connections to both RCS servers and web connections to switch and firewall management seems to be not ready/working. I asked Said to go _physically_ on systems and verify the situation and then test personally the remote connections working.After that, we can consider to connect remotely and continue the problem determination. We’ll domain.com for updates. Alessandro  Da: said ortiz [mailto:user@domain.com] Inviato: giovedì 5 febbraio 2015 20:55A: Alessandro Scarafile; 'user@domain.com'Cc: Daniele Milan; Daniel Martinez Moreno; Alex VelascoOggetto: Re: Fw: Firewall yes, this are the credentials for the TV sessionID: 155 682 836Pass : 8570On 2/5/2015 11:52 AM, Alessandro Scarafile wrote:Hi Said.How is going? Are the connections to systems ready?Alessandro-- Alessandro Scarafile Field Application Engineer Sent from my mobile. From: Alessandro Scarafile <a.scarafile@Organization.com>

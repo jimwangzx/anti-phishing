@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp1146525lfi;
+        Sun, 19 Apr 2015 12:50:04 -0700 (PDT)
+X-Received: by 10.180.95.10 with SMTP id dg10mr19468194wib.41.1429473004026;
+        Sun, 19 Apr 2015 12:50:04 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wg0-domain.com (mail-wg0-domain.com. [74.125.82.42])
+        by domain.com with ESMTPS id el10si28757964wjd.180.2015.04.19.12.50.03
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 19 Apr 2015 12:50:04 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.82.42 as permitted sender) client-ip=74.125.82.42;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 74.125.82.42 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wg0-domain.com with SMTP id k9so158941300wgs.3
+        for <user@domain.com>; Sun, 19 Apr 2015 12:50:03 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Nick Merrill <nmerrill@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=i8kUrB7dT6G2eIJ0y6yCFNPOzjvWtN4e/MifRWkKzyQ=;
+        b=GfM2n2iHZ53DKi0ss60EraWMyd3Fr+3FevOiVPtc/KyR18G9rpITvXsnL4yExM8EjH
+         0lTqDjvGxUbNiHnA5yEeHbgxCXz6tn3ODIokOTIgtDA0hd3zmIXtf+LKaxm5zYC6CnSJ
+         /80NW5Wi6+6YAvbUm82Q0CnwbvwYJ3iCk+QaXD7d0la8UWxdZRzxkkgRwg9hF9NPY+aH
+         5kY9YVVASgtL0qdJnkDyGkwJnpIFOQWAOh24JVuuDqABqlIj6Xu6aXEmXAwyRlhh4f97
+         BXUXejjDYpKLactIUZNVqyQ3P0HBN3Nv47CCep8pr1W6NpEFqb4OTx+d87l3nkJ7ILfi
+         1XNA
+X-Gm-Message-State: ALoCoQkjM4d7GJoHpcONISA1h0AhpFvaEukpA9jnNwpfUrHYHr3y3Zz2xBdEif7a0oLXn58RK8Oa
+X-Received: by 10.180.97.225 with SMTP id ed1mr18942640wib.17.1429473003793;
+ Sun, 19 Apr 2015 12:50:03 -0700 (PDT)
+From: Nick Merrill <nmerrill@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <-7749918171438515863@unknownmsgid> <user@domain.com>
+ <5270350684375920491@unknownmsgid> <CAPrY+5user@domain.com>
+ <CAOpGB0+9user@domain.com>
+In-Reply-To: <CAOpGB0+9user@domain.com>
+Date: Sun, 19 Apr 2015 15:50:04 -0400
+Message-ID: <5119257136706075922@unknownmsgid>
+Subject: Re: Paper
+To: Huma Abedin <user@domain.com>
+CC: Josh Schwerin <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Robby Mook <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=f46d0443065a9b7f9c0514191ec6
+
+This is excellent.  Give me two minutes to get the other local reporter
+names from Harrell.  If we don't have 2 min because we lose her soon, just
+send it.
+

@@ -1,0 +1,82 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp2773713lfy;
+        Tue, 12 Jan 2015 14:28:38 -0800 (PST)
+X-Received: by 10.13.239.133 with SMTP id y127mr98695134ywe.173.1452637717942;
+        Tue, 12 Jan 2015 14:28:37 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail2997.e.leahyforvermont.com (mail2997.e.leahyforvermont.com. [208.85.51.243])
+        by domain.com with ESMTP id a128si8886519ywf.34.2016.01.12.14.28.37
+        for <user@domain.com>;
+        Tue, 12 Jan 2015 14:28:37 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.85.51.243 as permitted sender) client-ip=208.85.51.243;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 208.85.51.243 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=spop1024; d=leahyforvermont.com;
+ h=Date:From: Patrick Leahy <info@leahyforvermont.com>
+ bh=ijBFcuEZYsVqkrs7inwYIZdo3m8=;
+ b=a4n7FgjR9Pm7BBCzdMrNoF5V1hOL761qVGS2gXfzc1mf4Zw0YE02Z7Cz7YVnSkoKqCfnoQRQ+ngk
+   KaEGMBJ2W47s2nENa7ZsSRj4F4VjBnw/75kpJxJkgoCAIURsREejMnFiYI1fjNYdRnPkWC7kRhxW
+   NsHqEoWDIyufM9t0Io8
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=spop1024; d=leahyforvermont.com;
+ b=qYCGggxjMCFSLlFGXdfpxAt35bMmSuC3pOcJLKihZ7SstuZcNXjWBdb6Q4NfEUL+T9VtjoZFdMu8
+   9LwvINUfBPZ+CntD0cJATy2iVObU9OrFXkEX5DcuIy1R0x592zELO6H7BDLd2N9WzpbLxQtewicz
+   VwsaHi89Kf2WxkUmC9E=;
+Received: by mail2997.e.leahyforvermont.com id hilv1a19if4j for <user@domain.com>; Tue, 12 Jan 2015 22:26:41 +0000 (envelope-from <user@domain.com>)
+Date: Tue, 12 Jan 2015 22:26:41 +0000 (GMT)
+From: Patrick Leahy <info@leahyforvermont.com>
+Reply-To: user@domain.com
+To: user@domain.com
+Message-ID: <1597167201.1936200111452637601495.user@domain.com>
+Subject: Seven years of change
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1001728_1088517461.1452637567657"
+x-mid: 8426169
+x-job: 8426169
+Feedback-ID: pod2_24128_8426169_841354057:pod2_24128:ibmsilverpop
+x-rpcampaign: sp8426169
+x-orgId: 24128
+List-Unsubscribe: <mailto:user@domain.com?subject=Unsubscribe>
+
+President Obama has accomplished so much in the last seven years.
+
+John,						
+
+Seven years ago...
+
+Our economy was in a tailspin. We were losing 800,000 jobs a month and millions of Americans were out of work.
+
+And today, as President Obama delivers his last State of the Union address...
+
+We've had a record 69 months of job growth. The domain.com has shrunk by $1 trillion. 11.3 million people have signed up for health care under the Affordable Care Act. And our country is once again respected on the world stage.
+
+This is what change looks like. But there are many of President Obama's priorities that we need to continue to fight for. We need to continue the push for economic equality, for repealing Citizens United, and for combatting climate change -- and that's just a start.
+
+I'm committed to carrying on this fight. That's why I'm running for reelection. Will you contribute $500, $750, or more to my reelection campaign today, to make sure we have the resources to continue the fight for change?
+
+ <<link>> 
+
+I'll never forget President Obama's first address to Congress. In fact, I have it framed in my office.						
+
+In tonight's State of the Union speech, President Obama will lay out his priorities for the next year -- and for many years. I'm committed to carrying out his priorities. Can I count on you?
+
+Please, contribute $500, $750, or more today to make sure my campaign can fight for progress for years to come:
+
+ <<link>> 
+
+Together we've accomplished much in the last seven years. Here's to the next seven.
+
+Patrick Leahy
+U.S. Senator						
+
+CONTRIBUTE: <<link>> 						
+
+                     This email was sent to user@domain.com Click here to unsubscribe <<link>>                                 
+
+Contributions or gifts to Leahy for Senate are not tax deductible.                                                             
+Paid for by Leahy for Senate                                                                  
+All content (c) 2015 Leahy for Senate, All Rights Reserved                                 
+
+Privacy Policy <<link>> 
+

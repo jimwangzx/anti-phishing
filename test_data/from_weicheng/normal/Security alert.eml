@@ -1,0 +1,157 @@
+Delivered-To: weicheng@edison.tech
+Received: by 2002:a0c:aa0d:0:0:0:0:0 with SMTP id d13csp203327qvb;
+        Thu, 13 Aug 2020 16:06:34 -0700 (PDT)
+X-Received: by 2002:a4a:380b:: with SMTP id c11mr6527794ooa.17.1597359994635;
+        Thu, 13 Aug 2020 16:06:34 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1597359994; cv=none;
+        d=google.com; s=arc-20160816;
+        b=td13ubCO2HujLej7XMqJRnM+BnlXd1Oi4fRMZUjnXtvdiE+En8zX8NJKRnHPyBf8HM
+         YuzBEjDRw8Uu/g3MV4Efb0cWEc9B9bCgGlrYs8DxguT2W4jcKK6LJ+W6J1QIxL3KSax6
+         beH0Sb/5RFssfLFA5Zjinyw9+qqZDn6ajkXxYpuuwk8b6fWBgHWoTo0CnWSDjqBakMGn
+         X4m4jsGAUjtX9hax6uqgW/zutho6r3FV7Z9wQIzCiqX1sBRY41FeKQb5/p+pVutJIhwp
+         zHPQ7Pp2iMkPpOsnh15hvfJHSxx5x0wYw7FhqUOTpXXM7WLlOxzphMTXWGHU/5FWS6hD
+         UJXQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:from:subject:message-id:feedback-id:date:mime-version
+         :dkim-signature;
+        bh=j43LEY3xAQ2/lCuTlwpKxvuJ2mvkH1BMtQh46LAJTEc=;
+        b=zDdYL/4vQ1MoM1uCSE5ipDpaS833HjKaYzO/odJSm4lHBD1+MQX7COxpF7gziSz+lb
+         qKOcvQzTi8WrbjCF+MyaID75cMCtvStWAKSoKTLYvEa2zdqqV03XUS1mQ6biAf+6CmiB
+         PxEMOV4Luhb9zgUnKEmegGh8dtgspl/LMI9S2zB72mQ8PXrOKshAzAuwd+QDdM/WGLqi
+         B5EOz2sEfgsfGJ10JirGK9osHO65cRzsfUC4cBUjBo8RrTgf8JdkEinvpkIU4fBKsqOr
+         dDRLyUx8uo/KN/DUtH4iGtcBR3eZYqHtr4FtRrYvPclupbI+ZfuLXQxl86oFzSeIB+oW
+         z1AA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@accounts.google.com header.s=20161025 header.b=ryJeA6dr;
+       spf=pass (google.com: domain of 3esc1xwgtcn8op-sfqmzbddpvout.hpphmf.dpn7fjdifohfejtpo.ufdi@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3esc1XwgTCN8OP-SFQMZBDDPVOUT.HPPHMF.DPN7FJDIFOHFEJTPO.UFDI@gaia.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com
+Return-Path: <3esc1XwgTCN8OP-SFQMZBDDPVOUT.HPPHMF.DPN7FJDIFOHFEJTPO.UFDI@gaia.bounces.google.com>
+Received: from mail-sor-f73.google.com (mail-sor-f73.google.com. [209.85.220.73])
+        by mx.google.com with SMTPS id e14sor5389487oie.50.2020.08.13.16.06.34
+        for <Weicheng@edison.tech>
+        (Google Transport Security);
+        Thu, 13 Aug 2020 16:06:34 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3esc1xwgtcn8op-sfqmzbddpvout.hpphmf.dpn7fjdifohfejtpo.ufdi@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) client-ip=209.85.220.73;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@accounts.google.com header.s=20161025 header.b=ryJeA6dr;
+       spf=pass (google.com: domain of 3esc1xwgtcn8op-sfqmzbddpvout.hpphmf.dpn7fjdifohfejtpo.ufdi@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3esc1XwgTCN8OP-SFQMZBDDPVOUT.HPPHMF.DPN7FJDIFOHFEJTPO.UFDI@gaia.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=accounts.google.com; s=20161025;
+        h=mime-version:date:feedback-id:message-id:subject:from:to;
+        bh=j43LEY3xAQ2/lCuTlwpKxvuJ2mvkH1BMtQh46LAJTEc=;
+        b=ryJeA6dr9oZKTnSeAFDTkImzS1iNRm/EGeH3wbP7aSEhU4qciV8I1EkPcZ0IqF8qq5
+         F4shYtYx8Jlivfh8HhtbuSRDTumFTGcHi96De7a66zUyoOXKfIypsquJdysKU3q7P9bw
+         i9LbF0oyGZTZhv+seIvYbWNGjmO403eTzkzLZN25sDeget8IV+Z+G8BRjHdSI2XwA927
+         emAXp6SiTjyurzGHKu1KilQuSwd19S95AP7Y9OJFQ1jDvg1PS1u5yMfoKwgx1W1RmwbB
+         nROQG4lcxBQnzJUwHN2xEELyluAO6xzP4gPQLJKo331d5XFh1qWMMjEbOH07Qpxqwm9b
+         OftQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:date:feedback-id:message-id:subject
+         :from:to;
+        bh=j43LEY3xAQ2/lCuTlwpKxvuJ2mvkH1BMtQh46LAJTEc=;
+        b=OyWPeH6lSOEwtqEvgz1+tNJSImDTAdvVbXfsSC7x0DQd+RYZGHyw8BFpiJiHywqHJ8
+         l0PchzwnY7SLMUt1Xhh3/dycmEK9MZTKCXOCyjUzsWWSvMHVlfw4elkeHyc9msx2cOKz
+         WNSqoItHm0GFYGWgSYfgiHckXijKgBshOi4ucpxRuuKTEbGn4wywkbsCWbaz+WvX0pcf
+         frpqNr/ni1ii404nU+n1thna4jZWwN+dgR4e6bigvRTNEorus0o2ZHSONc6g+Quwq9Zm
+         uSTmJ3rRsMyYAH1mbcGO3nEUs5ZAz4F9dKd8FsSDUeaNe96aI/rCxIs4OzcRm3ZXwvcz
+         ARAA==
+X-Gm-Message-State: AOAM532JrYu9AorWIdHdApsSNz5+jqqP3W+BAqPs8fO6fF9DzdrRgZVJ
+	f7X3FS3+6sqfziggcVPVHupJjlwa/qqu
+X-Google-Smtp-Source: ABdhPJz3uxNX2Dz2iBJX0Q61TaqUDJA+6TP9k65SaXdjd/n8GuEvAZYbuz6mpiDbYVwJcnml5Fh3GWWwGnxx4LpH7m7nCQ==
+MIME-Version: 1.0
+X-Received: by 2002:aca:b50b:: with SMTP id e11mr133195oif.10.1597359994079;
+ Thu, 13 Aug 2020 16:06:34 -0700 (PDT)
+Date: Thu, 13 Aug 2020 23:06:33 GMT
+X-Account-Notification-Type: 31-anexp#-experiment
+Feedback-ID: 31-anexp#-experiment:account-notifier
+X-Notifications: 1392e9aa09400000
+Message-ID: <IqBDs3oNYUT2e49HsArMbg.0@notifications.google.com>
+Subject: Security alert
+From: Google <no-reply@accounts.google.com>
+To: Weicheng@edison.tech
+Content-Type: multipart/alternative; boundary="0000000000000688bd05acca5b92"
+
+--0000000000000688bd05acca5b92
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+W2ltYWdlOiBHb29nbGVdDQpOZXcgZGV2aWNlIHNpZ25lZCBpbiB0bw0KDQoNCldlaWNoZW5nQGVk
+aXNvbi50ZWNoDQpZb3VyIEdvb2dsZSBBY2NvdW50IHdhcyBqdXN0IHNpZ25lZCBpbiB0byBmcm9t
+IGEgbmV3IEFwcGxlIGlQaG9uZSBkZXZpY2UuDQpZb3UncmUgZ2V0dGluZyB0aGlzIGVtYWlsIHRv
+IG1ha2Ugc3VyZSBpdCB3YXMgeW91Lg0KQ2hlY2sgYWN0aXZpdHkNCjxodHRwczovL2FjY291bnRz
+Lmdvb2dsZS5jb20vQWNjb3VudENob29zZXI/RW1haWw9V2VpY2hlbmdAZWRpc29uLnRlY2gmY29u
+dGludWU9aHR0cHM6Ly9teWFjY291bnQuZ29vZ2xlLmNvbS9hbGVydC9udC8xNTk3MzU5OTkzMDMw
+P3JmbiUzRDMxJTI2cmZuYyUzRDElMjZlaWQlM0QzMjQ2MTQ0NjY2MDE5MzM2ODUwJTI2ZXQlM0Qw
+JTI2YW5leHAlM0QtZXhwZXJpbWVudD4NCllvdSByZWNlaXZlZCB0aGlzIGVtYWlsIHRvIGxldCB5
+b3Uga25vdyBhYm91dCBpbXBvcnRhbnQgY2hhbmdlcyB0byB5b3VyDQpHb29nbGUgQWNjb3VudCBh
+bmQgc2VydmljZXMuDQrCqSAyMDIwIEdvb2dsZSBMTEMsIDE2MDAgQW1waGl0aGVhdHJlIFBhcmt3
+YXksIE1vdW50YWluIFZpZXcsIENBIDk0MDQzLCBVU0ENCg==
+--0000000000000688bd05acca5b92
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head><meta name=3D"format-detection" cont=
+ent=3D"email=3Dno"/><meta name=3D"format-detection" content=3D"date=3Dno"/>=
+<style nonce=3D"4k9JguOkS4aUtZivPHJsgA">.awl a {color: #FFFFFF; text-decora=
+tion: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,=
+Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color=
+: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; tex=
+t-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: =
+6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 6=
+00px) {.mdv2rw {padding: 40px 40px;}} </style><link href=3D"//fonts.googlea=
+pis.com/css?family=3DGoogle+Sans" rel=3D"stylesheet" type=3D"text/css"/></h=
+ead><body style=3D"margin: 0; padding: 0;" bgcolor=3D"#FFFFFF"><table width=
+=3D"100%" height=3D"100%" style=3D"min-width: 348px;" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" lang=3D"en"><tr height=3D"32" style=3D"height: =
+32px;"><td></td></tr><tr align=3D"center"><td><div itemscope itemtype=3D"//=
+schema.org/EmailMessage"><div itemprop=3D"action" itemscope itemtype=3D"//s=
+chema.org/ViewAction"><link itemprop=3D"url" href=3D"https://accounts.googl=
+e.com/AccountChooser?Email=3DWeicheng@edison.tech&amp;continue=3Dhttps://my=
+account.google.com/alert/nt/1597359993030?rfn%3D31%26rfnc%3D1%26eid%3D32461=
+44666019336850%26et%3D0%26anexp%3D-experiment"/><meta itemprop=3D"name" con=
+tent=3D"Review Activity"/></div></div><table border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" style=3D"padding-bottom: 20px; max-width: 516px; min-wid=
+th: 220px;"><tr><td width=3D"8" style=3D"width: 8px;"></td><td><div style=
+=3D"border-style: solid; border-width: thin; border-color:#dadce0; border-r=
+adius: 8px; padding: 40px 20px;" align=3D"center" class=3D"mdv2rw"><img src=
+=3D"https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_=
+74x24dp.png" width=3D"74" height=3D"24" aria-hidden=3D"true" style=3D"margi=
+n-bottom: 16px;" alt=3D"Google"><div style=3D"font-family: &#39;Google Sans=
+&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin sol=
+id #dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24p=
+x;text-align: center; word-break: break-word;"><div style=3D"font-size: 24p=
+x;">New device signed in&nbsp;to</div><table align=3D"center" style=3D"marg=
+in-top:8px;"><tr style=3D"line-height: normal;"><td align=3D"right" style=
+=3D"padding-right:8px;"><img width=3D"20" height=3D"20" style=3D"width: 20p=
+x; height: 20px; vertical-align: sub; border-radius: 50%;;" src=3D"https://=
+lh3.googleusercontent.com/a-/AOh14Gib8v4_q8nMCUU15NoztOQ1LryiXcArQX0GfuMYew=
+=3Ds96" alt=3D""></td><td><a style=3D"font-family: &#39;Google Sans&#39;,Ro=
+boto,RobotoDraft,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-s=
+ize: 14px; line-height: 20px;">Weicheng@edison.tech</a></td></tr></table></=
+div><div style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-serif; f=
+ont-size: 14px; color: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20p=
+x; text-align: center;">Your Google Account was just signed in to from a ne=
+w Apple iPhone device. You're getting this email to make sure it was you.<d=
+iv style=3D"padding-top: 32px; text-align: center;"><a href=3D"https://acco=
+unts.google.com/AccountChooser?Email=3DWeicheng@edison.tech&amp;continue=3D=
+https://myaccount.google.com/alert/nt/1597359993030?rfn%3D31%26rfnc%3D1%26e=
+id%3D3246144666019336850%26et%3D0%26anexp%3D-experiment" target=3D"_blank" =
+link-id=3D"main-button-link" style=3D"font-family: &#39;Google Sans&#39;,Ro=
+boto,RobotoDraft,Helvetica,Arial,sans-serif; line-height: 16px; color: #fff=
+fff; font-weight: 400; text-decoration: none;font-size: 14px;display:inline=
+-block;padding: 10px 24px;background-color: #4184F3; border-radius: 5px; mi=
+n-width: 90px;">Check activity</a></div></div></div><div style=3D"text-alig=
+n: left;"><div style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-se=
+rif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 18px; padding-to=
+p: 12px; text-align: center;"><div>You received this email to let you know =
+about important changes to your Google Account and services.</div><div styl=
+e=3D"direction: ltr;">&copy; 2020 Google LLC, <a class=3D"afal" style=3D"fo=
+nt-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54=
+); font-size: 11px; line-height: 18px; padding-top: 12px; text-align: cente=
+r;">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</a></div></div>=
+</div></td><td width=3D"8" style=3D"width: 8px;"></td></tr></table></td></t=
+r><tr height=3D"32" style=3D"height: 32px;"><td></td></tr></table></body></=
+html>
+--0000000000000688bd05acca5b92--

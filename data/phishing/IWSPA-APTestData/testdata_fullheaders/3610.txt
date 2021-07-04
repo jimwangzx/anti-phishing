@@ -1,0 +1,51 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.71 with SMTP id o68csp2232068lfi;
+        Tue, 10 Mar 2015 13:09:52 -0700 (PDT)
+X-Received: by 10.107.15.155 with SMTP id 27mr41698231iop.49.1426018191325;
+        Tue, 10 Mar 2015 13:09:51 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ie0-domain.com (mail-ie0-domain.com. [2607:f8b0:4001:c03::234])
+        by domain.com with ESMTPS id f17si1979195ich.32.2015.03.10.13.09.50
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 10 Mar 2015 13:09:51 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::234 as permitted sender) client-ip=2607:f8b0:4001:c03::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ie0-domain.com with SMTP id sl2so28237910iec.1
+        for <user@domain.com>; Tue, 10 Mar 2015 13:09:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Jennifer Palmieri <jennifer.m.palmieri@gmail.com>
+         :content-type;
+        bh=0NgUEZlrsyXKuUOrJ/WImaXQUJT3jyM6zf4NjuCmBoE=;
+        b=vNjgTSuBigDHiLCMRkpfXZBEAJee70FwBVNBeX1vcloEnovj+pKijwcVrcQWy/i6C2
+         W6xsAi0z4Qd1n3nQtlaM5UBj+ZmttyAGrW+dliguLMteFqRUTxXsB4MHkwHpSZeBDmvE
+         bbCacpHxUDgyw/SNqmv+vYU27IOlwf73+ddkO2cq3q7uBArORsMQGEy5CNgxAv+4UNdk
+         4f37DxDfjjffIUPQgz+mTvpcF2lTkj+wVig3BY6vLTghg68a0EvWFT7xArjYqNDqCJJS
+         HrWR1u7DpWMY0CqrPR6VU0FnMhvkIXl7vm7IeAD7c93yaCI9Qjw9Xp+BEGurGR5KmQnV
+         otPA
+MIME-Version: 1.0
+X-Received: by 10.50.43.130 with SMTP id w2mr59645950igl.30.1426018190595;
+ Tue, 10 Mar 2015 13:09:50 -0700 (PDT)
+Received: by 10.50.218.163 with HTTP; Tue, 10 Mar 2015 13:09:50 -0700 (PDT)
+In-Reply-To: <CAE6FiQ8rQwgnjdrai+FSDyz97c+user@domain.com>
+References: <CAE6FiQ_UfqNpMcyE9bzJtXZev7+n4i6ve5O6hiS0Dj+user@domain.com>
+	<CAJNDScF3apGrORPa6SJN+user@domain.com>
+	<CAE6FiQ8rQwgnjdrai+FSDyz97c+user@domain.com>
+Date: Tue, 10 Mar 2015 16:09:50 -0400
+Message-ID: <user@domain.com>
+Subject: Re: So?
+From: Jennifer Palmieri <jennifer.m.palmieri@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e0103de4eb19f4b0510f4bb3e
+
+you able to call Schumer?  btw, the big point for others to make is she and
+Jeb are in same situation.  He had his own server, used personal email for
+govt business, decided what was official and personal himself, and
+determined what he wanted to make public.  Nothing wrong with that, nothing
+wrong with what she did.   No one is asking for his server!!!
+
+On Tue, Mar 10, 2015 at 4:06 PM, John user <user@domain.com>

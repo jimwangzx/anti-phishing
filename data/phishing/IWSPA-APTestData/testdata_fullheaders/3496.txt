@@ -1,0 +1,47 @@
+Delivered-To: user@domain.com
+Received: by 10.25.44.146 with SMTP id s140csp160411lfs;
+        Thu, 12 Mar 2015 07:15:03 -0700 (PDT)
+X-Received: by 10.229.227.71 with SMTP id iz7mr7829713qcb.0.1426169700205;
+        Thu, 12 Mar 2015 07:15:00 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::22d])
+        by domain.com with ESMTPS id b3si6563037qkb.89.2015.03.12.07.14.59
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 12 Mar 2015 07:15:00 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::22d as permitted sender) client-ip=2607:f8b0:400d:c04::22d;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::22d as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-domain.com with SMTP id q107so18060804qgd.6;
+        Thu, 12 Mar 2015 07:14:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Hartina Flournoy <tflournoy11@gmail.com>
+         :to:mime-version;
+        bh=uvTH1nAVoxfTjRF1IlNADqbeaQ6epig3GghHS9IL6p8=;
+        b=0AwtEHYmH9h9I89zlZnXkKAyzApwAOhq/tZh1UZvVIbzoxjHiFlwCOIDlIX0RZsQvp
+         jTNGldhTsU02o8IfgGtb+0aMT8H244STgwVfg5lrHIMdKaQBeAbMBnjVt0RdWZt7Q78h
+         BiabGbf1OfXwuStUe7wGlA8cO9qZwyXB+2PfynVlSw3yVKpaJ1bUn0VSjLsTorQVsjnK
+         bqKweJJ/mJOHWr00SF8Mc7TiqqtJlc4fKvVK0Ljah8T8MaBHumOTFIWYZKov+WXI0jgq
+         iSXNG1KtVo33G4F9XfNTJPSSHo8HlMaRvBbvtmX7Eil3vL9EOBLYSfUxOS6Db0R56LxY
+         qCig
+X-Received: by 10.140.238.79 with SMTP id j76mr55907970qhc.83.1426169699630;
+        Thu, 12 Mar 2015 07:14:59 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [192.168.0.2] (cpe-74-71-28-26.domain.com. [74.71.28.26])
+        by domain.com with ESMTPSA id j13sm4804821qkh.46.2015.03.12.07.14.58
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 12 Mar 2015 07:14:59 -0700 (PDT)
+From: Hartina Flournoy <tflournoy11@gmail.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Subject: Morgan Stanley
+Message-Id: <674user@domain.com>
+Date: Thu, 12 Mar 2015 10:14:57 -0400
+To: Huma Abedin <user@domain.com>, John user <user@domain.com>, 
+ Robert Mook <user@domain.com>
+Mime-Version: 1.0 (Mac OS X Mail 6.6 \(1510\))
+X-Mailer: Apple Mail (2.1510)
+
+Where are we? My boss wants me to pull it down.

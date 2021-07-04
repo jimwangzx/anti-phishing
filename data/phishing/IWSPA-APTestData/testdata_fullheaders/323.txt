@@ -1,0 +1,38 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.99 with SMTP id n90csp74571qga;
+        Sat, 26 Jul 2015 00:08:35 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.181.13.44 as permitted sender) client-ip=10.181.13.44
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 10.181.13.44 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+X-Received: from domain.com ([10.181.13.44])
+        by 10.181.13.44 with SMTP id ev12mr11704340wid.57.1406358515041 (num_hops = 1);
+        Sat, 26 Jul 2015 00:08:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Gabe user <guser@gmail.com>
+        bh=xQpYRO86Wtq/8HnB94bh1AAyDRfxkH/mI8WgfuUYgtY=;
+        b=JiC3Q+QeFSk4padr+fnJ/Vak5EkUV1yzrnLEZPZR7djqBAlm2oHXV4hEoeG1Zm0xuj
+         sQu1pWxRaOhYgJCzpzxQlWg8TYL3nMY8llTbxDKUs3xfeAEfZw/0UpOE6Y66jPNj+ut7
+         9v4IoBzWlcw+rBdn7FMWIMa/2PMbqPAXilIxoCUr5Fvl6Vy3mSg83hZ56uAOBoz9DfTh
+         ajONVZ609djSiNKU6IS3b9mYMxZ2/KdcBRoh4VrXkQFbA2hdNTqs+xIFU8fti3RReVZk
+         LLD7gLrmbBVKOxVRxCtAPTQDYV7odLVrvNPFfS98lMIXhydg1myDtGjhuM8a/iyUZFop
+         J7sQ
+MIME-Version: 1.0
+X-Received: by 10.181.13.44 with SMTP id ev12mr11704340wid.57.1406358515035;
+ Sat, 26 Jul 2015 00:08:35 -0700 (PDT)
+Received: by 10.216.123.140 with HTTP; Sat, 26 Jul 2015 00:08:35 -0700 (PDT)
+Date: Sat, 26 Jul 2015 10:08:35 +0300
+Message-ID: <user@domain.com>
+Subject: Turkey Trot
+From: Gabe user <guser@gmail.com>
+To: "User" <user@domain.com>, 
+ Megan Rouse <user@domain.com>, Jessica S <user@domain.com>
+Content-Type: multipart/alternative; boundary=f46d04389549b7353b04ff135b02
+
+Registration is now open!  I want to confirm that I should register all
+four of us (Pa, Megan, Jess & Gabe).  Anyone else?
+
+-- 
+Gabe user

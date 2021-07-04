@@ -1,0 +1,913 @@
+Delivered-To: user@domain.com
+Received: by 10.141.82.1 with SMTP id j1cs53974rvl;
+        Tue, 15 Jul 2015 19:43:26 -0700 (PDT)
+Received: by 10.140.127.13 with SMTP id z13mr7916015rvc.194.1216176206319;
+        Tue, 15 Jul 2015 19:43:26 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wa-out-0708.domain.com (wa-out-0708.domain.com [209.85.146.248])
+        by domain.com with ESMTP id l31si12557824rvb.6.2008.07.15.19.43.19;
+        Tue, 15 Jul 2015 19:43:26 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.146.248 as permitted sender) client-ip=209.85.146.248;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.146.248 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by wa-out-0708.domain.com with SMTP id v40so116291wah.6
+        for <user@domain.com>; Tue, 15 Jul 2015 19:43:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Evan Whitbeck" <evan@progressiveaccountability.org>
+         :mime-version:content-type:references:sender:precedence
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        bh=KC1RgN1ycfi5nptG4mDgV0zudPuBhTRTOIvxnlh9MwA=;
+        b=510zghj4v7oYKh/RXrkB8lKKP/T94xSzmfH4qpyvsy8aF9W7cHjXnIscGIRdRnjwFg
+         x2CQx1K8EjiiJTnObb1q2hatqQwssYXZLRHlAFyLdzj56VTVMJTNyOVYG4Y/kLh6n+Eo
+         kKd+T2hUwAupAUjF6FITa8i6DMhXyiN/788E4
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Evan Whitbeck" <evan@progressiveaccountability.org>
+         :content-type:references:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere;
+        b=ubj/mmCuVGo/TggV6/aOzUWKnSfb5Y/wFv+vUNRFYXBRniRDB1OUHRlU5vu99hEcC5
+         BDV9oWlkjiKtWKgX1g/KBvfFk1x6erAkp6AWiTMQGu/4hq8g9T4tH20ng7n5VpCbkF2a
+         PeX/uqbMuqzgbzCQvj1pcm/ARYz7qP6IdO5KU
+Received: by 10.114.27.19 with SMTP id a19mr996991waa.8.1216176193764;
+        Tue, 15 Jul 2015 19:43:13 -0700 (PDT)
+Received: by 10.107.113.4 with SMTP id q4gr1218prm.0;
+	Tue, 15 Jul 2015 19:43:03 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.100.107.7 with SMTP id f7mr565935anc.6.1216176182341; Tue, 15 Jul 2015 19:43:02 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wx-out-0506.domain.com (wx-out-0506.domain.com [66.249.82.229]) by domain.com with ESMTP id 7si7443144yxg.1.2008.07.15.19.43.02; Tue, 15 Jul 2015 19:43:02 -0700 (PDT)
+Received-SPF: neutral (domain.com: 66.249.82.229 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=66.249.82.229;
+Authentication-Results: domain.com; spf=neutral (domain.com: 66.249.82.229 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by wx-out-0506.domain.com with SMTP id h27so2140014wxd.7 for <user@domain.com>; Tue, 15 Jul 2015 19:43:02 -0700 (PDT)
+Received: by 10.70.67.14 with SMTP id p14mr21051146wxa.38.1216176181889; Tue, 15 Jul 2015 19:43:01 -0700 (PDT)
+Received: by 10.70.109.20 with HTTP; Tue, 15 Jul 2015 19:43:01 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Tue, 15 Jul 2015 22:43:01 -0400
+From: "Evan Whitbeck" <evan@progressiveaccountability.org>
+To: user@domain.com
+Subject: [big campaign] Media Monitoring Report - Evening 07/15/08
+In-Reply-To: <user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_9000_2854792.1216176181854"
+References: <user@domain.com>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+*Main Topics:* Economy, Foreign Policy, Afghanistan and Iraq, Drilling*
+Summary of Shift:* On the domestic front the economy continues to be the to
+p
+concern; President Bush spoke today, trying to assuage American's fears as
+Fannie Mae and Freddie Mac still teeter. Meanwhile, General Motors, facing
+tough prospects, cuts thousands of jobs. In foreign affairs, Afghanistan,
+with its increasing violence, took over for Iraq. The candidates sparred
+over the correct course of action and Afghanistan was used as a springboard
+to the debate over the efficacy of the surge and withdrawal timetables in
+Iraq. Lawyers for a detainee released Guantanamo interrogation tapes and ne
+w
+studies show that our children, poor or not, are getting fatter.
+
+Highlights
+
+1)    Bush's economy speech
+
+a.     CNN: Bush continues to push that the economy is doing well
+b.     CNN: Bush talks government bailouts, gas prices, oil exploration and
+Obama's trip to Iraq
+c.     CNN: Bush says we are already "surging" and have "surged" in
+Afghanistan
+d.     CNN: Bush: "I'm not an economist . . . I'm an optimist . . . I am 62
+.
+I'm having trouble remembering a lot of things
+
+2)    Foreign policy
+
+a.     CNN: Begala calls out Fiorina for working with Ahmadinejad, Iran
+b.     CNN: Dana Bash investigates McCain's claim that "I know how to win
+wars"
+c.     MSNBC: The surge's efficacy debated, McCain is no Eisenhower
+d.     MSNBC: McCain's Czechoslovakia mistake on *Hardball*
+e.     ABC: New polls show McCain with foreign policy advantage, Obama
+winning on economy
+f.      MSNBC: Matthews brings up McCain's "Bomb-Iran" joke during
+discussion on Iran policy
+
+3)    CNN: Investigation of Cindy as John's "Meal Ticket" and the impact of
+Busch deal on McCain's fortune and campaign
+4)    MSNBC: McCain stresses his closeness to Bush in clips from 2015 to th
+e
+present
+5)    CNN: Rep. Boehner distances himself and Republicans from McCain's
+energy policies
+
+6)    FNC: High gas prices help McCain on drilling
+
+Clips
+Highlight #1
+*Bush Continues To Push That the Economy Is Doing Well* (CNN, 07/15/08,
+10:23am)
+GEORGE BUSH: Our citizens are rightly concerned about the difficulties in
+the housing markets and high gasoline prices and the failure of the
+democratic congress to address these and other pressing issues. Yet, domain.com
+e
+the challenges we face, our economy has demonstrated remarkable resilience.
+While the unemployment rate has risen, it remains at 5.5 percent, which is
+still low by historical standards. And the economy continued to grow in the
+first quarter of this year. The growth is slower than we would have liked,
+but it was growth nonetheless. We saw the signs of a slowdown early and
+enacted a bipartisan economic stimulus package. We have now delivered more
+than $91 billion in tax relief to more than more than 112 million American
+households this year. It's going to take some time before we feel the full
+domain.com of the economic stimulus package, but the early signs are
+encouraging. Retail sales were up in May and June, and should contribute an
+d
+will contribute to economic growth. In the months ahead, we expect more
+Americans to take advantage of these stimulus payments, and inject new
+energy into our economy. The bottom line is this, we are going through a
+tough time. But our economy is continually growing, consumers are spending,
+businesses are investing, exports continue increasing, and American
+productivity remains strong. We can have confidence in the long-term
+foundation of our economy and I believe we will come through this challenge
+stronger than ever before.
+
+*Bush Talks Government Bailouts, Gas Prices, Oil Exploration, Obama's Trip
+to Iraq* (CNN, 07/15/08, 10:33am)
+REPORTER: [=85] Are there other entities that are so crucial to stability,
+that they would require government action to show support for them?
+
+GEORGE BUSH: Government action, if you are talking about bailing out, if
+your question is should the government bailout private enterprise, the
+answer is no it shouldn't. And by the way, the decisions on Fannie Mae and
+Freddie Mac, I hear some people say it is a bailout, I don't think it is a
+bailout. The shareholders still own the company. That's why I said we want
+this to continue to be a shareholder-owned company. In this case, there is 
+a
+feeling that the government will stand behind mortgages through these new
+entities. And therefore we felt a special need to step up and say that we
+are going to provide, if needed, temporary assistance through either debt o
+r
+capital. In terms of private enterprises, I do not think the government
+ought to be involved with bailing out companies. I think the government
+should create conditions so that companies can survive. I have listed four.
+One of the things I am deeply troubled about is the people that think it is
+okay to raise taxes during these times. It would be a huge mistake to raise
+taxes right now.
+
+[=85]
+
+REPORTER: Mr. President, in February you were asked about Americans facing
+the prospect of $4 per gallon gasoline, and you said you' d had not heard o
+f
+that at the time.
+
+GEORGE BUSH: I have heard of it now.
+
+REPORTER: Gas prices are now approaching $5 per gallon, in some parts of th
+e
+country. Offshore oil exploration is obviously a long-term approach, what i
+s
+the short-term advice for Americans? What can you do now to help out?
+
+GEORGE BUSH: First of all, there is this psychology in the oil market that
+basically says that supplies are going to stay stagnant while demand rises.
+And that is reflected somewhat in the price of crude oil. Gasoline prices
+are reflected. The amount of gasoline, the price at the pump is reflected i
+n
+the price of crude oil. And therefore, seems like it makes sense to me to
+say to the world, that we going to use new technologies to explore for oil
+and gas in the United States. Offshore oil, Anwar, oil shail projects, to
+help change the psychology, to send a clear message that the supplies of oi
+l
+will increase. Secondly, obviously, good conservation measures matters. I
+have been reading a lot about how the automobile companies are beginning to
+adjust. Consumers are beginning to say, now domain.com a minute, I don't want a
+gas guzzler anymore, I want a smaller car. So, the two need to go hand in
+hand. There is no immediate fix. This took us a while to get to this
+problem, there is no short-term solution. I think I was in the rose garden
+where I issued this brilliant statement, if I had a magic wand, but the
+president doesn't have a magic want. You just can't say, low gas. It took u
+s
+awhile to get here, and we need to have a good strategy to get out of it.
+
+REPORTER: What about the strategic petroleum oil reserve, what about openin
+g
+up that?
+
+BUSH: The strategic petroleum oil reserve is for emergencies, but that
+doesn't address the fundamental issue. And we need to address the
+fundamental issue, which i frankly, have been talking about since I first
+became president, which is a combination of using technology to have
+alternative sources of energy but, at the same time, finding oil and gas
+here at home. Now is the time to get it done. I heard somebody say, well
+it's going to take seven years. Well if we had done this seven years ago, w
+e
+would be having a different conversation today. i am not suggesting that it
+would have completely, you know, changed the dynamics in the world, but it
+certainly would have been, we would be using more of our own oil and
+spending less money overseas.
+
+[=85]
+
+REPORTER: And we know you prize loyalty, and I ask, I wonder if you feel
+betrayed by Scott McClellan' assessment of the war in Iraq. And moving
+forward, since there have been positive signs on the ground in Iraq, Senato
+r
+Obama is also about to take a trip there. What would be your advice to him
+as he tries to assess the situation on the ground?
+
+BUSH: I have had no comment, no comment now on Scott's book. Secondly, I
+would ask him to listen carefully to Ryan Crocker and General Petraues.
+There is a temptation to let the politics at home get in the way with the
+considered judgment of the commanders. That is why i strongly rejected an
+artificial timetable of withdrawal. It is kind of like an arbitrary thing.
+We will decide, in the halls of Congress how to conduct our affairs in Iraq
+based upon polls and politics, and we will impose this on people. As oppose
+d
+to listening to our commanders, and our diplomats, and listening to the
+Iraqis for that matter. The Iraqi's have invited us to be there. But they
+share a goal with us, which is to get our troops out as conditions domain.com.
+Matter of fact, that is what we are doing. Return on success has been the
+strategy of this administration. And our troops are coming home, but based
+upon success. So I would ask that whoever goes there, whatever elected
+official goes there, to listen carefully to what is taking place. And
+understand that the best way to go forward is to listen to the parties
+actually on the ground. That is hard to do, I understand for some in
+Washington, there is a lot of pressure. You got these groups out there,
+domain.com, banging away on these candidates, it is hard to kind of divorce
+yourself from the politics. I am glad that all, a lot of these elected
+officials are going over there. Cause they are going to get an interesting
+insight. Something that you don't get from just reading your wonderful
+newspapers, listening to your t.v. shows.
+
+*Bush Says We are Already "Surging" and Have "Surged" In Afghanistan* (CNN,
+07/15/08, 10:44am)
+REPORTER: Should Americans expect a troop surge in Afghanistan?
+
+GEORGE BUSH: We are surging troops in Afghanistan. We will analyze the
+situation, of course, and make a determination based on the conditions on
+the ground. But we did surge troops. We surged troops, France surged troops
+,
+I said in Bucharest, we'll add more troops. And then, of course, we have to
+make sure that the strategy works. Have a counter-insurgency strategy that
+not only provides security but also provides economic follow up after the
+security has been enhanced. The question really facing the country is will
+we have the patience and determination to succeed in these very difficult
+theaters. And I understand exhaustion. And I understand people getting
+tired. But I would hope that whoever follows me understands that we are at
+war. And now is not the time to give up in the struggle against this enemy.
+And that while there has not been an attack on the homeland, that is not to
+say that people do not want to attack us. And safe havens become very
+dangerous for the American people, and we need to deny that safe haven. And
+at the same time, win the struggle by advancing democracy. This is an
+ideological struggle that we are involved in. These people kill for a
+reason. They want us to leave, they want us to, you know, not push back,
+they do not want democracy to succeed. And yet, if given a chance, democrac
+y
+will succeed. And so these two theaters are the big challenges of the time,
+and the war itself is a challenge.
+
+*Bush: "I'm not an economist=85 I'm an optimist=85 I am 62. I'm having trou
+ble
+remembering a lot of things."* (CNN, 07/15/08, 11:05am)
+GEORGE BUSH: Whether the economy will turn around? I'm not an economist, bu
+t
+I do believe that we are growing, and I can remember, this press conference
+here, people yelling recession this, recession that, as if you're
+economists. I'm an optimist. I believe there are a lot of positive things
+for our economy. But I will tell you, it is not going the way it should, an
+d
+I am sorry people are paying as high of gasoline prices as they are.
+
+[=85]
+
+BUSH: What was the question? I am 62. I'm having trouble remembering a lot
+of things.
+
+REPORTER: It was about Afghanistan, sir.
+
+BUSH: Good, I remember it now.
+
+Highlight #2
+*Paul Begala Talks National Security, Calls Out Carly Fiorina for Working
+With Ahmadinejad, Iran* (CNN, 07/15/08, 4:44pm)
+WOLF BLITZER: This is the one area, as you know Paul, national security,
+where John McCain polls really well against Barack Obama. And some suggest
+whenever Obama has to deal with this, he sort of falling into a trap laid b
+y
+the McCain campaign. What do you think?
+
+PAUL BEGALA: I think tactically McCain wins the day, because he's stronger
+on national security in the eyes of the voters. But I think what Obama's
+trying to do is be strategic. He can't allow that gap to continue. That
+strength gap, that national security gap. So he, I think, is willing to
+sacrifice the day. The news of the day should have been the economy, right?
+
+[=85]
+
+KEVIN MADDEN: [=85] This is exactly the type of terrain, the issue terrain,
+that John McCain wants. Where he wins here, is that John McCain has a
+certain degree of clarity here. And what Barack Obama is doing is
+re-litigating his position on Iraq. He's changed it in the last couple of
+days. He's using rather amorphous language. He's trying to win on nuance.
+Where as John McCain can go and make a very black and white issue, and
+that's where John McCain wins. He looks more like a commander in chief, and
+the judgment of voters right now in a lot of these polls we're seeing, is
+that John McCain wins that debate.
+
+BLITZER: And the McCain campaign is really ridiculing this passage. This
+excerpt from Senator Obama's speech today dealing with Iranian President
+Ahmadinejad. [=85] The McCain campaign is saying, why would you meet with t
+his
+guy who calls for Israel's destruction, says it's nothing more than a
+stinking corpse?
+
+BEGALA: *Right, that is the extension of the Bush policy. We only meet with
+our friends. Well, guess what? We don't have any more friends, to speak of,
+around the world. I think, Barack Obama has the better of the argument here
+.
+But here's the thing we should look for. When will he counter attack? If
+John McCain is so all-fire opposed to the Iranians, why is his chief
+economic advisor, Carly Fiorina, a woman who when she ran HewlettPackard as
+CEO, HewlettPackard was selling computers to the Iranian regime! A terroris
+t
+regime. Counter-attack Barack! If I was advising him I would say, make Carl
+y
+Fiorina the Ahmadinejad. She's already participated in a company that was
+selling equipment to the Iranians. Computers, at that!*
+
+MADDEN: [=85] This, again, is where John McCain can win. It becomes a quest
+ion
+of whether or not you have the experience, whether or not you have the
+readiness to take over the oval office and to be commander in chief. And
+Barack Obama is going to continue to lose that.
+
+BLITZER: What about the argument that Senator Obama made today. It was a
+major part of this speech, when he said, you know what? Talk about national
+security judgment. Senator McCain was wrong back in October, November 2015 
+in supporting this war in Iraq. The biggest strategic blunder in recent
+years. I was right in opposing this war in Iraq, and all of the negative
+consequences, the trillion dollars Senator Obama says that have occurred.
+The 4,000 Americans plus, who have been killed, wouldn't have happened if
+Senator McCain among others wouldn't had been a cheerleader for this war.
+
+MADDEN: Well, I think that that is an effort by the Obama campaign to make
+what they believe is their most compelling argument. But I think a lot of
+Americans right now are not going to be making a judgment on this election
+at this time based on whether or not we ought to be re-litigating when we
+went in. But instead, what's your plan for going forward? How are you going
+to achieve success?
+
+BLITZER: Is it just history?
+
+MADDEN: Who has the best credentials to do that?
+
+BLITZER: Politically, put on your strategic political hat, can he make the
+case as he tried to do repeatedly against Hillary Clinton, I was right in
+opposing this war, she was wrong in voting for it. And now he'd have to mak
+e
+the same case against McCain.
+
+BEGALA: It certainly worked in the primaries against Senator Clinton and hi
+s
+other opponents.
+
+BLITZER: Does it work in the general election?
+
+BEGALA:* I think yes. I think it's good to go right at the other fella's
+strength. Don't make it the entire campaign, but go right at that. And John
+McCain, not just Dick Cheney, John McCain said we will be greeted as
+liberators. John McCain said, at one point, the war would last a month or
+two. It was John McCain, who was part and parcel, of misleading us into thi
+s
+war, and I think that is an important thing. It also has the strategic
+advantage of linking again, once more, to George W. Bush, the most  unpopul
+ar
+president of modern times.*
+
+[=85]
+
+BEGALA: This is where, now, John McCain is chasing Barack. Obama comes out
+today, as he has said for months, and said Afghanistan, al-Qaeda, Pakistan,
+that' where we need to be. Well guess what, Senator McCain almost never
+mentions Afghanistan. And just a month ago, he said we have sufficient
+forces in Afghanistan. Then Obama says we need more troops in Afghanistan.
+It's McCain now chasing Barack, saying well I guess Barack's right, we do
+need more troops in Afghanistan.
+
+MADDEN: I think John McCain has shown he does have the experience, he knows
+a lot more about Afghanistan and this, whole entire theater on the war on
+terror, than Barack Obama does.  [=85]
+
+[=85]
+
+BEGALA: [=85] *I thought Obama's best line today was when he said, McCain s
+ays
+when violence is up the troops have to say, and when violence is down the
+troops have to stay. McCain wants troops there a hundred years.*
+
+*Dana Bash Investigates McCain's Claim That "I know how to win wars."* (CNN
+,
+07/15/08, 8:06pm)
+DANA BASH: John McCain was supposed to talk, once again today about the
+economy. But aids scrabbled to move up a speech about Afghanistan in order
+to offer a contrast to Obama's address today. They saw it as a chance to
+play on what McCain aids believe is their turf, foreign policy.
+
+Experience is his calling card, and on a day both candidates talked nationa
+l
+security, John McCain laid this down as a basic test.
+
+JOHN MCCAIN: I know how to win wars.
+
+BASH: He offered proof. A new proposal for Afghanistan, where violence has
+spiked.
+
+MCCAIN: And I'll turn around the war in Afghanistan just as we have turned
+around the war in Iraq. With a  comprehensive strategy for victory.
+
+BASH: McCain was an earlier supporter of the military surge in Iraq, which
+he repeatedly tells voters is working. He said he would apply those lessons
+to Afghanistan. More troops and a better strategy for how to use them.
+
+[McCain Clip Shown]
+
+BASH: But this was as much about slamming Obama's war plans as praising his
+own. Obama wants to take troops out of Iraq and send them to Afghanistan.
+
+MCCAIN: Senator Obama will tell you that we can't win in Afghanistan withou
+t
+losing in Iraq. In fact, he has it exactly backwards. It is precisely the
+success of the surge in Iraq that shows us the way to succeed in Afghanista
+n
+
+BASH: He mocked Obama for outlying his plan for Afghanistan before ever
+visiting the country.
+
+[McCain clip shown]
+
+BASH: Later on his bus, McCain continued to hit Obama on his national
+security credentials. McCain reminded reporters that Obama is chairman of
+the Senate Committee that oversees NATO which has command in Afghanistan,
+but Obama has never held a hearing.
+
+*The Surge's Efficacy Debated, McCain is No Eisenhower *(MSNBC 07/15/08
+5:03pm)
+PAT BUCHANAN: . . . I thought John McCain clearly won the day today when he
+came out and said, I know how to win wars, Barack Obama opposed the surge,
+we would have been defeated in Iraq, I supported the surge, we're winning i
+n
+Iraq, I will win in Afghanistan, this is the way to do it. I think he's on
+his strongest ground, it's Eisenhower vs. Adlai battle here Chris. I think
+it's McCain's strongest ground . . . I do believe he had the stronger,
+simpler, clearer, more focused day.
+
+[. . .]
+
+MARK GREEN: . . . I see this Chris as good policy, which is Obama, vs. good
+biography from McCain. Hence the public is domain.com on who to trust more.
+
+CHRIS MATTHEWS: . . . let's look at what McCain said today . . .
+
+JOHN MCCAIN: . . . it's by applying the tried and true principles of
+counterinsurgency used in the surge, that Sen. Obama opposed, that we will
+win in Afghanistan . . . I know how to win wars. I know how to win wars . .
+=2E I know how to do that.
+
+MATTHEWS: Pat, are you saying that we've won the war in Iraq? . . . what
+wars has John McCain won? List them. Name the wars that we have won under
+his leadership or in his view.
+
+BUCHANAN: . . . the American people believe the surge has worked, it is
+working=97
+
+MATTHEWS: No it hasn't, the American people haven't been asked the right
+question . . .
+
+[. . .]
+
+MATTHEWS: . . . have we won?
+
+BUCHANAN: . . . by the loudness of your argument and the intensity, you are
+suggesting that McCain indeed has a powerful point. We are winning in Iraq,
+violence is down, American casualties are down=97
+
+MATTHEWS: That's not the strategy.
+
+BUCHANAN: McCain is saying that strategy is working, that strategy will
+succeed.
+
+MATTHEWS: At what?
+
+BUCHANAN: In ending and succeeding in Iraq.
+
+MATTHEWS: Succeeding at what?
+
+[. . .]
+
+MATTHEWS: Pat, I just want to know what you're talking about . . .
+
+BUCHANAN: . . . the overthrow of Saddam Hussein . . . the placement of a
+regime that's more pro American . . . the ability to go home and say this i
+s
+no longer an anti-American, anti-Western country . . .
+
+[ . . . ]
+
+GREEN: . . . John McCain made no sense in the clip you just ran . . . *he
+said the success of the surge in Iraq, his words, show how we can win in
+Afghanistan . . . we don't have the troops to replicate in Afghanistan what
+we did in Iraq. Second, on the surge succeeding . . . if the Yankees are
+beating the Red Sox, 6-1 in the eighth and the Red Sox score one run, then
+the Red Sox aren't winning, they're still behind 6-2 . . .*
+
+BUCHANAN: . . . there's unquestionably, the surge has worked and I think th
+e
+American people see it as working and they do see McCain by something like 
+7
+to 4 or 7 to 5 as a far stronger man to lead the country and there is a
+clarity to that argument he is making whether you agree with its substance
+and ultimate results or not . . . "I know how to win wars" is very powerful
+.
+It is Ike vs. Adlai.
+
+GREEN: . . . it was Bush who said that the success of the surge will be
+measured by less violence and political rapprochement. The first, I agree.
+The second simply has not happened.
+
+BUCHANAN: . . . Maliki has made tremendous gains . . . that's why he's
+saying the Americans can maybe start going home . . . if the Americans see
+that and McCain picks up on that: We're moving in the right direction, we'r
+e
+moving out of Iraq, now I'm going to win Afghanistan the way I run Iraq. Th
+e
+substance aside, it is a powerful political message for November . . .
+
+[. . .]
+
+MATTHEWS: . . . *I want to respond on Eisenhower and some history here. Gen
+Eisenhower was elected in 1952 to end a war, which he did in Korea. Gen
+Eisenhower refused to go into Viet Nam in 1954 despite the urgings of
+others, including Richard Nixon. He refused to go into the Suez campaign in
+the Middle East in 1956 despite the good intentions towards Israel. Let me
+just make this point, Gen Eisenhower was a man of peace, who knew how to
+restrain US foreign policy in the interest of US foreign interest. Pat, you
+know this. Why are you going back with this ridiculous comparison between a
+hawk like McCain and man of strength and restraint like Eisenhower? You kno
+w
+they are two very different men.*
+
+BUCHANAN: I agree with you . . .
+
+*McCain's Czechoslovakia Mistake on Hardball *(MSNBC 07/15/08 5:29pm)
+CHRIS MATTHEWS: John McCain would like you to think that he's the foreign
+policy expert in this election. Well, he may need a history refresher. At
+least when it comes to one region. Check out this exchange yesterday:
+
+JOHN MCCAIN: I was concerned bout a couple of steps that the Russian
+government took in the last several days. One of those is reducing the
+energy supplies to Czechoslovakia. Apparently that is reaction to the
+Czech's agreement with us concerning missile defense.
+
+MATTHEWS: You have a problem there. Czechoslovakia hasn't existed for over
+fifteen years. It domain.com up into the Czech Republic and Slovakia in 1993.
+Apparently, it seems that no one gave McCain the head's up. Here he is at a
+town hall, just this afternoon.
+
+MCCAIN: I regret some of the recent behavior that Russia has exhibited and
+I'll be glad to talk about that later on, including reduction of oil
+supplies to Czechoslovakia after they agreed with us on a missile defense
+system.
+
+MATTHEWS: Czechoslovakia was of course that country that Hitler began
+grabbing in 1938 and took all of in 1939.
+
+*New Polls Show McCain with Foreign Policy Advantage, Obama Winning on
+Economy* (ABC, 07/15/08, 6:40pm)
+CHARLES GIBSON: [=85] Foreign policy was the focus of the day. John McCain
+said he would send 10,000 more troops to join the fight in Afghanistan.
+Barack Obama said the war in Afghanistan would be at the top of his foreign
+policy agenda, and defended his call to withdraw all combat troops from Ira
+q
+in 16 months. Foreign policy also dominated our latest ABC News poll. [=85]
+ On
+the foreign policy issue, it's not particularly good news for Barack Obama.
+
+GEORGE STEPHANOPOULOS: Well, it shows that questions about his experience i
+n
+foreign policy are probably the single biggest hurdle between Barack Obama
+and the White House. Look at this question about knowledge on world affairs
+,
+63 percent say John McCain is more knowledgeable over 26 percent for Barack
+Obama. And then who do you trust to handle an unexpected foreign crisis? Th
+e
+3am question, 50 John McCain, 41 Barack Obama. The Obama campaign knows tha
+t
+he has this big foreign trip coming up, they have to show him doing the job
+to calm these questions.
+
+GIBSON: But on the economy, much better news for Obama.
+
+STEPHANOPOULOS: Single biggest for John McCain, between him and the White
+House right now. Look at these numbers, 54 percent trust Barack Obama to
+handle the economy, only 35 percent trust John McCain. A 19 point advantage
+,
+everyday of bad news on the economy, I mean the Obama campaign will never
+domain.com it, but it's good news for his campaign.
+
+GIBSON: All right, it's still a long ways away from Election Day. But we di
+d
+ask about the horse race.
+
+STEPHANOPOULOS: Yeah, you have to ask that question.
+GIBSON: And?
+
+STEPHANOPOULOS: Among registered voters, Barack Obama has an eight-point
+lead. 50 to 42. But look at this number, you trade it over to likely voters
+,
+those most likely to vote, it's down to 49 to 46. Only a three-point lead.
+We dug into that Charlie, and it shows that Barack Obama's most committed
+partisans, beyond African American voters, are young voters. Voters under
+30. In March, 66 percent of them said they would vote no matter what. That
+is down to 46 percent right now, their enthusiasm has been dampened a bit
+over the course of this campaign.
+
+[=85]
+
+*Matthews Brings Up McCain's "Bomb-Iran" Joke During Discussion on Iran
+Policy *(MSNBC 07/15/08 5:55pm)
+CHRIS MATTHEWS: Here's what John Bolton, Bush's former Ambassador to the
+U.N. . . . wrote today in *The Wall Street Journal: *"Instead of debating
+how much longer to continue five years of failed diplomacy, we should be
+intensively considering what cooperation the U.S. will extend to Israel
+before, during and after a strike on Iran. We will be blamed for the strike
+anyway . . . " . . . going to war with Iran, is this going to be an issue
+come October?
+
+PERRY BACON: . . . neither Sen. McCain nor Sen. Obama, we're fighting two
+wars now, I think they won't discuss starting a third . . .
+
+MATTHEWS: . . . John McCain has been very clear on this, saying if they mov
+e
+towards weaponization, we ought to strike.
+
+JILL ZUCKMAN: Well, Sen. McCain is very concerned about Iran; he talks abou
+t
+it a lot. I think actually though . . . McCain and Obama are both supportiv
+e
+of multi lateral talks . . . I think the difference comes more from McCain
+not wanting to engage in direct talks . . . this is a substantive
+disagreement and they're having a substantive debate and it's the real deal
+and they're both coming at it from different areas.
+
+MATTHEWS: . . . John McCain was caught making a joke on this, saying his
+policy towards that region was "bomb-bomb-bomb-Iran," like in Barbara-Ann
+from the Beach Boys. But clearly he is a hawk on this matter.
+
+KAREN TUMULTY:  . . . John McCain is certainly more forceful right now in
+how he talks about this. He talks about the need to start imposing sanction
+s
+right now on Iran . . .
+
+Highlight #3
+*CNN Investigates McCain's "Meal Ticket" and Impact of Busch Deal on
+McCain's Fortune and Campaign* (CNN, 07/15/08, 8:44pm)
+CAMPBELL BROWN: So there could be some political fallout to this weeks big
+deal in the beer industry. The Belgium company InBev is buying
+Anheuser-Busch for $52 million bucks. Cindy McCain just happens to run one
+of the biggest Anheuser-Busch distributers in the country,  beyond what she
+stands to make in the deal, red flags are already starting to go up on how 
+a
+McCain presidency would affect his wife's business.
+
+DAVID MATTINGLY: *Fair to say, Cindy McCain, is not only a wife to Senator
+John McCain, she is also his meal ticket*. Her reported 2015 income of more
+than 6 million dollars exceeded her husband's earnings 16 times over*. That
+money pays for a wealthy lifestyle of high-end condos, an Arizona ranch,
+flying in a corporate jet, and more.*
+
+KEN VOGEL: He wouldn't be able to afford that if not for her. Politically,
+he is in Congress arguably because her company and her wealth funded his
+first Congressional campaign and has certainly been helpful in subsidizing
+his presidential campaign.
+
+MATTINGLY: It's a lifestyle built on beer. Cindy McCain is on the chair of
+one of the biggest Anheuser-Busch distributers in the country. A company
+founded by her father with a value estimated at more than $100 million. In
+Congress, Senator McCain has been able to avoid a conflict of interest by
+staying out of the family business and excusing himself from beer related
+issues. But critics of that industry doubt that a President McCain would be
+able to stay so hands-off.
+
+BRUCE LIVINGSTON: I*t would not be possible, the corporation of which Cindy
+McCain is an owner of has lobbied ten times in the last 8 years on various
+issues that have gone to Congress and that have gone to executive branch
+agencies.*
+
+MATTINGLY: As President, Senator McCain would run a mammoth beaurocracy wit
+h
+regulatory control over alcohol sales, distribution, and consumption. The
+next administration would probably have to deal with issues of beer taxes,
+labeling, maybe even the politically sensitive international merger just
+announced involving the giant Anheuser-Busch. These are all issues that
+could create a conflict because they could have an impact on the McCain
+family bottom line.
+
+Though she does not run the day to day operations, Cindy McCain's Hensley &
+Co. website links to a newsletter calling for a rollback in the Federal bee
+r
+tax. And this 2015 letter posted on the domain.com by the Los Angeles Times
+shows company executive Andrew McCain. *Yes, that is the Senator's son
+lobbying against a Federal beer labeling proposal.*
+
+[=85]
+
+JAMAL SIMMONS: Of course there are red flags. The real question is not so
+much about what Cindy McCain does for a living, because she can do whatever
+she wants to do for a living, this is America. The question is whether or
+not John McCain is going to lead a transparent government, and he so far is
+not leading a transparent campaign. Here's what I mean. *He hasn't talked
+about how much he pays, or why he doesn't pay full fair for those airplane
+flights he flies around in that jet. He doesn't talk about what's going to
+happen to Cindy McCain if he goes into the White House. And so the question
+is, of course he listens to somebody like Phil Gramm who thinks that the
+economy is all in our heads, or that economic problems are all mental,
+because John McCain he has eight houses, they spend $750,000 on domain.com card
+s
+in one month, and he's flying around the country in this corporate jet. He'
+s
+not in touch with where most of Americans are.*
+
+[=85]
+
+BROWN: McCain has used his wife's fortune to help fund his campaign,
+providing a private plane to travel around the country. [=85] Does he have 
+an
+obligation to be open with people about this if you want to be president of
+the United States?
+[=85]
+
+GLORIA BORGER: There is sort of a basic issue of transparency here, because
+this is sort of the bedrock of John McCain's campaign, which he wants to be
+open. His wife has only released the first two pages of her 2015 tax
+returns. And I remember in covering the 2015 campaign when Teresa Heinz
+Kerry who is also a very wealthy women, wealthier than Cindy McCain, did no
+t
+want to release her taxes, republicans were complaining about it.
+
+[=85]
+
+SIMMONS: That month where he was spending $750,000 dollars on domain.com card
+debts was from March 2015 until the beginning of, middle of 2008, and that'
+s
+when they were spending all this money on domain.com cards. *They would not hav
+e
+been able to keep the John McCain campaign alive had he not had this
+personal wealth.*
+
+Highlight #4
+*McCain Stresses His Closeness to Bush from 2015 to Present *(MSNBC 07/15/0
+8
+8:03pm)
+RACHAEL MADDOW: Part of the McCain campaign strategy for victory in Novembe
+r
+is making seem as if he never, not once, supported the Bush administration'
+s
+failed strategy in Iraq . . .
+
+JOHN MCCAIN: You know, over the last year Sen. Obama and I were part of a
+great debate about the war in Iraq. *Both of us agreed that the Bush
+administration had pursued a failed policy there and we had to change
+course.*
+
+RACHAEL MADDOW: McCain might be learning how to use the internets but how
+the internets can be used against him must still be on his
+"to-figure-out-list." The wonders of the Google and the blogosphere have
+provided a long list of examples where McCain and Bush have appeared to be
+one and McSame in the war in Iraq. Our list, by no means the definitive and
+complete edition, working backwards*, we begin in March, when on Mike
+Gallagher's talk radio show where McCain said, quote, "No one has supported
+Bush on Iraq more than I have."* Then in February, when he was endorsed by
+Bush 41 and asked by our correspondent, Kelly O'Donnell, about the backing
+of that other, less popular, President Bush, McCain claimed some policy
+differences with the current president, but decidedly, definitely not on
+Iraq.
+
+JOHN MCCAIN: As any president that follows, one has different views on
+particularly specific issues but I am proud of the president's strategy in
+Iraq. It is succeeding.
+
+MADDOW: In the summer of 2006, when Iraq was in the midst of a civil war,
+McCain still had every confidence in the president.
+
+DAIVD GREGORY: Do you have confidence in the president and his national
+security team to lead the war at this stage?
+
+JOHN MCCAIN: I do. I do. I have confidence in the president and I believe
+that he is well aware of the situation.
+
+GREGORY: Despite all the misjudgments you think have been made?
+
+MCCAIN: Yes.
+
+MADDOW: In June of 2005, when Tim Russert tried to give McCain a chance to
+distance himself from president Bush and his war in Iraq, McCain wouldn't
+take that chance.
+
+TIM RUSSERT: The fact is, you are different from George Bush?
+
+MCCAIN: No, no. The fact is that I am different but the fact is that I have
+agreed with President Bush far more than I have disagreed. And on the
+transcendent issues, the most important issues of our day, I have been
+totally in agreement and support of President Bush. My support for Presiden
+t
+Bush has been active and very impassioned on issues that are important to
+the American people. And I am particularly talking about the war on terror,
+the war in Iraq, national security, national defense, support of men and
+women in the military, physical discipline, a number of other issues. So I
+strongly disagree with any assertion that I've been more at odds with the
+President of the United States than I have been in agreement with him.
+
+MADDOW: At the Republican convention, four years ago this summer, McCain
+admired the president as much as every and believed in his mission in Iraq
+as strongly as ever.
+
+MCCAIN: I believe as strongly today as ever the mission was necessary,
+achievable and noble. [applause] For his determination to undertake it and
+his unflagging resolve to see it through to a just end, President Bush
+deserves not only our support but our admiration. [applause]
+
+MADDOW: At last, but certainly not least, in the conflict's early weeks, th
+e
+same man who now cannot tell the difference between Sunni and Shia, believe
+d
+they had a peaceful history of coexistence that would continue.
+
+MCCAIN: There is not a history of clashes that are violent between Sunnis
+and Shias, so I think they can probably get along.
+
+Highlight #5
+*Rep. John Boehner Distances Himself and Republicans From McCain's Energy
+Policies* (CNN, 07/15/08, 4:17pm)
+WOLF BLITZER: Senator McCain has been outspoken in his determination to dea
+l
+with global warming in contradiction to some of the republicans out there
+who have some doubts about the whole science of that.
+
+JOHN BOEHNER: I think that John McCain's position is not really very
+different than most Republicans. [=85] The fact is, that we have had climat
+e
+change. Clearly, humans have something to do with it. And we ought to begin
+reducing our CO2 emmisions. [=85]
+
+Highlight #6
+*High Gas Prices Helping McCain on Drilling *(MSNBC 07/15/08 4:21pm)
+NEIL CAVUTO: Now usually, Americans blame the party that's in the White
+House for their pain but look at these numbers, in less than a month McCain
+has closed the gap on Sen. Obama, turning a fifteen point domain.com into a
+dead heat there nationally . . . how do you make sense of that Scott? If
+McCain is supposedly the candidate for whom the economy's not his specialty
+?
+
+SCOTT RASMUSSEN: Well, there's a couple of things in that. First of all,
+everybody puts the question about John McCain; party of what we're seeing i
+s
+a little bit of concern about Barack Obama. But in the short term what we'r
+e
+also seeing is the impact of higher gas prices. The American people want to
+energy prices to come down . . . and John McCain said, let's go find some
+more energy and Obama said no.
+
+[ . . . ]
+
+RASMUSSEN: . . . through the vast majority of the country they support John
+McCain's decision on offshore drilling and they'll support any effort to
+find more energy . . .
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

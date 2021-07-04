@@ -1,0 +1,63 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp698523lfi;
+        Thu, 2 Apr 2015 12:10:53 -0700 (PDT)
+X-Received: by 10.66.121.129 with SMTP id lk1mr91452323pab.155.1428001852039;
+        Thu, 02 Apr 2015 12:10:52 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from nk11p18im-domain.com (nk11p18im-domain.com. [17.158.120.161])
+        by domain.com with ESMTPS id z5si5311705pdo.233.2015.04.02.12.10.51
+        (version=TLSv1.2 cipher=AES128-GCM-SHA256 bits=128/128);
+        Thu, 02 Apr 2015 12:10:52 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 17.158.120.161 as permitted sender) client-ip=17.158.120.161;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 17.158.120.161 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=icloud.com
+Received: from [192.168.1.133]
+ (rrcs-108-176-7-18.domain.com [108.176.7.18]) by nk11p18im-domain.com
+ (Oracle Communications Messaging Server 7.0.5.35.0 64bit (built Dec  4 2014))
+ with ESMTPSA id <0user@domain.com>; Thu,
+ 02 Apr 2015 19:10:06 +0000 (GMT)
+User-Agent: Microsoft-MacOutlook/14.4.8.150116
+Date: Thu, 02 Apr 2015 15:09:50 -0400
+Subject: [LOCATION CHANGE FOR 4/3: PERSONAL OFFICE] Launch Countdown Meeting
+From: Marissa Astor <marissa.astor@icloud.com>
+To: Robby Mook <user@domain.com>, David Binder <user@domain.com>, 
+ "Margolis, Jim" <user@domain.com>, 
+ John Anzalone <user@domain.com>, Joel Benenson <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>, Huma Abedin <user@domain.com>, 
+ Teddy Goff <user@domain.com>, Katie Dowd <user@domain.com>, 
+ Oren Shur <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ John user <user@domain.com>, "Kaye, Anson" <user@domain.com>
+CC: Sawsan Bay <user@domain.com>, Eryn Sepp <user@domain.com>, 
+ Shannon Currie <user@domain.com>, Mona Thinavongsa <user@domain.com>, 
+ Maria Rosa <user@domain.com>, 
+ Caitlin Merchant <user@domain.com>, 
+ "Esterhay, Ellen" <user@domain.com>
+Message-id: <D1430C3E.447FD%user@domain.com>
+Thread-topic: [LOCATION CHANGE FOR 4/3: PERSONAL OFFICE] Launch Countdown
+ Meeting
+X-Priority: 2
+MIME-version: 1.0
+Content-type: multipart/alternative; boundary=B_3510832221_18922741
+X-Proofpoint-Virus-Version: vendor=fsecure
+ engine=2.50.10432:5.13.68,1.0.33,0.0.0000
+ definitions=2015-04-02_06:2015-04-02,2015-04-02,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+ suspectscore=0 phishscore=0 adultscore=0 bulkscore=0 classifier=spam adjust=0
+ reason=mlx scancount=1 engine=7.0.1-1412110000 definitions=main-1504020176
+
+Hello=8BPlease note that the location for tomorrow=B9s 10:00 AM meeting has
+changed. The meeting will now take place in the personal office conference
+room.
+
+Your names will be cleared in at the front lobby tomorrow. Please check in
+at the desk and proceed up to the 27th floor.
+
+120 West 45th Street (between 6th & 7th Avenues)
+
+Suite 2015 
+
+New York, NY 10036
+

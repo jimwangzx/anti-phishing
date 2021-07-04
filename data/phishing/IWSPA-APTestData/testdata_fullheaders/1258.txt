@@ -1,0 +1,127 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Thu, 14 Nov 2015 11:03:13 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAEJ3BpB003805	for <user@domain.com>; Thu, 14 Nov 2015 
+ 19:03:11 GMT
+Received: from mail57-co1-domain.com
+ (mail-domain.com [216.32.180.181])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAEJ39Ot004492	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 14 Nov 2015 19:03:10 GMT
+Received: from mail57-co1 (localhost [127.0.0.1])	by mail57-co1-domain.com
+ (Postfix) with ESMTP id A71D72012C	for <user@domain.com>; Thu, 14 Nov
+ 2015 19:03:09 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:98.139.212.166;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 9
+X-BigFish: vps9(zzc89bhc857h1415Izz2148h208ch1ee6h1ce5h2073h2146h1202h1e76h208dh1d2ah1fc6h1890k10c0jzz1de098h17326ah1def87h8275bh1bc7b9h1def03h1def86h1de097h1de096h186068h18602eh1def83hz2dh5eh5fh2a8h454h839h89ehd93hd94h1030h10d2h11e6h1288h12a5h12bdh137ah139eh13eah1441h1537h15beh162dh1631h1758h1898h18bch18e1h1946h19b5h1b0ah1bceh2222h224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216he8fj1277k1155h15c0h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received: from mail57-co1 (localhost.localdomain [127.0.0.1]) by mail57-co1
+ (MessageSwitch) id 1384455778526215_9598; Thu, 14 Nov 2015 19:02:58 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.236])	by
+ mail57-domain.com (Postfix) with ESMTP id 7938BC0016B	for
+ <user@domain.com>; Thu, 14 Nov 2015 19:02:58 +0000 (UTC)
+Received: from domain.com (98.139.212.166) by
+ domain.com (10.243.66.27) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Thu, 14 Nov 2015 19:02:57 +0000
+Received: from [98.139.212.153] by domain.com with NNFMP;
+ 14 Nov 2015 19:02:56 -0000
+Received: from [98.139.212.207] by domain.com with NNFMP;
+ 14 Nov 2015 19:02:56 -0000
+Received: from [127.0.0.1] by domain.com with NNFMP; 14 Nov
+ 2015 19:02:56 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 423903.7180.user@domain.com
+Received: (qmail 38377 invoked by uid 60001); 14 Nov 2015 19:02:56 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=domain.com; s=s1024; t=1384455776; bh=jn8CJldcR8nWe3OB2PviieTHgWnZAj5AGgT2YvdMURc=; h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-RocketYMMF:X-Mailer:Message-ID:Date:From: Christopher DeHau Lee <chris@move-eye.com>
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=domain.com;
+  h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-RocketYMMF:X-Mailer:Message-ID:Date:From: Christopher DeHau Lee <chris@move-eye.com>
+  b=sn7YucvgrR17J3DYkHahitYB4J8cdUbMFlo+Uotqs9oMK8LkQ1l8Yz7QGpKzGDeoWd+/uInGt1Y4IzkRzF/AIfKMPiaSD+aj+Z7m4KOqG6x+SItRji5CwXasa5GMMgp0pHEmbibEDrfh/40j/0z/QbOVd2Snqw68MCPA7Jt2mJo=;
+X-YMail-OSG: GQfCmTEVM1lDlA8IZ.wngRlCuzLPTu0iImqHiXWOuSczrRA
+ g.z2K1bTk35KcX5syQmV4W0JSWfFkdo7B42GtpW5V1CyjIQkdbKnSXBzD5q2
+ D0JBAT9CmNduDkZoS2gdWOFCGjrMzIeUkLQBK_fC6ppc_ODtk6dyGT49uQMM
+ OuYVEqnntFYm8zMocaZtDvq5Eo3kR6ekWfPlK8nDgtw3FDhal.Gr4rMGqBF2
+ DEIySXsrQc__IfkDdzouo0fim9Vfph4K2lB6gLn0pjlto96yJhuSpLsVBqJp
+ jSuQdd2G6cbtg9geQ8xB58Ub0sazSPK8xGGfAFBwUvXgp1DaK3AfZSsIP8ks
+ ycxIS8vY8UTMzJU5CASCA2C8NvIiCPu5mzG0bfZq2WnAw9EgFHrkvmgOZ5Yn
+ 3_5lf3e9uD2kODMwD4V7NMsQw0nN7GGCDeRH0E1Ek0uKtxnB0Uw5ASzYmB0D
+ PZjIeWj5sPIhRUQjTHD1RR4mH8IuUwBE7o3MGc9xYBASBFQTaXmeFC5BgoZD
+ rL10P2f4rm51PUNNgTe6vUnHc665MS5tr_BWwU4AvbirxCtBieQDHiXq.X2g
+ auzyEd6m0VqjB83cDWUNSbfhUtMXJTrIlKFP9AYypZhO_h.FtT3pDV9uPx7K
+ xyNRkaKt8Ihl1Xbvcr9AAJwC.thOIjRBRTTOvEa6v.0AR0YNd9JVoz6nq71U
+ JiKpbI1KlPhE5mQTiH3wmNEwwlMkb6BhUdzRkJKVYn6MAKEf39_sDXvzSBEi
+ zxFfh073ABWVJKTTbB9PTrQJUjgJJrOMO2cja_A3rlv7NQ5V693k-
+Received: from [96.238.210.149] by domain.com via HTTP; Thu,
+ 14 Nov 2015 11:02:55 PST
+X-Rocket-MIMEInfo: 002.001,RGVhciBBbXksCgpJdCB3YXMgYSBwbGVhc3VyZSBtZWV0aW5nIHlvdSBhbmQgRG91ZyBCZWxncmFkIHllc3RlcmRheSBpbiB0aGUgSmltbXkgU3Rld2FydCBMb2JieS7CoCAKCgpXZSBoYXZlIGhhZCAyIGRlZ3JlZXMgb2Ygc2VwYXJhdGlvbiBmb3IgbXkgZW50aXJlIDE2IHllYXIgY2FyZWVyIGluIHRoZSBlbnRlcnRhaW5tZW50IGJ1c2luZXNzLsKgIEl0IHN0YXJ0ZWQgd2hlbiBJIHdvcmtlZCB3aXRoIE1hcmMgU2htdWdlciBhdCBoaXMgQXJ0IG9mIFdhciBwcm9kdWN0aW9ucyBvbiB0aGUgU29ueSBMb3QsIHQBMAEBAQE-
+X-RocketYMMF: CreaseToe4
+X-Mailer: YahooMailWebService/0.8.163.597
+Message-ID: <1384455775.38294.user@domain.com>
+Date: Thu, 14 Nov 2015 11:02:55 -0800
+From: Christopher DeHau Lee <chris@move-eye.com>
+Reply-To: Christopher DeHau Lee <user@domain.com>
+Subject: A Pleasure Meeting
+To: Amy Pascal <user@domain.com>
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A Pleasure Meeting
+
+Dear Amy,
+
+It was a pleasure meeting you and Doug Belgrad yesterday in the Jimmy Stewart Lobby. 
+
+We have had 2 degrees of separation for my entire 16 year career in the entertainment business.  It started when I worked with Marc Shmuger at his Art of War productions on the Sony Lot, to working on ALI with JL and Will at Overbrook, to coordinating YOU GOT SERVED when I was at Melee, to my role as young scout in MONEYBALL with Brad by Bennett's invitation (I flew in from China to perform the "cameo"), to now discussing with Rory's team about importing films into China, as well as talking with Doug and Clint's teams about new productions and co-productions.  Not to mention getting confused with the other Chris Lee.
+
+I really admire and thank you for your leadership, vision, and passion for all things entertainment.  So, I am glad to finally have made your acquaintance.
+
+There has never been a more exciting and challenging time then now.  If there is any way I can be of service to you, or if you ever have any questions about China, please let me know.  I have attached a brief background for your review.
+
+I look forward to continued partnership with the Sony family and meeting you again.
+
+Sincere Regards,
+
+Chris
+
+<<link>>
+
+<<link>>
+Move Eye Media
+Christopher DeHau Lee
+user@domain.com
+China : +86-139-111-33-494
+USA : +1-818-668-3393
+www.move-domain.com
+
+CHRISTOPHER DEHAU LEE BIOGRAPHY
+
+
+
+
+Christopher DeHau Lee is a Producer and Executive with over 16 years of entertainment industry experience and is the President and Founder of Move Eye Media, a USA and China-based Entertainment Production and Consulting company.  Mr. Lee provides creative and strategic business development on the corporate and project level, and is producing and packaging feature films as well as arranging multi-picture distribution deals in partnership with the top creative talent and media companies in the US, China and around the world.
+
+
+
+
+Among his client partners is one of China’s premier full-service studios Dreams of the Dragon Pictures (DDP), the Chinese investor and distributor for the epic, groundbreaking international film CLOUD ATLAS directed by The Wachowski’s and Tom Tykwer, starring Tom Hanks and Halle Berry.  In 2013, he sold to DDP the comedy DOGGIE SAYS I LOVE YOU, which he wrote and is producing, and was an Official Selection of the 2015 Beijing International Film Festival Co-Production Forum.
+
+
+
+
+Prior to Move Eye Media, in 2007, Mr. Lee moved to Beijing and for 3 years spearheaded the fledgling entertainment division of leading Chinese advertising agency DMG, where he also serviced clients such as Google, BMW, VW and Nike.  During his tenure at DMG, Mr. Lee supervised the company’s investments in top Chinese director Ning Hao’s thriller NO MAN LAND, patriotic blockbuster FOUNDING OF A REPUBLIC, as well as hit romantic comedy GO LALA GO, directed by Xu Jinglei.  He also shepherded the import of domain.com Entertainment’s TWILIGHT and Nicolas Cage-starrer KNOWING into China.  DMG eventually became the Chinese partner of box office successes IRONMAN 3 and LOOPER. 
+
+
+
+
+Before moving to China, Mr. Lee was involved in production and development at Will Smith’s Overbrook Entertainment, Ron Burkle’s MGM-based Absolute Entertainment, and Dreamworks/Paramount-based Melee Entertainment, where he produced horror film FURNACE starring Michael Pare, Tom Sizemore & Danny Trejo, and coordinated production for the Sony/ScreenGems hit dance movie YOU GOT SERVED.  He was featured in a role opposite Brad Pitt in Sony Pictures’ Oscar-nominated film MONEYBALL.  
+
+
+
+
+Mr. Lee is a graduate in Biology from UCLA, an UCLA Alumni representative in Beijing, and a guest lecturer in UCLA’s Doing Business in China course.  He is an avid athlete, adv
+

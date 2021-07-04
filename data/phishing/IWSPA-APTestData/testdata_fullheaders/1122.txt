@@ -1,0 +1,63 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp15062lfi;
+        Fri, 5 Jun 2015 10:02:08 -0700 (PDT)
+X-Received: by 10.194.134.9 with SMTP id pg9mr8338506wjb.5.1433523728649;
+        Fri, 05 Jun 2015 10:02:08 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wg0-domain.com (mail-wg0-domain.com. [2a00:1450:400c:c00::234])
+        by domain.com with ESMTPS id eo2si12439610wjd.180.2015.06.05.10.02.08
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 10:02:08 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c00::234 as permitted sender) client-ip=2a00:1450:400c:c00::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c00::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wg0-domain.com with SMTP id z8so52884379wge.0
+        for <user@domain.com>; Fri, 05 Jun 2015 10:02:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+        bh=RwhKNrAP2QM0nNeyi2uMvEv0mlndoLijCPbYf9oqpzo=;
+        b=Grkq7yfSy6CKJiPJa9NfpNbICkvefUhWJ0bKshScDLJu0UNgdiNnDgRa4egszc26xn
+         EouIDnHe65D3uZB5TJYzYSVbhaut1vfSvTHEfBU+rRP6OlREO5zg2ko+4eQVtZlNWODP
+         H+LCnggeCBXPiPtMAulbXk4XMpK/shH56wbNo
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+         :content-type;
+        bh=RwhKNrAP2QM0nNeyi2uMvEv0mlndoLijCPbYf9oqpzo=;
+        b=At0Tvfml/3dpb3u7FCPm0+XKCfjrWwKi4kCrqm3qhrK+yXi1IYSV1v+yeDVz6vG701
+         qvOfY2UK479sOL/fwt43wSJUqzzOwAb3lYG7ZR7Zd7xRPqPf8EbxFvXpaVMae9r9Efa6
+         iYiU6b1YImejaZljl5fGHjt132lWKi1GA4SEavkuMYullFPLlmV+fHZ+28Fv8OoHQJOp
+         nIZgsK7Cd39mxeR/kgK7S5T0cmdAZuohuB4GUxC4FOBCWdiqfMDiB0Mftm6xJ2bkW2QY
+         diTQRq06P1FuLx6D+DiQWcgxQnD4uV59Xzz0Q8SCe6FCwroT8BJYRXxDZbeQ6kQ7H+LU
+         6P2w
+X-Gm-Message-State: ALoCoQkL77pp9mIyjBVm85YOmi5qymRn/tMj74JwsXr31RaYLptfpL1tLprUoQW55u6cSJ02Tc0P
+X-Received: by 10.180.14.193 with SMTP id r1mr63384395wic.47.1433523728285;
+ Fri, 05 Jun 2015 10:02:08 -0700 (PDT)
+From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+Date: Fri, 5 Jun 2015 13:02:07 -0400
+Message-ID: <8252851926407805019@unknownmsgid>
+Subject: Two pm call on speech
+To: Kristina Schake <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ John user <user@domain.com>, Robby Mook <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+
+So I can't be on it.
+
+My views are:
+
+Big issue is draft didn't capture her vision accurately - everyone has
+a role to play, unlocking potential, etc..  Progress is hard is an
+Obama message.
+
+Not enough Dorothy.
+
+Don't like starting with the nurse.  Seems like a relatively
+insignificant interaction to lead a big speech in lofty setting.
+
+Sent from my iPhone

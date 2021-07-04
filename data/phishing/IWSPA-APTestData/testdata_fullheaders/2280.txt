@@ -1,0 +1,80 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 12 Nov 2015 11:08:17 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rACJ851p011351	for <user@domain.com>; Tue, 12 Nov 2015 
+ 19:08:05 GMT
+Received: from mail91-am1-domain.com (mail-domain.com
+ [213.199.154.202])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rACJ84rC029167
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 12 Nov 2015 19:08:05 GMT
+Received: from mail91-am1 (localhost [127.0.0.1])	by mail91-am1-domain.com
+ (Postfix) with ESMTP id 3427C2200AF	for <user@domain.com>; Tue, 12
+ Nov 2015 19:08:04 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:50.31.49.83;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 16
+X-BigFish: vps16(z46dm1001kzc89bhc857hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h17326ah8275bh1bc7b9h8275dh19f402h1de097h186068h1ce121iz2fh5eh5fh839h8aah8e2h8e3hd24h1288h12a5h12bdh137ah13eah1441h1504h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h740ibe9i783m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail91-am1: domain of domain.com designates 50.31.49.83 as permitted sender) client-ip=50.31.49.83; envelope-from=bounces+274327-8user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail91-am1 (localhost.localdomain [127.0.0.1]) by mail91-am1
+ (MessageSwitch) id 1384283283148536_19556; Tue, 12 Nov 2015 19:08:03 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.234])	by
+ mail91-domain.com (Postfix) with ESMTP id 173A3200051	for
+ <user@domain.com>; Tue, 12 Nov 2015 19:08:03 +0000 (UTC)
+Received: from domain.com (50.31.49.83) by domain.com
+ (10.3.207.104) with Microsoft SMTP Server id 14.16.227.3; Tue, 12 Nov 2015 
+ 19:07:59 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=theenergyproject.com; 
+	h=subject:From: user Schwartz <tschwartz@theenergyproject.com>
+	bh=4j7rAuKtMnIkAKw1Gnv0g9JakwU=; b=TTIrpeFObPY6V4Nt3ZE2hIBjdj5s8
+	fpx+pmMVhTLL3PJlKU0WeJhnRujLwWZBX6YZygInNxhjVbpONmnRLjlWUE0wCOmY
+	FO/X6DGlg/74xkvcLtFGcFt3cQWoeWPRskNtw1Um+j21o7aU3Gbnh1xg1rHWqm6p
+	q5ecAaFXEACVOk
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=theenergyproject.com; 
+	h=subject:From: user Schwartz <tschwartz@theenergyproject.com>
+	=ZtEWe0oxtg8NqGE3TFLdgCc541sv+RBV7L5EcaTznuAGizNOWJbilz/6sWHFUDR
+	lV/LgkN+sNA+Qub1Ejpx7GXU+xRPt9y9neGJF8SNOcATXss/AY7ofCHJoWlmsyJN
+	LV/QDjLdqGoWHrHzNHzp6veNeqqIXpxpm7FnnY2ZXiG0
+Received: by mf98 with SMTP id mf98.14418.52827C8D3        Tue, 12 Nov 2015 
+ 19:07:57 +0000 (GMT)
+Received: from [127.0.0.1] (208.43.203.153-domain.com
+ [208.43.203.153])	by mi31 (SG) with ESMTP id 1424db6879d.3367.4b6c37	for
+ <user@domain.com>; Tue, 12 Nov 2015 13:07:57 -0600 (CST)
+Message-ID: <1384283277.52827user@domain.com>
+Date: Tue, 12 Nov 2015 14:07:57 -0500
+Subject: A short survey about your life that could change your life
+From: user Schwartz <tschwartz@theenergyproject.com>
+To: <user@domain.com>
+X-SG-EID: crjdrkBCnHFBAoM6m/Gp9m3skGmMR9d/9Wh2P3ndSBdqUTipMsA6H4TcypvaoEff+lD+EZ8h9147NvVTsVMrwMGyuEhwDg73y6koqjsxTVKZspzbdHoOz7fI73lETDuJzC4rgu6+AfFsRxpmUJS4oGkhjJkSVHiD+g8jIcwBZJg
+X-SG-ID: s78jXjc54Sh5tx9yFLGsWSVgP7deeyi89jjwqux6R/UnksmPRiDlbvODkYQ314gE/GgOmiiLXT5s8pjUK5ziVetTEfJa885m/NC5QCuxh+jEVF+UJq5PI+zhoFUfSw7k
+Return-Path: bounces+274327-8user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A short survey about your life that could change your life
+
+Dear Amy,
+
+I have never written you before with a specific request. I'm making one today:
+
+Please fill out this assessment, titled "What is Your Quality of Life at Work?" We've spent many months putting together these questions in order to really understand your experience at work, and what has the potential to make it better.
+
+As you know, The Energy Project is committed to changing the way the world works -- because we believe the way we're working isn't working. Over the coming weeks, along with my colleague Christine Porath, a professor at Georgetown University, I'll be feeding back to you in blogs what we learn from this survey.
+
+We'll be able to tell you things like which factors at work most influence people's productivity and satisfaction; what qualities in managers and leaders drive the highest engagement and loyalty from employees; and what organizational policies and practices have the most powerful impact on people's life at work.
+
+This survey should take you no more than 10 minutes. It's value could last you a lifetime.
+
+Make waves,
+user Schwartz
+CEO
+The Energy Project 
+
+
+
+This email was sent to user@domain.com
+

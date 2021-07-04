@@ -1,0 +1,42 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp249228lfr;
+        Wed, 12 Aug 2015 05:31:18 -0700 (PDT)
+X-Received: by 10.140.85.208 with SMTP id n74mr57886710qgd.67.1439382678200;
+        Wed, 12 Aug 2015 05:31:18 -0700 (PDT)
+Return-Path: <4user@domain.com>
+Received: from domain.com (domain.com. [216.27.63.220])
+        by domain.com with ESMTP id j49si9613484qgj.78.2015.08.12.05.31.17
+        for <user@domain.com>;
+        Wed, 12 Aug 2015 05:31:18 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 4user@domain.com designates 216.27.63.220 as permitted sender) client-ip=216.27.63.220;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 4user@domain.com designates 216.27.63.220 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from localhost (172.16.0.146) by domain.com id hpcu9c1usqsq for <user@domain.com>; Wed, 12 Aug 2015 08:18:38 -0400 (envelope-from <4user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=domain.com; s=bdk; h=From: "Leslie\'s Pool Supplies" <lesliespool@reply.bronto.com>
+  bh=WX4MKLeZHKqOqKbZx/h1j2/efdcl/MxgVRPh1E7WMB0=;
+  b=HDvrHVondjBlMCF0fOblVNQbvAbqmPTqluRKYwvGlfIA1FNqV6FJpQ+5OwU4BIQkmBvTNt7giHW7ME5Uv9TyGoi+rTfCGhAoqIgKvuDOyai/LPhGAFvPWMX6ARRxbsxq67hwyYSPizO/cZftXcWxtH4uyUeCqHIee5F7J8S4JWA
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=bdk; d=domain.com;
+  h=From: "Leslie\'s Pool Supplies" <lesliespool@reply.bronto.com>
+  b=RGTGRLUOmRpLu/T9NxGisimibRksklh4d7Cx1tu+qG/zKVbm3fFrjflq4flhviVeqn4Wn7tBKDojqTPJtLVTNJiR25LGK5K6G1zPajRzs4FTu9RscmhBknbo6tm6LniH6G2BnYSDEI8CN+7zLwrLk+WsJ08FG41YRSIr9rWbgTM=;
+From: "Leslie\'s Pool Supplies" <lesliespool@reply.bronto.com>
+To: user@domain.com
+Subject: Final Days to save on tabs, shock, & Free Deals!
+Date: Wed, 12 Aug 2015 08:18:32 -0400
+X-Mailer: BM23 Mail
+Reply-To: "User" <4user@domain.com>
+List-Unsubscribe: <mailto:4user@domain.com>
+X-campaignID: bm23_aafgxcihypewdnziprkrmmylibcdbeh
+x-pviq: 000235-000596-000026-000052-991554
+Message-ID: <4user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="==Multipart_Boundary_xc75j85x"
+Content-Transfer-Encoding: 7BIT
+Return-Path: 4user@domain.com
+
+You have received the alternative text version of an HTML message. Please click below to access the web version of the message:\n\nView an HTML version of this message: <<link>>
+
+Leslie's Poolmart, Inc. | 2015 East Indian School Road | Phoenix, AZ 85016 | United States
+
+domain.com the link below to unsubscribe from future marketing messages from Leslie's Poolmart, Inc.
+<<link>>

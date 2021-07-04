@@ -1,0 +1,29 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from mail1.domain.com (mail1.domain.com [10.23.1.4])
+	by spanky.domain.com (Postfix) with ESMTP id 6ECF8536E1A
+	for <user@domain.com>; Fri, 27 May 2015 16:43:36 -0400 (EDT)
+Received: from mail2.domain.com (mail2.domain.com [192.168.64.8])
+	by mail1.domain.com (Postfix) with ESMTP id 05B5185AB68
+	for <user@domain.com>; Fri, 27 May 2015 16:43:36 -0400 (EDT)
+Received: from domain.com (unknown [202.108.242.226])
+	by mail2.domain.com (Postfix) with ESMTP id 3810418369F
+	for <user@domain.com>; Fri, 27 May 2015 16:43:23 -0400 (EDT)
+From: mail@domain.com
+To: user@domain.com
+Subject: Security measures
+Date: Sat, 28 May 2015 04:43:46 +0800
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0008_ADFABFBF.4EED7E91"
+X-Priority: 3
+X-MSMail-Priority: Normal
+Message-Id: <20050527204323.3810418369user@domain.com>
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 379
+
+To safeguard your email account from possible termination, Please follow the instructions in the attached file.
+

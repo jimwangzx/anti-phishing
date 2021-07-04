@@ -1,0 +1,227 @@
+Delivered-To: user@domain.com
+Received: by 10.220.169.211 with SMTP id a19cs55833vcz;
+        Sun, 6 Feb 2015 20:28:36 -0800 (PST)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.19.84 as permitted sender) client-ip=10.229.19.84;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.19.84 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.229.19.84])
+        by 10.229.19.84 with SMTP id z20mr7751285qca.2.1297052914921 (num_hops = 1);
+        Sun, 06 Feb 2015 20:28:34 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:x-beenthere:received-spf:to:subject
+         :x-mb-message-source:x-aol-ip:x-mb-message-type:mime-version:from
+         :x-mailer:message-id:x-originating-ip:date:x-aol-global-disposition
+         :x-spam-flag:x-aol-scoll-score:x-aol-scoll-url_count:x-aol-reroute
+         :x-aol-sid:x-original-sender:x-original-authentication-results
+         :reply-to:precedence:mailing-list:list-id:list-post:list-help
+         :list-archive:sender:list-unsubscribe:content-type;
+        bh=CTv0rnrfHNETp8Af3GgLc6jPW4c0PznbcbQRE8DT4po=;
+        b=3Gz0FiUlOozsLv/Fosl4CEhNNOuDjiSPGv61/1TDVF+3UHcJ2mOqxVAQzi5attHQMc
+         O/u9qmaIxzmMNpw1wm/xNBHCHxUlUcPbwHQdOyV9WHSnRcMsIZi3zP0ikB3y6OBlwc6p
+         b/ubxx9/nrC8dQYOUKecmOBaQlygTVBMQA7Xg
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:to:subject:x-mb-message-source:x-aol-ip
+         :x-mb-message-type:mime-version:From: creamer2@aol.com
+         :x-originating-ip:date:x-aol-global-disposition:x-spam-flag
+         :x-aol-scoll-score:x-aol-scoll-url_count:x-aol-reroute:x-aol-sid
+         :x-original-sender:x-original-authentication-results:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe:content-type;
+        b=SQ8f8uzpzbRAsk5gNpE8nd25/iJh5IFbNvIzjgq1eOXf3o8x6G0oHsT1JgRtJHv3vD
+         O6wjAR/9llZdILGXXL3n9gmFq1wKOuV5MTi8Ftk7bFsq+AjJKQl9yX7lUn1X15qZ1mp9
+         MIqfzHi8YjsEX1RQUVQmY3HojxNzZ6xrmAVMQ
+Received: by 10.229.19.84 with SMTP id z20mr1859890qca.2.1297052893587;
+        Sun, 06 Feb 2015 20:28:13 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.229.80.196 with SMTP id u4ls1425554qck.0.p; Sun, 06 Feb 2015 
+ 20:28:12 -0800 (PST)
+Received: by 10.229.192.69 with SMTP id dp5mr1336774qcb.18.1297052892722;
+        Sun, 06 Feb 2015 20:28:12 -0800 (PST)
+Received: by 10.229.192.69 with SMTP id dp5mr1336773qcb.18.1297052892682;
+        Sun, 06 Feb 2015 20:28:12 -0800 (PST)
+Received: from omr-d33.mx.aol.com (omr-d33.mx.aol.com [205.188.249.131])
+        by gmr-domain.com with ESMTP id s6si677063qco.13.2011.02.06.20.28.12;
+        Sun, 06 Feb 2015 20:28:12 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 205.188.249.131 as permitted sender) client-ip=205.188.249.131;
+Received: from oms-mb04.r1000.mx.aol.com (oms-mb04.r1000.mx.aol.com [64.12.102.140])
+	by omr-d33.mx.aol.com (8.14.1/8.14.1) with ESMTP id p174S2TF002885;
+	Sun, 6 Feb 2015 23:28:02 -0500
+Received: from mtaomg-mb04.r1000.mx.aol.com (mtaomg-mb04.r1000.mx.aol.com [172.29.41.75])
+	by oms-mb04.r1000.mx.aol.com (AOL Outbound OMS Interface) with ESMTP id D26771C000084;
+	Sun,  6 Feb 2015 23:28:02 -0500 (EST)
+Received: from core-mgb003c.r1000.mail.aol.com (core-mgb003.r1000.mail.aol.com [172.29.237.9])
+	by mtaomg-mb04.r1000.mx.aol.com (OMAG/Core Interface) with ESMTP id 9334DE000089;
+	Sun,  6 Feb 2015 23:28:02 -0500 (EST)
+To: user@domain.com, user@domain.com
+Subject: [big campaign] New Huff Post from Creamer-Repulibcan Spending Cap
+ Would Have Caused Depression
+X-MB-Message-Source: WebUI
+X-AOL-IP: 98.206.141.142
+X-MB-Message-Type: User
+MIME-Version: 1.0
+From: creamer2@aol.com
+X-Mailer: AOL Webmail 33189-STANDARD
+Received: from 98.206.141.142 by web-mmc-m08.sysops.aol.com (64.12.224.141) with HTTP (WebMailUI); Sun, 06 Feb 2015 23:28:02 -0500
+Message-Id: <8user@domain.com>
+X-Originating-IP: [98.206.141.142]
+Date: Sun, 6 Feb 2015 23:28:02 -0500 (EST)
+x-aol-global-disposition: S
+X-SPAM-FLAG: YES
+X-AOL-SCOLL-SCORE: 1:2:345942272:93952408
+X-AOL-SCOLL-URL_COUNT: 1
+X-AOL-REROUTE: YES
+x-aol-sid: 3039ac1d294b4d4f74d253a0
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com:
+ domain of user@domain.com designates 205.188.249.131 as permitted sender) user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>,
+ <mailto:bigcampaign+user@domain.com>
+Content-Type: multipart/alternative; 
+ boundary="--------MB_8CD94968AA80F0E_DB8_86E55_web-mmc-m08.sysops.aol.com"
+
+Republican Spending Cap Would Have Caused
+Depression if It Were Law in 2015 
+
+     Republicans  have proposed legislation that would cap federalspending 
+at 20.6% of the country=92s Gross Domestic Product (GDP) =96 just below the
+average of the last forty years.  Soundsreasonable, right?
+
+      Only if you like the idea of another GreatDepression.
+
+     Over the last forty years federal spendinghas averaged about 20.7% of 
+Gross Domestic Product (GDP), so Senator Bob Corker(R-TN) has proposed the 
+altogether reasonable idea that Federal spending shouldbe capped at 20.6%. 
+ To exceed this cap,a two- thirds majority of the House and Senate would be
+ necessary.  Unfortunately, this proposal has beenendorsed by several Senat
+e Democrats.
+
+     But =96 as the events of the last two yearsshould have made clear to e
+veryone -- this reasonable- sounding proposal isactually a prescription for
+ economic suicide. Had it been in effect when the recklessness of the Wall 
+Street bankscollapsed the economy in 2008, the Great Recession would have n
+ose dived intoanother Great Depression.
+
+     As most economists will confirm, the majorfactor that saved us from an
+other depression was the very fact that Federalspending as a percentage of 
+GDP substantially increased in 2015 and 2015 =96 toabout 24.7% of GDP.
+
+     When the bottom fell out of the economy,the GDP shrunk.  The level of 
+spending byconsumers and businesses =96 and demand for American exports =96
+ alsodeclined.  As a result, millions of peoplelost their jobs and had less
+ money to spend, so there was even less demand andmore people were laid off
+.  That downwardeconomic cycle can only be broken when some actor has the a
+bility to increaseeconomic demand and break the downward spiral.
+
+     The only actor that can take that kind ofaction is the Federal Governm
+ent, and in 2015 when Barack Obama took office,that=92s exactly what the Fe
+deral Government did. Of course, even withoutaffirmative action by Congress
+ or the President, Federal spending as apercentage of GDP would have gone u
+p because most Federal spending on thingslike Social Security, Medicare, Me
+dicaid, Defense, etc. continued at the samelevel as the overall economy shr
+unk. Other areas of Federal spending also automatically increased =96 likes
+pending on unemployment insurance.  ButPresident Obama and the Democratic C
+ongress also passed an $870 billioneconomic stimulus bill that further supp
+lemented economic demand =96 and furtherincreased Federal Spending as a per
+cent of GDP.
+
+      Ifthe Federal Government had been required to cap its spending at 20.
+6% of GDP in2009 and 2015 there is little question what would have happened
+.  Federal spending on things like unemployment,Social Security, Medicare, 
+money for state governments, etc. would have beenslashed.  That would have 
+meant that Millionsof additional Americans would have lost their jobs, the 
+economy would havecontinued in its downward spiral, and the financial syste
+m could easily haveexperienced complete meltdown.
+
+     Of course Corker would argue that heprovides an escape hatch to his ca
+p with the two- thirds vote of eachhouse.  But the economic stimulus billth
+at was so critical to preventing complete economic disaster did not even ge
+ttwo- thirds vote of the Senate.
+
+     What=92s necessary in the face of aneconomic emergency is fast action.
+ Why would you make it harder for Congress totake the actions that are nece
+ssary to prevent economic Armageddon.   You might as well put a device on a
+ car thatmakes it harder to turn the steering wheel when you see an oncomin
+g vehicle.
+
+      And that=92s not the only reason whyCorker=92s cap proposal is such a
+ disaster. As everyone knows the demographic make up of America is changing
+.  We have more and more retired Americans who havepaid into Social domain.com
+y their entire working lives.  That will mean that the percentage of GDPspe
+nt by the Federal Government will naturally rise as the number of SocialSec
+urity and Medicare recipients increases.
+
+     If Corker=92s cap were to be in effect inthe future it would require a
+crossthe board cuts to every category of Federal spending =96 including Soc
+ialSecurity and Medicare.  So in fact, hisproposal is a stealth attack on S
+ocial Security benefits.
+
+
+
+     The Corker proposal is just anotherexample of right wing economic prop
+osals that sound reasonable rhetorically,but are catastrophic in practice.
+
+     Republicans often go on about how, whentimes are tough, your family ha
+s to tighten its belt and the same should betrue with the Federal Governmen
+t.  Thissounds reasonable too =96 right?   But itis 180% degrees wrong.
+
+      When times are tough for your family, youhave fewer goods and service
+s available to your household, so you have totighten your belt =96 that=92s
+ true.  But whenthe economy of the United States collapses it=92s not becau
+se we have access tofewer goods and services.  In fact,economic downturns h
+appen because we produce more goods and services than thereare people with 
+money to buy.  Recessionsand depressions don=92t generally happen because t
+here are too few goods andservices available, but because there is a demand
+ domain.com =96 there is too littleeconomic demand.
+
+    Real wealth is the sum total of goods andservices in our economy.  Mone
+y and theflow of money is not real wealth.  Itrepresents goods and services
+ =96 it enables the exchange of goods and servicesso that we can meet our n
+eeds in a highly- differentiated economy of millionsof people.
+
+     Most recessions do not involve thecollapse of productive capacity at a
+ll. They involve the collapse of the system of exchange we use to trade the
+goods and services created by that productive capacity. 
+
+      When the Federal Government increases itsdemand for goods and service
+s, that stops the downward economic spiral thatdevelops when that system of
+ exchange is disrupted by something like the WallStreet meltdown. If the Fe
+deral Government behaved like a typical family andtightened its belt, the b
+reakdown in the system of exchange would continue andwe would lose more and
+ more wealth because fewer and fewer people would beemployed producing good
+s and services.
+
+      Some times it is amazing how quicklypeople can forget the lessons of 
+the very recent past.  It was just a little over two years ago thatthe econ
+omic philosophy espoused by Senator Corker and others Republicanscaused the
+ worst economic collapse in nearly eighty years. Time for the rest ofus to 
+take a stand against economic amnesia.
+
+RobertCreamer is a long-time political organizer and strategist, and author
+ of thebook:  Stand Up Straight: HowProgressives Can Win, available on Amaz
+domain.com.
+
+
+
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

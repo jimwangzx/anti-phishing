@@ -1,0 +1,66 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Sat, 25 Jan 2015 03:23:21 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0PBNK8Y015550	for <user@domain.com>; Sat, 25 Jan 2015 
+ 11:23:20 GMT
+Received: from mail76-co9-domain.com (mail-domain.com [207.46.163.23])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0PBNG6H009445	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Sat, 25 Jan 2015 11:23:18 GMT
+Received: from mail76-co9 (localhost [127.0.0.1])	by mail76-co9-domain.com
+ (Postfix) with ESMTP id 6E049A0339	for <user@domain.com>; Sat, 25 Jan
+ 2015 11:23:16 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.128;KIP:(null);UIP:(null);SRV:BULK;H:mx128.b2b-domain.com;RD:mx128.b2b-domain.com;EFVD:NLI
+X-SpamScore: 6
+X-BigFish: vps6(zzc89bh12dbKc857h77f5h609Izz1f42h2148he68I208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h10c0jzz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h1ce120hf9138oz2fh5eh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h1361i214ai1155h1362h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail76-co9: domain of b2b-domain.com designates 209.162.194.128 as permitted sender) client-ip=209.162.194.128; user@domain.com; helo=mx128.b2b-domain.com ;b2b-domain.com ;
+Received: from mail76-co9 (localhost.localdomain [127.0.0.1]) by mail76-co9
+ (MessageSwitch) id 1390648993860730_23639; Sat, 25 Jan 2015 11:23:13 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.253])	by
+ mail76-domain.com (Postfix) with ESMTP id BC4C0100041	for
+ <user@domain.com>; Sat, 25 Jan 2015 11:23:13 +0000 (UTC)
+Received: from mx128.b2b-domain.com (209.162.194.128) by
+ domain.com (10.236.130.30) with Microsoft SMTP Server id
+ 14.16.227.3; Sat, 25 Jan 2015 11:23:13 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=acton2012; d=techproductupdate.com;
+ h=Message-ID:Date:From: Tech Product Update <admin@techproductupdate.com>
+ bh=bOY5yuAr8HVVKhu2UXrsJkwvsWE=;
+ b=ichfBy1USA4+9WXvI/4vLx9MW+hHAXQMWMo1dHiHm7482nZUjhrSawmmed425yJshk6wX2hXcXZN
+   s8DpUThBRYBEYrJkK3G5uRnygIcC/E9w+GPce5E9GOr5pSkFtnwOZaMUFpg4TcS9JtKMSB4bhTuL
+   E2rOa/lAF64VA8RU8mA
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=acton2012; d=techproductupdate.com;
+ b=brf+ci0O+aYueK2sRK266rVShdKEQcFbKvCb4Fm8C4X8+GoioFDHi0cm2Bda0FBREKpFBC7qdwk2
+   IkY6opuOU+ZChQg/K/ZPKKRb1RJ6Jav9OxvjSS8kM1f6AAuS0DXRCBkLE6bvAyyF6xuHud+dzxwj
+   3Y3J9hbGBzib9QtY3A4=;
+Received: from 10.10.40.64 (172.16.0.16) by mx128.b2b-domain.com id hsefa21gs50c
+ for <user@domain.com>; Sat, 25 Jan 2015 03:23:13 -0800 (envelope-from
+ <user@domain.com>)
+Message-ID: <XWVAUZYTA$UWCTZXBCCWXYV@10.10.40.64>
+Date: Sat, 25 Jan 2015 03:23:13 -0800
+From: Tech Product Update <admin@techproductupdate.com>
+Reply-To: Tech Product Update <user@domain.com>
+To: AMY PASCAL <user@domain.com>
+Subject: How to Create a Great Digital Experience for Your Customers
+X-MESSAGEID: WCZX.rEUUUV.KVWHK.mEVHYIEVYUV
+X-COD: ^^184.169.176.89/acton/delivery?accountid=2853&msuid=s-1b4c-1401&rcptid=l-0001%3Ae12be&srcid=q-03b9
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+How to Create a Great Digital Experience for Your Customers
+
+View this message in a browser   Please add user@domain.com to your address book to ensure properly delivery        
+
+TechProduct Update       
+
+How to Create a Great Digital Experience for Your Customers
+
+Your customers are more wired than ever. Practically everything is done through digital channels, from researching products and comparison shopping to making a purchase and sharing opinions. Whether it’s via website, mobile app or social media, today’s consumers expect businesses to deliver the highest quality digital customer experience.
+
+This web program from the experts at IDC and IBM explores a recent report on the digital customer experience. You’ll discover tips for delivering an exceptional experience across digital channels and learn about the costs vs benefits of purchasing a Digital Experience solution. In a digital economy, you can’t afford to be left behind. Sign up now for this web program starting at 11 a.m. EST Thursday, Nov. 21.
+

@@ -1,0 +1,67 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.207 with SMTP id r198csp2829110lfr;
+        Thu, 17 Sep 2015 05:53:47 -0700 (PDT)
+X-Received: by 10.60.42.197 with SMTP id q5mr28273869oel.52.1442494427426;
+        Thu, 17 Sep 2015 05:53:47 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::233])
+        by domain.com with ESMTPS id sw11si1517785obc.22.2015.09.17.05.53.47
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 17 Sep 2015 05:53:47 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::233 as permitted sender) client-ip=2607:f8b0:4003:c01::233;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::233 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id da8so12255868obb.1
+        for <user@domain.com>; Thu, 17 Sep 2015 05:53:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Milia Fisher <mfisher@hillaryclinton.com>
+         :cc:content-type;
+        bh=L2J+xfAnwr6reKGcr67j0D0D63v01fuSUtTZSjgFJd4=;
+        b=MGtOTrLUUFpjiu+B+sFNl0LG8qauLecVrH0DnMawWFh5jMoZXKZXE3h1GbI1ZRiYY4
+         82h6qIunD18F4FUmGkudd9kebLDEu0D12rn2lTpZH+Cp5aQWGhBGZh/2cN1ysiVwBM+N
+         JEeYS4c2kQHeczifQP3UZwG3rwKvPtLasJk4E
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=L2J+xfAnwr6reKGcr67j0D0D63v01fuSUtTZSjgFJd4=;
+        b=LnhQZxwJmWnnxWduvCrZxo0Im+BJlg3kD4NPNmRnxlKYUAq0/7UeL2PCufaZ6RlKsq
+         Ewq/fx+0Tf2TR5t3t9KKR9yy57gZQurh2Ptnp7I41oOIAQbEEhxDujvhInQzaQfcXy67
+         8x5VPjq7596VbwrMdfB4dXQYDhtEoXl707vRV8M0Gar4BT1DU/hjGnkIuYROJTvG/kDv
+         Kwa4m6uQyphhc8NTrxT1/sjnvmQUTzu7yA5jsuzRgD4sKHpxaP90PUo3dA3k816NmQAY
+         OSqYLJ8ikppRqsgA7JSgWmcqg3Xai5DuOPlb78WjSB3ctBLn45t45NouZNzbbYkdQ6yR
+         P4AA
+X-Gm-Message-State: ALoCoQnPAJ5mxTsCYxj0+0bPbVQqmErrpkgJoHxS25LldR95M0DsHt6crWzDDL1/0eC/8MOLVjsK
+X-Received: by 10.60.178.99 with SMTP id cx3mr29817597oec.50.1442494426997;
+ Thu, 17 Sep 2015 05:53:46 -0700 (PDT)
+From: Milia Fisher <mfisher@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CAFwS4EKRR9D35+user@domain.com>
+ <user@domain.com>
+In-Reply-To: <user@domain.com>
+Date: Thu, 17 Sep 2015 08:53:46 -0400
+Message-ID: <4336042337522145726@unknownmsgid>
+Subject: Re: WJC & CVC Digital Asks
+To: Sara Latham <user@domain.com>
+CC: Robby Mook <user@domain.com>, Huma Abedin <user@domain.com>, 
+ John user <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Marlon Marshall <user@domain.com>, 
+ Dennis Cheng <user@domain.com>, 
+ Teddy Goff <user@domain.com>, 
+ Katie Dowd <user@domain.com>, 
+ Heather Stone <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Lona Valmoro <user@domain.com>, 
+ Kate Offerdahl <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e011843e8e9852a051ff0e71a
+
+Great, circling with the assistants to find a time.
+
+Milia Fisher
+(858) 395-1741
+

@@ -1,0 +1,45 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 0FDCB23CACC
+	for <user@domain.com>; Wed, 16 Jan 2015 19:15:11 -0600 (CST)
+X-Virus-Scanned: amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id vp03BQmOXqpm for <user@domain.com>;
+	Wed, 16 Jan 2015 19:15:10 -0600 (CST)
+Received: from domain.com.py (domain.com.py [200.108.130.17])
+	by domain.com (Postfix) with ESMTP id 2A9E523CAA3
+	for <user@domain.com>; Wed, 16 Jan 2015 19:15:09 -0600 (CST)
+Received: (qmail 24250 invoked by uid 89); 17 Jan 2015 01:27:17 -0000
+Received: from unknown (HELO domain.com.py) (127.0.0.1)
+  by 0 with SMTP; 17 Jan 2015 01:27:17 -0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8;
+ format=flowed
+Content-Transfer-Encoding: 8bit
+Date: Thu, 17 Jan 2015 06:57:17 +0530
+From: Webmail Service <mflorent@rieder.net.py>
+To: undisclosed-recipients:;
+Subject: warning
+Organization: user@domain.com
+Message-ID: <98user@domain.com>
+X-Sender: user@domain.com
+User-Agent: Roundcube Webmail/0.6
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 182
+
+-- 
+Your mailbox has exceeded it's storage domain.com as set by your 
+administrator and you will not be able to send and receive new mails 
+until you re-validate it. And it will not cost you anything. To 
+re-validate - click here <>
+
+Thank you.
+
+© Copyright 2015 
+
+The  System Administrator Management Team.

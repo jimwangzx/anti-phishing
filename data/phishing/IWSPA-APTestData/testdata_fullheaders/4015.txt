@@ -1,0 +1,96 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id CAC7D46A1C
+	for <user@domain.com>; Sun, 25 Nov 2015 03:01:10 -0500 (EST)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id 37099131FBA3
+	for <user@domain.com>; Sun, 25 Nov 2015 03:01:10 -0500 (EST)
+Received: by domain.com (Postfix)
+	id 315CC1B91E; Sun, 25 Nov 2015 09:00:50 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.90])
+	by domain.com (Postfix) with ESMTP id 57BCF1B906
+	for <user@domain.com>; Sun, 25 Nov 2015 09:00:49 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 449A4A8A
+	for <user@domain.com>; Sun, 25 Nov 2015 09:00:49 +0100 (CET)
+X-Quarantine-ID: 
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 27.413
+X-Spam-Level: ***************************
+X-Spam-Status: Yes, score=27.413 tagged_above=0 required=5 tests=[AWL=-1.749,
+	BAYES_99=3.5, FORGED_MUA_OUTLOOK=4.056, FORGED_OUTLOOK_HTML=2.713,
+	FORGED_OUTLOOK_TAGS=2.492, HTML_MESSAGE=0.001, MIME_HTML_ONLY=0.001,
+	RAZOR2_CF_RANGE_51_100=0.5, RAZOR2_CF_RANGE_E4_51_100=1.5,
+	RAZOR2_CHECK=12, RCVD_IN_BL_SPAMCOP_NET=1.558, UNDISC_RECIPS=0.841]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id IiRactGqRnYf for <user@domain.com>;
+	Sun, 25 Nov 2015 09:00:45 +0100 (CET)
+Received: from smtp2f.orange.fr (smtp2f.orange.fr [80.12.242.152])
+	by domain.com (Postfix) with ESMTP id EF35C1B8FB
+	for <user@domain.com>; Sun, 25 Nov 2015 09:00:44 +0100 (CET)
+Received: from me-domain.com (localhost [127.0.0.1])
+	by mwinf2f21.orange.fr (SMTP Server) with ESMTP id 706407000442
+	for <user@domain.com>; Sun, 25 Nov 2015 08:59:19 +0100 (CET)
+Received: from User (LPuteaux-151-42-34-163.w193-251.abo.wanadoo.fr [193.251.185.163])
+	by mwinf2f21.orange.fr (SMTP Server) with SMTP id 67E6C7000148;
+	Sun, 25 Nov 2015 08:59:13 +0100 (CET)
+X-ME-UUID: 20071125075913425.67user@domain.com
+From: "Bank of America Alert" <bankofamerica@security.com>
+Subject: ***SPAM*** Security Alert - Update Your Bank of America Information.
+Date: Sun, 25 Nov 2015 08:59:17 +0100
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20071125075913.67user@domain.com>
+To: undisclosed-recipients: ;
+Content-Length: 9474
+Lines: 318
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 408
+
+Online Banking Sign-in Error
+
+Remember:
+
+If you ignore
+
+this message
+
+your account has
+
+definitely blocked
+
+Sign In »
+
+      For your security, access to Online Banking has been locked because the number of attempts to sign in exceeded the number allowed. To regain access, you must reset your Passcode. Please domain.com 
+
+<>
+ and update your information. 
+
+      Your security is important to us. If you are not aware of this situation, please contact us immediately at 1.800.933.6262.
+
+This alert relates to your Online Banking profile, rather than a particular account.  The account listed here is for verification purposes only.
+
+Want to get more alerts? Sign in to your online banking account at Bank of America and within  the Accounts Overview page select the "Alerts" tab.
+
+Because email is not a secure form of communication, please 
+do not reply to this email.
+
+       If you have any questions about your account or need assistance, 
+please call the phone number on your statement or go to Contact Us at domain.com.
+
+      Bank of America, Member FDIC. 
+
+       2015 Bank of America Corporation. All Rights Reserved.

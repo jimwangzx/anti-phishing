@@ -1,0 +1,137 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp966202lfb;
+        Thu, 18 Feb 2015 20:05:35 -0800 (PST)
+X-Received: by 10.98.64.4 with SMTP id n4mr15260188pfa.58.1455854735296;
+        Thu, 18 Feb 2015 20:05:35 -0800 (PST)
+Return-Path: <>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.57])
+        by domain.com with ESMTPS id n79si13690857pfj.101.2016.02.18.20.05.34
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 18 Feb 2015 20:05:35 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.55.169.57 as permitted sender) client-ip=65.55.169.57;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 65.55.169.57 as permitted sender) smtp.mailfrom
+Received: from domain.com (10.160.24.46) by
+ domain.com (10.141.217.140) with Microsoft SMTP
+ Server (TLS) id 15.1.409.15; Fri, 19 Feb 2015 04:05:32 +0000
+Received: from BN1AFFO11FD036.protection.gbl (2a01:111:f400:7c10::175) by
+ domain.com (2a01:111:e400:8ae::46) with Microsoft
+ SMTP Server (TLS) id 15.1.409.15 via Frontend Transport; Fri, 19 Feb 2015 
+ 04:05:32 +0000
+Authentication-Results: spf=none (sender IP is 141.161.191.75)
+ smtp.helo=mail.law.georgetown.edu; domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Received-SPF: None (domain.com: mail.law.georgetown.edu does not
+ designate permitted sender hosts)
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ domain.com (10.58.52.240) with Microsoft SMTP
+ Server (TLS) id 15.1.415.6 via Frontend Transport; Fri, 19 Feb 2015 04:05:31
+ +0000
+Received: from LAW-MBX02.law.georgetown.edu ([169.254.2.45]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0248.002;
+ Thu, 18 Feb 2015 23:04:04 -0500
+From: "Adam J. Levitin" <adam.levitin@law.georgetown.edu>
+To: Law Faculty and Visitors <user@domain.com>
+CC: "Alicia E. Plerhoples" <user@domain.com>
+Subject: Faculty Workshop, Tues. Feb. 23--Robert Thompson
+Thread-Topic: Faculty Workshop, Tues. Feb. 23--Robert Thompson
+Thread-Index: AQHRasqSE1Pb89llqUaePA6YliI0WA
+Date: Fri, 19 Feb 2015 04:04:04 +0000
+Message-ID: <1user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.191.14]
+Content-Type: multipart/mixed;
+	boundary="_004_1ADA3FC84667450DB355B7B6A92144A8lawgeorgetownedu_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Return-Path: <>
+X-EOPAttributedMessage: 0
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD036;1:r+gqjH2bLVQI1/xTv6MtEuVrI+est6gu3xlVDujyqy7T9EXtP3i2OEWMPPjSOD8T5TlJ3kWfGDzedWJSVUQeqBRhRsVlW64OXnIPNaZvD2I/Fy2cYJGZBWoJF5oucVohN0PMYs918I7Yrb0Ov5/jWFy4RByG74EiaUIBAISUOeRSv10jOERDmsAsdgibnEB+j5dBVpBaQg//PRkeIAHW/FkWMqW2UTlie3PayAmNTotIY1+LlKOCoC7XlHUPQoIktFwIyPYPwHHt6VvLW5z4pzLsAqNXXvBCxKodjxxLCeMviEoWR7LK8gvF9lFDvR0j/b92Vs+RRLmREzZxLvku1vDa8LU4tJf0/gUQiHK1Y7TBBtrlDzJtvFiwN1FGQs0ULGqa7IcgjIlJeQeka/a7aA
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2970300002)(428002)(199003)(189002)(78352003)(3846002)(54356999)(102836003)(19617315012)(50986999)(5008740100001)(5003600100002)(104016004)(11100500001)(586003)(568964002)(110136002)(6116002)(107886002)(87936001)(960300001)(5001960100002)(99936001)(16601075003)(19580395003)(5890100001)(19580405001)(6806005)(106116001)(3380100001)(4001450100002)(82746002)(105586002)(4610100001)(101416001)(92566002)(2476003)(89122001)(16236675004)(106466001)(4001430100002)(189998001)(450100001)(21490400002)(229853001)(33656002)(4326007)(1720100001)(512954002)(66066001)(575784001)(260700001)(88552002)(1220700001)(300700001)(5004730100002)(74826001)(15975445007)(1096002)(84326002)(2900100001)(42382002)(2906002)(2171001)(83716003)(53652003)(46342002)(104396002);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR07MB549;H:mail.law.georgetown.edu;FPR:;SPF:None;MLV:sfv;A:0;MX:0;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB549;2:skaO2XAUhDMN+7+FJHFKb0ctsAad+ZBf+TZ51Owwd2Oav+aoBXTR+cT3DFhhZKsTz0cPEzUKk6xCQ4+plD+ipY1olZS6VJcPCrfqRu5jVINA8fIaghh/yhqKEQK+6hmwzFrfHqS8+zvf/4LK32MDYQ==;3:4VDYoCyEld7LVBGxTJ9Nyh3brF9eigcSAoSJpoerepXuF/BUDgDHhLL+VS4/3uv4zcr1ZDfgYZ6awgdy3zeoQGBmmG1V8FG0ZZY1iWddYpdfg5jMxcdCtKN33NPRMI/pPjEOPdrYNM1c9VtBLNP7P/Wah/ynmEViSrSxIMBeCPJpiwxMCq9zJFQ8Nf+vrqmE/Mn4nC5/Rw3pmD6n7pue7vxY0Wmkj/Fb1BWgmbBko2w=;25:aCpou3Q1hKaByE7kHhCXDXOY6GRZQamgfQe7nQe3MTIZEQB+0eWZIlVfExSJFzdViJe25kh7x28NDCyvtsbhz8j0+u4rzR7L1+/3OPWbAs5h0V8tWOvQZfXXSt5Cp7xnq4L/9wqSXqAxA0piRKIMaw2Tw6R0eUcW1QMTZVyOv8qLS3GW1fUCi1lWRIscUEoJfFdM559fBWpeqErF8p8uM4IfPsZj33Y8uZATWjc8rHdQbCmoH5Z261d3bRjzS6a11goI8KkX68onSuO3fcmG0xqySyVQ+Np6YUHDXN92+SmN0xkWUyDqfDVETZvF1HwM
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB549;
+X-MS-Office365-Filtering-Correlation-Id: 005ac2fe-bb06-45e2-a073-08d338e1e93a
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB549;20:nsbOy9ZoFtP3c6f2s4jQfAa760w6l3GkXVGB96PYu3Eu6JFoS2Ubg6hWsgo6Ka/XLAlt9l5BwhF5VUMXIKmQUQvInrG7GhqwDOtGv9xLwyf+ylyVBbwcye70iWXMQlgdb4AFZ0JLx4CtddYvUf6AbFV8iGNWpaIB2AyFEK1+WQXzLaMLo16Yn43u+s7/T6pjPTzBMcmIHuWUJTDXmyxJtJv570Y6Yd7wWEu8AmFc1H6kJKoqHrUIrvqYUfAaIty459CpCXk9MCx20YShkzfJDwn0IHKwnOhOW0+xd+IcivYpHyodhoetCQAnsVQWgCMFZYn9sZpPSSGX7Ty+b7CCPtU0QKInCvMYHiw7ftIsbYabUTXlYJsh/qsKuUJiQl2osSUNu/29ZxMjM/JxILRN+EaxkMYUDOu2rGsEGYBps+c=;4:b0l4MAqQE6nAqlvNdrQO7RC8aaNKTDWeFHCUZvaKzgSJLZ9g/Q61k/82yNQSWDTdgmnj1vJwhqkEE7vydVwz6ge07OsrHVFmBpl2hXkyw6QQivnu8cfBD9lek7H4RC4vW7mWhARCnJ4N6W13R5kQezd0Kje3B+IZj1H3r+m37M7dIY5SNYf4zeG/W66pF5k38ytOz5RCNWE1Axq+eLfBpx9D+miKCymGaMxCRZp99ju6WWXweJZ86NZa2JPn568S1XVeI76MuLpeZywrPICrGIfiNjQc0WD0Ozwv3sF2HRDZvxbqJYtCnzF/RwIQx38ZmXjZAlgoBQy0phWlPrCt30+9vCEspMzpwcedcC+th79EeG7QVyKR6YYL4QS07qexD/Oq07t895GJmyFK2y9ts3Iu1Ddhl+zVNP4TB2YZRj3PAxqKcT7I3BwPXn533kNqmlklJ6HI0ZHYVkNnKkc5x5S+d0vRRBL5TxRfHK8cFpuSKPtAni3x0DcgItBR3tFp
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Exchange-Antispam-Report-Test: UriScan:(76009858676777);
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:0;PCL:0;RULEID:(102415293)(102615271)(601004)(2401047)(13016025)(8121501046)(13018025)(5005006)(3002001)(10201501046);SRVR:BY2PR07MB549;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB549;
+X-Forefront-PRVS: 08572BD77F
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BY2PR07MB549;23:H2Jpcl65YxoSqZjzz/daYMhRRkfDJN3kMrNHXSaY1k?
+ =?us-ascii?Q?3jz+c00hjxindxTxgP3H+iimGOruL0ags9Y6puNw3g7yqjsFn3+UWg2LfyMh?
+ =?us-ascii?Q?yS5b+7oE5taY9aaK2hXdpoC5tY0eV6BoF+ero3ZW1xJ2FuFfNuz6dfGrApMa?
+ =?us-ascii?Q?PZJASNJgsCdz53ozKm1D+dSIJ07Mi8QO3Yzs9AKNGEEydN1W08Y+T+vqhXtz?
+ =?us-ascii?Q?H4DDAyYRwsv5mVGcyPfArRTiSwVvcjpUGbSRANZBKuEuFdx5/mwwx9uJz+UV?
+ =?us-ascii?Q?Q1gI/BJQiYjapvLwbtK2AcrS0m900mL3UBfDLaBezMMddbHlGFDBwGbgWz0S?
+ =?us-ascii?Q?S3biHlwCichiqHxWbCQtljgxfSKjLqPghoVjJcwGBPx/QuLbqasgFqoQsBCl?
+ =?us-ascii?Q?1l0BmbvLjap/1EuPMfaIsx0Es9tSKLgGPJDjR+lYZuXJZEK+VO+4AWDfhPpX?
+ =?us-ascii?Q?OdAbSOQZaYdbu1sZHbh+f3J5c8FIBkOUeEZlNncK+nk5Uasx2yYEVkCGYAMS?
+ =?us-ascii?Q?jyNYGH9uHBO83WF1eMbFHR8aSTfFmo5X4+tt6tMx85YQc8TrbUvXNygj14iw?
+ =?us-ascii?Q?h0niYQzEvvORzl271ijIQqEj0exxElgus5turOQfBvby70Wjw2S95xYcYFjO?
+ =?us-ascii?Q?m2Ou57iOLy+3cPbklwQcCumWCI4g9R0Y/Q2Hj5z1sDJflUXtJkOHjRrQD+VJ?
+ =?us-ascii?Q?NkOM9m/cUMe3Ot2+o3HD0PSfNyWmM84gUp/44HtcS5HXPd4c3HSjb3r2IunQ?
+ =?us-ascii?Q?XgWohZR7lsu6EKiHjq6SQKj6E092oXvCQ23gkojJHjdLqBKCT5kxJefH6ps+?
+ =?us-ascii?Q?NluQQaeHDpaHLqQR8BLyQYmLnDsdSOsbF2rk+kcU5xdsU7D8ZVYNqIG1o6FH?
+ =?us-ascii?Q?4pxlK46qUXQ/mnPkd/7JQzeyfw69k8dRj2skHO7BZAEyjF3mMV0mQGFnK20U?
+ =?us-ascii?Q?btSVBW3j2XzSl5kmKsp8ChEzoGvnMssicw9p6bFgozRQitVTdqsgUto0nEyE?
+ =?us-ascii?Q?ecbcIe/bTEcI/J5MerNsEIUGFyPpqfU9TnALHuftaEJeMRBgYsvTuQlEg/Nb?
+ =?us-ascii?Q?6nhUEpzNQN4bctlYLKBZleJI7bAnAgThaf3AuEw0CuTEm1+XBHy58Vo0V8sb?
+ =?us-ascii?Q?43EDE9ofDyqXt3+TShZESVLjSyOKPW/TWYnqUtEujh9Z3OH2w2kpeTaqBamZ?
+ =?us-ascii?Q?I0GW3JHjPeoMWIJ4JwZMAjItB1cTIhNolT08+ZK+XlJ+aV8fXo/CjtW4fR+A?
+ =?us-ascii?Q?YenuOYsW+y3xXhRbIdlcAdyN+4n1LhPr7tiyU5FeoIyQMm8aH/BfxSQJCM64?
+ =?us-ascii?Q?NKV4BDj+0kug9CfSYOgkSu8VREaMFdOu3zBe30F5oPQfm5JCfnCragS+F/81?
+ =?us-ascii?Q?H66nnp95hHVw91AoRsYQ8ZO2XqosY0zhks8YIX1yVeisPB0cztaHS5nisVft?
+ =?us-ascii?Q?e7U+7Z9gazWUmeDMiuY9JanqRB/D6wNbd/W/pLd6tFnVYDLdaWIuHZutIYX6?
+ =?us-ascii?Q?vU1yY8OMM+64l2TeQ4LmUXB99XITpurX4EctS92s5nR5H6Zs46mbAKrhpGtZ?
+ =?us-ascii?Q?ZuoQFVDusKTdnw8JtkDPZxvjMviOVxZg1aWUMLYygVmtLypo81Howc9U2Pht?
+ =?us-ascii?Q?/HUJEYTfzburHpuPd5OS7YbVM1VE4xsveiCpcBvNWAwmZGM8GdJP2lEFXf4M?
+ =?us-ascii?Q?4G4lVQzP/JVhRmgpJvn3Iu+4NHaei7ca2U25CSQoBjSX9NC7Qvp9PQaIkFoC?
+ =?us-ascii?Q?s4LkHnM32l2akgaGg7BCMQNzpoFQ=3D=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB549;5:pPCb2S75C4t7f0FsHEjsqV7JHYslqOxynMwRLn5Pg+yLCe586OoMNeufAIbGN+dYUXjk9NNiDcBY2G9adlD0OPSvWDVGUbhE1JpTyIzGOGqIGJzxe8EjK9fWCEj9xelSwhpxlTADnClNiMiCsyy3LA==;24:xNBcIQS1cXqIBjb8QpzTgZ7yd7+4lmK8HsMLaHyrisVBA6bXciZ6ga9hoEV0xFCWsCU27v2Yl5uKnv4yVRReHezfxc4l52HQgll8DzzETjs
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Feb 2015 04:05:31.8918
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB549
+
+At noon this coming Tuesday, Feb. 23d, our very of Bob Thompson will be pre
+senting at the faculty workshop in the Hotung Faculty Dining Room.  Lunch w
+ill be served.
+
+As always, the expectation is that those attending the workshop will have r
+ead the paper beforehand.
+
+Bob contextualizes the paper as follows:
+
+The attached essay is an overview of a book project that examines corporate
+ personality focusing on both traditional corporate characteristics like li
+mited liability, arbitrage, magnification, and anonymity, and recent Suprem
+e Court illustrations from Citizens United and Hobby Lobby.  You likely hav
+e much to say about the Supreme Court cases. I would welcome the degree to 
+which you would want to engage in how they relate to the corporate law aspe
+cts presented here. RBT
+
+Adam J. Levitin
+Professor of Law
+Georgetown University Law Center
+user@domain.com<mailto:user@domain.com>
+<<link>> (faculty web page)
+<<link>> (blog)
+202-662-9234 (o)
+

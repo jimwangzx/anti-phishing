@@ -1,0 +1,100 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 3 Dec 2015 07:53:27 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rB3FrQkJ018436	for <user@domain.com>; Tue, 3 Dec 2015 
+ 15:53:26 GMT
+Received: from mail191-co1-domain.com
+ (mail-domain.com [216.32.180.182])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rB3FrP7a025364	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 3 Dec 2015 15:53:26 GMT
+Received: from mail191-co1 (localhost [127.0.0.1])	by
+ mail191-co1-domain.com (Postfix) with ESMTP id 3C42BB402E1	for
+ <user@domain.com>; Tue,  3 Dec 2015 15:53:25 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:205.201.129.29;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 7
+X-BigFish: vps7(z3e12hz9371Ic89bhc857hcfbenzz1f42h208ch1ee6h1de0h1fdah2073h2146h1f00h1202h1e76h2189h1d1ah1d2ah1fc6hzz1def03h177df4h17326ah172cdfh1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h1de096h186068h1ce121iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh2327h2336h1d9ci1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail191-co1: domain of domain.com designates 205.201.129.29 as permitted sender) client-ip=205.201.129.29; user@domain.com; helo=domain.com ;01.domain.com ;
+Received: from mail191-co1 (localhost.localdomain [127.0.0.1]) by mail191-co1
+ (MessageSwitch) id 1386086002998565_9262; Tue,  3 Dec 2015 15:53:22 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.228])	by
+ mail191-domain.com (Postfix) with ESMTP id EF63F180041	for
+ <user@domain.com>; Tue,  3 Dec 2015 15:53:22 +0000 (UTC)
+Received: from domain.com (205.201.129.29) by
+ domain.com (10.243.66.35) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 3 Dec 2015 15:53:22 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?KIND?= <info@supportkind.org>
+ bh=BfMnOCSd/syrfx1Z88xnfoaXU2Y=;
+ b=sZghrO6sLniEQHbabxm4hoOH5l3NPulc1Ko1det7Z8wD9Bh5PX5FZSY6L3YgB6T5z3lcgrtMGHc8
+   HWc4I8zGIjq8HCxnGoA6Nz5VEyhtMZ25Zpudaby4F1Dldx6CljZI7ZYMLjF54cfeu6JKnuQMeCEn
+   fQIN+ymzOMTLDsNr25U
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=HfihfwVWGLVBvISDIb+K7+vxin3yldj/fMLoNeEae56Nx3HlnB2qVJQ+aiwLU+5chTSkR084FnAZ
+   q17IHzArcQADfiUBTmImOEGU/QqW+qw2zhGtC+YXP4jK6Zwv7JRi7Iqb0x+4eDXCo4mKPWVClFSg
+   k1CL3WISWUhCfIaRa+w=;
+Received: from (127.0.0.1) by domain.com id hjnv74174e05 for
+ <user@domain.com>; Tue, 3 Dec 2015 15:53:21 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?Help=20a=20child=20migrant=20today=20during=20#GivingTuesday?
+From: =?utf-8?Q?KIND?= <info@supportkind.org>
+Reply-To: =?utf-8?Q?KIND?= <user@domain.com>
+To: =?utf-8?Q?Amy?= <user@domain.com>
+Date: Tue, 3 Dec 2015 15:53:21 +0000
+Message-ID: <7910895user@domain.com>
+X-Mailer: MailChimp Mailer - **CID5aeaa7a0848cc29e71b8**
+X-Campaign: mailchimp7910895d981ad3d0bf0013fa8.5aeaa7a084
+X-campaignid: mailchimp7910895d981ad3d0bf0013fa8.5aeaa7a084
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 7910895d981ad3d0bf0013fa8
+x-accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: KIND <user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Help a child migrant today during #GivingTuesday
+
+
+
+
+View this email in your browser         
+
+ <<link>>        
+
+Dear KIND Supporters,
+
+We are excited to share with you that KIND’s innovative Guatemalan Child Return and Reintegration Project (GCRRP) has been accepted to participate in a Microsoft matching program through the Global Giving Site today, on Giving Tuesday!
+
+Starting at noon on December 3rd, $250,000 in matching funds will be available – gifts of $10 to $1,000 per donor, per project will be matched 100 percent by Microsoft UNTIL FUNDS RUN OUT! (It is recommended to domain.com the site between 12:00 and 2:00 p.m. ET as matching funds usually run out in a couple of hours)
+
+This is a wonderful opportunity to help Guatemalan children returning home alone and ensure that they receive vital support in their home communities through KIND’s GCRRP, which has garnered praise and international attention, and could assist many more children with support from people like you.
+
+Please help us take advantage of this chance to tap matching funds for this key KIND initiative by spreading the word to your friends, colleagues and social media networks!  
+
+As the concept of Giving Tuesday grows, people are seeking meaningful ways to give.  Each gift made today* at Global Giving will be matched 1:1, and will help an unaccompanied Guatemalan child return home safely.
+
+Thank you!
+
+ <<link>>
+
+Wendy Young
+KIND President
+
+*Conditions: 
+
+The match continues until December 4th, 2013, at 11:59:59 AM ET, or until matching funds run out.
+
+Only online donations (domain.com card or PayPal) are eligible for matching funds.
+
+Donations made by gift card, check, or 
+

@@ -1,0 +1,62 @@
+Delivered-To: user@domain.com
+Received: by 10.229.66.133 with SMTP id n5cs269080qci;
+        Mon, 18 Oct 2015 05:00:36 -0700 (PDT)
+Received: by 10.229.246.68 with SMTP id lx4mr609692qcb.74.1287403235983;
+        Mon, 18 Oct 2015 05:00:35 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com [208.75.123.194])
+        by domain.com with ESMTP id g22si18610228qcs.121.2010.10.18.05.00.34;
+        Mon, 18 Oct 2015 05:00:34 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.75.123.194 as permitted sender) client-ip=208.75.123.194;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 208.75.123.194 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from p2-domain.com (p2-domain.com [10.252.0.103])
+	by domain.com (Postfix) with ESMTP id C5235E14905
+	for <user@domain.com>; Mon, 18 Oct 2015 08:00:34 -0400 (EDT)
+DKIM-Signature: v=1; q=dns/txt; a=rsa-sha256; c=relaxed/relaxed; s=1000056883; d=domain.com; h=to:subject:mime-version:message-id:From: The Broad Foundation <press@broadfoundation.org>
+Message-ID: <1103785756392.1102246000775.8585.9.3080091@scheduler>
+Date: Mon, 18 Oct 2015 08:00:34 -0400 (EDT)
+From: The Broad Foundation <press@broadfoundation.org>
+Reply-To: user@domain.com
+Sender: The Broad Foundation <user@domain.com>
+To: user@domain.com
+Subject: 2015 Broad Prize Winner Announced Tomorrow
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_62010353_996621203.1287403234795"
+X-Mailer: Roving Constant Contact 2015 (<<link>>)
+List-Unsubscribe: <<link>>
+X-Return-Path-Hint: user@domain.com
+X-Roving-ID: 1102246000775.8585
+X-Lumos-SenderID: 1102246000775
+X-Roving-CampaignId: 1103785756392
+X-Roving-StreamId: 0
+
+Who will win the 2015 Broad Prize?
+
+Tune in live tomorrow at 11:30 a.m. Eastern to find out. 
+
+domain.com domain.com to register and view the live 2015 Broad Prize webcast. 
+
+One of these school districts will go home with $1 million in college scholarships: 
+Charlotte-Mecklenburg Schools, N.C. 
+Gwinnett County Public Schools, Ga. 
+Montgomery County Public Schools, Md. 
+Socorro Independent School District, Texas 
+Ysleta Independent School District, Texas
+
+Forward email
+<<link>>
+
+This email was sent to user@domain.com by user@domain.com
+
+Update Profile/Email Address
+<<link>>
+
+Instant removal with SafeUnsubscribe(TM)
+<<link>>
+
+Privacy Policy:
+<<link>>
+
+The Broad Foundation | 10900 Wilshire Boulevard | 12th Floor | Los Angeles | CA | 90024
+

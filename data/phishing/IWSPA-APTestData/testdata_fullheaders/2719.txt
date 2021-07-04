@@ -1,0 +1,161 @@
+Delivered-To: user@domain.com
+Received: by 10.100.139.5 with SMTP id m5cs160680and;
+        Thu, 7 Aug 2015 11:13:25 -0700 (PDT)
+Received: by 10.115.107.5 with SMTP id j5mr1583281wam.193.1218132804689;
+        Thu, 07 Aug 2015 11:13:24 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-2526.domain.com (yx-out-2526.domain.com [74.125.44.32])
+        by domain.com with ESMTP id 4si53078yxq.8.2008.08.07.11.13.22;
+        Thu, 07 Aug 2015 11:13:24 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.44.32 as permitted sender) client-ip=74.125.44.32;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.44.32 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yx-out-2526.domain.com with SMTP id 7so593925yxq.32
+        for <user@domain.com>; Thu, 07 Aug 2015 11:13:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results
+         :x-asg-debug-id:x-barracuda-url:received:received:x-asg-whitelist
+         :content-class:mime-version:content-type:x-mimeole:x-asg-orig-subj
+         :subject:date:message-id:x-ms-has-attach:x-ms-tnef-correlator
+         :thread-topic:thread-index:From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+         :x-barracuda-start-time:x-barracuda-virus-scanned:sender:precedence
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        bh=domain.com/f7lCbwIW54BaQ=;
+        b=7Ht3vnV4TFSWlkH1bGKjv+23R7w4COYg3DnglQaSNhb6txvnrDAqhBAskCHKeyPOYk
+         JInyEOU9FiqAXOqRYLJL7e7l5QjHLqlIM4fV4rj4mYi3A6WqLiLgP+vMDXQ9lzE9kxE4
+         wY0WhiskkS+J6DUnckgQIPGIGkQkiL52MJefA
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :x-asg-debug-id:x-barracuda-url:x-asg-whitelist:content-class
+         :mime-version:content-type:x-mimeole:x-asg-orig-subj:subject:date
+         :message-id:x-ms-has-attach:x-ms-tnef-correlator:thread-topic
+         :thread-index:From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+         :x-barracuda-virus-scanned:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere;
+        b=qZuWRxcumhicQSaXX7RwCFESTSCgXl0BoZy3eD0yBasYaZIeKDcGDkwasPc/hDw4Kg
+         RK423FHmDwWapi4n4xJIX58qK635Rnc5bVNXCtyJEgNXqkHgPBQLaOB2I30/9K7OxZAn
+         37CqGxiRRZNSs0zggZ/eLk5y3kNHFboicNGgQ
+Received: by 10.114.78.3 with SMTP id a3mr182602wab.19.1218132796638;
+        Thu, 07 Aug 2015 11:13:16 -0700 (PDT)
+Received: by 10.44.190.49 with SMTP id n49gr1488hsf.0;
+	Thu, 07 Aug 2015 11:13:02 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.214.147.21 with SMTP id u21mr3436110qad.22.1218132781743; Thu, 07 Aug 2015 11:13:01 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com [65.199.13.16]) by domain.com with ESMTP id 7si172538yxg.0.2008.08.07.11.13.01; Thu, 07 Aug 2015 11:13:01 -0700 (PDT)
+Received-SPF: neutral (domain.com: 65.199.13.16 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=65.199.13.16;
+Authentication-Results: domain.com; spf=neutral (domain.com: 65.199.13.16 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+X-ASG-Debug-ID: 1218132780-249c02080000-QLVFix
+X-Barracuda-URL: <<link>>:8000/cgi-bin/mark.cgi
+Received: from domain.com (localhost [127.0.0.1]) by domain.com (Spam Firewall) with ESMTP id 644485F3EBE for <user@domain.com>; Thu,  7 Aug 2015 14:13:00 -0400 (EDT)
+Received: from domain.com ([192.168.10.4]) by domain.com with ESMTP id l2wWoDWnJA5LHItg for <user@domain.com>; Thu, 07 Aug 2015 14:13:00 -0400 (EDT)
+X-ASG-Whitelist: Client
+Content-class: urn:content-classes:message
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01C8F8B9.39995596"
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+X-ASG-Orig-Subj: McCain Promises To Help Ohio Residents Who Lost Their Jobs Because Of His Campaign Manager
+Subject: [big campaign] McCain Promises To Help Ohio Residents Who Lost Their
+ Jobs Because Of His Campaign Manager
+Date: Thu, 7 Aug 2015 14:12:59 -0400
+Message-ID: <80user@domain.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: McCain Promises To Help Ohio Residents Who Lost Their Jobs Because Of His Campaign Manager
+Thread-Index: Acj4uTmXuimsQESQQDW5yt4qlsVdGQ
+From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+To: "User" <user@domain.com>
+X-Barracuda-Connect: UNKNOWN[192.168.10.4]
+X-Barracuda-Start-Time: 1218132780
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+H/t to Progressive Accountability for the video.
+
+McCain Promises To Help Ohio Residents Who Lost Their Jobs Because Of
+His Campaign Manager <<<link>>>
+
+Today, Sen. John McCain (R-AZ) is in Wilmington, OH and being forced to
+address DHL's merger with Airborne-Express, which may cost roughly 8,000
+jobs <<<link>>>  in the
+area. In a private meeting, "residents will ask McCain for help in
+stopping DHL's proposal
+<<<link>>
+30135640.xml&coll=3D2>  to domain.com using the airport as a hub," which would
+put the air park out of business.
+
+In a townhall on July 9, a resident asked McCain what he would do to
+mitigate the merger's effects on the area. "I want to be able to keep
+our nonprofits alive," she said, crying. McCain said the impact of the
+merger on area jobs is a "terrible blow":
+
+	MCCAIN:This is a terrible blow. Um, if there's an anti-trust
+implication that's associated with this, I certainly would seek a
+thorough investigation ... I've got to look you in the eye and give you
+some straight talk; I don't know if I can stop it or not. Or if it will
+be stopped it. ... In fact, some more straight talk: I doubt it. Ok?
+
+"In the meantime, there are manufacturing jobs that have been lost all
+over the state of Ohio, and it's been a terrible trauma," he said. Watch
+it:
+
+Today, McCain is dealing with the fallout from the merger. But five
+years ago, McCain's campaign manager lobbied heavily
+<<<link>>>  for the
+deal. The AP reports that Davis "lobbied the Senate to accept the
+proposal by DHL
+<<<link>>>  to buy
+Airborne Express for $1.05 billion." Davis's lobbying firm reaped the
+benefits:
+
+Filings in the Senate show Davis' lobbying firm, Davis Manafort, was
+hired to help both companies deal with Congress, where objections over
+DHL's foreign ownership arose. Davis and a partner earned their firm
+$185,000 for the DHL-Airborne Express work that year, records show.
+
+"McCain took steps that helped Davis's clients
+<<<link>>
+62502858_pf.html> " and thwarted Sen. Ted Stevens's (R-AK) "effort to
+insert language into legislation that would domain.com foreign-controlled
+companies such as DHL from holding certain military contracts," the
+Washington Post reported in June.
+
+Sen. George Voinovich (R-OH) called the situation "one of the worst job
+catastrophes
+<<<link>>>  that any
+community in this nation is facing." Will McCain deliver straight talk
+about the role that he and his campaign manager
+<<<link>>>  had in helping shuttle through
+the DHL deal?
+
+<<link>>
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

@@ -1,0 +1,151 @@
+Delivered-To: weicheng@edison.tech
+Received: by 2002:a0c:c44a:0:0:0:0:0 with SMTP id t10csp3486098qvi;
+        Mon, 24 Feb 2020 17:21:16 -0800 (PST)
+X-Received: by 2002:a67:ee81:: with SMTP id n1mr29875555vsp.184.1582593676727;
+        Mon, 24 Feb 2020 17:21:16 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1582593676; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Fkx1PDXIoXDGaIk5PKqg9HIR5PBtVQU1Hw9t230wO4Ox72nsKL36nOkw75oRz7wbSc
+         NHTOEVM2Hn/w6ahE9bhy3E9xGdRSalwDrpRSGNelf4HcSV7F8E0xaQXwFZPmGa2Oo2bC
+         vSeC8d3CGiAp+R14b/CkW3JbINOeqTqLvtZYs7zzClS2OcmmVSHt5ivxQ36byIU85zSk
+         DP6RXJt8ENPetUFgY4u/HTZzkSasUopzSMKSgZFlDisNA4exIUnRHqf9f4xEQrQL5CQU
+         OxwqFx9JJmYCHAi87Hh+uuF/t47hSXTZFlN1hsIHpihNIwvU5SYB5/Muq/SPkaBkopxe
+         5v/A==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-archive:list-help:list-post:list-id
+         :mailing-list:precedence:cc:to:subject:message-id:date:from
+         :in-reply-to:references:mime-version:dkim-signature;
+        bh=1sDzvwx2tuGXQwudXiCTfV9Mv/2eepHwNp0Y95DtT0M=;
+        b=qc3NYmgpayftPmiwSQ+Bb/mDz7UF6CordNL4SIrH4LLM1nm9yu3Sunr62dC97UwoLh
+         SQZuFdGGTWZlt5PQXGpQ2lGSByOfJ3trt410g2TT2tRTh3XC2Ruv8Z1Uj3NabvLpGUH6
+         SYY7uMdq5Zl5eY3YxbUtBeEaGjlPoXdtHi7/BRidldMBAOnuVL5Jk931Jdz70KgypKOa
+         PzLjKTtaBdyzRWnZnQHLPbdFK+tE2/5qbfMve91yY7+3B3igcZ2qu5mc8gibnTAN+d4k
+         3acxLAbrCoIbrdpx/IBJoqfbVtnAC9tRiPHe8o/E6cwf/xJ1Q1E6uZ4OgT+3o8IOyBPP
+         OAdQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@edison-tech.20150623.gappssmtp.com header.s=20150623 header.b=1ZzibRut;
+       arc=pass (i=2 dkim=pass dkdomain=edison-tech.20150623.gappssmtp.com);
+       spf=neutral (google.com: 209.85.220.69 is neither permitted nor denied by best guess record for domain of client+bncbdj3zjhdsuebbc7n2hzakgqe74hvqjy@edison.tech) smtp.mailfrom=client+bncBDJ3ZJHDSUEBBC7N2HZAKGQE74HVQJY@edison.tech
+Return-Path: <client+bncBDJ3ZJHDSUEBBC7N2HZAKGQE74HVQJY@edison.tech>
+Received: from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])
+        by mx.google.com with SMTPS id d16sor6848225vsf.64.2020.02.24.17.21.16
+        for <weicheng@edison.tech>
+        (Google Transport Security);
+        Mon, 24 Feb 2020 17:21:16 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.220.69 is neither permitted nor denied by best guess record for domain of client+bncbdj3zjhdsuebbc7n2hzakgqe74hvqjy@edison.tech) client-ip=209.85.220.69;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@edison-tech.20150623.gappssmtp.com header.s=20150623 header.b=1ZzibRut;
+       arc=pass (i=2 dkim=pass dkdomain=edison-tech.20150623.gappssmtp.com);
+       spf=neutral (google.com: 209.85.220.69 is neither permitted nor denied by best guess record for domain of client+bncbdj3zjhdsuebbc7n2hzakgqe74hvqjy@edison.tech) smtp.mailfrom=client+bncBDJ3ZJHDSUEBBC7N2HZAKGQE74HVQJY@edison.tech
+ARC-Seal: i=2; a=rsa-sha256; t=1582593676; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=B6nsygWznt5cXfGse03WXauZ6Ci9/uMGONzhAKsf+3XPva8yVBejRr2tRj8Cvo/atm
+         16TRBV1/WBtCgb9pE6dLFSYqpDVhMnBJHuNSvep9JESaMxefvjSMbVrY0pIbaIybSiw3
+         usc/lI3y3M2+2G84IrOeFMhaQ7Fb1gALBD89puxqITeChonUWQ2evciwPG6DQ5XlpHCp
+         sF3/8b11hwd0dPCF/YTNsAFtTNMd8xeUOU7QfAE70b9dN8uNRJ/McWuZqt7xwqAFobHD
+         cX4+R7NbIKk1EkhgRC2ltGyZApWKCeNj6+TbLpHZzP4vEutK4unI68CP8TwEOy8ytO54
+         z3pg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-archive:list-help:list-post:list-id
+         :mailing-list:precedence:cc:to:subject:message-id:date:from
+         :in-reply-to:references:mime-version:dkim-signature;
+        bh=1sDzvwx2tuGXQwudXiCTfV9Mv/2eepHwNp0Y95DtT0M=;
+        b=trKRSSGRYkWwczPXW7Ivxm0u0XQR4v3KAysvin97rzh4RQEMDFwczCK1zIompMotsZ
+         S2y3lObEv6DZaCh/lPbEg55qNbHKj2HQFs91u19wQyA3J2gzaElg51qI3bk3/8CeRpfh
+         xhAdGgr13YvArv5pXKhR9zKsNhhaWogVuCWBBo91C9CilgvZe6IJn+YJjC5fmWADCLX1
+         lXdUkkU6q5nExAvRDyqqgPQQI27mgm1rWK6LLFq0Sclnm4yh0AY5SDFf0NTvWtweJRgE
+         nTlvILD3zFw1NFPONujcAGNJqWRLL3R3ie4a7l8zlm5qAudCEV3ciFSXk2dsXfiaKNW6
+         Yx1Q==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@edison-tech.20150623.gappssmtp.com header.s=20150623 header.b=Z1YR3NOe;
+       spf=neutral (google.com: 209.85.220.41 is neither permitted nor denied by best guess record for domain of jun@edison.tech) smtp.mailfrom=jun@edison.tech
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=edison-tech.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc:x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=1sDzvwx2tuGXQwudXiCTfV9Mv/2eepHwNp0Y95DtT0M=;
+        b=1ZzibRutNqdmfeuALZz2xOlT35LELL/RaEmZi357lcdl8/OhzVvFQ1P5KwUeQq0unq
+         lLMMjniqTVJDlCdqqZTGrigPnn6oaCgq53YZhEejfPLUk3YM8Bm8catSG1w+beIQmx/y
+         VQigO1rPe0Qvgil1HD/pe/dzawsKJZrjr4A06SHqw48I9zHsJzUlQ0HxYINkVpRP1o+P
+         BwdxyHVfHr6edspa+WFeZqvfIX6sioV1ghGYY4Kpo7Zfc87QV7Vh5RkdxqIrkmtvHJ0a
+         SEbdXTIUBTzRXtorQwZwTwy1cyFs7pea60V9cwHKkJaj9A5LojOYKkWTYWUPxekrw9Um
+         xyMQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=1sDzvwx2tuGXQwudXiCTfV9Mv/2eepHwNp0Y95DtT0M=;
+        b=BtUbOu7Jcc9bkwrVtk2FJV1nH/18v5eSjimzcJHInSL6m+PXftFr1/eqtBXLHHiewg
+         kIu7lszkdsXFIacEOLgCWOhoZitKE4wUqih8V+4XejclOuLd6SDdi5RjRvhjCxBK+es4
+         60EPAbWxPzDZT/nk64p6MLOj9gpifaW0FL5wWFtHVgUCZw00JSdUufl/rg1oLtyDC4Js
+         J8QCQ5c+s2kXG4rKTc7Sc0dE6E1oQ+IpVXjooO4fD50DQFynCwkqmBzn4Moe9fKdSd/N
+         kwjXs5eMbKQaWNuM/dIoKb0P70pKCDNsdGyWvQGuCw4sgj2pGlEvEmicKm+UPKLuWiIT
+         R2jw==
+X-Gm-Message-State: APjAAAV8gJ9kYUtNwjDwksLUhDKQA7L8QHAMNf6+bHUPnPYZ4DyjVZ2A Oq5X48ECzzCMD4Xpt+Q+Fg9Rq7go
+X-Google-Smtp-Source: APXvYqwzD8iA9Jrszx7MhGZnIvqYH/EPgH9v1PvxDcoOd79CQOgjLAYyyWjXOkHAcBMGE0D6G02xJw==
+X-Received: by 2002:a67:ff14:: with SMTP id v20mr28488803vsp.114.1582593675814;
+        Mon, 24 Feb 2020 17:21:15 -0800 (PST)
+X-BeenThere: client@edison.tech
+Received: by 2002:ab0:2a83:: with SMTP id h3ls756168uar.11.gmail; Mon, 24 Feb 2020 17:21:15 -0800 (PST)
+X-Received: by 2002:ab0:45f2:: with SMTP id u105mr26829736uau.115.1582593675268;
+        Mon, 24 Feb 2020 17:21:15 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1582593675; cv=none;
+        d=google.com; s=arc-20160816;
+        b=tRaT/2fxrTrAkvYAskB7CjClBueyHmW4PsEODlokHiPCH/Q2qtp7axlSEqSLkYgKZJ
+         nLAaGt0aNU9v64r2sjNKExojdc2rOVQ3+sH1CTFtQofRUOkCuE1qozTnv4mNIUvamrKv
+         NrLsrNfqw9EEcHzKuiaITLYWm1uxgLs5TmE0jP583zU8ql5VhkUHzz6YyC0QWi/xIuTG
+         4WiQmBLMqD8xbp7j6BpJh6zj56wnF7YbUX8woqURffhgKWQ7SuYiIvABBuS9Rde3R1YR
+         2ZAIVXNFk1a0lRi31VGTzPmrqqI6JWOgp6kRwwxbLmOxxonXZ3aCrHVG1FbXfl7kQB/5
+         /dZA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:dkim-signature;
+        bh=yCAQs+wMZn94gfUt9IBKzDS5m8CKB2+mn12bCue+Cqk=;
+        b=sfozfJpaZ24BV3/nwT1Zl01O00sQN9UFNKROInmGW3MlvHhOtCoDa+4jkrSP7Pn4Bo
+         0eritoN6V0kBRq1yIryokjZE83BUdkw2zY/oWjygeYWWOUsOmhAkNW2Ggbkzun0ZgmYa
+         Zrzf1AW7H03XveJahTVaDYxp1fgzSPOebNHqPnbhu26RoGwhLe8nJmTqkNzyN+K44a9p
+         ZFhxorf5gD1/Y7J007o/EcyfRCZs/4MD4CuVh2pnGMWEjN54nNo6GvmoXeNBFhAcX3e1
+         UdpiLJ3EHYEWr68B0MDDWC5XaW5a9WiEYyLp7k/E99g+6Sm5H4XuXjst04GcHfq83GsD
+         4U2Q==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@edison-tech.20150623.gappssmtp.com header.s=20150623 header.b=Z1YR3NOe;
+       spf=neutral (google.com: 209.85.220.41 is neither permitted nor denied by best guess record for domain of jun@edison.tech) smtp.mailfrom=jun@edison.tech
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c7sor6898284vsp.84.2020.02.24.17.21.15
+        for <client@edison.tech>
+        (Google Transport Security);
+        Mon, 24 Feb 2020 17:21:15 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.220.41 is neither permitted nor denied by best guess record for domain of jun@edison.tech) client-ip=209.85.220.41;
+X-Received: by 2002:a05:6102:3d5:: with SMTP id n21mr26856658vsq.26.1582593674948; Mon, 24 Feb 2020 17:21:14 -0800 (PST)
+MIME-Version: 1.0
+References: <CAHZsO4+GVk2kdOAWUovWOR44-1=q1YJ9BMPCNExJTX8dTB=T-Q@mail.gmail.com>
+In-Reply-To: <CAHZsO4+GVk2kdOAWUovWOR44-1=q1YJ9BMPCNExJTX8dTB=T-Q@mail.gmail.com>
+From: Jun Wang <jun@edison.tech>
+Date: Tue, 25 Feb 2020 09:20:59 +0800
+Message-ID: <CAAa872pXHr8cd0EMKtG2O5CrikU3srxXqXbfFvnr_HrbcCa96g@mail.gmail.com>
+Subject: Re: Top issues from user feedback this week(019/2/17-2019/2/21)
+To: Jia Xinqiang <jia@edison.tech>
+Cc: Client <client@edison.tech>
+Content-Type: multipart/alternative; boundary="000000000000d1d6a4059f5c4d99"
+X-Original-Sender: jun@edison.tech
+X-Original-Authentication-Results: mx.google.com;
+       dkim=pass header.i=@edison-tech.20150623.gappssmtp.com header.s=20150623 header.b=Z1YR3NOe;
+       spf=neutral (google.com: 209.85.220.41 is neither permitted nor denied by best guess record for domain of jun@edison.tech) smtp.mailfrom=jun@edison.tech
+Precedence: list
+Mailing-list: list client@edison.tech; contact client+owners@edison.tech
+List-ID: <client.edison.tech>
+X-Spam-Checked-In-Group: client@edison.tech
+X-Google-Group-Id: 1044890630547
+List-Post: <https://groups.google.com/a/edison.tech/group/client/post>, <mailto:client@edison.tech>
+List-Help: <https://support.google.com/a/edison.tech/bin/topic.py?topic=25838>, <mailto:client+help@edison.tech>
+List-Archive: <https://groups.google.com/a/edison.tech/group/client/>
+List-Unsubscribe: <mailto:googlegroups-manage+1044890630547+unsubscribe@googlegroups.com>, <https://groups.google.com/a/edison.tech/group/client/subscribe>
+
+--000000000000d1d6a4059f5c4d99
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable

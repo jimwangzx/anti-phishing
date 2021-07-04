@@ -1,0 +1,116 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.30 with SMTP id o30csp1235906lfi;
+        Sun, 29 Mar 2015 19:26:40 -0700 (PDT)
+X-Received: by 10.170.205.200 with SMTP id w191mr20978937yke.75.1427682398645;
+        Sun, 29 Mar 2015 19:26:38 -0700 (PDT)
+Return-Path: <trustees-user+user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [209.85.160.199])
+        by domain.com with ESMTPS id q68si4489747ykb.46.2015.03.29.19.26.38
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 29 Mar 2015 19:26:38 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of trustees-user+user@domain.com designates 209.85.160.199 as permitted sender) client-ip=209.85.160.199;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of trustees-user+user@domain.com designates 209.85.160.199 as permitted sender) smtp.mail=trustees-user+user@domain.com
+Received: by mail-yk0-domain.com with SMTP id g184sf47734725yke.3
+        for <user@domain.com>; Sun, 29 Mar 2015 19:26:38 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: "Doug Bayer" <dougbayer@comcast.net>
+         :message-id:mime-version:content-type:thread-index:content-language
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=hOyKHAZI7ZM0OQTkwZvAmcOSHZdB21PceMwljxDU414=;
+        b=Z7TxhT+ezTAY/yHuETfkvNk1JneymJzQ14H8B9eJcJF8IeytMi/Pin8VaTWufcOz4d
+         D5rgaMN6Weq4RQRo0KweTItxJTFaH6lV0pbIblK19Kgme5y3SBfnZSgJm+Cpkc1AztBq
+         jf/8450y06FhOLpomodIk9XA5TfH4lXEaO/c5emtXWRT/+buHD4oRkGpyIqT9/oMp2Bo
+         MiQfQJIHNAemI8wzIxADTHqNDUH9UcmuWA2Eo8aup284i00zH7eFYWn0Hl1g3ICQOFPA
+         DNSGnb8vK2U0WI4k5CKheL7t9sUNhrlwG5QR4S28KAkFTBoJjCNLm/HA9nG3VIxuA+UV
+         oFuw
+X-Gm-Message-State: ALoCoQm+5xkUR+G0T562Gg/UEcWJnOgkMVfB+Idy4fst/vFLC50aUwDfiN0cH9Uydlxtj2kLmJ/f
+X-Received: by 10.236.37.72 with SMTP id x48mr36035853yha.33.1427682398005;
+        Sun, 29 Mar 2015 19:26:38 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.50.73.230 with SMTP id o6ls808224igv.30.gmail; Sun, 29 Mar
+ 2015 19:26:37 -0700 (PDT)
+X-Received: by 10.42.44.132 with SMTP id b4mr56999822icf.73.1427682397622;
+        Sun, 29 Mar 2015 19:26:37 -0700 (PDT)
+Received: from resqmta-po-07v.sys.comcast.net (resqmta-po-07v.sys.comcast.net. [2001:558:fe16:19:96:114:154:166])
+        by domain.com with ESMTPS id s5si7822391icb.10.2015.03.29.19.26.37
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Mar 2015 19:26:37 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2001:558:fe16:19:96:114:154:166 as permitted sender) client-ip=2001:558:fe16:19:96:114:154:166;
+Received: from resomta-po-01v.sys.comcast.net ([96.114.154.225])
+	by resqmta-po-07v.sys.comcast.net with comcast
+	id 9eRh1q0074s37d401eSdFy; Mon, 30 Mar 2015 02:26:37 +0000
+Received: from douglap ([73.169.208.2])
+	by resomta-po-01v.sys.comcast.net with comcast
+	id 9eSc1q00F03efEH01eSdCJ; Mon, 30 Mar 2015 02:26:37 +0000
+From: "Doug Bayer" <dougbayer@comcast.net>
+To: "User" <user@domain.com>, 
+ "'Trustees at Knox'" <user@domain.com>
+References: <CAD7TbapOZg8vQ+5RLbGQRJEWew2=-mDT5nYTzTkH31dQjd+user@domain.com>
+In-Reply-To: <CAD7TbapOZg8vQ+5RLbGQRJEWew2=-mDT5nYTzTkH31dQjd+user@domain.com>
+Subject: RE: New book by Fareed Zakaria defending liberal education
+Date: Sun, 29 Mar 2015 19:26:55 -0700
+Message-ID: <02f201d06a90$fe528480$faf78d80$@comcast.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_02F3_01D06A56.51F448C0"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQJeWy2Rpkn1mgopjS97jMPjU6EeR5wYa09Q
+Content-Language: en-us
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2001:558:fe16:19:96:114:154:166 as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=comcast.net
+Precedence: list
+Mailing-list: list user@domain.com; contact trustees-user+user@domain.com
+List-ID: <trustees-domain.com>
+X-Google-Group-Id: 229003166705
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:trustees-user+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+229003166705+user@domain.com>,
+ <<<link>>>
+
+The Kindle version is available at <<link>>
+ucation-Fareed-Zakaria-ebook/dp/B00RZXW0Z8/ref=3Dsr_1_1?s=3Ddigital-text <h
+ttp://domain.com/Defense-Liberal-Education-Fareed-Zakaria-ebook/dp/B00R
+ZXW0Z8/ref=3Dsr_1_1?s=3Ddigital-text&ie=3DUTF8&qid=3D1427682296&sr=3D1-1&ke
+ywords=3Dfareed+zakaria> &ie=3DUTF8&qid=3D1427682296&sr=3D1-1&keywords=3Dfa
+reed+zakaria for $10 on the same date
+
+- doug
+
+From: "Doug Bayer" <dougbayer@comcast.net>
+Sent: Sunday, March 29, 2015 10:51 AM
+To: President's Council; Trustees at Knox
+Subject: New book by Fareed Zakaria defending liberal education
+
+Of interest, you can order on Amazon, here <<<link>>
+iberal-Education-Fareed-Zakaria/dp/0393247686/ref=3Dsr_1_3?ie=3DUTF8&qid=3D
+1427651275&sr=3D8-3&keywords=3Dfareed+zakaria> . The title is In Defense of
+ a Liberal Education.
+
+--
+
+TERESA L. AMOTT
+
+President
+
+Knox College
+
+309-341-7211  |  Fax: 309-341-7856
+
+ <<<link>>> domain.com
+
+To unsubscribe from this group and stop receiving emails from it, send an e
+mail to trustees-user+user@domain.com <mailto:trustees-user+unsubscrib
+user@domain.com> .
+
+To unsubscribe from this group and stop receiving emails from it, send an e
+mail to trustees-user+user@domain.com

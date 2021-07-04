@@ -1,0 +1,85 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp1565573lfy;
+        Sun, 10 Jan 2015 12:21:51 -0800 (PST)
+X-Received: by 10.202.196.67 with SMTP id u64mr87405564oif.94.1452457311638;
+        Sun, 10 Jan 2015 12:21:51 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::236])
+        by domain.com with ESMTPS id t63si15244616oie.59.2016.01.10.12.21.51
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 10 Jan 2015 12:21:51 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::236 as permitted sender) client-ip=2607:f8b0:4003:c06::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-oi0-domain.com with SMTP id p187so17143492oia.2
+        for <user@domain.com>; Sun, 10 Jan 2015 12:21:51 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :content-type;
+        bh=J7BWOamphT89umGYdabTqD8EE8Szvl6NoGEP3+tcc18=;
+        b=e9Qn8vqBUGKKQDTuVgMmEIex5546msw147xdYHpP0EdaQKmOcU7mmDATNj98DFNFuG
+         +FzR2/E+OCB+BKqd0LYzQezSGAh0faaf1AScyktoAWmgX99zB/lBm4G5bQX4pysvErnz
+         8wotNaIi3vVo4MuqSE2mjrKxt4chxqioDW9J8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+        bh=J7BWOamphT89umGYdabTqD8EE8Szvl6NoGEP3+tcc18=;
+        b=FGKW6yzy0x1rB29G20OIyZwi9v7CUxhZdtJ++ReFoS/iWytvaXgPa7oNtYQAs3oCCl
+         d4wSKJnit9rtItZJPxlxxtyqk+egQ8F6JAc+FlOCG1bMJIrYz5HSgsTSHHbOjKLqrQEQ
+         E7d27/jTAhQmitkPhU4zYR2TGmCv58YKzYKnvLDFcPxArbvsgTt6KW/Hr2owIWOIuu1y
+         BNp9a1Yx8WItXxwdEqJVHf6x5ActCDoCIxPou/+wYS+7jdqNvByIglFUObPtaF6LyY/4
+         Jz/aBytNLcBd/sMpp9AoxuODb7hUaDdldq04O6xWqNwMT6Bv1h2vjUhZuE7jDRtNUsnx
+         po6w
+X-Gm-Message-State: ALoCoQmra4H0veS+Cxd/JAI4qmWHio/GMjdztgoBJ2Qx4OHshauqVvxENlppOufZMLou9H0Tcl/IJD8YolVVfhU6DYahRR85sWLq7FdVi8c7mEIyu/egFNs
+MIME-Version: 1.0
+X-Received: by 10.202.168.197 with SMTP id r188mr86349824oie.44.1452457311228;
+ Sun, 10 Jan 2015 12:21:51 -0800 (PST)
+Received: by 10.202.59.3 with HTTP; Sun, 10 Jan 2015 12:21:51 -0800 (PST)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+	<CANqZgL-wPX3kDkzHdRrV0X8VerWbUe0XkYp+34user@domain.com>
+	<user@domain.com>
+	<user@domain.com>
+Date: Sun, 10 Jan 2015 15:21:51 -0500
+Message-ID: <user@domain.com>
+Subject: Fwd: Draft topper for Sanders immunity hit
+From: Milia Fisher <mfisher@hillaryclinton.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113cbd44166ba105290092e1
+
+John- comms would like to get your approval for a quote to blast out to
+reporters on Sen Sanders' refusal to hold gun manufacturers accountable.
+Does this look OK to you?
+
+"Senator Sanders' record shows he is willing to hold most industries
+accountable for their abuses, but not gun manufacturers. It makes zero
+sense to provide an exception for the gun industry," said John user,
+Chair of Hillary for America. "If Senator Sanders wants to make good on his
+pledge to support commonsense gun safety measures, he ought to domain.com to
+fully repealing the immunity he voted to extend to the gun manufacturing
+industry. The NRA said this was its biggest priority in 20 years, and
+Senator Sanders still refuses to domain.com he got it wrong."
+
+---------- Forwarded message ----------
+From: Milia Fisher <mfisher@hillaryclinton.com>
+Date: Sun, Jan 10, 2015 at 3:07 PM
+Subject: Re: Draft topper for Sanders immunity hit
+To: Jesse Lehrich <user@domain.com>
+Cc: Samantha McClain <user@domain.com>, Zac Petkanas <
+user@domain.com>, Sara Latham <user@domain.com>,
+Jesse Ferguson <user@domain.com>, Jennifer Palmieri <
+user@domain.com>, Christina Reynolds <
+user@domain.com>, John user <user@domain.com>,
+Carter Hutchinson <user@domain.com>, Alexandria Phillips <
+user@domain.com>, Milia Fisher <user@domain.com>
+
++ Alex and milia. We need:
+
+1. JDP signoff on quote
+2. Formatted release with these two pieces flowed together
+On Jan 10, 2015 3:05 PM, "Jesse Lehrich" <user@domain.com>

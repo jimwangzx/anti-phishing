@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp1038304lfr;
+        Sun, 26 Jul 2015 14:02:22 -0700 (PDT)
+X-Received: by 10.107.150.145 with SMTP id y139mr36458371iod.128.1437944542282;
+        Sun, 26 Jul 2015 14:02:22 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [209.85.213.180])
+        by domain.com with ESMTPS id y13si13318226iod.160.2015.07.26.14.02.21
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 26 Jul 2015 14:02:22 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.213.180 as permitted sender) client-ip=209.85.213.180;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.213.180 as permitted sender) user@domain.com
+Received: by mail-ig0-domain.com with SMTP id ij6so48064067igb.1
+        for <user@domain.com>; Sun, 26 Jul 2015 14:02:21 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Elan Kriegel <elan.kriegel@bluelabs.com>
+        bh=3E4TFT0MKYlKvLDAqJG+geW3Ei+5PZ/pqhZw/Fq1V6o=;
+        b=G+qRjGzU1LBfGjC+P6ZLfLz6JDItPLVbmkz0q/ZoSoa+I6P5nqc7D846t9Fhx+Wx35
+         s2/oSbVsBQz1QvAAx8zuK7kNrp/4qMCxTl1ms0K9qeQiYceV38C4a6swrrPz3SQQwJ68
+         Y3/8A8B6GmBqjEudtgvz8sxbbUoylFx4DsNWKnIZazspIrdm5ecoNm22RYba4mzWFKuR
+         YEemfM0pZdVMsAn4KkSacoAQHCBwSqX8slZB/657KG2l3qIIjSxNFFjfLfwobWUTZpHj
+         9C0lpFNVdrdghVpB/vU7Gc+8Y2AYJaM2FEdBRLFqxWAL8QYziCkJLE795sxhKewY7gSz
+         b5yw
+X-Gm-Message-State: ALoCoQn1jJyt+R/huZJ2TaRg3yC8jivsyEsIh1cBhkx/wopjBwbknFORqBXNG0HyBfCqRXKphsnp
+MIME-Version: 1.0
+X-Received: by 10.107.170.77 with SMTP id t74mr41055634ioe.107.1437944541462;
+ Sun, 26 Jul 2015 14:02:21 -0700 (PDT)
+Received: by 10.107.32.10 with HTTP; Sun, 26 Jul 2015 14:02:21 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <7user@domain.com>
+	<user@domain.com>
+Date: Sun, 26 Jul 2015 17:02:21 -0400
+Message-ID: <user@domain.com>
+Subject: Re: hi John & a (reasonably) quick question
+From: Elan Kriegel <elan.kriegel@bluelabs.com>
+To: John user <user@domain.com>
+CC: Stephanie Hannon <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11427d6899e062051bcd8de6
+
+Hey John,
+
+Thank you! Interesting resume -- he's obviously a bit junior, but I think
+we might have a role that he could fit into. We have a pretty extensive
+application process (including a test) that takes a bit of time, so I'm
+going to have my team get that going tomorrow and hopefully it will go
+well. I'll also respond to the other thread with Reggie
+
+--elan
+
+On Sun, Jul 26, 2015 at 4:35 PM, John user <user@domain.com>

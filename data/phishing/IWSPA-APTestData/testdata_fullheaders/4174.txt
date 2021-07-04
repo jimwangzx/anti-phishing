@@ -1,0 +1,58 @@
+Return-Path: <SRS0+1oAq+28+user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id 073A346886
+	for <user@domain.com>; Sun,  4 Jan 2015 18:12:44 -0500 (EST)
+X-Greylist: delayed 62 seconds by postgrey-1.27 at domain.com; Sun, 04 Jan 2015 18:12:43 EST
+Received: from domain.com.au (domain.com.au [203.31.48.201])
+	by domain.com (Postfix) with ESMTP id B961E131F753
+	for <user@domain.com>; Sun,  4 Jan 2015 18:12:43 -0500 (EST)
+Received: from domain.com.au (HELO domain.com.au) ([202.78.47.66])
+  by ironport-domain.com.au with ESMTP; 05 Jan 2015 10:11:35 +1100
+Received: from User (unverified [85.120.239.146]) 
+	by NSmailstor (SurgeMail 3.9g2) with ESMTP id 9638203-1928045 
+	for multiple; Mon, 05 Jan 2015 10:10:42 +1100
+From: "Verified by Visa"<protect@protectvisa.com>
+Subject: We detected suspicious activity
+Date: Mon, 5 Jan 2015 01:11:48 +0200
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <1231110642_461022@domain.com.au>
+X-Authenticated-User: user@domain.com 
+X-Info: aspam skipped due to (g_smite_skip_auth)
+X-IP-stats: Incoming Last 0, First 0, in=58, out=0, spam=0 ip=85.120.239.146
+To: undisclosed-recipients:;
+Content-Length: 1590
+Lines: 40
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 944
+
+Dear client,
+
+    The VISA company informs you that in result of a failure in the Verified by
+    Visa system, the sum of 484.95 euro was taken from your card.
+
+    If you haven't made any purchases during the week, then please register in
+    the Verified by Visa system so that the money can be recovered.
+
+    This system fully protects you from unauthorized use of your card.
+
+    If you are already registered in the Verified by Visa system, then you have
+    to register one more time to activate your account.
+
+    Follow the link to continue the registration process.
+
+<>
+
+Privacy
+    & Security | Terms
+    & Conditions |  Copyright 2009, Visa. All Rights Reserved.

@@ -1,0 +1,64 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id F247023CA80
+	for <user@domain.com>; Wed, 12 Dec 2015 09:40:02 -0600 (CST)
+X-Virus-Scanned: amavisd-new at domain.com
+X-Spam-Score: 4.41
+X-Spam-Level: ****
+X-Spam-Status: No, score=4.41 tagged_above=2 required=5
+	tests=[BAYES_00=-2.599, HELO_DYNAMIC_IPADDR=4.2,
+	HTML_FONT_FACE_BAD=0.156, HTML_MESSAGE=0.001, NO_REAL_NAME=0.961,
+	RATWARE_GECKO_BUILD=1.691]
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id JdpJGcmn5xfo for <user@domain.com>;
+	Wed, 12 Dec 2015 09:40:00 -0600 (CST)
+Received: from domain.com (domain.com [129.7.234.211])
+	by domain.com (Postfix) with ESMTP id 9A65823CA7F
+	for <user@domain.com>; Wed, 12 Dec 2015 09:40:00 -0600 (CST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by localhost (Postfix) with SMTP id 935C6E094FF
+	for <user@domain.com>; Wed, 12 Dec 2015 09:40:10 -0600 (CST)
+Received: from Static-57.156.97.14.tataidc.co.in (unknown [14.97.156.57])
+	by domain.com (Postfix) with ESMTP id 530BEE09536
+	for <user@domain.com>; Wed, 12 Dec 2015 09:40:08 -0600 (CST)
+Envelope-to: <user@domain.com>
+Delivery-date: Wed, 12 Dec 2015 21:10:07 +0530
+Received: from [100.133.210.214] (port=54057 helo=[192.168.8.39])
+	by 14.97.156.57 with asmtp
+        id 7TQUWm-89382 
+        V-BR; Wed, 12 Dec 2015 21:10:07 +0530
+Message-ID: <6225user@domain.com>
+Date: Wed, 12 Dec 2015 21:10:07 +0530
+From: <customerservice@serviceemail0.citibank.com>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.12) Gecko/20101026 Thunderbird/3.1.6
+MIME-Version: 1.0
+To: <user@domain.com>
+Subject: Account Notify
+Content-Type: multipart/alternative;
+ boundary="------------05060500408020801020509"
+X-Spam: Not detected
+X-Mras: Ok
+X-PMX-Version: 5.5.9.395186, Antispam-Engine: 2.7.2.376379, Antispam-Data: 2012.7.31.153616
+X-PerlMx-Spam: Gauge=XXIIIIIIII, Probability=28%, Report='
+ SXL_IP_DYNAMIC 3, HTML_70_90 0.1, SUPERLONG_LINE 0.05, BODYTEXTH_SIZE_10000_LESS 0, BODYTEXTP_SIZE_3000_LESS 0, ECARD_WORD 0, IMGSPAM_TABLE_1 0, LINK_TO_IMAGE 0, NO_REAL_NAME 0, RDNS_GENERIC_POOLED 0, RDNS_SUSP 0, RDNS_SUSP_GENERIC 0, URI_ENDS_IN_HTML 0, __ANY_URI 0, __BAT_BOUNDARY 0, __CANPHARM_COPYRIGHT 0, __CT 0, __CTYPE_HAS_BOUNDARY 0, __CTYPE_MULTIPART 0, __CTYPE_MULTIPART_ALT 0, __FRAUD_MONEY 0, __FRAUD_MONEY_VALUE 0, __HAS_FROM 0, __HAS_HTML 0, __HAS_MSGID 0, __IMGSPAM_TABLE_1 0, __MIME_HTML 0, __MIME_VERSION 0, __PHISH_FROM 0, __PHISH_FROM2 0, __PHISH_PHRASE7 0, __SANE_MSGID 0, __STOCK_PHRASE_7 0, __SUBJ_ALPHA_END 0, __TAG_EXISTS_HTML 0, __TO_MALFORMED_2 0, __TO_NO_NAME 0, __URI_NO_MAILTO 0, __URI_NS , __USER_AGENT 0'
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 147
+
+                                                                          EMAIL SECURITY ZONE               
+
+                                              ATM/domain.com card ending in: XXX1                    
+
+         Alerting Service    
+
+                                                                                  Bill Payment            Savings Account XXXXXXXXX4Amount Debited: $4,696.01Date: 12/12/12 domain.com this link to  Cancel Operation                                   
+
+                                                                                 Bill Payment            Savings Account XXXXXXXXX4Amount Withdrawn: $.28Date: 12/12/12 Sign In to  Abort Details                                  
+
+      ABOUT THIS MESSAGE            Please  DO NOT reply to this message.  automative notification system  not configured to accept incoming email.   
+
+       Citibank, N.A. Member FDIC.   2015 Citigroup Inc. Citi with Arc Design and Citibank are registered service marks of Citigroup Inc.

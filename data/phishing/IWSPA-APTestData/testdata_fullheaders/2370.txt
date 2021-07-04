@@ -1,0 +1,176 @@
+Delivered-To: user@domain.com
+Received: by 10.220.45.78 with SMTP id d14cs388389vcf;
+        Tue, 11 Jan 2015 12:53:28 -0800 (PST)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.216.245.195 as permitted sender) client-ip=10.216.245.195;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.216.245.195 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.216.245.195])
+        by 10.216.245.195 with SMTP id o45mr3144037wer.9.1294779207009 (num_hops = 1);
+        Tue, 11 Jan 2015 12:53:27 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:x-beenthere:received-spf:mime-version:sender
+         :in-reply-to:references:date:message-id:subject:From: Aniello Alioto <AnielloA@Gmail.com>
+         :x-original-sender:x-original-authentication-results:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :list-unsubscribe:content-type;
+        bh=9smAHlTGaLetS6OlfDLvJV6pWb172lQyobUWJkU4/no=;
+        b=TMz/SHmOf7cPx0xlm04Ky2TVkOKCvcnY8slMNrs94JuWNuwiipW4c/vZpyI0dYpPz6
+         wIzId+Vvvkrm5CmLq6LEz1BRcBBtaHt6uBnDIDozkh1atmcPc7syjB4winLU14hQtCel
+         oVZD9gjWshhI8K6rnjzR5rB5skFhbfZ8VN/s8
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:sender:in-reply-to:references
+         :date:message-id:subject:From: Aniello Alioto <AnielloA@Gmail.com>
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:list-post:list-help:list-archive:list-unsubscribe
+         :content-type;
+        b=T/MH0sStZFSY6XtxFMYaVOxFuH9jpd9hzrlKhCV9fnGxn3hv5USdHuV7ivrE0ahBfB
+         D7Lt7qFJ6YCwfW/qTWhFh42UjRaKcscYcxgyf6hxZ6psx6tVvptPxNbTN0kt+HyvH8YA
+         1/M68Eb/+ocXbjPh2lBcfyVrcwmE+Uf43VLCY
+Received: by 10.216.245.195 with SMTP id o45mr680372wer.9.1294779185821;
+        Tue, 11 Jan 2015 12:53:05 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.216.246.74 with SMTP id p52ls11290988wer.1.p; Tue, 11 Jan 2015 
+ 12:53:03 -0800 (PST)
+Received: by 10.216.157.79 with SMTP id n57mr50539wek.0.1294779183256;
+        Tue, 11 Jan 2015 12:53:03 -0800 (PST)
+Received: by 10.216.157.79 with SMTP id n57mr50538wek.0.1294779183212;
+        Tue, 11 Jan 2015 12:53:03 -0800 (PST)
+Received: from mail-ww0-domain.com (mail-ww0-domain.com [74.125.82.41])
+        by gmr-domain.com with ESMTP id l26si2584627weq.14.2011.01.11.12.53.02;
+        Tue, 11 Jan 2015 12:53:03 -0800 (PST)
+Received-SPF: neutral (domain.com: 74.125.82.41 is neither permitted nor denied by domain of user@domain.com) client-ip=74.125.82.41;
+Received: by wwi18 with SMTP id 18so3249999wwi.2
+        for <user@domain.com>; Tue, 11 Jan 2015 12:53:02 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.216.155.75 with SMTP id i53mr3386228wek.27.1294779182461; Tue,
+ 11 Jan 2015 12:53:02 -0800 (PST)
+Sender: user@domain.com
+Received: by 10.216.254.228 with HTTP; Tue, 11 Jan 2015 12:53:01 -0800 (PST)
+In-Reply-To: <user@domain.com>
+References: <10928478.1294772512576.user@domain.com>
+	<AANLkTi=YScyd-h26rCjVm2H+user@domain.com>
+	<user@domain.com>
+Date: Tue, 11 Jan 2015 15:53:01 -0500
+Message-ID: <user@domain.com>
+Subject: [big campaign] RELEASE: Pawlenty's Courage? Not In Minnesota
+From: Aniello Alioto <AnielloA@Gmail.com>
+To: user@domain.com
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=neutral (domain.com:
+ 74.125.82.41 is neither permitted nor denied by domain of user@domain.com)
+ user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <<<link>>>,
+ <mailto:bigcampaign+user@domain.com>
+Content-Type: multipart/alternative; boundary=0016e65b535a3bb341049998456c
+
+A great read on Tpaw - please let us know if Alliance for a Better Minnesot
+a
+(ProgressNow MN partner) can provide you with more information.
+
+---------- Forwarded message ----------
+From: Aniello Alioto <AnielloA@Gmail.com>
+user@domain.com>
+
+ [image: Alliance for a Better
+Minnesota]<<<link>>
+PUMQg..>
+
+FOR IMMEDIATE RELEASE
+January 11, 2010* *
+
+Contact: Denise Cardinal
+Mobile:  612-269-9276
+Email: user@domain.com* *
+*Pawlenty=92s Courage? Not in Minnesota*
+
+*St. Paul, Minn. -* Tim Pawlenty=92s record in Minnesota is anything but
+courageous.  As he embarks on a national tour today to promote his book *Th
+e
+Courage to Stand*, Minnesotans have not forgotten the mess he left behind a
+s
+governor.  Tim Pawlenty=92s tax increases and his $6.2 billion budget defic
+it
+will continue to plague Minnesota long after he is gone.  A state-based
+group, Alliance for a Better Minnesota, launched:
+domain.com<<<link>>
+uIEN_wdjLx-A..>as
+a way to share the facts about Pawlentys legacy with those outside of
+the
+state.
+
+Alliance for a Better Minnesota Executive Director Denise Cardinal released
+the following statement:
+
+"Tim Pawlenty spent eight years unfairly increasing the tax burden on
+middle-class Minnesotans while failing to show strong leadership and balanc
+e
+Minnesota=92s budget.  Minnesotans saw higher taxes, fiscal recklessness an
+d
+an aversion to making tough choices from Governor Pawlenty, but we certainl
+y
+never saw courage."
+
+The reality of Governor Pawlenty=92s legacy is that he has left the state i
+n
+shambles.  His lack of leadership has saddled the state with a $6.2 billion
+dollar domain.com and his failure to show leadership on tough issues ensured
+that middle-class Minnesotans paid higher taxes throughout his eight years
+as governor.
+
+Pawlenty cut state aid to local governments by $2.6 billion dollars over
+eight years, which caused property taxes for Minnesota homeowners to
+skyrocket over that same time period.  Over 90% of Minnesotans have seen
+their state and local tax rates increase since 2002, with the richest 10% o
+f
+Minnesotans remaining relatively unaffected.
+
+In addition, Governor Pawlenty=92s cut state spending on higher education o
+ver
+15% during his eight years as Governor.  These cuts have resulted in an 80%
+increase in tuition to his alma mater, the University of Minnesota, putting
+the education that allowed him to succeed further and further from the reac
+h
+of middle-class Minnesotans.
+
+###
+
+*Alliance for a Better Minnesota is a 501 (c)4 advocacy group, funded by
+progressive donors and institutions working for clean lakes, great schools,
+safe infrastructure and civil rights in Minnesota.*
+
+ *Alliance for a Better Minnesota is an online advocacy and communications
+organization focused on securing major advances in progressive public polic
+y
+for Minnesota.*
+
+To unsubscribe, click
+here<<<link>>
+yCUekWwggV&cid=3D1122>
+.
+
+--
+Xavier Lopez-Ayala
+@xavierla
+626-235-3871
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

@@ -1,0 +1,111 @@
+Delivered-To: user@domain.com
+Received: by 10.204.68.206 with SMTP id w14csp119505bki;
+        Mon, 19 Aug 2015 14:01:38 -0700 (PDT)
+X-Received: by 10.60.124.14 with SMTP id me14mr14936520oeb.4.1376946097702;
+        Mon, 19 Aug 2015 14:01:37 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [69.48.252.164])
+        by domain.com with ESMTP id i4si7418212oew.153.1969.12.31.16.00.00;
+        Mon, 19 Aug 2015 14:01:37 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.48.252.164 as permitted sender) client-ip=69.48.252.164;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 69.48.252.164 as permitted sender) user@domain.com;
+       dkim=pass (test mode) user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=selector1; d=mta-domain.com;
+ h=Message-ID:Date:Reply-To:Mime-Version:Content-Type:From: "Gene Karpinski, League of Conservation Voters" <emc@lcv.org>
+ bh=b/vPdg5RKCKBhQy50wGAg0hOe34=;
+ b=hAavkZsXlJiRH20lmWpdj97TyvOp8nbHJIla9ft7Y8ymkwiTwkyxAbInt8AHlTPUgc5G5AwhRCDC
+   LpCweM+0i1mOHAFXVYT4rwKRs/L7/T6k5qCW3I2Gf8ho745bp9/rl097wU9XbCYxYOnnng7dY7ft
+   SgPZGrNsPoavQndfNng
+Received: from 10.0.31.216 (10.0.31.59) by mta-domain.com id h2a3r21argkn for <user@domain.com>; Mon, 19 Aug 2015 16:01:37 -0500 (envelope-from <user@domain.com>)
+Message-ID: <20542767.1376946097175.user@domain.com>
+Date: Mon, 19 Aug 2015 16:00:53 -0500 (CDT)
+Reply-To: "User" <user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_5270905_30598343.1376946097169"
+Organization: League of Conservation Voters
+X-campaignid: Convio-poolb-lcv-32581
+X-Gateway: c3poolb1
+XData: 1010,user@domain.com@user@domain.com
+X-ConvioDeliveryGroup: poolb
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; 
+  s=convio1; d=lcv.org; 
+  h=From: "Gene Karpinski, League of Conservation Voters" <emc@lcv.org>
+  b=K4cdOapvD07raO/PbDb0RmYGXk/mOQVn7QQcJ5Gz+OWLC1zb2tAN0M0S6oZApYt/4SVtP09h1ODBS3XRfCuUnQ==  
+From: "Gene Karpinski, League of Conservation Voters" <emc@lcv.org>
+To: user@domain.com
+Subject: Special Update: a toxic week for climate denial
+
+Dear John,
+
+This headline in the Washington Post says it all "Why isn't climate deniali
+sm politically toxic?"
+<<link>>
+
+As the story highlights, this is precisely what your investment in LCV is h
+elping to change. For too long, too many politicians have been able to espo
+use an extreme, anti-science view on climate change, stalling meaningful pr
+ogress on this issue with little consequences.
+
+With your support, LCV has launched an ambitious new campaign to change tha
+t.
+
+*  We began by releasing a bipartisan poll showing that young voters overwh
+elmingly view climate deniers as "crazy" and "ignorant", and that by overwh
+elming margins they support federal action on climate change: <<link>>
+.lcv.org/site/R?i=3DWYgFx0iLImvM_666Bkzy8g .
+
+*  Last week, we followed up with hard-hitting ads targeting four climate c
+hange deniers in Congress, likely the first ever to focus exclusively on th
+eir denial of climate science.
+
+*  On August 13, we partnered with Organizing for Action and some of our st
+ate leagues on a high-profile National Day of Action, involving hundreds of
+ LCV members across the country at grassroots events outside the offices of
+ climate change denying Members of Congress.
+
+This campaign has already reached tens of millions through broad media cove
+rage, and it is clear that we have struck a nerve with the deniers.
+
+Of course, this is just the start. We know that oil barons -- like David an
+d Charles Koch -- are spending millions of dollars to both undermine the sc
+ientific consensus and to prop up climate deniers. So, this needs to be a l
+ong-term effort, but it's one that we must win if we are ever going to get 
+serious about solving the looming climate crisis.
+
+I hope you'll read more highlights from this work below. Thanks again for a
+ll you do.
+
+Onward,
+
+Gene
+
+*********
+
+Holding Climate Deniers Accountable
+
+LCV launched a potent, nearly $2 million campaign to inform constituents if
+ their Member of Congress is a climate denier and to put pressure on the de
+niers themselves. The campaign includes television ads criticizing Senator 
+Ron Johnson, Representative Mike Coffman, Representative Rodney Davis, and 
+Representative Dan Benishek for their extreme views in denying the proven s
+cience of climate change. LCV is urging their constituents to contact these
+ members of Congress to tell them that it's time to act on climate change.
+
+You can watch the ads by clicking the links:
+Senator Ron Johnson: <<link>>
+A
+Representative Mike Coffman: <<link>>
+67rgRFeLw
+Representative Rodney Davis: <<link>>
+GmOrjxDTw
+Representative Dan Benishek: <<link>>
+wWvsZgyiw
+
+***********
+
+Senator Ron Johnson is Having a Tiff
+
+We have struck a nerve with the deniers. On the first day of the ad campaig
+n, Senator Ron Johnson wrote a highly inappropriate and hyperbolic response

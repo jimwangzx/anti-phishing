@@ -1,0 +1,154 @@
+Delivered-To: user@domain.com
+Received: by 10.64.48.201 with SMTP id o9csp147341ien;
+        Thu, 16 Aug 2015 07:32:40 -0700 (PDT)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.224.184.82 as permitted sender) client-ip=10.224.184.82
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.224.184.82 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.224.184.82])
+        by 10.224.184.82 with SMTP id cj18mr1579360qab.16.1345127557156 (num_hops = 1);
+        Thu, 16 Aug 2015 07:32:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:date:message-id:subject:from
+         :to:x-original-sender:x-original-authentication-results:reply-to
+         :precedence:mailing-list:list-id:x-google-group-id:list-post
+         :list-help:list-archive:sender:list-unsubscribe:content-type;
+        bh=gaIj9N9qOLWp8gW3xdL3IuKl1uioxHzBbTq/eB8P+HQ=;
+        b=ELifqpb147XdFXWR1KcwhgFfHKX1ytZ0bIuPpcslYmeYvvaMIrs3gstxZ30b7RMP53
+         zdkSrqRcyNC01PzrYOAdBeRPjHHgjiCrK2O3vMzPWmoZnkbJB60K6z15l9k9iPcuBR4P
+         ETzJE3kzESutRmFK8qCuk7bIcQ4RIWHdjyyIY
+Received: by 10.224.184.82 with SMTP id cj18mr344034qab.16.1345127556245;
+        Thu, 16 Aug 2015 07:32:36 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.229.178.68 with SMTP id bl4ls3995989qcb.9.gmail; Thu, 16 Aug
+ 2015 07:32:35 -0700 (PDT)
+Received: by 10.58.253.5 with SMTP id zw5mr225254vec.2.1345127555578;
+        Thu, 16 Aug 2015 07:32:35 -0700 (PDT)
+Received: by 10.58.253.5 with SMTP id zw5mr225252vec.2.1345127555519;
+        Thu, 16 Aug 2015 07:32:35 -0700 (PDT)
+Received: from mail-vb0-domain.com (mail-vb0-domain.com [209.85.212.46])
+        by gmr-domain.com with ESMTPS id dk6si207326vdb.0.2012.08.16.07.32.35
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 16 Aug 2015 07:32:35 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.212.46 as permitted sender) client-ip=209.85.212.46;
+Received: by mail-vb0-domain.com with SMTP id ff1so2989282vbb.33
+        for <user@domain.com>; Thu, 16 Aug 2015 07:32:35 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.52.70.116 with SMTP id l20mr517933vdu.74.1345127554978; Thu,
+ 16 Aug 2015 07:32:34 -0700 (PDT)
+Received: by 10.58.236.138 with HTTP; Thu, 16 Aug 2015 07:32:34 -0700 (PDT)
+Date: Thu, 16 Aug 2015 10:32:34 -0400
+Message-ID: <user@domain.com>
+Subject: [big campaign] Recording Reveals Maine Gov. LePage Has Secret Plan
+ for Special Session
+From: Chris Korzen <chriskorzen@gmail.com>
+To: user@domain.com
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com:
+ domain of user@domain.com designates 209.85.212.46 as permitted sender)
+ user@domain.com; dkim=pass user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+X-Google-Group-Id: 329678006109
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>,
+ <mailto:googlegroups-manage+329678006109+user@domain.com>
+Content-Type: multipart/alternative; boundary=20cf307abcff17952004c762eaf0
+
+More partisanship and intrigue from the great state of Maine.
+
+Chris Korzen
+Maine's Majority
+domain.com
+207-358-9731
+
+Recording Reveals LePage Has Secret Plan for Special Session
+<<link>>
+ing-reveals-lepage-has-secret-plan-for-special-session/
+  <<<link>>>
+
+Pat Wellenbach | AP
+
+At a Republican-only
+event<<<link>>
+a-dog-530/>
+at
+the Sea Dog brew pub in Bangor last night, Governor Paul LePage revealed
+that he has a secret plan to call the Legislature back into a special
+session before the November election in order to enact a policy that will
+=93push the envelope.=94
+
+LePage said he could not divulge what the legislative action would be as he
+was still working with the Attorney General=92s office to make sure it was
+constitutional, saying only that =93other Republican states have done this
+=94
+and that =93If we get this done, the State of Maine will be on the right
+track for the next ten years.=94
+
+LePage did make clear, however, that the secret policy would be partisan
+and divisive. =93I think we can get it done in about a day and the Democrat
+s,
+if you think they hate me now=85 Wow,=94 said LePage.
+
+Here=92s an audio clip of the relevant portion of LePage=92s speech provide
+d by
+an attendee of the event: Download
+recording<<<link>>
+-15.mp3>
+
+Full transcript:
+
+I=92m going to be honest with all of you here, especially all you incumbent
+s.
+I=92m going to interfere with your campaigning because I=92m going to call 
+a
+special session in the near future and I can=92t divulge what it is because
+the Attorney General is seeing if I=92m doing it right.
+
+I like to push the envelope, and so we=92ve got it half open and I believe 
+in
+my mind I believe it can be done. It=92s not a matter of whether or not we
+should do it or can do it, it=92s a matter of is our Constitution here in
+Maine allowing us to do it.
+
+I=92m just trying to do what other Republican states have done this year an
+d
+I gotta domain.com before I say too much more about it, but what I=92m telling yo
+u
+is this: If we get this done, the State of Maine will be on the right track
+for the next ten years. I promise you that.
+
+I see Senator Rosen=92s eyes saying =93what=92s he up to?=94
+
+I wish I had come up with the idea, but it was come up with=85 some people 
+on
+staff=85 brilliant and it=92s being looked at now and I can=92t domain.com to cal
+l
+everybody back and get this done.
+
+I think we can get it done in about a day and the Democrats, if you think
+they hate me now=85 Wow.
+
+So with that, have a nice evening.
+
+The Governor=92s plan could be focused on any number of controversial issue
+areas. Check this post for updates if and when this mystery begins to
+unravel.
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

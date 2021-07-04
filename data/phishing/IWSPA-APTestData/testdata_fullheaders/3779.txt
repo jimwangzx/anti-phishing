@@ -1,0 +1,39 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id ECA934689F
+	for <user@domain.com>; Mon,  8 Dec 2015 18:03:39 -0500 (EST)
+X-Greylist: delayed 770 seconds by postgrey-1.27 at domain.com; Mon, 08 Dec 2015 18:03:38 EST
+Received: from domain.com.au (dsl-210-15-238-82-domain.com.au [210.15.238.82])
+	by domain.com (Postfix) with ESMTP id DE56A131F770
+	for <user@domain.com>; Mon,  8 Dec 2015 18:03:38 -0500 (EST)
+Received: from User (domain.com [216.223.173.250] (may be forged))
+	(authenticated bits=0)
+	by domain.com.au (8.12.11/8.12.11) with ESMTP id mB8MYTi9020949;
+	Tue, 9 Dec 2015 09:34:32 +1100
+Message-Id: <200812082234.user@domain.com>
+From: "Amazon Communication Center"<awconfirm@amazone.co.uk>
+Subject: Order enquiry from Amazon customer user@domain.com
+Date: Mon, 8 Dec 2015 18:11:11 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients:;
+Content-Length: 483
+Lines: 1
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 921
+
+Hello,
+i am interested in your product on amazon : <>
+can you tell me how much shipping will be to London?
+
+  Christine

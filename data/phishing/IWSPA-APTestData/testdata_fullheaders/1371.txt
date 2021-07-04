@@ -1,0 +1,226 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp747165lfr;
+        Thu, 22 Oct 2015 14:19:20 -0700 (PDT)
+X-Received: by 10.55.54.19 with SMTP id d19mr21812657qka.52.1445548760273;
+        Thu, 22 Oct 2015 14:19:20 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.110.81])
+        by domain.com with ESMTPS id l192si15258826qhl.116.2015.10.22.14.19.19
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 22 Oct 2015 14:19:20 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.110.81 as permitted sender) client-ip=157.56.110.81;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.110.81 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Received: from domain.com (10.141.251.19) by
+ domain.com (10.242.167.20) with Microsoft SMTP
+ Server (TLS) id 15.1.300.14; Thu, 22 Oct 2015 21:19:18 +0000
+Received: from BL2FFO11FD044.protection.gbl (2a01:111:f400:7c09::144) by
+ domain.com (2a01:111:e400:2c61::19) with Microsoft
+ SMTP Server (TLS) id 15.1.306.13 via Frontend Transport; Thu, 22 Oct 2015 
+ 21:19:17 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=domain.com;domain.com; dmarc=none action=none
+ header.from=wilsoncenter.org;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.75;
+ helo=domain.com;
+Received: from domain.com (141.161.191.75) by
+ domain.com (10.173.161.140) with Microsoft
+ SMTP Server (TLS) id 15.1.306.13 via Frontend Transport; Thu, 22 Oct 2015 
+ 21:19:17 +0000
+Resent-From: Global Europe Program <European.Studies@wilsoncenter.org>
+Received: from na01-bn1-domain.com (141.161.191.14)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Thu, 22 Oct 2015 17:19:16 -0400
+Received: from domain.com (10.162.96.49) by
+ domain.com (10.141.199.14) with Microsoft SMTP
+ Server (TLS) id 15.1.300.14; Thu, 22 Oct 2015 21:19:15 +0000
+Received: from BL2FFO11FD055.protection.gbl (2a01:111:f400:7c09::195) by
+ domain.com (2a01:111:e400:5173::49) with Microsoft
+ SMTP Server (TLS) id 15.1.306.13 via Frontend Transport; Thu, 22 Oct 2015 
+ 21:19:15 +0000
+Authentication-Results: spf=pass (sender IP is 199.15.214.199)
+ smtp.mailfrom=em-sj-77.domain.com; domain.com; dkim=pass (signature
+ was verified) header.d=domain.com;domain.com; dmarc=none
+ action=none header.from=wilsoncenter.org;
+Received-SPF: Pass (domain.com: domain of em-sj-77.domain.com
+ designates 199.15.214.199 as permitted sender)
+ receiver=domain.com; client-ip=199.15.214.199;
+ helo=em-sj-99.domain.com;
+Received: from em-sj-99.domain.com (199.15.214.199) by
+ domain.com (10.173.161.183) with Microsoft
+ SMTP Server (TLS) id 15.1.306.13 via Frontend Transport; Thu, 22 Oct 2015 
+ 21:19:14 +0000
+Return-Path: user@domain.com
+X-MSFBL: cG9kZXN0YUBsYXcuZ2VvcmdldG93bi5lZHVAZHZwLTE5OS0xNS0yMTQtMTk5QGJn
+	LXNqLTAxQDIxOS1NVlUtNjQzOjEzNDM2OjE1NTg4OjUwMTU1OjA6MTc4MzY6Nzo0
+	NDQxOA
+Received: from [10.0.12.43] ([10.0.12.43:51082] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP	id 65/95-21871-CC259265;
+ Thu, 22 Oct 2015 16:19:08 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1445548748;
+	s=m1; d=domain.com; user@domain.com;
+	h=Date:From: Global Europe Program <European.Studies@wilsoncenter.org>
+	bh=svcfjm/S4JHIMYtPAYEdzxwC9HxQJUJb/7EP8gtp4AU=;
+	b=L15sGAY55+GGlOz0SOOxZz5+24nTCWN68BIzRvTRQbo/r3GqP29iWmRPkN3qvuHZ
+	o1vpb96fTk+2r4HyokulzpklU9tLLgHnqfXhLPax+CWCTkPnL8PRtDzXaSpG67k4wo0
+	/CsLdDKE4jVq4prFw481QKBFaYDoKaJAf5pzh57I
+Date: Thu, 22 Oct 2015 16:19:08 -0500
+From: Global Europe Program <European.Studies@wilsoncenter.org>
+Reply-To: <user@domain.com>
+To: user@domain.com
+Message-ID: <1571099852.37890949.1445548748583.user@domain.com>
+Subject: Invitation: The Fundamental Bond - Current Perspectives on EU-U.S.
+ Relations
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_37890948_2133266531.1445548748583"
+X-Binding: bg-sj-01
+X-MarketoID: 219-MVU-643:13436:15588:50155:0:17836:7:44418
+X-MktArchive: false
+List-Unsubscribe: <mailto:user@domain.com>
+X-MailFrom: Global Europe Program <European.Studies@wilsoncenter.org>
+X-MktMailDKIM: true
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD055;1:ST4LveVUmjtqpQPeEX15S9LibG/ubwE8rrastisY6tx7vrcl4tXQ9bDWLDMrefI+I6BPG1pj/rwi+GBFjdglqH4mf69Zvv2acm6AiiPE/fRePdfXC6L9IDGU+Ig/oBLSZIqCjFW1/+ccOCD2DiV0KfpqPbLpe+CGwmjeyF2GU4eAwBLo/yZJz+yEMGklwweoMRbPTwVMgqANrFZXtGmPSW1CA0KVTrLVbkfjRBE+X7m2mChVYHrVAlJ2LTtL1vAdnk7KAGDxFoMSnywZCS6K81vYTQxTdL7tK0KJgTQoSUSZXPBQP7Y4RRndX0fNzXIhmMhIYtryVUpknR177xx9GyqRZ5y1Y+zS0nywplI/QtSs5pkSJ1vIyO5lgc7pUoWVXoxGcbqOPl2XJIF50L5YOT9TlufD2rK/PQWrxik6y65O0X+5CPjrAJ8YRRJe4CpH
+X-Forefront-Antispam-Report-Untrusted: CIP:199.15.214.199;CTRY:US;IPV:NLI;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(6039001)(1060300003)(2980300002)(438002)(359002)(349900001)(199003)(189002)(37854004)(349012);DIR:INB;SFP:;SCL:9;SRVR:CO2PR07MB537;H:em-sj-99.domain.com;FPR:;SPF:Pass;PTR:em-sj-99.domain.com;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB537;2:WlCX0W7fbuLA9s9GgWWH996xaZJ0rKDMEDAGsvVUcEECJaucy9sCC/8NGf/x/tVBeFXs4OUsDlX+oxdRPmKfgjxd5OvI01BvffQePnJh5Fc7PgUBiQuOqVKmLc/E5nBkmaF43dlYHC1Wdk0eVXk0Fwip7+WJ0JZOCk2LwMRQa7E=;3:dPc5rpeYFiGrGbleAAHMUEenORfHQxPxrJFdMQSkBrwWLQ0zeE0QxQZD2M3k3r2/ktNyrdatY3ZnqhyhHy9iKmdfnjpzLi4dO5iaZw2gOgbMS6aJp3XuMV1ktxfNLvUBgFSHPNzUj5lsqvLSMLtu7p4M15DfE3Js5gzFZZhbtAYUKY/7obRh7RG94brM2DdiXbYGvVKLpSatw2w7mBO3vi/4YJrCMtYkijafLD9Ihe1CnwAaqxkwRTHnKl18DliY1Wdars7tZTRuhHC/V/ecNox85uQ+Iv4aTw3z7XmOuC83OEG+KZVCL9s0He9Kok1P13GqEs79NxtzwZERb/myH8zyBYQpb/Sicuad82hUDVEbY9GHeet2ibKXxTZUknEbwxVcea4qFRGbUVS+Ra2GQQ==;25:tdv7wKZDLkp1DYP+ADlNOVlVheOFc/sxOWkrkxRm/7jNb5QRE+OKo3SxOAL0n+gJbrZJrYttpjlBY+oTxmy8U/tF+kINpwEym0HBwSVdhZ0DkUIfREx1Rj5hQQLdoZCFsAEiKRyukGGtXGJ2rV5Cb+70xiXOdIqfdfPB+Mc5Mx2ATwjHdcnb5O6ZT6GoPDKvkLCJ+7mjKHvveYOs867FY36RoYzmhl3kgHek3/RJ1ibJ3+ME9EtribxaVOcYe2adnIa1djHbsA/nou+ej3zAIg
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(421252001)(42134001)(42139001)(42140001)(3001015)(200001)(71701003)(71702001);SRVR:CO2PR07MB537;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 
+	1;CO2PR07MB537;20:QSv4/E1/q6XeIN8qTx+1bN2U7k3zjMPNxgaI1VbFRaziZEseyMklyuPeEuXh3f+Gjr2ucEfZuhQHqzy1YTlmkyOX8K/i7dXB0IPd6yiJSy4biSwxsVq8dzsWgycd2AvliBCB4HLXpOm9VGFsoIHHnZAvv6In8TGr0Oa8EGD4xXc=;4:gTdGBIx7pTMT2j5CkWxynXhsHt/eWpz91/fp+qLMEdqidPRMu8G+azhNbRwUt00lK/I8BZMVpk69f5wbWWw22kjfoxyJs0dr99cPpwA7axS5+1t0VB/LGysqZInUMltGlb+atwoetsjAFzo3C7QaWUZw3UjLaCdQqAZiGx58a44MVuDCz9xrDBcT41p1RjZfm4lssY504nTKV8iDtXnQ5iiBmx4XQR2RX/Ns7LjIuxzqpJyOCw6itU8qvXm0bLRnFN7pjABlLj6gCVccNxNSL//EWnnYZF1v3GnkBfZwtTo83UWfroumMPHC4OQLn5S/YNxSqBLBWqXwzHwcRTjY1bojWleotalcOqvKzvlM/BXQZ19+3lJ9OwkI0/1GQlFF;23:f3iAfOBoFfusuoFTBgQLu3oiYjmBFrn5jfO0LeEwMTSq7YP2EKSaMcNE+yxwLUVQYPTg7cGDsyF66xfXMm2WXfH3yQ/veanWWSnRNrs+3KOQg7a+vflanBCeqsy5YG+LUEbx7ut73A2EXd2NdDMyvCUYLYXM/vI9cvFSAtsdHUCcK+chtdLwLSLMZDFLD8EWTwsj5mqlmys0q8iWBPUjahSwHLZfPrs6MiwOT3V31oG84OrXuMO4gofJHmdOhlx6vu8YHilDus04fJDI+s4cgZQpC+v/mm6dJXVkSZJeUwpKx5V5XMBc+eFW9azUf9bjJvlFXZ5ocZzt88goDIeWwrkpmx5dBiLtkK2dARmByiU25eHYk1rkLZUUkFiLtaHR
+X-Exchange-Antispam-Report-Test: 
+	UriScan:(76009858676777)(6594202986349);UriScan:(76009858676777)(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(8121501046)(520078)(1201001)(3002001)(102215026);SRVR:CO2PR07MB537;BCL:6;PCL:0;RULEID:;SRVR:CO2PR07MB537;BCL:1;PCL:0;RULEID:(601004)(2401047)(8121501046)(5005006)(520078)(1201001)(3002001)(102215026);SRVR:CO1PR07MB110;BCL:1;PCL:0;RULEID:;SRVR:CO1PR07MB110;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB537;5:A+StINg14CAhRUTLZYLkBEyzM4mcLtfSIDIdZYR66GtplpAY8miycVVeqkCU2Ubs0xcRJhTl+jq6BaAmKVr3G72Jv+U+HhwppgQXioUE40KBsTC8ozXHt9EfnNxvEVc/9/4riVVjUmaGw54qKnBYIw==;24:lXvQzEH9/JMIGGmFckGrgjljUixRA0H5si4nQuVUzEPrvYkHSjShVpAmGeoJYlHRA56lszke3Gas/G2fK6/NxA==;20:r3UK1/6KjmkeiSdTmyGjGEEnPDTPppbtCpM10Q4qrWF1lsHXwkC/vrN97Uogv1qEpvbvOw78MFb/yeiRoz8Onw
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB537
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BL2FFO11FD044.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BL2FFO11FD044;1:LdfTP68ac0mMwOzFtUKMBtml/QouuAk4fjPUX/xGWxCt/wjNStCWAqy6GLRrWweD6vNGDTM2/VCqjPBpBW6WwcZe/umqx6Wo/KO0/aCBREYj52vECc3yD51vFXrds1vNcwqWfj2mZdlC2fHuwQThpQxPApytFm3KHPrQB/NOufgyU2VklMKU99lHVH/nw5vCiInAuVUE+1HKe9bE7YMrwZCJsxgXsiH/MBlPDvAbTqXAn5lSWPPqDE/ZQ/QlCKf1GQT5UxUqPXL14IB7Rep0KkdC8zOxU64LCXZiCp2mniCV2JBiMSifjt7ZPWQw91SYbryvCEqF4BEK1PWwMyqgn4i2zTBF0HISa8k98WfgjYCaBhh+mLNSetl6etZDfoSi8rcoNF9fb6xcJoGOGk95TQ
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1060300003)(1110001)(1109001)(339900001)(37854004)(40514003)(199003)(13624006)(39224004)(189002)(450100001)(146001)(110136002)(229853001)(107886002)(43066003)(5001960100002)(956001)(77096005)(18926415007)(2351001)(50986999)(104016004)(54356999)(960300001)(16236675004)(88552001)(86816001)(85426001)(5007970100001)(4290100001)(87936001)(19618635001)(563874004)(5003600100002)(6806005)(84326002)(575784001)(22746007)(47976999)(22756006)(11100500001)(2171001)(19580395003)(19580405001)(81156007)(5001920100001)(53806999)(15975445007)(110436001)(97736004)(75432002)(106466001)(4001450100002)(307094003)(16799955002)(19622755009)(5002220100002)(19617315012)(85226003)(512874002)(55176004)(105606002)(5008740100001)(18206015028)(7099028)(42882005)(94166001)(79686003);DIR:OUT;SFP:1101;SCL:1;SRVR:CO1PR07MB110;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO1PR07MB110;2:oitwugIcYvAhT5k5KR3fhMc1rHO+u7VUFvd/vUYpe+SDWPC17lbJwl9V05xF114GtSiRkoIw1Kd3adcG7bF9u75ks0vi6RgerhGwce1Ely3uVGO39pjuqX7Jplr+DpjDt2pZ09P1EpDHVHDFeuPSglmwP8VIQq//56EDmrRYdsU=;3:v+ZteL72q0HyunJW6jp8glYsBhPZqoRYLlz3b2Da2MEGkr5fplweIl/dAuN/xOl6/IIKiRycwGzYpsQw/LcRrhvf50FOp5e0ZO7ZcBZYSGOS4KwzdbIWNO/FSLi2tncIZ3nLIebabC1Ug98tAa5H9efMW96UFCGlzAKuq+1CLZhnfew1TXH7/Rgu6sx1RpTnil/8WezuVVcNVLW+LkChr+LsXMeXV7EnTrI2p7+AkbNmjYV6M9wg+WuQ8gXGQRuggmb30yV4VS788z3ApYQN+abV0BdSu0QEu7D6G4bSi3nIUCLygBfKeSngjtl891kIVYMcp0NjF91X89gikilnsg==;25:9T9qz6se7V7wizUNHxhYyQSih3sDjweBw5OSvf54LWcTCgqKhHuFwTf9/JPmboCGuvIrMsj4QxdoIS1tsRKLm5LXoJNQsI6c1OEeEZaI/Fkk6VYyxrQYGYY86J6E7advJ3f5fgDlgs1i4TAX3yuqgTWaW3cTw1wiYEqFixSKnYNHCpqtfusfNzDYYd6BJYfHjuEbc2OnWHMFn8SRuAB0BlC8u7v1g9iDnTdy2lBYWxDwbXJIgNpv1GhANOwFAd1u2rUHoY34nyZXRYB6NH8bmw
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:;BCL:1;PCL:0;RULEID:(421252001)(42134001)(42139001)(42140001)(3002015);SRVR:CO1PR07MB110;
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO1PR07MB110;20:y8FQ1uBTGicoAcvkCXh26ZYEi/1J/dN68yl3GC9bSt5RZ+0ChbCNvoT8Oz/4zDjtj93ZGMzlufCTlh3QEiV4e/kCVJ+5Rgnu0Gif9+ryVO6UIZ61NOWhNpga5RmPX/h1/0YhUK6HxGwaHK9Eomc8z5nZkyZzH2fKgrWD3m4Kx4c=;4:qW/pihzQ99YABGRxD04J4zncbHx+/pjUmGl6n+Cg/22DzQSxyFb7RJ0LVqB8SyMuTI/tb27QwoUeXs7t37+BJ9ADsCDnpOTztZQWL2SBg8Yx997uTfZZClc9v1v4nIgjZ8cVrgQBlxs87XDoLnP3mSrreW+P4mkaBiEpXS1v1AvlgpBlYoXcFfFfNdHqZxM5cz/SPJrrmrhN2g1lxV216VdSSDU/mBaU14QGh3Egp1FuPT6Fu4QyRFLiP1m/DeLIP4nmSZjCHdb51e2o3xpzt5r56hsEoDNl04j9BQ6ha2fdaOnlLJ6GCcDx7fSBwfa3LEcYp3nMZ5D6asFZ6VQntZsA6As3hoEzrnvjb5r8U7vsDRyFAEltGlDrPOQ8Bi/frsc268UtLTCbuS2fSKPjEQ
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 0737B96801
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;CO1PR07MB110;23:QVhwZihdkUHH8NxNkTpYa+QZEzGzVLgjtK/zGiE2qO?
+ =?us-ascii?Q?/UtJZyNtzxJqG6yd7bLHPV5+xMrMg8CBQ3E+0Q5Dv1qfpHz31dXd0odxLIRV?
+ =?us-ascii?Q?AuMd94YQp//HUAt7Ab9cdtGLNvz7Dp8qbe86g2zYnUqpVZWL2isMPG4GgzQN?
+ =?us-ascii?Q?mYzh7/pplM/3zuMSjTmC6BDgHWZA6uIbrpsPBXc6u/0DN5LThzFiv0VQzniJ?
+ =?us-ascii?Q?Sbv2SHQA3mV2yx/4rmJ7mU7H9f0uwbyYuZ0fZ2kfD8XZzDXGeeoCkVGH9xrF?
+ =?us-ascii?Q?3ajMnIlDupgVT3hvtqu3pywD083bBLrT01JFdH+Zx4M9bPLrKL8/RLrqlORf?
+ =?us-ascii?Q?g34rRK+I7T7im/9gPAozz6PYMuyEQ7rdhAzJRbfDnZbuswfs3Tb7LrALdO5n?
+ =?us-ascii?Q?ueShUdocNewLsgz8cQFPQAWw0OYSVfAOhMGDjvd+NhPFsIunUQsway64Wgds?
+ =?us-ascii?Q?aQCKDFuV1NkHRGV9xmbnih9jgk4WLpYwTd3EECohmeYYdKkI3stZAb2OohSg?
+ =?us-ascii?Q?nEDnJ1usD5TwNpZF0Fa6PY/8N783kBBPCrn9X2q4TDSlmixloOtTgAsYYDir?
+ =?us-ascii?Q?ohINOZG3Qjn/ozwxXc19IucbmS21cTy2g0l4hiFojju83Cf1Oa43PVKthmGS?
+ =?us-ascii?Q?AAtdSZRLZXRGJ2UEU5bQxaT6bPTYre02a6Llyro1jt4MuoU9gE4bangOSFNT?
+ =?us-ascii?Q?ABftASQmMLM9pGv+MekytvNE+VjDA9X/Pp8dT6CC+0os7qzRXxxwfuVzS2LI?
+ =?us-ascii?Q?gkyrTeirISeKaFx7MFKi8BzvO44Mou6KUQ4gofHTWhpaCf5myktX2X6fzGFH?
+ =?us-ascii?Q?pUXwdysKNqxSD9oI/5JUr8t4p3FlZ+5ZIaUEKBiy1z+YSdQq31eyHHYiCnCV?
+ =?us-ascii?Q?dPnZIKn+SzalSehFRRrwv/eJdlMXTdJyWswaKnUhgnJ9CiZ4E+L1LPLxnVBa?
+ =?us-ascii?Q?hGt3rn2ODwor5biEqtZL2Qmn8WJIlY12zVXlVnKv/5e48kygi/wOuMjxLzY+?
+ =?us-ascii?Q?+/JnyjP7oqJrSoCjlX1uiPsNMmM/0eNYHgu7z0lXuDIkYg+N75t0+cfQEYUZ?
+ =?us-ascii?Q?aIrZQ+zkq/+YpgcMxRruZM7mtIAh8eD9Uz+pocWpIcNanpP+oQK5ckwCnx71?
+ =?us-ascii?Q?V7Ho0fDoqDbKHo9xJ9n2HivSV3MOscEj8XkYTYgPucJcbMeLp7uNOqeCYF/L?
+ =?us-ascii?Q?n9iiNA3/nBnOGYIkxSuqyFjNDxMm5tb4Zn/XNlGinmGpLwnyvtW96gP1YvmQ?
+ =?us-ascii?Q?syfYmhzG4n9qfR57yA/nq4Iye7nzh3Y85hSwKNStmUFyvqZ3Rs0i1uuXUI7Y?
+ =?us-ascii?Q?MmX9+y+5X8YqToTLi3m8zCCprttDaGzR6uJeOLftDsVcjv5fE7gAAsNbyPrz?
+ =?us-ascii?Q?+EvgZNFHyflr7zh1gs/kMqW8u3gDJ6G+StD6V6gxf/522QsXILPNA9o2yGS5?
+ =?us-ascii?Q?2GJoHzWOgFyf27LrW1291ENgljDHBierux3ffrKhNKLKYXn5P1h0k+bW1o3M?
+ =?us-ascii?Q?sab83h/7noxtHN3h1FtsiPnoWOjKmsF4TjfR6HdT0ZhYeQ1Fi6fN+cyEZwqU?
+ =?us-ascii?Q?idy8F0yeeahRR2G3k/PQzKID6wEg5VYMj7BO04VlrVmecuse1v52EAfUsh3K?
+ =?us-ascii?Q?Y7q5f4YtDwLcAod2C2lDi8EyHuJ9yJ2zRRyh3VnjCHewOfiFAtbDi9CDRlHI?
+ =?us-ascii?Q?Mt6uXSw2F7dBnozPJ0Vs+7sjhfhUhUH8dP6bdi9VlgdAPunGPwRHXzUO7QxJ?
+ =?us-ascii?Q?3SSh4kR3lo6Au4n96iCfhoR9ueC/STifWOk4aChOwViRuez/DYWYYQlkdWP4?
+ =?us-ascii?Q?n8p1YbYJ/7ZPI1MgUbRqPaLhX780Tnug=3D=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO1PR07MB110;5:JgO/KXBvJT2mDehCSF/m9dzm4IoGURsA2WBIEUe3bcm/OBvi/Jhf09aRJi1VXO8ppyxnRopI4DgUJxRpDv6+nNjutC0q8/qWhoBhM1qLT1PqSjgdYTebE/4rC+mjiSv1CksFHeM0QG6MxxHuZZLcVQ==;24:9iREkMPfmqGDDZ2D+QuqlXOJfJqrfQJME6294o+WZm/rp9FeOUrjxfxTnmeR85+/vqVpo+Ee0f4WZQCMc7eGl7CQDWz3VwAmIVweV85MBs8=;20:5cFrY6ATZs/1wkdM5aXd0TrmvtbYIlGqeC0+E7wUvUth4XjoHv2eF7cYwTVnhq1Vliq9g3cWDRQmApWF2SLZRw
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 1
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Oct 2015 21:19:17.2018
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR07MB110
+
+To view this email as a web page, go to the following address: <<link>>
+.wilsoncenter.org/index.php/email/emailWebview?mkt_tok=3D3RkMMJWWfF9wsRonvq
+nBeu%2FhmjTEU5z17%2BgpWK%2Bg38431UFwdcjKPmjr1YIGRMFkI%2BSLDwEYGJlv6SgFSLHMM
+a12z7gLXxI%3D
+
+Urban Sustainability Laboratory
+<<<link>>
+tml>
+ <<<link>>
+html>
+This event is co-sponsored by the European Parliament Liaison Office
+ with the U.S. Congress. After the European Court of Justice st
+ruck down the Safe Harbor data transfer agreement, there was concern about 
+its effect on U.S. companies operating in the European Union. The U.S. and 
+EU are also in the midst of protracted negotiations on a Free Trade Agreeme
+nt. While seeking ever deeper cooperation with one another, the U.S. and EU
+ each face internal challenges &ndash; the refugee crisis and instability i
+n neighboring countries in the EU; an upcoming presidential election and on
+going involvement in the Middle East in the U.S. Our expert commentators wi
+ll provide their perspectives on the state of EU-U.S. relations and balanci
+ng both internal and external opportunities and challenges. <h2 style
+=3D"font-family: Arial, Helvetica, Sans Serif; font-size: 16px;">Speakers</
+h2> Paul Adamson Editor and Founder, E!Sharp<
+/em>; Chairman, Forum Europe  Brian Beary Journalist and Contributor, European Affairs, Deutsche Well
+e, Europolitics <h2 style=3D"font-family: Arial, He
+lvetica, Sans Serif; font-size: 16px;">Moderator Christian 
+F. Ostermann Director, Global Europe Program, Wilson Center<
+/p>
+
+RSVP NOW =C2=BB <<<link>>
+balEuropeEvent.html>
+
+Forward to a Friend <<<link>>>
+<<<link>>
+tml>
+Tuesday, October 27, 2015 
+ 4:00 - 5:00pm
+
+5th Floor Conference Room
+
+Directions <<<link>>>
+
+Wilson Center
+ Ronald Reagan Building and
+ International Trade Center
+ One Woodrow Wilson Plaza
+ 1300 Pennsylvania, Ave., NW
+ Washington, D.C. 20004
+
+Phone: 202.691.4000
+
+user@domain.com <mailto:user@domain.com
+
+Privacy Policy
+
+<div style=3D"text-align: center">Subscriber: user@domain.com I
+f you no longer wish to receive these emails you may unsubscribe here: http
+://pages.wilsoncenter.org/subscription_center_unsubscribe.html.

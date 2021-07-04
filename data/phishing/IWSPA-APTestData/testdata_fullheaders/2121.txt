@@ -1,0 +1,109 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Sun, 5 Jan 2015 01:00:56 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0590uqC014893	for <user@domain.com>; Sun, 5 Jan 2015 
+ 09:00:56 GMT
+Received: from mail65-co1-domain.com
+ (mail-domain.com [216.32.180.177])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0590tuv004209	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Sun, 5 Jan 2015 09:00:55 GMT
+Received: from mail65-co1 (localhost [127.0.0.1])	by mail65-co1-domain.com
+ (Postfix) with ESMTP id C852014038C	for <user@domain.com>; Sun,  5
+ Jan 2015 09:00:54 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:72.5.30.55;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 8
+X-BigFish: vps8(z1baI35c8kz62a3Ic89bhd772hc857h8a86kzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h17326ah8275bh1bc7b9h8275dh1de097h186068h1954cbh18602ehz2fheh5eh5fh839ha12hc60hd24h1288h12a5h137ah13eah1441h14ddh1504h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1a75h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336hc61i1426k1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail65-co1: domain of domain.com designates 72.5.30.55 as permitted sender) client-ip=72.5.30.55; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail65-co1 (localhost.localdomain [127.0.0.1]) by mail65-co1
+ (MessageSwitch) id 1388912451877550_17733; Sun,  5 Jan 2015 09:00:51 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.245])	by
+ mail65-domain.com (Postfix) with ESMTP id D1C9C280048	for
+ <user@domain.com>; Sun,  5 Jan 2015 09:00:51 +0000 (UTC)
+Received: from domain.com (72.5.30.55) by domain.com
+ (10.243.66.36) with Microsoft SMTP Server id 14.16.227.3; Sun, 5 Jan 2015 
+ 09:00:51 +0000
+domainkey-signature: a=rsa-sha1; c=nofws; s=customer; d=domain.com; q=dns; 
+	h=From: CableFax Daily <CableFAXDaily@accessintel.com>
+	b=Yb1z39li6bmSpHxDrQZmctmgBFEMKmhpmDICsN6j8Y4lY7Ak+wmplAnsUoroLWsEj25QbZajrNQx8sZQocdB8ZKImq4LhA4kDjVyiVY4KYu8Lca9f+InbLwn92izWiAf5c+h9eKGMe2uzZNSeI5HLnXr+xqHAncT06gmGcttaIU=;
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com;user@domain.com;s=customer;
+	c=relaxed/relaxed; q=dns/txt; t=1388912451;
+	h=list-unsubscribe:From: CableFax Daily <CableFAXDaily@accessintel.com>
+	bh=8y4rm3DVziWuWzFoVS0REMe8BQY=;
+	b=hYP+4nymbWDPfOfDnYigjCQ1LyBTtbn3YMEQnUvs3VKTV2ny2ftmHPdhuhPJt8uT+OmUWNl/ElCCvn2wclViPYaV8BSTQZlbdpa8saFm46HujZZOyfqLkngTCrSbGZHHURh3y7D+vDAjIMFvNQ5zbEULRGozGHMBxp8+t6Xi/Co
+X-FBL: M2VmLjFlLjEyODAwMDAwMDVmNjkwOC41NjcwMjU1Mi4yMzA3LnN0ZXZlbl9vZGVsbD1zcGUuc29ueS5jb20
+List-Unsubscribe: <mailto:user@domain.com?subject=Remove Email user@domain.com>
+From: CableFax Daily <CableFAXDaily@accessintel.com>
+Message-ID: <37878user@domain.com>
+To: "User" <user@domain.com>
+Subject: =?utf-8?B?SGVyZSBpcyBhIGNvbXBsaW1lbnRhcnkgaXNzdWUgb2YgQ2Fi?
+	=?utf-8?B?bGVGQVggRGFpbHk=?
+Date: Sun, 5 Jan 2015 04:00:47 -0500
+Return-Path: 3user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-807869579_-_-"
+
+Here is a complimentary issue of CableFAX Daily
+
+ CableFAX Daily
+
+
+
+Dear Industry VIP,
+
+Because you are a dynamic leader in the cable industry, I am pleased to provide you with a complimentary copy of today’s CableFAX Daily, the industry’s must-read, daily insider summary of all that is important to you and your organization as you start your work day.
+
+Click here to see your first complimentary issue.
+
+To access CableFAX archives and read exclusive information just for subscribers, use this customized log-in information created just for you:
+User name: 20871318
+Password: 20871318 
+
+Whether you are with an MSO, programmer, network, technology supplier, or any one of the key links in the cable industry, you are shaping the future of the industry, and you need to stay at the top of your game. 
+
+That’s why you need CableFAX Daily.
+
+CableFAX Daily provides you with each day's vital business insights. What you read is exclusive content, ferreted out and written by the most experienced journalists working in the industry today. With their constant communication with a vast network of key contacts and the industry movers-and-shakers, our editorial team provides you with the latest on:
+
+Program and network ratings—what’s on top, what’s slipping and sliding, and why 
+
+Wheeling and Dealing—we help you keep your eye on what’s important, and who comes out on top in the new deals, developments and power plays 
+
+The intersection of digital and social media, technology and multiplatform distribution—and who’s got the next big idea… plus, how the FCC will get involved 
+
+Breaking business, finance, M&A results—implications for ALL parties involved 
+
+Broadband adoption—how fast and how far, and the best-suited platforms 
+
+People and Executives—where are they moving and who are the rising stars 
+
+You’ll also get exclusive columns containing thoughtful opinions on the state of the industry, commentary on advertising, competition, operations regulations and courts, and more. 
+
+As a special gesture, we will be sending you CableFAX Daily for your enjoyment—and domain.com—for the next 3 weeks. With CableFAX Daily as your first morning read, you will be more confident in your industry knowledge and on top of latest developments. We hope you see the value in continuing to read CableFAX Daily.
+
+When you subscribe, you will also get breaking news alerts on crucial industry developments, access to exclusive, subscriber-only news, research and archives on <<link>>, CableFAX: The Magazine, honoring the people and programs that are moving the cable industry forward, and special discounts to CableFAX and other industry events and programs. 
+
+So read this issue today and get the exclusive market insights and information known only to our very loyal and select readership.
+
+Please contact us if you have any questions at 301-354-2101 or 888-707-5814. 
+
+Best Regards,
+
+Diane Schwartz
+SVP, CableFAX Group
+@dianeschwartz
+
+Copyright 2015 Access Intelligence, LLC. All rights reserved.
+Reproduction in whole or in part prohibited. By using our e-mail delivery service, you understand and agree that we may use tracking software to ensure copyright compliance. This software forwards to us certain technical and usage data from any computer that opens this email.
+
+***************************************************************
+Access Intelligence LLC, 4 Choke Cherry Road, 2nd Floor, Rockville, MD 20850.
+Phone: 301-354-2100 or 888-707-5810; Fax: 301-309-3847; E-mail: user@domain.com
+
+This email was sent to user@domain.com by
+

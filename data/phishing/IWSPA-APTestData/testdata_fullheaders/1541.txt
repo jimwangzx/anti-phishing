@@ -1,0 +1,48 @@
+Delivered-To: user@domain.com
+Received: by 10.64.110.202 with SMTP id ic10csp1159786ieb;
+        Fri, 2 Nov 2015 06:52:46 -0700 (PDT)
+Received: by 10.49.72.1 with SMTP id z1mr2600044qeu.2.1351864360431;
+        Fri, 02 Nov 2015 06:52:40 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [69.25.202.75])
+        by domain.com with ESMTP id q6si3229572qct.7.2012.11.02.06.52.39;
+        Fri, 02 Nov 2015 06:52:40 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.25.202.75 as permitted sender) client-ip=69.25.202.75;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 69.25.202.75 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com (mta-inap9 [10.0.200.9])
+	by mta-domain.com (Postfix) with ESMTP id 3XtPqW5vGCz4G6JR
+	for <user@domain.com>; Fri,  2 Nov 2015 09:52:39 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1351864359;
+	bh=iA2WHHtZv2K91WfcHLZFsg8xiAohAwk97BdSD3sJD7U=;
+	h=Date:To:From: David Toscano <info@johndouglassforcongress.com>
+	 MIME-Version:Content-Type;
+	b=Et3+N1mTBELfoCRle1H5BCesiGy76Zu06JCRfgRYNrbWbrYK3x80RI7jcUyeupQfV
+	 73dCFGAuBKT4eiHjHWHY//b+8YPzeVlX7lWUJJuUM/bdM7NnwiHc14WCB9QS/ndPN/
+	 2c6FvhbhWjIhSc/4KIMB+dn4Cp149KWsdWun6RfU
+Received: from maillist-b 
+	by domain.com with local (PHPMailer);
+	Fri, 2 Nov 2015 13:52:39 +0000
+Date: Fri, 2 Nov 2015 13:52:39 +0000
+To: John user <user@domain.com>
+From: David Toscano <info@johndouglassforcongress.com>
+Reply-to: user@domain.com
+Subject: RE: close call
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 57970aca8df73b5d
+X-rpcampaign: rp_540
+X-maillist-guid: DwFZQAQIB0cWOgUCCFIDAABYCFZSAFZRV107CVlcW0oVClJQEBAHdAJeUVxdS1AODg
+List-Unsubscribe: <<<link>>>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_e0ac08a9f47b08a1acf35fee2de0ef70"
+
+John: Reading Tom's email, I can tell he's serious about how close this 
+race could be for John Douglass. But I'd like to let you in on a secret -- 
+John's polling shows his opponent under 50%. This election is ours to win. 
+We're just $4,285 to goal - give generously right away.
+
+-- Delegate David Toscano
+

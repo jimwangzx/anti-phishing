@@ -1,0 +1,32 @@
+Delivered-To: user@domain.com
+Received: by 10.142.204.12 with SMTP id b12cs129155wfg;
+        Fri, 5 Dec 2015 10:02:15 -0800 (PST)
+Received: by 10.114.167.3 with SMTP id p3mr230678wae.127.1228500134250;
+        Fri, 05 Dec 2015 10:02:14 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (webmail.sandlerfoundation.org [65.74.167.160])
+        by domain.com with ESMTP id t1si11978794poh.2.2008.12.05.10.02.13;
+        Fri, 05 Dec 2015 10:02:13 -0800 (PST)
+Received-SPF: pass (domain.com: best guess record for domain of user@domain.com designates 65.74.167.160 as permitted sender) client-ip=65.74.167.160;
+Authentication-Results: domain.com; spf=pass (domain.com: best guess record for domain of user@domain.com designates 65.74.167.160 as permitted sender) user@domain.com
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C95703.990DBD1A"
+Subject: Time to talk?
+Date: Fri, 5 Dec 2015 10:02:12 -0800
+Message-ID: <8140user@domain.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Time to talk?
+Thread-Index: AclXA5kIzfuaZHhkSQqWWYs2TYMAug
+From: "Sandler, Susan" <ses@sandlerfoundation.org>
+To: user@domain.com
+
+Hi John,
+
+I know how incredibly busy you are.  However, I wanted to see if you had 
+time for a phone call today or tomorrow.
+
+-Susan

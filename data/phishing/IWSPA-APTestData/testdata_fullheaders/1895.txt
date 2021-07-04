@@ -1,0 +1,109 @@
+Delivered-To: user@domain.com
+Received: by 10.205.118.144 with SMTP id fq16csp301967bkc;
+        Sat, 29 Jun 2015 06:28:11 -0700 (PDT)
+X-Received: by 10.224.126.196 with SMTP id d4mr23255917qas.57.1372512490642;
+        Sat, 29 Jun 2015 06:28:10 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [64.94.250.8])
+        by domain.com with ESMTP id w6si5540570qef.146.2013.06.29.06.28.09
+        for <user@domain.com>;
+        Sat, 29 Jun 2015 06:28:10 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.94.250.8 as permitted sender) client-ip=64.94.250.8;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 64.94.250.8 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (localhost [127.0.0.1])
+	by mta-domain.com (Postfix) with ESMTP id 3bjFyx50xkz7db1
+	for <user@domain.com>; Sat, 29 Jun 2015 09:28:09 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1372512489;
+	bh=i3OCwGByx//t++Y3mME1VnW3it7eNEcxkIQ2yPjtKvY=;
+	h=Date:To:From: Mark Warner <info@terrymcauliffe.com>
+	 MIME-Version:Content-Type;
+	b=HINht2H+L3SZva3kD9tg+r5Lm1QFVgF4Wur9EdoJxR7R6+J6J/N7KcamEMErr7E6c
+	 xOCHM1wSyRC5c87LQDoyspl1WFC7zcdDI9js2kMnkq7U/NIPyon89e5KQX2ZdaQrah
+	 chFVHywrKNVVvqvqBdbFSr1bj9jgDtFFpyJRIKfs
+Received: from maillist-b 
+	by domain.com with local (PHPMailer);
+	Sat, 29 Jun 2015 13:28:09 +0000
+Date: Sat, 29 Jun 2015 13:28:09 +0000
+To: user@domain.com
+From: Mark Warner <info@terrymcauliffe.com>
+Reply-to: user@domain.com
+Subject: there's no one who will work harder
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 6722ad8266e670aa
+X-rpcampaign: rp_20026
+X-CampaignID: xgreenarrow:CAZXQA8NAFIAOgIDAQ
+X-maillist-guid: CAZXQA8NAFIAOgYCA1dSBVsLBgRRAVIDA1g7CVlcW0oVClJQEBAHdAJeUVxdS1AODg
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_f7344938bdc8480032dbb7b8fcff0f1d"
+
+Dear Friend,
+
+It's one of those things we think a lot about, but rarely
+discuss out loud.
+
+I'm talking about legacy.
+
+In Virginia, we are proud of the fact that we have a long
+legacy of Governors who have put Virginia first -- who've
+worked hard to make Virginia the best managed state, the
+best state for business, and the best state to raise a
+child. And I'm proud to be part of that legacy.
+
+I'm writing to tell you this: Terry McAuliffe is the only
+person in this race who will protect that legacy and build
+upon what you and I have accomplished.
+
+But he won't get that chance if he's outspent by his
+opponent -- and he needs to raise another $53,580 before his
+crucial end of quarter fundraising deadline tomorrow.
+
+Please join me in supporting our next great governor, Terry
+McAuliffe. Donate $5 to his campaign right now:
+
+<<link>>
+
+I've experienced some deja vu as I've followed this
+election.
+
+Because suddenly, there's another candidate with a magical
+tax plan -- Terry's opponent is promising enormous tax cuts
+with no idea or explanation for how he's going to pay for
+them.
+
+I had to clean up the mess that resulted from those kinds of
+promises once, so I know going down that road again could
+wipe away all the progress we've built together.
+
+Fortunately, we can avoid that. With your help we can elect
+a Governor who will be straight with us about the challenges
+we're facing and work hard to get it right from the start.
+
+Stand up for the legacy of the work we've done together.
+Donate $5 to support Terry's campaign:
+
+<<link>>
+
+I promise you -- if you do your part, there's no one who
+will work harder for all of us than Terry McAuliffe.
+
+Thanks for standing with Terry -- and with me.
+
+Sincerely,
+Mark Warner
+
+CONTRIBUTE NOW: <<link>>
+
+---
+Paid for by Terry McAuliffe for Governor
+---
+
+Unsubscribe: <<link>>
+user@domain.com
+

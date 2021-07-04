@@ -1,0 +1,136 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp1308365lfb;
+        Sun, 13 Dec 2015 15:04:32 -0800 (PST)
+X-Received: by 10.55.75.212 with SMTP id y203mr18833275qka.3.1450047871939;
+        Sun, 13 Dec 2015 15:04:31 -0800 (PST)
+Return-Path: <3user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::249])
+        by domain.com with ESMTPS id j6si32091763qgd.14.2015.12.13.15.04.31
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 13 Dec 2015 15:04:31 -0800 (PST)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400d:c04::249 as permitted sender) client-ip=2607:f8b0:400d:c04::249;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400d:c04::249 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qg0-domain.com with SMTP id w101so3180470qge.1
+        for <user@domain.com>; Sun, 13 Dec 2015 15:04:31 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: kofferdahl@hillaryclinton.com
+        bh=UFo1eDHNRGa3N0qQ2xj239mVrGk+AMovfr/Beyz7GPs=;
+        b=AwukcVm8sLk2TvPL6yr0f+c6QyB2dkq3654gJIpBwa5AnQDx1Nm3eH7jTCn6F+4Q5M
+         DKrmBq81wJbwVEtBwRAouOiwXI2MsBgWD63eT7sOa5h8XjTCV+FP9nOHoLSufIhdiq0J
+         mx6r+EWDljjsM9XX+GaeJpclC/E6qnU4hYUmsibkRot7bh3VoJSrZuvHPh0dNP+MYkc5
+         fKY75+YEy8sGudk8/MEpjFbzFXpE2yl6F555N/wP/d+DWolTdMSLxfmLzAwtt38EtD/c
+         C84A69X9ycar9SLKUARiKIoFSt3A3wc2ZaMklXLLMgAspm0FFK7Ub8Ia9HdT0Fn/VMuv
+         1X5Q
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: kofferdahl@hillaryclinton.com
+        bh=UFo1eDHNRGa3N0qQ2xj239mVrGk+AMovfr/Beyz7GPs=;
+        b=BPmePX212Shf5JimuwWTcdlmIL/GYHu8i8CYfcnCpW4oztOB/NYV57eHSYljswzHH/
+         xHTjZW89ta6/P9wiraOG++wQAUSwGO+0EIQoh5MuU2Tjh08cI9n6SpydzolS5cV+SDwL
+         QO2UwLvocUtfFVbq1MtGRcVtSrHXxmimW9hZQ
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: kofferdahl@hillaryclinton.com
+        bh=UFo1eDHNRGa3N0qQ2xj239mVrGk+AMovfr/Beyz7GPs=;
+        b=T7wdI+naOW0qxeTwDrbYeZToWC1FRjB7rNIlgBC57kEpsIN0cHD9H5AZGN/7kYiIyH
+         RSe6Wr9bFhbjkEYue7McrPlQMhRmX8z3xK2JNJnwtyggxEUF/w8NZ0z5OzFGs6OylnXO
+         b/89gHY/xdT+7n5gm1IumeLeqctini5cOIiCTo+OaFvq52MU0gj9War9w6pKKTLPAehe
+         4lKxB+L5NcPSN2nW//fYZpOXfijb3A08YcHxeOXFmSfxbbiPL6UxUnWNmhbQSNpml2En
+         HUoZagInBoZGigHbxTi2EGKrDCfBvgauKRRZ27/UablRyj5DUJgTmzspuZ93gef4rzHD
+         gDrg
+X-Gm-Message-State: ALoCoQmT1g+8jGOobZvTp+lcg+2NMRt/8y0Xwrt5gFuul2lgZETneMmz1UgV3acBvDb5pY2SZ+CcIE17oZyt93Fw8N5R/K1rBGWDvzhhiI8T8qjTMFoilbE
+MIME-Version: 1.0
+X-Received: by 10.129.101.66 with SMTP id z63mr17185321ywb.14.1450047871638;
+ Sun, 13 Dec 2015 15:04:31 -0800 (PST)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <001user@domain.com>
+Date: Sun, 13 Dec 2015 23:04:31 +0000
+Subject: Updated Invitation: January Planning @ Tue Dec 22, 2015 2:30pm -
+ 5:30pm (user@domain.com)
+From: kofferdahl@hillaryclinton.com
+To: user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, David Binder <user@domain.com>, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com
+Content-Type: multipart/mixed; boundary=001a114d7ea44be8730526cf9466
+
+This event has been changed.
+
+Title: January Planning
+When: Tue Dec 22, 2015 2:30pm - 5:30pm Eastern Time (changed)
+Where: Iowa Conference Room / 718-441-3763, no pin
+Video call: <<link>>  
+<<<link>>>
+Calendar: user@domain.com
+Who:
+     * user@domain.com - organizer
+     * user@domain.com - creator
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * David Binder
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * John user
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+
+Event details:  
+<<link>>
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for updated invitations on calendar  
+user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to modify your RSVP  
+response. Learn more at  
+<<link>>#forwarding

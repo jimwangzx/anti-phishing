@@ -1,0 +1,59 @@
+Return-Path: <user@domain.com>
+Delivered-To: user@domain.com
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 6892244206
+	for <user@domain.com>; Mon, 19 Aug 2015 06:17:09 -0400 (EDT)
+Received: from phobos [127.0.0.1]
+	by localhost with IMAP (fetchmail-5.9.0)
+	for user@domain.com (single-drop); Mon, 19 Aug 2015 11:17:09 +0100 (IST)
+Received: from domain.com (domain.com [64.28.67.73] (may be forged))
+    by domain.com (8.11.6/8.11.6) with ESMTP id g7I20Z621519 for
+    <user@domain.com>; Sun, 18 Aug 2015 03:00:36 +0100
+Received: from [10.2.181.14] (helo=perl.org) by domain.com with smtp
+    (Exim 3.35 #1 (Debian)) id 17gFLo-0005BD-01 for <user@domain.com>;
+    Sat, 17 Aug 2015 21:59:32 -0400
+Date: Sun, 18 Aug 2015 02:00:29 +0000
+From: pudge@perl.org
+Subject: [use Perl] Stories for 2002-08-18
+To: user@domain.com
+Precedence: list
+X-Bulkmail: 2.051
+Message-Id: <user@domain.com>
+X-Pyzor: Reported 15 times.
+
+use Perl Daily Newsletter
+
+In this issue:
+    * TPJ Ceases Publication
+
++--------------------------------------------------------------------+
+| TPJ Ceases Publication                                             |
+|   posted by hfb on Friday August 16, @21:17 (news)                 |
+|   <<link>>              |
++--------------------------------------------------------------------+
+
+[0]TorgoX writes "Bad news, folks: [1]SysAdmin is stopping publishing The
+Perl Journal. I just heard from the SysAdmin editors. Ad revenues are
+down so much that all tech mags are apparently in dire straits, and
+SysAdmin has basically been taking a big loss on TPJ for a while now; and
+the money people say that it just can't keep doing that. So the issue
+that's in the mail now is apparently [2]the last."
+
+Discuss this story at:
+    <<link>>
+
+Links:
+    0. <<link>>
+    1. <<link>>
+    2. <<link>>
+
+Copyright 1997-2002 pudge.  All rights reserved.
+
+You have received this message because you subscribed to it
+on use Perl.  To stop receiving this and other
+messages from use Perl, or to add more messages
+or change your preferences, please go to your user page.
+
+	<<link>>
+
+You can log in and change your preferences from there.

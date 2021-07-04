@@ -1,0 +1,303 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp1486349lfb;
+        Mon, 15 Feb 2015 22:13:26 -0800 (PST)
+X-Received: by 10.66.234.104 with SMTP id ud8mr28790433pac.143.1455603206271;
+        Mon, 15 Feb 2015 22:13:26 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.110.64])
+        by domain.com with ESMTPS id e12si48731546pap.197.2016.02.15.22.13.25
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 15 Feb 2015 22:13:26 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.110.64 as permitted sender) client-ip=157.56.110.64;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.110.64 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from domain.com (10.160.24.38) by
+ domain.com (10.141.218.16) with Microsoft SMTP
+ Server (TLS) id 15.1.403.16; Tue, 16 Feb 2015 06:13:22 +0000
+Received: from BN1AFFO11FD021.protection.gbl (2a01:111:f400:7c10::140) by
+ domain.com (2a01:111:e400:8ae::38) with Microsoft
+ SMTP Server (TLS) id 15.1.409.15 via Frontend Transport; Tue, 16 Feb 2015 
+ 06:13:21 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=domain.com; gmail.com; dkim=fail (signature did not
+ verify) header.d=domain.com;gmail.com; dmarc=fail action=none
+ header.from=gmail.com;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.74;
+ helo=domain.com;
+Received: from domain.com (141.161.191.74) by
+ domain.com (10.58.52.81) with Microsoft SMTP
+ Server (TLS) id 15.1.415.6 via Frontend Transport; Tue, 16 Feb 2015 06:13:21
+ +0000
+Resent-From: =?utf-8?Q?In=20House=20Counsel=20Summit?= <knowledgesummits@gmail.com>
+Received: from na01-bl2-domain.com (141.161.191.13)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Tue, 16 Feb 2015 01:10:18 -0500
+Received: from domain.com (10.160.24.26) by
+ domain.com (10.242.167.17) with Microsoft SMTP
+ Server (TLS) id 15.1.403.16; Tue, 16 Feb 2015 06:10:17 +0000
+Received: from BN1BFFO11FD032.protection.gbl (2a01:111:f400:7c10::1:178) by
+ domain.com (2a01:111:e400:8ae::26) with Microsoft
+ SMTP Server (TLS) id 15.1.409.15 via Frontend Transport; Tue, 16 Feb 2015 
+ 06:10:16 +0000
+Authentication-Results: spf=pass (sender IP is 205.201.130.153)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass
+ (signature was verified) header.d=domain.com;domain.com;
+ dmarc=fail action=none header.from=gmail.com;
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 205.201.130.153 as permitted sender)
+ receiver=domain.com; client-ip=205.201.130.153;
+ helo=domain.com;
+Received: from domain.com (205.201.130.153) by
+ domain.com (10.58.144.95) with Microsoft SMTP
+ Server id 15.1.415.6 via Frontend Transport; Tue, 16 Feb 2015 06:10:16 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?In=20House=20Counsel=20Summit?= <knowledgesummits@gmail.com>
+ bh=2n8Z8WFmfduswSwJY+blr2Ntxes=;
+ b=T52ZH8LL2M0g327LIRyWx77u2r5eK/RmdBZTd/pjsqZBjx6YrFxfLcH/qyOJ6tPhCZX4A0VxLz6V
+   WC2SqYLFzzFAOQ9Cv5ImqD6slHAAj4/TY3Tgm8GkMX1jxVJPbaZAIFnM3UjYj0YxaskdhzFWXSjt
+   ItgpcK2n3FqdFkXWPNs
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=CvByrqIjr2ED+h5QJurPA0E8SJc3a00uu1YtqSoOI6W5EhhitHa1qhbksuW0CGBQC82V5l/UP9Y6
+   vbAweUD7zTPEzgJDJDJfC0KDtbOJomjYF9G6GPR8/P1jyQYg6hSt+dKGF8dnFbROyQTO6/HXrSVT
+   g7To8g/CeH/PsW7Rdrk=;
+Received: from (127.0.0.1) by domain.com id hoaukg1jvmgi for
+ <user@domain.com>; Tue, 16 Feb 2015 06:09:55 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?Bengaluru=20=2D=20The=20Grand=20Masters=20are=20in=20Your=20city=20this=20Friday=20=2D=2019th=20Feb=202016?
+From: =?utf-8?Q?In=20House=20Counsel=20Summit?= <knowledgesummits@gmail.com>
+Reply-To: =?utf-8?Q?In=20House=20Counsel=20domain.com?
+	<user@domain.com>
+To: user@domain.com
+Date: Tue, 16 Feb 2015 06:09:55 +0000
+Message-ID: <user@domain.com>
+X-Mailer: MailChimp Mailer - **CID1f62c021cb4c5c72a395**
+X-Campaign: mailchimpc81203f475123a9e28e9c42cd.1f62c021cb
+X-campaignid: mailchimpc81203f475123a9e28e9c42cd.1f62c021cb
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: c81203f475123a9e28e9c42cd
+X-Feedback-ID: 12067671:12067671.590281:us5:mc
+List-ID: c81203f475123a9e28e9c42cdmc list <c81203f475123a9e28e9c42cd.135113.list-domain.com>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: In House Counsel domain.com
+	<user@domain.com>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_18777716"
+MIME-Version: 1.0
+Return-Path: user@domain.com
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1BFFO11FD032;1:Pt/9xl0wDmqmQqetsFrduEGE3mSnYPYpZ47tTxLaymlNuVjk+yA6hrilkBK7vkEcG5vUV8zkptKyiKFa28l6StcnUZqH4tgSNanyvnhGv6tuGui7CkBnYhKfulLYCqTFUAUqrcQ+dc70I9pnLSGjUQvcwBgv6cCx/3cul1QUpYGxJvz8xAVKBvgbtEBL8G0UoIxpjaklTL/M4SZWgu7PKae5pmoFA+JqbdZMW6kSs2+X0Z4sdf0tqzcGgA0fuckop+Osn0wIMhyagdpu5vebTVCACu/uRjlt2IZlhCD4TFxHo/fyaF/Uu9HKrK8AiimfB7eQphjwXREcoQQR91mGqNdDStc3sUbQqQK+lQhfLRU37ITMQcGRJIffhw/MvqZ2cEtBq9v+7/PviOn5ZakEK9sJ8dx0ZgT49tntX+Pz4jT3qo81qBXdJwE+dXu/gJQNkrA1VT3Le3CikNZjCjHWeSmAL2DWTgX9oPsaBywo566jry1DoIVNzvOdmHi/lguTQl5IF72Pccxyu5JuitBNPA
+X-Forefront-Antispam-Report-Untrusted: CIP:205.201.130.153;CTRY:US;IPV:NLI;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:CO1PR07MB111;H:domain.com;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO1PR07MB111;2:PRGxgCtIJPvx7AvDU6oTqudLmBuaY0uu4bqX+9GFzGa3tqyKJf/tPPHwWcE1S9wveAkyd10O6liBMWe1G2x/xspC9R5vbNfektYq9zOKpv3nsCibb/hx5ZzJ+baeDPB8m/mfN/7YlEgnfhVL0ftPgA==;3:SdPosiWr3EMrU3yc1oYi4fLLriy9pTKvTnt7H9+PJRWpwBPgxYsY/9RCg9vdxpYWTbW1uYdIf3tzvlTWNDQARqQP/kbDMG177yBN2kp0fiFQh7s0nTCNWV7qn0cR/E21hgIdfj4x+XLwi7Xr74Rc0L8lE8Dvkak6jtLcvs9G4T9WWvx0qb9l1bCq5mgkE3GSka/M0bTe9IFr2iGgJsuB2oeJoJujC2gseSmah1QFnGyGFbgqpkhAKnGkcEFCfIu6RGa0toUUnulVmAHfja73Vim/9zNp7vs6YggBg3+3TksynfUnlPKaUDoEx7oHNZhl7u3/yBqGtOYRn+We9GunDe6Xx2Pz4vhUKN+wspLX4adQDeuscaHLq3wELjDcEH13kL2zu0uRs1H9Z7psrqHrnNGOy817ltNlV6mCrpw0BxsmqXSyqhBV7i23exoWld+nxqT1ZyM2VAbPqwWRW8vz9NyYDvC56vrFt9q2VcRM0IWEYK1/hE13cctLt6YUQAhl
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:(96343)(28255)(92638)(92639);BCL:6;PCL:0;RULEID:(421252001)(42134001)(42139001)(42145001)(3001015)(3010001)(120001)(71701003)(71702001);SRVR:CO1PR07MB111;
+X-MS-Office365-Filtering-Correlation-Id: f1d00aee-ef7c-45e7-4df9-08d33698459b
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO1PR07MB111;25:vTmkUBvPMUx5gtaJy5px/HDbVPrdt3Edbf28MmcomRMfZLmGZ815zx7f0se5eEMQp0Ae2QOk+OBZLjcMGXHng5qH9o6ywvefyfFST3gXVPzRagBgTP8F5duVzF8ZflUhnKeAwQduwSWOw0kuiEg+eyWfcCQ32e7P+KkPupsKyKb8n7qQA5cWQwy1Ika3o3txcqpZCNFlpUhkXJUNsKnMN384Zyk1i4zV247XxCowj49T2YbDEkS3UP126AqmKvmVgIqLu4u9tDJCIoJ65DpN0fWebdsnF1qNzwj8UNQiBIny5eCE8DoneWiBOSOXnf/F;20:BnAklg5ME0VbK1RCReVO7Jup0eeTXbpOdlPQJTQCYG2PR0eLJGAgXukh55UL0XxwU1RvZLGZksthPbnvCMFkAysxL3pgYe+sRUafLtcDgJKJW8KQ8SaHDSC3IBDlFuNTK+aCila6PJD7V/3eo+14UYwZsp3d1HeAKVRG5AeQ5sxkLUxupqj6jx6QTvKNxkFqzyae6WhZFuz25UNzROBsAy/b0aLH/j5GkuqvyohJha+9tPUCPBtcAVVdho0/E2grtFBYsozh0dr76D1YGPlWFJNivaq4L66EVSrgqo0V00LlaqXPpEZEDVnMCvvBAxx3hhu82S3Z8xfM/YQ2WcV4JCjBR+zcSBfercHczRK5uukbkkfcr4N6xBrZAM4KYRkonoPtuJTss3O0FmrFErWH9ercaBKBxyQwXS9v8pV2kSbS1Ugt6T+dUwLin+Y5jzMircDPK1ZxZgLWL8rGkSXiA9vw1tIppV9cL9Xbh1RwbTRKlhs/GCHjrldmWnuHsDXrVklex50+1WoyhIPA1h3vuQ
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(13018025)(13016025)(13023025)(13024025)(8121501046)(1201001)(3002001)(10201501046);SRVR:CO1PR07MB111;BCL:6;PCL:0;RULEID:;SRVR:CO1PR07MB111;BCL:1;PCL:0;RULEID:(601004)(2401047)(5005006)(13018025)(13016025)(8121501046)(1201001)(3002001)(10201501046);SRVR:BY2PR07MB533;BCL:1;PCL:0;RULEID:;SRVR:BY2PR07MB533;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO1PR07MB111;4:cL/Da5lsRB2yPqcYg4T6tlOMAAoFkYBexIb1OEzNGFTBmkJUbpkb0AKhcbPs2uaz2KElSUkJJhdrqcQ3IuIR1x8aXkDH/6tdtwOOaY+OkeYgfBHOjTJPFtWhiPQiWFVWs1tP6aorBo3v02ht47Iba6veN3Ey7/Ya1u6y5l8tbbqkHnsNnhbA7LpNySviaxaRkCGMaZ0+Y9LdRx1HEpETjXW1gzBpBLsmFnpLPb0UuC29qzSzNjk/HvibFPGrjKXU+YAnoEQ84qMU1gr6n4v8B4XmUlOAImnBkag4xUsRFA2HFg92jntVMeKIkea4n917cTZYMngFkBjgF8yCPmLfSmKnjGFYEyItMALqs2AhIDQBe1GAQ3mzY0fcEg5KmBXERrUTUXOCM+a6KXlUXzc5rpDeRDOO8qD9qw7Abi3zcHWDkMMW5ADPoDavhjLNvIwX;23:iw6KRxj7w2O/P/MmTFu2bku4Yd9C8e6Ye8FWerJ5oKOu0FcUaXBGf/Bf6ucx/LpEsb3hmuk8AjpMITYY/SbEepOUFcf63W1jnFmn6EHgrGHy8v6iiuWxFT1Gcjz+IivjmGA8pELbXjaBy+dLWxAxtI8uJGBF9r8Nq+TuKQzcO6npD93/BChxNAd6EBttPDE3UC45AgT+WqNjvh+JPxJJOA==;5:vD8/km1compc4EjUWCTCpc+Fa4/sK4UmzHyXjcAX0uo3xkRFeE/4/gyK7XkGyF3eguugwFHIZI/gsDyA1k92CQuezYXKCpJDs0w9hJXrzBjtkVbQNHlwWBHCNZD+2UyPn1+pMHN/6HTrSdN8oiZefA==;24:zuKAvXhBHUT7qJg+4Wb3/4rJ4ZkPlfuiLeAdLUDY+vrvpg88Oe2vg4ZrltBwx8W4MN3Ti+KqteU6jphb+NSjjHg63u70u2sF+qILsBGNm/g
+SpamDiagnosticOutput: 1:2
+SpamDiagnosticMetadata: 3c85f873dd7a4171976a269175c0457e
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR07MB111
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD021.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD021;1:nz3EK9RBypeQmrYxUsNChysctWhPE/dELvTep00Fj6zBVr6QhjXZMJaY1fba1BHFp8EbkvZTcrE3hH3eCu+dbUKfaf5FkwD/3kmezevUs/0QK6MP1oHCoaj5/ANN9YRKLWCcrUGLT3NDSOZ8osq+DBrnfrQWsTMMul+LPvGxiIH+4yUa5rWrY3Fo1YUUYQko4f61D+eGn+yoH7nqOFkgU9vMeYxSSbh7eufDpc1nV1VZsRwqgKCq9CsHNFlO6nslIz5d0ukW/suXaqwm4qAfs6y7WfaMuQ7eQBjv08nkgY2J2a6RPiBrS47MdX5XhUsdPWePUwV/9L446o1u8rfqpjQcX9oFTR13+Y+K9Nuj+Yts2W0MMtsGltk7t7EMEMyLimVdzN7Y88VRgCKfLjDqRa3svXCigO0SxSxMGivG8e9XpTI28XxtpwZAI5Tb6R3fhIqiMCxQaFAFWXcldLZQaQ
+X-Forefront-Antispam-Report: 
+	=?us-ascii?Q?CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(100?
+ =?us-ascii?Q?09020)(1060300003)(2980300002)(1109001)(1110001)(339900001)(?
+ =?us-ascii?Q?596005)(377454003)(149424002)(189002)(199003)(46034005)(4818?
+ =?us-ascii?Q?4003)(36944003)(17383004)(229853001)(2171001)(43066003)(2629?
+ =?us-ascii?Q?6002)(2351001)(106466001)(118296001)(105606002)(956001)(9460?
+ =?us-ascii?Q?01)(146001)(19580405001)(33646002)(81442002)(19580395003)(87?
+ =?us-ascii?Q?936001)(19617315012)(73392002)(16799955002)(4001450100002)(8?
+ =?us-ascii?Q?7572001)(95246002)(53806999)(19619215002)(50986999)(19627405?
+ =?us-ascii?Q?001)(19618635001)(47976999)(110436001)(6260500002)(85426001)?
+ =?us-ascii?Q?(512874002)(15188155005)(50226001)(84326002)(104016004)(1220?
+ =?us-ascii?Q?700001)(1096002)(606003)(18926415007)(4001600100001)(6806005?
+ =?us-ascii?Q?)(2906002)(11100500001)(76482005)(2420700001)(300700001)(770?
+ =?us-ascii?Q?96005)(5001960100002)(110136002)(450100001)(76806002)(107886?
+ =?us-ascii?Q?002)(960300001)(18206015028)(4290100001)(3450700001)(2860700?
+ =?us-ascii?Q?001)(75432002)(95666005)(15975445007)(82202001)(88552002)(70?
+ =?us-ascii?Q?99028)(42882005)(75806003)(579004);DIR:OUT;SFP:1101;SCL:1;SR?
+ =?us-ascii?Q?VR:BY2PR07MB533;H:domain.com;FPR:;SPF:Fail;MLV:?
+ =?us-ascii?Q?sfv;MX:1;A:1;LANG:en;?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB533;2:3cc5PoGvZw2NcM1/aPgE8UIg39/Twm/O7thfsfl31NxLU04ImcDHk55gO0oj1DkG54/XfAQv5JU6vjgH9cAuwcrapuGSrGQfomIFI8G1bWnvQbVejS2IyulrQfVbQ5SidjVYJaQZd9L4IyDE1b/HIA==;3:iL6DxY2jgGJnXsvella8meFV+El3ayqTYAdNis8sT25hdLOG7d1NS3apBgvzUZarl1gHNBtEqynyJdz8aTIIh2dKiBHLZmujD7nF/PupdOkuCW2ZZRZStvRDeGt4PhpSCCH0e+28EfR4pBXSQ48QkeW2sdFVYnKQr4QwEMwYIapXVs+LmO9AD6b9s5BhSomjL9wibGrYNvGhY7C1flLrEBPJTir8solECIG91PvMiry0SGv1RoJAiKLlFGuQD+J+17PGRNUCs92Ck4Uu1ySrisJk7sZHhvWRKRhS372emEB5Uwem9C2kF/8XVJZlOmuiVtlKs8s8Aci/t6Q+TLBaXi6Y61UgzSep1NpYPRPPgu6O27rxU07og2S5UkfErjQaqAHaxYg1vaeGwM9O1/k5WC4P/NRQG125Sr6+9rR9Z9jwCUPdCOJsgV25EdrJvlVQ;25:snrBtq7Hbs+ByqUy/AS4nqUnsCmN9ZfgTcp7y3g/VRzgSd1cwj2oUBrIS4s8US7Mw9YEN9DuX7HWkYL/AZwWg6x1oZEmtM2cEAjXUximzh5c2ujwkpZxsQrHINQsL+WixF5WjI71sWYc/dHf6OKXFYM6tfLTSwNiiQNNRybcMPuyUbn0BrrGlPrOsYAJhxFeHOI/DSoH/IdDOGyDJpX9thtq4gikUGfd2+gvTk/IG8wCNEH/XLxA/zIIFR2QSrh98SwPYR6nSPBUMArzICPJw4Rt305JrfM70lw4czXxBuR8Fjp/ZveHmcYD3u8XqCVi
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:(96343)(28255)(92638)(92639);BCL:1;PCL:0;RULEID:(421252001)(42134001)(42139001)(42145001)(3002015)(120001);SRVR:BY2PR07MB533;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB533;20:EgbVTdDqERlqKjwAlQh9seo3/tof0B6hse+HpgS8rvUtTX0R5m/KsziC8DvLkUGz76XGi3WXGN59m1DwiTlmkFOAp95+CqT4viKzRf6JM8ZtCCliL/JHvBxxxESgjTvC1o2yrBmFiebcjBfP/TEPewymohRmaQIZGDEtETLyJf2dcejRTr8z5TvwFQPusXybFHH9kdBGZ9LDiyCdZVLUiyPzzwF/xLkapZW3MJwDdjgWiuTC9q28HOcf+hnMKOm86mDAwc52c7HncOn/+x9S8qP0yyOkaOSLzYIt76evtEy4M+KfwkDFYH1ggqFwb9PYXP4gsc6TLbmofTJyKktMrueEGnRTODueGR4QTDuBAmOkrHJSxHSMiOrDypxYR9rGxqOeC7tnpNUwh+Ehayk8P9Aui1Pq0qgmjF7Xq4tD4oA=;4:RfT4wOHGvg0++zKtOKTpmy00BosuMeidZF4R+XqeC6Qxsx7roucOGwvcKvb1Ws8Ky+ei6TN7+p7tQ5016p/1O6q0gAvdsgw/F1g0CLZfRMh495dJRMUgZbBUxSIk5p5aGVbkMh6J3SvtdDwu934VqDojnguqdY06o6Qe3OmlxS3jSR0K1nIdeNWtCpkn0rCcC99CjFcoGQYCQZ5m1XlC1tKxAvXIUO02Zx10ZFA252pAQFX5SvUg/WL0U3mzo1QvzP/VGNU0WsiII6KFMJql4Og3RYLOMRfn3BWYfdRx6tcqNckEts6c65DkCGU3NTbs4KIq6aKXHZR9yZ4SXWxE4gLmHAYiIzPSio2/tUCNQ+MjFlya1B9zPy2CqPIRvR3qNU5+Gz0T0c1Tn8UsP4deub4ZE0HFAlkIeurjWhTNRjM
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 0854128AF0
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BY2PR07MB533;23:PB7EY/NJ2p5hvinfi3jh0nM/4mIM558XV3lkOT1ioF?
+ =?us-ascii?Q?pHP7KmNJoWH8nRNf6h7xxFIb7EyzsWobfE1fQ2pRHguXzuuaEeEP2kzs2ngf?
+ =?us-ascii?Q?3sXRrq9HLigdU8oZmH2804Lc6c0No+LyCln7X8Yf1GGYsvT4Yz9CmFIc9zQX?
+ =?us-ascii?Q?Kc0/QAbMe60k+EnYdO4RXDAYskpMPh/T9ustWUHpXTH1JkN+2c1uoHhs2Kra?
+ =?us-ascii?Q?mIrBP5tz7rzzYc6RtQ81EUTzTTV9iljBopE/3os/F8hkTV8IDzN0UTfo1qeq?
+ =?us-ascii?Q?hFw63qL3T6rDXTxb0VW2yWZUWzt0LKTiM1BzYL7VnhJpGP5dyo7TSGbszQnw?
+ =?us-ascii?Q?5EnLvh51PG+BM4NIe5xF/LWSftQdvtS49d3tQxfxe1yKMiNrUodedMv0KHId?
+ =?us-ascii?Q?ZATEGAxOsq5bzAcGZXu00OanfkoLDemVldYeETlVapCRLYpMq6Vl3bloa3Qh?
+ =?us-ascii?Q?Wn4oKgLrZQCDLxp4zVhHxpkXlChGTs3F4C16A+Pc3RACthhIEtK22HWi1QwV?
+ =?us-ascii?Q?XlKVog1EP1YxMoXsdPVq6D+jPdbwDk4vgyn68TEA+I92ti6IMwMZhgjsDeU+?
+ =?us-ascii?Q?0/WnPxh9KAqz1I6RzsSSYNeWk7ZU1KL+uQZfHA1i5xBriMYOnYnReIPByvJt?
+ =?us-ascii?Q?nYX5RaMl5Jqwa+ay9n0irTSp6h6jDJJUdtk66Fc1hZqkJtzy49SrpBF5weV7?
+ =?us-ascii?Q?58cGb6iCq2gzZ7FFOgC5O9gNtSVJDpeWT7JQAQG9I4T1I162Cwt2LjepH4f2?
+ =?us-ascii?Q?S0jrjS0S4RANJ2xi7PjfonoLxsHlhMjd6Xx/zQHu26U0MX+OrEzceyOEyDZa?
+ =?us-ascii?Q?GDKYfAo6xFCS6aTDwRYq3ZiwddouOyveS3+0QDk36mc8aJt+Cu0EvMABnC9z?
+ =?us-ascii?Q?jZw5tIX1dzMDAM79xMBNuUCgSNx3XRFF0jIxxguCaZc43Wvr1vSeMJaGNpfU?
+ =?us-ascii?Q?+DmTtkKvpa0LrQNRn8GLx43iGiBWXzDtFvphFT39AVGi9dX7HUjlSfVrt2+y?
+ =?us-ascii?Q?irO4GD7OwnvkinkWPnbI3ZmizMW2Izj5ko0xcUioQfgppOJehQ/I6ZMC4eSl?
+ =?us-ascii?Q?L3HkQurG/wap+IPbV/vy3AtSdcAi/kUS92jhFlVoIDMMEPPfWK3KZ0rHoY7q?
+ =?us-ascii?Q?c9RDyy/hDnXP1XI928RYCRxBx3U6Fmih61HJXReejXgMy9VoakZIDll3NIW4?
+ =?us-ascii?Q?pzqGaiuyPXs6KMEqRH67nBQr64ar6GBd0VdmKacCNGAAWYOzPAHqXi2T03Ve?
+ =?us-ascii?Q?LnleJMCpuyYpoeEAawlgBKGJVIiFqwIWzsnCGHqbgG21FaihtqJXsFQng4/G?
+ =?us-ascii?Q?c91ApvjmtEKm+utviQSmkvoAyq5JHW7/zXn9wOwL/wkTP7oCjvaDFBpR4emj?
+ =?us-ascii?Q?lZfz2M+yyxmhxRJd6FZ3y7K1LQn1qhMSikNJtIfU6N6ZM6dUHaI/NYwo8uHz?
+ =?us-ascii?Q?e8N0/nA4SpQueWnJf7BL3F/haMCGbAanwaHWXVnqrvzl84AMoYwPPUEBcwxS?
+ =?us-ascii?Q?Rut80yC923CLEW1whhYnFQ6cbL46/uZpau1P3G1nZygZnnlf4s5QvZuvu/fN?
+ =?us-ascii?Q?KUD3Pbc50ejUBAC3I5RX/h3WH2YnjMtkmrcdgViVw3kAFDlnfSFCzmRko7rm?
+ =?us-ascii?Q?cPksC13wAcqov7QkehEckSiHxFaXqQ62S+8VJfDhwsMAD5ZGQMC8M/NP61NH?
+ =?us-ascii?Q?/vRUbSMNv9hSGX/fwUoqBrYq0QKWs0Z3/E2lemWg7sswrG4NQUpV4Q+T0IYQ?
+ =?us-ascii?Q?sWquhFgqJgmujfPqbAt4FSvkofE0yaBkqpbTJbV0jk9ZaA4mMU0YdaSqtuf1?
+ =?us-ascii?Q?2sEeuxtJn1cxBFxCKXfJZekeqp2XjyZE7ovPeuHKgfNpj4Ubi7mCKFlPp+dW?
+ =?us-ascii?Q?1ZtjI53YkdftntBfxPHH6C+x5epVs6kxlxra754pQbBnGBbrgF51hbpzFuKv?
+ =?us-ascii?Q?1BRzj1hQG+YaBg0z//BZ0TWhL2bLFoZuRCz5ixemAqqo72NBLlpnerJf4Ccc?
+ =?us-ascii?Q?upVOY2vej0G5DqKX43cd8U?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB533;5:XUOKXD0K8kYawYnb1/WZCe3z64yWaohei+dS3MOsnJXRroc2QqsVKMNHZEkMHzwIAbPy35aICdITFSx8JgfwVXqcPgtphc0NrNSCVLTIhSKh9oqcI3JdPtVJR9oYps50rs1KdRrkZo1B3fMvJnLfmQ==;24:ChoFdg44k145UcC05w8TLqQihODI6XDF87J2IJ36O9SsBJNibPMVLgAvSTEAtLCTOySp1nu34B4ZIzhnru0R0MaNu2nekOYgl9alhBtfYbE
+SpamDiagnosticOutput: 1:2
+SpamDiagnosticMetadata: 3c85f873dd7a4171976a269175c0457e
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Feb 2015 06:13:21.7922
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB533
+
+Last 12 Seats Left. Register Now.
+
+View this email in your browser (<<link>>
+203f475123a9e28e9c42cd&id=3D1f62c021cb&e=3D4c5c72a395)
+
+After a successful inaugural edition in New Delhi earlier this month=2C Le
+x Witness is delighted to bring The Grand Masters =E2=80=93 A Corporate Co
+unsel Legal Best Practices domain.com (<<link>>) to your own
+ city Bengaluru this Friday=2C 19^th February 2015 at Chancery Pavilion.
+Register for the domain.com (<<link>>
+=2Ephp)  | Download domain.com Agenda (<<link>>
+23a9e28e9c42cd/files/TGMB_2016.pdf)
+
+The Bengaluru Edition is power packed with over 25 speakers and a 100 atte
+ndees. Please go through the agenda below and block your calendar for the
+ day to meet the country=E2=80=99s top General Counsel during the domain.com.
+
+THE SUMMIT FLOW
+
+08:30 AM =E2=80=93 MORNING REFRESHMENTS & REGISTRATION
+09:50 AM =E2=80=93 WELCOME NOTE BY LEX WITNESS
+
+10:00 AM - THE 21st CENTURY GENERAL COUNSEL =E2=80=93 WAY FORWARD
+Ketan Mukhija=2C Senior VP (Legal=2C Corporate Strategy and Planning)=2C S
+REI Group - MODERATOR
+Alok Dhir=2C Founder & Managing Partner=2C Dhir & Dhir Associates
+Biren Ghose=2C Country Head=2C Technicolor India
+Manish Kumar=2C General Counsel=2C domain.com
+Naresh Arora=2C Vice President and Head =E2=80=93 Legal & Regulatory=2C Vi
+om Networks
+Vasanthika Srinath=2C Vice President & General Counsel=2C The Minacs Group
+Vijayalakshmi Natarajan=2C Director=2C Legal-India & Asia Pacific Region
+=2C HARMAN International
+
+11:30 AM =E2=80=93 NETWORKING BREAK
+
+12:00 NOON - THE REGULATORY MATRIX =E2=80=93 A STEP FORWARD. A STEP BACKWA
+RD.
+Mukundan Bharathan=2C Regional General Counsel =E2=80=93 India & Europe=2C
+ Dr. Reddy's Labs - MODERATOR
+Avik Biswas=2C Partner=2C INDUSLAW
+Dattatri HM=2C Head - Legal & Secretarial=2C Essilor India
+domain.com Ratan=2C General Counsel=2C Cloudtail India
+R Hiranmai=2C Executive Director & General Counsel - APAC Legal Counsel=2C
+ Cushman & Wakefield
+Subodh Prasad Deo=2C Partner=2C Saikrishna & Associates
+
+01:00 PM =E2=80=93 NETWORKING BREAK
+
+02:00 PM - INTELLECTUAL PROPERTY RIGHTS =E2=80=93 IDEATION. CREATION. PROT
+ECTION.
+Arshad Jamil=2C GM-IPR=2C Biocon - MODERATOR
+J. Sai Deepak=2C Associate Partner=2C Saikishna & Associates
+Karma Bhutia=2C Legal Counsel=2C General Motors
+Manish Kumar=2C Corporate Quality-Audits=2C Assessments and Certifications
+=2C Infosys
+S.K. Murthy=2C Patent Counsel=2C Intel India
+TA Srinivasen=2C Head - Corporate Legal=2C Dalmia Cement (Bharat)
+
+03:00 PM - THE ART OF CONTRACTING - INTENTION. INTUITION. CONTRADICTION.
+Pujarini Maulik=2C Practice Counsel: Head of Contracts & Disputes=2C InMob
+i - MODERATOR
+Ketan Mukhija=2C Senior Vice President (Legal=2C Corporate Strategy and Pl
+anning)=2C SREI Group
+Mukundan Bharathan=2C Regional General Counsel =E2=80=93 India and Europe
+=2C Dr. Reddy's Laboratories
+Rackhee Bisswas=2C General Manager - Legal=2C Mindtree
+Vinod Kumar B.=2C Head Legal=2C Strides Shasun
+
+04:00 PM =E2=80=93 NETWORKING BREAK
+
+04:30 PM - THE GRC MANDATE =E2=80=93 GOVERNANCE=2C RISK & COMPLIANCE =E2
+=80=93 SUCCESS SECRETS
+Shujath Bin Ali=2C Senior Legal Counsel & CS=2C International Paper - Indi
+a - MODERATOR
+Indranil Choudhury=2C Chief Executive Officer=2C Lexplosion Solutions
+Jayashree Swaminathan=2C Director=2C Dhir & Dhir Associates
+Lokesh Rajpal=2C Associate Director=2C domain.com
+S Mahadevan=2C Executive Vice President - Legal Compliance & Risk Manageme
+nt
+Subramanian Narayan=2C Vice President & Dy. Company Secretary=2C Mphasis
+
+06:00 PM =E2=80=93 CLOSING REMARKS BY LEX WITNESS
+
+Queries? For all Speaker=2C Sponsorship & Delegate Queries=2C please conta
+ct:
+Bhupinder Kaur | E: user@domain.com | M: 09654155065
+Neelima Maheshwari | E: user@domain.com | M: 08800841600
+
+=E2=80=8BLex Witness - India's 1st Magazine on Legal & Corporate Affairs
+# 426=2C 2nd Floor=2C MG Road=2C Ghitorni=2C New Delhi - 110030
+T: 91-11-66.56.9797
+
+** (<<link>>)
+** (<<link>>)
+** (<<link>>)
+Copyright =C2=A9 2015 Lex Witness - India's 1st Magazine on Legal & Corpor
+ate Affairs=2C All rights reserved.
+ A Lex Witness Industry Connect Initiative
+
+Our mailing address is:
+Lex Witness - India's 1st Magazine on Legal & Corporate Affairs
+426=2C 2nd Floor=2C Ghitorni=2C MG Road
+New Delhi 110030
+India
+Want to change how you receive these emails?
+You can ** update your preferences (<<link>>
+m/profile?u=3Dc81203f475123a9e28e9c42cd&id=3D8eacb30268&e=3D4c5c72a395)
+or ** unsubscribe from this list (<<link>>
+nsubscribe?u=3Dc81203f475123a9e28e9c42cd&id=3D8eacb30268&e=3D4c5c72a395&c=3D
+1f62c021cb)
+ Email Marketing Powered by MailChimp
+<<link>>
+utm_medium=3Demail&utm_campaign=3Dmonkey_rewards&aid=3Dc81203f475123a9e28e
+9c42cd&afl=3D1

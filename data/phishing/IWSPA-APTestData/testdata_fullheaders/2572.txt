@@ -1,0 +1,96 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 10 Apr 2015 10:10:32 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s3AHARh2032022	for <user@domain.com>; Thu, 10 Apr 2015 
+ 17:10:30 GMT
+Received: from mail17-va3-domain.com (mail-domain.com
+ [216.32.180.111])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s3AH9pHt002405
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 10 Apr 2015 17:09:51 GMT
+Received: from mail17-va3 (localhost [127.0.0.1])	by mail17-va3-domain.com
+ (Postfix) with ESMTP id 2D2D0180089	for <user@domain.com>; Thu, 10
+ Apr 2015 17:10:03 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:204.92.31.25;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: -36
+X-BigFish: vps-36(z579eh5109h5105hb10IL187l623kz62a3Ic89bh8d0I103eM55dI1996Ic857h12d5I4f15kc39kzz1f42h2148h1ee6h1de0h1fdah21bdh2073h2eeIL2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch10c0j1f8fizz1d7338h1de098h1def03h17326ah221cR1def87h8275bh1bc7b9h1def86h1de097h186068hb801cmz2fh839hd24hd2bh10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h2336h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3hbe9i9a9j1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail17-va3: domain of domain.com designates 204.92.31.25 as permitted sender) client-ip=204.92.31.25; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail17-va3 (localhost.localdomain [127.0.0.1]) by mail17-va3
+ (MessageSwitch) id 1397149800228289_21118; Thu, 10 Apr 2015 17:10:00 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.243])	by
+ mail17-domain.com (Postfix) with ESMTP id 2F6F03A0058	for
+ <user@domain.com>; Thu, 10 Apr 2015 17:10:00 +0000 (UTC)
+Received: from domain.com (204.92.31.25) by
+ domain.com (10.7.99.34) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 10 Apr 2015 17:09:50 +0000
+Received: from [10.4.1.10] ([10.4.1.10:50050] helo=P01INJECT013)	by
+ msm-mta07-tor6 (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.4.38585 r(Platform:3.5.4.0)) with ESMTP	id 1D/08-08399-670D6435; Thu, 10
+ Apr 2015 13:10:14 -0400
+Message-ID: <11260b163f6040699a2732d334712757@2149>
+X-Binding: 2015 
+X-elqPod: 0x04D4AA276AEFAC548AF4C2541180280C6E4E16410A533B620AAC2EC8FC2601D8
+From: Dell Software <endpointsystemsmanagement@software.dell.com>
+To: <user@domain.com>
+Reply-To: Dell Software <user@domain.com>
+Date: Thu, 10 Apr 2015 13:10:15 -0400
+Subject: =?utf-8?B?SG93IHRvIGltcGxlbWVudCBjb21wbGV0ZSBlbmRwb2ludCBjb250cm9sIOKAlCBqb2luIHRoZSB3ZWJjYXN0IGFuZCBlbnRlciB0byB3aW4gYSBEZWxsIHRhYmxldC4=?
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+How to implement complete endpoint control — join the webcast and enter to win a Dell tablet.
+
+View on Mobile Phone | View as Web page         
+
+Quest Software is now a part of Dell     
+
+Attend a live Dell KACE demo and be entered
+to win* a Dell tablet.
+
+Register Now for a Live Demo
+
+Discover how you can provide integrated security for more complete endpoint control when you join us for this educational session.
+
+IT challenges rarely vanish, but we can help you to curb them. Dell™ KACE™ appliances give you a comprehensive, quick-to-deploy and easy-to-use solution. Then you’ll have more time for the important things, like enjoying your lunchtime or playing games on your new Dell tablet, if you’re the lucky winner.*
+
+By the end of this session, you’ll see how Dell KACE Systems Management Appliances effectively manage tasks like:
+
+Comprehensive IT inventory
+
+Security domain.com and enforcement
+
+Software distribution and patching
+
+Smarter systems imaging
+
+ <<link>> Register Now      <<link>> 
+
+
+
+
+*Terms and conditions
+- Recipient must register for the KACE demo using the same email address found in this offer email. [email address]
+- domain.com one offer per person.
+- Offer only good for initial recipient of invitational email (cannot be forwarded to another email address).
+- Must register for the KACE demo using the links contained in this email AND attend to be entered to win.
+- Attendance must take place on or before April 30, 2014.
+- Tablet winner will be selected after April 30. Please allow up to 30 days for receipt of tablet.
+
+* NO PURCHASE NECESSARY.  Legal residents of the 50 United States (D.C.) 18 years or older.  Ends 4/30/2014.  To enter and for official rules, including odds and prize descriptions domain.com <<link>>  Void where prohibited.
+
+DELL SOFTWARE INC.
+5 Polaris Way
+Aliso Viejo, CA 92656
+USA      Phone: (800) 306-9329
+Fax: (949) 754-8999
+E-mail: user@domain.com   
+
+We use technology to help us deliver customized communications to you. At Dell, we use Dell and third party "cookies" to help us deter
+

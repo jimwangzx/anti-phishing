@@ -1,0 +1,81 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp2246653lfb;
+        Tue, 9 Feb 2015 11:50:21 -0800 (PST)
+X-Received: by 10.55.52.211 with SMTP id b202mr43949224qka.27.1455047421212;
+        Tue, 09 Feb 2015 11:50:21 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [208.75.123.182])
+        by domain.com with ESMTPS id 19si26596990qgf.103.2016.02.09.11.50.20
+        for <user@domain.com>
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Tue, 09 Feb 2015 11:50:21 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.75.123.182 as permitted sender) client-ip=208.75.123.182;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 208.75.123.182 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from p2-domain.com (p2-domain.com [10.252.0.102])
+	by p2-domain.com (Postfix) with ESMTP id 7DCC29BDA0D
+	for <user@domain.com>; Tue,  9 Feb 2015 14:50:20 -0500 (EST)
+DKIM-Signature: v=1; q=dns/txt; a=rsa-sha256; c=relaxed/relaxed; s=1000073432; d=domain.com; h=date:mime-version:subject:X-Feedback-ID:message-id:From: Eli and Edye Broad <press@broadfoundation.org>
+Message-ID: <1123677342449.1112598236776.4392.0.191447user@domain.com>
+Date: Tue, 9 Feb 2015 14:50:20 -0500 (EST)
+From: Eli and Edye Broad <press@broadfoundation.org>
+Reply-To: user@domain.com
+To: user@domain.com
+Subject: Our grantees amaze and inspire us.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_447364665_285129769.1455047420500"
+List-Unsubscribe: <<link>>
+X-Campaign-Activity-ID: 34145cc5-eefa-4f62-904b-010c08a792c6
+X-Channel-ID: ed467b10-ab41-11e3-821b-d4ae529a8575
+X-Mailer: Roving Constant Contact 2015 (<<link>>)
+X-Return-Path-Hint: user@domain.com
+X-Roving-Campaignid: 1123677342449
+X-Roving-Id: 1112598236776.4392
+X-Feedback-ID: ed467b10-ab41-11e3-821b-d4ae529a8575:34145cc5-eefa-4f62-904b-010c08a792c6:1112598236776:CTCT
+X-CTCT-ID: ec416720-ab41-11e3-807f-d4ae529a8575
+
+Our grantees amaze and inspire us.
+Every day, they make a difference in the health of people around the world, in the
+lives of students across America and in the imaginations of art lovers everywhere.
+In our 2015-2016 foundation report, you'll hear straight from our grantees why they
+do the work they do. We are humbled to support them, and we salute them for their
+dedication and accomplishments.
+We hope you enjoy their stories.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Eli Broad and Edythe Broad
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Read their stories in
+The Broad Foundations
+2015-2016 report.
+
+GET INSPIRED [<<link>>]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+twitter [<<link>>]
+      facebook [<<link>>]
+
+WWW.BROADFOUNDATION.ORG
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Forward this email
+<<link>>
+
+This email was sent to user@domain.com by user@domain.com
+
+Update Profile/Email Address
+<<link>>
+
+Instant removal with SafeUnsubscribe(TM)
+<<link>>
+
+Privacy Policy:
+<<link>>
+
+The Eli and Edythe Broad Foundation | 2015 Avenue of the Stars | 30th Floor | Los Angeles | CA | 90067

@@ -1,0 +1,69 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp3646582lfr;
+        Wed, 26 Aug 2015 18:06:49 -0700 (PDT)
+X-Received: by 10.55.21.40 with SMTP id f40mr2313332qkh.57.1440637608584;
+        Wed, 26 Aug 2015 18:06:48 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mailb-da.linkedin.com (mailb-da.linkedin.com. [108.174.6.153])
+        by domain.com with ESMTPS id j91si475638qgf.14.2015.08.26.18.06.47
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 26 Aug 2015 18:06:48 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 108.174.6.153 as permitted sender) client-ip=108.174.6.153;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 108.174.6.153 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=proddkim1024; t=1440637607;
+	bh=XK6wYA0ESG1qxr0pJq3qJqJGG91XuG+64pJ8/Gr8x64=;
+	h=From: Tina Stoll <member@linkedin.com>
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=CV6LCGqC7IjJE61UAscJEkPrp9hAqreetepk2ayWytEXcsaVCQSgfRAwtQb8IGKOc
+	 TWUsIgCMPMlSj5+YHewLHQiGGpA/fmbhJijSgZWItYSh9DA/qzjDyrGIp81jGVm5PT
+	 LGARhGJlyqhN9SZCamMn4qqKBKnZ4owT/bauXiRM
+From: Tina Stoll <member@linkedin.com>
+Reply-To: <user@domain.com>
+Message-ID: <962214821.1202869.1440637591724.user@domain.com>
+Subject: John, please add me to your LinkedIn network
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1202867_1729677898.1440637591722"
+To: John user <user@domain.com>
+Date: Thu, 27 Aug 2015 01:06:31 +0000 (UTC)
+X-LinkedIn-Class: INVITE-MBR
+X-LinkedIn-Template: invite_member_28
+X-LinkedIn-fbl: m2-aszx6ye46605pha4ev0cuq3sjj9x80l3ovpg4ob0sua6al25dxdhbqsw7m48o32ru85eoloar4y4pi5zpwh30bpxo387hb05i28y0d
+X-LinkedIn-Id: 71gyng-idtif9zi-2f
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe/AQGmXsA9DX79TgAAAU9ssSCsVF9KoQ-6pUOPzr8M36R3K3fUjkQ7YVPUCGzAM7CGMqrj_NQmZxmDWF6Fmo8/71gyng-idtif9zi-2f/m2-aszx6ye46605pha4ev0cuq3sjj9x80l3ovpg4ob0sua6al25dxdhbqsw7m48o32ru85eoloar4y4pi5zpwh30bpxo387hb05i28y0d>
+Feedback-ID: invite_member_28:linkedin
+
+Hi John,
+I'd like to connect with you on LinkedIn.
+
+Tina Stoll
+President at Campaign Finance Consultants
+
+Accept: <<link>>
+-accept&amp;midToken=3DAQGnartt4aNJgA&amp;tracking=3Deml-comm_invm-b-accept
+-newinvite&amp;ek=3Dinvite_member_28&amp;mboxId=3DI6042471951291682816_500&
+amp;sharedKey=3DiJEXTyAQ&amp;invitationId=3D6042471942265540608&amp;fromRem
+inder=3Dfalse&amp;fromEmail=3Dtrue
+
+View Tina Stoll's profile: <<link>>
+i-2f&t=3Dnpv&midToken=3DAQGnartt4aNJgA&tracking=3Deml-comm_invm-b-name-newi
+nvite&ek=3Dinvite_member_28&invitationAccept=3D425734252_I60424719512916828
+16_500&authType=3Dname&authToken=3DWqYf&memberID=3D14240039
+
+You are receiving Invitation emails. Unsubscribe here: <<link>>
+.com/e/v2?e=3D71gyng-idtif9zi-2f&t=3Dlun&midToken=3DAQGnartt4aNJgA&tracking
+=3Deml-comm_invm-f-unsub-newinvite&ek=3Dinvite_member_28&loid=3DAQHheeTr33P
+wPQAAAU9ssSCI2rZVNNkCWf1OckRZ7e8SEvz1K-wCKvv0oHxIbZ-cLZ3puGQp7x0OF_InYs8&ei
+d=3D71gyng-idtif9zi-2f
+
+This email was intended for John user (Chair of Hillary for America). Le
+arn why we included this at the following link: <<link>>
+v2?e=3D71gyng-idtif9zi-2f&a=3DcustomerServiceUrl&midToken=3DAQGnartt4aNJgA&
+ek=3Dinvite_member_28&articleId=3D4788
+&copy; 2015, LinkedIn Corporation. 2015 Stierlin Ct. Mountain View, CA 9404
+3, USA

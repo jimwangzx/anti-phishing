@@ -1,0 +1,57 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.197 with SMTP id y188csp326941lfc;
+        Sat, 7 Nov 2015 09:52:53 -0800 (PST)
+X-Received: by 10.50.183.7 with SMTP id ei7mr14767311igc.88.1446918773423;
+        Sat, 07 Nov 2015 09:52:53 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::232])
+        by domain.com with ESMTPS id a143si4684170ioe.24.2015.11.07.09.52.53
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 07 Nov 2015 09:52:53 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::232 as permitted sender) client-ip=2607:f8b0:4001:c05::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-domain.com with SMTP id ph11so75igc.1
+        for <user@domain.com>; Sat, 07 Nov 2015 09:52:53 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:From: Aditi Nangia <anangia@hillaryclinton.com>
+         :cc:content-type;
+        bh=Tah0hqdAbXedtDyxVcHdvytI7HqJhr5NC5ivDIOvUoA=;
+        b=NegS933lY+Kl7W2EFCuGr6kyet3y4PbRP1+3rQ7wfkQ8QnzfHGjbicCCsdimWQekwA
+         ftD68BHCVoPEHpKScWfwb/o8eagZEwf65Psh2Q68e1ZSr5vlDlPsx9TPIMPictmbtWKs
+         mjXveq8mSoJKVnU8OJXYXO24Et9Vl4hTY5MbA
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:From: Aditi Nangia <anangia@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=Tah0hqdAbXedtDyxVcHdvytI7HqJhr5NC5ivDIOvUoA=;
+        b=Y64j+Sffloo45adI55lX7MULX9+4ZHevkHaxhVf30qXeYnt8j4fPFdOI1k/GdjctdG
+         Fi4/YnBMw508RVM9ctqOD6irHAON5i0Czo7JTpq8XnAAWh/t9iXcLhoyNzb6kavgCzKw
+         umyHv50m58yLkbNjEZFL2w7PinWyaArjWxSRgkDsifbrumyv9UBUsBTzMIBn5KwL1xhD
+         WFlq82H9HyZEUU5G9xOQTNf0n1GJ2s65h6rcvs+ePUX7/TcTMSvksgWq3cFFmHjGWhK0
+         dZfSL5dVlePHHB7wxO1N7cx6I041BoK8uGiEnADxARqcByLscKy0joIy+ef9g3fiOWLM
+         eOMg
+X-Gm-Message-State: ALoCoQmIJWdLSuArRZQRytnqsLD1Ixk3ZyJhlWHMnMIoaVpcJ8pKulmTWo0ylHuirC1fnSdpebB4
+X-Received: by 10.50.62.20 with SMTP id u20mr15008279igr.26.1446918773085;
+ Sat, 07 Nov 2015 09:52:53 -0800 (PST)
+Mime-Version: 1.0 (1.0)
+From: Aditi Nangia <anangia@hillaryclinton.com>
+In-Reply-To: <6197461225981283317@unknownmsgid>
+References: <CADp8JMwGnC-QFPVouyHev4kAFmiBK8zG0gpmk=j1ereWorhW+user@domain.com>
+ <6197461225981283317@unknownmsgid>
+Date: Sat, 7 Nov 2015 12:52:52 -0500
+Message-ID: <-6382958749869976720@unknownmsgid>
+Subject: Re: UPDATE TRANSPORTATION -- debate prep on Sunday November 8th
+To: Milia Fisher <user@domain.com>
+CC: Lona Valmoro <user@domain.com>, 
+ John user <user@domain.com>, 
+ Sara Latham <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7bdca6067d36010523f70725
+
+Okay great thank you!
+
+On Nov 7, 2015, at 12:52 PM, Milia Fisher <user@domain.com>

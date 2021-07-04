@@ -1,0 +1,148 @@
+Delivered-To: user@domain.com
+Received: by 10.140.128.2 with SMTP id a2cs327765rvd;
+        Tue, 24 Jun 2015 16:31:07 -0700 (PDT)
+Received: by 10.141.180.5 with SMTP id h5mr15606872rvp.240.1214350237747;
+        Tue, 24 Jun 2015 16:30:37 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2526.domain.com (yw-out-2526.domain.com [74.125.46.33])
+        by domain.com with ESMTP id 6si9421034ywn.0.2008.06.24.16.30.36;
+        Tue, 24 Jun 2015 16:30:37 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.33 as permitted sender) client-ip=74.125.46.33;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.33 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2526.domain.com with SMTP id 4so8681309ywl.64
+        for <user@domain.com>; Tue, 24 Jun 2015 16:30:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:content-class
+         :mime-version:content-type:x-mimeole:subject:date:message-id
+         :x-ms-has-attach:x-ms-tnef-correlator:thread-topic:thread-index:from
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere;
+        bh=uJHXwMfqIqPGKWy3MIjn/gRSCYkwyzFM2B/BbdD+ruc=;
+        b=PWY8ZFQsZKbbyVQd08AvIynpDwKrGPCzUhaIgBxvFiuxF+AZIFWDICtqVJ+8AkLVdK
+         Vp25Ae6Sk8PNoEeViRsi4pJeZNiZsr3PGLsWld1WxeEiVfzwK6Iv1NEqo/nBuF7PqL1t
+         PE7JlBRTKHWG8BeRLAew8gnTNPyjm0ygScfx0
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :content-class:mime-version:content-type:x-mimeole:subject:date
+         :message-id:x-ms-has-attach:x-ms-tnef-correlator:thread-topic
+         :thread-index:From: "Brad Woodhouse" <Woodhouse@americansunitedforchange.org>
+         :list-id:list-post:list-help:list-unsubscribe:x-beenthere;
+        b=Jt2Bo/nMZ2CI89kKjzJi7dUd02Vp9tO47O/pab7U5ujxPXcQbAtn0snQRckMh4TrWo
+         Wjy4rYQ2/HQY3hJ++zmqxesjktNUm5m05saB6SdC1COGV+tCl2VQx2tJ0p9lmmHrdCmH
+         s3fr1cudepHbTQeDFD3tfX28uNglZl33sIzU0
+Received: by 10.140.134.15 with SMTP id h15mr1264229rvd.12.1214350230610;
+        Tue, 24 Jun 2015 16:30:30 -0700 (PDT)
+Received: by 10.107.113.4 with SMTP id q4gr1002prm.0;
+	Tue, 24 Jun 2015 16:30:27 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.140.225.19 with SMTP id x19mr3793391rvg.7.1214350226680; Tue, 24 Jun 2015 16:30:26 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail.americansunitedforchange.org (mail.americansunitedforchange.org [208.255.167.130]) by domain.com with ESMTP id 22si7661236yxr.2.2008.06.24.16.30.20; Tue, 24 Jun 2015 16:30:26 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.255.167.130 as permitted sender) client-ip=208.255.167.130;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 208.255.167.130 as permitted sender) user@domain.com
+Content-class: urn:content-classes:message
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01C8D652.416F9801"
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Subject: [big campaign] Nice Summary of the Bush Bus Launch by The Hill
+Date: Tue, 24 Jun 2015 19:30:15 -0400
+Message-ID: <29user@domain.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Nice Summary of the Bush Bus Launch by The Hill
+Thread-Index: AcjWUkDsCv8EW6NsTfakmhBYjUwVlw
+From: "Brad Woodhouse" <Woodhouse@americansunitedforchange.org>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+More Clips to Come..
+
+June 24, 2015 
+
+Anti-Bush Tour Bus Makes Its Debut <<<link>>
+24/anti-bush-tour-bus-makes-its-debut/>
+
+@ 3:05 pm by Chris Good <<<link>>>
+
+
+
+Americans United for Change has long opposed many of President Bush's polici
+es, but this year it's found a new way to say it-with a 28-ton bus.
+
+The group today launched its Bush Legacy Bus, a rolling museum dedicated to 
+the "worst policy failures" of the Bush administration. The bus will travel 
+the country for the next five months, stopping in 150 cities and bearing a s
+imple message: that Bush's policies have wreaked havoc on America.
+
+The bus features interactive exhibits on the Iraq war, the economy, and heal
+thcare. A screen displays images of New Orleans after Hurricane Katrina, wit
+h captions that criticize the government's response. A chart entitled "not j
+ust Bush's war" traces Iraq war support to House Minority Leader John Boehne
+r (R-Ohio), Senate Minority Leader Mitch McConnell (R-Ky.), and former House
+ Majority Leader Tom DeLay (R-Texas). The floor shows a timeline of events i
+n the Bush presidency.
+
+ <<<link>>
+xt.jpg>
+
+The bus is not just one group's effort. Its funding comes from a network of 
+liberal interest groups that often work with Americans United for Change und
+er the "progressive" umbrella: sponsors and partners include domain.com, Cen
+ter for American Progress, Service Employees International Union (SEIU), AFL
+-CIO, domain.com, and American Federation of State, County and Municipal E
+mployees (AFSCME).
+
+The bus will make its first stop in Dayton, Ohio tomorrow to campaign agains
+t Boehner. It will domain.com Louisville, Ky. Thursday to campaign against McConn
+ell.
+
+"Eight years later, conservative government rule, of which President Bush se
+rved as the vessel, has left an economy in recession, the costs for healthca
+re, college tuition, food and gas skyrocketing and out of reach for most Ame
+ricans," Americans United for Change President Brad Woodhouse said in a stat
+ement that accompanied the bus's launch.
+
+"But to be clear, this effort is not about Bush-it is about the conservative
+ ideology he and his allies in Congress, including John McCain, represent," 
+Woodhouse said.
+
+The bus is part of the group's Bush Legacy Project, which has sought to to c
+riticize of Bush since January, when the group aired a television ad <http:/
+/www.americansunitedforchange.org/blog/entries/state_of_the_union/>  near th
+e president's State of the Union address. The idea for the bus came in Febru
+ary, and Americans United for Change has been planning its construction for 
+the past several months, a spokesman said.
+
+The group unveiled the bus today at a cookout in front of the AFL-CIO's nati
+onal headquarters, across Lafayette Park from the White House. The bus then 
+left for the Capitol, where it sat on display this afternoon.
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" g
+roup.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organi
+zation.
+-~----------~----~----~----~------~----~------~--~---
+

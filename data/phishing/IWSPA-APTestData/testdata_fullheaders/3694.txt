@@ -1,0 +1,46 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.101 with SMTP id o98csp201922lfi;
+        Fri, 26 Jun 2015 14:03:51 -0700 (PDT)
+X-Received: by 10.194.112.3 with SMTP id im3mr6353448wjb.54.1435352631356;
+        Fri, 26 Jun 2015 14:03:51 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [209.85.212.182])
+        by domain.com with ESMTPS id q4si71403wie.7.2015.06.26.14.03.50
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 26 Jun 2015 14:03:51 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.212.182 as permitted sender) client-ip=209.85.212.182;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.212.182 as permitted sender) user@domain.com
+Received: by mail-wi0-domain.com with SMTP id l6so54681428wiw.0
+        for <user@domain.com>; Fri, 26 Jun 2015 14:03:50 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:From: "Laura D'Andrea TYSON" <tyson@haas.berkeley.edu>
+         :subject:to:content-type;
+        bh=UFKEfKEN4d3XEdD4rsdPoON/T1JCuadjrlLli8Q8ZTo=;
+        b=Dqml71az5UpjWoc/Z6Y4uIrfbfyHAe4G53hLKxjVKeH3eLRDL33YXnAvVKcOrLrX9P
+         pTE9LpeP04sIL1U29hMG48DqTMk3uRZbNwUxOh9cOdsWedpc3aAOU92Exl9M8YShNNGX
+         jRE3n5ukzy+Vsu88UzspFXNOXiq53mG0eOCQ3uxbm/quYxEvNKyIS5+AQ4SGO+1FCgSL
+         OEY3oKV5lr/72rNIApWXr3rb7fgkCZXvFH8myWFGL8If+Jf+hR1xrXxkTpL1ToWkftmb
+         g2bfciFnd833aC41nsUy6fTjxvs4yJQKIf/xkn8xGiEGOjKos4m3t+NEdbirrewfleO7
+         RueA
+X-Gm-Message-State: ALoCoQnIIyGOzYWjtylmkg/nnj1xq3YY3Xt8DzRwEXxmHXNvFCLG5bnD434AF07jxsyznYO5GrdP
+X-Received: by 10.194.185.8 with SMTP id ey8mr6278409wjc.118.1435352630660;
+ Fri, 26 Jun 2015 14:03:50 -0700 (PDT)
+MIME-Version: 1.0
+Reply-To: user@domain.com
+Received: by 10.194.43.195 with HTTP; Fri, 26 Jun 2015 14:03:21 -0700 (PDT)
+From: "Laura D'Andrea TYSON" <tyson@haas.berkeley.edu>
+Date: Fri, 26 Jun 2015 14:03:21 -0700
+Message-ID: <CAEw74+HsDECAT1TgSnBPWoAVkY+user@domain.com>
+Subject: Tuesday
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7bd6abeeada3de0519721332
+
+Dear John,
+
+I will be meeting with the HRC economics policy team at the Brooklyn office
+next Tuesday. Will you in town? It would be great to catch up.
+
+Laura

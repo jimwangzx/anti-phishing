@@ -1,0 +1,39 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id 0F10F46886
+	for <user@domain.com>; Fri, 20 Feb 2015 19:55:29 -0500 (EST)
+X-Greylist: delayed 134 seconds by postgrey-1.27 at domain.com; Fri, 20 Feb 2015 19:55:29 EST
+Received: from domain.com (domain.com [12.7.144.130])
+	by domain.com (Postfix) with ESMTP id 131F5131F6EE
+	for <user@domain.com>; Fri, 20 Feb 2015 19:55:29 -0500 (EST)
+Received: from sbserver
+        by domain.com (letronics.smtp) with ASMTP id CCW84312;
+        Fri, 20 Feb 2015 18:53:12 -0600
+Reply-To: <user@domain.com>
+From: "PayPal"<check@mail.com>
+Subject: Live IP Verification
+Date: Fri, 20 Feb 2015 19:53:10 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20090221005529.131user@domain.com>
+To: undisclosed-recipients:;
+Content-Length: 399
+Lines: 5
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 987
+
+PayPal
+
+We noticed one or more login attempts  from a foreign IP address .
+
+    Log In now to resolve the problem.

@@ -1,0 +1,71 @@
+Delivered-To: user@domain.com
+Received: by 10.76.120.72 with SMTP id la8csp203343oab;
+        Thu, 19 Jul 2015 04:43:08 -0700 (PDT)
+Received: by 10.224.187.129 with SMTP id cw1mr3040292qab.78.1342698188000;
+        Thu, 19 Jul 2015 04:43:08 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [208.94.21.252])
+        by domain.com with ESMTP id fv3si2079349qab.18.2012.07.19.04.43.07;
+        Thu, 19 Jul 2015 04:43:07 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.94.21.252 as permitted sender) client-ip=208.94.21.252;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 208.94.21.252 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Return-Path: <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=em.sportsauthority.com; s=ED-DKIM; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1342698186;
+	h=From;
+	bh=uOo8i5hZ6fEShF6Kb6CLb7dkYC0=;
+	b=S0C/ZYxiaCd50ZbJobMi1TInHZp0E/fQuG0rt6HQtt588CArYNra2Al2ESsK2JZy
+	zqC8OwMw4BsLSo6LPQ/bU9uYcGig6W93lHmbXUZWuWECrCuq53WB2xLZV8xCjEu6;
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=ED2008-07; d=em.sportsauthority.com;
+	h=Received:Date:Content-Type:Content-Transfer-Encoding:MIME-Version:From: "The League by Sports Authority" <SportsAuthority.com@em.sportsauthority.com>
+	b=Tp0JRgwSrJwe0l0HDhmGJvF/Fesb6fceRkWP9R7FqVdxP97fVRPueDZzlj9YTsiO
+	pVHNSy94wrBxsP2BSCktS2H0vSuBqBIPQQUDqK4EJ9xqetQNSLmYXJsiBehbEZJ1
+Received: from [127.0.0.1] ([127.0.0.1:36626])
+	by bm1-05.bo3.e-domain.com (envelope-from <user@domain.com>)
+	(ecelerity 2.2.2.41 r(31179/31189)) with ECSTREAM
+	id CF/86-15790-AC2F7005; Thu, 19 Jul 2015 07:43:06 -0400
+Date: Thu, 19 Jul 2015 07:43:06 -0400
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+From: "The League by Sports Authority" <SportsAuthority.com@em.sportsauthority.com>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: John, Your July Newsletter Is Here! Get
+ 2X Points on Backyard Essentials
+Message-Id: <4423-181-user@domain.com>
+X-Mail-From: "The League by Sports Authority" <SportsAuthority.com@em.sportsauthority.com>
+X-Match: domain.com
+X-RCPT-To: user@domain.com
+X-Mailer: EDMAIL R6.00.02
+
+The Sports Authority
+
+Your July Newsletter is Here! Get 2X Points on All Backyard Essentials. Shop Now
+View Online Version
+
+Member Name
+      John user
+      Member ID 
+      1005611660
+      Member Since:04-JUL-12 
+      Current Balance: 
+      80 pts
+
+
+
+
+OFFER DETAILS
+*Members of The League by Sports Authority Member program are eligible for Double Points on the net purchase amount of stated products, Coolers, Canopies, Outdoor Furniture, and Outdoor Games, included in this promotion in stores only. Offer valid NOW - 7/22/12. Exclusions may apply. Please see Store Associate for details on products included. Not valid on purchases made at domain.com. The following items are considered non-qualifying purchases for which Points will not be 
+awarded: purchases made for resale; purchases paid with The League by Sports Authority or S.A. Elite Sports Authority Member Program Rewards; licenses; tickets; sales tax; state fees; shipping charges; commercial purchases; recycling fees; other excluded charges; and certain items that may be excluded in particular promotions. Program Points will not be earned on Sports Authority or S.A. Elite Sports Authority Gift Card purchases. Sports Authority or S.A. Elite Sports Authority Gift Card 
+purchases are excluded from all Program promotions. Other exclusions may apply.
+EMAIL SUBSCRIPTION
+  This email was sent to user@domain.com To update your email preferences or change your email address, domain.com My Account. To close your account at any time and stop receiving  communications from The League, domain.com My Account.
+CONTACT US
+  Please do not reply to this email, as we are not able to respond to messages sent to this address.
+  The League Member  Servies:  1.877.872.6806
+  Privacy Policy | Program Rules
+
+
+

@@ -1,0 +1,82 @@
+Return-Path: <user@domain.com>
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.6.4])
+	by domain.com (Postfix) with ESMTP id 18DF82A88C
+	for <user@domain.com>; Sun, 24 Jul 2015 23:08:20 -0400 (EDT)
+Received: by domain.com (Example mail relay)
+	id 10486621C95; Sun, 24 Jul 2015 23:08:20 -0400 (EDT)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.3.6])
+	by domain.com (Example mail relay) with ESMTP id E670B621C92
+	for <user@domain.com>; Sun, 24 Jul 2015 23:08:19 -0400 (EDT)
+Received: (from user@domain.com)
+	by domain.com id XAA24562
+	for user@domain.com; Sun, 24 Jul 2015 23:08:19 -0400
+Received: from domain.com (domain.com [64.21.63.5])
+	by domain.com with ESMTP id XAA24554
+	for <user@domain.com>; Sun, 24 Jul 2015 23:08:19 -0400
+Received: from nobody by domain.com with local (Exim 4.52)
+	id 1DwtKM-0008E0-4E
+	for user@domain.com; Sun, 24 Jul 2015 23:08:26 -0400
+To: user@domain.com
+Subject: Confirm your identify
+From: Bank of the west (r) <info@bankofthewest.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <user@domain.com>
+Date: Sun, 24 Jul 2015 23:08:26 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - domain.com
+X-AntiAbuse: Original Domain - domain.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 32448] / [47 12]
+X-AntiAbuse: Sender Address Domain - domain.com
+X-Source-Args: /usr/local/apache/bin/httpd -DSSL 
+X-Source-Dir: domain.com:/public_html/index2
+Content-Length: 1996
+Lines: 55
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 57
+
+Dear Bank of The West customer, 
+
+We recently reviewed your account, and suspect that your Bank of The West domain.com Banking account may have been
+accessed by an unauthorized third party.
+
+Protecting the security of your account and of the Bank of The West network is 
+our primary concern. Therefore, as a
+preventative measure, we have temporarily 
+limited access to sensitive account features.
+
+To restore your account access, please take the following steps to ensure that 
+your account has not been compromised:
+
+1. Login to your Bank of The West domain.com Banking account. In case you are not 
+enrolled for domain.com Banking, you will
+have to fill in all the required 
+information, including your name and you account number.
+
+2. Review your recent account history for any unauthorized withdrawals or 
+deposits, and check you account profile to
+make sure not changes have been made. 
+If any unauthorized activity has taken place on your account, report this to
+
+Bank of The West staff immediately.
+
+To get started, please click the link below:
+
+<>
+
+We apologize for any inconvenience this may cause, and appreciate your 
+assistance in helping us maintain the integrity of
+
+the entire Bank of The West 
+system. Thank you for attention to this matter.
+
+Sincerely,
+
+The Bank of The West Team
+
+Copyright © 2015 Bank of the West. Member FDIC. Equal Housing Lender

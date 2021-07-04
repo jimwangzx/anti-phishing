@@ -1,0 +1,46 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.98 with SMTP id o95csp274842lfi;
+        Wed, 18 Mar 2015 05:16:51 -0700 (PDT)
+X-Received: by 10.70.131.164 with SMTP id on4mr129727733pdb.100.1426681010828;
+        Wed, 18 Mar 2015 05:16:50 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from nk11p00mm-domain.com (nk11p00mm-domain.com. [17.158.161.3])
+        by domain.com with ESMTPS id z5si5672712pdm.196.2015.03.18.05.16.49
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=AES128-GCM-SHA256 bits=128/128);
+        Wed, 18 Mar 2015 05:16:50 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 17.158.161.3 as permitted sender) client-ip=17.158.161.3;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 17.158.161.3 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=me.com
+Received: from nk11p00mm-domain.com ([17.158.161.66])
+ by nk11p00mm-domain.com
+ (Oracle Communications Messaging Server 7.0.5.35.0 64bit (built Dec  4 2014))
+ with ESMTP id <0user@domain.com> for
+ user@domain.com; Wed, 18 Mar 2015 12:16:49 +0000 (GMT)
+X-Proofpoint-Virus-Version: vendor=fsecure
+ engine=2.50.10432:5.13.68,1.0.33,0.0.0000
+ definitions=2015-03-18_04:2015-03-18,2015-03-18,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+ suspectscore=0 phishscore=0 adultscore=0 bulkscore=0 classifier=spam adjust=0
+ reason=mlx scancount=1 engine=7.0.1-1412110000 definitions=main-1503180112
+MIME-version: 1.0
+Content-type: multipart/alternative;
+ boundary="Boundary_(ID_y+aB+pL+oGN0HRmNYuKXMA)"
+Received: from localhost ([17.158.237.79]) by nk11p00mm-domain.com
+ (Oracle Communications Messaging Server 7.0.5.33.0 64bit (built Aug 27 2014))
+ with ESMTP id <0user@domain.com>; Wed,
+ 18 Mar 2015 12:16:48 +0000 (GMT)
+To: "User" <user@domain.com>, 
+ John user <user@domain.com>
+From: KATHARINE BATTEN <kit_batten@me.com>
+Subject: Do you have 15 min to chat with me?
+Date: Wed, 18 Mar 2015 12:16:52 +0000 (GMT)
+X-Mailer: iCloud MailClient15B.9bb3ce9 MailServer15B76.18307
+X-Originating-IP: [69.243.77.6]
+Message-id: <0175user@domain.com>
+
+Hi John,=0AI'd like to ask for your advice again -- would you have 15 min 
+to talk this week or next? =A0Or if your schedule has opened up enough pos
+t-White House (although I know you are still very busy), could I take you 
+out for a cup of coffee or lunch?=0A=0Athanks and hope all's well,=0domain.com

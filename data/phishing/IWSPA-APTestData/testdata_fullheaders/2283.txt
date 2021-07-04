@@ -1,0 +1,55 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.70 with SMTP id n64csp6294qga;
+        Sat, 14 Jun 2015 09:13:36 -0700 (PDT)
+X-Received: by 10.180.84.132 with SMTP id z4mr13867805wiy.14.1402762415128;
+        Sat, 14 Jun 2015 09:13:35 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wg0-domain.com (mail-wg0-domain.com [2a00:1450:400c:c00::22c])
+        by domain.com with ESMTPS id mz5si2119766wic.67.2014.06.14.09.13.33
+        for 
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sat, 14 Jun 2015 09:13:35 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c00::22c as permitted sender) client-ip=2a00:1450:400c:c00::22c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c00::22c as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-wg0-domain.com with SMTP id x13so3869869wgg.3
+        for ; Sat, 14 Jun 2015 09:13:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=subject:From: Gabe user <guser@gmail.com>
+         :content-transfer-encoding:mime-version;
+        bh=Iv0SjcKve+IJKYKZmgP5g1LvOy2qgktPb+Tkk1teo7E=;
+        b=aypzLp7/vYwMmfTau+tiX4ka09L54z6LBjOAa1h5CsfCPmZEf1VicRPCHdzL8fOuTd
+         cdX3YwAfx/FoXKdNB2CLsZPLArLA2XS1lJXPfG5fGtbhObBzAoKdT8L4+CEMRxnRl5MC
+         mWPS+yvStFTXhg2tT9Kcnvy33LCCAzmBxWWq1ipJ77FpaXkQvGClUNtd88kOMtoDXJD3
+         AFhTzx0qTeEwjE0OnuY/xJuBGg8eAWJmKx2Qzmfdfsh2H56QqtSfimp9oYC+obvysdnA
+         Xy68D/YjnZ0QRfe7CnRkzvsZUbInXArByUns7FTrkDt/Mjp0QwjbHrD1j12n7hI6kbq4
+         Mc4w
+X-Received: by 10.180.90.242 with SMTP id bz18mr13867064wib.12.1402762413606;
+        Sat, 14 Jun 2015 09:13:33 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [172.17.35.244] ([89.211.62.250])
+        by domain.com with ESMTPSA id m2sm10504320wjf.42.2014.06.14.09.13.31
+        for 
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sat, 14 Jun 2015 09:13:32 -0700 (PDT)
+Subject: Qatar Running
+From: Gabe user <guser@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+X-Mailer: iPhone Mail (11B554a)
+Message-Id: <user@domain.com>
+Date: Sat, 14 Jun 2015 19:13:24 +0300
+To: John user <user@domain.com>, Megan Rouse <user@domain.com>
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+
+The base has a perimeter trail run that comes right around 5k. I went out to
+day at 430 pm when the temperature was reported at 109. Surprisingly, the he
+at wasn't too bad--the gale-force winds are what make it so hard. I think I m
+ay stick to the evenings when the temperature drops to the 90s and the wind d
+ies down.
+
+Sent from my iPhone

@@ -1,0 +1,67 @@
+Delivered-To: user@domain.com
+Received: by 10.204.68.206 with SMTP id w14csp212126bki;
+        Wed, 18 Sep 2015 05:07:11 -0700 (PDT)
+X-Received: by 10.224.125.2 with SMTP id w2mr13821613qar.46.1379506030094;
+        Wed, 18 Sep 2015 05:07:10 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [208.75.123.182])
+        by domain.com with ESMTP id v2si1566822qag.53.1969.12.31.16.00.00;
+        Wed, 18 Sep 2015 05:07:09 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.75.123.182 as permitted sender) client-ip=208.75.123.182;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 208.75.123.182 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from p2-domain.com (p2-domain.com [10.252.0.105])
+	by p2-domain.com (Postfix) with ESMTP id 45DE24AEEFA
+	for <user@domain.com>; Wed, 18 Sep 2015 08:07:09 -0400 (EDT)
+DKIM-Signature: v=1; q=dns/txt; a=rsa-sha256; c=relaxed/relaxed; s=1000073432; d=domain.com; h=to:subject:mime-version:message-id:From: Gregory McGinity <events@broadfoundation.org>
+Message-ID: <1114642717621.1112598236776.4392.11.14080078@domain.com>
+Date: Wed, 18 Sep 2015 08:07:09 -0400 (EDT)
+From: Gregory McGinity <events@broadfoundation.org>
+Reply-To: user@domain.com
+To: user@domain.com
+Subject: Most improved public school district in the nation? Find out in 1
+ week.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_86131328_376864575.1379506029273"
+X-Mailer: Roving Constant Contact 2015 (<<link>>)
+List-Unsubscribe: <<link>>
+X-Return-Path-Hint: user@domain.com
+X-Roving-ID: 1112598236776.4392
+X-Lumos-SenderID: 1112598236776
+X-Roving-CampaignId: 1114642717621
+X-Roving-StreamId: 0
+
+Which of these finalist districts will take home the prize?
+Reg [<<link>>]ister now to watch the live event webcast [<<link>>]on Sept. 25 at 11 a.m. EST [<<link>>].
+
+Corona-Norco Unified School District, California
+Cumberland County Schools, North Carolina
+Houston Independent School District, Texas
+San Diego Unified School District, California
+The Broad Prize for Urban Education celebrates progress in our public school systems.
+Learn more at domain.com [<<link>>].
+Follow the action live via @BroadFoundation [<<link>>]and #broadprize [<<link>>].
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Forward this email
+<<link>>
+
+This email was sent to user@domain.com by user@domain.com
+
+Update Profile/Email Address
+<<link>>
+
+Instant removal with SafeUnsubscribe(TM)
+<<link>>
+
+Privacy Policy:
+<<link>>
+
+Online Marketing by
+Constant Contact(R)
+domain.com
+
+The Broad Foundation | 10900 Wilshire Boulevard | 12th Floor | Los Angeles | CA | 90024

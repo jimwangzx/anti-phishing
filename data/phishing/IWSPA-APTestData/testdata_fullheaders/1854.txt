@@ -1,0 +1,73 @@
+Received: from relay.Organization.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Mon, 28 Oct 2015 12:16:44 +0100
+Received: from domain.com (unknown [192.168.100.50])	by
+ relay.Organization.com (Postfix) with ESMTP id A5F23621E0	for
+ <user@domain.com>; Mon, 28 Oct 2015 11:12:33 +0000 (GMT)
+Received: by domain.com (Postfix)	id 2C4002BC1EF; Mon, 28 Oct 2015 
+ 12:16:44 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from support.Organization.com (support.Organization.com
+ [192.168.100.70])	by domain.com (Postfix) with ESMTP id D2F6A2BC1F5
+	for <user@domain.com>; Mon, 28 Oct 2015 12:16:43 +0100 (CET)
+Message-ID: <1382959003.526user@domain.com>
+Date: Mon, 28 Oct 2015 11:16:43 +0000
+Subject: [!PEX-793-73158]: Assignment - Problem with a event agent.
+From: Guido Landi <support@Organization.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+X-Priority: 3 (Normal)
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+X-libpst-forensic-sender: /O=Organization/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=SUPPORTFE0
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-615933390_-_-"
+
+Guido Landi updated #PEX-793-73158
+----------------------------------
+
+Staff (Owner): Guido Landi (was: Bruno Muschitiello)
+
+Problem with a event agent.
+---------------------------
+
+Ticket ID: PEX-793-73158
+URL: <<link>>
+Name: netsec
+Email address: user@domain.com
+Creator: User
+Department: General
+Staff (Owner): Guido Landi
+Type: Issue
+Status: In Progress
+Priority: Medium
+Template group: Default
+Created: 02 October 2015 09:48 AM
+Updated: 28 October 2015 11:16 AM
+
+Hello,
+
+let's try it again one step at a time.
+
+First, we need to know the operating system version, to do that:
+ - double click on the right instance
+ - double click on "Commands"
+ - click on "New command"
+ - write "/usr/bin/sw_vers" (without quotes) and click on "Save"
+
+then domain.com for a sync or two, come back to right instance, double click on "Commands" and you should see the command ouput(as shown in the attached 1.jpg).
+
+Then we need to know the Skype version, here's how to proceed to get it:
+- double click on the right instance 
+- double click on "File transfer"
+- click on "New download"(lower pane)
+- write "/Applications/Skype.app/Contents/Info.plist" without quotes, the file path should appear on the lower pane
+
+the domain.com for a sync or two, come back to the right instance, double click on "Evidence" and you should see a new "File" evidence(as shown in 2.jpg). Click on "Download" and attach the file to this ticket.
+
+Staff CP:  <<link>>
+

@@ -1,0 +1,157 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.88 with SMTP id o85csp1728579lfi;
+        Mon, 6 Jul 2015 10:48:00 -0700 (PDT)
+X-Received: by 10.70.54.196 with SMTP id l4mr207665pdp.2.1436204880464;
+        Mon, 06 Jul 2015 10:48:00 -0700 (PDT)
+Return-Path: <bounces+1666821-16user@domain.com>
+Received: from o68.list.prochoiceamerica.org (o68.list.prochoiceamerica.org. [50.31.62.82])
+        by domain.com with ESMTPS id jy8si30080240pbb.80.2015.07.06.10.47.59
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 06 Jul 2015 10:48:00 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of bounces+1666821-16user@domain.com designates 50.31.62.82 as permitted sender) client-ip=50.31.62.82;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of bounces+1666821-16user@domain.com designates 50.31.62.82 as permitted sender) smtp.mail=bounces+1666821-16user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; 
+	d=list.prochoiceamerica.org; 
+	h=content-type:mime-version:subject:From: "Ilyse Hogue, NARAL Pro-Choice America" <can@prochoiceamerica.org>
+	s=smtpapi; bh=vt9f4l3Nn5q0QVAJihpAsDMWsHM=; b=hmy+EVtteoPAaUQEkN
+	pZHiRZ+Lty94n25/nDEgpFyXB0FbEhtFVrfaWfn/domain.com/Z67PhyMFXqc1tRM5lY
+	3Aj6n6iUOZZGkymWT1DlMUwSXTpvzjuYuEAqbADWNVUD93TcbS9ni7iS+n6Sg1Wq
+	Cd/LeLpgluTwcwC+hGmZ28m6o
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.info; 
+	h=content-type:mime-version:subject:From: "Ilyse Hogue, NARAL Pro-Choice America" <can@prochoiceamerica.org>
+	s=smtpapi; bh=vt9f4l3Nn5q0QVAJihpAsDMWsHM=; b=LrPd3GNi9oeXGdAb2a
+	irmj1JGw4R6pJXGxER7uk+Nithycabr6TMP4FECtUakANtFfrHG6cYaRWumZWEsg
+	q9/DGFiZWsvbbIhgLCxPtEr4dPI7R6DCIHMyvREXcORaMm459odwhemSXApHOB+3
+	WJlHlQkjAv9Q14EIgBG3od4Z8
+Received: by filter-380.domain.com with SMTP id filter-380.27251.559ABF4F4
+        2015-07-06 17:47:59.110683853 +0000 UTC
+Received: from domain.com (domain.com [198.202.148.30])
+	by ismtpd-089 (SG) with ESMTP id 14e647b4c7d.445d.4f3b1b
+	for <user@domain.com>; Mon, 06 Jul 2015 17:47:58 +0000 (UTC)
+Content-Type: multipart/alternative;
+	boundary="----=9943263e326673e9c633ba23da6f4ce5"
+MIME-Version: 1.0
+Subject: This guy is dangerous
+From: "Ilyse Hogue, NARAL Pro-Choice America" <can@prochoiceamerica.org>
+To: "User" <user@domain.com>
+Date: Mon, 06 Jul 2015 17:47:59 +0000
+Message-ID: <2280user@domain.com>
+Reply-To: user@domain.com
+List-Unsubscribe: <mailto:user@domain.com>
+X-SG-EID: p7DGjev3kDhYNXGtfGO9jbmQ3Oi75URC5nx+Didgsq9C2CZOkByoirrcOmBGUH6Jx/vIygSVkk3h4f
+ RYMlYoEcfP9xmZ43T5aL9xPVhcFJkshhkzn9LWNN4vW3z0/MacSPj3Rwf3/YN2iv85nAwN+Fno0W3G
+ 3Ri/0YvbhZkz2Fc
+X-SG-ID: VGe5/xjN+I+4B3VTA8MwtP4A0aNcDeahivVmOZlPTNuX7/OIdovdZ7i1Y/iz0pq5joufkYihBkAOfn
+ EV17WeVGEoAdyGpgTgMXj7rJj92mE
+X-Feedback-ID: 1666821:Y8iGXa7nrufQNt6P9r22I9ltDYTtd/U/Pc9UDN7M/D0=:Y8iGXa7nrufQNt6P9r22I9ltDYTtd/U/Pc9UDN7M/D0=:SG
+
+NARAL Pro-Choice America
+_____________________________
+   Anti-choice presidential candidate Scott Walker wants to hide his extreme
+   views from the voters. Will you chip in $15 to make him own
+   them?
+                          [1]Chip in $15
+
+   Dear John,
+
+   We've discovered the most deadly effective argument against an anti-choi
+ce
+   presidential candidate like Scott Walker.
+
+   His own words.
+
+   Walker said forced invasive ultrasounds are "just a cool thing" for women
+   seeking abortion care.^1
+
+   He's pushing legislation in Wisconsin to ban all abortion after 20
+   weeks--and he specifically insisted that the bill NOT include exceptions
+   for rape or incest.^2
+
+   These extreme positions are politically toxic--and we're going to make h
+im
+   own them. So we've launched a TV ad campaign to let people hear them from
+   the source. Will you chip in $15 to defend choice and keep
+   these ads on the air?
+
+   [2]Yes, I'll chip in $15.
+
+   Every election year, anti-choice candidates try to hide their extreme
+   views from the voters--because they know that 7 in 10 Americans support
+   abortion rights.
+
+   But we've got them on tape--and, with your help we can make them own the
+ir
+   words.
+
+   Scott Walker is among the leading Republican candidates in the polls, and
+   he's signed on to the anti-choice movement's entire agenda, from abortion
+   bans to invasive forced ultrasounds.
+
+   And now he wants to be president of the United States? We won't let that
+   happen.
+
+   Will you chip in $15 to defend choice and make sure voters
+   know the truth about anti-choice presidential-frontrunner Scott Walker?
+
+   [3]Yes, I'll chip in $15.
+
+   Thank you for helping to make abortion rights real for all women,
+
+   Ilyse G. Hogue
+   President, NARAL Pro-Choice America
+
+                                 [4]DONATE NOW
+
+   ------------------------------------------------------------------------
+--
+
+   Sources:
+
+   1. [5]Scott Walker: State's Ultrasound Law Isn't 'A Crazy Idea,' NPR, May
+   27, 2015 
+
+   2. [6]"Scott Walker Reportedly Requested 20-Week Abortion Ban Without
+   Exceptions For Rape, Incest," The Huffington Post, June 23, 2015 
+
+References
+
+   Visible links
+   1. <<link>>
+1001&akid=3D208.2261225.re3Y4w
+   2. <<link>>
+1002&akid=3D208.2261225.re3Y4w
+   3. <<link>>
+1003&akid=3D208.2261225.re3Y4w
+   4. <<link>>
+1004&akid=3D208.2261225.re3Y4w
+   5. <<link>>
+re3Y4w
+   6. <<link>>
+re3Y4w
+
+_____________________________
+															This message was sent to: user@domain.com | If you'd 
+like to sign up for emails in a different account, <<link>>
+domain.com/signup/email_signup/?source=3Demailfooter&akid=3D208.2261225.re3
+Y4w.
+
+If we need to update your contact information, please <<link>>
+domain.com/me/update/?akid=3D208.2261225.re3Y4w.
+
+We believe that emails are a crucial way for NARAL to stay in touch with su
+pporters. However, if you'd like to unsubscribe, go to <<link>>
+domain.com/cms/unsubscribe/unsubscribe/?akid=3D.2261225.4Q7LPo&akid
+=3D208.2261225.re3Y4w .
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+
+Our campaign to protect and expand reproductive freedom is powered by suppo
+rters like you. If you'd like to make an online donation, <<link>>
+domain.com/donate/supportnaral/?source=3Demailfooter&akid=3D208.226
+1225.re3Y4w. Thanks for your support of NARAL!
+													&copy; Copyright 2015 NARAL Pro-Choice America. 1156 15th Stre
+et, Suite 700, Washington, DC 20005 All rights reserved.

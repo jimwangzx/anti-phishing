@@ -1,0 +1,98 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs451512wfw;
+        Wed, 8 Oct 2015 12:19:44 -0700 (PDT)
+Received: by 10.90.84.2 with SMTP id h2mr2045918agb.41.1223493583078;
+        Wed, 08 Oct 2015 12:19:43 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2526.domain.com (yw-out-2526.domain.com [74.125.46.32])
+        by domain.com with ESMTP id 3si3029538gxk.50.2008.10.08.12.19.41;
+        Wed, 08 Oct 2015 12:19:42 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.32 as permitted sender) client-ip=74.125.46.32;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.32 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2526.domain.com with SMTP id 4so429625ywg.82
+        for <user@domain.com>; Wed, 08 Oct 2015 12:19:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Michael Stebbins" <stebbins@sefora.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=sf6Qwbtz5pDmvCIxB+15Cgk31sp6S9F2wKi2hPd71f8=;
+        b=bqoLTNoIxcy0zw7iuHxnTsyH1podQ0/vwdMdlLM2Li2t7BJJ9v5uDdF8MxGkwB3Y2X
+         3L+06QZwYij9Yt4Ngs+Fu5QvF5W/REwXDSTVDJvCAxQ3LurtA2yHo7m+nFjfIDUBJi0Y
+         3BpXeopCs8YDLowLUG174ZsDFcXvV7H2BK3IE
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Michael Stebbins" <stebbins@sefora.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=zo8fwI7djsA6ceP8x//0cZc0bnjx73splSgQymzmbGxtsdKj3crYjGDaSn5h0btv2G
+         cAxVkT3z19C4tcDdiQHBY/rBIpfXKp6X0b5lAiLm3EFEtFlEqM09iee4vhlIRjUgFF5k
+         UpFN/WhaNqTXlHM5QwTXIlwJMeS0NFROloxmI
+Received: by 10.100.11.7 with SMTP id 7mr508019ank.13.1223493572689;
+        Wed, 08 Oct 2015 12:19:32 -0700 (PDT)
+Received: by 10.106.151.34 with SMTP id y34gr2335prd.0;
+	Wed, 08 Oct 2015 12:19:30 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.114.102.1 with SMTP id z1mr1331162wab.0.1223493570011; Wed, 08 Oct 2015 12:19:30 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.16]) by domain.com with ESMTP id 7si15550178yxg.0.2008.10.08.12.19.29; Wed, 08 Oct 2015 12:19:29 -0700 (PDT)
+Received-SPF: neutral (domain.com: 209.85.217.16 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=209.85.217.16;
+Authentication-Results: domain.com; spf=neutral (domain.com: 209.85.217.16 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 9so8662647gxk.13 for <user@domain.com>; Wed, 08 Oct 2015 12:19:29 -0700 (PDT)
+Received: by 10.151.123.7 with SMTP id a7mr467210ybn.73.1223493568132; Wed, 08 Oct 2015 12:19:28 -0700 (PDT)
+Received: by 10.150.220.15 with HTTP; Wed, 8 Oct 2015 12:19:28 -0700 (PDT)
+Message-ID: <2user@domain.com>
+Date: Wed, 8 Oct 2015 15:19:28 -0400
+From: "Michael Stebbins" <stebbins@sefora.org>
+To: user@domain.com
+Subject: [big campaign] 2015 Nobel Chemist Endorses Obama
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+One of the first things Martin Chalfie wanted to do after learning
+that he won the Nobel Prize in Chemistry is Endorse Barack Obama for
+President of the United States. That brings the total number of Nobel
+Prize winners in science to endorse Obama to 63. This is by far the
+largest number of Nobelists to ever endorse a candidate for President.
+I do not know of any Nobelists in science that have endorsed McCain,
+so if anyone hears of one, please let me know.
+
+Read the story here...
+<<link>>
+-- 
+Michael Stebbins, Ph.D.
+SEA Action Fund
+703-625-1512
+<<link>>
+
+Join Scientists and Engineers for America today!
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---

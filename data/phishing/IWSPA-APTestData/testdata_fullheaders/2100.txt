@@ -1,0 +1,46 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp97449lfr;
+        Wed, 30 Sep 2015 12:41:38 -0700 (PDT)
+X-Received: by 10.50.118.69 with SMTP id kk5mr7421336igb.8.1443642098579;
+        Wed, 30 Sep 2015 12:41:38 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::22b])
+        by domain.com with ESMTPS id p136si1973375ioe.31.2015.09.30.12.41.38
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 30 Sep 2015 12:41:38 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::22b as permitted sender) client-ip=2607:f8b0:4001:c06::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-io0-domain.com with SMTP id h134so60567176iof.0;
+        Wed, 30 Sep 2015 12:41:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Eryn Sepp <eryn.sepp@gmail.com>
+         :cc:content-type;
+        bh=UAwTkg9n3w4/XcVz7lWcwE4Gqa38lDNUl4MZUgu5Qf4=;
+        b=U+4HsJVdUypmdf1nFLFwNUWS4iP4pYlEztYchcVOWgVNGTvAqMxSTEf5lwsYxxEwKE
+         ib23xY6zaYPfWafY7XhG+iZ9TYvjaTnZLyB+MhjnWiwsJMBbFO2fQaW1QOe7BA3xPH42
+         Hbwt8NTDYBHg6199vvzU3Yc2DDF6VaZvSQ3LtM0kEBQsKnf6+YPgoDREObqRAvvpOqMN
+         hnGuKUhryNbRkyj0Yd5YyKO/md78PE/sqgRG/Y7Ay30kHcAzBibE4XlptfbOvA5CpoyD
+         O9FYHq3FYxHbG7xGtR8762k6lFiDxxEaPTSVg/tKdef9+WYf00uM6n0+EvxHkQboDojV
+         bI0A
+MIME-Version: 1.0
+X-Received: by 10.107.164.38 with SMTP id n38mr6785896ioe.66.1443642098245;
+ Wed, 30 Sep 2015 12:41:38 -0700 (PDT)
+Received: by 10.107.139.10 with HTTP; Wed, 30 Sep 2015 12:41:38 -0700 (PDT)
+In-Reply-To: <CAKM1B-_V9wYSCEmZiQPAoegvwntaneby55YzRy9Rq+user@domain.com>
+References: <CAKM1B-_V9wYSCEmZiQPAoegvwntaneby55YzRy9Rq+user@domain.com>
+Date: Wed, 30 Sep 2015 15:41:38 -0400
+Message-ID: <user@domain.com>
+Subject: Re: Jane's out / Vivek?
+From: Eryn Sepp <eryn.sepp@gmail.com>
+To: John user <user@domain.com>
+CC: Milia Fisher <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1142263272e56c0520fc1e8b
+
++ Milia so she can tell Vivek either way.  I haven't told him one way or
+the other yet, nor added him to the distro.  But what rotten luck with this
+weather.  Sigh.
+

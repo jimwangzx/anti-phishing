@@ -1,0 +1,220 @@
+Delivered-To: jasonburn2013@gmail.com
+Received: by 2002:a50:b7c3:0:0:0:0:0 with SMTP id i3csp6523780ede;
+        Wed, 27 Mar 2019 02:18:21 -0700 (PDT)
+X-Google-Smtp-Source: APXvYqwMsD8xrcOXnY9n7Cc5F9aHy5kAIgv4ZaznFNXHlK89ckYYGxOOUWkSun3AYYbfzyR1QLj5
+X-Received: by 2002:aa7:d3cc:: with SMTP id o12mr22450990edr.115.1553678301023;
+        Wed, 27 Mar 2019 02:18:21 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1553678301; cv=none;
+        d=google.com; s=arc-20160816;
+        b=AYUuQkSMpvI2BKqwPjDJtBayJzrNonVacmZVonYX+qlutYEJE4BbBI+dpJbtY0IM3J
+         Uxx2unYn1KymN2+g8kjLMDQIXpmTklQj1DG697PTpmls56AHTMGblXR/iKXg1gUp5t/7
+         8ENyu3QbSn8G85QguPr/WXSai86z7hjYb8OFLr3U4Hshc1ElINAsffLsIBo9A9rPN3bE
+         Rd0/VEB7jQrZ3yRYy8HGeRppO5khl238a21/wLoNxrIHAPUn13aNcKKVuDf7wp1yI2L6
+         CI36IFucg31FL1g7k6pIMj8s9hyi2aocJSR6xcdErjSragExJ3gAuRYqDpF5NzNBM3gI
+         019A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:in-reply-to:message-id:to:from:date
+         :dkim-signature:dkim-signature;
+        bh=QJKZDlwVcq1WV2+BUG+dABXJ5/N0sMA4owPlTV4OlZg=;
+        b=KBQaZYdO/b+F+9ONcXNyehyS+Q7uHKgzoBzxs5OyJBsNqz0H40Jh659ihbkHYS+fwi
+         Qu04CyQCxaPnlB3VDVXbusahJkI4p2UXHLPznCGi0dFNITVYrXx0RB4TktTqvzFd8B6+
+         FV5boeNI3r6ZTRq7FiDgpKkeYZ1QuwM8tXRYWPoi1eE+RNdchRkmcVhKT0Usz49xp2Qw
+         5gPhtZT8jHCdcOQGNXhuFOHN8+Ug0ZpqHohLQc7GvMOTm89DeTwHryY4GlxyCZxDvMdT
+         jMnQiht7OFTJqgckvWdi894YeWKkwA1JnqreTty0teY1Ifk0p5AOU14IYqOLstbE7SdX
+         irjw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mailbox.org header.s=mail20150812 header.b=eUC6kf1O;
+       dkim=pass header.i=@mailbox.org header.s=mail20150812 header.b=WPEK53ec;
+       spf=pass (google.com: domain of dennisalbrecht@mailbox.org designates 80.241.60.212 as permitted sender) smtp.mailfrom=dennisalbrecht@mailbox.org;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=mailbox.org
+Return-Path: <dennisalbrecht@mailbox.org>
+Received: from mx1.mailbox.org (mx1.mailbox.org. [80.241.60.212])
+        by mx.google.com with ESMTPS id w16si4872282eje.64.2019.03.27.02.18.20
+        for <jasonburn2013@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-CHACHA20-POLY1305 bits=256/256);
+        Wed, 27 Mar 2019 02:18:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of dennisalbrecht@mailbox.org designates 80.241.60.212 as permitted sender) client-ip=80.241.60.212;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mailbox.org header.s=mail20150812 header.b=eUC6kf1O;
+       dkim=pass header.i=@mailbox.org header.s=mail20150812 header.b=WPEK53ec;
+       spf=pass (google.com: domain of dennisalbrecht@mailbox.org designates 80.241.60.212 as permitted sender) smtp.mailfrom=dennisalbrecht@mailbox.org;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=mailbox.org
+Received: from smtp2.mailbox.org (smtp2.mailbox.org [IPv6:2001:67c:2050:105:465:1:2:0])
+	(using TLSv1.2 with cipher ECDHE-RSA-CHACHA20-POLY1305 (256/256 bits))
+	(No client certificate requested)
+	by mx1.mailbox.org (Postfix) with ESMTPS id 8961D4BBB5
+	for <jasonburn2013@gmail.com>; Wed, 27 Mar 2019 10:18:20 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mailbox.org; h=
+	content-type:content-type:mime-version:subject:subject
+	:in-reply-to:message-id:from:from:date:date:received; s=
+	mail20150812; t=1553678290; bh=CzLKHR/xP1j209zyoN8sjUY4sFxKWibV6
+	kL98Erpkp8=; b=eUC6kf1OFG455NZkDVBWP8rQMtU18n77nUETgPpp7UlfN8y/c
+	+H9LhFhjaaaNvONaz7g/MCpqNaYUAT/t4g4IvvY2k4OuB3h9mDnyCM5WexA3Cdxf
+	y3NVO0xEdPTPxOWijnrzPPCeoNCRmECPhxsMPVBVxvKibMz5qOLyTWniFyKjykgO
+	nwxOkz4xlFmbZhpWxFRZbnUZPIi2NKhVqBSrDfDv32f3KVtlhlLyb0SBZXVKMSPs
+	7YSA7nXvu4J3raTfIgZT9G70/0554J1ZnGHSGcRVHAuhTa7g10Na9daeO9vLDrDu
+	+xpD0cw5krp9yzv/PkQDszZa1nOvAf80wONxw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mailbox.org; s=mail20150812;
+	t=1553678298; h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:
+	 in-reply-to:in-reply-to:references;
+	bh=QJKZDlwVcq1WV2+BUG+dABXJ5/N0sMA4owPlTV4OlZg=;
+	b=WPEK53ecDq4ln+h8gCVmMN9y1okMCOXikapw737xKDBmhEV2hMJua7FgQEePz6PAdCCcLP
+	ukMR9M7+ZRvSu/fvmNAAdoaRR8t/W28NDr/navs4jsqSbmnO7p6N90sgwNKNS5Crf78gZQ
+	pVl4CWEBmLL0/j3K7bz7Xzas2f43s3UGH2c9MNi+JYY5fkBVqV2y+bhpeGh3BqOKFj6yQl
+	SY5mudJoRhyqHDOJD2sqJkpELrrE7R1aYpeJ4q2zNSLUc/ZnlqIDYUpqscfrb3RtwdSXU7
+	nwTAPkgsQWYKwIoq0PmysGVKwhGJqsIV3e+WsJZzjeqsQz/jv/nX1FDu+uEEvQ==
+X-Virus-Scanned: amavisd-new at heinlein-support.de
+Received: from smtp2.mailbox.org ([80.241.60.241])
+	by spamfilter03.heinlein-hosting.de (spamfilter03.heinlein-hosting.de [80.241.56.117]) (amavisd-new, port 10030)
+	with ESMTP id eXwu-RH3mTvj for <jasonburn2013@gmail.com>;
+	Wed, 27 Mar 2019 10:18:10 +0100 (CET)
+Date: Wed, 27 Mar 2019 10:18:09 +0100
+From: Dennis Albrecht <dennisalbrecht@mailbox.org>
+To: Jasonburn2013 <jasonburn2013@gmail.com>
+Message-ID: <9d3e8c3d-6a3e-4dc3-b957-f613a69e18cc@Dennis>
+In-Reply-To: <20190308101001.C9ED8102589@mail.computerbase.de>
+Subject: Fwd: ComputerBase Downloads: Nvidia PhysX System Software
+ 9.19.0218 (Deutsch)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="5c9b3fd1_6b8b4567_1fb"
+
+--5c9b3fd1_6b8b4567_1fb
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+     =20
+ =20
+
+ Hi Support,
+ =20
+
+ =20
+This is the email which I have problems with.
+ =20
+It is for support ticket   =23125984 (https://mailsupport.edison.tech/hc/=
+requests/125984).
+ =20
+ =20
+ =20
+ =20
+ =20
+
+--
+ Best regards  =20
+ Dennis Albrecht
+
+ =20
+ =20
+ =20
+ =20
+ =20
+
+ =20
+ Begin forwarded message:
+ =20
+ =20
+>  =20
+> =46rom:  ComputerBase Downloads  <downloads=40computerbase.de (mailto:d=
+ownloads=40computerbase.de)>
+>   Date:  Mar 8, 2019 at 11:10 AM
+>   To:  PoooMukkel  <pooomukkel=40mailbox.org (mailto:pooomukkel=40mailb=
+ox.org)>
+>   Subject: ComputerBase Downloads: Nvidia PhysX System Software 9.19.02=
+18 (Deutsch)
+>  =20
+>  =20
+>  =20
+>  =20
+>  Hallo PoooMukkel,
+>
+> Nvidia PhysX System Software 9.19.0218 (Deutsch) f=C3=BCr Windows steht=
+ auf
+> ComputerBase zum Download bereit.
+>
+> https://www.computerbase.de/downloads/treiber/grafikkarten/nvidia-physx=
+-system-software/
+>
+> Das ComputerBase-Team
+>
+> -- =20
+> ComputerBase GmbH
+> https://www.computerbase.de
+> Germaniastra=C3=9Fe 18-20, 12099 Berlin
+>
+> E-Mail: gf=40computerbase.de
+> Telefon: +49 30 25749576
+> Telefax: +49 30 67952514
+>
+> Gesch=C3=A4ftsf=C3=BChrer: =46rank H=C3=BCber, Jan-=46rederik Timm, Ste=
+ffen Weber
+> Handelsregister: Amtsgericht Berlin-Charlottenburg, HRB 117937B
+> Umsatzsteuer-ID: DE264335245
+>
+> Inhaltlich Verantwortliche gem=C3=A4=C3=9F =C2=A7 10 Absatz 3 MDStV:
+> =46rank H=C3=BCber  &  Jan-=46rederik Timm
+>
+> Hinweis: Du erh=C3=A4ltst diese E-Mail, weil du die E-Mail-Benachrichti=
+gung f=C3=BCr
+> Nvidia PhysX System Software auf ComputerBase aktiviert hast.
+>
+> =C3=9Cbersicht deiner E-Mail-Benachrichtigungen:
+> https://www.computerbase.de/newsletter/
+>
+> Abmelden von der E-Mail-Benachrichtigung f=C3=BCr Nvidia PhysX System S=
+oftware:
+> https://www.computerbase.de/newsletter/=3Fabmelden=3D6002-dl514-1552039=
+801-9f66bf8e203635eadb77747da7b52ff1b4f0c98a9ebf699817649cd1d71dc124
+>
+>              
+--5c9b3fd1_6b8b4567_1fb
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<html><body><div id=3D=22edo-message=22><div></div>Hi Support,</div><div =
+id=3D=22edo-message=22><br></div><div id=3D=22edo-message=22>This is the =
+email which I have problems with.</div><div id=3D=22edo-message=22>It is =
+for support ticket&nbsp;<font color=3D=22=23000000=22 style=3D=22word-wra=
+p: break-word; caret-color: rgb(0, 0, 0); background-color: rgba(255, 255=
+, 255, 0);=22><a href=3D=22https://mailsupport.edison.tech/hc/requests/12=
+5984=22 rel=3D=22ticket=22 style=3D=22word-wrap: break-word; caret-color:=
+ rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0);=22>=23125984</a>=
+.</font></div><div id=3D=22edo-meta=22><style hint=3D=22edo=22>=23edo-sig=
+nature img =7Bmax-width: 90%=7D</style><div id=3D=22edo-signature=22 styl=
+e=3D=22font-family: sans-serif, 'Helvetica Neue', Helvetica, Arial;font:'=
+-apple-system-body';=22><br>
+  =20
+  <div class=3D=22io-ox-signature=22>
+   <p class=3D=22default-style=22>--<br>Best regards&nbsp;<br>Dennis Albr=
+echt</p></div></div></div><div id=3D=22edo-original=22><div><br><br>Begin=
+ forwarded message:<br><br><blockquote type=3D=22cite=22 style=3D=22margi=
+n:1ex 0 0 0;border-left:1px =23ccc solid;padding-left:0.5ex;=22><div><b>=46=
+rom: </b>ComputerBase Downloads &lt;<a href=3D=22mailto:downloads=40compu=
+terbase.de=22>downloads=40computerbase.de</a>&gt;<br><b>Date: </b>Mar 8, =
+2019 at 11:10 AM<br><b>To: </b>PoooMukkel &lt;<a href=3D=22mailto:pooomuk=
+kel=40mailbox.org=22>pooomukkel=40mailbox.org</a>&gt;<br><b>Subject: Comp=
+uterBase Downloads: Nvidia PhysX System Software 9.19.0218 (Deutsch)</b><=
+br><br></div><div><pre>     <br> Hallo PoooMukkel,<br><br>Nvidia PhysX Sy=
+stem Software 9.19.0218 (Deutsch) f=C3=BCr Windows steht auf<br>ComputerB=
+ase zum Download bereit.<br><br>https://www.computerbase.de/downloads/tre=
+iber/grafikkarten/nvidia-physx-system-software/<br><br>Das ComputerBase-T=
+eam<br><br>-- <br>ComputerBase GmbH<br>https://www.computerbase.de<br>Ger=
+maniastra=C3=9Fe 18-20, 12099 Berlin<br><br>E-Mail: gf=40computerbase.de<=
+br>Telefon: +49 30 25749576<br>Telefax: +49 30 67952514<br><br>Gesch=C3=A4=
+ftsf=C3=BChrer: =46rank H=C3=BCber, Jan-=46rederik Timm, Steffen Weber<br=
+>Handelsregister: Amtsgericht Berlin-Charlottenburg, HRB 117937B<br>Umsat=
+zsteuer-ID: DE264335245<br><br>Inhaltlich Verantwortliche gem=C3=A4=C3=9F=
+ =C2=A7 10 Absatz 3 MDStV:<br>=46rank H=C3=BCber  &amp;  Jan-=46rederik T=
+imm<br><br>Hinweis: Du erh=C3=A4ltst diese E-Mail, weil du die E-Mail-Ben=
+achrichtigung f=C3=BCr<br>Nvidia PhysX System Software auf ComputerBase a=
+ktiviert hast.<br><br>=C3=9Cbersicht deiner E-Mail-Benachrichtigungen:<br=
+>https://www.computerbase.de/newsletter/<br><br>Abmelden von der E-Mail-B=
+enachrichtigung f=C3=BCr Nvidia PhysX System Software:<br>https://www.com=
+puterbase.de/newsletter/=3Fabmelden=3D6002-dl514-1552039801-9f66bf8e20363=
+5eadb77747da7b52ff1b4f0c98a9ebf699817649cd1d71dc124<br><br>       </pre><=
+/div></blockquote></div></div></body></html>
+--5c9b3fd1_6b8b4567_1fb--
+

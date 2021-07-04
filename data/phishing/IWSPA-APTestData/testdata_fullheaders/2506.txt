@@ -1,0 +1,57 @@
+Delivered-To: user@domain.com
+Received: by 10.140.18.137 with SMTP id 9csp81628qgf;
+        Sun, 16 Feb 2015 14:26:09 -0800 (PST)
+X-Received: by 10.68.93.132 with SMTP id cu4mr22560328pbb.129.1392589568122;
+        Sun, 16 Feb 2015 14:26:08 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-pd0-domain.com (mail-pd0-domain.com [2607:f8b0:400e:c02::232])
+        by domain.com with ESMTPS id b4si12684020pbe.148.2014.02.16.14.26.06
+        for 
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 16 Feb 2015 14:26:08 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c02::232 as permitted sender) client-ip=2607:f8b0:400e:c02::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c02::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-pd0-domain.com with SMTP id fp1so5435212pdb.9
+        for ; Sun, 16 Feb 2015 14:26:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=subject:references:From: Gabe user <guser@gmail.com>
+         :content-transfer-encoding:mime-version;
+        bh=RiHv4Gn8aXJI2coGOvInugg7HygU8ygIfxTTs3idlt8=;
+        b=oeY/g3rEcnphXhNlJgTMskZoCYYtUEmv/q10b65JLT61vz1NZeFxiWDBhXKzcIQ2in
+         J+HpFRkB39Lyux68UD9v6YcJd8nNuLCUlYqe3xrqEt4806p07LYVKjJvrbBb/XQr/sJg
+         BJp2YvsGP+F2xLfUEdxIGG6WDH2h67R4OXw2i23bAbF3EUTVdx2pPdroVKJ0p6Tw+yJV
+         90SlFe7QsqO+23uDyb5o9o7Xsu4Bc63Lgoob7k9VAS/jgYKf0S0f91EKtrCDnX903KhB
+         mOyE3vLQvgo0mFtv9F0wBUGN8sMK8b62J0AqvSCevjxNnOpUOV5vQUl0XNx5V6ZoW70U
+         bYsQ
+X-Received: by 10.66.4.130 with SMTP id k2mr22399477pak.97.1392589566506;
+        Sun, 16 Feb 2015 14:26:06 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [10.184.241.27] (214.sub-70-197-9.domain.com. [70.197.9.214])
+        by domain.com with ESMTPSA id qs1sm39130994pbb.18.2014.02.16.14.26.05
+        for 
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 16 Feb 2015 14:26:05 -0800 (PST)
+Subject: Re: Worst Travel Day Ever?
+References: <user@domain.com>
+From: Gabe user <guser@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+X-Mailer: iPhone Mail (11B554a)
+In-Reply-To: <user@domain.com>
+Message-Id: <74user@domain.com>
+Date: Sun, 16 Feb 2015 14:26:04 -0800
+To: John user <user@domain.com>, Mary user <user@domain.com>, 
+ Mae user <user@domain.com>, Megan Rouse <user@domain.com>
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+
+I jinxed it. My flight is now cancelled. Won't get in until 130 tomorrow.=20
+
+Silver lining is that I get to spend a night in Dublin!
+
+Sent from my iPhone
+

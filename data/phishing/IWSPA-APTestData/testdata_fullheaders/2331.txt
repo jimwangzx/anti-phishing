@@ -1,0 +1,39 @@
+Delivered-To: user@domain.com
+Received: by 10.140.49.99 with SMTP id p90csp62380qga;
+        Sun, 16 Mar 2015 13:31:10 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.236.127.68 as permitted sender) client-ip=10.236.127.68
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 10.236.127.68 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+X-Received: from domain.com ([10.236.127.68])
+        by 10.236.127.68 with SMTP id c44mr2521738yhi.1.1395001869623 (num_hops = 1);
+        Sun, 16 Mar 2015 13:31:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Megan Rouse <meganrouse@gmail.com>
+        bh=iDIbjVQXqmre87Unew/N921K8VbNB7oNERHU2/SUYyI=;
+        b=dzyZXsovdJDtaMXbmHFPtsT28beDcIgW1Iu/epRMe4Kj4pAkv0wEtAkBjlE02JGRja
+         OP0eMHx1LMsBcVBFs8Su0rrUcvI3S7ugrL/H6zfaz+eYGNCkwCMUdhJguwk0kywZg+cv
+         8Vn8jdRLjRj/J9sWjVETSntXF2dZ0ZuAkhAzYGZNJBbB3Y8LofPXnxYnnyEIwaXzFHy5
+         tW1mpCEp14qOxrGG0NRAP8FeH2aAIa/x3KVu1Qrwm/Nofrag+eP+yrkfkf5rbdFInd7b
+         pNk93WM+IR0LwzyWVozK2ncOmhNSSFM1nT9x+l7Lf5Xz3iWv7jviRa7dgqRDDZqHuaqY
+         FpSQ
+MIME-Version: 1.0
+X-Received: by 10.236.127.68 with SMTP id c44mr2521738yhi.1.1395001869618;
+ Sun, 16 Mar 2015 13:31:09 -0700 (PDT)
+Received: by 10.170.171.130 with HTTP; Sun, 16 Mar 2015 13:31:09 -0700 (PDT)
+Date: Sun, 16 Mar 2015 13:31:09 -0700
+Message-ID: <CAAVDwM+user@domain.com>
+Subject: race results
+From: Megan Rouse <meganrouse@gmail.com>
+To: Mom <user@domain.com>, John user <user@domain.com>, 
+ Gabe <user@domain.com>, Mae user <user@domain.com>, 
+ Gordon Rouse <user@domain.com>
+Content-Type: multipart/alternative; boundary=20cf300fadf5e6535504f4bf2e51
+
+I ran my first timed 5k today.  36:03.  My goal was under 40 so I am happy.
+
+That puts me 91st in my age group (out of 255)
+417th of all females (out of 1,0130)
+and 864th overall (out of 1,771)

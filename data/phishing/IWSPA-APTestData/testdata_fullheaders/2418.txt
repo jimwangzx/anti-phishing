@@ -1,0 +1,181 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs28526wfw;
+        Tue, 14 Oct 2015 08:16:35 -0700 (PDT)
+Received: by 10.142.12.14 with SMTP id 14mr3466125wfl.182.1223997395385;
+        Tue, 14 Oct 2015 08:16:35 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.60])
+        by domain.com with ESMTP id 4si16299492yxj.7.2008.10.14.08.16.34;
+        Tue, 14 Oct 2015 08:16:34 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.60 as permitted sender) client-ip=209.85.217.60;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.217.60 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 20so7838579gxk.9
+        for <user@domain.com>; Tue, 14 Oct 2015 08:16:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :dkim-signature:domainkey-signature:received:received:message-id
+         :date:From: "Ivan Frishberg" <ivanfrishberg@gmail.com>
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=lQOpVLH4nlnHVp9vdLQlBJPj//jSM6BCz1m4eQ9qeZk=;
+        b=gppRAy5jBQup+w2KjObybKbsb46blzuXU/D8fayc6WPphoLwz33tJYT+EeoQIKr/EF
+         EfStVUaV8LotD0ozCPmeXeJbQraDOv1yWGTdjXp2J1MphRAu57h2JYPuU/WTe8kjpaEg
+         jjOJUY5qdqa0ZjCxAG5bz/pFFinNaWPxgurZ0
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :dkim-signature:domainkey-signature:message-id:date:From: "Ivan Frishberg" <ivanfrishberg@gmail.com>
+         :mime-version:content-type:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=a50VokE674Sm4JwoZtIUvWDLZPxJO4K/sck+OwwhMQcS0Tt/ZgOqleGAGkeIEWsH6I
+         NtbqfQbboOfoJGH3VRaMKbEZprjVNX3oVKR+c0ktmhoXUN5LqsHwvo9JHZ9nE8l4xDCv
+         U2+6JTCjDDd6yKZvsRAQPNqyoFEnNSSj8Hyrk
+Received: by 10.151.12.4 with SMTP id p4mr262188ybi.0.1223997385059;
+        Tue, 14 Oct 2015 08:16:25 -0700 (PDT)
+Received: by 10.106.25.23 with SMTP id 23gr2390pry.0;
+	Tue, 14 Oct 2015 08:16:14 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.114.196.13 with SMTP id t13mr1104446waf.16.1223997374084; Tue, 14 Oct 2015 08:16:14 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from qw-out-1920.domain.com (qw-out-1920.domain.com [74.125.92.144]) by domain.com with ESMTP id k19si5813128waf.2.2008.10.14.08.16.12; Tue, 14 Oct 2015 08:16:13 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.92.144 as permitted sender) client-ip=74.125.92.144;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.92.144 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by qw-out-1920.domain.com with SMTP id 5so689639qwc.12 for <user@domain.com>; Tue, 14 Oct 2015 08:16:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:received:received:message-id:date:From: "Ivan Frishberg" <ivanfrishberg@gmail.com>
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=message-id:date:From: "Ivan Frishberg" <ivanfrishberg@gmail.com>
+Received: by 10.214.149.7 with SMTP id w7mr6687107qad.19.1223997372372; Tue, 14 Oct 2015 08:16:12 -0700 (PDT)
+Received: by 10.214.11.19 with HTTP; Tue, 14 Oct 2015 08:16:12 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Tue, 14 Oct 2015 11:16:12 -0400
+From: "Ivan Frishberg" <ivanfrishberg@gmail.com>
+To: user@domain.com
+Subject: [big campaign] McCain proposes $280 in taxpayer support for nukes.
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_8344_8259688.1223997372374"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+ *Environment America
+released<<<link>>
+tion-2008/senator-mccains-nuclear-plan-an-economic-and-environmental-disast
+er>an
+analysis of McCain's McNuke plan today.  The cost to tax payers is as
+much as $280B in what we are calling the mother of all sub-prime loans.
+
+Enjoy,
+
+Ivan
+
+For Immediate Release:*
+10/14/2008
+ *
+
+For More Information:*
+Ivan Frishberg, 202-683-1250
+Jen Mueller, 202-683-1250
+  Senator McCain's Nuclear Plan: An Economic and Environmental Disaster
+
+Washington, DC =96 Sen. John McCain's plan to build up to a 100 new nuclear
+reactors could cost taxpayers an estimated $280 billion and presents a
+significant risk for the economy and the public, while doing little to solv
+e
+America's energy problems, according to a new report by Environment
+America<<<link>>
+ection-2008-reports/john-mccain-nuclear-plans>
+.
+
+"America needs a new direction on energy, but Sen. McCain's plan would be
+serious setback to our economy and to prospects for clean energy," said Ann
+a
+Aurilio, of Environment America. "These 'McNukes' would super-size our tax
+bills, our energy bills and our nuclear waste problems," she added.
+
+Since private investors have been unwilling to finance new nuclear power
+plants, the industry has been applying to the federal government for
+taxpayer-backed loans. The Congressional Budget Office assumes that these
+loans are so risky at least 50 percent would default. Environment America
+estimates that taxpayers could be on the hook for $126 billion to $280
+billion in failed nuclear loans.
+
+"As the country struggles with an economic meltdown, it's astonishing that
+Sen. McCain is proposing massive subprime loans to the nuclear industry,"
+said Aurilio. "We've all seen what happens when Wall Street takes foolish
+risks, now Sen. McCain's plan asks taxpayers to foot the bill for building
+new nuclear plants that even Wall Street has refused to pay for," she added
+.
+
+Sen. McCain has repeatedly called for building 45 new nuclear reactors
+before 2015 with an ultimate goal of building 100 new plants. Environment
+America's report shows:
+
+*A $280 Billion Cost to Taxpayers*: Nuclear plants are enormously expensive
+.
+The cost of 45 reactors is likely to be at least $315 billion, while 100
+reactors would cost at least $700 billion. Under Sen. McCain's plan,
+taxpayers are estimated to be on the hook for $126-280 billion in failed
+nuclear loans, with the average American household paying $1,100 to more
+than $2,400 for failed nuclear loans.
+
+*A Job Creation Fantasy*: New nuclear power plants would create, at best,
+one- fourth as many jobs as Sen. McCain claimed during the second
+presidential debate, costing taxpayers as much as $19 million for each
+permanent job created.
+
+*Failure to Take Advantage of Cleaner, Cheaper Alternatives*:
+Clean energy technologies like energy efficient products, super-efficient
+buildings and wind and solar power can deliver environmental results and
+meet more of our energy needs much sooner than building new nuclear power
+plants, and create more jobs at a lower cost to taxpayers=97without the
+collateral environmental and security risks.
+
+ Environment America estimates that Sen. McCain's plan would create enough
+highly radioactive waste to fill a second Yucca Mountain-sized dump and
+dramatically increase the amount of nuclear waste transported on our roads
+and rails. The report also concludes that the plan would do nothing to deal
+with our current energy crisis since no new power would be generated until
+at least 2019.
+
+"Sen. McCain is so vehement about building these nuclear plants that he has
+turned a deaf ear to what we just learned about risky loans and how much
+they can hurt tax payers," said Aurilio. "This is especially alarming given
+Sen. McCain's consistent failure to support the kinds of clean energy
+investments that can strengthen our economy and save us money," she
+concluded.
+
+The report, "Sen. McCain's Nuclear Plan: An Economic and Environmental
+Disaster," can be found
+here<<<link>>
+ion-2008-reports/john-mccain-nuclear-plans>
+.
+
+Paid for by Environment America, domain.com. Not authorized
+by any candidate or candidate's committee.
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

@@ -1,0 +1,42 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.98 with SMTP id o95csp47918lfi;
+        Wed, 18 Mar 2015 15:36:13 -0700 (PDT)
+X-Received: by 10.42.77.4 with SMTP id g4mr96852314ick.17.1426718171473;
+        Wed, 18 Mar 2015 15:36:11 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ie0-domain.com (mail-ie0-domain.com. [2607:f8b0:4001:c03::236])
+        by domain.com with ESMTPS id h5si2594307igt.30.2015.03.18.15.36.10
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 18 Mar 2015 15:36:11 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::236 as permitted sender) client-ip=2607:f8b0:4001:c03::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ie0-domain.com with SMTP id lw3so43762239iec.2
+        for <user@domain.com>; Wed, 18 Mar 2015 15:36:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Jennifer Palmieri <jennifer.m.palmieri@gmail.com>
+        bh=i46lgwX2RFNOtrvQPj4domSaWDaZV1DKqEEWiHXIQ9U=;
+        b=gPYQp71dHenVYMwd/JLo1bvU6vVRJOeYm2iyB7noBx+EEmfxjP9sRvzNyFAxfG9N1B
+         YjS4PrFXRCvouTWJE+CuN10Uc9PY/VTX3ScofBTH57XmQ8fLgKRsADTmaTVggEKaoZle
+         reL5dVWpNF4ObGdNfJrp+MT9DohT2dp3kRGaxtJ5GfOkX7Z+7WAXWWu7TibyfiPEGGHt
+         zOnRxztqHCqU/OEhMOxXkqCicONDaT72uLgvLuebP26FeMsuXqvevLSo2nVbF64eSnaK
+         UAd85tj5J7PPl0ZmCuo3N0EdIPP27XDUyqGV98x7z3lpHo8bVwDgyKh4Cc5QdINZ2lNn
+         7fVw
+MIME-Version: 1.0
+X-Received: by 10.50.118.97 with SMTP id kl1mr11167893igb.23.1426718170781;
+ Wed, 18 Mar 2015 15:36:10 -0700 (PDT)
+Received: by 10.50.223.146 with HTTP; Wed, 18 Mar 2015 15:36:10 -0700 (PDT)
+Date: Wed, 18 Mar 2015 18:36:10 -0400
+Message-ID: <CAJNDScEUOZ76kRPyeLt8jd7TmR1yHoz4RzRy+user@domain.com>
+Subject: rapid response process
+From: Jennifer Palmieri <jennifer.m.palmieri@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e013a1118c3a5a9051197b5d0
+
+So - do you think that we should try to meet with Philippe before I leave
+for NYC?   I could do that tomorrow or Friday but assume that you will be
+in NYC on Friday?

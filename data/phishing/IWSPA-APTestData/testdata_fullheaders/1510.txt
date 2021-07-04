@@ -1,0 +1,87 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.197 with SMTP id y188csp24846lfc;
+        Sat, 31 Oct 2015 12:18:51 -0700 (PDT)
+X-Received: by 10.55.72.70 with SMTP id v67mr18710761qka.83.1446319131082;
+        Sat, 31 Oct 2015 12:18:51 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-dock-front-14.domain.com (mta-dock-front-14.domain.com. [66.151.230.133])
+        by domain.com with ESMTPS id f7si11454017qka.44.2015.10.31.12.18.50
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 31 Oct 2015 12:18:51 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.151.230.133 as permitted sender) client-ip=66.151.230.133;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 66.151.230.133 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (unknown [10.0.200.157])
+	by mta-dock-front-14.domain.com (Postfix) with ESMTP id 3np9KQ4Lhxz1Q661
+	for <user@domain.com>; Sat, 31 Oct 2015 19:18:50 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=barackobama.com;
+	s=ofakey; t=1446319130;
+	bh=N1ROKQKTYNnXzZZf/8Xn1cIrhbibQjH0hux6ImmRWhw=;
+	h=Date:To:From: "Jack Shapiro, BarackObama.com" <info@barackobama.com>
+	b=bDtLohyccan9QQ8GUlp1r6ADcPHjpVq8AtKBOtpQGsK4FUW12Up0lYQaZwTFp42aA
+	 ohH19P4usrnPU63k+ReKIA7VGAMXcUlOtnWjRtkeRfFGjcFtxKeBKO3fSfPRDncnWv
+	 8pv8QTnFd7aWNl+yRsK300ZEBBxqHEVuLfUgGRtI
+Received: from phpmailer 
+	by domain.com with local (PHPMailer);
+	Sat, 31 Oct 2015 15:18:50 -0400
+Date: Sat, 31 Oct 2015 15:18:50 -0400
+To: John user <user@domain.com>
+From: "Jack Shapiro, BarackObama.com" <info@barackobama.com>
+Reply-to: user@domain.com
+Subject: TODAY: A big deadline
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 16efec8322ad854e
+X-rpcampaign: rp_121650
+X-maillist-guid: CgdXWAJtVwIAVVVWCVYBUwJdCAcAUmxZDVFcTUZbUQEWEVd1BAkHXQkdU1pcbAdVVw4G
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_d37ef426799f5fecd22faa079986443c"
+
+John --
+
+The Obamacare marketplace opens tomorrow, November 1st --
+and we need your help.
+
+More than 15 million Americans have found quality,
+affordable health insurance since the marketplace opened two
+years ago. That's pretty exciting news, but millions more
+are still uninsured.
+
+For the next three months, we're going to be working hard to
+make sure that every American who needs coverage has the
+information they need to get it. Chip in today, and help
+support that work:
+
+<<link>>
+
+Thank you,
+
+Jack
+
+Jack Shapiro
+Director of Policy and Campaigns
+Organizing for Action
+
+P.S. Chipping in goes a long way towards getting more
+people covered, improving real lives. This work matters --
+be a part of it:
+
+<<link>>
+
+---------------------------------------------------------------------
+Paid for by Organizing for Action
+
+Contributions or gifts to Organizing for Action are not tax deductible.
+
+This email was sent to: user@domain.com
+To update your address, go to: 
+<<link>>
+To unsubscribe from these messages, go to: 
+<<link>>
+Organizing for Action, P.O. Box 618120 Chicago, IL 60661
+

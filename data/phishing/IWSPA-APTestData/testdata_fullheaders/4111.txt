@@ -1,0 +1,602 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP id 771F6536FC3
+	for <user@domain.com>; Thu, 14 Apr 2015 10:34:43 -0400 (EDT)
+Received: from example.comm (example.comm [10.1.2.34])
+	by domain.com (Postfix) with ESMTP id DC25185AF9A
+	for <user@domain.com>; Thu, 14 Apr 2015 10:34:33 -0400 (EDT)
+Received: (from user@domain.com)
+	by example.comm id JAA28891
+	for user@domain.com; Thu, 14 Apr 2015 09:04:59 -0400
+Received: from domain.com (domain.com [66.163.168.182])
+	by example.comm with SMTP id HAA28616
+	for <user@domain.com>; Thu, 14 Apr 2015 07:37:40 -0400
+Message-Id: <200504141137.user@domain.com>
+Received: from unknown (HELO newcastle23) (newcastle23@195.234.182.160 with login)
+  by domain.com with SMTP; 14 Apr 2015 02:37:26 -0000
+Reply-To: "User" <user@domain.com>
+From: "Amazon.com" <payments@amazon.com>
+To: <user@domain.com>
+Subject: Amazon Account Update Required
+Date: Thu, 14 Apr 2015 05:35:46 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1106
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 278
+
+
+
+
+Dear customer, 
+
+Greetings from Amazon Payments. This is a note to let you know that we
+are having difficulty verifying some of your domain.com card information.
+The institution that issued your domain.com card has not yet authorized
+its use.
+
+There is no reason to believe anything is amiss with your domain.com card.
+Errors such as this are usually the result of a small detail in the
+name, expiration date, or ZIP code information you submitted not
+matching the records at the domain.com card institution. We suggest that
+you contact the institution to verify your account information. 
+
+Once confirmed, please follow the link below to domain.com your domain.com
+card information. We recommend using the "Sign In "option
+ when prompted : click here 
+
+Thank you for selling at domain.com. 
+
+domain.com Customer Service
+<>
+
+NOTE: This message was sent to you by an automated e-mail system. 
+Please don't reply to it.
+
+From user@domain.com  Thu Apr 14 21:13:08 2015 
+Return-Path: 
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP id D65BF5370BB
+	for ; Thu, 14 Apr 2015 21:13:08 -0400 (EDT)
+Received: from example.comm (example.comm [10.1.2.34])
+	by domain.com (Postfix) with ESMTP id 854C685ACA9
+	for ; Thu, 14 Apr 2015 21:13:01 -0400 (EDT)
+Received: (from user@domain.com)
+	by example.comm id UAA00704
+	for user@domain.com; Thu, 14 Apr 2015 20:50:02 -0400
+Received: from domain.com (domain.com [66.163.168.182])
+	by example.comm with SMTP id UAA00513
+	for ; Thu, 14 Apr 2015 20:24:19 -0400
+Message-Id: <200504150024.user@domain.com>
+Received: from unknown (HELO newcastle23) (newcastle23@195.234.182.160 with login)
+  by domain.com with SMTP; 14 Apr 2015 02:37:26 -0000
+Reply-To: "User" 
+From: "Amazon.com" <payments@amazon.com>
+To: 
+Subject: Amazon Account Update Required
+Date: Thu, 14 Apr 2015 05:35:46 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1106
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 279
+
+
+
+
+Dear customer, 
+
+Greetings from Amazon Payments. This is a note to let you know that we
+are having difficulty verifying some of your domain.com card information.
+The institution that issued your domain.com card has not yet authorized
+its use.
+
+There is no reason to believe anything is amiss with your domain.com card.
+Errors such as this are usually the result of a small detail in the
+name, expiration date, or ZIP code information you submitted not
+matching the records at the domain.com card institution. We suggest that
+you contact the institution to verify your account information. 
+
+Once confirmed, please follow the link below to domain.com your domain.com
+card information. We recommend using the "Sign In "option
+ when prompted : click here 
+
+Thank you for selling at domain.com. 
+
+domain.com Customer Service
+<>
+
+NOTE: This message was sent to you by an automated e-mail system. 
+Please don't reply to it.
+
+From user@domain.com  Fri Apr 15 00:14:45 2015 
+Return-Path: 
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP id D0C805372BE
+	for ; Fri, 15 Apr 2015 00:14:43 -0400 (EDT)
+Received: from example.comm (example.comm [10.1.2.34])
+	by domain.com (Postfix) with ESMTP id 206AD85AD57
+	for ; Fri, 15 Apr 2015 00:14:19 -0400 (EDT)
+Received: (from user@domain.com)
+	by example.comm id XAA02019
+	for user@domain.com; Thu, 14 Apr 2015 23:56:10 -0400
+Received: from domain.com (domain.com [66.163.168.182])
+	by example.comm with SMTP id XAA01847
+	for ; Thu, 14 Apr 2015 23:37:37 -0400
+Message-Id: <200504150337.user@domain.com>
+Received: from unknown (HELO newcastle23) (newcastle23@195.234.182.160 with login)
+  by domain.com with SMTP; 14 Apr 2015 02:37:26 -0000
+Reply-To: "User" 
+From: "Amazon.com" <payments@amazon.com>
+To: 
+Subject: Amazon Account Update Required
+Date: Thu, 14 Apr 2015 05:35:46 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1106
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 280
+
+
+
+
+Dear customer, 
+
+Greetings from Amazon Payments. This is a note to let you know that we
+are having difficulty verifying some of your domain.com card information.
+The institution that issued your domain.com card has not yet authorized
+its use.
+
+There is no reason to believe anything is amiss with your domain.com card.
+Errors such as this are usually the result of a small detail in the
+name, expiration date, or ZIP code information you submitted not
+matching the records at the domain.com card institution. We suggest that
+you contact the institution to verify your account information. 
+
+Once confirmed, please follow the link below to domain.com your domain.com
+card information. We recommend using the "Sign In "option
+ when prompted : click here 
+
+Thank you for selling at domain.com. 
+
+domain.com Customer Service
+<>
+
+NOTE: This message was sent to you by an automated e-mail system. 
+Please don't reply to it.
+
+From user@domain.com  Fri Apr 15 01:07:50 2015 
+Return-Path: 
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP id 8F85D536E2E
+	for ; Fri, 15 Apr 2015 01:07:50 -0400 (EDT)
+Received: from example.comm (example.comm [10.1.2.34])
+	by domain.com (Postfix) with ESMTP id 7FCF785AAB2
+	for ; Fri, 15 Apr 2015 01:07:41 -0400 (EDT)
+Received: (from user@domain.com)
+	by example.comm id AAA02394
+	for user@domain.com; Fri, 15 Apr 2015 00:35:42 -0400
+Received: from domain.com (domain.com [66.163.170.74])
+	by example.comm with SMTP id AAA02114
+	for ; Fri, 15 Apr 2015 00:05:31 -0400
+Message-Id: <200504150405.user@domain.com>
+Received: from unknown (HELO user@domain.com) (user@domain.com@195.234.182.160 with login)
+  by domain.com with SMTP; 15 Apr 2015 04:05:24 -0000
+Reply-To: "User" 
+From: "Amazon.com" <payments@amazon.com>
+To: 
+Subject: Amazon Account Update Required
+Date: Fri, 15 Apr 2015 07:03:42 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1106
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 281
+
+ Dear customer, 
+
+Greetings from Amazon Payments. This is a note to let you know that we
+are having difficulty verifying some of your domain.com card information.
+The institution that issued your domain.com card has not yet authorized
+its use.
+
+There is no reason to believe anything is amiss with your domain.com card.
+Errors such as this are usually the result of a small detail in the
+name, expiration date, or ZIP code information you submitted not
+matching the records at the domain.com card institution. We suggest that
+you contact the institution to verify your account information. 
+
+Once confirmed, please follow the link below to domain.com your domain.com
+card information. We recommend using the "Enter new domain.com card"
+option when prompted : click here 
+
+Thank you for selling at domain.com. 
+
+domain.com
+  !
+Customer Service
+<>
+
+NOTE: This message was sent to you by an automated e-mail system. 
+Please don't reply to it.
+
+From user@domain.com  Fri Apr 15 01:23:02 2015 
+Return-Path: 
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP id F34F1536E67
+	for ; Fri, 15 Apr 2015 01:23:01 -0400 (EDT)
+Received: from example.comm (example.comm [10.1.2.34])
+	by domain.com (Postfix) with ESMTP id BF64985A9CB
+	for ; Fri, 15 Apr 2015 01:22:55 -0400 (EDT)
+Received: (from user@domain.com)
+	by example.comm id AAA02559
+	for user@domain.com; Fri, 15 Apr 2015 00:59:49 -0400
+Received: from domain.com (domain.com [66.163.170.74])
+	by example.comm with SMTP id AAA02284
+	for ; Fri, 15 Apr 2015 00:25:52 -0400
+Message-Id: <200504150425.user@domain.com>
+Received: from unknown (HELO user@domain.com) (user@domain.com@195.234.182.160 with login)
+  by domain.com with SMTP; 15 Apr 2015 04:05:24 -0000
+Reply-To: "User" 
+From: "Amazon.com" <payments@amazon.com>
+To: 
+Subject: Amazon Account Update Required
+Date: Fri, 15 Apr 2015 07:03:42 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1106
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 282
+
+ Dear customer, 
+
+Greetings from Amazon Payments. This is a note to let you know that we
+are having difficulty verifying some of your domain.com card information.
+The institution that issued your domain.com card has not yet authorized
+its use.
+
+There is no reason to believe anything is amiss with your domain.com card.
+Errors such as this are usually the result of a small detail in the
+name, expiration date, or ZIP code information you submitted not
+matching the records at the domain.com card institution. We suggest that
+you contact the institution to verify your account information. 
+
+Once confirmed, please follow the link below to domain.com your domain.com
+card information. We recommend using the "Enter new domain.com card"
+option when prompted : click here 
+
+Thank you for selling at domain.com. 
+
+domain.com
+  !
+Customer Service
+<>
+
+NOTE: This message was sent to you by an automated e-mail system. 
+Please don't reply to it.
+
+From user@domain.com  Fri Apr 15 03:10:17 2015 
+Return-Path: 
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP id D8A4C536E63
+	for ; Fri, 15 Apr 2015 03:10:16 -0400 (EDT)
+Received: from example.comm (example.comm [10.1.2.34])
+	by domain.com (Postfix) with ESMTP id BBC6285B0A7
+	for ; Fri, 15 Apr 2015 03:10:07 -0400 (EDT)
+Received: (from user@domain.com)
+	by example.comm id CAA03301
+	for user@domain.com; Fri, 15 Apr 2015 02:52:33 -0400
+Received: from domain.com (domain.com [66.163.170.74])
+	by example.comm with SMTP id CAA03150
+	for ; Fri, 15 Apr 2015 02:32:53 -0400
+Message-Id: <200504150632.user@domain.com>
+Received: from unknown (HELO user@domain.com) (user@domain.com@195.234.182.160 with login)
+  by domain.com with SMTP; 15 Apr 2015 04:05:24 -0000
+Reply-To: "User" 
+From: "Amazon.com" <payments@amazon.com>
+To: 
+Subject: Amazon Account Update Required
+Date: Fri, 15 Apr 2015 07:03:42 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1106
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 283
+
+ Dear customer, 
+
+Greetings from Amazon Payments. This is a note to let you know that we
+are having difficulty verifying some of your domain.com card information.
+The institution that issued your domain.com card has not yet authorized
+its use.
+
+There is no reason to believe anything is amiss with your domain.com card.
+Errors such as this are usually the result of a small detail in the
+name, expiration date, or ZIP code information you submitted not
+matching the records at the domain.com card institution. We suggest that
+you contact the institution to verify your account information. 
+
+Once confirmed, please follow the link below to domain.com your domain.com
+card information. We recommend using the "Enter new domain.com card"
+option when prompted : click here 
+
+Thank you for selling at domain.com. 
+
+domain.com
+  !
+Customer Service
+<>
+
+NOTE: This message was sent to you by an automated e-mail system. 
+Please don't reply to it.
+
+From user@domain.com  Sun Apr 17 23:30:25 2015 
+Return-Path: 
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP id 07B9E536ED9
+	for ; Sun, 17 Apr 2015 23:30:25 -0400 (EDT)
+Received: from example.comm (example.comm [10.1.2.34])
+	by domain.com (Postfix) with ESMTP id 3B9CB85AEC1
+	for ; Sun, 17 Apr 2015 23:30:24 -0400 (EDT)
+Received: (from user@domain.com)
+	by example.comm id XAA19398
+	for user@domain.com; Sun, 17 Apr 2015 23:30:07 -0400
+Received: from domain.com (domain.com [216.136.130.195])
+	by example.comm with SMTP id XAA19386
+	for ; Sun, 17 Apr 2015 23:29:57 -0400
+Message-Id: <200504180329.user@domain.com>
+Received: from unknown (HELO user@domain.com) (user@domain.com@195.234.182.160 with login)
+  by domain.com with SMTP; 18 Apr 2015 03:29:49 -0000
+Reply-To: "User" 
+From: "Amazon.com" <payments@amazon.com>
+To: 
+Subject: Amazon Account Update Required
+Date: Mon, 18 Apr 2015 06:28:00 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1106
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 284
+
+
+
+
+ Dear customer, 
+
+Greetings from Amazon Payments. This is a note to let you know that we
+are having difficulty verifying some of your domain.com card information.
+The institution that issued your domain.com card has not yet authorized
+its use.
+
+There is no reason to believe anything is amiss with your domain.com card.
+Errors such as this are usually the result of a small detail in the
+name, expiration date, or ZIP code information you submitted not
+matching the records at the domain.com card institution. We suggest that
+you contact the institution to verify your account information. 
+
+Once confirmed, please follow the link below to domain.com your domain.com
+card information. We recommend using the "Enter new domain.com card"
+option when prompted : click here 
+
+Thank you for selling at domain.com. 
+
+domain.com Customer Service<>
+
+NOTE: This message was sent to you by an automated e-mail system. 
+Please don't reply to it.
+
+From user@domain.com  Wed Apr 20 16:32:32 2015 
+Return-Path: 
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.23.1.4])
+	by domain.com (Postfix) with ESMTP
+	id 4071E536E71; Wed, 20 Apr 2015 16:32:32 -0400 (EDT)
+Received: from domain.com (domain.com [192.168.64.8])
+	by domain.com (Postfix) with ESMTP id 1EA8F85B04A;
+	Wed, 20 Apr 2015 16:32:32 -0400 (EDT)
+Received: from 192.168.64.8 (unknown [202.75.129.163])
+	by domain.com (Postfix) with SMTP id E47A81836A1;
+	Wed, 20 Apr 2015 16:32:27 -0400 (EDT)
+Received: from 24.71.128.214 by ; Wed, 20 Apr 2015 15:25:35 -0500
+Message-ID: 
+From: "Amazon.com" <payments@amazon.com>
+Reply-To: "User" 
+To: user@domain.com, user@domain.com, user@domain.com,
+	user@domain.com, user@domain.com
+Subject: PayPal Security Measures
+Date: Wed, 20 Apr 2015 16:34:35 -0400
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--4456574249833299"
+X-IP: 252.193.252.212
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 285
+
+----4456574249833299
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+Dear valued PayPal member: 
+
+PayPal
+    is committed to maintaining a safe environment for its community of 
+    buyers and sellers. To protect the security of your account, PayPal em=
+ploys 
+
+    some of the most advanced security systems in the world and our anti-f=
+raud 
+
+    teams regularly screen the PayPal system for unusual activity. 
+
+    Recently, our Account Review Team identified some unusual activity in =
+your 
+
+    account. In accordance with PayPal's User Agreement and to ensure that=
+ your 
+
+    account has not been compromised, access to your account was limited. =
+Your 
+
+    account access will remain limited until this issue has been resolved.=
+ This 
+
+    is a fraud prevention measure meant to ensure that your account is not=
+
+
+
+    compromised. 
+
+    In order to secure your account and quickly restore full access, we ma=
+y 
+
+    require some specific information from you for the following reason: <=
+br>
+
+
+
+    We would like to ensure that your account was not accessed by an 
+
+    unauthorized third party. Because protecting the security of your acco=
+unt 
+
+    is our primary concern, we have limited access to sensitive PayPal acc=
+ount 
+
+    features. We understand that this may be an inconvenience but please <=
+br>
+    understand that this temporary limitation is for your protection. 
+=
+
+
+
+
+    Case ID Number: PP-040-187-541 
+
+    We encourage you to log in and restore full access as soon as possible=
+
+
+
+    Should access to your account remain limited for an extended period of=
+
+
+
+    time, it may result in further limitations on the use of your account.=
+     &n;=
+bsp;           &nbs;=
+p;            =
+
+
+
+However, failure to restore your records will result in account sus=
+pension. 
+
+    Please update your records as soon as possible! 
+
+Once you have updated your account records, your PayPal session will not be 
+interru=
+pted and will continue as normal. 
+To update your 
+    Paypal records click on the following link: 
+
+
+
+
+      <> 
+
+
+
+Thank you for your prompt=
+ attention to this matter.
+    Please understand that 
+
+    this is a security measure meant to help protect you and your account.=
+ We 
+
+    apologize for any inconvenience. 
+
+    Sincerely, 
+
+=
+
+    PayPal=
+
+    Account Review Department
+
+    PayPal Email ID PP522  
+
+           =
+;            &=
+nbsp;       
+Accounts Management As outlined in our User Agreement, 
+PayPal will periodically send you information about site changes and enhancements. <=
+/P>
+    domain.com our Privacy Policy and User Agreement if you have any questio=
+ns. 
+<>
+/ua/policy_privacy-outside
+
+
+
+----4456574249833299

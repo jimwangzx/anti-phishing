@@ -1,0 +1,230 @@
+Delivered-To: user@domain.com
+Received: by 10.52.113.164 with SMTP id iz4cs556180vdb;
+        Mon, 11 Jul 2015 15:00:04 -0700 (PDT)
+Received: by 10.224.2.73 with SMTP id 9mr1824044qai.284.1310421603362;
+        Mon, 11 Jul 2015 15:00:03 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com [8.21.238.115])
+        by domain.com with ESMTP id l10si15879194qcu.148.2011.07.11.15.00.02;
+        Mon, 11 Jul 2015 15:00:02 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 8.21.238.115 as permitted sender) client-ip=8.21.238.115;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 8.21.238.115 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Return-Path: <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb1; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1310421662;
+	h=From: "Friends of Jared Polis " <rsvp@polisforcongress.com>
+	bh=u76dPyvA73/mFtAipz0LPA31+X0=;
+	b=CkiNkUD4YehjqrE+e8vvUbOPWQVQIIqAfUrVkxosSkCP/051R0LRlQCMsqwPnPvC
+	AX0LtxTdX8wAU+A4crL2mA==;
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=ngpweb2; d=domain.com;
+	h=X-MSFBL:Received:X-CampaignID:X-BroadcastID:X-ContactID:X-Binding:Sender:List-Unsubscribe:Reply-To:From: "Friends of Jared Polis " <rsvp@polisforcongress.com>
+	b=EPvmBZ7bHeqGEdRvqO2KPDPuf6KHd1n2epx9gBVhGmCJJVcWSGCrPp6wcf/FZJso
+	kyFZCKhAfsRHTyypp/aLoQ
+X-MSFBL: am9obi5wb2Rlc3RhQGdtYWlsLmNvbUBtYWlsb3V0MjQxQGRlZmF1bHRAYm91bmNl
+	XzUzNzA4MC0xODM4LTI3MDIzOTYxLTQ4MTYwMjNfVA
+Received: from [10.0.1.54] ([10.0.1.54:3235] helo=TIAPP05B)
+	by domain.com (envelope-from <user@domain.com>)
+	(ecelerity 3.2.0.41955 r(41955)) with ESMTP
+	id 0A/59-19969-E927B1E4; Mon, 11 Jul 2015 18:01:02 -0400
+X-CampaignID: 1838
+X-BroadcastID: 537080
+X-ContactID: 4816023
+X-Binding: mailout241
+Sender: "Friends of Jared Polis " <user@domain.com>
+List-Unsubscribe: <<<link>>>
+Reply-To: user@domain.com
+From: "Friends of Jared Polis " <rsvp@polisforcongress.com>
+To: user@domain.com
+Message-ID: <user@domain.com>
+Date: Mon, 11 Jul 2015 18:00:01 -0400
+Subject: Become an MVP - Join us at a Pre-Game Reception!
+MIME-Version: 1.0
+Content-type: text/html; charset=Windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+ body {font-family: Arial; font-size: 10pt}
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+
+
+
+        BODY {
+        FONT-FAMILY: Arial; FONT-SIZE: 10pt
+        }
+
+
+
+        BODY {
+        FONT-FAMILY: Arial
+        }
+
+
+
+        BODY {
+        FONT-FAMILY: Arial
+        }
+
+
+
+    &nbsp;<SPAN style=3D"FONT-FAMILY: Arial,sans-se
+rif; FONT-SIZE: 14pt">Please join the members of the Democratic Basebal
+l Team
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; F
+ONT-SIZE: 14pt">
+    &nbsp;<SPAN style=3D"FONT-FAMILY: Arial,sans-seri
+f; FONT-SIZE: 16pt">Congressman Tim Bishop 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16pt">C
+ongressman Bruce Braley 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16pt">C
+ongressman Russ Carnahan 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16pt">C
+ongressman Ben Chandler 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16pt">C
+ongressman Lacy Clay 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16pt">C
+ongressman Mark Critz 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16pt">Congressman Mike Doyle 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16pt">C
+ongressman Bill Owens 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16pt">C
+ongressman Jared Polis 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16pt">C
+ongressman Cedric Richmond 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16pt">C
+ongressman Tim Ryan 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16pt">C
+ongresswoman Linda Sanchez
+
+
+
+    <P style=3D"TEXT-ALIGN: center" class=3DDefault align=3Dcenter><SPA
+N style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 14pt">For a Congre
+ssional Baseball Pre-Game Event 
+    honoring the
+
+
+
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 16p
+t">Democratic Congressional Campaign Committee&
+nbsp;
+    <P style=3D"TEXT-ALIGN: center" class=3DDefault align=3Dcenter>&nbs
+p;<SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 14pt">Wednes
+day, July 13<SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-S
+IZE: 9pt">th<SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-S
+IZE: 14pt">, 2015 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 14p
+t">6:00pm &ndash; 7:30pm
+    <P style=3D"TEXT-ALIGN: center" class=3DDefault align=3Dcenter><
+/B>
+    <P style=3D"TEXT-ALIGN: center" class=3DDefault align=3Dcenter><SPA
+N style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 14pt">National Dem
+ocratic Club Townhouse 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 14pt">40 I
+vy Street, SE
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 14p
+t">Washington, DC 20003
+    <P style=3D"TEXT-ALIGN: center" class=3DDefault align=3Dcenter><
+/I>
+    <P style=3D"TEXT-ALIGN: center" class=3DDefault align=3Dcenter><SPA
+N style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 11=2E5pt">
+Suggested Contributions Appreciated
+    MVP: $5,000 PAC/$1,000 Personal
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 11=2E
+5pt">Starting Lineup: $2,500 PAC/$500 Personal
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 11=2E
+5pt">Fan: $1,000 PAC/$250 Personal
+    <P style=3D"TEXT-ALIGN: center" class=3DDefault align=3Dcenter><
+/B>
+    <P style=3D"TEXT-ALIGN: center" class=3DDefault align=3Dcenter><SPA
+N style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 11pt">To RSVP or f
+or additional information, please RSVP online at www=2Edccc=2Eorg/baseb
+all or 
+    <SPAN style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 11pt">cont
+actTom Mintz at 202-485-3508 or <A href=3D"mailto:user@domain.com=2Eorg">min
+user@domain.com=2Eorg
+    <P style=3D"TEXT-ALIGN: center" class=3DDefault align=3Dcenter><SPA
+N style=3D"FONT-FAMILY: Arial,sans-serif; FONT-SIZE: 11pt">&nbsp
+;
+    <P style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 10pt" align=3Dcente
+r><SPAN style=3D"LINE-HEIGHT: 115%; FONT-FAMILY: Arial,sans-serif; FONT
+-SIZE: 9pt">Federal law requires us to use our best efforts to collect 
+and report the name, mailing address, occupation and name of employer o
+f individuals whose contributions exceed $200 in a calendar year=2E
+    <SPAN style=3D"LINE-HEIGHT: 115%; FONT-FAMILY: Arial,sans-serif; FO
+NT-SIZE: 9pt">
+    <P style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 10pt" align=3Dcente
+r><SPAN style=3D"LINE-HEIGHT: 115%; FONT-FAMILY: Arial,sans-serif; FONT
+-SIZE: 9pt">&nbsp;Contributions to the Democratic Congressional Campaig
+n Committee are not tax deductible=2E Contributions from foreign nation
+als and corporations are not permitted=2E
+     <td align=3D"center" style=3D"bo
+rder: 1px solid black">Paid for by Friends of Jared Polis<font style=3D"FONT-SIZE: x-small; FONT-FAMILY: Ar
+ial; COLOR: SILVER">Contributions to Friends of Jared Polis are
+ not deductible for federal tax purposes=2E2208 Pearl StreetBou
+lder,&nbsp;CO&nbsp;80302<img id=3D"trackingimage" src=3D
+"<<link>>[NGPDB08]
+=2EMNGPClientData7&MailID=3D27023961" height=3D1 width=3D1 border=3D0><
+br><table width=3D100% align=3D"center"><td align=3D"center"><font 
+style=3D"FONT-SIZE: x-small; FONT-FAMILY: Verdana; COLOR: #696969; FONT
+-VARIANT: small-caps"><a href=3D"<<link>>
+r=2Easpx?crypt=3DIVi0ax2%2b6UDLpC3olJXC457kkjv9LkTjvDXRuLbXMKT3SLPHL8f6
+6seeqvDN0HKv0yZtvicTJBHji0Rx3fpXm%2fh2PIGbpA56ZmM8ZFXvbp1NGeD8qcDsppJfQ
+ufYNAiOJ5JnbCt0D5qaRlRz80F3c5M9fKEj61ZSv%2bhqLjMwWgvqoAaLqBSvnISWYl%2bb
+WNtoEEik7KtvQKjFTKFrjuJmQLW%2bJ%2f2eg58UUyF0NwZaLN%2f9LGtpfRtwSmhxdO4kU
+bKEiWbNkYb2qnQ%3d"><img id=3D"forward" src=3D"<<link>>
+broadcast/images/fwdbutton=2Egif" alt=3D"Forward this message to a frie
+nd" height=3D"28" width=3D"145" border=3D0><td
+ align=3D"center"><font style=3D"FONT-SIZE: x-small; FONT-FAMILY: Verda
+na; COLOR: #696969; FONT-VARIANT: small-caps">To unsubscribe from this 
+mailing list, click <a href=3D"<<link>>
+aspx?crypt=3DIVi0ax2%2b6UBSinc%2fCPYaKYRb7nJwUTqAdkVV5jnwolBsNyHdRvID%2
+bwEHO5DKXM8qtfmlTP%2bK12uT6yYEujE922TsZUPKXz7UVa7zK1QZMloXi050bX34hJm5s
+n0d8oLYx7wOYOV7BgTlvQ10m4LAxkAZwoz0TZDSaYRPAOECeB8xxqBxWx3%2bljk%2f1Cgr
+INXv0q1WwX%2fGZ47TpkXY8PHYMQ%3d%3d">here<td al
+ign=3D"center"><font style=3D"FONT-SIZE: x-small; FONT-FAMILY: Verdana;
+ COLOR: #696969; FONT-VARIANT: small-caps">Powered by <a href=3D"http:/
+/images=2Emyngp=2Ecom/LinkTracker=2Easpx?crypt=3DIVi0ax2%2b6UBSinc%2fCP
+YaKdzn%2fWO5xRpchVp1UnzNaiO%2f6W2liK%2fqoYwMd14foAW4Lcvlk6VEg%2fy%2fopv
+M%2bke%2baoUCcI%2fBRiZH">NGP VAN, Inc=2E</
+body>

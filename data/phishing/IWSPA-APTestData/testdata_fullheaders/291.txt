@@ -1,0 +1,136 @@
+Received: from domain.com (43.130.141.77) by
+ domain.com (146.215.231.16) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Thu, 20 Nov 2015 22:44:17 -0500
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 20 Nov 2015 19:44:15 -0800
+Received: from domain.com (domain.com
+ [160.33.194.229])	by domain.com
+ (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with ESMTP id sAL3iEN6020574	for
+ <user@domain.com>; Fri, 21 Nov 2015 03:44:15 GMT
+Received: from na01-by2-domain.com
+ (mail-domain.com [207.46.163.240])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sAL3iDw1010550	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Fri, 21 Nov 2015 03:44:14 GMT
+Received: from BN1AFFO11FD057.protection.gbl (10.58.52.33) by
+ BN1AFFO11HUB052.protection.gbl (10.58.52.182) with Microsoft SMTP Server
+ (TLS) id 15.1.6.13; Fri, 21 Nov 2015 03:44:08 +0000
+Received: from mx-domain.com (65.39.215.97) by
+ domain.com (10.58.53.72) with Microsoft SMTP
+ Server id 15.1.6.13 via Frontend Transport; Fri, 21 Nov 2015 03:44:08 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Variety Breaking News <donotreply@variety.com>
+ bh=x3qnaqCxw9qVPKn6KsuFUMjsh6I=;
+ b=CHk9U6Qgn0W3Zk3cZm7OgiC0BrwLVEhvC7Ih3tISz83mvcxYuc5r9phYTY1HxQ1AUVdgNb+K9fTI
+   YG5z6WVexcnrFg3eqT+B/9Bc4p958Jo5q/ohUA+u6UjA6/SDzqrSET1e85o5RmvRriB7hW4EG4kR
+   YpwsWoPi76A49JaToic
+Received: from 162.208.119.171.domain.com (162.208.119.171) by
+ mx-domain.com id hdqqgc1qqbsm for <user@domain.com>; Thu, 20 Nov
+ 2015 22:43:12 -0500 (envelope-from <user@domain.com>)
+Received: from nj1-p-fadindigo-prd-jma-15.flt (172.18.20.20) by
+ 162.208.119.171.domain.com id hdqqd41qqbs3 for
+ <user@domain.com>; Thu, 20 Nov 2015 22:43:14 -0500 (envelope-from
+ <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1416541394;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=Gszo9U+CcGJgVFxS3uoCv4Re6vv8Jo5nhnI5AwKXohE=;
+	b=mZgLf1QEjdhyHesoIA4gYMt4LVL72q6qt1lTBsiP/GWJE9r38YDRzM83QNWJmgNX
+	vKIMcnWto4U0Q9L1krkiFxgARaiO+c9pf7ju7UVwgUaltDaWkCyk/fBAztYOsdK54Ok
+	wcu8ibYuI16LEk3ZVR74xzsf3PrNB5vHqICaqiV8
+Date: Thu, 20 Nov 2015 22:43:14 -0500
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20141121034314.3374209.34348@domain.com>
+Subject: Broadway Review: 'A Delicate Balance' With Glenn Close and John
+ Lithgow
+Precedence: bulk
+X-TM-ID: 20141121034314.3374209.34348
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nj1-p-fadindigo-prd-jma-15.flt
+X-IADB-IP: 172.18.56.50
+X-IADB-IP-REVERSE: 50.56.18.172
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>,
+ <mailto:user@domain.com>
+X-rpcampaign: stcoy3374209
+X-EOPAttributedMessage: 0
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 65.39.215.97 as permitted sender) receiver=domain.com;
+ client-ip=65.39.215.97; helo=mx-domain.com;
+Authentication-Results: spf=pass (sender IP is 65.39.215.97)
+ user@domain.com; 
+X-Forefront-Antispam-Report: CIP:65.39.215.97;CTRY:US;SRV:BULK;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:BN1AFFO11HUB052;H:mx-domain.com;FPR:;LANG:en;
+X-Microsoft-Antispam: UriScan:(133331);
+X-Microsoft-Antispam: BCL:5;PCL:0;RULEID:(80001)(120001);SRVR:BN1AFFO11HUB052;
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:5;PCL:0;RULEID:;SRVR:BN1AFFO11HUB052;
+X-Exchange-Antispam-Report-CFA-Test: BCL:5;PCL:0;RULEID:;SRVR:BN1AFFO11HUB052;
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+X-MS-Exchange-Organization-AVStamp-Mailbox: MSFTFF;1;0;0 0 0
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Breaking News | Variety
+
+@import url(<<link>>+Sans:400,700);
+/* -----------------------------------------------
+FOR MOBILE DEVICES, HIDE THE PREHEADER AND 
+MAKE THE MAIN TEXT 25% LARGER.
+ALSO RESIZE TD WIDTHS AND LEADERBOARD IMAGE.
+----------------------------------------------- */
+@media only screen and (max-width:728px) {
+span[class="head"] { font-size:31.25px; }
+span[class="desc"] { font-size:23.75px; }
+span[class="link"] { font-size:23.75px; }
+span[class="collapse"] { display:none; }
+#maintable { width:100%; max-width:728px; min-width:480px; }
+#leaderboardtable { width:100%; max-width:728px; }
+#leaderboardimage { width:100%; max-width:728px; }
+#headernestedtable { max-width:728px; min-width:480px; }
+#storynestedtable { max-width:588px; min-width:340px; }
+#prefsnestedtable { max-width:708px; min-width:460px; }
+#footernestedtable { max-width:708px; min-width:460px; }
+}
+
+"A Delicate Balance" is no play for sissies. Edward Albee won the Pulitzer but unnerved auds wit...
+
+​
+
+Breaking News
+
+Thursday, November 20, 2015 
+
+​
+
+Broadway Review: 'A Delicate Balance' With Glenn Close and John Lithgow
+
+"A Delicate Balance" is no play for sissies. Edward Albee won the Pulitzer but unnerved auds with his 1966 drawing-room drama abo...
+
+Full Story
+
+Check out the redesigned Variety411
+
+This email was sent to user@domain.com by Variety. To ensure delivery to your inbox (and not your spam folder), please add user@domain.com to your address book. If you prefer not to continue receiving email communications, please unsubscribe here instead of replying to this email.
+
+
+
+
+To update your profile and customize what email alerts and newsletters you receive, please click here.
+
+Having trouble reading this email? View the web version here.
+
+Copyright © 2014 Variety Media, LLC, a subsidiary of Penske Business Media.1​1​1​7​5 Santa Monica Blvd. Los Angeles, CA 9​0​0​2​5
+
+Variety and the Flying V logos are trademarks of Variety Media, LLC., used under license.
+

@@ -1,0 +1,132 @@
+Received: from relay.Organization.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 18 Jun 2015 13:33:51 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ relay.Organization.com (Postfix) with ESMTP id EDD9D60391	for
+ <user@domain.com>; Thu, 18 Jun 2015 12:09:15 +0100 (BST)
+Received: by domain.com (Postfix)	id 8AB664440BA4; Thu, 18 Jun 2015 
+ 13:32:38 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from manta.Organization.com (manta.Organization.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 89D534440B81	for
+ <user@domain.com>; Thu, 18 Jun 2015 13:32:38 +0200 (CEST)
+X-ASG-Debug-ID: 1434627226-066a754c89233e0001-Aet2rw
+Received: from domain.com
+ (domain.com [206.253.208.239]) by
+ manta.Organization.com with ESMTP id Y2dG4kqCADluc9kk for
+ <user@domain.com>; Thu, 18 Jun 2015 13:33:47 +0200 (CEST)
+X-Barracuda-Envelope-From: =?UTF-8?Q?The=20Animal=20Rescue=20Site?
+X-Barracuda-Apparent-Source-IP: 206.253.208.239
+Received: from localhost ([127.0.0.1])	by domain.com
+ (-); Thu, 18 Jun 2015 04:33:45 -0700
+X-VirtualServer: domain.com, domain.com, 192.168.40.130
+X-VirtualServerGroup: domain.com
+X-MailingID: 16848345::1780334::5501::791100::1_3879::3879_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: user@domain.com
+X-SMFBL: YS5jYXBhbGRvQGhhY2tpbmd0ZWFtLml0
+DomainKey-Signature: a=rsa-sha1;
+ c=nofws;
+ s=sm;
+ d=domain.com;
+ q=dns;
+ b=s+4XBwKEMbkYK1z9IMCcf25Rp2uJ3rDTAI40b58UtCRTPFieKZAr/Nyjq0F6awWRyXVSX/ycDgqXCqbxSbmvu/rMmJKvmQC5qITp3RX7sDXcD4B+rjP4R4dMqqEO4jR1u5rYepZfeu8PosDaIOnInRDH0cXIVfHoJSksEzNvCMo
+DKIM-Signature: v=1; a=rsa-sha1; c=simple;
+	d=domain.com; s=sm; user@domain.com; h=Content-Transfer-Encoding:
+	Content-Type:Reply-To:MIME-Version:Message-ID:X-ReportingKey:
+	Subject:Date:To:From; bh=wk+B59wbPhtmAwvuh39qUGf02Y8=; b=RTg4oqm
+	UO8GdzdAqIxMn0NNpbCUuY0RkHvcKapX+eIvAhrJD50IJQkdKh6WIQ0OzSpV/Rux
+	pZLU4sIeGISYQaqcoUNqdiURzb75fcRleshWK/K2QJoapHCSS0yNfCdLO3671YnH
+	/ralebvDMzzgU+S2xiuOPBHZqmHbflE92bec
+Reply-To: <user@domain.com>
+Message-ID: <16848345.3879@domain.com>
+X-ReportingKey: LJDCACY6167ZF4TKKA70VJJAEMJJ::user@domain.com::1_3879
+Subject: =?UTF-8?Q?Pick=20Up=20These=20Pawpular=20Bags=20=26=20Help=20a=20Dog=20in=20Need=20=2B=20Enchanting=20NEW=20Tunic=20On=20Sale=21?
+Date: Thu, 18 Jun 2015 04:33:42 -0700
+X-ASG-Orig-Subj: =?UTF-8?Q?Pick=20Up=20These=20Pawpular=20Bags=20=26=20Help=20a=20Dog=20in=20Need=20=2B=20Enchanting=20NEW=20Tunic=20On=20Sale=21?
+To: <user@domain.com>
+From: =?UTF-8?Q?The=20Animal=20Rescue=20Site?
+	<user@domain.com>
+X-Barracuda-Connect: domain.com[206.253.208.239]
+X-Barracuda-Start-Time: 1434627226
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at Organization.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.55
+X-Barracuda-Spam-Status: No, SCORE=0.55 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=HTML_IMAGE_RATIO_02, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.19952
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-705965116_-_-"
+
+	.ai {display:inline;}
+	#outlook a {padding:0;}
+	body {-domain.com-text-size-adjust:none; -ms-text-size-adjust:none; margin:0; padding:0; width:100% !important;} .ReadMsgBody {width:100%;} .ExternalClass {width: 100%;}
+   	table td {border-collapse:collapse;}
+
+
+
+
+   Free U.S. Shipping on $25 Orders!
+
+	    View email in web browser.
+
+
+
+      Last Day Kitchen Deals
+
+
+
+
+      Fun in the Sun Sale
+
+
+
+
+      Backyard Bargains
+
+
+
+
+      PAW PRINT
+
+
+
+
+    *Free shipping offer good on all $25 U.S. ($59 international) orders through Friday, June 19th (11:59 p.m. PT): Enter REFRESH for all U.S. deliveries or RELAX for all international deliveries in the promotion code box during checkout to redeem. Please see our Current Promotions page for complete details.
+
+    You're receiving this email because you subscribed to the GreaterGood stores newsletter. We email our supporters multiple times a week with special offers and news in the world of good causes and domain.com shopping.
+
+
+
+One-click unsubscribe here or click here to manage your subscription(s).
+
+
+
+To ensure delivery to your inbox, add user@domain.com to your address book/contacts. 
+
+GreaterGood stores, One Union Square, 600 University Street, Suite 1000, Seattle, WA 98101   1-888-355-4321 Customer Service Hours: M-F 7am - 3pm PT
+
+
+
+
+        Click to Give--FREE   |  
+        Shop Our Store & Give More
+
+
+
+		Check us out on:   
+          Facebook   
+		  Causes   
+		  Twitter
+

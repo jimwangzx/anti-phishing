@@ -1,0 +1,106 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp762331lfr;
+        Thu, 1 Oct 2015 16:40:53 -0700 (PDT)
+X-Received: by 10.60.160.37 with SMTP id xh5mr8200442oeb.61.1443742853435;
+        Thu, 01 Oct 2015 16:40:53 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::236])
+        by domain.com with ESMTPS id yb9si4314140obc.104.2015.10.01.16.40.53
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 01 Oct 2015 16:40:53 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::236 as permitted sender) client-ip=2607:f8b0:4003:c06::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-oi0-domain.com with SMTP id x17so48711980oix.0
+        for <user@domain.com>; Thu, 01 Oct 2015 16:40:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Oren Shur <oshur@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=YWwisJiIkM3bXBfvrgl0KN2IMiRjtpRiVcfCtm61tv0=;
+        b=NvTnrpiz1K2s3fil4l6wiGCbByIODHHKvqXIFmE3ThC4lZ8jPbDf2fBJLLY11/wedn
+         pN27zA6SJhZxVimrTuA1LU0wa8g8KxuWtN2SSDZBi9pFi29TTFSmBN+ahNVL23KqhmuA
+         UYiUEeaMr1HPCHYHcszgtxRjQflGLshyBUML0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Oren Shur <oshur@hillaryclinton.com>
+         :thread-index:date:message-id:subject:to:cc:content-type;
+        bh=YWwisJiIkM3bXBfvrgl0KN2IMiRjtpRiVcfCtm61tv0=;
+        b=CPwHdEjHeY2/8EZgnXTw5E5+43fw+/fyfI1lAXAWpeYxc7WUPGvJDB3VSaxK7JVkoi
+         iMQEH50ipoS6ru7QEvqppf2nya8711Uyt7wW7x6Pg5InUTjTGlHxgj0MZZROFg+Ud11T
+         H1rDEIf/LRjUO9DjnyBVvrLbj+V9EYANnP1+IMmI4X3WNaiasBBldzkL5/SxgZ7Xh+2r
+         gRDlRY7kWd2i+OYofb9K4Pi13U8VzZZf/1aJaHLZPNBW154AUIzwUxskT3GsXX+d1aKO
+         lkdAPpPjJkAt9y6RjECWVYvjmaWz/tn2gjx4FScyNPKXvzX8xY+R3OnN0E3JYVYNwwi1
+         EJsA
+X-Gm-Message-State: ALoCoQnaEUJSVk9vGDNjLEQPxxSMFERdyA6kcEZiCZmjQBc3riXWebFsM8SVSw/9xy2j8Pdfv03u
+X-Received: by 10.202.216.8 with SMTP id p8mr7417282oig.65.1443742852987; Thu,
+ 01 Oct 2015 16:40:52 -0700 (PDT)
+From: Oren Shur <oshur@hillaryclinton.com>
+References: <user@domain.com>
+ <1446784941903991865@unknownmsgid> <792396user@domain.com>
+In-Reply-To: <792396user@domain.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQJFKCHUbZQycjQVWs1RvcDV/P0FpwI1rEccAF18WV+dWlcjgA
+Date: Thu, 1 Oct 2015 19:40:47 -0400
+Message-ID: <7user@domain.com>
+Subject: RE: Benghazi - paid media update
+To: Jennifer Palmieri <user@domain.com>, 
+ Robby Mook <user@domain.com>
+CC: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113d2dfae690ef05211393ca
+
+If the objective is purely to undermine the Benghazi hearings, I think
+these spots will certainly help do that.  But if the objective is to
+connect emails-Benghazi and conflate the two in voters=E2=80=99 minds (whic
+h
+consultants feel is an imperative here), I=E2=80=99m not sure we know wheth
+er we
+can credibly do that =E2=80=93 we=E2=80=99ll get a read from groups, but ma
+y need to just
+make a judgement call once we see rough cuts.
+
+Maybe I=E2=80=99m on my own here, but fwiw: I fully heard what HRC was sayi
+ng, and
+understand the case for doing this =E2=80=93 but I think it would be a mist
+ake to
+pull down the spots we just went up with in IA/NH and make the entire
+dialogue about scandal/hearings/email.  We=E2=80=99d be closing off the one
+ clean
+avenue we have to communicate her message and our data shows that is giving
+us a lift.  At the very least, would mix a new spot in and keep at least
+one of the newly-launched spots up =E2=80=93 so that this isn=E2=80=99t the
+ ONLY thing
+voters are hearing for the next 2-3 weeks.
+
+*From: Oren Shur <oshur@hillaryclinton.com>
+*Sent:* Thursday, October 1, 2015 7:20 PM
+*To:* Robby Mook <user@domain.com>; Oren Shur <
+user@domain.com>
+*Cc:* John user <user@domain.com>
+*Subject:* RE: Benghazi - paid media update
+
+I am for IA and NH.  I know the boss wants a national cable buy to reach
+the inside the beltway types, press and donors.  But press will hate this.
+We will lose ground with them because of it.  (I am still for doing it).
+Actual voters should see and see before the hearing.
+
+*From: Oren Shur <oshur@hillaryclinton.com>
+*Sent:* Thursday, October 1, 2015 7:17 PM
+*To:* Oren Shur <user@domain.com>
+*Cc:* John user <user@domain.com>; Jennifer Palmieri <
+user@domain.com>
+*Subject:* Re: Benghazi - paid media update
+
+Let's def discuss when we review scripts but I think we gotta do this in IA
+and Nh.  Our thesis is that our stuff doesn't cut through as well because
+it doesn't intersect w the crap they hear about her on the news.  I feel
+like this is the kinda stuff we need to do to actually move numbers right
+now.
+
+At least worth trying this month.  If numbers don't move then we can go
+back to plan A.
+

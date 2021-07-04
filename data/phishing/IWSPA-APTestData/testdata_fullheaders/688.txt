@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.215.208 with SMTP id q77csp6165lfi;
+        Thu, 15 Jan 2015 06:57:52 -0800 (PST)
+X-Received: by 10.70.34.196 with SMTP id b4mr14592579pdj.120.1421333871135;
+        Thu, 15 Jan 2015 06:57:51 -0800 (PST)
+Return-Path: <>
+Received: from domain.com (domain.com. [216.82.255.51])
+        by domain.com with ESMTPS id hc9si1940263pbc.228.2015.01.15.06.57.50
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Thu, 15 Jan 2015 06:57:51 -0800 (PST)
+Received-SPF: pass (domain.com: domain of domain.com designates 216.82.255.51 as permitted sender) client-ip=216.82.255.51;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 216.82.255.51 as permitted sender) smtp.mail
+Return-Path: <>
+Received: from [216.82.254.83] by server-14.bemta-7.domain.com id 64/66-02703-D65D7B45; Thu, 15 Jan 2015 14:57:49 +0000
+X-Msg-Ref: server-4.tower-197.domain.com!1421333863!7559451!12
+X-Originating-IP: [141.161.191.75]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.5; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 3301 invoked from network); 15 Jan 2015 14:57:49 -0000
+Received: from unknown (HELO LAW-CAS2.law.georgetown.edu) (141.161.191.75)
+  by server-4.tower-197.domain.com with AES256-SHA encrypted SMTP; 15 Jan 2015 14:57:49 -0000
+Received: from LAW-MBX02.law.georgetown.edu ([169.254.2.59]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0210.002;
+ Thu, 15 Jan 2015 09:57:30 -0500
+From: "Wallace J. Mlyniec" <mlyniec@law.georgetown.edu>
+To: All Faculty and Staff <user@domain.com>
+Subject: Noise
+Thread-Topic: Noise
+Thread-Index: AdAw04XrzPuQhO3lTGSQX90WVzus1A
+Date: Thu, 15 Jan 2015 14:57:29 +0000
+Message-ID: <31user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.212.48]
+Content-Type: multipart/alternative;
+	boundary="_000_31CE96223F9FEB48B18809782CE097F4474292LAWMBX02lawgeorge_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+
+Dear Colleagues.
+
+I am sorry to report that we will be experiencing noise from intermittent j
+ackhammering today and possibly later this week. The gas company has discov
+ered some unexpected subsurface concrete that has to be broken and removed.
+ Classes in Hotung will be affected the most. I am sorry if this disrupts y
+our class. It has disrupted mine this morning although I was able to teach 
+through it.
+
+Wally Mlyniec

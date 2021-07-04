@@ -1,0 +1,57 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 12 Feb 2015 16:47:45 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1D0lj8O020079	for <user@domain.com>; Thu, 13 Feb 2015 
+ 00:47:45 GMT
+Received: from mail230-tx2-domain.com (mail-domain.com [65.55.88.112])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1D0mtU7004916	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 13 Feb 2015 00:48:56 GMT
+Received: from mail230-tx2 (localhost [127.0.0.1])	by
+ mail230-tx2-domain.com (Postfix) with ESMTP id 36545A0004E	for
+ <user@domain.com>; Thu, 13 Feb 2015 00:47:44 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:17.158.185.186;KIP:(null);UIP:(null);IPV:NLI;H:nk11p10mm-domain.com;RD:nk11p10mm-domain.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(zz98dI9371I1432Izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1fc6h1082kzzz2fh839h944hd25he5bh1220h1288h12a5h12a9h12bdh137ah139eh13b6h13eah1441h1504h1537h162dh1631h1662h1758h1898h18e1h1946h19b5h1b0ah224fh1d0ch1d2eh1d3fh1dfeh1dffh1e23h1fe8h1ff5h2052h20b3h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail230-tx2: domain of me.com designates 17.158.185.186 as permitted sender) client-ip=17.158.185.186; user@domain.com; helo=nk11p10mm-domain.com ;domain.com ;
+Received: from mail230-tx2 (localhost.localdomain [127.0.0.1]) by mail230-tx2
+ (MessageSwitch) id 1392252461996725_7556; Thu, 13 Feb 2015 00:47:41 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.250])	by
+ mail230-domain.com (Postfix) with ESMTP id EF48660005B	for
+ <user@domain.com>; Thu, 13 Feb 2015 00:47:41 +0000 (UTC)
+Received: from nk11p10mm-domain.com (17.158.185.186) by
+ domain.com (10.9.99.135) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 13 Feb 2015 00:47:42 +0000
+Received: from [10.64.0.113] ([69.71.193.140]) by nk11p10mm-domain.com
+ (Oracle Communications Messaging Server 7u4-27.07(7.0.4.27.6) 64bit (built
+ Jun 21 2013)) with ESMTPSA id <0user@domain.com>
+ for user@domain.com; Thu, 13 Feb 2015 00:47:33 +0000 (GMT)
+X-Proofpoint-Virus-Version: vendor=fsecure
+ engine=2.50.10432:5.11.87,1.0.14,0.0.0000
+ definitions=2014-02-12_06:2014-02-12,2014-02-12,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+ suspectscore=2 phishscore=0 adultscore=0 bulkscore=0 classifier=spam adjust=0
+ reason=mlx scancount=1 engine=7.0.1-1401130000 definitions=main-1402120176
+Subject: Re: from a. sorkin
+From: Aaron Sorkin <endofshow@me.com>
+In-Reply-To: <user@domain.com>
+Date: Wed, 12 Feb 2015 16:47:32 -0800
+Message-ID: <9user@domain.com>
+References: <9892user@domain.com>
+ <user@domain.com>
+To: "User" <user@domain.com>
+X-Mailer: Apple Mail (2.1283)
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Re: from a. sorkin
+
+It's going to be way better than fine.
+

@@ -1,0 +1,230 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.99 with SMTP id n90csp51365qga;
+        Fri, 8 Aug 2015 11:21:16 -0700 (PDT)
+X-Received: by 10.140.104.213 with SMTP id a79mr5978924qgf.46.1407522076453;
+        Fri, 08 Aug 2015 11:21:16 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.199])
+        by domain.com with ESMTPS id m8si11303968qas.0.2014.08.08.11.21.16
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Fri, 08 Aug 2015 11:21:16 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.199;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=fail user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.241.131:26969] by server-7.bemta-8.domain.com id 4F/8C-03760-B1515E35; Fri, 08 Aug 2015 18:21:15 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-2.tower-54.domain.com!1407522073!8770572!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 28907 invoked from network); 8 Aug 2015 18:21:13 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-2.tower-54.domain.com with AES128-SHA encrypted SMTP; 8 Aug 2015 18:21:13 -0000
+Resent-From: Tikkun Magazine <miriam@tikkun.org>
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Fri, 8 Aug 2015 14:21:13 -0400
+Received: from [216.82.249.179:44624] by server-7.bemta-12.domain.com id
+ D7/0F-26618-81515E35; Fri, 08 Aug 2015 18:21:12 +0000
+X-Env-Sender: 2988107727-1303020-user@domain.com
+X-Msg-Ref: server-4.tower-44.domain.com!1407522068!1660918!1
+X-Originating-IP: [69.174.83.188]
+X-SpamReason: No, hits=0.5 required=7.0 tests=sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTg4ID0+IDQ4Nzk=\n,sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTg4ID0+IDQ4Nzk=\n,BODY_RANDOM_LONG,HTML_MESSAGE
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 14644 invoked from network); 8 Aug 2015 18:21:08 -0000
+Received: from domain.com (HELO domain.com) (69.174.83.188)
+  by server-4.tower-44.domain.com with SMTP; 8 Aug 2015 18:21:08 -0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1407522068;
+	h=From: Tikkun Magazine <miriam@tikkun.org>
+	bh=mwMmJddSw9M+8DNp5hPRmu+OX/M=;
+	b=tWBAzM6ZbiH8+0a2yHJjvIohSghdF0vuG0yJ7Thq8cD96ylLvCdZiCJWhv3PRjRR
+	TicNZWmI4EEAnQ5KUHJr2UKrXTjEPmoKtP3CyBMR9QeuaLLzeMB+Cp+WLchyYfpu
+	ABisc3GThx0c8uQOHypVqcjpUq3pFoVCCCaID8YsOwk=;
+Received: from [10.174.83.205] ([10.174.83.205:56493] helo=10.174.83.205)	by
+ domain.com (envelope-from
+ <2988107727-1303020-user@domain.com>)	(ecelerity 3.5.0.35861
+ r(Momo-dev:tip)) with ESMTP	id 0A/83-06839-41515E35; Fri, 08 Aug 2015 
+ 14:21:08 -0400
+Date: Fri, 8 Aug 2015 14:21:08 -0400
+From: Tikkun Magazine <miriam@tikkun.org>
+Sender: <user@domain.com>
+Reply-To: <user@domain.com>
+To: user@domain.com
+Message-ID: <2988107727.-403082652@domain.com>
+Subject: Provocative New Ideas on God: Six Web-Only Insights on the Divine!
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_17147998_1439506527.1407522068202"
+Envelope-From: Tikkun Magazine <miriam@tikkun.org>
+X_email_KEY: 2988107727
+X-campaignid: salsaorg525-1303020
+
+Thinking Anew About God: Lively Interfaith Analysis on domain.com!
+
+Whether you're an atheist or a person of faith, you'll be fascinated by how
+ cutting-edge theologians are reconsidering traditional notions of God. Our
+ new online-only content [ <<link>> ] adds es
+sential voices to the conversation in our Summer 2015 print issue [ http://
+www.tikkun.org/nextgen/summer-2014-table-of-contents ]. Here we feature pro
+found and provocative commentary from Christian, Muslim, and Jewish authors
+, as well as new thoughts on process theology!
+
+If you enjoy the freely accessible articles that you read here, please also
+ subscribe to the print issue of "Tikkun". [ <<link>>
+rack.jsp?key=3D-1&url_num=3D6&url=3Dhttps%3A%2F%2Fcheckout.subscriptiongeni
+domain.com%2Fwww.tikkun.org%2F74%2F ] We need your support to continue putting 
+great content like this out into the world. Unlike the freely accessible we
+b articles that appear below, the content from our quarterly print magazine
+ is only accessible to current subscribers. Many of our most dynamic and in
+spiring articles appear in the print magazine, so if you're not receiving t
+he magazine in the mail, you're missing out! The best way to support us is 
+by joining the Network of Spiritual Progressives [ <<link>>
+/dia/track.jsp?key=3D-1&url_num=3D7&url=3Dhttps%3A%2F%2domain.com%2
+Fo%2F525%2Fp%2Fsalsa%2Fdonation%2Fcommon%2Fpublic%2F%3Fdonate_page_KEY%3D37
+93 ]-and you will get a complimentary subscription to the print magazine if
+ you do!
+
+Names of God
+by Matthew Fox
+Where do we go for new names for God? If every creature is a name for God, 
+then all of us need to loosen up and breathe in multiple names for the Divi
+ne and be stuck on none.
+Read More =C2=BB  [ <<link>> ]
+
+Jesus and the Jews
+by Donna Schaper
+What has happened with Jesus and the Jews is a classic case of identity the
+ft. Some power-grabbing Christians under Constantine around the third centu
+ry after his birth inflated Jesus, a Jew, to become Jesus whose last name b
+ecame Christ.
+Read More =C2=BB  [ <<link>> ]
+
+The God Perspective
+by Catherine Keller
+Image of Dorothy Day I do not see, hear, smell, or touch you. Except maybe 
+always, everywhere, and therefore indiscernibly. In the synaesthesia of the
+ universe.
+Read More =C2=BB [ <<link>> ]
+
+God Is Mystery: Motherhood and Islamic Mysticism
+by Asma T. Uddin
+Labor Protest GraphicIn trying to answer questions about God for my six-yea
+r-old daughter, I have to think of the simplest, most convincing but also t
+ruest way to explain complex phenomena. And in that parsing of deep theolog
+ical conceptions of God, I have rediscovered Him.
+Read More =C2=BB [ <<link>> ]
+
+Judaism =E2=80=93 A Personal Affirmation
+by Bradley domain.com Artson
+By molding our behavior to express Torah, we Jews take on the role of God's
+ hands, reaching out to bring healing to the world, and inspiring gratitude
+ that allows us all to breathe in the giftedness of life and to share it wi
+th each other.
+Read More =C2=BB  [ <<link>>
+n ]
+
+Does "God" Make Sense? A Theological Autobiography
+by John Cobb Jr.
+Hillel image It is my belief that we cannot organize our lives or our thoug
+ht around only what is certain. That is nothing, or next to nothing. And of
+ course, we should not organize our lives and our thought around chance ide
+as that we happen to like.
+Read More =C2=BB  [ <<link>> ]
+
+Political Vision and Spiritual Wisdom by Rabbi Michael Lerner [ <<link>>
+tikkun.org/nextgen/editorials__actions ]
+
+Mourning for a Judaism Being Murdered by Israel [ <<link>>
+tgen/mourning-for-a-judaism-being-murdered-by-israel ]
+
+Israel in Gaza: A Compilation of Responses [ <<link>>
+israel-in-gaza ]
+
+Join Network of Spiritual Progressives [ <<link>>
+ewsite/ ]
+
+Popular Posts on Tikkun Daily [ <<link>> ]
+
+The Real Danger to Israel
+[ <<link>> ]
+by David Glick
+
+Israel Has Lost the Gaza 'War'
+[ <<link>>
+/ ]
+by David Harris-Gershon
+
+We Refuse to be Enemies: "Vision Camp" for Israel-Palestine Ends on a Hopef
+ul Note
+[ <<link>>
+ite-continued-bombing-vision-camp-for-israel-palestine-ends-hopeful/ ]
+by Leila Dregger
+
+Helen Prejean: The 'Whole Death Penalty System is Botched' 
+[ <<link>>
+h-penalty-system-is-botched/ ]
+by Viji Sundaram
+
+For More Blog Posts [ <<link>> ]
+
+domain.com Our Online Gallery [ <<link>> ]
+
+Exclusive Content for Subscribers
+
+God and Goddess Emerging
+[ <<link>> ]
+by Michael Lerner
+
+Trauma Legacies in the Middle East
+[ <<link>> ]
+by Tirzah Firestone
+
+Allah
+[ <<link>> ]
+by Haroon Moghul
+
+Subscribe to Read These Articles [ <<link>>
+www.tikkun.org/74/ ]
+
+From the Archives
+
+March/April 2015 
+God's Timeless Names
+[ <<link>> ]
+by Zaid Shakir
+
+Know Someone Who's Interested in this Email?
+Anyone can sign up for our free newsletter! [ <<link>>
+/sign-up-for-tikkuns-free-newsletter ]
+
+Learn about the Global Marshall Plan [ <<link>>
+site/?page_id=3D114 ]
+
+domain.com our Facebook Page [ <<link>> ]
+
+
+
+SUPPORT TIKKUN [ <<link>>
+blic/?donate_page_KEY=3D4847 ]
+GET THE MAGAZINE [ <<link>>
+4/ ]
+ADVERTISE [ <<link>> ]
+JOIN THE MOVEMENT [ <<link>>
+/public/?donate_page_KEY=3D3793 ]
+
+2342 Shattuck Avenue, Suite 1200, Berkeley, CA 94704
+Phone: 510-644-1200 |
+Fax: 510-644-1255 | www.tikkun.org [ <<link>> ]
+Unsubscribe [ <<link>>
+public/?user@domain.com&email_blast_KEY=3D1303020 ] |
+Contact Us [ <<link>> ] |
+Intern or Volunteer [ <<link>> ]

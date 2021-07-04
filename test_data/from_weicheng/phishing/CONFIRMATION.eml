@@ -1,0 +1,247 @@
+Delivered-To: zhangshuhao@gmail.com
+Received: by 2002:adf:a29b:0:0:0:0:0 with SMTP id s27csp3590892wra;
+        Sat, 6 Jun 2020 16:35:07 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJz6xGI+b8hRdCvNbx0/+jDnyE02f93CkjigU9eEBikrVFDOeiDc+Q9PO6lp2bPiGqcWEBDS
+X-Received: by 2002:a17:90b:14d5:: with SMTP id jz21mr10866335pjb.70.1591486507424;
+        Sat, 06 Jun 2020 16:35:07 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1591486507; cv=none;
+        d=google.com; s=arc-20160816;
+        b=TPrTJqzdltA6hcJ1+rcwqOGbjYSvw2vqf+/Unl/+JFqDdVDDPnsl4SGUScW051hMjz
+         401270MJAjTI+z+izr+F1RelLU5TaQemByj4uVgt+RCQi9AzjWOb6tWAT9ntq1VX+GbW
+         c22zjL5tkHY0UVPxJsJcC29aE3G9MuQ9Mhoqb1vCakCMeQbL++3av4CPVx6tXz7RJmOu
+         pnrj3fV97zcisdklUiqLbGmu5df+hSpsDp1v3NzDuVFIa+dUSHHSXpxFJEObTXZ9vqDc
+         0wz3n28Sgy0f3WYeHCAbhD8875mUCQJ4Ed8j4BO+EaE/T8Q5ILKrh1WnJQLmvvfHsk/6
+         IYWw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=sender:date:subject:message-id:to:cc:mime-version:from:in-reply-to
+         :references;
+        bh=YINNnYrQhxpFZ3e99833EgDO2srtQj44tgHT3Ci9/7I=;
+        b=xXnzG/qTwxbMjAZNwomTWRBSIyeS+gA6ikiDp4IdlufH5FFHepjIGSGsQaqrKsujFb
+         rpqTWcqXMqLpt/r3CbOHH2UeB+9dLvD9n4n9TIs0MjN3jowqN7E9KrAPhKKkWDcMLBYD
+         2dRMqxQgpT585eyKnpN3tM1QS+ol7T48nNoPv3W8/je7Je3xwvKyUNLkUITc87rEq8uQ
+         kxawT83vAEKufmavUO0M0jIqthpOWTp5ZDBfOaS47mTdXCyZemUkCsxBhqhqwOeJxypX
+         LT8bgn1lnFmkwHVV78LYQAVzgzA6zj+frthXePu74BZerSniQsqZa9ezhfQ/OqT1X2j+
+         bn4w==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of account_udnfe@for-syntaxe.razelike.com designates 69.12.91.180 as permitted sender) smtp.mailfrom=account_udnfe@for-syntaxe.razelike.com
+Return-Path: <account_udnfe@for-syntaxe.razelike.com>
+Received: from for-syntaxe.razelike.com (for-syntaxe.razelike.com. [69.12.91.180])
+        by mx.google.com with ESMTP id q20si2576773plr.437.2020.06.06.16.35.06
+        for <zhangshuhao@gmail.com>;
+        Sat, 06 Jun 2020 16:35:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of account_udnfe@for-syntaxe.razelike.com designates 69.12.91.180 as permitted sender) client-ip=69.12.91.180;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of account_udnfe@for-syntaxe.razelike.com designates 69.12.91.180 as permitted sender) smtp.mailfrom=account_udnfe@for-syntaxe.razelike.com
+Received: from app19.muc.ec-messenger.com (app19.muc.ec-messenger.com )
+  (envelope-from <g-3851351679-7322-354668012-1559235622088@bounce.news.mapp.com>)
+  by gp13mtaq123 (mtaq-receiver/2.20190311.1) with ESMTP id yA3jJ-_S5g8Z
+  for <Shuhao@comcast.net>; Thu, 30 May 2019 19:00:22 +0200
+  2 Mar 2020 17:59:46 +0000 (WET)
+Received: from sendgrid.net by (mail.needd.desu.edu  () ) id 52tspQ5Soev ; Sat, 06 Jun 2020 23:32:34 UTC
+Received: from www.takataka.gr (realshop.gr )
+  by uat.atnet.gr (Postfix) with ESMTPA id 24BF957C2E58
+  for <Shuhao@TOO>; Wed, 29 May 2019 20:27:11 +0300 (EEST)
+Content-Type: multipart/parallel; boundary="----=_NextPart_AF9_3C66_LI0L8OQS.EWZGF64L"
+References: <wcksykyli322wu2eoovpGVRFRIG52tspQ5Soev@mail.needd.desu.edu>
+In-Reply-To: <wcksykyli322wu2eoovpGVRFRIG52tspQ5Soev@mail.needd.desu.edu>
+From: <52tspQ5Soev___1254@udnfe.mec.qc.ca>U.S.C.O. CertificationTeam(confirmation)
+MIME-Version: 1.0
+CC: Shuhao@TOO
+To: Shuhao@TOO
+Message-ID: <5c65c742ac-69.12.91.180-e24_176d52tspQ5Soev3fbcab2b314c3698a@a4-winter15.mail>
+X-Apparently-To: Shuhao@TOO; Sat, 06 Jun 2020 23:32:34 UTC
+Subject: CONFIRMATION
+Date:  Sat, 06 Jun 2020 23:32:34 UTC
+Sender: Shuhao-52tspQ5Soev@sgkin.jYju.com
+X-OriginalArrivalTime: 16 Nov 2018 16:32:37.0140 (UTC) FILETIME=
+X-SES-Outgoing: 2019.03.01-54.240.13.91
+
+------=_NextPart_AF9_3C66_LI0L8OQS.EWZGF64L
+Content-Type: multipart/parallel; boundary="_-------BANSHEE_577575175=_?:"
+
+--_-------BANSHEE_577575175=_?:
+Content-Type: multipart/alternative; boundary="_----------=_MCart_577575175"
+
+--_----------=_MCart_577575175
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: Hexa
+
+
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">PREPARE TO APPLY</h3>
+<p>Find out more about the application process, researching your destination, how much it will cost and more.</p>
+</div>
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">GET READY TO GO</h3>
+<p>Congratulations on being accepted for Study Abroad! Now it's time to plan the details, like where you'll stay, organising your visa and applying for your student loan.</p>
+</div>
+ 
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">DURING YOUR STUDY ABROAD YEAR</h3>
+<p>Once you know you'll be studying abroad, you'll need to arrange accommodation, insurance, visas, proof of your finances and maybe some foreign language studies.  </p>
+</div>
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">RETURNING TO LEEDS</h3>
+<p>Welcome back! Here's some useful information to help you settle back into life in Leeds.</p>
+</div>
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">SUMMER SCHOOLS</h3>
+<p>Short programmes, usually through summer schools, are a great chance to experience study and life in another country.</p>
+</div>
+ 
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">STUDY ABROAD HANDBOOKS AND DOCUMENTS</h3>
+<p>Handbooks, checklists, forms and information you will need before and during your study abroad.</p>
+</div>
+ 
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">GRADUATE STUDY ABROAD OPPORTUNITIES</h3>
+<p>If you're a Postgraduate researcher, there may be opportunities to study abroad during your time here.</p>
+</div>
+</div>
+
+
+--_----------=_MCart_577575175
+Content-Type: text/html; charset=utf-8
+
+
+--_----------=_MCart_577575175
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 
+
+
+    
+<CEntER><a href=qlf9ne6jcyg.storage.googleapis.com/e3r3wq0cjxm#qs=r-acjgagibickbkadkffjbcaefbkgbcaeeehjabababagjahdaccajieacedgafbjjiacb><h2>See if you qualify for a CONCEALED CARRY Certification</h2></a><HR>
+<imG SRc="qlf9ne6jcyg.storage.googleapis.com/e3r3wq1cjxm" USEmAP="#">
+<mAP naME="">
+<aRea href="qlf9ne6jcyg.storage.googleapis.com/e3r3wq0cjxm#qs=r-acjgagibickbkadkffjbcaefbkgbcaeeehjabababagjahdaccajieacedgafbjjiacb" coords="4,2,706,708" shAPe="">
+<aRea href="qlf9ne6jcyg.storage.googleapis.com/e3r3wq0cjxm#qs=ua-acjgagibickbkadkffjbcaefbkgbcaeeehjabababagjahdaccajieacedgafbjjiacb" coords="91,710,571,753" shAPe="">
+<aRea hRef="qlf9ne6jcyg.storage.googleapis.com/e3r3wq0cjxm#qs=op-acjgagibickbkadkffjbcaefbkgbcaeeehjabababagjahdaccajieacedgafbjjiacb"coords="109,755,528,817" shAPe="">
+<ObjecT>
+69.12.91.180  3409501        
+
+
+--_----------=_MCart_577575175--
+--_-------BANSHEE_577575175=_?:--
+------=_NextPart_AF9_3C66_LI0L8OQS.EWZGF64L
+Content-Type: text/html;
+Content-Transfer-Encoding: Hexa
+
+
+----Ly;mtmc;xna
+
+<p>Hi!</p>
+<p>Thanks for joining the 529 Garage.</p>
+<p>Your 529 Garage user name is:</p>
+<p>Now, setup a password to complete your signup</p>
+
+
+----eK;umrc;daq
+p>VERIFY YOUR EMAIL ACCOUNT</p>
+<p>Welcome to plfOUn. To activate your alloksha account you must first verify your email address by clicking this link.</p>
+<p>HAVING TROUBLE?</p>
+<p>If the link above did not work, you can copy and paste the full URL from your mail client into your web browser. The URL should be a single line, if your mail client splits it into multiple lines, copy and paste each line separately.</p>
+<p> </p>
+<p>ADDITIONAL ASSISTANCE</p>
+----cu;jaae;wwa
+Your subscription to our list has been confirmed.
+Thank you for subscribing!
++13976776560
+----wUfPwnZs;eITWMl
+At Hillsdale, “the liberal arts” isn’t another name for general education requirements you’re supposed to slog through before you go on to your major. The liberal arts here are studied the way they were meant to be: as a means of understanding the good, the true, and the beautiful. You’ll study inescapably relevant ideas, whether they originated in Ancient Greece, the Renaissance, America’s founding era, or our own times.
+
+While liberal arts curricula at other universities take on contemporary works with temporary relevance, at Hillsdale you’ll explore timeless themes and learn from some of humanity’s greatest thinkers. That might read like a grand overstatement: trust us, it isn’t. Here, the questions are provocative, the debates robust, and the coursework intense. This journey is designed to lead you to universal truths.
+
+ 
+The Purpose of a Liberal Arts Education
+
+“A sound liberal arts education aims precisely to sharpen readers and thinkers in their use of such arguments and amusements. It aims to prepare minds and hearts for a world loud with all manner of persuasion, much of it good, much more of it not-so-good.”
+
+– Dr. David Whalen, Associate Vice President for Curriculum, Professor of English
+What You’ll Study
+
+There are fourteen specific courses that every Hillsdale student completes in the Humanities, Natural Sciences, and Social Sciences as part of the core. In addition, you’ll chose one course in Fine Arts, one in Western Literature, one in the Social Sciences, and one Center for Constructive Alternatives seminar.
+
+Bachelor of Arts degree (BA) candidates will also meet a requirement in foreign language, while the Bachelor of Science (BS) degree candidates will place a heavy emphasis on laboratory science and mathematics courses.
+Naomi Virnelson
+
+    “The intersection of my Western Religion and biochemistry core classes helped me to more fully integrate my faith and my scientific outlook.”
+
+In both her natural science and humanities classes, Naomi Virnelson encountered similar questions. Approaching them from different perspectives helped her develop a strong personal conviction.
+
+----7bVaqerS;sRIVdR
+Your subscription to our list has been confirmed.
+Thank you for subscribing!
++12659035786
+AUTORISATION D’INSCRIPTION
+POUR ETUDIANT MINEUR
+Je soussigné(e)………………………………………………………………………………………………,
+certifie sur l’honneur agir en qualité de représentant légal de
+………………………………………………………….…………., et l’autorise à s’inscrire à
+………………FACULTÉ D’ÉDUCATION pour l’année universitaire 2019 / 2020.
+ A…………..………..…………, le…… / …… / ……
+----a8AwPUPe;yPutdj
+UNIVERSITY GRANTS COMMISSION Total No. of Universities in the Country as on 01.02.2020 Universities Total No. State Universities 409 Deemed to be Universities 127 Central Universities 50 Private Universities 349 Total 935
+----y7oMFikL;xifIiO
+Dear HOQJcFyr;
+Registered Company Name:                                                         Trading Name:                                                         Registration Number:                      Registration Date:                 Business Type: (Pty) Ltd  CC (Close Corporation)  T/A (Sole Proprietor)  Partnership  Other Specify:                                     VAT Registration Number:                                                         Physical Address:                                                                                                                                                 Code:                      Postal Address:                                                                                                                                                 Code:                      Telephone No: (     )                 Facsimile No: (     )                      Mobile No:                      Email  Address:                           Approximate Monthly Purchase Amount:                                          Finance Contact:                                                                   Contact Number: (     )                 Email Address:                           Banking Details: Name of Bank:                                                                   Branch Code:                      Account Number:                           Trade References: Company Telephone Contact Credit Limit 1.                           (     )                                 R            2.                           (     )                                 R            3.                           (     )                                 R 
+----O08fEEVL;CHCFje
+Nom : Prénom : Adresse personnelle Téléphone :
+Adresse Professionnelle complète : Téléphone :
+Courrier électronique : Avez-vous participé à des activités du CAES ? Oui ? Non ? Lesquelles et en quelle année ? Composition de la famille participant à l’activité (y compris l'agent INSERM et les extérieurs éventuels). Peuvent bénéficier du Secteur Sport tous les agents rémunérés par l’INSERM (ouvrant droit), leur ayant-droits (conjoint et enfants à charge entre 21 et 26 ans - date anniversaire). Les enfants de moins de 21 ans ne sont pas pris en charge et doivent s’adresser au secteur Jeunesse (activités Périscolaires), sauf dans le cas de sorties sportives familiales.
+Nom Prénom Date de naissance Âge Lien de parenté
+Fait à Le Signature
+COMPOSITION DU DOSSIER : ? formulaire ci-joint ? Un chèque de 100 € d’arrhes ? la fiche agent avec les photocopies demandées si vous ne l’avez pas encore envoyée au CAES ? Un certificat médical de non contre indication à l’activité.
+CAES Inserm Association Loi 1901 - IM 0940006 - Assurance RCP MAIF - Garantie financière UNAT
+COMITE D'ACTION ET D'ENTRAIDE SOCIALE DE L'INSERM
+ATTESTATION DE NON SUBVENTION si conjoint
+Ce document peut nous parvenir dans un second temps 
+Je soussigné(e)………………………………en qualité de …………………………………
+Certifie que Mr/Mme……………………………………………………………….
+ne perçoit pas de subvention
+ 
+NOM et Prénom ..………………………………………………….…………. …………………………………………………….………... …………………………………….………………………... ……………………………………….……………………... ……………………………………….……………………... ……………………………………….……………………...
+ 
+Pour servir et valoir ce que de droit.
+Fait à
+Le
+----Hr964zCR;StZPSQ
+gCQHfFB.edu
+mmRDGxOil.edu
+woUFUB.edu
+----422egIEQ;Gvuvoe
+
+----7K1LV6nc;szLaUT
+Thank you for signing up!
+Welcome to Getsitecontrol. Enjoy your 7-day free trial with all the features available right from the get-go. Let's get you set up!
+----Y990W91q;YmAQmq
+----axoJLqFb;pNDsnR
+Hi Test App team,
+In order to keep our Facebook platform and community safe, we periodically review apps for compliance. We need the following action from you on your app, Test App (1739948439629079), in order to approve your app’s continued operation on our platform.
+URL(s) listed on your app dashboard settings could not be accessed for platform compliance review. Kindly make sure that the following field(s) on your app dashboard are working correctly:
+Website: Site URL
+The corresponding URL(s) should return a successful HTTP status code. You can verify this using the Sharing Debugger.
+- Sharing Debugger: https://developers.facebook.com/tools/debug/sharing/
+- Compliant response codes: 200-299
+- Violating response codes: 100-199, 300-399, 400-499, 500-599
+Please also whitelist the user agent strings or the IP addresses (more secure) used by the crawler. For detailed instructions, please visit: https://developers.facebook.com/docs/sharing/webmasters/crawler.
+For Google Package Name(s) and iPhone Store ID(s), please make sure that these are publicly available.
+Kindly apply the requested changes to prevent your app from being restricted on our platform. You can check your app dashboard to verify if the violating fields are now compliant, otherwise you will receive an automated alert as soon as we've detected that the fields are compliant.
+Thank you for your cooperation in our continued efforts to keep our platform safe.
+Facebook Developer Operations Team
+***** This is an automated message, please do not reply to this email. *****
+You can view this and other developer notifications related to your app in the app dashboard.
+Visit app dashboard
+Is this still the best place to reach you? Go to your Developer Settings if you'd like to update your email address or unsubscribe. You can also manage your role on an app in the Roles section of the App Dashboard.
+This is an automated message. Please do not reply. You are receiving this email because you've chosen to receive developer updates from Facebook.
+All rights reserved, Facebook © 2018-present. 1 Facebook Way, Menlo Park, CA 94025
+----HBf2OSrd;ibizeD
+<p>Dear Students,</p>
+<p>This on-line Handbook is intended to assist you in navigating the policies and procedures at the UH Law Center</p>
+<p>and the University of Houston. It is intended to bring together rules, policies and procedures from various</p>
+<p>sources that are important to law students. All students are responsible for being familiar with the contents;</p>
+<p>therefore, students are strongly encouraged to review all policies carefully.</p>
+<p>Although every effort has been made to make this Handbook accurate and complete, the information provided</p>
+<p>is subject to change or correction. All updates will be announced in Daily LEX and the Handbook will be</p>
+<p>updated with the changes duly noted.</p>
+----s2v7tq3N;xVkRXT

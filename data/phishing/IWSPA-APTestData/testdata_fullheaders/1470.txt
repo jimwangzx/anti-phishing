@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.30 with SMTP id o30csp1103946lfi;
+        Sun, 22 Mar 2015 09:55:55 -0700 (PDT)
+X-Received: by 10.180.187.171 with SMTP id ft11mr12888991wic.0.1427043353955;
+        Sun, 22 Mar 2015 09:55:53 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::22c])
+        by domain.com with ESMTPS id k8si5768725wiy.84.2015.03.22.09.55.53
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 22 Mar 2015 09:55:53 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22c as permitted sender) client-ip=2a00:1450:400c:c05::22c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22c as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-wi0-domain.com with SMTP id w10so28328729wix.0
+        for <user@domain.com>; Sun, 22 Mar 2015 09:55:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Cheryl Mills <cheryl.mills@gmail.com>
+         :content-type;
+        bh=SwlUyiQlboLu+S+ZXwXbuAMnpiBEYEJLv/VqF2+8o98=;
+        b=QWAp14eUh24klheWjRRNFo3nuxgR3806la32vwyrTfJRPzsHgPvcisVxlGOQoMkerT
+         +fp9NFKiADvBu9EtXDkcIbA1OLF5Ja5W47n5OJjlP2yQYo+6s9/RlrrkblZuyewry6mK
+         lR92UlLTCT136oi5H0eStOeZny6HwlysNJmIPm6lC/JMuHQ5vpQfnu9phpnUiCEmbF/w
+         1argWkiiHG+zvcEptabWYOtodf6L7P9TMH6Clr66U6frGpDTDPpgSNpFfalbqNLMtATZ
+         w7vT/ZgLFDcSKWsFC9w+uRcoY5QtqiqdriGChNyXLTSne84H2jqZtjaHwdhM02KuujyX
+         cQqw
+MIME-Version: 1.0
+X-Received: by 10.194.171.100 with SMTP id at4mr155884194wjc.122.1427043353652;
+ Sun, 22 Mar 2015 09:55:53 -0700 (PDT)
+Received: by 10.27.51.1 with HTTP; Sun, 22 Mar 2015 09:55:53 -0700 (PDT)
+In-Reply-To: <CAE6FiQ9OahE2OjykBjBkpaa+7user@domain.com>
+References: <user@domain.com>
+	<user@domain.com>
+	<069101d06418$f41e6610$dc5b3230$@gmail.com>
+	<CAE6FiQ9OahE2OjykBjBkpaa+7user@domain.com>
+Date: Sun, 22 Mar 2015 12:55:53 -0400
+Message-ID: <CALk44aB-iG=7CA=ZWGwC24UTGJHUpD+eX5UfbqPxF+user@domain.com>
+Subject: Re: FW: Re: For Review: Memorandum for Senior Staff - CDM Chop
+From: Cheryl Mills <cheryl.mills@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/mixed; boundary=089e0122e9202d42360511e36cfe
+
+JP
+
+note my additions and my adjustment of the to community.
+
+cdm
+
+On Sat, Mar 21, 2015 at 4:57 PM, John user <user@domain.com>

@@ -1,0 +1,87 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 16 Jan 2015 19:10:14 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0H3ADTr020117	for <user@domain.com>; Fri, 17 Jan 2015 
+ 03:10:13 GMT
+Received: from mail105-db9-domain.com
+ (mail-domain.com [213.199.154.244])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0H3BDlb023452	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Fri, 17 Jan 2015 03:11:14 GMT
+Received: from mail105-db9 (localhost [127.0.0.1])	by
+ mail105-db9-domain.com (Postfix) with ESMTP id 9B36C22012B	for
+ <user@domain.com>; Fri, 17 Jan 2015 03:10:11 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.105;KIP:(null);UIP:(null);IPV:NLI;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(zzc545Ic89bhc857hdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1defc1h1def86h1de097h1de096h186068h172c6ch1ce120h1a691ciz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh2327h2336h2438h2461h2487h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail105-db9: domain of domain.com designates 192.64.236.105 as permitted sender) client-ip=192.64.236.105; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail105-db9 (localhost.localdomain [127.0.0.1]) by mail105-db9
+ (MessageSwitch) id 1389928210515087_7749; Fri, 17 Jan 2015 03:10:10 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.16.246])	by
+ mail105-domain.com (Postfix) with ESMTP id 78847140047	for
+ <user@domain.com>; Fri, 17 Jan 2015 03:10:10 +0000 (UTC)
+Received: from mx-domain.com (192.64.236.105) by domain.com
+ (10.174.14.25) with Microsoft SMTP Server id 14.16.227.3; Fri, 17 Jan 2015 
+ 03:10:09 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1389928209;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=Q+MQHVmLQMWUTnZdKHJdQh3M+UwneAPCc196rePLeoc=;
+	b=n4TnSn3rLVIrG+ofDCKwVaQW7mED4WPAN+sdXcSygkM2T71sdqz3GXRisdbvbzbk
+	bidU+dsrLdx/W9q9AsjeQ1S+EBgPs4fkE+TckySuP1jw/Y4j68K8DlwrDVXhfL+fES9
+	uvuvlqnIrGdG9CVs3xqRXdXje61bsVdDhryOX7Sc
+Date: Thu, 16 Jan 2015 22:10:09 -0500
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140117031009.2359522.19834@domain.com>
+Subject: '12 Years a Slave' Takes Top Honors at Critics Choice Movie Awards
+Precedence: bulk
+X-TM-ID: 20140117031009.2359522.19834
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.105
+X-IADB-IP-REVERSE: 105.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2359522
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+'12 Years a Slave' Takes Top Honors at Critics Choice Movie Awards
+
+Fox Searchlight's "12 Years a Slave" took best picture prize at the 19th Critics Choice Movie Aw... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Thursday, January 16, 2015      
+
+​ 
+
+<<link>> 
+
+        '12 Years a Slave' Takes Top Honors at Critics Choice Movie Awards              
+
+        Fox Searchlight's "12 Years a Slave" took best picture prize at the 19th Critics Choice Movie Awards, which was also honored for ...            
+
+        Full Story              
+
+
+
+
+Subscribe to Other Variety Newsletters   
+

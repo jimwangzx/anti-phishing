@@ -1,0 +1,55 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp733353lfb;
+        Sat, 6 Feb 2015 19:08:28 -0800 (PST)
+X-Received: by 10.13.208.135 with SMTP id s129mr12123475ywd.222.1454814508855;
+        Sat, 06 Feb 2015 19:08:28 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-yw0-domain.com (mail-yw0-domain.com. [2607:f8b0:4002:c05::234])
+        by domain.com with ESMTPS id g65si5913605ywa.346.2016.02.06.19.08.28
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 06 Feb 2015 19:08:28 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c05::234 as permitted sender) client-ip=2607:f8b0:4002:c05::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c05::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-yw0-domain.com with SMTP id h129so56233820ywb.1
+        for <user@domain.com>; Sat, 06 Feb 2015 19:08:28 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Neera Tanden <ntanden@gmail.com>
+        bh=1wk/zoc8wVJJrL5iYRZbyO5DMwyyqq28CXmNsECGHfU=;
+        b=KBY4EHG4M8G99HC7gZaOvNjDZXvPuKOxYfqoowpqMKWaPc5nnmU+6bL9xOs+liYK4f
+         +S+Cx49arHESSwLy5CJan4+etFw+gtGatue0EyB9/9choNYkBjNF5XsFhd8AZVlPOcOx
+         Kk2Ev6fWtfp3OiiM8eNT6WGLzBslODyzpVJEIsyvyRhDMNMKy4SUnOynfGjUUMvhdY9Q
+         5X8fyFkHfnWOe2mFbaZ2rLuE8h6fUK64ph4dz+domain.com/lY5vkV7teW4D
+         kCDd6wW6tDg3B2eqxDglHEvhXB1X8cFKRGPqESKrD662VyjCTNKskKyJpNovv0kUmreA
+         oX7Q
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Neera Tanden <ntanden@gmail.com>
+         :content-type;
+        bh=1wk/zoc8wVJJrL5iYRZbyO5DMwyyqq28CXmNsECGHfU=;
+        b=WJfaTLiP/x7kPX5asSNB0bETrhD5J0WVMDE2CHRZDOpI2RUi+CXWgYA8yoAbTRV/ez
+         jNePhKkPTEdET9sIp/ddOFGO2RD+kZUXTl47wgqqUrHJX1VmXOALRfjJ9Jrlvufh2Iia
+         QD3pw/Dbq4gkjTEuHaMfrPNtJ4xipgs/P/ULXC89UCQpQ2ZjAqAsQVPukuGMj9ZWclZS
+         5TYn/EQOyY9TPWQqDdhLcSImPfyEbe+pM0V2Y1eRLjBcEd+ZkLCqmUQdf6DxbGwXkpMt
+         iSquATvK11sSspRDeAHwIm7BxShVXjMPBF9BnrdbOMPACOa8yWHWB8jnyawEQC2+T8pk
+         9UcQ
+X-Gm-Message-State: AG10YOQ3DYMqrMWb27TVGQhgjXDppmHSxOaXcCB19vK+/A9T3s85TLM9S4T315j04pKhomejwmmphX14X2rwSg
+MIME-Version: 1.0
+X-Received: by 10.13.196.196 with SMTP id g187mr10938125ywd.264.1454814508608;
+ Sat, 06 Feb 2015 19:08:28 -0800 (PST)
+Received: by 10.13.213.200 with HTTP; Sat, 6 Feb 2015 19:08:28 -0800 (PST)
+Date: Sat, 6 Feb 2015 22:08:28 -0500
+Message-ID: <user@domain.com>
+Subject: speaking at the banks
+From: Neera Tanden <ntanden@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a114d5f06002dc7052b25664d
+
+dont shoot me but if we lose badly maybe she should just return the money
+Say she gets the anger and moves on.  Feels a little like an open wound
+
+One of the canvassers told me it came up at 3 undecideds houses.

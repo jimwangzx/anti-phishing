@@ -1,0 +1,210 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 24 Jun 2015 13:33:29 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s5OKXSo0019398	for <user@domain.com>; Tue, 24 Jun 2015 
+ 20:33:28 GMT
+Received: from mail211-va3-domain.com (mail-domain.com
+ [216.32.180.116])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s5OKYhKY002662
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 24 Jun 2015 20:34:43 GMT
+Received: from mail211-va3 (localhost [127.0.0.1])	by
+ mail211-va3-domain.com (Postfix) with ESMTP id 2F333980379	for
+ <user@domain.com>; Tue, 24 Jun 2015 20:33:26 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:68.232.205.210;KIP:(null);UIP:(null);IPV:NLI;H:mta.landroveremail.com;RD:mta.landroveremail.com;EFVD:NLI
+X-SpamScore: 24
+X-BigFish: vps24(zzc85fhc430I1936Ie0eah77f5hdc2kzz1f42h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1def03h177df4h17326ah16fI1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h1954cbhc704dh172c6ch1b778fh1ce120h7cfds63ba7n59886m17e904i1ce121i1df164i1df123iz2fh11bfMeh5eh5fh839hc60hc61hd24he13h107ah10d2h1288h12a5h137ah13eah1441h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h25f6h2605h2673h268bh26d3h27e2h282bh28a1h27b1k)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail211-va3: domain of bounce.landroveremail.com designates 68.232.205.210 as permitted sender) client-ip=68.232.205.210; user@domain.com; helo=mta.landroveremail.com ;domain.com ;
+Received: from mail211-va3 (localhost.localdomain [127.0.0.1]) by mail211-va3
+ (MessageSwitch) id 1403642002175006_4768; Tue, 24 Jun 2015 20:33:22 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.252])	by
+ mail211-domain.com (Postfix) with ESMTP id 1D6A3800A8	for
+ <user@domain.com>; Tue, 24 Jun 2015 20:33:22 +0000 (UTC)
+Received: from mta.landroveremail.com (68.232.205.210) by
+ domain.com (10.7.99.21) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 24 Jun 2015 20:33:21 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=landroveremail.com;
+ h=From: LAND ROVER <email@landroveremail.com>
+ bh=KcUHIW1J+MEUPL1Dst0EWTC/3Tw=;
+ b=HNufjyqfkA2roiuGzuyvnbCq8RTwrL0NpNhzlcbCcPVyDdtTfCWJkMsraYJYx4KqF44/cU6lok6I
+   EvC79MIxNEBLY8ixrZsOKlnvIqID54Ozan7FDpQwlKflwm3ToJKbUPlaCbr1ANWznUh7yfnPY2f8
+   skln8oqhB3Nh64lbhLo
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=landroveremail.com;
+ b=EJsGSCSvamWPipjiX3CnF/K+iYfRrMzbbfC4RQ9kWDz3KHwVxqQ/QpMjnk8kJikayeNBDpkYU/q1
+   ZoAaY/NnAWIVODx+DdBPigqZCzMHYf3RztYzxElcIWx2VB5nIYWGVimsNOUPWK+DLwNWKkTCc6Ie
+   MECO96NLpfBYwxMoVQk=;
+Received: by mta.landroveremail.com id hl7g92163hsh for
+ <user@domain.com>; Tue, 24 Jun 2015 14:33:16 -0600 (envelope-from
+ <user@domain.com>)
+From: LAND ROVER <email@landroveremail.com>
+To: <user@domain.com>
+Subject: Join Us For A Land Rover Adventure First
+Date: Tue, 24 Jun 2015 14:33:15 -0600
+List-Unsubscribe: <mailto:user@domain.com>
+Reply-To: LAND ROVER
+	<user@domain.com>
+x-job: 1058843_8662125
+Message-ID: <9user@domain.com>
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Join Us For A Land Rover Adventure First
+
+ <<link>>
+
+This Summer Cross the Great Divide with Land Rover Adventures
+
+<<link>> 
+
+
+
+
+LAND ROVER ADVENTURES CELEBRATES THE
+25TH ANNIVERSARY OF THE GREAT DIVIDE*   
+
+
+
+
+If you embrace adventure yet also appreciate luxury, Land Rover Adventures offer something quite extraordinary; unique opportunities to navigate a Land Rover vehicle off-road across some of the world's most awe-inspiring landscapes.
+
+Land Rover completed a historical north-to-south traverse of the Continental Divide in iconic Range Rover vehicles in 1989. Recreate that epic achievement by traversing the Great Divide and some of Colorado's most challenging off-road passes in comfort and luxury behind the wheel of a 2015 Range Rover.
+
+Each day of this extraordinary once-in-a-lifetime experience will include expert guidance, incomparable scenery and the kind of camaraderie that shared adventure brings.
+
+If you are unable to join us on these dates, Land Rover Adventures is also offering a journey across the red-rock of Moab, Utah in October. For additional details, please click on "Learn More."        
+
+
+
+
+ADVENTURE DETAILS        
+
+
+
+
+NINE DAY ADVENTURE
+Date: August 20-28, 2015 
+Price per couple: $13,000
+Price per single: $9,000
+
+TEN DAY ADVENTURE
+Date: September 3-12, 2015 
+Price per couple: $14,000
+Price per single: $9,800
+
+To book your reservation,
+please call: 1-828-225-1541
+
+Space is limited         
+
+
+
+
+Learn More       
+
+
+
+
+HIGHLIGHTS       
+
+
+
+
+ <<link>>  
+
+
+
+
+DAY 1-2: A JOURNEY BEGINS        
+
+
+
+
+Arrive in Denver at the incomparable Four Seasons Hotel and meet the team of Land Rover Experience Driving Instructors. Next, get behind the wheel of a 2015 Range Rover and head towards Breckenridge, where you'll traverse the narrow Webster Pass shelf road and the spectacular 12,801-foot Red Cone.       
+
+
+
+
+ <<link>>  
+
+
+
+
+DAY 3-4: REACHING HEIGHTS        
+
+
+
+
+Adventure continues on Day 3 to Aspen via Mosquito Pass, the highest through-road in North America at 13,188 feet. Cross the Divide over Tincup Pass to the historic ghost town of St. Elmo, where we will stay overnight under the stars at the foot of the Collegiate Peaks.   
+
+
+
+
+ <<link>>  
+
+
+
+
+Day 5-6: SCENIC PASSES   
+
+
+
+
+Break camp and cross the Divide over Hancock Pass and then drive the spectacular Tomichi Pass shelf road. On Day 6 travel over one of the most scenic San Juan Mountain Passes called Engineer Pass at 12,800-feet. Spend the evening at the historic Beaumont Hotel in Ouray.   
+
+
+
+
+ <<link>>  
+
+
+
+
+Day 7: THE OLD WEST      
+
+
+
+
+Cross six historic passes that once linked the mining towns of Ouray, Lake City, Animas Forks, Carson, Creede and Silverton. Take your Land Rover vehicle up an impressive 13,133 feet before spending the evening in the old west town of Silverton at the Grand Imperial Hotel         
+
+
+
+
+ <<link>>  
+
+
+
+
+Day 8-9: THE FINALE      
+
+
+
+
+Spend the final day of off-roading on breathtaking passes that link Silverton and Ouray with Telluride. Then we make our way to the luxurious Hotel Madeline located in Telluride Mountain Village. Exquisite farewell dinner at Alpino Vino restaurant perched at 11,000­feet.  
+
+
+
+
+TEN-DAY ADVENTURE: A DAY OF LEISURE      
+
+
+
+
+For those of you joining us on the Ten-Day Adventure, we will be spending an extra day in the town of Ouray to take in local interests. A day of leisure to be spent as you wish...going to museums, shopping or relaxing at the spa.    
+
+
+
+
+Contact Us | Privacy Policy | Unsubscribe        
+
+
+
+
+Facebook                 
+

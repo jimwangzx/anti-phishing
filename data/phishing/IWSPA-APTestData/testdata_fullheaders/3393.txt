@@ -1,0 +1,103 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Tue, 30 Jun 2015 18:45:21 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 0DDE36037E	for
+ <user@domain.com>; Tue, 30 Jun 2015 17:20:25 +0100 (BST)
+Received: by domain.com (Postfix)	id 777F44440B13; Tue, 30 Jun 2015 
+ 18:43:48 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 76BED4440497	for
+ <user@domain.com>; Tue, 30 Jun 2015 18:43:48 +0200 (CEST)
+X-ASG-Debug-ID: 1435682719-066a7550a000150001-4b75iv
+Received: from mail02.elq.mongodb.com (mail02.elq.mongodb.com [142.0.164.212])
+ by domain.com with ESMTP id CmaR3uoTFReTEwAU for
+ <user@domain.com>; Tue, 30 Jun 2015 18:45:19 +0200 (CEST)
+X-Barracuda-Envelope-From: MongoDB <mongodbteam@mongodb.com>
+X-Barracuda-Apparent-Source-IP: 142.0.164.212
+DKIM-Signature: v=1; a=rsa-sha1; d=mongodb.com; s=dk1024-2012; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1435682718;
+	h=From: MongoDB <mongodbteam@mongodb.com>
+	bh=5WJVn2kxBzI4mNb/1ki84iG4nig=;
+	b=Mmkjq1QrdkQcKvuAlYHke1RfA6BJX6Fq3pVYYrlik1mEBRb01KWGKOCsblzU9fNK
+	ScJvDWdsH7SyXbXkRAqUO5kNKLQ8cIM9j2k3OLNDO5jVsXyR6j6jdOvKk5sgr8xS
+	cEiaQ5J4jdoF8J+GV+KEJjXyK146/UYhqlJMclKixug=;
+Received: from [10.34.116.100] ([10.34.116.100:61637] helo=P03INJ011)	by
+ msm-mta04-dc6 (envelope-from <user@domain.com>)	(ecelerity 3.6.9.48312
+ r(Core:3.6.9.0)) with ESMTP	id 30/D7-21957-E97C2955; Tue, 30 Jun 2015 
+ 12:45:18 -0400
+Message-ID: <fe945a3bd67043c8acde9c41bcb05502@413370795>
+X-Binding: 413370795
+X-elqSiteID: 413370795
+X-elqPod: 0x4FAD31AC84944479F0D71EA9AF9E5B508254F4720DA05EDD7E2289D7C62F1F76
+List-Unsubscribe: <<<link>>>
+From: MongoDB <mongodbteam@mongodb.com>
+To: <user@domain.com>
+Reply-To: MongoDB <user@domain.com>
+Date: Tue, 30 Jun 2015 12:45:18 -0400
+Subject: A Technical Introduction to WiredTiger
+X-ASG-Orig-Subj: A Technical Introduction to WiredTiger
+X-Barracuda-Connect: mail02.elq.mongodb.com[142.0.164.212]
+X-Barracuda-Start-Time: 1435682719
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.17
+X-Barracuda-Spam-Status: No, SCORE=0.17 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=HTML_IMAGE_RATIO_04, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.20327
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.17 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-70130407_-_-"
+
+body{  background-color: #f6f6f6;  } a img{border: none;}.ReadMsgBody { width: 100%;}.ExternalClass {width: 100%;}
+a{
+color: #6ca439;
+text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+html {-domain.com-text-size-adjust:none}
+
+
+
+
+Hi
+ Alberto,
+MongoDB
+ 3.0 introduces a pluggable storage architecture and a new storage 
+engine called WiredTiger. In this webinar, you'll learn how WiredTiger 
+improves scaling, throughput, and latency from WiredTiger cofounder, 
+Michael Cahill.We'll
+ also take a look at some of the features we hope to incorporate into WiredTiger and MongoDB in the future.If you're unable to attend, by registering for the webinar we will send you a link to a recording of the presentation. We look forward to seeing you there!
+  Regards,The MongoDB Team
+
+2pm
+ PDT | 5pm EDT | 10pm BSTSpeaker: Michael Cahill
+
+REGISTER NOW
+
+
+
+
+MongoDB Inc., 2015. All rights reserved.
+			229 West 43rd Street 5th Floor New York, NY 10036 
+
+
+
+			To
+ view the online version click here.
+			To unsubscribe from future MongoDB emails or to update your MongoDB email preferences click here. 
+
+

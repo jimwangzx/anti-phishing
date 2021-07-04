@@ -1,0 +1,48 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp706687lfb;
+        Fri, 14 Nov 2015 08:29:30 -0800 (PST)
+X-Received: by 10.170.112.141 with SMTP id e135mr8205701ykb.5.1415982569469;
+        Fri, 14 Nov 2015 08:29:29 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from st11p02mm-domain.com (st11p02mm-domain.com. [17.172.220.237])
+        by domain.com with ESMTPS id r133si30237464ykc.130.2014.11.14.08.29.28
+        for <user@domain.com>
+        (version=TLSv1 cipher=RC4-MD5 bits=128/128);
+        Fri, 14 Nov 2015 08:29:29 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 17.172.220.237 as permitted sender) client-ip=17.172.220.237;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 17.172.220.237 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=me.com
+Received: from [10.16.95.34]
+ (mobile-166-170-049-140.domain.com [166.170.49.140])
+ by st11p02mm-domain.com
+ (Oracle Communications Messaging Server 7u4-27.10(7.0.4.27.9) 64bit (built Jun
+  6 2014)) with ESMTPSA id <0user@domain.com> for
+ user@domain.com; Fri, 14 Nov 2015 16:29:14 +0000 (GMT)
+From: wendy Abrams <wabrams1@me.com>
+Content-type: multipart/alternative;
+ boundary=Apple-Mail-E0994DAD-7C64-44DB-958E-8436EAE076DF
+Content-transfer-encoding: 7bit
+MIME-version: 1.0 (1.0)
+Subject: Fwd: prez on keystone
+Message-id: <12530user@domain.com>
+Date: Fri, 14 Nov 2015 08:29:13 -0800
+References: <3user@domain.com>
+To: "User" <user@domain.com>
+X-Mailer: iPhone Mail (12B411)
+X-Proofpoint-Virus-Version: vendor=fsecure
+ engine=2.50.10432:5.13.68,1.0.28,0.0.0000
+ definitions=2014-11-14_07:2014-11-14,2014-11-14,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+ suspectscore=0 phishscore=0 adultscore=0 bulkscore=0 classifier=spam adjust=0
+ reason=mlx scancount=1 engine=7.0.1-1408290000 definitions=main-1411140127
+
+This is leadership! And this is awesome!
+
+Sent from my iPhone
+
+Begin forwarded message:
+
+nst-keystone-xl-pipeline?utm_content=3Dbuffer9abd9&utm_medium=3Dsocial&utm_s
+ource=3domain.com&utm_campaign=3Dbuffer
+

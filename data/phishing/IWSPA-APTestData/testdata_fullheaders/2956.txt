@@ -1,0 +1,306 @@
+Delivered-To: user@domain.com
+Received: by 10.229.248.208 with SMTP id mh16cs32333qcb;
+        Fri, 20 Aug 2015 08:38:41 -0700 (PDT)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.220.157.139 as permitted sender) client-ip=10.220.157.139;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.220.157.139 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.220.157.139])
+        by 10.220.157.139 with SMTP id b11mr263525vcx.36.1282318720090 (num_hops = 1);
+        Fri, 20 Aug 2015 08:38:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:received:received:From: Creamer2@aol.com
+         :date:subject:to:mime-version:x-mailer:x-aol-ip:x-spam-flag
+         :x-aol-sender:x-original-sender:x-original-authentication-results
+         :reply-to:precedence:mailing-list:list-id:list-post:list-help
+         :list-archive:sender:list-unsubscribe:content-type;
+        bh=R7DJ4n9/B3JHeroQQSznjk6oJDRXr0oKzYqlL5lkL3g=;
+        b=Fimc0tujyFQKw4Kp8Yx9lZjcrJlBeRci6EcSG/M5nh/5Mgpw5H5CuG/lq8OS2Oj/In
+         0zYhlkK4qOZPRcse1gqw9QkeGj5NUd1s3Px9ocKTX8m0BcG0FNyDVDyECur7S8aByiPn
+         nwCQiOQTb+CcM90rj1zB1F1Etmv4MOXuGNhDE
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:From: Creamer2@aol.com
+         :mime-version:x-mailer:x-aol-ip:x-spam-flag:x-aol-sender
+         :x-original-sender:x-original-authentication-results:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe:content-type;
+        b=TulvjlPDrsTCa+m3ogtcI7Xt8jLOikIHOPjlE9SlvlxBuXgqDKoPDcCNHC0CKMd24z
+         HGBgxjtSJHIG+kO+q4bfgkkeXZ7XOWpIIHJoDL/xuikqhft/QzrrbUD4WEV23xanpDc4
+         SLMwMDR77y/fOTMfQrCk6Kx/mxD3r7C2wm7y0
+Received: by 10.220.157.139 with SMTP id b11mr48724vcx.36.1282318698380;
+        Fri, 20 Aug 2015 08:38:18 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.220.111.137 with SMTP id s9ls513151vcp.1.p; Fri, 20 Aug 2015 
+ 08:38:17 -0700 (PDT)
+Received: by 10.220.201.66 with SMTP id ez2mr429484vcb.25.1282318696389;
+        Fri, 20 Aug 2015 08:38:16 -0700 (PDT)
+Received: by 10.220.201.66 with SMTP id ez2mr429482vcb.25.1282318696308;
+        Fri, 20 Aug 2015 08:38:16 -0700 (PDT)
+Received: from imr-da04.mx.aol.com (imr-da04.mx.aol.com [205.188.105.146])
+        by gmr-domain.com with ESMTP id e34si358214vcm.7.2010.08.20.08.38.16;
+        Fri, 20 Aug 2015 08:38:16 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 205.188.105.146 as permitted sender) client-ip=205.188.105.146;
+Received: from imo-da02.mx.aol.com (imo-da02.mx.aol.com [205.188.169.200])
+	by imr-da04.mx.aol.com (8.14.1/8.14.1) with ESMTP id o7KFbt1o013966;
+	Fri, 20 Aug 2015 11:37:56 -0400
+Received: from user@domain.com
+	by imo-da02.mx.aol.com  (mail_out_v42.9.) id r.dda.fa4f835 (43952);
+	Fri, 20 Aug 2015 11:37:50 -0400 (EDT)
+Received: from magic-d22.mail.aol.com (magic-d22.mail.aol.com [172.19.155.138]) by cia-dd01.mx.aol.com (v129.4) with ESMTP id MAILCIADD011-abb04c6ea14d18b; Fri, 20 Aug 2015 11:37:49 -0400
+From: Creamer2@aol.com
+Message-ID: <user@domain.com>
+Date: Fri, 20 Aug 2015 11:37:49 EDT
+Subject: [big campaign] New Huff Post from Creamer-Rep Strategy for
+ Victory:Stall Economic Recovery
+To: user@domain.com, user@domain.com
+MIME-Version: 1.0
+X-Mailer: AOL 9.1 sub 5011
+X-AOL-IP: 66.253.44.162
+X-Spam-Flag: NO
+X-AOL-SENDER: user@domain.com
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com:
+ domain of user@domain.com designates 205.188.105.146 as permitted sender) user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>,
+ <mailto:bigcampaign+user@domain.com>
+Content-Type: multipart/alternative; boundary="part1_c9525.6107a47f.399ffb4d_boundary"
+
+Republican Strategy for Victory: Stall Economic  Recovery
+
+I suppose it should come as no surprise.  The Republicans are rooting
+against the  American economy and American workers.  They believe that they
+ will
+do  better politically in the 2015 Mid-term elections =96 and the 2015 
+Presidential =96  if the economy does worse.  And for  the last twenty mont
+hs they
+have done everything they can to assure that  outcome. 
+Of course some  will say that no, the Republicans just have a different
+view of what will create  jobs than Democrats.  And that is  partly true. 
+
+Generally their view  is that whatever is in the short-term interest of the
+ big
+Wall Street banks,  insurance companies, big oil and their wealthy donors i
+s
+what is =93good for the  economy.=94  They implemented their  program of ta
+x
+cuts for the rich and allowing the reckless Wall Street banks to  do whatev
+er
+they pleased for eight long years. The result was a $2,000 decrease  in
+real income for most Americans, a massive increase in incomes for the top t
+wo 
+percent of the population, zero net private sector job creation, and the 
+
+collapse of our economy.
+But it=92s not  just their commitment to =93trickle down=94 economics that 
+has
+caused them to do  everything in their power to block economic recovery. 
+
+They believe that their political  fortunes will rise if the fortunes of th
+e
+rest of us decline.  We can=92t let them be right. 
+The most striking case in point is the small business jobs bill that will 
+
+hit the Senate immediately after the recess.  The bill provides financial
+
+incentives  to small business to create new jobs.  You=92d think that any b
+ill
+that infuses money into a key Republican  constituency like small business
+
+would be met with open arms by the Republican  minority.  No such luck.  Th
+ey
+plan to filibuster the bill even  though many of its provisions were lifted
+
+directly from measures authored by  Republicans. 
+The Republican anti-recovery crusade began with the stimulus.  When
+President Obama took office the  economy and job market were in free fall. 
+ The
+month he took the oath of office, the economy lost 650,000 jobs.  Virtually
+
+every mainstream economist agreed that an emergency stimulus package  was
+
+necessary to avoid spiraling into another Great Depression.  
+In a recession the problem is not a sudden decline of the ability of the 
+
+economy to produce goods and services.  The problem is that the web of
+economic relationships is disrupted and  creates an artificial decline of d
+emand
+for products and services =96 a demand  domain.com.  Without adequate demand t
+o 
+buy their products, businesses lay off workers who have even less money to
+
+buy  products, and the economy spirals into recession.  
+Recessions  result in incredible waste.  All of  the products and services
+
+that idle workers, plants and equipment could have  created are simply not
+
+produced =96 meaning that the society as a whole is poorer  with fewer good
+s
+and services to go around. 
+The solution to this problem is to create the economic demand to put 
+people back to work and jump start the economy.  But the only source of tha
+t
+demand is  the government. 
+The White House economic team =96 and many progressive economists -- 
+believed that a large stimulus was  necessary to push the economy out of th
+e
+economic ditch and get it going  again.   But the Republicans  said no.  Ma
+ny
+opposed any stimulus  at all. In the end, the price for the three Republica
+ns
+who ultimately voted yes  was a scaled-back stimulus that turned out to be
+
+enormously effective =96 just not  big enough to do the job. 
+Even today, Republicans are campaigning against the stimulus claiming it 
+
+didn=92t work, even though the non-partisan Congressional Budget Office
+analysis  finds that it created or saved 2.8 million jobs by the end of Jul
+y and
+will  probably have created or saved 3.5 million by the end of September. 
+
+Without it, instead of the eight million  jobs lost as a result of the
+Republican recession, we would have lost 11.5  million jobs.
+But of course politically, that would have been just fine with the 
+Republicans. 
+The effective size of the stimulus bill was about $717 billion, not 
+counting the so-called Alternative Minimum Tax fix that Republicans forced 
+into 
+the bill that had no stimulative effect.  Had the stimulus been $1.4
+trillion, the odds are good it would have  created another 3.5 million jobs
+.
+Think just how  different both the economic and political situation would
+
+be today if the  economy had generated another 3.5 million jobs in the last
+
+20 months.  
+But what about the domain.com you say?  First a good portion of the
+newly-generated short-term domain.com would have  been offset by increased tax
+ revenues
+generated from new wages and the new  spending they created as they flowed
+
+through the economy.  And over the long run most economists  agree that thi
+s
+kind of expenditure would have actually improved the domain.com  picture by
+jumpstarting overall economic growth. 
+In fact, most of the budget surplus generated by the Clinton economic
+program  came from just that =96 the big-time economic growth of the late 1
+990=92s. 
+But opposing and limiting the size of the stimulus was just the beginning 
+
+of Republican attempts to throw sand in the gears of the  recovery.
+They opposed the Government rescue of GM that has proven to be one of our 
+
+biggest economic bright spots.  Instead of going into bankruptcy, or
+liquidating and costing thousands of  additional jobs, GM actually turned a
+ $2.2
+billion domain.com in the first half of  this year and is preparing a stock
+offering that will allow the Government to  sell off its stake at a potenti
+al
+domain.com. GM is now hiring new workers once  again.
+Then there was the marathon Republican attempt to stop the extension of 
+unemployment benefits that was finally defeated by Democrats earlier this 
+
+summer.  That delayed payment of  benefits to millions of workers and cost 
+the
+economy dearly. 
+And there was the Republican filibuster of federal money for teachers, 
+police, firefighters and other public servants.  They caused hundreds of
+thousands of  state employees to be laid off or furloughed.  It finally pas
+sed the
+Senate with two  Republican votes, but only after it was cut in half.  It
+
+will prevent 300,000 layoffs.  Every time a teacher is fired it not  only
+
+damages the economy in the short run, it also permanently damages our  econ
+omic
+prospects =96 and ability to compete in the world =96 over the long run by 
+
+shortchanging the education of our next generation.
+All the while they have been opposing these jobs initiatives, Republicans 
+
+have proposed =96 with a straight face =96 that we spend almost three quart
+ers
+of a  trillion dollars over the next 10 years on tax breaks for the top two
+
+percent of  the population. 
+And they have opposed Democratic attempts to end tax breaks to companies 
+
+that ship jobs overseas =96 one of the most profound causes of the decline 
+of 
+American manufacturing.
+Finally, there  was virtually unanimous Republican opposition to the
+measure that began to rein  in the recklessness of the big Wall Street bank
+s that
+caused the collapse of the  economy in the first place. 
+For the last twenty months Democrats have been pushing hard to get the 
+economy out of the ditch.  Not only  have the Republicans refused to lend a
+
+hand.  They have been actively throwing rocks  under the wheels.
+The fact is they want to keep the economy in that ditch so they can  divert
+
+attention from the fact that they were behind the wheel when it careened 
+
+off the road.  
+They hope that if they prevent it from getting back onto the pavement,  the
+
+voters will forget about who put it in the ditch in the first place and 
+blame the guys who are trying to get it out. They=92re counting on the
+frustration  caused by the delay in getting the economy out of that ditch t
+o be
+enough that  the voters will turn once again to the culprits who put it the
+re,
+throw them the  keys and say =93why don=92t you try it again.=94  That, of 
+course,
+will require a gigantic case of national amnesia.  It would also be a
+political and  economic disaster.
+We can=92t let them be successful. 
+In particular, the Republicans hope that the frustration and the fatigue 
+
+of struggling with the economic situation is just enough to make a large
+number  of Democratic voters give up in disgust and simply stay home on Ele
+ction
+ Day.  That=92s how the =931994  Republican Revolution=94 that gave us Newt
+
+Gingrich, and culminated in the  election of George Bush, the Iraq War and 
+the
+collapse of the economy began.  In 1994 Democrats simply stayed  home.
+We=92ve seen that movie and it ends badly.
+So unless you=92re up for more tales of economic collapse =96 more stories 
+of 
+chaos and destruction, wasted lives and frustrated dreams =96 don=92t let t
+he 
+Republicans succeed.  
+We have to show them that those who sacrifice the economic well-being of 
+
+their fellow Americans for partisan political gain will not ultimately be 
+
+rewarded with political success.
+Robert Creamer is a long-time political organizer and  strategist, and
+author of the recent book: =93Stand Up Straight: How Progressives  Can Win,
+=94
+available on _amazon.com_
+(<<link>>
+95/ref=3Dpd_bbs_sr_1?ie=3DUTF8&s=3Dbooks&qid=3D1206567141&sr=3D8-1
+) .
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

@@ -1,0 +1,84 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Thu, 13 Mar 2015 13:00:10 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2DK0Afj032459	for <user@domain.com>; Thu, 13 Mar 2015 
+ 20:00:10 GMT
+Received: from mail61-va3-domain.com (mail-domain.com
+ [216.32.180.117])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s2DJxnwN006790
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 13 Mar 2015 19:59:49 GMT
+Received: from mail61-va3 (localhost [127.0.0.1])	by mail61-va3-domain.com
+ (Postfix) with ESMTP id 9EDB84001F9	for <user@domain.com>; Thu, 13
+ Mar 2015 20:00:09 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:97.107.25.102;KIP:(null);UIP:(null);IPV:NLI;H:outbound4.email-domain.com;RD:outbound4.email-domain.com;EFVD:NLI
+X-SpamScore: -3
+X-BigFish: vps-3(zzdddahzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah199bM21bch1fc6h1f8fizz16d858h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h1ce121iz2fheh5eh5fh839h944h950ha12h10d2h1288h12a5h137ah13b6h13eah1441h14ddh1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1a75h1b0ah224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1fe8h1ff5h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h262fh1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail61-va3: domain of e.marquiswhoswho.com designates 97.107.25.102 as permitted sender) client-ip=97.107.25.102; user@domain.com; helo=outbound4.email-domain.com ;domain.com ;
+Received: from mail61-va3 (localhost.localdomain [127.0.0.1]) by mail61-va3
+ (MessageSwitch) id 1394740807388601_9819; Thu, 13 Mar 2015 20:00:07 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.247])	by
+ mail61-domain.com (Postfix) with ESMTP id 566C23C005E	for
+ <user@domain.com>; Thu, 13 Mar 2015 20:00:07 +0000 (UTC)
+Received: from outbound4.email-domain.com (97.107.25.102) by
+ domain.com (10.7.99.16) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 13 Mar 2015 20:00:04 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=e.marquiswhoswho.com; s=ym1024; c=relaxed/simple;
+	q=dns/txt; user@domain.com; t=1394740802;
+	h=From: Marquis Who's Who <MarquisWhosWho@e.marquiswhoswho.com>
+	bh=7fgKQA368Zy6AOQxFxykNnzA148=;
+	b=PbomGJwBKGH6eY9jf3Bn+92UvOzDO8ANP4NiFGZebgacg9k9PMHQXZZ+II0qnSgC
+	xwkdbunjC2NasOE1+lnyv4fBodFk9gPywY2t3oVj7Rm/abtKMSzHBLR4sStcMrwf
+	ZC87qMSx9KW0dswx+2rwcfzj7C8wBSzJ9cqBG3m6chE=;
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=ym1024; d=e.marquiswhoswho.com;
+	h=Date:From: Marquis Who's Who <MarquisWhosWho@e.marquiswhoswho.com>
+	b=KWugb1hR+4BKGXC5Oy3McWSeFyePVRPaJuecFpOEqYwX/R8xbqThVHtTwGqyt8Dn
+	QSjBvbsiaj0ENfLp6ghNY0Vm9WPmctXAK59f57CNyd3MQhxE/iBtWfzgNSNbJZc0
+	0bnub1raDO9Hrc9IGS25P8JBj379kv5s+s6JSNbx7vM
+Date: Thu, 13 Mar 2015 13:00:02 -0700
+From: Marquis Who's Who <MarquisWhosWho@e.marquiswhoswho.com>
+Subject: Commemorate your achievement with a Certificate of Recognition
+To: Amy Pascal <user@domain.com>
+X-Header-Versions: MarquisWho'user@domain.com
+X-Header-CompanyDBUserName: marquisww
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>
+Message-ID: <MarquisWho'user@domain.com>
+X-Vitals: 1.130639.294824.1453522.12.16aa
+Reply-To: <MarquisWho'user@domain.com>
+X-Header-MasterId: 1453522
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Commemorate your achievement with a Certificate of Recognition
+
+Treat Yourself - You've Earned It! 
+
+Click here if you are unable to view the images in this email. 
+
+Marquis Who's Who
+
+Celebrate Your Success with a Marquis Who's Who Certificate of Recognition
+
+Dear Amy Pascal,
+
+Your inclusion in a Marquis Who's Who publication distinguishes you as one of the leading achievers in your field.
+
+Celebrate this achievement with a personalized Certificate of Recognition, featuring the official Marquis Who's Who seal and suitable for framing. To order this commemorative keepsake now, simply click here.
+
+Congratulations on your achievements and best wishes for your continued success.
+
+Sincerely,
+
+Fred Marks
+Editor-in-Chief 
+
+FOR PRODUCT SPECIFICATIONS
+OR TO ORDER, 
+

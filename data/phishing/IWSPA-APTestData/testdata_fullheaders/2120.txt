@@ -1,0 +1,225 @@
+Received: from relay.Organization.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Tue, 3 Feb 2015 20:26:28 +0100
+Received: from domain.com (unknown [192.168.100.50])	by
+ relay.Organization.com (Postfix) with ESMTP id ABD3E628C8	for
+ <user@domain.com>; Tue,  3 Feb 2015 19:05:51 +0000 (GMT)
+Received: by domain.com (Postfix)	id BE38E2BC0F1; Tue,  3 Feb 2015 
+ 20:26:28 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from [192.168.1.101] (adsl-ull-147-139.48-151.domain.com
+ [151.48.139.147])	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)	by domain.com (Postfix) with
+ ESMTPSA id 5BCF72BC03E;	Tue,  3 Feb 2015 20:26:28 +0100 (CET)
+Message-ID: <54user@domain.com>
+Date: Tue, 3 Feb 2015 20:26:27 +0100
+From: Cristian Vardaro <c.vardaro@Organization.com>
+Reply-To: <user@domain.com>
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Thunderbird/31.4.0
+To: Alberto Ornaghi <user@domain.com>, Daniele Molteni
+	<user@domain.com>
+CC: Fabio Busatto <user@domain.com>, Bruno Muschitiello
+	<user@domain.com>
+Subject: Fwd: [!IRG-144-62493]: No puedo ingresar a la consola
+References: <1422989852.54user@domain.com>
+In-Reply-To: <1422989852.54user@domain.com>
+X-Forwarded-Message-Id: <1422989852.54user@domain.com>
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+X-libpst-forensic-sender: /O=Organization/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=CRISTIAN VARDARO422
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1267958284_-_-"
+
+
+
+
+    Ciao,
+    potete per caso essermi d'aiuto con questa problematica?
+    Il cliente lamenta dopo aver installato la 9.5 di non riuscire a
+    connettere il collector.
+
+
+
+    Gli è stato riferito di eseguire il seguente comando: 
+    rcs-collector-config -d
+        MASTER_NODE_ADDR -u admin -p PASS_OF_ADMIN_USER -t -s
+    Ma riferisce che il problema è ancora presente.
+
+
+
+    Mi sono fatto inviare i file diagnostici ; stranemente non ho
+    trovato i logs del collector all'interno del file zip, ma il cliente
+    mi aveva inviato precedemente queste righe di errore del collector:
+
+
+
+            2015-02-03 13:51:58 -0500 [ERROR]: Error logging in:
+            JSON::ParserError 757: unexpected token at
+            '"LICENSE_LIMIT_REACHED"'
+            2015-02-03 13:51:58 -0500 [ERROR]: Cannot login to DB
+            2015-02-03 13:51:58 -0500 [WARN]: Database connection
+            failed, using local cache...
+            2015-02-03 13:52:09 -0500 [ERROR]: Error logging in:
+            JSON::ParserError 757: unexpected token at
+            '"LICENSE_LIMIT_REACHED"'
+            2015-02-03 13:52:09 -0500 [ERROR]: Cannot login to DB
+            2015-02-03 13:52:09 -0500 [WARN]: Database connection
+            failed, using local cache...
+            2015-02-03 13:52:19 -0500 [ERROR]: Error logging in:
+            JSON::ParserError 757: unexpected token at
+            '"LICENSE_LIMIT_REACHED"'
+            2015-02-03 13:52:19 -0500 [ERROR]: Cannot login to DB
+            2015-02-03 13:52:19 -0500 [WARN]: Database connection
+            failed, using local cache...
+
+
+
+        Da una prima analisi dei file diagnostici ho riscontrato questa
+        serie di errori nel db che continuano a presentarsi:
+
+
+
+        2015-02-03 00:00:10 -0500 [ERROR]:  Unable to save
+            Collector Node on 172.25.140.194. The address 190.242.96.49
+            is blacklisted.
+            2015-02-03 00:00:10 -0500 [ERROR]: 
+            ["C:/RCS/DB/lib/rcs-db-release/db_objects/collector.rb:46:in
+            `block in <class:Collector>'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:438:in
+            `instance_exec'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:438:in
+            `block in make_lambda'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:160:in
+            `call'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:160:in
+            `block in halting'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:86:in
+            `call'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/activesupport-4.1.6/lib/active_support/callbacks.rb:86:in
+            `run_callbacks'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/mongoid-4.0.0/lib/mongoid/interceptable.rb:138:in
+            `run_callbacks'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/mongoid-4.0.0/lib/mongoid/persistable/creatable.rb:115:in
+            `prepare_insert'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/mongoid-4.0.0/lib/mongoid/persistable/creatable.rb:23:in
+            `insert'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/mongoid-4.0.0/lib/mongoid/persistable/savable.rb:23:in
+            `save'",
+            "C:/RCS/DB/lib/rcs-db-release/db_objects/collector.rb:88:in
+            `collector_login'",
+            "C:/RCS/DB/lib/rcs-db-release/auth.rb:36:in `auth_server'",
+            "C:/RCS/DB/lib/rcs-db-release/rest/auth.rb:35:in `login'",
+            "C:/RCS/DB/lib/rcs-db-release/rest.rb:212:in `act!'",
+            "C:/RCS/DB/lib/rcs-db-release/events.rb:157:in `block in
+            process_http_request'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/eventmachine-1.0.3-x86-mingw32/lib/eventmachine.rb:1037:in
+            `call'",
+            "C:/RCS/Ruby/lib/ruby/gems/2.0.0/gems/eventmachine-1.0.3-x86-mingw32/lib/eventmachine.rb:1037:in
+            `block in spawn_threadpool'"]
+
+
+
+      Grazie
+
+
+
+      Cristian
+      -------- Messaggio Inoltrato --------
+
+
+
+            Oggetto:
+
+
+
+            [!IRG-144-62493]: No puedo ingresar a la consola
+
+
+
+            Data: 
+            Tue, 3 Feb 2015 13:57:32 -0500
+
+
+
+            Mittente:
+
+
+
+            Ricardo Periñan <user@domain.com>
+
+
+
+            Rispondi-a:
+
+
+
+            user@domain.com
+
+
+
+            A: 
+            user@domain.com
+
+
+
+      Ricardo Periñan
+        updated #IRG-144-62493
+        --------------------------------------
+
+
+
+        No puedo ingresar a la consola 
+        -------------------------------
+
+
+
+        Ticket ID: IRG-144-62493
+        URL: <<link>>
+        Name: John Guevara
+        Email address: user@domain.com
+        Creator: User
+        Department: General
+        Staff (Owner): Cristian Vardaro
+        Type: Issue
+        Status: In Progress
+        Priority: High
+        Template group: Default
+        Created: 29 January 2015 09:03
+          AM
+        Updated: 03 February 2015 01:57
+          PM
+
+
+
+        this is a error in collector server
+
+
+
+        2015-02-03 13:51:58 -0500 [ERROR]: Error logging in:
+        JSON::ParserError 757: unexpected token at
+        '"LICENSE_LIMIT_REACHED"'
+        2015-02-03 13:51:58 -0500 [ERROR]: Cannot login to DB
+        2015-02-03 13:51:58 -0500 [WARN]: Database connection failed,
+        using local cache...
+        2015-02-03 13:52:09 -0500 [ERROR]: Error logging in:
+        JSON::ParserError 757: unexpected token at
+        '"LICENSE_LIMIT_REACHED"'
+        2015-02-03 13:52:09 -0500 [ERROR]: Cannot login to DB
+        2015-02-03 13:52:09 -0500 [WARN]: Database connection failed,
+        using local cache...
+        2015-02-03 13:52:19 -0500 [ERROR]: Error logging in:
+        JSON::ParserError 757: unexpected token at
+        '"LICENSE_LIMIT_REACHED"'
+        2015-02-03 13:52:19 -0500 [ERROR]: Cannot login to DB
+        2015-02-03 13:52:19 -0500 [WARN]: Database connection failed,
+        using local cache...
+
+
+
+        Staff CP: <<link>>
+
+

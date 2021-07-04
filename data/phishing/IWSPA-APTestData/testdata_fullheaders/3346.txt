@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp4092567lfi;
+        Tue, 2 Jun 2015 14:03:19 -0700 (PDT)
+X-Received: by 10.50.178.230 with SMTP id db6mr542007igc.26.1433278998984;
+        Tue, 02 Jun 2015 14:03:18 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::22b])
+        by domain.com with ESMTPS id qo8si11837111igb.46.2015.06.02.14.03.18
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 02 Jun 2015 14:03:18 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22b as permitted sender) client-ip=2607:f8b0:4001:c05::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ig0-domain.com with SMTP id sb11so98489184igb.0
+        for <user@domain.com>; Tue, 02 Jun 2015 14:03:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:mime-version:subject:From: Eryn Sepp <eryn.sepp@gmail.com>
+         :content-transfer-encoding:message-id:references:to;
+        bh=Wxp0N5iZ6AlL34ymnPLrSL/R4UxEpVLxX7uWxMuMXlg=;
+        b=Wb/n8kmIjs83tSW5kzJRXdTtLYED/1dFQ7vhGmu/ECEB+tuefFhiTxTMPqEHkNBNcb
+         qXhxLg5tvesuh8VhXZagT7E3KEOLtNn/g4f1M/dUtktiQezIYEm9Bep+EHSEi/myswg8
+         5z+dTej/692wMz9sDVDdhNvVcqIuu0CUKRSMdZ9viFyK3sRVvdNW1YZ4hNhtTQ0WBFAP
+         54Dx4j2vVgzCXWwd45bl6hr6GTDC1FhYmWhIsoMij661YyO5AY6q48TqHCSBSCewAcnt
+         B95l02iSb0FFOy8zngBjfuDRViJLt/GeCIj+JenMQ4MQ364/mMg6IDBLCQeeIKJVDiB+
+         FkwA
+X-Received: by 10.50.39.105 with SMTP id o9mr22899523igk.39.1433278998241;
+        Tue, 02 Jun 2015 14:03:18 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [100.108.19.175] (135.sub-70-192-197.domain.com. [70.192.197.135])
+        by domain.com with ESMTPSA id nt6sm5075897igb.0.2015.06.02.14.03.17
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 02 Jun 2015 14:03:17 -0700 (PDT)
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-7F7C2FCE-8984-4AF2-8401-0089F1524EA5
+Mime-Version: 1.0 (1.0)
+Subject: Re: 
+From: Eryn Sepp <eryn.sepp@gmail.com>
+X-Mailer: iPhone Mail (12B436)
+In-Reply-To: <4user@domain.com>
+Date: Tue, 2 Jun 2015 17:03:15 -0400
+CC: "John user (user@domain.com)" <user@domain.com>
+Content-Transfer-Encoding: 7bit
+Message-Id: <user@domain.com>
+References: <4user@domain.com>
+To: Molly McUsic <user@domain.com>
+
+Can't say I do.
+
+:
+
+ffice.  He is applying for a job here.
+

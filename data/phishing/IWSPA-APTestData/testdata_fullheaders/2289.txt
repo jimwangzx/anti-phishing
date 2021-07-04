@@ -1,0 +1,120 @@
+Delivered-To: user@domain.com
+Received: by 10.142.226.9 with SMTP id y9cs105996wfg;
+        Wed, 24 Sep 2015 12:19:19 -0700 (PDT)
+Received: by 10.70.62.18 with SMTP id k18mr8484814wxa.18.1222283958674;
+        Wed, 24 Sep 2015 12:19:18 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2526.domain.com (yw-out-2526.domain.com [74.125.46.35])
+        by domain.com with ESMTP id i38si29842578wxd.20.2008.09.24.12.19.14;
+        Wed, 24 Sep 2015 12:19:18 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.35 as permitted sender) client-ip=74.125.46.35;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.35 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2526.domain.com with SMTP id 4so45144ywg.36
+        for <user@domain.com>; Wed, 24 Sep 2015 12:19:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received:from
+         :to:cc:references:in-reply-to:subject:date:message-id:mime-version
+         :content-type:x-mailer:thread-index:content-language:x-antiabuse
+         :x-antiabuse:x-antiabuse:x-antiabuse:x-antiabuse:x-source
+         :x-source-args:x-source-dir:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        bh=fPFPnS/7hazkuNikqG7Lyyf534ugsUls2o+a5YzzunA=;
+        b=NkJNgryuDLolKi77FAAmyFU+0zNPbc37PSemVjHvQ/ssM2VzhKjfi47ak34y8jREqb
+         dK+Umks6Af0H1DBOxt9nOCdowIAyovAE66vd4CY9hr2n1cjVXe8OS5CfnHH6EAgYAQvD
+         luyq+BKWOtoXjbcKJ/qAEZ/xOp4QkStzjJDLU
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results:from
+         :to:cc:references:in-reply-to:subject:date:message-id:mime-version
+         :content-type:x-mailer:thread-index:content-language:x-antiabuse
+         :x-source:x-source-args:x-source-dir:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=ZvXME55TrSU3CqFxQ8YqJPU7IVfk/zyK0CNpv6Z5mP7tAhJaaBqmANuog8VPjFJxDf
+         uyw9xI/Xna2WUFsf33be6KW1KiePBYeyIYUQ1rmRPKVU6Ps+UOUC4peSmvK6qsYnjYV1
+         289S/knvr9SvrVqV1XB6c5XbEn8joYT6fG5N4
+Received: by 10.100.135.16 with SMTP id i16mr398004and.11.1222283948239;
+        Wed, 24 Sep 2015 12:19:08 -0700 (PDT)
+Received: by 10.44.113.43 with SMTP id l43gr2124hsc.0;
+	Wed, 24 Sep 2015 12:19:00 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.150.91.20 with SMTP id o20mr6292230ybb.27.1222283939507; Wed, 24 Sep 2015 12:18:59 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com [69.65.0.218]) by domain.com with ESMTP id 39si13750141yxd.2.2008.09.24.12.18.58; Wed, 24 Sep 2015 12:18:59 -0700 (PDT)
+Received-SPF: neutral (domain.com: 69.65.0.218 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=69.65.0.218;
+Authentication-Results: domain.com; spf=neutral (domain.com: 69.65.0.218 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: from [208.120.231.184] (helo=SchmeltzPC) by domain.com with esmtpa (Exim 4.69) (envelope-from <user@domain.com>) id 1KiZt3-0004Uo-00; Wed, 24 Sep 2015 14:18:57 -0500
+From: "Eric Schmeltzer" <eric@schmeltzerpr.com>
+To: "User" <user@domain.com>, 
+ "'Tara McGuinness'" <user@domain.com>
+CC: "'big campaign'" <user@domain.com>
+References: <4948user@domain.com> <4user@domain.com>
+In-Reply-To: <4user@domain.com>
+Subject: [big campaign] Re: MCCAIN HEADING BACK TO DC, REQUESTING DEBATE
+ DELAY..
+Date: Wed, 24 Sep 2015 15:18:48 -0400
+Message-ID: <046201c91e7a$60481570$20d84050$@com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_NextPart_000_0463_01C91E58.D9367570"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AckeeacXe9VmoEXiSmCIMQLpvGh2iwAAGDtg
+Content-Language: en-us
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - domain.com
+X-AntiAbuse: Original Domain - domain.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - schmeltzerpr.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+I'll talk to Jon, but we might ask if the Sunni and Shia will put down their
+guns so the President has time to work on the financial crisis.  The fact is
+- no the world doesn't let the president take a time-out from everything
+else, and a Presidential candidate must prove he or she can handle a number
+of crises and issues at once, and if they find that too hard, maybe they
+shouldn't be running for President.
+
+
+
+
+Depends on what Obama says, I guess.
+
+
+
+
+From: "Eric Schmeltzer" <eric@schmeltzerpr.com>
+Behalf Of David Donnelly
+Sent: Wednesday, September 24, 2015 3:14 PM
+To: Tara McGuinness
+Cc: big campaign
+Subject: [big campaign] Re: MCCAIN HEADING BACK TO DC, REQUESTING DEBATE
+DELAY..
+
+
+
+
+Along the same lines, here's our quick response:
+
+"Perhaps John McCain is suspending his campaign because all his staff,
+advisors, and fundraisers have raced back to their day jobs in Washington --
+lobbying for Wall Street," said David Donnelly, Director of Campaign Money
+Watch.
+
+On Wed, Sep 24, 2015 at 2:58 PM, Tara McGuinness

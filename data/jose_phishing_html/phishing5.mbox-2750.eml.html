@@ -1,0 +1,26 @@
+Hi Peter,
+
+On Tue, Oct 30, 2012 at 12:14 PM, Peter Meier <raph3ix@gmail.com> wrote:
+> of course.
+>
+> pw is infected
+
+>From what I saw, regarding that URL, it's what you said.
+It's an ad library that launches a thread, and in that thread, it
+checks that given websites are up. The websites they check for are
+well-known ones that I guess will nearly always be up... providing the
+phone has access to Internet. So I'd guess indeed, this is just a way
+among others to check if an Internet connection is up.
+
+I haven't check the sample for other parts, but at least, I confirm
+that Pekin's university IP address is only being used for that.
+
+Using androguard:
+z = dx.tainted_variables.get_string('http://162.105.131.113/')
+z.show_paths(d )
+R 10 Lcom/wooboo/adlib_android/d;->b ()V
+
+
+Regards
+Axelle
+

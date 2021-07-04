@@ -1,0 +1,143 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Wed, 15 Jan 2015 06:25:36 +0100
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id D5912600EA	for
+ <user@domain.com>; Wed, 15 Jan 2015 05:18:42 +0000 (GMT)
+Received: by domain.com (Postfix)	id 07E432BC1F4; Wed, 15 Jan 2015 
+ 06:25:37 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id F19602BC1F2	for
+ <user@domain.com>; Wed, 15 Jan 2015 06:25:36 +0100 (CET)
+X-ASG-Debug-ID: 1389763533-066a753db92d9f0001-wzf8oX
+Received: from host90-179-static.196-31-b.business.telecomitalia.it
+ (host90-179-static.196-31-b.business.telecomitalia.it [31.196.179.90]) by
+ domain.com with ESMTP id m6JnrhPhGjhi1uaf for
+ <user@domain.com>; Wed, 15 Jan 2015 06:25:34 +0100 (CET)
+X-Barracuda-Envelope-From: FoxNews.com Editors <a.mazzeoysl@business.telecomitalia.it>
+X-Barracuda-Apparent-Source-IP: 31.196.179.90
+X-Barracuda-BRL-Tag: Barracuda Reputation
+From: FoxNews.com Editors <a.mazzeoysl@business.telecomitalia.it>
+To: <user@domain.com>
+Subject: [BULK]  Top Headlines
+Reply-To: domain.com Editors <user@domain.com>
+X-ASG-Orig-Subj: Top Headlines
+Message-ID: <20140115062527.098084437717@host90-179-static.196-31-b.business.telecomitalia.it>
+Date: Wed, 15 Jan 2015 06:25:27 +0200
+X-Barracuda-Connect: host90-179-static.196-31-b.business.telecomitalia.it[31.196.179.90]
+X-Barracuda-Start-Time: 1389763533
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-ASG-Tag: BRL ()
+X-Barracuda-Spam-Score: 0.81
+X-Barracuda-Spam-Status: No, SCORE=0.81 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=HTML_MESSAGE, HTML_TAG_BALANCE_BODY, MIME_HTML_ONLY
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.144100
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.81 HTML_TAG_BALANCE_BODY  BODY: HTML has unbalanced "body" tags
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Barracuda-Spam-Flag: YES
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-120036179_-_-"
+
+Most Popular | Fox News
+
+
+
+body {
+	background-image:
+		url('<<link>>');
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+body:first-of-type table.w480 {
+	width: 480px;
+}
+
+body:first-of-type td.table-header {
+	padding: 5px;
+}
+
+td.table-header {
+	width: 480px\9;
+	padding: 3px\9;
+	line-height: 0\9;
+}
+
+.ExternalClass {
+	width: 100%;
+}
+
+.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div
+	{
+	line-height: 100%;
+}
+
+.ExternalClass td.ecxtable-header p {
+	margin: 0 0 0 0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.ExternalClass td.ecxsection-title h3 {
+	padding-bottom: 8px;
+}
+
+
+
+
+							Having trouble viewing? See it in your browser.
+
+
+
+													Top Headlines
+														Daily Update
+
+
+
+									  Featured Story
+
+
+
+										Obesity is one of the problems that
+										nobody is going to decide for you!
+
+
+
+										Unless you agree to be locked up in a
+										gym with a limited amount of comfy food
+										for a few month which highly doubtful!
+										The trickiest point of obesity is that
+										it makes you give up before the slimming
+										results become stable and obvious and
+										inspire you to work on. Start with a
+										right sort of thing this time - take the
+										formula that suppresses your unhealthy
+										urge to eat all the time and you will
+										lose up to 15 kg a month doing literally
+										nothing! It's here...
+
+
+
+©2013 Fox News Network, LLC. All Rights Reserved. Privacy Policy.
+
+
+

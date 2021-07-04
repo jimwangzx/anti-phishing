@@ -1,0 +1,226 @@
+Received: from domain.com (43.130.141.78) by
+ domain.com (146.215.231.15) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Thu, 20 Nov 2015 16:46:19 -0500
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 20 Nov 2015 13:46:02 -0800
+Received: from domain.com (domain.com
+ [160.33.194.231])	by domain.com
+ (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with ESMTP id sAKLk13U024967	for
+ <user@domain.com>; Thu, 20 Nov 2015 21:46:01 GMT
+Received: from na01-bn1-domain.com
+ (mail-domain.com [207.46.163.144])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sAKLk0JV012145	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 20 Nov 2015 21:46:00 GMT
+Received: from BL2FFO11FD049.protection.gbl (10.173.160.30) by
+ BL2FFO11HUB029.protection.gbl (10.173.161.53) with Microsoft SMTP Server
+ (TLS) id 15.1.6.13; Thu, 20 Nov 2015 21:45:34 +0000
+Received: from omp.em.hawaiianairlines.com (12.130.139.221) by
+ domain.com (10.173.161.211) with Microsoft
+ SMTP Server id 15.1.6.13 via Frontend Transport; Thu, 20 Nov 2015 21:45:34
+ +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=hawaiianairlines; d=em.hawaiianairlines.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From: Hawaiian Airlines <HawaiianAirlines@em.hawaiianairlines.com>
+ bh=vvbwajWLLolt1Mkbx795vIlKjeo=;
+ b=u5kk+2d+S94WMm3vnJwqjwi32zbyXeCufU/XH3FPPsJBTa0UVoHxf0Zb4+czLtkSFCtz+oU1ce/D
+   T/KlNhKDR7CG5LRmTc9D1ZpP+E6J9Q60LUVww/ofqUG5xHKxx6emowWZ6+7XDE5V3162gBjoPn4H
+   xLRpkz9063ulp/tLPRc
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=hawaiianairlines; d=em.hawaiianairlines.com;
+ b=DhYByw01tEsGFs8pB2sS7jmlZQGHGjexpF7nRfMO9fL2TnnDQqmND3W1rVDJlNapxQXmrE+MT6bo
+   Gs643fo7Of7AouMIdJcb3m1FuGlUm52qOjGnU5wMJN9Ae7qTEUGpL3g387/lA8UzJePlowiR6FmZ
+   mTZ+IXDIcUGR37ykQ28=;
+Received: by omp.em.hawaiianairlines.com id hdpgfs161vkb for
+ <user@domain.com>; Thu, 20 Nov 2015 13:45:33 -0800 (envelope-from
+ <user@domain.com>)
+Date: Thu, 20 Nov 2015 13:45:33 -0800
+To: <user@domain.com>
+From: Hawaiian Airlines <HawaiianAirlines@em.hawaiianairlines.com>
+Reply-To: Hawaiian Airlines <user@domain.com>
+Subject: 48-HOUR SALE!  Save up to 50% on a Hawaii vacation!
+List-Unsubscribe: <<<link>>>,
+ <mailto:user@domain.com?subject=List-Unsubscribe>
+X-sgxh1: HuPXiHkJHtxkiLQkhgPQJhu
+X-rext: 4.interact2.Eu5GNAouQFv_v43KIQqngUFKBivE76FrRw
+X-cid: hwair.103227
+Message-ID: <0.0.1user@domain.com>
+X-EOPAttributedMessage: 0
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 12.130.139.221 as permitted sender)
+ receiver=domain.com; client-ip=12.130.139.221;
+ helo=omp.em.hawaiianairlines.com;
+Authentication-Results: spf=pass (sender IP is 12.130.139.221)
+ user@domain.com; 
+X-Forefront-Antispam-Report: CIP:12.130.139.221;CTRY:US;SRV:BULK;EFV:NLI;SFV:NSPM;SFS:(438002)(189002)(199003)(956001)(106796001)(20776003)(946001)(23846002)(23676002)(180100001)(22186001)(307094003)(43066003)(231993002)(113166002)(47976999)(146001)(120916001)(87836001)(15975445006)(64544003)(2351001)(95656003)(19617315012)(99396003)(15202345003)(450100001)(62966003)(107886001)(50466002)(77096003)(102836001)(21056001)(77156002)(42186005)(107046002)(106466001)(46102003)(55116003)(980100001)(15187005004)(110456001)(92726001)(4396001)(104016003)(19580395003)(103116003)(54356999)(44976005)(226693001)(2361001)(53806999)(19580405001)(50986999)(18206015028)(19625215002)(104066001)(229853001)(19627405001)(33656002)(110136001)(55126003)(7059030)(82926001)(4163002)(18926415006);DIR:INB;SFP:;SCL:1;SRVR:BL2FFO11HUB029;H:omp.em.hawaiianairlines.com;FPR:;MLV:sfv;PTR:omp.em.hawaiianairlines.com;MX:1;A:0;LANG:en;
+X-Microsoft-Antispam: UriScan:;
+X-Microsoft-Antispam: BCL:3;PCL:0;RULEID:(50001);SRVR:BL2FFO11HUB029;
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:3;PCL:0;RULEID:;SRVR:BL2FFO11HUB029;
+X-Exchange-Antispam-Report-CFA-Test: BCL:3;PCL:0;RULEID:;SRVR:BL2FFO11HUB029;
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+X-MS-Exchange-Organization-AVStamp-Mailbox: MSFTFF;1;0;0 0 0
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Hawaiian Airlines
+
+if (document.referrer.indexOf('domain.com') > -1)
+location.href = "<<link>>";
+
+	html {-domain.com-text-size-adjust:none;}
+	.ReadMsgBody {width: 100%;}
+	.ExternalClass {width: 100%;}
+	.ExternalClass *{line-height:100%;}
+
+
+
+	.ios_footer_link a{
+	    color:#ffffff;
+	    text-decoration:none;
+	}
+	.ioslinks-blue a{
+        color:#007db1;
+        text-decoration:none;
+	}
+
+
+
+
+                                                      Save up to 50% on a Hawaii vacation!* View deals.
+
+
+
+                                                      View online
+                                                       | 
+                                                      Add to address book
+
+
+
+Amy Pascal 317 560 850
+
+
+
+                                                                      BOOK TRAVEL
+
+
+
+                                                                      MY ACCOUNT
+
+
+
+                                                                                  SHARE
+
+
+
+                                                        Limited Time Only
+
+
+
+                            Save up to 50% on a flight + hotel package to Hawaii!*
+
+
+
+                                    Booking Period: Nov 20 – 22, 2015 
+                                    Travel Period: varies by hotel
+
+
+
+                                            • 
+
+
+
+                                                Book a vacation package during our 48-hour sale and enjoy savings up to 50%!* 
+
+
+
+                                            • 
+
+
+
+                                                domain.com any of the islands Hawaiian Airlines serves: Oahu, Maui, Kauai, Hawaii Island, or Molokai!**
+
+
+
+                                            • 
+
+
+
+                                                 Don't miss out on these awesome deals -- book by November 22!
+
+
+
+                                                VIEW HOTEL DEALS
+
+
+
+                            	Vacation Packages »
+                            	Cars »
+                              Hotels »
+
+
+
+
+                            	Find a Flight »
+                                In-Flight Services »
+                                Hawaii Here »
+
+
+
+                            	My Account »
+                                HawaiianMiles »
+                                Premier Club »
+
+
+
+                                    Like Us on Facebook »
+
+
+
+                                    Follow Our Family »
+
+
+
+                                    Instagram »
+
+
+
+                        *Vacation package must be booked between 11/20-11/22/14. Vacation package pricing will include applicable government taxes and fees, and carrier fees and will vary by selected day of departure, departure city, length of stay, hotel selected, hotel room category, and availability. Additional baggage fees may apply. 
+                        **Flights to Molokai operated by Empire Airlines dba 'Ohana by Hawaiian.
+
+
+
+                        UNSUBSCRIBE
+
+
+
+                        UPDATE E-MAIL PREFERENCES
+
+
+
+                        PRIVACY POLICY
+
+
+
+                        CONTACT US
+
+
+
+                        Please do not reply to this e-mail address. 
+
+
+
+                        This e-mail has been sent to you at user@domain.com You have received this advertising message because you have subscribed to receive e-mails from Hawaiian Airlines.
+
+
+
+                        Hawaiian Airlines • 3375 Koapaka St., Ste G350 • Honolulu, HI 96819
+
+
+
+                      20141120_HA_Vacation_QD_MLD 
+

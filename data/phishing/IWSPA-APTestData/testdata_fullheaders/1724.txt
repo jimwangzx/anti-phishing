@@ -1,0 +1,69 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp3599519lfi;
+        Thu, 16 Apr 2015 19:12:25 -0700 (PDT)
+X-Received: by 10.140.16.173 with SMTP id 42mr829873qgb.31.1429236744050;
+        Thu, 16 Apr 2015 19:12:24 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from nm50-vm8.bullet.mail.bf1.yahoo.com (nm50-vm8.bullet.mail.bf1.yahoo.com. [216.109.115.239])
+        by domain.com with ESMTPS id i77si10321503qhc.0.2015.04.16.19.12.23
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 16 Apr 2015 19:12:24 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 216.109.115.239 as permitted sender) client-ip=216.109.115.239;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 216.109.115.239 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1429236743; bh=IhJjFuGrSt4VSxx6wJzEIDA0kMQb9qcmIi1hOx4w9dg=; h=Date:Subject:From: Joe Cashion <joecashion@yahoo.com>
+Received: from [98.139.170.181] by nm50.bullet.mail.bf1.yahoo.com with NNFMP; 17 Apr 2015 02:12:23 -0000
+Received: from [98.139.211.201] by tm24.bullet.mail.bf1.yahoo.com with NNFMP; 17 Apr 2015 02:12:23 -0000
+Received: from [127.0.0.1] by smtp210.mail.bf1.yahoo.com with NNFMP; 17 Apr 2015 02:12:23 -0000
+X-Yahoo-Newman-Id: 195445.32670.user@domain.com
+X-Yahoo-Newman-Property: ymail-3
+X-YMail-OSG: avan_XYVM1mSmcKbOisPJ6aYSidxSW3YQ.jbIeHHsnG4BT4
+ htQaLnycITqP2aXIKviMJaoqr8ZgWBMNGq5tS9Nu7Olyc25U2w2mDVNT4JRE
+ zvM4oT8pFWvpBmdBattIXbeUKqd2Ey9V16LVkY9YZacF4Wv_5TklPsMmWIBR
+ nrLUGc4ZJiIJBSnoMJ9hOVCayK_sBM_qgWIt9aYvXT_qYuELsXu_2hc89HVW
+ rYPAN2WIQ81tKLsY8FavqMPN7xKnfX2XIlFujVLOSl6PJvCP9_FUy5BzqMJF
+ mtv1JvZpPQ_xGLH.IE8hA4Okj49Ty5XxDZqYwnQs7Pej.oajzebmMAs8sWc9
+ anJzd.ELVtjaHnqCJJ09pCVxnPfQm4H3ZfdVpVqn2FL23r5.0dmB.uKOnSLF
+ BLIghuI9jsINbxAJlVDZ0I1q9v4do_Ood7O2r37YuyEmR13Jlow5KOKrhF3v
+ rxZ8QVZg9c5ngYUb0K4ESSxYUeTGmCeffzoxt5X6xIyoz7AK6JlNaN.tMFcg
+ JwG4AAEiKNuthmeQssXYNDTkfxjagFltNxg--
+X-Yahoo-SMTP: ADE0SjGswBA1ysH3MDKQMinJjlOakrc-
+User-Agent: Microsoft-MacOutlook/14.3.9.131030
+Date: Thu, 16 Apr 2015 22:12:18 -0400
+Subject: running
+From: Joe Cashion <joecashion@yahoo.com>
+To: user@domain.com
+Message-ID: <D155E442.1C021F%user@domain.com>
+Thread-Topic: running
+Mime-version: 1.0
+Content-type: multipart/alternative;
+	boundary="B_3512067142_13617900"
+
+John -
+
+My father was at Panera=B9s today on Wisconsin yesterday and saw you run by
+while reading about HRC's van trip and texted me right away =8B he felt very
+close to the campaign!
+
+I=B9ve been in touch with Huma and JD and others over the last few months
+about helping in whatever way I can.  You=B9re about the busiest guy in the
+world, I know, so will keep this brief, but if you need help in any way, le
+t
+me know.  I=B9m working for a VC firm, but if I could help you in any way kee
+p
+the trains running on time and keeping the various balls of the campaign in
+the air, I would gladly join the campaign.  I=B9m not a political hack, but I
+am a known entity and pretty good at a lot of different things.  Anyway,
+throwing it out there on the off chance any of this resonates with what you
+need to do your job.
+
+And either way, congrats on the role, and I=B9m sure I will see you around in
+the coming months.
+
+All the best,
+
+Joe
+

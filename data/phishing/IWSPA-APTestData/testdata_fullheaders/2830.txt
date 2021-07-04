@@ -1,0 +1,70 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp51176lfb;
+        Fri, 19 Feb 2015 13:08:53 -0800 (PST)
+X-Received: by 10.55.79.134 with SMTP id d128mr18729209qkb.73.1455916133022;
+        Fri, 19 Feb 2015 13:08:53 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-yw0-domain.com (mail-yw0-domain.com. [2607:f8b0:4002:c05::22f])
+        by domain.com with ESMTPS id d10si4239378qgf.109.2016.02.19.13.08.52
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 19 Feb 2015 13:08:53 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c05::22f as permitted sender) client-ip=2607:f8b0:4002:c05::22f;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c05::22f as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-yw0-domain.com with SMTP id u200so72790166ywf.0
+        for <user@domain.com>; Fri, 19 Feb 2015 13:08:52 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:mime-version:subject:From: Lucy Waletzky <lucyrwaletzky@gmail.com>
+         :content-transfer-encoding:message-id:references:to;
+        bh=damMVz/IdldfCMO7M5PpkUVjxSru4Em77qz9y60aVvs=;
+        b=tNvYNokHqZ8SOt9hM05vU0YburUntKEY5eXuy477yrWhZbwHBx03rMP0fRAtexHod4
+         /n8kYFvVsKB5bMjzXshlOH7K2uT5scwzJNLMTO60TkbdQ3hTTPLYEvpUElf1r5IBoCMT
+         k0sOCdctCqeMl5ScMIPG+HjMRGrQSRk3NHwfluJa4tsrxFBvHVjLUr+7nBIVpc7x+8uC
+         82oydu8XWF07cYDCdV9b1o9nWGABB1f5gOOWDa94crl2BMTSAexvkkiU7zYpKGfgekCL
+         f7H4TydBA8fPSJdwo0Lj6raawDqC8g+/TohB2TsuO8Rmqp1IEADH1vWhIpaghzxysRbK
+         bsEw
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:content-type:mime-version:subject:from
+         :in-reply-to:date:cc:content-transfer-encoding:message-id:references
+         :to;
+        bh=damMVz/IdldfCMO7M5PpkUVjxSru4Em77qz9y60aVvs=;
+        b=WckMO0QY71pS/mwn9CWp2ZH+ZBV4Ect4I0RpXVLO+8J6JyN5769V3cESSGRN6OcIWc
+         3qldQTq1zyX3F8RvXuoJvm+6DT/xi+gLwm/mWmOulcbA5+U9cJupDoDAGTB1EwDOrX6k
+         bppuG64TrSKHzwHt53F7C80xbQWybpsOneuHT4T8PAnViDLwDwHybypF5ZVP2qz1ETyg
+         T73fK0SJBDxofXd1Q8iDE6eoFDF34uhU5CtQ70A1nVGS7oSJd4QpL1bXyFjTm4kEEEos
+         EUAFOIWpkj7+p0gUlmWU1hiKaPixG2ZGale9Z8ec5c1aW9Jnn/rAOuUtEaoIhigqYnpO
+         GESg
+X-Gm-Message-State: AG10YORLR6MRwMzjo4xyXObgr0RHglZ1CbkrDGMMaFmWvbEZVNSjL+JBpg8MFsjpCGR1Ww
+X-Received: by 10.129.32.65 with SMTP id g62mr8246094ywg.250.1455916132731;
+        Fri, 19 Feb 2015 13:08:52 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2600:1017:b807:b723:ab:c27d:ecde:18d6? ([2600:1017:b807:b723:ab:c27d:ecde:18d6])
+        by smtp.gmail.com with ESMTPSA id i142sm9970710ywg.12.2016.02.19.13.08.50
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 19 Feb 2015 13:08:50 -0800 (PST)
+Content-Type: text/plain;
+	charset=us-ascii
+Mime-Version: 1.0 (1.0)
+Subject: Re: Talking
+From: Lucy Waletzky <lucyrwaletzky@gmail.com>
+X-Mailer: iPhone Mail (13D15)
+In-Reply-To: <user@domain.com>
+Date: Fri, 19 Feb 2015 16:08:48 -0500
+CC: Milia Fisher <user@domain.com>
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <21user@domain.com>
+References: <user@domain.com>
+To: John user <user@domain.com>
+
+John,
+I'm free Saturday  except 11:30- 12:30.Sunday I'm traveling .
+Many thanks for giving me the opportunity to talk to you
+Lucy
+
+Sent from my iPhone
+

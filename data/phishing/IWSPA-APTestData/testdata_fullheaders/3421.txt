@@ -1,0 +1,76 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 29 Apr 2015 12:36:07 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s3TJa66V001653	for <user@domain.com>; Tue, 29 Apr 2015 
+ 19:36:06 GMT
+Received: from mail26-ch1-domain.com (mail-domain.com
+ [216.32.181.171])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s3TJbe47004579
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 29 Apr 2015 19:37:40 GMT
+Received: from mail26-ch1 (localhost [127.0.0.1])	by mail26-ch1-domain.com
+ (Postfix) with ESMTP id D55C9180692	for <user@domain.com>; Tue, 29
+ Apr 2015 19:36:05 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:50.31.44.105;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 9
+X-BigFish: vps9(z579ehze0eahc857hzz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h1b778fh1ce120h132fbel1ce121iz2fheh5fh839h8aah8e2h8e3hd2bh10d2h1288h12a5h137ah13eah1441h1537h153bh162dh1631h16a6h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h740ibe9i214ai251ci1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail26-ch1: domain of domain.com designates 50.31.44.105 as permitted sender) client-ip=50.31.44.105; envelope-from=bounces+58369-87user@domain.com; helo=domain.com ;.domain.com ;
+Received: from mail26-ch1 (localhost.localdomain [127.0.0.1]) by mail26-ch1
+ (MessageSwitch) id 1398800163506788_11226; Tue, 29 Apr 2015 19:36:03 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.242])	by mail26-domain.com (Postfix) with ESMTP id 77C7F4A0082
+	for <user@domain.com>; Tue, 29 Apr 2015 19:36:03 +0000 (UTC)
+Received: from domain.com (50.31.44.105) by
+ domain.com (10.43.70.19) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 29 Apr 2015 19:36:03 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=domain.com; 
+	h=From: Martin Sachs <Martin.Sachs@softrax.com>
+	s=smtpapi; bh=Scf5pV4SJW0RJq/QQu+Uh/77ycE=; b=GoD/T8KjGGSeKzEiVL
+	DJFOlNM+n0USL9A8kA2en7NsWirQacJ6ng01ObbaNh01vEmBzQpHPZgusq48iZZb
+	899FqEQCG+UDqK4pr4KI+KAftM60GdvyA3FnHJ32fmryr6av7HUHUaaR3iBjoUdl
+	vW95M3xondHbeV+WwOQ57aMn4
+Received: by domain.com with SMTP id mf162.36645.535FFF22A        Tue,
+ 29 Apr 2015 19:36:02 +0000 (UTC)
+Received: from jellison (ec2-54-83-171-48.compute-1.domain.com
+ [54.83.171.48])	by ismtpd-027 (SG) with ESMTP id 145aefc9f56.68b1.276cb	for
+ <user@domain.com>; Tue, 29 Apr 2015 19:36:02 +0000 (GMT)
+From: Martin Sachs <Martin.Sachs@softrax.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <95133521.22789291398800162643.user@domain.com>
+Subject: Moving to Recurring Revenue? It's Not a Matter of Just Flipping the
+ Switch
+List-Unsubscribe: <mailto:user@domain.com>, <<<link>>>
+X-HubSpot-MID: CiRlMTQ2MGMxNi1hZTRjLTQ2NmYtYTlhOS1jNDZiZTU4ZTVhNDkQ+vUMGHEgACiUs4MGMJebBToXYW15X3Bhc2NhbEBzcGUuc29ueS5jb21Au77y99ooSAFaIDcxYTc0YzE4ODJjMWM1ZDA0ZmNmYjA4NTVlYjU4YTU4ZQAA4EBoAHDspQI
+Date: Tue, 29 Apr 2015 19:36:02 +0000
+X-SG-EID: crjdrkBCnHFBAoM6m/Gp9m3skGmMR9d/9Wh2P3ndSBdJGJArlGVNQcUzOJf7dEY/OfYhebCyUd8WW62Twm4dmubef14nIr2wKBEMypCaDZxNBKrXTTxb+r5VF7Fv/fDKzmelAuRHbBKM2egKwDKW8xPM+/KGCEOL0bex8TBDq3Y
+X-SG-ID: BaKDar+VrkG/S9kwb9JXA1CObX+RHUI0+Ibxj56oKDSQpqRwycjweHdqJ34p2rdvmU7GNrAMEhQ9xk8rMzONNPD0YTH+4Q0Ph50zUukYUnZHb9NXBovMvw70heYMMVqe9kRkVUvQbb1k27vFKjp7EsHPqcVdTTLIrblShLgzmVfhIUqZdwZ/vqaKETuV+9qsBxj28A2NcTWZsky3Hcpc3Lq9W3Yj02YEnzS+5MyROr10NnBAz/CH3XWLCoza9gNJnB/tK5PfHQ5c2U10C6aFhw
+Return-Path: bounces+58369-87user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Moving to Recurring Revenue? It's Not a Matter of Just Flipping the Switch
+
+Our upcoming webinar, "Billing and Revenue Recognition Challenges for Recurring Revenue Businesses", offers expert perspectives on what a migration to recurring revenues means for your business - and how you can take the steps to make sure your systems are ready.
+
+Revenue Recognition Solutions for Enterprise
+
+ Divider1
+
+Billing and Revenue Recognition Challenges for Recurring Revenue Businesses: A Webinar
+
+May 13th, 2015 | 1 PM ET | Approximately 1 Hour; 1 CPE domain.com
+
+In today's everything-as-a-service (XaaS) economy, recurring revenue models are a must for growing your top line and improving your bottom line. Across industries, recurring revenue is fast becoming the "new normal" - an essential prerequisite to staying competitive.
+
+However, the migration to recurring revenue models isn't as simple as flipping a switch. Transforming your business mindset also means transforming your infrastructure. ERP and billing systems that were perfectly suited to managing traditional revenue sources can struggle to address the new challenges recurring revenue creates for billing and revenue recognition.
+
+Replacing systems that no longer meet your needs may seem like the obvious choice, but if you have existing customers and products to support, legacy infrastructure still plays an important role in your day-to-day business. In cases like these, agile solutions are needed to bridge the gap between old and new, while still offering the flexibility to grow and change with the market.
+
+Our upcoming webinar, "Billing and Revenue Recognition Challenges for Recurring Revenue Businesses", offers expert perspectives on what a migration to recurring revenues means for your business - and how you
+

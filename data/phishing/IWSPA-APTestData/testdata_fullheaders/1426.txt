@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp557028lfr;
+        Wed, 12 Aug 2015 17:02:34 -0700 (PDT)
+X-Received: by 10.182.60.130 with SMTP id domain.com.42.1439424154315;
+        Wed, 12 Aug 2015 17:02:34 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::235])
+        by domain.com with ESMTPS id m3si258344obz.17.2015.08.12.17.02.33
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 12 Aug 2015 17:02:34 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::235 as permitted sender) client-ip=2607:f8b0:4003:c01::235;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::235 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id op1so25444251obb.2
+        for <user@domain.com>; Wed, 12 Aug 2015 17:02:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :content-type;
+        bh=vL6aDIaIxJ/jqoeb7bdZf6ZsHNdbStichXDB9LUHhbk=;
+        b=Kastm+U67mp4oyV9jNqgX04/OutG85eWy9oZTMmPdFxm/RySysUi6k0cbvTWeo+U4Z
+         Wxyw+JeWsGnH9N9SWd2tsOgRgCQyDXHV8uAPXXsSij9f7HHdljP0y15uYD5xsHkf6h9z
+         gfgMyrSzdeG/HBx6kOYSZP564aAwZRG4KtvJc
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+        bh=vL6aDIaIxJ/jqoeb7bdZf6ZsHNdbStichXDB9LUHhbk=;
+        b=CNAklZ35s4/22QsHwMAxejYn56mCmJlJzTn/TurjG4tz5JGjuJdzdjTS9X9k6a3OXg
+         2LWj9WAtPzstj5x5D0QfvQ0MhCv31aqnMUIcPl8PCek5zM6w1EFsJ1YH9ov0w9S9aGgw
+         qh0nQT406b+V7oDMpYtV++or3ACNW2d6GjC3A7vJDia6yXPdF3MVPp2NUep+2k95j6Z2
+         bMYBD15R8kIdOy6re28p2FCd44UfjIMKSLuwyx6qrMRQQMzOe6/D2hw/3ylztmGnnvxR
+         uiOdaVBZi0JxEp5nyJJJwlokLpkgR1rYw4yjrPu9Z4Kuf40J/HJ4svZ84giVNYwdY2BB
+         e2cQ
+X-Gm-Message-State: ALoCoQn+MxS6Cx40qCo69yh6MBOLO96GmyGh4v/0JFE2ZYGOLCxFn9wCPxxBzPXbDdkM42q9I5Wa
+MIME-Version: 1.0
+X-Received: by 10.182.128.234 with SMTP id nr10mr32258891obb.81.1439424153296;
+ Wed, 12 Aug 2015 17:02:33 -0700 (PDT)
+Received: by 10.202.131.78 with HTTP; Wed, 12 Aug 2015 17:02:33 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <CAEMn5Qmi2P42Gb7tJ6Je3aM9SYjPXC+3ypVcz+user@domain.com>
+	<user@domain.com>
+Date: Wed, 12 Aug 2015 20:02:33 -0400
+Message-ID: <CAEMn5Q=1AF9AfAVX2bYVzjkqUqMTqKOk+user@domain.com>
+Subject: Re: Medium Tweets
+From: Milia Fisher <mfisher@hillaryclinton.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e015382b656d6be051d260daf
+
+Great, thanks. Just sent out the college compact tweet and will schedule
+the Palmeri email tweet for tomorrow morning.
+
+On Wed, Aug 12, 2015 at 7:49 PM, John user <user@domain.com>

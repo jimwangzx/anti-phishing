@@ -1,0 +1,111 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Wed, 2 Jul 2015 17:31:37 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s630Vam7000946	for <user@domain.com>; Thu, 3 Jul 2015 
+ 00:31:37 GMT
+Received: from mail27-ch1-domain.com (mail-domain.com
+ [216.32.181.172])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s630Q9Hw015924
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 3 Jul 2015 00:26:09 GMT
+Received: from mail27-ch1 (localhost [127.0.0.1])	by mail27-ch1-domain.com
+ (Postfix) with ESMTP id ECC051802AA	for <user@domain.com>; Thu,  3
+ Jul 2015 00:31:35 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:198.2.130.139;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 11
+X-BigFish: vps11(z59c9h3e12hzc89bhc857h8a86kzz1f42h1ee6h1de0h21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch1fdah2233kzz1730fah1de098h1def03h177df4h17326ah1df2f4h1def87h8275bh1bc7b9h8275dh1def86h18c673h189882h19a27bh1de097h186068h1954cbh18602ehf65c6k1ce121iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2534h2545h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h298fh29d0h2a24h2af6h1d9ci)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail27-ch1: domain of domain.com designates 198.2.130.139 as permitted sender) client-ip=198.2.130.139; user@domain.com; helo=domain.com ;01.domain.com ;
+Received: from mail27-ch1 (localhost.localdomain [127.0.0.1]) by mail27-ch1
+ (MessageSwitch) id 1404347460974936_24091; Thu,  3 Jul 2015 00:31:00 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.230])	by mail27-domain.com (Postfix) with ESMTP id 8DAC1160258
+	for <user@domain.com>; Thu,  3 Jul 2015 00:30:45 +0000 (UTC)
+Received: from domain.com (198.2.130.139) by
+ domain.com (10.43.70.17) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 3 Jul 2015 00:30:45 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?WriteGirl?= <info@writegirl.org>
+ bh=p/E1TdkQFI5kp/R8YvfRRYp9yog=;
+ b=bJOQQroy7ptruYmHguOBBD6sDLpK3I1sUkKaeZZE1atNaxbhWP0Dl2c9LhFBdy5awwBQ1OSDvBPJ
+   35XQtyxELRjrKp+RlG5i9Md10ObZdwZ/ChQu6RwTlra9TOx3nkdBSYWHjVZed+WwEtjBKwzouU0/
+   HBKe0tgfHtJd7FpB8Yc
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=2goNvvd5JK1fQndGf6ml/BUjltq9q4BPrncUJFmxSSsbIDPHwZnptfGxtIDrVs0i7HYdZu/5GyR/
+   zNNk6flNNi6wR2SXyELvrpVFlWXdoLmmUys4pHFqrpD7uVH6XIPLoSDgw93nVEgh+qCOy2DDgPed
+   PFxhgI43VoE/KT+42wI=;
+Received: from (127.0.0.1) by domain.com id hmii3a1ohl8r for
+ <user@domain.com>; Thu, 3 Jul 2015 00:30:42 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?It=27s=20a=20Poetrypalooza=21?
+From: =?utf-8?Q?WriteGirl?= <info@writegirl.org>
+Reply-To: =?utf-8?Q?WriteGirl?= <user@domain.com>
+To: =?utf-8?Q?Amy?= <user@domain.com>
+Date: Thu, 3 Jul 2015 00:30:42 +0000
+Message-ID: <45167user@domain.com>
+X-Mailer: MailChimp Mailer - **CIDa45013bb8aa357bdfd04**
+X-Campaign: mailchimp45167d6d93c12e1c77ba890d0.a45013bb8a
+X-campaignid: mailchimp45167d6d93c12e1c77ba890d0.a45013bb8a
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 45167d6d93c12e1c77ba890d0
+X-Feedback-ID: 27365679:27365679.627929:us3:mc
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: WriteGirl <user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+It's a Poetrypalooza!
+
+Poetry Drive is on!            View this email in your browser  
+
+
+
+
+<<link>>         
+
+Help our girls write their way to brilliant futures, one poem at a time! 
+
+Amy
+The WriteGirl office is buzzing this afternoon as our teen girls are writing poems for our 3rd Annual Poetry Drive! It's a POETRYPALOOZA and the new LA Youth Poet Laureate, 16-year-old Amanda Gorman, is here, along with Youth Poet Laureate finalist Jessica, 15!   
+
+Amanda Gorman, LA Youth Poet Laureate   
+
+
+
+
+They are all hard at work creating literary masterpieces just for you! Whether you choose a poem with a surprise theme or get one customized for you, the possibilities are endless! This year, we are featuring a Girl Perspective poem, written BY a girl, FOR a girl. Give us your heroine’s name, her little quirks, or favorite pastime, and our girls will give her a female empowerment anthem!
+
+Your contribution helps us launch our 14th season in October! We've had an incredible year – help keep us thriving as we enter our next season!
+
+Order your poem here    
+
+Poem written by 14 year-old WriteGirl Mentee    
+
+Annual Poetry Drive     
+
+Custom poem written by a 17 year old WriteGirl Mentee
+
+Order your poem here    
+
+"I absolutely love the custom poem I ordered for my 5-year-old niece! Can't domain.com to frame it and hang it on her wall." – WriteGirl Supporter    
+
+
+
+
+Season 13 Ends with a
+Sparkling Soirée
+
+ <<link>>        
+
+Our big Season-End Celebration at the Writers Guild Theater capped off an amazing season! Poems were purchased, items were auctioned, Oscars-style selfies were taken, and of course, the season’s writing was celebrated. Mentees took to the stage and read bits of poetry and prose, as well as writing tips that have helped inspire them.  
+
+
+

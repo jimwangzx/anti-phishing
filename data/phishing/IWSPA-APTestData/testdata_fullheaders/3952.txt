@@ -1,0 +1,61 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id 0B90C46878
+	for <user@domain.com>; Tue, 11 Nov 2015 14:30:29 -0500 (EST)
+X-Greylist: delayed 29369 seconds by postgrey-1.27 at domain.com; Tue, 11 Nov 2015 14:30:28 EST
+Received: from domain.com (host116-148-static.45-85-domain.com [85.45.148.116])
+	by domain.com (Postfix) with ESMTP id 50607131F762
+	for <user@domain.com>; Tue, 11 Nov 2015 14:30:28 -0500 (EST)
+Received: from domain.com (localhost [127.0.0.1])
+	by domain.com (8.13.1/8.13.1) with ESMTP id mABBL2r3028766
+	for <user@domain.com>; Tue, 11 Nov 2015 12:21:03 +0100
+Received: (from user@domain.com)
+	by domain.com (8.13.1/8.13.1/domain.com) id mABBL2I3028762;
+	Tue, 11 Nov 2015 12:21:02 +0100
+Date: Tue, 11 Nov 2015 12:21:02 +0100
+Message-Id: <200811111121.user@domain.com>
+To: user@domain.com
+Subject: domain.com Banking - Security Measures !
+From: Halifax@www.halifax.co.uk
+Content-Type: text/html
+Content-Length: 1798
+Lines: 45
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 888
+
+#obmessage .dummy {}
+#z BODY,
+ #z  TD {font-family: verdana,arial,helvetica,sans-serif;
+font-size:12px;color: #000000;}
+
+Dear Halifax Member,
+
+An unauthorized account activity claim was recently filed against the following transaction:
+
+Transaction Date: 27 / Octomber / 2015 
+
+Transaction Amount: $44,00 USD 
+
+Your Transaction ID: 46U64120SC849601T 
+
+Buyer's Transaction ID:34A33092GU990703J
+
+Case Number: HH-373-249-603
+
+To complete our investigation, you must provide additional information within the next seven days.
+
+Please log in to your Halifax account and verify your details
+
+You will have the opportunity to enter any details or information regarding this case which will help Halifax investigate the matter fully.
+
+Thanks for your cooperation through this process. We are continuing to work to ensure that Halifax is secure for all users.
+
+Sincerely,
+
+Halifax Review Department
+
+Copyright  1999-2008 Halifax. All rights reserved.

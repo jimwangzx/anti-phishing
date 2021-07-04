@@ -1,0 +1,155 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp1917892lfb;
+        Tue, 16 Feb 2015 14:26:16 -0800 (PST)
+X-Received: by 10.195.13.16 with SMTP id eu16mr27694889wjd.140.1455661576063;
+        Tue, 16 Feb 2015 14:26:16 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-wm0-domain.com (mail-wm0-domain.com. [74.125.82.43])
+        by domain.com with ESMTPS id p77si17785381wmd.43.2016.02.16.14.26.15
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 16 Feb 2015 14:26:16 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.82.43 as permitted sender) client-ip=74.125.82.43;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 74.125.82.43 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wm0-domain.com with SMTP id a4so316wme.1
+        for <user@domain.com>; Tue, 16 Feb 2015 14:26:15 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Stephanie Hannon <hannon@hillaryclinton.com>
+        bh=jfGOABdiyfRXqal4kRNt+/oFG0IXspsqD0+hqdNA84o=;
+        b=Xa1DyBL8c0FfvdnJIPgZa4JEmav/z3bLq3Asr8qZPYRb52MDSTodp/Oc9k4ypKiX/b
+         p2LLq2Dmtlst2UWMs4nZpvWO0IRdhrkJR3DlitB/AXNn4sOtmmmSM4e+Se6d4i4c/RRa
+         xXe0nxii9b6dwaoN2Z0KTl5qHISr3PfnFjaTY
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Stephanie Hannon <hannon@hillaryclinton.com>
+         :content-type;
+        bh=jfGOABdiyfRXqal4kRNt+/oFG0IXspsqD0+hqdNA84o=;
+        b=bUjwYihEMEAYAS24iVxmyQ/krMqcoFtpIwdL4B5+du1/fynKffpDVZSEEZaTri+/WL
+         SE0pa81pfFugIvyJVFcShTIR8aFUMYk5Ce4ywoGDjNAyUDh+dSw64wD7eA8lvdHR19pU
+         ymuppS9YsUW7F271PZt9lEpAWHXPcjUdCS5OyR0YgGOf+cqPwLJFqPe83bQJXh3OA3Pb
+         C7SKe3DuNa6mWI/AMn1sSahpjx2LNKAMKjB4hnsldBpBs8eBoU1ZX/fNzv0cx6kezZJx
+         e11MgPbiaY2S7ZiFK6VRkhzCFetcxRKzmU/4bnOn/Udw+vgIMY5CjP39kfnkqRpnWjBd
+         ZP8g
+X-Gm-Message-State: AG10YOQU6gG1loIFIdQ5Z/raze+s+jrdtpd7ZE7fln2JLjVJrLx65yrNzv588zeITerpe4z06LJXgSCXSQcbjdl/
+MIME-Version: 1.0
+X-Received: by 10.28.32.19 with SMTP id g19mr22090747wmg.98.1455661575777;
+ Tue, 16 Feb 2015 14:26:15 -0800 (PST)
+Received: by 10.27.16.23 with HTTP; Tue, 16 Feb 2015 14:26:15 -0800 (PST)
+Date: Tue, 16 Feb 2015 17:26:15 -0500
+Message-ID: <user@domain.com>
+Subject: Tech Weekly Report (Feb 8th to Feb 15th)
+From: Stephanie Hannon <hannon@hillaryclinton.com>
+To: Teddy Goff <user@domain.com>, 
+ Elan Kriegel <user@domain.com>, 
+ Jenna Lowenstein <user@domain.com>, 
+ Katie Dowd <user@domain.com>, 
+ Marlon Marshall <user@domain.com>, 
+ Brynne Craig <user@domain.com>, 
+ Rebecca Leal <user@domain.com>, 
+ Dennis Cheng <user@domain.com>, 
+ Beth Jones <user@domain.com>, 
+ Robby Mook <user@domain.com>, 
+ Heather Stone <user@domain.com>, 
+ Kimberly Panicek Trueblood <user@domain.com>, 
+ Tracey Lewis <user@domain.com>, 
+ John user <user@domain.com>, 
+ Huma Abedin <user@domain.com>, 
+ Nell Thomas <user@domain.com>, 
+ Kit Rodolfa <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Jesse Ferguson <user@domain.com>, 
+ Michael Halle <user@domain.com>, 
+ Michelle Kleppe <user@domain.com>
+CC: Tech Managers <user@domain.com>, 
+ The Product Team <user@domain.com>, 
+ Ahna Rao <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113d7b54234d1e052bea9fdd
+
+Reference links:
+* Q1 project current status
+<<<link>>
+5kdM6oyUQ/domain.com#gid=3D1065016584>
+* Archive of previous Weekly Reports
+<<<link>>
+n3dJc/domain.com#>
+
+Week starting February 8
+
+Wins:
+
+   -
+
+   Donate Performance improvements: An on-going project to refactor the
+   donate application has resulted in a 55% reduction of JavaScript served 
+for
+   donate pages on New Donate. This will decrease load time for the donate
+   pages!
+   -
+
+   NH SMS tool stats:The New Hampshire team used Megaphone, our SMS tool,
+   to send over 5800 GOTV text messages on election day!
+
+Updates:
+
+   -
+
+   Reporter team heads to Nevada: Nat and Gerard are heading to Nevada to
+   help support the use of Reporter, the caucus night app, and Aurora, the
+   reporting dashboard. They=E2=80=99ll be available to ensure that everyth
+ing on the
+   ground is running as smoothly as possible.
+   -
+
+   March States Training on Organizing Tools: The organizing tech team has
+   been training March state staff on our suite of organizing tools to ensu
+re
+   that everyone has the tools they need to succeed! You can see our
+   organizing tech toolbox here
+   <<<link>>
+ZqJNKO1wBYm8/domain.com#slide=3Did.gaf1f9a07f_0_65>
+and
+   our training on Megaphone, our VAN event creation and SMS tool here
+   <<<link>>
+7MIvkM65l7jU/domain.com#slide=3Did.g10aafd6dfa_3_0>
+   .
+   -
+
+   Uniform =E2=80=94 Checkboxes + VAN: Uniform now supports syncing the sel
+ected
+   values of checkboxes in Uniform forms into VAN, mapped to an activist co
+de.
+   Common forms like those used for coalition-building or volunteer engagem
+ent
+   often have checkboxes and now field organizers can work out of VAN to
+   capitalize on those supporters who are interested in these activities.
+   -
+
+   Email update: We=E2=80=99re working on making Balloon useful for segment
+ed
+   testing and speedy sends at crucial moments (like during debates) where
+   every second counts.  These improvements will help us maximize
+   contributions from our email list of over 2.7M subscribers.
+   -
+
+   HFA cloud update: The HFA cluster is being tested by analytics by
+   setting up duplicate jobs that will put real load onto the system. While
+   this is happening we are also adding multiple nodes to the system and
+   working through details for a full migration. Current plans is to have t
+he
+   analytics team to move over to HFA Vertica next week.
+
+Hiring:
+
+   -
+
+   Welcome John Wang! John is joining the data infrastructure team to help
+   make sure syncing, stork, Vertica and our other important systems are
+   running smoothly. He joins us from Minted in San Francisco and we are ve
+ry
+   excited to have him here!

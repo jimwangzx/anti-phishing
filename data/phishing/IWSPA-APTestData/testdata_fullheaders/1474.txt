@@ -1,0 +1,64 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.197 with SMTP id y188csp907785lfc;
+        Mon, 2 Nov 2015 11:00:55 -0800 (PST)
+X-Received: by 10.55.195.93 with SMTP id a90mr31805211qkj.31.1446490855150;
+        Mon, 02 Nov 2015 11:00:55 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from maile-da.linkedin.com (maile-da.linkedin.com. [108.174.6.201])
+        by domain.com with ESMTPS id f69si19306122qhc.88.2015.11.02.11.00.54
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 02 Nov 2015 11:00:55 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 108.174.6.201 as permitted sender) client-ip=108.174.6.201;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 108.174.6.201 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com;
+	s=proddkim1024; t=1446490854;
+	bh=cHgxVFHHupPs6GUuGC2nf7IRq7nETVXkkd/nfijTGGw=;
+	h=From: LinkedIn <messages-noreply@linkedin.com>
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=2yNhednIHiYGvaiekvJl3ZBnkgaNaUeA1eH1VCbiUIj6d0rDsbxV+fA0egt5XWTSd
+	 tXijL4vNAEhprDBT7VYpVqmPPP6DBmdP0Z/gFLx5yRxSG73WCf5NwRUIZcb9ny/Wym
+	 BH5N/mS5gS5y25/dx3bHcxXxKzBgarMX+nhFyQAQ
+From: LinkedIn <messages-noreply@linkedin.com>
+Message-ID: <1655229845.235833.1446490854644.user@domain.com>
+Subject: John, people are looking at your LinkedIn profile
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_235829_1563633769.1446490854641"
+To: John user <user@domain.com>
+Date: Mon, 2 Nov 2015 19:00:54 +0000 (UTC)
+X-LinkedIn-Class: PID
+X-LinkedIn-Template: b2_professional_identity_digest
+X-LinkedIn-fbl: m2-aszskxn17zi6r8zajpmyowkym3r1sxzm3t54g73p5v098iyy33bl825v9okq2rts0zgkndwnaozht8xwoke37ickix710cafr41pnx
+X-LinkedIn-Id: 71gyng-igi4466i-28
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe/AQHiLT4oeNMtXwAAAVDJktT05dJBw35OZ19GtJAjMXup7wIpHnTTiubT4mpqTmy79rA_Z0NT_WXY5bwkmRY/71gyng-igi4466i-28/m2-aszskxn17zi6r8zajpmyowkym3r1sxzm3t54g73p5v098iyy33bl825v9okq2rts0zgkndwnaozht8xwoke37ickix710cafr41pnx>
+Feedback-ID: b2_professional_identity_digest:linkedin
+
+John user, see how well your profile stands out from the crowd.
+
+You have 89 new profile views. A profile view from the right person is a st
+ep closer to your next career move.
+Who's looking: <<link>>
+d-text-wvmp&midToken=3DAQGnartt4aNJgA&trkEmail=3Deml-b2_professional_identi
+ty_digest-null-6-null-null-71gyng%7Eigi4466i%7E28
+
+You are receiving Professional Identity Digest emails. Unsubscribe here: ht
+tps://www.linkedin.com/e/v2?e=3D71gyng-igi4466i-28&t=3Dlun&midToken=3DAQGna
+rtt4aNJgA&tracking=3Deml-prof-pid-unsub&ek=3Db2_professional_identity_diges
+t&loid=3DAQHZY4dqDBZ50AAAAVDJktTAS-BEwewYBRFyG7GdXiysKmPXvJ9JLZqf6UrMD84Ufs
+lGWTbZNevDs6b6pO4&eid=3D71gyng-igi4466i-28
+
+This email was intended for John user (Chair of Hillary for America).
+Learn why we included this: <<link>>
+6i-28&a=3DcustomerServiceUrl&midToken=3DAQGnartt4aNJgA&ek=3Db2_professional
+_identity_digest&articleId=3D4788
+
+If you need assistance or have questions, please contact LinkedIn Customer 
+Service: <<link>>
+erviceUrl&midToken=3DAQGnartt4aNJgA&ek=3Db2_professional_identity_digest
+
+&copy; 2015 LinkedIn Corporation, 2015 Stierlin Court, Mountain View CA 940
+43. LinkedIn and the LinkedIn logo are registered trademarks of LinkedIn.

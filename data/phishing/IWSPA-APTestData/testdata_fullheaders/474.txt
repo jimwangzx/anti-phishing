@@ -1,0 +1,45 @@
+Delivered-To: user@domain.com
+Received: by 10.239.185.193 with SMTP id d1cs302763hbh;
+        Sat, 28 Nov 2015 06:38:28 -0800 (PST)
+Received: by 10.150.168.36 with SMTP id q36mr2771613ybe.21.1259419105600;
+        Sat, 28 Nov 2015 06:38:25 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com [216.26.142.98])
+        by domain.com with ESMTP id 6si2739679ywh.78.2009.11.28.06.38.24;
+        Sat, 28 Nov 2015 06:38:24 -0800 (PST)
+Received-SPF: neutral (domain.com: 216.26.142.98 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=216.26.142.98;
+Authentication-Results: domain.com; spf=neutral (domain.com: 216.26.142.98 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: from domain.com (172.29.232.11) by
+ domain.com (172.29.252.11) with Microsoft SMTP Server (TLS) id
+ 8.2.213.0; Sat, 28 Nov 2015 09:38:23 -0500
+Received: from domain.com ([172.29.251.92]) by
+ domain.com ([::1]) with mapi; Sat, 28 Nov 2015 09:38:22 -0500
+From: Mary Pat Bonner <mpbonner@bonnergrp.com>
+To: 'John user' <user@domain.com>, 
+ 'Debby Goldberg' <user@domain.com>
+Date: Sat, 28 Nov 2015 09:38:22 -0500
+Subject: Book1.xls
+Thread-Topic: Book1.xls
+Thread-Index: AcpwOG8loc2GkHwHSZWtriR+p889lQ
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/mixed;
+	boundary="_004_D8A72943A4200045A620F28CED197D37073530D707MBX01netplexi_"
+MIME-Version: 1.0
+Return-Path: user@domain.com
+
+Here is the most recent list of donors and prospects who have been invited 
+to the conference.  Note: at the bottom are all the people Debby and I plac
+ed on HOLD for now.  This does not include many of the new prospects we wan
+t to include which Debby and I need to get together this week to discuss - 
+so they can go out.
+
+Let me know if either of you have any questions.
+
+Hope you are having a Great Holiday!
+
+Mary Pat

@@ -1,0 +1,121 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.203 with SMTP id e194csp661298lfb;
+        Wed, 15 Oct 2015 13:37:06 -0700 (PDT)
+X-Received: by 10.224.87.138 with SMTP id w10mr1529386qal.95.1413405425324;
+        Wed, 15 Oct 2015 13:37:05 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.195])
+        by domain.com with ESMTPS id 44si37005901qgk.2.2014.10.15.13.37.04
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Wed, 15 Oct 2015 13:37:05 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.195;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.241.131:16166] by server-3.bemta-8.domain.com id EA/28-01183-9EADE345; Wed, 15 Oct 2015 20:36:57 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-10.tower-54.domain.com!1413405416!7639490!2
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 29620 invoked from network); 15 Oct 2015 20:36:57 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-10.tower-54.domain.com with AES128-SHA encrypted SMTP; 15 Oct 2015 20:36:57 -0000
+Resent-From: Schneider for Congress <info@schneiderforcongress.com>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Wed, 15 Oct 2015 16:36:55 -0400
+Received: from [216.82.254.83:18973] by server-11.bemta-7.domain.com id
+ 85/D1-31290-7EADE345; Wed, 15 Oct 2015 20:36:55 +0000
+X-Env-Sender: AQZVVmpSXgJXAFEMUgBXUFJbAAUMPhVcBlxBF1d0WQUSS1FQDBYBURFcR1s
+  user@domain.com
+X-Msg-Ref: server-5.tower-197.domain.com!1413405414!5545711!1
+X-Originating-IP: [66.151.230.145]
+X-SpamReason: No, hits=0.0 required=7.0 tests=HTML_MESSAGE
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 13971 invoked from network); 15 Oct 2015 20:36:54 -0000
+Received: from mta-dock-front-2.domain.com (HELO
+ mta-dock-front-2.domain.com) (66.151.230.145)  by
+ server-5.tower-197.domain.com with SMTP; 15 Oct 2015 20:36:54 -0000
+Received: from domain.com (unknown [10.0.200.80])	by
+ mta-dock-front-2.domain.com (Postfix) with ESMTP id 3jJ55K5sBrzPjfg
+	for <user@domain.com>; Wed, 15 Oct 2015 20:36:53 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1413405413;
+	bh=h0ub8PWSaR4R4MYYYS9HVYuz83vqNOtEV0t0TyE3MRo=;
+	h=Date:To:From: Schneider for Congress <info@schneiderforcongress.com>
+	b=iZVOg8xypyZR9gXNhOFQoBZ8sfl3qW0ln0bs4mglMTYQ3Uq9OkwbWQZa55zIHk7hS
+	 govef7EncSFgy2R9ggaHR/s45gKiCeGxXdqzmjFp42vJ35hYtHMF9ZqHPni471aZUl
+	 0GL02R5Rqqz9hOiQ8NSouwk+Cx+03eWjyWCFUUPw
+Received: from build 	by domain.com with local (PHPMailer);
+	Wed, 15 Oct 2015 20:36:53 +0000
+Date: Wed, 15 Oct 2015 20:36:53 +0000
+To: John user <user@domain.com>
+From: Schneider for Congress <info@schneiderforcongress.com>
+Reply-To: <user@domain.com>
+Subject: re: quick favor john?
+Message-ID: <3851user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 68623a9ced11b078
+X-rpcampaign: rp_189945
+X-maillist-guid: AQZVVmpSXgJXAFEMUgBXUFJbAAUMPhVcBlxBF1d0WQUSS1FQDBYBURFcR1sfAFcUagoGCgIF
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_3851ce9f3da1383f39cb7846bd27adc2"
+
+You heard it straight from the source.
+
+Brad's race is a pure "TOSS UP". If we don't fight back, Republicans will 
+pounce at the opportunity to attack.
+
+So we need your urgent support to keep this seat blue.
+
+As of 1pm, we're just 81 donations short of our FEC goal. Can Brad count 
+on your support?
+
+<<link>>
+_2014.10.15_b2_sfc_all&amp;amp;amount=3D25&amp;amp;amounts=3D15,25,50,100,
+250,500,1000&amp;amp;user@domain.com&amp;amp;firstname
+=3DJohn&amp;amp;lastname=3Duser&amp;amp;city=3DWashington&amp;amp;state
+=3DDC&amp;amp;zip=3D20016&amp;amp;phone=3D2162818851&amp;amp;occupation=3D
+&amp;amp;employer=3D&amp;amp;recur_weekly=3Dtrue
+---------- Original Email ---------
+
+From: Schneider for Congress <info@schneiderforcongress.com>
+Subject: quick favor john?
+John, I'm sorry for emailing so much.
+
+But we need more Democrats like Brad Schneider in Congress. Here's why:
+
+Brad believes women deserve equal pay for equal work.
+Brad believes all Americans should be able to marry the person they love.
+Brad believes our Great Lakes must be protected from polluting companies.
+We can re-elect Brad -- and hand Speaker Boehner a devastating defeat -- 
+but we need your support immediately.
+
+So I need a quick favor: Will you pitch in $5 or more to help keep Brad 
+fighting for Illinois?
+
+<<link>>
+_2014.10.15_b2_sfc_all&amp;amp;amount=3D25&amp;amp;amounts=3D15,25,50,100,
+250,500,1000&amp;amp;user@domain.com&amp;amp;firstname
+=3DJohn&amp;amp;lastname=3Duser&amp;amp;city=3DWashington&amp;amp;state
+=3DDC&amp;amp;zip=3D20016&amp;amp;phone=3D2162818851&amp;amp;occupation=3D
+&amp;amp;employer=3D&amp;amp;recur_weekly=3Dtrue
+
+Thank you,
+
+Debbie Wasserman Schultz----
+
+This email was sent to user@domain.com
+
+To unsubscribe, go to:
+  <<link>>
+

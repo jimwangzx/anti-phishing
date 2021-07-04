@@ -1,0 +1,184 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.1.2.3])
+	by domain.com (Postfix) with ESMTP id B27C7536F40
+	for <user@domain.com>; Sun, 27 Nov 2015 18:50:18 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id DA9BD6CCE3B
+	for <user@domain.com>; Sun, 27 Nov 2015 18:50:17 -0500 (EST)
+Received: from domain.com (domain.com [204.89.253.23])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Sun, 27 Nov 2015 18:50:17 -0500 (EST)
+Received: by domain.com (Postfix, from userid 65534)
+	id 661BE25A72; Sun, 27 Nov 2015 18:50:17 -0500 (EST)
+To: user@domain.com
+Subject: Get Important Reminders with PayPal Alerts
+From: secure@paypal.com <paypal@email.paypal.com>
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <20051127235017.661user@domain.com>
+Date: Sun, 27 Nov 2015 18:50:17 -0500 (EST)
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.6 required=5.0 tests=HTML_30_40,HTML_FONT_FACE_BAD,
+	HTML_MESSAGE,HTML_MIME_NO_HTML_TAG,MIME_HTML_ONLY,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,REPLY_TO_EMPTY autolearn=no 
+	version=3.0.2
+X-Spam-Report: 
+	*  1.6 REPLY_TO_EMPTY Reply-To: is empty
+	*  0.0 HTML_30_40 BODY: Message is 30% to 40% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.0 HTML_FONT_FACE_BAD BODY: HTML font face is not a word
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (<>)
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 43
+
+Dear PayPal,
+
+We recently noticed one or more
+attempts to log in to your PayPal account
+from a foreign IP address.
+
+If you
+recently accessed your account while traveling, the unusual log in
+attempts may have
+been initiated by you. However, if you did not initiate
+the log ins, please domain.com
+PayPal as soon as possible to verify your
+identity:
+
+<>
+cmd=_login-run
+
+Verify your identity is
+a security measure that will ensure that you are
+the only person with access to the
+account.
+
+Thanks for your patience as we work together to protect your
+account.
+
+Sincerely,
+PayPal
+------------------------------------------------
+----------------
+
+PROTECT YOUR PASSWORD
+
+   NEVER give your password to anyone and ONLY
+log in at
+<> Protect
+yourself against fraudulent websites by
+opening a new web browser (e.g. domain.com
+Explorer or Netscape) and typing
+in the PayPal URL every time you log in to your
+account.
+----------------------------------------------------------------
+
+Please do not reply to this e-mail. Mail sent to this
+address cannot be
+answered. For assistance, log in to your PayPal account and choose
+the
+"Help" link in the header of any page.
+
+PayPal Email ID PP344
+
+From user@domain.com  Mon Nov 28 03:28:25 2015 
+Return-Path: 
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.1.2.3])
+	by domain.com (Postfix) with ESMTP id 7F8DF536E39
+	for ; Mon, 28 Nov 2015 03:28:25 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 248A56CCED8
+	for ; Mon, 28 Nov 2015 03:28:23 -0500 (EST)
+Received: from 59.44.127.148 (unknown [59.44.127.148])
+	by domain.com (Postfix) with SMTP
+	for ; Mon, 28 Nov 2015 03:28:22 -0500 (EST)
+X-Message-Info: GH755pIqwqCpx27f7+Wg6uAGJ
+Received: from mail060.wmas.e-domain.com (59.96.176.44) by z7-ia480.e-domain.com with Microsoft SMTPSVC(5.0.2195.6824);
+	 Mon, 28 Nov 2015 01:24:25 -0700
+Received: from ZL430 (i8.0.4.212.b90.mf.e-domain.com 64.76.221.0)
+	by mail755.tgr.e-domain.com (826.09.3swy7/7.29.268) with SMTP id os49ZRU6SUw902;
+	Mon, 28 Nov 2015 06:28:25 -0200
+Message-ID: <626aeb033xow80b8qfw$hxe9o08pqs611$user@domain.com>
+From: secure@paypal.com <paypal@email.paypal.com>
+To: "User" 
+References: 
+Subject: Account Security Measures!
+Date: Mon, 28 Nov 2015 11:27:25 +0300
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--344627360211326"
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ****************
+X-Spam-Status: Yes, score=16.2 required=5.0 tests=HTML_IMAGE_ONLY_20,
+	HTML_MESSAGE,HTML_MIME_NO_HTML_TAG,HTML_TAG_EXIST_TBODY,
+	MIME_BOUND_DD_DIGITS,MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,
+	MIME_QP_LONG_LINE,MPART_ALT_DIFF,RCVD_IN_SBL,RCVD_IN_XBL,
+	RCVD_NUMERIC_HELO,X_MESSAGE_INFO autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  4.2 X_MESSAGE_INFO Bulk email fingerprint (X-Message-Info) found
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  0.4 HTML_IMAGE_ONLY_20 BODY: HTML: images with 1600-2000 bytes of words
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 HTML_TAG_EXIST_TBODY BODY: HTML has "tbody" tag
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.0 MIME_QP_LONG_LINE RAW: Quoted-printable line longer than 76 chars
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [59.44.127.148 listed in sbl-domain.com]
+	*  0.1 RCVD_IN_SBL RBL: Received via a relay in Spamhaus SBL
+	*      [59.44.127.148 listed in sbl-domain.com]
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 44
+
+----344627360211326
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+I
+MPORTANT 
+NOTICE
+
+ Dear Halifax Customer,
+
+This mail is to inform you about the im
+portant 
+urgent updates of our service
+
+you are requested to please follow the link below and update your HALIFAX<
+br>
+ONLINE account.
+<>
+ate_Account
+
+Thanks
+M. Mark Johnson
+
+(Security & Fraud Update Incharge)
+
+Halifax Online Banking Ltd.
+Please feel free to c
+all us 
+anytime 24/7 at 08456 02 00 00 for support
+
+Mail ID: mhfx-update-02.845/-93
+
+----344627360211326

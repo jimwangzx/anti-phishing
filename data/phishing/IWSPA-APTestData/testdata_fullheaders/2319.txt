@@ -1,0 +1,143 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp115942lfb;
+        Wed, 9 Mar 2015 14:26:06 -0800 (PST)
+X-Received: by 10.107.14.209 with SMTP id 200mr121092ioo.73.1457562366079;
+        Wed, 09 Mar 2015 14:26:06 -0800 (PST)
+Return-Path: <3_user@domain.com>
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::24a])
+        by domain.com with ESMTPS id vt8si31846igb.32.2016.03.09.14.26.05
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 09 Mar 2015 14:26:06 -0800 (PST)
+Received-SPF: pass (domain.com: domain of 3_user@domain.com designates 2607:f8b0:4001:c06::24a as permitted sender) client-ip=2607:f8b0:4001:c06::24a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3_user@domain.com designates 2607:f8b0:4001:c06::24a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-io0-domain.com with SMTP id g203so5226994iof.0
+        for <user@domain.com>; Wed, 09 Mar 2015 14:26:05 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:cc:auto-submitted:message-id:date
+         :subject:From: sbay@hillaryclinton.com
+        bh=AMvqK0Q4v2dJ+Db9jxKkxxQaPJWt9KJ47oomVWhCGKk=;
+        b=bJZfieug53G8ole6GtoGi5IftE8HDojeCYdnOCFKVAWyPpaEtChKeMzgnNk/zsZgEP
+         TivNluCfyfvxTndC2iRrGNC1NcTOmvUgBbvud/CJ5eTdWVjrUiETQ+ePZtZ2cnwNVpTS
+         WFkkXkwlFFS6X3Yr+z2XKvgSiDetrJwyJoiTpyWJQEPa1Pkrp9Fb6z0pBjOuYP2uQRrG
+         hVM1ZCEqvCtXMoB576bAyOCA+3h0W6J52g5hi9y/aCLDEz+ynFO/NpRXd6PGOGRri997
+         iPS7zAuPSvBkCfcvsnGp3Ou0GzxkgpjKCEDTEUygQwrSb/Ojch2tNzwuG8L56jnNgn7u
+         Xomg
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:cc:auto-submitted:message-id:date
+         :subject:From: sbay@hillaryclinton.com
+        bh=AMvqK0Q4v2dJ+Db9jxKkxxQaPJWt9KJ47oomVWhCGKk=;
+        b=QFdoVtezt+3zLwgwqZSxko3QRBrwqyPgiETw1HATiBsgBSSU6XrVu6fgVu30+vwqKr
+         6WnzFM3H3TpOtx6YSU2esDUHbnmu2Pb3S7O+fmAy6WfRvlhPWqG51z3GJvBq7HLIhG1h
+         suZ3MNgimWUYaJsQf46pw7YKlCZiLLDP1sfT0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:cc:auto-submitted
+         :message-id:date:subject:From: sbay@hillaryclinton.com
+        bh=AMvqK0Q4v2dJ+Db9jxKkxxQaPJWt9KJ47oomVWhCGKk=;
+        b=NuGhUas/yUCnlLn8xfmtzeheSwdnPNQ7BovxHfvL6EhbIRWY1c+RciUU4GdTcOg5k9
+         d5hiwLh3RIJBfQDdWvW4eOFy7xHYqvnBVPsYzW915K/hyxrCnm9G4UFGGa6evOkycu3h
+         YB3sRqiUaj7Xl3j1kBHx+Edshcg0lyWssof4khUcQ9wjScRr/0ZegoL+/z57vTCINh2+
+         QgX62UGcU+b5kJdOUEKZjbo54KT6ilbZGHVrd8uk12ZVVvbINeKd+/OLgXrF45QVlSmG
+         u7MdggRw9AyjNWFZaKG4PM/TA01yxkkQGHjZwYzuLIGxZAzY+/JhS84U0HeyDiJipYGw
+         6X3Q
+X-Gm-Message-State: AD7BkJJ7KJtYL0OGnKoiI9hcvZLJt4QDyCtdsvPPx1O+W+2tEpkgH8SjhX7dXAAv5N1KcSrry4yA0p1ljkD26/zm4Y7E3PQ013E
+MIME-Version: 1.0
+X-Received: by 10.182.106.11 with SMTP id gq11mr95149obb.45.1457562365702;
+ Wed, 09 Mar 2015 14:26:05 -0800 (PST)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+CC: user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com
+Auto-Submitted: auto-generated
+Message-ID: <user@domain.com>
+Date: Wed, 09 Mar 2015 22:26:05 +0000
+Subject: [Update] Nightly Recap Call
+From: sbay@hillaryclinton.com
+To: user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, 
+ "user@domain.com" <user@domain.com>, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com
+Content-Type: multipart/alternative; boundary=e89a8fb1ebfa0bd1ec052da52f08
+
+No recap tonight - thanks
+
+You have been invited to the following event.
+
+Title: Nightly Recap Call
+Pls note new conference line #
+When: Wed Mar 9, 2015 7pm - 7:30pm Eastern Time
+Where: 772-212-0079
+Video call:  
+<<link>>  
+<<<link>>>
+Who:
+     * user@domain.com - organizer
+     * David Binder
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * John user
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com

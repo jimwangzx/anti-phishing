@@ -1,0 +1,69 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp2524493lfr;
+        Tue, 11 Aug 2015 15:57:13 -0700 (PDT)
+X-Received: by 10.140.98.148 with SMTP id o20mr26237178qge.19.1439333833161;
+        Tue, 11 Aug 2015 15:57:13 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [209.85.220.178])
+        by domain.com with ESMTPS id 67si6421793qhy.7.2015.08.11.15.57.12
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 11 Aug 2015 15:57:13 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.220.178 as permitted sender) client-ip=209.85.220.178;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.220.178 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qk0-domain.com with SMTP id s67so392qkc.1
+        for <user@domain.com>; Tue, 11 Aug 2015 15:57:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:From: Varun Anand <vanand@hillaryclinton.com>
+        bh=ze7Jko28wA+QB7nifXVrUCYkMAyq0dV9BP7R/gRFWn4=;
+        b=ZnsYfUx7Cp702KaYTU4zgmoV7cedTTkrB85ZKouS9Yz3PsSkhBlgpx6n9FxSY+PH2c
+         LjQpbk7Ku0rJU/zHaapMZdzEG0s/oLsniDjYyULpODouBsuIU/g0+D5R79FU8Bg19VrY
+         //0nex1eHhVdnFswuLmCMMRvwqxShOtqVc6oc
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:From: Varun Anand <vanand@hillaryclinton.com>
+         :content-type;
+        bh=ze7Jko28wA+QB7nifXVrUCYkMAyq0dV9BP7R/gRFWn4=;
+        b=IQ9LcL1B5bJV/v/PkQ0mqowi6bsv8gsl6MShfqyyt0oRqg/MLwC1spFI0UqSzHp5ig
+         iSF8njjHVAs8P2rOemODSaZ82sctBnt7dajaFQUGB9jFNOwZ5Rj6XfqcT8/KJ0XAuV5f
+         GMFhNeJ6GOrcHof0hAExfqtq5PAUuMnG8cDyvI9xJFDNuKT39+Z07rZXrkvnHoAoBot0
+         j6Ni/Tna7PPr2ZJB8V/6nPhqgjcNCk2CXL6AjwXA+KAeJ0V9JswGs1LlvGx10rVzyPok
+         NeRr0VtBdXurWcKh/tFUy6M2Kl7GOc4zGxxiOrvnJl4N1RoD9j69Izw9EUeR+706Jwl5
+         Fm0A
+X-Gm-Message-State: ALoCoQnj+Yy1VvxQvJastCpE2fW1Q1t8E0ltEjr1n9MrUjYgPoXAA/nVIKbHgSu8dpoMZ5e9chwN
+X-Received: by 10.55.40.130 with SMTP id o2mr40812451qko.10.1439333832360;
+ Tue, 11 Aug 2015 15:57:12 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.96.183.227 with HTTP; Tue, 11 Aug 2015 15:56:53 -0700 (PDT)
+From: Varun Anand <vanand@hillaryclinton.com>
+Date: Tue, 11 Aug 2015 18:56:53 -0400
+Message-ID: <CAMCPnYn10jD10ywjKz+user@domain.com>
+Subject: Call at 7pm Today
+To: Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Nick Merrill <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Karen Finney <user@domain.com>, 
+ Adrienne Elrod <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Teddy Goff <user@domain.com>, 
+ Katie Dowd <user@domain.com>, Robby Mook <user@domain.com>, 
+ John user <user@domain.com>
+CC: Corey Ciorciari <user@domain.com>, 
+ Graeme Crews <user@domain.com>, 
+ Kate Offerdahl <user@domain.com>, 
+ Milia Fisher <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11429f46ca9c46051d1105ff
+
+Hi everyone,
+
+We'd like to get this group together for a call at 7pm. Please use the
+following dial-in: 718-504-2326
+
+Thanks,
+Varun

@@ -1,0 +1,57 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id 89C42468C2
+	for <user@domain.com>; Thu, 19 Jun 2015 12:30:57 -0400 (EDT)
+Received: from domain.com (domain.com [66.135.10.184])
+	by domain.com (Postfix) with ESMTP id A9B65131F8A0
+	for <user@domain.com>; Thu, 19 Jun 2015 12:30:57 -0400 (EDT)
+Received: from User ([67.123.201.70])
+        by domain.com (CTP Mail Server) with ASMTP id ZWH01734;
+        Thu, 19 Jun 2015 11:14:34 -0500
+From: "service@paypal.com"<service@admin.net>
+Subject: Unauthorized activity on your account !
+Date: Thu, 19 Jun 2015 09:19:01 -0700
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20080619163057.user@domain.com>
+To: undisclosed-recipients:;
+Content-Length: 2015 
+Lines: 74
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 789
+
+Dear PayPal Member, 
+
+As part of our security measures, we regularly screen activity in the PayPal 
+
+system. During a recent screening, we noticed an issue regarding your account. 
+
+For your protection, we have limited access to your account until additional 
+
+security measures can be completed. We apologize for any inconvenience 
+
+this may cause. 
+
+This might be due to either of the following reasons: 
+
+1. A recent change in your personal information (i.e. change of address,
+
+e-mail address). 
+
+2. An inability to accurately verify your selected option of payment due
+
+ to an internal error within our processors. 
+
+Please update and verify your information by checking the link below: 
+
+<>

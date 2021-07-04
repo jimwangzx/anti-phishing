@@ -1,0 +1,102 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 12 Dec 2015 14:12:28 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBCMCQxV013336	for <user@domain.com>; Thu, 12 Dec 2015 
+ 22:12:26 GMT
+Received: from mail101-ch1-domain.com (mail-domain.com
+ [216.32.181.170])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rBCMCPah006737
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 12 Dec 2015 22:12:26 GMT
+Received: from mail101-ch1 (localhost [127.0.0.1])	by
+ mail101-ch1-domain.com (Postfix) with ESMTP id ADDAB1200B2	for
+ <user@domain.com>; Thu, 12 Dec 2015 22:12:25 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:63.251.246.24;KIP:(null);UIP:(null);IPV:NLI;H:mkt13-domain.com;RD:mkt13-domain.com;EFVD:NLI
+X-SpamScore: 5
+X-BigFish: vps5(z3e12hz1810Ic89bhdc43h1083Ic857h160fozz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz17326ah1def03h1def87h8275bh1bc7b9h8275dh1def86h1de097h1de096h186068h18602eh1b778fh1ce120hz2fheh5eh5fh839h93fhd24h10d2h1288h12a5h137ah13eah1441h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1fe8h1ff5h20f0h2216h2336h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail101-ch1: domain of domain.com designates 63.251.246.24 as permitted sender) client-ip=63.251.246.24; user@domain.com; helo=mkt13-domain.com ;domain.com ;
+Received: from mail101-ch1 (localhost.localdomain [127.0.0.1]) by mail101-ch1
+ (MessageSwitch) id 1386886343264080_3480; Thu, 12 Dec 2015 22:12:23 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.240])	by mail101-domain.com (Postfix) with ESMTP id
+ 2D0701C00D9	for <user@domain.com>; Thu, 12 Dec 2015 22:12:23 +0000
+ (UTC)
+Received: from mkt13-domain.com (63.251.246.24) by
+ domain.com (10.43.70.1) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 12 Dec 2015 22:12:22 +0000
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=mkt; d=domain.com;
+	h=DKIM-Signature:Received:From: Los Angeles Mission - Herb Smith
+	b=cS4QXln02omfoOQFfyR4Ou0Iiv+ZOdHYA2MdxzStUHXlwZBgg1snP7mMpYx+DXCV
+	T7u1y2nNEu0XSNsvqEh0imZKvP/RhEewED+TJ2taVj7W3unGRg7BFj9XhsGNBziA
+	vxVkXvgGGjiaD/LapOjDUeetdQqiUvnQAT22rohEnGA
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=dkim; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1386886343;
+	h=From: Los Angeles Mission - Herb Smith
+	bh=lVFwLOP7aaeCB28UmGnUmQIJq+A=;
+	b=PyzTLPy+UyZmbIePukXQxFcXyEWUZtRHbIrmyvMo845D011HsSHuAQWvlFlR5/em
+	gfVR9sE4J+ZCO5quIy+8O6RXhE97VqZUchQeE9pCO17TDEv4sbCKvBZRKuj7aq8p
+	GfLBdgfzSHibj/0pzXwLfdI+Kw2JNEXD1jXNjEZj314=;
+Received: from [10.4.33.146] ([10.4.33.146:36537]
+ helo=vm-domain.com)	by tahoe (envelope-from
+ <user@domain.com>)	(ecelerity 3.1.6.41536
+ r(41536)) with ESMTP	id FC/9D-30793-7C43AA25; Thu, 12 Dec 2015 14:12:23 -0800
+From: Los Angeles Mission - Herb Smith
+	<user@domain.com>
+Reply-To: Los Angeles Mission - Herb Smith
+	<user@domain.com>
+To: <user@domain.com>
+Subject: =?UTF-8?Q?You=20can=20Give=20a=20Free=20Meal=20at=20the=20Los=20Angeles=20Mission=20=E2=80=93=20Hot=20Ziggedy!?
+Date: Thu, 12 Dec 2015 22:12:23 +0000
+Message-ID: <211user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>
+X-Company_ID: 464770
+X-vrfbldomain: domain.com
+X-vrpod: p0
+X-CTS-Enabled: 211c8d0a33-2ce53a1d78
+X-Campaign: 211c8d0a33
+X-vrrpmm: 464770-211c8d0a33
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+You can Give a Free Meal at the Los Angeles Mission – Hot Ziggedy!
+
+Click to view this email in a browser
+
+ december_header_nd     
+
+Make a Difference
+with the Los Angeles Mission and Ziggedy
+
+Ziggedy
+
+The Los Angeles Mission is excited to announce our new partnership with Ziggedy! Ziggedy is an online shopping portal that shares 50% of their earnings from Los Angeles Mission Sponsors, with the Los Angeles Mission.
+
+By shopping through Ziggedy this Christmas and beyond, the gifts that you are already going to buy and your everyday shopping could result in dozens of meals and care for hungry, homeless people, at no additional cost to you.
+
+Click here to create an account on Ziggedy!
+
+By creating an account through this email, one meal will be donated immediately, and you will automatically be sponsoring the Los Angeles Mission on Ziggedy!!
+
+
+
+Watch this quick video or read below to learn more!
+
+zigg_vidBrowse and shop at over 3500 merchants (such as Amazon, Nordstrom, domain.com, etc.)
+
+Compare prices and save money on items you are shopping for
+
+Items you buy from tiles marked with a blue or orange ribbon will result in earnings that will be shared with the Los Angeles Mission
+
+There is absolutely no cost to join and shop through Ziggedy
+
+Your signup process will be smoother on a computer rather than a mobile device, at this time
+
+Please forward this em
+

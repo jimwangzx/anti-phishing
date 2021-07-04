@@ -1,0 +1,73 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp2090911lfr;
+        Tue, 1 Sep 2015 06:11:56 -0700 (PDT)
+X-Received: by 10.50.111.111 with SMTP id ih15mr1381327igb.32.1441113116859;
+        Tue, 01 Sep 2015 06:11:56 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta880.e.newyorktimesinfo.com (mta880.e.newyorktimesinfo.com. [66.77.119.192])
+        by domain.com with ESMTP id z71si11886429iod.176.2015.09.01.06.11.56
+        for <user@domain.com>;
+        Tue, 01 Sep 2015 06:11:56 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.77.119.192 as permitted sender) client-ip=66.77.119.192;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 66.77.119.192 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=e.newyorktimesinfo.com; s=20131119; t=1441113115; x=1456837915;
+	bh=yLEexLoNcC9/zYmt0a2pA+35X4Gtd3C71MHPPJjI4oc=; h=From: "The New York Times" <nytimes@e.newyorktimesinfo.com>
+	b=FZxA5XoTsnxccnNu3+UUbFsMt0/du3SyN789jtQh9cheG23lLhrfuJ4lvPwvw2Dny
+	 gVe/klSy5+aLUD6YD8DpUl1cN7tpMxjpKbtDKwn/sLqMJX0NYqAz7fq10BM+Kkh5Sj
+	 OoW7iTlBern7lNZoGZW4EsNYDwSWBoe07h1f/wyA
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=200505; d=e.newyorktimesinfo.com;
+  b=CZrhBAOvH2A0N1ZenI5W6wJt0Qwgb6zETwvc8GFaU7/sNiojfXKsA0MqmVYSBBaKzcH3B9gfFAwr8H7pH0tu/HWVt91unTmQXKxdzWPsVA5q23IacRAGA2iLRH8R+0y5TOI7xS8OzZ1/3kVtp8jvDMxagSfzvXJD6/9glvIDRWI=;
+ h=Date:Message-ID:List-Unsubscribe:From: "The New York Times" <nytimes@e.newyorktimesinfo.com>
+Date: Tue, 1 Sep 2015 13:11:55 -0000
+Message-ID: <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com>
+From: "The New York Times" <nytimes@e.newyorktimesinfo.com>
+To: user@domain.com
+Subject: September Subscriber Spotlight: Championship coverage of the U.S. Open
+MIME-Version: 1.0
+Reply-To: "User" <user@domain.com>
+Content-type: multipart/alternative; boundary="=b95rr8mbfev00jauprq9hby8272em3"
+
+Take full advantage of your unlimited domain.com access and enjoy our
+vast selection of articles, blogs, videos, interactive features and 
+more.
+-------------------------------------------------
+
+View in browser:
+<<link>>
+
+-------------------------------------------------
+
+-- THE NEW YORK TIMES --
+
+September 2015 | Subscriber Spotlight
+
+View in browser:
+<<link>>
+
+-------------------------------------------------
+
+You received this email because you are a subscriber to
+The New York Times. 
+
+To ensure delivery of emails from The New York Times, please 
+add user@domain.com to your address book. 
+
+The New York Times; 
+<<link>>
+
+Privacy Policy:
+<<link>>
+
+Contact Us:
+user@domain.com
+
+Unsubscribe:
+<<link>>
+
+(c) 2015 The New York Times Company
+P.O. Box 8041, Davenport, IA 52808-8041

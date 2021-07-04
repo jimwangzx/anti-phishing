@@ -1,0 +1,105 @@
+Delivered-To: user@domain.com
+Received: by 10.204.68.206 with SMTP id w14csp28404bki;
+        Thu, 8 Aug 2015 12:15:14 -0700 (PDT)
+X-Received: by 10.49.127.196 with SMTP id ni4mr7880004qeb.5.1375989312809;
+        Thu, 08 Aug 2015 12:15:12 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [8.21.239.20])
+        by domain.com with ESMTP id g10si6354451qaf.77.2013.08.08.12.15.12
+        for <user@domain.com>;
+        Thu, 08 Aug 2015 12:15:12 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 8.21.239.20 as permitted sender) client-ip=8.21.239.20;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 8.21.239.20 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Return-Path: <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1375989311;
+	h=Sender:From: "Sean Patrick Maloney " <sean@seanmaloney.com>
+	Content-Type;
+	bh=PI+X8P619sO61wFkDZ7FVw4nGyY=;
+	b=qBEhUhHRgL+SAZJxYWEkUpQ+od1yrPQ/NX8uX5IpuebRMUjTQdxPoghp0HwhVKUL
+	/G80DY52DNi7ItVX1xzHNbYeucHG3iq/Ha6qucBJRPWuDdsjrsnPknjyOkNbujQo
+	6yfBwhMYKwz6oaCajg29DQuv+WNcFHc+cMdQMAaXj80=;
+X-MSFBL: am9obi5wb2Rlc3RhQGdtYWlsLmNvbUBtYWlsb3V0NDAyQGRlZmF1bHRAYm91bmNl
+	Xzk3MTUzMS00NDAxLTgyODM5MzAzLTEwNjA3OTk5X1Q
+Received: from [10.0.1.31] ([10.0.1.31:1878] helo=TIAPP05)
+	by nvmta04 (envelope-from <user@domain.com>)
+	(ecelerity 3.5.1.37854 r(Momo-dev:3.5.1.0)) with ESMTP
+	id 34/0D-10477-F3EE3025; Thu, 08 Aug 2015 15:15:11 -0400
+X-CampaignID: 4401
+X-BroadcastID: 971531
+X-ContactID: 10607999
+X-Binding: mailout402
+Sender: "Sean Patrick Maloney " <user@domain.com>
+List-Unsubscribe: <<<link>>>
+Reply-To: user@domain.com
+From: "Sean Patrick Maloney " <sean@seanmaloney.com>
+To: user@domain.com
+Message-ID: <user@domain.com>
+Date: Thu, 08 Aug 2015 15:15:11 -0400
+Subject: momentum
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----7A6F09FA064B44A58CC150EDBFE66D37"
+
+John --
+
+After decades of tireless organizing, equality is on a winning streak=2E
+
+The momentum that began in November continued when the Supreme Court st
+ruck down DOMA=2E
+
+And a few weeks ago, we took another step when a Senate committee voted
+ 15-7 to advance the Employment Non-Discrimination Act=2E Three Republi
+cans voted =93yes,=94 including conservative Sen=2E Orrin Hatch=2E
+
+Twenty-nine states currently protect employers who want to fire people 
+solely because of who they are or who they love=2E ENDA is a critical s
+tep toward protecting LGBT employees=2E
+
+Click here to show your support for passing ENDA and guaranteeing basic
+ workplace rights to all Americans=2E
+
+<<link>>
+gnup_page_KEY=3D6174
+
+Federal law protects workers from being terminated based on their race,
+ religion, age, gender or disability status=2E ENDA extends that same b
+asic protection to LGBT workers in the 29 states where there are no suc
+h safeguards=2E
+
+It=92s been 19 years since ENDA was first introduced in Congress=2E The
+ recent bipartisan vote in the Senate sends a signal to the House that 
+the time has come for full equality in the workplace=2E
+
+Together, we can take action to end workplace discrimination=2E You can
+ help by joining me and Rep=2E Kyrsten Sinema in demanding that Congres
+s move immediately to pass ENDA=2E
+
+Click here to add your name to the effort to pass ENDA=2E
+
+<<link>>
+gnup_page_KEY=3D6174
+
+Thanks for standing with us and for all that you do,
+
+Sean
+
+Contribute -- <<link>>
+w?key=3D48286046
+
+--
+
+Paid for by Sean Patrick Maloney for Congress
+
+Sean Patrick Maloney for Congress
+PO Box 270
+Newburgh, NY 12550
+
+To unsubscribe from this mailing list, click here - <<link>>
+gp=2Ecom/unsubscribe=2Easpx?crypt=3DCasv%2frrJxGAq9DTl%2f1OHiH48yChwDJH
+f7Kr%2bZ2x4hmM%3d
+
+Powered by NGP VAN, Inc=2E
+

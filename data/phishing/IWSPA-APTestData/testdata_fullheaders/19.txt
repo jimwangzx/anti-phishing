@@ -1,0 +1,115 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 11 Jun 2015 17:25:41 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id CA92660060	for
+ <user@domain.com>; Thu, 11 Jun 2015 16:01:17 +0100 (BST)
+Received: by domain.com (Postfix)	id BDCDF4440B18; Thu, 11 Jun 2015 
+ 17:24:39 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id BCFF64440AFF	for
+ <user@domain.com>; Thu, 11 Jun 2015 17:24:39 +0200 (CEST)
+X-ASG-Debug-ID: 1434036339-066a754c8916350001-YiOMKe
+Received: from domain.com (domain.com
+ [199.15.213.50]) by domain.com with ESMTP id wNG4MKvp0GRytuOn for
+ <user@domain.com>; Thu, 11 Jun 2015 17:25:39 +0200 (CEST)
+X-Barracuda-Envelope-From: Ixia Visibility <ixiavisibility@ixiacom.com>
+X-Barracuda-IPDD: Level1 [domain.com/199.15.213.50]
+X-Barracuda-Apparent-Source-IP: 199.15.213.50
+X-MSFBL: YS5vcm5hZ2hpQGhhY2tpbmd0ZWFtLmNvbUBkdnAtMTk5LTE1LTIxMy01MEBiZy1h
+	Yi0wMUAwOTgtRlJCLTg0MDo2MTM1NToxMjQ4Njo0NTExNjowOjk0MDI6Nzo1MDE1
+	NTQ1
+Received: from [10.1.8.1] ([10.1.8.1:49745] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.6.4.44580 r(Platform:3.6.4.1)) with ESMTP	id 50/85-64337-278A9755; Thu, 11
+ Jun 2015 10:25:38 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1434036338;
+	s=m1; d=ixiacom.com; user@domain.com;
+	h=Date:From: Ixia Visibility <ixiavisibility@ixiacom.com>
+	bh=xC75ZRT0EeGq/4amjvWX1KV9jghk1STVNBNx6M/izio=;
+	b=w7UueYmOWSXQdNUSVaACr87afvgdITEUbHsrwTbZxiUqabf3MTWemwH1qJremLBt
+	D+l2R6nJ9C6a+nyO8gRyF8VJs/SG0qvKULpQ5BNjswNrYW2VFrtjwG6ZR107pg+5Lhv
+	GxBFM/36+QkQjhC/7ie1Ix0B7rswBDBefDWCUjCg
+Date: Thu, 11 Jun 2015 10:25:38 -0500
+From: Ixia Visibility <ixiavisibility@ixiacom.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <774719669.115221380.1434036338756.user@domain.com>
+Subject: =?UTF-8?Q?What_a_Security_Breach_Really_Costs,_and?
+ =?UTF-8?Q?_How_to_Lower=E2=80=94or_Even_Prevent=E2=80=94the_Damage?
+X-ASG-Orig-Subj: =?UTF-8?Q?What_a_Security_Breach_Really_Costs,_and?
+ =?UTF-8?Q?_How_to_Lower=E2=80=94or_Even_Prevent=E2=80=94the_Damage?
+X-Binding: bg-ab-01
+X-MarketoID: 098-FRB-840:61355:12486:45116:0:9402:7:5015545
+X-MktArchive: false
+List-Unsubscribe: <mailto:user@domain.com>
+X-MailFrom: Ixia Visibility <ixiavisibility@ixiacom.com>
+X-MktMailDKIM: true
+X-Barracuda-Connect: domain.com[199.15.213.50]
+X-Barracuda-Start-Time: 1434036339
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.10
+X-Barracuda-Spam-Status: No, SCORE=0.10 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_SC0_SA085, HTML_IMAGE_RATIO_06, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.19764
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.10 BSF_SC0_SA085          Custom Rule SA085
+Return-Path: 098-user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-2136567045_-_-"
+
+Ixia's-Deliver On
+
+body {
+        background-color: #CCC;
+}
+body, td, th {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+}
+
+Show Senior Management How You Can Reduce the Costs of a Security Breach by up to 73%. Learn How.
+Need help convincing your management how improved network visibility reduces the impact and cost of a security breach? This new eBook will help you quickly build the business case so you can focus on implementing the solution. Calculate your company’s vulnerability and show your CFO how a combined visibility security infrastructure prevents breach damage, with breakdowns that include: 
+
+Breach costs from lost revenue and intellectual property plus fraud liability  
+How out-of-compliance penalties increase breach costs 
+The dramatic benefits of proper investments
+How a resilient security approach can reduce breach losses by up to 73%
+
+Download Convincing Your CFO That Network Security Is An Investment and prove how a visibility security solution protects your company's assets.
+
+
+
+
+Contact Us
+
+Sales: +1.877.367.4942
+Int'l: +1.818.871.1800
+Request: Demo | Quote
+Contact
+
+Corporate Center
+26601 W. Agoura Rd.,
+Calabasas, CA 91302. U.S.A.
+(Toll Free US) 1.877.FOR.IXIA
+(Int'l) +1.818.871.1800
+(Fax) 818.871.1805
+
+Get Social
+
+
+
+
+If you no longer wish to receive these emails, click on the following link: Unsubscribe  
+

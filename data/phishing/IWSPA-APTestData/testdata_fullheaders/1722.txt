@@ -1,0 +1,82 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.194 with SMTP id 63csp901453lfy;
+        Fri, 30 Jan 2015 13:10:47 -0800 (PST)
+X-Received: by 10.68.232.33 with SMTP id tl1mr11620526pbc.65.1422652246480;
+        Fri, 30 Jan 2015 13:10:46 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.10])
+        by domain.com with ESMTPS id g8si5118169pdo.134.2015.01.30.13.10.45
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Fri, 30 Jan 2015 13:10:46 -0800 (PST)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.251.10;
+Authentication-Results: domain.com;
+       spf=none (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211] by server-10.bemta-12.domain.com id FA/85-02758-453FBC45; Fri, 30 Jan 2015 21:10:44 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-9.tower-53.domain.com!1422652212!7670362!16
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.5; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 16378 invoked from network); 30 Jan 2015 21:10:44 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-9.tower-53.domain.com with AES256-SHA encrypted SMTP; 30 Jan 2015 21:10:44 -0000
+Resent-From: Democrats United 2015 <democrats@thehousemajoritypac.com>
+Received: from domain.com (216.82.243.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Fri, 30 Jan 2015 16:10:29 -0500
+Received: from [216.82.241.243] by server-17.bemta-8.domain.com id
+ 62/72-02755-543FBC45; Fri, 30 Jan 2015 21:10:29 +0000
+X-Env-Sender: DQpDRgYJB14VUlM8BlwAV1VcVFAFBgYABg4DUz9EWgAAFkJUIwgHQ0tUVVp
+  user@domain.com
+X-Msg-Ref: server-3.tower-192.domain.com!1422652228!8755906!1
+X-Originating-IP: [69.25.201.197]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNjkuMjUuMjAxLjE5NyA9PiA3NTU5Ng==\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.5; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 31611 invoked from network); 30 Jan 2015 21:10:28 -0000
+Received: from mta-dock-front-6.domain.com (HELO
+ mta-dock-front-6.domain.com) (69.25.201.197)  by
+ server-3.tower-192.domain.com with DHE-RSA-AES256-SHA encrypted SMTP; 30
+ Jan 2015 21:10:28 -0000
+Received: from domain.com (unknown [10.0.200.142])	by
+ mta-dock-front-6.domain.com (Postfix) with ESMTP id
+ 3kYrmg2XZLz1c03n	for <user@domain.com>; Fri, 30 Jan 2015 21:10:27
+ +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1422652227;
+	bh=lQdKNuURW66h+Qiv757qZF2wKfZnO0acH468u9Dw1qc=;
+	h=Date:To:From: Democrats United 2015 <democrats@thehousemajoritypac.com>
+	b=EgfwmDFwnSNvkFVYo+DZKHm8oOkNgx+WBQ4SCo+ibMSfsbSnO8g3HLKPoe4DZrtun
+	 UHq+2LVRKpcaM5kUuoSxJJsAWZ1x+IuD7w70nQjw5vvsInILRq+oK2KrKGjODczqY8
+	 o9kAUGTT+OKoeD8A/WQobe7WkG7J94xbkwagSexE
+Received: from phpmailer 	by domain.com with local
+ (PHPMailer);	Fri, 30 Jan 2015 21:10:27 +0000
+Date: Fri, 30 Jan 2015 21:10:27 +0000
+To: John user <user@domain.com>
+From: Democrats United 2015 <democrats@thehousemajoritypac.com>
+Reply-To: <user@domain.com>
+Subject: couldn't matter more
+Message-ID: <1user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 79366edb11c3d710
+X-rpcampaign: rp_2898
+X-maillist-guid: DQpDRgYJB14VUlM8BlwAV1VcVFAFBgYABg4DUz9EWgAAFkJUIwgHQ0tUVVpDAlYVDE5eHFFTEDpTDwdW
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_1f3346268a188e971ec68a305bfbc140"
+
+Contributions or gifts to House Majority PAC are not tax deductible
+
+Paid for by House Majority PAC. www.thehousemajoritypac.com. Not 
+authorized by any candidate or candidate's committee.
+
+<<link>>
+

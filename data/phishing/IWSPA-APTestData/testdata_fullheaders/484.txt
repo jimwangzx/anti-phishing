@@ -1,0 +1,115 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp3188580lfy;
+        Wed, 20 Jan 2015 10:25:09 -0800 (PST)
+X-Received: by 10.55.53.208 with SMTP id c199mr47484488qka.109.1453314309195;
+        Wed, 20 Jan 2015 10:25:09 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [192.82.209.242])
+        by domain.com with ESMTP id z81si44872617qhz.112.2016.01.20.10.25.08
+        for <user@domain.com>;
+        Wed, 20 Jan 2015 10:25:09 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 192.82.209.242 as permitted sender) client-ip=192.82.209.242;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 192.82.209.242 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Return-Path: <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1453314308;
+	h=Sender:From: "Dan O'Halloran" <dohalloran@cfc-dc.com>
+	Content-Type;
+	bh=UfmejmvWu34Sgeo7skyIv3kPM6M=;
+	b=H0ST8kbth4wu1djGI4U7hasQiCieFdG0gO2hQpI3OBcorZn1xxLbzuMhgvVTkldL
+	MUOSmblUuPyxFPjZJZowVFJCHyp4eeA0L33J0U1glXaR8pT6ymBEVf3pW/0xeVzm
+	WHgFU0hDc+PrT/fOijxvHOA5NuFljUlWFx+1LBq//qQ=;
+X-MSFBL: 4fZvLw88z8WdUlH2m5hPvpTSkEBbeo/hS5ODFz+2mPM=|eyJ1IjoiYm91bmNlXzI
+	yMDAwMDAzNzYxMjg0ODBfcG9kMTIiLCJyIjoiam9obi5wb2Rlc3RhQGdtYWlsLmN
+	vbSIsImciOiJkZWZhdWx0Z3JvdXAwMiIsImIiOiJtYWlsb3V0ODc4In0
+Received: from [10.11.74.253] ([10.11.74.253:65458] helo=NSV11OBMAIL1203)
+	by domain.com (envelope-from <user@domain.com>)
+	(ecelerity 4.2.1.51032 r(Core:4.2.1.4)) with ESMTP
+	id 9C/87-03510-401DF965; Wed, 20 Jan 2015 13:25:08 -0500
+Sender: =?UTF-8?B?RGFuIE8nSGFsbG9yYW4=?= <user@domain.com>
+X-Binding: warmupdefault
+Reply-To: user@domain.com
+From: "Dan O'Halloran" <dohalloran@cfc-dc.com>
+To: "User" <user@domain.com>
+Message-ID: <5080user@domain.com>
+Date: Wed, 20 Jan 2015 13:25:08 -0500
+Subject: Join Amb. Elizabeth Frawley Bagley in Supporting Katie McGinty and Kathleen Matthews
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----87F9928F88E741318DE0E19CFB1E1781"
+
+Ambassador Elizabeth Frawley Bagley
+Kenneth Berlin ~ Stephanie Cutter
+Michael Eckhart ~ Nikki Heidepriem
+Trish Hoppey ~ Penny Lee
+Dennis & Pam Lucey ~ Bill Nitze ~ Hilary Rosen
+EMILY=E2=80=99s List PAC
+*host committee in formation*
+
+Invite you to join
+
+Katie McGinty
+Candidate for the US Senate (PA)
+
+&
+
+Kathleen Matthews
+Candidate for the US House (MD-08)
+
+For a reception
+
+Monday January 25th
+6:00pm =E2=80=93 7:30pm
+
+The Home of Ambassador Elizabeth Frawley Bagley
+1539 29th Street, NW
+Washington, DC 20007
+
+RSVP to Dan O=E2=80=99Halloran user@domain.com=2Ecom or (202) 682-220
+2
+
+Suggested Contribution Levels:
+
+Champion- $5,400
+Host- $2,700
+Sponsor- $1,000
+Attend- $500
+
+To contribute online please domain.com:
+<<link>>
+-fund-1
+
+Please make checks payable to =E2=80=9CMcGinty Matthews Victory Fund=E2
+=80=9D
+P=2EO=2E Box 15236
+Chevy Chase, MD 20825
+
+=C2=A0
+
+Contributions or gifts to McGinty Matthews Victory Fund are not tax ded
+uctible=2E Contributions from corporations, labor organization treasury
+ funds, foreign nationals, and federal government contractors are prohi
+bited=2E
+
+=C2=A0
+
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+----------------
+|    Paid for by McGinty Matthews Victory Fund, a joint fundraising com
+mittee authorized by Kathleen Matthews for Congress and Katie McGinty f
+or Senate=2E     |
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+----------------
+
+McGinty Matthews Victory Fund, a joint fundraising committee authorized
+ by Kathleen Matthews for Congress and Katie McGinty for Senate=2E
+PO Box 15236
+Chevy Chase MD 20825 United States
+
+If you believe you received this message in error or wish to no longer 
+receive email from us, please <<link>>
+33085696/-3364882254394292480=2E

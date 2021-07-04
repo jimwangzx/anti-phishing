@@ -1,0 +1,32 @@
+Delivered-To: user@domain.com
+Received: by 10.204.123.141 with SMTP id p13cs83111bkr;
+        Wed, 6 Jan 2015 22:45:13 -0800 (PST)
+Received: by 10.213.39.129 with SMTP id g1mr16196577ebe.36.1262846713298;
+        Wed, 06 Jan 2015 22:45:13 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com [66.165.100.126])
+        by domain.com with SMTP id 6si7824561ewy.69.2010.01.06.22.45.12;
+        Wed, 06 Jan 2015 22:45:13 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.165.100.126 as permitted sender) client-ip=66.165.100.126;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 66.165.100.126 as permitted sender) user@domain.com
+Date: Thu, 7 Jan 2015 06:45:33 -0000
+Message-ID: <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com>
+From: "Safeway" <Safeway@favorites.safeway.com>
+To: user@domain.com
+Subject: MARY, Top 4 Weekly Specials + more!
+MIME-Version: 1.0
+Reply-To: "User" <user@domain.com>
+Content-type: multipart/alternative; boundary="=buvqh0pbdw9vawaxee89hatugwckt7"
+
+To view the Newsletter online
+copy and paste the link below in your browser:
+<<link>>
+
+You've received this e-mail because our records indicate you
+supplied an e-mail address when you submitted your Club Card 
+application, contacted us via our website or signed-up via our 
+website to receive mail. To unsubscribe to this email click here:
+<<link>>
+Customer Service Center, 
+Safeway Inc, 20227 N. 27th Ave, Phoenix, AZ 85027

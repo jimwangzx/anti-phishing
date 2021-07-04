@@ -1,0 +1,80 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp913513lfb;
+        Thu, 4 Feb 2015 20:23:18 -0800 (PST)
+X-Received: by 10.98.65.11 with SMTP id o11mr16695990pfa.115.1454646198489;
+        Thu, 04 Feb 2015 20:23:18 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-pf0-domain.com (mail-pf0-domain.com. [2607:f8b0:400e:c00::233])
+        by domain.com with ESMTPS id b90si16744366pfj.165.2016.02.04.20.23.18
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 04 Feb 2015 20:23:18 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c00::233 as permitted sender) client-ip=2607:f8b0:400e:c00::233;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c00::233 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pf0-domain.com with SMTP id w123so45341196pfb.0
+        for <user@domain.com>; Thu, 04 Feb 2015 20:23:18 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Lily Adams <ladams@hillaryclinton.com>
+         :cc:content-type;
+        bh=auenMwKpvgABIu+vjg//5OFYr/HPhataRKfSrFLqd5o=;
+        b=K0H6rwrQPfyWgjsoNcUsAiKHZngSk4EYFTyb84IBwrMHesNOJhPkqLATXprymtimfT
+         hURVz1en4zOSCmnAPOlV4kdBito8xABY2W/zFEAJAggaZxCSLWwIWMaAJPBHG5mTtk+m
+         eT0S8PcD3LMnmp+AI1LyjOlne/A+KFhoZqaqI
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Lily Adams <ladams@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=auenMwKpvgABIu+vjg//5OFYr/HPhataRKfSrFLqd5o=;
+        b=QcnDxTz+nYppg73QvUSDsY51R7op2EeJZTIVAhxMXU/INoZ8Y73YOk3OHwOYXkGshH
+         un6IWvcz2gogVFznZD9c0oKoXx7IVv2nv099LN9bzvCNtInlocd/M4JDRUai6XCNnKP1
+         nOerZAZNdNhoRlijFLXenCilmCVYpU20JFykAjt65v3hn6YYDy5TQmkGvo/vHVURk6JT
+         r4b6CWdRPJf9yyJE9276v/yycJGmR8rFi6t9ATBhuieEqSb5B21DN6Uy7JylX6m+ryxk
+         l2RuAZUYVOpfvudSeoCG15pa7V43sqBryhATqxHW4xNx+cvHjW2DeqebwJieEJofEhnT
+         +UNA
+X-Gm-Message-State: AG10YOTEd9Khdj5jEcgr066Eh7P0sfIthfh7hoUG+/DedxhOjeLxAMtMphfBnwoXPQFmLLlPdUNHhCiFUnpxd20B
+X-Received: by 10.98.16.69 with SMTP id y66mr16950755pfi.86.1454646198007;
+ Thu, 04 Feb 2015 20:23:18 -0800 (PST)
+From: Lily Adams <ladams@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <7user@domain.com>
+ <user@domain.com> <4009875634064098792@unknownmsgid>
+ <user@domain.com> <CAG7k_MqiR1E689cZbDeuodKiMBm0eH3zVQQFwd+user@domain.com>
+ <CA+user@domain.com>
+ <7user@domain.com> <CA+user@domain.com>
+ <CA+sTfJoY-7758JPrns1Vc6kB1R0pcENG4oaooi+user@domain.com>
+ <5788271205091267420@unknownmsgid> <CA+user@domain.com>
+ <CAOa7NA81YLWX=ZgRKLxq18LKgQgc+user@domain.com>
+ <user@domain.com> <-4780002018175317384@unknownmsgid>
+ <user@domain.com>
+ <-5550510090986719804@unknownmsgid> <CA+user@domain.com>
+ <user@domain.com>
+In-Reply-To: <user@domain.com>
+Date: Thu, 4 Feb 2015 22:23:17 -0600
+Message-ID: <-7974598226943166643@unknownmsgid>
+Subject: Re: HRC and DMR
+To: Teddy Goff <user@domain.com>
+CC: Jesse Ferguson <user@domain.com>, 
+ Robby Mook <user@domain.com>, 
+ Troy Price <user@domain.com>, 
+ Rob Flaherty <user@domain.com>, 
+ "Elias, Marc (Perkins Coie)" <user@domain.com>, 
+ Matt Paul <user@domain.com>, 
+ John user <user@domain.com>, 
+ Michael Halle <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ John user <user@domain.com>, 
+ Kate Offerdahl <user@domain.com>, 
+ Christina Reynolds <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a114616c6e80ece052afe35c1
+
++ user whose team should check my facts as well aside from the delegate mat
+h
+
+---------
+Lily Adams
+cell: (202) 368-4013
+

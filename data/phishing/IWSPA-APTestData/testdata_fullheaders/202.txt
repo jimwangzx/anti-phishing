@@ -1,0 +1,68 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp1463047lfi;
+        Thu, 14 May 2015 13:03:37 -0700 (PDT)
+X-Received: by 10.112.83.135 with SMTP id q7mr4526883lby.13.1431633817456;
+        Thu, 14 May 2015 13:03:37 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-la0-domain.com (mail-la0-domain.com. [2a00:1450:4010:c03::22b])
+        by domain.com with ESMTPS id m3si14311975lah.93.2015.05.14.13.03.37
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 14 May 2015 13:03:37 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::22b as permitted sender) client-ip=2a00:1450:4010:c03::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-la0-domain.com with SMTP id v1so62727283lag.3
+        for <user@domain.com>; Thu, 14 May 2015 13:03:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Brynne Craig <bcraig@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=0b5VzoqK4Y/Wk2VqFnH20lYFWcHnO+A4xQmHI6oQrdE=;
+        b=NgXvEULVzHkfNJVVAW9XLXfb7A16k3vh5aOtWV+TU6aPha9fkJZ4XnRd4cUs6m9e/Z
+         xarXaJvDJ6+0P7yMRmgSI7ELCVlEx7mTDP5zPq/LvODp6uIRnonZigGmD1zvTBV9nTvE
+         J5Vs+IBaDtRM3PCSfYgxhWvWLvwSkUNA2U/B8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Brynne Craig <bcraig@hillaryclinton.com>
+         :thread-index:date:message-id:subject:to:cc:content-type;
+        bh=0b5VzoqK4Y/Wk2VqFnH20lYFWcHnO+A4xQmHI6oQrdE=;
+        b=UGzuCKGRc3oIKKpIOYxuPtlsqwObIu/1Ooyx3pgJdZA809PcjpjRDgLgTinydwcdjr
+         ImmfM6SC/CHLyZWH4n5Pdbx3BNISXUrh9IaTTc+vDdxDlX+SlXkO5+OXj10a+KNJlaIv
+         hdpzhAGlvKAc+TWiZcRTVCzR2WEVA4fLAQogtlLZAIibjVUPLmVGsqEfJQWDZDzt0PIt
+         StEykx3GdsvHXJnfqr5PB0c5ssDBObZB8Y55GP6K6rwdgQYtfPmBi4yuOA1L8A5l2lUT
+         HHOSZQkXzh/OysoRrID2AGkU2FLsio5Fibcy/r4YuE+fpR0kWjwzwzocPGGwsDS+r13s
+         bGIw
+X-Gm-Message-State: ALoCoQmIE9NzoSAM1INiWK/7JzyyQPFxxzJ1NNPkbD+yRAFd878oE1SYVblkMqwtV0w6fkixe7wu
+X-Received: by 10.152.27.35 with SMTP id q3mr4417199lag.24.1431633817273; Thu,
+ 14 May 2015 13:03:37 -0700 (PDT)
+From: Brynne Craig <bcraig@hillaryclinton.com>
+References: <60337user@domain.com>
+	<user@domain.com> <CA+=user@domain.com>
+In-Reply-To: <CA+=user@domain.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQH2L3MbGOqcUAxDhWHrjBaEnT3N0wKTuQVSAevJ84edDKdSIA
+Date: Thu, 14 May 2015 16:04:43 -0400
+Message-ID: <7user@domain.com>
+Subject: RE: Colorado
+To: Marlon Marshall <user@domain.com>, 
+ John user <user@domain.com>
+CC: "Marc Elias, (Perkins Coie)" <user@domain.com>
+Content-Type: multipart/related; boundary=089e0160b7ca20ba2c05161039fc
+
+Yes, really like Jim and Mike. Will make that connection. Will circle back.
+
+*From: Brynne Craig <bcraig@hillaryclinton.com>
+*Sent:* Thursday, May 14, 2015 3:27 PM
+*To:* John user
+*Cc:* brynne craig; Marc Elias, (Perkins Coie)
+*Subject:* Re: Colorado
+
+Yep
+
+Brynne lets loop Jessy and David on our end
+John will let you know when done
+

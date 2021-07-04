@@ -1,0 +1,80 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp1850630lfb;
+        Mon, 8 Feb 2015 21:36:50 -0800 (PST)
+X-Received: by 10.28.7.72 with SMTP id 69mr2669431wmh.50.1454996210158;
+        Mon, 08 Feb 2015 21:36:50 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-wm0-domain.com (mail-wm0-domain.com. [2a00:1450:400c:c09::233])
+        by domain.com with ESMTPS id p10si8833170wmg.80.2016.02.08.21.36.49
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 08 Feb 2015 21:36:50 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c09::233 as permitted sender) client-ip=2a00:1450:400c:c09::233;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c09::233 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wm0-domain.com with SMTP id 128so117250956wmz.1
+        for <user@domain.com>; Mon, 08 Feb 2015 21:36:49 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+        bh=8xl1IhIi5RRHaKLo42zXA7MQT4YnO1OunF4hFrIXArs=;
+        b=HhViFEN7Jbn2d4ZR6rGF0GXSs69nTyHsN6CQ+7PO5E16ul4PMK84P14ApG16ZGsoHY
+         J4u7e95EEOzmM1gjG6fVvDjgR52hOGVSzelPttcwkEQddwhlANXWUeS20nbq0WE4GqSF
+         5r0PMMti6gUe2fx9Qfw8R2Z25+m2ThbCXSOqI
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+         :content-type;
+        bh=8xl1IhIi5RRHaKLo42zXA7MQT4YnO1OunF4hFrIXArs=;
+        b=V+GxiUiHYW51ScUymaK5itP38x8t29lUkRFP9HKSYU7+POyiVIaJ1V9Gd+A1xZ4NSb
+         Ml2dtgxXseBd27YCcj8OouH2OPG3/NeWhlWySgLz6gOIkZ7lo0YIPUTvYvJn7u1jp4Ik
+         DqLKGNhMvDLECkWSnCQW4mTFqvcEzcfsp2KEIQRKTPjvyEQ/wzx6ZqTOK8boR36QtGKD
+         VE5XO/4ZC7FwSy4f25PPiJr0nE8MKLB9Ly/XUIXLE+znm2Q1iw8fO7WpsCB0FqUd0bYp
+         HmzGcjvEyBmzaFxx+MKPCxzE1CTP8rvl5Ga2v8+1vzKJs9g5n0QUweHjOyAwH8tjKvr5
+         j8Tw
+X-Gm-Message-State: AG10YOT7Qjk8fNNapS6699py4E0U0nCD3LKSZv+P8p5gYjBC6WZr6oRgtwYFZVQ2jp2qk2oosPDhk6hPk3ibGAhA
+X-Received: by 10.28.153.19 with SMTP id b19mr2747637wme.14.1454996209825;
+ Mon, 08 Feb 2015 21:36:49 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.27.126.9 with HTTP; Mon, 8 Feb 2015 21:36:30 -0800 (PST)
+From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+Date: Tue, 9 Feb 2015 00:36:30 -0500
+Message-ID: <CA+Z3wa0kN-PCOeWGzJpESqsCr+user@domain.com>
+Subject: Terry O'Sullivan
+To: Sara Latham <user@domain.com>, 
+ Amanda Renteria <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a114b9eca3c8f43052b4fb461
+
+Good evening-
+I wanted to flag a big issue with Terry O'Sullivan/LIUNA I ran into today.
+On a NH rope line, HRC told a attendee that she opposes the controversial
+NED pipeline.  HRC's comment on the ropeline was only half of the
+answer...she has been referencing her concerns around FERC addressing local
+concerns as a part of her potential opposition.  But now she is on the
+record as just opposing another pipeline.
+
+I have been told privately that Terry is considering pulling back on the
+campaign and is cancelling his Las Vegas trip for our Presidents meeting
+with John.  Terry has been to Iowa to rally members and was planning a big
+canvass in Las Vegas on Saturday with members as well.  I would hate to
+lose his engagement.
+
+HRC is in Nevada on Saturday and Emmy wanted HRC stop by LIUNA's
+canvass/rally.  I would like to request a 10 minute clutch with just HRC
+and Terry to discuss energy and smooth some things out.  I think it will go
+a long way and help reengage Terry.  He just needs assurances of her energy
+policy proposal.  Emmy is on board with giving me the 10 minutes to do
+this.  I wanted to flag for you for approval for her schedule.
+
+If possible, I would like to make this offer to LIUNA tomorrow before
+O'Sullivan cancels his trip.
+
+Please let me know if you have any thoughts or questions.
+
+Nikki Budzinski
+Labor Outreach Director
+Hillary for America
+646-854-1442 (direct)

@@ -1,0 +1,70 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 13 Feb 2015 10:56:15 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1DIuFw9005690	for <user@domain.com>; Thu, 13 Feb 2015 
+ 18:56:15 GMT
+Received: from mail9-co1-domain.com
+ (mail-domain.com [216.32.180.182])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1DIvNPY031302	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 13 Feb 2015 18:57:24 GMT
+Received: from mail9-co1 (localhost [127.0.0.1])	by mail9-co1-domain.com
+ (Postfix) with ESMTP id 99E56801CA	for <user@domain.com>; Thu, 13 Feb
+ 2015 18:56:13 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:64.12.143.78;KIP:(null);UIP:(null);IPV:NLI;H:omr-m04.mx.aol.com;RD:omr-m04.mx.aol.com;EFVD:NLI
+X-SpamScore: 3
+X-BigFish: vps3(zz98dI9371I1432Izz1f42h2148h208ch1ee6h1de0h1ce5h1fdah201ch2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1696nzz1de098h8275bh1de097hz2fh5fh2a8h839h944hd25he5bh1220h1288h12a5h12a9h12bdh137ah139eh13b6h13eah1441h1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah224fh1d0ch1d2eh1d3fh1dfeh1dffh1e23h1fe8h1ff5h2052h20b3h2218h2216h226dh22d0h24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail9-co1: domain of aol.com designates 64.12.143.78 as permitted sender) client-ip=64.12.143.78; user@domain.com; helo=omr-m04.mx.aol.com ;4.mx.aol.com ;
+Received: from mail9-co1 (localhost.localdomain [127.0.0.1]) by mail9-co1
+ (MessageSwitch) id 1392317771748072_29962; Thu, 13 Feb 2015 18:56:11 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.231])	by
+ mail9-domain.com (Postfix) with ESMTP id B2A65980047	for
+ <user@domain.com>; Thu, 13 Feb 2015 18:56:11 +0000 (UTC)
+Received: from omr-m04.mx.aol.com (64.12.143.78) by domain.com
+ (10.243.66.26) with Microsoft SMTP Server (TLS) id 14.16.227.3; Thu, 13 Feb
+ 2015 18:56:11 +0000
+Received: from mtaout-mbc01.mx.aol.com (mtaout-mbc01.mx.aol.com
+ [172.26.221.141])	by omr-m04.mx.aol.com (Outbound Mail Relay) with ESMTP id
+ E261570176A38	for <user@domain.com>; Thu, 13 Feb 2015 13:56:09 -0500
+ (EST)
+Received: from [10.139.93.44] (mobile-166-137-217-105.domain.com
+ [166.137.217.105])	(using TLSv1 with cipher AES128-SHA (128/128 bits))	(No
+ client certificate requested)	by mtaout-mbc01.mx.aol.com (MUA/Third Party
+ Client Interface) with ESMTPSA id 40BCA380000BF;	Thu, 13 Feb 2015 13:56:09
+ -0500 (EST)
+Subject: Re: Are you free at 10am for a quick chat?
+From: Mirah <mirah44@aol.com>
+X-Mailer: iPhone Mail (11B511)
+In-Reply-To: <user@domain.com>
+Date: Thu, 13 Feb 2015 10:56:07 -0800
+Message-ID: <4536user@domain.com>
+References: <user@domain.com> <user@domain.com>
+To: "User" <user@domain.com>
+x-aol-global-disposition: G
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+	s=20121107; t=1392317769;
+	bh=PvjThjuLT57H9poJYlTA5oLOityDX6vV/hlnoHFv/DE=;
+	h=From: Mirah <mirah44@aol.com>
+	b=U3ofD9/WRVDuVqgDrRj5o3dTd269F4s1Ypiuzhcnju51tzunVsfC9qSWfotDKuLlY
+	 CUI9/51QWiawn5zsr2MJ+HtIJZQbQiSKLgWZgHMZqIHcZCTLHcafn6EOYgeiv7Pm6y
+	 JmzO2OGsRhl//lXXWUDr1ATCbUWy8W+LXS/gnq1A
+x-aol-sid: 3039ac1add8d52fd154952ff
+X-AOL-IP: 166.137.217.105
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Re: Are you free at 10am for a quick chat?
+
+No worries. Got called
+
+to pick Louis up from school anyway.      Later today works so you just let me know what time
+
+Sent from a place closer than you think 
+

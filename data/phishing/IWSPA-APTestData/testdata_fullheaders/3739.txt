@@ -1,0 +1,111 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.3.4.5])
+	by domain.com (Postfix) with ESMTP id 1721B536EEA
+	for <user@domain.com>; Wed, 14 Dec 2015 10:00:10 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id E9DC36FA383
+	for <user@domain.com>; Wed, 14 Dec 2015 10:00:06 -0500 (EST)
+Received: from domain.com (domain.com [10.2.3.4])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Wed, 14 Dec 2015 10:00:06 -0500 (EST)
+Received: by domain.com (Postfix)
+	id A427F1BC60; Wed, 14 Dec 2015 15:59:35 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from localhost (unknown [127.0.0.1])
+	by domain.com (Postfix) with ESMTP
+	id 009B11BC51; Wed, 14 Dec 2015 14:59:34 +0000 (UTC)
+Received: from domain.com ([10.2.3.4])
+	by localhost (lujan [10.2.3.4]) (amavisd-new, port 10024)
+	with ESMTP id 02856-09; Wed, 14 Dec 2015 15:59:14 +0100 (CET)
+Received: from 66.165.231.41 (unknown [66.165.231.41])
+	by domain.com (Postfix) with SMTP
+	id 573C51BC4B; Wed, 14 Dec 2015 15:59:13 +0100 (CET)
+Received: from 240.153.22.79 by ; Wed, 14 Dec 2015 08:59:12 -0600
+Message-ID: <user@domain.com>
+From: "Credit Union Security Department" <acc-validity@ncua.gov>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com, user@domain.com
+Subject: [*** POSIBLE SPAM***] System maintenance: update your Federal domain.com Union
+Date: Wed, 14 Dec 2015 08:51:12 -0600
+X-Mailer: Microsoft Outlook, Build 10.0.2627
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--69660324477047005"
+X-Priority: 1
+X-MSMail-Priority: High
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at domain.com
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ********************
+X-Spam-Status: Yes, score=20.5 required=5.0 tests=FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,FORGED_OUTLOOK_TAGS,HTML_10_20,HTML_MESSAGE,
+	MIME_BOUND_DD_DIGITS,MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,
+	MISSING_MIMEOLE,MPART_ALT_DIFF,MSGID_SPAM_CAPS,MSGID_YAHOO_CAPS,
+	RCVD_NUMERIC_HELO autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  3.8 MSGID_YAHOO_CAPS Message-ID has user@domain.com
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  3.8 MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 HTML_10_20 BODY: Message is 10% to 20% HTML
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  0.1 FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 135
+
+ domain.com Union is constantly working to ensure security by regularly 
+
+screening the accounts in our system. We recently reviewed your account, <
+br>
+and we need more information to help us provide you with secure service. <
+br>
+Until we can collect this information, your access to sensitive account 
+features will be limited. We would like to restore your access as soon 
+as possible, and we apologize for the inconvenience. 
+
+Why is my account access limited? 
+
+Your account access has been limited for the following reason(s): 
+
+* We would like to ensure that your account was not accessed by an 
+
+unauthorized third party. Because protecting the security of your 
+
+account is our primary concern, we have limited access to sensitive 
+
+domain.com Union account features. We understand that this may be an 
+
+inconvenience but please understand that this temporary limitation is 
+
+for your protection. 
+
+(Your case ID for this reason is CU1-833-557-9888.) 
+
+At domain.com Union, one of our most important responsibilities to you, our 
+customer, is the safekeeping of the nonpublic personal ("confidential") 
+information you have entrusted to us and using this information in a 
+
+responsible manner. Appropriate use of the confidential information you 
+provide us is also at the heart of our ability to provide you with 
+
+exceptional personal service whenever you contact us. 
+
+How can I restore my account access? 
+
+Please confirm your identity here: Restore
+My
+Online Banking and complete the "Steps to Remove Limitations." 
+
+Completing all of the checklist items will automatically restore your 
+
+account access.

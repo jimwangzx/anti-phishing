@@ -1,0 +1,205 @@
+Delivered-To: user@domain.com
+Received: by 10.64.48.201 with SMTP id o9csp40342ien;
+        Tue, 14 Aug 2015 14:18:16 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=received-spf:dkim-signature:x-beenthere:received-spf:mime-version
+         :date:message-id:subject:From: Aniello Alioto <aniello@progressnow.org>
+         :x-original-sender:x-original-authentication-results:reply-to
+         :precedence:mailing-list:list-id:x-google-group-id:list-post
+         :list-help:list-archive:sender:list-unsubscribe:content-type;
+        bh=gLjBT/GWUWvI9AqmNpCLZHcMY57a3ao9ssTEAKRCMS4=;
+        b=Ys0oKk9eKOQPIiLY/RpIQoOA4oNzkfELfjmUQqRjnbBXR1F9g4vKxO1D1iudzKZBo6
+         YJfZ5hLMHFUaZXNcCNAkkZ4PcSq9I3As7GpEVAq+ukkZJ9ODdsk7FL6aGeM0hVC+tzBx
+         oBun5N1ws7gt0Ei8+aUPqgZZoAw2PfmzUqkMF25+N99t/1Oalp3FHD6MnJtjb+Zoacy7
+         hWW/CfrsPnkGDzqiQrKryvk1HDQiQuBE6YPLBI8owxoAZYVzrV8M8Uxl2EbD46HeR6ws
+         lhIdcZVeRQd8+ApKhDiFdub5sfqJ5uOkyc/IhypAnLgppjKousQIiMYzN4HMjEnaAPxn
+         ZQSQ
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.136.4 as permitted sender) client-ip=10.229.136.4
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.136.4 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.229.136.4])
+        by 10.229.136.4 with SMTP id p4mr3734073qct.6.1344979094296 (num_hops = 1);
+        Tue, 14 Aug 2015 14:18:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:date:message-id:subject:from
+         :to:x-original-sender:x-original-authentication-results:reply-to
+         :precedence:mailing-list:list-id:x-google-group-id:list-post
+         :list-help:list-archive:sender:list-unsubscribe:content-type;
+        bh=gLjBT/GWUWvI9AqmNpCLZHcMY57a3ao9ssTEAKRCMS4=;
+        b=4nwKPJLRWIYUkxHwotY92p5hIALb0JB3oi7FmZsDvN2EGANqNliUI65BiL2ysgqHE7
+         TnjnJNTtgd45kTWr51O7TOkxu5JEz/RpBoqrnodfVDzQrrkBl3uepjc/20dd7YmAwlHT
+         nEzrWicCOPvKm6Yd00Oqfg+bdEIcmv/D0ovQ8
+Received: by 10.229.136.4 with SMTP id p4mr871855qct.6.1344979093490;
+        Tue, 14 Aug 2015 14:18:13 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.229.176.150 with SMTP id be22ls1550586qcb.4.gmail; Tue, 14 Aug
+ 2015 14:18:12 -0700 (PDT)
+Received: by 10.236.165.98 with SMTP id d62mr8566261yhl.40.1344979092801;
+        Tue, 14 Aug 2015 14:18:12 -0700 (PDT)
+Received: by 10.236.165.98 with SMTP id d62mr8566259yhl.40.1344979092774;
+        Tue, 14 Aug 2015 14:18:12 -0700 (PDT)
+Received: from mail-gh0-domain.com (mail-gh0-domain.com [209.85.160.175])
+        by gmr-domain.com with ESMTPS id u67si995265yhi.7.2012.08.14.14.18.12
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 14 Aug 2015 14:18:12 -0700 (PDT)
+Received-SPF: neutral (domain.com: 209.85.160.175 is neither permitted nor denied by domain of user@domain.com) client-ip=209.85.160.175;
+Received: by mail-gh0-domain.com with SMTP id z2so1025883ghb.34
+        for <user@domain.com>; Tue, 14 Aug 2015 14:18:12 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.50.192.138 with SMTP id hg10mr13945417igc.30.1344979092069;
+ Tue, 14 Aug 2015 14:18:12 -0700 (PDT)
+Received: by 10.64.134.230 with HTTP; Tue, 14 Aug 2015 14:18:12 -0700 (PDT)
+Date: Tue, 14 Aug 2015 17:18:12 -0400
+Message-ID: <CA+1user@domain.com>
+Subject: [big campaign] Politico/Jezebel: Branding Ryan in CO terms
+ (FertilizedEgg & airplane banner)
+From: Aniello Alioto <aniello@progressnow.org>
+To: undisclosed-recipients:
+BCC: user@domain.com
+X-Gm-Message-State: ALoCoQkuxkv4IpkbRzTlrjMabg9LkRGnmQyLjII132bckqIwCnZDDqK4PeHe7ldlpSrZypYGvsMP
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=neutral (domain.com:
+ 209.85.160.175 is neither permitted nor denied by domain of
+ user@domain.com) user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+X-Google-Group-Id: 329678006109
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>,
+ <mailto:googlegroups-manage+329678006109+user@domain.com>
+Content-Type: multipart/alternative; boundary=14dae9340717036de004c74059eb
+
+ProgressNow affiliates don't ask for domain.com, but I'm going to brag just a
+little...
+
+This is the kind of one-two punch ProgressNow is well known for (at least
+among the hyperinformed crowd). This is also a GREAT example of
+how successfully produce a win via localization of message (CO - where we
+are fighting a personhood amendent for the 3rd time in 6 years, but we win
+by 40+ points on personhood in CO).
+
+Two stories are dominating the CO press around the Ryan domain.com:
+
+*Politico: 'Fertilized Egg' admitted to Ryan
+event<<<link>>
+-ryan-event-132080.html#.UCqG9Z5BkEM.twitter>
+*
+'Fertilized Egg' admitted to Ryan event
+
+   -
+   <<<link>>
+yan-event-132080.html#><<<link>>
+ed-egg-admitted-to-ryan-event-132080.html#><<<link>>
+o44/2012/08/fertilized-egg-admitted-to-ryan-event-132080.html#>
+   31<<<link>>
+-ryan-event-132080.html#>
+   -
+   Comments (4)<<<link>>
+dmitted-to-ryan-event-132080.html#comments>
+
+By GLENN THRUSH <<<link>>> | 8/14
+/12
+12:55 PM EDT
+
+Looks like the vetting process for Paul Ryan events isn't too strict.
+
+Someone forwards along a picture of 'Fertilized Egg' being admitted to
+Ryan's event in Lakewood, Colo.
+
+It's, of course, a reference to Ryan's position on fetal personhood =97 and
+his support for the  Sanctity of Human Life Act, which defined fertilized
+eggs as a human being.
+*
+*
+*Jezebel: Paul Ryan Gosling Quotes Flown Over Rally for Actual Paul
+Ryan<<<link>>
+or-actual-paul-ryan?tag=3Dpaul-ryan>
+ *[Hey Girl - Choose me, loose choice. P Ryan]
+
+<<link>>
+event-132080.html#.UCqG9Z5BkEM.twitter
+
+<<link>>
+tual-paul-ryan?tag=3Dpaul-ryan
+
+HEY GIRL <<<link>>>
+AUG 14, 2015 1:50 PM15,174 96
+Share
+Paul Ryan Gosling Quotes Flown Over Rally for Actual Paul Ryan
+ *Erin Gloria Ryan*
+
+<<<link>>>Since
+Republican Presidential nominee Mitt Romney announced that he was choosing
+Wisconsin Congressman Paul Ryan as his running mate, all meme hell has
+broken loose. He looks like Eddie Munster! The American people are
+unimpressed *and so is McKayla Maroney*! But, most importantly, his last
+name is the same as the first name of Ryan Gosling, arguably the most
+successfully memed celebrity on the domain.com. In fact, Paul Ryan Gosling, the
+Paul Ryan/Ryan Gosling meme lovechild, has made an appearance via an
+airplane banner flown over a Paul Ryan rally earlier today. "Hey girl,"
+read the banner, "choose me, lose choice."
+
+CNBC's Eamon James
+Tweeted<<<link>>>
+about
+the banner sighting above a Ryan campaign event in Colorado, which was full
+of people completely convinced that they'd never get sick, or be poor, or
+not want to be pregnant.
+
+Ryan didn't respond to the aggressive Hey Girl-ing he just received,
+presumably because he was too busy friending zygotes on Facebook.
+
+[Twitter <<<link>>>]
+
+--
+Aniello Alioto
+National Political Director
+user@domain.com
+502.664.2420
+
+CA: Courage Campaign
+CO: ProgressNow Colorado
+FL: Progress Florida
+GA: Better Georgia
+IA: Progress Iowa
+MA: ProgressMass
+MI: Progress Michigan
+MN: Alliance for a Better Minnesota (ABM)
+MO: Progress Missouri
+NC: Progress North Carolina
+NE: Bold Nebraska
+NH: Granite State Progress
+NM: Progress New Mexico
+NV: ProgressNow Nevada
+OH: ProgressOhio
+PA: Keystone Progress
+TX: Progress Texas
+UT: Alliance for a Better Utah
+VA: Progress Virginia
+WA: Fuse Washington
+WI: One Wisconsin Now (OWN)
+
+Twitter: @ProgressNow
+Facebook: ProgressNow
+
+domain.com
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

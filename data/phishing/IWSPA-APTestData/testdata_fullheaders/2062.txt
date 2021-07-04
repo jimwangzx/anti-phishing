@@ -1,0 +1,104 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp835664lfr;
+        Sat, 8 Aug 2015 06:54:58 -0700 (PDT)
+X-Received: by 10.152.23.167 with SMTP id n7mr12923158laf.108.1439042098808;
+        Sat, 08 Aug 2015 06:54:58 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-la0-domain.com (mail-la0-domain.com. [2a00:1450:4010:c03::247])
+        by domain.com with ESMTPS id y10si4575921lag.138.2015.08.08.06.54.58
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 08 Aug 2015 06:54:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2a00:1450:4010:c03::247 as permitted sender) client-ip=2a00:1450:4010:c03::247;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2a00:1450:4010:c03::247 as permitted sender) smtp.mail=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-la0-domain.com with SMTP id d1sf2718lab.0
+        for <user@domain.com>; Sat, 08 Aug 2015 06:54:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:date:message-id:subject
+         :From: Megan Rooney <mrooney@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=9juykwp51ANnt7PWzV5pbmExIHj2+2LDVcTQoqtz2B0=;
+        b=LVXxhaRZhE7r+/vjeaVpVlNaBRSCG4RIY5Ow8JrneuOrqLa3pI+oNHC5m28LuVN2lf
+         jVD2fxVaLqIPMPNLSEVGpuT9BebjzZvdOxGmGhu/tSwssA2ra5lSicHMzPQy44zwPAKP
+         7ZBw5RupKeOrzxF61NTHWufoHSZXlJ0eWHfmE
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Megan Rooney <mrooney@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=9juykwp51ANnt7PWzV5pbmExIHj2+2LDVcTQoqtz2B0=;
+        b=ShBy3XsDPCIljOtQ9Ctr8KcaePTRyzCumqbNnbZ+xMyYO+n9VR48IJcleTzyx1qvyh
+         DZ3uyZ8ZzDt4iDX2ct1/OyxTf+vN7z64KqwVEXs7yFaMJa5etJAR6LvX7dvooEvi0GI3
+         rbxAPK6fRIO+EWczJwnow7JTG+VIS9ofsZKvWfi8TdUzAQUM7UzWh8oFAblau0qTVnnv
+         TyNRYSx2pJRe/1l21l31pTfNN9bSNDICCpOjZpc/DaKntKq6dUz8CTV72g7Sv8d0rKG5
+         gtrDCXS4d+P5ARm5VhaMGfR7BzusZ5af5MDyuoNr5LJ2/m4q2vAKuJq18fyIYvKvWIO7
+         uIqA
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQlN449XMxMxix/O+8E3T6Cg8zt1Zpybia2Kaqi8OokRazGtP9wLihWntZ2c0YfIhkAMghyP
+X-Received: by 10.180.160.133 with SMTP id xk5mr1009556wib.1.1439042098664;
+        Sat, 08 Aug 2015 06:54:58 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.180.223.101 with SMTP id qt5ls306445wic.9.gmail; Sat, 08 Aug
+ 2015 06:54:58 -0700 (PDT)
+X-Received: by 10.180.108.175 with SMTP id hl15mr7522317wib.1.1439042098113;
+        Sat, 08 Aug 2015 06:54:58 -0700 (PDT)
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::22f])
+        by domain.com with ESMTPS id e1si27136591wjp.38.2015.08.08.06.54.58
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 08 Aug 2015 06:54:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22f as permitted sender) client-ip=2a00:1450:400c:c05::22f;
+Received: by wibxm9 with SMTP id xm9so90978514wib.0
+        for <user@domain.com>; Sat, 08 Aug 2015 06:54:58 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.194.82.167 with SMTP id j7mr26121199wjy.123.1439042097870;
+ Sat, 08 Aug 2015 06:54:57 -0700 (PDT)
+Received: by 10.27.212.144 with HTTP; Sat, 8 Aug 2015 06:54:57 -0700 (PDT)
+In-Reply-To: <D1EB7CD7.33B2C%user@domain.com>
+References: <74user@domain.com>
+	<14user@domain.com>
+	<D1EB7CD7.33B2C%user@domain.com>
+Date: Sat, 8 Aug 2015 09:54:57 -0400
+Message-ID: <user@domain.com>
+Subject: Re: REVISED DRAFT: college rollout
+From: Megan Rooney <mrooney@hillaryclinton.com>
+To: "User" <user@domain.com>
+CC: Mandy Grunwald <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7bb04d2c0f91e5051ccd1926
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2a00:1450:400c:c05::22f as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+All these changes seem great to me.  I defer to Ann about whether they
+affect the accuracy of the policy... But otherwise I'm good!
+
+I am doing some grim family stuff today so I won't be able to send around a
+revised draft around 5pm I think.  But I'm checking email as I can so if
+you have other changes or ideas, hit me!
+

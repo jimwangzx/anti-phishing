@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.30.9 with SMTP id e9csp1109048lfe;
+        Thu, 4 Sep 2015 17:00:14 -0700 (PDT)
+X-Received: by 10.43.94.73 with SMTP id bx9mr9858547icc.19.1409875213718;
+        Thu, 04 Sep 2015 17:00:13 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta950.e.bevmo.com (mta950.e.bevmo.com. [8.7.44.58])
+        by domain.com with ESMTP id xd10si1031099icb.103.2014.09.04.17.00.13
+        for <user@domain.com>;
+        Thu, 04 Sep 2015 17:00:13 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 8.7.44.58 as permitted sender) client-ip=8.7.44.58;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 8.7.44.58 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=e.bevmo.com;
+	s=20120712; t=1409875213; x=1425513613;
+	bh=62wyW39ZRyA90FlYfN/j54suZEbvwNI3wBKDCq7374s=; h=From: "BevMo!" <BevMo_newsletter@e.bevmo.com>
+	b=HzNqZxfHpXQ0zPei4YcBnyK4rxoedKLRg2k8ANUiK/+nJTWtyrQXJ6zRBmchvi7Hq
+	 /v0+I6MzcHfgWon9krdnddPg03+LVjMckk8TXmRUUQfg4OI3hbnBDF1swQKCQx+Pa3
+	 WzvJNHZCP6O3PpO2uDgsbOJlsbUd6XsUPgFiUE/8
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=200505; d=e.bevmo.com;
+  b=TQD67yQsz+im1y94Ad0BmYik8Zerxq+JTkYyLTHwybJaJMvm9Wfqn3UAVB/qfTHQPSARrSSZrwaqPjuGg5TyIoCyKGi/JF6H5I60EOIxU7WOxn3yNFTMTEq0biGfUzz1Msv7XzISTo1AlrkxoNl9idWV+luOFs9K4RQbjf4+Ttw=;
+ h=Date:Message-ID:List-Unsubscribe:From: "BevMo!" <BevMo_newsletter@e.bevmo.com>
+Date: Fri, 5 Sep 2015 00:00:13 -0000
+Message-ID: <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com>
+From: "BevMo!" <BevMo_newsletter@e.bevmo.com>
+To: user@domain.com
+Subject: =?UTF-8?B?Q3VzdG9tZXJz4oCZIEZhdm9yaXRlIDXCoiBTYWxlIFdpbmVzIFU=?
+ =?UTF-8?B?bmRlciAkMTUgKyBBZGRpdGlvbmFsIDEwJSBPZmYgYSBDYXNlIQ==?
+MIME-Version: 1.0
+Reply-To: "User" <user@domain.com>
+Content-type: multipart/alternative; boundary="=b9f150fbfa2hvxauzep52byj4tjdxh"
+
+View this email with images:
+<<link>>
+
+Your ClubBev! account is 40012582179.
+
+This email was sent to BevMo! subscriber: user@domain.com
+
+Please do not attempt to reply to this message.
+To contact us with your questions and comments, please email
+user@domain.com or give us a call at 877.77BEVMO.
+
+BevMo!, 1401 Willow Pass Road, Suite 900, Concord, CA 94520
+
+Privacy Policy:
+<<link>>
+
+Unsubscribe:
+<<link>>

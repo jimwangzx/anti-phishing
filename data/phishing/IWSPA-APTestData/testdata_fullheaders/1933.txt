@@ -1,0 +1,74 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 29 Apr 2015 07:13:36 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s3TEDZcC016313;	Tue, 29 Apr 2015 14:13:35 GMT
+Received: from mail51-am1-domain.com (mail-domain.com
+ [213.199.154.202])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s3TECjFB013810
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL);	Tue, 29 Apr 2015 
+ 14:12:46 GMT
+Received: from mail51-am1 (localhost [127.0.0.1])	by mail51-am1-domain.com
+ (Postfix) with ESMTP id B3A314E00CB;	Tue, 29 Apr 2015 14:13:33 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:17.172.220.236;KIP:(null);UIP:(null);IPV:NLI;H:st11p02mm-domain.com;RD:st11p02mm-domain.com;EFVD:NLI
+X-SpamScore: 3
+X-BigFish: vps3(zz98dI9371I1432I11fbIzz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1fc6h208chzz1de098h8275bh1de097hz2fh839h944hd25he5bh1220h1288h12a5h12a9h12bdh137ah139eh13b6h13eah1441h1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah224fh1d0ch1d2eh1d3fh1dfeh1dffh1e23h1fe8h1ff5h2052h20b3h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h276ao1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail51-am1: domain of me.com designates 17.172.220.236 as permitted sender) client-ip=17.172.220.236; user@domain.com; helo=st11p02mm-domain.com ;domain.com ;
+Received: from mail51-am1 (localhost.localdomain [127.0.0.1]) by mail51-am1
+ (MessageSwitch) id 139878081227874_4090; Tue, 29 Apr 2015 14:13:32 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.229])	by
+ mail51-domain.com (Postfix) with ESMTP id EC1932200FA;	Tue, 29 Apr 2015 
+ 14:13:31 +0000 (UTC)
+Received: from st11p02mm-domain.com (17.172.220.236) by
+ domain.com (10.3.207.101) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 29 Apr 2015 14:13:29 +0000
+Received: from [192.168.1.15] (pool-108-47-229-174.domain.com
+ [108.47.229.174]) by st11p02mm-domain.com (Oracle Communications
+ Messaging Server 7u4-27.08(7.0.4.27.7) 64bit (built Aug 22 2013)) with
+ ESMTPSA id <0user@domain.com>; Tue, 29 Apr 2015 
+ 14:13:29 +0000 (GMT)
+Subject: Re: A message from small town, America...
+From: Alex Kurtzman <alexkurtzman@me.com>
+X-Mailer: iPhone Mail (11B651)
+In-Reply-To: <40user@domain.com>
+Date: Tue, 29 Apr 2015 07:13:25 -0700
+CC: Marc Webb <user@domain.com>, "Tolmach, Matthew"
+	<user@domain.com>, Avi Arad <user@domain.com>, "Pascal,
+ Amy" <user@domain.com>, "Belgrad, Doug" <user@domain.com>,
+	"O'Connor, Rachel" <Rachel_O'user@domain.com>, "Fineman, Eric"
+	<user@domain.com>, "Blake, Jeff" <user@domain.com>,
+	"Caines, Dwight" <user@domain.com>, "Bruer, Rory"
+	<user@domain.com>, Jeff Pinkner <user@domain.com>
+Message-ID: <51user@domain.com>
+References: <40user@domain.com>
+To: "User" <user@domain.com>
+X-MANTSH: 1TEIXWV4bG1oaGkdHB0lGUkdDRl5PWBoaHREKTEMXGx0EGx0YBBIZBBscEBseGh8
+	aEQpYTRdLEQptfhcaEQpMWRcbGhsbEQpZSRcRClleF2NueREKQ04XSxsbGmJCH2lhHnJ+GXhzB
+	xl+Gx4bGX4RClhcFxkEGgQdB01LHRJISRxMBRsdBBsdGAQSGQQbHBAbHhofGxEKXlkXYUZ8TUE
+	RCkxGF2JraxEKQ1oXGxoSBB4dBBgYEwQbHR4RCkRYFxsYEQpESRcbGxEKQkUXaxNGcgVMa2NHW
+	W0RCkJOF2xwYHlAHWJSaRpiEQpCTBdhXWhEeUFTZXlGQBEKQmwXek1laW8aa1t5SUIRCkJAF2J
+	AQGJdW3tIG2NyEQpwZxduAR8TU2xyZFNfbxEKcGgXb0hiYltQeFx9aW4RCnBoF3pcZUIfQF8dX
+	UYfEQpwaBdgUk4dZklQZU1NUBEKcGgXb0NQck4de0dpThkRCnBoF2x7f3x9YmMZTl9uEQpwbBd
+	6fklMbmlPfF9rbBEKcEwXY0dkfGBpbEATTFMR
+X-CLX-Spam: false
+X-CLX-Score: 1011
+X-Proofpoint-Virus-Version: vendor=fsecure
+ engine=2.50.10432:5.11.96,1.0.14,0.0.0000
+ definitions=2014-04-29_04:2014-04-29,2014-04-29,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+ suspectscore=0 phishscore=0 adultscore=0 bulkscore=0 classifier=spam adjust=0
+ reason=mlx scancount=1 engine=7.0.1-1402240000 definitions=main-1404290203
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Re: A message from small town, America...
+
+Wow, thank you so much for sharing this!  Xx
+
+Sent from my iPhone
+

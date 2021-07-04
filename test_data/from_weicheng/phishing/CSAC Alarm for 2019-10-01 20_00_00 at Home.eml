@@ -1,0 +1,50 @@
+Delivered-To: jcauthen@gmail.com
+Received: by 2002:a2e:9054:0:0:0:0:0 with SMTP id n20csp9205188ljg;
+        Tue, 1 Oct 2019 12:22:45 -0700 (PDT)
+X-Google-Smtp-Source: APXvYqzk/6Ib8SpFRhOYZiS1zmo97wMVMp3bQCc9nXFxVf9OrOBhrtJv2ds1ApiweF4D00aQSgE9
+X-Received: by 2002:a02:2941:: with SMTP id p62mr26570170jap.142.1569957765277;
+        Tue, 01 Oct 2019 12:22:45 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1569957765; cv=none;
+        d=google.com; s=arc-20160816;
+        b=KjpjLndxRnZrIStpv8PFFk53NPf+J+GqxzKZa1ZbtOjWTsI1bA0hwrmPwDPb/4bGeF
+         CcgibhL1lHxs5h+zu058IFAOBoMa16kuB10A1miv/iFf+UIPL4HOoCDGM3BJB+ULOBuS
+         S9RhGJXh/NF5/YjTqktLJVwmWGvu44A0rBpjhy94ocBLk+sg239cKv/DDeh6TCYxuKj/
+         VUhXY3cEBaOVO/G874RAvktF8ov19DYY2qey3kSNd7mwqC2oqnDUOG+lyIl97cGTgasn
+         6aqI88hW6eBCijLesMdy89p83JdsCR6THgM++S6Ra5g92HHm5U6vhMxoeaaEskP5pxgK
+         qwgw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=subject:to:message-id:from:date;
+        bh=qirs7lWYDuymHFT8jFfLTFj41sr8xhAKOUIUn0XGY3c=;
+        b=WZ127awYEQVOIDwzZbleNrkLFqZ4Y2nB+TALwDzLdPT/FdSqJiG66JkGWNNabXCnek
+         GxbgHI7XVxsUH2XV+F0+BJHkjK5B7BKW581+tGe/aO8qE1ZoPmtYhP4UXLjZEb53Fm4a
+         C3MbafFzRJWcQRohq/T0AYTnCCbCjxQxUpoEe5b+Yyyq4h8aP2GQxW/8xGuU1wgTKUZb
+         wivetcRNlSgqY23wKr2hil6TaVd5ZWoplCO1dW/yM0zZFMreIVMs4cHE2sVznGhwAYbt
+         d/ndESXUJE0jz78xuL3chThdVd24mgiJeaevCF5/2vgFL0wnmWfjslFQX502bTOWNnwq
+         hE4g==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of csac@www.casazza.net designates 104.192.5.243 as permitted sender) smtp.mailfrom=csac@www.casazza.net
+Return-Path: <csac@www.casazza.net>
+Received: from www.casazza.net (www.casazza.net. [104.192.5.243])
+        by mx.google.com with ESMTPS id j22si2459740iog.50.2019.10.01.12.22.45
+        for <jcauthen@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 01 Oct 2019 12:22:45 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of csac@www.casazza.net designates 104.192.5.243 as permitted sender) client-ip=104.192.5.243;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of csac@www.casazza.net designates 104.192.5.243 as permitted sender) smtp.mailfrom=csac@www.casazza.net
+Received: from www.casazza.net (localhost [127.0.0.1])
+	by www.casazza.net (8.14.7/8.14.7) with ESMTP id x91JMZMU062755
+	for <jcauthen@gmail.com>; Tue, 1 Oct 2019 15:22:35 -0400
+Received: (from csac@localhost)
+	by www.casazza.net (8.14.7/8.14.7/Submit) id x91JMZYx062754;
+	Tue, 1 Oct 2019 15:22:35 -0400
+Date: Tue, 1 Oct 2019 15:22:35 -0400
+From: csac@www.casazza.net
+Message-Id: <201910011922.x91JMZYx062754@www.casazza.net>
+To: jcauthen@gmail.com
+Subject: CSAC Alarm for 2019-10-01 20:00:00 at Home
+X-PHP-Originating-Script: 1001:Send.php
+Content-Type: text/html; charset=iso-8859-1
+
+<body bgcolor='#000000' text='#FFFFFF' link='#00FF00' vlink='#00FFFF' alink='#FF0000' lang='en-US'><h1 align=center>Clear Sky Alarm</h1><h4 align=center>Favorable observing conditions at Boise<br>Based on your Home subscription.<br><br>Click below to check out your clock.<br><a href=http://cleardarksky.com/c/BoiseIDkey.html> <img src=http://clearskyalarmclock.com/images/2386-ZcAq4n.gif width=638 height=242></a><br>The above is what your clock looked like when the alarm was sent.<br>The forecast may have changed since the alarm went out.</h4><table width='728' height='90' border='1' cellspacing='2' cellpadding='2' align='center' bgcolor='#0000FF'><tr><td align='center'><span style='color: White; font-weight: bold; font-size: 14pt;  font: Arial, Helvetica, sans-serif;'>Sponsorships of the Clear Sky Alarm Clock are now available.<br>Reach over 3000 astronomers every week with your message.<br>Inquire at csacadmin@casazza.net</span></td></tr></table><table border=0><br><tr><td c!
+ olspan=3 align='center'><b>Opportunities to observe at:</b></td><td align='center'><b>Clouds</b></td><td align='center'><b>Trans</b></td><td align='center'><b>Seeing</b></b></td></tr><tr><td>10-01</td><td>@ Hour 20</td><td>for 3 hours</td><td align='center'>0%</td><td align='center'>Above Ave.</td><td align='center'>Average</td></tr><tr><td>10-02</td><td>@ Hour 20</td><td>for 5 hours</td><td align='center'>10%</td><td align='center'>Above Ave.</td><td align='center'>Average</td></tr></table><br><h4>Check out your clock at http://cleardarksky.com/c/BoiseIDkey.html<br><br>You - jcauthen@gmail.com - are signed up to get these messages.<br>To stop receiving these messages visit http://ClearSkyAlarmClock.com<br><br>Do not reply to this message, it will not be read.<br>Send inquiries to csacadmin@casazza.net.<br><br>Thank you for using the Clear Sky Alarm Clock,<br>Mark Casazza<br>csacadmin@casazza.net<br></h4></body>

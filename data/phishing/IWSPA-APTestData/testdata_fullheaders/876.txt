@@ -1,0 +1,66 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Fri, 15 Nov 2015 17:03:31 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAG13Ukt019792	for <user@domain.com>; Sat, 16 Nov 2015 
+ 01:03:30 GMT
+Received: from mail129-co1-domain.com
+ (mail-domain.com [216.32.180.181])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAG13Tt7020302	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Sat, 16 Nov 2015 01:03:30 GMT
+Received: from mail129-co1 (localhost [127.0.0.1])	by
+ mail129-co1-domain.com (Postfix) with ESMTP id 185D6440947	for
+ <user@domain.com>; Sat, 16 Nov 2015 01:03:29 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:81.92.122.247;KIP:(null);UIP:(null);IPV:NLI;H:mta1.e.tennisexpress.net;RD:mta1.e.tennisexpress.net;EFVD:NLI
+X-SpamScore: 15
+X-BigFish: vps15(zz77f5hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6h1082kzz8275ch17326ah1def87h8275bh1bc7b9h1def03h1def86h1de097h1de096h186068h1d68deh1def83h19e035i1ce121iz2fheh5fh839h947h950h107ah10d2h1288h12a5h137ah13b6h13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1fe8h1ff5h2216h1882r1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail129-co1: domain of e.tennisexpress.net designates 81.92.122.247 as permitted sender) client-ip=81.92.122.247; user@domain.com; helo=mta1.e.tennisexpress.net ;domain.com ;
+Received: from mail129-co1 (localhost.localdomain [127.0.0.1]) by mail129-co1
+ (MessageSwitch) id 1384563807393655_30311; Sat, 16 Nov 2015 01:03:27 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.242])	by
+ mail129-domain.com (Postfix) with ESMTP id 5CAFEA8003F	for
+ <user@domain.com>; Sat, 16 Nov 2015 01:03:27 +0000 (UTC)
+Received: from mta1.e.tennisexpress.net (81.92.122.247) by
+ domain.com (10.243.66.34) with Microsoft SMTP Server id
+ 14.16.227.3; Sat, 16 Nov 2015 01:03:26 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=emv; d=e.tennisexpress.net;
+ h=Date:From: Tennis Express <email@e.tennisexpress.net>
+ bh=OTfqt60i65axpn+LgH1LjA3gXvQ=;
+ b=M5GrAxkFIN6FSTGVyU+UPn4SH2CGtxrMfiw+F8vNjO9+MoR/Wh9BcXBJ7s8uND9PMW5ne9eANlCh
+   XZbX3DsUNYKjCUUlcEVeni2eo8+WZs4V6wcH+/wp0XFoEz05MCahR0XDbR+V5kxu9X6TP9CQ8HPP
+   6OcyxPiwr3C+BgeFFFA
+Received: by mta1.e.tennisexpress.net id hgr25s16758c for
+ <user@domain.com>; Sat, 16 Nov 2015 02:03:25 +0100 (envelope-from
+ <user@domain.com>)
+Date: Sat, 16 Nov 2015 02:03:25 +0100
+From: Tennis Express <email@e.tennisexpress.net>
+Reply-To: "User"
+	<user@domain.com>
+To: C/O George <user@domain.com>
+Message-ID: <2.1.8.1101009781.2106673.2569564572@e.tennisexpress.net>
+Subject: Here's a little holiday heads up from Tennis Express!
+X-EMV-Platform: domain.com$
+X-EMV-CampagneId: 2106673$
+X-EMV-MemberId: 2569564572$
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com?subject=unsubscribe-8-ENX7Cqm_pUBz8SA9MKJv_svnGHxKLlCrEfcStGb5lw8W0bBhOG5mpqVsje_HhdBOVlEz>
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+Here's a little holiday heads up from Tennis Express!
+
+Let the Holidays Begin with Specials and New Arrivals from domain.com     Click To View Online    
+
+
+
+
+Tennis Express   Call Us         
+
+New Arrivals     Demo Program    Buyers Guide           <<link>>     <<link>>    <<link>>    http:/
+

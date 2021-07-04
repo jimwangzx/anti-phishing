@@ -1,0 +1,53 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 10CC1536E6B
+	for <user@domain.com>; Sun,  9 Oct 2015 01:26:39 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id A2FE16FA299
+	for <user@domain.com>; Sun,  9 Oct 2015 01:26:37 -0400 (EDT)
+Received: from 81.169.167.248 (domain.com [81.169.167.248])
+	by domain.com (Postfix) with SMTP
+	for <user@domain.com>; Sun,  9 Oct 2015 01:26:37 -0400 (EDT)
+Received: from lyyhtmsrr.paypal.com ([128.235.17.2]) by  with SMTP id hhl6E3RVs12127;
+	 Sun, 09 Oct 2015 01:17:37 -0500
+From: "Paypal" <service@paypal.com>
+Reply-To: "User" <user@domain.com>
+Subject: Your Account with PayPal
+To: user@domain.com
+Message-ID: <@paypal.com>
+X-Mailer: 
+Date: Sun, 09 Oct 2015 11:26:37 +0500
+Organization: 
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="=====856707337679=_"
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ********
+X-Spam-Status: Yes, score=8.5 required=5.0 tests=HTML_MESSAGE,INVALID_MSGID,
+	IP_LINK_PLUS,NORMAL_HTTP_TO_IP,RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,
+	RCVD_IN_BL_SPAMCOP_NET,RCVD_IN_XBL,RCVD_NUMERIC_HELO autolearn=no 
+	version=3.0.2
+X-Spam-Report: 
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.2 IP_LINK_PLUS URI: Dotted-decimal IP address followed by CGI
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (<>)
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [81.169.167.248 listed in sbl-domain.com]
+	*  1.1 INVALID_MSGID Message-Id is not valid, according to RFC 2015 
+Content-Length: 7822
+Lines: 391
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 324
+
+If     , then   .If      , then   .Still  her from   ,  her   with  .  ,   , and   are what made America great!    .

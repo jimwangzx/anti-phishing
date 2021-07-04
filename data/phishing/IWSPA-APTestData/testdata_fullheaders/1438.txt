@@ -1,0 +1,368 @@
+From: "eBay" <eBay@reply1.ebay.com>
+To: "User"
+Subject: Amy: You have a special offer from eBay.
+Date: Fri, 22 Aug 2015 16:50:29 -0400
+Message-ID: <0.1.145.user@domain.com>
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQHT9zIRKu8CQoBvN4+9zU2ao+Eq1w
+Content-Language: en-us
+x-ms-exchange-organization-authas: Internal
+x-ms-exchange-organization-authmechanism: 10
+x-ms-exchange-organization-authsource: domain.com
+x-forefront-antispam-report: CIP:91.194.248.152;CTRY:AT;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(438002)(199003)(37112002)(189002)(22564002)(32962001)(65504003)(505014003)(32674003)(65844002)(47034003)(92566001)(77096002)(18206015026)(44976005)(92726001)(946001)(83072002)(84326002)(19273905006)(15975445006)(47976999)(50986999)(575784001)(76482001)(19618635001)(103116003)(87836001)(512874002)(81342001)(956001)(33656002)(83322001)(99396002)(567944001)(4396001)(104016003)(71186001)(19580395003)(95656003)(19580405001)(307094003)(15187005004)(74662001)(74502001)(77982001)(107886001)(20776003)(16601075003)(80022001)(21056001)(64706001)(146001)(53416004)(85306004)(110136001)(79102001)(229853001)(15202345003)(110456001)(46102001)(19627405001)(575854001)(85852003)(107046002)(6806004)(106466001)(2351001)(90102001)(2361001)(31966008)(54356999)(81542001)(551934003)(19617315012)(106796001)(102836001)(354624002)(82556003)(18926415006)(19623405001);DIR:INB;SFP:;SCL:1;SRVR:BN1BFFO11HUB027;H:domain.com;FPR:;MLV:sfv;PTR:e3uspmta1
+	52.domain.com;A:0;MX:1;LANG:en;
+received-spf: Pass (domain.com: domain of reply1.ebay.com designates 91.194.248.152 as permitted sender) receiver=domain.com; client-ip=91.194.248.152; helo=domain.com;
+authentication-results: spf=pass (sender IP is 91.194.248.152) user@domain.com; 
+x-microsoft-antispam: BCL:3;PCL:0;RULEID:(50001);UriScan:;
+x-eopattributedmessage: 0
+List-Unsubscribe: <<<link>>>
+x-domain.com: domain.com
+dkim-signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=emarsys2007; d=reply1.ebay.com; h=List-Unsubscribe:List-Id:MIME-Version:To:From: "eBay" <eBay@reply1.ebay.com>
+domainkey-signature: a=rsa-sha1; c=nofws; q=dns; s=emarsys2007; d=reply1.ebay.com; b=Tm2GmiiEP3q0ji8r/VmMyFtnF4zuGNL24WvFJKpHrzj9W+kc2BCNUeVzYns4U99XfvvCdbpqh/wv   2ae80KdWkFZeVS77+uNgPfEFosbLke2ARsiS6VgcDefdvz+JyyVcldQWKMqjZYa4MD3IJ1sEcH2J   h77APxplzNnRVsKpnu0=;
+list-id: 1301 
+x-csa-complaints: user@domain.com
+x-emarsys-identify: 1301_1767641525078_1769375053085_4fa6e8II6a793dII19bf6f8b51dII1
+x-emarsys-environment: e3us
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Bill Me Later
+
+.ReadMsgBody {
+	width: 100%;
+}
+.ExternalClass {
+	width: 100%;
+}
+ @media screen and (max-device-width: 480px) {
+table[class=emailnomob], td[class=emailnomob], img[class=emailnomob], span[class=emailnomob] {
+	display: none !important;
+}
+/* font size */
+*[class=fontsize26] {
+	font-size: 26px !important;
+}
+*[class=fontsize20] {
+	font-size: 16px !important;
+}
+*[class=fontsize14] {
+	font-size: 14px !important;
+}
+*[class=fontsize12] {
+	font-size: 12px !important;
+}
+*[class=fontsize8] {
+	font-size: 8px !important;
+}
+/* font size */
+
+
+
+table[class=emailwrapto360] {
+	width: 360px !important;
+	height: auto !important;
+}
+table[class=emailwrapto320] {
+	width: 360px !important;
+	height: auto !important;
+}
+table[class=emailwrapto318] {
+	width: 300px !important;
+	height: auto !important;
+}
+table[class=emailwrapto318b] {
+	width: 290px !important;
+	height: auto !important;
+}
+table[class=emailwrapto300] {
+	width: 300px !important;
+	height: auto !important;
+}
+table[class=emailwrapto248] {
+	width: 248px !important;
+	height: auto !important;
+}
+table[class=emailwrapto288] {
+	width: 288px !important;
+	height: auto !important;
+}
+table[class=hide] {
+	display: none !important;
+	font-size: 0px !important;
+	max-height: 0px !important;
+	max-width: 0px !important;
+	line-height: 0px !important;
+	padding: 0px !important;
+	overflow: hidden !important;
+}
+td[class=emailwrapto320] {
+	width: 360px !important;
+	height: auto !important;
+}
+td[class=emailwrapto320s] {
+	width: 60% !important;
+	height: auto !important;
+}
+td[class=emailwrapto318] {
+	width: 300px !important;
+	height: auto !important;
+}
+td[class=emailwrapto318b] {
+	width: 290px !important;
+	height: auto !important;
+}
+td[class=emailwrapto180] {
+	width: 180px !important;
+	height: auto !important;
+}
+td[class=emailwrapto180f] {
+	width: 180px !important;
+	height: auto !important;
+	font-size: 6px !important;
+}
+td[class=emailwrapto120f] {
+	width: 120px !important;
+	height: auto !important;
+	font-size: 6px !important;
+}
+td[class=emailwrapto120] {
+	width: 120px !important;
+	height: auto !important;
+}
+td[class=emailwrapto16] {
+	width: 10px !important;
+	height: auto !important;
+}
+td[class=emailfontsmall] {
+	font-size: 80% !important;
+}
+img[class=emailwrapto320] {
+	width: 360px !important;
+	height: auto !important;
+}
+img[class=emailwrapto318] {
+	width: 340px !important;
+	height: auto !important;
+}
+img[class=emailwrapto300] {
+	width: 300px !important;
+	height: auto !important;
+}
+img[class=emailwrapto280] {
+	width: 280px !important;
+	height: auto !important;
+}
+img[class=emailwrapto254] {
+	width: 254px !important;
+	height: auto !important;
+}
+img[class=emailwrapto100] {
+	width: 100px !important;
+	height: auto !important;
+}
+img[class=emailwrapto55] {
+	width: auto !important;
+	height: 55px !important;
+}
+img[class=emailwrapto64] {
+	width: 56px !important;
+	height: auto !important;
+}
+img[class=emailcolsplit320] {
+	width: 305px;
+	text-align: left;
+!important;
+	float: left !important;
+}
+img[class=scaleImage] {
+	width: 100% !important;
+	max-width: 600px !important;
+	height: auto !important;
+}
+td[class=emailcolsplit318] {
+	width: 318px;
+	align: left;
+!important;
+	float: left !important;
+	height: auto !important;
+}
+td[class=emailcolsplit305] {
+	width: 305px;
+	align: center;
+!important;
+	float: left !important;
+	padding-left: 27px;
+}
+td[class=emailcolsplit305b] {
+	width: 305px;
+	align: center;
+!important;
+	float: left !important;
+	padding-left: 37px;
+}
+a[class=emailfontsmall] {
+	font-size: 80% !important;
+}
+span[class=emailfontsmall] {
+	font-size: 80% !important;
+}
+a[class=footer] {
+	display: block !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	padding: 6px 4px 8px 4px !important;
+	line-height: 18px !important;
+	background: #dddddd !important;
+	border-radius: 5px !important;
+	margin: 10px auto;
+	width: 240px;
+	text-align: center;
+	text-decoration: none;
+	color: #717074 !important;
+}
+}
+
+.ReadMsgBody { width: 100%;}.ExternalClass {width: 100%;}div, p, a, li, td, span, font {-domain.com-text-size-adjust:none;-ms-text-size-adjust:none;} .hotmailimg img{height:10px; width:10px;}
+
+.emailwrapto320{text-align:left; !important;}
+
+
+
+
+          $10 back and up to 12 months financing with payPal domain.com.
+            Apply now.
+            View this message in your browser
+
+
+
+                 Start school with some extra domain.com 
+
+
+
+                       Get up to 12 months special financing and $10 back on your first purchase when you check out with PayPaltm and choose PayPal domain.com.
+
+
+
+                      Apply now
+
+
+
+                      Or choose Bill Me Later during PayPaltm checkout
+
+
+
+                Subject to domain.com approval. See terms.
+
+
+
+           PayPal domain.com is a convenient domain.com line that you can use on eBay and at thousands of additional stores. 
+
+
+
+          Apply now
+
+
+
+          IMPORTANT INFROMATION ABOUT THIS SPECIAL OFFER
+
+
+
+                •
+                This is an exclusive offer just for you and is not transferable or combinable with other offers.
+
+
+
+                •
+                Bill Me Later is not available in the following categories on eBay: non-US sellers, adult, digital goods, weapons, alcohol, vehicles (Bill Me Later is available for parts and accessories), and US sellers with third-party checkout. 
+
+
+
+                •
+                $10 back is a limited-time offer valid for your first purchase when you checkout with Paypal and choose Bill Me Later as your payment option. If you already have a Bill Me Later account, you are not eligible to receive this offer. Valid on an eBay purchase before August 31, 2014. You'll receive $10 back as a statement domain.com within one to two billing cycles. 
+                  This amount will be reflected on your Bill Me Later statement.
+
+
+
+                •
+                This offer is only valid for the eBay account associated with this email address.
+
+
+
+                •
+                Offer not valid on previous returns, refunds and exchanges or when using the Send Money feature in your PayPal account. 
+
+
+
+                •
+                You may not be eligible for Bill Me Later linked to your PayPal account, if you do not meet certain criteria established by PayPal to address potential fraud, restricted accounts or if you already have another PayPal domain.com product linked to your account.
+
+
+
+                •
+                Promotional offers may not be available for purchases made on a mobile device.
+
+
+
+          TERMS OF THE OFFER
+
+
+
+                •
+                Bill Me Later is subject to domain.com approval as determined by the Lender, Comenity Capital Bank, and is available to US customers who are of legal age in their state of residence. Bill Me Later is operated by Bill Me Later, Inc.
+
+
+
+                •
+                Promotional financing is not cumulative and is only available per purchase when the total cart transaction is $99 or more.
+
+
+
+                •
+                Pay for your financed purchases prior to the promotion expiration date and you will not be charged any interest. Otherwise, interest will be charged from the date of purchase at an ANNUAL PERCENTAGE RATE OF 19.99%. The Minimum Interest Charge is $2.00.
+
+
+
+                •
+                If approved for Bill Me Later, Comenity Capital Bank will make a loan to you for the amount financed to pay for your purchase and pay the merchant on your behalf.
+
+
+
+          PURCHASES UP TO 98.99—MORE TIME TO PAY
+            Buy now and pay later with Bill Me Later for eligible purchases up to $98.99. You can choose to pay your balance in full by the payment due date listed on your statement to avoid paying interest, or you can choose to take longer to pay with interest. Plus, you will get a monthly email reminder telling you when your payment is due.
+
+
+
+          PURCHASES OF $99 – $498.99 - NO PAYMENTS AND NO INTEREST IF PAID IN FULL IN 6 MONTHS
+            No Payments and No Interest if paid in full in 6 months on eligible Bill Me Later purchases from $99 - $498.99. Interest will be charged to your account from the purchase date if the purchase balance is not paid in full within 6 months. You will get a monthly email reminder telling you when your payment is due.
+
+
+
+          PURCHASES OF $499 OR MORE - NO INTEREST IF PAID IN FULL IN 12 MONTHS
+            No Interest if paid in full within 12 Months on eligible Bill Me Later purchases of $499 or more.  Interest will be  charged to your account from the purchase date if the purchase balance is not paid in full in 12 months. Minimum monthly payments are required. You will get a monthly email reminder telling you when your payment is due. 
+
+
+
+          For Bill Me Later Account Terms, see the Bill Me Later  Terms and Conditions. 
+
+
+
+            EBH1401Learn more to protect yourself from spoof (fake) e-mails. 
+
+
+
+							eBay Inc. sent this e-mail to you at user@domain.com because your Notification Preferences indicate that you want to receive general email promotions. 
+
+
+
+							If you do not wish to receive further communications like this, please click here to unsubscribe. Alternatively, you can change your Notification Preferences in My eBay by clicking here. Please note that it may take up to 10 days to process your request. 
+
+
+
+							domain.com our Privacy Policy and User Agreement if you have any questions. 
+
+
+
+							Copyright © 2015 eBay Inc. All Rights Reserved. Designated trademarks and brands are the property of their respective owners. eBay and the eBay logo are trademarks of eBay Inc. 2015 Hamilton Avenue, San Jose, CA 95125.
+
+

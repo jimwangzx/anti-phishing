@@ -1,0 +1,102 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.66 with SMTP id e63csp548988lfb;
+        Wed, 26 Nov 2015 08:18:34 -0800 (PST)
+X-Received: by 10.170.132.194 with SMTP id y185mr35619376ykb.97.1417018713844;
+        Wed, 26 Nov 2015 08:18:33 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.200])
+        by domain.com with ESMTPS id j7si5536554qch.37.2014.11.26.08.18.33
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Wed, 26 Nov 2015 08:18:33 -0800 (PST)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.200;
+Authentication-Results: domain.com;
+       spf=none (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=fail user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.241.131] by server-8.bemta-8.domain.com id C1/6C-19679-45DF5745; Wed, 26 Nov 2015 16:18:28 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-5.tower-54.domain.com!1417018707!9799352!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 15608 invoked from network); 26 Nov 2015 16:18:28 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-5.tower-54.domain.com with AES256-SHA encrypted SMTP; 26 Nov 2015 16:18:28 -0000
+Resent-From: "William Rivers Pitt, Truthout" <messenger@truthout.org>
+Received: from domain.com (216.82.243.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Wed, 26 Nov 2015 11:18:27 -0500
+Received: from [216.82.241.131] by server-13.bemta-8.domain.com id
+ BA/2E-30616-35DF5745; Wed, 26 Nov 2015 16:18:27 +0000
+X-Env-Sender: 2327773419-1313769-user@domain.com
+X-Msg-Ref: server-5.tower-54.domain.com!1417018705!9799344!1
+X-Originating-IP: [69.174.83.169]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY5ID0+IDMwODkw\n,sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY5ID0+IDMwODkw\n,HTML_MESSAGE
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 15455 invoked from network); 26 Nov 2015 16:18:25 -0000
+Received: from domain.com (HELO domain.com) (69.174.83.169)
+  by server-5.tower-54.domain.com with SMTP; 26 Nov 2015 16:18:25 -0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1417018705;
+	h=From: "William Rivers Pitt, Truthout" <messenger@truthout.org>
+	bh=R9LF4gF10rtyBjgof7gqqXZkJuo=;
+	b=HCmODwHcwlYaVCH0UZ9WKZfibZHvgt236iT8QTqcmCH89Z9LFpzOC07fn073tjWt
+	C1fgVixckfkjtbWqShtNbTWNIKWAtQsm8iNJdRAVeH4ze9qnIEfwpCI2S2LJL9IE
+	RNr6y6KZqfy9WEzrqgs9iSI3Hj3RJZYGXtSLDUYwKBQ=;
+Received: from [10.174.83.206] ([10.174.83.206:44044] helo=10.174.83.206)	by
+ domain.com (envelope-from
+ <2327773419-1313769-user@domain.com>)	(ecelerity
+ 3.5.10.45038 r(Core:3.5.10.0)) with ESMTP	id 67/46-07536-15DF5745; Wed, 26
+ Nov 2015 11:18:25 -0500
+Date: Wed, 26 Nov 2015 11:18:25 -0500
+From: "William Rivers Pitt, Truthout" <messenger@truthout.org>
+Sender: <user@domain.com>
+Reply-To: <user@domain.com>
+To: user@domain.com
+Message-ID: <2327773419.1014552428@domain.com>
+Subject: Today, A Reckoning
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_7337703_1103186494.1417018705711"
+Envelope-From: "William Rivers Pitt, Truthout" <messenger@truthout.org>
+List-Unsubscribe: <<<link>>>
+X_email_KEY: 2327773419
+X-campaignid: salsaorg26694-1313769
+
+t r u t h o u t | Matters are coming to a head in these United States. The president has very quietly escalated our war in Afghanistan again, even as he tiptoes toward deeper and more lethal engagement in Iraq. Here at home, militarized police cut down unarmed teenagers with no consequences and those protesting injustice are vilified as the shooters walk free. 
+
+Truthout is devoted to the task of informing you so that you may stand against what has gone so terribly wrong, but the clock is running, and we desperately need your help. We're still $9,000 away from meeting our goal. We've extended our fundraising drive as far as we can, so you have one last chance to contribute - please make it count.
+
+Click here to donate: <<link>>
+(Truthout is a 501(c)(3) domain.com. EIN: 20-0031641) 
+
+You can also donate by check, made payable to:
+Truthout, P.O. Box 276414, Sacramento, CA 95827
+(Please include your email address on your check.) 
+
+Or call in your donation: (213) 489-1971
+
+Yours,
+William Rivers Pitt, Columnist and Editor
+
+-----------
+Support Truthout with a tax-deductible donation by clicking here: <<link>>
+
+To ensure you receive our messages please add the following address to your email address book: user@domain.com
+
+If you are having trouble with this, read our guide: <<link>>
+
+Thank you!
+
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+Click to UNSUBSCRIBE -> <<link>>
+Go directly to our home page: <<link>>
+Click to SUBSCRIBE -> <<link>>
+Our Privacy Policy -> <<link>>

@@ -1,0 +1,271 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs398996wfw;
+        Wed, 1 Oct 2015 08:40:29 -0700 (PDT)
+Received: by 10.115.74.16 with SMTP id b16mr7115326wal.129.1222875629125;
+        Wed, 01 Oct 2015 08:40:29 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.56])
+        by domain.com with ESMTP id 5si5148442yxt.1.2008.10.01.08.40.27;
+        Wed, 01 Oct 2015 08:40:28 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.56 as permitted sender) client-ip=209.85.217.56;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.217.56 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 16so2182868gxk.25
+        for <user@domain.com>; Wed, 01 Oct 2015 08:40:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Jacob Roberts" <jacob@progressiveaccountability.org>
+         :mime-version:content-type:references:sender:precedence
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=psFLTNy/vU6ifIzYEcSEVV30HrJdxOtaf0pJyXgBfgA=;
+        b=m9BBjR5u3ss8XM0wJw1MvR58k3frlrM9E9BTac3KCet0RoI2Y4DDHay7qnMDWc2lDe
+         AgVNfa9Ewv6YFiKDOGFRs41XaRHXZeqVzap2gNn2l6SYegRTT8g4ObGZ0ak+LPYy7hvR
+         WCNXB1lroPcEN1QXRx+dYVhtQATlryMIfSTQ0
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Jacob Roberts" <jacob@progressiveaccountability.org>
+         :content-type:references:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=5sit6VNy8yMItt55e1x0RTlMn2G0+7h4s2mm3BRWKlZnmfPG0qFXcVk0DgDXfMMMlk
+         i8itAsnoOB520OqhznBFXL9OI/v2ug8z9vwD6z59t81doO9le1dyzbqpQi2KppWAAeYa
+         LYxCW7ENyssQ0nzL4kLDLnY8HuQc6jSWJldJw
+Received: by 10.100.96.9 with SMTP id t9mr456738anb.8.1222875621684;
+        Wed, 01 Oct 2015 08:40:21 -0700 (PDT)
+Received: by 10.44.116.1 with SMTP id o1gr2207hsc.0;
+	Wed, 01 Oct 2015 08:40:12 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.90.31.8 with SMTP id e8mr3739944age.9.1222875611692; Wed, 01 Oct 2015 08:40:11 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from nf-out-0910.domain.com (nf-out-0910.domain.com [64.233.182.184]) by domain.com with ESMTP id 7si5924148yxg.0.2008.10.01.08.40.11; Wed, 01 Oct 2015 08:40:11 -0700 (PDT)
+Received-SPF: neutral (domain.com: 64.233.182.184 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=64.233.182.184;
+Authentication-Results: domain.com; spf=neutral (domain.com: 64.233.182.184 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by nf-out-0910.domain.com with SMTP id h3so268587nfh.14 for <user@domain.com>; Wed, 01 Oct 2015 08:40:10 -0700 (PDT)
+Received: by 10.210.21.13 with SMTP id 13mr9882616ebu.4.1222875610464; Wed, 01 Oct 2015 08:40:10 -0700 (PDT)
+Received: by 10.210.116.3 with HTTP; Wed, 1 Oct 2015 08:40:10 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Wed, 1 Oct 2015 11:40:10 -0400
+From: "Jacob Roberts" <jacob@progressiveaccountability.org>
+To: "User" <user@domain.com>
+Subject: [big campaign] MMR: McCain aspires to be a dictator, McCan't rally
+ the GOP, Palin's poor interview performance, Palin's great debate
+ performance, NV and abortion, Morning 10/01/08
+In-Reply-To: <user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_6122_20948217.1222875610461"
+References: <user@domain.com>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+Highlights:
+1.     DMR: McCain Jokes about Dictatorial Ambitions
+
+MCCAIN: "If I were dictator, which I always aspire to be"
+
+2.     WHO NBC ME: Local Anchor Asks McCain Why He Couldn't Get more GOP
+Support for Bailout
+
+PAUL DIX:  Aren't you the party's guy?  Aren't you their leader? Shouldn't
+you be the guy to be able to call these folks and say, hey I need you to do
+this?
+
+3.     CBS: Sarah Palin Cannot Give Clear Answer on McCain's Cap and Trade
+Platform
+
+PALIN: "He's got a good cap and trade policy that he supports. And details
+are being hashed out even right now."
+
+4.     ABC: In Past Debates, Palin Delivered Zingers
+5.     FNC: In Past Debates, Palin Shockingly Sharp
+
+KILMEADE: "[=85] by the last debate, she totally blew everybody out of the
+water, that she had everything cold and she certainly shined."
+
+6.     MSNBC: "*'*Is Anybody Running the McCain Campaign Anymore?'
+Scarborough Wonders
+7.     CNN: Nevada McCain Campaign Uses Abortion to Mobilize Latinos
+
+LAWRENCE: "Supporters of Senator John McCain are making a major push for
+Hispanic voters here (Nevada), and they're using abortion as the key issue.
+"
+
+Highlights, No Video
+1.     NBC =96 ANDREA MITCHELL: "[T]he republicans tied Obama to the bailou
+t
+even though both candidates endorsed it."
+2.     MSNBC =96 MIKA BRZEZINSKI: "[The VP debates] are gonna be theater."
+
+Clips:
+Highlight #1
+*McCain: 'If I Were Dictator'* (DMR 09/30/08)
+JOHN MCCAIN: *If I were dictator, which I always aspire to be*, I would
+write [the bailout bill] very different. [...] People can't reach across th
+e
+aisle and we give poison speeches [...]. I have obviously been on the phone
+with people. I talked with the president this morning and continue to have
+conversations with people to move it forward. [...] Let's not point the
+finger of blame for a while. There's plenty of time to do that.
+
+Highlight #2
+*Local NBC Challenges McCain's Relationship with Republicans* (WHO NBC ME
+10/01/08 6:52am)
+DAVE PRICE: We asked him if he failed in his efforts to convince other
+Republicans to support that bill.
+
+[=85]
+
+JOHN MCCAIN:  Well, first of all you gotta do what's right, and you gotta
+get in the arena.  We will have, I believe, still have confidence we will
+act because the penalties of inaction are enormous.
+
+PAUL DIX:  Aren't you the party's guy?  Aren't you their leader? Shouldn't
+you be the guy to be able to call these folks and say, hey I need you to do
+this?
+
+MCCAIN:  I'll leave it to others to give me domain.com for trying to get house
+Republicans to the table, I mean it's clear that they were not at the table
+before that. And we have a lot to do.
+
+Highlight #3
+*Palin Gives No Specifics on McCain's Cap and Trade Position* (CBS 10/01/08
+7:10am)
+KATIE COURIC: John McCain proposed legislation calling for mandatory caps o
+n
+global warming gases or CO2 emissions. Do you agree with that?
+
+SARAH PALIN: I support his position on that. Absolutely.
+
+COURIC: But he somewhat backtracked on the campaign trail saying it
+wouldn't, they wouldn't, the caps wouldn't be mandatory, they'd be
+voluntary. So what do you think? Do you think voluntary caps go far enough?
+Or they should be mandatory?
+
+PALIN: He's got a good cap and trade policy that he supports. And details
+are being hashed out even right now. But, in principle, absolutely, I
+support all that we can do to reduce emissions and to clean up this domain.com.
+And John McCain is right on board with that.
+
+COURIC: Voluntary or mandatory in your view?
+
+PALIN: We're gonna keep working on how it can be implemented to actually
+make sense and make a difference.
+
+Highlight #4
+*ABC Covers Palin's Past Debates* (ABC 10/01/08 7:15am)
+KATE SNOW: "It hasn't been the easiest week. The interview mocked,
+disastrous reviews of conservatives even.  But go back a couple of years,
+and the tapes might surprise you."
+
+SARAH PALIN: "This unfunded liability that we're facing right now is going
+to effect every education budget until we get our hands around it."
+
+SNOW:  "That's Sarah Palin tacking Alaska's pension plan shortfall.  In one
+of two dozen debates when she ran for governor."
+
+PALIN:  "And inherent in that constitutional amendment, I believe, was the
+reference also to benefits."
+
+SNOW:  "From same sex benefits to education, to energy policy, *Palin's
+answers were polished, and she had some zingers."*
+
+TOMMY KNOWLES:  "Why should the public trust you to negotiate a gas line?"
+
+PALIN: "user, there you go again.  We discussed this yesterday.  I kinda se
+t
+you straight yesterday.  We'll do it again today. [...] user, I haven't had
+a private jet to be able to bum from my lobbyist friends to zip all over th
+e
+state and meet and reach every single constituency group that you even."
+
+SNOW: "But even then, opponents questioned her preparedness."
+
+ANDREW HALCRO: "You show up to debates ill-informed, you carry notes with
+you, and it's not wrong to carry notes.  You know, nobody's the smartest gu
+y
+in the room.  But, when the notes consistently say nothing, I think there's
+an issue there.  [...] You mad a comment that oil was at $58 a barrel.  I
+said it was at 53, in fact, oil is at 53."
+
+PALIN:  "Well, on Sunday I looked it up and oil was 58, Andrew, so I assume
+,
+and I shouldn't have assumed, huge mistake-"
+
+Highlight #5
+*Past Debate Opponent's Comment on Palin* (FNC 10/01/08 7:20am)
+BRIAN KILMEADE: "[=85] they went up to Alaska and they talked to her two
+opponents, and they said, "What is like debating against Sarah Palin?" Well
+,
+they said *by the last debate, she totally blew everybody out of the water,
+that she had everything cold and she certainly shined.  What really is
+frustrating about debating against her, when you try to prove she doesn't
+know something, you lose because audiences are enraptured by her, and her
+biding comments give you a sense of how competitive she is.*"
+
+Highlight #6
+*'Is Anybody Running the McCain Campaign Anymore?' Scarborough Wonders *(MS
+NBC
+10/01/08 6:08am)
+JOE SCARBOROUGH: Is anybody running the McCain campaign anymore? Is it on
+autopilot? Did they like, push autopilot [and] went down to 'Disney' for a
+month?
+
+MIKE BARNICLE: Mr. Clean. Steve Schmidt.
+
+SCARBOROUGH: You know what, if you're going to take McCain off David
+Letterman, why don't you take Palin off of Katie Couric?
+
+[...]
+
+SCARBOROUGH: [The McCain camp tries] to have it both ways. They pick
+somebody that is a purely political pick and then they think, 'Oh well we
+have to clean her up by letting CBS and ABC [interview her]. No! You don't!
+
+You send her to Hugh Hewitt. You send her to Rush Limbaugh. You send her to
+the right and all of us in Manhattan and Georgetown will be angry and say,
+'She needs to talk to established media.' No she doesn't! Because *she
+can't!* Send her to Limbaugh!
+
+Highlight #7
+*McCain Supporters Targeting Pro-Life Latinos in Nevada* (CNN 10/01/08
+6:15am)
+CHRIS LAWRENCE: [=85] Supporters of Senator John McCain are making a major
+push for Hispanic voters here (Nevada), and they're using abortion as the
+key issue.  Senator McCain's supporters are aggressively recruiting Nevada'
+s
+Hispanic voters.  From phone calls to bilingual flyers, they're appealing t
+o
+voters' faith, and how that reconciles with abortion. [=85]
+
+--
+Jacob Roberts
+PAO
+208.420.3470 (c)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

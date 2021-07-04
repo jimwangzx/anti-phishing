@@ -1,0 +1,142 @@
+Delivered-To: user@domain.com
+Received: by 10.204.113.195 with SMTP id b3cs27449bkq;
+        Wed, 17 Feb 2015 14:56:03 -0800 (PST)
+Received-SPF: pass (domain.com: domain of 37user@domain.com designates 10.224.64.198 as permitted sender) client-ip=10.224.64.198;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of 37user@domain.com designates 10.224.64.198 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.224.64.198])
+        by 10.224.64.198 with SMTP id f6mr2376612qai.42.1266447362378 (num_hops = 1);
+        Wed, 17 Feb 2015 14:56:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:x-asg-debug-id:received
+         :x-barracuda-envelope-From: Adam Jentleson <Ajentleson@americanprogress.org>
+         :x-asg-orig-subj:subject:thread-topic:thread-index:message-id
+         :accept-language:x-ms-has-attach:x-ms-tnef-correlator:acceptlanguage
+         :mime-version:x-barracuda-connect:x-barracuda-start-time
+         :x-barracuda-encrypted:x-barracuda-url:x-virus-scanned
+         :x-original-authentication-results:x-original-sender:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :x-thread-url:x-message-url:sender:list-unsubscribe:content-language
+         :content-type;
+        bh=ZUpqjrlNqFHKaOC4wq34wBnpXaPwhq28Ybk5G1iU7JA=;
+        b=ihwAM7mcoGq4S+HnTnTbHv2+zsRFVwUPan1bEWtKln2dQU7acNZ/wVXPFZc900P5F/
+         6ABov6DHfID6UBUl6bfoVsk9znLnHRq80B8mX9ZIK9Q/oOTZJ6bExYs1w52H7pwU/y+P
+         tNrUw/DAGpbEy8Y7yvC/SMSqow0J7HbISeKr4
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:x-asg-debug-id:x-barracuda-envelope-from
+         :x-asg-whitelist:From: Adam Jentleson <Ajentleson@americanprogress.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-barracuda-connect:x-barracuda-start-time:x-barracuda-encrypted
+         :x-barracuda-url:x-virus-scanned:x-original-authentication-results
+         :x-original-sender:reply-to:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:x-thread-url:x-message-url:sender
+         :list-unsubscribe:content-language:content-type;
+        b=V+W0NwYJH890B0olbxHqtEzeSk+iAEyKtPdwDSMu3U9kN7xyzDUwv7sLIL8Feh99j/
+         4zjYmHtjEp9oLG23rfCbfT3eVSPQowabeaiW6/Ix1920N2sFrK01JTPSK5T7qYyw++Q0
+         lkAjAZ9/IlT+jEOTlrw7CMk695RbMU3RgV1rY
+Received: by 10.224.64.198 with SMTP id f6mr280989qai.42.1266447340577;
+        Wed, 17 Feb 2015 14:55:40 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.224.72.35 with SMTP id k35ls319085qaj.2.p; Wed, 17 Feb 2015 
+	14:55:39 -0800 (PST)
+Received: by 10.224.79.209 with SMTP id q17mr1072696qak.25.1266447334027;
+        Wed, 17 Feb 2015 14:55:34 -0800 (PST)
+Received: by 10.224.79.209 with SMTP id q17mr1072695qak.25.1266447333981;
+        Wed, 17 Feb 2015 14:55:33 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mrelay2.americanprogress.org (mrelay2.americanprogress.org [76.74.8.245])
+        by gmr-domain.com with ESMTP id 25si1547225qyk.7.2010.02.17.14.55.33;
+        Wed, 17 Feb 2015 14:55:33 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 76.74.8.245 as permitted sender) client-ip=76.74.8.245;
+X-ASG-Debug-ID: 1266447332-6e9613350001-QLVFix
+Received: from mail.americanprogress.org ([172.16.10.1]) by mrelay2.americanprogress.org with ESMTP id hPS7oLBABIGxSqEk (version=TLSv1 cipher=RC4-MD5 bits=128 verify=NO) for <user@domain.com>; Wed, 17 Feb 2015 17:55:32 -0500 (EST)
+X-Barracuda-Envelope-From: Adam Jentleson <Ajentleson@americanprogress.org>
+X-ASG-Whitelist: Client
+Received: from domain.com ([172.16.10.17]) by
+ domain.com ([172.16.10.24]) with mapi; Wed, 17 Feb
+ 2015 17:55:32 -0500
+From: Adam Jentleson <Ajentleson@americanprogress.org>
+To: "User" <user@domain.com>
+Date: Wed, 17 Feb 2015 17:55:32 -0500
+X-ASG-Orig-Subj: RC: Senate GOP Staff Meet With Lobbyists on Jobs Bill
+Subject: [big campaign] RC: Senate GOP Staff Meet With Lobbyists on Jobs Bill
+Thread-Topic: RC: Senate GOP Staff Meet With Lobbyists on Jobs Bill
+Thread-Index: AcqwJE60Kh98xbunTAqbZIhVAQ3MWQ
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-Barracuda-Connect: UNKNOWN[172.16.10.1]
+X-Barracuda-Start-Time: 1266447332
+X-Barracuda-Encrypted: RC4-MD5
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at americanprogress.org
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com: 
+	domain of user@domain.com designates 76.74.8.245 as permitted 
+	sender) user@domain.com
+X-Original-Sender: user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, 
+	<mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+X-Thread-Url: <<link>>
+X-Message-Url: <<link>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>, 
+	<mailto:bigcampaign+user@domain.com>
+Content-Language: en-US
+Content-Type: multipart/alternative;
+	boundary="_000_A28459BA2B4D5D49BED0238513058A7F012ACB77DF7ACAPMAILBOXa_"
+
+Roll Call: Senate GOP Staff Meet With Lobbyists on Jobs Bill
+<<link>>
+Senate Republican leadership staff are huddling with K Streeters this after
+noon over Senate Majority Leader Harry Reid's (D-Nev.) decision to forgo a 
+bipartisan jobs package in favor of a smaller, targeted plan.
+
+The meeting is expected to draw staff from the offices of Senate Minority L
+eader Mitch McConnell (Ky.) and Sens. Chuck Grassley (Iowa) and Orrin Hatch
+ (Utah), according to a lobbyist planning to attend the meeting.
+
+"People are curious and want to know what's happening," the lobbyist said.
+
+The business community has been up in arms since Reid decided to ditch a bi
+partisan job-creation bill last week. Senate Finance Chairman Max Baucus (D
+-Mont.) and the ranking member Grassley had crafted a package that would ha
+ve including extensions for tax credits favored by the business community. 
+Reid is now pushing a more targeted package.
+
+Senate Republicans have voiced concern about Reid's handling of the jobs bi
+ll. The meeting comes as Reid has begun reaching out to Republicans to try 
+to ensure bipartisan support.
+
+-----
+Adam Jentleson
+Communications Director, Progressive Media
+Center for American Progress Action Fund
+user@domain.com<mailto:user@domain.com
+g>
+ajentleson (AIM)
+202-247-8614 (cell)
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

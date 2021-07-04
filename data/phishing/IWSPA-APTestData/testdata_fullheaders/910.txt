@@ -1,0 +1,99 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Sun, 8 Jun 2015 18:34:03 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s591Y3su032737	for <user@domain.com>; Mon, 9 Jun 2015 
+ 01:34:03 GMT
+Received: from mail217-va3-domain.com (mail-domain.com
+ [216.32.180.111])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s591XucD000449
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 9 Jun 2015 01:33:57 GMT
+Received: from mail217-va3 (localhost [127.0.0.1])	by
+ mail217-va3-domain.com (Postfix) with ESMTP id 5F50684076C	for
+ <user@domain.com>; Mon,  9 Jun 2015 01:34:02 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:65.39.215.97;KIP:(null);UIP:(null);SRV:BULK;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(z579ehzc89bh758Ic857hc545Idbb0izz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1defc1h1def86h1de097h186068h172c6ch1ce120h1a691ciz2fheh5fh839h8aahe5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h2565h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h214ai)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail217-va3: domain of domain.com designates 65.39.215.97 as permitted sender) client-ip=65.39.215.97; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail217-va3 (localhost.localdomain [127.0.0.1]) by mail217-va3
+ (MessageSwitch) id 14022776404863_10161; Mon,  9 Jun 2015 01:34:00 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.237])	by
+ mail217-domain.com (Postfix) with ESMTP id F10A09C006D	for
+ <user@domain.com>; Mon,  9 Jun 2015 01:33:59 +0000 (UTC)
+Received: from mx-domain.com (65.39.215.97) by domain.com
+ (10.7.99.47) with Microsoft SMTP Server id 14.16.227.3; Mon, 9 Jun 2015 
+ 01:33:59 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Variety Breaking News <donotreply@variety.com>
+ bh=IU8KWSW3kAgXqduRaUTDIfAThWg=;
+ b=IlO3tItrgGGIe2Ro3+gLifUQ0NZTJcv9yUMsAoG1ToRYQ+tp1TsCU47UJQpJBgCyz47KH9LlZmyz
+   VWqx9gtgOUSGeynybyCzAN435Gjz3NdBZxNDB98wf4DdVEEkvGsMDJ+U8Ozy1XlAV99wdl5gGjQj
+   0uZiJebrLiJbRurY5xU
+Received: from nyp1-p-p4119-prd-jma-26.sailthru.pvt (65.39.215.178) by
+ mx-domain.com id hik7he1qqbsp for <user@domain.com>; Sun, 8 Jun
+ 2015 21:34:15 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1402277651;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=FE2f80w19qcthvO1L5VGta9P8y/bD7qMTThNG6t0A7w=;
+	b=IprHq6Ps58x6hOXny1/nn9I4bBKI2XjekL2B5Y0q7fyHKYjPP8MLksl/JPpvM85q
+	JDmPztD3tacUfVZdsI38ZRVk2h0H69rTPMdvtKZ3nK+KL5Mf6ylb8GQ6t/ZCeCnAPc4
+	kLb8FW4iDsIBUU6yg9yrkKmgLdMHxlOffhbEqFbQ
+Date: Sun, 8 Jun 2015 21:34:11 -0400
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140609013411.2723314.18599@domain.com>
+Subject: user Winner: Best Performance by an Actor in a Leading Role in a
+ Play
+Precedence: bulk
+X-TM-ID: 20140609013411.2723314.18599
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4119-prd-jma-26.sailthru.pvt
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2723314
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+user Winner: Best Performance by an Actor in a Leading Role in a Play
+
+Stay tuned for the updated list of winners from the 68th annual user Awards, which airs live on ... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Sunday, June 8, 2015    
+
+​ 
+
+<<link>> 
+
+        user Winner: Best Performance by an Actor in a Leading Role in a Play           
+
+        Stay tuned for the updated list of winners from the 68th annual user Awards, which airs live on CBS at 8PM ET/PT. Best Play             
+
+        Full Story              
+
+
+
+
+Check out the redesigned Variety411      <<link>>         
+
+This email was sent to user@domain.com by Variety. To ensure delivery to your inbox (and no
+

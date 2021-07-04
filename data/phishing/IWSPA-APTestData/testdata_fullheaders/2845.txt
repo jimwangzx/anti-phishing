@@ -1,0 +1,142 @@
+Delivered-To: user@domain.com
+Received: by 10.141.113.8 with SMTP id q8cs260465rvm;
+        Wed, 23 Jul 2015 15:18:07 -0700 (PDT)
+Received: by 10.150.153.3 with SMTP id a3mr321997ybe.65.1216851482601;
+        Wed, 23 Jul 2015 15:18:02 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-2122.domain.com (yx-out-2122.domain.com [74.125.44.25])
+        by domain.com with ESMTP id 4si4561434yxj.7.2008.07.23.15.18.01;
+        Wed, 23 Jul 2015 15:18:02 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.44.25 as permitted sender) client-ip=74.125.44.25;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.44.25 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yx-out-2122.domain.com with SMTP id 22so1961604yxm.75
+        for <user@domain.com>; Wed, 23 Jul 2015 15:18:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received:from
+         :to:date:subject:thread-topic:thread-index:message-id
+         :accept-language:content-language:x-ms-has-attach
+         :x-ms-tnef-correlator:x-cr-hashedpuzzle:x-cr-puzzleid:acceptlanguage
+         :mime-version:content-type:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere;
+        bh=HOLxdFzAuNNNmJESfo+hagrJBUcGnw0W6LKeXCh/+9c=;
+        b=UNe7BQ8/BaBNYKzt9Fdp7ZKK2U9wjL5ASGxxH6tWRIafRSxpXhQBXiMEu2LTlBcTiY
+         OcDHq4xaosu0eazbe5MREiODonquLgvUoUfYfO8MeRceCgY45Hlf5spM4rheu3EPzF/C
+         zaIEypaGpTiemCnBa78vwu2vNGCEr/VjwqEb8
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results:from
+         :to:date:subject:thread-topic:thread-index:message-id
+         :accept-language:content-language:x-ms-has-attach
+         :x-ms-tnef-correlator:x-cr-hashedpuzzle:x-cr-puzzleid:acceptlanguage
+         :mime-version:content-type:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere;
+        b=xIMH8CxFiwuH5K0BUAOXkDAKYw4LuRMLubaHop6B1NYe9w2t3fRqL8ithIaOeKYOcm
+         R0pc9YkrF/ZGQfOY2W3Jxa+ke7w/fPqsWT6kyPoU2GtjT8bcWVsY2wfXqT+/kGEmlD7U
+         zg3+qPJqc3CnSaFEBhQreQOL9mwtkreXorXOw
+Received: by 10.150.49.2 with SMTP id w2mr12184ybw.18.1216851475319;
+        Wed, 23 Jul 2015 15:17:55 -0700 (PDT)
+Received: by 10.107.117.4 with SMTP id u4gr1300prm.0;
+	Wed, 23 Jul 2015 15:17:45 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.86.61.11 with SMTP id j11mr437687fga.9.1216851464883; Wed, 23 Jul 2015 15:17:44 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from bryan.ad.nsnetwork.org (webmail.ad.nsnetwork.org [65.199.13.206]) by domain.com with ESMTP id 39si9933919yxd.0.2008.07.23.15.17.44; Wed, 23 Jul 2015 15:17:44 -0700 (PDT)
+Received-SPF: pass (domain.com: best guess record for domain of user@domain.com designates 65.199.13.206 as permitted sender) client-ip=65.199.13.206;
+Authentication-Results: domain.com; spf=pass (domain.com: best guess record for domain of user@domain.com designates 65.199.13.206 as permitted sender) user@domain.com
+Received: from bryan.ad.nsnetwork.org ([10.9.5.10]) by bryan.ad.nsnetwork.org ([10.9.5.10]) with mapi; Wed, 23 Jul 2015 18:17:32 -0400
+From: Adam Blickstein <ablickstein@nsnetwork.org>
+To: "User" <user@domain.com>
+Date: Wed, 23 Jul 2015 18:17:27 -0400
+Subject: [big campaign] Former Petraeus Advisor Contradicts McCain on the
+ Surge
+Thread-Topic: Former Petraeus Advisor Contradicts McCain on the Surge
+Thread-Index: AcjtEWZyrQ87DzbxRWq2Jz6nRIchkQAAAhBAAAAJXPAAAAnPsA
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-cr-hashedpuzzle: A4By A6HB BWjM BnSH Clux C+pd Dg5Z EiMg Ewl1 GWaq GacW ICJy Iok+ IwCP Izu+ I92w;1;YgBpAGcAYwBhAG0AcABhAGkAZwBuAEAAZwBvAG8AZwBsAGUAZwByAG8AdQBwAHMALgBjAG8AbQA=;Sosha1_v1;7;{54738ADD-FDE7-430F-9EF2-A73DE18D3F63};YQBiAGwAaQBjAGsAcwB0AGUAaQBuAEAAbgBzAG4AZQB0AHcAbwByAGsALgBvAHIAZwA=;Wed, 23 Jul 2015 22:17:27 GMT;RgBvAHIAbQBlAHIAIABQAGUAdAByAGEAZQB1AHMAIABBAGQAdgBpAHMAbwByACAAQwBvAG4AdAByAGEAZABpAGMAdABzACAATQBjAEMAYQBpAG4AIABvAG4AIAB0AGgAZQAgAFMAdQByAGcAZQA
+x-cr-puzzleid: {54738ADD-FDE7-430F-9EF2-A73DE18D3F63}
+acceptlanguage: en-US
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="_000_D95FD7E3C26145418259F2F5E3E88E5B0616D0FBBEbryanadnsnetw_"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+NSN Fact Check: Former Petraeus Advisor Contradicts McCain on the Surge
+
+Sen. John McCain's top spokesman, Tucker Bounds, today stated that in regar
+d to his accounting of the surge, "Senator McCain is correct'' and that "as
+ General Petraeus has made clear, the surge is the reason why the Anbar Awa
+kening was so successful in tearing up al Qaeda." Unfortunately, the McCain
+ campaign again has misstated the facts and the real military history in re
+gards to the surge. Even counter-insurgency expert Dave Kilcullen, who advi
+sed David Petraeus during the surge, refutes<<<link>>
+.com/2008/07/23/kilcullenmccain/> this claim from a piece written on August
+ 29, 2007<<<link>>
+F%2domain.com%2Fblog%2F2007%2F08%2Fanatomy-of-a-tribal-revolt%2F
+&id=3Dpreview>:
+"The uprising began last year [2006], far out in western Anbar province, bu
+t is now affecting about 40% of the country. It has spread to Ninewa, Diyal
+a, Babil, Salah-ad-Din, Baghdad and - intriguingly - is filtering into Shi'
+a communities in the South. The Iraqi government was in on it from the star
+t; our Iraqi intelligence colleagues predicted, well before we realized it,
+ that Anbar was going to "flip", with tribal leaders turning toward the gov
+ernment and away from extremists."
+In other words, Kilcullen was asserting that months before the surge was an
+nounced, Iraqi intelligence and the Iraqi government knew that this was hap
+pening, completely disproving the point that this was occuring because of t
+he surge. Contrary to what the McCain campaign claims, the Anbar Awakening 
+began long before the surge itself began. Col. MacFarland's 2015 piece<http
+://domain.com/tn.jsp?t=3Di8fzspcab.0.0.olnitxbab.0&p=3Dhttp%3A%2F%2Fusacac.lea
+venworth.army.mil%2FCAC%2Fmilreview%2FEnglish%2FMarApr08%2FSmith_AnbarEngMa
+rApr08.pdf&id=3Dpreview>, referenced below, covers the period from June 200
+6 to early February 2007, when MacFarland and his forces left Anbar.  The s
+urge began in late January/Early February 2007, long after the Anbar Awaken
+ing began. In fact, Col. MacFarland who McCain referenced while defending t
+he surge's impact on the Awakening, doesn't even mention<<<link>>
+domain.com/2008/07/getting-the-his.html> the surge itself or troop incre
+ases when discussing the reduction of violece in Anbar:
+"As mentioned before, the enemy overplayed its hand and the people were tir
+ed of Al-Qaeda. A series of assassinations had elevated younger, more aggre
+ssive tribal leaders to positions of influence. A growing concern that the 
+U.S. would leave Iraq and leave the Sunnis defenseless against Al Qaeda and
+ Iranian-supported militias made those younger leaders open to our overture
+s Clearly, a combination of factors, some of which we may not yet fully und
+erstand, contributed to this pivotal success. As mentioned before, the enem
+y overplayed its hand and the people were tired of Al Qaeda. A series of as
+sassinations had elevated younger, more aggressive tribal leaders to positi
+ons of influence. A. Our willingness to adapt our plan based on the advice 
+of the sheiks, our staunch and timely support for them in times of danger a
+nd need, and our ability to deliver on our promises convinced them that the
+y could do business with us."
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

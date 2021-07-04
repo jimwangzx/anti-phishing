@@ -1,0 +1,65 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp88921lfb;
+        Fri, 26 Feb 2015 16:16:36 -0800 (PST)
+X-Received: by 10.60.54.170 with SMTP id k10mr3364409oep.63.1456532196261;
+        Fri, 26 Feb 2015 16:16:36 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::231])
+        by domain.com with ESMTPS id v186si10636859oie.34.2016.02.26.16.16.35
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 26 Feb 2015 16:16:36 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::231 as permitted sender) client-ip=2607:f8b0:4003:c06::231;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::231 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-oi0-domain.com with SMTP id k67so3543408oia.3
+        for <user@domain.com>; Fri, 26 Feb 2015 16:16:35 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Tom Donilon <tdonilon@gmail.com>
+        bh=7fmYOVfsM6CixRVLpHMOv3MXSsbbzgKUL/41lquePiw=;
+        b=rtBWE/grP3RcN6Zf71XtwAOiV3+/WhRg9PBfP/zqnY44ywA5aMKHZNu2bd1hul7dBo
+         q7I0BbbzDjDGBUd0mOHqYWWIBPDnGeO9nloUO76ulu/0Br+3kPGtOw7dMnVIhh9bj4KV
+         yv2lq4/y/f13gSSqNQCJfKmtQRWnPv2O+6uYc8BHPAVmCwDVkaOweok2OvYZH0tkT0D1
+         ZJPQTO9BYb7UR+5TZYHQIyd047esZ+azeN+iuhUwZ+k0OcbVJUHd6ZucLmwTAFUQAJ6/
+         LKhBDsUCGfW7yHhlN2rId9eLZ5DpGXSL+FPsw4zX3wA3ao+9m0BUOSH5vPHqB70Njx6r
+         0Bvw
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Tom Donilon <tdonilon@gmail.com>
+        bh=7fmYOVfsM6CixRVLpHMOv3MXSsbbzgKUL/41lquePiw=;
+        b=gHxKd43e/PRhA/k9P921iillEes1bZWYIohwLsT9nq2BfgKrGuYtlrgSo7UXDkjBh2
+         H6NeX60lED63MFDVxOEuJdxavgzSf1qB9BIbOrPTI0zoR9xBBttnUK68zO5VipX5W8Op
+         w68UF2se9Ro6QYr9rEgKT0lrT4nJYyMsZAZ+rYud4gyvP5g7K/EXg0BNbFXRTsy2+2lk
+         LJWqxt7gSFwxe2ySS2upwF0adyiR/9bMFd8VmO5DpG2F+GlpTRPbt0rEhzQZK+piGAMd
+         2BXicIUYC/BTunr4G70P936vuQPMdCZnDavgvlguQkXudafNJLlqwL7eM0LSZbyIS/mW
+         EgyQ
+X-Gm-Message-State: AD7BkJKEEZZZXcUXObMIehPd2cRkbHpHeIB9Tthn8YolEYoi9rSWaV1qS57TaKIBdhWBM26/E5xeFR/gUtg//A
+MIME-Version: 1.0
+X-Received: by 10.202.75.202 with SMTP id y193mr3348950oia.31.1456532195827;
+ Fri, 26 Feb 2015 16:16:35 -0800 (PST)
+Received: by 10.202.200.69 with HTTP; Fri, 26 Feb 2015 16:16:35 -0800 (PST)
+Date: Fri, 26 Feb 2015 19:16:35 -0500
+Message-ID: <user@domain.com>
+Subject: 
+From: Tom Donilon <tdonilon@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c17dae22e855052cb554c2
+
+John--Hope you are doing well. Things are on track. Dramatic and positive
+change in H's presentation and approach. Paid media catching up with her.
+
+I have done a careful review of the processes for the project we discussed
+going back to 1976. Would like to deliver a memo to you on the history,
+lessons learned, and a recommended process for you this time around. Do you
+have time for a short call this weekend? Should we get together at the end
+of next week?
+
+Done well, this is a time consuming task. Given the early convention date,
+will need to get an agreed task and timeline in place fairly soon.
+
+Best.
+
+Tom

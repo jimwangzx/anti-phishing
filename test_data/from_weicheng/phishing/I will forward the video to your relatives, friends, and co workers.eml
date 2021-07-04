@@ -1,0 +1,176 @@
+Delivered-To: shuhao@edison.tech
+Received: by 2002:ad4:4c08:0:0:0:0:0 with SMTP id bz8csp3487669qvb;
+        Sat, 8 Aug 2020 12:22:47 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJy8XSEN8Daulpv734PYqzBjBtVcqsqWUnBq+NOhxkfD1eq6BHmZWP9kB3pFIZrWTepIBXOl
+X-Received: by 2002:a17:906:7f05:: with SMTP id d5mr14673551ejr.122.1596914567408;
+        Sat, 08 Aug 2020 12:22:47 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1596914567; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ixv6+oqb7k/w49x5Zo4qDArLMhV4xqZRcTXBPH/T3D6rs9RHiZqeqVxuE7Ko69QDCY
+         0pwLldhpX4F/YKqgWUjNvr1l4hSop/5trQq3GGBIGnvVGe9vCMKR67rhMOfReiXuHjle
+         2g2Os8RxwVnb2ogdP0yrqnlejGwaLRiF6vCABO1bF7oojBKeK7iJAJkg3CyoKTPBwhKp
+         7cNw0fQfLUOIDD3ZeqO6LkSyHisKn9R8o2IcVpp4uT4/eryarTWGKaUhGtie2KaIMPKT
+         vdNKnWbyUKEyGB9tXGxZrN+lwGd4IjHJhWvocRzUJoqWBWwd+QAkHxNok5s8jp1YKeSZ
+         Otgw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:mime-version:message-id:date:subject:from:dkim-signature;
+        bh=wePtR2Aaf7Id2Rmn2x78294eFnCUUJ5GlIiikqTyh30=;
+        b=aTxqMoq0RcRDKIyihOByGP9SKw1V7GZ1k5pF6FkREwBrAErnPuPIr+Oc9pmaum/FPQ
+         MJhTrUEhYyzsibCUdnzlR4hvRa7zUUyJ1V+2g+Djjaoe8+G8DwA5rO/EM2rRyawh0+ce
+         Kxg1RCU6BWj1yyouL5w1OHOmuDuC6vPgKtnw25G1BV2C2uv5vFTbnZzOeRyhOcBr1Dpy
+         m9g2D/gZUibRLQnw1w58sw6ZGevquJP5efZNA5NXALODCOHSXGcejQnFRxmzQrcWfNlh
+         kDJMj19S9YXXX5995soWaYp7qGQ+wkxWFRAlDrSixaB8a+ujo1OBUbZcPTHTC3pTDZG2
+         xmxA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@sendgrid.net header.s=smtpapi header.b=o35V2Cbg;
+       spf=pass (google.com: domain of bounces+15548881-2e39-shuhao=edison.tech@sendgrid.net designates 149.72.176.23 as permitted sender) smtp.mailfrom="bounces+15548881-2e39-shuhao=edison.tech@sendgrid.net"
+Return-Path: <bounces+15548881-2e39-shuhao=edison.tech@sendgrid.net>
+Received: from wrqvbhkt.outbound-mail.sendgrid.net (wrqvbhkt.outbound-mail.sendgrid.net. [149.72.176.23])
+        by mx.google.com with ESMTPS id n1si8015707ejc.134.2020.08.08.12.22.46
+        for <shuhao@edison.tech>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sat, 08 Aug 2020 12:22:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+15548881-2e39-shuhao=edison.tech@sendgrid.net designates 149.72.176.23 as permitted sender) client-ip=149.72.176.23;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@sendgrid.net header.s=smtpapi header.b=o35V2Cbg;
+       spf=pass (google.com: domain of bounces+15548881-2e39-shuhao=edison.tech@sendgrid.net designates 149.72.176.23 as permitted sender) smtp.mailfrom="bounces+15548881-2e39-shuhao=edison.tech@sendgrid.net"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.net;
+	h=from:subject:mime-version:to:content-type;
+	s=smtpapi; bh=wePtR2Aaf7Id2Rmn2x78294eFnCUUJ5GlIiikqTyh30=;
+	b=o35V2CbgosEqwogh0UJuFfEXy7YQ0hzlBOre7j6c4Y35QS/xOClEjPcVXqHioLNoFq29
+	5ZVA+lCaU/Pg9VI0QXNGV0sHagSWEI0GWq1Kl/O8vNw6vNmzngJ4j1LouejX9sYUv5vsOu
+	HD66G5Qmy8QjZq3W09Gr+bX80aA7ctigU=
+Received: by filterdrecv-p1iad2-asgard-a-64fc55b4df-svwfd with SMTP id filterdrecv-p1iad2-asgard-a-64fc55b4df-svwfd-14-5F2EFB84-186
+        2020-08-08 19:22:45.099273039 +0000 UTC m=+70515.321831753
+Received: from jci.com (unknown)
+	by ismtpd0008p1lon1.sendgrid.net (SG)
+	with ESMTP id mHrUjCa9RAak7t5IRMYhmA
+	for <shuhao@edison.tech>;
+	Sat, 08 Aug 2020 19:22:44.900 +0000 (UTC)
+From: shuhao@edison.tech
+Subject: Re: I will forward the video to your relatives,  friends, and co
+ workers
+Date: Sat, 08 Aug 2020 19:22:45 +0000 (UTC)
+Message-ID: <20200808192244.8EA189CC18319787@edison.tech>
+MIME-Version: 1.0
+X-SG-EID: 
+ =?us-ascii?Q?7+NiUexsU41MwoCFzwQHTZlU3Eix9BxlryV44gEz5T1sEZ4nf1KVnsrxVJis7n?=
+ =?us-ascii?Q?+x45o1Dv=2FmFXa2W5z3GX30KE7xcnLMx78MaiL=2Fi?=
+ =?us-ascii?Q?08HAcsVZ7ayiVmYO6n+6eiQLC3iE9xnPojTC8S5?=
+ =?us-ascii?Q?NpCL61JKcev+blfOj+08CE8U=2Fobm98uCPU1iPF+?=
+ =?us-ascii?Q?vWTQUPKu6ljin3JvmLmPhNfHc8P4EoZo7nVA=2FR9?=
+ =?us-ascii?Q?6lzqldwy9dlbp5AEg=3D?=
+To: shuhao@edison.tech
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0012_B83AD324.1B9709B9"
+
+
+------=_NextPart_000_0012_B83AD324.1B9709B9
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+The last time you visited a pornographic website with young=20
+teenagers, you downloaded and automatically installed spying=20
+software that I created. My program has turned on your c=CE=B1mera and=20
+recorded the act of ur m=CE=B1sturbat=CE=AFon and the v=CE=AFdeo you were=20
+watching while m=CE=B1sturbating. I also got your contact lists, phone=20
+numbers, emails, social media contacts. I have the mark.mp4 video=20
+file with ur m=CE=B1sturbatio=C9=B3 and a file with all your contacts on my=
+=20
+hard drive. If you want me to delete both files and keep your=20
+secret, you must se=C9=B3d me the Bitcoin p=CE=B1y=CA=8Dent. I give you l=
+=CE=B1st 72=20
+hou=C9=BCs to tr=CE=B1nsfer the funds.
+
+
+Amount: 0.085 Bit-Coin (approximately)
+
+Bit-Coin Address Part 1:=C2=A01FpQsNhGgLYmXx9S3fA
+Bit-Coin Address Part 2:=C2=A0JaR2JCw634zovRj
+
+
+Important: You must put the two parts together (Bit-Coin Address=20
+Part 1+Bit-Coin=C2=A0 Address Part 2) with=C2=A0 no spaces between them.=20
+You may also save that somewhere not to lose the details.
+
+Next time you cover your cameras, somebody may watch it! Limit=20
+yourself to one time per month if you can`t go completely NoFap.
+------=_NextPart_000_0012_B83AD324.1B9709B9
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; =
+LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0p=
+x; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-=
+stroke-width: 0px; text-decoration-style: initial; text-decoration-color: i=
+nitial">
+The last time you visited a pornographic website with young teenagers, you =
+downloaded and automatically installed spying software that I created. My p=
+rogram has turned on your c&#945;mera and recorded the act of ur m&#945;stu=
+rbat&#943;on and the v&#943;deo you were watching while m&#945;sturbating. =
+I also got your contact lists, phone numbers, emails, social media contacts=
+. I have the mark.mp4 video file with ur m&#945;sturbatio&#627; and a file =
+with all your contacts on my hard drive. If you=20
+want me to delete both files and keep your secret, you must se&#627;d me th=
+e Bitcoin p&#945;y&#653;ent. I give you l&#945;st 72 hou&#636;s to tr&#945;=
+nsfer the funds.<BR><BR></P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; =
+LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0p=
+x; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-=
+stroke-width: 0px; text-decoration-style: initial; text-decoration-color: i=
+nitial">Amount: 0.085 Bit-Coin (approximately)</P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; =
+LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0p=
+x; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-=
+stroke-width: 0px; text-decoration-style: initial; text-decoration-color: i=
+nitial">
+Bit-Coin Address Part 1:<SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; =
+VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px;=
+ PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDIN=
+G-RIGHT: 0px">&nbsp;</SPAN><STRONG>1FpQsNhGgLYmXx9S3fA</STRONG><BR>
+Bit-Coin Address Part 2:<SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; =
+VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px;=
+ PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDIN=
+G-RIGHT: 0px">&nbsp;</SPAN><STRONG>JaR2JCw634zovRj<BR><BR></STRONG></P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; =
+LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0p=
+x; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-=
+stroke-width: 0px; text-decoration-style: initial; text-decoration-color: i=
+nitial">
+Important: You must put the two parts together (Bit-Coin Address Part 1+Bit=
+-Coin&nbsp; Address Part 2) with&nbsp; no spaces between them. You may also=
+ save that somewhere not to lose the details.</P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; WHITE=
+-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; =
+COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; =
+LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0p=
+x; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-=
+stroke-width: 0px; text-decoration-style: initial; text-decoration-color: i=
+nitial">
+Next time you cover your cameras, somebody may watch it! Limit yourself to =
+one time per month if you can`t go completely NoFap.</P><BR class=3DApple-i=
+nterchange-newline><img src=3D"https://u15548881.ct.sendgrid.net/wf/open?up=
+n=3DrEijJR4gAZ98SBdNn0bzCpcygD7SNdU7P8ap2vbh3RJIxjC2VqmUS3x8bOKbmhmQ358BrLG=
+EpttYbrjn8IrRG-2BeJ41WL7DtH2GtBayq9psDu-2Bhxy0a3PBqkDS5lsZNrJXLH9KYrZvx45gR=
+Ykff-2BkDQcKWDcW29I0bAxCs-2BhQ2w-2Fpli52eKX9gQbO2cT705kGi4-2By22-2F6zZ9sDpK=
+Q0v94rANfeOsSSDBdMWcgIkWzWZf0Ef6HjOktBHdosAo9VGz1" alt=3D"" width=3D"1" hei=
+ght=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !important;=
+border-width:0 !important;margin-top:0 !important;margin-bottom:0 !importan=
+t;margin-right:0 !important;margin-left:0 !important;padding-top:0 !importa=
+nt;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !i=
+mportant;"/></BODY></HTML>
+------=_NextPart_000_0012_B83AD324.1B9709B9--

@@ -1,0 +1,83 @@
+Delivered-To: user@domain.com
+Received: by 10.64.48.201 with SMTP id o9csp126020ien;
+        Mon, 3 Sep 2015 09:06:39 -0700 (PDT)
+Received: by 10.236.201.195 with SMTP id b43mr15275481yho.27.1346688397340;
+        Mon, 03 Sep 2015 09:06:37 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [8.21.238.6])
+        by domain.com with ESMTP id b29si11431745yhm.101.2012.09.03.09.06.36;
+        Mon, 03 Sep 2015 09:06:37 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 8.21.238.6 as permitted sender) client-ip=8.21.238.6;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 8.21.238.6 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Return-Path: <user@domain.com>
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=ngpweb2; d=domain.com;
+	h=DKIM-Signature:X-MSFBL:Received:X-CampaignID:X-BroadcastID:X-ContactID:X-Binding:Sender:List-Unsubscribe:Reply-To:From: "Susan Douglass " <info@johndouglassforcongress.com>
+	b=OEugLYBleD8mhfnN8XtfGquPMwuyzB0TKVpUzHTYquBBuA03+dc+Po09Ab24z/yE
+	6vskGVYPYvhcQsQoHMYtPQ
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb1; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1346688250;
+	h=From: "Susan Douglass " <info@johndouglassforcongress.com>
+	bh=fxh/H5ixccXOFlU+gfz/mk6qfR0=;
+	b=UqN18ZgenU3/3TaHoEOLGysgklrsWpEbz9aDfMdp3HIDB9XY2iLkt+quSgUZ1lo1
+	xFlyXS5rAQqgYGUhFk1d3A==;
+X-MSFBL: am9obi5wb2Rlc3RhQGdtYWlsLmNvbUBtYWlsb3V0MTMyQGRlZmF1bHRAYm91bmNl
+	Xzc5NzE5MS0zODQxLTU4NzY0MDYxLTg5NTgzNzFfVA
+Received: from [10.0.1.31] ([10.0.1.31:3480] helo=TIAPP05)
+	by domain.com (envelope-from <user@domain.com>)
+	(ecelerity 3.3.2.44647 r(44647)) with ESMTP
+	id EA/49-17662-AF4D4405; Mon, 03 Sep 2015 12:04:10 -0400
+X-CampaignID: 3841
+X-BroadcastID: 797191
+X-ContactID: 8958371
+X-Binding: mailout132
+Sender: "Susan Douglass " <user@domain.com>
+List-Unsubscribe: <<<link>>>
+Reply-To: user@domain.com
+From: "Susan Douglass " <info@johndouglassforcongress.com>
+To: user@domain.com
+Message-ID: <user@domain.com>
+Date: Mon, 03 Sep 2015 12:06:33 -0400
+Subject: =?Windows-1252?B?Y291bGRuknQgYWZmb3Jk?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----91D085F2344D422FB5B5701D5BE8CB28"
+
+John --=A0
+
+John couldn=92t afford to fall behind and, thanks to you, he didn=92t=2E
+ While his opponent is depending on a few fat cat corporate donors, my 
+husband John has the honor of depending on grassroots supporters like y
+ou=2E Thanks to you we told Congressman Hurt that his time in Washingto
+n is over=2E=A0
+
+Stay caught up with us on Twitter and Facebook to see our people-powere
+d campaign give corporate interests a run for their money=2E=A0
+
+This week is the Democratic National Convention and it will no doubt be
+ a big week for Republican fundraising=2E But, because of your help thi
+s week, this campaign is ready to take them on=2E=A0
+
+Thank you again for all your support=2E=A0
+
+--Susan=A0
+
+PS: Your support has been crucial to help us build our grassroots campa
+ign so far but we need your help to keep building=2E Can you click here
+ and chip in $3 today?
+
+Paid for by John Douglass for Congress
+
+ 14249 Hume Rd
+Hume, VA 22639
+
+Forward to a Friend - <<link>>
+ast/broadcastforward=2Easpx?value1=3D58764061&value2=3D3841&value3=3D77
+482&NB=3Dtrue
+
+To unsubscribe from this mailing list, click here - <<link>>
+gp=2Ecom/unsubscribe=2Easpx?crypt=3DCasv%2frrJxGBA72ePwkeNSRzsW4IQRjbnw
+nW2kzcMeA0%3d
+
+Powered by NGP VAN, Inc=2E
+

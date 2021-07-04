@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp1713541lfi;
+        Mon, 25 May 2015 07:55:47 -0700 (PDT)
+X-Received: by 10.236.3.10 with SMTP id 10mr20510853yhg.30.1432565746811;
+        Mon, 25 May 2015 07:55:46 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yh0-domain.com (mail-yh0-domain.com. [2607:f8b0:4002:c01::22a])
+        by domain.com with ESMTPS id k7si6553289ykd.6.2015.05.25.07.55.46
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 25 May 2015 07:55:46 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::22a as permitted sender) client-ip=2607:f8b0:4002:c01::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yh0-domain.com with SMTP id m41so23284725yho.1
+        for <user@domain.com>; Mon, 25 May 2015 07:55:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+        bh=xLgiS3cqJSJXUXwraFPe9ZaizjqUI08zaQ5pwjnda18=;
+        b=e+mirrgvyNTwY303t8u+3I26JJ11kY9Fv54/WBwAKGwjnxoeucqSlegxZGUZDK6OHm
+         nNFNgAXq4mVAjsWkAZXWUKyYRoM9FAMrjF5ha8Oi1jTWqzYeQsfED6Tze9YK1HCVQRTa
+         EnERjvVPUrETSLbFVjSl+BQQAo6W6yKaRH+BM
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+         :content-type;
+        bh=xLgiS3cqJSJXUXwraFPe9ZaizjqUI08zaQ5pwjnda18=;
+        b=FFHSy2FOVFMzGmEKAf0E0AwizQf14goTbVfWViLkKlYY1/IcK2GTSgQheHh3E+psxZ
+         ry+P6jc+b6x+4hEyQvGa0yxw9IQ363OlJYttWgiVBbkjRkjwysMgdTv3y1K0wttPrFrE
+         tH+uxDrBidrj+Em94XRN/QwJLGeTUxuVcKKKdOmsvR5pUnieoO7y/FwJeYdh75AzSh1n
+         FlrkY7yzgxmXHB96bm4uci/TYKj4i9NpJnWt1m+Yejn8c6oGtRiLhlAp4Fi+X649m+bj
+         f21w11LEXdoPwV+jP6v7XEyfp8MCRVWQPXSU/JCBTXYhJzInaBSndnHLQdFQKK6YCeDn
+         xi1w
+X-Gm-Message-State: ALoCoQk1dMj4GJe0Wi4OyezetvYdysBXXC2YMGXBybjo8e1I4uAPozUwQz/6RoqLY2w1w0eDP83j
+MIME-Version: 1.0
+X-Received: by 10.236.32.237 with SMTP id o73mr9307156yha.162.1432565746009;
+ Mon, 25 May 2015 07:55:46 -0700 (PDT)
+Received: by 10.129.101.7 with HTTP; Mon, 25 May 2015 07:55:45 -0700 (PDT)
+Date: Mon, 25 May 2015 10:55:45 -0400
+Message-ID: <user@domain.com>
+Subject: WH mtg
+From: Robby Mook <re47@hillaryclinton.com>
+To: John user <user@domain.com>
+CC: Marissa Astor <user@domain.com>, 
+ Eryn Sepp <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e0160baa6689dd10516e93498
+
+John,
+I talked to Simas and he said he wanted to talk to Dennis and Anita again
+tomorrow and then try to do a call with us on Friday.  I'm mostly fine with
+that, but I'm thinking it might be helpful for you to nudge Dennis as
+well.  I really want to push for some movement on their end.  Up to you,
+though, if you think it's worthwhile to push.

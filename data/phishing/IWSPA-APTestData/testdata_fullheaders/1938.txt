@@ -1,0 +1,126 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp3203642lfy;
+        Wed, 20 Jan 2015 10:58:45 -0800 (PST)
+X-Received: by 10.202.90.134 with SMTP id o128mr13016960oib.15.1453316325377;
+        Wed, 20 Jan 2015 10:58:45 -0800 (PST)
+Return-Path: <>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.88])
+        by domain.com with ESMTPS id d14si1413864oic.111.2016.01.20.10.58.45
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 20 Jan 2015 10:58:45 -0800 (PST)
+Received-SPF: pass (domain.com: domain of na01-bl2-domain.com designates 65.55.169.88 as permitted sender) client-ip=65.55.169.88;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of na01-bl2-domain.com designates 65.55.169.88 as permitted sender) smtp.mailfrom
+Received: from domain.com (10.255.223.152) by
+ domain.com (10.242.200.12) with Microsoft SMTP
+ Server (TLS) id 15.1.365.19; Wed, 20 Jan 2015 18:58:44 +0000
+Received: from BN1AFFO11OLC003.protection.gbl (2a01:111:f400:7c10::112) by
+ domain.com (2a01:111:e400:841::24) with Microsoft
+ SMTP Server (TLS) id 15.1.390.9 via Frontend Transport; Wed, 20 Jan 2015 
+ 18:58:44 +0000
+Authentication-Results: spf=none (sender IP is 141.161.191.75)
+ smtp.helo=mail.law.georgetown.edu; domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Received-SPF: None (domain.com: mail.law.georgetown.edu does not
+ designate permitted sender hosts)
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ domain.com (10.58.53.74) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Wed, 20 Jan 2015 18:58:43
+ +0000
+Received: from LAW-MBX01.law.georgetown.edu ([169.254.1.174]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0248.002;
+ Wed, 20 Jan 2015 13:57:47 -0500
+From: Professional Development Committee <profdevcom@law.georgetown.edu>
+To: All Faculty and Staff <user@domain.com>
+Subject: PDC Breakfast - Rescheduled
+Thread-Topic: PDC Breakfast - Rescheduled
+Thread-Index: AdFTs7V7/uYSjmLyQHWc6I7mWcE7Ow
+Date: Wed, 20 Jan 2015 18:57:46 +0000
+Message-ID: <8user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.215.50]
+Content-Type: multipart/alternative;
+	boundary="_000_8EC4C2E26B85914A8D36A27F6D3A9C705E6B4D75LAWMBX01lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Return-Path: <>
+X-EOPAttributedMessage: 0
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11OLC003;1:J8/yBp2HLy8axI3nXWgHmrTVqTOjoSMNtdN+7TgaVQAL5QDwxZUVgQezawUR7AKU0+lSyWJ2DCfDdwJp73T874lw4O9nSsJX5i3zB1ybydWIOp1cWJvinETSm7pjhptY8YgqMKukgoh8p8DjyTQWm3O48uEb9lyBkP11SvbMupjA8WJvETje3mslAj0mI7ocEPNX8snqEsatEJ0vGwPHMgtI+UME4W0WzTZJjlWq7L8XoD/ulLuURqbDDaSAtCMZTpzO4LwjVNAS0J5yuj16kZ0PC+wOTk49l/eTfpwG3qCrD2XiSNSkGh0zmBG/7R7k4bRkVW/VUJEVwRgEWdVyWPFOxgF8rsZn0nlnYWNyaYycouaz/ZoM6Of02PqGfDrU
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(6009001)(2970300002)(428002)(377454003)(199003)(189002)(102836003)(300700001)(2906002)(512954002)(18206015028)(85806002)(260700001)(54356999)(50986999)(2171001)(450100001)(5004730100002)(88552002)(84326002)(87936001)(11100500001)(19580395003)(15975445007)(2930100002)(2900100001)(2920100001)(92566002)(4001450100002)(42382002)(19300405004)(189998001)(97736004)(229853001)(16236675004)(5008740100001)(5000100001)(55846006)(33656002)(81156007)(107886002)(110136002)(5001960100002)(6806005)(104016004)(586003)(790700001)(66066001)(1220700001)(3846002)(6116002)(5003600100002)(106466001)(101416001)(78352003)(105586002)(1096002)(19625215002)(89122001)(53652003);DIR:OUT;SFP:1101;SCL:1;SRVR:BLUPR07MB099;H:mail.law.georgetown.edu;FPR:;SPF:None;PTR:InfoDomainNonexistent;A:0;MX:0;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB099;2:IQKV9Fz45aHNL1eaHDjAeApjKoIsgvFiAR0gSy2ZYS35qLPOjvE1seA/Rs8Ik505xzBUdun28BTJ4E+cLD5mBloU00B3rkxqp/j6tCvgQisa5g3vpmh+M7d6PJ+BlT8F11+a7cuyx2C9grGPltv5Pw==;3:vnl1h+G5dzGvYRhmBqhJD8mdFLW9YDcbC2iWR85ZdkIG52S2fgPuCDpQtqWJwQxn0hemqX7fHQdVc6A4X8ZdlxDi9Zz/2oegp1wicCQ8X8A78tJhf9RleKi8lW6cZmKXjWsWXhOTM4qFA2U37SRbSm6VIJFg4mdUH2g6tfXBeTF95jS4mdZT0kx2TFI1QT2QU3/B6s6W0PYa1JzOwJKJiRm1cC1mmKQHa6VCZ4HmPSI=;25:sEmhGj2AWPOfoCbvFA2gl+9E6DQrJIzKCIx51R9ui1qxVVrctkwpcLwNmTwUI9+hxjMJ/DK53bfwEZHT8spiQaM/YDelNf82v73sVuKPb8uxynfF4gOfT70eB5KZdMrsZwfp6NdmVH9QwLNscor1/qFpTCDM9QiGy5j4nVUFyL8h9zi5sOhPtyyLzrVYwbAvzQbzgFKdjGSX/JNvVQuoiCD/olvdYcIrFv+04qn71RN72QzBE5aVaOZjfO4fHVqk
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BLUPR07MB099;
+X-MS-Office365-Filtering-Correlation-Id: bc0f12c6-c896-49d5-28a7-08d321cbb82a
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB099;20:75TFPOhmbSTiHY/+WokJ6vReSv9Gsqe5BgzhYS2VQfMK4u6bP13nt+mctFfc8wrZOsxbn5jy1nkAXwoU/S/cnelzs3c+pXpACbJvLPjO5jlVp4Wgn3ZTIR52UTcXT+EhSckBNu7fl7tcd0Y57qZcGfxKyKa93eefTGQIU72/gxukn9bTVB9Eqi6jxMEZ3Vv8DSKBUWdN4AXkIGrpX6LfI6rqQubCOQh2eD02ofALOPucbjDQvxSdIiIfe6fTttn9xG1Pn/KVzrcpyG254uNH/Ser3VH5uHIzJ76XLN13528rUeRDZVDaRRfrE8qMkq9eOAfEdv/DHJXGYMaAPwLIzYPWK5QIVzy7a+IaAUaqd3wGNSbohp5L+uIpWQpjsGW2QR8tNKjTBqsEOEohk2NM8bxUa0qixOm51Ch+nDuPJnw=;4:7bvqG9x9QXxpyrhmqAczA9llugn3+FAZnbE78Gh8cLuPR9FriNl4JYBbdw+/oMrj7oZXe32XO8dqW/SD8gkcI+zIyMvWofqkHynZvLgoSOjFR5NN2BpEwEn1eBabRInKLh4pa44JPDrvxLgiBYIV9odUAkVXOxtAYX7qcgC/NSVn3XRnLerxV0OErXDMzPqAIZPV7QyRugdICASG3qOVR7fFT6M+yZUKExAqPMyhvEdLXHq/1cpAEuh+HDWW9nFpoaicM1xGCbUe2DMotYNSM4V8/yU1TQITGy3/c0JYtZHtXJX5ZP2qODqcAYnLq/zY82X1jNME0lWLJQkSxHi4J47bWJjbFpxDmTlWEMxeZZDVhXb5qV8Big2sQN62r85UFv0e8pWSnSg9eW/N/6R2SyrGmfUZMNgteBRjJpkJ/Pg
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:0;PCL:0;RULEID:(601004)(2401047)(520078)(13018025)(8121501046)(13016025)(5005006)(10201501046)(3002001);SRVR:BLUPR07MB099;BCL:0;PCL:0;RULEID:;SRVR:BLUPR07MB099;
+X-Forefront-PRVS: 0827D7ACB9
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BLUPR07MB099;23:tJTCkhLSjFM9+cUj8XBdzKu250R/ymgvmpRGAn122C?
+ =?us-ascii?Q?o5TfYIsKIT4D47IM8+yLHdZ6OyUeMNyJVnHWd/RiAJBff7nEOYoKqosMJVxw?
+ =?us-ascii?Q?yD3rMvABcswWCC5uk2KkaNNgALomoRM3UQMr7WcEYd9yDL8DV3/TOJS6Dz4m?
+ =?us-ascii?Q?fLRHZcTsRxVuJ2+UY390ZFw8DyWRJ+GmJZi6hv0110km6/QRZjtmROGYHOnu?
+ =?us-ascii?Q?SBk1wEXyCVpxuUp9i9nXGbTCev6+AWmjw/SCmLCbeiYyx2r/Q9FpLyXC4cd4?
+ =?us-ascii?Q?TkTn7P533uDOqqvugqZa+IMfxb7WRKpGg8qJaQTxE2GZFuRaPrB7WDJKWBnz?
+ =?us-ascii?Q?Xl2Lr/mKKmBqhx1cYq80afocsyyT5HHa68EKoWvkpnpxrPScZASienedIvvE?
+ =?us-ascii?Q?JuDvzEyAEbBYBSKvV2GPj3gaUccsav2YloJDCGy8zT4FWRSc5ujNY4XVE5GZ?
+ =?us-ascii?Q?E5KVYqA4n0x8oFP97KuSpH+k2RgE2sTJ1MGPilYXyuXKHQ+aeYcEgJG236/C?
+ =?us-ascii?Q?0t3Mea5pnx+QP8k37sPrj39aiZ/K20DVsNTkLtnfT/Eq23yCS3xh3uyK+p9a?
+ =?us-ascii?Q?AxKbLH6ltOy3/5Yod0Qr1qykC90ho7PqS4nHivlZtWKQqpStXKN5rUrVznxb?
+ =?us-ascii?Q?qNVW/Kt+KRnp2a1VonM+SJ9CDLuNaG05Whq+SOYTxH8NJoXxfSbODJcMFalQ?
+ =?us-ascii?Q?Pl7FcIe7KagR+Vd8DWENE24Tt/WgT2aqcsbfsSe/yi07Tmod3AO563vc4hX3?
+ =?us-ascii?Q?Wr/VRtugYix7PiN/jUZo+m1stxCjzegrWDx8BAZ0OGF2cweK6B2Omv16nEw8?
+ =?us-ascii?Q?HXajPypIHYGCIe06cv5wGiaVGQekTZn7pvUUCGWyZsIHjEluk3KpwP6MVB0e?
+ =?us-ascii?Q?fqPfz12Zhk+r2sB6/dSs0db9j0wF+DNeUhGM1jb8UIIsXHJCJ0eNzl9K1DNU?
+ =?us-ascii?Q?U+9ddzbfuZkvWxsr64EMZv6fKeSkA7en1tsbwppmRfXOIQ2T1m8b2RRYNL2x?
+ =?us-ascii?Q?7iK73pF5k8wgfB6/4bbiFFtQIZbQZkuhvCQbTtR3FHQjwq0rasRNY2NNQqUJ?
+ =?us-ascii?Q?//C1Szn9MVIkX6+djtXineLh1tHc6HGBnbIjjjqo3/sUNuT3PjHl6TzXv+AW?
+ =?us-ascii?Q?spz8dDosMTjlU1KTQlSpvBfs8lSKgRXtxrLaY2WvAH7Kbnhn0NlINHJMT9vK?
+ =?us-ascii?Q?qq4EM6srQOdp/mao0MCW9XrE8LmHeKnZSYcHQRZu1j2dCr/tlWnYkSSw0p6L?
+ =?us-ascii?Q?KkFEIbOoBBfM1soqEuVp77ZU+CChzOdWUA0L0+tAs1gDV1+NVGMahRFefij+?
+ =?us-ascii?Q?NmyDvO/+4c4NKEvRbz+CBfkpHoZFZr8ZwtfConR0AbgqsxFkgK/LavAubiA6?
+ =?us-ascii?Q?FAhYnCuvvY90eH4Goef7IuDyXXJHkKsdVutNbGt6bpq2u7Mg095v7JxMMvYH?
+ =?us-ascii?Q?GzWfS37YTaJB+UWuHS3j/YW1V43YVcNvTqajUGwuLFq7vfecDF3JUbAVfFQ3?
+ =?us-ascii?Q?k7b5D36NhH1fFGXwIpAVlgmXA1aYF69k2KinjePz5odECMJ0jzkzJDKIp2j9?
+ =?us-ascii?Q?DERh/UUMpl1N/8Pw=3D=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB099;5:HypHzZdfvu0aQJnApBWZ/tCoXQupReOw2HSDPTxpp2ABxEIaC2EEROf7hmp0AO8MkhbKK3EDTjH/rfV0Ya2po1/YTl4/ecHZ7JlfhKrxIhRv2tBrxZ7e9J58w1BQAKmK8cJrkD8nRDTEPhLpgxm41w==;24:INxCkyuTdp8pIWzsg3U2G3fewOOLiIDWFTX64fLbdPtQYTJ4yuk8VpwNtdwH5AftDS39yrA9PwR8QyOLuHt8SZ1OiWA8ZwOXW0kf+cduGsU
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 20 Jan 2015 18:58:43.8568
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB099
+
+We have rescheduled the PDC Breakfast for Feb. 5th.
+
+PROFESSIONAL DEVELOPMENT COMMITTEE  (PDC)
+SPRING 2015 COMMUNITY BREAKFAST
+
+Friday, February 5,  2015 
+9:30 a.m. - 10:30 a.m.
+Room TBA
+
+[<<link>>
+s/Donuts/donut_doughnut_106676_tns.png]
+
+You are cordially invited to
+a casual gathering and continental breakfast
+with your Law Center colleagues.
+Celebrate the start of a new semester with us, meet members of the PDC, and
+ learn about campus resources and upcoming programs.
+

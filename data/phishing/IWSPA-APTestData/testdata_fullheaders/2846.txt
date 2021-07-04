@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.194 with SMTP id 63csp407818lfy;
+        Fri, 23 Jan 2015 04:45:25 -0800 (PST)
+X-Received: by 10.50.25.200 with SMTP id e8mr1596618igg.45.1422017124409;
+        Fri, 23 Jan 2015 04:45:24 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ie0-domain.com (mail-ie0-domain.com. [2607:f8b0:4001:c03::22f])
+        by domain.com with ESMTPS id c13si1019213ioc.41.2015.01.23.04.45.23
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 23 Jan 2015 04:45:24 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::22f as permitted sender) client-ip=2607:f8b0:4001:c03::22f;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::22f as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ie0-domain.com with SMTP id ar1so6853424iec.6
+        for <user@domain.com>; Fri, 23 Jan 2015 04:45:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Jake Sullivan <jake.sullivan@gmail.com>
+         :message-id:date:references:in-reply-to:to;
+        bh=eOkE9qTUiVOUmeXUnc0b6kiFJXhWQTpIkCxSDv2Lqps=;
+        b=w1+dTCEKIB6mIp6WamW6keBikldAhnsoJ9MbFKkMyveD/FyywSx09eSeoZxbDYDqVW
+         P8yFFGXXHvA6XACnKQXslDP5csEIla8NWwIX/QKcHkgQNB5eXfiy7sxRU5apV2XnEEQB
+         xE+61f22FuOOQaDTagGoG1YGN0yRb51G+rGAMv/6RZgbrgJ+nXzSVAcnvq6P5rU0MPDt
+         0OXoGBzW/U1JHeLMuBbbq0IvG/qweWrhDk5eky3FkBHt4+RcVfZ5pRDGeDEUmT3v6qTV
+         VF67opwCt3af0mvIXufJ5m+uTdFJDsJhT73jD6FDVHQ0loC/WvNsce+rutl9YpfpaQEc
+         b0Ow
+X-Received: by 10.107.39.209 with SMTP id n200mr3436508ion.56.1422017123582;
+        Fri, 23 Jan 2015 04:45:23 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [30.107.26.202] (66-87-82-202.domain.com. [66.87.82.202])
+        by domain.com with ESMTPSA id gd4sm596003igd.11.2015.01.23.04.45.23
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 23 Jan 2015 04:45:23 -0800 (PST)
+From: Jake Sullivan <jake.sullivan@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+Subject: Re: Can we talk?
+Message-Id: <959user@domain.com>
+Date: Fri, 23 Jan 2015 07:45:21 -0500
+References: <user@domain.com> <84671907-user@domain.com>
+In-Reply-To: <84671907-user@domain.com>
+To: John user <user@domain.com>
+X-Mailer: iPhone Mail (12B436)
+
+I had my days wrong on when you were leaving for India. 
+
+Would love to talk today but understand if you can't until you're back.
+

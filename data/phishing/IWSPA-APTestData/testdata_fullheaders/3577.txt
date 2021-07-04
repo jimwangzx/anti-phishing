@@ -1,0 +1,345 @@
+From: "eBay" <eBay@reply1.ebay.com>
+To: "User"
+Subject: Amy  Pascal: You have a special offer from eBay.
+Date: Tue, 21 Oct 2015 13:55:02 -0400
+Message-ID: <0.0.254.user@domain.com>
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQI7SfSaePO8P+ed5kYmSw4/mAUBnQ
+Content-Language: en-us
+x-ms-exchange-organization-authas: Internal
+x-ms-exchange-organization-authsource: domain.com
+list-id: 1301 
+x-ms-exchange-organization-authmechanism: 10
+x-forefront-antispam-report: CIP:91.194.248.154;CTRY:AT;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(438002)(189002)(47034003)(46034005)(65504003)(505014003)(199003)(22564002)(65844002)(20776003)(19617315012)(110456001)(15975445006)(47976999)(87836001)(15202345003)(71186001)(19618635001)(21056001)(54356999)(50986999)(307094003)(76482002)(95656003)(120916001)(2361001)(80022003)(99396003)(46102003)(85306004)(85852003)(19627405001)(92726001)(110136001)(104016003)(512874002)(107886001)(19273905006)(2351001)(107046002)(229853001)(106796001)(53416004)(19580395003)(104066001)(146001)(77096002)(102836001)(33656002)(103116003)(575784001)(575854001)(92566001)(106466001)(64706001)(567944001)(15187005004)(4396001)(84326002)(956001)(19580405001)(946001)(44976005)(6806004)(31966008)(18206015027)(7059028)(82556003)(354624002)(579004)(18926415006);DIR:INB;SFP:;SCL:1;SRVR:BN1AFFO11HUB024;H:domain.com;FPR:;MLV:sfv;PTR:domain.com;MX:1;A:0;LANG:en;
+dkim-signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=emarsys2007; d=reply1.ebay.com; h=List-Unsubscribe:List-Id:MIME-Version:To:From: "eBay" <eBay@reply1.ebay.com>
+received-spf: Pass (domain.com: domain of reply1.ebay.com designates 91.194.248.154 as permitted sender) receiver=domain.com; client-ip=91.194.248.154; helo=domain.com;
+domainkey-signature: a=rsa-sha1; c=nofws; q=dns; s=emarsys2007; d=reply1.ebay.com; b=P7IU+wmhYkZnyBTzQsafnBh0uhkZPUZ+aDnnvBnZW9BaCUPa+QvVXD43oxaW1rEWoqNw7PtQwgfQ   lWs3E0WRCrGTMkBUjXikBFqlG1cUHqA+I8YGHYdzWNmumq+pNY0l3DgTU3vTL8/gWt8zmLN7uj96   5BfnLaLzpEu3+5PGCtQ=;
+authentication-results: spf=pass (sender IP is 91.194.248.154) user@domain.com; 
+x-microsoft-antispam: BCL:3;PCL:0;RULEID:(50001);SRVR:BN1AFFO11HUB024;
+x-eopattributedmessage: 0
+x-exchange-antispam-report-test: UriScan:;
+x-domain.com: domain.com
+List-Unsubscribe: <<<link>>>
+x-csa-complaints: user@domain.com
+x-emarsys-identify: 1301_1779784877831_1781413437731_193f17II1718dbII19ec483e123II1
+x-emarsys-environment: e3us
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+PayPal domain.com
+
+span [class=rborder] {border:1px solid #00457b; font-size:12px; font-weight:bold;
+font-family:Arial, Helvetica, sans-serif; padding:10px 10px; background:#008cde;
+color:#ffffff; width:90px;  border-radius:10px; }
+
+		 .ReadMsgBody {width: 100%;}
+         .ExternalClass {width: 100%;}
+
+
+
+		 @media only screen and (max-device-width: 480px) {
+
+
+
+			table[class=emailnomob],td[class=emailnomob],img[class=emailnomob], span[class=emailnomob] {display:none !important;}
+
+
+
+table[class=emailwrapto360] {width:360px !important; height:auto !important;}	
+
+
+
+table[class=emailwrapto320] 
+{width:320px !important; 
+height:auto !important;
+display:block !important;
+padding: 0;
+max-height: domain.com !important;
+overflow: visible !important;
+}
+
+/* font size */
+*[class=fontsize26] {
+	font-size: 26px !important;
+}
+*[class=fontsize14] {
+	font-size: 14px !important;
+}
+*[class=fontsize12] {
+	font-size: 12px !important;
+}
+*[class=fontsize8] {
+	font-size: 8px !important;
+}
+
+
+
+		/* font size */
+
+
+
+table[class=emailwrapto318] {width:318px !important; height:auto !important; display:block !important; padding: 0;}
+
+table[class=emailwrapto248] {width:248px !important; height:auto !important;}
+
+table[class=emailwrapto288] {width:288px !important; height:auto !important;}
+
+
+
+td[class=emailwrapto320] {width:320px !important; height:auto !important; padding: 0;}
+
+td[class=emailwrapto320s] {width:60% !important; height:auto !important;}
+
+td[class=emailwrapto318] {width:318px !important; height:auto !important; padding: 0;}
+
+td[class=emailwrapto180] {width:180px !important; height:auto !important;}
+
+td[class=emailwrapto180f] {width:180px !important; height:auto !important; font-size:6px !important;}
+
+td[class=emailwrapto120f] {width:120px !important; height:auto !important; font-size:6px !important;}
+
+td[class=emailwrapto120] {width:120px !important; height:auto !important;}
+
+td[class=emailwrapto16] {width:10px !important; height:auto !important;}
+
+td[class=emailfontsmall] {font-size:80% !important;}
+
+td[class=preheaderLeft] {
+	width:200px !important;		
+}
+td[class=preheaderRight] {
+	width:120px !important;		
+}
+
+img[class=emailwrapto320] {width:320px !important; height:auto !important;}
+
+img[class=emailwrapto318] {width:318px !important; height:auto !important; }
+
+img[class=emailwrapto280] {width:280px !important; height:auto !important;}
+
+img[class=emailwrapto254] {width:254px !important; height:auto !important;}
+
+img[class=emailwrapto140] {width:140px !important; height:auto !important;}
+
+img[class=emailwrapto55] {width:auto !important; height:55px !important;}
+
+img[class=emailwrapto64] {width:56px !important; height:auto !important;}
+
+img[class=emailpplogo] {width:165px !important; height:auto !important;}
+
+img[class=emailebaylogo] {width:135px !important; height:auto !important;}
+
+img[class=emailcolsplit320]{width:305px; text-align:left; !important; float:left !important;}
+
+td[class=emailcolsplit318]{width:318px; align:left; !important; float:left !important; height:auto !important;}
+
+td[class=emailcolsplit280]{width:280px;}
+
+td[class=emailcolsplit305]{width:305px; align:center; !important; float:left !important;}
+
+a[class=emailfontsmall] {font-size:80% !important;}
+span[class=emailfontsmall] {font-size:80% !important;}
+
+a[class=footer]{
+	display:block !important;
+	font-size:14px !important;
+	 font-weight:bold !important; 
+	 padding:6px 4px 8px 4px !important; 
+	 line-height:18px !important; 
+	 background:#dddddd !important; 
+	 border-radius:5px !important; 
+	 margin:10px auto;width:240px; 
+	 text-align:center; 
+	 text-decoration:none; 
+	 color:#717074 !important;}	 		
+		}
+
+
+
+.ReadMsgBody { width: 100%;}.ExternalClass {width: 100%;}div, p, a, li, td, span, font {-domain.com-text-size-adjust:none;-ms-text-size-adjust:none;} .hotmailimg img{height:10px; width:10px;}
+
+a, a img {
+	outline: none !important;
+	border: none;
+}
+
+.datesFooter a, .appleLinksFooter a {
+	color: #8c8c8c !important;
+	text-decoration: none !important;
+}
+
+
+
+
+    Amy  Pascal: Shop eBay and get special financing from  PayPal domain.com.  Apply now.
+    View online
+
+
+
+    FALL FOR SAVINGS
+
+
+
+    Shop eBay and get $15 back and 12 months special financing when you check out with PayPal and choose  PayPal domain.com.
+
+
+
+      Subject to domain.com approval. See terms.
+
+
+
+                                                          Apply now
+
+
+
+    Enjoy the flexibility of financing with PayPal domain.com this fall. It's a convenient domain.com line available at eBay and the thousands of additional retailers. 
+
+
+
+
+  Apply now
+
+
+
+          domain.com eBay to find great deals on your favorite brands.
+
+
+
+    Accept Payments
+
+
+
+Help
+
+
+
+    Fees
+
+
+
+      Security
+
+
+
+      PayPal App
+
+
+
+Important information about this special offer:
+
+
+
+
+    •
+    This is an exclusive offer just for you and is not transferable or combinable with other offers. Offer expires October 31, 2014. 
+
+
+
+    •
+    You may not be eligible for PayPal domain.com linked to your PayPal account, if you do not meet certain criteria established by PayPal to address potential fraud, restricted accounts or if you already have another PayPal domain.com product linked to your account. 
+
+
+
+    •
+    PayPal domain.com is not available in the following categories on eBay: non-US sellers, adult, digital goods, weapons, alcohol, vehicles (PayPal domain.com is available for parts and accessories), and US sellers with  third-party checkout.
+
+
+
+    •
+    $15 back is a limited-time offer valid for your first purchase when you check out with PayPal and choose PayPal domain.com as your payment option. If you already have a PayPal domain.com account, you are not eligible to receive this offer. Valid on a PayPal purchase before October 31, 2014. You'll receive $15 back as a statement domain.com. This amount will be reflected on your PayPal domain.com statement within one to two billing cycles.
+
+
+
+    •
+    Offer not valid on previous returns, refunds and exchanges or when using the Send Money feature in your PayPal account. 
+
+
+
+    •
+    This offer is only valid for the eBay account associated with this email address.
+
+
+
+    •
+    Promotional offers may not be available for purchases made on a mobile device.
+
+
+
+Terms of the Offer:
+
+
+
+    •
+    Promotional financing is not cumulative and is only available per purchase when the total cart transaction is $99 or more.
+
+
+
+    •
+    PayPal domain.com is subject to domain.com approval as determined by the Lender, Comenity Capital Bank, and is available to US customers who are of legal age in their state of residence. PayPal domain.com is operated by PayPal domain.com, Inc.
+
+
+
+    •
+    Pay for your financed purchases prior to the promotion expiration date and you will not be charged any interest. Otherwise, interest will be charged from the date of purchase at an ANNUAL PERCENTAGE RATE OF 19.99%. The Minimum Interest Charge is $2.00.  
+
+
+
+    •
+    If approved for PayPal domain.com, Comenity Capital Bank will make a loan to you for the amount financed to pay for your purchase and pay the merchant on your behalf.
+
+
+
+Purchases up to $98.99 - More Time to Pay:
+
+
+
+    •
+    Buy now and pay later with PayPal domain.com for eligible purchases up to $98.99. You can choose to pay your balance in full by the payment due date listed on your statement to avoid paying interest, or you can choose to take longer to pay with interest.  Plus, you will get a monthly email reminder telling you when your payment is due.
+
+
+
+
+Purchases of $99 or more - No Payments and No Interest if paid in full in 6 Months:
+
+
+
+    •
+    No Payments and No Interest if paid in full in 6 months on eligible PayPal domain.com purchases of $99 or more.  Interest will be charged to your account from the purchase date if the purchase balance is not paid in full within 6 months. You will get a monthly email reminder telling you when your payment is due. 
+
+
+
+Purchases of $499 or more - No Payments and No Interest if paid in full in 12 Months
+
+
+
+    •
+    No Payments and No Interest if paid in full in 12 months on eligible PayPal domain.com purchases of $499 or more. Interest will be charged to your account from the purchase date if the purchase balance is not paid in full within 12 months. You will get a monthly email reminder telling you when your payment is due.
+
+
+
+For PayPal domain.com Account Terms, see the PayPal domain.com Terms and Conditions.
+
+Learn more to protect yourself from spoof (fake) e-mails.
+
+
+
+						eBay Inc. sent this e-mail to you at user@domain.com because your Notification Preferences indicate that you want to receive general email promotions.
+
+
+
+						If you do not wish to receive further communications like this, please click here to unsubscribe. Alternatively, you can change your Notification Preferences in My eBay by clicking here. Please note that it may take up to 10 days to process your request.
+
+
+
+						domain.com our Privacy Policy and User Agreement if you have any questions.
+
+
+
+						Copyright © 2015 eBay Inc. All Rights Reserved. Designated trademarks and brands are the property of their respective owners. eBay and the eBay logo are trademarks of eBay Inc. 2015 Hamilton Avenue, San Jose, CA 95125.
+
+
+
+EBJ1401B
+
+

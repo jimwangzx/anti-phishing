@@ -1,0 +1,71 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.101 with SMTP id o98csp504781lfi;
+        Mon, 15 Jun 2015 10:22:15 -0700 (PDT)
+X-Received: by 10.129.49.198 with SMTP id x189mr36136193ywx.47.1434388935049;
+        Mon, 15 Jun 2015 10:22:15 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22f])
+        by domain.com with ESMTPS id r130si5166603ywr.102.2015.06.15.10.22.14
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 15 Jun 2015 10:22:15 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22f as permitted sender) client-ip=2607:f8b0:4002:c07::22f;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22f as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id z81so62033234yka.3
+        for <user@domain.com>; Mon, 15 Jun 2015 10:22:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Kristina Schake <kschake@hillaryclinton.com>
+         :content-type;
+        bh=iIKvHusrWn05LeD63liau+l4IGD9V31ARQJAQww3TpE=;
+        b=Jtg3Q7LSMtQkB0lk7pb8+cD+ucy0pi+ME9CaZ7/k9haV61Y1kP9ZuVPhV/DAJSANRD
+         ah5iA/7dbaeFHentM2SuA+ErBKgl1gG3G8wVvRKJE8ek+fQCo7b8pec40k6s6K6c4GLa
+         9uTGJ8enFG/KIlG8BZ/W8sceKveKsO1uOkO9g
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Kristina Schake <kschake@hillaryclinton.com>
+        bh=iIKvHusrWn05LeD63liau+l4IGD9V31ARQJAQww3TpE=;
+        b=INoGxZhd5yJjaMhlGm74WLPiSWvkzKEhiVm5kitABMh42U93nHD1DZGiRCvgPvXDGD
+         PC3Vky9Bfqtle6Es7IvzGxztB45hYNyOFz0wDzrAACHQ5LTiZG17edeD3p6CqRTzX8xT
+         lYvoUAqkUuOtGMs/IzuPT6pnKKfasz286k1m3Rr8aORSvEOUTe4RyYsOWZr0oLotwvNZ
+         i+baW0UMu/65lJpRhT+3PEZeL9nCv4Vgq71wHa4CMrFtY4zAn/2Xhph+VBuWsZ6pzaE5
+         ENBeh1PZemi3HNaTBi+Tn7ppNM53dl5Ce3dwCtsAKE/YOq2QDkkTvTjZwsJP5sEV2ys/
+         vPbw
+X-Gm-Message-State: ALoCoQkg29iHt0Y0LZL1CeOhjAFuMkji2euceseZYzDhzBOUilsUm3zCUYTfjga8BVzwGQl8fpbN
+MIME-Version: 1.0
+X-Received: by 10.129.77.2 with SMTP id a2mr36196530ywb.84.1434388934347; Mon,
+ 15 Jun 2015 10:22:14 -0700 (PDT)
+Received: by 10.13.217.10 with HTTP; Mon, 15 Jun 2015 10:22:14 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+Date: Mon, 15 Jun 2015 13:22:14 -0400
+Message-ID: <CAOLO1-mF8c2owQZd9ah+kK4MNzM+4user@domain.com>
+Subject: Fwd: Livestream of HRC in NH
+From: Kristina Schake <kschake@hillaryclinton.com>
+To: Robby Mook <user@domain.com>, John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1140a026e6e4fc051891b280
+
+In case you want to watch...
+
+---------- Forwarded message ----------
+From: Kristina Schake <kschake@hillaryclinton.com>
+Date: Mon, Jun 15, 2015 at 1:20 PM
+Subject: Livestream of HRC in NH
+To: Clips <user@domain.com>
+
+<<link>>
+
+-- 
+*Jesse Lehrich* | Rapid Response Communications
+Hillary For America
+781-307-2254 | @JesseLehrich
+gchat: JesseLehrich
+
+-- 
+
+Kristina Schake | Communications
+Hillary for America

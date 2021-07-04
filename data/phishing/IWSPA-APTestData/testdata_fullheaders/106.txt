@@ -1,0 +1,87 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 30 Oct 2015 12:21:04 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id r9UJL39o013476	for <user@domain.com>; Wed, 30 Oct 2015 
+ 19:21:03 GMT
+Received: from mail38-va3-domain.com (mail-domain.com
+ [216.32.180.118])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id r9UJL2pS015003
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Wed, 30 Oct 2015 19:21:03 GMT
+Received: from mail38-va3 (localhost [127.0.0.1])	by mail38-va3-domain.com
+ (Postfix) with ESMTP id 9331834006E	for <user@domain.com>; Wed, 30
+ Oct 2015 19:21:02 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:64.34.57.227;KIP:(null);UIP:(null);SRV:BULK;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 6
+X-BigFish: vps6(zf05lzc545Ic89bhc857hdbb0izz1f42h208ch1ee6h1de0h1fdah2073h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h17326ah8275bh1bc7b9h8275dh1def03h1de097h1de096h186068h172c6ch1ce120h1a691ciz2fheh5fh839h8aaha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail38-va3: domain of domain.com designates 64.34.57.227 as permitted sender) client-ip=64.34.57.227; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail38-va3 (localhost.localdomain [127.0.0.1]) by mail38-va3
+ (MessageSwitch) id 1383160860651961_7184; Wed, 30 Oct 2015 19:21:00 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.245])	by
+ mail38-domain.com (Postfix) with ESMTP id 905982E004C	for
+ <user@domain.com>; Wed, 30 Oct 2015 19:21:00 +0000 (UTC)
+Received: from mx-domain.com (64.34.57.227) by domain.com
+ (10.7.99.50) with Microsoft SMTP Server id 14.16.227.3; Wed, 30 Oct 2015 
+ 19:21:00 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1383157080;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=ZCdfT3AnFy5f5Rt79RTuu7M93LI3RrgADV0lhrIFylE=;
+	b=iwE5rNdXzSyU/NxzZA9aknnwXYZU2+TIwtFPmExAcdMGHgMSHY7Q4v0XIJD/Ko2b
+	jm4uMYGkcqiTo6FUExv8t4Gx1iOIOc3/P0UXPMOtKtpQkUaJjgHg8UUPPU3Hm0z5wEQ
+	BqNPoiI0sBo+MoL4lSPUIWQb8JZX/GpV2pZ1TT8o
+Date: Wed, 30 Oct 2015 14:18:00 -0400
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20131030181800.2012016.20898@domain.com>
+Subject: EXCLUSIVE: Universal Turning 1970s Series 'It Takes a Thief' into
+ Film
+Precedence: bulk
+X-TM-ID: 20131030181800.2012016.20898
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 64.34.57.227
+X-IADB-IP-REVERSE: 227.57.34.64
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2012016
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+EXCLUSIVE: Universal Turning 1970s Series 'It Takes a Thief' into Film
+
+Universal is looking to get the gears moving on a feature adaptation of "It Takes a Thief," brin... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Wednesday, October 30, 2015     
+
+​ 
+
+<<link>> 
+
+        EXCLUSIVE: Universal Turning 1970s Series 'It Takes a Thief' into Film          
+
+        Universal is looking to get the gears moving on a feature adaptation of "It Takes a Thief," bringing on Greg Russo to pen the scr...            
+
+        Full Story              
+
+
+
+
+Subscribe to Other Variety Newsletters   
+

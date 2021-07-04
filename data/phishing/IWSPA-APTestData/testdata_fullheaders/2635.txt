@@ -1,0 +1,97 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Mon, 23 Dec 2015 15:06:22 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBNN6LvG018982	for <user@domain.com>; Mon, 23 Dec 2015 
+ 23:06:21 GMT
+Received: from mail5-db9-domain.com
+ (mail-domain.com [213.199.154.240])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBNN6KDL002577	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Mon, 23 Dec 2015 23:06:21 GMT
+Received: from mail5-db9 (localhost [127.0.0.1])	by mail5-db9-domain.com
+ (Postfix) with ESMTP id E94E05405E8	for <user@domain.com>; Mon, 23
+ Dec 2015 23:06:19 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.105;KIP:(null);UIP:(null);IPV:NLI;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(z579eh5109h5105hzc545Ic89bhe6eIc857hdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h1de096h186068h172c6ch1ce120h1a691ciz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh2327h2336h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail5-db9: domain of domain.com designates 192.64.236.105 as permitted sender) client-ip=192.64.236.105; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail5-db9 (localhost.localdomain [127.0.0.1]) by mail5-db9
+ (MessageSwitch) id 1387839977443959_24502; Mon, 23 Dec 2015 23:06:17 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.16.226])	by
+ mail5-domain.com (Postfix) with ESMTP id 5D62AA0004A	for
+ <user@domain.com>; Mon, 23 Dec 2015 23:06:17 +0000 (UTC)
+Received: from mx-domain.com (192.64.236.105) by domain.com
+ (10.174.14.19) with Microsoft SMTP Server id 14.16.227.3; Mon, 23 Dec 2015 
+ 23:06:16 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1387839976;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Daily Headlines <donotreply@variety.com>
+	bh=ROXDJMA5yWnmGFV1Ze5ROeMY+bqUS3D9A/uRquiH2AE=;
+	b=ugytVUEhP87a6ITFHZxCLdPvwlyLHMrXaP6REbA+ibhIkf+I7SvRBYXeXMJk1Kxs
+	TEw1cfno+FtDV2gk1WaKUP0fLZOfSeXmXDBZhfgpU9AWhAMx2vxD8niTheZ/SdcsI3m
+	RDQyFVlu2bTQc3zKruWADj7Ac8wQnBP5f0jyJRHE
+Date: Mon, 23 Dec 2015 18:06:16 -0500
+From: Variety Daily Headlines <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20131223230616.2312636.20137@domain.com>
+Subject: =?utf-8?B?TWFydGluIFNjb3JzZXNlIEhlY2tsZWQ/IEl04oCZcyBQ?
+ =?utf-8?B?YXJ0IG9mIGEgTG9uZyBTaG93Yml6IFRyYWRpdGlvbg==?
+Precedence: bulk
+X-TM-ID: 20131223230616.2312636.20137
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.105
+X-IADB-IP-REVERSE: 105.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2312636
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Martin Scorsese Heckled? It’s Part of a Long Showbiz Tradition
+
+There are breathless tales on the domain.com of an unidentified Academy member reprimanding Martin Sc...  
+
+
+
+
+Variety         
+
+Daily Headlines         
+
+Monday, December 23, 2015       
+
+
+
+
+<<link>>         
+
+Martin Scorsese Heckled? It’s Part of a Long Showbiz Tradition  
+
+There are breathless tales on the domain.com of an unidentified Academy member reprimanding Martin Scorsese and Leonardo DiCaprio after a screening of "The Wolf of Wall Street," saying "Shame on you...         
+
+<<link>> 3View: Taking Stock of ‘The Wolf of Wall Street’
+Martin Scorsese's "The Wolf of Wall Street" has drawn mixed reviews — even among the Variety critics. Here, in addition to Scott Foundas' full review, Justin Chang and Peter Debruge offer competin...
+
+Tina Fey, Louis CK and Patton Oswalt Among Jerry Seinfeld’s Guests on ‘Comedians in Cars Getting Coffee’ (VIDEO)
+Sony's Crackle online entertainment network announced Tina Fey, Louis CK and Patton Oswalt will be among the guests for the third season of Jerry Seinfeld's "Comedians in Cars Getting Coffee" web ...
+
+Italy’s ’12 Years a Slave’ Poster Favors Brad Pitt over Black Star
+African American films have historically had trouble finding audiences overseas but does that mean a distributor should manipulate the film's message to draw more viewers? That seems to be the cas...
+
+NBC’s ‘Sound of Music Live’ Draws Nearly 22 Million With DVR Playback
+NBC's "The Sound of Music Live," which scored boffo ratings in its premiere telecast earlier this month, added more than 6 million viewers in DVR playback to stand as the most-watched primetime pr...
+
+Disney Chief Bob Iger Earns $34.3 Million in Fiscal 2015 
+Disney CEO Bob Iger earned $34.3 million in fiscal 2013, a 15% drop from his 2015 compensation. Disney released details of Iger's compensation Monday as part of the proxy filing for its 2015 annua...
+

@@ -1,0 +1,137 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 17 Jul 2015 11:37:15 -0700
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s6HIbE8l006454	for <user@domain.com>; Thu, 17 Jul 2015 
+ 18:37:14 GMT
+Received: from mail90-va3-domain.com (mail-domain.com
+ [216.32.180.112])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s6HIZaBU007809
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 17 Jul 2015 18:35:36 GMT
+Received: from mail90-va3 (localhost [127.0.0.1])	by mail90-va3-domain.com
+ (Postfix) with ESMTP id 9BE041E0351	for <user@domain.com>; Thu, 17
+ Jul 2015 18:37:13 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:208.75.123.226;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 13
+X-BigFish: vps13(z59c9hze0eahc857h77f5h2534K162aM54b3ihzz1f42h1ee6h1de0h2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch1fdahzebhz8275ch1de098h172cfch17326ah1def87h8275bh8275dh19f402h1def86h1bc7b9h1de097h1def03h186068h18602eh1deb3ai1ce121i1df123iz2fheh5fh839h8aaha19hd25h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h282bh2847h28a1h28b0h29d0h2a24h2b05h214ai27ebi)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail90-va3: domain of domain.com designates 208.75.123.226 as permitted sender) client-ip=208.75.123.226; envelope-from=AUwKRt+NkQD6tID+user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail90-va3 (localhost.localdomain [127.0.0.1]) by mail90-va3
+ (MessageSwitch) id 1405622230522577_28641; Thu, 17 Jul 2015 18:37:10 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.236])	by
+ mail90-domain.com (Postfix) with ESMTP id 75F0B2C0048	for
+ <user@domain.com>; Thu, 17 Jul 2015 18:37:10 +0000 (UTC)
+Received: from domain.com (208.75.123.226) by
+ domain.com (10.7.99.33) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 17 Jul 2015 18:37:06 +0000
+Received: from p2-domain.com (p2-domain.com
+ [10.252.0.103])	by p2-domain.com (Postfix) with ESMTP
+ id 70DC9446FE8	for <user@domain.com>; Thu, 17 Jul 2015 14:37:06 -0400
+ (EDT)
+DKIM-Signature: v=1; q=dns/txt; a=rsa-sha256; c=relaxed/relaxed; s=200931; d=domain.com; h=to:X-Feedback-ID:subject:mime-version:message-id:From: "Kathy McCabe, Dream of Italy" <kathy@dreamofitaly.com>
+Message-ID: <1117949694290.1011124331127.17925.0.291435user@domain.com>
+Date: Thu, 17 Jul 2015 14:37:06 -0400
+From: "Kathy McCabe, Dream of Italy" <kathy@dreamofitaly.com>
+Reply-To: <user@domain.com>
+Sender: "Kathy McCabe, Dream of Italy" <user@domain.com>
+To: <user@domain.com>
+Subject: Once Every Five Years - A Must-Attend Event
+CC: 
+List-Unsubscribe: <<link>>
+X-Campaign-Activity-ID: 530291b7-e364-403e-ad20-3f882097519f
+X-Channel-ID: 8fb6c560-31d2-11e3-aed7-d4ae528ecd49
+X-Mailer: Roving Constant Contact 2015 (<<link>>)
+X-Return-Path-Hint: AUwKRt+NkQD6tID+user@domain.com
+X-Roving-Campaignid: 1117949694290
+X-Roving-Id: 1011124331127.17925
+X-Feedback-ID: 8fb6c560-31d2-11e3-aed7-d4ae528ecd49:530291b7-e364-403e-ad20-3f882097519f:1011124331127:CTCT
+X-CTCT-ID: 8e477df0-31d2-11e3-aeba-d4ae528ecd49
+Return-Path: 
+ AUwKRt+NkQD6tID+user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Once Every Five Years - A Must-Attend Event
+
+ <<link>>     <<link>>        <<link>>        <<link>>         <<link>>  <<link>>         <<link>>    <<link>>#fblike   
+
+ <<link>>://domain.com/images/p1x1.gif&c;=8e477df0-31d2-11e3-aeba-d4ae528ecd49&ch;=8fb6c560-31d2-11e3-aed7-d4ae528ecd49
+
+<<link>>          
+
+LAST CHANCE
+to Receive This
+
+BONUS When You Subscribe/Renew: 
+
+The Gondola Maker
+
+<<link>>
+
+Meet Luca Vianello. Luca is the son of a 16th-century master gondola maker and caught between his family tradition and what he feels may be his true calling.  
+
+
+
+
+Follow him on a  harrowing journey through a tragedy at the family boatyard and the staggering aftermath.  Learn the incredible history of gondola making in Venice.
+
+
+
+
+The new novel 
+
+The Gondola Maker
+
+is your bonus when you subscribe/renew your subscription to
+Dream of Italy today.  
+
+
+
+
+Bonus novel offer ending very soon so 
+
+subscribe now!
+
+
+
+
+Italy Is DIVINA! 
+
+<<link>>
+
+
+
+
+Since 1984, Judy Witts Francini has made Italy her home. 
+
+
+
+
+Join Judy Witts Francini on her custom culinary programs in Tuscany and Sicily.
+
+
+
+
+Week-long tours include cooking classes,  wine tours and a full immersion into the Italian way of living.
+
+
+
+
+One-day cooking classes and market tours can also be arranged.
+
+
+
+
+(This is an ad.)
+
+Our June/July issue is hot off the presses for those Italophiles who want to be in the know (paid subscribers can log in for immediate access). What's inside:
+
+
+
+
++ 
+

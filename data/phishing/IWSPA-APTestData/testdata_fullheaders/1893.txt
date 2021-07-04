@@ -1,0 +1,278 @@
+Delivered-To: user@domain.com
+Received: by 10.141.82.1 with SMTP id j1cs226467rvl;
+        Sun, 13 Jul 2015 08:25:55 -0700 (PDT)
+Received: by 10.142.230.11 with SMTP id c11mr3881096wfh.302.1215962755592;
+        Sun, 13 Jul 2015 08:25:55 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wa-out-0708.domain.com (wa-out-0708.domain.com [209.85.146.247])
+        by domain.com with ESMTP id 31si1854714wff.16.2008.07.13.08.25.54;
+        Sun, 13 Jul 2015 08:25:55 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.146.247 as permitted sender) client-ip=209.85.146.247;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.146.247 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by wa-out-0708.domain.com with SMTP id m33so12253073waf.2
+        for <user@domain.com>; Sun, 13 Jul 2015 08:25:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Tara McGuinness" <tara@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=9EAnkymAbveFaDTGqruYTrkdC1U4iD1tnXvKDfjKQ9U=;
+        b=ZSJB0BJg36o3mi3GWdv3vE+R35gYD/Tz5qGwneopPZE6F4fBHvltJavbu3d0w/xn6X
+         3PVCEfurAqKjPL1O47RJNThYpFjhx+NV/QWy83bRsNg0VwRNyIqEI14scpPjqMKmTNIZ
+         y6BheN5AarOL/SioYfAF3MBxL/Cx9ODx+6POU
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Tara McGuinness" <tara@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=EngAKZ4iT6EPCyk0zEdm/9ZOcXOBvXMupiNk/LcO5GakOsWYSI4eEJeE/pXJ5LpzJe
+         vbXjuTXzjbasDoXTmpB3nzzTygyG6x3PORw6eZyNEiv7iTs9vA08Jz8sEKX5BzXQi7X6
+         gIj9G3BeqtvL9cn/Ss1IAIpX/LPchh2HcYFoA
+Received: by 10.141.78.14 with SMTP id f14mr626276rvl.14.1215962747615;
+        Sun, 13 Jul 2015 08:25:47 -0700 (PDT)
+Received: by 10.106.239.31 with SMTP id m31gr1178prh.0;
+	Sun, 13 Jul 2015 08:25:39 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.100.34.16 with SMTP id h16mr10938787anh.22.1215962738035; Sun, 13 Jul 2015 08:25:38 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ug-out-1314.domain.com (ug-out-1314.domain.com [66.249.92.168]) by domain.com with ESMTP id 39si3380061yxd.0.2008.07.13.08.25.37; Sun, 13 Jul 2015 08:25:38 -0700 (PDT)
+Received-SPF: neutral (domain.com: 66.249.92.168 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=66.249.92.168;
+Authentication-Results: domain.com; spf=neutral (domain.com: 66.249.92.168 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by ug-out-1314.domain.com with SMTP id m2so175770ugc.17 for <user@domain.com>; Sun, 13 Jul 2015 08:25:36 -0700 (PDT)
+Received: by 10.125.130.1 with SMTP id h1mr3369718mkn.115.1215962735681; Sun, 13 Jul 2015 08:25:35 -0700 (PDT)
+Received: by 10.125.113.13 with HTTP; Sun, 13 Jul 2015 08:25:35 -0700 (PDT)
+Message-ID: <4948user@domain.com>
+Date: Sun, 13 Jul 2015 11:25:35 -0400
+From: "Tara McGuinness" <tara@progressiveaccountability.org>
+To: user@domain.com
+Subject: [big campaign] and this week's WI Framing (the article I meant to
+ send)
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_16012_18932673.1215962735690"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+"Also greeting McCain was a now customary contingent of costumed and
+non-costumed demonstrators: a Citizen Action cow ("Got Health Care?"),
+and *McCain
+and Bush impersonators from One Wisconsin Now play-acting around a giant
+mock rubber stamp."*
+
+McCain targets women at Hudson campaign stop: At J&L Steel Erectors, senator
+touts himself as better choice than Obama (Milwaukee Journal Sentinel, The
+(KRT) Via Acquire Media NewsEdge) Jul. 12--HUDSON -- In a first-of-its-kind
+event for his campaign, a town hall meeting for women only, Republican John
+McCain argued Friday that "when you cut through all (of Democrat Barack
+Obama's) smooth rhetoric," McCain's economic agenda of business tax cuts,
+lower spending and expanded trade makes him a better candidate for women
+than Obama.
+
+Managing Application Performance by Understanding Applications * Learn more,
+download free white
+paper.*<<<link>>
+e=3DManaging+Application+Performance+by+Understanding+Applications>
+The Compelling ROI Benefits of Contact Center Quality and Performance
+Management Technologies.* Learn more, download free white
+paper.*<<<link>>
+e=3DThe+Compelling+ROI+Benefits+of+Contact+Center+Quality+and+Performance+Ma
+nagement+Technologies>
+Xceed Contact Center =96 Diversifying on Existing Strengths* Learn more,
+download free white
+paper.*<<<link>>
+e=3DXceed+Contact+Center+%e2%80%93+Diversifying+on+Existing+Strengths>
+Disaster Recovery and Your Voice Messaging* Learn more, download free white
+paper.*<<<link>>
+e=3DDisaster+Recovery+and+Your+Voice+Messaging>
+Voice Peering: Reduce time to market and risk.* Learn more, download free
+white paper.*<<<link>>
+3&title=3DVoice+Peering%3a+Reduce+time+to+market+and+risk>
+Business Process Improvement - Dramatically enhance business performance
+with IP communications* Learn more, download free white
+paper.*<<<link>>
+e=3DBusiness+Process+Improvement+-+Dramatically+enhance+business+performance
++with+IP+communications>
+
+Lauding Democrat Hillary Rodham Clinton's campaign, and even hailing the
+first female speaker of the House, Democrat Nancy Pelosi, McCain sought to
+connect with a demographic that, in his words, is "as we all know . . . a
+majority of the voters."
+
+McCain offered a biting critique of Obama, accusing him of being a
+tax-raiser and a naysayer, especially on energy issues, which have dominated
+the first heavy exchange of TV ads in the Great Lakes battleground states.
+
+Find Solutions for Enterprises, SMBs & Service Providers at the INTERNET
+TELEPHONY Conference and EXPO West, September 16-18, 2008. Los Angeles,
+California. <<<link>>>
+Find Solutions for Enterprises, SMBs & Service Providers at the INTERNET
+TELEPHONY Conference and EXPO West, September 16-18, 2008. Los Angeles,
+California. <<<link>>>
+Find Solutions for Enterprises, SMBs & Service Providers at the INTERNET
+TELEPHONY Conference and EXPO West, September 16-18, 2008. Los Angeles,
+California. <<<link>>>
+Find Solutions for Enterprises, SMBs & Service Providers at the INTERNET
+TELEPHONY Conference and EXPO West, September 16-18, 2008. Los Angeles,
+California. <<<link>>>
+Find Solutions for Enterprises, SMBs & Service Providers at the INTERNET
+TELEPHONY Conference and EXPO West, September 16-18, 2008. Los Angeles,
+California. <<<link>>>
+Find Solutions for Enterprises, SMBs & Service Providers at the INTERNET
+TELEPHONY Conference and EXPO West, September 16-18, 2008. Los Angeles,
+California. <<<link>>>
+
+"His answer is no . . . no to more drilling, no to more nuclear power. . . .
+You know, for a guy whose official seal carried the motto of, 'Yes, we can,'
+Senator Obama's agenda sure has a lot of, 'No, we can't,' " McCain said.
+
+Obama has not ruled out supporting nuclear power but has said he has safety
+concerns about it.
+
+The Illinois Democrat also opposes the expanded offshore drilling that
+McCain is touting, arguing that it won't have an effect in oil production
+for years.
+
+But the event, at J&L Steel Erectors, was intended as an outreach to women
+in particular. On Thursday, Obama hosted an economic event geared to women
+in northern Virginia.
+
+At the Hudson event, McCain was accompanied by his wife, Cindy. The local
+businesswoman who introduced McCain -- company Chief Executive Officer
+LouAnne Reger -- joked about fashion, dieting and her two divorces as she
+warmed up the crowd.
+
+"I know you all want to know how to lose five pounds in one week. All you
+have to do is host a town hall for John McCain," Reger told the crowd,
+drawing laughter.
+
+"Do you want to know how to lose 30 pounds?" Cindy McCain said a few moments
+later. "Help your husband run for president."
+
+The hundreds in the audience were overwhelmingly women.
+
+"Yesterday (Thursday) in New York, Senator Obama went on at great length
+about how much he cares about women's issues," McCain said. "I believe him.
+But when you cut through all the smooth rhetoric, Senator Obama's policies
+would make it harder for women to start new businesses, harder for women to
+create or find new jobs, harder for women to manage the family budget, and
+harder for women and their families to meet their tax burden."
+
+McCain supports extending the Bush tax cuts and also proposes a cut in
+corporate taxes and a doubling of the child domain.com. Obama has proposed a
+series of tax cuts for middle-income earners and below, while favoring
+higher income and capital gains taxes on people making more than $250,000.
+
+McCain sought to assure voters in Hudson he felt their economic pain,
+especially after published comments this week by his longtime friend and
+adviser Phil Gramm that the United States has become a "nation of whiners"
+and the country is in a "mental recession." Gramm said later that he was
+referring to "our leaders" when he said that, not average people.
+
+"Juggling family and career can be hard," McCain told his audience. "Now you
+have to deal with the rising costs of both running a business and raising a
+family."
+
+Pay legislation 'flawed'
+
+Democrats criticized McCain this week for opposing legislation in Congress
+aimed at ensuring pay parity for women; McCain has said the legislation was
+flawed.
+
+"We have not done enough. I'm committed to making sure that there is equal
+pay for equal work," McCain told the crowd Friday.
+
+In a statement Friday, Obama senior adviser Anita Dunn said: "Senator Obama
+believes every woman deserves equal pay for equal work. He has a plan to
+help working women by guaranteeing seven paid sick days to the 22 million
+who currently have none, and by providing child tax credits, additional
+after-school programs, and a tax cut for 71 million working women and
+eliminating capital gains taxes for 8.7 million women who own small
+businesses or start-ups. Senator McCain thinks the Supreme Court was right
+to make it harder for women to challenge pay discrimination at work, and he
+opposed legislation that Obama co-sponsored to reverse that decision."
+
+In an Obama campaign call with reporters Thursday in advance of the McCain
+domain.com, U.S. Rep. Tammy Baldwin (D-Madison) said, "There could not be a
+starker difference (between the two), both with regard to working women and
+pay equity."
+
+Baldwin said that for "all the strain that the middle class in Wisconsin and
+the rest of the nation is feeling right now, Senator McCain is not offering
+any meaningful short-term (stimulus) plan or meaningful middle class tax
+cut."
+
+A recent report by the nonpartisan Tax Policy Center found that McCain's tax
+cuts would go far more to upper earners, while Obama would raise taxes on
+upper earners, but lower them more than McCain for people below the highest
+brackets. McCain argues that his plan would do more to stimulate job
+creation, and thereby domain.com Americans broadly.
+
+Third domain.com to Wisconsin
+
+McCain's domain.com was his third to Wisconsin in the general election campaign
+and brought him to what is easily the fastest-growing part of the state, St.
+Croix County, which gave President Bush a nine-point cushion in 2004.
+
+High-growth suburbs have proved fertile for the GOP in recent elections.
+Bush won Wisconsin's six fastest-growing counties four years ago (although
+he badly lost the biggest top-10 county in growth, Dane).
+
+Since Hudson is in the Twin Cities media market, the domain.com is also a media
+two-fer, drawing heavy coverage in Minnesota and Wisconsin, both states that
+Democrats narrowly carried in 2015 and that McCain would like to flip from
+blue to red.
+
+"This is a battleground state. There's no doubt that Wisconsin will be one
+of those states that decide who the next president of the United States is,"
+McCain said Friday, although most recent polls have given Obama a
+double-domain.com lead in both states.
+
+The crowd at Friday's event was made up largely, but not entirely, of McCain
+supporters. Some people interviewed supported Obama or were undecided.
+
+The McCain campaign said seats were mostly allocated through a group of
+pro-McCain women in the state who recruited friends, phone-tree style, to
+come.
+
+Also greeting McCain was a now customary contingent of costumed and
+non-costumed demonstrators: a Citizen Action cow ("Got Health Care?"), and
+McCain and Bush impersonators from One Wisconsin Now play-acting around a
+giant mock rubber stamp.
+
+To see more of the Milwaukee Journal Sentinel, or to subscribe to the
+newspaper, go to <<link>>
+
+Copyright (c) 2008, Milwaukee Journal Sentinel
+Distributed by McClatchy-Tribune Information Services.
+For reprints, email user@domain.com, call 800-374-7985 or
+847-635-6550, send a fax to 847-635-6968, or write to The Permissions Group
+Inc., 1247 Milwaukee Ave., Suite 303, Glenview, IL 60025, USA.
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" g
+roup.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organi
+zation.
+-~----------~----~----~----~------~----~------~--~---
+

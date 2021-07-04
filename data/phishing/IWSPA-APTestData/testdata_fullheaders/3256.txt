@@ -1,0 +1,35 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp617333lfr;
+        Wed, 9 Sep 2015 15:33:47 -0700 (PDT)
+X-Received: by 10.202.205.133 with SMTP id d127mr27918359oig.9.1441838027334;
+        Wed, 09 Sep 2015 15:33:47 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from SNT004-domain.com (snt004-domain.com. [65.55.90.111])
+        by domain.com with ESMTPS id v3si5783451oik.125.2015.09.09.15.33.46
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 09 Sep 2015 15:33:47 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.55.90.111 as permitted sender) client-ip=65.55.90.111;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 65.55.90.111 as permitted sender) user@domain.com
+Received: from SNT404-EAS351 ([65.55.90.73]) by SNT004-domain.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Wed, 9 Sep 2015 15:33:46 -0700
+X-TMN: [gXS5YZFfzxZ+typ2ydL/XhLPt57xZsRS]
+X-Originating-Email: [user@domain.com]
+Message-ID: <user@domain.com>
+Return-Path: user@domain.com
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+From: Brent Budowsky <brentbbi@webtv.net>
+MIME-Version: 1.0 (1.0)
+Date: Wed, 9 Sep 2015 18:32:10 -0400
+Subject: Column: Big truths about Hillary | TheHill
+To: John user <user@domain.com>
+X-OriginalArrivalTime: 09 Sep 2015 22:33:46.0490 (UTC) FILETIME=[972B85A0:01D0EB4F]
+
+Campaign could put on facebook and use for fundraising.....Brent
+
+<<link>>
+bout-hillary
+
+Sent from my iPad

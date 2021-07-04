@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.71 with SMTP id o68csp25801lfi;
+        Wed, 4 Mar 2015 15:50:07 -0800 (PST)
+X-Received: by 10.140.145.3 with SMTP id 3mr9200631qhr.43.1425513007020;
+        Wed, 04 Mar 2015 15:50:07 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qc0-domain.com (mail-qc0-domain.com. [2607:f8b0:400d:c01::22e])
+        by domain.com with ESMTPS id f94si2581386qkf.110.2015.03.04.15.50.06
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Mar 2015 15:50:07 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22e as permitted sender) client-ip=2607:f8b0:400d:c01::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qc0-domain.com with SMTP id s11so5402877qcv.7
+        for <user@domain.com>; Wed, 04 Mar 2015 15:50:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Eryn Sepp <eryn.sepp@gmail.com>
+         :message-id:date:references:in-reply-to:to;
+        bh=gotWbyOLEBkKQhUtHuFfssItNHvwOJi/Ocm6DveeA6k=;
+        b=cMnPXWUBDZqFuaUyONeiS/uxknw3y43YyLgDfwDxDHujpFB6ssPUz1JxEf9rKXYQ5I
+         aJ7OXWVfdRPFdiYmQjp2HItsaaXlBQ0MJvFXrLxHd7BDsx61jEi17ly3AZCcx/0t+V7t
+         dvlTyAMlqi9WSc2VjBnaA19H83mdX8Bk8ZDeTwdxvmhCtBp5CW29DFDR9+ohN0ZYzhab
+         Mu1yiBnTsEE5qmiNnU8oyg5Eopqy/AyhLwl5eKdXdwT4k8QQiAxCe/VBI+Amsd3+82m4
+         Lk3/M5RmILALQoN8vPI+J5UYe/QaC1za10PbaOObt9IsXXGPB4xIsUEFH0K3mlt7pSOi
+         EuMA
+X-Received: by 10.140.97.203 with SMTP id m69mr8785689qge.39.1425513006474;
+        Wed, 04 Mar 2015 15:50:06 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2600:1003:b029:b274:2893:6e:efa5:1cdb? ([2600:1003:b029:b274:2893:6e:efa5:1cdb])
+        by domain.com with ESMTPSA id u5sm3031380qai.35.2015.03.04.15.50.04
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 04 Mar 2015 15:50:05 -0800 (PST)
+From: Eryn Sepp <eryn.sepp@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-F768DEBD-E592-4CD0-A70A-E7EBEDFE9451
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Re: Amtrak Options Tomorrow
+Message-Id: <11user@domain.com>
+Date: Wed, 4 Mar 2015 18:50:01 -0500
+References: <user@domain.com> <user@domain.com>
+In-Reply-To: <user@domain.com>
+To: John user <user@domain.com>
+X-Mailer: iPhone Mail (12B436)
+
+Everyone else had the same idea you did. Only biz class left. +$80
+
+Sent from my iPhone
+

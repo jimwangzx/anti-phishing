@@ -1,0 +1,104 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp1142242lfb;
+        Sun, 29 Nov 2015 16:54:06 -0800 (PST)
+X-Received: by 10.50.49.109 with SMTP id t13mr18908250ign.89.1448844846540;
+        Sun, 29 Nov 2015 16:54:06 -0800 (PST)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::248])
+        by domain.com with ESMTPS id d197si3517284ioe.22.2015.11.29.16.54.06
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 29 Nov 2015 16:54:06 -0800 (PST)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4001:c06::248 as permitted sender) client-ip=2607:f8b0:4001:c06::248;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4001:c06::248 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-io0-domain.com with SMTP id d73sf315854005ioj.2
+        for <user@domain.com>; Sun, 29 Nov 2015 16:54:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:From: Mini Timmaraju <mtimmaraju@hillaryclinton.com>
+         :subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=4qLi9LtYzR4MMfLRfYtKUzvFRxEPBlN8tG8mc7JORhE=;
+        b=UrOUVUdHV1PAiP7Cvndz002AP/7/vxQSnmGXU3dbnbl9o+aCYOPsva/7sNLXqCpogd
+         Mgr8XZfwiPragkDbz5mPhaadomRa7fY/1Hv0d2o/1HILZnMvAueIX9GAcF8bRdejPzUb
+         gyMvaEtybPwM6nwX/smQOT/LAbN/maflMEXIM
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:From: Mini Timmaraju <mtimmaraju@hillaryclinton.com>
+         :date:message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=4qLi9LtYzR4MMfLRfYtKUzvFRxEPBlN8tG8mc7JORhE=;
+        b=dyF+1QSGZAsyxOhSCQ3Q1hUBQIPcYMhk0O8VxX3qcv0tReezYhbIDSPkyE7597ydcZ
+         keK4TLLGls2ZOHbB9MNAE00xDa5F3gWFJZT4vW32stwHb1XsTxyZvhVNVbnoDTig5qh9
+         S184TrEVrRb4runxyReKeeH+/G+rnmyvOTaCnZHQJf0ds7WBBdSQ+0L/RxTLMLhFuaF2
+         B4ghWgTENapsclKsGmU4r4sHlv+U5+IDjGmNZYJl1GJBGopE/4nc734zdGQzVr8GQiNX
+         B/c6t3nsaa6qVzvsJOcTvoe0w+qtqMM1wL3U4yyzAvzijmLV1rsqt9gUxXdRxy/dtNsu
+         A+1w
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQntAyGT2Of6mShM2j2TPY6Qvi0763rGqU94hmzCWc7BwQyMAz9Fa9P+M8V6ba3O3FqLVbGz
+X-Received: by 10.182.87.74 with SMTP id v10mr36524049obz.43.1448844846247;
+        Sun, 29 Nov 2015 16:54:06 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.140.28.246 with SMTP id 109ls1761862qgz.91.gmail; Sun, 29 Nov
+ 2015 16:54:05 -0800 (PST)
+X-Received: by 10.13.253.198 with SMTP id n189mr49634998ywf.298.1448844845696;
+        Sun, 29 Nov 2015 16:54:05 -0800 (PST)
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22e])
+        by domain.com with ESMTPS id n4si27340895ywc.18.2015.11.29.16.54.05
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 29 Nov 2015 16:54:05 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22e as permitted sender) client-ip=2607:f8b0:4002:c07::22e;
+Received: by ykdr82 with SMTP id r82so166576302ykd.3
+        for <user@domain.com>; Sun, 29 Nov 2015 16:54:05 -0800 (PST)
+X-Received: by 10.129.135.7 with SMTP id x7mr49335598ywf.95.1448844845504;
+ Sun, 29 Nov 2015 16:54:05 -0800 (PST)
+From: Mini Timmaraju <mtimmaraju@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CA+C_h82LSM+0user@domain.com>
+ <-8475886608286985752@unknownmsgid> <4166629582827609583@unknownmsgid> <1user@domain.com>
+In-Reply-To: <1user@domain.com>
+Date: Sun, 29 Nov 2015 19:54:04 -0500
+Message-ID: <2487217187931647088@unknownmsgid>
+Subject: Re: DRAFT: Women senators TPs
+To: Joel Benenson <user@domain.com>
+CC: Sara Solow <user@domain.com>, 
+ Dennis Cheng <user@domain.com>, 
+ Lauren Peterson <user@domain.com>, 
+ Speech Drafts <user@domain.com>, 
+ Maura Keefe <user@domain.com>, 
+ Angelique Cannon-Harris <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:4002:c07::22e as
+ permitted sender) user@domain.com;
+       dkim=pass user@domain.com;       dmarc=pass (p=NONE
+ dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+Bernie has more donors than we do by number period correct?
+
+Do we know what percentage of his donors are women? Is it anywhere
+close to our 60% stat?
+
+Sent from my iPhone
+

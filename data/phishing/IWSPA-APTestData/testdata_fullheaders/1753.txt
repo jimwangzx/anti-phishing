@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp3360125lfi;
+        Wed, 6 May 2015 18:56:39 -0700 (PDT)
+X-Received: by 10.202.94.215 with SMTP id s206mr742039oib.15.1430963797528;
+        Wed, 06 May 2015 18:56:37 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [209.85.214.176])
+        by domain.com with ESMTPS id d128si294589oia.13.2015.05.06.18.56.36
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 06 May 2015 18:56:37 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.214.176 as permitted sender) client-ip=209.85.214.176;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.214.176 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id e9so20659669obf.1
+        for <user@domain.com>; Wed, 06 May 2015 18:56:36 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :content-type;
+        bh=S7YUpMnGjn+UlljT5ph9R5banrx38vxm5/4riOZieyM=;
+        b=S8q8HwmOlHyZLSxmvAGTPrB9EIRWEbhOrcDUN7m2Igq7K4IKZc/34rmuTvdjaI4llE
+         3yHbL+N5z+343dVqKRJK7phPN9KlPkLygczZeCfs270mqMnLexVUFNJ7VRHl6l0wGVGb
+         egpRLVgY4eBdjOMxkgVoasUqRuVMg0dc9sEbZsw9X6LRRu0s20DzSGCVPsIjGVWlxzL9
+         /9QhKa1EGwAe3xEDz7vqfdKHt19heHJAhQtKPcRZg6WTAmFspY/6JsBlcmeFLETK2m3V
+         Yu8oiqcX7oyMFpFshy4jCXSFZWWNu29eaukumeKa1TcbyMpG2PVk88dL6HOC3tY8+GCp
+         YpyQ
+X-Gm-Message-State: ALoCoQlwnodOm4IosjTc+0/oGQM14Id7dQ2pvFskBx+0xWsTmeq/WgFXMLDYFsT39kkKS63+afLo
+X-Received: by 10.182.66.106 with SMTP id e10mr1371012obt.42.1430963796156;
+ Wed, 06 May 2015 18:56:36 -0700 (PDT)
+From: Milia Fisher <mfisher@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+Date: Wed, 6 May 2015 21:56:35 -0400
+Message-ID: <3030951360470300612@unknownmsgid>
+Subject: Greg Goddard- MIA Pickup
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=e89a8fb1eb18c1b925051574380c
+
+Hi John-
+
+Just a reminder that Greg Goddard, Florida Finance Director, will be
+picking you up at the airport.
+
+Cell: 516-212-8892
+Email: user@domain.com
+<<<link>>>
+
+He is expecting your call upon arrival.
+
+Thanks!
+Milia

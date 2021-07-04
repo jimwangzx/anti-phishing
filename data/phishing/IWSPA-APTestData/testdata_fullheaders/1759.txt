@@ -1,0 +1,238 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Wed, 10 Jun 2015 12:35:45 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id A8CEF628CD	for
+ <user@domain.com>; Wed, 10 Jun 2015 11:05:16 +0100 (BST)
+Received: by domain.com (Postfix)	id 886EA4440B44; Wed, 10 Jun 2015 
+ 12:28:38 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (unknown [192.168.100.25])	by
+ domain.com (Postfix) with ESMTP id 87A2744408C3	for
+ <user@domain.com>; Wed, 10 Jun 2015 12:28:38 +0200 (CEST)
+X-ASG-Debug-ID: 1433932148-066a754c89137e0001-Aet2rw
+Received: from domain.com (domain.com
+ [93.94.35.84]) by domain.com with ESMTP id MB0sdFsphwEkwoC8 for
+ <user@domain.com>; Wed, 10 Jun 2015 12:29:10 +0200 (CEST)
+X-Barracuda-Envelope-From: ePRICE News <newsletter@eprice.it>
+X-Barracuda-Apparent-Source-IP: 93.94.35.84
+DKIM-Signature: v=1; a=rsa-sha256; d=domain.com; s=clab1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1433932148;
+	h=From: ePRICE News <newsletter@eprice.it>
+	bh=bNiywQsuSHRHgW+n0QqJZoefLwGMqWsdcnSRRyQZEs0=;
+	b=rahBV+RwTDG4NmuDUvF0I1anzMP/cXairPdu9Mp5pd08RuGisUY1qhNiArfTqgXP
+	Ppyq5Ae6MyRsj070/JD5ixBPIgRjyLNzYqiWjI/chATG7GAc1iGJHl9837pLXULT
+	1eGH02btlWYZt0C6WdDhVO7qAWjeqx6/RHd2G40jh8U=;
+X-CSA-Complaints: user@domain.com
+Received: from [172.16.6.113] ([172.16.6.113:22192])	by domain.com
+ (envelope-from <641586392.26062.2000262@domain.com>)	(ecelerity
+ 3.5.9.42398 r(Platform:3.5.9.0)) with ECSTREAM	id C8/1E-31369-47118755; Wed,
+ 10 Jun 2015 12:29:08 +0200
+Message-ID: <user@domain.com>
+From: ePRICE News <newsletter@eprice.it>
+Reply-To: <user@domain.com>
+Subject: Il Millennium Back ha inizio! Festeggia con noi 15 anni di ePRICE e vinci fino a 10.000 euro
+To: <user@domain.com>
+X-ASG-Orig-Subj: Il Millennium Back ha inizio! Festeggia con noi 15 anni di ePRICE e vinci fino a 10.000 euro
+Date: Wed, 10 Jun 2015 12:29:08 +0200
+X-campaignid: clab.2000262.26062
+List-Unsubscribe: <mailto:641586392.26062.2000262.3user@domain.com>
+X-Mailer: ContactLab
+X-Binding: 2000262.42
+X-Clab-Family: 2000262
+X-Abuse: Please report abuse for this campaign here: <<link>>
+X-Barracuda-Connect: domain.com[93.94.35.84]
+X-Barracuda-Start-Time: 1433932150
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=HTML_MESSAGE, MIME_HTML_ONLY
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.19724
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: 641586392.26062.2000262@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-705965116_-_-"
+
+ePRICE - Millennium Back - 15 Anni di ePRICE
+
+/* Based on The MailChimp Reset INLINE: Yes. */  
+/* Client-specific Styles */
+#outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+body{width:100% !important; -domain.com-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;} 
+/* Prevent domain.com and Windows Mobile platforms from changing default font sizes.*/ 
+.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */  
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+/* Forces Hotmail to display normal line spacing.  More on that: <<link>> */ 
+#backgroundTable {margin:0; padding:0; width:100% !important; /*line-height: 100% !important;*/ background-color: #eaeaea;}
+/* End reset */
+
+/* Some sensible defaults for images
+Bring inline: Yes. */
+img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;} 
+a img {border:none;} 
+.image_fix {display:block;}
+
+/* Yahoo paragraph fix
+Bring inline: Yes. */
+p {margin: 1em 0;}
+
+/* Hotmail header color reset
+Bring inline: Yes. */
+h1, h2, h3, h4, h5, h6 {color: black !important;}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: blue !important;}
+
+h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+color: red !important; /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+}
+
+h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+color: purple !important; /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+}
+
+/* Outlook 07, 10 Padding issue fix
+Bring inline: No.*/
+table td {border-collapse: collapse;}
+table.not_collapsed td {border-collapse: separate;}
+
+/* Remove spacing around Outlook 07, 10 tables
+Bring inline: Yes */
+table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+table.not_collapsed {border-collapse: separate;}
+
+/* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+Bring inline: Yes. */
+a {color: #265abd;}
+
+@media only screen and (max-device-width: 480px), screen and (max-width: 480px) {
+/* Part one of controlling phone number linking for mobile. */
+a[href^="tel"], a[href^="sms"] {
+text-decoration: none;
+color: blue; /* or whatever your want */
+pointer-events: none;
+cursor: default;
+}
+
+.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+text-decoration: default;
+color: orange !important;
+pointer-events: auto;
+cursor: default;
+}
+table[class="hundred"], table[class="topBanner"], table[class="promoZone"], td[class="hundred"], a.hundred, td[class="topBanner"]{width: 100% !important; max-width: 100% !important;}
+img[class="hundred"]{height:auto !important; max-width: 100%; width: 100% !important; overflow: auto; display: block;}
+table[class="promoZone"] td{text-align: center;}
+table[class="mobileHide"],td[class="mobileHide"], span.mobileHide {display: none;}
+table[class="mobileLateralSpace"],td[class="mobileLateralSpace"]{width: 5% !important;}
+table[class="wrapContent"],table[class="borderFooter"]{width: 95% !important; min-width: 95% !important; padding:0 2.5%;}
+td[class="wrapInnerContent"]{width: 95% !important; padding:0 2.5%;}
+td[class="wrapTopBanner"]{}
+table[class="ninety"], td[class="ninety"]{width: 90% !important;}
+table[class="ninetyFive"], td[class="ninety"]{width: 95% !important;}
+table[class="eighty"], td[class="eighty"], a.eighty {width: 80% !important;}
+table[class="seventy"], td[class="seventy"]{width: 70% !important;}
+table[class="sixty"], td[class="sixty"]{width: 60% !important;}
+table[class="fifty"], td[class="fifty"]{width: 50% !important;}
+table[class="forty"], td[class="forty"]{width: 40% !important;}
+table[class="thirty"], td[class="thirty"]{width: 30% !important;}
+table[class="ten"], td[class="ten"]{width: 10% !important;}
+table[class="five"], td[class="five"]{width: 5% !important;}
+td[class="bigFont"], td[class="bigFont"] a, td[class="bigFont"] span, td[class="bigFont"] strong, td[class="medFont"] span.bigFont, strong.bigFont {font-size: 22px !important; line-height: 24px !important;}
+td[class="medFont"], td[class="medFont"] a, td[class="medFont"] span, td[class="medFont"] strong, td[class="bigFont"] span.medFont, strong.medFont {font-size: 16px !important; line-height: 18px !important;}
+td[class="medFontPlus"], td[class="medFontPlus"] a, td[class="medFontPlus"] span, td[class="medFontPlus"] strong, td[class="bigFont"] span.medFontPlus, strong.medFontPlus {font-size: 18px !important; line-height: 20px !important;}
+td[class="lilFontPlus"], td[class="lilFontPlus"] a, td[class="lilFontPlus"] span, td[class="lilFontPlus"] strong, strong.lilFontPlus {font-size: 14px !important; line-height: 16px !important;}
+td[class="lilFont"], td[class="lilFont"] a, td[class="lilFont"] span, td[class="lilFont"] strong, strong.lilFont {font-size: 12px !important; line-height: 14px !important;}
+img.bigImage {width: 230px; height: 230px;}
+img.medImage {width: 150px; height: 150px;}
+td[class="bundleCart"] {height: 70px !important;}
+td[class="bundleCart"] table {height: 70px !important;}
+td[class="bigButton"] {height: 42px;}
+td[class="bigButton"] a {width: 98% !important; height: 42px; font-size: 18px!important; line-height: 40px!important;}
+td[class="medButton"] {height: 32px;}
+td[class="medButton"] a {width: 98% !important; height: 32px; font-size: 16px!important; line-height: 30px!important;}
+td[class="social"] {width: 56px !important; height: 56px !important;}
+td[class="social"] img {margin-left: 10px;}
+}
+
+/* More Specific Targeting */
+
+@media only screen and (min-device-width: 481px) { /* Adjust line-height on Apple Mail */
+.bigFont {line-height:22px !important;}
+.medFont {line-height:15px !important;}
+.lilFontPlus {line-height:14px !important;}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+/* You guessed it, ipad (tablets, smaller screens, etc) */
+/* repeating for the ipad */
+a[href^="tel"], a[href^="sms"] {
+text-decoration: none;
+color: blue; /* or whatever your want */
+pointer-events: none;
+cursor: default;
+}
+
+.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+text-decoration: default;
+color: orange !important;
+pointer-events: auto;
+cursor: default;
+}
+}
+
+@media only screen and (-domain.com-min-device-pixel-ratio: 2) {
+/* Put your iPhone 4g styles in here */ 
+}
+
+/* Android targeting */
+@media only screen and (-domain.com-device-pixel-ratio:.75){
+/* Put CSS for low density (ldpi) Android layouts in here */
+}
+@media only screen and (-domain.com-device-pixel-ratio:1){
+/* Put CSS for medium density (mdpi) Android layouts in here */
+}
+@media only screen and (-domain.com-device-pixel-ratio:1.5){
+/* Put CSS for high density (hdpi) Android layouts in here */
+}
+/* end Android targeting */
+
+15 Anni di ePRICE | Leggi online questa newsletter.
+
+
+
+
+15 ANNI TUTTI DA FESTEGGIARE
+
+  Sono passati 15 anni, 15 anni insieme a voi, 15 anni che meritano di essere festeggiati con un Grande Concorso.
+
+
+
+    Millennium Back è un viaggio nel tempo, il nostro modo per 
+    ringraziarvi mettendo in palio tantissimi premi. 
+    Partecipare è semplice: dal 10 al 24 Giugno, ti basterà fare un acquisto su domain.com per provare a vincere subito tanti buoni acquisto da 100€, mentre con una spesa di almeno 250€ potrai partecipare alla grande estrazione finale e vincere fino a 10.000€ da spendere sul nostro sito. 
+    Scopri tutti i dettagli su domain.com.
+
+
+
+  Il viaggio nel tempo sta per cominciare.
+Partecipa anche tu.
+
+
+
+
+Ricevi questa newsletter perchè ti sei registrato in 
+ePRICE
+Se non desideri più ricevere comunicazioni personalizzate clicca qui
+
+
+

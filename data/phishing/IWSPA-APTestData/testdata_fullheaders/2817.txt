@@ -1,0 +1,125 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Thu, 13 Feb 2015 13:40:27 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1DLeRAM023082	for <user@domain.com>; Thu, 13 Feb 2015 
+ 21:40:27 GMT
+Received: from mail28-co1-domain.com
+ (mail-domain.com [216.32.180.177])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1DLeKD4025029	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 13 Feb 2015 21:40:21 GMT
+Received: from mail28-co1 (localhost [127.0.0.1])	by mail28-co1-domain.com
+ (Postfix) with ESMTP id 9838CC4027F	for <user@domain.com>; Thu, 13
+ Feb 2015 21:40:24 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:205.201.135.136;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: -8
+X-BigFish: vps-8(z3e12hzc89bhe6eI550Id772hc857h891Rzz1f42h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h177df4h17326ah1def87h8275bh1bc7b9h8275dh1def86h19a27bh1de097h186068h1954cbh18602eh172c6ch122ac1I164c38j1ce121i1cf869iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h1d9ci1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail28-co1: domain of domain.com designates 205.201.135.136 as permitted sender) client-ip=205.201.135.136; user@domain.com; helo=mail136.atl61.mcsv
+Received: from mail28-co1 (localhost.localdomain [127.0.0.1]) by mail28-co1
+ (MessageSwitch) id 1392327614516508_26755; Thu, 13 Feb 2015 21:40:14 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.250])	by
+ mail28-domain.com (Postfix) with ESMTP id 7861A840053	for
+ <user@domain.com>; Thu, 13 Feb 2015 21:40:14 +0000 (UTC)
+Received: from domain.com (205.201.135.136) by
+ domain.com (10.243.66.35) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 13 Feb 2015 21:40:11 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Andrew=20Harper?= <clientrelations@andrewharper.com>
+ bh=09n7ZozTwpTA74vq/WwH0PTXaM8=;
+ b=p63LgZvD1NpaAe9dPuJrz5HsJTAS7wcGzbrxwlEVOoRLIxAcI+JHe2tEVNfQ+DbOe34vIpM8POWt
+   Vn7CT07e4c4r91hBBn6zMY+HoN3khzcZp3KH79N4u9ARqZ8H3NRzreMz25tvz97iZV/pW/KL71//
+   IcW6dOQYQB/EiuI2IJI
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=hI7Rgp47DoL8DTak0bxXoEFLxtK3sFoj/u5VtpH/TRR6UEVv/kYTwaHbkqvjQBeC3BYj6vh9JtWS
+   MS1snhPzGJ64BicpIYAgrliSSC0crykdpaYmcx6caS20qP1qpR1fIMR9Yj9nMpvWeknOPxWxI+Hy
+   PqFGrp5kUOrqptwXPo0=;
+Received: from (127.0.0.1) by domain.com id hvktro174ac0 for
+ <user@domain.com>; Thu, 13 Feb 2015 21:40:11 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?New=20Hideaway=20Report=20and=20a=20New=20Look?
+From: =?utf-8?Q?Andrew=20Harper?= <clientrelations@andrewharper.com>
+Reply-To: <user@domain.com>
+To: =?utf-8?Q?=20?= <user@domain.com>
+Date: Thu, 13 Feb 2015 21:40:11 +0000
+Message-ID: <user@domain.com>
+X-Mailer: MailChimp Mailer - **CID2ad66985bb04f6994f01**
+X-Campaign: mailchimpeffc7006f9784ca70054fe5c6.2ad66985bb
+X-campaignid: mailchimpeffc7006f9784ca70054fe5c6.2ad66985bb
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: effc7006f9784ca70054fe5c6
+X-Feedback-ID: 23800311:23800311.601697:us3:mc
+x-accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: Andrew Harper
+	<user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+New Hideaway Report and a New Look
+
+         View this email in your browser.                
+
+         Andrew Harper                   
+
+Your February 2015 Hideaway Report      
+
+
+
+
+         February Hideaway Report                
+
+
+
+
+         A New Way to Read The Hideaway Report           
+
+         Few landscapes are more inspiring than the plains of East Africa. In this issue, I describe an unforgettable journey through Tanzania and Kenya. Along the way, I discovered exceptional new lodges and camps in both the Serengeti National Park and the Maasai Mara National Reserve. Recently, I also had the opportunity to return to Savannah, one of my favorite American cities, and to explore Georgia’s pristine barrier islands.
+
+As you will see, beginning this month our website has a significantly different look and feel, with a cleaner, more aesthetically pleasing design, full-screen photo galleries and brand-new travel videos. A more sophisticated personal profile will enable you to make the most efficient use of our information and travel services.
+
+When you next domain.com the site, you will be asked to update your login information as part of an enhancement to our security features. Additional enhancements will be rolled out progressively during the first half of 2014.
+
+Sincerely,
+
+
+
+
+ Andrew Harper Signature
+
+
+
+
+         READ MORE               
+
+
+
+
+         Featured Article: Serengeti Camps and Lodges            
+
+         Alt Text                
+
+
+
+
+         The Serengeti in Tanzania is often described as the world’s greatest national park. Certainly there is no other wildlife spectacle like the annual Great Migration of 2 million wildebeest and zebra. In addition, the Serengeti contains lodges and camps that number among the finest in Africa. Singita Sasakwa Lodge attains an unsurpassed level of refinement, with lavish accommodations, delicious food and attentive service. And a brand-new property, Singita Mara River Camp, provides a stylish and comfortable base from which to observe the epic crossing of the Mara River by the massed wildebeest herds. Read more...                
+
+
+
+
+         - ALSO INCLUDED IN THIS ISSUE -
+
+         • Serengeti Camps & Lodges
+• Gorillas in Congo
+• Gearing Up: On Safari
+• Ngorongoro Crater
+• Planning a Safari
+• Where to Go, When
+

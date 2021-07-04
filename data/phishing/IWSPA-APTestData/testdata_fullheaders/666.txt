@@ -1,0 +1,88 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp1528251lfi;
+        Wed, 22 Apr 2015 17:08:37 -0700 (PDT)
+X-Received: by 10.181.13.16 with SMTP id eu16mr1018797wid.10.1429747717094;
+        Wed, 22 Apr 2015 17:08:37 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [209.85.212.181])
+        by domain.com with ESMTPS id o6si2847502wiy.112.2015.04.22.17.08.36
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 22 Apr 2015 17:08:37 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.212.181 as permitted sender) client-ip=209.85.212.181;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.212.181 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id n10so74933812wiu.1
+        for <user@domain.com>; Wed, 22 Apr 2015 17:08:36 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Dan Schwerin <dschwerin@hillaryclinton.com>
+         :content-type;
+        bh=/00U+Rmy8iXC2TCMIy5GQyx4NPMqkpSn/keHaAKUvZ8=;
+        b=Sn4Ixb2KatSEFRWOLDxDvpmNuU8tUwPFQiSmFjATZAmwbEU/UyDhJSG1Irp3//cloZ
+         Ue/unWseGirQQh0hDSRxrnUgCUIVYiQC92TKsy+NKva4iLqUGcHK//4ICmt2U5lJwBHw
+         +8jJwPmRMw2VOntDCV6pMtPoOehZyBNIP0j2SvAc5LfkX3NA4c/kjx1lJXfr2bjxq24L
+         rfhNefsgQ5P9oj6+9z67amu8L3l+2DhCcXQ3nlWOfQX7mTqx8DKTXgmoBtYLrFNRF3xU
+         sslcF5IWSrkAXRxGI88JeGTGr1fFtKe6ahpjKmMN6S1v5UMH6HlVmxJiQ3UvVQzWiehX
+         X4uQ
+X-Gm-Message-State: ALoCoQlekEmc+RnKsH1HguBTTB6w3AVK7yMJs2INcj8zdVhMZAwQaGzfP/5JQxG+gQIgpuCeqmX0
+MIME-Version: 1.0
+X-Received: by 10.180.7.134 with SMTP id j6mr10656729wia.9.1429747716823; Wed,
+ 22 Apr 2015 17:08:36 -0700 (PDT)
+Received: by 10.194.161.231 with HTTP; Wed, 22 Apr 2015 17:08:36 -0700 (PDT)
+Date: Wed, 22 Apr 2015 20:08:36 -0400
+Message-ID: <CAAEwKfzXN6UnxJq3DFGtrTjcq0H4GAfb7H9sAu+user@domain.com>
+Subject: Making News at Women in the World
+From: Dan Schwerin <dschwerin@hillaryclinton.com>
+To: John user <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Robby Mook <user@domain.com>
+Content-Type: multipart/mixed; boundary=f46d04428288c7c22e05145914a7
+
+We discussed the idea of throwing an elbow at Women in the World with John
+and HRC today, and she was reluctant to touch the abortion issue. John
+suggested focusing more on the inappropriateness of playing politics with
+trafficking and Jake suggested hitting equal pay, and she seemed ok with
+that. In general, she was open to a broader strategy over the next month of
+trying to pin GOP candidates down on wedge issues, but doesn't want to
+throw darts that won't land. If we use vaccine tweet as a model -- timely,
+with Republicans divided and looking nutty -- she'll be happy.
+
+So for tomorrow at Women in the World, below and attached is my new
+proposed text.
+
+First, at the top:
+
+"Before we get started, I want to take a moment to recognize the
+significance of what happened earlier today in Washington.  Finally, after
+an unprecedented and unconscionable delay, Senate Republicans allowed a
+vote to confirm Loretta Lynch as Attorney General.  This is a happy ending
+to a shameful story.  It=E2=80=99s beyond belief that a talented and qualif
+ied
+African American woman nominated to be our nation=E2=80=99s chief law enfor
+cement
+officer was hung out to dry for months.  At a time when we face real
+security and criminal justice challenges.  And, I=E2=80=99m sorry, but push
+ing an
+ideological agenda at the expense of survivors of human trafficking is as
+low as it gets.  There=E2=80=99s going to be plenty of time for politics as
+ we head
+toward the next election.  But common sense and common decency should still
+count for something, even in Washington.  That=E2=80=99s what I=E2=80=99m o
+ut there working
+for and talking about, and it=E2=80=99s what you should demand of anyone ru
+nning
+for office."
+
+And then lower down, on page six:
+
+"The United States ranks 65th out of 142 nations on equal pay.  We should
+be number one!  And by the way, anyone running for President who doesn=E2
+=80=99t
+think women deserve to be paid as well as men should have to explain to the
+American people exactly why not.   And this isn=E2=80=99t just about women.
+  So
+many of our families today depend on two incomes to make ends meet..."

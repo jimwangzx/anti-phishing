@@ -1,0 +1,102 @@
+Delivered-To: user@domain.com
+Received: by 10.204.130.12 with SMTP id q12csp135349bks;
+        Fri, 8 Feb 2015 15:40:09 -0800 (PST)
+X-Received: by 10.182.31.109 with SMTP id z13mr5619577obh.37.1360366807871;
+        Fri, 08 Feb 2015 15:40:07 -0800 (PST)
+Return-Path: <bounces+243373-9709-user@domain.com>
+Received: from domain.com (domain.com. [74.63.194.124])
+        by domain.com with SMTP id b2si33097982obn.196.2013.02.08.15.40.06;
+        Fri, 08 Feb 2015 15:40:07 -0800 (PST)
+Received-SPF: pass (domain.com: domain of bounces+243373-9709-user@domain.com designates 74.63.194.124 as permitted sender) client-ip=74.63.194.124;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of bounces+243373-9709-user@domain.com designates 74.63.194.124 as permitted sender) smtp.mail=bounces+243373-9709-user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=domain.com;
+	 h=From: Eric Garcetti <info@ericgarcetti.com>
+	:content-transfer-encoding:sender; s=smtpapi; bh=ZidSLUH2zXlBs7p
+	8Kw4gV/XBvtk=; b=aI4NHIsF4iTRI+3YKmaQkfh39Dws1HlfJa/CrWBjBD46+yM
+	lR7M8a1GEEQzbbNPBoTfyJ+rQ/HgIW1YLov/i52Jl5ep28RcMR5Feu2drqpOmlsL
+	A9AdPiTsFYYPgEQ2UUrV9poaNjKlVqgOOD1mIA0vCWYCOn2T6VrAaPkIre/M
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=domain.com; h=From: Eric Garcetti <info@ericgarcetti.com>
+	:subject:mime-version:content-type:content-transfer-encoding
+	:sender; q=dns; s=smtpapi; b=ScvAnm6cyVZYWWOkiQiLE2siu4gLVPNe7Ty
+	URTmE4DxAy50aK+RAW10K3QelVgWwMSpfn/tj4TJYFi2fJ60Vkg7vPb5Y02iC52O
+	j0xjyeKMBf2QPtELXiLIYUa3X9J5SmmL46vwTIAIZ5Y8opZTaYnodMeZIIu03dX8
+	9gD8ixrY
+Received: by 10.36.109.142 with SMTP id mf35.2146.51158CD52
+        Fri, 08 Feb 2015 17:40:05 -0600 (CST)
+Received: from domain.com (unknown [216.180.248.169])
+	by mi12 (SG) with ESMTP id 51158cd4.5c7.d00e9f
+	for <user@domain.com>; Fri, 08 Feb 2015 17:40:04 -0600 (CST)
+Date: Fri, 08 Feb 2015 23:40:03 +0000
+From: Eric Garcetti <info@ericgarcetti.com>
+To: John user <user@domain.com>
+Message-ID: <51158user@domain.com>
+Subject: We're on the air
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_51158cd3a83e9_3ae7533e2830124";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Sendgrid-EID: p7DGjev3kDhYNXGtfGO9jbmQ3Oi75URC5nx+Didgsq+fI+EePBbCBvhqnWj0hebI789rK5mRE73OVYiZEQLLrb9rWbC09oNwtjmR3QTzQs585dQJ3kAiQenoWZzrD/Tj
+X-Sendgrid-ID: Wa6a8n/IyO6xlbp63nElGEldJD2z7kQ503oYSR88IocS7mbgs0AkUk8VFgNp/Y0lXj2N9r4Co03sHwfeDb9uzg
+Sender: Eric Garcetti <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=domain.com;
+	 h=From: Eric Garcetti <info@ericgarcetti.com>
+	:content-transfer-encoding:sender; s=smtpapi; bh=8qr7FAVz1iGjruc
+	YfLnR3EBGrCg=; b=wyifOpdpkU2DB96G6RjFiW+CH+oTJW1ar10eTll9f7DAk2A
+	/PeqXvOwfTFaTSocFhrsfjDx0tUUvc1sWuGIIC2TsJkpHfrCUBqzaLi5xyWjyeQ1
+	sSFWEKGJwE1QGcJJBgQqqpp5Tm2+GuIwrhlhAHUTWnQ8M51VzWLLmsK4cffM
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=domain.com; h=From: Eric Garcetti <info@ericgarcetti.com>
+	:subject:mime-version:content-type:content-transfer-encoding
+	:sender; q=dns; s=smtpapi; b=c8A3aHXIzmNaXsM34dS5rtyPJoP7CIcEW2W
+	3Dgh7IPild1SROi1XROpSwnpiB9UPBwLfONxVPnqnxhMDNQEjIMZtiGALx3DIDN8
+	MDlNNXnsDSmZrjf/NdafDIPGJdq6VkyUlo6j1KJFXgFyAbzcXA8XFRxENZkHwZf4
+	LwKZ74qA
+
+John -
+p. We only have 25 days left. Twenty-five days to knock on doors, change mi
+nds, and make our case to Angelenos across the city. =C2=A0
+
+That's why today, we are launching our first television ad of the campaign.
+ I wanted you, one of my biggest supporters, to see it before it goes on ai
+r.=C2=A0
+
+"Click here to watch our new ad, and once you do, consider contributing $10
+ to keep it on the air.
+
+":<<link>>
+
+I'm running for Mayor because identifying problems is easy; solving them is
+ hard. I've been working hard in my district to revitalize neighborhoods an
+d create jobs.=C2=A0
+
+We need to do the basics better. That means answering phones, filling potho
+les, and picking up trash. Because doing the basics right makes life better
+ for families and makes growth possible.=C2=A0
+
+We can't do that without your support. Click here to watch our new ad and c
+ontribute $10 to keep it on the air. <<<link>>
+i/contribute/video> =C2=A0
+
+Your support is what fuels our campaign. Whether that's donating, volunteer
+ing, or sharing our ad on Facebook. Every little bit helps move Los Angeles
+ forward.=C2=A0
+
+Thank you,
+Eric=C2=A0
+
+P.S. Once you've watched our new ad and contributed <<<link>>
+domain.com/crmapi/contribute/video> , make sure to share it with your friend
+s and family who share our vision of the future of Los Angeles.=C2=A0
+
+-=3D-=3D-
+Eric Garcetti- Los Angeles Mayor 2015 - United States
+This email was sent to user@domain.com  To stop receiving emails: h
+ttp://www.ericgarcetti.com/unsubscribe
+-=3D-=3D-
+Paid for by Garcetti for Mayor 2015 
+FPPC ID# 1341339
+22647 Ventura Blvd. #301 Los Angeles, CA 91364
+Additional Information is available at <<link>>
+Created with NationBuilder - <<link>>

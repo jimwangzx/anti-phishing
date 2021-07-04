@@ -1,0 +1,204 @@
+Delivered-To: user@domain.com
+Received: by 10.204.68.206 with SMTP id w14csp142035bki;
+        Tue, 8 Oct 2015 05:12:17 -0700 (PDT)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.49.48.38 as permitted sender) client-ip=10.49.48.38
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.49.48.38 as permitted sender) smtp.mail=bigcampaign+user@domain.com;
+       dkim=pass user@domain.com
+X-Received: from domain.com ([10.49.48.38])
+        by 10.49.48.38 with SMTP id i6mr478414qen.4.1381234335599 (num_hops = 1);
+        Tue, 08 Oct 2015 05:12:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120806;
+        h=From: Robert Creamer <creamer2@aol.com>
+         :x-original-sender:x-original-authentication-results:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe:content-type;
+        bh=+Jdg/0IrciuOf6jQZQZzEX1Gt0Hj+Z3rbIkrcZNZUQ0=;
+        b=qUk5byVg1x4AvYjMyipVtJpC5pi8+SglMmL//ohN4MgTO+MEfGuad//MhdYyXnCjh3
+         DJ6ojdF/qKhRra+vw7cvSQAAdGSSb53fMm1yJe1U5/foMH3ya/2qEW9RX8bR6n1GL6/r
+         cs0t08614PpbY53k/GJEW5BqJAO3jEKVop4pgAQkMUkhyCH4NZ+qMJ3UeFFPfL+ib1Bn
+         OMmNFx2kaJS1rTzh4xGEOwdXY9oHaLybjrAKieWuMFgdcgDxQ8AwLIsmewVPxGoy120m
+         GL19MbT42makA20lBXT1xjm2t0keVNsdxN2yBgDizcKGcwVvFDTZpfqsHEhwXdnW3XWk
+         B51w
+X-Received: by 10.49.48.38 with SMTP id i6mr54753qen.4.1381234334916;
+        Tue, 08 Oct 2015 05:12:14 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.49.129.8 with SMTP id ns8ls219135qeb.39.gmail; Tue, 08 Oct
+ 2015 05:12:12 -0700 (PDT)
+X-Received: by 10.236.101.103 with SMTP id a67mr1079699yhg.25.1381234332547;
+        Tue, 08 Oct 2015 05:12:12 -0700 (PDT)
+Received: from omr-m03.mx.aol.com (omr-m03.mx.aol.com. [64.12.143.77])
+        by gmr-domain.com with ESMTPS id t6si6431316qcj.3.1969.12.31.16.00.00
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 08 Oct 2015 05:12:12 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.12.143.77 as permitted sender) client-ip=64.12.143.77;
+Received: from mtaout-db04.r1000.mx.aol.com (mtaout-db04.r1000.mx.aol.com [172.29.51.196])
+	by omr-m03.mx.aol.com (Outbound Mail Relay) with ESMTP id 541307000009B;
+	Tue,  8 Oct 2015 08:12:11 -0400 (EDT)
+Received: from [10.0.1.197] (50-193-130-89-domain.com [50.193.130.89])
+	by mtaout-db04.r1000.mx.aol.com (MUA/Third Party Client Interface) with ESMTPA id D7D73E000095;
+	Tue,  8 Oct 2015 08:12:06 -0400 (EDT)
+From: Robert Creamer <creamer2@aol.com>
+Mime-Version: 1.0 (Apple Message framework v1283)
+Date: Tue, 8 Oct 2015 08:12:06 -0400
+Subject: [big campaign] New Huff Post from Creamer- There Isn't "Grid Lock" in
+ Congress -- Only a Tea Party Terrorized Boehner -- #JustVote
+References: <45user@domain.com>
+To: Robert Creamer <user@domain.com>
+Message-Id: <user@domain.com>
+X-Mailer: Apple Mail (2.1283)
+x-aol-global-disposition: G
+x-aol-sid: 3039ac1d33c45253f6967432
+X-AOL-IP: 50.193.130.89
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com;       spf=pass
+ (domain.com: domain of user@domain.com designates 64.12.143.77 as permitted
+ sender) user@domain.com;       dkim=pass user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+X-Google-Group-Id: 329678006109
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>, <mailto:googlegroups-manage+329678006109+user@domain.com>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_1BE37BFE-96D9-4678-9CFE-83892825C262"
+
+c_b_4062703.html
+
+ Boehner -- #JustVote
+
+the current shutdown and debt ceiling standoff, as if there are two intract
+able sides that are equally culpable for =93grid lock=94.
+
+American people, and the majority of both houses of Congress oppose the Tea
+ Party=92s shutdown of the government =96 and threatened refusal to pay Ame
+rica=92s bills. 
+
+to go back to work and believe that America should honor its debts.  They d
+on=92t believe these tactics should be used for any reason =96 certainly no
+t as a means to prevent implementation of the health care law.  Just yester
+day a new poll by Public Policy Polling (PPP) =96 one of the most accurate 
+polling firms in the last election cycle =96 found that overwhelming majori
+ties opposed the shutdown in 24 swing Congressional Districts currently hel
+d by Republicans.
+
+ng control of these districts =96 and the House as a whole =96 because of t
+heir shutdown.
+
+iew with George Stephanopoulos, there is clearly a majority of Members in t
+he House to pass a =93clean=94 continuing resolution that would put the fed
+eral government back to work =96 and instruct the Treasury to pay America
+=92s bills.  One hundred and ninety five Democrats have signed a letter ind
+icating they would support such a measure =96 in fact it would probably rec
+eive 200 Democratic votes.  And at least twenty-two Republicans have public
+ly stated they would do so as well.  That adds up to an unbeatable 217 Hous
+e votes (there are currently three vacancies making 217 the magic number fo
+r a majority).  Assuming, of course, the Republicans still believe in the s
+cience of mathematics.
+
+=96 call a vote.
+
+The bill would pass, the hostage taking by his Tea Party faction would be o
+ver, and the Tea Party extremists would hold him responsible.
+
+ that is keeping the government closed.  It is also the only thing that thr
+eatens the first default by the U.S. government in American history =96 an 
+act that could have a catastrophic effect on the financial system and the w
+orld economy.
+
+about being terrorized by a Tea Party minority or having a legacy as the on
+e man who single handedly caused a world wide economic disaster.  If he car
+es about this country, his choice should be obvious.
+
+ll almost certainly lose their seats in Congress if Boehner continues on hi
+s current path.  If the Republican leadership wants to create the wave that
+ could overcome all of their attempts to redistrict themselves into a perma
+nent majority, this is the sure way to do it.
+
+ lock=94 but John Boehner. 
+
+=92s broken immigration system and provide a pathway to citizenship for 11 
+million aspiring Americans.   So far Boehner has been unwilling to cross an
+ even smaller faction of anti-immigrant zealots like Congressman Steve King
+ and simply call a vote.
+
+l which is not only supported by a majority in the House but by 90% of the 
+American people. 
+
+in America=92s infrastructure to create jobs, and expand educational opport
+unity. 
+
+es unwilling to give an inch. A small extremist faction of one party, in on
+e House of Congress, in one branch of government, is holding America hostag
+e.  House Speaker John Boehner, Majority Leader Eric Cantor, and Whip Kevin
+ McCarthy are simply too terrorized by that small Tea Party faction to allo
+w votes on proposals that have the support of the vast majority of American
+s =96 and a majority of Members of the House.
+
+ady everyday people are suffering.  Like the children who are not allowed t
+o begin clinical trials to see if promising new therapies can stop their ca
+ncer =96 or the people whose vacations have been canceled by the closure of
+ our national parks =96 or the hundreds of thousands of workers who have be
+en laid off by the federal government =96 or the tens of thousands of busin
+ess owners who depend on those workers to patronize their cafes and stores.
+
+
+
+ld.
+
+in the last election.  They cannot pass what they want through the constitu
+tional process in Congress =96 so they have taken the country and its econo
+my hostage.
+
+ will back down from their refusal to negotiate with these hostage takers b
+ecause if they do, it will never end. Tea Party Republicans will take hosta
+ges again every time they have any opportunity.
+
+rt term, than to allow a tiny extremist group to use extra-constitutional m
+eans to extort whatever it wants from the majority for years to come. 
+
+ the outcome of the last election.   They talk endlessly about =93constitut
+ional government=94 but refuse to abide by the legislative process that the
+ constitution provides.
+
+ pretense that each side is somehow equally culpable in this =93standoff=94
+ and demand that Boehner allow a vote on the floor for a clean continuing r
+esolution and a clean increase in the debt ceiling.
+
+t democracy. #JustVote.
+
+gist, and author of the book:  Stand Up Straight: How Progressives Can Win,
+ available on domain.com. He is a partner in Democracy Partners and a Senio
+r Strategist for Americans United for Change. Follow him on Twitter @rbcrea
+mer.
+
+Robert Creamer
+Democracy Partners
+user@domain.com
+DC Office 202-470-6955
+Cell 847-910-0363
+
+Robert Creamer
+Democracy Partners
+user@domain.com
+847-910-0363
+
+--
+--
+You received this message because you are subscribed to the "big campaign" 
+group. Moderated by Aniello, Lori and Sara.
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+---
+You received this message because you are subscribed to the Google Groups "
+big campaign" group.
+To unsubscribe from this group and stop receiving emails from it, send an e
+mail to bigcampaign+user@domain.com
+To post to this group, send email to user@domain.com
+For more options, domain.com <<link>>

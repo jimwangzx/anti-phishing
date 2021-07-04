@@ -1,0 +1,72 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Fri, 7 Mar 2015 15:14:27 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s27NEA7N026763	for <user@domain.com>; Fri, 7 Mar 2015 
+ 23:14:10 GMT
+Received: from mail181-tx2-domain.com (mail-domain.com [65.55.88.112])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s27NDqnX021543	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Fri, 7 Mar 2015 23:13:52 GMT
+Received: from mail181-tx2 (localhost [127.0.0.1])	by
+ mail181-tx2-domain.com (Postfix) with ESMTP id 83A5A2023B	for
+ <user@domain.com>; Fri,  7 Mar 2015 23:14:09 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.128;KIP:(null);UIP:(null);SRV:BULK;H:mx128.b2b-domain.com;RD:mx128.b2b-domain.com;EFVD:NLI
+X-SpamScore: 6
+X-BigFish: vps6(z579ehzc89bh12dbKc857h77f5h609Izz1f42h2148he68I208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h10c0jzz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h1ce120hf9138oz2fh5eh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h25f6h2605h1361i214ai1155h1362h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail181-tx2: domain of b2b-domain.com designates 209.162.194.128 as permitted sender) client-ip=209.162.194.128; user@domain.com; helo=mx128.b2b-domain.com ;b2b-domain.com ;
+Received: from mail181-tx2 (localhost.localdomain [127.0.0.1]) by mail181-tx2
+ (MessageSwitch) id 1394234047897110_10442; Fri,  7 Mar 2015 23:14:07 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.234])	by
+ mail181-domain.com (Postfix) with ESMTP id D275624004E	for
+ <user@domain.com>; Fri,  7 Mar 2015 23:14:07 +0000 (UTC)
+Received: from mx128.b2b-domain.com (209.162.194.128) by
+ domain.com (10.9.99.132) with Microsoft SMTP Server id
+ 14.16.227.3; Fri, 7 Mar 2015 23:14:07 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=acton2012; d=techproductupdate.com;
+ h=Message-ID:Date:From: Tech Insider <admin@techproductupdate.com>
+ bh=VYBfW+SemFSENnrX6SH48VkWQ/c=;
+ b=ArycNacY7lYn3OBN1ChaPOxcht0OCIaCasZll/uQHKYK675ARC3qy/a1HWUEzvZG79nyABc/R2NN
+   XDjgsNf51g6X8hyhKHO+wMbbZe93KkmNXVGGiQaa9zYaP9REdUlIDHi3tDwz5rasOWC3PQOZMo24
+   1/ay/ByABSuRvr6TegI
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=acton2012; d=techproductupdate.com;
+ b=SxwAPwrA8OqrKW1TlIs5bYBv+ZJseP0/0gzBX0mxmDEtzByMA0iPwDBE+DwFw1tF0TDsaVjnicnn
+   PkCeS0WD2zVqH/YaW1TbFvHIpsHO8LP/bg8OFkBXRihw1hl+1qgySHBQGP2lAsi5N7Md6LlMTnF8
+   Dv60dMD7/EKvKPuN2HQ=;
+Received: from 10.10.40.64 (172.16.0.16) by mx128.b2b-domain.com id h399bu1lgdc2
+ for <user@domain.com>; Fri, 7 Mar 2015 08:33:07 -0800 (envelope-from
+ <user@domain.com>)
+Message-ID: <BZTCBUVTB$UWCXVTCCBAWXZ@10.10.40.64>
+Date: Fri, 7 Mar 2015 08:33:07 -0800
+From: Tech Insider <admin@techproductupdate.com>
+Reply-To: Tech Insider <user@domain.com>
+To: AMY PASCAL <user@domain.com>
+Subject: Why a "Freeware" Isn't Worth It: Calculating the Total Cost of
+ Protection
+X-MESSAGEID: WCZX.rEUUUV.KVWHK.mEWUVGEVYUX
+X-COD: ^^184.169.176.89/acton/delivery?accountid=2853&msuid=s-201a-1403&rcptid=l-0001%3Ae12be&srcid=q-03b9
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Why a "Freeware" Isn't Worth It: Calculating the Total Cost of Protection
+
+View this message in a browser   Please add user@domain.com to your address book to ensure properly delivery        
+
+TechProduct Update       
+
+Why a "Freeware" Isn't Worth It: Calculating the Total Cost of Protection
+
+Humorist Franklin P. Jones may have said it best: “When you get something for nothing, you just haven't been billed for it yet.” These are wise words of warning for businesses counting on so-called “free” IT security software. 
+
+Kaspersky Lab has created an eBook to help you calculate the true cost of protecting your business infrastructure, intelligence, and reputation. Download this whitepaper to learn about:
+
+• The hidden cost of complexity
+• The price of poor protection
+• The performance trickle-down effect
+• The bitter aftertaste of a sweet deal...and more!
+

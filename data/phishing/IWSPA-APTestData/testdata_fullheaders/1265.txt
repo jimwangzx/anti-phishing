@@ -1,0 +1,140 @@
+Delivered-To: user@domain.com
+Received: by 10.229.104.197 with SMTP id q5cs145323qco;
+        Mon, 25 Oct 2015 12:24:22 -0700 (PDT)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.216.6.132 as permitted sender) client-ip=10.216.6.132;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.216.6.132 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.216.6.132])
+        by 10.216.6.132 with SMTP id 4mr772256wen.20.1288034662091 (num_hops = 1);
+        Mon, 25 Oct 2015 12:24:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:received:received:message-id:From: Nita Chaudhary <nita@moveon.org>
+         :mime-version:subject:date:x-mailer:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-type;
+        bh=ubRCEr5m5uBfVdmQElpoCiZfsGFA1Oe/5YinjYwy01Y=;
+        b=1exloxuB9Cm0O+GrwfaNXfV7k1T8djvLVcxaI5ex3hu/pHglJdxdWjM1vcQ8e6/95X
+         WFdzmw5T1LlN4RPl0re//p1ZH1DsaG+4WHW1u1gY2ltUB9AU3CwsnZeQLajjog/Md4zx
+         iUVJNTdxMIGlNCZ9bbzJh0oO93gPbZQ8NPBRE
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:message-id:From: Nita Chaudhary <nita@moveon.org>
+         :date:x-mailer:x-original-sender:x-original-authentication-results
+         :reply-to:precedence:mailing-list:list-id:list-post:list-help
+         :list-archive:sender:list-unsubscribe:content-type;
+        b=HvyHJkakm4tc4mermY/crHASRb97cTXZYA+TniWMFC8XWPxClgrOIEMUllxXU+ZU7m
+         x2JP472U9XT853gPCV2Cy2UvrmeIk/Ye+E68ZUJfD3s1+du7h98gMxd319wPzL50N6/I
+         pr8lk76pOd6YkMNxalLHuTdiGqnfyxm+DQQlg
+Received: by 10.216.6.132 with SMTP id 4mr175019wen.20.1288034639840;
+        Mon, 25 Oct 2015 12:23:59 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.14.35.221 with SMTP id u69ls58137eea.7.p; Mon, 25 Oct 2015 
+ 12:23:58 -0700 (PDT)
+Received: by 10.14.29.14 with SMTP id h14mr599033eea.18.1288034638321;
+        Mon, 25 Oct 2015 12:23:58 -0700 (PDT)
+Received: by 10.14.29.14 with SMTP id h14mr599032eea.18.1288034638267;
+        Mon, 25 Oct 2015 12:23:58 -0700 (PDT)
+Received: from mail-ew0-domain.com (mail-ew0-domain.com [209.85.215.50])
+        by gmr-domain.com with ESMTP id t3si3716027eeh.3.2010.10.25.12.23.58;
+        Mon, 25 Oct 2015 12:23:58 -0700 (PDT)
+Received-SPF: neutral (domain.com: 209.85.215.50 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=209.85.215.50;
+Received: by ewy5 with SMTP id 5so1820792ewy.23
+        for <user@domain.com>; Mon, 25 Oct 2015 12:23:58 -0700 (PDT)
+Received: by 10.213.113.144 with SMTP id a16mr790474ebq.32.1288034637243;
+        Mon, 25 Oct 2015 12:23:57 -0700 (PDT)
+Received: from [10.0.1.6] (216-15-61-94.c3-0.161-ubr4.lnh-161.domain.com [216.15.61.94])
+        by domain.com with ESMTPS id y8sm1738848vch.29.2010.10.25.12.23.55
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Mon, 25 Oct 2015 12:23:56 -0700 (PDT)
+Message-Id: <user@domain.com>
+From: Nita Chaudhary <nita@moveon.org>
+To: user@domain.com
+Mime-Version: 1.0 (Apple Message framework v936)
+Subject: [big campaign] MoveOn goes to bat for Grijalva
+Date: Mon, 25 Oct 2015 15:23:53 -0400
+X-Mailer: Apple Mail (2.936)
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=neutral (domain.com:
+ 209.85.215.50 is neither permitted nor denied by best guess record for domain
+ of user@domain.com) user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>,
+ <mailto:bigcampaign+user@domain.com>
+Content-Type: multipart/alternative; boundary=Apple-Mail-10-489788814
+
+Hey All - I just wanted you to know that MoveOn is running its first 
+ever Spanish-language ad for Grijalva. This is running at persuasion 
+levels in the district and will through Election Day. We literally 
+just released it and are very excited about the effort.
+
+You can watch it here <<link>>
+
+Release below. Let me know if you have any questions.
+
+Thx.
+
+--Nita
+domain.com
+Political Action
+For Immediate Release:                         Contact:
+Monday, October 25, 2015                        Doug Gordon/Eliza 
+Brinkmeyer (202) 822-5200
+
+*** See New Ad Here: <<link>> ***
+New TV Ad: MoveOn Makes
+Final Push For Grijalva
+MoveOn=92s First-Ever Spanish-Language Ad Urges Voters To Return
+Grijalva To Congress To Fight For Jobs And Education
+domain.com Political Action released its first-ever Spanish-language 
+television ad urging voters in Arizona=92s 7th Congressional District to 
+
+return Congressman Raul Grijalva to Congress to fight for jobs and 
+improve education.
+You can view the ad here: <<link>>
+The 30-second television ad, which will run on Spanish-language 
+television throughout Grijalva=92s district until Election Day, reminds 
+voters that Grijalva has always stood up and fought for them. The ad 
+highlights Grijalva=92s work to create good quality jobs in Arizona as 
+well as his work to fix the broken immigration system and improve 
+Arizona schools.
+=93Raul Grijalva is a true progressive champion and someone who fights 
+tirelessly for his constituents,=94 said Justin Ruben, MoveOn=92s 
+Executive Director. =93This ad reminds folks to vote next Tuesday and 
+makes clear why we all need Raul Grijalva in Congress.=94
+=93As a resident of Arizona=92s 7th district, I=92ve seen firsthand how har
+d 
+Raul Grijalva has fought for the working families in Arizona,=94 said 
+Daniel Garcia, a local MoveOn member and Grijalva constituent. =93I hope 
+
+that next Tuesday voters will remember that Raul Grijalva has 
+consistently worked to improve the lives of his constituents, 
+including fighting to bring jobs home and improve the education system.=94
+domain.com Political Action is a political action committee powered by 
+5 million progressive Americans. We believe in the power of small 
+donors and grassroots action to elect progressive leaders to office 
+and to advance a progressive agenda. We do not accept any donations 
+over $5,000, and the average donation to domain.com Political Action 
+is under $100.
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

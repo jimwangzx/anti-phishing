@@ -1,0 +1,80 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.3.4.5])
+	by domain.com (Postfix) with ESMTP id 01535536E78
+	for <user@domain.com>; Tue, 29 Nov 2015 11:08:09 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 919BF6FA336
+	for <user@domain.com>; Tue, 29 Nov 2015 11:08:06 -0500 (EST)
+Received: from 10.3.4.5 (adsl-67-127-38-241.domain.com [67.127.38.241])
+	by domain.com (Postfix) with SMTP
+	for <user@domain.com>; Tue, 29 Nov 2015 11:08:06 -0500 (EST)
+Received: from domain.com ([14.67.8.155])
+	by 10.3.4.5 with ESMTP id <290792-73871>;
+	Tue, 29 Nov 2015 16:13:09 +0000
+Message-ID: <nb$z$vw$0-5user@domain.com>
+From: "service" <service@paypal.com>
+To: <user@domain.com>
+Subject: PayPal Account (KMM15704117V21840L0KP)
+Date: Tue, 29 Nov 05 16:13:09 GMT
+X-Mailer: MIME-tools 5.503 (Entity 5.501)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="8.1A3.EDCE2EA"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ****************
+X-Spam-Status: Yes, score=16.5 required=5.0 tests=DATE_SPAMWARE_Y2K,
+	HTML_MESSAGE,HTML_MIME_NO_HTML_TAG,MIME_HTML_ONLY,
+	MIME_HTML_ONLY_MULTI,MISSING_MIMEOLE,MPART_ALT_DIFF,MSGID_RANDY,
+	RCVD_BY_IP,RCVD_HELO_IP_MISMATCH,RCVD_IN_BL_SPAMCOP_NET,
+	RCVD_IN_SORBS_WEB,RCVD_IN_XBL,RCVD_NUMERIC_HELO autolearn=spam 
+	version=3.0.2
+X-Spam-Report: 
+	*  3.9 DATE_SPAMWARE_Y2K Date header uses unusual Y2K formatting
+	*  0.1 RCVD_BY_IP Received by mail server with no name
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  2.2 RCVD_HELO_IP_MISMATCH Received: HELO and IP do not match, but should
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [67.127.38.241 listed in sbl-domain.com]
+	*  0.0 RCVD_IN_SORBS_WEB RBL: SORBS: sender is a abuseable web server
+	*      [67.127.38.241 listed in domain.com]
+	*  1.9 MSGID_RANDY Message-Id has pattern used in spam
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 50
+
+=0A=0A=0A	=0A=0A=0A=0A
+=0A
+=0A	=0A=0A=0A	=0A=0A=0A=0A=0A=0A	<
+td width=3D"400">=0A	=0A		=0A			Dear PayPal Member,
+
+=0AYour acc
+ount has been randomly flagged in our system as a part of our routine secu
+rity measures. =0AThis is a must to ensure that only you have access and u
+se of your PayPal account and to ensure a safe PayPal experience. We requi
+re all flagged accounts to verify their information on file with us. To ve
+rify your Information at this time, please domain.com our secure server webform
+ by clicking the hyperlink below=0A
+
+=0A =0A=0A=0A=0A	=0A		=0A			
+ Click here to verify your Information=0A		=0A	
+=0A=0A=0A=0A=0A
+=0A
+=0A
+=0A Thank you f
+or using PayPal!
+=0AThe PayPal Team=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0APlease do not reply to this e-mail. Mail sent=0Ato this address
+ cannot be answered. For assistance, log=0Ain

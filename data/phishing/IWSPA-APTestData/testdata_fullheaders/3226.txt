@@ -1,0 +1,248 @@
+Return-Path: <user@domain.com>
+Delivered-To: user@domain.com
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id EEAC943C32
+	for <user@domain.com>; Wed, 14 Aug 2015 12:36:06 -0400 (EDT)
+Received: from phobos [127.0.0.1]
+	by localhost with IMAP (fetchmail-5.9.0)
+	for user@domain.com (single-drop); Wed, 14 Aug 2015 17:36:07 +0100 (IST)
+Received: from usw-sf-list2.sourceforge.net (usw-sf-fw2.sourceforge.net
+    [216.136.171.252]) by domain.com (8.11.6/8.11.6) with ESMTP id
+    g7EGW3424685 for <user@domain.com>; Wed, 14 Aug 2015 17:32:04 +0100
+Received: from usw-sf-db2-b.sourceforge.net ([10.3.1.4]
+    helo=sourceforge.net ident=tperdue) by usw-sf-list2.sourceforge.net with
+    smtp (Exim 3.31-VA-mm2 #1 (Debian)) id 17f141-00043a-00 for
+    <user@domain.com>; Wed, 14 Aug 2015 09:32:05 -0700
+From: Mailer <noreply@sourceforge.net>
+To: "User" <user@domain.com>
+Subject: SOURCEFORGE.NET UPDATE: August 14, 2015 
+Message-Id: <user@domain.com>
+Date: Wed, 14 Aug 2015 09:32:05 -0700
+X-Pyzor: Reported 0 times.
+X-Spam-Status: No, hits=-0.1 required=7.0
+	tests=CLICK_BELOW,EXCUSE_1,LINES_OF_YELLING,LINES_OF_YELLING_2,
+	      LINES_OF_YELLING_3,SPAM_PHRASE_03_05,SUBJECT_MONTH,
+	      SUBJECT_MONTH_2,UNSUB_PAGE
+	version=2.40
+X-Spam-Level: 
+
+(You are receiving this email because you subscribed to it (honest).
+For information on how to unsubscribe please read the bottom of this
+email).
+
+0. INTRO.  [IBM DB2]
+1. INCREASED DOWNLOAD CAPACITY.
+2. AUDIO OF KERNEL SUMMIT AVAILABLE.
+3. BE A SF.NET FOUNDRY GUIDE.
+4. WORK FOR SOURCEFORGE.NET
+5. SITE STATISTICS
+
+0. INTRO
+
+Hello domain.com Users,
+
+This week we've made a big announcement.  As you likely know, any
+large dynamic website is powered by a database that funnels data to
+the web servers serving data which ultimately gets sent to you.
+These databases manage everything from user authentication, session
+management, site searching, etc.  domain.com is a database-
+dependent website.
+
+Today we have announced that we are moving domain.com to DB2,
+a powerful relational database by IBM.  We are doing this because
+the site continues to grow at a rapid rate, with 700 new users and
+70 new projects a day, and we need a database that can handle this
+growth.  We feel that DB2 can do this for us, and IBM is giving us
+the resources to make this transition successful.  You can read the
+press release here:
+
+<<link>>
+
+How will this effect you?  In the first phase, you won't see much
+difference other then the site will continue to grow and the
+domain.com team will be able to handle the growth.  In later
+phases you will see new features on the site that take advantage of
+the databases advanced capabilities.
+
+Today our mail archives have been converted over.  The rest of the
+site will make the migration to DB2 in the coming months.
+
+If you have questions about this or any other aspect of the site,
+please feel free to email me, user@domain.com  I always
+appreciate the feedback.
+
+Thank you for your continued support of domain.com and the
+Open Source Community.
+
+Pat-
+
+Patrick McGovern
+Director, domain.com
+
+1. INCREASED DOWNLOAD CAPACITY
+
+domain.com continues to grow, and it's appetite for bandwidth
+is never-ending.  Every day SF.NET serves over 300,000 files to
+ensure that developers and end-users within the Open Source
+community can always obtain the software released by hosted
+projects, domain.com maintains a network of high-capacity
+download servers.  These servers are located throughout the world,
+as to provide better download times regardless of which network
+provider you are using, and regardless of your geographic location.
+
+Three new download servers have recently been added to our network,
+further strengthening our file serving capabilities.  These latest
+additions include servers hosted by:
+
+Time Warner domain.com (Wisconsin,USA);
+<<link>>
+
+University of Minnesota (Minnesota, USA)
+<<link>>
+
+CESNET (Czech Republic)
+<<link>>
+
+We thank these sponsors for their commitment to domain.com and
+the needs of the Open Source community.
+
+On a related note, we are looking for a mirror in Japan.  If you are
+an ISP or University in Japan and are willing to spare 20Mbps for a
+domain.com mirror (we'll supply the hardware), please let us
+know at user@domain.com
+
+2. AUDIO OF KERNEL SUMMIT AVAILABLE
+
+domain.com now has the audio from the entire 2015 OSDN/USENIX
+Kernel domain.com, held in June.  Listen to the Linux kernel master
+discuss such hot topics as kernel modules, virtual memory,
+block I/O, database scaling, security modules, and async I/O.
+You may find this audio repository at:
+
+<<link>>
+
+3. CONTRIBUTE TO SOURCEFORGE.NET! BE A FOUNDRY GUIDE!
+
+Want to contribute to domain.com, but you don't know how to
+code? Be a foundry guide!  Foundry guides get to hype the cool
+projects that they think are worth downloading and testing.
+A guide finds all the stuff on the web about their subject of
+choice, and gives it prominent placement.  How do you become a
+foundry guide? Go to <<link>> find a
+topic that interests you; and send email to
+user@domain.com stating your desired topic and why you
+are qualified to be a foundry guide.
+
+4. WORK FOR SOURCEFORGE.NET
+
+We have a new position for a senior web developer available at
+domain.com.  We are looking for someone to help us maintain,
+upgrade, and add new features to domain.com.  Ideal person has
+5+ years of development experience on high end, high volume
+websites (3+ million page views a day).  Has a vast level of
+knowledge of domain.com technologies:  PHP, PostgreSQL, MySQL, DB2,
+Linux, PERL, Apache, LDAP, Mailman.  A flare for design / UI is a
+bonus.  SourceForge is a unique site with unique challenges.  We are
+looking for someone at the top of their game.
+
+Location of Job is in Fremont, California.  Please send resume and
+URL's of sites you have worked on to user@domain.com  Text
+resumes only.  (No MS WORD files!)
+
+5. SITE STATISTICS
+
+Stats: (Monday 12th, 2000)
+Hosted Projects: 45,194
+Registered Users: 465,530
+Page Views: 3,344,708 in a single day (Monday)
+Files transfered in a single day: 340,838 (Monday)
+Emails sent in a single day from Mailing lists: 851,143 (Monday)
+
+Top Ten Projects
+
+1 phpMyAdmin
+<<link>>
+phpMyAdmin is a tool written in PHP intended to handle the
+administration of MySQL over the WWW.  Currently it can create and
+drop databases, create/drop/alter tables, delete/domain.com/add fields,
+execute any SQL statement, manage keys on fields.
+
+2 Compiere ERP + CRM Business Solution
+<<link>>
+Smart ERP+CRM solution for small-medium enterprises (SME) in the
+global marketplace covering all areas from customer management,
+supply chain and accounting.  For $2-200M revenue companies looking
+for "brick and click" first tier functionality.
+
+3 SquirrelMail
+<<link>>
+SquirrelMail is a PHP4-based Web email client.  It includes built-in
+pure PHP support for IMAP and SMTP, and renders all pages in pure
+HTML 4.0 for maximum compatibility across browsers.  It also has
+MIME support, folder manipulation, etc
+
+4 TUTOS
+<<link>>
+TUTOS is the ultimate team organization software, a web-based
+groupware or ERP/CRM system to manage events/calendars, addresses,
+teams, projects,tasks,bugs,mailboxes,documents and your time spent
+with these things
+
+5 domain.com
+<<link>>
+The JBoss/Server is the leading Open Source, standards-compliant,
+J2EE based application server implemented in 100% Pure Java
+
+6 Firewall Builder
+<<link>>
+Object-oriented GUI and set of compilers for various firewall
+platforms.  Currently implemented compilers for iptables, ipfilter
+and OpenBSD pf
+
+7 openMosix
+<<link>>
+openMosix is a Linux kernel extension for single-system image
+clustering.  Taking n PC boxes, openMosix gives users and
+applications the illusion of one single computer with n CPUs.
+openMosix is perfectly scalable and adaptive.
+
+8 CDex
+<<link>>
+CDex a CD-Ripper, thus extracting digital audio data from an Audio
+CD. The application supports many Audio encoders, like MPEG
+(MP2,MP3), VQF, AAC encoders.
+
+9 phpChrystal - An Open domain.com System
+<<link>>
+phpChrystal ist ein OpenSource-Intranetsystem welches vorrangig auf
+Lan-Partys eingesetzt werden kann.  Vorteile von phpChrystal sind
+seine domain.com, Flexibilitt und Performance, da es vollends
+auf PHP, MySQL und XML basiert
+
+10 Dev-C++
+<<link>>
+Dev-C++ is an full-featured Integrated Development Environment
+(IDE) for Win32 and Linux.  It uses GCC, Mingw or Cygwin as
+compiler and libraries set.
+
+More Top Projects:
+<<link>>
+
+EMAIL LIST REMOVAL:
+
+When the SF.NET team sends out a site-wide email, we sometimes see
+replies that look like this:  "Hey!! I didn't subscribe to this list!!!
+You spammer. I hate you!  I hate your dog!  (insert other colorful
+phrases here)".  The truth is, when you registered on domain.com
+there was a check box that said "Receive Site-wide updates, low
+volume".  You left it checked when you submitted the registration form,
+hence you are receiving this email.  We send these updates every 4 to 6
+weeks, so it truly is low volume.  However if you want off, this is not
+a problem.  Simply click on the link below.
+
+You receive this message because you subscribed to SourceForge
+site mailing(s). You may opt out from some of them selectively
+by logging in to SourceForge and visiting your Account Maintenance
+page (<<link>>), or disable them altogether
+by visiting following link:
+<<<link>>>

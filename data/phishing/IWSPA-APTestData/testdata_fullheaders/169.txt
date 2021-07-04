@@ -1,0 +1,43 @@
+Delivered-To: user@domain.com
+Received: by 10.142.204.12 with SMTP id b12cs45757wfg;
+        Thu, 4 Dec 2015 09:30:23 -0800 (PST)
+Received: by 10.150.182.17 with SMTP id e17mr1061949ybf.58.1228411810166;
+        Thu, 04 Dec 2015 09:30:10 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-external-PLS-SMTP-01.ptt.gov (mail-pls-smtp-01.ptt.gov [72.164.179.5])
+        by domain.com with ESMTP id 2si7167837gxk.1.2008.12.04.09.30.09;
+        Thu, 04 Dec 2015 09:30:10 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 72.164.179.5 as permitted sender) client-ip=72.164.179.5;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 72.164.179.5 as permitted sender) user@domain.com
+X-HAT-SENDERGROUP: GROUPWARE_OUTBOUND
+X-HAT-SENDER_IP: 10.10.17.95
+X-IronPort-AV: E=Sophos;i="4.33,715,1220241600"; 
+   d="scan'208,217";a="216192"
+Received: from pls-excas-01.ptt.gov ([10.10.17.95])
+  by mail-internal-PLS-SMTP-01.ptt.gov with ESMTP; 04 Dec 2015 12:30:08 -0500
+Received: from MBX-01.ptt.gov ([10.10.17.97]) by PLS-EXCAS-01.ptt.gov
+ ([10.10.17.95]) with mapi; Thu, 4 Dec 2015 12:30:09 -0500
+From: Sara Latham <Sara.Latham@ptt.gov>
+To: "User" <user@domain.com>
+Date: Thu, 4 Dec 2015 12:30:09 -0500
+Subject: Pres. Carter
+Thread-Topic: Pres. Carter
+Thread-Index: AclWNfSmOeT/DTEUToObz2CadvJiyw
+Message-ID: <2user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/alternative;
+	boundary="_000_2D9BF548D5515F438B3AA0B0BE7BF5F63033541CF6MBX01pttgov_"
+MIME-Version: 1.0
+
+we had messages from ATPs office and Donna Brazile, that Pres. Carter was t
+rying to reach you
+
+they have the number but haven't yet called
+
+Donna say it's about Sanford Bishop and trying to lobby for Agriculture. Sh
+e just told him not to launch anything.
+

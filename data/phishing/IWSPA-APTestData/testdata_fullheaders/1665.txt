@@ -1,0 +1,86 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 29 May 2015 09:01:01 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4TG10fd029771	for <user@domain.com>; Thu, 29 May 2015 
+ 16:01:00 GMT
+Received: from mail116-va3-domain.com (mail-domain.com
+ [216.32.180.115])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s4TG2aJx018016
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 29 May 2015 16:02:37 GMT
+Received: from mail116-va3 (localhost [127.0.0.1])	by
+ mail116-va3-domain.com (Postfix) with ESMTP id D576C440487	for
+ <user@domain.com>; Thu, 29 May 2015 16:00:59 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.6;KIP:(null);UIP:(null);SRV:BULK;H:mx-prometheus-domain.com;RD:mx-prometheus-domain.com;EFVD:NLI
+X-SpamScore: -1
+X-BigFish: vps-1(z691I579eh6caIzc89bhe0f1hdc44he0eahc857h77f5hc3fbR2c2cqdc2kdbb0izz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah199bM1fc6h208chzz1d7338h1de098h1df219h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h1954cbh172c6ch164c38jz2fheh5fh839h8aahe5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h2565h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h214ai)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail116-va3: domain of domain.com designates 192.64.236.6 as permitted sender) client-ip=192.64.236.6; user@domain.com; helo=mx-prometheus-domain.com ;domain.com ;
+Received: from mail116-va3 (localhost.localdomain [127.0.0.1]) by mail116-va3
+ (MessageSwitch) id 1401379256761484_6909; Thu, 29 May 2015 16:00:56 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.232])	by
+ mail116-domain.com (Postfix) with ESMTP id B2EA33E00DD	for
+ <user@domain.com>; Thu, 29 May 2015 16:00:56 +0000 (UTC)
+Received: from mx-prometheus-domain.com (192.64.236.6) by
+ domain.com (10.7.99.33) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 29 May 2015 16:00:55 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: The Hollywood Reporter <email@e.prometheusgm.com>
+ bh=MeoeuhEPA9tH81hRTa6L9ViAUz4=;
+ b=HVgUfoW4bV7fnfNhWCqOm1MbHe7Ojqzs/myJkvCO5FJqfXVX6Y1548UzB7s41spYmfAvsSr8U1Ci
+   LPnLLqXotrdyHVkNcBRBs8kPs5OUOUliDl5TKe8lVmMXhjUBZ78Tf3aerFk6oe4n9AtKAHN5Fhir
+   gxum82IgoBw/jk93Qmc
+Received: from nyp1-p-p4338-prd-jma-07.sailthru.pvt (65.39.215.159) by
+ mx-prometheus-domain.com id hgtcs61qqbss for <user@domain.com>;
+ Thu, 29 May 2015 12:01:04 -0400 (envelope-from <user@domain.com>)
+Date: Thu, 29 May 2015 12:00:59 -0400
+From: The Hollywood Reporter <email@e.prometheusgm.com>
+To: <user@domain.com>
+Message-ID: <20140529160059.2695210.2305@domain.com>
+Subject: This Week's iPad: Robert Pattinson on Moving Past 'Twilight,'
+ Cold-Calling A-List Directors and Downsizing His Life
+Precedence: bulk
+X-TM-ID: 20140529160059.2695210.2305
+X-Info: Message sent by domain.com customer Circulation
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4338-prd-jma-07.sailthru.pvt
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stggb2693113
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+This Week's iPad: Robert Pattinson on Moving Past 'Twilight,' Cold-Calling A-List Directors and Downsizing His Life
+
+If you are unable to see the message below, click here to view. Please add user@domain.com to your address book to ensure delivery to your inbox. 
+
+What's new in this week's edition        
+
+         This Week On THR iPad   * THE MORNING AFTER TWILIGHT: Robert Pattinson was at the apex of his career. His response? He sold his $6 million house ("too big") and sidled up to A-list directors, two of whose movies he starred in at Cannes: "I don’t need anything. I don’t want anything at all."
+
+* SILICON BEACH POWER 25: Hollywood is transforming into a two-industry town fast as tech migrates south from the Valley (as in Silicon) to the Beach. The Hollywood Reporter breaks down the top players.
+
+* UCSB SHOOTER'S THERAPIST: Dr. Charles Sophy frequently dispenses advice on "Celebrity Rehab," has reportedly treated Paris Hilton and wanted suspect Elliot Rodger to take an anti-psychotic, but he never did.
+
+iPAD EXTRA: Video of Sandra Oh, Alyson Hannigan and 28 other supporting actor Emmy contenders gathering for THR's once-in-a-lifetime photo.
+
+
+
+
+         INFORMATION TO ACCESS YOUR iPad® SUBSCRIPTION CAN BE FOUND HERE. 
+
+Get this week's issue    
+
+Subscribers must first download The Hollywood 
+

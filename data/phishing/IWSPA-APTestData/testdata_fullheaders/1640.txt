@@ -1,0 +1,211 @@
+Delivered-To: user@domain.com
+Received: by 10.229.12.196 with SMTP id y4cs250991qcy;
+        Fri, 8 Oct 2015 07:02:54 -0700 (PDT)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.44.3 as permitted sender) client-ip=10.229.44.3;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.44.3 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.229.44.3])
+        by 10.229.44.3 with SMTP id y3mr612600qce.38.1286546573725 (num_hops = 1);
+        Fri, 08 Oct 2015 07:02:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:received:From: David Donnelly <ddonnelly@campaignmoney.org>
+         :thread-topic:thread-index:message-id:accept-language
+         :x-ms-has-attach:x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-originalarrivaltime:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-language:content-type;
+        bh=gCcGa7sSlie21UfnWZYz0KBsxHmk75dQSsu2Evajkdg=;
+        b=qnkgYe3am7VwYEFsZgd+NbGA2ay5bEBu+089Egan3HMAIKeBIULvleDIc+w0Q4KlcL
+         6AlE39TjTk7rRpIuopIcyuvZdcluvamkkA6D3f0IASdodrp68/kK9LcAUee7XzGptC40
+         MPPrL+0gx1l8YlpYG9DcgHNs+nsOcRLy+NCjM
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:From: David Donnelly <ddonnelly@campaignmoney.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-originalarrivaltime:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-language:content-type;
+        b=F6YRJRfrKeb1Gy7sTmZC6gqGnapMlFiNKHzl7dF5ZYZk13ZCJgfQv/+IOwFc0iMAb4
+         ETJ2fb6pGwptzH2v70ezGe9edxpfh+0tqyV2dPOWUrCs3Fy13mxsYqzrIJXmKLw8GKYf
+         NISYPRXamDtXRXIIyI3AnOL+9NYTHQSEce8hQ
+Received: by 10.229.44.3 with SMTP id y3mr122434qce.38.1286546552202;
+        Fri, 08 Oct 2015 07:02:32 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.229.177.9 with SMTP id bg9ls20251qcb.1.p; Fri, 08 Oct 2015 
+ 07:02:31 -0700 (PDT)
+Received: by 10.229.211.129 with SMTP id go1mr314775qcb.8.1286546551419;
+        Fri, 08 Oct 2015 07:02:31 -0700 (PDT)
+Received: by 10.229.211.129 with SMTP id go1mr314774qcb.8.1286546551372;
+        Fri, 08 Oct 2015 07:02:31 -0700 (PDT)
+Received: from domain.com ([206.205.33.98])
+        by gmr-domain.com with ESMTP id mz6si1365271qcb.13.2010.10.08.07.02.31;
+        Fri, 08 Oct 2015 07:02:31 -0700 (PDT)
+Received-SPF: neutral (domain.com: 206.205.33.98 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=206.205.33.98;
+Received: from domain.com ([192.168.132.10]) by domain.com with Microsoft SMTPSVC(5.0.2195.6713);
+	 Fri, 8 Oct 2015 10:02:27 -0400
+Received: from domain.com ([fe80::31b4:9998:34e8:3f02]) by
+ domain.com ([fe80::31b4:9998:34e8:3f02%12]) with mapi; Fri, 8 Oct
+ 2015 10:02:27 -0400
+From: David Donnelly <ddonnelly@campaignmoney.org>
+To: "User" <user@domain.com>
+Date: Fri, 8 Oct 2015 10:02:25 -0400
+Subject: [big campaign] Making the Chamber foreign money story stick to Boehner
+Thread-Topic: Making the Chamber foreign money story stick to Boehner
+Thread-Index: Actm8W9CzHZrTIOSOUWUPoswF9m2VQ
+Message-ID: <C8D49CB1.2E0EF%user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-OriginalArrivalTime: 08 Oct 2015 14:02:27.0991 (UTC) FILETIME=[710B5270:01CB66F1]
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=neutral (domain.com:
+ 206.205.33.98 is neither permitted nor denied by best guess record for domain
+ of user@domain.com) user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>,
+ <mailto:bigcampaign+user@domain.com>
+Content-Language: en
+Content-Type: multipart/alternative;
+	boundary="_000_C8D49CB12E0EFddonnellycampaignmoneyorg_"
+
+All,
+
+We just sent out a release and a backgrounder to reporters in advance of Bo
+ehner's speech in Ohio today. Anything you all can do to amply this would b
+e great.
+
+Here are five questions for Boehner: <<link>>
+er/five-questions-for-boehner
+
+Here is the release: <<link>>
+ber-advertising
+
+DD
+
+Five Questions for Mr. Boehner About Corporate and Foreign Money in Our Ele
+ctions
+
+To: Reporters
+ From: David Donnelly <ddonnelly@campaignmoney.org>
+ Date: October 8, 2015 
+
+Background
+
+Rep. Boehner will speak today at a manufacturing plant in West Chester, OH 
+that is owned by United Group Services. The owners of the plant are all lon
+g-time donors to Boehner and other Republicans. As Roll Call reported today
+ <<<link>>> , "Mark Mosley, Daniel Freese 
+and Kevin Sell, three top executives at the [United Groups Services], have 
+contributed thousands to Boehner as well as other Republican candidates, ac
+cording to Federal Election Commission records."
+
+All week long, there have been questions raised about the U.S. Chamber of C
+ommerce receiving foreign corporate dues and buying attacks ads against Dem
+ocrats with funds that could include this money. When asked questions about
+ the commingling of foreign and domestic dues, a Chamber spokeswoman said, 
+"We don't feel obligated to answer that."
+
+At least 22 Republican House candidates are benefiting from nearly $5 milli
+on in advertising this week from the Chamber.
+
+Outside special interest groups are not required to disclose their donors b
+ecause the DISCLOSE Act was opposed by Republicans in Congress. These group
+s are spending tens of millions of dollars, overwhelmingly largely for Repu
+blicans.
+
+Questions
+
+Rep. Boehner, as a leader of his party, ought to answer questions from the 
+media regarding what he thinks of the outside money in general and the poss
+ibility that the Chamber is using foreign corporate dues to fund its multi-
+million dollar ad buys. Here are five questions:
+
+ 1.  Do you believe special interest groups - Democratic or Republican - sh
+ould be able to spend unlimited sums in elections anonymously without accou
+ntability?
+ 2.  Do you believe the Chamber should provide evidence that the foreign mo
+ney it raises isn't funding ads?
+ 3.  If the Republicans take the House, can you give us any major policy ma
+tter that you'd oppose the Chamber on, or are the Chamber and Republican le
+adership in lockstep together?
+ 4.  If you become speaker, what legislation will you advance to ensure ele
+ctions are transparent?
+ 5.  Do you think it's right that an organization like the Chamber that sup
+ports outsourcing of jobs is also apparently outsourcing funding for its op
+eration?
+
+These questions, obviously, are not exhaustive. But we encourage members of
+ the news media to find out what the man who wants to be Speaker thinks abo
+ut the influence of corporate money in the 2015 elections.
+
+Boehner urged to repudiate Chamber of Commerce's controversial advertising
+Watchdog group demands Boehner stand up to Chamber's reported use of foreig
+n corporate money; sends letters to five Democratic House members
+
+Washington, DC - Stepping up its pressure on candidates benefiting from con
+troversial political spending by the U.S. Chamber of Commerce, the nonparti
+san Campaign Money Watch called on Republican Minority Leader John Boehner 
+and five congressional Democrats to speak out against the use of foreign co
+rporate money in the elections.
+
+The move came one day after the group sent letters to 31 separate federal c
+andidates to urge them to tell the Chamber to pull advertising in their rac
+es because of the controversy surrounding the Chamber's acceptance of forei
+gn corporate money into the same account from which it makes political adve
+rtising expenditures.
+
+"John Boehner is auditioning to lead the People's House, but if he gets tha
+t job, it will be largely because these elections were bought with special 
+interest money," said David Donnelly, Campaign Money Watch's Director. "If 
+John Boehner wants to show he's a true leader, he will speak out today abou
+t the foreign corporate money raised by the U.S. Chamber of Commerce - an o
+rganization that is spending tens of millions to give him the gavel. To not
+ do so can only be understood as acquiescing to the hijacking of our electi
+ons by corporate special interests, or the buying of his silence.
+
+"Whether we are Democrats, Republicans, or independents, we can all agree t
+hat foreign corporate money has no role in our elections," continued Donnel
+ly. "All candidates benefiting from the Chamber's spending - including the 
+five Democrats for whom the Chamber began advertising yesterday - should sp
+eak out."
+
+The U.S. Chamber reportedly began advertising yesterday to promote the cand
+idacies of five Democrats: Reps. Frank Kratovil (MD-01), Bobby Bright (AL-0
+2), Glenn Nye (VA-02), Dan Boren (OK-02), and John Barrows (GA-12).
+
+"After spending $10.5 million earlier this week attacking Democrats, it wil
+l be interesting to note how much the Chamber is spending in these five dis
+tricts praising them," Donnelly said.
+
+Of the five, Rep. Kratovil is the only cosponsor of the Fair Elections Now 
+Act (HR 6116), which would place elections into the hands of everyday voter
+s. All five Democrats voted against the DISCLOSE Act, which would have requ
+ired that the sources of the funding of the advertising now running in thei
+r districts was made publicly available.
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

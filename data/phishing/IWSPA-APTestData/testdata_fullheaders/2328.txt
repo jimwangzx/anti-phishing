@@ -1,0 +1,85 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 24 Apr 2015 12:49:10 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s3OJn9OV014884	for <user@domain.com>; Thu, 24 Apr 2015 
+ 19:49:09 GMT
+Received: from mail110-ch1-domain.com (mail-domain.com
+ [216.32.181.173])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s3OJn3Mb018089
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 24 Apr 2015 19:49:04 GMT
+Received: from mail110-ch1 (localhost [127.0.0.1])	by
+ mail110-ch1-domain.com (Postfix) with ESMTP id A4760420437	for
+ <user@domain.com>; Thu, 24 Apr 2015 19:48:02 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:207.46.163.244;KIP:(null);UIP:(null);IPV:NLI;H:na01-by2-domain.com;RD:reserved;EFVD:RES
+X-SpamScore: 0
+X-BigFish: vps0(z569dhzc85fhe0eah19feIddc2hde40hzz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1fc6h208chzz1de098h8275bh18c673h1de097hz2ei793h109h2a8h839hbe3he5bh1288h12a5h12bdh137ah13eah1441h1504h1537h153bh162dh1631h1758h18e1h1946h19b5h19ceh1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2152h2216h22d0h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26c8h26d3h2709h34h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: neutral (mail110-ch1: 207.46.163.244 is neither permitted nor denied by domain of ceeyouth.org) client-ip=207.46.163.244; user@domain.com; helo=na01-by2-domain.com ;.domain.com ;
+X-Forefront-Antispam-Report-Untrusted: SFV:NSPM;SFS:(10019001)(6009001)(66544003)(199002)(189002)(66066001)(76482001)(83322001)(46102001)(54356999)(50986999)(99396002)(4396001)(99936001)(16236675002)(77096999)(74502001)(87936001)(81542001)(221733001)(77982001)(83072002)(85852003)(79102001)(86362001)(99286001)(81342001)(31966008)(80976001)(74662001)(20776003)(80022001)(36756003)(2656002)(92726001)(92566001);DIR:OUT;SFP:1102;SCL:1;SRVR:BY2PR08MB126;H:domain.com;FPR:BCF259F4.A7AB9D1A.EBE7DE9B.F4487C78.2013B;MLV:sfv;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+Received: from mail110-ch1 (localhost.localdomain [127.0.0.1]) by mail110-ch1
+ (MessageSwitch) id 1398368860866904_22708; Thu, 24 Apr 2015 19:47:40 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.246])	by mail110-domain.com (Postfix) with ESMTP id BF94980115
+	for <user@domain.com>; Thu, 24 Apr 2015 19:47:40 +0000 (UTC)
+Received: from na01-by2-domain.com (207.46.163.244)
+ by domain.com (10.43.70.13) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Thu, 24 Apr 2015 19:47:36 +0000
+Received: from domain.com (10.141.142.143) by
+ domain.com (10.242.39.26) with Microsoft SMTP
+ Server (TLS) id 15.0.921.12; Thu, 24 Apr 2015 19:48:36 +0000
+Received: from domain.com ([10.141.142.143]) by
+ domain.com ([10.141.142.143]) with mapi id
+ 15.00.0921.000; Thu, 24 Apr 2015 19:48:36 +0000
+From: Paul Cummins <paul@ceeyouth.org>
+To: Amy Pascal <user@domain.com>
+Subject: A request
+Thread-Topic: A request
+Thread-Index: AQHPX/YtKqqoJ+wzHUWntbomnM9ttA
+Date: Thu, 24 Apr 2015 19:48:35 +0000
+Message-ID: <CF7EB89A.23605%user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [24.43.93.254]
+x-forefront-prvs: 01917B1794
+X-OriginatorOrg: ceeyouth.org
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A request
+
+Dear Amy,
+
+I'm looking forward to meeting and catching up. 
+
+Meanwhile, we (Coalition of Engaged Education, formerly New Visions Foundation), are doing our first-ever fundraiser "Poetic Justice," and I was hoping that SONY might take a sponsorship page (they range from $2,500 on up). Each sponsor's name will be on a separate page with a lovely quote from a poem. 
+
+The sponsorship opportunities and the SAVE the DATE are attached.
+
+See you soon,
+
+Paul
+
+Paul Cummins
+
+President and CEO
+
+Coalition for Engaged Education
+
+(formerly New Visions Foundation)
+
+424-272-9909
+
+Attachments:
+
+        Poetic Justice Sponsorship Opportunities 2014.pdf (522133 Bytes)
+
+        Poetic-Justice-e-invite[2].jpeg (249719 Bytes)
+

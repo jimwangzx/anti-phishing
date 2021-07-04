@@ -1,0 +1,73 @@
+Delivered-To: user@domain.com
+Received: by 10.141.33.12 with SMTP id l12cs52869rvj;
+        Tue, 27 May 2015 08:46:05 -0700 (PDT)
+Received: by 10.151.111.15 with SMTP id o15mr327857ybm.166.1211903165002;
+        Tue, 27 May 2015 08:46:05 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2526.domain.com (yw-out-2526.domain.com [74.125.46.34])
+        by domain.com with ESMTP id 9si19329241yws.5.2008.05.27.08.46.03;
+        Tue, 27 May 2015 08:46:05 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.34 as permitted sender) client-ip=74.125.46.34;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.34 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2526.domain.com with SMTP id 5so1816842ywo.40
+        for <user@domain.com>; Tue, 27 May 2015 08:46:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to:received:received:received-spf:authentication-results:received:received:received:in-reply-to:references:mime-version:content-type:message-id:cc:From: Jason Rosenbaum <jrosenbaum@progressivemediausa.org>
+        bh=BrRn3BRVo0S1ZvoFXEujiWtTm0aUvIVA5uj2pxFlRv0=;
+        b=OHIwU6cb8FQyuPwJduI1Fj0Zgwuv6nk7jNfyI+HV8tB2H2tR795SJEdSyp2QoXjaJmFy7oIlhkcEZui+bPD9GcZz8SHlimxhrkkURtVdV+3qVuuBWGuot9/W0kX1vQydUsBjMh1mTJxkziyw1VVEjwCQrc+S1dDd1w37jA6D4N8
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results:in-reply-to:references:mime-version:content-type:message-id:cc:From: Jason Rosenbaum <jrosenbaum@progressivemediausa.org>
+        b=WNPOrEM0ZLJl2WacU2bPzGzKwcSC1Sr6ACjCRoqyS/liuqnhcWIDtx/7H0FizulXzM2Pvx2kJ9ypGZMFNy7g12dZPkCl3eL8afRjkHq9kpUkD9kN8oR+kPRnFVoK0SpvD5RB29OVKT2CUHJ9PnkTGI7yXXT/Ny9Nqy+qV1TOIqI
+Received: by 10.114.204.7 with SMTP id b7mr97708wag.16.1211903157027;
+        Tue, 27 May 2015 08:45:57 -0700 (PDT)
+Received: by 10.106.234.8 with SMTP id g8gr662prh.0;
+	Tue, 27 May 2015 08:45:43 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.115.50.5 with SMTP id c5mr410180wak.7.1211903143431; Tue, 27 May 2015 08:45:43 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-1718.domain.com ([172.21.6.34]) by domain.com with ESMTP id 22si136142963yxr.2.2008.05.27.08.45.43; Tue, 27 May 2015 08:45:43 -0700 (PDT)
+Received-SPF: neutral (domain.com: 172.21.6.34 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=172.21.6.34;
+Authentication-Results: domain.com; spf=neutral (domain.com: 172.21.6.34 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by yx-out-1718.domain.com with SMTP id 34so128104yxf.74 for <user@domain.com>; Tue, 27 May 2015 08:45:43 -0700 (PDT)
+Received: by 10.150.82.27 with SMTP id f27mr4112028ybb.137.1211903142912; Tue, 27 May 2015 08:45:42 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ?192.168.180.124? ( [38.104.30.142]) by domain.com with ESMTPS id 62sm80688wri.30.2008.05.27.08.45.21 (version=TLSv1/SSLv3 cipher=RC4-MD5); Tue, 27 May 2015 08:45:34 -0700 (PDT)
+In-Reply-To: <00b601c8c00e$08732c60$19598520$@org>
+References: <00b601c8c00e$08732c60$19598520$@org>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="Apple-Mail-10--479941363"
+Message-Id: <3user@domain.com>
+CC: user@domain.com
+From: Jason Rosenbaum <jrosenbaum@progressivemediausa.org>
+Subject: [big campaign] Re: McCain offers a third Bush term - research
+ attached
+Date: Tue, 27 May 2015 11:42:56 -0400
+To: user@domain.com
+X-Mailer: Apple Mail (2.753)
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+
+For those who would like a link, all of this information is available 
+at <<link>>
+
+________________________
+Jason Rosenbaum
+New Media
+Progressive Media USA
+
+Work: (202) 609-7707
+Cell: (914) 806-1939
+
+<<link>>
+

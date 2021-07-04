@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.203 with SMTP id e194csp417551lfb;
+        Tue, 23 Sep 2015 11:36:11 -0700 (PDT)
+X-Received: by 10.224.103.65 with SMTP id j1mr2111551qao.17.1411497370555;
+        Tue, 23 Sep 2015 11:36:10 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qa0-domain.com (mail-qa0-domain.com [2607:f8b0:400d:c00::234])
+        by domain.com with ESMTPS id e4si13312779qar.93.2014.09.23.11.36.10
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 23 Sep 2015 11:36:10 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c00::234 as permitted sender) client-ip=2607:f8b0:400d:c00::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c00::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qa0-domain.com with SMTP id dc16so1976340qab.25
+        for <user@domain.com>; Tue, 23 Sep 2015 11:36:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Wendy <wabrams1@gmail.com>
+         :message-id:date:to;
+        bh=DlJgbChnM8i/B3sx91nJPJOQrI+2zgt6ART+n8P/YYg=;
+        b=EgI5uwSAonafrbpAI3b1y71ddNaQsM/xwqHRpJbwTAFnliilaSXluXQwAxx13zFHpP
+         213M/LpxkBN/4u1cJhzG+kAG51/RhawSpARo9bMCMjQfxyI4pg1Rvd1WOepalmyuXwH9
+         UKTwVnkIAGkhHtlSU6m/7KhJQjTi0qOk6mYWhZbWpxK+be1aCXzCKt0r8tS+UlQUcdgJ
+         r4hRYxKIWTKuOP5s57hCAbqhyGAYM+eXxckm9lIb/BEoBOrcfqNtJo/NKo5okUo4aZzy
+         KV3Mr4f2+LnXBUQibRnnxLq2uielqh6sIp7nkhi32ZEPCaBcR3bWCwp4HE2qyE9+CWPY
+         vPtw
+X-Received: by 10.140.92.98 with SMTP id a89mr1946980qge.85.1411497370038;
+        Tue, 23 Sep 2015 11:36:10 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [10.213.156.62] (mobile-107-107-59-250.domain.com. [107.107.59.250])
+        by domain.com with ESMTPSA id m2sm6702013qaf.34.2014.09.23.11.36.08
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 23 Sep 2015 11:36:08 -0700 (PDT)
+From: Wendy <wabrams1@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+Subject: President's speech
+Message-Id: <79user@domain.com>
+Date: Tue, 23 Sep 2015 14:36:06 -0400
+To: "User" <user@domain.com>
+X-Mailer: iPhone Mail (12A365)
+
+I'm really surprised (especially during climate week in NYC) that the Presid
+ent never even uttered the words "climate change" during his entire speech a
+t CGI
+Wow
+
+Sent from my iPhone

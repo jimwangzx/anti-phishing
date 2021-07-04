@@ -1,0 +1,38 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp3405611lfb;
+        Tue, 22 Dec 2015 15:16:32 -0800 (PST)
+X-Received: by 10.140.227.199 with SMTP id x190mr38371832qhb.46.1450826192194;
+        Tue, 22 Dec 2015 15:16:32 -0800 (PST)
+Return-Path: <>
+Received: from bos-exch01.thecolonygroup.com (BOS-EXCH01.thecolonygroup.com. [104.129.77.55])
+        by domain.com with ESMTPS id 134si11408696qhz.5.2015.12.22.15.16.31
+        for <user@domain.com>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 22 Dec 2015 15:16:32 -0800 (PST)
+Received-SPF: pass (domain.com: best guess record for domain of bos-exch01.thecolonygroup.com designates 104.129.77.55 as permitted sender) client-ip=104.129.77.55;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: best guess record for domain of bos-exch01.thecolonygroup.com designates 104.129.77.55 as permitted sender) smtp.mailfrom
+Received: from BOS-EXCH01.thecolonygroup.com ([fe80::5946:88ce:bdfe:89f4%14])
+ by BOS-EXCH01.thecolonygroup.com ([fe80::5946:88ce:bdfe:89f4%14]) with
+ Microsoft SMTP Server id 14.03.0123.003; Tue, 22 Dec 2015 18:16:31 -0500
+From: Bob Glovsky <rglovsky@thecolonygroup.com>
+To: John user <user@domain.com>
+Subject: Automatic reply: Thank you
+Thread-Topic: Thank you
+Thread-Index: AQHRPQ7Kat+44oRD6ESrPP7bYfUPCA
+Date: Tue, 22 Dec 2015 23:16:31 +0000
+Message-ID: <3user@domain.com>
+References: <46user@domain.com>,<CAE6FiQ_bhC2_JwXWv60kNSis_meot3PZePM=T+r2LT+user@domain.com>
+In-Reply-To: <CAE6FiQ_bhC2_JwXWv60kNSis_meot3PZePM=T+r2LT+user@domain.com>
+X-MS-Has-Attach: 
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: user@domain.com
+X-MS-TNEF-Correlator: 
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+I will be out of the office until Monday, January 4th. I will have limited 
+access to email so if you need immediate assistance, please contact my assi
+stant, Jeanie Kirkiles, user@domain.com and she can direct you
+ to an appropriate person.

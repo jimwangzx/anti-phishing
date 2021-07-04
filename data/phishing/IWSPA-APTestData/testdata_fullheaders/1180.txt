@@ -1,0 +1,47 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1631872lfr;
+        Fri, 11 Sep 2015 08:45:11 -0700 (PDT)
+X-Received: by 10.170.173.1 with SMTP id p1mr54056196ykd.101.1441986311003;
+        Fri, 11 Sep 2015 08:45:11 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::230])
+        by domain.com with ESMTPS id y145si402692ywa.64.2015.09.11.08.45.10
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 11 Sep 2015 08:45:10 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::230 as permitted sender) client-ip=2607:f8b0:4002:c07::230;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::230 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-yk0-domain.com with SMTP id i199so94682158yke.0
+        for <user@domain.com>; Fri, 11 Sep 2015 08:45:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Neera Tanden <ntanden@gmail.com>
+         :content-type;
+        bh=kjIzIDdPhJirtdldtMRCN7y/JrN5NTHuWcMG/urKsfM=;
+        b=FAWXYACqA/j38aIlj3gVc5yxpfuMbd43o7CAmLzL1dD7rg0+t5/+cOpsgQoIbhNw09
+         nM+Bx12fo6D8fn48zOfoL0XbfRJtoeU0vdPU6kqez8LEz71x2mwcGytr+5v+ua0u+mwJ
+         0OQ8HiaFXW5FRyxceCu1iyUwF+rxL/nkioIIkLyFkmH82n24Tj+iQVRfeKQTUPtMuxZJ
+         YC5wzhA3xQjnJsxxrOBDZI1pwQ1H4/5oAfPEc++Os+Ppa25ZF7GbrB0dl+AlT6wmfcho
+         a8EW1URPj0lKyj9ZZsfKS684RT8yQK04uqxzL+hkL2FuD2wYaIsNTFyv256R9QKUcE1D
+         IbyQ
+MIME-Version: 1.0
+X-Received: by 10.129.116.84 with SMTP id p81mr54446993ywc.1.1441986310325;
+ Fri, 11 Sep 2015 08:45:10 -0700 (PDT)
+Received: by 10.129.43.70 with HTTP; Fri, 11 Sep 2015 08:45:10 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+Date: Fri, 11 Sep 2015 11:45:10 -0400
+Message-ID: <CAJiTYQaWkjpA=S9yz_Q5J93kW3O3wkGZgO3-zTDLWiv38-z+5user@domain.com>
+Subject: Re: Do you know Kate's Leone's husband's name?
+From: Neera Tanden <ntanden@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1141cd9acc4e67051f7a991a
+
+No idea
+
+Thanks for coming in on the call!!!  I feel much better about where we are.
+
+On Fri, Sep 11, 2015 at 11:43 AM, John user <user@domain.com>

@@ -1,0 +1,86 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 15 Jan 2015 11:19:14 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0FJJDRt028467	for <user@domain.com>; Wed, 15 Jan 2015 
+ 19:19:13 GMT
+Received: from mail80-tx2-domain.com (mail-domain.com [65.55.88.115])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0FJJCNc007050	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Wed, 15 Jan 2015 19:19:13 GMT
+Received: from mail80-tx2 (localhost [127.0.0.1])	by mail80-tx2-domain.com
+ (Postfix) with ESMTP id 595A93A00B6	for <user@domain.com>; Wed, 15
+ Jan 2015 19:19:12 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.105;KIP:(null);UIP:(null);IPV:NLI;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(zzc545Ic89bhc857hdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1defc1h1def86h1de097h1de096h186068h172c6ch1ce120h1a691ciz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh2327h2336h2438h2461h2487h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail80-tx2: domain of domain.com designates 192.64.236.105 as permitted sender) client-ip=192.64.236.105; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail80-tx2 (localhost.localdomain [127.0.0.1]) by mail80-tx2
+ (MessageSwitch) id 138981355020200_26700; Wed, 15 Jan 2015 19:19:10 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.252])	by
+ mail80-domain.com (Postfix) with ESMTP id E4BC82A004A	for
+ <user@domain.com>; Wed, 15 Jan 2015 19:19:09 +0000 (UTC)
+Received: from mx-domain.com (192.64.236.105) by domain.com
+ (10.9.99.127) with Microsoft SMTP Server id 14.16.227.3; Wed, 15 Jan 2015 
+ 19:18:54 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1389813534;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=DAA0wGjqGP6Z1s+RqQjbccdKZBTLxQ4zW8G+EeCSlFw=;
+	b=bF4b+tlSDcU2yqHKPKiKQKRj3Ow1B7TOiG/8Ee0KV+UFYcNsdZdExElxFfpbkCuq
+	yVns6FJfjsU7R1MC4xk2qkJDjipvdbCRxXq2Fflw27QWWFvui6ts7mJArdFZVRSMWK+
+	nMQmqem8vSispmFDEoSH89i/KsX/XpReWlKU91Uk
+Date: Wed, 15 Jan 2015 14:18:54 -0500
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140115191854.2355785.19805@domain.com>
+Subject: Robert Redford Says Sundance Lineup Is a Return to Indie Roots
+Precedence: bulk
+X-TM-ID: 20140115191854.2355785.19805
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.105
+X-IADB-IP-REVERSE: 105.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2355785
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Robert Redford Says Sundance Lineup Is a Return to Indie Roots
+
+Robert Redford’s recent awards-season campaign has doubled as a walking advertisement for the Su... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Wednesday, January 15, 2015     
+
+​ 
+
+<<link>> 
+
+        Robert Redford Says Sundance Lineup Is a Return to Indie Roots          
+
+        Robert Redford’s recent awards-season campaign has doubled as a walking advertisement for the Sundance Film Festival. “All Is Los...            
+
+        Full Story              
+
+
+
+
+Subscribe to Other Variety Newsletters   
+

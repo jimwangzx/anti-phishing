@@ -1,0 +1,58 @@
+Delivered-To: user@domain.com
+Received: by 10.52.170.175 with SMTP id an15csp11855vdc;
+        Wed, 25 Jan 2015 10:44:06 -0800 (PST)
+Return-Path: <user@domain.com>
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.236.177.6 as permitted sender) client-ip=10.236.177.6;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.236.177.6 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.236.177.6])
+        by 10.236.177.6 with SMTP id c6mr27222126yhm.42.1327517045540 (num_hops = 1);
+        Wed, 25 Jan 2015 10:44:05 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Cheryl Mills <cheryl.mills@gmail.com>
+         :content-type:content-transfer-encoding;
+        bh=nNw/KsR8sSF5uCxVjsqWy7u7FqOGWJtudPyFf6KuBUM=;
+        b=Q4pTr4z+v0kTeSMjx2Igw2NfDDg1R1fGR9AjhlwgJnlMd/yFfBw9luULmq4356jnDc
+         2Gz25Yjs3WPq6s7FJXOlPy/RsASpYL98dZ/C4XIErzUCLTv9GdWEm4ufBDbq2A/CU3uU
+         +Y2f6OK4pSf+cLAbnZsLyXwEEsVPyOknowN8Y
+MIME-Version: 1.0
+Received: by 10.236.177.6 with SMTP id c6mr27222126yhm.42.1327517045533; Wed,
+ 25 Jan 2015 10:44:05 -0800 (PST)
+Received: by 10.147.166.5 with HTTP; Wed, 25 Jan 2015 10:44:05 -0800 (PST)
+In-Reply-To: <CAE6FiQ-1V+user@domain.com>
+References: <4user@domain.com>
+	<CALk44aBNVTZSst3SpQpKL34+oShG1eDwkx+user@domain.com>
+	<CALk44aD5W=ofVLbFceVUZQ8h+2VxK5acgTH5rEkLxPaJk0b+_user@domain.com>
+	<CAE6FiQ-1V+user@domain.com>
+Date: Wed, 25 Jan 2015 13:44:05 -0500
+Message-ID: <user@domain.com>
+Subject: Re: Please see the proposed budget attached.
+From: Cheryl Mills <cheryl.mills@gmail.com>
+To: John user <user@domain.com>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Thank god you made me laugh about this.
+
+I feel like we are just replacing one disfunction with another.  And I
+am going to tell him that to no avail, but why not?  I think he needs
+different leadership for his PO operation.
+
+I called Victoria to re apportionment on things like IT, HR,
+corespondence - which as we all know is fine b/c we have been doing it
+but what we now also know is how imprefectly that accounting was being
+done (e.g., correspondence reported to justin that very little if any
+time was spent on non-foundation matters so they didn't need to turn
+in any hours).
+
+She said fine but said there always is domain.com risk that will show
+inaccurate apportionment hence why most folks of privilge just prefer
+to pay it themselves to avoid the risk.
+
+sigh.
+
+He's of course out despite an agreed time to speak at noon (and still
+not back yet) so I know this will drag on until tonight.
+
+cdm
+

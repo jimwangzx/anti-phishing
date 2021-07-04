@@ -1,0 +1,73 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp238482lfr;
+        Sat, 3 Oct 2015 08:57:04 -0700 (PDT)
+X-Received: by 10.140.39.168 with SMTP id v37mr27594037qgv.24.1443887824373;
+        Sat, 03 Oct 2015 08:57:04 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ZIXGATEWAY01.revolution.com (zixgateway01.revolution.com. [216.230.115.57])
+        by domain.com with ESMTP id j51si15313311qga.77.2015.10.03.08.57.04
+        for <user@domain.com>;
+        Sat, 03 Oct 2015 08:57:04 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 216.230.115.57 as permitted sender) client-ip=216.230.115.57;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 216.230.115.57 as permitted sender) user@domain.com
+Received: from 127.0.0.1 (ZixVPM [127.0.0.1])
+	by Outbound.revolution.com (Proprietary) with SMTP id 212D12307E4
+	for <user@domain.com>; Sat,  3 Oct 2015 11:55:45 -0400 (EDT)
+Received: from REV02EXCH01.revolution.ad (rev02exch01.revolution.ad [10.41.105.20])
+	(using TLSv1.2 with cipher AES128-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by ZIXGATEWAY01.revolution.com (Proprietary) with ESMTPS id 099852307D7;
+	Sat,  3 Oct 2015 11:55:45 -0400 (EDT)
+Received: from REV02EXCH01.revolution.ad ([fe80::997f:f67a:38e2:f713]) by
+ REV02EXCH01.revolution.ad ([fe80::997f:f67a:38e2:f713%12]) with mapi id
+ 14.03.0235.001; Sat, 3 Oct 2015 11:57:03 -0400
+From: Ron Klain <ron.klain@revolution.com>
+To: Jake Sullivan <user@domain.com>
+CC: Robby Mook <user@domain.com>, John user <user@domain.com>
+Subject: RE: TPP & Glass Steagall
+Thread-Topic: TPP & Glass Steagall
+Thread-Index: AQHQ/fIud3WHspfVF0uSREsQP6VUN55Z6pax
+Date: Sat, 3 Oct 2015 15:57:03 +0000
+Message-ID: <user@domain.com>
+References: <user@domain.com>,<5696018752632724747@unknownmsgid>
+In-Reply-To: <5696018752632724747@unknownmsgid>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [69.143.208.196]
+Content-Type: multipart/alternative;
+	boundary="_000_F652FD7157F3814886D064763C7EADD81608865CREV02EXCH01revo_"
+MIME-Version: 1.0
+X-VPM-MSG-ID: d9471a4e-7c8d-400a-91de-7627ac326935
+X-VPM-HOST: ZIXGATEWAY01.revolution.com
+X-VPM-GROUP-ID: 44a33ded-89e3-43b7-9b3a-7c80baa78d7b
+X-VPM-ENC-REGIME: Plaintext
+X-VPM-IS-HYBRID: 0
+
+The Volker Rule only bans transactions, not structures.  I think should cou
+ld go farther to get to structures as well, domain.com with a bit of wiggle roo
+m perhaps by allowing a more generous hold co structure such as what had ar
+isen on the eve on GLB in the 1990s.  And yes, by imposing structural separ
+ation, you are "downsizing," in that you are not allowing all that is curre
+ntly under one roof to be under one roof.
+
+Perhaps that puts me all the way at Warren;s bill -- I don't know it that w
+ell -- but perhaps it is still short of that.  My point was that you can av
+oid the flip flop claim here by ruling out a return to Glass Steagall itsel
+f, while still giving Warren most of what she wants.
+________________________________
+From: Ron Klain <ron.klain@revolution.com>
+Sent: Saturday, October 3, 2015 11:42 AM
+To: Ron Klain
+Cc: Robby Mook; John user
+Subject: Re: TPP & Glass Steagall
+
+Thanks Ron. On Glass Steagall, that's what a stronger Volcker Rule does whi
+ch is what she is for, but what about requiring banks to downsize?
+
+I agree with you on TPP but others (including on this email!) feel strongly
+ to the contrary.
+
+On Oct 3, 2015, at 11:39 AM, Ron Klain <user@domain.com<mailto:ron

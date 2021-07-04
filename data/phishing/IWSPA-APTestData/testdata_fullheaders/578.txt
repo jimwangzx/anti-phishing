@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp2893769lfi;
+        Wed, 15 Apr 2015 15:04:05 -0700 (PDT)
+X-Received: by 10.112.139.130 with SMTP id qy2mr19500774lbb.33.1429135444188;
+        Wed, 15 Apr 2015 15:04:04 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-la0-domain.com (mail-la0-domain.com. [2a00:1450:4010:c03::236])
+        by domain.com with ESMTPS id dh4si3025490lac.35.2015.04.15.15.04.03
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 15 Apr 2015 15:04:04 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::236 as permitted sender) client-ip=2a00:1450:4010:c03::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-la0-domain.com with SMTP id y10so25266836lay.0;
+        Wed, 15 Apr 2015 15:04:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: "Vikram J. Singh" <vjs2001@gmail.com>
+        bh=xZ0zqp2b9HQuzpNn7nONceIiAay6Ct1WJpq3bmwdBbI=;
+        b=vUAESMvOalek/Z7A4y18Cm1XCXthu/LyjpNHGooImuAkUi0JxDqcmBXVM0qKSbEmxF
+         md9teRhqyDqTy3g2UBgPBRnt4G6AmXQKCjPs7XhsL3b0XFWkrZ9Ro1XMnCRkL49bSqtA
+         6btnODAlHpi0sSyY2rzFmGupHsv8Tid8JEuPDxPRXy+gyzaOtBRUvitJMcne3YBNXFa9
+         PIIERHRN1pN27mKNQJdrAAjH2ceO9txToa8k6n+D8HQ6O0l/Mq1I2npbuxlaT8IDKMUy
+         E6OIOFJWx16+JbvM4pybUSEzBVg7hEBAq5bifqHsoLYWIMD9VVwbWoaPVjhAKYDrKKD3
+         xyeQ
+MIME-Version: 1.0
+X-Received: by 10.152.19.132 with SMTP id f4mr25486511lae.115.1429135443507;
+ Wed, 15 Apr 2015 15:04:03 -0700 (PDT)
+Received: by 10.152.22.232 with HTTP; Wed, 15 Apr 2015 15:04:03 -0700 (PDT)
+Date: Wed, 15 Apr 2015 18:04:03 -0400
+Message-ID: <user@domain.com>
+Subject: Unison Project April 24th
+From: "Vikram J. Singh" <vjs2001@gmail.com>
+To: John user <user@domain.com>, Eryn Sepp <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e01494180723e730513ca8655
+
+Hi John and Eryn,
+
+The next meeting of the Unison Project -- the informal meetings of
+young(ish) progressive foreign policy types thinking about 2015 --  will be
+Friday the 24th from 2 to 4PM. We rotate hosting and this meeting will be
+here in 2 large. Let me know if you would be interested in dropping in.
+Jake may make it.
+
+We'll have the agenda next Weds, but basically we will be brainstorming how
+to handle the GOP's various narratives on national security, discussing a
+draft Middle East document and a draft "framework" document prepared by
+members of the group.
+
+I will send Eryn a list of members.
+
+Best,
+
+Vikram

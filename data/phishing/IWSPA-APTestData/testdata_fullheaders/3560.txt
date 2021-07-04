@@ -1,0 +1,104 @@
+Delivered-To: user@domain.com
+Received: by 10.220.98.73 with SMTP id p9cs67182vcn;
+        Wed, 2 Sep 2015 19:17:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.220.15.205 as permitted sender) client-ip=10.220.15.205;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.220.15.205 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.220.15.205])
+        by 10.220.15.205 with SMTP id l13mr20839209vca.18.1251944277187 (num_hops = 1);
+        Wed, 02 Sep 2015 19:17:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received:received-spf:received:mime-version
+         :content-type:received:date:message-id:subject:From: Denise Cardinal <denise@allianceminnesota.org>
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=CFQdyX4E61LgcJxKVz1EVOXn6vGXyThYVezGI9Ycyzc=;
+        b=nt5B23qH37D09FEpGpXMWqjlCwTRhlgD++2WknD+y4G+Go+h1UiCZipYlLJw92OmAy
+         CYN3RevvYeUviZrf2SoUQGrf8fKedWHR02DoS2B3ZzP/qd0RTfm8yZBJRXlHlGeF8R+j
+         jAbkUDC2J4N8BvvzU08QMaKrbRU9RDOaudz2w
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :mime-version:content-type:date:message-id:subject:From: Denise Cardinal <denise@allianceminnesota.org>
+         :reply-to:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=RGmTJPU3Bworg1IoVc7sTs3glZhqDQDE6a6AFPHErco0qePoVZIUqklZYB4RBlTzCY
+         ZlvkFU9iLKt//jvoiwiN2yP5E57pOM5Hb1wPosMApf2jvFCFxlfkTfmrE0BpVeM+CJMu
+         3bLXCqTMyF806qUm1dwlndhe8CBJ1zRQiB1oc
+Received: by 10.220.15.205 with SMTP id l13mr3094701vca.18.1251944269898;
+        Wed, 02 Sep 2015 19:17:49 -0700 (PDT)
+Received: by 10.230.31.142 with SMTP id y14gr3424vbc.0;
+	Wed, 02 Sep 2015 19:17:45 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.150.142.5 with SMTP id p5mr6281588ybd.2.1251944263934; Wed, 02 Sep 2015 19:17:43 -0700 (PDT)
+Received: by 10.150.142.5 with SMTP id p5mr6281587ybd.2.1251944263911; Wed, 02 Sep 2015 19:17:43 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-iw0-domain.com (mail-iw0-domain.com [209.85.223.175]) by gmr-domain.com with ESMTP id 18si83373ywh.13.2009.09.02.19.17.43; Wed, 02 Sep 2015 19:17:43 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.223.175 as permitted sender) client-ip=209.85.223.175;
+Authentication-Results: gmr-domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.223.175 as permitted sender) user@domain.com
+Received: by mail-iw0-domain.com with SMTP id 5so578916iwn.4 for <user@domain.com>; Wed, 02 Sep 2015 19:17:43 -0700 (PDT)
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="0015175dd81c1adfc30472a2fda6"
+Received: by 10.231.29.73 with SMTP id p9mr8863508ibc.37.1251944263507; Wed,  02 Sep 2015 19:17:43 -0700 (PDT)
+Date: Wed, 2 Sep 2015 21:17:43 -0500
+Message-ID: <94user@domain.com>
+Subject: [big campaign] STUPID ON A STICK: MN GOP Stunt on Health Care
+From: Denise Cardinal <denise@allianceminnesota.org>
+To: user@domain.com
+CC: Joe Davis <user@domain.com>
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+A lot of you probably have heard of the Minnesota State Fair. Chocolate
+covered bacon on a stick, the butter sculpture, all you can drink milk for
+$1, and cheese curds.....hmmmm.....cheese curds....
+
+Anyhoo, a couple days ago things got stupid. The MN GOP is hosting a contest
+-- giving $2,500 to whomever waits in line the longest at their booth. They
+say it's good practice for Obama Care (GET IT? HILARIOUS RIGHT?)
+
+My fantastic staff came up with an idea of showing how dumb this is, by
+doing a little math -- showing how much health insurance companies are
+making in profits during that same time, how much money they're spending on
+lobbying during that same time and how many people are losing health
+insurance at the same time. You can read Joe's post about it here:
+
+<<link>>
+
+We are looking for: lots of link love -- blow up how dumb this is, please.
+Also, any other stats we should include? We're doing a daily media
+email/tweet campaign/blog update with the new numbers as a way to keep it
+going, but thought you all might have some other ideas. you can email me, or
+joe (ccd' on this).
+
+We'll let you know if anything else comes of it. Enjoy the rest of summer,
+
+Denise Cardinal
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

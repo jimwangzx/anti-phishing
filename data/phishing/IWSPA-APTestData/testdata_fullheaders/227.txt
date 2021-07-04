@@ -1,0 +1,73 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp3583129lfb;
+        Fri, 26 Feb 2015 11:07:48 -0800 (PST)
+X-Received: by 10.13.194.134 with SMTP id e128mr1711015ywd.57.1456513667962;
+        Fri, 26 Feb 2015 11:07:47 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-yw0-domain.com (mail-yw0-domain.com. [2607:f8b0:4002:c05::236])
+        by domain.com with ESMTPS id y2si3914568ywe.350.2016.02.26.11.07.47
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 26 Feb 2015 11:07:47 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c05::236 as permitted sender) client-ip=2607:f8b0:4002:c05::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c05::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: by mail-yw0-domain.com with SMTP id g127so65956505ywf.2
+        for <user@domain.com>; Fri, 26 Feb 2015 11:07:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=catholicsinalliance-domain.com; s=20150623;
+        h=From: frotondaro@catholicsinalliance.org
+         :to;
+        bh=STTMYwLuxQ3sOSkxzfE+kt09+X5Al8llGeUtm1bc32U=;
+        b=kkSIQaNw0Yvcuu+t6kCuO5AGYAt1iPTsRUG/N3rvOTIMxSO015HjstBoo+2SfF3icU
+         MxS0FOdOxyfMvcJwbts8q4F14GUr0b6nrM5y+SSI2x7g3k/t8+51KwxhZJlyfmeq0hSn
+         jWM0VOoJj5rLgayhEeRBBIiCpdGH6qRUY+3vJDL50JK+fA3mhm2DXQaHJiW0UQ0+wvAO
+         rUocm9bmjsGZl14du89Kz7O5uQWUSsr9Po9G4KEbSg5GSkSw3vRUj/Y58cO0K1MSvFmw
+         5cI4sBi0ksdv7UEwx3ySc7vTE3iFZsm3+GIsxtElYb/dpKTuLsuZMVMkbLTy0Qem9XEM
+         l+nw
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: frotondaro@catholicsinalliance.org
+         :subject:message-id:date:to;
+        bh=STTMYwLuxQ3sOSkxzfE+kt09+X5Al8llGeUtm1bc32U=;
+        b=Eb48m0DowfRnD99ZIzz9NkEsHgFKO/uUcS7Sr0ln85p9Kl4caAgke3RRXRF7FjaZpT
+         hlmlR58sbmK1vwOKCcAlV//HmLKAbeHXsZiA2SfBPINUVAQHvuAbBPGSfdjAoyexOT88
+         JV91MKUcgdB04YDTpskEFhBp9mX42QtNhY/hEOV06BmUKVz5R0SKlVSNAN1RNaAhqb1y
+         gIW18va7zagNLT0c3pLGSyFPev7AsoG1LpmZQcacyLhLoug/KkpPP1qk0bohGqgn+OBb
+         qxXiHTqUI271Ua73uGZSLhKL4TofdPSc1E0rUrnw5EP2JzFDHYKy7it5/DuKiCbcmtUT
+         xX/g
+X-Gm-Message-State: AD7BkJJrH20yEmOMyposRk8eHiuAD33y5hrraOAaQtHqgCxYEeTSAlfT3Or6qSC/+rFZMw
+X-Received: by 10.129.103.134 with SMTP id b128mr1754833ywc.287.1456513667628;
+        Fri, 26 Feb 2015 11:07:47 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2601:585:4202:a230:c970:d079:c5df:e7c0? ([2601:585:4202:a230:c970:d079:c5df:e7c0])
+        by domain.com with ESMTPSA id r8sm10855641ywb.20.2016.02.26.11.07.46
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Fri, 26 Feb 2015 11:07:46 -0800 (PST)
+From: frotondaro@catholicsinalliance.org
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+Subject: John, 
+Message-Id: <user@domain.com>
+Date: Fri, 26 Feb 2015 14:07:45 -0500
+To: John user <user@domain.com>, 
+ John user <user@domain.com>
+X-Mailer: iPad Mail (12F69)
+
+   You likely saw Nancy  Pelosi's comments praising Sen Sanders for bringing
+ millennials into the political  process and saying they only wanted fairnes
+s and opportunity.
+   I think this is the perfect tone to take with these voters.
+   I have been dismayed  in the last few weeks to see both Pres and Sec Clin
+ton talk about these voters as wanting impossible things, or as Mitt Romney m
+ight say, free things.
+   I do 't see how this language helps at all.
+   Sec Clinton does not need millennials  to win the nomination. She may nee
+d them to win the election. They should be embraced  
+
+Fred
+
+Sent from my iPad

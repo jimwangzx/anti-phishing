@@ -1,0 +1,60 @@
+Delivered-To: user@domain.com
+Received: by 10.239.189.129 with SMTP id t1cs19589hbh;
+        Tue, 29 Dec 2015 11:31:37 -0800 (PST)
+Received: by 10.229.129.26 with SMTP id m26mr2936766qcs.97.1262115095950;
+        Tue, 29 Dec 2015 11:31:35 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from njp-domain.com (mail.njp-domain.com [205.162.41.22])
+        by domain.com with ESMTP id 39si19338889qyk.16.2009.12.29.11.31.33;
+        Tue, 29 Dec 2015 11:31:34 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 205.162.41.22 as permitted sender) client-ip=205.162.41.22;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 205.162.41.22 as permitted sender) user@domain.com; dkim=hardfail user@domain.com
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=njp-domain.com; s=dkim; q=dns/txt; h=Date:Message-ID:From: The Almanac of American Politics <aap@njp-media.com>
+Date: Tue, 29 Dec 2015 13:31:33 -0600 (CST)
+Message-ID: <4user@domain.com>
+From: The Almanac of American Politics <aap@njp-media.com>
+Sender: The Almanac of American Politics <user@domain.com>
+Reply-To: The Almanac of American Politics <user@domain.com>
+To: user@domain.com
+Subject: Limited time offer: 50% OFF!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary=----4Oz1cemcew-hExiba87AnP0ceh.mw
+X-MailSessionID: 4Oz1cemcew-hExiba87AnP0ceh.mw.1262115092390
+Referer: <<link>>
+List-Unsubscribe: <<<link>>>
+
+50% OFF! Only until January 8th!
+
+Dear Colleague,
+
+If you haven't already purchased your copy of the 2015 edition of The Alman
+ac of American Politics, now is the time to act. Order by January 8th and s
+ave 50% off the cover price!
+
+The 2015 edition includes:
+=E2=80=A2  A statistical breakdown of the 2015 presidential vote by state a
+nd congressional district
+=E2=80=A2  In-depth profiles and photographs of every governor, senator and
+ House members
+=E2=80=A2  Updated demographic information for every district and state fro
+m the Census Bureau=E2=80=99s American Community Survey
+=E2=80=A2  More than 60 state and congressional district maps, census data 
+and information on everything from campaign expenditures to voting records 
+to interest group ratings and more
+=E2=80=A2  Michael Barone=E2=80=99s expert predictions of winners and loser
+s in 2015 redistricting
+
+Download a sample profile: <<link>>
+aMvrfaiDzt3gk
+
+Two easy ways to order:
+=E2=80=A2  Use this online order form: <<link>>
+ew-hExibcuqPaMvrfqiDzt3gk
+=E2=80=A2  Call us at 800-356-4838
+
+National Journal Group =E2=80=A2 The Watergate =E2=80=A2 600 New Hampshire 
+Ave NW =E2=80=A2 Washington, DC 20037
+
+Don't want to receive any more offers? Click here to unsubscribe: <<link>>
+p-domain.com/portal/unsubscribe/?FiM1K5kgtLy4cxdlp0YTQc8I1UC%2FcuXWA

@@ -1,0 +1,72 @@
+Delivered-To: user@domain.com
+Received: by 10.142.185.14 with SMTP id i14cs71008wff;
+        Sun, 18 Jan 2015 08:23:46 -0800 (PST)
+Received: by 10.214.242.17 with SMTP id p17mr792404qah.367.1232295826101;
+        Sun, 18 Jan 2015 08:23:46 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com [69.25.74.167])
+        by domain.com with ESMTP id 5si9463440ywd.52.2009.01.18.08.23.45;
+        Sun, 18 Jan 2015 08:23:46 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.25.74.167 as permitted sender) client-ip=69.25.74.167;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 69.25.74.167 as permitted sender) user@domain.com
+Received: by mta-domain.com (Postfix, from userid 610)
+	id 2724C249ADA20; Sun, 18 Jan 2015 11:14:58 -0500 (EST)
+Date: Sun, 18 Jan 2015 11:14:58 -0500
+To: John user <user@domain.com>
+From: "David Plouffe, BarackObama.com" <info@barackobama.com>
+Reply-to: user@domain.com
+Subject: What are you doing tomorrow?
+Message-ID: <0771user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.72-blue_mailer]
+X-maillist-id: 78bd104659fc37df
+X-maillist-guid: CgdXWAJtUQwHVwEFBVMGWAVaAwVQUQ
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_0771b236bd73ea727bd7b691bf7ed55e"
+
+John --
+
+In your neighborhood and in thousands of communities across the country, 
+Americans are answering President-elect Obama's call to service.
+
+Tomorrow, January 19th, our nation will come together in a shared domain.com 
+of community. And I wanted to make sure you know how to participate.
+
+Monday is not only the eve of an inauguration that brings all of us so 
+much hope, it's also Martin Luther King Jr. Day -- when we recognize the 
+power of one man to bring about change by serving his country.
+
+Help kick off an ongoing commitment to serve our communities by taking 
+part in this extraordinary day of service.
+
+Sign up to attend or host an event in your community and help rebuild 
+America one neighborhood at a time:
+
+<<link>>
+
+The grassroots movement you helped build was always about more than an 
+election.  It's about bringing much needed change to Washington and our 
+communities.
+
+Barack is calling on us to help rebuild our country. He knows what can 
+happen when ordinary people turn their hopes into real action.
+
+Take the first step this Monday, January 19th, by joining a service event 
+near you.  Sign up now:
+
+<<link>>
+
+Thanks,
+
+David
+
+David Plouffe
+Campaign Manager
+Obama for America
+
+---------------------------------------------------------------------
+Paid for by Obama for America
+This email was sent to: user@domain.com
+To unsubscribe, go to: <<link>>
+

@@ -1,0 +1,101 @@
+Return-Path: <user@domain.com>
+Delivered-To: user@domain.com
+Received: from localhost (jalapeno [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 1C65916F1F
+	for <user@domain.com>; Wed,  9 Oct 2015 10:51:25 +0100 (IST)
+Received: from jalapeno [127.0.0.1]
+	by localhost with IMAP (fetchmail-5.9.0)
+	for user@domain.com (single-drop); Wed, 09 Oct 2015 10:51:25 +0100 (IST)
+Received: from domain.com (domain.com [193.172.5.4]) by
+    domain.com (8.11.6/8.11.6) with ESMTP id g996IjK22331 for
+    <user@domain.com>; Wed, 9 Oct 2015 07:18:46 +0100
+Received: from domain.com (localhost [127.0.0.1]) by domain.com
+    (8.11.6/8.11.6/EGWN) with ESMTP id g996G1f09135; Wed, 9 Oct 2015 08:16:01
+    +0200
+Received: from domain.com (domain.com [206.13.28.240])
+    by domain.com (8.11.6/8.11.6/EGWN) with ESMTP id g996FAf08636 for
+    <user@domain.com>; Wed, 9 Oct 2015 08:15:10 +0200
+Received: from eecs.berkeley.edu ([63.192.217.110]) by domain.com
+    (domain.com Messaging Server 5.1 (built May  7 2001)) with ESMTP id
+    <0user@domain.com> for user@domain.com;
+    Tue, 08 Oct 2015 23:15:08 -0700 (PDT)
+From: Ben Liblit <liblit@eecs.berkeley.edu>
+Subject: Re: RedHat 8.0 and his own freetype
+To: user@domain.com
+Message-Id: <3user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="Boundary_(ID_xjiotMI3LbV/zJ0Zs39NiA)"
+X-Accept-Language: en-us, en
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.1) Gecko/20020827
+References: <20021004155451.52user@domain.com>
+    <3user@domain.com>
+    <20021008202424.67user@domain.com>
+X-Mailscanner: Found to be clean, Found to be clean
+Sender: user@domain.com
+Errors-To: user@domain.com
+X-Beenthere: user@domain.com
+X-Mailman-Version: 2.0.11
+Precedence: bulk
+Reply-To: user@domain.com
+List-Help: <mailto:user@domain.com?subject=help>
+List-Post: <mailto:user@domain.com>
+List-Subscribe: <<<link>>>,
+    <mailto:user@domain.com?subject=subscribe>
+List-Id: Freshrpms RPM discussion list <rpm-domain.com>
+List-Unsubscribe: <<<link>>>,
+    <mailto:user@domain.com?subject=unsubscribe>
+List-Archive: <<<link>>>
+X-Original-Date: Tue, 08 Oct 2015 23:15:07 -0700
+Date: Tue, 08 Oct 2015 23:15:07 -0700
+X-Spam-Status: No, hits=-0.1 required=5.0
+	tests=AWL,KNOWN_MAILING_LIST,RCVD_IN_MULTIHOP_DSBL,
+	      RCVD_IN_UNCONFIRMED_DSBL,REFERENCES,T_NONSENSE_FROM_40_50,
+	      USER_AGENT,USER_AGENT_MOZILLA_UA,X_ACCEPT_LANG
+	version=2.50-cvs
+X-Spam-Level: 
+
+Following further study, I've concluded:
+
+   1. It is easy to enable the bytecode interpreter.
+
+   2. This noticeably improves rendering of non-antialiased text.
+
+   3. This noticeably *harms* rendering of antialiased text.
+
+Point #3 probably surprises the rest of you as much as it surprised me. 
+  Ever since turning on the bytecode interpreter, I've been bugged by a 
+sense that the antialiased text in my GNOME2 applications just looked, 
+well, wrong somehow.  I finally took some comparison screen shots with 
+and without the interpreter, and that made the difference crystal clear.
+
+Consider the two images attached below.  The first, "no-bytecodes.png", 
+shows some text rendered by a GNOME2 panel menu without the bytecode 
+interpreter.  Contrast this with the second, "bytecodes.png", taken with 
+the bytecode interpreter enabled.
+
+When the bytecode interpreter is turned on, notice that several 
+rendering anomalies appear:
+
+   - Several letters are narrower, giving the whole run of text a more
+     compressed feel.  This is especially noticeable in "R" and "o".
+
+   - The left side of the "Q" is painted in too light a shade of grey,
+     causing it to drop out somewhat.  "C", not in this sample, has the
+     same problem.
+
+   - "Qu" are set right up against each other, with insufficient
+     whitespace between them.
+
+   - "M" is distinctly asymmetric.
+
+   - The enclosed loop of "a" looks muddy, as it is partially filled
+     with grey.  Contrast with "a" drawn without the bytecode
+     interpreter, which has a nice clear open loop.
+
+Ick.  Perhaps this is why Red Hat turned the bytecode interpreter off. 
+It may improve non-antialiased rendering, but only at the expense of 
+making a mess of antialiased rendering.
+
+This may come down to a matter of personal aesthetics, but for my part, 
+I'm going back to Red Hat's standard packages with the bytecode 
+interpreter turned *off*.

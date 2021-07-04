@@ -1,0 +1,54 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id 4CF5E4685C
+	for <user@domain.com>; Mon, 24 Nov 2015 10:35:18 -0500 (EST)
+X-Greylist: delayed 7049 seconds by postgrey-1.27 at domain.com; Mon, 24 Nov 2015 10:35:18 EST
+Received: from domain.com (domain.com [209.205.129.60])
+	by domain.com (Postfix) with SMTP id 0C496131F76F
+	for <user@domain.com>; Mon, 24 Nov 2015 10:35:17 -0500 (EST)
+Received: (qmail 29592 invoked by uid 89); 24 Nov 2015 13:15:37 -0000
+Received: from static-71-251-217-250.domain.com (HELO SERVER) (test@71.251.217.250)
+  by domain.com with SMTP; 24 Nov 2015 13:15:37 -0000
+From: "Capital One"<service@capitalone.com>
+Subject: Capital One - Important news about your account
+Date: Mon, 24 Nov 2015 08:13:36 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20081124153518.0user@domain.com>
+To: undisclosed-recipients:;
+Content-Length: 1319
+Lines: 23
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 904
+
+Dear Capital One Bank customer,
+
+We recently reviewed your account, and suspect that your Capital One Online Banking account may have been accessed from an unauthorized computer. This may be due to changes in your IP address or location. Protecting the security of your account and of the Capital One Bank network is our primary concern.
+
+We are asking you to immediately login and report any unnoticed password changes, unauthorized withdrawals or deposits, and check you account profile to make sure no changes have been made.
+
+To protect your account please follow the instructions below:
+
+    * DO NOT SHARE YOUR PASSWORD WITH OTHER USERS
+
+    * LOG OFF AFTER USING YOUR ONLINE ACCOUNT
+
+Please click the following link, to verify your account activity:
+
+<>
+
+We apologize for any inconvenience this may cause, and appreciate your assistance in helping us maintaining the integrity of the entire Capital One Bank system. Please login as soon as possible.
+
+Thank you,
+
+Capital One Bank Security Advisor.

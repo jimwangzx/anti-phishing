@@ -1,0 +1,96 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.86 with SMTP id y83csp77218lfc;
+        Fri, 30 Oct 2015 16:56:37 -0700 (PDT)
+X-Received: by 10.31.192.7 with SMTP id q7mr7046913vkf.63.1446249397052;
+        Fri, 30 Oct 2015 16:56:37 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-vk0-domain.com (mail-vk0-domain.com. [2607:f8b0:400c:c05::247])
+        by domain.com with ESMTPS id i201si1679909vke.108.2015.10.30.16.56.36
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 30 Oct 2015 16:56:37 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400c:c05::247 as permitted sender) client-ip=2607:f8b0:400c:c05::247;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400c:c05::247 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-vk0-domain.com with SMTP id y127sf62565291vkg.2
+        for <user@domain.com>; Fri, 30 Oct 2015 16:56:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:date:message-id:subject
+         :From: Emily Aden <eaden@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=TG5gvMVX6TrEykJKKADUkAS7WBiiTpC9Yod66tX5vss=;
+        b=Ht/7rzxhPJDEGJ5pSfpxmio3dZAAIj8MApX9XfZFEQe6kVUwV/31r6Uge8hyCAbJy9
+         h7LXH2uu9DeZ2v4p1mGHklIKYyRLmeFjocot+Uj8ogFHXyVTV625Pl99rgI2xHiN52TQ
+         5i3BsU4JpzIlKX8M7Spc/O/twEeLdXbPn3sIU
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Emily Aden <eaden@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=TG5gvMVX6TrEykJKKADUkAS7WBiiTpC9Yod66tX5vss=;
+        b=IS05dPmf/MNyapwAsWC6Xqv0dgIsjtbHW8g0gvQK1SidLTEGmoRdW8gKYOlzme0mZh
+         N3xLylyz8pRj8CbGbflkdsIKCYSOe9OUhJSUfH9UYPz45bZ3XG3CVdUHY0Fd77qei8YI
+         XfzBS8f0MMcaKYtkVM0McfAh04L2RfLiVVEpv5/P1W9BGSIYSbvXtihvotf0X6nLKNtO
+         JaGo7cAFejixJ0hY633lRuH3ko1mjmseq8VduojZKAQRxoT81b3w8WeD3QPgnAdkNMfd
+         EA1x819r25nJmAtXJneJzwQScXi7yl5GaqKrs8CiEG4OSpkmIRXcRN7xMM9cV5GvuVWs
+         0+ZQ
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQm0gWu4hfwHa8UnFLBRFxPwouil892UOIX8azbXi6ve9v9uiMpEuvNHbEkXrefPAX9j7g/K
+X-Received: by 10.129.70.67 with SMTP id t64mr8307788ywa.54.1446249396819;
+        Fri, 30 Oct 2015 16:56:36 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.107.12.146 with SMTP id 18ls745195iom.103.gmail; Fri, 30 Oct
+ 2015 16:56:36 -0700 (PDT)
+X-Received: by 10.50.43.234 with SMTP id z10mr1024091igl.53.1446249396516;
+        Fri, 30 Oct 2015 16:56:36 -0700 (PDT)
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::22c])
+        by domain.com with ESMTPS id f129si9670537ioe.182.2015.10.30.16.56.36
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 30 Oct 2015 16:56:36 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22c as permitted sender) client-ip=2607:f8b0:4001:c05::22c;
+Received: by igbhv6 with SMTP id hv6so21774401igb.0
+        for <user@domain.com>; Fri, 30 Oct 2015 16:56:36 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.50.111.79 with SMTP id ig15mr895890igb.41.1446249396298;
+ Fri, 30 Oct 2015 16:56:36 -0700 (PDT)
+Received: by 10.107.136.205 with HTTP; Fri, 30 Oct 2015 16:56:36 -0700 (PDT)
+In-Reply-To: <CAFcwtWCmNF85a_Gj_ypJ_LND+user@domain.com>
+References: <CAFcwtWCmNF85a_Gj_ypJ_LND+user@domain.com>
+Date: Fri, 30 Oct 2015 19:56:36 -0400
+Message-ID: <CAFjSERB_=k0kigYKw1eTZbk2y8qNn7SgpQ_AsDHhcaVDVxO+user@domain.com>
+Subject: Re: DRAFT: Longshoremen endorsement/organizing event tomorrow
+From: Emily Aden <eaden@hillaryclinton.com>
+To: Megan Rooney <user@domain.com>
+CC: Speech Drafts <user@domain.com>, 
+ Nikki Budzinski <user@domain.com>, 
+ Clay Middleton <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e01294c8c8606b405235b2d36
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:4001:c05::22c as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+Okay for research
+
+On Fri, Oct 30, 2015 at 7:47 PM, Megan Rooney <user@domain.com>

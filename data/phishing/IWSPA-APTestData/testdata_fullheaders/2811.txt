@@ -1,0 +1,110 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp135511lfi;
+        Fri, 5 Jun 2015 12:01:56 -0700 (PDT)
+X-Received: by 10.60.37.73 with SMTP id w9mr4194970oej.49.1433530916325;
+        Fri, 05 Jun 2015 12:01:56 -0700 (PDT)
+Return-Path: <3user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::249])
+        by domain.com with ESMTPS id h198si4116766oic.87.2015.06.05.12.01.55
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jun 2015 12:01:56 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:4003:c06::249 as permitted sender) client-ip=2607:f8b0:4003:c06::249;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:4003:c06::249 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-oi0-domain.com with SMTP id v63so4564071oia.1
+        for <user@domain.com>; Fri, 05 Jun 2015 12:01:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: "kofferdahl@hillaryclinton.com" <kofferdahl@hillaryclinton.com>
+        bh=ZRqIY8RFlZ66Rt8FcRIZdYnOFkqnNNb486WA89gIqP0=;
+        b=YM20cVm3sFFxhAbStHi40mZaGVLuGlzrd49y7zRuIjwux9bM1Tw9ip8EDXRgmC1AiA
+         3vvhV6i/kPe0ggfk7Dpm030hyZ+VVoS9qyfaXQxRq7yivLHGfc+m1CIW5G+xM/qYMItT
+         1FpVCtjHBStJOTgLDk6GhFXcyzfLveezhgQVfRdKLN6j3XA6YSd7kwCJZr8aCtLWbEwI
+         EfBFRN8D88YHzEBcUdVm6BsvdxIntwjkO8gk+C0DRJjbVxZrK30LRwg2EVqsi+/kB/5t
+         KwRyhGf0xeovxKPYrjpFgGYk1X4hwoxRxzzp2wJCsaKHvUNC0JKcko1Dpn7o27PYKmE0
+         6eng
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: "kofferdahl@hillaryclinton.com" <kofferdahl@hillaryclinton.com>
+        bh=ZRqIY8RFlZ66Rt8FcRIZdYnOFkqnNNb486WA89gIqP0=;
+        b=VcXU6LCxjUPuSWXmZparPUtChD82yFlIxqNJc1bceDKHKuWn7pXm/lGQ00X8nRrK+C
+         b62TluXUUA5raG1NlicJlQMJg+i5vA/ua5AWE7TQyEMl0mW391Hv0k4eU1sM0IQtneXH
+         dQGBDYqFNSVafqO0PNugwB1xg5h+/tROaDRoQ
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: "kofferdahl@hillaryclinton.com" <kofferdahl@hillaryclinton.com>
+        bh=ZRqIY8RFlZ66Rt8FcRIZdYnOFkqnNNb486WA89gIqP0=;
+        b=f62vZ82aqwaIADbhTXHkuznJWYeExs+Z847X8uMiLNYidBmYRPUG8ZXj4hdsktH5Ia
+         J16uOlEsFrjImS7mJNgJcM/dFVpXZS6bfA00rHsj02qn/9BnxR4n0rJim7qGHxO5tLuS
+         bb80+GZ1r7P7FUaA/kjGi6nhXW2h//Gb+w5YU0OSqR/m7y3J9dmuKuS0RiWl0CKBT5QF
+         gPFPxh/+b3l3rAfFsYdx/BamciB1ZqqRQbX3KLf/pq9OBNJ/MQBFpcbdbPJE/ZHrtoSl
+         kOi1BvQG3VllmukU+iZA4nW4fM4egIdAuRFerCv4L28Kt9EjgcdxZcyxbV/bit9QVVDD
+         KW+g
+X-Gm-Message-State: ALoCoQnR0vwDXHOHa17QidbVSlhBZiRsG/fUG+KtLX2tGEj/0z+VqjGZbFJyxoOL6Wa/cd2bXRat
+MIME-Version: 1.0
+X-Received: by 10.182.18.3 with SMTP id s3mr5676068obd.17.1433530915490; Fri,
+ 05 Jun 2015 12:01:55 -0700 (PDT)
+Reply-To: "User" <user@domain.com>
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <001user@domain.com>
+Date: Fri, 05 Jun 2015 19:01:55 +0000
+Subject: Updated Invitation: Launch Speech Call @ Fri Jun 5, 2015 3pm - 4pm (user@domain.com)
+From: "kofferdahl@hillaryclinton.com" <kofferdahl@hillaryclinton.com>
+To: "User" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, Lissa Muscatine <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Robby Mook <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ "user@domain.com" <user@domain.com>
+Content-Type: multipart/mixed; boundary=001a11c35856fe291c0517c9ec35
+
+This event has been changed.
+
+Title: Launch Speech Call
+When: Fri Jun 5, 2015 3pm - 4pm Eastern Time
+Where: 718-441-3763, no pin (changed)
+Video call:  
+<<link>>  
+<<<link>>>
+Calendar: user@domain.com
+Who:
+     * Robby Mook - organizer
+     * Kate Offerdahl - creator
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * Lissa Muscatine
+     * Kristina Schake
+     * user@domain.com
+     * Jennifer Palmieri
+     * user@domain.com
+     * Dan Schwerin
+     * user@domain.com
+     * John user
+
+Event details:  
+<<link>>
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for updated invitations on calendar  
+user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.

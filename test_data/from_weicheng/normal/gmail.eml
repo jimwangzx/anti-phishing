@@ -1,0 +1,8 @@
+Return-Path: <xxx@edison.tech>
+Authentication-Results:
+       dkim=pass header.i=@edison-tech.20150623.gappssmtp.com header.d=@edison-tech.20150623.gappssmtp.com;
+       spf=neutral smtp.mailfrom=xxxx@edison.tech;
+       dmarc=pass header.from=xxxx@edison.tech
+DKIM-Signature: d=edison-tech.20150623.gappssmtp.com;
+From: yyy@edison.tech
+Sender: xxx@edison.tech

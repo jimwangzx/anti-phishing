@@ -1,0 +1,72 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Tue, 18 Mar 2015 11:52:11 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2IIqA0p026504	for <user@domain.com>; Tue, 18 Mar 2015 
+ 18:52:10 GMT
+Received: from mail91-am1-domain.com (mail-domain.com
+ [213.199.154.200])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s2IIpk9R005215
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 18 Mar 2015 18:51:47 GMT
+Received: from mail91-am1 (localhost [127.0.0.1])	by mail91-am1-domain.com
+ (Postfix) with ESMTP id 76295100456	for <user@domain.com>; Tue, 18
+ Mar 2015 18:52:09 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.129;KIP:(null);UIP:(null);SRV:BULK;H:mx129.b2b-domain.com;RD:mx129.b2b-domain.com;EFVD:NLI
+X-SpamScore: 6
+X-BigFish: vps6(z3e12h579ehzc89bh12dbKc857h77f5h609Izz1f42h2148he68I208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h10c0jzz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h1ce120hf9138oz2fh5eh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h25f6h2605h2668h1361i214ai1155h1362h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail91-am1: domain of b2b-domain.com designates 209.162.194.129 as permitted sender) client-ip=209.162.194.129; user@domain.com; helo=mx129.b2b-domain.com ;b2b-domain.com ;
+Received: from mail91-am1 (localhost.localdomain [127.0.0.1]) by mail91-am1
+ (MessageSwitch) id 1395168727298291_17850; Tue, 18 Mar 2015 18:52:07 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.239])	by
+ mail91-domain.com (Postfix) with ESMTP id 37D0144009C	for
+ <user@domain.com>; Tue, 18 Mar 2015 18:52:07 +0000 (UTC)
+Received: from mx129.b2b-domain.com (209.162.194.129) by
+ domain.com (10.3.207.101) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 18 Mar 2015 18:52:05 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=acton2012; d=techproductupdate.com;
+ h=Message-ID:Date:From: Tech Insider <admin@techproductupdate.com>
+ bh=2HY910etESCobMhxj8OLE0ZU+2Y=;
+ b=L2m4jYgRAe6h1YCIiOKsLV1P/qNSn2HBKWaizFmYXgYXCFAMD1Jbeew8u3MO4ZIQoXYbPC0IhSWK
+   qEkTnnLun6g6Sp0e1gKOslR87ZRxoBckRnCZvs+pPqYhAn50l9s56foWaGSeiAWFxHSEb+P1Lo+V
+   /d2HmPO016szl1W4hkk
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=acton2012; d=techproductupdate.com;
+ b=Pp2ixpOAEKMzHxL/XnCVJmVZpk1aBSgUaoAICOHeMkmcn7mowYJLkd34J/RLk5Zxk/tkUabYMp/F
+   ZzgJeKBBZCSWpVTdDsEtuBjPeVtOGsGJhxGBELHgv48T3rPsRtnqkW+BROCwN6NL+zoHNhcaHCHC
+   MWe4B83gTv/pOsDeZr0=;
+Received: from 10.10.40.64 (172.16.0.16) by mx129.b2b-domain.com id h52ata1gs503
+ for <user@domain.com>; Tue, 18 Mar 2015 11:49:17 -0700 (envelope-from
+ <user@domain.com>)
+Message-ID: <UAVXVXTXZC$UWCYUZBYYAXTC@10.10.40.64>
+Date: Tue, 18 Mar 2015 11:49:17 -0700
+From: Tech Insider <admin@techproductupdate.com>
+Reply-To: Tech Insider <user@domain.com>
+To: AMY PASCAL <user@domain.com>
+Subject: =?UTF-8?Q?The_CIO=E2=80=99s_Chance_of_a_Lifetime:_Using_Big_Data_a?
+ =?UTF-8?Q?nd_Analytics_as_the_Ticket_to_Strategic_Relevance?
+X-MESSAGEID: WCZX.rEUUUV.KVWHK.mEWVBAEVYUX
+X-COD: ^^184.169.176.89/acton/delivery?accountid=2853&msuid=s-2176-1403&rcptid=l-0001%3Ae12be&srcid=q-03b9
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+The CIO’s Chance of a Lifetime: Using Big Data and Analytics as the Ticket to Strategic Relevance
+
+View this message in a browser   Please add user@domain.com to your address book to ensure properly delivery        
+
+TechProduct Update       
+
+The CIO’s Chance of a Lifetime: Using Big Data and Analytics as the Ticket to Strategic Relevance
+
+There is a continuing disconnect between IT and lines of business with regards to analytics. While IT sees itself contributing to and guiding analytics strategy, LOB is more likely to see it as a roadblock. But the nature of analytics is changing, presenting a new, unique role for the CIO.
+
+Download this whitepaper and find out how your leadership team can take advantage of this evolution. Be guided on how to:
+• Stake out the appropriate analytics role for the IT organization
+• Work to remove organizational mindset stumbling blocks
+• Quantify the value of analytics
+• Partner with LOBs to add value as a data integrator
+

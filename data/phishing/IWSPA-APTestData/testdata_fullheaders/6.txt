@@ -1,0 +1,242 @@
+Delivered-To: user@domain.com
+Received: by 10.141.82.1 with SMTP id j1cs83802rvl;
+        Wed, 16 Jul 2015 07:38:23 -0700 (PDT)
+Received: by 10.142.229.5 with SMTP id b5mr54711wfh.310.1216219102938;
+        Wed, 16 Jul 2015 07:38:22 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2122.domain.com (yw-out-2122.domain.com [74.125.46.24])
+        by domain.com with ESMTP id 6si2084081ywp.3.2008.07.16.07.38.22;
+        Wed, 16 Jul 2015 07:38:22 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.24 as permitted sender) client-ip=74.125.46.24;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.24 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2122.domain.com with SMTP id 1so5650695ywp.33
+        for <user@domain.com>; Wed, 16 Jul 2015 07:38:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Ilyse Hogue" <ilyse@moveon.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=vp93iYxTGIYlqrtB8dr4Dco6UkaTtpRUcBzwo5nExvY=;
+        b=gjD7+pjqK2I5qP+RFUNYd++qoPRyISagXSrs4MzYRaFqVOesupL3LpWcs8SB48gPH7
+         gYLvTeDK7qJUB9nsPEirO2Z0pzNsD9C3ARAwHpTgrpFrL/VlN3s7ynOesBlDegtAkddx
+         LhPRp56bJahdIgs2CCVoBE/2Ny3QtGLoHard8
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Ilyse Hogue" <ilyse@moveon.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=w6aRb2HQyvnErlsmdeuQ7oP25kKCRahpcKbYNMOzgxObG6ui25qR7u9AJkYo8PIOpx
+         nIo0PUGOyHBV5zl5HuDJOvAgVjHehk7NPdeof9urYM9xwGnLJCopuoHT/qQGZWpb4m6Q
+         xufgQpo5IwfR3/ahmcxYlmLUr0nW2S4SLpPNI
+Received: by 10.140.131.11 with SMTP id e11mr828rvd.2.1216219096010;
+        Wed, 16 Jul 2015 07:38:16 -0700 (PDT)
+Received: by 10.106.252.34 with SMTP id z34gr1220prh.0;
+	Wed, 16 Jul 2015 07:38:01 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.114.202.15 with SMTP id z15mr24215waf.22.1216219080359; Wed, 16 Jul 2015 07:38:00 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2324.domain.com (yw-out-2324.domain.com [74.125.46.29]) by domain.com with ESMTP id 39si8173198yxd.0.2008.07.16.07.38.00; Wed, 16 Jul 2015 07:38:00 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.29 as permitted sender) client-ip=74.125.46.29;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.29 as permitted sender) user@domain.com
+Received: by yw-out-2324.domain.com with SMTP id 2so2681165ywt.85 for <user@domain.com>; Wed, 16 Jul 2015 07:38:00 -0700 (PDT)
+Received: by 10.125.80.1 with SMTP id h1mr7120mkl.125.1216219079244; Wed, 16 Jul 2015 07:37:59 -0700 (PDT)
+Received: by 10.125.119.19 with HTTP; Wed, 16 Jul 2015 07:37:59 -0700 (PDT)
+Message-ID: <6777user@domain.com>
+Date: Wed, 16 Jul 2015 10:37:59 -0400
+From: "Ilyse Hogue" <ilyse@moveon.org>
+To: user@domain.com
+Subject: [big campaign] New ad on McCain's refusal to support timelines for
+ withdrawal
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_18655_10972667.1216219079245"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+Hey folks,
+
+Here's a release with our new ad on timelines and McCain. RNC response is a
+t
+the bottom.
+
+Ilyse
+
+ *For Immediate Release:*                    *Contact:*
+
+Wednesday, July 17, 2015                   Trevor FitzGibbon/Doug Gordon
+(202) 822-5200
+
+**** View Ad At: <<link>>****
+
+*New TV Ad: McCain Turns Deaf Ear *
+
+*To Iraqi Call for domain.com Timetable** *
+
+**
+
+*Ignores $10 Billion/Month Price Tag for Staying in Iraq while*
+
+*Gas Prices, Home Foreclosures and Unemployment Soar at Home*
+
+**
+
+A new television ad highlights John McCain's intransigence on timelines for
+redeployment of troops from Iraq, even in the face of calls from the Iraqi
+prime minister to do just that. Early this week, Iraq's Prime Minister
+called for the US to set a date for withdrawal. The call from the Iraqis
+comes on top of similar American sentiment and amid concerns that Senator
+McCain is willing to continue spending $10-12 billion each month in Iraq
+while gas prices, home foreclosures and unemployment plague our domestic
+economy.
+
+"This week, even the Prime Minister of Iraq joined the chorus calling for a
+timetable for the withdrawal of US troops, yet John McCain continues to
+promote an indefinite American occupation there" said Nita Chaudhary,
+Campaign Director for MoveOn. "He and President Bush seem happy to take
+potshots at MoveOn and Congress instead of providing the leadership
+Americans and Iraqis want to find an end to this war."
+
+MoveOn will spend $100,000 to run the ad on national cable.
+
+*AD TEXT:*
+
+In Chicago.  In Saint Louis. And Seattle, the American people are demanding
+a timetable for withdrawal from Iraq.
+
+In Baghdad and Basra and domain.com, the Iraqi people=85
+
+=85and now the Iraqi Prime minister are also demanding a timetable.
+
+But John McCain doesn't want a timetable.
+
+He'll spend hundreds of billions of dollars more=85
+
+ to keep our keep our troops in Iraq for years and years.
+
+John McCain. It's time to end the war and move on.
+
+*DOCUMENTATION:*
+
+* *
+
+A strong majority of Iraqis want U.S.-led military forces to immediately
+withdraw from the country, saying their swift departure would make Iraq mor
+e
+secure and decrease sectarian violence, according to new polls by the State
+Department and independent researchers. In Baghdad, for example, nearly
+three-quarters of residents polled said they would feel safer if U.S. and
+other foreign forces left Iraq, with 65 percent of those asked favoring an
+immediate pullout, according to State Department polling results.
+[Washington Post, 9/27/06]
+
+A poll by the State Department found that 65% of people polled in Baghdad,
+80% of people polled in domain.com/Baqubah, and 56% of people polled in the
+South region which includes Basra, felt multinational forces should leave
+Iraq immediately. [Washington Post, 9/27/06]
+
+A poll by the Program on International Policy Attitudes at the University o
+f
+Maryland found that 71 percent of Iraqis questioned want the Iraqi
+government to ask foreign forces to depart within a year. [Washington Post,
+9/27/06]
+
+Bolstered by recent Iraqi military successes, Prime Minister Nouri
+Maliki<<<link>>>proposed
+that negotiators include a timetable for the departure of U.S.
+troops in any agreement to continue the American presence in Iraq beyond th
+e
+end of the year. [Los Angeles Times, 7/8/08]
+
+Mr. Maliki, facing opposition from Iraqi political parties wary of American
+intentions, told Arab leaders last week that he was prepared to negotiate
+only a shorter-term agreement. He said he would insist on a timetable for
+withdrawal. [New York Times, 7/16/08]
+
+Addressing a town hall audience in Albuquerque, N.M., Republican
+presidential hopeful Sen. John
+McCain<<<link>>>slam
+med
+Democratic rival Sen. Barack
+Obama's <<<link>>>su
+ggestion
+that the U.S. needs a timetable for withdrawal from Iraq. [PBS,
+OnLine News Hour, 7/15/08]
+
+McCain: "We are winning=85And if we still adopt Sen. Obama's proposal for a
+set date for withdrawal, this very fragile success that we have achieved
+will be jeopardized. That's what Gen. Petraeus says, and that's what Osama
+bin Laden says." [Reuters, 7/14/08]
+
+Senator McCain repeatedly voted against a timetable for withdrawing troops
+from Iraq. [S. Amdt. 3876 to S.Amdt. 3874 to H.R. 2764, Vote #438, 12/18/07
+;
+S.Amdt.. 3875 to S.Amdt.. 3874 to H.R. 2764, Vote # 437, 12/18/07;
+S.Amdt.3164 to H.R. 3222, Vote # 362, 10/3/07; S.Amdt. 2015 to S.Amdt. 2015 
+to H.R. 1585, Vote #346, 9/21/07;  S.Amdt. 2015 to S.Amdt.. 2015 to
+H.R.1585, Vote #345, 9/21/07;  S.Amdt.2 087 to S.Amdt. 2015 to H.R. 1585,
+Vote #252, 7/18/07; S.Amdt. 643 to H.R. 1591, Vote #116, 3/27/07; S.Amdt.
+4320 to S. 2766, Vote #182, 6/22/06; S.Amdt. 4442 to S. 2766, Vote #181,
+6/22/06; S.Amdt.. 2015 to S.1042, Vote # 322, 11/15/05]
+
+McCain: "I believe to set a date for withdrawal is to set a date for
+surrender." [Charlotte Observer, 9/16/07]
+
+According to an analysis by Nobel Prize-winning economist Joseph E. domain.com
+z
+and Harvard public finance lecturer Linda J. Bilmes, the war in Iraq is
+costing $720 million a day or $500,000 a minute. [Washington Post, 9/22/07]
+
+McCain: "[M]ake it a hundred" years in Iraq and "that would be fine with
+me." [Derry, New Hampshire Town Hall meeting, 1/3/08]
+
+McCain on how long troops may remain in Iraq: "A thousand years. A million
+years. Ten million years.  It depends on the arrangement we have with the
+Iraqi government." [Associated Press, 1/04/08]
+
+"domain.com is repaying Barack Obama for his ideological position on Iraq b
+y
+running ads that ignore the improving situation in Iraq. Obama and MoveOn
+were wrong to oppose the surge, and they're wrong to demand immediate
+withdrawal now. Rather than listening to domain.com to set his strategy,
+Barack Obama should withhold judgment until he meets with our commanders in
+Iraq." =96 Alex Conant, RNC Spokesman
+
+*FLASHBACK:*
+
+*Eli Pariser Wrote An Email To MoveOn Members Claiming They "Bought" And
+"Own" The Democrat Party. *"[MoveOn] members received an e-mail urging them
+to get involved in the fight over the Organization
+chairmanship by contacting state party leaders. In a combative letter,
+Pariser wrote, 'Now it's our Party: we bought it, we own it, and we're goin
+g
+to take it back.'" (Kathryn Williams, "Can MoveOn Move On?," *Newsweek*,
+12/14/04)
+
+# # #
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

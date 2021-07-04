@@ -1,0 +1,64 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp1161374lfb;
+        Fri, 12 Feb 2015 15:41:10 -0800 (PST)
+X-Received: by 10.107.155.146 with SMTP id d140mr5622092ioe.92.1455320470189;
+        Fri, 12 Feb 2015 15:41:10 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::22a])
+        by domain.com with ESMTPS id 82si22879773ioo.17.2016.02.12.15.41.09
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 12 Feb 2015 15:41:10 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22a as permitted sender) client-ip=2607:f8b0:4001:c05::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-domain.com with SMTP id y8so19430033igp.1
+        for <user@domain.com>; Fri, 12 Feb 2015 15:41:09 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Robby Mook <re47@hillaryclinton.com>
+         :cc:content-type;
+        bh=ynPcFJO6NOrNEwyAN8MhTA5EggyA3wHFlCLJKcTkJlg=;
+        b=AvctQ7MaefpDBtmqmNLbOVIzSEEZklddlE8KBk5r7tR7cv+Ck66XrYPI3Ns2uagngt
+         XrlMC4a02i4xx2jtDb0cgFe++eIzPuTNqkXyszU9PCUMhv48Zd+kFrzgaQDdDlI0h9uM
+         bvv5Zn8SQTXJ3xZbDTuik2GD0PxpfmNtXULH0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Robby Mook <re47@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=ynPcFJO6NOrNEwyAN8MhTA5EggyA3wHFlCLJKcTkJlg=;
+        b=QevzlDKCdHWjTPULsacqQZqXokEQ8e28cSVm7TjJmYeQMUz4veU1vqvCgKVHi3JvcT
+         NusyrtKrpXgL+vxpWc+4FXiZLC7PxAuLUELxZWurZGgHN923IdPDe5/NLJc+KZG0e1Fv
+         KbIviJBT96FPYlO/qLQ8OHtC/9ZHqlwTFzUfXQaKSpA7gqihr4iC/L+kaqsW5GlDPEL6
+         78fw5ynfkT8QL+nYdkLoRYVzdTkVEJ9b5hadt6ja1pWZFk1UwNQl2QRjdQRdrOPbzV6X
+         UhhfVFAJbQzys/U8xmXnxOxeGUFOC+gp5GDmWdHys1xeo2eRfK65UEWgpxcebS3S50dd
+         X6Kw
+X-Gm-Message-State: AG10YORzywGrIb4qxiksfAoOn5rNnwCh4aKsSYl8UHgrm1cYottnKGblH4CGp38bSTmBVI/vxqEonq/sG5w9nm42
+X-Received: by 10.50.176.195 with SMTP id ck3mr540329igc.94.1455320469852;
+ Fri, 12 Feb 2015 15:41:09 -0800 (PST)
+From: Robby Mook <re47@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <user@domain.com>
+ <-7172556940475042539@unknownmsgid> <445user@domain.com>
+ <CANvypvAZ8UyWSknZhKYmiLF0HLSxGNsZ+0user@domain.com> <18721user@domain.com>
+In-Reply-To: <18721user@domain.com>
+Date: Fri, 12 Feb 2015 18:41:09 -0500
+Message-ID: <-6478007080609648724@unknownmsgid>
+Subject: Re: 2 additional call sheets for WJC - Steve Wynn and Jim Murren
+To: Tina Flournoy <user@domain.com>
+CC: Sara Latham <user@domain.com>, 
+ John user <user@domain.com>, 
+ Jon Davidson <user@domain.com>, 
+ Emmy Ruiz <user@domain.com>, 
+ Hannah Richert <user@domain.com>, 
+ Heather Stone <user@domain.com>, 
+ Nikki Budzinski <user@domain.com>, 
+ Brynne Craig <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e0122a5baa3f45b052b9b33ff
+
+Rory Reid and David.  I'll relay
+Thank you!!
+
+On Feb 12, 2016, at 6:39 PM, Tina Flournoy <user@domain.com>

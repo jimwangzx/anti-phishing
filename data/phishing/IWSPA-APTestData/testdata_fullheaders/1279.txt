@@ -1,0 +1,31 @@
+Delivered-To: user@domain.com
+Received: by 10.140.18.137 with SMTP id 9csp49846qgf;
+        Fri, 28 Feb 2015 10:00:02 -0800 (PST)
+X-Received: by 10.140.38.75 with SMTP id s69mr5340553qgs.62.1393610401770;
+        Fri, 28 Feb 2015 10:00:01 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from BOWWAVE-FE-02 ([65.61.11.201])
+        by domain.com with ESMTP id j9si653865qcm.47.2014.02.28.10.00.01
+        for <user@domain.com>;
+        Fri, 28 Feb 2015 10:00:01 -0800 (PST)
+Received-SPF: softfail (domain.com: domain of transitioning user@domain.com does not designate 65.61.11.201 as permitted sender) client-ip=65.61.11.201;
+Authentication-Results: domain.com;
+       spf=softfail (domain.com: domain of transitioning user@domain.com does not designate 65.61.11.201 as permitted sender) user@domain.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from BOWWAVE-FE-01 ([65.61.11.200]) by BOWWAVE-FE-02 with Microsoft SMTPSVC(7.5.7601.17514);
+	 Fri, 28 Feb 2015 13:00:01 -0500
+MIME-Version: 1.0
+From: physiodc@gmail.com
+To: user@domain.com
+Date: 28 Feb 2015 13:00:16 -0500
+Subject: Appointment Reminder
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Return-Path: user@domain.com
+Message-ID: <user@domain.com>
+X-OriginalArrivalTime: 28 Feb 2015 18:00:01.0892 (UTC) FILETIME=[E6D84240:01CF34AE]
+
+Dear John,=0D=0A=0D=0AThis email is to remind you of an upcoming appointment
+ at Washington PhysioDC=0D=0A=0D=0ADetails:=0D=0ADate / Time: 03/01/2014
+ 10:30 AM=0D=0ALocation: Conn Ave=0D=0A=0D=0AThere is no need to respond
+ to this email unless you cannot make your appointment.

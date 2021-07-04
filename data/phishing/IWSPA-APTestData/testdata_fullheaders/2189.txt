@@ -1,0 +1,109 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp665957lfr;
+        Sun, 4 Oct 2015 12:29:56 -0700 (PDT)
+X-Received: by 10.67.3.2 with SMTP id bs2mr18254627pad.118.1443986996863;
+        Sun, 04 Oct 2015 12:29:56 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from omr-a016e.mx.aol.com (omr-a016e.mx.aol.com. [204.29.186.65])
+        by domain.com with ESMTPS id fd7si34151053pab.199.2015.10.04.12.29.56
+        for <user@domain.com>
+        (version=TLS1 cipher=RC4-SHA bits=128/128);
+        Sun, 04 Oct 2015 12:29:56 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 204.29.186.65 as permitted sender) client-ip=204.29.186.65;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 204.29.186.65 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=aol.com
+Received: from mtaomg-mce02.mx.aol.com (mtaomg-mce02.mx.aol.com [172.29.27.208])
+	by omr-a016e.mx.aol.com (Outbound Mail Relay) with ESMTP id 8CAB03800051;
+	Sun,  4 Oct 2015 15:29:55 -0400 (EDT)
+Received: from core-mfa05f.mail.aol.com (core-mfa05.mail.aol.com [172.27.61.5])
+	by mtaomg-mce02.mx.aol.com (OMAG/Core Interface) with ESMTP id 2D51838000082;
+	Sun,  4 Oct 2015 15:29:55 -0400 (EDT)
+Received: from 73.200.105.233 by webprd-m74.mail.aol.com (10.74.71.87) with HTTP (WebMailUI); Sun, 04 Oct 2015 15:29:55 -0400
+Date: Sun, 4 Oct 2015 15:29:55 -0400
+From: Mandy Grunwald <gruncom@aol.com>
+To: user@domain.com, user@domain.com
+CC: user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com
+Message-Id: <1503454user@domain.com>
+In-Reply-To: <user@domain.com>
+Subject: Re: BS and guns
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_164877_93179504.1443986995039"
+X-MB-Message-Source: WebUI
+X-MB-Message-Type: User
+X-Mailer: JAS STD
+X-Originating-IP: [73.200.105.233]
+x-aol-global-disposition: G
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+	s=20150623; t=1443986995;
+	bh=xBUmS4CthqTotvbMks/vQMmEsAAGBoAja2CUxxmUpJc=;
+	h=From: Mandy Grunwald <gruncom@aol.com>
+	b=QPXWZtDjSGWnp9xEs5hxteWzTGY9riFAYfhtPkIdaf5qQUq8et81I2RSLmTgQ3oFy
+	 sd7CFedVNC3MCQtmUPGPb+DJMl1F3oO1tsIcEXANXyiicpmF3dDcIkgMncB0zfavTj
+	 bGPKcjtrmjYl5O983VlkZ/Rv2bklAR3g5F1guh4c
+x-aol-sid: 3039ac1d1bd056117e330df0
+
+There have been a couple stories in the last few days about past HRC positi
+ons on gun control, like this one in Buzzfeed about HRC OPPOSING federal gu
+n control standards and arguing (as on minimum wage now) that states had di
+fferent needs.
+
+<<link>>
+nse-for-federal-government#.nfQAQdNqz
+
+I also saw something about her supporting a 25% tax on gun sales back in 19
+93.
+
+I didn't see q and a on either of these in the briefing.
+
+Mandy Grunwald
+Grunwald Communications
+202 973-9400
+
+-----Original Message-----
+From: Mandy Grunwald <gruncom@aol.com>
+To: John Anzalone <user@domain.com>
+Cc: Kate Offerdahl <user@domain.com>; Amanda Renteria <arente
+user@domain.com>; caitlin <user@domain.com>; Chr
+istina Reynolds <user@domain.com>; Dan Schwerin <user@domain.com
+domain.com>; David Binder <user@domain.com>; Ellen Esterhay <ell
+user@domain.com>; Huma Abedin <user@domain.com>; Jake Sullivan
+ <user@domain.com>; Jennifer Palmieri <user@domain.com
+n.com>; Jim Margolis <user@domain.com>; Joel Benenson <user@domain.com
+o.com>; John user <user@domain.com>; John user <john.user@
+domain.com>; Karen Finney <user@domain.com>; Kristina Schake <ksc
+user@domain.com>; Mandy Grunwald <user@domain.com>; Marlon Marshall
+ <user@domain.com>; Maya Harris <user@domain.com>; 
+Mike Vlacich <user@domain.com>; Milia Fisher <user@domain.com
+domain.com>; Mona Thinavongsa <user@domain.com>; Oren Shur <user@domain.com
+domain.com>; Robby Mook <user@domain.com>; Sara Latham <user@domain.com
+domain.com>; Sawsan Bay <user@domain.com>; Shannon Currie <s
+user@domain.com>; Teddy Goff <user@domain.com>; user Carrk <tcarr
+user@domain.com>; Varun Anand <user@domain.com>; Heather Sto
+ne <user@domain.com>
+Sent: Sun, Oct 4, 2015 3:24 pm
+Subject: Re: BS and guns
+
+Circling back around on guns as a follow up to the Friday morning discussio
+n: the Today show has indicated they definitely plan to ask bout guns, and 
+so to have the discussion be more of a news event than her previous times d
+iscussing guns, we are going to background reporters tonight on a few of th
+e specific proposals she would support as President - universal background 
+checks of course, but also closing the gun show loophole by executive order
+ and imposing manufacturer liability.
+

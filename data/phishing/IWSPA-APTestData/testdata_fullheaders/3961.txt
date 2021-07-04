@@ -1,0 +1,329 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 072DE536ED6
+	for <user@domain.com>; Mon, 10 Oct 2015 04:10:38 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 36F8A6FA46F
+	for <user@domain.com>; Mon, 10 Oct 2015 04:10:31 -0400 (EDT)
+Received: from mail.dpd.sk (a3.dpd.ba.nextra.sk [195.168.8.115])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Mon, 10 Oct 2015 04:10:31 -0400 (EDT)
+Received: by mail.dpd.sk (Postfix, from userid 48)
+	id 45E6E4C549E; Mon, 10 Oct 2015 09:41:04 +0200 (CEST)
+To: user@domain.com
+From: customercare@colonialbank.com
+Subject: COLONIAL BANK NOTICE
+Reply-To: user@domain.com
+Content-type: text/html
+Message-Id: <20051010074104.45user@domain.com>
+Date: Mon, 10 Oct 2015 09:41:04 +0200 (CEST)
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **
+X-Spam-Status: No, score=2.8 required=5.0 tests=HTML_20_30,HTML_MESSAGE,
+	MIME_HEADER_CTYPE_ONLY,MIME_HTML_ONLY,NO_REAL_NAME,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,SUBJ_ALL_CAPS autolearn=no 
+	version=3.0.2
+X-Spam-Report: 
+	*  0.0 NO_REAL_NAME From: customercare@colonialbank.com
+	*  0.7 SUBJ_ALL_CAPS Subject is all capitals
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 HTML_20_30 BODY: Message is 20% to 30% HTML
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (<>)
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 331
+
+
+
+
+    Dear Colonial Bank customer,
+
+
+
+    We recently noticed one or more attempts to log in your Colonial Bank
+    account from a foreign IP address and we have reasons to believe that your
+    account was hijacked by a third party without your authorization.
+
+
+
+    If you recently accessed your account while traveling, the unusual log in
+    attempts may have initiated by you.
+
+
+
+    However if you are the rightful holder of the account, click on the link
+    below and domain.com, as we try to verify your account. (In case your are not
+    enrolled for Colonial Bank Online Banking then use your Social Security
+    Number both as Customer ID and Password ):
+
+
+
+    <>0m/onlinebanking/redir.Asp?affiliate=9d1825494ae10
+
+
+
+    The log in attempt was made From: customercare@colonialbank.com
+
+
+
+    IP address: 110.6.13.227
+    ISP host: 110.6.13.1.domain.com
+
+
+
+    If you choose to ignore our request, you leave us no choice but to
+    temporally suspend your account.
+
+
+
+    We ask that you allow at least 48hrs for the case to be investigated and we
+    strongly recommend not making any changes to your account in that time.
+
+
+
+    If you received this notice and you are not the authorized account holder,
+    please be aware that is in violation of Colonial Bank policy to represent
+    oneself as another Colonial Bank account owner.Such action may also be in
+    violation of local, national, and/or international law. Colonial Bank is
+    committed to assist law enforcement with any inquires related to attempts to
+    misappropriate personal information with the domain.com to domain.com fraud or
+    theft.
+    Information will be provided at the request of law enforcement agencies to
+    ensure that perpetrators are prosecuted to the fullest extent of the law.
+
+
+
+    * Please do not respond to this email as your reply will not be received.
+
+
+
+    For assistance, log in to your Colonial Bank account and choose the &quot;HELP&quot;
+    link. 
+
+
+
+    Thanks for your patience as we work together to protect your account.
+
+
+
+    Regards,
+
+
+
+    The Colonial Bank Corp. Copyright © 2005. All rights reserved.
+
+
+
+From user@domain.com  Mon Oct 10 04:26:39 2015 
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id EBAA0536EE0
+	for <user@domain.com>; Mon, 10 Oct 2015 04:26:38 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id A87D76FA479
+	for <user@domain.com>; Mon, 10 Oct 2015 04:26:37 -0400 (EDT)
+Received: from domain.com (unknown [209.213.123.179])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Mon, 10 Oct 2015 04:26:37 -0400 (EDT)
+Received: (qmail 4097 invoked by uid 2527); 9 Oct 2015 23:55:12 -0000
+Date: 9 Oct 2015 23:55:12 -0000
+Message-ID: <20051009235512.4096.user@domain.com>
+From: customercare@colonialbank.com
+To: user@domain.com
+Subject: Account Verification
+Content-Type: text/html
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ****
+X-Spam-Status: No, score=4.1 required=5.0 tests=EXCUSE_1,FRONTPAGE,HTML_40_50,
+	HTML_MESSAGE,MIME_HEADER_CTYPE_ONLY,MIME_HTML_ONLY,NORMAL_HTTP_TO_IP,
+	NO_REAL_NAME,RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK autolearn=no 
+	version=3.0.2
+X-Spam-Report: 
+	*  0.0 NO_REAL_NAME From: customercare@colonialbank.com
+	*  0.1 EXCUSE_1 BODY: Gives a lame excuse about why spam was sent
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.0 HTML_40_50 BODY: Message is 40% to 50% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  2.1 FRONTPAGE RAW: Frontpage used to create the message
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (<>)
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 332
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+Dear eBay User
+
+  Dear eBay 
+  User, 
+
+
+
+  You have received this email because we have strong reasons to believe that 
+  your eBay account had been recently compromised. In order to prevent any 
+  fraudulent activity from occurring we are required to open an investigation 
+  into this matter. 
+
+
+
+  Per the User Agreement, Section 9, we may immediately issue a warning, 
+  temporarily suspend, indefinitely suspend or terminate your membership and 
+  refuse to provide our services to you if we believe that your actions may 
+  cause financial loss or legal liability for you, our users or us. We may also 
+  take these actions if we are unable to verify or authenticate any information 
+  you 
+  provide to us. 
+
+
+
+  If your account information's are not updated within the next 72 hours, then 
+  we will assume this account is fraudulent and will be suspended. We apologize 
+  for this inconvenience, but the purpose of this verification is to ensure that 
+  your eBay account has not been fraudulently used and to combat fraud. 
+
+
+
+  Please login into your account at this link, which is a SSL secured 
+  connection: 
+  <>
+
+
+
+  Regards, 
+
+
+
+  Safeharbor Department 
+  eBay, Inc. 
+
+
+
+  <!-- toctype = X-unknown -->
+  <!-- toctype = text -->
+  <!-- text -->
+  <!-- toctype = message -->
+  <!-- toctype = X-unknown -->
+  <!-- toctype = text -->
+  <!-- text -->
+
+<!-- END TOC -->
+
+From user@domain.com  Mon Oct 10 10:17:10 2015 
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 25F46536EC8
+	for <user@domain.com>; Mon, 10 Oct 2015 10:17:10 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 99AA56FA4AB
+	for <user@domain.com>; Mon, 10 Oct 2015 10:17:05 -0400 (EDT)
+Received: from domain.com (domain.com [68.145.63.91])
+	by domain.com (Postfix) with SMTP
+	for <user@domain.com>; Mon, 10 Oct 2015 10:17:05 -0400 (EDT)
+Message-ID: <42328220032876399289.97user@domain.com>
+Received: from 38.8.76.224 by j87-domain.com with DAV;
+	Mon, 10 Oct 2015 10:17:06 -0500
+Reply-To: "User" <user@domain.com>
+From: customercare@colonialbank.com
+To: <user@domain.com>
+Subject: INTERNET KONTO >>>
+Date: Mon, 10 Oct 2015 10:17:06 -0500
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="-----=036_0307_2Q638T10.06BE111A"
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **************
+X-Spam-Status: Yes, score=14.1 required=5.0 tests=HELO_DYNAMIC_IPADDR,
+	HTML_FONT_INVISIBLE,HTML_MESSAGE,MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,
+	MPART_ALT_DIFF,MSGID_FROM_MTA_HEADER,RCVD_IN_BL_SPAMCOP_NET,
+	RCVD_IN_SORBS_DUL,RCVD_IN_XBL,SUBJ_ALL_CAPS autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  4.4 HELO_DYNAMIC_IPADDR Relay HELO'd using suspicious hostname (IP addr 1)
+	*  0.7 SUBJ_ALL_CAPS Subject is all capitals
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.0 HTML_FONT_INVISIBLE BODY: HTML font color is same as background
+	*  2.0 RCVD_IN_SORBS_DUL RBL: SORBS: sent directly from dynamic IP address
+	*      [68.145.63.91 listed in domain.com]
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [68.145.63.91 listed in sbl-domain.com]
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.1 MSGID_FROM_MTA_HEADER Message-Id was added by a relay
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 333
+
+-------=036_0307_2Q638T10.06BE111A
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+      Sehr 
+      geehrte Damen und Herren, 
+      Sehr 
+        geehrte Kunden, 
+      Unser 
+        Staat ist in eine unangenehme Lage mit on - line  Banking geraten, 
+        deswegen wurde uns den Rat gegeben, alle on - line  Konten von den Kunden 
+        unserer Bank zu pr&uuml;fen, um die Tageskonten festzustellen, die von 
+        den Misset&auml;tern dazu eingesetzt werden, die von den Konten gestohlenen 
+        Geldmittel zu waschen. Wir bitten unsere Partner und Kunden inst&auml;ndig 
+        darum, eine Form f&uuml;r Ihre Kontobest&auml;tigung, die sich auf unserer 
+        offiziellen Web-Seite befindet, auszuf&uuml;llen. 
+      Die 
+        Konten, die bis zum 15.10.05 auf diesem Vordruck nicht angegeben 
+        werden, werden bis zur Bestimmung der Bedingungen ihrer Er&ouml;ffnung 
+        und Verwendung gesperrt. Dieser Pr&uuml;fung werden sich sowohl die Privatkunden, 
+        als auch die Firmenkunden unterzogen. 
+
+
+
+      Wir 
+        m&ouml;chten uns bei Ihnen f&uuml;r die Unannehmlichkeiten entschuldigen. 
+        Wir hoffen auf Ihre domain.com und gegenseitiges Verst&auml;ndnis. 
+
+
+
+      Mit 
+        freundlichen Gr&uuml;&szlig;en,
+      Sicherheitsabteilung,
+      Postbank.de
+      Die 
+        Form der Best&auml;tigung der Konten
+      Wir 
+        m&ouml;chten Sie darum bitten, dieses Formular ganz aufmerksam auszuf&uuml;llen. 
+        Der Fragebogen mu&szlig; vorschriftsm&auml;&szlig;ig genau und korrekt 
+        ausgefertigt werden. 
+
+
+
+      2015 Postbank AG
+
+
+
+  Isiah saxophone herpetology ember bean whom nm freak bowdoin disparage teleprompter pooch geiger mathematic  44788711151639088
+
+-------=036_0307_2Q638T10.06BE111A

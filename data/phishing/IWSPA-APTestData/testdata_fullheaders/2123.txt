@@ -1,0 +1,145 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp2733lfb;
+        Fri, 22 Jan 2015 12:57:25 -0800 (PST)
+X-Received: by 10.98.71.197 with SMTP id p66mr7616446pfi.166.1453496245517;
+        Fri, 22 Jan 2015 12:57:25 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from omp.action.clintonfoundation.org (omp.action.clintonfoundation.org. [199.7.206.96])
+        by domain.com with ESMTP id o20si11741280pfi.87.2016.01.22.12.57.25
+        for <user@domain.com>;
+        Fri, 22 Jan 2015 12:57:25 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 199.7.206.96 as permitted sender) client-ip=199.7.206.96;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 199.7.206.96 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=action.clintonfoundation.org
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=clintonfoundation; d=action.clintonfoundation.org;
+ h=MIME-Version:Content-Type:Date:To:From: "Rain Henderson, Clinton Foundation" <news@action.clintonfoundation.org>
+ bh=jqrRUK/1fMHJkjbekm0qOql6ey8=;
+ b=Tshil2UrUCYqArhHYeDon1pH2EsW/u8FjO6KjE8VsXWZLS3lx9dDTzjBrbTRiyA6CyELpSQuAkrB
+   NMnyPNoafsgTpMpfboAgska8M+/GPV8ws55rkrdZczxOwOwTEfLV/a4mmya7ib9Vw0QMam6rZ7Xf
+   sLNJ2LDKL0Vt2lDVdhw
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=oraclersys; d=domain.com;
+ h=MIME-Version:Content-Type:Date:To:From: "Rain Henderson, Clinton Foundation" <news@action.clintonfoundation.org>
+ bh=jqrRUK/1fMHJkjbekm0qOql6ey8=;
+ b=bwELQHV5cM65yYwZG6aNyo427S3p4ucgiJm91hcM6xOqeeGuoh0sDDvqop3RsXBYRI20hTlet7N5
+   yL0hJBAFgxMgBTjo3wuNNjQd3oublAThf/hlPlT2vSYWdfvcX2Y1f5A1qhMTXf6bbtbKS64MnMjT
+   cX4uXRkLhGv41I+GHp4
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=clintonfoundation; d=action.clintonfoundation.org;
+ b=bRYfaEWDWHaw6GZh+PgxuPUqBwG78MfVJRSj5pmIJ6EFTVYKV6fs/6iH+oErK/dlr8y4ec6VMepG
+   25X+mfH2cQ+l9mZeu4H7xJPRZPabVhyFR52pQn+7n6Hc4E1b53ws5bZ90spt79Rm91DJ7jASAyXp
+   Rd0FCRB/ZdBMtnrkWZs=;
+Received: by omp.action.clintonfoundation.org id hkabra1hd9op for <user@domain.com>; Fri, 22 Jan 2015 12:57:18 -0800 (envelope-from <user@domain.com>)
+X-CSA-Complaints: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----msg_border_HLXdgTCkq9"
+Date: Fri, 22 Jan 2015 12:57:18 -0800
+To: user@domain.com
+From: "Rain Henderson, Clinton Foundation" <news@action.clintonfoundation.org>
+Reply-To: "User" <user@domain.com>
+Subject: FW: Live Webcasts: President Clinton, Chelsea, & Donna Shalala at the 2015 Health Matters domain.com
+Feedback-ID: 53819:171925:oraclersys
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com?subject=List-Unsubscribe>
+X-sgxh1: rhogQihKLklHxnuHptQJhu
+X-rext: 5.interact5.El0_I3mcpOl9hWsvzDskOm3n1muqJRTAt76emsy-74fcFUxYk0
+X-cid: clinton.278045
+Message-ID: <0.0.user@domain.com>
+
+Dear John,
+
+This Sunday, Chelsea Clinton will help us kick off our fifth Health Matters
+ Annual
+Activation domain.com =96 and I'd love to have you join us=2E You can watch liv
+e online starting at 7 p=2Em=2E PST / 10 p=2Em=2E EST=2E
+
+<<link>>
+YQGtRXbUuJiwtDo4kNF9kswuUgSumzbc026lBALukPqBWMJzg3zf5sRVXtpKX%3DSTBDTY&_ei_
+=3DEp0e16vSBKEscHnsTNRZT2iBzoZml5fE4kEEuYX_u12U1nwR3YQ7=2EJg%3D%3D
+
+The Health Matters domain.com will convene more than 500 prominent national and
+
+community leaders to discuss our country's overall health and wellness as w
+ell
+as how health care transformation and systemic approaches to change can cre
+ate
+healthier communities across the United States=2E
+
+Please see the invite below for more information=2E
+
+See you on Sunday=21
+
+Rain Henderson
+Chief Executive Officer =7C Clinton Health Matters Initiative
+
+---------- Forwarded message ----------
+
+From: "Rain Henderson, Clinton Foundation" <news@action.clintonfoundation.org>
+Date: Tues, Jan 19, 2015 
+Subject: Live Webcasts: President Clinton, Chelsea, & Donna Shalala at the 
+2016 Health Matters domain.com
+
+The Clinton Foundation's Health Matters Annual Activation domain.com
+convenes innovators from healthcare, public policy, business,
+education, and the philanthropic community to discuss and inspire
+solutions that can improve health across America=2E
+
+RSVP to watch President Bill Clinton, Chelsea Clinton, Donna Shalala,
+and featured panelists in our live webcasts:
+
+<<link>>
+YQGtRXbUuJiwtDo4kNF9kswuUgSumzbc026lBALukPqBWMJzg3zf5sRVXtpKX%3DSTBDTY&_ei_
+=3DEp0e16vSBKEscHnsTNRZT2iBzoZml5fE4kEEuYX_u12U1nwR3YQ7=2EJg%3D%3D
+
+Sunday, January 24
+7 p=2Em=2E PST / 10 p=2Em=2E EST
+Town Hall: Addressing Health Disparities Through Technology and Innovation
+
+Monday, January 25
+9 a=2Em=2E PST / 12 p=2Em=2E EST
+Opening Plenary: The Quest for Longevity and Our Rising Death Rates
+
+10:15 a=2Em=2E PST / 1:15 p=2Em=2E EST
+Feature Conversation with Abby Wambach: How the Inclusion of Women and
+Girls in Sports Improves Their Health
+
+3:45 p=2Em=2E / 6:45 p=2Em=2E EST
+Closing Plenary: Communities as Centers of Health Innovation
+
+We hope you'll tune in=21
+
+About the Clinton Foundation The Clinton Foundation convenes
+businesses, governments, NGOs, and individuals to improve global
+health and wellness, increase opportunity for girls and women, reduce
+childhood obesity, create economic opportunity and growth, and help
+communities address the effects of climate change=2E
+
+Clinton Foundation
+
+<<link>>
+YQGtRXbUuJiwtDo4kNF9kswuUgSumzbc026lBALukPqBWMJzg3zf5sRVXtpKX%3DSTCRTY&_ei_
+=3DEolaGGF4SNMvxFF7KucKuWPIJsAiJ56b3L30hWQEKd06uMTvxKVC=2EJg%3D%3D
+
+CLINTONFOUNDATION=2EORG
+
+<<link>>
+YQGtRXbUuJiwtDo4kNF9kswuUgSumzbc026lBALukPqBWMJzg3zf5sRVXtpKX%3DSTCRTY&_ei_
+=3DEolaGGF4SNMvxFF7KucKuWPIJsAiJ56b3L30hWQEKd06uMTvxKVC=2EJg%3D%3D
+
+Please add news=40action=2Eclintonfoundation=2Eorg to your address book=2E
+
+View this email as a webpage
+
+<<link>>
+YQGtRXbUuJiwtDo4kNF9kswuUgSumzbc026lBALukPqBWMJzg3zf5sRVXtpKX%3DSTCRWY&_ei_
+=3DEolaGGF4SNMvxFF7KucKuWNX3t-6XCrKDJ7nxlgxf3eyBFnRR6zY4fcIHkW6iLEfamNssrNG
+hw=2EJg%3D%3D
+
+Clinton Foundation =7C 1200 President Clinton Ave =7C Little Rock, AR 72201
+
+This email was sent to john=2Euser=40gmail=2Ecom
+
+If you no longer wish to receive emails from us, please unsubscribe
+<<link>>
+jHJlYQGtRXbUuJiwtDo4kNF9kswuUgSumzbc026lBALukPqBWMJzg3zf5sR&_ei_=3DEolaGGF4
+SNMvxFF7KucKuWPIJsAiJ56b3L30hWQEKd06uMTvxKVC

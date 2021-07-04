@@ -1,0 +1,69 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id 1B2EF46867
+	for <user@domain.com>; Mon,  9 Feb 2015 08:10:31 -0500 (EST)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id C9910131F73C
+	for <user@domain.com>; Mon,  9 Feb 2015 08:10:30 -0500 (EST)
+Received: by domain.com (Postfix)
+	id B05191B674; Mon,  9 Feb 2015 14:10:28 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.108])
+	by domain.com (Postfix) with ESMTP id 98B991B6A6
+	for <user@domain.com>; Mon,  9 Feb 2015 14:10:28 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 757F218A7
+	for <user@domain.com>; Mon,  9 Feb 2015 14:10:28 +0100 (CET)
+X-Quarantine-ID: 
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 21.543
+X-Spam-Level: *********************
+X-Spam-Status: Yes, score=21.543 tagged_above=0 required=5
+	tests=[BAYES_99=3.5, RAZOR2_CF_RANGE_51_100=0.5,
+	RAZOR2_CF_RANGE_E4_51_100=1.5, RAZOR2_CHECK=12, RCVD_IN_PBL=0.905,
+	RDNS_NONE=0.1, URIBL_BLACK=1.955, URIBL_RHS_DOB=1.083]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id oXYCGc0EDqKS for <user@domain.com>;
+	Mon,  9 Feb 2015 14:10:23 +0100 (CET)
+Received: from [84.36.130.18] (unknown [84.36.130.18])
+	by domain.com (Postfix) with ESMTP id 849731B674
+	for <user@domain.com>; Mon,  9 Feb 2015 14:10:09 +0100 (CET)
+Received: from [84.36.130.18] by domain.com.au; Mon, 9 Feb 2015 15:10:22 +0200
+Date: Mon, 9 Feb 2015 15:10:22 +0200
+From: "FEDERAL RESERVE BANK" <security@frb.ebanks.us>
+X-Mailer: The Bat! (v3.60.07) Professional
+Reply-To: user@domain.com
+X-Priority: 3 (Normal)
+Message-ID: <570521165.43375598751918@domain.com.au>
+To: user@domain.com
+Subject: ***SPAM*** Read Carefully - Important!
+MIME-Version: 1.0
+Content-Type: text/plain;
+  charset=iso-8859-2
+Content-Transfer-Encoding: 7bit
+Content-Length: 1007
+Lines: 16
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 977
+
+    FEDERAL RESERVE BANK
+
+Important:
+
+You're getting this letter in connection with new directions issued by U.S. Treasury Department. The directions concern U.S. Federal Wire and ACH online payments.
+
+On January 28, 2015 a large-scaled phishing attack started and has been still lasting. A great number of banks and domain.com unions is affected by this attack and quantity of illegal bank transfers has reached an extremely high level.
+
+U.S. Treasury Department, Federal Reserve and Federal domain.com Insurance Corporation (FDIC) in common worked out a complex of immediate actions for the highest possible reduction of fraudulent operations. We regret to inform you that definite restrictions will be applied to all Federal Wire and ACH transfers from February 9 till February 20.
+
+Here you can get more detailed information regarding the affected banks and U.S. Treasury Department restrictions:
+
+<>~16261/
+
+    Federal Reserve Bank System Administration

@@ -1,0 +1,131 @@
+Received: from relay.Organization.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Mon, 15 Dec 2015 13:35:15 +0100
+Received: from domain.com (unknown [192.168.100.50])	by
+ relay.Organization.com (Postfix) with ESMTP id A306D60021	for
+ <user@domain.com>; Mon, 15 Dec 2015 12:16:27 +0000 (GMT)
+Received: by domain.com (Postfix)	id AA985B6603F; Mon, 15 Dec 2015 
+ 13:35:15 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from manta.Organization.com (manta.Organization.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id A0CFAB6603E	for
+ <user@domain.com>; Mon, 15 Dec 2015 13:35:15 +0100 (CET)
+X-ASG-Debug-ID: 1418646907-066a754e8d1ddc0001-Aet2rw
+Received: from domain.com
+ (domain.com [206.253.208.239]) by
+ manta.Organization.com with ESMTP id 3gpTyhvmAe7EVmJO for
+ <user@domain.com>; Mon, 15 Dec 2015 13:35:09 +0100 (CET)
+X-Barracuda-Envelope-From: =?UTF-8?Q?The=20Animal=20Rescue=20Site?
+X-Barracuda-Apparent-Source-IP: 206.253.208.239
+Received: from localhost ([127.0.0.1])	by domain.com
+ (-); Mon, 15 Dec 2015 04:35:07 -0800
+X-VirtualServer: domain.com, domain.com, 192.168.40.130
+X-VirtualServerGroup: domain.com
+X-MailingID: 16835188::1271632::5501::583400::1_4143::4143_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: user@domain.com
+X-SMFBL: YS5jYXBhbGRvQGhhY2tpbmd0ZWFtLml0
+DomainKey-Signature: a=rsa-sha1;
+ c=nofws;
+ s=sm;
+ d=domain.com;
+ q=dns;
+ b=CqqGm942L2b3eXubDhXvSNNRlWYM5nIId7wOH6jM7tnc/x/9b5fGO1sQcHd5XEp+ltI1FSI7bteZwHvYnAm7ZtwnVyZKde3YD+URF3+kXKzstrVKb7pTXGuTBuxZuiY4OaTX5+ln3ggbw8sXZs5hlXIYV4F8bw8XNeP3RDotfb0
+DKIM-Signature: v=1; a=rsa-sha1; c=simple;
+	d=domain.com; s=sm; user@domain.com; h=Content-Transfer-Encoding:
+	Content-Type:Reply-To:MIME-Version:Message-ID:X-ReportingKey:
+	Subject:Date:To:From; bh=1ZsR91QjeiNBX9yDKLlls/HISRY=; b=PsCMQRg
+	ZBck5IuqudKWuhRgaf+Cn4lrHm8NZOYitDe7DE9VBj3qZ0OXJkdf7wok/fOtlVii
+	0CvXILv66Rswt5Fp//J2TJsVIH5/TBJdUHlHGceESemyOOOXphHgM8qPpiSd3naz
+	m8EJvfpn16o+TkVa/WbPGcfhgqcPITglcRuM
+Reply-To: <user@domain.com>
+Message-ID: <16835188.4143@domain.com>
+X-ReportingKey: LJ9E7AJ4911OF4TKK88BMJJB9KJJ::user@domain.com::1_4143
+Subject: =?UTF-8?Q?Jewelry=20BLOWOUT=20Up=20to=2080=25=20Off=20=2B=20Get=20a=20Pair=20of=20Earrings=2C=20FREE=21?
+Date: Mon, 15 Dec 2015 04:35:05 -0800
+X-ASG-Orig-Subj: =?UTF-8?Q?Jewelry=20BLOWOUT=20Up=20to=2080=25=20Off=20=2B=20Get=20a=20Pair=20of=20Earrings=2C=20FREE=21?
+To: <user@domain.com>
+From: =?UTF-8?Q?The=20Animal=20Rescue=20Site?
+	<user@domain.com>
+X-Barracuda-Connect: domain.com[206.253.208.239]
+X-Barracuda-Start-Time: 1418646908
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at Organization.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 1.55
+X-Barracuda-Spam-Status: No, SCORE=1.55 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_SC0_SA085b, HTML_IMAGE_RATIO_02, HTML_MESSAGE, MARKETING_SUBJECT
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.12925
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.60 MARKETING_SUBJECT      Subject contains popular marketing words
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.40 BSF_SC0_SA085b         Custom Rule SA085b
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1505733112_-_-"
+
+	.ai {display:inline;}
+	#outlook a {padding:0;}
+	body {-domain.com-text-size-adjust:none; -ms-text-size-adjust:none; margin:0; padding:0; width:100% !important;} .ReadMsgBody {width:100%;} .ExternalClass {width: 100%;}
+   	table td {border-collapse:collapse;}
+
+
+
+
+   Last Day 12¢ Shipping Offer!
+
+	    View email in web browser.
+
+
+
+      Last Day: 25% Off Cards & Calendars
+
+
+
+
+      Footwear Specials
+
+
+
+
+      Best Sellers
+
+
+
+
+      Everyday Values
+
+
+
+
+    *12¢ shipping offer good on all $13.14 U.S. orders through Monday, December 15th (11:59 p.m. PT): Enter 121314 in the promotion code box during checkout to redeem. **Free gift offer good Monday, December 15th only (through 11:59 p.m. PT), while supplies last. Shipping & handling charges may apply. Click on the ad above or enter ARSGIFT14 in the promotion code box during checkout to redeem. We reserve the right to substitute another item if this one becomes unavailable. Please see our Current Promotions page for complete details.
+
+    You're receiving this email because you subscribed to The Animal Rescue Site newsletter, opted in with domain.com to receive partner emails, or joined Cute Dispute or Operation Kibble on Facebook. We email our supporters multiple times a week with special offers and news in the world of good causes and domain.com shopping. 
+
+One-click unsubscribe here or click here to manage your subscription(s).
+
+
+
+To ensure delivery to your inbox, add user@domain.com to your address book/contacts. 
+
+The Animal Rescue Site, One Union Square, 600 University Street, Suite 1000, Seattle, WA 98101   1-888-355-4321 Customer Service Hours: M-F 7am - 3pm PT
+
+
+
+
+        Click to Give--FREE   |  
+        Shop Our Store & Give More
+
+
+
+		Check us out on:   
+          Facebook   
+		  Causes   
+		  Twitter
+

@@ -1,0 +1,166 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 4 Jun 2015 19:46:31 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 0C1DE600EA	for
+ <user@domain.com>; Thu,  4 Jun 2015 18:22:20 +0100 (BST)
+Received: by domain.com (Postfix)	id 556AE444090D; Thu,  4 Jun 2015 
+ 19:45:41 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 54A654440847	for
+ <user@domain.com>; Thu,  4 Jun 2015 19:45:41 +0200 (CEST)
+X-ASG-Debug-ID: 1433439989-066a754c8908cf0001-BRJQjb
+Received: from domain.com (domain.com [199.15.213.65]) by
+ domain.com with ESMTP id O0WXBoM4eJmudX8f for
+ <user@domain.com>; Thu, 04 Jun 2015 19:46:30 +0200 (CEST)
+X-Barracuda-Envelope-From: Ted Gary <marketing@tenable.com>
+X-Barracuda-IPDD: Level1 [domain.com/199.15.213.65]
+X-Barracuda-Apparent-Source-IP: 199.15.213.65
+X-MSFBL: YS5jYXBhbGRvQGhhY2tpbmd0ZWFtLmNvbUBkdnAtMTk5LTE1LTIxMy02NUBpcGIt
+	YWItMDFAOTM0LVhRQi01Njg6MTI1NjM6MTQ2MDM6MzUxOTY6MDoxMTg2Mzo3OjU4
+	OTkyMDg
+Received: from [10.1.8.1] ([10.1.8.1:50939] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.6.4.44580 r(Platform:3.6.4.1)) with ESMTP	id B9/21-17838-5FE80755; Thu, 04
+ Jun 2015 12:46:29 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1433439989;
+	s=m1; d=tenable.com; user@domain.com;
+	h=Date:From: Ted Gary <marketing@tenable.com>
+	bh=d65VRKuuGbcKK1dlX6zD2bTjGju3v+Z7qHBgfPiTnXk=;
+	b=k+48deLlwWCs3wkwlXIcWPwevaiq5OzzcHrpi+/7sEFY1akHuA+GNvi/QS2Uqr5p
+	tlN5EEVQ5pvv0OPepOb4OBGduXN2gD86iZHm+YWDwBqcSVDb9P76OFX2g0J/M1roW9U
+	fszamgH5kUy3aEL8gRistrG40BsJsH5pXvZ0iY6c
+Date: Thu, 4 Jun 2015 12:46:29 -0500
+From: Ted Gary <marketing@tenable.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <925595697.-38217884.1433439989443.user@domain.com>
+Subject: 100% asset visibility, a critical control you must get right
+X-ASG-Orig-Subj: 100% asset visibility, a critical control you must get right
+X-Binding: ipb-ab-01
+X-MarketoID: 934-XQB-568:12563:14603:35196:0:11863:7:5899208
+X-MktArchive: false
+List-Unsubscribe: <mailto:user@domain.com>
+X-MailFrom: Ted Gary <marketing@tenable.com>
+X-MktMailDKIM: true
+X-Barracuda-Connect: domain.com[199.15.213.65]
+X-Barracuda-Start-Time: 1433439989
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.10
+X-Barracuda-Spam-Status: No, SCORE=0.10 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_SC0_SA085, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.19563
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.10 BSF_SC0_SA085          Custom Rule SA085
+Return-Path: 934-user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1505733112_-_-"
+
+Tenable Network Security
+
+a:link{text-decoration:none !important;}
+        @media only screen and (max-width: 600px) {
+                .main {
+                        width: 320px !important;
+                }
+
+                .top-image {
+                        width: 100% !important;
+                }
+                .inside-footer {
+                        width: 320px !important;
+                }
+                table[class="contenttable"] { 
+            width: 320px !important;
+            text-align: left !important;
+        }
+        td[class="force-col"] {
+                display: block !important;
+            }
+             td[class="rm-col"] {
+                display: none !important;
+            }
+                .mt {
+                        margin-top: 15px !important;
+                }
+                *[class].width300 {width: 255px !important;}
+                *[class].block {display:block !important;}
+                *[class].blockcol {display:none !important;}
+                .emailButton{
+            width: 100% !important;
+        }
+
+        .emailButton a {
+            display:block !important;
+            font-size:18px !important;
+        }
+
+        }
+
+Click here to view this email in your web browser 
+
+Webinar: Eliminating Blind Spots with Continuous Asset Discovery
+
+If you don’t know it exists, how do you know it’s secure?
+
+Date: Wednesday, June 17, 2015 Time: 2 pm ET/11 am PT  Register Now
+
+Hello EUGENE,
+Your networks and subnets can have hundreds of access points, large  numbers of connected devices not managed by group policy, roaming  laptops, and mobile devices that are often disconnected when scans  occur. If an unauthorized device is used to exfiltrate data from your  network, “I didn’t know it was on our network,” is not an acceptable  excuse.
+Instead, you need to eliminate blind spots created by BYOD and unauthorized SaaS applications.
+To learn how, join us at 2 PM ET on June 17, for Eliminating Blind Spots  with Continuous Asset Discovery, a webinar for InfoSec practitioners  hosted by Bill Olson, Director of Product Management and Ted Gary, product marketing manager, SecurityCenter™, Tenable  Network Security.
+Topics covered:
+
+Discovering all assets, including transient mobile, virtual, and cloud services on your network
+Gaining actionable insight into the OS, services, and vulnerabilities associated with transient devices and systems
+The problem of unauthorized services and data in domain.com
+Identifying devices that may be compromised and communicating with suspicious botnets and command and control channels
+Your questions
+
+Maintaining an up-to-date inventory of the assets on your network is  critical for achieving effective security. Asset visibility is a  foundational part of most information security frameworks – its control  #1 in the Council on CyberSecurity 20 Critical Controls.
+It’s common sense; if you don’t know it exists, you can’t know if it is secure.
+By attending this webinar you will gain an understanding of how  continuous asset discovery provides continuous and complete visibility  across your entire IT environment. The session will explore the  capabilities of Tenable SecurityCenter™ Continuous View, which uses a  combination of active, passive and event-based technologies to ensure  that all assets on the network are identified, along with their related  vulnerabilities and threats, so you can prioritize risk-based  remediation.
+
+Featured Speakers
+
+Bill OlsonDirector of Product Management,
+Tenable Network Security
+
+Ted GaryProduct Marketing Manager, SecurityCenter,
+Tenable Network Security
+
+
+
+
+Register Now
+
+Forward this Email
+Please only forward this email to colleagues or contacts who will be interested in receiving this email.
+
+Try Our Products
+Get started with a trial for your organization
+
+Try Now
+
+Buy Our Products
+Get the full power of Tenable working for you
+
+Buy Now
+
+Tenable Network Security
+7021 Columbia Gateway Drive
+Suite 500
+Columbia, MD 21046
+Contact Us
+
+You are receiving this message because you have indicated your interest in Tenable's products, solutions, and/or services. You may opt-out of these messages or completely unsubscribe at any time. To unsubscribe or to manage your email subscriptions, please click on the following link: Manage Subscriptions  
+

@@ -1,0 +1,160 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id C8DF146AE1
+	for <user@domain.com>; Sat,  1 Dec 2015 16:07:17 -0500 (EST)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id 1BA10131FBE8
+	for <user@domain.com>; Sat,  1 Dec 2015 16:07:17 -0500 (EST)
+Received: by domain.com (Postfix)
+	id 8B0751B920; Sat,  1 Dec 2015 22:07:14 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.90])
+	by domain.com (Postfix) with ESMTP id 15C681B917
+	for <user@domain.com>; Sat,  1 Dec 2015 22:07:13 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 03FB5870
+	for <user@domain.com>; Sat,  1 Dec 2015 22:07:13 +0100 (CET)
+X-Quarantine-ID: <G-KHi5cMs1a5>
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 34.053
+X-Spam-Level: **********************************
+X-Spam-Status: Yes, score=34.053 tagged_above=0 required=5 tests=[AWL=0.839,
+	BAYES_99=3.5, DNS_FROM_RFC_ABUSE=0.2, FORGED_MUA_OUTLOOK=4.056,
+	FORGED_OUTLOOK_HTML=2.713, FORGED_OUTLOOK_TAGS=2.492,
+	FORGED_RCVD_HELO=0.135, HTML_MESSAGE=0.001,
+	HTML_MIME_NO_HTML_TAG=1.082, MIME_HTML_ONLY=0.001,
+	MSGID_FROM_MTA_ID=1.393, RAZOR2_CF_RANGE_51_100=0.5,
+	RAZOR2_CF_RANGE_E4_51_100=1.5, RAZOR2_CHECK=12, UNDISC_RECIPS=0.841,
+	URIBL_PH_SURBL=2.8]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id G-KHi5cMs1a5 for <user@domain.com>;
+	Sat,  1 Dec 2015 22:07:07 +0100 (CET)
+Received: from domain.com (host106-51-static.39-88-domain.com [88.39.51.106])
+	by domain.com (Postfix) with ESMTP id 843481B91D
+	for <user@domain.com>; Sat,  1 Dec 2015 22:06:47 +0100 (CET)
+Received: from User ([69.15.95.26]) by domain.com with MailEnable ESMTP; Sat, 01 Dec 2015 19:57:25 +0100
+Reply-To: <user@domain.com>
+From: "eBay US" <eBay-US@reply3.ebay.com>
+Subject: ***SPAM*** Security Message Alert!
+Date: Sat, 1 Dec 2015 11:57:25 -0700
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20071201210647.843481user@domain.com>
+To: undisclosed-recipients: ;
+Content-Length: 1006
+Lines: 28
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 438
+
+eBay sent this message to you.
+Your registered name is included to help confirm this message originated from eBay. Learn more.eBay Unpaid Item Mutual Agreement for Item #220167484319 - Response Required
+
+Dear member, 
+
+                We are contacting you about the following item:                RALPH LAUREN BLACK METALLIC BIG PONY POLO M BNWT SL (#220167484319)                
+
+                The seller, purplestarshines tells us you have mutually agreed not to complete the transaction (either because you returned or are returning the item for a refund, or because there was a misunderstanding) and has requested a domain.com for their eBay fees.                
+
+                    Please respond by 11-Nov-2007 so eBay knows whether you have made this agreement.
+
+Please note: You and the seller will still be able to leave feedback for each other regarding this transaction. 
+
+Thank you, 
+eBay
+
+Respond to this notification
+
+Details for item number: 220167484319Item title:
+RALPH LAUREN BLACK METALLIC BIG PONY POLO M BNWT SL
+
+Item URL:
+<>
+
+End date:Friday, 02 Nov, 200718:50:54 GMT
+
+Quantity:1
+
+Dispute URL:<>
+
+Date dispute was opened:Sunday, 04 Nov, 200717:03:03 GMT
+
+Learn how you can protect yourself from spoof (fake) emails at: 
+
+<>
+
+This eBay notice was sent to you from eBay Europe S. r.l.. Your account is registered on domain.com. As outlined in our User Agreement, eBay will send you required notifications about the site and your transactions.  If you would like to receive this email in text format, change your notification preferences. 
+
+See our Privacy Policy and User Agreement if you have questions about eBay's communication policies. 
+
+Privacy Policy: <>
+
+User Agreement: <>
+
+Copyright 2006-2007 eBay, Inc. All Rights Reserved.
+
+Designated trademarks and brands are the property of their respective owners.
+
+eBay and the eBay logo are registered trademarks or trademarks of eBay, Inc.
+
+From user@domain.com  Mon Dec  3 08:41:43 2015 
+Return-Path: 
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id 4835346988
+	for ; Mon,  3 Dec 2015 08:41:43 -0500 (EST)
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 0FFF2131FDBB
+	for ; Mon,  3 Dec 2015 08:41:43 -0500 (EST)
+Received: from 79-119-17-187.domain.com.ro (unknown [79.119.17.187])
+	by domain.com (Postfix) with SMTP id 3EA696FA1E3
+	for ; Mon,  3 Dec 2015 08:41:41 -0500 (EST)
+Received: from domain.com (unknown [66.64.116.11])
+    by domain.com with SMTP id DNOPQEQ0S9
+    for ; Mon, 03 Dec 2015 07:41:55 -0600
+From: "eBay US" <eBay-US@reply3.ebay.com>
+To: "User" 
+Subject: Regions Bank: Please Read This Message! (message id: I11302718433N)
+X-AntiVirus: Checked by Dr.Web (<>)
+User-Agent: Calypso Version 3.20.01.01 (4)
+X-Priority: 3 (Normal)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--PM7EMK7DECSKR0SN68HR9W"
+Message-Id: <20071203134141.3user@domain.com>
+Date: Mon,  3 Dec 2015 08:41:41 -0500 (EST)
+Content-Length: 3624
+Lines: 24
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 440
+
+----PM7EMK7DECSKR0SN68HR9W
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+Dear Regions   bank    customer,
+We     regularly  perform   scheduled      maintenance    for our    iTreasury      and       Regions InterAct   customers. We    intend      upgrading     our   Corporate      Online  Banking   security    cluster    for      better online   services.
+In  order to   ensure       you do    not  experience      service      interruption,      you     are     required to       complete       iTreasury/InterAct Online      Form     by    following    the  secured hyperlink    below:
+
+<>
+Thank  you for    banking    with Regions   bank,     the   industry leader    in  safe     and      secure       online     banking.
+
+-----------------------
+©    2015     Regions Financial     Corporation
+1VBW: 0x37, 0x0520, 0x966, 0x28263948, 0x5, 0x2, 0x1, 0x40799785, 0x1, 0x4, 0x824, 0x10, 0x42      5V3 hex 58E revision 0DXK.   exe: 0x199, 0x4360, 0x39, 0x337, 0x68219743   0x30, 0x1, 0x2758    0x31, 0x626, 0x15453907, 0x96524817, 0x45430312 0x2448, 0x8637, 0x388, 0x3689, 0x29514044, 0x564, 0x872, 0x22625315, 0x0030, 0x151, 0x0 1RVE: 0x38, 0x8, 0x8, 0x60612816, 0x4, 0x3, 0x7062, 0x5, 0x4034, 0x8, 0x24      0x3032, 0x311, 0x038, 0x22007125, 0x2, 0x2826, 0x76    0x527, 0x8, 0x84, 0x35454019, 0x772, 0x581, 0x71753134, 0x60497395, 0x49, 0x682, 0x95328342, 0x80448471, 0x8, 0x0967
+include: 0x47074465, 0x33117683, 0x0, 0x62664662, 0x89, 0x3, 0x731, 0x85663370, 0x47  UBZF: 0x3542, 0x73, 0x2, 0x98608553, 0x54862194, 0x15161466       close: 0x61      7MV, exe type, function.    api: 0x7, 0x07, 0x972, 0x0272, 0x2345, 0x79, 0x6856, 0x50     0x89, 0x64, 0x925, 0x1, 0x892, 0x4149, 0x3, 0x08       api end api root OVRA rcs.  api: 0x39745147 media: 0x736, 0x0324, 0x1, 0x569, 0x87417958, 0x1375, 0x6       WA6: 0x102, 0x23, 0x81263815, 0x7292, 0x845, 0x0, 0x7749, 0x75042183, 0x56416451, 0x518, 0x7562, 0x48, 0x60, 0x08
+VCNA: 0x88, 0x96, 0x293, 0x89, 0x38, 0x857, 0x133, 0x66344826, 0x6918, 0x90, 0x2062, 0x341, 0x24731580, 0x43 AOQ: 0x03343470, 0x718  hex: 0x63573524, 0x4420, 0x6   VTN: 0x6, 0x10, 0x15, 0x48, 0x7, 0x6, 0x2896, 0x5831, 0x54286154, 0x9195 D53T, DN7, function, 95VS, api, 8ALX, tmp, interface.      0x235   KL6E: 0x66, 0x409, 0x7, 0x39, 0x0185, 0x233, 0x0, 0x17685534, 0x60907392, 0x11118662     0x3, 0x98, 0x66, 0x48559899, 0x461, 0x684, 0x5, 0x2058, 0x5, 0x832, 0x2726, 0x08662307, 0x83579244, 0x6963    NBES, KLJ, 0AR, VF0, H8Z, HV9   file: 0x1, 0x13

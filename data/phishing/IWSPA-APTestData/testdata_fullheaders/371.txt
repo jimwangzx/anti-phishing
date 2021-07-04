@@ -1,0 +1,207 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp423166lfb;
+        Mon, 9 Nov 2015 09:27:52 -0800 (PST)
+X-Received: by 10.140.223.17 with SMTP id t17mr33263716qhb.77.1447090072776;
+        Mon, 09 Nov 2015 09:27:52 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.110.59])
+        by domain.com with ESMTPS id j197si11864563qhc.96.2015.11.09.09.27.52
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 09 Nov 2015 09:27:52 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.110.59 as permitted sender) client-ip=157.56.110.59;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.110.59 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Received: from domain.com (10.141.218.16) by
+ domain.com (10.255.240.148) with Microsoft SMTP
+ Server (TLS) id 15.1.318.15; Mon, 9 Nov 2015 17:27:51 +0000
+Received: from domain.com (10.255.193.22) by
+ domain.com (10.141.218.16) with Microsoft SMTP
+ Server (TLS) id 15.1.318.15; Mon, 9 Nov 2015 17:27:49 +0000
+Received: from BN1AFFO11FD042.protection.gbl (2a01:111:f400:7c10::145) by
+ domain.com (2a01:111:e400:45::22) with Microsoft
+ SMTP Server (TLS) id 15.1.318.15 via Frontend Transport; Mon, 9 Nov 2015 
+ 17:27:49 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=domain.com;domain.com; dmarc=none action=none
+ header.from=domain.com;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.75;
+ helo=domain.com;
+Received: from domain.com (141.161.191.75) by
+ domain.com (10.58.52.253) with Microsoft SMTP
+ Server (TLS) id 15.1.325.5 via Frontend Transport; Mon, 9 Nov 2015 17:27:48
+ +0000
+Resent-From: "=?utf-8?Q?INSTANT POLL
+Received: from na01-bn1-domain.com (141.161.191.14)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Mon, 9 Nov 2015 12:27:36 -0500
+Received: from domain.com (10.160.24.38) by
+ domain.com (10.242.46.148) with Microsoft SMTP
+ Server (TLS) id 15.1.318.15; Mon, 9 Nov 2015 17:27:35 +0000
+Received: from BN1AFFO11FD047.protection.gbl (2a01:111:f400:7c10::110) by
+ domain.com (2a01:111:e400:8ae::38) with Microsoft
+ SMTP Server (TLS) id 15.1.325.8 via Frontend Transport; Mon, 9 Nov 2015 
+ 17:27:35 +0000
+Authentication-Results: spf=pass (sender IP is 69.25.74.143)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass
+ (signature was verified) header.d=domain.com;domain.com;
+ dmarc=bestguesspass action=none header.from=domain.com;
+Received-SPF: Pass (domain.com: domain of
+ domain.com designates 69.25.74.143 as permitted sender)
+ receiver=domain.com; client-ip=69.25.74.143;
+ helo=mta-dock-front-15.domain.com;
+Received: from mta-dock-front-15.domain.com (69.25.74.143) by
+ domain.com (10.58.53.62) with Microsoft SMTP
+ Server (TLS) id 15.1.325.5 via Frontend Transport; Mon, 9 Nov 2015 17:27:34
+ +0000
+Received: from domain.com (unknown [10.0.200.61])	by
+ mta-dock-front-15.domain.com (Postfix) with ESMTP id
+ 3nvfQs6wbKz1gwcx	for <user@domain.com>; Mon,  9 Nov 2015 17:27:33
+ +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=endcitizensunitedkey; t=1447090054;
+	bh=PLinnnf9nd1puno/NHyBfQdbdSEnw7f1GmYB0bPs/nc=;
+	h=Date:To:From: "=?utf-8?Q?INSTANT POLL
+	b=JpRwQGV1ZjoVCUbAkYDMXIcMlOI28w7XX9pJYrWB6TCyEYQT71wtQDJgLjL9+MDPW
+	 euJrrvVvsRoQq3l6lm8SjYY9D9YgsTW0ArIAsLeNsFvFZvjAPE+uly3L9vabZ6gN2G
+	 jBw3sMohsw/cimBn7ei/1tfEgt/HgQibqol/KgqA
+Received: from phpmailer 	by domain.com with local
+ (PHPMailer);	Mon, 9 Nov 2015 17:27:33 +0000
+Date: Mon, 9 Nov 2015 17:27:33 +0000
+To: John user <user@domain.com>
+From: "=?utf-8?Q?INSTANT POLL
+ domain.com)?=" <user@domain.com>
+Reply-To: <user@domain.com>
+Subject: John user's response is PENDING
+Message-ID: <89086user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: f671d2cbf40ae229
+X-rpcampaign: rp_1094129
+X-maillist-guid: AAtSVgoQD0FsVQYCAAEBAgFfBAJVUlcBWzBCDFJRRhAEJVpUFEoBUQpBV1BFCkQPTVxURz0FXAVT
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_89086e092578fc3b1575a36fee6f641d"
+Return-Path: user@domain.com
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1AFFO11FD047;1:HVfAU/eXxjwjEY6MeGxP2VH8bJCct8KtgeHOLayBqm2tEH0WwN3S1DDIl8xszIvkuDN1C0KX80/6kXqnHRd6oeu8/1lRA5n3ku741VjY/Ov6OXdFfO+mDACM3GWE33V9mkjEwlKunVGsH66JRHeWSPPyEEB1VSn/pG3IwXKxZLg4/ubUlU2YkRyZf1Ty1MNQX6Mf66j1L4bz7yvuhpBTG4pSQDeziBcuwGkRKudRpZufc+/I5UY3uZZILGmGDgn4y5CppE74GIp4eYVqv/yFL3Dd3JLFqBcpYHsV7/Wl0gjwTZ1Yvy+U3zR5Tq4o9p4h93ln5TvFeHbWipgxCljOsCyGdB2WyCJqPMsVbU4AXohVpPf9djd9SYZuSvBaQTfY7qNLHWr4rQbahq8vDkx4dw
+X-Forefront-Antispam-Report-Untrusted: CIP:69.25.74.143;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31620200002)(2980300002)(438002)(359002)(349012);DIR:INB;SFP:;SCL:9;SRVR:BY2PR07MB105;H:mta-dock-front-15.domain.com;FPR:;SPF:Pass;PTR:mta-dock-front-15.domain.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB105;2:KYShhe8z7wEYzQooSkAjW+F7YhMGSMpfn76hOZJBpSSm/I2HEdbXZlScH7qrp4Aw94eM71N2qCLWU6lcfslIX5nTRxLJL4o7yeHMlc9Y+CscKS/m+3DRXaQ5NgVBi81g45qysp66OiM2YmlOlqa4L3FLO1d0zzZAUkumUzIQ5BA=;3:3eG9iYRCVVhntsDzzCDvKi0bqHxC0A4Z6FU6iizKTnq112nmLbesXh/imV89kHodKUwD/Iv+IBVn/6wBw8I+Is/JRo90DDptxgM8sUtyYB/VpaJFrsxaR18hImcXyBtUWZOaZ5WUSX/9v/zeS1JyT32FCzhioNrWwdxZvUSeGpdGsi6pvg2VngQC00kIzMlL0wljrqKgFUwWVjkx11jGRPglhxpEFzY5MAFkB8vqjjcpZiOXvrXcHCPI/gJI1BD8AGtWdRx8mcaEX0VCKPSVUD/2DvwN8NGAZQrxWHy2NZsGjnTp3k7i4qhfZZQZlImh2s6+4tJMfxwB5jaDkBilKEe7hH0+CJQNLQpaqA+zOj5+3x0L8wuFfx+w+FeimmSB;25:ZSP5K1rppw532pOPQZG1GEkRK8slwZ7Fqtb5pU2hjWdrcKCWXrY3FZMzLLvQEN8mAtIUY5QJ2Q7y5RPBJamrkAShuTR6yUizZl+sJpiT6ztDP3MYVI9J271LwIch5e3fXEoPH82l8GTWhu6eJWVxwbAs+rYYnawfiVGepLnRmVMeF7CzS/x3u6lYrr2+uLkTtnY0GJiYf6b7mvKufc7kym7jvapPb34T+CuS8dedNVNEIImPcoJUevg4/X5w0azrZ+MUtsfIALAJ9o7FpIrYAQ
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(421252001)(42134001)(42139001)(8251501001)(3001015)(71701003)(71702001);SRVR:BY2PR07MB105;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB105;20:e2yqPqKZdz4JKw2KP5uMv1sU+J+tapyRqfF4+JX+25JMPRtIVZf2s2mPtkoOy9EvJbKOYdHdB06YHdMXSyrNTd3AtVQSOYSmP6BI0DNlCzIYK1xYb0rX8mGRnSbPV7WAvvYb255JD4nEeoXZYVSm3UIR4T1FCZz5DFPvNjVu3ORxGlYfYIp8Ygxda/0+ZVpyyYU6uibQRXuNKzt3dQUpSmtcqbwB6jpbsSVyjbOg5hOFFwnbwwNjvsIVt/Lh4cKqVJLMvMU58dJReqgkrH4L67rbpMBbx8KOhBQv+UX36HBqSoiJT3AA8yimr/qZmMrsLi/dhMFQcoHyOqQr/6h9FQ==;4:fsyy8qvUPj4/FxAhxmp3nE9IzgJuMlf0QnHE8gEfGHwVdLrWiTTNmkvu9K8HSr22birOTnXpz3GeCuep5Uk+qQyS5hT4q83Cy1S8kKFvlp/FekJtN9uOxdcNomh3pzORHFudxXEmFTo9sgXK7BUMC4WcsnMI4kvxLrxPF9TQ9oqEg1W7eXex11fviPekGV4Tll+xk19MBeLz46bXtRwx4Lb4Ap66EaZvFi8ayfKGrcZ+7Jssk2QPOH51idveA3UpsgAvEqw9H4gmDl3hPSFjlULexcjmYWpsX86ggjt1QnpY85P2HYV8OzUHjAzsizFyBX9Ij8VuryyvzaI+99GiKLdJxfIqUI3Pi5LPzUqne0O6MK1EBAI1VFetzDHSx1sp
+X-Exchange-Antispam-Report-Test: UriScan:(76009858676777)(6594202986349);UriScan:(76009858676777)(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test: BCL:6;PCL:0;RULEID:(601004)(2401047)(8121501046)(520078)(3002001)(10201501046);SRVR:BY2PR07MB105;BCL:6;PCL:0;RULEID:;SRVR:BY2PR07MB105;BCL:0;PCL:0;RULEID:(601004)(2401047)(8121501046)(5005006)(520078)(3002001)(10201501046);SRVR:BY2PR07MB533;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB533;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB105;23:lbeWcE5r+XdLMGJsM0i027euc5hdjvmAJQX4SzRD2cIIOb1rhkyBIJggfb3JgD6/vvnNYOWq4sOYSYRy2I8fGrNoXFxZTFoHEzxAAr3KEkBzyq5F4TEEKsmJtv2A62rLQfgOpXwYI++WBmtGKhSplW6c6Yh8TMwaJpKqka340zITp4cuB9T3vSF89sL7rsyrLdH0XRkafuyE7uV8lIV3fPenhy/FKpetAeFs7Ttb8s4I3KIv1Zcnkw5secw/3SYg8xoqRmBkStoEHkEfRBu9XMz62R/k3Td2G/62alejNv0=;5:Dk+czgyDj14vX8TwP8FzfidFomUCsHIEzkWHIN2Ri/fdSz4j/2p9c7wgbkqMDECIoQXHlqAxEANoav+LgUtgUJUCMPZQfu7uUTaGgpvqza2Kavspt4eL3EGOWvA4C4GAn7uGRYGsbW44YV2MHVm27A==;24:SnWYiP2h50M5rfCoKFamXZk+4Ps0U6rR2DIGWPxjR4oL0NxxT0nCCYmGgf2EmcDTnh448dtUXjA4xTpyDI8zwQ==;20:E4+EOH0y+6tSCb1a9PbY9/Sg/cCkKXqW31kx9OO5kjrO+xWQ+na9GrLMjPfj1Vj728O0FoTyf3ObLrVAku26MQ
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB105
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD042.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD042;1:x/pixuJW0EEkEQZFUeLIDQfTEzgA1+g3Z6qerbLB5GnZtSI9UaOJl8nCb5+U9DQt+K2x3r7lolAAs+FrwbxY+Xqpmv8y55iNJfx1FDUooLritmo4JB2B4TRz1O8KSII+IUrKE8scDSbgGgPtlyeJkgrjisjckHNaMpzvzU126mceq04XbFtWzd7aVMCFZsBbZ7k8MCvVAneDh1vLfwjMu7it0Z6JBt2hNB2gMBm16Gy8YolnSG97qbA5ItbJVusqqNfrMoSMxI+pYlXzHzXXeGtzvnSYfaMQW7syY/0Yn+8asW8kJXYU7D8xjpc7cd9KWi6VNr3LnUah53JEKnuSDRhD6zHSX58yJGQdRY47KmT/5cttiJtEZtzxwyQ+bSzk
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1109001)(1110001)(339900001)(76104003)(199003)(189002)(36882002)(19627405001)(108616004)(4290100001)(23466002)(19617315012)(189998001)(75432002)(105606002)(89996002)(960300001)(57986006)(3820100002)(50226001)(106466001)(46656002)(229853001)(19580405001)(81156007)(97736004)(19580395003)(47976999)(88552001)(110136002)(53806999)(19625735002)(5001920100001)(16601075003)(5002220100002)(18926415007)(5007970100001)(5008740100001)(85426001)(146001)(11100500001)(19618635001)(24736003)(1720100001)(84326002)(2171001)(19630485002)(18206015028)(50986999)(33646002)(450100001)(19625215002)(107886002)(6806005)(43066003)(512874002)(15975445007)(5001960100002)(4001450100002)(81686999)(956001)(15187005004)(87936001)(7029013)(7099028)(95576001)(35244002)(42882005)(17308445002);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR07MB533;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BY2PR07MB533;2:ACQA5EwgLCgGHxlb7pdwoP4+gIdebKaALBiA8eFxVUXNFMfyVwBz0XglVu4UM9xY8DsVJ1xuBF+bucEpfW7vWOh3eogkqVWm4cfBCWUK6n/bViDpamk7hY67fZ+a1k+sc4OtB9sv19A2oGZYrApsZHSZOixOFptjYeFHbT2H4do=;3:aqDCZerX6sXB/9r8j+7/Q6twfWZVZNew1j5SNuHVWG86AsQyJdQiIB7D8L2ow0D5loEmsUn+JOIL2L3CFr0NW4rrRmxpeEOu4xEAVMJqLyVbL7VbhRdxEedRUS4C0IpUa8iu9h+Ija5btW8OROdB7l6o+iWkdy1mgCQPGn2EosuHc/kms2cZm6cLS8S4tqn80T6P8gRiqQs8NFZQt5qPHy1LPyojXCcfpw2fZbvvbRRV/6PQuW3HU9bHXtSZrOyUGQXwkNdIeQBFOD4kgNPyC3PK33u3NOSfk+R2Q0QGjZV/TWldGAcSJnvq8XnVF6eU;25:Q23/EaelnUk1fk07l9KS/BnMt+09+NcLYckMcm25aWEQQlUTxbZhw6veFkxm+JKIoJYNNhK973sRWk++qpURzh99FyICSYrezMc/O3r0zglmjy3EtSgM8qOyBqiQbP4WoxdChYJtNeCJVRdarWsP2F7VYHggBHL++ZkB5mwvYInAPEq0sKI80wVLfsnYxAAIiUTtJjro4cWHHOTbdCA0ipEBZec+moN7EutghfMerk4iTVqzuJxvTBlLwDEd2wEiskBtYl/NYZNa8KwovlVqrQ
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(421252001)(42134001)(42139001)(3002015);SRVR:BY2PR07MB533;
+X-Microsoft-Exchange-Diagnostics: 1;BY2PR07MB533;20:Vylt3XwvcC00QM+mtP6/W6h3E4zHi21j9X8PjwqO0L5kZwQA2xJnoYvzvBj89lstsARCChtWVC7EEZD/JoiFt2JaI/ENIWuFbugNI8hrQ0DVnVcPGZDfhzSsogAOwqa3h1GZJlSSaGBpccF0qjHsVuVBOYrgzBQyjNTCzd+H7GS0H0mVTSw+G5M3qFgrPALeQADmZ/2I9aXxyItxQY/rAN2r+SI+qkfIme3EvNd2PCjeUlLaZPxk5+1+/7VvizGndcmO6wPUbbuQ9X//lOJaGlc78DDge7kCqnsGCuLflcYzFy07nK/kqLCbtALqxXQaHZZ4f5ZkL+SqPf6xNskDzQ==;4:DcdnrVYW5xhK6ssRaAPuLNMH+0GqVIoaP/c88tKwuA5ms9vuSWsWSSXWsoOe0rpmDRsS4JvvOGxL3lrYlmL19Y9/vYUBbmlv12g/p2JWzvL1vHj2sb9Q/C6shEyLUFeESTD9iHF3fNdVduMMktX1AHHbbeFO5MRrOGScrWA//QZKrx8EobaYHmwPK8NMAkt6xVj35t9SFRvoccxRIA/BPbjfJ368CgpTGXpOZcB9TvsAgF3F7V1XWQ2BShdBtBeppqOkj5ldPyxJwnPg79mcIg1IUDiHjCnvOW+pTsl9G7LQiNt/C95TgDd5N8KlyRPK+VqMCstwN9Wg/m93P1PXMpUnT/R3VXepXm7ttCKEhvr4mfvR2tmMgSKZZIS3GNBc
+X-Microsoft-Antispam-PRVS: <user@domain.com>
+X-Forefront-PRVS: 0755F54DD9
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;BY2PR07MB533;23:cc+kFFG/DVWfFxlzfwbI9LaJYZnGRuoYE/BTv1dLkU?
+ =?us-ascii?Q?TSz7iBWVapFMUy0bTM9S+B3QCyq610ngxxbc/aquMbRL31xQsBjvuexQlcPF?
+ =?us-ascii?Q?mrki0dBHO7Ema6hCeVqsnew1XAzEUA4vufCWJyqUj36qZ7GCS640ViAHSoZy?
+ =?us-ascii?Q?RK66QZvrLFaBj491sNCyPIMqlt/zNVsnNnj32pc5N3e9gkc+6MrbtD+mKuP7?
+ =?us-ascii?Q?+GZtuPkr8CY7hXdzpQi+WkUNAaHWctMiH65FMsSl0DcN9qWtO3clzymilpzS?
+ =?us-ascii?Q?EbobX51NUA+65HVumICzS1hqO8UtYrUlo1lsFNNd3NduARTxs6af/R6HC0sV?
+ =?us-ascii?Q?ZODTkxWEQBYGCTQnhR73rtjeCvFLATTlKsu68rz/ESofKuCeenn+ZE4U4nsx?
+ =?us-ascii?Q?J/5iqqcZP2ErGv8xgAdj8eu3h+tFHpkEGSaaaMD1O7bE6He9ROSGEcN8BnYa?
+ =?us-ascii?Q?IiQwH9Q6BqS2Z1ZQKQ3RywvQvJd85/boFtbRPUV+Mo87JBFskrNGkbvyhNC8?
+ =?us-ascii?Q?N4wEJR1w24Uwbucmk/8yzcPo2QI8cagjqkG4SbqQHxOLG0ckp+uKj9u7+7iP?
+ =?us-ascii?Q?QknUWU54oPDzOKYz3uIDvsh/9LLNSPpc6o3EURiUbESUIlfJth1ZjzusYdsk?
+ =?us-ascii?Q?7hotMVsu6cIxP7HBs4iUeU/WOVcaGgLi+4JU3qrStVBsLy1j4HjMnjXfQ8iv?
+ =?us-ascii?Q?+RtfevyF9yAWd7A/AmGoIe7e8/uucu3td562JZK42TmpQi983RbTUFoW9rFd?
+ =?us-ascii?Q?/GYSsfAkNTd1g7hG+DoHux8YacDBzrB5d7abwhMKZywF7X0V0QX3smN9WKwj?
+ =?us-ascii?Q?SSPl82yNRpbDEZ/O9KKlYP1dTQQf5bAH4Ah3ICOwdI4vMIUCBSW2l0mvfRJH?
+ =?us-ascii?Q?VCpyXkK2IfbaSrEfT4OCnRMvlOzT5/k42+4rfDEsultGlYZA3hITy84woKUE?
+ =?us-ascii?Q?Q2EK5nIVs1ggaOaPzLZD+E7/5A4bM3J0CcRqTX8o7pNIwN0KE20UG9L1CGB9?
+ =?us-ascii?Q?Bp2D3B9/WNbKrCkNylMugSmziJmny07MUbHSg5hduGNhlpNN7icKrcuY3ns2?
+ =?us-ascii?Q?/oB6+jBRSqlpgwyy9aNM6Ku0uWwzGiKr8HDAEJy15Uo4oI/sqA7SDw3j3Ui/?
+ =?us-ascii?Q?cErW/8XWUH9B0gFw6WF0jKErfXsknAFx6vSe2+3B0zaY0moOBzZ5PkvJIZQF?
+ =?us-ascii?Q?PAvTTnIGsnZTxgov0aakcY4wkthtnhLvgpgtFSiVaOasctp1hj16J5a0G4KT?
+ =?us-ascii?Q?u66hQ/OdqG4848WiFJCF5LSTF18LjIt7mqyWM68qn+HtHjufyVeYk6blDGcU?
+ =?us-ascii?Q?eJwAxUtyAb/ekxEWaw1K1H5msAU5d2oU0ufMeCt9TtoVojh6hnzPs/+FFCEZ?
+ =?us-ascii?Q?j8xW+BDyZmsvAoYgbEWlN8OQ+PZgMMF5B2a7KYZNNyTu3/bx/DSpC/AO7Bft?
+ =?us-ascii?Q?lpmsSf3fB7G1EKkbURMFjsvJpQ9rYFHre4P3RxLEr4LyTnu9c7wX52aTrIXr?
+ =?us-ascii?Q?9F6y1l68QTeNS/YcbcEFiHM+QCVIql9btfLOTRsIcmkXZD11ChoJ0vrVd6HN?
+ =?us-ascii?Q?2q5HXMIanBjgMR3K7MPQCVKWVuCQymkytGrtK+NWGGp/CXK3xorRwJ8Ir6Rd?
+ =?us-ascii?Q?44H/yJQGFhbWVKnfx9I+LwnJP3V2vIppW3kXfq6jRPxkuvGqvqAK7EiOjNaf?
+ =?us-ascii?Q?drvshvJGCQ6VwGVWN4anZsgMjktVeRszhYzqEnKCymskYsDIz3sCoYfaKUlI?
+ =?us-ascii?Q?CiuHResgYdrA8CVo4eJXpeU0Q2SmQm+pF3cgF62E1ivVEcRcIYzzS+bQqUoC?
+ =?us-ascii?Q?UlwMBNYkfLezBSNnnAR/q2rIIC+AZpKw=3D=3D?
+X-Microsoft-Exchange-Diagnostics: 1;BY2PR07MB533;5:a5rSSUT0w+jGOcZnHlEZMqBzdeVXWAWZLD7z7sbDhOQf+VfMbgAQ1tbY7KYhpnb75YDviOoXUQ4CeEHx8cK3AaeSXqi/1GMp9albj3yJsuf3f8yJwf6fSPl+Wg0UW7I1D4r2K4MrqUC4Z1L6eZG6uA==;24:dV4TrFFi5lUUJixMpk74TCbh9sx5hB4TYOliTRp2DQJqdjbiffv+kz1ycCtt+Ox3Z3cOCudbkt9Y3Gk9/xEnjGSjPA/K/0S6saYz8HWeIr8=;20:hk7eZVt7lXzs6jh8B+5xMFpx7mwWPqXhjInBYUSqaFI8GpRObOqrYNrNRBp8dBrTxg/Imbc54jtvUYZ+97uiAA
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 Nov 2015 17:27:48.4264
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB533
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB044;2:cF8uVK0GycI9afPATOB/KONbb3cPEtUjOByV6DU+oLVKvNUmswWk3z8fSnFmrtQxuZfGHxeUq57RHro3Cz9BH2IwkLsIaxnX0EFx5aKNrcCfcVgPNeul/ZT/0XtMkepiVlJmHIVZ/+xmpYgAOJwTfO1+sfMkGzevsJucCzkyFAI=;23:79vpswWtzG1kiwFwkvF8GtlD0nhwCAN00D7vucQ8BokPxNe9kNq8ddw3VvrpL38fjxtMtMxNRhcsOh646RD3BaKPv2SKm4T7BC+JXihDaQezcjPGt7REqGjLuIyzECzbOWkxwccKUbu+mubtclKkVW9AxYuP5NQ42nYBbwnYVG8g0RkizsjX6eLAJuFBqnOX
+X-OriginatorOrg: domain.com
+
+POLL: Do you think corporations and non-profits should have to disclose 
+the money they spend to influence elections?
+
+John user
+Response: PENDING >>
+
+YES =E2=86=92	NO =E2=86=92
+Unsure? Click here.
+65,672 Votes And Counting
+
+In the 5 years since the Supreme Court's Citizens United decision, the 
+dominance of big money in politics has EXPLODED.
+
+Billionaires (like the Koch Brothers) and corporations are spending huge 
+amounts of money to influence elections with little to no transparency.
+
+We believe transparency is critical to preserving our democracy in a 
+post-Citizens United world.
+
+But we want to know what you think.
+
+POLL: Do you think corporations and non-profits should have to disclose 
+the money they spend to influence elections?
+
+John user
+
+ZIP CODE: 20005
+
+Click below to cast your vote immediately: (Not you? Click here.)
+
+YES =E2=86=92	NO =E2=86=92
+Unsure? Click here.
+
+<<link>>
+
+Thanks for your quick response,
+
+-domain.com
+
+TAKE THE POLL =E2=86=92
+PAID FOR BY END CITIZENS UNITED PAC
+
+<<link>>
+

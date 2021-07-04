@@ -1,0 +1,118 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp502240lfb;
+        Thu, 12 Nov 2015 09:29:24 -0800 (PST)
+X-Received: by 10.55.74.67 with SMTP id x64mr17021165qka.108.1447349364172;
+        Thu, 12 Nov 2015 09:29:24 -0800 (PST)
+Return-Path: <>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.76])
+        by domain.com with ESMTPS id t106si12380573qgd.11.2015.11.12.09.29.23
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 12 Nov 2015 09:29:24 -0800 (PST)
+Received-SPF: pass (domain.com: domain of na01-bl2-domain.com designates 65.55.169.76 as permitted sender) client-ip=65.55.169.76;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of na01-bl2-domain.com designates 65.55.169.76 as permitted sender) smtp.mailfrom
+Received: from domain.com (10.141.157.146) by
+ domain.com (10.141.104.21) with Microsoft SMTP
+ Server (TLS) id 15.1.318.15; Thu, 12 Nov 2015 17:29:23 +0000
+Received: from domain.com (10.141.251.43) by
+ domain.com (10.141.157.146) with Microsoft SMTP
+ Server (TLS) id 15.1.325.17; Thu, 12 Nov 2015 17:29:22 +0000
+Received: from BN1AFFO11FD016.protection.gbl (2a01:111:f400:7c10::194) by
+ domain.com (2a01:111:e400:2c61::43) with Microsoft
+ SMTP Server (TLS) id 15.1.318.15 via Frontend Transport; Thu, 12 Nov 2015 
+ 17:29:22 +0000
+Authentication-Results: spf=none (sender IP is 141.161.191.75)
+ smtp.helo=mail.law.georgetown.edu; domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Received-SPF: None (domain.com: mail.law.georgetown.edu does not
+ designate permitted sender hosts)
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ domain.com (10.58.52.76) with Microsoft SMTP
+ Server (TLS) id 15.1.325.5 via Frontend Transport; Thu, 12 Nov 2015 17:29:20
+ +0000
+Received: from LAW-MBX01.law.georgetown.edu ([169.254.1.174]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0248.002;
+ Thu, 12 Nov 2015 12:28:00 -0500
+From: Georgetown Law Events <rsvp2@law.georgetown.edu>
+To: All Faculty and Staff <user@domain.com>
+Subject: Have you seen me?
+Thread-Topic: Have you seen me?
+Thread-Index: AdEdba2ZViobdMvQSvmj/ScF6Tb6CA
+Date: Thu, 12 Nov 2015 17:28:00 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.212.129.59]
+Content-Type: multipart/related;
+	boundary="_004_C6CBC6CBDCF269408374800E44213E703A3E9739LAWMBX01lawgeor_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Return-Path: <>
+X-EOPAttributedMessage: 0
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD016;1:J0/F3hJuNB6wVC5Efpk7CxNnBwMY1WgQxHwnqDsXpPlePWJ6XHPGim96G5Fl8I6YeWB0SyD/JZGP2qEGhVyEYBR5TzRrw9eM5CATQqS4CjulLmcSMI2JCVqpnjheTSq23aFAJbhX18gJ3BqneE2Fw2vgbiwZdYxzIvevasiYTXpTvI2gTKQThmPbT/dyZiMzwmPL2nshNIv3xYp44pvJmlCkzV42Ik0IeodmaTx0lu29J+gMzBfxM5rm0GjgqPO58IOQbpjvmFNoBiwrAUgrXq3/w/CczA2pEJZ3fKSUTuoFBagQ5IaRZRe3ziu5XPCj6L7mZ/tHV6qVg3Kf1HrnRRSHLxC11j4N+UkH9Um0P1Q0nCqUrhZJrUKyx26948yX
+X-Forefront-Antispam-Report: CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(6009001)(2970300002)(428002)(199003)(189002)(42382002)(19627595001)(229853001)(85806002)(5007970100001)(19625215002)(84326002)(512954002)(66926002)(5004730100002)(2171001)(87936001)(189998001)(5008740100001)(101416001)(89122001)(960300001)(104016004)(5000100001)(67866002)(105586002)(97736004)(55846006)(4001450100002)(5001960100002)(110136002)(107886002)(18206015028)(19580395003)(6806005)(19580405001)(78352002)(50986999)(54356999)(2900100001)(260700001)(2920100001)(11100500001)(88552001)(19300405004)(5003600100002)(106466001)(450100001)(99936001)(17760045003)(33656002)(81156007)(5001920100001)(102836002)(15975445007)(300700001)(92566002)(2930100002)(16236675004)(53652003);DIR:OUT;SFP:1101;SCL:1;SRVR:DM2PR07MB543;H:mail.law.georgetown.edu;FPR:;SPF:None;PTR:InfoDomainNonexistent;A:0;MX:0;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;DM2PR07MB543;2:hIT5ox33L3yF7VSPsPWlDIlVqrgPOBFax3wYOnAoaoNZZvLYhYhonT2ep9HVYlTH7qDDltMnfchfhyYPN5CvEEWOKneEe1Kt8x6OkVQrs1P1wm3qnT6iPVYPaoEcQWIvA2aGx3K6xKljZGP9R0aqh59FOfTaEVNGnnCPltYfpNk=;3:/lj77pDY/iINDb6DWzvKOMc+cBNHKf8eZA/3gzmq/B+domain.com+aaLeEpK9IEGNFzp1cA5ze1Lh0sGCBIOmJa3jtHMNjmrdxkb3a2nux31xS/ILUxYlybVH37rfhqfWkmb+iEfYoKuFGT4KHBemep1xRO/rbQBAKsgchYUBSKycRezwBiW7i/0YJREQBrsmZj37BQuaRyT5eWe3HkL/4;25:AN2aud0dLkuOvjnZKxYGU5sXltZqNREpk3GJ23FR6ne1OKLfa83m3Y6eN+zRAsMHuouzohTINQmJV2dWdSTG1U8jiOJpPDJq1R/J2W843UC2A2IR88T5LI59cpexNyFTdLU5iplty1ehj8EM71TK3pKW6yT3V/XoB1/ni04zI/rsImtn2/Cj6oWZ1yZpYBQxmr4ivKkO15IyZ2MR25kAHpF8tj2rL1dXeU+4dT4DnaMQnvkQ8jMtXQ/17mQVMANCWbShGnAOX7WXaRGKXvmfGw
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:DM2PR07MB543;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics: 1;DM2PR07MB543;20:GNHQi5w1UlfcS3+s+C196rdfQyCbjLADlLJr6rE2fD74nK9LaakZ9yxfMcSWPTDCf9xyLA6QqtH5JKn53IPJXhr6se8dI8UHXveezv0RoWS1w9LPVrgd4jq1uA2m13pykOBKjKXG1U8dCRZWw7pY2q78+wxla5xGxJ2SUzvHsp/1WGlxxi+YZtAqbhLW4LnmbRpKL5anqz3utll87I4TtYiGyA98sY25p+/loufSyTr2bO8M6q6lRNsWF3RWLDbWlLzg/Fu0p8Z9sK4X5H5D5eZYF0ajfpOEiH/7I1z0Agzx3UkfRRBd6TNBoEgEUFUuboyifHWRQemhi/ZjBgRIINB0aoBPr+hkWDj0HXkve6I2UP77XioknMZRUAmLx/0Qe8pKV31J6DyAUfjIdBiUVInxAEHpIiFtxZ1apk3Olgs=;4:xzVeJF+O4Xeyf7nD9ez1wfeeiyyV+OIebx0mNHzN+mW+sddKpAUYJuIGRzKZ1KKoUzJ7YZNgUfBWsPly4MfBTj7F4pPnutwlPR1djkyWj9JKEWD96sbeMK6iosAieuYkosP9K5B5dTpvyXs61DvmDOzhE1vAxmq5e66x3qa8maKAru6CU6JE6NsPTB80o4HSbv+dKcSfThRO21w6CoYh1+rKANLPaweGfEXls+DZlbxIgOXUJx2xBfRdM/X1Dn82dwlIGkr/ID3JYEDCGl6rq2M5xgL5s3o7YdZCVQuJvPxsKaYbzygt9oBnjO6LFak3tePoqbX7Dab01VArTc8YyOEjguq2BjjTRvEiJdQ3fk73Pzvqs7Yai/fDtxQf4Fvl
+X-Microsoft-Antispam-PRVS: <user@domain.com>
+X-Exchange-Antispam-Report-Test: UriScan:(108003899814671);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(520078)(8121501046)(10201501046)(3002001);SRVR:DM2PR07MB543;BCL:0;PCL:0;RULEID:;SRVR:DM2PR07MB543;
+X-Forefront-PRVS: 07584EDBCD
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;DM2PR07MB543;23:F/x+KvGJ3fu9LAAZ1BmLZ/8mrGzlCnKx/jehXSzSBA?
+ =?us-ascii?Q?83rdXDwhnTOtEXs0dV9XcyLOh82PsTCex4216jVy84i5q6wQnEhc12NPHBH3?
+ =?us-ascii?Q?v1ET0yan7Mi9ndAmmBaPENHZYWvIUjy5zZTNjBU9KLTx4ZMg492BXFWaQJF0?
+ =?us-ascii?Q?Kx7iYaFoP6IHOrP/dtaSibBXG4d9u4D07goMa9bQqr9SC4HDvZxOsC6hu7EK?
+ =?us-ascii?Q?UOiiQVRrqDAtvqOIIk6iZzgzTczWuKxmcjh+GL/PHT68jaFuJLEA8jXXGVxL?
+ =?us-ascii?Q?pCX5DJHJMoH0q9ubYmDHUgl3z94DDT3vPaDo7kq0CqKioD4UQ/kkHZBUXh7f?
+ =?us-ascii?Q?fHnS5qSGmC96+O676gkwpOv5290iI+vLDSZxCyaG1E5BvyGfn5oq1evwqD5A?
+ =?us-ascii?Q?SN7a+fStobPGz3iaCawKJ603V1rOE2AIz5FVCRlcQWkAWQeVw9bQkAZ95gEB?
+ =?us-ascii?Q?SLjqwprMOXGqsaHM1UkvmcOf83ZJk9v2Z4ddaYIbWH1d46i/8boxrfcHZVpQ?
+ =?us-ascii?Q?vA12cZw3wp22x4tIEFS73qUfeHAF7wJpkY0Jn8+lakyJ1xdINLz2+Lnr6nym?
+ =?us-ascii?Q?oZb+LMEaWrjlj/PJb92eIB5KQfqYw7PPPQ375gUZGc/yKdke2QVDuw8K75Vd?
+ =?us-ascii?Q?DKkWJp7NUZlTA5vZpHidCutzkHGgmOH943WbRME8eIn0aFh/0/PZdw1S2NzT?
+ =?us-ascii?Q?ykGzvFYQCtfRtes3IVllxeT2TfJ6cPqhXmU0cCcAJLw8OTwt8We6yDKuH078?
+ =?us-ascii?Q?GAvq0D6DKykHj5eEKu7x4cb855PlkYamwgRdnrlU3Y95uSfu+vbgy+dA90oS?
+ =?us-ascii?Q?qFlSXnRj6F01QbtOIjtayIm9hGCb3/d8QnHtLNtfx+usMJiDXzhV2tlVTeQP?
+ =?us-ascii?Q?JidrtpIFYVUZsiyMJmuOPD1MiXL8BSJXQ7zfeLNVTah9M6RXAA0J7T5gd/4L?
+ =?us-ascii?Q?jgEnwY8xhq6RRkMcYU3tJ+9SVdM877dsrNYXczAYas4RFm/9/LJhUXV00PbW?
+ =?us-ascii?Q?tqA0lI4GicPp1fXtWzRHM7SMzBSK0yf1rE8v1p2XmXt9oDOV2KzC75gidofZ?
+ =?us-ascii?Q?NbjW/EaJ9MVg61ceQXU0xnv4DmXyoId8kOVtCmm5VnU48gdNYIfzWl63r1PS?
+ =?us-ascii?Q?f7knRhk6d+UO5JwY9fp9aXzWrYRQM/SSg61A6NU5o6H1KPlqXtH9zqv3WY0n?
+ =?us-ascii?Q?N/9lSMJHdqftIx4SqBF2CsFazg5NLxt8RV/LDL7QYLueC8JvekipccNC0/K0?
+ =?us-ascii?Q?ywWrQlYr44NjSzc7LaXvU3DbveWQud2EG/ZuE5OnKawHpvQ2IscmK3zy1py/?
+ =?us-ascii?Q?bXIPqcGH7AVGuosGazp1vdBy7FmKa9NdszL5aOaRI6b69kUek7CTTicJeNEP?
+ =?us-ascii?Q?UPm1KJzBXSO56FhDDRcoeosDfwQZZ1hiG9e3xWHaHf7AkRsTWJwsFs0FbU8E?
+ =?us-ascii?Q?5oq34mszPkZLO5d3m/bn/eYhqppKBJH569dFqmr3L5FGFfzH1WIMk08G9/AA?
+ =?us-ascii?Q?A6T5JdjloCWWsNMN32aOtqrsXxQrEfj+CA6eBwEVlnJJueDFLD/R3tflUeYt?
+ =?us-ascii?Q?HttqdzKSGsZgWjImF63C7UWgRjecatrNnvoeU9Gm3I73XEw7fQJJ97Q2Qj?
+X-Microsoft-Exchange-Diagnostics: 1;DM2PR07MB543;5:xYtsn+97QVktNXms7ExqsFqsQVtpqizcMWGoArthMCr8zl7l8kYvJ6isQ4gWeNAPbDwoWHJlNXuhTm55OUOfsch4pg7s9vWSwWbVumKN6xunLpIpHNvjXVlhwSsVppLpKT6kgjrgy/s4Y0xHpbIIWQ==;24:XUtUqrHI9Qu+Z7SEwVGGPZh2qZEf/npF+z3Ds7UrDlnMZSyBVenGfXO0SXyo4YfKjFs4pQ/zUsIw4k2mGIKrJ0coIAiezI+O9WbFWPvMBU0=;20:yVGXDQ+0XB2BXgqv7PzH2iMZpZ6kJ1SXTNNY+QJNDai8bAuCQS1Ry+GBYWJAsza/ZBIBsumM6lJHaS2he8dntA
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Nov 2015 17:29:20.7112
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM2PR07MB543
+X-Microsoft-Exchange-Diagnostics: 
+	1;DM2PR07MB398;2:8qLpPYdpdmy8tKp0C86SEjUr2OZzoEyp+1bvKrOAd0QDWq7gk140F2lb+YIT1yjWa/iEHU0ALrpYaNIkDdGvTul3wL+etHiAarAx2vqaYVf+9qRGUdLfqs/Y6RrmVh8wrErWYsCqyjueuubG2JaVTAjQPjaTm91PxpyblEL2KaM=;23:ImwLT+LoHG54Uy97gishq1KHmEWmNPK33xgK9xNAPPHKfwDEJV+USA7qJ45Fab6aamfDbbZuEe5pqazXSuHz5zug/X5FlvUMfNPcHSUwTUdltURzUaXAYCw5iLX7IEiQ2Pgz9iR90g5hmB8oh6nAAJOVjXIo4GRYCBg7bX2Jn1vQ2QcvJqIREOJdDS+sw/hU
+X-OriginatorOrg: law.georgetown.edu
+
+Good afternoon,
+
+The Office of Special Events and CLE are still missing a few tall metal eas
+el holders. Please let us know if you have seen any hiding in the nooks and
+ crannies of campus. We are offering a special reward of immense gratitude 
+and one can of Fresca soda. It will remain between us if you borrowed it to
+ hang your life-size Justin Beiber poster.
+
+[cid:image003.jpg@01D11D45.90915E90]
+
+Thank you,
+The Office of Special Events

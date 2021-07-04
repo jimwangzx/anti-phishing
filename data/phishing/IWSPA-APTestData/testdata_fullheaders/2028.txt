@@ -1,0 +1,75 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp902681lfr;
+        Thu, 13 Aug 2015 07:44:01 -0700 (PDT)
+X-Received: by 10.50.117.70 with SMTP id kc6mr29315534igb.6.1439477041011;
+        Thu, 13 Aug 2015 07:44:01 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::233])
+        by domain.com with ESMTPS id j12si1539616igf.95.2015.08.13.07.44.00
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 13 Aug 2015 07:44:01 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::233 as permitted sender) client-ip=2607:f8b0:4001:c06::233;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::233 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-io0-domain.com with SMTP id t126so53735795iod.2
+        for <user@domain.com>; Thu, 13 Aug 2015 07:44:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:From: Jared Cohen <jcohenjc@gmail.com>
+        bh=UMJqzJDj754df+yZQEgZKCHMBZ86hyfcMnB7BInRe+Y=;
+        b=lFP03ljY+lqcDgYaHzkj8o7pfCcI6ksbNDCMzPAMU1cUT13RJN0L57DQcclWX8vUrR
+         K1v3vcBMgNJFgXNC0MyMs7bkWPhN8fnMC7ymx6MUyc5uenRU5lRRb2Kwb5iJFAw16qNS
+         2cJWzzRIgfSwZWRodnCjKXEl+8gjLamC6eTX7r8YtraCjbq6UAbxsknNgNatR2QayjJ5
+         pmbn92mgetscjhfPeGB9+p9+2XAbz5X3/yxOVpVL+fBGr/bP7giYEEHLLyEseZ5F0ibs
+         5PXHPPTDSY8DqiNNkZX+f1Y7xS2rxpYRpocTvzXeCC3eU+IJAdpUslZhZYWHwCvqu0KW
+         O/uA
+X-Received: by 10.107.168.25 with SMTP id r25mr11522085ioe.32.1439477040251;
+ Thu, 13 Aug 2015 07:44:00 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.36.134.2 with HTTP; Thu, 13 Aug 2015 07:43:40 -0700 (PDT)
+From: Jared Cohen <jcohenjc@gmail.com>
+Date: Thu, 13 Aug 2015 10:43:40 -0400
+Message-ID: <CAEPJwTmfHG6Fumh4kiU6DM-VYfbgOC=rU=9tJHhSD+82user@domain.com>
+Subject: Following-up on the digital counter-insurgency
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11427bcaa58aee051d325d77
+
+John,
+
+It was great to meet you at the Aspen Strategy Group. Given the short
+amount of time, I feel I did not adequately answer the question you raised
+during my presentation. The question about how government implements the
+digital counter-insurgency is something I have thought a lot about. I
+believe it starts with an understanding of the different technical
+capabilities we need to win this fight and matching each of those
+capabilities with the right arm of government (both in terms of expertise
+and mandate). But a lot of this will be done outside government, which
+means we need to really think about the right incentives for enlisting the
+private sector. The current approach has put the companies on the
+defensive, which means they have not been as willing to proactively help.
+That being said, I have thoughts on how we can separate out the fight
+against ISIS from the other more complex debates around encryption,
+surveillance, etc.
+
+If you are ever in New York, it would be great to continue the
+conversation.
+
+Best,
+Jared
+
+-- 
+Jared Cohen | Tel: 917-923-0732 | Twitter: @jaredcohen
+
+My Books:
+The Accidental Presidents (forthcoming)
+The New Digital Age
+<<<link>>>
+(Co-authored
+w/Eric Schmidt)
+Children of Jihad
+<<<link>>+of+jihad>
+One Hundred Days of Silence: America and the Rwanda Genocide
+<<<link>>+Hundred+Days+of+Silence>

@@ -1,0 +1,119 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Tue, 19 Nov 2015 15:42:48 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAJNgmek001868	for <user@domain.com>; Tue, 19 Nov 2015 
+ 23:42:48 GMT
+Received: from mail73-am1-domain.com (mail-domain.com
+ [213.199.154.203])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rAJNgkgN029137
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 19 Nov 2015 23:42:47 GMT
+Received: from mail73-am1 (localhost [127.0.0.1])	by mail73-am1-domain.com
+ (Postfix) with ESMTP id 8A3AE1C01BB	for <user@domain.com>; Tue, 19
+ Nov 2015 23:42:46 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:205.201.128.68;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(z3e12hzc89bh758Ic857hzz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz1de098h17326ah1def87h8275bh1bc7b9h8275dh1def03h1def86h19a27bh1de097h1de096h186068hc704dh18602eh122ac1I1ce120h1def83h1ce121iz2fheh5eh5fh839h8aaha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh1d9ci1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail73-am1: domain of domain.com designates 205.201.128.68 as permitted sender) client-ip=205.201.128.68; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail73-am1 (localhost.localdomain [127.0.0.1]) by mail73-am1
+ (MessageSwitch) id 138490456369176_3218; Tue, 19 Nov 2015 23:42:43 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.228])	by
+ mail73-domain.com (Postfix) with ESMTP id 039422200A8	for
+ <user@domain.com>; Tue, 19 Nov 2015 23:42:43 +0000 (UTC)
+Received: from domain.com (205.201.128.68) by
+ domain.com (10.3.207.108) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 19 Nov 2015 23:42:42 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?OneVoice=20Movement?= <info@onevoicemovement.org>
+ bh=0EoLhQ16XsihG3LLNiC/aV6oMLE=;
+ b=Ps0FCh6o8f5Ax1f20DDC+MqMdzDzdv3HBJFrwQF1hWsPDfR4B6cxE++Wwd+EHDlkxswrteAk9+lV
+   DYvb/yYVF5aL72YlDkPgPxAFEQXMeJrTUvr05XjOa9z8z4GCQGwkb3lGPgzMBU9cCeShe9JYvZsX
+   IrFJ698SZ+Cga0RKJ+o
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=FVqkJhawJjQjsT9/rQlGkEjSshn0+Epi2H67tqotJtnBFM5r33jTVcxhG20T0ZFus+V2aKaAOnw/
+   RtznvUYQEUCzEeFmjieViCBALJ6xm1oryCTa6+bRc28bqYNFv4aDu6K6HRIVSeO0/ZOHNayU+ne1
+   lMJyj/y4xTm46WRnC2M=;
+Received: from (127.0.0.1) by domain.com id hhfrn2174lg6 for
+ <user@domain.com>; Tue, 19 Nov 2015 23:42:40 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?A=20personal=20message=20from=20OneVoice=20Israel=27s=20Tal=20Harris?
+From: =?utf-8?Q?OneVoice=20Movement?= <info@onevoicemovement.org>
+Reply-To: =?utf-8?Q?OneVoice=20Movement?= <user@domain.com>
+To: =?utf-8?Q?Amy?= <user@domain.com>
+Date: Tue, 19 Nov 2015 23:42:40 +0000
+Message-ID: <user@domain.com>
+X-Mailer: MailChimp Mailer - **CID51f875a2c52a3342ab6d**
+X-Campaign: mailchimpdd27a789c14bd9408fad796fd.51f875a2c5
+X-campaignid: mailchimpdd27a789c14bd9408fad796fd.51f875a2c5
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: dd27a789c14bd9408fad796fd
+x-accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: OneVoice Movement <user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A personal message from OneVoice Israel's Tal Harris
+
+
+
+
+ the OneVoice Newsletter
+
+
+
+
+Crowdrise
+
+Dear Amy,
+
+
+
+This is a critical time, and we need your help.
+
+
+
+Negotiations have resumed between the Israeli government and the Palestinian leadership. Secretary of State John Kerry is determined, along with Minister Tzipi Livni and her Palestinian counterparts, to end this bloody conflict once and for all. Their mission is our mission, as a Movement and as individuals.
+
+
+
+Yet our opponents are doing all they can to undermine these efforts. The far-right is pushing settlement expansion. Violent clashes are occurring more frequently. And what many don’t know is that those opposed to peace have access to huge financial resources, including from Israeli tax payers thanks to decisions by far-right ministers.
+
+
+
+We need your help to seize back the agenda and to make sure the opponents of peace don’t go unchallenged.
+
+
+
+NOW is the time to give, as every contribution to OneVoice that you make between today and 8pm on Thursday will not only be matched dollar for dollar but will help us win an additional $50,000 from the Skoll Foundation.
+
+
+
+OneVoice Israel is working with the National Union of Israeli Students on grassroots recruitment and mobilization. We are working with the largest caucus in the Knesset to empower the peace lobby. We are supporting those leaders brave enough to take action that goes beyond words. And we are launching a highly visible and innovative advertising campaign to amplify our key messages: peace is possible, the benefits of peace are very real, and we all have a role to play in achieving it.
+
+
+
+Many of you who care for Israel, like me, know how important the success of these peace talks really is. They are critical for our security. They are critical for justice. They are critical for Israel’s future.
+
+I recently married a beautiful girl named Hanna, and there is nothing that would mean more to us than to raise our children in a country that is safe and at peace with it neighbors. The Jewish identity that I want to strengthen should be a light unto other nations and not one that occupies the Palestinian people.
+
+
+
+I have devoted the last six years of my life to the cause of peace and to building a network of thousands of youth leaders who share this dream. With your help, we can transcend the obstacles and the skepticism and move one step closer to making peace a reality.
+
+Tal Harris
+OneVoice Israel
+
+
+
+
+ <<link>>                facebook                
+

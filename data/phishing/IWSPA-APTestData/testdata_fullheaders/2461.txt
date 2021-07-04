@@ -1,0 +1,131 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Fri, 19 Sep 2015 13:33:31 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 6448F621A2	for
+ <user@domain.com>; Fri, 19 Sep 2015 12:17:51 +0100 (BST)
+Received: by domain.com (Postfix)	id 24C98B6603C; Fri, 19 Sep 2015 
+ 13:33:31 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 1A8002BC083	for
+ <user@domain.com>; Fri, 19 Sep 2015 13:33:31 +0200 (CEST)
+X-ASG-Debug-ID: 1411126403-066a7546f614a80001-Aet2rw
+Received: from domain.com
+ (domain.com [206.253.208.239]) by
+ domain.com with ESMTP id vmNj1hYJP7pZlNZZ for
+ <user@domain.com>; Fri, 19 Sep 2015 13:33:25 +0200 (CEST)
+X-Barracuda-Envelope-From: =?UTF-8?Q?The=20Animal=20Rescue=20Site?
+X-Barracuda-Apparent-Source-IP: 206.253.208.239
+Received: from localhost ([127.0.0.1])	by domain.com
+ (-); Fri, 19 Sep 2015 04:33:23 -0700
+X-VirtualServer: domain.com, domain.com, 192.168.40.130
+X-VirtualServerGroup: domain.com
+X-MailingID: 16828855::1061232::5501::491300::1_4314::4314_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: user@domain.com
+X-SMFBL: YS5jYXBhbGRvQGhhY2tpbmd0ZWFtLml0
+DomainKey-Signature: a=rsa-sha1;
+ c=nofws;
+ s=sm;
+ d=domain.com;
+ q=dns;
+ b=hDBQ8bTnh2jFLwgemnPxtev94ThCdr3PVPBdIYJNJDb4dGvLIS9yjnQypv8LtzOULnwosdU2tUGzidvqtMiLSxGAcR4RkJ9Yx1ZbVosIO9BUz3Zubxcg42/P5IOVeVS7v2yhglQ34N7ON0+f5A5MmtWF1aZIcmKFg+2sB6wR2e4
+DKIM-Signature: v=1; a=rsa-sha1; c=simple;
+	d=domain.com; s=sm; user@domain.com; h=Content-Transfer-Encoding:
+	Content-Type:Reply-To:MIME-Version:Message-ID:X-ReportingKey:
+	Subject:Date:To:From; bh=uTj53ETY24gSl/9rVDGsLIpr0gQ=; b=p8jAAa1
+	536dOJSJlKjpBqveJydVGhZ2SU1/vYOqcsq17640Kt83sBejRXsjFs96bHqVaSnK
+	PXJ2TmhNmMJtMiZD4T6EJEN6dIY9RJ9tRk9shv0VvaXd8ZzDowpCSqivII5T0j3S
+	J52YhGe/RTPBmJoyCYzmGmItXxi2O+HQyLbk
+Reply-To: <user@domain.com>
+Message-ID: <16828855.4314@domain.com>
+X-ReportingKey: LJ82DDP3EBH-F4TKK7A0ZJJBIKJJ::user@domain.com::1_4314
+Subject: =?UTF-8?Q?Funny=20Puns=2C=20Serious=20Savings=3A=20Shop=20A=2Dmeow=2Dzing=20Barkdowns=20=2B=20=246=20Off=20=2430=20Orders=21?
+Date: Fri, 19 Sep 2015 04:33:21 -0700
+X-ASG-Orig-Subj: =?UTF-8?Q?Funny=20Puns=2C=20Serious=20Savings=3A=20Shop=20A=2Dmeow=2Dzing=20Barkdowns=20=2B=20=246=20Off=20=2430=20Orders=21?
+To: <user@domain.com>
+From: =?UTF-8?Q?The=20Animal=20Rescue=20Site?
+	<user@domain.com>
+X-Barracuda-Connect: domain.com[206.253.208.239]
+X-Barracuda-Start-Time: 1411126404
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 1.15
+X-Barracuda-Spam-Status: No, SCORE=1.15 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_SC0_SA085b, BSF_SC5_SA161f, HTML_IMAGE_RATIO_02, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.9647
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 BSF_SC5_SA161f         Custom Rule SA161f
+	0.40 BSF_SC0_SA085b         Custom Rule SA085b
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1505733112_-_-"
+
+	.ai {display:inline;}
+	#outlook a {padding:0;}
+	body {-domain.com-text-size-adjust:none; -ms-text-size-adjust:none; margin:0; padding:0; width:100% !important;} .ReadMsgBody {width:100%;} .ExternalClass {width: 100%;}
+   	table td {border-collapse:collapse;}
+
+
+
+
+   Jackson Galaxy Get a Cat Indoor/Outdoor Mat $14 Today!
+
+	    View email in web browser.
+
+
+
+      Best Sellers
+
+
+
+
+      Everyday Values
+
+
+
+
+      Outlet
+
+
+
+
+      Paw Print
+
+
+
+
+    *Coupon offer good on all $30 orders through Sunday, September 21st (11:59 p.m. PT): Enter GIMME6 in the promotion code box during checkout to redeem. Please see our Current Promotions page for complete details.
+
+    You're receiving this email because you subscribed to The Animal Rescue Site newsletter, opted in with domain.com to receive partner emails, or joined Cute Dispute or Operation Kibble on Facebook. We email our supporters multiple times a week with special offers and news in the world of good causes and domain.com shopping. 
+
+One-click unsubscribe here or click here to manage your subscription(s).
+
+
+
+To ensure delivery to your inbox, add user@domain.com to your address book/contacts. 
+
+The Animal Rescue Site, One Union Square, 600 University Street, Suite 1000, Seattle, WA 98101   1-888-355-4321 Customer Service Hours: M-F 7am - 3pm PT
+
+
+
+
+        Click to Give--FREE   |  
+        Shop Our Store & Give More
+
+
+
+		Check us out on:   
+          Facebook   
+		  Causes   
+		  Twitter
+

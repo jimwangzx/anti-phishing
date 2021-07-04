@@ -1,0 +1,70 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp656230lfi;
+        Sat, 13 Jun 2015 16:33:12 -0700 (PDT)
+X-Received: by 10.194.77.179 with SMTP id t19mr38039532wjw.30.1434238392155;
+        Sat, 13 Jun 2015 16:33:12 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wg0-domain.com (mail-wg0-domain.com. [74.125.82.50])
+        by domain.com with ESMTPS id cx3si3396788wib.115.2015.06.13.16.33.11
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 13 Jun 2015 16:33:12 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.82.50 as permitted sender) client-ip=74.125.82.50;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 74.125.82.50 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wg0-domain.com with SMTP id l5so702wgz.3
+        for <user@domain.com>; Sat, 13 Jun 2015 16:33:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+         :cc:content-type;
+        bh=H0zehUsRkNkGIJ2qaV/EwWptOnNgV81ko308MZKPfhg=;
+        b=HrN0d2BVRSoDFwIKicn8Y5hyieAEck3ifovgBmxW6L0htQ8qr2itBgKmD1iRkUSmS6
+         X01GxC/36FvlU4DMG9UTcz8vEIQowC8A6RVqwIxCTymx1NmQj+6u+f+thsNw3KJBAK3U
+         ylrAEawdUf62dL95CQw8djdRny02ZeEJPwuM4
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+        bh=H0zehUsRkNkGIJ2qaV/EwWptOnNgV81ko308MZKPfhg=;
+        b=lal3UoCt+7SXASOHlSt+OmioesQq9i/ws13L+KnqPoPAMdNRBtIG8pbaI1aBNBj+4q
+         Swq4xDBNFp+q5kFeDLwExabpu5ox283/Deb7WM683aKFIkCzcDCrpYeZLctA73TXXRE3
+         R1ZCqy3JfI4B+eBaJtMVYnlHjLoynY7+EuIwONvw7AmLhRMi266aBPwT3aAxIhgYSkez
+         E8k9RQg5Ukgxm+GTA3Re+MQqE0kJLjnKg7bdtt6iRgyKdUHvGLCfSMzHRcaL1DZqOz9f
+         W8tLmR4ncT8edmmyBh057Lx8rHMjLvQKR3+qVTV5fej0VWmk4aZ2bLTziLCFwEIU4mzL
+         WjZw
+X-Gm-Message-State: ALoCoQky4N/jFU+GmjZqVcQdaE+D16OMxno1XkYBcZxaH6rX2kHpNagJtiZVPfdqthzPwpYqYiKN
+MIME-Version: 1.0
+X-Received: by 10.180.187.82 with SMTP id fq18mr7100336wic.47.1434238391821;
+ Sat, 13 Jun 2015 16:33:11 -0700 (PDT)
+Received: by 10.28.184.136 with HTTP; Sat, 13 Jun 2015 16:33:11 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+Date: Sat, 13 Jun 2015 19:33:11 -0400
+Message-ID: <CAH2oiq+_nGskv3DyJWw+user@domain.com>
+Subject: Re: Draft HRC answer on trade
+From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+To: Brian Fallon <user@domain.com>
+CC: Robby Mook <user@domain.com>, John user <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Matt Paul <user@domain.com>, 
+ Marlon Marshall <user@domain.com>, 
+ Kristina Schake <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c37bbede402f05186ea5ff
+
+Greetings from her plane.
+
+So I gather from this that you guys decided that she should weigh in on TPA
+now?  Just want to make sure I understand.
+
+I think the formulation looks good.
+
+But I suspect the campaign team will get asked this ahead of her tomorrow
+on the Sunday shows.
+
+Do you want me to ask her and make sure she is okay with this response?
+And is she still not saying whether she thinks TPA should pass?
+
+On Sat, Jun 13, 2015 at 7:26 PM, Brian Fallon <user@domain.com>

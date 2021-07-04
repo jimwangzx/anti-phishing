@@ -1,0 +1,65 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 20 Mar 2015 12:00:38 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2KJ0be3019119	for <user@domain.com>; Thu, 20 Mar 2015 19:00:37
+ GMT
+Received: from mail85-am1-domain.com (mail-domain.com
+ [213.199.154.201])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s2KJ0ZlN018434
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 20 Mar 2015 19:00:36 GMT
+Received: from mail85-am1 (localhost [127.0.0.1])	by mail85-am1-domain.com
+ (Postfix) with ESMTP id 454A7A01CD	for <user@domain.com>; Thu, 20 Mar
+ 2015 19:00:36 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:203.55.21.101;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 29
+X-BigFish: vps29(z3e12hz1462Ic89bhc857hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h177df4h17326ah8275bh1bc7b9h8275dh1de097h186068h18602eh1ce121iz2fheh5fh839h8aaha12hd24he5bh10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h1241k16b7ir1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail85-am1: domain of domain.com designates 203.55.21.101 as permitted sender) client-ip=203.55.21.101; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail85-am1 (localhost.localdomain [127.0.0.1]) by mail85-am1
+ (MessageSwitch) id 1395342034102163_29511; Thu, 20 Mar 2015 19:00:34 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.225])	by
+ mail85-domain.com (Postfix) with ESMTP id 1499A1200C6	for
+ <user@domain.com>; Thu, 20 Mar 2015 19:00:34 +0000 (UTC)
+Received: from domain.com (203.55.21.101) by
+ domain.com (10.3.207.103) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 20 Mar 2015 19:00:33 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=cs2013; d=domain.com;
+ h=From: Tribeca Film Institute <donor@tribecafilminstitute.org>
+ bh=1iRDFOfOSMb5fetNRwy1q5Ul28w=;
+ b=CioMAjUmOvABV7/CDEcXKPwFLkUH9GQxO/vo9MY4y9u77BD8okcAD1m0WospdPDM/WLhD/N5+JZf
+   nxhRkKOtpyvhc1T4zTdldawtq17bM/X4y86CxWbaLP8pXK8qmzF1U+GxebXDkV8xzvMgcf8/U3TO
+   hg0PxYOjNXLmqK3J7x4
+From: Tribeca Film Institute <donor@tribecafilminstitute.org>
+To: Amy <user@domain.com>
+Reply-To: <user@domain.com>
+Date: Fri, 21 Mar 2015 06:00:15 +1100
+Subject: =?utf-8?Q?All_The_World=e2=80=99s_A_Screen?
+X-Mailer: Create Send
+X-Complaints-To: user@domain.com
+X-Feedback-ID: CA1-r-pkuckl:LI1-r-tdltuhu:CL1-r-sjyk:createSEND
+List-Unsubscribe: <<<link>>>
+Sender: Tribeca Film Institute <user@domain.com>
+Message-ID: <user@domain.com>
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+All The World’s A Screen
+
+Dear Amy,
+
+The 2015 Tribeca Film Festival is less than a month away. Have you reserved your VIP Package yet?
+
+VIP Packages are the only way to get your name on the list for the Opening Night Party on April 16th with world-renowned hip-hop artist Nas. The next day we'll have your premium, reserved seats waiting for you at the premiere of Dior and I as it opens the World Documentary Competition. Later in the week our concierge team will walk you past the lines and into a conversation with award-winning director Ron Howard to hear him discuss his career as a filmmaker, writer and producer. Then spend the evening with us at the US premiere of Supermensch followed by a talk with the film's subject Shep Gordon and Michael Douglas, who appears in the film.
+
+And that's just the beginning – the full film slate has been announced and our VIPs have premium access to the entire Festival program.
+
+Also this year, Luxury Swiss watch manufacturer IWC Schaffhausen reprises its role as the Official 'Festival-Time' Partner of the Tribeca Film Festival. In keeping with a model they established in 2013, IWC Schaffhausen will make a donation to the domain.com Tribeca Film Institute, through an auction of the unique one of one Pilot's Watch Spitfire Chronograph Edition "Tribeca Film Festival 2014" timepiece. The auction will take place on April 9th at Antiquorum, the luxury-timepiece auction house, in their Madison Avenue showroom with the entire proceeds supporting TFI. To learn more about the auction and how to bid on the watch, please domain.com domain.com. To learn more about IWC Schaffhausen and their work with Tribeca Film Institute, please domain.com domain.com/tribeca.
+
+We hope to see you
+

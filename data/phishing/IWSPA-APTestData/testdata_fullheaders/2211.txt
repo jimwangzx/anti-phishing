@@ -1,0 +1,46 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp102771lfi;
+        Thu, 30 Apr 2015 20:30:35 -0700 (PDT)
+X-Received: by 10.112.65.37 with SMTP id u5mr6580127lbs.44.1430451035378;
+        Thu, 30 Apr 2015 20:30:35 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-lb0-domain.com (mail-lb0-domain.com. [209.85.217.181])
+        by domain.com with ESMTPS id a15si3105704lbq.57.2015.04.30.20.30.35
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Apr 2015 20:30:35 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.181 as permitted sender) client-ip=209.85.217.181;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.217.181 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lb0-domain.com with SMTP id qq2so58247061lbb.3
+        for <user@domain.com>; Thu, 30 Apr 2015 20:30:35 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Eryn Sepp <esepp@hillaryclinton.com>
+         :message-id:subject:to:content-type;
+        bh=yeKt5H8+Ao/kbcq0EDQAtfIxnkRPY8M+UfXrTChq8/Q=;
+        b=K1+jxo7TVMssDa2z3peuFaT0NEaPFp/dCPSHBhKdRZDWugznyjcZW4PNGtuBGvAIo+
+         gmbCto1gSM2i4M4T1FOtSkrAV/1RTgu8i1te2sOBNZTCKMMGRS1NfZJuoXCuJoU+cjku
+         gC/QWv6XaBZugO+izuIQFh6EIW7yH2NL93P3lr9zMsMLO15FKaUb70HoeQ0ECbC1oBBl
+         7VRN+3o6vAHBuabhieYxMYZ8UnhHC3B9z3j2fDJov4QZxtlz6yUrDBTq4q/XctTWGgL6
+         wZFNV/acXwMoSYNM4xqIqq7wn43YbtKtLmqy/AAs3i5LimqFaC5SzJ8VcNMFl2UmTuwQ
+         Qupg
+X-Gm-Message-State: ALoCoQkUO7L6JPD5RjBnuXoxq7U+4fMsSmIKQKBqHo0SNihXJ2vdXadsuOW5lr1In97yfTcK5gTd
+X-Received: by 10.112.12.68 with SMTP id w4mr6467079lbb.87.1430451035255; Thu,
+ 30 Apr 2015 20:30:35 -0700 (PDT)
+From: Eryn Sepp <esepp@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <user@domain.com>
+ <-6222063484280881552@unknownmsgid> <CAE6FiQ99FR3=cNrzU+user@domain.com>
+In-Reply-To: <CAE6FiQ99FR3=cNrzU+user@domain.com>
+Date: Thu, 30 Apr 2015 23:30:33 -0400
+Message-ID: <7115440040951053925@unknownmsgid>
+Subject: Re: San Fran - May 1 - Dinner w/John
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c3b434d34b730514fcd565
+
+Hey this dinner was news to us, too. Just wanted to check before we but the
+kibosh on it, which we're happy to do. We'll tell them 7 is the cutoff and
+try to figure out where the good idea fairy got ahold of them.
+

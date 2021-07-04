@@ -1,0 +1,184 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.197 with SMTP id y188csp1140744lfc;
+        Fri, 6 Nov 2015 11:31:12 -0800 (PST)
+X-Received: by 10.140.233.80 with SMTP id e77mr16011497qhc.27.1446838272449;
+        Fri, 06 Nov 2015 11:31:12 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.111.99])
+        by domain.com with ESMTPS id e142si1397189qka.18.2015.11.06.11.31.12
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 06 Nov 2015 11:31:12 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.111.99 as permitted sender) client-ip=157.56.111.99;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.111.99 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Received: from domain.com (10.141.199.150) by
+ domain.com (10.141.197.27) with Microsoft SMTP
+ Server (TLS) id 15.1.312.18; Fri, 6 Nov 2015 19:31:11 +0000
+Received: from domain.com (10.162.170.178) by
+ domain.com (10.141.199.150) with Microsoft SMTP
+ Server (TLS) id 15.1.312.18; Fri, 6 Nov 2015 19:31:09 +0000
+Received: from BN1AFFO11FD013.protection.gbl (2a01:111:f400:7c10::174) by
+ domain.com (2a01:111:e400:3000::50) with Microsoft
+ SMTP Server (TLS) id 15.1.318.15 via Frontend Transport; Fri, 6 Nov 2015 
+ 19:31:09 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=domain.com;domain.com; dmarc=none
+ action=none header.from=kirkpatrickforsenate.com;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.74;
+ helo=domain.com;
+Received: from domain.com (141.161.191.74) by
+ domain.com (10.58.52.73) with Microsoft SMTP
+ Server (TLS) id 15.1.325.5 via Frontend Transport; Fri, 6 Nov 2015 19:31:08
+ +0000
+Resent-From: Team Kirkpatrick <info@kirkpatrickforsenate.com>
+Received: from na01-by2-domain.com (141.161.191.13)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Fri, 6 Nov 2015 14:31:08 -0500
+Received: from domain.com (10.162.96.45) by
+ domain.com (10.141.199.16) with Microsoft SMTP
+ Server (TLS) id 15.1.318.15; Fri, 6 Nov 2015 19:31:01 +0000
+Received: from BN1AFFO11FD056.protection.gbl (2a01:111:f400:7c10::100) by
+ domain.com (2a01:111:e400:5173::45) with Microsoft
+ SMTP Server (TLS) id 15.1.318.15 via Frontend Transport; Fri, 6 Nov 2015 
+ 19:31:00 +0000
+Authentication-Results: spf=pass (sender IP is 69.25.202.73)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass
+ (signature was verified)
+ header.d=domain.com;domain.com; dmarc=none
+ action=none header.from=kirkpatrickforsenate.com;
+Received-SPF: Pass (domain.com: domain of
+ domain.com designates 69.25.202.73 as permitted sender)
+ receiver=domain.com; client-ip=69.25.202.73;
+ helo=mta-dock-front-18.domain.com;
+Received: from mta-dock-front-18.domain.com (69.25.202.73) by
+ domain.com (10.58.53.71) with Microsoft SMTP
+ Server (TLS) id 15.1.318.9 via Frontend Transport; Fri, 6 Nov 2015 19:31:00
+ +0000
+Received: from domain.com (unknown [10.0.200.95])	by
+ mta-dock-front-18.domain.com (Postfix) with ESMTP id
+ 3nssJh1mhFz12LFR	for <user@domain.com>; Fri,  6 Nov 2015 19:31:00
+ +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1446838260;
+	bh=J/G72wJNA4HrZvtvOcXTLQPn1HUhsl2iGqdvqiMlqcQ=;
+	h=Date:To:From: Team Kirkpatrick <info@kirkpatrickforsenate.com>
+	b=e78H4V42vPIkyHSIRvz69k4jRN2HZBYdM1t56PYdM1yqFRTqy3P9C85+RtZmMyAnk
+	 7+h5ta4M3RxgoiFNmbgZ9qjMc22NVdvS5l4f78HslbyYdV4+kq/bpyzNpZBTqf4eDW
+	 lZiGQccsRoV5Mpe2AknCynddIOp9MNSDba8kzxbQ
+Received: from phpmailer 	by domain.com with local
+ (PHPMailer);	Fri, 6 Nov 2015 19:31:00 +0000
+Date: Fri, 6 Nov 2015 19:31:00 +0000
+To: John user <user@domain.com>
+From: Team Kirkpatrick <info@kirkpatrickforsenate.com>
+Reply-To: <user@domain.com>
+Subject: Unbelievable Quote Quiz
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 678ea4fd8b4fffe7
+X-rpcampaign: rp_20005
+X-maillist-guid: DgxEXhMFEkYMUFs8B1ILBAINVlYMVVFVBF9XVD9EWgAAFkJUIwgHQ0tUVVpDAlYVDE5eHFFTEDpRDgY
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_cc126ac33cdff858da120267314c2442"
+Return-Path: user@domain.com
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1AFFO11FD056;1:K9qW/qwnI+nDvvUlQ+IluC0Gd07u6nbux9bQGgUIMKr+PKs3GQ+d7zHPgYT2La4VHTIjmX1hPUzgJPmmaqvWdXBTNJnz2+IC+puc8UjzYAPor6QTCb952ArWkwPtsVkV5RuHquL3fDBpUsvByXPe91rmy/0cmvcsbNGelFEkyG4hGQZyjQqpD8OvF0QHmdNWIv8SpwxZ1WN7nMEl/oHVElrbZ901zCVCoKDX3va6orLlGc7BWMvCED7l4J4zvAOwVCLnVEvsO4FRZ0Qx5w0rI8RfEcBn81aUudGPs1WmeEj6lBxfxJuiwY6ScOE1c7F3Idqw4Pw+0B/hVCETSu0nIgvDNcug16I4UY37O8MejjLoVakmwC/N6iTqDr/MwkuyBgVb6epnaotjK1Od2LyaXA
+X-Forefront-Antispam-Report-Untrusted: CIP:69.25.202.73;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31620200002)(2980300002)(438002)(359002)(349012);DIR:INB;SFP:;SCL:9;SRVR:CO2PR07MB539;H:mta-dock-front-18.domain.com;FPR:;SPF:Pass;PTR:mta-dock-front-18.domain.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB539;2:QfivjuY9tMgwMTOLb7dSjGUrPZzPIF5YOPf6r4HRRf58kvl7KoPrMzYndpxT5Q9EXKYkbQ4cjbeKHZtLecmaDBy9gXP1xMOI4+6XF74mLYGKhjnN4lRWG2vuVfsd+PrxIZQrArsxBbW81XyAZpstHlrlLet+MgAiDT4cXGdQuto=;3:tJxZQ73zoJSmbc+dRF0u5OReVXbPe9k6YyP77vjfYzAFwWGCkg0lu8yYcYgdBKc+fzwqXuZkrbQcEESXb8iSsKbs7UFc9vaLCUb6QcwlW6TsgXNzpZo8H+rT4tU5fm4b6Q3va3eIMQt2QYUd0C0ScIdt+DdFpFEVM0Rp2HgXHvXbSxTSTVyMhRjD/uasHAHXDkv3gswzHDmfjH+2xoyGhgH0cQxjOKy2uSGQgACNPb2lhYgJi2oLnIi5MOWgplEr1aU3t8AVJMNPqn24ejJxB9XCNB+5BT/LsixUPEu3FhilP9uE/NPWaoPR8ChiV6w8v2bXd5bagiuEVxmcYYNbGAy2Z6mwVX0WjKjeu9HYfQZn/5sG+f9Zpqlg4vrsMkcX;25:m/yvOSzSwUv55jCwt5sHoUH9ONYTTUvoU7bIzs9LEpe5gYPicPviTEl1P1wjbb4U7vQvaH3EUSL6k/80s4hQ1iWexIuuRUOH/5YzuvVkB309EXprSFWunVAjRUpRHiPeURiIaCZps6ezBk5/T7shFVGNANIBIQODpD/VFYQ82mJu+Y+1zHJWoJ35wtReV9KRQLNF+Z3HnG6LcUts6XBIz72HYPmIckeOgKwvkeaNR9gVqrwSS5SBS3dT1DPS5k50A3MjiFMU9l5uBUqHC5FawA
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(421252001)(42134001)(42139001)(42140001)(3001015)(71701003)(71702001);SRVR:CO2PR07MB539;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB539;20:Yx9bDk7FmrxJZGFqKQrKspbp8EmoIBe2smZWxUeW2WvxFq6lRfYwOEK/8kbkaX/g7UrX2y3rUnPp1qM3gZhZUVsvFyDRaQ4A14M/3xzmFkOijCNM4VcYvjL5xS/4G7wicXczmWDCIAvKFusZ2WbnB4+mNeXISGsxxODgG++gEuAwUxrEEpusfZjTNOnycvPaAKVG1qTnkgi517YmptaK9yVGyD0vFUmntavKvPSnY9BzWM2dWWkUH5vLxLSng2Eg76IwW4LjmljALUsV4zgQequjVlTXgaBsqr2fvhsVVfnGHKOu0sUH91AytM0GxgAJfc21TX4R+dc0Ajn9YQntLg==;4:CLqAB1hPaA03pxM/4Qx3pISz4qf53xSXMROFDklm3UwirM79inKhtmpk2oobGNfxbY4edK+hZ21BmVskUat+WDQPc/iqbyPRjF8n1SksE34OKIiJ6UJP/ESeL5M7zVf4BdP0wf13AP+Nc1HnE0KJoYq8ZzSpJrWk0xe9ojQ4U2nkyUpKaZ02INkysjoXlsan/F7QFgaR/Un5BTwLZxxi5ULFTV9rnbAkC8X57SFzA8axi82DpZ866Mr8xxvninAFS2nAoI1GNYILv+r7x2GJQsD4BAnLs4+VblNfEBqYdmguwH1ZBKpmsxPquzvQy3eUp7V6jw4XZcSleCXiO9p7OB7scm2w7KriL78d076huANmOrLU4ONxT+iRtKWkw41K
+X-Exchange-Antispam-Report-Test: UriScan:(76009858676777)(6594202986349);UriScan:(76009858676777)(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test: BCL:6;PCL:0;RULEID:(601004)(2401047)(520078)(8121501046)(3002001)(10201501046);SRVR:CO2PR07MB539;BCL:6;PCL:0;RULEID:;SRVR:CO2PR07MB539;BCL:0;PCL:0;RULEID:(601004)(2401047)(520078)(8121501046)(5005006)(10201501046)(3002001);SRVR:CO2PR07MB554;BCL:0;PCL:0;RULEID:;SRVR:CO2PR07MB554;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB539;23:5n6Zgth3mVHndeuNSPQA7UPk8HiPnWmb36tkO0iPQSLSDPmSNLt4lm49iXa3ZEkHWD59OgMjy8x6LzWZNNKawxKo7OoA4A0RXUnhx0O7mGXzI+DMpVcJ8ZV36gLz3zme96V7siMWaLxsI5T0Htdw5hSmye3/3qVMrp6GUXd2qkwZiKOk62LHhZ38Oi+nl9uMMN+tZr8FzSAW5HBk/VlrSdh4EoG18ywcDRDI/VPZawNjVs9kDbtNWFJUNaOxev6mGxsOE9OkDcdV8XtwGABPAGx6qFZvMqeIwIGhwKxluF4=;5:UtCgdO4bT1QWJI48PwWkHPMpAIigtkQpgKlobjxMnzupw9a5kCdAVAmTSWfV3vNdTJiEJJDbwYLsFAdaboBUaC7rgmZXWH+4nN8zBdTKmCMuOWNhjnXoswPn7+yDsyvDHS1rLO/usjQ2yOzDbM7qaQ==;24:VBLBvF+Z7GjMekpivHMXm70HCF5d0owTtq7TXMdfYHjG+B720QXUDQXP8VjI2KMChhBIhMgItTQWMlwcabBr3Q==;20:8vF0hO9E9RzE5t5x53gtB1fAI6lxVEjvs1Es7a3rBBggSEuX7eyrZg9ZZANP0QqZwOeWJVclygplg4CX8u04cw
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB539
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD013.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD013;1:72n6n86MgY4lvG1oZrYXlaYYWrEwX8KMEjkBUWh0wSI3qRezAa04M3TcOFkRPOzIkITFwDIxa8EXHxH8z4h+AsDcr02NdIPtw7Z+eaWJKF3OZiZrvdP142B3lEWryltCSlgzAIZBwN5QKamk/aqW0gJVTj4p/olPopfTgdGZTNbAbat984epO2JS7W8fLwgqPslVQQ7Wephay6OtsAhLAphmfbCmLKEBRt8OgVKvUPZT8ZgA3KLXg4k5crmmrry5LE9jpWtFQq+qbExJRG1uK2A2YjW8QZ1xP7nlgj7bMQzqxdhbe2uQJPrZLqeDafA3X/0VOfbKeLhTR0NKdJNiLIw8tQoU2Gan3nG0B1A2hxFw0LJ34zk4WO+g007xoFtiAxVHBRzrIYl6vQQ/67b4vw
+X-Forefront-Antispam-Report: CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1109001)(1110001)(339900001)(189002)(199003)(107886002)(16236675004)(85426001)(47976999)(50226001)(5001960100002)(81686999)(105606002)(81156007)(97736004)(89996002)(15395725005)(5008740100001)(4290100001)(19580395003)(11100500001)(18206015028)(33646002)(46656002)(450100001)(229853001)(6806005)(110136002)(53806999)(50986999)(108616004)(19580405001)(146001)(87936001)(106466001)(1720100001)(4001450100002)(43066003)(88552001)(3820100002)(512874002)(189998001)(956001)(23466002)(15975445007)(75432002)(84326002)(19617315012)(24736003)(960300001)(5002220100002)(2171001)(5007970100001)(18926415007)(57986006)(7099028)(7029013)(95576001)(87552002)(42882005);DIR:OUT;SFP:1101;SCL:1;SRVR:CO2PR07MB554;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;CO2PR07MB554;2:2p3IRZUPRzLBE850ljAfLWzVCojsyCqr7li5/MKmtPlKJDgfiifEVp2/8wthOxvVjwKJYKoozRk1BhTFLgNM2pHlzEHphWXpwdL83AbFzvSjXc7xbiGr/RYtB48hYqY66J9ogSZrj4/V05WANcIbKGwzgdx6F5/TTuxg5fYs9Uk=;3:upvFc9ck5TLSzvYx4Vcj+1uUvsQg/PxQqisn2J5M0ZRyVKpbMLt97chyo/CEltOivqqg5K0m3eM10TbzQk0stRAypwj4ZoZxOyENkSr9S6eu1I+YSrYVn3Masm88fGVWNLkJFfhmBvfS4ebIiCWYtAElyJBqaiBp84koNKQwneSFj5wz05TtrQWpIa26Y6vGJdnqCc8QS0h8ap7RUDL3ayS2JboR/U3X7hXMpNXj2O3iaLIva12oFWIw2fKz6EpI5yWOsPI/Vic/J/4AaObC8IFi64w93ubhVI/V0NRvbxU8Bl11M07mmFv7faCI3QeWvcAHTeqAXpIGOWkivDT+Lg==;25:ZiRqucBsmJF/yjF+L8bLPKiPZo42mSj6Eq5VkCcYGQeQp+1Zir35rdfKnu+L6akB2c67AeZhTdGBzwY6nqasrvaJWPIUoAQumBruqFR4qSIcje7xBYen+zwW3YU2V1LQJIjmt6/OxcgIdy0Y16F0UgLvcSBjwAQa2TFic5hA47Zqy2T+RODDOxKGSLKsMVaOf6w4rJHBC02/OnruYYcuRmFWDB+Pb1Ki1QEupAe9JOalCVtMIEvhuUCnEFf+W6qDGEKntxVUar+EyzL/FfiJIA
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(421252001)(42134001)(42139001)(42140001)(3002015);SRVR:CO2PR07MB554;
+X-Microsoft-Exchange-Diagnostics: 1;CO2PR07MB554;20:yFVR8uzBnK0QwIePalu4MITL1Lue4ZV381M3XhaaBb3ViqHsx2rpO7WvVTKeWOJ3ht1MdtRznX8yDBimSvKLmgmivw5e5S6XyxxC2uBq835Jtm86drXE3VLeleW8t+nrMbd4RhBJA0hfMYvIxxR920zXgtppwbmVEZiPy7PL4q+2iIr1yayHAjG3ik0ByXcqmyRtlC+rOHZ6ak7Fc5Sgj9PaTUPXas3wfwEfaJZm0tamHREw6k2hsKbhHoBLqyM8ZfXMEqxgbwGpJSizJiRwZ2lZLKi/TXfm6w2l+vhP/rSwXA55bnjpuA6HRtbiGD9U5cpdhCEgE/OZzegwOKh73g==;4:yHPbIfery0ZAFcYO+qDfTjbPi+vcht2JaaVW5IL0RJjm7RmKUtiTj/pjMAukgkVuEhIfCq/7zdd1WY6YehXT4BXtFddwTdphNmdx5o9zd6RSN1xC84HuNKzkmp4V1SY1ptpItjb65DJsQjW+/quAtj/T4ApeAuZDrp/f4sm56JrHfmLCToQUzkLldul4ORsYPJMeWKl/iugWOWo5yf2VCrKKyXkQSNIz6aAzR8iPDZLzlcNSKKGoTVJQgnzGYIKp7gQ+mMUCrd0xN5fJQAMnurkVQu3hxpf7Jt7fPVshcCi5i2drp0mtRwSRPegGaq85qke+LDJCoXpDsS+KH1tF+cFM5LheMAVDJoqKPMy3bVG/uKgoaK4Y1U5rtXwbFIGH
+X-Microsoft-Antispam-PRVS: <user@domain.com>
+X-Forefront-PRVS: 07521929C1
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;CO2PR07MB554;23:+bTqryileh2RLo5ScsVGOWJ1LM5MGMqVZmStkQKucl?
+ =?us-ascii?Q?O2JsQQXaXNWsqHt1aNyvIEEv0jKJH6WJkB22OYwFzWcJjcws5H7+xapNOm9Y?
+ =?us-ascii?Q?5YQxzPUaL9o1UYl2e7TpE8Cb1cdqMVzDfu/jIlcZVVCoZPlJFwxi6TOX6uKT?
+ =?us-ascii?Q?HcB45qbwZftLQ/Pb1XeDg9wG0fZqN4SwcGgKPRLk+4chhHHaE1I+lGQpCPEY?
+ =?us-ascii?Q?+qYq6ISpiEePsKgnNCgkMUq6zApvu/BlnorKn3ui/vfVpyAUs+M9Kite/4CP?
+ =?us-ascii?Q?nsp+A8wlMXyuuLaueSSD64Nt6BiiLSvHn+7EpmelrMDur/JqD/fyBbM3wFR0?
+ =?us-ascii?Q?Pg2ivRjefQVVAMpXigaIER2rNCZOjHmHRkVz02uK472QHMG/4I/EpCRaGZgO?
+ =?us-ascii?Q?Zgb5HndP0HPSdPJLnsYMDFyurGxHN4X/npRaWL0dHjelUYNCuQKIrXxBYQkY?
+ =?us-ascii?Q?jDrMPI4+rTDtrk9kvnyYpYWApgEmQK/ZapPats9tkaX4dVGeuZcDujVEyB/5?
+ =?us-ascii?Q?oYrtBhiG73xSy7DKOU9uEP6pkHb9wlOZl8fQPoCB0WBBxkSQiiZuy6pVrHSC?
+ =?us-ascii?Q?I4RDb3k/EGfHEUIwFqze1BsbWhZ87ZVG9PicZaevxmWLIToLhxHDhsL73Jkq?
+ =?us-ascii?Q?ruRde+sm0vRGo9YnOVsAx/khxOLfxIm4Y10ZemOKbAnTTXsmfl33brpy/War?
+ =?us-ascii?Q?KvcVmqBYrddrbYedTHoRDMnMEmizxOQAb4vvCvpVn2a8izyJIkvJg3nA+CRi?
+ =?us-ascii?Q?zDNXj5y1d5O2eB2p8Y+/c401ZHf8MySBjv34ZVuqpcPmH2GQ+p6CI13ecfJA?
+ =?us-ascii?Q?+wKBTkI/ac5dd+iG2dmqdPSH+DgZhH0CAUOUdet26hIb+gAcps1z61JRb0WD?
+ =?us-ascii?Q?35i7pCvXnNK8fIj2RsshtVZf5cwh5dQNP+uIGQ8xouepBSAEeYz2eNeq2GZC?
+ =?us-ascii?Q?LcyADr8TV1mEyN8kHxruryspiOSv3hlu4lhWGXgHzDHWSdQsCdSZ+wsm6Pht?
+ =?us-ascii?Q?XKLpgZ2tYLWdhIOapby70ReGgSOXnNtOJ1xD8Qt0t8AKEZvrg2s/c+GVV3ne?
+ =?us-ascii?Q?bEH9PU96nA6JjlKb6n6swto3R6+ipW41JRd4TiAn7eQTPVfptKj+dBfwYmTB?
+ =?us-ascii?Q?XSb7IGDyNnQkr9MlusdDIFzkrjElLfVK7k9p0beXiQCS7v+v9supeWno90zG?
+ =?us-ascii?Q?mUa1jV7VD9RyLnaRxUpdOgohkYq738txsIC25KpGZYqWU2ql4ZHo9i46c7Zv?
+ =?us-ascii?Q?RRjyZNP2L7vwWRP/h+Hzf7oD1EgviNklXiJeKRl3A5YziNDt7CIbjiaoOKzp?
+ =?us-ascii?Q?GYurwHnq9COVUwdN3wMKkHR2cSMllAv6wEuOaZDjF92LDVIwVPAQFDHMzx9l?
+ =?us-ascii?Q?3l4dp1z/4NJRypqPNhvT9jAO1bdVs9yy5IFOokYjYAnCsiH7BBsFUaE0p5TF?
+ =?us-ascii?Q?QYlom+yf4+Mul9Y8eT4hWe39LgBD4YM7pnVk18+YuhUErUFuLnJnzp5BW2bi?
+ =?us-ascii?Q?QdpX8rx6+5w+9HZgrHzo9SK0WWTZDqbaqR81ctYiMIlUgc061TlmVpfh24Sq?
+ =?us-ascii?Q?Z0pC4ce09LfIcKcr1h4JFSXAjXBflLfEuCCEo=3D?
+X-Microsoft-Exchange-Diagnostics: 1;CO2PR07MB554;5:dIP2KpVOouVbG77OfzM7K8YQYOMAb6do9GMxKwKnlIflR32UW07SWkTvTLnZpcSoJt3fD85OFETUNc4CoQWlJe2MNp0vjBdQwt1mF8r0iJ/Bsyh53Jl28CZAMA2vrhw9g8CYGszNVpIzhVmFXzOcEw==;24:Ojt/XSxXu70TUbcZkFpCzivFQAF12gIcwCMzIP8OuKwGQgm1AekAX9aDpky0YDOnbYKzcgMYs+t67dbl3FrBm1dkR/NI5MKpmljq12eopiM=;20:gIYTHNH7ymQmPTrGGNgWOk5JZ8jIBla8obD9RzB2Bo5i/6oP5P/UiI/0Ct1n2mubWADGuMocfDmCutNhKKS6YQ
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Nov 2015 19:31:08.5983
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB554
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO2PR07MB476;2:tB1qxgh0SmRyAiUMu9pYItD/ULios4AJPjBhxpuu+kmnFsbVEeMvpcgpu/CN4tMPUy0RWfZgmLEGFOzaKHaq0H1r12FWcpQ/+pFogJeojaK5vIaOqCLJx8KPPIoTVbGD83fvIU6IoSLIlWgMBT/5WiGzkaBdu8dDd6tSLyR1ahY=;23:5YvhIhAeuNJEX+omTcvN2iRT41YvDeXUdxRRyK+kVhZnZqTN4CKMzArT6my6iw2a8ledjk2aJivXhLjMgdID9j/DuFQpOhMd3SRHeWjS9KuHW5woksv98Pi8KKmWNw0SDUgg1kfCte/7eZKxXoGc2J/KedyCN5M7bTPZ00YpKKnysQLF2t8SgpL9ZeYu7cnu
+X-OriginatorOrg: domain.com
+
+John,
+
+Kelli Ward and John McCain are Ann's two Republican opponents. When push 
+comes to shove, they're both cut from the same cloth.
+
+Most of the time, we can't tell which right-wing idea came from which 
+out-of-touch candidate. We thought maybe you'd be better at it.
+
+And voila, the Unbelievable Quote Quiz was born.
+
+We've got four of the most unbelievable quotes we could find. See if you 
+can tell if it was Kelli Ward or John McCain who said them.
+
+<<link>>
+
+Enjoy!
+
+Team Kirkpatrick----
+
+This email was sent to user@domain.com
+
+To unsubscribe, go to:
+<<link>>
+
+Paid for by Kirkpatrick for Senate
+

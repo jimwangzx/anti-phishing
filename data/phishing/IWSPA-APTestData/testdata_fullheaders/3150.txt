@@ -1,0 +1,131 @@
+Received: from relay.Organization.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Tue, 30 Sep 2015 16:33:41 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ relay.Organization.com (Postfix) with ESMTP id DF818621A2	for
+ <user@domain.com>; Tue, 30 Sep 2015 15:17:37 +0100 (BST)
+Received: by domain.com (Postfix)	id A30B32BC087; Tue, 30 Sep 2015 
+ 16:33:41 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from manta.Organization.com (manta.Organization.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 987E32BC05F	for
+ <user@domain.com>; Tue, 30 Sep 2015 16:33:41 +0200 (CEST)
+X-ASG-Debug-ID: 1412087614-066a7546f742f70001-Aet2rw
+Received: from domain.com
+ (domain.com [206.253.208.239]) by
+ manta.Organization.com with ESMTP id KNLpGk9VbhhhpeAJ for
+ <user@domain.com>; Tue, 30 Sep 2015 16:33:36 +0200 (CEST)
+X-Barracuda-Envelope-From: =?UTF-8?Q?The=20Animal=20Rescue=20Site?
+X-Barracuda-Apparent-Source-IP: 206.253.208.239
+Received: from localhost ([127.0.0.1])	by domain.com
+ (-); Tue, 30 Sep 2015 07:33:34 -0700
+X-VirtualServer: domain.com, domain.com, 192.168.40.130
+X-VirtualServerGroup: domain.com
+X-MailingID: 16829621::1087639::5501::501702::1_4295::4295_0
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: user@domain.com
+X-SMFBL: YS5jYXBhbGRvQGhhY2tpbmd0ZWFtLml0
+DomainKey-Signature: a=rsa-sha1;
+ c=nofws;
+ s=sm;
+ d=domain.com;
+ q=dns;
+ b=BTiFwoyurdD2DOAKnH8tPOOw2YfBH3O5Qau1TuefzGyLE+mUV+wIReMDnFsdy8O1/hWpcDcrHTDGhzl+p3wvRw3Mu/5Te+5HbgoIFhjmdXdcFoYtIS+RyNUjR+Wnjge6zC86/gPza/PBRoW4zpDFfqfWsuEtZpSkvZoETp3v4qY
+DKIM-Signature: v=1; a=rsa-sha1; c=simple;
+	d=domain.com; s=sm; user@domain.com; h=Content-Transfer-Encoding:
+	Content-Type:Reply-To:MIME-Version:Message-ID:X-ReportingKey:
+	Subject:Date:To:From; bh=dkRB3LMtQbSzglhSMxrjHPUfb48=; b=PoN77bz
+	Gi/hYErRjTOahgXKjRUle1Rx1oUBAQnusmGv3g9ITZQ/MjrVsFEiwz2VjXytLRYU
+	FyccAxTB8YhVdRE4pULfCBPYJzXMgsEoAJXBNKuD3Jsyyi1g9FiJl53ZQ81pTutk
+	tW0ImKHEWdffoe9Dc6DfoDbtY6pn0klfh2iY
+Reply-To: <user@domain.com>
+Message-ID: <16829621.4295@domain.com>
+X-ReportingKey: LJ86AGM3G2EQF4TKK7C3MJJBHKJJ::user@domain.com::1_4295
+Subject: =?UTF-8?Q?Make=20a=20Splash=20=26=20Save=20Over=20=2415=20on=20Paws=20Galore=20Rain=20Boots=21?
+Date: Tue, 30 Sep 2015 07:33:32 -0700
+X-ASG-Orig-Subj: =?UTF-8?Q?Make=20a=20Splash=20=26=20Save=20Over=20=2415=20on=20Paws=20Galore=20Rain=20Boots=21?
+To: <user@domain.com>
+From: =?UTF-8?Q?The=20Animal=20Rescue=20Site?
+	<user@domain.com>
+X-Barracuda-Connect: domain.com[206.253.208.239]
+X-Barracuda-Start-Time: 1412087615
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at Organization.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 1.15
+X-Barracuda-Spam-Status: No, SCORE=1.15 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_SC0_SA085b, BSF_SC5_SA161f, HTML_IMAGE_RATIO_02, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.10066
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.55 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 BSF_SC5_SA161f         Custom Rule SA161f
+	0.40 BSF_SC0_SA085b         Custom Rule SA085b
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1505733112_-_-"
+
+	.ai {display:inline;}
+	#outlook a {padding:0;}
+	body {-domain.com-text-size-adjust:none; -ms-text-size-adjust:none; margin:0; padding:0; width:100% !important;} .ReadMsgBody {width:100%;} .ExternalClass {width: 100%;}
+   	table td {border-collapse:collapse;}
+
+
+
+
+   FREE U.S. Shipping Offer Inside!
+
+	    View email in web browser.
+
+
+
+      New Arrivals
+
+
+
+
+      Everyday Values
+
+
+
+
+      Outlet
+
+
+
+
+      PAW PRINT
+
+
+
+
+    *Free shipping offer good on all $25 U.S. orders through Wednesday, October 1st (11:59 p.m. PT): Enter ZERO2SHIP for all U.S. deliveries in the promotion code box during checkout to redeem. Please see our Current Promotions page for complete details.
+
+    You're receiving this email because you subscribed to The Animal Rescue Site newsletter, opted in with domain.com to receive partner emails, or joined Cute Dispute or Operation Kibble on Facebook. We email our supporters multiple times a week with special offers and news in the world of good causes and domain.com shopping. 
+
+One-click unsubscribe here or click here to manage your subscription(s).
+
+
+
+To ensure delivery to your inbox, add user@domain.com to your address book/contacts. 
+
+The Animal Rescue Site, One Union Square, 600 University Street, Suite 1000, Seattle, WA 98101   1-888-355-4321 Customer Service Hours: M-F 7am - 3pm PT
+
+
+
+
+        Click to Give--FREE   |  
+        Shop Our Store & Give More
+
+
+
+		Check us out on:   
+          Facebook   
+		  Causes   
+		  Twitter
+

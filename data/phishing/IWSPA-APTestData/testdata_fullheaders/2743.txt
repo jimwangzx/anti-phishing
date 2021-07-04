@@ -1,0 +1,114 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp2023745lfb;
+        Tue, 26 Jan 2015 11:38:02 -0800 (PST)
+X-Received: by 10.25.17.229 with SMTP id 98mr7441758lfr.3.1453837082160;
+        Tue, 26 Jan 2015 11:38:02 -0800 (PST)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-lb0-domain.com (mail-lb0-domain.com. [2a00:1450:4010:c04::245])
+        by domain.com with ESMTPS id zo10si324327lbb.54.2016.01.26.11.38.02
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 26 Jan 2015 11:38:02 -0800 (PST)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2a00:1450:4010:c04::245 as permitted sender) client-ip=2a00:1450:4010:c04::245;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2a00:1450:4010:c04::245 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lb0-domain.com with SMTP id p10sf52903740lbo.0
+        for <user@domain.com>; Tue, 26 Jan 2015 11:38:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:From: LaDavia Drane <ldrane@hillaryclinton.com>
+         :subject:to:cc:content-type:content-transfer-encoding
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-unsubscribe;
+        bh=6qa/Ph1s6Spw1fweWfeSfL8nEUB6Dujv9WTbgnhFv9I=;
+        b=aHbvYmB+EjvnSXG2dGx6SCoLNJewJEWDs965SQhjXU9rw81WfpdvH6UGu2SBflkILW
+         qduCoRUfb/63qW60mu1L40aJkLXaobvoY6dYf8twKGNJG7JDYMVdqu+EYNFs3OQ43ar7
+         HWxJ8gtsALPrT2rhstc4ubywJQIpxqLd4jKAs
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:From: LaDavia Drane <ldrane@hillaryclinton.com>
+         :date:message-id:subject:to:cc:content-type
+         :content-transfer-encoding:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=6qa/Ph1s6Spw1fweWfeSfL8nEUB6Dujv9WTbgnhFv9I=;
+        b=IoHoHXIMZpb8eMM9ex+sHch5XQRQMSWf8qX9rGw9f5dKLWwxtzKXYp0qnfBHuWxjFK
+         rtXgGQ6uj+WBoAvYH6sKiUB3spK0+i7IR+iH5OHITYbmGoccgmIN46LUl1OFcy0Ok5ql
+         V4RQIKp8DT2h07gyCXSxsR3SC4+cmyYj4TTzsayX+mpBCZv0V88o6ckk7pC/knY7qBHg
+         wHNsWoMe5t2savugkvZ0jbrCKKDsLW9S04Z2Gj4jtV+Ty3Vy+1eRV9F6W48tG76G1gGh
+         Y1o37ddzABFnkyUUKN+5xjhbgPwWS36NujCHz72N2vlngl71o4rcjmOZHPaGZw66CCnM
+         rLqQ
+Sender: user@domain.com
+X-Gm-Message-State: AG10YORykZSfn0YczQdOV/2815HTxLW8FdqR8RSyCj/TzSvKDij86SzDlsLEIxqCKZ1FJYQQ
+X-Received: by 10.112.54.202 with SMTP id l10mr3120734lbp.14.1453837081974;
+        Tue, 26 Jan 2015 11:38:01 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.25.144.140 with SMTP id s134ls146777lfd.91.gmail; Tue, 26 Jan
+ 2015 11:38:01 -0800 (PST)
+X-Received: by 10.112.198.131 with SMTP id jc3mr9499030lbc.118.1453837081552;
+        Tue, 26 Jan 2015 11:38:01 -0800 (PST)
+Received: from mail-lb0-domain.com (mail-lb0-domain.com. [2a00:1450:4010:c04::236])
+        by domain.com with ESMTPS id r12si1359513lfd.156.2016.01.26.11.38.01
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 26 Jan 2015 11:38:01 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c04::236 as permitted sender) client-ip=2a00:1450:4010:c04::236;
+Received: by mail-lb0-domain.com with SMTP id cl12so98081078lbc.1
+        for <user@domain.com>; Tue, 26 Jan 2015 11:38:01 -0800 (PST)
+X-Received: by 10.112.168.227 with SMTP id zz3mr9323313lbb.10.1453837081413;
+ Tue, 26 Jan 2015 11:38:01 -0800 (PST)
+From: LaDavia Drane <ldrane@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <user@domain.com>
+In-Reply-To: <user@domain.com>
+Date: Tue, 26 Jan 2015 14:38:00 -0500
+Message-ID: <-2393681951186157051@unknownmsgid>
+Subject: Re: DRAFT: bullets for top of mtg with African-American ministers tomorrow
+To: Megan Rooney <user@domain.com>
+CC: Speech Drafts <user@domain.com>, 
+ Jamal Smith <user@domain.com>, 
+ Xochitl Hinojosa <user@domain.com>, 
+ Tyrone Gayle <user@domain.com>, 
+ Kenneth Campbell <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2a00:1450:4010:c04::236 as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+A little language on the poor or poverty would be awesome. But that's
+it. Looks great.
+
+African American Outreach Director
+Hillary for America
+user@domain.com
+
+ote:
+
+-American ministers in Philadelphia.
+
+ium), so I'm guessing she will review these bullets ahead of time but she w
+on't read from them directly.  I will reiterate to her that we're trying to
+ drive the message that "there are more Flints."  If there is anything else
+ that you'd like me to re-emphasize, let me know.  Also let me know if ther
+e is a different example that I should use instead of Richmond, Calif. (the
+ other ones on hand are Baltimore and Houston).
+

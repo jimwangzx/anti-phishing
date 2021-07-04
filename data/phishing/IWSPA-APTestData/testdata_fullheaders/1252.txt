@@ -1,0 +1,92 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp1068251lfb;
+        Fri, 13 Nov 2015 08:10:06 -0800 (PST)
+X-Received: by 10.129.89.193 with SMTP id n184mr24383733ywb.346.1447431006299;
+        Fri, 13 Nov 2015 08:10:06 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [198.232.218.221])
+        by domain.com with ESMTP id a188si14639528ywg.105.2015.11.13.08.10.06
+        for <user@domain.com>;
+        Fri, 13 Nov 2015 08:10:06 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 198.232.218.221 as permitted sender) client-ip=198.232.218.221;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 198.232.218.221 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkey01; d=opinionmilesclub.com;
+ h=Date:From: Opinion Miles Club <info@opinionmilesclub.com>
+ bh=Y54HnZUqQ+/BQNJp962jJuoceH0=;
+ b=O19zAS8BxmxmX8dEvfaBNPjCruP6hhASZS5p4OF4GXdpjtn7MHRMXXtgDhFItimZczYw/A8I2Sgs
+   FCh365RDDCWdJtQ+TrQdMm7U91e+im3w6PNw62tF/mzAsnU2dbGsTql4MyCzNEubyORdKoiaBrY6
+   5IKzLs5gUP3MOKXYu5U
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkey01; d=opinionmilesclub.com;
+ b=Gk9nbWCqHpBZGFwyhjV008q9MuMTD2cz3m202GbK0lETf6pRtweUSzs6Bfn+FRwiJ6WsFGRH02I3
+   BGEFlkURmovUshT0LkBRK9sWhKNGeVCsAMlBidzF6sAZuD8YYP+MnFmeRj7bkpJpcqr4hEZdUMJD
+   Fbo9kzduFZK4Mx9AAcM=;
+Date: Fri, 13 Nov 2015 11:02:57 -0500 (EST)
+From: Opinion Miles Club <info@opinionmilesclub.com>
+To: John user <user@domain.com>
+Message-ID: <1455963011.3784237.1447430577165@domain.com>
+Subject: Reminder: Chance to earn rewards
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3784235_1218455420.1447430577163"
+x-mail_job_id: 2645846
+X-Shipjob: N2645846
+X-subpanel_id: 44
+X-PID: 1280492913
+X-panelmember: T
+X-DubProjectID: ORD-200217-H8L9
+X-ProjectID: 302572
+
+New Opportunity to earn MileagePlus=C2=AE Award Miles!
+
+START THE SURVEY NOW: <<link>>
+Cx8pge_1rLH-DW8rclgS9KU1a9hE
+
+--------------------------
+
+Reward: 100 Award Miles
+
+Survey Number:  ORD-200217-H8L9
+Survey Length:  35 minutes
+Collect: 100 Award Miles
+
+START SURVEY: <<link>>
+rLH-DW8rclgS9KU1a9hE
+
+Thank you for participating!
+The Opinion Miles Club Team
+
+---------------------------
+
+You received this e-mail as a member of Opinion Miles Club. Add Opinion Mil
+es Club to your address book so you won't miss a single survey invitation.
+
+Contact us
+Please do not reply using this e-mail address. If you have any questions re
+garding this survey, please domain.com our help page.
+<<link>>
+=3D167804
+
+Update your Profile
+Every time something changes in your personal situation you can domain.com your p
+rofile so we can invite you for questionnaires which are of interest to you
+.
+<<link>>
+1280492913&pw=3D167804
+
+Guaranteed Privacy:
+Any personal information collected will be held in accordance with the Priv
+acy Policy:
+<<link>>
+
+Please also domain.com our Terms & Conditions:
+<<link>>
+
+We'll be sorry to see you go but you can unsubscribe at any time:
+<<link>>
+pw=3D167804
+
+Opinion Miles Club is a panel maintained and operated by Survey Sampling In
+ternational, LLC (=E2=80=9CSSI=E2=80=9D). Please contact SSI at 6 Research 
+Drive, Shelton, Connecticut 06484 USA.

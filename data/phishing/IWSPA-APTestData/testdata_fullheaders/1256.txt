@@ -1,0 +1,64 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 6 Mar 2015 09:01:13 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s26H1CD0015428	for <user@domain.com>; Thu, 6 Mar 2015 
+ 17:01:12 GMT
+Received: from mail188-va3-domain.com (mail-domain.com
+ [216.32.180.111])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s26H2R0e003339
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 6 Mar 2015 17:02:28 GMT
+Received: from mail188-va3 (localhost [127.0.0.1])	by
+ mail188-va3-domain.com (Postfix) with ESMTP id 9D6904E00C8	for
+ <user@domain.com>; Thu,  6 Mar 2015 17:01:11 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.137;KIP:(null);UIP:(null);SRV:BULK;H:mx137.b2b-domain.com;RD:mx137.b2b-domain.com;EFVD:NLI
+X-SpamScore: 8
+X-BigFish: vps8(zzc89bh1a09J55dIc857hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h10c0jzz1de098h1def03h177df4h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068hf9138o111c62iz2fh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h25f6h2605h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail188-va3: domain of b2b-domain.com designates 209.162.194.137 as permitted sender) client-ip=209.162.194.137; user@domain.com; helo=mx137.b2b-domain.com ;b2b-domain.com ;
+Received: from mail188-va3 (localhost.localdomain [127.0.0.1]) by mail188-va3
+ (MessageSwitch) id 1394125269337821_31071; Thu,  6 Mar 2015 17:01:09 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.239])	by
+ mail188-domain.com (Postfix) with ESMTP id 2490E120047	for
+ <user@domain.com>; Thu,  6 Mar 2015 17:01:09 +0000 (UTC)
+Received: from mx137.b2b-domain.com (209.162.194.137) by
+ domain.com (10.7.99.38) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 6 Mar 2015 17:01:04 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k2; d=b2b-domain.com;
+ h=Message-ID:Date:From: Jim Jachetta <marketing@vidovation.com>
+ bh=Pigky5kHuVDDJ1VYZNKKToN2PII=;
+ b=L/74l2Sum8atk4upODG/cZqVpEwmLuskbsU+CfkjRqbCjWvB1hQelGBHe6Fwae0DHos8lRu2fwG9
+   jmFAJuqqzXZTL/rEbXj6ogvee34RMXLSFrmWOATAsjCj4cmZV95HN4RW9RA0jdNvcDsMs5t8ksEW
+   8waZzvBa/DpGOJTU4gg
+Received: from 10.10.40.64 (172.16.0.16) by mx137.b2b-domain.com id h32kt01gs50h
+ for <user@domain.com>; Thu, 6 Mar 2015 09:01:03 -0800 (envelope-from
+ <user@domain.com>)
+Message-ID: <CUXBTUUUC$UWCXUVYVZWBYY@10.10.40.64>
+Date: Thu, 6 Mar 2015 09:01:03 -0800
+From: Jim Jachetta <marketing@vidovation.com>
+Reply-To: Jim Jachetta <user@domain.com>
+To: Amy Pascal <user@domain.com>
+Subject: A Request for Information from Jim Jachetta
+X-MESSAGEID: AVBV.rEmLErKGJEUUVC.WKXGU.mEUWXGEVYUX
+X-COD: ^^10.11.10.43:8080/acton/delivery?accountid=6171&msuid=s-023a-1403&rcptid=l-sf-lead-0018%3A2e3a0&srcid=l-sf-lead-0018
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A Request for Information from Jim Jachetta
+
+Click here to view this message in a browser window.    
+
+
+
+
+<<link>>:2e3a0/ct2_0/1
+
+Amy,
+
+As a valued subscriber to news and information from VidOvation we are always looking for ways to create content that is relevant and useful to you. We all get a lot of email so we want ours to continually hit the mark in meeting your needs. To do this we would like your help in completing a very short survey about NAB. While the focus is on NAB, it applies to any tradeshow or newsletter and the content you want to see and how you would like to get it. Please take the time to complete this survey whether you are going to NAB or not. It’s only 5 yes/no or multiple choice questions and should take no more than 3 minutes.
+

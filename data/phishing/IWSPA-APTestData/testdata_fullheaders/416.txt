@@ -1,0 +1,58 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp1717149lfr;
+        Tue, 6 Oct 2015 12:14:31 -0700 (PDT)
+X-Received: by 10.180.23.67 with SMTP id k3mr19666127wif.78.1444158871568;
+        Tue, 06 Oct 2015 12:14:31 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::22b])
+        by domain.com with ESMTPS id j6si38515870wjb.63.2015.10.06.12.14.31
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 06 Oct 2015 12:14:31 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22b as permitted sender) client-ip=2a00:1450:400c:c05::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id fx3so161537483wic.0
+        for <user@domain.com>; Tue, 06 Oct 2015 12:14:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Amanda Renteria <arenteria@hillaryclinton.com>
+         :cc:content-type;
+        bh=tXj52H91XuqJvekW485vup0rt/jcCvvN9OsFHVc33z4=;
+        b=U1B8MpochCGaNO34d2k7vQ+qWF8IwvpM6kpnYlsgbT7F5mUmycLEuYZw43TzBS/VBp
+         ekZ67qYmN4Cs1KdQ2wt+nxXLkxjLDIrhZBMt2OtynMYbXJB2S7G8yRITXB3HsWkVhFBP
+         FX3X8kBmdJVfNDVt68BmNXIeaTOD/r+wG7nl4
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Amanda Renteria <arenteria@hillaryclinton.com>
+        bh=tXj52H91XuqJvekW485vup0rt/jcCvvN9OsFHVc33z4=;
+        b=CWWHauilNEEKGggPNO76FGmOWM/3WTf2QQ5pj292NVc46sPXZg7safVfuVOV9nns/A
+         MNvDPwGJ1c/qSVA3kDyLMpqvnR1PfH98xEtd17rf0dAiBXCTwkvWgb5ZhLXESY73peMm
+         Gxh/GzkenLUowCCI3MdQ7qgVXC0Wct/t3XiU0yIYO4A2hxJwtGQU+K/T6CrGOS9yqYAs
+         dMecfDlN3k17VirNY2MjQtvcxdZcWUIhWFlJgVq0XEY9+fEA44EL7g/Frwim95ehQWXV
+         R6b5kAoauGx3jE04T+QNnyEe0b87ibBgFEh0pJKm6LftxhgBVpCIZVuDSgA7ZZLDbCrV
+         Favw
+X-Gm-Message-State: ALoCoQnIoz0LKehyl1/znL60bbkYni5Z/7pqFIqn0jROLz2X8+l5aHhn3GCO+6FmiR+XfZhgmAGX
+MIME-Version: 1.0
+X-Received: by 10.194.80.100 with SMTP id q4mr44130195wjx.113.1444158871259;
+ Tue, 06 Oct 2015 12:14:31 -0700 (PDT)
+Received: by 10.27.11.38 with HTTP; Tue, 6 Oct 2015 12:14:31 -0700 (PDT)
+In-Reply-To: <4464256729122205745@unknownmsgid>
+References: <4464256729122205745@unknownmsgid>
+Date: Tue, 6 Oct 2015 15:14:31 -0400
+Message-ID: <CAMayD+4r2pgTKqNJDWMNngcG4mo-ovBejDbJ84ZgTJx-AbD+user@domain.com>
+Subject: Re: Senate women call
+From: Amanda Renteria <arenteria@hillaryclinton.com>
+To: Sara Latham <user@domain.com>
+CC: Brian Fallon <user@domain.com>, 
+ Adrienne Elrod <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7bb04dca85569505217470c8
+
+sounds good.
+
+On Tue, Oct 6, 2015 at 3:13 PM, Sara Latham <user@domain.com>

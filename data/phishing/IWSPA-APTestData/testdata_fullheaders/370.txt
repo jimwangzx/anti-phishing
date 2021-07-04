@@ -1,0 +1,13 @@
+Status: RO
+From: "Alberto Ornaghi" <a.ornaghi@Organization.com>
+Subject: Google Introduces Freon, a Replacement For X11 On Chrome OS
+To: Fabio Busatto
+Date: Mon, 09 Mar 2015 06:56:34 +0000
+Message-Id: <user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1561796924_-_-"
+
+                                                  Che porcheria è questa? Ogni applicazione si metterà a implementare tutto lo stack grafico?Slashdot                            Google Introduces Freon, a Replacement For X11 On Chrome OS                                            An anonymous reader writes With this week's release of Chrome OS M41, there is the new Freon graphics stack to replace X11 on some platforms. Freon is a very limited graphics stack to replace Chrome OS usage of X11/X.Org by having the Chrome browser communicate directly with the Linux kernel's KMS/DRM API and OpenGL ES interfaces for drawing. This design is much simpler and yields various power and performance improvements though it's not based on Wayland nor Mir (though Chrome plans to support these display server models).
+
+ Read more of this story at Slashdot.<<link>>~r/Slashdot/slashdot/~3/o9JoNyRgshk/google-introduces-freon-a-replacement-for-x11-on-chrome-osSent with Reeder--Alberto OrnaghiSoftware ArchitectSent from my mobile.

@@ -1,0 +1,111 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [65.23.81.153])
+	by domain.com (Postfix) with ESMTP id 6B87B536E2C
+	for <user@domain.com>; Tue,  8 Nov 2015 09:16:56 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 520FE6CCF5D
+	for <user@domain.com>; Tue,  8 Nov 2015 09:16:54 -0500 (EST)
+Received: from 193.227.227.181 (unknown [193.227.227.181])
+	by domain.com (Postfix) with SMTP
+	for <user@domain.com>; Tue,  8 Nov 2015 09:16:53 -0500 (EST)
+Received: from 248.224.8.208 by ; Tue, 08 Nov 2015 13:17:01 -0100
+Message-ID: <user@domain.com>
+From: "Credit Union Security Department" <security@creditunion.com>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: In attention of all domain.com Union customers
+Date: Tue, 08 Nov 2015 12:12:01 -0200
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--81600835709235710"
+X-Priority: 1
+X-MSMail-Priority: High
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ************************
+X-Spam-Status: Yes, score=24.1 required=5.0 tests=AWL,FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,FORGED_OUTLOOK_TAGS,HTML_40_50,HTML_MESSAGE,
+	HTML_TAG_EXIST_TBODY,MIME_BOUND_DD_DIGITS,MIME_HTML_ONLY,
+	MIME_HTML_ONLY_MULTI,MISSING_MIMEOLE,MPART_ALT_DIFF,MSGID_SPAM_CAPS,
+	MSGID_YAHOO_CAPS,RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,
+	RCVD_IN_BL_SPAMCOP_NET,RCVD_IN_SBL,RCVD_IN_XBL,RCVD_NUMERIC_HELO 
+	autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  3.8 MSGID_YAHOO_CAPS Message-ID has user@domain.com
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  3.8 MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  0.0 HTML_40_50 BODY: Message is 40% to 50% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 HTML_TAG_EXIST_TBODY BODY: HTML has "tbody" tag
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (<>)
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [193.227.227.181 listed in sbl-domain.com]
+	*  0.1 RCVD_IN_SBL RBL: Received via a relay in Spamhaus SBL
+	*      [193.227.227.181 listed in sbl-domain.com]
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  0.1 FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+	* -2.3 AWL AWL: From: "Credit Union Security Department" <security@creditunion.com>
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 431
+
+ domain.com Union is constantly working to ensure security by regularly 
+
+screening the accounts in our system. We recently reviewed your account, <
+br>
+and we need more information to help us provide you with secure service. <
+br>
+Until we can collect this information, your access to sensitive account 
+features will be limited. We would like to restore your access as soon 
+as possible, and we apologize for the inconvenience. 
+
+Why is my account access limited? 
+
+Your account access has been limited for the following reason(s): 
+
+* We would like to ensure that your account was not accessed by an 
+
+unauthorized third party. Because protecting the security of your 
+
+account is our primary concern, we have limited access to sensitive 
+
+domain.com Union account features. We understand that this may be an 
+
+inconvenience but please understand that this temporary limitation is 
+
+for your protection. 
+
+(Your case ID for this reason is PCU1-717-313-51521.) 
+
+At domain.com Union, one of our most important responsibilities to you, our 
+customer, is the safekeeping of the nonpublic personal ("confidential") 
+information you have entrusted to us and using this information in a 
+
+responsible manner. Appropriate use of the confidential information you 
+provide us is also at the heart of our ability to provide you with 
+
+exceptional personal service whenever you contact us. 
+
+How can I restore my account access? 
+
+Please confirm your identity here: Restore
+My
+Online Banking and complete the "Steps to Remove Limitations." 
+
+Completing all of the checklist items will automatically restore your 
+
+account access.

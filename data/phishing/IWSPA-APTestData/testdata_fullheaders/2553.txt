@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1306929lfr;
+        Sun, 23 Aug 2015 08:11:40 -0700 (PDT)
+X-Received: by 10.170.141.197 with SMTP id i188mr24486021ykc.57.1440342699497;
+        Sun, 23 Aug 2015 08:11:39 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::230])
+        by domain.com with ESMTPS id t3si8573501ywt.92.2015.08.23.08.11.38
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 23 Aug 2015 08:11:39 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::230 as permitted sender) client-ip=2607:f8b0:4002:c07::230;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::230 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id t205so112854435ykd.1
+        for <user@domain.com>; Sun, 23 Aug 2015 08:11:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Robby Mook <re47@hillaryclinton.com>
+         :cc:content-type:content-transfer-encoding;
+        bh=eSEPal5gSDFjBqsY5qnUQMrpSciiofGIDycXBwqKC7I=;
+        b=SLu1OS7R0vFwf4u2Mmt68A1tEjKzT9W/4znT90++7fA53m5Kdme/9NXFguxJdc4Ze9
+         cGHoAfjNJa76ni3SoGzfE1LUSsZbtV9jReTnAr59aCixOP0jnPEY8xtGB+dumX81FSwl
+         WUUmzkVwHDCQPpc2LeVB5xfd/yHTg3mK3r2C8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Robby Mook <re47@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type:content-transfer-encoding;
+        bh=eSEPal5gSDFjBqsY5qnUQMrpSciiofGIDycXBwqKC7I=;
+        b=gQtB9GNsqvT5HLieR2XCi1ei1ucEZEx+DMS2/W3yFfmBXpgI/iE972dH5cs3eQWoaQ
+         NM1k6x6Dm+8LGr8ZnkeWIggsfQx/Mgc2dRwVY3yAAzaP3q1O7ZdPYOvmY/YTUUIOWNu9
+         Bl3T4Zap+p5pOXkmauF0AX1VQdpdOOKK+mOmAMy3JDnFufghZWRY5K0pasVHTz8zDMjh
+         ES+izCdq1XdZ6BNDi6qumsI9QA3RrCWfeQb+jgwKDlP9oQYZB5OC+seve+0ORLpenlkE
+         TLTmJIIgrTqZ6ESTrJwWpo3NNTM8qA6ulFm30uv3EHw6Er54R07xKliFsO8Q+hKsgBvg
+         K4Wg
+X-Gm-Message-State: ALoCoQmBJ34AumRyZJSTxTlvj3Xvr/J7EGSavSZ5C9ICAT+F4opUuaJzFfrl7cRqCANTh/65YOC+
+X-Received: by 10.170.122.12 with SMTP id o12mr24468051ykb.77.1440342698382;
+ Sun, 23 Aug 2015 08:11:38 -0700 (PDT)
+From: Robby Mook <re47@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <47user@domain.com>
+In-Reply-To: <47user@domain.com>
+Date: Sun, 23 Aug 2015 11:11:37 -0400
+Message-ID: <-2434466310778333022@unknownmsgid>
+Subject: Re: Howard Dean
+To: "User" <user@domain.com>
+CC: John user <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+He has been such a solid supporter and so helpful.  I completely
+agree.  He's been spending a lot of time in NH as well where he is
+especially effective I think.
+

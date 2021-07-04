@@ -1,0 +1,91 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 10 Jun 2015 03:24:36 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s5AAOZMG003403	for <user@domain.com>; Tue, 10 Jun 2015 
+ 10:24:35 GMT
+Received: from mail119-ch1-domain.com (mail-domain.com
+ [216.32.181.171])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s5AAOTQn021663
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 10 Jun 2015 10:24:29 GMT
+Received: from mail119-ch1 (localhost [127.0.0.1])	by
+ mail119-ch1-domain.com (Postfix) with ESMTP id C86C74E007A	for
+ <user@domain.com>; Tue, 10 Jun 2015 10:24:34 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:54.240.13.20;KIP:(null);UIP:(null);IPV:NLI;H:a13-20.smtp-domain.com;RD:a13-20.smtp-domain.com;EFVD:NLI
+X-SpamScore: 24
+X-BigFish: vps24(z579eh5461oze0eahc857hzz1f42h1cfdh2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch11dbuzz1d7338h172cfch1d68deh1def03h29e4I17326ah1def87h8275bh1bc7b9h1def86h1de097h186068hz2fh5fh2a8h839ha12hd24h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d1eh1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h22d0h2336h2363h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h282bh28a1h214ai251ci2505k)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail119-ch1: domain of marketplace.amazon.com designates 54.240.13.20 as permitted sender) client-ip=54.240.13.20; envelope-from=comm-bounces+user@domain.com; helo=a13-20.smtp-domain.com ;domain.com ;
+Received: from mail119-ch1 (localhost.localdomain [127.0.0.1]) by mail119-ch1
+ (MessageSwitch) id 1402395871700258_29463; Tue, 10 Jun 2015 10:24:31 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.235])	by mail119-domain.com (Postfix) with ESMTP id A6CC76007A
+	for <user@domain.com>; Tue, 10 Jun 2015 10:24:31 +0000 (UTC)
+Received: from a13-20.smtp-domain.com (54.240.13.20) by
+ domain.com (10.43.70.5) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Tue, 10 Jun 2015 10:24:31 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=jvxsykglqiaiibkijmhy37vqxh4mzqr6; d=domain.com; t=1402395841;
+	user@domain.com;
+	h=Date:From: Etailz - Amazon Marketplace <8942sd3q79bx73p@marketplace.amazon.com>
+	bh=8skxEwQ8mMdIpyQQHvDTGLk94l70Aebzv5HtbgkvHNs=;
+	b=ITR4hvT6vr7QFCfge+65ozp5sSKWTNwjH5jpSXcdnd6j+dCL27ZLEPQsyhxuYazH
+	uAtlR4rk9C51THbLpa1B/roh+I/woxlQEddnCjffOj9onk84H1nY3Nacbmu44HDmR8F
+	0ecfiBj5We5OBodlv5+y4UopIYpTPtT1Zb5C0Ps0
+Date: Tue, 10 Jun 2015 10:24:01 +0000
+From: Etailz - Amazon Marketplace <8942sd3q79bx73p@marketplace.amazon.com>
+Reply-To: Etailz - Amazon Marketplace <8942user@domain.com>
+To: Amy Pascal <user@domain.com>
+Message-ID: <00000146854user@domain.com>
+Subject: A Special Offer For Your Purchase Of Dr. Hauschka Body Oil
+  Blackthorn  2.5-Ounce Box
+Bounces-to: comm-bounces+user@domain.com
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-AMAZON-RTE-VERSION: 2.0
+X-AMAZON-CATEGORY: BBC-Message
+X-Original-MessageID: <urn.correios.msg.2014061010240026bc9485bbf342e29e8bb071e18deaf8@1402395840977.rte-svc-1e-i-091a4b79.us-east-1.domain.com>
+X-SES-Outgoing: 2014.06.10-54.240.13.20
+Return-Path: comm-bounces+user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A Special Offer For Your Purchase Of Dr. Hauschka Body Oil  Blackthorn  2.5-Ounce Box
+
+Leave a Review, Catch a great deal!     
+
+ etailz amazon review email     
+
+
+
+
+ Dr. Hauschka Body Oil, Blackthorn, 2.5-Ounce Box                Thanks for your purchase!
+
+We would love to hear how much you like your Dr. Hauschka Body Oil, Blackthorn, 2.5-Ounce Box
+
+
+
+
+WE NEED YOUR HELP!
+
+etailz is dedicated to bringing you the best products on Amazon. If you love your Dr. Hauschka Body Oil, Blackthorn, 2.5-Ounce Box, we would be grateful if you could tell us what you love about it by writing a review on Amazon (click here). It should only take a few minutes and will help guide others, like yourself, as they look for the best products on the market. If you have any issues with your Dr. Hauschka Body Oil, Blackthorn, 2.5-Ounce Box please contact us at 800-326-1325.
+
+<<link>>
+
+         REVIEW NOW  arrow      
+
+
+
+
+contact us
+
+800.326.1325
+
+© 2015 etailz, Inc. All rights reserved.
+
+
+

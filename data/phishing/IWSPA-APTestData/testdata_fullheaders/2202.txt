@@ -1,0 +1,128 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs355873wfw;
+        Sun, 9 Nov 2015 19:25:39 -0800 (PST)
+Received: by 10.215.39.16 with SMTP id r16mr6023046qaj.76.1226287538470;
+        Sun, 09 Nov 2015 19:25:38 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from smtp-out.google.com ([216.239.45.13])
+        by mx.google.com with ESMTP id 5si16033346yxt.1.2008.11.09.19.25.36;
+        Sun, 09 Nov 2015 19:25:37 -0800 (PST)
+Received-SPF: pass (google.com: domain of user@domain.com designates 216.239.45.13 as permitted sender) client-ip=216.239.45.13;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of user@domain.com designates 216.239.45.13 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: from wpaz13.hot.corp.google.com (wpaz13.hot.corp.google.com [172.24.198.77])
+	by smtp-out.google.com with ESMTP id mAA3PZ6a005712;
+	Sun, 9 Nov 2015 19:25:35 -0800
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=google.com; s=beta;
+	t=1226287536; bh=qwERxp+S7JfBfztm+nondV4pPSc=;
+	h=DomainKey-Signature:MIME-Version:In-Reply-To:References:Date:
+	 Message-ID:Subject:From: Sonal Shah <sonalshah@google.com>
+	1BMOOg3d+hfZhJn8BFMCfqCTOSps3xNJLe0c7gwDgP+XEQ1CxG2x6I/D2vqItWw
+DomainKey-Signature: a=rsa-sha1; s=beta; d=google.com; c=nofws; q=dns;
+	h=mime-version:in-reply-to:references:date:message-id:subject:From: Sonal Shah <sonalshah@google.com>
+	b=poXJXdxi0L1x+DmhPLy40/odANg53/n9sluup/fPn4QkuPYiVccBiiM3gX+hNBDae
+	/IbQsx6fMqfbijz4A70xA
+Received: from rv-out-0708.google.com (rvfc5.prod.google.com [10.140.180.5])
+	by wpaz13.hot.corp.google.com with ESMTP id mAA3PXAG020948;
+	Sun, 9 Nov 2015 19:25:34 -0800
+Received: by rv-out-0708.google.com with SMTP id c5so2107603rvf.24
+        for ; Sun, 09 Nov 2015 19:25:33 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.141.42.10 with SMTP id u10mr3312660rvj.241.1226287533520; Sun, 
+	09 Nov 2015 19:25:33 -0800 (PST)
+In-Reply-To: <7user@domain.com>
+References: <7user@domain.com>
+Date: Sun, 9 Nov 2015 22:25:33 -0500
+Message-ID: <user@domain.com>
+Subject: Fwd: FW: My Two Bits
+From: Sonal Shah <sonalshah@google.com>
+To: user@domain.com, Gayle Smith <user@domain.com>
+Content-Type: multipart/alternative; boundary=000e0cd20a54d3f65c045b4d50e5
+
+Passing on comments.
+
+---------- Forwarded message ----------
+From: Sonal Shah <sonalshah@google.com>
+Date: Sun, Nov 9, 2015 at 5:41 PM
+Subject: FW: My Two Bits
+To: "User" <user@domain.com>,
+user@domain.com, user@domain.com
+
+ Mike and Sonal,
+
+In case anyone is interested in what I think,
+
+Ted
+
+Edwin (Ted) M. Truman
+
+Senior Fellow
+
+Peterson Institute for International Economics
+
+1750 Massachusetts Ave., NW
+
+Washington, DC 20036
+
+Tel: 202-328-9000
+
+E-mail: user@domain.com
+  ------------------------------
+
+*From: Sonal Shah <sonalshah@google.com>
+*Sent:* Sunday, November 09, 2015 5:35 PM
+*To:* Paul Volcker (user@domain.com)
+*Subject:* My Two Bits
+
+Dear Paul,
+
+Greetings from Tokyo.  I have been in Asia since early Wednesday.  Out of
+the country for the very exciting election results though I could watch the
+returns in the morning in Singapore.  Great that you carried Florida!
+
+I have been thinking about the Geithner-Summers choice, if that is indeed
+the choice, and feel compelled to share my thoughts with someone in
+authority.
+
+Larry =96 I have known Larry for more than 20 years, worked with him at the
+Federal Reserve and Treasury, and was supportive of him during the agony at
+Harvard.  Of course he is super talented to the extent that he can do
+anything he puts his mind to do and maybe do better at it than most of the
+rest of the people in the world when he is operating at 50% efficiency.   I
+am very concerned, however, at a personal level.  My sense is that for
+people on top you cannot very easily go back to where you were.  It takes a
+special mind set.  The Treasury on 1/20/09 will not be like Larry left it o
+n
+1/19/01.  This will frustrate Larry and diminish his effectiveness.  I can
+report that the career staff is already concerned about Larry's return.  He
+is very high maintenance.
+
+Tim =96 You know I am a big fan of his and my enthusiasm was not misplaced.
+Yes, if he were appointed, he would leave another hole at the FRBNY, and th
+e
+record of quick appointments there is not great.  But he is almost ideal fo
+r
+the job given his experience at the FRBNY on top of at the IMF and the UST.
+Of course, he would hit the ground running. You know better than I, but my
+sense is that everyone in NY AND around the world has great confidence in
+Tim and, unfortunately, the same cannot be said for Larry.  The career
+Treasury staff would love the return of Tim almost to a person, which may
+not be all that relevant.  It is relevant that Tim is both an independent
+thinker and a team player, which is what we need now.
+
+Best
+
+Ted
+
+Edwin (Ted) M. Truman
+
+Senior Fellow
+
+Peterson Institute for International Economics
+
+1750 Massachusetts Ave., NW
+
+Washington, DC 20036
+
+Tel: 202-328-9000
+
+E-mail: user@domain.com

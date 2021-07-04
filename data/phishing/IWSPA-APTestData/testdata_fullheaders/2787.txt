@@ -1,0 +1,100 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp1463270lfi;
+        Wed, 20 May 2015 08:25:04 -0700 (PDT)
+X-Received: by 10.55.33.147 with SMTP id f19mr4247323qki.92.1432135504006;
+        Wed, 20 May 2015 08:25:04 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-dock-front-5.domain.com (mta-dock-front-5.domain.com. [64.94.250.8])
+        by domain.com with ESMTPS id f5si13396288qhc.19.2015.05.20.08.25.03
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 20 May 2015 08:25:04 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.94.250.8 as permitted sender) client-ip=64.94.250.8;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 64.94.250.8 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (unknown [10.0.200.135])
+	by mta-dock-front-5.domain.com (Postfix) with ESMTP id 3lsHvM0D5rz14K62
+	for <user@domain.com>; Wed, 20 May 2015 15:25:03 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=votevets.org;
+	s=votevetskey; t=1432135503;
+	bh=SQTxuDbN6QTgpr/lOyBSi9Y+nC3nQMMneTEuOgHRf1E=;
+	h=Date:To:From: "Garett Reppenhagen, VoteVets.org" <info@votevets.org>
+	b=Zh6Gdyc2xI8mSv6JoGVqndgcaTTsc+QRm2MWnALVrI3PomX8OMcbzS3IFmWqhCwY0
+	 yXWikYZCqRKpz+2jGzmDYvur0simTYl1ZVLb660NZQBUQZRRCH3A2QThA5+I1mwaaO
+	 kCT3a6SAXDAizxwwQ7dvk48GlB7nf3BLmJhpmOzY
+Received: from phpmailer 
+	by domain.com with local (PHPMailer);
+	Wed, 20 May 2015 15:25:03 +0000
+Date: Wed, 20 May 2015 15:25:03 +0000
+To: John user <user@domain.com>
+From: "Garett Reppenhagen, VoteVets.org" <info@votevets.org>
+Reply-to: user@domain.com
+Subject: Congress: Grant veterans free access to public lands
+Message-ID: <9user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 5646729758ea617b
+X-rpcampaign: rp_20045
+X-maillist-guid: EwpCUBUBEkdsBgYBB1IBWFQMCFdVAVQEADBYDF5aGxQKAVNGFwUmUwhSWVkfBlwMag4BAA
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_9d3e14a4336befeb29ee8228cb623dda"
+
+John -
+
+I joined the U.S. Army as a Calvary Scout in August of 2001, one month 
+before the attacks on September 11th.
+
+I served a peacekeeping mission in Kosovo and later deployed to Iraq as a 
+Brigade sniper on counter IED and counter mortar missions.  I performed 
+over 160 combat missions without the use of an armored vehicle, engaged in 
+countless firefights, and survived dozens of ambushes.
+
+My transition back to civilian life was challenging. I struggled with 
+intrusive thoughts, anxiety, depression, and more. But I found peace in 
+the outdoors -- camping, hiking, and exploring natural wonders became a 
+way of life.
+
+That's why I support legislation granting free lifetime access to our 
+national parks for veterans, and I'm asking you to join me.
+
+Add your name to mine and tell Congress: Support legislation that would 
+provide veterans free access to public parks.
+
+<<link>>
+
+Currently, to enjoy a lifetime pass on these lands, a veteran requires a 
+disability rating from the Department of Veterans Affairs.
+
+There are millions of veterans with a service connected disability, but 
+too often some choose not to file claims or even domain.com the VA after 
+returning home.
+
+Free access to our nation's parks and federal recreational lands would 
+definitely give many of them incentive to get outdoors for what would be a 
+very therapeutic experience. A 2015 University of Michigan study backs 
+that claim up. They found a link between outdoor activity and long-term 
+psychological well-being among veterans. 
+
+That's why this idea is so important. Add your name to mine and tell 
+Congress to pass legislation providing veterans free access to public 
+parks.
+
+<<link>>
+
+Veterans swore an oath to make the ultimate sacrifice in defense of the 
+lands we love. We shouldn't have to pay again at the front gate.
+
+It's time for Congress to act.
+
+All the best,
+
+Garett Reppenhagen
+Iraq War Veteran
+VoteVets
+
+<<link>>
+Paid for by VoteVets Action Fund
+

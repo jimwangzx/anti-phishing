@@ -1,0 +1,86 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp179772lfr;
+        Wed, 21 Oct 2015 14:08:05 -0700 (PDT)
+X-Received: by 10.202.197.82 with SMTP id v79mr7525037oif.31.1445461684896;
+        Wed, 21 Oct 2015 14:08:04 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::230])
+        by domain.com with ESMTPS id p65si6287868oig.2.2015.10.21.14.08.04
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 21 Oct 2015 14:08:04 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::230 as permitted sender) client-ip=2607:f8b0:4003:c01::230;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::230 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id tp1so22161928obc.2
+        for <user@domain.com>; Wed, 21 Oct 2015 14:08:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+        bh=ilZjkSJ9TOVll8dfRhCPqAqS3gEVytnR9PucY3FwCkA=;
+        b=EDQtxgF8YoFZphWv+B+JmNBfSH74bqUs2QMVXcQcLQ+j4WByvZn1x003V1Z+O95zlM
+         HMgoJpSQIA72ZstKpy17uJb4hK8abp47eamqhlIpLkSg1ieoR+cJ1cPpb0gucG23f9gG
+         5olntZnqgm/AwtnyHF2Bdp0bxga+u95vcGzlg
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :content-type;
+        bh=ilZjkSJ9TOVll8dfRhCPqAqS3gEVytnR9PucY3FwCkA=;
+        b=LcYABTIQnCOEwISZ0X+exeK7cSNhQWSXGviBt+TZFiwWlbDuDujvYHMzV734yrkqti
+         TVxrBUE8C3Fw4LOnA8WOaefHDd1fKOOJ0c9sRp8sGpsh3Eu7d6CwxIj3+67T53kMoALI
+         L/SYFqt/Kff8yh6alMkBoYDKFs1w5Z/b2XSv7OgyHMRBp4v2JhQ+T+uFXh8gQQ7/Sna4
+         iflLKjL/yffPUJbIu5zUbHtbwwRzVNaVFULa0gTM16qsznJkMmARX2rGSAlj6nwceFPX
+         WRs5iE8Kav/oPDRjODrMkUe5iqPdsO0gBGKh4l3cdNPT4EbRoC02tPWYlsm/7GrZR+bY
+         bxJA
+X-Gm-Message-State: ALoCoQns54cF2LztvONakKHvBjKxzFooR2ntKC15Yd1o/axG85V7rSTAWIRUbPfp559wSB7h0nu8
+MIME-Version: 1.0
+X-Received: by 10.182.60.168 with SMTP id domain.com.81.1445461684521;
+ Wed, 21 Oct 2015 14:08:04 -0700 (PDT)
+Received: by 10.202.183.135 with HTTP; Wed, 21 Oct 2015 14:08:04 -0700 (PDT)
+Date: Wed, 21 Oct 2015 17:08:04 -0400
+Message-ID: <user@domain.com>
+Subject: Bus Ticket for Saturday 10:10 AM
+From: Milia Fisher <mfisher@hillaryclinton.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e0153716c3e30510522a3c66d
+
+10:10 am Vamoose departing from Bethesda.
+
+---------- Forwarded message ----------
+From: Milia Fisher <mfisher@hillaryclinton.com>
+Date: Wed, Oct 21, 2015 at 4:54 PM
+Subject: One-Way E-Ticket
+To: user@domain.com
+
+<<<link>>>
+PHONE  (212) 695-6766 | (301) 718-0036
+One-Way E-Ticket PASSENGER INFO First Name John Last Name user Seats 1 Your
+Comments TRIP DETAILS Reservation # 43250-2081889 Date Sat, Oct 24, 2015 
+Time 10:10 AM Leaving From VA / MD Departure Location Bethesda, MD
+7401 Waverly Street, at the corner of Montgomery Avenue, next to the
+parking garage entrance. Going To New York Dropoff Location Penn Station
+7th Ave. Corner of W 30th Street Schedule comments TRANSACTION INFO Total
+charged *$45* Card Last 4 Digits 1022 Transaction # 964837425 *Important
+information:*
+      1. This ticket is non-refundable. However, you can reschedule or put
+your ticket "on hold" online without incurring any fees. *If you do not
+change the reservation prior to the trip, and you don't show up to the bus
+to claim your seat, you will domain.com your ticket.*
+      2. Five minutes prior to departure, if you have not boarded and
+claimed your seat, we reserve the right to release your reservation and
+make your seat available to walk-up customers.
+      3. There may be a stop along the route at a rest area, or to exchange
+drivers.
+Click here to reschedule your reservation
+<<<link>>>
+Thank
+you.
+
+-- 
+Milia Fisher
+Special Assistant to the Chair
+Hillary for America
+user@domain.com
+c: 858.395.1741

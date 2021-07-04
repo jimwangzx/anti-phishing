@@ -1,0 +1,142 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp4094083lfi;
+        Mon, 8 Jun 2015 17:22:19 -0700 (PDT)
+X-Received: by 10.152.5.194 with SMTP id u2mr15462708lau.94.1433809339592;
+        Mon, 08 Jun 2015 17:22:19 -0700 (PDT)
+Return-Path: <hrcrapid+user@domain.com>
+Received: from mail-la0-domain.com (mail-la0-domain.com. [2a00:1450:4010:c03::246])
+        by domain.com with ESMTPS id sc4si4125617lbb.99.2015.06.08.17.22.19
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 08 Jun 2015 17:22:19 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of hrcrapid+user@domain.com designates 2a00:1450:4010:c03::246 as permitted sender) client-ip=2a00:1450:4010:c03::246;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of hrcrapid+user@domain.com designates 2a00:1450:4010:c03::246 as permitted sender) smtp.mail=hrcrapid+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-la0-domain.com with SMTP id r3sf368834laa.3
+        for <user@domain.com>; Mon, 08 Jun 2015 17:22:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:From: Jesse Lehrich <jlehrich@hillaryclinton.com>
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-subscribe:list-unsubscribe;
+        bh=X8t5umljaDvWU2oEuv/wUyf55g1wSC0x6khgoM+R3v4=;
+        b=QZ3gY+xXGI+VH2gC4iYQWe5z6mgtqqZORLNwmce10WNcFnoDtXqOd/np/SMqzRx7rJ
+         zMB5mxIpQU/j7AelaFhj9TIB5crO3rtwYhL7I8wYo5Z60BW1TOccNFiKnXTYfflEzZra
+         h4NLSnDwMutjttWRUKmaYaXEI+24YkEakl4A0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:From: Jesse Lehrich <jlehrich@hillaryclinton.com>
+         :to:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-subscribe:list-unsubscribe;
+        bh=X8t5umljaDvWU2oEuv/wUyf55g1wSC0x6khgoM+R3v4=;
+        b=B92kl8aU7gucQawRSFVtiKnxQ+J9icO1Oi9lc4rZ1mUErVDvtl0DsJEJD1mDul3xeK
+         bSX4/SRqUD5kFmp7F6sGs3a7tLgQJkiuGmi/+c/Rmaq1IhzGRG0JQMuWJkn19r1xX2e1
+         mZO/FhS1p00/q6TqC4MYChBmYf8dR0O9waUHI0w2terT67EbnlaiT2OctFrc/2TYUTe3
+         HaQJcIRbxLJB2GnTShaf3QJnmudaGYLH7BfPoXdkBCaAWZyMXjntMxmTTZ5PN5GzWvae
+         SHsnTAtXU+mzCDa6OhHKEiuaJ1YJQ+TwiTLEQoaDYS1WHRwvLhVRU840fDf7VRIth7Ia
+         ntoQ
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQlZ4kPXZqzy5diP7CuNuctgBIaYtl/FZ/Cd4RhGDflDMlL6VQM8Omd8hObJ/Gee0GdFQnwB
+X-Received: by 10.194.47.179 with SMTP id e19mr19340151wjn.4.1433809339263;
+        Mon, 08 Jun 2015 17:22:19 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.152.5.202 with SMTP id u10ls8662lau.6.gmail; Mon, 08 Jun 2015 
+ 17:22:18 -0700 (PDT)
+X-Received: by 10.112.55.70 with SMTP id q6mr18966969lbp.99.1433809338611;
+        Mon, 08 Jun 2015 17:22:18 -0700 (PDT)
+Received: from mail-lb0-domain.com (mail-lb0-domain.com. [2a00:1450:4010:c04::234])
+        by domain.com with ESMTPS id o5si4226701lao.159.2015.06.08.17.22.18
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 08 Jun 2015 17:22:18 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c04::234 as permitted sender) client-ip=2a00:1450:4010:c04::234;
+Received: by lbcue7 with SMTP id ue7so1711179lbc.0
+        for <user@domain.com>; Mon, 08 Jun 2015 17:22:18 -0700 (PDT)
+X-Received: by 10.112.140.231 with SMTP id rj7mr19727182lbb.76.1433809338281;
+ Mon, 08 Jun 2015 17:22:18 -0700 (PDT)
+From: Jesse Lehrich <jlehrich@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+Date: Mon, 8 Jun 2015 20:22:16 -0400
+Message-ID: <-4139473711534113424@unknownmsgid>
+Subject: June 8th Nightly Press Traffic Summary
+To: user@domain.com
+Content-Type: multipart/alternative; boundary=001a11c26a3048c79405180ac046
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2a00:1450:4010:c04::234 as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact HRCRapid+user@domain.com
+List-ID: <HRCRapid.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 301712100758
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:HRCRapid+user@domain.com>
+List-Archive: <<<link>>>
+List-Subscribe: <<<link>>>,
+ <mailto:HRCRapid+user@domain.com>
+List-Unsubscribe: <mailto:googlegroups-manage+301712100758+user@domain.com>,
+ <<<link>>>
+
+*June 8th Nightly Press Traffic Summary*
+
+=C2=B7  Lisa Lerer (AP) piece wrapping up the ramp-up phase of our campaign
+should run Wednesday.
+
+=C2=B7  Jon Allen's piece about connections between Hillary Clinton and FDR
+should run tomorrow. We have a quote from Kristina Schake that will be
+included in the story. A couple other reporters are interested in this
+storyline ahead of her launch rally on Roosevelt island.
+
+=C2=B7  Amy Chozick is doing what seems like it will be a positive story ab
+out
+Hillary Clinton's connection to the LGBT community.
+
+=C2=B7  Elijah Cummings has an op-ed coming at some point this week on beha
+lf of
+Democrats on the Benghazi committee about the continued politicization of
+the tragedy.
+
+=C2=B7  An LA Times story is scheduled for tomorrow about Carly Fiorina's
+connections to the Clinton Foundation
+
+=C2=B7  Bloomberg's Sahil Kapur is writing on Marco Rubio's immigration att
+acks
+on HRC and Rubio's own record of immigration shifts.
+
+=C2=B7  Amy Chozick/Maggie Haberman have been digging around on a story abo
+ut
+campaign staffers, NYC real estate, and supporter housing. We're tracking
+down more info.
+
+=C2=B7  Annie Karni is writing about similarities between Jeb Bush and Hill
+ary
+Clinton.
+
+=C2=B7  Peter Nicholas at WSJ has been digging into top Obama donors to loo
+k at
+the degree to which they have gotten involved in 2015 
+
+=C2=B7  Marc Caputo at POLITICO interviewed John Morgan about medical marij
+uana
+and his conversations on the topic with HRC, and is likely to do a story
+off it.
+
+=C2=B7  Ben White at POLITICO is doing a story about HRC's ties to Wall Str
+eet.
+We've pushed back with a quote/background about her record fighting to
+protect consumers from abuses from big banks, and indicating she'll
+continue to roll out policy proposals on that front.
+
+=C2=B7  The Daily Caller is asking about a 1973 article that Hillary Clinto
+n
+wrote in which she made comparisons between the lack of childhood rights +
+institution of marriage to slavery. This was an attack launched against her
+in 1992, 2000, etc. that they are attempting to revive.

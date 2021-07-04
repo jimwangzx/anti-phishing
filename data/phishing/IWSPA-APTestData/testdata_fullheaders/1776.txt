@@ -1,0 +1,147 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp586826lfr;
+        Sun, 4 Oct 2015 08:04:08 -0700 (PDT)
+X-Received: by 10.170.163.4 with SMTP id f4mr21223807ykd.93.1443971047919;
+        Sun, 04 Oct 2015 08:04:07 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [198.2.190.84])
+        by domain.com with ESMTP id 134si10242405ykj.178.2015.10.04.08.04.07
+        for <user@domain.com>;
+        Sun, 04 Oct 2015 08:04:07 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 198.2.190.84 as permitted sender) client-ip=198.2.190.84;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 198.2.190.84 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Team=20Aspiration?= <info@aspiration.com>
+ bh=2lj0DYlXHjIVc23qiKv1z636/R8=;
+ b=F83bGJDpSlQksAVtEVo9bSJmUeA1KOhDoTVzarKgtGtFDRbYWPZHzqyeX6Cm2V5cnxCBOAO2o/iP
+   kGP9l3804WA8JeJR7RoNyBf+t//MbilDXNjKnW3ibwFpUAD6se2iZaMQJq5uGgMZ6Hh8jeJnU757
+   3AI8ZSsqH/+vA01OFRw
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Team=20Aspiration?= <info@aspiration.com>
+ bh=2lj0DYlXHjIVc23qiKv1z636/R8=;
+ b=G29bg179fukYHONukmiLROqBSObKz/tmPNX0aATcF/E2jQvV/8/Ea4I+R4aeZzvxU8ev/xPOHAxS
+   JzuwfV66Xjwqu7o9BaPIEIV6z6m3xX3yYFU9vRVohU66oi33JP2ExiJfZUdJkRscn38v4O09NS8U
+   x3oVpUqxkqWIpkEZpiQ
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=YJWdeGBJmW4RzEkCAyj6J+rzFOsNIbkFnyuagJY5wyWIk9XACYouS8/XhNNeYkpUYDaqOdbrjnwB
+   EIQqwSqB/d4UEl073YMr7Zyyub25ZzZ4Tomo2tOKXtXEsPUcq0EqcG2AQIAyxySMsd7vcW6eyJ3a
+   7QlEnAkdCiq7IH7mBrQ=;
+Received: from (127.0.0.1) by domain.com id h24vue1sb5gr for <user@domain.com>; Sun, 4 Oct 2015 15:02:11 +0000 (envelope-from <user@domain.com>)
+Subject: =?utf-8?Q?What=27s=20the=20catch=3F?
+From: =?utf-8?Q?Team=20Aspiration?= <info@aspiration.com>
+Reply-To: =?utf-8?Q?Team=20Aspiration?= <user@domain.com>
+To: John <user@domain.com>
+Date: Sun, 4 Oct 2015 15:02:11 +0000
+Message-ID: <user@domain.com>
+X-Mailer: MailChimp Mailer - **CID0ce32f4bb1a55c33e9be**
+X-Campaign: mailchimpc5d57e63cb281bf26f11772f0.0ce32f4bb1
+X-campaignid: mailchimpc5d57e63cb281bf26f11772f0.0ce32f4bb1
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: c5d57e63cb281bf26f11772f0
+X-Feedback-ID: 34390009:34390009.763457:us9:mc
+List-ID: c5d57e63cb281bf26f11772f0mc list <c5d57e63cb281bf26f11772f0.458781.list-domain.com>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: "Team Aspiration" <user@domain.com>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1480027536"
+MIME-Version: 1.0
+
+<<link>>
+772f0&id=3D1d9a0988d5&e=3Da55c33e9be
+What's the catch?
+<<link>>
+772f0&id=3Dacee895103&e=3Da55c33e9be
+
+Dear John=2C
+
+If there is one question we get about Aspiration from customers=2C reporte
+rs=2C and even an occasional family member=2C it is this: =E2=80=9CWhat=E2
+=80=99s the catch?=E2=80=9D
+
+How can the Aspiration domain.com Account offer interest rates up to 100 times
+ more than Big Banks without monthly fees or any ATM fees? How come we are
+ able to offer our mutual funds at only a $500 minimum investment? And how
+ can we really let our customers pay what they think is fair and then give
+ 10% of our revenue to charity?
+
+The answer is that there=E2=80=99s no catch. There=E2=80=99s no secret beh
+ind what we do. Aspiration=E2=80=99s mission is to always put our customer
+s first =E2=80=93 and to be second to none when it comes to that commitmen
+t. Many banks and investment firms say this=2C but it is another thing to
+ live it.
+
+We offer this level of service because that=E2=80=99s what we prioritize.
+ There is no Aspiration corporate jet. Our executive lunchroom is the vend
+ing machine downstairs or Chipotle across the street. And well over 90% of
+ our investment customers are happy to choose to pay us because they are h
+appy with the job we=E2=80=99re doing for them.
+
+Will you take this opportunity to join the thousands of others who have op
+ened an Aspiration investment account or domain.com checking/savings account?
+ (<<link>>
+f11772f0&id=3Dbb4a139140&e=3Da55c33e9be)
+
+Aspiration was born with very different DNA than Big Banks and other finan
+cial institutions. But the sad part is that major banks and investment fir
+ms could have been doing the same.
+
+When banks are making over $150 billion in profits every year=2C there=E2
+=80=99s no reason they need to clobber their customers with fees and pay b
+asically zero in interest. Investment firms can afford to work for the mid
+dle class and not just millionaires. And one day=2C Wall Street will under
+stand that you can trust people if you act in ways worthy of their trust.
+
+Maybe then=2C people will stop asking us=2C =E2=80=9CWhat=E2=80=99s the ca
+tch?=E2=80=9D And they=E2=80=99ll ask the rest of the financial industry
+=2C =E2=80=9CWhen will you catch up?=E2=80=9D
+
+Let=E2=80=99s do this!
+
+P.S. If you=E2=80=99ve hesitated to open an Aspiration account previously
+=2C now=E2=80=99s the time to join thousands of others who are becoming pa
+rt of one of America=E2=80=99s fastest growing online investment firms. (h
+ttp://aspiration.us9.list-domain.com/track/click?u=3Dc5d57e63cb281bf26f11
+772f0&id=3D477cdd335b&e=3Da55c33e9be)
+
+** (<<link>>
+6f11772f0&id=3Da099aaab49&e=3Da55c33e9be)
+
+Financial advisory services are only provided to individuals who become As
+piration clients. Gaining access to Aspiration's waitlist should not be co
+nstrued as confirmation that a financial relationship has been initiated.
+ Please note that if you open an account with Aspiration using this invita
+tion=2C we may notify the person that referred you that you have opened an
+ account with us. Nothing presented herein is intended to constitute inves
+tment advice=2C nor sales material=2C and no investment decision should be
+ made based on any information provided herein. This is not an offer=2C so
+licitation of an offer=2C or advice to buy or sell securities. Aspiration
+ does not offer or provide tax or legal advice.
+
+=C2=A9 Aspiration Partners=2C Inc.
+This email was sent by: Aspiration
+4640 Admiralty Way | Marina Del Rey=2C CA | 90292
+Aspiration is a trademark of Aspiration Partners=2C LLC
+All rights reserved.
+
+** domain.com (<<link>>
+5d57e63cb281bf26f11772f0&id=3Df17d39e21c&e=3Da55c33e9be)
+=C2=B7 ** Blog (<<link>>
+7e63cb281bf26f11772f0&id=3D36a2e600e4&e=3Da55c33e9be)
+=C2=B7 ** Twitter (<<link>>
+5d57e63cb281bf26f11772f0&id=3D833f90719f&e=3Da55c33e9be)
+=C2=B7 ** Facebook (<<link>>
+c5d57e63cb281bf26f11772f0&id=3D7348b2a732&e=3Da55c33e9be)
+
+This email was sent to user@domain.com (mailto:user@domain.com)
+why did I get this? (<<link>>
+7e63cb281bf26f11772f0&id=3D2e58eb25f2&e=3Da55c33e9be&c=3D0ce32f4bb1)     uns
+ubscribe from this list (<<link>>
+?u=3Dc5d57e63cb281bf26f11772f0&id=3D2e58eb25f2&e=3Da55c33e9be&c=3D0ce32f4bb1
+)     update subscription preferences (<<link>>
+com/profile?u=3Dc5d57e63cb281bf26f11772f0&id=3D2e58eb25f2&e=3Da55c33e9be)
+Aspiration . 4640 Admiralty Way . Suite 725 . Marina Del Rey=2C CA 90292 .
+ USA

@@ -1,0 +1,91 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.1.2.3])
+	by domain.com (Postfix) with ESMTP id AAB39536F13
+	for <user@domain.com>; Wed, 30 Nov 2015 16:57:03 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 419386CCFBA
+	for <user@domain.com>; Wed, 30 Nov 2015 16:57:01 -0500 (EST)
+Received: from domain.com (domain.com [10.2.3.4])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Wed, 30 Nov 2015 16:57:01 -0500 (EST)
+Received: by domain.com (Postfix)
+	id 6F2151BC4C; Wed, 30 Nov 2015 22:57:06 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from localhost (unknown [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 058161BC3B
+	for <user@domain.com>; Wed, 30 Nov 2015 21:57:06 +0000 (UTC)
+Received: from domain.com ([10.2.3.4])
+	by localhost (lujan [10.2.3.4]) (amavisd-new, port 10024)
+	with ESMTP id 01121-05 for <user@domain.com>;
+	Wed, 30 Nov 2015 22:56:48 +0100 (CET)
+Received: from domain.com (unknown [195.167.229.144])
+	by domain.com (Postfix) with SMTP id BEB9E1BB4F
+	for <user@domain.com>; Wed, 30 Nov 2015 22:56:46 +0100 (CET)
+Received: (qmail 6181 invoked by uid 99); 29 Nov 2015 19:26:26 -0000
+Date: 29 Nov 2015 19:26:26 -0000
+Message-ID: <20051129192626.6180.user@domain.com>
+To: user@domain.com
+Subject: Quarterly Statement Notice
+From: Wells Fargo <Security@wellsfargo.com>
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at domain.com
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: *
+X-Spam-Status: No, score=1.9 required=5.0 tests=DATE_IN_PAST_24_48,
+	HTML_MESSAGE,MIME_HTML_ONLY,NORMAL_HTTP_TO_IP,REPLY_TO_EMPTY 
+	autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  1.6 REPLY_TO_EMPTY Reply-To: is empty
+	*  0.1 DATE_IN_PAST_24_48 Date: is 24 to 48 hours before Received: date
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 61
+
+Dear valued Wells Fargo customer:
+We have noticed that your Wells Fargo online account needs to be updated once again, please enter your online account information, because we have to verify all of the online accounts after we have updated our Wells Fargo Online Banking site. To verify your online account and access your bank account, please click on the link below:
+<>
+This e-mail was sent to all of our Wells Fargo customers. Recently, we have found that many accounts were hacked.
+For further information, please contact our Customer Services.
+Consumer domain.com Card Services:
+
+Customer Service:
+
+1-800-642-4720
+
+Application Status:
+
+1-800-967-9521
+
+Security Issues:
+
+Phone:
+
+415-623-7706
+
+Fax:
+
+415-544-0826
+
+Email:
+
+user@domain.com
+
+Sincerely, Wells Fargo Member Services Team.
+
+About Wells Fargo | Employment | PRIVACY, 
+Security & Legal | Report 
+Email Fraud | Home
+Diversity & 
+Accessibility | Online Access 
+Agreement (9/10/05) | Important Notice on Trading 
+in Fast Markets
+ 1999 - 2015 Wells Fargo. All rights reserved. Member FDIC.

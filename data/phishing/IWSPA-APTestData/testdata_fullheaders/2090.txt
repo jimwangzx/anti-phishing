@@ -1,0 +1,91 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.9 with SMTP id o9csp33687lfi;
+        Thu, 5 Feb 2015 18:33:56 -0800 (PST)
+X-Received: by 10.140.98.212 with SMTP id o78mr2992279qge.81.1423190035318;
+        Thu, 05 Feb 2015 18:33:55 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-yh0-domain.com (mail-yh0-domain.com. [2607:f8b0:4002:c01::22c])
+        by domain.com with ESMTPS id b1si1042997qar.127.2015.02.05.18.33.54
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 05 Feb 2015 18:33:55 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::22c as permitted sender) client-ip=2607:f8b0:4002:c01::22c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::22c as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-yh0-domain.com with SMTP id i57so4938285yha.3
+        for <user@domain.com>; Thu, 05 Feb 2015 18:33:54 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Megan Rouse <meganrouse@gmail.com>
+         :cc:content-type;
+        bh=IDvoXyzFE6XQr5vklYU1Q+93+4GBQXns5IKAVAqQff8=;
+        b=duU+OHFOQsQXFYSGmlIcc0/AmKuut3qbYHrrlh4kkBkgHTFt7olrDHVMOUqkeUNR4x
+         HheihvbV8YSlYf89JaarOTWKY83YVRQ69yVQ1GwD75XOaAaMCon4jwaOA3AnLuV+Ta79
+         BB1W7mHCyBfvaFT/lMnjL2AFei6VEhL03NdaLLA3YvMElh1yvAX973pePreJslwih1MA
+         IIlWP1h+ccezgh3c3zCPskPQS3obgsE+UHm13qy1mEWa61DBg7/5gUtA+jaj9Kvxwhgw
+         hvRLnO2IwL31bZjGRhv1PyLWDRyrdflQHo9s/NDB7pyZHkesasSnN88/4k8RMjfc1Bly
+         WOYg
+MIME-Version: 1.0
+X-Received: by 10.170.146.67 with SMTP id n64mr46707ykc.7.1423190034552; Thu,
+ 05 Feb 2015 18:33:54 -0800 (PST)
+Received: by 10.170.121.214 with HTTP; Thu, 5 Feb 2015 18:33:54 -0800 (PST)
+Received: by 10.170.121.214 with HTTP; Thu, 5 Feb 2015 18:33:54 -0800 (PST)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+Date: Thu, 5 Feb 2015 18:33:54 -0800
+Message-ID: <CAAVDwM+7user@domain.com>
+Subject: Fwd: #camillestrong World Cancer Awareness Day
+From: Megan Rouse <meganrouse@gmail.com>
+To: John user <user@domain.com>, 
+ John user <user@domain.com>
+CC: Kristina Costa <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1139d810752008050e6240c1
+
+A request for a quote from you.. Not sure how to respond? I'm fine saying I
+can't get one if that's best, you can let me know.
+Megan
+---------- Forwarded message ----------
+From: Megan Rouse <meganrouse@gmail.com>
+Date: Feb 5, 2015 5:39 PM
+Subject: Fwd: #camillestrong World Cancer Awareness Day
+To: "User" <user@domain.com>
+Cc:
+
+-------- Original Message --------
+Subject: Fwd: #camillestrong World Cancer Awareness Day
+From: Megan Rouse <meganrouse@gmail.com>
+To: Megan Rouse <user@domain.com>
+CC: "Johnson, Autumn" <user@domain.com>
+
+Hi Meghan,
+
+Autumn (Editor in Chief of PATCH Bay Area) wanted to do a quick article for
+World Cancer Awareness Day. Is it possible to get a quote?  Thank you my
+friend!!! It means more to me than words can say!
+
+Love, Kerrie
+
+------------------------------
+*From: Megan Rouse <meganrouse@gmail.com>
+*To: *"Kerrie Chabot" <user@domain.com>
+*Sent: *Thursday, February 5, 2015 4:32:18 PM
+*Subject: *Re: #camillestrong chemo #10--final celebration at Vitos will be
+Sunday March 13
+
+Ha, ha. I don't wanna piss Ellen off! I bet she will come around. I was
+going to do something short like:
+
+Headline: President Obama Wears T-Shirt Supporting Dublin Teen Battling
+Cancer
+Description: He was aboard Air Force One and he was wearing a
+#CamilleStrong t-shirt
+
+Body: Work in progress
+
+Would it be okay to say that School Board Member Megan Rouse, whose father
+is John user, sent the shirt via her dad.
+
+Could Megan get a quote from her dad for me ASAP?
+

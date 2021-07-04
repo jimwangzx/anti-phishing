@@ -1,0 +1,154 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp1330222lfb;
+        Mon, 29 Feb 2015 13:11:46 -0800 (PST)
+X-Received: by 10.66.234.166 with SMTP id uf6mr25162327pac.122.1456780306281;
+        Mon, 29 Feb 2015 13:11:46 -0800 (PST)
+Return-Path: <bounces+1666821-16user@domain.com>
+Received: from o68.list.prochoiceamerica.org (o68.list.prochoiceamerica.org. [50.31.62.82])
+        by domain.com with ESMTPS id z63si45274005pfi.63.2016.02.29.13.11.45
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 29 Feb 2015 13:11:46 -0800 (PST)
+Received-SPF: pass (domain.com: domain of bounces+1666821-16user@domain.com designates 50.31.62.82 as permitted sender) client-ip=50.31.62.82;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of bounces+1666821-16user@domain.com designates 50.31.62.82 as permitted sender) smtp.mailfrom=bounces+1666821-16user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; 
+	d=list.prochoiceamerica.org; 
+	h=content-type:mime-version:subject:From: "Ilyse G. Hogue, NARAL Pro-Choice America" <can@prochoiceamerica.org>
+	s=smtpapi; bh=ItE6UrhwxHEEqu9NXPM1ZGYMo94=; b=Kvrx/RbdbRWTcLNRNU
+	kgVcSzuA25xyvSKDHKHng4D0VGKP/bnZJwkoLBfmWgCOEkqtJHRE/BVtFdU53ItC
+	2VJXieAtL2SpSAqCoeY+ylHtER/ZaWAWkSjB2vbVa7TYgsog1zOKW7TOF8Ibbqaf
+	l0VEQ+0VOchsQpTMNlvvHtYKw
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.info; 
+	h=content-type:mime-version:subject:From: "Ilyse G. Hogue, NARAL Pro-Choice America" <can@prochoiceamerica.org>
+	s=smtpapi; bh=ItE6UrhwxHEEqu9NXPM1ZGYMo94=; b=CaYrarBv6ePaqlC86M
+	rCYH7/202SnAQb3dZ5uoCELW3isF8RV51xLMCltVvN2qSY8UWa86Zd8CQxAXM8sV
+	rUuS0k0kf4tpQk6rnyd6BB3k5bpPIa5rMg2xTpWUMUY0yjk8Lsa0LH9rYxPbammR
+	UkZ6ciyb6t5XoFrczZVhAgFQk
+Received: by domain.com with SMTP id filter0034p1las1.4635.56D4B41028
+        2016-02-29 21:11:44.667284515 +0000 UTC
+Received: from domain.com (domain.com [198.202.148.30])
+	by domain.com (SG) with ESMTP id dNgbggmnR0yVqhE6xg5V-Q
+	for <user@domain.com>; Mon, 29 Feb 2015 21:11:44.692 +0000 (UTC)
+Content-Type: multipart/alternative;
+	boundary="----=9943263e326673e9c633ba23da6f4ce5"
+MIME-Version: 1.0
+Subject: THIS WEEK: Huge Supreme Court case
+From: "Ilyse G. Hogue, NARAL Pro-Choice America" <can@prochoiceamerica.org>
+To: "User" <user@domain.com>
+Date: Mon, 29 Feb 2015 21:11:44 +0000
+Message-ID: <2280user@domain.com>
+Reply-To: "User" <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com>
+X-SG-EID: p7DGjev3kDhYNXGtfGO9jbmQ3Oi75URC5nx+Didgsq9RaoP+7Y9Ccp/oOgszy7JWrVlzpaHPTZpNX2
+ W9CRKxnKexZBGLM46DVGthebHSO3meWZPhFn6NpVmziuZl51GSSyCA5om4aY0LBa1B2AzxQxMxDThV
+ XbrGj9edXP7YFAr8gdPtoWTEPI2TWJfOWAWtAzEAlBBebRDxktv29n1SHrWHODRyLm3mYFPlS5epLo
+ OwfuaX8qvEwjLKW5EngQea9SmfP1IpZqDKxGlMcIevIQ
+X-SG-ID: VGe5/xjN+I+4B3VTA8MwtDl6dsw9GY/tG2rvVyEGeaJdTSPwWf9BS0MCnCNNXgT+9C60oL9SwTLxz4
+ s3Kjirs1l+j1wmkxFOv1gXeJmZqQ0
+X-Feedback-ID: 1666821:Y8iGXa7nrufQNt6P9r22I9ltDYTtd/U/Pc9UDN7M/D0=:Y8iGXa7nrufQNt6P9r22I9ltDYTtd/U/Pc9UDN7M/D0=:SG
+
+NARAL Pro-Choice America
+_____________________________
+   On Wednesday, the Supreme Court will hear the most important abortion ca
+se
+   in decades. Will you chip in $15 to help keep abortion safe
+   and legal?
+                                 [1]Donate Now
+
+   Dear John,
+
+   In just two days, the Supreme Court will hear oral arguments on whether
+   Texas' clinic shutdown law will be allowed to stand, effectively ending
+   abortion access for many women by closing 75 percent of the clinics in t
+he
+   state.^1
+
+   This is the biggest threat to Roe v. Wade in years, and if we lose, the
+   state of Texas could be left with just 10 clinics to serve a state with 
+27
+   million people.
+
+   We're in the midst of an all-out sprint to stop states like Texas from
+   gutting abortion access. Will you chip in $15?
+
+   [2]Yes, I'll chip in $15 to defend choice and fight back
+   against the Texas clinic shutdowns.
+
+   TRAP (Targeted Regulation of Abortion Providers) laws like the one the
+   Supreme Court will consider on Wednesday aim to "trap" abortion providers
+   in a web of restrictions that have nothing to do with protecting women's
+   health and safety--like strict requirements on the size of janitors'
+   closets.^2
+
+   To win, we need five justices to vote to overturn the lower-court decisi
+on
+   upholding the law. That won't be easy.
+
+   There's too much at stake not to win. In Texas, there were 41 abortion
+   providers before this law was put into place. There would be only 10 left
+   if the law is upheld, forcing women--especially those in rural areas--to
+   travel hundreds of miles to reach a clinic.^3
+
+   We're fighting back by making sure women are heard loud and clear: We wi
+ll
+   not return to a time of back alley abortion. We demand safe, legal, and
+   ACCESSIBLE abortion.
+
+   [3]Will you chip in $15 to help save abortion access?
+
+   Thank you for helping to make reproductive freedom real for all women.
+
+   Ilyse G. Hogue
+   President, NARAL Pro-Choice America
+
+                                 [4]DONATE NOW
+
+   Sources:
+
+   1. [5]Texas Abortion Clinic Map, Fund Texas Women, June 15, 2015 
+
+   2. [6]Targeted Regulation of Abortion Providers (TRAP), NARAL Pro-Choice
+   America, accessed February 29, 2015 
+
+   3. [7]What is HB2?, Texas Policy Evaluation Project, updated August 13,
+   2015 
+
+References
+
+   Visible links
+   1. <<link>>
+=3D849.2261225.ZpjxmL
+   2. <<link>>
+=3D849.2261225.ZpjxmL
+   3. <<link>>
+=3D849.2261225.ZpjxmL
+   4. <<link>>
+=3D849.2261225.ZpjxmL
+   5. <<link>>
+.ZpjxmL
+   6. <<link>>
+.ZpjxmL
+   7. file:///dev/domain.com/cola/txpep/fact-sheets.php
+
+_____________________________
+
+															This message was sent to: user@domain.com | If you'd 
+like to sign up for emails in a different account, <<link>>
+domain.com/signup/email_signup/?source=3Demailfooter&akid=3D849.2261225.Zpj
+xmL.
+
+If we need to update your contact information, please <<link>>
+domain.com/me?akid=3D849.2261225.ZpjxmL.
+
+We believe that emails are a crucial way for NARAL to stay in touch with su
+pporters. However, if you'd like to unsubscribe, go to <<link>>
+domain.com/cms/unsubscribe/unsubscribe/?akid=3D.2261225.RO8qJg&akid
+=3D849.2261225.ZpjxmL.
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+
+											Copyright 2015 NARAL Pro-Choice America. 1156 15th Street, Suite
+ 700, Washington, DC 20005 All rights reserved.

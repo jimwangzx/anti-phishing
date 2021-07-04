@@ -1,0 +1,79 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp1179511lfb;
+        Sun, 7 Feb 2015 19:30:18 -0800 (PST)
+X-Received: by 10.13.224.132 with SMTP id j126mr12716139ywe.117.1454902218292;
+        Sun, 07 Feb 2015 19:30:18 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22b])
+        by domain.com with ESMTPS id k205si9571123ybk.114.2016.02.07.19.30.17
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 07 Feb 2015 19:30:18 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22b as permitted sender) client-ip=2607:f8b0:4002:c07::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id z13so68618312ykd.0
+        for <user@domain.com>; Sun, 07 Feb 2015 19:30:17 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+         :cc:content-type;
+        bh=Vpn7X48MUuxfze1uXSthGxiowj1S+/DFvPNAdYBilfA=;
+        b=eB1A39N+fJitnAQLQzvTTTsFsRIScqRZ6l/nNJvN9qMFFrbeG4dW6PYO+Pc5BtB/1g
+         n+JnmIzFVYrzhf9mcIF1U13r70VsYMqyCtLFUDDanHEOmp77YNJLRzLbbpOx8/Ig3XWF
+         Vz6CVNLXOGk4MlYC9przRCqLELyfHDkfPfoYc
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+        bh=Vpn7X48MUuxfze1uXSthGxiowj1S+/DFvPNAdYBilfA=;
+        b=IHXsBCqv3YmTFj5H96wsbLyMb0Vnv/30qxAXdH1QeNdy0jiEKl7PN4CXa0bfBKoj4h
+         VRgOlS5/RRK0jJGhp/m45JMRKZDwNeJTGwOpeyV7Ry99H7N8ULeihOYxBdab4/dn7ckB
+         i2I7Q6UribMYyXSlJTuz0taTd5aVzkccVbxh5v4j9jm+7QDCxnOU+IM4ywbn4EaWziHd
+         TaWoqFJpPMkGIDkPRAiq3B+yeug8YGyf5d6l09oPAmNAac3bG2ChpryTRBuOWbT0wiMx
+         8u5md8ibAphK+G030isA9rkXw96IV1yc5gQWBWdYiIhDFe8mOgG9dQc5zPS4rsMRrh7n
+         inQQ
+X-Gm-Message-State: AG10YOQdiarNamJVFoeDCyTDx1HWuWVKS3DrSA07HMHwhJXnnRIPMgGv+w4shUzKHMaBJPQxXl1IAWWD3BoZWEiT
+MIME-Version: 1.0
+X-Received: by 10.37.45.86 with SMTP id t83mr7938750ybt.12.1454902217493; Sun,
+ 07 Feb 2015 19:30:17 -0800 (PST)
+Received: by 10.129.35.12 with HTTP; Sun, 7 Feb 2015 19:30:17 -0800 (PST)
+In-Reply-To: <-8182383272209290689@unknownmsgid>
+References: <80user@domain.com>
+	<-889987263000900189@unknownmsgid>
+	<4599244854822873704@unknownmsgid>
+	<CACWw=rTJwmPsxyVOh-9efHRvDpVM2k+=1user@domain.com>
+	<2506user@domain.com>
+	<7555971117126266369@unknownmsgid>
+	<user@domain.com>
+	<6782452888890192147@unknownmsgid>
+	<-4055993115679361160@unknownmsgid>
+	<CACWw=rQoq_TgPsL06BO0Snb+user@domain.com>
+	<-8182383272209290689@unknownmsgid>
+Date: Sun, 7 Feb 2015 22:30:17 -0500
+Message-ID: <user@domain.com>
+Subject: Re: Bankruptcy follow up
+From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+To: Jennifer Palmieri <user@domain.com>
+CC: user Carrk <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Maya Harris <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c16968db8966052b39d1cc
+
+Murray is a yes, but still working on what she is comfortable saying.
+Mikulski is still mulling. Judy and Marcia and ready to be responsive but
+not put out statement.
+
+I will get up by 8 am ET on get back on this with goal of getting you
+statements in hand from Murray and Mikulski by 9 or 10 am ET and with info
+on what Marica/Judy will say if asked by same time frame.
+
+OK?
+
+On Sun, Feb 7, 2015 at 9:58 PM, Jennifer Palmieri <

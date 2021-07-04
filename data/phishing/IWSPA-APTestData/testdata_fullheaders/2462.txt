@@ -1,0 +1,131 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Mon, 3 Mar 2015 13:50:26 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s23LoQeZ005208	for <user@domain.com>; Mon, 3 Mar 2015 
+ 21:50:26 GMT
+Received: from mail198-co9-domain.com (mail-domain.com
+ [207.46.163.17])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s23LpeMk007412
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 3 Mar 2015 21:51:41 GMT
+Received: from mail198-co9 (localhost [127.0.0.1])	by
+ mail198-co9-domain.com (Postfix) with ESMTP id 9C3823C0177	for
+ <user@domain.com>; Mon,  3 Mar 2015 21:50:24 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:205.188.109.194;KIP:(null);UIP:(null);IPV:NLI;H:omr-d02.mx.aol.com;RD:omr-d02.mx.aol.com;EFVD:NLI
+X-SpamScore: 12
+X-BigFish: vps12(z579ehzc89bhe0eahc857hzz1f42h208ch1ee6h1de0h1ce5h1fdah201ch2073h2146h1202h1e76h2189h1d1ah1d2ah21bch21a7h1696nzz8275bh1de097hz2fh5fh2a8h839hd25h1060h1288h12a5h12bdh137ah139eh13eah1441h1504h1537h162dh1631h1758h1898h18e1h1946h19b5h19ceh1b0ah1bceh224fh1c07h1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh22d0h24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh1c48i8d1m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail198-co9: domain of aol.com designates 205.188.109.194 as permitted sender) client-ip=205.188.109.194; user@domain.com; helo=omr-d02.mx.aol.com ;2.mx.aol.com ;
+Received: from mail198-co9 (localhost.localdomain [127.0.0.1]) by mail198-co9
+ (MessageSwitch) id 1393883422971675_14360; Mon,  3 Mar 2015 21:50:22 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.226])	by
+ mail198-domain.com (Postfix) with ESMTP id E8DE0980046	for
+ <user@domain.com>; Mon,  3 Mar 2015 21:50:22 +0000 (UTC)
+Received: from omr-d02.mx.aol.com (205.188.109.194) by
+ domain.com (10.236.130.38) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Mon, 3 Mar 2015 21:50:22 +0000
+Received: from mtaomg-mbc01.mx.aol.com (mtaomg-mbc01.mx.aol.com
+ [172.26.221.143])	by omr-d02.mx.aol.com (Outbound Mail Relay) with ESMTP id
+ 56A10701E9B82;	Mon,  3 Mar 2015 16:50:21 -0500 (EST)
+Received: from core-dsb004c.r1000.mail.aol.com (core-dsb004.r1000.mail.aol.com
+ [172.29.253.13])	by mtaomg-mbc01.mx.aol.com (OMAG/Core Interface) with ESMTP
+ id 15B683800008E;	Mon,  3 Mar 2015 16:50:21 -0500 (EST)
+To: <user@domain.com>
+Subject: The dagger, The Oscars & a letter to the President of The Academy of Motion
+ Picture Arts & Sciences
+X-MB-Message-Source: WebUI
+Received: from 64.134.29.182 by webmail-d131.sysops.aol.com (149.174.18.21)
+ with HTTP (WebMailUI); Mon, 03 Mar 2015 16:50:20 -0500
+From: <song212605@aol.com>
+X-MB-Message-Type: User
+X-Mailer: AOL Webmail 38427-STANDARD
+CC: <user@domain.com>, <user@domain.com>,
+        <user@domain.com>, <user@domain.com>,
+        <user@domain.com>, <user@domain.com>,
+        <user@domain.com>, <user@domain.com>,
+        <user@domain.com>
+Message-ID: <8user@domain.com>
+X-Originating-IP: [64.134.29.182]
+Date: Mon, 3 Mar 2015 16:50:21 -0500
+x-aol-global-disposition: G
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+	s=20121107; t=1393883421;
+	bh=b9pCKp2aLNUxE6Elnjnn9N9rWAe5nm3BvmjsUwnr1No=;
+	h=From: <song212605@aol.com>
+	b=U8ht9C1eBzZxz+O/+ETGZVFO+QJv6cjiVdMyUH5PYYjHIBQluhddXEanUpjV91Fnu
+	 rCAdIvA8e2IA3Gc/QRX0WbADfHzY1/a+J4priugTA6ECCyCoygSvQ7jzP1g+7Yw5uN
+	 Vg5fCeqRP/iFz7at+P6GxDK6PiEBZlMD8cWNukz0
+x-aol-sid: 3039ac1add8f5314f91d438c
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+The dagger, The Oscars & a letter to the President of The Academy of Motion Picture Arts & Sciences
+
+From the desk of CB McCarty
+
+
+
+
+March 3, 2015 
+
+
+
+
+Ms. Cheryl Boone Isaacs
+
+President
+
+Academy of Motion Picture Arts and Sciences
+
+
+
+
+Dear Ms. Isaacs,
+
+
+
+
+Was it just me or did you also see the deftly handled dagger that Ellen DeGeneres was wielding toward the professionals of the motion picture industry last night? And it wasn’t just actors who were handily sliced to pieces. It was everyone who works in the motion picture industry. 
+
+
+
+
+To quote Ms. DeGeneres “movies are not the most important thing in the world….the most important thing in life is love and family and if people don’t have those things they get into show business”. Or her quip that over 1400 films had been made by those in attendance but they’d gone “to a total of six years of college” (singling out Amy Adams who hadn’t gone to college) and the slice at Bruce Dern (and everyone in attendance) whose grandfather was the governor of Utah, his uncle a Pulitzer Prize winning poet and his godmother was Eleanor Roosevelt and to quote Ms. Degeneres “and here you are tonight…what went wrong?”
+
+
+
+
+What went wrong was putting a host who ruthlessly denigrated the integrity of the brilliant and hard working professionals of the motion picture industry. And I don’t think it was the intention of the men and women who put on the first Academy Awards in the Blossom Room of the Roosevelt Hotel in 1929 to rip at the heart of their chosen profession. 
+
+
+
+
+With a beautiful tribute to The Wizard of Oz I guess it was Ms. DeGeneres’ intention to pull the curtain back on the Wizards of the motion picture industry. And, yes it’s true, that the Wizard of Oz was ‘just a man’ but he was also the one who brought magic and mystery to Emerald City and, ultimately, granted wishes by giving Scarecrow a diploma, the Lion a medal, the Tin Man a heart-shaped pocket watch and offered to get Dorthy home in his hot air balloon. 
+
+
+
+
+Congratulations on the great job your doing at the Academy of Motion Picture Arts and Sciences but how about some writers and a host next year who frankly gives a damn about the professionals of the motion picture industry.
+
+
+
+
+Sincerely,
+
+
+
+
+CB 'Chris'  McCarty
+
+
+
+
+Cc: Ron Meyer, Brad Grey, Robert Iger, Kevin Tsujihara, Rupert Murdoch, Amy Pascal, Michael Lynton, Mary McNamara, Tim Goodman
+
+
+

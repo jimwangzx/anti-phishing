@@ -1,0 +1,69 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp494444lfb;
+        Sat, 19 Mar 2015 10:49:27 -0700 (PDT)
+X-Received: by 10.140.101.147 with SMTP id u19mr31412666qge.71.1458409767521;
+        Sat, 19 Mar 2015 10:49:27 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::236])
+        by domain.com with ESMTPS id a198si3788585qkb.68.2016.03.19.10.49.27
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 19 Mar 2015 10:49:27 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::236 as permitted sender) client-ip=2607:f8b0:400d:c04::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-domain.com with SMTP id w104so125332502qge.1
+        for <user@domain.com>; Sat, 19 Mar 2015 10:49:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Tom Nides <tom.nides@gmail.com>
+         :references:in-reply-to:to;
+        bh=ZXLqsb/XoYZ8geu+AQfX8Qeph6eTGEX+Omzt85jlxLA=;
+        b=VqsxQUtLiBJ/biw8CdweVek8QnysG3KKfHQK2qDuGpzyeU0TULCE3QwmH7eoxwtZF3
+         JgcvWykq4bvrH5u0/5hKxkdHwy/Llb/TtIywrOxDL+XHYDhiSx/IMVEpi0q2RFgVf4EX
+         Ne6gBaiqvfq2L+s8I2/5una9q8uZEMx3GYgGeZKORU1kxfwo16zMn17G2doJNnf7AJYa
+         P3isyx7yMCZAFbBzKTWe8M1kwyDncZaSIqybXYonfWPbi4ITAJaQZwqcSXgFhx5f8BiN
+         vOwGx6sTby1CZg/WGPzvthRUXvCvS8gXo4T7BOpxGPbzO7F06pcs4OWNI8TMbV6cqIwc
+         Z/hw
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Tom Nides <tom.nides@gmail.com>
+         :subject:message-id:date:references:in-reply-to:to;
+        bh=ZXLqsb/XoYZ8geu+AQfX8Qeph6eTGEX+Omzt85jlxLA=;
+        b=ZZY/AcucSp++MNQzkPA9NXyl2ua3GA5phqt/xN6CI0QnTOU/v/6Cg6yAmraefqRDY8
+         Phg0ooE1OHfmC1VqHbwSgiIHOnsQFyZAlNo9szG8kUdBKTQyBoVWFV3VmF6xygxW/54e
+         SXSqK824xaG+C5DAu9sdl6fx/URb3QztF95Bwlc2kwoVfhVcEhZv16Y5qBWhk0R4KoK6
+         cDQ4TX7S+gSWJi034HsC5TfAlmkpvRxACoPXiBz4utc2J9/Pck3gWjmmb75OYz05tMwy
+         vsDVZbfUKN6RDU/7E2vdRSV1uKO4UKUrZWIdmOcl56dr9o+2Y3qnzlvGUHHS6HKjkBaZ
+         MYNQ
+X-Gm-Message-State: AD7BkJJGmho4sWDtZv8uPJiYNBEVhiOQnJopiZgcvMfkbLI8EG1i9cE50oVRtbeJEr9M/A
+X-Received: by 10.140.155.7 with SMTP id b7mr32530178qhb.14.1458409766970;
+        Sat, 19 Mar 2015 10:49:26 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [192.168.137.10] (pool-100-15-210-62.domain.com. [100.15.210.62])
+        by smtp.gmail.com with ESMTPSA id m124sm7604418qhm.32.2016.03.19.10.49.26
+        for <user@domain.com>
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sat, 19 Mar 2015 10:49:26 -0700 (PDT)
+From: Tom Nides <tom.nides@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-98C7D2A3-D7E4-41B0-8773-4763B262856D
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Re:
+Message-Id: <user@domain.com>
+Date: Sat, 19 Mar 2015 13:49:25 -0400
+References: <86user@domain.com> <user@domain.com> <CAE6FiQ_j36DYPBkjWj7NCt3hW9Xe-O-k+user@domain.com> <user@domain.com> <CAE6FiQ_snRrf29=rmJ+user@domain.com> <user@domain.com> <user@domain.com>
+In-Reply-To: <user@domain.com>
+To: John user <user@domain.com>
+X-Mailer: iPhone Mail (13D15)
+
+You should let Donilon and me at some point start working him!         Btw o
+n the security alliance gig that I am working on at CAP we have for chairs. P
+anetta, Holder, Jim Stravridis, John Allen, Albright and Donilon. I think it
+'s a good mix let me know if you disagree..jake obviously is in the loop.=20
+
+Sent from my iPhone
+

@@ -1,0 +1,129 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Tue, 5 Nov 2015 04:15:48 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rA5CFlt7007925	for <user@domain.com>; Tue, 5 Nov 2015 
+ 12:15:47 GMT
+Received: from mail125-co1-domain.com
+ (mail-domain.com [216.32.180.180])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rA5CFk3Z000858	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 5 Nov 2015 12:15:47 GMT
+Received: from mail125-co1 (localhost [127.0.0.1])	by
+ mail125-co1-domain.com (Postfix) with ESMTP id EB226A80113	for
+ <user@domain.com>; Tue,  5 Nov 2015 12:15:45 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.54;KIP:(null);UIP:(null);IPV:NLI;H:mx-alm-domain.com;RD:mx-alm-domain.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(zzc89bh8d0Id79ahc857h77f5hd799hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz1de098h17326ah8275bh1bc7b9h1def03h1de097h1de096h186068h172c6chz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail125-co1: domain of domain.com designates 192.64.236.54 as permitted sender) client-ip=192.64.236.54; user@domain.com; helo=mx-alm-domain.com ;domain.com ;
+Received: from mail125-co1 (localhost.localdomain [127.0.0.1]) by mail125-co1
+ (MessageSwitch) id 1383653742910492_21890; Tue,  5 Nov 2015 12:15:42 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.233])	by
+ mail125-domain.com (Postfix) with ESMTP id DADA79C00DF	for
+ <user@domain.com>; Tue,  5 Nov 2015 12:15:42 +0000 (UTC)
+Received: from mx-alm-domain.com (192.64.236.54) by
+ domain.com (10.243.66.25) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 5 Nov 2015 12:15:42 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1383653232;
+	s=sailthru; d=alm.com;
+	h=Date:From: Corporate Counsel Daily Update <corporatecounsel@alm.com>
+	bh=XZjLSe79nTSP40r6om9uCJcrAyoqUUIwg+xqjVYHZt4=;
+	b=vepRPz5q8sBMhcMcGkHN2FdXMepfpRAjPPgLGoRqcJHvKPFvQ9zi4WtGZhZCQe6+
+	DkYqtk0c9aRQ4/l4Rd3vhJOQcvdmdjonpnoNQi9Krg5GAiDfPYFcQh8EFTfG24R8y8Z
+	iT8StYWeb0JOiq1dq/txLVhLNXceMsWBBdKlOUVw
+Date: Tue, 5 Nov 2015 07:07:12 -0500
+From: Corporate Counsel Daily Update <corporatecounsel@alm.com>
+To: <user@domain.com>
+Message-ID: <20131105120712.2022353.6168@domain.com>
+Subject: Go Ahead and Fire Someone for Being a Jerk
+Precedence: bulk
+X-TM-ID: 20131105120712.2022353.6168
+X-Info: Message sent by domain.com customer ALM
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.54
+X-IADB-IP-REVERSE: 54.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stfyc2022353
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1224682741_-_-"
+
+Go Ahead and Fire Someone for Being a Jerk
+
+<<link>>      
+
+ <<link>>  in  tw         
+
+Headlines
+
+• Go Ahead and Fire Someone for Being a Jerk 
+
+• Carving Out 'Creative Time' for Employees 
+
+• Employment Litigation in the Age of Social Media 
+
+• Rules for Lawyers Who Aren't Practicing Law 
+
+• Should Regulation Be Privatized? 
+
+• Activist Investors Go Global 
+
+
+
+
+<<link>>     
+
+Go Ahead and Fire Someone for Being a Jerk
+
+Sometimes corporate executives are told so many things they can't or shouldn't do, especially when it comes to hiring and firing, that they forget the things they can do. Read More »
+
+Carving Out 'Creative Time' for Employees
+
+Is your employee pool full of creative types? If you're not careful, you could be hampering innovation. Read More »
+
+Employment Litigation in the Age of Social Media
+
+Attorneys must balance the obligation to preserve evidence with restrictions on employers' access to employee accounts. Read More »
+
+Rules for Lawyers Who Aren't Practicing Law
+
+How should traditional legal ethics apply to lawyers who aren't "technically practicing law"? Read More »
+
+Sponsor Spotlight:
+
+<<link>>
+
+Webcast - 20 November: Cross Border Investigations - Can You Handle the Data?
+
+<<link>>
+
+Most organizations are ill-equipped for cross border investigations with many authorities and cannot move data safely. In a live webcast Jim Brooks (Control Risks) & David Kessler (Norton Rose Fulbright) will:
+
+• Give expert advice on mitigating the risks of data collection
+• Crucial first steps & who should undertake an investigation
+• Guidance on policies & protocols to protect your company
+• Address the role of data protection agencies
+• Answer questions
+
+Register here. 
+
+Should Regulation Be Privatized?
+
+If regulators are unable to provide anything except law enforcement, then public policy should consider how to fill government's other, now foregone roles. Is private regulation the answer? Read More »
+
+<<link>>     
+
+Activist Investors Go Global
+
+Citigroup warns its corporate clients that U.S.-style shareholder activism, fueled by
+

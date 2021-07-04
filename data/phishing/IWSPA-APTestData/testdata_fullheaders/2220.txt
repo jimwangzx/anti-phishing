@@ -1,0 +1,103 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 14 Nov 2015 10:40:31 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAEIeMML010561	for <user@domain.com>; Thu, 14 Nov 2015 
+ 18:40:22 GMT
+Received: from mail132-db8-domain.com
+ (mail-domain.com [213.199.154.183])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAEIeLs7007292	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 14 Nov 2015 18:40:22 GMT
+Received: from mail132-db8 (localhost [127.0.0.1])	by
+ mail132-db8-domain.com (Postfix) with ESMTP id 41CD6400F8	for
+ <user@domain.com>; Thu, 14 Nov 2015 18:40:21 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:205.201.134.3;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 8
+X-BigFish: vps8(z3e12hzc89bhec9I758Ic857h77f5hd667ozz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1de098h17326ah1def87h8275bh1bc7b9h8275dh1def03h1def86h18c673h19a27bh1de097h1de096h186068h1def83h1ce121i1b1498iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h1d9ci1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail132-db8: domain of domain.com designates 205.201.134.3 as permitted sender) client-ip=205.201.134.3; user@domain.com; helo=domain.com ;31.domain.com ;
+Received: from mail132-db8 (localhost.localdomain [127.0.0.1]) by mail132-db8
+ (MessageSwitch) id 1384454418323894_5651; Thu, 14 Nov 2015 18:40:18 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.8.241])	by
+ mail132-domain.com (Postfix) with ESMTP id 4A0FC220040	for
+ <user@domain.com>; Thu, 14 Nov 2015 18:40:18 +0000 (UTC)
+Received: from domain.com (205.201.134.3) by
+ domain.com (10.174.4.11) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 14 Nov 2015 18:40:17 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?TheWrap=20Screenings?= <rsvp@thewrap.com>
+ bh=jggTUgFbe+8iFZAvOrlU0KWqk94=;
+ b=PkC12WKMC27a8u/3ymvfZnXmcx7wM55FSSUCBRpAfJ3srs/T945twXni67hW+T9gK9YSYHNU25GV
+   zFK4e/TbjT8fOqFQEHJ9axay337SG2OV0ZYTorF9hPfrz+YTvse0kqcHX2CmMbEtBu7K92MsqzEX
+   EfBRjGqN4qc+eX028Zo
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=rwHpN0Yo2gTjbtX0VnQ3AaM/Zi/XDCpwEIY/kRflqO2F23w3uQWDNqsPYeq00NcizUA7THzXD4uU
+   Cnqc2+1bx+iMQ3ckxXug0M2jTg9ZXY0QB5RUk1PlilIYlsvpxon2uGpxVd/WVrwwm68Uw/a3teiB
+   58ZLqOkwem1cVTMzOoQ=;
+Received: from (127.0.0.1) by domain.com id hgkch21mqro4 for
+ <user@domain.com>; Thu, 14 Nov 2015 18:39:52 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?We=20Still=20Have=20Seats=20for=20Norway=27s=20=27I=20Am=20Yours=2C=27=20Thurs.=2011=2F14=20at=208pm=20Q&A=20with=20Actress=20Amrita=20Acharia=20and=20Writer=2FDirector=20Iram=20Haq?
+From: =?utf-8?Q?TheWrap=20Screenings?= <rsvp@thewrap.com>
+Reply-To: =?utf-8?Q?TheWrap=20Screenings?= <user@domain.com>
+To: =?utf-8?Q?Amy?= <user@domain.com>
+Date: Thu, 14 Nov 2015 18:39:52 +0000
+Message-ID: <4300user@domain.com>
+X-Mailer: MailChimp Mailer - **CID593e09c39f1ed11e912a**
+X-Campaign: mailchimp4300eb945fab9dc8942c198f9.593e09c39f
+X-campaignid: mailchimp4300eb945fab9dc8942c198f9.593e09c39f
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 4300eb945fab9dc8942c198f9
+x-accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: TheWrap Screenings <user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+We Still Have Seats for Norway's 'I Am Yours,' Thurs. 11/14 at 8pm Q&A with Actress Amrita Acharia and Writer/Director Iram Haq
+
+<<link>>
+Advertisement
+
+TheWrap TheWrap Screening Series        2013/2014
+*All screenings
+are first-come,
+first-serve seating
+
+You and a guest are invited to
+TheWrap's Foreign Screening Series Presentation of
+
+ <<link>>
+
+
+
+
+I AM YOURS is a domain.com of Mina, a young single mother living in Oslo with her 6-year-old son Felix. She is Norwegian – Pakistani and has a troublesome relationship with her family. Mina is constantly looking for love and has relations to different men, however none of the relationships bearing any hope of lasting very long. Then Mina meets Jesper, a Swedish film director and they fall head over heals in love. Mina takes Felix with her to Stockholm to live with Jesper, but Jesper is not ready for a family life. Mina fights hard for their love, but finally she has to find out what love is on her own.
+
+FOLLOWED BY A CONVERSATION WITH:
+
+ <<link>>      <<link>>
+
+Iram Haq, Writer/Director (left)
+Amrita Acharia, Actress (center)
+
+
+
+Thursday November 14th at 8:00PM
+
+The Landmark
+
+10850 W. Pico Blvd
+Los Angeles, CA 90064
+
+ <<link>>
+
+View the complete listing of upcoming screenings in the Awards & Foreign Screen Series.
+

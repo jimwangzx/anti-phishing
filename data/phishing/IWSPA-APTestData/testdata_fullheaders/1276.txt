@@ -1,0 +1,116 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp577179lfr;
+        Wed, 2 Sep 2015 07:18:16 -0700 (PDT)
+X-Received: by 10.52.249.115 with SMTP id yt19mr36906488vdc.35.1441203495902;
+        Wed, 02 Sep 2015 07:18:15 -0700 (PDT)
+Return-Path: <3user@domain.com>
+Received: from mail-vk0-domain.com (mail-vk0-domain.com. [2607:f8b0:400c:c05::249])
+        by domain.com with ESMTPS id m5si27290428vdw.24.2015.09.02.07.18.15
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 02 Sep 2015 07:18:15 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400c:c05::249 as permitted sender) client-ip=2607:f8b0:400c:c05::249;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400c:c05::249 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-vk0-domain.com with SMTP id f67so326179vkb.0
+        for <user@domain.com>; Wed, 02 Sep 2015 07:18:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: re47@hillaryclinton.com
+        bh=/jP+GrP33fWh6bFt9kERg/fCfKpJKVY4CmNX+MjQzZc=;
+        b=C1+ckmlobzOUCCB0wSQlXA7KHwLGOeCjiZA3DmMT2WYYsXjrB3xvjJihngv9KnQPew
+         tS/5g6RFUrN4/AMuoURRHZZ9eKUhnnMWd6LDCcK8olfMMlKYTam6Vij6fHk2RzTOoZtz
+         8aGUEi5Bpl34YbNJT/h/QfpMsdFW9na2q7IcC6rj+lXCNllWIzYgoBSnOuogHDyqf28B
+         U4NYIxNCNahnJdD3MdFPL4cQA9dNVF2GKcbpZbME5wPylO0tASrAxBB+iXQVx9OazcD3
+         p24P2eNUFTHM1g8ig3Vj8R6hS9wujJqKNXCiOj78uyq612XFEr+pjkurRzgFDrkimDIt
+         zN4Q
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: re47@hillaryclinton.com
+        bh=/jP+GrP33fWh6bFt9kERg/fCfKpJKVY4CmNX+MjQzZc=;
+        b=RXGHBG/YV1KZa8WHiDJOS2faqktA2rWbC2StDfzLO7w27lA5GpNyw1izKtbBc7ZWZZ
+         5hC2oApFfR/W4qlnA5jZHpG0kYAaMHjguUJiJOOqi52+cn6uvSiI8ozRZneXA8lD1iLn
+         KE2fm/kdu2NfpY0ZkqJR5YlnZ4QaEVl5vcH18
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: re47@hillaryclinton.com
+        bh=/jP+GrP33fWh6bFt9kERg/fCfKpJKVY4CmNX+MjQzZc=;
+        b=hSqDSd1tDXEpbMesbGuHKlf9sDDbOy7dSzwzDLM8RbjSNRL5AX2SpBDMFKZUhGX74r
+         eCGrwJ3CgZxq4cGTL0f+w9WrpUw4G0Inqp1TG+mz2Aowu4ufJwZNEsEVeLrvdSVHpZKx
+         bug9jBjPX5N90co7PtXiTH21XGfU/hO5+3bK2WxLHMvxWF2b4hTiyN1K1IYx0Mm0tXYf
+         4FpkIo603FJiMTTIfBbOzn1w88UVVguDf5QlrhBLnDHNUN1lBNE84Wv0Ho3y4coDLSyZ
+         4WZetvC3KkSoM7KqN0CcI+VOgtUMJ1E8Etmhwa9qUEByHRQ/f/8iZoILGYkhaoELHOwx
+         MsYg
+X-Gm-Message-State: ALoCoQk3IQ7LIXKRKozOvfQ4tuoymgbz8EouVx7lnMtehcBDN0KW2smaMAN8zClkm7E8IT5VzElx
+MIME-Version: 1.0
+X-Received: by 10.140.233.142 with SMTP id e136mr4140456qhc.13.1441203495097;
+ Wed, 02 Sep 2015 07:18:15 -0700 (PDT)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <001user@domain.com>
+Date: Wed, 02 Sep 2015 14:18:15 +0000
+Subject: Invitation: Battleground Poll Briefing @ Thu Sep 3, 2015 11am - 12pm (user@domain.com)
+From: re47@hillaryclinton.com
+To: user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, David Binder <user@domain.com>, 
+ user@domain.com, user@domain.com, user@domain.com
+Content-Type: multipart/mixed; boundary=001a11354d9a5ff324051ec45688
+
+You have been invited to the following event.
+
+Title: Battleground Poll Briefing
+When: Thu Sep 3, 2015 11am - 12pm Eastern Time
+Where: Iowa Conference Room / 718-441-3763, no pin
+Video call:  
+<<link>>  
+<<<link>>>
+Calendar: user@domain.com
+Who:
+     * user@domain.com - organizer
+     * user@domain.com - creator
+     * John user
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * David Binder
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+
+Event details:  
+<<link>>
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for invitations on calendar user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to modify your RSVP  
+response. Learn more at  
+<<link>>#forwarding

@@ -1,0 +1,80 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp1719624lfb;
+        Sat, 30 Jan 2015 17:09:18 -0800 (PST)
+X-Received: by 10.50.64.146 with SMTP id o18mr4123200igs.51.1454202558892;
+        Sat, 30 Jan 2015 17:09:18 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::234])
+        by domain.com with ESMTPS id g139si33256055ioe.82.2016.01.30.17.09.18
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 30 Jan 2015 17:09:18 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::234 as permitted sender) client-ip=2607:f8b0:4001:c05::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-domain.com with SMTP id z14so10451989igp.0
+        for <user@domain.com>; Sat, 30 Jan 2015 17:09:18 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Huma Abedin <ha16@hillaryclinton.com>
+        bh=JTYsN6BH/VgAw7WYBt/SDN6l4x90tFmXHa46aYLt1wE=;
+        b=EzHZKZmOerPXhU9KA487xDydeXe73b4Mhlb7ALluxwiTWOu5mcmGNW/9D3kD5S3yAR
+         ljZI59LA/IEhHzT0yaM25/EzJ0ESPMVRGPLUICE6wPBlxAs2DIcQUb8/sq1s5mCx4T9i
+         //chFES5vvmU+ODTIDYVLwVnXZhdwVzKSsEhM
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Huma Abedin <ha16@hillaryclinton.com>
+         :content-type;
+        bh=JTYsN6BH/VgAw7WYBt/SDN6l4x90tFmXHa46aYLt1wE=;
+        b=ShlPAIdtXguQE3uv9P1NP5cHNCiUHhhd4tQNnoHAs21GJMbb8FNmYacrW/TGSjlmvF
+         z/h8UHDOl4KRdM7DDe1P4dnVxACnAMpsBoU5PwNE7+ENBkt9ygwU3zzmon4jVOr5CnQQ
+         BesHJm7OhV1ROhE9e308Svn/g4dewJDew4e4OTqIJswIWnuoI3rFRLPSQE9OzD5Ejgq/
+         2wnj4acXSrZAQwBvATAH2aUiAT9s5aOBzFEhcJAajQzLJtWUalLqdIzQOMQO6hTXUPGV
+         ePDB8/AawHuVa/cYJ4rnVDuWPPO8EhXCRYF5OJJvlZq/Zex1a3Yu3UMyeuctx87qzNRB
+         6c1g
+X-Gm-Message-State: AG10YOSM6U480V1dRojRenA639Z5yKfunUeckRg6gFewNNfzVZGQ4iVhUMAz6RCZfbXXX7AmIyUsxBYY73kA/26U
+X-Received: by 10.50.36.35 with SMTP id n3mr4050852igj.73.1454202558525; Sat,
+ 30 Jan 2015 17:09:18 -0800 (PST)
+From: Huma Abedin <ha16@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+Date: Sat, 30 Jan 2015 19:09:17 -0600
+Message-ID: <1460938381447404912@unknownmsgid>
+Subject: Caucus Day Update
+To: "User" <user@domain.com>
+CC: "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ John user <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+
+Just confirming that we are all agreed on following for caucus day schedule:
+- am national shows
+- am Iowa radio
+- Otr in DSM late morning. No additional events or cities.
+- speech prep

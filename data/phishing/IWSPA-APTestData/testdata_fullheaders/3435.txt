@@ -1,0 +1,95 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Mon, 10 Feb 2015 11:04:20 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1AJ4KVq027755	for <user@domain.com>; Mon, 10 Feb 2015 
+ 19:04:20 GMT
+Received: from mail6-am1-domain.com (mail-domain.com
+ [213.199.154.202])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s1AJ5T0h005451
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 10 Feb 2015 19:05:30 GMT
+Received: from mail6-am1 (localhost [127.0.0.1])	by mail6-am1-domain.com
+ (Postfix) with ESMTP id DA1E64601B9	for <user@domain.com>; Mon,
+ 10 Feb 2015 19:04:18 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:70.42.57.86;KIP:(null);UIP:(null);SRV:BULK;H:mta-domain.com;RD:mta-domain.com;EFVD:NLI
+X-SpamScore: -3
+X-BigFish: vps-3(zz9371I8f9R148cIc857h4015Izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h1b778fh1ce120h1ce121iz2fheh5fh839h8aah92ahd24h1239h1288h12a5h137ah139eh13eah1441h1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1ff5h20f0h2218h2216h226dh24afh2336h2461h2487h24d7h2516h2545h255eh9a9j2555o41h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail6-am1: domain of domain.com designates 70.42.57.86 as permitted sender) client-ip=70.42.57.86; user@domain.com; helo=mta-domain.com ;domain.com ;
+Received: from mail6-am1 (localhost.localdomain [127.0.0.1]) by mail6-am1
+ (MessageSwitch) id 1392059057101010_22040; Mon, 10 Feb 2015 19:04:17 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.226])	by
+ mail6-domain.com (Postfix) with ESMTP id 143F7320057	for
+ <user@domain.com>; Mon, 10 Feb 2015 19:04:17 +0000 (UTC)
+Received: from mta-domain.com (70.42.57.86) by
+ domain.com (10.3.207.102) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 10 Feb 2015 19:04:16 +0000
+Received: from domain.com (localhost [127.0.0.1])	by
+ mta-domain.com (Postfix) with ESMTP id 3fNGkR541vzjWxx	for
+ <user@domain.com>; Mon, 10 Feb 2015 14:04:15 -0500 (EST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1392059055;
+	bh=QErsJANVtZGl8vFSaDTIP0TAEuXyE3Zx9vajkDxMeOw=;
+	h=Date:To:From: Ben Miller <info@appelforiowa.com>
+	 Content-Type;
+	b=fjIXXM3FrCoBVtJT5RrPp9sICv6EibhDRxtwhr6HepjjEu43TKHLgYXJo/LLYO3GE
+	 OJfRTXloi9QoV0EyN01nWfgKFoprojN2NPXL+De12ePDJST/V0oL3EtnimmxwAqhMs
+	 TZkfFM0Hh7LC0HW2tg+P1Hcb1KTPV8kHV3lzuW3c
+Received: from maillist-b 	by domain.com with local
+ (PHPMailer);	Mon, 10 Feb 2015 19:04:15 +0000
+Date: Mon, 10 Feb 2015 19:04:15 +0000
+To: Michael Lynton <user@domain.com>
+From: Ben Miller <info@appelforiowa.com>
+Subject: FW: like a rock
+Message-ID: <2108282user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 5700af60307d02d1
+X-rpcampaign: rp_5059
+X-maillist-guid: BBVGUA9tUwNVA1FTB1UAUVRdAABQBmxeC1paAlNYaggcC0JaDSQVRAAdQ1pfHB0CDFQ5CwU
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+Return-Path: 
+ user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+FW: like a rock
+
+
+
+
+Michael-
+
+I couldn't believe the news last week that General Motors was paying the new female CEO less than half of what they paid the man she replaced.
+
+We hear about the gender pay gap in this country all the time, but it isn't often that we see such a blatant example of this kind of discrimination.
+
+I hope you’ll join the women of Appel Women for Change in demanding action from Congress to address the pay gap that was so blatantly illuminated last week. Click here to add your name and demand action now!
+
+If we are going to make a change, we have to call out discrimination when we see it. Thanks for joining us in doing that today!
+
+Sincerely,
+Ben Miller
+Campaign Manager, Appel for Iowa
+
+---------- Forwarded message ----------
+From: Ben Miller <info@appelforiowa.com>
+Date: Thu, Feb 6, 2015 at 1:20 PM
+Subject: like a rock
+To: Ben Miller
+
+Ben-
+
+Just a couple weeks ago, we celebrated the anniversary of the Lilly Ledbetter Fair Pay Act, but this news from one of America’s largest and oldest corporations show us that we still have a long way to go.
+
+The news that General Motors hired the first woman to be CEO of any of the Big Three automakers is historic- but did you also hear this? They decided to pay her half of what her male predecessor made!
+
+We can’t let this slide. Join me in telling GM and the big corporations who pay women less that you are ready to fight back – click here to demand an end to the pay gap!
+
+The president called the ongoing pay gap “an embarrassment” in his State of the Union and I couldn’t agree more – because he’s right: “when women succeed, America succeeds."
+

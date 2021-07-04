@@ -1,0 +1,786 @@
+Delivered-To: user@domain.com
+Received: by 10.151.117.7 with SMTP id u7cs80149ybm;
+        Thu, 18 Sep 2015 05:44:23 -0700 (PDT)
+Received: by 10.90.74.7 with SMTP id w7mr2439798aga.60.1221741862411;
+        Thu, 18 Sep 2015 05:44:22 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.63])
+        by domain.com with ESMTP id 38si29884451aga.4.2008.09.18.05.44.21;
+        Thu, 18 Sep 2015 05:44:22 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.63 as permitted sender) client-ip=209.85.217.63;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.217.63 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 23so3987992gxk.17
+        for <user@domain.com>; Thu, 18 Sep 2015 05:44:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=Ldt0qRkIXcoUKCnfJIVPmnb5OfREYHNuJeAQT72hs/Q=;
+        b=yw301tpvYhG9JZTP2NDhXKmxESUqRcy/gL1gNzYxjWVRKDZRLAfyMbJA91itJi60dv
+         ni6OVBui/xoLejtKlwgUp//w+dqlwyZ3/E25jO2EUB2odWm+PJSPvgrbhsvYVFcdqGmx
+         irSO4HT5Z1KaRA8ie4LFyjmhs3WD4rgtxwkek
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=hsU1JQAoKQwlgM8KM+CNuT3MZyAsplAAFB1UZnREE0427chC4UPt9bEHOaGzzlQJGf
+         m3zNwTmkwzqtB2mJ5oUwtWOBhOVnUgtLPVrxCz04hM0YQD1he3c8z7aJGwAob3IQ03jc
+         Z4euXbDjPHNE0SPmPmLGF5ichvfkE5EENnOsg
+Received: by 10.90.26.9 with SMTP id 9mr214570agz.8.1221741855881;
+        Thu, 18 Sep 2015 05:44:15 -0700 (PDT)
+Received: by 10.44.190.49 with SMTP id n49gr2035hsf.0;
+	Thu, 18 Sep 2015 05:44:06 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.100.226.6 with SMTP id y6mr2610845ang.27.1221741845897; Thu, 18 Sep 2015 05:44:05 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ug-out-1314.domain.com (ug-out-1314.domain.com [66.249.92.171]) by domain.com with ESMTP id 7si15348506yxg.0.2008.09.18.05.44.04; Thu, 18 Sep 2015 05:44:05 -0700 (PDT)
+Received-SPF: neutral (domain.com: 66.249.92.171 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=66.249.92.171;
+Authentication-Results: domain.com; spf=neutral (domain.com: 66.249.92.171 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by ug-out-1314.domain.com with SMTP id k3so722500ugf.31 for <user@domain.com>; Thu, 18 Sep 2015 05:44:04 -0700 (PDT)
+Received: by 10.67.97.1 with SMTP id z1mr2407209ugl.45.1221741843247; Thu, 18 Sep 2015 05:44:03 -0700 (PDT)
+Received: by 10.66.248.19 with HTTP; Thu, 18 Sep 2015 05:44:03 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Thu, 18 Sep 2015 08:44:03 -0400
+From: "Sara DuBois" <sara@progressiveaccountability.org>
+To: "User" <user@domain.com>
+Subject: [big campaign] '08 Daily News Clips - 9/18
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_7620_15293365.1221741843187"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+08 Election Daily News Clips
+September 18th, 2015 
+
+Candidate Tracking:
+***All times in Eastern Standard Time
+
+10:50am BUSH: Tour/Remarks at waste-to-energy facility in Huntsville, AL
+
+12pm: McCain and Palin: Rally in Cedar Rapids, IA
+ - Tracking scheduled for this event 12:35pm BUSH: Attends a Love Parker
+Alabama Trust reception in Huntsville, AL
+
+4:50pm BUSH: Attends a Florida 16 Victory Trust reception in Jupiter, FL
+
+8pm McCain and Palin: Rally in Green Bay, WI
+ - Tracking scheduled for this event 9pm Palin: Interview (Part 2) airs on
+FNC's "Hannity & Colmes"
+
+News Clips:
+*
+*
+MCCAIN NEWS
+*John McCain can't seem to find his economic footing (LA Times 9/18/08)*
+By Noam N. Levey and Maeve Reston
+The financial crisis has the Republican and his running mate, Sarah Palin,
+reversing themselves on the need for regulation.
+<<link>>,0,2208769.s
+tory
+
+*Amid turmoil, McCain turns to regulation (Boston Globe 9/18/08)*
+By Michael Kranish and Farah Stockman
+Responding to the turmoil on Wall Street, John McCain said flatly yesterday
+:
+"We need strong and effective regulation." But throughout his two-decade
+Senate career, McCain has cast himself as an outspoken critic of government
+intervention in the markets, saying that he is "fundamentally a
+deregulator."
+<<link>>
+urns_to_regulation?mode=3DPF
+*Link to McCain Statement on Financial Markets and AIG Bailout:*
+<<link>>
+ut/
+
+*McCain, Obama Jockey for Position on Finance Crisis (WSJ 9/18/08)*
+By LAURA MECKLER and NICK TIMIRAOS
+The crisis on Wall Street and renewed attention to the nation's economic
+woes have created new opportunity for Barack Obama to regain control of the
+campaign debate after weeks of being on the defensive against John McCain.
+<<link>>
+
+*Fundamentally, McCain Has Something to Worry About (WaPo 9/18/08)*
+By Dan Balz; A03
+John McCain has a fundamentals problem. It is political as well as economic
+,
+and it remains the biggest obstacle standing between the Arizona senator an
+d
+the White House.
+<<link>>
+3307_pf.html
+
+*Campaigns struggle to craft bailout response (Politico 9/18/08)*
+By: Alexander Burns
+In a testament to the political risk associated with the notion of a federa
+l
+bailout, both presidential campaigns struggled Wednesday to formulate
+responses to the announced rescue of American International Group, the
+ailing insurer.
+<<link>>
+72B369
+
+*McCain, Obama scramble to shift economic message (WaPo 9/17/08)*
+By TOM RAUM and GLEN JOHNSON
+With economic anxiety rising, Republican John McCain and Democrat Barack
+Obama scrambled Wednesday to adjust their messages to connect more directly
+with financially struggling voters.
+<<link>>
+2388_pf.html
+
+Out of bounds! McCain stretches definition of 'fundamentals' (McClatchy
+Newspapers 9/17/08)
+By David Lightman
+Throw the flag against: John McCain. Call: False start. What happened:
+Republican presidential nominee McCain said Monday, as financial markets
+were reeling, "The fundamentals of our economy are strong, but these are
+very, very difficult times."  ...Why that's wrong: Economists, politicians
+and journalists have long referred to economic "fundamentals" as
+quantifiable concepts, such as unemployment rates, gross domestic product,
+inflation, productivity and so forth.
+<<link>>
+
+*Phil Gramm's fingerprints are all over market mess (Houston Chronicle
+9/18/08)*
+By FROMA HARROP
+''The fundamentals of our economy are strong," John McCain said as
+Wall Street went into white-knuckle panic over diving investor
+confidence. Does he believe that? It doesn't really matter, because the
+Republican has outsourced his economic policy to the ideologues whose
+opposition to regulations brought the financial markets to their knees.
+<<link>>
+*
+*
+*John McCain accuses Barack Obama of scuttling immigration overhaul (LA
+Times 9/18/08)*
+By Nicole Gaouette
+The Republican's effort to court Latino voters is challenged by both sides
+of the issue.
+<<link>>,0,2325963.stor
+y
+
+Battered Wall Street gives to Obama, McCain (AP 9/17/08)
+By Pete Yost
+Some of John McCain's and Barack Obama's biggest fundraisers are executives
+from the stricken financial services industry, which will need all the help
+it can get from whoever wins the White House. Merrill Lynch & Co.'s chief
+executive, for example, has raised more than $500,000 for McCain's campaign
+.
+Obama has received at least $1.5 million collected by three senior
+executives at Lehman Brothers.
+<<link>>
+CTION=3DHOME&TEMPLATE=3DDEFAULT
+McCain Flip-Flops On AIG Bailout: Rejects It Tuesday, Says It's Okay
+Wednesday (Huffington Post 9/17/08)
+Republican presidential candidate John McCain, a day after flatly rejecting
+the idea of a taxpayer bailout for American International Group Inc., said
+Wednesday that the government had been "forced" into proposing an $85
+billion loan to the nation's largest insurer.
+<<link>>
+tml
+
+*John McCain and the Lying Game (TIme 9/18/08)*
+By Joe Klein
+Politics has always been lousy with blather and chicanery. But there
+are rules and traditions too. In the early weeks of the
+general-election campaign, a consensus has grown in the political
+community=97a consensus that ranges from practitioners like Karl Rove to
+commentators like, well, me=97that John McCain has allowed his campaign to
+slip the normal bounds of political propriety. The situation has gotten so
+intense that we in the media have slipped our normal rules as well.
+... increasing numbers of otherwise sober observers, even such august
+institutions as the New York Times editorial board, are calling John McCain
+a liar.  ...Are his transgressions of degree or of kind?
+<<link>>,8816,1842030,00.html
+
+*John McCain & The Ghost of Keating Five (The Nation blog 9/17/08)*
+by Ari Berman
+Back in the 1980s, when the US faced a major savings & loan crisis, John
+McCain intervened to protect S&L magnate Charles Keating--a major McCain
+donor and friend--from federal regulators. McCain was later rebuked by the
+Senate Ethics Committee for "poor judgement" and embarrassed by the $112,00
+0
+in campaign contributions, trips and gifts he accepted from Keating.
+Following the entanglement, McCain became a born-again reformer and tried t
+o
+scrub the Keating episode from his resume.
+<<link>>
+
+*Bizarre McCain Remarks Appear To Reject Spain As Ally (HuffPo 9/18/08)*
+Late Wednesday night, news made its way from the other side of the Atlantic
+that John McCain, in an interview with a Spanish journalist, had made a
+series of bizarre responses to a question regarding that country's prime
+minister.
+<<link>>
+.html
+
+*McCain Goes Right in New Economic Ad (The Page 9/18/08)*
+TV spot hits Obama with claims galore on taxes and regulation. Campaign say
+s
+"The ad will be televised nationally," but actual buy info TBD.
+<<link>>
+*Link to video of ad ("Dome"): *<<link>>
+k
+
+*Obama Targets McCain on Energy, Social Security in Ads (The Page 9/17/08)*
+In an unannounced spot airing in Michigan, the Obama camp portrays McCain
+against alternative energies and in the pocket of the oil companies. The
+second ad, also unreleased by the campaign, accuses McCain of wanting to
+privatize Social Security.
+<<link>>~r/time/thepage/<<<link>>
+Er/time/thepage/>
+~3/395656680/
+*Link to video of ad ("Social Security"):*
+<<link>>
+
+*Biden Hammers McCain: "Where Was He 5 Years Ago?" (The Page 9/17/08)*
+Speaking at the start of a bus tour in Ohio, the VP candidate calls McCain 
+a
+latecomer to financial regulation. "If John cares so much about this now,
+where was he a week ago? Where was he a month ago? Where was he five years
+ago?" "All of a sudden it's 'My goodness, there's greed on Wall Street!'"
+<<link>>~r/time/thepage/<<<link>>
+Er/time/thepage/>
+~3/395526233/
+
+ Campaigns use phony ads to drive message (Politico 9/18/08)
+By: Jonathan Martin
+As the fall campaign gets underway in earnest and both sides launch
+increasingly negative television ads, both John McCain and Barack Obama are
+pursuing a similar two-pronged strategy on the airwaves. ...Then there are
+the other ads =96 if they can even be called that. Aimed at driving the
+conversation online and on cable news =96 where the day-in, day-out campaig
+n
+is increasingly fought =96 these spots amount to video press releases
+<<link>>
+1F7141
+
+*The Value of McCain's Health Care Tax domain.com =3D One Designer Jacket
+(WonkRoom 9/17/08)*
+The centerpiece of John McCain's health care plan is a tax domain.com worth
+$2,500 for individuals. By coincidence, in her speech at the RNC two weeks
+ago, Gov. Sarah Palin wore a jacket designed by Valentino Garavani that cos
+t
+$2,500.
+<<link>>
+
+*McCain, Palin in Cedar Rapids today (Cedar Rapids's The Gazette 9/18/08)*
+By James Q. Lynch
+The impact of this morning's domain.com by John McCain and Sarah Palin cannot be
+measured by how long they stay, but by how much time supporters put in over
+the next seven weeks to get them elected, a campaign official said.
+
+*Mixed review to McCain at GM plant in Michigan (Politico blog 9/17/08)*
+By Jonathan Martin
+UAW political types will be pleased: A number of workers wore Obama t-shirt
+s
+or pins and some attempted to line up so they would be in the camera shot o
+f
+McCain. They did not appear to be successful. McCain got a polite reception
+from the workers, who applauded his lines about the American worker. When h
+e
+finished speaking and was leaving, some of the Obama supporters began to
+chant, "O-bama=97Oh-eight'' It was not an overwhelming demonstration by any
+means, but certainly easy to hear in the cavernous assembly plant.
+<<link>>
+_GM_plant_in_Michigan.html?showall
+
+*McCain: We Won't Leave Michigan Workers "Hung Out to Dry" (The Page
+9/17/08)*
+The Arizonan vows to clean up Wall Street, stop taking money from taxpayers
+to fix economic woes in remarks to employees at a GM plant in Lake
+Orion. "It is time to get our auto industry back on its feet. It's time for
+a new generation of cars and for loans to build the facilities that will
+make them." "These workers here are the best in the world. They are the
+backbone and foundation of our economy."
+<<link>>~r/time/thepage/<<<link>>
+Er/time/thepage/>
+~3/395314208/
+*Link to McCain Remarks at GM Plant Wednesday: *
+<<link>>
+*Link to Pool Report for McCain's Michigan GM Plant Tour:*
+<<link>>
+
+*Lots of Palin love, not as much for McCain (Politico blog 9/17/08)*
+By Amie Parnes
+At the McCain-Palin joint rally in Grand Rapids, Michigan, tonight, the
+crowd is chanting "Sarah! Sarah! Sarah!" They havent once screamed for
+McCain, even after Palin introduced him.
+<<link>>
+_much_for_McCain.html?showall
+
+*Quotes of the Day (PoliticalWire 9/17/08)*
+By Taegan Goddard
+"Two years ago, I warned that the oversight of Fannie and Freddie was
+terrible, that we were facing a crisis because of it, or certainly a seriou
+s
+problem." -- Sen. John McCain, in an interview earlier today, via ABC News.
+"So, I'd like to tell you that I did anticipate it, but I have to give you
+straight talk, I did not." -- McCain, in an interview with Keene Sentinel o
+n
+the mortgage crisis in December 2007.
+<<link>>
+
+Trump endorses McCain on Larry King (Politico 9/17/08)
+By Mike Allen
+"I know John McCain, and John McCain's a great guy, a tremendous guy," Trum
+p
+told King. "I've known him for a long time. And I'm with him, and I'm with
+him based on the fact that I have great knowledge of John McCain. Also, thi
+s
+is not the right time for tax increases. And Obama wants to increase your
+taxes drastically."
+<<link>><<<link>>
+/news/stories/0908/13558.html>
+
+Top Clinton fundraiser backs McCain over Obama (AP 9/17/08)
+By Ann Sanner
+"I believe that Barack Obama, with domain.com and Nancy Pelosi and Howard
+Dean, has taken the Democratic Party - and they will continue to - too far
+to the left," Lynn Forester de Rothschild said. "I'm not comfortable there.
+"
+<<link>>
+ECTION=3DHOME&TEMPLATE=3DDEFAULT
+*See HuffPo's New McCainiac Rothschild Calls Some Americans "Rednecks"":*
+<<link>>
+html
+
+Judge says McCain is 'natural born citizen' (AP 9/17/08)
+By AP Staff
+A federal judge has thrown out a domain.com seeking to remove John McCain from
+the California ballot because he was born in the Panama Canal Zone.
+<<link>>
+_natural_born_citizen/?rss_id=3domain.com+--+Latest+news<<<link>>
+.com/news/nation/articles/2008/09/17/judge_says_mccain_is_a_natural_born_ci
+tizen/?rss_id=3domain.com+--+Latest+news>
+
+*Campaign-trail reporters sidelined (Politico 9/17/08)*
+By: Mike Allen and Carrie Budoff Brown
+The flocks of campaign reporters who fly around the country with the
+presidential candidates have been more sidelined in the 2015 campaign than
+any in generations, sealed off from any meaningful access to either Sen.
+Barack Obama (D-Ill.) or Sen. John McCain (R-Ariz.).
+<<link>>
+21CC70
+
+*"Sold Us Out" (Hotline blog 9/17/08)*
+New Barack Obama spot out this afternoon -- "Sold Us Out" -- accuses John
+McCain of supporting tax breaks for companies that send jobs overseas. The
+ad will run in PA and other, you got it, "key states."
+<<link>>#co
+mments
+*Link to video of ad*: <<link>>
+
+*White House foes to speak at famed NYC dinner (AP 9/17/08)*
+Presidential rivals John McCain and Barack Obama have agreed to participate
+in what historian and author Theodore H. White once called "a ritual of
+American politics" =97 the annual Alfred E. Smith Memorial Foundation Dinne
+r.
+<<link>>
+
+*PALIN NEWS*
+*Palin Says She's Disappointed by Another Bailout (AP 9/17/08)*
+Republican vice presidential candidate Sarah Palin says she's disappointed
+that the federal government needed to bail out another financial
+institution.
+<<link>>,8816,1841913,00.html
+
+*Hackers brea**k into Sarah Palin's e-mail account (AP 9/17/08)*
+By Ted Bridis
+Hackers broke into the Yahoo! e-mail account that Republican vice
+presidential candidate Sarah Palin used for official business as Alaska's
+governor, revealing as evidence a few inconsequential personal messages she
+has received since John McCain selected her as his running mate.
+<<link>>
+HOME&TEMPLATE=3DDEFAULT
+*Link to McCain Statement on Palin E-Mail Hacking:*
+<<link>>
+
+*Palin Takes Questions at a McCain Town Hall (ABC blog 9/18/08)*
+By Brett Hovell and Imtiyaz Delawala
+At a joint McCain-Palin town hall meeting in Grand Rapids, Mich., this
+evening, Gov. Sarah Palin took questions directly from voters for the first
+time, but rarely directly answered the questions posed to her or ventured
+from lines she often delivers on the campaign trail.
+<<link>>
+*See AP's "Palin joins McCain for Michigan town hall meeting":*
+<<link>>
+
+*Vice President Palin, Energy Czar (The Page 9/17/08)*
+The Alaska Governor tells Fox News' Hannity that her role in a McCain White
+House would be focused on energy independence, tax cuts and curbing
+spending. "We sort of have a do-nothing Senate right now where nobody's
+wanting to really pick up the ball=85. It's going to take=85a change in
+leadership in order to really crush that gridlock and get going on
+this." Also says on drilling in ANWR: "No secret, John McCain and I agree t
+o
+disagree on that one. And I'm going to keep working on him with ANWR."
+<<link>>~r/time/thepage/<<<link>>
+Er/time/thepage/>
+~3/395532005/
+*Link to Excerpts from Palin's Hannity Interview =97 Part I: *
+<<link>>
+
+*Sarah Palin's wasteful ways (Salon 9/17/08)*
+By David Talbot
+She poses as a fiscal watchdog, but when Palin was mayor, she grabbed city
+funds to give her office a pricey "bordello" makeover.
+<<link>>
+
+*Rove says politics determined VP pick (AP 9/17/08)*
+By MATT SEDENSKY
+Republican tactician Karl Rove said Wednesday that Sen. John McCain's vice
+presidential pick was a political choice and that excitement over Alaska
+Gov. Sarah Palin will subside.
+<<link>>
+* *
+*Sarah Palin inquiry is showing more signs of distress (AP 9/17/08)*
+By Matt Volz
+A bipartisan panel may meet to discuss delaying the investigation into
+whether the Alaska governor dismissed a top official because he would not
+fire a state trooper who was divorcing her sister.
+<<link>>,0,909555.sto
+ry?track=3Drss
+
+*Monegan dismissal inquiry heats up (ADN 9/18/08)*
+By WESLEY LOY
+Attorney general accused of backing out of deal to get state workers to
+testify.
+<<link>>
+
+*Palin Blames Lobbyists Like Her Campaign Manager For The** Failure of
+Fannie Mae and Freddie Mac (ThinkProgress 9/17/08)*
+By Ryan Powers
+While Palin blames the need for the Fannie-Freddie bailout on the two firms
+'
+lobbyists, she seems more than willing to take those same lobbyists' money.
+In fact, at least 20 McCain-Palin fundraisers "have lobbied on behalf of
+Fannie Mae and Freddie
+Mac<<<link>>
+8AQGuKZ7chQBIo7D5e2s0NUE>"
+in recent years. More significantly, the McCain-Palin campaign manager, Ric
+k
+Davis, "served as president of an advocacy group led by Fannie Mae and
+Freddie Mac" that worked to cripple regulatory initiatives in Congress and
+protect the two institution's "healthy
+profits<<<link>>
+c_barack_obamas_tak.html>
+."
+<<link>><<<link>>
+.org/2008/09/17/palin-blames-davis/>
+
+Palin takes first impromptu question from national press (CNN 9/17/08)
+Sarah Palin took her first impromptu question from a reporter traveling wit
+h
+her campaign Wednesday while shaking hands at a restaurant called Karl's In
+n
+of the Barristers in Cleveland. A pool reporter from the national press
+corps asked Palin's reaction to the federal bailout of insurance giant
+AIG. Palin said she is "disappointed that taxpayers are called upon to
+bailout another one." "Certainly AIG, though, with the construction bonds
+that they're holding, and with the insurance that they are holding, very,
+very impactful to Americans," she said. "So you know, the shot that has bee
+n
+called by the feds, its understandable but very, very disappointing that
+taxpayers are called upon for another one."
+<<link>>
+-question-from-national-press/
+
+AP Interview: Rove: Palin excitement will subside (AP 9/17/08)
+By Matt Sedensky
+Republican tactician Karl Rove said Wednesday that Sen. John McCain's vice
+presidential pick was a political choice and that excitement over Alaska
+Gov. Sarah Palin will subside.
+<<link>>
+=3DHOME&TEMPLATE=3DDEFAULT
+
+*OPINIONS AND EDITORIALS*
+*Down Days for McCain (WaPo 9/18/08)*
+By David S. Broder
+Wall Street and its woes are causing big problems for the Republican
+candidate.
+<<link>>
+2970.html
+
+*Shocked, shocked by greed (Boston Globe 9/18/08)*
+CONFRONTED with unprecedented turmoil in the financial sector, Republican
+presidential candidate John McCain first resorted to a cliche, insisting
+that "the fundamentals of our economy are strong." But the bad news keeps o
+n
+coming - first the failure of the investment house Lehman Brothers, and now
+the $85 billion federal bailout of the insurer AIG. Belatedly, McCain has
+repackaged himself as a crusading populist. On Tuesday, he denounced the
+"excess, greed, and corruption of Wall Street."
+<<link>>
+8/09/18/shocked_shocked_by_greed?mode=3DPF
+
+*McCain's Veto Pen (WaPo 9/18/08)*
+George F. Will
+For his closing argument, he should remind voters of the virtues of divided
+government.
+<<link>>
+2975.html?nav=3Drss_print/editorialpages
+
+*The McCain of the Week (NYT 9/18/08)*
+GAIL COLLINS
+At rally in Ohio, Senator John McCain morphed into a new persona =97 a ragi
+ng
+populist. If he is going to keep changing into new people, he should send
+out notices.
+<<link>>
+
+*Wall Street's Just Deserts (WaPo 9/18/08)*
+Harold Meyerson
+Both Reagan-age government and Wall Street's investment banks deserve to
+die.
+<<link>>
+
+*The rise of Sarah Palin (Washington Times 9/18/08)*
+Gary Andres
+Picking Sarah Palin as the vice presidential nominee energized John McCain'
+s
+presidential campaign like a Caribou Coffee jolt of caffeine. She produced 
+a
+bump in the polls and a burst of excitement. ...The reform-minded Alaska
+governor could also help down ticket with Republican congressional
+candidates.
+<<link>>
+
+*The End of the Bridge to Nowhere (Weekly Standard 9/18/08)*
+by Fred Barnes
+How Sarah Palin killed a costly project.
+<<link>>
+asp
+
+*First a Bridge, Now a Road (NYT 9/18/08)*
+First there was Alaska's Bridge to Nowhere, an infamous pork-barrel project
+that eventually succumbed to public derision. Now comes the Izembek road 
+=97
+some call it the Road to Nowhere =97 another Alaska boondoggle and a surefi
+re
+environmental disaster.
+<<link>>
+ted=3Dprint
+
+*The real issues of election 2015 (LA Times 9/18/08)*
+'Values' voters may not think so, but this election should be about
+pocketbook and security issues.
+<<link>>,0,1736151.stor
+y
+
+*Hey U.S., welcome to the Third World! (LA Times 9/18/08)*
+Rosa Brooks:
+It's been a quick slide from economic superpower to economic basket case.
+<<link>>,0,6908905.colu
+mn
+
+*BUSH NEWS*
+*Bush cancels fundraising trip to deal with economy (AP 9/18/08)*
+By BEN FELLER
+With the financial markets in turmoil, President Bush canceled a planned
+trip to Alabama and Florida on Thursday to consult with his economic
+advisers in Washington.
+<<link>>
+
+*White House Avoids Standard Assurance About Economy (WaPo blog 9/17/08)*
+By Dan Eggen
+Following a shift in message by GOP presidential candidate John McCain, the
+White House today avoided asserting that the fundamentals of the U.S.
+economy are strong -- a regular talking point for President Bush and his
+aides.
+<<link>>
+andard_as.html
+*See WSJ blog's "White House Not as Confident as McCain on Economy's
+'Fundamentals'": *
+<<link>>
+
+*GOP: Does Bush have economic plan? (Politico 9/18/08)*
+By: Daniel W. Reilly and Martin Kady II
+Whipsawed by the government's on-again, off-again intervention in the
+nation's financial crisis, House Minority Whip Roy Blunt (R-Mo.) said
+Wednesday that congressional Republicans "don't feel like they understand
+the coherent strategy" of the Bush administration =97 "if there is one."
+<<link>>
+F48BB0
+
+*Bush: 'We Are at War with Extremists' (AP 9/17/08)*
+By MATTHEW LEE
+President Bush said Wednesday that the attack on the U.S. embassy in the
+capital of Yemen was a reminder that the United States remains "at war" wit
+h
+ideological extremists.
+<<link>>,8816,1841911,00.html
+
+*OTHER TOP NEWS*
+*U.S. Stocks Plunge as Lending Freezes Up Following AIG Takeover (Bloomberg
+9/17/08)*
+By Elizabeth Stanton and Lynn Thomasson
+U.S. stocks tumbled as bank lending seized up in the wake of the
+government's takeover of American International Group Inc., raising concern
+that more of the nation's biggest financial companies will fail.
+<<link>>
+=3Dhome
+
+*A Big Unknown: Cost of Bailouts (WSJ 9/18/08)*
+By SUDEEP REDDY and JOHN D. MCKINNON
+domain.com Is Possible for Government if Firms Do Well
+<<link>>
+And_Policy
+
+*Iraq's Counterinsurgency College (WSJ 9/18/08)*
+By YOCHI J. DREAZEN
+The U.S. focus in Iraq is fast shifting from fighting a war to preparing fo
+r
+its aftermath.
+<<link>>
+And_Policy
+
+*U.S. to Expand Drone Use, Other Surveillance in Afghanistan (WSJ 9/18/08)*
+By YOCHI J. DREAZEN
+The U.S. Army is preparing to deploy a network of drones and other
+surveillance aircraft to Afghanistan in an expanding effort to defeat the
+resurgent Taliban and reverse a downward spiral in the country.
+<<link>>
+And_Policy
+
+*High Turnout, New Procedures May Mean an Election Day Mess (WaPo 9/18/08)*
+By Mary Pat Flaherty; A01
+Faced with a surge in voter registrations leading up to Nov. 4, election
+officials across the country are bracing for long lines, equipment failures
+and confusion over polling procedures that could cost thousands the chance
+to cast a ballot.
+<<link>>
+3663_pf.html
+
+*Outside Groups Air Ads on Abortion Issue (WSJ 9/18/09)*
+By AMY CHOZICK
+Economic news has dominated the debate between presidential candidates Sens
+.
+Barack Obama and John McCain this week, but independent groups on both side
+s
+are betting that key segments of the electorate will base their decision on
+abortion.
+<<link>>
+And_Policy
+
+*Big Labor-Backed Group To Unleash Massive Mail Blitz In Swing States Tying
+McCain To Bush (TPM 9/17/08)*
+By Greg Sargent
+The AFL-CIO and an affiliated independent group are preparing to unleash an
+unusually large blitz of mailers targeting at least 1.5 million households
+in battleground states and across the country -- the group's first foray in
+a new and all-out campaign to win back Reagan and Bush-supporting Dems in
+the race's final stretch.
+<<link>>
+up_to_unlea.php
+
+*Conyers and HCAN Agree In Principle: Health Reform is On The Table
+(DailyKos 9/17/08)*
+by DemFromCT
+In the domain.com of health reform, a major issue for the voters, there's been
+some debate about the Health Care For America Now coalition and what their
+push for quality, affordable health care means for single payer advocates
+and for those who want this issue addressed in DC (see Health Reform: An
+Integrated Problem In An Integrated World and Health Care Discussion
+Links). Today, John Conyers, author of H.R. 676 (the Expanded and Improved
+Medicare for All Act), is releasing a statement of principle. "I am proud t
+o
+join HCAN's broad progressive campaign to raise awareness about the need fo
+r
+true universal health care reform=85
+<<link>>
+
+Congress Passes Bill With Protections for Disabled (NYT 9/18/08)
+By ROBERT PEAR
+Congress gave final approval on Wednesday to a major civil rights bill,
+expanding protections for people with disabilities and overturning several
+recent Supreme Court decisions.
+<<link>>
+r&pagewanted=3Dprint
+
+*POLLS*
+*LATEST NATIONAL POLL (The Page 9/18/08)*
+From Quinnipiac University poll:
+Obama 49, McCain 45
+Dates conducted: Sept. 11-16. Error margin: 3.1 points.
+<<link>>
+*
+*
+*McCain Seen as Less Likely to Bring Change, Poll Finds (NYT 9/18/08)
+By ROBIN TONER and ADAM NAGOURNEY
+Despite an intense effort to distance himself from the way his party has
+done business in Washington, Senator John McCain is seen by voters as far
+less likely to bring change to Washington than Senator Barack Obama. He is
+widely viewed as a "typical Republican" who would continue or expand
+President Bush's policies, according to the latest New York Times/CBS News
+poll.
+*
+<<link>>
+&pagewanted=3Dprint
+*
+*
+*New National Numbers (The Page 9/17/08)*
+From CBS News/New York Times poll:Obama 48, McCain 43, undecided 7
+Dates conducted: Sept. 12-16. Error margin: 3 points.
+<<link>>
+
+*Latest CNN Polls: Tight As Ticks In Four Battlegrounds (Atlantic Online
+9/17/08)*
+By Marc Ambinder
+Florida: Obama 48, McCain 48
+Indiana: McCain 51, Obama 45
+North Carolina: McCain 48, Obama 47
+Ohio: Obama 49, McCain 47
+Wisconsin: Obama 50, McCain 47
+<<link>>
+_as_tick.php
+
+*Maxed-Out Moms (The Page 9/18/08)*
+A new TIME poll shows John McCain and Sarah Palin are winning over the swin
+g
+voters that both sides need in November. The poll, conducted Sept. 11-15,
+shows Obama and McCain running a dead heat among women overall. But McCain
+holds an 18-point lead among older, less-educated likely women voters.
+<<link>>~r/time/thepage/<<<link>>
+Er/time/thepage/>
+~3/396053144/
+*Link to TIME poll:*
+<<link>>,8599,1842107,00.html
+
+--
+Sara DuBois
+Tracking / Communications Manager
+domain.com
+user@domain.com
+202-609-7681 (office)
+410-967-7306 (cell)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

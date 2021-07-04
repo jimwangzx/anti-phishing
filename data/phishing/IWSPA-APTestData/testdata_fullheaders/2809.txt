@@ -1,0 +1,97 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Mon, 6 Jan 2015 15:12:17 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s06NCGjR024581	for <user@domain.com>; Mon, 6 Jan 2015 
+ 23:12:17 GMT
+Received: from mail168-db9-domain.com
+ (mail-domain.com [213.199.154.240])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s06NCEvs009940	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Mon, 6 Jan 2015 23:12:15 GMT
+Received: from mail168-db9 (localhost [127.0.0.1])	by
+ mail168-db9-domain.com (Postfix) with ESMTP id 6E5763400E2	for
+ <user@domain.com>; Mon,  6 Jan 2015 23:12:14 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.105;KIP:(null);UIP:(null);IPV:NLI;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z579eh5109h5105hzc545Ic89bhc857hdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h1de096h186068h172c6ch1ce120h1a691ciz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh2327h2336h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail168-db9: domain of domain.com designates 192.64.236.105 as permitted sender) client-ip=192.64.236.105; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail168-db9 (localhost.localdomain [127.0.0.1]) by mail168-db9
+ (MessageSwitch) id 1389049932484719_5518; Mon,  6 Jan 2015 23:12:12 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.16.226])	by
+ mail168-domain.com (Postfix) with ESMTP id 71798320050	for
+ <user@domain.com>; Mon,  6 Jan 2015 23:12:12 +0000 (UTC)
+Received: from mx-domain.com (192.64.236.105) by domain.com
+ (10.174.14.42) with Microsoft SMTP Server id 14.16.227.3; Mon, 6 Jan 2015 
+ 23:12:11 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1389049931;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Daily Headlines <donotreply@variety.com>
+	bh=gHN5mJEepGEoaby9jfBHNsz31XvFiK68wAt+VLC1CDY=;
+	b=dv6fFjdBh+if192PqCVOpLalVedYyyxu55jkCldK5ZFAHG9ImuLCz2eA6BzK7xFs
+	CnzRc0JJqTD6836aD1Uvn/1DE3jzJvdVqyona+2AKNkw6OE8xaJAgn3UgXBkRWend3t
+	Vw/77DBQixrkSXeNJ+kz1TvQjmr0Bw+mMNw4RfsU
+Date: Mon, 6 Jan 2015 18:12:11 -0500
+From: Variety Daily Headlines <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140106231211.2336154.19928@domain.com>
+Subject: =?utf-8?B?4oCYU3BpZGVyLU1hbuKAmSBNdXNpY2FsIFN0aWxsIGEg?
+ =?utf-8?B?VGFuZ2xlZCwgTWVzc3kgV2ViIHRvIHRoZSBFbmQ=?
+Precedence: bulk
+X-TM-ID: 20140106231211.2336154.19928
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.105
+X-IADB-IP-REVERSE: 105.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2336154
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+‘Spider-Man’ Musical Still a Tangled, Messy Web to the End
+
+I’ll never forget the first time I saw “Spider-Man: Turn Off the Dark.” It was on Saturday night. B...  
+
+
+
+
+Variety         
+
+Daily Headlines         
+
+Monday, January 6, 2015         
+
+
+
+
+<<link>>         
+
+‘Spider-Man’ Musical Still a Tangled, Messy Web to the End      
+
+I’ll never forget the first time I saw “Spider-Man: Turn Off the Dark.” It was on Saturday night. Bad reviews and buzz had kept me away from Broadway’s most disaster-prone production, but I had al...         
+
+<<link>> BuzzFeed MovieTracker: How the Golden Globes Nominees Stack Up
+With awards campaigns and marketing in full swing heading into the Golden Globes, BuzzFeed and Variety have teamed up to look at which nominated movies and actors are dominating the headlines. The...
+
+Watch the First Full Trailer for ‘House of Cards’ Season 2
+Netflix has unveiled its first full trailer -- yes, actual words and not just Kevin Spacey playing with a rubber band -- for season two of "House of Cards." Kevin Spacey returns as Frank Underwood...
+
+Scarlett Johansson’s ‘Under the Skin’ Set for April 4 Release in U.S.
+A24 has set April 4 as the U.S. release date for sci-fi thriller “Under the Skin,” starring Scarlett Johansson, The distrib acquired the rights in September, a day after its premiere at the Toront...
+
+Why Hollywood’s Experiencing a ‘Digital Renaissance’ with Digital HD
+When Hollywood paired up with the consumer electronics industry and retailers to introduce UltraViolet two years ago, the digital storage locker was meant to encourage consumers to buy rather than...
+
+Variety’s 2015 Breakthrough Actor Winner: Will Forte
+The Variety Breakthrough of the Year Awards, which recognizes a select group of rising stars in entertainment and technology, will be held Jan. 9 at the Consumer Electronics Show.  Will Forte is y...
+

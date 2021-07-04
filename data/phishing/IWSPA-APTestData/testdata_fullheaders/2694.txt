@@ -1,0 +1,82 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp195411lfb;
+        Fri, 5 Feb 2015 14:43:12 -0800 (PST)
+X-Received: by 10.55.82.2 with SMTP id g2mr19812886qkb.53.1454712192253;
+        Fri, 05 Feb 2015 14:43:12 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [192.82.209.99])
+        by domain.com with ESMTP id s67si8157132qkl.108.2016.02.05.14.43.11
+        for <user@domain.com>;
+        Fri, 05 Feb 2015 14:43:12 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 192.82.209.99 as permitted sender) client-ip=192.82.209.99;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 192.82.209.99 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Return-Path: <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1454712191;
+	h=Sender:From: "Jolene Ivey" <info@mellingergroup.com>
+	Content-Type;
+	bh=ILYdOtAR5U1XRqGUIoHPV8i4AEg=;
+	b=R+EZHaDpwHhTS2oQ5Ivrf6c5FoF7sdgjDQSoVztjKLob5rZwmxeGXLy2sQKxxH4a
+	dv7kjdjaEFekwhHlk2/BZ2UDX3Ao9pgEcSrWvMVJY2P0AaZ6TPNfkcf9eNnq/RQw
+	Of4bOzz4g28NoGTg1Bbyi4tu7TdFxlYAlLOAPyPchDM=;
+X-MSFBL: nNzM+NnPEx1dGy96aWAupK5cmC4ukyLPs7vcnC8O90Q=|eyJyIjoiam9obi5wb2R
+	lc3RhQGdtYWlsLmNvbSIsImIiOiJtYWlsb3V0NzM1IiwidSI6ImJvdW5jZV8yNDA
+	wMDAwMTU5MjE5MDczX3BvZDEyIiwiZyI6ImRlZmF1bHRncm91cDAyIn0
+Received: from [10.11.74.251] ([10.11.74.251:61140] helo=NSV11OBMAIL1201)
+	by domain.com (envelope-from <user@domain.com>)
+	(ecelerity 4.2.1.51032 r(Core:4.2.1.4)) with ESMTP
+	id 1C/5C-03644-F7525B65; Fri, 05 Feb 2015 17:43:11 -0500
+Sender: =?UTF-8?B?Sm9sZW5lIEl2ZXk=?= <user@domain.com>
+X-Binding: default
+Reply-To: user@domain.com
+From: "Jolene Ivey" <info@mellingergroup.com>
+To: "User" <user@domain.com>
+Message-ID: <user@domain.com>
+Date: Fri, 05 Feb 2015 17:43:11 -0500
+Subject: A Birthday Celebration for Glenn
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----DF2A2477A6404D84B7ECF8309C16AC95"
+
+Dear John,
+
+Glenn has been working tremendously hard over this past year on his cam
+paign with little to no time to relax and enjoy a weekend of family, fr
+iends and fun=2E So at the end of the month I will be throwing him a bi
+g birthday celebration and I would love to have his friends, colleagues
+, and supporters come out and celebrate Glenn's birthday with our famil
+y=2E
+
+Join us on Saturday February 27th from 2:00-4:00pm at IBEW Local 26 in 
+Lanham, MD to celebrate Glenn's birthday!
+
+More event details to follow early next week, but mark your calendars t
+o come celebrate Glenn's birthday and support his campaign=2E I don't w
+ant to give his age away, but tickets start at $55=2E To register for t
+he event, please click the link below or call 410-727-0501=2E
+
+<<link>>
+
+If you are interested in co-hosting the event, please contact Kate Mona
+han at 410-727-0501 for more information on how to be a co-host=2E
+
+I hope to see you at Glenn's birthday (it's really the 27th!) and thank
+ you so much for your support of him over this past year!
+
+Love,
+Jolene
+
+---------------------------------------------
+|    Paid for by Glenn Ivey for Congress    |
+---------------------------------------------
+
+Glenn Ivey for Congress
+410 1st Street, SE
+Suite 310
+Washington DC 20003 United States
+
+If you believe you received this message in error or wish to no longer 
+receive email from us, please <<link>>
+/unsubscribe?mmid=3D-9115862250366302208&tiid=3D-4616052678231455744=2E

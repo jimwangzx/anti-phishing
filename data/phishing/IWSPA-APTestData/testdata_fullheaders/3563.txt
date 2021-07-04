@@ -1,0 +1,60 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Fri, 19 Sep 2015 07:38:22 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 6CA1F621A2	for
+ <user@domain.com>; Fri, 19 Sep 2015 06:22:43 +0100 (BST)
+Received: by domain.com (Postfix)	id 8911AB82003; Fri, 19 Sep 2015 
+ 07:38:22 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 76B0EB6603E	for
+ <user@domain.com>; Fri, 19 Sep 2015 07:38:22 +0200 (CEST)
+X-ASG-Debug-ID: 1411105099-066a7546f6135d0001-qirN0v
+Received: from mail-ie0-domain.com (mail-ie0-domain.com
+ [209.85.223.182]) by domain.com with ESMTP id mOf8HsPkqMGBxKoa;
+ Fri, 19 Sep 2015 07:38:20 +0200 (CEST)
+X-Barracuda-Envelope-From: "Dan. Moreno" <dmoreno@elitetactical.net>
+X-Barracuda-IPDD: Level1 [domain.com/209.85.223.182]
+X-Barracuda-Apparent-Source-IP: 209.85.223.182
+Received: by mail-ie0-domain.com with SMTP id y20so2775484ier.41
+        for ; Thu, 18 Sep 2015 22:38:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:sender:date:message-id:subject:From: "Dan. Moreno" <dmoreno@elitetactical.net>
+        bh=YxLaCcVjhDKSz6kSLaNYdFZVO6ohFpn9DIW6x6MFOOI=;
+        b=ot7z6thMtSJQYd1rEAw+WIt7PJ6cjHHy0VZ0GSl7IrzRUisaKj4rhkW/Qs+tJliETb
+         mNU8qk9ytIGa6tdYq/Jphz6wSI9Vy6b7lS76Uwn77RVxrU3WWP40Sgcu3g0hBB+rwg71
+         5eHDXq/kgp5p2LziiLqV9zPp8FE4ticqzYrfd97RUY9anReCaek1jUPETxkc0E8YpsVC
+         6Vp3bSRxdcIO6KIXMNIclYtm2LBJKMMGmO6qpDuobpH0AmTRFjpLHNwq3/oUv3AVbyDj
+         sy7SRmSEd2uQLIPsoxkqLK+N9OqQbxcask+M/w6jv5RspuBUeGhMzmlaybDaGWgiW5v9
+         ph0g
+X-Received: by 10.50.234.193 with SMTP id ug1mr5052940igc.20.1411105099111;
+ Thu, 18 Sep 2015 22:38:19 -0700 (PDT)
+Sender: <user@domain.com>
+Received: by 10.64.239.211 with HTTP; Thu, 18 Sep 2015 22:38:18 -0700 (PDT)
+Date: Thu, 18 Sep 2015 22:38:18 -0700
+X-Google-Sender-Auth: OkcnUDgnLdRS_L0UczvKIDk4EJE
+Message-ID: <CAHLJM+user@domain.com>
+Subject: Requesting a Demo
+From: "Dan. Moreno" <dmoreno@elitetactical.net>
+X-ASG-Orig-Subj: Requesting a Demo
+To: Daniele Milan <user@domain.com>, Alex Velasco HT
+	<user@domain.com>, Marco Bettini <user@domain.com>
+X-Barracuda-Connect: mail-ie0-domain.com[209.85.223.182]
+X-Barracuda-Start-Time: 1411105099
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: -1001.00
+X-Barracuda-Spam-Status: No, SCORE=-1001.00 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-2135562172_-_-"
+
+Hello there,Below you'll see a letter requesting your help for another Field Engineer in order to have a DEMO for 2 clients.We understand its a last minute call but we think is important to present your solution for this two states since they are far from the North of Mexico and they are having a fast increase in they criminal stats.Let me know if you need anything else....  Thanks in advanced!---Dan.MorenoR&D | EliteTacticalwww.elitetactical.net+521.664.496.0109

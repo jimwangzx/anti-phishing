@@ -1,0 +1,308 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp488586lfb;
+        Thu, 12 Nov 2015 09:03:53 -0800 (PST)
+X-Received: by 10.68.125.197 with SMTP id ms5mr24564333pbb.161.1447347833280;
+        Thu, 12 Nov 2015 09:03:53 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.111.72])
+        by domain.com with ESMTPS id rb8si21034844pbb.243.2015.11.12.09.03.52
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 12 Nov 2015 09:03:53 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.111.72 as permitted sender) client-ip=157.56.111.72;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.111.72 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Received: from domain.com (10.141.52.139) by
+ domain.com (10.242.46.148) with Microsoft SMTP
+ Server (TLS) id 15.1.318.15; Thu, 12 Nov 2015 17:03:49 +0000
+Received: from BN1BFFO11FD026.protection.gbl (2a01:111:f400:7c10::1:108) by
+ domain.com (2a01:111:e400:2414::11) with Microsoft
+ SMTP Server (TLS) id 15.1.325.17 via Frontend Transport; Thu, 12 Nov 2015 
+ 17:03:48 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=domain.com;domain.com; dmarc=none action=none
+ header.from=microgridknowledge.com;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.75;
+ helo=domain.com;
+Received: from domain.com (141.161.191.75) by
+ domain.com (10.58.144.89) with Microsoft SMTP
+ Server (TLS) id 15.1.325.5 via Frontend Transport; Thu, 12 Nov 2015 17:03:48
+ +0000
+Resent-From: =?utf-8?Q?Microgrid=20Knowledge?= <news@microgridknowledge.com>
+Received: from na01-bl2-domain.com (141.161.191.14)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Thu, 12 Nov 2015 12:03:26 -0500
+Received: from domain.com (10.163.126.38) by
+ domain.com (10.242.216.17) with Microsoft SMTP
+ Server (TLS) id 15.1.318.15; Thu, 12 Nov 2015 17:03:25 +0000
+Received: from BL2FFO11FD056.protection.gbl (2a01:111:f400:7c09::176) by
+ domain.com (2a01:111:e400:52fd::38) with Microsoft
+ SMTP Server (TLS) id 15.1.325.17 via Frontend Transport; Thu, 12 Nov 2015 
+ 17:03:24 +0000
+Authentication-Results: spf=pass (sender IP is 205.201.134.85)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass
+ (signature was verified) header.d=domain.com;domain.com;
+ dmarc=none action=none header.from=microgridknowledge.com;
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 205.201.134.85 as permitted sender)
+ receiver=domain.com; client-ip=205.201.134.85;
+ helo=domain.com;
+Received: from domain.com (205.201.134.85) by
+ domain.com (10.173.161.184) with Microsoft
+ SMTP Server id 15.1.325.5 via Frontend Transport; Thu, 12 Nov 2015 17:03:24
+ +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Microgrid=20Knowledge?= <news@microgridknowledge.com>
+ bh=MC++qIa0ILlF/zc5Dq0NYFCNBbE=;
+ b=MOt6itWE0alV30TJX2K+mNiFKLJWJQLE8K+JssEiILcmtZmamaMgkeMQdfNc/8ncwRH6T2C1+gDr
+   rJ8G0IILqORAPeyPIQvOuNuwZDxon/tZWaj/j1SVlIIYcJ2uo5/qkYy0cSpCM1BM6A/33niowt2M
+   12KUKBbN4B2QuqiGSho
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=BgLTcno+qUIA1U6JlZBOJx2Rr35uKNFIBHCBMUlsxswhY5dbEm9C9viG2wmNb08IwxcjiXmHBhwK
+   0G0kBI2d4GrF0aV3a1EtwEWoMkh97rPYg/kiET2TQfjbA8SHslhyVbR7Msb/0ePvNxnXfDAST1pF
+   5CietxC+5IaVDh0V+o8=;
+Received: from (127.0.0.1) by domain.com id h8j35o1mqroq for
+ <user@domain.com>; Thu, 12 Nov 2015 17:03:22 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?Posts=20Microgrid=20Newsletter=20for=2011=2F12=2F2015?
+From: =?utf-8?Q?Microgrid=20Knowledge?= <news@microgridknowledge.com>
+Reply-To: =?utf-8?Q?Microgrid=20Knowledge?= <user@domain.com>
+To: user@domain.com
+Date: Thu, 12 Nov 2015 17:03:22 +0000
+Message-ID: <25user@domain.com>
+X-Mailer: MailChimp Mailer - **CID53ae54c4f3d335b7960a**
+X-Campaign: mailchimp25b85319ed833b816410d639b.53ae54c4f3
+X-campaignid: mailchimp25b85319ed833b816410d639b.53ae54c4f3
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 25b85319ed833b816410d639b
+X-Feedback-ID: 18310731:18310731.352505:us7:mc
+List-ID: 25b85319ed833b816410d639bmc list <25b85319ed833b816410d639b.11729.list-domain.com>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: Microgrid Knowledge
+	<user@domain.com>
+x-mcda: FALSE
+Content-Type: multipart/alternative;
+	boundary="_----------=_MCPart_1922150568"
+MIME-Version: 1.0
+Return-Path: user@domain.com
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD056;1:/k17S5w34kgno+3fhlY6iAGxDuk22/IehJIZ65v+adWNLM9PdVH5YkKiT/DPiYUnEZ62GGX/aqcZB+BaaWa1Pcht1Zp/cSs4WVNNDo+0qo6E1FlyGG4mDuBIrb2It01ZtCjG+uISlZ7Je6JEkIavdUBLClG3UttM4jfo5T3b+7ZxnRzR6hxVdgOhHzn+ogVrlANPxeNf9gAjgpsoPspojeAuXUNGYnoqMLoqqkaOja8DQsn6/YkKJbp4uPxDyS+aja/BymsIGvBbjwKST+BmHUU4y9e1RgTZy7e895BxOPqsqVGwLF30Wzb2OonjwqQvxMi80WFYV42gOuFpKlmdb/euwRjDEop1uuDpmuR6sm6NW6He1yfu8QQFq1jscP3BBUAJAl8huDACiFZN+AI0BQ
+X-Forefront-Antispam-Report-Untrusted: CIP:205.201.134.85;CTRY:US;IPV:NLI;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:BN1PR07MB103;H:domain.com;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1PR07MB103;2:fTpJPyXbGUfEJyYNMjFmvcXi/JJMYoPPJjW5EGYbj7YZMEypF3G+tum49ARZrsoZH8vmR8E9tWQcbUeZHS0n899RadmVR03bbiNyVoY+BegO1sW4lBWlhqruujpzw1mqSoYQBDibUC+0EAD1ldCODrMi6q2j5X+rp+LsYyaHZ3k=;3:W1ADgq6HxjBfnVweLiwUMxkaSZhFCy9hljKS3zHFrwQoTGS40BByayGdqwF7I55wuY1lXcN6zqZjwi6KXsYIwc1U0OCgowgSE+VKHGBfiXL4egJp9QDHoF9k3GTqk5/1bwkc7bMeI71e3NRcw0oFhxgoPsZEQEd8meHtzEm3UoVm8QPGmCS8p+GFdHv6hHPxjLo/VWLlRaCOEjcQEw9gdFbC7xiBT/AVJIP7dwAtoqeh/pwEtJ5ALkjAZK5zaasUaO02xd0EkHL611zdeYmZTVJppr0Hv8FkvRPr3JIXSbqqc3gZrtEfbu+fQUODLgasfELA86mTwHBqV8owf8qQeJorwkX3OyTNqDQhkEdm0UctukBKaFoFJtJ1vdU/O+M3pNf3iLV6/QLom8vBZVWZR9f/XcgJebn9ut5boutrzN2VVBeGHIJke5SMK0riDNOQCnhkRUvlJybNCme9Nflklw==;25:Qfzd13f3lglNZjk71kaV/7wb5AdcC/7avnF9ORbPIcnL3Y0Meck0HqngS4ycTDb7wMDK5tXVLYYzESiG6tDs87CRxfwDf4ZayJOVr7yuOOjeBJ8Gtywp/PdwgTlf9vwRFqrGVglSdmEVR1UX/WlLvXJ7ODvETtXXxDek9gDXHEqVUVdNd20NNVuXx+XW6fEC9PCHhvngIuKGD33S9R9WYgy1I8tf4RZ/4HcMLBnA/MwtiH4jJEusmYpVp40HMlyoZi2XpDGnai7pel2Otn7vjw
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:(96343)(28256)(92638)(92639)(92640);BCL:2;PCL:0;RULEID:(421252001)(42132001)(42133001)(42134001)(42139001)(42140001)(42145001)(3001015)(120001)(71701003)(71702001);SRVR:BN1PR07MB103;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1PR07MB103;20:MM0W5LQPsZ+97w2xGazveZC44UgGg34MbSF90FFkrW2/hRXhNecWvSxbJVwAVY7QDcM5A+9+vOR9zzkIxGcLbbL6QSosJz8iy7tnEz47T2f1KzwRWA8NtdPpb/xCiTthfEV+vESqWms147oKfBvcwMYQtE6uxF3LOTqNswuwr2b3aWl1e7EZJqKh5sWMYlyqvEZgCl+Wjc+KG7l+g9+4goUDulALz7eioK2Ellx+5XVfTNp88gLNaCPS+5oAsqjj7pqOeXFUwEwlrYLF+7vQF4w5r78OW3PFi8NQ8HjNne1mAnp0XyO3JrQt2k9tJ9BquRBHjqU9bQh2T+JoUZ8lovYxOkMXHFkc42x1eX/NIXMYrOXhYMpWEmEehQ57+PzRFG0tgPxH/Y2qonntm5OMacSXNHJlpvidjFIg7h4sxqK33QX69vtBE5uf8eoEC6kVDWP2zSjEXFeYec8H3CZBbjPKeJwQTB28Rf3n8opOHb8DEfLUHog5MiwQlFGi36u5yqwXfH90ZJWvcZz9anrzSQ==;4:a7rgj2SNhLBSMFG0w+f/0I9pb8uAd9ugr9mE8hBczMULBt/3C3QuBFuMZ8xmjp5Ll3M2cxPR6Kcf+YGDAxrIMZqwB5gCsv5BXo85qMbVd6qW9TsL6Il1VkD8+QhrC+PTYnF9OUPrmi2lzctvDqKtfTsC5F2GN20tVRoQQmU7pL+RtEBx6xJjmObyyuEiKtNUSSeBigqT5unoiRlh2ax8GUgT/Gj7WF+q+vw88n1gkQsvhL0vGaEQsfXRrB63VCcj537rKe/htyM60zrGrqBeZPBcSuG2faFWn504n8Lh6pFOLaFuBBbG4chQyWkzuQUEkT8u1ygusD99F+FRV2gfyKIdDv8Vz1KwXVnpX2+S1imSS5rxxyFQsRhJpEu/IAf4
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:2;PCL:0;RULEID:(601004)(2401047)(520078)(8121501046)(10201501046)(3002001);SRVR:BN1PR07MB103;BCL:2;PCL:0;RULEID:;SRVR:BN1PR07MB103;BCL:0;PCL:0;RULEID:(601004)(2401047)(8121501046)(520078)(5005006)(10201501046)(3002001);SRVR:BY2PR07MB105;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB105;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1PR07MB103;23:FhZKxTZBz2DDn16z4pDRrnOOrWifCYievqCbw5A+WHaHp1TN8RtAKg8BlKX2TvfA0q1o0kBRRLxXgMs3SzF0rIjovXFXRLtrTUgrrlkZX8gyOhGKMAdObt30z7IXOQg6FrhBCepl3kejP4AA1TARtMLCw+q6dwCVPNtR3gPhyogVSqw61rNlOAwhUwHOA++A;5:gjGLJ3gHJDT8+X78ZzxUqeVFEDt+DmTCj+M3cvJPhiG0bQ0M2Tb8KyjfXYenbAZnaBxZ/rt5R1D6t+3rWJWSKyDHkD2aRP3Xot8caVmSey/cop/F0eUswnPSWRmQO8acka4MOc1JYwKRF0PVwEqX+w==;24:BZ3Xq8LV/YcyPBU08ZHllUML5EHUsF5OnHVn5DedyNidpjnaM1dcAP+khXqR3dFwnV9qWy/5+klHPa0JVhEMJ4P9V1lLGPlC6YM1i8ZpCAI=;20:cqM5GZYAcm68iomSKs7qEE7GCQ3MzZbCGASC0vRYrrXJkIdkOX/4CnEQ+ote9pND6wG2sDu7flrCiMnYsndAZw
+SpamDiagnosticOutput: 1:2
+SpamDiagnosticMetadata: 3c85f873dd7a4171976a269175c0457e
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN1PR07MB103
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1BFFO11FD026.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1BFFO11FD026;1:yxmswzQk6U/aM+DNOEYwaoqYwQ1PsNru+LL/xC1rdyEno54iWbSxGOyJYS+8rT1uvi+8dE7upD7bYqsVQbcofB+czxZuloC2c4ydavSgvtlSbpvbMRBfCxSxyw6fi5aik4Ex1Yl8rlm1Q5ffPNH0MXCYUJ2o1k3rcMx2xxdyWBW8/i7XxlbN2bWZQm328Cz2zp8p4M4xk2isgvQ/tWgjbOQ7NY6OAu9iI0Z8QGtkgrpNumJXyuxyH/pKazQ6ntrLhJnZTbXKo7SqNN6qgTcvRa57Qfx3ZB5pNCFPNP+VkM/XDK+o9ZM2boWqJQdJ9Q02J+OPWI5c98zTnLhlIioCuNncukRdHSEUY1FpoRVYEwE4k5tx6l2t31s+2OnXZwRf
+X-Forefront-Antispam-Report: 
+	=?us-ascii?Q?CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(100?
+ =?us-ascii?Q?09020)(2980300002)(1110001)(1109001)(339900001)(20394004)(37?
+ =?us-ascii?Q?7454003)(5423002)(199003)(189002)(479174004)(4983002)(262960?
+ =?us-ascii?Q?02)(16799955002)(11100500001)(5001960100002)(19619215002)(10?
+ =?us-ascii?Q?6466001)(19580395003)(6806005)(4001450100002)(300700001)(189?
+ =?us-ascii?Q?998001)(95666005)(450100001)(946001)(53806999)(1720100001)(8?
+ =?us-ascii?Q?1156007)(5006070100001)(18926415007)(105606002)(4290100001)(?
+ =?us-ascii?Q?50226001)(95246002)(956001)(512874002)(5002220100002)(159754?
+ =?us-ascii?Q?45007)(146001)(104016004)(110136002)(960300001)(107886002)(9?
+ =?us-ascii?Q?7736004)(88552001)(2351001)(16236675004)(19617315012)(509869?
+ =?us-ascii?Q?99)(118296001)(77096005)(5890100001)(33646002)(18206015028)(?
+ =?us-ascii?Q?229853001)(15395725005)(47976999)(84326002)(43066003)(196274?
+ =?us-ascii?Q?05001)(85426001)(5007970100001)(76806002)(75432002)(16601075?
+ =?us-ascii?Q?003)(2171001)(87936001)(19618635001)(7099028)(7029013)(56763?
+ =?us-ascii?Q?001)(42882005)(15398625002)(75806003)(579004)(256125003)(196?
+ =?us-ascii?Q?07625011);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR07MB105;H:mail.la?
+ =?us-ascii?Q?domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;A:1?
+ =?us-ascii?Q?;MX:1;LANG:en;?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB105;2:rYbWx8XS2BBXvmnK2aZr9PQZqE2Ol6BM/f0EgwKdD0qkzL1Pj39+qQ7b+XftukGKkiteZSfzzr2ExKUD22qYoaeqtFFX8JVXWhfmEMg6Ccdspqo4vIwwQF8jBTwqwbnQLfnqwsElWmEMM9YNHXYU2+3HI7sRqFaaKc8KArMczh8=;3:SMCHqBd/AhoKVh56nksn3gsWDBy1PJvfjoO2gjhMfTapFe9MbVmQE7/EoBHBKEG627NBTQVgBExjgCTjCFArNGPUduBKoiI/sdufxmv6RIJXoJ671Ls57qZsslyB+q7h3QPJ2KLFuVjlkzpduDLpgTUIWxarNFamjGwAcojiWnqnDBwfXh6iOkzm+3oYesG38DUW0y3cc/TmgnzefhhB0dJ/mDL7VHTGvR+ClNGZNTDbe7fvf66dzVagaAqpWMAnkTY8igNfkFDF1ylSKGVNnONxr1E0rtsWZp9XONoVqQcUl6oieiDQo1oIRcS8/uIEN6y8inr8AFDQ8HO2Kdui1TM3Phwb/bkSZAS5MNYrsc6x2sGEexLb9w8PWf6HLCecWd/FfY6Gdo4n0GAtUP8a60OQ3UG9a5V/OHtZUMiODu8=;25:xk18AlQYmxFiiG7tb8LMTHHdRj4bxyD8O3dPt4FTAmALj/KyVDgDXIwk09uRb7AnDXJkHPiecFcZjnF5l+4D0iKjNT3T2m4tteLsrN7IzL3Xo4j5Gg95Be28TrTO+JU8D0YcrO9oxqT/M7C5KzUowtd5moS3g59FbO6mu/L57T6thEJ6XXfSHoMm3n3gdQ75UnSH1GMMi8IA6Xia5CYDC0OGPhMNeHlcAhWFjYApzsYsEEFg2riWtriGcdcW37ISscyPoCeDxfTjmgEEzexM2g
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:(96343)(28256)(92638)(92639)(92640);BCL:0;PCL:0;RULEID:(421252001)(42132001)(42133001)(42134001)(42139001)(42140001)(42145001)(3002015)(120001);SRVR:BY2PR07MB105;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB105;20:/Q5PKxPixp7B8jXZSGPVjxZXR7+Y04KPAhgASkEVWKbUAlGTSFwkq+8/5Ekv8cNwas/ONokFmWoFODZ3KjCu8aaXTT6aQvTMYRGXeg3q6xCTdyOsrxwcgScDuwtr/5tZuFmPCJ5eu/u/9aMtOapsdZI8gToLNil3HAindtnG4iwq492DWvFxE2tfNm4NUHyFwvkb8yK9hhNP+BwyIXZVjD6t5OFsRN78GkDosfhIJEYjvARPZkDAompHfKQ5dAtLIu2zt5eiIo5+bOuddWVaUDtXe+Y5TzMqEaUQM24uBzzhGNIMiQDltUQGOHYM3APSjA4daxqwV+wbWM1jZW8uGmu8XnpW8cJMOOAveds/dsRhuEHg0us1NPfC9O6YmydIrIhLTOUGPD7WtpbKn3adnw1MksfDXmpfiStzh+CffQk=;4:82DXX//EiKyZNfirwmQdCX+zVpWBfxb29ddAifXhti0yvxjl0O/UTdL7xCRKoUYZJVwFe33mY/5l7ub8ZM1XfJxb1BOgCo5kgQf2jMXJsDl2AXyCMH5RAp/74reQDMWRpTN8+aJxxU0lHHTBvdOCWQX4DJS3A6mEt4BpiE461kdy6LnfU06/9EC52NzW8dxazxVOYyCjXVKPtw2oOM6g0eKlBqBuaBlddxrXEk6soD2narl/4DEnbW3JogHanjBPGZOuyLH/llLttOqnRtHwkfTA5exr7/frmCXmxYJkCFfQo7R08H8Y7QLB4yEIffrCad96VAxeUCX15EF/Ywj30GEmZtDOafm9U5JjUz6DACWzhDf/xrCvJgtVRVNPQqUZ
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 07584EDBCD
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BY2PR07MB105;23:JrEfwSmIupMvK8uUsQsmXbCD1adfn1JOrGIl1tMwht?
+ =?us-ascii?Q?Ypms/x/a9zE8IBkiPJf/W6aEFMPiEWJbktjUKVQ64Ec432pAzSq7aCgpwtjC?
+ =?us-ascii?Q?JZZBVzEOeiL67S2ijG/L1AoShI60BsmQ9BKZS+owR4kxiF/3Gs5Iwg91t/7x?
+ =?us-ascii?Q?Ys1OtUwt3eKL3wVWrSnj2fG8nPl2jyFm+bGP+zJ1Jmkq3iCiKH2cMB2ivHfH?
+ =?us-ascii?Q?Bd5ld7cEfYDf24RNadyysAiSt5Qe0pq3cvDaw0+gLQ7YKjNZduDVMPCvfMSg?
+ =?us-ascii?Q?5rvRLPy0MY1CvzRqOEqgQ0jH8RtN6iQs9RFVuJqrIhLopP7X9W/sDlp/JGvq?
+ =?us-ascii?Q?KYRJMHUs9DE24yqfXQAKbmOpTdusIHvxCMkVkqcpbeXZzQ/opPpVIUIcmW/u?
+ =?us-ascii?Q?YNjoVAXr8lvjGBHnPh0Bjjxl3RWODfOMGrHu+Mt02+wM9QNdmB3tkQNfu1Iy?
+ =?us-ascii?Q?xBysM64Kf7UXOTXt1iemK5eSa0QQlQ8kxS0e3Qflu4soHFFLkA/fR8BCaNeD?
+ =?us-ascii?Q?SZiN4UjCCFfQ3axjiK3YCnNrPse2d6VWAlpDKQU2BjE/t3MId0LZubAqj+yH?
+ =?us-ascii?Q?RO/LM4cezJY9xSYc3WHKDZnIvp5Kh+s8gdAOR7C7nl77VNrGcYpJyLM7njyt?
+ =?us-ascii?Q?SqIsI0tvqqRaV3w2fjwQ0bxjiBCXH75NW3iTqBbpj6dERpwdGsmRcA8T3cfZ?
+ =?us-ascii?Q?l3WbVMJCpi4HINk+LH6qL4kP+N2TkImA7PKEhfvTrwVrXoShlst/98nnIzlL?
+ =?us-ascii?Q?/45/y2wRYUQCUFlvWN270Jokx+RUdkJtgjzdJ+K1WulqGaqW3ok0lCoIG+ff?
+ =?us-ascii?Q?1EDGdTV5pB65UHm2JHVOoZBDW9HU54I5O9XEDDbT/9ueuvDdE08XECdIDDfz?
+ =?us-ascii?Q?xVhNSCRp3zyYYvIkk0xnj0HnBnDpUXufcxgNcjjGyM+jOurLxNNj62KMTDcU?
+ =?us-ascii?Q?sDDftNr2Fawx/x2psFWtppl8NWAaw/ULANx1AmWfKfHcuLMV45jb1G/FHlNF?
+ =?us-ascii?Q?9ofgZmTQmGZGG+XDDYtG5odLN4u1bd2cdTOKOPgZQiY8Es6tdJVh+frK5KXO?
+ =?us-ascii?Q?BT6DgULYw5RPgb2IjNeQewBgNlR+XKGluDYgyl6+r+gRtT3+Xqwi/Ep4LWFs?
+ =?us-ascii?Q?+b/oc1ZMXA/F4w4aI9GapNIonWguSeBJkYFYxnwIRNj0YlYsArogGdZOFL6I?
+ =?us-ascii?Q?qlZPLGshnvV5oJNJY4zrl+CUqmLJ75ezOU01rWJyWfAvCjieAKyx9wyjFFPa?
+ =?us-ascii?Q?GXKSZAQl2fi+Gk882+5adlq6+c6aCZBhqQMpTsFYcql2+y32qg0EwYwzrHph?
+ =?us-ascii?Q?wVAQwmdbhdBRKSLN084QxN7gglF0owglq8f6sZONTFhp2huaUAHHqiDVHUjf?
+ =?us-ascii?Q?QRZ9XTPpMmUvQrBKeXlrBKkt0zp4PUIXlYLsGGouqsVg3nY/4mZBcdgbKq8H?
+ =?us-ascii?Q?89H0xK8GWcy2W/VIPYq2X0hfFhyVz0tAHk6T0YeqiThlrzGvKSCdYhaqrdRL?
+ =?us-ascii?Q?J3PCPvg9M2LVtlLWKmhjqAV9A46mn4wUQeFj2ursRMYq/eNUsk4OOAGY4xQX?
+ =?us-ascii?Q?Ss9qHXd7g19bxIi9K63XSwK1gr7FcZBQO2SlT4E0l4D/XGMWKXkVFyeFEc5c?
+ =?us-ascii?Q?iIgwvv0ePaYZLJpMUj7EWZimwv5ZxnCFQKC/sfUuHYuSaTcjeyCgAHSKtCUR?
+ =?us-ascii?Q?d7vubcG54j/6NFJRSfygwoC2eiAsUiEIvZFy3e2pBWHkrlBrKHheO7WxDWiy?
+ =?us-ascii?Q?Hg8TmcCewMSGMt0UbVYfkR8e+En5NvM6HBjkl/0l6w2PR94Cbm1F8FebhUws?
+ =?us-ascii?Q?gr7lRchauWDid38K798VroArrXWr6n1gja7mf3DKs6vKem8P8J2YKiBffWin?
+ =?us-ascii?Q?ENznNXb/P43azjAFusAT8IvmAPcYOTL6BqM2iiYe0mybiqpKHiW47T6R436f?
+ =?us-ascii?Q?F3P7GhMEg3tJTnSk60rztKijyKk1hoZkbtjKSUHA=3D=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB105;5:1+2vpmJALBgLVar8Qnnl66s9r1OjqWoMyWBi52IzAX8MgM4w1A2syksKO0eQPNZafFW66kmS38p5xhZS+nj7whTciRGBS5emBJBFtCq5noIWC60sn2R3Fg6mG0Iwx4Ebkn8CE6JFqehAtTY9YO26NQ==;24:90gfLnbkNGS2EyHhDthUoBD6ZIq3FK46RQ21z7FQGVsWOmismgcuwDP3gmXW9v+8xdAAD2IZqpy1HiAGpNmOOpHv8iGzo4B7gQSZuk79afs=;20:McuvMOwc6MfeBCzOdPg6Y6k8XhG8/M4zh729f1DETgff34HitpfWs8aBRo7km28JwQqUOkiWXv1+xHvOam88mw
+SpamDiagnosticOutput: 1:5
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Nov 2015 17:03:48.2012
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB105
+
+Microgrid Knowledge :: Tracking the News and Opportunities with Microgrids
+------------------------------------------------------------
+Email not displaying correctly?
+View it in your browser (<<link>>
+33b816410d639b&id=3D53ae54c4f3&e=3Dd335b7960a) .
+<<link>> <<link>>
+28/click/0
+
+Microgrid Knowledge Newsletter from the Editors of Energy Efficiency Marke
+ts
+
+** Weekly Newsletter for 11/12/2015
+------------------------------------------------------------
+
+** An EV Charger that Forms a Small Household Microgrid? (<<link>>
+domain.com/an-ev-charger-that-forms-a-small-household-microgrid/)
+------------------------------------------------------------
+
+** By Elisa Wood on Nov 11=2C 2015 01:39 pm
+------------------------------------------------------------
+Can an EV charger multi-task? Researchers at Kettering University in Michi
+gan say they are creating an EV charger that will do far more than just ch
+arge our cars. Think of how much more today's cellphones do than just make
+ calls. That's the kind of future this team envisions for EV chargers.
+
+Get the full story here (<<link>>
+forms-a-small-household-microgrid/) .
+
+<<link>>
+
+** Other Recent Articles
+------------------------------------------------------------
+
+** NRG EVgo Pushes the Envelope on Microgrids and Electric Vehicles=E2=80
+=A6and More Microgrid News (<<link>>
+san-diego-push-the-envelope-on-microgrids-and-electric-vehicles-and-more-m
+icrogrid-news/)
+------------------------------------------------------------
+NRG=E2=80=99s EVgo and the UC San Diego push the envelope on microgrids an
+d electric vehicles...AutoGrid helps Dutch company monetize distributed en
+ergy...Two new distributed energy trade groups form.
+
+Get the full story here (<<link>>
+-diego-push-the-envelope-on-microgrids-and-electric-vehicles-and-more-micr
+ogrid-news/) .
+------------------------------------------------------------
+
+** Case Study: Necker Island=2C British Virgin Islands =E2=80=94 Among the
+ Most Energy Efficient Islands in the World (<<link>>
+/case-study-necker-island-british-virgin-islands-among-the-most-energy-eff
+icient-islands-in-the-world/)
+------------------------------------------------------------
+<img width=3D"430" height=3D"305" src=3D"<<link>>
+content/uploads/2015/11/NRG_NeckerIslandMicrogrid.jpg" class=3D"attachment
+-large wp-post-image" alt=3D"NRG_NeckerIslandMicrogrid" style=3D"float: le
+ft; margin-right: 5px;" border=3D"0">In 1978=2C Sir Richard Branson purcha
+sed Necker Island=2C a beautiful getaway in the British Virgin Islands. Wh
+at began with a dream of creating an environment where people could talk a
+nd relax soon became an unparalleled luxury retreat. Now=2C Branson has a
+ new dream: to transform Necker Island into one of the most energy efficie
+nt islands in the world.
+
+Get the full story here (<<link>>
+sland-british-virgin-islands-among-the-most-energy-efficient-islands-in-th
+e-world/) .
+------------------------------------------------------------
+
+** Libertarian Group Says Fewer Rules=2C More Microgrids (<<link>>
+domain.com/libertarian-group-says-fewer-rules-more-microgrids/)
+------------------------------------------------------------
+<img width=3D"430" height=3D"343" src=3D"<<link>>
+content/uploads/2015/11/Bureacratic-red-tape.jpg" class=3D"attachment-larg
+e wp-post-image" alt=3D"Bureacratic red tape" style=3D"float: left; margin
+-right: 5px;" border=3D"0">Would 'permission-less innovation' spur more mi
+crogrids? Yes=2C says the Adam Smith Institute=2C which envisions distribu
+ted energy growing like the domain.com.
+
+Get the full story here (<<link>>
+ays-fewer-rules-more-microgrids/) .
+------------------------------------------------------------
+
+** Connecticut Offers $30M in New Microgrid Funding (<<link>>
+domain.com/connecticut-offers-30m-in-new-microgrid-funding/)
+------------------------------------------------------------
+<img width=3D"430" height=3D"320" src=3D"<<link>>
+content/uploads/2015/11/Downed_trees_blocking_road_after_October_2011_nore
+aster_Granby_CT.jpg" class=3D"attachment-large wp-post-image" alt=3D"A fre
+ak October 2015 snowstorm caused massive power outages in Connecticut" sty
+le=3D"float: left; margin-right: 5px;" border=3D"0">Connecticut yesterday
+ launched its long-awaited third-round of microgrid funding=2C which will
+ offer $30 million in new grants for both municipal and private microgrids
+=2E The Department of Energy and Environmental Protection (DEEP) will begin
+ accepting applications December 10.
+
+Get the full story here (<<link>>
+30m-in-new-microgrid-funding/) .
+------------------------------------------------------------
+
+Follow Us
+
+** facebook (<<link>>)
+** (<<link>>)
+** linkedin (<<link>>)
+
+Interested in Sponsoring the Microgrid Knowledge Newsletter? ** Click Here
+=2E (<<link>>)
+
+Copyright =C2=A9 2015 Energy Efficiency Markets=2C LLC - All rights reserv
+ed.
+ You are receiving this email because you opted for our newsletter at Ener
+gy Efficiency Markets (formerly known as Real Energy Writers).
+
+Our mailing address is:
+PO Box 113
+Westborough=2C MA 01581
+** unsubscribe from this list (<<link>>
+domain.com/unsubscribe?u=3D25b85319ed833b816410d639b&id=3D1774229f01&e=3D
+d335b7960a&c=3D53ae54c4f3)
+** update subscription preferences (<<link>>
+t-domain.com/profile?u=3D25b85319ed833b816410d639b&id=3D1774229f01&e=3D
+d335b7960a)

@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.100.139.5 with SMTP id m5cs277751and;
+        Sat, 9 Aug 2015 11:06:16 -0700 (PDT)
+Received: by 10.100.119.12 with SMTP id r12mr8222546anc.73.1218305175693;
+        Sat, 09 Aug 2015 11:06:15 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from smtp.barackobama.com (smtp.barackobama.com [208.116.214.90])
+        by domain.com with ESMTP id h15si4343086wxd.21.2008.08.09.11.06.15;
+        Sat, 09 Aug 2015 11:06:15 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.116.214.90 as permitted sender) client-ip=208.116.214.90;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 208.116.214.90 as permitted sender) user@domain.com
+X-ASG-Debug-ID: 1218305174-0f63008f0000-MKFCFn
+X-Barracuda-URL: <<link>>:8000/cgi-bin/mark.cgi
+Received: from outbound.barackobama.com (localhost [127.0.0.1])
+	by smtp.barackobama.com (Spam Firewall) with ESMTP id CFEBA7A8A96
+	for <user@domain.com>; Sat,  9 Aug 2015 13:06:14 -0500 (CDT)
+Received: from outbound.barackobama.com (domain.com [10.100.2.10]) by smtp.barackobama.com with ESMTP id qKP8PagD9orY7A16 for <user@domain.com>; Sat, 09 Aug 2015 13:06:14 -0500 (CDT)
+X-ASG-Whitelist: Client
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C8FA4A.9CF5CA23"
+X-ASG-Orig-Subj: Eric Schmidt, CEO of Google
+Subject: Eric Schmidt, CEO of Google
+Date: Sat, 9 Aug 2015 13:06:13 -0500
+Message-ID: <1user@domain.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Eric Schmidt, CEO of Google
+Thread-Index: Acj6SpvrfezjeuabQBmFCgJutlrFeg
+From: "Adam Hitchcock" <ahitchcock@barackobama.com>
+To: "User" <user@domain.com>, user@domain.com
+X-Barracuda-Connect: domain.com[10.100.2.10]
+X-Barracuda-Start-Time: 1218305174
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at barackobama.com
+
+I was talking with Eric Schmidt yesterday in our offices about our
+Business Leaders Outreach program.  Shortly after our meeting he was
+directed to Rouse and I about participating in the transition.  Our IT
+guys who have working with him on various projects and at the same time
+assisting Genachowski and Edley on the White House IT stuff and working
+with Froman on using IT for hiring personnel.  They think that Schmidt
+would be able to help on both of those projects.  Is it fine if I reach
+out to Genachowski, Edley and Froman and gauge their interest in having
+him help?  He has already done a lot for the campaign. 
+
+--
+Adam Hitchcock
+Obama for America
+user@domain.com
+

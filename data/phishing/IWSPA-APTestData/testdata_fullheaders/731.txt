@@ -1,0 +1,48 @@
+Delivered-To: user@domain.com
+Received: by 10.140.16.184 with SMTP id 53csp126309qgb;
+        Mon, 9 Jun 2015 06:57:01 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.152.4.137 as permitted sender) client-ip=10.152.4.137
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 10.152.4.137 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+X-Received: from domain.com ([10.152.4.137])
+        by 10.152.4.137 with SMTP id k9mr2500244lak.46.1402322220301 (num_hops = 1);
+        Mon, 09 Jun 2015 06:57:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: user Carrk <user.carrk@gmail.com>
+        bh=a0PCKE7WxGygmg0fq6oaMs7VLkgmK6sDjU79u5C/B5c=;
+        b=BOHRQywmX/0tJ/RuxsRwAfU/2Q55ikJo306z9lyxX1vOO99BYS8dM6YPBigMmcJp35
+         OZ82ewOsLT0BHJ9bTVTA9sCaX2Mm3fRUAhj82zjf+NK9b9l2Kv7TZ3BJ4os5/nHU6BC4
+         cCP1wXsVWTv8d7jFJq09g2G+lsp3OlfZNPtO3fpebwcLe3OwAtfyi0CSLs4B03z75gli
+         zhfWFww0lGezOZvbnsg0W3Iq/4fTL8BTcjpo7CM/FVKPuSGiUuNToQMtmFw/cVD82NgC
+         IRUM4fd8tJc9h15ozAAtoTaSQMBdAlw8QZ2if/TrJBSMzUzOyecd/pfFroygSVyknwlx
+         ofVA
+MIME-Version: 1.0
+X-Received: by 10.152.4.137 with SMTP id k9mr2500244lak.46.1402322220295; Mon,
+ 09 Jun 2015 06:57:00 -0700 (PDT)
+Received: by 10.112.118.165 with HTTP; Mon, 9 Jun 2015 06:57:00 -0700 (PDT)
+Date: Mon, 9 Jun 2015 09:57:00 -0400
+Message-ID: <user@domain.com>
+Subject: Italy
+From: user Carrk <user.carrk@gmail.com>
+To: user@domain.com
+Content-Type: multipart/alternative; boundary=089e013d1cf8cd2ed704fb6795ca
+
+Hello sir,
+
+How are you feeling? I heard you had your second surgery last week but are
+already back at it.
+
+Our vacation to Rome/Vatican and Florence is coming up at the end of next
+week. I know you were just there, so any recommendations would always be
+appreciated.
+
+On another note, I don't think I gave you my cell. I wanted to make sure
+you had it if/when we can continue our discussion on other matters ...
+518-281-2738.
+
+Talk soon,
+
+user

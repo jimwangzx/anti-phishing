@@ -1,0 +1,103 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp347955lfb;
+        Tue, 8 Dec 2015 17:08:14 -0800 (PST)
+X-Received: by 10.50.36.69 with SMTP id o5mr7274339igj.3.1449623293889;
+        Tue, 08 Dec 2015 17:08:13 -0800 (PST)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::248])
+        by domain.com with ESMTPS id c41si4896791ioj.137.2015.12.08.17.08.13
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 08 Dec 2015 17:08:13 -0800 (PST)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4001:c05::248 as permitted sender) client-ip=2607:f8b0:4001:c05::248;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4001:c05::248 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-domain.com with SMTP id wf13sf43741877igc.2
+        for <user@domain.com>; Tue, 08 Dec 2015 17:08:13 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:From: Gary Gensler <ggensler@hillaryclinton.com>
+         :subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=AmJykybCJ02gRveauEC5PU2GoXO+AlAHKLUY3L0dA78=;
+        b=gLhlSdRDcNWMUGCdotI0WzisELZNQzfc1LjvyBd7lex4qyXV6blLenMy9+qUrxnfmd
+         4vjYXBJ+M5Lft5MvW/domain.com/UKdtZBj10DT/wH05iwv
+         CZ6fZkZlHlNd/4dE4uugdfMmjw52myjaVvQa0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:From: Gary Gensler <ggensler@hillaryclinton.com>
+         :date:message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=AmJykybCJ02gRveauEC5PU2GoXO+AlAHKLUY3L0dA78=;
+        b=CBg7bNxxF+ACUGo/OorDFy4R2ncmxjVD9MuXVqbjFhBIqx6dG79N9N3/zrW6MZDm0+
+         CAS8iLR6vyOorEaTLRnr6hzLrE7e6bxcAqaW1PegqIjQJ3CJoiKq/nS8Y1pHqBd7BeH/
+         9q6OfDSCjPfZ4yPWGj2MHphR4cbSDVh5iik+Pgg1/CPax8kYlTepWnrjE+N3TLDVaiNz
+         0vO5DNAlK8Dz5lUr1h1PPNOZSWebvG+YuP9D4I7O08DDCfv/7YD6bTbYQ4/ecjSvRBX5
+         dIWBgdOKUbjzc1Ll0G9tToAifPX/66h2r4zJSFg2Kxtm0aIY5j8tE7UKhASNReqacgf4
+         lArQ
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQny/pRxJvNL/PBlkVbXmkMES7sB/RBFQEGK05TybbYHVlYxbu+NGa087ljhUHGJ61aTy1ZDFgyk3gKl0AZtX/Vr7I1M6w
+X-Received: by 10.182.119.164 with SMTP id kv4mr2609775obb.9.1449623293572;
+        Tue, 08 Dec 2015 17:08:13 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.50.33.37 with SMTP id o5ls859190igi.8.canary; Tue, 08 Dec 2015 
+ 17:08:13 -0800 (PST)
+X-Received: by 10.50.109.201 with SMTP id hu9mr7437373igb.5.1449623293264;
+        Tue, 08 Dec 2015 17:08:13 -0800 (PST)
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::22e])
+        by domain.com with ESMTPS id 21si8847982iod.72.2015.12.08.17.08.13
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 08 Dec 2015 17:08:13 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::22e as permitted sender) client-ip=2607:f8b0:4001:c06::22e;
+Received: by iouu10 with SMTP id u10so44203881iou.0
+        for <user@domain.com>; Tue, 08 Dec 2015 17:08:13 -0800 (PST)
+X-Received: by 10.107.150.210 with SMTP id y201mr3318192iod.175.1449623293067;
+ Tue, 08 Dec 2015 17:08:13 -0800 (PST)
+From: Gary Gensler <ggensler@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <user@domain.com>
+ <user@domain.com> <user@domain.com>
+In-Reply-To: <user@domain.com>
+Date: Tue, 8 Dec 2015 20:11:35 -0500
+Message-ID: <1605737905446255549@unknownmsgid>
+Subject: Re: DRAFT + FOR THE BOOK: Iowa town halls (manufacturing and inversions)
+To: Megan Rooney <user@domain.com>
+CC: David Kamin <user@domain.com>, 
+ Speech Drafts <user@domain.com>, 
+ Speech Book <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1141b98c711a4d05266cb949
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:4001:c06::22e as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+My quick read I like though would drop the 'it's about patriotism' and
+gratitude lines.  Companies aren't people (even if courts see it that way).
+  It will strike many in business community as silly.  I would say 'it's
+about fairness'. And also about paying all taxes due.  Also about leveling
+with small business.
+
+Just a thought
+
+Sent from my iPhone
+

@@ -1,0 +1,48 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.31 with SMTP id o31csp787181lfi;
+        Sun, 22 Feb 2015 10:22:14 -0800 (PST)
+X-Received: by 10.180.108.239 with SMTP id hn15mr13920311wib.38.1424629334110;
+        Sun, 22 Feb 2015 10:22:14 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-wg0-domain.com (mail-wg0-domain.com. [2a00:1450:400c:c00::232])
+        by domain.com with ESMTPS id f4si56935211wjy.26.2015.02.22.10.22.13
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 22 Feb 2015 10:22:14 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c00::232 as permitted sender) client-ip=2a00:1450:400c:c00::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c00::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-wg0-domain.com with SMTP id l2so21270809wgh.9;
+        Sun, 22 Feb 2015 10:22:13 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Cheryl Mills <cheryl.mills@gmail.com>
+         :cc:content-type;
+        bh=3IEHxvOAHHUu1fgN0gEotCo4sxql0WEBPL56yMsZsPE=;
+        b=JI0kfOBMvamvgix/i0TGzoqZT7UhNk1X6uCz14Z9QFpC6R/APSah4fMBiIA0V7sVvk
+         xipXD+qJGXOb8vnV0E6+jF40siRGpIeNihwOoULjQPUbuWn7jAXxHlDYtgfQHOxj47Yw
+         /niQK1fss9pTDHBvhH4dmwSqrkCOxxo7jpDlxwizQoKExk7/GfP9qUAhRxFA6Uk8Zz6a
+         +N53RxBXZ7mezXK+C28HsvU+Tcpb3gOlkmWdGcpRVQTP9lM+lSo9LR6DTNe8haokkTMI
+         Vtv14fZIUL6irifsb4iEkhaTrx2ZnwB2jI58W8HvVQBZskhLs/BD8MnvKMVdm4+j+va2
+         sAdA
+MIME-Version: 1.0
+X-Received: by 10.181.13.174 with SMTP id ez14mr13800156wid.72.1424629333432;
+ Sun, 22 Feb 2015 10:22:13 -0800 (PST)
+Received: by 10.27.51.1 with HTTP; Sun, 22 Feb 2015 10:22:13 -0800 (PST)
+In-Reply-To: <13user@domain.com>
+References: <user@domain.com>
+	<CALk44aAOFkkCRP+2user@domain.com>
+	<13user@domain.com>
+Date: Sun, 22 Feb 2015 13:22:13 -0500
+Message-ID: <user@domain.com>
+Subject: Re: Politico/State Dept/Foundation
+From: Cheryl Mills <cheryl.mills@gmail.com>
+To: Hartina Flournoy <user@domain.com>
+CC: John user <user@domain.com>, 
+ Bruce Lindsey <user@domain.com>
+Content-Type: multipart/alternative; boundary=f46d0435c07e5b1eac050fb15df2
+
+happy to do a call today / or tonight before 9pm,when I have another call
+
+On Sun, Feb 22, 2015 at 1:21 PM, Hartina Flournoy <user@domain.com>

@@ -1,0 +1,113 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp329987lfb;
+        Mon, 3 Nov 2015 18:33:49 -0800 (PST)
+X-Received: by 10.140.96.101 with SMTP id j92mr67114583qge.87.1415068428584;
+        Mon, 03 Nov 2015 18:33:48 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.208])
+        by domain.com with ESMTPS id u67si32469346qgu.103.2014.11.03.18.33.48
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Mon, 03 Nov 2015 18:33:48 -0800 (PST)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.208;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.241.243] by server-16.bemta-8.domain.com id 98/E1-12670-C0B38545; Tue, 04 Nov 2015 02:33:48 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-15.tower-192.domain.com!1415068427!8413634!3
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 25400 invoked from network); 4 Nov 2015 02:33:47 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-15.tower-192.domain.com with AES256-SHA encrypted SMTP; 4 Nov 2015 02:33:47 -0000
+Resent-From: Ann's iPad <info@kirkpatrickforarizona.com>
+Received: from domain.com (216.82.243.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Mon, 3 Nov 2015 21:33:43 -0500
+Received: from [216.82.241.131] by server-12.bemta-8.domain.com id
+ F4/8B-02200-70B38545; Tue, 04 Nov 2015 02:33:43 +0000
+X-Env-Sender: AQZVVmpVVAZdBFIDCFQLUwcIUgEBPhVcBlxBF1d0WQUSS1FQDBYBURFcR1s
+  user@domain.com
+X-Msg-Ref: server-13.tower-54.domain.com!1415068422!7677314!1
+X-Originating-IP: [69.25.74.172]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNjkuMjUuNzQuMTcyID0+IDE3MTk1Mw==\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 21974 invoked from network); 4 Nov 2015 02:33:42 -0000
+Received: from mta-dock-front-1.domain.com (HELO
+ mta-dock-front-1.domain.com) (69.25.74.172)  by
+ server-13.tower-54.domain.com with SMTP; 4 Nov 2015 02:33:42 -0000
+Received: from domain.com (unknown [10.0.200.60])	by
+ mta-dock-front-1.domain.com (Postfix) with ESMTP id 3jWw5n1Rfkz11C7
+	for <user@domain.com>; Tue,  4 Nov 2015 02:33:17 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1415068397;
+	bh=35UTxkx/UXzXY/n3Bxnnof/XBn9qT21p+HRKxK9/DP0=;
+	h=Date:To:From: Ann's iPad <info@kirkpatrickforarizona.com>
+	b=QYLl5YE2P5dMWZqSco2I6KrRLgwPBtGq00cUdez3rAkn8KpL+derfhRbmb8e3hP8T
+	 c5i2WDkbXBlgAVzKvyho8XyrqUoTGdvOOnE8u8ZPCV7nL/Dz+EfN4A4l05675IqXXW
+	 MX3t3G5r7uygHoWcBWZi61z8+SAHgMrfyVnEMyPM
+Received: from build 	by domain.com with local (PHPMailer);
+	Tue, 4 Nov 2015 02:33:17 +0000
+Date: Tue, 4 Nov 2015 02:33:17 +0000
+To: John user <user@domain.com>
+From: Ann's iPad <info@kirkpatrickforarizona.com>
+Reply-To: <user@domain.com>
+Subject: thank you john
+Message-ID: <8user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 12287b69182d1b35
+X-rpcampaign: rp_117267
+X-maillist-guid: AQZVVmpVVAZdBFIDCFQLUwcIUgEBPhVcBlxBF1d0WQUSS1FQDBYBURFcR1sfAFcUag0BAAYP
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_8eb44a5a2ab37e64020bc36286b01e81"
+
+Joe Biden emailed you.
+
+Kirsten Gillibrand emailed you.
+
+Now I'm emailing you -- again. Here's why:
+
+-- Republicans are spending an astonishing $8 MILLION to attack me on 
+Arizona T.V.
+-- Andy Tobin has the full-financial backing of Boehner and the Kochs
+-- and our race is still tied with 9 days left.
+
+The numbers are frightening: Our final week ad buy deadline is in 48 hours 
+and we're far, far behind on our fundraising projections.
+
+John, there's no time to lose. If we fall short Tuesday, it'll be a 
+heartbreaking setback for our Arizona campaign.
+
+48 hours to go. Can I count on you?
+
+ALL GIFTS MATCHED
+
+<<link>>
+FR_2014.10.28_b1_ak_ldnd&amp;amount=3D25&amp;amounts=3D15,25,50,100,250,50
+0,1000&amp;user@domain.com&amp;firstname=3DJohn&amp;las
+tname=3Duser&amp;city=3DWashington&amp;state=3DDC&amp;zip=3D20016&amp;p
+hone=3D2162818851&amp;occupation=3D&amp;employer=3D&amp;recur_weekly=3Dtru
+e
+
+Thanks,
+
+Ann
+
+This message was emailed to: user@domain.com
+
+To unsubscribe from this email list, please paste this URL into your 
+browser:
+<<link>>
+
+Paid for by the Kirkpatrick for Arizona
+

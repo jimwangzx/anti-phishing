@@ -1,0 +1,66 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.86 with SMTP id y83csp14178lfc;
+        Wed, 28 Oct 2015 08:23:40 -0700 (PDT)
+X-Received: by 10.180.75.102 with SMTP id b6mr3523176wiw.76.1446045820752;
+        Wed, 28 Oct 2015 08:23:40 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [209.85.212.177])
+        by domain.com with ESMTPS id 195si4261559wmq.40.2015.10.28.08.23.40
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 28 Oct 2015 08:23:40 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.212.177 as permitted sender) client-ip=209.85.212.177;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.212.177 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id fv8so484wic.0
+        for <user@domain.com>; Wed, 28 Oct 2015 08:23:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:From: Teddy Goff <tgoff@hillaryclinton.com>
+         :cc:content-type;
+        bh=PT2xDm8SCPT7lfHy6xcAcd8fx7XXq4FP9Dnwddr+Nk4=;
+        b=BlL5Hb0460AHh/8vA5u7f6w1q37ySeuCjYg4DrKb4R9wWl/PfcRSMpy4yq4cWNPVK4
+         Jro+aVETnypmtb4WfwW5kv/k3CkcOPxLq+cyaUqyYJvsBjLJdnvLilWV80KjtxjOYGmc
+         GEYwAj2kMmPYVBCqKTiAdvp3BiRGYr7FIBQiU
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:From: Teddy Goff <tgoff@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=PT2xDm8SCPT7lfHy6xcAcd8fx7XXq4FP9Dnwddr+Nk4=;
+        b=X5ebMCaXpsRYJEAagHt426/7++QtTIBtgHdh09SNWU19bAL5S7a87dXuMkzykCtVMQ
+         pG2DP18YPkPbc9/Y8LV7EjkgQka3oiQO0n6AuWcI5qefOvMxoP4mrguzRf6FF2zDaYR6
+         FeozcZ5JkJiTgTKNAhIWmSY2GVOmksDpfVTjFrVz3oHSVWyaSwv8TbPnpN8xxIAgAvsO
+         6gmXv/FX3SVcz0ser6cR1i7mVa2WB3HRe5bna14nQHtoeVhi/zhxVe3NniZgDKEpEekG
+         3cCnLKRYvigg0uSBkjAKV+y7nnPb3rnbD3ujBT8V9bf+aKAtaXQqjkYy1yNcJocWJ6W9
+         m3Xw
+X-Gm-Message-State: ALoCoQlAE7bsLFNGI1AiHjqLklmvZHWUVc5pjfpdfWGPeWnWpteybkpn9qG0RzmHs1ZkHSojYBD4
+X-Received: by 10.180.8.74 with SMTP id p10mr3464902wia.16.1446045820506; Wed,
+ 28 Oct 2015 08:23:40 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.27.14.203 with HTTP; Wed, 28 Oct 2015 08:23:20 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+ <user@domain.com>
+ <2676user@domain.com>
+ <CADHYb19i-njLXMEB=-7G+user@domain.com>
+ <8818271652673084844@unknownmsgid> <user@domain.com>
+From: Teddy Goff <tgoff@hillaryclinton.com>
+Date: Wed, 28 Oct 2015 11:23:20 -0400
+Message-ID: <CADHYb182UjxTkqQMZOrEvxQR+0=user@domain.com>
+Subject: Re: WJC & Digital Ask Follow-up
+To: Sara Latham <user@domain.com>
+CC: Robby Mook <user@domain.com>, Katie Dowd <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=f46d044283be75f0e605232bc772
+
+i don't understand why not dinner. this is something POTUS has done ten or
+twenty times as a sitting president. and i don't understand why the optics
+of hobnobbing with the rich and powerful are somehow better than the optics
+of sitting down with a few $5 donors. it seems like the latter is what we
+ought to be emphasizing, not running away from.
+
+will any of those arguments work for them, do you think?
+
+On Wed, Oct 28, 2015 at 11:20 AM, Sara Latham <user@domain.com>

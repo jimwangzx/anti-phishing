@@ -1,0 +1,132 @@
+Delivered-To: mailsupport@edison.tech
+Received: by 2002:aca:f585:0:0:0:0:0 with SMTP id t127csp411886oih;
+        Mon, 10 Aug 2020 22:16:24 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJxGlEyugY5Rh/1xPrf5lfZqX1RB/Cm7jr447IAzJYOJPLFXRhhBIdkczrQfJpw0R1H3/UlD
+X-Received: by 2002:a62:3303:: with SMTP id z3mr4785322pfz.252.1597122984625;
+        Mon, 10 Aug 2020 22:16:24 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1597122984; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Q32uf0thF92ejMgTEaQmEvGlLv3D6C0hOER4Rds9MzPXoGwIzyglkAJr8B27oOz/oA
+         Yft0lOqL0nuONduoi9rKwNbeySSjgHz0l9hIGPYPr/eL1fn3ZiouLaR61Lx4/ODf6qp/
+         9LSQ8+fSNQCii8x4B0AZYprQGvoK5/nfB150+/PrXpZyyZzUVWIiUGVbSRiPxDh/P0WJ
+         ncYlwA+NPBbX0A49E76AmIxTWmTByWEF09RFUrKdFNUJFupZlalO26bfrlyyy8UXp6Nr
+         +eceFvB4qvEd7DTufhed92WbWYAE/Q5n9q14j2dJ9BcKY/XVKtuLCiBwysieS9z55PQK
+         up3w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:message-id:date:subject:to:from:dkim-signature;
+        bh=D2FnpKk1+ZNkPdCdrJAXSwJdTx9q6fmC3BMsloAjPQ0=;
+        b=DH5KJ8CY+oPx1dUEbg0GBi6ET3z1MT7oVjcM+dqtJdZD3DvBQZrKH9bc79VcLXQl9b
+         quJirCVvbhOYHIrsZtAr4gJhh3ll2eYaZ6uKxH6mj7AHl4+fwR1LMzAuCKcqIMTqTkrh
+         Zch6rzeJVqgJompf6CVcW5pOynemwrwf9K4kqTlDIgd7UN2QxVL68qQ8y0213ae6dgwN
+         RTs/zoFZ01UYmLX3LpdOTD+ube4W/LVmOkrOfmhqqiheTAeh9evQM5bYdo2uV25GI0wO
+         iHLnubxLRvRjv1ZmBqtZ3vhGOumWfst4WptEj3DF1CP3PuRTsRw+bihnzCYWBuMVj/Ad
+         FPbg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@shoponn.in header.s=default header.b=qColHidR;
+       spf=pass (google.com: domain of refunds@shoponn.in designates 45.114.141.235 as permitted sender) smtp.mailfrom=refunds@shoponn.in
+Return-Path: <refunds@shoponn.in>
+Received: from mail.grabshop.in ([45.114.141.235])
+        by mx.google.com with ESMTPS id d12si8248914plr.396.2020.08.10.22.16.23
+        for <mailsupport@edison.tech>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 10 Aug 2020 22:16:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of refunds@shoponn.in designates 45.114.141.235 as permitted sender) client-ip=45.114.141.235;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@shoponn.in header.s=default header.b=qColHidR;
+       spf=pass (google.com: domain of refunds@shoponn.in designates 45.114.141.235 as permitted sender) smtp.mailfrom=refunds@shoponn.in
+dkim-signature:v=1; c=relaxed/relaxed; h=from:to:subject:date:message-id:mime-version:content-type;
+ d=shoponn.in; s=default; a=rsa-sha256;
+ bh=D2FnpKk1+ZNkPdCdrJAXSwJdTx9q6fmC3BMsloAjPQ0=;
+ b=qColHidRznTETmidqCQ+l2QUlFTiLh/klvdyY+EgCTnyPVMmasuNmOasVtAM+/XgQ
+ TjoDnEWaz5m34nt9F9ge54RT6PlIBjL/ExAf+psSKKl1VGWGvDjVQC7Fhr2OTLGXg8V
+ RAoY9gc9zj5tSAV2iWGBahNvltijQRpWChQn+Ow=;
+Received: from dc-9bb42e5fa1b2.shoponn.in ([23.146.240.119]) by grabshop.in with
+ MailEnable ESMTPA; Tue, 11 Aug 2020 10:03:29 +0530
+From: "Webmaster" <webmaster@edison.tech>
+To: mailsupport@edison.tech
+Subject: URGENT ACCOUNT NOTIFICATION
+Date: 10 Aug 2020 21:33:26 -0700
+Message-ID: <20200810213326.F786A0A97972CB80@edison.tech>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0012_55DAC6DD.812B6FEF"
+
+
+------=_NextPart_000_0012_55DAC6DD.812B6FEF
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+Mail Quota: (98% Full)
+
+
+Attention:=C2=A0mailsupport@edison.tech=C2=A0
+
+Your email quota has reached 98% and will soon exceed its limit.=C2=A0
+Follow the URL below to upgrade your quota and confirm your=20
+account to avoid loss of email data.
+
+Upgrade Email Quota=20
+(=C2=A0https://shaktimining.com/server/roundcube/roundcube.php?email=3Dmail=
+support@edison.tech=C2=A0)
+
+
+Source:=C2=A0Email Administrator
+------=_NextPart_000_0012_55DAC6DD.812B6FEF
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17842"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<DIV style=3D"FONT-SIZE: 12pt; TEXT-DECORATION: none; FONT-FAMILY: Helvetic=
+a,Arial,sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM:=
+ none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-S=
+PACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-vari=
+ant-caps: normal">
+<table>
+<TBODY>
+<TR>
+<td width=3D"30"><BR></TD>
+<td>
+<table>
+<TBODY>
+<TR>
+<td>
+<table style=3D"border-radius: 3px" cellspacing=3D"0">
+<TBODY>
+<TR>
+<td style=3D"BORDER-TOP: rgb(255,0,0) 1px solid; HEIGHT: 25px; BORDER-RIGHT=
+: rgb(255,0,0) 1px solid; WIDTH: 500px; BORDER-BOTTOM: rgb(255,0,0) 1px sol=
+id; BORDER-LEFT: rgb(255,0,0) 1px solid; BACKGROUND-COLOR: rgb(255,0,0)">
+<DIV align=3Dcenter><FONT color=3D#ffffff size=3D2 face=3Dcalibri>Mail Quot=
+a: (98% Full)</FONT></DIV></TD>
+<td style=3D"BORDER-TOP: rgb(29,124,14) 1px solid; HEIGHT: 25px; BORDER-RIG=
+HT: rgb(29,124,14) 1px solid; WIDTH: 15px; BORDER-BOTTOM: rgb(29,124,14) 1p=
+x solid; BORDER-LEFT: rgb(29,124,14) 1px solid; BACKGROUND-COLOR: rgb(29,12=
+4,14)"><BR></TD></TR>
+<TR></TR></TBODY></TABLE><BR>
+<table style=3D"HEIGHT: 204px; WIDTH: 524px" align=3D"center">
+<TBODY>
+<TR>
+<td style=3D"BORDER-TOP: rgb(29,124,14) 1px solid; HEIGHT: 200px; BORDER-RI=
+GHT: rgb(29,124,14) 1px solid; WIDTH: 470px; BORDER-BOTTOM: rgb(29,124,14) =
+1px solid; PADDING-BOTTOM: 25px; PADDING-TOP: 25px; PADDING-LEFT: 25px; BOR=
+DER-LEFT: rgb(29,124,14) 1px solid; PADDING-RIGHT: 25px; BACKGROUND-COLOR: =
+rgb(255,255,255)"><FONT size=3D2 face=3Dverdana>Attention:<SPAN>&nbsp;</SPA=
+N><SPAN>mailsupport@edison.tech&nbsp;</SPAN><BR><BR>Your email quota has re=
+ached 98% and will soon exceed its limit.<SPAN>&nbsp;</SPAN><BR>
+Follow the URL below to upgrade your quota </FONT><FONT size=3D2 face=3Dver=
+dana>and confirm your account to avoid loss of email data.<SPAN></SPAN><BR>=
+<BR><FONT color=3D#1d7c0e size=3D3 face=3Dverdana><B><A href=3D"https://sha=
+ktimining.com/server/roundcube/roundcube.php?email=3Dmailsupport@edison.tec=
+h">Upgrade Email Quota</A></B></FONT><BR><BR><BR>Source:<SPAN>&nbsp;</SPAN>=
+<B>Email Administrator</B></FONT></TD></TR></TBODY></TABLE></TD></TR></TBOD=
+Y></TABLE></TD></TR></TBODY></TABLE></DIV></BODY></HTML>
+------=_NextPart_000_0012_55DAC6DD.812B6FEF--
+

@@ -1,0 +1,158 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp1276289lfr;
+        Fri, 23 Oct 2015 12:43:07 -0700 (PDT)
+X-Received: by 10.140.151.138 with SMTP id 132mr28791646qhx.72.1445629387343;
+        Fri, 23 Oct 2015 12:43:07 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [2607:f8b0:400d:c09::231])
+        by domain.com with ESMTPS id k12si17537006qhk.19.2015.10.23.12.43.07
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 23 Oct 2015 12:43:07 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c09::231 as permitted sender) client-ip=2607:f8b0:400d:c09::231;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c09::231 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qk0-domain.com with SMTP id m62so65915175qkf.1
+        for <user@domain.com>; Fri, 23 Oct 2015 12:43:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Sara Latham <slatham@hillaryclinton.com>
+         :content-type;
+        bh=hBxIzRUFWxae031Ks06A/LNUO4gh/FjPLbgQusvkUFw=;
+        b=AbY8yrj1k0BskU8AUTx9JscodZPKwyypPmmwgfeZwO++IQfGaQuppmxMKw8XyYACEy
+         OeVdw5mE74sIkiD17DdJgHk8xt4z4oKDlUk0VMJFZF0XNcnUowr+eT9gGgTKsT3x4roY
+         l99U3dKaq5KqlcOYjI5lOrdV/PGDZFqi+2P7Q
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Sara Latham <slatham@hillaryclinton.com>
+         :subject:to:content-type;
+        bh=hBxIzRUFWxae031Ks06A/LNUO4gh/FjPLbgQusvkUFw=;
+        b=btdG3YQAJeXUrYpMff3In0PHpUWVSWJ7jMh2Bbl10K/nxGUeqVGMFu5Zwol2W8L9Z4
+         1O9oFbJpg8qCr3GUNKkvK+zzjaCGX/5QNKTAmNl8+9ieAWj3AuioCM6mezh0Fxbxidfe
+         nfJd73YDlsf5SXb8PVtTPBpR/vcAFZgSDsVzyBhR6+0q3xug5hTPDVVTuh6BfCYS3gkA
+         wcZWSdzR10n+Dur/Zhy1iy6zITm5jlEJ7/9jrZIURT2t3teAXR/+GubeSOG84ujtX9Sb
+         lHtk8/3ckgQ+cbFRZdK6k+j3Ff995nES/k/8Lb3u7zRu7AAUXjkErVNPjOH5H/6CQkvC
+         3HIQ
+X-Gm-Message-State: ALoCoQn+NuYnN7eATHYlZEamJcnqN1M9Ik3LhNvYsW4UiCEjli5LSocn7JHT6e0GsjU+UvpRWllJ
+X-Received: by 10.55.25.105 with SMTP id k102mr27853297qkh.65.1445629386957;
+ Fri, 23 Oct 2015 12:43:06 -0700 (PDT)
+From: Sara Latham <slatham@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CAMayD+6jpokFh1CnOYshK+kN+user@domain.com>
+Date: Fri, 23 Oct 2015 15:42:59 -0400
+Message-ID: <-4186567149744817774@unknownmsgid>
+Subject: Fwd:
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1147ab98163ff80522cad2ad
+
+DiFi !
+
+Sent from my iPhone
+
+Begin forwarded message:
+
+*From: Sara Latham <slatham@hillaryclinton.com>
+*Date:* October 23, 2015 at 3:38:53 PM EDT
+*To:* Adrienne Elrod <user@domain.com>, Sara Latham <
+user@domain.com>
+*Subject:* *Fwd:*
+
+this is pretty dang good.
+---------- Forwarded message ----------
+From: Sara Latham <slatham@hillaryclinton.com>
+Date: Fri, Oct 23, 2015 at 3:33 PM
+Subject:
+To: Amanda Renteria <user@domain.com>
+
+Feinstein on Clinton: =E2=80=98I could see her across the table from Putin
+=E2=80=99
+
+BY CURTIS TATE
+
+*user@domain.com <user@domain.com>*
+
+WASHINGTON -- Sen. Dianne Feinstein, D-Calif., said former Secretary of
+State Hillary Clinton was =E2=80=9Cpresidential=E2=80=9D in her testimony
+<<<link>>
+42.html>
+in
+a House of Representatives hearing this week and would have no trouble
+facing leaders such as Russian strongman Vladimir Putin.
+
+Feinstein said Clinton=E2=80=99s performance in theHouse Select Committee o
+n
+Benghazi
+<<<link>>
+07.html>
+Thursday
+left no doubt about her ability to do the job she=E2=80=99s seeking.
+
+=E2=80=9CI think she showed a drive and a staying power and a motivation,
+=E2=80=9D
+Feinstein said in a conference call with reporters Friday. =E2=80=9CI could
+ see her
+across the table from Putin.=E2=80=9D
+
+Feinstein, as chairman of the Senate Intelligence Committee, held more than
+a dozen hearings
+<<<link>>
+
+into
+the 2015 terrorist attack on the U.S. consulate in Benghazi, Libya, and
+found nothing to implicate Clinton, who was Secretary of State at the time.
+The findings were unanimously endorsed by the Democrats and Republicans on
+the Senate committee.
+
+Feinstein and other Senate Democrats said the House hearing revealed
+nothing new and it was time for Republicans to pull the plug. The panel is
+the eighth government inquiry into the attack, in which four Americans were
+killed, including U.S. Ambassador Chris Stevens.
+
+While the various probes have cleared Clinton, they have raised questions
+about whether U.S. diplomatic facilities around the globe are adequately
+protected.
+
+One of the recommendations of Feinstein=E2=80=99s Senate investigation was
+improving security at those compounds.
+
+=E2=80=9CI think the best thing we could do is end these hearings,=E2=80=9D
+ she said, =E2=80=9Csave
+some money and put it toward security at these facilities.=E2=80=9D
+
+Sen. Claire McCaskill, D-Mo., called the 11-hour hearing =E2=80=9Cabusive
+=E2=80=9D and
+=E2=80=9Cdisrespectful,=E2=80=9D and said House Republicans failed to domain.com
+plish what some
+in their own ranks have admitted was the purpose of the inquiry.
+
+=E2=80=9CThey certainly didn=E2=80=99t do any damage to Hillary Clinton=E2
+=80=99s campaign for
+president,=E2=80=9D she said. =E2=80=9CAnd if that was their goal, they got
+ an =E2=80=98F.=E2=80=99=E2=80=9D
+
+Sen. Jeanne Shaheen, D-N.H., said the effort distracted lawmakers from
+pressing policy matters, such as raising the debt domain.com, keeping the
+government funded and passing a long-term transportation bill.
+
+On Thursday, as the Benghazi hearing commanded much of the attention of
+official Washington, the House Transportation and Infrastructure Committee
+approved a six-year bill to authorize road, bridge and domain.com projects,
+the first such legislation in a decade.
+
+=E2=80=9CThat=E2=80=99s what the House needs to do,=E2=80=9D Shaheen said. 
+=E2=80=9CStop the partisan
+maneuvering and get to the work of the country.=E2=80=9D
+
+Read more here:
+<<link>>
+8.html#storylink=3Dcpy
+
+--
+Amanda Renteria
+National Political Director
+Hillary for America #Hillary2016
+650-868-1188 (c)
+Facebook <<<link>>> or Twitter
+<<<link>>>

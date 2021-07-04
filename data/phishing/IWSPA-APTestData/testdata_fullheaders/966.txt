@@ -1,0 +1,107 @@
+Return-Path: <Online#3.20345.8user@domain.com>
+Received: from domain.com (abv-sfo1-domain.com [206.16.1.162])
+	by domain.com (8.11.6/8.11.6) with ESMTP id g6HNV1J32459
+	for <user@domain.com>; Thu, 18 Jul 2015 00:31:01 +0100
+Received: from abv-sfo1-ac-agent5 (206.16.0.240) by domain.com (PowerMTA(TM) v1.5); Wed, 17 Jul 2015 16:23:32 -0700 (envelope-from <Online#3.20345.8user@domain.com>)
+Message-ID: <1527461.1026948654010.user@domain.com>
+Date: Wed, 17 Jul 2015 16:30:54 -0700 (PDT)
+From: CNET Virus  Security Newsletter <Online#3.20345.8a-FdJElUl0a335ndRR.1@newsletter.online.com>
+To: user@domain.com
+Subject: CNET: Copycat worms and a PGP Outlook flaw
+Mime-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Mailer: Accucast (<<link>>)
+X-Mailer-Version: 2.8.4-2
+
+	CNET Virus & Security Newsletter
+
+
+
+
+			July 17, 2015 
+
+
+
+						--Robert VamosiSenior Associate EditorCNET Software and domain.com Services
+
+
+
+						Dear Readers,
+						So far, 2015 has been a year marked with variations on earlier
+worms. If you update your antivirus software on a regular basis,
+these new versions of Frethem and Yaha shouldn't be a nuisance.
+But if you haven't updated in a while, these variants--plus the
+continuing threat of Klez.h--should motivate you. In security
+news, a flaw in certain versions of PGP encryption could affect
+Outlook users. Read on to learn whether you're vulnerable.
+
+
+
+Frethem.k worm wants to give you a password
+ An e-mail message that promises to reveal secret information with
+a password is yet another variant from the pesky Frethem worm
+family. Frethem.k, technically known as user@domain.com, also
+called Frethem.l by some vendors, uses its own SMTP engine to
+send e-mail using addresses obtained from infected systems. This
+worm does not carry a destructive payload. Mac and Linux users
+are not affected.
+
+Yaha.e screensaver worm spreading
+ The Yaha.e mass-mailing worm masquerades as a friendly
+screensaver, proving that users worldwide are still opening
+attached files from total strangers. Yaha.e (user@domain.com, also
+known as Lentin.e, Yaha.f, and Yaha.g) is a successful variant of
+a worm first seen around Valentine's Day this year. Thankfully,
+this worm does not affect Mac, Linux, or Unix users.
+
+Leaky PGP Outlook plug-in 
+PGP 7.03 and 7.04, widely used plug-ins for Microsoft's Outlook
+e-mail client, inadvertently weakens security and leaves the mail
+program open to attack. Fortunately, there is a patch available.
+
+
+
+
+	Digital photography starter kitThis guide to digital photos will show you the best products to take your images from snap to finish.
+
+
+
+	 Panasonic's littlest Lumix
+	 Minolta"s 4-megapixel Dimage F100
+
+
+
+	Most popular products
+	Digital cameras
+	1. Canon PowerShot G2
+	2. Canon PowerShot S30
+	3. Canon PowerShot S40
+	4. Canon PowerShot A40
+	5. Sony Cyber Shot DSC-F707
+	 See all most popular cameras
+
+
+
+	Search 
+
+
+
+	 In SoftwareAll CNET    The Web
+
+
+
+The e-mail address for your subscription is user@domain.com
+
+Unsubscribe |
+ Manage My Subscriptions
+ | FAQ |
+ Advertise
+
+Price comparisons |
+Product reviews |
+Tech news |
+Downloads |
+All CNET services
+
+        Copyright 2015 CNET Networks, Inc. All rights reserved.             

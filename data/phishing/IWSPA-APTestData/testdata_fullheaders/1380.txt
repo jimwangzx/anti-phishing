@@ -1,0 +1,171 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp8427697lfb;
+        Fri, 1 Jan 2015 14:23:29 -0800 (PST)
+X-Received: by 10.31.8.72 with SMTP id 69mr51764133vki.145.1451687009525;
+        Fri, 01 Jan 2015 14:23:29 -0800 (PST)
+Return-Path: <hrcrapid+user@domain.com>
+Received: from mail-vk0-domain.com (mail-vk0-domain.com. [2607:f8b0:400c:c05::237])
+        by domain.com with ESMTPS id b184si25963070vka.214.2016.01.01.14.23.29
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 01 Jan 2015 14:23:29 -0800 (PST)
+Received-SPF: pass (domain.com: domain of hrcrapid+user@domain.com designates 2607:f8b0:400c:c05::237 as permitted sender) client-ip=2607:f8b0:400c:c05::237;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of hrcrapid+user@domain.com designates 2607:f8b0:400c:c05::237 as permitted sender) smtp.mailfrom=hrcrapid+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-vk0-domain.com with SMTP id a188sf86267398vkc.1;
+        Fri, 01 Jan 2015 14:23:29 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:date:message-id:subject
+         :From: Adrienne Elrod <aelrod@hillaryclinton.com>
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe:x-original-sender
+         :x-original-authentication-results;
+        bh=KwuyN2VzKX5pSR4Ggs8OVg+xKFRJtsHYO2CzGctHHhg=;
+        b=Jcw7h2RFcqnXBrjCX1+AEHX/NpHxwPipuBqys5zqGo9xlQgDz/SEFNl3uO88pHSmBl
+         Scxg6URcLCMbrgVtV/qiaRpF8HTZGMkxYwSghQvCpj7hobGSCA5XvrSwEi4pIW9egSzi
+         u9ZL/6E2owSRQVsNgiEt1F69Gc2SWeZQzgU2k
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Adrienne Elrod <aelrod@hillaryclinton.com>
+         :list-id:x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe:x-original-sender
+         :x-original-authentication-results;
+        bh=KwuyN2VzKX5pSR4Ggs8OVg+xKFRJtsHYO2CzGctHHhg=;
+        b=GYfovnOnu1klcOc7IdCVwFTcwRkKG/qmcHL7ugoScd1yf0VIxpGO2EIp8P+ppqfszA
+         hr0MHmm6xGKorzQOa+zc1A+tvaEr0uU7lCtq1RUraF8qhySwE1v9UWImr+5hpOOeax2S
+         N0Y6BssJ5xugN1h6Cn7X1aTCRwaaye67sFwDj/WEpxSW1CNqC+6qaoAUDDcgkYtF8thi
+         Sbl2gPRhoN8hfys9NIDHD7B+RdQO5A4wdBYCndcuzBneTRDV7D8YRYn+Ex8hF0Djhm3i
+         NaCemtN2LAsRWMYQFbiX8WihVaWIj15p0yb5gvJxaXCXk/2WbQVlUSNRtqqKoscGK9uV
+         9cmg
+X-Received: by 10.50.114.105 with SMTP id jf9mr1148345igb.1.1451687009068;
+        Fri, 01 Jan 2015 14:23:29 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.107.11.148 with SMTP id 20ls2444918iol.48.gmail; Fri, 01 Jan
+ 2015 14:23:28 -0800 (PST)
+X-Received: by 10.98.86.89 with SMTP id k86mr67155414pfb.10.1451687008819;
+        Fri, 01 Jan 2015 14:23:28 -0800 (PST)
+Return-Path: <toptalkers+user@domain.com>
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::248])
+        by gmr-domain.com with ESMTPS id s18si2345117igr.3.2016.01.01.14.23.28
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 01 Jan 2015 14:23:28 -0800 (PST)
+Received-SPF: pass (domain.com: domain of toptalkers+user@domain.com designates 2607:f8b0:4001:c06::248 as permitted sender) client-ip=2607:f8b0:4001:c06::248;
+Received: by mail-io0-domain.com with SMTP id q21sf478949141iod.3
+        for <user@domain.com>; Fri, 01 Jan 2015 14:23:28 -0800 (PST)
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQnUq6qaqYIdes9q/s+Q3j8xqpxvnSY1BVcHa1v1xT+deaJEtnswdsi/2ipI7sZK/yvXwCJb5T4O7vd94Aa8qappTy6mgw
+X-Received: by 10.182.236.34 with SMTP id ur2mr67016122obc.10.1451687008615;
+        Fri, 01 Jan 2015 14:23:28 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.140.80.148 with SMTP id c20ls3817826qgd.66.gmail; Fri, 01 Jan
+ 2015 14:23:27 -0800 (PST)
+X-Received: by 10.13.218.129 with SMTP id c123mr62586198ywe.4.1451687007740;
+        Fri, 01 Jan 2015 14:23:27 -0800 (PST)
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22f])
+        by domain.com with ESMTPS id x123si54510155ywd.170.2016.01.01.14.23.27
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 01 Jan 2015 14:23:27 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22f as permitted sender) client-ip=2607:f8b0:4002:c07::22f;
+Received: by mail-yk0-domain.com with SMTP id k129so181266759yke.0
+        for <user@domain.com>; Fri, 01 Jan 2015 14:23:27 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.13.197.194 with SMTP id h185mr56768473ywd.12.1451687007483;
+ Fri, 01 Jan 2015 14:23:27 -0800 (PST)
+Received: by 10.37.216.20 with HTTP; Fri, 1 Jan 2015 14:23:27 -0800 (PST)
+In-Reply-To: <4165087user@domain.com>
+References: <4165087user@domain.com>
+Date: Fri, 1 Jan 2015 17:23:27 -0500
+Message-ID: <user@domain.com>
+Subject: Fwd: Hillary Clinton Raises $55 Million in Fourth Quarter
+From: Adrienne Elrod <aelrod@hillaryclinton.com>
+To: Adrienne Elrod <user@domain.com>
+CC: Alexandria Phillips <user@domain.com>
+Content-Type: multipart/related; boundary=001a114edd4a685c2f05284d387b
+BCC: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact toptalkers+user@domain.com
+List-ID: <toptalkers.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 220353843114
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:toptalkers+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+220353843114+user@domain.com>,
+ <<<link>>>
+X-Removed-Original-Auth: hillaryclinton.com is not trusted.
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com;       spf=pass
+ (domain.com: domain of toptalkers+user@domain.com
+ designates 2607:f8b0:4001:c06::248 as permitted sender) smtp.mailfrom=toptalkers+user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+
+*Hillary Clinton Raises $55 Million in Fourth Quarter*
+
+*$37 Million for Primary Campaign, $18 Million for Democratic Party*
+
+Thanks to the support of hundreds of thousands of people across the
+country, Hillary for America set a new record for the best off-year
+fundraising of any non-incumbent in history.  At the beginning of this
+campaign, Hillary Clinton set a goal of $100 million in primary
+contributions for 2015 and blew past that goal, raising more than $112
+million in primary money for the year.  Clinton=E2=80=99s $37 million in pr
+imary
+dollars in the fourth quarter set a new record for the best off-year Q4 for
+a non-incumbent.  In addition to the money raised for her campaign, Clinton
+raised more than $18 million for the Organizationand State Parties across the
+country through the Hillary Victory Fund in the fourth quarter.
+
+Clinton raised roughly as much for the primary as President Obama did
+during 2015 as a sitting president and more than either Clinton or Obama in
+2007 despite having one fewer quarter to raise.
+
+"Thanks to the hundreds of thousands of Americans who have joined together
+and powered this historic campaign, we are now heading into Iowa and New
+Hampshire with the resources we need to be successful," said Hillary for
+America Campaign Manager Robby Mook.  "Helping Democratic candidates win up
+and down the ticket is a top priority for Hillary Clinton which is why
+she's also proud to be doing her part to ensure Democrats have the
+resources we need to win."
+
+*Key Stats*
+
+=C2=B7         HFA primary raised for Q4: $37 million
+
+=C2=B7         HFA general raised for Q4: $1 million
+
+=C2=B7         HFA primary raised for 2015: $112 million
+
+=C2=B7         HFA cash on hand heading into 2016: Nearly $38 million
+
+=C2=B7         94% of Q4 donations to HFA were in increments of $100 or les
+s
+
+=C2=B7         More than 60% of HFA donors for the year were women
+
+=C2=B7         Q4 Raised for the Organizationand State Parties through the HVF: $18
+million
+
+###
+
+--
+
+Adrienne K. Elrod
+Director of Strategic Communications & Amplification
+Hillary For America
+*www.hillaryclinton.com <<<link>>>*
+@adrienneelrod
+
+--
+You received this message because you are subscribed to the Google Groups "
+HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an e
+mail to hrcrapid+user@domain.com
+To post to this group, send email to user@domain.com
+For more options, domain.com <<link>>

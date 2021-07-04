@@ -1,0 +1,82 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Mon, 30 Dec 2015 06:27:22 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBUERLmu019444	for <user@domain.com>; Mon, 30 Dec 2015 
+ 14:27:21 GMT
+Received: from mail155-db8-domain.com
+ (mail-domain.com [213.199.154.177])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBUERKJo003069	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Mon, 30 Dec 2015 14:27:21 GMT
+Received: from mail155-db8 (localhost [127.0.0.1])	by
+ mail155-db8-domain.com (Postfix) with ESMTP id 09B0E1400A0	for
+ <user@domain.com>; Mon, 30 Dec 2015 14:27:20 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:63.211.91.170;KIP:(null);UIP:(null);IPV:NLI;H:mta910.enews-domain.com;RD:mta910.enews-domain.com;EFVD:NLI
+X-SpamScore: -17
+X-BigFish: vps-17(zzbb2dI9371Ic85dh77f5hzz2148h208ch1ee6h1fdah2073h2146h1f00h1202h1e76h2189h1d2ah1fc6hzz1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h1de096h186068h473W1ce120hz2fh1916Meh5eh5fh839ha12hd24h10d2h1288h12a5h137ah13eah1441h14ddh1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1a75h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h1ee7m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail155-db8: domain of b.enews-domain.com designates 63.211.91.170 as permitted sender) client-ip=63.211.91.170; user@domain.com; helo=mta910.enews-domain.com ;ews-domain.com ;
+Received: from mail155-db8 (localhost.localdomain [127.0.0.1]) by mail155-db8
+ (MessageSwitch) id 1388413638183747_23701; Mon, 30 Dec 2015 14:27:18 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.8.233])	by
+ mail155-domain.com (Postfix) with ESMTP id 26E0120047	for
+ <user@domain.com>; Mon, 30 Dec 2015 14:27:18 +0000 (UTC)
+Received: from mta910.enews-domain.com (63.211.91.170) by
+ domain.com (10.174.4.28) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 30 Dec 2015 14:27:17 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=enews-domain.com;
+	s=20111006; t=1388413637; x=1404138437;
+	bh=eNJZlCczo3gPKRIWsGmStA1kMb3eAGXCDYaVN2+ke5g=; h=From: The Museum of Modern Art <support@enews-moma.org>
+	b=sW3jXqyfgzn+hzTCyX4imPO8fpxsg8+C0sB06nIHo8SIRHsC/DypZA9J/AeaV/HIc
+	 GmboIu/OHjQplhKHOSsqSSmpYrfrMNb7xv/xeV751/XehGpO0yKwZio4ky/VHZrn/q
+	 IUp8Z4/8cgka8x9evRX6KBymJ1rUJnCJcrZC1Qbs
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=200505; d=enews-domain.com;
+  b=sLoRDR3kXR4ZN36TdYeIgeBkfZ2Z4B4bGB6mDcsSq6ST7LQzjoc5fgTtSVR8A/amGvgIvQKvDP0/pKoH9ZECjiGTNS1b0/f0Shbk6XSMnWne1RH/pk9dSr8KrYabAmCu7Ph5Bs4DzrPDF6BRIWpkq9tEBiLOm+hzdF/XBhwo7+Y=;
+ h=Date:Message-ID:List-Unsubscribe:From: The Museum of Modern Art <support@enews-moma.org>
+Date: Mon, 30 Dec 2015 14:27:17 +0000
+Message-ID: <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com>
+From: The Museum of Modern Art <support@enews-moma.org>
+To: <user@domain.com>
+Subject: Share a world of discovery
+Reply-To: The Museum of Modern Art
+	<user@domain.com>
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Share a world of discovery
+
+ <<link>>     
+
+Format this e-mail for Web browser       
+
+ <<link>>     
+
+ <<link>>        
+
+ <<link>>   
+
+<<link>>       
+
+ <<link>>      <<link>>      <<link>>     
+
+ <<link>>     Your $25 tax-deductible gift to MoMA will bring a world of discovery to children and adults in New York City, across the country, and around the world. 
+
+<<link>>
+
+Throughout 2013, Touch Tours allowed blind or partially sighted individuals to experience the joy of art like they never have before; the MoMA Alzheimer's Project made Museum visits and art workshops accessible to people with dementia and their families and caregivers; and individuals with learning and developmental disabilities participated in hands-on Create Ability art-making workshops. 
+
+These programs and many more wouldn't be possible without your support. 
+
+P.S. Be sure to donate by midnight tomorrow, December 31, and you'll automatically be qualified to win an unforgettable behind-the-scenes tour of MoMA. 
+
+ <<link>>
+
+Above: Partially sighted visitors explore Auguste
+

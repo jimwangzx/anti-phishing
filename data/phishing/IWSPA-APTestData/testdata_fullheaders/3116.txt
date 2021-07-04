@@ -1,0 +1,80 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Sun, 1 Dec 2015 17:13:14 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rB21DDSL015941	for <user@domain.com>; Mon, 2 Dec 2015 
+ 01:13:14 GMT
+Received: from mail28-db8-domain.com
+ (mail-domain.com [213.199.154.181])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rB21DCh4030483	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Mon, 2 Dec 2015 01:13:13 GMT
+Received: from mail28-db8 (localhost [127.0.0.1])	by mail28-db8-domain.com
+ (Postfix) with ESMTP id 6A0F2C400D5	for <user@domain.com>; Mon,  2
+ Dec 2015 01:13:12 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:65.39.215.55;KIP:(null);UIP:(null);SRV:BULK;H:mx-pmc-domain.com;RD:mx-pmc-domain.com;EFVD:NLI
+X-SpamScore: 5
+X-BigFish: vps5(z579ehzc89bh758Ic857h11fbIdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1def03h1d7338h1de098h17326ah1def87h8275bh1bc7b9h8275dh1def86h2ba5I1de097h1de096h186068h172c6ch1ce120h85bfl1a691ci177f16iz2fheh5fh839h8aaha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh2327h2336h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail28-db8: domain of domain.com designates 65.39.215.55 as permitted sender) client-ip=65.39.215.55; user@domain.com; helo=mx-pmc-domain.com ;domain.com ;
+Received: from mail28-db8 (localhost.localdomain [127.0.0.1]) by mail28-db8
+ (MessageSwitch) id 1385946789741319_19063; Mon,  2 Dec 2015 01:13:09 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.8.254])	by
+ mail28-domain.com (Postfix) with ESMTP id A6095940063	for
+ <user@domain.com>; Mon,  2 Dec 2015 01:13:09 +0000 (UTC)
+Received: from mx-pmc-domain.com (65.39.215.55) by
+ domain.com (10.174.4.15) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 2 Dec 2015 01:13:09 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1385946786;
+	s=sailthru; d=deadline.com;
+	h=Date:From: Deadline.com <alerts@deadline.com>
+	bh=Oo+xeUUbv2AzqHQj8DSRCVLoJ5JzsYl/S9jOp+VtINo=;
+	b=czjveR67l1QSsZA+0xyO8mQcGRPOUNqpSpSM3Il7kR9W6OY6g/JBbGIMIAubKt6c
+	u7Z0qpTgZIKmfBwnpbZM0cDv+7qIhz+Jvt+11uFwI3ePjp3dkY3HT88G6ptkXu2Yop7
+	Mi3f/ptGd6PItt7nuyK5ijyueAzRuaOyTtrHTu44
+Date: Sun, 1 Dec 2015 20:13:06 -0500
+From: Deadline.com <alerts@deadline.com>
+To: <user@domain.com>
+Message-ID: <20131202011306.2077674.6181@domain.com>
+Subject: [domain.com] The Takeaway On A Record Holiday Weekend? Be
+ Fearless In Making Good Movies And Audiences Will Come
+Precedence: bulk
+X-TM-ID: 20131202011306.2077674.6181
+X-Info: Message sent by domain.com customer Deadline
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 65.39.215.55
+X-IADB-IP-REVERSE: 55.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stdgp2077674
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+[domain.com] The Takeaway On A Record Holiday Weekend? Be Fearless In Making Good Movies And Audiences Will Come
+
+ <<link>>   
+
+<<link>>        
+
+ <<link>>   
+
+<<link>>        
+
+ <<link>>   
+
+Weekend Box Office News Alert:
+
+The Takeaway On A Record Holiday Weekend? Be Fearless In Making Good Movies And Audiences Will Come 
+
+6TH UPDATE:  The staggering grosses turned in this weekend by The Hunger Games: Catching Fire and Frozen, and the collective strong box office that will likely result in a record five-day Thanksgiving weekend come along at a fortuitous time for the movie business. Why? Because fear has ruled the roost lately, and these numbers on a diversity of mostly smart films shows clearly that if you give an Read more... 
+
+
+

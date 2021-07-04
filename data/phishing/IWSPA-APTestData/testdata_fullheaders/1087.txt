@@ -1,0 +1,321 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs38371wfw;
+        Tue, 21 Oct 2015 10:38:50 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.101.70.15 as permitted sender) client-ip=10.101.70.15;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.101.70.15 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.101.70.15])
+        by 10.101.70.15 with SMTP id x15mr2592436ank.18.1224610730141 (num_hops = 1);
+        Tue, 21 Oct 2015 10:38:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :content-type:reply-to:sender:precedence:x-google-loop:mailing-list
+         :list-id:list-post:list-help:list-unsubscribe:x-beenthere-env
+         :x-beenthere;
+        bh=QvEeQos5N/9QsV+aL0IFqwTM7RfEvmJOVNtHoxm2050=;
+        b=lTcmeY9MN6hW/xVqLL1kaep4qkfwdjAC5auS4cTxyEjw8VdhIVF0gGWDtFs4naAbqy
+         YQvxIH9PGVlHDanRIwQASElNIh5mQeJHU7FYBRq29xkmePc1mBll5Yo3521qofhxfZhd
+         NrC25EV9w9JnRhJqONnsYa5EkDE2kkS4k/Lbo
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=4HDxSEvZXLe79w+K7fglsqX+x0M6ZzY8rNlCpx0m1I8D0dyHxQcmpi4kVmZsrWV7F3
+         vqHNIh7ln23Sv+RcBhOmFu+Ozk0iaGHtxzk500APs/m0lS0uu93OpKLBEmT9GQ/QjdEi
+         M38lGQoxopolZX1FPeuTZX3iDq9Nm/n6lR6PY
+Received: by 10.101.70.15 with SMTP id x15mr233997ank.18.1224610721063;
+        Tue, 21 Oct 2015 10:38:41 -0700 (PDT)
+Received: by 10.107.67.19 with SMTP id u19gr2496prk.0;
+	Tue, 21 Oct 2015 10:38:27 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.114.122.2 with SMTP id u2mr1776056wac.13.1224610705000; Tue, 21 Oct 2015 10:38:25 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ug-out-1314.domain.com (ug-out-1314.domain.com [66.249.92.168]) by domain.com with ESMTP id k32si4826391wah.1.2008.10.21.10.38.23; Tue, 21 Oct 2015 10:38:24 -0700 (PDT)
+Received-SPF: neutral (domain.com: 66.249.92.168 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=66.249.92.168;
+Authentication-Results: domain.com; spf=neutral (domain.com: 66.249.92.168 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by ug-out-1314.domain.com with SMTP id o38so923400ugd.13 for ; Tue, 21 Oct 2015 10:38:23 -0700 (PDT)
+Received: by 10.67.40.15 with SMTP id s15mr2830648ugj.67.1224610703021; Tue, 21 Oct 2015 10:38:23 -0700 (PDT)
+Received: by 10.66.248.19 with HTTP; Tue, 21 Oct 2015 10:38:22 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Tue, 21 Oct 2015 13:38:22 -0400
+From: "Sara DuBois" <sara@progressiveaccountability.org>
+To: user@domain.com
+Subject: [big campaign] Tracking Update: Palin Rally in Reno, NV 10/21/08
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_7519_30015409.1224610703036"
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+Hello All,
+Unfortunately we weren't able to send a tracker to this event. But good
+news: we were able to capture the event via online-streaming video. Below
+are the notes from that effort.
+
+Big Highlights*
+
+   - Goes into depth about Biden comments-- lays out the 5 "crisis"
+   scenarios we might face, based on Obama's foreign policy plans
+      - 1- meeting with world's worst dictators (e.g. Iranian leaders)
+      without preconditions
+      - 2-  sending the military to pakistan (a partner in the war on
+      terror) without approval of the govt
+      - 3- preventing victory in iraq, even though it's in sight
+      - 4- Russia could invade ukraine next (if there's a repeat of  his
+      indecision and moral equivalence after georgia invasion)
+      - 5- biden's next speaking engagement -- these warnings from joe biden
+      are similar to his earlier assessment throughout the primary.
+   - Says Obama camp wasnt pleased when his "staged photo-op" was
+   interrupted the "real question from a real voter," so now they're attacking
+   Joe the Plumber
+      - Says problem is Americans are identifying with Joe, Palin cites
+      "Tito the builder," a Colombian immigrant who wonders why Obama camp is
+      trying to prevent Joe from reaching his dreams
+   - Says Obama is "hiding his real agenda" of redistributing your
+   hardearned money
+      - Calls Obama "the wealth-spreader," keeps up attack that "now is not
+      the time to be experimenting with socialism"
+
+*
+
+Reno, NV: Palin Rally 10/21/08
+(Disclaimer: The following are notes, not direct quotes. If you'd like a
+quotable transcript or video of any part below, please email us.)
+
+Background details
+
+   - Piper on stage with Palin
+   - Before event, a "God bless the USA" singalong with Lee
+
+Speech Highlights
+God bless the USA, beautiful absolutely beautiful. it makes you proud to be
+an american.
+
+a couple of ppl id like to intro you to - piper's here. and 1 of my fave 3rd
+grade teachers, Mr. Chuck Heath from AK. and todd's on the road, he sends
+his very best. so does john mccain
+
+2 wks from today, cast vote for next president. theres no time to domain.com.
+
+a couple of issues in press recently. it is not mean-spirited to talk about
+someone's record, someone's plans, or associations.
+
+did you hear that senator biden said at a fund-raiser on sunday that he
+guarantees if barack obama is elected we will face an international crisis
+within the first six months of their administration? i guess we've got to
+say, "thanks for the warning, joe." *he told his dem donors there were at
+least 4 -5 scenarios that would threaten Dem administration. he did not
+specify what these scenarios would be. you'll just have to go to the obama
+foreign-policy agenda for clues. *
+
+*for clues, look to Obama fopo policy. crisis situation #1 meeting with
+terrorists without iran without preconditions. #2 sending the military to
+pakistan without the approval of the government. invading the sovereign
+territory of a partner in the war on terror.  #3 opposed the surge . he's
+voted to cut off funding for troops. he wants to pull out, leaving iraqis at
+mercy of iranians and shiites. by his own admission, american troops might
+want to go back. #4 indecision and moral equivalence after georgia invasion,
+russia could invade ukraine next. #5 biden's next speaking engagement*
+
+*the real problem is that these warnings from joe biden are similar to his
+earlier assessment throughout the primary.* he said that barack obama was
+not up to the job. he is not ready to be president. he said that the
+presidency is not something that lends itself to on-the-job training. the
+same joe biden who said he would be honored to run on the ticket with john
+mccain because he said the country would be better off with john mccain. he
+will put the country first, fighting for you.
+
+i want a pres. who's not afirad to say 'victory. a president ready to lead
+on day 1, pres w/ judgment truthfulness experience ready to meet-- or better
+yet, avoid next internatl crisis. i want mccain as next comm-in-chief
+
+NV, you have great history of understanding of troops. if you would do us
+the honor of letting us honor those who have served or are serving. TY. TY
+for loving our country
+
+this election going to come down to wire. i know we can count on battle-horn
+state. are you ready to make mccain next POTUS? ready to help carry this
+state to victory? ready to send us to DC to shake things up?
+
+i know you are here b/c you understand the stakes, for the future. tough
+times, more than ever we need tough leader w/ bold and free and fair plan w/
+pragmatic solutions. we need mccain.
+
+we'll help families keep homes and retirees keep savings, investments they
+worked so hard for and trusted others with. help students. we'll get econ
+back on rgith track. first w/ tax relief to all americans and
+businesses. small business is backbone. this country is made great by
+entreprenerial domain.com. we're going to let you keep more of what you earn and
+produce, thats how jobs are created. we'll lower income taxes and double
+chidl tax deduction and cut the capital gains tax and cut business taxes -
+right now, the business tax in US is 2nd highest in world, we'll cut that to
+help keep Am businesses in america.
+
+on taxes, clear choice. our opponent is not being candid about his tax
+plans. again, its not neg or meanspirited, we're gonna keep doing this -
+calling someone out. its in fairness to you to have everyone understand what
+the choice is. *you have to really listen to his words. **he's hiding his
+real agenda of redistributing your hardearned money. h**e says hes for a tax
+domain.com, which is when govt takes your money and gives it to someone
+else.*we're for a tax cut which is when govt just takes less. this
+allows you to
+invest acc. to your priorities.
+
+we need to hand it to Joe The Plumber. he succeeded in getting our
+opponent to do something no one else has: state his agenda in plain
+language.  senator obama says that he wants to, quote, spread the wealth. he
+wants -- what that means is that government is taking your money and doling
+it out however politicians see fit. that's not good for our economy. barack
+obama calls it spreading the wealth. joe biden calls higher taxes
+patriotic. joe the plumber said it sounded to him like socialism. and now is
+not the time to experiment with socialism. so *when he left joe's
+neighborhood in toledo, i dont think our opponent was too pleased. their
+staged photo-op got ruined w a real person w/ a real question. he asked
+question, stood for so many americans. and now theyre investigating and
+attacking Joe The Plumber.*
+
+but americans are IDing w/ Joe The Plumber. in NM i saw ed the dairyman, i
+saw Tito the builder. here we have dave the cop, ann the engineer, jon the
+only GOP in my HS (laughs). tito the builder isnt pleased at how obama camp
+and the media have been roughing up Joe The Plumber. Tito wants to know why
+the heck are you going after Joe The Plumber? he has an idea, a future, he
+has somewhere he wants to go, why are you stopping that? tito is an
+immigrant from colombia. he says everyone can do waht they want. i was born
+in colombia, but i was made in the usa.
+
+*so tito isnt the only mccain supporter who feel that way.* signs have shown
+the same. *if you work hard and want to get ahead and believe america is the
+land of possibilites and dont want your hopes dashed by obama tax incr, *and
+dont like how he was attacked for asking obama a question, then we're
+all Joe The Plumber. do we have some here?  *doesnt sound like we have a lot
+of fans of obama the wealth-spreader here today.*
+
+ our opponent's plan discourages productivity and it will stifle the
+entrepreneurial domain.com that has made this country unique and it has made it
+the greatest country on earth.
+
+our opponent's plan is just more big government, and john and i think that
+is the problem, not the solution.  instead of taking your hard-earned money
+and spreading your wealth, we want to spread opportunity so people like you
+and joe the plumber can create new wealth and create new jobs.
+
+so we're gonna put govt back on side of ppl. we're going to confront the $10
+trillion debt that the federal government has run up. thats not right, not
+fair, that wont happen on our watch. john and i will impose a spending
+freeze in the federal government's budget on but the most vital functions of
+government.  we have to do this for the fed gvot to be expected to live w/in
+its budget as you are in your homes, in your businesses, as we have to do as
+govs and mayors.
+
+you can count on us to follow thru on our promises b/c we're the only ones
+w/ track records of reform. we havent just been talking the talk, but walked
+the walk.
+
+as a sen, mccain has confronted abuses of pwr and as he'll tell ya, he has
+scars to do it. from his own party and from other party also, he's been
+known as teh maverick taking on the special interests and insider dealings.
+as pres, he'll end them once and for all.
+
+my track record. as mayor, i eliminated personal prop. taxes and sm.
+business inventory taxes. we made our town a place where businesses  could
+grow and thrive. it was a progrowth, proprivate sector agenda. we were able
+to hang that shingle outside our city door that said We're open for
+business! and it worked, and we took off a vibrant, booming community b/c we
+had a progrwoth, proprivate sector agenda. we got govt out of the way to let
+businesses grow and thrive.
+
+as gov, i vetoed nearly $0.5B in wasteful spending. there too, we ruffled
+some feathers. we suspended state fuel tax and returned a chunk of surplus
+back to ppl b/c they can spend it better than govt can spend it for them.
+
+in AK, we got back to basics and put govt back on side of the ppl, we'll use
+that same commonsense approach to reform DC b/c in our admin, i promise
+we'll never forget who we're accountable to, we'll be working for you, the
+ppl of USA. you the ppl.
+
+are you ready to send us to DC shake things up and clean things up?
+
+john and i will set this country firmly on a path to energy indep. we're
+gonna develop new energy sources and tap into what we've already got: oil,
+natural gas, coal.  we'll create thousands of new jobs instead of
+circulating billions and being beholden to volatile regimes that use energy
+as a weapon. we'll develop alternative sources, clean coal technology and
+safely drill. we'll drill here and drill now. and that's when you start to
+chant. we'll drill baby drill and mine baby mine. for security and for
+prosperity and job opportunities, we need american energy by american
+ingenuity and american workers. USA!
+
+i appreciate that. you really do get it and i appreciate you guys.
+
+1 of the missions that we'll take on for you, in addition to energy indep
+and govt reform, should we be blessed to serve you, esp close to my heart,
+that is to help fams w/ kids with special needs. it was mother teresa who
+said that god has created everyone of us, every human, for greater things,
+to love and be loved. no matter our party or backgrd or affiliations or
+gender, there is a voice of humanity there in those words. it speaks to all
+of us.  john and i have vision of america where every innocent life counts
+and everyone has the chance to contribute. where every child is cherished.
+thats the domain.com i want to bring to DC. as gov, i secured more assistance
+and funding to students w/ special needs. as VP, we'll do more, ushering
+domain.com that says life is sacred, it matters, it should be protected. ill
+make sure that children, that all our fams know, yep they'llhave advocate in
+WH.
+
+nov 4 coming quickly. itll come down to what we believe in. mccain and i
+belivee in what reagan believed in: fwd mvmt of frdm not constant expansion
+of govt. best of USA not all gahtered in DC, but in goodness of everyday,
+hardworking ppl in ppl in our factories, teaching, fighting our wars,
+protecting us and protecting the virtues of frdm. we so believe in the
+promise of this country in all of its opportunites. and we believe america
+is not the problem, america the solution. USA. we may not be a perf nation
+but we learn from our mistakes. collectively we represent some perfect
+ideals. we're that beacon of hope for all that seek equality and frdm and
+opportunity. we're still that shining city on a hill reagan spoke of.
+
+and i thank god we have a man ready and worthy to lead that nation. he
+inspires us w/ heroic and trustworthy deeds and not just words. if you
+believe what we believe, you're ready to shake up DC and WS, and you want to
+clean up DC, , we're asking for your vote.
+
+you'll hear our opponents go on and on about how they'll "fight for you".
+since my running mate usually wont say this for himself, ill tell ya: there
+is only 1 candidate in this race who has ever really fought for you. he is
+the only man with courage to keep fighting for you. he is john mccain.
+
+-- 
+Sara DuBois
+Tracking / Communications Manager
+domain.com
+user@domain.com
+202-609-7681 (office)
+410-967-7306 (cell)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

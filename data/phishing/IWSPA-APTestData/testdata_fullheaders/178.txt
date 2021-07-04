@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.71 with SMTP id o68csp58014lfi;
+        Thu, 12 Mar 2015 04:33:20 -0700 (PDT)
+X-Received: by 10.140.93.199 with SMTP id d65mr51120140qge.104.1426160000167;
+        Thu, 12 Mar 2015 04:33:20 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qc0-domain.com (mail-qc0-domain.com. [2607:f8b0:400d:c01::22c])
+        by domain.com with ESMTPS id 107si6208564qgp.63.2015.03.12.04.33.19
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 12 Mar 2015 04:33:20 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22c as permitted sender) client-ip=2607:f8b0:400d:c01::22c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22c as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qc0-domain.com with SMTP id b13so17445972qcw.12
+        for <user@domain.com>; Thu, 12 Mar 2015 04:33:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Eryn Sepp <eryn.sepp@gmail.com>
+         :message-id:date:to;
+        bh=thO7MvEJ8xgN7xsSJvwQcn3b2LZZ0k88rrSAXoO3gqI=;
+        b=BHD1p81Ru8UplzUWvT36/R1/Q4MOw6FQMulqYI1fefUKGhLlzMN67w+T/Xjp4Mb1kM
+         bUi9z1tJQxLucduBZGcOuk4JN8QJF8AoaXusq4hk0xYm9M19gV4FGpLKh0ULB0nAaYYl
+         Y9Hi4VWFmz2egpOt0iEfoDJj4Awx5fcuHHuJVfX/vHKUjcErMLkvAwbeydTT51VUcIhO
+         D/oWiXEx7kcZqBT7ApOCOYOvSGCPFw+KVsQzG814J3+tulVe2s/zUmpatLBakgPFPbFQ
+         ik7dYVTjiA7lFQtecYRSDUgpioavw3Eq04hb7zoUK8X+CThkgUl/0//qU2ojwYR5Fnv7
+         c6BQ
+X-Received: by 10.140.236.73 with SMTP id h70mr53252810qhc.41.1426159999486;
+        Thu, 12 Mar 2015 04:33:19 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2600:1003:b023:71d7:46d:6fbe:8364:5ae9? ([2600:1003:b023:71d7:46d:6fbe:8364:5ae9])
+        by domain.com with ESMTPSA id q32sm4551654qkh.32.2015.03.12.04.33.17
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 12 Mar 2015 04:33:18 -0700 (PDT)
+From: Eryn Sepp <eryn.sepp@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+Subject: Amb Dahlgren cancelled
+Message-Id: <7user@domain.com>
+Date: Thu, 12 Mar 2015 07:33:16 -0400
+To: John user <user@domain.com>
+X-Mailer: iPhone Mail (12B436)
+
+Just got a note he cancelled his trip last min. So taking that off the calen
+dar. As I said yesterday, you have that 4-6:30 pm block today that we can fi
+t try any calls or meetings that have been itching you. But there are many, a
+nd I don't want to presume, so will domain.com your guidance on what you want to d
+o with the time. Other than Ali Zaidi. If you haven't talked with him, I'll s
+ee if he's free then.
+
+Sent from my iPhone

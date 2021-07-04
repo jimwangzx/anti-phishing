@@ -1,0 +1,86 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Mon, 19 May 2015 13:24:37 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4JKOa48021599	for <user@domain.com>; Mon, 19 May 2015 
+ 20:24:37 GMT
+Received: from mail111-ch1-domain.com (mail-domain.com
+ [216.32.181.168])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s4JKQHl0026882
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 19 May 2015 20:26:17 GMT
+Received: from mail111-ch1 (localhost [127.0.0.1])	by
+ mail111-ch1-domain.com (Postfix) with ESMTP id 2555148054B	for
+ <user@domain.com>; Mon, 19 May 2015 20:24:36 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:205.201.131.68;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z3e12hzc89bhc857hzz1f42h1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1de098h1def03h1df219h177df4h17326ah1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h186068hc704dh1ce121iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2534h2545h25f6h2605h268bh26d3h27e2h282bh1d9ci)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail111-ch1: domain of domain.com designates 205.201.131.68 as permitted sender) client-ip=205.201.131.68; user@domain.com; helo=domain.com ;03.domain.com ;
+Received: from mail111-ch1 (localhost.localdomain [127.0.0.1]) by mail111-ch1
+ (MessageSwitch) id 1400531073342895_10611; Mon, 19 May 2015 20:24:33 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.226])	by mail111-domain.com (Postfix) with ESMTP id
+ 45BA5200061	for <user@domain.com>; Mon, 19 May 2015 20:24:33 +0000
+ (UTC)
+Received: from domain.com (205.201.131.68) by
+ domain.com (10.43.70.1) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 19 May 2015 20:24:32 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Hearts=20on=20Fire?= <heartsonfire@zackiva.com>
+ bh=Z+n8gbW5HP11bsRWtjAr9A5czO4=;
+ b=DQmKDqU/rzAXQM4+v2JaUX+ptv0E/e4esoti741Rr6qlkH3hYDy3nL2n2CXiOdiBpHCHAA5zwoh2
+   lcG0nRyuUxKi0E5HlwmsG6Vx6EkVAXP3hQWoH9H43E4l/SqGO1J/39YPFe0gVYhkLH1xo9QkILUh
+   7NfWsT3169HPhpov+sU
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=MLsuWKNWlm77ISStfRE48YxwLAnYvx0aBBmHZwfFrAQSumonMHSBYVj3p0L5XfV2I16Kp1wXEe7+
+   KVTUKtbYoe1nwi+7mZMFeF/ujgXY5hOecwX6XY+qUrRNWYSou/NyIFdsxEr1VyPqxCODBcxiqtbx
+   5t21rzSUtm4pYEe5n3k=;
+Received: from (127.0.0.1) by domain.com id hf9k801jvlob for
+ <user@domain.com>; Mon, 19 May 2015 20:24:32 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?Give=20a=20year=2C=20Change=20the=20World=2D=20David=20Caplan=20is=20Visionary=20of=20the=20Week?
+From: =?utf-8?Q?Hearts=20on=20Fire?= <heartsonfire@zackiva.com>
+Reply-To: =?utf-8?Q?Hearts=20on=20Fire?= <user@domain.com>
+To: =?utf-8?Q??= <user@domain.com>
+Date: Mon, 19 May 2015 20:24:32 +0000
+Message-ID: <7610user@domain.com>
+X-Mailer: MailChimp Mailer - **CID440d24bf6a2a425be7ad**
+X-Campaign: mailchimp7610a53ca033fe9532b38bf28.440d24bf6a
+X-campaignid: mailchimp7610a53ca033fe9532b38bf28.440d24bf6a
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 7610a53ca033fe9532b38bf28
+X-Feedback-ID: 5571338:5571338.1907029:us2:mc
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: Hearts on Fire <user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Give a year, Change the World- David Caplan is Visionary of the Week
+
+Hearts on Fire | Visionary of the Week
+
+Is this email not displaying correctly?
+View it in your browser.
+
+ <<link>>            <<link>>   
+
+ <<link>> 
+
+<<link>>
+
+David Caplan’s passion and enthusiasm for the work of City Year go way beyond being a board member.  He consistently strives to be a resource to corps members and often makes the time to volunteer alongside them.  His outstanding commitment and energy have earned him the title of “Dean of City Year New York.”
+
+David began his commitment to service in 1942 when he joined the U.S. Navy.  He graduated from Notre Dame and received a graduate degree in marketing at Harvard University.  David spent his professional career in the garment industry as President of Concord Fabrics, Evan Piccone and Metro Textiles.  He was honored as “Man of the Year” three times by the textile industry.
+
+Since his retirement, he has found his calling in the field of education. He serves on the boards of PENCIL, WNYC and, of course, City Year.  As a spry 80-something, David admits to being a workaholic for City Year, still spending many hours a week helping carry out its mission at a salary of $1 per year. 
+
+See David featured as our Visionary of the Week 
+

@@ -1,0 +1,111 @@
+Delivered-To: user@domain.com
+Received: by 10.25.215.208 with SMTP id q77csp768792lfi;
+        Sun, 11 Jan 2015 02:51:14 -0800 (PST)
+X-Received: by 10.68.130.103 with SMTP id od7mr36036589pbb.117.1420973473328;
+        Sun, 11 Jan 2015 02:51:13 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com ([216.82.254.101])
+        by domain.com with ESMTPS id iq8si19699575pbc.230.2015.01.11.02.51.12
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Sun, 11 Jan 2015 02:51:13 -0800 (PST)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.254.101;
+Authentication-Results: domain.com;
+       spf=none (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Return-Path: <user@domain.com>
+Received: from [216.82.254.67] by server-5.bemta-7.domain.com id 3F/65-03132-0A552B45; Sun, 11 Jan 2015 10:51:12 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-16.tower-196.domain.com!1420973470!12904280!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.5; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 22165 invoked from network); 11 Jan 2015 10:51:11 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-16.tower-196.domain.com with AES256-SHA encrypted SMTP; 11 Jan 2015 10:51:11 -0000
+Resent-From: Frederic SAMAMA <fsamama@gmail.com>
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Sun, 11 Jan 2015 05:51:09 -0500
+Received: from [216.82.249.211] by server-11.bemta-12.domain.com id
+ 2D/ED-02696-D9552B45; Sun, 11 Jan 2015 10:51:09 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-2.tower-53.domain.com!1420973467!12806347!1
+X-Originating-IP: [209.85.214.172]
+X-SpamReason: No, hits=1.7 required=7.0 tests=BODY_RANDOM_LONG,
+  HTML_20_30,HTML_MESSAGE,RCVD_BY_IP
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.5; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 21479 invoked from network); 11 Jan 2015 10:51:08 -0000
+Received: from mail-ob0-domain.com (HELO mail-ob0-domain.com)
+ (209.85.214.172)  by server-2.tower-53.domain.com with RC4-SHA encrypted
+ SMTP; 11 Jan 2015 10:51:08 -0000
+Received: by mail-ob0-domain.com with SMTP id va8so18913118obc.3
+        for <user@domain.com>; Sun, 11 Jan 2015 02:51:07 -0800
+ (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Frederic SAMAMA <fsamama@gmail.com>
+        bh=mSxGIg7H8m92YR7u/dgXhjsI8ya9smC999KuZmSsZjM=;
+        b=NcDmYISh6+GPQqI7fLIzYBRgsFbnysXnka3eA2GdbcVWM6JD/6TatB8tILvdQ1BqMz
+         DsYCz473tq4Ej9THzFjdTjzCR/rPONVjQ6VeqsN8WrssdCXIcngYW5ImCwV/3dOM8+ZY
+         xvZuWQ1l1S7Ywj6MJB9tnnJEi8TGlbl4bLWqPwIh/J4vw2FKBm3+5kmUFbcgE/X5Pikd
+         Ii/EajZ8zJ2u+GoOBPb5aMxQNCC1oVb0gu+JoSuamHTQiX1Aqd+P5sxJTf5f26ZRgYd9
+         mckY9EK/eNV79M4VcINSdpOvck+CxH4ofnF7jrNi+aC1ykwo35LrEK8JcHZXL0LCqJlX
+         Axvg
+MIME-Version: 1.0
+X-Received: by 10.202.19.132 with SMTP id 4domain.com.10.1420973467144;
+ Sun, 11 Jan 2015 02:51:07 -0800 (PST)
+Received: by 10.182.130.202 with HTTP; Sun, 11 Jan 2015 02:51:07 -0800 (PST)
+Date: Sun, 11 Jan 2015 11:51:07 +0100
+Message-ID: <CAMBRTopNs2ii3ZYV9irc=AjNcJzB8+user@domain.com>
+Subject: Wishes 2015 
+From: Frederic SAMAMA <fsamama@gmail.com>
+To: user@domain.com
+CC: Patrick Bolton <user@domain.com>
+Content-Type: multipart/alternative; boundary="001a113dfb78be987e050c5e2aca"
+
+Dear John,
+
+I had the pleasure to discuss with you at the CGI meetings and I take the
+opportunity of the beginning of the year to deliver some news on a very
+promising project: how to mobilize investors to tackle climate change.
+
+The starting point is that a fast growing number of investors realize that
+climate change is not only a threat for society but in all respects, a risk
+to their assets. As a side effect, by reallocating capital, from polluting
+companies to carbon efficient companies, institutional investors could
+accelerate the transition towards the low carbon economy (see
+<<link>>
+24#pg26
+)
+
+In this perspective, on the academic side, Patrick Bolton (Columbia
+University), Mats Andersson (CEO of Swedish pension fund AP4) and I have
+written a new paper (=E2=80=9CHedging Climate Risk=E2=80=9D and available a
+t
+<<link>>).
+
+We describe low carbon indexes that are reducing climate change related
+risks without impacting investment profiles. We believe it could be a game
+changer: it is simple, transparent and it applies to a $10tn market.
+
+Furthermore, we have launched a non-for domain.com coalition (Portfolio
+Decarbonization Coalition) solely focused on investors that are taking
+action on climate change (see <<link>>). Ban Ki-moon, Dr.
+Kim, President Hollande, etc. have all referred to the Coalition in their
+respective speeches and articles.
+
+The Coalition will bring together institutional investors who are committed
+to decarbonizing at least $100bn of assets. $30bn is already achieved.
+
+I would be glad to invite you for a lunch or a breakfast to discuss about
+all this when you stop in Paris, and, in the meantime, I wish to you and
+your beloved ones a peaceful and Happy New Year.
+
+Kind regards,
+
+Fred

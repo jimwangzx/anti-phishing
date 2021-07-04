@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp1960499lfb;
+        Tue, 17 Nov 2015 10:23:24 -0800 (PST)
+X-Received: by 10.66.252.129 with SMTP id zs1mr45055677pac.59.1447784604022;
+        Tue, 17 Nov 2015 10:23:24 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from omr-m006e.mx.aol.com (omr-m006e.mx.aol.com. [204.29.186.6])
+        by domain.com with ESMTPS id ow7si59591828pbb.237.2015.11.17.10.23.23
+        for <user@domain.com>
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Tue, 17 Nov 2015 10:23:23 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 204.29.186.6 as permitted sender) client-ip=204.29.186.6;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 204.29.186.6 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=aol.com
+Received: from mtaout-mca02.mx.aol.com (mtaout-mca02.mx.aol.com [172.26.221.78])
+	by omr-m006e.mx.aol.com (Outbound Mail Relay) with ESMTP id 158AA38000A7;
+	Tue, 17 Nov 2015 13:23:23 -0500 (EST)
+Received: from [192.168.1.157] (pool-71-114-78-93.domain.com [71.114.78.93])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mtaout-mca02.mx.aol.com (MUA/Third Party Client Interface) with ESMTPSA id 9C67638000090;
+	Tue, 17 Nov 2015 13:23:22 -0500 (EST)
+Content-Type: text/plain;
+	charset=us-ascii
+Mime-Version: 1.0 (1.0)
+Subject: Re: Votes between 4pm and 430pm
+From: Ronald Lester <RonLester711@aol.com>
+X-Mailer: iPhone Mail (13B143)
+In-Reply-To: <-6129654211107613071@unknownmsgid>
+Date: Tue, 17 Nov 2015 13:23:22 -0500
+CC: Amanda Renteria <user@domain.com>, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <user@domain.com>
+References: <-6129654211107613071@unknownmsgid>
+To: LaDavia Drane <user@domain.com>
+x-aol-global-disposition: G
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+	s=20150623; t=1447784603;
+	bh=sbsD7W9zf+IbbSsVavGbzPa46vCgetjsjjegK1AKKkc=;
+	h=From: Ronald Lester <RonLester711@aol.com>
+	b=2f6Kmff4JykBsrIDbN31dyfTDuZp08jTv2Zt5UR0W8eEa00k5rz1QKQieEwsPUzm5
+	 1W+kmQC3vK3DmBp+xhjCQG7ksUjUqzAxA/8h0TdZBMRm8KChBXy8DKlsWKenaowYHl
+	 xeGzBqepVSdO93Ct4NeaQZABCDHvGuNG/i126pYU
+x-aol-sid: 3039ac1add4e564b709a127d
+X-AOL-IP: 71.114.78.93
+
+Just let me know please I am in the area
+
+Sent from my iPhone
+
+te:
+

@@ -1,0 +1,153 @@
+Delivered-To: user@domain.com
+Received: by 10.100.139.5 with SMTP id m5cs155331and;
+        Mon, 4 Aug 2015 15:16:47 -0700 (PDT)
+Received: by 10.150.154.6 with SMTP id b6mr250675ybe.28.1217888207341;
+        Mon, 04 Aug 2015 15:16:47 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-2526.domain.com (yx-out-2526.domain.com [74.125.44.32])
+        by domain.com with ESMTP id 33si293426yxr.3.2008.08.04.15.16.46;
+        Mon, 04 Aug 2015 15:16:47 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.44.32 as permitted sender) client-ip=74.125.44.32;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.44.32 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yx-out-2526.domain.com with SMTP id 4so2282182yxk.68
+        for <user@domain.com>; Mon, 04 Aug 2015 15:16:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Ian Mandel" <ian@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=PVKXEHxgocH1rTNveOC9TeXTk8yl55j8CGctTZoukwQ=;
+        b=wruBOrGzTBqFSfc+j/d0VETXxGSORye9eLUe2KHrdZ1MTW4kVgeKrZVXMjdKWZKVyS
+         o/+AvvchPU/ALx/h2ybz2kw+NJJxZm9Soy7tbhKVvwUPEjTJpV9KIuUDBscLQn22D7YR
+         maw6FrVxa93wv5ICF6iOel/vuSmUfP7yqkUq0
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Ian Mandel" <ian@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=2Pc5npFZO4gSxqsljo2m6/Q+6zZtNw/bEydk7VYS2hXJ8DR6QbepzR0u90RFvhibjq
+         DN+NqNtzwR9Z6nzrBq4GnFY+9NSgAnN/yJ4E2384BVrikfneZ04vkuQbKhJoe4T7zFQC
+         9NaLepOXBocA8OBmdRZCXMyvCBJNSG+SAmvAU
+Received: by 10.142.131.5 with SMTP id e5mr908620wfd.28.1217888200328;
+        Mon, 04 Aug 2015 15:16:40 -0700 (PDT)
+Received: by 10.107.94.18 with SMTP id w18gr1425prl.0;
+	Mon, 04 Aug 2015 15:16:31 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.214.11.19 with SMTP id 19mr554658qak.4.1217888190848; Mon, 04 Aug 2015 15:16:30 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from fg-out-1718.domain.com (fg-out-1718.domain.com [72.14.220.155]) by domain.com with ESMTP id 7si5799538yxg.0.2008.08.04.15.16.30; Mon, 04 Aug 2015 15:16:30 -0700 (PDT)
+Received-SPF: neutral (domain.com: 72.14.220.155 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=72.14.220.155;
+Authentication-Results: domain.com; spf=neutral (domain.com: 72.14.220.155 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by fg-out-1718.domain.com with SMTP id l26so1147648fgb.31 for <user@domain.com>; Mon, 04 Aug 2015 15:16:30 -0700 (PDT)
+Received: by 10.86.60.14 with SMTP id i14mr10820787fga.75.1217888189612; Mon, 04 Aug 2015 15:16:29 -0700 (PDT)
+Received: by 10.86.9.1 with HTTP; Mon, 4 Aug 2015 15:16:29 -0700 (PDT)
+Message-ID: <8user@domain.com>
+Date: Mon, 4 Aug 2015 18:16:29 -0400
+From: "Ian Mandel" <ian@progressiveaccountability.org>
+To: user@domain.com, 
+ "Ian Mandel" <user@domain.com>
+Subject: [big campaign] IE Watch 8/4
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_24000_32846646.1217888189602"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+*SEIU:
+- *$4,416.50 for rally signs (Mosaic) on 8/1 in support of Obama
+
+*Sierra Club:*- $16.28 for salaries & benefits (Lydia Ball) on 7/31 in
+support of Obama
+- $16.28 for salaries & benefits (Lydia Ball) on 7/31 in opposition to
+McCain
+- $145.25 for salaries & benefits (Hillary Bright) on 7/31 in support of
+Obama
+- $145.25 for salaries & benefits (Hillary Bright) on 7/31 in opposition to
+McCain
+- $18.15 for salaries & benefits (Joshua Dorner) on 7/15 in support of Obama
+- $163.35 for salaries & benefits (Joshua Dorner) on 7/15 in opposition to
+McCain
+- $36.30 for salaries & benefits (Joshua Dorner) on 7/31 in support of Obama
+- $272.25 for salaries & benefits (Joshua Dorner) on 7/31 in opposition to
+McCain
+- $95.56 for salaries & benefits (Catherine Duvall) on 7/31 in support of
+Obama
+- $95.56 for salaries & benefits (Catherine Duvall) on 7/31 in opposition to
+McCain
+- $556.52 for salaries & benefits (Kim Haddow) on 7/31 in support of Obama
+- $556.52 for salaries & benefits (Kim Haddow) on7/31 in opposition to
+McCain
+- $72.24 for salaries & benefits (Matthew Himmelein) on 7/31 in support of
+Obama
+- $72.24 for salaries & benefits (Matthew Himmelein) on 7/31 in opposition
+to McCain
+- $68.67 for salaries & benefits (Shrayas Jatkar) on 7/31 in support of
+Obama
+- $114.45 for salaries & benefits (Shrayas Jatkar) on 7/31 in opposition to
+McCain
+- $100 for equipment rental (Shrayas Jatkar) on 7/31 in opposition to McCain
+- $100 for equipment rental (Shrayas Jatkar) on 7/31 in support of Obama
+- $37.16 for salaries & benefits (Kristina Johnson) on 7/15 in support of
+Obama
+- $145.50 for salaries & benefits (Rich Kotchmar) on 7/15 in support of
+Obama
+- $145.40 for salaries & benefits (Rich Kotchmar) on 7/15 in opposition to
+McCain
+- $290.80 for salaries & benefits (Rich Kotchmar) on 7/31 in support of
+Obama
+- 290.80 for salaries & benefits (Rich Kotchmar) on 7/31 in opposition to
+McCain
+- $42.91 for salaries & benefits (Teresa McHugh) on 7/31 in support of Obama
+- $42.91 for salaries & benefits (Teresa McHugh) on 7/31 in opposition to
+McCain
+- $170,000 for media consultants (New Media Firm) on 7/31 in support of
+Obama
+- $170,000 for media consultants (New Media Firm) on 7/31 in opposition to
+McCain
+- $185.40 for salaries & benefits (Carol Oldham) on 7/31 in support of Obama
+- $185.40 for salaries & benefits (Carol Oldham) on 7/31 in opposition to
+McCain
+- $59.10 for salaries & benefits (Rosemary Wehnes) on 7/31 in opposition to
+McCain
+- $59.10 for salaries & benefits (Rosemary Wehnes) on 7/31 in support of
+Obama
+- $20 for transportation reimbursement (Rosemary Wehnes) on 7/31 in
+opposition to McCain
+- $20 for transportation reimbursement (Rosemary Wehnes) on 7/31 in support
+of Obama
+- $30.58 for salaries & benefits (David Willett) on 7/31 in support of Obama
+- $30.58 for salaries & benefits (David Willett) on 7/31 in opposition to
+McCain
+
+*MoveOn:*- $2,000 for web ads (Facebook) on 7/30 in support of Obama
+- $150,000 for web ads (Facebook) on 8/1 in support of Obama
+- $246,470.94 for bumper stickers (Fine Designs) on 8/1 in support of Obama
+- $1,228 for sticker design (Claire Iltis) on 7/30 in support of Obama
+- $2,000 for web ads (My Space) on 7/31 in support of Obama
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

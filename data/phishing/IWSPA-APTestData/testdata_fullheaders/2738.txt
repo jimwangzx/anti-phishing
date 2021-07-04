@@ -1,0 +1,75 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.30 with SMTP id o30csp1135824lfi;
+        Sun, 22 Mar 2015 11:20:01 -0700 (PDT)
+X-Received: by 10.202.107.81 with SMTP id g78mr29904864oic.67.1427048399414;
+        Sun, 22 Mar 2015 11:19:59 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::22e])
+        by domain.com with ESMTPS id n132si5493834oif.111.2015.03.22.11.19.58
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 22 Mar 2015 11:19:59 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::22e as permitted sender) client-ip=2607:f8b0:4003:c06::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-oi0-domain.com with SMTP id r21so124210489oie.1
+        for <user@domain.com>; Sun, 22 Mar 2015 11:19:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Daniel Poneman <dponeman@gmail.com>
+        bh=WBHypWdBkoSrTwE9hikr2YpSufjchWCEtjS1KtOtwAI=;
+        b=x9wNrsB1rBkYohIXisF547wY03MOznBPGqR+1py9HqEMZaQde2KdUpsKVJ5UexSxxU
+         Dnqn1/qiZ8SQ8c6Kfh9yxDjwk8sHUZIuv2MfuKMmQ0825n5WsJqrU8wthnczDbSYW2J8
+         VsuBZ/Xs9FWh16LF995Um/zeAYHDjAtVidnnLXibGuZnErmJ8JTnHuk8pKPZxZH8wZQr
+         fqcLShbLzgJNksx9wK7gKG5cKqYR2Je7mEMptgtvMQ8qwVKuk44qjv2TKOYE70RuOpK8
+         bwAgGBUDctnwJfZMWd+SNL39DOdEDIaaRxFazAs+DK6SAF/N5IYMaugMwKgOkro575pm
+         i9Bg
+MIME-Version: 1.0
+X-Received: by 10.202.58.8 with SMTP id h8mr69109592oia.93.1427048398705; Sun,
+ 22 Mar 2015 11:19:58 -0700 (PDT)
+Received: by 10.60.246.39 with HTTP; Sun, 22 Mar 2015 11:19:58 -0700 (PDT)
+Date: Sun, 22 Mar 2015 14:19:58 -0400
+Message-ID: <CAJhy_GPY8ykqPrvhzTjBiAAg+user@domain.com>
+Subject: China
+From: Daniel Poneman <dponeman@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113cd866e1dac00511e4987d
+
+John:
+
+Talked to Eryn and know you were out on Friday.  Let me just give you the
+key elements coming out of the Paulson Institute clean energy finance
+seminar in China, for ease of reference.
+
+Bottom-line:  Chinese were engaged, focused, and positive about the suite
+of ideas for clean energy finance.  I briefed both sets of USG activities
+aimed at overcoming the first/tech development valley of death (grants,
+ARPA-E, hubs, EFRCs, etc.) as well as US-Chinese cooperation in that space
+through CERC and the second/commercialization valley of death (loan program
+leading to first grid-scale deployment of PV, CSP, largest wind farm,
+etc.).  MacWilliams did a great job explaining current programs and
+successes achieved.
+
+Ma Jun, of the People's Bank of China, laid out an ambitious agenda of
+tools to use to promote clean energy finance, including ideas such as green
+bank, policy support (e.g., green bonds), infrastructure support (e.g., by
+lowering cost of capital), and legal reform (e.g., consumer protections,
+enforcing environmental laws by holding banks accountable for climate
+effects of projects they finance).  Discussion embraced state-owned
+enterprises, private enterprise, and public private partnerships.  The
+Chinese Investment Corp was also represented.
+
+Sandalow came up with the idea of advancing these ideas via a Track 1-1/2
+dialogue, and when we can speak I can flesh that out a bit.  But that is
+the thumbnail of the results and, as I said, Hank wanted to be sure you get
+a quick download.  Thanks again for your guidance and support.
+
+BTW had a message from Melanie Hart from CAP about China, and will close
+the loop with her as well.
+
+Best,
+
+Dan
+

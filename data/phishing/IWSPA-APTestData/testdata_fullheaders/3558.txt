@@ -1,0 +1,78 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 3 Dec 2015 14:41:17 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rB3MfFak027494	for <user@domain.com>; Tue, 3 Dec 2015 
+ 22:41:15 GMT
+Received: from mail203-va3-domain.com (mail-domain.com
+ [216.32.180.118])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rB3MfER7013268
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 3 Dec 2015 22:41:15 GMT
+Received: from mail203-va3 (localhost [127.0.0.1])	by
+ mail203-va3-domain.com (Postfix) with ESMTP id BBBDD340071	for
+ <user@domain.com>; Tue,  3 Dec 2015 22:41:14 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:66.161.21.176;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vpaccept
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail203-va3: domain of news.sonypictures.com designates 66.161.21.176 as permitted sender) client-ip=66.161.21.176; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail203-va3 (localhost.localdomain [127.0.0.1]) by mail203-va3
+ (MessageSwitch) id 1386110472765542_10906; Tue,  3 Dec 2015 22:41:12 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.245])	by
+ mail203-domain.com (Postfix) with ESMTP id AE8BEC0007C	for
+ <user@domain.com>; Tue,  3 Dec 2015 22:41:12 +0000 (UTC)
+Received: from domain.com (66.161.21.176) by
+ domain.com (10.7.99.20) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 3 Dec 2015 22:41:11 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=news.sonypictures.com; s=nsp; t=1386024063;
+	bh=Llv4deYmsoIMGpfAGngkcvnF1KcOupVykEmhuZduM84=;
+	h=DomainKey-Signature:Date:Message-Id:From: Awards Group <awardsgroup@news.sonypictures.com>
+	 MIME-Version:X-Mailer:List-Unsubscribe:Content-Type:
+	 Content-Transfer-Encoding;
+	b=s4imH76Iw0CRfyiLkygOusqgnpm7FJiVvP1lXGoSI4xa5yvLWwq1uD2TuaqusnwWA
+	 5moTI/283sppFgayMlkT0uaP9E8h/BJQXnCo290QyPHXdB0dEcJsxN38ZXpP1bs
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=nsp; d=news.sonypictures.com;
+  h=Date:Message-Id:From: Awards Group <awardsgroup@news.sonypictures.com>
+  b=Z4YM+ypxLG838EsHvtJZaKgo63zczI8jIBFJ61elHQH3Rp2kL2MUvBagisgJfcfgszK2HhmEvCE3wlUESX2b4XgQOdr8X9AoyNpl8zauMCZAO+twzjPQmQkH7pC3K5mv;
+Date: Tue, 3 Dec 2015 14:41:03 -0800
+Message-ID: <1386110463.user@domain.com>
+From: Awards Group <awardsgroup@news.sonypictures.com>
+Reply-To: Awards Group <user@domain.com>
+To: <user@domain.com>
+Subject: CLOUDY WITH A CHANCE OF MEATBALLS 2 screenings, FOR YOUR CONSIDERATION
+X-Mailer: Zetamail50
+List-Unsubscribe: <mailto:abuse+LU+SPRT+23794+3831108+user@domain.com>
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+CLOUDY WITH A CHANCE OF MEATBALLS 2 screenings, FOR YOUR CONSIDERATION
+
+If you cannot see this message, click here to view.     
+
+Dear AMPAS Member,
+
+You and your family are invited to enjoy
+
+ Cloudy with a chance of meatballs 2    
+
+Saturday, December 7 at 11:00am or 2:00pm
+Saturday, December 14 at 11:00am or 2:00pm
+
+THE RAY HARRYHAUSEN THEATER
+Sony Pictures Animation
+9050 W Washington Avenue
+Culver City, CA 90232
+
+To RSVP: user@domain.com
+Please include: your name, number of guests if more than one,
+and which screening you would like to attend.
+
+Cloudy with a Chance of Meatballs 2 picks up where Sony Pictures Animation's 2015 comedy left off. Inventor Flint Lockwood thought he saved the world when he destroyed his most infamous invention -- a machine that turned water into food causing cheeseburger rain and spaghetti tornadoes. But Flint soon learns that his invention survived and is now creating food-animals - "foodimals!" Flint and his friends embark on a dangerous mission to battle hungry tacodiles, shrimpanzees, hippotatomuses, cheespiders and other foodimals to save the world - again! Directed by Cody Cameron, Kris Pearn. Starring Bill Hader (Flint Lockwood), Anna Faris (Sam Sparks), James Caan (Tim Lockwood), Will Forte (Chester V), Andy Samberg (Brent), Benjamin Bratt (Manny), Neil Patrick Harris (Steve), Terry Crews (Earl), Kristen Schaal (Barb). Screenplay by Erica Rivinoja and John Frances Daley & Jonathan Goldstein, Story by Phi
+

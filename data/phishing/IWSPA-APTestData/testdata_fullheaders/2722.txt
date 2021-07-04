@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.30.9 with SMTP id e9csp277549lfe;
+        Tue, 9 Sep 2015 07:03:19 -0700 (PDT)
+X-Received: by 10.68.200.165 with SMTP id jt5mr14998687pbc.113.1410271398713;
+        Tue, 09 Sep 2015 07:03:18 -0700 (PDT)
+Return-Path: <>
+Received: from domain.com (domain.com. [216.82.255.51])
+        by domain.com with ESMTPS id fk9si14545506pad.188.2014.09.09.07.03.17
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Tue, 09 Sep 2015 07:03:18 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of domain.com designates 216.82.255.51 as permitted sender) client-ip=216.82.255.51;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 216.82.255.51 as permitted sender) smtp.mail
+Return-Path: <>
+Received: from [216.82.254.83:45995] by server-17.bemta-7.domain.com id 37/81-20470-5A80F045; Tue, 09 Sep 2015 14:03:17 +0000
+X-Msg-Ref: server-5.tower-197.domain.com!1410271369!6963337!8
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 9642 invoked from network); 9 Sep 2015 14:03:16 -0000
+Received: from unknown (HELO LAW-CAS1.law.georgetown.edu) (141.161.191.74)
+  by server-5.tower-197.domain.com with AES128-SHA encrypted SMTP; 9 Sep 2015 14:03:16 -0000
+Received: from LAW-MBX01.law.georgetown.edu ([169.254.1.6]) by
+ LAW-CAS1.law.georgetown.edu ([141.161.191.74]) with mapi id 14.03.0181.006;
+ Tue, 9 Sep 2015 10:02:45 -0400
+From: Georgetown Law Events <rsvp2@law.georgetown.edu>
+Subject: REMINDER: Dean's Wednesday Luncheon
+Thread-Topic: REMINDER: Dean's Wednesday Luncheon
+Thread-Index: Ac/MNnXmC5xGHF3gR1ejxvTGzv0CtQ
+Date: Tue, 9 Sep 2015 14:02:44 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.129.89]
+Content-Type: multipart/alternative;
+	boundary="_000_A1DC97038FFD894F8D98DB7503505193249830A5LAWMBX01lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+
+Dear Faculty,
+
+This is a reminder that the Dean's Wednesday Luncheon will take place tomor
+row, Wednesday, September 10, in the Faculty Lounge at 12:00pm.  We hope yo
+u can make it!
+
+Thank you,
+
+Office of Special Events
+

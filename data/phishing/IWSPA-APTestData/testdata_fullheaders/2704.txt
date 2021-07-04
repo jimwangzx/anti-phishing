@@ -1,0 +1,71 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp1013633lfi;
+        Sun, 14 Jun 2015 11:45:28 -0700 (PDT)
+X-Received: by 10.202.169.214 with SMTP id s205mr19607270oie.71.1434307527545;
+        Sun, 14 Jun 2015 11:45:27 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::22a])
+        by domain.com with ESMTPS id r133si7045960oib.79.2015.06.14.11.45.26
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 14 Jun 2015 11:45:27 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22a as permitted sender) client-ip=2607:f8b0:4003:c01::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id ej4so51248245obc.0
+        for <user@domain.com>; Sun, 14 Jun 2015 11:45:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Huma Abedin <ha16@hillaryclinton.com>
+         :cc:content-type;
+        bh=mCjLYP5icVK988MXjrlvj+z6+tN6c4njQUtkOd75siQ=;
+        b=D8g3te3fNq2fXYypH8iyloF5ZVhzqAE09Z7OYsNujctmOMMN7U9r3+wBn9qfyQ0eDZ
+         IZ7ZU8Cp4zG1ei2tIKa+ye6i6S26oYVTOoFZtesGZmmYJZqCEFvoHr3fbFRoDKuPdzqE
+         x4SUXJm29LPWQMpQqpIH/xztWZnJqYmf+D6kk
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Huma Abedin <ha16@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=mCjLYP5icVK988MXjrlvj+z6+tN6c4njQUtkOd75siQ=;
+        b=fFFn7VI6OfSCfCug9Fhikb8SQwe4LGWdbp4WJos7+Ik3uXIwrr/qgKqTUSnZM8rIwX
+         jDMObUtSpW5f0fW3nHl+UYj+3uJw+va4bRPFhhJPiFZ/9RrjpzgKSoiYM48J5txZhkJc
+         uojSmrjCP7IjUpkZfSF4cm/3wB3cpwEKBl8z0d873RN040SW1wGymyIbIeKP9FgL9pIU
+         Vjxjv+E96TM7UIn+5kXQ8IS3Ov2zGLK3BEIbooZJNzRhsXtPezXZp4kqL4a+4cl4oGnd
+         u4SdvMOMG79iylJPu1yKtvq8zVIzkshDLILZ7qC5eVLCjRPrhp1FGRYnhN8poGlYgISt
+         B3Kw
+X-Gm-Message-State: ALoCoQnkycq3mev5nUfJ8MPAoVPCV/HoXDVCQfzQ97ZB3xvtCJ+WQY5OpX6CPN4XDHVOPmCLZqRj
+X-Received: by 10.202.98.193 with SMTP id w184mr19556149oib.96.1434307526668;
+ Sun, 14 Jun 2015 11:45:26 -0700 (PDT)
+From: Huma Abedin <ha16@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <user@domain.com>
+ <3658015503817679314@unknownmsgid> <user@domain.com>
+ <-6115161458402360372@unknownmsgid>
+In-Reply-To: <-6115161458402360372@unknownmsgid>
+Date: Sun, 14 Jun 2015 13:29:07 -0500
+Message-ID: <-2027013410304219859@unknownmsgid>
+Subject: Re: TWEET | Big line outside IA event
+To: Jennifer Palmieri <user@domain.com>
+CC: "Margolis, Jim" <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Joel Benenson <user@domain.com>, Mandy Grunwald <user@domain.com>, 
+ David Binder <user@domain.com>, John Anzalone <user@domain.com>, 
+ Robby Mook <user@domain.com>, John user <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Oren Shur <user@domain.com>, 
+ Dan Schwerin <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113d3c42a04cdf05187ebe31
+
+Quite a bit of ad libbing going on here at her first new stump. She
+inserted some new applause lines and talked about Dorothy in a more
+personal way that I've only heard her talk about privately. Also she
+smacked down potus on trade and then kept kicking for a little bit. Worth
+looking at transcript but this seemed to really work for this crowd
+
+Sent from my iPhone
+
+On Jun 14, 2015, at 1:00 PM, Jennifer Palmieri <user@domain.com
+m>

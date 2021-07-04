@@ -1,0 +1,80 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.48 with SMTP id n45csp3038qga;
+        Sat, 22 Mar 2015 06:24:47 -0700 (PDT)
+X-Received: by 10.236.130.178 with SMTP id k38mr442450yhi.132.1395494686913;
+        Sat, 22 Mar 2015 06:24:46 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from dmz-mailsec-scanner-5.domain.com (dmz-mailsec-scanner-5.domain.com. [18.7.68.34])
+        by domain.com with ESMTP id b72si9307863yhh.207.2014.03.22.06.24.46
+        for <user@domain.com>;
+        Sat, 22 Mar 2015 06:24:46 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 18.7.68.34 as permitted sender) client-ip=18.7.68.34;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 18.7.68.34 as permitted sender) user@domain.com
+X-AuditID: 12074422-f79526d000000c47-8e-532d8f1ea8c8
+Received: from mailhub-auth-1.domain.com ( [18.9.21.35])
+	(using TLS with cipher AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by dmz-mailsec-scanner-5.domain.com (Symantec Messaging Gateway) with SMTP id C8.82.03143.E1F8D235; Sat, 22 Mar 2015 09:24:46 -0400 (EDT)
+Received: from outgoing-exchange-3.domain.com (outgoing-exchange-3.domain.com [18.9.28.13])
+	by mailhub-auth-1.domain.com (8.13.8/8.9.2) with ESMTP id s2MDOj4l008887
+	for <user@domain.com>; Sat, 22 Mar 2015 09:24:46 -0400
+Received: from OC11EXEDGE4.EXCHANGE.MIT.EDU (domain.com [18.9.3.27])
+	by outgoing-exchange-3.domain.com (8.13.8/8.12.4) with ESMTP id s2MDOjhW003154
+	for <user@domain.com>; Sat, 22 Mar 2015 09:24:45 -0400
+Received: from domain.com (18.7.73.27) by
+ OC11EXEDGE4.EXCHANGE.MIT.EDU (18.9.3.27) with Microsoft SMTP Server (TLS) id
+ 14.3.158.1; Sat, 22 Mar 2015 09:23:56 -0400
+Received: from domain.com ([169.254.1.132]) by
+ domain.com ([18.7.73.27]) with mapi id 14.03.0158.001; Sat,
+ 22 Mar 2015 09:24:44 -0400
+From: John M Deutch <jmd@MIT.EDU>
+To: John user <user@domain.com>
+CC: John M Deutch <user@domain.com>
+Subject: Re: Hope all is well
+Thread-Topic: Hope all is well
+Thread-Index: AQHPRQ3x1SN9EgaSMEOj/3DT7yD7Z5rtBgeAgABXF4A
+Date: Sat, 22 Mar 2015 13:24:44 +0000
+Message-ID: <29user@domain.com>
+References: <630user@domain.com>
+ <user@domain.com>
+In-Reply-To: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [98.216.52.119]
+Content-Type: text/plain; charset="us-ascii"
+Content-ID: <user@domain.com>
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFvrIKsWRmVeSWpSXmKPExsUixCmqrCvXrxtssPOToMWhQ4cYHRg9ds66
+	yx7AGMVlk5Kak1mWWqRvl8CVcXVjC2vBe7aK78ePsDQwrmTtYuTkkBAwkViz4jY7hC0mceHe
+	erYuRi4OIYHZTBKfn01ih3DuMkpcn3yCBaRKSOAJo8SJ104Qie2MEp0NU5kgnNWMEqs3T2IC
+	qWITUJRYePcjmC0ioClxb/kUoLkcHMwC8hJb71mDhIUFZCWWvr0NVSIn8a7rGRuEbSXx8tFn
+	sPNYBFQlPm1fABbnBYov7upjARkjJJALdEMRiMkpYCsx47UiSAUj0APfT60Bm8gsIC5x68l8
+	JojHBCUWzd7DDPPkv10P2SBsRYnHW1dB1etILNj9iQ3CtpdY9+YSlK0tsWzha2aICwQlTs58
+	wjKBUWoWkhWzkLTPQtI+C0n7LCTtCxhZVzHKpuRW6eYmZuYUpybrFicn5uWlFuma6uVmluil
+	ppRuYgTFLLuL0g7GnweVDjEKcDAq8fAaKOkGC7EmlhVX5h5ilORgUhLlbagBCvEl5adUZiQW
+	Z8QXleakFh9ilOBgVhLhfdwDlONNSaysSi3Kh0lJc7AoifPKc2gHCwmkJ5akZqemFqQWwWRl
+	ODiUJHgt+oAaBYtS01Mr0jJzShDSTBycIMN5gIaXgdTwFhck5hZnpkPkTzEqSonzHusFSgiA
+	JDJK8+B6YSn1FaM40CvCvPwg7TzAdAzX/QpoMBPQYP6pWiCDSxIRUlINjDb3mc7OqtzqoM6w
+	9Wga6/fDDRkHv9/gYo5h2n3Qcj9vcM0nS6NH+qc8VLd8W++eOlNU+uk8NddNNw8cj+vebNy0
+	pv/E5D9PFeykb1tXdV0o/5LSJKpQJcfsXsMyrWF3KlM1f9X0yIOTixfOtWWOeFcjmH20cXXQ
+	Zdfulr+33G6wSsnlL05+psRSnJFoqMVcVJwIALrGnVKEAwAA
+
+Available now at hom 617 484 3334.  my cell is not reliable here.
+
+John
+
+************************************************
+John Deutch		=09
+Department Chemistry					=09
+Room 6-215
+Massachusetts Institute of Technology
+Cambridge, MA 02139
+
+e-mail	user@domain.com
+Tel:  	617 253-1479
+Fax:		617 258-5700
+

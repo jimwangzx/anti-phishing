@@ -1,0 +1,74 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp561409lfr;
+        Sat, 26 Sep 2015 16:42:17 -0700 (PDT)
+X-Received: by 10.129.108.84 with SMTP id h81mr10209405ywc.134.1443310936942;
+        Sat, 26 Sep 2015 16:42:16 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::229])
+        by domain.com with ESMTPS id n70si4801255ywn.88.2015.09.26.16.42.16
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 26 Sep 2015 16:42:16 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::229 as permitted sender) client-ip=2607:f8b0:4002:c07::229;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::229 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id t18so143917881ykd.3
+        for <user@domain.com>; Sat, 26 Sep 2015 16:42:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+         :cc:content-type;
+        bh=h2jLiZWtBug77WgYUmQQHmlqwNcNxeolAJ2g+VtufN0=;
+        b=csy6Ffh9wvkmXgBtqrYD7k9x71agQNYsoWxVu0yEZT6BdkvAwLlQNFnrdtjAZAs4sB
+         zE93GBjvefQwkWO1FWowyy8XZtHYzonKi0xIOxjPzMtNvCeNtrbZqDMgtTfTRLhBZPoI
+         7dCS1dWfpGArUnrrHVRhl0MBxRXzNviZ3eBSc
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=h2jLiZWtBug77WgYUmQQHmlqwNcNxeolAJ2g+VtufN0=;
+        b=h59gpuOpcBu/Wts/lXjInTxcP4GWu7rsyPYC7i1HTJkGPt4wO7rOfSvwB7b3OSQhr3
+         euitHBM+hpa74lgE66o8m8EZEQ8br8XP2oSJm93bHLAN38Np2WIkSCZZEPIkmZ7bxbph
+         2gVu1wFCVNoz1+SSuDltiPW+y/uYym+55Efr862Z2PbnjKcpHRSztLFvrt/HmtuIZjq4
+         JTAdomXTt05dWnIcKH+03Uy0TN0eJLMtEHGu1wX3/bvMW5FaJUlrvDYTUjd37X3vg/M4
+         dCUYsm7LTAesEaCtwIlZbCsAtg3JNl8jdQT0srCceBKYzHOqItCJ+K0qo6OiaazKRZ38
+         MN8w
+X-Gm-Message-State: ALoCoQk7exC7UGFRKi53FX15nLxZr2SHP8kMLm2jQiJSAqDKVxsen7Gn9GmDbMRIPRNKRqIqTiaE
+X-Received: by 10.129.103.67 with SMTP id b64mr10600015ywc.55.1443310936598;
+ Sat, 26 Sep 2015 16:42:16 -0700 (PDT)
+From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <857853053811545821@unknownmsgid> <14user@domain.com>
+ <CACWw=rRq9KqKhr7RX0JtXiDyvkOVK8GMFrziRTgQXWs9D+user@domain.com>
+ <CANqZgL9bVUY-zug5VJ4zf=OX91r6aaPVE6Cb1+user@domain.com>
+ <user@domain.com>
+ <CAJMVHXuQE95Sro=FNj+-31WYL+user@domain.com>
+ <CACWw=rRRZCJgR11BRTUwbjG6xOJ-a+user@domain.com>
+ <user@domain.com>
+ <-4010555283765246690@unknownmsgid> <-8690727019419079704@unknownmsgid>
+ <3239198604387578821@unknownmsgid> <8869490376614742871@unknownmsgid>
+ <CANqZgL9dkzgq0f8HuUAbRTwEyCi9zQQVTvbev1n41HP9zrSS+user@domain.com>
+ <-1809655748273578138@unknownmsgid> <user@domain.com>
+In-Reply-To: <user@domain.com>
+Date: Sat, 26 Sep 2015 16:42:15 -0700
+Message-ID: <-882984127125505353@unknownmsgid>
+Subject: Re: Cadillac tax
+To: Robby Mook <user@domain.com>
+CC: Brian Fallon <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ John user <user@domain.com>, Joel Benenson <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>, 
+ Jake Sullivan <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11490826ad63020520af0347
+
+Jen/Brian - HRC would like to go with the Senate Dem version of repeal with
+no caveats but strong message that it must be paid for and R version
+without pay for is unacceptable. Meet the Press worthy? If so, I want to
+work with Nikki and Amanda to set it up with unions.
+
+Ann O=E2=80=99Leary
+Sent from my iPhone
+(510) 717-5518 (cell)
+

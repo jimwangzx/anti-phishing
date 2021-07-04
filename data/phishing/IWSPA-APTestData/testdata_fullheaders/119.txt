@@ -1,0 +1,167 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Wed, 14 May 2015 12:05:24 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 8EF6460030	for
+ <user@domain.com>; Wed, 14 May 2015 10:54:19 +0100 (BST)
+Received: by domain.com (Postfix)	id 00988B6603D; Wed, 14 May 2015 
+ 12:05:25 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id E8E83B6603C	for
+ <user@domain.com>; Wed, 14 May 2015 12:05:24 +0200 (CEST)
+X-ASG-Debug-ID: 1400061923-066a755db400780001-Aet2rw
+Received: from a13-38.smtp-domain.com (a13-38.smtp-domain.com
+ [54.240.13.38]) by domain.com with ESMTP id JzLkMso8S1EHUjBZ for
+ <user@domain.com>; Wed, 14 May 2015 12:05:23 +0200 (CEST)
+X-Barracuda-Envelope-From: "auto-confirm@amazon.com" <auto-confirm@amazon.com>
+X-Barracuda-IPDD: Level2 [bounces.amazon.com/54.240.13.38]
+X-Barracuda-Apparent-Source-IP: 54.240.13.38
+X-ASG-Whitelist: Barracuda Reputation
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=jvxsykglqiaiibkijmhy37vqxh4mzqr6; d=amazon.com; t=1400061922;
+	h=Date:From: "auto-confirm@amazon.com" <auto-confirm@amazon.com>
+	bh=7ktUFIFYMqkfsSYC9Dtt9ny2IMh+JHjAa1AjgGwq2Kk=;
+	b=KS2r4b0GWlrH+8v5okr/rcpYdXCx4boSA4paGyxK7iUbuZWdRACcBKWnNsCDhwf/
+	/A2Up+8mtKH3TVwLeG8uXvrnDPtucOxcT9oO9j/mfEwGyZBv6T6V7xBeFaPiAr75s9p
+	CeGBJA026P8e9tPQmMaZuM5Fa+KoWxXKoUiqGpMo
+Date: Wed, 14 May 2015 10:05:22 +0000
+From: "auto-confirm@amazon.com" <auto-confirm@amazon.com>
+Reply-To: "User" <user@domain.com>
+To: Antonella Capaldo <user@domain.com>
+Message-ID: <00000145user@domain.com>
+Subject: Your domain.com order of "Agile Testing: A Practical..." and 3 more
+ items.
+X-ASG-Orig-Subj: Your domain.com order of "Agile Testing: A Practical..." and 3 more
+ items.
+Bounces-to: 20140514100520user@domain.com
+X-AMAZON-MAIL-RELAY-TYPE: notification
+X-AMAZON-RTE-VERSION: 2.0
+X-Original-MessageID: <urn.correios.msg.20140514100520e2568d43b26f40d786422718f4444923@1400061922321.rte-svc-1a-i-90b0d2ed.us-east-1.amazon.com>
+X-SES-Outgoing: 2014.05.14-54.240.13.38
+X-Barracuda-Connect: a13-38.smtp-domain.com[54.240.13.38]
+X-Barracuda-Start-Time: 1400061923
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+Return-Path: 20140514100520user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1505733112_-_-"
+
+
+
+
+				domain.com order of Agile Testing: A Practical... and 3 more item(s).
+
+
+
+               Your Recommendations
+
+
+
+               |  Your Account  |  domain.com   
+
+
+
+              Order Confirmation Order #103-5936380-3034625   
+
+
+
+              Hello Antonella Capaldo,  Thank you for shopping with us. We’ll send a confirmation once your items have shipped. Your order details are indicated below. If you would like to view the status of your order or make any changes to it, please domain.com Your Orders on domain.com.   
+
+
+
+                All items in this order sold by Amazon Export Sales Inc. (AES), unless otherwise noted. By placing your order, you authorize AES to designate a carrier to clear the package and pay the import fees on your(or the recipients's) behalf. Customs declarations will be made in the name and on the behalf of your (or the recipient's) behalf by the designated carrier. You can find the complete terms and conditions of your order here.    
+
+
+
+               Your guaranteed delivery date is:   Friday, May 16, 2015    Your shipping speed:   AmazonGlobal Priority Shipping       
+               Your order will be sent to:   HT Srl  Via della Moscova 13  MILANO, Milan 20121  Italy    
+
+
+
+          Order Details  
+
+
+
+              Order #103-5936380-3034625  Placed on Wednesday, May 14, 2015  
+
+
+
+               ATDD by Example: A Practical Guide to Acceptance Test-Driven Development (Addison-Wesley Signature Series (Beck))   Gärtner, Markus,G¿rtner, Markus; Paperback  Sold by Amazon Export Sales, Inc.  
+
+
+
+              EUR 20,08   
+
+
+
+               Agile Testing: A Practical Guide for Testers and Agile Teams   Crispin, Lisa,Gregory, domain.com; Paperback  Sold by Amazon Export Sales, Inc.  
+
+
+
+              EUR 30,95   
+
+
+
+               Android Application Testing Guide   Torres Milano, Diego; Paperback  Sold by Amazon Export Sales, Inc.  
+
+
+
+              EUR 30,64   
+
+
+
+               Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation (Addison-Wesley Signature Series (Fowler))   Humble, Jez,Farley, David; Hardcover  Sold by Amazon Export Sales, Inc.  
+
+
+
+              EUR 29,08   
+
+
+
+              Item Subtotal:  
+              EUR 110,75  
+
+
+
+              Shipping & Handling:  
+              EUR 42,35  
+
+
+
+              Total Before Tax:  
+              EUR 153,10  
+
+
+
+              Import Fees domain.com:  
+              EUR 6,13  
+
+
+
+              Order Total:  
+              EUR 159,23  
+
+
+
+              To learn more about ordering, go to Ordering from domain.com. If you want more information or need more assistance, go to Help.  
+
+
+
+               Click here to learn more about managing your orders in your local currency.   
+
+
+
+               Thank you for shopping with us.  domain.com    
+
+
+
+               Unless otherwise noted, items sold by domain.com LLC are subject to sales tax in select states in accordance with the applicable laws of that state. If your order contains one or more items from a seller other than domain.com LLC, it may be subject to state and local sales tax, depending upon the seller's business policies and the location of their operations. Learn more about tax and seller information.   This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.   
+
+

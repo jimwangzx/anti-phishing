@@ -1,0 +1,408 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs503374wfw;
+        Thu, 9 Oct 2015 05:48:23 -0700 (PDT)
+Received: by 10.141.128.19 with SMTP id f19mr11268rvn.257.1223556503392;
+        Thu, 09 Oct 2015 05:48:23 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wf-out-1516.domain.com (wf-out-1516.domain.com [209.85.200.161])
+        by domain.com with ESMTP id k2si50878354rvb.1.2008.10.09.05.48.22;
+        Thu, 09 Oct 2015 05:48:22 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.200.161 as permitted sender) client-ip=209.85.200.161;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.200.161 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by wf-out-1516.domain.com with SMTP id j19so2096wfa.2
+        for <user@domain.com>; Thu, 09 Oct 2015 05:48:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=zYTiwUzfFlAq4G/MaKfXZmZtLycX1DCL18SHnftypw4=;
+        b=k4NQx0G2xj8w20dHRJwtBiFrk2CjtdNjdkGkF4m6Zx0xdM/DYQ9OQYfOcVZwT+UlOx
+         9lAiMelaHNN4TVGU9Im1B0C5LsvMzH11fw6xschIENM4vA8BZv/kPFUr05UeCOc2WsXz
+         DP5S8KshrCSjJIg50ALP5srMVKYZhUkfXJV2s
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=LNfPhzfAYpp5/lnVklGFjBVxSCs0XMufvRpJlSzPebJjNLSUfKW+ZNpGh7YOq/g5BP
+         76bgq6SgLhuD1LBUCfxQzHJjeUh//UMleNPszB//tQHEab+w37oADd1J8jM20dPDtpAg
+         vGyLE9pIw7C6c6Ods+YjeFEEehLSFMhhWW8EI
+Received: by 10.141.4.3 with SMTP id g3mr2761rvi.29.1223556493149;
+        Thu, 09 Oct 2015 05:48:13 -0700 (PDT)
+Received: by 10.106.46.19 with SMTP id t19gr2343prt.0;
+	Thu, 09 Oct 2015 05:48:06 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.115.22.9 with SMTP id z9mr8918wai.28.1223556485534; Thu, 09 Oct 2015 05:48:05 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ug-out-1314.domain.com (ug-out-1314.domain.com [66.249.92.168]) by domain.com with ESMTP id m37si9618401waf.0.2008.10.09.05.48.04; Thu, 09 Oct 2015 05:48:05 -0700 (PDT)
+Received-SPF: neutral (domain.com: 66.249.92.168 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=66.249.92.168;
+Authentication-Results: domain.com; spf=neutral (domain.com: 66.249.92.168 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by ug-out-1314.domain.com with SMTP id t30so876194ugc.12 for <user@domain.com>; Thu, 09 Oct 2015 05:48:03 -0700 (PDT)
+Received: by 10.67.21.11 with SMTP id y11mr3401572ugi.70.1223556483304; Thu, 09 Oct 2015 05:48:03 -0700 (PDT)
+Received: by 10.66.248.19 with HTTP; Thu, 9 Oct 2015 05:48:03 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Thu, 9 Oct 2015 08:48:03 -0400
+From: "Sara DuBois" <sara@progressiveaccountability.org>
+To: "User" <user@domain.com>
+Subject: [big campaign] '08 Daily News Clips - 10/9
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_92180_7218465.1223556483316"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+08 Election Daily News Clips
+October 9th, 2015 
+
+*Candidate Tracking:*
+***All times in Eastern Standard Time
+
+10:15am BUSH: Meets with the President of the Slovak Republic at The White
+House
+
+  11:30am McCain and Palin: Town Hall in Waukesha, WI
+
+***Tracking scheduled for this event
+
+2:10pm BUSH: Remarks at Hispanic Heritage Month Celebration at The White
+House
+
+6pm Joe McCain: Lincoln Day Dinner in Oak Hill, WV
+
+  6pm Palin: Rally in Wilmington, OH
+
+*News** Clips:*
+
+MCCAIN NEWS
+ McCain Plan Draws Doubts From Experts On Mortgages (WaPo 10/9/08)
+By Dina ElBoghdady
+Sen. John McCain's proposal to have the federal government directly buy and
+refinance troubled home loans would cost about $300 billion, his campaign
+said yesterday.
+<<link>>
+3532_pf.html
+
+Taxpayers, Not Lenders, Would Bear Costs of McCain's Mortgage Proposal (NYT
+10/9/08)
+By JACKIE CALMES
+The homeowner assistance plan that Senator John McCain announced without
+detail in the presidential debate Tuesday night would allow millions of
+financially stretched Americans to refinance their mortgages with governmen
+t
+help, but it would leave taxpayers to cover the losses, rather than the
+financial institutions that hold the original mortgages.
+<<link>>
+s&pagewanted=3Dprint
+
+Obama holds advertising advantage over McCain (AP 10/09/08)
+By Jim Kuhnhenn
+Barack Obama spent $3.3 million in TV advertising on Monday. At that rate
+the Democrat will spend more than $90 million on ads through Election Day -
+more than all the money Republican rival John McCain has to spend on his
+entire fall campaign.
+<<link>>
+HOME&TEMPLATE=3DDEFAULT
+
+McCain Says He Can Tackle The Economy (NPR 10/09/08)
+By Scott Horsley
+Since slipping behind in the polls, Republican hopeful John McCain has been
+intensifying his attacks on Democrat Barack Obama. Mindful that the economy
+is uppermost in voters' minds, McCain repeated Wednesday the proposal he
+floated in Tuesday's debate: having the government come directly to the aid
+of people whose homes have lost value and who can't meet their monthly
+payments.
+<<link>>
+1012
+
+McCain camp disavows use of Obama's middle name (LAT 10/09/08)
+By LAT Staff
+Republican Sen. John
+McCain<<<link>>
+mccain-PEPLT004278.topic>'s
+presidential campaign disavowed an introduction here yesterday that include
+d
+Democratic Sen. Barack
+Obama<<<link>>
+7408.topic>'s
+middle name, Hussein.
+<<link>>,0,24
+30722.story
+
+McCain launches Ayers ad (Politico 10/09/08)
+By Andy Barr
+John McCain's campaign released a new 90-second web ad Thursday on Barack
+Obama's relationship with 1960s radical William Ayers.
+Ayers is referred to as a terrorist throughout the ad, as is his
+"friendship" with Obama.
+<<link>>
+
+McCain Changes Homeowner Plan (Politico 10/09/08)
+By Mike Allen
+Sen. John McCain (R-Ariz.) made an overnight change in the homeowner bailou
+t
+he proposed at Tuesday's presidential debate, making it more generous to
+financial institutions and more costly for taxpayers.
+<<link>>
+D8672E
+
+McCain ratchets up attack ads (Washington Times 10/9/08)
+Stephen Dinan
+Being dramatically outspent by Democratic presidential nominee Sen. Barack
+Obama, Sen. John McCain went almost 100 percent negative in his campaign
+commercials last week.
+<<link>>
+
+McCain, Palin Step Up Attacks on Obama (NYT blog 10/08/08)
+By Elisabeth Bumiller
+Senator John McCain and Gov. Sarah Palin devoted most of a joint campaign
+appearance on Wednesday to attacks on Senator Barack Obama and gave less
+attention, and offered limited specifics, to the economic crisis that polls
+show has become the overriding concern of American voters.
+<<link>>
+on-obama/
+
+McCain housing proposal: Easier said than done (AP 10/08/08)
+By Julie Davis
+Ordering the government to buy up bad mortgages to cut homeowners' monthly
+payments might sound good, but experts are skeptical. They say the plan Joh
+n
+McCain is promoting is unlikely to solve the housing crisis that's pushing
+the economy toward recession.
+<<link>>
+
+Obama rejects McCain's plan to buy mortgages (AP 10/08/08)
+By Charles Babington
+Democrat Barack Obama's campaign criticized John McCain's mortgage bailout
+plan Wednesday, saying it would cause the government to lose money by payin
+g
+too much for bad loans.
+<<link>>
+ITICS&TEMPLATE=3DDEFAULT&CTIME=3D2008-10-08-15-56-11
+
+McCain rally speaker refers to Obama's middle name (AP 10/08/08)
+By Philip Elliott
+For the second time in three days, a rally for the Republican presidential
+ticket invoked Democrat Barack Obama's middle name, Hussein, in an attempt
+to add to doubts about his background, faith and campaign.
+<<link>>
+N=3DPOLITICS&TEMPLATE=3DDEFAULT&CTIME=3D2008-10-08-15-34-06
+
+Foos fight McCain over song use (BBC 10/09/08)
+By BBC Staff
+US rock band the Foo Fighters have told John McCain to stop using song My
+Hero in his presidential campaign, saying it "tarnishes" the track.
+<<link>>
+
+McCain Keeps Up the Attack in Ohio (WaPo Blog 10/08/08)
+By Michael Shear
+Sen. John McCain mocked his rival as a lying politician, saying Sen. Barack
+Obama misrepresents his own record even as he lectures McCain for not
+telling the truth.
+<<link>>
+ttack_in.html?hpid=3Dtopnews
+
+Taxpayers, Not Lenders, Would Bear Costs of McCain's Mortgage Proposal (NYT
+10/08/08)
+By Jackie Calmes
+The homeowner assistance plan that Senator John
+McCain<<<link>>
+cain/index.html?inline=3Dnyt-per>announced
+without detail in the presidential
+debate<<<link>>
+dential_debates/index.html?inline=3Dnyt-classifier>Tuesday
+night would allow millions of financially stretched Americans to
+refinance their mortgages with government help, but it would leave taxpayer
+s
+to cover the losses, rather than the financial institutions that hold the
+original mortgages.
+
+Veiled racism seen in new attacks on Obama (SF Chron 10/09/08)
+By Joe Garofoli
+As CNN's pundits wondered whether instant post-debate polls favoring Sen.
+Barack Obama meant he would win on election day, analyst David Gergen - who
+has been an adviser to Republican and Democratic presidents - stopped them.
+<<link>>
+L
+
+Losing female support, McCain alters approach (BGlobe 10/09/08)
+By Sasha Issenberg
+Senator John McCain returned to the campaign trail yesterday with new
+emphasis on a domestic agenda that appeared designed in part to address the
+concerns of white women, a crucial voting bloc that has moved steadily in
+recent weeks toward his rival, Barack Obama.
+<<link>>
+support_mccain_alters_approach/?rss_id=3domain.com+--+Latest+news
+
+Cindy McCain Warms Up the Crowd at McCain-Palin Anti-Obama Rally (WaPo Blog
+10/08/08)
+By Perry Bacon
+he gloves were off, and that was well before Alaska Gov. Sarah Palin even
+walked on stage. "The day that Senator Obama decided to cast a vote to not
+fund my son when he was serving sent a cold chill through my body," Cindy
+McCain told a crowd of several thousand here, speaking in advance of Palin
+and her husband."I would suggest Senator Obama change shoes with me for jus
+t
+one day and see what it means to have a loved one serving in the armed
+services."
+
+McCain's Planetary Problem (MSNBC Blog 10/08/08)
+By Alan Boyle
+As if scientists weren't having enough problems due to federal budget
+freezes<<<link>>
+iter.html>,
+now they're facing flak from Republican presidential candidate John
+McCain because of a $3 million planetarium projector. Which was never
+funded.
+<<link>>
+
+PALIN NEWS
+
+A Palin 'SNL' appearance likely to be a surprise (AP 10/08/08)
+By AP Staff
+It seems like the inevitable comedic domain.com of this fall's presidential
+campaign: the real Sarah Palin coming on "Saturday Night Live" to meet her
+look-alike impersonator, Tina Fey.
+<<link>>
+
+Pieces fall into place for Troopergate inquiry (Anchorage Daily News
+10/09/08)
+By WESLEY LOY
+FRIDAY REPORT: Nearly everyone investigator had hoped to question, minus
+governor, will be on record.
+With his Troopergate report due Friday, legislative investigator Steve
+Branchflower appears to have the makings of a fairly complete account,
+despite weeks of resistance from the Palin family and administration.
+<<link>>
+
+OPINIONS AND EDITORIALS
+
+McCain, Palin turn to risky politics (Chicago-Sun 10/09/08)
+By Mary Mitchell
+If John McCain loses the election, he'll have Sarah Palin to thank. His VP
+pick may be good for a few laughs on "Saturday Night Live." She may have
+sold a warehouse of eyeglasses.
+<<link>>,CST-NWS-mitch09.article
+
+McCain In A Bear Market (WaPo 10/09/08)
+By George Will
+Sen. John McCain mocked his rival as a lying politician, saying Sen. Barack
+Obama misrepresents his own record even as he lectures McCain for not
+telling the truth.
+<<link>>
+2926.html?hpid=3Dopinionsbox1
+
+Can This Be Pro-Life? (NYT 10/09/08)
+By Nicholos Kristof
+The saga also spotlights a clear difference between Barack Obama and John
+McCain. Senator Obama supports U.N.-led efforts to promote family planning;
+Senator McCain stands with President Bush in opposing certain crucial
+efforts to help women reduce unwanted pregnancies in Africa and Asia.
+<<link>>
+
+Brooks: Palin Is A Fatal Cancer To The GOP (ThinkProgress 10/08/08)
+By Satyam Khanna
+Speaking at an Atlantic luncheon Monday, New York Times columnist David
+Brooks said Gov. Sarah Palin "represents a fatal cancer to the Republican
+party<<<link>>
+33001.html>"
+because of her tendency to "scorn ideas entirely," comparing her to
+President Bush
+<<link>>
+
+BUSH NEWS
+
+White House considers ownership stakes in banks (HuffPo 10/09/08)
+By Martin Crutsinger
+The Bush administration is considering taking ownership stakes in certain
+U.S. banks as an option for dealing with a severe global domain.com crisis.
+<<link>>
+.html
+
+POLLSObama has 4-point lead on McCain (Reuters 10/9/08)
+By John Whitesides
+Democrat Barack Obama has built a 4-point lead over Republican rival John
+McCain in the race for the White House, aided by growing support from women
+and independent voters, according to a Reuters/C-SPAN/Zogby poll released o
+n
+Thursday.
+<<link>>
+
+GW/Battleground Tracking (RealClearPolitics 10/9/08)
+Obama  48
+McCain  45
+(Date: 10/06 - 10/08)
+(Sample: 800LV)
+<<link>>
+
+Gallup Daily: Obama's Lead Over McCain Expands to 11 (Gallup 10/8/08)
+52% share of the vote is Obama's highest to date
+The latest Gallup Poll Daily tracking report shows Barack Obama with a 52%
+to 41% lead over John McCain.
+<<link>>
+nds.aspx
+
+Daily Presidential Tracking Poll (Rasmussen 10/8/08)
+The Rasmussen Reports daily Presidential Tracking Poll for Wednesday shows
+Barack Obama attracting 51% of the vote while John McCain earns 45%. ... Th
+e
+overwhelming majority of interviews for this morning's update were conducte
+d
+before the conclusion of last night's Presidential debate.
+
+Democracy Corps (10/08/08)
+Like the last debate, these voters felt that Obama was the winner of the
+debate (38 to 30 percent), but this time the debate also shifted their
+electoral preferences. After viewing the debate, 42 percent of these voters
+said they would support Obama if the election were held today, while just 2
+6
+percent would support McCain.
+<<link>>
+cided-voters-move-decisively-toward-obama/
+
+CNN Poll: Obama gains on issues, personal qualities (CNN 10/8/08)
+By Paul Steinhauser
+Just hours before the start of the second presidential debate, a new
+national survey suggests that Barack Obama is increasingly viewed as a more
+compassionate candidate than John McCain =97 a factor that could make a
+difference in Tuesday's face-off, a town hall style meeting that will
+feature direct interaction between the two men and voters in a live
+audience.
+<<link>>
+ues-personal-qualities/
+
+--
+Sara DuBois
+Tracking / Communications Manager
+domain.com
+user@domain.com
+202-609-7681 (office)
+410-967-7306 (cell)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

@@ -1,0 +1,112 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Mon, 10 Feb 2015 09:08:18 -0800
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1AH8Hhf021444	for <user@domain.com>; Mon, 10 Feb 2015 
+ 17:08:17 GMT
+Received: from mail223-tx2-domain.com (mail-domain.com [65.55.88.112])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1AH8GUD015418	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Mon, 10 Feb 2015 17:08:17 GMT
+Received: from mail223-tx2 (localhost [127.0.0.1])	by
+ mail223-tx2-domain.com (Postfix) with ESMTP id B4FCE8001BC	for
+ <user@domain.com>; Mon, 10 Feb 2015 17:08:16 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.15.215.79;KIP:(null);UIP:(null);IPV:NLI;H:em-sj-79.domain.com;RD:em-sj-79.domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z579ehz9371Ic89bhdc43he0eahc857hzz1f42h2148h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h172cfch17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h1b778fh1ce120h1ce121iz2fh5fh839h8e2h8e3h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487h24d7h2516h2545hbe9i214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail223-tx2: domain of em-sj-77.domain.com designates 199.15.215.79 as permitted sender) client-ip=199.15.215.79; user@domain.com; helo=em-sj-79.domain.com ;domain.com ;
+Received: from mail223-tx2 (localhost.localdomain [127.0.0.1]) by mail223-tx2
+ (MessageSwitch) id 1392052088854236_10048; Mon, 10 Feb 2015 17:08:08 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.231])	by
+ mail223-domain.com (Postfix) with ESMTP id CC70A20007F	for
+ <user@domain.com>; Mon, 10 Feb 2015 17:08:08 +0000 (UTC)
+Received: from em-sj-79.domain.com (199.15.215.79) by
+ domain.com (10.9.99.106) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 10 Feb 2015 17:08:05 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=pointit.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1392052084;
+	h=From: Point It Webinars <webinars@pointit.com>
+	bh=52M7RU+8kswankKjskprHgjvmt3p5suYnKm95jSGcBc=;
+	b=L11E5Sb/FMdW9razx9FBbp3mq3aL6REpIM9o/RT2IlHK4z6uExX6CsqNVprKZmz4
+	tfgZRRw3pcVYWE+rGZQra//lqokBx8OfzdcBWL0P55xJ/cKch8ee9gXBHnQ8ewqB
+	KBrTLzvVtcYXwcYQGKXcxtY64pUzSkCRTw0GGw7UVFQ=;
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AZHZwLTE5OS0xNS0yMTUtNzlAYmctc2ot
+	MDFAMDAyLVZLVi03MDc6MTUwOjExNjI6ODE0OjA6MTIyNDo3OjEyOTc3
+Received: from [10.0.8.1] ([10.0.8.1:44594] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.0.35861 r(Momo-dev:tip)) with ESMTP	id 8A/9C-04319-47709F25; Mon, 10 Feb
+ 2015 11:08:04 -0600
+Date: Mon, 10 Feb 2015 11:08:04 -0600
+From: Point It Webinars <webinars@pointit.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <1861925538.1390931708.1392052084430.user@domain.com>
+Subject: Still a few seats left Social advertising ch-ch-changes: What you
+ need to know!
+X-Report-Abuse: Please report abuse here: <<link>>
+X-Binding: bg-sj-01
+X-MarketoID: 002-VKV-707:150:1162:814:0:1224:7:12977
+X-MailFrom: Point It Webinars <webinars@pointit.com>
+Return-Path: 002-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Still a few seats left Social advertising ch-ch-changes: What you need to know!
+
+
+
+
+         logo_point-it.png
+
+
+
+
+Social advertising ch-ch-changes: What you need to know!
+Part 1: Facebook, Twitter & LinkedIn
+
+Hello Amy,
+
+We still have a few seats left, wanted to make sure you get a spot. If you can't make it for the live event we would be happy to send you the recording, just fill out this quick form. 
+
+Social advertising is on the rise.  Projected to grow from $4.7B in 2015 to $11B a year in 2017, each social platform is making huge moves to further convince brands to invest in paid social media.  But how do you make sense of the changes Facebook, Twitter and LinkedIn are rolling out in the coming months?  What ad types will yield the best results?  What is a healthy budget to truly test paid social advertising?
+
+In this 2-part series, tune in for a joint presentation with Point It (www.pointit.com) and Admosis Media (domain.com) where you'll get the cliff notes on what matters most and how to get the biggest bang for your buck as you navigate the social advertising waters.
+
+Register Now
+
+
+
+
+In this webinar we'll cover:
+
+
+
+
+Twitter Tailored Audiences
+
+LinkedIn Customer Audiences
+
+Facebook's simplified ad targeting
+
+Recommendations on a healthy test budget
+
+Guidance on the right type of creative to sponsor in social
+
+Register today!
+
+
+
+
+         Live Webinar            
+
+
+
+
+         Wednesday February 12, 2015 
+2:00 PM EST
+11:00 AM PST
+

@@ -1,0 +1,80 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Fri, 15 Nov 2015 10:31:07 -0800
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAFIV7MC029345	for <user@domain.com>; Fri, 15 Nov 2015 
+ 18:31:07 GMT
+Received: from mail63-am1-domain.com (mail-domain.com
+ [213.199.154.202])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rAFIV6N9006741
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Fri, 15 Nov 2015 18:31:06 GMT
+Received: from mail63-am1 (localhost [127.0.0.1])	by mail63-am1-domain.com
+ (Postfix) with ESMTP id CF05E3C0084	for <user@domain.com>; Fri, 15
+ Nov 2015 18:31:05 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:65.39.215.56;KIP:(null);UIP:(null);SRV:BULK;H:mx-pmc-domain.com;RD:mx-pmc-domain.com;EFVD:NLI
+X-SpamScore: 6
+X-BigFish: vps6(z579eh551biz758Ic857h11fbIdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h17326ah1def87h8275bh1bc7b9h8275dh1def03h1def86h2ba5I1de097h1de096h186068h172c6ch1ce120h1def83h85bfl1a691ci177f16iz2fheh5fh839h8aaha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail63-am1: domain of domain.com designates 65.39.215.56 as permitted sender) client-ip=65.39.215.56; user@domain.com; helo=mx-pmc-domain.com ;domain.com ;
+Received: from mail63-am1 (localhost.localdomain [127.0.0.1]) by mail63-am1
+ (MessageSwitch) id 1384540263420766_1326; Fri, 15 Nov 2015 18:31:03 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.233])	by
+ mail63-domain.com (Postfix) with ESMTP id 5F7E13A00D6	for
+ <user@domain.com>; Fri, 15 Nov 2015 18:31:03 +0000 (UTC)
+Received: from mx-pmc-domain.com (65.39.215.56) by
+ domain.com (10.3.207.112) with Microsoft SMTP Server id
+ 14.16.227.3; Fri, 15 Nov 2015 18:30:55 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1384540255;
+	s=sailthru; d=deadline.com;
+	h=Date:From: Deadline.com <alerts@deadline.com>
+	bh=Luq6IhDBwXDfDTy59vqMYWmyuL+IyvEObGi8khRhZAw=;
+	b=c/kBO0xXBhMSFSnKQku3vOSuEqygjiJHFoytbZIGhITJW1m9V7bUtVkuLMb9NYf/
+	NG6LicMfBBh8n9N7QcPsnY73942liOb/OAJdA1dZO900vVZIOeaPmRLiOe9YOhwIbMh
+	9WcoSNZr4xOprclbaAxFEcIBWl0sPc6dyrmdFNPM
+Date: Fri, 15 Nov 2015 13:30:55 -0500
+From: Deadline.com <alerts@deadline.com>
+To: <user@domain.com>
+Message-ID: <20131115183055.2046315.4967@domain.com>
+Subject: [domain.com] RATINGS RAT RACE: CW Now A Force On Thursday As ABC,
+ NBC & Fox Struggle At 8
+Precedence: bulk
+X-TM-ID: 20131115183055.2046315.4967
+X-Info: Message sent by domain.com customer Deadline
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 65.39.215.56
+X-IADB-IP-REVERSE: 56.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stdgp2046315
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+[domain.com] RATINGS RAT RACE: CW Now A Force On Thursday As ABC, NBC & Fox Struggle At 8
+
+ <<link>>   
+
+<<link>>        
+
+ <<link>>   
+
+<<link>>        
+
+ <<link>>   
+
+Nellie Andreeva's TV Ratings Alert:
+
+RATINGS RAT RACE: CW Now A Force On Thursday As ABC, NBC & Fox Struggle At 8 
+
+Last week, the CW's The Vampire Diaries for the first time topped an original The X Factor in adults 18-49 (1.3 vs. 1.2), also finishing way ahead of ABC's Once Upon A Time In Wonderland (0.9) in the hour. Last night, the CW (1.3) topped both ABC (0.9) and NBC (1.2) in the 8 PM hour for the second time this fall and is currently running a tenth behind Fox (1.4), a domain.com it could erase by the end Read more... 
+
+
+

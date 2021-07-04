@@ -1,0 +1,76 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 19 Feb 2015 09:37:46 +0100
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 57AF160063	for
+ <user@domain.com>; Thu, 19 Feb 2015 08:16:33 +0000 (GMT)
+Received: by domain.com (Postfix)	id D8683B6600B; Thu, 19 Feb 2015 
+ 09:37:46 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id D0D222BC0F3	for
+ <user@domain.com>; Thu, 19 Feb 2015 09:37:46 +0100 (CET)
+X-ASG-Debug-ID: 1424335063-066a751f046c3e0001-Aet2rw
+Received: from domain.com (domain.com
+ [192.40.180.193]) by domain.com with ESMTP id uUjB9WWJnf1bDnog for
+ <user@domain.com>; Thu, 19 Feb 2015 09:37:44 +0100 (CET)
+X-Barracuda-Envelope-From: Jane Cook <enquire@defenceiq.com>
+X-Barracuda-Registry: Level1 [domain.com/192.40.180.193]
+X-Barracuda-Apparent-Source-IP: 192.40.180.193
+X-MSFBL: YS5jYXBhbGRvQGhhY2tpbmd0ZWFtLml0QDE5Ml80MF8xODBfMTkzQFBlbnRvbl9k
+	ZWRpY2F0ZWRfcG9vbF8zQA
+DKIM-Signature: v=1; a=rsa-sha256; d=domain.com; s=skyemailmarketingsmtp; c=relaxed/simple;
+	q=dns/txt; user@domain.com; t=1424335063;
+	h=From: Jane Cook <enquire@defenceiq.com>
+	bh=D6mLDxRMwXCvE3X3StN1Lde7HMENRNJEeGMiwFMZScI=;
+	b=DLq/3eNNWtXqpT1O39oyjQ2h6kSqUpKmF/yp6MvOGkEVCjB3qD7ddJdphBUu4uXj
+	rfdUODLcUOxNhtvhoJdxRJT4nNj5Nzep6Oeer4iT+OGSB6d7xuzSQhjIWAIWbvzu
+	9EnVGUgS9nkdosGsA+0B4BtrZxG9yHQVV/jTvhkiGWc=;
+Received: from [54.208.154.186] ([54.208.154.186:2353] helo=domain.com)
+	by sl-mta04 (envelope-from <user@domain.com>)
+	(ecelerity 3.3.2.44647 r(44647)) with ESMTP	id DE/1A-10012-6D0A5E45; Thu, 19
+ Feb 2015 08:37:43 +0000
+Date: Thu, 19 Feb 2015 08:36:54 +0000
+To: <user@domain.com>
+X-Mailer: Siebel 201309051825
+Sender: Jane Cook <user@domain.com>
+Subject: Antonella, can we arrange a quick call?
+From: Jane Cook <enquire@defenceiq.com>
+X-ASG-Orig-Subj: Antonella, can we arrange a quick call?
+Reply-To: Jane Cook <user@domain.com>
+Message-ID: <user@domain.com>
+X-SMTPCOM-Tracking-Number: ccb48569-5ba3-4bb4-8fd0-86f09fc3a0e0
+Feedback-ID: 6014501:SMTPCOM
+X-SMTPCOM-Sender-ID: 6014501
+X-SMTPCOM-Spam-Policy: domain.com is a paid relay service. We do not tolerate UCE of any kind. Please report it ASAP to user@domain.com
+X-Barracuda-Connect: domain.com[192.40.180.193]
+X-Barracuda-Start-Time: 1424335063
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.20
+X-Barracuda-Spam-Status: No, SCORE=0.20 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_SC0_SA038b, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.15525
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 BSF_SC0_SA038b         Custom Rule SA038b
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1505733112_-_-"
+
+Hi Antonella,
+I wanted to drop you a quick reminder that there are now less than four weeks left to secure your place at the upcoming Airborne ISR and C2 Battle Management 2015 symposium. Supporters and thought-leaders from the ISR arena such as Northrop Grumman, SAAB, IAI Elta Systems, Raytheon UK, Kongsberg Gallium, Gulfstream Aerospace, ViaSat and Boeing have already secured their place alongside our expert speakers, including:Rear Admiral Brett Heimbigner, Director, Intelligence Division - NATO International Military StaffMajor General Slawomir Kaluzinski, Chief of Staff, Operational Command - Polish Armed ForcesBrigadier David Evans, Head of Information Superiority, Navy Command Head Quarters - Royal NavyRear Admiral Giorgio Gomma, Head of Italian Naval Fleet Air Arm - Italian NavyBrigadier Simon Deakin, Army HQ - British ArmyAir Commodore Ian “Paddy” Teakle, Deputy Commander - NATO AEW&C CommandGroup Captain Suraya Marshall, 2IC to ISTAR Force Commander - RAFColonel David Learned, Program Manager, JSTARS Recapitalization Program Air Force Life Cycle Management Center - US Air ForceColonel Uryani Kombeci, Target Intelligence and Analysis Division - Turkish Air Force Intelligence CommandYou can access the complete programme and senior speaker faculty online here, or let me know if you would like a pdf copy by email.Can we arrange a quick call for this afternoon or Friday to discuss how you could still take advantage of this opportunity to join the ISR community on the 10-12 March at the Thistle Marble Arch, in London? Please let me know.
+Alternatively you can reach me directly on +44 (0)20 7368 9737, or to secure your place now, register online here.
+I look forward to speaking with you shortly.Best Regards,
+Jane
+Jane Cook, Marketing Manager
+Airborne ISR and C2 Battle Management 2015T: +44 (0) 20 7368 9737 E: user@domain.com: Ahead of the event Defence IQ released an exclusive report; 'NATO ISR facing a "mounting threat". Download it here.       If you are a resident of Canada: You are receiving this because you opted in or attended a similar event.To unsubscribe from future emails or to update your email preferences go here.
+IQPC Ltd: 129 Wilton Road, London, SW1V 1JZ, United Kingdom
+We respect your right to privacy. View our policy 

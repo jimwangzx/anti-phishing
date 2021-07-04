@@ -1,0 +1,84 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp464791lfb;
+        Tue, 28 Oct 2015 08:32:48 -0700 (PDT)
+X-Received: by 10.140.35.85 with SMTP id m79mr5755540qgm.81.1414510368207;
+        Tue, 28 Oct 2015 08:32:48 -0700 (PDT)
+Return-Path: <>
+Received: from domain.com (domain.com. [216.82.250.243])
+        by domain.com with ESMTPS id 64si2792549qgy.68.2014.10.28.08.32.47
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Tue, 28 Oct 2015 08:32:48 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of domain.com designates 216.82.250.243 as permitted sender) client-ip=216.82.250.243;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 216.82.250.243 as permitted sender) smtp.mail
+Return-Path: <>
+Received: from [216.82.249.211:21956] by server-17.bemta-12.domain.com id 3C/8C-10801-F17BF445; Tue, 28 Oct 2015 15:32:47 +0000
+X-Msg-Ref: server-3.tower-53.domain.com!1414510365!8648409!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 26981 invoked from network); 28 Oct 2015 15:32:46 -0000
+Received: from unknown (HELO LAW-CAS1.law.georgetown.edu) (141.161.191.74)
+  by server-3.tower-53.domain.com with AES256-SHA encrypted SMTP; 28 Oct 2015 15:32:46 -0000
+Received: from LAW-MBX02.law.georgetown.edu ([169.254.2.135]) by
+ LAW-CAS1.law.georgetown.edu ([141.161.191.74]) with mapi id 14.03.0210.002;
+ Tue, 28 Oct 2015 11:30:58 -0400
+From: Campus Broadcast <broadcast@law.georgetown.edu>
+To: Campus Broadcast <user@domain.com>
+Subject: =?Windows-1252?Q?Information_Security_Session_=96_Tomorrow,_October_29,_a?
+ =?Windows-1252?Q?t_2:00P?
+Thread-Topic: =?Windows-1252?Q?Information_Security_Session_=96_Tomorrow,_October_29,_a?
+ =?Windows-1252?Q?t_2:00P?
+Thread-Index: Ac/ytR85oNF2ZWebQbSPzhVmRjFK3AADuGnw
+Date: Tue, 28 Oct 2015 15:30:57 +0000
+Message-ID: <76user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.215.40]
+Content-Type: multipart/alternative;
+	boundary="_000_76E4B83C77599C498CD2FF6818765167187A2146LAWMBX02lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+
+Please join the IST Department and our colleagues from Main Campus (UIS) fo
+r
+An Information Security Session
+Wednesday, October 29, 2015 
+2:00PM to 3:30PM
+McDonough 164
+Topics will include
+
+Laws & Regulations, Policies
+
+=B7         Federal, State, and Local
+
+=B7         Information Security; Acceptable Use; Administrative Voyeurism
+
+Secure Storage Options for the Law Center Community
+
+=B7         GU Box
+
+=B7         Departmental File Shares
+
+=B7         Storage options that may put your data at risk
+
+Keeping your Confidential Information Safe
+
+=B7         Phishing
+
+o   How to avoid falling for phishing
+
+o   What do you do if you=92ve responded to a possible phishing attempt
+
+=B7         Passwords
+
+o   What is the University password policy
+
+o   What is a weak password
+
+o   What are some of the popular password generating and storage tools
+

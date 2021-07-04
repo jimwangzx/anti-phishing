@@ -1,0 +1,101 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1052263lfr;
+        Sun, 6 Sep 2015 16:10:02 -0700 (PDT)
+X-Received: by 10.50.114.9 with SMTP id jc9mr4900038igb.0.1441581002665;
+        Sun, 06 Sep 2015 16:10:02 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::246])
+        by domain.com with ESMTPS id w89si7798215ioi.187.2015.09.06.16.10.02
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 06 Sep 2015 16:10:02 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4001:c05::246 as permitted sender) client-ip=2607:f8b0:4001:c05::246;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4001:c05::246 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-domain.com with SMTP id xw12sf125759949igc.0
+        for <user@domain.com>; Sun, 06 Sep 2015 16:10:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:date:message-id:subject
+         :From: Maya Harris <mharris@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=1LQXr7nZ5pkSca19EQ51V2TSOGGuHZoiAFP9TdUjuks=;
+        b=RdulykZoO+XTNP/dp9/f9hpcnwpIH+SORY15aq2MUaZIH2FYvZ8e0oW/wjqKKdJcB0
+         jg0KSbpEDpveubQK0rZ8PjspYufpkW2prnGUBBlbREPwJlvBNDc2OjpitHWkAUAcgue8
+         JVFg7F4GOPyXVuwLO6lzVP/kesZG5l70XWJ3c
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Maya Harris <mharris@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=1LQXr7nZ5pkSca19EQ51V2TSOGGuHZoiAFP9TdUjuks=;
+        b=mFhTKiOlpcluzmSJ5gIeF0mRs5Bn20sAmxeTR1MjL4jtq2UeMNhBYEgc9nLjzI7Mea
+         71FKf1FFHfZQEQbVoIigI0/xv6y3e4nBKuGAeDNI4YD8ikk6dGD2iUJEhI4Z7aiVNm1Z
+         za+/jXKJhy2x2Acc0SX8NniZ5ZblQxYJ5CBMpnNtNxTk5aPyaNLy5n97Pw1m/amVtUTx
+         2s8CFPH/07Pc2817MqiFKXt6VcI3do9MIlyxHm0zTGPphPGYqUyweWvkJunnpHDduF3F
+         2mxxeX5cZB9n9aFGYheXRSxmD7yatrEJ3cUCY7qhz0D5ta0CwEBBOs6fisAT6X8qKebt
+         T3lg
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQkzIeu6+T5QiymyY9PeS1J3BnQPs0JfQxZT6ck49lLMvCzcR07TH2sLVN759UhCzXD6ygFO
+X-Received: by 10.50.67.107 with SMTP id m11mr15545591igt.8.1441581001985;
+        Sun, 06 Sep 2015 16:10:01 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.50.70.74 with SMTP id k10ls667767igu.11.canary; Sun, 06 Sep
+ 2015 16:10:01 -0700 (PDT)
+X-Received: by 10.68.100.226 with SMTP id fb2mr38857770pbb.92.1441581001707;
+        Sun, 06 Sep 2015 16:10:01 -0700 (PDT)
+Received: from mail-pa0-domain.com (mail-pa0-domain.com. [2607:f8b0:400e:c03::22a])
+        by domain.com with ESMTPS id ks1si16884635pbc.41.2015.09.06.16.10.01
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 06 Sep 2015 16:10:01 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c03::22a as permitted sender) client-ip=2607:f8b0:400e:c03::22a;
+Received: by pacfv12 with SMTP id fv12so78778111pac.2
+        for <user@domain.com>; Sun, 06 Sep 2015 16:10:01 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.66.163.227 with SMTP id yl3mr38560632pab.10.1441581001466;
+ Sun, 06 Sep 2015 16:10:01 -0700 (PDT)
+Received: by 10.66.16.227 with HTTP; Sun, 6 Sep 2015 16:10:01 -0700 (PDT)
+In-Reply-To: <-1051683306482795951@unknownmsgid>
+References: <user@domain.com>
+	<4129063190352487974@unknownmsgid>
+	<-1051683306482795951@unknownmsgid>
+Date: Sun, 6 Sep 2015 19:10:01 -0400
+Message-ID: <CACR8c2rrMNQ+user@domain.com>
+Subject: Re: TPs for Quad Cities and Des Moines Labor Day events
+From: Maya Harris <mharris@hillaryclinton.com>
+To: Jennifer Palmieri <user@domain.com>
+CC: Troy Price <user@domain.com>, 
+ Kristina Costa <user@domain.com>, 
+ Speech Drafts <user@domain.com>, 
+ Speech Writers <user@domain.com>, 
+ Matt Paul <user@domain.com>, 
+ Nikki Budzinski <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7b86e4f081f6fa051f1c3b36
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:400e:c03::22a as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+We (policy) are also inclined to delete trade from affirmative remarks.
+
+On Sun, Sep 6, 2015 at 7:02 PM, Jennifer Palmieri <

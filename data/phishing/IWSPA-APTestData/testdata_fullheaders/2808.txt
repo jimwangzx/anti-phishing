@@ -1,0 +1,115 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 18 Dec 2015 07:33:18 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBIFXH5Z002023	for <user@domain.com>; Wed, 18 Dec 2015 
+ 15:33:17 GMT
+Received: from mail100-co9-domain.com (mail-domain.com
+ [207.46.163.21])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rBIFXFKg004453
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Wed, 18 Dec 2015 15:33:16 GMT
+Received: from mail100-co9 (localhost [127.0.0.1])	by
+ mail100-co9-domain.com (Postfix) with ESMTP id AD60E6C03A8	for
+ <user@domain.com>; Wed, 18 Dec 2015 15:33:15 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:198.37.159.128;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 12
+X-BigFish: vps12(zzc89bhdd5ehc857h4f15kdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h1de096h186068h1ce121iz2fh5eh5fh839h8aah8e2h8e3hd24h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h2336h740ibe9i783m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail100-co9: domain of domain.com designates 198.37.159.128 as permitted sender) client-ip=198.37.159.128; envelope-from=bounces+554242-74user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail100-co9 (localhost.localdomain [127.0.0.1]) by mail100-co9
+ (MessageSwitch) id 1387380792834667_24737; Wed, 18 Dec 2015 15:33:12 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.230])	by
+ mail100-domain.com (Postfix) with ESMTP id C775EB00047	for
+ <user@domain.com>; Wed, 18 Dec 2015 15:33:12 +0000 (UTC)
+Received: from domain.com (198.37.159.128) by
+ domain.com (10.236.130.24) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 18 Dec 2015 15:33:11 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=crowdtwistmail.com; 
+	h=subject:From: Eric Rosenthal <eric_r@crowdtwistmail.com>
+	bh=ozjbW01Kf27xeFYLSZpFdD06K9s=; b=HGcWb5A3xIjzo8ufTKk7DMNiMHeMv
+	eVAqycletFNv3q7FIdYEqUcBnlwgIxAdg6IsZK9vusoLkd194ti+dMh3+bX/Wbwv
+	SqQqopaBj6YLBZbhGGMCFSP+dcWHVASkzSNWbPy8EzINPva33ZdkNVDyCdqMG1zT
+	7QezIyP8fwuVhU
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=crowdtwistmail.com; 
+	h=subject:From: Eric Rosenthal <eric_r@crowdtwistmail.com>
+	s=smtpapi; b=ou3BA/cK/CPmVBA46HhBcX6wOO9vGKb2Z4EItmckI2DjTTdCWuW
+	XvqOFnMIJiGp4YKQ4lYpFdCScYNzpXJuLhCbQqpVa9mXpXnLH+xuyP+L/WsuZQpG
+	utMqIhAvgZ0u0pVa4MTk62YDiI0Emx2HMeCTAQAGqg9klNcsp1Kd15sE
+Received: by filter-154.domain.com with SMTP id
+ filter-154.31211.52B1C0374        Wed, 18 Dec 2015 15:33:11 +0000 (GMT)
+Received: from [127.0.0.1] (184.173.91.84-domain.com
+ [184.173.91.84])	by ismtpd-007 (SG) with ESMTP id 1430656d825.702c.2a9125	for
+ <user@domain.com>; Wed, 18 Dec 2015 15:33:11 +0000 (GMT)
+Message-ID: <1387380791.52user@domain.com>
+Date: Wed, 18 Dec 2015 10:33:11 -0500
+Subject: Loyalty: a fresh perspective
+From: Eric Rosenthal <eric_r@crowdtwistmail.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+X-SG-EID: crjdrkBCnHFBAoM6m/Gp9m3skGmMR9d/9Wh2P3ndSBeh52TF/BOqn+ex9HejOIN4QkuJ6Ngw/6Qmobzs9dZRynL9m4hCt+n1ZacNlWkWNYB8o3+7+ol7IhrvyDRCSNv9Ry3NtTjRfxwJYt8/T8Qef4jE68De4+Izdo/I2UZe94g
+X-SG-ID: s78jXjc54Sh5tx9yFLGsWSVgP7deeyi89jjwqux6R/VP2ED4Zutbs3giX7UN7mvOqt4/opJp3i+rKPg6TM8gyjufPulUShA5m4Upyxub+Ma7TGVOIVrdENx7oPzNYTiB
+Return-Path: bounces+554242-74user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Loyalty: a fresh perspective
+
+Applying loyalty to any category.
+
+Is this email not displaying correctly?
+View it in your browser.
+
+ <<link>>
+
+ <<link>>    
+
+
+
+
+ <<link>>
+
+Hi Amy,
+
+Marketing organizations have traditionally been separated by departments, reporting has been siloed by channel, and data has been channel specific rather than being customer centric. Marketers we speak with consistently tell us that they lack the tools to help them tie engagement and social activity back to what a customer spends.
+
+Times are changing. A multi-channel approach to loyalty now provides marketing departments with a single point with which they can now sufficiently measure retention while instantly being able to look a what channels and content are most effective at propelling people along the path-to-purchase.
+
+Do you have 20 minutes to discuss what a multi-channel loyalty program could do for you and your organization?
+
+Best,
+Eric
+
+ Signature Logo
+
+
+
+ERIC ROSENTHAL | Head of Sales | 110 E. 23rd St. 7th FL New York, NY 10010 
+
+m: 917.968.9965 | t: 646.845.0646
+
+domain.com | user@domain.com
+
+Loyalty Programs Have Evolved for CPG Brands
+
+There is an unprecedented opportunity for CPG companies to begin building deeper and more profitable relationships directly with consumers. Whereas loyalty programs were traditionally used by companies who owned the point-of-sale, today CPG marketers are able to leverage loyalty and analytics software to recognize & reward loyalty in an entirely new way.
+
+DOWNLOAD WHITEPAPER
+
+<<link>>
+
+<<link>>
+
+Retail Loyalty Programs Are More Important Than Ever
+
+At the end of the day, every investment a retailer makes needs to help them sell more stuff, to more people, more often. With a virtually endless number of bright, shiny, and often times, competing options, two areas of focus remain critical for those wanting to optimize the investments they make. At the center of every solid retail growth strategy should be a multi-channel loyalty program and a source of actionable customer, channel, product and purchase data. Want to learn more about how we approach retail loyalty? 
+
+DOWNLOAD WHITEPAPER
+
+The Customer Identity Crisis
+
+Marketing used to be simple. You chose one of three or four channels, spent your budget, and hoped for the best. The number of channels available today is virtually infinite, a
+

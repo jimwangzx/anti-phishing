@@ -1,0 +1,490 @@
+Delivered-To: user@domain.com
+Received: by 10.100.139.5 with SMTP id m5cs241710and;
+        Fri, 8 Aug 2015 18:46:44 -0700 (PDT)
+Received: by 10.150.54.6 with SMTP id c6mr8300342yba.107.1218246404627;
+        Fri, 08 Aug 2015 18:46:44 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2526.domain.com (yw-out-2526.domain.com [74.125.46.33])
+        by domain.com with ESMTP id 9si682009yws.5.2008.08.08.18.46.41;
+        Fri, 08 Aug 2015 18:46:44 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.33 as permitted sender) client-ip=74.125.46.33;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.33 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2526.domain.com with SMTP id 4so2248697ywl.56
+        for <user@domain.com>; Fri, 08 Aug 2015 18:46:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Ryan Duncan" <ryan@progressiveaccountability.org>
+         :mime-version:content-type:references:sender:precedence
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        bh=+MuQdpMHTUkBufOJ4TsDNHTOtr3LzLr9gpsyz6LMe3o=;
+        b=a0Zy6cP5Imo8bnu8Mz7QzRbjfz/oV00KgcVOj6mugiw+sZg289HdzG2MYX8DWRgSAE
+         RaYkNSWPtkxAAQRyUyMh7h+RgC3z9CAKNGMpNRHHqmcBCbLEHllPc4dUqrIsvrOwUx3k
+         h8qTiuHnJQZq+KonVX94wLc4VyZKF/HzlQ+0o
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Ryan Duncan" <ryan@progressiveaccountability.org>
+         :content-type:references:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere;
+        b=EkUbUspKSRTV2FsIIbsQ/UJLk7M2lbAZm6mCo2lxPspo+n6IblMJ1VzMRG4S1zEhSf
+         DAHVzhaA3GOSFNRHiP7XyMKJQQxvJBHafaPfoA5WhQSMDgE3FOLJLrUPCwqGPm0FCX7x
+         WqE4cDC5x3d0zM7tPaeCfMBi+XJdMXnh047DQ
+Received: by 10.100.228.13 with SMTP id a13mr194594anh.4.1218246395722;
+        Fri, 08 Aug 2015 18:46:35 -0700 (PDT)
+Received: by 10.44.190.49 with SMTP id n49gr1512hsf.0;
+	Fri, 08 Aug 2015 18:46:20 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.214.12.3 with SMTP id 3mr4671637qal.28.1218246379806; Fri, 08 Aug 2015 18:46:19 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wf-out-1314.domain.com (wf-out-1314.domain.com [209.85.200.174]) by domain.com with ESMTP id 39si4248028yxd.2.2008.08.08.18.46.19; Fri, 08 Aug 2015 18:46:19 -0700 (PDT)
+Received-SPF: neutral (domain.com: 209.85.200.174 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=209.85.200.174;
+Authentication-Results: domain.com; spf=neutral (domain.com: 209.85.200.174 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by wf-out-1314.domain.com with SMTP id 27so1413782wfd.5 for <user@domain.com>; Fri, 08 Aug 2015 18:46:18 -0700 (PDT)
+Received: by 10.142.217.17 with SMTP id p17mr1188365wfg.23.1218246378622; Fri, 08 Aug 2015 18:46:18 -0700 (PDT)
+Received: by 10.142.79.21 with HTTP; Fri, 8 Aug 2015 18:46:18 -0700 (PDT)
+Message-ID: <9user@domain.com>
+Date: Fri, 8 Aug 2015 21:46:18 -0400
+From: "Ryan Duncan" <ryan@progressiveaccountability.org>
+To: "User" <user@domain.com>
+Subject: [big campaign] Media Monitoring Report - Evening 08/08/08
+In-Reply-To: <9user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_61494_24322423.1218246378576"
+References: <9user@domain.com>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+*Main Topics: *China Olympics, Edwards Affair, Russia Invades Georgia,
+Surrogate Interviews
+*
+Summary of Shift: *
+The Summer Olympics in Beijing, China got under way this evening, dominatin
+g
+discussion across all networks. President Bush's arrival in China, his tepi
+d
+response to the country's human rights abuses, and China's pollution issues
+were mentioned along with this. Russia invaded Georgia over the disputed
+area of South Ossetia. Fighting quickly escalated, with hundreds reported
+dead, and full out war quickly escalating. The price of a barrel of oil
+dropped $5.00 today, giving Wall Street some welcomed relief which saw
+stocks soaring to their biggest gains in more than three months.
+    Political coverage was dominated by the breaking scandal of John
+Edward's confession to an extra-marital affair. An interview will air this
+evening on ABC Nightline News. Bill Clinton has been asked to speak at the
+OrganizationConvention's third night and Hillary has picked up her campaigning for
+Obama while Obama goes on vacation to Hawaii this week. domain.com's Mayor was
+released from prison today, followed by his indictment for assaulting a
+police officer.
+
+*Highlights:*
+1.    MSNBC: Nicole Wallace Talks McCain's Energy Policy, Attack Ads, and
+Maverick Status
+2.    FNC: Morris Dismisses Romney as Poor V.P. Choice For Flip-Flops on
+Abortion
+3.    MSNBC: McCain Is Takes Bronze in Olbermann's Worse Person For Hamdan
+Lies
+4.    MSNBC: Donatelli Discusses McCain's Energy Plan and Vice Presidential
+Selection
+
+*Highlights, No Clips:*
+1.    CNN =96 JOHN MCCAIN: "The government of Georgia has called for a
+cease-fire and for a resumption of direct talks on South Ossetia with
+international mediators. The U.S. should immediately convene an emergency
+session of the United Nations Security Council to call on Russia to reverse
+course."
+2.    CNN =96 John McCain, when asked on for his opinion on the Edwards aff
+air
+scandal, gives a simple no comment.
+
+*Clips:*
+
+*Highlight #1*
+*Nicole Wallace Talks McCain's Energy Policy, Attack Ads, and Maverick
+Status* (MSNBC 08/08/08 6:58pm)
+DAVID GREGORY: Let's talk about this campaign, and talk about McCain
+campaign strategy. You have tried- the campaign has recently to tarnish
+Obama's credibility and his image in a couple ways. On the one hand, it is
+to describe him as a celebrity, to use Britney spears, Paris Hilton to
+suggest he's sort of famous for being famous, that he's a lightweight.
+That's on the one hand. On the other hand, it is to reduce his energy plan
+to the idea of the tire gauge, to suggest that his whole energy plan is
+really about whether there's enough air in the tires. So the question is,
+are these ambush political tactics? And is that consistent with the origina
+l
+maverick that you claim john McCain is?
+
+WALLACE: You know, two quick things here, David. One, I never hear anyone
+put it to the Obama campaign, the internal deliberations that they may have
+gone to when they made the strategic decision to essentially filet an
+American hero, a former p.o.w. On the stump every day, which is what comes
+out of their candidates mouth. And two, Barack Obama, tarnished himself. We
+didn't paint him as anything that he isn't. He certainly, you know, he went
+overseas, we were pleased that he was finally going to domain.com the war zone.
+But their campaign made a decision, and they obviously did it to gain
+advantage. Because you don't do things in campaigns for other reasons. To
+hold a 200,000 person rally in Europe in the midst of a presidential
+campaign. So it was obviously a decision to celebrate his celebrity with a
+crowd of screaming Europeans. And you know, by pointing it out it's not our
+effort to tarnish him, it's shining a light on something his campaign spent
+a lot of time and money trying to shine the light on themselves.
+
+GREGORY: And when you talk about trying to tarnish McCain's image or filet
+his image, his reputation, certainly, there's been a very aggressive attemp
+t
+to tie him to president bush and say he's a third bush term. What else do
+you have in mind in terms of what they've done?
+
+WALLACE: let's not gloss over that. I covered this White House, I worked at
+this White House. John McCain used to make major news every time he ended u
+p
+at odds with the bush white house. Whether it was attacking the secretary o
+f
+defense for the conduct of the war, whether it was a very high profile
+disagreement that he had with the bush white house over torture and other
+aspects of the war on terror. So it is a blatant lie when Barack Obama
+stands in front of his supporters and calls john McCain an extension of the
+bush administration. It's simply not true. So, it's not something to gloss
+over. On the other hand, Barack Obama is someone who's -- the two pillars o
+f
+his candidacy are a politician who's going to do things differently, change
+we can believe in and the other is judgment that he pointed to in his race
+against Hillary Clinton when he said "I gave a speech in 2002, in which I
+had better judgment than you did on Iraq."   So I think that Barack Obama's
+wounds are self-inflicted and I think it's the job of any campaign to
+highlight a candidate's weaknesses, so that's all that we've done. And
+really our focus is on communicating John McCain's vision for the future,
+for making this country energy independent., getting people working again.
+
+GREGORY: but, clearly, the McCain campaign has made a calculated decision t
+o
+turn up the heat on Obama, to go on the attack, to try to have a different
+narrative frame for this campaign. In fact, senator McCain told David Brode
+r
+that he laments the tone of this campaign and what's happened over the past
+several weeks. This is what he said in back in April about the kind of
+campaign that he was looking forward to. We'll let you listen and have a
+response. >>
+WALLACE: okay.
+
+MCCAIN: this will be a respectful campaign. American's want a respectful
+campaign. They're tired of the attacks, they're tired of the impugning
+people's character and integrity. They want a respectful campaign and I'm o
+f
+the firm belief they'll get it, and they can get it, if the American people
+demand it and reject a lot of this negative stuff that goes on.
+
+GREGORY: has senator McCain lived up to that?
+
+WALLACE: I believe he has. And you know, look, it is a respectful campaign.
+But that that doesn't mean you shy away from highlighting the differences.
+As your own Tim Russert used to say, it's a big election about big stuff.
+And I think when you're talking about big differences, these are very
+different men with very different biographies. The Obama campaign is never
+shy about pointing out an age difference and philosophical difference, and
+time in Washington. And you know, that's the work of campaigns to make sure
+that people understand the choice that they have. And on the big issues,
+there are very stark differences., and the policies people care about-
+people are looking for leadership. I believe this is a leadership election.
+They want someone that's going to end this war with victory.   They want to
+achieve the objectives.  I think everyone agrees now, as a country, it's
+time to end the war in Iraq, it's how do we do it. I think everyone agrees
+now, as a country, it's time to stop shipping $700 billion overseas to
+countries that aren't friendly very to us. The question is how do we make
+ourselves energy independent. So there are big differences there. And we ar
+e
+certainly committed to running the honorable campaign that john McCain
+promised.
+
+GREGORY: let's talk about McCain, the maverick. Which is a theme that's bee
+n
+highlighted by the McCain campaign this week. There's a new ad that has bee
+n
+put on the domain.com in support of that idea. Let's run it and talk about it
+on the other side of it.
+
+[=85]
+
+MATTHEWS: It is a very cleverly constructed ad, I have to domain.com.  But is
+this a conversation that you really want to have. John Kerry, for instance,
+in a response that you knew the democratic committee would have, said this
+about McCain today "John McCain has changed in profound and fundamental way
+s
+that I find personally really surprising, and frankly upsetting.  He is not
+the john McCain, as a senator who defined himself, quote, as a maverick,
+though questionable. This is a different john McCain." And that's an
+argument you get from democrats and critics of john McCain. That this is no
+t
+the john McCain of 2000, who took on George W. Bush. It's a different
+figure.
+
+WALLACE: Well look, I put all my faith in the wisdom of the voters. And I
+think if you came out with us on the trail, which I hope you will do, you'd
+see that john McCain the maverick, john McCain the straight talker and john
+McCain the guy that gets a standing ovation when he talks about you need to
+drill and drill now. Who would have thought two years ago that would be the
+largest applause line, when you travel through Wisconsin and through
+Michigan and through Ohio and through Florida? You know, if you come out an
+d
+see it, and if we get out of some of the back and forth that happens, as I
+understand it must in the Northeast Corridor, you'll see that john McCain i
+s
+still offering straight talk. He spends his days on the campaign trail face
+to face with voters. He does not stand in the arena. We do not have crowds
+of 200,000 people. And he interacts.  These are spontaneous interactions.  
+I
+think even his early supporters consider him vintage john McCain. And he's
+talking about his vision for the future.  So that's the campaign we're
+running, and I think people in Washington are going to say what they are
+going to say. It's really not the focus of our campaign.
+
+GREGORY: Nicole, certainly, the McCain campaign has landed some blows
+against senator Obama the last week and a half, some of the polling reflect
+s
+that in your estimation here, as we start to gear up to the convention, is
+this a dead even race?
+
+WALLACE: oh, god. I feel like we are still very much the underdog, and I
+think that polls go up and polls go down. You and I have been involved in
+more than a couple presidential campaigns and the only campaign and the onl
+y
+poll that matters is the one on Election Day. So, um, we're the underdog. I
+think we expect to remain in that position. It's one that senator McCain is
+comfortable running as. I think we'll look forward to staying neck in neck
+through November.
+
+*Highlight #2*
+*Morris Dismisses Romney as Poor V.P. Choice For Flip-Flops on
+Abortion*(FNC 08/08/08 8:18pm)
+BILL O'REILLY: [=85] Who do you predict for John McCain?
+
+DICK MORRIS: Predict Tom Ridge. Think he should do? Condi, Powell, or Joe
+Lieberman. He needs a vice president that wakes up this campaign. And the
+country says, wow.
+
+O'REILLY: Yeah, but Lieberman's already had that shot. [=85]
+
+MORRIS: Yeah, but he will be the first president since Abraham Lincoln to
+cross party lines in his ticket.
+
+O'REILLY: Let's deal with your Tom Ridge prediction.
+
+MORRIS: Marine, Homeland Security, good looking guy, Pennsylvania.
+
+O'REILLY: But, pro-abortion. That's going to hurt him among conservatives,
+he's already weak there.
+
+MORRIS: It'll hurt him, but not terminally, and Ridge will back and fill
+like he did in Pennsylvania. He didn't change the Medicade ban in
+Pennsylvania. And Ridge would be ok on that.
+
+O'REILLY: Now how convinced are you that Ridge is going to get it?
+
+MORRIS: Oh not. [=85] But the guy I'm praying it isn't, is Romney.
+
+O'REILLY: See, I don't get that. Because I think Romney would be the best
+choice, because for McCain obviously, because of Michigan. He gets that in
+play, and because of the economy, he's a business guy. But you go ahead.
+
+MORRIS: This guy outspent his rivals a hundred million to one. And he lost
+New Hampshire, and Iowa, and Florida, and South Carolina, and California.
+The only states he carried were Michigan, because his Dad was governor in a
+republican primary which is a very small affair there, and a couple of
+Mormon states, and a couple of states where nobody else could afford to run
+because they were all spending money on California. There is a national
+propensity not to vote for Romney.
+
+O'REILLY: Why?
+
+MORRIS: Well it could be the flip-flop on abortion, which is a reason not t
+o
+vote for him. It could be the Mormon, which is not a reason not to vote for
+him but people feel it. And he would send, at best, a gigantic yawn, and at
+worst an animus throughout the country.
+
+O'REILLY: Now he's a conservative guy that could mobilize the base to be
+friendlier to McCain, though. Some people might say, oh, I might come over.
+
+MORRIS: But he's pro-life and pro-choice depending on week you find him in.
+
+O'REILLY: No, but now he's a conservative.
+
+MORRIS: Yeah, but 48 months ago he was a liberal.
+
+O'REILLY: That's alright though, because, I mean, people have a right to
+change their minds. Barack Obama changes his mind quite often.
+
+MORRIS: You have the right to change your mind on abortion once. You can't
+go from pro-life to pro-choice to pro-life, and expect the base to believe
+you're pro-life.
+
+O'REILLY: So you think if he puts Romney on the ticket it's a big mistake. 
+I
+disagree, I think Romney would probably bring him some votes.
+
+*Highlight #3*
+*McCain Is Takes Bronze in Olbermann's Worse Person For Hamdan Lies* (MSNBC
+08/08/08 8:57pm)
+KEITH OLBERMANN: Time for Countdown's worst person's in the world. The
+bronze to John McCain. It will soon be news, not if he gets something
+terribly wrong, but if he goes a week without getting something terrifyingl
+y
+wrong. The candidate issued a statement about the conviction of Salim Hamda
+n
+by military commission, which McCain helped to design, and he exaggerated
+reality again. The jury found that the prosecutions lawyers had proven
+beyond a reasonable doubt that Hamdan had aided terrorists by supplying
+weapons to Al-Qaeda and Taliban forces in Afghanistan. But that's not what
+the jury ruled. It convicted him of supplying resources to Al-Qaeda, namely
+himself as Bin Laden's driver.  But this is getting clearer, John McCain
+either lies or can't tell the difference between reality and stuff he
+dreamed or imagined. Those are not two good options.
+
+*Highlight #4*
+*Donatelli Discusses McCain's Energy Plan and Vice Presidential
+Selection*(MSNBC 08/08/08  1:17pm)
+MITCHELL:  =85 you know that's not all of Barack Obama's energy policy. We'
+re
+in the silly season. What's going on here?
+
+DONATELLI: I have a tire gauge right here, so when I finish this interview
+I'm going to go out an inflate my tires right.
+
+MITCHELL:  Actually you probably should.
+
+DONATELLI:  It's not a bad idea, but it's a very small idea.  I think the
+key point that Senator McCain is trying to make is that whether you want to
+talk about his tire pressure  proposal or his windfall profits tax, or
+anything else he's been talking about, nothing that he has proposed, this i
+s
+the important point,  adds a drop of additional domestic oil or additional
+energy produced here in the United States for use by Americans.  That's the
+bottom line.  For him it's all scarcity.  I mean he's morphing into Jimmy
+Carter when it comes to his energy policy.
+
+MITCHELL: In fairness to the  democratic nominee, he is talked about taking
+70 million barrels out of strategic petroleum reserve; he has talked about
+offshore drilling as part of a larger compromise; he's talked about
+alternative fuels.  I mean he's got a number of things.  He's also talked
+about rebates and putting money in consumers' pockets of a thousand dollars
+,
+paid for by the windfall profits tax, just to balance things up here.
+
+DONATELLI:  Yeah, well let's talk about each of those.  Alternative fuels,
+that's a good idea.  But you just can't wish it to happen.  It'll happen
+when it becomes technologically feasible, and most people tell us that
+that's not for several years.   Um, as far as this new plan for drilling
+that he says he favors-  Andrea, there's no bill.  There's no bill at all.
+It's just some speech that he gave.  I mean if he's for offshore drilling
+and he's going to change his position, then let him say so.  Um, again, I
+stand by my statement., that there's nothing that he's proposed that will
+increase America's proven reserves.  McCain favors increasing America's
+energy reserves, that's why there's such a big distinction on this issue.
+
+MITCHELL: Of course, offshore drilling is a long-term solution, so is
+nuclear power.  John McCain has talked about 45 new nuclear plants by 2030,
+and that is considered pie in the sky, uh, a fantasy kind of scenario, give
+n
+how long it's taken to get even one nuclear plant license.  It's been
+decades since anything's been licensed in this country.
+
+DONATELLI:  You're absolutely right about that, but it's a government
+created problem.  There isn't any reason why if we don't have the will in
+this country, to try to untangle some of the red tape involved, that we
+couldn't put nuclear plants online much quicker.
+
+MITCHELL: It's also market-based and insurance-based.  Uh, it's liability
+issues as well.
+
+DONATELLI:  Well, I mean, we have to get to all of those, but I don't think
+anyone would dispute that fact, Andrea, that the number one problem is red
+tape for the government.  As far as oil becoming more available to the
+United States quickly,  you can do that much more quickly in the Gulf of
+Mexico, uh, because you have the infrastructure there already.  You know I'
+m
+really amazed Senator Obama claims to campaign on the audacity of hope, on
+the issue of energy, he's hopeless. You know, nothing can be done.  Nothing
+can be done.  It's going to take seven years.  It's gonna take ten years .
+You should inflate your tires.  I mean, the obvious answer is staring him i
+n
+the face.  We have to drill for more energy and more oil and more gas.
+That's the thing we need right now to gradually begin to bring the price
+down.
+
+MITCHELL: Now, the announcement today from the Republicans, that Dick Chene
+y
+will be the big speaker on Monday night.  Uh, tell me about the plusses and
+minuses.  You've got a vice president who is very, very popular with the
+Republican base, the conservative base.  He's been a great fundraiser, he's
+a great campaigner.  At the same time, he's not popular with your wider
+audience.  So, how do you bridge that divide?
+
+DONATELLI: Well Monday night, uh, you know, would be the vice president.
+Uh, and probably the president.  And, uh, normally it would be the first
+night.   Uh, he's the president and vice president of our party, uh, you
+want to give an appropriate- you want to honor them appropriately.  At that
+point, Andrea, you then shift away, and you're talking about Senator McCain
+and his running mate and his policies.  That'll be the focus for the rest o
+f
+the convention, highlighted, of course, on Saturday night by Senator
+McCain's acceptance speech.
+
+MITCHELL: So basically, you want to get Dick Cheney and George Bush on and
+off the stage as quickly as possible, and have that torch passed because of
+their singular unpopularity right now, fair or not,  with the voters.
+
+DONATELLI:  Look, passing the torch I would agree with,  but I'll go back t
+o
+1988 when I worked for President Reagan.  Monday night was President
+Reagan's night.  Um, he was honored, appropriately, then he exited the stag
+e
+in favor of then Vice President Bush.  I mean, this happens all the time, i
+t
+should not be any different in this case.
+
+MITCHELL:  Now, as I recall in 1988, because it had something to do with th
+e
+way it unfolded,  1988 the vice presidential nominee was introduced on the
+second night, the Tuesday night of the convention.  Can you imagine that
+scenario, or do you expect that John McCain would be doing it sooner than
+that , perhaps to step on the bounce that the democrats might have after
+their convention?
+
+DONATELLI:  You know, uh, Senator McCain is going to make his decision when
+he's comfortable making it.  And I honestly can't tell you if that's going
+to be the second night of the convention, before the convention, or
+tomorrow.  All I can tell you is that he's giving serious thought.  This is
+an important choice, and he'll make the decision, he'll announce it when
+he's comfortable doing so.
+
+MITCHELL:  Ok, he's in Iowa today, he's in Las Vegas tomorrow.  I think it'
+s
+a safe bet it's not going to be tomorrow.
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

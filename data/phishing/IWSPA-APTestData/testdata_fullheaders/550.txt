@@ -1,0 +1,168 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp2112888lfr;
+        Tue, 29 Sep 2015 20:01:08 -0700 (PDT)
+X-Received: by 10.129.137.1 with SMTP id z1mr957118ywf.103.1443582068141;
+        Tue, 29 Sep 2015 20:01:08 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.61])
+        by domain.com with ESMTPS id 69si13230675ykt.110.2015.09.29.20.01.07
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 29 Sep 2015 20:01:08 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.55.169.61 as permitted sender) client-ip=65.55.169.61;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 65.55.169.61 as permitted sender) user@domain.com
+Received: from domain.com (10.160.203.139) by
+ domain.com (10.160.103.147) with Microsoft
+ SMTP Server (TLS) id 15.1.274.16; Wed, 30 Sep 2015 03:01:05 +0000
+Received: from domain.com (10.160.203.11) by
+ domain.com (10.160.203.139) with Microsoft
+ SMTP Server (TLS) id 15.1.280.20; Wed, 30 Sep 2015 03:01:02 +0000
+Received: from domain.com ([10.160.203.11]) by
+ domain.com ([10.160.203.11]) with mapi id
+ 15.01.0274.009; Wed, 30 Sep 2015 03:01:02 +0000
+From: user user <user@user.com>
+To: John user <user@domain.com>
+Subject: Fwd: My Dad's funeral
+Thread-Topic: My Dad's funeral
+Thread-Index: AdD2DmCQMlEh8t5gQf+fujHmPkytgQFHdynR
+Date: Wed, 30 Sep 2015 03:01:02 +0000
+Message-ID: <49user@domain.com>
+References: <user@domain.com>
+In-Reply-To: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ user@domain.com; 
+x-originating-ip: [108.30.218.128]
+x-microsoft-exchange-diagnostics: 1;BY1PR0501MB1528;5:L0VuEv1tz7KpsHYI5TWhBZw80jJ0Z56FcJmQ8Qun8vn+6ShxxFXr42XYq9R6c+tKjBt+bh896OGUoaYIfrX83LOo2PAm/YlqFsleJZvQwlroCs+Bg+5mkGqweC2syJD2k1ya4SlA/1yWzWIVfNpDPg==;24:kn1PlXU9KdoDODGDtv8VJEQkPR9/9BBUSK/YvF7E6yXjx67VDXkBDMz14oOPEZIktz/pmLVTzW48nCMoXFIWiHDTBfnXIjN/XuTZ6Ta+gfQ=;20:+u45u2sTNiqiDaZtrT5qAiZu1gGYO4kt7jtTB1msVNcPcllKNukssLJlLdVw7iqKviH739L2tA5ovFCUzN9zpw
+x-microsoft-antispam: UriScan:(96343)(28256)(92638)(92639);BCL:0;PCL:0;RULEID:(42134001)(42139001)(42140001)(120001);SRVR:BY1PR0501MB1528;
+x-microsoft-antispam-prvs: <user@domain.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(520078)(8121501046)(3002001);SRVR:BY1PR0501MB1528;BCL:0;PCL:0;RULEID:;SRVR:BY1PR0501MB1528;
+x-forefront-prvs: 071518EF63
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(199003)(189002)(2473001)(377454003)(19625215002)(97736004)(19580395003)(101416001)(2900100001)(76176999)(17760045003)(99286002)(16236675004)(46102003)(54356999)(50986999)(33656002)(64706001)(19617315012)(36756003)(19580405001)(19627595001)(105586002)(68736005)(2950100001)(81156007)(77156002)(110136002)(107886002)(5001830100001)(62966003)(4001540100001)(106356001)(40100003)(5001960100002)(77096005)(122556002)(87936001)(16601075003)(5001920100001)(99936001)(66066001)(5004730100002)(82746002)(5001860100001)(18206015028)(86362001)(189998001)(5003630100001)(92566002)(102836002)(83716003)(5008740100001)(5002640100001)(5007970100001)(15975445007)(10400500002)(11100500001)(450100001)(7099028)(104396002);DIR:OUT;SFP:1101;SCL:1;SRVR:BY1PR0501MB1528;H:domain.com;FPR:;SPF:None;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+received-spf: None (domain.com: user.com does not designate
+ permitted sender hosts)
+spamdiagnosticoutput: 1:23
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/related;
+	boundary="_006_49B76B7E1AF94A9481CC733BC8DE2256usercom_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-originalarrivaltime: 30 Sep 2015 03:01:02.1472
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: aa7e357c-6692-4433-9f38-dcfe9592339c
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY1PR0501MB1528
+Return-Path: user@domain.com
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY1PR0501MB1125;2:Io2dcP73HIOLYpKzAUjxijEHCGBs90kAKHknme0EftzZKjimqNZxpFvMcaa+8p5fSo6sbwl0m/SYr5ODpMOzrahlym1KsHuDLnSv6hduB8iWGPIruxcRkPyymvfFga4p07Cekc5rW6RgMPDjN9I9sTJw/fDP0RFB6ajs+E2nLXg=;23:H+VP8IVMOVKRfSZrASw/IKW/U7zCkMrwwo1MIdk9v8iwHxP3CFCQc7O7fQQO6gqPXNBjy08rr5eW5BF/UxZv6axUmdNLBSIYbH49FGNLVQJuv+RAQR6S+dbWXKdPwKxdpSEdkld7d9sdaQVUbIqaGHM5ZIlEYEYGMtgHjOyoL7RYqOU6cU1HELlWEnZj3e5i
+X-OriginatorOrg: user.com
+
+Sent from my iPhone
+
+Begin forwarded message:
+
+From: user user <user@user.com>
+domain.com>>
+Date: September 23, 2015 at 10:47:31 AM EDT
+To: user user <user@domain.com<mailto:user@domain.com>>
+Cc: Heather Kliegman <user@domain.com<mailto:user@domain.com
+domain.com>>
+Subject: My Dad's funeral
+
+user,
+
+My dad's funeral will be at 11 Monday at Saint Sophia.  There will be a pub
+lic viewing at the church from 4-8 on Sunday.  The funeral will have a huge
+ crowd and will be hard to get into. I am touched that you would like to at
+tend.  However, it may be more practical to come by the viewing Sunday even
+ing and pay your respects.
+
+Best,
+
+Mark
+
+[<<link>>
+291136491333729114.1.1.jpg]
+
+domain.com<<<link>>
+u=3D1657f146ea708571765162fe6&id=3Da7535984ea&e=3Dd86221d684>
+
+Email not displaying correctly?
+View it in your browser<<<link>>
+571765162fe6&id=3D676c0b8f3b&e=3Dd86221d684>.
+
+The Falling Asleep in the Lord of
+Father John Tavlarides
+
+THE FALLING ASLEEP IN THE LORD OF FATHER JOHN TAVLARIDES
+
+[<<link>>
+ba-4bc2-9e82-5bb49399736e.jpg]
+
+Dearest Parishioner,
+
+The visitation and funeral arrangements for Father John are as follows:
+
+SUNDAY, SEPTEMBER 27, Saint Sophia Cathedral: Public visitation (4:00 PM - 
+8:00 PM), Trisayion Service (6:00 PM)
+
+MONDAY, SEPTEMBER 28, Saint Sophia Cathedral: Orthros & Divine Liturgy (8:0
+0 AM - 10:00 AM), Funeral Office (11:00 AM), His Eminence Archbishop Demetr
+ios of America presiding, assisted by Cathedral and local clergy.
+
+Please make every effort to attend the above services so that as one, unite
+d Saint Sophia family, we may most fully honor our spiritual father of sixt
+y years, Father John Tavlarides.
+
+May his memory be eternal!
+
+Father Steve
+
+[<<link>>
+con.jpg]
+
+Friend on
+Facebook
+
+[<<link>>
+on.jpg]
+
+Follow on
+Twitter<Twitter%20Account%20not%20yet%20Authorized>
+
+[<<link>>
+.jpg]
+
+Forward to
+a Friend<<<link>>
+2fe6&id=3D676c0b8f3b&e=3Dd86221d684>
+
+Copyright (c) 2015 *Saint Sophia Greek Orthodox Cathedral*, All rights rese
+rved.
+Our mailing address is:
+2815 36th Street NW
+Washington, DC 20007
+
+unsubscribe from this list<<<link>>
+ribe?u=3D1657f146ea708571765162fe6&id=3D181d40f158&e=3Dd86221d684&c=3D676c0
+b8f3b> | update subscription preferences<<<link>>
+domain.com/profile?u=3D1657f146ea708571765162fe6&id=3D181d40f158&e=3Dd86221d684
+
+Memorial donations may be made out to:
+Saint Sophia Greek Orthodox Cathedral<<<link>>
+.com/track/click?u=3D1657f146ea708571765162fe6&id=3D015d017040&e=3Dd86221d6
+84>
+
+[cid:image001.jpg@01D0F5ED.3D6492C0]
+
+MARK TAVLARIDES PRINCIPAL
+O 202.448.5239 / C  / W domain.com<<<link>>>
+1001 G Street NW, Suite 1000 West, Washington, DC 20001   [cid:image002.jpg
+@01D0F5ED.3D6492C0] <<<link>>>  [cid:image0
+03.jpg@01D0F5ED.3D6492C0] <<<link>>>
+

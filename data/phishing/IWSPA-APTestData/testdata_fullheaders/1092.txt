@@ -1,0 +1,71 @@
+Delivered-To: user@domain.com
+Received: by 10.140.32.230 with SMTP id h93csp210116qgh;
+        Tue, 15 Apr 2015 08:14:52 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.180.72.205 as permitted sender) client-ip=10.180.72.205
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 10.180.72.205 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+X-Received: from domain.com ([10.180.72.205])
+        by 10.180.72.205 with SMTP id f13mr14908170wiv.45.1397574891766 (num_hops = 1);
+        Tue, 15 Apr 2015 08:14:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Gabe user <guser@gmail.com>
+        bh=PctS8ybMevT5b+QqQ2RcWixxi6S2Tg5moFj9BMJTujI=;
+        b=yPitrEjr6tPrUf8dA3HIqP99P9zXXORHiLygqqRWWiskKVk2u3q/zSZWUwipTe1Y38
+         bHkv5QRWFcaQvlDQerwHi9zB8dWj9i8WibcrlFuZy5EffRWL5mP6nfpUmtQHO/ZYm5M2
+         Ypvv+4YAHkn3UydLMAmpcn6uBbMc9/CLXIo0TqXohoxv4kqiAchMNOjzjvERwfoJDOZH
+         gsqWCPoKc9LLdGvwbTCUEVwL5riSG4Gu/J0uzAQ3vUEMFb5x6gTZnX2yxa3kpXKNCLRZ
+         arL1BgulpfMK6yYwI9/h92bAW5n9jecKiFIeWGNQqsZroxyhZCBrM4ZcgBgjS0c3+nQt
+         THbQ
+MIME-Version: 1.0
+X-Received: by 10.180.72.205 with SMTP id f13mr14908170wiv.45.1397574891754;
+ Tue, 15 Apr 2015 08:14:51 -0700 (PDT)
+Received: by 10.217.65.4 with HTTP; Tue, 15 Apr 2015 08:14:51 -0700 (PDT)
+Date: Tue, 15 Apr 2015 19:44:51 +0430
+Message-ID: <user@domain.com>
+Subject: Vatican
+From: Gabe user <guser@gmail.com>
+To: "User" <user@domain.com>
+CC: Mary user <user@domain.com>
+Content-Type: multipart/alternative; boundary=f46d043c8198f8797c04f7164277
+
+Copied below is an email from one of my JASOC instructors.  I can't open
+the article from my desk because most of the domain.com is denied by DoD.
+Did you hug the Pope?
+
+-----Original Message-----
+From: Gabe user <guser@gmail.com>
+Sent: Tuesday, April 15, 2015 4:34 PM
+To: user, Gabriel J CAPT USAF CENTCOM C-JTSCC (US)
+Subject: Vatican
+
+Gabe,
+
+Mornin buddy!  As a devout Catholic will you have your Dad give the Pope an
+
+extra squeeze for me :)!
+
+<<link>>
+
+s-named.html
+
+Cheers,
+
+Ken
+
+KENNETH A. ARTZ, Maj, USAF
+
+Chief, Communications & Media Relations
+
+Strategic Policy & Requirements
+
+Office of The Judge Advocate General
+
+Pentagon, Room 4E177
+
+Comm:  703-697-4378 (DSN 227)
+
+-- 
+Gabe user

@@ -1,0 +1,136 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.101 with SMTP id o98csp530480lfi;
+        Fri, 19 Jun 2015 09:13:16 -0700 (PDT)
+X-Received: by 10.68.125.130 with SMTP id mq2mr32771018pbb.121.1434730396012;
+        Fri, 19 Jun 2015 09:13:16 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.3])
+        by domain.com with ESMTPS id gn6si17030079pac.239.2015.06.19.09.13.14
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 19 Jun 2015 09:13:16 -0700 (PDT)
+Received-SPF: neutral (domain.com: 216.82.251.3 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=216.82.251.3;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 216.82.251.3 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211] by server-3.bemta-12.domain.com id 9A/CB-10821-99F34855; Fri, 19 Jun 2015 16:13:13 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-6.tower-53.domain.com!1434730391!11854335!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.16; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 7207 invoked from network); 19 Jun 2015 16:13:12 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-6.tower-53.domain.com with AES256-SHA encrypted SMTP; 19 Jun 2015 16:13:12 -0000
+Resent-From: "Robbins, Andrew" <ARobbins@milbank.com>
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server (TLS)
+ id 14.3.210.2; Fri, 19 Jun 2015 12:13:11 -0400
+Received: from [216.82.249.179] by server-13.bemta-12.domain.com id
+ AF/8F-03720-69F34855; Fri, 19 Jun 2015 16:13:10 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-10.tower-44.domain.com!1434730388!11649654!1
+X-Originating-IP: [63.128.21.106]
+X-SpamReason: No, hits=0.0 required=7.0 tests=HTML_MESSAGE
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.16; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 15930 invoked from network); 19 Jun 2015 16:13:08 -0000
+Received: from us-smtp-delivery-106.domain.com (HELO
+ us-smtp-delivery-106.domain.com) (63.128.21.106)  by
+ server-10.tower-44.domain.com with AES256-SHA encrypted SMTP; 19 Jun
+ 2015 16:13:08 -0000
+Received: from domain.com (64.238.151.120 [64.238.151.120]) (Using
+ TLS) by us-smtp-1.domain.com with ESMTP id
+ us-mta-10-Dw3hUWrBSZO0AkwAk9KfVA-1
+Received: from domain.com (10.100.5.5) by domain.com
+ (10.132.1.14) with Microsoft SMTP Server (TLS) id 14.3.123.3; Fri, 19 Jun
+ 2015 12:13:04 -0400
+Received: from domain.com (10.132.1.74) by domain.com
+ (10.100.5.5) with Microsoft SMTP Server (TLS) id 15.0.995.29; Fri, 19 Jun
+ 2015 12:12:59 -0400
+Received: from domain.com ([fe80::b171:640e:2e6e:bd6c]) by
+ domain.com ([fe80::b171:640e:2e6e:bd6c%20]) with mapi id
+ 15.00.0995.032; Fri, 19 Jun 2015 12:12:58 -0400
+From: "Robbins, Andrew" <ARobbins@milbank.com>
+To: "User" <user@domain.com>
+Subject: Andrew Robbins - Maret School Graduate Hoping To Get Involved With
+ The Clinton 2015 Campaign
+Thread-Topic: Andrew Robbins - Maret School Graduate Hoping To Get Involved
+ With The Clinton 2015 Campaign
+Thread-Index: AdCqqq34d6kfuirCR/G5M+CcxtexRA
+Date: Fri, 19 Jun 2015 16:12:58 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-pgma-masrq: I
+x-originating-ip: [10.100.13.150]
+x-ems-proccessed: C0XlpKjg+aA3QfoaM4qqEQ
+x-ems-stamp: l7ptn3pzaZ9RX0QMq7wa/w
+MIME-Version: 1.0
+X-MC-Unique: Dw3hUWrBSZO0AkwAk9KfVA-1
+Content-Type: multipart/mixed;
+	boundary="_004_bf03b6386ec14a94814e0a726d5dc92eENJ4milbanklocal_"
+
+Mr. user,
+
+I attended Maret School with your son Gabe (although I graduated a year ahe
+ad of him).  I apologize for this email out of the blue, but hoped you migh
+t be willing to chat with me (or connect me with someone who can) about pot
+entially getting involved with the Hillary Clinton 2015 campaign.   A few b
+rief points regarding my background and experience are set forth below.  A 
+copy of my resume is also attached hereto.
+
+-          Six years of experience as a litigator, specializing in white co
+llar criminal and regulatory matters, including actions involving the healt
+h care and financial services industry.
+
+-          Attorney volunteer with Election Protection.
+
+-          Recognized by New York Legal Services as a "Top 30 Pro Bono Atto
+rney" for 2015 for my work on behalf of veterans.
+
+-          Volunteer for Hillary Clinton's campaign in Atlanta, GA where I 
+helped run a number of events with Ethan Rosenzweig.
+
+-          Graduated from Vanderbilt University with a degree in Political 
+Science.
+
+-          Worked as a volunteer on John Edwards' campaign in Raleigh, NC.
+
+-          Interned at the Glover Park Group where I worked with Chip Smith
+, Michael Feldman, Carter Eskew, and Joe Lockhart.
+
+-          Worked with Roy Neel as a volunteer on Al Gore's campaign in Nas
+hville, TN.
+
+I am hardworking, passionate, and a quick study.  I am strong writer, resea
+rcher, and advocate.  I am a seasoned Vamoose passenger.  I already live in
+ Brooklyn.  Most importantly, I believe that Hillary Clinton is without que
+stion the best candidate to serve as President.  I want to be a part of thi
+s historic campaign and I believe I can make a meaningful impact.
+
+If you have time, I would love to discuss my qualifications and potential o
+pportunities with you further.
+
+Thanks in advance,
+
+Andrew Robbins
+
+____________________
+Andrew S. Robbins | Milbank
+One Chase Manhattan Plaza | New York, NY 10005
+T: +1 212.530.5247 | F:  +1 212.822.5247
+user@domain.com<mailto:user@domain.com> | www.milbank.com<http://
+www.milbank.com/>
+
+This e-mail message may contain legally privileged and/or confidential info
+rmation. If you are not the intended recipient(s), or the employee or agent
+ responsible for delivery of this message to the intended recipient(s), you
+ are hereby notified that any dissemination, distribution or copying of thi
+s e-mail message is strictly prohibited. If you have received this message 
+in error, please immediately notify the sender and delete this e-mail messa
+ge from your computer.

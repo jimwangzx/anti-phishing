@@ -1,0 +1,86 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp507465lfr;
+        Fri, 21 Aug 2015 21:06:25 -0700 (PDT)
+X-Received: by 10.202.197.86 with SMTP id v83mr10873988oif.88.1440216385242;
+        Fri, 21 Aug 2015 21:06:25 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::232])
+        by domain.com with ESMTPS id kh1si7278541obb.55.2015.08.21.21.06.24
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 21 Aug 2015 21:06:25 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::232 as permitted sender) client-ip=2607:f8b0:4003:c01::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id he7so73936144obb.0
+        for <user@domain.com>; Fri, 21 Aug 2015 21:06:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Brian Fallon <bfallon@hillaryclinton.com>
+         :cc:content-type;
+        bh=066bZ26hUmDRkz0Bdj4Wd/tIPWUCZX1LWtKWDLvdkLc=;
+        b=G16BiH4/qWig7/J4xM3k5wgwxBPB/82dYvMBO4i1qS95OOz3IQO3hWWoXr2yqhy6k0
+         sM/xjISAfnqDsWfGIDO/bmkXcnAlwNJLAnlsNMAQOp3LTSzNDu/QLRI6J52Nl2hK9jK6
+         MjPyIKLg/kPuozS4bpcTYEpbZqn/9fQQdtw3c
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Brian Fallon <bfallon@hillaryclinton.com>
+        bh=066bZ26hUmDRkz0Bdj4Wd/tIPWUCZX1LWtKWDLvdkLc=;
+        b=l3+OLh35y6lZnHDMCOdaKUSMqLlkqevR8FCHrkmyokp7WcXUuw41G+XlrRvsdNbcc/
+         9C65qIbBzlHUOiaXZRmq8guvFIYBp78KxdlVDup0QuJBnytWgcO8tR9TPSg8o+GZAq38
+         bmbrB+6P+0wk0OmC0919XStZTecPQ8ogId/eiVHlaYsB9/4vo1A6PpG9zaDjhzjfTkzn
+         WJo4NBnBAje6hG53oK3tbrxurS0hP3KoDQhcUEtbIpPn4TVCREmXBd3vH3kpdYOPAB2E
+         3zGSSDFvRYMfXvohvHKkX3zHsdnvsz9Bw02Z/gQPgUkUVUry/HAWWBttz06Zjspau2MQ
+         tOxA
+X-Gm-Message-State: ALoCoQkaEZrmls0G4AB22OyFnOAY8Oya1+AyVW3wiKhJbJZGR5XVMFJdgJXudZoS7VRZUkTKpFzA
+MIME-Version: 1.0
+X-Received: by 10.182.236.200 with SMTP id uw8mr10987583obc.19.1440216384360;
+ Fri, 21 Aug 2015 21:06:24 -0700 (PDT)
+Received: by 10.60.146.227 with HTTP; Fri, 21 Aug 2015 21:06:24 -0700 (PDT)
+In-Reply-To: <4user@domain.com>
+References: <0user@domain.com>
+	<1443263539723382240@unknownmsgid>
+	<9170522user@domain.com>
+	<7295user@domain.com>
+	<5285user@domain.com>
+	<-3101600018185369292@unknownmsgid>
+	<4user@domain.com>
+Date: Sat, 22 Aug 2015 00:06:24 -0400
+Message-ID: <CANqZgL9yibT=ZvTr+0bXWW0hwT7M61iz98Ydrc9CHpK_+user@domain.com>
+Subject: Re: Script
+From: Brian Fallon <bfallon@hillaryclinton.com>
+To: Jennifer Palmieri <user@domain.com>
+CC: Robby Mook <user@domain.com>, Mandy Grunwald <user@domain.com>, 
+ "Margolis, Jim" <user@domain.com>, Dan Schwerin <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c36216fd8c1d051dde811c
+
+Realizing Jen is making edits presently, I have three flags:
+
+1. I also dislike the current reference to her 2015 Blackberry. As written,
+it seems like a strained attempt to make her seem relatable. If the point
+of it is to say that she was used to having only one email when she was a
+senator, and simply wanted to continue that arrangement when she became
+Secretary, then the Blackberry reference would make sense bc it would help
+explain how she made this decision in the first place. But it needs to be
+rewritten to be understood that way.
+
+2. This line - "=E2=80=8EThis process of looking backwards to see if someth
+ing
+should have been classified at the time is fine" - is problematic. We
+should not think it is fine to find something that "should have been
+classified at the time." Our position is that no such material exists, else
+it could be said she mishandled classified info. We need to clarify to make
+clear we mean that it is fine to perform redactions today, but in doing so
+it doesnt mean that the material was classified at the time it was sent.
+
+3. In this line - "Some will be serious, some will be personal or mundane"
+- the word "serious" reads ominously/ suggestive of wrongdoing. I would say
+something like "some will give a real window into the day-to-day workings
+of the State Department..."
+
+On Friday, August 21, 2015, Jennifer Palmieri <user@domain.com
+

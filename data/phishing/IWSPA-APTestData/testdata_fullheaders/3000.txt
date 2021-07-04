@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp56068lfi;
+        Fri, 8 May 2015 09:24:05 -0700 (PDT)
+X-Received: by 10.202.191.6 with SMTP id p6mr3518454oif.109.1431102244236;
+        Fri, 08 May 2015 09:24:04 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [209.85.214.174])
+        by domain.com with ESMTPS id r16si3366616obt.5.2015.05.08.09.24.02
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 08 May 2015 09:24:04 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.214.174 as permitted sender) client-ip=209.85.214.174;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.214.174 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id e9so58979013obf.1
+        for <user@domain.com>; Fri, 08 May 2015 09:24:02 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Huma Abedin <ha16@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=ZuH1gfNQ3AloCFS+dYCHMCp1zSHrj7yat46lQJnSp4Y=;
+        b=k7nHxKRdhe3I6SMXAk3Zk+lGGTpH41NusZYIk3b+jUn+Ma2ICioluvUMTqK6o6OAkw
+         q3U0enwDFI7GoWIxMdaj/GSHC+BHXosbd9BhG5gEU+xGdenFO/wQ9q0iODFp5+xjlZB3
+         K1S/6w5eKf+M7RsID+tFqGudPafINrKUUceTDKKFKH53yJJ937bgTbqrrGNcp7bTHHA4
+         xaNdXt7nWNPi5ndj8lwlScze+Ohnyt1NTcSVrZ4HgXdI4MXqp7j4Q6GNmSslYR6LY6GE
+         lqPGRCND6vr/gvVUOD5oUsvlNxcggbhRiy3LCuJsxzq9H477Cfifb5lhCuAQg8kSCEgj
+         5fMA
+X-Gm-Message-State: ALoCoQkDEto//DYp9B+hxiyF2h8SKUPq5RcKRd8LZ42/1iPEhZ054jojXzrN/xpoEI31uJwkqHJ0
+X-Received: by 10.60.33.74 with SMTP id p10mr3826428oei.62.1431102242089; Fri,
+ 08 May 2015 09:24:02 -0700 (PDT)
+From: Huma Abedin <ha16@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <5269699781090398897@unknownmsgid>
+In-Reply-To: <5269699781090398897@unknownmsgid>
+Date: Fri, 8 May 2015 09:24:01 -0700
+Message-ID: <642825471272466228@unknownmsgid>
+Subject: Re: Launch date
+To: Robby Mook <user@domain.com>
+CC: Alex Hornbrook <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e0115eef8c7034d05159474ca
+
+Also forgot to mention that since Gowdy might be putting out more
+information today, we might know more about when they plan to request her.
+Apparently Gowdy has not requested time on Cummings=E2=80=99 calendar for t
+he week
+of May 18 <x-apple-data-detectors://0>, and the House is out the week of Ma
+y
+25 <x-apple-data-detectors://1> so May schedule won't be affected. It is in
+session all during June so perhaps they might try to schedule her then.
+
+Sent from my iPhone
+

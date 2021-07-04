@@ -1,0 +1,95 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Mon, 30 Dec 2015 08:16:45 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBUGGi0V010479	for <user@domain.com>; Mon, 30 Dec 2015 
+ 16:16:44 GMT
+Received: from mail128-tx2-domain.com (mail-domain.com [65.55.88.113])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBUGGhLl009075	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Mon, 30 Dec 2015 16:16:43 GMT
+Received: from mail128-tx2 (localhost [127.0.0.1])	by
+ mail128-tx2-domain.com (Postfix) with ESMTP id 3AA643802F3	for
+ <user@domain.com>; Mon, 30 Dec 2015 16:16:43 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:69.174.83.188;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 7
+X-BigFish: vps7(z5302mzc89bhdddahc857h77f5h11fbIzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h17326ah8275bh1bc7b9h8275dh1de097h186068h1ce121iz2fh5fh839h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20e7h20f0h2216h2336h1889i214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail128-tx2: domain of domain.com designates 69.174.83.188 as permitted sender) client-ip=69.174.83.188; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail128-tx2 (localhost.localdomain [127.0.0.1]) by mail128-tx2
+ (MessageSwitch) id 1388420201368811_2559; Mon, 30 Dec 2015 16:16:41 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.237])	by
+ mail128-domain.com (Postfix) with ESMTP id 445D32C004A	for
+ <user@domain.com>; Mon, 30 Dec 2015 16:16:41 +0000 (UTC)
+Received: from domain.com (69.174.83.188) by domain.com
+ (10.9.99.120) with Microsoft SMTP Server id 14.1.225.23; Mon, 30 Dec 2015 
+ 16:16:40 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1388420200;
+	h=From: Claire McCaskill <info@clairemccaskill.com>
+	bh=oepsIVayJFVOkjLFlOEoNBWT10M=;
+	b=r3LbysxIA6hddJjWdq+pUUUJfVpfh5tGt6FwOcCuRyk34M9z6mqWowAb16L3llOm
+	iN3j0/uKSYEq2B7g4OZBPWgMCwGUltoiG8sGVD80VtDUrXgC9qyKO1zqIwUII3hR
+	1rHh/iOcrCp0dBQqO5fe1NCLkQ2u0QR0+lPaAkmSWvM=;
+Received: from [10.174.83.207] ([10.174.83.207:36909] helo=10.174.83.207)	by
+ domain.com (envelope-from
+ <324449662-31975-user@domain.com>)	(ecelerity 3.5.0.35861
+ r(Momo-dev:tip)) with ESMTP	id 39/C3-21593-86C91C25; Mon, 30 Dec 2015 
+ 11:16:40 -0500
+Date: Mon, 30 Dec 2015 11:16:40 -0500
+From: Claire McCaskill <info@clairemccaskill.com>
+Sender: <user@domain.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <324449662.1920097125@domain.com>
+Subject: This is a crucial race
+Envelope-From: Claire McCaskill <info@clairemccaskill.com>
+X_email_KEY: 324449662
+X-campaignid: salsawfc28-31975
+Return-Path: 324449662-31975-user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+This is a crucial race
+
+Karl Rove and the Koch brothers are eager to attack the candidate in this race because of her state. 
+
+Amy,
+
+Karl Rove and the Koch brothers are trying their hardest to take over Louisiana.
+
+The past two months, one Koch-backed group has spent $1.6 million attacking my friend, Senator Mary Landrieu, trying to replace her with an extreme tea partier.
+
+That's because Mary hasn't kowtowed to their extreme, special interest agenda. Instead, she's been a dedicated and effective senator for the people of Louisiana -- and people throughout America -- working to create jobs, helping renew the Violence Against Women Act, and supporting the Employment Non-Discrimination Act. That's not always easy to do in a state like Louisiana, but it's the right thing to do.
+
+But to respond to the right-wing attacks, and show Louisiana voters that she has the grassroots support to be a winner, she needs to reach her $75,000 grassroots goal before midnight tomorrow -- and she's still a few thousand dollars away.
+
+Contribute $25 or more to Mary Landrieu now and help reach the grassroots goal before tomorrow and repel right-wing attacks.
+
+Mary's opponents would bring to the Senate the same extreme, tea party tactics that have shut down our government and ground meaningful reform to a halt. In fact, one of her opponents is in the U.S. House right now, and he went so far as to vote against the bipartisan compromise that ended the Tea Party Tantrum shutdown this fall.
+
+I'd rather have Mary Landrieu representing Louisiana and working by my side.
+
+But you can see why Rove, the Kochs, and their cronies are spending so much. They don't think someone who wants to strengthen the Affordable Care Act and work to keep its promise should represent a state like that -- just like they didn't think I should represent a state like Missouri.
+
+Last year, we fought them, and we won. Let's help Mary Landrieu fight back, before this year comes to an end.
+
+Contribute $25 or more to Mary Landrieu now and help reach the grassroots goal before tomorrow and show the strength of her grassroots support on her upcoming disclosure report.
+
+Thank you for stepping up to support Mary Landrieu,
+
+Claire 
+
+
+
+
+This email was sent to user@domain.com Click here to unsubscribe.
+
+Contributions or gifts to McCaskill for Missouri are not tax deductible.         
+
+All cont
+

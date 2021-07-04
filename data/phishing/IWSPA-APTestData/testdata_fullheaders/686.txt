@@ -1,0 +1,85 @@
+Delivered-To: user@domain.com
+Received: by 10.151.116.6 with SMTP id t6cs143548ybm;
+        Tue, 2 Sep 2015 17:17:52 -0700 (PDT)
+Received: by 10.150.202.8 with SMTP id z8mr11392378ybf.166.1220401072160;
+        Tue, 02 Sep 2015 17:17:52 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2526.domain.com (yw-out-2526.domain.com [74.125.46.34])
+        by domain.com with ESMTP id o27si8822659ele.10.2008.09.02.17.17.51;
+        Tue, 02 Sep 2015 17:17:52 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.34 as permitted sender) client-ip=74.125.46.34;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.34 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2526.domain.com with SMTP id 7so4395447ywf.8
+        for <user@domain.com>; Tue, 02 Sep 2015 17:17:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Tara McGuinness" <tara@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=MAomwHP5YrlGOk9A4UK3coG0VMfUGHXalCu94C6vVhI=;
+        b=2KJZcc+cSDyETCgmtpE7nWMQ2eDUKk/TpRZ3Ltwtm9z6W2TakadB4x+scO4fDZEOJ/
+         WfRKlyoIqKmrAelHJZKHk1d3FcIy6oV5i7CIt1QRsy56JhS7s9340O/jrcFHNdM3K/FV
+         uzFQ6yKKwHLJ5fL756gIXDCkZ5WOQdtlAyZYs
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Tara McGuinness" <tara@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=MZ4UXssvManU9LOH6bKGSos9+7wNTQvkt+eBcDfOh4XM/LP6eaOYc7YKt1Gej9AhO8
+         NpmDpFkRCjtTsx4YsKpiM0JicZq/tO4ImD3137Npn34kjsb1GiBaC0BY7IhtxjWi4Mg9
+         HZe6fv8Y7UsDVC9lXybccrpWX4g0Dv52fSsj8
+Received: by 10.150.50.14 with SMTP id x14mr211104ybx.27.1220401065824;
+        Tue, 02 Sep 2015 17:17:45 -0700 (PDT)
+Received: by 10.106.212.23 with SMTP id k23gr1770prg.0;
+	Tue, 02 Sep 2015 17:17:31 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.214.244.9 with SMTP id r9mr10222984qah.4.1220401051263; Tue, 02 Sep 2015 17:17:31 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from py-out-1112.domain.com (py-out-1112.domain.com [64.233.166.183]) by domain.com with ESMTP id 39si13911426yxd.2.2008.09.02.17.17.31; Tue, 02 Sep 2015 17:17:31 -0700 (PDT)
+Received-SPF: neutral (domain.com: 64.233.166.183 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=64.233.166.183;
+Authentication-Results: domain.com; spf=neutral (domain.com: 64.233.166.183 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by py-out-1112.domain.com with SMTP id y77so1426326pyg.28 for <user@domain.com>; Tue, 02 Sep 2015 17:17:31 -0700 (PDT)
+Received: by 10.114.53.18 with SMTP id b18mr6991057waa.141.1220401050775; Tue, 02 Sep 2015 17:17:30 -0700 (PDT)
+Received: by 10.115.89.19 with HTTP; Tue, 2 Sep 2015 17:17:30 -0700 (PDT)
+Message-ID: <4948user@domain.com>
+Date: Tue, 2 Sep 2015 20:17:30 -0400
+From: "Tara McGuinness" <tara@progressiveaccountability.org>
+To: "User" <user@domain.com>
+Subject: [big campaign] Bush to say "McCain is an independent man who thinks
+ for himself" MSNBC reports
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_10360_14939605.1220401050767"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+*Breaking News: Bush to say "McCain is an independent man who thinks for
+himself" MSNBC reports*
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

@@ -1,0 +1,179 @@
+Delivered-To: user@domain.com
+Received: by 10.140.37.194 with SMTP id r60csp180455qgr;
+        Sat, 16 Aug 2015 05:01:23 -0700 (PDT)
+X-Received: by 10.224.129.6 with SMTP id m6mr36996221qas.84.1408190482523;
+        Sat, 16 Aug 2015 05:01:22 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.14])
+        by domain.com with ESMTPS id o90si16047618qgd.76.2014.08.16.05.01.22
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Sat, 16 Aug 2015 05:01:22 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.251.14;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211:28640] by server-14.bemta-12.domain.com id 3A/C1-11901-0184FE35; Sat, 16 Aug 2015 12:01:20 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-15.tower-53.domain.com!1408190478!9696064!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 24766 invoked from network); 16 Aug 2015 12:01:19 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-15.tower-53.domain.com with AES128-SHA encrypted SMTP; 16 Aug 2015 12:01:19 -0000
+Resent-From: "Andre, Project On Government Oversight" <afrancisco@pogo.org>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Sat, 16 Aug 2015 08:01:18 -0400
+Received: from [216.82.254.67:8646] by server-1.bemta-7.domain.com id
+ F0/5B-28137-D084FE35; Sat, 16 Aug 2015 12:01:17 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-8.tower-196.domain.com!1408190450!8031848!1
+X-Originating-IP: [69.48.252.167]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNjkuNDguMjUyLjE2NyA9PiAzMTYwNTM=\n,ML_RADAR_SPEW_LINKS_8,
+  spamassassin: ,async_handler: YXN5bmNfZGVsYXk6IDcwNjYwMzcgKHRpbWVvdXQp\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.1; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 30582 invoked from network); 16 Aug 2015 12:00:50 -0000
+Received: from mta-domain.com (HELO
+ mta-domain.com) (69.48.252.167)  by
+ server-8.tower-196.domain.com with SMTP; 16 Aug 2015 12:00:50 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=selector1; d=mta-domain.com;
+ h=Message-ID:Date:From: "Andre, Project On Government Oversight" <afrancisco@pogo.org>
+ bh=+/HmSxM0rvf5UM1NF7qJ7iNzfEQ=;
+ b=CmSwPxNY/WlOtSB4gLufVBFa86Ul/FZdoZaE2tSKDcxp3KQ3v3ft5pa+dEMY+pTh2cYVjNfs/iQ1
+   VQwUoFECxuO4ExUEHiIeTH6Q9dTOj4y9Sq1l5k3ZXnRd9tp+6ilQQ+SS9V5GCairBHyIhx5LD17s
+   ioK7muLzmcqWibA9JJE
+Received: from 10.0.31.217 (10.0.31.71) by mta-domain.com id
+ htt3v41argkt for <user@domain.com>; Sat, 16 Aug 2015 07:00:30
+ -0500 (envelope-from
+ <user@domain.com>)
+Message-ID: <1694244551.1408190430367.user@domain.com>
+Date: Sat, 16 Aug 2015 07:00:05 -0500
+From: "Andre, Project On Government Oversight" <afrancisco@pogo.org>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: Weekly Reader: "Stay in your F---ing Lane"
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_12019034_625035917.1408190430367"
+Organization: Project On Government Oversight
+X-campaignid: Convio-poolb-pogo-19861
+X-Gateway: c3poolb2
+XData: 1010,4949E9M@4user@domain.com@i-Wwjq-e
+X-ConvioDeliveryGroup: poolb
+
+<<link>>
+
+August 16, 2015 =A0 =A0 =A0=A0 =A0=A0
+
+Watch POGO's Danielle Brian on C-SPAN discussing legislative reforms after 
+Watergate
+<<link>>
+
+Editor's Choice
+
+"Stay in Your F---ing Lane"
+
+A controversial top Army officer, Major General Gary S. Patton, has just be
+en cited for the second time in less than a year for obstructing an officia
+l probe=A0into horrific conditions at a U.S.-funded hospital in Afghanistan
+. POGO has obtained a previously unreleased investigative report on Patton.
+ Read more on domain.com.
+<<link>>
+
+DoD Watchdog Finds Former DARPA Director Violated Ethics Rules
+
+Three years ago, POGO alerted the Pentagon's internal watchdog to a potenti
+ally serious conflict of interest by the director of their research wing. N
+ow, the Department of Defense Inspector General has released a report findi
+ng serious ethics violations by Regina Dugan, the former head of the Defens
+e Advanced Research Projects Agency (DARPA). Read more on POGO's blog.
+<<link>>
+
+Public Interest Groups Call for CIA Director to Resign
+
+This week, POGO and a coalition of public interest groups called for CIA Di
+rector John Brennan's resignation, citing abuses of power that include obst
+ructing and spying on a Senate committee that was looking into the agency's
+ use of torture. Read more on POGO's blog.
+<<link>>
+
+Government Not Open to Journalists
+
+The federal government has unnecessarily restrictive information rules and 
+interview policies, according to a letter sent to President Obama by POGO a
+nd 37 other journalism and open government groups. The letter called on the
+ President "to take a stand to stop the spin and let the sunshine in." Read
+ more on POGO's blog.
+<<link>>
+
+Chaffetz and Cummings Set Tone for Future Bipartisanship
+
+Partisan gridlock has halted much of Congress, but two representatives are 
+making an effort to reach across the aisle to understand each other and fos
+ter bipartisanship in government oversight. Rep. Jason Chaffetz (R-UT) and 
+Rep. Elijah Cummings (D-MD) have made trips to domain.com each other's district 
+ahead of working together on the House Committee on Oversight and Governmen
+t Reform. Read more on POGO's blog.
+<<link>>
+
+Lockheed's Response to NYT Editorial was Misleading
+
+On July 28, the New York Times published an editorial about the problems wi
+th the F-35 Joint Strike Fighter. In response, the F-35's prime contractor,
+ Lockheed Martin, wrote a letter to the editor. Both the original editorial
+ and Lockheed's response missed some key points, but POGO is here to set th
+e record straight. Read more on POGO's blog.
+<<link>>
+
+POGO Publications
+
+POGO recently sent out the latest editions of our newsletter and the Defens
+e Monitor, a periodic newsletter from the Center for Defense Information at
+ POGO. You can download a PDF of the newsletter here
+and of the Defense Monitor here.
+<<link>>
+<<link>>
+
+Tell President Obama and Attorney General Holder You Support Freedom of the
+ Press
+<<link>>
+
+Tweets of the Week
+
+Here's how DoD covers up contractor corruption, in this case DARPA. Even @P
+OGOBlog 's ethics complaint is classified. <<link>>
+/R?i=3D5GKqlleS64OQsf4gNFZBHg
+- Tim Shorrock (@TimothyS) August 14, 2015 
+<<link>>
+
+Feds intervening in #whistleblower domain.com accusing Sikorsky domain.com of defrau
+ding Pentagon of $50m <<link>>
+8olVV16A
+- Neil Gordon (@NEGordon) August 14, 2015 
+<<link>>
+
+Transportation to federalize some IT contractors because cost savings were 
+"eye-popping." <<link>>
+w @FederalTimes
+- Scott Amey (@SAmeyJD) August 14, 2015 
+<<link>>
+
+Wow! Good deal for #taxpayers SSA OIG workers turn limited budget into 20-t
+o-1 return on investment <<link>>
+ZLFl4i8EPqA via @FedNewsRadio
+- Keith Rutter (@KWRutter) August 14, 2015 
+<<link>>
+
+<<link>>
+
+To Unsubscribe Click Here
+<<link>>
+d=3D1022
+

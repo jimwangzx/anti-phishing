@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp3329210lfi;
+        Sun, 17 May 2015 14:09:05 -0700 (PDT)
+X-Received: by 10.202.81.201 with SMTP id f192mr16464479oib.29.1431896944715;
+        Sun, 17 May 2015 14:09:04 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::229])
+        by domain.com with ESMTPS id pn4si5099724oeb.67.2015.05.17.14.09.04
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 17 May 2015 14:09:04 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::229 as permitted sender) client-ip=2607:f8b0:4003:c06::229;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::229 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-oi0-domain.com with SMTP id a37so115350157oic.0
+        for <user@domain.com>; Sun, 17 May 2015 14:09:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Milia Fisher <mfisher@hillaryclinton.com>
+        bh=JpSCIOzZBEThqJeN0J27UM/yehikufkoisTCCLb1aPM=;
+        b=Xi6SzUabLLs0KJEqKPt2dHcbT71B1i0jGly3Ir6c4Ueo9wEb92MAzhOMkUaxOuXE42
+         2YNhzI+Mt++EL36ESysU34qXTP5D0v6JJL6Ze9bjvj7tOqMkKf8OYqk0oIkMFDlc379t
+         117fEmx5T9c87bEAG8fmadBiBBLc2NoWX+bms
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :content-type;
+        bh=JpSCIOzZBEThqJeN0J27UM/yehikufkoisTCCLb1aPM=;
+        b=Eddh6m6feAiJ84c//8eSsR5rdrabpE/YuL9oP/RuRF/xd+3ikkHqYyg0vuT9STTH1u
+         +cRwzlhD+ogbaVwhmZuvPLQpo3iSnOElMd++vCqN/jCfJHRoz8bI0MdCCwR0/bl+48Pg
+         eaVnMHcv9tzchmK/Nq4ykYPl1Y1uiIqPkruHaWQ6Bf+sTT91zAueC4+gLG3SAVVbrpJv
+         TK9XPyTvEL1Bb0t1QYx2BVzFjKWxbVLffxUmT6SCWLYIK8ViWNWZaCAI/yM9hVGQqQA0
+         whkz2qNvyC7/onySXfFNdoVo750gkG49rL3MCsJ897q+YqsP2sbZQv82mRaAo1W3bQXJ
+         skjw
+X-Gm-Message-State: ALoCoQmiK6Ypcqg/db6AquqTOzzGqmmRZvgfyRVCVi192tewhUEbv69gLsn0D5GkEiKz/LPsZzWM
+X-Received: by 10.202.239.198 with SMTP id n189mr12537761oih.57.1431896943986;
+ Sun, 17 May 2015 14:09:03 -0700 (PDT)
+From: Milia Fisher <mfisher@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+Date: Sun, 17 May 2015 17:09:03 -0400
+Message-ID: <-1775610559739664186@unknownmsgid>
+Subject: Call reminder: weekly Sunday call
+To: John user <user@domain.com>
+CC: Eryn Sepp <user@domain.com>
+Content-Type: multipart/alternative; boundary=94eb2c09153cb39f0a05164d7cf8
+
+Dial-In Number: 1-530-881-1000 // Passcode: 742374#
+
+My apologies but I believe this calendar invite was never circulated.
+
+Here's the dial in.
+
+Thanks,
+Milia

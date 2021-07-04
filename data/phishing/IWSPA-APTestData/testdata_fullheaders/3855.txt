@@ -1,0 +1,79 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id 2F2E246867
+	for <user@domain.com>; Mon, 28 Jul 2015 19:20:36 -0400 (EDT)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id 8886A131F7EE
+	for <user@domain.com>; Mon, 28 Jul 2015 19:20:35 -0400 (EDT)
+Received: by domain.com (Postfix)
+	id 4D5AD1B8F8; Tue, 29 Jul 2015 01:20:34 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.90])
+	by domain.com (Postfix) with ESMTP id 2AD361B900
+	for <user@domain.com>; Tue, 29 Jul 2015 01:20:34 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 1A7BA768
+	for <user@domain.com>; Tue, 29 Jul 2015 01:20:34 +0200 (CEST)
+X-Quarantine-ID: 
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 43.198
+X-Spam-Level: *******************************************
+X-Spam-Status: Yes, score=43.198 tagged_above=0 required=5
+	tests=[BAYES_99=3.5, DATE_IN_PAST_96_XX=1.69, EXTRA_MPART_TYPE=1,
+	FH_HELO_EQ_D_D_D_D=0.001, HELO_DYNAMIC_HCC=4.295,
+	HELO_DYNAMIC_IPADDR2=4.395, HTML_IMAGE_ONLY_20=1.546,
+	HTML_MESSAGE=0.001, MIME_QP_LONG_LINE=1.396, PART_CID_STOCK=1.635,
+	PART_CID_STOCK_LESS=0.384, RAZOR2_CF_RANGE_51_100=0.5,
+	RAZOR2_CF_RANGE_E4_51_100=1.5, RAZOR2_CF_RANGE_E8_51_100=1.5,
+	RAZOR2_CHECK=12, RCVD_IN_PBL=0.905, RDNS_NONE=0.1,
+	SPOOF_COM2OTH=2.044, STOCK_IMG_CTYPE=0.907, STOCK_IMG_HDR_FROM=0.001,
+	STOCK_IMG_HTML=0.001, STOCK_IMG_OUTLOOK=0.001, TVD_RCVD_IP=1.931,
+	T_TVD_FW_GRAPHIC_ID1=0.01, URIBL_BLACK=1.955]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id 1HfyHNvxOZZB for <user@domain.com>;
+	Tue, 29 Jul 2015 01:20:24 +0200 (CEST)
+Received: from 190-38-55-202.domain.com (unknown [190.38.55.202])
+	by domain.com (Postfix) with SMTP id 463421B8F8
+	for <user@domain.com>; Tue, 29 Jul 2015 01:20:22 +0200 (CEST)
+Message-ID: <000801c0b7c1$ea5fe0d0$4701user@domain.com>
+From: "TD Banknorth Business" <customer_department-ref_522bi@tdbanknorth.com>
+To: <user@domain.com>
+Subject: ***SPAM*** TDBanknorth Treasury Management - Urgent Security E-mail
+Date: Wed, 28 Mar 2015  16:01:45 -0400
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="multipart/alternative";
+	boundary="----=_NextPart_000_0004_01C0B7A0.634C9EB0"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.2180
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+Content-Length: 5556
+Lines: 96
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 830
+
+   [IMAGE]
+
+   Dear TD Banknorth Treasury Management customer,
+
+   Security and confidentiality are at the heart of the TD Banknorth.
+   Your details (and your money) is protected by a number of
+   technologies, including Secure Sockets Layer (SSL) encryption.
+   We would like to notify you that TD Banknorth Commercial carries out
+   customer details confirmation procedure that is compulsory for all TD
+   Banknorth Commercial customers. This procedure is attributed to a
+   routine banking software update.
+
+   Please login to TD Banknorth Treasury Management using the link below
+   and follow the instructions on the screen.
+
+   <>
+
+   TD Banknorth Commercial Customer Service

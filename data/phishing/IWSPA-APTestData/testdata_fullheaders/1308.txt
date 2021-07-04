@@ -1,0 +1,123 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp4464lfb;
+        Wed, 16 Dec 2015 14:30:58 -0800 (PST)
+X-Received: by 10.67.7.101 with SMTP id db5mr66861070pad.53.1450305058373;
+        Wed, 16 Dec 2015 14:30:58 -0800 (PST)
+Return-Path: <3user@domain.com>
+Received: from mail-pa0-domain.com (mail-pa0-domain.com. [2607:f8b0:400e:c03::24a])
+        by domain.com with ESMTPS id rq5si9703173pab.160.2015.12.16.14.30.58
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 16 Dec 2015 14:30:58 -0800 (PST)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400e:c03::24a as permitted sender) client-ip=2607:f8b0:400e:c03::24a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400e:c03::24a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pa0-domain.com with SMTP id tl7so244600pab.0
+        for <user@domain.com>; Wed, 16 Dec 2015 14:30:58 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: kofferdahl@hillaryclinton.com
+        bh=p4V+tV0ZYMcA7HVG/uuwpK8+SodLHXhZfEKs4USaFek=;
+        b=HEPU+Tc+aXrGH2VXy8THmCGSmbhgeq9shgGhMQpiQgJTyMwvA/ewMIHouJaOl1FBAS
+         p8Etu0+iLCEGD1057wicCscBAhLmpLx35nOMk1eiK+zkesct7K7TfxBqiQeH6WabqP5G
+         iP/m3wqzAWaixFhqNpkuXz5Ealbjh2pmYRT9rKSKQ0SsJ9hM9eMK4pNKv8ULMJE5vbRH
+         GEfw74ZJggR5o1L+JZGI9B+I8CJpyYNRQKFmvwuFAutk8Vor+BzijO8pdPd0XuO4ROwf
+         c8iER/YbIqm9VNJ4N0lhWkb3P3190wrSKR1pBiibQae65Tsdh0iwyI6FMjkah/vCFb8A
+         r89g
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: kofferdahl@hillaryclinton.com
+        bh=p4V+tV0ZYMcA7HVG/uuwpK8+SodLHXhZfEKs4USaFek=;
+        b=Wo9qMS0PZ2xysENVsQHW/gT/9OGw9ZPL4sQ2y6UK2hp2A6w8Z6QQaeO6Fe3xtMLfr2
+         9rJS5FmfYdf0G15+0yfPVFnSSqZ3tTpgetfFls/8oQ/Zp7xJlINmNhffFJVdG0NWqfhO
+         T4OXTNgXjxX8/Sb54pTXaaEIYgCg+QDhrOkS8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: kofferdahl@hillaryclinton.com
+        bh=p4V+tV0ZYMcA7HVG/uuwpK8+SodLHXhZfEKs4USaFek=;
+        b=lJ3IvNnj+3FNwvZZwWMg0aE2gCCirSv8zdsEbrME8AfM00HqKmrJEE4mipMIFpC4fQ
+         QI0x5veE/oSJK/vzRvZ/5zXRGmXKNMZ9wyE3ypznU2GR0T9vgwogWTdMpNRvwkhWX03U
+         Ee4HdC5by0oEgatdyghOBUaEAGMRuFsxYIqtRDCBmt4C4qX1WgYk+RuQQhKw747KDrEo
+         3vTdGO1Nx7MS314Eks2jn0Y6L0PYsBce5ybF3Fmmtq1n7lw4uwPznInrtZj/BXrS0BLn
+         A8dImkmfqWeHJt5APzzZbeKuTlEcR7T0oM62hOjM5lUh+a5GifIE5vVOkl6BWqab55MO
+         i5CQ
+X-Gm-Message-State: ALoCoQkhvvoSRbVRJU7TlL3UNpoV0EKXhbnOwsFm8yWcNlN1qMP4RlUEpmHZClKxLRSjOA8s6o7BJQ4Rq+Mtfm/dpxhJzYC3R83OEHm5SReNukmevQ5sCAo
+MIME-Version: 1.0
+X-Received: by 10.66.158.97 with SMTP id wt1mr40328504pab.27.1450305058004;
+ Wed, 16 Dec 2015 14:30:58 -0800 (PST)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <047user@domain.com>
+Date: Wed, 16 Dec 2015 22:30:58 +0000
+Subject: Canceled Event: Strategic Discussion @ Thu Dec 17, 2015 8am - 8:30am (user@domain.com)
+From: kofferdahl@hillaryclinton.com
+To: user@domain.com
+Content-Type: multipart/mixed; boundary=047d7b6da560cc840005270b75fe
+
+This event has been canceled and removed from your calendar.
+
+Title: Strategic Discussion
+Purpose: Receive consultants' input on the issues of the day.
+
+Agenda:
+1. HRC schedule today
+2. Opponents' activities today
+3. News today
+4. Input on response
+When: Thu Dec 17, 2015 8am - 8:30am Eastern Time
+Where: Iowa (Conference Room 1) / 718-441-3763 (no pin)
+Calendar: user@domain.com
+Who:
+     * Robby Mook - organizer
+     * user@domain.com - creator
+     * Brian Fallon
+     * Christina Reynolds
+     * user@domain.com
+     * John user
+     * user@domain.com
+     * Dan Schwerin
+     * Jennifer Palmieri
+     * Jake Sullivan
+     * David Binder
+     * user@domain.com
+     * Teddy Goff
+     * user@domain.com
+     * user@domain.com
+     * Marlon Marshall
+     * user@domain.com
+     * Kristina Schake
+     * Amanda Renteria
+     * user@domain.com
+     * user@domain.com
+     * user Carrk
+     * user@domain.com
+     * user@domain.com
+     * Oren Shur
+     * user@domain.com
+     * Karen Finney
+     * John user
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * Sawsan Bay - optional
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for cancellations on calendar user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to modify your RSVP  
+response. Learn more at  
+<<link>>#forwarding

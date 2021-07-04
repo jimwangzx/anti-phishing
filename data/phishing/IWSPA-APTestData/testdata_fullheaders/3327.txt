@@ -1,0 +1,325 @@
+Return-Path: <user@domain.com>
+Delivered-To: user@domain.com
+Received: by domain.com (Postfix, from userid 500)
+	id EB1B216F49; Wed,  4 Sep 2015 18:34:13 +0100 (IST)
+Received: from domain.com.tw (domain.com [203.133.92.249])
+	by domain.com (8.11.6/8.11.6) with ESMTP id g6Q82X401334
+	for <user@domain.com>; Fri, 26 Jul 2015 09:02:33 +0100
+Received: from domain.com.tw (domain.com.tw [140.112.8.37])
+	by domain.com.tw (8.12.5/8.12.5) with ESMTP id g6Q81inr043321
+	for <user@domain.com>; Fri, 26 Jul 2015 16:01:45 +0800 (CST)
+	(envelope-from user@domain.com)
+Received: from localhost (localhost [127.0.0.1])
+	by localhost (Postfix) with ESMTP id 846CFDE081
+	for <user@domain.com>; Fri, 26 Jul 2015 15:56:53 +0800 (CST)
+Received: from mail.p2p.wrox.com (mail.p2p.wrox.com [212.250.238.84])
+	by domain.com.tw (Postfix) with SMTP id 5EA21DE083
+	for <user@domain.com>; Fri, 26 Jul 2015 15:56:40 +0800 (CST)
+Date: Wed, 24 Jul 2015 14:42:38 +0100
+Subject: Wrox Press Developer's Journal
+To: "User" <user@domain.com>
+From: <journal@wrox.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----Multipart-Boundary-xx5UNseljF43o---"
+List-Unsubscribe: <mailto:user@domain.com>
+Reply-To: user@domain.com
+Message-Id: <LYRIS-958074-628512-2002.07.26-02.00.26--calculus#user@domain.com>
+Precedence: bulk
+X-Spam-Status: No, hits=-0.2 required=7.0
+	tests=BALANCE_FOR_LONG_20K,BIG_FONT,DATE_IN_PAST_24_48,
+	      FORGED_RCVD_TRAIL,HTML_FONT_COLOR_BLUE,HTML_FONT_COLOR_RED,
+	      HTML_FONT_FACE_ODD,LINES_OF_YELLING,LINES_OF_YELLING_2,
+	      LINES_OF_YELLING_3,MAILTO_LINK,MAILTO_WITH_SUBJ,
+	      NO_REAL_NAME,SPAM_PHRASE_01_02,SUSPECT_LIST_HEADERS
+	version=2.41-cvs
+X-Spam-Level: 
+
+***WROX PRESS DEVELOPER'S JOURNAL***
+Programmer to Programmer(TM)
+<<link>>
+
+7/26/02
+
+IN THIS ISSUE
+
+TITLE OF THE MONTH
+GEMS FROM THE CATALOGUE
+RECENTLY RELEASED
+FUTURE TITLES
+NEWS & FEATURES
+WROX ANNOUNCEMENTS
+OTHER ANNOUNCEMENTS
+INFORMATION FOR SUBSCRIBERS
+
+TITLE OF THE MONTH
+
+ASP.NET Namespace Reference with C#
+<<link>>
+
+Introduction
+System.Web
+System.Web.UI
+System.Web.UI.HtmlControls
+System.Web.UI.WebControls
+System.Web.UI.MobileControls
+System.Web.Caching
+System.Web.Configuration
+System.Web.Security
+System.Web.Services
+System.Web.Services.Description
+System.Web.Services.Protocols
+Data in ASP.NET
+XML in ASP.NET 
+
+Also available:
+ASP.NET 1.0 Namespace Reference with VB.NET
+<<link>>
+
+GEMS FROM THE CATALOGUE
+
+Professional Linux Programming
+<<link>>
+
+Introduction
+Chapter 1: Application Design
+Chapter 2: Concurrent Versions System (CVS)
+Chapter 3: Databases
+Chapter 4: PostgreSQL interfacing
+Chapter 5: MySQL
+Chapter 6: Tackling Bugs
+Chapter 7: LDAP Directory Services
+Chapter 8: GUI programming with GNOME/GTK+
+Chapter 9: GUI Building with Glade and GTK+/GNOME
+Chapter 10: Flex and Bison
+Chapter 11: Testing Tools
+Chapter 12: Secure Programming
+Chapter 13: GUI programming with KDE/Qt
+Chapter 14: Writing the dvdstore GUI using KDE/Qt
+Chapter 15: Python
+Chapter 16: Creating Web interfaces with PHP
+Chapter 17: Embedding and extending Python with C/C++
+Chapter 18: Remote Procedure Calls
+Chapter 19: Multi-media and Linux
+Chapter 20: CORBA.
+Chapter 21: Implementing CORBA with domain.com
+Chapter 22: Diskless systems
+Chapter 23: XML and libxml
+Chapter 24: Beowulf Clusters
+Chapter 25: Documentation
+Chapter 26: Device Drivers
+Chapter 27: Distributing the application
+Chapter 28: Internationalization
+
+RECENTLY RELEASED
+
+ASP.NET Namespace Reference with C#
+<<link>>
+
+ASP.NET Namespace Reference with VB.NET
+<<link>>
+
+Beginning ASP.NET Databases using C#
+<<link>>
+
+Beginning C# Databases
+<<link>>
+
+***domain.com the P2P Discussion list for Beginning C# Databases
+<<link>>
+
+Developing C# Windows Software: A Windows Forms Tutorial
+<<link>>
+
+Professional ASP.NET XML using C#
+<<link>>
+
+Professional Open Source Web Services
+<<link>>
+
+Visual Basic .NET Solutions domain.com: Practical Classes for .NET Developers
+<<link>>
+
+FUTURE TITLES
+
+Beginning VB.NET 2nd Edition
+<<link>>
+
+
+
+Beginning .NET Web Services with VB.NET
+<<link>>
+
+Professional VB.NET Design Patterns
+<<link>>
+
+Fast Track ADO.NET
+<<link>>
+
+ASP.NET Security
+<<link>>
+
+***domain.com the P2P Discussion list for ASP.NET Security
+<<link>>
+
+Fast Track Windows Forms
+<<link>>
+
+Professional ASP.NET Web Services with VB.NET
+<<link>>
+
+VB.NET Code Level Security Handbook
+<<link>>
+
+VB.NET Remoting Handbook
+<<link>>
+
+VB.NET Deployment Handbook
+<<link>>
+
+NEWS & FEATURES 
+
+ASPToday announces their Inaugural Guru week
+
+***Dan Wahlin expounds on XML Support in ASP.NET
+
+ASPToday are proud to announce their first Guru Week. From 29th July to
+2nd August Microsoft MVP, ASPToday author and domain.com/ founder
+Dan Wahlin presents a series of specially commissioned articles, telling
+you all you need to know about XML support in ASP.NET. Drawing on his
+experience of consulting and XML training, Dan's articles will allow
+anyone interested in XML to quickly get up to speed in this important
+subject.
+
+Read more about ASPToday's Guru Weeks:
+<<link>>
+
+***Updating Data Safely with A DataSet, by Alex Homer
+
+OK, so we cant store all three values for a row (the current, original
+and the underlying values) in the tables of our DataSet. Is this actually
+important? What do we actually need to perform the process, and what do
+users actually expect to see? Can we make do with just two values instead
+of three, (and dont you hate books that keep asking questions)?
+
+Read the rest of Alex Homer's article here:
+<<link>>
+
+WROX ANNOUNCEMENTS
+
+Author Interviews
+
+***With Franois Liger, Craig McQueen and Paul Wilton, authors of Visual
+Basic .NET Text Manipulation Handbook.
+
+[AP] What do you think this book brings to the Visual Basic .NET
+developer, and so who do you think needs this book?
+
+[CM] The book provides a quick easy reference for string programming
+tasks. String manipulation is a large part of programming and it is
+difficult to remember it all. Having an accessible reference assists in
+finding existing code to do the job rather than rewriting something that
+is already in the platform. It's valuable for all .NET developers.
+
+[PW] I think all VB.NET developers need this book. String handling and
+regular expressions are not arcane topics for high-flying gurus - they are
+the stuff of everyday programming! The regular expression chapters give a
+great insight into what at first can seem a tricky topic. In addition the
+regular expression reference at the back of the book is worth its weight
+in gold - certainly more readable than all the documentation I had to work
+with when writing the book.
+
+[AP] In two sentences, explain what strings are in .NET. 
+
+Read the interview in full:
+<<link>>
+
+Or read about Visual Basic .NET Text Manipulation Handbook:
+<<link>>
+
+***With Tobin Titus, author of Visual Basic .NET Threading Handbook
+
+In June, Wrox brought out a slim 260-page volume on threading in VB.NET.
+There has been some confusion as to why we would want to bring a book out
+on what seems a straightforward topic. In this article we interview Tobin
+Titus (one of the authors on this title) and ask him various questions on
+the book, as well getting his opinions on various programming-related
+topics.
+
+What is free threading? 
+
+Free threading is the ability to control execution to the utmost within an
+application. While VB developers have been able to control some aspects of
+threading in the past, they haven't been completely free to control those
+threads in the manner that they desire. Free threading allows the
+developer to make decisions on when a thread should start, when it should
+end, and what it should do while executing.
+
+Read the interview in full here:
+<<link>>
+
+Or read about Visual Basic .NET Threading Handbook:
+<<link>>
+
+***C#Today Free Code Download
+
+Due to customer feedback, C#Today have decided to try out something new
+this week - we are making this week's code  download \ support material
+available to all non-subscribers (providing they are a member of the Wrox
+Developer Community, which is free to join).
+
+This week's case study: Generating Design Patterns Using CodeDOM 
+<<link>>
+
+The Code Document Model (CodeDOM), which provides the ability to generate
+source code in a number of the managed languages, is a very powerful .NET
+facility and has attracted much interest. Within Visual Studio .NET, a
+complementary though unrelated feature is provided by the CodeModel
+object, which allows programmatic access to hand-written code. Together
+these two tools provide a platform from which it should be possible to
+develop a VS.NET add-in to streamline the production of common designs in
+code. This case study follows the development of such a tool, which
+attempts to automate the generation of a widespread design pattern in an
+existing C# or VB.NET project.
+
+***Get on the Fast Track to Success
+
+If you are an experienced programmer who needs to get up to speed on core
+.NET Technologies as quickly as possible, the Fast Track series is for
+you.
+
+The Fast Track books complement our Beginning and Professional series by
+providing concise guides to core topics. They deliver the essential facts
+and understanding that are required to start taking advantage of .NET. By
+targeting specific groups of experienced developers, the books are able to
+concentrate on providing valuable information rather than covering basics.
+
+Read the full article here:
+<<link>>
+
+INFORMATION FOR SUBSCRIBERS
+
+You can unsubscribe from this list by visiting
+<<link>>
+
+Enter your e-mail address into the field at the bottom of the page and
+press the unsubscribe button. The page will refresh and you will see a
+short message above the field to tell you if you have successfully
+unsubscribed.
+
+Similarly, to change the address that the Developers Journal is mailed
+to, enter your previous address and click unsubscribe, then enter your
+new address and click subscribe.
+
+Replying to this mail, however, will NOT automatically take your address
+off our lists.
+
+We'd like to hear from you. Please send all comments regarding the
+Developer's Journal to Emma at user@domain.com
+
+Comments about Wrox books should be sent to user@domain.com 
+
+Technical support relating to Wrox books is available at user@domain.com
+
+Wrox - Programmer to Programmer(TM): <<link>>
+

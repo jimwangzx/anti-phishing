@@ -1,0 +1,85 @@
+Delivered-To: user@domain.com
+Received: by 10.64.48.201 with SMTP id o9csp147457ien;
+        Tue, 21 Aug 2015 04:37:59 -0700 (PDT)
+Received: by 10.52.100.33 with SMTP id ev1mr11335918vdb.17.1345549078566;
+        Tue, 21 Aug 2015 04:37:58 -0700 (PDT)
+Return-Path: <0user@domain.com>
+Received: from domain.com (domain.com. [208.94.21.251])
+        by domain.com with ESMTP id de5si729203vdc.152.2012.08.21.04.37.57;
+        Tue, 21 Aug 2015 04:37:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 0user@domain.com designates 208.94.21.251 as permitted sender) client-ip=208.94.21.251;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of 0user@domain.com designates 208.94.21.251 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Return-Path: <0user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=em.sportsauthority.com; s=ED-DKIM; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1345546620;
+	h=From;
+	bh=e+WHBAeXdt3fNVr8wy3yOWuyUBo=;
+	b=cTE+6ghHI4uafjnP80+liKWYTdboytNnvYk8WtHqVZ5i5M04VBkJW3WVF9CX8kut
+	qhGPKxSSZw2+DMg754QaBUAC/Rh3awzHmpdsrbjPD2RpXv/M3/flsax4Ovt6kI5K;
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=ED2008-07; d=em.sportsauthority.com;
+	h=Received:Date:Content-Type:Content-Transfer-Encoding:MIME-Version:From: "The League by Sports Authority" <SportsAuthority.com@em.sportsauthority.com>
+	b=jJQDGtqIq3WlJ+nIQF3GBVRk4DZQ1K9KevE5/2ggkg/+48p97iCEVIEopETJIayD
+	KdwkY8VHwdXNyJmmezGVW5R2QEndL4kF4ZMsjz45QAWYQpCRuAFkoJbgBWp7b7PX
+Received: from [127.0.0.1] ([127.0.0.1:52127])
+	by bm1-01.bo3.e-domain.com (envelope-from <0user@domain.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ECSTREAM
+	id 65/12-25224-C7963305; Tue, 21 Aug 2015 06:57:00 -0400
+Date: Tue, 21 Aug 2015 06:57:00 -0400
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+From: "The League by Sports Authority" <SportsAuthority.com@em.sportsauthority.com>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: =?UTF-8?B?R2V0IDJYIFBvaW50cyBvbiBBbGwgYWRpZGFzIE1lcmNoYW5kaXNlIQ==?
+ =?UTF-8?B?IEluLVN0b3JlLCBOT1cg4oCTIDgvMjYvMTIg?
+Message-Id: <26555-209-0user@domain.com>
+X-Mail-From: "The League by Sports Authority" <SportsAuthority.com@em.sportsauthority.com>
+X-Match: domain.com
+X-RCPT-To: user@domain.com
+X-Mailer: EDMAIL R6.00.02
+
+The Sports Authority
+
+Members Get 2X P
+oints on All adidas Merchandise! NOW =E2=80=93 8/26/12, In-Store Only. 
+View Online Version
+
+<
+span style=3D"font-size:11px; font-weight:bold;">John user
+Member No: 1005611660
+
+
+
+<
+/td>
+
+
+
+
+OFFER DETAILS
+* Members of The League by Sports Authority are eligible for Double Points 
+on the net purchase amount of Adidas items included in this promotion at Sp
+orts Authority store(s) only. Offer valid Now through August 26, 2015 only.
+ Not valid on purchases made at domain.com. The following items ar
+e considered non-qualifying purchases for which Points will not be awarded:
+ purchases made for resale; purchases paid with The League by Sports Author
+ity or S.A. Elite Sports Authority Member
+Program Rewards; licenses; tickets; sales tax; state fees; shipping charges
+; commercial purchases; recycling fees; other excluded charges; and certain
+ items that may be excluded in particular promotions. Program Points will n
+ot be earned on Sports Authority or S.A. Elite Sports Authority Gift Card p
+urchases and are excluded from all Program promotions. Other exclusions may
+ apply. Please domain.com domain.com/theleague or see Store Associate for details.
+
+EMAIL SUBSCRIPTION
+  This email was sent to user@domain.com To update your email prefe
+rences or change your email address, domain.com My Account. To close your account at any time and stop receiving  comm
+unications from The League, domain.com My Account.
+CONTACT US
+  Please do not reply to this email, as we are not able to respond to messa
+ges sent to this address.
+  The League Member  Servies:  1.877.872.6806
+  Privacy Policy | Program Rules
+

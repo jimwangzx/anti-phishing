@@ -1,0 +1,38 @@
+Received: from relay.Organization.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 5 Feb 2015 19:34:36 +0100
+Received: from domain.com (unknown [192.168.100.50])	by
+ relay.Organization.com (Postfix) with ESMTP id 46C69621B3	for
+ <user@domain.com>; Thu,  5 Feb 2015 18:13:55 +0000 (GMT)
+Received: by domain.com (Postfix)	id AAFC02BC0F3; Thu,  5 Feb 2015 
+ 19:34:36 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from ALESSANDROHT (unknown [192.168.1.209])	(using TLSv1 with cipher
+ AES256-SHA (256/256 bits))	(No client certificate requested)	by
+ domain.com (Postfix) with ESMTPSA id 893762BC03E;	Thu,  5 Feb 2015 
+ 19:34:36 +0100 (CET)
+From: Alessandro Scarafile <a.scarafile@Organization.com>
+To: "User" <user@domain.com>
+CC: 'Said Ortiz' <user@domain.com>, 'Daniele Milan'
+	<user@domain.com>, 'Daniel Martinez Moreno'
+	<user@domain.com>, 'Alex Velasco' <user@domain.com>
+References: <2808user@domain.com>	<CAHLJM+user@domain.com>	<CAHLJM+PHMmH0v+06Tsf+user@domain.com>	<00ff01d04170$4fa96af0$eefc40d0$@Organization.com> <CAHLJM+user@domain.com>
+In-Reply-To: <CAHLJM+user@domain.com>
+Subject: R: Fw: Firewall
+Date: Thu, 5 Feb 2015 19:34:54 +0100
+Organization: Hacking Team
+Message-ID: <000001d04172$6f9de3c0$4ed9ab40$@Organization.com>
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQGn2/oZUyAxQe6TTWfmyJzOXxG3OAL8IRvyAkXrP08BxtJvDgHG5+8znOyuIfA
+Content-Language: it
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+X-libpst-forensic-sender: /O=Organization/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=ALESSANDRO SCARAFILED45
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-2135562172_-_-"
+
+Dan,we’re checking remotely with Said the issues. I’m moving now from office to my home (it’s 07:30pm here) and I’ll continue from there. It will take about 1h and half by car for me (it’s snowing here too). I already asked Said to make sure that I can correctly connect to both servers (they have to move on the systems physically in order to check) and have access to switch and firewall configurations. Alessandro Da: user@domain.com [mailto:user@domain.com] Per conto di Dan. MorenoInviato: giovedì 5 febbraio 2015 19:27A: Alessandro ScarafileCc: Said Ortiz; Daniele Milan; Daniel Martinez Moreno; Alex VelascoOggetto: Re: Fw: Firewall Said is having issues with the servers connectivity. Daniele did you made some changes in the DHCP in the FW? Thanks.El jueves, 5 de febrero de 2015, Alessandro Scarafile <user@domain.com> escribió:Hi Said.Can you please make a double check on TeamViewer connection? The password provided is not valid. Thank you,Alessandro  Da: user@domain.com [mailto:user@domain.com] Per conto di Dan. MorenoInviato: giovedì 5 febbraio 2015 19:18A: Said OrtizCc: Daniele Milan; user@domain.com; Daniel Martinez Moreno; Alex VelascoOggetto: Re: Fw: Firewall Ahora si. El jueves, 5 de febrero de 2015, Dan. Moreno <user@domain.com> escribió:Now said is in the email list. We are ready with the TV and Laptop - firewall connect it. Gracias.El jueves, 5 de febrero de 2015, Daniele Milan <user@domain.com> escribió:Thanks Said. Please continue on the other thread so everybody is informed.Daniele -- Daniele Milan Operations Manager Sent from my mobile. From: Alessandro Scarafile <a.scarafile@Organization.com>

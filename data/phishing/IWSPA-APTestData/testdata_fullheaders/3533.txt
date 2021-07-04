@@ -1,0 +1,99 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Fri, 6 Dec 2015 15:05:38 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rB6N5b0n006990	for <user@domain.com>; Fri, 6 Dec 2015 
+ 23:05:37 GMT
+Received: from mail168-db8-domain.com
+ (mail-domain.com [213.199.154.182])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rB6N5aBk016232	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Fri, 6 Dec 2015 23:05:37 GMT
+Received: from mail168-db8 (localhost [127.0.0.1])	by
+ mail168-db8-domain.com (Postfix) with ESMTP id 02A72800124	for
+ <user@domain.com>; Fri,  6 Dec 2015 23:05:36 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.105;KIP:(null);UIP:(null);IPV:NLI;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(z579eh5109h5105hzc545Ic89bhe6eIc857hdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h17326ah1def03h1def87h8275bh1bc7b9h8275dh1def86h1de097h1de096h186068h172c6ch1ce120h1a691ciz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh2327h2336h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail168-db8: domain of domain.com designates 192.64.236.105 as permitted sender) client-ip=192.64.236.105; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail168-db8 (localhost.localdomain [127.0.0.1]) by mail168-db8
+ (MessageSwitch) id 1386371134676801_10673; Fri,  6 Dec 2015 23:05:34 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.8.249])	by
+ mail168-domain.com (Postfix) with ESMTP id 9FF4A2A0048	for
+ <user@domain.com>; Fri,  6 Dec 2015 23:05:34 +0000 (UTC)
+Received: from mx-domain.com (192.64.236.105) by domain.com
+ (10.174.4.27) with Microsoft SMTP Server id 14.16.227.3; Fri, 6 Dec 2015 
+ 23:05:34 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1386371133;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Daily Headlines <donotreply@variety.com>
+	bh=sMpQVtIBaQDJj0omrwv9ntVcn2yejh6LLSgOPLYtHzI=;
+	b=Bh+GTv4vVG/dMtIfMB/tyi0wIYYm6arGlWr8CpaVnPjEl/W+4KaIleVdGvcLDgga
+	dMxpCv2JILakZmNXXLLU0SAV++Q6MijlYoHRaJBdnE5C11KP5/3nTRHvAUBi7nT0ISK
+	b72/E5l0YNzQ8lLSN6h/O7IIB/ESv21YEhZBN2TY
+Date: Fri, 6 Dec 2015 18:05:33 -0500
+From: Variety Daily Headlines <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20131206230533.2091179.20377@domain.com>
+Subject: =?utf-8?B?4oCYU291bmQgb2YgTXVzaWMgTGl2ZeKAmQ==?
+ =?utf-8?B?OiBQcm9kdWNlcnMgQ2FsbCBJdCBhIA==?
+ =?utf-8?B?4oCYUHJvZm91bmRseSBDb21wbGljYXRl?
+ =?utf-8?B?ZCwgQW1hemluZyBFeHBlcmllbmNl4oCZ?
+Precedence: bulk
+X-TM-ID: 20131206230533.2091179.20377
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.105
+X-IADB-IP-REVERSE: 105.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2091179
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+‘Sound of Music Live’: Producers Call It a ‘Profoundly Complicated, Amazing Experience’
+
+Exhausted and exhilirated -- that's how "Sound of Music Live" exec producers Craig Zadan and Neil M...  
+
+
+
+
+Variety         
+
+Daily Headlines         
+
+Friday, December 6, 2015        
+
+
+
+
+<<link>>         
+
+‘Sound of Music Live’: Producers Call It a ‘Profoundly Complicated, Amazing Experience’         
+
+Exhausted and exhilirated -- that's how "Sound of Music Live" exec producers Craig Zadan and Neil Meron feel this morning on the heels of pulling off NBC's live telecast of the beloved tuner. The ...         
+
+<<link>> TV’s Holiday Chaos: Can ‘Sound of Music’ and Other Ambitious Shows Strike A Chord?
+TV is hoping to use “How Do You Solve a Problem like Maria” to solve its ongoing problem with viewership. The networks are serving up specials and program launches so fast and furious this month t...
+
+‘Low Winter Sun’ Cancelled by AMC
+"Low Winter Sun" has been cancelled by AMC after one season, the network confirmed to Variety. Drama, which debuted on the cabler in August, failed to attract a substantial audience, even though A...
+
+‘Scandal’s’ Season Three Episode Order Cut To 18 By ABC
+Gladiators, we have news: the episode order for season three of ABC's "Scandal" has been reduced from 22 to 18, Variety has confirmed. While the Alphabet is mum on the reason behind the episode re...
+
+Interview: Jerry Bruckheimer on His New Paramount Deal
+After taking his time to decide where he would sign his new producing deal, Jerry Bruckheimer says a big part of his Paramount choice boiled down to relationships he had established through the ye...
+
+Fox Tweaks Schedule Plans for ‘Sleepy Hollow,’ ‘Following’
+Fox has made a slight scheduling change in the comings and goings of its Monday dramas, and will now give rookie "Sleepy Hollow" a two-hour finale. The net said Friday that "Sleepy Hollow," which ...
+

@@ -1,0 +1,301 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.110 with SMTP id n101csp60820qga;
+        Sun, 13 Jul 2015 14:40:33 -0700 (PDT)
+X-Received: by 10.140.40.81 with SMTP id w75mr5495984qgw.112.1405287627807;
+        Sun, 13 Jul 2015 14:40:27 -0700 (PDT)
+Return-Path: <ctrfriendsfamily+user@domain.com>
+Received: from mail-qa0-domain.com (mail-qa0-domain.com [209.85.216.72])
+        by domain.com with ESMTPS id c9si9241583qaw.71.2014.07.13.14.40.27
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 13 Jul 2015 14:40:27 -0700 (PDT)
+Received-SPF: none (domain.com: ctrfriendsfamily+user@domain.com does not designate permitted sender hosts) client-ip=209.85.216.48;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: ctrfriendsfamily+user@domain.com does not designate permitted sender hosts) smtp.mail=ctrfriendsfamily+user@domain.com
+Received: by mail-qa0-domain.com with SMTP id cm18sf7921831qab.3
+        for <user@domain.com>; Sun, 13 Jul 2015 14:40:27 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:sender:date:message-id:subject:from
+         :to:x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive
+         :list-subscribe:list-unsubscribe:content-type;
+        bh=34UNoqI3vsgZyUvY5UThFVWTlhynEE3WXAsLrohHQOA=;
+        b=fr9q4ublKEPLz3BJwUL40q/XZosGKelWiAXtBEbwjVPmPh8k4PJGPjjB5gG4531gCF
+         aIpU78eqzMOZzlH1OHwA4DhfwmifOOv6q0Bs1A2+F94oPiMORf0mBefQqo5jyiqNngfn
+         5K5tR6JP0dcer8kySZjwsmS6NWD3Ahc4iiyU/LaJAOvEghDdeEPToG2XAk9vLSvl+Zqy
+         22SzSvkcgPiaYG4TojXcSUT8lJy3VK3a0GUcrzz74ILk1OTLRrlsSowT/l3pkyEvJm2r
+         GrTIISALw37J7FyHlSkM9RKjNO2LRQyErT4GiTv1JEETkk9YyzPyoTjOUBcXa9KAZAB0
+         uZxQ
+X-Gm-Message-State: ALoCoQlmh+7ajX+pEvcgBxWwc4KTPCsium/vOeIYcOOSE7kku8iDyQiFz9iTe+sCEFkcKQ4GWPd3
+X-Received: by 10.52.231.97 with SMTP id tf1mr5222405vdc.3.1405287627685;
+        Sun, 13 Jul 2015 14:40:27 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.140.82.35 with SMTP id g32ls869519qgd.53.gmail; Sun, 13 Jul
+ 2015 14:40:27 -0700 (PDT)
+X-Received: by 10.224.97.65 with SMTP id k1mr16512068qan.28.1405287627384;
+        Sun, 13 Jul 2015 14:40:27 -0700 (PDT)
+Received: from mail-qa0-domain.com (mail-qa0-domain.com [209.85.216.48])
+        by domain.com with ESMTPS id h39si12928855qgd.93.2014.07.13.14.40.27
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 13 Jul 2015 14:40:27 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=209.85.216.48;
+Received: by mail-qa0-domain.com with SMTP id m5so538741qaj.35
+        for <user@domain.com>; Sun, 13 Jul 2015 14:40:27 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.224.87.195 with SMTP id x3mr18562383qal.1.1405287627081;
+ Sun, 13 Jul 2015 14:40:27 -0700 (PDT)
+Sender: user@domain.com
+X-Google-Sender-Delegation: user@domain.com
+Received: by 10.140.98.102 with HTTP; Sun, 13 Jul 2015 14:40:26 -0700 (PDT)
+Date: Sun, 13 Jul 2015 17:40:26 -0400
+Message-ID: <user@domain.com>
+Subject: Media Matters For America Completely Debunks Maureen Dowd
+From: Burns Strider <burns.strider@americanbridge.org>
+To: CTRFriendsFamily <user@domain.com>
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=neutral
+ (domain.com: user@domain.com does not designate permitted
+ sender hosts) user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact CTRFriendsFamily+user@domain.com
+List-ID: <CTRFriendsFamily.americanbridge.org>
+X-Google-Group-Id: 1010994788769
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:CTRFriendsFamily+user@domain.com>
+List-Archive: <<<link>>>
+List-Subscribe: <<<link>>>,
+ <mailto:CTRFriendsFamily+user@domain.com>
+List-Unsubscribe: <mailto:googlegroups-manage+1010994788769+user@domain.com>,
+ <<<link>>>
+Content-Type: multipart/related; boundary=001a11c3dbbad2043404fe1a059e
+
+[image: Inline image 1]
+Today, Media Matters For America *completely debunked* Maureen Dowd's claim
+that "there's something unseemly" about Chelsea Clinton's Charity
+Speeches. MMFA
+highlighted a handful of things that Maureen Dowd deceitfully left out of
+her *New York Times *column, including the fact that "100 percent of the
+fees" Chelsea receives are "remitted directly to the foundation." See Media
+Matters For America's response below, and Dowd's unscrupulous column below
+that.
+
+*Media Matters For America: NYT's Maureen Dowd: "There's Something
+Unseemly" About Chelsea Clinton Charity Speeches
+<<<link>>
+-unseemly-abo/200086>*
+
+By Timothy Johnson
+July 13th, 2015 
+
+*New York Times* columnist Maureen Dowd posited that there is "something
+unseemly" about recent reports Chelsea Clinton gives speeches that raise up
+to $75,000 per appearance for the Bill, Hillary & Chelsea Clinton
+Foundation.
+
+A July 9 article
+<<<link>>
+nts-lead-as-a-paid-speaker.html?ref=3Dus&_r=3D0>
+ in* The Times* discussed Clinton's foray into public speaking appearances
+on behalf of the Clinton Foundation.*The Times *quoted a Clinton
+spokesperson who explained that "100 percent of the fees" Clinton receives
+are "remitted directly to the foundation," and that "the majority of
+Chelsea's speeches are unpaid." According to *The Times*, "Ms. Clinton's
+speeches focus on causes like eradicating waterborne diseases." (The
+Clinton Foundation's website says its mission
+<<<link>>
+llary-chelsea-clinton-foundation>
+is
+"to improve global health, strengthen economies, promote health and
+wellness, and protect the environment.")
+
+In a July 13 column
+<<<link>>
+.html?_r=3D0>,
+Dowd took issue with Clinton's speaking arrangements, writing that the
+former first daughter is "acting out in a sense now, joining her parents in
+cashing in to help feed the rapacious, gaping maw of Clinton Inc." Dowd
+also suggested that Clinton's speaking fee means she has "open[ed] herself
+up to criticism that she is gobbling whopping paychecks not commensurate
+with her skills, experience or role in life."
+
+"There's something unseemly about it," Dowd continued, "making one wonder:
+Why on earth is she worth that much money? Why, given her dabbling in
+management consulting, hedge-funding and coattail-riding, is an hour of her
+time valued at an amount that most Americans her age don't make in a year?"
+
+Dowd also criticized a series of speeches
+<<<link>>
+inton-says-she-donated-all-money-from-college-speeches/>
+Hillary
+Clinton is delivering at colleges and universities, writing, "Hillary
+doesn't see the disconnect between expressing grave concern about mounting
+student loan debt while scarfing six-figure sums from at least eight
+colleges, and counting. She says now that she's passing the university
+money to the foundation but, never Ms. Transparency, has refused to provide
+documentation of that."
+
+Even after paying Clinton's fee, which she has noted goes to the Clinton
+Foundation
+<<<link>>
+eaking-feeds-went-to-the-clinton-foundation/2014/07/04/d4234918-039f-11e4-b
+8ff-89afd3fad6bd_story.html>,
+the University of Nevada, Las Vegas Foundation expects to domain.com
+<<<link>>
+-out>
+from
+an upcoming Hillary Clinton speech. Dowd failed to mention that point, or
+the fact that the evidence-free claim that Clinton has not been truthful
+about the donation of the fees comes from America Rising PAC
+<<<link>>
+1.html>,
+a Republican-aligned
+<<<link>>
+as-news-site-183542.html>
+opposition
+research domain.com.
+
+Dowd's criticisms of Chelsea and Hillary Clinton over speaking fees that
+are donated to a charitable foundation are largely in line with Dowd's take
+on Hillary Clinton over the years.
+
+According to a June 18 *Media Matters
+<<<link>>
+1-year-long-c/199752>*
+ report
+<<<link>>
+1-year-long-c/199752>,
+72 percent of 195 columns authored by Dowd about Hillary Clinton since
+November 1993 had a negative bent. Among the repetitious tropes used by
+Dowd, she often accused Clinton of being an enemy to or betraying feminism
+(35 columns, 18 percent of those studied), power-hungry (51 columns, 26
+percent), unlikeable (9 columns, 5 percent), or phony (34 columns, 17
+percent).
+
+*NYT: Maureen Dowd: Isn=E2=80=99t It Rich?
+<<<link>>
+.html>*
+
+By Maureen Dowd
+
+July 12th, 2015 
+
+WASHINGTON =E2=80=94 CHELSEA CLINTON never acted out during the eight years
+ she
+came of age as America=E2=80=99s first daughter.
+
+No ditching of her Secret Service detail. No fake IDs for underage
+tippling. No drug scandal. No court appearance in tank top and toe ring.
+Not even any dirty dancing.
+
+Despite a tough role as the go-between in the highly public and
+embarrassing marital contretemps of her parents, Chelsea stayed classy.
+
+So it=E2=80=99s strange to see her acting out in a sense now, joining her p
+arents
+in cashing in to help feed the rapacious, gaping maw of Clinton Inc.
+
+With her 1 percenter mother under fire for disingenuously calling herself
+=E2=80=9Cdead broke=E2=80=9D when she left the White House, why would Chels
+ea want to open
+herself up to criticism that she is gobbling whopping paychecks not
+commensurate with her skills, experience or role in life?
+
+As the 34-year-old tries to wean some of the cronies from the Clinton
+Foundation =E2=80=94 which is, like the Clintons themselves, well-intended,
+wasteful and disorganized =E2=80=94 Chelsea is making speeches that go into
+foundation coffers. She is commanding, as The Times=E2=80=99s Amy Chozick r
+eported,
+up to $75,000 per appearance.
+
+Chozick wrote: =E2=80=9CMs. Clinton=E2=80=99s speeches focus on causes like
+ eradicating
+waterborne diseases. (=E2=80=98I=E2=80=99m obsessed with diarrhea=E2=80=99 
+is a favorite line.)=E2=80=9D
+
+There=E2=80=99s something unseemly about it, making one wonder: Why on eart
+h is she
+worth that much money? Why, given her dabbling in management consulting,
+hedge-funding and coattail-riding, is an hour of her time valued at an
+amount that most Americans her age don=E2=80=99t make in a year? (Median ho
+usehold
+income in the United States is $53,046.)
+
+If she really wants to be altruistic, let her contribute the money to some
+independent charity not designed to burnish the Clinton name as her mother
+ramps up to return to the White House and as she herself drops a
+handkerchief about getting into politics.
+
+Or let her speak for free. After all, she is in effect going to candidate
+school. No need to get paid for it, too.
+
+There was disgust over Politico=E2=80=99s revelation that before she switch
+ed to a
+month-to-month contract, Chelsea was getting wildly overpaid at $600,000
+annually =E2=80=94 or over $25,000 per minute on air =E2=80=94 for a nepoti
+stic job as a
+soft-focus correspondent for NBC News.
+
+Chelsea is still learning the answer to a question she asked when she
+interviewed the Geico gecko: =E2=80=9CIs there a downside to all this fame?
+=E2=80=9D
+
+The Clintons keep acting as though all they care about is selfless public
+service. So why does it keep coming back to gross money grabs? It=E2=80=99s
+ gone
+from two-for-the-price-of-one to three-for-the-price-of-20.
+
+Hillary=E2=80=99s book =E2=80=94 which feels like something she got at Ikea
+ and had someone
+put together =E2=80=94 is drooping because it was more about the estimated 
+$13
+million advance and the campaign ramp-up than the sort of intriguing
+self-examination and political excavations found in the memoirs of Timothy
+Geithner and Bob Gates. If she had had something to say, the book might
+have been shorter.
+
+Hillary doesn=E2=80=99t see the disconnect between expressing grave concern
+ about
+mounting student loan debt while scarfing six-figure sums from at least
+eight colleges, and counting. She says now that she=E2=80=99s passing the
+university money to the foundation but, never Ms. Transparency, has refused
+to provide documentation of that. (She=E2=80=99s still pocketing other huge
+ fees
+for speeches like her April talk in Las Vegas to the Institute of Scrap
+Recycling Industries.)
+
+Chozick estimated that the lucrative family speechmaking business has
+generated more than $100 million for the former president and first lady,
+whose fees range from $200,000 to $700,000 per appearance. Bill alone
+earned $17 million last year doing what he likes to do best =E2=80=94 talki
+ng.
+
+=E2=80=9CThe issue is that the philanthropic beneficiary of the speeches is
+ a
+foundation, structured as a public foundation but clearly synonymous with
+and controlled by the Clinton family,=E2=80=9D Rick Cohen writes in The Nat
+ional
+Philanthropy Quarterly, adding: =E2=80=9CDonors and institutions that are p
+aying
+them and their daughter huge sums for their speeches may very well be
+buying recognition and face time with powerful political leaders who they
+hope will be able to deliver political favors in the future.
+
+=E2=80=9CIt is troubling when corporate donors give to political charities 
+with a
+more or less obvious expectation that softer and gentler treatment will
+ensue in the future. It is also troubling when some of the payers are
+public or domain.com entities themselves such as colleges and universities,
+converting taxpayer funds and tax-exempt donations into signals that could
+end up in positive treatment when these institutions are themselves seeking
+access and favors, even if it is only a good word put in by one of the
+Clintons to a federal agency providing funding or to a regulator who might
+be taking a critical look at university tuitions and endowment payouts.=E2
+=80=9D
+
+The Clintons were fiercely protective of Chelsea when she was a teenager,
+insisting on respect from the media and getting it. They need to protect
+their daughter again, this time from their wanton acquisitiveness.

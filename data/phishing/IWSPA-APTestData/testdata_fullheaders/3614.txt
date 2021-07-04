@@ -1,0 +1,47 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.71 with SMTP id o68csp878490lfi;
+        Tue, 17 Mar 2015 16:46:06 -0700 (PDT)
+X-Received: by 10.140.96.87 with SMTP id j81mr82917787qge.92.1426635965730;
+        Tue, 17 Mar 2015 16:46:05 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [198.137.241.20])
+        by domain.com with ESMTPS id 3si14963112qhw.9.2015.03.17.16.46.04
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 17 Mar 2015 16:46:05 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 198.137.241.20 as permitted sender) client-ip=198.137.241.20;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 198.137.241.20 as permitted sender) user@domain.com;
+       dkim=pass (test mode) user@domain.com
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=domain.com; user@domain.com; q=dns/txt; s=oa; t=1426635965;
+  x=1458171965;
+  h=From: DMCOS <DMCOS@who.eop.gov>
+  bh=eFjAlKiK3iC/DXQB1D7vAq/va3TxUZUJ6LFv666JiN4=;
+  b=ZKUhyRfoDW+clXnU0yB4lh/s0tl3PSEevi7ssf2jI9J/gVy8Xv8kCQdL
+   xeJ6rj1IwyQuRQTuxYVY0qn7hWXbWQaYjsygGq/9/u3vDYh03eCCN5yyV
+   rdfCLJKBesI3VVIvtNkzjok1bxztxpjQGT/CalD9Ej+eN7Q0PBkFDjGGX
+   w=;
+mid: 72672693
+X-ExtLoop1: 1
+From: DMCOS <DMCOS@who.eop.gov>
+To: John user <user@domain.com>
+Subject: hey, man 
+Thread-Topic: hey, man 
+Thread-Index: AdBhDG9VixvpTXt/QeKkcplv3EfCPg
+Date: Tue, 17 Mar 2015 23:46:02 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+x-originating-ip: [165.119.219.10]
+Content-Type: multipart/alternative;
+	boundary="_000_BC77F8D558E1CF4FA03B9388CED46297070FA4FEsmeopm06_"
+MIME-Version: 1.0
+Return-Path: user@domain.com
+
+Would love to grab a minute with you in the next day or so.  In person is b
+est and I will come to you, but phone not terrible.
+
+Hope all is well.
+
+DM

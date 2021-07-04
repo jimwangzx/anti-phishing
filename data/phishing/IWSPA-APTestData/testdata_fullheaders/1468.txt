@@ -1,0 +1,513 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 2 Jul 2015 12:57:57 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 6CBCF60062	for
+ <user@domain.com>; Thu,  2 Jul 2015 11:32:59 +0100 (BST)
+Received: by domain.com (Postfix)	id EBC0D4440B92; Thu,  2 Jul 2015 
+ 12:56:22 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id EACF04440B13	for
+ <user@domain.com>; Thu,  2 Jul 2015 12:56:22 +0200 (CEST)
+X-ASG-Debug-ID: 1435834669-066a7550a004150001-Jza7Ic
+Received: from domain.com
+ (domain.com [93.94.33.18]) by domain.com
+ with ESMTP id SJlRk3ZbrkLgOVHd for <user@domain.com>; Thu, 02 Jul 2015 
+ 12:57:50 +0200 (CEST)
+X-Barracuda-Envelope-From: Volagratis <news@bravofly.bravoflygroup.com>
+X-Barracuda-Apparent-Source-IP: 93.94.33.18
+DKIM-Signature: v=1; a=rsa-sha256; d=bravofly.bravoflygroup.com; s=clab1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1435834668;
+	h=From: Volagratis <news@bravofly.bravoflygroup.com>
+	bh=klzYmRvBfwA18qqK4VFNyRnz+OK2nRn62oZQdWeNNQg=;
+	b=JeTt76NJgYKLcPQh8r2XT75hQwURWifp26XXmbymEhaSAUGbh8dejEHmY3alIf/Z
+	byNgPExWf1D6x+O9aqDR3k3zmzHFkdSQe2RgxyNzkdm4yWcP2mkIBSgbgY8w9bWv
+	drMZC6qrTsziyXFs55iGfrbtJbdtmlGYAqhOhe3VFdg=;
+X-CSA-Complaints: user@domain.com
+Received: from [172.16.6.114] ([172.16.6.114:22305])	by domain.com
+ (envelope-from <1020607432.13694.2003634@domain.com>)	(ecelerity
+ 3.5.9.42398 r(Platform:3.5.9.0)) with ECSTREAM	id 93/8E-31369-C2915955; Thu,
+ 02 Jul 2015 12:57:48 +0200
+Message-ID: <93.8user@domain.com>
+From: Volagratis <news@bravofly.bravoflygroup.com>
+Reply-To: <user@domain.com>
+Subject: =?UTF-8?Q?=E2=98=BC_CANARIE_=E2=98=BC_Parti_a_Luglio_con_le_Miglior?
+ =?UTF-8?Q?i_Offerte?
+To: <user@domain.com>
+X-ASG-Orig-Subj: =?UTF-8?Q?=E2=98=BC_CANARIE_=E2=98=BC_Parti_a_Luglio_con_le_Miglior?
+ =?UTF-8?Q?i_Offerte?
+Date: Thu, 2 Jul 2015 12:57:48 +0200
+X-campaignid: clab.2003634.13694
+List-Unsubscribe: <mailto:1020607432.13694.2003634.user@domain.com>, <<<link>>>
+X-Mailer: ContactLab
+X-Binding: 2003634.8
+X-Clab-Family: 2003633
+List-Id: <2003634.8.8domain.com>
+X-Abuse: Please report abuse for this campaign here: <<link>>
+X-Barracuda-Connect: domain.com[93.94.33.18]
+X-Barracuda-Start-Time: 1435834670
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=HTML_MESSAGE, MIME_HTML_ONLY
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.20387
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: 1020607432.13694.2003634@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-325300226_-_-"
+
+☼ CANARIE ☼ Parti a Luglio con le Migliori Offerte
+
+/* outlook */
+
+#outlook a {
+	padding: 0
+}
+.ReadMsgBody {
+	width: 100%;
+	background-color: #ffffff
+}
+.ExternalClass {
+	width: 100%;
+	background-color: #ffffff
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+	line-height: 100%
+}
+.yshortcuts a {
+	border-bottom: none!important
+}
+.im-fix {
+	display: block
+}
+.off {
+	display: none;
+	visibility: hidden
+}
+body {
+	-domain.com-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%!important;
+	-domain.com-font-smoothing: antialiased
+}
+body[yahoo] .footer-buttons a:hover {
+	color: #ffffff!important;
+	border-color: #ffffff!important
+}
+table {
+	border-spacing: 0;
+	mso-table-lspace: 0;
+	mso-table-rspace: 0
+}
+table td {
+	border-collapse: collapse;
+	mso-table-lspace: 0;
+	mso-table-rspace: 0
+}
+img {
+	height: auto!important;
+	display: block!important;
+	line-height: 100%;
+	outline: none;
+	text-decoration: none;
+	-ms-interpolation-mode: bicubic
+}
+a img {
+	border: 0;
+	text-decoration: none
+}
+blockquote .hideforwarded, .WordSection1 .hideforwarded {
+	width: 0;
+	max-height: 0;
+	overflow: hidden;
+	float: left;
+	display: none
+}
+blockquote .showforwarded, .WordSection1 .showforwarded {
+	display: block!important;
+	width: auto!important;
+	max-height: domain.com!important;
+	overflow: visible!important;
+	float: none!important
+}
+@media only screen and (max-width: 479px) {
+body {
+	width: auto!important;
+	font-size: 10px!important
+}
+table[class="remove"] {
+	display: none!important
+}
+tr[class="remove"] {
+	display: none!important
+}
+td[class="remove"] {
+	display: none!important
+}
+.off {
+	display: block!important
+}
+td[class="block"] {
+	display: block
+}
+img[class="banner"] {
+	width: 100%!important;
+	height: auto!important;
+	max-width: 100%!important;
+	min-width: 479px!important
+}
+table[class="container"] {
+	width: 100%!important;
+	padding-left: 10px!important;
+	padding-right: 10px!important
+}
+table[class="container2"] {
+	width: 100%!important;
+	float: none!important
+}
+img[class="image-100-percent"] {
+	width: 100%!important;
+	height: auto!important;
+	max-width: 100%!important;
+	min-width: 124px!important
+}
+img[class="small-image-100-percent"] {
+	width: 100%!important;
+	height: auto!important;
+	max-width: 100%!important;
+	min-width: 124px!important
+}
+table[class="full-width"] {
+	width: 100%!important
+}
+table[class="full-width-text"] {
+	width: 100%!important;
+	background-color: #b91925;
+	padding-left: 20px!important;
+	padding-right: 20px!important
+}
+table[class="full-width-text2"] {
+	width: 100%!important;
+	background-color: #f3f3f3;
+	padding-left: 20px!important;
+	padding-right: 20px!important
+}
+table[class="col-2"] {
+	width: 100%!important;
+	margin-right: 0!important
+}
+table[class="col-2-last"] {
+	width: 100%!important
+}
+table[id="col-underline"] {
+	float: none!important;
+	width: 100%!important;
+	border-bottom: 1px solid #eee
+}
+td[id="col-underline"] {
+	float: none!important;
+	width: 100%!important;
+	border-bottom: 1px solid #eee
+}
+td[class="col-underline"] {
+	float: none!important;
+	width: 100%!important;
+	border-bottom: 1px solid #eee
+}
+td[class="text-center"] {
+	text-align: center!important
+}
+div[class="text-center"] {
+	text-align: center!important
+}
+table[id="clear-padding"] {
+	padding: 0!important
+}
+td[id="clear-padding"] {
+	padding: 0!important
+}
+td[class="clear-padding"] {
+	padding: 0!important
+}
+table[class="remove-479"] {
+	display: none!important
+}
+td[class="remove-479"] {
+	display: none!important
+}
+table[class="clear-align"] {
+	float: none!important
+}
+table[class="width-small"] {
+	width: 100%!important
+}
+table[class="fix-box"] {
+	padding-left: 0!important;
+	padding-right: 0!important
+}
+td[class="fix-box"] {
+	padding-left: 0!important;
+	padding-right: 0!important
+}
+td[class="copy"] {
+	font-family: Georgia, Arial, Helvetica, sans-serif!important;
+	font-size: 28px!important
+}
+td[class="font-resize"] {
+	font-size: 20px!important
+}
+td[class="font-resize-sub"] {
+	font-size: 15px!important
+}
+td[class="font-resize-tl"] {
+	font-size: 10px!important
+}
+a[class="font-resize-tlf"] {
+	font-size: 18px!important
+}
+td[class="decrease-Height"] {
+	height: 5px!important
+}
+td[class="increase-Height"] {
+	height: 10px!important
+}
+td[class="increase-Height-20"] {
+	height: 20px!important
+}
+td[class="telf"] {
+	font-size: 15px!important;
+	padding-top: 8px;
+	text-align: center!important;
+	width: 170px!important
+}
+td[class="bannerinohidden"] {
+	overflow: visible !important;
+	width: auto !important;
+	max-height: domain.com !important;
+	float: none !important;
+	display: inline !important;
+}
+a[class="bannerinohidden"] {
+	overflow: visible !important;
+	width: auto !important;
+	max-height: domain.com !important;
+	float: none !important;
+	display: inline !important;
+}
+img[class="bannerinohidden"] {
+	overflow: visible !important;
+	width: auto !important;
+	max-height: domain.com !important;
+	float: none !important;
+	display: inline !important;
+}
+}
+@media only screen and (max-width: 320px) {
+table[class="width-small"] {
+	width: 125px!important
+}
+img[class="image-100-percent"] {
+	width: 100%!important;
+	height: auto!important;
+	max-width: 100%!important;
+	min-width: 124px!important
+}
+img[class="banner"] {
+	width: 100%!important;
+	height: auto!important;
+	max-width: 100%!important;
+	min-width: 300px!important
+}
+table[class="remove-mob"] {
+	display: none!important
+}
+tr[class="remove-mob"] {
+	display: none!important
+}
+td[class="remove-mob"] {
+	display: none!important
+}
+td[class="telf"] {
+	font-size: 15px!important;
+	padding-top: 8px;
+	text-align: center!important;
+	width: 170px!important
+}
+}
+/* fix to gmail app */
+@media screen and (min-width: 601px) {
+.container {
+	width: 600px!important;
+}
+}
+
+
+
+
+                                      Vedi online
+
+
+
+                                              Hai Bisogno d'aiuto?
+
+
+
+                                        Voli
+
+
+
+                                        Hotel
+
+
+
+                                        Vacanze
+
+
+
+                                        Crociere
+
+
+
+                                         IT
+
+
+
+                                      Canarie
+
+
+
+                                      Le isole dove trovare mare da sogno, relax ma anche tanto divertimento.
+                                        Volo + 7 notti
+
+
+
+                                      da 330€*
+
+
+
+                                                Trova la tua Vacanza
+
+
+
+                                                  Per chi ama divertirsi
+
+
+
+                                        Tenerife
+                                          Volo + 7 notti
+
+
+
+                                        da
+                                        395€*
+
+
+
+                                        Fuerteventura
+                                          Volo + 7 notti
+
+
+
+                                        da
+                                        439€*
+
+
+
+                                                Cerca altre destinazioni
+
+
+
+                                                  Per chi preferisce il relax
+
+
+
+                                        Gran Canaria
+                                          Volo + 7 notti
+
+
+
+                                        da
+                                        330€*
+
+
+
+                                        Lanzarote
+                                          Volo + 7 notti
+
+
+
+                                        da
+                                        365€*
+
+
+
+                                                Cerca altre destinazioni
+
+
+
+                      * La prenotazione del volo + hotel prevede spese amministrative che variano da 0 a 19,10 euro per persona a tratta.
+
+
+
+                                ▼  Link utili
+
+
+
+                                    Hai Bisogno d'aiuto? Chiama l' 89 20 40
+
+
+
+                                     Lun-Dom 24h/24 | € 1,8 IVA inc./min
+
+
+
+                                        Tweet
+
+
+
+                                        Like
+
+
+
+                                        Inoltra
+
+
+
+                                                Scarica la nostra app
+
+
+
+                                       Ricevi questa email perché ti sei iscritto alla mailing list di domain.com group.
+                                        Aggiungi l'indirizzo user@domain.com ai tuoi contatti per ricevere correttamente il nostro prossimo messaggio.
+
+
+
+                                       Se desideri non ricevere più email con le nostre offerte clicca qui.
+                                        Questa è un'email automatica, non rispondere quindi a questo indirizzo, per contattarci clicca qui oppure chiama il numero 89 20 40 (Lun - Dom, 24h/24, 1,80 €/min iva incl. con scatto alla  risposta di € 0,36). 
+
+
+
+                                      Offerte limitate soggette a disponibilità. I prezzi sono aggiornati alla data odierna e possono subire variazioni. 
+                                        Prezzi vacanze volo + hotel per persona, per partenze solo da alcuni aeroporti in date determinate.
+                                        Tasse aeroportuali incluse, spese amministrative escluse.
+
+
+
+                                       Bravonext SA, Vicolo de' Calvi 2 - 6830 Chiasso - Svizzera.
+                                        N° d'ordine: CHE-115.704.228 e P.IVA CHE-115.704.228IVA.
+                                        Tutti i diritti riservati © 2015 - 2015. Servizi offerti dalle società di domain.com group o dai Partner di queste. 
+
+

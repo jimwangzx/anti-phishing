@@ -1,0 +1,86 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Fri, 25 Apr 2015 11:05:24 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s3PI5NNc004809	for <user@domain.com>; Fri, 25 Apr 2015 
+ 18:05:23 GMT
+Received: from mail4-am1-domain.com (mail-domain.com
+ [213.199.154.202])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s3PI6tvL012876
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Fri, 25 Apr 2015 18:06:55 GMT
+Received: from mail4-am1 (localhost [127.0.0.1])	by mail4-am1-domain.com
+ (Postfix) with ESMTP id 8CA914804FF	for <user@domain.com>; Fri, 25
+ Apr 2015 18:04:14 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:50.31.49.83;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 9
+X-BigFish: vps9(zzc89bh1454Ie0eahc857hzz1f42h2148h1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh19f402h1def86h18c673h1de097h186068h1ce121iz2fh5eh5fh839h8aah8e2h8e3hd24h1288h12a5h12bdh137ah13eah1441h1504h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h2336h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h740ibe9i9a9j783m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail4-am1: domain of domain.com designates 50.31.49.83 as permitted sender) client-ip=50.31.49.83; envelope-from=bounces+274327-8user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail4-am1 (localhost.localdomain [127.0.0.1]) by mail4-am1
+ (MessageSwitch) id 1398449052459836_18863; Fri, 25 Apr 2015 18:04:12 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.242])	by
+ mail4-domain.com (Postfix) with ESMTP id 6D6DFE009B	for
+ <user@domain.com>; Fri, 25 Apr 2015 18:04:12 +0000 (UTC)
+Received: from domain.com (50.31.49.83) by domain.com
+ (10.3.207.154) with Microsoft SMTP Server id 14.16.227.3; Fri, 25 Apr 2015 
+ 18:04:12 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=theenergyproject.com; 
+	h=subject:From: user Schwartz <user@theenergyproject.com>
+	bh=xzXg4FPQ+vZ/4ZytlihdTuXAXe8=; b=Vlq4ByPp/7/0ctvdYsRCkfzC3sKne
+	PlCkU70BcEFClYPod0aKFenQ6CK+5/PgiRuq+Jh5Z1g3Vx6Gz7U0j8w9I0UIDWwc
+	5RPTFfzzCYNTf7zJdUDZNfzocoVSEY+E3x3PHsRBxXqiKP+InprRd5V1WkErCvfa
+	w+yaHDDtgqZeYM
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=theenergyproject.com; 
+	h=subject:From: user Schwartz <user@theenergyproject.com>
+	=pm4OxI0X5GPVYTaxBRXeesJhR2SuG3DtBhbVoBRcw/1dhj2eb1NrQldceFGgDnT
+	A76FSEX+tNMlsGUSDgT7mORBLGnhaR8/Nsniyc3LrVPW1SabjTsenMdjlKZ9B9TD
+	B3MOe+Z7Dn5ieYksz6NKmeZDSFOwBeeNIoTJ2ZCBz3ek
+Received: by filter-182.domain.com with SMTP id
+ filter-182.24348.535AA3DE2        Fri, 25 Apr 2015 18:05:18 +0000 (UTC)
+Received: from [127.0.0.1] (50.97.84.233-domain.com
+ [50.97.84.233])	by ismtpd-006 (SG) with ESMTP id 1459a101ba6.7464.4ed11a	for
+ <user@domain.com>; Fri, 25 Apr 2015 18:05:18 +0000 (GMT)
+Message-ID: <5user@domain.com>
+Date: Fri, 25 Apr 2015 14:05:17 -0400
+Subject: My new blog post: Service to a Common Good
+From: user Schwartz <user@theenergyproject.com>
+To: <user@domain.com>
+X-SG-EID: crjdrkBCnHFBAoM6m/Gp9m3skGmMR9d/9Wh2P3ndSBdRkPsdbSFz5zw70nCGX24XZrIdzbvPbBPW2+6ikRpXLfEsHqhDraNxkhmWQIMM0BaJ3UGZ3Fkfx7eCaFauLvoM7fcUndSvwg3SmgUGMLixBwuQa1x12SFlJKTlWWurk7s
+X-SG-ID: s78jXjc54Sh5tx9yFLGsWSVgP7deeyi89jjwqux6R/WmSmJZGxQY8NnwqOiIgx98nLpWG1ku+tMYitOqyu6w7bg4u5Gmwy8Ct0Ijj7rirGHNQL35tQCZh5hm9Qpv0hNY
+Return-Path: bounces+274327-8user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+My new blog post: Service to a Common Good
+
+Dear Amy,
+
+I would like to share with you my latest blog post, Service to a Common Good: <<link>>
+
+If you enjoy it, please comment and share it with your networks.
+
+If for any reason you'd prefer for me not to send you what I'm writing, feel free to unsubscribe at the bottom.
+
+Cheers,
+
+user
+
+Service to a Common Good
+
+When I heard this week that Michael Phelps was planning to return to competitive swimming, my first reaction was to feel a little sad for him. I honor Mr. Phelps for the discipline, domain.com and passion he needed to win a record 18 gold medals. But I also sense that he’s going back to swimming because he’s chasing a high that hasn’t held up.
+
+In the same way, I respect Michael Jordan for all he achieved in basketball. But after reading Wright Thompson’s brilliant article about him in ESPN Magazine, I was struck by the emptiness of his life since he retired as a player 11 years ago.
+
+We celebrate and envy people’s extraordinary individual accomplishments and successes, but the pleasure they derive from their efforts is often surprisingly fleeting. And there is a reason for that. What generates an enduring experience of meaning and satisfaction in our work is the sense that what we’re doing really matters — that we’re truly adding value in the world.
+
+READ THE FULL POST
+
+
+
+
+This email was sent to user@domain.com
+

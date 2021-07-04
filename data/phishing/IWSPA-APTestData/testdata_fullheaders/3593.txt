@@ -1,0 +1,68 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Mon, 24 Feb 2015 06:22:49 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1OEMk0f019928	for <user@domain.com>; Mon, 24 Feb 2015 
+ 14:22:47 GMT
+Received: from mail46-ch1-domain.com (mail-domain.com
+ [216.32.181.169])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s1OENuuO025323
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 24 Feb 2015 14:23:57 GMT
+Received: from mail46-ch1 (localhost [127.0.0.1])	by mail46-ch1-domain.com
+ (Postfix) with ESMTP id 1C5C7300270	for <user@domain.com>; Mon, 24
+ Feb 2015 14:22:46 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.124;KIP:(null);UIP:(null);SRV:BULK;H:mx124.b2b-domain.com;RD:mx124.b2b-domain.com;EFVD:NLI
+X-SpamScore: 9
+X-BigFish: vps9(z579eh5756hzc89bh12dbKc857h77f5h609Izz1f42h2148he68I208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h1082k10c0jzz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h1ce120hf9138oz2fh5eh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h1361i214ai1155h1362h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail46-ch1: domain of b2b-domain.com designates 209.162.194.124 as permitted sender) client-ip=209.162.194.124; user@domain.com; helo=mx124.b2b-domain.com ;b2b-domain.com ;
+Received: from mail46-ch1 (localhost.localdomain [127.0.0.1]) by mail46-ch1
+ (MessageSwitch) id 1393251763866406_1646; Mon, 24 Feb 2015 14:22:43 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.228])	by mail46-domain.com (Postfix) with ESMTP id C58844E023C
+	for <user@domain.com>; Mon, 24 Feb 2015 14:22:43 +0000 (UTC)
+Received: from mx124.b2b-domain.com (209.162.194.124) by
+ domain.com (10.43.70.14) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 24 Feb 2015 14:22:43 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=acton2012; d=techproductupdate.com;
+ h=Message-ID:Date:From: Resource Roundup <admin@techproductupdate.com>
+ bh=zUNg/HyGCgTGVKmpcOuDMYMAuEQ=;
+ b=bOiyaXSvWQEMtRDhdFHFtTEj/nAw5B2zK/KPygWY0w6MSlszAuPTIis4oebEDIUD+EZveWagBj9P
+   v1vC32v/yjt7/tOLSfA0P46TEJu5bLVm6ZRfVhC9ACGffrg2NlMojEgYoFggA6Idug2UNkfkBGIQ
+   HKC9j6umfuPRxd3qk5E
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=acton2012; d=techproductupdate.com;
+ b=T2HAO9YVzItEPXqUc+CCFyz/1QDmkvccEbyKNWGB9Tw0qzNWmYfYVv8/lG1zcLpEBH8bwlHmX9bR
+   Egbbw0H/f1QmXYIexEto1TUZ2nN7AwjcnnGfjZkFJYnZZux9dBA1yeWIiR5oIUvZo0nOmg+sg+/Q
+   lFL5rEWLSjvMmY9Bay4=;
+Received: from 10.10.40.64 (172.16.0.16) by mx124.b2b-domain.com id h1dar61gs502
+ for <user@domain.com>; Mon, 24 Feb 2015 06:22:43 -0800 (envelope-from
+ <user@domain.com>)
+Message-ID: <YWXWVXYXX$UWCWVYUAZWWYC@10.10.40.64>
+Date: Mon, 24 Feb 2015 06:22:43 -0800
+From: Resource Roundup <admin@techproductupdate.com>
+Reply-To: Resource Roundup <user@domain.com>
+To: AMY PASCAL <user@domain.com>
+Subject: Personalization in a Flash: How to Make an Impression At First
+ Contact
+X-MESSAGEID: WCZX.rEUUUV.KVWHK.mEVKZUEVYUW
+X-COD: ^^184.169.176.89/acton/delivery?accountid=2853&msuid=s-1e50-1402&rcptid=l-0001%3Ae12be&srcid=q-03c9
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Personalization in a Flash: How to Make an Impression At First Contact
+
+View this message in a browser   Please add user@domain.com to your address book to ensure properly delivery        
+
+TechProduct Update       
+
+Personalization in a Flash: How to Make an Impression At First Contact
+
+Personalization has never been more important to your marketing strategy; customers have unlimited access to you and your brand, and they expect you to serve up content, messages, and offers that domain.com their needs. Sending personalized emails or showing specially selected offers can be profitable, but how can you deliver personalized content to customers in the moments when they contact you?
+
+Join this webinar with Erin Jaeger, Product Marketing Manager at IBM, to learn actionable tips and questions to ask as you develop a real-time personalization strategy.
+

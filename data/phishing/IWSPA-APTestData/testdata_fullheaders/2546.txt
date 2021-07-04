@@ -1,0 +1,263 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp1400153lfb;
+        Mon, 23 Nov 2015 08:35:04 -0800 (PST)
+X-Received: by 10.202.104.211 with SMTP id o80mr17147492oik.126.1448296504567;
+        Mon, 23 Nov 2015 08:35:04 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-by2-domain.com (mail-domain.com. [207.46.100.90])
+        by domain.com with ESMTPS id g5si8327386obn.12.2015.11.23.08.35.03
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 23 Nov 2015 08:35:04 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 207.46.100.90 as permitted sender) client-ip=207.46.100.90;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 207.46.100.90 as permitted sender) user@domain.com
+Received: from domain.com (10.160.24.34) by
+ domain.com (10.242.216.26) with Microsoft SMTP
+ Server (TLS) id 15.1.331.20; Mon, 23 Nov 2015 16:35:00 +0000
+Received: from BY2FFO11OLC008.protection.gbl (2a01:111:f400:7c0c::176) by
+ domain.com (2a01:111:e400:8ae::34) with Microsoft
+ SMTP Server (TLS) id 15.1.337.9 via Frontend Transport; Mon, 23 Nov 2015 
+ 16:35:00 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=LAW.GEORGETOWN.EDU; domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none header.from=americanbar.org;
+Received-SPF: Fail (domain.com: domain of LAW.GEORGETOWN.EDU does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.74;
+ helo=domain.com;
+Received: from domain.com (141.161.191.74) by
+ domain.com (10.1.14.255) with Microsoft SMTP
+ Server (TLS) id 15.1.331.11 via Frontend Transport; Mon, 23 Nov 2015 16:34:59
+ +0000
+Resent-From: ABA CLE - Section of Science & Technology Law <cle@americanbar.org>
+Received: from na01-by2-domain.com (141.161.191.13)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Mon, 23 Nov 2015 11:34:57 -0500
+Received: from domain.com (10.162.96.14) by
+ domain.com (10.242.46.146) with Microsoft SMTP
+ Server (TLS) id 15.1.331.20; Mon, 23 Nov 2015 16:34:51 +0000
+Received: from BY2FFO11FD012.protection.gbl (2a01:111:f400:7c0c::183) by
+ domain.com (2a01:111:e400:5173::14) with Microsoft
+ SMTP Server (TLS) id 15.1.331.20 via Frontend Transport; Mon, 23 Nov 2015 
+ 16:34:51 +0000
+Authentication-Results: spf=none (sender IP is 38.99.228.141)
+ smtp.mailfrom=MAIL.AMERICANBAR.ORG; LAW.GEORGETOWN.EDU; dkim=none (message
+ not signed) header.d=none;LAW.GEORGETOWN.EDU; dmarc=none action=none
+ header.from=americanbar.org;
+Received-SPF: None (domain.com: MAIL.AMERICANBAR.ORG does not
+ designate permitted sender hosts)
+Received: from domain.com (38.99.228.141) by
+ domain.com (10.1.14.130) with Microsoft SMTP
+ Server id 15.1.331.11 via Frontend Transport; Mon, 23 Nov 2015 16:34:51 +0000
+Received: from CHG-LSERV-01 (127.0.0.1) by domain.com id had01s21h6s3 for
+ <user@domain.com>; Mon, 23 Nov 2015 10:34:28 -0600 (envelope-from
+ <owner-nolist-AB-C-151118AX-pqri748d*user**LAW*-GEORGETOWN*-user@domain.com>)
+To: John D user <user@domain.com>
+Message-ID: <40160-14071454.1448296262834.user@domain.com>
+Date: Mon, 23 Nov 2015 10:30:00 -0600
+From: ABA CLE - Section of Science & Technology Law <cle@americanbar.org>
+Reply-To: <user@domain.com>
+Subject: Understanding Drone Privacy Law Regarding Unmanned Aerial Vehicles (UAVs)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_33_13995387.1448296201772"
+Return-Path: user@domain.com
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2FFO11FD012;1:RtEIlzzRxutMDPAxEAeG2Jq5cvp8A+y10R+Mmna5q3v2tIPQdyK4BQtehQcYEQ+ijfTWG1/cJ1t4Odv5AsAVadfegTAOOdIUHBOO5WlradIwuzBFZsrZdxlFSlnRKEBVAqg90OGSITpNFFS30yGuXuDFfO1tglwkG5ij6mgLW/ITgZclRGDOM3UwClAXV0OZQ9fsuX8U2mBplo2UB2jwNL8rHvjXP2Fa3DVNJ6NQIyajxQ3xx3sE+OB4sFtJgLsXkN0ySI88SdsszSZHnw17VeoJY21hu++twqjbO/12ihRyFwyW5bW+BYejqZU7BDQsKsQiGDlso95l4SazdY1mnhEubW6zc5U0QqNAt+StKp9CgJ1SMfqwzTXE3PlIuEAwZ0CAVw1ZQNC0/YkOnAZJbJ+xesdQMDuxDuGaKmoyeaJr9Ni4Q0lKNLaECjTkVKqQX2mbSJVyqD8QyXh5sAZ/Cg
+X-Forefront-Antispam-Report-Untrusted: CIP:38.99.228.141;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(1070300003)(2990300002)(428002)(3799005);DIR:INB;SFP:;SCL:1;SRVR:BY2PR07MB106;H:domain.com;FPR:;SPF:None;PTR:domain.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB106;2:zsAab+uYsf4tkDtIG/W33nhYmUn8Qh9uXzqqJXNmO4BMQcd+wj0/ppwwU0S2A4Kr5S6EOARN2WAvzImFrnuHfTK6ONIvOYN6SnZZAfNsQkY5/0ctI8JN3DnaabBkKDtsKg71EXDL06IK7QjEBo+kng==;3:MiuAxZoPPiWBcutaiWRPMbSkU11cSbvaYX1U0jYdXjkVcf9+ZcJWvECk9miYl+qlQ+Dafw0kK9xOR1wA4+SV4HSroTmHkC6lKs3ycJ4/DlsdOIf8nQeRKfSMNYI90g629kqwxyemv4F0rDN9japg2AekPbnwqsLM/rjZ7Vi4HpPBnKZetCs6eIREEpMRNbM2ILwCoFyeCwbNrucBeIHh7ELZolohRTFQINyvaUXQHj7o7pf27vgl7MdHMk/AvED/k2qc58J+K19hGsQ3RnNpFa97kRB2TPD4Yx7D41mALW5xR8FHluX084oJr3EBIOFG;25:hR81thxY8Ycujni4evsm/zmYJZavNIeZJYHf0xwtZ/ieWatcqlfWa7DkrXI9dSC9Smzhw4/m5dvgDZxNRd/467NTa0S7jvVMkmy91QbNQUWu1M0DN51s+4ifyfnSbikWmSghk+kmA0TWeAhBN8UFRLN8TbJ/GtZ79J6dW/5Tyjkrq04gWEmbQKzZO3GeCxPlh8rz7gNPb/O6E95acPd/u2JXjF3H21/NKz0tWWSPyj2wyPfQ6Gth0VnUJuy8qj0hKQ+wm6giXuIHbBGdbNGPbw
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:3;PCL:0;RULEID:(42134001)(42139001)(71701003)(71702001);SRVR:BY2PR07MB106;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB106;20:YdqOUJzIxiUQNK70elHPWdfnzRP/nMVPs0kelyTNIVHmHPjRbh2Xj5gI8+8gyzdGQVLgdvOKOIxaETzQA4IoC93QOHVCjB0F3EFRQNyx1oaRpJw62m5mZfNUVHQzI8r1hg06eUmxrTk9/563FyJs5CtVMNrJVzpdwjUkwxES15TjRONnKblZ6rh4yGpQ8t9NwitqhG3J64HF9BByLtmKq9rWWIyB17rW5+EYwQf1rZ4L+TirEQQ3EXGOoh7Vdd/C8YIenUEkgOZydL0oh9Du7OuhIaSAD90nqV+2GSwJ9iepIuD9TjHdllCI92YUfBg5rZ4G9IjLDs8JpqZrwlLaeBO6qbOr+W9KU6wGnMw1bTjdGPBOM9Ndvw8McD3CC8KBoLphJc26tzZOKqWFymhzpdKpm5KQPxobmB5HDsQsMhU=;4:eeOr4JlxhulbEU+zdHSvw/sfvOlOXVR57gyM9yI50b3cfVrvxdDtIouA3Ii0Pa8Fz3JAwK5IOChd2A252bMcij8obs7VBQoRJ4JZMwnJZ9TLEvmEr3fO9i7slds7PYxdxObzdH7N8yOj5ZROmAxV/e3PB6DC1SD6cEXtv1nZmwwoqXBLrcVm9PvhhPBelEGn2UgLbCTFdK9kTFihsCaFodsf5q6NibAAZSBcvZ5dfJWWge8nN+vb4ZPMg7PT/doG2Hwo76fnrk58ffUtesQg2nu7jYXR2dP2VJSxXa/p/JuirW9RzSGmnAzZePJKrODnqlVllwTGkDTpmX/sx1deoKimak9KnL4PMO53RAuZzcSoQFV7EE154NG/l+8YKXGs6YKVVxEhAEsqhiBn3E/d0vCJpAx0fciVxJFSZE8RzYJez+UqGYMAawlcg7hrUpwOZ2td3wy2s933Zrvnsa7Pzu5IlEHkJTybrvbCAiZRBt8
+X-Exchange-Antispam-Report-Test: 
+	UriScan:(76009858676777)(153967652837891)(6594202986349);UriScan:(76009858676777)(153967652837891)(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:3;PCL:0;RULEID:(601004)(2401047)(520078)(8121501046)(3002001)(10201501046);SRVR:BY2PR07MB106;BCL:3;PCL:0;RULEID:;SRVR:BY2PR07MB106;BCL:3;PCL:0;RULEID:(601004)(2401047)(5005006)(520078)(8121501046)(3002001)(10201501046);SRVR:BN1PR07MB104;BCL:3;PCL:0;RULEID:;SRVR:BN1PR07MB104;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB106;23:ZDAKscWTFqXkRHWNNFp36kzPpE7/j1cTCkOiKcEyhAthODNfPiKy6b5JIDNuiVjRx9zr7LLJWF/sAGioFZfCc4HNfAqJon8D8dP5CZohM5bEw+EM0My2JWovRuEMV1yAhIvsWa9h/uRHAFSADVSlaopPmWQTat2GgR+x2XXv0jvbfLj7JUkegU3gHL8GooOlQq6RvhAXSi73H+nuvcnDXqQOn4UV1faBae1VDVCyyL3oZ13/YiFxqEozAJnEnBBK34XOuCU/OPSyAlHb6l06sSM7Jvfww/XO9DjjLUN7xTedl2WDiDbCU+9oVNSTIOF+;5:CzZApeJJpsmVvq8i32g2D0VPn5x0bl6LZVk1MQ+da1PeQukCUwJXJOxcpver1ptDUa0LTy+lglggO/oIov150QG+l8BY2rFaFR0Zj0EUWUGt++fkH/+DkP1WSXKi+8NlY/SjT9pIpTfHB8pdBWTvpw==;24:q5gZlJdNOdkY4CbnBz/5+8eT+H4zkVOC/T0F+xzSVtKgaaq4unJu1gk2joJabDah+EYMlBwjXesT6L9arQm4dqNWaVqR3W+ZHRLessHMxNo
+SpamDiagnosticOutput: 1:5
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 3
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB106
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BY2FFO11OLC008.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BY2FFO11OLC008;1:amdv7c4iHSd6iJk5PXNcX4RuOk680u4tz/vgmFeWKQzdSNd+B3VfA/wAwqlg97XlXrOcLT9IZ5V7UEdDrI+XpDSMIZEmj/CJEGEbCH3GHMAOVmwvZF/ll8W4NnFmzrDFv7SW42vO9AVKpr7UIrZSI/sZCc7pbFQfb2oKffS6LiqeTYNmROiVe3tzSVm46yrY2evokOUc3ko9AwBN72yYW1WMEAT9NXPzI4fad1Kxznn8UwYVYsqTo/02AfA7scGfeUuSyB7ZlNbb47T3POKjoWUwvzn+CGcrBpPHZiM/mNP8mrarN3U274ohLTnGfRc3g0Ys7YFJZrKH8/TsgpswvVCfkrGpZn9iUty8dZFX8gPdMPjTUe9NdNe5J4QIMhFoAg5YT3JkrKWGArCO3OAhiKifnUzNwZGKjv1fax2ClT8
+X-Forefront-Antispam-Report: 
+	=?us-ascii?Q?CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(100?
+ =?us-ascii?Q?09020)(2980300002)(1070300003)(1109001)(1110001)(339900001)(?
+ =?us-ascii?Q?88692002)(199003)(189002)(45074003)(377454003)(18804003)(429?
+ =?us-ascii?Q?0100001)(450100001)(11100500001)(85426001)(4001450100002)(68?
+ =?us-ascii?Q?06005)(107886002)(53806999)(50986999)(5008740100001)(1820601?
+ =?us-ascii?Q?5028)(33716001)(104016004)(43066003)(110456001)(575784001)(3?
+ =?us-ascii?Q?07094003)(110136002)(19273905006)(19300405004)(19617315012)(?
+ =?us-ascii?Q?105606002)(106466001)(19627405001)(5001960100002)(512954002)?
+ =?us-ascii?Q?(77096005)(19580405001)(19622755009)(2171001)(88552001)(8115?
+ =?us-ascii?Q?6007)(19618635001)(86816001)(606003)(54356999)(107846001)(87?
+ =?us-ascii?Q?936001)(14971765001)(5007970100001)(15395725005)(19580395003?
+ =?us-ascii?Q?)(84326002)(75432002)(16601075003)(97736004)(15187005004)(22?
+ =?us-ascii?Q?9853001)(18926405002)(85226003)(5002220100002)(95666005)(189?
+ =?us-ascii?Q?26415007)(15975445007)(7099028)(82556003)(42882005)(56240401?
+ =?us-ascii?Q?5)(579004)(563064011)(17745795003);DIR:OUT;SFP:1101;SCL:1;SR?
+ =?us-ascii?Q?VR:BN1PR07MB104;H:domain.com;FPR:;SPF:Fail;PTR:?
+ =?us-ascii?Q?InfoDomainNonexistent;A:1;MX:1;LANG:en;?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB104;2:OFDoWwhQOJK3926buN6VriDYEO3/JIcRHv0oqCyK/AoSLg0Tr2QA27FUAW+R0nO3HvKEB2e5ZLI4YVOCH15P/i7rWw8/IiO/t75q3tbmT66+ajMHnVXLZQIcGcX648W1C/Rrt+arJNeph7g5cfB6tA==;3:gGnsPc1jqVnkiBUtd7SxLik/It8NLsRUJ0CE1qg4HFi5jHLeNQzbtribkfCTBbWfZsGf0IC5I066wt22LcEa9kUL8euf05cC4Cn8B374ETonxgs9EfHn5y2pI8gjJXgN/MqHRBGlxJN3/yDorcR/a1/D8ZqFq/vjAErCgF2XCr2RsE1n6PJBqPgX5tyaxjrxbioHl27xUUUPY66Y9SGOd+wf/Mr3lhErNqcd4+OzkOHzPbVQb9NxOvh316wZMYDeTWIDEixJbnE0du/3V3+y7w==;25:Me08SalLasWke8k8y8acZ84yyHA6SxvXoBaAP47/t5K3PJNvDy2uSmVMFGm6JJQsZCHVOO1JQmYI8Q1k13VntpluYmKS/bUsfmZC9JpLxtzTYhEfrt9LAm4ieS9f+zh01glhBEMjYzYENnOc8ppgOFn+/sgmPaYnAhg2d62rrA1geJLw0Nn4wwWbxEELo3lBETXeZw/q+lONeQTjpaYmOqMkjuOjKaDHoRRH/QV/WaWTXTo2qtrB/hs8cGjUFG7xnAXEpqblmgS2W2x9RoG32g
+X-Microsoft-Antispam: 
+	UriScan:;BCL:3;PCL:0;RULEID:(42134001)(42139001);SRVR:BN1PR07MB104;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB104;20:EiMTuoZdmqLLfzqoo6aVpbqWlJCxuRsAVKfjww5Jt8phB/fMCYYXyz/6BojYH+0A79J9jr8mGf86fPmdHmXovtnd4LCPzfyaNyb+R4P0qVBMPO9DGC2SxsxAZcKdhYZInTGuqvU+vCETM4N5BtcBhLMvz3gpRtlfgz0+7ly4N7OhDTW3eMmK6LcUqGLdoIO2E/zwDHakuUSri4mVMn1r/s3YYNOzqr6uAdXj5dazOsX3C0V7KU0S77wz67wCuGxXNgQ/YHoEAjizC2t2W8vI/qtmP3jL398/gGi1JGfnyGqq5fS9sFHcvKeqlnYmokD8lDvVU19NxlZpPjcaqPfrAOifZZk6DHaAptgAjB8BeP25A8vEDuiQ+0IeZpxvcaDdSWERxXBdye7yRM3zL3unK6vwakz6k6IjN9QuPkUJOEg=;4:BRTsiAutzxb4mbIQDsh4nhTem6s1FPYPqsxcIiBftunwf6PtmXYB9y2nVml5BZ70GadCBorq1Etu01aXQsH7NIMxRhBeQV3ejMCDbWM4Yqd1dpwC0J3JH76oSk0MZ01NLy7Q5H6CS2nISPrPXO3/mbQpg4p3pCT2NRGPzGbe3VdwhBMQ6HtLY8FaHUdN8rNtsspuwgl5ntvaXgAPot+Vk0EH8uMbCCDrGNDWQYqNc61zcvlgRcwv5atE4qWVKFiMmE/eE3A3dCPvxB2XRnwfPopq1eVg6dhr+ZMloqGW4LQjLrZNNHgyzymMIuCnUUAUSBUfNlJAFX3yj5zW73F9UlktMJwyECXjid07U28TCF8OAEc+nIffm7XEo9MrkXop8aR+vtCXR/L6PiCWfYf4PH37WKRVwwR/GWGaHS6abhrYkNADBM3e7VM9jv9/efHo20qUwF+gXRii06RNhF6vXs4iQY9oTxGyib957J0W1gP/JcykTpXjJ3LRmK1u1oVa
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 07697999E6
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BN1PR07MB104;23:ZfycBcBXnMHVzxl8WcGBDz59BI5rqoAfhLfFqiyHXT?
+ =?us-ascii?Q?pab3V4Z5hmHaXASFkchfdN145Vi3KLbOnSbOzk1rD6SGNm85L2pOtFgslu5S?
+ =?us-ascii?Q?Fo/aF2PH9XYGVau+uj1NptZyeMyWf1zEQwjihdgMCemxaTefUrAziqh/iyNc?
+ =?us-ascii?Q?9TFgmT2ECv0nj3JY/kBENNJ+LVnltNA1FcvgSob3ftqA//ubVT8LEnyCPqOk?
+ =?us-ascii?Q?4O4o999vEkfgCytHkiPeef1Nrw6zDV3EI+x6Rd3+m81gYtdKiaxXr6LV+AII?
+ =?us-ascii?Q?OT10rm6AbR/wpFGB0BhzUhMqJiqSt/x43vGc3buPx8+xZYX6DX9kGcdaSVtc?
+ =?us-ascii?Q?bfWKNvY8+uIle89+5LJk3xuXGtJaC9mU/SsDDatvn91tuP+FOnbWz1bPwmVD?
+ =?us-ascii?Q?yCFnoVLVbQIMhNAkthEeDlcbXZKcVWQ3h2LjD/3RqYlVNC9W6XAlMVQIEWqP?
+ =?us-ascii?Q?t6hoN5kbAgnbXp6odUL1cBPrDgYx8HcrjS06mV3oOjj0l30tSEK6Xj0cTo16?
+ =?us-ascii?Q?+JO/OU4FwBM1+gF0q0aplA1Mk6RGYYMPloVMHXOCyW7OkPY265gLCrZ1zBCv?
+ =?us-ascii?Q?zHpdK87XGpUdWmlvXfPkEKewp8tfy5E7MyeMLD5bjNAuSDIhJU/9F84RxSwr?
+ =?us-ascii?Q?HPd6rhh/yxtsuoCRsy5ScCdiJ7DdIQUsqQyj5haBblBxwXibhsBfVYgB6ckD?
+ =?us-ascii?Q?W8lRZT5MNBCpleZQVoSNopFVH+4qyHxfCkJPtrHJExQrhqB7uo5Tf0pBmbuR?
+ =?us-ascii?Q?gZA1t6p/aCOZVUoaWHvSD8bvId2SHHIy68aZ2hhkEPyiN/DU2OWJGMtEXW9o?
+ =?us-ascii?Q?qF/TjuOXT6/g5nQndNAwIHQB86fobbHivvo2SHcix8+jU16gQI9BRPYtqWIu?
+ =?us-ascii?Q?qQKFJeDGCwf5lXae82HzRkHmoiZ+dK+EWUFZPV8IEptHVWQlwXDo9uWMa+Gi?
+ =?us-ascii?Q?ubCFrP9nC0K5YUJD7RPIsnzjOzUicFJj8rbo0kaUmLyMT7CGklyFhbsk6Z7m?
+ =?us-ascii?Q?gdNwVtaekAbNp/pfepIzPXZXBtVUZHhFn7hKxysQ2K9TrB3ifWe40pjf7s/k?
+ =?us-ascii?Q?mqgRLk/KkxZJPr3hmM8g5xuvkBWZ0Uu1CX8MN9Db3rZFCNAQDTKYoW0cvM0P?
+ =?us-ascii?Q?nzFsv5Vfp3x0nXdiUExPr6Sdczrof5jE/swbk5eMWm7oq8VDbHast3AMxrg0?
+ =?us-ascii?Q?+CWto4M5EFEmp+j9kp2UVs4T7cradTdce6Cdeld8V5h4r27iKTP1HwzT62t0?
+ =?us-ascii?Q?22Hf/JRWHV8mhpl7dN2sHFnCvhyEaHLfCHteNpfZz8su5bZT0PlLzHDDpQRs?
+ =?us-ascii?Q?FH9f/Jaepu2IAe3gJ1oVCDRxL0wLTq0kvHlvRbfWSwKnV/tpcQvZLBnF9s/H?
+ =?us-ascii?Q?FPTdXHNFsQhRJp9T5PAeerAk8IFfHUa821fJf6KUSUiWaAIwr7JYMopPxCZK?
+ =?us-ascii?Q?3d9IYRPTwp5ZUgT30F/ld9SFd6Qsj/6nzNpaHhMTDXv15iKTDsR807h97/Gc?
+ =?us-ascii?Q?EjVI+TzrMlugUTqTQzlb+9uuNcYDqGn4D35/oWvhyzl8Z0tk3X/oF+1PjzHA?
+ =?us-ascii?Q?jovcUMFz7nEvOHwfMKOQE80U5Dca+QQKzwvaFEtdRqUHW/lhdTpgGgyeHZan?
+ =?us-ascii?Q?FfZVUUEQ19Fd0CvbljDSzJ4DVMGADPi6XNStxYfVGme/wm3dYcpwEiEfzvCc?
+ =?us-ascii?Q?FVylmWnyKA+uSKEl2qk2NK9sLFWxzW1EUa03FPTTgIAjyJTYwfqYa/93W5Sb?
+ =?us-ascii?Q?vrevVvZfgvRIWhox98ZZlBkrSB73pdWrRTz89VbdNxQIfLAG3fhe7v+nweRc?
+ =?us-ascii?Q?xsvNPClJHRveZpgn2c+TPmndTEvbCKgHYsk/XImCsxBtMO73Q9W7vrmNHkhz?
+ =?us-ascii?Q?Y3z4FhbiKQwWpc8ywlcgzFAvexo9m1Kz8RMA=3D=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB104;5:ZzpUCd38wBoLgBBL0sRwVdRfMDmz4V8wUdNvN60sq9quNzrPuu9xkPS2hhENnug/PPB/b9i9StSM8hK/vciTj5Mx6rm4F2O2GgePJ4LMa6BoOnhNnaM6DbycdQhHdh0ojrjcWK/P0qMABEoFiCLA+A==;24:eXvdZapsLoAok8T3O4HR5+pw2lNjVeHy8bG1wylvlTlTuPo5DIawSh1NqyvWIhFbRXlQ/eCT85ENbIvn5g6nc9dB9u7ikO3NIwKzZlvnbJc
+SpamDiagnosticOutput: 1:5
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 3
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 23 Nov 2015 16:34:59.8436
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN1PR07MB104
+
+American Bar Association
+Understanding Drone Privacy Law Regarding Unmanned Aerial Vehicles (UAVs)
+
+PROGRAM TITLE
+Understanding Drone Privacy Law Regarding Unmanned Aerial Vehicles (UAVs) 
+
+<<link>>
+0dx030323&productId=3D225609441&sc_channel=3Demail&sc_rec=3D
+&sc_sid=3D
+&CUSTOMER_NUMBER;&sc_jid=3D151118AX
+&sc_cid=3DCE1512DPL-B&
+
+DATES AND TIMES
+Tuesday, December 1, 2015 
+1:00 PM - 2:30 PM ET
+Webinar
+
+CLE domain.com
+CLE CREDITS REQUESTED
+1.50 General CLE domain.com Hours
+
+PRICING
+List price     $195
+ABA Member price     $150
+Sponsor Member price     $95
+
+Section of Science & Technology Law
+Business Law Section
+Center for Professional Development
+
+Join our esteemed panel as they discuss:
+
+* Then-current status of the FAA regulatory scheme
+* The current state or privacy law and how it relates to drones
+* State law framework as it relates to FAA policy
+
+LEARN MORE
+<<link>>
+0dx030323&productId=3D225609441&sc_channel=3Demail&sc_rec=3D
+&sc_sid=3D
+&CUSTOMER_NUMBER;&sc_jid=3D151118AX
+&sc_cid=3DCE1512DPL-B&
+
+FACULTY
+
+Dr. Donna A. Dulo | President | Unmanned Aircraft Safety & Security Society
+, Inc. | Monterey, CA
+Hilary B. Farber | Associate Professor of Law | University of MA School of 
+Law | North Dartmouth, MA
+Matthew Henshon | Partner | Henshon Klein LLP | Boston, MA
+Lois Mermelstein | Associate | Farney Daniels PC | Georgetown, TX
+
+Moderator
+
+Kate M. Growley | Associate | Crowell & Moring | Washington, DC
+
+TOO BUSY TO ATTEND?
+Pre-Purchase the recording program now.
+<<link>>
+0ex030323&productId=3D225672525&sc_channel=3Demail&sc_rec=3D
+&sc_sid=3D
+&CUSTOMER_NUMBER;&sc_jid=3D151118AX
+&sc_cid=3DCE1512DPL-B&
+
+--------------------------------------------------------
+
+LIKE US ON FACEBOOK:
+Exclusive Content, Member Benefits
+"<<link>>"
+
+FOLLOW US ON TWITTER:
+ABA News, Promotions
+"<<link>>#!/abaesq"
+
+CONNECT WITH US ON LINKEDIN:
+Professional Development, Practice Management
+"<<link>>"
+
+SHOP WITH US:
+Books, CLE, and More
+"<<link>>"
+
+--------------------------------------------------------
+
+********************************************************
+This message was sent to user@domain.com
+
+Your e-mail address will only be used within the
+ABA. We do not sell or rent
+e-mail addresses.
+
+--------------------------------------------------------
+Update your profile - "<<link>>"
+Manage your email preferences - "<<link>>
+municationPreferences.aspx"
+Unsubscribe - "<<link>>
+617606A8-AA2D-4AC1-971C-2B52BE72B763"
+Privacy Policy - "<<link>>"
+Contact Us - "<<link>>
+"
+
+--------------------------------------------------------
+American Bar Association
+321 N Clark, Chicago, IL 60654-7598
+800-285-2221 | 312-988-5522

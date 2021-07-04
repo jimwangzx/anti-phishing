@@ -1,0 +1,56 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.3.4.5])
+	by domain.com (Postfix) with ESMTP id DC2C7536EFF
+	for <user@domain.com>; Mon, 28 Nov 2015 13:26:27 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 82E9F6FA3A2
+	for <user@domain.com>; Mon, 28 Nov 2015 13:26:26 -0500 (EST)
+Received: from domain.com (domain.com [65.19.145.2])
+	by domain.com (Postfix) with SMTP
+	for <user@domain.com>; Mon, 28 Nov 2015 13:26:26 -0500 (EST)
+Received: from domain.com ([127.0.0.9]) by domain.com for <user@domain.com>; Mon, 28 Nov 2015 10:14:45 -0800
+Date: Mon, 28 Nov 2015 10:14:45 -0800
+To: user@domain.com
+Subject: PayPal Notification
+Message-ID: <1133201685.12757.user@domain.com>
+From: "Customer Support" <support@paypal.com>
+Content-Type: text/html
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ********
+X-Spam-Status: Yes, score=8.3 required=5.0 tests=DOMAIN_RATIO,HTML_90_100,
+	HTML_IMAGE_ONLY_04,HTML_MESSAGE,HTML_MIME_NO_HTML_TAG,
+	HTML_SHORT_LENGTH,MIME_HEADER_CTYPE_ONLY,MIME_HTML_ONLY,
+	RCVD_ILLEGAL_IP autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.9 RCVD_ILLEGAL_IP Received: contains illegal IP address
+	*  0.4 HTML_SHORT_LENGTH BODY: HTML is extremely short
+	*  3.2 DOMAIN_RATIO BODY: Message body mentions many domain.com domains
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.0 HTML_90_100 BODY: Message is 90% to 100% HTML
+	*  3.3 HTML_IMAGE_ONLY_04 BODY: HTML: images with 0-400 bytes of words
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 45
+
+As part of our security measures, we regularly screen activity in the
+Pay Pal system. We recently noticed that your account was accessed by unauthorized third party. Because protecting the security of your account is our primary concern, we are forced to domain.com the access to sensitive Pay Pal account features. We realise that this may be an inconvenience but please understand that this temporary limitation is for your protection.
+Case ID Number: PP-042-818-072 
+<>
+
+Your Personal Data includes information that can identify you as a 
+specific individual, such as your name, address, phone number, domain.com card number or e-mail address
+are stored in your account. Is strongly recommend that you log into your account and verify your Personal Data. We apologize for any inconvenience this may cause.
+
+To review your account and some or all of the 
+information that Pay Pal used to make its decision to domain.com your account access, please domain.com the Resolution Center 
+<> . If, after reviewing your account information, you seekfurther clarification regarding your account access, please contact Pay Pal by visiting the Help Center and clicking "Contact Us". We thank you for your prompt attention to this matter. Please understand that this is a security measure intended to help and protect you and your account. We apologize for any inconvenience.
+Sincerely,
+Pay Pal Account Review Department
+Pay Pal Email ID PP520952

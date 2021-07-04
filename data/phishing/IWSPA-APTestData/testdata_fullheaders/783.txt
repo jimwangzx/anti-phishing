@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp1155594lfi;
+        Sun, 19 Apr 2015 13:21:17 -0700 (PDT)
+X-Received: by 10.202.96.84 with SMTP id u81mr10831151oib.41.1429474876492;
+        Sun, 19 Apr 2015 13:21:16 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [209.85.214.174])
+        by domain.com with ESMTPS id bo10si12119485obb.35.2015.04.19.13.21.15
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 19 Apr 2015 13:21:16 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.214.174 as permitted sender) client-ip=209.85.214.174;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.214.174 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id w8so105451764obl.0
+        for <user@domain.com>; Sun, 19 Apr 2015 13:21:15 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :message-id:subject:to:content-type;
+        bh=Mupoz8vF8xqMKF4i/173kjdy+VRHuPxo2XgUql2Eiuc=;
+        b=fDRpOp22+g7SJRJ3mahLJEx9sLNFV7aTOpxbP56OJc6x1q1ZgB13WUK4eXoH8Kl5MW
+         Hbg06zHjpjDw53Fhf3UpFdyPBVv4iAl7drWzWX0J6S0RMlsM+aIexMdHdPDow3xOUWhn
+         msKnK2zrjtffDyzpzhqXmHR4psi4YFbAsBO4ivHMiXoxzwZN5ulc2+2pXhQY8YX4cEDk
+         0XYVLnwSMqF5OLP+v6f1e25SQ31WQSrd2JBJx7w3csFj7kgoiXB0MnajQNikyflDZzhs
+         30iwoWf8xVESd08OGb7RO68UFPbwwSw/FQg55aQszabqbutM8/DHZVv5IucRvh/Q7gxg
+         hn6w
+X-Gm-Message-State: ALoCoQkxnjRArl8tB5RssUE+aYrtsaNQ7eKc4jkXzUzqUkPubolGAIR//JuJOWuUYPwbENqc53mG
+X-Received: by 10.182.91.4 with SMTP id ca4mr11535174obb.39.1429474875471;
+ Sun, 19 Apr 2015 13:21:15 -0700 (PDT)
+From: Milia Fisher <mfisher@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <8user@domain.com> <5346842267216629298@unknownmsgid>
+In-Reply-To: <5346842267216629298@unknownmsgid>
+Date: Sun, 19 Apr 2015 16:21:14 -0400
+Message-ID: <-3932280550653964959@unknownmsgid>
+Subject: Re: McCaskill on abc
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=e89a8fb1f33c2b110b0514198e0d
+
+From Amanda:
+
+"Manchin was also on but from what I heard, the interview was weird and
+really about him announcing his own stuff.
+
+Also, just so he knows, we are doing one on ones w folks when we see
+their name on Sunday shows."
+
+Sent from my iPhone
+
+On Apr 19, 2015, at 1:51 PM, Milia Fisher <user@domain.com>

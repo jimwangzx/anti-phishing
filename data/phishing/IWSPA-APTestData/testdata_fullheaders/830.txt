@@ -1,0 +1,69 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp172222lfr;
+        Wed, 21 Oct 2015 13:47:34 -0700 (PDT)
+X-Received: by 10.195.11.72 with SMTP id eg8mr14661647wjd.14.1445460454439;
+        Wed, 21 Oct 2015 13:47:34 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [209.85.212.178])
+        by domain.com with ESMTPS id hw7si13582606wjb.208.2015.10.21.13.47.34
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 21 Oct 2015 13:47:34 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.212.178 as permitted sender) client-ip=209.85.212.178;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.212.178 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id p11so1536wij.0
+        for <user@domain.com>; Wed, 21 Oct 2015 13:47:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+         :cc:content-type;
+        bh=MGhD+9Sip3h+ikLr6rwe2S18em28flIoRyh+cLuSPl4=;
+        b=WaByD4i0LDBqcMymxiNbxZ53Wx3rJjFs13e2Ttzs4/x1REkovQM7rPlEjtDSOrH77s
+         QyZxXPs7tyxgtDyvkd4N2joz+G0R8XRey8VTyemaZ5eG6w9dwgh/XeAJUZINBRGjf1nq
+         41QXt300nsZB9j/CMyqajJkMAqZjrJQk5NEiE
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=MGhD+9Sip3h+ikLr6rwe2S18em28flIoRyh+cLuSPl4=;
+        b=UsEOFTM4a45U9Ex7V+gtx5jmzHrWScnwpqp9tl+zCr/NEn76bMH0ZU+qsS9NBSecjf
+         ltFmBgMkT0CjvlBJGA4eofJTzmS1oZbfsGA2KI30Wgt4FUwweg8Qj+1S9CFg2fjMQ53g
+         akUOitOZUP/KzjN7RJnsPwtjjJQty7zB6AxUhfSbbLlAzNP66Qh9gEK2RzulUjH3DiVu
+         wgOea8bQmj9tXXZz2tHliovHAwMmd7GRStPGxaGD6jtscgKcON14/RF/03RbU3GaxKZE
+         zUZHY7o75Z4ufjXP6e+wynt4s3AY1Uos2Xucflm7lk/fZzyNJyJtAQtc8bZme8+Yq7C6
+         0oMw
+X-Gm-Message-State: ALoCoQm5k7SltIABM9az7sG/iqv7BcBaEbiKpRUnHnglcaW1xnl60JWX0TE5M6AOsUNmNvjGITyk
+X-Received: by 10.180.208.103 with SMTP id md7mr34407718wic.47.1445460454177;
+ Wed, 21 Oct 2015 13:47:34 -0700 (PDT)
+From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <user@domain.com>
+ <-7215539815319649127@unknownmsgid> <CADHYb19WTQKgtAXRV7quZtfcMzguBDeyCtspAr1+09user@domain.com>
+ <user@domain.com>
+ <CADHYb19dxYQ=xQSbZDodrZn=11RpYgqOA+user@domain.com>
+ <5963873728833938738@unknownmsgid> <user@domain.com>
+In-Reply-To: <user@domain.com>
+Date: Wed, 21 Oct 2015 16:47:32 -0400
+Message-ID: <-8078556452723897900@unknownmsgid>
+Subject: Re: another email question!
+To: Teddy Goff <user@domain.com>
+CC: Brian Fallon <user@domain.com>, 
+ John user <user@domain.com>, Robby Mook <user@domain.com>, 
+ Jenna Lowenstein <user@domain.com>, 
+ Katie Dowd <user@domain.com>, 
+ Sara Latham <user@domain.com>, 
+ Amanda Litman <user@domain.com>, 
+ Christina Reynolds <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c381c8e8a2960522a37c43
+
+My take is that a letter specifically about her testimony on the morning of
+the hearing is different than us saying the republicans are politically
+motivated.  It could easily become cable fodder and just doesn't seem worth
+it.  Press are looking for is to overreach here so will make a deal about
+it.
+
+Sent from my iPhone
+

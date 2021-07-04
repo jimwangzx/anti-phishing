@@ -1,0 +1,154 @@
+Delivered-To: user@domain.com
+Received: by 10.204.251.68 with SMTP id mr4csp25608bkb;
+        Wed, 19 Jun 2015 13:35:27 -0700 (PDT)
+X-Received: by 10.236.182.41 with SMTP id n29mr3295854yhm.234.1371674126571;
+        Wed, 19 Jun 2015 13:35:26 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [69.25.74.172])
+        by domain.com with ESMTP id d68si6859888yhn.273.2013.06.19.13.35.25
+        for <user@domain.com>;
+        Wed, 19 Jun 2015 13:35:26 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.25.74.172 as permitted sender) client-ip=69.25.74.172;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 69.25.74.172 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from mta-domain.com (mta-inap17 [10.0.200.17])
+	by mta-domain.com (Postfix) with ESMTP id 3bbHhm51pNz6QXR
+	for <user@domain.com>; Wed, 19 Jun 2015 16:25:12 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=barackobama.com;
+	s=ofakey; t=1371673512;
+	bh=e9RU1TFjaput15NIXPH/KbhyG3Jn8SN/LxlUP0PoJrY=;
+	h=Date:To:From: "Jon Carson, BarackObama.com" <info@barackobama.com>
+	 MIME-Version:Content-Type;
+	b=Fq8IIyWodA/daUzr1NB+kDOFt9hbInoCCwT3jUvpnGQx4P42aO1md5gudfU9OO+In
+	 4aQ5wQtlvIqDsZvo5n4DpnGwqYL3Xrk77+QbITeaivgAUz1ffGCYxbpZIdV2n3tJLn
+	 FaU38kAme/ektlGvFl2AFMjWfrYuM8+3F/CngsZA
+Received: from domain.com (localhost [127.0.0.1])
+	by mta-domain.com (Postfix) with ESMTP id 3bbHPJ3Qrnz2362k
+	for <user@domain.com>; Wed, 19 Jun 2015 16:11:48 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=barackobama.com;
+	s=ofakey; t=1371672708;
+	bh=e9RU1TFjaput15NIXPH/KbhyG3Jn8SN/LxlUP0PoJrY=;
+	h=Date:To:From: "Jon Carson, BarackObama.com" <info@barackobama.com>
+	 MIME-Version:Content-Type;
+	b=BhLSqzFj/BO3fsBOdOpCe4TpRBYcMKdfGUygq45JMmxrMf/VbqQw2h1R9nn0Ypray
+	 wJq6x2EY3rAm3WtHOemJ01O2pNfWTWrLzRuUCbiSsR8TA1rkvQCHhejN8TViZMZWRS
+	 YGu1EEUISvnV6qwej+rV2vSdsIg3pNvNw6DrXypo
+Received: from maillist-o 
+	by domain.com with local (PHPMailer);
+	Wed, 19 Jun 2015 16:11:48 -0400
+Date: Wed, 19 Jun 2015 16:11:48 -0400
+To: John user <user@domain.com>
+From: "Jon Carson, BarackObama.com" <info@barackobama.com>
+Reply-to: user@domain.com
+Subject: This is high school stuff
+Message-ID: <9user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 6259ef9398cfdd3c
+X-rpcampaign: rp_120485
+X-CampaignID: xgreenarrow:CgdXWAJtVQdRAwQ
+X-maillist-guid: CgdXWAJtUAZQClVTCFYKWQBfVFYHVGxZDVFcTUZbUQEWEVd1BAkHXQkdU1pc
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_9e79d91f447e895c6111f17bda606862"
+
+John --
+
+I wanted to make sure you saw Lindsay's email from yesterday
+-- and I'd like to point something out:
+
+Yesterday's debate over this invasive legislation showed us
+once again that we're up against some elected officials that
+lack a foundational understanding of science. One congresswoman,
+after watching the debate, said she wondered whether high
+school biology should be a requirement for running for office.
+
+It really makes you wonder what these politicians are thinking
+when they try to put themselves between a woman and her doctor
+when it comes to health care decisions.
+
+Stand up for women's health. Add your name and say you'll help
+keep lawmakers out of these private decisions:
+
+<<link>>
+
+Thanks,
+
+Jon
+
+----------Original Message----------
+From: "Jon Carson, BarackObama.com" <info@barackobama.com>
+Subject: I can't believe this just happened:
+
+Friend --
+
+This just actually happened: 
+
+The House of Representatives passed one of the most unbelievable,
+unconstitutional attacks on women's health in a long time.
+
+It's a bill written by Republican Arizona Congressman Trent Franks,
+which would ban abortions after 20 weeks, except in extremely
+limited circumstances -- a direct legislative challenge to Roe v. Wade.
+
+And 228 members of Congress just voted for it.
+
+Maybe they weren't paying attention to the reaction of Americans
+across the country  last year who rejected candidates who wanted
+to restrict a woman's access to safe, affordable health care.
+
+That's a message they need to hear loud and clear right now -- if you
+think politicians have no right to get between a woman and her health
+decisions, add your name and say you won't stand for it:
+
+<<link>>
+
+This bill made it out of the House Judiciary Committee thanks to the
+votes of 23 Republicans -- all men, of course.
+
+And Rep. Franks objected when opponents tried to raise the issue of
+rape, saying, "...you know, the incidence of rape resulting in
+pregnancy are very low."
+
+Women made their voices very clear last year when it came to the
+extreme positions that some elected officials took on women's health.
+But that hasn't stopped conservative politicians from trying to repeal
+Obamacare, block the renewal of the Violence Against Women Act,
+and push an agenda that uses terminology like "legitimate rape."
+
+Making progress on smart health policy isn't easy, but when
+Congress is spending its time actively trying to chip away at a
+woman's rights, it feels impossible.
+
+We can't just sit back and hope it goes away -- we need to
+speak up.
+
+OFA supporters are going to be on the front lines reminding
+Congress we're here and we care about women's health.
+
+Join the fight today:
+
+<<link>>
+
+Thanks,
+
+Lindsay
+
+Lindsay Siler
+National Director of Issue Campaigns
+Organizing for Action
+
+---------------------------------------------------------------------
+Paid for by Organizing for Action.
+
+Contributions or gifts to Organizing for Action are not tax deductible.
+
+This email was sent to: user@domain.com
+To update your address, go to: 
+<<link>>
+To unsubscribe from these messages, go to: 
+<<link>>
+Organizing for Action, P.O. Box 66732 Washington, D.C. 20035
+

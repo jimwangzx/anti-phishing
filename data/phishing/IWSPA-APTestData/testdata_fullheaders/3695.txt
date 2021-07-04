@@ -1,0 +1,159 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp816219lfr;
+        Sat, 8 Aug 2015 06:00:41 -0700 (PDT)
+X-Received: by 10.70.44.199 with SMTP id g7mr25831776pdm.152.1439038840938;
+        Sat, 08 Aug 2015 06:00:40 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.4])
+        by domain.com with ESMTP id dj5si14102945pdb.226.2015.08.08.06.00.39
+        for <user@domain.com>;
+        Sat, 08 Aug 2015 06:00:40 -0700 (PDT)
+Received-SPF: neutral (domain.com: 216.82.251.4 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=216.82.251.4;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 216.82.251.4 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211] by server-4.bemta-12.domain.com id D7/CC-29923-77DF5C55; Sat, 08 Aug 2015 13:00:39 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-14.tower-53.domain.com!1439038836!21634656!3
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.16; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 528 invoked from network); 8 Aug 2015 13:00:38 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-14.tower-53.domain.com with AES256-SHA encrypted SMTP; 8 Aug 2015 13:00:38 -0000
+Resent-From: "Leslie Garvey, Project On Government Oversight" <leslie@pogo.org>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Sat, 8 Aug 2015 09:00:37 -0400
+Received: from [216.82.254.83] by server-6.bemta-7.domain.com id
+ 2F/9B-32423-57DF5C55; Sat, 08 Aug 2015 13:00:37 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-7.tower-197.domain.com!1439038834!8655906!1
+X-Originating-IP: [64.244.120.49]
+X-SpamReason: No, hits=0.0 required=7.0 tests=HTML_MESSAGE
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.16; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 6495 invoked from network); 8 Aug 2015 13:00:34 -0000
+Received: from mta-domain.com (HELO
+ mta-domain.com) (64.244.120.49)  by
+ server-7.tower-197.domain.com with SMTP; 8 Aug 2015 13:00:34 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=selector1; d=mta-domain.com;
+ h=Message-ID:Date:From: "Leslie Garvey, Project On Government Oversight" <leslie@pogo.org>
+ bh=BCtfcvo1OTmnb4qbhzbFMvMrqxk=;
+ b=hDoA3ruXk6a06gdaVB+YjFlBYUr301lFU/ww4G717WxJhdWQjJtGyo1d7UF9Ce5TfWWiiUEalVdf
+   EDZQW+7R318V8luYfDa37RX8zli4IwJuPYJAyVSqSC7BUmgs407daJShGffOqj4KFkg9uGAFCFZe
+   b+aLsun3sKoImzSC/vs
+Received: from 10.0.31.227 (10.0.31.63) by mta-domain.com
+ id honun422uroe for <user@domain.com>; Sat, 8 Aug 2015 08:00:33
+ -0500 (envelope-from
+ <user@domain.com>)
+Message-ID: <1703656849.1439038833900.user@domain.com>
+Date: Sat, 8 Aug 2015 08:00:06 -0500
+From: "Leslie Garvey, Project On Government Oversight" <leslie@pogo.org>
+Reply-To: "User" <user@domain.com>
+To: John user <user@domain.com>
+Subject: =?ISO-8859-15?Q?Weekly_Reader:_Our_expos=E9_go?
+ =?ISO-8859-15?Q?t_Hillary_Clinton's_attention?
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_8949692_805349804.1439038833899"
+Organization: Project On Government Oversight
+X-campaignid: Convio-poola-pogo-24261
+X-Gateway: c3poola1
+XData: 1010,4949E9M@4user@domain.com@i-Wwjq-e
+X-ConvioDeliveryGroup: poola
+
+Project On Government Oversight
+<<link>>
+
+---
+Clinton Emails: Inside Response to POGO's Kabul Embassy Expos=E9 ( <<link>>
+etinvolved.pogo.org/site/R?i=3Dgwcqo-1lrBYN3YcigLc-Tw )
+
+Secretary Clinton's newly released emails from 2015 show that the
+State Department saw itself primarily in a battle to domain.com public
+relations damage that could arise from the Kabul Embassy scandal.
+
+Read more ( <<link>> )
+
+--
+
+Yes, America's Psychologists Abetted Torture Interrogations
+
+( <<link>> )
+
+The American Psychological Association is holding its annual
+meeting under the shadow of a new report on the Association and
+CIA torture, and a host of serious oversight questions.
+
+Read more
+( <<link>> )
+
+--
+
+All Means All: Departments Must Stop Restricting OIG Access
+
+( <<link>> )
+
+When does "all" not mean "all"? Watchdogs throughout the federal
+government are confronting this question in the wake of new legal
+opinion at the Department of Justice.
+
+Read more
+( <<link>> )
+
+-
+
+Testimony: Justice Department Fails to Ensure Inspectors General
+Have Access to Necessary Records
+
+( <<link>> )
+
+Many federal agencies handle records that are highly sensitive
+and legitimately withheld from public dissemination. That doesn't
+mean they should also be withheld from IG offices or by extension
+from Congress -- both of which offer independent oversight and
+recommendations to improve agency operations.
+
+Read more
+( <<link>> )
+
+See also in: The Washington Examiner ( <<link>>
+=3DY-4SS81wXCTxeA1EJcpRrQ )
+
+**********************
+From the World of POGO
+**********************
+
+POGO Receives CREDO Grant
+
+( <<link>> )
+
+CREDO Action, a social change advocacy group that disburses money
+to three different nonprofits each month, has awarded the Project
+On Government Oversight an $87,500 grant -- the largest CREDO has
+given since January 2015 -- based on a June balloting.
+
+Thank you for voting for us!
+( <<link>> )
+
+-
+
+We're Hiring: Director of Communications
+
+( <<link>> )
+
+Do you or someone you know have what it takes to get our message
+to the masses? We're hiring a new Director of Communications to
+oversee a strong communications team and perform a variety of
+functions, particularly in traditional and online outreach.
+
+More details
+( <<link>> )
+---
+
+Unsubscribe: <<link>>
+QN64M6RJRv&cid=3D1022

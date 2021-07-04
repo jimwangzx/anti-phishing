@@ -1,0 +1,94 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.3.4.5])
+	by domain.com (Postfix) with ESMTP id EF305536E19
+	for <user@domain.com>; Mon, 12 Dec 2015 08:23:53 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 581616FA217
+	for <user@domain.com>; Mon, 12 Dec 2015 08:23:51 -0500 (EST)
+Received: from domain.com (domain.com [10.2.3.4])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Mon, 12 Dec 2015 08:23:51 -0500 (EST)
+Received: by domain.com (Postfix)
+	id DA4BD1BC45; Mon, 12 Dec 2015 14:23:52 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from localhost (unknown [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 8B6FA1BC1B
+	for <user@domain.com>; Mon, 12 Dec 2015 13:23:52 +0000 (UTC)
+Received: from domain.com ([10.2.3.4])
+	by localhost (lujan [10.2.3.4]) (amavisd-new, port 10024)
+	with ESMTP id 06489-04 for <user@domain.com>;
+	Mon, 12 Dec 2015 14:23:39 +0100 (CET)
+Received: from ServerDSP (unknown [151.9.12.114])
+	by domain.com (Postfix) with ESMTP id C20FC1BB54
+	for <user@domain.com>; Mon, 12 Dec 2015 14:23:38 +0100 (CET)
+Received: by ServerDSP (Postfix, from userid 0)
+	id 84B9C19FE654; Mon, 12 Dec 2015 11:11:11 +0100 (CET)
+To: user@domain.com
+Subject: [*** POSIBLE SPAM***] Please Restore Your Account Access
+From: service@paypal.com <pp@paypalssl.com>
+Content-Type: text/html
+Message-Id: <20051212101111.84user@domain.com>
+Date: Mon, 12 Dec 2015 11:11:11 +0100 (CET)
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at domain.com
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.8 required=5.0 tests=HTML_20_30,HTML_IMAGE_ONLY_24,
+	HTML_MESSAGE,MIME_HEADER_CTYPE_ONLY,MIME_HTML_ONLY,NORMAL_HTTP_TO_IP,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,RCVD_IN_BL_SPAMCOP_NET 
+	autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.5 HTML_IMAGE_ONLY_24 BODY: HTML: images with 2000-2400 bytes of words
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 HTML_20_30 BODY: Message is 20% to 30% HTML
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (<>)
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 121
+
+As part of our security measures, we regularly screen activity in the 
+PayPal system. We recently contacted you after noticing an issue on your 
+account.We requested information from you for the following reason:
+
+We have reason to believe that your account was accessed by a third 
+party. Because protecting the security of your account is our primary 
+concern, we have limited access to sensitive PayPal account features. We 
+understand that this may be an inconvenience but please understand that 
+this temporary limitation is for your protection.
+
+Case ID Number: PP-104-695-073
+
+This is a reminder to log in to PayPal as soon as possible.
+
+Once you log in, you will be provided with steps to 
+restore your account access. We appreciate your understanding as we work to 
+ensure account safety.
+
+Follow the link bellow to proceed
+
+<>
+
+In accordance with PayPal's User Agreement, your account access will 
+remain limited until the issue has been resolved. Unfortunately, if 
+access to your account remains limited for an extended period of time, it 
+may result in further limitations or eventual account closure. We 
+encourage you to log in to your PayPal account as soon as possible to help 
+avoid this. 
+
+We thank you for your prompt attention to this matter. Please 
+understand that this is a security measure intended to help protect you and your 
+account. We apologize for any inconvenience.
+
+Sincerely,
+PayPal Account Review Department
+
+PayPal Email ID PP271

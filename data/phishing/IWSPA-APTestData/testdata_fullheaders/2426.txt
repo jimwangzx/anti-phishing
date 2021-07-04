@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.140.18.137 with SMTP id 9csp198846qgf;
+        Wed, 5 Mar 2015 11:59:36 -0800 (PST)
+X-Received: by 10.66.253.33 with SMTP id zx1mr9520458pac.28.1394049572903;
+        Wed, 05 Mar 2015 11:59:32 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-pd0-domain.com (mail-pd0-domain.com [2607:f8b0:400e:c02::234])
+        by domain.com with ESMTPS id vo7si3229212pab.248.2014.03.05.11.59.32
+        for 
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 05 Mar 2015 11:59:32 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c02::234 as permitted sender) client-ip=2607:f8b0:400e:c02::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c02::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-pd0-domain.com with SMTP id v10so1477259pde.39
+        for ; Wed, 05 Mar 2015 11:59:32 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=subject:From: Gabe user <guser@gmail.com>
+         :content-transfer-encoding:mime-version;
+        bh=KqEsiKOEoOaF3QcgQ4UKOSzb939BcxKMS8eR1K0/huA=;
+        b=Md1kr2889J7rNYMOfhvQzxVIm1tkQsHPt3fvzhogeXTqqmeuUOgpsNH98iXlHbd5Ao
+         /sootOOqpPDE4MABM8njkVdywpWEE29CYnr9BAPYrjrPqdqX4hd68Nq93sbLgGU0kY9t
+         xKBTxb9AFqbsh4XIAslSS2UXHDJ8KxcCg2H8u+MWbzP6ZpXUqzsUQu3FpQQvIULaHGVR
+         EBRYJ3L49JE96rRK+K0BHzpsS/w7wPXRYHtAip2vJJwIIP2IJsbQ10UoYOfEkpMEjiba
+         NM7WWOYTydt5LnF5gvMtdaDBpaGqSMY+AM8UU05iKipuXxF3M8rOFXRjCNMULSBHr4FA
+         d3dw
+X-Received: by 10.68.172.37 with SMTP id az5mr9142641pbc.139.1394049571933;
+        Wed, 05 Mar 2015 11:59:31 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2600:100f:b025:f847:ed32:b59a:5a66:bd95? ([2600:100f:b025:f847:ed32:b59a:5a66:bd95])
+        by domain.com with ESMTPSA id sx8sm21038288pab.5.2014.03.05.11.59.28
+        for 
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 05 Mar 2015 11:59:29 -0800 (PST)
+Subject: Flights Out
+From: Gabe user <guser@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+X-Mailer: iPhone Mail (11B554a)
+Message-Id: <4user@domain.com>
+Date: Wed, 5 Mar 2015 11:59:25 -0800
+To: Mary user <user@domain.com>, Mae user <user@domain.com>, 
+ Megan Rouse <user@domain.com>, John user <user@domain.com>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+
+Looks like I'll fly out of Norfolk (alas, not BWI) on the 16th.
+
+Sent from my iPhone

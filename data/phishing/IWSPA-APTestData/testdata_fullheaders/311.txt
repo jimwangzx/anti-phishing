@@ -1,0 +1,198 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.197 with SMTP id y188csp477555lfc;
+        Thu, 5 Nov 2015 08:46:30 -0800 (PST)
+X-Received: by 10.50.115.40 with SMTP id jl8mr4359609igb.17.1446741990014;
+        Thu, 05 Nov 2015 08:46:30 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.110.254])
+        by domain.com with ESMTPS id e27si7251983iod.151.2015.11.05.08.46.29
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 05 Nov 2015 08:46:29 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.110.254 as permitted sender) client-ip=157.56.110.254;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.110.254 as permitted sender) user@domain.com;
+       dkim=fail user@domain.com
+Received: from domain.com (10.162.170.160) by
+ domain.com (10.242.216.24) with Microsoft SMTP
+ Server (TLS) id 15.1.312.18; Thu, 5 Nov 2015 16:46:28 +0000
+Received: from BN1BFFO11FD044.protection.gbl (2a01:111:f400:7c10::1:185) by
+ domain.com (2a01:111:e400:3000::32) with Microsoft
+ SMTP Server (TLS) id 15.1.318.15 via Frontend Transport; Thu, 5 Nov 2015 
+ 16:46:27 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=tedstrickland.com;domain.com; dmarc=none action=none
+ header.from=tedstrickland.com;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.75;
+ helo=domain.com;
+Received: from domain.com (141.161.191.75) by
+ domain.com (10.58.144.107) with Microsoft
+ SMTP Server (TLS) id 15.1.325.5 via Frontend Transport; Thu, 5 Nov 2015 
+ 16:46:27 +0000
+Resent-From: Frances Strickland <info@tedstrickland.com>
+Received: from na01-by2-domain.com (141.161.191.14)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Thu, 5 Nov 2015 11:46:26 -0500
+Received: from domain.com (10.141.52.148) by
+ domain.com (10.242.46.148) with Microsoft SMTP
+ Server (TLS) id 15.1.318.15; Thu, 5 Nov 2015 16:46:22 +0000
+Received: from BL2FFO11OLC003.protection.gbl (2a01:111:f400:7c09::191) by
+ domain.com (2a01:111:e400:2414::20) with Microsoft
+ SMTP Server (TLS) id 15.1.318.15 via Frontend Transport; Thu, 5 Nov 2015 
+ 16:46:22 +0000
+Authentication-Results: spf=pass (sender IP is 74.121.53.54)
+ smtp.mailfrom=bounce.e.tedstrickland.com; domain.com; dkim=pass
+ (signature was verified) header.d=tedstrickland.com;domain.com;
+ dmarc=bestguesspass action=none header.from=tedstrickland.com;
+Received-SPF: Pass (domain.com: domain of
+ bounce.e.tedstrickland.com designates 74.121.53.54 as permitted sender)
+ receiver=domain.com; client-ip=74.121.53.54;
+ helo=mail5781.e.tedstrickland.com;
+Received: from mail5781.e.tedstrickland.com (74.121.53.54) by
+ domain.com (10.173.161.187) with Microsoft
+ SMTP Server id 15.1.325.5 via Frontend Transport; Thu, 5 Nov 2015 16:46:22
+ +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=spop1024; d=tedstrickland.com;
+ h=Date:From: Frances Strickland <info@tedstrickland.com>
+ bh=ynvtMZF9ysDusf5vocAvWNKFTiM=;
+ b=Hdg1tUTyTPQl1r0OgnYLze2CkDtWe3dh+Udeiwr3Gdtw64XwI8yA68pdStILpUF6/5NT62UY9hYQ
+   +512nUaOZk2HmmIVrbPdwU8YyfUFW+H88rQx6bff6Ed7KXQHi/+PWFDPTX0IFDSAGMA0xkO+GSQ+
+   Qj0eOJQ3+20+YygPPaI
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=spop1024; d=tedstrickland.com;
+ b=eLip30+Lfs9LbHvvoJrhZoNnSfGTeOOnJ+4TZmD25NMg0CBxQYwsxCKepq6EpWibEOsfuqmvWbTG
+   Wb3poQwwcuIoRwBya1qhNjRZQF440WylWJyQzwjjTlf193xZh2KRAICRWs5giFig+OxsG/oLfAH9
+   tl9Dj4DUpblXuJdKRsI=;
+Received: by mail5781.e.tedstrickland.com id h7e3ts19if4b for
+ <user@domain.com>; Thu, 5 Nov 2015 16:46:22 +0000 (envelope-from
+ <user@domain.com>)
+Date: Thu, 5 Nov 2015 16:46:22 +0000
+From: Frances Strickland <info@tedstrickland.com>
+Reply-To: <user@domain.com>
+To: user@domain.com
+Message-ID: <1342088199.277512101446741982275.user@domain.com>
+Subject: =?utf-8?Q?What_an_exciting_time_for_Ted=E2=80=99s_campaign!?
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_126191_1135247399.1446741976252"
+x-mid: 8224074
+x-job: 8224074
+Feedback-ID: pod2_24208_8224074_800479228:pod2_24208:ibmsilverpop
+x-rpcampaign: sp8224074
+x-orgId: 24208
+List-Unsubscribe: <mailto:user@domain.com?subject=Unsubscribe>
+Return-Path: user@domain.com
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11OLC003;1:gqB5a62Zs3oYskyaC1ZEKZCwMkHn8atWDHOtYEtil6FSJ/2tRFq5WnzX70eEm6T5xY4p2RBYs+pa+e3S1j12af1baKjWrupZM4H8bZ6PrUTBkTeJsTkQxNlgY8lPM0BFUM0zJ2ea1gKrbF3jxs5WoldYcgpaS1PoBXNjAsXjiCCS9+xslvT/iyUNBhaf/MOtYb+sNRaSk1nWdvF7AbZNrJJ8LPexq5juH8xwfIlSqG9AyalqDhDsdheZH7FZSfJM6XCWPRiNmy/wIyKaQkmrf0HL6BdDZ8+MxQ8GIevKH86SVOov5/PukbdDnw3NeODaG0G2cALnuMnnzlQRVPNQ9z3gx95Xio/Ag7drTKtHDbl4t4tjoNnfPLhjaN41aS/euVtEjn569Oaeja9maCReUy/tQNhowr43WXO/fV2GhvbQcCaRnH2qpr85mQkzoxDL
+X-Forefront-Antispam-Report-Untrusted: CIP:74.121.53.54;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31610200002)(1120300003)(2980300002)(438002)(359002)(189002)(349900001)(349012);DIR:INB;SFP:;SCL:9;SRVR:BY2PR07MB105;H:mail5781.e.tedstrickland.com;FPR:;SPF:Pass;PTR:mail5781.e.tedstrickland.com;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB105;2:DMDmjbusmzbovFcz5+iQ/tSiBgSV6DzcqWzl1TB/ZX5LCRc8mSqSkr0L+Y5ClLp+mgoWbSUQzMHdcqlL+gwfiXdu8DkHvQXGmAW1LWokl7ssxROgXzCHPFaK8KJ16nHPZ/BI0VJ02/l3uN9ncPsf7NjGPaJ8lH+DBfU88NU8J40=;3:Q59d14Ats36Yk4VjXqkYxW5IXofsgdbG/RH19XuGAYUYrzFDiCoRDud3O0rxLcyGZl2vbhYhWiC2NtaOfLpfwGa6t82qyICnXoMeUtM0SDu0hUR/KZ//P3xDn3LyIIMbLnJZY9HJNVnjV4JtZRbOobOy7zQFLayX7d45EBF1mWmj2Kpg2jM4gQqHy1wFLuft5VIyKYvQqWfDstHGUem/MGcIqRRKxZe8Th9FmRt0eaIqlJzkbXR+waoykmXrMjnjwTtYn9KuxpsQUWGRsmoirvTvrYGz/0LdyKrRD9GeLTDXlX23SZdp2qa8xOqeTXeHdbMcq6rlrZsCuGj5To2gnWyIPMnu7MFh1Pl/TBDHEQDbzxEoNw/gwqxDI9LkohPv;25:xLE05t9yWGxoVS+nK+/PjQZwZMpHAyb8nrqTiEFF/yr0e0p/cRRwYdnZEPtr0bf1x4v1GPDRV/g9XehzqcLUSen9YF2rafWHetZ/57XVY0nyfjlAVmFl5p6oKCo4D0ilbUxhnMEUh2cVHXF0Q/uIRxVo8dobsZFrYYZQ52JPLwCqL7K7e7trGXd8vGWd2TPjECkTE7b4B0KhCo0+xy8QkMKWCwsQm594P42kifUkoiMsWXRj9z3xQwC7oiLMuuOGdeuBC/56ZfWvNsgNPWskVQ
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:5;PCL:0;RULEID:(421252001)(42134001)(42139001)(8251501001)(3001015)(71701003)(71702001);SRVR:BY2PR07MB105;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB105;20:MMWePJD9PaVYO3/W9/m0lWeDr+BCUp932ZH+oxMSXI+jNy/ewd3klIjsa9+srqyNowGdhFEDOdqGyP/Wgf+xp8kT8a6OgOxVnWXIsSlpkqzZ2OIiHl8Fh6O2QwU4nNWnk5ZX3FZF951/iGnUJ0HDWJwZIA13g9rOAYkI2HvO97U=;4:Z3PBJzhyfd4492hqdvmfKfE5+HEPGVU3jIBqA3+lx61Yqnln8r8AJzogdox/pWe29VjMD8GZlu9dCFjvRUVljMnmiBYuUgT7NebIX5niXwg3M13Cw9L7j5d9lS2PYAAjX04B+higHNM+h8CvGJa1VE07eU149qZTSBdjqIsk3Ci5KW2tPE4TN2bL+2AvM4s3Wl55YlDnqTskNQnO3t2IlNhUUflOk+VYm6WV4gZ6kK0nCybS41XzC8V00Vanll16NOjJ5y52kW+xF5wKnYV44t5DmqHIFk5c3USLfnPO8G5oMNSd/m04kmgaPM6529mp9au7cfMcAmm/Br1akaFq2Omc7HnxYLtz1lAo6AQkUdVz9Tjv8C7hosiv/qqUf+0Q;23:RNhCSsVhn4rRNtH9Eb82uoMNSC5l6aKIvq9bJZDl5Y/A6HRwUOha4VwZHTdeoxGCKo2rrCbkIeOESYVPVJfWDGyfD2hCVz9UZlsZlO1IsXALUMV8nfcyOmfGWybvU5r36gEvhq4VmRdjc2GHkhbmIW9mUkejb6IxiIXdoEr49xXl3MG+o99GokzpxLENeYzclzw37DXDfayCYQREnJKjJya05O1gyKbsVCNg96BxB7qPBzHK8cI/C1jSjd1ovwE648AMjvNmDLWmE/PDWjXbM6x1M6njizjjQzL5YM0tYla7mo714UDNCO0aq3gYqNGkbUczIq8cS+Cm4veG2YZgsb90X0UTBXQvAJD6bK5VoOM
+X-Exchange-Antispam-Report-Test: 
+	UriScan:(76009858676777)(6594202986349);UriScan:(76009858676777)(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:5;PCL:0;RULEID:(601004)(2401047)(520078)(8121501046)(10201501046)(3002001);SRVR:BY2PR07MB105;BCL:5;PCL:0;RULEID:;SRVR:BY2PR07MB105;BCL:9;PCL:0;RULEID:(601004)(2401047)(520078)(8121501046)(5005006)(3002001)(10201501046);SRVR:BN1PR07MB101;BCL:9;PCL:0;RULEID:;SRVR:BN1PR07MB101;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB105;5:gxryY18hJfm0zi30Ar9FTm3rIlyUIqYzmimuUTbYjQ22DIWv2wqwSiBVxHuCyix9o37S0mW0svmZwS/VazQVmNTQNrjWyfZB0k1CBhrI0yoq2/vUS1apMY0N5qSYV4bzeH/DlaVUm39dbmiX71yJ0Q==;24:SKehusTrzXL80/SpRy8gdm2D7FUQqPNcWrwTHE6PYGxaUeGxEafaXF6qAkKtPvXPm6XkfMWfMTlg5ARj2nXApA==;20:6unMuQQy4ADwzeg4ZL15iBYvfbxQH0PFw+HEODCh3+YB/zs/xF1CGAfBpByw2yNlU5FDDzjQoJokGbgmz+6+hw
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 5
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB105
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1BFFO11FD044.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1BFFO11FD044;1:rhEqgYeuQediLDFpV/NZKDfZWB1fod84LSBWfPK2GkeYCWMUyuIrOcqYhBDa/eQx8fUeJbbMIstzQrqO5RdMqNFaunu5wXGxj4Cr0nVCdCyxIrYnVpndfY6u8vvOimZdI3BShei3SUcg4xO6CHkHRQnXvwLzqIzYPm5DN1SvWzV8rE4O62E7vmBQKtZ7fxu+tvXRpdJaH9tj9uwQnpdBKWpkeVDVG9V1ZaXYL9nck1IZr3+XwPc0d0fE8/U5FY2fgna4eWENmjmUeyH1ZWi/EMTObq1Zd4wY8XZAxbBhCb8n71t6buO9kQOHslnneNMVkpE5cIKBw5DmJMYNiEjFl9BbTka+F7ACIPQaD9QZer2i3/wq33M2/nVlGY+nohjPEkRimn++PxeqmgzdFXD+3Q
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(10009020)(1120300003)(2980300002)(1109001)(1110001)(339900001)(359002)(189002)(349900001)(199003)(349012);DIR:OUT;SFP:1501;SCL:9;SRVR:BN1PR07MB101;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB101;2:Fiem9En4miuYKnRWAWkQ5MFWZGY7VJM36+l5JUlvR8TgpZ3nir6CcP3Pigt/wgSTWBUOcplMmPQPOl9Adv+M7/VeMvjQZWo0AYGVEsZrh8o1UpaXbgILPkd/ZzeFj6kO1BojisuQx1uCA+UK4BaHCEBvz12Gly9irGOyqN3ioxg=;3:Sa67LsFjc8M4smjLxy5A5BU9Lj9q0R5XVMAIPCQnZzvDM7etH27T4/7a8rE34BPB9oXDx24iCm21iHN1hxmRDMl+B1XbNSrLU99KGk3RiVl+QjAw+cJOd2RdKAB60BySpFK3OmUZ3RytCO3MkJERSKi7Ib+JEG2fWz/BKbZ5b/kR1JdjzknmfH7bIiHv/IsZarecRXoeVXpe/tfFETONTAWUKPzHD/EOxjn2uIHb+nVCx5skj1V9i9Wpos2THW56bzHp3NYZf+IG9ZmiMtzwGICsuZZZqeerNmOfr0Hxeeg1OI3vkSxZ1MFxbQkbevqs;25:zZ9id04algFq4KBtsj3ARZ2c3qg//9cQSMshGGQa/WksUeVG3WElpZe6JFddItTUjgVHh+y0FpuMV9Ogt74baR4tKy0CTmkzpBkLjjon13j2Qw3Nbs17+k6aPImhQFh734Lwr+41e4x8jBAtSJdl0aiJavbWQgUAUcWWRLuPgvcRmbSwzcquk9gquKFi+uDDxb7Bv9GrJwEPMB//ErynwyMrZ27dlJmPGJKXUoym0z9n6vpurDC0hzAzKBH0RwshKky+Z1BNSWnD7sJgiGPuKw==;20:pMCjaJBVJSj//MlqiJThrEq5ie7EV+pZ/HJvhc0WLj/RNKMJG6oNoux4vWYenkRPAxdC4cXaJeFdgS/Jwg4nESaujEzoOe3jQPLSCtJPWvT97hha19OFocpha2HxgqvQRu/HdOQUXOcKeySgeFqxyW1AkuZbdiqW+hg6WTCghKA
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:;BCL:9;PCL:0;RULEID:(421252001)(42134001)(42139001)(3002015);SRVR:BN1PR07MB101;
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB101;4:fi4bFyE0pI0+EvlGXCTVMqBF+dD9TT8++lxCgBLG4hZ+Xzax6JLBCG7pmdd7+K4KW0UQVnXJPcXXaL9kydVPMagjT1ZqZ+2r5Pe36fSKaMbwyErEKjXKKrI9KXEkdEH/ibQwYtIfsC5uTMOdXz1p5YAhragM34Wk2OeNQoU/NsB0qCI0LF3lVsi09WPbyGzP3q2ywANCnx9QkiKxip6ZpXAxTZVSooCLTsB/JhCUZsl7/CdsuSzcYxgfD6CGWoJbXXem3XJWwGUWC1ukuXvslF8T3HachpPnc+6CPs+yy+o+ANMckSVUruKbo9wa4e2sfnNY88Km0A+2fnffhFA0oR/Mi4Q0whPMn42+R3XjQn3hvGSSY925hxVMOrl35hvE;23:63sfQGn9p9xswK5gb4UppeaJ8MsoIwXozf2j1XAl70WogoyAUom64WTve+9wlZyHaaKHXkXBGKXpVgHXjZDtL1pyxgQWdlBGYAMxFVSluETcVCpa+9AWL2XYY5V48xAfCfTqD33n2t+BwbZg4dztW7jEL5q0WQOWzReRGSF8V34D8W3C5Bymf6Kgz1Z5iEMXczZOyHTdFVSMzvNMzr4vFEl3l9bSinWzbOVb4b0t97Q4YAVT8xZHpKcaVDRQU6JS4McdOCgYhU2iWZKbeNhoSgCmsZFtnS+Lq0IvLkJrAxBRn0R33sez34GEEdEtN6pBCQBEPNPLbYu1J3i4CIsY40qkj3JGXluT0aR8Vq7tWGeLlGNbFUKdIlG97jOKBeew;5:F/8veSfbRDrXpW32UeHTZjtE3SAmBMDmKokL8LGNB25wkAx7svrPgjTSHFPQYD5IRmj/trWRISrOKYPwNbOkNDjFlzMlVsdHIPjmazmFaJ5HicAeO0ZyGmjhgBQYC52js7p7ZcyaVToK7nXgi/TNdQ
+X-Forefront-PRVS: 0751474A44
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB101;24:JOr5zBli6lzM+cXGGXC0jpQ2Zd9J6uHdqlj1PDATHFnb9AD4wrXuqxaA0wmZvS+0KM5GFvqYDb4IGfAWRqTuCw==;20:uLKObPa8DvgSOu1cZaaGreNPk4AekeV4dVCQ6TRd7PLaBi2Mo+GUMz/nsSIm4GK9CWG1JNjZn8UTqQ6F9lh0Vg
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 9
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 05 Nov 2015 16:46:27.3138
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN1PR07MB101
+
+What an exciting time for Ted=E2=80=99s campaign.=09
+
+Friend,=09=09=09=09=09=09
+
+What an exciting time for Ted's campaign!
+
+First, Ted travelled the state to help local Democratic candidates get out 
+the vote ahead of Tuesday's 2015 election. It sure paid off: Democrats now 
+run nine of Ohio's ten largest cities and all of the top five. And Ted had 
+fun along the way too! Here are some of our favorite -- and most adorable -
+- volunteers from the Team Ted GOTV Tour:
+
+Then, yesterday on MSNBC with Steve Kornacki, Ted made clear to the nation 
+that he intends to win one of the five seats that's necessary for Democrats
+ to regain control of the Senate, so that he can help the middle class.
+
+And before I forget, here's my favorite picture of all: Me with my best fri
+end on National I Love You Day:
+
+Ted has been devoted to the people of Ohio for more than 30 years. And as y
+ou can see, he's more ready than ever for the challenge ahead. Ted has been
+ to more than 40 counties across Ohio in the last few months alone - and I'
+m right behind him with 39 under my belt and counting!
+
+Everywhere I go, I see enthusiasm and excitement. It reminds me of the kind
+ of grassroots movement that took off behind Ted's first congressional camp
+aign. Then, just like now, we didn't have the most money, but we had the be
+st message and it spread like wildfire through the people of Ohio. It's goi
+ng to take that same kind of grassroots movement to get Ted elected this ti
+me around. And it starts with you.
+
+With just one year until Election Day, it would mean so much to him to know
+ he has your friendship and support.
+
+Will you sign our one year out card to Ted and tell him you're "all in" fro
+m now until Election Day?
+
+www.tedstrickland.com/all-in
+
+He would love hearing from you and knowing that you are "in" for the challe
+nge ahead. Every movement starts with just one person. I'm asking you to be
+ that person for Ted today, so he can go to the U.S. Senate and fight for e
+veryday working people here in Ohio.
+
+Thank you so much,
+
+Frances
+
+This email was sent to user@domain.com Click here to unsubscrib
+e <<link>>
+74&r=3DMTAyNDUyNjI4OTcwS0&j=3DODAwNDc5MjI4S0&mt=3D1&rt=3D0.=09=09=09
+
+Contributions or gifts to Strickland for Senate are not tax deductible.=09
+=09=09=09=09=09
+Paid for by Strickland for Senate=09=09=09=09=09=09
+All content =C2=A9 2015 Strickland for Senate, All Rights Reserved=09=09=09
+
+Strickland for Senate
+PO Box 2015 
+Columbus, OH 43216-2196=09=09=09
+
+Privacy Policy <<link>>
+2&r=3DMTAyNDUyNjI4OTcwS0&b=3D2&j=3DODAwNDc5MjI4S0&mt=3D1&rt=3D0            
+
+

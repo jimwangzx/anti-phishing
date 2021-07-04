@@ -1,0 +1,55 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp5239173lfi;
+        Tue, 9 Jun 2015 11:59:31 -0700 (PDT)
+X-Received: by 10.50.36.73 with SMTP id o9mr22259193igj.25.1433875643666;
+        Tue, 09 Jun 2015 11:47:23 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ie0-domain.com (mail-ie0-domain.com. [2607:f8b0:4001:c03::229])
+        by domain.com with ESMTPS id w5si7014280icy.32.2015.06.09.11.47.22
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 09 Jun 2015 11:47:23 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::229 as permitted sender) client-ip=2607:f8b0:4001:c03::229;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::229 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ie0-domain.com with SMTP id mu5so19403216ieb.1;
+        Tue, 09 Jun 2015 11:47:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=references:mime-version:in-reply-to:content-type
+         :content-transfer-encoding:message-id:cc:From: muser@gmail.com
+        bh=FbEfxByrAiyMKX6eLMkmzc0ojaZ9UEPkfMRpaqa2/n8=;
+        b=Y5PqlfuAWOEBUu9mS+1aoC1QMnDjnU3BsbYhrdujAp85iSdftbjH12pCnnkr4+2ZKD
+         MzjU2B3x+/Ix3p9LtrxVrxjGYXEAie6Jz2sUOJ3jQMbs4sWbXcBf5m5QKhBtb0l2JNMc
+         cECxL+L8aq4oAeBwB991SzNMj2F0qEOTmPX6zm7b0OVMOuXnaslWaNJQu8cve1lzIiNM
+         q88Q1Ni/0qQDQdJz/CByuDH1x+ab41Wuu9yFpIGezWeK9UN0FjNG4ER1jjnMOxzaoT/U
+         0nyy+PUFWYGbtF2VVzeixIRJc9HoGaxsc73gJG9k+IXG4fVwsiIHp8cnw2wmGsstf2CA
+         PGiA
+X-Received: by 10.107.133.9 with SMTP id h9mr28844959iod.47.1433875639569;
+        Tue, 09 Jun 2015 11:47:19 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2600:1001:b128:4d96:28a3:7542:ee83:da2e? ([2600:1001:b128:4d96:28a3:7542:ee83:da2e])
+        by domain.com with ESMTPSA id k16sm1669627igf.19.2015.06.09.11.47.17
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 09 Jun 2015 11:47:18 -0700 (PDT)
+References: <user@domain.com> <user@domain.com> <user@domain.com>
+Mime-Version: 1.0 (1.0)
+In-Reply-To: <user@domain.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-51B84C36-8C9A-4D20-BCF9-1BD117E49E13
+Content-Transfer-Encoding: 7bit
+Message-Id: <39876668-user@domain.com>
+CC: Heather Kliegman <user@domain.com>, 
+ John user <user@domain.com>, 
+ Milia Fisher <user@domain.com>
+X-Mailer: iPhone Mail (12F70)
+From: muser@gmail.com
+Subject: Re: user
+Date: Tue, 9 Jun 2015 14:47:14 -0400
+To: Eryn Sepp <user@domain.com>
+
+I was likely planning to be in nyc but I can definitely make myself scarce
+
+Sent from my iPhone
+

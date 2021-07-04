@@ -1,0 +1,94 @@
+Delivered-To: user@domain.com
+Received: by 10.140.173.9 with SMTP id v9cs100022rve;
+        Fri, 20 Jun 2015 14:56:02 -0700 (PDT)
+Received: by 10.142.148.10 with SMTP id v10mr1962023wfd.303.1213998962923;
+        Fri, 20 Jun 2015 14:56:02 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2122.domain.com (yw-out-2122.domain.com [74.125.46.26])
+        by domain.com with ESMTP id 6si2975367ywc.8.2008.06.20.14.56.01;
+        Fri, 20 Jun 2015 14:56:02 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.26 as permitted sender) client-ip=74.125.46.26;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.26 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2122.domain.com with SMTP id 8so6537578yws.61
+        for <user@domain.com>; Fri, 20 Jun 2015 14:56:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Ian Mandel" <imandel@progressivemediausa.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=4p7oKNCmhfPaJRSIWRMKINQbPbd7WKaKWswv4G6IZmk=;
+        b=qSw+CUJzohcVXHUMJVPkvNFkzsMGIzUYFK7X65RQAaDZOQZWnG/WqWYThrvpT5nPuO
+         3tsg8BHMu4irQ1WJAwdrH47pm8Q1BE+2oOYzSq32MBZsuH9/v9iGej+TSEvOmwySIyoJ
+         yOi3KwXOZ1Ea5s0tD64iO+CP1DwYwNV5sZREs
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Ian Mandel" <imandel@progressivemediausa.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=f4XaWOmK943ASwmGLtDbnihLRciDQ81TRiJ3pvophmHt8HTJ5VqLUBcQZnnZd9Y9aY
+         HD/Ga7fEJAW33BCmV0CIfPDfHHtgqEvzbHNWEIQUX5TZJJkANdBUMI7I1HOqAmL+m2Vk
+         BN7hB6MFL19HRumWIPcHSOrURTwe37a37X90o
+Received: by 10.142.112.5 with SMTP id k5mr156424wfc.9.1213998954875;
+        Fri, 20 Jun 2015 14:55:54 -0700 (PDT)
+Received: by 10.107.113.4 with SMTP id q4gr971prm.0;
+	Fri, 20 Jun 2015 14:55:50 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.90.82.8 with SMTP id f8mr4252373agb.21.1213998950041; Fri, 20 Jun 2015 14:55:50 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from qb-out-0506.domain.com (qb-out-0506.domain.com [72.14.204.237]) by domain.com with ESMTP id x46si3379512pyg.2.2008.06.20.14.55.49; Fri, 20 Jun 2015 14:55:50 -0700 (PDT)
+Received-SPF: neutral (domain.com: 72.14.204.237 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=72.14.204.237;
+Authentication-Results: domain.com; spf=neutral (domain.com: 72.14.204.237 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by qb-out-0506.domain.com with SMTP id o12so4230037qba.45 for <user@domain.com>; Fri, 20 Jun 2015 14:55:49 -0700 (PDT)
+Received: by 10.143.163.3 with SMTP id q3mr1962647wfo.294.1213998949466; Fri, 20 Jun 2015 14:55:49 -0700 (PDT)
+Received: by 10.142.111.20 with HTTP; Fri, 20 Jun 2015 14:55:49 -0700 (PDT)
+Message-ID: <40user@domain.com>
+Date: Fri, 20 Jun 2015 17:55:49 -0400
+From: "Ian Mandel" <imandel@progressivemediausa.org>
+To: user@domain.com, "Ian Mandel" <user@domain.com>
+Subject: [big campaign] IE Watch 6/20
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_12714_26552475.1213998949439"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+*LCV:
+- *$125,000 for a media buy (Buying Time) on 6/20 in support of Mark Udall
+(Colorado Senate)
+- $10,241 for door hangers (Terris Barnes & Walters) on 6/20 in support of
+Mark Udall (Colorado Senate)
+
+*Life & Liberty PAC:*- $17,838.08 for phone/mail communication (Political
+Advertising) on 6/20 in opposition to Obama
+
+*Defenders of Wildlife:*- $200,000 for ad placement (Abar Hutton) on 6/19 in
+opposition to Marilyn Musgrave (CO-04)
+- $11,794 for ad production (Wildbunch Consulting) on 6/19 in opposition to
+Marilyn Musgrave (CO-04)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

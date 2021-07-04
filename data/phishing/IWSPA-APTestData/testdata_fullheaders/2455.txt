@@ -1,0 +1,72 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.31 with SMTP id o31csp2918735lfi;
+        Wed, 25 Feb 2015 14:56:08 -0800 (PST)
+X-Received: by 10.70.128.49 with SMTP id nl17mr9424668pdb.67.1424904967587;
+        Wed, 25 Feb 2015 14:56:07 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.111.63])
+        by domain.com with ESMTPS id 4si9190671pdi.235.2015.02.25.14.56.06
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 25 Feb 2015 14:56:07 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.111.63 as permitted sender) client-ip=157.56.111.63;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.111.63 as permitted sender) user@domain.com
+Received: from domain.com (10.255.202.27) by
+ domain.com (10.255.202.27) with Microsoft SMTP
+ Server (TLS) id 15.1.93.16; Wed, 25 Feb 2015 22:56:04 +0000
+Received: from domain.com ([169.254.9.119]) by
+ domain.com ([169.254.9.119]) with mapi id
+ 15.01.0093.004; Wed, 25 Feb 2015 22:56:04 +0000
+From: Craig Minassian <cminassian@clintonfoundation.org>
+To: John user <user@domain.com>
+Subject: Re: WaPo - Draft Quote
+Thread-Topic: WaPo - Draft Quote
+Thread-Index: AdBRPgN5RQLf3cZ6Th2dW2LpCIHyvAAAVCiZAAApHUAACszuAP//rvW1gABVmwD//7IogIAAAIyA///6xTCAABFHAP///+twAAA9awAAAB8BbA
+Date: Wed, 25 Feb 2015 22:56:04 +0000
+Message-ID: <user@domain.com>
+References: <user@domain.com>
+ <611user@domain.com>
+ <user@domain.com>
+ <988user@domain.com>
+ <596user@domain.com>
+ <55user@domain.com>
+ <user@domain.com>
+ <user@domain.com>
+ <user@domain.com>
+ <48589538-user@domain.com>
+ <user@domain.com>,<user@domain.com>
+In-Reply-To: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [198.11.11.43]
+authentication-results: spf=none (sender IP is )
+ user@domain.com; 
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:;SRVR:BN1PR08MB060;
+x-microsoft-antispam-prvs: <user@domain.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:;SRVR:BN1PR08MB060;
+x-forefront-prvs: 049897979A
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(6029001)(189002)(164054003)(24454002)(377454003)(199003)(122556002)(76176999)(82746002)(19580405001)(46102003)(87936001)(40100003)(2950100001)(102836002)(68736005)(2656002)(64706001)(2900100001)(93886004)(66066001)(50986999)(83716003)(54356999)(86362001)(19625215002)(97736003)(99286002)(105586002)(110136001)(106356001)(107886001)(101416001)(92566002)(19580395003)(16236675004)(33656002)(450100001)(77156002)(36756003)(62966003)(104396002);DIR:OUT;SFP:1101;SCL:1;SRVR:BN1PR08MB060;H:domain.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+received-spf: None (domain.com: clintonfoundation.org does not
+ designate permitted sender hosts)
+Content-Type: multipart/alternative;
+	boundary="_000_EEFD0185C52C48D4A188DD9DD7C5A4E4clintonfoundationorg_"
+MIME-Version: 1.0
+X-OriginatorOrg: clintonfoundation.org
+X-MS-Exchange-CrossTenant-originalarrivaltime: 25 Feb 2015 22:56:04.2538
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: a5cf9a4c-b130-4e85-be83-5c25a4252f2b
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN1PR08MB060
+
+Our folks said some government support because of where they operated so fe
+lt comfortable including but I'll double check
+
+The reality is the major most understand and relevant stat is CHAI
+
+Sent from my iPhone
+
+On Feb 25, 2015, at 5:52 PM, John user <user@domain.com<mailto:jo

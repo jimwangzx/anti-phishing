@@ -1,0 +1,223 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp1408230lfb;
+        Sat, 30 Jan 2015 00:56:21 -0800 (PST)
+X-Received: by 10.140.235.137 with SMTP id g131mr6957768qhc.43.1454144181303;
+        Sat, 30 Jan 2015 00:56:21 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.111.97])
+        by domain.com with ESMTPS id t37si21595586qgt.88.2016.01.30.00.56.20
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Sat, 30 Jan 2015 00:56:21 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.111.97 as permitted sender) client-ip=157.56.111.97;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.111.97 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Received: from domain.com (10.255.193.40) by
+ domain.com (10.242.200.23) with Microsoft SMTP
+ Server (TLS) id 15.1.390.13; Sat, 30 Jan 2015 08:56:17 +0000
+Received: from BL2FFO11FD033.protection.gbl (2a01:111:f400:7c09::101) by
+ domain.com (2a01:111:e400:45::40) with Microsoft
+ SMTP Server (TLS) id 15.1.396.15 via Frontend Transport; Sat, 30 Jan 2015 
+ 08:56:16 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (body hash did not
+ verify) header.d=domain.com;domain.com; dmarc=none action=none
+ header.from=domain.com.in;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.74;
+ helo=domain.com;
+Received: from domain.com (141.161.191.74) by
+ domain.com (10.173.161.129) with Microsoft
+ SMTP Server (TLS) id 15.1.355.15 via Frontend Transport; Sat, 30 Jan 2015 
+ 08:56:16 +0000
+Resent-From: =?utf-8?Q?SITA=20LEGAL=20PRACTICE=20=28SLP=29?= <slp@sitanet.in>
+Received: from na01-by2-domain.com (141.161.191.13)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Sat, 30 Jan 2015 03:56:13 -0500
+Received: from domain.com (10.163.126.35) by
+ domain.com (10.141.157.148) with Microsoft SMTP
+ Server (TLS) id 15.1.396.15; Sat, 30 Jan 2015 08:56:11 +0000
+Received: from BN1AFFO11FD037.protection.gbl (2a01:111:f400:7c10::115) by
+ domain.com (2a01:111:e400:52fd::35) with Microsoft
+ SMTP Server (TLS) id 15.1.396.15 via Frontend Transport; Sat, 30 Jan 2015 
+ 08:56:10 +0000
+Authentication-Results: spf=pass (sender IP is 198.2.131.172)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass
+ (signature was verified) header.d=domain.com;domain.com;
+ dmarc=none action=none header.from=domain.com.in;
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 198.2.131.172 as permitted sender)
+ receiver=domain.com; client-ip=198.2.131.172;
+ helo=domain.com;
+Received: from domain.com (198.2.131.172) by
+ domain.com (10.58.52.241) with Microsoft SMTP
+ Server id 15.1.355.15 via Frontend Transport; Sat, 30 Jan 2015 08:56:10 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?SITA=20LEGAL=20PRACTICE=20=28SLP=29?= <slp@sitanet.in>
+ bh=vgui3ISYvZdQec5cx/Q/63cxFyo=;
+ b=CAslheaDJ8wUYIKbKf4hRwjZqUmd7eCq38H5ghEjWt55iaT0YEAL9HKhz4wwKXcnU2PxcYKPQVCv
+   FocEou//w9+sC8sO0fyd9nK9uIa17MWp03rPBDJ2bBVbXUvVGLB2amsnzeUsZ0P2hLnnj/VL2qe9
+   i8ILYKsHaukvYDupCCY
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=xtie9dRyYdAyrJxM9JMns8WKpBuPNZgVJwsymHjcCPF3e+VpCrrP8WGMPlrJJ9RCH5tgJw8751EW
+   O9a3tGM6eEwfuPccTiPp/u1HS4J/xor/ZN31I+BFvHBM3kjRdN2G4k8JETfduUR0fgFpfy14pKvu
+   hFTP4OifFSznzKT2WqY=;
+Received: from (127.0.0.1) by domain.com id hlhtak1ohnc5 for
+ <user@domain.com>; Sat, 30 Jan 2015 08:56:03 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?A=20Digital=20Ecosystem=20for=20the=20Law=20Fraternity?
+From: =?utf-8?Q?SITA=20LEGAL=20PRACTICE=20=28SLP=29?= <slp@sitanet.in>
+Reply-To: =?utf-8?Q?SITA=20LEGAL=20PRACTICE=20=28SLP=29?= <user@domain.com>
+To: user@domain.com
+Date: Sat, 30 Jan 2015 08:56:03 +0000
+Message-ID: <user@domain.com>
+X-Mailer: MailChimp Mailer - **CIDa04c0b1ce84c5c72a395**
+X-Campaign: mailchimpc81203f475123a9e28e9c42cd.a04c0b1ce8
+X-campaignid: mailchimpc81203f475123a9e28e9c42cd.a04c0b1ce8
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: c81203f475123a9e28e9c42cd
+X-Feedback-ID: 12067671:12067671.590113:us5:mc
+List-ID: c81203f475123a9e28e9c42cdmc list <c81203f475123a9e28e9c42cd.135113.list-domain.com>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: "SITA LEGAL PRACTICE (SLP)" <user@domain.com>
+x-mcda: FALSE
+Content-Type: multipart/alternative;
+	boundary="_----------=_MCPart_517210926"
+MIME-Version: 1.0
+Return-Path: user@domain.com
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1AFFO11FD037;1:xm1744Os21ZdLqcxdD6OOlCk0koWloMww1lfpUOHeXiXLkBwE0lptxlDg+li48JI4ioufnMTEXgFJSKIuv2H2qZT7g9yVisTVBDImbiZ/yuG6rou4fPwzJBqj3vScGV84YJI/ddGsnuTFJ9MYX6kdI2Bbs3RZY91wnWbsb1VakPVpBQg+e5voo3RuBNCzPXuVkunrZY5B+4ziEVPoJZp8VwEom5IbC57sQOF3QqtUHN7V5rUJOn7B4Q1lAEovMBuIEtGGA5wa7Anpxw5yli2nboklFyT/TN1U2MOg3xH1kEf9f95tU6r/CcXlxUaZQcs30kg7Ao7MgOEdKjARfQ7vDvOLCE+/R7laKQ/gprrLlQq1cEofz3q0HuHycS9a0Pt9QkuxwACrlv8EvJqRN0bgzHste6SoV1AEQpKFNNkxZEPF6F1s6W7zCA0xWBPCHa6iMeQdUw+9fW0/pDgIoTJlJ9WuUrP5SDYPhcIA+8ZB86DfhtRoAK9NiLyeNbaNQdmJOidQS5RJ0MPBIMDPNZ9RQ
+X-Forefront-Antispam-Report-Untrusted: CIP:198.2.131.172;CTRY:;IPV:NLI;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:DM2PR07MB544;H:domain.com;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;DM2PR07MB544;2:sApCuW6QPDlxDioc54pMH7trmr8C82ukbigDqX1V/T0VgqEzLfEOQMg1q4+n86vUHwElHBq9am/na0FRz1yrxPuWpfsfHttOsmDijl688D1BlTJtaM+oRlZm3s/xw6EqKruoBodntE8380VN1LRWfQ==;3:RySCbMC2F1NXZ82n7lXTQqVFh5e0vBsmdhNXjI87yKBwnn5uH0fog3ROKbKPLqv/JaDO1PAEBmMo1LQc9LSz5ei9YZREr5niK0Ylq39r8ZRQugx918DoPMdTHFhlioS0UhpO8PeeFLg4Ah+eiJtZn3RTS/wOKw5TjqxcV+sHJlI2fPPJF2iCJmw3GZ2BLPqFx7yMe9lev2xeAvKoXw11GwtAw7nyljmvXhOw6Tu/qRJ+vTHrDbjDTO7h2JwPfC04MqD2B8ZrYkyoIuZKmZsYUxLKXUFUDAEFf+0kNIy+9LSkQsKMKiZ3JheJDAGpH+3vr1Ljd6GGL+VzJjYX4esEFOkUgXaaWdp+q5b6NFntQxHDXS9IKQx9qkFE8h1ZkU8giVikvjZy/66g4LjRfpVXNcAGl0sajPmTrXEEmOGYdYELCUmgnvN6ks8+jwTuw6Y5NljPmDx54uOUGU4yyfhANmCdKVzMplR308rCxJX41Pk=;25:TiYRH8qSQ6DymL2JEBC6/21jJijNgUqfjyI0Vj5cu/bBqGBLDmpawqJkc4zgBDErJWe50NNuv4eg5PRfPQ2TckFBFiwZ7YASFZ6rAK5hVJxZtWqlcLhrzQKg+1ysMQA9RrjgVxC7Sstl8iZlGYfC7mNmObQvqqqto+7S1CVS7H8+OSJGaaZpR1HVAtZFQnxarp17rBv0vp4RB0XFHQxbkdD6JOv4SudlIdof2rcyOBwemlpk89EeE/qLppSgbSh7
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:(96343)(28256)(92638)(92639)(92640);BCL:6;PCL:0;RULEID:(421252001)(42134001)(42139001)(42145001)(3001015)(120001)(71701003)(71702001);SRVR:DM2PR07MB544;
+X-MS-Office365-Filtering-Correlation-Id: e7b06c97-fabc-4f91-e3f9-08d329533694
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 
+	1;DM2PR07MB544;20:U3EyD/HgTOe7EWQvDAysU2rIj6Li1XZ+s8a06QH+wao1m1UrU6aMDS1cjwSO7BbJXM4HU8ZMb2TG3nBi1FqPUskLrq2vlOM1PKEnaKc5Yl2bK3dVUvqfNKDKUnnHXLUDybZt4wliMx3B6D7BhtRResyD+6yDcu+d4BcYWXAKO+6rT1PPPcdl6PKR5gcyatg5znavgnb1TMqP0t9n02Z+qSJ84WawTaFlP2CQ8PFOGeA0otoXOnL5JNWgKybCrBb1VbU/utQST1reaOk2M8TkfgXakGYIczCUnSLP7HF1Zou3NjwHQNSEXHpkXyKotHmGCnuLn1tMc0aZU61B5Opn9f+FCBVBEiJLd54z4RHdb4dskpOJh7LB3B2rG+kcrBvWpWwrSWVP/IAB+Qbrelol+PeXaQWrXOVbPG3XrDOK9BkfcQ19vRLZW20iA8r/RhRZ43auEyvxrk3V1gaFKMU/sPwSoe+/FSMFLU2Bg4pK59I/M3JY4je185tb8PXmuazAsyXnlc05ISD2LyzSJtoCGw==;4:YQm0hGIWEvKgLagbalOOA7HZyR88JcW8HSuAUQYMPhFuZv96c03kI2WZo0LbXdSy8LMjii1I1JePN3fKwFYn33+pjVz3PnEll1MtvfotyJo2OCCn0Ppjd5Qrgb/4gAKc6GuJCNT8T6XspAWo4tQpLl7Q2lopNXVSIpmW2m8G05wGiQVQKlkPGkDjQzaiRgurkE/veEYvki5llpqZkcNyIBFOgd39JC1tws2vDDNvIZO27KNfUTwdA6Moeu6q5IPqVXFU2w8cIMmMhnVsodHajgCR0UwqhMIs6eKZBKzVVClBnJ+MCdXTWp0SqLX0/FKb9X2jEKuA9M473p+gz+OMIVekOeCrPwvSispaeleIg+UgiE+epU3AQSjLIEBnaHNVIfNC7fJl1QsP/cmaVYytlldvi/EcQCaT/btGhNLC8V8
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(13016025)(8121501046)(13018025)(13024025)(13023025)(10201501046)(3002001);SRVR:DM2PR07MB544;BCL:6;PCL:0;RULEID:;SRVR:DM2PR07MB544;BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(13016025)(8121501046)(13018025)(3002001)(10201501046);SRVR:BLUPR07MB097;BCL:0;PCL:0;RULEID:;SRVR:BLUPR07MB097;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;DM2PR07MB544;23:pEGeILNrUrIADgnpB64xlsAUpL/oAM+nskpwtDxrl7hE4+aQjPFSOeCE7dg67xnKnlDUw/UaJD/yQRRQXtM3ZDbATXxNxN8HxCCK/W4v6AO/89YpxQKSEFXzoETYDJqw7mCl42M928e3frKkYD8h+kML19DUfzj3KjBWrD8tnUahqjel1t7+T2I2Pld24TV+TkprZduSGKsK7yCnyVlcqQ==;5:mxF8Id+crKyh4YY6YwQe9ock+UXknL/BwClEdSOtXRj4NovylwJSgpxU0HjsyynbU4hqNwH2IwRYSp+IhRMNzxrGfiEMF1uiAj+cbfaMhkM2ihBTlj0jbmXosokxS8htThMbEm3NsFC957Ut4OuQOw==;24:Z8IaUntWyNRJzCPCJprRFeZcB7j9a6azkJlta38foojWvyq7h5fVBIiYhhBwYa8dba23lWOc0cVuQ7RZPche5y1fA58qWolg576CBOlOfXs
+SpamDiagnosticOutput: 1:2
+SpamDiagnosticMetadata: 3c85f873dd7a4171976a269175c0457e
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM2PR07MB544
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BL2FFO11FD033.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BL2FFO11FD033;1:B6XRYOFPuIPiZ130PYqEw+x8pY4ox5bu8cLFIXQAZmaW5cH97xSwq8L8alNFjKcsB1oeoOQu9/89mW1zDnkUdQFvMu7wZHA+z/cou/ZFIwJsCvTxci68LUaVHetasERnD4eMBy3UF8wtRcv5CYZsfdV/dga+KmSJCoepru74W9RKLnMakiq5jy1eSBOlPY+YXCWqHDad92AlvHHv46Qbv5TJven/6A5VQVep+d25LWMEq0n/WNVaL8bLhrpmMKPESObt282+wWP1Ya5M6IuIvyuI5QHiDELKhknYT6jn+UTaXjcJunmYY83+9tE52cjO1i4Vi99wKiJYWYq6jZl7LKJzb5zMs4yi5G3UHYXWWdIeDRqT+PXKx1WL7nMbkFNgPYGxDbhjGdeOGqHl49OT4A
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1110001)(1109001)(339900001)(189002)(199003)(6806005)(104016004)(11100500001)(26296002)(19580395003)(95246002)(4290100001)(5006070100001)(16799955002)(15395725005)(19619215002)(4001450100002)(575784001)(88552002)(229853001)(84326002)(105606002)(85426001)(15974865002)(106466001)(2906002)(19617315012)(18926415007)(512874002)(2420700001)(956001)(960300001)(946001)(146001)(19627405001)(50226001)(87936001)(77096005)(75432002)(95666005)(15975445007)(19618635001)(18206015028)(53806999)(450100001)(118296001)(50986999)(586003)(16601075003)(1220700001)(110136002)(5001960100002)(107886002)(74482002)(1096002)(2171001)(300700001)(43066003)(189998001)(5002220100002)(76806002)(81156007)(47976999)(3450700001)(33646002)(7099028)(7029013)(16560400003)(80872002)(42882005)(75806003)(579004);DIR:OUT;SFP:1101;SCL:1;SRVR:BLUPR07MB097;H:domain.com;FPR:;SPF:Fail;MLV:nov;MX:1;A:1;PTR:InfoDomainNonexistent;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB097;2:o95NvbWbb+7Fr7sACMbXUsu8Xeost3WLu7UzgCv6JlLzoBf1lTRplCsjLLRr/JjXQXjd2wToMOFQxUWI5N35C4w7e9iLTlB6dRfcsQZAxU4E3qp1LtSfuwySvDHKjwKr782f9yxeAxjU1Sozv9WY7w==;3:GJrsK4eMRhITIVDUKYnGbTfD+wzHeLFeaM5HRoRYGTh0GdH6KE6euxvHnC0xguf9penLuI2em/G4L0aopRra35md1edTr33kIVXq+nonyqZ3reBjpCyB6b+FAd105ya7rzcNGdfoHxVKV6zcCDkZKTgdr6sBjTWgmefuXyJG6K63jHmJnOEIqZLbb3OjljvZZhdY0hSBXW3MyVcXax2oLU+hsivrURbcapexw3P9/AKZOGal2MqCzed9MCmAJWaxmJ1tr/bjsVavjVbqxGPpD/ofoYZvQTY23+IgRkIrAxpqeFuiVR0b88GSbunMmWQBHx4R/ByVPBxfRVrYbOkkqgGcCIt0qDZpzc06reQAhfcNVple00cRcRGT1B5uyOz+qKBBM1U8payPLtQv7f7hcjcpKO3RQLG6H8Z65sYSTMxSbyO1tyrbi0gfl59SQVsB;25:5tNwAmLw5mhnz/csNFL+pgty1GwXNGq/qnYFZK3wUNvXZwHXati9znTHBt0D5jIIhgFaKbvDYKj/ZK4cqIr4Ccyr1CXWi1PqWVkzRHPrPfXMrQj91FlQdXfh6QfJvl7+B5ebvumB+XsJePwWposYh85ZfqT1JbwOtxclVLGNW/KD4keKFrHY+SmX8cYX4WU1ITInvFGpPVVWkg/MMM1OKHbrnpt0ZPkv9Z2Iec/QQO3/HRevZj+PuMs5ZivTItEN
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:(96343)(28256)(92638)(92639)(92640);BCL:0;PCL:0;RULEID:(421252001)(42134001)(42139001)(42145001)(3002015)(120001);SRVR:BLUPR07MB097;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB097;20:WUlh4YXCpMN0xmEpkkbrJT8jJ79oJMByvPFYSfjVEaNIHtzDqbx4yOApsRyfgVOpgE1Dmqaqc93pDp/EzPGft2NgXX5HLOTK7o7v3gmhX6lz9NpBJyblgLlUDA4wSgYRb38gjYluP3dRgoztAWyak3rVvq1VSunNGpMlpt4ucPDWSQcAtsCKaPGeTRTBH6CTR4rdQqSCMKR5j3ntl7/DkOzCeskLEaOZx9T3eP85o/0FObtOLKcDENY8hBbVDVIm6t2qDAtRRaBeUNWZt6e31CIvVGr2j1NRL4dGUjnr+x9meZCkC24DuCmSJZkZIDw75Yq3PfFSoFHThJj+LhGJ+oskXiJ2KTrr1W5bFd29BK+lqH2QU0VnI/ibeLCD7YafUkcc4HI9DJcqHdmbGYY9aPBJDAjouC7QuPjCuznL8x8=;4:JGnPSBmvsp3B5QQuZtB6vZhz9T8fEG/lnNmfk9Fd0jvmeFdePW60tBM15YjjCXOXv9hSzLPoEDDq8nFiOCOwfLVB4QyX38uoez7oSw05C7HsyiBwIhh0YChB4W0lmBAvuJb/vcAKy9XfkQKp4CC0rM2hdrXtO4W7x8cbx6szxhC4uh/lGYxzCnPjVOtSg5UHEHVMZmB+DB9kylamzqdULc2ajyIR5M4QVgVM+ONa+r9lC99Zo5ueZGXCpQFvVOgvulkR8itZ5EWjvE2OLVCF+t6j8z2tHStbXQozumfr2QLUPNiRAuozwloSdWfHbjTgCz4v0xmWxvSg0a6Df1dOgUNaddtiSJ93JjXx4SMYlmS8AhikE72SEwyvasB8JLNspMYKCIJGVu4IAV2/LYOERg
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 083751FCA6
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BLUPR07MB097;23:+Zq5FrbcI3h2nPgwucoTIB5PaF0NgAvHA0ks07ahai?
+ =?us-ascii?Q?eVRbQb3hUkORBF0L3y1CqChLaBOfCW1Te0iFkjo+JzSzpS6AAvEPQrUTQlfP?
+ =?us-ascii?Q?mNIdlPS7NT3EGRUAwNjtc6tId5k1xlgC0uLCN7zV/pHXIdY6yPxa419kLVwF?
+ =?us-ascii?Q?fmYltTFyTzEoU50I66KbfZ2w4TQ4GGCYM5+fJ5RWie0zVCdfet9IU+gPGBmu?
+ =?us-ascii?Q?gPjYua7EpsSeLdeJhd5nRbm21ka1JIeKwY9MdMR9tZqzwLKnq4d9ykWiPBRB?
+ =?us-ascii?Q?MY7m+5hWpRCfsYMiyrccdiqJtMgFZLpQ6QQLVl1WITbW8IpMSEHA9mlY1YPq?
+ =?us-ascii?Q?u9d86HevpXK3TCuoZzrAqzDoUMd8/dpUg4cf7lZH5Dc4VohuKdbV7GlNIjYG?
+ =?us-ascii?Q?MBUPM/y2HWfrzVdig09xuS3XxDUw3+14pirIcgMzu0H5/d2DVcuJC75rc96J?
+ =?us-ascii?Q?Sd5zubhgLNrH1HefJNmN3Ll8pmpQ70hIBNh9316GCZpAXPPVcpMAdEgknSjO?
+ =?us-ascii?Q?gzoQ/P4JzCMH4kzqiC9uY/hi9s2jEDXer+xU+mHzahnAKoSK/J4yeuVCgoou?
+ =?us-ascii?Q?3vJaxasgxD1X6qVQ8gvpCyTDJhP9eYzqMlcatv0ekws+JlVzfzI7dQUsY33n?
+ =?us-ascii?Q?zGmYx5L1geMhjUYwVC6KVvDVceV4/SKhOCb1bc/m84i4PjoyxGqhw7hQR/fx?
+ =?us-ascii?Q?OYu5twgsHgdttGUGcUQlBr5/vRsGJ82FzenQAIkwkV6Cb92rJ53m5cEEh+OF?
+ =?us-ascii?Q?/yR/sqofB+8emASedAbM2Tbb0q5czBDAhIrtNCM7upVQH56/rHAtpsRNw8zS?
+ =?us-ascii?Q?lFOK9mOQeRmMZUI0M19oqhHJRpizI2c4SX7kM2D+GVYdiaBjqb2Y4tdDRAOX?
+ =?us-ascii?Q?JA6hXbBXTdtXVzNeLkP8eTPNBSYwKwVSNjrzMcqLyoJK/h+hYdoNCkpx0kFW?
+ =?us-ascii?Q?VYwyvGy1LA2D6BQqTIpmtDI4TpiTyILej62qGIfMFaTmgj6baf2styqHdBQA?
+ =?us-ascii?Q?QWGbjDUsspS+7KrSk5PJTX5ePnroMbbbHW+kdMFmqkj+SAemy6yY4kw2gFAK?
+ =?us-ascii?Q?WNmBlUonxbKnV652baaOf1ErdlfaycsvjsxULLlO0klsAr1xaxFv+cYpK1yY?
+ =?us-ascii?Q?7uy78E0bMWBB8M1OQWb1+maHH3ApCvXbnFA6BoDqV63pe2LRJh3VmzBieV7m?
+ =?us-ascii?Q?ymN4xqMD//uBaCubb5WyJnUAKiFIheuvQWiGaK3kbLckplEEjYrhY6oZ6A2r?
+ =?us-ascii?Q?3vXw+i2FUdAxr5v5nOuhEgwIdw48y1inDT4kF83JxjKUxe62J0Q8R/UcpLJF?
+ =?us-ascii?Q?UJyndp+oYD3kbv6purO7MLx3dZs1tbOglI2htM7HZBSWvFyXaIefndcCTbIW?
+ =?us-ascii?Q?ZTViAhIzS9H19jIkJq3ZhcuG6mwwtZhPIgvlAbcivU7+L2pMEs6X8jKmXfZ1?
+ =?us-ascii?Q?M0+pCC5FmEMoWAidL6A5JyOQT6+3vEv/LnGa2lxkTIXbl9D0B235TIqF0sdi?
+ =?us-ascii?Q?oQy3lg9fd9s3zjHp0TymnWEhzZHc8gixxt7M/O+BjB1I1GzUu8tDk1MMY2HW?
+ =?us-ascii?Q?+OOG0Rhbto+QUa6IG31ZMIbXkmU8Y6Bc9EwWMfn/S6onnQ+XbTvG9xGH6PNl?
+ =?us-ascii?Q?wjsOSgaGb8Vt3/1hpqF6QRHNluEXkQI5Cl/Bxw29YU7rgRPppswL8Xae5ycB?
+ =?us-ascii?Q?TPEPdgM31vIfvVaHTue6dZ1ZivQEsR0tRe3qzKU+I2/FBfE28IRkvJjGv4IH?
+ =?us-ascii?Q?ZRlqFz1PSU72zeRRBBH6SeK06E7syc8znno9yxaTvTHaikN3EKBatmL1Nf8Z?
+ =?us-ascii?Q?EJKCJjLIiTnX939A977XxzZg91wYAGqWYF1zk2TL5/q0ktdoeufb8=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB097;5:QVR1hc78wiGkNERF/3+KQfiWxIQcAGVGCdNO5dAozrOjBWpusP3cwJ3z/a4mjG6zxRlVp6cma8/gMd5EfQihQO6jG8H2T9ac3ycZBbC4XrXgmoVrl7zi/es6+cuEV2Kcr9Nb8AAhs660GjPETq8QUw==;24:Cte6HCNnAn12HzgggRIGOLQtMwO7XzmxxyOdQz6mL+YzAqMwPEyAE4CdaBecd1hdPRYYo0o5PvAi3WDNpK5VMnkN/vWuockQqJ0FlPk/5A4
+SpamDiagnosticOutput: 1:5
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 Jan 2015 08:56:16.0535
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB097
+
+Manage your Court Schedules & More
+
+View this email in your browser (<<link>>
+203f475123a9e28e9c42cd&id=3Da04c0b1ce8&e=3D4c5c72a395)
+
+<<link>>
+
+** Access The TRIAL Login (<<link>>)
+I and my team members would be happy to meet in person and understand from
+ you the kind of assistance or customized solutions that we can create for
+ you and your good office.
+
+Please let me know a good time to talk and I'd be happy to take the discus
+sion forward accordingly.
+
+Regards
+
+Shweta Vasisht
+AGM Product Development & Services
+(011) 4163-3910
+
+** (<<link>>)
+To take forward our commitment to the Legal Fraternity we take pride in in
+troducing The Global Integrated Directory for Lawyers - ** The GILD (http:
+//www.thegild.in)
+=2E
+
+First of its kind in India=2C the directory portal offers you create your
+ own profile as an individual or a firm with no costs at all.
+
+Simply domain.com ** www.thegild.in (<<link>>)
+and get going.
+=E2=80=8B=E2=80=8B
+** (<<link>>)
+** (<<link>>)
+** (<<link>>)
+Copyright =C2=A9 2015 Lex Witness - India's 1st Magazine on Legal & Corpor
+ate Affairs=2C All rights reserved.
+ A Lex Witness Industry Connect Initiative
+
+Our mailing address is:
+Lex Witness - India's 1st Magazine on Legal & Corporate Affairs
+426=2C 2nd Floor=2C Ghitorni=2C MG Road
+New Delhi 110030
+India
+Want to change how you receive these emails?
+You can ** update your preferences (<<link>>
+/profile?u=3Dc81203f475123a9e28e9c42cd&id=3D8eacb30268&e=3D4c5c72a395)
+or ** unsubscribe from this list (<<link>>
+nsubscribe?u=3Dc81203f475123a9e28e9c42cd&id=3D8eacb30268&e=3D4c5c72a395&c=3D
+a04c0b1ce8)
+ Email Marketing Powered by MailChimp
+<<link>>
+utm_medium=3Demail&utm_campaign=3Dmonkey_rewards&aid=3Dc81203f475123a9e28e
+9c42cd&afl=3D1

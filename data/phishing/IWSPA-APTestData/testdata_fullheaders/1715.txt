@@ -1,0 +1,179 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp204922lfr;
+        Wed, 29 Jul 2015 17:54:21 -0700 (PDT)
+X-Received: by 10.60.141.42 with SMTP id rl10mr42365752oeb.25.1438217660922;
+        Wed, 29 Jul 2015 17:54:20 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::229])
+        by domain.com with ESMTPS id s71si20128183ois.122.2015.07.29.17.54.20
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 29 Jul 2015 17:54:20 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::229 as permitted sender) client-ip=2607:f8b0:4003:c06::229;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::229 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-oi0-domain.com with SMTP id n4so8702365oib.3
+        for <user@domain.com>; Wed, 29 Jul 2015 17:54:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Oren Shur <oshur@hillaryclinton.com>
+         :content-type;
+        bh=Cceh7Ji7FDssykvbFsuzm7CWGrQ3nC1VCcYzwSMCt+I=;
+        b=SED0duelgqcOjsMVQ9ms8QE2h22ih3+S03TTscV1BXmmU17XlSey8XBQPW+6LRluaR
+         I3SrDxC/q+C5Bv2odroeRjNHzIgaMXa2mMWx6xlq1uVCztGncb4i07SYik0G4zHGGQzk
+         UvHaIjskMpvk/X1PQpsOk+qEfJrF9ret3fPmI
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Oren Shur <oshur@hillaryclinton.com>
+         :subject:to:content-type;
+        bh=Cceh7Ji7FDssykvbFsuzm7CWGrQ3nC1VCcYzwSMCt+I=;
+        b=m3UErMtW6BDLQU/f+iIDERZalD3FMxs4R2Ay8YbIiOG2RmAllNMWrb24z85g+XHwra
+         eDGhLFtcKWudvcEEUiXmcOR2kttOGCtAqF7ixfsH6dZwgWsImIyF1AYGyZ3BkhapIJmM
+         hmJHLRe53vlksxnFM9v96WXNF7s2FmBT/6Jt8L8YZBJR8ZA7LBx3lfUePulNpcP/f3p4
+         chGZlR1/NB1r9w5pLCHw/dtmjL1TPDCtSTWnvBwVwSnvKSY24OpJTVbIxUDLmoW35fA5
+         ljx4kCL9MsicY3jppanBvCxi5JJhnj+maMa3PzDpv6hkkWI5aGZNNvAKcwGOooDzFbuY
+         cl6A
+X-Gm-Message-State: ALoCoQkM6l7hoKD6c9iyzHh0L3TBYttdUTSRZmfWUpDWf8kZYScViDpagbU9uKc55ToKmzNX2DSd
+X-Received: by 10.202.190.11 with SMTP id o11mr40995843oif.20.1438217659948;
+ Wed, 29 Jul 2015 17:54:19 -0700 (PDT)
+From: Oren Shur <oshur@hillaryclinton.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdDKYi3zh63tly+yS/uW6y9FO+DqyQ
+Date: Wed, 29 Jul 2015 20:53:43 -0400
+Message-ID: <user@domain.com>
+Subject: NYT on "Clinton's exaggerated favorability problem"
+To: Joel Benenson <user@domain.com>, Mandy Grunwald <user@domain.com>, 
+ John user <user@domain.com>, John Anzalone <user@domain.com>, 
+ David Binder <user@domain.com>, Robby Mook <user@domain.com>, 
+ "Margolis, Jim" <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Karen Finney <user@domain.com>, 
+ user Carrk <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Elan Kriegel <user@domain.com>, 
+ Marlon Marshall <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113d67b2bb40fd051c0d2447
+
+I missed this one early, circulating in case others did too =E2=80=A6
+
+*Likable Enough? Clinton=E2=80=99s Exaggerated Favorability Problem*
+
+JULY 28, 2015 
+
+Brendan Nyhan
+
+Is Hillary Rodham Clinton
+<<<link>>
+.html?inline=3Dnyt-per>
+in trouble? You would think so from the coverage of recent polls showing
+that her unfavorable
+<<<link>>
+.aspx>
+ratings
+<<<link>>
+-9-a-m-july-26-2015.html>
+have increased nationally and in key
+<<<link>>
+presidential-swing-state-polls/release-detail?ReleaseID=3D2261>
+states
+<<<link>>
+unning-strong-iowa-nh-n398401>
+.
+
+Multiple media outlets and pundits have suggested that her personal
+unpopularity well over a year before the presidential election is a major
+problem for her. A Washington Post article
+<<<link>>
+s-to-make-hillary-clinton-sweat/>
+described the poll numbers as =E2=80=9Cdecidedly sobering for Hillary Clint
+on=E2=80=99s
+presidential prospects in 2016.=E2=80=9D
+
+The underlying theory is, as The Post piece put it, that =E2=80=9Cpresident
+ial
+politics tends to be dominated by personality=E2=80=9D and that Mrs. Clinto
+n =E2=80=9Cmay
+be hard pressed to win a traditional presidential election in which
+likability matters most.=E2=80=9D Likewise, a Los Angeles Times article
+<<<link>>
+#page=3D1>
+approvingly cited the maxim that =E2=80=9Cit=E2=80=99s often said that elec
+tions can boil
+down to a contest of who would a voter rather have a beer with.=E2=80=9D
+
+None of these claims are supported by the data.
+
+The Huffington Post Pollster average shows that Mrs. Clinton=E2=80=99s
+favorable/unfavorable
+ratings
+<<<link>>
+ing#%21mindate=3D2014-01-01&partisanship=3DN&estimate=3Dcustom&hiddenpollst
+ers=3Dppp-d,morning-consult,saint-leo-university,politico-penn-schoen-berla
+nd,harris-domain.com,clarity-dnew-republic,ppp-d,rasmussen>
+at the national level have not changed as drastically as the coverage
+suggests. They averaged 47 percent favorable/45 percent unfavorable in
+January and are at 44 percent favorable/48 percent unfavorable now =E2=80
+=94 a
+relatively modest shift given the onslaught of negative coverage she
+received during the controversies over her use of private email and
+donations to the Clinton Foundation. (As I explained
+<<<link>>
+r-fast-food-workers.html?rref=3Dupshot>
+last year and as Chris Cillizza, author of the Post article, notes, Mrs.
+Clinton=E2=80=99s ratings were always going to decline as she returned to t
+he
+partisan fray after serving as secretary of state.)
+
+Candidate perceptions are not a good predictor
+<<<link>>
+t/>
+of the ultimate election outcome, especially this early. In April 1992, for
+instance, a Gallup poll found that Bill Clinton=E2=80=99s ratings were 34 p
+ercent
+favorable and 47 percent unfavorable, but he went on to defeat George H.W.
+Bush by more than five percentage points in the popular vote seven months
+later. By contrast, even though an April 2015 Gallup poll found that 60
+percent of Americans had a favorable view of John McCain, he ended up
+losing to Barack Obama by more than seven percentage points.
+
+While it might seem obvious that people vote for the candidate they like
+best, that notion often gets the direction of causality backward. In the
+heat of the campaign, we ultimately tend to find reasons to support
+candidates who share our party affiliation or seem to have a good record in
+office (and to oppose candidates who do not). One way people do this, as
+the George Washington University political scientist John Sides notes
+<<<link>>>,
+is by focusing on the positive aspects of candidates they are inclined to
+support (Mitt Romney=E2=80=99s management experience) and playing down any 
+less
+appealing aspects (his likability).
+
+Of course, it=E2=80=99s easy to imagine unattractive candidates who could d
+amage a
+presidential ticket. But the parties will go to great lengths to prevent a
+candidate like Donald Trump from winning the nomination. The candidates who
+actually contest general elections tend to be relatively evenly matched.
+
+Could Mrs. Clinton lose? Of course! But it=E2=80=99s far too soon
+<<<link>>
+tion-to-polls.html?rref=3Dupshot&abt=3D0002&abg=3D1>
+to know, especially given the powerful effect that the state of the economy
+next year will have on the eventual outcome. At this point, I=E2=80=99d loo
+k
+to the betting
+markets <<<link>>>, which put
+Democrats=E2=80=99 chances of retaining the presidency at approximately 60 
+percent.
+People with real money on the line seem to have a more favorable view of
+her odds in 2016.
+
+*Correction: July 29, 2015 *
+
+An earlier version of this article misstated the time before the
+presidential election. It is in less than 16 months, not 20 months.

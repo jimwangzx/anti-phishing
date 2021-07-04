@@ -1,0 +1,60 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp1813157lfi;
+        Mon, 11 May 2015 21:12:40 -0700 (PDT)
+X-Received: by 10.55.15.129 with SMTP id 1mr29269778qkp.29.1431403958396;
+        Mon, 11 May 2015 21:12:38 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [209.85.220.175])
+        by domain.com with ESMTPS id z105si14933069qgz.67.2015.05.11.21.12.37
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 11 May 2015 21:12:38 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.220.175 as permitted sender) client-ip=209.85.220.175;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.220.175 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qk0-domain.com with SMTP id 63so101578843qku.3
+        for <user@domain.com>; Mon, 11 May 2015 21:12:37 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:references:From: Amanda Renteria <arenteria@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=IVa5nB2L8gL8O6xPRcnk6Au3M00GGARj7P1Zdv9NiNs=;
+        b=VKWttPXmH0ivxAXPr/t4ev1VZlKpdNhaGQBBM2tigSenaCub2HmsPUYxDODBGyb8ro
+         G9kuOXGGb4syk30x1RIOjm1aRoqBNBZTI1vY13vdBPcv48RZkJ3Pt+eOU4UNrhmz5Wkw
+         GJG61u7v6tz7ZPT/SNxD28IL16YTzJieg+z3EJdl6ry7NslriFWE9gb+gzw/j71on79I
+         leKGS5xuImecDGAPgP1fpdwGyJLrUsyRgyPYxi/PyxQtQOUS2liNJnRJyRbwgFv8UmJs
+         /P0GnIZESNfOVRux2+Axy3s8BEA0qNUjwIinukyhvgI4BO5n1jwzS3TNn1dCISYm+p0V
+         Ujdg
+X-Gm-Message-State: ALoCoQnpzZMVbWcmtlA17lXfNk/ZHR+l79jAQi78kpDsycM0mD0f86FS/BP9BIs0EK73o6iitYBB
+X-Received: by 10.229.104.67 with SMTP id n3mr18293555qco.29.1431403957578;
+ Mon, 11 May 2015 21:12:37 -0700 (PDT)
+References: <CAE6FiQ_UYJmov1KLK5MbRMZPT+j+user@domain.com>
+ <883user@domain.com> <CAE6FiQ99U1+1sU3+5user@domain.com>
+ <user@domain.com>
+From: Amanda Renteria <arenteria@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+In-Reply-To: <user@domain.com>
+Date: Tue, 12 May 2015 00:12:36 -0400
+Message-ID: <-3927457574773210244@unknownmsgid>
+Subject: Re: Thanks
+To: Ken Salazar <user@domain.com>, 
+ Nick Schumaker <user@domain.com>
+CC: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1133d5586c08c90515dab457
+
+Senator,
+Great seeing you and very much look forward to talking with you.
+
+You can reach me at 650-868-1188.
+
+Still on our roadshow, but can certainly make time.
+
+Tomorrow I have time at 4pm. In case that changes, I have added Nick to
+this email (flights have been moving around).
+
+Let me know if that works for you,
+Amanda
+
+Sent from my iPhone
+

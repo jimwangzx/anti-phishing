@@ -1,0 +1,54 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id A805523CA91
+	for <user@domain.com>; Sat,  8 Dec 2015 11:49:19 -0600 (CST)
+X-Virus-Scanned: amavisd-new at domain.com
+X-Spam-Score: 3.436
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.436 tagged_above=2 required=5
+	tests=[BAYES_00=-2.599, HTML_10_20=1.351, HTML_EXTRA_CLOSE=3.6,
+	HTML_MESSAGE=0.001, HTML_MIME_NO_HTML_TAG=1.082, MIME_HTML_ONLY=0.001]
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id fB7czDsZ3yeO for <user@domain.com>;
+	Sat,  8 Dec 2015 11:49:16 -0600 (CST)
+Received: from domain.com (domain.com [129.7.234.210])
+	by domain.com (Postfix) with ESMTP id D741D23CA8D
+	for <user@domain.com>; Sat,  8 Dec 2015 11:49:16 -0600 (CST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by localhost (Postfix) with SMTP id 9BECC55F00E0
+	for <user@domain.com>; Sat,  8 Dec 2015 11:49:26 -0600 (CST)
+Received: from srv11079.hostingserver.nl (srv11079.hostingserver.nl [141.255.181.38])
+	by domain.com (Postfix) with ESMTP id 009A655F00CC
+	for <user@domain.com>; Sat,  8 Dec 2015 11:49:25 -0600 (CST)
+X-ClientAddr: 127.0.0.1
+Received: from vuurwerk-vlijmen.nl (localhost.localdomain [127.0.0.1])
+	by srv11079.hostingserver.nl (8.13.8/8.13.8) with ESMTP id qB8HnNT8022980
+	for <user@domain.com>; Sat, 8 Dec 2015 18:49:23 +0100
+Received: (from user@domain.com)
+	by vuurwerk-vlijmen.nl (8.13.8/8.13.8/domain.com) id qB8HnMgQ022976;
+	Sat, 8 Dec 2015 18:49:22 +0100
+Date: Sat, 8 Dec 2015 18:49:22 +0100
+Message-Id: <201212081749.user@domain.com>
+To: user@domain.com
+Subject: New Order
+X-PHP-Originating-Script: 711:privacy.php
+From: Trade House Taiwan Ltd <wong160001@hktdc.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+X-Hostingserver-srv11079-MailScanner-Information: Please contact the ISP for more information
+X-Hostingserver-srv11079-MailScanner-ID: qB8HnNT8022980
+X-Hostingserver-srv11079-MailScanner: Not scanned: please contact your domain.com E-Mail Service Provider for details
+X-Hostingserver-srv11079-MailScanner-From: Trade House Taiwan Ltd <wong160001@hktdc.com>
+X-PMX-Version: 5.5.9.395186, Antispam-Engine: 2.7.2.376379, Antispam-Data: 2012.12.8.174214
+X-PerlMx-Spam: Gauge=XXIIIII, Probability=25%, Report='
+ OBFUSCATING_HTML 1.2, CTYPE_JUST_HTML 0.848, HTML_MIME_NO_HTML_TAG 0.8, BODYTEXTH_SIZE_10000_LESS 0, BODY_SIZE_1000_LESS 0, BODY_SIZE_2000_LESS 0, BODY_SIZE_5000_LESS 0, BODY_SIZE_7000_LESS 0, BODY_SIZE_700_799 0, FROM_NAME_PHRASE 0, URI_ENDS_IN_HTML 0, __ANY_URI 0, __CT 0, __CTE 0, __CTYPE_HTML 0, __CTYPE_IS_HTML 0, __HAS_FROM 0, __HAS_HTML 0, __HAS_MSGID 0, __MIME_HTML 0, __MIME_HTML_ONLY 0, __MIME_VERSION 0, __SANE_MSGID 0, __STOCK_PHRASE_6 0, __SUBJ_ALPHA_END 0, __TO_MALFORMED_2 0, __TO_NO_NAME 0, __URI_NO_WWW 0, __URI_NS '
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 163
+
+Hello,     I am Mrs.Qiu Wong of Trade House Taiwan. We are interested in this product. Can you give customer an assurance on the quality? (I.e. samples, certificates) also, can you start production if we place an order immediately or do you already have it in stock?     Please login your email address to see if you can supply us the same product, Please advice your best price and delivery time. We need a new supplier and hope to cooperate long time business   CLICK HERE   domain.com your soonest reply,Mrs.Qiu Wong - Trade House Taiwan Ltd.Email: user@domain.com

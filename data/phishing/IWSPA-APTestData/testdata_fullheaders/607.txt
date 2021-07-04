@@ -1,0 +1,167 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp718285lfr;
+        Fri, 25 Sep 2015 07:42:41 -0700 (PDT)
+X-Received: by 10.182.133.9 with SMTP id oy9mr3150855obb.41.1443192161660;
+        Fri, 25 Sep 2015 07:42:41 -0700 (PDT)
+Return-Path: <>
+Received: from na01-by2-domain.com (mail-domain.com. [207.46.100.98])
+        by domain.com with ESMTPS id mp10si1856436oeb.104.2015.09.25.07.42.41
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 25 Sep 2015 07:42:41 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of na01-by2-domain.com designates 207.46.100.98 as permitted sender) client-ip=207.46.100.98;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of na01-by2-domain.com designates 207.46.100.98 as permitted sender) smtp.mailfrom
+Received: from domain.com (10.255.223.165) by
+ domain.com (10.141.218.19) with Microsoft SMTP
+ Server (TLS) id 15.1.280.20; Fri, 25 Sep 2015 14:42:39 +0000
+Received: from BL2FFO11FD043.protection.gbl (2a01:111:f400:7c09::118) by
+ domain.com (2a01:111:e400:841::37) with Microsoft
+ SMTP Server (TLS) id 15.1.286.15 via Frontend Transport; Fri, 25 Sep 2015 
+ 14:42:38 +0000
+Authentication-Results: spf=none (sender IP is 141.161.191.74)
+ smtp.helo=mail.law.georgetown.edu; domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Received-SPF: None (domain.com: mail.law.georgetown.edu does not
+ designate permitted sender hosts)
+Received: from mail.law.georgetown.edu (141.161.191.74) by
+ domain.com (10.173.161.139) with Microsoft
+ SMTP Server (TLS) id 15.1.274.4 via Frontend Transport; Fri, 25 Sep 2015 
+ 14:42:37 +0000
+Received: from LAW-MBX02.law.georgetown.edu ([169.254.2.126]) by
+ LAW-CAS1.law.georgetown.edu ([141.161.191.74]) with mapi id 14.03.0210.002;
+ Fri, 25 Sep 2015 10:41:29 -0400
+From: Emma Coleman Jordan <jordan@law.georgetown.edu>
+To: "User" <user@domain.com>, 
+ Sherman Cohn <user@domain.com>, 
+ "William M. Treanor" <user@domain.com>
+CC: All Faculty and Staff <user@domain.com>
+Subject: RE: Katherine McCarthy
+Thread-Topic: Katherine McCarthy
+Thread-Index: AdD3gM5osbAhPghdSDSWuJLj1MAx1wAEJZIxAACYggAAAq4JmA
+Date: Fri, 25 Sep 2015 14:41:29 +0000
+Message-ID: <3user@domain.com>
+References: <5689user@domain.com>
+ <302user@domain.com>,<D22ABE67.10DB8%user@domain.com>
+In-Reply-To: <D22ABE67.10DB8%user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.129.174]
+Content-Type: multipart/alternative;
+	boundary="_000_3E66510F5C9B0348AC2F97AEA1F181CF40E10437LAWMBX02lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Return-Path: <>
+X-EOPAttributedMessage: 0
+X-Microsoft-Exchange-Diagnostics: 1;BL2FFO11FD043;1:pM92WQy+0H/q8tR6zTAwVQ3kRT0khivFLJtC/uAgZwuou23LVpMeubC9zxu4VBUOY7a7PxNP0KCo7c5wneY2j1NXh5WEI8BxeIgyxVDw6prFcAku2HIkcFad9sto6G8GkX8OPl2l3iCZXV/ostqQhK8XjcefzSWU9YQhd4+j3IBF2bk1zeXMU9NOiwy5clatM+Kax48kvOKDkr7PI0QlsOUoszFd3jd9aUk7LDZMohCF+TNLOpVfgKsYEXr8nhYWGaP8nt43vcAhDedG2fVJtDh2yYw5bqFihYt+CjSkaR/t8+R9agtKrSVqYpRReTHN4Y6oY6tsDsrLk/lDWO4r5Tbf9uqE5cgqfm5KkA9QqdjrZhVUPOIIzwcYhgJeQOed
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(6029001)(2970300002)(428002)(52044002)(199003)(377454003)(189002)(24454002)(5001770100001)(5001860100001)(97736004)(78352002)(68736005)(2900100001)(89122001)(512944002)(102836002)(76176999)(4001540100001)(54356999)(2171001)(50986999)(81156007)(16236675004)(88552001)(33656002)(101416001)(105586002)(5001830100001)(5004730100002)(960300001)(5007970100001)(62966003)(92566002)(106466001)(107886002)(5001960100002)(77156002)(2950100001)(189998001)(5003630100001)(5003600100002)(450100001)(84326002)(221733001)(19580405001)(2920100001)(46102003)(19580395003)(42382002)(6806005)(64706001)(55846006)(4001450100002)(87936001)(104016004)(66066001)(53652003)(4001430100001);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR07MB534;H:mail.law.georgetown.edu;FPR:;SPF:None;PTR:InfoDomainNonexistent;A:0;MX:0;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB534;2:Pueb0cWxN4TFMZVb1V8ECL2t1wwz8SJfeZG1U2T7faQY/tdYNszm3zR8jByjfcYbV6o2dkoiyeOm4ioY0QQlQwKADbK34XYMZ8N6TqEDk07Uy1yCzlSI8/1DZ5G0/vLt9DI0RF8ve90jR6v98xriu/vAuX+hWwKIuFKIS5KH+r4=;3:SaY1OXprjPLpKBmXl1lbh6V/BuP/zZxVuBBzY3lMN2i4vkMAUZLfIaq7vJcKWhRFOdWZb9/exFTt+DPAzmFUvwiS7O2kXeis7/dtarxn39oNBxjT8gr3/bcMo5w7zfe4QD31opTLemKRtLT/OwgquLXw4Rro0riZTl8G2P1hqc5/JFH+YSJ8UiqtN5ZaE791meppg3yZMupHSIRk7Cy0hznp3RZkcRkjmo7ZYh9lbXdmAESVDi8UPFkyhT65lYrD;25:fwE3aOysiWZovrMxcZB2Po4rKsnPLLvP0a7Prk4rQvVMOXqcarLVaMpNdL+8riqpwoZ+Gvv9nDfk0HYDAvd+6GLHV8T36wsp/4p0OVWNTT+4gQRiCT3idHob8DwMJatsGnW0yZ/G8/QURGykIARh8/qd1Hjt/XXUk8Zdug5Guh7Wy5v+Erjft9IfuYwPs4s1qiOJSd+4ykAoYI4CK8GEfUayIv2SrHip855pKiM2sIIaxwc59s3HFIPtrkR9/HIyv2FiXQMm3SdQ3kgqmhMCMQ==;20:zfQ3mSt5K3J73JxsAXYApdgeyDKfESqDPcndqXYiMW/g4CqY6MkPxpUE58y612YmJsZXdhm3MQtO+wTofLK8JuiBskjWCmsl8D8g664kzfLdprmOrcw1y70lzNXD435O5ThjnWfAQkh6OHNHeotu+TKcCCGm52WesD+JlKGBg80
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB534;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:0;PCL:0;RULEID:(601004)(2401047)(8121501046)(520078)(5005006)(3002001);SRVR:BY2PR07MB534;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB534;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB534;4:hFDusaoeX9WH56wXEyJ0BP8qOuE5fl2TOfibu40DtXi0wN8JxHJl3itkPQ5Q1oVf+vlmo0i62qGFAzoF1YOqBgcbmbLAcke78C8ogTMyk2VnIvkjzU53zVUjO0tBJs6MiZgSCj2xIOh/m85bqQJbD/r+bPpq/q8xtSx67OLgmy31drvCYmBZfrbjmJayWvWLLBxBCvMcboGLR8wdfpdLIv1h+xRYUtj1BjB//kFdxvke6Q+EXdtNLFIa1tZoPk3zyVUW+TFJebFh7gRGPm/WhDQYsGFMWSRni9ohijwFvUKESfU4wQu0Usiv9QQOeZxq4K6prxzJuhF8Kqf5aXP1Uf3OKfiVPTBSOJ8tVtXd4+o
+X-Forefront-PRVS: 07106EF9B9
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BY2PR07MB534;23:LnM6fBVdRecqZ39QHk8y2LIcwxMnu1LRCN4AbirkEQ?
+ =?us-ascii?Q?oSG6Mymq1JAfuHA90f/u8YfAAJw9rOoAtXmj7ltq8VehAgiq3PBMOl7CK1HN?
+ =?us-ascii?Q?5RX0a05tYWFhKjY5tb4UNTt0YZqc2RVWemd5KtOlcqXJSTiyfWchLerqJDJD?
+ =?us-ascii?Q?7YHyfzZg33gZI/MlJABRJqKtmCST5w0KjpWVTnQIFXhBBdDq/gfcWO8FWBmC?
+ =?us-ascii?Q?ptNn8NttrNbIVCBY+U3lERb8G1oZggWZp6QTbz/JhsoyssSmr7x19ddp83ak?
+ =?us-ascii?Q?q06IlwLUjXaf6jrBJtGR3HWK3oShWNgyCJo0qoj3n7oXp96FdQW1KdwlbjFC?
+ =?us-ascii?Q?ivbwjmf8kFPxSto6WcgFSh3h7sz+56Fyww5dJtmMKf0zieKGdahoLgXyIyWy?
+ =?us-ascii?Q?PNgRwkR3oDgK+MYmmXy48X0lpayk7nMAYLEzBVGw5bf+KHOR4fpFaEv5CdzB?
+ =?us-ascii?Q?ItdlxGw/t7mfrT+NJRgNcJlYcYsQyFBkOOCRyqTP+ECouE8gQqauBQsRsklC?
+ =?us-ascii?Q?Loj1oVdzE869INPXZgI4Dcw+B/YydzTk5KE3ytFzvchhRgrsQHe8/FvBu4AR?
+ =?us-ascii?Q?xgMMT46NeELZ23wLiuiZStVpE22H7ObiCBiv3ogiagfxOPd5qNIxoCpE34LD?
+ =?us-ascii?Q?AQLxH8MN/TegKa0LQYBPL6Q+mScSElPTXpLqT52ORuKkNkfakhxoKY4RXiRO?
+ =?us-ascii?Q?f77OIsyvvQhQ6NeOJNqDfAv+pFiHPXpagPwjxXQ61GAZceEpLdAmxSOSL75E?
+ =?us-ascii?Q?SFhOB8MyiTj0DQ066j9ozX6LPxq6hu86704e/vUTi833F+oInYf18WR/d5Km?
+ =?us-ascii?Q?KHsh64+9IfAgots1xJoCY+lJDo9eDinVJTL7YC1KdpLYvW8v7k/6drSWzHEk?
+ =?us-ascii?Q?5lgh7kGWxqP+e0yWeI9FSKaVKrwwzwwPj27sJ0JfBIKeIit3DiMKcTKPEdhF?
+ =?us-ascii?Q?YrbLbWkkrnVnHpTu8iNKcg9Pl/0CpB7o5K4ON7bDOAdNicAursMeniOxMEkc?
+ =?us-ascii?Q?XoRbL2z3qlsUX4gU3oVCKyNarW6C7qH3vgN9V5ddK+L8FlBZBTivHk2b0oJ1?
+ =?us-ascii?Q?rO8llz/QecGHgAeFfBkxWn28Npk+9/GqvJ3t+ZAsLvcQ7Fkb08q2F5FVIC0V?
+ =?us-ascii?Q?hYZ83RhgokCW2WB+epy+TYs5jhcNt99PSJqvGEX+XQNxaubgTv4LDK49N/+D?
+ =?us-ascii?Q?VDx07GPqthoM/tg1IqJqlvw7WQ0/mhY99UU4AB/RYDHeSMBnGQWxaKlL6LmP?
+ =?us-ascii?Q?i4/CJSGlF+z0AihB/Fj0bu/TA1RGRPI+UEeL3mRaH7QGwCRDGCIs6j7Dh2Qp?
+ =?us-ascii?Q?95uISQv/cddAkmBwzpoV3X0l/DDoWarw+kBtkVPMJQ5VJx+AYrTWEgFCJBxE?
+ =?us-ascii?Q?u1/eoOi5sKJdqlzXFWiyzT2hl+QjR2oaHX9ARYmyIaJyGrAbst1dIzUGi4F1?
+ =?us-ascii?Q?Ea+3PYa4VzCbnMIfrUuGuKwPcOYN96SiyTTTdcEoeaVEr33ZlSNwRDaUE/zN?
+ =?us-ascii?Q?Y4IJvSauaFzegu0iVLAbI2V7wIBWiVFnp7hj7oNBQsIvL+hSZeyf9SfuyxS+?
+ =?us-ascii?Q?zdtlAxIEvgSGseKU6zmGcWhAVBRDLbusCcZso=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB534;5:YzTUBgWR+zpPqVmstTELy0nwJCyqbCF8K5Kslrq4TUvL+jRUFTGsPbte/FhImXHNZiGKk6jna65sWc3LFnzW3W7BXSPvQE41THWOz8K2cEf50wUK7lT38hQgcKyw9RLubxpko26EqhZx6bY46wqC2A==;24:bVtpiclVDD2Ysd0WiC903P4tGzcq5pAgLTtqVLIBW8SryzGsYGf4AXW6EBENIydhhH0kXbB4nPy26pa8lvsbXKGFqco+se4NLEzlG9I6zRM=;20:wXpXqE67Rrv9aU0J2LLVBUOrS4L2C1G9aunOIiWBDFby2E7hVCXQ6LWa9ql5ZqQWIIcCaf0N74498iWiBqrrqw
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 25 Sep 2015 14:42:37.7699
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB534
+
+Colleagues:
+
+I saw the Dean's email late last night.  I resisted accepting the possibili
+ty of the development announced this morning.  I will miss Katherine's know
+ing smile and her direct way of speaking.  I still think of her as she was 
+when I first met her as a lovely college student  working here in the summe
+r.  As her responsibilities grew, she spread her friendly approach to probl
+em solving to the entire GULC family.   I am so sad.  She touched me every 
+time our paths crossed on the 5th floor of McDonough and beyond.  My prayer
+s are with Dave and Mary now.
+
+Emma
+________________________________
+From: Emma Coleman Jordan <jordan@law.georgetown.edu>
+Sent: Friday, September 25, 2015 9:12 AM
+To: Sherman Cohn; William M. Treanor
+Cc: All Faculty and Staff
+Subject: Re: Katherine McCarthy
+
+This is very sad news for all of us.  She was and in faith I believe still 
+is a beautiful person.  Over the coming days we will be planning with Kathe
+rine=92s family the details of the funeral liturgy and of any future memori
+al, but I will also offer today=92s normal 12:15 mass for Katherine.  It wi
+ll be a simple daily mass, but with the intention of praying for Katherine 
+and her family.  All are welcome to attend.
+
+From: Emma Coleman Jordan <jordan@law.georgetown.edu>
+
+Date: Friday, September 25, 2015 at 8:55 AM
+To: "User" <user@domain.com<mailto:user@domain.com
+domain.com>>
+Cc: "user@domain.com<mailto:user@domain.com
+domain.com>" <user@domain.com<mailto:AllFacultyandS
+user@domain.com>>
+Subject: Re: Katherine McCarthy
+
+With great sadness, we have the news that we feared but knew was coming.  S
+ome of us knew Kathryn as a young girl, in many ways growing up at the Law 
+Center.  She brought all of us the dedication and love that so many of us h
+ave written about.  She was a true daughter of remarkable parents who did s
+o much to build the foundation of this great school, adding to the initial 
+work of Paul Dean. Most remarkable was how Kathryn continued the work, quie
+tly but realistically. With all due respect to the great Deans who followed
+ Dave McCarthy, we have continued to evolve toward where we are today becau
+se of a cadre of wonderful professional administrative folks. Kathryn was t
+he pace setter among them.
+
+May she rest in peace and may we continue to learn from her great example.
+
+Sherman
+
+Sent from my iPhone
+
+On Sep 25, 2015, at 6:56 AM, William M. Treanor <user@domain.com

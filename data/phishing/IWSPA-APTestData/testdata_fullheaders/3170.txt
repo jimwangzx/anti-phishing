@@ -1,0 +1,88 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Mon, 7 Jul 2015 11:10:52 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s67IAqDe009921	for <user@domain.com>; Mon, 7 Jul 2015 
+ 18:10:52 GMT
+Received: from mail150-ch1-domain.com (mail-domain.com
+ [216.32.181.170])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s67I5O5O026804
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 7 Jul 2015 18:05:24 GMT
+Received: from mail150-ch1 (localhost [127.0.0.1])	by
+ mail150-ch1-domain.com (Postfix) with ESMTP id CC3FC4805CC	for
+ <user@domain.com>; Mon,  7 Jul 2015 18:10:49 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:205.201.129.47;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 4
+X-BigFish: vps4(z59c9h3e12hzc89bhe0eahc857hzz1f42h1ee6h1de0h21bdh2073h2146h1f00h1202h1e76h2189h1d1ah1d2ah1fc6h208ch1fdahzz16d858h1de098h1def03h177df4h17326ah1df2f4h1def87h8275bh1bc7b9h8275dh1def86h19a27bh1de097h186068h1954cbh172c6ch1b778fh1ce120h164c38j1ce121iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2534h2545h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h298fh29d0h2a24h2b05h1d9ci)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail150-ch1: domain of domain.com designates 205.201.129.47 as permitted sender) client-ip=205.201.129.47; user@domain.com; helo=domain.com ;01.domain.com ;
+Received: from mail150-ch1 (localhost.localdomain [127.0.0.1]) by mail150-ch1
+ (MessageSwitch) id 1404756646768782_13956; Mon,  7 Jul 2015 18:10:46 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.233])	by mail150-domain.com (Postfix) with ESMTP id
+ 8A17A3A006E	for <user@domain.com>; Mon,  7 Jul 2015 18:10:46 +0000
+ (UTC)
+Received: from domain.com (205.201.129.47) by
+ domain.com (10.43.70.23) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 7 Jul 2015 18:10:45 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Uber=20NYC?= <supportNY@uber.com>
+ bh=xNnXx5Doz3X6cAZoTpvqN5CC+LA=;
+ b=OZZBv1Cs1u/cBGk+yHNFQUPfyekVRQTErn5N5IX7m9XSj3bB7fGe5inbAjo1QAf4XpGKPdsNB9j5
+   iJsHso9eqfJYI5QW4mKqGvGDEuVVGvNAM4Wb41sG/bhDJgGZziiMg6p1lN8vnJm90d8snyhbwFTc
+   Vu2MWagOLV48Fwz0Jkw
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=AbOcLSIUtUypp2B3jto1AGx8E90/T9ojO97GI7JxYEHXiSebbvj5zndQ87J+lj4bPBl9UabMrUmJ
+   g7SI+xkLy8RZoKaTxH3qZDs9eGlzuVGHyjJ2W7g8GTror5fb5c4tPkVadf6P2+97eaH0DrX+6QXz
+   fnL0deeC6NKKJdsm/10=;
+Received: from (127.0.0.1) by domain.com id hnbhaa174e0g for
+ <user@domain.com>; Mon, 7 Jul 2015 18:10:43 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?uberX=20is=20now=20cheaper=20than=20a=20NYC=20taxi?
+From: =?utf-8?Q?Uber=20NYC?= <supportNY@uber.com>
+Reply-To: =?utf-8?Q?Uber=20NYC?= <user@domain.com>
+To: =?utf-8?Q?Amy?= <user@domain.com>
+Date: Mon, 7 Jul 2015 18:10:43 +0000
+Message-ID: <8user@domain.com>
+X-Mailer: MailChimp Mailer - **CIDb1069d671de821a0af3b**
+X-Campaign: mailchimp8d2fd6968b2b5c64d0d22dba2.b1069d671d
+X-campaignid: mailchimp8d2fd6968b2b5c64d0d22dba2.b1069d671d
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 8d2fd6968b2b5c64d0d22dba2
+X-Feedback-ID: 1515929:1515929.2335745:us1:mc
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: Uber NYC <user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+uberX is now cheaper than a NYC taxi
+
+ Uber Logo
+
+We just dropped uberX fares by 20%, making it cheaper than a New York City taxi.
+
+uberX — now cheaper than a New York City taxi
+
+        UBER NYC                 
+
+
+
+
+Hey Amy,
+
+We just dropped uberX fares by 20%, making it cheaper than a New York City taxi. From Brooklyn to the Bronx, and everywhere in between, uberX is now the most affordable ride in the city.
+
+SPREAD THE WORD 
+
+Share your invite code — your friends will get their first trip free and you'll get a free ride up to $30 for every referral who takes their first ride.
+
+<<link>>      <<link>>      mailto:?subject=uberX%20is%20cheaper%20than%20a%20taxi%20in%20NYC!&body;=Hey%20there%2C%0A%0AWanted%20to%20let%20you%20know%20that%20all%20uberX%20rides%20in%20New%20York%20City%20are%20now%20cheaper%20than%20a%20taxi.%20The%20more%20we%20ride%2C%20the%20more%20likely%20these%20fares%20will%20last.%20If%20y
+

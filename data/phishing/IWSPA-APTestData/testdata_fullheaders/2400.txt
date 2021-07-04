@@ -1,0 +1,98 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 27 Feb 2015 15:07:00 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1RN6xtC010517	for <user@domain.com>; Thu, 27 Feb 2015 
+ 23:07:00 GMT
+Received: from mail65-va3-domain.com (mail-domain.com
+ [216.32.180.116])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s1RN6kwB011665
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 27 Feb 2015 23:06:46 GMT
+Received: from mail65-va3 (localhost [127.0.0.1])	by mail65-va3-domain.com
+ (Postfix) with ESMTP id 634D0220198	for <user@domain.com>; Thu, 27
+ Feb 2015 23:06:59 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.105;KIP:(null);UIP:(null);IPV:NLI;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z579eh5109h5105hzc89bhe0eahc857hc545Idbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h172c6ch1ce120h1a691ciz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh2565h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail65-va3: domain of domain.com designates 192.64.236.105 as permitted sender) client-ip=192.64.236.105; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail65-va3 (localhost.localdomain [127.0.0.1]) by mail65-va3
+ (MessageSwitch) id 1393542417379909_11186; Thu, 27 Feb 2015 23:06:57 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.240])	by
+ mail65-domain.com (Postfix) with ESMTP id 576D93C0048	for
+ <user@domain.com>; Thu, 27 Feb 2015 23:06:57 +0000 (UTC)
+Received: from mx-domain.com (192.64.236.105) by domain.com
+ (10.7.99.47) with Microsoft SMTP Server id 14.16.227.3; Thu, 27 Feb 2015 
+ 23:06:56 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1393542416;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Daily Headlines <donotreply@variety.com>
+	bh=f/J/HDKAR54lBc7LNNLEA06fNqyHWUyBTGCGUTbvRQg=;
+	b=gpuJz8CxI8FS03E6Ni603bYLSI1h/KokExbzOmlH1khHj/7sKEw0k8gootKFQpIL
+	QBPP1vtdJMzX9zQ9CROniAeAnRrp4e/WTpySTHhrjBy4qOHDDMfm8+B3xyCxwnSDXZU
+	6Ip6bYAwGorxczi6JdT0Klpxv4uDibB1XpnOzI28
+Date: Thu, 27 Feb 2015 18:06:56 -0500
+From: Variety Daily Headlines <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140227230656.2451424.19455@domain.com>
+Subject: =?utf-8?B?SXMg4oCYTW9udW1lbnRzIE1lbuKAmSBUb28gTXVjaA==?
+ =?utf-8?B?IGEgTWl4IG9mIEFydCBhbmQgQ29tbWVyY2U/?
+Precedence: bulk
+X-TM-ID: 20140227230656.2451424.19455
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.105
+X-IADB-IP-REVERSE: 105.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2451424
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Is ‘Monuments Men’ Too Much a Mix of Art and Commerce?
+
+MEMO: TO GEORGE CLOONEY Your Clooney movie machine is purring along smoothly, George, with “Gravity...  
+
+
+
+
+Variety         
+
+Daily Headlines         
+
+Thursday, February 27, 2015     
+
+
+
+
+<<link>>         
+
+Is ‘Monuments Men’ Too Much a Mix of Art and Commerce?  
+
+MEMO: TO GEORGE CLOONEY Your Clooney movie machine is purring along smoothly, George, with “Gravity,” which you co-produced, poised to reap further largesse from the Oscars. You will shortly start...         
+
+<<link>> ESPN Launches 15 College Conference Channels on Apple TV, Roku (EXCLUSIVE)
+ESPN is giving 15 college conferences their own dedicated, national TV channels stocked with live events and on-demand replays -- streamed over the domain.com, initially to Apple TV and Roku devices...
+
+‘Forrest Gump’ Takes Best Picture Honors in ABC News Poll
+ABC News Digital announced “Forrest Gump” as the winner of its interactive bracket challenge that it dubbed “The Best Oscar Movie from the Past 64 Years.” As part of ABC's company-wide effort to p...
+
+ABC Looks for Fanboy Boost with Marvel Studios ‘Assembling A Universe’ Special
+ABC has slated an hourlong special on its sibling Disney domain.com Marvel Studios to air March 18, a few weeks before the premiere of Marvel's latest feature, "Captain America: The Winter Soldier." "Ma...
+
+Patrick Wilson Circles Marvel’s ‘Ant-Man’
+Patrick Wilson is in talks to land the last major role in Marvel's "Ant-Man" starring Paul Rudd. Michael Douglas is set to star with Evangeline Lilly also in talks to join the cast.
+
+Can the Wrong Tweet Destroy a Showbiz Career?
+It’s not always easy to know the exact moment when your job shifts gears, but Prime co-founder and partner Joy Fehily is pretty sure she has a good idea: It was a few years ago, when one of her cl...
+

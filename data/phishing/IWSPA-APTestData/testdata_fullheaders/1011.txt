@@ -1,0 +1,67 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 23 Jan 2015 04:20:52 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0NCKpab018818	for <user@domain.com>; Thu, 23 Jan 2015 
+ 12:20:52 GMT
+Received: from mail43-am1-domain.com (mail-domain.com
+ [213.199.154.202])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s0NCKoai021171
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 23 Jan 2015 12:20:51 GMT
+Received: from mail43-am1 (localhost [127.0.0.1])	by mail43-am1-domain.com
+ (Postfix) with ESMTP id 8D1A7E0481	for <user@domain.com>; Thu, 23 Jan
+ 2015 12:20:50 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.124;KIP:(null);UIP:(null);SRV:BULK;H:mx124.b2b-domain.com;RD:mx124.b2b-domain.com;EFVD:NLI
+X-SpamScore: 10
+X-BigFish: vps10(zzc89bh12dbKc857h77f5h609Izz1f42h2148he68I208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h1082k10c0jzz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h1ce120hf9138o1df0a0iz2fh5eh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h1361i214ai1155h1362h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail43-am1: domain of b2b-domain.com designates 209.162.194.124 as permitted sender) client-ip=209.162.194.124; user@domain.com; helo=mx124.b2b-domain.com ;b2b-domain.com ;
+Received: from mail43-am1 (localhost.localdomain [127.0.0.1]) by mail43-am1
+ (MessageSwitch) id 1390479649500101_14637; Thu, 23 Jan 2015 12:20:49 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.234])	by
+ mail43-domain.com (Postfix) with ESMTP id 70688240250	for
+ <user@domain.com>; Thu, 23 Jan 2015 12:20:49 +0000 (UTC)
+Received: from mx124.b2b-domain.com (209.162.194.124) by
+ domain.com (10.3.207.103) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 23 Jan 2015 12:20:46 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=acton2012; d=techproductupdate.com;
+ h=Message-ID:Date:From: Resource Roundup <admin@techproductupdate.com>
+ bh=7UUEqwZv1HoYWxBMndl8ZZKOJjU=;
+ b=GhbYqEKok1dwtb9o52YYxRGPM7+4+5NgGzPfqbEAS5kvkFIRW3yBxSKtqizrvWPyyj/bgR3i6Wpn
+   byW0pr7bHn9xZyfvzmyUQ+z7p8r1/4n2ZG8tzWrOJyIoTPeqIH34ddBMpEQqMh13O8IR0A6DwBZc
+   Op1QI178tSll1sApjvg
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=acton2012; d=techproductupdate.com;
+ b=iGdxt/nG6y6FPwJP1ECNAN87tyyZS/8Txt4XukBHbNzKKu/13fDChZPywTpICM8o+Ol42gPj6b4P
+   XpkgLly/is1zB4H0qHUXnHp+yZ6QJxmwCWLmaybf7FAy6qkoIeQHl/ILXK2uj8lZNCve1ojSbpro
+   LmUincrfMoPrtlX50Uo=;
+Received: from 10.10.40.64 (172.16.0.16) by mx124.b2b-domain.com id hs44hs1gs508
+ for <user@domain.com>; Thu, 23 Jan 2015 04:20:45 -0800 (envelope-from
+ <user@domain.com>)
+Message-ID: <UUYBUZZAUW$UWCTXACZXYBWU@10.10.40.64>
+Date: Thu, 23 Jan 2015 04:20:45 -0800
+From: Resource Roundup <admin@techproductupdate.com>
+Reply-To: Resource Roundup <user@domain.com>
+To: AMY PASCAL <user@domain.com>
+Subject: Understanding Microsoft Exchange Server 2010: A Complete Guide
+X-MESSAGEID: WCZX.rEUUUV.KVWHK.mEVGHWEVYUV
+X-COD: ^^184.169.176.89/acton/delivery?accountid=2853&msuid=s-1ab2-1401&rcptid=l-0001%3Ae12be&srcid=q-03c0
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Understanding Microsoft Exchange Server 2010: A Complete Guide
+
+View this message in a browser   Please add user@domain.com to your address book to ensure properly delivery        
+
+TechProduct Update       
+
+Understanding Microsoft Exchange Server 2010: A Complete Guide
+
+If you’re still running Microsoft Exchange Server 2007, it’s probably time for an upgrade. With a host of new administrative and security features, Microsoft Exchange Server 2015 is a no brainer upgrade. However, there is a catch, and that is needing to update your SSL certificates.
+
+To learn more about Microsoft Exchange Server 2015 and the necessary SSLcertificate upgrades, follow the link. There you will find an informative online article detailing all you need to know to make the switch. Let us make your research a little easier.
+

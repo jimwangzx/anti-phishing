@@ -1,0 +1,64 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp156617lfb;
+        Wed, 11 Nov 2015 19:10:40 -0800 (PST)
+X-Received: by 10.140.218.84 with SMTP id o81mr14045588qhb.22.1447297840807;
+        Wed, 11 Nov 2015 19:10:40 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [2a01:111:f400:fc10::1:647])
+        by domain.com with ESMTPS id d90si9977528qge.52.2015.11.11.19.10.40
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 11 Nov 2015 19:10:40 -0800 (PST)
+Received-SPF: neutral (domain.com: 2a01:111:f400:fc10::1:647 is neither permitted nor denied by domain of user@domain.com) client-ip=2a01:111:f400:fc10::1:647;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 2a01:111:f400:fc10::1:647 is neither permitted nor denied by domain of user@domain.com) user@domain.com
+Received: from domain.com (10.255.230.28) by
+ domain.com (10.255.230.26) with Microsoft SMTP
+ Server (TLS) id 15.1.318.15; Thu, 12 Nov 2015 03:10:35 +0000
+Received: from domain.com ([169.254.8.117]) by
+ domain.com ([169.254.8.117]) with mapi id
+ 15.01.0318.003; Thu, 12 Nov 2015 03:10:36 +0000
+From: Huma Abedin <huma@hrcoffice.com>
+To: Robby Mook <user@domain.com>
+CC: Cheryl Mills <user@domain.com>, John user <user@domain.com>, 
+ Jake Sullivan <user@domain.com>
+Subject: Re: For Secretary Clinton - time-sensitive request from Moveon
+Thread-Topic: For Secretary Clinton - time-sensitive request from Moveon
+Thread-Index: AQHRHPZZJixmFrvZrUesZMhUQAEzOJ6XsxOAgAACZW0
+Date: Thu, 12 Nov 2015 03:10:35 +0000
+Message-ID: <33user@domain.com>
+References: <user@domain.com>
+ <CALk44aAL65Czar+user@domain.com>,<-5335931192945862803@unknownmsgid>
+In-Reply-To: <-5335931192945862803@unknownmsgid>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ user@domain.com; 
+x-originating-ip: [107.107.59.100]
+x-microsoft-exchange-diagnostics: 1;BL2PR03MB115;5:BkzhgryjTl6BpzxPUv3S8W0aAdC4tfJFhXcS1iEfmVAMav/1Bzn68/NBc6lx/14Qebczn72n3PZaZAoXWCTbwNyv4Yt2xrjpLFXEX6Xk56pMVvP8S5LBQal8s0D7RQh4uboy/s+gca1RBoq515addQ==;24:AGmO77eVV46QoWuUjQJrb2KakGzLSH3cginhfE6oSQtEjAWjxduvR7SvekPPEj4M1ljg1sqcY26rIbJ3zGe9jmXmdGmKSCURZK65bDYDomk=;20:liDRm1yFm/qQOXn2KSriDyr2djc9AAlbM0PGvkv5LW10odUbMpIL4/Wvr2kT+/lXdJ7Sa8yD1MYlWEZy7uCtHA
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BL2PR03MB115;
+x-microsoft-antispam-prvs: <user@domain.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(2401047)(520078)(5005006)(8121501046)(10201501046)(3002001);SRVR:BL2PR03MB115;BCL:0;PCL:0;RULEID:;SRVR:BL2PR03MB115;
+x-forefront-prvs: 07584EDBCD
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(24454002)(199003)(149574003)(377454003)(495834002)(22974007)(189002)(66654002)(2950100001)(122556002)(54356999)(106116001)(76176999)(19617315012)(10400500002)(2900100001)(50986999)(40100003)(82746002)(106356001)(5003630100001)(102836002)(87936001)(83716003)(99286002)(86362001)(33656002)(92566002)(15975445007)(5002640100001)(5004730100002)(5008740100001)(101416001)(5007970100001)(105586002)(16236675004)(110136002)(5001960100002)(36756003)(81156007)(19580405001)(16601075003)(189998001)(97736004)(66066001)(19580395003)(104396002);DIR:OUT;SFP:1101;SCL:1;SRVR:BL2PR03MB115;H:domain.com;FPR:;SPF:None;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+received-spf: None (domain.com: hrcoffice.com does not designate
+ permitted sender hosts)
+spamdiagnosticoutput: 1:23
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_33ED1D5DFC8D4A1B89BF1275C1B3F8AChrcofficecom_"
+MIME-Version: 1.0
+X-OriginatorOrg: hrcoffice.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 Nov 2015 03:10:35.2722
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: cd8891aa-8599-4062-9818-7b7cb05e1dad
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL2PR03MB115
+
+Right
+
+Sent from my iPhone
+
+On Nov 11, 2015, at 10:02 PM, Robby Mook <user@domain.com<mailto:re

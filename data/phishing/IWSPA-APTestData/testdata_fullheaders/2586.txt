@@ -1,0 +1,79 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 16 Jan 2015 01:53:09 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0G9r8bs018313	for <user@domain.com>; Thu, 16 Jan 2015 
+ 09:53:08 GMT
+Received: from mail177-db8-domain.com
+ (mail-domain.com [213.199.154.177])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0G9r7gd000492	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 16 Jan 2015 09:53:08 GMT
+Received: from mail177-db8 (localhost [127.0.0.1])	by
+ mail177-db8-domain.com (Postfix) with ESMTP id F1E03BC010D	for
+ <user@domain.com>; Thu, 16 Jan 2015 09:53:06 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:67.231.145.242;KIP:(null);UIP:(null);IPV:NLI;H:mx0a-0015domain.com;RD:mx0a-0015domain.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(z579eh5109h5105hz217bIc89bhzz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1730fah177df4h17326ahf69b8h1de097h186068h1c05dbiz2dh109h2a8h839h93fhd25he5bh1288h12a5h12a9h12bdh137ah13b6h13eah1441h1504h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah2222h224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h2052h20b3h2216h22d0h2336h2438h2461h2487h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received: from mail177-db8 (localhost.localdomain [127.0.0.1]) by mail177-db8
+ (MessageSwitch) id 1389865983818344_7741; Thu, 16 Jan 2015 09:53:03 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.8.225])	by
+ mail177-domain.com (Postfix) with ESMTP id C403680004E	for
+ <user@domain.com>; Thu, 16 Jan 2015 09:53:03 +0000 (UTC)
+Received: from mx0a-0015domain.com (67.231.145.242) by
+ domain.com (10.174.4.42) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Thu, 16 Jan 2015 09:53:00 +0000
+Received: from pps.filterd (domain.com [127.0.0.1])	by
+ mx0a-0015domain.com (8.14.5/8.14.5) with SMTP id s0G9qw71027535	for
+ <user@domain.com>; Thu, 16 Jan 2015 02:52:58 -0700
+Received: from ny-domain.com ([207.239.108.90])	by
+ mx0a-0015domain.com with ESMTP id 1hb0pntdh0-1	(version=TLSv1/SSLv3
+ cipher=AES128-SHA bits=128 verify=NOT)	for <user@domain.com>;
+ Thu, 16 Jan 2015 02:52:58 -0700
+Received: from NY-domain.com ([fe80::c4b7:5a84:d56f:bb1c]) by
+ NY-domain.com ([::1]) with mapi id 14.02.0298.004; Thu, 16 Jan
+ 2015 04:52:56 -0500
+From: "Farkas, Andrew L." <afarkas@islecap.com>
+To: Michael Lynton <user@domain.com>
+Subject: =?utf-8?B?TllUaW1lczogRmluYW5jaWVyIFNheXMgSGXigJlzIEd1aWx0eSBvZiBFdmVy?
+ =?utf-8?Q?ything_but_a_Crime?
+Thread-Topic: =?utf-8?B?TllUaW1lczogRmluYW5jaWVyIFNheXMgSGXigJlzIEd1aWx0eSBvZiBFdmVy?
+ =?utf-8?Q?ything_but_a_Crime?
+Thread-Index: Ac8SoLqsjeu/9GbhSgW/SF3ULQITHg
+Date: Thu, 16 Jan 2015 09:52:55 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Content-ID: <5user@domain.com>
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10432:5.11.87,1.0.14,0.0.0000
+ definitions=2014-01-16_04:2014-01-15,2014-01-16,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0 suspectscore=0 phishscore=0
+ adultscore=0 bulkscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=7.0.1-1305240000 definitions=main-1401160013
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+NYTimes: Financier Says He’s Guilty of Everything but a Crime
+
+From The New York Times:
+
+Financier Says He’s Guilty of Everything but a Crime
+
+Florian Homm, a former fund manager from Germany who faces extradition to the United States on security fraud, has willfully documented his rise and fall.
+
+<<link>>
+
+Sent from my iPad
+
+________________________________
+
+This message, and any attachments hereto, is confidential and intended exclusively for the use of the individual or entity to whom it is addressed. This communication may contain information that is confidential, proprietary, privileged, subject to a confidentiality and/or non-disclosure agreement, or otherwise exempt or protected from disclosure (either by contract or under applicable law). If you are not the intended recipient, you are hereby notified that printing, retaining, reproducing, copying, disclosing, disseminating or using this message or any information contained herein (including any reliance thereon) is strictly prohibited. If you have received this message in error, please contact the sender immediately and destroy the message (including any attachments) and any copies in their entirety, whether in electronic or hard copy format. Nothing contained in this e-mail shall be considered a legally binding agreement, amendment or modification of any agreement with Island Capital Group LLC or any of its affiliates, each of which requires a fully executed agreement to be received by Island Capital Group LLC or such affiliate.
+

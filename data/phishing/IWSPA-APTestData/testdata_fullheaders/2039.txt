@@ -1,0 +1,55 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp1916413lfr;
+        Tue, 21 Jul 2015 17:23:57 -0700 (PDT)
+X-Received: by 10.50.59.211 with SMTP id b19mr28855882igr.42.1437524636761;
+        Tue, 21 Jul 2015 17:23:56 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-pd0-domain.com (mail-pd0-domain.com. [2607:f8b0:400e:c02::233])
+        by domain.com with ESMTPS id my10si46835321pdb.33.2015.07.21.17.23.55
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 21 Jul 2015 17:23:56 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c02::233 as permitted sender) client-ip=2607:f8b0:400e:c02::233;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c02::233 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-pd0-domain.com with SMTP id g1so128494863pdr.2
+        for <user@domain.com>; Tue, 21 Jul 2015 17:23:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: user.mary@gmail.com
+         :message-id:date:to;
+        bh=rW/8eyfe0Yu7bNOcn8bm/wkskdqqi72Zv8MfSxtKPxE=;
+        b=YddFxrCV+cOpLGZt5WR5SD1ISBz9YVfIOfhEgAsBL65UYGxAkHA+lIx/vpfoP5D5z0
+         SgqjKfG8vAt3/Msp7baBETJHJ489JO8Ymzr+IwuRAY1uII4bMQ4sTQBvETtMZ0RJgIP2
+         NwKVUf+73V6Sitq8khY5aquwdl7A6QjaXi7OKl0QYBy1y8llqTFp8zdLN3n0TfuAum94
+         LiBKH50cSRoWq/F2cquSyFxbJMih0mCtZlwPCJxMjlm2fjnMl+hoAKNFmxDYASiuOCa2
+         T4OS1tQWOGJjtn9tDu9/+82hVSBZmSCP15v62+e6Jlb3vI9O4/pYaA8Z4quRw4XBGTNN
+         Mdsg
+X-Received: by 10.66.184.197 with SMTP id ew5mr25513060pac.54.1437524635777;
+        Tue, 21 Jul 2015 17:23:55 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2600:1010:b140:a3ac:50b0:50af:80a4:fb51? ([2600:1010:b140:a3ac:50b0:50af:80a4:fb51])
+        by smtp.gmail.com with ESMTPSA id fk5sm29767568pab.40.2015.07.21.17.23.54
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 21 Jul 2015 17:23:54 -0700 (PDT)
+From: user.mary@gmail.com
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+Subject: Great trip so far
+Message-Id: <5user@domain.com>
+Date: Tue, 21 Jul 2015 17:23:52 -0700
+To: John user <user@domain.com>
+X-Mailer: iPhone Mail (12F70)
+
+=46rom Lincoln to Laramie and now heading to Elko to spend tonight. Then Tru
+ckee tomorrow.
+
+Hope your travels have gone well too.
+
+Love
+Mary

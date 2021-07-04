@@ -1,0 +1,109 @@
+Delivered-To: user@domain.com
+Received: by 10.204.68.206 with SMTP id w14csp39269bki;
+        Thu, 12 Sep 2015 08:38:21 -0700 (PDT)
+X-Received: by 10.49.18.195 with SMTP id y3mr14550003qed.39.1379000300687;
+        Thu, 12 Sep 2015 08:38:20 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [64.94.250.8])
+        by domain.com with ESMTP id c11si3822061qey.80.1969.12.31.16.00.00;
+        Thu, 12 Sep 2015 08:38:20 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.94.250.8 as permitted sender) client-ip=64.94.250.8;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 64.94.250.8 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (localhost [127.0.0.1])
+	by mta-domain.com (Postfix) with ESMTP id 3cbPBL4YC8ztdT6
+	for <user@domain.com>; Thu, 12 Sep 2015 11:32:58 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1378999978;
+	bh=izUEtBkHlIwSJQCkXyXIWrfAd1eXKpuqloUAR8KAVyg=;
+	h=Date:To:From: James Carville <info@terrymcauliffe.com>
+	 MIME-Version:Content-Type;
+	b=wXwUp467yPH44vpBoCzI4FtfxjHklaN9C9RoC0YqsDG9VcpBpXalaDY4x4dl00t7+
+	 n28Y2lQGusSmQFeUjFhdIjVqgUJK/vnsu9ia8kJrUnc3ZA9cIeX/CID/qzkHlKl+os
+	 Rk4+quScQnhQrYW1xaVeubju7mtaoH2WF74d3Ts0
+Received: from maillist-a 
+	by domain.com with local (PHPMailer);
+	Thu, 12 Sep 2015 15:32:58 +0000
+Date: Thu, 12 Sep 2015 15:32:58 +0000
+To: user@domain.com
+From: James Carville <info@terrymcauliffe.com>
+Reply-to: user@domain.com
+Subject: Un-freaking-believable
+Message-ID: <4user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 667ea67cbb1eb440
+X-rpcampaign: rp_20415
+X-maillist-guid: CAZXQA8NAFIAOgYDBgBSV1RaUlAFUgcHVgk7CVlcW0oVClJQEBAHdAJeUVxdS1AODjAECgw
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_4db5cb51c03ce3b0f6a75159dc3925f4"
+
+Friend,
+
+The same national organization that's already spent more
+than $5 million attacking Terry McAuliffe just gave Ken
+Cuccinelli's campaign another million dollars!
+
+Math's not my strong domain.com, but that means they've spent a
+total of $6.8 million so far -- almost approaching a dollar
+per Virginian.
+
+That much money will make a real difference for the
+Cuccinelli campaign. It could pay for direct mail to
+thousands of voters, go towards blanketing the state in
+radio ads, or (and this is most likely) buy a whole lot of
+attack ads on TV across the Commonwealth.
+
+If Terry is going to keep up, he needs our help. When I heard
+about the donation, I knew I had to do everything I could --
+and that I had to check in with you to see if you'd join me.
+
+Will you donate $5 right now to help Terry? His team needs
+to raise $25,000 by midnight tonight to counter these
+damaging RGA-funded attacks:
+
+<<link>>
+
+Terry is the only person that can stop Ken Cuccinelli's
+extreme right-wing agenda from becoming a very scary reality
+for Virginia and national Republicans know it.
+
+News just broke that Jeb Bush is coming to town to raise
+money for Cuccinelli's campaign. And that's on top of the
+fundraising trips already planned by Rand Paul, Ted Cruz,
+and Marco Rubio!
+
+There aren't a lot of competitive races this year, so
+Republicans -- who want a big win to build momentum for next
+year's elections -- know electing Tea Party darling Ken
+Cuccinelli is their best shot.
+
+They're all in. And they'll come out on top if we're not all
+in for Terry McAuliffe, too.
+
+Chip in $5 right now to make sure Terry hits his fundraising
+goal before midnight:
+
+<<link>>
+
+I can't emphasize enough that this is a critical moment for
+you to support Terry. We need to stop Jeb Bush and his
+friends from pushing Cuccinelli into the lead right now --
+it'll be much harder to fight our way back from behind.
+
+We're all counting on you,
+
+James Carville
+
+CONTRIBUTE NOW: <<link>>
+
+---
+Paid for by Terry McAuliffe for Governor
+---
+
+Unsubscribe: <<link>>
+user@domain.com
+

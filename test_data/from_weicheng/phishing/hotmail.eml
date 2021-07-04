@@ -1,0 +1,21 @@
+Received: from MW2NAM12HT067.eop-nam12.prod.protection.outlook.com (2603:1096:202::15) by HK2PR0201MB2258.apcprd02.prod.outlook.com with HTTPS via HK2PR0302CA0005.APCPRD03.PROD.OUTLOOK.COM;Mon, 3 Feb 2020 13:23:28 +0000
+Received: from MW2NAM12FT066.eop-nam12.prod.protection.outlook.com (10.13.180.59) by MW2NAM12HT067.eop-nam12.prod.protection.outlook.com (10.13.181.173) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2707.10; Mon, 3 Feb 2020 13:23:27 +0000
+Authentication-Results:
+    spf=pass (sender IP is 54.240.27.115) smtp.mailfrom=us-west-2.amazonses.com; hotmail.com;
+    dkim=pass (signature was verified) header.d=amazonses.com;hotmail.com;
+    dmarc=fail action=none header.from=126.com;compauth=fail reason=001
+Received-SPF: Pass (protection.outlook.com: domain of us-west-2.amazonses.com designates 54.240.27.115 as permitted sender) receiver=protection.outlook.com; client-ip=54.240.27.115; helo=a27-115.smtp-out.us-west-2.amazonses.com;
+Received: from a27-115.smtp-out.us-west-2.amazonses.com (54.240.27.115) by MW2NAM12FT066.mail.protection.outlook.com (10.13.181.212) with Microsoft SMTP
+Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.2707.10 via Frontend Transport; Mon, 3 Feb 2020 13:23:27 +0000 X-IncomingTopHeaderMarker:OriginalChecksum:C8CD7C2BD3C576E9DDD620729A223ACDCE59ED72ACB3C415F7B13EA30DD014E0;UpperCasedChecksum:FC7B283A5A7C79C6CD9CB457B9613FD12AC20247919AC52C9A5B24601891C725;SizeAsReceived:909;Count:11
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;s=gdwg2y3kokkkj5a55z2ilkup5wp5hhxx; d=amazonses.com; t=1580736207;h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:Feedback-ID;bh=WN9jjFu//8qtE8luk5bNJWZe8eu6jn90bWUEPF3q5DU=;b=JKuF7YDcorofA46D7dyXciAjzrRRjAmeifjEikR7wp1MKYJ3gL6ho4pXuAG5p4ta0j7z63Vz8tL4SSf2bc6bHa+73MHHAQMkksp8CrldAa5PYCC4SiQw/RsERaiJwQXgUHubvw0urOLHmZLnELQ2GXKO0wn3vuf3aq7p0Ay2gQc=
+From: edotest1@126.com
+To: weicheng.qian@hotmail.com
+Subject: Send From AWS(126)
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-ID: <010101700b385844-0d69482b-c2f8-413f-a6f6-4bfe629afb92-000000@us-west-2.amazonses.com>
+Date: Mon, 3 Feb 2020 13:23:26 +0000
+Return-Path:010101700b385844-0d69482b-c2f8-413f-a6f6-4bfe629afb92-000000@us-west-2.amazonses.com
+MIME-Version: 1.0
+
+Can you give me your tel?

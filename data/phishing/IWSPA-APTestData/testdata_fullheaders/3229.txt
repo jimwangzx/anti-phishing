@@ -1,0 +1,74 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp1299875lfb;
+        Sun, 6 Mar 2015 20:48:01 -0800 (PST)
+X-Received: by 10.107.12.14 with SMTP id w14mr23594870ioi.8.1457326081324;
+        Sun, 06 Mar 2015 20:48:01 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::232])
+        by domain.com with ESMTPS id b4si10379040igf.22.2016.03.06.20.48.01
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 06 Mar 2015 20:48:01 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::232 as permitted sender) client-ip=2607:f8b0:4001:c05::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: by mail-ig0-domain.com with SMTP id hb3so33305454igb.0
+        for <user@domain.com>; Sun, 06 Mar 2015 20:48:01 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hfaadvance-domain.com; s=20150623;
+        h=mime-version:subject:From: Opal Vadhan <ovadhan@hfaadvance.com>
+         :to;
+        bh=ln1V3hbbAmZwxyDpgnlESownl9f2BDPnDMIfYz5MwYg=;
+        b=iwakA6CdqNkPv+GGZAj4qRGaE5vELTK9UcQyhnumwIrSf47mhStCQsRwgLWGqMcolS
+         tRKtSmaP0ROeBM9GOnboSxCvQ1tRuGcILdJZJti7aVpvlg3GIGc9GlwMY9VqQRw/Olp2
+         lEQIwOuNruuIPwr+iusdfqS0v/JmT/1pFfpNmaNxJ3KDRociKEF6uNodnPuWcpDKdpTV
+         gvBvrc1msdwsaFm13365PspF/beezye4msiY+32JO8VmSDfTxEieDhq9HHnArR51rmpZ
+         IWzJugfgqo8GYjymvrY+yY8sBfI2NPd8fId79n+EisaAvXH1r6h0qYfmkqt8iXS9EZbM
+         hriA
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:subject:From: Opal Vadhan <ovadhan@hfaadvance.com>
+         :message-id:references:to;
+        bh=ln1V3hbbAmZwxyDpgnlESownl9f2BDPnDMIfYz5MwYg=;
+        b=CplY/YQ4GvnboeOGF/DjuCscsBn6Pj/j28DKI7kU/tURj66yx1N8gjkFfHQnTqL3RU
+         QO7UdlrNdnsdtSxV/h4GF+rQx9G0tVzRioroeDNOhGFEBFohak8V96+sdu0A7MxdZvSt
+         H/iB9elKfrqueNFGYFCTYrogRtfooyWDnUPC1hTwyknax8LSq9e1cVo8LqBamhSmSub+
+         IiFKV86t8/zaVOaNRvgRcQAmHyxz+Kt5GcsdLgEXD4rZITdKsWIR0vnDL86wPLD9uz9G
+         pgmKllPps7i2OVc3VDbSXO02SsTH1vD3UBOX8QoxXB521l+fVr9OhjPyfcadFFVB7QkD
+         uRtg
+X-Gm-Message-State: AD7BkJIzQLwsYR+pd2ZrXsfkCQD8qfqtyJySwalZVMJwL00wyvsF0krLjlSi7U7n3k0vujJAAuQ12jwm/HEWcI8vKNv0xQlZvcKEDxSmd5ZBX2GAHxpXy4h3qJBoqdntwYyP
+X-Received: by 10.50.25.227 with SMTP id f3mr10350672igg.21.1457326081031;
+        Sun, 06 Mar 2015 20:48:01 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [172.20.5.32] ([38.105.36.20])
+        by domain.com with ESMTPSA id cq9sm5232914igb.0.2016.03.06.20.48.00
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sun, 06 Mar 2015 20:48:00 -0800 (PST)
+Mime-Version: 1.0 (1.0)
+Subject: Re: IMPT! Hotel bar closes at midnight
+From: Opal Vadhan <ovadhan@hfaadvance.com>
+X-Mailer: iPhone Mail (13C75)
+In-Reply-To: <-2335116511361161852@unknownmsgid>
+Date: Sun, 6 Mar 2015 23:47:59 -0500
+CC: Connolly Keigher <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Karen Dunn <user@domain.com>, Ron Klain <user@domain.com>, 
+ user Carrk <user@domain.com>, "Barnett, Robert" <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>, "Margolis, Jim" <user@domain.com>, 
+ Joel Benenson <user@domain.com>, 
+ Sara Aronchick Solow <user@domain.com>, 
+ Kristina Costa <user@domain.com>, 
+ John user <user@domain.com>, 
+ John user <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Tom Kerr <user@domain.com>, Stephen Davis <user@domain.com>
+Message-Id: <62user@domain.com>
+References: <7693401704859862871@unknownmsgid> <-2335116511361161852@unknownmsgid>
+To: Huma Abedin <user@domain.com>
+Content-Type: text/plain; charset=ISO-8859-1
+
+Food will be coming shortly to Motor Bar on 2nd floor!
+
+Sent from my iPhone
+

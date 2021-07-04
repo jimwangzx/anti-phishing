@@ -1,0 +1,112 @@
+Delivered-To: user@domain.com
+Received: by 10.25.30.9 with SMTP id e9csp526667lfe;
+        Wed, 27 Aug 2015 17:55:49 -0700 (PDT)
+X-Received: by 10.140.104.138 with SMTP id a10mr1012133qgf.19.1409187348833;
+        Wed, 27 Aug 2015 17:55:48 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.202])
+        by domain.com with ESMTPS id v17si3361416qgd.84.2014.08.27.17.55.48
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Wed, 27 Aug 2015 17:55:48 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.202;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=fail user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.241.243:20137] by server-10.bemta-8.domain.com id 9B/DD-02576-41E7EF35; Thu, 28 Aug 2015 00:55:48 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-4.tower-192.domain.com!1409187347!8374805!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 18023 invoked from network); 28 Aug 2015 00:55:47 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-4.tower-192.domain.com with AES128-SHA encrypted SMTP; 28 Aug 2015 00:55:47 -0000
+Resent-From: t r u t h o u t <messenger@truthout.org>
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Wed, 27 Aug 2015 20:55:47 -0400
+Received: from [216.82.249.179:55554] by server-7.bemta-12.domain.com id
+ 64/52-23867-21E7EF35; Thu, 28 Aug 2015 00:55:46 +0000
+X-Env-Sender: 2230006058-1304038-user@domain.com
+X-Msg-Ref: server-2.tower-44.domain.com!1409187344!7201511!1
+X-Originating-IP: [69.174.83.167]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY3ID0+IDI4ODYw\n,sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY3ID0+IDI4ODYw\n,HTML_MESSAGE
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 32196 invoked from network); 28 Aug 2015 00:55:44 -0000
+Received: from domain.com (HELO domain.com) (69.174.83.167)
+  by server-2.tower-44.domain.com with SMTP; 28 Aug 2015 00:55:44 -0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1409187344;
+	h=From: t r u t h o u t <messenger@truthout.org>
+	bh=Ca6tyAnetGaswbeXj2j6lLPLihs=;
+	b=QAbC4ueTxZihM1WMrFt+kbXTcNIhiQevmX6+Nl3iHNVf6nQJpvhfG49tybH4NMvh
+	XmeoeF/SToeCw/MxHCR5g78a1ZD7mbOz/wjyb3U6s84wGgosPohQUuCegyDqfwRa
+	CEJW35W2vzAFeuptrqRcDLV9H2IMe2Kzr6K/te9rkcs=;
+Received: from [10.174.83.206] ([10.174.83.206:41243] helo=10.174.83.206)	by
+ domain.com (envelope-from
+ <2230006058-1304038-user@domain.com>)	(ecelerity
+ 3.5.0.35861 r(Momo-dev:tip)) with ESMTP	id 4F/71-07016-01E7EF35; Wed, 27 Aug
+ 2015 20:55:44 -0400
+Date: Wed, 27 Aug 2015 20:55:44 -0400
+From: t r u t h o u t <messenger@truthout.org>
+Sender: <user@domain.com>
+Reply-To: <user@domain.com>
+To: user@domain.com
+Message-ID: <2230006058.1745116160@domain.com>
+Subject: Help! Tonight is Critical
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_21527030_961699325.1409187344590"
+Envelope-From: t r u t h o u t <messenger@truthout.org>
+List-Unsubscribe: <<<link>>>
+X_email_KEY: 2230006058
+X-campaignid: salsaorg26694-1304038
+
+t r u t h o u t | This is an urgent message to everyone who values the work
+ Truthout does. We are still over $10,000 short of our fundraising goal and
+ desperately need your help to get there by midnight tonight.
+
+If you've already donated and can spare a little more, please consider givi
+ng us an extra push. If you've been holding out - please, the time is now!
+
+It is absolutely critical that we hit our goal tonight. Please, take a mome
+nt to support our work with a tax-deductible donation.
+
+Click here to donate: <<link>>
+(Truthout is a 501(c)(3) domain.com. EIN: 20-0031641)
+
+You can also donate by check, made payable to:
+Truthout, P.O. Box 276414, Sacramento, CA 95827
+(Please include your email address on your check.)
+
+Sincerely,
+Joe Macar=C3=A9, Publisher, and Ziggy Jeffery, Development Director
+
+-----------
+Support Truthout with a tax-deductible donation by clicking here: <<link>>
+embers.truth-domain.com/donate
+
+To ensure you receive our messages please add the following address to your
+ email address book: user@domain.com
+
+If you are having trouble with this, read our guide: <<link>>
+hitelisting
+
+Thank you!
+
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+Click to UNSUBSCRIBE -> <<link>>
+unsubscribe/public/?user@domain.com&email_blast_KEY=3D13
+04038
+Go directly to our home page: <<link>>
+Click to SUBSCRIBE -> <<link>>
+ublic/signup?signup_page_KEY=3D2160
+Our Privacy Policy -> <<link>>

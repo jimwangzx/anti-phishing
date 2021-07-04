@@ -1,0 +1,61 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp6956lfr;
+        Fri, 17 Jul 2015 13:24:06 -0700 (PDT)
+X-Received: by 10.180.187.195 with SMTP id fu3mr413754wic.24.1437164646509;
+        Fri, 17 Jul 2015 13:24:06 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::236])
+        by domain.com with ESMTPS id db2si20888951wjb.193.2015.07.17.13.24.06
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 17 Jul 2015 13:24:06 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::236 as permitted sender) client-ip=2a00:1450:400c:c05::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id ic2so45769101wid.0
+        for <user@domain.com>; Fri, 17 Jul 2015 13:24:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+         :content-type;
+        bh=Sei2R9GHciCA0BJwNiokQzww1ib50grwWZOzR49X5Yg=;
+        b=QcPkifqaCx0QkMqYPUXugcEp5580X7W7Ivhg7ryQ5l+Nd2tSo2Nf+URmuz0SV6qW9V
+         1PF9ER31EG1ADbmsSaq/4JfhumPRIWnGraOm68+FmJENZVga6YiqmbYWPqnTmFUeruzA
+         VD7LdaKWKvicLXKR2VAmLr4QWA5F9T8+atVoY
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+         :subject:to:content-type;
+        bh=Sei2R9GHciCA0BJwNiokQzww1ib50grwWZOzR49X5Yg=;
+        b=BqbkIXMCOV8RsXeYzUZKyn/mquq96LtOylB9qXUXvxs87qgJp4bNVt0Hn4T1+HCbCS
+         CRfIKRXmEeWmD1hlc2iGGRQzNZxhbetu4kVy/Hk2LwdxU9MRaZUyIoxUeRYHz0rbhyGX
+         VuIcRJMxr1yZY5avIAcatshYOoPGNNFBwxVYJe9+n/I+57xPm6lZq1x/HzWoaLrzWt0H
+         H2HCLM/LHaGHuWQAPlUxjnMP2bV0jg2mNUFWopT5zckoNCr0zsVsPgTjzPdpGrKLP9jM
+         nnIvg9/T0Pl7c5+8DShybXepoHe85zLV4twvEgsgzuYgVVT6kqWeOgBxJCnmxg7Jci/+
+         6AMw
+X-Gm-Message-State: ALoCoQmjWnokXnN3pu5bZYBwveiZRKMayUoh8qZKTA6jQl2I6kPfkAJsRTCNueHblhdWZ+kiSzOq
+X-Received: by 10.180.108.239 with SMTP id hn15mr380348wib.40.1437164646282;
+ Fri, 17 Jul 2015 13:24:06 -0700 (PDT)
+From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdDAvj0u7VwHXH0dQfee2dnt+BisxA
+Date: Fri, 17 Jul 2015 14:28:36 -0400
+Message-ID: <65user@domain.com>
+Subject: corporate purpose week
+To: Jake Sullivan <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ John user <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Maya Harris <user@domain.com>, 
+ Mike Schmidt <user@domain.com>, 
+ Michael Shapiro <user@domain.com>
+Content-Type: multipart/alternative; boundary=e89a8f23542b39c8e7051b17f89e
+
+Next week is corporate purpose week.
+
+Tuesday is the five year anniversary of Dodd-Frank.  She is in domain.com, but
+not able to do a message event.  Folks have ideas on how to lift up DF?

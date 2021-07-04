@@ -1,0 +1,167 @@
+Delivered-To: user@domain.com
+Received: by 10.204.113.195 with SMTP id b3cs307350bkq;
+        Thu, 25 Feb 2015 10:47:57 -0800 (PST)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 10.224.110.204 as permitted sender) client-ip=10.224.110.204;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of 3user@domain.com designates 10.224.110.204 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.224.110.204])
+        by 10.224.110.204 with SMTP id o12mr107478qap.0.1267123675877 (num_hops = 1);
+        Thu, 25 Feb 2015 10:47:55 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:x-asg-debug-id:received
+         :x-barracuda-envelope-From: Adam Jentleson <Ajentleson@americanprogress.org>
+         :x-asg-orig-subj:subject:thread-topic:thread-index:message-id
+         :accept-language:x-ms-has-attach:x-ms-tnef-correlator:acceptlanguage
+         :mime-version:x-barracuda-connect:x-barracuda-start-time
+         :x-barracuda-encrypted:x-barracuda-url:x-virus-scanned
+         :x-original-authentication-results:x-original-sender:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :x-thread-url:x-message-url:sender:list-unsubscribe:content-language
+         :content-type;
+        bh=RqD0gXl/WyiL0P1YLqiGGEKDJDyuBEfdlBpbcLXL8n0=;
+        b=AnVuKb+V45frlgqJn0kra2POu9WUbu7SqpBPlY8IcmxTae0l46t/4zSORAh31gJYRg
+         6bmgVy6JNy5/lZWlwOv+z3G50ROVN87fS3iLRQ6H1gHQpNOmMwJ60zp52zFgbpk2B75I
+         xfg1isEr3bbOiF+8bQpD+45Z6ectKjbSvxN9k
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:x-asg-debug-id:x-barracuda-envelope-from
+         :x-asg-whitelist:From: Adam Jentleson <Ajentleson@americanprogress.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-barracuda-connect:x-barracuda-start-time:x-barracuda-encrypted
+         :x-barracuda-url:x-virus-scanned:x-original-authentication-results
+         :x-original-sender:reply-to:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:x-thread-url:x-message-url:sender
+         :list-unsubscribe:content-language:content-type;
+        b=Ds3D869ixlKgUqhQtNObH9f7coZi2JPLmDlW9V60BQtFyE+qrJ2eBmwos+zHjBi5q6
+         BtUina21kp6CESBwyfPcsMLjqta52bRY1fv/eqk6AHEhew2LRbJHe8edL1ZW3QRjp/io
+         ErqutA7puCVXbXAmD66/KI4pdXGC2TxNyzOrg
+Received: by 10.224.110.204 with SMTP id o12mr12998qap.0.1267123654099;
+        Thu, 25 Feb 2015 10:47:34 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.224.38.138 with SMTP id b10ls242670qae.4.p; Thu, 25 Feb 2015 
+	10:47:32 -0800 (PST)
+Received: by 10.224.65.69 with SMTP id h5mr218999qai.2.1267123652103;
+        Thu, 25 Feb 2015 10:47:32 -0800 (PST)
+Received: by 10.224.65.69 with SMTP id h5mr218997qai.2.1267123652044;
+        Thu, 25 Feb 2015 10:47:32 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mrelay2.americanprogress.org (mrelay2.americanprogress.org [76.74.8.245])
+        by gmr-domain.com with ESMTP id 18si184595qyk.8.2010.02.25.10.47.31;
+        Thu, 25 Feb 2015 10:47:32 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 76.74.8.245 as permitted sender) client-ip=76.74.8.245;
+X-ASG-Debug-ID: 1267123649-3075eda50001-QLVFix
+Received: from mail.americanprogress.org ([172.16.10.1]) by mrelay2.americanprogress.org with ESMTP id qtuT35zEdAFwCVKc (version=TLSv1 cipher=RC4-MD5 bits=128 verify=NO) for <user@domain.com>; Thu, 25 Feb 2015 13:47:29 -0500 (EST)
+X-Barracuda-Envelope-From: Adam Jentleson <Ajentleson@americanprogress.org>
+X-ASG-Whitelist: Client
+Received: from domain.com ([172.16.10.17]) by
+ domain.com ([172.16.10.24]) with mapi; Thu, 25 Feb
+ 2015 13:47:29 -0500
+From: Adam Jentleson <Ajentleson@americanprogress.org>
+To: "User" <user@domain.com>
+Date: Thu, 25 Feb 2015 13:47:29 -0500
+X-ASG-Orig-Subj: Cornyn Can't Say What Republicans Will 'Give In Return' For
+ Concessions From Democrats
+Subject: [big campaign] Cornyn Can't Say What Republicans Will 'Give In 
+	Return' For Concessions From Democrats
+Thread-Topic: Cornyn Can't Say What Republicans Will 'Give In Return' For
+ Concessions From Democrats
+Thread-Index: Acq2SvsHZeZm/F9cSC6c8s9snIpw0A
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-Barracuda-Connect: UNKNOWN[172.16.10.1]
+X-Barracuda-Start-Time: 1267123649
+X-Barracuda-Encrypted: RC4-MD5
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at americanprogress.org
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com: 
+	domain of user@domain.com designates 76.74.8.245 as permitted 
+	sender) user@domain.com
+X-Original-Sender: user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, 
+	<mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+X-Thread-Url: <<link>>
+X-Message-Url: <<link>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>, 
+	<mailto:bigcampaign+user@domain.com>
+Content-Language: en-US
+Content-Type: multipart/alternative;
+	boundary="_000_A28459BA2B4D5D49BED0238513058A7F012ACB77E147CAPMAILBOXa_"
+
+Cornyn Can't Say What Republicans Will 'Give In Return' For Concessions Fro
+m Democrats<<<link>>
+/>
+
+<<link>>
+
+This morning, Sen. John Cornyn (R-TX) refused to say what Republicans would
+ be willing to "to give in return" if Democrats accepted GOP proposals afte
+r the bipartisan health care domain.com. Cornyn insisted that the Democrats mus
+t scrap the current legislation and start from scratch if they hope to win 
+bipartisan support.
+
+CNN anchor Kiran Chetry<<<link>>
+an.html> twice tried to ask Cornyn if there is "anything Republicans would 
+be willing to give on in return," but Cornyn responded by criticizing the e
+xisting legislation:
+
+CORNYN: Really, I think it's not possible to take this bill or this proposa
+l, this 11 page summary and to work with it around the edges. We're going t
+o have to put it on the shelf. That's what the American people want us to d
+o and start over and we would be glad to do that.
+
+Watch it:
+
+Republicans have long argued, somewhat disingenuously<<<link>>
+domain.com/2009/10/23/rockefeller-malpractice/>, that placing capping non
+-economic damages would reduce health care spending and Obama has signaled 
+thathe may be willing to accept some of their proposals<<<link>>
+domain.com/2010/02/09/obama-malpractice-domain.com/>. It's unlikely that Ob
+ama will adopt caps, but he could could embrace a 'Sorry-Works' proposal<ht
+tp://domain.com/cgi/content/full/354/21/2205>. While in the Senate, O
+bama also co-sponsored "legislation aimed at reducing both medical errors a
+nd lawsuits<<<link>>> through a
+ program known as Sorry Works, rooted in the idea that injured patients val
+ue an apology as much as money." That legislation would have given physicia
+ns who disclosed their errors "certain protections from liability within th
+e context of the program, in order to promote a safe environment for disclo
+sure."
+
+I've proposed four other areas where Democrats and Republicans can reach bi
+partisan agreement here<<<link>>
+domain.com-ideas/>. But if Cornyn's answer is any indication, Republican's are mo
+re interested in obstructing reform than passing it.
+
+-----
+Adam Jentleson
+Communications Director, Progressive Media
+Center for American Progress Action Fund
+user@domain.com<mailto:user@domain.com
+g>
+ajentleson (AIM)
+202-247-8614 (cell)
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

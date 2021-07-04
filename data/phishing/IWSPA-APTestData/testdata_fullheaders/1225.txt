@@ -1,0 +1,238 @@
+Delivered-To: user@domain.com
+Received: by 10.220.92.200 with SMTP id s8cs20719vcm;
+        Wed, 7 Oct 2015 11:24:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.151.16.1 as permitted sender) client-ip=10.151.16.1;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.151.16.1 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.151.16.1])
+        by 10.151.16.1 with SMTP id t1mr358285ybi.0.1254939897925 (num_hops = 1);
+        Wed, 07 Oct 2015 11:24:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received:received-spf:content-class:mime-version
+         :content-type:x-mimeole:subject:date:message-id:x-ms-has-attach
+         :x-ms-tnef-correlator:thread-topic:thread-index:From: "Jeremy Funk" <funk@americansunitedforchange.org>
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=7G+z8L3IBIFHv+mpORLh6OgC9T75jOV/uzlcRUXktnA=;
+        b=XYDf+gpEJG4ulmtK8PYCtzkol1HlYHB4gPIi54k2NPGmYukfttlpxQDOEgyFJ/39eb
+         zQya8yUEys9cFovMKgxoX+vlQojxFlrQLGwrDgx0xixS1SoxM+8PEbUJUDn9cTHeApXX
+         5xPdKwAun6wPzBPDankYsW/24C58ek4GICuqU
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :content-class:mime-version:content-type:x-mimeole:subject:date
+         :message-id:x-ms-has-attach:x-ms-tnef-correlator:thread-topic
+         :thread-index:From: "Jeremy Funk" <funk@americansunitedforchange.org>
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=UOFXtAZgsZThmRfZ4ARSNJPV4JMDAcmGV/LpeRdU6JGVqfUvmhE2tMxlGNzWB6HN/4
+         SGJKYOvtpta2JY4+JXsttVtdki9W6eE2BaVcSIsCniFOwz30GjTRj0bkpVQrQiSjGMVW
+         h3GT2EYHGi2wufAhH6OhMiziJEDVNVpYWgUKc
+Received: by 10.151.16.1 with SMTP id t1mr32770ybi.0.1254939891280;
+        Wed, 07 Oct 2015 11:24:51 -0700 (PDT)
+Received: by 10.177.117.7 with SMTP id u7gr3530yqm.0;
+	Wed, 07 Oct 2015 11:24:50 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.229.117.69 with SMTP id p5mr87712qcq.11.1254939887890; Wed, 07 Oct 2015 11:24:47 -0700 (PDT)
+Received: by 10.229.117.69 with SMTP id p5mr87709qcq.11.1254939887811; Wed, 07 Oct 2015 11:24:47 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail.americansunitedforchange.org ([66.253.44.162]) by gmr-domain.com with ESMTP id 18si564771qyk.13.2009.10.07.11.24.45; Wed, 07 Oct 2015 11:24:46 -0700 (PDT)
+Received-SPF: error (domain.com: error in processing during lookup of user@domain.com: DNS timeout) client-ip=66.253.44.162;
+Authentication-Results: gmr-domain.com; spf=temperror (domain.com: error in processing during lookup of user@domain.com: DNS timeout) user@domain.com
+Content-class: urn:content-classes:message
+Mime-Version: 1.0
+Content-Type: multipart/related; boundary="----_=_NextPart_001_01CA477B.6F3ABD52"
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Subject: [big campaign] Template Hit on Bachmann's comments that she's OK with
+ Limbaugh, Beck being the voices of the GOP
+Date: Wed, 7 Oct 2015 14:24:39 -0400
+Message-ID: <29user@domain.com>
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+Thread-Topic: Template Hit on Bachmann's comments that she's OK with Limbaugh, Beck being the voices of the GOP
+Thread-Index: AcpHe267eY8xQxHtSyyyLrhcwWiLEQ
+From: "Jeremy Funk" <funk@americansunitedforchange.org>
+To: user@domain.com
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+See below - similar releases went to local press in the following
+districts: Blaine Luetkemeyer (MO-09); Thaddeus McCotter (MI-11); Erik
+Paulsen (MN-03); Paul Ryan (WI-01); Michele Bachmann (MN-06); Tom Latham
+(IA-04); Peter King (NY-03); Leonard Lance (NJ-07); Chris Lee (NY-26);
+Joseph Cao (LA-02); Mario Diaz-Balart (FL-25); Lincoln Diaz-Balart
+(FL-21); Randy Forbes (VA-04); Ileana Ros-Lehtinen (FL-18); Frank Wolf
+(VA-10); Brian Bilbray (CA-50); Ken Calvert (CA-44); Dave Reichert
+(WA-08); Mary Bono Mack (CA-45); Dan Lungren (CA-03); Dennis Rehberg
+(MT-AL); Don Young (AK-AL)
+
+________________________________________
+Jeremy J. Funk
+
+Communications Director, Americans United for Change
+
+Office: 202.470.5878
+
+Cell: 605.366.3654
+user@domain.com
+
+domain.com
+<<<link>>>
+
+www.americansunitedforchange.org
+<<<link>>>
+
+FOR IMMEDIATE RELEASE                 CONTACT:    Jeremy Funk,
+202-470-5878
+
+DATE: October 7, 2015                                            
+
+Where Do You Stand, Congressman Paulsen?
+
+Does U.S. Rep. Erik Paulsen Agree With His Colleague U.S. Rep. Michele
+Bachmann That Hateful Conservative Media Personalities Rush Limbaugh and
+Glenn Beck Speak for the Republican Party?
+
+  <<<link>>>
+
+Click Here to View
+<<<link>>>
+
+Washington D.C. - Progressive issue-advocacy group Americans United for
+Change today asked U.S. Rep. Erik Paulsen (R-MN-03) if he agrees with
+his colleague U.S. Rep. Michele Bachmann (R-MN-06) that hateful
+conservative media personalities Glenn Beck and Rush Limbaugh speak for
+their Republican Party.  Excerpt from the Wednesday night broadcast of
+CNN's Larry King Live
+<<<link>>> :
+
+KING: Would you want the Limbaugh, that crowd - would you want them to
+be your voice as the Republican Party stands in this country?
+
+BACHMANN: Well remember it's who the American people are referring to
+Larry. And the American people are looking to voices like Sean Hannity,
+Rush Limbaugh, Mark Levin, Glenn Beck -
+
+KING: I just told you - it's 2 percent of America. It's 2 percent!
+
+BACHMANN: If you look for a critical mass, that's the movement, that's
+the direction that the critical mass is going.
+
+Tom McMahon, Acting Executive Director, Americans United for Change:
+"Conservative shock jocks Rush Limbaugh and Glenn Beck both have long,
+sordid histories of making racially charged, sexist remarks and leveling
+ugly attacks against everyone from families of 9-11 victims, to
+Hurricane Katrina survivors <<<link>>>
+, to victims of Parkinson's disease
+<<<link>>
+imbaughs-attack-on-michael-j-fox#comment-1107489> .  And at least one
+Republican member of the House of Representatives is not afraid to domain.com
+that Limbaugh and Beck speak for her party.  The people of Minnesota's
+3rd district would probably be very interested to know if their
+Representative in Congress agrees."
+
+Americans United for Change is a 501c4 issue-advocacy organization
+founded in 2015 to help defeat President Bush's effort to privatize
+Social Security.  Since then, Americans United has waged numerous media
+campaigns to move forward a progressive agenda in Congress, from
+expanding children's health care to millions of kids in need, to ending
+the war in Iraq, to investing in the clean energy jobs of the future, to
+passing major health insurance reform that includes a strong public
+option.
+
+-30-
+
+Just a Small Sampling of Hate from Rush Limbaugh and Glenn Beck Over the
+Years
+
+Beck: "[T]his is horrible to say, and I wonder if I'm alone in this --
+you know it took me about a year to start hating the 9-11 victims'
+families? Took me about a year."
+
+<<link>>
+
+Beck: President Obama "has a deep-seated hatred for white people or the
+white culture...This guy is, I believe, a racist."
+<<link>>
+310.html
+
+Limbaugh: "The government's been taking care of [young blacks] their
+whole lives" :
+
+<<link>>
+
+Limbaugh said he learned about women from his cat, which "gets loved,"
+"petted," and "fed" and "doesn't have to do anything for it" :
+
+<<link>>
+
+Limbaugh on Dem primary: If "feminazis" had remembered to oppose
+"affirmative action for black guys ... they wouldn't face the situation
+they face today" :
+<<link>>
+
+Limbaugh on Michael J. Fox ad for MO Dem: "Either he didn't take his
+medication [for Parkinson's disease] or he's acting" :
+
+<<link>>
+
+Limbaugh handicapped races in new Survivor series, suggested
+"African-American tribe" worst swimmers, Hispanics "will do things other
+people won't do" :
+
+<<link>>
+
+Limbaugh sang "Barack, The Magic Negro" :
+
+<<link>>
+
+"On his TV show, early in the Clinton administration, Limbaugh put up a
+picture of Socks, the White House cat, and asked, "Did you know there's
+a White House dog?" Then he put up a picture of Chelsea Clinton, who was
+13 years old at the time:"
+
+<<link>>
+
+Beck on Hillary Clinton: "She's the stereotypical bitch."
+<<link>>
+
+Beck: "[I]f you're an ugly woman, you're probably a progressive as
+well."
+<<link>>
+
+Beck ridiculed rival radio host's wife for having a miscarriage:
+
+<<link>>
+
+Limbaugh: "I Hope Obama Fails"
+
+<<link>>
+t.html
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

@@ -1,0 +1,99 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.86 with SMTP id y83csp864013lfc;
+        Tue, 27 Oct 2015 12:43:02 -0700 (PDT)
+X-Received: by 10.202.79.215 with SMTP id d206mr28884412oib.110.1445974982845;
+        Tue, 27 Oct 2015 12:43:02 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::246])
+        by domain.com with ESMTPS id r5si23287272obl.97.2015.10.27.12.43.02
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 27 Oct 2015 12:43:02 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4003:c06::246 as permitted sender) client-ip=2607:f8b0:4003:c06::246;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4003:c06::246 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-oi0-domain.com with SMTP id i82sf119969046oig.0
+        for <user@domain.com>; Tue, 27 Oct 2015 12:43:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:From: Karen Finney <kfinney@hillaryclinton.com>
+         :subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=SG/cZtOD2xqLYSjQ5rGVTeOpLe4gohA22qrgcJrtwpM=;
+        b=Lf2ExMA6aMqRsf7yFdkOuAULbli+hBtnwlhNIN9NZVbNC2kQNFFw1rkEO9CtLShvkL
+         YwAcQxighK+SBCK22FOrV5ysiRyme3iPkesI41+cWzDEgkkFmRgJYJA6QFKJjkN8hhr1
+         Pfr6IpIHkcdOfyXGE/hB6oSGXPg2u2moc0/ws
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:From: Karen Finney <kfinney@hillaryclinton.com>
+         :date:message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=SG/cZtOD2xqLYSjQ5rGVTeOpLe4gohA22qrgcJrtwpM=;
+        b=RDYn8nWaEu1foSOTzI3IxuArELx9s+NSG+moQDTWmKsGDOXZ5eBO3Ye0YE6ueGvnTo
+         5mwm2rjM84e3g+7M20GDnNYwHx65Qaj6BzDqP1KqTcs2lAPUKQYPnCHAtn1+xR8YRnE/
+         ggxc/FEDU+qekt0HkPme4txNJ/ZaImkv26fx6lg4Q3XOWtG2a+FDsCxWmzo/B1UioAUp
+         7s/Zwk85+Dd9zHvHWqskCDPXE/zM0cIZKmEfAe01gd3pwM+JwnvmZaGHlXkZuJ+kz3fo
+         010bIFcBlI5KPEZN8r4jNJmVaLMIG7iBoqVfBC217iaKsLAvblZVpvoeM+X49HJV51r6
+         hlGg
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQlSbSR+Da2rAnLaJa2XdUxG4HzZkO7h92c8EgG7MD75Hns1o2RRGBp2bpIkwqjgL75BGt21
+X-Received: by 10.182.251.230 with SMTP id zn6mr17533587obc.8.1445974982580;
+        Tue, 27 Oct 2015 12:43:02 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.107.38.81 with SMTP id m78ls703267iom.33.gmail; Tue, 27 Oct
+ 2015 12:43:02 -0700 (PDT)
+X-Received: by 10.50.49.46 with SMTP id r14mr25654241ign.71.1445974982280;
+        Tue, 27 Oct 2015 12:43:02 -0700 (PDT)
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::232])
+        by domain.com with ESMTPS id 88si16698487ios.166.2015.10.27.12.43.02
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 27 Oct 2015 12:43:02 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::232 as permitted sender) client-ip=2607:f8b0:4001:c06::232;
+Received: by ioll68 with SMTP id l68so234909339iol.3
+        for <user@domain.com>; Tue, 27 Oct 2015 12:43:02 -0700 (PDT)
+X-Received: by 10.107.169.167 with SMTP id f39mr43295771ioj.104.1445974982023;
+ Tue, 27 Oct 2015 12:43:02 -0700 (PDT)
+From: Karen Finney <kfinney@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CAAEwKfy-V-34xuxyUYdQT++user@domain.com>
+In-Reply-To: <CAAEwKfy-V-34xuxyUYdQT++user@domain.com>
+Date: Tue, 27 Oct 2015 15:43:01 -0400
+Message-ID: <1798576591675423822@unknownmsgid>
+Subject: Re: DRAFT: Remarks at Grover Cleveland dinner
+To: Dan Schwerin <user@domain.com>
+CC: Speech Drafts <user@domain.com>, 
+ Mike Vlacich <user@domain.com>, 
+ Harrell Kirstein <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:4001:c06::232 as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+Given that we are leaning in publicly on the school incident in South
+Carolina should we add a line about kids feeling safe? It's currently
+there in the context of gun violence but this is different and it's a
+growing story.
+
+Sent from my iPhone
+

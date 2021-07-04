@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs517799wfw;
+        Tue, 11 Nov 2015 11:48:09 -0800 (PST)
+Received: by 10.90.103.13 with SMTP id a13mr7542963agc.69.1226432888173;
+        Tue, 11 Nov 2015 11:48:08 -0800 (PST)
+Return-Path: <>
+Received: by 10.90.103.13 with SMTP id a13mr9076775agc.69;
+        Tue, 11 Nov 2015 11:48:08 -0800 (PST)
+Message-ID: <001636283694user@domain.com>
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+To: user@domain.com
+Subject: Delivery Status Notification (Delay)
+Date: Tue, 11 Nov 2015 11:48:08 -0800 (PST)
+
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     user@domain.com
+
+Message will be retried for 1 more day(s)
+
+Technical details of temporary failure: 
+DNS Error: Could not contact DNS servers
+
+   ----- Message header follows -----
+
+Received: by 10.90.103.13 with SMTP id a13mr5116765agc.69.1226244968524;
+        Sun, 09 Nov 2015 07:36:08 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from bda436.bisx.prod.on.blackberry (domain.com [67.223.86.18])
+        by domain.com with ESMTPS id 7sm7414659hsx.3.2008.11.09.07.36.07
+        (version=SSLv3 cipher=RC4-MD5);
+        Sun, 09 Nov 2015 07:36:07 -0800 (PST)
+X-rim-org-msg-ref-id:972168535
+Return-Receipt-To:user@domain.com
+Message-ID:<972168535-1226244965-user@domain.com>
+Reply-To: user@domain.com
+X-Priority: Normal
+Sensitivity: Normal
+Importance: Normal
+To: "User" <user@domain.com>
+Subject: Fw: India Stories
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Date: Sun, 9 Nov 2015 15:36:19 +0000
+Content-Type: multipart/alternative; boundary="part13269-boundary-1168571025-726321558"
+MIME-Version: 1.0
+
+   ----- Message body suppressed -----

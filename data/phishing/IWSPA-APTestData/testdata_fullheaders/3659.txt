@@ -1,0 +1,200 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp296308lfb;
+        Fri, 11 Dec 2015 12:27:49 -0800 (PST)
+X-Received: by 10.140.251.215 with SMTP id w206mr16756766qhc.73.1449865669884;
+        Fri, 11 Dec 2015 12:27:49 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.78])
+        by domain.com with ESMTPS id w186si21709148qhc.131.2015.12.11.12.27.49
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 11 Dec 2015 12:27:49 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.55.169.78 as permitted sender) client-ip=65.55.169.78;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 65.55.169.78 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Received: from domain.com (10.162.170.146) by
+ domain.com (10.242.167.20) with Microsoft SMTP
+ Server (TLS) id 15.1.331.20; Fri, 11 Dec 2015 20:27:48 +0000
+Received: from BN1BFFO11FD055.protection.gbl (2a01:111:f400:7c10::1:157) by
+ domain.com (2a01:111:e400:3000::18) with Microsoft
+ SMTP Server (TLS) id 15.1.355.16 via Frontend Transport; Fri, 11 Dec 2015 
+ 20:27:47 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=marylandersforrosapepe.com;domain.com; dmarc=none action=none
+ header.from=marylandersforrosapepe.com;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.75;
+ helo=domain.com;
+Received: from domain.com (141.161.191.75) by
+ domain.com (10.58.145.10) with Microsoft SMTP
+ Server (TLS) id 15.1.346.13 via Frontend Transport; Fri, 11 Dec 2015 20:27:47
+ +0000
+Resent-From: Senator Jim Rosapepe <info@marylandersforrosapepe.com>
+Received: from na01-bn1-domain.com (141.161.191.14)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Fri, 11 Dec 2015 15:27:33 -0500
+Received: from domain.com (10.255.223.148) by
+ domain.com (10.141.204.151) with Microsoft SMTP
+ Server (TLS) id 15.1.337.19; Fri, 11 Dec 2015 20:27:27 +0000
+Received: from BL2FFO11FD014.protection.gbl (2a01:111:f400:7c09::153) by
+ domain.com (2a01:111:e400:841::20) with Microsoft
+ SMTP Server (TLS) id 15.1.361.8 via Frontend Transport; Fri, 11 Dec 2015 
+ 20:27:27 +0000
+Authentication-Results: spf=pass (sender IP is 198.37.148.253)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass
+ (signature was verified)
+ header.d=marylandersforrosapepe.com;domain.com; dmarc=bestguesspass
+ action=none header.from=marylandersforrosapepe.com;
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 198.37.148.253 as permitted sender)
+ receiver=domain.com; client-ip=198.37.148.253;
+ helo=domain.com;
+Received: from domain.com (198.37.148.253) by
+ domain.com (10.173.160.222) with Microsoft
+ SMTP Server (TLS) id 15.1.346.13 via Frontend Transport; Fri, 11 Dec 2015 
+ 20:27:26 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; 
+	d=marylandersforrosapepe.com; 
+	h=From: Senator Jim Rosapepe <info@marylandersforrosapepe.com>
+	s=smtpapi; bh=Ni/KfFN/wIpTwqiWY+8A0A1CR28=; b=quzzxoXqTJeprsyi+L
+	rR7YNdbGu33CAERvXcpDKBqdWntoiCwp3Jr7GN1w10XDNzGvm6cKM3GN6QxChN3y
+	8B5vkJDTYqUV1nYKA4grZ+ZyJng+469vvMX7u45V4ctr8XHO9qo+wJkxBipH4wfX
+	ybDTYy0HSS/PV9fk/h1a+1pRI
+Received: by domain.com with SMTP id
+ filter0532p1mdw1.24359.566B31AC2        2015-12-11 20:27:24.012112621 +0000
+ UTC
+Received: from domain.com (ip-162-219-220-2.rdns.3dna.io
+ [162.219.220.2])	by domain.com (SG) with ESMTP id
+ o6ByZMxiSUGXE2y9vkaTXw	for <user@domain.com>; Fri, 11 Dec
+ 2015 20:27:23.694 +0000 (UTC)
+Date: Fri, 11 Dec 2015 20:27:23 +0000
+From: Senator Jim Rosapepe <info@marylandersforrosapepe.com>
+To: John & Mary user <user@domain.com>
+Message-ID: <566user@domain.com>
+Subject: are you joining me and Nancy Kopp January 5?
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--==_mimepart_566b31aa344d1_3c4db89318487f8"; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+X-SG-EID: zDgaTeTzrvevqaPg9TMHVUocbQkXZLhjAm2GZyvPC1tzBOm9Z3m42wbmsNvTFQFLDCOnu2l+kOqlht
+ TSJeKIWaKu41c+vlVZn4qfLBl1AgvBOkuWhwuZjNkGXUBlslfR7WJr/XPlnZ7GavGshNkh0FLvb0Aw
+ RcBI5Kc/iciSeWTpLdD8Ci8njPOFIdtTpNPWjD2TbcBxGbZSnhMCbNFAE1tWga+iB/d8156OgCSzU6
+ Se3DMzXVwLk9MWbr5+EIh9
+X-SG-ID: SolyLoj4M+6t0KZQOavh+CATEstih5Fl4JWF7hDzpToGjRebT+z5wwF9vGItvYYwk1sjG5rrer/otp
+ vJNeKEDpq38b/rG7WHE8dkQhkE+/DCvt5AArKz2lXygr3rmo7qxEvd0t0IVgx1hxOyvozmCiznA8Kj
+ VhWQ34QxOk9m9xOm95afONW2DJp96+5OCHuQ
+Return-Path: user@domain.com
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD014;1:c+DpINDGiiS5DbXTBQXtYksd7fsrNKsaTvmb/kH4jGtXni002LMncrZp8NVrwcJkmXdgp+VmGZFsT+IxEQD3LtsfY7/Tf8/qANu4W0FLTACKC/VB5wmdkCzVlzs8QoweuJnvg/NkOYpKi+lVbTl4W9bqBJCyPsZA7qM0yxJrikI3l6qUvS5o7XJ/32IKxTwARKZaH35B2MdRgc1z0xf186t/pCWZ9544U6RuF79cB56gLC2SE3+hP5WIjghbko2QepeyuyZR3a7BlBsLdvBAJxD5im1g1XB9kfk+7jJi+I83O6ChWZehf5RejkzWGBK2oU7ukNdiD0Adfy3mAUmVC4kLveJB3DOqt8QwPlCiEVF7LFAKuzbMurg4TJgcFHSHTKGO0mySPeE+Uf/Sv85ZiBLA2wRe2l+XGx9qcLQJ/NK/nTbpDgXD4z754rKxxmfC34hue2sV0fxRVdZ8HT/NwQ
+X-Forefront-Antispam-Report-Untrusted: CIP:198.37.148.253;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31620200002)(1060300003)(2980300002)(438002)(359002)(349012);DIR:INB;SFP:;SCL:9;SRVR:BLUPR07MB531;H:domain.com;FPR:;SPF:Pass;PTR:domain.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB531;2:/JUxjlPTxtZCd5Y9LIaUM3N4d6T7ClpN6aqxuchbOdcf1Glt8z5ik1A0bQdRgJNr/QPZ4+zX7ZxR4LUR8IGLfLnyKxHOL627q5jtSSXVXlJKZSU+JSrIbVm3tLJKJHcE9RwHh9T8Uci8DC0ogNorZw==;3:oNxFpeSFvUGLK51w7rTwFI6s8BntkgveGIcdO4t+AwZDl43tCSEV3PLWUwZoT3+hxcqeGez94gCoF+vQ9D0wvT1XTkP0r7givafXMC9sJcgYA0OLy44vTDNW6joG1X2vV4j6hR+ZMkLZ847+r8sInSUmwK1D0O3UketVKuFqu/YYLuzXjzG5TD1ZsSjB1aWeSaD6IbVykODhs59cDjWvODCx9VRIaOz918MbLjJXHRFBepFPVwubK9TG1HD6rH7hCX6zHLg1E3RZyom/RsRNClBrgOir6K6gBV+Hp21KGeSKBbsmQIoVe90NIoWhGL0vFJLYmlXemjX22dN+wliS8QT101JQFVB5ISn4efgYOUpf8mOzNcOROBaEXEWnjjzzrzxl5NcEj7eaMLWN99zm9w==;25:5vwsx5d6fo6lOt2jbXgMynkdKSnWhCvjsOLmIRU0dCXHi31xVYjPhlLzISHpA+2FoVGX/DhAE0cqh7D/qpus/v8QA2R1jbrQOO5v88vkBar6l8hvipNO+c9pf/pU/bxhxr0EwCNlMdOpv0yfQOuxlAXgxzZAyf4HSsnyi2SsZa9rpiuXEzVOZbJ+uj6ZZEvs+O2Qbvtp/15LoAnAfN9XAUhzWEuYmmDGlJoqcZpmkNb8vgBtxwvKnrVWy/jdgcj0
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(42134001)(42138001)(42139001)(8251501001)(3001015)(71701003)(71702001);SRVR:BLUPR07MB531;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB531;20:cwjVEhwhDp4j4KLoUn5alAutgNHt7gYsbnHQfnuSctLfHD9wFLoWTWLynl6qXTUDvsoqD4H6w29zq5ZADlhGEqreHkJbw8Ct3AyDf/Lt8h78CO1/2eyTrLJjTopMimA4BsKiM1WS7y1vRy5V66R/u/1ppyasFuw4R8PSalzOdK3nrndXjhOMsJWV0R/RA9GWIQCShwVIKmkPJhD0RC1f1vuFKk1YOVpj6z/XRSSHGEogdbMkZo/i8L0+VPS75aNzQVySoKznRfA9nm2gReFWlFpyr1LNfXV5f4htu999K9Bp//XpVotwXkbEQEJNFCBS2fO44g9Nz6Pra2vnbikUqcLo2Xb7uPkg/ksBuMleA8HHHXVhi/ApaS3/e1O8RJk85opInQ2RX7j8YI73JwtWyKT1KcZru38YwR6bjQIkyiE=;4:gO7m8h4U5muhNVgq4yhllMsX1q/Ik7K0EhiTALHXFuQMK39/GgXRadZdnlc8CQx7S+wk4xHiC18cMEH522jAngoo59SXZwJE4q7M0uqTZZd8WmwsXh8izovoctHsV6rHkGLpPa4zNk1SFJX7PpwLfebQkvVaJpssUoFCEJ61UOsNg3I54XYSUI+JXcN9M8bg9QgetffEsNTxkX3cQxKcmE/JbinzQ7k6KKRr64/tcHzfLZ7foUw/MHz8hxa1cW1vuha5hpggf68mv5fqYhagS46igVpjImkgJIk0HQQXoRBWqmjg+aL4L3z2CQNQHPeM2VBE4EqbMu1QUmdbqriYQyxeZghYzLsQKC1JoeBWS2UBobVUAtt0LPmm3KToTUw7r0TlWIliaBjI394L8PdkU2F4re5cIU0IsjVIRmGkgVw
+X-Exchange-Antispam-Report-Test: 
+	UriScan:(6594202986349);UriScan:(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(1201001)(520078)(8121501046)(10201501046)(3002001);SRVR:BLUPR07MB531;BCL:6;PCL:0;RULEID:;SRVR:BLUPR07MB531;BCL:1;PCL:0;RULEID:(601004)(2401047)(520078)(8121501046)(1201001)(5005006)(10201501046)(3002001);SRVR:CO1PR07MB110;BCL:1;PCL:0;RULEID:;SRVR:CO1PR07MB110;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB531;23:8mxmii+h/4kI5m76h4cpRzLZ/LbvfNVlTO8mqIukXpizbgWe1+57smcRIqGUFAYjFGeiu7EDQkFhOLQ8FXTCqs96pV7licdb+K0ShuMlbBHDGtMg3cu+0M0IHmWKEtzn//uBG33Rx1URrOae2HSKhvQPXL13wWroVCeogZ2g6UZUeLsJm50HQ8m2Tj0+RFA7hsFxOcegHttMvzhgDRf+lYli5MpcbrlxzBZQeEYGeLbIs7Z5JPhTPjXhJbSxE1k+O2FnaLbbnXRGjlCkmSdP1yWVOd1ZvwSyfuXFs8CMzM3eLi3tmajtsxNbtDJcWxwpUfcsIR77eUUc1UKM6UTM2Q==;5:sxjaGw3byH9Qj8AGpyQcOz3lrXVp9w+IgVl2vBxvVjPGvqSoKHQ9IOeOqo7PE+h380uVQ+m0gEhwVxy8e7sMHK7Y8EGUMAgzzfYj91IGZBJ4F1jthbzli46cv+7jPyfWKLm9bZq09UtS85UEOK+cxg==;24:JeQjL+LGRWXrIRwVawYYQ2hDNCuNFiQ0UuUs3J4vKiaXii7GSu2jnNydN3T+cbegc0D5KqNA+M9+tSyn1sxMNg
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB531
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1BFFO11FD055.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1BFFO11FD055;1:CyUWCon49IIfqiUnnxQV8DLCOHCQ72OLYGCiD1cKds6fNuif8J0qKCv/yLRK9UzysVsCu+2aHBdmlwwPtkw9T4euDjGzvueSVYobnZ9mAv8WhBTVoWKY45b5uNHyWIunW+f5pB1COZf7q06e8CIoaVnF5Gn4COIYpeeOLbfYoejXXCHkXx7JFCAxelvqJCqRHrlyctlxsw1WHLhrN9xpcjymzuxN7JEXmM0RmH7sfpvfr0D5yWKmhYFG1CVFyqsd5ARmF++algjrtJiPDKUYsC6UfJvqvheaJ77OfoV3JFFGy+Tvo90Hqm3yuU6drmkS/JNNbieRwZLlWM5gmBApOsP3n59jOD/Gtb/tV8a5Tq5IErZMqS7HEhDMPkJNntaEhP1CG4LDbKdp6hzdCsQ556F3Umtmf3L4w+k6k7aW+unKh0Ig1QkA5Z5RH15J7kw8
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1060300003)(1109001)(1110001)(339900001)(189002)(199003)(1096002)(18206015028)(92566002)(54356999)(19625215002)(960300001)(5008740100001)(19580405001)(19580395003)(450100001)(4290100001)(11100500001)(6806005)(104016004)(50986999)(4001450100002)(980100002)(87936001)(19618635001)(2171001)(1860700001)(512874002)(85426001)(105606002)(84326002)(33646002)(18926415007)(110436001)(75432002)(5001960100002)(110136002)(15975445007)(107886002)(106466001)(5002220100002)(15395725005)(19617315012)(97736004)(88552001)(23676002)(606003)(36756003)(16236675004)(81156007)(1720100001)(15974865002)(956001)(229853001)(230700001)(270700001)(71816002)(1220700001)(5002510100001)(7099028)(87552003)(42882005)(16351025005)(11784265005)(6055255003)(2657375003);DIR:OUT;SFP:1101;SCL:1;SRVR:CO1PR07MB110;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO1PR07MB110;2:GxZp680iriGOkR+UTgpNGLS9L1YdBW0D1yJ6KaM7WqT6/CMH5Ti9MKbP+g0/zdfU9FCvMvcc3P5225iwcXRdWapgkiqVoM6vvghBTL9j7054Pqs6pGBrR0TQ0ijL9GJbUif50DE/8Z4xUAYEWrojJA==;3:5eJQPG7mkmhgKATCS9o9BgNdA/Ja12LFpBU8GWuzl1r/6858OYGqyxjQ+5j0SP32m7CN84SR9B8J7slFovP02u2933DoRvZmIUl1TCbwbzWWFRmmdUS7I+m8Ef+7RmK2JLI8YgzhzfnWmTNtd9ZXVEoXaGFEoCpXT0O/90txND8227F+CHTVkOb6jpQKZanEopvOBRUUGACin+yUYXIEGn+zpZaLyeurs7i++5qXwa18OZ11PXb/owhpdGRLJTvJOgcgxRJeN0SMTaxBe6L8bY0SkeHQjQyNw/lXnXlBAX4iLYmCDXKNI39I101M6NyV;25:aQL7d9vPflLcx0kL1VYJcrfCdrxUMeNb8Im+A5hAYhSg+5/00xqRcTmbDunA08zr4BS81yOpSXjV1NVDu4IgQR8VaYpRopluxpS6grsDstGL+LjP7inqvptHhatTAP5J+ExRMYaUl4gWbzm2euOTopX2Zpz60fg+0TngssQsxrMb//+tv6OZWapq/bEKTKExvJU57EoT5+nsJQMThktPBIHNZyqTnQ56t/uteqZODvqjj9aCXGO7Jvo8fv+1nZ5m
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:;BCL:1;PCL:0;RULEID:(42134001)(42138001)(42139001)(3002015);SRVR:CO1PR07MB110;
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO1PR07MB110;20:ev+DjQIHok1pcXxZfSDCdLv7CVbLQrYEdYpcArtlSVkcRELqZLZAeip/y2VOYfNP8XzDYHmeaXJ9zK8RLuxPQLKpa/cRH0ItE/NeWttof/ETfNSfiug7CFKTHPgRYWKZ0XxhZH8eZddW2t8k9hw4mFgIMmU6ieRQwQeZD4uN/X8piqr4mgYGiPnpYPTaZg/feyWW4ojNrgpF8VrrmZJuYUPYhj2oVysdenzyNiQfO8A4+nPJbVQXuzVSsdVKO6/GexonMCuhYHTr3DOc+SKg9oAf8Yef4doSSKUaExAfY425nxXl+ZFWwYXoXwP1c7cZml0Vb8QudGjMNV3KzPb/hqKNXKBuXLATDbBSi4SznziLc1Z/rUfknk70G8dJjq6eQOBGrrAMIj8XFmMrZE3ZAc/nPhr/8YEn9JnlMUOo6a4=;4:of95IVCt+Jdh0CIJYSeGcxxZaSGuwDGANaO5CJhfkV0fbRlp80IKS3rfHGjzVMs5FxrOnhapo9aqzlP2snPG7QGCL9eXrsIzb0v1clUkTi/BtANkNEU4JZUQkV0/13dTpO4YVQtuXt74LtIYbWm5tGxrBpAtbRlJa2xKuF2DlUjEdKVHTQ76sg6oZKLDKBhtChtO1izVjassW5RKMivG831OUAXBNOvmuciMbtJupNiOkbB5Tcs8L6/UGzS8k7WJjDEabrpfUR93lzlwflXvudTb3xyCHq2xW3CyK0VzLC7BcNwmXpmIZxc2cfcW1AmtWzQev01AjVC4qNWwHVhcdO3alvmYfjx0QxoShSZvZmSvx/YOs3yZ4MuCDcUSvUmc3DINsd5NKiw55RROtSR5BeLUuUugSTaF03TrN1jHAeSZ5qxgXBjpagWIk45dJwcG
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 0787459938
+X-Microsoft-Exchange-Diagnostics: 
+	=?utf-8?B?MTtDTzFQUjA3TUIxMTA7MjM6RUZiTzdMbi8wdTZrMU9SZVRNQWQ3b2F3ZkU4?
+ =?utf-8?B?SlpyZ1Y1WDgxL1F3RE5aN1VOR3gvOGdxZElYYzN4WUg2TmFNNE14eUdRay93?
+ =?utf-8?B?UWh3eDJqUHA2VkFVS05ySTViR05pRnBwOFZ6bnhUSWNVT0dnek1kY1ljUE9I?
+ =?utf-8?B?bWR6bE9leDZFVUZDYzlOaGxQZ25sek56TDlDNXRvUnQ5aE16a01GeUhvYjdv?
+ =?utf-8?B?eitwcDd6R3ZmTGxZUzc5RDhaTG1uSFhLZlRTczVSZERlLys4QjVmQysvZUJM?
+ =?utf-8?B?VG03SEp1dnZlcDVRV2xJUkh5em54YWFwRE5FS21IcHd0dWFyK1dObElRL1dj?
+ =?utf-8?B?M1orN0Z1bFFCNTRySUdOV0pIdjJmNityV2RJVndiODJpbEltRFYzOVBoZVQw?
+ =?utf-8?B?Mmx5ZVlkUXFOVjF5bHRsQkMvbG9CQVV0OUtzd3ZnaURxcURRYVQvVnB2cmhR?
+ =?utf-8?B?S2tRekRjbVhhaXZkT0lhVUduY09ycW52SnpoRSt6UlVNcGJLZUVPTWc4TDNK?
+ =?utf-8?B?a3RDQUdXSUZ2bHVpSjg1YWxBbEpVcnp6K2NxdG9heHdFbDE0cjZKVDRNL0R5?
+ =?utf-8?B?anFYRWV4anFKSzJXTEl5TUpraW9RbnhZQWtTR0pCV1ZpTUVnZ1BDVEFQSUky?
+ =?utf-8?B?TXBCd1k0cDFWS0NLSGl2VmVKSGpxVWZGZk9mMmdjclR5dFdwYUdHOW00QTR4?
+ =?utf-8?B?SERyelhURHE0MnJ5SlArK2tTL2x4S056ZXlueGhlVGwyeS9LTjFjL0JtWW92?
+ =?utf-8?B?OWtwbUx3N0w5dHkrc1puR2JjUCtETW8vWVlCUEE4SzZISlM4TzZ6OWpnaHdC?
+ =?utf-8?B?NTAwWU9aeVdEWFFYeWFWMmtNWjY0VlkwN3VRV1hoUGp2b0dENlp4UWVyRXZH?
+ =?utf-8?B?V0hzblVYRjB0eWJEM1JtaUNxV215NTNtY3VtN0N0UlN6czFjZlpTMCs2Y0hO?
+ =?utf-8?B?NFBJdk5tVVo3S09aNmdIbFNEVWhZS0VyMktwS3JUNmNZQkoyRkRMTzBudjdX?
+ =?utf-8?B?a0wzN1dvT3FqWGpPK2RKQklxSWFtYnlQempnRHpiV2xHZ2IrQ3JMUWhDeWtH?
+ =?utf-8?B?aWVOSVBwbWVkV3o1WWFVT05INkZUa1VFV01sWjIrR3J5OFF6dCtFaXRWZHFR?
+ =?utf-8?B?a3VlZmtGcmo5MW5FZ0tUZG12QkIxR2xoMlhYM2hKa1k1S0pnTWRBUk1Ub0pU?
+ =?utf-8?B?N3I2QVMxdFdZek10dFp0SnVKMXZveHlmS1JHZmdvM2JUQkgvc0hacVk0aHgx?
+ =?utf-8?B?QWNpVHhYQmptVFJkSHNRb0ZDQkJucVNuMEFiZnp1VS9iaWZUMTBxRUo1NHJa?
+ =?utf-8?B?RnJZcUNIaVZlUGNySVFBUTRvUHkwRURuMjRYUWFMM3M4d2F2VVhuYVNXRFBU?
+ =?utf-8?B?WXgrM2JMMG1nVURuRWQ0a0J5VU1ENng3b3NKOU9xZmtPQU5jOW5CWXlNUnBu?
+ =?utf-8?B?TU5QZldkOUZDN0FsQUZsbmZjeERNeWpWTE8vZ1dXc3dhMnFRTG9pajVVZXk5?
+ =?utf-8?B?U3htdi9pbFJHUWJVNTRZRWtjRE9TckJ1aGhWYkNXUmZzb0h5VEpPMmRod284?
+ =?utf-8?B?MkkxVmp5blM4aE9veHZUTlo1bDNQUnpCNFl6VkNxWTQrU1hJdDhmM09Cam5M?
+ =?utf-8?B?V1V2M0R1dXB5c25FbmMyK0tTNU9jL1lHT0E0bVlDbm1KS1dxVVAyM0pWUUNs?
+ =?utf-8?B?L2tvTHBUWndocXRsSUdJeW5FR2RBS1Vtei9QMGo1SFJJeWlzNmdTL2F3T3cv?
+ =?utf-8?B?SVVoYjFQVzRjR1hLRHpmdU9mTXF4MXdCVC9hZUdIUjRXdDQzdVhOUE5mQkxY?
+ =?utf-8?B?NmRuV2hXM2FmR20rbjFNbDlIbzVmWCtTQ1RQQjRRck1vT3E4amx3RkRRbFJ5?
+ =?utf-8?B?dU5xR3BQS3h3TGxrU0lFam4zdTlNRmkrdkd2WFhPTXJkRzhWaDdQVHI5aVAw?
+ =?utf-8?B?OCtHTERjR2Fpb3RGUXhzOU8reUtENHZPUTEvcnNjYXB6L1ZRQlgxNldPU1FI?
+ =?utf-8?B?SGVhY0dqOUtLODdIRGpUYmE3a2hGa2ZzbVQyWXd1dm8xbWNmRlo3dHVtemNq?
+ =?utf-8?B?UkZmSWlpYkgwSlR4a3JoVXJ4M2UrbUVBdEVpRDFsS1VrOTBxNnVuVlk4NVBL?
+ =?utf-8?B?VkFCL09hdTFpelZRVkdBazRma3Z1M3JCU2RkWDBnNnhXMVF6ZHova0VmbDJW?
+ =?utf-8?B?U0RobHpKYWh0c2lBTDU4UUxCcDBwa3JxSmd6cXZha1VmeXNDWHFuRi82bW03?
+ =?utf-8?B?VTR5Um1hOVVEUitrQW5OQUEwUXRaRGFwNFlIWXRQSXladzdncGlKaHQxUEEz?
+ =?utf-8?B?YjIzMHM1QzhMOCtrZVRrcXZ3Z1oyWWdaOWN3cUlNN2dGWlZhVFR0Mks5NTVj?
+ =?utf-8?B?U2lLWi9NYWt5YTViZz09?
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO1PR07MB110;5:RzDzKNWkwtBdDQCQI9cEQzw+98wboxj3IulspA/1DaV2lK4Fz24c2/IaEp+uM040aC2/fYhKxG2okhgFPjUyA7s5YJR72zT7V8CWq4A2j4kc43EmrXiZlNlm5trJXGnEgf3vHNQT4pQaVTFpG+M8Mg==;24:E9GXXSHCMPtW5x21uoGO9dFetxRfpfHQr9yY2Mn4CGEVatOXbp80g4P62bWTvBVRmJgQKcBh+SWMwt7xW/3/YjX5iNBrb99+D99OyeW0luA
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 1
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 11 Dec 2015 20:27:47.5059
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR07MB110
+
+John & Mary -- 
+
+Will you join Nancy Kopp and me at my Annapolis fundraiser on January 5th? 
+
+Click here to R.S.V.P. <<<link>>>
+
+ Your invitation is below. Contact user@domain.com or call 240-233-6883 if you have any questions. 
+
+ Thanks for your support! 
+
+domain.com
+
+ <<<link>>>
+
+By Authority: Friends of Jim Rosapepe, Carolyn Brosch, Treasurer.
+Contributions to Friends of Jim Rosapepe are not tax deductible.
+
+-=-=-
+. -  
+This email was sent to user@domain.com  To stop receiving emails: <<link>>
+-=-=-
+
+Created with NationBuilder - <<link>>

@@ -1,0 +1,191 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp2271939lfb;
+        Mon, 7 Dec 2015 10:02:44 -0800 (PST)
+X-Received: by 10.202.71.132 with SMTP id u126mr23134959oia.113.1449511364862;
+        Mon, 07 Dec 2015 10:02:44 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::233])
+        by domain.com with ESMTPS id rt2si314586oec.36.2015.12.07.10.02.44
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 07 Dec 2015 10:02:44 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::233 as permitted sender) client-ip=2607:f8b0:4003:c01::233;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::233 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id iw8so28591997obc.1
+        for <user@domain.com>; Mon, 07 Dec 2015 10:02:44 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Lauren Peterson <lpeterson@hillaryclinton.com>
+        bh=lNhbFAkaalQmEIpmtUA2IjcKsJDTL8lf1s3/bRYxASA=;
+        b=fZmcGzjBWp1e6U+oOr54cOTIiBCcVcajY2KzvYyDlcUeuS8MxGMxsjeXXjxJHLhHQU
+         aNlxu4vLgd9rXY1uXFc2NIrTbmM/nxoabW1TKrP+Gr0CiYldLjqrfpFSVVRY9THLXmci
+         GfclDxxYLm32W68zVV2i8kL73Mw1L2nZ3VBIM
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Lauren Peterson <lpeterson@hillaryclinton.com>
+         :content-type;
+        bh=lNhbFAkaalQmEIpmtUA2IjcKsJDTL8lf1s3/bRYxASA=;
+        b=m7wWGMOQ7oMhFF+ZCGahP/szzaXru1+VqUOqikB2Ggqw4/Ka6VkkvLWxLP4+60VcXw
+         PvncCW1JBTPnxXA43lrsTuVmkyx1orGPSHfCrmndgUlScQ3UvrFFygOH5K0nQkgiX670
+         ZSOzh/bfD/tf39jbTfgvTgODto+2xqyfXiokWuaLCQANsmA/YuEsYN/IJddg1q+Mcu3J
+         XGaUrqOfdVr+hxHReqazFeIioF9qTczpr7vhBGu3s7ge3aXW2AYTfrXzzyKswBSuCXtl
+         oh/FnRIDQFXEd++WCRRMrtkezTfBdoV84xW4jnPZZzMwlv7nmQA5D7pDW8GJkv8JOQCL
+         awyA
+X-Gm-Message-State: ALoCoQlRY5+eA1vHXZfzSNjbSVlBe6T/UqUh9ofZ1wCL8DWQ2BPpKXTijZs9JioTcnfLeykZpSHK
+MIME-Version: 1.0
+X-Received: by 10.60.135.35 with SMTP id pp3mr24369909oeb.78.1449511364512;
+ Mon, 07 Dec 2015 10:02:44 -0800 (PST)
+Received: by 10.182.147.68 with HTTP; Mon, 7 Dec 2015 10:02:44 -0800 (PST)
+Date: Mon, 7 Dec 2015 13:02:44 -0500
+Message-ID: <CA+C_h81PQQpJCxBVt+user@domain.com>
+Subject: Posting at 2pm: San Bernardino and ISIS excerpts on Medium
+From: Lauren Peterson <lpeterson@hillaryclinton.com>
+To: Jake Sullivan <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Laura Rosenberger <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ John user <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Approval <user@domain.com>
+CC: Teddy Goff <user@domain.com>, Katie Dowd <user@domain.com>, 
+ Jenna Lowenstein <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7b417e59fade75052652a928
+
+Hi all!
+
+Hoping to post these excerpts from HRC's speech this weekend as a Medium
+post in her name. We'll plan to post at 2pm barring any objections.
+
+Thank you!
+
+LP
+
+###
+
+My plan to defeat ISIS
+
+By Hillary Clinton
+
+These past few days, all of us have tried to make sense of yet another
+senseless terrorist attack. I know that Americans are anxious and fearful,
+and we have reason to be. The threat is real. The need for action is urgent
+.
+
+Our intelligence and law enforcement agencies will continue learning about
+what led to the massacre in San Bernardino just as French and Belgian
+authorities are doing so in Paris and Brussels. But this much we do know:
+The threat from radical jihadism has metastasized and become more complex
+and challenging. We=E2=80=99re seeing the results of radicalization not jus
+t in
+far-off lands but right here at home fueled by the domain.com. It=E2=80=99s t
+he nexus
+of terrorism and technology, and we have a lot of work to do to end it.
+
+*As hard as this is, Americans now have to move from fear to resolve.
+America has beaten bigger threats before, and we will defeat this one as
+well.*
+
+Resolve means depriving jihadists of virtual territory just as we work to
+deprive them of actual territory. They are using websites, social media,
+chat rooms, and other platforms to celebrate beheadings, domain.com future
+terrorists, and call for attacks. We should work with host companies to
+shut them down.
+
+Resolve means supporting also our first responders, like the officer in San
+Bernardino who said he would take a bullet for the civilians he was
+rescuing. We owe them our support and gratitude and whatever help they
+need. Local law enforcement should get the support, training, and
+coordination they need in their communities from counterterrorism experts
+in Washington. It also means taking a close look at safeguards in visa
+programs and working more effectively with our European allies on
+intelligence and information sharing. And yes, Congress must act to ensure
+that no one who is a suspected terrorist can buy guns anywhere in America.
+
+*If you=E2=80=99re too dangerous to fly in America, you are too dangerous t
+o buy a
+gun in America.*
+
+Resolve means going after the threat at its source in Iraq and Syria and
+beyond. Our goal must not be to deter or contain ISIS; our goal must be to
+defeat ISIS. And I have put forth a three-prong plan to do that.
+
+First, deny ISIS territory in Iraq and Syria by leading an intensified air
+campaign and working with local and regional forces on the ground. Second,
+dismantle the global infrastructure of terror, the networks that supply
+radical jihadists with money, weapons, and fighters, and stop them from
+recruiting and inspiring. And third, toughen our defenses at home and those
+of our partners against external and homegrown threats.
+
+An effective fight on the ground against ISIS is essential, but that does
+not mean deploying tens of thousands of American combat troops.
+
+It does mean stepping up efforts to get more Arabs and Kurdish fighters
+into the fight against ISIS on both sides of the Iraq-Syrian border,
+supporting the Iraqi Security Forces while pressuring Baghdad to pursue a
+more inclusive and effective approach, and immediately deploying the
+Special Operations Forces that President Obama has already authorized with
+more to follow as more Syrians get into the fight. We also have to demand
+that our Arab and Turkish partners carry their share of the burden with
+military, financial, and diplomatic contributions. We will do our part, but
+it=E2=80=99s their fight too, and they need to act like it is.
+
+Dealing with the conflict in Syria with respect to Assad is central to this
+whole effort. We need to continue Secretary Kerry=E2=80=99s efforts to move
+ toward
+a diplomatic solution to the civil war in Syria that paves the way for new
+leadership and enables Syrians from every community to take on ISIS.
+Investing the Russians in this outcome and getting them to step up and do
+their part will be difficult but essential. And we have to pursue a
+transition away from Assad and an intensified fight against ISIS
+simultaneously. We=E2=80=99re not going to get Syrian opposition forces to 
+fight
+ISIS in earnest without the credible prospect of a transition, and that=E2
+=80=99s
+going to take more pressure and leverage. It=E2=80=99s one of the reasons w
+hy I
+have proposed creating a no-fly zone as well as safe havens and more robust
+support for opposition forces.
+
+And finally, it=E2=80=99s crucial that we embed our mission to defeat ISIS 
+within a
+broader struggle against radical jihadism.
+
+Extremist groups like ISIS feed off instability and conflict, and there is
+no shortage of that in the Middle East today. Decades of repression,
+poverty, corruption, a lack of pluralism and tolerance turn the region into
+a powder keg. That=E2=80=99s why we have to keep working with our friends a
+nd
+partners to support economic and political modernization; train effective
+and accountable local intelligence, law enforcement, and counterterrorism
+services. And once and for all, the Saudis, the Qataris, the Kuwaitis, and
+others must stop their citizens from funding extremist organizations and
+stop supporting radical schools and mosques around the world that have set
+too many young people on a path toward extremism.
+
+So across the board, we must act with courage and clarity. And it=E2=80=99s
+important to remind ourselves that Islam itself is not our adversary. This
+is not and we should not let it become a clash of civilizations. It is a
+clash between hate and hope =E2=80=94 and the vast majority of Muslims are 
+on our
+side of the battle unless we drive them away. We can=E2=80=99t buy into the
+ very
+narrative that radical jihadists use to domain.com new followers or alienate
+partners we want and need at home and abroad with reckless rhetoric.
+
+*Declaring war on Islam or demonizing the Muslim American community is not
+only counter to our values; it plays right into the hands of terrorists.*
+
+Muslim Americans are our neighbors, our co-workers, loved ones, friends.
+Many are working every day all over our country to prevent radicalization.
+We should be supporting them, not scapegoating them. But, at the same time,
+none of us can close our eyes to the fact that we do face enemies who use
+Islam to justify slaughtering innocent people. We have to stop them and we
+will. Radical jihadists, like so many adversaries in our history,
+underestimate the strength of our national character. Americans will not
+cower or cave, and we will not turn on each other or turn on our
+principles. We will defeat those who threaten us. We will keep our country
+safe and strong, free and tolerant.

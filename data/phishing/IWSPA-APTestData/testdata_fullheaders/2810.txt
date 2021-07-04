@@ -1,0 +1,129 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Mon, 5 May 2015 02:04:35 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4594Yp4003423	for <user@domain.com>; Mon, 5 May 2015 
+ 09:04:34 GMT
+Received: from mail176-va3-domain.com (mail-domain.com
+ [216.32.180.112])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s45969Fg019909
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 5 May 2015 09:06:10 GMT
+Received: from mail176-va3 (localhost [127.0.0.1])	by
+ mail176-va3-domain.com (Postfix) with ESMTP id D5B641E0230	for
+ <user@domain.com>; Mon,  5 May 2015 09:04:32 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.85.212.172;KIP:(null);UIP:(null);IPV:NLI;H:mail-wi0-domain.com;RD:mail-wi0-domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(zbebIzc89bhe0eahc857hddc2hde40hzz1f42h2148h1ee6h1ce5h1fdah201ch2073h2146h1202h1fd0h1e76h2189h1d1ah1cabh1d2ah21bch2235h1fc6hzz1de098h17326ah8275bh1de097h186068h18602ehz2fh793h5fh2a8h839h107ah1288h12a5h12bdh137ah13eah1441h1504h1537h153bh15a8h162dh1631h1741h1758h17eeh1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h22d0h2336h2438h2461h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h1724k34h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail176-va3: domain of gmail.com designates 209.85.212.172 as permitted sender) client-ip=209.85.212.172; user@domain.com; helo=mail-wi0-domain.com ;2.domain.com ;
+Received: from mail176-va3 (localhost.localdomain [127.0.0.1]) by mail176-va3
+ (MessageSwitch) id 1399280670942022_8616; Mon,  5 May 2015 09:04:30 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.241])	by
+ mail176-domain.com (Postfix) with ESMTP id D861E1A00A2	for
+ <user@domain.com>; Mon,  5 May 2015 09:04:30 +0000 (UTC)
+Received: from mail-wi0-domain.com (209.85.212.172) by
+ domain.com (10.7.99.27) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Mon, 5 May 2015 09:04:28 +0000
+Received: by mail-wi0-domain.com with SMTP id hi2so993892wib.17
+        for <user@domain.com>; Mon, 05 May 2015 02:04:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Yossi Vardi <yvardi@gmail.com>
+        bh=AYXnMl1O3MK00G4aseoDbHqMLgSrB6NbHH2O5QOmr9g=;
+        b=gpNbi5pA5hbACTF/GJuRlkyxBNSNcWBuAAzeDQywqNhBcd7YJTbVpOwcm2I4BWuZvW
+         Hg5q2JBhCQGz7pNICdHtZRHCI7ptJ5bVmGmHPh/2Xnt8yDVjzL8gt/Spl9V2wT7hU4St
+         xpYtFAs3U3xbqAeDKk1+bZD+xXk0mx+yOxiDycZCzSFZsXcCUWiX7GB2EjeeNmutYi/0
+         Vs0a0Gt58Hl0hzNzkGShLWS7WIhzDCmGUHQwWJjmH9PtZ63lMPR8BlynA7LZ0crTAoUc
+         wS2dj7jufSkSY49tdJaAh9rxgkkhHuclGHDTiGd/kBTSRX7LPPAsKxlWkSWQKnBY3nhc
+         E2BQ
+X-Received: by 10.180.76.244 with SMTP id n20mt13233094wiw.4.1399280666901;
+ Mon, 05 May 2015 02:04:26 -0700 (PDT)
+Received: by 10.194.92.134 with HTTP; Mon, 5 May 2015 02:04:25 -0700 (PDT)
+Date: Mon, 5 May 2015 12:04:25 +0300
+Message-ID: <user@domain.com>
+Subject: A.. invitation to ICUC unconference , jackson hole , july17-21
+From: Yossi Vardi <yvardi@gmail.com>
+CC: "Idith Almog(domain.com)" <user@domain.com>, Bridget Fortin
+	<user@domain.com>
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A.. invitation to ICUC unconference , jackson hole , july17-21
+
+hi, 
+
+Idith and Yuval Almog, along with Yossi Vardi, invite you to reserve the dates of July 17 – July 21, 2015 in order to attend the 8th Annual ICUC at Antelope Trails Ranch in Jackson Hole, Wyoming. 
+
+
+
+
+Please see the attached invitation, with more details to follow.
+
+
+
+
+Please indicate your interest by selecting your response (Yes, Maybe or No) and send it to user@domain.com
+
+(  ) THANKS - I already received the invitation (please disregard this email)
+
+(  ) YES – I am interested and plan to attend, please count me in.
+
+(  ) NO – I will not be able to attend this year.
+
+(  ) MAYBE – I am considering attending, but will let you know at a later stage.  Please keep me informed.
+
+
+
+
+Please note:
+
+1.  This invitation is Free, Non-Transferable and for One Single Participant
+
+2. We secured a block of One Bedroom Condos (1 bedroom/1 bathroom @ $458/night) and Grand View Studio Suite (2 sleeping rooms, one which is a pull down murphy bed/2 full bathrooms @ $416/night) at Grand View Lodge (domain.com), located at Snow King Resort.  Please book a 2 bedroom/2 bath suite ONLY if you are prepared to share it with another ICUC guest. 
+
+You may start booking your reservations online by following the steps below:
+
+
+
+
+1.       Logon on to www.grandviewjacksonhole  and put in your preferred dates
+
+2.       When you are on page 2 you will see a link that says “Group Code”. Hit the pull down menu and make sure the blue group code button is selected and put in the code-39688 and hit “update”
+
+3.       Select “view all” and at this point you should see the rate change.
+
+
+
+
+You may also call 1-800-522-KING and talk to a reservationist and book your room. 
+
+
+
+
+If you have any questions, please direct them to Bridget Fortin at user@domain.com
+
+We look forward to seeing you in July!
+
+Idith, Yuval & Yossi
+
+
+
+
+ Bridget contact details:
+
+Bridget Fortin | CORAL GROUP | 60 South Sixth Street Suite 2210, Minneapolis MN USA 55402 | +1 612 335 8694 | user@domain.com| user@domain.com
+
+
+
+
+The information contained in this electronic mail message is confidential information intended only for use of the individual or entity named above, and is privileged. If the reader of this message is not the intended recipient or the employee or agent responsible to deliver it to the intended recipient, you are hereby notified that any dissemination, distrib
+
+Attachments:
+
+        Save the Date 2015 ICUC.pdf (480508 Bytes)
+

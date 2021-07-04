@@ -1,0 +1,41 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp643766lfy;
+        Fri, 8 Jan 2015 12:09:56 -0800 (PST)
+X-Received: by 10.25.0.84 with SMTP id 81mr28708135lfa.132.1452283796080;
+        Fri, 08 Jan 2015 12:09:56 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-lb0-domain.com (mail-lb0-domain.com. [2a00:1450:4010:c04::236])
+        by domain.com with ESMTPS id l143si44999445lfe.80.2016.01.08.12.09.56
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 08 Jan 2015 12:09:56 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c04::236 as permitted sender) client-ip=2a00:1450:4010:c04::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c04::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-lb0-domain.com with SMTP id oh2so227452664lbb.3
+        for <user@domain.com>; Fri, 08 Jan 2015 12:09:56 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Peter Kadzik <peterkadzik@gmail.com>
+        bh=2ZvGV/tZaErHZpMkIaoHB1neThn3K2cDujzpAXLyT3E=;
+        b=SelRRBQPQwmWM+GU37vHMtAIu8YhDQGsNNH2c+5BfKWg7WdwoARgdhAPWJ+Q21WsSP
+         KrIJvY8T2eQGS4RP+smLryrdbAp+YikU5qPz5U1sxDKtvKvg2Pwj0tImNqwrfq8VUMIU
+         8SCX90SrhAnK2pwsHo+hBENVN80XT/DgsPVSyHJTsDRIqTrKiwH28gAHV36Ww9p/rAct
+         /9WwDyL4RZ12ePKTgUbZf9J/ld9/+liraUi1pQe/+JW86joayO88rsLrnPQpicsjQlvH
+         cqjTBuL/kQmD+ktjLiAV4S3NAjKTjmHl3WVmEehl7T9le+1G5Eir1ZQ2+wFf3JO6fMrw
+         WTYw
+MIME-Version: 1.0
+X-Received: by 10.112.133.68 with SMTP id pa4mr29236909lbb.83.1452283795970;
+ Fri, 08 Jan 2015 12:09:55 -0800 (PST)
+Received: by 10.25.200.136 with HTTP; Fri, 8 Jan 2015 12:09:55 -0800 (PST)
+Date: Fri, 8 Jan 2015 15:09:55 -0500
+Message-ID: <CAKwJMDbrH25T+f0oH4CqycKikUBtBupWjx+iyJfDVk+7user@domain.com>
+Subject: HBD!
+From: Peter Kadzik <peterkadzik@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7b3a8054c5a37e0528d82b1d
+
+Hope all is well!  Dinner when you are next in town?
+Peter & Amy

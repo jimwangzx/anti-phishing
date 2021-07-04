@@ -1,0 +1,76 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Sun, 12 Jan 2015 19:59:03 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0D3x2m5000465	for <user@domain.com>; Mon, 13 Jan 2015 
+ 03:59:02 GMT
+Received: from mail80-tx2-domain.com (mail-domain.com [65.55.88.115])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0D3x1Gg009024	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Mon, 13 Jan 2015 03:59:02 GMT
+Received: from mail80-tx2 (localhost [127.0.0.1])	by mail80-tx2-domain.com
+ (Postfix) with ESMTP id B536C3A0173	for <user@domain.com>; Mon, 13
+ Jan 2015 03:59:01 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:8.7.44.158;KIP:(null);UIP:(null);IPV:NLI;H:mta952.e.latimes.com;RD:mta952.e.latimes.com;EFVD:NLI
+X-SpamScore: -7
+X-BigFish: vps-7(zz9371I77f5hzz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah199bM1fc6hzz1de098h1def03h177df4h17326ah1def87h8275bh1bc7b9h1def86h2ba5I1de097h1de096h186068h1954cbhz2fheh5eh5fh839h947h950ha12hd24he83h10d2h1288h12a5h137ah13b6h13eah1441h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h2216h2336h2438h2461h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail80-tx2: domain of b.e.latimes.com designates 8.7.44.158 as permitted sender) client-ip=8.7.44.158; user@domain.com; helo=mta952.e.latimes.com ;.domain.com ;
+Received: from mail80-tx2 (localhost.localdomain [127.0.0.1]) by mail80-tx2
+ (MessageSwitch) id 1389585539237677_9137; Mon, 13 Jan 2015 03:58:59 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.247])	by
+ mail80-domain.com (Postfix) with ESMTP id 29EB22A0047	for
+ <user@domain.com>; Mon, 13 Jan 2015 03:58:59 +0000 (UTC)
+Received: from mta952.e.latimes.com (8.7.44.158) by domain.com
+ (10.9.99.144) with Microsoft SMTP Server id 14.16.227.3; Mon, 13 Jan 2015 
+ 03:58:55 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=e.latimes.com;
+	s=20120316; t=1389585535; x=1405223935;
+	bh=DwBFB4W7dKcY2tnvohSqaVnrc1HS8n20P4Tbc47ZHl4=; h=From: "L.A. Times Entertainment" <news@e.latimes.com>
+	b=Cr5Dx8Hcq2codzCYC5SiKwmkiGaFTZxWCMASBQ+GIzuNM649trCgiqYi9fOEHjGi/
+	 tuIcxwVKX/EUfBUox2nUgmJuaNZ040vNcXeAyKom+nPY3TX3Fna/F77oKhOv4IUbVG
+	 NLKYlwurvDBQ/e9CcOm61USIGc45FT0upBX7BvbA
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=200505; d=e.latimes.com;
+  b=oR2V6ZJtjAv1A+xQfCBxBBEw6eAh2stR54kwnLnNrrNxSWH2olWevlG5E8pfmP0y5GGvwMDNKojdiEdua65Nhv9mKjhd50n9NV+AY6rLuYhZ2q1nBkLmtQmgxsKQBKvH30dl2XSfatkjodu8oSfHyLwMy9QdFnPn6DnBoJs3Zqo=;
+ h=Date:Message-ID:List-Unsubscribe:From: "L.A. Times Entertainment" <news@e.latimes.com>
+Date: Mon, 13 Jan 2015 03:58:55 +0000
+Message-ID: <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com>
+From: "L.A. Times Entertainment" <news@e.latimes.com>
+To: <user@domain.com>
+Subject: Breaking news: '12 Years a Slave' wins Golden Globe for best motion picture, drama
+Reply-To: "User"
+	<user@domain.com>
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Breaking news: '12 Years a Slave' wins Golden Globe for best motion picture, drama
+
+Los Angeles Times Entertainment Breaking News 
+
+Breaking news: '12 Years a Slave' wins Golden Globe for best motion picture, drama
+
+Los Angeles Times | January 12, 2015 | 7:58 PM
+
+"12 Years a Slave," the film based on the memoir of a free black man kidnapped and sold into slavery in the Antebellum South, was named best motion picture, drama at the Golden Globe Awards on Sunday.
+
+Directed by Steve McQueen, the film takes an unflinching look at the horrors of slavery. The film beat out fellow nominees "Captain Phillips," "Gravity," "Philomena" and "Rush."
+
+For complete Globes coverage, go to domain.com/envelope.
+
+ADVERTISEMENT
+
+<<link>>     
+
+ <<link>>   <<link>>  
+
+<<link>>      <<link>>       
+
+ <<link>>   <<link>>   <<link>>   <<link>>
+

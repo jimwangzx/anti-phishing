@@ -1,0 +1,96 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp172326lfr;
+        Thu, 27 Aug 2015 16:16:42 -0700 (PDT)
+X-Received: by 10.50.62.148 with SMTP id y20mr1046938igr.17.1440717402896;
+        Thu, 27 Aug 2015 16:16:42 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::248])
+        by domain.com with ESMTPS id ik8si132968igb.1.2015.08.27.16.16.42
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 27 Aug 2015 16:16:42 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4001:c05::248 as permitted sender) client-ip=2607:f8b0:4001:c05::248;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4001:c05::248 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-domain.com with SMTP id i7sf996732igu.2
+        for <user@domain.com>; Thu, 27 Aug 2015 16:16:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:date:message-id:subject
+         :From: Brian Fallon <bfallon@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=w0aY4BLv5NKphm2oj4vbfD6JTyOhHv1zXIIF/ub9das=;
+        b=TjA+KGALynqpF+upeb55qkg0a+P3ZeE54YeQ19gl6l1zwjVE2keW4WB0x8UDirIqiZ
+         IYIvsXYIxY0LrEVHxjppGzW/tNfWl9emVvmGU61n5jZgQKcHh/kyuFp2m5dmhDgfvR+A
+         MuD9WocccgABt8DCNxEvmPvxsT7TyKJzs69KY
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Brian Fallon <bfallon@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=w0aY4BLv5NKphm2oj4vbfD6JTyOhHv1zXIIF/ub9das=;
+        b=AukaOCvsUZbOdWwY+Ns+h2MjwMQQB4wO/wqnt1WmhKt1wBxitTGh1HwOpcVh95eCay
+         agtmzAODZUpItKYTKUH1hQXA14j09NGPyhk07uJXs5PkdOnkqHqo+EZNzugvzzHEWZOi
+         UJVb3rJnPh3F+vdozEB3vNMuI9LPlRHJmBblFVeR2bC7DrM3KoGnU/te3USL3ANWn7la
+         cASq/95S5O3Is+aiIi4UJIKxLF97G0INFDSfmHlAEFFPBlQ3fAJSkF3JLWf/CgFRcvli
+         UKGK8mSnz8/Uh95cxJHj8JJMU4ok2msMsZIK3qrztFJX3P77PUd0P4P2s5Qvk/tiDqXa
+         WdTg
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQn1osq5COSHWnywk8Tbn7yu31taHXHsCXdUlKL+fk/r1ZeTWhdAqMFfLCMABOlXYZhu/c+q
+X-Received: by 10.107.128.203 with SMTP id k72mr11637704ioi.26.1440717402187;
+        Thu, 27 Aug 2015 16:16:42 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.182.246.36 with SMTP id xt4ls941464obc.98.gmail; Thu, 27 Aug
+ 2015 16:16:42 -0700 (PDT)
+X-Received: by 10.60.125.8 with SMTP id mm8mr4259361oeb.73.1440717401979;
+        Thu, 27 Aug 2015 16:16:41 -0700 (PDT)
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::229])
+        by domain.com with ESMTPS id d66si2665513oif.63.2015.08.27.16.16.41
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 27 Aug 2015 16:16:41 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::229 as permitted sender) client-ip=2607:f8b0:4003:c01::229;
+Received: by obbhe7 with SMTP id he7so33710940obb.0
+        for <user@domain.com>; Thu, 27 Aug 2015 16:16:41 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.60.175.41 with SMTP id bx9mr3993060oec.46.1440717401765;
+ Thu, 27 Aug 2015 16:16:41 -0700 (PDT)
+Received: by 10.60.146.227 with HTTP; Thu, 27 Aug 2015 16:16:41 -0700 (PDT)
+In-Reply-To: <-2398814047179980782@unknownmsgid>
+References: <CAFcwtWDu9z+user@domain.com>
+	<-2398814047179980782@unknownmsgid>
+Date: Thu, 27 Aug 2015 19:16:41 -0400
+Message-ID: <CANqZgL-ALX9AYDh5WkHRshm-Cs4h_gO5LSZyNjqEF=+user@domain.com>
+Subject: Re: HRC is asking...
+From: Brian Fallon <bfallon@hillaryclinton.com>
+To: Huma Abedin <user@domain.com>
+CC: Megan Rooney <user@domain.com>, 
+ Speech Drafts <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7bd6ab64f44895051e532849
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:4003:c01::229 as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+agree
+
+On Thu, Aug 27, 2015 at 7:15 PM, Huma Abedin <user@domain.com>

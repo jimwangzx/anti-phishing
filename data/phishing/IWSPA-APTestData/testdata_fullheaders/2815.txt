@@ -1,0 +1,143 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.197 with SMTP id y188csp5890lfc;
+        Sat, 31 Oct 2015 11:12:18 -0700 (PDT)
+X-Received: by 10.112.154.7 with SMTP id vk7mr6562887lbb.48.1446315138320;
+        Sat, 31 Oct 2015 11:12:18 -0700 (PDT)
+Return-Path: <>
+Received: from mail-lb0-domain.com (mail-lb0-domain.com. [2a00:1450:4010:c04::241])
+        by domain.com with ESMTPS id 70si9007406lfw.5.2015.10.31.11.12.16
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 31 Oct 2015 11:12:18 -0700 (PDT)
+Received-SPF: pass (domain.com: best guess record for domain of mail-lb0-domain.com designates 2a00:1450:4010:c04::241 as permitted sender) client-ip=2a00:1450:4010:c04::241;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: best guess record for domain of mail-lb0-domain.com designates 2a00:1450:4010:c04::241 as permitted sender) smtp.mailfrom=;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=googlemail.com
+Received: by mail-lb0-domain.com with SMTP id c6so5938190lbv.2
+        for <user@domain.com>; Sat, 31 Oct 2015 11:12:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlemail.com; s=20120113;
+        h=mime-version:From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+         :content-transfer-encoding;
+        bh=K/BshuYOs4kRgID6BcJDDh63UD2SmwkOChkohEz8MoI=;
+        b=QpWGGRfW/bS5d00l32gqkvrRbbO9ftQTMgLuGkVEaM/21PQvj9ds6XvN4cnekkYqhu
+         BbrvDXctmn8enYGoUjmbshgM3SZORXAa7puwWF5iepYpnGixW4r8KDzltqBRzsWy4k5O
+         En0ef3cFBRoiOEJqoe5iNdYSnZ85s9kfQWH235ds5lT2wjAU5fxIo6bJu2YUJCpXcCTh
+         9WZ2YU3RgVDH8OcwGh4v026bTW/thOmVPQlmM9+FpNURRAUxFQY69AI63K0olLShF/Fz
+         rnpWWYFPPzj/Z2cXtSFjccB2CY55zPkVwww+2xhr7sGEz1rBwYI9wavn33OuLDpGSx7o
+         BFAw
+X-Received: by 10.112.168.10 with SMTP id zs10mr6657381lbb.101.1446315136569;
+        Sat, 31 Oct 2015 11:12:16 -0700 (PDT)
+MIME-Version: 1.0
+Return-Path: <>
+Received: by 10.112.168.10 with SMTP id zs10mr7949087lbb.101; Sat, 31 Oct 2015 
+ 11:12:16 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+To: user@domain.com
+X-Failed-Recipients: user@domain.com
+Subject: Delivery Status Notification (Failure)
+Message-ID: <001user@domain.com>
+Date: Sat, 31 Oct 2015 18:12:16 +0000
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello user@domain.com,
+
+We're writing to let you know that the group you tried to contact (speechbo
+ok) may not exist, or you may not have permission to post messages to the g
+roup. A few more details on why you weren't able to post:
+
+ * You might have spelled or formatted the group name incorrectly.
+ * The owner of the group may have removed this group.
+ * You may need to join the group before receiving permission to post.
+ * This group may not be open to posting.
+
+If you have questions related to this or any other Google Group, domain.com the 
+Help Center at <<link>>
+topic=3D25838.
+
+Thanks,
+
+domain.com admins
+
+----- Original message -----
+
+X-Received: by 10.112.168.10 with SMTP id zs10mr6657377lbb.101.144631513634
+6;
+        Sat, 31 Oct 2015 11:12:16 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-lf0-domain.com (mail-lf0-domain.com. [2a00:14
+50:4010:c07::22e])
+        by domain.com with ESMTPS id s66si9092114lfs.93.2015.10.31.11.12
+.15
+        (version=3DTLSv1.2 cipher=3DECDHE-RSA-AES128-GCM-SHA256 bits=3D128/
+128);
+        Sat, 31 Oct 2015 11:12:16 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates
+ 2a00:1450:4010:c07::22e as permitted sender) client-ip=3D2a00:1450:4010:c0
+7::22e;
+Authentication-Results: domain.com;
+       spf=3Dpass (domain.com: domain of user@domain.com designates 
+2a00:1450:4010:c07::22e as permitted sender) user@domain.com
+domain.com;
+       dkim=3Dpass user@domain.com;
+       dmarc=3Dpass (p=3DNONE dis=3DNONE) header.from=3domain.com
+Received: by lffz202 with SMTP id z202so47460193lff.3;
+        Sat, 31 Oct 2015 11:12:15 -0700 (PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3domain.com; s=3D20120113;
+        h=3Dmime-version:in-reply-to:references:date:message-id:subject:fro
+m:to
+         :cc:content-type;
+        bh=3DRYCf44wfC7TNWiEarSTTPbuO581OzgW+v+AFfusTUfU=3D;
+        b=3DuAtGZ71CirxPoyX/tt2qXlcaMuEHj5WipFy0QhrIyxpmSP63zpRLbtaLSz5PPYI
+fk7
+         Ri4x+qr5KLeLaNItPFGZxpUzqeH3N7E/RQslmfNLcQJyBsZPtI003t7F6lkrsX1/BD
+K6
+         2ojQpPQ1ZcslAT9aZGGvRFtrYWjJm+IjeKxF7+3Ha2wm56DY1WysOUXiWXQvWFyocC
+rZ
+         kJbqS9tn/PGVB9liRUjHp0tF+vmwPaceN9bTlr8ASTzUo1SXQWQARjvtm1An9kiGjo
+Eo
+         Dxr0psCiVj0LeUd8FYjeU7LaafpmFTdBRqyOpgyMcf0nGzbpvOID2UWFMpWUuXl8VZ
+2w
+         hb1w=3D=3D
+MIME-Version: 1.0
+X-Received: by 10.25.154.203 with SMTP id c194mr4441799lfe.32.1446315135583
+;
+ Sat, 31 Oct 2015 11:12:15 -0700 (PDT)
+Received: by 10.25.61.149 with HTTP; Sat, 31 Oct 2015 11:12:15 -0700 (PDT)
+In-Reply-To: <-2849652398461496295@unknownmsgid>
+References: <CAFcwtWDq3L05+i=3D2pOqm5MZBHkU5rZ_tjPRx55zR64g+user@domain.com
+domain.com>
+	<1user@domain.com
+cal>
+	<-8599337990306021222@unknownmsgid>
+	<1user@domain.com
+cal>
+	<user@domain.com>
+	<-2664262861688603916@unknownmsgid>
+	<4913693407291090792@unknownmsgid>
+	<2042331813179270292@unknownmsgid>
+	<-2849652398461496295@unknownmsgid>
+Date: Sat, 31 Oct 2015 14:12:15 -0400
+Message-ID: <CAE6FiQ8DVWuV+user@domain.com
+.com>
+Subject: Re: FINAL: Longshoremen endorsement/organizing event tomorrow
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+To: Nikki Budzinski <user@domain.com>
+Cc: Connolly Keigher <user@domain.com>, Huma Abedin <user@domain.com
+domain.com>,
+	Dan Schwerin <user@domain.com>, Maya Harris <user@domain.com
+domain.com>,
+	Joel Benenson <user@domain.com>, Megan Rooney <user@domain.com
+com>,
+	Speech Drafts <user@domain.com>,
+	Clay Middleton <user@domain.com>, Speech Book <user@domain.com
+domain.com>
+Content-Type: multipart/alternative; boundary=3D001a11401604e3cd2205236a7ba
+2
+
+By the way, I think the right to organize is a civil right and so did FDR.
+
+On Saturday, October 31, 2015, Nikki Budzinski <

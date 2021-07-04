@@ -1,0 +1,32 @@
+Received: from domain.com ([fe80::755c:1705:6a98:dcff]) by
+ domain.com ([fe80::755c:1705:6a98:dcff%11]) with mapi id
+ 14.03.0123.003; Wed, 3 Dec 2015 18:47:00 +0100
+From: Alessandro Scarafile <a.scarafile@Organization.com>
+To: Eduardo Pardo Carvajal <user@domain.com>
+CC: Daniele Milan <user@domain.com>, Alex Velasco
+	<user@domain.com>
+Subject: Re: Fwd: RV: Especificaciones
+Thread-Topic: Fwd: RV: Especificaciones
+Thread-Index: AQHQDxxxDJm5NvYZ90eP6NGAZBz7Y5x+G1xg///3GACAABGabA
+Date: Wed, 3 Dec 2015 18:47:00 +0100
+Message-ID: <1user@domain.com>
+In-Reply-To: <001c01d00f20$c14a5a70$43df0f50$@Organization.com>
+Accept-Language: it-IT, en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator: <1user@domain.com>
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 03
+X-Originating-IP: [fe80::755c:1705:6a98:dcff]
+Status: RO
+X-libpst-forensic-sender: /O=Organization/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=ALESSANDRO SCARAFILED45
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-2135562172_-_-"
+
+Not necessary.It could be simply configured via RAID controller and then attached on Windows Server like a new big disk.But you have to check the model/type.Alessandro--Alessandro ScarafileField Application EngineerSent from my mobile. 
+
+From: Alessandro Scarafile <a.scarafile@Organization.com>
+Grazie Ale, Regarding the NAS.  It says it comes with no OS.  Usually what I’ve seen in previous installation is that the NAS usually comes with Windows Server too.  Is it necessary to have an OS in the NAS? --Eduardo PardoField Application Engineer Hacking TeamMilan Singapore Washington DCwww.Organization.com email: user@domain.com phone: +39 3666285429 mobile: +57 3003671760 From: Alessandro Scarafile <a.scarafile@Organization.com>

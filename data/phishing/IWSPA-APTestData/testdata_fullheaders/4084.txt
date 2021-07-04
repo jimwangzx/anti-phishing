@@ -1,0 +1,104 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id 7D2724687E
+	for <user@domain.com>; Mon, 16 Feb 2015 09:00:43 -0500 (EST)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id 21DF9131F749
+	for <user@domain.com>; Mon, 16 Feb 2015 09:00:43 -0500 (EST)
+Received: by domain.com (Postfix)
+	id 095F11B664; Mon, 16 Feb 2015 15:00:41 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.108])
+	by domain.com (Postfix) with ESMTP id E959F1B671
+	for <user@domain.com>; Mon, 16 Feb 2015 15:00:40 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id D1F9718ED
+	for <user@domain.com>; Mon, 16 Feb 2015 15:00:40 +0100 (CET)
+X-Quarantine-ID: <ARqh+9U7FAWC>
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 31.434
+X-Spam-Level: *******************************
+X-Spam-Status: Yes, score=31.434 tagged_above=0 required=5
+	tests=[BAYES_99=3.5, FORGED_MUA_OUTLOOK=3.116,
+	FORGED_OUTLOOK_HTML=0.001, FORGED_OUTLOOK_TAGS=0.001,
+	HTML_EXTRA_CLOSE=2.809, HTML_MESSAGE=0.001,
+	HTML_MIME_NO_HTML_TAG=0.097, MIME_HTML_ONLY=1.457,
+	MSOE_MID_WRONG_CASE=0.82, NORMAL_HTTP_TO_IP=0.001,
+	RAZOR2_CF_RANGE_51_100=0.5, RAZOR2_CF_RANGE_E4_51_100=1.5,
+	RAZOR2_CF_RANGE_E8_51_100=1.5, RAZOR2_CHECK=12, RDNS_NONE=0.1,
+	TVD_PH_REC=2.996, URIBL_RED=0.001, XMAILER_MIMEOLE_OL_1ECD5=1.034]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id ARqh+9U7FAWC for <user@domain.com>;
+	Mon, 16 Feb 2015 15:00:36 +0100 (CET)
+Received: from pacrisno.ro (unknown [82.79.83.5])
+	by domain.com (Postfix) with ESMTP id EF1B41B664
+	for <user@domain.com>; Mon, 16 Feb 2015 15:00:35 +0100 (CET)
+Received: (qmail 23407 invoked by uid 1010); 16 Feb 2015 16:00:32 +0200
+Received: from 62.20.0.122 by gwpcsno (envelope-from <user@domain.com>, uid 1008) with qmail-scanner-1.25-st-qms 
+ (clamdscan: 0.88/1252. perlscan: 1.25-st-qms.  
+ Clear:RC:0(62.20.0.122):. 
+ Processed in 0.058451 secs); 16 Feb 2015 14:00:32 -0000
+X-Antivirus-PACRISNO.RO-Mail-From: "notification@capitaloneonline.com" <notification@capitaloneonline.com>
+X-Antivirus-PACRISNO.RO: 1.25-st-qms (Clear:RC:0(62.20.0.122):. Processed in 0.058451 secs Process 23401)
+Received: from 62-20-0-122.domain.com (HELO User) (admin@62.20.0.122)
+  by pacrisno.ro with SMTP; 16 Feb 2015 16:00:32 +0200
+Reply-To: <user@domain.com>
+From: "notification@capitaloneonline.com" <notification@capitaloneonline.com>
+Subject: ***SPAM*** Capital One Account On Hold
+Date: Mon, 16 Feb 2015 14:58:19 +0100
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+X-Antivirus-PACRISNO.RO-Message-ID: <1234792832109623401@gwpcsno>
+Message-Id: <20090216140035.user@domain.com>
+To: undisclosed-recipients: ;
+Content-Length: 1297
+Lines: 33
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 983
+
+Dear valued
+Capital One Customer, 
+It has come to our
+attention that your Capital One Banking account information needs
+to be 
+
+reactivated as part of our continuing commitment to
+protect your account and to 
+reduce the instance of fraud on our
+website.
+Once you have reactivated your account
+records, your Capital One account
+ service will not be interrupted and
+will continue as normal.
+
+To reactivate your
+Capital One Banking Account click on the following link: 
+
+Sign In to Online Banking
+
+Thank You.
+Failure to verify your records will result in account suspension.
+Accounts Management
+As outlined in our
+User Agreement, Capital One will 
+
+ periodically send you information about site
+changes and
+enhancements. 
+domain.com our Privacy
+Policy and User
+Agreement if you have any questions. 
+
+<>

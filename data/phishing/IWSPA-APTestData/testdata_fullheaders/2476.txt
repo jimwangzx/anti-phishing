@@ -1,0 +1,108 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp669418lfr;
+        Wed, 9 Sep 2015 18:12:41 -0700 (PDT)
+X-Received: by 10.194.84.238 with SMTP id c14mr30298943wjz.33.1441847561642;
+        Wed, 09 Sep 2015 18:12:41 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::246])
+        by domain.com with ESMTPS id hj19si6761095wib.3.2015.09.09.18.12.41
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 09 Sep 2015 18:12:41 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2a00:1450:400c:c05::246 as permitted sender) client-ip=2a00:1450:400c:c05::246;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2a00:1450:400c:c05::246 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id v5sf848wis.0
+        for <user@domain.com>; Wed, 09 Sep 2015 18:12:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:From: Jake Sullivan <jsullivan@hillaryclinton.com>
+         :subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=tBsqORVFeWIZYCuvIba+8ZcSbSjOw3DeXThy6NopHLw=;
+        b=Bjg1ZHeD3FowBwfKGT5fVNUACEv6baY0cOdQS0DZJ5hF7TcCNh3YFfx8Lfl72oA1mG
+         BBSB6wLSDcnxAJCdOObgFl/JqZ6jPPt6IHM8s2Zrf5yxvV4U7K5Kwwy9FmmFT0EFp8Ql
+         aedWmkh28c0azFNsmOoZn0z+WkJgDSrtzukUg
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:From: Jake Sullivan <jsullivan@hillaryclinton.com>
+         :date:message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=tBsqORVFeWIZYCuvIba+8ZcSbSjOw3DeXThy6NopHLw=;
+        b=RosbUmjmeXxt1mqThKVmWhWqS26QHn06K0BydYRbq6fLYxGFviP1pA7LJ0ncTd1eI7
+         kHNJrsLZDIhi8t56l0xgb6Uy+N7IY6uHubFRpuGDFl3jZ1aCIBgOLLMCtm/yFfwKBlIA
+         z39HrnsCNysFcDWotZ4pGFWRPv55qD6gDaSlpMeTpItB2KybzSf0j+snbUwzgrpgcC7S
+         tYk0TzbsOS90Rzi7acaGubOywTnwNyRtE9dPbASngXSvuw3OPh3ok1Yo/lY/AvILzB3e
+         /OBb9ORSiJnfwfl+eSxbhnMBtUo/tug1leykTIFbHGVfMa5/xwbD7JANPDjx8SMqjwL9
+         qKZA
+Sender: user@domain.com
+X-Gm-Message-State: domain.com/QlMC45y3o9rNUvXLYxgdxizmNXwX5Tjd
+X-Received: by 10.112.132.105 with SMTP id ot9mr8781525lbb.21.1441847561405;
+        Wed, 09 Sep 2015 18:12:41 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.152.18.196 with SMTP id y4ls118869lad.34.gmail; Wed, 09 Sep
+ 2015 18:12:41 -0700 (PDT)
+X-Received: by 10.112.25.39 with SMTP id z7mr33493689lbf.102.1441847560894;
+        Wed, 09 Sep 2015 18:12:40 -0700 (PDT)
+Received: from mail-la0-domain.com (mail-la0-domain.com. [2a00:1450:4010:c03::22f])
+        by domain.com with ESMTPS id f4si8631523lah.129.2015.09.09.18.12.40
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 09 Sep 2015 18:12:40 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::22f as permitted sender) client-ip=2a00:1450:4010:c03::22f;
+Received: by lagj9 with SMTP id j9so18310033lag.2
+        for <user@domain.com>; Wed, 09 Sep 2015 18:12:40 -0700 (PDT)
+X-Received: by 10.112.157.40 with SMTP id wj8mr3490lbb.64.1441847560722; Wed,
+ 09 Sep 2015 18:12:40 -0700 (PDT)
+From: Jake Sullivan <jsullivan@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CA+user@domain.com>
+ <CA+user@domain.com>
+ <4375830020948638305@unknownmsgid> <CA+user@domain.com>
+ <7282490491888993067@unknownmsgid>
+In-Reply-To: <7282490491888993067@unknownmsgid>
+Date: Wed, 9 Sep 2015 21:12:39 -0400
+Message-ID: <-5366675318610515741@unknownmsgid>
+Subject: Re: DRAFT: OH Organizing Event
+To: Jennifer Palmieri <user@domain.com>
+CC: Lauren Peterson <user@domain.com>, 
+ Speech Drafts <user@domain.com>, 
+ "Ann O'Leary" <user@domain.com>, 
+ Maya Harris <user@domain.com>, 
+ Corey Ciorciari <user@domain.com>, 
+ Rebecca Chalif <user@domain.com>, 
+ Jen Klein <user@domain.com>, Rachel Vogelstein <user@domain.com>, 
+ Amanda Renteria <user@domain.com>, 
+ Brynne Craig <user@domain.com>, 
+ Mini Timmaraju <user@domain.com>, 
+ LaDavia Drane <user@domain.com>, 
+ Karen Finney <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c23c42ad73a8051f5a4bcc
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2a00:1450:4010:c03::22f as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+Seems indisputable to me.
+
+On Sep 9, 2015, at 9:11 PM, Jennifer Palmieri <user@domain.com
+

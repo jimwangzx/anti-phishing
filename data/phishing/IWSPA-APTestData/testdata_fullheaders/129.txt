@@ -1,0 +1,43 @@
+Delivered-To: user@domain.com
+Received: by 10.140.18.137 with SMTP id 9csp53965qgf;
+        Fri, 21 Feb 2015 14:24:30 -0800 (PST)
+Return-Path: <user@domain.com>
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.140.42.54 as permitted sender) client-ip=10.140.42.54
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 10.140.42.54 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+X-Received: from domain.com ([10.140.42.54])
+        by 10.140.42.54 with SMTP id b51mr12723916qga.87.1393021470609 (num_hops = 1);
+        Fri, 21 Feb 2015 14:24:30 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Lois Quam <loisquam@gmail.com>
+        bh=Z/9+qb1lRXx8Ow8SUgXDcuzdy4yoW/KJI+/fA6ZKslU=;
+        b=IGZYMoLYz7kq+EIJOHbYoPdlihLHiXI5Wfdozk3/LmkPbXUH4dMaOcshnQbcxD9YsH
+         htUKzCr3s3d8w4oD8w1Zwu5H9c7tFaO/auPNv7AvaIGmtlGvlITjU17oP6JU00zOTlvo
+         pBPHWkYJC6zURDArhx+da3T/Aqr4uOXtNKkrtqOQ8APbBH4TtbICRFr/Hnz1nhb9QwvT
+         RC9m5BxEA3eN7BJQzugH/7/5tw6ogTnYfkvlzBRcIjySPmtEF2MkMQt29/JifL5h7NDJ
+         kyCmL8WDKUSVejgSqWXVxc2LnhXB2v/PkIndseJ/Wvg7Tm4FMMAeapbl+mYcxp9hd44H
+         /0FQ
+MIME-Version: 1.0
+X-Received: by 10.140.42.54 with SMTP id b51mr12723916qga.87.1393021470605;
+ Fri, 21 Feb 2015 14:24:30 -0800 (PST)
+Received: by 10.96.15.231 with HTTP; Fri, 21 Feb 2015 14:24:30 -0800 (PST)
+Date: Fri, 21 Feb 2015 17:24:30 -0500
+Message-ID: <user@domain.com>
+Subject: TNC
+From: Lois Quam <loisquam@gmail.com>
+To: user@domain.com
+CC: Eryn Sepp <user@domain.com>
+Content-Type: text/plain; charset=ISO-8859-1
+
+John,
+
+I am pleased to let you know that I accepted the Chief Operating
+Officer position at TNC and want to thank you again for your insights
+and your reference.  I am also very grateful for the introduction to
+Molly who is outstanding.
+
+Yours,
+
+Lois

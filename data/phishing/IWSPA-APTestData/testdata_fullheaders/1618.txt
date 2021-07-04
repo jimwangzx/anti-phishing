@@ -1,0 +1,84 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.30 with SMTP id o30csp2856565lfi;
+        Wed, 25 Mar 2015 06:25:29 -0700 (PDT)
+X-Received: by 10.107.14.141 with SMTP id 135mr13751050ioo.15.1427289928665;
+        Wed, 25 Mar 2015 06:25:28 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ie0-domain.com (mail-ie0-domain.com. [209.85.223.169])
+        by domain.com with ESMTPS id rh3si2340514igc.57.2015.03.25.06.25.28
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 25 Mar 2015 06:25:28 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.223.169 as permitted sender) client-ip=209.85.223.169;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.223.169 as permitted sender) user@domain.com
+Received: by mail-ie0-domain.com with SMTP id m5so21636838ied.3
+        for <user@domain.com>; Wed, 25 Mar 2015 06:25:28 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Eric Steinhart <ecs87@georgetown.edu>
+        bh=emkpFrJeyb55Cw2ftwWY2r7PHqFYsnpyGJAPMDVMuPA=;
+        b=aEgQJdh90xPz9P8D4Tku8uWhkWxl3+20W/sJXpt0i3kjMsel+Je44c2n0fXyUQc4D+
+         /ptP6j6YO4JXjFVURAcu8ONdUXqY1PHcrNCP9dN5dQPzeGuhDtltB/o8A50F7QDsnEBT
+         +yTYX0kxaa/pYUHtxtIjhFP1e74mco4IHsz7v7cvXtQJdAKxXA3IAMYVt80krbNhtaAn
+         Ipbc7D0nAXpJLbHv5mzY5gS5PbANk49C/am2EXA6KAhxkG+EeUJashRACFBgvNsDCB0p
+         57bhzn7t3Wg1QHTp2WDJqO6f7ZltU9naGmzEtv9vfGQQmOxkb8xoUXy7EigwLI497bf+
+         +jTA
+X-Gm-Message-State: ALoCoQlOLsNPt8gjGLKVox1LaliFah045So/vNCuh9M1zn+VuxqG80E+1N8IZQ/ZTCQ1TAje3VOL
+MIME-Version: 1.0
+X-Received: by 10.50.119.229 with SMTP id kx5mr29201491igb.42.1427289927860;
+ Wed, 25 Mar 2015 06:25:27 -0700 (PDT)
+Received: by 10.36.22.17 with HTTP; Wed, 25 Mar 2015 06:25:27 -0700 (PDT)
+In-Reply-To: <CAE6FiQ-cf-U8s-Eoe1__MBhSk=5wQwb4f7qb9+Fukq+user@domain.com>
+References: <user@domain.com>
+	<CAE6FiQ-cf-U8s-Eoe1__MBhSk=5wQwb4f7qb9+Fukq+user@domain.com>
+Date: Wed, 25 Mar 2015 09:25:27 -0400
+Message-ID: <user@domain.com>
+Subject: Re: Congressional Investigations Seminar | Proposed Paper Topic
+From: Eric Steinhart <ecs87@georgetown.edu>
+To: John user <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Professor user,
+
+I apologize again for my absence on Monday to attend the funeral for
+my wife's grandmother.  I very much appreciate your understanding.  As
+promised, I simply wanted to follow up with a more refined paper
+topic:
+
+I have looked more closely into the role of the House Un-American
+Activities Committee during the late 1930s.  One of the most
+interesting features of the Committee was its struggle with the
+Roosevelt administration over access to executive agency reports and
+personnel (particularly from the FBI) to investigate suspected Nazi
+activists in the United States.  After being rebuffed by the Roosevelt
+administration, the Committee hired its own investigators to
+infiltrate the German-American Bund, a crypto-fascist organization in
+the United States.  In light of this interesting tension between the
+executive and legislative branches and the Committee's aggressive
+efforts to conduct its own domestic intelligence operations during the
+late 1930s, I am now conceiving of the paper as a case study that
+explores the boundaries between executive and legislative power in the
+context of a congressional investigation.
+
+I am happy to talk about the paper topic further on Monday, but simply
+wanted to send you an update as I was unable to attend class this
+week.
+
+Thank you again for all of your assistance and for your flexibility.
+
+Best regards,
+Eric Steinhart
+
+Eric C. Steinhart
+J.D. Candidate, Class of 2015 
+Georgetown University Law Center
+user@domain.com
+
+On Sun, Feb 15, 2015 at 8:43 AM, John user <user@domain.com> wrot
+e:
+
+of
+

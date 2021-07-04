@@ -1,0 +1,1682 @@
+Delivered-To: leebridges@gmail.com
+Received: by 2002:a7b:c385:0:0:0:0:0 with SMTP id s5csp831194wmj;
+        Wed, 24 Jun 2020 12:33:45 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJyX/xsysMT5bDPoJzBPFAQmHBdiEGf8mw5tFsAOxamsYouBDbvPL3pYFKdxv9CuqvaiUvIG
+X-Received: by 2002:a25:850b:: with SMTP id w11mr34431665ybk.291.1593027225376;
+        Wed, 24 Jun 2020 12:33:45 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1593027225; cv=none;
+        d=google.com; s=arc-20160816;
+        b=dmlnYORBg7isO/FwYeh5hwegZ9LS73wGmnmTVF3AKfLiCJHEYTV4i58Lq+jB35ICfv
+         jhX0PhGa2xkDpu14AK/5jUDHStAi8sunYWtnf8PM0/xoIDZ6qBw8bd4nPRySXnfbYK1I
+         Z0Skbgr3syoB3vC/drj3sOfWa2xMXG1fydBaU18rq7zAePhnYS265EkTAxa/WYDu5wxA
+         EXMi01oYgtLvPCJv8F+wcUcYzTWPiT0RO8RY6OcGoA9kmgWuSxdkMxdFrwjK5g8DgOCb
+         7VVu7nSpx+Xum2GlPvRK2AcD8hScvPYqpOrsQU00atfeKj+ynmhOdqfFgPKvYmatj9rE
+         Dy7g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=reply-to:mime-version:subject:to:from:list-unsubscribe:message-id
+         :date:domainkey-signature:dkim-signature;
+        bh=gI2yOqDLE4c3FfYn5RhtpM7HcXMiF3vDhvX6+9vW4uM=;
+        b=COYh/ZXnO0pZFRL9YyZi0SMypDjfmZr2f8zsVB8yWVsxNt3y/OA00keTIguNDPRvOE
+         /urKo6B8z6z54Yj14hnX9lb8ZMhgSlfzPc1L/FMhVvb35A7AmaPjgA3AH0+pNW6AZlxW
+         a7E2zGejZGZrN4F27pF8nuD783wyxc0eEupauP9L6tjWWhe/JvRZGPA1Nv9Whoey1YWR
+         dXYF2+I5mmUyqPbbFPgwxtuSt3e4z6XevxRD+Ki76tg/wbG/cKXNn47E81jaOgkOcQsS
+         GMXRW8vTb0GX1G4W0U1IH1V49gtQQW6ZVvfMcGgmQdavvkMqjHh2xBMiS4E6llpe4bM6
+         4NsA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@connect.wellsfargoemail.com header.s=20190408 header.b=S58F4NHl;
+       spf=pass (google.com: best guess record for domain of bo-b4mbt4ybfp5162auhpsteqq8m7spxy@b.connect.wellsfargoemail.com designates 63.236.84.174 as permitted sender) smtp.mailfrom=bo-b4mbt4ybfp5162auhpsteqq8m7spxy@b.connect.wellsfargoemail.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=connect.wellsfargoemail.com
+Return-Path: <bo-b4mbt4ybfp5162auhpsteqq8m7spxy@b.connect.wellsfargoemail.com>
+Received: from ny7p01lpmtax200.connect.wellsfargoemail.com (ny7p01lpmtax200.connect.wellsfargoemail.com. [63.236.84.174])
+        by mx.google.com with ESMTPS id y3si19099811yby.140.2020.06.24.12.33.45
+        for <leebridges@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 24 Jun 2020 12:33:45 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of bo-b4mbt4ybfp5162auhpsteqq8m7spxy@b.connect.wellsfargoemail.com designates 63.236.84.174 as permitted sender) client-ip=63.236.84.174;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@connect.wellsfargoemail.com header.s=20190408 header.b=S58F4NHl;
+       spf=pass (google.com: best guess record for domain of bo-b4mbt4ybfp5162auhpsteqq8m7spxy@b.connect.wellsfargoemail.com designates 63.236.84.174 as permitted sender) smtp.mailfrom=bo-b4mbt4ybfp5162auhpsteqq8m7spxy@b.connect.wellsfargoemail.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=connect.wellsfargoemail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=connect.wellsfargoemail.com; s=20190408; t=1593027225;
+	x=1608838425; bh=gI2yOqDLE4c3FfYn5RhtpM7HcXMiF3vDhvX6+9vW4uM=;
+	h=From:Reply-To;
+	b=S58F4NHlTtBjpT+Jbu2Gsf7vhh3Q+W/p2H8hU12tx24Z6VA5WznYQ++pYFVVWzYAu
+	 8m8uBDzDlusmtUkdM+w65V0HapuR0YI/BRd9eH107mfcqLAAxw3eXzBNxIkvM6csBn
+	 feblw0dFbReQqOqJibzarpIuxAXikdId9dliwgH+Dz75Y7Tks0dqaUjIZuGDgE1bBo
+	 iFIeuppE9wbX0vviHydKxhL2BhSL34ngZ+Fj0ADAxxImSvAXFSMGqHrAhU8PLLXaXO
+	 3yiRoOhJrnaedWRfAmrDsB8U73fvtrxjtHIAizwEHJfD+lGZYFnMRQZ5ETeW9qWt/0
+	 2uyiel+Y+dJ9A==
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=200505; d=connect.wellsfargoemail.com;
+  b=XRcQrWQoKmXRyrSXzD2y07rc1CSgMQy492uRGS1JswfToOjL+8fUSkVLEujAyQCWQgBR123pRE0b1Clv4Z6sSbkjazVT4mpGQNn/l4S6BHUgzakLGGe5iWB1IRnAmmiH4wmE7xce3rHEYyaG7708RUbhVGoiWwI7ZuSe7U7T1PU=;
+ h=Date:Message-ID:List-Unsubscribe:From:To:Subject:MIME-Version:Reply-To:X-Mailer:X-mid:X-aid:Content-Type;
+Date: Wed, 24 Jun 2020 19:33:45 -0000
+Message-ID: <b4mbt4ybfp5162auhpsteqq8m7spxy.14780787476.9856@ny7p01lpmtax200.connect.wellsfargoemail.com>
+List-Unsubscribe: <mailto:rm-0b4mbt4ybfp5162auhpsteqq8m7spxy@connect.wellsfargoemail.com>
+From: "Wells Fargo Online" <wellsfargo@connect.wellsfargoemail.com>
+To: leebridges@gmail.com
+Subject: =?UTF-8?B?RWFybiBhICQxNTAgY2FzaCByZXdhcmRzIGJvbnVzIHdoZW4geW8=?=
+ =?UTF-8?B?dSBzcGVuZCAkNTAwIG9uIHB1cmNoYXNlcyBpbiB0aGUgZmlyc3QgMyBtb24=?=
+ =?UTF-8?B?dGhz?=
+MIME-Version: 1.0
+Reply-To: "Wells Fargo Online" <support-b4mbt4ybfp5162auhpsteqq8m7spxy@connect.wellsfargoemail.com>
+X-Mailer: CheetahMailer
+X-mid: 2111245830
+X-aid: 2082566297
+Content-Type: multipart/alternative; boundary="=b4mbt4ybfp5162auhpsteqq8m7spxy"
+
+
+--=b4mbt4ybfp5162auhpsteqq8m7spxy
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Unlimited 1.5% cash rewards earned on purchases
+
+View this email online:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/hosted?t_sparams=ifw805vUu34PA5t2oYX-lhQFpOqKYICvWnP-d5ImHw3yPsa83cVFFIQ-h3292RZwNphvKUv6gtl8n5P77$S1$gZp34F0HCfvZ39LrKs85yIURL5RJi7ViBJZbAPKpwqaa-CkU4elO2YlzW1Zwo9IGpJ0Ne7b1626S5Eogfyw7Gx8LJ$F5Ub9bcOgR2TpFqHj2ogJin9I4F6UKE$VdZQd953VisI3ROv$l09dvAj2r7V6C-bgIL19vbCVRQGAQCTFTRCzuOqMEBXI5p6KgIFJjdj8Mw21xws8w9xIItZwaqX6HUaeQqJyJC7lBxOEr4bmMHt6hWUsarVKsKU-pN35aAO8JULOZi5hiCZc-GHPPqVA31pUSlVfA
+
+--------------------------------------------------------------------
+
+OUR BEST CASH BACK CARD EVER
+
+Earn a $150 cash rewards bonus
+
+When you spend $500 on purchases in the first 3 months(1)
+
+James, you're invited to apply for our best cash back card
+ever — the Wells Fargo Cash Wise Visa Signature(R) card — which
+features:
+
+- Unlimited 1.5% cash rewards earned on purchases.(2) Cash rewards
+don't expire as long as your account remains open.
+
+- 0% intro APR on purchases and qualifying balance transfers for 15
+months from account opening. After that, the variable APR will be
+between 13.99% and 25.99%. This APR will vary with
+the market based on the U.S. Prime Rate. Balance transfers made
+within 120 days qualify for the intro rate and fee. (Refer to
+Important credit terms below for details.)*
+
+- $0 annual fee. (Refer to Important credit terms below for
+details.)*
+
+--------------------------------------------------------------------
+
+Important credit terms
+
+* There is an introductory 0% APR for purchases and balance transfers
+for 15 months from account opening; after that, a variable APR of
+13.99% to 25.99% applies. There is a variable cash
+advance APR of 23.99% to 25.99%. These APRs will be
+based on your creditworthiness and will vary with the market based on
+U.S. Prime Rate. A balance transfer request must be made within 120
+days from account opening to qualify for the introductory APR.
+Minimum interest charge will be no less than $1.00. An introductory
+balance transfer fee of either $5 or 3% of each balance transfer,
+whichever is greater, for 120 days from account opening applies;
+after that, a fee of up to 5% for each balance transfer, with a
+minimum of $5, applies. A cash advance fee of either $10 or 5% of the
+amount of each advance, whichever is greater, applies. An overdraft
+protection advance fee of $12.50 or $20 per day applies. A foreign
+currency conversion fee of 3% of each transaction applies. This
+information about the cost of the credit card account described here
+is accurate as of 03/23/20. To find out what may have changed,
+call 1-800-932-6736. The Wells Fargo Cash Wise Visa Signature(R) card
+is issued by Wells Fargo Bank, N.A.
+
+--------------------------------------------------------------------
+ 
+Other things you need to know
+
+Credit card is subject to credit qualification.
+
+You must be a citizen or a permanent resident alien of the U.S. to
+qualify for this credit card.
+
+Eligibility for introductory rate(s), fees, and bonus rewards offers
+
+You may not be eligible for introductory annual percentage rates,
+fees, and/ or bonus rewards offers if you opened a Wells Fargo credit
+card within the last 15 months from the date of this application and
+you received introductory APR(s), fees, and/or bonus rewards offers —
+even if that account is closed and has a $0 balance.
+
+You may not qualify for an additional Wells Fargo credit card if you
+have opened a Wells Fargo credit card in the last 6 months.
+
+Refer to The Wells Fargo Cash Wise Visa Signature(R) Card Terms and
+Conditions and Important Information About Procedures for Opening a
+New Account for more information on this offer.
+
+Use your reservation number below to view your offer details and
+complete your secure, prefilled application.
+
+Respond by: 07/26/20
+
+Reservation number: 3002205240566043
+
+Offers may differ from time to time and depend on the marketing
+channel, such as phone, email, online, direct mail, or in branch. You
+must select Apply Now below to take advantage of this specific offer.
+
+Apply Now: 
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/maincta?C2T_DATA2=3002205240566043
+
+--------------------------------------------------------------------
+
+1. To qualify for the $150 cash rewards bonus, a total of at least
+$500 in net purchases (purchases minus returns/credits) must post to
+your account within 3 months from the date your account is
+opened. These bonus cash rewards will show as redeemable within 1 – 2
+billing periods after they are earned. Cash advances and balance
+transfers do not apply for purposes of this offer and may affect the
+credit line available for this offer. ATM transactions, cash advances
+of any kind, balance transfers, SUPERCHECKS(TM), cash equivalents
+such as money orders and prepaid gift cards, casino gaming chips,
+wire transfers, off-track wagers, lottery tickets, or bets or wagers
+transmitted over the internet, fees or interest posted to a linked
+account, including but not limited to returned payment fees, late
+fees, and monthly or annual fees, do not earn cash rewards. Refer to
+the Summary of the Go Far Rewards Program Terms and Conditions and
+Addendum for The Wells Fargo Cash Wise Visa Signature Card for
+details.
+
+Summary of the Go Far Rewards Program Terms and Conditions and
+Addendum for The Wells Fargo Cash Wise Visa Signature Card:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/rewsummary
+
+2. 1.5% cash rewards are earned for every $1 spent in net purchases
+(purchases minus returns/credits) on the credit card account. ATM
+transactions, cash advances of any kind, balance transfers,
+SUPERCHECKS(TM), cash equivalents such as money orders and prepaid
+gift cards, casino gaming chips, wire transfers, off-track wagers,
+lottery tickets, or bets or wagers transmitted over the internet,
+fees or interest posted to a linked account, including but not
+limited to returned payment fees, late fees, and monthly or annual
+fees, do not earn cash rewards. Refer to the Summary of the Go Far
+Rewards Program Terms and Conditions and Addendum for the Wells Fargo
+Cash Wise Visa Signature Card for further details.
+
+Summary of the Go Far Rewards Program Terms and Conditions and
+Addendum for The Wells Fargo Cash Wise Visa Signature Card:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/rewsummary
+
+--------------------------------------------------------------------
+
+Follow us:
+
+Facebook:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/facebook
+
+Twitter:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/twitter
+
+Pinterest:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/pinterest
+
+--------------------------------------------------------------------
+
+Home/Sign On:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/bnavhome
+
+Contact Us:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/bnavcont
+
+Update Email Address:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/bnavemail
+
+--------------------------------------------------------------------
+
+Privacy Policy:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/privacy
+
+Protect yourself from fraud:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/fraud
+
+This is a promotional email. Unsubscribe from future Wells Fargo
+promotional emails:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/unsub?EMAIL=leebridges@gmail.com&C2T_MCELL=2020061721107054&OA_C_SOURCE_CAMPAIGN=2005PRCCD15&C2T_DATA28=
+
+Contact us:
+If you have questions, please do not reply to this message.
+Wells Fargo Online(R) customers, sign on and select Contact Us:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/signon
+If you are not a Wells Fargo Online customer, view our contact
+information:
+https://connect.wellsfargoemail.com/a/tBe86nAB8IXCZB91w4GNxAOsUg4/contact
+
+Please direct all written correspondence to:
+Wells Fargo Online Customer Service: P.O. Box 4132, Concord, CA
+94524, MAC #A0314-032
+
+Online Customer Service Code: 2005PRCCD15
+
+Wells Fargo & Company Headquarters: 420 Montgomery St.,
+San Francisco, CA 94104
+
+(C) 2020 Wells Fargo Bank, N.A. All rights reserved. Member FDIC. 
+NMLSR ID 399801. Equal Housing Lender.
+
+--=b4mbt4ybfp5162auhpsteqq8m7spxy
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office" lang=3D"en">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1,=
+ maximum-scale=3D5" />
+<meta name=3D"format-detection" content=3D"date=3Dno">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<meta name=3D"x-apple-disable-message-reformatting">
+<title>Earn a $150 cash rewards bonus when you spend $500 on purchases in t=
+he first 3 months</title>
+
+<!--[if gte mso 9]>
+
+<style type=3D"text/css">
+
+label a{text-decoration: none;}
+
+li {text-align:-webkit-match-parent; display:list-item;text-indent: -1em;}
+
+.footOutlook{font-size:12px !important; line-height:18px!important;}
+
+.footOutlook2{font-size:10px !important; line-height:8px!important;}
+
+.footOutlook3{font-size:22px !important; line-height:24px!important;}
+
+.footOutlook4{font-size:38px !important; line-height:44px!important;}
+
+</style>
+
+<![endif]-->
+
+<style type=3D"text/css">
+li {
+text-align: -webkit-match-parent;
+display: list-item;
+}
+a[href^=3D"x-apple-data-detectors:"] {
+color: inherit;
+text-decoration: inherit;
+}
+body {
+width: 100% !important;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+margin: 0!important;
+padding: 0!important;
+}
+.ReadMsgBody {
+width: 100%;
+}
+.ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass =
+td {
+line-height: 100%
+}
+table {
+border-collapse: collapse;
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+padding: 0;
+}
+table td {
+border-collapse: collapse;
+}
+.appleLinks a {
+color: #000000 !important;
+text-decoration: none !important;
+}
+.appleLinksW a {
+color: #ffffff !important;
+text-decoration: none !important;
+}
+.appleLinksF a {
+color: #53535a !important;
+text-decoration: none !important;
+}
+.appleLinksG a {
+color: #44464a !important;
+text-decoration: none !important;
+}
+h1 {
+padding: 0px !important;
+margin: 0px !important;
+}
+h2 {
+padding: 0px !important;
+margin: 0px !important;
+}
+h3 {
+padding: 0px !important;
+margin: 0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+#bgImagNone {
+background-size: 100% 78%;
+height: 362px !important;
+width: 320px !important;
+}
+.contenttableNoheight {
+height: inherit !important;
+width: 320px !important;
+}
+.contenttable {
+width: 320px !important;
+}
+.mobile {
+width: 320px !important;
+height: auto !important;
+}
+.block {
+display: block !important;
+width: 320px !important;
+}
+.block100p {
+display: block !important;
+width: 100% !important;
+}
+.blocktable {
+display: block !important;
+width: 375px !important;
+}
+.showmobile136 {
+display: block !important;
+margin: auto !important;
+width: 136px !important;
+height: auto !important;
+max-height: inherit !important;
+overflow: visible !important;
+}
+.showmobile {
+display: block !important;
+margin: auto !important;
+width: 320px !important;
+height: auto !important;
+max-height: inherit !important;
+overflow: visible !important;
+}
+.showmobile100p {
+display: block !important;
+margin: auto !important;
+width: 100% !important;
+height: auto !important;
+max-height: inherit !important;
+overflow: visible !important;
+}
+.hide {
+display: none !important;
+}
+.noheight {
+height: inherit !important;
+}
+.apple_link_white a {
+color: #FFFFFF !important;
+}
+.apple_link_grey a {
+color: #44464a !important;
+}
+.apple_dis a {
+color: #53535a !important;
+text-decoration: none !important;
+}
+.w258 {
+width: 258px !important;
+}
+.w288 {
+width: 288px !important;
+}
+.w16 {
+width: 16px !important;
+}
+}
+</style>
+<style type=3D"text/css">
+
+/*	  span.MsoHyperlinkFollowed {
+
+mso-style-priority:99;
+
+color:inherit;
+
+}*/
+
+a:visited{color:inherit;}
+
+
+
+a:link {
+
+color : #3D62AC;
+
+}
+
+a:visited {
+
+color : #3D62AC;
+
+}
+
+a.whitelink:link {
+
+color: #ffffff;
+
+}
+
+a.whitelink:visited {
+
+color: #ffffff;
+
+}
+
+a.graylink:link {
+
+color: #383A3D;
+
+}
+
+a.graylink:visited {
+
+color: #383A3D;
+
+}=20
+
+
+
+
+
+</style>
+<style type=3D"text/css">
+
+/* Custom fonts, working onlyo for mobile, March 2015 */
+
+@import url(http://fonts.googleapis.com/css?family=3DMerienda);
+
+/* All your usual CSS here */
+
+</style>
+<style type=3D"text/css">
+
+.gmailfix {
+
+display:none;
+
+display:none!important;
+
+}
+
+</style>
+
+<!--[if gte mso 9]>
+
+<style>
+
+li {
+
+text-indent: -1em; /* Normalise space between bullets and text */
+
+}
+
+</style>
+
+<![endif]-->
+
+<style>
+
+@media only screen and (max-width: 600px) {
+
+u + .gmail{min-width: 350px !important;}
+
+
+
+}
+
+</style>
+<style type=3D"text/css">
+
+
+
+a:focus img {
+
+outline: 1px dotted blue;
+
+}
+
+a:focus{
+
+outline: 1px dotted blue;
+
+}
+
+
+
+
+
+</style>
+
+<!--[if gte mso 16]>
+
+<style type=3D"text/css">
+
+table {
+
+border-collapse: collapse;
+
+border-spacing: 0;=20
+
+mso-line-height-rule: exactly;=20
+
+mso-margin-bottom-alt: 0;=20
+
+mso-margin-top-alt: 0;=20
+
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+
+</style>
+
+<style type=3D"text/css" media=3D"all">
+
+/* Outlook 2016 Height Fix */
+
+table, tr, td {border-collapse: collapse;}
+
+tr { font-size:0px; line-height:0px; border-collapse: collapse; }
+
+</style>
+
+<xml>
+
+<o:OfficeDocumentSettings>
+
+<o:AllowPNG/>
+
+<o:PixelsPerInch>96</o:PixelsPerInch>
+
+</o:OfficeDocumentSettings>
+
+</xml><![endif]-->
+
+</head>
+
+<body class=3D"gmail"><img src=3D"http://connect.wellsfargoemail.com/a/hBe8=
+6nAB8IXCZB91w4GNxAOsUg4/spacer.gif" width=3D"1" height=3D"1" style=3D"displ=
+ay:none !important; max-height:1px !important; max-width:1px !important; bo=
+rder:0 !important; background-color:transparent !important; padding:0 !impo=
+rtant; outline:0 !important; min-height:1px !important; min-width:1px !impo=
+rtant; height:1px !important; width:1px !important;" alt=3D"">
+
+<!--Starts Gmail App fix -->=20
+
+<!--[if !mso]><!--->
+
+<div class=3D"gmailfix" style=3D"white-space:nowrap; font:15px courier; lin=
+e-height:0;">
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+</div>
+
+<!--<![endif]-->=20
+
+<!--Ends Gmail App fix -->
+
+<table role=3D"presentation" width=3D"100%" border=3D"0" align=3D"center" c=
+ellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr>
+<td align=3D"center"><table role=3D"presentation" width=3D"640" align=3D"ce=
+nter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#E0E3E2" =
+class=3D"contenttable">
+<tbody><tr>
+<td width=3D"16">&nbsp;</td>
+<td align=3D"left"><table role=3D"presentation" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td align=3D"left"><font style=3D"font-family: Verdana, Geneva, sans-serif;=
+ font-size:10px; line-height:16px; color:#53535a;">Unlimited 1.5% cash rewa=
+rds earned on purchases</font></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td align=3D"left"><font style=3D"font-family: Verdana, Geneva, sans-serif;=
+ font-size:10px; line-height:16px; color:#53535a;"> <a href=3D"https://conn=
+ect.wellsfargoemail.com/a/hBe86nAB8IXCZB91w4GNxAOsUg4/hosted?t_sparams=3Dif=
+w805vUu34PA5t2oYX-lhQFpOqKYICvWnP-d5ImHw3yPsa83cVFFIQ-h3292RZwNphvKUv6gtl8n=
+5P77$S1$gZp34F0HCfvZ39LrKs85yIURL5RJi7ViBJZbAPKpwqaa-CkU4elO2YlzW1Zwo9IGpJ0=
+Ne7b1626S5Eogfyw7Gx8LJ$F5Ub9bcOgR2TpFqHj2ogJin9I4F6UKE$VdZQd953VisI3ROv$l09=
+dvAj2r7V6C-bgIL19vbCVRQGAQCTFTRCzuOqMEBXI5p6KgIFJjdj8Mw21xws8w9xIItZwaqX6HU=
+aeQqJyJC7lBxOEr4bmMHt6hWUsarVKsKU-pN35aAO8JULOZi5hiCZc-GHPPqVA31pUSlVfA" st=
+yle=3D"color:#3D62AC;text-decoration: underline;">View this email online</a=
+>. </font></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table></td>
+<td width=3D"16">&nbsp;</td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" width=3D"640" border=3D"0" align=3D"center" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable" bgcolor=3D"#AE1E23=
+">
+<tbody><tr>
+<td width=3D"640" class=3D"contenttable" align=3D"center" valign=3D"top"><s=
+pan style=3D"line-height:0px; font-size:0px;"><a href=3D"http://connect.wel=
+lsfargoemail.com/a/hBe86nAB8IXCZB91w4GNxAOsUg4/logo"><img style=3D"display:=
+block;" alt=3D"Wells Fargo home page" border=3D"0" src=3D"https://f.connect=
+.wellsfargoemail.com/i/38/2082566297/ASTEML223324logo.png" width=3D"320" he=
+ight=3D"50"></a></span></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" width=3D"640" border=3D"0" align=3D"center" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable">
+<tbody><tr>
+<td height=3D"2" style=3D"line-height:0px; font-size:0px;"><img style=3D"di=
+splay:block;" alt=3D"" border=3D"0" src=3D"http://f.connect.wellsfargoemail=
+.com/i/38/2082566297/spacer.gif" width=3D"10" height=3D"2"></td>
+</tr>
+</tbody></table>
+	<table role=3D"presentation" width=3D"640" border=3D"0" align=3D"center" c=
+ellpadding=3D"0" cellspacing=3D"0" class=3D"contenttable">
+                      <tbody>
+                        <tr>
+                          <td width=3D"20" height=3D"20" style=3D"line-heig=
+ht:0px; font-size:0px;"><img style=3D"display:block;" alt=3D"" title=3D"" s=
+rc=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/spacer.gif" bord=
+er=3D"0" height=3D"20" width=3D"30"></td>
+                        </tr>
+                      </tbody>
+        </table>
+<table role=3D"presentation" width=3D"640" align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable">
+        <tbody><tr>
+          <td width=3D"16">&nbsp;</td>
+          <td align=3D"left" valign=3D"top"><table role=3D"presentation" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+            <tbody><tr>
+              <td align=3D"center" style=3D"font-family:Georgia, 'Times New=
+ Roman', Times,
+serif; font-size:20px;mso-ansi-font-size:20px; line-height:28px; mso-line-h=
+eight-rule:exactly; mso-text-raise: 3px; color:#44464a; font-weight:normal;=
+ padding:0px; margin:0px;">
+               <font style=3D"font-family:Georgia, 'Times New Roman', Times,
+serif; font-size:20px;mso-ansi-font-size:20px; line-height:28px; mso-line-h=
+eight-rule:exactly; mso-text-raise: 3px; color:#44464A; font-weight:normal;=
+ padding:0px; margin:0px;">Our best cash back card ever</font>
+</td>
+            </tr>
+          </tbody></table></td>
+          <td width=3D"16">&nbsp;</td>
+        </tr>
+      </tbody></table>
+<table role=3D"presentation" width=3D"640" border=3D"0" align=3D"center" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable">
+                      <tbody>
+                        <tr>
+                          <td width=3D"20" height=3D"20" style=3D"line-heig=
+ht:0px; font-size:0px;"><img style=3D"display:block;" alt=3D"" title=3D"" s=
+rc=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/spacer.gif" bord=
+er=3D"0" height=3D"20" width=3D"30"></td>
+                        </tr>
+                      </tbody>
+        </table>
+<table role=3D"presentation" width=3D"640" align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff" class=3D"contenttable=
+">
+  <tbody><tr>
+    <td width=3D"320" class=3D"block" align=3D"center"><img src=3D"http://f=
+.connect.wellsfargoemail.com/i/38/2082566297/wfcc050_ph_b-cashwise-visasign=
+ature-flat_255x161.png" alt=3D"Wells Fargo Wise Visa Signature Card" border=
+=3D"0" style=3D"display: block; width: 231px; height: 147px;"></td>
+    <td valign=3D"top" class=3D"block" width=3D"320">
+
+
+
+      <table role=3D"presentation" width=3D"320" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+              <tbody>
+                <tr>
+                  <td width=3D"16">&nbsp;</td>
+                  <td height=3D"175" valign=3D"middle">
+             <table role=3D"presentation" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0">
+                      <tbody>
+                        <tr>
+                          <td align=3D"center" style=3D"font-family:'Verdan=
+a', Trebuchet MS, sans-serif; font-size:24px;mso-ansi-font-size:24px; line-=
+height:28px; mso-line-height-rule:exactly; mso-text-raise: 3px; color:#AE1E=
+23; font-weight:normal; padding:0px; margin:0px;"><h1 style=3D"font-family:=
+'Verdana', Trebuchet MS, sans-serif; font-size:24px;mso-ansi-font-size:24px=
+; line-height:28px; mso-line-height-rule:exactly; mso-text-raise: 3px; colo=
+r:#AE1E23; font-weight:normal; padding:0px; margin:0px;">Earn a $150 cash<b=
+r> rewards bonus</h1></td>
+                        </tr>
+                      </tbody>
+                    </table>
+					  <table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                      <tbody>
+                        <tr>
+                          <td width=3D"20" height=3D"10" style=3D"line-heig=
+ht:0px; font-size:0px;"><img style=3D"display:block;" alt=3D"" title=3D"" s=
+rc=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/spacer.gif" bord=
+er=3D"0" height=3D"10" width=3D"30"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                     <table role=3D"presentation" width=3D"100%" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0">
+                      <tbody>
+                        <tr>
+                          <td style=3D"font-family:'Verdana', Trebuchet MS,=
+ sans-serif;  font-size:14px; mso-ansi-font-size:14px; line-height:18px; ms=
+o-line-height-rule:exactly;mso-text-raise: 2px; color:#AE1E23;" width=3D"28=
+8" align=3D"center"><h2 style=3D"font-family:'Verdana', Trebuchet MS, sans-=
+serif;  font-size:14px; mso-ansi-font-size:14px; line-height:18px; mso-line=
+-height-rule:exactly;mso-text-raise: 2px; color:#AE1E23;font-weight:normal;=
+ padding:0px; margin:0px;">When you spend <strong>$500</strong> on purchase=
+s <br>
+in the <strong>first 3 months</strong><sup style=3D"line-height: 0px;"><a h=
+ref=3D"#footnote1" name=3D"footnoteL1" id=3D"footnoteL1" style=3D"font-fami=
+ly: Verdana, Trebuchet MS, sans-serif; font-size: 10px; color: #AE1E23; tex=
+t-decoration: none;" tabindex=3D"-1" class=3D"footOutlook"><span class=3D"f=
+ootnote" style=3D"height: 0px; width: 0px; font-size: 0px; line-height: 0px=
+; overflow: hidden; position: absolute; color:#ffffff; letter-spacing: -15p=
+x;">footnote</span>1</a></sup></h2></td>
+                        </tr>
+                      </tbody>
+                    </table>
+				  </td>
+                  <td width=3D"16">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table></td>
+  </tr>
+</tbody></table>
+<table role=3D"presentation" width=3D"640" align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable">
+<tbody><tr class=3D"hide">
+<td class=3D"hide" width=3D"20" height=3D"20" style=3D"line-height:0px; fon=
+t-size:0px;"><img style=3D"display:block;" alt=3D"" title=3D"" src=3D"http:=
+//f.connect.wellsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" he=
+ight=3D"20" width=3D"30"></td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top"><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td width=3D"30" class=3D"w16">&nbsp;</td>
+	<td align=3D"left" style=3D"font-family:'Verdana', Trebuchet MS, sans-seri=
+f; font-size:14px; mso-ansi-font-size:14px; line-height:20px; mso-line-heig=
+ht-rule:exactly;mso-text-raise: 3px; color:#44464a;"><font style=3D"font-fa=
+mily:'Verdana', Trebuchet MS, sans-serif; font-size:14px; mso-ansi-font-siz=
+e:14px; line-height:20px; mso-line-height-rule:exactly;mso-text-raise: 3px;=
+ color:#44464a;">James, you&rsquo;re invited to apply for our best cash bac=
+k card ever &mdash; the Wells&nbsp;Fargo Cash Wise Visa Signature<sup style=
+=3D"line-height: 0px;">&reg;</sup> card &mdash; which features:</font></td>
+<td width=3D"30" class=3D"w16">&nbsp;</td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" width=3D"640" align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable">
+<tbody><tr>
+<td width=3D"20" height=3D"20" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"20" wid=
+th=3D"30"></td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top"><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody><tr>
+<td width=3D"30" class=3D"w16">&nbsp;</td>
+<td align=3D"left"><font style=3D"font-family:Verdana, Geneva, sans-serif; =
+font-size:14px; line-height:20px; color:#44464a;" class=3D"apple_link_grey">
+<ul style=3D"margin:0 0 0 18px; padding:0px; font-size:14px;mso-ansi-font-s=
+ize:14px; line-height: 20px; mso-line-height-rule:exactly;mso-text-raise: 3=
+px; list-style: disc outside;">
+<li style=3D"margin: 0; padding: 0; font-size:14px;mso-ansi-font-size:14px;=
+ line-height: 20px; mso-line-height-rule:exactly;mso-text-raise: 3px;">Unli=
+mited <strong style=3D"font-weight: bold;">1.5% cash rewards</strong> earne=
+d on purchases.<sup style=3D"line-height: 0px;"><a href=3D"#footnote2" name=
+=3D"footnoteL2" id=3D"footnoteL2" style=3D"font-family: Verdana, Trebuchet =
+MS, sans-serif; font-size: 10px; color: #44464a; text-decoration: none;" ta=
+bindex=3D"-1" class=3D"footOutlook"><span class=3D"footnote" style=3D"heigh=
+t: 0px; width: 0px; font-size: 0px; line-height: 0px; overflow: hidden; pos=
+ition: absolute; color:#ffffff; letter-spacing: -15px;">footnote</span>2</a=
+></sup> Cash rewards don&rsquo;t expire as long as your account remains ope=
+n.
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+</li>
+<li style=3D"margin: 0; padding: 0; font-size:14px;mso-ansi-font-size:14px;=
+ line-height: 20px; mso-line-height-rule:exactly;mso-text-raise: 3px;">0% i=
+ntro APR on purchases and qualifying balance transfers for 15 months from a=
+ccount opening. After that, the variable APR will be between 13.99% and 25.=
+99%. This APR will vary with the market based on the U.S. Prime Rate. Balan=
+ce transfers made within 120 days qualify for the intro rate and fee. <stro=
+ng style=3D"font-weight: bold;">(Refer to Important credit terms below for =
+details.)*</strong>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+</li>
+<li style=3D"margin: 0; padding: 0; font-size:14px;mso-ansi-font-size:14px;=
+ line-height: 20px; mso-line-height-rule:exactly;mso-text-raise: 3px;"><str=
+ong style=3D"font-weight: bold;">$0 annual fee. (Refer to Important credit =
+terms below for details.)*</strong></li>
+</ul>
+</font></td>
+<td width=3D"30" class=3D"w16">&nbsp;</td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" width=3D"640" border=3D"0" align=3D"center" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable">
+<tbody><tr>
+<td width=3D"20" height=3D"20" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"20" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" width=3D"640" align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable" bgcolor=3D"#ECECED=
+">
+<tbody>
+<tr>
+<td width=3D"16">&nbsp;</td>
+<td align=3D"left" valign=3D"top"><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td width=3D"20" height=3D"20" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"20" wid=
+th=3D"30"></td>
+</tr>
+<tr>
+<td align=3D"left" style=3D"font-family:'Verdana', Trebuchet MS, sans-serif=
+; font-size:14px; mso-ansi-font-size:14px; line-height:20px; mso-line-heigh=
+t-rule:exactly;mso-text-raise: 3px; color:#44464a;"><font style=3D"font-fam=
+ily:'Verdana', Trebuchet MS, sans-serif; font-size:14px; mso-ansi-font-size=
+:14px; line-height:20px; mso-line-height-rule:exactly;mso-text-raise: 3px; =
+color:#44464a;">
+<h2 style=3D"margin: 0; padding: 0;font-family:'Verdana', Trebuchet MS, san=
+s-serif; font-size:14px; mso-ansi-font-size:14px; line-height:20px; mso-lin=
+e-height-rule:exactly;mso-text-raise: 3px; color:#44464a;"><a href=3D"#firs=
+t" name=3D"importantct" id=3D"importantct" style=3D" color:#44464a; text-de=
+coration: none"><strong style=3D"font-weight: bold;">Important credit terms=
+</strong></a></h2> <table role=3D"presentation" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>* There is an introductory 0% APR for purchases and balance=
+ transfers for 15 months from account opening; after that, a variable APR o=
+f 13.99% to 25.99% applies.
+ There is a variable cash advance APR of 23.99% to 25.99%. These APRs will =
+be based on your creditworthiness and will vary with the market based on U.=
+S. Prime Rate. A balance transfer request must be made within 120 days from=
+ account opening to qualify for the introductory APR. Minimum interest char=
+ge will be no less than $1.00. An introductory balance transfer fee of eith=
+er $5 or 3% of each balance transfer, whichever is greater, for 120 days fr=
+om account opening applies; after that, a fee of up to 5% for each balance =
+transfer, with a minimum of $5, applies. A cash advance fee of either $10 o=
+r 5% of the amount of each advance, whichever is greater, applies. An overd=
+raft protection advance fee of $12.50 or $20 per day applies. A foreign cur=
+rency conversion fee of 3% of each transaction applies. This information ab=
+out the cost of the credit card account described here is accurate as of 03=
+/23/20.=20
+   To find out what may have changed, call <a href=3D"tel:18009326736" styl=
+e=3D"text-decoration: none; color:#44464a; white-space: nowrap;">1-800-932-=
+6736</a>.=20
+
+The Wells&nbsp;Fargo Cash Wise Visa Signature<sup style=3D"line-height: 0px=
+;">&reg;</sup> card is issued by Wells&nbsp;Fargo Bank, N.A.</font></td>
+</tr>
+<tr>
+<td width=3D"20" height=3D"20" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"20" wid=
+th=3D"30"></td>
+</tr>
+</tbody>
+</table></td>
+<td width=3D"16">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table role=3D"presentation" width=3D"640" border=3D"0" align=3D"center" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable">
+<tbody><tr>
+<td width=3D"20" height=3D"20" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"20" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" width=3D"640" align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable">
+<tbody>
+<tr>
+<td width=3D"30" class=3D"w16">&nbsp;</td>
+<td align=3D"left" valign=3D"top"><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td align=3D"left" style=3D"font-family:'Verdana', Trebuchet MS, sans-serif=
+; font-size:14px; mso-ansi-font-size:14px; line-height:20px; mso-line-heigh=
+t-rule:exactly;mso-text-raise: 3px; color:#44464a;"><font style=3D"font-fam=
+ily:'Verdana', Trebuchet MS, sans-serif; font-size:14px; mso-ansi-font-size=
+:14px; line-height:20px; mso-line-height-rule:exactly;mso-text-raise: 3px; =
+color:#44464a;">
+<h2 style=3D"margin: 0; padding: 0;font-family:'Verdana', Trebuchet MS, san=
+s-serif; font-size:14px; mso-ansi-font-size:14px; line-height:20px; mso-lin=
+e-height-rule:exactly;mso-text-raise: 3px; color:#44464a;"><strong style=3D=
+"font-weight: bold;">Other things you need to know</strong></h2>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+Credit card is subject to credit qualification. <table role=3D"presentation=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+You must be a citizen or a permanent resident alien of the U.S. to qualify =
+for this credit card.
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<h2 style=3D"margin: 0; padding: 0;font-family:'Verdana', Trebuchet MS, san=
+s-serif; font-size:14px; mso-ansi-font-size:14px; line-height:20px; mso-lin=
+e-height-rule:exactly;mso-text-raise: 3px; color:#44464a;"><strong style=3D=
+"font-weight: bold;">Eligibility for introductory rate(s), fees, and bonus =
+rewards offers</strong><br>
+</h2>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<h2 style=3D"margin: 0; padding: 0;font-family:'Verdana', Trebuchet MS, san=
+s-serif; font-size:14px; mso-ansi-font-size:14px; line-height:20px; mso-lin=
+e-height-rule:exactly;mso-text-raise: 3px; color:#44464a;font-weight: norma=
+l;"><strong style=3D"font-weight: bold;">You may not be eligible for introd=
+uctory annual percentage rates, fees, and/or bonus rewards offers</strong> =
+if you opened a Wells&nbsp;Fargo credit card within the last 15 months from=
+ the date of this application and you received introductory APR(s), fees, a=
+nd/or bonus rewards offers &mdash; even if that account is closed and has a=
+ $0 balance.</h2>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<h2 style=3D"margin: 0; padding: 0;font-family:'Verdana', Trebuchet MS, san=
+s-serif; font-size:14px; mso-ansi-font-size:14px; line-height:20px; mso-lin=
+e-height-rule:exactly;mso-text-raise: 3px; color:#44464a;"><strong style=3D=
+"font-weight: bold;">You may not qualify for an additional Wells&nbsp;Fargo=
+ credit card if you have opened a Wells&nbsp;Fargo credit card in the last =
+6 months. </strong></h2>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+Refer to the Wells&nbsp;Fargo Cash Wise Visa Signature<sup style=3D"line-he=
+ight: 0px;">&reg;</sup> Card Terms and Conditions and Important Information=
+ About Procedures for Opening a New Account for more information on this of=
+fer.
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+Use your reservation number below to view your offer details and complete y=
+our secure, prefilled application.
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<h2 style=3D"margin: 0; padding: 0;font-family:'Verdana', Trebuchet MS, san=
+s-serif; font-size:14px; mso-ansi-font-size:14px; line-height:20px; mso-lin=
+e-height-rule:exactly;mso-text-raise: 3px; color:#44464a;"><strong style=3D=
+"font-weight: bold;">Respond by: 07/26/20</strong></h2>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<h2 style=3D"margin: 0; padding: 0;font-family:'Verdana', Trebuchet MS, san=
+s-serif; font-size:14px; mso-ansi-font-size:14px; line-height:20px; mso-lin=
+e-height-rule:exactly;mso-text-raise: 3px; color:#44464a;"><strong style=3D=
+"font-weight: bold;">Reservation number: 3002205240566043</strong></h2>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody><tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+Offers may differ from time to time and depend on the marketing channel, su=
+ch as phone, email, online, direct mail, or in branch. You must select <str=
+ong style=3D"font-weight: bold;">Apply Now</strong> below to take advantage=
+ of this specific offer.</font></td>
+</tr>
+</tbody>
+</table></td>
+<td width=3D"30" class=3D"w16">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table role=3D"presentation" width=3D"640" border=3D"0" align=3D"center" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable">
+<tbody><tr>
+<td width=3D"20" height=3D"40" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"40" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" width=3D"640" align=3D"center" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" class=3D"contenttable">
+<tbody><tr>
+<td width=3D"640" align=3D"center" class=3D"contenttable"><table role=3D"pr=
+esentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"borde=
+r-radius:15px;" bgcolor=3D"#bb0826">
+<tbody><tr>
+<td align=3D"left" width=3D"15" height=3D"45" style=3D"line-height:0px; fon=
+t-size:0px;"><img src=3D"http://f.connect.wellsfargoemail.com/i/38/20825662=
+97/EML-223970_V2_HTML4773WellsFargoVCGEML223970btn_01.jpg" width=3D"15" hei=
+ght=3D"45" alt=3D"" border=3D"0" style=3D"display:block;"></td>
+<td valign=3D"middle" width=3D"150" align=3D"center" class=3D"w258" bgcolor=
+=3D"#bb0826" style=3D"font-family:Verdana,sans-serif,'Trebuchet MS'; font-s=
+ize:14px; color:#FFFFFF; font-weight:bold; text-decoration:none;"><a href=
+=3D"https://connect.wellsfargoemail.com/a/hBe86nAB8IXCZB91w4GNxAOsUg4/mainc=
+ta?C2T_DATA2=3D3002205240566043" style=3D"font-family:Verdana,sans-serif,'T=
+rebuchet MS'; font-size:14px; color:#FFFFFF; font-weight:bold; text-decorat=
+ion:none;padding:11px 0px;">Apply Now</a></td>
+<td align=3D"left" width=3D"15" height=3D"45" style=3D"line-height:0px; fon=
+t-size:0px;"><img src=3D"http://f.connect.wellsfargoemail.com/i/38/20825662=
+97/EML-223970_V2_HTML4773WellsFargoVCGEML223970btn_02.jpg" width=3D"15" hei=
+ght=3D"45" alt=3D"" border=3D"0" style=3D"display:block;"></td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" width=3D"640" border=3D"0" align=3D"center" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable">
+<tbody><tr>
+<td width=3D"20" height=3D"20" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"20" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" width=3D"640" align=3D"center" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#FFFFFF" class=3D"contenttable=
+">
+<tbody><tr>
+<td align=3D"center"><img src=3D"http://f.connect.wellsfargoemail.com/i/38/=
+2082566297/stagecoach_dt_src.png" width=3D"640" height=3D"100" alt=3D"Wells=
+ Fargo horse drawn stage coach" border=3D"0" style=3D"display:block;" class=
+=3D"hide"></td>
+</tr>
+</tbody></table>
+
+<!--[if !mso]><!-->
+
+<div style=3D"width:0px; display:none; max-height:0px; overflow:hidden;" cl=
+ass=3D"showmobile">
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" class=3D"showmobile" style=3D" display:none; margin:0 auto; border:0;" b=
+gcolor=3D"#FFFFFF">
+<tbody><tr>
+<td><img src=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/stagec=
+oach_mob_src.png" width=3D"320" height=3D"100" alt=3D"Wells Fargo horse dra=
+wn stage coach" border=3D"0" style=3D"display:block;"></td>
+</tr>
+</tbody></table>
+</div>
+
+<!--<![endif]-->
+
+<table role=3D"presentation" width=3D"640" border=3D"0" align=3D"center" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"contenttable" bgcolor=3D"#e0e3e2=
+">
+<tbody><tr>
+<td width=3D"20" height=3D"20" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"20" wid=
+th=3D"30"></td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top"><table role=3D"presentation" width=3D"1=
+00%" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr>
+<td width=3D"16">&nbsp;</td>
+<td align=3D"left" style=3D"font-family:Verdana, Geneva, sans-serif;font-si=
+ze:12px; mso-ansi-font-size:12px; line-height:18px; mso-line-height-rule:ex=
+actly;mso-text-raise: 3px; color:#44464a;"><font style=3D"font-family:Verda=
+na, Geneva, sans-serif;font-size:12px; mso-ansi-font-size:12px; line-height=
+:18px; mso-line-height-rule:exactly;mso-text-raise: 3px; color:#44464a;">
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+<tbody><tr>
+<td align=3D"left" style=3D"font-family:Verdana, Geneva, sans-serif;font-si=
+ze:12px; mso-ansi-font-size:12px; line-height:18px; mso-line-height-rule:ex=
+actly;mso-text-raise: 3px; color:#44464a;"><font style=3D"font-family:Verda=
+na, Geneva, sans-serif;font-size:12px; mso-ansi-font-size:12px; line-height=
+:18px; mso-line-height-rule:exactly;mso-text-raise: 3px; color:#44464a;">=
+=20
+
+<ol style=3D"margin: 0 0 0 0; padding: 0; font-family:'Verdana', Trebuchet =
+MS, sans-serif; font-size:12px; mso-ansi-font-size:12px; line-height:16px; =
+mso-line-height-rule:exactly;mso-text-raise: 2px; color:#e0e3e2; list-style=
+: none;">
+	<li style=3D"margin: 0; padding: 0; font-family:'Verdana', Trebuchet MS, s=
+ans-serif; font-size:12px; mso-ansi-font-size:12px; line-height:16px; mso-l=
+ine-height-rule:exactly;mso-text-raise: 2px; color:#e0e3e2;"><span style=3D=
+"color:#44464a;"><a name=3D"footnote1" href=3D"#footnoteL1" style=3D"color:=
+#53535a; text-decoration:none;">1. To qualify for the $150 cash rewards bon=
+us, a total of at least $500 in net purchases (purchases minus returns/cred=
+its) must post to your account within 3 months from the date your account i=
+s opened. These bonus cash rewards will show as redeemable within 1 &ndash;=
+ 2 billing periods after they are earned. Cash advances and balance transfe=
+rs do not apply for purposes of this offer and may affect the credit line a=
+vailable for this offer. ATM transactions, cash advances of any kind, balan=
+ce transfers, <em>SUPERCHECKS</em>&trade;, cash equivalents such as money o=
+rders and prepaid gift cards, casino gaming chips, wire transfers, off-trac=
+k wagers, lottery tickets, or bets or wagers transmitted over the internet,=
+ fees or interest posted to a linked account, including but not limited to =
+returned payment fees, late fees, and monthly or annual fees, do not earn c=
+ash rewards. Refer to the</a> <a href=3D"http://connect.wellsfargoemail.com=
+/a/hBe86nAB8IXCZB91w4GNxAOsUg4/rewsummary#rewardssummary" style=3D"color:#3=
+D62AC; text-decoration: underline;">Summary of the Go Far Rewards Program T=
+erms and Conditions and Addendum for the Wells&nbsp;Fargo Cash Wise Visa Si=
+gnature Card</a> for details.</span>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody>
+<tr>
+<td width=3D"20" height=3D"10" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"10" wid=
+th=3D"30"></td>
+</tr>
+</tbody>
+</table>
+</li>
+	<li style=3D"margin: 0; padding: 0; font-family:'Verdana', Trebuchet MS, s=
+ans-serif; font-size:12px; mso-ansi-font-size:12px; line-height:16px; mso-l=
+ine-height-rule:exactly;mso-text-raise: 2px; color:#e0e3e2;"><span style=3D=
+"color:#44464a;"><a name=3D"footnote2" href=3D"#footnoteL2" style=3D"color:=
+#53535a; text-decoration:none;">2. 1.5% cash rewards are earned for every $=
+1 spent in net purchases (purchases minus returns/credits) on the credit ca=
+rd account. ATM transactions, cash advances of any kind, balance transfers,=
+ <em>SUPERCHECKS</em>&trade;, cash equivalents such as money orders and pre=
+paid gift cards, casino gaming chips, wire transfers, off-track wagers, lot=
+tery tickets, or bets or wagers transmitted over the internet, fees or inte=
+rest posted to a linked account, including but not limited to returned paym=
+ent fees, late fees, and monthly or annual fees, do not earn cash rewards. =
+Refer to the</a> <a href=3D"http://connect.wellsfargoemail.com/a/hBe86nAB8I=
+XCZB91w4GNxAOsUg4/rewsummary#rewardssummary" style=3D"color:#3D62AC; text-d=
+ecoration: underline;">Summary of the Go Far Rewards Program Terms and Cond=
+itions and Addendum for the Wells&nbsp;Fargo Cash Wise Visa Signature Card<=
+/a> for further details. </span></li>
+</ol>
+</font></td>
+</tr>
+</tbody></table>
+</font></td>
+<td width=3D"16">&nbsp;</td>
+</tr>
+</tbody></table></td>
+</tr>
+<tr>
+<td width=3D"20" height=3D"20" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"20" wid=
+th=3D"30"></td>
+</tr>
+</tbody></table>
+<table role=3D"presentation" width=3D"640" align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#6D6D6D" class=3D"hide">
+<tbody><tr>
+<td align=3D"right" width=3D"491"><font style=3D"font-family:Verdana, Genev=
+a, sans-serif; font-size:12px; color:#ffffff;">Follow us</font></td>
+<td><a href=3D"http://connect.wellsfargoemail.com/a/hBe86nAB8IXCZB91w4GNxAO=
+sUg4/facebook"> <img style=3D"display:block;" alt=3D"Facebook" title=3D"" s=
+rc=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/141107_MAA_1845M=
+U_EMDT_R2_18.jpg" border=3D"0" height=3D"51" width=3D"39"></a></td>
+<td><a href=3D"http://connect.wellsfargoemail.com/a/hBe86nAB8IXCZB91w4GNxAO=
+sUg4/twitter"> <img style=3D"display:block;" alt=3D"Twitter" title=3D"" src=
+=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/141107_MAA_1845MU_=
+EMDT_R2_19.jpg" border=3D"0" height=3D"51" width=3D"43"></a></td>
+<td><a href=3D"http://connect.wellsfargoemail.com/a/hBe86nAB8IXCZB91w4GNxAO=
+sUg4/pinterest"> <img style=3D"display:block;" alt=3D"Pinterest" title=3D""=
+ src=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/141107_MAA_184=
+5MU_EMDT_R2_21.jpg" border=3D"0" height=3D"51" width=3D"67"></a></td>
+</tr>
+</tbody></table>
+
+<!--[if !mso]><!-->
+
+<div style=3D" display:none; width:0px; max-height:0px; overflow:hidden;" c=
+lass=3D"showmobile">
+<table role=3D"presentation" class=3D"showmobile" style=3D" display:none; m=
+argin:0 auto; border:0;" bgcolor=3D"#6D6D6D" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"320">
+<tbody><tr>
+<td style=3D"font-family:Verdana, Geneva, sans-serif; font-size:12px;=20
+
+line-height:normal; color:#ffffff; font-style:normal; font-weight:normal; t=
+ext-decoration:none;" align=3D"right" width=3D"187">Follow=20
+
+us</td>
+<td><a href=3D"http://connect.wellsfargoemail.com/a/hBe86nAB8IXCZB91w4GNxAO=
+sUg4/facebook"> <img style=3D"display:block;" alt=3D"Facebook" title=3D"" s=
+rc=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/141107_MAA_1845M=
+U_EMDT_R2_18.jpg" border=3D"0" height=3D"51" width=3D"39"></a></td>
+<td><a href=3D"http://connect.wellsfargoemail.com/a/hBe86nAB8IXCZB91w4GNxAO=
+sUg4/twitter"> <img style=3D"display:block;" alt=3D"Twitter" title=3D"" src=
+=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/141107_MAA_1845MU_=
+EMDT_R2_19.jpg" border=3D"0" height=3D"51" width=3D"43"></a></td>
+<td><a href=3D"http://connect.wellsfargoemail.com/a/hBe86nAB8IXCZB91w4GNxAO=
+sUg4/pinterest"> <img style=3D"display:block;" alt=3D"Pinterest" title=3D""=
+ src=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/141107_MAA_184=
+5MU_EMDT_R2_21.jpg" border=3D"0" height=3D"51" width=3D"67"></a></td>
+</tr>
+</tbody></table>
+</div>
+
+<!--<![endif]-->
+
+      <table role=3D"presentation" width=3D"640" align=3D"center" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D"#e0e3e2" class=3D"hide">
+=20=20
+    <tbody><tr>
+      <td>
+      <table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                        <tbody><tr>
+                          <td width=3D"20" height=3D"20" style=3D"line-heig=
+ht:0px; font-size:0px;"><img style=3D"display:block;" alt=3D"" title=3D"" s=
+rc=3D"https://f.connect.wellsfargoemail.com/i/38/2082566297/spacer.gif" bor=
+der=3D"0" height=3D"20" width=3D"30"></td>
+                        </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+              </tbody></table>
+<table role=3D"presentation" width=3D"640" cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" align=3D"center">
+<tbody><tr>
+<td width=3D"16">&nbsp;</td>
+<td align=3D"left"><table role=3D"presentation" cellspacing=3D"0" cellpaddi=
+ng=3D"0" border=3D"0" align=3D"left">
+<tbody><tr>
+<td style=3D"font-family:Verdana, Geneva, sans-serif; font-size:12px; color=
+:#3D62AC;" align=3D"left"><a href=3D"http://connect.wellsfargoemail.com/a/h=
+Be86nAB8IXCZB91w4GNxAOsUg4/bnavhome" style=3D"font-family:Verdana, Geneva, =
+sans-serif; font-size:12px; color:#3D62AC;text-decoration: underline;">Home=
+/Sign&nbsp;On</a></td>
+<td width=3D"15">&nbsp;</td>
+<td width=3D"1" bgcolor=3D"#777777"><img style=3D"display:block;" alt=3D"" =
+title=3D"" src=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/spac=
+er.gif" width=3D"1" height=3D"20" border=3D"0"></td>
+<td width=3D"15">&nbsp;</td>
+<td style=3D"font-family:Verdana, Geneva, sans-serif; font-size:12px; color=
+:#3D62AC;" align=3D"center"><a href=3D"http://connect.wellsfargoemail.com/a=
+/hBe86nAB8IXCZB91w4GNxAOsUg4/bnavcont" style=3D"font-family:Verdana,Geneva,=
+sans-serif; font-size:12px; color:#3D62AC;text-decoration: underline;">Cont=
+act&nbsp;Us</a></td>
+<td width=3D"15">&nbsp;</td>
+<td width=3D"1" bgcolor=3D"#777777"><img style=3D"display:block;" alt=3D"" =
+title=3D"" src=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/spac=
+er.gif" width=3D"1" height=3D"20" border=3D"0"></td>
+<td width=3D"15">&nbsp;</td>
+<td style=3D"font-family:Verdana, Geneva, sans-serif; font-size:12px; color=
+:#3D62AC;" align=3D"center"><a href=3D"http://connect.wellsfargoemail.com/a=
+/hBe86nAB8IXCZB91w4GNxAOsUg4/bnavemail" style=3D"font-family:Verdana,Geneva=
+,sans-serif; font-size:12px; color:#3D62AC;text-decoration: underline;">Upd=
+ate&nbsp;Email&nbsp;Address</a></td>
+</tr>
+</tbody></table></td>
+<td width=3D"16">&nbsp;</td>
+</tr>
+</tbody></table>
+      <table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                        <tbody><tr>
+                          <td width=3D"20" height=3D"20" style=3D"line-heig=
+ht:0px; font-size:0px;"><img style=3D"display:block;" alt=3D"" title=3D"" s=
+rc=3D"https://f.connect.wellsfargoemail.com/i/38/2082566297/spacer.gif" bor=
+der=3D"0" height=3D"20" width=3D"30"></td>
+                        </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+              </tbody></table></td>
+    </tr>
+=20=20
+</tbody></table>
+      <!--[if !mso]><!-->
+      <div style=3D" width:0px;display:none; max-height:0px;=20
+overflow:hidden;" class=3D"showmobile">
+        <table role=3D"presentation" width=3D"320" align=3D"center" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"showmobile" style=3D" d=
+isplay:none; margin:0 auto; border:0;" bgcolor=3D"#E0E3E2">
+=20=20=20=20=20=20=20=20=20=20
+            <tbody><tr>
+              <td>
+              <table role=3D"presentation" width=3D"320" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" class=3D"showmobile" style=3D"display:none; =
+margin:0 auto; border:0;">
+=20=20
+    <tbody><tr>
+      <td width=3D"320" height=3D"20" style=3D"line-height:0px; font-size:0=
+px;"> </td>
+    </tr>
+=20=20
+</tbody></table>
+                <table role=3D"presentation" width=3D"320" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" class=3D"showmobile" style=3D" display:non=
+e; margin:0 auto;=20
+border:0;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                    <tbody><tr>
+                      <td width=3D"16">&nbsp;</td>
+                      <td width=3D"136" valign=3D"top" align=3D"left">
+                      <table role=3D"presentation" width=3D"136" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" class=3D"showmobile136" style=3D" di=
+splay:none; margin:0 auto; border:0;">
+=20=20
+    <tbody><tr>
+      <td align=3D"left"><a href=3D"http://connect.wellsfargoemail.com/a/hB=
+e86nAB8IXCZB91w4GNxAOsUg4/bnavhome" style=3D"font-family:Verdana, Geneva,sa=
+ns-serif; font-size:12px; color:#3D62AC;text-decoration: underline;">Home/S=
+ign On</a></td>
+    </tr>
+=20=20
+</tbody></table>
+                        <table role=3D"presentation" class=3D"showmobile136=
+" style=3D" display:none; margin:0 auto; border:0;" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"136">
+=20=20
+    <tbody><tr>
+      <td height=3D"15" style=3D"line-height:0px; font-size:0px;"> </td>
+    </tr>
+=20=20
+</tbody></table>
+                        </td>
+                      <td width=3D"16">&nbsp;</td>
+                      <td width=3D"136" valign=3D"top" align=3D"left">
+                      <table role=3D"presentation" width=3D"136" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" class=3D"showmobile136" style=3D" di=
+splay:none; margin:0 auto; border:0;">
+=20=20
+    <tbody><tr>
+      <td align=3D"left"><a href=3D"http://connect.wellsfargoemail.com/a/hB=
+e86nAB8IXCZB91w4GNxAOsUg4/bnavcont" style=3D"font-family:Verdana,Geneva,san=
+s-serif; font-size:12px; color:#3D62AC;text-decoration: underline;">Contact=
+ Us</a></td>
+    </tr>
+=20=20
+</tbody></table>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+
+                      </td>
+                      <td width=3D"16">&nbsp;</td>
+                    </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                </tbody></table>
+                <table role=3D"presentation" width=3D"320" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" class=3D"showmobile" style=3D" display:non=
+e; margin:0 auto; border:0;">
+=20=20
+    <tbody><tr>
+      <td width=3D"320" height=3D"20" style=3D"line-height:0px; font-size:0=
+px;"> </td>
+    </tr>
+=20=20
+</tbody></table>
+</td>
+            </tr>
+=20=20=20=20=20=20=20=20=20=20
+        </tbody></table>
+      </div>
+       <!--<![endif]-->
+
+<table role=3D"presentation" width=3D"640" align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#E0E3E2" class=3D"contenttable=
+">
+<tbody>
+<tr>
+<td width=3D"16">&nbsp;</td>
+<td bgcolor=3D"#E0E3E2" align=3D"left" valign=3D"top"><table role=3D"presen=
+tation" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td height=3D"1" bgcolor=3D"#6D6D6D" style=3D"line-height:0px; font-size:0p=
+x;"><img style=3D"display:block;" alt=3D"" title=3D"" border=3D"0" src=3D"h=
+ttp://f.connect.wellsfargoemail.com/i/38/2082566297/spacer.gif" width=3D"16=
+" height=3D"1"></td>
+</tr>
+</tbody>
+</table>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody>
+<tr>
+<td height=3D"1" bgcolor=3D"#F3F3F3" style=3D"line-height:0px; font-size:0p=
+x;"><img style=3D"display:block;" alt=3D"" title=3D"" border=3D"0" src=3D"h=
+ttp://f.connect.wellsfargoemail.com/i/38/2082566297/spacer.gif" width=3D"16=
+" height=3D"1"></td>
+</tr>
+</tbody>
+</table>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody>
+<tr>
+<td width=3D"20" height=3D"20" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"20" wid=
+th=3D"30"></td>
+</tr>
+</tbody>
+</table>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+<tbody>
+<tr>
+<td align=3D"left" style=3D"font-family:'Verdana', Trebuchet MS, sans-serif=
+; font-size:12px; mso-ansi-font-size:12px; line-height:16px; mso-line-heigh=
+t-rule:exactly;mso-text-raise: 2px; color:#53535a;"><font style=3D"font-fam=
+ily:'Verdana', Trebuchet MS, sans-serif; font-size:12px; mso-ansi-font-size=
+:12px; line-height:16px; mso-line-height-rule:exactly;mso-text-raise: 2px; =
+color:#53535a;"><a href=3D"http://connect.wellsfargoemail.com/a/hBe86nAB8IX=
+CZB91w4GNxAOsUg4/privacy" style=3D"font-family:Verdana, Geneva, sans-serif;=
+ font-size:12px; line-height:15px; color:#3D62AC;
+font-style:normal; font-weight:normal; text-decoration:underline;">Privacy =
+Policy</a> | <a href=3D"http://connect.wellsfargoemail.com/a/hBe86nAB8IXCZB=
+91w4GNxAOsUg4/fraud"
+style=3D"font-family:Verdana, Geneva, sans-serif; font-size:12px; line-heig=
+ht:15px; color:#3D62AC; font-style:normal; font-weight:normal;
+text-decoration:underline;">Protect yourself from fraud</a> <br />
+<br />
+This is a promotional email. <a href=3D"http://connect.wellsfargoemail.com/=
+a/hBe86nAB8IXCZB91w4GNxAOsUg4/unsub?EMAIL=3Dleebridges@gmail.com&C2T_MCELL=
+=3D2020061721107054&OA_C_SOURCE_CAMPAIGN=3D2005PRCCD15&C2T_DATA28=3D" style=
+=3D"font-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:15=
+px; color:#3D62AC; font-style:normal; font-weight:normal; text-decoration:u=
+nderline;">Unsubscribe</a> from future Wells <span class=3D"appleLinksF">Fa=
+rgo</span> promotional emails.<br />
+<br />
+<h3 style=3D"font-family:Verdana, Geneva, sans-serif; font-size:12px;mso-an=
+si-font-size:12px; line-height:15px; mso-line-height-rule:exactly; mso-text=
+-raise: 1px; color:#53535a; padding:0px; margin:0px;">Contact us:</h3>
+If you have questions, please do not reply to this message.
+<br />
+<em>Wells <span class=3D"appleLinksF">Fargo</span> Online</em><sup style=3D=
+"font-size:12px; line-height:0">&reg;</sup> customers, <a href=3D"http://co=
+nnect.wellsfargoemail.com/a/hBe86nAB8IXCZB91w4GNxAOsUg4/singon" style=3D"fo=
+nt-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:15px; co=
+lor:#3D62AC; font-style:normal; font-weight:normal; text-decoration:underli=
+ne;">sign on</a> and select <strong>Contact Us</strong>.
+<br />
+If you are not a <em>Wells <span class=3D"appleLinksF">Fargo</span> Online<=
+/em> customer, view our <a href=3D"http://connect.wellsfargoemail.com/a/hBe=
+86nAB8IXCZB91w4GNxAOsUg4/contact" style=3D"font-family:Verdana, Geneva,
+sans-serif; font-size:12px; line-height:15px; color:#3D62AC; font-style:nor=
+mal; font-weight:normal; text-decoration:underline;">contact
+information</a>.<br />
+<br />
+Please direct all written correspondence to:
+<br />
+Wells <span class=3D"appleLinksF">Fargo Online Customer Service: P.O. Box 4=
+132, Concord, CA 94524, MAC #A0314-032</span><br />
+<br />
+Online Customer Service Code: 2005PRCCD15 <br />
+<br />
+Wells <span class=3D"appleLinksF">Fargo &amp; Company Headquarters: 420 Mon=
+tgomery St., San Francisco, CA 94104</span><br />
+<br />
+&copy; 2020 Wells <span class=3D"appleLinksF">Fargo</span> Bank, N.A. All r=
+ights reserved.
+
+NMLSR ID 399801 <img style=3D"display:inline-block;" alt=3D"Equal Housing L=
+ender icon" src=3D"http://f.connect.wellsfargoemail.com/i/38/2082566297/220=
+571_housing.JPG" border=3D"0" height=3D"12" width=3D"20"> Equal Housing Len=
+der</font></td>
+</tr>
+</tbody>
+</table>
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"100%">
+<tbody>
+<tr>
+<td width=3D"20" height=3D"20" style=3D"line-height:0px; font-size:0px;"><i=
+mg style=3D"display:block;" alt=3D"" title=3D"" src=3D"http://f.connect.wel=
+lsfargoemail.com/i/38/2082566297/spacer.gif" border=3D"0" height=3D"20" wid=
+th=3D"30"></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+
+<!--Starts Gmail App fix 2 -->
+
+<div style=3D"display:none; white-space:nowrap; font:14px courier; color:#f=
+fffff;"> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =
+</div>
+
+<!--Ends Gmail App fix 2 -->
+</td></tr></tbody></table>
+</body>
+</html>
+
+
+--=b4mbt4ybfp5162auhpsteqq8m7spxy--
+

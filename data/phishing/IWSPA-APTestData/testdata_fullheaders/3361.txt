@@ -1,0 +1,92 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 5 Feb 2015 06:01:34 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s15E1X1L007186	for <steven_o'user@domain.com>; Wed, 5 Feb 2015 
+ 14:01:34 GMT
+Received: from mail185-va3-domain.com (mail-domain.com
+ [216.32.180.116])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s15E1Xa8024996
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <steven_o'user@domain.com>; Wed, 5 Feb 2015 14:01:33 GMT
+Received: from mail185-va3 (localhost [127.0.0.1])	by
+ mail185-va3-domain.com (Postfix) with ESMTP id 394C61000D6	for
+ <steven_o'user@domain.com>; Wed,  5 Feb 2015 14:01:33 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.48;KIP:(null);UIP:(null);IPV:NLI;H:mx-filmexpo-domain.com;RD:mx-filmexpo-domain.com;EFVD:NLI
+X-SpamScore: 4
+X-BigFish: vps4(zzc89bhdc44he0eahc857h77f5h15c7mdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah199bM1fc6hzz1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h164c38jz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail185-va3: domain of domain.com designates 192.64.236.48 as permitted sender) client-ip=192.64.236.48; user@domain.com; helo=mx-filmexpo-domain.com ;domain.com ;
+Received: from mail185-va3 (localhost.localdomain [127.0.0.1]) by mail185-va3
+ (MessageSwitch) id 1391608890959671_16269; Wed,  5 Feb 2015 14:01:30 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.225])	by
+ mail185-domain.com (Postfix) with ESMTP id E1C0018004C	for
+ <steven_o'user@domain.com>; Wed,  5 Feb 2015 14:01:30 +0000 (UTC)
+Received: from mx-filmexpo-domain.com (192.64.236.48) by
+ domain.com (10.7.99.26) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 5 Feb 2015 14:01:30 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1391608877;
+	s=sailthru; d=e.filmexpos.com;
+	h=Date:From: Film Journal International <email@e.filmexpos.com>
+	bh=yyHPnIu7XE5PVj6xrtd0u9RNibhTpmILTh139FPcuY0=;
+	b=Sd4V0qa48HGmOxjRysGtZuOVrmP8Iq5V+Ks24SwLXZuhdpRRxlK8hBtYVjfTrU9W
+	wF2cjvgC9DA2vXE4wj73ZonhMqZuEMC+ifH+t6BgO2W3cl8E6586ju/VuZl8uS4PciB
+	qk8S5V4BxYB4e/93pP5+jQYxR9oyRZqJYvFjpakE
+Date: Wed, 5 Feb 2015 09:01:17 -0500
+From: Film Journal International <email@e.filmexpos.com>
+To: <steven_o'user@domain.com>
+Message-ID: <20140205140117.2391582.2237@domain.com>
+Subject: Enjoy a Free FJI Digital Subscription
+Precedence: bulk
+X-TM-ID: 20140205140117.2391582.2237
+X-Info: Message sent by domain.com customer Film Expo
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.48
+X-IADB-IP-REVERSE: 48.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stggp2391582
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-259075974_-_-"
+
+Enjoy a Free FJI Digital Subscription
+
+If you are unable to see the message below, click here to view. Please add user@domain.com to your address book to ensure delivery to your inbox. 
+
+ ShowEast banner
+
+
+
+Dear Steven,
+
+As a valued professional of the worldwide motion picture industry, you have been selected to receive a FREE Film Journal International digital subscription delivered to your inbox every month.
+
+For 80 years, Film Journal International has been one of the most authoritative voices of the motion picture industry. FJI is a trade publication that covers the entire motion picture industry, including theatrical exhibition, production, distribution, equipment, concessions, and other allied activities.
+
+Articles report worldwide news on:
+
+ dot    Films currently in production and about to be released
+ transp 
+
+ dot    Industry trends
+ transp 
+
+ dot    The latest technologies and concessions
+ transp 
+
+ dot    Interviews with industry insiders
+ transp 
+
+ dot    Previews of major theatre industry conventions
+ transp 
+
+And a Buying and Booking Guide with comprehensive feature film reviews as well as many specia
+

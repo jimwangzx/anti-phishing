@@ -1,0 +1,55 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1500913lfr;
+        Sun, 23 Aug 2015 18:10:47 -0700 (PDT)
+X-Received: by 10.129.48.86 with SMTP id w83mr26510579yww.31.1440378646938;
+        Sun, 23 Aug 2015 18:10:46 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [209.85.160.175])
+        by domain.com with ESMTPS id v68si9379713ywa.20.2015.08.23.18.10.46
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 23 Aug 2015 18:10:46 -0700 (PDT)
+Received-SPF: neutral (domain.com: 209.85.160.175 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=209.85.160.175;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 209.85.160.175 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by mail-yk0-domain.com with SMTP id l84so119959513ykl.0
+        for <user@domain.com>; Sun, 23 Aug 2015 18:10:46 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:content-type:mime-version:subject:from
+         :in-reply-to:date:cc:message-id:references:to;
+        bh=r0SphlF8sQszYOjNxVtAe9kH5aZiudHGxM0IDLnV6Lw=;
+        b=RouH1hMl4MaJ4aS3sPNPSnkCNF4E4IJmEsBzQNxqa3sI94QwAGPcvrlh9FDgfIT/mD
+         Z3bBt/suX90DXLkL3+RxffOGPGEDNPFwhvlwE/1K+NpDttm86Uav69pzR7sndEE1cbQM
+         ajWQ/aa5v9/+c9lPHqe9vMQyQAi/1muhbLhoTEL+CpexvarR45+WSWtCniMSprJnZHtT
+         tbD2qZcTVg33qpHfx/MadA15mHdeMQel+W+zfb5k6GkYGLupl3juVRC6+vzjULLoH2VV
+         IOTpmZ2pZpULNjOSIXajiAMEbmDZQyzn7uzYSwp9KHl7dYqOxBx/dv+Vve/x00BXnb+Q
+         znsw
+X-Gm-Message-State: ALoCoQlxBdLSA3tKq7Y21ixyBt3pgRUhUDfVa/bX4J7IB5XrIfL/Okn/Xa+KSya4BOouO6tSNZHU
+X-Received: by 10.129.51.14 with SMTP id z14mr27614742ywz.65.1440378646244;
+        Sun, 23 Aug 2015 18:10:46 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [192.168.1.128] (68-112-255-141.domain.com. [68.112.255.141])
+        by domain.com with ESMTPSA id h144sm15814262ywc.2.2015.08.23.18.10.45
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 23 Aug 2015 18:10:45 -0700 (PDT)
+Content-Type: multipart/alternative; boundary="Apple-Mail=_E9865ABE-9626-4B7C-A2F9-6AE114AC3934"
+Mime-Version: 1.0 (Mac OS X Mail 8.2 \(2098\))
+Subject: Re: user James Op-Ed
+From: Meredith DeWitt <meredith@meredithjdewitt.com>
+In-Reply-To: <user@domain.com>
+Date: Sun, 23 Aug 2015 21:10:45 -0400
+CC: Neera Tanden <user@domain.com>
+Message-Id: <41user@domain.com>
+References: <2user@domain.com> <user@domain.com> <user@domain.com>
+To: John user <user@domain.com>
+X-Mailer: Apple Mail (2.2098)
+
+Will do.  Thanks for replying. 
+
+|  D E W I T T 
+C O N S U L T I N G
+
+Office 978.456.6931 <tel:978.456.6931>
+meredithjdewitt.com <<<link>>>
+

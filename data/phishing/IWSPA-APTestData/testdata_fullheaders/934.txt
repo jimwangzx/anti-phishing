@@ -1,0 +1,45 @@
+Delivered-To: user@domain.com
+Received: by 10.229.248.208 with SMTP id mh16cs10208qcb;
+        Fri, 20 Aug 2015 01:25:47 -0700 (PDT)
+Received: by 10.229.184.14 with SMTP id ci14mr797906qcb.124.1282292746069;
+        Fri, 20 Aug 2015 01:25:46 -0700 (PDT)
+Return-Path: <1508821346-1188760-user@domain.com>
+Received: from domain.com (domain.com [69.174.83.187])
+        by domain.com with ESMTP id s11si4542489qcp.203.2010.08.20.01.25.45;
+        Fri, 20 Aug 2015 01:25:46 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 1508821346-1188760-user@domain.com designates 69.174.83.187 as permitted sender) client-ip=69.174.83.187;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of 1508821346-1188760-user@domain.com designates 69.174.83.187 as permitted sender) user@domain.com
+Return-Path: <1508821346-1188760-user@domain.com>
+Received: from [10.174.82.81] ([10.174.82.81:48825] helo=domain.com)
+	by domain.com (envelope-from <1508821346-1188760-user@domain.com>)
+	(ecelerity 3.0.24.37616 r(37619)) with ESMTP
+	id B0/8A-29447-00C3E6C4; Fri, 20 Aug 2015 04:25:36 -0400
+Message-ID: <1508821346.1258096763@domain.com>
+Date: Fri, 20 Aug 2015 04:27:19 -0400 (EDT)
+From: John DeCock - Clean Water Action <activist@cleanwater.org>
+Reply-To: user@domain.com
+To: user@domain.com
+Subject: Lessons Learned?
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3404516_723396768.1282292839857"
+Envelope-From: John DeCock - Clean Water Action <activist@cleanwater.org>
+X_email_KEY: 1508821346
+X-campaignid: salsaorg2155-1188760
+
+----------------------
+Tell a Friend
+Do you know someone who might be interested in learning about our work? <<<link>>>Tell them!
+
+Unsubscribe
+You are receiving this message because you or someone using your e-mail address, user@domain.com, gave us permission to send it.
+
+Not interested anymore? <<<link>>>unsubscribe in one step.
+
+Contact Us
+National Office
+1010 Vermont Ave NW, Ste. 1100
+Washington, DC 20005-4918
+Tel: 202-895-0420
+Fax: 202-895-0438
+<mailto:user@domain.com>e-mail us

@@ -1,0 +1,130 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 3 Apr 2015 09:12:50 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s33GCknZ015170	for <user@domain.com>; Thu, 3 Apr 2015 
+ 16:12:46 GMT
+Received: from mail53-tx2-domain.com (mail-domain.com [65.55.88.117])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s33GE8jZ008553	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 3 Apr 2015 16:14:09 GMT
+Received: from mail53-tx2 (localhost [127.0.0.1])	by mail53-tx2-domain.com
+ (Postfix) with ESMTP id 0DBA41E026B	for <user@domain.com>; Thu,  3
+ Apr 2015 16:12:43 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:84.40.11.45;KIP:(null);UIP:(null);IPV:NLI;H:mail.generatormail.com;RD:domain.com;EFVD:NLI
+X-SpamScore: -7
+X-BigFish: vps-7(z579ehzc85fh1dbaIfafJecbIbf3Wbf2I8aaanzz1f42h2148h1ee6h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1fc6h208ch1082kzz1de098h1def03h177df4h17326ah8275bh1bc7b9h1de097h186068h18602eh1ce121iz2fh95h839h947hc61hd24h119dh1288h12a5h12bdh137ah13eah1441h14ddh1504h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1b2fh1bceh224fh1fb3h1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h99di22eai2673i41h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail53-tx2: domain of generatormail.com designates 84.40.11.45 as permitted sender) client-ip=84.40.11.45; user@domain.com; helo=mail.generatormail.com ;domain.com ;
+Received: from mail53-tx2 (localhost.localdomain [127.0.0.1]) by mail53-tx2
+ (MessageSwitch) id 1396541560643617_26401; Thu,  3 Apr 2015 16:12:40 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.240])	by
+ mail53-domain.com (Postfix) with ESMTP id 86612440046	for
+ <user@domain.com>; Thu,  3 Apr 2015 16:12:40 +0000 (UTC)
+Received: from mail.generatormail.com (84.40.11.45) by
+ domain.com (10.9.99.115) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 3 Apr 2015 16:12:39 +0000
+Received: from mail2.generatormail.com
+ (static.164.41.76.144.clients.your-server.de [144.76.41.164])	by
+ mail.generatormail.com (Postfix) with ESMTPA id D521042804D	for
+ <user@domain.com>; Thu,  3 Apr 2015 17:11:26 +0100 (BST)
+Received: from mail.generatormail.com (domain.com
+ [84.40.11.45])	by mail2.generatormail.com (Postfix) with ESMTPSA id
+ D0E881E801C0	for <user@domain.com>; Thu,  3 Apr 2015 17:11:25 +0100
+ (BST)
+Subject: RE: I'd value your feedback on a new technology news service we're working
+ on...
+From: Andrew Sheehy <aps@generatormail.com>
+To: <user@domain.com>
+Date: Thu, 3 Apr 2015 17:11:26 +0100
+Message-ID: <3382user@domain.com>
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+RE: I'd value your feedback on a new technology news service we're working on...
+
+Hello again,
+
+Have you had time to look at GenNews yet?
+
+This is a prototype technology news service we've developed and which we are hoping to launch later this year.
+
+I appreciate that you're busy and that surveys like this are never a priority, but if you are an active user of technology news services then you'll find this interesting - and I'd really value your feedback.
+
+Could you spare 10mins or so to take a look? If so then here's a link to the micro site:
+
+GenNews Prototype
+
+Best regards,
+Andrew
+
+  _____  
+
+From: Andrew Sheehy <aps@generatormail.com>
+Sent: 26 March 2015 15:23
+To: 'user@domain.com'
+Subject: I'd value your feedback on a new technology news service we're working on... 
+
+
+
+
+Hi,
+
+We're planning to launch a free technology news service later in 2014, and I'd like to know what you think of a functional prototype we've developed...
+
+The project name for this new service is GenNews.
+
+GenNews is a free news service covering the global technology industry that aggregates news content from 1,500 sources, 30 countries and 80 technology markets.
+
+Compared with other technology news services, GenNews offers 9 benefits:
+
+Create personalised news channels: create customised news channels by choosing from 80 tech markets, 30 countries and 1,500 sources;
+
+Global news coverage: find out about developments in the countries that are important to you;
+
+Translation into English: local news content is translated into English;
+
+Save important news: save time and increase efficiency by copying important news to your news clipboard;
+
+Advanced search: filter searches by choosing the date, countries, markets and sources;
+
+Read related research for free: Related data, company profiles and forecasts are attached to news items;
+
+Original news content only: avoid low value-added, derivative news content - GenNews only contains source press releases;
+
+No intrusive ads: avoid ads that degrade your reading experience.
+
+Read important news rarely found elsewhere: GenNews carries items you're unlikely to find on other tech news services.
+
+Click here to try a prototype of GenNews...
+
+BUT - before you dive in, please remember to complete the feedback form which is visible at the top of each page. If you complete the feedback form then I'll email you with the results of the survey.
+
+If the overall feedback is good enough, we'll develop GenNews into a commercial service which will be launched later in 2014.
+
+Thanks for your interest.
+
+Andrew Sheehy
+Chief Analyst
+--------------------------------
+Generator Research, Ltd.
+Petitor House
+Nicholson Road
+Torquay, TQ2 7TD
+United Kingdom
+--------------------------------
++44 (0)208 144 7073 (Direct)
++44 (0)7866 387 715 (Cell)
++44 (0)208 711 3065 (Fax)
+aaapps (Skype)
+domain.com
+
+
+
+Twitter:     
+

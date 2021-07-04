@@ -1,0 +1,205 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.207 with SMTP id r198csp1106635lfr;
+        Sun, 20 Sep 2015 06:09:33 -0700 (PDT)
+X-Received: by 10.140.39.168 with SMTP id v37mr16949299qgv.24.1442754572999;
+        Sun, 20 Sep 2015 06:09:32 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from outbound.na.e.paypal.com (outbound.na.e.paypal.com. [96.47.30.212])
+        by domain.com with ESMTPS id o66si17023353qki.32.2015.09.20.06.09.31
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 20 Sep 2015 06:09:32 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 96.47.30.212 as permitted sender) client-ip=96.47.30.212;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 96.47.30.212 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=domain.com
+Return-Path: <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=e.paypal.com; s=ED-DKIM-V3; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1442754566;
+	h=From: "PayPal" <paypal@e.paypal.com>
+	bh=6sE9BIYhzT11SVu9Awz/IpVgwdI=;
+	b=J+syjRxWCd28EQWl9IuDD4zpNL/EuqK3TcOd9B1PqzSD04ckCpWHyuKXJgfoRqpe
+	1Ixs3vfbUlWyd2S358VaXVdE4Spv77JDAymQedc/oEM2MlgNE05j4xc6sqgHgC/l
+	HrYjP/2qLCwif7DKyyEwgrF9YFAFmLFZ6ZQ+hVYtx+s=;
+X-MSFBL: am9obi5wb2Rlc3RhQGdtYWlsLmNvbUBuYS5lLnBheXBhbC5jb21fMUBkZWZhdWx0
+	QA
+Received: from [127.0.0.1] ([127.0.0.1:57614])
+	by bm11-01.bo3.e-domain.com (envelope-from <user@domain.com>)
+	(ecelerity 3.6.4.44580 r(Platform:3.6.4.1)) with ECSTREAM
+	id BC/17-41845-600BEF55; Sun, 20 Sep 2015 09:09:26 -0400
+Date: Sun, 20 Sep 2015 09:09:26 -0400
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+From: "PayPal" <paypal@e.paypal.com>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: Register to earn your $15 reward
+Message-Id: <8752-113-user@domain.com>
+X-Mail-From: "PayPal" <paypal@e.paypal.com>
+X-Match: na.e.paypal.com
+X-RCPT-To: user@domain.com
+X-Mailer: EDMAIL R6.00.02
+
+
+
+
+	PayPal  
+
+	table th { margin:0 !important; padding:0 !important; vertical-align:top !important;}
+	body{ padding:0; margin:0; }
+	html { -domain.com-text-size-adjust:none; -ms-text-size-adjust:none; -moz-text-size-adjust:none;  }
+	v\:* { behavior: url(#default#VML); display:block;}
+    .ExternalClass * { line-height: 100%; }
+	@-ms-viewport{ width: device-width; }
+	@media screen and (max-width: 480px){
+
+
+
+	/* generals */ 
+	.flagship_address a { color:#009eda; text-decoration:none; }
+	.flagship_addresswhite a { color:#ffffff; text-decoration:none; }
+	*[class].marginfix { top: 0; left: 0; right: 0; bottom:0 }
+	*[class].hide { display:none !important; }
+	*[class].block { display:block !important; }
+	*[class].aligncenter { text-align:center !important; }
+	*[class].alignright { text-align:right !important; }
+	*[class].alignleft { text-align:left !important; }
+	*[class].valignbottom { vertical-align:bottom !important; }
+	*[class].valigncenter { vertical-align:middle !important; }
+	*[class].valigntop { vertical-align:top !important; }
+	*[class].header { display: table-header-group !important; padding: 0 !important; margin:0 !important;}
+    *[class].footer { display: table-footer-group !important; }
+	*[class].posr { position:relative !important; }
+	*[class].posa { position:absolute !important; }
+	*[class].floatleft { float:left !important;	}
+	*[class].floatright { float:right !important; }	
+	*[class].clear{ clear:both !important; }
+	*[class].hauto{ height:auto !important; }
+	*[class].wauto{ width:auto !important; }
+	*[class].margina{ margin:auto !important; }
+	*[class].width310{ width:310px !important; }
+	*[class].width318{ width:318px !important; }
+	*[class].width320{ width:320px !important; }
+	*[class].visible{ visibility:visible !important; }
+	*[class].bgnone{ background:none !important; }
+	*[class].show {display: block !important; width: auto !important; overflow: visible !important; float: none !important; max-height: domain.com !important; line-height: domain.com !important;}
+	*[class].text1:before{content:"*Terms " !important;}
+
+
+
+	/* Hero */	
+	*[class].top0{ top:0px !important; }
+	*[class].top108{ top:108px !important; }
+
+
+
+	*[class].width10{ width:10px !important; }
+	*[class].width19{ width:19px !important; }
+	*[class].width20{ width:20px !important; }
+	*[class].width78{ width:78px !important; }
+	*[class].width242{ width:242px !important; }
+	*[class].width270{ width:270px !important; }
+	*[class].width280{ width:280px !important; }
+	*[class].width300{ width:300px !important; }
+	*[class].width301{ width:301px !important; }
+
+
+
+	*[class].height1{ height:1px !important; }
+	*[class].height10{ height:10px !important; }
+	*[class].height11{ height:11px !important; }
+	*[class].height12{ height:12px !important; }
+	*[class].height13{ height:13px !important; }
+	*[class].height14{ height:14px !important; }
+	*[class].height15{ height:15px !important; }
+	*[class].height16{ height:16px !important; }
+	*[class].height17{ height:17px !important; }
+	*[class].height18{ height:18px !important; }
+	*[class].height20{ height:20px !important; }
+	*[class].height22{ height:22px !important; }
+	*[class].height29{ height:29px !important; }
+	*[class].height30{ height:30px !important; }
+	*[class].height45{ height:45px !important; }
+	*[class].height280{ height:281px !important; }
+
+
+
+	*[class].paddingl19{ padding-left:19px !important; }
+	*[class].paddingl10{ padding-left:10px !important; }
+	*[class].paddingr10{ padding-right:10px !important; }
+	*[class].paddingr18{ padding-right:18px !important; }
+	*[class].paddingl18{ padding-left:18px !important; }
+
+
+
+	*[class].font10{ font-size:10px !important; }
+	*[class].font11{ font-size:11px !important; }
+	*[class].font13{ font-size:13px !important; }
+	*[class].font21{ font-size:21px !important; }
+	*[class].lh12{ line-height:12px !important; }
+	*[class].lh18{ line-height:18px !important; }
+	*[class].lh29{ line-height:29px !important; }
+
+
+
+	*[class].bgffffff{ background-color:#ffffff !important; }
+	*[class].bge3e3e3{ background-color:#e3e3e3 !important; }
+
+
+
+}
+
+
+
+            	John user – Don't forget! Register by 10/15/15
+            	View online
+
+
+
+        Spend $150 or more between 9/15/15 and 10/15/15 with PayPal to earn a $15 reward. See Terms.
+
+
+
+                        Learn More & Register
+
+
+
+				Spend money. Not time.
+
+
+
+				Checking out with PayPal is more than just rewarding—it's simple and safer. Just an email and password will get you through checkout before you can reach for your wallet.
+
+
+
+    Account    Help    Fees    Security    Apps    Shop
+
+
+
+                Terms & Conditions
+				PayPal members who sign up for the September Rewards promotion and complete purchases totaling $150 USD or more (excluding taxes and shipping) using PayPal to pay ("Offer") between September 15, 2015 and October 15, 2015 at 11:59:59PM PDT can receive a $15 reward off their next purchase.  Offer begins September 15, 2015 and ends October 15, 2015.   Offer limited to one per U.S. PayPal account. 
+				In order to receive this Offer you must: a) have a U.S. PayPal account in good standing, b) receive an email from PayPal inviting you to participate in the Offer, c) register for the Offer on the landing page provided in the email, no later than October 15, 2015 at 11:59:59PM PDT,  d) complete an online purchase(s) totaling $150 USD or more, using your PayPal account as the sole payment method during the promotional period, but no later than October 15, 2015 at 11:59:59PM PDT, and e)  
+PayPal members who sign up for the Offer and complete the minimum $150 in total purchases, will receive an email from PayPal no later than October 30, 2015 advising that the $15 off reward is available for use with their PayPal account.  The $15 off reward will be automatically applied to your next purchase until the expiration date, at checkout anywhere PayPal is accepted. 
+
+
+
+				Excluded transactions from the Offer include but are not limited to the following: gift certificate payments, purchases of gift cards, send money transactions, and PayPal Extras MasterCard/eBay MasterCard payments not made through your PayPal account.   Offer valid in the continental U.S. and cannot be transferred or combined with any other promotion code, coupon, Offer or discount and may not be redeemed for cash.  Reward cannot be withdrawn from your PayPal account.
+
+
+
+				PayPal reserves the right to cancel, suspend or modify the Offer in part or in its entirety at any time without notice, for any reason in their sole discretion. 
+
+
+
+This email was sent to user@domain.com, because your email preferences are set to receive "News and Promotions". Click here to Unsubscribe.
+
+Please do not reply to this email. We are unable to respond to inquiries sent to this address. For immediate answers to your questions, domain.com our Help Center by clicking "Help" located on any PayPal page or email.
+
+Copyright © 2015 PayPal, Inc. All rights reserved. PayPal is located at 2015 N. First St., San Jose, CA 95131.
+
+NA03347
+
+
+

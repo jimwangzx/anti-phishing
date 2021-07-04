@@ -1,0 +1,111 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp1449713lfy;
+        Sun, 10 Jan 2015 06:43:47 -0800 (PST)
+X-Received: by 10.31.50.213 with SMTP id y204mr64722157vky.109.1452437027327;
+        Sun, 10 Jan 2015 06:43:47 -0800 (PST)
+Return-Path: <3user@domain.com>
+Received: from mail-vk0-domain.com (mail-vk0-domain.com. [2607:f8b0:400c:c05::249])
+        by domain.com with ESMTPS id y2si10466821vky.74.2016.01.10.06.43.47
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 10 Jan 2015 06:43:47 -0800 (PST)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400c:c05::249 as permitted sender) client-ip=2607:f8b0:400c:c05::249;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400c:c05::249 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-vk0-domain.com with SMTP id k1so32740790vkb.0
+        for <user@domain.com>; Sun, 10 Jan 2015 06:43:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: commsadmin@hillaryclinton.com
+        bh=cbgP+RgZW1KUj8i8AeDQluQwIV9MbD1yqPulNUWSUV8=;
+        b=oJaBXi1mEGKL968rEA2R/MyY75hDvkDXUjvLl5sb8b3NQRbEAGW9QLMqxit1ceYPFc
+         fx1GydU5xPYf/OawIyPtR7nVhhcazX2U3aYp3bIGdZ0YqBC5a5h10O4H85NJlbR5PMQ/
+         ewxh5QKKUaRhEwvKGCecrWnau8XoTyJsTl38yShicwr0v8SFrbju4/m5y64xhn9OuVi0
+         HssY85unQg0aFJ6nt5eZNTTG+i6s9QaIKDcgpvwLabQemidoQMAT0xSLG4yzczu++qPi
+         uv6QRjkfkQ7hzaBTrtruPqlCgSeV2NI1L09dcCfWbd2G1Ej1OcxYLoyuTzgnocj34u3a
+         iUeg
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: commsadmin@hillaryclinton.com
+        bh=cbgP+RgZW1KUj8i8AeDQluQwIV9MbD1yqPulNUWSUV8=;
+        b=ULQHgR7rOAn+A7ByJJ8E1UEuoA/Cav+VIf5kXxRrPNTdQl+EF2t+CwibW/lQhmYUHO
+         xIxDuq3/H0fTFIkvPMheFBErKClBpLcdyMgfPEds6jjp2MkSAt04o7t9RdVWj/G4RclU
+         P9b/B41mhqpN+7OqA2Uw6vlLtEzQeGtRyN7qk
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: commsadmin@hillaryclinton.com
+        bh=cbgP+RgZW1KUj8i8AeDQluQwIV9MbD1yqPulNUWSUV8=;
+        b=F3ukQjMSCMBiOqJha09hNToJoJQwsiQChv6kjssxw/y7gA12KJz24NMq3PY7R3U4E2
+         Lix1+zYaClhm4AhMTam7uj6mBzvhR38zMjC3Q8bDjjyfrwNIK/w6nNWv1DKNt/H22eqs
+         c1fxbeq/WbLif/Mrnm+9mtJWx9LJTIWjVXUwnErkFfsQKktw1Df9U9PggXscgwiNE7mP
+         VydThLJo/+g7zeYikk9nQxxwNJ2lN1ZJp9zEdvvvHNpwy7HPhgcRCt0A3a5dwGD+3dcj
+         bxohMs4/LbBnCu8VarNNTVnYF/6A7b3vnHNKq66BK4129FgRNTRnJGkHzrhHmyDHGtHW
+         PByQ
+X-Gm-Message-State: ALoCoQlJEAoeTMgstRcOd3XUs/76MRBZkG5e4EWiy23Au+iRKvtxV/3M5CuFGm5GNMjpVa6rqvjpEkNCb4tWIc6AT74ado5jbgIrfTMUdoV1BoLSvjlHrYw
+MIME-Version: 1.0
+X-Received: by 10.31.160.210 with SMTP id j201mr107306270vke.1.1452437027025;
+ Sun, 10 Jan 2015 06:43:47 -0800 (PST)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <001user@domain.com>
+Date: Sun, 10 Jan 2015 14:43:47 +0000
+Subject: Invitation: IA/NH Scenarios @ Sun Jan 10, 2015 5pm - 6pm (user@domain.com)
+From: commsadmin@hillaryclinton.com
+To: user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com
+Content-Type: multipart/mixed; boundary=001a11427c240e13620528fbd99e
+
+You have been invited to the following event.
+
+Title: IA/NH Scenarios
+When: Sun Jan 10, 2015 5pm - 6pm Eastern Time
+Where: TBD [Dial In: 347-637-7491]
+Video call:  
+<<link>>  
+<<<link>>>
+Calendar: user@domain.com
+Who:
+     * user@domain.com - organizer
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * John user
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+
+Event details:  
+<<link>>
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for invitations on calendar user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to modify your RSVP  
+response. Learn more at  
+<<link>>#forwarding

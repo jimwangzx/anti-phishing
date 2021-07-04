@@ -1,0 +1,61 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.207 with SMTP id r198csp1334345lfr;
+        Mon, 14 Sep 2015 18:08:45 -0700 (PDT)
+X-Received: by 10.180.106.99 with SMTP id gt3mr1537820wib.51.1442279325292;
+        Mon, 14 Sep 2015 18:08:45 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::22b])
+        by domain.com with ESMTPS id t15si20697399wjw.59.2015.09.14.18.08.45
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 14 Sep 2015 18:08:45 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22b as permitted sender) client-ip=2a00:1450:400c:c05::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id lk2so280wic.0
+        for <user@domain.com>; Mon, 14 Sep 2015 18:08:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Sara Latham <slatham@hillaryclinton.com>
+         :content-type;
+        bh=fVtFV3AfyRA9xI3fgnFSLI7W8lu3/8mblc4V/WAeWfU=;
+        b=a0c78P83ip3xcyAc5HQQNwUDHSKyoJAVPl1RRJL2SfjUaQ8nzclMc+KvwKq6JXJWUs
+         wdhnXORt+HUeNPxeZgMsYhgud82/NpotEXn72dYXZvFRjWdGARVGomlCEEz5oaTgkdEK
+         DgS+WhBFrVhk/fUnFSaQsh2761Lkb3Frts9Ow
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Sara Latham <slatham@hillaryclinton.com>
+         :message-id:subject:to:content-type;
+        bh=fVtFV3AfyRA9xI3fgnFSLI7W8lu3/8mblc4V/WAeWfU=;
+        b=N/wYXq0DPh8CWaB2LCOcWkzhWXln0jsK85zmkl1OTLk4Lty+Kv/YRnHdqboxjk2bc1
+         CyrU3DbHMVYRRM9YsfU41Iuu/8AX4U+YbJWUm8kz7ls2gyLHJMki47Bpdq1X6RSpX9uv
+         IasnTLPLHnbXmas8smXS+VXEUG2mCKXUAzvaQ2bfqSJJfWdyOjXl6d8b4aNhGoFoHbkx
+         1lrx3aLlDk9Ysr9Eg8m7phJCNS/aeo2m5XxRgQKtD61kNandP2YiiwsnZfNE0Mvv0IV+
+         G37ILTMVA/7qfSTDpOa9CAkLYM8HYdUShTdEklo2gfJ+cD9pb8G2VhkjNVu13kfUkrbn
+         O1yQ
+X-Gm-Message-State: ALoCoQlRWBGaVB/D3YlJpa4wuZZoOwD/QHDIXxbbmxspWTRtTwxM8hraeNgM+11eMsFE8B+n3wMa
+X-Received: by 10.180.188.211 with SMTP id gc19mr1676454wic.81.1442279325033;
+ Mon, 14 Sep 2015 18:08:45 -0700 (PDT)
+From: Sara Latham <slatham@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <25user@domain.com>
+In-Reply-To: <25user@domain.com>
+Date: Mon, 14 Sep 2015 21:08:44 -0400
+Message-ID: <-6533683103398154922@unknownmsgid>
+Subject: Re: user
+To: Donna Shalala <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+
+No problem.
+Apologies for any confusion, I understood from Bob and Ed that he was
+welcome if he wanted to attend; Ed suggested the ERTs, so I confirmed
+the CVC one.
+
+He's out of pocket this evening so I'll speak to him in the morning,
+what's the best number?
+
+Sent from my iPhone
+

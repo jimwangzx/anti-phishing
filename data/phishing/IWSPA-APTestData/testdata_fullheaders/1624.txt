@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp3332689lfb;
+        Tue, 22 Dec 2015 12:10:46 -0800 (PST)
+X-Received: by 10.141.3.9 with SMTP id f9mr36885626qhd.98.1450815046719;
+        Tue, 22 Dec 2015 12:10:46 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::234])
+        by domain.com with ESMTPS id y17si7026484qgd.82.2015.12.22.12.10.46
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 22 Dec 2015 12:10:46 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::234 as permitted sender) client-ip=2607:f8b0:400d:c04::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-domain.com with SMTP id c96so115481807qgd.3;
+        Tue, 22 Dec 2015 12:10:46 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:mime-version:subject:From: user.mary@gmail.com
+         :content-transfer-encoding:message-id:references:to;
+        bh=J4RHcku4bAQVkYunTTuekg/h59CVplL+DcalhjoxZ+Q=;
+        b=n18xiQyg3xP+SLbQMgwcTL1IERjNs382+EQQZ9sWopBVvMB40eragAXHQMqpeSMjNC
+         QwX21tH/c3KEJLDW1Z13JO7oXom3/2uN53HGDs46/na809dda1AONhTHpTi9SldTxZnz
+         s+BMx5ehJUg9ZnNIhUfEIM5sHYnmoHq3DwCiSVdPeV59qarN7VZuOTF/Q9NgpQ6p5JkT
+         VPbYLQrJQsemhvxL+8jAYL2czCN3qfnHN3Tmn+37UZkcJIG0pWwJ7YN1Pr0qtITJwerZ
+         GiskXXijbi7O27A4JWaqThZSc/f15W0+YWfgrydRTg0unfg9hhBTcALQjcT9TLW8sXpe
+         8fIg
+X-Received: by 10.140.142.207 with SMTP id 198mr27907261qho.77.1450815046460;
+        Tue, 22 Dec 2015 12:10:46 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [100.100.145.51] (183.sub-70-192-193.domain.com. [70.192.193.183])
+        by smtp.gmail.com with ESMTPSA id w16sm16757055qka.35.2015.12.22.12.10.45
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 22 Dec 2015 12:10:45 -0800 (PST)
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-9DEC87D5-0901-4098-B2F3-635EDA5A0D22
+Mime-Version: 1.0 (1.0)
+Subject: Re: Tomorrow
+From: user.mary@gmail.com
+X-Mailer: iPhone Mail (13C75)
+In-Reply-To: <user@domain.com>
+Date: Tue, 22 Dec 2015 15:10:44 -0500
+CC: John user <user@domain.com>, Mae user <user@domain.com>
+Content-Transfer-Encoding: 7bit
+Message-Id: <user@domain.com>
+References: <user@domain.com> <user@domain.com> <CAE6FiQ8aPAQGLFyw7CnSsSscVyE6RPxj+user@domain.com> <CAP-MWF4tHAAmrxTTVQF2Eh4q1qqu7UFraxVgQkAxn+5user@domain.com> <user@domain.com>
+To: Gabe user <user@domain.com>
+
+Glad you feel better.  All the best on tonight.  Sending love and good vibes
+.
+

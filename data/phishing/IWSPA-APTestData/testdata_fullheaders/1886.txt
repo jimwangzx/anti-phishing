@@ -1,0 +1,83 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Tue, 26 Nov 2015 10:20:05 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAQIK4ES005925	for <user@domain.com>; Tue, 26 Nov 2015 
+ 18:20:04 GMT
+Received: from mail3-db8-domain.com
+ (mail-domain.com [213.199.154.181])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAQIK3Lv014683	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 26 Nov 2015 18:20:04 GMT
+Received: from mail3-db8 (localhost [127.0.0.1])	by mail3-db8-domain.com
+ (Postfix) with ESMTP id F090B10052B	for <user@domain.com>; Tue, 26
+ Nov 2015 18:20:02 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.15.214.50;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: -3
+X-BigFish: vps-3(zz62a3Idc43hf01Mc857hzz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz1def03h1de098h172cfch17326ah1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h186068h1b778fh1ce120h1d68deh1ce121iz2fh5fh839h8e2h8e3hd2bh10d2h1288h12a5h12bdh135dh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h21e9h2216hbe9i214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail3-db8: domain of em-sj-77.domain.com designates 199.15.214.50 as permitted sender) client-ip=199.15.214.50; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail3-db8 (localhost.localdomain [127.0.0.1]) by mail3-db8
+ (MessageSwitch) id 1385490000876603_20562; Tue, 26 Nov 2015 18:20:00 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.8.239])	by
+ mail3-domain.com (Postfix) with ESMTP id C806D480049	for
+ <user@domain.com>; Tue, 26 Nov 2015 18:20:00 +0000 (UTC)
+Received: from domain.com (199.15.214.50) by domain.com
+ (10.174.4.21) with Microsoft SMTP Server id 14.16.227.3; Tue, 26 Nov 2015 
+ 18:20:00 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=birddog.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1385489999;
+	h=From: "Joel L. Sitak, President & CEO" <JoellSitak@birddog.com>
+	bh=sqfp5w+eYK10q7/bajT14MOsOPrQiH5/aGGZ9qg//4o=;
+	b=pm1txfGzOPri/ASSLGMTRoaoSlIxs7RNn24AejVIcn+6qJLf9xniO1PJ2vOA3ssK
+	yrgpefJJlM+VYh5aZZK9E/U0G65jy6E9sYND+6mkecFnLx9FOyDnb8wBOf3DttYn
+	4tw1WrLLxdbeRZUj7JrvU/O11vBtFoR6XbRuGMcKMTo=;
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AZHZwLTE5OS0xNS0yMTQtNTBAYmctc2ot
+	MDFANzc2LUVBSS0xOTM6OTMyOjEzOTA6NzgwOjA6MTc2MDo3OjEwOTk1Mjk
+Received: from [10.0.8.1] ([10.0.8.1:37248] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.0.35861 r(Momo-dev:tip)) with ESMTP	id 99/E6-59964-F46E4925; Tue, 26 Nov
+ 2015 12:19:59 -0600
+Date: Tue, 26 Nov 2015 12:19:59 -0600
+From: "Joel L. Sitak, President & CEO" <JoellSitak@birddog.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <1621756569.663941324.1385489999344.user@domain.com>
+Subject: Should you have a site to store program in place?
+breadcrumbId: ID-sjmas01-marketo-org-53735-1380141828487-3-868575239
+X-MailFrom: "Joel L. Sitak, President & CEO" <JoellSitak@birddog.com>
+X-MarketoID: 776-EAI-193:932:1390:780:0:1760:7:1099529
+X-Binding: bg-sj-01
+X-Report-Abuse: Please report abuse here: <<link>>
+Return-Path: 776-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Should you have a site to store program in place?
+
+To view this email as a web page, click here
+
+ Site to Store Shipping.png
+
+A successful and growing trend among retailers this year is implementing a site-to-store program as part of their overall parcel strategy. domain.com the Article
+
+In an article we recently published, you'll discover the following;
+
+The advantages of offering a site-to-store option
+
+Why it's important to take advantage of the holiday season rush
+
+The indirect domain.com of this approach that will have a positive impact on your bottom line
+
+Learn how this new approach will domain.com parcel & LTL shippers. Learn How.
+
+action button.png
+
+
+
+
+Phone: (800) 464-3137 ext 3               Email: user@domain.com               THE PARCEL EXPERTS                 
+

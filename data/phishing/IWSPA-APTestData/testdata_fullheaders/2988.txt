@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.88 with SMTP id o85csp1907632lfi;
+        Mon, 6 Jul 2015 18:08:32 -0700 (PDT)
+X-Received: by 10.107.37.14 with SMTP id l14mr2524892iol.12.1436231311987;
+        Mon, 06 Jul 2015 18:08:31 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [208.65.144.64])
+        by domain.com with ESMTPS id x6si14875825igl.33.2015.07.06.18.08.30
+        for <user@domain.com>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 06 Jul 2015 18:08:31 -0700 (PDT)
+Received-SPF: neutral (domain.com: 208.65.144.64 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=208.65.144.64;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 208.65.144.64 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: from unknown [64.74.242.122] (EHLO domain.com)
+	by domain.com(mxl_mta-8.4.0-1) over TLS secured channel
+	with ESMTP id e862b955.0.3930340.00-361.10237844.domain.com (envelope-from <user@domain.com>);
+	Mon, 06 Jul 2015 19:08:31 -0600 (MDT)
+X-MXL-Hash: 559b268f6974b050-8e22335580de7618477b4ec041ca5c9f13de043f
+Received: from CESC-domain.com ([fe80::2de5:d8da:800c:9fc4]) by
+ CESC-domain.com ([fe80::2de5:d8da:800c:9fc4%14]) with mapi id
+ 14.02.0387.000; Mon, 6 Jul 2015 21:06:56 -0400
+From: Tina Flournoy <Tina@presidentclinton.com>
+To: John user <user@domain.com>
+CC: Eryn Sepp <user@domain.com>
+Subject: Re: Richardson
+Thread-Topic: Richardson
+Thread-Index: AdC4MVcErHRnMehQT3CGilUFONE5XQAO3CsA///I30k
+Date: Tue, 7 Jul 2015 01:06:55 +0000
+Message-ID: <37424user@domain.com>
+References: <user@domain.com>,<user@domain.com>
+In-Reply-To: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Content-Type: multipart/alternative;
+	boundary="_000_37424E1828224418BC2A96CFDFFE51E2presidentclintoncom_"
+MIME-Version: 1.0
+X-AnalysisOut: [v=2.1 cv=INwWC2fG c=1 sm=1 tr=0 a=lWaCaaTd1tIBQFb89xQ1Hg==]
+X-AnalysisOut: [:117 a=lWaCaaTd1tIBQFb89xQ1Hg==:17 a=kS8a_5sYAAAA:8 a=YtYA]
+X-AnalysisOut: [UljIAAAA:8 a=YlVTAMxIAAAA:8 a=BLceEmwcHowA:10 a=xqWC_Br6kY]
+X-AnalysisOut: [4A:10 a=zOBTXjUuO1YA:10 a=pGLkceISAAAA:8 a=cO_ZQkz7KxYN8yX]
+X-AnalysisOut: [4SXEA:9 a=CjuIK1q_8ugA:10 a=UIUQaHhf_H4A:10 a=TJbpi3HgdyEA]
+X-AnalysisOut: [:10 a=NpRyk9pXN_kA:10 a=eurIF65yROBVGSZhKroA:9 a=zZPEpHW93]
+X-AnalysisOut: [Kt-86RG:21 a=_W_S_7VecoQA:10]
+X-Spam: [F=0.5000000000; CM=0.500; MH=0.500(2015070619); S=0.200(2014051901)]
+X-MAIL-From: Tina Flournoy <Tina@presidentclinton.com>
+X-SOURCE-IP: [64.74.242.122]
+
+we got it. Thanks.
+
+On Jul 6, 2015, at 8:22 PM, John user <user@domain.com<mailto:joh

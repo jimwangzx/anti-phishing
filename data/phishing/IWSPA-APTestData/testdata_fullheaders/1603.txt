@@ -1,0 +1,83 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.101 with SMTP id o98csp172996lfi;
+        Tue, 30 Jun 2015 14:40:51 -0700 (PDT)
+X-Received: by 10.170.112.17 with SMTP id e17mr28204942ykb.57.1435700450752;
+        Tue, 30 Jun 2015 14:40:50 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22f])
+        by domain.com with ESMTPS id l65si22562076yka.25.2015.06.30.14.40.49
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 30 Jun 2015 14:40:50 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22f as permitted sender) client-ip=2607:f8b0:4002:c07::22f;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22f as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id y125so21783113ykf.1
+        for <user@domain.com>; Tue, 30 Jun 2015 14:40:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+         :cc:content-type;
+        bh=C9uwkDS48rETesQqwZBtXQDhMtD6ExaVJ8OfNWRtEDs=;
+        b=M2joS2q517jydSUpmzD/1bF5JcccjIvU/0wE33nDwKUo4Ssr3iiRgf0/N6Qb+qOAHR
+         AleW4HUCSjvEnmaNG7ikrZCKzVwkBvZQDWHw6vadV8bHAXEneoGY2wfBTd5X61Tb33UL
+         anT7GWMfVN8xW7wOFxk5694UU879e94B2b99k
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+        bh=C9uwkDS48rETesQqwZBtXQDhMtD6ExaVJ8OfNWRtEDs=;
+        b=GwpSQG4iBUOniDVFzkRiiFMnjej/pFI845ajWcp1UQgP1/lxPc50c1ayg2+xcJ4KOw
+         Df20pf02h94/iOiL0Y/vTwxVoz4rcnh65LZhyS/eJiQ8pq3Ro7iFhEsubnl9ynSkc5W/
+         12jR778n7W8wq+besXYTUGuPIL7/yp+0B9e9YQfzn7m/iqcx1zIyEdFlu/szfxH+G3cR
+         o4ZOdcOx233DHro35RuDpFsTTuU88BxdLJaXEQUBvvrWPt9oa/M1hfSK0l0f1YJVJ6Ej
+         svH25PJ06xbXmNDeivvwGSG+LNcxvknOfJyBg6STnjotoRqBuRSxA4cf/8m584Hap3HF
+         okIQ
+X-Gm-Message-State: ALoCoQkZzEP7zNmfgllpNAp29l50YIej1UdvdAmVhtoVQssmIbFHSu26QOMJU/O4Uclpib3UQZBh
+MIME-Version: 1.0
+X-Received: by 10.129.103.84 with SMTP id b81mr28134230ywc.55.1435700449690;
+ Tue, 30 Jun 2015 14:40:49 -0700 (PDT)
+Received: by 10.129.147.69 with HTTP; Tue, 30 Jun 2015 14:40:49 -0700 (PDT)
+In-Reply-To: <CA+user@domain.com>
+References: <6user@domain.com>
+	<user@domain.com>
+	<user@domain.com>
+	<CA+user@domain.com>
+	<CAMayD+7user@domain.com>
+	<CA+Z3wa0B5hdow6WMOP0HK_LOJ+G4x2iXzHRC-igjjy+user@domain.com>
+	<CAMayD+6Piq7kZc+user@domain.com>
+	<user@domain.com>
+	<-1496539766187523961@unknownmsgid>
+	<user@domain.com>
+	<5365705271505792460@unknownmsgid>
+	<7025345317302619834@unknownmsgid>
+	<CAAEwKfxp0m7SHVf5UNtvYJmj1QaYsL4KYk9pFEYOeAE+user@domain.com>
+	<-7879449444053141811@unknownmsgid>
+	<user@domain.com>
+	<user@domain.com>
+	<8691212147174411708@unknownmsgid>
+	<CA+user@domain.com>
+Date: Tue, 30 Jun 2015 14:40:49 -0700
+Message-ID: <CACWw=rS3XRMeFw59R1Wg=fQxHvMt=Mf6goXOFCr+_user@domain.com>
+Subject: Re: Union Leaders, Members on SCOTUS Grant of Cert in Friedrichs v. CTA
+From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+To: Lauren Peterson <user@domain.com>
+CC: Amanda Renteria <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ Nikki Budzinski <user@domain.com>, 
+ Katie Dowd <user@domain.com>, 
+ Teddy Goff <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Maya Harris <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ John user <user@domain.com>, Robby Mook <user@domain.com>, 
+ Brynne Craig <user@domain.com>, 
+ Marlon Marshall <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11490eb84ef4610519c30f8b
+
+I vote for #2, but totally defer to my Political friends - Amanda and Nikki
+?
+
+On Tue, Jun 30, 2015 at 2:39 PM, Lauren Peterson <

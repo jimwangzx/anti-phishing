@@ -1,0 +1,106 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp190820lfb;
+        Thu, 19 Nov 2015 16:15:15 -0800 (PST)
+X-Received: by 10.140.220.136 with SMTP id q130mr6042484qhb.24.1447978515575;
+        Thu, 19 Nov 2015 16:15:15 -0800 (PST)
+Return-Path: <3user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::24a])
+        by domain.com with ESMTPS id g131si6463389qkb.102.2015.11.19.16.15.15
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 19 Nov 2015 16:15:15 -0800 (PST)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400d:c04::24a as permitted sender) client-ip=2607:f8b0:400d:c04::24a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400d:c04::24a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qg0-domain.com with SMTP id b1so4419946qge.0
+        for <user@domain.com>; Thu, 19 Nov 2015 16:15:15 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: kofferdahl@hillaryclinton.com
+        bh=pElNQhT3erNYQCsQ7atBoarAPEAJjxscpB1tC0W5LIQ=;
+        b=F2TOAKEm6BTIUK190SM1Xq3PASNPB1hO5UhqJ0WqWWY/u+6U6AvymwLo4mq1zwe69x
+         53GOT9jdpqFnPsFjmEA/aBEDEGq3SdJBd+MfW4U0K/I0ukEX99YjUSyF+nKCmrZ8ledA
+         0jxImsKAH/B4K3NgqxlQNKJ6iDVO/LWzMfmf/rOQr6lVxcnEqg7mtyzfc9y2sxG8FYfU
+         Bc3sAW/HjHSLR6N/heuHGBPkEVg4nx8TEgpcRv3NAL73beIkYxt6kRA9lXsy3Plx5dQg
+         gy+BAM6/6yPdbnWmox2dEU0zig8jTj5/6O450JOSfMAZ4QYlDAULNWcgZgXpT2lj96Mv
+         H02g
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: kofferdahl@hillaryclinton.com
+        bh=pElNQhT3erNYQCsQ7atBoarAPEAJjxscpB1tC0W5LIQ=;
+        b=K1Q8RkghShB9TwJVsvGZ2bCsn1o7Y6hpgPISAKNuZOr5pDJnk4EGJRLWKGWaT7BW/T
+         gBM2pBBDc5x9aZ1cVCKkiCAz3xCk8ykJMdLXuKQOT+E1csEbRroOK8LdXuTir5s91psd
+         S0oVUig1ffYEFEagp7nn5rxBLig5/IRstZrMc
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: kofferdahl@hillaryclinton.com
+        bh=pElNQhT3erNYQCsQ7atBoarAPEAJjxscpB1tC0W5LIQ=;
+        b=jTsPJa2Rly4ytkfSIlgBSGDUr83YXdCz/H6TZFF7kP3o0U8AedVvnFXDA5xdobmqnW
+         UNH8VreXFmZ+xZr8z9qSpOmmxrDzMaD92P1neGljLTPXmd9X15w4DRct3QOx4FiIwA05
+         uxczeKLCrR+0ZKppAhIfIq5KYqGVltZ5gS1cy93l7902gbMPYZdRw9jGFBAC6RRKmGmY
+         HqQvHLr2t2iF9Kjqz0gL0J3GPAI7HFNb7LxydOVlqYAGURY+NCOtK/CcY4L80+pP/+gy
+         GSSARXTybrNW/Owqlu0UD25uNtWrqkvljboNz5KIMBNOAKPd8t7DlZGARkUXcWyFRvfP
+         SQFA
+X-Gm-Message-State: ALoCoQnQoJEeieYvk6XGq6teMStROZjD8myp5OF91dd590Wuk0/azmpF3+nQo1u3H2cM/8dH2iMa
+MIME-Version: 1.0
+X-Received: by 10.141.3.66 with SMTP id f63mr244846qhd.10.1447978515314; Thu,
+ 19 Nov 2015 16:15:15 -0800 (PST)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <001user@domain.com>
+Date: Fri, 20 Nov 2015 00:15:15 +0000
+Subject: Canceled Event: Message Planning Meeting @ Fri Nov 20, 2015 4pm - 5pm (user@domain.com)
+From: kofferdahl@hillaryclinton.com
+To: user@domain.com
+Content-Type: multipart/mixed; boundary=001a113a85aa0c53600524edc543
+
+This event has been canceled and removed from your calendar.
+
+Title: Message Planning Meeting
+When: Fri Nov 20, 2015 4pm - 5pm Eastern Time
+Where: NY-BrooklynHQ-South Carolina / 718-441-3763, no pin
+Video call: <<link>>  
+<<<link>>>
+Calendar: user@domain.com
+Who:
+     * user@domain.com - organizer
+     * user@domain.com - creator
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * John user
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for cancellations on calendar user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to modify your RSVP  
+response. Learn more at  
+<<link>>#forwarding

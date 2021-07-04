@@ -1,0 +1,299 @@
+Delivered-To: user@domain.com
+Received: by 10.151.117.7 with SMTP id u7cs325002ybm;
+        Tue, 16 Sep 2015 07:05:26 -0700 (PDT)
+Received: by 10.142.212.19 with SMTP id k19mr383274wfg.13.1221573925516;
+        Tue, 16 Sep 2015 07:05:25 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wa-out-0708.domain.com (wa-out-0708.domain.com [209.85.146.241])
+        by domain.com with ESMTP id 28si896876wfd.4.2008.09.16.07.05.24;
+        Tue, 16 Sep 2015 07:05:25 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.146.241 as permitted sender) client-ip=209.85.146.241;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.146.241 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by wa-out-0708.domain.com with SMTP id j19so2269654waf.27
+        for <user@domain.com>; Tue, 16 Sep 2015 07:05:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Ilyse Hogue" <ilyse@moveon.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=YPxGCkxv3a5UDXj8M8hUA52QWDrMAe1Yp4mYc73LZLg=;
+        b=0dSys5mUxPSIvgEy6/U0EfShSW2376F3kgFuJl5GGFO/dt8wTPJV/+UiNg3iSCCYRD
+         17fR+ZsKMxFeXnKtj/nz8f41SN8dInTtaelx7wnfZTiytd2z8MrG5UtISKvhrAaGaW8G
+         zU3LoKkFBTtu0MrANJSVkYB4EkzDQSodnIjaU
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Ilyse Hogue" <ilyse@moveon.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=vJbubZo/ywRlqaWKkljgkZTfyXix30l2ii6mUPkonwPcIyX8VYkfNIAMsQKzP0ZKIm
+         rxMAPo1DnQNE2iVko9reVoE1JEXubAaSqYqw7MGNOSxACSy4+H8KkujQiAXC7Xkq6wzE
+         lp+UdHZ1LBi6Qf3vn06g/tfQzUB94VMiDWrdo
+Received: by 10.114.180.1 with SMTP id c1mr28608waf.17.1221573918147;
+        Tue, 16 Sep 2015 07:05:18 -0700 (PDT)
+Received: by 10.106.144.6 with SMTP id r6gr1999prd.0;
+	Tue, 16 Sep 2015 07:05:15 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.214.182.1 with SMTP id e1mr205295qaf.2.1221573914976; Tue, 16 Sep 2015 07:05:14 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-1718.domain.com ([172.21.8.36]) by domain.com with ESMTP id 7si10537390yxg.0.2008.09.16.07.05.14; Tue, 16 Sep 2015 07:05:14 -0700 (PDT)
+Received-SPF: neutral (domain.com: 172.21.8.36 is neither permitted nor denied by domain of user@domain.com) client-ip=172.21.8.36;
+Authentication-Results: domain.com; spf=neutral (domain.com: 172.21.8.36 is neither permitted nor denied by domain of user@domain.com) user@domain.com
+Received: by yx-out-1718.domain.com with SMTP id 36so843103yxh.18 for <user@domain.com>; Tue, 16 Sep 2015 07:05:14 -0700 (PDT)
+Received: by 10.90.87.7 with SMTP id k7mr1616997agb.45.1221573914221; Tue, 16 Sep 2015 07:05:14 -0700 (PDT)
+Received: by 10.90.30.3 with HTTP; Tue, 16 Sep 2015 07:05:14 -0700 (PDT)
+Message-ID: <6777user@domain.com>
+Date: Tue, 16 Sep 2015 10:05:14 -0400
+From: "Ilyse Hogue" <ilyse@moveon.org>
+To: user@domain.com
+Subject: [big campaign] MoveOn attacks McCain's "friends"
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_55501_18707162.1221573914182"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+ *domain.com**
+*Political Action
+
+*For Immediate Release:*           *Contact:**
+*Tuesday, September 16, 2015    Trevor FitzGibbon/Doug Gordon (202) 822-520
+0
+
+****View Ad: **<<link>>*<<<link>>
+domain.com/watch?v=3DCPuoAWaVStE>
+* ****
+*New TV Ad: McCain's Famous Catchphrase *
+
+*"My Friends" Tied To Big Oil Lobbyists *
+
+* *
+
+McCain's Economic and Energy Policies Promise Americans Four More Years of
+the Same
+
+A new hard-hitting 30-second television ad released today says John McCain'
+s
+campaign is run by lobbyists, many from the oil and gas industry. The ad,
+released by domain.com Political Action, riffs off McCain's famous "my
+friends" line to remind voters exactly who McCain's real friends are. Polls
+show concern about gas prices and the economy continue to be top voting
+issues =96 and that McCain's ties to lobbyists and big oil can hurt him wit
+h
+independent voters.
+
+"With the economy on the skids and gas prices high, we can't afford a McCai
+n
+Presidency paid for by Big Oil," said Eli Pariser, Executive Director of
+MoveOn. "McCain's campaign, stacked with lobbyists from Big Oil, promises
+four more years of the same Bush economic and energy policies."
+
+MoveOn will spend at least $200,000 to run "My Friends" on national cable
+and in some battleground states.
+
+  *AD TEXT:*
+
+AUDIO
+
+*MCCAIN*: As I've often said, my friends=85(NEXT CLIP) my friends=85(NEXT C
+LIP)
+my friends=85(NEXT CLIP) my friends *ANNOUNCER (VO)*:  When John McCain say
+s,
+*MCCAIN*: My friends.
+
+*ANNOUNCER (VO)*:....you know who he's talking about?
+
+VIDEO
+
+CUT TO SHOTS OF: CHARLES BLACK. SUPER:  "CHARLES BLACK.  MCCAIN SENIOR
+ADVISOR." ON THE SCREEN WE SEE SLAMMED ON IN RED STENCIL:  "LOBBYIST.
+OCCIDENTAL
+PETROLEUM."
+
+WAYNE BERMAN. SUPER:  "WAYNE BERMAN.  MCCAIN'S NATIONAL FINANCE CO-CHAIR.*
+*THEN STENCILED ON:  "LOBBYIST.   AMERICAN PETROLEUM INSTITUTE."
+
+JACK OLIVER. SUPER:  "JACK OLIVER, MCCAIN FUNDRAISER." THEN STENCILED ON:
+"LOBBYIST.  SHELL OIL"
+
+RANDY SCHEUNEMANN. SUPER: "RANDY SCHEUNEMANN.  MCCAIN FOREIGN POLICY
+ADVISOR." THEN STENCILED ON: " LOBBYIST.  BP."
+
+FRANK DONATELLI. SUPER:  "FRANK DONATELLI, MCCAIN'S REPUBLICAN APPOINTEE"
+THEN STENCILED ON:  "LOBBYIST.  EXXON CORP."
+
+AUDIO
+
+The 177 lobbyists who have ties to his campaign.
+
+More than a dozen lobbied for oil companies.
+
+McCain got more than 2 million dollars from Big Oil.
+
+And he didn't support the measures we need to get cleaner, cheaper fuel.
+
+So when it comes to gas prices, John McCain won't be taking care of you,
+he'll be taking care of =85my friends=85my friends=85my friends.
+
+            *DOCUMENTATION:*
+
+McCain senior adviser Charlie Black was until recently the chairman of
+Washington-based BKSH & Associates. [Washington Times, 4/11/08]
+
+Charlie Black's lobbying firm, BKSH & Associates, received $160,000 in
+lobbying fees in 2015 from Occidental Petroleum and $140,000 in 2015 and
+$70,000 in 2015 from their subsidiary Occidental Petroleum Corporation. [
+domain.com]
+
+Wayne Berman is the McCain campaign's
+
+national finance co-chairman. [CNN, 9/9/08]
+
+Wayne Berman is the managing director of Ogilvy Government Relations. [USA
+Today, 3/24/08]
+
+In 2007, Ogilvy Government Relations was paid $320,000 in lobbying fees by
+the American Petroleum Institute. [domain.com]
+
+Jack Oliver is listed as someone who raised $250,000 or more for Senator
+McCain's presidential campaign. [domain.com]
+
+In 2007, Jack Oliver was registered as a lobbyist for Shell Oil.  His firm,
+Bryan Cave Strategies, was paid $190,000 in lobbying fees.
+
+[domain.com]
+
+Randy Scheunemann is the foreign policy adviser to Sen. John McCain.
+[domain.com, 6/17/08]
+
+In 2000, Scheunemann's firm the Mercury Group lobbied for BP. [
+domain.com]
+
+Republican Deputy Chairman Frank Donatelli, is "McCain's point man at the
+committee."  [Politico, 5/18/08]
+
+In 1998, at Akin Gump, Frank Donatelli lobbied for Exxon Corporation.   [
+domain.com]
+
+John McCain has had at least 177 lobbyists running his campaign and raising
+money for him. [<<link>>]
+
+In addition to Black, Berman, Oliver, Scheunemann and Donatelli, the
+following advisers and donors lobbied for oil companies:
+
+Nancy Pfotenhauer was the "top lobbyist for Koch Industries."  She is a
+senior McCain policy adviser. [Washington Times, 5/7/04; CNN, 6/9/08]
+
+John Green, a founding partner of what is now Ogilvy Government Relations,
+took a leave of absence from that firm to work as a full-time liaison
+between McCain's presidential campaign and Republicans in the House and the
+Senate.  In 2007, Ogilvy Government Relations was paid $360,000 in lobbying
+fees by the American Petroleum Institute. [Politico, 3/4/08;
+domain.com]
+
+Peter Madigan is a fundraiser for McCain's presidential campaign.  In 2002,
+Peter Madigan's lobbying firm, Johnson Madigan, received $40,000 in lobbyin
+g
+fees from Shell Oil. [USA Today, 3/24/08; domain.com]
+
+Steve Phillips:  At Piper Rudnick, Steve Phillips lobbied for BP America in
+2002 and he gave $2,300 to McCain's presidential campaign. [
+domain.com]
+
+Rebecca Anderson:  At Williams & Jensen, Anderson lobbied for Sunoco in
+2005.  She donated $2,300 to McCain's presidential campaign. [
+domain.com]
+
+Kerry Cammack: Kerry Cammack lobbied for Exxon in 2015 and gave $2,300 to
+McCain's presidential campaign. [domain.com]
+
+Jeffrey Weiss: At BKSH, Jeffrey Weiss lobbied for Yukos Oil and he gave
+$2,300 to McCain's presidential campaign. [domain.com]
+
+Matthew Salmon: In 2007, at Greenberg Traurig, Matthew Salmon lobbied for E
+l
+Paso Corporation and he gave $2,300 to McCain's presidential campaign.
+
+[domain.com]
+
+Between 1990 and June 2008, Senator McCain had accepted $1,069,854 in
+campaign contributions from the oil and gas industry.  [Center for
+Responsive Politics]
+
+* *Oil and gas industry executives and employees donated $1.1 million to
+McCain last month - three-quarters of which came after his June 16 speech
+calling for an end to the federal ban on offshore drilling. [Washington
+Post, 7/27/08]
+
+Senator McCain was the only senator who failed to vote on a motion to invok
+e
+cloture on the Energy Independence and Security Act.  The bill would have
+closed $13 billion in tax breaks for major oil and gas companies to invest
+in new clean energy technologies such as wind and solar, and efficiency. Th
+e
+motion was rejected 59-40. [HR 6, Vote #425,
+12/13/07<<<link>>
+te_cfm.cfm?congress=3D110&session=3D1&vote=3D00425>
+]
+
+According to domain.com, "Sen. John McCain, R-Ariz., was not present for th
+e
+voting because he is on the presidential campaign trail. However, a
+spokesperson said that he would not have supported breaking the filibuster.
+"
+[domain.com, 12/13/07]
+
+Senator McCain missed the vote on passage of the Clean Energy Act of 2007.
+[HR 6, Vote 226, 6/21/07]
+
+* *
+
+* *
+
+*domain.com Political Action is a political action committee powered by 3.5
+million progressive Americans. We believe in the power of small donors and
+grassroots action to elect progressive leaders to office and to advance a
+progressive agenda. We do not accept any donations over $5,000, and the
+average donation to domain.com Political Action is under $100.*
+
+###
+
+--
+Ilyse G. Hogue
+Communications Director
+domain.com
+
+ph: 202-822-4780 x219
+mobile: 202-731-2656
+
+Hope is a feeling that life and work have meaning. You either have it or yo
+u
+don't, regardless of the state of the world that surrounds you.
+----Vaclav Havel
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

@@ -1,0 +1,88 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 6 Nov 2015 12:17:49 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rA6KHTa7028709	for <user@domain.com>; Wed, 6 Nov 2015 
+ 20:17:29 GMT
+Received: from mail52-db9-domain.com
+ (mail-domain.com [213.199.154.247])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rA6KHSjY030296	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Wed, 6 Nov 2015 20:17:29 GMT
+Received: from mail52-db9 (localhost [127.0.0.1])	by mail52-db9-domain.com
+ (Postfix) with ESMTP id 47440E02D5	for <user@domain.com>; Wed,  6 Nov
+ 2015 20:17:28 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.105;KIP:(null);UIP:(null);IPV:NLI;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(z579ehzc545Ic89bhc857hdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz1d7338h1de098h17326ah8275bh1bc7b9h8275dh1def03h1de097h1de096h186068h172c6ch1ce120hz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail52-db9: domain of domain.com designates 192.64.236.105 as permitted sender) client-ip=192.64.236.105; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail52-db9 (localhost.localdomain [127.0.0.1]) by mail52-db9
+ (MessageSwitch) id 1383769046495111_27042; Wed,  6 Nov 2015 20:17:26 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.16.233])	by
+ mail52-domain.com (Postfix) with ESMTP id 737A0C003F	for
+ <user@domain.com>; Wed,  6 Nov 2015 20:17:26 +0000 (UTC)
+Received: from mx-domain.com (192.64.236.105) by domain.com
+ (10.174.14.30) with Microsoft SMTP Server id 14.16.227.3; Wed, 6 Nov 2015 
+ 20:17:25 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1383769045;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=X1Oe60AfovJcBWHn/tbMv55QxOxiFKRjGgC5em4Xiso=;
+	b=kIcz4tez/wvO7PXBeeldtn1+O3FlVjamj2vT0OknQAI0q0zxE0t3Xh/lnJX0Bpfw
+	B/O2GKei2I2FD6Nt+qgZK8H0Bl5Nu7pXxM8bWKHBMh0L32GgRZ2PLabwIhrPT+mCKgM
+	EsFoujgfGyOQCrHMQ/wiJZVIxhqI/iJrubtxmnO8
+Date: Wed, 6 Nov 2015 15:17:25 -0500
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20131106201725.2026893.20694@domain.com>
+Subject: Variety Screening Series Q&A: Director Steve McQueen and the Cast
+ of '12 Years a Slave' on the Importance of Creating an Accurate Historical
+ Drama (VIDEO)
+Precedence: bulk
+X-TM-ID: 20131106201725.2026893.20694
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.105
+X-IADB-IP-REVERSE: 105.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2026893
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Variety Screening Series Q&A: Director Steve McQueen and the Cast of '12 Years a Slave' on the Importance of Creating an Accurate Historical Drama (VIDEO)
+
+"12 Years a Slave" director Steve McQueen, actress Lupita Nyong'o, Chiwetel Ejiofor and Alfre Wo... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Wednesday, November 6, 2015     
+
+​ 
+
+        Variety Screening Series Q&A: Director Steve McQueen and the Cast of '12 Years a Slave' on the Importance of Creating an Accurate Historical Drama (VIDEO)              
+
+        "12 Years a Slave" director Steve McQueen, actress Lupita Nyong'o, Chiwetel Ejiofor and Alfre Woodard discuss the Fox Searchlight...            
+
+        Full Story              
+
+
+
+
+Subscribe to Other Variety Newsletters   <<link>>         
+
+This e
+

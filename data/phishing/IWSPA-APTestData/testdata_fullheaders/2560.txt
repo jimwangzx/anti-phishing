@@ -1,0 +1,90 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 3 Dec 2015 09:27:54 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rB3HRAJs023640	for <user@domain.com>; Tue, 3 Dec 2015 
+ 17:27:53 GMT
+Received: from mail221-va3-domain.com (mail-domain.com
+ [216.32.180.111])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rB3GYToT011532
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 3 Dec 2015 16:34:29 GMT
+Received: from mail221-va3 (localhost [127.0.0.1])	by
+ mail221-va3-domain.com (Postfix) with ESMTP id 3362EC0405	for
+ <user@domain.com>; Tue,  3 Dec 2015 16:34:29 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:63.236.100.17;KIP:(null);UIP:(null);IPV:NLI;H:mta-0-017.vocus-domain.com;RD:MTA-0-017.Vocus-domain.com;EFVD:NLI
+X-SpamScore: 27
+X-BigFish: vps27(zzc89bh1210Ic857hfd3Iac11nzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1def03h1de098h8275eh17326ah172cdfh1def87h8275bh1bc7b9h1def86h18c673h19a27bh1de097h1de096h186068h1ce121ia1495iz2fheh5fh839hd25he5bh107ah1288h12a5h137ah13eah1441h1504h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h81aim1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail221-va3: domain of domain.com designates 63.236.100.17 as permitted sender) client-ip=63.236.100.17; envelope-from=bounces+7804.1054894712.4742075@domain.com; helo=mta-0-017.vocus-domain.com ;s-domain.com ;
+Received: from mail221-va3 (localhost.localdomain [127.0.0.1]) by mail221-va3
+ (MessageSwitch) id 1386088466813022_24336; Tue,  3 Dec 2015 16:34:26 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.243])	by
+ mail221-domain.com (Postfix) with ESMTP id C186B44006A	for
+ <user@domain.com>; Tue,  3 Dec 2015 16:34:26 +0000 (UTC)
+Received: from mta-0-017.vocus-domain.com (63.236.100.17) by
+ domain.com (10.7.99.38) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 3 Dec 2015 16:34:23 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Mime-Version:From: The GRC Digest <corpedia.replies@corpedia.com>
+ bh=Rg12KL2Nzyf5gYq+km8/FiITzv4=;
+ b=U3/jJDPR4iKhLnR1rJ+uLHMfY0zfetW8gSbsndtog2neDm/Q1jaSn9/oQhOW8CWiLM7l+WE0AlS+
+   hLlgQ0xzNrHfteP19wz2DsIHOTnPSk7LNJx23c5mpw7jqvvOVBF2znlfnYzTHCn1k27e4M1WnLoU
+   97vWsNgmkeRWJQ7TR7Y
+Received: by mta-0-017.vocus-domain.com id hjo3to1i6aor for
+ <user@domain.com>; Tue, 3 Dec 2015 11:33:23 -0500 (envelope-from
+ <bounces+7804.1054894712.4742075@domain.com>)
+From: The GRC Digest <corpedia.replies@corpedia.com>
+To: <user@domain.com>
+Date: Tue, 3 Dec 2015 11:34:14 -0500
+Subject: Toyo Tire and Stanley Electric Guilty of Auto Parts Price Fixing; Lemminkainen Pays $65M Over Price Fixing; Valspar Sues Over Chemical Price Fixing (See a Pattern?)
+Errors-To: bounces+7804.1054894712.4742075@domain.com
+List-Unsubscribe: <<<link>>>, <mailto:bounces+7804.1054894712.4742075@domain.com>
+X-List-Unsubscribe: <<<link>>>
+X-Unsubscribe-Web: <<<link>>>
+X-Feedback-ID: 01_7804_4742075:01_7804:01:vocus
+X-ICPINFO: 
+X-Return-Path-Hint: bounces+7804.1054894712.4742075@domain.com
+Message-ID: <0.1.3user@domain.com>
+Return-Path: bounces+7804.1054894712.4742075@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1224682741_-_-"
+
+Toyo Tire and Stanley Electric Guilty of Auto Parts Price Fixing; Lemminkainen Pays $65M Over Price Fixing; Valspar Sues Over Chemical Price Fixing (See a Pattern?)
+
+Volume 4, Issue 386      domain.com the Digest Site  
+
+Daily GRC Digest         Tuesday, December 3rd, 2013     
+
+ Today's Digest
+
+Are you on the board of a newly-listed public company, or a company planning to go public in 2014? Join us in San Francisco on December 11 for Corporate Board Member’s Pre- and Post-IPO Board Forum. A series of panels and smaller group sessions will debate popular governance myths and realities and provide insight on key topics such as:
+
+Building the most effective board
+
+Dealing with shareholders and institutional investors
+
+Creating a roadmap to success in their new environment
+
+Understanding the capital markets
+
+To register or learn more, click here.
+
+Top Stories
+
+1. Toyo Tire pleads guilty to fixing prices of anti-vibration rubber auto parts, and must pay $120M criminal fine.      
+
+2. FINLAND: Construction firm Lemminkainen to pay $46M in damages for fixing asphalt prices; interest and expenses brings the full total to $65M.       
+
+3. After years of investigations, Weatherford and its subsidiaries pay nearly $253M to resolve allegations of FCPA and trade violations.        
+
+Anti-Corruption
+
+Korea Moves to Set Up New Anti-Corruption Bureau, Replacing the Defunct Central Investigation Department, Which Had Been Criticized for Political Bias 
+
+Anti-Corruption | Arirang News 
+

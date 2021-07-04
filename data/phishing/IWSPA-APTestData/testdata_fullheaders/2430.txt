@@ -1,0 +1,89 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Mon, 27 Jan 2015 06:01:34 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0RE1XmY022338	for <user@domain.com>; Mon, 27 Jan 2015 
+ 14:01:33 GMT
+Received: from mail109-va3-domain.com (mail-domain.com
+ [216.32.180.113])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s0RE1XFM030590
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 27 Jan 2015 14:01:33 GMT
+Received: from mail109-va3 (localhost [127.0.0.1])	by
+ mail109-va3-domain.com (Postfix) with ESMTP id E546E20103	for
+ <user@domain.com>; Mon, 27 Jan 2015 14:01:32 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:66.45.103.64;KIP:(null);UIP:(null);IPV:NLI;H:mta-domain.com;RD:mta-domain.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(zz62a3Ic85dhe0eahzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1de098h1def03h17326ah1def87h1bc7b9h8275dh1def86h1de097h186068h18602eh1b778fh1ce120h1ce121iz2fh5fh839h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487h24d7h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail109-va3: domain of domain.com designates 66.45.103.64 as permitted sender) client-ip=66.45.103.64; user@domain.com; helo=mta-domain.com ;2.domain.com ;
+Received: from mail109-va3 (localhost.localdomain [127.0.0.1]) by mail109-va3
+ (MessageSwitch) id 1390831285834100_31786; Mon, 27 Jan 2015 14:01:25 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.245])	by
+ mail109-domain.com (Postfix) with ESMTP id 50F3F400047	for
+ <user@domain.com>; Mon, 27 Jan 2015 14:01:25 +0000 (UTC)
+Received: from mta-domain.com (66.45.103.64) by
+ domain.com (10.7.99.30) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 27 Jan 2015 14:01:24 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=selector1; d=mta-domain.com;
+ h=Message-ID:Date:From: Team No Kid Hungry <contactus@strength.org>
+ bh=XXwc0WGSK2YMbW6CamglqS4thlc=;
+ b=FGghkeR5spZpE54wtZqynoGjLp4LTaApNAaGAexAjZ0wMuqp0ECF20/5oObRF1qV/V/62EDO4z/q
+   ca1iwO3Kz0CnxR2XOizzHYQzbVkQU5uA/ab0Sdn/0CcfIZH0cPj/ojs2rF88+2G3dXSX0GvzBTIb
+   DdOHPz+4m8JjoTlDELU
+Received: from 10.0.1.135	# (10.0.1.51) by mta-domain.com id
+ hspjb81iilk4 for <user@domain.com>; Mon, 27 Jan 2015 08:01:24 -0600
+ (envelope-from <user@domain.com>)
+Message-ID: <1021987829.1390831284778.user@domain.com>
+Date: Mon, 27 Jan 2015 08:00:40 -0600
+From: Team No Kid Hungry <contactus@strength.org>
+Reply-To: Team No Kid Hungry <user@domain.com>
+To: <user@domain.com>
+Subject: A Tale of Two Schools
+Organization: Share Our Strength
+X-campaignid: Convio-poolb-sos-70224
+X-Gateway: poolb1
+XData: 1010,4user@domain.com@4user@domain.com
+X-ConvioDeliveryGroup: poolb
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A Tale of Two Schools
+
+Make a difference for kids in 2015 
+
+Having problems seeing this message? View in your browser.
+Share this message with a friend.
+
+No Kid Hungry 
+
+<<link>>
+
+Dear Amy,
+
+Last year, Leigh and Jamie started attending a new middle school in Denver.
+
+At their old school, you had to arrive early in order to get breakfast. If your bus was late, you missed the meal, and had to head off to class hungry.
+
+But at Leigh and Jamie's new school, mornings are different. Every kid goes to homeroom, grabs their breakfast, and eats it at the beginning of class. Breakfast is simply a part of the school day.
+
+That's important for Leigh and Jamie, because their family sometimes struggles to sufficiently feed the sisters at home.
+
+This school year, thanks to your support and efforts by the No Kid Hungry network, Leigh and Jamie and 40,000 additional kids in Colorado are getting breakfast at school every day this year. Amy, this is what ending childhood hunger looks like. 
+
+Join Now 
+
+For Leigh and Jamie's family, breakfast as part of the school day means they don't have to worry about whether their girls are getting enough to eat before school starts. And Leigh and Jamie's dad sees other benefits of the program as well, sharing, "Everybody goes into their homeroom and eats in homeroom class. So there isn't a stigma of who goes to free breakfast and who doesn't go. It's provided to everybody."
+
+Successes like the expansion of breakfast in Colorado are happening all over the country. Recently, we've heard big news from Los Angeles, Boston and Vermont too, regarding their movement toward expanded breakfast programs. Let's celebrate all of these wins in the movement to end childhood hunger in this country.
+
+But there's still work to be done.
+
+Will you help us build on our breakfast success in 2015 by renewing your commitment to the No Kid Hungry campaign now? Programs like these work. And without donors like you, they wouldn't be available for kids like Leigh and Jamie, who need school meals in order to ensure they're getting enough to eat.
+
+Your support will help kids across the country l
+

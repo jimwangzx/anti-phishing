@@ -1,0 +1,68 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp723287lfb;
+        Sat, 12 Dec 2015 08:27:21 -0800 (PST)
+X-Received: by 10.25.27.16 with SMTP id b16mr7991279lfb.149.1449937640967;
+        Sat, 12 Dec 2015 08:27:20 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-lf0-domain.com (mail-lf0-domain.com. [209.85.215.41])
+        by domain.com with ESMTPS id ld16si9870079lbb.129.2015.12.12.08.27.20
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 12 Dec 2015 08:27:20 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.215.41 as permitted sender) client-ip=209.85.215.41;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.215.41 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lf0-domain.com with SMTP id y184so749lfc.1
+        for <user@domain.com>; Sat, 12 Dec 2015 08:27:20 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :content-type;
+        bh=P+JgdHcvP4nOgn98K8owJhObyEcfDXeZG0Q08ZF+Cp0=;
+        b=UGJuwows/X+0f86Pf0aH/cZSScgpjg6cQxfD4SGT7/uuqPABT9DWO81EV6gsvuJSJF
+         raxInSmMCho+nIMV4TEet2w6LMIc+lXlrF+3kapLB9Z68rBqSAB8ldGcPpEnUt9IqPlZ
+         RamsIPipJJojLB+mayUnqymxdI/j6bKLrzrg8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+        bh=P+JgdHcvP4nOgn98K8owJhObyEcfDXeZG0Q08ZF+Cp0=;
+        b=X/p8oVPnBCjJIMSdLBUqqKIs6XAnzVxpfVueKMIrv4Ceng/U+VEgXCq3tpROZtYEON
+         kkWgGE5fiESbEorUDXIK38FLg776WKcKAIWq3POVaoCDmAsV4XURyRiY6RDmyQaL1r4b
+         TnRtN0iD6Dn8C8xl6qPSHRUDU+8VccGO0/ML5NYr1mw2/WNhIn1gxE7Qh7CKWdrO2tMC
+         vBbQ3ZM1NLWZqPKjtg2rJqhX8jZ2GSk0fz8vLNvxdwvoVVqNYXjYH7/nbIG3ktsxeOe0
+         Z2Q/S93G02TnXiiQ9k+aNJca8kjlsIN1BwUXWmjJk00GzJmmzqqSLn+7U0evAUFGoKtU
+         QwUA
+X-Gm-Message-State: ALoCoQkHUj0bq3WJdTkiqnzqnTfSOgVZZevnuFSUSniW/WHDhmOED/O3nyHTRxfkfFQQ7x3FFpwFJyqVSeWXhTz2xAI+ZGq+pmQA6xY8BRjnvHE5dQ5YGRU
+MIME-Version: 1.0
+X-Received: by 10.25.143.134 with SMTP id r128mr10618777lfd.56.1449937640699;
+ Sat, 12 Dec 2015 08:27:20 -0800 (PST)
+Received: by 10.112.12.5 with HTTP; Sat, 12 Dec 2015 08:27:20 -0800 (PST)
+In-Reply-To: <CAEMn5Qkt+Rsjhkq3n5fnc8cUk+user@domain.com>
+References: <CAEMn5Qkt+Rsjhkq3n5fnc8cUk+user@domain.com>
+Date: Sat, 12 Dec 2015 11:27:20 -0500
+Message-ID: <CAEMn5QmsMzS2poPAaO9C+user@domain.com>
+Subject: Re: LGA Pickup Tomorrow
+From: Milia Fisher <mfisher@hillaryclinton.com>
+To: John user <user@domain.com>, user@domain.com
+Content-Type: multipart/alternative; boundary=001a11401efe055d6e0526b5ea54
+
+John- Bumping this message to the top of your inbox and adding Austin who
+is on his way.
+
+_____
+
+John- Austin Minogue will be coming to pick you up at LGA when your flight
+lands at 1:08 PM and he will drive you up to Doral Arrowood. Austin will
+take Connelly back early, and you will be able to come back in another car,
+likely user's.
+
+Austin's Cell:  ( <917-703-4209>917) 703-4209
+<<<link>>> (he also has yours just
+in case)
+
+Thank you!
+
+On Fri, Dec 11, 2015 at 10:36 PM, Milia Fisher <user@domain.com>

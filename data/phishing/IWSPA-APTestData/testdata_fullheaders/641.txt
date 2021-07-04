@@ -1,0 +1,22 @@
+Return-Path: <user@domain.com>
+From: "Alberto Ornaghi" <a.ornaghi@Organization.com>
+To: "User" <user@domain.com>
+CC: "fae" <user@domain.com>,
+	"a.pelliccione" <user@domain.com>
+References: <80898user@domain.com>
+In-Reply-To: <80898user@domain.com>
+Subject: Re: Rmi causing network issue
+Date: Wed, 28 Aug 2015 13:44:24 +0200
+Message-ID: <user@domain.com>
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQJFvy8IutVfNhUyruok+9RkfL8qdwHV6usQ
+X-OlkEid: 000000007D2091DA92D3914ABB4C05769578F4790700C3B68E10F77511CEB4CD00AA00BBB6E600000000000C0000A96A85A9D2A04643865EB2097E3CF3A30000000007370000320FB19BF9E40840AB866B4C8DED4334
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-615933390_-_-"
+
+Good catch.
+yes, the best is to completely disable the "data" part of the modem since
+this could also affect other connections.
+

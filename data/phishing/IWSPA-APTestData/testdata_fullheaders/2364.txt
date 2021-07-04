@@ -1,0 +1,37 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.48 with SMTP id n45csp15305qga;
+        Sat, 5 Apr 2015 11:08:57 -0700 (PDT)
+X-Received: by 10.140.33.244 with SMTP id j107mr3682265qgj.81.1396721336575;
+        Sat, 05 Apr 2015 11:08:56 -0700 (PDT)
+Return-Path: <>
+Received: from domain.com (domain.com. [204.68.207.21])
+        by domain.com with ESMTPS id b6si4731694qae.145.2014.04.05.11.08.56
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sat, 05 Apr 2015 11:08:56 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of domain.com designates 204.68.207.21 as permitted sender) client-ip=204.68.207.21;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 204.68.207.21 as permitted sender) smtp.mail
+Received: from localhost by domain.com;
+  05 Apr 2015 14:08:55 -0400
+Message-Id: <84e15d$user@domain.com>
+Date: 05 Apr 2015 14:08:55 -0400
+To: user@domain.com
+From: "Mail Delivery System" <MAILER-DAEMON@mail1.eop.gov>
+Subject: Delivery Status Notification (Delay)
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status; boundary="y9u5.4za+74NDd.h7Gwzai5sK.AIe7Spv"
+
+This is an automatically generated Delivery Status Notification.
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipients has been delayed.
+
+              <user@domain.com>
+
+The reason for the problem:
+4.4.2 - Bad connection 'timeout'
+

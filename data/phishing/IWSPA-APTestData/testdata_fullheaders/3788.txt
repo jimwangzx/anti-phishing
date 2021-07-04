@@ -1,0 +1,76 @@
+Return-Path: <user@domain.com>
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.6.4])
+	by domain.com (Postfix) with ESMTP id DE0A42A88C
+	for <user@domain.com>; Sun, 24 Jul 2015 02:36:45 -0400 (EDT)
+Received: by domain.com (Example mail relay)
+	id DCD3A621C99; Sun, 24 Jul 2015 02:36:45 -0400 (EDT)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.3.6])
+	by domain.com (Example mail relay) with ESMTP id BAB51621C95
+	for <user@domain.com>; Sun, 24 Jul 2015 02:36:45 -0400 (EDT)
+Received: (from user@domain.com)
+	by domain.com id CAA20869
+	for user@domain.com; Sun, 24 Jul 2015 02:36:45 -0400
+Received: from domain.com.se (domain.com.se [212.214.126.25])
+	by domain.com with ESMTP id CAA20861
+	for <user@domain.com>; Sun, 24 Jul 2015 02:36:44 -0400
+Received: from domain.com.se (domain.com.se [85.194.0.111])
+	by domain.com.se (Postfix) with ESMTP id 16C5D11404AD
+	for <user@domain.com>; Sun, 24 Jul 2015 08:35:57 +0200 (CEST)
+Received: from pool.lime.ms (cust.fiber-domain.com.se [85.194.51.168])
+	by domain.com.se (Postfix) with ESMTP id 9097E2A503
+	for <user@domain.com>; Sun, 24 Jul 2015 08:35:56 +0200 (CEST)
+Received: from domain.com (c-7ec570d5.016-48-6f72652.cust.bredbandsbolaget.se [213.112.197.126])
+	by pool.lime.ms (Postfix) with ESMTP id 0B96A51198
+	for <user@domain.com>; Sun, 24 Jul 2015 08:35:55 +0200 (CEST)
+Received: by domain.com (Postfix, from userid 1011)
+	id E892147EDF; Sun, 24 Jul 2015 08:35:54 +0200 (CEST)
+To: user@domain.com
+Subject: Your eBay Account Has Been Suspended !!!
+From: "service@eBay.com" <service@eBay.com>
+Content-Type: text/html
+Message-Id: <20050724063554.user@domain.com>
+Date: Sun, 24 Jul 2015 08:35:54 +0200 (CEST)
+Content-Length: 6258
+Lines: 176
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 52
+
+ Dear eBay Member,
+
+ We recenlty noticed one or more attempts to login into your eBay account
+      from a unknow IP address and we have reasons to belive that your account has been 
+  used bya thirth party. In order to protect your Sensitive information or unauthorized listing
+         wetemporarily suspended your account for further investigations.
+<>
+
+According to our site policy you will have to confirm that you are 
+    the real owner of theeBay account by log in end verify your identity or else you 
+        account will remain suspendedwithout the rightto register againwith eBay.
+
+ Thank you ,
+
+eBay © Accounts Managent 
+
+As outlined in our User Agreement, eBay will periodically send 
+  you information about site changes and enhancements. domain.com our Privacy Policy 
+  and User 
+  Agreement if you have any questions. 
+
+Announcements  |  Register 
+          |   Feedback 
+          Forum  |  About 
+          eBay
+
+Copyright  
+      1995-2005 eBay Inc. All Rights Reserved. 
+
+      Designated trademarks and 
+      brands are the property of their respective owners. 
+
+        Use of this Web site constitutes acceptance of the eBay User 
+        Agreement and Privacy 
+      Policy.

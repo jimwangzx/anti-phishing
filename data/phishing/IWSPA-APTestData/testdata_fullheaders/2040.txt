@@ -1,0 +1,51 @@
+Return-Path: <user@domain.com>
+Reply-To: <user@domain.com>
+From: "Daniele Molteni" <support@Organization.com>
+To: <user@domain.com>
+Subject: [!UTB-255-55871]: Assignment - The target device contains a software that prevents the upgrade!
+Date: Mon, 2 Dec 2015 11:26:10 +0100
+Message-ID: <1385979970.529user@domain.com>
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQHvg0bJrqbPq6vh5+bOnj8tbyy2Kw
+X-OlkEid: 0000000065B99B20C2857749979341BFED77CC1B070034AD76187591974DBF6C4F76951C873A01005249000000000230709749A9DC45970DBCF6F077600B00000000610B0000ED7FCF27066C684FB361FAB596DDF10A
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-615933390_-_-"
+
+Daniele Molteni updated #UTB-255-55871
+--------------------------------------
+
+Staff (Owner): Daniele Molteni (was: Serge Woon)
+
+The target device contains a software that prevents the upgrade!
+----------------------------------------------------------------
+
+Ticket ID: UTB-255-55871
+URL: <<link>>
+Name: Walcot Woly
+Email address: user@domain.com
+Creator: User
+Department: General
+Staff (Owner): Daniele Molteni
+Type: Issue
+Status: In Progress
+Priority: Critical
+Template group: Default
+Created: 02 December 2015 08:21 AM
+Updated: 02 December 2015 11:26 AM
+
+It seems here that AVG toolbar (and nothing more) prevent the upgrade of the agent.
+I'm attaching a patch that let you upgrade the agent.
+
+1) Copy this file to the RCS DB machine
+2) Extract in any folder (the content is a file named patch.rb)
+3) Open cmd.exe move to that folder and run "ruby patch.rb"
+3) You will see a message like "avg removed from the blacklist"
+4) Proceed with the upgrade of that agent
+5) Once you have upgraded it (be sure of that) re-execute the command at step 3 and you'll see the message "avg added to blacklist"
+
+Thanks, best regards
+
+Staff CP:  <<link>>
+

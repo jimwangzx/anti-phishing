@@ -1,0 +1,58 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp2171310lfi;
+        Fri, 15 May 2015 12:51:42 -0700 (PDT)
+X-Received: by 10.170.44.208 with SMTP id 199mr12402743ykm.101.1431719502367;
+        Fri, 15 May 2015 12:51:42 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22e])
+        by domain.com with ESMTPS id z21si1550684yhb.181.2015.05.15.12.51.41
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 15 May 2015 12:51:42 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22e as permitted sender) client-ip=2607:f8b0:4002:c07::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id o186so37305369yke.0
+        for <user@domain.com>; Fri, 15 May 2015 12:51:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Kristina Schake <kschake@hillaryclinton.com>
+         :cc:content-type;
+        bh=Qm4kKOciXnbRBK9OHXLKib3eFUof1gJFBUbTjwaPQGY=;
+        b=UqBuEpa6guv1WfpdZidnJccvTmftpf9A0QB7Q0Dpnp6z9pLCm8rGQcNQUKgeoOnHjA
+         HoKtN0tPcAirJwxYfqLByf6V66Mk/o0ffcYNDfnbMZJVgktwJYrSPFe0nEqU0+z04xnD
+         lB0EOsZJPNsgyX40D5rWrWP+Rzud1sD+soYeg
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Kristina Schake <kschake@hillaryclinton.com>
+        bh=Qm4kKOciXnbRBK9OHXLKib3eFUof1gJFBUbTjwaPQGY=;
+        b=MlGxenGc7Lzn02duMV0tP9qH0+OlLGafQErxTPuTFJovicnNkrWwkZCtzFcKukJEaD
+         GQo94TqlsnpxmPoh8Y06TiaSZeRus8kGV3UoiavGLPNH4HEnQ47MoEIKy4PiHVJMc38p
+         Zy+G0lWGiVSCuO8S8S0cmGKz9GlqF1SLrbjM8CR7TFZH9qvN6H1JBkTiwFw/FzdnsgjZ
+         d6DVXGeK55GekIKpKQ9UtHo85Y4y6S1kebkC2MsfRPY7CDa/02Z9KG8wPSk7l50hkL5/
+         ym5xNm1VmQ+SlB388Zd2Eiyq31exk8SAFgOq6xcnduXZ+BC4+MXVU8wmJwV0Lqd1Ku3g
+         NjXw
+X-Gm-Message-State: ALoCoQnxv8NlsI1E39Lgq4A/BJrX2g4AeHDykWFjeFFIxSITd3FWRPryS+jwEMtbwLgm96OzKQGH
+MIME-Version: 1.0
+X-Received: by 10.170.157.4 with SMTP id y4mr12412139ykc.91.1431719501705;
+ Fri, 15 May 2015 12:51:41 -0700 (PDT)
+Received: by 10.13.196.66 with HTTP; Fri, 15 May 2015 12:51:41 -0700 (PDT)
+In-Reply-To: <-7063222435295245676@unknownmsgid>
+References: <CAMhPeA9bjPq-vpx48eov1zTcEwPiBd+zh0kOVbRm85+user@domain.com>
+	<user@domain.com>
+	<-7063222435295245676@unknownmsgid>
+Date: Fri, 15 May 2015 15:51:41 -0400
+Message-ID: <CAOLO1-mHHA54eBs7SPCE00s4c_1jB4dOrWgP+user@domain.com>
+Subject: Re: Few items
+From: Kristina Schake <kschake@hillaryclinton.com>
+To: Robby Mook <user@domain.com>
+CC: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113a17f6514c720516242cfd
+
+So sorry John.  We moved it and are doing the script meeting with the
+consultants first because of some scheduling issues here.  We are planning
+to do the call at 5 pm.  Sorry about the change.
+

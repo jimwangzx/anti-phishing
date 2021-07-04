@@ -1,0 +1,136 @@
+Delivered-To: user@domain.com
+Received: by 10.140.37.194 with SMTP id r60csp309097qgr;
+        Thu, 21 Aug 2015 16:59:09 -0700 (PDT)
+X-Received: by 10.140.82.71 with SMTP id g65mr2564291qgd.75.1408665549092;
+        Thu, 21 Aug 2015 16:59:09 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.17])
+        by domain.com with ESMTPS id o20si40482887qak.76.2014.08.21.16.59.08
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Thu, 21 Aug 2015 16:59:09 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.251.17;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211:28503] by server-17.bemta-12.domain.com id 0F/BC-02565-AC786F35; Thu, 21 Aug 2015 23:59:06 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-9.tower-53.domain.com!1408665544!10472123!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 5764 invoked from network); 21 Aug 2015 23:59:05 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-9.tower-53.domain.com with AES128-SHA encrypted SMTP; 21 Aug 2015 23:59:05 -0000
+Resent-From: Team Kirkpatrick <info@kirkpatrickforarizona.com>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Thu, 21 Aug 2015 19:59:04 -0400
+Received: from [216.82.254.67:23240] by server-10.bemta-7.domain.com id
+ CB/EF-15477-7C786F35; Thu, 21 Aug 2015 23:59:03 +0000
+X-Env-Sender: AQZVVmpcVgFdV1UBV1YDBVtaAwtSPhVcBlxBF1d0WQUSS1FQDBYBURFcR1s
+  user@domain.com
+X-Msg-Ref: server-15.tower-196.domain.com!1408665541!7640088!1
+X-Originating-IP: [69.25.201.197]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNjkuMjUuMjAxLjE5NyA9PiA3NTU5Ng==\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 2015 invoked from network); 21 Aug 2015 23:59:01 -0000
+Received: from mta-dock-front-6.domain.com (HELO
+ mta-dock-front-6.domain.com) (69.25.201.197)  by
+ server-15.tower-196.domain.com with SMTP; 21 Aug 2015 23:59:01 -0000
+Received: from domain.com (unknown [10.0.200.142])	by
+ mta-dock-front-6.domain.com (Postfix) with ESMTP id
+ 3hfN9x3v3Bz1c03V	for <user@domain.com>; Thu, 21 Aug 2015 23:59:01
+ +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1408665541;
+	bh=EFRKT7+5CrZTZXl8sacwISllogdKXCvUF/LbRC+X/qU=;
+	h=Date:To:From: Team Kirkpatrick <info@kirkpatrickforarizona.com>
+	b=k6EDZLbbb6P8cBoL2DH/9TVoWHOzBgUyoWWX4geb72y8rKW98D7H/66hGYgwlfql3
+	 aYsWvegnUDgbK9qYPgNhG8+1XrdtGXtrxEW4dBAQfZ+3ey1ZYW9bKJOcBZZW5KyVSq
+	 SxUcj/phgcbxa4CHV5HM6TtTdOvIku93vTGDZxF0
+Received: from build 	by domain.com with local (PHPMailer);
+	Thu, 21 Aug 2015 23:59:01 +0000
+Date: Thu, 21 Aug 2015 23:59:01 +0000
+To: John user <user@domain.com>
+From: Team Kirkpatrick <info@kirkpatrickforarizona.com>
+Reply-To: <user@domain.com>
+Subject: =?utf-8?Q?J.P._=E2=9E=A1_FOUNDING_MEMBER=3F?
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 8058de4f30d8c39f
+X-rpcampaign: rp_179448
+X-maillist-guid: AQZVVmpcVgFdV1UBV1YDBVtaAwtSPhVcBlxBF1d0WQUSS1FQDBYBURFcR1sfAFcUagsIAgEP
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_e873acb207d9593e8267c09bdde3ebfe"
+
+John -- this is urgent:
+
+As you read this, a right-wing outside group is running a massive ad 
+campaign on Arizona T.V. smearing Ann's record.
+
+With the primary just FIVE days away, it couldn't be more critical that we 
+fight back for Ann -- right now.
+
+That's why we're launching Ann Kirkpatrick's Grand Canyon Victory Project. 
+Funded by grassroots supporters like you, this program will provide the 
+critical resources we need to reach out to voters and help spread Ann's 
+message.
+
+So, chip in today, we'll mark you down as a Founding Member. But make sure 
+you hurry, Ann's re-elections campaign is hanging in the balance!
+
+John user
+Founding Member? Not Yet!
+Goal: 500 Supporters
+
+<<link>>
+4.08.21_b1_tk_ldnd&amp;amp;recurring=3Dtrue&amp;amp;amount=3D25&amp;amp;am
+ounts=3D15,25,50,100,250,500,1000&amp;amp;user@domain.com
+du&amp;amp;firstname=3DJohn&amp;amp;lastname=3Duser&amp;amp;city=3DWash
+ington&amp;amp;state=3DDC&amp;amp;zip=3D20016&amp;amp;phone=3D2162818851&a
+mp;amp;occupation=3D&amp;amp;employer=3D
+
+Every dollar raised from this critical project will go directly toward 
+contacting Arizona voters across our vast district and supporting critical 
+volunteer efforts.
+
+So don't domain.com -- chip in today to help us start off strong:
+
+<<link>>
+4.08.21_b1_tk_ldnd&amp;amp;recurring=3Dtrue&amp;amp;amount=3D25&amp;amp;am
+ounts=3D15,25,50,100,250,500,1000&amp;amp;user@domain.com
+du&amp;amp;firstname=3DJohn&amp;amp;lastname=3Duser&amp;amp;city=3DWash
+ington&amp;amp;state=3DDC&amp;amp;zip=3D20016&amp;amp;phone=3D2162818851&a
+mp;amp;occupation=3D&amp;amp;employer=3D
+
+Thanks for stepping up,
+
+Team Kirkpatrick
+
+P.S. Election Day is exactly 75 days away and time is running out to make 
+a difference. Pitch in for Ann's Grand Canyon Victory Project >>
+
+<<link>>
+4.08.21_b1_tk_ldnd&amp;amp;recurring=3Dtrue&amp;amp;amount=3D25&amp;amp;am
+ounts=3D15,25,50,100,250,500,1000&amp;amp;user@domain.com
+du&amp;amp;firstname=3DJohn&amp;amp;lastname=3Duser&amp;amp;city=3DWash
+ington&amp;amp;state=3DDC&amp;amp;zip=3D20016&amp;amp;phone=3D2162818851&a
+mp;amp;occupation=3D&amp;amp;employer=3D
+
+This message was emailed to: user@domain.com
+
+To unsubscribe from this email list, please paste this URL into your 
+browser:
+<<link>>
+
+Paid for by the Kirkpatrick for Arizona
+

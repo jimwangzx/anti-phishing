@@ -1,0 +1,115 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Sun, 15 Jun 2015 10:01:44 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s5FH1heN008407	for <user@domain.com>; Sun, 15 Jun 2015 
+ 17:01:43 GMT
+Received: from mail86-ch1-domain.com (mail-domain.com
+ [216.32.181.173])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s5FH1bjU005820
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Sun, 15 Jun 2015 17:01:37 GMT
+Received: from mail86-ch1 (localhost [127.0.0.1])	by mail86-ch1-domain.com
+ (Postfix) with ESMTP id 075A3320404	for <user@domain.com>; Sun, 15
+ Jun 2015 17:01:43 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:65.39.215.148;KIP:(null);UIP:(null);SRV:BULK;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: -1
+X-BigFish: vps-1(z579eh5109h5105h588dhz709fIc89bhe0eah758Ic857hc545Idbb0izz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz1d7338h1de098h1df219h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h172c6ch1ce120hz2fheh5fh839h8aahe5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h2565h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h214ai)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail86-ch1: domain of domain.com designates 65.39.215.148 as permitted sender) client-ip=65.39.215.148; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail86-ch1 (localhost.localdomain [127.0.0.1]) by mail86-ch1
+ (MessageSwitch) id 1402851700263573_18584; Sun, 15 Jun 2015 17:01:40 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.227])	by mail86-domain.com (Postfix) with ESMTP id 3A9BD42009C
+	for <user@domain.com>; Sun, 15 Jun 2015 17:01:40 +0000 (UTC)
+Received: from mx-domain.com (65.39.215.148) by domain.com
+ (10.43.70.17) with Microsoft SMTP Server id 14.16.227.3; Sun, 15 Jun 2015 
+ 17:01:40 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Variety <donotreply@variety.com>
+ bh=9zDunuE7jfcLc7BivujFEujxkjE=;
+ b=eVOM+qt5dkfS0ArEiEzIyG8cYt84glDY24U9bXm0MaJvO7l/Yrryq3DAFLvzkU+9CdPKZ/Z+fjaL
+   N6Yl1/HcNmwag0UmWmUP8oOpdT2l2+l8mjaq3dDPaTltJLx8Ff1pg4xFFpPyY8rXAjKY+PsLOvWE
+   hzjYHi36KrQ03FTEFWw
+Received: from nyp1-p-p4321-prd-jma-22.sailthru.pvt (65.39.215.174) by
+ mx-domain.com id hjn8na1qqbsm for <user@domain.com>; Sun, 15 Jun
+ 2015 13:01:41 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1402851719;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety <donotreply@variety.com>
+	bh=TgWY+NkrJoDPfMw9DPMlO33anjrZKGopqSoEl+5zsik=;
+	b=jbQWoT5/ksT6V4gxTY2W0lDfI8+EdWzi9Aj0qk0AuUWZn/0ZFl5GaSg6X8jUY/bI
+	aYzdkcJ5f0PJvh3gQPSTVDCO64P91Gx0S4EJDyJzoRPl0OEQykgmavqg6KuQL/3/OiU
+	oZR198isVhJY8VFAPLhKQH7CiIotwOeiOX+9rpi8
+Date: Sun, 15 Jun 2015 13:01:59 -0400
+From: Variety <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140615170159.2736458.18476@domain.com>
+Subject: =?utf-8?B?SW4gQ2FzZSBZb3UgTWlzc2VkIEl0OiAnQ2xpbnQgRWFzdHdvb2Q6IENvd2Jv?
+ =?utf-8?B?eSBMZWQg4oCYSmVyc2V5IEJveXPigJkgRG8=?
+ =?utf-8?B?d24gYSBOZXcgVHJhaWwnICYgTW9yZSE=?
+Precedence: bulk
+X-TM-ID: 20140615170159.2736458.18476
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4321-prd-jma-22.sailthru.pvt
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2736458
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+In Case You Missed It: 'Clint Eastwood: Cowboy Led ‘Jersey Boys’ Down a New Trail' & More!
+
+Harrison Ford Injured on the Set of ‘Star Wars: Episode VII’; Movie Stars Have Become... 
+
+​ 
+
+Variety         
+
+In Case You Missed It   
+
+Sunday, June 15, 2015   
+
+​ 
+
+We’ve Got You Covered: This Week’s Cover Story  
+
+                Clint Eastwood: Cowboy Led ‘Jersey Boys’ Down a New Trail
+In 1962, the same year that a quartet of working-class New Jersey youths called the Four Seasons shot to the top of the pop charts with the irresistible doo-wop single “Sherry,” a solo artist from ...        
+
+
+
+
+Catching Fire: Most Read Stories This Week      
+
+
+
+
+Harrison Ford Injured on the Set of ‘Star Wars: Episode VII’
+
+
+
+Movie Stars Have Become an Endangered Species
+
+
+
+Tom Hiddleston to Play Country Icon Hank Williams in Biopic
+
+
+
+Variety Accolades and Activities        
+
+        Watch full video of Variety's Night in the Writers Room, featuring top TV drama and comedy scribes discussing their storytelling process.       
+

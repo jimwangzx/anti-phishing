@@ -1,0 +1,74 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp555937lfb;
+        Thu, 10 Dec 2015 10:01:22 -0800 (PST)
+X-Received: by 10.141.28.80 with SMTP id f77mr8549799qhe.66.1449770481995;
+        Thu, 10 Dec 2015 10:01:21 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::22c])
+        by domain.com with ESMTPS id j133si13032450qhj.106.2015.12.10.10.01.21
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 10 Dec 2015 10:01:21 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::22c as permitted sender) client-ip=2607:f8b0:400d:c04::22c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::22c as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: by mail-qg0-domain.com with SMTP id c31so122477951qgc.3
+        for <user@domain.com>; Thu, 10 Dec 2015 10:01:21 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=mercedesberk-domain.com; s=20150623;
+        h=content-type:mime-version:subject:From: Fran Shapiro <fran@mercedesberk.com>
+         :content-transfer-encoding:message-id:references:to;
+        bh=lDYiw9bra1xzWQNW0NoJqig42URX7f3geucY2qiWEH4=;
+        b=2Ig8TZYW67Ktl3OMakgJzQJ252pPXVotWH5RlXfTfERnosaP7kTKjTGXyD0GnXoA6G
+         1DkkB3YaWWJnM5gTuDtaBuhikK1dZPnDCQVvpRt4oMzwfO3mfJ/ut/gAVwjGhMXbMUUW
+         cwrBXlI06M9Itx9Dz2Gyo1sD1s8NTiDjN/vJhShr5ytzDvDgWt4d51U/rUUhwUzr377i
+         eiFl0Q3YXQRt8/r4GED/8HmTU/4dfr8Uu2uQY3YrInVdCkyyISQ7J/C1duZba7V4qf14
+         X/fi8QS88X0NP4VlMqh/x1xQMo73/VZFzNkpzCy3unosiSFoIQN6IsH9lYNcZFA3+UpO
+         j/Ow
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:content-type:mime-version:subject:from
+         :in-reply-to:date:cc:content-transfer-encoding:message-id:references
+         :to;
+        bh=lDYiw9bra1xzWQNW0NoJqig42URX7f3geucY2qiWEH4=;
+        b=XPvynJwqDuhKh1wY96lXg05NDfvlcv5WKihd0jnyRu6qWZIp6N+3uUQOhGo+aH5u3q
+         OftVvfRjZqLVqxjlaA8WasGr0qzbWi+Xtx1thJRbD9im0oca7aAE6JNXz7ZQqkcipJCx
+         Gqt1PLYDypKx6Iyt1GoyydIi65vOhXXQ0Z591PjflxBzCDxjIjq2bFeM6z5rYj63tQDe
+         sKfRQ268DCMq/ityRB6nKRbIfM+oHLqsPSZec7E8sUhSOldGUh+dGpe1NN1CoS5GRcK8
+         bxYi+hhahEOKki0mLOwvjFnZsRbAzKBBqKr27vAyP29NwvD+H4bdHL0L4xOsf40gegIC
+         d6jg
+X-Gm-Message-State: ALoCoQmWj2cFhcfZlufvbnVLLzRQ55T+vDesSc+7DMgafO7mGzpfRog04dSRYDbyuo5sfBnidF406j425lmgZIyrI7AaFOV64Q
+X-Received: by 10.140.85.147 with SMTP id n19mr17792012qgd.39.1449770475588;
+        Thu, 10 Dec 2015 10:01:15 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [10.176.113.47] (mobile-166-171-185-120.domain.com. [166.171.185.120])
+        by domain.com with ESMTPSA id z190sm6504503qka.0.2015.12.10.10.01.14
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 10 Dec 2015 10:01:14 -0800 (PST)
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-9CEF688A-3C14-4CAC-BF9C-06AADBB79EAF
+Mime-Version: 1.0 (1.0)
+Subject: Re: Showing Friday, 1:40 p.m.
+From: Fran Shapiro <fran@mercedesberk.com>
+X-Mailer: iPhone Mail (13C75)
+In-Reply-To: <7user@domain.com>
+Date: Thu, 10 Dec 2015 13:01:14 -0500
+CC: Mae user <user@domain.com>, John user <user@domain.com>
+Content-Transfer-Encoding: 7bit
+Message-Id: <97user@domain.com>
+References: <CAO++user@domain.com> <7user@domain.com>
+To: user user <user@domain.com>
+
+Thanks
+
+Fran Shapiro
+Licensed Real Estate Salesperson
+
+Engel & V=C3=B6lkers Mercedes/Berk
+783 Madison Avenue, 3rd Floor
+New York, NY 10065
+Tel: +1 646-661-2079
+Cell: +1 347-556-4409
+mercedesberk.com
+

@@ -1,0 +1,82 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp60273lfb;
+        Wed, 22 Oct 2015 05:17:14 -0700 (PDT)
+X-Received: by 10.140.20.82 with SMTP id 76mr52114988qgi.29.1413980233641;
+        Wed, 22 Oct 2015 05:17:13 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-dock-front-3.domain.com (mta-dock-front-3.domain.com. [70.42.50.132])
+        by domain.com with ESMTP id o4si27576719qag.2.2014.10.22.05.17.12
+        for <user@domain.com>;
+        Wed, 22 Oct 2015 05:17:13 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 70.42.50.132 as permitted sender) client-ip=70.42.50.132;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 70.42.50.132 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (unknown [10.0.200.87])
+	by mta-dock-front-3.domain.com (Postfix) with ESMTP id 3jN9gX6C4xzjWwS
+	for <user@domain.com>; Wed, 22 Oct 2015 12:17:12 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1413980232;
+	bh=/kVVBIxyktBxw41An1QGt7y5PoruG2Q2OQOScPMuEr4=;
+	h=Date:To:From: Maloney Ads Office <info@seanmaloney.com>
+	b=oLASKxIMGVFGE54RmS9DkuJHKQITCcW5homKYHtci+/KiumH7JgdXPrlcnEQny1U1
+	 BDvmUzTmjriJ96BBKdNVy60uHP3jWzk85sQX2I4vB3SEBqYBsJOn5xG5FwOtV5kJjw
+	 K2lYFf7XQFJbEkU5Htq9zd8okF/sgvMZE7kH+sbA
+Received: from build 
+	by domain.com with local (PHPMailer);
+	Wed, 22 Oct 2015 12:17:12 +0000
+Date: Wed, 22 Oct 2015 12:17:12 +0000
+To: John user <user@domain.com>
+From: Maloney Ads Office <info@seanmaloney.com>
+Reply-to: user@domain.com
+Subject: NEWS ALERT: NRCC attacks in NY
+Message-ID: <410user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 56795a0eb4b475db
+X-rpcampaign: rp_204
+X-maillist-guid: CARaWg0BHz1QBQcMBAQDBAENUgYDAgFRa1NdC1gaRQsBAEVBAiQBWQRaXBtSCl5oVQoG
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_410bd0d32d3d2489f7d481d7bb7c8f7f"
+
+
+
+
+John -
+
+BREAKING NEWS ALERT: The NRCC announced they are funneling $100,000 into 
+ads against Sean!
+
+The good news is that some of our supporters are extending their donation 
+match until midnight tonight to help us fight back against Boehner and the 
+NRCC. But without your contribution to keep our ads up, there is no 
+question: WE WILL LOSE.
+
+<<link>>
+1022am-ld&amounts=3D250,500,1000,2500,2600
+
+If we're going to stop Congresswoman Hayworth from heading to Washington 
+to help Boehner and his buddies, we're going to need to hit 'em with 
+everything we've got. We're counting on you.
+
+Thanks,
+
+Maloney Ads Office
+
+Contribute - <<link>>
+efcode=3D20141022am-ld&amounts=3D250,500,1000,2500,2600
+
+--
+
+This email was sent to user@domain.com
+
+To unsubscribe from the Sean Patrick Maloney for Congress email list, 
+please click here:
+
+<<link>>
+.com
+
+Paid for by Sean Patrick Maloney for Congress
+

@@ -1,0 +1,87 @@
+Delivered-To: user@domain.com
+Received: by 10.204.35.132 with SMTP id p4csp75545bkd;
+        Tue, 9 Apr 2015 10:54:18 -0700 (PDT)
+X-Received: by 10.60.19.101 with SMTP id d5mr18358856oee.115.1365530058276;
+        Tue, 09 Apr 2015 10:54:18 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [69.48.252.166])
+        by domain.com with ESMTP id az2si18189940obb.29.2013.04.09.10.54.17;
+        Tue, 09 Apr 2015 10:54:18 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.48.252.166 as permitted sender) client-ip=69.48.252.166;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 69.48.252.166 as permitted sender) user@domain.com;
+       dkim=pass (test mode) user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=selector1; d=mta-domain.com;
+ h=Message-ID:Date:Reply-To:Mime-Version:Content-Type:From: Gene Karpinski <feedback@lcv.org>
+ bh=hemarZPNo96EN41nfRWbME8Gb3k=;
+ b=jzb8MKDI4+W2SokV6SdcQbiE1I3VTe4l3kN0T9uBKMbzsJW0Gfh69jqNOPOZ7iD6qjrPJzDriCuB
+   sBIMVcTEKSod7+ht/8sdcmwoIYayRVadSm4RkJ9I4Un8ekefoLGeRbFjyV4KgDiU+3lOD3VQVzdT
+   3AUiSXONGnjQbJrVq5Q
+Received: from 10.0.31.216 (10.0.31.59) by mta-domain.com id hchask1arf0h for <user@domain.com>; Tue, 9 Apr 2015 12:27:11 -0500 (envelope-from <user@domain.com>)
+Message-ID: <33116861.1365528431354.user@domain.com>
+Date: Tue, 9 Apr 2015 12:15:18 -0500 (CDT)
+Reply-To: Gene Karpinski <user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1909561_10090263.1365528431347"
+Organization: League of Conservation Voters
+X-campaignid: Convio-poola-lcv-27601
+X-Gateway: c3poola2
+XData: 1010,user@domain.com@user@domain.com
+X-ConvioDeliveryGroup: poola
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; 
+  s=convio1; d=lcv.org; 
+  h=From: Gene Karpinski <feedback@lcv.org>
+  b=cOIiToklU+tTRWiajNqXmzJPLPtCdgHRTSXhDE5FjujGNuK+AS3P0Te0Y0hJUFV8i4g8+0SROOdYxd0J/2NLnA==  
+From: Gene Karpinski <feedback@lcv.org>
+To: user@domain.com
+Subject: These Champs Need Us Now:
+
+Donate to Representatives Ami Bera, Dan Maffei, and Pete Gallego. We need to keep environmental allies like them in the U.S. House of Representatives: <<link>> .
+
+John,
+
+Help these three champs get re-elected!
+
+Ami Bera, Dan Maffei, Pete Gallego took on members of the Flat Earth Five and won. We need them in the U.S. House of Representatives. Make a gift to their campaigns: <<link>> .
+
+Last year was a fantastic election year for climate champions. With help from LCV friends like you, we defeated 11 of the Dirty Dozen and four of the Flat Earth Five. Simply put, it was the best election result in LCV Action Fund's history and we couldn't have won without friends like you.
+
+LCV Action Fund won because we invested early -- in data, candidates, polling, and voter registration. We were facing enormous odds and the deep, deep pockets of organizations controlled by Karl Rove and the Koch brothers.
+
+And while Karl Rove and the Koch brothers were blanketing the airwaves with a barrage of last-minute negative ads, LCV Action Fund's staff and members were knocking on doors in targeted districts and making sure voters were getting to the polls.
+
+Donate to Ami Bera, Dan Maffei, and Pete Gallego via LCV Action Fund's GiveGreen bundling program. Giving early in the cycle to each of their campaigns ensures they have the resources to invest now, not just on Election Day: <<link>> .
+
+We won in 2015 -- not because we had hundreds of millions to drop into a negative ad war -- we won because we invested early and wisely AND because friends like you were willing to contribute directly to climate allies' campaigns through LCV Action Fund's GiveGreen bundling program.
+
+As we take a look at the 2015 political landscape, it's clear that the time is NOW to invest in our allies' campaigns. At the top of the House list are the congressmen who defeated three of the most notorious members of the Flat Earth Five. Re-electing climate champions like Representatives Ami Bera, Dan Maffei, and Pete Gallego must be at the top of our priority list.
+
+Donate now to Representatives Ami Bera, Dan Maffei, and Pete Gallego to ensure that we keep these pro-environment voices in Congress. These three congressmen are high on the target lists of Big Oil and other polluting interests. Please give to their campaigns via LCV Action Fund's GiveGreen today: <<link>> .
+
+Here's a little background on each of them:
+
+*  Representative Ami Bera (CA-7) is running for reelection to represent California's 7th Congressional district. Rep. Bera defeated former Rep. Dan Lungren, a member of LCV's Flat Earth Five and a steadfast climate change denier. Throughout his career as a physician and during his campaign for Congress, Rep. Bera supported responsible, clean development for healthier communities. Give to all three candidates: <<link>> .
+
+*  Representative Dan Maffei (NY-24), who has a 96% lifetime LCV score, is running for his second consecutive term representing New York's 24th Congressional District. In 2015 he defeated former Rep. Ann Marie Buerkle, one of LCV's Flat Earth Five members and an adamant climate change denier. In his previous term in Congress, Maffei voted for the American Clean Energy and Security Act (ACES), which would have reduced global warming pollution 17% from 2015 levels by 2015 and 83% by 2050, and helped create up to 2 million new clean economy jobs. Give to all three candidates: <<link>> .
+
+*  Pete Gallego (TX-23) has a strong record protecting the environment. In 2012, Gallego defeated former Rep. Francisco Canseco, a Flat Earth Five member and vehement climate change denier. Prior to being elected to the U.S. House of Representatives, Gallego served in the Texas House of Representatives for two decades and received excellent grades on the Texas LCV's Legislative Scorecard. Give to all three candidates: <<link>> .
+
+We can count on these three congressmen to stand with us on policies that protect the air we breathe and water we drink. They are allies and they are friends in the fight against climate change. Help us keep them in the U.S. House of Representatives for many years to come. Chip in now to help them get re-elected: <<link>> .
+
+Thanks,
+
+Gene
+
+Paid for by the League of Conservation Voters Action Fund, domain.com, and not authorized by any candidate or candidate's committee.
+
+Update Your Profile
+<<link>>
+
+To Unsubscribe Click Here
+<<link>>
+
+1920 L Street, NW Suite 800
+Washington, DC 20036
+202-785-8683
+

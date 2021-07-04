@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.9 with SMTP id o9csp615639lfi;
+        Tue, 10 Feb 2015 06:37:27 -0800 (PST)
+X-Received: by 10.43.67.3 with SMTP id xs3mr30659585icb.39.1423579046564;
+        Tue, 10 Feb 2015 06:37:26 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from nm23-vm3.bullet.mail.ne1.yahoo.com (nm23-vm3.bullet.mail.ne1.yahoo.com. [98.138.91.153])
+        by domain.com with ESMTPS id bd8si10286765icc.15.2015.02.10.06.37.25
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 10 Feb 2015 06:37:26 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 98.138.91.153 as permitted sender) client-ip=98.138.91.153;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 98.138.91.153 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1423579045; bh=DZtPhux1kQ9U3pDEHIECnQ7FTEhgY1bsFC3YTy0lfeE=; h=Date:From: <rosapepeassistant@yahoo.com>
+Received: from [98.138.226.176] by nm23.bullet.mail.ne1.yahoo.com with NNFMP; 10 Feb 2015 14:37:25 -0000
+Received: from [98.138.89.234] by tm11.bullet.mail.ne1.yahoo.com with NNFMP; 10 Feb 2015 14:37:25 -0000
+Received: from [127.0.0.1] by omp1049.mail.ne1.yahoo.com with NNFMP; 10 Feb 2015 14:37:25 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 534304.10291.user@domain.com
+X-YMail-OSG: atQi6L0VM1kOq_dF2H7TL_WsGWgrfMhoHt_7P5p0HT_i7Ndofae5AG_gFdGyns.
+ w_ayMpNc3QPcpdRlc6FFTb2QFdJHcwlw_nD8oGcJnD.sbrJtHs71K23PwTZzjBWIdI7djqHAfUy5
+ ogL522c0TstWAGed2e2D5ETcqvhqlKckwelEqA25CiLvk15Y9MamomzB.smGaoBYxaLyHBMjN8_C
+ wTtIay1dgZJ.brCXX49myPXTyrFPLr91a_5OVONw2HblSu848sRINlZdBFYxbHZluiIPtgP75Ii_
+ ab86lP9pWc.r_bIMUsCAyug6SZxPy10aOGpz5FFhicbywRytVHWaLG7oomiJnup68x9ShSqOke2W
+ 75qIZCdoCOCTTaTyiE5CMlRFX9TtFEZ8q1334bb5h.KBIyiz2kbIlahwf_eWjkqdQNpKYKYLk4BE
+ 0J5OEOaF0JKiVaLwnjKhfePLaLEH1Qg8_ZrtShKadLYpoCtxLiOWL1ZKE9LFsanXIh07A8c5jssx
+ z66AdFz3RjrmI5Bbg
+Received: by 98.138.105.192; Tue, 10 Feb 2015 14:37:25 +0000 
+Date: Tue, 10 Feb 2015 14:37:24 +0000 (UTC)
+From: <rosapepeassistant@yahoo.com>
+Reply-To: <user@domain.com>
+To: "User" <user@domain.com>
+Message-ID: <774764874.1579805.1423579044585.user@domain.com>
+Subject: Call w/Jim Rosapepe
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1579804_1908952137.1423579044582"
+Content-Length: 2015 
+
+Mr. user -=C2=A0
+Jim Rosapepe would like to schedule a quick call with you in the next week 
+or so. Please let me know if you are available at any of the following time
+s:=C2=A0
+Wednesday, February 11th at 9:30am=C2=A0Friday, February 13th at 4pm=C2=A0M
+onday, February 16th anytime between 10am and 5pm=C2=A0
+Thanks, =C2=A0Lucy WinterhalderAssistant/SchedulerOffice of=C2=A0Jim Rosape
+pePatuxent Group
+202.349.7018 (office)
+202.204.5925 (fax)

@@ -1,0 +1,108 @@
+Delivered-To: user@domain.com
+Received: by 10.205.118.144 with SMTP id fq16csp264255bkc;
+        Fri, 28 Jun 2015 10:10:30 -0700 (PDT)
+X-Received: by 10.224.78.11 with SMTP id i11mr19326514qak.29.1372439428422;
+        Fri, 28 Jun 2015 10:10:28 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [70.42.50.132])
+        by domain.com with ESMTP id w6si3860691qef.108.2013.06.28.10.10.27
+        for <user@domain.com>;
+        Fri, 28 Jun 2015 10:10:28 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 70.42.50.132 as permitted sender) client-ip=70.42.50.132;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 70.42.50.132 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (localhost [127.0.0.1])
+	by mta-domain.com (Postfix) with ESMTP id 3bhkxv6NkCzJmr8
+	for <user@domain.com>; Fri, 28 Jun 2015 13:10:27 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1372439427;
+	bh=v4khYQHGxueqoAdS/Hyd03CyeC1diygLL3lA2RugiEs=;
+	h=Date:To:From: Terry McAuliffe <info@terrymcauliffe.com>
+	 MIME-Version:Content-Type;
+	b=D7WPPZKkvb8YGAhsOdsO2VEgoDnBKfw3NJfwkvKYmY/knAlTQZOskDulWQs+orj1P
+	 54MZEBIaSksRpPgoaEhFHLHXmjmdQiDrQjCa8DK2DUvjr+nS5GO5OSOo2VLgKT0YOS
+	 SmVGCt7p4UFntFr/Ye1Qsxkt0/u6+KeSSnu48qWc
+Received: from maillist-b 
+	by domain.com with local (PHPMailer);
+	Fri, 28 Jun 2015 17:10:27 +0000
+Date: Fri, 28 Jun 2015 17:10:27 +0000
+To: user@domain.com
+From: Terry McAuliffe <info@terrymcauliffe.com>
+Reply-to: user@domain.com
+Subject: 1 on 5?
+Message-ID: <193user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 673c86f955838240
+X-rpcampaign: rp_20014
+X-CampaignID: xgreenarrow:CAZXQA8NAFIAOgIDBg
+X-maillist-guid: CAZXQA8NAFIAOgYCAgYLVwUABQcMBF0BVgk7CVlcW0oVClJQEBAHdAJeUVxdS1AODg
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_193e1a27c443286c7f64a4193367f24d"
+
+Friend,
+
+Running for office in the Super PAC era is a lot like
+playing 1 on 1 basketball -- against an entire Final Four
+team.
+
+I'm not just running against Ken Cuccinelli. I'm running
+against Ken Cuccinelli, Karl Rove, the Koch Brothers, AND
+anyone else who decides to throw on a jersey, form a Super
+PAC, and spend unlimited amounts of money to try and buy
+this election.
+
+If we fall behind in this game, they might be able to spend
+their way to victory.
+
+Sunday's end of quarter fundraising deadline is fast
+approaching and I'm just $68,445 away from my goal -- and from
+raising the kind of money we need to stay in it and win it.
+
+Will you donate $5 right now to help me get there?
+
+<<link>>
+
+I set a big goal for this quarter because just matching
+Cuccinelli's fundraising numbers won't be enough. It's not
+just us vs. him, it's us vs. him and his deep bench of Super
+PAC ringers.
+
+If we're going to be heard above the TV ads their millions
+will buy (and that kind of money buys a lot of ads), we need
+to outraise him.
+
+Fortunately, I've got people like you on my team -- folks
+who'll talk directly to their neighbors about what's at
+stake for all of us in this election. Folks who'll support
+me with a contribution when I let you know it's really
+important.
+
+This is one of those times.
+
+Let's show Ken Cuccinelli -- and all the outside groups lined
+up to buy this election for him -- that we won't be scared
+away from this fight.
+
+Please donate $5 to help me raise $100,000 before midnight
+Sunday:
+
+<<link>>
+
+This isn't an even fight, but having you on my side makes it
+feel a whole lot fairer,
+
+Terry
+
+DONATE: <<link>>
+
+---
+Paid for by Terry McAuliffe for Governor
+---
+
+Unsubscribe: <<link>>
+user@domain.com
+

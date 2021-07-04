@@ -1,0 +1,170 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp3543592lfr;
+        Wed, 26 Aug 2015 13:42:40 -0700 (PDT)
+X-Received: by 10.202.3.213 with SMTP id 204mr532905oid.4.1440621760820;
+        Wed, 26 Aug 2015 13:42:40 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::22e])
+        by domain.com with ESMTPS id e3si18240702obp.59.2015.08.26.13.42.39
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 26 Aug 2015 13:42:40 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22e as permitted sender) client-ip=2607:f8b0:4003:c01::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id he7so3386923obb.0
+        for <user@domain.com>; Wed, 26 Aug 2015 13:42:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :content-type;
+        bh=6Rq6o9AkeVAvWKo5Nlj8NGZN44NiXQylvKThDWPfUrU=;
+        b=TYD+vYzo2+tK0EQxU1NDWji9vFgG13BT7hf5b//VkdIeSo13sdCzQoOi2+5KwUehFj
+         kBwROuvW7NkzH7k0gPlthDA2Y/St8pFs1ASrnGaOyW4C+brWRlOPuXgQpcXLqWBwnC7V
+         gDavG1xu1To/1QtE+fphD2L2DEZL/rRw5wopI
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+        bh=6Rq6o9AkeVAvWKo5Nlj8NGZN44NiXQylvKThDWPfUrU=;
+        b=iLUFKpkAnAVNfoV3h1W985N47DiwPwI8C80HNu9YKjVfDfnNuk/KFBiNRrQ07xyuWP
+         bMBxUtJUd90G9xpe7rGq8KSTp/gXTi61e8MXx3UhreubC9CbQugCR8lkoLyQXsTpADfN
+         5HJqaQ0HvwNCtnStS60vNbFNBPS+sJiRVbqKNi+kFUaTWukwRNYdkvsu6AYqfi2RxeCo
+         3Kd8k/5jVf7zM24Qq3vnpyMb6cLhKMiw7fP6rODVXq3A4zHqxWE4PMJeK1NlLorohlcJ
+         CPMRiGuM/t/Q3zijWqI7xD/FqYzhEGD1KU4D6NGiNDzgvbbJWO1Lbt1LgV/hx8CVIaaJ
+         dUSQ
+X-Gm-Message-State: ALoCoQm5A9gfeUkTryGhdRBtB0dupFx2S8Mh+cKY4tbS6q4l01HqQF0a46UI5mnz2o9LxR5R19tD
+MIME-Version: 1.0
+X-Received: by 10.60.23.73 with SMTP id k9mr322207oef.25.1440621759694; Wed,
+ 26 Aug 2015 13:42:39 -0700 (PDT)
+Received: by 10.202.183.6 with HTTP; Wed, 26 Aug 2015 13:42:39 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <779367146.9376341440616845464.user@domain.com>
+	<user@domain.com>
+Date: Wed, 26 Aug 2015 16:42:39 -0400
+Message-ID: <CAEMn5QkjueNUL0LCz1CBibdMYFA+user@domain.com>
+Subject: Fwd: FW: Amtrak: eTicket and Receipt for Your 08/27/2015 Trip - JOHN user
+From: Milia Fisher <mfisher@hillaryclinton.com>
+To: John user <user@domain.com>
+Content-Type: multipart/mixed; boundary=047d7b33d3183e7f5d051e3ce471
+
+Tomorrow's noon Amtrak acela ticket attached.
+
+---------- Forwarded message ----------
+From: Milia Fisher <mfisher@hillaryclinton.com>
+Date: Wed, Aug 26, 2015 at 3:22 PM
+Subject: FW: Amtrak: eTicket and Receipt for Your 08/27/2015 Trip - JOHN
+user
+To: Milia Fisher <user@domain.com>
+Cc: Travel <user@domain.com>, Travel Billing <
+user@domain.com>
+
+Milia =E2=80=93 Here is John=E2=80=99s train ticket confirmation for tomorr
+ow
+
+Travel =E2=80=93 Please track
+
+*From: Milia Fisher <mfisher@hillaryclinton.com>
+*Sent:* Wednesday, August 26, 2015 3:21 PM
+*To:* user@domain.com
+*Subject:* Amtrak: eTicket and Receipt for Your 08/27/2015 Trip - JOHN
+user
+
+SALES RECEIPT
+
+Purchased: 08/26/2015 12:20 PM PTThank you for your purchase.
+
+   1. Retain this receipt for your records.
+   2. Print the attached eTicket and carry during your trip.
+
+Merchant ID 0074460 Massachusetts AvenueWashington, DC
+20002800-USA-domain.com
+
+Reservation Number - 60F2E0WASHINGTON, DC - NEW YORK PENN, NY (One-Way)AUGU
+ST
+26, 2015 
+
+Billing Information
+
+BETH JONES300 CADMAN PLAZA WEST, 11TH FLBROOKLYN, NY 11201
+------------------------------
+
+American Express ending in 1022 (Purchase)Authorization Code 200856
+
+Total $158.00
+------------------------------
+
+Purchase Summary - Ticket Number 2380744564174
+
+Train 2164: WASHINGTON, DC - NEW YORK (PENN STATION), NYDepart 12:00 PM,
+Thursday, August 27, 2015 
+
+1 ACELA EXPRESS BUSINESS CL SEAT
+
+$158.00
+
+Ticket Terms & ConditionsACELA EXPRESS SERVICE, NO PARTIAL REFUND IF USED
+ON OTHER SERVICE
+
+*Subtotal*
+
+*$158.00*
+
+*Total Charged by Amtrak*
+
+*$158.00*
+
+Passengers
+
+John user
+
+Important Information
+------------------------------
+
+=C2=B7         Tickets are non-transferrable.
+
+=C2=B7         Changes to your itinerary may affect your fare.
+
+=C2=B7         Refund and exchange restrictions and penalties for failure t
+o
+cancel unwanted travel may apply. If your travel plans change, call us
+before departure to change your reservation. If you do not board your
+train, your entire reservation from that point will be canceled. If you
+board a different train without notifying us, you will have to pay for it
+separately; the conductor cannot apply the money paid for your prior
+reservation. For all travel on or after March 1, 2014, for most Acela
+Express Business class reservations and Reserved Coach class reservations,
+you must cancel your reservation at least 24 hours prior to the train's
+departure in order to be eligible for a full refund. If the reservation is
+canceled within 24 hours of departure, a refund fee will apply. If the
+reservation is not canceled prior to scheduled departure ("no show"), the
+entire amount paid for the reservation will be forfeited. See the
+refund/exchange policy at domain.com/refund.
+<<<link>>>
+
+=C2=B7         Summary of Conditions of Contract: Ticket valid for carriage
+ or
+refund (subject to the refund rules of the fare purchased) for twelve
+months after date of issue unless otherwise specified. Amtrak tickets may
+only be sold or issued by Amtrak or an authorized travel agent/tour
+operator. Tickets sold or issued by an unauthorized third party will be
+voided by Amtrak. This ticket is a contract of carriage between Amtrak and
+the ticket holder, which is subject to specific terms and conditions, which
+are available for inspection at Amtrak ticket counters, on the Amtrak
+website at domain.com/conditionsofcontract
+<<<link>>>, or by calling 1-800-USA-RAIL.
+Tickets sold for non-Amtrak service are subject to the tariffs of the
+providing carrier.
+
+=C2=B7         Questions? Contact us online at domain.com/contact
+<<<link>>> or call 1-800-USA-RAIL (1-800-872-7245) or
+TDD/TTY (1-800-523-6590).
+
+--
+Milia Fisher
+Special Assistant to the Chair
+Hillary for America
+user@domain.com
+o: 646.854.1198 c: 858.395.1741

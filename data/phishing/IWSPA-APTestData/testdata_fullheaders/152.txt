@@ -1,0 +1,134 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 14 May 2015 02:30:18 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id B98536007F	for
+ <user@domain.com>; Thu, 14 May 2015 01:06:43 +0100 (BST)
+Received: by domain.com (Postfix)	id CADE34440B44; Thu, 14 May 2015 
+ 02:30:02 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id C9F8E4440B03	for
+ <user@domain.com>; Thu, 14 May 2015 02:30:02 +0200 (CEST)
+X-ASG-Debug-ID: 1431563414-066a757fe41291f0001-4b75iv
+Received: from mail02.elq.mongodb.com (mail02.elq.mongodb.com [142.0.164.212])
+ by domain.com with ESMTP id egwQZuwKuftlAkCi for
+ <user@domain.com>; Thu, 14 May 2015 02:30:15 +0200 (CEST)
+X-Barracuda-Envelope-From: MongoDB <mongodbteam@mongodb.com>
+X-Barracuda-Apparent-Source-IP: 142.0.164.212
+DKIM-Signature: v=1; a=rsa-sha1; d=mongodb.com; s=dk1024-2012; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1431563415;
+	h=From: MongoDB <mongodbteam@mongodb.com>
+	bh=GSfSPvViOMltZzi1DiCFXZ1hALQ=;
+	b=f4feIrIEFB4PSoa3ExC/fhoXsNOk0Lk2ecS+5xxQco0U6URKDjLSJ57tzrSWtzYP
+	O8YB0lDXNE3xdi36jqt9RiQlaFryaaVsQxQOBaKM5+yvekf+Yv+SP+EVF2XG6N95
+	usSgt3vDEheKCmGFIzI+tqEKlQr0qLU99RjZXRpus4Y=;
+Received: from [10.34.116.102] ([10.34.116.102:64314] helo=P03INJECT008)	by
+ msm-mta02-dc6 (envelope-from <user@domain.com>)	(ecelerity 3.6.9.48312
+ r(Core:3.6.9.0)) with ESMTP	id 85/24-17675-79CE3555; Wed, 13 May 2015 
+ 20:30:15 -0400
+Message-ID: <0fdfb289764843e88966dd15b6facdab@413370795>
+X-Binding: 413370795
+X-elqSiteID: 413370795
+X-elqPod: 0x4FAD31AC84944479F0D71EA9AF9E5B508254F4720DA05EDD7E2289D7C62F1F76
+List-Unsubscribe: <<<link>>>
+From: MongoDB <mongodbteam@mongodb.com>
+To: <user@domain.com>
+Reply-To: MongoDB <user@domain.com>
+Date: Wed, 13 May 2015 20:30:14 -0400
+Subject: May News: MongoDB World is less than a month away, will you be
+ there?
+X-ASG-Orig-Subj: May News: MongoDB World is less than a month away, will you be
+ there?
+X-Barracuda-Connect: mail02.elq.mongodb.com[142.0.164.212]
+X-Barracuda-Start-Time: 1431563414
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=HTML_IMAGE_RATIO_08, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18904
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_IMAGE_RATIO_08    BODY: HTML has a low ratio of text to image area
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1430002489_-_-"
+
+body{  background-color: #f6f6f6;  } a img{border: none;}.ReadMsgBody { width: 100%;}.ExternalClass {width: 100%;}
+a{
+color: #6ca439;
+text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+html {-domain.com-text-size-adjust:none}
+
+
+
+
+MongoDB World is just around the corner. Learn about new compression options in MongoDB 3.0. Attend an upcoming webinar or take a class at MongoDB University.
+
+May 2015 Monthly Newsletter
+
+New Compression Options in MongoDB 3.0
+
+If
+ your storage costs are growing, this post is for you. MongoDB 3.0 introduces compression with the WiredTiger storage engine. In this blog post we will take a look at the different options, and show some examples of compression gains.
+
+
+
+
+  READ THE BLOG
+
+
+
+When
+ to Use MongoDB Webinar
+
+Register for this webinar to learn how to evaluate if MongoDB is a fit for your project. You will see how MongoDB's flexible document model is solving business problems in ways that were not previously possible, and how MongoDB's built-in features allow running at scale.Topics covered include:
+
+
+
+    Performance and Scalability
+MongoDB's Data Model
+Popular
+ MongoDB Use Cases
+Customer Stories
+
+
+
+  REGISTER NOW
+
+
+
+Ready
+ to Become a MongoDB Expert?
+
+The demand for MongoDB expertise is high and growing rapidly. Accelerate your career by enrolling in a MongoDB University training or free online course.Online courses start May 26.
+
+
+
+
+  ENROLL NOW
+
+
+
+MongoDB Inc., 2015. All rights reserved.
+			229 West 43rd Street 5th Floor New York, NY 10036 
+
+
+
+			To
+ view the online version click here.
+			To unsubscribe from future MongoDB emails or to update your MongoDB email preferences click here. 
+
+

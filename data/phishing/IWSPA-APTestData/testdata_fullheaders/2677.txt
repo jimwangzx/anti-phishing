@@ -1,0 +1,197 @@
+Delivered-To: user@domain.com
+Received: by 10.100.139.5 with SMTP id m5cs172540and;
+        Thu, 7 Aug 2015 14:55:14 -0700 (PDT)
+Received: by 10.214.182.1 with SMTP id e1mr3265630qaf.16.1218146113555;
+        Thu, 07 Aug 2015 14:55:13 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-2526.domain.com (yx-out-2526.domain.com [74.125.44.34])
+        by domain.com with ESMTP id 9si373845yxs.5.2008.08.07.14.55.13;
+        Thu, 07 Aug 2015 14:55:13 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.44.34 as permitted sender) client-ip=74.125.44.34;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.44.34 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yx-out-2526.domain.com with SMTP id 8so664352yxr.84
+        for <user@domain.com>; Thu, 07 Aug 2015 14:55:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :dkim-signature:domainkey-signature:received:received:message-id
+         :date:From: "Matthew DeLong" <matthewedelong@gmail.com>
+         :references:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=3z5LatJguJ80NEjAThADddgqxRAgiQYRWat8sqWSxmo=;
+        b=JcYjJQYhJczyNW4AEPKTiQ32vyc/XKKgTmKzAryUW8kUFMPTyRRoYWnFqvd6uJmmdv
+         1cf14LPOB7QTnAO2tfqeHxTb2nCzxME1uuZ7QXdQlb2mPwkcnBuuC2UpELduzEm2yhWH
+         DUp3Zpg++8Tknf4MQw6OIjpfzCxT/h4vgwG/k
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :dkim-signature:domainkey-signature:message-id:date:From: "Matthew DeLong" <matthewedelong@gmail.com>
+         :in-reply-to:mime-version:content-type:references:sender:precedence
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=ooo7UOh2nD1bW7u/S7nxcXlNXjYmVLsK5dig8lqnvtjAVLv8tRAQ57JJvvdmnpUUwq
+         gNA/4Fb123UqDskj/cBIw5ZQ7X0AyDRr7J6kpyqMHziB9aJRVIN3VefxOq+9ijmSbDnh
+         LAE2qvV20fWaBmNt1fDze7nCmsSmON+gR0kKc
+Received: by 10.142.141.21 with SMTP id o21mr172548wfd.1.1218146106009;
+        Thu, 07 Aug 2015 14:55:06 -0700 (PDT)
+Received: by 10.106.144.6 with SMTP id r6gr1494prd.0;
+	Thu, 07 Aug 2015 14:54:59 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.215.67.17 with SMTP id u17mr3800680qak.24.1218146099176; Thu, 07 Aug 2015 14:54:59 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-1718.domain.com (yw-out-1718.domain.com [74.125.46.154]) by domain.com with ESMTP id 22si709564yxr.1.2008.08.07.14.54.58; Thu, 07 Aug 2015 14:54:59 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.154 as permitted sender) client-ip=74.125.46.154;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.154 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-1718.domain.com with SMTP id 9so404987ywk.48 for <user@domain.com>; Thu, 07 Aug 2015 14:54:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:received:received:message-id:date:From: "Matthew DeLong" <matthewedelong@gmail.com>
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=message-id:date:From: "Matthew DeLong" <matthewedelong@gmail.com>
+Received: by 10.114.151.13 with SMTP id y13mr1684079wad.148.1218146097750; Thu, 07 Aug 2015 14:54:57 -0700 (PDT)
+Received: by 10.115.88.15 with HTTP; Thu, 7 Aug 2015 14:54:57 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Thu, 7 Aug 2015 14:54:57 -0700
+From: "Matthew DeLong" <matthewedelong@gmail.com>
+To: user@domain.com
+Subject: [big campaign] Fwd: MCCAIN POOL REPORT #3 8/7/08
+In-Reply-To: <19user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_28953_14026398.1218146097714"
+References: <204user@domain.com> <19user@domain.com>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+Ditto everything I said in the first message. Also please don't cite me as
+the source of this info. Gotta maintain good relations with the other news
+orgs. Thanks
+
+Matt DeLong
+Reporter/Blogger
+The Washington Independent
+user@domain.com
+Cell: 928-310-8500
+
+---------- Forwarded message ----------
+From: "Matthew DeLong" <matthewedelong@gmail.com>
+Date: Thu, Aug 7, 2015 at 2:49 PM
+Subject: Fwd: MCCAIN POOL REPORT #3 8/7/08
+To: user@domain.com
+
+---------- Forwarded message ----------
+From: "Matthew DeLong" <matthewedelong@gmail.com>
+Date: Thu, Aug 7, 2015 at 2:03 PM
+Subject: MCCAIN POOL REPORT #3 8/7/08
+To:
+
+ MCCAIN POOL REPORT #3 8/7/08
+
+MCCAIN STATEMENT
+Wilmington, Ohio
+August 7, 2015 
+
+Note: more coming on the meeting. This is the full verbate of the statement
+he gave to the press.
+
+Congressman Mike Turner
+
+"I want to thank Sen. McCain for being here today. This is an incredibly
+important issue for all of Ohio but specifically for Wilmington, Ohio. This
+is a town that's very troubled by the prospect of losing 8,000 jobs in an
+area that would impact a nine-county area.
+The senator very thoughtfully listened to the stories of those who have
+families and those that would be impacted, those who have jobs. We
+appreciate the senator coming here to highlight the struggles that is (sic)
+occurring here and really to take a greater look at what the implications
+are if this transaction goes forward for this town. We appreciate him being
+here and Senator, thank you for listening."
+
+Senator McCain
+
+"Well thank you congressman Turner and thank you for your chairmanship or
+co-chairmanship of a bipartisan task force of citizens and involved
+officials including the great mayor of Wilmington and others and assembling
+a task force to try to address the issue in a comprehensive fashion both in
+attempting to highlight the anti-competitive aspects of this issue but also
+to be prepared in case these 8 to 10,000 great individuals who may face
+unemployment are cared for are given the benefits and assistance that the
+need in this already troubled area of our economy.
+So I thank you Congressman Turner and I thank Mary Houghtaling who brought
+this attention to my issue to my attention graphically even though I had
+known about it in the past, in most graphic fashion at town hall meeting on
+July the ninth. So I'm very impressed the way that the community has come
+together and I'm deeply troubled by the specter of job loss confronting the
+town of Wilmington and this entire area, nine counties.
+My concerns are being reinforced in my meeting today with those facing the
+most personal consequences of what may happen here if the agreement pending
+between DHL and UPS is finalized. Should this happen DHL will cede
+significant elements of control over cost and service quality to one of its
+chief competitors.  This raises serious concerns that consumers all over
+America would suffer in terms of cost and quality in the services provided.
+And I'm a strong supporter of our anti-trust laws and I believe they should
+be vigorously enforced.  I fully support a federal anti-trust review of the
+case but I do not prejudge its disposition. In the meantime, planning must
+proceed to ensure that in the even the transaction does go through the rapi
+d
+response assistance mechanism=97local state and federal=97are in place. Job
+retention must remain our overriding concern and wee should explore all
+options for proceeding with a viable commercial development plan if DHL
+ceases operations in Wilmington.
+National emergency grant funding should be released to assure any potential
+response efforts have the resources necessary to meet the challenges ahead
+and we must have an effective displaced worker assistance and training
+program in place.
+Now I believe that congressional oversight is necessary. I believe that the
+justice department should conduct a thorough and complete investigation as
+rapidly as possible. I believe it would be important for the chief decision
+makers at Deutsche Post would come here, come here to Wilmington and come
+here to Ohio and explain the reasons and rationale for their decision and
+meet with the people and their representatives because of the impact this
+decision made a long ways away from the state of Ohio.
+So I'm very pleased to be here today, I appreciate the opportunity. I see
+the way that this community and area has come together. I congratulate the
+governor and the senators and our congressional delegation and all involved
+and I will do everything I can to be of assistance. Thank you very much."
+
+--domain.com--
+
+By Elizabeth Holmes /WSJ
+ <mailto:user@domain.com <user@domain.com>>
+user@domain.com
+202-615-2575
+
+--
+Matthew DeLong
+Reporter/Blogger
+The Washington Independent
+user@domain.com
+(C) 928-310-8500
+(H) 480-209-1383
+
+--
+Matt DeLong
+Cell 928-310-8500
+user@domain.com
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

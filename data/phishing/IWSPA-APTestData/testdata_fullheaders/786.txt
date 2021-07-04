@@ -1,0 +1,109 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1030333lfr;
+        Sun, 6 Sep 2015 14:42:58 -0700 (PDT)
+X-Received: by 10.152.7.7 with SMTP id f7mr14112203laa.62.1441575778840;
+        Sun, 06 Sep 2015 14:42:58 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-la0-domain.com (mail-la0-domain.com. [2a00:1450:4010:c03::247])
+        by domain.com with ESMTPS id a9si4109943laf.15.2015.09.06.14.42.58
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 06 Sep 2015 14:42:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2a00:1450:4010:c03::247 as permitted sender) client-ip=2a00:1450:4010:c03::247;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2a00:1450:4010:c03::247 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-la0-domain.com with SMTP id j9sf13103537lag.0
+        for <user@domain.com>; Sun, 06 Sep 2015 14:42:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:From: Kristina Costa <kcosta@hillaryclinton.com>
+         :subject:to:content-type:content-transfer-encoding:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=Ma6svKxgzo/4xylu0toM8cRm4hVef2eiD4WMuQtjGAY=;
+        b=awn4pB/EgLoyMJEyajnW/UEcaTzQBFq2dVAnM5VuE7yDFFUApnQFsqKwzrH+A9FCR3
+         eJhPdJTN3E0NnCrun0jGoQpXCGfpRU4y3AQ/K24Xptyc7Kath/bab7K6wb1jUTSmm9nd
+         /MX0g+CwaBTnKhvwVelN/6wS+ceLxm5xn0Jog
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:From: Kristina Costa <kcosta@hillaryclinton.com>
+         :date:message-id:subject:to:content-type:content-transfer-encoding
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-unsubscribe;
+        bh=Ma6svKxgzo/4xylu0toM8cRm4hVef2eiD4WMuQtjGAY=;
+        b=R1MkQnLLNMerREa+TQuVLqtA2dAKBYN8o3V/xs+yJynNB6idkE/9TQUH0dnSsGhJBQ
+         +DnR+4N7wiLo/S9hnzetH5px87VN6AxB+ofuWuZmybrN/iLUuLUoFHwXK3yQIQAyrULq
+         N21GuTxoZ43DWCj+NQXD47a155GgrDm+U8rK6n4bpeCZtzqZgZqqxvQ66FU8BSprGgh3
+         /c3sLVbhwV29xaWW1yYdvY4HMHfajN+oCzlbB8dEM9ek0rgcMn/r99VosW6Tza0GZS5K
+         ccVBvSdlILIGPgpJVmlvIiB9wOplR+GC/4nx3zwXMx0YNgcDiqWnPyhdDj2U7rWbJKGm
+         PpgQ
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQmAFKN2m481IxiVI9AAUJut73STkaxRzBtAv1gp4FSPcpCQRAMQABKScyycoVfvm/MnPL11
+X-Received: by 10.112.16.200 with SMTP id i8mr4080717lbd.20.1441575778764;
+        Sun, 06 Sep 2015 14:42:58 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.180.19.42 with SMTP id b10ls444392wie.23.gmail; Sun, 06 Sep
+ 2015 14:42:58 -0700 (PDT)
+X-Received: by 10.180.8.68 with SMTP id p4mr29161581wia.27.1441575778450;
+        Sun, 06 Sep 2015 14:42:58 -0700 (PDT)
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::236])
+        by domain.com with ESMTPS id c17si17277836wjx.91.2015.09.06.14.42.58
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 06 Sep 2015 14:42:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::236 as permitted sender) client-ip=2a00:1450:400c:c05::236;
+Received: by wiclk2 with SMTP id lk2so65505843wic.1
+        for <user@domain.com>; Sun, 06 Sep 2015 14:42:58 -0700 (PDT)
+X-Received: by 10.194.85.163 with SMTP id i3mr29456898wjz.75.1441575778319;
+ Sun, 06 Sep 2015 14:42:58 -0700 (PDT)
+From: Kristina Costa <kcosta@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <user@domain.com>
+In-Reply-To: <user@domain.com>
+Date: Sun, 6 Sep 2015 17:42:57 -0400
+Message-ID: <8936994944169932787@unknownmsgid>
+Subject: Re: TPs for Quad Cities and Des Moines Labor Day events
+To: Speech Drafts <user@domain.com>, 
+ Speech Writers <user@domain.com>, 
+ Matt Paul <user@domain.com>, 
+ Troy Price <user@domain.com>, 
+ Nikki Budzinski <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2a00:1450:400c:c05::236 as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+Hi everybody - I sent these forward to the book as it was closing
+early, but please send any edits overnight and I will circulate final
+versions in the morning. Thanks!
+
+Kristina
+
+ote:
+
+abor Day events. These closely track the remarks Lauren prepared for her Sa
+turday NH labor reception, but with more on trade and Citizens United, per 
+Nikki, and including the occupations that will be represented at these picn
+ics near the end, per team Iowa.
+
+ok. Thanks!
+

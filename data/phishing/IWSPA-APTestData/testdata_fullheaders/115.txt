@@ -1,0 +1,87 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp2010288lfi;
+        Mon, 25 May 2015 21:06:25 -0700 (PDT)
+X-Received: by 10.236.2.230 with SMTP id 66mr21874356yhf.129.1432613185431;
+        Mon, 25 May 2015 21:06:25 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::233])
+        by domain.com with ESMTPS id n84si7450678ykn.153.2015.05.25.21.06.24
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 25 May 2015 21:06:25 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::233 as permitted sender) client-ip=2607:f8b0:4002:c07::233;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::233 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id n206so9212244yke.2
+        for <user@domain.com>; Mon, 25 May 2015 21:06:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+        bh=FskqepJFiB4iswLulMcreI/PRJkq8fHlFpLeTH/t4JM=;
+        b=a+P0fQsXbQ9o24rsKbHg8HN2Mu+SGmhnacI5FXFUC9Ug8g2UR2dK8Udrfyn4knnnN5
+         epQxaIQFCKS5BZKnPPFSyIiIFEMzbFxk9Ox7HGm+ZOS/PUAxAd8B1z2kQHG42KJQ8Vpy
+         1hfCkD6MrKld4sR0gZ2lkcD/IUz0v4SBIZFEg
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+         :content-type;
+        bh=FskqepJFiB4iswLulMcreI/PRJkq8fHlFpLeTH/t4JM=;
+        b=iYkSJKZFEubeHUiGjzbknt2/36kxp/7hBYTB+Td1KI++655lYJMORy/dv0A8DwDF8z
+         oLNbxCWOuxcsSDv5Nl9+qLp62/qcUYn6RcAlQAvtqc6IqjvbchsNL1htBv/lI19L+j8Y
+         KJF4yLu3LWEdthCLgQH4OEXwJ9uptQx48TZfqelERGJtYTikN66Vc8IVHqJpq29Z5w90
+         6g9UvctTLKEBcfWmGLN0MoMCoSvbvm4A6FZECNTS7HGjMfdFz8QzV2X0osY0HG+vJWfM
+         naD+IhP0N3iGG4iEN1ElnZtlBhTgZBEsYre/aTai+3l9K1l00GX0rteeIXUJCYol5Q1q
+         ItYg
+X-Gm-Message-State: ALoCoQkZE8HIDnEFRywvkyez/tRFzhgb5sI62vsew5cE5kQhjKWjZMnKRdg01lEx0Hf/Db+pXb2b
+MIME-Version: 1.0
+X-Received: by 10.236.31.10 with SMTP id l10mr21959613yha.6.1432613184779;
+ Mon, 25 May 2015 21:06:24 -0700 (PDT)
+Received: by 10.129.147.69 with HTTP; Mon, 25 May 2015 21:06:24 -0700 (PDT)
+Date: Mon, 25 May 2015 21:06:24 -0700
+Message-ID: <CACWw=rS06gntGCLGsNRdG=MqFosFRLfPNOw+user@domain.com>
+Subject: June 22nd - Ed Reformer Conversation
+From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+To: John user <user@domain.com>
+CC: Jake Sullivan <user@domain.com>, 
+ Dennis Cheng <user@domain.com>, 
+ Lona Valmoro <user@domain.com>, 
+ Milia Fisher <user@domain.com>, 
+ Lindsay Roitman <user@domain.com>, 
+ Michael Smith <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e0111ba70fab9b50516f43fa2
+
+John -
+
+When we were still in the quiet phase, Laurene Powell Jobs had invited HRC
+to come meet with some of the ed reformers to hear their views.  Lona, Jake
+and I had approved of the idea and tried to calendar it, but it has become
+clear that it won't happen with HRC's calendar.
+
+The folks involved are both $$ and substance folks.  Stacey Rubin from
+Laurene's office suggested that in lieu of HRC that you and I do a
+roundtable meeting with the group when you are out in the area.  I know the
+Finance Team is putting a schedule together for you and I've raised this
+meeting to their attention, but wanted to get it on your radar screen too.
+
+The folks that Laurene would invite include:
+Carrie Walton Penner
+Reed Hastings
+Stacey Childress
+Brook Buyers
+John and Ann Doerr
+
+Please let me know if you agree that this would be a good meeting for the
+two of us to do together and then the Finance folks can work with me to get
+it scheduled.
+
+Thanks!
+
+-Ann
+
+-- 
+Ann O'Leary
+Senior Policy Advisor
+Hillary for America
+Cell: 510-717-5518

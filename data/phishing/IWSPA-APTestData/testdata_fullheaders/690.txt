@@ -1,0 +1,174 @@
+Delivered-To: user@domain.com
+Received: by 10.140.128.2 with SMTP id a2cs87447rvd;
+        Mon, 2 Jun 2015 13:18:37 -0700 (PDT)
+Received: by 10.101.69.6 with SMTP id w6mr15703965ank.92.1212437915665;
+        Mon, 02 Jun 2015 13:18:35 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from py-out-1314.domain.com (py-out-1314.domain.com [64.233.166.171])
+        by domain.com with ESMTP id f79si6082446pyh.35.2008.06.02.13.18.34;
+        Mon, 02 Jun 2015 13:18:35 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.233.166.171 as permitted sender) client-ip=64.233.166.171;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 64.233.166.171 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by py-out-1314.domain.com with SMTP id p69so7413290pyb.6
+        for <user@domain.com>; Mon, 02 Jun 2015 13:18:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to:received:received:received-spf:authentication-results:received:dkim-signature:domainkey-signature:received:received:message-id:date:From: "Nico Pitney" <nico.pitney@gmail.com>
+        bh=emp9OzLrVtXGEogsPjLSiAt0ELgZ6QnU4mS6razbD8U=;
+        b=Kr2+yMzslaRTTolPUI4HvdIpBaN3o5zFv+wj4viAdVxUL8bgjMsUQDUkm60E1u+DiZZ2D7NK1yeUR52QmG3xdha+yKTeHJiLNQPloomDLfsOripBWzal4Ckv3uVicL4gcvK4NStPn1wvpzTgTAbByUz32ATn1A16h355gF1PsUw
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results:dkim-signature:domainkey-signature:message-id:date:From: "Nico Pitney" <nico.pitney@gmail.com>
+        b=HsHyG6swmN7/3LI4H7gF6kMGEGEaLTvp2a6E8Dm0cwN7rQc0h4UGliYLeyDvuQxZ+48elG5d+YhG3HQWoS+e6423NnffAtjBRMrKCtHeW6DjYgsp4K2jZkyc432aZHlFNnjpK6s5/v8FkipLuCBAyIUVu2aZCV9Ud+YQqXXRHTw
+Received: by 10.141.146.4 with SMTP id y4mr593837rvn.26.1212437896447;
+        Mon, 02 Jun 2015 13:18:16 -0700 (PDT)
+Received: by 10.107.113.4 with SMTP id q4gr736prm.0;
+	Mon, 02 Jun 2015 13:18:05 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.141.169.11 with SMTP id w11mr2682706rvo.22.1212437882149; Mon, 02 Jun 2015 13:18:02 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from fk-out-0910.domain.com (fk-out-0910.domain.com [209.85.128.190]) by domain.com with ESMTP id 39si4510204yxd.0.2008.06.02.13.18.01; Mon, 02 Jun 2015 13:18:02 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.128.190 as permitted sender) client-ip=209.85.128.190;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.128.190 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by fk-out-0910.domain.com with SMTP id f40so7102367fka.1 for <user@domain.com>; Mon, 02 Jun 2015 13:18:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:received:received:message-id:date:From: "Nico Pitney" <nico.pitney@gmail.com>
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=message-id:date:From: "Nico Pitney" <nico.pitney@gmail.com>
+Received: by 10.82.112.6 with SMTP id k6mr866914buc.77.1212437880636; Mon, 02 Jun 2015 13:18:00 -0700 (PDT)
+Received: by 10.82.175.1 with HTTP; Mon, 2 Jun 2015 13:18:00 -0700 (PDT)
+Message-ID: <2user@domain.com>
+Date: Mon, 2 Jun 2015 16:18:00 -0400
+From: "Nico Pitney" <nico.pitney@gmail.com>
+To: user@domain.com
+Subject: [big campaign] Charlie Black Lobbied For Firm With Tehran Ties
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_11055_32671903.1212437880617"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+
+Three cheers for divestment!
+
+<<link>>
+ Top McCain Strategist Had Client With Ties To
+Tehran<<<link>>>
+
+In the summer of 2005, John McCain's chief strategist Charlie Black, working
+for his firm Black, Kelly, Scruggs & Healey, was paid $60,000 to lobby the
+U.S. government on behalf of the Chinese oil conglomerate CNOOC. At the
+time, CNOOC was mounting an aggressive bid to buy Unocal, a California-based
+oil giant, and Black was tasked with churning up congressional support. But
+the bid ultimately fell through, in part because of objections over CNOOC's
+ties to Iran, a country in which it had already invested tens of millions of
+dollars.
+
+"This transaction poses a clear threat to the energy and national security
+of the United States," wrote Rep. Joe Barton, a Texas Republican. "U.S.
+national energy security depends on sufficient energy supplies to support
+U.S. and global economic growth. But those supplies are threatened by
+China's aggressive tactics to lock up energy supplies around the world that
+are largely dedicated for their own use."
+
+Flash-forward nearly three years and Black's old client -- which later
+scored a $16 billion deal with the Iranian government -- could now create
+major headaches for his current boss. On Monday, McCain, in a speech at the
+American Israel Public Affairs Committee, called for a broad and aggressive
+international campaign to divest from Iran.
+
+"We should privatize the sanctions against Iran by launching a worldwide
+divestment campaign," he said. "As more people, businesses, pension funds,
+and financial institutions across the world divest from companies doing
+business with Iran, the radical elite who run that country will become even
+more unpopular than they are already."
+
+But, as demonstrated by the CNOOC anecdote, if choking off Tehran's economic
+lifeblood is McCain's goal, he could have personally started down that road
+years ago -- with his own advisers.
+
+Indeed, in addition to Black, McCain employs several other campaign aides
+and fundraisers who have served in lobbying capacities in which they
+advocated on behalf of foreign clients with investments and interests in
+Iran.
+
+As Talking Points Memo
+reported<<<link>>>,
+McCain campaign manager Rick Davis and his firm, Davis Manafort, "helped
+Akhmetov's conglomerate, System Capital Management Holdings, to develop a
+'corporate communications strategy' between the beginning of 2015 through
+the end of summer 2005... The company's subsidiary, Metinvest, a steel
+company, has one of its 11 offices in Tehran. And another subsidiary,
+Khartsyzsk Pipe Plant, sells large pipes to Iran."
+
+A bit further removed, one of McCain's fundraisers, Peter Madigan, and
+Black's wife Judy, both lobby on behalf of the United Arab Emirates, a
+country that AIPAC itself
+says<<<link>>>is a major hub
+for shipment of illegal goods into Iran. Another McCain
+adviser, Carly Fiorina, formerly headed Hewlett Packard, which Forbes
+Magazine reported <<<link>>>,
+kept offices in Dubai in efforts of facilitating trade with Tehran.
+
+But it's not just economic ties that bind, however tangentially, McCain's
+campaign and the Iranian government. There are political connections as
+well. One of the controversial figures represented by Black and his firm was
+Ahmad Chalabi, the Iraqi dissident who pushed for the invasion of Iraq with
+key Pentagon and administration officials before the war and has since,
+reportedly, passed U.S. information on Iraq to Iran.
+
+As the New York Times
+reported<<<link>>>in
+2004, "Chalabi... disclosed to an Iranian official that the United
+States
+had broken the secret communications code of Iran's intelligence service,
+betraying one of Washington's most valuable sources of information about
+Iran, according to United States intelligence officials."
+
+Black and Davis, it should be noted, have cut their lobbying ties in
+accordance with the McCain campaign's new conflict of interest policy. And
+McCain's call for divestment from Iran not only reflects a long held belief
+by the Senator but also comes despite these associations.
+
+That aside, the distance between Obama and McCain on the topic of levying
+economic sanctions on Iran is not as wide as the Arizona Republican
+presents. While Obama did oppose (though not by vote) and McCain supported
+an amendment offered by Sens. Kyl and Lieberman that would have, among other
+things, designated the Iranian Revolutionary Guard a terrorist organization,
+he did so, his campaign says, out of concern that the language was overtly
+inflammatory. In 2007, moreover, Obama sponsored an Iran divestment bill
+that he claimed "would educate investors and pressure foreign companies to
+reconsider doing business with Iran by requiring the U.S. government to
+publish - every six months - a list of companies that invest more than $20
+million in Iran's energy sector."
+
+It was Alabama Republican Richard Shelby who held up the measure in the
+Senate in what was described by the Israel paper Haarezt, as "a favor" for
+the Bush administration. Today, it is still on hold.
+
+-- 
+Nico Pitney
+The Huffington Post
+P: 202.834.0301
+AIM: njpitney
+GTalk/MSN: user@domain.com
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

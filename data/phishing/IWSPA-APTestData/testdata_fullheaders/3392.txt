@@ -1,0 +1,86 @@
+Delivered-To: user@domain.com
+Received: by 10.107.57.67 with SMTP id g64csp1578402ioa;
+        Thu, 14 May 2015 15:07:57 -0700 (PDT)
+X-Received: by 10.112.198.8 with SMTP id iy8mr4807097lbc.44.1431641276724;
+        Thu, 14 May 2015 15:07:56 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-la0-domain.com (mail-la0-domain.com. [2a00:1450:4010:c03::22d])
+        by domain.com with ESMTPS id e4si14320430laf.74.2015.05.14.15.07.55
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 14 May 2015 15:07:56 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::22d as permitted sender) client-ip=2a00:1450:4010:c03::22d;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::22d as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-la0-domain.com with SMTP id bd9so62793577lab.2
+        for <user@domain.com>; Thu, 14 May 2015 15:07:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=references:From: Michael Smith <msmith@hillaryclinton.com>
+         :cc:content-type;
+        bh=f/8py9pimceRqChS/R0SVSQPQ7D+90OMHNkf1wvOEck=;
+        b=NVn+zHKA5LbBVC/ZKWBR+ejwUu8MWazJUKFbL8E1iTJtRs01lYexQylWp4NFBl+o5X
+         qnE56Y7Vxw7+d+Viz2Dqy/yf6iMLxlBIvNsoQVkwX2+6v8zZUp0zWuccQUR2NOAn5Rlk
+         fxtPWhM4Xjn3Uxu+LKw/ZKhy5CLVKXPRJz50k
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:references:From: Michael Smith <msmith@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=f/8py9pimceRqChS/R0SVSQPQ7D+90OMHNkf1wvOEck=;
+        b=jhh8sdgyRMLP11oDgeW8C64sjasbgFMip6+PoE6OuaLYMRD691/jX/PsCI5CSzcHNr
+         DdHsBd0IL0SvrXTTDSuf1alg1TcU4RFrzuZN+PQzytAnWjgAV/nFdFS6CoUsSdPhb6EB
+         8oRlaPwFkHsiEV7pSZT2VtYVzuVHDKxrKEkfgxsCmdVAM5gBP3qEThiquJJpDRxHZ2h4
+         1nKjP6PEfIuWTpofCJYxNuLaLiu7Z1rV6mP/PGLMH2KEGillGFPiFmR+whV49fLO/2os
+         sL0JZPyR/q6bZRLUwNlGsZcGYZ359b6JEQkdkel+3LdMR0vV96XAyptiaWNNlRA90QYl
+         5+rw
+X-Gm-Message-State: ALoCoQk0PwlJobQbPNnmPrCdz/jp/57zVM2NUyYlOBFxTn3TIjoVbhlNaiV4LyHo9TOw7d3FiT6q
+X-Received: by 10.112.131.104 with SMTP id ol8mr4934908lbb.58.1431641275808;
+ Thu, 14 May 2015 15:07:55 -0700 (PDT)
+References: <9user@domain.com>
+ <CAE6FiQ8ckXeWcgVSp5NdH5_+user@domain.com> <9user@domain.com>
+From: Michael Smith <msmith@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+In-Reply-To: <9user@domain.com>
+Date: Thu, 14 May 2015 18:07:53 -0400
+Message-ID: <-1220901153052487574@unknownmsgid>
+Subject: Re: Rahm's Inaugural
+To: Brynne Craig <user@domain.com>
+CC: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7b3a86d6b0d291051611f553
+
+Apologies for the delayed response. Same for finance. Jeremy Hallahan
+(Illinois Finance Director) has been working closely with Kevin. I'm
+following up to see if they have additional background here.
+
+On May 14, 2015, at 5:38 PM, Brynne Craig <user@domain.com> wrote
+:
+
+Our team talks to Kevin O=E2=80=99Keefe at least every other day. He has be
+en
+helping us out a lot on the political front. I know Kevin has also been
+working close with Jeremy on Marcus=E2=80=99s team.
+
+*From: Michael Smith <msmith@hillaryclinton.com>
+*Sent:* Thursday, May 14, 2015 5:15 PM
+*To:* brynne craig; Michael Smith
+*Subject:* Fwd: Rahm's Inaugural
+
+see below Anybody talk to Kevin O'Keefe? Didn't have Marcus's email.
+
+---------- Forwarded message ----------
+From: Michael Smith <msmith@hillaryclinton.com>
+Date: Thursday, May 14, 2015 
+Subject: Rahm's Inaugural
+To: "User" <user@domain.com>,
+Robby Mook <user@domain.com>, John user <user@domain.com>
+Cc: Jon Davidson <user@domain.com>
+
+We=E2=80=99ll tell them later today that we definitely doing that =E2=80=93
+ Monday in
+Chicago
+
+Kevin O=E2=80=99Keefe is asking to see WJC --  assume you guys are in touch
+ with
+him.  Anything we should know on that front?

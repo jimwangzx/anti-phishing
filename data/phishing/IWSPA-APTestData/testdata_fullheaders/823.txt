@@ -1,0 +1,93 @@
+Delivered-To: user@domain.com
+Received: by 10.204.117.67 with SMTP id p3csp50354bkq;
+        Mon, 6 May 2015 10:07:05 -0700 (PDT)
+X-Received: by 10.68.242.97 with SMTP id wp1mr13619905pbc.128.1367860023860;
+        Mon, 06 May 2015 10:07:03 -0700 (PDT)
+Return-Path: <bounces+243373-9709-user@domain.com>
+Received: from domain.com (domain.com. [208.117.55.191])
+        by domain.com with SMTP id ql7si15497238pbc.236.2013.05.06.10.07.02
+        for <user@domain.com>;
+        Mon, 06 May 2015 10:07:03 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of bounces+243373-9709-user@domain.com designates 208.117.55.191 as permitted sender) client-ip=208.117.55.191;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of bounces+243373-9709-user@domain.com designates 208.117.55.191 as permitted sender) smtp.mail=bounces+243373-9709-user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=domain.com;
+	 h=From: "Mary Hodge, EricGarcetti.com" <info@ericgarcetti.com>
+	:content-transfer-encoding:sender; s=smtpapi; bh=shINgHm4okffbUg
+	A3MLGecUdIIE=; b=Cl09phF7t228QwU9V2Osz+I1Vh4RmnpSrEIzFzUUeJABsIf
+	HyaiarZ8FbTLap5WMme6sGojhQoR+/C85w7H659pHX88RqVMF2BHO0k6fz+10PNc
+	JMNG86/502hhkKWR0Sc7JfngB+zL4UGzLHdSCmjNl7s4gLLtW/jS7Pmv/5ko
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=domain.com; h=From: "Mary Hodge, EricGarcetti.com" <info@ericgarcetti.com>
+	:subject:mime-version:content-type:content-transfer-encoding
+	:sender; q=dns; s=smtpapi; b=D7d2/9r0BLP/7bWCsCH3TegfnxpjZZjJyVs
+	XqYw9E2wICrKVpJV29gzBskxkxwh//ce2krlOxjyqH/7kmE91s9xio62beNSjjnp
+	S3tkBa5A1KC4kWBOPzsSiLG/dpi/je+h5rcbFZ/8NCJ6JDPzYxDmL4xISzVvsUC5
+	1IxenxdQ
+Received: by 10.42.80.123 with SMTP id filter-057.19021.5187E3311
+        Mon, 06 May 2015 17:06:57 +0000 (UTC)
+Received: from domain.com (unknown [64.22.108.44])
+	by mi13 (SG) with ESMTP id 5187e330.238b.12929c5
+	for <user@domain.com>; Mon, 06 May 2015 12:06:56 -0500 (CST)
+Date: Mon, 06 May 2015 17:06:56 +0000
+From: "Mary Hodge, EricGarcetti.com" <info@ericgarcetti.com>
+To: John user <user@domain.com>
+Message-ID: <5187user@domain.com>
+Subject: Open this email if you aren't sure if you are registered to vote
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5187e3309f82f_7896d17e2879722";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-SG-EID: p7DGjev3kDhYNXGtfGO9jbmQ3Oi75URC5nx+Didgsq+Ynnlihs3QkZ50kk7IrHlXPVRZbRfNfux1NW7f/HJF+aOE4gt+bRM/YgCd8NLnruJcHkAWv+SzS5YvfRO4AIs7jYVyQAwmlcsTtGXs5TTtxw
+X-SG-ID: lqzGc1FIy9s2wQqRFwyDL6gSsXAXAOSPDIe+yFudjIrMqSd9bifPtIjek7XzYlkL
+Sender: Mary Hodge <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=domain.com;
+	 h=From: "Mary Hodge, EricGarcetti.com" <info@ericgarcetti.com>
+	:content-transfer-encoding:sender; s=smtpapi; bh=mG6aPFVMj56NSNr
+	UeiyBQaZSOqQ=; b=ecd+wUUTWdqANbrLqcrO2CFs7/P/gXfrxAlRJ2IRnDnZh1V
+	E63Cb35PRdQm5oyrZHRcf+0eaVNVER1q0dGDl9suwMu8IFxCyuj2yFWGwrz59WK9
+	TRgTFFCaiBd615UNYQ1bNeAV83kz5BMxDnmaXtYREbW0w1/e50D1FG0aD9Gg
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=domain.com; h=From: "Mary Hodge, EricGarcetti.com" <info@ericgarcetti.com>
+	:subject:mime-version:content-type:content-transfer-encoding
+	:sender; q=dns; s=smtpapi; b=o9V/me16fWHXdtOp72k6nRq43tvRvSbnifl
+	+JBOrTESeqNN7CRlwQpfqdNg2IPYuL6AVPrdug0uPLS1Tvi9+yK8jo6XVk3Xnp7T
+	qesDvnogpslWx1Ts1qtWhO7QSgLo5D24OCVtZCSff013fbEwp7FssoFxUG3OSJsI
+	1PFP2Hdw
+
+John -
+p. Today's the final day to register to vote to be eligible to cast your ba
+llot in the May 21st election. If you aren't registered, have moved, or are
+n't sure, this is your last chance.
+
+Register to vote now via our website. <<<link>>
+_to_vote>
+
+This is it, so register. It should only take 5 or 10 minutes. Don't close t
+his email and say you'll do it later; If you're anything like me, you'll fo
+rget. Do it=C2=A0now <<<link>>>.=C2=A0
+
+Already registered? Then I'm sorry I bothered you; here's a picture of our 
+campaign manager's dog in a Garcetti T-shirt:=C2=A0
+
+"":<<link>>
+
+His name is Guapo, and he wants you to vote May 21.
+
+Thanks,
+Mary Hodge
+Deputy Campaign Manager
+
+P.S. Have a friend who might not be registered? Forward them this email and
+ remind them that today is their last chance.=C2=A0
+
+-=3D-=3D-
+Eric Garcetti- Los Angeles Mayor 2015 - Los Angeles, CA, United States
+This email was sent to user@domain.com  To stop receiving emails: h
+ttp://www.ericgarcetti.com/unsubscribe
+-=3D-=3D-
+Paid for by Garcetti for Mayor 2015 
+FPPC ID# 1341339
+11326 Ventura Blvd. Los Angeles, CA 91364
+Additional Information is available at <<link>>
+Created with NationBuilder - <<link>>

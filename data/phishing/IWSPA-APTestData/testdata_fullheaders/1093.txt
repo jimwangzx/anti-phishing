@@ -1,0 +1,66 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 18 Dec 2015 05:20:19 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBIDKHk2021640	for <user@domain.com>; Wed, 18 Dec 2015 
+ 13:20:18 GMT
+Received: from mail4-va3-domain.com (mail-domain.com [216.32.180.113])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBIDKHQi008416	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Wed, 18 Dec 2015 13:20:17 GMT
+Received: from mail4-va3 (localhost [127.0.0.1])	by mail4-va3-domain.com
+ (Postfix) with ESMTP id 38C762C00FC	for <user@domain.com>; Wed, 18
+ Dec 2015 13:20:17 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.129;KIP:(null);UIP:(null);SRV:BULK;H:mx129.b2b-domain.com;RD:mx129.b2b-domain.com;EFVD:NLI
+X-SpamScore: 6
+X-BigFish: vps6(zzc89bh12dbKc857h77f5h609Izz1f42h2148he68I208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h10c0jzz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h1de096h186068h1ce120hf9138oz2fh5eh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h1361i214ai1155h1362h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail4-va3: domain of b2b-domain.com designates 209.162.194.129 as permitted sender) client-ip=209.162.194.129; user@domain.com; helo=mx129.b2b-domain.com ;b2b-domain.com ;
+Received: from mail4-va3 (localhost.localdomain [127.0.0.1]) by mail4-va3
+ (MessageSwitch) id 1387372815312156_12017; Wed, 18 Dec 2015 13:20:15 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.234])	by
+ mail4-domain.com (Postfix) with ESMTP id 35DFDC0033	for
+ <user@domain.com>; Wed, 18 Dec 2015 13:20:15 +0000 (UTC)
+Received: from mx129.b2b-domain.com (209.162.194.129) by
+ domain.com (10.7.99.49) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 18 Dec 2015 13:20:13 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=acton2012; d=techproductupdate.com;
+ h=Message-ID:Date:From: Marketing Update <admin@techproductupdate.com>
+ bh=KzIHt69WvnYLZtmQ8/p7FOY5lVM=;
+ b=eOKBqVQtSwaoxTz+Pm6g9lgbHNVSCnYAHCZ7BkF5RvEzpAzAvcK+om538/aCIJiI82QIcdD68Ng8
+   Y8TpPlomzAAXA7TPi7o1zy45FAGeJ3MyddrH5w9ZMeX/Zrrqr3zQFS8ptboHaaR54SWz6x7RPJFQ
+   +KfbXYUQi4Ely190yxQ
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=acton2012; d=techproductupdate.com;
+ b=CVjOqk0w999Fi1RuRAWHN/obPgn8sjWKtiebyVBMgvkywcFIQ1H3CCwgf9vpMxJ3y7vyFytOM9Ai
+   zFglDpnJCq7czlUuE/9wx6vR934VR4pNJuRkcuwHdPhI4MqgB9T4Zgg7GTlla2Gd6tZ4EOkUl6h+
+   h6Czz0UIOuVRhd7xujE=;
+Received: from 10.10.40.64 (172.16.0.16) by mx129.b2b-domain.com id hm6ggq1gs50j
+ for <user@domain.com>; Wed, 18 Dec 2015 04:26:48 -0800 (envelope-from
+ <user@domain.com>)
+Message-ID: <YTXCYTZAW$UWBAWZCZTBWCT@10.10.40.64>
+Date: Wed, 18 Dec 2015 04:26:48 -0800
+From: Marketing Update <admin@techproductupdate.com>
+Reply-To: Marketing Update <user@domain.com>
+To: AMY PASCAL <user@domain.com>
+Subject: Hot Prospects in a Snap: Top Tools to Mine Data for Fast Results
+X-MESSAGEID: WCZX.rEUUUV.KVWHK.mEVBKCEVXVW
+X-COD: ^^184.169.176.89/acton/delivery?accountid=2853&msuid=s-17e8-1312&rcptid=l-0001%3Ae12be&srcid=q-03c7
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Hot Prospects in a Snap: Top Tools to Mine Data for Fast Results
+
+View this message in a browser   Please add user@domain.com to your address book to ensure properly delivery        
+
+Marketing Update         
+
+Hot Prospects in a Snap: Top Tools to Mine Data for Fast Results
+
+In today’s business economy analytics are a bit of a double-edged sword. Everyone wants them, but once the data is in, few and far between are the companies that actually know what to do with that data in order to turn a domain.com. This no longer needs to be the case.
+
+Read on to learn how to reap the benefits of data science without the scientist. Fast, free-form, forward-looking.BIRT Analytics combines ease-of-use, analytic horsepower and the ability to quickly process large data volumes. Get the most value from large amounts of data in the shortest time explore all that BIRT Analytics can offer your company now.
+

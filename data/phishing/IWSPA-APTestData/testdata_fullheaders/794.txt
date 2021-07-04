@@ -1,0 +1,58 @@
+Delivered-To: user@domain.com
+Received: by 10.25.30.9 with SMTP id e9csp787732lfe;
+        Tue, 2 Sep 2015 14:10:19 -0700 (PDT)
+X-Received: by 10.66.141.7 with SMTP id rk7mr51173434pab.31.1409692218561;
+        Tue, 02 Sep 2015 14:10:18 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.254.108])
+        by domain.com with ESMTPS id j4si7873630pdb.62.2014.09.02.14.10.17
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Tue, 02 Sep 2015 14:10:18 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.254.108;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.254.83:9891] by server-12.bemta-7.domain.com id ED/75-05501-73236045; Tue, 02 Sep 2015 21:10:15 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-13.tower-197.domain.com!1409692198!6058283!15
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 18184 invoked from network); 2 Sep 2015 21:10:12 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-13.tower-197.domain.com with AES128-SHA encrypted SMTP; 2 Sep 2015 21:10:12 -0000
+Resent-From: "Michael Drumke, Chair, Tort Trial & Insurance Practice Section"
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Tue, 2 Sep 2015 17:10:01 -0400
+Received: from [216.82.249.179:55814] by server-11.bemta-12.domain.com id
+ 7F/C8-20541-82236045; Tue, 02 Sep 2015 21:10:00 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-12.tower-44.domain.com!1409692197!7952639!1
+X-Originating-IP: [38.99.228.141]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogMzguOTkuMjI4LjE0MSA9PiA0MjEyMDU=\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 26259 invoked from network); 2 Sep 2015 21:09:57 -0000
+Received: from domain.com (HELO domain.com) (38.99.228.141)  by
+ server-12.tower-44.domain.com with SMTP; 2 Sep 2015 21:09:57 -0000
+Received: from mail (127.0.0.1) by domain.com (LSMTP for Windows NT
+ v1.1b) with SMTP id <5.0219user@domain.com>; Tue, 2 Sep 2015 16:06:20
+ -0500
+To: 00978479 <user@domain.com>
+Message-ID: <29942-3013036.1409691903984.user@domain.com>
+Date: Tue, 2 Sep 2015 11:56:33 -0500
+From: "Michael Drumke, Chair, Tort Trial & Insurance Practice Section"
+	<user@domain.com>
+Reply-To: <user@domain.com>
+Subject: Experience It All! Join ABA-TIPS
+MIME-Version: 1.0
+Content-Type: text/html; charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+
+ABA TIPS  | More than a Membership - an Experience
+

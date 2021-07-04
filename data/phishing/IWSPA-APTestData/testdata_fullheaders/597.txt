@@ -1,0 +1,80 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 12 Nov 2015 05:46:07 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rACDk6NG027505	for <user@domain.com>; Tue, 12 Nov 2015 
+ 13:46:06 GMT
+Received: from mail4-ch1-domain.com (mail-domain.com [216.32.181.173])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rACDk5nw025651	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 12 Nov 2015 13:46:06 GMT
+Received: from mail4-ch1 (localhost [127.0.0.1])	by mail4-ch1-domain.com
+ (Postfix) with ESMTP id 614F41A00BC	for <user@domain.com>; Tue, 12
+ Nov 2015 13:46:05 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:207.237.189.215;KIP:(null);UIP:(null);IPV:NLI;H:smtp.btig.com;RD:host215.btig.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(z579ehzc89bhc857hzz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hza7h58hz1d7338h1de098h1b1984h177df4h17326ah8275bh1bc7b9h8275dh18c673h19a27bh1de097h186068h1954cbh1b778fh1ce120hz2fh47h109h839hd25h1288h12a5h12bdh137ah13eah1441h14ddh1504h1537h153bh15d0h162dh1631h1758h18e1h1946h19b5h1a24h1a82h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail4-ch1: domain of btig.com designates 207.237.189.215 as permitted sender) client-ip=207.237.189.215; user@domain.com; helo=smtp.btig.com ;mtp.btig.com ;
+Received: from mail4-ch1 (localhost.localdomain [127.0.0.1]) by mail4-ch1
+ (MessageSwitch) id 1384263962648633_7546; Tue, 12 Nov 2015 13:46:02 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.240])	by mail4-domain.com (Postfix) with ESMTP id 9A16A2400D8
+	for <user@domain.com>; Tue, 12 Nov 2015 13:46:02 +0000 (UTC)
+Received: from smtp.btig.com (207.237.189.215) by domain.com
+ (10.43.70.19) with Microsoft SMTP Server id 14.16.227.3; Tue, 12 Nov 2015 
+ 13:46:02 +0000
+Received: from EXHUBNY01.BTIG.corp ([10.50.0.118]) by smtp.btig.com with ESMTP
+ id MIcpVfRmURM0Rom7; Tue, 12 Nov 2015 08:45:46 -0500 (EST)
+Received: from EXMBXNY01.BTIG.corp ([fe80::2d25:4e6e:cee5:b0f1]) by
+ EXHUBNY01.BTIG.corp ([fe80::217b:b05d:aa6b:ab00%15]) with mapi id
+ 14.02.0328.009; Tue, 12 Nov 2015 08:45:45 -0500
+From: "Greenfield, Richard" <rgreenfield@btig.com>
+Subject: Is Verizon About to Trigger a Whole New Era of Over-the-Top Video
+ Competition?; BTIG Research Blog Post (includes video demo of Xfinity TV Go
+ App running over-the-top)
+Thread-Topic: Is Verizon About to Trigger a Whole New Era of Over-the-Top
+ Video Competition?; BTIG Research Blog Post (includes video demo of Xfinity
+ TV Go App running over-the-top)
+Thread-Index: Ac7frTCFC26BfgveT8eaMetRhgcSFAAAAfUQAAAKj0A
+Date: Tue, 12 Nov 2015 13:45:44 +0000
+Message-ID: <user@domain.com>
+References: <user@domain.com>
+ <user@domain.com>
+In-Reply-To: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.50.2.24]
+X-Virus-Scanned: by bsmtpd at btig.com
+To: Undisclosed recipients:;
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Is Verizon About to Trigger a Whole New Era of Over-the-Top Video Competition?; BTIG Research Blog Post (includes video demo of Xfinity TV Go App running over-the-top)
+
+
+
+
+Click Here for the Full Blog Post: Is Verizon About to Trigger a Whole New Era of Over-the-Top Video Competition? 
+
+In late October, AllthingsD reported (click here), that Verizon was looking to purchase Intel Media, a division of Intel that has spent the last couple of years building a virtual multichannel video programming distributor (virtual MVPD).  While in our July 2015 blog post, Virtual MVPD Revisited  (click her e), we stated our belief that Intel would be one of the first, if not the first, to launch a non-facilities based or virtual MVPD, we noted it would also make sense for both Verizon and AT&T:
+
+“Given the rather small footprint of each RBOC, video subscriber-wise, compared to Comcast/DirecTV/Time Warner Cable/DISH, a virtual MVPD could enable them to significantly expand their video presence, while at the same time creating unique opportunities with their nationwide broadband wireless platforms.”
+
+Click Here to read the full post: <<link>>
+
+
+
+
+This communication does not provide complete information regarding its subject matter, and no investor should take any investment action based on the information contained herein. For additional and more complete information, including I
+
+Attachments:
+
+        image001.png (9741 Bytes)
+

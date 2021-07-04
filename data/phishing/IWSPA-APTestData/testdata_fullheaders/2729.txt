@@ -1,0 +1,114 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp1445972lfr;
+        Mon, 17 Aug 2015 07:51:32 -0700 (PDT)
+X-Received: by 10.170.112.194 with SMTP id e185mr1774045ykb.119.1439823092582;
+        Mon, 17 Aug 2015 07:51:32 -0700 (PDT)
+Return-Path: <38_user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::24a])
+        by domain.com with ESMTPS id b186si8910718ywa.121.2015.08.17.07.51.32
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 17 Aug 2015 07:51:32 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 38_user@domain.com designates 2607:f8b0:4002:c07::24a as permitted sender) client-ip=2607:f8b0:4002:c07::24a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 38_user@domain.com designates 2607:f8b0:4002:c07::24a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id l84so4428858ykl.1
+        for <user@domain.com>; Mon, 17 Aug 2015 07:51:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: re47@hillaryclinton.com
+        bh=mMTPNtOsIFzdC8XY51AVv8v3bJLqEDMy6rwXRXEuoWI=;
+        b=FWm5KA96JjD2Kquh9M1tEn/i18mHYv2qCtzkG5OEMKcnvfRp93axS9YDY2dyZl+9J9
+         nmDeBTyat/GdohN0oVDijLHF+h7Tjz7Ch7FQseNC8gkldm8UsQ0Gf2KSxmhi3TTVrlSK
+         t1bx6sp6iHItFoxOiNeMZh3ro2McGCvCfHdGl42+JUUBulgeIZ9VpibsNNZn+voAJ6sS
+         7Lwu0gFgQUPRld8G5eLML8wZO4T728MmydVeysoLeS4oAyGUxgT6Bzm5zAlKI9qdbu3U
+         aaJRo4XAjJX50oIFOcz8uNcDE/gHKPNq2N49lQ6TPIsmigLWVNAwDaVwGlO6wTNOWh+H
+         7rNQ
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: re47@hillaryclinton.com
+        bh=mMTPNtOsIFzdC8XY51AVv8v3bJLqEDMy6rwXRXEuoWI=;
+        b=JRQeDfAojj8e/wysQzY4rQcs0Jd0YujbkLTFnqCnL+xdqQXNmj6WQbKGTh/bv3QWYp
+         wwvyHC3rYTzz9UGsCnyyE2tPA3ulAG+HYP94ZG/Mb8loh8o0pAQpOngPeXz8ZpDAn99q
+         RpA9YTPU6rz812DTvpWZEo97WiADBbEgYYdpM
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: re47@hillaryclinton.com
+        bh=mMTPNtOsIFzdC8XY51AVv8v3bJLqEDMy6rwXRXEuoWI=;
+        b=gD99MozM3Jh7Np8SnNMlhMb3o1e1A0UgtEHo3NAzYGjXsUuY5hPPPnS0oQfqbyoRVh
+         uCAOS0LW6JsFVrRAKj/gf+eLo1Jp1EeaoAeOmgnIZcgYygpW1V3aUJIhXdgLQlvVjwVd
+         qd1Ti1xYmpDjdp2v2p18S+86kgsSXgBADGMYEXBrO6UKyW6y6TLVu0TVvgh9tuMSawaU
+         7rdTb1IJqkV7f0zCHfJzMlidhYdY8v+ehT8zxZO17GRpg/3n2pkgEmX5qbo2BcAd6Sqx
+         wK3pAEUL7A620SC1qCWiFsayZetMMmLZaWoVqpJEeITLtB5rx8Lr1ytsivFtxUtW3tt5
+         1Gvw
+X-Gm-Message-State: ALoCoQkZjSN9Rx1Xp9HtNK/5uJUFCFNaVv3VxNrhqwfCEbCKr9LaMlqHMHABEKQhD2IA7JhEPpPP
+MIME-Version: 1.0
+X-Received: by 10.52.243.134 with SMTP id wy6mr1429164vdc.3.1439823091852;
+ Mon, 17 Aug 2015 07:51:31 -0700 (PDT)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <001user@domain.com>
+Date: Mon, 17 Aug 2015 14:51:31 +0000
+Subject: Invitation: Campaign Finance Follow-up @ Tue Aug 18, 2015 3pm - 4pm (user@domain.com)
+From: re47@hillaryclinton.com
+To: user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, Marc Elias <user@domain.com>, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com
+Content-Type: multipart/mixed; boundary=001a11c1c834ee025a051d82ef33
+
+You have been invited to the following event.
+
+Title: Campaign Finance Follow-up
+When: Tue Aug 18, 2015 3pm - 4pm Eastern Time
+Where: Room TBD / 718-441-3763, no pin
+Video call: <<link>>  
+<<<link>>>
+Calendar: user@domain.com
+Who:
+     * user@domain.com - organizer
+     * user@domain.com - creator
+     * user@domain.com
+     * user@domain.com
+     * John user
+     * user@domain.com
+     * Marc Elias
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+
+Event details:  
+<<link>>
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for invitations on calendar user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to modify your RSVP  
+response. Learn more at  
+<<link>>#forwarding

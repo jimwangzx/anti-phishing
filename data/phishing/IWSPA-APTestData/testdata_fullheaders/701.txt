@@ -1,0 +1,71 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp661479lfb;
+        Thu, 10 Dec 2015 13:40:54 -0800 (PST)
+X-Received: by 10.31.48.149 with SMTP id w143mr12556480vkw.5.1449783654464;
+        Thu, 10 Dec 2015 13:40:54 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-vk0-domain.com (mail-vk0-domain.com. [2607:f8b0:400c:c05::233])
+        by domain.com with ESMTPS id v21si11845478vkd.35.2015.12.10.13.40.54
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 10 Dec 2015 13:40:54 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::233 as permitted sender) client-ip=2607:f8b0:400c:c05::233;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::233 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-vk0-domain.com with SMTP id j66so4100519vkg.1
+        for <user@domain.com>; Thu, 10 Dec 2015 13:40:54 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Lona Valmoro <lvalmoro@hillaryclinton.com>
+        bh=452hq6LAjQ/jFn3ABd0Ih7HO25nRSrCzRBISOlHLU2w=;
+        b=O87QNnpGPptrOM0JYQ5/PQI1j3V9iIoclgmP653+B2sqF0O7CiTLU/2Ij54jWyMJ5i
+         xxb4ANoO5SKdomXTzHtt2lrw2iTXZSYy8/9R4Lveyo6XxqjLH9hzCEVa5VOCdSp85Ink
+         HOjUYFTdLB/0WUjFXTP+C+69cZX1mZdoMpuH0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Lona Valmoro <lvalmoro@hillaryclinton.com>
+         :content-type;
+        bh=452hq6LAjQ/jFn3ABd0Ih7HO25nRSrCzRBISOlHLU2w=;
+        b=K+28vwzIbkUq5s/LGpTjK98jsUCi2DPtnJU34gBnHjAluCsNE6Ye/4Nc751PHmhL6u
+         1zAseAMRzuBnggAN5i+Pw6LDp/dvmZZnIe5Bra3/0ZHTEizHcym9/WQc51xfzxXoi1iG
+         XQHN0IU65pYjz9QJXK5/9domain.com/kfW2z4hb2UEPV
+         m1EKqby855qfoOzkeAon1SFGxxlgi953QnIOaP703MqjXyO5XmQKpFLK+EgeBP8FIDo/
+         XXSdmQ78Uzwcdcxib2cbEP1vXSKWC/59KYLKJb3TeAirW8GOaX8zGDnv84ZZcmrcrF7q
+         fm1Q
+X-Gm-Message-State: ALoCoQl6Q6E5iWxY+rBLFwuDlFKE9qKXUlTpRJ5BgIqDwVkt5IeA+TDa3XhZA9GXNzYC6aKItRC5EZPM6mORCqmoF1DpBpIv5X7h+md/95dp2Eo19xv9qFw
+MIME-Version: 1.0
+X-Received: by 10.31.190.211 with SMTP id o202mr12786634vkf.100.1449783654158;
+ Thu, 10 Dec 2015 13:40:54 -0800 (PST)
+Received: by 10.31.180.207 with HTTP; Thu, 10 Dec 2015 13:40:54 -0800 (PST)
+Date: Thu, 10 Dec 2015 16:40:54 -0500
+Message-ID: <user@domain.com>
+Subject: Meeting on Monday, December 14th (12:00pm-12:45pm)
+From: Lona Valmoro <lvalmoro@hillaryclinton.com>
+To: Robby Mook <user@domain.com>, Huma Abedin <user@domain.com>, 
+ John user <user@domain.com>, 
+ John user <user@domain.com>, 
+ Elan Kriegel <user@domain.com>
+CC: Kate Offerdahl <user@domain.com>, 
+ Sawsan Bay <user@domain.com>, 
+ Sara Latham <user@domain.com>, 
+ Milia Fisher <user@domain.com>, 
+ Lona Valmoro <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11439cd0b52c2b0526920f47
+
+Please block the following time on your calendars for a meeting on Monday,
+December 14th with HRC.
+
+We are aiming to do this at Brooklyn HQ on the 10th floor.  I am waiting
+for final confirmation on location and will circle back -- thank you.
+
+*Monday, December 14th*
+*12:00pm-12:45pm*
+*Brooklyn HQ, 10th Floor*
+
+HRC
+Robby Mook
+John user
+Huma Abedin
+Elan Kriegel

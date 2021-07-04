@@ -1,0 +1,64 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp8482871lfb;
+        Fri, 1 Jan 2015 18:01:17 -0800 (PST)
+X-Received: by 10.60.17.1 with SMTP id k1mr51496366oed.4.1451700077041;
+        Fri, 01 Jan 2015 18:01:17 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from BAY004-domain.com (bay004-domain.com. [65.54.190.157])
+        by domain.com with ESMTPS id y185si16202454oig.48.2016.01.01.18.01.16
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 01 Jan 2015 18:01:17 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.54.190.157 as permitted sender) client-ip=65.54.190.157;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 65.54.190.157 as permitted sender) user@domain.com
+Received: from na01-bn1-domain.com ([65.54.190.188]) by BAY004-domain.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Fri, 1 Jan 2015 18:01:16 -0800
+Received: from domain.com (10.163.51.146) by
+ domain.com (10.163.51.146) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Sat, 2 Jan 2015 02:01:15 +0000
+Received: from domain.com ([10.163.51.146]) by
+ domain.com ([10.163.51.146]) with mapi id
+ 15.01.0361.006; Sat, 2 Jan 2015 02:01:15 +0000
+From: Brent Budowsky <brentbbi@webtv.net>
+To: "User" <user@domain.com>
+Subject: Now that Donald stars in a terrorist video....
+Thread-Topic: Now that Donald stars in a terrorist video....
+Thread-Index: AQHRRQF11wkdyqEaDkyUcbxI48s4SA
+Date: Sat, 2 Jan 2015 02:01:14 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none header.from=webtv.net;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [1d+a+qwXJyEomGiKyRKEuwIbrnShzJbC]
+x-microsoft-exchange-diagnostics: 1;CY1PR17MB0204;23:xICaPaanEbQ2luffgAsAFMLa/DQjuzUVcNZnN68zypwPJxekz5xgMBz6yLSFFzt3dYeqxGWaA4ZIhpXm9Kd396xplcfwz8ABS66m0mGzpERjR2k8Jb6EoEeRREn/pesGOq44zUfsUrOugIL1JW605jbX6xQuaGiKTIqNzTEY8VVCHJ0a/8qqy1WwMeiJppEhh3Am2o6Oy7OoY4vYWwsU1g==;5:NF9yPufx+kQKa6/6DiMvtugit5KaktJI3HafnPrGpQ8LlZ8wjNWcWA4AkTrPX/5zmoOOsnPJVSZzmIyktYbJwp6lgSRRgjDxia5K7LkfCgsKOvfoxiw/JAHqE33j6y2BYSAIy3ji9m/Dc0rNUp3JHg==;24:WIl3N0nzws3WRfzfXEMuQKilsVT9zfda/iI57NJ2f+Je3Yd/QM8NjXKFgjigS+l1/ekeoR0M/7EpdKBieTs2N4o/TxQCqU6OiN3NYs8E1RU
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:CY1PR17MB0204;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(432015012)(82015046);SRVR:CY1PR17MB0204;BCL:0;PCL:0;RULEID:;SRVR:CY1PR17MB0204;
+x-forefront-prvs: 0809C12563
+x-forefront-antispam-report: SFV:NSPM;SFS:(7070004)(98900002);DIR:OUT;SFP:1901;SCL:1;SRVR:CY1PR17MB0204;H:domain.com;FPR:;SPF:None;LANG:en;
+spamdiagnosticoutput: 1:23
+spamdiagnosticmetadata: NSPM
+Content-Type: text/plain; charset="us-ascii"
+Content-ID: <user@domain.com>
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-1-318-15-msonline-outlook-9143d.templateTenant
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 Jan 2015 02:01:14.7315
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1PR17MB0204
+Return-Path: user@domain.com
+X-OriginalArrivalTime: 02 Jan 2015 02:01:16.0017 (UTC) FILETIME=[76C21610:01D14501]
+
+I'd suggest that rather than the Clinton's responding in a political way, h
+ave allies such as Diane Feinstein, intelligence committee members or retir
+ed generals or a former CIA Director such as Panetta lead the response in a
+ very sober and serious way....Donald really does help terrorists....this i
+s beyond politics and he should back off....
+
+Sent from my iPad

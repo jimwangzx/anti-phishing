@@ -1,0 +1,195 @@
+Delivered-To: user@domain.com
+Received: by 10.229.87.74 with SMTP id v10cs24873qcl;
+        Tue, 18 May 2015 14:35:25 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.224.10.27 as permitted sender) client-ip=10.224.10.27;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.224.10.27 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.224.10.27])
+        by 10.224.10.27 with SMTP id n27mr5157089qan.43.1274218512349 (num_hops = 1);
+        Tue, 18 May 2015 14:35:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:From: Jeremy Funk <funk@americansunitedforchange.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-original-authentication-results:x-original-sender:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe:content-language:content-type;
+        bh=EuJaFWfvAMUh1McBG3bf7FUv9TOAXIj8j21MDFvTrek=;
+        b=bVhFKqzRyLXpSHmgsYognoScivYTeQcerm107dwTvZ7LAu0Mlg1pLJ5VGaeQwDZyRB
+         cXagLSwajNYINAcPxW2uUZYAqoFlC9iXnpJPHYSfVXlwlfrlflQW900qTYya/La8pt+l
+         BMK/YxAV45iK5L+mlkBGkiAdSjeWZ18v4WL/o
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:From: Jeremy Funk <funk@americansunitedforchange.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-original-authentication-results:x-original-sender:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe:content-language:content-type;
+        b=jPFPhz+TjhqIrxGSVM4Yd0ESgNNPGCl2Y1TWhtNfbNFT5J40aYBw1wxPuoA2vdMX0C
+         q/QMYRLmsHTZEeCI9ZW2VAjNZAtcpJ8WLUq9ZqS9iU/cLU0NA6T5dpsutx+FQi3kLDi8
+         wYQ+i9gNbeYWlh5HW5HEmS7imaJCyvMY4+FHM
+Received: by 10.224.10.27 with SMTP id n27mr964858qan.43.1274217850903;
+        Tue, 18 May 2015 14:24:10 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.224.59.82 with SMTP id k18ls12063qah.5.p; Tue, 18 May 2015 
+	14:24:09 -0700 (PDT)
+Received: by 10.224.36.18 with SMTP id r18mr560777qad.5.1274217730779;
+        Tue, 18 May 2015 14:22:10 -0700 (PDT)
+Received: by 10.224.36.18 with SMTP id r18mr560776qad.5.1274217730695;
+        Tue, 18 May 2015 14:22:10 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail.americansunitedforchange.org ([66.253.44.162])
+        by gmr-domain.com with ESMTP id 19si925100qyk.13.2010.05.18.14.22.09;
+        Tue, 18 May 2015 14:22:10 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.253.44.162 as permitted sender) client-ip=66.253.44.162;
+Received: from AUFC-domain.com ([fe80::4471:3a32:78c1:35d9]) by
+ AUFC-domain.com ([fe80::4471:3a32:78c1:35d9%10]) with mapi; Tue, 18 May
+ 2015 17:22:08 -0400
+From: Jeremy Funk <funk@americansunitedforchange.org>
+To: "User" <user@domain.com>
+Date: Tue, 18 May 2015 17:22:07 -0400
+Subject: [big campaign] Gulf State Activists Asked to Send Sen. Jim Inhofe 
+	Photos of Tar Balls Washing Up from BP Spill
+Thread-Topic: Gulf State Activists Asked to Send Sen. Jim Inhofe Photos of
+ Tar Balls Washing Up from BP Spill
+Thread-Index: Acr2wH4VZD+eKHotRwCAf0OrqF+IJAAACJIg
+Message-ID: <95user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com: 
+	domain of user@domain.com designates 66.253.44.162 as 
+	permitted sender) user@domain.com
+X-Original-Sender: user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, 
+	<mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>, 
+	<mailto:bigcampaign+user@domain.com>
+Content-Language: en-US
+Content-Type: multipart/alternative;
+	boundary="_000_95AFEEF8AB22CE4E8CA3F8E6FBCB8CD12691BF0051AUFCS1AUFCloc_"
+
+FYI -- see below email sent today to activists on our email list in Gulf st
+ates asking that they take photos of the tar balls washing up on their shor
+es<<<link>>
+ar-balls-wash-up-turtles-dolphins-found-dead.html> in the wake of the massi
+ve and ongoing BP oil spill.  Activists are urged to send their pictures di
+rectly to Senator James Inhofe (R-OK) who today blocked<<<link>>
+domain.com/2010/05/18/inhofe-blocks-second-dem_n_580307.html> Senate action
+ on the "Big Oil Bailout Prevention Act"<<<link>>
+m/press/release/?id=3Dc9ca441f-ddac-4ebb-ad3a-b044cb3c79f8> on behalf of hi
+s Republican colleagues and as payback to the big oil companies for more th
+an $1.2 million<<<link>>
+0005582&cycle=3DCareer> in campaign contributions.
+
+This is the second time in two weeks the Grand Oil Party has obstructed the
+ bill to raise the liability caps for oil companies like BP from $75 millio
+n to $10 billion to help ensure that they pay every cent of economic and en
+vironmental disasters caused by their negligence.
+
+Senate Republicans' message to America's taxpayers is clear: "Hasn't oil gi
+ant BP suffered enough for the environmental catastrophe their negligence c
+aused?"
+
+________________________________________
+Jeremy J. Funk
+Communications Director, Americans United for Change
+Office: 202.470.5878
+Cell: 605.366.3654
+user@domain.com<mailto:user@domain.com>
+domain.com<<<link>>>
+
+________________________________
+[<<link>>]<http:
+//domain.com>
+Dear Friend,
+<<<link>>>[<<link>>
+domain.com/page/-/tarball2.jpg]<<<link>>
+domain.com/page/s/TarBalls><<<link>>
+rBalls>Gulf Coast states need to fight back!
+
+Today Sen. Harry Reid stated on the Senate floor: "We have to put our foot 
+down and make clear that taxpayers will not pick up the tab.  I will do eve
+rything in my power to make sure the polluters pay the price."
+
+When the Democrats brought forward the "Big Oil Bailout Prevention Act" to 
+make British Petroleum pay for this environmental disaster, Sen. James Inho
+fe single-handedly blocked the bill on behalf of the Grand Oil Party. This 
+is a man who hates the idea of protecting the environment. Despite the over
+whelming scientific evidence he believes global climate change is a myth. A
+nd now he's protecting big oil company profits, over the environment, local
+ economies and the American taxpayers. It's no wonder that over $1.2 millio
+n in big oil money has gushed into the Senator's campaign coffers over the 
+years.
+
+According to the Associated Press, over the weekend, large balls of tar was
+hed up on the beach at Port Fourchon, Louisiana, some of them 8 inches acro
+ss. And just this morning, more tar balls reportedly washed up in the Flori
+da Keys. Every coastal area is at risk.
+
+Can you stop by an effected coastal area and help with the clean up?<http:/
+/www.americansunitedforchange.org/page/s/TarBalls>
+
+Let's send Senator Inhofe a message that sticks. Lets show him that this di
+saster is real. Can you take a picture of a tar ball on the beach and send 
+it to Senator Inhofe's office so that he can see that the disaster is real?
+ If you're not near an ocean you can send Senator Inhofe a virtual tarball,
+ images of globs of oil being found on the ocean floor today.<<<link>>
+domain.com/page/s/TarBalls>
+
+This is a typical move from Republicans, beholden to big business, unconcer
+ned for the average American. It's a simple concept, when you cause a probl
+em, you take responsibility.
+
+For some reason, Big Oil and Republicans in the Senate don't think that the
+ people who caused this disaster should have to pay to clean it up. How doe
+s that make any sense? It's not fair to Americans and not fair to the Gulf 
+Coast to waste any time or burden anyone else.
+
+Don't let big oil wash their hands of this disaster, the Senate needs to pa
+ss the "Big Oil Bailout Prevention Act." Send a tar ball to Sen. James Inho
+fe! Let him know we mean business <<<link>>
+page/s/TarBalls>
+
+We can't stand by and let science deniers and reckless oil companies take a
+dvantage of us.
+
+Thanks,
+
+Jeremy
+[<<link>>]
+<<<link>>>
+This email was sent to: user@domain.com
+Paid for by Americans United for Change
+P.O. Box 65321
+Washington, DC 20035
+Contributions or gifts to Americans United for Change are not tax deductibl
+e. Americans United For Change can accept contributions from individuals, c
+orporations, labor unions, and other sources in unlimited amounts. American
+s United for Change is organized under section 501(c)(4) of the Internal Re
+venue Code.
+To unsubscribe: <<link>>
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

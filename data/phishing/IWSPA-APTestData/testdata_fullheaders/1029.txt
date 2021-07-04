@@ -1,0 +1,84 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp1726431lfb;
+        Sat, 30 Jan 2015 17:38:28 -0800 (PST)
+X-Received: by 10.202.81.19 with SMTP id f19mr12033133oib.37.1454204308556;
+        Sat, 30 Jan 2015 17:38:28 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::22b])
+        by domain.com with ESMTPS id ny9si1233306oeb.27.2016.01.30.17.38.28
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 30 Jan 2015 17:38:28 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22b as permitted sender) client-ip=2607:f8b0:4003:c01::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id wb13so57297102obb.1
+        for <user@domain.com>; Sat, 30 Jan 2015 17:38:28 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Matt Paul <mpaul@hillaryclinton.com>
+         :cc:content-type;
+        bh=DPM/nrQOJPrWPG4oRiW/Ia4qrWIAnGQNSxNvFZLmDrg=;
+        b=Fu2mGZA1H8ZClx+88gEQfUK+kBCQDnh0XulpXYVNfhN0XOQkkzNwME3ys8J4O+zGYY
+         8/vGGHi9M5nBpvw9CSZewrjJZx8E4E8TyxmIlG859BRcQYqMgaqhto2wCwXQUJIqb++j
+         Ph4vOqyM/B2uMLxJNLaBmZo+BFF12meaXOcrA
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Matt Paul <mpaul@hillaryclinton.com>
+        bh=DPM/nrQOJPrWPG4oRiW/Ia4qrWIAnGQNSxNvFZLmDrg=;
+        b=GY24EKBUJG31eHkiGOejPms6pwgodUUrcb+8TH0VV6X1okLUSEmG7jk1OhlBZSHmyp
+         avxoKWTWq3CzAZ1DfaM/KEwJIJYDLHvbe4ky2G0A6bLm5RvrgFn/MBglDoJ1U0f+kmwY
+         9c7rPMUFhw+nIgR9agDUPqlScsXN9u+gGJazKW3KU2wxH7lRYV/fFFZ1VQWaF+jW6vZn
+         FWcdgvGmWcM0QdSnl7cKyXz3p5szeYfBQnl14GI4CSwpQPTgPqChncOF13+FHHiTaH+9
+         Smjp+2wXg0A7D4urpdHOpDyiugJKZvUdUQwafQwDrbSXkmwyZUmlsEI9KmFOI/z0XQfW
+         YXbw
+X-Gm-Message-State: AG10YOTykiXrnS2ZtHqlBGDY1c41apjPJ0eCOxtT9zc7wQ5BB9T0wrSmVtH3UBXXdYp3gMZqQ/UkQNOsTDYdbjU/
+MIME-Version: 1.0
+X-Received: by 10.60.46.102 with SMTP id u6mr13065630oem.78.1454204308123;
+ Sat, 30 Jan 2015 17:38:28 -0800 (PST)
+Received: by 10.202.239.67 with HTTP; Sat, 30 Jan 2015 17:38:28 -0800 (PST)
+In-Reply-To: <CA+user@domain.com>
+References: <1460938381447404912@unknownmsgid>
+	<CAOLO1-nGOALAOqK+user@domain.com>
+	<CA+user@domain.com>
+Date: Sat, 30 Jan 2015 19:38:28 -0600
+Message-ID: <user@domain.com>
+Subject: Re: Caucus Day Update
+From: Matt Paul <mpaul@hillaryclinton.com>
+To: Lily Adams <user@domain.com>
+CC: Kristina Schake <user@domain.com>, 
+ Huma Abedin <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ John user <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e01294798378b80052a97538e
+
+Those poor people in LeClaire.  Hopes crushed. Dreams fading down the
+Mississippi like a broken shelf of ice....
+

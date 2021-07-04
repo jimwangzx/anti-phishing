@@ -1,0 +1,116 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 3 Jul 2015 11:11:24 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s63IBNZL022085	for <user@domain.com>; Thu, 3 Jul 2015 
+ 18:11:24 GMT
+Received: from mail130-ch1-domain.com (mail-domain.com
+ [216.32.181.173])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s63IDCQp002128
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 3 Jul 2015 18:13:13 GMT
+Received: from mail130-ch1 (localhost [127.0.0.1])	by
+ mail130-ch1-domain.com (Postfix) with ESMTP id 31F47120285	for
+ <user@domain.com>; Thu,  3 Jul 2015 18:11:20 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:205.201.129.67;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 3
+X-BigFish: vps3(z59c9h3e12hzc89bhec9Ic857h14ffIzz1f42h1ee6h1de0h21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch1fdah2233kzz1def03h177df4h17326ah1df2f4h1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h186068hc704dh1ce121iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2534h2545h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h298fh29d0h2a24h2b05h1d9ci)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail130-ch1: domain of domain.com designates 205.201.129.67 as permitted sender) client-ip=205.201.129.67; user@domain.com; helo=domain.com ;01.domain.com ;
+Received: from mail130-ch1 (localhost.localdomain [127.0.0.1]) by mail130-ch1
+ (MessageSwitch) id 1404411077863194_19535; Thu,  3 Jul 2015 18:11:17 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.253])	by mail130-domain.com (Postfix) with ESMTP id
+ CE831200053	for <user@domain.com>; Thu,  3 Jul 2015 18:11:17 +0000
+ (UTC)
+Received: from domain.com (205.201.129.67) by
+ domain.com (10.43.70.5) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 3 Jul 2015 18:11:17 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Kathy=20Eldon?= <info@creativevisions.org>
+ bh=3wXwVv0iTtm4aN3jPG0P2eb+ZXY=;
+ b=AtnKp+XWVVFtFp3LB/TWa+QoV8bkjos/SqpHvn2FxB0rQY4B4LsYynKtDTpaVPhT3oIxNuEI55jt
+   uPOkDPwiCtTPnkUnE+w3F1BllxDohYb2XxYZ6kSeJR9SS4ukSlQSxt+mMW+DG7T0OJfOpDwDIKVB
+   t0cYjEKUBYjh8AHJ2y0
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=aBEKbgZxTL93GKjhfczthmTD5ivev/5jV7zwgPctXb0laUU9AA9l8NXyrPvkHV5hfK1fnq7IrcS6
+   QuN4J9jy3ly/Y8aq3A25tenTeZsN2thg8rH04s+S6/r9RQAaOFam7q8ZS5eNtmSagn5QdU5ggjlc
+   lGFtOxiKtIHpqETNdWg=;
+Received: from (127.0.0.1) by domain.com id hmmeca174e0l for
+ <user@domain.com>; Thu, 3 Jul 2015 18:11:17 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?Watch=20a=20fantastic=20film=20=2D=20and=20domain.com=20Creative=20Visions=21=20=20Lekha=20Singh=27s=20=22Beyond=20Right=20&=20Wrong=22?
+From: =?utf-8?Q?Kathy=20Eldon?= <info@creativevisions.org>
+Reply-To: =?utf-8?Q?Kathy=20Eldon?= <user@domain.com>
+To: =?utf-8?Q?Amy?= <user@domain.com>
+Date: Thu, 3 Jul 2015 18:11:17 +0000
+Message-ID: <08561user@domain.com>
+X-Mailer: MailChimp Mailer - **CID395450f87b103a032199**
+X-Campaign: mailchimp08561a71176f05baed5d1b4b0.395450f87b
+X-campaignid: mailchimp08561a71176f05baed5d1b4b0.395450f87b
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 08561a71176f05baed5d1b4b0
+X-Feedback-ID: 28029639:28029639.663645:us8:mc
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: Kathy Eldon <user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Watch a fantastic film - and domain.com Creative Visions!  Lekha Singh's "Beyond Right & Wrong"
+
+Use this area to offer a short preview of your email's content.         
+
+View this email in your browser         
+
+ <<link>> 
+
+ <<link>> 
+
+ <<link>> 
+
+Hi All - 
+
+After seeing Lekha Singh's haunting film, "Beyond Right and Wrong," I realized that it perfectly expresses what I have finally learned -- that Life is truly For-giving.  Lekha takes viewers across the globe on a journey of forgiveness that brings us back to ourselves, reminding us of Archbishop Desmond Tutu's famous quote, "Not forgiving is like drinking poison and expecting the other person to die."
+
+Please join Lekha at the Laemmle on July 8th or July 15th and also domain.com Creative Visions Foundation!  And if you can, please download or borrow my new memoir, "In the Heart of Life" - and learn how I finally learned to forgive the Somalis who killed Dan, and finally, myself.
+
+p.s. If you can't make it to the film, watch it online and we still domain.com!  See below.
+
+Happy Fourth of July!  Love, Kathy
+
+For TWO NIGHTS ONLY, the award-winning documentary, Beyond Right & Wrong, will be screening at  two Laemmle Theaters in Los Angeles to domain.com Creative Visions!
+
+Playhouse 7 Theater - Pasadena
+
+July 8, 2015 
+7.30 PM
+FREE ENTRACE
+RSVP: <<link>>
+673 East Colorado Blvd.
+Pasadena, CA, 91101
+
+Royal Theater - Santa Monica
+
+July 15, 2015 
+7.30 PM
+FREE ENTRACE
+RSVP: <<link>>
+11523 Santa Monica Blvd.
+West L.A., CA, 90025
+
+Beyond Right & Wrong synopsis: A woman who survived the death of her five children wonders if she can forgive the man who killed them.  A victim's daughter strikes up an unusual friendship with the bomber who killed her father.  And two men - one Israeli, one Palestinian - form a bond after tragedies claim their daughters.
+
+Q&A with: Co-Director, Producer, & Executive Producer Lekha Singh
+
+
+
+
+Recently, I caught up with Lekha while she was in the office!  
+

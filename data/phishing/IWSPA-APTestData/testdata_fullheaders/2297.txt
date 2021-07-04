@@ -1,0 +1,71 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.101 with SMTP id o98csp2746295lfi;
+        Mon, 22 Jun 2015 18:05:48 -0700 (PDT)
+X-Received: by 10.194.89.70 with SMTP id bm6mr53574510wjb.146.1435021548280;
+        Mon, 22 Jun 2015 18:05:48 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::22a])
+        by domain.com with ESMTPS id ga6si21916854wib.68.2015.06.22.18.05.48
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Jun 2015 18:05:48 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22a as permitted sender) client-ip=2a00:1450:400c:c05::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id nd19so87736748wic.1
+        for <user@domain.com>; Mon, 22 Jun 2015 18:05:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+         :cc:content-type;
+        bh=lDS3pPRppvmjH2hbEWBnBkVVoeom9vowDfJrxVWwAU0=;
+        b=UcKORmue55LxGIFByua028+dtJFN/nIvoBQdVuJe3DIMh5fEKKr5qTOnxuGaWOoXX9
+         SxdZ5xtLZIpxyItz1sLvGCuoDUxYdpowiRSdYMxsiRj0Xmyih+xoQhvRlgp4IoFFSQ0K
+         LRl6tHZPboD7VK1n+RR+CQbtqA2LKCjBlR8kw
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=lDS3pPRppvmjH2hbEWBnBkVVoeom9vowDfJrxVWwAU0=;
+        b=SpNlsAyT5QvqrzU37s8X+EIY73Q/PPZWUb0hSrz5MjnqMvdfeB2y9imL8SoTTg6cJu
+         4IfxH1IYqGi0wf5kozeDGnssRBMxBUyt+8VnTe08l89uo3iMa8OdfreGIz3/TZmjp64U
+         4twsAi4G6rf8IagqDo7B6EOtcCNazfOVE0g25wzMN6L8bWI5gxLT7jj7gDKoFi42k9KP
+         FchpNvgFtllVxYuN7rqpdfkAbQjDz/lvM+j/RpcCk0BMpbfr3i28t1L9dl3RrNBMRUqJ
+         8D9MQUKVB9xEZJsQkiVjrC87NQUitL7gvgNM36s4+fcYq1anSzxsKadsWDtKw5gYS9Iu
+         /VbA
+X-Gm-Message-State: ALoCoQki2uz1vYjo+HJO0yk1DwmkAhohFHtcbmBRoiASJ6dJrmjm0oB43zaw9DpYIdEAo5phnuCR
+X-Received: by 10.180.160.210 with SMTP id xm18mr36483511wib.93.1435021547979;
+ Mon, 22 Jun 2015 18:05:47 -0700 (PDT)
+From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CA+user@domain.com>
+ <CAE6FiQ_9rPxs-LchPUVC+QoqPx-hqYzP1UfUT0Bcw+WiG8r+user@domain.com> <CAMhPeA-+user@domain.com>
+In-Reply-To: <CAMhPeA-+user@domain.com>
+Date: Mon, 22 Jun 2015 21:05:46 -0400
+Message-ID: <5316931214186206402@unknownmsgid>
+Subject: Re: Nightly Labor Update
+To: Robby Mook <user@domain.com>
+CC: John user <user@domain.com>, 
+ Alex Hornbrook <user@domain.com>, 
+ Amanda Renteria <user@domain.com>, 
+ Bonnie Rubin <user@domain.com>, 
+ Brynne Craig <user@domain.com>, 
+ Lona Valmoro <user@domain.com>, 
+ Marlon Marshall <user@domain.com>, 
+ Huma Abedin <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7b6222e49cfb77051924fdb4
+
+Sure, yes.  These calls are in
+MA (Kennedy)
+RI (Not good NEA/Gov relationship so need other option)
+PA
+CA
+NJ
+
+Amanda/Brynne let me know who you think is best.  And also if I can expand
+the list.
+
+Sent from my iPhone
+

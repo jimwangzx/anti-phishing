@@ -1,0 +1,131 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.99 with SMTP id n90csp32124qga;
+        Sat, 9 Aug 2015 13:54:27 -0700 (PDT)
+X-Received: by 10.140.84.231 with SMTP id l94mr34436256qgd.84.1407617667390;
+        Sat, 09 Aug 2015 13:54:27 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.8])
+        by domain.com with ESMTPS id 17si15222170qgb.86.2014.08.09.13.54.27
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Sat, 09 Aug 2015 13:54:27 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.251.8;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211:60188] by server-8.bemta-12.domain.com id C2/F7-16004-28A86E35; Sat, 09 Aug 2015 20:54:26 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-6.tower-53.domain.com!1407617664!8831154!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 5996 invoked from network); 9 Aug 2015 20:54:25 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-6.tower-53.domain.com with AES128-SHA encrypted SMTP; 9 Aug 2015 20:54:25 -0000
+Resent-From: Arizonans for Ann <info@kirkpatrickforarizona.com>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Sat, 9 Aug 2015 16:54:24 -0400
+Received: from [216.82.254.67:19661] by server-8.bemta-7.domain.com id
+ A4/32-02257-08A86E35; Sat, 09 Aug 2015 20:54:24 +0000
+X-Env-Sender: AQZVVmpSXgRSVVQCVFVWA1dbBlMDPhVcBlxBF1d0WQUSS1FQDBYBURFcR1s
+  user@domain.com
+X-Msg-Ref: server-5.tower-196.domain.com!1407617662!9164316!1
+X-Originating-IP: [70.42.50.132]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNzAuNDIuNTAuMTMyID0+IDE5ODk5OA==\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 9460 invoked from network); 9 Aug 2015 20:54:22 -0000
+Received: from mta-dock-front-3.domain.com (HELO
+ mta-dock-front-3.domain.com) (70.42.50.132)  by
+ server-5.tower-196.domain.com with SMTP; 9 Aug 2015 20:54:22 -0000
+Received: from domain.com (unknown [10.0.200.87])	by
+ mta-dock-front-3.domain.com (Postfix) with ESMTP id 3hVwfQ0gnXzjWx2
+	for <user@domain.com>; Sat,  9 Aug 2015 20:54:22 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1407617662;
+	bh=iIpoEeDaeBZDosmhif2/D+ozme143pnzhIcRLPsMAp0=;
+	h=Date:To:From: Arizonans for Ann <info@kirkpatrickforarizona.com>
+	b=wkdw6mUm3Nf79/6mY1Xn+pE7BLWJ99NqB7p/wF466P5WV4rcVfHAycDXqDAtm30FQ
+	 pACafH80+JNZcGyKvi/xTHWT1XRMYQWpHZ9GOddMiEs1U/hLyIhh0W8Txv9WApMkDe
+	 TDlaxfNHTKolL49aXPJSbFkzn2NXn7vfhkkg3pjA
+Received: from build 	by domain.com with local (PHPMailer);
+	Sat, 9 Aug 2015 20:54:22 +0000
+Date: Sat, 9 Aug 2015 20:54:22 +0000
+To: John user <user@domain.com>
+From: Arizonans for Ann <info@kirkpatrickforarizona.com>
+Reply-To: <user@domain.com>
+Subject: [PETITION]: Demand Koch-free Elections
+Message-ID: <97user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 6807fd7e0eb4b6a7
+X-rpcampaign: rp_186241
+X-maillist-guid: AQZVVmpSXgRSVVQCVFVWA1dbBlMDPhVcBlxBF1d0WQUSS1FQDBYBURFcR1sfAFcUagsGCgQA
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_97d98e9088d87b69bfe945671b011cd3"
+
+Click here to sign our petition to demand the Koch brothers stay out of 
+our elections >>
+
+<<link>>
+domain.com&amp;zip=3D20016&amp;firstname=3DJohn&amp;lastname=3Duser&amp;au
+to=3D1
+
+The Supreme Court is systematically dismantling our campaign finance 
+system brick by brick. Their disastrous decisions in Citizens United and 
+McCutcheon opened the floodgates for unlimited dark money in our elections 
+-- and the billionaire Koch brothers are taking full advantage.
+
+If you agree our elections shouldn't be up for sale, sign your name to 
+demand Congress pass campaign finance reform:
+
+John --
+
+It wasn't long ago that the law restricted the amount of money individuals 
+could spend in elections.
+
+But the recent Supreme Court decisions like Citizens United and McCutcheon 
+made those limits a thing of the past.
+
+No one's more excited than the Koch brothers. They're determined to buy a 
+seat in Congress. So far, they've spent over ONE MILLION dollars on ads 
+dragging Ann through the mud.
+
+We can't let deep-pocketed billionaires spend their fortunes to buy 
+elections. That's why Ann is joining Democrats across the country to 
+insist Congress pass significant campaign finance reform.
+
+Click here to stand with Ann and demand that Congress put a stop to money 
+as political influence >>
+<<link>>
+domain.com&amp;zip=3D20016&amp;firstname=3DJohn&amp;lastname=3Duser&amp;au
+to=3D1
+
+Ann believes that money should not overpower the voices of voters like you 
+this November. But without serious action from Congress, we'll never see a 
+Koch-free election.
+
+John, will you add your name to force their hand?
+
+<<link>>
+domain.com&amp;zip=3D20016&amp;firstname=3DJohn&amp;lastname=3Duser&amp;au
+to=3D1
+Thanks for your support,
+
+Arizonans for Ann
+
+This message was emailed to: user@domain.com
+
+To unsubscribe from this email list, please paste this URL into your 
+browser:
+<<link>>
+
+Paid for by the Kirkpatrick for Arizona
+

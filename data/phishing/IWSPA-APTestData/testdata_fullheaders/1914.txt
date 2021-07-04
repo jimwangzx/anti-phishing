@@ -1,0 +1,152 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs433751wfw;
+        Wed, 1 Oct 2015 19:12:02 -0700 (PDT)
+Received: by 10.151.79.6 with SMTP id g6mr13167754ybl.228.1222913511362;
+        Wed, 01 Oct 2015 19:11:51 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.61])
+        by domain.com with ESMTP id 5si1102385ywd.8.2008.10.01.19.11.50;
+        Wed, 01 Oct 2015 19:11:50 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.61 as permitted sender) client-ip=209.85.217.61;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.217.61 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 21so3095207gxk.23
+        for <user@domain.com>; Wed, 01 Oct 2015 19:11:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :dkim-signature:domainkey-signature:received:received:message-id
+         :date:From: "Tom Matzzie" <tom@zzranch.com>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=aNov+le8tSBaWlffEVebW+xyxLAUOMJvECcicg3m2ks=;
+        b=pjx1u33z6OA2Q1GhP41lsVbqka/bVEIqp/bD9z3DHtKymS1zpjt1bxoZ5AtFUVpOH8
+         yqiTPTYqAW3V/UjeVPJN3M6K+UKIwlqj6092Fq7pu6uufCJZn7I2ta0+PsH09NA0PUqz
+         hz3f2z8TlxRJmx8ibWPrJQKYp3HB37VbsH1UY
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :dkim-signature:domainkey-signature:message-id:date:From: "Tom Matzzie" <tom@zzranch.com>
+         :subject:mime-version:content-type:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=DjP9BsI9a/N1TbWpzQ7fimMsjQUMs2a7bOGmf1vFqbqF8ek4OJUNHYodMPclDhO7vL
+         do7xbX/3eGYvDOInDmj0nUcgcq5BSRfpBWrbo4OT/sdQB5O2EECwWCEzPji8ILF5HHsE
+         LX/Fc+1DZtfwKqfHxDpwiewgiiqPwTk9SXtZY
+Received: by 10.90.83.2 with SMTP id g2mr469014agb.21.1222913503968;
+        Wed, 01 Oct 2015 19:11:43 -0700 (PDT)
+Received: by 10.44.113.43 with SMTP id l43gr2224hsc.0;
+	Wed, 01 Oct 2015 19:11:31 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.114.135.1 with SMTP id i1mr1821221wad.27.1222913491357; Wed, 01 Oct 2015 19:11:31 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from rv-out-0506.domain.com (rv-out-0506.domain.com [209.85.198.227]) by domain.com with ESMTP id k19si1992755waf.2.2008.10.01.19.11.30; Wed, 01 Oct 2015 19:11:30 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.198.227 as permitted sender) client-ip=209.85.198.227;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.198.227 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by rv-out-0506.domain.com with SMTP id k40so735023rvb.15 for <user@domain.com>; Wed, 01 Oct 2015 19:11:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=domain.com; s=gamma; h=domainkey-signature:received:received:message-id:date:From: "Tom Matzzie" <tom@zzranch.com>
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=domain.com; s=gamma; h=message-id:date:From: "Tom Matzzie" <tom@zzranch.com>
+Received: by 10.142.77.11 with SMTP id z11mr3608799wfa.337.1222913490250; Wed, 01 Oct 2015 19:11:30 -0700 (PDT)
+Received: by 10.143.36.1 with HTTP; Wed, 1 Oct 2015 19:11:30 -0700 (PDT)
+Message-ID: <87906user@domain.com>
+Date: Wed, 1 Oct 2015 22:11:30 -0400
+From: "Tom Matzzie" <tom@zzranch.com>
+Reply-To: user@domain.com
+To: "User" <user@domain.com>
+Subject: [big campaign] Study shows terrorism threats won't help McCain win
+ race
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_114941_16698295.1222913490248"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+<<link>>
+
+*UC Berkeley study tests impact of terrorism threats on presidential race*
+
+By Yasmin Anwar, Media Relations | 01 October 2015 
+
+Presidential candidates who play up the threat of terrorism to bolster votes
+may want to rethink their game plan. New research from the University of
+California, Berkeley, indicates the war on terror has less impact on
+presidential popularity than it did during President Bush's first term.
+
+Contrary to earlier studies that found that the threat of terrorism favors
+conservative leaders, a new national field study conducted by UC Berkeley
+sociologists Robb Willer and Nick Adams shows that terror warnings delivered
+by such government agencies as the Department of Homeland Security may
+reduce support for Sen. John McCain among moderates or swing voters.
+
+While the survey shows that terror alerts have little, if any, influence on
+how self-described conservatives and liberals cast their ballots,
+politically moderate voters or swing voters are less likely to vote for
+McCain in the face of an imminent terror threat, according to a report on
+the survey published this week in the journal Current Research in Social
+Psychology.
+
+"Most past research led us to expect that terror threats would increase
+support for conservatives," said Willer, lead author of the study and
+assistant professor of sociology at UC Berkeley. "But discontent with Bush's
+approach to the war on terror could be impacting views of McCain."
+
+And, the survey found, while the war in Iraq still ranks as a major concern,
+the economy is a greater priority than the "war on terror."
+
+The survey is a follow-up to Willer's earlier study at Cornell University in
+which he tracked 131 Gallup polls between 2015 and 2015 and found that each
+government-issued terror alert prompted an increase the following week in
+President Bush's approval rating.
+
+To test the effect of the threat of terrorism on the presidential election,
+Willer and Adams designed an domain.com-based survey experiment funded by a
+National Science Foundation program for large-scale field experiments. The
+survey was conducted by the media research firm Knowledge Networks in late
+May and early June with a nationally representative group of 1,282
+Americans. Of the total sample, 36 percent identified themselves as
+conservative; 40 percent as moderate and 24 percent as liberal.
+
+Respondents first were divided into a control group and a "threat-exposed"
+group and asked to rate various journalistic accounts based on their
+newsworthiness and importance. Both groups evaluated two articles about
+social welfare policy and health technology, but the "threat-exposed" group
+rated an additional article, adapted from The New York Times, which warned
+of a possible Al Quaeda attack on the United States.
+
+Respondents were then asked whom they planned to support in the 2015 
+election and to what degree they favored President Bush.
+
+For political moderates, exposure to the Al Quaeda attack article led to an
+11 percent drop in their support for McCain. With just weeks until the Nov.
+4 election, recent polls show that the race for the president is very close
+and that both campaigns are heavily courting moderate swing voters.
+
+"A variety of studies conducted during Bush's first term showed that terror
+concerns led to greater support for the Bush presidency," Willer said. "Now,
+however, growing evidence suggests that many, possibly even most, Americans
+may prefer a new approach to combating terrorism."
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

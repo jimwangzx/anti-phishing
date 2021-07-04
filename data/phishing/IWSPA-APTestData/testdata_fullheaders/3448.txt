@@ -1,0 +1,254 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Sat, 12 Apr 2015 08:06:19 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s3CF6JFd020114	for <user@domain.com>; Sat, 12 Apr 2015 
+ 15:06:19 GMT
+Received: from mail126-ch1-domain.com (mail-domain.com
+ [216.32.181.174])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s3CF6HpL012931
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Sat, 12 Apr 2015 15:06:17 GMT
+Received: from mail126-ch1 (localhost [127.0.0.1])	by
+ mail126-ch1-domain.com (Postfix) with ESMTP id 299921C00F3	for
+ <user@domain.com>; Sat, 12 Apr 2015 15:05:49 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.15.215.80;KIP:(null);UIP:(null);IPV:NLI;H:em-sj-80.domain.com;RD:em-sj-80.domain.com;EFVD:NLI
+X-SpamScore: 4
+X-BigFish: vps4(z691I579eh6caIzdc43hdb80he0eahc857hzz1f42h2148h1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch2233k2150izz1d7338h1de098h1def03h172cfch17326ah1def87h8275bh1bc7b9h8275dh1def86h18c673h1de097h186068h1d68deh1ce121iz2fheh5fh839h8e2h8e3h10d2h1288h12a5h137ah13eah1441h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3hbe9i1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail126-ch1: domain of em-sj-77.domain.com designates 199.15.215.80 as permitted sender) client-ip=199.15.215.80; user@domain.com; helo=em-sj-80.domain.com ;domain.com ;
+Received: from mail126-ch1 (localhost.localdomain [127.0.0.1]) by mail126-ch1
+ (MessageSwitch) id 1397315146992949_27743; Sat, 12 Apr 2015 15:05:46 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.228])	by mail126-domain.com (Postfix) with ESMTP id
+ E424A4A008D	for <user@domain.com>; Sat, 12 Apr 2015 15:05:46 +0000
+ (UTC)
+Received: from em-sj-80.domain.com (199.15.215.80) by
+ domain.com (10.43.69.252) with Microsoft SMTP Server id
+ 14.16.227.3; Sat, 12 Apr 2015 15:05:42 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=domain.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1397315171;
+	h=From: The Agency <Info@TheAgencyRE.com>
+	bh=FUOf4+RG6U0+7OaGlkRDwkIqYyJUCXq509R9PuaXf9A=;
+	b=Rs0U3TWgEc5bGTlDQANpUncXmce+USEHVwfHhWrEUVc1UjEroU+6Tv23LRyJxPpk
+	5+/3XlXRWMAuvFoKtcYFsrHNd3wzcRo3IVpgWB+3qpqcOLDS7IjePvvcj0L3ifi/
+	k7JTgOFFlEHmtAt259S0ZQkyNzkb7cDz8xpNq+J+TBQ=;
+X-MSFBL: YW15LnBhc2NhbEBzcGUuc29ueS5jb21AZHZwLTE5OS0xNS0yMTUtODBAYmctc2ot
+	MDFAMTYxLVhUUC0wNDA6MTQ0MjoyNzUxOjYwNzE6MDoyMDE0Ojc6MTQxMzIyMg
+Received: from [10.0.8.1] ([10.0.8.1:57213] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.0.35861 r(Momo-dev:tip)) with ESMTP	id 62/AD-09958-36659435; Sat, 12 Apr
+ 2015 10:06:11 -0500
+Date: Sat, 12 Apr 2015 10:06:11 -0500
+From: The Agency <Info@TheAgencyRE.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <1869472293.-2074364263.1397315171084.user@domain.com>
+Subject: This Week At The Agency: Top 10 Best Tequilas; The Agency Welcomes
+ Doug Sandler; Time Lapse Video Of L.A. At Night; Anne Burkin Joins The
+ Team; and more
+X-Report-Abuse: Please report abuse here: <<link>>
+X-Binding: bg-sj-01
+X-MarketoID: 161-XTP-040:1442:2751:6071:0:2014:7:1413222
+List-Unsubscribe: <mailto:user@domain.com>
+X-MailFrom: The Agency <Info@TheAgencyRE.com>
+Return-Path: 161-user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+This Week At The Agency: Top 10 Best Tequilas; The Agency Welcomes Doug Sandler; Time Lapse Video Of L.A. At Night; Anne Burkin Joins The Team; and more
+
+Forward to a friend      
+
+
+
+
+ This Week at The Agency        
+
+
+
+
+ The Agency Blog        
+
+The Agency Welcomes Doug Sandler To The Team
+
+The Agency Top 10: Best Tequilas
+
+Anne Burkin Joins The Agency Team
+
+The Agency Welcomes Doug Sandler To The Team
+
+The Agency Top 10: Best Tequilas
+
+Anne Burkin Joins The Agency Team
+
+$48 Million Holmby Hills Home Reigns Highest Of Its Kind In LA
+
+Beautiful Time Lapse Video Captures Los Angeles At Night
+
+'A Getty-Esque Estate Hits The Market For $12.5 Million' - The Hollywood Reporter
+
+$48 Million Holmby Hills Home Reigns Highest Of Its Kind In LA
+
+Beautiful Time Lapse Video Captures Los Angeles At Night
+
+'A Getty-esque Estate Hits The Market For $12.5 Million' - The Hollywood Reporter
+
+
+
+
+ Weekly Listings        
+
+
+
+
+New Listing | Open Tuesday 11-2 PM | 8 Beverly Park
+
+8 Beverly Park
+
+$16,800,000 | Beverly Hills | 6 Beds | 8 Baths
+
+
+
+
+New Off-Market Listing | 438 N. Faring Road
+
+438 N. Faring Road
+
+Price On Request | Holmby Hills | 7 Beds | 8.5 Baths
+
+
+
+
+New International Lease Listing | 0 Place Des Vosges
+
+0 Place Des Vosges
+
+$25,000 Per Month | Paris, France | 2 Beds | 2 Baths
+
+
+
+
+Hacienda Beach Club & Residences
+
+Hacienda Beach Club & Residences
+
+Oceanfront Residences from $525,000 to $5,500,000 | Cabo San Lucas, Mexico
+
+
+
+
+New Listing | Open Sunday 2-5 PM | 1668 Rising Glen Road
+
+1668 Rising Glen Road
+
+$5,995,000 | Sunset Strip | 4 Beds | 7 Baths
+
+
+
+
+New Off-Market Listing | 1712 Chevy Chase Drive
+
+1712 Chevy Chase Drive
+
+$4,999,999 | Beverly Hills | 5 Beds | 4.5 Baths
+
+
+
+
+Terranea Resort - Oceanfront Casitas and Ocean Golf Villas
+
+Terranea Resort
+
+Starting at $1,295,000 | Palos Verdes Peninsula
+
+
+
+
+New Listing | Open Sunday 2-5 PM | 9541 Cherokee Lane
+
+9541 Cherokee Lane
+
+$4,200,000 or $19,000 Per Month | Beverly Hills Post Office | 5 Beds | 4.5 Baths 
+
+
+
+
+New Listing | Open Sunday 2-5 PM | 20530 Pacific Coast Highway
+
+20530 Pacific Coast Highway
+
+$2,695,000 | Malibu | 3 Beds | 2.75 Baths
+
+
+
+
+New Listing | Open Sunday 2-5 PM | 2015 Glendower Avenue
+
+2700 Glendower Avenue
+
+$2,595,000 | Los Feliz | 5 Beds | 4.5 Baths
+
+
+
+
+The Carlyle Residences
+
+The Carlyle Residences
+
+$2,595,000 - $9,250,000
+
+
+
+
+Now Leasing | The Huxley
+
+The Huxley
+
+West Hollywood | Studio, 1 and 2 Bedroom Apartment Homes
+
+
+
+
+New Price | Open Sunday 2-5 PM | 453 N. Sweetzer Avenue 
+
+453 N. Sweetzer Avenue
+
+$2,395,000 | The Grove | 5 Beds | 5.5 Baths
+
+
+
+
+New Off-Market Listing | 1359 Londonderry
+
+1359 Londonderry
+
+$2,395,000 | Sunset Strip | 3 Beds | 3 Baths
+
+
+
+
+New Price | 15585 Aqua Verde
+
+15585 Aqua Verde
+
+$2,395,000 or $11,750 Per Month | Bel Air | 5 Beds | 5 Baths
+
+
+
+
+Reduced $200,000 | Open Sunday 2-5 PM | 277 S. Spalding Drive #401
+
+277 S. Spalding Drive #401
+
+$2,295,000 | Beverly Hills | 3 Beds | 3.5 Baths 
+
+
+
+
+New Price | Open Sunday 2-5 PM | 5922 Careybrook Drive
+

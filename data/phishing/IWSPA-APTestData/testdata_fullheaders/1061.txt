@@ -1,0 +1,101 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Thu, 2 Jan 2015 08:41:10 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s02Gf9SH026440	for <user@domain.com>; Thu, 2 Jan 2015 
+ 16:41:09 GMT
+Received: from mail228-tx2-domain.com (mail-domain.com [65.55.88.115])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s02Gf8ca016589	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 2 Jan 2015 16:41:09 GMT
+Received: from mail228-tx2 (localhost [127.0.0.1])	by
+ mail228-tx2-domain.com (Postfix) with ESMTP id 899F1400D2	for
+ <user@domain.com>; Thu,  2 Jan 2015 16:41:08 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:74.122.218.147;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(zz9371Izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h17326ah8275bh1bc7b9h8275dh1de097h186068h1b778fh1ce120hz2fh5fh839h8e2h8e3h944h950he5bh10d2h1288h12a5h12bdh137ah13b6h13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h2216h2336hbe9i1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail228-tx2: domain of info.TrainHR.com designates 74.122.218.147 as permitted sender) client-ip=74.122.218.147; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail228-tx2 (localhost.localdomain [127.0.0.1]) by mail228-tx2
+ (MessageSwitch) id 1388680866686732_31355; Thu,  2 Jan 2015 16:41:06 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.232])	by
+ mail228-domain.com (Postfix) with ESMTP id 9A563A4004C	for
+ <user@domain.com>; Thu,  2 Jan 2015 16:41:06 +0000 (UTC)
+Received: from domain.com (74.122.218.147) by
+ domain.com (10.9.99.131) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 2 Jan 2015 16:41:05 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ei0; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1388680865;
+	h=From: HR Training <training@info.TrainHR.com>
+	bh=+llorxwDfnwLtpfzzMk6kyY+OdQ=;
+	b=klSyBFEwPJUDGtaNKkdZGZvkvbiTEHJqbFQU46B3Sl2oxf+DDAza5EOPj1iZc8ZT
+	W1LVyeiK32whQFqHeyb9t3bU5wvfOb3s+WJPvN4Njn+Bc0nja5s7Ee2kG5vRc2qd
+	lIQ1B/hI2jHjekRBnEqCZSq0mw8DC2vM5vuwlQtx09A=;
+Received: from [10.21.250.231] ([10.21.250.231:1665] helo=CORE18PUMPER1)	by
+ pc1udsmta1n21 (envelope-from <user@domain.com>)	(ecelerity 2.2.2.45
+ r(34222M)) with ESMTP	id 20/99-00539-0A695C25; Thu, 02 Jan 2015 11:41:05
+ -0500
+Date: Fri, 3 Jan 2015 01:41:04 +0900
+Message-ID: <user@domain.com>
+X-DMHA-ID-Packet: Z4gvK5o622gzTByAWzQ6kDhVbBoQa-0fYllkkgWV4El4DNB49ZotCVAL-DoEXG9As2khkXakIqo
+From: HR Training <training@info.TrainHR.com>
+Reply-To: "User"
+	<user@domain.com>
+To: <user@domain.com>
+Subject: Live Webinar on Sponsoring Employees for Permanent Residence (a Green Card) 
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Live Webinar on Sponsoring Employees for Permanent Residence (a Green Card) 
+
+TrainHR                  For Human Resource Professionals        
+
+Live Webinar on
+Sponsoring Employees for Permanent Residence (a Green Card)     
+
+Date: Thursday, January 23, 2015        Time: 10:00 AM PST | 01:00 PM EST        Register Now    
+
+Duration:        60 Minutes     Location:        Online  Instructor:     Bradley A. Richards     
+
+Overview:
+This Webinar will cover the basics of permanent residence sponsorship, including the different permanent residence categories. It will also provide guidance on developing a competitive sponsorship policy aimed at attracting and retaining highly skilled workers.
+
+Areas covered in the session: 
+
+PERM Process
+
+EB-1A, B and C
+
+Features of a competitive permanent residence sponsorship policy 
+
+  _____  
+
+Who Will domain.com: 
+
+HR Executives
+
+HR Managers
+
+HR Specialists
+
+In-House Employment Counsel 
+
+        About Speaker
+
+Bradley A. Richards
+Associate, Vedder Price
+Bradley A. Richards has developed I-9 compliance strategies for dozens of Fortune 500 companies. Through regularly representing companies during DOL I-9 audits ...more
+
+
+
+  _____  
+
+Click here to register for this webinar  Suggest a Topic         More Webinars   
+
+It would be really nice if you can circulate this mail to all your deserving colleagues who can immensely domain.com from this program.
+

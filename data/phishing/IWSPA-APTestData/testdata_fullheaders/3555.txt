@@ -1,0 +1,114 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp2981781lfr;
+        Tue, 25 Aug 2015 18:17:56 -0700 (PDT)
+X-Received: by 10.170.41.215 with SMTP id 206mr17469485ykj.66.1440551876350;
+        Tue, 25 Aug 2015 18:17:56 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::230])
+        by domain.com with ESMTPS id a123si813345ywe.138.2015.08.25.18.17.55
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 25 Aug 2015 18:17:56 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::230 as permitted sender) client-ip=2607:f8b0:4002:c07::230;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::230 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id i184so171978564ykb.2
+        for <user@domain.com>; Tue, 25 Aug 2015 18:17:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Robby Mook <re47@hillaryclinton.com>
+         :cc:content-type;
+        bh=/gnbRTq5BQnMHf7iJddyOzWR/eH3yQDxC13Pqnc5Mjg=;
+        b=Sjnb5aFEGb7fW2tEZYpSs+OL/DJsia0l0tICXCsISnY0G+d06V3JXv+pqpui1hjo2b
+         domain.com//L0tymSpHsEibhzbTN9g1Jofpy3l3u++qwf6DK3okLG9587tvwCacJtG2S
+         ZONEtXysXFjdqVt+QmIM6wPrVZlKIGhwnkEvI
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Robby Mook <re47@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=/gnbRTq5BQnMHf7iJddyOzWR/eH3yQDxC13Pqnc5Mjg=;
+        b=RLsFkf5CqwiqcDu4H/uyLoayDkKBWEHuMXSiTFjumIDNChQr3JDGUwO6But3ozZCAx
+         mblFeJqwTb57UgB5FWNg3IQlbkXMYHeyMvMzsP1V4NfNZf4CPUBbnIyax4xzvWO8JCd+
+         mv4BQ2VxNNotwb6jazi26YjmU6amPcReEMFtBLRimcEXd6J5EFYOJgdC6KxnV+dVzvDw
+         Wiq7Xd5fwz5k06ivf7PgdzQ6yEPObv1PkBTrpE05GIx/E555Cch6zbNSVs5jFkufQSt3
+         vBHX7zjoBid3l3yBYT2bHhI4mLqwsQadRB+qEo3nw4TnF/PPqqbHutaYCuiH8tI/zkKF
+         ZYMA
+X-Gm-Message-State: ALoCoQmsEcI0uEeTPN3S8OAEdm+1vmq+xBT6M5ixeByrqQ/9mI/PPYpyYb0iZtL3247vJjW9yK3x
+X-Received: by 10.129.134.3 with SMTP id w3mr40556346ywf.48.1440551875527;
+ Tue, 25 Aug 2015 18:17:55 -0700 (PDT)
+From: Robby Mook <re47@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CAMCPnYk+awd_W5_t7_v_Pw0tfX1E4wDW1bXjjiEYU5+user@domain.com>
+ <user@domain.com>
+ <user@domain.com> <88user@domain.com>
+In-Reply-To: <88user@domain.com>
+Date: Tue, 25 Aug 2015 20:17:54 -0500
+Message-ID: <-4059982871479115879@unknownmsgid>
+Subject: Text of three messages
+To: Christina Reynolds <user@domain.com>
+CC: Varun Anand <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Elan Kriegel <user@domain.com>, 
+ Oren Shur <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Huma Abedin <user@domain.com>, 
+ John user <user@domain.com>, John Anzalone <user@domain.com>, 
+ Joel Benenson <user@domain.com>, Mandy Grunwald <user@domain.com>, 
+ Jim Margolis <user@domain.com>, David Binder <user@domain.com>, 
+ Teddy Goff <user@domain.com>, Sawsan Bay <user@domain.com>, 
+ Milia Fisher <user@domain.com>, 
+ Emily Samsel <user@domain.com>, 
+ Mona Thinavongsa <user@domain.com>, Shannon Currie <user@domain.com>, 
+ Caitlin Merchant <user@domain.com>, 
+ "Esterhay, Ellen" <user@domain.com>, 
+ Graeme Crews <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a114f0868d27f17051e2c9e8b
+
+*Message A*: When it comes to her use of personal email for official
+business, Hillary Clinton has said she made a mistake and if she could do
+it again, she=E2=80=99d do it differently. And while Hillary Clinton follow
+ed the
+rules that were in place at the time, she regrets the confusion and
+distraction this has created. But the fact remains that Clinton never sent
+classified emails from a personal account, and to be transparent, she has
+turned over 55,000 pages of emails to be made public and gave her personal
+server to government officials. But she now believes it=E2=80=99s important
+ to
+focus her attention on what matters most to Americans and their families 
+=E2=80=93
+like the economy and health care costs.
+
+*Message B*: When it comes to the use of personal email for official
+business, Hillary Clinton has said that she followed the rules that were in
+place at the time and, in fact, her email was set up the same way as past
+Secretaries of State like Colin Powell. In hindsight, she says she would
+have done things differently, but the fact remain that Clinton never sent
+classified emails from a personal account. And, to be transparent, she has
+turned over 55,000 pages of emails to be made public and gave her server to
+government officials. But she now believes it=E2=80=99s important to focus 
+her
+attention on what matters most to Americans and their families =E2=80=93 li
+ke the
+economy and health care costs.
+
+*Message C*: When it comes to the use of her personal email address for
+official business, Hillary Clinton now says she should have done it
+differently. She says that just like the vast majority of State Department
+employees, she should have maintained both a personal and an official email
+account. But to be transparent, she=E2=80=99s turned over 55,000 pages of e
+mails
+for official review =E2=80=93 including more than a thousand personal email
+s that
+were returned to her. She says she=E2=80=99s confident that those now revie
+wing her
+emails will confirm that there were no classified emails sent from or
+received by her personal account. And while that process concludes, she=E2
+=80=99s
+going to focus her attention on what matters most to Americans and their
+families =E2=80=93 like strengthening the economy and reducing healthcare c
+osts.
+
+On Aug 25, 2015, at 6:45 PM, Christina Reynolds <

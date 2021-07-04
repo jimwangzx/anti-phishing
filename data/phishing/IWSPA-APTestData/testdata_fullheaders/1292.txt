@@ -1,0 +1,227 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp505020lfy;
+        Thu, 7 Jan 2015 05:10:09 -0800 (PST)
+X-Received: by 10.202.183.130 with SMTP id h124mr71588921oif.58.1452172209235;
+        Thu, 07 Jan 2015 05:10:09 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-by2-domain.com (mail-domain.com. [207.46.100.74])
+        by domain.com with ESMTPS id d198si3812229oig.21.2016.01.07.05.10.08
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 07 Jan 2015 05:10:09 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 207.46.100.74 as permitted sender) client-ip=207.46.100.74;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 207.46.100.74 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Received: from domain.com (10.255.193.13) by
+ domain.com (10.242.167.17) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Thu, 7 Jan 2015 13:10:05 +0000
+Received: from BY2FFO11FD006.protection.gbl (2a01:111:f400:7c0c::191) by
+ domain.com (2a01:111:e400:45::13) with Microsoft
+ SMTP Server (TLS) id 15.1.365.18 via Frontend Transport; Thu, 7 Jan 2015 
+ 13:10:05 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=domain.com;domain.com; dmarc=none action=none
+ header.from=iowadailydemocrat.com;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.75;
+ helo=domain.com;
+Received: from domain.com (141.161.191.75) by
+ domain.com (10.1.14.127) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Thu, 7 Jan 2015 13:10:04
+ +0000
+Resent-From: Iowa Daily Democrat <editor@iowadailydemocrat.com>
+Received: from na01-bl2-domain.com (141.161.191.14)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Thu, 7 Jan 2015 08:09:16 -0500
+Received: from domain.com (10.141.52.178) by
+ domain.com (10.141.204.154) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Thu, 7 Jan 2015 13:09:10 +0000
+Received: from BN1BFFO11FD022.protection.gbl (2a01:111:f400:7c10::1:156) by
+ domain.com (2a01:111:e400:2414::50) with Microsoft
+ SMTP Server (TLS) id 15.1.361.13 via Frontend Transport; Thu, 7 Jan 2015 
+ 13:09:10 +0000
+Authentication-Results: spf=pass (sender IP is 192.82.209.45)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass (signature was
+ verified) header.d=domain.com;domain.com; dmarc=none
+ action=none header.from=iowadailydemocrat.com;
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 192.82.209.45 as permitted sender)
+ receiver=domain.com; client-ip=192.82.209.45;
+ helo=domain.com;
+Received: from domain.com (192.82.209.45) by
+ domain.com (10.58.144.85) with Microsoft SMTP
+ Server id 15.1.355.15 via Frontend Transport; Thu, 7 Jan 2015 13:09:10 +0000
+Return-Path: user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1452172149;
+	h=Sender:From: Iowa Daily Democrat <editor@iowadailydemocrat.com>
+	Content-Type;
+	bh=pBWsg17BwOZdx95qpMcnjwEDI34=;
+	b=pCFD+AZB3k/pDFRLg4Po4ZYp1zBNRMO9QdmbQ/2vjcbEl65kLmv4Cs7EGtF1THaC
+	IMM9ltTOYOixmbvgHS7Yg46m1hyQM6UeGznknqtHMfWbzQLgKxwIVBELYxg5YpBa
+	s0ZFefdmDz7hl2geUiSpd0YJ0kGz3/WlNWTq9O7SSDA=;
+X-MSFBL: NinYAPjwvCr8FNRB7bYiv371/yByEkFstcvEZ2u7E5E=|eyJnIjoiZGVmYXVsdGd
+	yb3VwMDEiLCJ1IjoiYm91bmNlXzIxMDAwMDAyNTE5MzQ4NDJfcG9kMTIiLCJiIjo
+	ibWFpbG91dDY4MSIsInIiOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSJ9
+Received: from [10.11.74.251] ([10.11.74.251:52142] helo=NSV11OBMAIL1201)	by
+ domain.com (envelope-from
+ <user@domain.com>)	(ecelerity 4.2.1.51032
+ r(Core:4.2.1.4)) with ESMTP	id A2/F7-26268-5736E865; Thu, 07 Jan 2015 
+ 08:09:09 -0500
+Sender: =?UTF-8?B?SW93YSBEYWlseSBEZW1vY3JhdA==?= <user@domain.com>
+X-Binding: warmupdefault
+Reply-To: <user@domain.com>
+From: Iowa Daily Democrat <editor@iowadailydemocrat.com>
+To: John user <user@domain.com>
+Message-ID: <9user@domain.com>
+Date: Thu, 7 Jan 2015 08:09:09 -0500
+Subject: Here is my top ten list for Governor Branstad for 2015 
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----02E6C1F564BA4A6E99F74B092D4AD2C8"
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1BFFO11FD022;1:AJBe5NePrPxxdL9DObdefyUmGG/JpcINXYQADud/7R5Fpc7Rl5sWbQiT/3xWSIyn2gcFovSCMJiMbWYKi11AtrtIH9a0P1l07RQz6jCyXWvTRgzNDmCRCDvHA602C9Qq+C0N0LbA4FN6g1cUZjIxPoAMQJOOAD5lPDfSkslY8gv12LFUpe3K615CSmo4IMrob4Kl/LEqqscK8PQ6MfB9OxTD+LfHx/E5CIMpMfV0vf+ETAm2o6268Sr6yrLBIc/IUGVq0eedaQ0ehAnDMHi0Jiu452z5MhqkKmnc0+MESuhmtdRkqNPmgU/NIb1kWrmneYBidf0CPFLwwoQXVupLk/mulNwxN9mpXUpR0bYQnZGnHKLvnHDms7tJToR42zAZby4RTPdWCpgsWdg8XecgY8Hd6AwQlKKuAHEE+gXoQR7zTL/kP9ryi1OAvKqrdEmsHD3sLdRxXIlQ6Zb58t2xmQ
+X-Forefront-Antispam-Report-Untrusted: CIP:192.82.209.45;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31640200002)(1110300003)(2980300002)(438002)(359002)(189002)(111735001)(349012);DIR:INB;SFP:;SCL:9;SRVR:BLUPR07MB532;H:domain.com;FPR:;SPF:Pass;PTR:domain.com;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB532;2:+VnZGtrY+FkBRH6FQyUrKdgUv2YlAWqBYfD8N0BPg+/zwnf2Mvy/Z81jcnG/GKGMGOEmNHjnNW4JEo7iwHeW4YNeZJE8BEyrMWsBQZiZ9yzsHYSAimPI6HK3NcfJdKEXchLfEnq5ZTo1Ohh1rBdhrQ==;3:DJVX65COfZa8/mpvVCBmrLLHo+SY4UBkZ+QopSsqhfe1M8mdDsUiIeCp3Wq6qtd+6fEozI+CGmEH9aE/XSuyprVCVne7crngEkWB6qnDaqrHXPdlg5fRn7BQESS8wV2vNoCPsx/jU+5C7D6CoJjrrp0aqSRhVLZXDqBrEO+b4VIXY2RBT/vPuoD2uV2ewtOWVo6zYQmpNrMu4t6LeanUSVEoP/XNl9u7ZjKrcxQNOql8qTQp2Bo2XrpDY69xjLzkS2462/eOPlDVjk7/L9FzPtQRnVo2Hzp4x0Oi4rVxj5Xy9+mCQsXxAvlYSrw0rmG2CIEQlrHaqqjTe4JUkbShYgvlPLUnDgDtubOqhbhLAgY=;25:/OU9Zjp5Vz1v0AocX/sJQC/AwSI0PhBMMOB0FQS0bgsyqqyOADOQ9hyWvMMg64OnZNE+eapXAI+nzPe0FAgLy6105pZGLHqp0DOMXJq1YyOapIwk0zbYspY1yRAEwutbpRHYlNcip3sdLLjJf8S3RTFfM5HDygaJibKU4/ODieaFd+aoonynWN+32YC4IqMDvr2FtnrtHEbcU3cOnYwVo5WNGFS5qaozVz4nyv/IV6YJ8k36x8KrwK99DZrBql+X
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:8;PCL:0;RULEID:(42134001)(42139001)(42145001)(3001015)(71701003)(71702001);SRVR:BLUPR07MB532;
+X-MS-Office365-Filtering-Correlation-Id: 97725ef1-1260-4d4d-2ff2-08d31763dbe6
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB532;20:fTwv4KOCPk6KiQAEZPCg75dsTLSGihKmK+LevbVGJx5RsHiT+qsPDc1vMIcPOP1w7lzSwb0/eyQ0AiQnrlw6WG0Tk+tstWJmJSqghfGES1SJui2Ch2ixcEU9j2g8qYbUy3OU5Uk86mDfrgWMeiJgYJssIP3BPdsMrvhR6iOe6zCp2O4Sn2XpO1GGrRKODbmRdUC79FRoJaHVgzd+YkVZF1/bHhHMPsBa37ukcI2oGMlodtpsxZyQ1ffToOG22/sIi1VecvICqZxQ6o0rTsugBfCxyaIzJELxFlb4D+a7IuN/WMEBo1Z19GLHluEON8AdlyVh4/tnatBOLIdQCQAJV4oQ8kMU8dwqMEJn/1Xtd2XLXmOSjgFuAhU5lDmg4gUn/U5h2tcEq1TD165PhxICsBKfXrIybi5e4YGmIVpdZ80=;4:dfafkqpp3gceHvRJTVOdbI+OzGDySONSrdp95/Zh58knOSO4GMJdW44UsAxKxrv+fMgb9aECgOHFX6/Xod4SEg5e9R1RdM/B3z0QSIafDyn1pNjI34h/e/KcZ3w7WobBL8yUUTDhgTDTlFi3NfMTGKV03qmy7QfxVHrPhz/eOyt8RtVhEEUzL442n01aXGZI4YhY23iQZgFTjbbEf09nHzKTnN1HzIAK9EGF43qd/GQctDSIH8gh7sGgXq7/RjsSniPRCr94flOUL7kN2TjzuW/dLIMXTCth6S2tqt7Iwl2jrQRgj+zcBohmM8E3bEqtOPGE3b7ofBJcsDeVzIERDk4lDraFC+iNMj1k87ohAxpIbGlzMvsGNrT/h33LdytzyDDyWovmswnmp0L/FNwyyA
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:8;PCL:0;RULEID:(601004)(2401047)(1701001)(13016025)(8121501046)(520078)(10201501046)(3002001);SRVR:BLUPR07MB532;BCL:8;PCL:0;RULEID:;SRVR:BLUPR07MB532;BCL:6;PCL:0;RULEID:(601004)(2401047)(5005006)(8121501046)(520078)(13016025)(1701001)(10201501046)(3002001);SRVR:CO1PR07MB111;BCL:6;PCL:0;RULEID:;SRVR:CO1PR07MB111;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB532;23:PJDAyba95OmU731Opy6jcMYGue2YGKf9paOxmfXajvmjOydErvCX+5wGqfukOD9LOdPagrwmPklK9xsfeC+NssWlx5CMsD2+NhEUTl8QfyaYNdSPfkDgabX4qA+ag26lvcxxd6RxzIwe8VCCrGfkWQ3vkz39cyfZAnAQoM9RA2tmhfeHOPODPvVhEbe66TpdshINNlp2wujaSUTX75imJhAo9DuuE8kp5kQ4wEmHocsMeQ12PuUahuDV5pWlEhdVX2mVVxlgLebuAPqi9G4+FbrFWuI8CDtkzl4rrF0ZcqsXvwopW0+oxb7wK94h99Co1uQ6pz3uclASwfZjWEam2v5O8GNAukoPpkiruHTiA9Tis3GD0a0tZCFR33GxlVsv;5:Sq6YpEY6TQVyHKwVcxfQRaJ1q+zIr6Q91tdr5OzbmnJmXoyzsr623XWG7eCANKWUTktcDiTy/NC4pgFbygBHnYmJwERDik2z8Ya63L+/RWM+8HbE0MNvD6UIK37X2g5Wb1/kH+b7+BDFSC5ePgXIjQ==;24:rcFeLdws16QeYs1HuYb8yAySWSqBdKClUdAFmyuppRZhzWXiGeMkICQk+sWLEnNmIlgP0t6aWxmGibk7Yn51KA
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB532
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BY2FFO11FD006.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BY2FFO11FD006;1:PF0IvzRnyqrmb58Sn5V1MIrhz507WoH4tO9ynAhAVAkBGHu72HRAmVFZoG9LSyB0lJ836tVCdElLIu+TYYXq5C16p0aRug7M6bUpikMr954WT/YtijsL6G9zLXX4zzD024HovJj6+fuo98j4A9bl7sUKlF+fgBFW27akRO1Flo4KV28ObqcdSOz4yTHjOep/bttQ94SdiHoAqgS/wkLFPH1VE19Lo/cKhP8frExU14CuXOs/LTmw4gDp9K58u7HJgNRbfCHkPM96/olQK2PwUZynVsHIccGj8D6K6hGJP3/hJEXDb9F8nW0kx1lBcuLtiaJeyv2NYhZzYep5Yo5x23jom/NbBGcXxPSn5aVjcMbapgowJAVyuoYjamhUM9pDt9xYvLoJQw7ReHW42pPVf7kx2VjWquaiux8xYVFP7nM
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(1110300003)(2980300002)(1110001)(1109001)(339900001)(16204003)(111735001)(199003)(189002)(19580395003)(85426001)(450100001)(15395725005)(15975445007)(77096005)(75432002)(105606002)(87936001)(50986999)(97736004)(2171001)(24736003)(1220700001)(2906002)(606003)(106466001)(84326002)(1096002)(19300405004)(104016004)(36756003)(104766002)(4001450100002)(108616004)(956001)(229853001)(107886002)(5001960100002)(512874002)(43066003)(81156007)(110486001)(110136002)(53806999)(33646002)(19622755009)(5002220100002)(960300001)(6806005)(11100500001)(18926405002)(4290100001)(19617315012)(18206015028)(88552001)(54356999)(7099028)(42882005)(18200335002);DIR:OUT;SFP:1101;SCL:1;SRVR:CO1PR07MB111;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO1PR07MB111;2:MrAYjrMTWvXw0XubS6N8wbahQRO8EB/0FDxoeF29xJ0UgfJNz5ggJF0xGGNKBrWhJ+1dLqIga0WKK2Nr0GdCbTG2MP/i3UEIWGQa0XrQnFfn8YcbXVOqMvoVlhisJldcdU2+9JaQostZfxyCwkd8fg==;3:pWhls6WIjoCMXU7oEkjJkSoTyM2i0Gelt+PgNQ0Liu/2ROnQoLdwE7TweAqaU9VSQK5mUK6Dk8v8OZJ5QnH67TQnXl2lab22wZ5fxD0dLxj85y6MIkV3MARXx+jcCxznl/RmHaEqH3EDbo527JzOKJhTLUT/zqvimNZarMsp2yPVCXt2xYnrKDg8l65JgAyVwPmzLTpQtUOgvfEaqkIxQdixI+i7PPieNwe2dowXSkyl0DUtudr1ilf5sve2XvA2TWER4rslBAEm/B5v71x5o4j54NU8KIGNKzugqH89PcDqUb+t4vOscN4w7/ST9gz0;25:M1YPeHzPk1kFIywFj1ooYH0Nwk/QCQR7ssy5LTjXtQZuoxncZG6kpB5iq1YNH3n2+eCPQ0QjRGS101bknzKBmabuXONdLToGFCWXJa54O+ZZuUscfM45/UCAreSdtT8tgcp8hCwpOxGSKvMg/t5HU1TyF+k0GsLw2/X6Ss5/Eu0MwMl+HKcObKC97nlpgu9+1XSDvO4/0frS4MIc5YynejkVoaut4d8AHg2KTp4ecxoX3pApVDMJ2sFMZTzbUZQe
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:;BCL:6;PCL:0;RULEID:(42134001)(42139001)(42145001)(3002015);SRVR:CO1PR07MB111;
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO1PR07MB111;20:sxoU2LFaMO+cATcFNKk//62cQ1kKi3/jIrT5U/jQymjtwpHrKQiJi0Vw7q+OgcYvlcbbZBVmUOinUeC0i/o0cDTLzYim2Uteb7gVkw5H+4ziDF+VyUvAod1Gjh+RsJwQKuzUBgeTsFz7V6CyWBx9/nEaOKQnKk4IG5+w8i4Zb7ouF5pczHW4W3wD8bugij2NoLpKtQDCyiUzrjh0n2S6tbzJCjTwFmuHo8nYNN2ARoZ3luVug/DOUrzU+U5AXTncm48flpzaHq2Fl+q9TtewkvCo5HP5593W7s4iN6GBTuWX2TyCIGA466ZYPfMp+hhbIqwzspDKnjVCOgPlUPRulp8qr8xkfxMysYI6RgkVD6d83pHRM6ZrXiMusgU4iB2J7rFwwq2gcdZc1bCiN8/1I1wlj+6peR+KkVe8m+Lj41g=;4:r7V7GwtbZX9qnnzx30Maj3lzZnGnYAk34j/tlNwKI8Zx9pa2A01c+dIwe3i22qvt8wVk5SXvGq0abZ2muXtEg5WjKqw3BCLK/4Q7khW5dApJt3QG/uc+TQTh/Ja7eTzfzfe/nPbi6X9fcBxobx21EZEjP/Vrq1d+BK0s9KtuXpJqDaJ+BLEgwOJPQ+uf/6ClOsc2v5aWs7jQUxvminBaxZ/F508VKdUdehZRoBnXh3lZZB3YECUTbV4BjRS/N5+KXSMvfrOS6aMwzasYM9fvLKWc4VH6bGWGQYPp9dfwpFWucgsgzt8bxogEmjQUpUjUPVbyfU10DmeD16XjVo2chHUOuy12OEysRRIordx4j4I+0h5h5TgHfOcctHxElH9cmtPQwPt0yXeVur/D3hkNOn4yNV1T/PJ0selYJdXtWo8
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 0814A2C7A3
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;CO1PR07MB111;23:8hEmLs9k10hJJglT1lpKW9TrOkt74mV7cg9//rXj60?
+ =?us-ascii?Q?v8veMLroMW35+J0DwEBrEIHpm6PCJclvEEIpDD54hI5F9w7IsFK7x/tLcEor?
+ =?us-ascii?Q?YJZvauDKehhAYUAnrgPAGASgMcsNfLanlWDorS3peYJ06vznKIugQw4+qi8U?
+ =?us-ascii?Q?pkIjqqFJVweQWkUWldGrQL12hFmgOnIx2LEoW+1OomU4x+RxlSxDksIiNHQM?
+ =?us-ascii?Q?3cj9+dQBT65O0gvgq4xRwFf2z1QBR+P4SzAyMHqCHfxoxFnAp2ZZDLljslU7?
+ =?us-ascii?Q?JliPa/yv2NfvRUJP8scim1bKoPMLRMQjkKDTl3O/2hQjKnADYhlh/TaJ3J9H?
+ =?us-ascii?Q?blSr2MJxoCngXh6VVa6iTD/8wuvZk4AExVdRW01kcYdmCbuIWjO+La6P3kmp?
+ =?us-ascii?Q?4oPzRTDeAdZLK98oEso7PDqGEMKlYVacA2X89MQ6febNZGxYMaNE3/8xRSfd?
+ =?us-ascii?Q?uJ/5PCnHDYRbiV4KUzRS0C++KHqXovvH5HKVBGXyYHHrn5Q5QOiVvTQcTPyB?
+ =?us-ascii?Q?f9ZLaTx436TBOs2I2955ViwyE7JaVBE6a8+igy1bsJkPi7ZOUNxgZFU+3V5E?
+ =?us-ascii?Q?2iwjotF4HZL8cDha1QIaaLdd4tUF1hfsAdpotYGu3jtiHNHIfR5NPEuEeyWS?
+ =?us-ascii?Q?pvloLH8khfAM9xaRAI85Sq1GPPYGBo35A2eisWxQeNv0P8d0Dk2Oekq7MOMq?
+ =?us-ascii?Q?O89rvXnCYO6f2IT0MvC+8f5AasUp7UMFvurhB6DjzX/ZQ5QEn5eikQFFrSkk?
+ =?us-ascii?Q?XaTTGRainZS0Kt6gG2pgyJ7bVEk4Gy0SXVhoxwy434vmuRseYzgNL1kuQeFy?
+ =?us-ascii?Q?Cj9boMmzcAUOrHgJWBx/Q94jNZ5WYb+9Ic3NgW5Pk8MshQExuJUC26Gibf7F?
+ =?us-ascii?Q?Xb03yQ0gL/xxisF+AzZq7PVLhgnsl6piLP/7ofU8paLTFGRY28srt8cRLTH8?
+ =?us-ascii?Q?FRjuSdVC95YGSvq7P9WAkgTSsMeKRpj6qdxvfyZvrXjYAqgCMAfL6+jPWlxD?
+ =?us-ascii?Q?HkBM5T9n3HNwo39AYTX9eN/J8Sb+/YUCMbfmM+j05HEfC54+qy6oqQRCz5BA?
+ =?us-ascii?Q?Va4W4FHTRIrzUfWEbPLCoEIn2Ggw+VNtwZN2nB2XFeayDhTnFk61C3uksBtF?
+ =?us-ascii?Q?19ERKfatKHS2ZqeirupyFcOiPXunf+vB2n29JuuhgB9x5Fd5Uj8Tj2qbWO7e?
+ =?us-ascii?Q?B6rx5/4oFcScKeFYqmyCUtX7feZYN/yrhCCf7Z9zbALb3nwvXeV/QBUN1SzQ?
+ =?us-ascii?Q?9cYTt7kDI5Kr5EpUg7DuRSnk8YWjMV097vbctBYc/LSdusrqzvI9nSrRaMWM?
+ =?us-ascii?Q?J8F/7PkW4ZXevRvzJJsBWxVa+CYMtelnUb06nLMBkkW80edishJZzH5OGF1K?
+ =?us-ascii?Q?gou1IRfvYysiPZDVQTY2zQiUfASYCYRODdy41rHKuU5cowkZCFSRGQF+wzco?
+ =?us-ascii?Q?NAzRQV7WJtBCL0GU1V5OugxeYzFvKBEd97ORO7Hf5hfDBeg6XYXQ8QTW1WHK?
+ =?us-ascii?Q?wW0WFEbZ4gh28FqlATeRsy0qxv8kbaVzA=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO1PR07MB111;5:8oPF1jWGggyHje5GWrg5TICmKWLSGD7A5C1WRN2Medvh+1bPmMdukPI8ngE1DvZU7C+UlOKumUIDtflggCisSwLkOfMsf5VGuonWiKVPRZJRjQbvfifRq7se0Qjq8OvSNdZh8/qOGmJv/bFgihM0fA==;24:Q/zh1mNeCOTaoNv5Q8FAENezZfSAbXxfGl7drwI+p9YFFLolElrX6v26AkE7IFiWB/ZrNKEEtdtw/gDo+nftvuI60qFp81XAQ4kcEI5uCKI
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Jan 2015 13:10:04.4436
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR07MB111
+
+Here is my top ten list for Governor Branstad for 2015 
+
+Des Moines, Iowa =E2=80=93 =C2=A010=2E Branstad must defend his record 
+of being the longest serving governor in history with a list of actual 
+accomplishments=2E He must use documented statistics=2E You know, those
+ pesky little things called facts that can actually be proven=2E
+
+9=2E Branstad must say, with a straight face, that he represents all Io
+wans and does not play favorites=2E Especially when it comes to corpora
+tions=2E (No, Governor, they are not people=2E)
+
+=C2=A0
+
+Continue
+
+=C2=A0
+
+In Iowa, Clinton warns of threats to Affordable Care Act
+
+=C2=A0
+
+Trump's language grows more vile and dangerous
+
+=C2=A0
+
+Iowans Deserve a Governor they can trust
+
+=C2=A0
+
+What's the Matter with Kansas the GOP?
+
+=C2=A0
+
+Building Our Democratic Message for 2015 
+
+=C2=A0
+
+=C2=A0
+
+Iowa Daily Democrat (=E2=80=9CIDD=E2=80=9D) is published by the Clarion
+ News Service, LLC=2E (=E2=80=9CCNS=E2=80=9D)=2E =C2=A0Signed articles 
+in the IDD reflect the views and opinions of the author(s) and do not n
+ecessarily represent those of the editor(s), the IDD, the Clarion News 
+Service, or its members=2E =C2=A0The claims and opinions set forth in p
+aid advertisements published in CNS products are not necessarily those 
+of the editors, authors, the IDD, Clarion News Service, or its members 
+and CNS takes no responsibility for any such claim or opinion=2E =C2=A0
+No information presented in CNS products should be relied on as advice 
+and/or counsel=2E =C2=A0CNS takes no responsibility for any user relyin
+g on information provided by CNS products as advice and/or counsel=2E
+
+The Iowa Daily Democrat
+
+=C2=A0
+
+696 18th St=2E
+
+=C2=A0
+
+Des Moines, IA 50314
+
+=C2=A0
+
+You are receiving this email because you signed up for our daily newsle
+tter, you have had direct contact with someone related to The Iowa Dail
+y Democrat, or you were part of Jack Hatch for Governor=E2=80=99s conta
+ct list=2E
+
+<<link>>

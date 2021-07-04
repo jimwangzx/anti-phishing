@@ -1,0 +1,76 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Fri, 21 Mar 2015 13:53:51 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2LKrp89019789	for <user@domain.com>; Fri, 21 Mar 2015 
+ 20:53:51 GMT
+Received: from mail210-co9-domain.com (mail-domain.com
+ [207.46.163.23])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s2LKtA6x019610
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Fri, 21 Mar 2015 20:55:11 GMT
+Received: from mail210-co9 (localhost [127.0.0.1])	by
+ mail210-co9-domain.com (Postfix) with ESMTP id B9BE46003DE	for
+ <user@domain.com>; Fri, 21 Mar 2015 20:53:49 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.7.204.151;KIP:(null);UIP:(null);IPV:NLI;H:omp.e.abercrombiekent.com;RD:omp.e.abercrombiekent.com;EFVD:NLI
+X-SpamScore: -2
+X-BigFish: vps-2(z1001kzd868h8d0Izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah199bM1fc6hzz8275ch1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1defc1h1def86h1de097h186068h172c6ch1b778fh1ce120h1deb3aiz2fheh5eh5fh839h947h950hd25h107ah10d2h1288h12a5h137ah13b6h13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h2216h2336h2438h2461h2487h24d7h2516h2545h255dh25f6h2605h268bh1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail210-co9: domain of domain.com designates 199.7.204.151 as permitted sender) client-ip=199.7.204.151; user@domain.com; helo=omp.e.abercrombiekent.com ;domain.com ;
+Received: from mail210-co9 (localhost.localdomain [127.0.0.1]) by mail210-co9
+ (MessageSwitch) id 1395435225981193_21175; Fri, 21 Mar 2015 20:53:45 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.241])	by
+ mail210-domain.com (Postfix) with ESMTP id EADF3280050	for
+ <user@domain.com>; Fri, 21 Mar 2015 20:53:45 +0000 (UTC)
+Received: from omp.e.abercrombiekent.com (199.7.204.151) by
+ domain.com (10.236.130.40) with Microsoft SMTP Server id
+ 14.16.227.3; Fri, 21 Mar 2015 20:53:45 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=abercrombiekent; d=e.abercrombiekent.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From: Abercrombie & Kent <news@e.abercrombiekent.com>
+ bh=rSHlljWppcxgPh+Unougo4VDC5M=;
+ b=ZwK52tkr/KwH8WpCflKtmmpUyus+GFQ10zBhSEwX1NDSjj2Jm20dLKN8achTfN/3GAPtOe+2ZDV1
+   Cua860CJ4I/Rf9t2QrWO8iI7jTl067ycAShz9Uh9ZMe0KOYMw8XKDUHDh8ou1a1Pfu2GiJMJediT
+   iElh//Z1AHZLXY+Id54
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=abercrombiekent; d=e.abercrombiekent.com;
+ b=HKVDENY96zrZA7NyM/VI1Xyrv0f3mJHfhieXZzK5qKhgz3uwANyi3HFC8FztatREe88gO0kFLSFa
+   Y3Jg4ek577R+BrjOOJbfqJ37wZjqMcQnbtpWlG1PhcLfAr8OZic4Se1gZEF8SRioz0Tv+j103eFA
+   CziYiW6v/oIWU2UUGdM=;
+Received: by omp.e.abercrombiekent.com id h5ijdi1hcl8b for
+ <user@domain.com>; Fri, 21 Mar 2015 13:53:45 -0700 (envelope-from
+ <user@domain.com>)
+Date: Fri, 21 Mar 2015 13:53:45 -0700
+To: <user@domain.com>
+From: Abercrombie & Kent <news@e.abercrombiekent.com>
+Reply-To: Abercrombie & Kent <user@domain.com>
+Subject: Tell us About Your A&K Family Journey and You Could Earn a $500 Travel domain.com
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com?subject=List-Unsubscribe>
+X-sgxh1: HuPXiHkJHtxkiLQkhgPQJhu
+X-rext: 4.interact5.EuCVkZ5ktFrn7ryr7cJcPsMtJ3DFGlRd1HQ2
+X-cid: aberkent.35115
+Message-ID: <0.1.0.4user@domain.com>
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Tell us About Your A&K Family Journey and You Could Earn a $500 Travel domain.com
+
+View email online        <<link>>    <<link>>    <<link>>    <<link>>    
+
+Abercrombie & Kent       800 433 8410
+M-F 8-7, Sat 9-1 CDT     
+
+ <<link>>      
+
+Luxury Family Vacations  
+
+Dear A&K Guest,
+
+Past guests frequently tell us the family journey they took with A&K ranks among their most treasured memories. They may recall seeing a baby elephant with its mother in the Serengeti, making pizza together in Italy or fishing for salmon in fast-flowing Alaskan waters.
+
+Send us a favorite photo from your A&K family journey, and tell us in a sentence or two what made the adventure so memorable. If we use your photo in our upcoming Family Journeys brochure, you'll receive a $500 domain.com towards a future A&K journey.
+
+ Family Travel  Here's wha
+

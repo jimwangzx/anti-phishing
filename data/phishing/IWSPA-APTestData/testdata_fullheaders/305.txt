@@ -1,0 +1,33 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Tue, 1 Apr 2015 17:29:36 +0200
+Received: from mail.Organization.it (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 917AC621B5	for
+ <user@domain.com>; Tue,  1 Apr 2015 16:20:01 +0100 (BST)
+Received: by mail.Organization.it (Postfix)	id 49600B6600D; Tue,  1 Apr 2015 
+ 17:29:36 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from ETNOKHT (host82-18-static.96-5-domain.com
+ [5.96.18.82])	(using TLSv1 with cipher AES128-SHA (128/128 bits))	(No client
+ certificate requested)	by mail.Organization.it (Postfix) with ESMTPSA id
+ D969DB6603C;	Tue,  1 Apr 2015 17:29:33 +0200 (CEST)
+From: Alessandro Scarafile <a.scarafile@Organization.it>
+To: Alberto Ornaghi <user@domain.com>, Daniele Milan
+	<user@domain.com>
+Subject: GNSE - Migrazione a 9.2.0
+Date: Tue, 1 Apr 2015 17:29:40 +0200
+Organization: Hacking Team
+Message-ID: <002e01cf4dbf$331c2ad0$99548070$@domain.com>
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: Ac9NvyH2jtxrjuJoSIqqFkmZf3Irsw
+Content-Language: it
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1267958284_-_-"
+
+Questo screenshot vi dice qualcosa?  --Alessandro ScarafileField Application Engineer Hacking TeamMilan Singapore Washington domain.com email: user@domain.com: +39 3386906194phone: +39 0229060603 

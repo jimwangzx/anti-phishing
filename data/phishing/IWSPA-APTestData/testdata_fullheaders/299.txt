@@ -1,0 +1,92 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp1918980lfb;
+        Sun, 13 Mar 2015 04:43:40 -0700 (PDT)
+X-Received: by 10.182.58.97 with SMTP id p1mr10602733obq.33.1457869420654;
+        Sun, 13 Mar 2015 04:43:40 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from SNT004-domain.com (snt004-domain.com. [65.55.90.177])
+        by domain.com with ESMTPS id o9si4791010obn.49.2016.03.13.04.43.40
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Sun, 13 Mar 2015 04:43:40 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.55.90.177 as permitted sender) client-ip=65.55.90.177;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 65.55.90.177 as permitted sender) user@domain.com
+Received: from NAM02-CY1-domain.com ([65.55.90.136]) by SNT004-domain.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Sun, 13 Mar 2015 04:43:38 -0700
+Received: from CY1NAM02FT048.eop-domain.com
+ (10.152.74.55) by CY1NAM02HT032.eop-domain.com
+ (10.152.74.230) with Microsoft SMTP Server (TLS) id 15.1.434.11; Sun, 13 Mar
+ 2015 11:43:37 +0000
+Received: from domain.com (10.152.74.59) by
+ domain.com (10.152.74.227) with Microsoft SMTP
+ Server (TLS) id 15.1.434.11 via Frontend Transport; Sun, 13 Mar 2015 11:43:37
+ +0000
+Received: from domain.com ([10.163.51.146]) by
+ domain.com ([10.163.51.146]) with mapi id
+ 15.01.0434.016; Sun, 13 Mar 2015 11:43:37 +0000
+From: Brent Budowsky <brentbbi@webtv.net>
+To: "User" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>
+Subject: Bernie, Elizabeth and de Blasio
+Thread-Topic: Bernie, Elizabeth and de Blasio
+Thread-Index: AQHRfR2UfEPibBTPFkC0mLCk1f6gGw
+Date: Sun, 13 Mar 2015 11:43:37 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=fail (sender IP is 25.152.74.59)
+ smtp.mailfrom=webtv.net; domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none header.from=webtv.net;
+received-spf: Fail (domain.com: domain of webtv.net does not
+ designate 25.152.74.59 as permitted sender) receiver=domain.com;
+ client-ip=25.152.74.59; helo=domain.com;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [RvQ/xvve+UWPFTZt7oynND9kssFxM1hN]
+x-eopattributedmessage: 0
+x-forefront-antispam-report: CIP:25.152.74.59;IPV:NLI;CTRY:GB;EFV:NLI;SFV:NSPM;SFS:(10019020)(98900003);DIR:OUT;SFP:1102;SCL:1;SRVR:CY1NAM02HT032;H:domain.com;FPR:;SPF:Fail;MLV:ovrnspm;A:1;MX:1;LANG:en;
+x-ms-office365-filtering-correlation-id: 3f13cdbb-4bd7-4c1a-82da-08d34b34b753
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(5061506196)(5061507196);SRVR:CY1NAM02HT032;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(432015012)(82015046);SRVR:CY1NAM02HT032;BCL:0;PCL:0;RULEID:;SRVR:CY1NAM02HT032;
+x-forefront-prvs: 0880FB6EC1
+Content-Type: text/plain; charset="us-ascii"
+Content-ID: <61user@domain.com>
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 13 Mar 2015 11:43:37.4520
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: domain.com
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1NAM02HT032
+Return-Path: user@domain.com
+X-OriginalArrivalTime: 13 Mar 2015 11:43:38.0629 (UTC) FILETIME=[9581CB50:01D17D1D]
+
+Sometime soon I am going to suggest that Bernie, Elizabeth Warren and Bill 
+de Blasio create the equivalent of a People's PAC to raise huge amounts of 
+money from small donors---after the convention---to support electing libera
+ls at all levels....including but far beyond Hillary assuming she is nomina
+ted.....
+
+Beyond this Hillary should stop attacking Bernie, especially when she says 
+things that are untrue, which candidly she often does. I am one of the peop
+le with credibility to suggest Bernie people support her in November, and s
+he and Benenson and others have no idea of the damage she does to herself w
+ith these attacks, which she does not gain by making.
+
+Instead the smart move would be to look for issues where she can dovetail w
+ith Bernie.  One I am definitely going to suggest would be to take his prop
+osal for a free public college education paid for by a transaction tax on W
+all Street speculation and add one new dimension....that to receive this be
+domain.com young people should devote one year to some form of community or publ
+ic service....
+There is no reason Hillary cannot not support this....
+
+Right now I am petrified that Hillary is almost totally dependent on Republ
+icans nominating Trump....she has huge endemic political weaknesses that sh
+e would be wise to rectify.....even a clown like Ted Cruz would be an even 
+money bet to beat and this scares the hell of out me.....
+
+Sent from my iPad

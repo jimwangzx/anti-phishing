@@ -1,0 +1,195 @@
+Delivered-To: user@domain.com
+Received: by 10.204.113.195 with SMTP id b3cs592291bkq;
+        Tue, 2 Mar 2015 07:46:07 -0800 (PST)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 10.115.36.31 as permitted sender) client-ip=10.115.36.31;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of 3user@domain.com designates 10.115.36.31 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.115.36.31])
+        by 10.115.36.31 with SMTP id o31mr2279923waj.29.1267544765495 (num_hops = 1);
+        Tue, 02 Mar 2015 07:46:05 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:mime-version:received:date
+         :message-id:subject:From: "Karl Frisch, Media Matters" <kfrisch@mediamatters.org>
+         :x-original-sender:reply-to:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:x-thread-url:x-message-url:sender
+         :list-unsubscribe:content-type;
+        bh=E5A1zHxRrLFHVR76cZJnlttT/PzklzBhgUL46ejS/5Q=;
+        b=S6PpHgU86Rxj+XAfjmsbzArvR3OnQ/cxc5y+CLoheeZXYGkhRG08FAh98mP/QJ+dqd
+         zlgaKyhnwvAOjUw9Gj83jquNuRTjbJWMeQco2mqAwpKprtEE2mnAR+6jXW32BIwEAt33
+         RPocr8P2ow8ndSd7cZGEjoj5Vg061jsepibX8
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:date:message-id:subject:from
+         :to:x-original-authentication-results:x-original-sender:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :x-thread-url:x-message-url:sender:list-unsubscribe:content-type;
+        b=JhI0cMJdaydb+YAsrqtntYCYdi6OUx3GnvTRoEAjCjFyDmsKvzk+gQuwH2DbI0T6FY
+         W5/61gIIflClwSvg151Sd09oBy9LT2qLck0O930MCoLE7gRcCsskjffVJmV49OAbWc42
+         igru8j+gX6ktoL5F+wZHGoWRDo7Ce/etV1GaU
+Received: by 10.115.36.31 with SMTP id o31mr334822waj.29.1267544743675;
+        Tue, 02 Mar 2015 07:45:43 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.114.214.33 with SMTP id m33ls1239531wag.0.p; Tue, 02 Mar 2015 
+	07:45:42 -0800 (PST)
+Received: by 10.114.7.11 with SMTP id 11mr1166008wag.22.1267544742092;
+        Tue, 02 Mar 2015 07:45:42 -0800 (PST)
+Received: by 10.114.7.11 with SMTP id 11mr1166007wag.22.1267544742039;
+        Tue, 02 Mar 2015 07:45:42 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-px0-domain.com (mail-px0-domain.com [209.85.216.178])
+        by gmr-domain.com with ESMTP id 24si1083120pzk.13.2010.03.02.07.45.41;
+        Tue, 02 Mar 2015 07:45:41 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.216.178 as permitted sender) client-ip=209.85.216.178;
+Received: by pxi8 with SMTP id 8so111831pxi.12
+        for <user@domain.com>; Tue, 02 Mar 2015 07:45:41 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.141.91.10 with SMTP id t10mr3391507rvl.127.1267544741466; Tue, 
+	02 Mar 2015 07:45:41 -0800 (PST)
+Date: Tue, 2 Mar 2015 10:45:41 -0500
+Message-ID: <user@domain.com>
+Subject: [big campaign] FYI - April 2015 Progressive Talent Initiative 
+	Recruitment
+From: "Karl Frisch, Media Matters" <kfrisch@mediamatters.org>
+To: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com: 
+	domain of user@domain.com designates 209.85.216.178 as permitted 
+	sender) user@domain.com
+X-Original-Sender: user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, 
+	<mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+X-Thread-Url: <<link>>
+X-Message-Url: <<link>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>, 
+	<mailto:bigcampaign+user@domain.com>
+Content-Type: multipart/alternative; boundary=000e0cd509c60d54020480d34293
+
+*April 2015 Progressive Talent Initiative Recruitment*
+
+FYI - Though I took part in this program last year, I'm just the messenger.
+I won't have much in the way of answers to your questions so please direct
+them to Kelly. Her contact information is below.
+
+Karl Frisch
+
+Senior Fellow
+
+*Media Matters for America*
+
+---------- Forwarded message ----------
+
+From: "Karl Frisch, Media Matters" <kfrisch@mediamatters.org>
+
+Date: Fri, Feb 26, 2015 at 12:43 PM
+
+Subject: April 2015 PTI recruitment
+
+Hi everyone =96
+
+We have opened up the application for our next PTI training which will be
+April 14-17 in Washington, DC. This training is focused on generalists who
+are able to speak on a wide variety of topics. These are the people who are
+generally knowledgeable enough to fill the =93topic of the day=94 segments.
+Please forward the information below to anyone you think might be a good fi
+t
+for the program and keep your eyes open for anyone that is on air already
+that could use some help.
+
+The information about applying is below and the application can be found at
+<<link>>
+
+Many thanks,
+
+Kelly
+
+*Kelly Jean Ronan*
+
+PTI Project Manager
+
+*Media Matters for America*
+
+P: 202 756 4102
+
+user@domain.com
+
+February 26, 2015 
+
+We are excited to announce that* Media Matters for America* has scheduled
+its next Progressive Talent Initiative (PTI) media training. PTI is an
+intensive, four day media training program beyond the scope of anything in
+the progressive movement to date.
+
+PTI will train participants on a wide variety of topics including technique
+,
+messaging, tactics, style and hot button issues such as national security,
+immigration, health care, etc. The next training will occur in April 2015 i
+n
+Washington, D.C. Applicants selected will have all travel, training, and
+accommodations paid for and arranged by PTI.
+
+The relationship between PTI and graduates of the program will not end in
+April. PTI will aggressively book graduates and provide graduates with
+access to preparatory resources. In order to ensure that the lessons learne
+d
+at the training are not lost over time, continued feedback, training, and
+post performance critique will be a core component of the program.
+
+In order to provide the most hands-on experience, PTI is only selecting
+twelve participants for this training.  Applicants should be able to speak
+intelligently on current issues and have a strong on-camera presence.
+
+Participants are expected to fully engage in the training from the morning
+of Wednesday, April 14th through the early afternoon of Saturday, April
+17th. While breaks will be provided throughout the training, participants
+should not plan on being available for work or other personal commitments
+for the duration of the program. Participants are also expected to be
+available for media appearances after the training as part of the ongoing
+relationship with PTI.
+
+The application for the April 2015 training can be found here:
+<<link>>
+
+The application provides a space to include at least one but no more than
+three URLs to provide a video clip of you on TV. Please use the application
+as an avenue to showcase your talents and why you feel you should be
+selected to participate in the program. Please note in the application if
+you were referred by a specific organization or individual.
+
+Applications will be reviewed by a committee comprised of experts in the
+field and PTI team members. All decisions are at the discretion of the
+review committee and details regarding why an applicant was or was not
+chosen will not be disclosed. Please be advised that during the review
+process the PTI team may contact you for additional information.
+
+The early application deadline is Friday March 12, 2015 at 5:00pm EST.
+
+We thank you in advance for your interest in the Progressive Talent
+Initiative media training and look forward to receiving your application.
+Additional questions can be directed to Kelly Ronan at user@domain.com
+.
+Again, the first application deadline is 5:00pm EST on Friday March 12,
+2010.
+
+Regards,
+
+The PTI Team
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

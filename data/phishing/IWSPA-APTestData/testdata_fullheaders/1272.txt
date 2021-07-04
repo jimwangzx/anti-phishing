@@ -1,0 +1,481 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp590714lfb;
+        Thu, 28 Jan 2015 12:58:13 -0800 (PST)
+X-Received: by 10.202.218.138 with SMTP id r132mr3849562oig.55.1454014692942;
+        Thu, 28 Jan 2015 12:58:12 -0800 (PST)
+Return-Path: <user+user@domain.com>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.87])
+        by domain.com with ESMTPS id r10si12114980oep.44.2016.01.28.12.58.12
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 28 Jan 2015 12:58:12 -0800 (PST)
+Received-SPF: softfail (domain.com: domain of transitioning user+user@domain.com does not designate 65.55.169.87 as permitted sender) client-ip=65.55.169.87;
+Authentication-Results: domain.com;
+       spf=softfail (domain.com: domain of transitioning user+user@domain.com does not designate 65.55.169.87 as permitted sender) smtp.mailfrom=user+user@domain.com
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=law.georgetown.edu; domain.com; dkim=none (message not
+ signed) header.d=none;domain.com; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Authentication-Results: spf=pass (sender IP is 209.85.213.174)
+ smtp.mailfrom=domain.com; law.georgetown.edu; dkim=none (message not
+ signed) header.d=none;law.georgetown.edu; dmarc=bestguesspass action=none
+ header.from=law.georgetown.edu;
+Authentication-Results: spf=permerror (sender IP is 141.161.191.74)
+ smtp.mailfrom=domain.com; domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Received: from domain.com (10.255.193.20) by
+ domain.com (10.141.218.28) with Microsoft SMTP
+ Server (TLS) id 15.1.390.13; Thu, 28 Jan 2015 20:58:10 +0000
+Received: from BN1AFFO11FD055.protection.gbl (2a01:111:f400:7c10::196) by
+ domain.com (2a01:111:e400:45::20) with Microsoft
+ SMTP Server (TLS) id 15.1.396.15 via Frontend Transport; Thu, 28 Jan 2015 
+ 20:58:09 +0000
+Received-SPF: PermError (domain.com: domain of domain.com used
+ an invalid SPF mechanism)
+Received: from mail.law.georgetown.edu (141.161.191.74) by
+ domain.com (10.58.53.70) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Thu, 28 Jan 2015 20:58:09
+ +0000
+Received: from na01-by2-domain.com (141.161.191.13)
+ by LAW-CAS1.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Thu, 28 Jan 2015 15:57:37 -0500
+Received: from domain.com (10.163.126.52) by
+ domain.com (10.242.167.17) with Microsoft SMTP
+ Server (TLS) id 15.1.390.13; Thu, 28 Jan 2015 20:57:34 +0000
+Received: from BY2FFO11FD032.protection.gbl (2a01:111:f400:7c0c::188) by
+ domain.com (2a01:111:e400:52fd::52) with Microsoft
+ SMTP Server (TLS) id 15.1.396.15 via Frontend Transport; Thu, 28 Jan 2015 
+ 20:57:33 +0000
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 209.85.213.174 as permitted sender)
+ receiver=domain.com; client-ip=209.85.213.174;
+ helo=mail-ig0-domain.com;
+Received: from mail-ig0-domain.com (209.85.213.174) by
+ domain.com (10.1.14.210) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Thu, 28 Jan 2015 20:57:32
+ +0000
+Received: by mail-ig0-domain.com with SMTP id ik10so22571461igb.1
+        for <user@domain.com>; Thu, 28 Jan 2015 12:57:32 -0800
+ (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :From: "Joshua C. Teitelbaum" <jct48@law.georgetown.edu>
+         :accept-language:content-language:content-type:mime-version
+         :spamdiagnosticoutput:spamdiagnosticmetadata;
+        bh=Oniz5dZ9hYyPSpZOo035geRlIOQ64SG2Td/1vwIIArE=;
+        b=F03iNez4h5v4bIRfpyn9SiKM5624LeKGnqWPeMiZzoUkGV4u74zU9SjvFa8/L18YYZ
+         pTTHLotXMSOjkW1k/biyrdl+PjIqq4VfF+6ln7fXViklOp3O1N48hb3Bxz5eGu93qlYE
+         erTHPAgojuuYwuWTbejJOUSQ+BJspSY5LO/U1JSOEYMFcmX4TL2WjmDFENt8vM7dU+Rt
+         rNOZS5TaDaw4ZdOhCb1Dp4HHW4ltQeoOFXYzTBdS7SHmfQ5Je8h6sDSTU3cmMu5lqIWH
+         2sbYcU5kSbUi54fjj5hS6Tp5ZFxsEmjVFSAshbU7xMsc5GW8HFtMQHsHJh5qRG3juHWa
+         FhXg
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com: domain of user@domain.com designates 157.56.111.56 as permitted sender) user@domain.com
+X-Gm-Message-State: AG10YOQJZaul8JInHCToCc5PA6P/atvhDfyvplla5pTAX0YntEwYvZUH6d5B/D+YD0g+sm2mPSrP/OkE3j4KLU8shs5gGq83foFX
+X-Received: by 10.50.39.109 with SMTP id o13mr5981358igk.5.1454014652133;
+        Thu, 28 Jan 2015 12:57:32 -0800 (PST)
+X-Forwarded-To: user@domain.com
+X-Forwarded-For: user@domain.com user@domain.com
+Delivered-To: user@domain.com
+Received: by 10.64.0.193 with SMTP id 1csp745247ieg;        Thu, 28 Jan 2015 
+ 12:57:30 -0800 (PST)
+X-Received: by 10.55.75.212 with SMTP id y203mr6533594qka.3.1454014650841;
+        Thu, 28 Jan 2015 12:57:30 -0800 (PST)
+Received: from na01-bn1-domain.com
+ (mail-domain.com. [157.56.111.56])        by
+ domain.com with ESMTPS id w198si11481775qkw.58.2016.01.28.12.57.30
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);        Thu,
+ 28 Jan 2015 12:57:30 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.111.56 as permitted sender) client-ip=157.56.111.56;
+Received: from domain.com (10.162.96.33) by
+ domain.com (10.242.216.17) with Microsoft SMTP
+ Server (TLS) id 15.1.390.13; Thu, 28 Jan 2015 20:57:28 +0000
+Received: from BN1AFFO11FD013.protection.gbl (2a01:111:f400:7c10::156) by
+ domain.com (2a01:111:e400:5173::33) with Microsoft
+ SMTP Server (TLS) id 15.1.390.13 via Frontend Transport; Thu, 28 Jan 2015 
+ 20:57:28 +0000
+Received-SPF: Fail (domain.com: domain of law.georgetown.edu does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.74;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.74) by
+ domain.com (10.58.52.73) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Thu, 28 Jan 2015 20:57:27
+ +0000
+Received: from LAW-MBX02.law.georgetown.edu ([169.254.2.236]) by
+ LAW-CAS1.law.georgetown.edu ([141.161.191.74]) with mapi id 14.03.0248.002;
+ Thu, 28 Jan 2015 15:56:51 -0500
+From: "Joshua C. Teitelbaum" <jct48@law.georgetown.edu>
+To: Charles Abernathy <user@domain.com>, 
+ Lama Abu-Odeh <user@domain.com>, 
+ "Jane H. Aiken" <user@domain.com>, 
+ =?windows-1252?Q?Judy=0D=0A_Appelbaum?= <user@domain.com>, 
+ Judith Areen <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ =?windows-1252?Q?Hope=0D=0A_Babcock?= <user@domain.com>, 
+ Mitchell Bailin <user@domain.com>, 
+ Randy Barnett <user@domain.com>, 
+ =?windows-1252?Q?Susan=0D=0A_Low_Bloch?= <user@domain.com>, 
+ Gregg Bloche <user@domain.com>, 
+ "Sonya G. Bonneau" <user@domain.com>, 
+ "John R. Brooks" <user@domain.com>, 
+ Rosa Brooks <user@domain.com>, 
+ "Christopher J. Brummer" <user@domain.com>, 
+ "Paul D. Butler" <user@domain.com>, 
+ "William W. Buzbee" <user@domain.com>, 
+ Peter Byrne <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Rachel Camp <user@domain.com>, 
+ Angela Campbell <user@domain.com>, 
+ Erin Carroll <user@domain.com>, 
+ Sheryll Cashin <user@domain.com>, 
+ Michael John Cedrone <user@domain.com>, 
+ Larry Center <user@domain.com>, 
+ =?windows-1252?Q?Thomas=0D=0A_G._Clark?= <user@domain.com>, 
+ Julie Cohen <user@domain.com>, 
+ Stephen Cohen <user@domain.com>, 
+ =?windows-1252?Q?Sherman=0D=0A_Cohn?= <user@domain.com>, 
+ David Cole <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Anthony Cook <user@domain.com>, 
+ John Copacino <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Frances DeLaurentis <user@domain.com>, 
+ "Mary B. DeRosa" <user@domain.com>, 
+ Michael Diamond <user@domain.com>, 
+ Richard Diamond <user@domain.com>, 
+ Viet Dinh <user@domain.com>, 
+ =?windows-1252?Q?Diana=0D=0A_Donahoe?= <user@domain.com>, 
+ "Laura K. Donohue" <user@domain.com>, 
+ Eve Dubrow <user@domain.com>, 
+ Peter Edelman <user@domain.com>, 
+ Deborah Epstein <user@domain.com>, 
+ Daniel Ernst <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Lilian V Faulhaber <user@domain.com>, 
+ James Feinerman <user@domain.com>, 
+ Heidi Li Feldman <user@domain.com>, 
+ "Alexa P. Freeman" <user@domain.com>, 
+ Anne Fleming <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "Alexa P. Freeman" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Brian Galle <user@domain.com>, 
+ Anna Gelpern <user@domain.com>, 
+ Victoria   Girard <user@domain.com>, 
+ Maria Glover <user@domain.com>, 
+ Steven Goldblatt <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "Martha Gooding (fwd)" <user@domain.com>, 
+ "Irving L. Gornstein" <user@domain.com>, 
+ Lawrence Gostin <user@domain.com>, 
+ Michael Gottesman <user@domain.com>, 
+ Itai Grinberg <user@domain.com>, 
+ Charles Gustafson <user@domain.com>, 
+ Lisa Heinzerling <user@domain.com>, 
+ "Kristin N. Henning" <user@domain.com>, 
+ Jennifer Hillman <user@domain.com>, 
+ Stephen P Hills <user@domain.com>, 
+ Craig Hoffman <user@domain.com>, 
+ "Sarah J. Hulsey" <user@domain.com>, 
+ "Nan D. Hunter" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Emma Coleman Jordan <user@domain.com>, 
+ =?windows-1252?Q?Neal=0D=0A_Katyal?= <user@domain.com>, 
+ Patricia King <user@domain.com>, 
+ "Gregory M. Klass" <user@domain.com>, 
+ David Koplow <user@domain.com>, 
+ Donald Langevoort <user@domain.com>, 
+ Martin Lederman <user@domain.com>, 
+ "Adam J. Levitin" <user@domain.com>, 
+ David Luban <user@domain.com>, 
+ Sally McCarthy <user@domain.com>, 
+ Allegra McLeod <user@domain.com>, 
+ Susan McMahon <user@domain.com>, 
+ Carrie Menkel-Meadow <user@domain.com>, 
+ Naomi Mezey <user@domain.com>, 
+ John Mikhail <user@domain.com>, 
+ "Wallace J. Mlyniec" <user@domain.com>, 
+ Jonathan Molot <user@domain.com>, 
+ Cara   Morris <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "Victoria F. Nourse" <user@domain.com>, 
+ "Paul K. Ohm" <user@domain.com>, 
+ James Oldham <user@domain.com>, 
+ =?windows-1252?Q?John_F.=0D=0A_Olson?= <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ =?windows-1252?Q?Julie_O=92Sullivan?= <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "Eloise H. Pasachoff" <user@domain.com>, 
+ Gary Peller <user@domain.com>, 
+ George Petasis <user@domain.com>, 
+ "Alicia E. Plerhoples" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Charles Pruett <user@domain.com>, 
+ Milton   Regan <user@domain.com>, 
+ "Jarrod F. Reich" <user@domain.com>, 
+ "Richard L. Roe" <user@domain.com>, 
+ Nick Rosenkranz <user@domain.com>, 
+ Susan Deller Ross <user@domain.com>, 
+ Julie Ross <user@domain.com>, 
+ =?windows-1252?Q?Tanina=0D=0A_Rostain?= <user@domain.com>, 
+ Paul Rothstein <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Peter Rubin <user@domain.com>, 
+ Steven Salop <user@domain.com>, 
+ Denise Sangster <user@domain.com>, 
+ Alvaro Santos <user@domain.com>, 
+ Andrew Schoenholtz <user@domain.com>, 
+ Philip Schrag <user@domain.com>, 
+ Louis Seidman <user@domain.com>, 
+ "Marcia P. Shannon" <user@domain.com>, 
+ "Howard A. Shelanski" <user@domain.com>, 
+ Jeffrey Shulman <user@domain.com>, 
+ Laurence Silberman <user@domain.com>, 
+ Rima Sirota <user@domain.com>, 
+ Stafford Smiley <user@domain.com>, 
+ "Abbe L. Smith" <user@domain.com>, 
+ "Lawrence B. Solum" <user@domain.com>, 
+ "Alison M. Spada" <user@domain.com>, 
+ Girardeau Spann <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Russell Stevenson <user@domain.com>, 
+ David Stewart <user@domain.com>, 
+ Jane Stromseth <user@domain.com>, 
+ Robert Stumberg <user@domain.com>, 
+ Neel U Sukhatme <user@domain.com>, 
+ David Super <user@domain.com>, 
+ Peter Tague <user@domain.com>, 
+ =?windows-1252?Q?Dan=0D=0A_Tarullo?= <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ =?windows-1252?Q?Joshua=0D=0A_C._Teitelbaum?= <user@domain.com>, 
+ Yvonne M Tew <user@domain.com>, 
+ John Thomas <user@domain.com>, 
+ Robert Thompson <user@domain.com>, 
+ Kristen Tiscione <user@domain.com>, 
+ "William M. Treanor" <user@domain.com>, 
+ Philomila Tsoukala <user@domain.com>, 
+ Rebecca domain.com <user@domain.com>, 
+ =?windows-1252?Q?Carlos_M._V=E1zquez?= <user@domain.com>, 
+ =?windows-1252?Q?David=0D=0A_Vladeck?= <user@domain.com>, 
+ Caryn Voland <user@domain.com>, 
+ Silas Wasserstrom <user@domain.com>, 
+ Edith Brown Weiss <user@domain.com>, 
+ Franz Werro <user@domain.com>, Robin West <user@domain.com>, 
+ =?windows-1252?Q?Timothy=0D=0A_Westmoreland?= <user@domain.com>, 
+ Jessica Wherry <user@domain.com>, 
+ Anne Marie Whitesell <user@domain.com>, 
+ Jamillah Williams <user@domain.com>, 
+ "Michelle M. Wu" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>
+Subject: Faculty retreat - draft agenda
+Thread-Topic: Faculty retreat - draft agenda
+Thread-Index: AdFaC0WexF8QpqH9RiyRsXQ4pC4S9g
+Date: Thu, 28 Jan 2015 20:56:50 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.129.59]
+Content-Type: multipart/mixed;
+	boundary="_004_FADCF9EBB802FA4691A940691DEEAC982682FELAWMBX02lawgeorge_"
+MIME-Version: 1.0
+Return-Path: user+user@domain.com
+X-EOPAttributedMessage: 2
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1AFFO11FD013;1:mS/Xh+PVRC7W5cDCpphvDEWeW2NvClNAk2ANoakRLOpZxBZ3yCXT+b9Ay01HLNWfBs6ZtLn++35WFvKa3L7X4ek2mNGXq9PF3R79Ign24/8j8BOGjG2A+P9N+UegSha8g78zgc0XoXrr02NQcbCq0ANbWwvFlgi6P1Hx93ORcSYliaFOr76eTJv1xeojIgsrfTJDgm1kC3tYUUCJOulXOvfiqVysZlEOR9P5zf02cGCa5CL1cMMIPCtxeIM7nK93WuoRSpVjf532QWzkDfA0Uiuy1H59kCUgO/+V0u3qOTvKD91qIqKOgjqXyOUhI06Kw6FUO7nAG88qdp37PDu/DPTKQtndn4RxpVwXzq79IV9opASlJbhJj5irreLyitHoPrPZgFKNhluuGhajlYbFxw
+X-Forefront-Antispam-Report-Untrusted: 
+	CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1109001)(1110001)(339900001)(377454003)(199003)(189002)(51414003)(66066001)(102836003)(189998001)(5260100001)(86362001)(2476003)(6116002)(1096002)(55846006)(1220700001)(5001960100002)(3846002)(19625215002)(5890100001)(19300405004)(75432002)(33656002)(89122001)(5008740100001)(107886002)(790700001)(106466001)(105606002)(6806005)(586003)(21480400002)(5004730100002)(300700001)(512944002)(104016004)(229853001)(2501003)(5001770100001)(97736004)(92566002)(54356999)(2920100001)(2930100002)(568964002)(2900100001)(85426001)(2171001)(87936001)(11100500001)(99936001)(50986999)(1191002)(15975445007)(3470700001)(2201001)(5003600100002)(16236675004)(4620100001)(81156007)(19580405001)(84326002)(450100001)(88552002)(2906002)(4610100001)(567704001)(19580395003)(10412655001)(921003)(1121003)(42262002);DIR:OUT;SFP:1101;SCL:1;SRVR:BN1PR07MB103;H:mail.law.georgetown.edu;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1PR07MB103;2:KvNbliE2lIJx/A2tH96gdgi9lMN84u0rkeXgPDqepJ7qU1z7BNJlvEMGYa1qob6uhbl3S5oJELYWVwGRlBFPfeIxc5NmDaAACTwARY8N/rGXBv8Loq8XxlVUgK8J00FP1aH3SK9qxDFEv1y3V3xGuQ==;3:kfsidQtrKK7jEvEAiGFdj2HfZl/6d/9xvnvXnPnRoAoymNDX2Snlk/of2/YwFo6VS0/D+wxg6eyuV49e1Ypd0y4Xp94uYA4Jzj3GeZu5oJXxdzJNE7MSrwsF7LfFTgq7RgtEkV4X+OPg+G3GgRG/Kyek+32D1ktW11AJmbx8eqlook2U6cwEaiXgZW+lSF50+kIzw9LVN1qT9Qud5EArDmrOXAz04P3lrHdaFahgI0A=;25:AajLyqwyWwOuU5mEy0kaOQTn3ZeND0Lj9vWv2Gk18YWwO0eMaZuBJZFCRJJ4ph+dRNbk3m2KjP2FGLbUpr+bskRlAfH7AGtM+6g3kkiy7kt7zAjchPN29fMSSFPTgEXX2qpSnORBUUtK+SLmb2U5v8pD3p6jzdZXzlgms7e/SNwIsZnTSu9Byuf0pgX4nwt7bkhU2M5BJ+wDFr+inEy9URueZIvBAFMRsXPtiXGw5AD1992cgcP7f/RTdABtEKSQ
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BN1PR07MB103;
+X-MS-Office365-Filtering-Correlation-Id: f7cc64bc-8c58-4a4d-5b13-08d32825ba89
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 
+	1;BN1PR07MB103;20:jLk73ygWsoOMsL8ZtjXCkc481qFJgCUZBH10D6D0v6zYvUK04MhxKwyUNMV4NlwT6clc4Nw5+5vhQ0phT/zXxXdEQQgwcRwA1b+enFafWaio2DUR4hvsMBikaVgecDfbnCN1xtyNbmkQMittNC08tXXWPQ8cCiJ9KRLCTCWOsscggcDMByNkKV2++G1/6RgJTl8zy8CE/eVhJ1NViUND8m1ZbVNgHEugg373Z4UlwPVdZu8rZHebJfwpXIWCfSFR1GnF7qLW8jl5xSSv6151xcKiuhW8jEMTcLQiWCxvqWx7bT6LgsQ5G1rGApGTrmERZzSumcJ4zWeqvzzRzMbDQcE+bkk+SfNg7sDV0pvplKJVXjeVMLzUde/Dca/IFeVQ2/lgS3kfTm1P87C8mbDyOwtI9/wnJIvlIIGAEJu4e80=;4:e5Wvr6LpNlB1ZBvhKN2ZIch3lwmil1DLkMxpOXAt+2Xvu3apTOODbQD+hq67VbmxWwFzmQ2VkZztulTC8NEJ3xb9tnsYvBOLYW92oy6fjozd7aR1/LYlwtNlReVHH99r6tN+3NM2gfkVilOaM7QRMyhm78J4RR51mHUCJyr1TvOXQfEaakOpIGeYl2cZezavh9zLIEjduYaBxoDh/Y42+apiSJqHRLS80nOmO9yGJ8dowzoSj5cmMTLfLxtMA7vdf55DAy8FFvw7R9LM3QF8i9MFEAjM+PFJNtCwjZDT4f0S3HsOqHPwcy3kKSkj1myZAVFDTtnGysOZOrdWA3fWPCsZhyEmYRinTa2x84u8QiarJytV1+qyJIZ7orhiJXRVPYJT598bQYsjd2k9QyRvBrf+3YAaopVTP+eWPf9lraSCwHUOfsz20uNQF42q6pV3HmKIumelVXDXGy/jJTzutivd+xR4RbAdwUkka/6/Jf3NE5R6NSqB5YUVFNGDs5ep8JRvqMxmelCwreLwWwYpCw
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Exchange-Antispam-Report-Test: 
+	UriScan:(76009858676777)(6594202986349);UriScan:(76009858676777)(6594202986349);UriScan:(76009858676777)(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:0;PCL:0;RULEID:(102415267)(102615245)(601004)(2401047)(5005006)(8121501046)(13018025)(13016025)(3002001)(10201501046);SRVR:BN1PR07MB103;BCL:0;PCL:0;RULEID:;SRVR:BN1PR07MB103;BCL:0;PCL:0;RULEID:(102415267)(102615245)(601004)(2401047)(7630080)(9101504095)(13023025)(13024025)(8121501046)(13016025)(13018025)(7631080)(7632080)(7633080)(3002001)(10201501046);SRVR:CO1PR07MB111;BCL:0;PCL:0;RULEID:;SRVR:CO1PR07MB111;BCL:0;PCL:0;RULEID:(102415267)(102615245)(601004)(2401047)(13018025)(8121501046)(5005006)(13016025)(10201501046)(3002001);SRVR:BY2PR07MB536;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB536;
+X-Forefront-PRVS: 083526BF8A
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;BN1PR07MB103;23:pm6G3tySFGlYHQmImR5f45XQbqFJmI7WfXVGlWKtxn?
+ =?us-ascii?Q?XQdlHS7a9aQkomhxu57fFiZhMBN4dGUHKA1MlB9TcsXQn4IecWMvcibRT0Ss?
+ =?us-ascii?Q?WnwW41IVENR22+0vCWkfs3lQp0Onr/zHuyxECKs+KHTyhTzqHWZ6LyPnoJKd?
+ =?us-ascii?Q?hMAB1pvUdBxIuiXvUsLXbOZ6wbyxZkViMUSH33/OBq53/1ouz5Y8PQkJTeaD?
+ =?us-ascii?Q?21QNazctPtZ/EDxX/1k9vOQUxFLE8E8BL1JLp/p45jcKxbN8A+Y3xU6WQ3mL?
+ =?us-ascii?Q?/1jdDLWDu5VDSrdx+s4UMDZG8V2p4iy4EnpVIXmSbQMYm+sUm6HcNk/pqaNn?
+ =?us-ascii?Q?LhhM9yUDXD+zBukHKBex/RNiAiBYBOS/MWXz3HxMul1fXzNyE8w5SlpYxbot?
+ =?us-ascii?Q?15nK8qwmdM0cNUVnnmYJT3G5l6l1D2GE8sH5+ok6XW+V5/Zmek3O+88NMXDt?
+ =?us-ascii?Q?jLngSPI4AUuyvH/7tGB4OtzwYGVS2JTfbJEqI+scASSEkJoYYZ+BEsmx3Sgj?
+ =?us-ascii?Q?zfbXSaa13VumOOZ5rSW9CHwEEsiTc4YuRZKraD8jZl/7AGyxN9nfbV0oJxcO?
+ =?us-ascii?Q?xrblWruiELOOhZ6JgRCDf0sE7gx64nldNCvzR15uf2bFsGAYEGKQXxzUF6H3?
+ =?us-ascii?Q?KmMRGxdjltsAvj8t+h1GsiiQA5EjetjkDBLPmiJ8BcQVkXidSNzwGUodZpxO?
+ =?us-ascii?Q?byv4Z9WQ5vzzPX/WO7FcpizpH4pRx1rX9bSIufwP1B5fA9Q8ioC31/lsiB0I?
+ =?us-ascii?Q?yklUjiqOUj4t4WHuqb3C0O6Qbj033Vm9eqWpVny7Pk+4OOwyaVfcgNPmksQw?
+ =?us-ascii?Q?FWAPflHyQPiP/+cw4qeGGgPFJnmuL2Y9fjU0VqSVnTZeEDS+z2zffLipRJ+c?
+ =?us-ascii?Q?nDzuZxsI7735bcTPyvk8rOgtBErpReU/o+svaE/8Lf5xYj/0P8Li4w+IN4kT?
+ =?us-ascii?Q?AhZegghvmNbU1mukdhvAkJCnQsKMbKV0c5ChalZYMtfTUgX1UlIK498nyk22?
+ =?us-ascii?Q?kVNiOJzfcObOdKD5iWGSk1O8KFPShzAmcgCL8MNxcsoev4Da30l9WF1REdvC?
+ =?us-ascii?Q?JUN7xsAJKDj6SaMvBfWQ31/teLZQYmj1i0SfjSr3cEwMvAt8sEIXqoM43ea2?
+ =?us-ascii?Q?17j6X0ezeUbQO+YFRtOKVMkxphFDsv+5zoyd8wkYGQ9uf9Dce0LXkq5JKm6+?
+ =?us-ascii?Q?qxEW5UYkvxhzPrGZBU0v8HPasWpnriQBF4kaCZikoMhBnOxe/qc/JyqhDfYD?
+ =?us-ascii?Q?40XsOHQXgYQu6QSLZwn/IT5TSb/n1arDkzKP8sE9iawV3C+AdIflImDT+Mv0?
+ =?us-ascii?Q?hscoqAV+LfSh1kQlgnypUdIaYpXNT7gSmYSSl5VRZQRg/187P8+GKpwPgFcx?
+ =?us-ascii?Q?GE6dP3BLBzCIzHkvTTQs90um3CjmIGQ1qnoVFThtnusRV+6D5g3Q1MreCPju?
+ =?us-ascii?Q?iBSsQcXxyWG+hQPrOEV3B9phygBADtUTUhI0QPLCs4157EreYGE/U6ke+5TL?
+ =?us-ascii?Q?GuLp9OJkVQelMwfJueLhgD3UHyeglKmtbfrLlxY9YEO+KZAjzlCcDur90yF7?
+ =?us-ascii?Q?zakiW29jhJmCYdWi2cAKl/uQtuUh5X6cRh3HdvhOdtgijNsWwNPQNqsNkwbD?
+ =?us-ascii?Q?jrJlaEpS12AUBcPeAlBkZraDgDjpV8hs3o/L4TQdJo9tkJr8yuYdLy99gcBm?
+ =?us-ascii?Q?I16CXWXFHyTiwDsm2KYqWveSM6Bz3+JujBLh8ph6lbSdfGK0algpYEVCfjZ1?
+ =?us-ascii?Q?lD5juhYwqW7h+ondy56oXmYlsy3y74Cwqq8LjTwoju8LmdtF5Nn4nxQk7x4A?
+ =?us-ascii?Q?SMEpUHR72ZGDJwNPVDGFbnQRXNlAOQ2aBwPvOlYLsurKS3h4ekDORbJwepIn?
+ =?us-ascii?Q?05i3xoGXRe2/ZpG9/Glt7uWIm1kSgzEOv+qA=3D=3D?
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1PR07MB103;5:4TwYpiY7TksgwCn8+rR7tOzyQhUTkwygD+lF5RzUfxwIOJeY3LfpQpdiksaimzkbG4h6TQqhAhA4ufKbkCKMZsiPpAAKwgVnA9o4SEExAivUWRnw5OtB5m83Bfde1DwKvL4HdOpt8/ECVczOuUw5NA==;24:NdfWCHz0sdOJzwpxfoxo+nQam9vGf1mdEtyIaX7x1zC49ZjBUWC7ikjIXvgf3WIeGCTb2t4FYVx1/Ms64fHHB62BOSwuCiCiCes63RL0R4E
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN1PR07MB103
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BY2FFO11FD032.protection.gbl
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2FFO11FD032;1:H0QRCo+BwlhvqPGfHH9qr2jSxU2nqRiJ5MgKSZ/R94oXXu9ttDGzmDMB0cnJDm/JHHxkLctsvrSzJ3Djw8oNIajs3eurOXpM54A4QWZGb9vqrTdO3bbiYAM58gaX111ua0B8zM0ICTgT8Dnhf/y7DRVt474hSuTEwiKo42IAjm+6YoUOmtpAdr8sCRJquzCLgB6uf2KHFbGdPWjhJxpqMvtnzq9RE5f6Ys09ol+KW7OcLjclzB/rekuaY4DVtHeAo9vu4nffSNecJI88uOX7No0rLe8rYbQQsk67FzzL2QpnJ28UcjjlAlTzYOB5jxUPjNAvRJWUaiKngx7kPTbJD950B+I8z7RfOXK+XKelmFUcfnJ+D/CnRxlIb7zAzG0tI3DpE4nC1sQFrU90E0dP99qAMGl5ak7wGmU11gnqsH6IxqUerfFOX2M5DuHpPv1q6j3+SU7Z5sO2DHP/I2gaoszGNoY7R0HCwYXKZE3UMlw
+X-Forefront-Antispam-Report-Untrusted: CIP:209.85.213.174;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(2980300002)(438002)(377454003)(51414003)(199003)(189002)(21480400002)(16236675004)(84326002)(59536001)(85426001)(2171001)(19580405001)(93516999)(5001970100001)(107886002)(19580395003)(75432002)(99936001)(300700001)(54356999)(450100001)(1191002)(5001770100001)(59286002)(63696999)(59646003)(50986999)(5004730100002)(3720700001)(19625215002)(2201001)(15975445007)(55846006)(66066001)(189998001)(2900100001)(106466001)(229853001)(2920100001)(2930100002)(5008740100001)(5890100001)(11100500001)(104016004)(2501003)(88552002)(6806005)(33656002)(5260100001)(567704001)(92566002)(512944002)(4610100001)(4620100001)(102836003)(790700001)(19300405004)(3846002)(2476003)(3470700001)(5003600100002)(586003)(59656003)(6116002)(568964002)(89122001)(10412655001)(921003)(42262002)(1121003);DIR:INB;SFP:;SCL:1;SRVR:CO1PR07MB111;H:mail-ig0-domain.com;FPR:;SPF:Pass;PTR:mail-ig0-domain.com;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO1PR07MB111;2:OmQGtwnSaZAL2Wf8NPkr6WfpIViXptgBidNSv0ogntlF+5mEEOFcobSA2cGza3tB1FkCZ59rFD/QXfIdxbyb0O7zYyWFSsH234V9udVnsOwIEhDjEB+EHMseLQcdIrxhpG2kcyTn5L8fcNcAF8PEMw==;3:TQZMX+/x8B2VAPHoMBpsbIMKEcB4xvjnoTPlMAriCYt8gvTBu/qitepNHsblmZJpY4WIG6XEUiSAFooaKKvq/u1kg72qC9p/qE0zzDzgrI654CEIULndl8hT2mSWBgTbga2jm8bQ3JOwMMVAX7hk+QJN7zAyfTkTVuk+zZa2+cQ5Uqw9MjYlgvrAW5TM9UbKYFc1WkOOsixnb9Z8FqYITcfHrzxhUBbiOE04oi/88PMhNYJAZhDdGWROV2w9G/zBw+GqbaZT433osh7Pw0xVV4tsIUSjLXgs8HVKc4Z4wecVsf8sXXbCQTIsEVrM10mc;25:3plmmTU5CSFYLMUEfNYbHpLPgY6LNI5hfqtlPZ57X1JbKLEWdnZIqopbOSK5qilh3Pwsg3lP5VG4FNhuHZZIfo3tBfv/QPhZ4NGhJThO/r+jBh+xa1E7Fk+nSRqAyJcM4b1ugqkjkUqyVv4L3gzrrQhz2XarPC1hfbreon1g0QXELWHu0uTXnmfeAItAfuk4i2GTPcT45hj5GGBbYtR1kJCqVs2ckSJ0oIXAR/uRY4rEuhqZHl4s6PDUQoM5Stt8
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:0;PCL:0;RULEID:(8251501001)(71701003)(71702001);SRVR:CO1PR07MB111;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO1PR07MB111;20:Z9w9k/wRlM5GtJezrewlOZQ7R5/iHvcpYDlcZWxiT1wZOK9bZKwCG0CaK5UN8WBnHszsap2XTup1bP0G6dk1h/ESax1/SVS9eLbGnAyCFddaXOp1gYBLbyx9fcYwaRPVcZ5/KLTmAYxc8HG2LH0VO5e4pLoZSr2lZx91LGhyKssYe+bSWDqtMjpPl9CnNAQ3ecWlGgBz1AVo+PeseBKxFhvc+m0CaleQhUIryjPUr/cHqxExxkutknHLyiaHSsDnXhtuBbJLBG5Y3GoRPf4hitPbdkHiis9lSW9w8JOsTa/qeBAXan267HgApvk3VHcUL0iTi8ve/7EqfcolL8OjwSnN0n6KfZeVAMH1fAejmaes+OVm0PZFbXeiw/XmD327hoOwzx1jTFvsBJWIjvV7vREKjE+6c8rg+ZAw9Tzg/NU
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO1PR07MB111;4:ilzpQ2b2dnCxn0424vUO/VlJQY7qDrmf6eQQuH8tfakMFDf45WeaVLENL0X6F7FpuN5RuTQnsjOJdVnkw4aYEyniiflAYLcmM9NPGIuMm26ZNP5g76e6zSROGXwwWHMzo0R01pfpb82v0TKjebVWwGxFCEkgES/17domain.com+Iq+hVZSNRdO59kqlcLBXz2pbCFJgVtcSItRfWP04BJYWepgouySsigKFy+mbXjWloovp9BCMhTtIN6HH6ff4OxU7iIgj5qpBDSy0Xe5WkzqUY4dT39FW4yOd59435zLP+/K1g5k/VolWyQomuLZDXT7C7oOpe3bqH5+QKASDRjIBqWLXvktnxODac5nIwV2t4a0PHYYAiAfPlFy0nfG+XtHQ+Mo4ujy4+i5yTkfHM8tzICVEnMAXuKf5Y2XgrhMqC2Ilat3AQDiMeNzbTd+a5Yhb/SJQN14D974hen5ZzwucXBA0t05ByW6ffVJsvKNdB2PtTziWEvDAnmqpU5ZYxvXlNZo9ozSpFB0D7sFDYQQPPuL3gIrh4CkXrwBTtyWhlx2+B7WHKWL6CX0YA3pod9Dk3bwL4HhTJZY7LdytLxNbB5MFMIOkgUHTKJ+cHhQpbxvfdHh7iUMUWp92nzXNA
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;CO1PR07MB111;23:kkH0H/LeDIEa1hhpKPEUc+xHkkBWAIPRjz9jlp48mS?
+ =?us-ascii?Q?b0+pnBGwUTwcI5Vfws3VsktRb+IelGFhITAuSZbG+t+IOWfhTc8m+8XHH4Gr?
+ =?us-ascii?Q?9dCRTVoVAdwUezKn22YXkqxdYxkEJjVZ3VXAEu5wmul3ew625hK9J/Qkw/Ci?
+ =?us-ascii?Q?YXcqhvHOzlaGvxd+j2dGHKh57lOByC+ToXZLiSb4p/x2Oaq6R+m0+MYpdxEX?
+ =?us-ascii?Q?FU3rFJ0c6Ycq63cFlc4oeuhdPC8+D+PNrGRXniCuk6Nh80GhgCwIQkSVKwfu?
+ =?us-ascii?Q?3hsGzEfAI/AKfmLoje3+Do/5N/FRa8OsLQ2gD2HTEoUX/qmbqP9oBThXg6wn?
+ =?us-ascii?Q?l/84+9bM7V1k6nI2IYWT5zQHrQbnkNhtyFb65buczQvvQIDzt2/HXX/6PH7i?
+ =?us-ascii?Q?0a0aVszAzrwFXMEcVllrOE4KRarG2momkve8jgO0TzBSNt5tto5+PY3caXK1?
+ =?us-ascii?Q?corY+tbCIKUoP007jPTm/CmoPrGbWM3FtVi30qpGENLbLuIRSHsQGufzs+Lg?
+ =?us-ascii?Q?G/Y1YERegUUzlQzzoX2JKQpMIFZ4KBV6X2fWq2tGJs8hDNyxDUVw+MLkTczk?
+ =?us-ascii?Q?I4XnboMISsnkyBq4y3AsR5ggUuZlSV4yGd2M/Qzy2SLPXiGe/oam8xMqXAqo?
+ =?us-ascii?Q?VP5OigZ+318ryb0uhu3a+VKZFUu2vci/eAU2muPfzoX4oHapx6SA+Exssivj?
+ =?us-ascii?Q?XQXUWVLBGfL2IO37cIAFCLoDRNywyKsWvUbOJ4ZGS8bcUNFYNf7HeO1eFALs?
+ =?us-ascii?Q?tQ1dx1xMlrPg/Nx2SUq7MIeIFCeX78oKUNvJCRCzctCqibRJWw+jubUtl9QY?
+ =?us-ascii?Q?XGKTwVITdnAkqFalKe2hTLcEWnTukcZKo7XhmEaMmN8M8OkyXfZSP6uTuxFw?
+ =?us-ascii?Q?T/O1jND47MT+GOjyrhoFzYOUcmj/mt217DICkTGdGzK0+ANG2hs52dmgsfxn?
+ =?us-ascii?Q?EV4AmctmQmhGbIKldiAIGqSPxpzxDAC+GOa+YQyWU834F9tpt4ZhycTLJKo+?
+ =?us-ascii?Q?OASlWKgel7wxTtBZXKLDYRnv8PCnxJ56R+Skf4oxyvok+HTrE4UDzEmQlOyI?
+ =?us-ascii?Q?JbrISsuBdEh78E8n4tHFSN7b2jAneRcfC4E1cXHYljEhNLAB774JpLvrJ8kC?
+ =?us-ascii?Q?pvvcKhcONIrQuReMI0ZFZlfF7C9eB1hBmRZIFP/FpbDe+Yr3P+3l+xtpkz07?
+ =?us-ascii?Q?o3RVtGDIoq926aG9ljLJOkH7JB7ROW6gyfxpNuxrzUny0C2n1njLNu35wBqw?
+ =?us-ascii?Q?pc3PhiD1ST/aicC1gs+vYfcMcHg2QeZ/WswmuZx9fGJggzCtkHbQBO4WaxKB?
+ =?us-ascii?Q?XobgqF1UYhoD2RgZ/4ukjMl1HkG8338+mHUlbqdFmcbDBuvZJDm5rgxM1LJ9?
+ =?us-ascii?Q?zafSFGZYwbXxoFe3TpChXBrgMRObM+nslki2UP7fDMSf5T9tPLqbgoKA68nL?
+ =?us-ascii?Q?GbnB7skNJ1gqItxIQ+DAo0HOKdwxQ6dbw+P2uvIhAYMGWZu6/aea9ZyPZi1h?
+ =?us-ascii?Q?vwHi46sfQHEaZBgT1jUiiJT0lCw6WjXu/52LYR+fnLBgn9e+XsQzgYmPYU12?
+ =?us-ascii?Q?54ESf/60gV23FRu6RkIz9SWads0x2pBYytNIbhJSOZWUod8NFIUrYhRmDzN9?
+ =?us-ascii?Q?lCnBq1NH4nsxZRNk+CNWbcMlX7MR34Kri/P/wy+L3QkPrAwQXU1ZExspfMap?
+ =?us-ascii?Q?hi4b7vLN/OQzBynwhcGjX/RET+OE2/H2XCH3yusHMg4EnvMiGVimeslO9Ent?
+ =?us-ascii?Q?YRtkRJcj59wog/sg1w2W9UO9F2btUnVLH3NDPJ2qEQj7S5T66iYDcBWKBsIT?
+ =?us-ascii?Q?UMtt4cb8OrgksA8nD1cNB1XKuU3YEqmA=3D=3D?
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO1PR07MB111;5:qtjlSTlx4I+r8trxbfvR8yE40M63+O5133M8J6pg5JGWMCKZatdrBqHV0u2XiqntpBJ8UFCYmJduKQcQdhZLEkAAlx0v1It7EN8BRN39MBmpNFhFKXt9qwbtNommHHXxJNolRwggRrr6aG8F8aL9Fw==;24:Y9U1J/siPaA1j6Rfhw+TeWRo7I28b62pzn2v63zrBQ9JX3G6u8C6tlGJEDOgg7YObBnGX1HBlPiCFe6n6rKjeT2MUkc3YZk2j39eFmcPjrQ
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR07MB111
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-CAS1.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD055.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD055;1:86i3vRJVACKc0LniL+sQGY6CCqZ7mlqq+LfQtVI94EAHxYJV8lOlL1GRxXCknf2HyzxKpQT7anIO9EZW7i7aAN670Jheriici2jafGcPqXFTbqFB0ISX3eKlkElPoi3n1wWMOFMzxSRwbToNaDhKqWxnvyCr3mGvvPStQ30ypT8u+EFQQgrS7d7KC2FynNtI9hTKCZbBDOaLo4a/zs98rp3geC4YXPlbwj9dTpG4t87gwVa3nSQXqKCzVrt6tRTJ6LGyYzV45/u7qeXMdmXdlmQRvIQ4209s/YB9zy4GOI5dNx51b5w/CS0LtpwOjHsDmV4x7C0Ub1WdkIa/8n7YlCYEEp/LA8HOO4+rLRAS/Tn/VaUrv46EMllsOAgAVpmx
+X-Forefront-Antispam-Report: 
+	=?us-ascii?Q?CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(100?
+ =?us-ascii?Q?09020)(2980300002)(448002)(377454003)(189002)(51414003)(1990?
+ =?us-ascii?Q?03)(2171001)(55846006)(5003600100002)(2201001)(2501003)(2148?
+ =?us-ascii?Q?0400002)(59286002)(4001450100002)(1191002)(567704001)(162366?
+ =?us-ascii?Q?75004)(19580395003)(512944002)(5260100001)(75432002)(9256600?
+ =?us-ascii?Q?2)(2906002)(3720700001)(4610100001)(960300001)(4620100001)(5?
+ =?us-ascii?Q?890100001)(87936001)(450100001)(85326001)(5004730100002)(885?
+ =?us-ascii?Q?52002)(2476003)(102836003)(104016004)(189998001)(1220700001)?
+ =?us-ascii?Q?(790700001)(6806005)(107886002)(85426001)(19625215002)(50019?
+ =?us-ascii?Q?60100002)(2920100001)(33656002)(2930100002)(54356999)(159754?
+ =?us-ascii?Q?45007)(59656003)(3846002)(106466001)(99936001)(81156007)(290?
+ =?us-ascii?Q?0100001)(19580405001)(3470700001)(5001770100001)(229853001)(?
+ =?us-ascii?Q?568964002)(300700001)(11100500001)(84326002)(59646003)(50087?
+ =?us-ascii?Q?40100001)(93516999)(50986999)(586003)(63696999)(19300405004)?
+ =?us-ascii?Q?(1096002)(59536001)(6116002)(66066001)(89122001)(97736004)(1?
+ =?us-ascii?Q?0412655001)(921003)(1121003)(42262002);DIR:OUT;SFP:1101;SCL:?
+ =?us-ascii?Q?1;SRVR:BY2PR07MB536;H:mail.law.georgetown.edu;FPR:;SPF:PermE?
+ =?us-ascii?Q?rror;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB536;2:qpbQYpeIS+b/3drjM/ChqEPJJjq0D30f9JGF6OS+XZoTQv6kvuFHP4oyV4ud2T2imrHu6PhAHkfZ/s/ZLiRac6pP7+O1+SVYHCVm2eUTdFz3HjoW4DigNWG6fVI6KFaobEQETQhAPqiIMqjsE9+mHA==;3:WZZEVkdOIe09swCGbBZ4laDMXSZ6fSSlajjBrIHhtiywrvGXpu1yhGf5H4dltvAQXsJg6n6/P51jVq88qO6XPHBfST/MSbFNToryCPro92gRNJmBxV19drGgBdKUksBbWJpLcQpaULdb03EE8JOJGQasKkkaSU2Jo2kqbTsNgWsBR4CrZw5QUZywnuK89zeT+ez3xV+GNKFXmtdKhNT6oMGTHisP82Elp5d76Ck9gKw=;25:o0BKifISU7oScknUvtONOo7krsNd189+Hk4SuRy2DkOuxePhmhs3MWl3CMka8w4WnBPMTMUiS2poovUrWuanAUkW+MXghOPLoq8T8WxoQ1phwVCjzTWLnC/uJ+aMk7yqT+TmVZuHIeCLcxfJtn4eY7uwu6wI6aIagVIJm+NfvXyxGHigVNJDCXm9wFI3Uvo82rjQ5+Ba7nsrHcn45oU9dG1xRAgv41W5/8OQFprZleWnPHAvUDyo04oObxsyoOFs
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB536;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB536;20:PefaCh87gUkMfMaDXAso0GhMhzOlt9nBTKMCry+gxYLlIj8jFV7jw0ySVxttHrwJZrVxTv8C5fTrdFzoBR5szyBwr6p17fx7jlVFkR1EV96BYBJpYhRPd96bbY6zFZQfgowZVbrKYYV9+L4WqrNgjCni2Wllkij8dPbnEqzsxwmN4ARAcrsStw0XJZ/BYzadwrEO6S1Bb652TUdWD5hjvKFIzpyFr9xExcK9/XYbSCnOnzljyoBqJWIn9kFtffaUqP7swkYbq3pulP+D5xbhSqlyDWeIpYCvuNLgfQt/349btFxjb6wmJo3tpSm+0QTQEDEe+CbjHqM0rg8GaEWnBSqtgxPwm0EqaZaEtxvWAW+7Laqs1P9dYrQ6G28sKENMzVAF1yqzFDEHLuVghqGoaCjxpTjokx0mFR92gY4mWRI=;4:brgsgYS8Uk+XQrZ73VKzNLL5v8Bv4u5ARoElQK7MlwaqWpwwnW0H0XGjbtFOb+ljOJcJoE5hxqTs4XiOLEjjTCk4Dh+YDNBOLG9dwxqG12w7YK2qHJ6ptSX9MOmNT42EYVt9c26GSEfg2Z/wPOP5WGDCDnocuDfP5lJ002cnH2sfrQ3f+Ib1YgfDywdHvn49iQQJCwtTEKXg1jYI3B2g+4OhibLgikIV2I0nMB7w5B/+u/ccoFGlpsxxrvmIHQ327XpfLYWwS5b08vula/PRXPYofpKn7djCh4+VVJ51eZEMKVTbVhs3h6o8h8NDRKdSMb/33QF6KBDtx0sYj6kg86ctCDPggxbrp4s9iG+ho0xq2kbuv4uv+XmUVbzBmbjcflbXnFZsiOQ2RJT+uLkecOjEhz4x6EyFwJ+RQhxJQXdvOyoQggWKYvYPxkXxjQVWXYRG0+amLxfg6YWopL11Wcf6J7dygo4KuHkOEhqNYXUvGadHc5zh9GktGTNSN+OpfAuJc330vB6RqvwKdfPnTA
+X-Forefront-PRVS: 083526BF8A
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BY2PR07MB536;23:SiMkAsH2sX+Pow4y0s+liKNMLpEST1SlBKx0JkUkIY?
+ =?us-ascii?Q?mqYSDwJ99PJwsqTRRQ08ndamdlv9xGtjyBYdFjQZynhTcXVN3VRo6UDaeqzO?
+ =?us-ascii?Q?4A2kMBGQM1ezIemBkPKv4OMB+s+G7JtDbBK+KmiSScEjha7RDOSnRSjqjovF?
+ =?us-ascii?Q?lUqUXbFUtJvVN77UMMe/QktN/0SJsCBFiYNK9qCXb+rvB84e0W+RbvnuWgm3?
+ =?us-ascii?Q?cQurZ17c9SeTTidHSecqR6owrG5AElvD3JManPwqbynPSs7WTYAtLdXARDf4?
+ =?us-ascii?Q?Xf3d27yuw0FAXj0eZziTUHh52Xx8VvRX7gf+gs475Jz+nRWpYW1MQhcR0q3r?
+ =?us-ascii?Q?73fU0R4eoy+Ruhssb8aCjtMEyUe40LArq9G5WaB8VQOfJBgakfPmNFMmn+CK?
+ =?us-ascii?Q?5L6tedSn+w4KUbwI+J5tM6iDEpdNIqGNkMolyvhD2zOLp1epWB56RAGiWanc?
+ =?us-ascii?Q?Yf3akIt9m+Mtg00DNtFhtZYIySNc3qiXy7+4VorOZRPOGhK1p5qEOBGY/H9l?
+ =?us-ascii?Q?FNgHcYmnQOoOxaEB2Oecn9yjpMahO/8p7Qd0+5id3p0EhPrP0b5zYo7CGzWm?
+ =?us-ascii?Q?e+3SiOKAE3v2m2k278CGTzHO1T14E33AUzt8NFe+Qlex7d5/jGg0d3XqgGs+?
+ =?us-ascii?Q?721Z81hhW7aY1shPMrMplbV9LpIzHc3bdJw0H+bKmCSsrWwoSEzG7woOxXpV?
+ =?us-ascii?Q?fIiJsu9d1vtRdW3CPKGwI46FfmfEV/AwInV+/MGDKi5b+PGmUIU6fZHmaW2u?
+ =?us-ascii?Q?APU87qNo5fvtsbjKM+XMvPvc2rCXUXZKMC2ibEppv1r/lzdJhCfHptb8cHv7?
+ =?us-ascii?Q?uTMAdZt01494VsVQ8pKXQJDtg5QHy1K6Sr4D599oiBeUO31fTsJwQRTJS8/Y?
+ =?us-ascii?Q?MXBBq8jLtHDa+SBFe1I63OSULl6hVKBXq7Fcc51lOUIMpobHLc+MydeFIS7V?
+ =?us-ascii?Q?KINWq0HXA9LqO0GlOtGqiN4KDW/0rLHI9fGi19pzcdFP0BgFGKoQHzpipKz0?
+ =?us-ascii?Q?9mH2gfBrWOxL93uzgPITlFx3tJdSdzcYerpdj9gvIXcGqlXH884hrmp6+yAZ?
+ =?us-ascii?Q?GQ1ZuwsdNyCw+gCUIyo5F7DkWqcACgl6MyvmzmvUbFkLeBlMwuWfw1E9RogE?
+ =?us-ascii?Q?sZliOzkzIr55S/42WouxqNur+sbm5h3j75VRpxOOnjBkTVrbeQX7sHIrQLFD?
+ =?us-ascii?Q?D49Ef449xbaFj5VTukmDXojYw1xcXaE3TTk0fXAf1kKMqfRafUhCp1mRhB/H?
+ =?us-ascii?Q?Y5ooAZO52txgc1jyE9A4pZMZOIYv0pYWvqe02z0NESMlv0AQNrXiFfVE6JnG?
+ =?us-ascii?Q?0OhPXPp8s5P7gqyVIr+KN1LZoWrWYSuhPAP+CYASnsJxZudCEOjXFnmPXPA2?
+ =?us-ascii?Q?kYxW2SYpmsLxKxcbuSY9fDGmLJdi+mmo2F1IoOyw3/aSpJcvdX6vThUO3WrS?
+ =?us-ascii?Q?DGzDJSwHPxGgOVYZ4GcOUKwn8fkYx19j1R79Mnec8M6usBy7Ms4vL18giqaD?
+ =?us-ascii?Q?4PA5be2aLi8chxXG9I7dnKa9qensb80K9k+a0/F8pWt2zGdQ/p4IeemC1PQF?
+ =?us-ascii?Q?4wSETokf5Vai4UYP1RVMpbXB5KyR2ApeAJjoVmgUgXC3Um9WMPDV1DvssU2d?
+ =?us-ascii?Q?QwTOls7PMbB5ltKlzz/r0wVqgcWTvO2PwUl5BbI288sQTlTtns8dYWAnr38/?
+ =?us-ascii?Q?Z/6H9KUwcEvtIrkdIhilZxZ/6ZxZizgBRHNuJRiii2e+WTJ2JIJSYqM0m+ph?
+ =?us-ascii?Q?AH8dKrntS0GyyRCR8KQVhSIE3uS9x8Yvje5xBdxewdl5GvhEG73Qou7ZIPke?
+ =?us-ascii?Q?OkZiV/hgaXxywQwUaE2+kMuboh9oHBumh2hATlTFrQCZteoxf2zId7UOX+TX?
+ =?us-ascii?Q?BAdQj42JOzeYKS4aWEOl8envqDh30XwXQzbD+nt9LWhfz1r3HSPx1EQCEpZ3?
+ =?us-ascii?Q?yKO+mPyCTEdaCMowx75fTG2+znUGsM1fDb7bIrGtXgrcC4J6IjXuB2Y5o2dV?
+ =?us-ascii?Q?dpsqHSNvUTUBhGL/EZf0f5n04OpFQTP648ZbdUknHxtgaMzDwXaztnNuonP3?
+ =?us-ascii?Q?Sh9S0=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB536;5:/6VQ4hnJ0K34BKAE8fN4aoqqc3H3VjbBC2S7llreEy9FDsi8IN61e+vM+rpqAfGTr0HQUvSpjGdSXh5wyU8UyjS3gG2L5J2XWfkt6KmIK6wvkh2yWwQF1HbrHU7rfVXxi20tfqytBLkpMI5e7dfk4w==;24:7F5ShlGo9L8YXMqU1q3PysLN15eolSRoBVlXQj2dGSg5qaFh43FrnJ+IBKtnZSYHjF/wMwNYfG74y9YYrPrhwzltGZ1QocvRy73JkBf7Ccg
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 28 Jan 2015 20:58:09.5496
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB536
+
+Dear colleagues,
+
+As you know, this year=92s faculty retreat is being held on Tuesday, Februa
+ry 16th and Wednesday, February 17th at the Salamander Resort & Spa in Midd
+leburg, VA. Attached is our preliminary schedule of events. The retreat wil
+l kick off with lunch (and our first rocket panel) at 12 Noon on Tuesday th
+e 16th and will end with lunch (and our second rocket panel) at 12:30 PM on
+ Wednesday the 17th. Tuesday afternoon after the opening lunch there will b
+e a series of =93State of the Law Center=94 presentations, followed by a co
+cktail reception and dinner Tuesday evening. Wednesday morning after breakf
+ast there will be a ceremony to mark the appointments of Kris Henning and J
+ohn Mikhail as the inaugural Williams Research Professors. We will then hav
+e a session focused on teaching, followed by the closing lunch.
+
+Thank you all for participating in the retreat again this year. I look forw
+ard to seeing you at the Salamander.
+
+Best,
+Josh
+
+Joshua C. Teitelbaum | Professor of Law
+Georgetown University Law Center | 600 New Jersey Avenue NW | Washington, D
+C 20001
+(202) 661-6589 | user@domain.com<mailto:user@domain.com> 
+| domain.com
+

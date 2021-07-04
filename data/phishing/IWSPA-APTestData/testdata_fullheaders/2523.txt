@@ -1,0 +1,180 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.207 with SMTP id r198csp671482lfr;
+        Sun, 13 Sep 2015 11:32:30 -0700 (PDT)
+X-Received: by 10.60.124.137 with SMTP id mi9mr7818153oeb.16.1442169149978;
+        Sun, 13 Sep 2015 11:32:29 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::245])
+        by domain.com with ESMTPS id d9si1112832oeo.1.2015.09.13.11.32.29
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 13 Sep 2015 11:32:29 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4003:c01::245 as permitted sender) client-ip=2607:f8b0:4003:c01::245;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4003:c01::245 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id hk5sf138348239obb.2
+        for <user@domain.com>; Sun, 13 Sep 2015 11:32:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:date:message-id:subject:From: Lauren Peterson <lpeterson@hillaryclinton.com>
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-unsubscribe;
+        bh=K8ENN7uXlXVma+RfIy6dmwoHyhOOaY0NgwjDTPTfhGA=;
+        b=MVUfltGF81KJMX6SfTJIneLzSpEvJTuRivDUUyqcOSM8ddaVKFU22pyn+5p7dhGLql
+         5N2ObOTQXeIExE2Q32AOb4dIzMg00fh2jD3xuQwhWFexhTOOHljLYN04L9A8HbHaljbM
+         xGfLTeluvguXH535QwBYl7tXOQtLoXygA+RQ4
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:date:message-id:subject:from
+         :to:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-unsubscribe;
+        bh=K8ENN7uXlXVma+RfIy6dmwoHyhOOaY0NgwjDTPTfhGA=;
+        b=Obi2RJMIxOqZdhrSw8Hxwiaf9NH1t5z+szkcx0qpJyJerB8gAFC6kjRDc7Jzo/Z3pP
+         dJ3FcM2vaqwGqzB7ApNlRsmmMZAcOMTE+H3CMyLtKklvNZqlezksrzqH29/SXHyVD3p2
+         khlVn3sTcZqZP/JejZqsefTs3gHNqm5YwL5gtt3qPZV6LeLRZUZlev0l8iZ0r8Yt1xbi
+         012uKnCeczLJuqnMWRhLJCAGHgS+s/Sm3HvCcjAXf5qY9KYKGOMrf75v3YsIlgNk6EhX
+         UZQQruV8ANL3n9fA4OSyR83fuxRNaLx0gGVct+MuPN5GLZRNHBadCTrInl0dP50jB/J6
+         IG6w
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQkJf/CcohtZLjgIrw2Y5IKFUNN8YR9kIwI251HnL9FoPvg66v/VQ/jc/ZOKGwKLatxJYPr5
+X-Received: by 10.182.79.35 with SMTP id g3mr10111420obx.22.1442169149253;
+        Sun, 13 Sep 2015 11:32:29 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.140.20.214 with SMTP id 80ls69172qgj.64.gmail; Sun, 13 Sep
+ 2015 11:32:28 -0700 (PDT)
+X-Received: by 10.140.238.66 with SMTP id j63mr17022586qhc.19.1442169148601;
+        Sun, 13 Sep 2015 11:32:28 -0700 (PDT)
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [2607:f8b0:400d:c09::22d])
+        by domain.com with ESMTPS id i129si8931559qhc.84.2015.09.13.11.32.28
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 13 Sep 2015 11:32:28 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c09::22d as permitted sender) client-ip=2607:f8b0:400d:c09::22d;
+Received: by qkfq186 with SMTP id q186so50493082qkf.1
+        for <user@domain.com>; Sun, 13 Sep 2015 11:32:28 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.55.197.84 with SMTP id p81mr15893566qki.90.1442169148319;
+ Sun, 13 Sep 2015 11:32:28 -0700 (PDT)
+Received: by 10.55.101.197 with HTTP; Sun, 13 Sep 2015 11:32:28 -0700 (PDT)
+Date: Sun, 13 Sep 2015 14:32:28 -0400
+Message-ID: <CA+C_h80Y2-KvHdLg1kGzMWHcOt3OdSUgRRPvYtF6Q+user@domain.com>
+Subject: DRAFT: Women for Hillary IA event
+From: Lauren Peterson <lpeterson@hillaryclinton.com>
+To: Speech Drafts <user@domain.com>
+Content-Type: multipart/mixed; boundary=001a1149e9b6cb399d051fa52b50
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:400d:c09::22d as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+Hi everyone -
+
+Sending along remarks for the IA women for Hillary event tomorrow -
+essentially the New Hampshire speech she's been giving, but with an added
+section on campus sexual assault. I'm including that text in the body of
+this email as well.
+
+This reflects input from Jen Klein and Rachel Vogelstein, plus Maya and Dan
+.
+
+If possible, please send me your edits by 4:30 so we can get this in the
+book by 5.
+
+Thank you!
+
+=C2=B7     At a time when more women than ever are pursuing higher educatio
+n,
+making college affordable, helping people refinance their student debt, and
+making it easier for students with kids of their own to find childcare=E2
+=80=A6 are
+all women=E2=80=99s issues.
+
+=C2=B7     *And so is confronting the epidemic of sexual assault on college
+campuses across the country. *
+
+=C2=B7     One in five women report that they were sexually assaulted durin
+g
+college.  That=E2=80=99s one in five women enduring a horrific experience a
+nd
+managing the aftermath at a time when they should be free to learn and
+pursue their dreams.  Think of the costs: emotional, physical, financial.
+Some survivors miss class.  Others drop out.  Some never finish their
+education.
+
+=C2=B7     For too long, this issue has been ignored, trivialized, and even
+tolerated.  The stories break your heart.  One after another.  But they
+need to do more than that.  They need to stir us to action.
+
+=C2=B7     It=E2=80=99s not enough to condemn campus sexual assault.  We ha
+ve to stop
+campus sexual assault.
+
+=C2=B7     Thanks to the courage and determination of survivors and advocat
+es,
+America is waking up to this challenge.  On campuses across the country,
+they have come together to bring attention to this issue, to support each
+other, and to change laws and policies.
+
+=C2=B7     That advocacy has sparked the beginnings of good work around the
+country.  Leaders on campus =E2=80=93 including many with us today =E2=80
+=93 are striving
+to take the right steps for their students.  President Obama=E2=80=99s
+administration has worked hard to shine a light on campus sexual assault.
+I will build on the progress that=E2=80=99s been made =E2=80=93 and I will 
+work for
+solutions that go even further.
+
+=C2=B7     First: Every campus needs to make sure that every survivor =E2
+=80=93 no
+matter their gender, sexual orientation, ethnicity, or race =E2=80=93 has a
+ccess to
+the support they need.  And those services should be comprehensive,
+confidential, and coordinated.
+
+=C2=B7     Second: We need to ensure a fair process for all involved =E2=80
+=93 whether
+that=E2=80=99s in campus disciplinary proceedings or the criminal justice s
+ystem.
+Rape is a crime =E2=80=93 wherever it happens =E2=80=93 and reports need to
+ be treated with
+the seriousness they deserve.
+
+=C2=B7     And third: We need to recognize that it=E2=80=99s not enough to 
+address this
+problem by responding only once sexual assault occurs.  We need to stop
+sexual assault from happening in the first place.  We need strong
+prevention efforts to change attitudes that lead to violence.  We should be
+talking to young people about consent and bystander prevention long before
+students ever set foot on campus.
+
+=C2=B7     This issue is much bigger than a single conversation at freshman
+orientation.  It=E2=80=99s about the messages we send every day.
+
+=C2=B7     *So today I want to send a message to every survivor of sexual
+assault: Don=E2=80=99t let anyone silence your voice.  You have the right t
+o be
+heard.  You have the right to be believed. We=E2=80=99re with you.*
+
+=C2=B7     And remember, sexual assault doesn=E2=80=99t just happen on camp
+us.  It
+happens in the workplace.  It happens in the military.  For too many women,
+it happens in their own homes and communities.  We need to take on this
+problem as part of our broader commitment to end violence against women and
+girls across the country and around the world.

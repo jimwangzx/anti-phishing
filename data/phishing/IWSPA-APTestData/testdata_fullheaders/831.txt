@@ -1,0 +1,126 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp150939lfb;
+        Wed, 22 Oct 2015 16:18:02 -0700 (PDT)
+X-Received: by 10.229.40.71 with SMTP id j7mr2032770qce.21.1414019881099;
+        Wed, 22 Oct 2015 16:18:01 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.197])
+        by domain.com with ESMTPS id p5si304835qah.13.2014.10.22.16.18.00
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Wed, 22 Oct 2015 16:18:01 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.197;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.241.131] by server-5.bemta-8.domain.com id AE/A8-03664-82B38445; Wed, 22 Oct 2015 23:18:00 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-3.tower-54.domain.com!1414019879!7821711!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 30098 invoked from network); 22 Oct 2015 23:17:59 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-3.tower-54.domain.com with AES128-SHA encrypted SMTP; 22 Oct 2015 23:17:59 -0000
+Resent-From: Shaun Daniels <info@foustforvirginia.com>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Wed, 22 Oct 2015 19:17:58 -0400
+Received: from [216.82.254.83:5407] by server-2.bemta-7.domain.com id
+ 85/D6-05570-62B38445; Wed, 22 Oct 2015 23:17:58 +0000
+X-Env-Sender: AQZVVmpcUgZVUgMCBQMEAFsIAwQHPhVcBlxBF1d0WQUSS1FQDBYBURFcR1s
+  user@domain.com
+X-Msg-Ref: server-16.tower-197.domain.com!1414019875!2304786!1
+X-Originating-IP: [66.151.230.134]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNjYuMTUxLjIzMC4xMzQgPT4gMjgxNDE=\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 26564 invoked from network); 22 Oct 2015 23:17:56 -0000
+Received: from mta-dock-front-11.domain.com (HELO
+ mta-dock-front-11.domain.com) (66.151.230.134)  by
+ server-16.tower-197.domain.com with SMTP; 22 Oct 2015 23:17:56 -0000
+Received: from domain.com (unknown [10.0.200.177])	by
+ mta-dock-front-11.domain.com (Postfix) with ESMTP id
+ 3jNSKv5PKTz1gwZk	for <user@domain.com>; Wed, 22 Oct 2015 23:17:55
+ +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1414019875;
+	bh=NLFx1bIhidjDOxf4rzFm0uxiJ5X7E1HRXOXbZ5KX9so=;
+	h=Date:To:From: Shaun Daniels <info@foustforvirginia.com>
+	b=Ek2sfKIQqP7PfI+GGIC2MBlsA2VmbHsIjeuKs5Xw+kt/CBXNhh3vbJwSdHRGvqQbm
+	 e4440nt3r1qlNV7V83SGSr5LIDUwJpF8bCIg1tWl7H4vlejztzTr7DXIDT1DEAe9Jo
+	 ax0joNt0ORgBEv/HOT1/QjAzcb2WoKAWuPbzl+eQ
+Received: from build 	by domain.com with local (PHPMailer);
+	Wed, 22 Oct 2015 23:17:55 +0000
+Date: Wed, 22 Oct 2015 23:17:55 +0000
+To: John user <user@domain.com>
+From: Shaun Daniels <info@foustforvirginia.com>
+Reply-To: <user@domain.com>
+Subject: =?utf-8?Q?=E2=9A=A0_ALERT:_TRIPLE_MATCH?
+Message-ID: <723user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 8420a374f7a81363
+X-rpcampaign: rp_180102
+X-maillist-guid: AQZVVmpcUgZVUgMCBQMEAFsIAwQHPhVcBlxBF1d0WQUSS1FQDBYBURFcR1sfAFcUagoIBgYH
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_723af4788c3f0d5ab521d21bcded69e4"
+
+Since we told you Barbara Comstock outraised us, online donations are 
+SURGING for John.
+
+Now, we must seize the opportunity to stop Comstock dead in her tracks for 
+good.
+
+All gifts are TRIPLE MATCHED, but only through midnight.
+
+<<link>>
+4.10.22_b2_sd_ldnd&amp;recur_weekly=3Dtrue&amp;amount=3D25&amp;amounts=3D1
+5,25,50,100,250,500,1000&amp;user@domain.com&amp;firstn
+ame=3DJohn&amp;lastname=3Duser&amp;city=3DWashington&amp;state=3DDC&amp
+;zip=3D20016&amp;phone=3D2162818851&amp;occupation=3D&amp;employer=3D
+
+--------- Original Email ----------
+
+WASHINGTON POST: Barbara Comstock outraises John Foust in third quarter
+
+There's no "tomorrow" any more.
+
+The election is only 13 days out and we're dangerously behind our goal.
+
+If we don't raise $10,000 by midnight. We'll be in deep trouble.
+
+We promised ourselves we wouldn't let Boehner buy another election. We 
+promised we'd have the grassroots power to fight back. We don't want to 
+see this election end this way.
+
+Please - Can you chip in to our Rapid Response fund today?
+
+John user
+Suggested Support:
+ ## PENDING ##
+
+<<link>>
+4.10.22_b2_sd_ldnd&amp;recur_weekly=3Dtrue&amp;amount=3D25&amp;amounts=3D1
+5,25,50,100,250,500,1000&amp;user@domain.com&amp;firstn
+ame=3DJohn&amp;lastname=3Duser&amp;city=3DWashington&amp;state=3DDC&amp
+;zip=3D20016&amp;phone=3D2162818851&amp;occupation=3D&amp;employer=3D
+
+Thank you,
+
+Foust for Congress
+
+This message was emailed to: user@domain.com
+
+To unsubscribe from this email list, please paste this URL into your 
+browser:
+<<link>>
+
+Paid for by John Foust for Congress
+

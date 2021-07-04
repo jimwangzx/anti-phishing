@@ -1,0 +1,75 @@
+Delivered-To: user@domain.com
+Received: by 10.25.215.208 with SMTP id q77csp1567031lfi;
+        Tue, 20 Jan 2015 19:11:20 -0800 (PST)
+X-Received: by 10.140.94.195 with SMTP id g61mr43747001qge.80.1421809879393;
+        Tue, 20 Jan 2015 19:11:19 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.92])
+        by domain.com with ESMTPS id 47si24891945qgc.68.2015.01.20.19.11.18
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 20 Jan 2015 19:11:19 -0800 (PST)
+Received-SPF: neutral (domain.com: 65.55.169.92 is neither permitted nor denied by domain of user@domain.com) client-ip=65.55.169.92;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 65.55.169.92 is neither permitted nor denied by domain of user@domain.com) user@domain.com
+Received: from domain.com (25.160.63.155) by
+ domain.com (25.160.125.25) with Microsoft SMTP
+ Server (TLS) id 15.1.59.20; Wed, 21 Jan 2015 03:11:17 +0000
+Received: from domain.com ([25.160.63.155]) by
+ domain.com ([25.160.63.155]) with mapi id
+ 15.01.0059.007; Wed, 21 Jan 2015 03:11:17 +0000
+From: Nick Merrill <nmerrill@hrcoffice.com>
+To: "User" <user@domain.com>
+CC: Robby Mook <user@domain.com>, John Anzalone <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>, Huma Abedin <user@domain.com>, 
+ =?windows-1252?Q?Dan=0D=0A_Schwerin?= <user@domain.com>, 
+ Joel Benenson <user@domain.com>, 
+ "John user" <user@domain.com>, 
+ Philippe Reines <user@domain.com>, 
+ "Cheryl Mills" <user@domain.com>
+Subject: Re: SOTU Tweets
+Thread-Topic: SOTU Tweets
+Thread-Index: AQHQNSbhhY5k11ss4EyBSSoNiI8xypzJ5D0AgAABTKk
+Date: Wed, 21 Jan 2015 03:11:16 +0000
+Message-ID: <user@domain.com>
+References: <D0DBFD63.B0285%user@domain.com>
+ <D0DBFF7D.B02B0%user@domain.com>
+ <D0DED7F7.B82C0%user@domain.com>
+ <D0DEE574.B8393%user@domain.com>
+ <D0E2E2FA.B8878%user@domain.com>
+ <6010966user@domain.com>
+ <user@domain.com>
+ <user@domain.com>
+ <CAB5o6bZ3YAc+WLjK-GfqyXbOUFjxUUAfe8H+5user@domain.com>
+ <D0E2F15F.E7CB%user@domain.com> <D0E2F1FF.B889C%user@domain.com>
+ <0user@domain.com>,<D0E481DD.E969%user@domain.com>
+In-Reply-To: <D0E481DD.E969%user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [74.71.225.215]
+authentication-results: spf=none (sender IP is )
+ user@domain.com; 
+x-dmarcaction-test: None
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(3005004);SRVR:BY2PR0301MB0615;
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:;SRVR:BY2PR0301MB0615;
+x-forefront-prvs: 04631F8F77
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(199003)(24454002)(189002)(479174004)(377454003)(377424004)(53754006)(69234005)(68736005)(102836002)(36756003)(2900100001)(101416001)(2950100001)(15975445007)(122556002)(18206015028)(40100003)(62966003)(19617315012)(19580405001)(33656002)(93886004)(50986999)(77156002)(19580395003)(66066001)(64706001)(105586002)(110136001)(106356001)(106116001)(221733001)(87936001)(2656002)(76176999)(86362001)(92566002)(99286002)(54356999)(83716003)(46102003)(16236675004)(82746002)(97736003)(104396002);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR0301MB0615;H:domain.com;FPR:;SPF:None;MLV:sfv;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+received-spf: None (domain.com: hrcoffice.com does not designate
+ permitted sender hosts)
+Content-Type: multipart/alternative;
+	boundary="_000_DAB76C424B7C48A08D912531E46B91BChrcofficecom_"
+MIME-Version: 1.0
+X-OriginatorOrg: hrcoffice.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 21 Jan 2015 03:11:16.9445
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: cd8891aa-8599-4062-9818-7b7cb05e1dad
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR0301MB0615
+
+Great.  #3 with a small lead.
+
+Going once...
+
+On Jan 20, 2015, at 10:06 PM, Margolis, Jim <user@domain.com<mailto:J

@@ -1,0 +1,104 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Thu, 7 Nov 2015 17:01:58 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rA811wId015153	for <user@domain.com>; Fri, 8 Nov 2015 
+ 01:01:58 GMT
+Received: from mail186-co9-domain.com (mail-domain.com
+ [207.46.163.16])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rA811XH1010051
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Fri, 8 Nov 2015 01:01:35 GMT
+Received: from mail186-co9 (localhost [127.0.0.1])	by
+ mail186-co9-domain.com (Postfix) with ESMTP id A4DAA2C0177	for
+ <user@domain.com>; Fri,  8 Nov 2015 01:01:32 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:205.201.130.139;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 7
+X-BigFish: vps7(z3e12hzc89bhec9I758Ic857h77f5hzz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1de098h17326ah1def87h8275bh1bc7b9h8275dh1def03h1def86h18c673h19a27bh1de097h1de096h186068h1def83h17d8e0i1ce121i1b1498iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h1d9ci1d91m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail186-co9: domain of domain.com designates 205.201.130.139 as permitted sender) client-ip=205.201.130.139; user@domain.com; helo=domain.com ;02.domain.com ;
+Received: from mail186-co9 (localhost.localdomain [127.0.0.1]) by mail186-co9
+ (MessageSwitch) id 1383872490519474_3661; Fri,  8 Nov 2015 01:01:30 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.241])	by
+ mail186-domain.com (Postfix) with ESMTP id 7AFFD5C0076	for
+ <user@domain.com>; Fri,  8 Nov 2015 01:01:30 +0000 (UTC)
+Received: from domain.com (205.201.130.139) by
+ domain.com (10.236.130.33) with Microsoft SMTP Server id
+ 14.16.227.3; Fri, 8 Nov 2015 01:01:30 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?TheWrap=20Screenings?= <rsvp@thewrap.com>
+ bh=S5ULNajFX+9EIkbCFeHSIm7v05k=;
+ b=Ngbdb3KwMhtikxN11t8qcNWuj3L0qTNd6tzfwtOt69CZQKhA7KGgghUqOXX3zYUMz4Sl6fVXE5h7
+   yua2EYLhi0muEDSHFwVlNebwQGjPlBGCsrUOMxi3yPLI90XRG+JcStAIW9UFWbRE4MnIW/Bqtep6
+   PPPu3xsyLzjHfDTf8ps
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=g63ZnDFUTZV0FpOMMAFuCGCVlNojox2pbdV+557+WnYU27R5JQtL2+TyGSwE8/1/wkndka7L512Q
+   KbLOHNXs8ArFei/pqVfQgbSdxEkWp3NovypJ+cF/2qUmrorBdfixcMMB1ZYyxYB7ZTiKYA5kuQpQ
+   njeJis9stZTyWCxHejo=;
+Received: from (127.0.0.1) by domain.com id hfgruk1jvmgk for
+ <user@domain.com>; Fri, 8 Nov 2015 01:01:19 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?Join=20Us=20for=20=2712=20Years=20a=20Slave=27=20followed=20by=20a=20Q&A=20with=20Director=20Steve=20McQueen=20and=20Actors=20Chiwetel=20Ejiofor=20and=20Lupita=20Nyong=27o?
+From: =?utf-8?Q?TheWrap=20Screenings?= <rsvp@thewrap.com>
+Reply-To: =?utf-8?Q?TheWrap=20Screenings?= <user@domain.com>
+To: =?utf-8?Q?Amy?= <user@domain.com>
+Date: Fri, 8 Nov 2015 01:01:19 +0000
+Message-ID: <4300user@domain.com>
+X-Mailer: MailChimp Mailer - **CID6ea3215b601ed11e912a**
+X-Campaign: mailchimp4300eb945fab9dc8942c198f9.6ea3215b60
+X-campaignid: mailchimp4300eb945fab9dc8942c198f9.6ea3215b60
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 4300eb945fab9dc8942c198f9
+x-accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: TheWrap Screenings <user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Join Us for '12 Years a Slave' followed by a Q&A with Director Steve McQueen and Actors Chiwetel Ejiofor and Lupita Nyong'o
+
+<<link>>
+Advertisement
+
+TheWrap TheWrap Screening Series        2013/2014
+*All screenings
+are first-come,
+first-serve seating
+
+You and a guest are invited to
+TheWrap's Award Season Screening Series Presentation of
+
+ <<link>>
+
+
+
+
+TWELVE YEARS A SLAVE is based on an incredible true story of one man's fight for survival and freedom.  In the pre-Civil War United States, Solomon Northup (Chiwetel Ejiofor), a free black man from upstate New York, is abducted and sold into slavery.  Facing cruelty (personified by a malevolent slave owner, portrayed by Michael Fassbender), as well as unexpected kindnesses, Solomon struggles not only to stay alive, but to retain his dignity.  In the twelfth year of his unforgettable odyssey, Solomon’s chance meeting with a Canadian abolitionist (Brad Pitt) will forever alter his life.
+
+FOLLOWED BY A CONVERSATION WITH:
+
+      <<link>>
+
+Chiwetel Ejiofor, Actor (left)
+Lupita Nyong'o, Actress (center)
+Steve McQueen, Director (right)
+
+
+
+Tuesday November 12th at 7:30PM
+
+The Landmark
+
+10850 W. Pico Blvd
+Los Angeles, CA 90064
+
+ <<link>>
+
+View the complete listing of upcoming screenings in the Awards & Foreign Screen Series.
+

@@ -1,0 +1,63 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp6869lfi;
+        Thu, 28 May 2015 21:40:13 -0700 (PDT)
+X-Received: by 10.70.90.162 with SMTP id bx2mr11680496pdb.60.1432874413164;
+        Thu, 28 May 2015 21:40:13 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-pa0-domain.com (mail-pa0-domain.com. [2607:f8b0:400e:c03::22e])
+        by domain.com with ESMTPS id xz3si6529314pab.181.2015.05.28.21.40.12
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 28 May 2015 21:40:13 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c03::22e as permitted sender) client-ip=2607:f8b0:400e:c03::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c03::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-pa0-domain.com with SMTP id wv17so40170658pac.2
+        for <user@domain.com>; Thu, 28 May 2015 21:40:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:From: Aisha Wahab <wahab.aisha@gmail.com>
+        bh=AoB9ikAAP4WvHOx6nB7a7mQwH3LJg/yDa9mT/drqu4I=;
+        b=DskGHn/R/xBmBqHLeqzPBAxCQewA5K2RSeQWwF2b2oLJcnJh2GWc2oeTvMMN8BVEnn
+         /bhlhJixQeLQbUGF1nq05qwsWHSe3mKr6KNHdU4g2v37GVr/JSPn+WcR78NDFWarWkyE
+         PBv8Xry2kZoTbqzF9zHKEEEJDcRI91Qb0ueNMjiHOSSsd6SwBRPfuSdEuwsgH3jUkX9l
+         dhfVTtFUhaC6kLIg+MPjn9uScmugRUl5Fe+3a2JOVZ4vRDYtL1npUfuuyXYBJ4O2BQwt
+         /l/13MWtFHJ1fvAZWR8I6fcRRK4Y9Zm6rs7LM/dV8DA9gNS5QnG+5NpxU3oRlNnier4k
+         YR+g
+X-Received: by 10.68.197.39 with SMTP id ir7mr11454580pbc.87.1432874411957;
+ Thu, 28 May 2015 21:40:11 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.70.51.131 with HTTP; Thu, 28 May 2015 21:39:51 -0700 (PDT)
+From: Aisha Wahab <wahab.aisha@gmail.com>
+Date: Thu, 28 May 2015 21:39:51 -0700
+Message-ID: <user@domain.com>
+Subject: Commonwealth SF - June 5, 2015 - 12PM
+To: undisclosed-recipients:
+Content-Type: multipart/alternative; boundary=e89a8ff1c0b455247a05173112ea
+BCC: user@domain.com
+
+Hi,
+
+I wanted to know if you would like to be my guest at the Commonwealth of
+San Francisco's event Women Seeking Success and Reforms, which I will be
+one of the presenters/panelists. This event will mostly focus on women in
+the Middle East (not that Afghanistan is considered the Middle East).
+
+It will be at noon on Friday, June 5th at 555 Post St. San Francisco, CA.
+Link:
+<<link>>
+
+I would love to have you as my guest and can arrange for your name to be on
+the list.
+
+Please let me know if you would like to be there.
+
+Aisha Wahab, MBA
+user@domain.com
+Facebook <<<link>>>, LinkedIN
+<<<link>>>, Twitter
+<<<link>>>
+Little Kabul Stories <<<link>>>-Director
+Afghan Coalition <<<link>>>-Board Member

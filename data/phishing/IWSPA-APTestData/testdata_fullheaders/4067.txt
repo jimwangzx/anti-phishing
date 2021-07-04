@@ -1,0 +1,91 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 99C1F536E7A
+	for <user@domain.com>; Wed,  5 Oct 2015 11:42:14 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 064856FA452
+	for <user@domain.com>; Wed,  5 Oct 2015 11:42:08 -0400 (EDT)
+Received: from localhost (adsl-67-37-23-81.domain.com [67.37.23.81])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Wed,  5 Oct 2015 11:42:08 -0400 (EDT)
+Received: by localhost (Postfix, from userid 1029)
+	id 10826779097; Wed,  5 Oct 2015 02:55:39 -0400 (EDT)
+To: user@domain.com
+Subject: Notification of Limited Account Access (Routing Code: C840-L001-Q190-T1812)
+From: PayPal <service@paypal.com>
+Content-Type: text/html
+Message-Id: <20051005065539.10826779097@localhost>
+Date: Wed,  5 Oct 2015 02:55:39 -0400 (EDT)
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **********
+X-Spam-Status: Yes, score=10.9 required=5.0 tests=HTML_MESSAGE,
+	HTML_TAG_EXIST_TBODY,HTML_TITLE_EMPTY,MIME_HEADER_CTYPE_ONLY,
+	MIME_HTML_ONLY,RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,
+	RCVD_IN_BL_SPAMCOP_NET,RCVD_IN_DSBL,RCVD_IN_NJABL_PROXY,
+	RCVD_IN_SORBS_HTTP,RCVD_IN_SORBS_MISC,RCVD_IN_SORBS_WEB,RCVD_IN_XBL 
+	autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 HTML_TAG_EXIST_TBODY BODY: HTML has "tbody" tag
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.0 HTML_TITLE_EMPTY BODY: HTML title contains no text
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (<>)
+	*  0.0 RCVD_IN_SORBS_HTTP RBL: SORBS: sender is open HTTP proxy server
+	*      [67.37.23.81 listed in domain.com]
+	*  0.4 RCVD_IN_NJABL_PROXY RBL: NJABL: sender is an open proxy
+	*      [67.37.23.81 listed in domain.com]
+	*  0.3 RCVD_IN_SORBS_MISC RBL: SORBS: sender is open proxy server
+	*      [67.37.23.81 listed in domain.com]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [67.37.23.81 listed in sbl-domain.com]
+	*  0.0 RCVD_IN_SORBS_WEB RBL: SORBS: sender is a abuseable web server
+	*      [67.37.23.81 listed in domain.com]
+	*  3.8 RCVD_IN_DSBL RBL: Received via a relay in domain.com
+	*      [<<>>]
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+Content-Length: 7210
+Lines: 168
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 311
+
+Dear eBay 
+  User, 
+
+  You have received this email because we have strong reasons to believe that 
+  your eBay account had been recently compromised. In order to prevent any 
+  fraudulent activity from occurring we are required to open an investigation 
+  into this matter. 
+
+  Per the User Agreement, Section 9, we may immediately issue a warning, 
+  temporarily suspend, indefinitely suspend or terminate your membership and 
+  refuse to provide our services to you if we believe that your actions may 
+  cause financial loss or legal liability for you, our users or us. We may also 
+  take these actions if we are unable to verify or authenticate any information 
+  you 
+
+  provide to us. 
+
+  If your account information's are not updated within the next 72 hours, then 
+  we will assume this account is fraudulent and will be suspended. We apologize 
+  for this inconvenience, but the purpose of this verification is to ensure that 
+  your eBay account has not been fraudulently used and to combat fraud. 
+
+  Please login into your account at this link, which is a SSL secured 
+  connection: 
+
+<>
+
+  Regards, 
+
+  Safeharbor Department 
+
+  eBay, Inc.

@@ -1,0 +1,73 @@
+Received: from domain.com (43.130.141.76) by
+ domain.com (146.215.231.43) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Thu, 20 Nov 2015 15:31:17 -0500
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 20 Nov 2015 12:31:15 -0800
+Received: from domain.com (domain.com
+ [160.33.194.231])	by domain.com
+ (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with ESMTP id sAKKVFjB011989	for
+ <user@domain.com>; Thu, 20 Nov 2015 20:31:15 GMT
+Received: from na01-bl2-domain.com
+ (mail-domain.com [207.46.163.207])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sAKKVECc023905	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 20 Nov 2015 20:31:14 GMT
+Received: from BY2FFO11FD042.protection.gbl (10.1.14.32) by
+ BY2FFO11HUB031.protection.gbl (10.1.14.116) with Microsoft SMTP Server (TLS)
+ id 15.1.6.13; Thu, 20 Nov 2015 20:31:12 +0000
+Received: from domain.com (208.95.135.225) by
+ domain.com (10.1.14.227) with Microsoft SMTP
+ Server id 15.1.6.13 via Frontend Transport; Thu, 20 Nov 2015 20:31:12 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=spop; d=email.troplv.com;
+ h=Date:From: Alex and Arda Yemenidjian <guestservice@email.troplv.com>
+ bh=ACiJMlpxFhAlY1DHXDat+oadeeQ=;
+ b=eMXHzaZIMs0AicgGEkiZ9D8fZm1yiMwLcjGxeDyuAxT6SStOZVOR5f7z5OiNSTddnOeb56o5sd27
+   7SDc64svwQ
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=spop; d=email.troplv.com;
+ b=izEZjpv432QTLEJCCZVaUYmnHcRWSEGDAQoS7p9ahL393zB0p2b4foLF1cWnfgXT5aa97672T6+B
+   /Co7d2ilsg==;
+Received: by domain.com id hdp7p019if4a for
+ <user@domain.com>; Thu, 20 Nov 2015 20:31:10 +0000 (envelope-from
+ <user@domain.com>)
+Date: Thu, 20 Nov 2015 20:31:10 +0000
+From: Alex and Arda Yemenidjian <guestservice@email.troplv.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <1955685233.1020520461416515470271.user@domain.com>
+Subject: Amy, You & a Guest Are Invited to Experience Our Newest Shows
+x-mid: 9975825
+x-job: 9975825
+x-rpcampaign: sp9975825
+x-orgId: 16606
+List-Unsubscribe: <mailto:user@domain.com?subject=Unsubscribe>
+X-EOPAttributedMessage: 0
+Received-SPF: Pass (domain.com: domain of
+ domain.com designates 208.95.135.225 as permitted
+ sender) receiver=domain.com; client-ip=208.95.135.225;
+ helo=domain.com;
+Authentication-Results: spf=pass (sender IP is 208.95.135.225)
+ user@domain.com; 
+X-Forefront-Antispam-Report: CIP:208.95.135.225;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(6039001)(438002)(42174003)(189002)(199003)(501564002)(27664004)(25584003)(86372001)(43066003)(86816001)(87836001)(50986999)(92726001)(19580405001)(146001)(55176004)(575784001)(47976999)(19618635001)(54356999)(307094003)(102836001)(84326002)(104766002)(15187005004)(53806999)(71186001)(106466001)(15975445006)(512874002)(21056001)(15202345003)(2361001)(4396001)(20776003)(110136001)(64706001)(120916001)(180100001)(99396003)(107046002)(18206015028)(450100001)(64544003)(77096003)(229853001)(870100002)(2351001)(107886001)(19617315012)(106906001)(956001)(53586001)(77156002)(62966003)(946001)(42186005)(980100001)(46102003)(104016003)(44976005)(110486001)(19580395003)(7059030)(85226002);DIR:INB;SFP:;SCL:1;SRVR:BY2FFO11HUB031;H:domain.com;FPR:;MLV:ovrnspm;PTR:domain.com;MX:1;A:1;LANG:en;
+X-Microsoft-Antispam: UriScan:;
+X-Microsoft-Antispam: BCL:6;PCL:0;RULEID:(83001);SRVR:BY2FFO11HUB031;
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:6;PCL:0;RULEID:;SRVR:BY2FFO11HUB031;
+X-Exchange-Antispam-Report-CFA-Test: BCL:6;PCL:0;RULEID:;SRVR:BY2FFO11HUB031;
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+         The New Tropicana Las Vegas - Experience Our New Shows          
+.ExternalClass {
+	width: 100% !important;
+}
+a:hover {
+	cursor: pointer !important;
+	text-decoration: underline !important;
+}
+          This message contains graphics.  If you do not see the graphics, click here to view.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               It is our pleasure to invite you and a guest to attend                                                          our newest shows, “Raiding the Rock Vault” and “The New Illusions,”                                                           at The New Tropicana Las Vegas.                                                           “Raiding the Rock Vault” will allow you to relive your memories of rock ‘n’ roll performed by the  musicians who lived it from bands such as Whitesnake, Bon Jovi, Heart and more.  It has been the No. 1 Performance on TripAdvisor for the past year and is  now playing in the Tropicana Theater.                                                           “The New Illusions” will take you on a journey into the imagination of master illusionist Jan Rouven.  It features some of the largest, never-before-seen illusions as well as other dangerous and thrilling acts, and was named 2015 Best Magic Show by the Las Vegas Review-Journal.  “The New Illusions” opens in the Tropicana Theater Nov. 28.                                                            For reservations, please contact Margarita Carmona at user@domain.com or call 702.739.3559.                                                           Best regards,                                                          Alex and Arda Yemenidjian                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           3801 Las Vegas Boulevard South, Las Vegas, NV 89109 | 1-800-GO2-TROP | 702-739-2222                                                Privacy Policy | Responsible Gaming                                                                                            Valid only for "Raiding the Rock Vault" and "The New Illusions." Cannot be redeemed for any other show. Invitation is nontransferable and has no cash value. Must be redeemed at the Show Tickets desk at least one hour prior to show time. Cannot be duplicated. Invitation does not constitute a reservation nor guarantee admittance. Must be 5 years of age or older to attend "Raiding the Rock Vault." Subject to availability. Blackout dates apply. Tropicana Las Vegas reserves the right in its sole discretion to change any or all of the provisions of this voucher at any time without notice and to refuse admission and/or to remove persons from the venue for any reason. This is a post-only mailing. For questions or comments, please send an email                                             to user@domain.com Please do not reply to this email. To unsubscribe, click here.                                                                                                                                                                                                                                                                   

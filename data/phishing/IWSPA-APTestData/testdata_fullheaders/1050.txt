@@ -1,0 +1,88 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 8 Apr 2015 07:18:36 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s38EIZQ8008889	for <user@domain.com>; Tue, 8 Apr 2015 
+ 14:18:36 GMT
+Received: from mail77-am1-domain.com (mail-domain.com
+ [213.199.154.199] (may be forged))	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s38EJumB012577
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 8 Apr 2015 14:19:57 GMT
+Received: from mail77-am1 (localhost [127.0.0.1])	by mail77-am1-domain.com
+ (Postfix) with ESMTP id B70D22404E8	for <user@domain.com>; Tue,  8
+ Apr 2015 14:18:11 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:8.21.238.144;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 17
+X-BigFish: vps17(zzc89bh1b0aLd79ahc857h17a6rzz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz17326ah8275bh1bc7b9h1de097h186068h1b778fh1ce120h1bc581m10cf5kz2fh5fh839h8e2h8e3hd24he5bhe83h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h2336h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3hbe9i9a9j1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail77-am1: domain of domain.com designates 8.21.238.144 as permitted sender) client-ip=8.21.238.144; user@domain.com; helo=domain.com ;0.domain.com ;
+Received: from mail77-am1 (localhost.localdomain [127.0.0.1]) by mail77-am1
+ (MessageSwitch) id 1396966688625431_16134; Tue,  8 Apr 2015 14:18:08 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.237])	by
+ mail77-domain.com (Postfix) with ESMTP id 7FC93380140	for
+ <user@domain.com>; Tue,  8 Apr 2015 14:18:08 +0000 (UTC)
+Received: from domain.com (8.21.238.144) by
+ domain.com (10.3.207.112) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 8 Apr 2015 14:18:01 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1396966695;
+	h=Sender:From: Perry Thurston <perry@thurstonforflorida.com>
+	Content-Type;
+	bh=xHN4QcVM6FM8S8YEuLzB3PZeuKY=;
+	b=DUFcttmy3cR0s9b0DR64BaJBHKELzMkMEtrm68KD1gcDttI3JOKrudHaH0rrt5Cm
+	RO7TcrsICkooPu7e6rShBGU4z1KcutwiolURLvfJf/s4QGqg3cQhJ3kOyuJ1UXyC
+	+myYYorUkrXA4nPyThonXwyfSxWNfgwTo1SoAypETUM=;
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AbWFpbG91dDI3MEBkZWZhdWx0Z3JvdXAw
+	MkBib3VuY2VfMjIwMDAwMDAwMzg4MzY5NF9wb2Qy
+Received: from [10.0.1.171] ([10.0.1.171:59387] helo=OBPROD12)	by nvmta04
+ (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.1.37854 r(Momo-dev:3.5.1.0)) with ESMTP	id 36/7B-24191-72504435; Tue, 08
+ Apr 2015 10:18:15 -0400
+Sender: =?UTF-8?B?UGVycnkgVGh1cnN0b24=?= <user@domain.com>
+X-Binding: default
+Reply-To: <user@domain.com>
+From: Perry Thurston <perry@thurstonforflorida.com>
+To: <user@domain.com>
+Message-ID: <user@domain.com>
+Date: Tue, 8 Apr 2015 10:18:15 -0400
+Subject: Six lives a day
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Six lives a day
+
+ <<link>>
+
+Dear Friend,
+
+If you knew you could save six lives today, would you do it?
+
+That’s the choice we have in Tallahassee this legislative session. Expanding Medicaid in Florida will, according to Harvard study, save 1100 lives a year – six every single day. But Rick Scott, Pam Bondi, and Republicans in Tallahassee are once again putting their radical ideology ahead of middle-class Floridians. Last week, I started a petition demanding the legislature expand Medicaid to the 1.2 million hard working Floridians that need it. Will you lend your voice?
+
+Sign the petition: Save six lives a day, expand Medicaid!
+
+It is unconscionable that people still die in our state because they cannot afford healthcare. Last month, I learned the story of Charlene Dill, a single mother who worked three jobs but died because she could not afford her heart medication. It is a story that should not happen in Florida but if Rick Scott and the Republican legislature get their way, it will keep happening.
+
+The legislative session is only half over. We still have time to make sure that Floridians that need it have healthcare and we do not lose six mothers, fathers, daughters, or sons every day. We need to tell Tallahassee that people should come before scoring points with the far right. But I need your voice. Together, we can make Tallahassee hear us.
+
+Sign the petition, tell Tallahassee: Save six lives a day, expand Medicaid NOW!
+
+Thanks for all you do,
+
+Perry
+
+Copyright (C) 2015 Perry Thurston for Attorney General All rights reserved.
+
+
+
+
+Political Advertisement paid for and approved by Perry E. Thurston, Jr, Democrat for Attorney General   
+
+Perry Thurston for A
+

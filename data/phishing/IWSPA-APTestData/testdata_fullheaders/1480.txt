@@ -1,0 +1,214 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp77836lfr;
+        Fri, 24 Jul 2015 09:05:30 -0700 (PDT)
+X-Received: by 10.180.83.137 with SMTP id q9mr9093536wiy.68.1437753930300;
+        Fri, 24 Jul 2015 09:05:30 -0700 (PDT)
+Return-Path: <hrcrapid+user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::246])
+        by domain.com with ESMTPS id sc17si10547446wjb.23.2015.07.24.09.05.30
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 24 Jul 2015 09:05:30 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of hrcrapid+user@domain.com designates 2a00:1450:400c:c05::246 as permitted sender) client-ip=2a00:1450:400c:c05::246;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of hrcrapid+user@domain.com designates 2a00:1450:400c:c05::246 as permitted sender) smtp.mail=hrcrapid+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id mv11sf25772wic.1
+        for <user@domain.com>; Fri, 24 Jul 2015 09:05:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:date:message-id:subject:From: Brooke Goren <bgoren@hillaryclinton.com>
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-subscribe:list-unsubscribe;
+        bh=fU3yn0Dbi+75EAeOnDPL2QKXHR9tzjCNxLoIVu8ZaSA=;
+        b=TkRcAmDmFI/mRyISvKXQmLZGD+sDxCt3nCq5/H3CSN5K2zL2BUKgajl5iO+HTeMWKO
+         u3FRpGU+C32FpsMJIKbjUGTgmV+OTyhB2JTcS0FQkDGgJTKYdz69SxQEDnHfxGNm+d3z
+         nKe7lU3u1KINvVAMq/CK5T2WPK7IH4T8rHnh0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:date:message-id:subject:from
+         :to:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-subscribe:list-unsubscribe;
+        bh=fU3yn0Dbi+75EAeOnDPL2QKXHR9tzjCNxLoIVu8ZaSA=;
+        b=SmZ5UgrFN8eX11bJQ6t2Vx+57yj42ikB0Ee0WBUsR3WY1dpP2EmiXq7aoZjbMh6Y8m
+         Ag0d05A/Q/PyEwn0k+0meKRl36MwaArHiGP5vbE1JMFG1b0uUkGF2Jra+NJkLzB86pQF
+         Me489ml2TWR/E/WJ/sY88JJVQZyrqI1T7itSkHlsjzgoxDv/nGLRXbGhcSYqfIGCvhKM
+         0IXWY5zt150gsfq0SvwQoss5xtg8Xx950+fGxRNa3zToK9ulpYi6brz42by5m6y3OZvN
+         ziNjTS5VOXWIqiPgQci+2S7nHm94URU0NxN873khwQdo2+DKvRA8BqmQdW9Xn7mkylS0
+         lUmA
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQlh8pzl20AslOU+3AtljhYEcF/N4fj70iEiRf2CJD8gn1EFSCZXI/3BTVvPPcGV1ba9WbGB
+X-Received: by 10.112.26.5 with SMTP id h5mr6571325lbg.4.1437753930001;
+        Fri, 24 Jul 2015 09:05:30 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.180.84.66 with SMTP id w2ls183005wiy.47.canary; Fri, 24 Jul
+ 2015 09:05:29 -0700 (PDT)
+X-Received: by 10.180.218.195 with SMTP id pi3mr8395502wic.71.1437753929266;
+        Fri, 24 Jul 2015 09:05:29 -0700 (PDT)
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::229])
+        by domain.com with ESMTPS id mp10si8085515wjc.74.2015.07.24.09.05.29
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 24 Jul 2015 09:05:29 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::229 as permitted sender) client-ip=2a00:1450:400c:c05::229;
+Received: by wicmv11 with SMTP id mv11so70519493wic.0
+        for <user@domain.com>; Fri, 24 Jul 2015 09:05:29 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.180.74.162 with SMTP id u2mr8988704wiv.0.1437753929032; Fri,
+ 24 Jul 2015 09:05:29 -0700 (PDT)
+Received: by 10.27.87.1 with HTTP; Fri, 24 Jul 2015 09:05:28 -0700 (PDT)
+Date: Fri, 24 Jul 2015 12:05:28 -0400
+Message-ID: <CAC=7SKWdNkkBMYYRET3k8ZRNia_4ATObu+1user@domain.com>
+Subject: July 23 Evening Cable News
+From: Brooke Goren <bgoren@hillaryclinton.com>
+To: HRC Rapid <user@domain.com>, 
+ Julie McClain <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Meredith Thatcher <user@domain.com>
+Content-Type: multipart/alternative; boundary=f46d043c07a23701ad051ba12c06
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2a00:1450:400c:c05::229 as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact HRCRapid+user@domain.com
+List-ID: <HRCRapid.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 301712100758
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:HRCRapid+user@domain.com>
+List-Archive: <<<link>>>
+List-Subscribe: <<<link>>>,
+ <mailto:HRCRapid+user@domain.com>
+List-Unsubscribe: <mailto:googlegroups-manage+301712100758+user@domain.com>,
+ <<<link>>>
+
+*National*
+
+-- Coverage of WJC and G.W. Bush=E2=80=99s friendship and joint interview w
+ith TIME
+Magazine about how they will handle the 2015 election which may likely pit
+HRC against Jeb Bush. Says WJC said he tries not to talk about the race
+unless he=E2=80=99s at home and HRC asks. G.W. Bush says he can=E2=80=99t s
+ay who=E2=80=99s going
+to win but there=E2=80=99s going to be flash in the pans, crisis, funding, 
+and all
+kinds of other things, and eventually the person who is best for their
+party will be nominated. Cornell Belcher and Michael Duffy join to comment
+on the fact that this is a very anti-establishment moment yet the two most
+establishment figures are appearing together. Duffy says the Clinton
+political theory is the divisiveness is unpleasant and people don=E2=80=99t
+ like
+it, but they often reward it if you=E2=80=99re willing to walk towards it, 
+and the
+Clintons are not afraid of it. Says the Bushes and Clintons are centrists.
+Heidi Przybyla says she doesn=E2=80=99t think people believe it. Chris Matt
+hews
+says WJC told TIME that HRC once told him that she would never run for
+office because she is too aggressive and people would never vote for her.
+Belcher says politics now rewards aggressiveness. Przybyla says HRC is
+absolutely right and it=E2=80=99s not as easy for a woman to be rewarded fo
+r being
+aggressive. Says things haven=E2=80=99t changed because HRC=E2=80=99s whole
+ approach this
+time around has been to soften up and focus on being a grandmother and talk
+about her relationship with her mother but she=E2=80=99ll have many surroga
+tes
+doing that aggressiveness for her. Duffy says some of the attacks on HRC
+will be on WJC and Przybyla counters and says WJC is still one of the most
+popular politicians in American politics and she can see him being used as
+a surrogate. Hardball with Chris Matthews
+<<<link>>
+-b09a-13ef4d05e960>.
+2015 07 23 Hillary Clinton Jeb Bush Commentary, National, Role of GW Bush
+and WJC in 2015 election <<<link>>>
+
+-- Commentary on Quinnipiac poll says voters do not trust HRC and shows her
+trailing Bush, Walker, and Rubio. Ed Henry joins the show and says the
+campaign is not worried and they think HRC is winning comfortably in other
+polls against Republicans. Says we need to be skeptical because in April
+Quinnipiac did a similar poll which showed similarly poor honesty and
+trustworthiness ratings but in that poll she was beating Republicans with
+no problem and now she=E2=80=99s not beating them. Says what we didn=E2=80
+=99t see in the
+poll is that Bernie Sanders is doing as well or better than HRC against
+those Republicans in the key battleground states. This shows he=E2=80=99s g
+etting
+the enthusiasm where she is not. Henry says Clinton camp says they are more
+nervous about John Kasich than any other Republican because he=E2=80=99s cu
+t taxes
+and has the Midwestern values so he=E2=80=99s a little bit of a loose canno
+n. Says
+John user and other officials are a little more concerned about Kasich,
+especially if he can carry Ohio. The O=E2=80=99Reilly Factor
+<<<link>>
+-a16f-9c0bef5bb494>.
+2015 07 23 Hillary Clinton Commentary, National, Commentary on HRC campaign
+concerns <<<link>>>
+
+-- Coverage of HRC saying Planned Parenthood is under a concerted attack.
+Al Sharpton says two videos released claim to show PP executives selling
+fetal body parts. Sharpton says this is not true and the New York Times
+writes that the videos were edited to eliminate statements explaining that
+Planned Parenthood does not domain.com from tissue donation, which requires the
+clear consent of the patient and the videos are a dishonest attempt to make
+legal, voluntary and potentially lifesaving tissue donations appear
+nefarious and illegal. Says that for Republicans the videos are another
+excuse to go after PP and the women it helps. Shows clip of HRC saying it
+=E2=80=99s
+unfortunate that PP has been the object of such a concerted attack. Laura
+Bassett says it=E2=80=99s incredibly significant that a democratic presiden
+tial
+candidate was willing to come forward since democrats have been hesitant to
+say anything especially because there has been a congressional
+investigation and a lot of the facts haven=E2=80=99t come in yet and suppos
+edly
+more videos are coming out, but HRC is sticking her neck out and saying PP
+does a lot of good things for women that have nothing to do with abortions.
+PoliticsNation
+<<<link>>
+-9055-7d7572403815>
+. 2015 07 23 Hillary Clinton Commentary, National, Commentary on HRC's
+Planned Parenthood Statement <<<link>>>
+
+-- Report on IRS scandal saying there is a new report out from GAO saying
+Americans are still vulnerable to audits based on their personal beliefs. T
+ammy
+Bruce weighs in saying HRC wants to be the third term of Obama, but we are
+seeing especially with the Planned Parenthood situation, what the
+Democratic Party has become and this is going to affect people=E2=80=99s de
+cisions.
+Host says issues of trust and honesty are the issues that are dogging HRC
+and if she doesn=E2=80=99t find a way to break with her own party on this, 
+she=E2=80=99s
+going to be in trouble. Charlie Kirk says the Clintons believe that if
+anyone disagrees with you, you start to weaponize institutions you belong
+to. Says this is the weaponization of government with the IRS. Says the
+oligarchy of the Clintons and the Obamas believe in this. Bruce says people
+now feel that they can=E2=80=99t trust the government. Making Money with Ch
+arles
+Payne
+<<<link>>
+-a73f-753e40da7b96>.
+2015 07 23 Hillary Clinton Commentary, National, Commentary on HRC's
+trustworthiness <<<link>>>
+
+-- Coverage of HRC making comments on Planned Parenthood videos. Shows clip
+of HRC saying it=E2=80=99s unfortunate that PP has been the object of such 
+a
+concerted attack for so many years and it=E2=80=99s really an attack agains
+t a
+woman=E2=80=99s right to choose. Says Nancy Pelosi wants an investigation i
+nto the
+organization making the videos. Special Report with Bret Baier
+<<<link>>
+-9524-56574cbab013>.
+2015 07 23 Hillary Clinton Commentary, National, Criticism of HRC Planned
+Parenthood Statement <<<link>>>

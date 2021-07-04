@@ -1,0 +1,60 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp1435193lfb;
+        Mon, 22 Feb 2015 14:48:13 -0800 (PST)
+X-Received: by 10.31.107.194 with SMTP id k63mr22731896vki.27.1456181293737;
+        Mon, 22 Feb 2015 14:48:13 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-vk0-domain.com (mail-vk0-domain.com. [2607:f8b0:400c:c05::22d])
+        by domain.com with ESMTPS id o143si26481947vko.153.2016.02.22.14.48.13
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Feb 2015 14:48:13 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::22d as permitted sender) client-ip=2607:f8b0:400c:c05::22d;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::22d as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: by mail-vk0-domain.com with SMTP id e6so137325955vkh.2
+        for <user@domain.com>; Mon, 22 Feb 2015 14:48:13 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=georgetown.edu; s=google;
+        h=mime-version:date:message-id:subject:From: Christopher Cialeo <cjc260@georgetown.edu>
+        bh=sgoiKU/xN01XEHpp4ohI33CTl1kg9j25h86fwhZOoTQ=;
+        b=TdE51QDYPzqRBfC6MQ1hbpqsj7dcZ7JrxcQlXG5ttymvX/4gI6xO0A7fZ903OuyhBq
+         /rAyugQSDC1E+oh3oXl06CYp+QbhSkmBlUeRmRZp9ZSjhbwncLeRJGOdWIf1mymQPX4p
+         9XJSl0n+0NU0Dsa5gH1rlMcZueY7bj8OTBUqg
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Christopher Cialeo <cjc260@georgetown.edu>
+         :content-type;
+        bh=sgoiKU/xN01XEHpp4ohI33CTl1kg9j25h86fwhZOoTQ=;
+        b=XxKJ72NwhGw8lhR9OZ/cdbRklFZyjRbrIboGawImT6bnYNqFuUVI12xQQDDuY9cCp4
+         QpNg7tjYgLyabft+Qf/XLsldth+toXGc7BX/kg4wnJgaAEwkynpJaWpf+kGulHCL7Fqt
+         NWQXUdZTI2os8r9gTB5bT1x5zPqPPkgpk4UdoMzafQ6IwNZgaq6iSjbxZpJrZoI+icqN
+         NFtkSIwGUJAkDvqVC7erBkcCzWj5/dlYirA2uhmTIhYMp7Rc7jN9rtIDMF6CNcf/TidN
+         JC2itkTjFwDpa1YP6C/tvSOPwg77X1s9xf+hihHBQsgZUGeDZmylttCOSlxhAlgjnbZy
+         1FKw
+X-Gm-Message-State: AG10YOTxia3DApwZqLqv4MIHTSGEvyi7w3XpHyOaJraL+4Qo+gn631oj7elCfc4Yjkq+qjQ7je+4dsSwmZL/5719
+MIME-Version: 1.0
+X-Received: by 10.31.56.133 with SMTP id f127mr26037148vka.56.1456181293303;
+ Mon, 22 Feb 2015 14:48:13 -0800 (PST)
+Received: by 10.31.97.198 with HTTP; Mon, 22 Feb 2015 14:48:13 -0800 (PST)
+Date: Mon, 22 Feb 2015 17:48:13 -0500
+Message-ID: <user@domain.com>
+Subject: Congressional Investigations Paper Topic
+From: Christopher Cialeo <cjc260@georgetown.edu>
+To: user@domain.com, user@domain.com
+Content-Type: multipart/mixed; boundary=001a114314dcb78749052c63a01b
+
+Professor user and Judge Leon,
+
+Please find attached my proposed paper topic for this course.  I look
+forward to discussing with you.
+
+Best,
+Chris
+
+-- 
+Chris Cialeo
+Georgetown Law
+J.D. Candidate, Class of 2015 
+858-335-6201

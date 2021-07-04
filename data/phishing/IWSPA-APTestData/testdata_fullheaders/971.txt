@@ -1,0 +1,203 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 19 Mar 2015 08:36:55 -0700
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2JFashA031375	for <user@domain.com>; Wed, 19 Mar 2015 
+ 15:36:54 GMT
+Received: from mail26-am1-domain.com (mail-domain.com
+ [213.199.154.200])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s2JFc3nD023633
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Wed, 19 Mar 2015 15:38:04 GMT
+Received: from mail26-am1 (localhost [127.0.0.1])	by mail26-am1-domain.com
+ (Postfix) with ESMTP id 16C52202DE	for <user@domain.com>; Wed, 19 Mar
+ 2015 15:36:53 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:68.232.205.210;KIP:(null);UIP:(null);IPV:NLI;H:mta.landroveremail.com;RD:mta.landroveremail.com;EFVD:NLI
+X-SpamScore: -5
+X-BigFish: vps-5(zzc89bhc85fhc430I1936Ie0eah77f5hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h172c6ch1b778fh1ce120h1ce121iz2fh11bfMeh5eh5fh839hc60hc61hd24h107ah10d2h1288h12a5h137ah13eah1441h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h25f6h2605h2668h2673i1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail26-am1: domain of bounce.landroveremail.com designates 68.232.205.210 as permitted sender) client-ip=68.232.205.210; user@domain.com; helo=mta.landroveremail.com ;domain.com ;
+Received: from mail26-am1 (localhost.localdomain [127.0.0.1]) by mail26-am1
+ (MessageSwitch) id 1395243410455987_23664; Wed, 19 Mar 2015 15:36:50 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.253])	by
+ mail26-domain.com (Postfix) with ESMTP id 6AAD63C0083	for
+ <user@domain.com>; Wed, 19 Mar 2015 15:36:50 +0000 (UTC)
+Received: from mta.landroveremail.com (68.232.205.210) by
+ domain.com (10.3.207.111) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 19 Mar 2015 15:36:49 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=landroveremail.com;
+ h=From: LAND ROVER <email@landroveremail.com>
+ bh=VOYldvSeuVDddCasM4TKII8wZZY=;
+ b=oVuVbdd+Dnca4KtGy6KZBltIrIGxlIui3yOZnXg9g03KpSp0/ExBL6QNtcG0gc8UKOunvNtZfBOF
+   GMnFroHTE69Hyvvk8t6T7yU06U1jjw8v5tcjIA/ef0Zmu1mXGnq/tds5bHhza7YkXmEwLlwWOt3w
+   xk4im/XwMqUBl+x8Xq8
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=landroveremail.com;
+ b=Ykhdq00TFO/4ZR8anzxNg80fvs6ALwZDWwqiuHxIzFCAVtwZiWEoORNTSgKxk8rSsC8KbNRVyyFS
+   ll8oVSSrardz0HcsUd52hjW8oOxjtmzaM9HY6qzHakDUmZRYtK8q5plFj7VsrWJV8T7f4/XW5QjY
+   S+dVeasjFJnfNzXSIYc=;
+Received: by mta.landroveremail.com id h56sp2163hss for
+ <user@domain.com>; Wed, 19 Mar 2015 09:36:40 -0600 (envelope-from
+ <user@domain.com>)
+From: LAND ROVER <email@landroveremail.com>
+To: <user@domain.com>
+Subject: Only a few Land Rover Adventure spaces remain. Book now.
+Date: Wed, 19 Mar 2015 09:36:38 -0600
+List-Unsubscribe: <mailto:user@domain.com>
+Reply-To: LAND ROVER
+	<user@domain.com>
+x-job: 1058843_8080848
+Message-ID: <user@domain.com>
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Only a few Land Rover Adventure spaces remain. Book now.
+
+ <<link>>
+
+<<link>>     
+
+
+
+
+BLUE RIDGE TO BLUEGRASS.        
+
+LAND ROVER ADVENTURES HEADS TO THE ROLEX KENTUCKY THREE-DAY EVENT
+APRIL 21ST ­ 27TH       
+
+
+
+
+Join us for the Rolex Kentucky Three-Day Event - one of the most prestigious Four-Star Eventing competitions in the world!* Your Seven Day Adventure begins at the famed Biltmore Estate in Asheville, NC, the perfect place to explore 8000 acres on horseback, hone your sporting clay skills, relax at the spa or take a private tour of Biltmore House. 
+
+Next, embark on an unforgettable Land Rover driving experience on both paved and unpaved roads across the stunning Blue Ridge and Smoky Mountains to Blackberry Farm, a renowned 5 star resort hailed for its culinary excellence. 
+
+Our final journey takes us to the incomparable bluegrass of Lexington, Kentucky. Eventing begins Friday with the grace and precision of the Dressage competition. Action continues Saturday with the Cross Country Competition including access to a private Land Rover tailgate, and culminates Sunday with an exhilarating show of skill and stamina during the Jumping Competition. 
+
+
+
+
+EVENT DETAILS    
+
+
+
+
+SEVEN DAY ADVENTURE
+Date: April 21st - 27th, 2015 
+Price per single $8,250**
+Price per couple: $9,500**
+
+For those who have limited time but would like to join us for the Rolex Kentucky Three-Day Event, please contact us.
+
+THREE DAY EVENT
+Date: April 24th - 27th, 2015 
+Price per single $3,650**
+Price per couple: $3,900**
+
+To book your reservation,
+please call: 1-828-225-1541
+
+Space is limited 
+
+
+
+
+Learn More       
+
+
+
+
+HIGHLIGHTS BY DAY       
+
+
+
+
+ <<link>>      
+
+
+
+
+APRIL 21-22: EXPLORE BILTMORE ESTATE, ASHEVILLE, NC      
+
+
+
+
+Enjoy the vast amenities and activities at Biltmore Estate including wine tasting, Biltmore House tour, spa services, sporting clays, and more.         
+
+
+
+
+ <<link>>      
+
+
+
+
+APRIL 23-24: BLACKBERRY FARM TO LEXINGTON, KY    
+
+
+
+
+Travel through the Blue Ridge and Great Smoky Mountains before enjoying culinary excellence at Blackberry Farm.         
+
+
+
+
+ <<link>>      
+
+
+
+
+APRIL 25:
+DRESSAGE COMPETITION     
+
+
+
+
+Witness horse and rider perform with elegance and precision.    
+
+
+
+
+ <<link>>      
+
+
+
+
+APRIL 26:
+CROSS COUNTRY COMPETITION        
+
+
+
+
+Behold a thrill ride over four miles of challenging terrain and obstacles.      
+
+
+
+
+ <<link>>      
+
+
+
+
+APRIL 27:
+JUMPING COMPETITION      
+
+
+
+
+Experience this exhilarating show of strength, stamina and skill.       
+
+
+
+
+Contact Us  |  Unsubscribe  |  Privacy Policy
+
+Please do not reply to this email as this address is not monitored.
+Customer Service: 1-800-FIND 4WD (1-800 3463 493) 
+
+If you wish to unsubscribe from future email
+

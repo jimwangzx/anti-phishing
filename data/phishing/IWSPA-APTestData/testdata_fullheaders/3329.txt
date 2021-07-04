@@ -1,0 +1,138 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp1018396lfr;
+        Sat, 1 Aug 2015 15:59:22 -0700 (PDT)
+X-Received: by 10.182.129.19 with SMTP id ns19mr9817168obb.3.1438469961684;
+        Sat, 01 Aug 2015 15:59:21 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::234])
+        by domain.com with ESMTPS id k80si5650332oic.3.2015.08.01.15.59.21
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 01 Aug 2015 15:59:21 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::234 as permitted sender) client-ip=2607:f8b0:4003:c01::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id op1so76724489obb.2
+        for <user@domain.com>; Sat, 01 Aug 2015 15:59:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Oren Shur <oshur@hillaryclinton.com>
+         :content-type;
+        bh=JxbnML+9o59eLZgxhf5bAhW06L8SFFhIwKRP7IjouE4=;
+        b=E3VQOPtwyP8yvYfim6jpeIfCpwH8FQ9bmSe3aJdvQvSYVHA1tSJtKsxfjuwOk9KH8A
+         CO+t5hEZWy7EWsFFBzDusallDXHpPX5BJDO7ppnrrFSvJSWa529TdrzAawdqsUcrI9KC
+         c8CfIVhjjVxze6gwDQUrcUVeicki6YMNfXJY0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Oren Shur <oshur@hillaryclinton.com>
+         :subject:to:cc:content-type;
+        bh=JxbnML+9o59eLZgxhf5bAhW06L8SFFhIwKRP7IjouE4=;
+        b=FgIqIZXS3SynL8Y/r2+yOXdqnfa7TSJ2MWc2NUpsUhyslbSTxXImk/HZ0RnCkJfPeV
+         Wa4C/aFKeme16wIk15giVX29ge/Hp8WEh0zSK4jU10A2MsjhxjVtBepyyPdkIjMdqIHY
+         fc1Anhou9IMV+dF7JUqboP2lolfN1cx/FK6svQzDdM+OTXCq3xJVmiWfdZIXCUEuwyBl
+         2AfwclBFtYMdttHVGqXRC0Xu9v4yrR+hSX4PQidESLNVAQc9Y0xOxqRRL9dPb2Lh60Bo
+         fWOxlmn3EigNRxWaKriC7QXwDBx7ghUkFfRj7RfWYMRjQBPd5RutOYBnzLkFzEr6w2zt
+         7y8Q
+X-Gm-Message-State: ALoCoQmE3DpPmlOrG0BpdzdCuhXrVkULHRKeCnU+5QfnIplONV/WlbIPs7WR5AL40GCOX/mEoTin
+X-Received: by 10.182.97.10 with SMTP id dw10mr10384798obb.60.1438469960811;
+ Sat, 01 Aug 2015 15:59:20 -0700 (PDT)
+From: Oren Shur <oshur@hillaryclinton.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdDMrWXGmtw42pVMQo+15pef1RUb4A
+Date: Sat, 1 Aug 2015 18:59:17 -0400
+Message-ID: <5user@domain.com>
+Subject: Background TPs - Dorothy
+To: Jennifer Palmieri <user@domain.com>, 
+ Robby Mook <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>, "Margolis, Jim" <user@domain.com>, 
+ Joel Benenson <user@domain.com>, David Binder <user@domain.com>, 
+ John Anzalone <user@domain.com>, John user <user@domain.com>, 
+ user Carrk <user@domain.com>
+CC: "Kaye, Anson" <user@domain.com>, "Rimel, John" <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7b2e41be08e21f051c47e35a
+
+Team =E2=80=93 I=E2=80=99ll let the press staff elaborate, but the current 
+plan is to give
+Dorothy to some select IA and NH news outlets tomorrow evening.  Once those
+stories run, the campaign will confirm the spot to the Beltway press and
+then release them both Dorothy and Families Strong on Monday am.  Did I get
+that right press team?
+
+Here are some draft background points =E2=80=93 just for Dorothy =E2=80=93 
+will need a new
+batch for Sunday am, but please weigh in with thoughts edits?
+
+*Internal Talking Points =E2=80=93 Ad Launch =E2=80=9CDorothy=E2=80=9D *For
+ Sunday, Aug 2 2015 
+
+=C2=B7         This week, the Clinton campaign will begin taking its case
+directly to the people of Iowa and New Hampshire with its first TV ad of
+the campaign.
+
+=C2=B7         The .60 second ad, titled, =E2=80=9CDorothy=E2=80=9D, featur
+es Hillary Clinton
+talking about the woman who motivated her to dedicate her life to fighting
+for everyday families =E2=80=93 and that=E2=80=99s her mother Dorothy.  Hil
+lary=E2=80=99s mom had a
+very difficult childhood, but she taught Hillary that it=E2=80=99s not abou
+t what
+life throws at you =E2=80=93 it=E2=80=99s about what you do with it.  Hilla
+ry has always
+been a champion for people who got knocked down but refused to get knocked
+out.
+
+=C2=B7         We felt it was important to begin communicating directly to
+voters in August because it=E2=80=99s likely to be the last time that the a
+irwaves
+in Iowa and New Hampshire aren=E2=80=99t totally cluttered with ads by Repu
+blican
+candidates and their Super PACs.  It=E2=80=99s a unique window for Hillary 
+Clinton
+to cut through and take her message to voters.
+
+=C2=B7         The ad will air in Iowa and New Hampshire and tomorrow (Mond
+ay),
+we=E2=80=99ll be placing a six-figure buy in each state.   (If asked: In Io
+wa, it
+will air in Cedar Rapids and Des Moines. In NH, it will air on WMUR in
+Manchester, Boston cable TV and in the Burlington market).
+
+*Are you airing TV ads because of bad poll numbers?*Since day one, this
+campaign has been about taking Hillary=E2=80=99s message of being a fighter
+ for
+families directly to the people of Iowa/New Hampshire.  And because the
+Republican Super PACs haven=E2=80=99t totally clogged the airwaves yet, we 
+believe
+this is a good time for that message to cut through. Plus, the latest round
+of polling =E2=80=93 both in the primary and the general =E2=80=93 showed H
+RC to be in very
+strong position, leading all Republican candidates.
+
+*Is this a soft touchy feely ad designed to deal with her trust
+domain.com?*Everyday
+families in America know they can count on Hillary Clinton to fight for
+them, and this ad is about taking that message directly to the people of
+Iowa/New Hampshire.
+
+*How long will the ad air for? *We=E2=80=99re not going to comment on the l
+ength of
+the buy or the strategy of future ad buys.
+
+*This ad clearly seems to be targeting women =E2=80=93 is that true?*
+
+This ad is about Hillary Clinton=E2=80=99s values and why she dedicated her
+ life to
+fighting for families. And when Hillary talks about her mother on the
+campaign trail, the men in the crowds are nodding their heads right along
+with the women. It=E2=80=99s about fighting for families =E2=80=93 and gett
+ing back up
+again after you=E2=80=99ve been knocked down.
+
+*How much are you spending?*It=E2=80=99s a six-figure buy and covers the la
+rgest
+media markets in both states.

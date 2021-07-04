@@ -1,0 +1,89 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 14 Aug 2015 13:02:48 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with
+ ESMTP id s7EK2lai006019	for <user@domain.com>; Thu, 14 Aug 2015 
+ 20:02:48 GMT
+Received: from na01-by2-domain.com
+ (mail-domain.com [207.46.163.242])	by
+ domain.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with
+ ESMTP id s7EK2jwh001838	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 14 Aug 2015 20:02:46 GMT
+Received: from BN1BFFO11FD003.protection.gbl (10.58.144.32) by
+ BN1BFFO11HUB023.protection.gbl (10.58.144.170) with Microsoft SMTP Server
+ (TLS) id 15.0.1010.11; Thu, 14 Aug 2015 20:02:38 +0000
+Received: from mx-domain.com (192.64.236.107) by
+ domain.com (10.58.144.66) with Microsoft SMTP
+ Server id 15.0.1010.11 via Frontend Transport; Thu, 14 Aug 2015 20:02:38
+ +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Box Office Insider <feedback@indiewire.com>
+ bh=huT9uhOnFI/DieLmYWHIFDQcJ5s=;
+ b=fI+yCKiv3zl312BgfmPl+T0Sod3pd2SixkSOBOKOJMehMNXA7Ykl/sImqqa1kRIXPgXjHYtb1xRA
+   S6lDeXz9H4pDDw7S8hCfrp6KUq1dnNpH68yVBN3tQZEwlnhzvkWuYX1qf+Mj7vM8r5VO7yLFZ1/0
+   2iD9hDfU9FkxQ7ETkFA
+Received: from nyp1-p-p4137-prd-jma-02.sailthru.pvt (64.34.57.231) by
+ mx-domain.com id htkas61s6hgi for <user@domain.com>; Thu, 14
+ Aug 2015 16:00:54 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1408046452;
+	s=sailthru; d=indiewire.com;
+	h=Date:From: Box Office Insider <feedback@indiewire.com>
+	bh=8e8FcmlRWtQW1X1nsKq41PQ+hirEhkjdFkXU4A4upo4=;
+	b=LnRGqGSWNI/YhnKR3JSsWGVwf0X1/AxLz0I0Md3MXpU2VdvUt+6uk6Fiiu79KZ+v
+	4N8KZyza5HiWGRPzWvWLKMkvfk703+vc5KATkhFnysRQ5/omH1KmHmTi+WwFCJZzxXn
+	JDRcAIsdTluK2wLQqAczAvBZB5YP35gWsi8DkysA
+Date: Thu, 14 Aug 2015 16:00:52 -0400
+From: Box Office Insider <feedback@indiewire.com>
+To: <user@domain.com>
+Message-ID: <20140814200052.2940038.317@domain.com>
+Subject: Can "Turtles" and "Guardians" Hold Off Sly & Co. For a Box Office
+ Repeat???
+Precedence: bulk
+X-TM-ID: 20140814200052.2940038.317
+X-Info: Message sent by domain.com customer Indiewire
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4137-prd-jma-02.sailthru.pvt
+X-IADB-IP: 65.39.215.22
+X-IADB-IP-REVERSE: 22.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>,
+ <mailto:user@domain.com>
+X-rpcampaign: stgdu2940038
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: CIP:192.64.236.107;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(438002)(199003)(36552002)(189002)(77096002)(77156001)(36756003)(74502001)(104016003)(80022001)(74662001)(89996001)(46102001)(2351001)(20776003)(229853001)(19617315012)(107886001)(77982001)(106856001)(31966008)(110136001)(81542001)(146001)(2361001)(19580395003)(79102001)(18926405002)(95736001)(104166001)(64706001)(21056001)(81342001)(15975445006)(76482001)(93916002)(106466001)(50986999)(15202345003)(102836001)(92726001)(83322001)(104766002)(47976999)(19300405004)(19618635001)(18206015026)(92566001)(85852003)(87286001)(4396001)(71186001)(84326002)(107046002)(87836001)(53416004)(83072002)(110476001)(15187005004)(85306004)(88136002)(44976005)(19273905006)(956001)(50226001)(99396002)(62966002)(85226002)(17308445002)(19625245003)(19622745005)(19625765002);DIR:INB;SFP:;SCL:1;SRVR:BN1BFFO11HUB023;H:mx-domain.com;FPR:;MLV:sfv;PTR:mx-domain.com;A:1;MX:1;LANG:en;
+X-Microsoft-Antispam: BCL:5;PCL:0;RULEID:(70001);UriScan:;
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 192.64.236.107 as permitted sender)
+ receiver=domain.com; client-ip=192.64.236.107;
+ helo=mx-domain.com;
+Authentication-Results: spf=pass (sender IP is 192.64.236.107)
+ user@domain.com; 
+X-OriginatorOrg: domain.com
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-406539735_-_-"
+
+Aug. 14, 2015 
+
+Can "Turtles" and "Guardians" Hold Off Sly & Co. For a Box Office Repeat???
+
+by Jim Amos
+
+There's a good chance that, for the first time this summer, we won't have a new opener crack the top two at the box office.  Although "Expendables", "Let's Be Cops" and "The Giver" are on pace to open...
+
+Read
+More »
+
+Robin Williams' Wife Issues Statement Urging People to 'Seek the Care and Support They Need'
+The Films of Danny Boyle, Ranked Worst to Best
+8 Must-See Robin Williams Performances Streaming on Netflix Now
+Kim Ki-duk On Why the Shocking 'Moebius' Is a 'Penis Journey'
+Watch: Robin Williams in One of His Last Roles in Clip from 'Merry Friggin' Christmas'
+
+If you believe this has been sent to you in error, please safely unsubscribe.

@@ -1,0 +1,60 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp1198882lfi;
+        Sun, 24 May 2015 10:29:38 -0700 (PDT)
+X-Received: by 10.236.29.228 with SMTP id i64mr17295130yha.77.1432488578341;
+        Sun, 24 May 2015 10:29:38 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22c])
+        by domain.com with ESMTPS id l48si5125735yhl.57.2015.05.24.10.29.37
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 24 May 2015 10:29:38 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22c as permitted sender) client-ip=2607:f8b0:4002:c07::22c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22c as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id d142so16366867yke.3
+        for <user@domain.com>; Sun, 24 May 2015 10:29:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+         :cc:content-type;
+        bh=0YbRISxop1AotEtn8wSd9ioWxnb0juk/dq8hlmZCbSo=;
+        b=eeJ0KQRJiY6tZh01Nj9/7sre6sXBQhoEVKCNmNdRK6eQ0efyODPn2+0J+A1AAO7pCb
+         6jRHH+CjT64BrzJnH/uH142byGXf7knxEr8+vPoY5xO8cnUZs5/GUHLSP0B91pDcEsSh
+         qPs85OeKOKKmnmrWn+4Cnwrv3Pn2HpSgb0iLU
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+        bh=0YbRISxop1AotEtn8wSd9ioWxnb0juk/dq8hlmZCbSo=;
+        b=k204v+YKrttdHaLvB/xzZFRdaZI+ZoPLh08WsNvG7cwl5rPxBnCm8w0WXcn/9OR4N4
+         ejieMX+zoG1FQsyFtwQ/a+uSeBeowCe0dPFFlcWQ1I/sz/8+qfZpEh0BIYGNsImTc5uf
+         PbgGeQm4sPdruCdw3UbNBTpRWBrfQigUCIPhl6PWmH35UKw8Iq26TV+WeBbh2Z2FEGT2
+         7DTgkq4bQ0QD0Ie+cq0k2Ck7VcFSuyC8pVtZIDia7IdVDhqxtMo0stJit6bD4vhNMhVD
+         YAv2IsWwjlGD86goUCROGmSLjg6AF8WU2h8wAjPhkrs2nsxGmPlm0yGxP03HV7WzL+Vi
+         wpyQ
+X-Gm-Message-State: ALoCoQmilhPduWdyFKJqICYYWpeO5gz1RYJS6LwxBnMcb3WkjahTkVXEv5jigWy8hVZloRaxm9L1
+MIME-Version: 1.0
+X-Received: by 10.236.8.40 with SMTP id 28mr17987981yhq.138.1432488577524;
+ Sun, 24 May 2015 10:29:37 -0700 (PDT)
+Received: by 10.129.101.7 with HTTP; Sun, 24 May 2015 10:29:37 -0700 (PDT)
+In-Reply-To: <4332244678069708628@unknownmsgid>
+References: <user@domain.com>
+	<4332244678069708628@unknownmsgid>
+Date: Sun, 24 May 2015 13:29:37 -0400
+Message-ID: <user@domain.com>
+Subject: Re: Earned media discussion/calendar review
+From: Robby Mook <re47@hillaryclinton.com>
+To: Jennifer Palmieri <user@domain.com>
+CC: Huma Abedin <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ John user <user@domain.com>, 
+ Marissa Astor <user@domain.com>, 
+ Varun Anand <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e01633c50ceffeb0516d73c75
+
+Great...possible to do that in the am so we can talk to her in the aft?
+
+On Sun, May 24, 2015 at 10:01 AM, Jennifer Palmieri <

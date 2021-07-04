@@ -1,0 +1,82 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Thu, 9 Jan 2015 06:57:47 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s09EvjmR024697	for <user@domain.com>; Thu, 9 Jan 2015 
+ 14:57:45 GMT
+Received: from mail160-co9-domain.com (mail-domain.com
+ [207.46.163.16])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s09EviB5002122
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 9 Jan 2015 14:57:45 GMT
+Received: from mail160-co9 (localhost [127.0.0.1])	by
+ mail160-co9-domain.com (Postfix) with ESMTP id 3830F2400EF	for
+ <user@domain.com>; Thu,  9 Jan 2015 14:57:44 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:176.31.140.94;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 13
+X-BigFish: vps13(z187lzc89bhzz1f42h2148h208ch1ee6h1de0h1fdah2073h1a8fI2146h1202h1e76h2189h1d1ah1d2ah1fc6h10c0jzz1def03h17326ah1def87h8275bh1bc7b9h8275dh1de097h1de096h186068h1ce120hz2fheh5eh5fh839h93fh950ha12hd24h10d2h1288h12a5h137ah139eh13b6h13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah224fh1d0ch1d2eh1d3ah1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1ff5h2218h2216h226dh2327h2336h2438h1b23k1d71m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail160-co9: domain of domain.com designates 176.31.140.94 as permitted sender) client-ip=176.31.140.94; user@domain.com; helo=domain.com ;.domain.com ;
+Received: from mail160-co9 (localhost.localdomain [127.0.0.1]) by mail160-co9
+ (MessageSwitch) id 1389279461675607_26570; Thu,  9 Jan 2015 14:57:41 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.244])	by
+ mail160-domain.com (Postfix) with ESMTP id A095238004D	for
+ <user@domain.com>; Thu,  9 Jan 2015 14:57:41 +0000 (UTC)
+Received: from domain.com (176.31.140.94) by domain.com
+ (10.236.130.15) with Microsoft SMTP Server id 14.16.227.3; Thu, 9 Jan 2015 
+ 14:57:36 +0000
+DKIM-Signature: v=1; a=rsa-sha1; bh=UfPJlELpHDulmzgX/a0pwuWv2Zo=;
+ c=relaxed/relaxed; d=domain.com; s=api;
+ h=DomainKey-Signature:MIME-Version:Subject:Date:From: Broadcast Beat <newsletter@broadcastbeat.com>
+ b=ND76IJ2xayfDFMAq7AuXTcZDtqGgiPEYh+t34XICv+A/7KswP6q/8taS+0WrBd+Msoi2+Xa1A5j4vNotuIoLso7u9f0w9B3u3I9hgtpNiRLwmtDy5mvZZvcUcCAUPhB6xpIgPhH/cDgFCYbR05v+bhEv51SUoBxEdpFG6lQ2MGI
+DomainKey-Signature: q=dns; a=rsa-sha1; c=simple;
+ d=domain.com; s=api;
+ h=MIME-Version:X-Mailer:X-Priority:Subject:Date:From: Broadcast Beat <newsletter@broadcastbeat.com>
+ b=V3GpzwnTxrh5aE/yTb2wCMmR0ytYVjxufzlpZJ2olvfkrHwSXhyJpc9YdnX35rRyZ9a5ODpDgWyE+9A8txx5OZsN5CB535JA+4Ej3pYzCR9C6auuYfDlpSc2xcp5EgTSTTKSVYkPQ7kmO3vzjbI4UwEM2iTTw7RlNeDrG5H1VPk
+X-Mailer: domain.com
+X-Priority: 3 (Normal)
+Subject: Broadcast Beat: Take our survey, win a tablet!
+Date: Thu, 9 Jan 2015 13:34:46 +0000
+From: Broadcast Beat <newsletter@broadcastbeat.com>
+Reply-To: Broadcast Beat <user@domain.com>
+Sender: Elastic Email <user@domain.com>
+To: <user@domain.com>
+List-Unsubscribe: <<<link>>>,
+ <mailto:unsubscribe+user@domain.com?subject=unsubscribe>
+Message-ID: <4user@domain.com>
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Broadcast Beat: Take our survey, win a tablet!
+
+LOGO    
+
+
+
+
+VISIT US ONLINE: BROADCASTBEAT.COM      
+
+
+
+
+Survey 2        
+
+
+
+
+ megaphone      H elp us understand our readers!        
+
+
+
+
+SCRI Research International and Broadcast Beat Magazine are giving away a brand new White Chromo Inc.® 7" -Tab PC Android 5 Point Multi-Touch Screen. Only two-hundred responses are targeted, so you will have a one in two-hundred chance of winning the tablet!
+
+
+
+
+To qualify, you must work in a broadcast or production facility and complete the six-question online survey.  All survey respondents are
+

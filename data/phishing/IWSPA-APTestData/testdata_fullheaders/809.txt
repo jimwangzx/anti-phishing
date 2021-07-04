@@ -1,0 +1,79 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp2317234lfr;
+        Tue, 28 Jul 2015 22:10:55 -0700 (PDT)
+X-Received: by 10.180.73.13 with SMTP id h13mr1927170wiv.79.1438146655668;
+        Tue, 28 Jul 2015 22:10:55 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::22e])
+        by domain.com with ESMTPS id a3si40847761wjb.4.2015.07.28.22.10.55
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 28 Jul 2015 22:10:55 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22e as permitted sender) client-ip=2a00:1450:400c:c05::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id ud3so6018187wib.0
+        for <user@domain.com>; Tue, 28 Jul 2015 22:10:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=references:From: Amanda Renteria <arenteria@hillaryclinton.com>
+         :cc:content-type;
+        bh=Zaw2dcYfO1NOhStf+7WPmi1ejudqfrUDjjyX5JeHJec=;
+        b=BQPO9NeuwXj7GyqziDJnLca1P5DO/OD+/SMOgJ7uxmFJNNn+AaPbsZi/+teJ5CIKfK
+         iN19FpRsFEw9+Nw5O1Wr6+8ySymyvpg/d4fUl3H2suI5lCRjiHe5ZLpbWYC4Rtax1zIZ
+         azIuZhMF/JHzwvOnp3ENzQf6OleF57toqWiNg
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:references:From: Amanda Renteria <arenteria@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=Zaw2dcYfO1NOhStf+7WPmi1ejudqfrUDjjyX5JeHJec=;
+        b=YJRDq1XsXfZNSHkvyQioSVLq0cHnMPLlXKer68hik0HGtv9zbOP0OdmardGzLgfT52
+         vgjOIzK9NUpsWb595ycIYcRqjT7+ZZuBheI7Uo40rpd6KAXVWX4Fp31P6wsPqEroXZsL
+         b22l3sPF0fczqaQLacc5eI73sgv6ASL0Ou54wnfKO11JWdKDWNVgp6gYOtX+UFbgWTT1
+         I9c5N2sfTNhNoBLXU8oAXvfWgVmRY7spUXAy5gd8IfmL27KAd7S7yjtKIsvopvHRfaI7
+         MriqMmR+HJ6KUJLjfXtlfpwnw2suQzT3LyGhD7Fo0D2lJceo0tedBFjQc9AsvJZAOJPW
+         kYtA
+X-Gm-Message-State: ALoCoQm43rot3KRKW8PqnkmsmjYxjXddUg7apJVz/HVpQPW1RYbWW6EqzHXmgN8/rb/J8Wz7lDzx
+X-Received: by 10.180.83.72 with SMTP id o8mr2107677wiy.27.1438146655289; Tue,
+ 28 Jul 2015 22:10:55 -0700 (PDT)
+References: <CAMayD+7user@domain.com>
+ <6695user@domain.com> <CAMayD+6user@domain.com>
+ <804996user@domain.com> <CAMayD+7user@domain.com>
+ <60337user@domain.com> <user@domain.com>
+From: Amanda Renteria <arenteria@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+In-Reply-To: <user@domain.com>
+Date: Wed, 29 Jul 2015 01:10:53 -0400
+Message-ID: <7866121969437097614@unknownmsgid>
+Subject: Re: YOUR THOUGHTS ASAP: Colorado Organizing Event
+To: Ken Salazar <user@domain.com>
+CC: "Lyons, James M." <user@domain.com>, John user <user@domain.com>, 
+ Tracey Lewis <user@domain.com>, 
+ Jessica Mejia <user@domain.com>, 
+ Lorella Praeli <user@domain.com>
+Content-Type: multipart/alternative; boundary=f46d0442887e860ffb051bfc9c6f
+
+The proposal is an organizing meeting with some electeds. Our grassroots
+team has put a list together of the folks who are working in the various
+districts we need. As we discussed, the vision is everyday folks and the
+folks we need to start the work of organizing. We are using this as a
+training meeting as well as to make sure local/CO press know that we are
+meeting with community members and building what we need on the ground. As
+we talked about, we are not doing an electeds meeting because this will
+further harm the perception you were concerned about in our conversations.
+The vision is that the majority of folks will be invites from our
+grassroots team.
+
+Jessica and Victoria are our key leads on this event. We will contact Mayor
+Webb separately but need our advance team to report back the numbers that
+are possible for them in this venue.
+
+From there, we will put together the combo of invites we should have in the
+room.
+
+Thank you for these names.
+
+Sent from my iPhone
+

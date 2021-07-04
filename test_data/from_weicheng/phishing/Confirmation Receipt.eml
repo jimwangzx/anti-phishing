@@ -1,0 +1,393 @@
+Delivered-To: hthampton672@gmail.com
+Received: by 2002:a05:6000:114c:0:0:0:0 with SMTP id d12csp1265243wrx;
+        Tue, 14 Jul 2020 10:45:08 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJxUBUZwy1rKquINgJD/vCnxXobtJoA9ccaFzdPgk3Y1cNxZZLvsPBTKV7G+O0EmTGu/f5rT
+X-Received: by 2002:a2e:7401:: with SMTP id p1mr3055483ljc.366.1594748708178;
+        Tue, 14 Jul 2020 10:45:08 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1594748708; cv=none;
+        d=google.com; s=arc-20160816;
+        b=yIXTZ2WdlJM1SchnvFUG495bdKOTLqnn1Zc8GUhLdfoL4zPQ7VaDhdr3cg9VKpSklJ
+         Rpxw1VwlBjw89iR+VtjY5x8F4Csl7wF8CD5z3i3g7vKIUfLncxYmLqdVS00cwpW9+4Nz
+         ZQzuuz1so/bT3JeWXt8k2Z95ZVnfzhvqY8B+ZY2n8Heli/HPxjgIPe4H6/hi9Ds5hpPV
+         oYkFKp2QBhJ3+ycrT0UIT2ucA1jWhBL6eitZFUP2F4CPH4JxxRNYWG8mgtOcE2xVPjDE
+         B9rrFHTSjtbO1RLBfIAO2XY04quLEhu4E5ATH24tSkBfILtDEk1O3X8D2dAZZ/tWxT89
+         FeIQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:message-id:from:to:date:mime-version:subject:in-reply-to
+         :sender:references:message-id:cc:dkim-signature;
+        bh=ZvthxKus1TM3vAZvNIa0Ou6ruvdBXL07RzUAjX6eGps=;
+        b=j8mUXMBtQeE0DlDrBAesPRH2w7DPz1JAyk73yBM81LZXIuXs9x28nfjofa7wsyeHFH
+         7zhD4Yx28judXhnMZHdAbO7aD1xQA3vh+M889x/WKDNvSZRV3/zr9y3QWg7c5p/gQTwU
+         qZSW27G16Ybd+wVOUSojJmnsYwV8sgtlCGTALsaYINEL/Vw+wgKNANuh5P+5+267Isb2
+         txBW9xquRcEMFr21b0Jda7SIgBV+uDFY19LoTHmF/STgVHcCJVwIcg/UFLxrwIy7VM1O
+         Zl/yluXvaEKzxdi0Smt1FHHDabNsfjeg/cgGF7FtKWX3eETZm2MfBH0l+vxHjhALsd0K
+         1g3w==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@sendgrid.net header.s=smtpapi header.b="s/bWl8Im";
+       spf=neutral (google.com: 93.179.68.4 is neither permitted nor denied by best guess record for domain of no-reply@pcpr.wwiirfekxc.com) smtp.mailfrom=no-reply@pcpr.wwiirfekxc.com
+Return-Path: <no-reply@pcpr.wwiirfekxc.com>
+Received: from deanza.edu (good-mail-file.neararena.net. [93.179.68.4])
+        by mx.google.com with ESMTPS id l14si9093540ljj.21.2020.07.14.10.45.06
+        for <hthampton672@gmail.com>
+        (version=TLS1 cipher=ECDHE-ECDSA-AES128-SHA bits=128/128);
+        Tue, 14 Jul 2020 10:45:08 -0700 (PDT)
+Received-SPF: neutral (google.com: 93.179.68.4 is neither permitted nor denied by best guess record for domain of no-reply@pcpr.wwiirfekxc.com) client-ip=93.179.68.4;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@sendgrid.net header.s=smtpapi header.b="s/bWl8Im";
+       spf=neutral (google.com: 93.179.68.4 is neither permitted nor denied by best guess record for domain of no-reply@pcpr.wwiirfekxc.com) smtp.mailfrom=no-reply@pcpr.wwiirfekxc.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.net; 
+	h=from:content-type:x-feedback-id; s=smtpapi; 
+	bh=ZvthxKus1TM3vAZvNIa0Ou6ruvdBXL07RzUAjX6eGps=; b=s/bWl8ImwpiEb
+	Qez7FZWg91k1rBMVZ2gbiM40eFp+2mT431Nv1L9peNPRZTcgrsigGnajKepzOMPn
+	AdHkTLBZbZJFdNCDdYdhCSkxYDc/XJU1BLUQLKpbckeoG8ooaoRBv1+ywcNr5crC
+	4vTHiXenfb/NgU41slN0sEFE4b8xRE=
+Received: by filterdrecv-p3mdw1-75c584b9c6-hmqrz with SMTP id filterdrecv-p3mdw1-75c584b9c6-hmqrz-19-5F0DD95A-8E
+        2020-07-14 16:12:10.732239024 +0000 UTC m=+1551760.194376524
+Received: from deanza.edu (unknown)
+	by ismtpd0004p1lon1.sendgrid.net (SG) with ESMTP id tPmGK48KRqud68Df0Yyh8A
+	for <eastsidesumra90@gmail.com>; Tue, 14 Jul 2020 16:11:59.360 +0000 (UTC)
+Received: from app29.muc.ec-messenger.com (app19.muc.ec-messenger.com )
+  (envelope-from <g-3851351679-7322-354668012-1559235622088@bounce.news.mapp.com>)
+  by gp13mtaq123 (mtaq-receiver/2.20190311.1) with ESMTP id yA3jJ-_S5g8Z
+  for <Hilary@comcast.net>; Thu, 30 May 2019 19:00:22 +0200
+Received: from www.takataka.gr (realshop.gr )
+  by uat.atnet.gr (Postfix) with ESMTPA id 24BF957C2E58
+  for <Hilary@aol.com>; Wed, 29 May 2019 20:27:11 +0300 (EEST)
+Received: from o168-245-54-201.outbound-mail.sendgrid.net (o168-245-54-201.outbound-mail.sendgrid.net. ) by mx.google.com with ESMTPS id bs4si6744151ejb.275.2020.04.26.06.03.30  for <Hilary@gmail.com>
+Received: from VI1EUR05HT079.eop-eur05.prod.protection.outlook.com (2603:10a6:100:1c::29) by PR3P194MB0556.EURP194.PROD.OUTLOOK.COM with HTTPS via PR0P264CA0185.FRAP264.PROD.OUTLOOK.COM
+Received: from localhost (localhost ) by mail143.atl121.mcsv.net (Mailchimp) with ESMTP id 49c1DL2XFtz7lmclv for <Hilary@gmail.com>
+CC: <Hilary@aol.com>
+Message-ID: <93.179.68.4rMrZSQ1rJySrMrZSQ1rJyS3502390rMrZSQ1rJyS@neararena.net>
+References: <----=_Part_67513_9815949417.4222617796438rMrZSQ1rJyS@neararena.net>
+Sender: 93.179.68.4-Hilary-rMrZSQ1rJyS@neararena.net
+In-Reply-To: <----=_Part_67513_9815949417.4222617796438rMrZSQ1rJyS@neararena.net>
+Subject: Confirmation Receipt
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2020 17:38:27 UTC
+To: Hilary@aol.com
+From:"choice HOME warranty <INFOO_tjjscwr@mail.KjUb.JiqrRBFEIu.com>
+Content-Type: multipart/Digest; boundary="----=_Part_72892_2229572789.9665708414606"
+Message-ID: <tPmGK48KRqud68Df0Yyh8A93.179.68.4@ismtpd0004p1lon1.sendgrid.net>
+Date: Tue, 14 Jul 2020 16:12:10 +0000 (UTC)
+X-SG-EID: UYtb/Nb+ZsQu9p1bjI6cCnnSl5VHFzxmM35erSJF3Wl6NfCDhDxSOyKw1X3Xvr80VtvuDSlbrqEGEa
+ QxZRHLWn7qwtD1kfk8Ahs92E8jthWxUBvUijyPg7NQ8HNqZXjB8lPfPPdBa6CdIGKZlm9dlluLmdr5
+ tqDEBm2cWgca+cCqlUj0GAkM/nkmAh/QUY0tPCXzkJmtkiLNQmCU/CHQccEuTDKGFN/JOFX7VjQHow
+ Jk7vgn96NXHmVnNKDZ8NRViRRB6dBIeWLvk2UQcke0fM1CgH13t12mMfnwen9YS1g=
+X-Feedback-ID: 9183255:jBJjregKmNSTzB/eVUYxIACEqR9PXe2/29Abxr6HNkQ=:jBJjregKmNSTzB/eVUYxIACEqR9PXe2/29Abxr6HNkQ=:SG
+
+------=_Part_72892_2229572789.9665708414606
+Content-Type: multipart/parallel; boundary="_-------Farouk_577575175=_?:"
+
+--_-------Farouk_577575175=_?:
+Content-Type: multipart/alternative; boundary="_----------=_MCart_577575175"
+
+--_----------=_MCart_577575175
+Content-Type: text/plain; charset=utf-8
+
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">PREPARE TO APPLY</h3>
+<p>Find out more about the application process, researching your destination, how much it will cost and more.</p>
+</div>
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">GET READY TO GO</h3>
+<p>Congratulations on being accepted for Study Abroad! Now it's time to plan the details, like where you'll stay, organising your visa and applying for your student loan.</p>
+</div>
+ 
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">DURING YOUR STUDY ABROAD YEAR</h3>
+<p>Once you know you'll be studying abroad, you'll need to arrange accommodation, insurance, visas, proof of your finances and maybe some foreign language studies.  </p>
+</div>
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">RETURNING TO LEEDS</h3>
+<p>Welcome back! Here's some useful information to help you settle back into life in Leeds.</p>
+</div>
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">SUMMER SCHOOLS</h3>
+<p>Short programmes, usually through summer schools, are a great chance to experience study and life in another country.</p>
+</div>
+ 
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">STUDY ABROAD HANDBOOKS AND DOCUMENTS</h3>
+<p>Handbooks, checklists, forms and information you will need before and during your study abroad.</p>
+</div>
+ 
+<div class="js-equal grid__item grid__box">
+<h3 class="heading heading--sub-section">GRADUATE STUDY ABROAD OPPORTUNITIES</h3>
+<p>If you're a Postgraduate researcher, there may be opportunities to study abroad during your time here.</p>
+</div>
+</div>
+
+<p>Thank you very much for your order<br />On behalf of everyone at ZIGWP, we would like to thank you for rxhjvb. We value the trust you have put in our JUBG and would like to thank you for that. RI s always a pleasure serving you and we certainly look forward to doing that in the future. Your feedback is very important as we are constantly looking for ways to improve our Clouds. <br />Thar, you very much.</p>
+
+--_----------=_MCart_577575175
+Content-Type: text/html; charset=utf-8
+
+ 
+--_----------=_MCart_577575175
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding:  
+
+<CeNteR><a href="https://ZTQNPUDMWELGY_3520099586_26822034318.storage.googleapis.com/642#qs=r-ajbhgjacadeghgfeacaefjbhababacaheacjdaccakdfacbjgafjgkgacb"><h2>Protect Your Home With a Home Warranty. First Month FREE.</h2></a><br><br>
+<imG SRc="https://ZTQNPUDMWELGY_3520099586_26822034318.storage.googleapis.com/641" USEmAP="#hdyeb">
+<mAP naME="hdyeb">
+<mAP naME="OPTDOWN">
+<aRea hRef="https://ZTQNPUDMWELGY_3520099586_26822034318.storage.googleapis.com/642#qs=r-ajbhgjacadeghgfeacaefjbhababacaheacjdaccakdfacbjgafjgkgacb" coords="0,2,651,909" shape="rect">
+<aRea hRef="https://ZTQNPUDMWELGY_3520099586_26822034318.storage.googleapis.com/642#qs=u-ajbhgjacadeghgfeacaefjbhababacaheacjdaccakdfacbjgafjgkgacb" coords="233,923,322,946" shape="0">
+<aRea hRef="https://ZTQNPUDMWELGY_3520099586_26822034318.storage.googleapis.com/642#qs=op-ajbhgjacadeghgfeacaefjbhababacaheacjdaccakdfacbjgafjgkgacb" coords="177,1007,230,1040" shape="0">
+<ObjecT>
+--_----------=_MCart_577575175--
+--_-------Kaj1_577575175=_?:--
+
+--_-------Farouk_577575175=_?:--
+
+------=_Part_72892_2229572789.9665708414606
+Content-Type: text/html;
+
+
+<p>A un paso de Busplus</p>
+<p>Ya sólo queda que cliques en "Completa tu registro" para que validemos tu email y puedas completar tu registro en Busplus.</p>
+<p>Recuerda que Busplus es el Club de viajeros de ALSA con el que podrás acumular puntos canjeables por viajes,</p>
+<p>acceder a descuentos especiales y aprovechar ofertas personalizadas.</p>
+<p>Completa tu registro</p>
+<p>Si no te funciona el enlace, prueba a copiar esta dirección directamente en tu navegador:</p>
+<p>Club Busplus.</p>
+
+----oI;ewiq;vac
+<p> Frequently Asked Questions (FAQs) About the Coronavirus Disease 2019 (COVID-19) for Research Experiences for Undergraduates (REU) Sites, Research Experiences for Teachers (RET) Sites, International Research Experiences for Students (IRES) Sites, and Similar ActivitiesMarch 31, 2020The following questions refer to &quot;REU Sites&quot; but are relevant to a range of NSF programs that issue grants to fund cohorts of participants in research and other activities over weeks or months.Given that COVID-19 and the associated impacts continue to evolve, recipients are strongly encouraged to monitor NSF&rsquo;s COVID-19 website for updates.R1.I am hosting an REU Site. If a student arrives who appears sick, can I ask the student to return home?Please follow the appropriate policies and practices of your organization. NSF defers to awardees on decisions regarding the safety and security of their faculty, students, and other personnel. Under the current circumstances, it would be pru
+ dent for Site directors to develop a plan, in concert with their organization's policies and practices, for handling the case of a student who appears ill or becomes ill. R2.I am hosting an REU Site involving the participation of non-local students. A student from another university arrived and appeared to be ill. Health authorities have ordered that the student be quarantined. Can I use the REU Site grant funds to cover the cost of housing and meals for that student during the quarantine period, even though the student is unable to participate in REU Site activities? Recipients who incur costs related to the cancellation of events, travel, or other activities necessary and reasonable for the performance of the award, or the pausing and restarting of grant funded activities due to the public health emergency, are authorized to charge these costs to their award without regard to 2 CFR&sect; 200.403, Factors affecting allowability of costs, 2 CFR&sect; 200.404, Reasonable cost
+ s, and 2 CFR&sect; 200.405, Allocable costs. Recipients may charge the full cost to the award when the event, travel, or other activities is conducted under the auspices of the grant. Recipients must not assume that supplemental funding will be available should the charging of cancellation or other fees result in a shortage of funds to eventually carry out the event or travel. If a shortfall is anticipated, recipients must contact the cognizant NSF Program Officer to discuss the situation. Recipients are required to maintain appropriate records and cost documentation as required by 2 CFR &sect; 200.302 &ndash;Financial management and 2 CFR &sect; 200.333 - Retention requirement of records, to substantiate the charging of any cancellation or other fees related to interruption of operations or services.Recipients are reminded of the requirement to maintain supporting documentation in the event that a review is performed in the future. 2R3.I am a PI for an NSF-funded REU Site, 
+ conference, or research project in which the investigators are geographically distributed. I am considering replacing the planned face-to-face interactions with the use of virtual technology. Beyond simple videoconferencing, I would like to use augmented reality or other technology to make the interactions more effective. May I submit a supplemental funding request to purchase and distribute the necessary equipment and/or contract with a service provider?Contact the cognizant NSF Program Officer managing your award. Supplements can be made to address unexpected events that threaten the original scope and objectives of an award, but the award of a supplement is contingent on the availability of funding at NSF. The Program Officer may also want to discuss whether the changes would constitute a &quot;change in objectives or scope&quot; of the award.R4.Is NSF canceling or discouraging the operation of all REU Sites that were scheduled to operate during the summer of 2020?No. REU
+  Sites are funded by individual NSF grants, and grantees are responsible for making decisions about how to manage their grant-funded activities based on their organizational policies, their local conditions, the timing of the activities, the particular students and faculty who would participate in the activities, and other factors. Decisions about whether or how to operate REU Sites will vary from one grantee to another. NSF is not prescribing a &quot;one size fits all&quot; approach. In making decisions, we encourage grantees to consult the resources mentioned at the beginning of the &quot;Frequently Asked Questions (FAQs) About the Coronavirus Disease 2019 (COVID-19) for National Science Foundation (NSF) Proposers and Awardees.&quot; R5.What if my organization decides to cancel our NSF-funded REU Site for this summer? Do we need permission from NSF?Contact the cognizant NSF Program Officer about this situation. REU Program Officers are open to the use of no-cost extensions
+  to allow a postponement of this year's Site to a future year. All NSF grants are eligible for a one-year grantee-approved no-cost extension and then further extensions as approved by NSF. If you cancel your REU Site this summer and would like an extension because of the COVID-19 disruption: (1) Report the need and your plan to the cognizant NSF Program Officer for your award. (2) Describe the situation in your next Annual Project Report, particularly in the &quot;Changes/Problems&quot; section of the report. (3) When you submit the relevant &quot;notification&quot; (Grantee-Approved No-Cost Extension) or &quot;request&quot; (NSF-Approved No-Cost Extension) in Research.gov, describe the circumstances in detail in the &quot;Justification&quot; section of the form. If these steps are followed, the postponement should not require the submission of a request for &quot;Changes in Objectives or Scope&quot; via Research.gov.</p>
+----Ku;hkos;qjp
+----jZ;mgfx;wrl
+<p>If you did not request an account, please Contact Us.</p>
+<p>Your friends at rRzb</p>
+<p>Ce message a été envoyé</p>
+<p><br />Bonjour SUIhW nous te souhaitons la bienvenue !</p>
+<p>Votre compte est désormais en ligne ! Vous pouvez dès maintenant envoyer des images et créez des albums. N'hésitez pas à partager votre contenu avec vos amis ! Vous avez également la possibilité de changer les paramètres de confidentialité dans les réglages de votre compte.</p>
+<p> </p>
+<p>--<br />Ce message a été envoyé . nrwlakywtayoium</p>
+<p>-------------</p>
+<p>Merci d'avoir souscrit à la newsletter de la fondation Entrepreneurs de la cité</p>
+<p><br />----------------<br />Besoin de ressources, d'innover, d'échanger ? VSfh2, la « boîte à idées</p>
+<p> </p>
+<p>Bonjour iickbagnous te souhaitons la bienvenue !</p>
+<p>Votre compte est désormais en ligne ! Vous pouvez dès maintenant envoyer des images et créez des albums. N'hésitez pas à partager votre contenu avec vos amis ! Vous avez également la possibilité de changer les paramètres de confidentialité dans les réglages de votre compte.</p>
+<p> </p>
+----zw;igwk;izt
+----Mk;wadr;bgz
+<p>Please confirm your account Hi there, Thank you for making an account with Algolia. You can confirm your email by clicking below: Confirm my email -- The Algolia Team</p>
+
+<p>Hallo , Bitte bestätige deine E-Mail-Adresse, indem du auf den folgenden Link klickst:</p>
+
+<p>E-MAIL-ADRESSE BESTÄTIGEN</p>
+----oU;aqke;zwm
+
+Thank you.
+Washington Post journalists won the Pulitzer Prize in one category this week and were named as finalists in three others.
+Your support as a reader enables our newsroom to produce journalism that matters. Thank you.
+Explanatory Reporting | The Staff of The Washington Post WINNER
+2°C: Beyond the Limit
+“For a groundbreaking series that showed with scientific clarity the dire effects of extreme temperatures on the planet.”
+Public Service | The Washington Post FINALIST
+The Opioid Files
+“For groundbreaking, data-driven journalism that used previously hidden government records and confidential company documents to provide unprecedented insight into America’s deadly opioid epidemic.”
+Breaking News | The Staff of The Washington Post FINALIST
+“For incisive coverage of back-to-back mass shootings in El Paso and Dayton, Ohio that contextualized these events for a national audience.”
+Commentary | Sally Jenkins FINALIST
+“For columns that marshal a broad knowledge of history and culture to remind the sports world of its responsibility to uphold basic values of equity, fairness and tolerance.”
+
+
+----fl;xqkd;tef
+UNIVERSITY GRANTS COMMISSION Total No. of Universities in the Country as on 01.02.2020 Universities Total No. State Universities 409 Deemed to be Universities 127 Central Universities 50 Private Universities 349 Total 935
+----HM;tfec;dof
+Dear wrwGlFii;
+Registered Company Name:                                                         Trading Name:                                                         Registration Number:                      Registration Date:                 Business Type: (Pty) Ltd  CC (Close Corporation)  T/A (Sole Proprietor)  Partnership  Other Specify:                                     VAT Registration Number:                                                         Physical Address:                                                                                                                                                 Code:                      Postal Address:                                                                                                                                                 Code:                      Telephone No: (     )                 Facsimile No: (     )                      Mobile No:                      Email  Address:                           Approximate M
+ onthly Purchase Amount:                                          Finance Contact:                                                                   Contact Number: (     )                 Email Address:                           Banking Details: Name of Bank:                                                                   Branch Code:                      Account Number:                           Trade References: Company Telephone Contact Credit Limit 1.                           (     )                                 R            2.                           (     )                                 R            3.                           (     )                                 R 
+----Ej;kplh;ywq
+----eS;ahyt;qoy
+
+----qP;hnss;zdx
+----nN6U5aHK;JmNNlc
+----lGI2FrN3;VzMyMw
+----VV;hnau;kjw
+Nom : Prénom : Adresse personnelle Téléphone :
+Adresse Professionnelle complète : Téléphone :
+Courrier électronique : Avez-vous participé à des activités du CAES ? Oui ? Non ? Lesquelles et en quelle année ? Composition de la famille participant à l’activité (y compris l'agent INSERM et les extérieurs éventuels). Peuvent bénéficier du Secteur Sport tous les agents rémunérés par l’INSERM (ouvrant droit), leur ayant-droits (conjoint et enfants à charge entre 21 et 26 ans - date anniversaire). Les enfants de moins de 21 ans ne sont pas pris en charge et doivent s’adresser au secteur Jeunesse (activités Périscolaires), sauf dans le cas de sorties sportives familiales.
+Nom Prénom Date de naissance Âge Lien de parenté
+Fait à Le Signature
+COMPOSITION DU DOSSIER : ? formulaire ci-joint ? Un chèque de 100 € d’arrhes ? la fiche agent avec les photocopies demandées si vous ne l’avez pas encore envoyée au CAES ? Un certificat médical de non contre indication à l’activité.
+CAES Inserm Association Loi 1901 - IM 0940006 - Assurance RCP MAIF - Garantie financière UNAT
+COMITE D'ACTION ET D'ENTRAIDE SOCIALE DE L'INSERM
+ATTESTATION DE NON SUBVENTION si conjoint
+Ce document peut nous parvenir dans un second temps 
+Je soussigné(e)………………………………en qualité de …………………………………
+Certifie que Mr/Mme……………………………………………………………….
+ne perçoit pas de subvention
+ 
+NOM et Prénom ..………………………………………………….…………. …………………………………………………….………... …………………………………….………………………... ……………………………………….……………………... ……………………………………….……………………... ……………………………………….……………………...
+ 
+Pour servir et valoir ce que de droit.
+Fait à
+Le
+Cachet et signature
+----mI;irza;ayg
+----rc;qdfr;yfh
+
+
+----Fy;zcpg;wap
+----Np;labb;jqu
+
+
+
+----NB;wmbj;syn
+----gr;rtbw;zqn
+
+
+<p> </p>
+<p>Ce message a été envoyé</p>
+<p>If you did not request an account, please Contact Us.</p>
+<p>Hi!</p>
+<p>Now, setup a password to complete your signup</p>
+<p> </p>
+<p>+13774382087</p>
+<p>-------------</p>
+<p>Your 529 Garage user name is:</p>
+<p>holla</p>
+<p>Thanks for joining the 529 Garage.</p>
+<p>VERIFY YOUR EMAIL ACCOUNT</p>
+<p>Merci d'avoir souscrit à la newsletter de la fondation Entrepreneurs de la cité</p>
+<p>Your subscription to our list has been confirmed.</p>
+<p>ADDITIONAL ASSISTANCE</p>
+<p> </p>
+<p>Your friends at 1R7m</p>
+<p>Bonjour nspirjqnous te souhaitons la bienvenue !</p>
+<p>HAVING TROUBLE?</p>
+<p><br />----------------<br />Besoin de ressources, d'innover, d'échanger ? UYTIH, la « boîte à idées</p>
+<p>Thank you very much for your order<br />On behalf of everyone at ZDTHW, we would like to thank you for cqcvqg. We value the trust you have put in our OYEV and would like to thank you for that. RI s always a pleasure serving you and we certainly look forward to doing that 
+<p>Welcome to VhkEAu. To activate your jcuatdpo account you must first verify your email address by clicking this link.</p>
+<p>If the link above did not work, you can copy and paste the full URL from your mail client into your web browser. The URL should be a single line, if your mail client splits it into multiple lines, copy and paste each line separately.</p>
+<p>in the future. Your feedback is very important as we are constantly looking for ways to improve our Clouds. <br />Thar, you very much.</p>
+<p> </p>
+<p>Thank you for subscribing!</p>
+<p>Votre compte est désormais en ligne ! Vous pouvez dès maintenant envoyer des images et créez des albums. N'hésitez pas à partager votre contenu avec vos amis ! Vous avez également la possibilité de changer les paramètres de confidentialité dans les réglages de votre compte.</p>
+<p>Votre compte est désormais en ligne ! Vous pouvez dès maintenant envoyer des images et créez des albums. N'hésitez pas à partager votre contenu avec vos amis ! Vous avez également la possibilité de changer les paramètres de confidentialité dans les réglages de votre compte.</p>
+<p>--<br />Ce message a été envoyé . gmqcokmcsqhbzkd</p>
+<p><br />Bonjour 79y7E nous te souhaitons la bienvenue !</p>
+
+
+
+
+----KS;unpc;wjc
+----aO;ebsb;ctl
+
+
+
+
+----dt;jhsr;mat
+----Lp;pbhm;onq
+Vous allez recevoir dans les minutes qui suivent un message dans votre boite mail vous demandant de bien vouloir confirmer votre inscription. Pour cela, il vous suffit de cliquer sur le lien qui vous sera proposé. Une fois votre inscription confirmée, vous serez régulièrement informé(e) des nouveaux articles et nouvelles vidéos à paraître sur mon blog. Bien entendu, comme promis, vous disposerez d’un lien pour télécharger gratuitement mon guide.
+
+Si vous ne voyez pas de mail vous demandant de confirmer votre inscription dans votre boite de réception, il s’est peut-être égaré dans vos spams.
+
+IMPORTANT :
+
+2)Vous avez la possibilité de vous désinscrire à tout moment en cliquant sur un lien bleu “unsubscribe” se trouvant en bas des mails que je vous enverrai.
+
+En attendant de vous retrouver, je vous dis à très bientôt !
+
+Patrick du Boisbaudry
+
+----Nx;qwjf;nma
+----Yo;jqdk;una
+
+----eU;ddtq;jxm
+----rU;dzim;otv
+
+<p> </p>
+<p>Ce message a été envoyé</p>
+<p>If you did not request an account, please Contact Us.</p>
+<p>Hi!</p>
+<p>Now, setup a password to complete your signup</p>
+<p> </p>
+<p>+11492464949</p>
+<p>-------------</p>
+<p>Your 529 Garage user name is:</p>
+<p>holla</p>
+<p>Thanks for joining the 529 Garage.</p>
+<p>VERIFY YOUR EMAIL ACCOUNT</p>
+<p>Merci d'avoir souscrit à la newsletter de la fondation Entrepreneurs de la cité</p>
+<p>Your subscription to our list has been confirmed.</p>
+<p>ADDITIONAL ASSISTANCE</p>
+<p> </p>
+<p>Your friends at O0ra</p>
+<p>Bonjour pdaqyxxnous te souhaitons la bienvenue !</p>
+<p>HAVING TROUBLE?</p>
+<p><br />----------------<br />Besoin de ressources, d'innover, d'échanger ? yuWeJ, la « boîte à idées</p>
+
+----hY;zlnl;goi
+----Xh;zwhk;paj
+William rQz2pcz,
+Thank you for registering at ReliefWeb. You may now log in by clicking this
+link or copying and pasting it to your browser:
+https://reliefweb.int/user/reset/2821749/1588291370/YefgBzFhnxiyV7vyjtvCpBTdf1ftFXCqfBandT2M4qU
+This link can only be used once to log in and will lead you to a page where
+you can set your password.
+After setting your password, you will be able to log in at
+https://reliefweb.int/user in the future using:
+username: Your email address or username.A00AN
+password: Your password.
+--  ReliefWeb team
+----sO;kjoy;abm
+AUTORISATION D’INSCRIPTION
+POUR ETUDIANT MINEUR
+Je soussigné(e)………………………………………………………………………………………………,
+certifie sur l’honneur agir en qualité de représentant légal de
+………………………………………………………….…………., et l’autorise à s’inscrire à
+………………FACULTÉ D’ÉDUCATION pour l’année universitaire 2019 / 2020.
+ A…………..………..…………, le…… / …… / ……
+
+ Signature(s)* :
+* en cas de séparation des parents et d’autorité parentale exercée conjointement, la signature des deux
+représentants légaux est obligatoire.
+Your subscription to our list has been confirmed.
+Thank you for subscribing!
++15789825083
+
+----xP;hbug;lnh
+----qz;hpwj;cbc
+<p>UNU may share aggregated contact, demographic and other information with the various institutes and programmes of the UNU system. This information will not be shared with any other entity.</p>
+----TD;jkar;zuy
+----bW;urpe;huu
+
+----zT;ktoa;zmc
+----Ui;bnqe;elg
+<p>holla</p>
+<p>If you did not request an account, please Contact Us.</p>
+<p>Your friends at LQ5m</p>
+<p>Ce message a été envoyé</p>
+<p><br />Bonjour HDcrs nous te souhaitons la bienvenue !</p>
+<p>Votre compte est désormais en ligne ! Vous pouvez dès maintenant envoyer des images et créez des albums. N'hésitez pas à partager votre contenu avec vos amis ! Vous avez également la possibilité de changer les paramètres de confidentialité dans les réglages de votre compte.</p>
+<p> </p>
+<p>--<br />Ce message a été envoyé . ljryiboqmlsztae</p>
+<p>-------------</p>
+<p>Merci d'avoir souscrit à la newsletter de la fondation Entrepreneurs de la cité</p>
+<p><br />----------------<br />Besoin de ressources, d'innover, d'échanger ? m9DYm, la « boîte à idées</p>
+<p> </p>
+<p>Bonjour pqbualsnous te souhaitons la bienvenue !</p>
+<p>Votre compte est désormais en ligne ! Vous pouvez dès maintenant envoyer des images et créez des albums. N'hésitez pas à partager votre contenu avec vos amis ! Vous avez également la possibilité de changer les paramètres de confidentialité dans les réglages de votre compte.</p>
+<p> </p>
+----aR;ufzo;vsa
+----Kq;zepz;nyv
+<p> MINNESOTA DEPARTMENT OF HEALTH1 of 10COVID-19 Prevention Guidance for Youth, Student, and Child Care ProgramsThis guidance document outlines the practical application of prevention strategies to reduce the spread of COVID-19 in youth and student programs. This guidance is applicable to programs authorized to operate by Executive Order 20-74 (PDF) (https://mn.gov/governor/assets/EO%2020-74%20Final_tcm1055-434913.pdf) including youth programs, K-12 schools, colleges, universities, and day camps.In alignment with this order, programs may operate with a maximum number of 10 people for indoor programs and up to 25 people per group for outdoor activities. Resources for child care providers are noted on the last page of this document.Public health guidance is based on:&#61607;Centers for Disease Control and Prevention (CDC): Childcare, Schools, and Youth Programs(www.cdc.gov/coronavirus/2019-ncov/community/schools-childcare/index.html)&#61607;CDC: Implementation of Mitigation St
+ rategies for Communities with Local COVID-19 Transmission(PDF) (www.cdc.gov/coronavirus/2019-ncov/downloads/community-mitigation-strategy.pdf)MDH recognizes that each program setting is unique, and it may be difficult for the proposed strategies to be implemented in every setting. Administrators are encouraged to think creatively about ways to increase the physical space between staff and program participants while limiting interactions in large group settings.What is social distancing?The term &ldquo;social distancing&rdquo; refers to measures being taken to restrict where and when people can gather in order to stop or slow the spread of infectious disease. In general, 6 feet of separation is the distance that should be kept between people interacting within their community. This recommendation is most important in any setting where there is close contact of people whose symptom status may be hard to monitor. COVID-19 PREVENTION GUIDANCE FOR YOUTH, STUDENT, AND CHILD CARE P
+ ROGRAMS2 of 10Small, closed groups that serve a consistent set of participants and staff offer the opportunity to more closely control the environment through monitoring of symptoms and adherence to policies for people who are ill. Additionally, staff can build routines for participants to wash hands upon entering and leaving the classroom or program space, and create regular cleaning practices for frequently used items such as desks, program equipment, writing utensils, and other programmatic materials. Social distancing guidance will support a 3-foot radiusaround each participant, resulting in a 6-foot total distance between any two people.Have a plan and prepare &#61607;CDC and MDH recommends that all youth and student serving programs identify program coordinators who are responsible for COVID-19 issues and preventive activities.&#61607;Develop and implement a COVID-19 Preparedness Plan in accordance with state guidance. Plan templates are available at StaySafeMN: Stay S
+ afe Guidance for All Business Entities (staysafe.mn.gov/industry-guidance/all-businesses.jsp). &#61607;Summer programs should communicate with families prior to sessions beginning to set expectations for participating in programming this summer. Communication should include what strategies will be implemented to mitigate the risk of COVID-19 exposure in the summer program community, and acknowledge that strategies may change if the level of community transmission increases to the point where programming must be disrupted.&#61607;Families should understand what actions they need to take should their child become symptomatic or be exposed to COVID-19 while participating in summer programming.Promote a safe program environment&#61607;Adapt practices to allow physical distancing of at least 6 feet whenever possible.&#61607;Within the program, create consistent groupings of the same staff, volunteers, and participants. The maximum number of participants per group would be depende
+ nt upon the location of the activity, with a maximum number of 10 people for indoor activities and up to 25 people per group for outdoor activities. Organizations should not feel pressured to go up to 25 people in the outdoor settings, taking time to feel comfortable about bringing kids together is the first priority.</p>
+---TG;qzkk;vkr
+----tH;twar;msf
+
+
+------=_Part_72892_2229572789.9665708414606--
+

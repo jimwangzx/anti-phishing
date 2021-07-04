@@ -1,0 +1,46 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp3367547lfi;
+        Thu, 30 Apr 2015 11:59:25 -0700 (PDT)
+X-Received: by 10.181.13.198 with SMTP id fa6mr8187208wid.41.1430420365793;
+        Thu, 30 Apr 2015 11:59:25 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::22f])
+        by domain.com with ESMTPS id rz10si5148443wjb.13.2015.04.30.11.59.25
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Apr 2015 11:59:25 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22f as permitted sender) client-ip=2a00:1450:400c:c05::22f;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22f as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-wi0-domain.com with SMTP id di4so28522019wid.0
+        for <user@domain.com>; Thu, 30 Apr 2015 11:59:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Josh Lipsky <joshua.lipsky@gmail.com>
+         :content-type;
+        bh=ElJwTl10ZXZXXC+0Ta5Lx3dEc0OZ6nV3PE1ZVr4bQ2M=;
+        b=C8dOh85icqqPmxqzE+K8rP48az0D1SUXOCZZuzz8gDuw0PG2F9g8k3SOQfz9xU/A/I
+         WgocMuXRm2XPJrOlm0cFouFDYdTrfGmn7FNULkmpuPmYXTgT9pMWTwkIAwiVKD1/v8jK
+         c1FhGS3lj217+6QtPa2Y2gz7rmhZ1U1IVyo2iKarrHix5acGCeqV1fil5WNfrxeUgvOI
+         pXXTcbxA6g28eWkcDesn9eFmAg3Kmp4mxm8RNaNlB+yyBgFtb7f56j8esND98WLiOw7N
+         cndfreZJCO67BByIVzKCiWW/xmkuXMk59hY7YaYZIBPsFvS5nN59/MJnbHrFWBCElat6
+         zx/Q
+MIME-Version: 1.0
+X-Received: by 10.194.24.70 with SMTP id s6mr2458946wjf.25.1430420365582; Thu,
+ 30 Apr 2015 11:59:25 -0700 (PDT)
+Received: by 10.27.48.75 with HTTP; Thu, 30 Apr 2015 11:59:25 -0700 (PDT)
+In-Reply-To: <CAE6FiQ920G6qL+rUcDj-ZdbsfnFj+user@domain.com>
+References: <CAJwn6q0zoq06rNkcmh+user@domain.com>
+	<CAE6FiQ920G6qL+rUcDj-ZdbsfnFj+user@domain.com>
+Date: Thu, 30 Apr 2015 14:59:25 -0400
+Message-ID: <CAJwn6q2qMGc3OPZJ+user@domain.com>
+Subject: Re: Paper Logistical Question
+From: Josh Lipsky <joshua.lipsky@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7b4724d8c524f70514f5b16d
+
+Copy that - thanks.
+
+On Thu, Apr 30, 2015 at 2:57 PM, John user <user@domain.com>

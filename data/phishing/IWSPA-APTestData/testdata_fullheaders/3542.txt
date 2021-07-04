@@ -1,0 +1,90 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Sat, 1 Mar 2015 07:17:52 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s21FHpfM027887	for <user@domain.com>; Sat, 1 Mar 2015 
+ 15:17:51 GMT
+Received: from mail102-am1-domain.com (mail-domain.com
+ [213.199.154.203])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s21FJ0De009181
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Sat, 1 Mar 2015 15:19:01 GMT
+Received: from mail102-am1 (localhost [127.0.0.1])	by
+ mail102-am1-domain.com (Postfix) with ESMTP id 39B9E1C08A8	for
+ <user@domain.com>; Sat,  1 Mar 2015 15:17:50 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:65.39.215.97;KIP:(null);UIP:(null);SRV:BULK;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 6
+X-BigFish: vps6(z579ehz758Ic857hdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h2ba5I1de097h186068h172c6ch1ce120h85bfl1a691ci177f16iz2fheh5fh839h8aahe5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h2565h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail102-am1: domain of domain.com designates 65.39.215.97 as permitted sender) client-ip=65.39.215.97; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail102-am1 (localhost.localdomain [127.0.0.1]) by mail102-am1
+ (MessageSwitch) id 1393687068335775_24267; Sat,  1 Mar 2015 15:17:48 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.237])	by
+ mail102-domain.com (Postfix) with ESMTP id 440F348006A	for
+ <user@domain.com>; Sat,  1 Mar 2015 15:17:48 +0000 (UTC)
+Received: from mx-domain.com (65.39.215.97) by domain.com
+ (10.3.207.103) with Microsoft SMTP Server id 14.16.227.3; Sat, 1 Mar 2015 
+ 15:17:48 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Deadline.com <alerts@deadline.com>
+ bh=lqfq4ql2B426mt5fyYqJbHqxjz4=;
+ b=eJvD9gLLPKBsl02jD55v48tTwnguTa0Q5pbpvA/xEJXSmzIgiVOmxX0yjxcN9fQ2YezLkCMrqe32
+   FXqpC1b6y1+Q4iEpjhqhsUEJjlX+wdnNRKG7idsdzrWo4kF8J8n8oNnUIKViu/3RSEzg3qUNkq2M
+   cQs3aL1Ws0pw0K40Np8
+Received: from nyp1-jmailer6.sailthru.pvt (64.34.57.230) by mx-domain.com
+ id h27t1o1qqbs6 for <user@domain.com>; Sat, 1 Mar 2015 10:17:47 -0500
+ (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1393687067;
+	s=sailthru; d=deadline.com;
+	h=Date:From: Deadline.com <alerts@deadline.com>
+	bh=JLmLSI3RQoChhHtyNAZokQzJD9Cn9DzkF+kX1Ann63M=;
+	b=fIduMSZc0OCzbpoGwE37a8wXWYdZIJkHjSjGDU0CPaNTYNZc3lokVUrnzm8JvB80
+	5HSndN7wy3SqJfUhwgT7/SqlNwHoEnxTrPp8cNrW+lGA5gsRJNYO/u1W4K0SLQKY6mF
+	kAaihbaaUoPMcfNhiThxy5TJCkP5QfaqmwqDKwME
+Date: Sat, 1 Mar 2015 10:17:47 -0500
+From: Deadline.com <alerts@deadline.com>
+To: <user@domain.com>
+Message-ID: <20140301151747.2454839.5925@domain.com>
+Subject: [domain.com] BOX OFFICE: 'Non-Stop,' 'Son Of God' Fly Past 'Lego'
+ On Wings And A Prayer; 'Lego' Passes $200M
+Precedence: bulk
+X-TM-ID: 20140301151747.2454839.5925
+X-Info: Message sent by domain.com customer Deadline
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stdgp2454839
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+[domain.com] BOX OFFICE: 'Non-Stop,' 'Son Of God' Fly Past 'Lego' On Wings And A Prayer; 'Lego' Passes $200M
+
+ <<link>>   
+
+<<link>>        
+
+ <<link>>   
+
+<<link>>        
+
+ <<link>>   
+
+Weekend Box Office News Alert:
+
+BOX OFFICE: 'Non-Stop,' 'Son Of God' Fly Past 'Lego' On Wings And A Prayer; 'Lego' Passes $200M 
+
+OPENING: Non-Stop (UNI) the Liam Neeson airplane suspense thriller looks to take No. 1 with a new $28.5M to $30M estimate; Son of God (FOX) a blessing from $23.5M to $25M now expected at $25M+ to $28M for No. 2; NOTEWORTHY: Expanding is The Wind Rises (DIS) to take a nice $1.5M for the three-day. UPDATED Saturday, 7 AM: Estimates have been pushed higher for Uni's Non-Stop Saturday morning showing Read more... 
+
+
+

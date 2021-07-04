@@ -1,0 +1,48 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 8AA5A23CA85;
+	Tue, 11 Dec 2015 14:05:47 -0600 (CST)
+X-Virus-Scanned: amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id wlMFCIVaxRa0; Tue, 11 Dec 2015 14:05:45 -0600 (CST)
+Received: from domain.com (domain.com [201.20.32.91])
+	by domain.com (Postfix) with ESMTP id AA3E923CA83;
+	Tue, 11 Dec 2015 14:05:45 -0600 (CST)
+Received: from domain.com (unknown [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id EC2FE4F7AD6;
+	Tue, 11 Dec 2015 20:00:46 +0000 (UTC)
+Received: by domain.com (Postfix, from userid 48)
+	id 97CBB4F7A2C; Tue, 11 Dec 2015 20:00:46 +0000 (UTC)
+Received: from 41.71.148.214 ([41.71.148.214]) by domain.com
+ (Horde Framework) with HTTP; Tue, 11 Dec 2015 18:00:43 -0200
+Message-ID: <20121211180043.21353user@domain.com>
+Date: Tue, 11 Dec 2015 18:00:43 -0200
+From: webmail system administration <info@mail.org>
+To: undisclosed-recipients:;
+Subject: Your mailbox has exceeded the storage domain.com 2.GB
+MIME-Version: 1.0
+Content-Type: text/plain;
+ charset=ISO-8859-1;
+ DelSp="Yes";
+ format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+User-Agent: domain.com Messaging Program (IMP) H3 (4.3.6)
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 168
+
+Your mailbox has exceeded the storage domain.com 2.GB
+Posted by admin, 2.30GB currently can not be able to send or receive  
+new mail until you validate your mailbox
+
+To re-validate your mailbox. click the link below:
+
+<>
+
+thanks
+system administrator

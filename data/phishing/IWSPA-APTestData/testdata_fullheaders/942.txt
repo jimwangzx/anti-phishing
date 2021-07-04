@@ -1,0 +1,83 @@
+Delivered-To: user@domain.com
+Received: by 10.64.110.202 with SMTP id ic10csp474947ieb;
+        Fri, 12 Oct 2015 09:20:29 -0700 (PDT)
+Received: by 10.236.197.5 with SMTP id s5mr4598411yhn.114.1350058828315;
+        Fri, 12 Oct 2015 09:20:28 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [8.21.238.160])
+        by domain.com with ESMTP id h12si3609815ann.52.2012.10.12.09.20.22;
+        Fri, 12 Oct 2015 09:20:28 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 8.21.238.160 as permitted sender) client-ip=8.21.238.160;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 8.21.238.160 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Return-Path: <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb1; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1350058620;
+	h=From: "Sean Patrick Maloney " <sean@seanmaloney.com>
+	bh=P+V0WCEj5MHPT2s/cRY2KS26zDE=;
+	b=C6GS7383JSjxnWlBczIYBy0X6UB33QRLWfQbZheDfWuKqyXtRTzBWT4uRhAYAweb
+	tEAAyhg505wYo/YcdxqkuA==;
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=ngpweb2; d=domain.com;
+	h=X-MSFBL:Received:X-CampaignID:X-BroadcastID:X-ContactID:X-Binding:Sender:List-Unsubscribe:Reply-To:From: "Sean Patrick Maloney " <sean@seanmaloney.com>
+	b=qJ0Lpp7cI/0FIm+bChTW39L9ssJJrN4DQJgepzQCL+NnO3aUErLFZiZlnmvtjrYb
+	Q08CaH5RSIr3SBLSHeQecA
+X-MSFBL: am9obi5wb2Rlc3RhQGdtYWlsLmNvbUBtYWlsb3V0Mjg2QGRlZmF1bHRncm91cDA1
+	QGJvdW5jZV84MzczODItNDQwMS02Mjc0MDMzNy0xMDYwNzk5OV9U
+Received: from [10.0.1.53] ([10.0.1.53:4337] helo=TIAPP02B)
+	by domain.com (envelope-from <user@domain.com>)
+	(ecelerity 3.3.2.44647 r(44647)) with ESMTP
+	id E1/15-17662-C7248705; Fri, 12 Oct 2015 12:17:00 -0400
+X-CampaignID: 4401
+X-BroadcastID: 837382
+X-ContactID: 10607999
+X-Binding: default
+Sender: "Sean Patrick Maloney " <user@domain.com>
+List-Unsubscribe: <<<link>>>
+Reply-To: user@domain.com
+From: "Sean Patrick Maloney " <sean@seanmaloney.com>
+To: user@domain.com
+Message-ID: <8099user@domain.com>
+Date: Fri, 12 Oct 2015 12:20:22 -0400
+Subject: did you see Joe?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----42C8C873F60F48AE80D3019698CE029A"
+
+John,
+
+Did you see Joe last night? Amazing=2E He didn't let Paul Ryan get away
+ with anything=2E
+
+Like the Vice President said: Facts matter=2E But with Karl Rove, Grove
+r Norquist, and the entire right wing lined up to smear my record, I ne
+ed to raise another $7,453 by midnight tonight to get new ads up on TV 
+and set the record straight=2E
+
+With 25 days left, we have to hurry before their lies take hold=2E
+
+If you liked what you saw last night, rush $20 or more before our midni
+ght deadline to help us do the same thing here in New York=2E
+
+<<link>>
+121012d&amounts=3D20,50,100,250,1000
+
+I don't know about you, but I'm pumped this morning=2E
+
+Let's go win=2E
+
+Sean
+
+--
+
+Paid for by Sean Patrick Maloney for Congress
+
+Sean Patrick Maloney for Congress
+18 W Main St
+Beacon, NY 12508
+
+To unsubscribe from this mailing list, click here - <<link>>
+gp=2Ecom/unsubscribe=2Easpx?crypt=3DCasv%2frrJxGAq9DTl%2f1OHiHqjYnYu9HW
+Tmdl0CA%2fEFGA%3d
+
+Powered by NGP VAN, Inc=2E
+

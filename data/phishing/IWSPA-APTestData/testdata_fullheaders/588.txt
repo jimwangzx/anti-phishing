@@ -1,0 +1,93 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.70 with SMTP id n64csp314849qga;
+        Thu, 19 Jun 2015 06:03:12 -0700 (PDT)
+X-Received: by 10.224.138.9 with SMTP id y9mr6848727qat.1.1403182992583;
+        Thu, 19 Jun 2015 06:03:12 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [69.25.201.197])
+        by domain.com with ESMTP id x10si6449071qae.66.2014.06.19.06.03.12
+        for <user@domain.com>;
+        Thu, 19 Jun 2015 06:03:12 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.25.201.197 as permitted sender) client-ip=69.25.201.197;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 69.25.201.197 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (localhost [127.0.0.1])
+	by mta-domain.com (Postfix) with ESMTP id 3gvNcJ2BTTzFpTm
+	for <user@domain.com>; Thu, 19 Jun 2015 09:03:12 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1403182992;
+	bh=OkYYaFrGj8k+o/PMgxdEy0CN8oIKXiA1txckgqJ3KJA=;
+	h=Date:To:From: Kirsten Gillibrand <info@seanmaloney.com>
+	 MIME-Version:Content-Type;
+	b=dsMUIH/yGexe6e1vK5fzqcSAJ8oABTjdep4XVlsIphpeVKFn0+YEzUlh9PA6Ipw8n
+	 CL2RLHGZRCuFk5CDYM5uk8HmNu1ELmshm2ADI1uM0xGOW/MeuBliAnWuRj52bs3zhx
+	 fGIeNhxWoxz2nTFDNx8K2Aife9qGW7Dn0mf0qvvY
+Received: from build 
+	by domain.com with local (PHPMailer);
+	Thu, 19 Jun 2015 13:03:12 +0000
+Date: Thu, 19 Jun 2015 13:03:12 +0000
+To: John user <user@domain.com>
+From: Kirsten Gillibrand <info@seanmaloney.com>
+Reply-to: user@domain.com
+Subject: Sean's Getting Married!
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 670779506cb0b6ab
+X-rpcampaign: rp_20068
+X-maillist-guid: CARaWg0BHz1TBAACBlwGUVVaUgJWAQRRa1NdC1gaRQsBAEVBAiQBWQRaXBtSCl5oUAoI
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_b4c3764908cbde308cb834a6b71d92eb"
+
+
+
+
+John,
+
+I could not be more thrilled that after 22 years of love and partnership, 
+my friend Sean Maloney is marrying his partner Randy Florke this Saturday.
+
+Since their first meeting at a New York City disco in 1992, Sean and Randy 
+have supported each other's remarkable career ambitions and deep 
+dedication to parenting three amazing children - Reiniel, Daley and Essie.
+
+I know that your support means so much to Sean, and I would love to 
+present him and Randy with a guest book on their wedding day, full of your 
+names and well wishes.
+
+Will you join me in signing the guest book?
+
+Click here to sign the guest book and congratulate Sean and Randy. We will 
+print it to present to the happy couple after the wedding Saturday.
+
+<<link>>
+=3Duser&user@domain.com&zip=3D20016
+
+Having stood side-by-side with Sean on issues that matter, I can hardly 
+domain.com for him to take the most meaningful stand of his life.
+
+Not only does this wedding formally recognize the partnership of two 
+incredibly devoted people - something their kids have been eager to see - 
+but it also celebrates the growth of our country, toward recognizing every 
+love and every family.
+
+Thanks for taking a moment to sign the guest book. I know Sean and Randy 
+will be honored.
+
+<<link>>
+=3Duser&user@domain.com&zip=3D20016
+
+- Kirsten
+
+---
+
+This email was sent to user@domain.com
+To unsubscribe from the Sean Patrick Maloney for Congress email list, 
+please click here: <<link>>
+=3user@domain.com
+
+PAID FOR BY SEAN PATRICK MALONEY FOR CONGRESS
+

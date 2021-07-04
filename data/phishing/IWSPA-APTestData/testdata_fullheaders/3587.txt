@@ -1,0 +1,326 @@
+Delivered-To: user@domain.com
+Received: by 10.141.82.1 with SMTP id j1cs170725rvl;
+        Fri, 11 Jul 2015 15:17:10 -0700 (PDT)
+Received: by 10.151.141.16 with SMTP id t16mr16699396ybn.50.1215814629374;
+        Fri, 11 Jul 2015 15:17:09 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2122.domain.com (yw-out-2122.domain.com [74.125.46.25])
+        by domain.com with ESMTP id 5si58226ywd.8.2008.07.11.15.17.07;
+        Fri, 11 Jul 2015 15:17:09 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.25 as permitted sender) client-ip=74.125.46.25;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.25 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2122.domain.com with SMTP id 1so3922996ywp.45
+        for <user@domain.com>; Fri, 11 Jul 2015 15:17:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Ian Mandel" <ian@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=VvOfLz13VtS0bpFN51Xf9kdadkVGBvfhD9/zKwAkMso=;
+        b=pPEA1EBNqSr/As+SJ2hrA+DHSsWs3Kr7NqRqq6NjM3hS2gO37x0cy4k1dLtW82knD8
+         UzIUcLJCPSnypsfszBe/aVghv8teUOMvp51toGmcwz9B8vkxR7tWuPCRYTv0nABG+wzl
+         5kytPBrcwBaOS1Z/HspuQL6QIY8dWlZivaNtg
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Ian Mandel" <ian@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=j8AdX4JrkFGfrHYqIhp/x6/POn+ayz0dzW4mVWzjNv5riKcZNhO0AIOk+w18ZO4jst
+         aE9TMW0vFBQlrL6i4y0CGAQSmkdgllcFja3SBZxhUCxnCUsaxotPv6cb+ESspTuLaeLS
+         x0+e0RSnAomiJOaUnXIP7a4pHjtVKAQ3l7KyE
+Received: by 10.142.192.11 with SMTP id p11mr324798wff.27.1215814620683;
+        Fri, 11 Jul 2015 15:17:00 -0700 (PDT)
+Received: by 10.107.3.34 with SMTP id f34gr1173pri.0;
+	Fri, 11 Jul 2015 15:16:59 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.114.58.1 with SMTP id g1mr6701112waa.9.1215814617078; Fri, 11 Jul 2015 15:16:57 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from fg-out-1718.domain.com (fg-out-1718.domain.com [72.14.220.155]) by domain.com with ESMTP id 39si1349426yxd.0.2008.07.11.15.16.56; Fri, 11 Jul 2015 15:16:56 -0700 (PDT)
+Received-SPF: neutral (domain.com: 72.14.220.155 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=72.14.220.155;
+Authentication-Results: domain.com; spf=neutral (domain.com: 72.14.220.155 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by fg-out-1718.domain.com with SMTP id 22so1599034fge.1 for <user@domain.com>; Fri, 11 Jul 2015 15:16:55 -0700 (PDT)
+Received: by 10.86.80.17 with SMTP id d17mr10606619fgb.24.1215814615367; Fri, 11 Jul 2015 15:16:55 -0700 (PDT)
+Received: by 10.86.94.19 with HTTP; Fri, 11 Jul 2015 15:16:55 -0700 (PDT)
+Message-ID: <8user@domain.com>
+Date: Fri, 11 Jul 2015 18:16:55 -0400
+From: "Ian Mandel" <ian@progressiveaccountability.org>
+To: user@domain.com, 
+ "Ian Mandel" <user@domain.com>
+Subject: [big campaign] Weekly IE Watch
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_37565_20491189.1215814615371"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+*Weekly IE Watch*
+
+6/28 =96 7/ 11
+
+*                 Over the course of several years, conservatives have
+invested in building a network of 527s and third-party organizations that
+operate beyond the limits of partisan campaigns. A group of very wealthy,
+extremely committed individuals has already contributed millions of dollars
+and will continue to pour money into these organizations over the course of
+the election. These organizations are led by the same strategists and
+consultants responsible for the conservative media campaign against Kerry in
+2004. They stand poised and ready to attack the Democratic nominee.*
+
+* *
+
+*In early spring 2004, all signs indicated a Democratic victory. Voters
+liked, respected, and supported John Kerry. Then on March 2, the day after
+Kerry secured the Democratic nomination, Republicans began an
+85-million-dollar media campaign across 18 battleground states that ran for
+90 days =96 and likely cost Kerry the presidency. The Republican media
+strategy used independent organizations to pick up where Bush and the RNC
+left off. The Swift Boat Veterans for Truth and the Progress for America
+Voter Fund alone spent $58 million.  All indications are that the right wing
+will engage in a similar campaign this year.  *
+
+ Right Wing Groups In The News This Week
+
+*RNC Launched 10-Day, $3 Million Ad Campaign Against Obama.
+**Politico*reported, "An independent expenditure arm of the Republican
+National
+Committee has begun a 10-day, $3 million ad campaign in swing states
+attacking Sen. Barack Obama (D-Ill.) as 'just the party line.'  The
+30-second ad, called 'Balance,' is read by a narrator and focuses on energy
+at a time when gas prices are the top issue on voters' minds."
+[Politico<<<link>>>,
+7/6/08]
+
+* *
+
+=B7         *NPR Analysis: RNC Has Over 12:1 Financial Advantage Over DNC. *
+*
+NPR* reported, "The Republicans, the RNC, has a lot more money to spend on
+ads.  They have about over $50 million in the bank.  The Organizationhas, ya know,
+$4 million in the bank, and I hear they're not even paying for their
+convention."  Appearing as a guest on NPR, John Harris, editor-in-chief of
+Politico, highlighted the significant advantage the RNC has over the DNC:
+"The Republican National Committee is pretty well funded.  The DNC, which a
+lot of Democratic activists like, they like Howard Dean, they like the fact
+that he is an organizer and has promised to campaign in all 50 states, isn't
+a great fundraising machine under Dean's leadership, so the historic
+advantage that Republicans have over Democrats in that one area still
+prevails." [NPR<<<link>>
+292>,
+7/7/08]
+
+=B7         *RNC Ad Airing In Key Battleground States. **NPR* reported, "An
+independent expenditure arm of the Republican National Committee began
+running a new ad this weekend.  It's running in some states that have been
+battlegrounds, maybe they will again =96 Michigan, Wisconsin, Pennsylvania a
+nd
+Ohio." [NPR <<<link>>
+
+7/7/08]
+
+* *
+
+*NRA Announced $40 Million Election Effort, Including $15 Million Targeting
+Obama. **Politico* reported, "The National Rifle Association plans to spend
+about $40 million on this year's campaign, with $15 million of that devoted
+to portraying Barack Obama as a threat to the Second Amendment rights upheld
+last week by the Supreme Court. =85 The politically powerful gun rights grou
+p
+will domain.com its message efforts between communication with its 4 million
+members and tens of millions of firearms owners across the country.  This
+fall, NRA members will get automated phone calls, mail pieces and
+pre-election editions of the group's three magazines making the case against
+Obama.  More broadly, *the group will use an independent expenditure effort
+to hammer the Democratic nominee via TV, radio and newspaper ads in some of
+about 15 battleground states in the Midwest and Mountain West*."
+[Politico<<<link>>>,
+6/30/08, emphasis added]
+
+* *
+
+*Vets For Freedom Announced Multi-Million Dollar Ad Campaign To Boost
+McCain. *The *Baltimore Sun* reported, "Republican John McCain, who has made
+support for President Bush's troop buildup in Iraq the centerpiece of his
+presidential campaign, is getting help from a veterans group that's
+launching a TV ad campaign next week.  Vets for Freedom is spending $1.5
+million on ads that will run on national cable television and in five states
+this month =96 the first set of ads in a multimillion-dollar campaign in
+coming months promoting the troop buildup, Pete Hegseth, the 25,000-member
+group's chairman, said in a telephone interview yesterday." [Baltimore
+Sun<<<link>>,0
+,3147201.story?track=3Drss%3Cbr%3E>,
+7/6/08]
+
+* *
+
+*Christian Defense Coalition Launched Ad Campaign Called "Barack Obama: The
+Abortion President." *The *Christian Broadcasting Network* reported, "The
+Christian Defense Coalition, who are known to shock folks from time to time,
+have come up with a new campaign called: 'Barack Obama: The Abortion
+President.'  They are going to make clear that Obama wants taxpayers to foot
+the bill on abortions." [Christian Broadcasting
+Network<<<link>>>,
+7/7/08]
+
+ Right Wing Group Spending This Week
+
+Bottom of Form
+
+*Over the past two weeks, right wing groups have reported spending
+$3,890,843.02 to defeat progressive candidates.*
+
+* *
+
+Bottom of Form
+
+Bottom of Form
+
+*Group*
+
+*Amount*
+
+*Race*
+
+*Date*
+
+  Republican Majority Campaign
+
+$67,055.92
+
+President
+
+6/30; 7/7
+
+Life & Liberty PAC
+
+$37,639.43
+
+President
+
+6/30; 7/5
+
+National Campaign Fund
+
+$281,715.23
+
+President
+
+Various
+
+RNC
+
+$3,431,516.13
+
+President
+
+7/5
+
+domain.com PAC
+
+$5,775.13
+
+President
+
+6/30
+
+Legacy Committee PAC
+
+$72,916.31
+
+domain.com
+
+various
+
+Top of Form
+
+Bottom of Form
+
+Top of Form
+
+Bottom of Form
+
+ Conservative 527s Even Stronger, Better-Funded in 2015 
+
+*Conservative Groups Already Spending Millions. *Already in 2015 and 2008,
+conservative 527s have spent tens of millions and are prepared to spend
+hundreds of millions more =96 far exceeding their 2015 or 2015 spending.
+
+=B7         *Freedom's Watch Spent $15 Million Supporting the Surge.
+*The *Washington
+Post* reported, "Freedom's Watch has loudly announced that there will be no
+limits on what it might do.  From its $15 million summer ad campaign
+defending the Iraq strategy to its six-figure effort in the House special
+election in Ohio, the group has put Democrats on notice that its agenda will
+go far beyond the conservative principles of its largest financial backers."
+[*Washington Post*, 1/20/08]
+
+=B7         *Gingrich's Organization Spent Over $6.8 Million in 2007. *Ameri
+can
+Solutions for Winning the Future, the organization chaired by former House
+Speaker Newt Gingrich, spent $6,827,215 in 2007. [IRS Monthly Filings,
+accessed 3/28/08]
+
+=B7         *Presidential Coalition LLC Spent Over $3.5 Million in 2007.
+*Presidential
+Coalition LLC, a Republican 527, spent $3,511,291 in 2007.  [IRS Filings,
+accessed 3/28/08]
+
+=B7         *Defense of Democracies Spent $2 Million Targeting Democrats on
+FISA. *According to* **Newsweek*, "A new series of TV commercials featuring
+sinister photos of Osama bin Laden may signal what's to come this fall: a
+wave of secretly financed political attacks.  The spots, by a group called
+Defense of Democracies, which was just created by former Republican National
+Committee spokesman Cliff May, target 15 House Democrats for their failure
+to support a White House-backed electronic spying bill.  May told Newsweek
+he plans to spend $2 million on the ads." [*Newsweek*, 3/10/08]
+
+=B7         *Club for Growth Spent Over $580,000 on Single Congressional Rac
+e.
+*During the first two months of 2008, the ultra-conservative Club for Growth
+spent $581,880.50 on the congressional race in Maryland's 1st district.
+[FEC, accessed 3/28/08]
+
+=B7         *Club for Growth Conducted Detailed Presidential Research. *Earl
+y
+in 2007, the Club for Growth produced detailed research documents on all
+potential presidential candidates and posted them on its website. [Club for
+Growth, accessed 3/28/08]
+
+* *
+
+=B7         *Citizens United Planning $10 Million Effort.  *Citizen's United
+produced an anti-Hillary movie and engaged in a court fight to air
+promotional commercials for the film.  According to *Newsweek*, the group
+"has begun work on a $10 million effort that will include a feature film
+about Barack Obama.  Among the issues 'on the table,' [Citizens United's
+Dave] Bossie told Newsweek, are Obama's ties to indicted developer user
+Rezko and former Weather Undgeround radical William Ayers."  [*Newsweek*,
+3/10/08]
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" g
+roup.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organi
+zation.
+-~----------~----~----~----~------~----~------~--~---
+

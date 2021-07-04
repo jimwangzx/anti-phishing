@@ -1,0 +1,136 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp61825lfb;
+        Thu, 3 Mar 2015 12:23:35 -0800 (PST)
+X-Received: by 10.107.26.3 with SMTP id a3mr4800767ioa.176.1457036615871;
+        Thu, 03 Mar 2015 12:23:35 -0800 (PST)
+Return-Path: <>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.110.72])
+        by domain.com with ESMTPS id i1si103235igu.71.2016.03.03.12.23.35
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 03 Mar 2015 12:23:35 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.110.72 as permitted sender) client-ip=157.56.110.72;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.110.72 as permitted sender) smtp.helo=na01-bn1-domain.com
+Received: from domain.com (10.160.24.42) by
+ domain.com (10.141.26.26) with Microsoft SMTP
+ Server (TLS) id 15.1.415.20; Thu, 3 Mar 2015 20:23:31 +0000
+Received: from BN1BFFO11FD027.protection.gbl (2a01:111:f400:7c10::1:177) by
+ domain.com (2a01:111:e400:8ae::42) with Microsoft
+ SMTP Server (TLS) id 15.1.427.16 via Frontend Transport; Thu, 3 Mar 2015 
+ 20:23:31 +0000
+Authentication-Results: spf=none (sender IP is 141.161.191.74)
+ smtp.helo=mail.law.georgetown.edu; domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Received-SPF: None (domain.com: mail.law.georgetown.edu does not
+ designate permitted sender hosts)
+Received: from mail.law.georgetown.edu (141.161.191.74) by
+ domain.com (10.58.144.90) with Microsoft SMTP
+ Server (TLS) id 15.1.427.7 via Frontend Transport; Thu, 3 Mar 2015 20:23:31
+ +0000
+Received: from LAW-MBX02.law.georgetown.edu ([169.254.2.45]) by
+ LAW-CAS1.law.georgetown.edu ([141.161.191.74]) with mapi id 14.03.0248.002;
+ Thu, 3 Mar 2015 15:22:33 -0500
+From: Law Center Service Desk <help@law.georgetown.edu>
+To: Law Center Service Desk <user@domain.com>
+Subject: IST Notification of Server Updates
+Thread-Topic: IST Notification of Server Updates
+Thread-Index: AdF1iUp/iDEP2WBJTVWFgUzdbL90Mw
+Date: Thu, 3 Mar 2015 20:22:33 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.215.45]
+Content-Type: multipart/alternative;
+	boundary="_000_FDB1B959A88A834BBA5D261FF7A896FF62755BLAWMBX02lawgeorge_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Return-Path: <>
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.74;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(10009020)(2970300002)(428002)(377454003)(189002)(52284002)(199003)(50986999)(450100001)(11100500001)(54356999)(16236675004)(19300405004)(2420400007)(19625215002)(345774005)(15650500001)(42382002)(575784001)(6116002)(33656002)(81166005)(5003600100002)(1096002)(78352003)(7110500001)(790700001)(102836003)(189998001)(3846002)(107886002)(101416001)(5004730100002)(586003)(1220700001)(84326002)(110136002)(6200100001)(2920100001)(2906002)(19617315012)(2930100002)(2900100001)(15975445007)(55846006)(89122001)(6806005)(104016004)(105586002)(2171001)(260700001)(19580405001)(66066001)(19580395003)(4001450100002)(87936001)(960300001)(512954002)(5008740100001)(300700001)(229853001)(106466001)(88552002)(92566002)(53652003);DIR:OUT;SFP:1101;SCL:1;SRVR:BLUPR07MB356;H:mail.law.georgetown.edu;FPR:;SPF:None;MLV:sfv;MX:0;A:0;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BN1BFFO11FD027;1:FX+u6VHauLJZO9l5iU6a/HT8Z7aTdahqiEr6sNOYvuNPTTOGsemLtKb1bG6BuTOEiwNqd+N2RB0TEMZzlMQ2/QaebpxZBOgcXZNqGmeiJkVt3CxIQRLHwip/v9I2s8rdPKV0eCtVNSh7ijE01m/J2Xrhw1t1PKFmtzchkYMzA0p/4h8nv9/DjpFUrNaZAzJfH7iWRnCYCotHIZ3lMrtMauqP4jWg9pBdn//M+FzLe4NMwmxACrpGHVgzh6vtJClN0PiNpLiMgUu4tPz9iIHAaTVi0zp/MnCCyX8X6thzfRRz25/hbjGbDT/lEMw6ZsQLZCMmux/iMQAdsQlan5w6ENxbQc6/mYv5NaVJcxaCxfcJzYohXUbEuik8DBsy+4ISq5+KryC5WieEnK7hjwT/+vmO1oLRuxBkd5oi3KjHhxQ
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB356;2:q5GkFiODo5AZPmoYeMDzinU5EBxA9UYTc9CDWk57tycqGr3+LNggqZKtoF5x2fFy4iEKIBHlrdVPf1mXAmNBLrKBCWk+nPHHb3xu9T0GTCa5Rt0vVxM/dTssJnZE75Q4BKH/vSiI7J10ewsMu62vaQ==;3:38TXKhWwR+PsNBH0nEME9WKyjA9daRQ8U20E/zmtdfdkrIP2kFKNdRQTuWgBL56PESSIHEWXd7NKutQiV1P7DbQKRJlfBFzyFi/5Avzxzpwc5JajlW+1pvL6iM6AOiPVqQZCo9Z8AsdX+3IHtZ7xjA2hjW6G01y76RXTdyAmIiPnHjc0dBMhdDPFN2AhtbK0qEVodZfk1nTv6sUuNbgYH7X3qJXkoc+Ki4vVHyBzM0I=;25:uaz33s382/xicWvsp2AsYmzXH3UJdG/6mk0gExIT5Ucu38THQarjOEEf1oLNU1EJNCsxk4S68LGTzd/HhxATwv/Udo0DT6ED5e1xMlm31wX6b4VSj+9JyxeW2RTjM8+dYFBydaB0QypSqo+8j9BjbJG1vvFkyIDvG9sWn9Hunc9I6CZ2oaSIzfJCOlTMaKT9DazmP2tqWept5GZDCMQtHMZdFu1ycF1MoEjEjbSZdizgz5VIoVliJybvbCz9JQuPisrizPXnoo+sp2O+1rCpj9DKXaL1/qQw+KhHQ7EgJ46jSIniX4w4R23H8SjnPNv79QYZcCzvU9LrFZn8O6uKyg
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BLUPR07MB356;
+X-MS-Office365-Filtering-Correlation-Id: bc747c81-1130-4b06-a003-08d343a1b029
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB356;20:q0SU8Kg4M02NPVU+VLIrENZ+j/1fe7WO8tAaNuQnrRIbB0OcCDEUbKl4TobtOZCGCcH4KmH5lsc+fO3wpCe1TvBAES7jn5I2h61Kw/klMDRfFsZlEOt/IeCvM+aA3zzX7OoecCCQvni6Sc7yZTKl77v8ycXyU98BOkgfmwb/qjwa3qhHtreiwUA/Kw1QlyfxcPMqG3sKXeYLEwH0XYxT7ELUV8rnD0l2kD3JGAy+Fpuk7JiaOWKfkJasOQj5/LUrtR31+EwKGwFizPdg9MSmgBmpscFOMFsOfFlZBKpQf0WmTt6hjA1tY556TFn8gSOW+kf+GsAPE4A34t9DSbHw0yi5tjg2BCbgRsn2uXvKzyky0HV7vWuS7QuC3raSmvDbgjvkBmjZUttSy/s+mXck5V8QQ8VBfA/x6F0Uv/kvLv8=;4:7pKKX35cGUO/AOmC40B+3u0cG7BSSy/nywD2kqaKpnJzZv4kFNs+366Ikjn18U3aTixB+5R02RGvIXfmnHCo0amm5xNkerNrwrSWRuLzWKotQzg8OzNTHuY+RSD+drZCsDVYG31ve0SFjdJzDqUaA9/ejArnPZiO/9EVjUw3ldYgh8s1ct+I1bviJhm7yzZV+I3+mj1pxZV8VZNONrNvpqJVy72P+LgpjHyOHeEIUWTtKCPk9bd/YXhU4F5d11a586LfW7HGdGKE5wz6zAh3f8qy9obMRGQUrrEznhEgT/QH1Cu9TYq0tO8/iRV5IoI4xbI7LgVbVxLu2SjieYi2c2YgBpTuleULH0G1u5NuDaezisrEs5SMUbvf1QfczsXM3GlG7LyCWBU/WL8Sdb37A2F7GEd2IZ+KjMCuBMRtnHU
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(8121501046)(13016025)(13018025)(3002001)(10201501046);SRVR:BLUPR07MB356;BCL:0;PCL:0;RULEID:;SRVR:BLUPR07MB356;
+X-Forefront-PRVS: 0870212862
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BLUPR07MB356;23:DcMz2xKw+fS1zTy0wV9RKkfV4OIce4q5WbV0hlnGH9?
+ =?us-ascii?Q?WBTahwnBNPZPOzRlQ1k9CE4x/C0wHe8Yivl4Gwu1Od4YwF1mY3n5iG0X2p51?
+ =?us-ascii?Q?r0VOaXeWjzQ2yK14v6+W54tPmoFEv+0t/J/eVOBryRPRJdXMkVi6+Y5A/R4c?
+ =?us-ascii?Q?LDZQjFvGZqs102RIkRe4HGgIHBOS+LNyeDNDrvpLSIzM3GBVtJSpFXSly4XK?
+ =?us-ascii?Q?fwJUoP1SFgyi4lBRg0BdEnG/iDRysmyjxL3wh6zPgJYDIXPNELSmGqsxG81j?
+ =?us-ascii?Q?7oH4g7gRuZgw+b7cmvX0WfKN1jlwbCLroJ9FNyNOtDLbB29oWNxeJE2aDRNg?
+ =?us-ascii?Q?r7/BBoy/okKOMNZK6aOBDVAPQUcMxOy4DWL4vmtxqKsW2Ry93PUjwfNJ4anS?
+ =?us-ascii?Q?Cvija7bZ+ZYf/myVbBKDKFTeXEGCGxSGKbD3KuEmk2gCotyvAettQTJpI1JB?
+ =?us-ascii?Q?0fpDAmIQGDySZ4Umvx40pWeOszplkYBHpBy16CwINj03MDG3CdPNUMt0YNEw?
+ =?us-ascii?Q?WIpRBDjZLHvMFEFPGLYNopFRJQTTpX7KdNSe7OM5z5Ej5WkWdyIISgvnRtRO?
+ =?us-ascii?Q?oAKeDyI695ZLU9gbcKRC21gRQWiJanTFm+muuRBMEsiegJ8h2CVAwltfQe94?
+ =?us-ascii?Q?YiJqxFAVW1r0UlKX7oh5vbAiEjbhdLShPsFoz3JtYQomJ0YUJE5Aq3e5GDQn?
+ =?us-ascii?Q?2fRWnczFkY1DVfDfu1StZCP9Av117vstXVpZWlNzXeImUeujNqhLdNgVT3J2?
+ =?us-ascii?Q?4/jBgocNdXs/OEjCA2dhO/V0Ryb62l98ztkoicYZbORHJAgK5BpDxOLMXfct?
+ =?us-ascii?Q?6XUSaxk/tZ5cYCq5/bcYdrYpp4PwqY81RDifNYSDTdMHx2yaHjvvJ3lHUo3/?
+ =?us-ascii?Q?oi191BqFlfSvHKGtnYho6o0B7chD+Dv18mNK2BBCAW/tR76pPhoUhrn8AAQ/?
+ =?us-ascii?Q?ecBAWeZCuCapgP0WIKV8/6JO3nRct955aAEYKVdFVE70mIc7bQQ0LXpFkwlT?
+ =?us-ascii?Q?sejPwyFZHSelIECjcmK2wYMwxIBn9V5/yNkcxXyGntO6sjPrpKWh6rTqWgJ1?
+ =?us-ascii?Q?oOYACNm8hdnvaGe0YXgwKfa+Ix59B3frRGEY3ozqOMPXHaTjYbba8ASWxnHg?
+ =?us-ascii?Q?Q6E/OdfUjiVu6gXONHIQWuPXPPrXfZXNFzKlioSNbAyY9gqsudbZkfIrkub8?
+ =?us-ascii?Q?HSfsh48cVCJrJPFCKTLf6QvbI8pNDzOI8Groxql9sK3eOfewXCaQxokTw5M/?
+ =?us-ascii?Q?h7VkBHzMfRVNy4SEbmc6KdqGTLAfW2M13692QOwAmgMT+PN23TOe0Ja82L3X?
+ =?us-ascii?Q?eRlWLgNAiM3kaeZ0BNY1lPzSMWVMEw6Na40g4GPC3ht7tu6YsEtK71oLus5j?
+ =?us-ascii?Q?kUPnYWOxA9IbeTOJpFbKLDzu+WIQ8yKv8oGEjXa9JC0iOYjfAA0GxLGyq/N6?
+ =?us-ascii?Q?ci1N2AEVz38dQYBaGBSEXcPAX2Y6McLqnpNgB3ndS/r3E8gR9u/QE5wWDMFT?
+ =?us-ascii?Q?Dde4FvaEMfSLmr5bh3F1X1GkzkeVXZJnLwD0vzSap3+Sy8ZsK/3Ve5VFBQly?
+ =?us-ascii?Q?dufItM8AtcsiQgxzpifHDDifpHEUMlctrkehSnRr5/6tQ2YNknhX9hDaGWvY?
+ =?us-ascii?Q?HkokZEu7A1N9RHIarcK40BNiNOH5TRBpPo+HxwZOXf+icmM5g5jA5KUw4uTU?
+ =?us-ascii?Q?bP?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB356;5:97OkNyMFBJUGTMcd/ggX5E/Myxbmh/VInWn+kP5tCVm0SG7VEg426b7ZU2nQfBw44KJd1wq/KW7+BfVrsDxEi79ZXipLRdl2WcWA0YmMf/HORrulOw1pFYJE5WpgDSLyKTSnX7jIFwcmqdn73Wi7Ug==;24:A7hMFeJEJbZZPVtyRx/ht5pguY5sQApsVYEcrqEu+w3DDrc3bwIai88n0XuUb6z+HmPt5l6yMrkVHEiLR1HawbK8bRqG3vUc/tCyTvlhbus
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Mar 2015 20:23:31.1345
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB356
+
+Dear Law Center Community:
+In an ongoing effort to enhance network security and to assure optimum perf
+ormance of our servers, the IST department will be applying service updates
+ to several Georgetown Law servers. We will begin these maintenance domain.com
+res this evening, March 3, at 11:30 pm and expect to have them completed by
+ 4:30 am, March 4.  Access to email will not be interrupted by these servic
+e updates.
+If you have any questions or concerns, please contact the IST Service Desk 
+at (202) 662-9284 or user@domain.com<mailto:user@domain.com
+
+Thank you for your patience.
+
+Technology Service Desk
+GEORGETOWN LAW | user@domain.com<<<link>>
+a/redir.aspx?SURL=3DKbtyIs6065Y0dLsZ_dVwUIEwPWjcR7aMmU8Q9VcoKv0aNglwIULTCG0
+AYQBpAGwAdABvADoAaABlAGwAcABAAGwAYQB3AC4AZwBlAG8AcgBnAGUAdABvAHcAbgAuAGUAZA
+B1AA..&URL=3Dmailto%3ahelp%40law.georgetown.edu>
+600 New Jersey Avenue, N.W. | Washington, D.C. 20001
+Office: 202.662.9284
+Website<<<link>>
+3VQ4CNFwtpBRSrK6QZ6V-7_CPF-GbcaNglwIULTCGgAdAB0AHAAOgAvAC8AdwB3AHcALgBsAGEA
+dwAuAGcAZQBvAHIAZwBlAHQAbwB3AG4ALgBlAGQAdQAvAGkAcwB0AA..&URL=3Dhttp%3a%2f%2
+fwww.law.georgetown.edu%2fist> | Twitter<<<link>>
+a/redir.aspx?SURL=3D2QFReDwhj9nd1wSvooQ7bpsNO6etFp5ev5tt_9vlOWQaNglwIULTCGg
+AdAB0AHAAcwA6AC8ALwB0AHcAaQB0AHQAZQByAC4AYwBvAG0ALwBsAGEAdwBfAGkAcwB0AA..&U
+RL=3Dhttps%3a%2f%2domain.com%2flaw_ist>

@@ -1,0 +1,331 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs153937wfw;
+        Mon, 27 Oct 2015 16:18:20 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.100.208.7 as permitted sender) client-ip=10.100.208.7;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.100.208.7 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.100.208.7])
+        by 10.100.208.7 with SMTP id f7mr4677676ang.26.1225149500029 (num_hops = 1);
+        Mon, 27 Oct 2015 16:18:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :content-type:reply-to:sender:precedence:x-google-loop:mailing-list
+         :list-id:list-post:list-help:list-unsubscribe:x-beenthere-env
+         :x-beenthere;
+        bh=7N28hlZz2bwvq3rqWlbifo74lVXXFas8BYMWz2lNpMg=;
+        b=vzgXzS/fFUYoq+ODdxSh6D9+cinWroZr0UKAFXUw+qYoKd7o07z3vUEt/s4TzGmC5p
+         Pvr90OT/iN2UG0zKLrUt/5WKtsTz867XIfPbqQtkXfp01ni4mKr9/sZslh20pfbJP+l3
+         MXCYrd/Xpu9uL4ULGCA3GBuCYv8iFm0sW48mg
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=DkJvynsMrUvwro4haQv5Ty2ekN14Xqx9AUxxHUlW5/Z/8tJaZd8Y8n7ua52A9q1ydu
+         6M842/48jE4VZ4moaxxSv8x5HfFwt6m4fx/HOdzbb+8sx2MkUSw4dxRekEzzxgZwxe75
+         gGbiSlS96YgW/AeqyRneUqGB+NKsSTkYs+mJY
+Received: by 10.100.208.7 with SMTP id f7mr466586ang.26.1225149490909;
+        Mon, 27 Oct 2015 16:18:10 -0700 (PDT)
+Received: by 10.44.116.1 with SMTP id o1gr2585hsc.0;
+	Mon, 27 Oct 2015 16:18:06 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.90.68.12 with SMTP id q12mr3821368aga.13.1225149485661; Mon, 27 Oct 2015 16:18:05 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ug-out-1314.domain.com (ug-out-1314.domain.com [66.249.92.173]) by domain.com with ESMTP id 39si7053397yxd.2.2008.10.27.16.18.04; Mon, 27 Oct 2015 16:18:05 -0700 (PDT)
+Received-SPF: neutral (domain.com: 66.249.92.173 is neither permitted nor denied by domain of user@domain.com) client-ip=66.249.92.173;
+Authentication-Results: domain.com; spf=neutral (domain.com: 66.249.92.173 is neither permitted nor denied by domain of user@domain.com) user@domain.com
+Received: by ug-out-1314.domain.com with SMTP id y2so113417uge.35 for ; Mon, 27 Oct 2015 16:18:04 -0700 (PDT)
+Received: by 10.66.224.19 with SMTP id w19mr2517104ugg.72.1225149484322; Mon, 27 Oct 2015 16:18:04 -0700 (PDT)
+Received: by 10.66.238.17 with HTTP; Mon, 27 Oct 2015 16:18:04 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Mon, 27 Oct 2015 19:18:04 -0400
+From: "Sara DuBois" <sara@progressiveaccountability.org>
+To: user@domain.com
+Subject: [big campaign] Tracking Update: McCain Rally in Pottsville, PA
+ 10/27/08
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_11536_25564443.1225149484313"
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+Hello All,
+Just got off the phone with our tracker, Jacob, on the ground in Pottsville.
+Below are the notes from our call.
+
+Big Highlights*
+*
+
+   - Says Obama is running to be Redistributionist in Chief. I'm running to
+   be Commander in Chief.
+   - Repeats (slimmed-down) attack on Obama for saying in a radio interview
+    that one of the "tragedies" of the civil rights movement is that it didn't
+   bring about "redistributive change."
+      - Says Obama said that even though lower taxes on investment help our
+      economy,  he favors higher taxes on investment for "fairness" -- "There's
+      nothing "fair" about driving our economy into the ground."
+      - Repeats that Obama's more interested in controlling wealth than in
+      creating it
+   - Scoffs at Obama for saying we should look at environmental concerns,
+   etc. when considering nuclear power
+
+Pottsville, PA: McCain Rally 10/27/08
+(Disclaimer: The following are notes, not direct quotes. If you'd like a
+quotable transcript or video of any part below, please email us.)
+
+Background details
+
+   - about 4000 ppl, VERY enthusiastic crowd
+   - Tracker saw about 30 demonstrators outside pre-event yelling 'Tell Your
+   Mama Vote Obama!'
+   - State Reps. Gary Hornberger and Dave Argall give brief intro remarks:
+   Obama will tax and spend
+   - Cindy intros mccain
+      - you make my heart so warm
+      - when we started on this 18mo. ago it was a family affair [someone
+      yells cindy's hot?]
+      - we had a vested interest in iraq - our son was there
+      - leadership and character to be pres - he has always put his country
+      first
+      - lived his life by code of conduct - duty honor - what a wonderful
+      pres. he'll make
+
+Speech Highlights
+*TY. wont cindy make a great FLOTUS? and wont palin make a great VP? shes
+smart, tough, reformer, wonderful family person and she'll take on old boy
+netwrk of DC. ty for your enthusiastic support of her. Todd is 4x snow
+mobile champ. think anyone in DC coudl scare him or her?
+
+lets start out with a msg tonight: we need to win PA. i need your help over
+next 8 days so we can bring real change to DC.
+
+some ST: we cant spend next 4 yrs as weve spent last 8. we have to act, we
+need a new direction and we have to fight for it. ive been fighting ofr this
+country since i was 17 and i ahve the scars to prove it.
+
+I have a plan to hold the line on taxes and cut them to make America more
+competitive and create jobs here at home. no one knows better than you in PA
+how badly we need to create jobs and get our econ. going again. We're going
+to double the child deduction for working families. We will cut the capital
+gains tax. And we will cut business taxes to help create jobs, and keep
+American businesses in America. [john mccain! john mccain!]
+
+Raising taxes makes a bad economy much worse. Keeping taxes low creates
+jobs, keeps money in your hands and strengthens our economy.
+
+If I'm elected President, I won't spend nearly a trillion dollars more of
+your money. Senator Obama will. And he can't do that without raising your
+taxes or digging us further into debt. I'm going to make government live on
+a budget just like you do.
+
+I will freeze government spending on all but the most important programs
+like defense, veterans care, Social Security and health care until we scrub
+every single government program and get rid of the ones that aren't working
+for the American people. And I will veto every single pork barrel bill
+Congresses passes. DNA of bears or whatever - you will know their names, i
+will make them famous.
+
+I'm not going to spend $750 billion dollars of your money just bailing out
+the Wall Street bankers and brokers who got us into this mess. I'm going to
+make sure we take care of the working people who were devastated by the
+excesses of Wall Street and Washington.
+
+I have a plan to fix our housing market, so that your home value doesn't go
+down when your neighbor defaults, and so that people in danger of defaulting
+have a path to pay off their loan. so that ppl can achieve american dream of
+owning a home.
+
+If I'm elected-- when im elected President, we're going to stop spending
+$700 billion to buy oil from countries that don't like us very much.
+
+in the debate the other night, i talked about how much i admired obama's
+rhetoric. but you listen to whats behind his words. he said he would
+"consider" offshore drilling. we talked about nucl, and he said well you
+have to consider the enviro, and -- that's right, drill baby drill. We will
+invest in all energy alternatives -- nuclear, wind, solar, and tide. We will
+encourage the manufacture of hybrid, flex fuel and electric automobiles. We
+will invest in clean coal technology. let me remind you: the USA sits on
+worlds largest coal reserves - we can do clean coal and create millions of
+jbos. i see a few old navy vets - there's 1 from my old ship - we've sailed
+navy ships around the world w/ nucl plants on them. the french, the
+japanese, the british. they store and reprocess. 80% of french energy comes
+from nuclear. We will lower the cost of energy within months, and we will
+create millions of new jobs. millions
+
+you know, We've learned more about Senator Obama's real goals for our
+country over the last two weeks than we learned over the past two years, and
+that only because Joe the plumber asked him a question in Ohio. That's when
+Senator Obama revealed -- but not for the first time -- he wants to quote
+"spread the wealth around."
+
+Now, Joe didn't ask for Senator Obama to come to his house, and he didn't
+ask to be famous. He certainly didn't ask for the political attacks on him
+from the Obama campaign. Joe's dream is your dream --  to own a small
+business that will create jobs, and the attacks on him are an attack on
+small businesses all over the country. Small businesses employ 84 percent of
+Americans, and we need to support small businesses, not tax them.
+
+After months of campaign trail eloquence, we've finally learned what Senator
+Obama's economic goal is: to spread the wealth. In a radio interview
+revealed today, he said the same thing -- that one of the "tragedies" of the
+civil rights movement is that it didn't bring about "redistributive change."
+
+You see, Senator Obama believes in redistributing wealth, not in policies
+that grow our economy and create jobs. He said that even though lower taxes
+on investment help our economy, he favors higher taxes on investment for
+quote "fairness." There's nothing "fair" about driving our economy into the
+ground. We all suffer when that happens, and that is the problem with
+Senator Obama's approach to our economy. He is more interested in
+controlling wealth than in creating it ... in redistributing money instead
+of spreading opportunity. I am going to create wealth for all Americans, by
+creating opportunity for all Americans.
+
+Senator Obama is running to be Redistributionist in Chief. I'm running to be
+Commander in Chief. Senator Obama is running to spread the wealth. I'm
+running to create more wealth. Senator Obama is running to punish the
+successful. I'm running to make everyone successful.
+
+My opponent's massive new tax increase is exactly the wrong approach in an
+economic slowdown. The answer to a slowing economy is not higher taxes, but
+that is exactly what is going to happen when the Democrats have total
+control of Washington. [boos, someone yells something about "spending!"] We
+can't let that happen. We need pro-growth and pro-jobs economic policies,
+not pro-government spending programs paid for with higher taxes.
+
+This is the fundamental difference between Senator Obama and me. We both
+disagree with President Bush on economic policy. The difference is that he
+thinks taxes have been too low, and I think that spending has been too high.
+
+If we are going to change Washington, we need a President who has actually
+fought for change and male it happen. The next President won't have time to
+get used to the office. We face many challenges here at home, and many
+enemies abroad in this dangerous world. i will bring our troops home in
+victory and honor and not in defeat.
+
+just the other day, a couple days ago, Senator Biden warned a group of
+fatcat contributors out on the W. Coast -- he warned us that Senator Obama
+would be tested with an international crisis. I have been tested. Senator
+Obama hasn't. i know how to work with our friends and i know how to treat
+our enemies. biden is the gift that keeps on giving.
+
+Senator Biden referred to how Jack Kennedy was tested in the Cuban Missile
+Crisis and I have a little personal experience in that. I was on board the
+U.S.S. Enterprise, and I sat in a domain.com on the flight deck waiting to take
+off. We had a target. I know how close we came to a nuclear war and I will
+not be a president that needs to be tested.
+
+We know Senator Obama won't have the right response to that test, because
+we've seen the wrong response from him over and over during this campaign.
+He opposed the surge strategy that is bringing us victory in Iraq and will
+bring us victory in Afghanistan. He said he would sit down unconditionally
+with the world's worst dictators. [boos] When Russia invaded Georgia, Sen.
+Obama said the invaded country should show restraint. He's been wrong on all
+of these. When I am president, we are going to win in Iraq and win in
+Afghanistan, and our troops will come home in victory and honor.
+
+Let me give you a little straight talk. Let me give you the state of the
+race today. There's eight days to go. We're a few points down. The pundits
+have written us off, just like they've done before. My opponent is working
+out the details with Speaker Pelosi and Senator Reid of their plans [boos]
+to raise your taxes, increase spending, and concede defeat in Iraq. He's
+measuring the drapes, and he's planned his first address to the nation for
+before the election. [yelling, incl. "let the ppl have a vote!"] I guess I'm
+old fashioned about these things -- I prefer to let the voters weigh in
+before presuming the outcome.
+
+What America needs now is someone who will finish the race before the
+starting the victory lap, someone who will fight to the end, and not for
+himself but for his country.
+
+I have fought for you most of my life, and in places where defeat meant more
+than returning to the Senate. [yelling] There are other ways to love this
+country, but I've never been the kind to back down when the stakes are high.
+
+let me just say to you, I know you're worried. [yelling] America is a great
+country, but we are at a moment of national crisis that will determine our
+future.
+
+Let me ask you a few questions real quickly. Will we continue to lead the
+world's economies or will we be overtaken? Will the world become safer or
+more dangerous? Will our military remain the strongest in the world? Will
+our children and grandchildren's future be brighter than ours?
+
+My answer to you is yes. Yes, we will lead. Yes, we will prosper. Yes, we
+will be safer. Yes, we will pass on to our children a stronger, better
+country. But we must be prepared to act swiftly, boldly, with courage and
+wisdom.
+
+I'm an American. You are Americans, and we choose to fight. Don't give up
+hope. Be strong. Have courage. And fight. [usa! usa!]
+
+Fight for a new direction for our country. Fight for what's right for
+America.
+
+Fight to clean up the mess of corruption, infighting and selfishness in
+Washington.
+
+Fight to get our country and our economy out of the ditch and back in the
+lead.
+
+Fight for the ideals and character of a free people.
+
+Fight for your children's future.
+
+Fight for justice and opportunity for all.
+
+Stand up to defend our country from its enemies.
+
+Stand up, stand up, stand up and fight. America is worth fighting for.
+Nothing is inevitable here. We never give up. We never domain.com. We never hide
+from history. We make history.
+
+Now, let's go out win this election in PA and get this country moving
+again.
+
+God bless you, god bless you all, and god bless the USA.
+*
+
+-- 
+Sara DuBois
+Tracking / Communications Manager
+domain.com
+user@domain.com
+202-609-7681 (office)
+410-967-7306 (cell)
+
+-- 
+Sara DuBois
+Tracking / Communications Manager
+domain.com
+user@domain.com
+202-609-7681 (office)
+410-967-7306 (cell)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

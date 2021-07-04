@@ -1,0 +1,110 @@
+Delivered-To: user@domain.com
+Received: by 10.140.37.194 with SMTP id r60csp444936qgr;
+        Mon, 18 Aug 2015 10:34:40 -0700 (PDT)
+X-Received: by 10.220.7.131 with SMTP id d3mr1447771vcd.49.1408383279717;
+        Mon, 18 Aug 2015 10:34:39 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.12])
+        by domain.com with ESMTPS id s8si25002908qcb.41.2014.08.18.10.34.39
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Mon, 18 Aug 2015 10:34:39 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.251.12;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211:55830] by server-12.bemta-12.domain.com id 92/59-14514-E2932F35; Mon, 18 Aug 2015 17:34:38 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-2.tower-53.domain.com!1408383277!9897956!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 24769 invoked from network); 18 Aug 2015 17:34:38 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-2.tower-53.domain.com with AES128-SHA encrypted SMTP; 18 Aug 2015 17:34:38 -0000
+Resent-From: "MATCH@kirkpatrickforarizona.com" <info@kirkpatrickforarizona.com>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Mon, 18 Aug 2015 13:34:37 -0400
+Received: from [216.82.254.67:55655] by server-13.bemta-7.domain.com id
+ 91/5D-12246-C2932F35; Mon, 18 Aug 2015 17:34:36 +0000
+X-Env-Sender: AQZVVmpTUAVTA1JWV1IKUwYIBlFQPhVcBlxBF1d0WQUSS1FQDBYBURFcR1s
+  user@domain.com
+X-Msg-Ref: server-12.tower-196.domain.com!1408383275!8297431!1
+X-Originating-IP: [69.25.74.172]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNjkuMjUuNzQuMTcyID0+IDE3MTk1Mw==\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.1; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 20562 invoked from network); 18 Aug 2015 17:34:35 -0000
+Received: from mta-dock-front-1.domain.com (HELO
+ mta-dock-front-1.domain.com) (69.25.74.172)  by
+ server-12.tower-196.domain.com with SMTP; 18 Aug 2015 17:34:35 -0000
+Received: from domain.com (unknown [10.0.200.60])	by
+ mta-dock-front-1.domain.com (Postfix) with ESMTP id 3hcMn454fmz1CYb
+	for <user@domain.com>; Mon, 18 Aug 2015 17:34:00 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1408383240;
+	bh=mSFNRLabWYuQoBaEzuT8eMnx/8JlaTslo3OJYz+0eSo=;
+	h=Date:To:From: "MATCH@kirkpatrickforarizona.com" <info@kirkpatrickforarizona.com>
+	b=FDfBIDyF9PB4ER25PDZHwtoDUm8XA2toH8hzv4VCOxGDxzNbJ1EfDcXyZ7gCq6dw6
+	 MauolYZxeOV5pJUcQaHpnYUmQK/yWmTuZ0YuucfHrIHJ+QKzzSJ4V226/zDsW4R5DH
+	 VumGhoF1sAjGIjt0MdY3TFNBGgzbNLcdvoV5Xbmk
+Received: from build 	by domain.com with local (PHPMailer);
+	Mon, 18 Aug 2015 17:34:00 +0000
+Date: Mon, 18 Aug 2015 17:34:00 +0000
+To: John user <user@domain.com>
+From: "MATCH@kirkpatrickforarizona.com" <info@kirkpatrickforarizona.com>
+Reply-To: <user@domain.com>
+Subject: MATCH EXPIRES: 11:59 PM
+Message-ID: <22737user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 76160bcf792e16cd
+X-rpcampaign: rp_186622
+X-maillist-guid: AQZVVmpTUAVTA1JWV1IKUwYIBlFQPhVcBlxBF1d0WQUSS1FQDBYBURFcR1sfAFcUagsHBAUB
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_22737b1c97060180686f2069621abf82"
+
+John --
+
+Here's the bad news (ok, TERRIBLE news): Andy Tobin took yet another 
+massive check from the Koch Brothers.
+
+Here's the good news (ok, AMAZING news): After hearing the news, two of 
+Ann's strongest supporters agreed to MATCH ALL GIFTS through midnight 
+tonight.
+
+It's clear that Arizonans DON'T want the Koch Brothers interfering in 
+their elections. If you agree, we need to hear from you right now.
+
+John user
+MATCH EXPIRES: 11:59 pm
+Your Support: $5.00
+
+ALL GIFTS MATCHED UNTIL 11:59 PM
+
+<<link>>
+FR_2014.08.18_b1_match_ldnd-SL2&amp;recurring=3Dauto&amp;amount=3D25&amp;a
+mounts=3D15,25,50,100,250,500,1000&amp;user@domain.com&
+amp;firstname=3DJohn&amp;lastname=3Duser&amp;city=3DWashington&amp;stat
+e=3DDC&amp;zip=3D20016&amp;phone=3D2162818851&amp;occupation=3D&amp;employ
+er=3D
+
+Thanks for your support,
+
+Team Kirkpatrick
+
+This message was emailed to: user@domain.com
+
+To unsubscribe from this email list, please paste this URL into your 
+browser:
+<<link>>
+
+Paid for by the Kirkpatrick for Arizona
+

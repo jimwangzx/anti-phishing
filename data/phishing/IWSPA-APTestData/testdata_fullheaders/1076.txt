@@ -1,0 +1,169 @@
+Delivered-To: user@domain.com
+Received: by 10.140.173.9 with SMTP id v9cs81408rve;
+        Fri, 20 Jun 2015 05:55:37 -0700 (PDT)
+Received: by 10.150.49.1 with SMTP id w1mr203414ybw.26.1213966536185;
+        Fri, 20 Jun 2015 05:55:36 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from py-out-1314.domain.com (py-out-1314.domain.com [64.233.166.175])
+        by domain.com with ESMTP id p57si2336102pyb.27.2008.06.20.05.55.34;
+        Fri, 20 Jun 2015 05:55:36 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.233.166.175 as permitted sender) client-ip=64.233.166.175;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 64.233.166.175 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by py-out-1314.domain.com with SMTP id w51so5784508pyg.9
+        for <user@domain.com>; Fri, 20 Jun 2015 05:55:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:subject:to
+         :x-mailer:message-id:From: David.Willett@Sierraclub.org
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere;
+        bh=eUx7tjUWJe7JeP7CUA2pexhOhLisgGovms1jusVVZW0=;
+        b=v3Eny5PhUlkR40chI9cBtPn0JP13+3+UXl8NuQok9DWd8C7PMYSWAbK+/EENke5zgQ
+         KsLaqnuHZx6UBAA8jJqkL8cMbWyUPh6+75yoyIvylTkFdTrGDt9PfSLBWuTUaFVD3WEY
+         Hp4gNOpnGmSq/i/y6KgO7SJsKBBq10gHQ+/1A
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :subject:to:x-mailer:message-id:From: David.Willett@Sierraclub.org
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        b=EPmL3XF51LtBdGvbsZkt5ta549hU9KpcLkLmtO8yf839LgUSfnmcjsHtZmil8HGc0f
+         zpxZLYpxUme5T+Q6mtm0jB3TiVfjSsNRKyIxIDJtWyzQ/XcQTKH+YtKyvP0Ie/1mlpXW
+         7b3SUIZjfrVau6DssDZCZEFIaToy9+uQrvI60
+Received: by 10.141.146.4 with SMTP id y4mr722571rvn.26.1213966528463;
+        Fri, 20 Jun 2015 05:55:28 -0700 (PDT)
+Received: by 10.106.234.8 with SMTP id g8gr959prh.0;
+	Fri, 20 Jun 2015 05:55:15 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.90.86.9 with SMTP id j9mr3628123agb.23.1213966514703; Fri, 20 Jun 2015 05:55:14 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com [12.20.227.164]) by domain.com with ESMTP id 39si1809282yxd.0.2008.06.20.05.55.14; Fri, 20 Jun 2015 05:55:14 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 12.20.227.164 as permitted sender) client-ip=12.20.227.164;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 12.20.227.164 as permitted sender) user@domain.com
+Subject: [big campaign] Sierra Club Endorses Obama for President
+To: user@domain.com
+X-Mailer: Lotus Notes Release 6.5.1 January 21, 2015 
+Message-ID: <user@domain.com>
+From: David.Willett@Sierraclub.org
+Date: Fri, 20 Jun 2015 08:59:57 -0400
+X-MIMETrack: Serialize by Router on Jenkins/Sierraclub(Release 6.5.5|November 30, 2005) at 06/20/2008 08:59:56 AM
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+For Immediate Release
+June 20, 2015 
+
+Contact:
+David Willet, 202-675-6698
+Josh Dorner, 202-679-7570 (m)
+
+                 Sierra Club Endorses Obama for President
+ Joins United Steelworkers, Senator Brown in Call for Clean Energy Future
+
+Cleveland, OH: With a giant wind turbine representing America's clean
+energy future as a backdrop, the Sierra Club and United Steelworkers today
+jointly endorsed Barack Obama as the change America needs.
+
+Carl Pope, the Executive Director of the Sierra Club, America's largest
+grassroots environmental organization, Leo Gerard,  the leader of America's
+largest industrial union, and,Ohio Senator Sherrod Brown highlighted the
+stakes in this year's election
+
+"We believe Senator Obama is the change our nation needs - he is the change
+we need, the leader who will put America on the path to a clean energy
+economy that will create and keep millions of jobs, spur innovation and
+opportunity, make us a more secure nation, and  help us solve global
+warming," said Pope.
+
+"The Sierra Club and the United Steelworkers are standing together in
+support of Barack Obama because we all share the common goal of putting
+America back to work by building a clean energy economy," said Leo Gerard,
+International President of the United Steelworkers.
+
+"Our endorsement today marks the beginning of a massive mobilization  of
+thousands of members around the country for the campaign-on the phone, on
+the ground, on the airwaves and online, spreading the message that as
+President, Barack Obama will lead America into the clean energy future and
+that we support his plan to solve both our economic challenges and the
+challenge of global warming at the same time," said Allison Chin, President
+of the Sierra Club.
+
+Senator Obama's plan will help heal America's economy and environment:
+
+*  Senator Obama has presented a bold and comprehensive plan for addressing
+climate change that relies on what the world's scientists have told us
+needs to be done.  His plan includes a "cap and auction" system that would
+cut our carbon dioxide emissions 80 percent below 1990 levels by 2050.
+
+*  His plan requires the polluters pay for the global warming pollution
+they domain.com, invests the money generated from the credits polluters would
+have to buy into clean energy, green jobs and aid for the lowest-income
+Americans affected by higher energy costs.
+
+*  His calls for 25 percent of U.S. electricity to come from renewable
+sources by 2025, and for improving energy efficiency in the U.S. 50 percent
+by 2015 would create tens of thousands of jobs in growing industries while
+at the same time saving the amount Americans would have to spend on energy
+bills.
+
+"Barack Obama has said, 'Change is an energy policy that puts a price on
+pollution and makes the oil companies invest their record profits in clean,
+renewable sources of energy that will create millions of new jobs and leave
+our children a safer domain.com.'  We really could not have said it better
+ourselves.  And that is why he is our candidate and we will do everything
+in our power to help elect him the next president of the United States,"
+said Pope.
+
+A sample of other high points of Senator Obama's environmental platform.
+
+*Opposes destructive oil drilling in the Arctic National Wildlife Refuge
+and on fragile coasts.
+*Opposes the storage of nuclear waste at the Yucca Mountain repository
+being built in southern Nevada.
+*Promises to restore environmental protections that the Bush administration
+rolled back by executive order.
+*Calls for tougher pollution regulations on factory farms or concentrated
+animal-feeding operations (CAFOs).
+*Primary cosponsor of the Lead Poisoning Reduction Act, which aims to
+protect children from toxic lead poisoning.
+Sierra Club was also an early backer of State Senator Barack Obama in the
+Democratic Primary for his run to the U.S. Senate, basing our endorsement
+on "his strong record of support for clean air, wetlands protection, and
+clean energy."
+
+###
+
+David Willett
+National Press Secretary
+Sierra Club
+(202) 675-6698 (w)
+(202) 491-6919 (m)
+user@domain.com
+domain.com
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---

@@ -1,0 +1,71 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Tue, 17 Dec 2015 15:39:20 +0100
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 6F6A06007F	for
+ <user@domain.com>; Tue, 17 Dec 2015 14:33:26 +0000 (GMT)
+Received: by domain.com (Postfix)	id E67B72BC1F5; Tue, 17 Dec 2015 
+ 15:39:20 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id D96F52BC1F4	for
+ <user@domain.com>; Tue, 17 Dec 2015 15:39:20 +0100 (CET)
+X-ASG-Debug-ID: 1387291159-066a7509b156ba0001-Aet2rw
+Received: from domain.com (domain.com [209.167.231.219]) by
+ domain.com with ESMTP id lAgfpM6dtrFEA08N for
+ <user@domain.com>; Tue, 17 Dec 2015 15:39:19 +0100 (CET)
+X-Barracuda-Envelope-From: James Browning <enquire@defenceiq.com>
+X-Barracuda-Apparent-Source-IP: 209.167.231.219
+Received: from [10.4.1.10] ([10.4.1.10:40863] helo=P01INJECT010)	by
+ msm-mta06-tor6 (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.4.38585 r(Platform:3.5.4.0)) with ESMTP	id 04/75-07421-B2140B25; Tue, 17
+ Dec 2015 07:18:51 -0500
+Message-ID: <2cdce600a70f444997f931575d7de68e@3043>
+X-Binding: 3043
+X-elqPod: 0x04D4AA276AEFAC548AF4C2541180280C6E4E16410A533B620AAC2EC8FC2601D8
+From: James Browning <enquire@defenceiq.com>
+To: <user@domain.com>
+Reply-To: James Browning <user@domain.com>
+Date: Tue, 17 Dec 2015 07:18:51 -0500
+Subject: This is NOT a Christmas offer... This is BIG DATA for Government &
+ Defence
+X-ASG-Orig-Subj: This is NOT a Christmas offer... This is BIG DATA for Government &
+ Defence
+X-Barracuda-Connect: domain.com[209.167.231.219]
+X-Barracuda-Start-Time: 1387291159
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.80
+X-Barracuda-Spam-Status: No, SCORE=0.80 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_SC7_SA_HREF_WWW_MISMATCH, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.143171
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.80 BSF_SC7_SA_HREF_WWW_MISMATCH BODY: Custom Phishing Mismatch
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1505733112_-_-"
+
+body{   } a img{border: none;}.ReadMsgBody { width: 100%;}.ExternalClass {width: 100%;}
+
+
+
+
+Dear Miss Capaldo,DefenceIQ’s inaugural 
+BIG DATA for Government & Defence is coming to London on 29th-30th April 2014. BIG DATA for Government & Defence 2014Big Data for Government & Defence will address the burning issues facing governments and armed forces around the world: What will be the consequences if organisations ignore the importance of Big Data? What are the risks associated with Big Data? What challenges are being faced and what steps need to be taken for the public sector to realise the full potential of Big Data? Against
+ the backdrop of the first remarkable Big Data analysis results in the public sector, our launch event will answer all these questions and demonstrate how we are starting to see the long-promised results!Download the preliminary agenda here or reply with "BIG DATA YES" and I'll send you a copy.Big Data for Government & Defence
+ will not only be a platform for thought leadership and expert guidance but, most importantly, for organisations to deliver unique feedback on the challenges and obstacles they are facing. We are delighted to announce that we have already confirmed two keynote speakers from the UK: Antonio Acuña, Head of domain.com.uk, domain.com Office, UK Lieutenant Colonel Mike Servaes, Information Superiority, British Army Add 29th-30th April 2015 to your diary now to ensure that you are part of this landmark event!Importantly, if you have the experience, knowledge and ability to speak on what you 
+believe to be a fundamental issue relating to the current challenges 
+facing Big Data in the public sector then please feel free to contact me
+ to see how you can help to shape the event.I hope this email finds you well, and look forward to hearing from you in the near future.Very respectfully,James BrowningConference ProducerDefence user@domain.com
+
+
+
+  To unsubscribe from future emails or to update your email preferences go here. IQPC Ltd: 129 Wilton Road, London, SW1V 1JZ, United KingdomWe respect your right to privacy. View our policy 
+

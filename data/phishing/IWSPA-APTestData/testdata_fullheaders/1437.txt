@@ -1,0 +1,97 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Sun, 15 Jun 2015 12:19:07 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s5FJJ6uV021848	for <user@domain.com>; Sun, 15 Jun 2015 
+ 19:19:06 GMT
+Received: from mail9-ch1-domain.com (mail-domain.com [216.32.181.170])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s5FJJ0IN022987	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Sun, 15 Jun 2015 19:19:00 GMT
+Received: from mail9-ch1 (localhost [127.0.0.1])	by mail9-ch1-domain.com
+ (Postfix) with ESMTP id A8520C052B	for <user@domain.com>; Sun, 15 Jun
+ 2015 19:19:05 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:65.39.215.134;KIP:(null);UIP:(null);SRV:BULK;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(zzc89bh758Ic857h11fbIc545Idbb0izz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1defc1h1def86h1de097h186068h172c6ch1ce120h1a691ciz2fheh5fh839h8aahe5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h2565h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h214ai)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail9-ch1: domain of domain.com designates 65.39.215.134 as permitted sender) client-ip=65.39.215.134; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail9-ch1 (localhost.localdomain [127.0.0.1]) by mail9-ch1
+ (MessageSwitch) id 1402859943793817_5554; Sun, 15 Jun 2015 19:19:03 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.238])	by mail9-domain.com (Postfix) with ESMTP id B38691E0057
+	for <user@domain.com>; Sun, 15 Jun 2015 19:19:03 +0000 (UTC)
+Received: from mx-domain.com (65.39.215.134) by domain.com
+ (10.43.70.15) with Microsoft SMTP Server id 14.16.227.3; Sun, 15 Jun 2015 
+ 19:19:03 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Variety Breaking News <donotreply@variety.com>
+ bh=R5Lk3qxkeojmlTf9HLjBqNZf8SA=;
+ b=G0Lt+zQmkAkTNiJKDZkibUxZsc47/dZ2sMpvAE0CWxFu2JwWx1HlPEALngqKz4yptab3bLV6HvMo
+   PI5/1XzIfpzu3oE5VqPl9BIWWqcEqdtMOrrsaLmXJ9aZEH3fjwSX1DhXlu/gDmm0/wPw2OXJq/ab
+   OP5S/oOQq39VT9n/bj0
+Received: from nyp1-p-p4129-prd-jma-05.sailthru.pvt (64.34.57.234) by
+ mx-domain.com id hjnoqg1qqbsh for <user@domain.com>; Sun, 15 Jun
+ 2015 15:19:04 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1402859963;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=jd7AapDs8O7UzASLj952WBZQ/6K5FxCOh7Y//WraxfQ=;
+	b=Q3/Bm+ddazv2gnoU8Xrf6mdpUAGS9weLy60DIbO6dLsQic/1vIe6+DXgBF8oDTGW
+	3oYdXA+ibL3MeJ2+AFl4YnLepWh5yFhXWIwPWoZinCAn6HoVLwrVTm0Ojlv7zo/nq3K
+	UPqpX5vQqECOBRt522emsjhHe4pT+ihiwJ94dqN8
+Date: Sun, 15 Jun 2015 15:19:23 -0400
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140615191923.2742600.18536@domain.com>
+Subject: Channing Tatum, '22 Jump Street' a Hit with Women
+Precedence: bulk
+X-TM-ID: 20140615191923.2742600.18536
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4129-prd-jma-05.sailthru.pvt
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2742600
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Channing Tatum, '22 Jump Street' a Hit with Women
+
+Females made a vow to see Channing Tatum and "22 Jump Street" this weekend and clearly delivered... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Sunday, June 15, 2015   
+
+​ 
+
+<<link>> 
+
+        Channing Tatum, '22 Jump Street' a Hit with Women               
+
+        Females made a vow to see Channing Tatum and "22 Jump Street" this weekend and clearly delivered at the box office. The R-rated c...            
+
+        Full Story              
+
+
+
+
+Check out the redesigned Variety411      <<link>>         
+
+This email was sent to user@domain.com by Variety. To ensure delivery to your inbox (and no
+

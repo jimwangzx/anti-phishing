@@ -1,0 +1,49 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp519124lfr;
+        Fri, 7 Aug 2015 12:57:24 -0700 (PDT)
+X-Received: by 10.107.19.32 with SMTP id b32mr9757832ioj.144.1438977444299;
+        Fri, 07 Aug 2015 12:57:24 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::235])
+        by domain.com with ESMTPS id i23si9010760iod.203.2015.08.07.12.57.23
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 07 Aug 2015 12:57:24 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::235 as permitted sender) client-ip=2607:f8b0:4001:c05::235;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::235 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ig0-domain.com with SMTP id pg9so38388763igb.0
+        for <user@domain.com>; Fri, 07 Aug 2015 12:57:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Neera Tanden <ntanden@gmail.com>
+         :content-type;
+        bh=yxbrnHL0msJvQzCApse7q9IuZkQOwwqfrshHovK7U/Q=;
+        b=OQQfRnChs1Ci6dzFQM501w7W+ZP82MHDIZMOO7Qc7cN8qltBgUabghqU+NcegoSFse
+         wLfB+1SRmizsiBb56H8QkAN9SQVAOffDcnRyKH3HOs0wkz444pUsnzNyykYvMHJHd3ZW
+         ZNMm+sIcSBHW7O/Gf5PLN6Hb4qj7TRR8Im9gYd+EKs92yiGdsxjTLA/34P48uy0tEcXL
+         znxcaArxjvzcvHsSGAhnHF5Zq98QyzOFfJqDLcZZ1l8uqlDjlj4pldz8LiqQHBglIo+X
+         i7+wd153+IFsSu72IlU+X25rXhiNxhc3iucwv+2VFdxFlTZra3FpzP/gs9ixmOCXWnzH
+         5rXw
+MIME-Version: 1.0
+X-Received: by 10.50.109.161 with SMTP id ht1mr4772407igb.97.1438977443528;
+ Fri, 07 Aug 2015 12:57:23 -0700 (PDT)
+Received: by 10.50.90.39 with HTTP; Fri, 7 Aug 2015 12:57:23 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+	<CAE6FiQ_+O-OE3SvzOnN592pJZFGMP1-PyAfjYujcUdyAVdYg+user@domain.com>
+	<CAJiTYQa3MaN6qfVMM4ec=Du7LCgSwruvNq+user@domain.com>
+	<user@domain.com>
+Date: Fri, 7 Aug 2015 15:57:23 -0400
+Message-ID: <CAJiTYQYA5zwYTuE1PdgO-TP08zQmWnabtLPD=GPxqYB5h+user@domain.com>
+Subject: Re: Debate
+From: Neera Tanden <ntanden@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7bfea9185c880d051cbe0bd9
+
+Kasich appeals to you, me and reporters. But I don't think he appeals to
+the Republican party. He appeals to like the 10 moderates there.  But if
+I'm wrong, we're in big trouble.
+

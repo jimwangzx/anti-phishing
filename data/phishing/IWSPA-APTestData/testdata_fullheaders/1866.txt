@@ -1,0 +1,115 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp68111lfb;
+        Sat, 25 Oct 2015 12:16:28 -0700 (PDT)
+X-Received: by 10.140.104.200 with SMTP id a66mr17656275qgf.37.1414264587518;
+        Sat, 25 Oct 2015 12:16:27 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.203])
+        by domain.com with ESMTPS id l5si13755177qai.32.2014.10.25.12.16.27
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Sat, 25 Oct 2015 12:16:27 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.203;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.241.131] by server-11.bemta-8.domain.com id D2/39-02831-A07FB445; Sat, 25 Oct 2015 19:16:26 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-3.tower-54.domain.com!1414264582!8224915!18
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 30989 invoked from network); 25 Oct 2015 19:16:26 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-3.tower-54.domain.com with AES256-SHA encrypted SMTP; 25 Oct 2015 19:16:26 -0000
+Resent-From: Tim Kaine <info@foustforvirginia.com>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Sat, 25 Oct 2015 15:16:24 -0400
+Received: from [216.82.254.83:35301] by server-5.bemta-7.domain.com id
+ 42/B2-16901-707FB445; Sat, 25 Oct 2015 19:16:23 +0000
+X-Env-Sender: AQZVVmpcXwJcUFNRUFcAAFNfUQADPhVcBlxBF1d0WQUSS1FQDBYBURFcR1s
+  user@domain.com
+X-Msg-Ref: server-14.tower-197.domain.com!1414264581!5751381!1
+X-Originating-IP: [66.151.230.134]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNjYuMTUxLjIzMC4xMzQgPT4gMjgxNDE=\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 24645 invoked from network); 25 Oct 2015 19:16:21 -0000
+Received: from mta-dock-front-11.domain.com (HELO
+ mta-dock-front-11.domain.com) (66.151.230.134)  by
+ server-14.tower-197.domain.com with SMTP; 25 Oct 2015 19:16:21 -0000
+Received: from domain.com (unknown [10.0.200.177])	by
+ mta-dock-front-11.domain.com (Postfix) with ESMTP id
+ 3jQBqn2Kg1z1gwbX	for <user@domain.com>; Sat, 25 Oct 2015 19:16:21
+ +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1414264581;
+	bh=Y4uLFASIHpuc283zwfq391geVeNc/z5MmTONaZZq+qo=;
+	h=Date:To:From: Tim Kaine <info@foustforvirginia.com>
+	b=eWREbDsCax5brA+F0STeE18mSzzwIfkhAGV3vBIeq9XiND9rvUySl3xBTAr6CKXaW
+	 L/BpRNL+oC1hh3pm9Z4mad00hH7Itt9L1PO+iB2sQAm2gV0hGXRkJCdCBcoqg2u+Ir
+	 0IeU6U9QNk6+j+8fM0VqdVHBBMkvyY+/4qw21KTM
+Received: from build 	by domain.com with local (PHPMailer);
+	Sat, 25 Oct 2015 19:16:21 +0000
+Date: Sat, 25 Oct 2015 19:16:21 +0000
+To: John user <user@domain.com>
+From: Tim Kaine <info@foustforvirginia.com>
+Reply-To: <user@domain.com>
+Subject: MAJOR upset
+Message-ID: <76user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 8969ccda23a0fa27
+X-rpcampaign: rp_180761
+X-maillist-guid: AQZVVmpcXwJcUFNRUFcAAFNfUQADPhVcBlxBF1d0WQUSS1FQDBYBURFcR1sfAFcUagoICwIO
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_76aacb065caad9051fbfaf2d9d7460c8"
+
+John -- trust me when I say this:
+
+John Foust can deliver a major upset to the GOP and turn Northern Virginia 
+"blue."
+
+But he needs you with him right now. Polls show him deadlocked with 
+Barbara Comstock, but his record is being smeared 24 hours a day on 
+Virginia T.V.
+
+So, I'm asking. Can you pitch in for John before tonight's fundraising so 
+he has the resources to set the record straight?
+
+<<link>>
+4.10.25_b1_tk_ldnd&amp;amp;amount=3D25&amp;amp;amounts=3D15,25,50,100,250,
+500,1000&amp;amp;user@domain.com&amp;amp;firstname=3DJo
+hn&amp;amp;lastname=3Duser&amp;amp;city=3DWashington&amp;amp;state=3DDC
+&amp;amp;zip=3D20016&amp;amp;phone=3D2162818851&amp;amp;occupation=3D&amp;
+amp;employer=3D&amp;amp;recur_weekly=3Dtrue
+
+Some of John's strong supporters have agreed to match dollar for dollar 
+any funds raised from this email.
+
+<<link>>
+14.10.25_b1_tk_ldnd&amp;amp;amount=3D25&amp;amp;amounts=3D15,25,50,100,250
+,500,1000&amp;amp;user@domain.com&amp;amp;firstname=3DJ
+ohn&amp;amp;lastname=3Duser&amp;amp;city=3DWashington&amp;amp;state=3DD
+C&amp;amp;zip=3D20016&amp;amp;phone=3D2162818851&amp;amp;occupation=3D&amp
+;amp;employer=3D&amp;amp;recur_weekly=3Dtrue
+
+Thanks for everything,
+
+Tim
+
+This message was emailed to: user@domain.com
+
+To unsubscribe from this email list, please paste this URL into your 
+browser:
+<<link>>
+
+Paid for by John Foust for Congress
+

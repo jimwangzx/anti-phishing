@@ -1,0 +1,90 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Wed, 8 Jan 2015 08:06:57 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s08G6vee005975	for <user@domain.com>; Wed, 8 Jan 2015 
+ 16:06:57 GMT
+Received: from mail216-va3-domain.com (mail-domain.com
+ [216.32.180.114])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s08G6uvM011425
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Wed, 8 Jan 2015 16:06:57 GMT
+Received: from mail216-va3 (localhost [127.0.0.1])	by
+ mail216-va3-domain.com (Postfix) with ESMTP id 982302C0290	for
+ <user@domain.com>; Wed,  8 Jan 2015 16:06:56 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:184.173.153.34;KIP:(null);UIP:(null);IPV:NLI;H:mail-s34.mailgun.us;RD:mail-s34.mailgun.us;EFVD:NLI
+X-SpamScore: 4
+X-BigFish: vps4(z10d0kzc89bhe6eIc857hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1d7338h1def03h177df4h17326ah1def87h8275bh1bc7b9h18c673h19a27bh1de097h1de096h186068h154cf6h172c6chz2fh5eh5fh839h107ah10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h17ffh18e1h1946h19b5h1b0ah1bd2h1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h1a94i1b0ei1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail216-va3: domain of email.withings.com designates 184.173.153.34 as permitted sender) client-ip=184.173.153.34; envelope-from=bounce+943user@domain.com; helo=mail-s34.mailgun.us ;4.mailgun.us ;
+Received: from mail216-va3 (localhost.localdomain [127.0.0.1]) by mail216-va3
+ (MessageSwitch) id 1389197214923196_28248; Wed,  8 Jan 2015 16:06:54 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.240])	by
+ mail216-domain.com (Postfix) with ESMTP id D44E7C80047	for
+ <user@domain.com>; Wed,  8 Jan 2015 16:06:54 +0000 (UTC)
+Received: from mail-s34.mailgun.us (184.173.153.34) by
+ domain.com (10.7.99.35) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 8 Jan 2015 16:06:54 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=email.withings.com; q=dns/txt;
+ s=mailo; t=1389197214; h=Content-Type: Mime-Version: Subject: From: Withings <community@email.withings.com>
+ Reply-To: Message-Id: Date: Sender;
+ bh=y2ys00inhw9q01FrIkacQPS4zRsBueDTbRtVFYDydG4=; b=X4ST5qD33YMaWcydtWkxdSxPVm15Yhz9rZW1n9Ext3cxN5BuqrJXwDbwemjZk26KUVHA2IRf
+ FkehGucwZV4LcLIicc7x8SnqvQfarrWI6j5lwUDH1sc3gXhp+f3aOqnMrZkxAU0Wb/XZycVH
+ fUx6G3iWlwl1NhIuQkYI2xEqJlw
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=email.withings.com;
+ s=mailo; q=dns; h=Content-Type: Mime-Version: Subject: From: Withings <community@email.withings.com>
+ Reply-To: Message-Id: Date: Sender;
+ b=IwaGv7uS9qTf3nV0inmgons/0Mc65hAKR/aY3jpaEhwmsXSJ3eidcshKsLmsfR9IBaymL3
+ +V5F3JplXBZpQ6HEBFn4ciPDs7qb9hyCGUBDTOCLZOx+6gR7kwG7V9hOnKEZEKDpw3sjlPtA
+ 9JbICTE29ymqrvweoCp8B4SjeXwgs
+Received: by domain.com with HTTP; Wed, 08 Jan 2015 15:00:41 +0000
+Subject: What a way to start 2014!
+From: Withings <community@email.withings.com>
+To: <user@domain.com>
+X-Mailgun-Deliver-By: Wed, 08 Jan 2015 16:06:37 -0000
+Reply-To: Withings <user@domain.com>
+X-Mailgun-Variables: {"wdata": "{\"e\":10408}"}
+Message-ID: <20140108150041.29668.42991@email.withings.com>
+X-Mailgun-Sid: WyIzMTI2MCIsICJhbXlfcGFzY2FsQHNwZS5zb255LmNvbSIsICI2NGJkNCJd
+Date: Wed, 8 Jan 2015 16:06:54 +0000
+Sender: <user@domain.com>
+Return-Path: bounce+943user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+What a way to start 2014!
+
+
+
+
+ header 
+
+ <<link>>        
+
+Big things popping in 2015      
+
+Happy & Healthy New Year! 2015 will definitely be an innovative year for Withings, starting with the following 3 annoucements:  
+
+Smart Sleep System      |       Blood Pressure Monitor  |       Community       
+
+ ombre  
+
+Introducing the Withings Aura   
+
+We just unveiled our new Smart Sleep System at the International Customer Electronic Show in Las Vegas, where it received a very warm welcome!  
+
+Discover the Withings Aura      
+
+A revolutionary new approach to sleep   
+
+Just released, Withings Aura has already been praised at the CES, winning a Health & Fitness Innovation Award.
+
+ <<link>>        
+
+ <<link>>        Special Aura Twitter contest    
+
+Tweet your best dream ever, with #KnowYourBody, for a chance to win a Withings device. 
+

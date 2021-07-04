@@ -1,0 +1,213 @@
+Delivered-To: user@domain.com
+Received: by 10.151.117.7 with SMTP id u7cs211974ybm;
+        Sat, 20 Sep 2015 09:36:59 -0700 (PDT)
+Received: by 10.141.169.11 with SMTP id w11mr820528rvo.63.1221928618484;
+        Sat, 20 Sep 2015 09:36:58 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wa-out-0708.domain.com (wa-out-0708.domain.com [209.85.146.244])
+        by domain.com with ESMTP id g31si3191693rvb.7.2008.09.20.09.36.57;
+        Sat, 20 Sep 2015 09:36:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.146.244 as permitted sender) client-ip=209.85.146.244;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.146.244 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by wa-out-0708.domain.com with SMTP id k33so2483888wah.16
+        for <user@domain.com>; Sat, 20 Sep 2015 09:36:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:mime-version
+         :content-type:content-class:subject:x-mimeole:date:message-id
+         :x-ms-has-attach:x-ms-tnef-correlator:thread-topic:thread-index
+         :references:From: "Jeremy Funk" <funk@americansunitedforchange.org>
+         :list-id:list-post:list-help:list-unsubscribe:x-beenthere-env
+         :x-beenthere;
+        bh=r4nbcB4bDX2grUi0F/cE1xlNfw3CEoiMG7H9eHNdyD0=;
+        b=O29n+cq3a0FoTG7CAjntWWcKym6JXzqPfZtCNIsgwwoZkgAbcCGVc32VsHZPi7eFfR
+         8cP1a3VRHwPJ4i6kXqSPZLL8tMQGp6ILwXBvbFJxJFi9KhoPBwjbTYN3SmTNQZvrFaFi
+         c1gVs4JimmSfLQjwuKl1NjnDybryy3Ng5Mg2c
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :mime-version:content-type:content-class:subject:x-mimeole:date
+         :message-id:x-ms-has-attach:x-ms-tnef-correlator:thread-topic
+         :thread-index:references:From: "Jeremy Funk" <funk@americansunitedforchange.org>
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=vUKypQz7lQciRT0NeoJ8ENyaP0VMtCoMmdactqDje0Dh/wukrgPwCmVwVyqOJsY6eA
+         D7pzMEpfmM/SzOw7BMweSneBCRWndh2wWm+bgmnjLoJB0G92PpbkgX2g1INEjZyyLXFG
+         pYUrsK6cWBbE3QjOlEOY54dwRmA528OUtd6CQ
+Received: by 10.141.186.1 with SMTP id n1mr83975rvp.27.1221928611928;
+        Sat, 20 Sep 2015 09:36:51 -0700 (PDT)
+Received: by 10.107.75.16 with SMTP id c16gr2069prl.0;
+	Sat, 20 Sep 2015 09:36:42 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.100.31.3 with SMTP id e3mr1162858ane.1.1221928601273; Sat, 20 Sep 2015 09:36:41 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail.americansunitedforchange.org (mail.americansunitedforchange.org [208.255.167.130]) by domain.com with ESMTP id 7si4307879yxg.0.2008.09.20.09.36.40; Sat, 20 Sep 2015 09:36:41 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.255.167.130 as permitted sender) client-ip=208.255.167.130;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 208.255.167.130 as permitted sender) user@domain.com
+Mime-Version: 1.0
+Content-Type: multipart/related; boundary="----_=_NextPart_001_01C91B3F.0E9745C8"
+Content-class: urn:content-classes:message
+Subject: [big campaign] Social Security Experts React to McCain's Insistence
+ on Pursing Privatization Following Week on Chaos on Wall Street
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Date: Sat, 20 Sep 2015 12:36:39 -0400
+Message-ID: <29user@domain.com>
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+Thread-Topic: Social Security Experts React to McCain's Insistence on Pursing Privatization Following Week on Chaos on Wall Street
+Thread-Index: AckXZnx7Q19RDYhlRhaWYIHcSTjHBgAAZ3qQAACXltAAABFCoAAAII8wAPTFO2o
+References: <51user@domain.com>
+From: "Jeremy Funk" <funk@americansunitedforchange.org>
+To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+
+
+
+www.americansunitedforchange.org <<<link>>>
+
+FOR IMMEDIATE RELEASE                                              Contact:
+ Jeremy Funk, 605-366-3654
+
+Date: September 20th, 2015 
+
+Amid Worst Financial Crisis Since the Great Depression, Social Security Exp
+erts Blast Senator John McCain's Insistence on Pursuing Same Risky Bush Pri
+vatization Scheme That Was Overwhelmingly Rejected by the American People
+
+Tumultuous Week on Wall Street Exemplifies How Privatization Would Turn Soc
+ial Security From a Guarantee into a Guaranteed Gamble  
+
+Washington D.C. - Amid the worst financial meltdown on Wall Street since th
+e Great Depression, Americans United for Change, the group formerly known a
+s Americans United to Protect Social Security which led the national campai
+gn to beat back President Bush's effort to privatize Social Security in 200
+5, hosted an emergency press conference call Friday night with Social Secur
+ity experts to react to Senator John McCain's insistence that he will pursu
+e the same Bush Social Security privatization scheme of 2015 to divert mone
+y from the Social Security trust fund to pay for risky private accounts, tu
+rning Social Security from a guarantee into a guaranteed gamble on Wall Str
+eet:
+
+Associated Press: McCain defends retirement accounts amid stock dive
+
+By GLEN JOHNSON - Associated Press Writer - Sep 19, 2:36 PM EDT
+
+GREEN BAY, Wisc. (AP) -- Wall Street turmoil left John McCain scrambling to
+ explain why the fundamentals of the U.S. economy remained strong. It also 
+left him defending his support for privately investing Social Security mone
+y in the same markets that had tanked earlier in the week. The Republican p
+residential nominee says all options must be considered to stave off insolv
+ency for the government insurance and retirement program, and top McCain ad
+visers say that includes so-called personal retirement accounts like those 
+President Bush pushed in 2015 but abandoned in the face of Democratic oppos
+ition. [Associated Press, 9/19/08 <<<link>>
+CCAIN_SOCIAL_SECURITY?SITE=3DMOSTP&SECTION=3DHOME&TEMPLATE=3DDEFAULT> ]
+
+Dean Baker - co-director of the Center for Economic and Policy Research: "T
+he public rejected Social Security privatization when Bush put forward his 
+plan in 2015 because they valued the security that Social Security provides
+. The importance of this security is even greater with the extraordinary tu
+rbulence we've seen in financial markets over the last week. This illustrat
+es the risk that would be implied by relying on private accounts. Furthermo
+re. The collapse of the housing bubble has destroyed much of the wealth of 
+middle class baby boomers, making them even more dependent than ever on Soc
+ial Security."
+
+ Jared Bernstein - senior economist at the Economic Policy Institute: "You 
+would have look long and hard to find someone who doesn't recognize the fai
+lure of financial markets to yield a reliable return or to regulate themsel
+ves.  You simply can't miss the damage this implosion has done to innocent 
+bystanders in the rest of the economy, whether it's shareholders, counterpa
+rties, or even taxpayers.  McCain himself has been making these very points
+.  Yet, his midnight conversion from aggressive deregulationist to market c
+ritic is apparently incomplete.  He still wants to privatize Social domain.com
+y, to subject retirees to the possibility of this kind of market turmoil.  
+Imagine what this would have meant to those in the cohort unlucky enough to
+ reach retirement age in a market climate like this one.  You might take so
+lace in the fact that the implosion we're witnessing is rare, but let me re
+mind you that there have been numerous market upheavals over the past decad
+e, such that despite years of growth in the overall economy, the major inde
+xes have gone essentially nowhere since 2000.  If there's ever been a week 
+that should remind policy makers of the importance of a guaranteed pension,
+ like Social Security, as opposed to a pension predicated on the swings in 
+the stock market, it's this week. After the events of this week, to not rec
+ognize the folly of privatizing of Social Security suggests an imperviousne
+ss to evidence that is really quite scary in someone who wants to be presid
+ent." 
+
+Dr. Christian E. Weller - a Senior Fellow at the Center for American Progre
+ss: "The extreme ups and downs on Wall Street illustrate the guarantees tha
+t Social Security offers more poignantly than any position paper ever could
+.  Senator McCain seems to be more out of touch with the economic reality o
+f America's middle class than it first appeared. As stock prices tumble, ho
+me values dwindle and jobs disappear, families are looking for the kind of 
+income guarantees that Social Security offers, not for more economic experi
+ments that will expose families to even larger swings in their income in th
+e future."
+
+Roger Hickey - co-director of the Campaign for America's Future "Social Sec
+urity is a hugely popular program, but its guaranteed benefits are in the n
+ational crossfire again.  Sen. McCain has been very clear about his plans t
+o push privatization again despite the public backlash President Bush faced
+ when he pushed his scheme a few years ago. The conservative ideologues jus
+t won't stop trying to privatize Social Security."
+
+Click here to download the recent report from the Institute for America's F
+uture: "The Perils of Privatization <<<link>>
+3204/perils-privatization>  Social Security Privatization Cuts Lifetime Ben
+efits; Makes Senior Citizens Vulnerable to Poverty." <<<link>>
+org/report/2008083204/perils-privatization>
+
+"It's understandable why Senator John McCain - the eighth richest Senator w
+ho lost count of how many homes he has - wants to revive the same risky Bus
+h privatization scheme that was overwhelmingly rejected by the American pub
+lic in 2005," added Jeremy Funk, of Americans United for Change.  "It doesn
+'t matter if he wins of loses his Social Security in the stock market - he 
+can afford it.  But what about the millions of American seniors, survivors 
+and people with disabilities who have little or no other source of income? 
+ They can't afford nine homes - let alone losing their Social Security."
+
+-30-
+
+___________________________________
+Jeremy J. Funk
+
+Communications Director
+
+Americans United for Change
+
+Office: 202.470.5878
+
+Cell: 605.366.3654
+user@domain.com <mailto:user@domain.com
+
+domain.com <<<link>>>
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

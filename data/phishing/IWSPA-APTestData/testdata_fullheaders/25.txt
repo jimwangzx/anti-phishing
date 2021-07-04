@@ -1,0 +1,73 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp98055lfb;
+        Fri, 5 Feb 2015 10:59:32 -0800 (PST)
+X-Received: by 10.107.34.79 with SMTP id i76mr18628709ioi.195.1454698772138;
+        Fri, 05 Feb 2015 10:59:32 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::230])
+        by domain.com with ESMTPS id r18si28494529igs.91.2016.02.05.10.59.31
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Feb 2015 10:59:32 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::230 as permitted sender) client-ip=2607:f8b0:4001:c06::230;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::230 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-io0-domain.com with SMTP id d63so135641606ioj.2
+        for <user@domain.com>; Fri, 05 Feb 2015 10:59:31 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:From: Susan Pfeifer <susanp4hillary@gmail.com>
+        bh=tpmyLuOFJaXB0G1QYUyMFGyTIDVFhOJRa+KO3FiFkTM=;
+        b=sN4Eit5Gn734VOd3qB/giRaX9Ka0imtUaSQa/Cu1E1k7OOAjHKB7DsPsUDJYyIh4qy
+         VWMPMGeicbM+LH31kG98y0o8y2Q8z+irg2vfI1MM3PmDvKMDBqtq8+SVYxMEnikWyYvy
+         pabkXSLJPEiecd9u0QdVSwBC31UAJFElQFfdZKprApMBBQ6ByfmB0vIDwkwi0vC4eA/9
+         GC0SHWuqtnMwEbpPtE/L8Sm2j7h5pRTTIY2oII9MpPZeq6gffRI+o0bxipcZUQXldJPc
+         8L6iUooBgK3CDW+pQfR/rRz1YYbuafOGOjW+Ut+/VXmFD14HoTaSm1Qf0rggCFXbJT5e
+         PTIw
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:From: Susan Pfeifer <susanp4hillary@gmail.com>
+         :content-type;
+        bh=tpmyLuOFJaXB0G1QYUyMFGyTIDVFhOJRa+KO3FiFkTM=;
+        b=HdCrE02JQtHT3I1ECxt30898IVTP3iQUItMYy9f5ciG46CzuGr4N1M6W0s0tW6kpue
+         oPoKUGV/+SlOfza2EwWQMU1hykXPSaBkGzHAz/xhFK0T17PzTly6mAt4PqjBa4BOKVIP
+         rl0sCgiBA3bFpSWu0yZMmLVtO53kvvJpsO92XRNxl7USOwbxEuPhGylANtaOETvFlwcC
+         vRretPpSg9a+dI5nUxp9mB/0K4ll2QhFJawP0IZ0tTIAoOWuGhYIMvomP8/pRSFnYmHK
+         Mc+kvGhfiwRT5aV3u3H/fikNE4Y6oLLS0lPPABwGVv3d82zHQfl5vv7Q2uCwZNk/zsa5
+         IrCQ
+X-Gm-Message-State: AG10YOTDSpyd0/DDD3avJg6XEQBKqZQMj5VqruNLzGxBW211vABZbDZ51Cyeq1Caz4hs5cZz+poce56E5GDeyQ
+X-Received: by 10.107.135.34 with SMTP id j34mr3547377iod.173.1454698771796;
+ Fri, 05 Feb 2015 10:59:31 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.79.37.4 with HTTP; Fri, 5 Feb 2015 10:58:52 -0800 (PST)
+From: Susan Pfeifer <susanp4hillary@gmail.com>
+Date: Fri, 5 Feb 2015 10:58:52 -0800
+Message-ID: <CAA8zu7SXNf38iapOLLYOU=Z4qZK4Sce_uT5BxmP=7K+=user@domain.com>
+Subject: Middle Class Fundraising Proposal
+To: John user <user@domain.com>
+Content-Type: multipart/mixed; boundary=001a113eb29e8cc936052b0a73e7
+
+Hi John,
+Do you recall meeting me in Oakland back in December? I emailed you a plan
+to enhance low dollar monthly donations for the Hillary Clinton campaign.
+You said you would share it with the Finance folks.  I presume it went into
+the same "circular file" as every time I have tried to domain.com it. This was
+intended to enhance the larger donation fundraising - not to replace it.
+
+Now, take a look at the money Senator Sanders is collecting in small
+(average $27) donations.  I said at the time that whomever did this first
+would change political fundraising by including the middle (and lower)
+class. Looks like Bernie Sanders beat the Hillary Clinton campaign to it
+and, sadly, my point has been proven right.
+
+I'm very sorry to see this happening. I've attached it again. It's only a
+suggested template that can be revised but the principle remains the same -
+to make moderate monthly donors feel they have a stake in the campaign.
+
+With sincere regards,
+-- 
+Susan Pfeifer
+user@domain.com
+Volunteer Leader: NorCal Hillary for America Steering Committee

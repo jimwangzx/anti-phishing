@@ -1,0 +1,66 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 22 Jan 2015 10:35:43 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0MIZgWa027317	for <user@domain.com>; Wed, 22 Jan 2015 
+ 18:35:42 GMT
+Received: from mail65-tx2-domain.com (mail-domain.com [65.55.88.115])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0MIZfx2016304	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Wed, 22 Jan 2015 18:35:42 GMT
+Received: from mail65-tx2 (localhost [127.0.0.1])	by mail65-tx2-domain.com
+ (Postfix) with ESMTP id 738FAA0179	for <user@domain.com>; Wed, 22 Jan
+ 2015 18:35:41 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.125;KIP:(null);UIP:(null);SRV:BULK;H:mx125.b2b-domain.com;RD:mx125.b2b-domain.com;EFVD:NLI
+X-SpamScore: 9
+X-BigFish: vps9(zzc89bh12dbKc857h77f5h609Izz1f42h2148he68I208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h1082k10c0jzz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h1ce120hf9138oz2fh5eh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h1361i214ai1155h1362h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail65-tx2: domain of b2b-domain.com designates 209.162.194.125 as permitted sender) client-ip=209.162.194.125; user@domain.com; helo=mx125.b2b-domain.com ;b2b-domain.com ;
+Received: from mail65-tx2 (localhost.localdomain [127.0.0.1]) by mail65-tx2
+ (MessageSwitch) id 1390415739629305_15220; Wed, 22 Jan 2015 18:35:39 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.253])	by
+ mail65-domain.com (Postfix) with ESMTP id 908763A004C	for
+ <user@domain.com>; Wed, 22 Jan 2015 18:35:39 +0000 (UTC)
+Received: from mx125.b2b-domain.com (209.162.194.125) by
+ domain.com (10.9.99.144) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 22 Jan 2015 18:35:36 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=acton2012; d=techproductupdate.com;
+ h=Message-ID:Date:From: Resource Report <admin@techproductupdate.com>
+ bh=RXj65GBUUpuk4d0QtfQWmcdagAg=;
+ b=mA/mMhdg2Z5mp/r2r3FzxgOi2KlqPgipgYk9o1ehlPqjIspMgpbnU+U9/3DMB/jrEXmGW/ng4thC
+   8CYxTJIhbKKIOJ+qLHtokPdAA/qRRwW4JxLO5DmiGB5AhxmpUHOSeUvs8Xt92Px3kZij7gpkvQQr
+   uJllrO8mcX5ePtXIdXo
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=acton2012; d=techproductupdate.com;
+ b=WDKsBKNK+kGQcXsxdp6C/8fVfWC09Zd1LJwFJJp6vKd8I/m+QrYsMbnIX22SPBF5vl1KsRN85/Vv
+   vkcTwCYXCatQF817hnKDTOs2/NuBU3nyHWxHUsv5AGo1MTcZpQWzD1zHMZhU6KTyTvoNnR3lkDqR
+   t76Tuae9krJHAJ7ULzA=;
+Received: from 10.10.40.64 (172.16.0.16) by mx125.b2b-domain.com id hs07ng1gs505
+ for <user@domain.com>; Wed, 22 Jan 2015 10:15:23 -0800 (envelope-from
+ <user@domain.com>)
+Message-ID: <UBZWZXBZC$UWCTXUXYVWVAZ@10.10.40.64>
+Date: Wed, 22 Jan 2015 10:15:23 -0800
+From: Resource Report <admin@techproductupdate.com>
+Reply-To: Resource Report <user@domain.com>
+To: AMY PASCAL <user@domain.com>
+Subject: How to Rethink a Better Approach to IT Operations Management
+X-MESSAGEID: WCZX.rEUUUV.KVWHK.mEVGIDEVYUV
+X-COD: ^^184.169.176.89/acton/delivery?accountid=2853&msuid=s-1ac9-1401&rcptid=l-0001%3Ae12be&srcid=q-0465
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+How to Rethink a Better Approach to IT Operations Management
+
+View this message in a browser   Please add user@domain.com to your address book to ensure properly delivery        
+
+TechProduct Update       
+
+How to Rethink a Better Approach to IT Operations Management
+
+Conceptually, virtualization provides an incredible opportunity to change the way IT is managed. This is accomplished through Virtualization’s ability to use software controls to dynamically change resource allocation and workload configurations for applications operating across a shared physical infrastructure. In effect, virtualization enables the environment to be horizontally scaled (to meet specific workload demand) and vertically scaled (to reallocate resources based on existing workload requirements) in rapid fashion.
+
+This is absolutely vital, because, the traditional approach of collecting data, generating alerts and manually troubleshooting cannot scale to meet the requirements of this new architecture. IT operators struggle to keep pace and the collection mechanism itself creates a significant tax on the overall system. Moreover, this approach is not designed to leverage the inherent fluidity in virtual data centers to control the environment based on workload demands, resource capacity, and configuration and business constraints. Read on to learn how to rethink IT operations management and get the most out of your virtualized data center.
+

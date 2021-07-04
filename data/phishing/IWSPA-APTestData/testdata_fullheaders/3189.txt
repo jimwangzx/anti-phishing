@@ -1,0 +1,44 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.99 with SMTP id n90csp12683qga;
+        Sat, 9 Aug 2015 05:57:53 -0700 (PDT)
+X-Received: by 10.236.70.105 with SMTP id o69mr15916125yhd.25.1407589072941;
+        Sat, 09 Aug 2015 05:57:52 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ms148-079.domain.com (ms148-079.domain.com. [69.166.148.79])
+        by domain.com with ESMTP id k40si17394512yhq.29.2014.08.09.05.57.52
+        for <user@domain.com>;
+        Sat, 09 Aug 2015 05:57:52 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.166.148.79 as permitted sender) client-ip=69.166.148.79;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 69.166.148.79 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from localhost (172.16.0.148) by ms148-079.domain.com id hsodd01kmf4t for <user@domain.com>; Sat, 9 Aug 2015 08:57:49 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=domain.com; s=bdk; h=From: "Leslie's Pools" <lesliespool@reply.bronto.com>
+  bh=QYcoUIFG5Q+0n2b9ZlUOS7nwMIpSdKbFEtA+LCkAmWI=;
+  b=drA8kfYsNJQczx6LfCygWCuHHREQt6qDdN2NeGcUOnZ1jfQzLIzZIa9n9s+sxo+6BY0+CCVydlXGGO2SJBri425aMqsPLNrGNixcgX8pQPZGX2vq+sHXvVI/EiRVuietZziBmHHjRxe99AaITORhaCK8MeX2sMXYmFXJbmRScbw
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=bdk; d=domain.com;
+  h=From: "Leslie's Pools" <lesliespool@reply.bronto.com>
+  b=lZNvMfmWq39EVCH3s2cAQQdh/TaGA7lmpXd8FKvqYlcPu3424LawvITpZE1f4qzNKnlkKqguY5uZSHawTNeFXLLr2HF//7Yt71Hv5Zd/r/4BQv+7QTjCVMlAZjcd2jphsQRIVhGVJ6qWkGUTEOZ84iRsJebx6lSwvTbUJRXrXnE=;
+From: "Leslie's Pools" <lesliespool@reply.bronto.com>
+To: user@domain.com
+Subject: It's Kids Day! Free Pool Noodles & Savings Up to 50% on Floats & Toys
+Date: Sat, 09 Aug 2015 08:57:48 -0400
+X-Mailer: BM23 Mail
+Reply-To: "User" <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com>
+X-campaignID: bm23_ayqmypzfooulzxwrrrwykxywmosgbbb
+x-pviq: 000235-000596-000026-000041-473138
+Message-ID: <user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="==Multipart_Boundary_xc75j85x"
+Content-Transfer-Encoding: 7BIT
+Return-Path: user@domain.com
+
+You have received the alternative text version of an HTML message. Please click below to access the web version of the message:
+
+View an HTML version of this message: <<link>>
+
+Leslie's Poolmart, Inc. | 2015 East Indian School Road | Phoenix, AZ 85016 | United States
+
+domain.com the link below to unsubscribe from future marketing messages from Leslie's Poolmart, Inc.
+<<link>>

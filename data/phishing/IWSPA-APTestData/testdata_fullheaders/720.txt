@@ -1,0 +1,59 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.88 with SMTP id o85csp2338671lfi;
+        Tue, 7 Jul 2015 09:14:08 -0700 (PDT)
+X-Received: by 10.50.221.107 with SMTP id qd11mr8257928igc.13.1436285648176;
+        Tue, 07 Jul 2015 09:14:08 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::236])
+        by domain.com with ESMTPS id hl2si20894879icc.18.2015.07.07.09.14.07
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Jul 2015 09:14:08 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::236 as permitted sender) client-ip=2607:f8b0:4001:c05::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-domain.com with SMTP id v9so179468699igr.1
+        for <user@domain.com>; Tue, 07 Jul 2015 09:14:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Huma Abedin <ha16@hillaryclinton.com>
+         :content-type;
+        bh=z/AeykheYgdGTPK855aDXxiOe7DEZ4KOLlQbyIO7tAo=;
+        b=Mvzpu2VJWOiRwHiKk0y5amwZ8QxD+Ep94UFPH9fnwqB5kO7v3cD+yWYvcw0KNH86x9
+         GY0F3LVKSONGW/LLiIyt8+tIkg5oxqX69J7LuZVcizcWbfWqO2Y0u5aRsjs87JCTMWvz
+         ENJD1IjjQhKUxjpkwzyUznmU8gvRwjqBS3OOE
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Huma Abedin <ha16@hillaryclinton.com>
+         :message-id:subject:to:content-type;
+        bh=z/AeykheYgdGTPK855aDXxiOe7DEZ4KOLlQbyIO7tAo=;
+        b=Aav6wJKaDQhb3e/0GwPq+zfY2lqZGI8VqTe6eRf3cr0yMjkPL9zUMNiSdLvQO9I0M6
+         0Dy/tj8i1uL0Uz4jweqOBmOP6/AFQWPLYIQTNQmlZeqlLmIA+gj81h6FRCmfutOcYJY5
+         N+x9kdA1mmcTXI/nr9fOTeMYNq/zgR1nnS1sZvHNxqefe1nUCFio2LuNrdh9Eho65NXR
+         +Bm8B+sM22AvR4CUybueNVK5lw1GNrTsc5YQB07+RWPCYZNx0hnpzou1kZ2LtGYPY5X3
+         /ofSrF4cL/7alXhQiZuQmjFMKw82YEwO+XPOhB20DjX/ApQqUmolJmBgLO58tgdM2/7c
+         XoMQ
+X-Gm-Message-State: ALoCoQmAajW6471DajN13Hb8BjPZYom3a18GGima5TR6ox6cxXvGTYpIf6qrkUvwt4YSEVY43UFP
+X-Received: by 10.107.3.227 with SMTP id e96mr7764199ioi.50.1436285647387;
+ Tue, 07 Jul 2015 09:14:07 -0700 (PDT)
+From: Huma Abedin <ha16@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <user@domain.com>
+ <CAE6FiQ97MNCgT3L398PAQiTwUgewd+user@domain.com>
+ <4117261294962058558@unknownmsgid> <user@domain.com>
+In-Reply-To: <user@domain.com>
+Date: Tue, 7 Jul 2015 11:47:55 -0400
+Message-ID: <2088304945580457278@unknownmsgid>
+Subject: Re: Details for next Hillary trip to NH
+To: John user <user@domain.com>
+Content-Type: multipart/related; boundary=001a113f0c5acf76be051a4b4f76
+
+I'm not sure my response ever left my out box
+She def warmed to mandatory labeling. Told him she would call vilsack and
+explore ideas with him. She mentioned she didn't think she has a good
+enough answer on why not to do it.
+
+Sent from my iPhone
+

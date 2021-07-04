@@ -1,0 +1,101 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp2265775lfb;
+        Tue, 9 Feb 2015 12:23:26 -0800 (PST)
+X-Received: by 10.107.138.36 with SMTP id m36mr40980723iod.82.1455049406562;
+        Tue, 09 Feb 2015 12:23:26 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::22d])
+        by domain.com with ESMTPS id l15si308792ioe.169.2016.02.09.12.23.26
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 09 Feb 2015 12:23:26 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22d as permitted sender) client-ip=2607:f8b0:4001:c05::22d;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22d as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ig0-domain.com with SMTP id mw1so571igb.1
+        for <user@domain.com>; Tue, 09 Feb 2015 12:23:26 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: "Ronald E. Owens III" <owensron18@gmail.com>
+        bh=qX5EADg+MKWUu+Z7NUc7MqByWkxZBUJqe3XAnd3VKm8=;
+        b=YGPpB4GTAjU2bJi0VpSSZfKBjYObe0PFIoraktPRg8OYYS/APtv9rVUYJPjLP3uoeJ
+         JpYj/wjWBXNCZkYM4zp1J54PngOVuJdRHwBFBj5D8i+bdZQapzkvttZsuAr6JurNJXqI
+         6MYbA9mL8kPqdm/13DxMQdPJ/4+AFlQwsELK8OdXmyG+biPmJI10n622FA9MG7p57/2y
+         jtQ/LlWKczxZDbwrMY98eLpVodI1S6kg56+7uS1206cLslLe5+/zM6vZXUCVD3ka70ae
+         Ox/Ap68qv1ljPueL/FSlemc3NUNkSOviW75+1zQvhMb/DShd/LPJ8UHl3nkYlrAD/Xcb
+         8ADQ
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: "Ronald E. Owens III" <owensron18@gmail.com>
+         :content-type;
+        bh=qX5EADg+MKWUu+Z7NUc7MqByWkxZBUJqe3XAnd3VKm8=;
+        b=HAzDHpG6gBU3bX0tu159nWyHYJ7bMuMdXQ+xD/t+pPEVjQNz4gCuRwX4DsPOeDG9Bb
+         IHAyP7SRuNL1zRHa+51Y9U+K42vTM8Zz7NKhUwkNNpHQO/hI+n7tMxCyJIFlN0LUha2e
+         iT1J2dDrUqhtsFPOSnRxPpA5lqrwAaOWjByF5M7BFpLDHhb3sWlrmBva/ax5VD2zk2Nk
+         sBJwsicfa0sYFnOAix1q9nHVJMUrwwHuI1q/mnlyoxS6uGoOXSkGhDa/9LZUbOaIwD5R
+         XgGV/QkJFxkXve/LE8FEcTbNz9uINq3T2epNIgOcet1g9vFwHS0f+ewD13/XJfxUy68/
+         UpHg
+X-Gm-Message-State: AG10YOTnFP7VHW4xUdDijH4XsUm5NYsn1KwAhp2M5pkzmvIMTTqi4/yku++sk6B/eP1vrSmEXoqmERIFoagZ5A
+MIME-Version: 1.0
+X-Received: by 10.50.25.167 with SMTP id d7mr6395028igg.69.1455049406282; Tue,
+ 09 Feb 2015 12:23:26 -0800 (PST)
+Received: by 10.64.152.33 with HTTP; Tue, 9 Feb 2015 12:23:26 -0800 (PST)
+Date: Tue, 9 Feb 2015 15:23:26 -0500
+Message-ID: <CAFj4w=vFvQykB4g0SEzWXFWjzmFLwTeKUpD8Op0ZDwGS96Uc+user@domain.com>
+Subject: MSU Spartans for Hillary
+From: "Ronald E. Owens III" <owensron18@gmail.com>
+To: John user <user@domain.com>, user@domain.com, 
+ user@domain.com, user@domain.com
+Content-Type: multipart/alternative; boundary=047d7bdc0fd6fe052b052b5c1602
+
+Hello all!
+
+I want to first thank you for your great service to our nation with helping
+to elect Hillary Clinton as our next President of the United States! I
+apologize for all of the emails I send to you (the senior staff), I am just
+extremely passionate about getting Hillary elected and helping out in any
+way that I can. As you know, the Michigan Primary is approaching us very
+quickly, and I would love your help in making sure the State of Michigan
+becomes pro-Hillary!
+
+As some of you know, I am the President and Campaign Manager of Spartans
+for Hillary at Michigan State University (which has over 50,000 students).
+Wouldn't it be fantastic if we could get all of those students out to vote
+for Hillary and eliminate the notion that she doesn't connect with young
+people?
+
+That being said, would one of you be interested in coming in and speaking
+to our General Assembly about what you do on the campaign, how important it
+is that we win this election so that Hillary can fight for us, and, most
+importantly, tell a personal story about why you support Hillary?
+
+We hope to have you come in before the primary (that way the polls will be
+in our favor when people go to vote on March 8th)! We meet every Tuesday
+from 6-7:30pm in 334A Case Hall, and if you could just speak for 20-30
+minutes (this includes questions), we could dedicate the rest of the time
+to phone-banking! If those dates do not work for any of you, we can
+certainly reschedule our GA meeting.
+
+Also, if HRC is interested in coming to speak to campus (perhaps before she
+goes to debate in Flint, MI) we can certainly work on that, as well!
+Imagine Hillary speaking to a large crowd of young people, with the energy
+high, and students chanting "I'm with her!" The press would *love *it!
+President Obama talked to MSU's campus when running for office, and it
+certainly helped him in the polls. If HRC cannot make it before the
+primary, we would love to have her before the general!
+
+If you are interested in one, or both, of my propositions, please reach out
+by replying to this email or calling me at (989) 992-3395. I'd be happy to
+speak any day of the week and at any time. I look forward to your
+correspondence!
+
+All best,
+
+Ronald E. Owens III
+Campaign Manager
+Spartans for Hillary
+Michigan State University
+Ph: 989.992.3395
+Email: user@domain.com

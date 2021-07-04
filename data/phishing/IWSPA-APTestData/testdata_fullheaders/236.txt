@@ -1,0 +1,42 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs136029wfw;
+        Sat, 15 Nov 2015 17:10:19 -0800 (PST)
+Received: by 10.151.83.12 with SMTP id k12mr4918726ybl.46.1226797818464;
+        Sat, 15 Nov 2015 17:10:18 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-external-PLS-SMTP-01.ptt.gov (mail-pls-smtp-01.ptt.gov [72.164.179.5])
+        by domain.com with ESMTP id 10si5553984gxk.81.2008.11.15.17.10.17;
+        Sat, 15 Nov 2015 17:10:18 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 72.164.179.5 as permitted sender) client-ip=72.164.179.5;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 72.164.179.5 as permitted sender) user@domain.com
+X-HAT-SENDERGROUP: GROUPWARE_OUTBOUND
+X-HAT-SENDER_IP: 10.10.17.95
+X-IronPort-AV: E=Sophos;i="4.33,612,1220241600"; 
+   d="scan'208,217";a="43345"
+Received: from pls-excas-01.ptt.gov ([10.10.17.95])
+  by mail-internal-PLS-SMTP-01.ptt.gov with ESMTP; 15 Nov 2015 20:10:17 -0500
+Received: from MBX-01.ptt.gov ([10.10.17.97]) by PLS-EXCAS-01.ptt.gov
+ ([10.10.17.95]) with mapi; Sat, 15 Nov 2015 20:10:17 -0500
+From: Dan Tarullo <Dan.Tarullo@ptt.gov>
+To: "User" <user@domain.com>, 
+ John user <user@domain.com>
+Date: Sat, 15 Nov 2015 20:10:16 -0500
+Subject: Calls Tomorrow
+Thread-Topic: Calls Tomorrow
+Thread-Index: AQHJR4gV4uIvQaJDSk6XGDy83MXSkg
+Message-ID: <2user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/alternative;
+	boundary="_000_2D9BF548D5515F438B3AA0B0BE7BF5F62FE9B711F0MBX01pttgov_"
+MIME-Version: 1.0
+
+John,
+
+Do I understand correctly that you don't need any prep/background paper for
+ these calls tomorrow evening?
+
+Dan

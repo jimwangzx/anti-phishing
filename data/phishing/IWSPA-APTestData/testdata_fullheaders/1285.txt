@@ -1,0 +1,93 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp1432153lfr;
+        Mon, 28 Sep 2015 14:00:18 -0700 (PDT)
+X-Received: by 10.25.22.77 with SMTP id m74mr4134536lfi.10.1443474018445;
+        Mon, 28 Sep 2015 14:00:18 -0700 (PDT)
+Return-Path: <trusteesemeriti+user@domain.com>
+Received: from mail-la0-domain.com (mail-la0-domain.com. [209.85.215.70])
+        by domain.com with ESMTPS id o9si9143261lbc.25.2015.09.28.14.00.18
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 28 Sep 2015 14:00:18 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of trusteesemeriti+user@domain.com designates 209.85.215.70 as permitted sender) client-ip=209.85.215.70;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of trusteesemeriti+user@domain.com designates 209.85.215.70 as permitted sender) smtp.mailfrom=trusteesemeriti+user@domain.com
+Received: by mail-la0-domain.com with SMTP id r8sf28932910lae.2
+        for <user@domain.com>; Mon, 28 Sep 2015 14:00:18 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:From: Denise Bailey <dbailey@knox.edu>
+         :content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-unsubscribe;
+        bh=Ss0dsu8Uo1kQnkiT+OoIiWmIn/6/OVZQHlp3O3BsUss=;
+        b=lMXSt8d+WsVvTMQCoFYmH0zwbOwPRebadABi5cmyj495WkaM+pyxo1T9qlXI8tc+q0
+         8Nv7w9oGkDaRjagDz3AVA83lj2d44Ri4t4V466mswOsozRNoFsKA3ysfgKoTgqNa4oj5
+         gZoiBhjrZAzYjPO7xR13wi9pG3r64x3UEw6CCbP0XruY9OdeDZEgM6LWL4D5ohRHptyc
+         oPbVnRBG8bbOIDy6WiGAcxDhYUT/8zey6Jt4hkzj84JUqiHitEQ7QFqikDk2pzpm7siJ
+         PAmQDqIP4b7lKiVHnwUOxT3uy9giNZdoSk463YQOZegTNwtT09hjq3Equ0ZZi0ajJ3DY
+         kYPw
+X-Gm-Message-State: ALoCoQmNnEwlkFUx1tsVuiyTPycexsFf0J8H/QnP1Lld8qtmhahOwWxdJlYmoUNo00iZl5EXasMd
+X-Received: by 10.112.170.67 with SMTP id ak3mr3515681lbc.6.1443474018365;
+        Mon, 28 Sep 2015 14:00:18 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.25.15.40 with SMTP id e40ls331371lfi.14.gmail; Mon, 28 Sep
+ 2015 14:00:17 -0700 (PDT)
+X-Received: by 10.112.63.135 with SMTP id g7mr6199099lbs.16.1443474017754;
+        Mon, 28 Sep 2015 14:00:17 -0700 (PDT)
+Received: from mail-la0-domain.com (mail-la0-domain.com. [209.85.215.54])
+        by domain.com with ESMTPS id i135si9199270lfg.163.2015.09.28.14.00.17
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 28 Sep 2015 14:00:17 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.215.54 as permitted sender) client-ip=209.85.215.54;
+Received: by laer8 with SMTP id r8so45675155lae.2
+        for <user@domain.com>; Mon, 28 Sep 2015 14:00:17 -0700 (PDT)
+X-Received: by 10.25.27.72 with SMTP id b69mr4008817lfb.90.1443474017563; Mon,
+ 28 Sep 2015 14:00:17 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.112.164.68 with HTTP; Mon, 28 Sep 2015 13:59:58 -0700 (PDT)
+From: Denise Bailey <dbailey@knox.edu>
+Date: Mon, 28 Sep 2015 15:59:58 -0500
+Message-ID: <user@domain.com>
+Subject: TKS Online
+To: Trustees at Knox <user@domain.com>, user@domain.com
+CC: user@domain.com
+Content-Type: multipart/alternative; boundary=001a114022ca0f4f4c0520d4fc6b
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 209.85.215.54 as permitted sender) user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact trusteesemeriti+user@domain.com
+List-ID: <trusteesemeriti.knox.edu>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 454025518715
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:trusteesemeriti+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+454025518715+user@domain.com>,
+ <<<link>>>
+
+Dear Trustees,
+
+Here is a link to last week's issue of *The Knox Student*:
+<<link>>
+
+Best,
+Denise
+
+*DENISE BAILEY*
+
+Executive Assistant to the President
+
+Assistant Secretary to the Board of Trustees
+
+Knox College
+
+Office of the President  |  Old Main, Room 107
+
+309-341-7211  |  Fax: 309-341-7856
+
+www.knox.edu
+
+To unsubscribe from this group and stop receiving emails from it, send an email to trusteesemeriti+user@domain.com

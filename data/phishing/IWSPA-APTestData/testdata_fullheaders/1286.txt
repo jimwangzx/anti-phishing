@@ -1,0 +1,106 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.31 with SMTP id o31csp2959787lfi;
+        Wed, 18 Feb 2015 09:57:31 -0800 (PST)
+X-Received: by 10.66.101.66 with SMTP id fe2mr783943pab.118.1424282250682;
+        Wed, 18 Feb 2015 09:57:30 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.5])
+        by domain.com with ESMTPS id cb3si15763549pad.232.2015.02.18.09.57.29
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Wed, 18 Feb 2015 09:57:30 -0800 (PST)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.251.5;
+Authentication-Results: domain.com;
+       spf=none (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211] by server-5.bemta-12.domain.com id FD/D1-03160-882D4E45; Wed, 18 Feb 2015 17:57:28 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-5.tower-53.domain.com!1424282246!8697017!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 22850 invoked from network); 18 Feb 2015 17:57:27 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-5.tower-53.domain.com with AES256-SHA encrypted SMTP; 18 Feb 2015 17:57:27 -0000
+Resent-From: "Martens, Bill" <bill.martens@wpr.org>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Wed, 18 Feb 2015 12:57:26 -0500
+Received: from [216.82.254.67] by server-2.bemta-7.domain.com id
+ 7A/B8-02992-582D4E45; Wed, 18 Feb 2015 17:57:25 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-16.tower-196.domain.com!1424282243!8935121!1
+X-Originating-IP: [207.46.100.61]
+X-SpamReason: No, hits=0.0 required=7.0 tests=HTML_MESSAGE
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 18080 invoked from network); 18 Feb 2015 17:57:23 -0000
+Received: from mail-domain.com (HELO
+ na01-by2-domain.com) (207.46.100.61)  by
+ server-16.tower-196.domain.com with AES256-SHA encrypted SMTP; 18 Feb
+ 2015 17:57:23 -0000
+Received: from domain.com (10.242.165.148) by
+ domain.com (10.242.165.154) with Microsoft SMTP
+ Server (TLS) id 15.1.87.18; Wed, 18 Feb 2015 17:57:21 +0000
+Received: from domain.com ([169.254.5.9]) by
+ domain.com ([169.254.5.9]) with mapi id
+ 15.01.0087.013; Wed, 18 Feb 2015 17:57:21 +0000
+From: "Martens, Bill" <bill.martens@wpr.org>
+To: "User" <user@domain.com>
+Subject: Interview request from Wis. Public Radio - Fri., Feb. 20, 8-9 a.m.
+ EST (7-8 a.m. CST)
+Thread-Topic: Interview request from Wis. Public Radio - Fri., Feb. 20, 8-9
+ a.m. EST (7-8 a.m. CST)
+Thread-Index: AdBLpGjZIhUN+z3wR7yMr9/plOD4EA
+Date: Wed, 18 Feb 2015 17:57:20 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [144.92.192.132]
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:;SRVR:CO1PR02MB224;
+x-microsoft-antispam-prvs: <user@domain.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:;SRVR:CO1PR02MB224;
+x-forefront-prvs: 04916EA04C
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(74316001)(19300405004)(92566002)(107886001)(2351001)(2171001)(2501002)(229853001)(110136001)(2656002)(15975445007)(66066001)(87936001)(86362001)(102836002)(19617315012)(2900100001)(40100003)(122556002)(54356999)(50986999)(19625215002)(19580395003)(46102003)(33656002)(62966003)(450100001)(76576001)(19609705001)(16236675004)(99286002)(77156002);DIR:OUT;SFP:1101;SCL:1;SRVR:CO1PR02MB224;H:domain.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+Content-Type: multipart/alternative;
+	boundary="_000_CO1PR02MB222125FDD1D17E651C3E24D8C2C0CO1PR02MB222namprd_"
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-originalarrivaltime: 18 Feb 2015 17:57:20.6325
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: e259e895-f570-4229-b82f-513f0e1e22ed
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR02MB224
+
+Hello, Mr. user.
+
+Bill Martens here, one of the producers of the Joy Cardin Show on Wisconsin
+ Public Radio, our live morning-drive call-in program.  I caught a couple o
+f news stories about your biggest regret being that you didn't get the UFO 
+files released.
+
+<<link>>
+sure_n_6699646.html
+
+Any chance you might be willing to join us by phone this Fri., Feb. 20 from
+ 8-9 a.m. EST (7-8 a.m. CST) to discuss this issue?  This would consist of 
+questions from our fill-in host, John Munson, and calls/emails from listene
+rs.  We'd be looking at the full hour, minus a few minutes off the top for 
+news and a couple of shorter breaks at 8:20 and 8:40.
+
+We can talk about why the matter isn't being taken seriously, what it might
+ take to get to that point, and ultimately what we should be doing to get t
+o the bottom of UFOs and aliens.
+
+Please let me know at your earliest convenience whether you can help us out
+ and thanks for your consideration!
+
+Bill Martens | Producer/Director of The Joy Cardin Show | Wisconsin Public 
+Radio
+821 University Ave., Madison, WI 53706 | (608) 265-4547 | www.wpr.org/joy<h
+ttp://www.wpr.org/joy>
+

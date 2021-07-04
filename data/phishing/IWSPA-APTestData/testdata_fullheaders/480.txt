@@ -1,0 +1,146 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp783187lfi;
+        Sat, 18 Apr 2015 16:18:34 -0700 (PDT)
+X-Received: by 10.55.20.30 with SMTP id e30mr17866852qkh.45.1429399113606;
+        Sat, 18 Apr 2015 16:18:33 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.254.108])
+        by domain.com with ESMTPS id f34si15718617qkh.7.2015.04.18.16.18.32
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Sat, 18 Apr 2015 16:18:33 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.254.108;
+Authentication-Results: domain.com;
+       spf=none (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Return-Path: <user@domain.com>
+Received: from [216.82.254.67] by server-12.bemta-7.domain.com id 35/1F-02537-746E2355; Sat, 18 Apr 2015 23:18:31 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-5.tower-196.domain.com!1429399109!11717032!2
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.6; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 23275 invoked from network); 18 Apr 2015 23:18:30 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-5.tower-196.domain.com with AES256-SHA encrypted SMTP; 18 Apr 2015 23:18:30 -0000
+Resent-From: Nicholas Mastron <mastron.nicholas@gmail.com>
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Sat, 18 Apr 2015 19:18:29 -0400
+Received: from [216.82.249.179] by server-17.bemta-12.domain.com id
+ C4/03-02749-546E2355; Sat, 18 Apr 2015 23:18:29 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-14.tower-44.domain.com!1429399102!10226293!1
+X-Originating-IP: [209.85.216.180]
+X-SpamReason: No, hits=0.6 required=7.0 tests=HTML_90_100,HTML_MESSAGE
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.6; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 12599 invoked from network); 18 Apr 2015 23:18:27 -0000
+Received: from mail-qc0-domain.com (HELO mail-qc0-domain.com)
+ (209.85.216.180)  by server-14.tower-44.domain.com with RC4-SHA
+ encrypted SMTP; 18 Apr 2015 23:18:27 -0000
+Received: by qcbii10 with SMTP id ii10so41729486qcb.2        for
+ <user@domain.com>; Sat, 18 Apr 2015 16:18:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Nicholas Mastron <mastron.nicholas@gmail.com>
+        bh=P7ZUN9QHA4zZ5NU+xKMhc9bgS4v3lgTR8BHb/IqlT6M=;
+        b=JoOppkWnHphsFnlbxqnKhpi7xrnOxYmP68wViftEmr+IVKGZmlFYRX7DS3efqjUPFd
+         kEOUM6aITTMCKnVBC8nNHUkTrQIduA3iKd/vij8gObc9+03X7Z+p7KYtAEwfOIXAgyGy
+         L1wHxZtBMIG4poH6a+u+scEpaBzZ4sKGyNn82NTxWfBDrcct6RjtbB7mIZ60e2vLYiZq
+         eOiw8CWkN8Beua1CopZEZxYCR5O0dNslY2N9fpNKRLnHaPI8580WT0sFj7aob+ZJoDQ6
+         a0qSJQTz/FFURZPUTBV4G90OaFsAjTbxyATmWHJwggzHKYVosMm+sx2anqoJRzCWBDjt
+         hWmA
+X-Received: by 10.140.145.202 with SMTP id 193mr11212299qhr.43.1429399102132;
+        Sat, 18 Apr 2015 16:18:22 -0700 (PDT)
+Received: from [192.168.1.143]
+ (216-15-17-62.c3-0.161-ubr1.lnh-161.domain.com. [216.15.17.62])
+        by domain.com with ESMTPSA id
+ 106sm1213554qge.22.2015.04.18.16.18.20        for
+ <user@domain.com>        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA
+ bits=128/128);        Sat, 18 Apr 2015 16:18:21 -0700 (PDT)
+From: Nicholas Mastron <mastron.nicholas@gmail.com>
+X-Google-Original-From: Nicholas Mastron <mastron.nicholas@gmail.com>
+Content-Type: multipart/alternative;
+	boundary="Apple-Mail=_8367AA49-1CD6-43D7-BD12-FBC3994C7B2C"
+Subject: Your Class on Congressional Investigations and Other Items
+Message-ID: <366user@domain.com>
+Date: Sat, 18 Apr 2015 19:18:19 -0400
+To: user@domain.com
+MIME-Version: 1.0 (Mac OS X Mail 8.2 \(2098\))
+X-Mailer: Apple Mail (2.2098)
+
+Mr. user,
+
+As I am sure that you are quite busy with the 2015 elections, I will 
+make this as succinct as possible. My name is Nick Mastron, and I am a 
+current PhD student in Public Policy & Administration at George 
+Washington University. Originally, my plan was to take your 
+Congressional Investigations class in Spring 2015 through the Consortium 
+program of D.C. universities. Will you be teaching this class in Spring 
+2016? If you are, in fact, unable to teach this seminar due to electoral 
+obligations, I wanted to share with you now what I had hoped to share in 
+class.
+
+I=E2=80=99m young, 23 to be exact, and came straight from undergraduate 
+to this doctoral program. Originally from Memphis, TN, I grew up middle 
+class, volunteered in many community service organizations, and 
+graduated from a public high school and university. In essence, I lived 
+the American dream, but my parents always taught me that this dream 
+comes at the price of service. So, starting in first grade, I became 
+enamored with government and its politics. My interest did not stop 
+there and I spent a great deal of my time in college getting hands on 
+experience by working on campaigns, some issue-based and one official 
+campaign team (Steve Cohen 2012). Memphis, to me though, always 
+represented the political crossroads of America, and I witnessed why 
+public servants are so desperately needed. Over time this political 
+predisposition evolved into a second love for policymaking and 
+execution. Hence, when the opportunity came, I moved to D.C. to learn 
+how to both cultivate the best policies for building a stronger nation 
+as well as how to manage the most dire political situations. In short, I 
+do not want to be an academic: I want to serve my country on the home 
+front.
+
+Currently, I hope to one day serve as a top policy advisor on campaigns 
+for people I believe will work toward rebuilding and reinvesting in the 
+land of hope and dreams. Ideally, I hope to be a White House 
+Chief-of-Staff or a Deputy Chief-of-Staff, anchoring a progressive but 
+rational cohort of dedicated public servants. My government career 
+begins this summer, as I will be interning as a regulatory economist at 
+the Small Business Administration=E2=80=99s Office of Advocacy.  In your 
+professional opinion, are these worthwhile career goals and objectives 
+that would best serve the American public? I have attached my r=C3=A9sum=C3
+=A9 for your domain.com to paint a better picture of what I am capable of 
+accomplishing.
+
+Finally, I am an enormous supporter of the Center for American Progress, 
+as it intersects politics and policy to hold leaders to a higher 
+accountability in decision making. In this same domain.com, I seek 
+experiences in other agencies, think tanks, and campaigns. Having long 
+admired various endeavors, how does one create and sustain this 
+multifaceted career?
+
+So in summary I ask 3 questions:
+1. Will you be teaching Congressional Investigations in Spring 2016?
+2. If you were in my shoes, how can I best serve the United States of 
+America?
+3. How does one create and maintain a diverse career in the various 
+political arenas?
+
+I understand that you probably will be unable to respond quickly, but I 
+just wanted to reach out and domain.com a bit of information and advice.
+
+Thanks for listening, and I look forward to any response I might 
+receive.
+
+Sincerely,
+
+Nicholas Mastron
+Ph.D. Student in Public Policy & Administration; Concentration: Social 
+and Gender Policy
+Trachtenberg School of Public Policy & Public Administration
+901-828-2423
+

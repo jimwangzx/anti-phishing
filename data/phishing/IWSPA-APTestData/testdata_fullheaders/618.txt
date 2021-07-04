@@ -1,0 +1,249 @@
+Delivered-To: user@domain.com
+Received: by 10.25.30.9 with SMTP id e9csp329912lfe;
+        Tue, 9 Sep 2015 13:50:29 -0700 (PDT)
+X-Received: by 10.224.61.142 with SMTP id t14mr32322405qah.4.1410295829215;
+        Tue, 09 Sep 2015 13:50:29 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.201])
+        by domain.com with ESMTPS id x1si16614895qce.44.2014.09.09.13.50.28
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Tue, 09 Sep 2015 13:50:29 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.201;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=fail user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.241.131:23473] by server-9.bemta-8.domain.com id E2/C5-02707-4186F045; Tue, 09 Sep 2015 20:50:28 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-7.tower-54.domain.com!1410295827!9537769!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 18551 invoked from network); 9 Sep 2015 20:50:27 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-7.tower-54.domain.com with AES128-SHA encrypted SMTP; 9 Sep 2015 20:50:27 -0000
+Resent-From: t r u t h o u t <messenger@truthout.org>
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Tue, 9 Sep 2015 16:50:26 -0400
+Received: from [216.82.249.179:43509] by server-1.bemta-12.domain.com id
+ 85/B2-09607-2186F045; Tue, 09 Sep 2015 20:50:26 +0000
+X-Env-Sender: 2240953858-1305158-user@domain.com
+X-Msg-Ref: server-11.tower-44.domain.com!1410295822!7687465!1
+X-Originating-IP: [69.174.83.169]
+X-SpamReason: No, hits=1.0 required=7.0 tests=sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY5ID0+IDMwODkw\n,sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY5ID0+IDMwODkw\n,BODY_RANDOM_LONG,BODY_SEX,
+  HTML_MESSAGE,ML_RADAR_SPEW_LINKS_32,spamassassin: 
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 31460 invoked from network); 9 Sep 2015 20:50:23 -0000
+Received: from domain.com (HELO domain.com) (69.174.83.169)
+  by server-11.tower-44.domain.com with SMTP; 9 Sep 2015 20:50:23 -0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1410295822;
+	h=From: t r u t h o u t <messenger@truthout.org>
+	bh=jNMvp9YXssyJwpAzmcxGV8O6kbE=;
+	b=fjhtPRkee6j+SFA9AvNdsbc0Aj2xcyT8kWAYkHAoXwbp25y8lNw43vAEtGeitaTu
+	+1GgLlElDnixGbEyXgcax9BvS4R9RXqLLXW0y5S52Qu3hTb99zRXOPsLejXhA8ww
+	WrqZufXVqGyGvgJX9/lVWsPnvLA9+yXsa9RBKb/zK2E=;
+Received: from [10.174.83.206] ([10.174.83.206:47585] helo=10.174.83.206)	by
+ domain.com (envelope-from
+ <2240953858-1305158-user@domain.com>)	(ecelerity
+ 3.5.0.35861 r(Momo-dev:tip)) with ESMTP	id A8/4E-21703-E086F045; Tue, 09 Sep
+ 2015 16:50:22 -0400
+Date: Tue, 9 Sep 2015 16:50:22 -0400
+From: t r u t h o u t <messenger@truthout.org>
+Sender: <user@domain.com>
+Reply-To: <user@domain.com>
+To: user@domain.com
+Message-ID: <2240953858.639401075@domain.com>
+Subject: Between the Peacekeepers and the Protesters in Ferguson
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_1131978_1708514127.1410295822574"
+Envelope-From: t r u t h o u t <messenger@truthout.org>
+List-Unsubscribe: <<<link>>>
+X_email_KEY: 2240953858
+X-campaignid: salsaorg26694-1305158
+
+t r u t h o u t | 09.09
+
+Between the Peacekeepers and the Protesters in Ferguson
+<<link>>
+rotesters-in-ferguson
+Raven Rakia, Truthout: After the first three or four nights of protest in F
+erguson, people deeming themselves "peacekeepers" began appearing at the pr
+otests. These member of an older generation are often in conflict with thos
+e who want to see justice for Michael Brown and their community.
+
+Noam Chomsky | What's Next for Israel, Hamas and Gaza?
+<<link>>
+-never-cease-whats-next-for-israel-hamas-and-gaza
+Noam Chomsky, TomDispatch: This cease-fire is just the most recent of a ser
+ies of cease-fire agreements reached after each of Israel's periodic escala
+tions in its unremitting assault on Gaza. Throughout this period, the terms
+ of these agreements remain essentially the same.
+
+The Connecting Threads
+<<link>>
+Anne Elizabeth Moore and Leela Corman, Truthout: With this strip, "Our Fash
+ion Year" culminates a year-long comics journalism investigation into conne
+ctions between the garment trade and the sex trade that has brought the aut
+hors all over the globe and revealed what's behind fast fashion.
+
+Accidental Hero: Marcuse's "One-Dimensional Man" at 50
+<<link>>
+mensional-man-at-50
+Ben Agger, Truthout: It is now 50 years after "One-Dimensional Man," an obs
+cure philosophical account of political conformity and quiescence that requ
+ired a significant background in European theory, became an unlikely centra
+l text of the 1960s "New Left." Its message remains ever more urgent.
+
+Ukraine Conflict: Red Meat for Anemic NATO Alliance
+<<link>>
+ato-alliance
+Medea Benjamin, PINKtank: The recent NATO meeting in Wales was supposed to 
+be about how to wind down NATO's 12-year military adventure in Afghanistan 
+- without admitting the monumental failure of leaving behind a fractured, i
+mpoverished nation. Afghanistan, however, was barely mentioned.
+
+Corporations Screw Everybody
+<<link>> 
+
+The Daily Take Team, The Thom Hartmann Program: We need to undo the damage 
+done by Reagan, and make CEOs answerable once again to their companies, the
+ir communities, their customers and their workers. Only then will Americans
+ overall begin to reap the rewards of corporate successes.
+
+EU Popular Opposition to Israel Stronger Than Ever
+<<link>>
+-stronger-than-ever
+Bruno J=C3=A4ntti, Truthout: The European Union is emerging as the world's 
+most significant political battleground for the trajectory of Israel-Palest
+ine. As the recent Israeli military onslaught against besieged Gazans is co
+ming to an end, opposition to Israeli policy appears stronger in Europe tha
+n ever before.
+
+"Fight for 15" Gets Into the Ring With Taco Bell
+<<link>>
+ng-with-taco-bell
+Mary Bottari, PR Watch: The chant "Come on out, we've got your back!" echoe
+d through the air at Taco Bell as peaceful protesters took the "Fight for 1
+5" directly to the fast food giant, calling on workers to walk off the job.
+
+ISIS War Needs to Be Debated in Congress and the UN Security Council
+<<link>>
+ss-and-the-un-security-council
+Mark Weisbrot, The Hill: It is not surprising that President Obama has been
+ able to send 1,200 soldiers back to Iraq, carry out more than 100 airstrik
+es and domain.com himself to a longer engagement, without authorization from th
+e US Congress.
+
+On the News With Thom Hartmann: Fast-Food Workers in More Than 150 Cities G
+o on Strike, and More
+<<link>>
+od-workers-in-more-than-150-cities-go-on-strike-and-more
+In today's On the News segment: Fast-food workers in more than 150 cities g
+o on strike to demand a living wage and the right to unionize; a coalition 
+of over 50 organizations is calling on Google to drop ALEC; millions of Ame
+ricans are struggling to make ends meet, despite the fact that they're putt
+ing in long hours at work; and more.
+
+Railroad Conductor: "Railroading Has Changed So Much"
+<<link>>
+-changed-so-much
+Steve Early, In These Times: Brian Lewis speaks about his job as a Union Pa
+cific Railroad conductor, which he has just retired from after 36 years. Di
+scussing his long years in the industry, he describes diminished union infl
+uence, and increased safety hazards.
+
+Does California's "Kill Switch" Bill for Smartphones Risk Privacy for Perso
+nal Safety?
+<<link>>
+for-smartphones-risk-privacy-for-personal-safety
+Crystal Shepeard, Care2: A California law requires the "kill switch" featur
+e to be on at the time of a smartphone activation, meaning that users would
+ have to opt-out if they didn't want to use it, giving the company access. 
+Privacy rights activists worry about it being used for nefarious purposes.
+
+Film Exposes Militarized Police Facts Day Ahead of Hearings in Congress
+<<link>>
+questions-day-ahead-of-hearings-in-congress
+Brave New Films, Truthout: A short film documents how the Pentagon has floo
+ded small town police forces with tanks and equipment capable of waging war
+, a day before a congressional subcommittee is scheduled to open hearings o
+n the phenomenon.
+
+TRUTHOUT'S BUZZFLASH DAILY HEADLINES
+
+US Arms Used by ISIS: The Winners in Wars Are Always the Weapons Manufactur
+ers
+<<link>>
+nners-in-wars-are-always-the-weapons-manufacturers
+Mark Karlin, BuzzFlash at Truthout: There is no end in sight to the gruesom
+e state of war in the Middle East, which means continued domain.com for the mun
+itions industry.
+
+A 28-Page Void in the History of 9/11
+Read the Article at The New Yorker
+<<link>>
+
+Eugene Robinson | ISIS: Boots, Bombs and Bluster Won't Work
+Read the Article at BuzzFlash
+<<link>>
+mbs-and-bluster-won-t-work
+
+DA Drops Charges in Case of Blocked Coal Shipment, Says Protesters Were Rig
+ht
+Read the Article at The Boston Globe
+<<link>>
+ocked-coal-shipment-power-plant/sUpBpGxzxAz3E2Vr5RFQQM/story.html
+
+CO2 Levels in Atmosphere Rising at Dramatically Faster Rate, UN Report Warn
+s
+Read the Article at The Washington Post
+<<link>>
+ere-rising-at-dramatically-faster-rate-un-report-warns/2014/09/08/3e2277d2-
+378d-11e4-bdfb-de4104544a37_story.html?hpid=3Dz1
+
+The Real Reason the CIA Destroyed 92 Videos of Detainees Being Tortured
+Read the Article at Daily Kos
+<<link>>
+estroyed-92-Videos-of-Detainees-Being-Tortured#
+
+These Women Are the NRA's Worst Nightmare
+Read the Article at Mother Jones
+<<link>>
+annon-watts-nra
+
+Will Congress Finally Put a Dent in the $4.3 Billion in Surplus Military Eq
+uipment Going to Police Departments?
+Read the Article at The Nation
+<<link>>
+g-lawmakers-examine-police-militarization
+
+-----------
+Support Truthout with a tax-deductible donation by clicking here: <<link>>
+embers.truth-domain.com/donate
+
+To ensure you receive our messages please add the following address to your
+ email address book: user@domain.com
+
+If you are having trouble with this, read our guide: <<link>>
+hitelisting
+
+Thank you!
+
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+Click to UNSUBSCRIBE -> <<link>>
+unsubscribe/public/?user@domain.com&email_blast_KEY=3D13
+05158
+Go directly to our home page: <<link>>
+Click to SUBSCRIBE -> <<link>>
+ublic/signup?signup_page_KEY=3D2160
+Our Privacy Policy -> <<link>>

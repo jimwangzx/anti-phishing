@@ -1,0 +1,60 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp2023659lfr;
+        Tue, 29 Sep 2015 15:05:03 -0700 (PDT)
+X-Received: by 10.107.166.139 with SMTP id p133mr1215956ioe.113.1443564303192;
+        Tue, 29 Sep 2015 15:05:03 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.111.62])
+        by domain.com with ESMTPS id e41si19029929ioi.126.2015.09.29.15.05.02
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 29 Sep 2015 15:05:03 -0700 (PDT)
+Received-SPF: neutral (domain.com: 157.56.111.62 is neither permitted nor denied by domain of user@domain.com) client-ip=157.56.111.62;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 157.56.111.62 is neither permitted nor denied by domain of user@domain.com) user@domain.com
+Received: from domain.com (10.162.166.30) by
+ domain.com (10.162.166.29) with Microsoft SMTP
+ Server (TLS) id 15.1.280.20; Tue, 29 Sep 2015 22:04:58 +0000
+Received: from domain.com ([10.162.166.30]) by
+ domain.com ([10.162.166.30]) with mapi id
+ 15.01.0280.017; Tue, 29 Sep 2015 22:04:59 +0000
+From: H <hdr29@hrcoffice.com>
+To: John user <user@domain.com>
+CC: Huma Abedin <user@domain.com>, Robby Mook <user@domain.com>
+Subject: Re: NEA
+Thread-Topic: NEA
+Thread-Index: AQHQ+wJpV71Iuj8XjkqIcJRpH0AJop5UD74h
+Date: Tue, 29 Sep 2015 22:04:58 +0000
+Message-ID: <1user@domain.com>
+References: <user@domain.com>
+In-Reply-To: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ user@domain.com; 
+x-originating-ip: [12.130.124.165]
+x-microsoft-exchange-diagnostics: 1;CY1PR0301MB1627;5:O39Q8of5RW+wtwbG0SdAAtzxJgQ1yjMiMDpqpcT2DxSNutPLvT4O7s83gIMOb3CP64Lj3RVxQ3GwoUN+Y69BwdE01igF1UBf95B3yaprpOpw9taSnfQs9gURWcOr7PqzS/w6gkkuisGxMQntCCMpIQ==;24:LXJdNCQpiF5wZ1B0WGE+IEQQaOCIikS2W46RUPmWiiOpDUDBW5Qp7Fw2vCrBPHALeVxW2E/OuocRY/ntNWEotY9MWw6HsFVOJMuXQ9WKtyw=;20:f9UJdINBnFJRGy5XNpNT5Thx8aqiQhEnFgIqDEOkqh6yeMMs/9thWBgdwvjRAbU0ua1ZHEQYEjHBYpK8taRb4Q
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:CY1PR0301MB1627;
+x-microsoft-antispam-prvs: <user@domain.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(520078)(8121501046)(3002001);SRVR:CY1PR0301MB1627;BCL:0;PCL:0;RULEID:;SRVR:CY1PR0301MB1627;
+x-forefront-prvs: 0714841678
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(6009001)(24454002)(199003)(46034005)(189002)(377454003)(46102003)(101416001)(106116001)(86362001)(54356999)(33656002)(76176999)(5007970100001)(105586002)(50986999)(5008740100001)(64706001)(221733001)(19580405001)(36756003)(66066001)(99286002)(122556002)(92566002)(5001860100001)(110136002)(97736004)(82746002)(40100003)(77156002)(106356001)(5001960100002)(19580395003)(189998001)(102836002)(87936001)(2950100001)(62966003)(68736005)(5004730100002)(5001830100001)(2900100001)(83716003)(77096005)(10400500002)(5002640100001)(4001540100001)(81156007)(104396002);DIR:OUT;SFP:1101;SCL:1;SRVR:CY1PR0301MB1627;H:domain.com;FPR:;SPF:None;PTR:InfoNoRecords;A:1;MX:1;LANG:en;
+received-spf: None (domain.com: hrcoffice.com does not designate
+ permitted sender hosts)
+spamdiagnosticoutput: 1:23
+spamdiagnosticmetadata: NSPM
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginatorOrg: hrcoffice.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 29 Sep 2015 22:04:58.8816
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: cd8891aa-8599-4062-9818-7b7cb05e1dad
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1PR0301MB1627
+
+I thought I was set to be there this Saturday which I plan to do.
+

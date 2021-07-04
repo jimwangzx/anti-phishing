@@ -1,0 +1,58 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp1657871lfb;
+        Mon, 14 Dec 2015 06:27:41 -0800 (PST)
+X-Received: by 10.31.171.142 with SMTP id u136mr25444921vke.88.1450103261290;
+        Mon, 14 Dec 2015 06:27:41 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-vk0-domain.com (mail-vk0-domain.com. [2607:f8b0:400c:c05::235])
+        by domain.com with ESMTPS id q80si9846674vkf.17.2015.12.14.06.27.41
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 14 Dec 2015 06:27:41 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::235 as permitted sender) client-ip=2607:f8b0:400c:c05::235;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::235 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-vk0-domain.com with SMTP id a189so75937100vkh.2
+        for <user@domain.com>; Mon, 14 Dec 2015 06:27:41 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Laura Rosenberger <lrosenberger@hillaryclinton.com>
+         :cc:content-type;
+        bh=V5xZMHJjAvJ9L4UjA42TF9BwSvPE6r4HgahmyfislVc=;
+        b=TKGMV/7Vv7PiRwdRE5KEZbxS1zQ+ntm5PA/LZTejJAQWvNDxOlanRUu3cwf+d4hvQS
+         xabv2+2QmnFIPegZ+PRIUQfI0MzGAaIXUHluVJ+iJ4PobjDkJgaxH2ul1Z2DjM1gAQxu
+         uEJ5cXJyrqmFCwXrr4FQy6x7SuJ6FFH7yS+Is
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Laura Rosenberger <lrosenberger@hillaryclinton.com>
+        bh=V5xZMHJjAvJ9L4UjA42TF9BwSvPE6r4HgahmyfislVc=;
+        b=YexOTUMeKJhzwC77Tx2cC4jyXn/he6k9Mutzepjt+TdquohhnUHoqbRmF73j/bODnS
+         bisj/Rfsl339GNjBA7Q0YzWpAJ9xdSrMq9Fh+Ptk5spXuc9I12ffsWJakAGTIsrlCJ3i
+         LoEmuNOjUYgF+KLbgd4/KDxhGRUqrRmflSRQE2rYB+wgoEkPCYsy1E/XeMUFxLT4/8WY
+         bAfZu+LNpBqqRzqHnKuUJ2Uh8vE96yiNh8VCr76KQp4qahJsTOAHlUI/sC3jfVbm4wdS
+         Na0mUu2Wg7qs56mWDMaoe8OJCFRgrAXYfSmH9k3gj0yxVV6DUktYDx/cG/TMhMn/G++e
+         gT3g
+X-Gm-Message-State: ALoCoQnF8SgU1GwowQ8MwBGQSKya/TfkX8g4hNaKwOmmnGW+QE1F/80domain.com+AnXVb4rXGE1J/xmKtPU2lA0TGG9VEVIFkiQ9SqBpirryBcs
+MIME-Version: 1.0
+X-Received: by 10.31.54.4 with SMTP id d4mr10870361vka.138.1450103260932; Mon,
+ 14 Dec 2015 06:27:40 -0800 (PST)
+Received: by 10.103.73.75 with HTTP; Mon, 14 Dec 2015 06:27:40 -0800 (PST)
+In-Reply-To: <CAAEwKfwwM+1user@domain.com>
+References: <CAAEwKfwwM+1user@domain.com>
+Date: Mon, 14 Dec 2015 09:27:40 -0500
+Message-ID: <user@domain.com>
+Subject: Re: 9am Homeland Security draft
+From: Laura Rosenberger <lrosenberger@hillaryclinton.com>
+To: Dan Schwerin <user@domain.com>
+CC: Jake Sullivan <user@domain.com>, 
+ John user <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Oren Fliegelman <user@domain.com>
+Content-Type: multipart/mixed; boundary=001a11440216c1acce0526dc793f
+
+Dan this is great.  A few small fixes/comments.
+
+On Mon, Dec 14, 2015 at 9:14 AM, Dan Schwerin <user@domain.com>

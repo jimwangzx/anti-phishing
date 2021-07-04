@@ -1,0 +1,125 @@
+Received: from relay.Organization.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 18 Jun 2015 11:28:13 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ relay.Organization.com (Postfix) with ESMTP id 92A3E60391	for
+ <user@domain.com>; Thu, 18 Jun 2015 10:03:38 +0100 (BST)
+Received: by domain.com (Postfix)	id 2C6434440B81; Thu, 18 Jun 2015 
+ 11:27:01 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from [172.20.20.143] (unknown [172.20.20.143])	(using TLSv1.2 with
+ cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))	(No client certificate
+ requested)	by domain.com (Postfix) with ESMTPSA id 2A6964440AE6	for
+ <user@domain.com>; Thu, 18 Jun 2015 11:27:01 +0200 (CEST)
+Message-ID: <55828user@domain.com>
+Date: Thu, 18 Jun 2015 11:28:19 +0200
+From: Cristian Vardaro <c.vardaro@Organization.com>
+Reply-To: <user@domain.com>
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Thunderbird/31.7.0
+To: Alberto Ornaghi <user@domain.com>
+Subject: Fwd: [!PDI-672-21727]: Console unresponsiveness after executing a
+ command function on agent PC
+References: <1434616306.558281user@domain.com>
+In-Reply-To: <1434616306.558281user@domain.com>
+X-Forwarded-Message-Id: <1434616306.558281user@domain.com>
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+X-libpst-forensic-sender: /O=Organization/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=CRISTIAN VARDARO422
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-70130407_-_-"
+
+
+
+
+    Scusami Alberto,
+    è possibile far qualcosa lato db per questo problema?
+
+
+
+    Grazie
+    Cristian
+
+
+
+      -------- Messaggio Inoltrato --------
+
+
+
+            Oggetto:
+
+
+
+            [!PDI-672-21727]: Console unresponsiveness after
+              executing a command function on agent PC
+
+
+
+            Data: 
+            Thu, 18 Jun 2015 08:31:46 +0000
+
+
+
+            Mittente:
+
+
+
+            7S39831 <user@domain.com>
+
+
+
+            Rispondi-a:
+
+
+
+            user@domain.com
+
+
+
+            A: 
+            user@domain.com
+
+
+
+      7S39831 updated
+        #PDI-672-21727
+        ------------------------------
+
+
+
+        Console unresponsiveness after executing a command function on
+        agent PC
+-----------------------------------------------------------------------
+
+
+
+        Ticket ID: PDI-672-21727
+        URL: <<link>>
+        Name: 7S39831
+        Email address: 7user@domain.com
+        Creator: User
+        Department: General
+        Staff (Owner): -- Unassigned --
+        Type: Issue
+        Status: Open
+        Priority: Normal
+        Template group: Default
+        Created: 18 June 2015 08:31 AM
+        Updated: 18 June 2015 08:31 AM
+
+
+
+        Had executed a command cmd /c dir c: /s on agent PC. The console
+        page stopped responding when trying to access the Command page.
+        I believe it is due to huge directory and file listing on the
+        agent PC. Is it possible to disable the command or recover from
+        the unresponsiveness?
+
+
+
+        Staff CP: <<link>>
+
+

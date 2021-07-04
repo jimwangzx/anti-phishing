@@ -1,0 +1,63 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.71 with SMTP id o68csp1131341lfi;
+        Fri, 13 Mar 2015 16:10:00 -0700 (PDT)
+X-Received: by 10.140.144.73 with SMTP id 70mr63985591qhq.34.1426288199791;
+        Fri, 13 Mar 2015 16:09:59 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qc0-domain.com (mail-qc0-domain.com. [2607:f8b0:400d:c01::22a])
+        by domain.com with ESMTPS id t12si3122097qge.100.2015.03.13.16.09.59
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Mar 2015 16:09:59 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22a as permitted sender) client-ip=2607:f8b0:400d:c01::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: by mail-qc0-domain.com with SMTP id kw5so54122qcb.2
+        for <user@domain.com>; Fri, 13 Mar 2015 16:09:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date:message-id:subject
+         :From: Jerome Tatar <jerry@TatarLawFirm.com>
+        bh=XfF2lPlt1i9vrWHaJQzOPJzzfNC9ozn3qpKZOwClBwo=;
+        b=WOaN3gIf0UfzO9yR8VeUCw5KszCl4TOWHXfDnCa5wH6joNzUp0zceezPOghBugFcTC
+         BA6cNpPg1TuUes1VCn5Cs/dE1PWIQNerLckamO1luSafqGRuIOEf0tVYRo3K8uugMAMG
+         cIijuSoipuWnBY+C2JHAneL59fAcz//7VGtPLAzZtqwWDiyFu5yGdhOxlIiCOmdt/HcK
+         8AnB1/jpDbnw0anYPrdJzjcmhfQR6AxWp4SnqZNCiNStUOQRS/ig0P48v0nVQto9n652
+         Z80ef8u+wxCUGpO92nvGWAXYt6Yv0KzectJ8qgSYUjc8+7vYf1zJmWVmnjqGo09/4CFI
+         SMvw
+MIME-Version: 1.0
+X-Received: by 10.55.49.197 with SMTP id x188mr42612237qkx.49.1426288199146;
+ Fri, 13 Mar 2015 16:09:59 -0700 (PDT)
+Sender: user@domain.com
+Received: by 10.229.201.74 with HTTP; Fri, 13 Mar 2015 16:09:59 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+Date: Fri, 13 Mar 2015 18:09:59 -0500
+X-Google-Sender-Auth: zAWIppqEW5uIraKrY0SHoQCc5eQ
+Message-ID: <CAC9z1zKAsZOMOdxr+user@domain.com>
+Subject: Re: Stephanie
+From: Jerome Tatar <jerry@TatarLawFirm.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11490a2c75224d05113399eb
+
+Daniel - and our entire family - are lucky indeed!  Glad you had a good
+run.  Steph is a wonderful, intelligent and very strong person.
+
+And you, my friend, are quite the person yourself. Forget all the White
+House stuff and the important role you have played in progressive national
+and world politics.  You have never lost sight of others and never let your
+position in life change your basic values.  Besides being one of the
+smartest people I know, you are a genuinely good person.  I know that John
+and Mary are quite proud of who you are - even more than what you have done.
+
+Judy and I are on a cruise right now - our first - and celebrating 40 years
+of marriage.  I took along "Believer" and am enjoying the tour of Chicago
+political history.  When I return, I will get back to working out - not
+sure how my slightly arthritic hip will be by next year, but I really do
+miss running and will do my best to join you and Steph!
+
+Take care - and stay well as you move on to the next campaign.  I am
+thinking about Iowa again at the start - and Ohio at the end.
+
+On Fri, Mar 13, 2015 at 3:22 PM, John user <user@domain.com>

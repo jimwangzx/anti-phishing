@@ -1,0 +1,139 @@
+Delivered-To: user@domain.com
+Received: by 10.170.182.199 with SMTP id y190csp709391ykd;
+        Thu, 5 Mar 2015 15:08:39 -0800 (PST)
+X-Received: by 10.107.12.150 with SMTP id 22mr12969805iom.71.1425596919087;
+        Thu, 05 Mar 2015 15:08:39 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com ([216.82.254.107])
+        by domain.com with ESMTPS id r6si3186411icx.29.2015.03.05.15.08.38
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Thu, 05 Mar 2015 15:08:39 -0800 (PST)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.254.107;
+Authentication-Results: domain.com;
+       spf=none (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.254.67] by server-11.bemta-7.domain.com id FD/5E-02764-6F1E8F45; Thu, 05 Mar 2015 23:08:38 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-10.tower-196.domain.com!1425596917!9215974!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 4699 invoked from network); 5 Mar 2015 23:08:37 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-10.tower-196.domain.com with AES256-SHA encrypted SMTP; 5 Mar 2015 23:08:37 -0000
+Resent-From: Bob Fish <robertbfish@earthlink.net>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Thu, 5 Mar 2015 18:08:36 -0500
+Received: from [216.82.254.67] by server-15.bemta-7.domain.com id
+ 5B/AB-02755-4F1E8F45; Thu, 05 Mar 2015 23:08:36 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-14.tower-196.domain.com!1425596915!9213478!1
+X-Originating-IP: [209.86.89.70]
+X-SpamReason: No, hits=0.3 required=7.0 tests=sa_preprocessor: 
+  QmFkIElQOiAyMDkuODYuODkuNzAgPT4gMzYxNg==\n,sa_preprocessor: 
+  QmFkIElQOiAyMDkuODYuODkuNzAgPT4gMzYxNg==\n,HTML_60_70,HTML_MESSAGE
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 28471 invoked from network); 5 Mar 2015 23:08:35 -0000
+Received: from elasmtp-banded.atl.sa.earthlink.net (HELO
+ elasmtp-banded.atl.sa.earthlink.net) (209.86.89.70)  by
+ server-14.tower-196.domain.com with SMTP; 5 Mar 2015 23:08:35 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=dk20050327; d=earthlink.net;
+  b=R8TYyR1szTNzo5UeAhhyHlFXl8ZHJcQBvbbddLbnynz0F5dhLmhz4tW1k7tJNsPB;
+  h=Received:From: Bob Fish <robertbfish@earthlink.net>
+Received: from [99.6.44.118] (helo=BobFish)	by
+ elasmtp-banded.atl.sa.earthlink.net with esmtpa (Exim 4.67)	(envelope-from
+ <user@domain.com>)	id 1YTesc-0001QX-QV	for
+ user@domain.com; Thu, 05 Mar 2015 18:08:35 -0500
+From: Bob Fish <robertbfish@earthlink.net>
+To: user@domain.com
+Subject: Leslie Kean book comment
+Date: Thu, 5 Mar 2015 15:11:48 -0800
+Message-ID: <003501d05799$c2415a20$46c40e60$@earthlink.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0036_01D05756.B41F0480"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdBXmcGDc8JRPZK/S0KLRGIzUpoAeA
+Content-Language: en-us
+X-ELNK-Trace: 6651e0759643fabe9004e55a6ea4901a9ef193a6bfc3dd486ef013a976d30ab99179d78dd009e20c387f7b89c61deb1d350badd9bab72f9c350badd9bab72f9c
+X-Originating-IP: 99.6.44.118
+
+John -
+
+
+
+
+I know you are busy as heck so I appreciate your taking a moment to read
+this email and put it in a file for future use.
+
+
+
+
+I emailed Leslie Kean ten days ago but have not received any response.
+
+
+
+
+Based on significant personal experience, I can attest that UFO hunters are
+looking in the wrong places.
+
+
+
+
+Random personal observations, fuzzy photographers, and crop circles will
+never "prove" the existence of anything, especially since UFO appearances to
+humans are transitory and somewhat related to the observer's state of mind.
+
+
+
+
+What needs to be collected and publicly disseminated is hard scientific data
+collected from instruments that are known to be accurate and reliable.
+
+
+
+
+Within the US, this information has existed for many years and is still
+available today, if one knows "where to look"  and "what to look for."  
+
+
+
+
+Radar data and thermal imaging data is a good start, especially if one knows
+the flight envelope and maneuvering characteristics of a UFO.
+
+
+
+
+If/when you might be interested  in gaining more specific information
+(program names) please feel free to contact me by email to arrange a phone
+call or meeting (I live in northern Cal but occasionally travel to DC for
+business activities)!
+
+
+
+
+While I am publicly known by my work with the USS domain.com Museum, this
+communication with you is entirely PRIVATE and CONFIDENTIAL and has nothing
+to do with the museum.
+
+
+
+
+Regards,
+
+
+
+
+Bob Fish
+
+Danville, CA
+
+
+

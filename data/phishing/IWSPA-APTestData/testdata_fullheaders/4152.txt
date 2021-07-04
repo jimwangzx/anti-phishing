@@ -1,0 +1,73 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 6CBCE536E59
+	for <user@domain.com>; Wed, 12 Oct 2015 08:43:00 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 801666FA3B3
+	for <user@domain.com>; Wed, 12 Oct 2015 08:42:55 -0400 (EDT)
+Received: from domain.com (domain.com [68.142.200.236])
+	by domain.com (Postfix) with SMTP
+	for <user@domain.com>; Wed, 12 Oct 2015 08:42:55 -0400 (EDT)
+Received: (qmail 14280 invoked from network); 12 Oct 2015 12:42:54 -0000
+Received: from unknown (HELO User) (37@cincisute.info@71.104.229.67 with login)
+  by domain.com with SMTP; 12 Oct 2015 12:42:52 -0000
+Reply-To: <user@domain.com>
+From: "service@intl.paypal.com" <service@intl.paypal.com>
+Subject: New email address added to your PayPal account 
+Date: Wed, 12 Oct 2015 05:44:50 -0700
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ****
+X-Spam-Status: No, score=4.9 required=5.0 tests=FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,FORGED_OUTLOOK_TAGS,HTML_MESSAGE,MIME_HTML_ONLY,
+	MISSING_HEADERS,NO_REAL_NAME autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 NO_REAL_NAME From: "service@intl.paypal.com" <service@intl.paypal.com>
+	*  0.1 MISSING_HEADERS Missing To: header
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  0.1 FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Message-Id: <20051012124255.801666user@domain.com>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 338
+
+You have added user@domain.com as
+    a new email address for your PayPal account. 
+
+    If you did not authorize this change or if you need assistance with your 
+    account, please contact PayPal customer service at: 
+
+<>
+
+    Thank you for using PayPal!
+
+    The PayPal Team 
+
+    Please do not reply to this e-mail. Mail sent to this address cannot be
+    answered. For assistance, log in to your PayPal account and choose the
+    "Help" link in the header of any page. 
+
+    -------------------------------------- 
+
+    PROTECT YOUR PASSWORD NEVER give your password to anyone and ONLY log in at
+    <> Protect yourself against fraudulent websites by 
+    opening a new web browser (e.g. domain.com Explorer or Netscape) and typing in
+    the PayPal URL every time you log in to your account. 
+
+    ------------------------------------- 
+
+    PayPal Email ID PP694182

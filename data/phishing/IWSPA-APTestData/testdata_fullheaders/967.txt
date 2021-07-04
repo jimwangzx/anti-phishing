@@ -1,0 +1,45 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp62200lfr;
+        Thu, 27 Aug 2015 12:09:00 -0700 (PDT)
+X-Received: by 10.60.55.9 with SMTP id n9mr3400840oep.67.1440702539985;
+        Thu, 27 Aug 2015 12:08:59 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from BAY004-OMC2S14.hotmail.com (bay004-omc2s14.hotmail.com. [65.54.190.89])
+        by domain.com with ESMTPS id 1si2228969oig.139.2015.08.27.12.08.59
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 27 Aug 2015 12:08:59 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.54.190.89 as permitted sender) client-ip=65.54.190.89;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 65.54.190.89 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hotmail.com
+Received: from BAY167-W130 ([65.54.190.125]) by BAY004-OMC2S14.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Thu, 27 Aug 2015 12:08:59 -0700
+X-TMN: [+AhyqU5D4G0VS1GGjProAv/BffaGl4J0]
+X-Originating-Email: [user@domain.com]
+Message-ID: <user@domain.com>
+Return-Path: user@domain.com
+Content-Type: multipart/alternative;
+	boundary="_77f82b12-197e-4dfa-9964-b0ea317ee896_"
+From: Matthew Browne <browne_mj@hotmail.com>
+To: John user <user@domain.com>
+Subject: RE: Paris Meeting with Manuel Valls
+Date: Thu, 27 Aug 2015 19:08:58 +0000
+Importance: Normal
+In-Reply-To: 
+ <user@domain.com>
+References: 
+ <user@domain.com>,<user@domain.com>
+MIME-Version: 1.0
+X-OriginalArrivalTime: 27 Aug 2015 19:08:59.0009 (UTC) FILETIME=[D3E3F710:01D0E0FB]
+
+Anf Valls ask personally about you.
+
+Date: Thu=2C 27 Aug 2015 14:39:41 -0400
+Subject: Re: Paris Meeting with Manuel Valls
+From: Matthew Browne <browne_mj@hotmail.com>
+To: user@domain.com
+
+Are you asking Neera?
+
+On Thursday=2C August 27=2C 2015=2C Matthew Browne <user@domain.com> 

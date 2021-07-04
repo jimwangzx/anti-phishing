@@ -1,0 +1,108 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Mon, 12 May 2015 15:03:21 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4CM3GCq020562	for <user@domain.com>; Mon, 12 May 2015 
+ 22:03:16 GMT
+Received: from mail99-co9-domain.com (mail-domain.com [207.46.163.18])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4CM4rqk029275	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Mon, 12 May 2015 22:04:54 GMT
+Received: from mail99-co9 (localhost [127.0.0.1])	by mail99-co9-domain.com
+ (Postfix) with ESMTP id A5DC3240181	for <user@domain.com>; Mon, 12
+ May 2015 22:03:14 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.237.236;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(zzc89bh758Ic857hc545Idbb0izz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h172c6ch1ce120h1a691ciz2fheh5fh839he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h2565h25f6h2605h268bh26d3h27e2h282bh214ai)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail99-co9: domain of domain.com designates 192.64.237.236 as permitted sender) client-ip=192.64.237.236; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail99-co9 (localhost.localdomain [127.0.0.1]) by mail99-co9
+ (MessageSwitch) id 1399932193637922_26048; Mon, 12 May 2015 22:03:13 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.245])	by
+ mail99-domain.com (Postfix) with ESMTP id 96DB4360094	for
+ <user@domain.com>; Mon, 12 May 2015 22:03:13 +0000 (UTC)
+Received: from domain.com (192.64.237.236) by
+ domain.com (10.236.130.25) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 12 May 2015 22:03:13 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Variety Daily Headlines <donotreply@variety.com>
+ bh=xuXrIkmX5rqYQt9ZXRPE8/qvmyk=;
+ b=LMlHFNkgRu/e21LuPJ590bRHdzYfWxBCh1a6a1yReNrc2yeMk0BNHt9if5B433hiVvxBborQn4fC
+   DYaM4qWgE4UlapiwfeBjVb1j0ho9dkpE46yW+8pQAMEDvaDkg0udMVj5iyY73pLt5Fpquj/tOOHd
+   41sGiUiKOSEZcpZZ+RA
+Received: from nyp1-p-p4136-prd-jma-04.sailthru.pvt (64.34.57.233) by
+ domain.com id he52ig1qqbsc for <user@domain.com>; Mon, 12
+ May 2015 18:03:19 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1399932189;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Daily Headlines <donotreply@variety.com>
+	bh=7ZaS4eNtFFQ/NB/9aN2nqx/WKCRbKsaJYMA63a2uEow=;
+	b=Ev9I2WpCQh9SH4cIexd82+W/5EO5rw998jsLk9JIVX/+5R3uQbV+rpFfY2yTFf6D
+	SieAA+zeGZ2/2AC5BeOrhA4L72NNZLcJ5RQlSLi/MdPn8O74kK0auFSlLIL54c/JAfJ
+	of6lw57FUxRVU/R7HEAMnavOT/F0COpNd0mYjQw0
+Date: Mon, 12 May 2015 18:03:09 -0400
+From: Variety Daily Headlines <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140512220309.2648148.18944@domain.com>
+Subject: Fox Upfront Scorecard: Big Risks, to Dig Out of a Big Hole
+Precedence: bulk
+X-TM-ID: 20140512220309.2648148.18944
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4136-prd-jma-04.sailthru.pvt
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2648148
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Fox Upfront Scorecard: Big Risks, to Dig Out of a Big Hole
+
+Fox came into its upfront presentation Monday with a huge void to fill -- the three hours and 20% o...  
+
+
+
+
+Variety         
+
+Daily Headlines         
+
+Monday, May 12, 2015    
+
+
+
+
+<<link>>         
+
+Fox Upfront Scorecard: Big Risks, to Dig Out of a Big Hole      
+
+Fox came into its upfront presentation Monday with a huge void to fill -- the three hours and 20% of its schedule once occupied by "The X Factor" -- and plenty of perceptual baggage, tied to a sea...         
+
+<<link>> Jay Z Attacked by Beyonce’s Sister, Solange Knowles, After Met Gala (VIDEO)
+A surveillance video appears to show Jay Z being attacked by Beyonce's sister, pop star Solange Knowles, in a hotel elevator after last week's Met Gala in New York. The Standard Hotel in New York ...
+
+Fox Schedule Analysis: Net Delivers on Necessary Changes
+Coming off a rough spring, Fox was expected to make some major changes to its schedule — and it didn't disappoint. The net's fall schedule makes the most of what it has to work with, adding five n...
+
+Watch: Elsa From ‘Frozen’ Comes to ‘Once Upon a Time’
+"Frozen" won't be letting go of its pop culture dominance any time soon. After scoring one box office and soundtrack sales milestone after another, the Disney hit is about to conquer another front...
+
+Academy Hires Exec Architectural Firm for Film Museum
+The Academy of Motion Picture Arts and Sciences is hiring an executive architectural firm for its film museum, saying there is "nothing unexpected or untoward" about the domain.com of Zoltan Pali, whose...
+
+‘Broadchurch’ Season 2: David Tennant, Olivia Colman to Return
+David Tennant and Olivia Colman will return to "Broadchurch" for season two, British producer ITV announced Monday. Jodie Whittaker, Andrew Buchan and Arthur Darvill will also reprise their roles ...
+
+Upfronts: ‘Gotham’ Impresses as Fox Talks ‘Next-Generation’ Approach
+After a tough season in the ratings, Fox put the emphasis on the re-engineering
+

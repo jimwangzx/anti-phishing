@@ -1,0 +1,80 @@
+Delivered-To: user@domain.com
+Received: by 10.52.106.162 with SMTP id gv2cs113261vdb;
+        Tue, 7 Jun 2015 15:59:55 -0700 (PDT)
+Received: by 10.52.110.234 with SMTP id id10mr401655vdb.303.1307487594992;
+        Tue, 07 Jun 2015 15:59:54 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com [69.25.202.75])
+        by domain.com with ESMTP id y7si1233887vdt.92.2011.06.07.15.59.54;
+        Tue, 07 Jun 2015 15:59:54 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.25.202.75 as permitted sender) client-ip=69.25.202.75;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 69.25.202.75 as permitted sender) user@domain.com
+Received: by mta-domain.com (Postfix, from userid 515)
+	id D029F767DDCEE; Tue,  7 Jun 2015 18:59:54 -0400 (EDT)
+Received: from maillist-o 
+	by domain.com with local (PHPMailer);
+	Tue, 7 Jun 2015 18:59:54 -0400
+Date: Tue, 7 Jun 2015 18:59:54 -0400
+To: John user <user@domain.com>
+From: "Julianna Smoot, BarackObama.com" <info@barackobama.com>
+Reply-to: user@domain.com
+Subject: Deadline: 20,000 new donors
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 38738c86f0cb7e9a
+X-maillist-guid: CgdXWAJtVQxSAAhWCVNVUQBbB1cNVg
+List-Unsubscribe: <<<link>>>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_de05b6f0eda5ebe10560859b735afee7"
+
+John --
+
+This donor-matching drive ends tonight. To get us where we need to be, and 
+with more than 15,000 people joining this matching drive so far this week, 
+I'm setting a goal to reach 20,000 before our deadline at midnight.
+
+My team calculated how many new donors this goal translates to in your 
+area. Here's where we stand:
+
+GRASSROOTS MATCH
+Deadline: Midnight tonight
+National Goal: 20,000 new donors
+Goal in Washington: 18
+
+One of these people -- maybe even someone in your neighborhood -- will 
+make their first donation to the campaign because you're ready to double 
+their impact.
+
+Can you help us meet our goal by pledging to match a first-time gift of 
+$25?
+
+<<link>>
+
+We know that we can compete without compromising our values -- measuring 
+our goals not just in dollars raised, but in people who've taken ownership 
+of this campaign.
+
+Donate $25 or more today and help bring in a new donor:
+
+<<link>>
+
+Thanks,
+
+Julianna
+
+Julianna Smoot
+Deputy Campaign Manager
+Obama for America
+
+---------------------------------------------------------------------
+Paid for by Obama for America
+
+Contributions or gifts to Obama for America are not tax deductible.
+
+This email was sent to: user@domain.com
+To update your address, go to: 
+<<link>>
+To unsubscribe, go to: <<link>>
+

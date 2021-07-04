@@ -1,0 +1,48 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp141400lfb;
+        Wed, 16 Dec 2015 21:06:05 -0800 (PST)
+X-Received: by 10.98.73.19 with SMTP id w19mr7224262pfa.103.1450328765762;
+        Wed, 16 Dec 2015 21:06:05 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-pf0-domain.com (mail-pf0-domain.com. [209.85.192.175])
+        by domain.com with ESMTPS id pb7si11654422pac.48.2015.12.16.21.06.05
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 16 Dec 2015 21:06:05 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.192.175 as permitted sender) client-ip=209.85.192.175;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.192.175 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-pf0-domain.com with SMTP id n128so1553pfn.0;
+        Wed, 16 Dec 2015 21:06:05 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: user.mary@gmail.com
+         :message-id:date:to;
+        bh=2xuDUtaGOIVczZ1gBZhxTU1Qhl+hnCPNG8qsa1K9TYo=;
+        b=vnCIggYN4uIoB4bds9J9lrlTypuo7a5ozkD5CBnE2cCKzLYd6KO+E2X2apPFD2mFqk
+         yMJAwK+bTDNfhV7Sky/Q02SVIFP+xO+L57RwTt5hp5jBMTdQte+BkHGTzUX7eBpnPwqh
+         iBTzG3L8ovCZrPCSO0fD5G1kA7kcPvYVkuZRbrNlXvXWpOPpwGpaopvdUMrlpIi0zUEw
+         OrxuU5/gUcJdt2SOTj5pJDVXvuwKDudEQecPABK+BB965VWocbebdY/3AfkpTtSXGHK1
+         BAS843tcUaERx6xhjeWVYytoGX56nYYkVEVFyX+5jnV8HCOxtabeWQxKKCByQKvY/rBJ
+         3PrA
+X-Received: by 10.98.13.8 with SMTP id v8mr11422257pfi.49.1450328765448;
+        Wed, 16 Dec 2015 21:06:05 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2600:1010:b069:9f59:c8b3:d1e8:3027:5acd? ([2600:1010:b069:9f59:c8b3:d1e8:3027:5acd])
+        by smtp.gmail.com with ESMTPSA id p20sm8113112pfi.25.2015.12.16.21.06.04
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 16 Dec 2015 21:06:04 -0800 (PST)
+From: user.mary@gmail.com
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: So far
+Message-Id: <6user@domain.com>
+Date: Wed, 16 Dec 2015 21:06:02 -0800
+To: Mae user <user@domain.com>, John user <user@domain.com>
+X-Mailer: iPhone Mail (13C75)
+
+St Francis Xavier at 5th ave and 16th St a domain.com parish
+Has a 4 pm Christmas Eve service

@@ -1,0 +1,105 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp384808lfr;
+        Sat, 17 Oct 2015 07:04:54 -0700 (PDT)
+X-Received: by 10.50.143.102 with SMTP id sd6mr10453876igb.22.1445090694901;
+        Sat, 17 Oct 2015 07:04:54 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::247])
+        by domain.com with ESMTPS id n9si1066166ige.24.2015.10.17.07.04.54
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 17 Oct 2015 07:04:54 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4001:c05::247 as permitted sender) client-ip=2607:f8b0:4001:c05::247;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:4001:c05::247 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-domain.com with SMTP id hv6sf4458109igb.3
+        for <user@domain.com>; Sat, 17 Oct 2015 07:04:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:date:message-id:subject
+         :From: Nick Merrill <nmerrill@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=l0n5AtYBd0TDyyvP+BSWQLz9D7NKUYiOEh2rm8mkPaM=;
+        b=hyI9XHPvkBYlbj9rd42NATvjDR2qMVx1oY87Oz+LBe9+bK7hhAnAt8PHfEl4KdVtTh
+         W1V8GJaxqWDF0beGYDkJ+wrBmYCqUB5Dxp1T3Q3Kzb6yraqU6FFCESL0T89AupGC7o96
+         xZIhN1ysv67gRIBIuvDjFJuGq9D8cPCQU9m4Y
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Nick Merrill <nmerrill@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=l0n5AtYBd0TDyyvP+BSWQLz9D7NKUYiOEh2rm8mkPaM=;
+        b=LOkfYt/Q79ZHAO6Tged+7yN0zAvTg0zohl94CxN6DMJvWDW2Fb4uxEMKGXyQXA31b4
+         WKptHJDmA9CbvOs1KUZKRAMIwvRZ5nW3+jtSZlkk243G9ioY0olu3bcZGx0vr0fGfMza
+         y7JKg5v7Mj0iUh1lKDvp/be6R/XgSs/WGY4xhZk7GpbppAl9x/ke/8oH+BzLXq9uoSVH
+         6cW+ule7RNhmHzBjtdnSXTw3I6aPdjrI214Mti0G0y9BQZ98d7o8CJi5CpJ1/OnukyCa
+         X/6155U7vua/cZP6EayAWJ6dH/Bkfad6y+xFRRp6CzGaUe+0/PzH6pmMcuykVMXW893h
+         VkTQ
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQk+JPP9kreadQiYxwajdov5f2wohSFY7oBYbNsDqye3dd0Jwad0FoWWI0FBMlcP0WvmMKDp
+X-Received: by 10.182.106.228 with SMTP id gx4mr17379581obb.34.1445090694544;
+        Sat, 17 Oct 2015 07:04:54 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.140.31.164 with SMTP id f33ls279796qgf.29.gmail; Sat, 17 Oct
+ 2015 07:04:54 -0700 (PDT)
+X-Received: by 10.140.43.70 with SMTP id d64mr25231128qga.11.1445090693965;
+        Sat, 17 Oct 2015 07:04:53 -0700 (PDT)
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::233])
+        by domain.com with ESMTPS id d16si22376822qkj.68.2015.10.17.07.04.53
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 17 Oct 2015 07:04:53 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::233 as permitted sender) client-ip=2607:f8b0:400d:c04::233;
+Received: by qgbb65 with SMTP id b65so18314247qgb.2
+        for <user@domain.com>; Sat, 17 Oct 2015 07:04:53 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.140.40.239 with SMTP id x102mr4455955qgx.10.1445090693705;
+ Sat, 17 Oct 2015 07:04:53 -0700 (PDT)
+Received: by 10.55.214.197 with HTTP; Sat, 17 Oct 2015 07:04:53 -0700 (PDT)
+In-Reply-To: <CA+C_h81UL+user@domain.com>
+References: <CA+C_h81UL+user@domain.com>
+Date: Sat, 17 Oct 2015 10:04:53 -0400
+Message-ID: <user@domain.com>
+Subject: Re: DRAFT: Birmingham News Op-Ed
+From: Nick Merrill <nmerrill@hillaryclinton.com>
+To: Lauren Peterson <user@domain.com>
+CC: Speech Drafts <user@domain.com>, 
+ Karen Finney <user@domain.com>, 
+ LaDavia Drane <user@domain.com>, 
+ Ian Sams <user@domain.com>, 
+ Tyrone Gayle <user@domain.com>, 
+ Emily Aden <user@domain.com>, 
+ Brynne Craig <user@domain.com>, 
+ Christina Reynolds <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c12a1a778fb005224d6563
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:400d:c04::233 as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+Sitting here with the Op Ed Writer-in-Chief (not you Lauren) talking about
+this.  Given Bentley's Friday attempts to walk this back with monthly
+visits, should we consider inserting a line that says his proposal doesn't
+go far enough, so this is fresh and accounts for this most recent
+pronouncements?
+
+On Thu, Oct 15, 2015 at 12:49 AM, Lauren Peterson <

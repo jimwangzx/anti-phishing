@@ -1,0 +1,190 @@
+Delivered-To: user@domain.com
+Received: by 10.142.226.9 with SMTP id y9cs335623wfg;
+        Tue, 18 Nov 2015 20:21:24 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.100.58.19 as permitted sender) client-ip=10.100.58.19;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.100.58.19 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.100.58.19])
+        by 10.100.58.19 with SMTP id g19mr499302ana.23.1227068484081 (num_hops = 1);
+        Tue, 18 Nov 2015 20:21:24 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Tara McGuinness" <tara@progressiveaccountability.org>
+         :content-type:reply-to:sender:precedence:x-google-loop:mailing-list
+         :list-id:list-post:list-help:list-unsubscribe:x-beenthere-env
+         :x-beenthere;
+        bh=bh/+ez2RhVq+peB9UqGeKsylpsjO6EO9mk9mBqHmdvc=;
+        b=FLNpOl83v0ze6PMAf1VA6Yka0O1yVcCq5njHAU9YvIMK7eWN61Hc4YLajhwrGwvSHw
+         ugs4CkC8bvmICPWT34nKNuBbqgyXoWBU9B17caiQv4GZYi6EIYIDrZzCYHmqXPXVx1b5
+         7j1XGW3L1KH5wPqscFDML/GiaffxNXkHdf2QU
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Tara McGuinness" <tara@progressiveaccountability.org>
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=SJTYcXA6zEiWDU7M3+dWnJDAybYQJUF1UImlTx8hK6ZsfWPr/UedZDMXTU2UzD1qte
+         s92OC7zop20ixds8apnusEi7YEtq2B8keA4OlgVzbe8fvSmqMkcso/OK2f/KomKoLWRp
+         JBGwrmtksPo1PpKbtQ6IKke0BsNVYtKXBF368
+Received: by 10.100.58.19 with SMTP id g19mr37876ana.23.1227068474983;
+        Tue, 18 Nov 2015 20:21:14 -0800 (PST)
+Received: by 10.230.24.159 with SMTP id v31gr2714vbb.0;
+	Tue, 18 Nov 2015 20:21:04 -0800 (PST)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.142.174.8 with SMTP id w8mr318944wfe.9.1227068463191; Tue, 18 Nov 2015 20:21:03 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from yx-out-2324.domain.com (yx-out-2324.domain.com [74.125.44.28]) by domain.com with ESMTP id k32si3633984wah.1.2008.11.18.20.21.02; Tue, 18 Nov 2015 20:21:03 -0800 (PST)
+Received-SPF: neutral (domain.com: 74.125.44.28 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=74.125.44.28;
+Authentication-Results: domain.com; spf=neutral (domain.com: 74.125.44.28 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by yx-out-2324.domain.com with SMTP id 8so1396359yxg.35 for <user@domain.com>; Tue, 18 Nov 2015 20:21:02 -0800 (PST)
+Received: by 10.150.212.14 with SMTP id k14mr1291806ybg.88.1227068462265; Tue, 18 Nov 2015 20:21:02 -0800 (PST)
+Received: by 10.151.85.3 with HTTP; Tue, 18 Nov 2015 20:21:02 -0800 (PST)
+Message-ID: <4948user@domain.com>
+Date: Tue, 18 Nov 2015 23:21:02 -0500
+From: "Tara McGuinness" <tara@progressiveaccountability.org>
+To: "User" <user@domain.com>
+Subject: [big campaign] bush to loosen epa regs
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_80793_28619857.1227068462235"
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+*this is a1 tomorrow, is anyone in a position to do a press call tomorrow to
+blast Bush/conservatives?*
+**
+*WP:EPA Proposal Would Loosen Rules for Air in National Parks
+
+*
+
+By Juliet Eilperin
+Washington Post Staff Writer
+Wednesday, November 19, 2008; A01
+
+The Environmental Protection Agency is finalizing new air-quality rules that
+would make it easier to build coal-fired power plants, oil refineries and
+other major polluters near national parks and wilderness areas, even though
+half of the EPA's 10 regional administrators formally dissented from the
+decision and four others criticized the move in writing.
+
+Documents obtained by The Washington Post show that the administration's
+push to weaken Clean Air Act protections for "Class 1 areas" nationwide has
+sparked fierce resistance from senior agency officials. All but two of the
+regional administrators objecting to the proposed rule are political
+appointees.
+
+The proposal would change the practice of measuring pollution levels near
+national parks, which is currently done over three-hour and 24-hour
+increments to capture emission spikes during periods of peak energy demand;
+instead, the levels would be averaged over a year. Under this system, spikes
+in pollution would no longer violate the law.
+
+In written submissions, EPA regional administrators have argued that this
+switch would undermine critical air-quality protections for parks such as
+Virginia's Shenandoah, which is frequently plagued by smog and poor
+visibility.
+
+EPA Region 4 Administrator J. I. Palmer Jr., whose office oversees the
+Southeast, wrote that the new formula "would reduce consistency, accuracy
+and public review" and "could allow greater deterioration of air quality in
+clean areas rather than preventing significant deterioration."
+
+Bharat Mathur, who until recently oversaw air quality for the Great Lakes
+states as acting administrator for Region 5, wrote, "The proposed approach
+is inappropriate and could lead to gaming the increment calculation." And
+Region 8 acting Administrator Carol Rushin, whose office covers Colorado,
+Wyoming, Utah, Montana, and North and South Dakota, wrote that the rule
+provides "inappropriate discretion" when calculating pollution levels.
+
+EPA spokesman Jonathan Shradar said in an e-mail that he could not comment
+in detail on the air-quality rule but said that the submissions "are all
+part of the regular agency process, so all I can say is that that process
+has been moving forward."
+
+The EPA could issue the final rule as early as this week. Shradar wrote that
+"work continues on a number of rules including the [Class 1 areas] rule, but
+no timeline has been set for completion at this point."
+
+Many national parks struggle with poor visibility shrouding otherwise
+spectacular vistas, as well as acid rain and other problems caused by air
+pollution, a situation that has intensified the debate over how best to
+regulate lead smelters, coal-fired power plants and other nearby pollution
+sources.
+
+Don Shepherd, an environmental engineer at the National Park Service's air
+resources division in Denver, noted that the agency determined in the 1980s
+that every one of its parks was "visually impaired," and "nothing really has
+changed that." Visitors to Shenandoah National Park's Skyline Drive in the
+mid-1930s reported seeing the Washington Monument more than 70 miles away;
+now, on some days, visibility is barely one mile.
+
+"The approach that's being proposed is going to underestimate the emissions,
+both for power plants that are out there now and for the ones that are
+proposed," Shepherd said. "It's going in the wrong direction for our efforts
+to try to improve air quality in the parks."
+
+While limiting pollution in national parks does not have the broad public
+health implications of federal air-quality rules that govern soot or
+airborne lead pollution, it has symbolic and ecological importance. The four
+major pollutants affecting the parks -- sulfur dioxide, nitrogen oxides,
+carbon dioxide and mercury -- contribute to degrading once-pristine habitats
+that Congress sought to preserve for generations when it decided to protect
+those areas.
+
+Jeffrey R. Holmstead -- who helped initiate the rule change while chief of
+EPA's air and radiation office and who now heads the environmental
+strategies group at the law firm Bracewell & Giuliani -- said it is
+unsurprising that regional officials would have a position different from
+that at headquarters.
+
+"The headquarters perspective tends to be much broader," Holmstead said,
+adding that the Bush administration has pursued air pollution reductions but
+has seen its proposals tied up in court. "Air quality in national parks, in
+particular, has very little to do with an individual source. What you really
+want to do is lower air pollution in that region."
+
+Regional EPA officials, he added, want "every weapon in their arsenal" to
+reduce pollution from a given source: "Regions are focused on a domain.com for a
+specific plant. Often what they focus on is anything that gives them
+leverage."
+
+But Mark Wenzler, who directs clean-air programs for the National Parks
+Conservation Association, said regional administrators "weren't just looking
+at parochial concerns" but instead conducting a broad analysis of the rule's
+impact.
+
+"The administration's staunch commitment to coal is so deep that they're
+willing to sacrifice our national parks on the way out the door," he said.
+
+If the EPA adopts the rule change, Wenzler added, his group plans to file a
+petition for reconsideration with the agency, which would allow the incoming
+Obama administration to reverse the policy. If the new rule is enacted, the
+association estimates it would ease the way for the construction of at least
+two dozen coal-fired utilities within 186 miles of 10 national parks.
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

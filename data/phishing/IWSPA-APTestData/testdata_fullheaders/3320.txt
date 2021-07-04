@@ -1,0 +1,89 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp302854lfr;
+        Wed, 5 Aug 2015 05:40:33 -0700 (PDT)
+X-Received: by 10.70.33.67 with SMTP id p3mr19131013pdi.126.1438778433145;
+        Wed, 05 Aug 2015 05:40:33 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.254.99])
+        by domain.com with ESMTP id gj8si5173013pbc.88.2015.08.05.05.40.32
+        for <user@domain.com>;
+        Wed, 05 Aug 2015 05:40:33 -0700 (PDT)
+Received-SPF: neutral (domain.com: 216.82.254.99 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=216.82.254.99;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 216.82.254.99 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.254.83] by server-3.bemta-7.domain.com id 78/F8-03146-04402C55; Wed, 05 Aug 2015 12:40:32 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-16.tower-197.domain.com!1438778430!13719132!3
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.16; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 14544 invoked from network); 5 Aug 2015 12:40:32 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-16.tower-197.domain.com with AES256-SHA encrypted SMTP; 5 Aug 2015 12:40:32 -0000
+Resent-From: <paigetheoracle@sky.com>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server (TLS)
+ id 14.3.210.2; Wed, 5 Aug 2015 08:40:31 -0400
+Received: from [216.82.254.83] by server-9.bemta-7.domain.com id
+ D0/FA-24814-E3402C55; Wed, 05 Aug 2015 12:40:30 +0000
+X-Env-Sender: user+user@domain.com
+X-Msg-Ref: server-10.tower-197.domain.com!1438778430!16793507!1
+X-Originating-IP: [209.85.223.172]
+X-SpamWhitelisted: domain whitelist
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.16; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 11640 invoked from network); 5 Aug 2015 12:40:30 -0000
+Received: from mail-io0-domain.com (HELO mail-io0-domain.com)
+ (209.85.223.172)  by server-10.tower-197.domain.com with RC4-SHA
+ encrypted SMTP; 5 Aug 2015 12:40:30 -0000
+Received: by iodd187 with SMTP id d187so47488136iod.2        for
+ <user@domain.com>; Wed, 05 Aug 2015 05:40:30 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :content-type:mime-version:content-transfer-encoding:subject:From: <paigetheoracle@sky.com>
+         :date:message-id;
+        bh=J2XHOhq8xyKqsJGXUJWAtFHXJWtz+dwG+bYVslDIoxQ=;
+        b=a8t5IG8vwNBPrOMfggwlteEO9ADz/7toSr6Cn6k4+RhcPWPcqDQBxcgVlxQXkV+JvW
+         c86Kxfqmg0zUl5xkwjrnzM3ukOk9wOGfqbB5kuJLeJK/vYIEwSgb0xwxGyE/PNOy4MZg
+         z1f4Df1hqqOakSsg3mmgGiscfDTtf+sOqH6HI5aDWBxyC4WQDV8BSRfjl3zfNlsGsmxQ
+         /ON/6MFmHjr5Nz+LV6i4to0lGdLCwaD2CIpSsSyKhAp0L0JZnViSzeTWJHdTz7PBYDHn
+         fjm+FkAGFs0UebqduaRAFobVQZleNX+MStf0ehpw3YyokY0x0mVv/ekc136YCxR0s1Lg
+         w7ew
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com: domain of user@domain.com designates 141.161.151.158 as permitted sender) user@domain.com
+X-Gm-Message-State: ALoCoQmJtCQw4iWjlYXS6cXTuq0qF5uzu2rnMj903G+chZr4XX8G3y2ySjLhVH7APF4UVcZ9IopC
+X-Received: by 10.107.135.140 with SMTP id r12mr907348ioi.153.1438778430218;
+        Wed, 05 Aug 2015 05:40:30 -0700 (PDT)
+X-Forwarded-To: user@domain.com
+X-Forwarded-For: user@domain.com user@domain.com
+Delivered-To: user@domain.com
+Received: by 10.64.85.7 with SMTP id d7csp357872iez;        Wed, 5 Aug 2015 
+ 05:40:29 -0700 (PDT)
+X-Received: by 10.140.104.236 with SMTP id a99mr16586912qgf.71.1438778429071;
+        Wed, 05 Aug 2015 05:40:29 -0700 (PDT)
+Received: from post1-domain.com (domain.com.
+ [141.161.151.158])        by domain.com with ESMTP id
+ 193si5164518qhh.34.2015.08.05.05.40.28        for <user@domain.com>;
+        Wed, 05 Aug 2015 05:40:29 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 141.161.151.158 as permitted sender)
+Received: from domain.com (domain.com
+ [10.212.19.130])	by post1-domain.com (Postfix) with ESMTP id
+ A548DDFA5A	for <user@domain.com>; Wed,  5 Aug 2015 08:40:28 -0400
+ (EDT)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Disclosure
+From: <paigetheoracle@sky.com>
+To: user@domain.com
+Date: Wed, 5 Aug 2015 12:40:28 +0000
+Message-ID: <20150805124028.1754.85258@domain.com>
+
+The following message was sent to you using the Georgetown University directory web site. If you have questions about how this email was sent, please see <<link>>
+
+ --------------------------------------------------------    
+
+Don't worry about disclosure, it will happen in its own good time and naturally.  That means things will move so hastily in that direction, no-one will have time to make up a cover story and it will be too obviously what it is to deny.

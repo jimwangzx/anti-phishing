@@ -1,0 +1,230 @@
+Delivered-To: user@domain.com
+Received: by 10.141.82.1 with SMTP id j1cs166830rvl;
+        Fri, 11 Jul 2015 13:37:29 -0700 (PDT)
+Received: by 10.150.121.3 with SMTP id t3mr16444859ybc.179.1215808648044;
+        Fri, 11 Jul 2015 13:37:28 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2122.domain.com (yw-out-2122.domain.com [74.125.46.25])
+        by domain.com with ESMTP id 5si1669584ywd.8.2008.07.11.13.37.26;
+        Fri, 11 Jul 2015 13:37:28 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.25 as permitted sender) client-ip=74.125.46.25;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.25 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2122.domain.com with SMTP id 1so4024736ywp.1
+        for <user@domain.com>; Fri, 11 Jul 2015 13:37:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:content-class
+         :mime-version:content-type:subject:x-mimeole:date:message-id
+         :x-ms-has-attach:x-ms-tnef-correlator:thread-topic:thread-index:from
+         :to:sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere;
+        bh=j1Gb76WXn6Rw5NzESyUPgwPDczeyHXdBMmXA9zzp18c=;
+        b=nqmxcbhP81eZ7T2qbVaEqTeAIY78Fe3HPmIsfufpSJpgTI4UFusZFs+yn6FskUXtXi
+         wevpZFW0S8w4jXM02oRegC10tsL7O7O0dePawbDv2V1gE+KIGggdlymckgAVNhMyVxGm
+         LzE5N6/uNNB9Ag3Fhex/qmjuURL9jIV2J61ok
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :content-class:mime-version:content-type:subject:x-mimeole:date
+         :message-id:x-ms-has-attach:x-ms-tnef-correlator:thread-topic
+         :thread-index:From: "Jeremy Funk" <funk@americansunitedforchange.org>
+         :list-id:list-post:list-help:list-unsubscribe:x-beenthere;
+        b=I1V98Xo+O21mOiXMUn5e6qnm9l3wNGgxvyxjZeN27MgFF0OWQBh5gAIA+IKFMDGwwj
+         pdJ1RI92ic3ucrwTgMu9taebPm1UILFBXItKZ3/z2LZENBqIBR4KTNjYyP5EdFVgewQ7
+         0m4JPUoRMKxeq49bk2SOAB7Xg+ZQSeO4UZTEg
+Received: by 10.150.230.15 with SMTP id c15mr331277ybh.5.1215808640090;
+        Fri, 11 Jul 2015 13:37:20 -0700 (PDT)
+Received: by 10.107.3.34 with SMTP id f34gr1168pri.0;
+	Fri, 11 Jul 2015 13:37:16 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.100.214.3 with SMTP id m3mr9368227ang.12.1215808635529; Fri, 11 Jul 2015 13:37:15 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail.americansunitedforchange.org (mail.americansunitedforchange.org [208.255.167.130]) by domain.com with ESMTP id 39si1234935yxd.0.2008.07.11.13.37.14; Fri, 11 Jul 2015 13:37:15 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.255.167.130 as permitted sender) client-ip=208.255.167.130;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 208.255.167.130 as permitted sender) user@domain.com
+Content-class: urn:content-classes:message
+Mime-Version: 1.0
+Content-Type: multipart/related; boundary="----_=_NextPart_001_01C8E395.E6E42114"
+Subject: [big campaign] At "women's event" today, Sen. McCain Caught
+ Misrepresenting His Record on Equal Pay
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Date: Fri, 11 Jul 2015 16:37:13 -0400
+Message-ID: <29user@domain.com>
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+Thread-Topic: At "women's event" today, Sen. McCain Caught Misrepresenting His Record on Equal Pay
+Thread-Index: AcjjhdRbVrD8lI8qTYCRncQwJw9qvAACrRkw
+From: "Jeremy Funk" <funk@americansunitedforchange.org>
+To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+
+
+
+www.americansunitedforchange.org
+
+FOR IMMEDIATE RELEASE                  CONTACT:         Jeremy Funk,
+202-470-5878 
+
+DATE: July 11th, 2015 
+
+At "women's event" Today, Sen. John McCain Caught Blatantly
+Misrepresenting His Record on Equal Pay
+
+JOHN MCCAIN: "We haven't done enough. We have not done enough. And I'm
+committed to making sure that there's equal pay for equal work. That
+there is equal opportunity in every aspect of our society. And that is
+my record and you can count on it."
+
+(Town Hall Meeting; Hudson, WI 07/11/08)  
+
+WATCH IT HERE: <<link>>
+<<<link>>>
+
+Washington D.C. -- Americans United for Change
+<<<link>>>  -- the progressive
+issue-advocacy group that recently launched an aggressive ad campaign
+<<<link>>
+ions_ensign_porter_votes_against_fair_pay_act/>  holding Senator John
+Ensign (R-NV) and Rep. Jon Porter (R-NV) accountable for voting against
+the Lilly Ledbetter Fair Pay Act, long-overdue legislation that would
+level the playing field for women and men who have been victims of pay
+discrimination by allowing them to seek justice in the courts - today
+called U.S. Senator John McCain to the carpet today for blatantly
+misrepresenting his record on equal pay during his campaign sponsored
+"women's event."   *The record speaks for itself below.
+
+            "It's amazing see Senator 'Straight Talk Express' McCain
+with a straight face talk about his commitment to and his record
+fighting for equal pay after very publicly decrying the Lilly Ledbetter
+Fair Pay Act and after telling a 14 year old girl that Equal
+Rights/Equal Pay wouldn't "do anything to help the rights of women,"
+said Lauren Weiner of Americans United for Change. "That's not straight
+talk - that's disingenuous and disrespectful political pandering and he
+should be ashamed."
+
+John McCain's Disappointing Record on Equal Pay
+
+ McCain Missed Vote To Provide Equal Pay To Women. On April 23, McCain
+skipped a vote to invoke cloture on the Lilly Ledbetter Fair Pay Act,
+which would "amend the 1964 Civil Rights Act to allow employees to file
+charges of pay discrimination within 180 days of the last received
+paycheck affected by the alleged discriminatory decision."  [HR 2831,
+Vote #110
+<<<link>>
+m.cfm?congress=3D110&session=3D2&vote=3D00110> , 4/23/08]
+
+McCain Said He Opposed Equal Pay Bill.  The Associated Press ran the
+following headline: "McCain opposes equal pay bill backed by rivals."
+The AP reported, "Republican Sen. John McCain, campaigning through
+poverty-stricken cities and towns, said Wednesday he opposes a Senate
+bill that seeks equal pay for women because it would lead to more
+lawsuits." [Associated Press, 4/24/08]
+
+ McCain Said He Didn't Believe Equal Pay Bill Would "Do Anything To Help
+The Rights Of Women."  During a McCain campaign event, McCain was asked
+by a 14 year old girl about his opposition to equal pay laws. McCain
+said, "I don't believe that this would do anything to help the rights of
+women, except maybe help trial lawyers and others in that profession."
+[Washington Post, The Trail Blog, 5/7/08
+<<<link>>
+_religious.html> ]
+
+ McCain Acknowledged Pay Disparity, Said It Was Due To "Education and
+Training" Differences. According to the Associated Press, McCain stated
+his opposition to the bill as he campaigned in rural eastern Kentucky,
+where poverty is worse among women than men. The Arizona senator said he
+was familiar with the disparity but that there are better ways to help
+women find better paying jobs. 'They need the education and training,
+particularly since more and more women are heads of their households, as
+much or more than anybody else,' McCain said. 'And it's hard for them to
+leave their families when they don't have somebody to take care of
+them.'" [Associated Press, 4/23/08
+<<<link>>
+342.html> ]
+
+ McCain Voted Against Providing More Effective Remedies For Victims Of
+Wage Discrimination. In 2000, McCain voted to impose a Budget Act point
+of order tabling a Harkin amendment to "provide more effective remedies
+to victims of discrimination in the payment of wages on the basis of
+sex." [S.Amdt. 3847 to H.R. 4810, Vote #203
+<<<link>>
+m.cfm?congress=3D106&session=3D2&vote=3D00203> , 7/17/00]
+
+McCain Voted Against Federal Equal Pay Study. In 1985, John McCain voted
+against passage of the bill to establish a commission to oversee a study
+of the federal workforce to determine whether differences in pay and
+classification have arisen because of discrimination on the basis of
+sex, race or national origin." [1985 CQ Almanac; HR 3008, vote # 318,
+10/9/85]
+
+McCain Voted Against Rule For Federal Equal Pay Study. In 1985, John
+McCain voted against the rule to allow "House floor consideration of the
+bill to authorize an independent study to determine if pay differences
+in the federal government are due to discrimination on the basis of sex,
+race or Hispanic origin." [1985 CQ Almanac; HR 3008, vote # 263, 8/1/85]
+
+ McCain tells 14 year old girl that Equal Rights/Equal Pay wouldn't "do
+anything to help the rights of women"
+VIDEO: <<link>>
+<<<link>>>
+JOHN MCCAIN: Now, ma'am, I don't know who printed your shirt but here's
+the microphone and you can explain, have the view that you have and I'd
+be glad to respond to a question.
+
+QUESTIONER: Thank you. I was wondering, Senator McCain, why, um, when
+you had the opportunity to vote to give equal rights to women, equal
+pay, I was wondering why you didn't show up to vote and you said that if
+you did, you wouldn't support it?
+
+JOHN MCCAIN: I think you're referring to a vote recently that would've
+allowed, which would've eliminated the statute of limitations on
+lawsuits of, for charges or allegations of discrimination. Uh, I think
+that if you eliminate the statute of limitations and make it, uh,
+unending then you may be violating the rights of the individual who's
+being sued as well, whether they be a man or a woman. So, I believe that
+the Supreme Court's decision was correct, that there is a statute of
+limitations as, as to when charges or allegations or legal means are
+taken, uh, and I believe that it was a correct decision of the United
+States Supreme Court and I don't believe that this would do anything to
+help the rights of women except maybe help trial lawyers and others in
+that profession. And that's my view. [applause]. If you'd like to follow
+up, I'd be glad to hear your response to that. If you'd-obviously we
+disagree but if you'd-would you-wou--would you like to make another
+comment?
+
+QUESTIONER: I have someone here who I think would like to-who I think
+would be very more much articulate than me with answering th-
+
+QUESTIONER 2: [to scattered booing] That's ok, she's fourteen years old,
+ok?
+(Town Hall Meeting; Rochester, MI 05/07/08)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" g
+roup.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organi
+zation.
+-~----------~----~----~----~------~----~------~--~---
+

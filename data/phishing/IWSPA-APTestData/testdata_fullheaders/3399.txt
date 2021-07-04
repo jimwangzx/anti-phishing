@@ -1,0 +1,105 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp904954lfb;
+        Tue, 15 Mar 2015 16:41:12 -0700 (PDT)
+X-Received: by 10.67.4.233 with SMTP id ch9mr1106726pad.29.1458085272872;
+        Tue, 15 Mar 2015 16:41:12 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-pf0-domain.com (mail-pf0-domain.com. [2607:f8b0:400e:c00::245])
+        by domain.com with ESMTPS id u64si711998pfa.100.2016.03.15.16.41.12
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 15 Mar 2015 16:41:12 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400e:c00::245 as permitted sender) client-ip=2607:f8b0:400e:c00::245;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400e:c00::245 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pf0-domain.com with SMTP id t124sf92481353pfb.1
+        for <user@domain.com>; Tue, 15 Mar 2015 16:41:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:From: Harrell Kirstein <hkirstein@hillaryclinton.com>
+         :subject:to:cc:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-unsubscribe;
+        bh=snXiJNZ2WrD6DwfQIVWbBHnx80Z9Xu0vI+3yEtDqwpQ=;
+        b=bLw9pmUF9fOn++NufedhkkbL9GUI9fETpmPB8in4b7AkP0ZWZFB4B62BMav5pv8+xY
+         mUJk0Xhg8bJtPgjzqwpErxRBQZM+JWp8jj60UASy7r04joDBd+cBP2/RaWAxLMv7pWzE
+         Obv0/eaG4OmMOAtexOoimbwRVJYjKXJKUZpd0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:from
+         :date:message-id:subject:to:cc:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=snXiJNZ2WrD6DwfQIVWbBHnx80Z9Xu0vI+3yEtDqwpQ=;
+        b=JXD9C09AOK43Uhta97v2sRmdc+dw3DT5JsTvwS1ocurlSuXUFfcZJ2aRY4tHPKyOax
+         f4V2UQ2kYYdB2LfNjnObln0pNyav9htYXOEFHWk75MR4a44VxTnaqpjXxgIoTRVh7p9Q
+         ElOSkXJia6OCWdI61RKCnFT1c8dGPr6dFOIuVxBGgAfzcW+7XXGu1qp5lKmGib4vt6u0
+         lA9EIE5m9UqsK/MJu/Rq7RnIy47RceeJwX7gLzrRh1cT6NdsWGOIksEQjy117UlksbAZ
+         arEDtUKlaXWEL5GhJuVKYwag9u2A3z2ucwyX43+fjd4I+IeDrlnPcxs+z4GXJuaTxazQ
+         Y2fQ
+Sender: user@domain.com
+X-Gm-Message-State: AD7BkJLQK79MJkwnmcJJYNvVhmHhzWz3PwMaS7IIOVjYtbjnw7AN+TrzP7tLs4hzD9u5Y4rK
+X-Received: by 10.98.42.67 with SMTP id q64mr580211pfq.9.1458085272556;
+        Tue, 15 Mar 2015 16:41:12 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.182.128.130 with SMTP id no2ls252594obb.92.gmail; Tue, 15 Mar
+ 2015 16:41:12 -0700 (PDT)
+X-Received: by 10.202.207.13 with SMTP id f13mr459384oig.44.1458085272143;
+        Tue, 15 Mar 2015 16:41:12 -0700 (PDT)
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::235])
+        by domain.com with ESMTPS id 3si277774oia.55.2016.03.15.16.41.12
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 15 Mar 2015 16:41:12 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::235 as permitted sender) client-ip=2607:f8b0:4003:c06::235;
+Received: by mail-oi0-domain.com with SMTP id m82so26052629oif.1
+        for <user@domain.com>; Tue, 15 Mar 2015 16:41:12 -0700 (PDT)
+X-Received: by 10.202.212.147 with SMTP id l141mr461524oig.58.1458085271933;
+ Tue, 15 Mar 2015 16:41:11 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.157.3.48 with HTTP; Tue, 15 Mar 2015 16:40:52 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+From: Harrell Kirstein <hkirstein@hillaryclinton.com>
+Date: Tue, 15 Mar 2015 19:40:52 -0400
+Message-ID: <CALr7Cn1+=user@domain.com>
+Subject: Re: HRC Op-Ed on Gun Violence
+To: Ben Krauss <user@domain.com>
+CC: Speech Drafts <user@domain.com>, 
+ Corey Ciorciari <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113d0d50afb0a1052e1eee55
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:4003:c06::235 as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+I like it.  Since it is the NYDN I think we should add the terrorist watch
+list piece.  I defer to you on where but we could stick at the end of this
+riff as a proof point against the NRA?
+
+I=E2=80=99ve been fighting for this issue for years.  So have families acro
+ss the
+country.  Still, the NRA and their allies in Congress have managed to block
+even the most commonsense reforms.
+
+---
+Harrell Kirstein
+user@domain.com
+609 915-5662 | @harrellkirstein
+

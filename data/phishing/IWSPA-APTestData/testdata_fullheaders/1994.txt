@@ -1,0 +1,67 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp678630lfr;
+        Thu, 23 Jul 2015 14:30:20 -0700 (PDT)
+X-Received: by 10.202.75.13 with SMTP id y13mr11362619oia.92.1437687019971;
+        Thu, 23 Jul 2015 14:30:19 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::22a])
+        by domain.com with ESMTPS id xf6si826724oeb.51.2015.07.23.14.30.19
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 23 Jul 2015 14:30:19 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22a as permitted sender) client-ip=2607:f8b0:4003:c01::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id w1so4727794obn.3
+        for <user@domain.com>; Thu, 23 Jul 2015 14:30:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+        bh=8AU9krQyFVH0nsaqlubXduetotjU/Zi8j9qV8I9Zan8=;
+        b=h8BHopWPc6Y2iSq+hPqjs0p3meY8P2UCNGAB6Lz68Mky++hjKaxWM+knCbf88Cg/1U
+         fPQcsg3q2HlntIRYHHQ9xv64TsN7MtswfsLKgOSqswrMe4lJIw81iUs7mqeiJY/zPyNg
+         8wKVmbJfbJjyFTogdAX/sj762Ya1CzT7nsrBE
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :content-type;
+        bh=8AU9krQyFVH0nsaqlubXduetotjU/Zi8j9qV8I9Zan8=;
+        b=gHc7OeTlVfDrErw95RzcojHvQ4FbPVkcSLaFWDEMJxXtntauJSHwgFyzm180/b75Ze
+         BQV/jT8BuCe+LIICkFGGFZSaUOPa+ubjV85SrD33iL4r2A92+ElbIGfd8rlhsO2Zbnv2
+         bznuG9D+bEoueNe2dJKALBYjNNl3vnDtvFXF8QCw9bEMZgsAPT9muPcldDPdmMbEzyXp
+         VjZVEEaZ80ny53954InSGdMJXKQOSyDqcEZRCz6Ff85t/w5plWZA1zkKHeORIi5ujrFK
+         Ti/6zIVQxWYcCQ5jjpNeSKyfnQ1twBIJORN7feFLNMY4kuMt/nWQ/FFD2Yzr4/r8Qogn
+         RycA
+X-Gm-Message-State: ALoCoQkrqH/b/MBHM0Ikan0pmbjXJXE+b0aWDjW86masT9HTp3QWbvvDJ/tG0/3MmlyhjE/PciaA
+MIME-Version: 1.0
+X-Received: by 10.202.226.196 with SMTP id z187mr11144004oig.128.1437687019165;
+ Thu, 23 Jul 2015 14:30:19 -0700 (PDT)
+Received: by 10.202.131.78 with HTTP; Thu, 23 Jul 2015 14:30:19 -0700 (PDT)
+Date: Thu, 23 Jul 2015 17:30:19 -0400
+Message-ID: <CAEMn5Qk5ae2XRAEVxAn3m+user@domain.com>
+Subject: Checked in for Jet Blue flight!
+From: Milia Fisher <mfisher@hillaryclinton.com>
+To: John user <user@domain.com>
+Content-Type: multipart/mixed; boundary=001a1141c5f013f453051b9198c7
+
+PDF attached as an FYI but you will have to print your actual boarding pass
+at the kiosk near checkin. Here are the details:
+
+*Boarding:*         7:16 pm
+*Departure:*        7:51 pm
+*Gate:  *               03
+*Flight: *              B6 81
+*Seat:*                 11D
+*Confirmation: *  YIOYBE
+
+Thanks!
+Milia
+
+-- 
+Milia Fisher
+Special Assistant to the Chair
+Hillary for America
+user@domain.com
+o: 646.854.1198 c: 858.395.1741

@@ -1,0 +1,63 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp68368lfb;
+        Fri, 13 Nov 2015 15:39:16 -0800 (PST)
+X-Received: by 10.112.188.168 with SMTP id gb8mr11779247lbc.6.1447457956332;
+        Fri, 13 Nov 2015 15:39:16 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-lf0-domain.com (mail-lf0-domain.com. [2a00:1450:4010:c07::22f])
+        by domain.com with ESMTPS id ze10si3047970lbb.169.2015.11.13.15.39.16
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 13 Nov 2015 15:39:16 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c07::22f as permitted sender) client-ip=2a00:1450:4010:c07::22f;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c07::22f as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lf0-domain.com with SMTP id 39so57904755lfs.3
+        for <user@domain.com>; Fri, 13 Nov 2015 15:39:16 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Marlon Marshall <mmarshall@hillaryclinton.com>
+         :cc:content-type:content-transfer-encoding;
+        bh=4mlKsknwgyabY9/M/947BmMW7yJmwtRDGYX4PQr72dc=;
+        b=InWW19INQs4F+WxE1G5hzoiEYsRACPo7nBW0dI1MXdkrYIUQagH1C7R01T/5poerVH
+         ZrMYbkTWB+RhiJtULIOVpQtPA+nFOqhXe0dV5hzuJJPvlrlNg1dsWBEBO2qBzBjS2MIR
+         zQivmO/1KiZ2ukh4AlkRE+cGquDTvuvNjBMF8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Marlon Marshall <mmarshall@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type:content-transfer-encoding;
+        bh=4mlKsknwgyabY9/M/947BmMW7yJmwtRDGYX4PQr72dc=;
+        b=h0pa0rsCTnI+cYGlKpKph1kn9D+lLUfc977EvAsggJVrPF7XuOrKVlS6H7TZR1ILPL
+         xECMcR+vaJsKUFgriIBtqhQgZyl3lIMLeJRpYbnyOepizntR0NtzrKNJybyhfLspdjJ6
+         MaGX0zO4i7aV6q94q+6oquTxcmOOcicGwua8agaUQVjejjPRhO46Vy0tBAboRctVgQIq
+         TIhJrEba55u97KnHkR2VhKUFfNPH5+x+qKEJlxfrFnTz/4d+G8Y+owhZhQUxf8edHHEI
+         n4k2hc/OOJ7acREH+Waty+nu0Xf8UMbcQZNm43Ez+3rwjfb6/fiw0ukYutFeHecq/vqS
+         egNw
+X-Gm-Message-State: ALoCoQnm4oQ1+iWXz8Vs//pY9EeH41NW6xQO95GQ82G5N3zwKPeeT7gTXlvEbBQV9dc8VUN759vw
+X-Received: by 10.25.143.82 with SMTP id r79mr11525114lfd.123.1447457956145;
+ Fri, 13 Nov 2015 15:39:16 -0800 (PST)
+From: Marlon Marshall <mmarshall@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CA+user@domain.com>
+ <-5671850335504856423@unknownmsgid>
+In-Reply-To: <-5671850335504856423@unknownmsgid>
+Date: Fri, 13 Nov 2015 18:39:15 -0500
+Message-ID: <4649362301480800558@unknownmsgid>
+Subject: Re: 1199SEIU
+To: Robby Mook <user@domain.com>
+CC: Nikki Budzinski <user@domain.com>, 
+ John user <user@domain.com>, 
+ Heather Stone <user@domain.com>, 
+ Amanda Renteria <user@domain.com>, 
+ Sara Latham <user@domain.com>, 
+ Jesse Ferguson <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Important to note that no mention of $15 came from George or anyone at
+1199 when they met with her.
+
+Nikki, pls pass along updates as you get and what we need to do
+

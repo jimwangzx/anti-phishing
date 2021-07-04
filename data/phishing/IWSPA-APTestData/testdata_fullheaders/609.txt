@@ -1,0 +1,80 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp1465748lfy;
+        Sun, 17 Jan 2015 08:59:09 -0800 (PST)
+X-Received: by 10.140.175.7 with SMTP id v7mr27778690qhv.103.1453049949290;
+        Sun, 17 Jan 2015 08:59:09 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::264])
+        by domain.com with ESMTPS id s5si25901345qhc.29.2016.01.17.08.59.09
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 17 Jan 2015 08:59:09 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::264 as permitted sender) client-ip=2607:f8b0:400d:c04::264;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::264 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: by mail-qg0-domain.com with SMTP id i20so48563424qgd.2
+        for <user@domain.com>; Sun, 17 Jan 2015 08:59:09 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=mcguirewoods-domain.com; s=20150623;
+        h=From: "Hodges, James H." <jhodges@mcguirewoods.com>
+         :references:in-reply-to:accept-language:content-language
+         :content-type:content-transfer-encoding:mime-version;
+        bh=Ay5jUQv32KcszBru5GcxZsV2MLqlLySaCQbIbD4Qh/M=;
+        b=AKe1wNnW0ORGCLmfewzxfBNdp8xlkBMsGlXzEN1CsjujmU02xCOhkG3u05hxYw+SbC
+         2awTifoKP2aXn+lsMGFAsNwItH07B5QUuUDoLL+7rooD0d8oLNyHji7qxKRlH8dOHz3M
+         kZitDOyWR/4QwkL58IB/xj08BxWwnrKk+TyJ7agjEv0QbOTcmoAy9kW9MQRJjj6rTE9B
+         uEghLdyxAqLv2NFG2DZ1bXe2Ci70ZDZ6NubxpfxjzlgNhUZcdFeKwgy0xcwzNPyCYMrT
+         3gAKPhuJ2pqjdPooY0XjdQLodDc5jq0jVXav/mecWs5JkovDpW09/ocKXay73TaooENH
+         3qgw
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: "Hodges, James H." <jhodges@mcguirewoods.com>
+         :date:message-id:references:in-reply-to:accept-language
+         :content-language:content-type:content-transfer-encoding
+         :mime-version;
+        bh=Ay5jUQv32KcszBru5GcxZsV2MLqlLySaCQbIbD4Qh/M=;
+        b=lfi+8h1d4v6c+PvO036W6cm98wVfBVXs0ddVGaK62sF1i7ax73Q6QYMWKz7KhEfu70
+         yBJaqk02nO2ew4btJiMFuaLqXjHHjtGKAtRE6mcPTWSegDqfww5XTGSDWCWznZTsFVj5
+         J9mKpiXgq2Awnc+u/kMIfMJm9UTwpffpuPy35e+6k0r102A3A5sRH70KBjAjde5JCupY
+         5VZ8RQPDTrXAeYUzkZj55IwJiOaH1LoghLkTZ3wlEDKkJzE3kYosoAytkdHLt2/a8NvI
+         40dL6FtAjS1GgROKUT95YKBoT9jkG4w3xO2PWq30KpAKBiHPHHamRZWuPKm4DJ3U+LDW
+         c12w
+X-Gm-Message-State: ALoCoQkvQvwwC+WoLjbSmS9Bi8pbwNA6G1AhJWA3YbYjMvEPQJpfQp/eIgM0E4xwQgHPPg/KAHK64h3vPeO3aJL9rqSZLc5QEOQlW1KRMehQQ9xAFjHJH2M
+X-Received: by 10.140.29.202 with SMTP id b68mr26066112qgb.100.1453049949056;
+        Sun, 17 Jan 2015 08:59:09 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mcguirewoods.com ([128.136.130.44])
+        by smtp-domain.com with ESMTPS id g133sm2863153qkb.1.2016.01.17.08.59.08
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Sun, 17 Jan 2015 08:59:09 -0800 (PST)
+X-Relaying-Domain: mcguirewoods.com
+Received: from mail.mcguirewoods.com (rdchtcas2-v.mwllp.dom [172.16.1.52]) by adcdlpintercept2-v.mwllp.dom (RSA Interceptor); Sun, 17 Jan 2015 11:59:00 -0500
+Received: from RDCMBX3.mwllp.dom ([fe80::f1ba:2503:d9fc:27f0]) by
+ RDCHTCAS2-V.mwllp.dom ([fe80::a84a:c38b:686c:d813%13]) with mapi id
+ 14.03.0181.006; Sun, 17 Jan 2015 11:59:00 -0500
+From: "Hodges, James H." <jhodges@mcguirewoods.com>
+To: Robby Mook <user@domain.com>
+CC: John user <user@domain.com>
+Subject: Re:
+Thread-Topic: Re:
+Thread-Index: AdFRNyTt2zyZPPbiSG6j5+8MVAkCrwAKrMyA///NCFw
+Date: Sun, 17 Jan 2015 16:59:00 +0000
+Message-ID: <54user@domain.com>
+References: <user@domain.com>,<-8850858638377121687@unknownmsgid>
+In-Reply-To: <-8850858638377121687@unknownmsgid>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-RSA-Inspected: yes
+X-RSA-Classifications: public
+X-RSA-Action: allow
+
+I think so. It would boost your margins.
+
+Sent from my iPhone
+

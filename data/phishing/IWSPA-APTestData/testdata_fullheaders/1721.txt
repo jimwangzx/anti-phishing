@@ -1,0 +1,94 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 8 Jul 2015 09:02:14 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s68G2DXK017082	for <user@domain.com>; Tue, 8 Jul 2015 
+ 16:02:13 GMT
+Received: from mail22-co9-domain.com (mail-domain.com [207.46.163.21])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s68FujBC021005	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 8 Jul 2015 15:56:46 GMT
+Received: from mail22-co9 (localhost [127.0.0.1])	by mail22-co9-domain.com
+ (Postfix) with ESMTP id 792734C09EC	for <user@domain.com>; Tue,  8
+ Jul 2015 16:02:12 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.15.215.103;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z59c9h3e12hzc89bhe0eahc857h77f5h168aJdf7Izz1f42h1ee6h1de0h21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch1fdahzebhz1de098h1def03h17326ah172cdfh1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h186068h1b778fh1ce120h1ce121i1df151i1df123iz2fheh5fh839h8e2h8e3h10d2h1288h12a5h137ah13eah1441h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h282bh28a1h298fh29d0h2a24h2b05hbe9i214ai)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail22-co9: domain of em-sj-77.domain.com designates 199.15.215.103 as permitted sender) client-ip=199.15.215.103; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail22-co9 (localhost.localdomain [127.0.0.1]) by mail22-co9
+ (MessageSwitch) id 1404835329148116_5169; Tue,  8 Jul 2015 16:02:09 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.241])	by
+ mail22-domain.com (Postfix) with ESMTP id A5E8C14008B	for
+ <user@domain.com>; Tue,  8 Jul 2015 16:02:07 +0000 (UTC)
+Received: from domain.com (199.15.215.103) by domain.com
+ (10.236.130.15) with Microsoft SMTP Server id 14.16.227.3; Tue, 8 Jul 2015 
+ 16:02:07 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=citrix.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1404835326;
+	h=From: "Christine Danh, Citrix" <cdanh@citrix.com>
+	bh=h2VuZgBcC9iWH0FSInne5IRlRrsd38OVDJlUZ9YGhRs=;
+	b=ZmIJiG871TKrA71cCTPlm0tzRHQpPbP7oN0exPR91PL+Eo8jyHcvCehqo95GKbMn
+	Q9lAHxBwvpw3CaR4HLfZdHpXGZvSheFOVSeCFyuFVtO6uNWOb0m2ml21uLWTaEBj
+	JnBU35wqAF8xBH3dtIgv8AHpNVZBfOJDC4r/Ohu2lA4=;
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AZHZwLTE5OS0xNS0yMTUtMTAzQGJnLXNq
+	ZC0xM0A0MDMtQUdGLTkyMDoyNDQ2ODoyNjk3MToxMTY5NDQ6MDoyODczNzo3Ojcy
+	MzY3Njg
+Received: from [10.0.12.42] ([10.0.12.42:43894] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity 3.5.0.35861
+ r(Momo-dev:tip)) with ESMTP	id B2/7E-62997-EF51CB35; Tue, 08 Jul 2015 
+ 11:02:06 -0500
+Date: Tue, 8 Jul 2015 11:02:06 -0500
+From: "Christine Danh, Citrix" <cdanh@citrix.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <1740641477.301495402.1404835326890.user@domain.com>
+Subject: =?UTF-8?Q?The_Power_of_Introverts_in_a_?
+ =?UTF-8?Q?World_That_Can=E2=80=99t_Stop_Talking?
+X-Report-Abuse: Please report abuse here: <<link>>
+X-PVIQ: 000326-001277-000001-000000-052726
+X-Binding: bg-sjd-13
+X-MarketoID: 403-AGF-920:24468:26971:116944:0:28737:7:7236768
+List-Unsubscribe: <mailto:user@domain.com>
+X-MailFrom: "Christine Danh, Citrix" <cdanh@citrix.com>
+Return-Path: 403-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+The Power of Introverts in a World That Can’t Stop Talking
+
+To view this email as a web page, click here     
+
+ <<link>>      
+
+ <<link>>      logo     
+
+Questions? 1 800 372 6207         <<link>>     
+
+ <<link>>       
+
+ <<link>>      
+
+ <<link>>      
+
+ <<link>>    
+
+ <<link>>      Introverts: Why do we need a Quiet Revolution?    <<link>>     
+
+ <<link>>      
+
+ <<link>>      
+
+ <<link>>      Register for the complimentary webinar    <<link>>     
+
+ <<link>>      
+
+ <<link>>      Amy,
+
+Nearly half the world's population are introverts, but most workplaces are still designed and managed according to the Extrovert Ideal. This blocks communication, stunts creativity and decreases productivity.
+
+Join Susan Cain, co-founder of Quiet Revolution LLC and bestselling author of Quiet: The Power of Introverts in a World That Won't Stop Talking, where she will share specific strategies for creating a workplace that harnesses the natural strengths of introverts while respecting all communication styles. Specific questions addressed will i
+

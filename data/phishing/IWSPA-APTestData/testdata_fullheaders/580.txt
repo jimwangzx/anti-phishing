@@ -1,0 +1,77 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.31 with SMTP id o31csp59302lfi;
+        Wed, 4 Mar 2015 11:39:49 -0800 (PST)
+X-Received: by 10.55.41.99 with SMTP id p96mr10229809qkh.98.1425497988439;
+        Wed, 04 Mar 2015 11:39:48 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.75])
+        by domain.com with ESMTPS id 83si4240175qhx.64.2015.03.04.11.39.47
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 04 Mar 2015 11:39:48 -0800 (PST)
+Received-SPF: neutral (domain.com: 65.55.169.75 is neither permitted nor denied by domain of user@domain.com) client-ip=65.55.169.75;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 65.55.169.75 is neither permitted nor denied by domain of user@domain.com) user@domain.com
+Received: from domain.com (25.160.63.155) by
+ domain.com (25.160.125.24) with Microsoft SMTP
+ Server (TLS) id 15.1.99.9; Wed, 4 Mar 2015 19:39:46 +0000
+Received: from domain.com ([25.160.63.155]) by
+ domain.com ([25.160.63.155]) with mapi id
+ 15.01.0099.004; Wed, 4 Mar 2015 19:39:46 +0000
+From: Nick Merrill <nmerrill@hrcoffice.com>
+To: John user <user@domain.com>, Philippe Reines <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Robert Mook <user@domain.com>
+Subject: Re: Just the messenger
+Thread-Topic: Just the messenger
+Thread-Index: AQHQVqt8pUjVI1FdDU6wMynDPevwJ50MZL0A
+Date: Wed, 4 Mar 2015 19:39:46 +0000
+Message-ID: <D11CC9A8.ED2F2%user@domain.com>
+References: <user@domain.com>
+ <user@domain.com>
+In-Reply-To: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+user-agent: Microsoft-MacOutlook/14.4.8.150116
+x-originating-ip: [108.176.7.18]
+authentication-results: domain.com; dkim=none (message not signed)
+ header.d=none;
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY2PR0301MB0614;
+x-microsoft-antispam-prvs: <user@domain.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(5005006);SRVR:BY2PR0301MB0614;BCL:0;PCL:0;RULEID:;SRVR:BY2PR0301MB0614;
+x-forefront-prvs: 0505147DDB
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(377454003)(22974006)(46102003)(107886001)(87936001)(99286002)(106116001)(86362001)(83506001)(2656002)(92566002)(16236675004)(2950100001)(76176999)(102836002)(66066001)(19580405001)(62966003)(77156002)(40100003)(450100001)(54356999)(50986999)(19580395003)(36756003)(2900100001)(122556002);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR0301MB0614;H:domain.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+Content-Type: multipart/alternative;
+	boundary="_000_D11CC9A8ED2F2nmerrillhrcofficecom_"
+MIME-Version: 1.0
+X-OriginatorOrg: hrcoffice.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 04 Mar 2015 19:39:46.0424
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: cd8891aa-8599-4062-9818-7b7cb05e1dad
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR0301MB0614
+
+Thank you.
+
+From: Nick Merrill <nmerrill@hrcoffice.com>
+Date: Wednesday, March 4, 2015 at 1:46 PM
+To: Philippe Reines <user@domain.com<mailto:user@domain.com>>, NSM <nme
+user@domain.com<mailto:user@domain.com>>, Jennifer Palmieri <jen
+user@domain.com<mailto:user@domain.com>>, Robby Mo
+ok <user@domain.com<mailto:user@domain.com>>
+Subject: Fwd: Just the messenger
+
+---------- Forwarded message ----------
+From: Nick Merrill <nmerrill@hrcoffice.com>
+Date: Mar 4, 2015 1:23 PM
+Subject: Just the messenger
+To: "User" <user@domain.com<mailto:user@domain.com>>
+Cc:
+
+Andrea Mitchell took me aside for 3 minutes to complain when story broke on
+ Monday night she was prepping for Netanyahu but she couldn't get any respo
+nse til 6:45 am when morning shows had already decided to lead.
+
+Not sure who to give this to, but don't yell at me.

@@ -1,0 +1,123 @@
+Delivered-To: user@domain.com
+Received: by 10.100.255.16 with SMTP id c16cs45079ani;
+        Wed, 27 Feb 2015 15:54:10 -0800 (PST)
+Received: by 10.142.229.4 with SMTP id b4mr5913381wfh.118.1204156449986;
+        Wed, 27 Feb 2015 15:54:09 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from hs-out-0708.domain.com (hs-out-0708.domain.com [64.233.178.246])
+        by domain.com with ESMTP id 22si15664783wfi.12.2008.02.27.15.54.08;
+        Wed, 27 Feb 2015 15:54:09 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.233.178.246 as permitted sender) client-ip=64.233.178.246;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 64.233.178.246 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by hs-out-0708.domain.com with SMTP id j58so2166861hsj.10
+        for <user@domain.com>; Wed, 27 Feb 2015 15:54:08 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=gamma;
+        h=domainkey-signature:received:received:reply-to:From: "Tom Matzzie" <tom@zzranch.com>
+        bh=MCeBWC1MynEz2OOi9Ykl/WycEm2WyH6+g2ivUiJfahI=;
+        b=Gbn6Dhct+tlAUtbMNJ2vWv7I+0e5zV2D+sAZTcrE6MmrHzhmnl6LysVb88j6sKibjmPWmZQwf9XaKvYC1cJxrrLQgBCyAJyxnFmUA1aRnVw5RA6W7yS5oGoEva7JIaYsXtcZ0JnVyd2Hgvgh+tQ/OosSRcJb2Xy46n01jM9VoSE
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=gamma;
+        h=reply-to:From: "Tom Matzzie" <tom@zzranch.com>
+        b=KdjETmQTtmuNjQ5/j8Da/SltvP0y0+Fetl8TjFNVMNyzKIRvEkmZU3tVB7h7l21umUgrWL7bdlEyKQSLcVlk1vJYzX41IcSXggxdxI902MwD6m+gm3DgJtMZoimaUBO5avpgaBPKVwnP/+HYH4OnYGG7Kp7/VskIStND0J3ZO6s
+Received: by 10.100.47.13 with SMTP id u13mr13424319anu.16.1204156442862;
+        Wed, 27 Feb 2015 15:54:02 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from bigdellPC ( [74.211.201.2])
+        by domain.com with ESMTPS id 24sm13196220wrl.35.2008.02.27.15.53.57
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 27 Feb 2015 15:54:02 -0800 (PST)
+Reply-To: <user@domain.com>
+From: "Tom Matzzie" <tom@zzranch.com>
+To: user@domain.com
+Subject: Join the "Big Campaign"
+Date: Wed, 27 Feb 2015 18:53:52 -0500
+Message-ID: <008b01c8799c$047e6330$0d7b2990$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_008C_01C87972.1BA85B30"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Ach5nAAEZ6IHQQTbTnifCDeCOWEMHQ
+Content-Language: en-us
+Sender: Tom Matzzie <user@domain.com>
+
+Dear Friends,
+
+
+
+
+I'm writing to invite you to join the "Big Campaign" Google Group email
+list. 
+
+
+
+
+The list is unofficial-it doesn't belong to any group or organization. It is
+a place to share with other progressives who are doing messaging,
+communications and press or public outreach around the 2015 
+election-including messaging about John McCain. 
+
+
+
+
+This list is only for people doing Independent work (PACs, unions, 527s,
+c4s). No parties or their committees. No candidates or their committees.
+
+
+
+
+On a typical day somebody might send around press clips, breaking news, an
+invitation to a poll briefing by their organization, circulate oppo research
+tidbits or a link to a video clip. Email traffic could be as few as 2-3
+messages a day or as many as 10-12 emails. This is not a discussion list-it
+is for announcements.
+
+
+
+
+List members include campaigners from different groups, union political
+staff, communications and press staff, researchers, the staff of the
+Campaign to Defend America and people involved work at the national level
+and at the state and local level.
+
+
+
+
+There are two ways to join.
+
+
+
+
+1.	If you're new to Google Groups you can send an email to Ryan Duncan
+and request to join the Big Campaign list. His email is
+user@domain.com and phone is 202-609-7682
+
+
+
+
+2.	Or, if you're already on another GoogleGroup you can email: 
+
+user@domain.com and easily join.
+
+
+
+
+IMPORTANT: feel free to invite your colleagues and collaborators.
+
+
+
+
+I look forward to seeing you on the list.
+
+
+
+
+Warm Regards,
+
+
+
+
+Tom Matzzie
+
+
+

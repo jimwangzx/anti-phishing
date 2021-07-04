@@ -1,0 +1,44 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.71 with SMTP id o68csp905086lfi;
+        Sun, 8 Mar 2015 09:08:00 -0700 (PDT)
+X-Received: by 10.107.167.145 with SMTP id q139mr41746921ioe.16.1425830879851;
+        Sun, 08 Mar 2015 09:07:59 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::22f])
+        by domain.com with ESMTPS id hy7si8607614icc.71.2015.03.08.09.07.59
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 08 Mar 2015 09:07:59 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22f as permitted sender) client-ip=2607:f8b0:4001:c05::22f;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22f as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ig0-domain.com with SMTP id z20so12207460igj.4;
+        Sun, 08 Mar 2015 09:07:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Robby Mook <robbymook2015@gmail.com>
+        bh=K+lqo+6+ksP/Fvv6AH5FRSBV8GK3KhS2HAHTqcN94Fo=;
+        b=aOg+nsCzUW9n8a5D/TDbKx413ShKS+4DVNDJW9DImaiJAHB+ox5ZIQb2AQ3OC6B3Oe
+         Wwrd+nmib7c1F6WQb29HMQmyvYB91HWn6k85sJpDeFhZoQlC6e9Hz1QHxObdXjtuFRK1
+         RVGiRDrWG3/Dh09j9xWhCfLDNqaxKOQ7ja5udDbbdRlDopYFyZJ5fz62qYti/Ib7x+Lm
+         oFIjvgRQnKCuZz7+3Iap6v/GOQXZlwekLr91f5SJr3MynnnsGzT/crFA4gLekKA8hSut
+         JncgRm7xiwogsMkxKkpkjmlNp1bRaJ3mDXscMZ0PDXMalyi2Cut33Redw1lxLsChrwCj
+         jlnA
+MIME-Version: 1.0
+X-Received: by 10.107.133.16 with SMTP id h16mr1672189iod.31.1425830879139;
+ Sun, 08 Mar 2015 09:07:59 -0700 (PDT)
+Received: by 10.64.20.225 with HTTP; Sun, 8 Mar 2015 09:07:59 -0700 (PDT)
+Date: Sun, 8 Mar 2015 12:07:59 -0400
+Message-ID: <CAB5o6bbZ4_sOZBhiY8ZhmenK5LjJLD9+user@domain.com>
+Subject: Call today
+From: Robby Mook <robbymook2015@gmail.com>
+To: Cheryl Mills <user@domain.com>, John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113f9a3a0f9d540510c91fdc
+
+Charlie and Elias are ready to do a call anytime today and I think we can
+do it fairly quickly.
+John, I know you're out of pocket all day tomorrow, so I'd like to get this
+done today.
+What time is best?  I'll move my other meetings to accommodate your
+schedules because I know you guys are busy.

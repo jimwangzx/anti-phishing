@@ -1,0 +1,202 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Fri, 17 Oct 2015 15:45:03 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 0B3D160063	for
+ <user@domain.com>; Fri, 17 Oct 2015 14:28:23 +0100 (BST)
+Received: by domain.com (Postfix)	id 766872BC031; Fri, 17 Oct 2015 
+ 15:45:03 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 6C4AC2BC02E	for
+ <user@domain.com>; Fri, 17 Oct 2015 15:45:03 +0200 (CEST)
+X-ASG-Debug-ID: 1413553501-066a754d1b2f360001-Aet2rw
+Received: from domain.com (domain.com
+ [37.148.183.115]) by domain.com with ESMTP id YHHAIdHCYgSN5t6C for
+ <user@domain.com>; Fri, 17 Oct 2015 15:45:01 +0200 (CEST)
+X-Barracuda-Envelope-From: NH Hotels <info@news.nh-hotels.com>
+X-Barracuda-Apparent-Source-IP: 37.148.183.115
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=news.nh-domain.com; s=sim; x=1414158313;
+	user@domain.com; h=message-id:From: NH Hotels <info@news.nh-hotels.com>
+	reply-to:list-unsubscribe:mime-version:content-type; bh=e6Ceu/Wo
+	5UjRrY4z+9X4Qvckom26S/YI4QArO0rVj7o=; b=1de/GhJ4VaggNiBAAioIK+vK
+	F/RAR2JEaaC88WU2F9IFbuva6Mc708Fk1juzbnXg3mSSYDg9ic9OyMPb+mMKPhyD
+	hWA59blE6Ig6zKiPm650SZ5iYxLPX0LGiwqxUiar
+Message-ID: <1user@domain.com>
+From: NH Hotels <info@news.nh-hotels.com>
+To: <user@domain.com>
+Subject: New NH Collection Eurobuilding. A place to feel unique.
+Date: Fri, 17 Oct 2015 13:45:13 +0000
+X-ASG-Orig-Subj: New NH Collection Eurobuilding. A place to feel unique.
+Reply-To: NH Hotels <user@domain.com>
+X-GRID-REF: 8A66B7582E9A48E5AC85DC32E810B6FA.1pybjVXpuE8gtcmkTOdS596sjVyRjJd7uf11111x
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com?subject=UNSUB.8A66B7582E9A48E5AC85DC32E810B6FA.1pybjVXpuE8gtcmkTOdS596sjVyRjJd7uf11111x>
+X-MA-Reference: SIM_1C21tlrjNn5TAFS2HYK_gKRGNoIXaw3O8ye6HxNQqfFVP3g1s
+X-MA-Instance: SIM_1C21tlrjNn5TAFS2HYK_gKRGNoIXaw3O8ye6HxNQqfFVP3g1s.ea44d75892544957112cf3b0ede2a842
+X-Barracuda-Connect: domain.com[37.148.183.115]
+X-Barracuda-Start-Time: 1413553501
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.10674
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1505733112_-_-"
+
+New NH Collection Eurobuilding. A place to feel unique.
+
+div, p, a, li, td { -domain.com-text-size-adjust:none; }
+	.ReadMsgBody {width: 100%; background-color: #ffffff;}
+	.ExternalClass {width: 100%; background-color: #ffffff;}
+	body	 {width: 100%; background-color: #ffffff; margin:0; padding:0; -domain.com-font-smoothing: antialiased;font-family: Georgia, Times, serif; font-size:11px;}
+	table {border-collapse: collapse;}
+	.textFooter{}
+p {margin-bottom:0; margin:0}
+* {mso-line-height-rule: exactly; line-height:122% !important;}
+td .price{text-align:center;}
+.degradado{background: #149ed7; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE0NDU3MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxNGE2ZTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(left,  #144572 0%, #14a6e0 100%); /* FF3.6+ */
+background: -domain.com-gradient(linear, left top, right top, color-stop(0%,#144572), color-stop(100%,#14a6e0)); /* Chrome,Safari4+ */
+background: -domain.com-linear-gradient(left,  #144572 0%,#14a6e0 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #144572 0%,#14a6e0 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #144572 0%,#14a6e0 100%); /* IE10+ */
+background: linear-gradient(to right,  #144572 0%,#14a6e0 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#144572', endColorstr='#14a6e0',GradientType=1 ); /* IE6-8 */
+}
+.im {color: #000000;}/*Eliminar letras en morado en Gmail-dejar con el .*/			
+	@media only screen and (max-width: 479px) {
+					body[yahoo] .deviceWidthText {width:95% !important;}
+					body[yahoo] .deviceWidth {width:100%!important; padding:0;}
+body[yahoo] .deviceWidtht {width:100%!important;}	
+					body[yahoo] .center {text-align: center!important; padding-top:10px; padding-left:0 !important; padding-right:0 !important}
+					body[yahoo] .center2 {text-align: center!important; padding-left:0 !important; padding-right:0 !important}
+					body[yahoo] .deviceWidth .apps_social{width:95%!important;}
+					body[yahoo] table.apps{margin-top:10px; clear:both;}
+					body[yahoo] table.social{width:100%!important;}
+					[class=boton]{width:150px; padding-bottom: 15px; margin: auto !important;;}
+[class=delete]{display:none;}
+					[class=especial]{width:137px; text-align: center!important;}
+[class=HeaderText]{height:70px !important; text-align:center; padding:10px 0 0 0 !important;}	
+img[class=banner] {width: 100%!important;height:auto!important;}
+img[class=banner2] {width: 100%!important;height:auto!important; padding-bottom:10px;}
+#delete{display:none;}
+[class=btn]{height:40px !important;}
+[class=mintext]{dislplay:none;}
+[class=logo_d]{display:none; }
+[class=logo_r]{display:block;}
+[class=col1]{width:45%;}
+[class=col2]{witdth: 38%;}
+[class=col4]{height:33px; width: 45%;}
+[class=pad]{padding-right:0 !important;}
+[class=space]{display:none;}
+[class=textExp]{height:50px;}
+[class=textExp2]{height:65px;}
+[class=textN]{font-size:14px !important;}
+[class=footerL]{padding-top:15px !important; padding-bottom:15px !important;}
+
+img[id=mainImage] {display: none !important;}
+span[id=img1] {
+      display:block;
+      background-image: url(<<link>>) !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      width: 300px !important;
+      height: 123px !important;
+    }
+
+
+
+	span[id=img2] {
+      display:block;
+      background-image: url(<<link>>) !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      width: 300px !important;
+      height: 123px !important;
+    }
+
+
+
+span[id=img3] {
+      display:block;
+      background-image: url(<<link>>) !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      width: 300px !important;    
+  height: 123px !important;
+    }
+
+
+
+	span[id=img4] {
+      display:block;
+      background-image: url(<<link>>) !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      width: 300px !important;
+      height: 123px !important;
+    }
+
+
+
+	span[id=img5] {
+      display:block;
+      background-image: url(<<link>>) !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      width: 300px !important;    
+  height: 123px !important;
+    }
+
+
+
+	span[id=img6] {
+      display:block;
+      background-image: url(<<link>>) !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      width: 300px !important;
+      height: 119px !important;
+    }
+}
+
+@media only screen and (max-width: 454px) {
+	img.separador_logos{
+		display:none;	
+	}	
+	.webversion td.description{
+		display:none;	
+	}
+	.webversion td{
+		width:100%!important;	
+	}
+	.legal{
+		font-size: 8px!important;	
+	}
+}
+
+@media only screen and (max-width: 365px) {
+	img.separador_logos{
+		display:none;	
+	}	
+	img.margin_minus{
+		margin-top:-5px!important;
+		margin-bottom:-5px!important;
+	}
+}
+
+Feel the extraordinary. The new NH Collection Eurobuilding is bornHome | Web version New NH Collection Eurobuilding A place to feel uniqueThe new NH Collection Eurobuilding is bornas one of the most relevant hotels in Europe. Its design, innovation, technology, and gastronomy make of this place an unique meeting point in the city. A unique destination in Madrid.  feel it NH Collection Eurobuilding is part of NH Collection, an assemblage of hotels that brings you closer to the extraordinary.     © 2015 NH Hotel Group. Over 375 Hotels in 28 countries. Discover the NH Rewards benefits | Business Travel - Benefits & SolutionContact us |  Legal Notices | Info: +44 (0)870 80 75 202If you no longer wish to receive emails with information about NH Hotel Group,  click here to unsuscribeIf this was forwarded to you by a friend, or if you haven't signed up for NH Hotel Group's promotions yet,  subscribe now

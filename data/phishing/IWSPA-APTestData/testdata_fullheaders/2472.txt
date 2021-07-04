@@ -1,0 +1,86 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 29 Oct 2015 09:05:17 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id r9TG5Gr0018092	for <user@domain.com>; Tue, 29 Oct 2015 
+ 16:05:16 GMT
+Received: from mail14-am1-domain.com (mail-domain.com
+ [213.199.154.201])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id r9TG5Fls007993
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 29 Oct 2015 16:05:16 GMT
+Received: from mail14-am1 (localhost [127.0.0.1])	by mail14-am1-domain.com
+ (Postfix) with ESMTP id 1B5E5E027E	for <user@domain.com>; Tue, 29 Oct
+ 2015 16:05:15 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:64.34.57.228;KIP:(null);UIP:(null);SRV:BULK;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(zzc545Ic89bhc857hdbb0izz1f42h208ch1ee6h1de0h1fdah2073h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h177df4h17326ah8275bh1bc7b9h8275dh1def03h2ba5I1de097h1de096h186068h172c6ch1ce120h1a691ciz2fheh5fh839h8aaha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail14-am1: domain of domain.com designates 64.34.57.228 as permitted sender) client-ip=64.34.57.228; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail14-am1 (localhost.localdomain [127.0.0.1]) by mail14-am1
+ (MessageSwitch) id 1383062713862707_4236; Tue, 29 Oct 2015 16:05:13 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.252])	by
+ mail14-domain.com (Postfix) with ESMTP id CFA1E320053	for
+ <user@domain.com>; Tue, 29 Oct 2015 16:05:13 +0000 (UTC)
+Received: from mx-domain.com (64.34.57.228) by domain.com
+ (10.3.207.153) with Microsoft SMTP Server id 14.16.227.3; Tue, 29 Oct 2015 
+ 16:05:13 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1383062687;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=pWlYK9nvNjCJlbE1QCVhW4/X0ASeg4lD+RxSQ1AcLsw=;
+	b=XkcDmUJ0lTKlhCabIn5Rvr4pyKzmkhAIIpQ+Yfyccy1uHDwzH33TW2n3212W+vrp
+	OWOtgmBkm94lKdCX+nT2e+E48DRL2giDhIXQP40H5nscZqC9hbAmr5u9/L16/ayqjGf
+	MmX934w+kXcm9Rffijtxx6TC3zAB2Rn7cinxMURQ
+Date: Tue, 29 Oct 2015 12:04:47 -0400
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20131029160447.2009242.20856@domain.com>
+Subject: Steve McQueen Moves Into TV with a Drama Set at HBO
+Precedence: bulk
+X-TM-ID: 20131029160447.2009242.20856
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 64.34.57.228
+X-IADB-IP-REVERSE: 228.57.34.64
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2009242
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Steve McQueen Moves Into TV with a Drama Set at HBO
+
+With his recent film "12 Years A Slave" garnering critical acclaim, director Steve McQueen is no... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Tuesday, October 29, 2015       
+
+​ 
+
+<<link>> 
+
+        Steve McQueen Moves Into TV with a Drama Set at HBO             
+
+        With his recent film "12 Years A Slave" garnering critical acclaim, director Steve McQueen is now eying the small screen for one ...            
+
+        Full Story              
+
+
+
+
+Subscribe to Other Variety Newsletters   
+

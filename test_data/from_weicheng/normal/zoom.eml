@@ -1,0 +1,66 @@
+Delivered-To: weicheng@edison.tech
+Received: by 2002:a0c:c44a:0:0:0:0:0 with SMTP id t10csp3529519qvi;
+        Mon, 24 Feb 2020 18:17:03 -0800 (PST)
+X-Google-Smtp-Source: APXvYqwSsSREg6s9qfFS5UtNJXwq7QJkzJ53YYG7clOMwCl0TkBpVlSSJQClRwq4kUvDXhxE7AkX
+X-Received: by 2002:a81:92ce:: with SMTP id j197mr45080330ywg.493.1582597023520;
+        Mon, 24 Feb 2020 18:17:03 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1582597023; cv=none;
+        d=google.com; s=arc-20160816;
+        b=La2bCqtwY3XHYGoANmwwDkRxaHmbufAGXgnRMzrh7MvuYi8d7+3ldvFjjW4zJQZZ98
+         s4G8zBN216h6rgLtS2u6OFg/8bSXgUoMrEgs9YvHKkNXrDYJO8FCgKIr+brCWCmp8baG
+         MDpwdI57V9c3dUzLHbnUqywnApSoWZHRWV5ZRLw054o8BuwNsupL+MVWd0Hr2hIhsDlY
+         hbSH34N2wI70d/WDh61XdlO8oNo+G6KfOltPcjrigzo0aZves0DdRJruqfn4by5yiojF
+         NemBkg+XE0FI6tiRzkv/vJjUT7IOFXC1PtyVz0IRiYPo+mRlgMZCY1kex5K9a+jFrpmA
+         11/g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:date:message-id:to:reply-to
+         :subject:from:dkim-signature:dkim-signature;
+        bh=96qpA3vv1P4KxLjtjk4MfmdaS3g7aD2BQtOvltzneyE=;
+        b=d8irJmi5c/fidxt0+t+WZq+gjHaQMosH6txFGCSUwDMHMmVvq6Cyb4Km6AbzQY9HBl
+         MC8RI08oaxYhZoCF5tC+614j3RhM9XnY9yN8nqfV+jlMdomojNk/TFsyoihe+KDD1S3B
+         0GkXLTeMzwC+wzBpxaSzPuMscsFhzfGP1tCOONpcRBXUf1cqAfP2Yw6UhMcuLF0GsCCG
+         uCzKTSmr1NRjnM+qr9ETbAsGATlcDLuqYOhZqw1eVROiC3XfoU1oOIyj1tf9bAI30od5
+         jrpckuyjsIQ02fJTZre0aed0IBh701chk5sDKCQipCua7/7GsyEqQiEoJg0tULaq+iS4
+         QMFA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@zoom.us header.s=mandrill header.b=bcQ4YHX7;
+       dkim=pass header.i=@mandrillapp.com header.s=mandrill header.b=ODOvCLPr;
+       spf=pass (google.com: domain of bounce-md_30854053.5e54839e.v1-a98dbf8833f549a495529fb01fe0213d@mandrillapp.com designates 198.2.179.86 as permitted sender) smtp.mailfrom=bounce-md_30854053.5e54839e.v1-a98dbf8833f549a495529fb01fe0213d@mandrillapp.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=zoom.us
+Return-Path: <bounce-md_30854053.5e54839e.v1-a98dbf8833f549a495529fb01fe0213d@mandrillapp.com>
+Received: from mail179-86.suw41.mandrillapp.com (mail179-86.suw41.mandrillapp.com. [198.2.179.86])
+        by mx.google.com with ESMTPS id x130si6270658ywx.141.2020.02.24.18.17.02
+        for <weicheng@edison.tech>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 24 Feb 2020 18:17:03 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-md_30854053.5e54839e.v1-a98dbf8833f549a495529fb01fe0213d@mandrillapp.com designates 198.2.179.86 as permitted sender) client-ip=198.2.179.86;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@zoom.us header.s=mandrill header.b=bcQ4YHX7;
+       dkim=pass header.i=@mandrillapp.com header.s=mandrill header.b=ODOvCLPr;
+       spf=pass (google.com: domain of bounce-md_30854053.5e54839e.v1-a98dbf8833f549a495529fb01fe0213d@mandrillapp.com designates 198.2.179.86 as permitted sender) smtp.mailfrom=bounce-md_30854053.5e54839e.v1-a98dbf8833f549a495529fb01fe0213d@mandrillapp.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=zoom.us
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=mandrill; d=zoom.us; h=From:Subject:Reply-To:To:Message-Id:Date:MIME-Version:Content-Type:Content-Transfer-Encoding; i=no-reply@zoom.us; bh=96qpA3vv1P4KxLjtjk4MfmdaS3g7aD2BQtOvltzneyE=; b=bcQ4YHX7N0Rq3kcrhgE1MKUNAC+Oc0RagTotDAClp/eOtrTKYgCGDgHijYK0qkCVsFXjyPUINH/D
+   F+iZG/Fti72kc+5YNFQD7LDLym6oe9w2IeEL0ZxCXeUCo0UxYWKptAS+9f1eocENhBI01MMd2JD9
+   fKWM8bzO5uoo3d05nGg=
+Received: from pmta04.mandrill.prod.suw01.rsglab.com (127.0.0.1) by mail179-86.suw41.mandrillapp.com id hai1pu22s28p for <weicheng@edison.tech>; Tue, 25 Feb 2020 02:17:02 +0000 (envelope-from <bounce-md_30854053.5e54839e.v1-a98dbf8833f549a495529fb01fe0213d@mandrillapp.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com;
+  i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1582597022; h=From :
+  Subject : Reply-To : To : Message-Id : Date : MIME-Version :
+  Content-Type : Content-Transfer-Encoding : From : Subject : Date :
+  X-Mandrill-User : List-Unsubscribe;
+  bh=96qpA3vv1P4KxLjtjk4MfmdaS3g7aD2BQtOvltzneyE=;
+  b=ODOvCLPr/zBIVD47bTdvEZKZIl3wTPuHXAZjTG1v5M0B1G9nx3vfgtXsKqgGvuND0hxsaV xsrCW+gPO5rTrtXIoZ4r4OQVGt2MTxTSReCDDc8pzeHWTYodpQ5d3wAdLAYBq7LxG5Z+3ujZ bYGXpMd2v5p0Ig4fUkuomm6W1B6fs=
+From: Zoom <no-reply@zoom.us>
+Subject: Your meeting attendees are waiting!
+Return-Path: <bounce-md_30854053.5e54839e.v1-a98dbf8833f549a495529fb01fe0213d@mandrillapp.com>
+Received: from [34.231.61.0] by mandrillapp.com id a98dbf8833f549a495529fb01fe0213d; Tue, 25 Feb 2020 02:17:02 +0000
+Reply-To: no-reply@zoom.us
+To: weicheng@edison.tech
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30854053.a98dbf8833f549a495529fb01fe0213d
+X-Mandrill-User: md_30854053
+Message-Id: <30854053.20200225021702.5e54839e2dd942.40042327@mail179-86.suw41.mandrillapp.com>
+Date: Tue, 25 Feb 2020 02:17:02 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit

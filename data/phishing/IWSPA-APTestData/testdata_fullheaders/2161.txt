@@ -1,0 +1,62 @@
+Delivered-To: user@domain.com
+Received: by 10.25.215.208 with SMTP id q77csp480959lfi;
+        Fri, 16 Jan 2015 18:48:10 -0800 (PST)
+X-Received: by 10.140.35.114 with SMTP id m105mr28964368qgm.79.1421462890081;
+        Fri, 16 Jan 2015 18:48:10 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qc0-domain.com (mail-qc0-domain.com. [2607:f8b0:400d:c01::231])
+        by domain.com with ESMTPS id h10si8159241qcm.42.2015.01.16.18.48.09
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 16 Jan 2015 18:48:10 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::231 as permitted sender) client-ip=2607:f8b0:400d:c01::231;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::231 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qc0-domain.com with SMTP id x3so19467124qcv.8
+        for <user@domain.com>; Fri, 16 Jan 2015 18:48:09 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=references:mime-version:in-reply-to:content-type
+         :content-transfer-encoding:message-id:cc:From: Cheryl Mills <cheryl.mills@gmail.com>
+        bh=uvm7Ll/KNT5kwfsLINmFgLMOKbXoD/ojh94ETdhZWAU=;
+        b=eBzhEczwqNU2mvp/uEleVzuciPe5IeryUX/CUyyegm5Wb2cl0FhfefpZXwlsTPYDi3
+         8SxWFpfa0+FP4u/domain.com/hhG
+         LBfL0//2H055sDr7wHqs6eRt4g1D1U4P2XkIFgLibf6GWu7LZavcKfcVp+5wsaxyv/oq
+         F8SZLJSq8mhQI1UCOUPU7rk7qTNwIwNXc0QtkQlmvF3knbsyUxvDy4KeA8rVGbVHYG5M
+         xs8wmjhSHPoDF0P9NcSelIVMnXZgAxWwJ3N5Niqq4JUVFpLeZptBF57X8szbHRYwmt1s
+         35qg
+X-Received: by 10.224.79.12 with SMTP id n12mr31389570qak.2.1421462889493;
+        Fri, 16 Jan 2015 18:48:09 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [192.168.1.12] (c-68-55-108-86.domain.com. [68.55.108.86])
+        by domain.com with ESMTPSA id i51sm5832773qgf.37.2015.01.16.18.48.06
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 16 Jan 2015 18:48:06 -0800 (PST)
+References: <user@domain.com> <8user@domain.com>
+Mime-Version: 1.0 (1.0)
+In-Reply-To: <8user@domain.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-ED2CC9A9-5380-43C2-B980-6D339A6CDBFF
+Content-Transfer-Encoding: 7bit
+Message-Id: <0user@domain.com>
+CC: John user <user@domain.com>, Huma Abedin <user@domain.com>
+X-Mailer: iPhone Mail (11D201)
+From: Cheryl Mills <cheryl.mills@gmail.com>
+Subject: Re: hrc
+Date: Fri, 16 Jan 2015 21:48:07 -0500
+To: Neera Tanden <user@domain.com>
+
+You can shoot her to Huma or Brynne
+
+cdm
+
+rote:
+
+'s comms director.  Can I send her to someone or is there something you'd li
+ke me to do?
+
+bundantly clear that I love to do anything at all to help in the effort elec
+t HRC as our next POTUS.  Anything.  Anything at all. 
+

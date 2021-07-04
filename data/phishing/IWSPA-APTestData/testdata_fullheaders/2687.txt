@@ -1,0 +1,103 @@
+Received: from domain.com (43.130.141.78) by
+ domain.com (146.215.231.18) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Sat, 1 Nov 2015 12:46:27 -0400
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Sat, 1 Nov 2015 09:46:26 -0700
+Received: from domain.com (domain.com [160.33.194.230])
+	by domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sA1GkP9A002395	for <user@domain.com>; Sat, 1 Nov 2015 
+ 16:46:25 GMT
+Received: from na01-by2-domain.com
+ (mail-domain.com [207.46.163.238] (may be
+ forged))	by domain.com
+ (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with ESMTP id sA1GkO8v026314
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Sat, 1 Nov 2015 16:46:25 GMT
+Received: from BY2FFO11FD010.protection.gbl (10.1.14.34) by
+ BY2FFO11HUB028.protection.gbl (10.1.14.139) with Microsoft SMTP Server (TLS)
+ id 15.1.6.13; Sat, 1 Nov 2015 16:46:21 +0000
+Received: from a10-90.smtp-domain.com (54.240.10.90) by
+ domain.com (10.1.14.74) with Microsoft SMTP
+ Server (TLS) id 15.1.6.13 via Frontend Transport; Sat, 1 Nov 2015 16:46:20
+ +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=domain.com; t=1414860375;
+	h=MIME-Version:From: Crossroads School <xrds@pushpage.org>
+	bh=3g8yhFhC8LPBzSksg7Y86mPQqpXiD9P7E5ucGzd/7iQ=;
+	b=JRZ4mxkc0nm586hwS5rT4YZUwFJIRhEOa+vArO1eEo5Xlce47/v047JissujOWmc
+	p1m91jqUehjkaeAZR7AyPPraUBQDVXaF5LSR2WmJ0vRv2GzMc1UIiMLE9k4d2K18+it
+	yEY0UQJEB6h5oGg/jo6ZLnskWK7ukMpJqNBfAEP8
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=g3gi75bxz6gn7gaz73i2ldecarbsucvp; d=pushpage.org; t=1414860375;
+	h=MIME-Version:From: Crossroads School <xrds@pushpage.org>
+	bh=3g8yhFhC8LPBzSksg7Y86mPQqpXiD9P7E5ucGzd/7iQ=;
+	b=Kr7wCMYWIrS6Ujm3w8Vszk7eUhWOj8Obm1PO+ny+39clDxD+ghTGCT2/XBQUvjaW
+	Pnu8VdlxJk+TJ8MekhspH4P3K1IjBx1dtborxokjQs8S5Pt1BMQ+IpuF8ajWKejKkI0
+	yp40vVw655H3SMvduzQc8WbxFtKqayvNjAGq7qsg
+X-SendID: 931070f1-0d48-48c7-8260-7ec34b029722
+From: Crossroads School <xrds@pushpage.org>
+To: Michael Lynton <user@domain.com>
+Reply-To: Crossroads School <user@domain.com>
+Date: Sat, 1 Nov 2015 16:46:15 +0000
+Subject: K-12 Head of School Q&A
+Message-ID: <000001496user@domain.com>
+X-OriginalArrivalTime: 01 Nov 2015 16:46:14.0971 (UTC) FILETIME=[59D038B0:01CFF5F3]
+X-SES-Outgoing: 2014.11.01-54.240.10.90
+Feedback-ID: us-east-1.eHJkc0BwdXNocGFnZS5vcmc=:AmazonSES
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: CIP:54.240.10.90;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(438002)(189002)(199003)(38414003)(377454003)(25786005)(19625215002)(107886001)(20776003)(107046002)(87836001)(229853001)(90596001)(50986999)(106876001)(92726001)(106466001)(104766002)(102836001)(110136001)(53806999)(110486001)(19617315012)(54356999)(43066003)(33646002)(46102003)(19580395003)(95666004)(64706001)(19580405001)(44976005)(15202345003)(99396003)(71186001)(120916001)(21056001)(4396001)(18206015028)(6806004)(450100001)(1580400003)(18926405002)(62966003)(77156002)(84326002)(77096003)(956001)(180100001)(15975445006)(7059028)(94776002)(95006001)(42262002);DIR:INB;SFP:;SCL:1;SRVR:BY2FFO11HUB028;H:a10-90.smtp-domain.com;FPR:;MLV:sfv;PTR:a10-90.smtp-domain.com;MX:1;A:1;LANG:en;
+X-Microsoft-Antispam: UriScan:;
+X-Microsoft-Antispam: BCL:6;PCL:0;RULEID:(80001);SRVR:BY2FFO11HUB028;
+X-Exchange-Antispam-Report-Test: UriScan:;
+Received-SPF: Pass (domain.com: domain of domain.com designates
+ 54.240.10.90 as permitted sender) receiver=domain.com;
+ client-ip=54.240.10.90; helo=a10-90.smtp-domain.com;
+Authentication-Results: spf=pass (sender IP is 54.240.10.90)
+ user@domain.com; 
+Return-Path: 000001496user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+If you are having trouble viewing this email, click here
+
+
+
+
+Please join us for the
+K-12 Head of School Q&A
+
+
+
+Here’s a chance for parents across all three divisions to talk
+directly with Head of School Bob Riddle.
+
+
+
+Thursday, November 13, 2015 
+from 8:30 a.m. to 9:30 a.m.
+
+
+
+We look forward to seeing you!
+
+
+
+Community Room
+Norton Campus, above the Gym on 18th Street
+
+
+
+If you have any questions please call Veronica Ulloa
+at (310) 829-7391 ext. 510
+
+
+
+Juice, coffee, tea, domain.com and bagels provided
+ Crossroads School for Arts & Sciences 
+1714 21st Street | 1721 Olympic Boulevard | Santa Monica, CA 90404 | 310-829-7391
+This e-mail was sent to user@domain.com by user@domain.com You may unsubscribe if you no longer wish to receive e-mails sent to this recipient list.

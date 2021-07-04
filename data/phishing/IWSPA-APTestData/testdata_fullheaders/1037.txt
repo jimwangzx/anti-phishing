@@ -1,0 +1,40 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp584919lfi;
+        Sat, 9 May 2015 09:15:59 -0700 (PDT)
+X-Received: by 10.43.60.14 with SMTP id wq14mr3521672icb.60.1431188158642;
+        Sat, 09 May 2015 09:15:58 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ie0-domain.com (mail-ie0-domain.com. [2607:f8b0:4001:c03::22a])
+        by domain.com with ESMTPS id qo8si1756458igb.39.2015.05.09.09.15.58
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 09 May 2015 09:15:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::22a as permitted sender) client-ip=2607:f8b0:4001:c03::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ie0-domain.com with SMTP id fl3so93162988ied.1
+        for <user@domain.com>; Sat, 09 May 2015 09:15:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Eryn Sepp <eryn.sepp@gmail.com>
+        bh=xdCBPfvgn2GrCTQ06GSTjTk+vlAal7TFPKVQMC1HX6E=;
+        b=tq3DwOSdCCDCV6wSB7loeT+6kv7suEltLjGa+gsHGOY9iM79qYOiBmGGyK2x7fgY0R
+         ggn2q2mF0mEcTIKBloFkLMkQYBeayWQA+orrgqtauCdwl3eTMUJecCFZ7YE/Logo6zs4
+         9L/zaVled7Q0JfkeCiuVfMZmfEgyG4o7T+HLzQ4HvKaA16w8yI25aAztPIKYPKMf+DzO
+         /klnbkbfZN3vP5jMRG7f4wRaoV9yXczKKA94eFJqVUx6PeQ17HVXW7sKLRF34lNQ0tdi
+         5shU5JMpHYcOzwj7mLuwU06F15/z+UtpwCcNwLlRxDyzz11Qsl2sQKm4PaawNiI6T1xc
+         2n5w
+MIME-Version: 1.0
+X-Received: by 10.50.43.227 with SMTP id z3mr5501580igl.22.1431188157935; Sat,
+ 09 May 2015 09:15:57 -0700 (PDT)
+Received: by 10.107.51.142 with HTTP; Sat, 9 May 2015 09:15:57 -0700 (PDT)
+Date: Sat, 9 May 2015 12:15:57 -0400
+Message-ID: <CAKM1B--5RMLrgB-bO6iqDmvq7-YvePxqXD+user@domain.com>
+Subject: Last dumb q: Blood pressure meds
+From: Eryn Sepp <eryn.sepp@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e0111c016c2da940515a8758a
+
+Do you need the ones in your desk or you have?

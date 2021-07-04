@@ -1,0 +1,82 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp756008lfr;
+        Thu, 1 Oct 2015 16:22:01 -0700 (PDT)
+X-Received: by 10.112.14.9 with SMTP id l9mr4124748lbc.91.1443741721633;
+        Thu, 01 Oct 2015 16:22:01 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-lb0-domain.com (mail-lb0-domain.com. [2a00:1450:4010:c04::22b])
+        by domain.com with ESMTPS id f79si4101333lfg.45.2015.10.01.16.22.01
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 01 Oct 2015 16:22:01 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c04::22b as permitted sender) client-ip=2a00:1450:4010:c04::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c04::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lb0-domain.com with SMTP id r8so17073547lbw.2
+        for <user@domain.com>; Thu, 01 Oct 2015 16:22:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Jake Sullivan <jsullivan@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=U+0dT3y/8BJmiO3wCPhtDdmgOTyx/jJAIsBY5xzDC0E=;
+        b=Zdz+ZMFPiupkGFxPDir11OuOaoTzRS/Nvlil0Jt19ECK4E/Jr2zThQn0MM96W1jbfV
+         ypwX/NAqQNjJyZjCQckjsPf+wl6Yp4kTkPOIjm/Kui0sURqKJOOw1wej0sgeVhM3MBp2
+         VRfCpEVDZSc3Qz/jWE3uAWYzrGiN1UwRRMEV8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Jake Sullivan <jsullivan@hillaryclinton.com>
+         :thread-index:date:message-id:subject:to:cc:content-type;
+        bh=U+0dT3y/8BJmiO3wCPhtDdmgOTyx/jJAIsBY5xzDC0E=;
+        b=I7e9mwVWqlE3RQgajBJ8xH63gkhMuMgfqx5u6S42HPyXejPnhKVN1lzVDymQwLCWM0
+         qqYq2HmwWj0gNSqBGevbTx0dEOao/N3SSvg59xY9NvrRyzo8cbTidIhPf+T/6RKAWbnN
+         K1vddORKe4DKj4BxzMT5Jm2+QPJKpDVriHn9qNYyp8258Fk2YZ9rAksbw1w3AnA5Nq50
+         cs/HvbYsFEOcHpaI4WCkRFuFGvH63c04GG+rluX9iTI+9xOhymtMGLgOYv6o6UKCAE7n
+         mISqh2OeDFDUA1luqiBSYNiXUGzptV+WsPQ33vOVb0m9jKWGeSJIxb02u7i5Wtl9llem
+         3XTQ
+X-Gm-Message-State: ALoCoQm7KCexDO8RG4a/kx/WDY2WhwmjmKG2+VyB8e0Xo31z8FeYqSEmOLx9fQNA8nw3SczmR7jy
+X-Received: by 10.25.79.84 with SMTP id d81mr2691424lfb.40.1443741721412; Thu,
+ 01 Oct 2015 16:22:01 -0700 (PDT)
+From: Jake Sullivan <jsullivan@hillaryclinton.com>
+References: <CA+fgGzKO4BtNTx1ZzSFp+5user@domain.com>
+ <CA+fgGz+JS6qQ_7B45tsbGsuBQB6hFQiNCnNtH6uRdzuYP+user@domain.com>
+ <CAE6FiQ_tmL81dDyu=XLxc8td9Wqz6BjkPoLBAahy+user@domain.com>
+ <user@domain.com> <-1305633131254908382@unknownmsgid>
+In-Reply-To: <-1305633131254908382@unknownmsgid>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQLZb+Z5vx6nQ7k4aXcfaci+3xwR8gL/Pl16Aht39rQCIQqQMQIzU71cm/rnctA
+Date: Thu, 1 Oct 2015 19:22:00 -0400
+Message-ID: <85user@domain.com>
+Subject: RE: Policy Working Group Proposed Leadership
+To: "User" <user@domain.com>
+CC: John user <user@domain.com>, 
+ Edward Meier <user@domain.com>, 
+ Maya Harris <user@domain.com>, 
+ Milia Fisher <user@domain.com>, 
+ Sara Latham <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1140669c73d45e0521135037
+
+Even better in some ways.  Roland Fryer is the man.
+
+*From: Jake Sullivan <jsullivan@hillaryclinton.com>
+*Sent:* Thursday, October 1, 2015 7:21 PM
+*To:* Jake Sullivan <user@domain.com>
+*Cc:* John user <user@domain.com>; Edward Meier <
+user@domain.com>; Maya Harris <user@domain.com>; Milia
+Fisher <user@domain.com>; Sara Latham <user@domain.com
+m
+
+*Subject:* Re: Policy Working Group Proposed Leadership
+
+I certainly can call and ask him. Worth a try! And if he won't, I bet
+Roland Fryer would.
+
+Ann O=E2=80=99Leary
+
+Sent from my iPhone
+
+(510) 717-5518 (cell)
+
+On Oct 1, 2015, at 3:55 PM, Jake Sullivan <user@domain.com>

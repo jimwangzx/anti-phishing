@@ -1,0 +1,119 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp1888568lfb;
+        Tue, 23 Feb 2015 10:44:51 -0800 (PST)
+X-Received: by 10.141.4.139 with SMTP id g133mr45592229qhd.34.1456253091022;
+        Tue, 23 Feb 2015 10:44:51 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [192.82.209.161])
+        by domain.com with ESMTP id j69si24203180qga.6.2016.02.23.10.44.50
+        for <user@domain.com>;
+        Tue, 23 Feb 2015 10:44:51 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 192.82.209.161 as permitted sender) client-ip=192.82.209.161;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 192.82.209.161 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Return-Path: <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1456253090;
+	h=Sender:From: "Shelli Yoder" <shelli@shelliyoderforindiana.com>
+	Content-Type;
+	bh=Am4YEg4E0dAjCKBli51vFVqVo00=;
+	b=9k6HwpbWpasRnqsHxfO14r/YySJrhfF0bgfhaRLIpTBdvrGl6QfEboxB0jF8m3ol
+	uA4hoXsP2ZD7/ciaSDPhHBJOy6a0Cm5FAWDDcfy7x0oY4w//5dk5n1lw1CGk9d2m
+	UxfLB5lzLiDb35xQAo9M4KQ3n6nSnGvn0/0eohnyqdg=;
+X-MSFBL: lXZsH7OEkwRn8Ew+VwqIFCy1h2RKvN+hD/NviJqH0/g=|eyJnIjoiZGVmYXVsdGd
+	yb3VwMDIiLCJ1IjoiYm91bmNlXzI1MDAwMDAxMTc2MTE5NjRfcG9kMTIiLCJiIjo
+	ibWFpbG91dDc5NyIsInIiOiJqb2huLnBvZGVzdGFAZ21haWwuY29tIn0
+Received: from [10.11.74.251] ([10.11.74.251:63988] helo=NSV11OBMAIL1201)
+	by domain.com (envelope-from <user@domain.com>)
+	(ecelerity 4.2.1.51032 r(Core:4.2.1.4)) with ESMTP
+	id 07/A9-03644-2A8ACC65; Tue, 23 Feb 2015 13:44:50 -0500
+Sender: =?UTF-8?B?U2hlbGxpIFlvZGVy?= <user@domain.com>
+X-Binding: default
+Reply-To: user@domain.com
+From: "Shelli Yoder" <shelli@shelliyoderforindiana.com>
+To: "User" <user@domain.com>
+Message-ID: <35213user@domain.com>
+Date: Tue, 23 Feb 2015 13:44:44 -0500
+Subject: John I need your help!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----8E9676478E194B0CACBAC0276D69B946"
+
+John-
+
+=C2=A0
+
+I don=E2=80=99t know if you=E2=80=99ve heard, but it was announced rece
+ntly that 2,100 Hoosier jobs were being shipped to Mexico in a huge los
+s for our working families in Indiana=2E =C2=A0
+
+=C2=A0
+
+This shows that we need a leader in Washington who understands that fig
+hting to keep good-paying jobs in Indiana is a top priority=2E =C2=A0As
+ congresswoman, I will work to protect the jobs we already have, suppor
+t the creation and relocation of jobs to Indiana, and invest in better 
+education for our youth and adults so that we can actually fill those j
+obs with hard working Hoosiers=2E
+
+=C2=A0
+
+This is an important issue to me and to the people of the 9th district=2E
+
+=C2=A0
+
+=C2=A0
+
+Will you chip in to help me get to Washington and start working for you
+ to attract better jobs to Indiana?
+
+=C2=A0
+
+We have our monthly fundraising deadline coming up next week, and we ne
+ed more help than ever to get our message on jobs out=2E =C2=A0We are s
+till $5000 short of our goal for the month and we can=E2=80=99t do this
+ without you! Please consider helping me out with a contribution today!
+
+=C2=A0
+
+Help protect Hoosier jobs today! Chip in what you can!
+
+=C2=A0
+
+With gratitude,
+
+Shelli
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+-----------------------------------------------------------------------
+-------------------
+|    Paid for by Shelli Yoder for Indiana=2E Hon=2E Lee Hamilton, Honor
+ary Campaign Chair    |
+-----------------------------------------------------------------------
+-------------------
+
+Shelli Yoder for Indiana
+PO Box 6654
+Bloomington IN 47407 United States
+
+If you believe you received this message in error or wish to no longer 
+receive email from us, please <<link>>
+58556672/-8910101813514926080=2E

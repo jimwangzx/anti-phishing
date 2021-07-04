@@ -1,0 +1,89 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp1600060lfb;
+        Wed, 11 Nov 2015 10:00:25 -0800 (PST)
+X-Received: by 10.68.57.171 with SMTP id j11mr16488127pbq.17.1447264825095;
+        Wed, 11 Nov 2015 10:00:25 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [12.130.136.108])
+        by domain.com with ESMTP id bk9si13976572pad.222.2015.11.11.10.00.24
+        for <user@domain.com>;
+        Wed, 11 Nov 2015 10:00:25 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 12.130.136.108 as permitted sender) client-ip=12.130.136.108;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 12.130.136.108 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=email.vzwshop.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=vzwshop; d=email.vzwshop.com;
+ h=MIME-Version:Content-Type:Date:To:From: "Verizon Wireless" <verizonwireless2@email.vzwshop.com>
+ bh=Jzv7FzN1xQoH8j8WLXrZ8aap704=;
+ b=ALtBp1Fg3YLtfAZQi1arzXYMFWts3LWKsfh6yJDLtpnmuq5yVJY+Km9W+e1clFEejhaG3OALGsNp
+   iIddux+g0iDxe7wPEl7sEePIVFXnd/QK/q3FTKMM0caCEs5kBlzQul/8mwuzrqC0DQREYwHtblwW
+   mPisaJGYmM9E3oijaJ0
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=oraclersys; d=domain.com;
+ h=MIME-Version:Content-Type:Date:To:From: "Verizon Wireless" <verizonwireless2@email.vzwshop.com>
+ bh=Jzv7FzN1xQoH8j8WLXrZ8aap704=;
+ b=vY9X/lOPTQGdiJOCxaBqHcNmPjVMCd2VSZZDUUYtfM/w153SvJNimRNMrLyCrfyzA0YyRtQBOw4L
+   X/IDMXC2OhQowhzhdZLQ5VimWJhooIVyM8FLBdlKqXrQFL0y9/k/pehpWGGCI/XD7Qt3LfAk65EO
+   fHMS7DKrHca0qddnzOo
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=vzwshop; d=email.vzwshop.com;
+ b=WTUyWAIKLX6082ZlUsnK0f1ZBjKgNCa0pvb4+6ZYMhphQxa0euXfe8ytAdHrwaZSIXsBOkZOli2g
+   D8IMe7eqOnzBI7jFgk4jvUwOhIDtyNu9CsMxmX9IWc/KUV9zHMlBQ7S54OFZEruw0Hqzx1aQgq9P
+   pUhu49arn3ao5RzTRkM=;
+Received: by domain.com id h8e13i160koc for <user@domain.com>; Wed, 11 Nov 2015 10:00:23 -0800 (envelope-from <user@domain.com>)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----msg_border_Z6oVpSdDO3"
+Date: Wed, 11 Nov 2015 10:00:23 -0800
+To: user@domain.com
+From: "Verizon Wireless" <verizonwireless2@email.vzwshop.com>
+Reply-To: "User" <user@domain.com>
+Subject: Surprise! Save $100 on any smartphone - shhh, even iPhone.
+Feedback-ID: 5309:1779802:oraclersys
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com?subject=List-Unsubscribe>
+X-sgxh1: rhogQihKLklHxnuHptQJhu
+X-rext: 5.interact2.ElVXm5GwO3wD4Pw8ckrjeyvUEMYYdSX2K69_4qCqo6KZONoz9z5R
+X-cid: vrznwrls.2133592
+Message-ID: <0.1.3user@domain.com>
+
+Verizon Wireless
+*****************************************************************
+Click here to view the full email:
+<<link>>
+OwUO9WyOCJsjrLPN3Gf55K1zcTdADXWzb8zbhAdzdwvhFDFY0VXtpKX%3DSYDUTST&_ei_=3DEk
+RVKotMBvFM-1DOlpCYqoivZCHPPiD0mSd5f_UYYFNqG1wmNw_dJAr1NZ3iqGzyfJvNV4PpMGvaR
+IWS1pYeUDP93WASIavmuPnM6nRhRqrgQaEFotGdqOz-0X21xb_e1heIwssbGc1KN_EFjatCptgr
+xIYsIe-PIW6TKoIvFt4owm0bk8rJKnGR5Ag1HKAiSrQCfGDVntCca3A8VDpxyz2hauXJlk410fm
+9fqa_nDQJSxPALpfcpwHRltsb1ITSQ2_oJDArICjJ8FGKSObpzN-ZIZTBaB-BM0WgQ4Y_8PGTJM
+fXO-zajNYsiupF4asa_CiH_zmQLCGVLYpI6rZzAyYWdR4igTyx3EIL-9Z1G7lfA7QV0IpI8vc9G
+_DOLURV4nCvO3VnI-PBooHIuHmMQYTK9NM-3nFQNgdzPqhMld7Pn-Vuy5Zo-NBcfRinvhtsUIvu
+HiBPAWjM_-NFZOZsf--e7WqrNzQLPXN51npUDb3nKIeZVQxXlkjD0BejE-2srxpRXpnQp_8VAhM
+_QzST6k6KjEZ_UyB4qkwbyK6um1axewck0_-RxENeqPKcpJkS-s1xA6SilZYjemf6eRPYa6nFDi
+-CuZCDPF3d-Xj35BwFiT9S6LUUAjYIcBgvtRklSc2KEwcAS0Cx8T8Yj7eq613MkYpdAECh0OBKX
+8PwEIp8hqRwtt26sIZltyuMDy73ctJ_l8q_xloSjvSB=2EJg%3D%3D
+*****************************************************************
+This email was sent to john=2Euser=40gmail=2Ecom=2E
+If you no longer wish to receive future emails, you may unsubscribe,
+<<link>>
+OwUO9WyOCJsjrLPN3Gf55K1zcTdADXWzb8zbhAdzdwvhFDFY0VXtpKX%3DSYDUTDT&_ei_=3DEk
+RVKotMBvFM-1DOlpCYqoivZCHPPiD0mSd5f_UYYFNqG1wmNw_dJAr1NZ3iqGzyfCKvmYFA8hTCV
+LltJ72Lt5hMK0ulteVi2fOG6oaKzmbj3MWtcsCDNQkySUXQRLUa1JRn5RgipR0X9gEPSQLP-VUA
+UYR5SryTNIAomaakmIjAng88LuVnElAh_xXoV-A5DdtfVEZBC_zze5PpNpMJs40T99eJcNewOuU
+Zo8UC3E8BfEV3d0yRzbx7T9QLoyu9xY-tLUw4lWQOLPqIPdl8zPFXUvww=2EJg%3D%3D
+or easily adjust your subscription preferences from your profile informatio
+n=2E
+<<link>>
+OwUO9WyOCJsjrLPN3Gf55K1zcTdADXWzb8zbhAdzdwvhFDFY0VXtpKX%3DSYDUUST&_ei_=3DEk
+RVKotMBvFM-1DOlpCYqoivZCHPPiD0mSd5f_UYYFNqG1wmNw_dJAr1NZ3iqGzyfCKvmYFA8hTCV
+LltJ72Lt5hMK0ulteVi2fOG6oaKzmbj3MWtcsCDNQkySUXQRLUa1JRn5RgipR0X9gEPSQLP-VUA
+UYR5SryTNIAomaakmIjAng88LuVnElAh_xXoV-A5DdtfVEZBC_zze5PpNpMJs40T99eJcNewOuU
+Zo8UC3E8BfEV3d0yRzbx7T9QLoyu9xY-tLUw4lWQOLPqIPdl8zPFXUvww=2EJg%3D%3D
+
+We respect your privacy=2E Please review our privacy policy <<link>>
+rizon=2Ecom/about/privacy/
+for more information about click activity with Verizon Wireless
+and links included in this email=2E
+
+(c) 2015 Verizon Wireless=2E
+
+Verizon Wireless =7C One Verizon Way =7C Mail Code: 180WVB =7C Basking Ridg
+e, NJ 07920

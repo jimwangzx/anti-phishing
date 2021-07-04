@@ -1,0 +1,75 @@
+Delivered-To: user@domain.com
+Received: by 10.140.16.184 with SMTP id 53csp274350qgb;
+        Wed, 4 Jun 2015 15:23:29 -0700 (PDT)
+X-Received: by 10.68.250.3 with SMTP id yy3mr69363472pbc.56.1401920608886;
+        Wed, 04 Jun 2015 15:23:28 -0700 (PDT)
+Return-Path: <bounces+804541-39user@domain.com>
+Received: from domain.com (domain.com. [208.117.55.191])
+        by domain.com with SMTP id fd2si8630094pbd.177.2014.06.04.15.23.28
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Jun 2015 15:23:28 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of bounces+804541-39user@domain.com designates 208.117.55.191 as permitted sender) client-ip=208.117.55.191;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of bounces+804541-39user@domain.com designates 208.117.55.191 as permitted sender) smtp.mail=bounces+804541-39user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=echolsforassembly.com; 
+	h=From: Echols for Assembly <info@echolsforassembly.com>
+	s=smtpapi; bh=C61BNOEQ3Z5IQewElYUEaN9ePg8=; b=TYt6sE2tnBHTZkXVZK
+	66V9v8MGtBy/HpsfLYKIy5pmVXNs78mRVzGslohwQHxHxWpFTXc7Ut+A1ZpIp2IM
+	sQF9fqlgJKvMVvtO6xyN1knSuMktzzW4pYVSjWuTReiNfYjhiVfAKgtLyWeGTUTf
+	16MQ2HLYsIg6Ea5ij5rzNSz7A
+Received: by domain.com with SMTP id mf163.25740.538F9C5E1
+        Wed, 04 Jun 2015 22:23:26 +0000 (UTC)
+Received: from domain.com (535.domain.com [75.127.82.2])
+	by ismtpd-022 (SG) with ESMTP id 14668facf14.5618.8317f
+	for <user@domain.com>; Wed, 04 Jun 2015 22:23:26 +0000 (GMT)
+Date: Wed, 04 Jun 2015 22:23:25 +0000
+From: Echols for Assembly <info@echolsforassembly.com>
+To: John user <user@domain.com>
+Message-ID: <538user@domain.com>
+Subject: We Did It!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_538f9c5d5b639_79c310fcffc1305e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-SG-EID: p7DGjev3kDhYNXGtfGO9jbmQ3Oi75URC5nx+Didgsq9Tr+cb8PCcWb336RAEkXLMeW8Ujek8cAl4d/MNRRavBTSj8A5DMbbHFm9REMFAEDXxwJjUR0y5eleB5uUS7HOAuz/fUmMRuj5Rf04qcT32ArZK2gq/8EsM8mLz06/iPno
+X-SG-ID: SolyLoj4M+6t0KZQOavh+KaaBLWwI5p7DzefORDSR0iLyNoxGsR2bIuQ2sVHGaC/oIRzvZTLviF8JXRQJDqR3yX2AbBVtWz8xmaZMYPUL3kLDrTZ0rfvtWHxEEelrL1Gw0kmnpRoprMmOR5X4tFIQIx69wU/BVID7m2Nvid1rko
+
+Dear John -
+
+What an incredible night. =C2=A0We finished in first place with support fro
+m across the district and will advance to the general election in November!
+
+I want to thank you so much=C2=A0for what you=E2=80=99ve put into this camp
+aign. You helped get our message out, and there=E2=80=99s no doubt that our
+ campaign resonated with voters.
+
+I couldn=E2=80=99t be more proud of what we=E2=80=99ve accomplished togethe
+r, but we still have a long way to go. I hope you=E2=80=99ll stay engaged w
+ith the campaign from now through the November election. I have no doubt th
+at if you do, the general election will be as big a success for us as the p
+rimary was.
+
+We need to spread the word to even more voters in the next 5 months. Please
+ help us get started by=C2=A0 liking my Facebook page <<<link>>
+.com/ElizabethEcholsForAssembly> ,=C2=A0 following me on Twitter <<<link>>
+domain.com/Echols4Assembly> =C2=A0and asking your friends to=C2=A0 sign up 
+on our website <<<link>>>.
+
+Once again, thank you so much. =C2=A0Your support means the world to me.=C2
+=A0
+
+In Gratitude,
+
+Elizabeth
+
+-=3D-=3D-
+Echols for Assembly - 2015 Shattuck Ave, #147, Berkeley, CA 94704, United S
+tates
+This email was sent to user@domain.com  To stop receiving emails: h
+ttp://www.echolsforassembly.com/unsubscribe
+-=3D-=3D-
+
+Created with NationBuilder - <<link>>

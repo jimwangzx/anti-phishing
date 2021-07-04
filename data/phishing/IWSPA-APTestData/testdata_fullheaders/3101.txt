@@ -1,0 +1,96 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 22 Apr 2015 07:44:04 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s3MEi3aP002935	for <user@domain.com>; Tue, 22 Apr 2015 
+ 14:44:03 GMT
+Received: from mail114-ch1-domain.com (mail-domain.com
+ [216.32.181.170])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s3MEjZ8Y026438
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 22 Apr 2015 14:45:35 GMT
+Received: from mail114-ch1 (localhost [127.0.0.1])	by
+ mail114-ch1-domain.com (Postfix) with ESMTP id 292EC4A0103	for
+ <user@domain.com>; Tue, 22 Apr 2015 14:43:04 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.15.215.103;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(zzc89bhc857h77f5hdf7Izz1f42h1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz1de098h1def03h17326ah172cdfh1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h186068h1b778fh1ce120h1ce121i1df151iz2fheh5fh839h8e2h8e3h10d2h1288h12a5h137ah13eah1441h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3hbe9i1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail114-ch1: domain of em-sj-77.domain.com designates 199.15.215.103 as permitted sender) client-ip=199.15.215.103; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail114-ch1 (localhost.localdomain [127.0.0.1]) by mail114-ch1
+ (MessageSwitch) id 1398177781871063_4773; Tue, 22 Apr 2015 14:43:01 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.238])	by mail114-domain.com (Postfix) with ESMTP id C972540077
+	for <user@domain.com>; Tue, 22 Apr 2015 14:43:01 +0000 (UTC)
+Received: from domain.com (199.15.215.103) by domain.com
+ (10.43.70.9) with Microsoft SMTP Server id 14.16.227.3; Tue, 22 Apr 2015 
+ 14:43:00 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=citrix.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1398177838;
+	h=From: "Christine Danh, Citrix" <cdanh@citrix.com>
+	bh=O6F3ng7iOn9gh7gSJazF0uXplC9gcInvtXiNn095mz8=;
+	b=OBLs9zNUkf9vKaVScHPHzH4LHbJPelzp1Mk7RCRp422AfJcIl2VxV8Is/QtPY+WG
+	EYD0bvNZAeL62xTpbLZ+8PexYmcMjUJLc36FnurJS0p0e+C/z12FyEvEwWqHYTnV
+	evDHnf7TCZCEXlns2xMH45z4Nc43uNvGXKXD39sZvXA=;
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AZHZwLTE5OS0xNS0yMTUtMTAzQGJnLXNq
+	ZC0xM0A0MDMtQUdGLTkyMDoxODQxODoyMTA2Njo4MTQwMjowOjI1MTQ0Ojc6NzIz
+	Njc2OA
+Received: from [10.0.12.42] ([10.0.12.42:54907] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity 3.5.0.35861
+ r(Momo-dev:tip)) with ESMTP	id 4A/6D-62997-E2086535; Tue, 22 Apr 2015 
+ 09:43:58 -0500
+Date: Tue, 22 Apr 2015 09:43:58 -0500
+From: "Christine Danh, Citrix" <cdanh@citrix.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <1479742003.-1959453507.1398177838734.user@domain.com>
+Subject: Learn the keys to a successful virtual workforce
+X-Report-Abuse: Please report abuse here: <<link>>
+X-PVIQ: 000326-001277-000001-000000-033396
+X-Binding: bg-sjd-13
+X-MarketoID: 403-AGF-920:18418:21066:81402:0:25144:7:7236768
+List-Unsubscribe: <mailto:user@domain.com>
+X-MailFrom: "Christine Danh, Citrix" <cdanh@citrix.com>
+Return-Path: 403-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Learn the keys to a successful virtual workforce
+
+To view this email as a web page, click here     
+
+ <<link>>      
+
+ <<link>>      logo     
+
+Questions? 1 800 372 6207         <<link>>     
+
+ <<link>>       
+
+ <<link>>      
+
+ <<link>>      
+
+ <<link>>    
+
+ <<link>>      Let David Lewis tell you how he did it.          <<link>>      
+
+ <<link>>      
+
+ <<link>>      
+
+ <<link>>      Register for the complimentary webinar    <<link>>     
+
+ <<link>>      
+
+ <<link>>      Amy,
+
+The virtual office isn't some feel-good concept cooked up in some futurists’ brain. It is reality, and there are a growing number of highly successful organizations that not only have a virtual workforce, but also have all their software, systems and data running in the cloud.
+
+In this fascinating case study, David Lewis, founder and CEO of Inc. 500 winner DemandGen International, tells how the company grew from its founder’s home office to become one of the world’s leading marketing technology consulting firms – all while maintaining a 90% virtual workforce and having 100% of its core business systems running in the cloud.         <<link>>      
+
+
+

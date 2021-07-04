@@ -1,0 +1,74 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 1 May 2015 20:46:26 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s423kPHI028347	for <user@domain.com>; Fri, 2 May 2015 
+ 03:46:25 GMT
+Received: from mail1-ch1-domain.com (mail-domain.com [216.32.181.174])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s423jY6s002189	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Fri, 2 May 2015 03:45:34 GMT
+Received: from mail1-ch1 (localhost [127.0.0.1])	by mail1-ch1-domain.com
+ (Postfix) with ESMTP id 99BF73A023E	for <user@domain.com>; Fri,  2
+ May 2015 03:46:24 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:17.172.124.249;KIP:(null);UIP:(null);IPV:NLI;H:st11p06mm-asmtp001.mac.com;RD:st11p06mm-asmtp001.mac.com;EFVD:NLI
+X-SpamScore: 6
+X-BigFish: vps6(zz98dI9371I1432Izz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1fc6h208ch109cjzz1de098h8275bh1de097hz2fh839h944hd25he5bh1220h1288h12a5h12a9h12bdh137ah139eh13b6h13eah1441h1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah224fh1d0ch1d2eh1d3fh1dfeh1dffh1e23h1fe8h1ff5h2052h20b3h2218h2216h226dh24afh2327h2336h2438h2461h2487h24ach24d7h2516h2545h255eh25f6h2605h268bh26d3h276ao1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail1-ch1: domain of mac.com designates 17.172.124.249 as permitted sender) client-ip=17.172.124.249; user@domain.com; helo=st11p06mm-asmtp001.mac.com ;p001.mac.com ;
+Received: from mail1-ch1 (localhost.localdomain [127.0.0.1]) by mail1-ch1
+ (MessageSwitch) id 1399002382846001_12165; Fri,  2 May 2015 03:46:22 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.236])	by mail1-domain.com (Postfix) with ESMTP id C0FBA3806EE
+	for <user@domain.com>; Fri,  2 May 2015 03:46:22 +0000 (UTC)
+Received: from st11p06mm-asmtp001.mac.com (17.172.124.249) by
+ domain.com (10.43.70.9) with Microsoft SMTP Server id
+ 14.16.227.3; Fri, 2 May 2015 03:46:22 +0000
+Received: from [192.168.1.5] (pool-108-27-114-170.domain.com
+ [108.27.114.170]) by st11p06mm-asmtp001.mac.com (Oracle Communications
+ Messaging Server 7u4-27.08(7.0.4.27.7) 64bit (built Aug 22 2013)) with
+ ESMTPSA id <0user@domain.com> for
+ user@domain.com; Fri, 02 May 2015 03:46:22 +0000 (GMT)
+Subject: Re: A web of luck
+References: <user@domain.com>
+ <user@domain.com>
+ <3026user@domain.com>
+ <user@domain.com>
+ <84user@domain.com>
+ <2004758user@domain.com>
+From: Douglas McGrath <douglasmcgrath@mac.com>
+X-Mailer: iPad Mail (11D167)
+In-Reply-To: <2004758user@domain.com>
+Message-ID: <user@domain.com>
+Date: Thu, 1 May 2015 23:46:23 -0400
+To: "User" <user@domain.com>
+X-MANTSH: 1TEIXWV4bG1oaGkdHB0lGUkdDRl5PWBoaGxEKTEMXGx0EGx0YBBIZBBscEBseGh8
+	aEQpYTRdLEQptfhcaEQpMWRcbGhsbEQpZSRcRClleF2hjeREKQ04XSxsbGmJCH2lpHnVZGXhzB
+	x4YGhkeHGcRClhcFxkEGgQdB01LHRJISRxMBRsdBBsdGAQSGQQbHBAbHhofGxEKXlkXYUdmR1o
+	RCkxGF2JraxEKQ1oXGxoSBBgdBBsbHgQbHRoRCkJFF21Qa1ldQXB7EkRZEQpCThdoRkJAH0h5H
+	UcfZBEKQkwXZhJLT3pCGHxofHgRCkJsF2JeQnNSUG9BXwUBEQpCQBdkexldZEhQYE5SfhEKQlg
+	XY2Vva01NRxlAZRwRCnBnF2xdAXBZGVoBbBJ+EQpwaBdtRGFmGk1tbxt9XxEKcGgXZ09CQVJtX
+	llpeUYRCnBoF21OGkEZa2xGXW19EQpwaBdmZH9beERYQmFCSREKcGgXZEBEZnNkXXphb0YRCnB
+	sF2NhQxp7TR1kZUZMEQpwTBdjckcTZm5NYWsbfxE
+X-CLX-Spam: false
+X-CLX-Score: 1011
+X-Proofpoint-Virus-Version: vendor=fsecure
+ engine=2.50.10432:5.11.96,1.0.14,0.0.0000
+ definitions=2014-05-02_02:2014-05-01,2014-05-02,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+ suspectscore=0 phishscore=0 adultscore=0 bulkscore=0 classifier=spam adjust=0
+ reason=mlx scancount=1 engine=7.0.1-1402240000 definitions=main-1405020065
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Re: A web of luck
+
+Seriously: a masterpiece. It starts out as a dreamy, rather frivolous romantic comedy-- it's almost but not quite LOVE ME TONIGHT-- but then slowly but surely it turns into a heartbreaking romantic tragedy. It's INCREDIBLE.
+
+Sent from my iPad
+

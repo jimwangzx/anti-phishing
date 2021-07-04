@@ -1,0 +1,86 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Fri, 1 Nov 2015 11:56:33 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rA1IuW4T031837	for <user@domain.com>; Fri, 1 Nov 2015 
+ 18:56:32 GMT
+Received: from mail64-ch1-domain.com (mail-domain.com
+ [216.32.181.175])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rA1IuW5Y004837
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Fri, 1 Nov 2015 18:56:32 GMT
+Received: from mail64-ch1 (localhost [127.0.0.1])	by mail64-ch1-domain.com
+ (Postfix) with ESMTP id D1B6B2E028A	for <user@domain.com>; Fri,  1
+ Nov 2015 18:56:31 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:50.31.49.83;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 7
+X-BigFish: vps7(zzc89bh1454Ic857hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h17326ah8275bh1bc7b9h8275dh19f402h1de097h186068h1ce121iz2fh5eh5fh839h8aah8e2h8e3hd24h1288h12a5h12bdh137ah13eah1441h1504h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h740ibe9i783m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail64-ch1: domain of domain.com designates 50.31.49.83 as permitted sender) client-ip=50.31.49.83; envelope-from=bounces+274327-8user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail64-ch1 (localhost.localdomain [127.0.0.1]) by mail64-ch1
+ (MessageSwitch) id 1383332188403664_16097; Fri,  1 Nov 2015 18:56:28 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.246])	by mail64-domain.com (Postfix) with ESMTP id 53F0C4004E
+	for <user@domain.com>; Fri,  1 Nov 2015 18:56:28 +0000 (UTC)
+Received: from domain.com (50.31.49.83) by domain.com
+ (10.43.70.35) with Microsoft SMTP Server id 14.16.227.3; Fri, 1 Nov 2015 
+ 18:56:24 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=theenergyproject.com; 
+	h=subject:From: user Schwartz <user@theenergyproject.com>
+	bh=pQ4Q2+FLWT4BN2RRh5gFRf9obH0=; b=SVpTS8REE6aRBGfl/zPUbceHwQiT3
+	ieCa4GseW4pn9XjRSFJYEXHh2WlS+qSBzP1Iu2lLw1PwRGGWkJZPzDGmM+/Hv+r4
+	eY5hIJziqFNM4al+qLQWpinuvu8q9XgvihWbpiqyR2HanA53s6wrqjccySHXC05k
+	3SElPc14VJJqfg
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=theenergyproject.com; 
+	h=subject:From: user Schwartz <user@theenergyproject.com>
+	=hbYyR3xA2bOgmQEmcIa2in3fdeoZHCPP2GNVAQsiaBQlHdAL9OYYLUlW1O5wWDD
+	RFcTSuVgLzgHpLn+j6OMgoPwGIkGDws4EW72qyrstO/zLYu+epwhJjQltoJbkRpH
+	69Ng60CJFeZUwh/VwvLVc16ne6dinEivGIV5qVrzHmac
+Received: by domain.com with SMTP id mf17.30484.5273F95717        Fri,
+ 01 Nov 2015 18:56:23 +0000 (GMT)
+Received: from [127.0.0.1] (208.43.203.153-domain.com
+ [208.43.203.153])	by mi35 (SG) with ESMTP id 1421505ff1b.5226.d1b83	for
+ <user@domain.com>; Fri, 01 Nov 2015 13:56:23 -0500 (CST)
+Message-ID: <1383332183.5273user@domain.com>
+Date: Fri, 1 Nov 2015 14:56:23 -0400
+Subject: My new blog post: Manage Fatigue in a Nonstop World With a Nap
+From: user Schwartz <user@theenergyproject.com>
+To: <user@domain.com>
+X-SG-EID: crjdrkBCnHFBAoM6m/Gp9m3skGmMR9d/9Wh2P3ndSBdqdNEy3BS/8cBMydmC7ZI6993egejMDbmfWk2GOnF8xn8Gp8uKwTvsucB1mIGz1ZJd5h6s6TWLsPqjXTzAPpUSxrAdCSzrFyo+XfUZH2mQT1irRCv3cOCgeBDZD2J8OYM
+X-SG-ID: s78jXjc54Sh5tx9yFLGsWSVgP7deeyi89jjwqux6R/VaZ3MLBsrMQtp0deEGE79hHjqL/yBwGvRer6g3dbF1fS7JVCrZoCraH6HEaqpW6rQR2PxCgUXtAHog6LGaGPh0
+Return-Path: bounces+274327-8user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+My new blog post: Manage Fatigue in a Nonstop World With a Nap
+
+Dear Amy,
+
+I would like to share with you my latest blog post, Manage Fatigue in a Nonstop World With a Nap.
+
+If you enjoy it, please comment and share it with your networks.
+
+If for any reason you'd prefer for me not to send you what I'm writing, feel free to unsubscribe at the bottom.
+
+Cheers,
+
+user
+
+Manage Fatigue in a Nonstop World With a Nap
+
+I didn’t get enough sleep one night recently. I realize that’s scarcely a big confession, but it’s a rare event for me. Because I’m acutely aware of how critical sleep is to my mood, focus, creativity and even my motivation, I’m usually vigilant about getting the sleep I require to wake up fully rested. 
+
+On this occasion, I felt fine through a series of morning meetings. By midday, however, I noticed my energy dropping and my mind slowing down. I had a challenging piece of work left, but I couldn’t imagine taking it on. Instead, I decided to take a nap in the lounge chair I have in my office just for that purpose. 
+
+I gave myself 20 minutes and was asleep for probably 15 of them. When I awoke, I felt refreshed. I had no trouble throwing myself into the work I’d earlier dreaded.
+
+READ THE FULL POST
+
+
+
+
+This email was sent to user@domain.com
+

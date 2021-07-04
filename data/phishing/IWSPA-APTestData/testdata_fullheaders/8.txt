@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.215.208 with SMTP id q77csp595962lfi;
+        Sat, 20 Dec 2015 04:58:08 -0800 (PST)
+X-Received: by 10.140.80.136 with SMTP id c8mr751820qgd.30.1419080287092;
+        Sat, 20 Dec 2015 04:58:07 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qc0-domain.com (mail-qc0-domain.com. [2607:f8b0:400d:c01::22a])
+        by domain.com with ESMTPS id 5si1363740qcf.3.2014.12.20.04.58.06
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sat, 20 Dec 2015 04:58:07 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22a as permitted sender) client-ip=2607:f8b0:400d:c01::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qc0-domain.com with SMTP id x3so1694188qcv.29
+        for <user@domain.com>; Sat, 20 Dec 2015 04:58:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=subject:references:From: Jennifer Palmieri <jennifer.m.palmieri@gmail.com>
+         :content-transfer-encoding:mime-version;
+        bh=cSjWCD2tgMJ2cn8s03D7V5lqcbihsMgVLGh7hIegdwg=;
+        b=ws4+sWXBatg/GHGByVll6LNZYkgIMZZuouMIaNkC1Uv6QWDqQcX6R+/mVsGAk6LseD
+         WFmpIWEPy6FFMW776dZCYPCP3D28LJaVODslSErggrcTsu3fZzQSyXF+ERDUyO6kW1lR
+         Hs//AHcImQLrjc6vmaARNTDVZHn2W539v4p6yb+gBVKfdwFSyDftblFi1+TxYtetgyjs
+         8xQAISzj5nymJteNNqjG6KRLslHXl/HYY8Mz/v6T8OL8qPD0P1sIbCYGbW++0fiJAGpg
+         YWFQ/z0I1LJdj3lbnn3JlBfcLvtAcpsSp2xSMl5ozP/WcqaA1sEObnABS7EIe9qwInU6
+         FDXA
+X-Received: by 10.224.42.202 with SMTP id t10mr21925863qae.21.1419080286257;
+        Sat, 20 Dec 2015 04:58:06 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [192.168.1.75] (c-68-50-100-235.domain.com. [68.50.100.235])
+        by domain.com with ESMTPSA id v107sm11950339qgd.19.2014.12.20.04.58.05
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sat, 20 Dec 2015 04:58:05 -0800 (PST)
+Subject: Re: Legacy
+References: <user@domain.com> <37916user@domain.com>
+From: Jennifer Palmieri <jennifer.m.palmieri@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-3BEDD8D4-A315-4356-AF45-6F5249345EE4
+X-Mailer: iPad Mail (11D201)
+In-Reply-To: <37916user@domain.com>
+Message-Id: <user@domain.com>
+Date: Sat, 20 Dec 2015 07:58:07 -0500
+To: John user <user@domain.com>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+
+I have a good theory on this.  Have working groups led by admin person and a
+ former admin person that engages on protecting and selling the record - usi
+ng the republican congress attacks as the reason for why we have to do it.=20
+
+Sent from my iPad
+

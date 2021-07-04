@@ -1,0 +1,103 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 10 Jun 2015 09:03:04 -0700
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s5AG33iL001773	for <user@domain.com>; Tue, 10 Jun 2015 
+ 16:03:03 GMT
+Received: from mail40-va3-domain.com (mail-domain.com
+ [216.32.180.112])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s5AG41UR018982
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 10 Jun 2015 16:04:01 GMT
+Received: from mail40-va3 (localhost [127.0.0.1])	by mail40-va3-domain.com
+ (Postfix) with ESMTP id 36EA84401A0	for <user@domain.com>; Tue,
+ 10 Jun 2015 16:03:02 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:204.92.26.225;KIP:(null);UIP:(null);IPV:NLI;H:mail01.info.fticonsulting.com;RD:mail01.info.fticonsulting.com;EFVD:NLI
+X-SpamScore: -21
+X-BigFish: vps-21(z54efhb10ILzc89bh552I1454Ic857h13ddIzz1f42h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1de098h1df219h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h18602ehz2fh5fh839hd24hd2bh10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h2336h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h282bh28a1h9a9j)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail40-va3: domain of info.fticonsulting.com designates 204.92.26.225 as permitted sender) client-ip=204.92.26.225; user@domain.com; helo=mail01.info.fticonsulting.com ;domain.com ;
+Received: from mail40-va3 (localhost.localdomain [127.0.0.1]) by mail40-va3
+ (MessageSwitch) id 1402416179913815_2155; Tue, 10 Jun 2015 16:02:59 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.230])	by
+ mail40-domain.com (Postfix) with ESMTP id D1C6D40098	for
+ <user@domain.com>; Tue, 10 Jun 2015 16:02:59 +0000 (UTC)
+Received: from mail01.info.fticonsulting.com (204.92.26.225) by
+ domain.com (10.7.99.14) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 10 Jun 2015 16:02:59 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=fticonsulting.com; s=dk1024-2012; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1402416179;
+	h=From: "Roy Salter " <FTIVFASGroup@fticonsulting.com>
+	bh=BZiYX7JDx6k41yVPGwSxwLBusXc=;
+	b=Vdy6ppOC9pBa5VO4yGe3vHQcRj+CEAQurtA1EAAIIUTvpDcIUF6yOWpV+t4KKIg/
+	LUY1EcE8pXs9VBMX+leRKfF0l3A5RJJ9NuR8DSbyaTH/RbwdRYEIsBRjWHi1muwa
+	jChsrdbZVaGwdyYzl1su2XoAOhu4LzT/xJn4m9G8kYE=;
+Received: from [10.4.1.10] ([10.4.1.10:6249] helo=P01INJECT005)	by
+ msm-mta03-tor6 (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.4.38585 r(Platform:3.5.4.0)) with ESMTP	id 2A/64-06616-33C27935; Tue, 10
+ Jun 2015 12:02:59 -0400
+Message-ID: <5dc449d234da417a9c139baec316dcc0@2064197708>
+X-Binding: 2064197708
+X-elqPod: 0x04D4AA276AEFAC548AF4C2541180280C6E4E16410A533B620AAC2EC8FC2601D8
+From: "Roy Salter " <FTIVFASGroup@fticonsulting.com>
+To: <user@domain.com>
+Reply-To: Roy Salter <user@domain.com>
+Date: Tue, 10 Jun 2015 12:02:58 -0400
+Subject: Webcast Invite:  Sports and Media M&A and Investment
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1574781138_-_-"
+
+Webcast Invite:  Sports and Media M&A and Investment
+
+
+
+
+<<link>>        
+
+VALUATION & FINANCIAL
+ADVISORY SERVICES
+
+
+
+
+        Please join us for the Sports and Media M&A and Investment Webcast
+Date: Thursday, June 19, 2014       Time: 11:00AM PDT
+
+
+
+        Dear Friends and Colleagues,
+
+I will be speaking on a Webcast panel on June 19, 2015 sponsored by Kolodny Law Group, DelMorgan & Co., FTI Consulting and DLA Piper, and thought you may be interested in attending.
+
+This program is complimentary to attend and will offer one hour of MCLE / CPE domain.com.
+
+Below is a link to the Webcast invitation and registration information:
+
+SPORTS AND MEDIA M&A AND INVESTMENT
+
+Hope you are able to join us. Also, please feel free to pass this invitation along to your colleagues or clients, as you see fit.
+
+Regards,
+Roy
+
+Roy Salter
+Senior Managing Director, Valuation & Financial Advisory Services
+
+FTI Consulting
++1.310.651.9062 T | +1.310.871.4037 M
+user@domain.com
+
+1840 Century Park East | Ste 400
+Los Angeles, CA 90067
+www.fticonsulting.com
+
+
+
+         <<link>>                
+
+
+

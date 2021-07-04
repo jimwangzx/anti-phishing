@@ -1,0 +1,82 @@
+Delivered-To: user@domain.com
+Received: by 10.151.116.6 with SMTP id t6cs297368ybm;
+        Wed, 3 Sep 2015 20:35:09 -0700 (PDT)
+Received: by 10.151.108.17 with SMTP id k17mr13630404ybm.51.1220499309188;
+        Wed, 03 Sep 2015 20:35:09 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.62])
+        by domain.com with ESMTP id 5si11432725yxt.1.2008.09.03.20.35.08;
+        Wed, 03 Sep 2015 20:35:09 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.62 as permitted sender) client-ip=209.85.217.62;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.217.62 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 22so8647602gxk.14
+        for <user@domain.com>; Wed, 03 Sep 2015 20:35:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :mime-version:content-type:received:date:x-ip:user-agent
+         :x-http-useragent:message-id:subject:From: "pbarry122@gmail.com" <pbarry122@gmail.com>
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=CAEwQrGss/d5QhM463Jkx5K/FKGJabrLG/AFY/GIuEg=;
+        b=XlICUvFMCLpZkjM1fxZv6ZWNFNva7Pjlcc7Ujl6boNR5SXd6ailHURLzcHATBuDDeS
+         IKGCTB9zspG/unLywrXnsgoC3MhKSORWLSWqxj7MWUEwtz46AsU6zDLg76vTLby9a21E
+         FtDxa4oiMaFqX9qvQXRUqAtyHKJ4FhQLvcEdo
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:mime-version:content-type:date:x-ip
+         :user-agent:x-http-useragent:message-id:subject:From: "pbarry122@gmail.com" <pbarry122@gmail.com>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=YbdKlZ1xHLn44wwk3hkLuaYX71gfjR+ryHtlecMwskljjEJwDLCanOB488CbHBL3Yb
+         qQARz6Dqs/jh3/LCRStAulSBb0xxGJQZvqdrJGloLVMQjR5MMuyFlv5KHFFEpLlvmaKT
+         vOwD1xO6WCKANnN3Fi2As9jg9pPkNGvd5I73I
+Received: by 10.90.36.16 with SMTP id j16mr486857agj.13.1220499302313;
+        Wed, 03 Sep 2015 20:35:02 -0700 (PDT)
+Received: by 10.44.113.43 with SMTP id l43gr1809hsc.0;
+	Wed, 03 Sep 2015 20:34:52 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Received: by 10.100.41.4 with SMTP id o4mr477237ano.29.1220499291610; Wed, 03  Sep 2015 20:34:51 -0700 (PDT)
+Date: Wed, 3 Sep 2015 20:34:51 -0700 (PDT)
+X-IP: 71.255.230.186
+User-Agent: G2/1.0
+X-HTTP-UserAgent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.16)  Gecko/20080702 Firefox/2.0.0.16,gzip(gfe),gzip(gfe)
+Message-ID: <2user@domain.com>
+Subject: [big campaign] Insulting Community Organizers?
+From: "pbarry122@gmail.com" <pbarry122@gmail.com>
+To: big campaign <user@domain.com>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+Are you serious?  The repubs spent all night slamming Obama's work as
+a community organizer, an insult to volunteers, and community
+advocates across the country.  60 million Americans volunteered 8.1
+billion hours for this country last year, and they mocked it.
+
+<<link>>
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---

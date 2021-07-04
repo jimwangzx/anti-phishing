@@ -1,0 +1,59 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.207 with SMTP id r198csp249313lfr;
+        Sat, 12 Sep 2015 10:25:07 -0700 (PDT)
+X-Received: by 10.112.169.66 with SMTP id ac2mr4647030lbc.32.1442078707643;
+        Sat, 12 Sep 2015 10:25:07 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-la0-domain.com (mail-la0-domain.com. [2a00:1450:4010:c03::236])
+        by domain.com with ESMTPS id z2si1486158lag.36.2015.09.12.10.25.07
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 12 Sep 2015 10:25:07 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::236 as permitted sender) client-ip=2a00:1450:4010:c03::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-la0-domain.com with SMTP id j9so57078907lag.2
+        for <user@domain.com>; Sat, 12 Sep 2015 10:25:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Jake Sullivan <jsullivan@hillaryclinton.com>
+         :cc:content-type;
+        bh=Mhy4H5kqAZh0skBL+uSul6El4lc7Pwj/dsdx91A+2JM=;
+        b=UDY9ZXKYj+kAw5lISU6++4p+dgYNF6sEupExriFvSmwX8fLfztlnzrJjNIqH+CSqtQ
+         kYQWN8mI9HeX958+PZk1zZWm2Vfd14r16/FH5ViIeGcnuAX/uxMuL5h7//W2GzimhWWX
+         j2WLGoiY84y5/YJjC1UGuaHsD1jbNZnqcITP0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Jake Sullivan <jsullivan@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=Mhy4H5kqAZh0skBL+uSul6El4lc7Pwj/dsdx91A+2JM=;
+        b=EeXw+YQsPkCqOJ2s5z4QwcR2w/yPegJJs0+PyEICiK6vaCZzuenitPfvUvRAwCpsVW
+         MKM90AtGqiD0EpoJW3oO9nCYIgXFFEHT1qBFqrQFj/WSuJXXr2eG/DV7G4KZEj48YW3w
+         0EftLcNQjczT7fgNhGkLAi4SHsjWl740GQ3LkhegzP28RYnsJddc+J28oaHLwH0HocDu
+         jSOr2uT5yuebo1Rclr4T++kbZK85G/4L2oBziZAVeLsciuGkJijRPbo7sQ9ZqT7/Hpkd
+         WxeAp0ba5v38PRJSjEehBPPsATNhAHtFmAK/zkwniN/NdQGzhLb/sXf810u0+3jX3DGz
+         5VQQ
+X-Gm-Message-State: ALoCoQmW0vM56Dr5bSOKjWou3kuG+wl6TtkS2tcoEgej7mZTF8P8g8GEkpmwaR3vCKMcpPq1JvAE
+X-Received: by 10.112.169.66 with SMTP id ac2mr4647023lbc.32.1442078707467;
+ Sat, 12 Sep 2015 10:25:07 -0700 (PDT)
+From: Jake Sullivan <jsullivan@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CANn9_k+user@domain.com>
+ <CAJiTYQbYQpS3OqSDqQ7Yr+nt+user@domain.com>
+In-Reply-To: <CAJiTYQbYQpS3OqSDqQ7Yr+nt+user@domain.com>
+Date: Sat, 12 Sep 2015 13:25:06 -0400
+Message-ID: <-5743975079818458502@unknownmsgid>
+Subject: Re: FTT/Social Security Arguments Pro and Con
+To: Neera Tanden <user@domain.com>
+CC: Gene Sperling <user@domain.com>, David Kamin <user@domain.com>, 
+ Gary Gensler <user@domain.com>, 
+ John user <user@domain.com>, 
+ Michael Pyle <user@domain.com>, 
+ Michael Shapiro <user@domain.com>, 
+ Mike Schmidt <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c38da018e90e051f901d8e
+
+Would love to have you sketch out your ideal proposal.
+

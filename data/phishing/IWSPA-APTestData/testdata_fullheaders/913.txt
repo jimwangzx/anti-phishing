@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp172663lfi;
+        Tue, 12 May 2015 13:41:32 -0700 (PDT)
+X-Received: by 10.70.52.130 with SMTP id t2mr31135911pdo.34.1431463291445;
+        Tue, 12 May 2015 13:41:31 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [74.125.149.77])
+        by domain.com with SMTP id ex5si24007239pac.119.2015.05.12.13.41.30
+        for <user@domain.com>;
+        Tue, 12 May 2015 13:41:31 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.149.77 as permitted sender) client-ip=74.125.149.77;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 74.125.149.77 as permitted sender) user@domain.com
+Received: from mail-ie0-domain.com ([209.85.223.173]) (using TLSv1) by domain.com ([74.125.148.12]) with SMTP
+	ID DSNKVVJleiJUxP0C9iZCIoUywwyLg6uZr+user@domain.com; Tue, 12 May 2015 13:41:31 PDT
+Received: by iecmd7 with SMTP id md7so13253531iec.1
+        for <user@domain.com>; Tue, 12 May 2015 13:41:29 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Peter Colavito <peter.colavito@seiu.org>
+         :content-type;
+        bh=zVDwU4rapfutFKf1nY+dE7ZdCW3pF6y2ldcxuidfOuw=;
+        b=ah/0/3rP6q0WkauZ8pJOQAi48ARuUW++yL9Pm0/u3Mp7kevrgA4QMTLjgb7TBEdbwE
+         cmPe8zr7662vQqTuTuftPIYADoZETlandoksSZ6KQH6YoO1jaVJW312K54EIbaeQKpI4
+         o+W2lMLtnVffl16CVdFNRGtNmJNyGX4zRCZyZnxEPgu2j758rEcgq3jRsAV5tTkXCfFj
+         fouGxHuS+b/vT4LHajT8oDwsd5de4T2/3UKFzyJ8J4BMZOAOknEHcNDO81PPRVzS21Pk
+         Z0jQY2qBASSmVdTiaN1xLauGC1C4rsmDaSt2aEDWG/lFv9a+1VoPQTgcmvLVsNnhpsUf
+         qXKg
+X-Gm-Message-State: ALoCoQnX6jMK6Q88wVhru5F8lX3jd1Mb+zk+VP+ajA2h2R3eMRdV6ai3xWOpIdRo9M8A+g58cGd4zA6h1VFl/hVG66I6lhpVa8xaKk86ZSwHLYvBqEHRR8IjN9NDA6RWM4XxG5TlKt+c5tBVzzDFqwuX4m/0VlN2DA
+X-Received: by 10.107.133.2 with SMTP id h2mr807396iod.31.1431463289800;
+        Tue, 12 May 2015 13:41:29 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.107.133.2 with SMTP id h2mr807384iod.31.1431463289719; Tue,
+ 12 May 2015 13:41:29 -0700 (PDT)
+Received: by 10.50.40.101 with HTTP; Tue, 12 May 2015 13:41:29 -0700 (PDT)
+Date: Tue, 12 May 2015 16:41:29 -0400
+Message-ID: <CALd0n2=pSCVYKeOy8x+nTH2WzCKpVa17wtz3jorVS3iz+user@domain.com>
+Subject: de Blasio event
+From: Peter Colavito <peter.colavito@seiu.org>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113fb1eee4cbaf0515e884ba
+
+As far as I could tell was fine, high tone.   We didn't stay until the end
+but no surprises while we were there.
+
+-- 
+Peter Colavito
+Director of Government Relations
+Service Employees International Union (SEIU)
+1800 Massachusetts Avenue, NW
+Washington, DC 20036
+(202) 730-7727

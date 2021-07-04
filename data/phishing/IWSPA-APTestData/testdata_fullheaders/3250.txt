@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp7131545lfi;
+        Wed, 10 Jun 2015 15:53:57 -0700 (PDT)
+X-Received: by 10.107.13.130 with SMTP id 124mr7546851ion.70.1433976837435;
+        Wed, 10 Jun 2015 15:53:57 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ie0-domain.com (mail-ie0-domain.com. [2607:f8b0:4001:c03::22b])
+        by domain.com with ESMTPS id dd8si4708161icb.69.2015.06.10.15.53.56
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Jun 2015 15:53:57 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::22b as permitted sender) client-ip=2607:f8b0:4001:c03::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ie0-domain.com with SMTP id ps5so4689812ieb.3
+        for <user@domain.com>; Wed, 10 Jun 2015 15:53:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Mae user <muser@gmail.com>
+         :message-id:date:references:in-reply-to:to;
+        bh=xXm2OqJBRVWHGK9gZ1g1W9/u3ejDHNa/1KNeNFbH+PY=;
+        b=iN0jYAFfuRfSv9InlEXAzsY5m3JkNlD7exWBUL0SE3cTFs+Ya+hBpAyOm2bAELFrzm
+         ixBd3k/KEtSAWe3OeWa5Tjv6OvXhAZLJX4dvqI1cWNiSfIYzNCQO2JcCvd2sDV5BbJqc
+         Mb/YaFrS9MRsozgoMyTp1C+Jn4gC3joIhqCti6TiAF2boYqLVxegHjEAhFXzY5nAMWuP
+         0TEFwBhfJSdsqPmvgcMXr3d8XTtX7HD7+Yo2WubzQ5XmcaUZFP0J+dHNy7DvhZy6YXqc
+         sd3Ir/vpqgGrOeJ8iD70rq2HbErio/DeQWRCIyK+n2ZXOvlP3Q7Xc7fRRkOnDIICndOC
+         id6g
+X-Received: by 10.50.79.202 with SMTP id l10mr9003070igx.7.1433976836746;
+        Wed, 10 Jun 2015 15:53:56 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2600:1002:b108:1e3a:2419:9264:ab64:ece3? ([2600:1002:b108:1e3a:2419:9264:ab64:ece3])
+        by domain.com with ESMTPSA id o200sm6932746ioo.43.2015.06.10.15.53.55
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 10 Jun 2015 15:53:55 -0700 (PDT)
+From: Mae user <muser@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-5EF1619E-1441-49B1-AFF2-377EC9305140
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Re: Saturday
+Message-Id: <4user@domain.com>
+Date: Wed, 10 Jun 2015 18:53:52 -0400
+References: <835user@domain.com> <user@domain.com>
+In-Reply-To: <user@domain.com>
+To: John user <user@domain.com>
+X-Mailer: iPhone Mail (12F70)
+
+Great, so to confirm I can invite her to join us?
+
+Are we supposed to wear fancy clothes for Hillary swag? 
+

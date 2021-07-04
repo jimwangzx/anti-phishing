@@ -1,0 +1,80 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp7108283lfi;
+        Wed, 10 Jun 2015 15:12:15 -0700 (PDT)
+X-Received: by 10.60.177.73 with SMTP id co9mr4708673oec.5.1433974335089;
+        Wed, 10 Jun 2015 15:12:15 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::234])
+        by domain.com with ESMTPS id mj6si7020063oeb.64.2015.06.10.15.12.14
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Jun 2015 15:12:15 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::234 as permitted sender) client-ip=2607:f8b0:4003:c01::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id gp2so43890940obb.2
+        for <user@domain.com>; Wed, 10 Jun 2015 15:12:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Brian Fallon <bfallon@hillaryclinton.com>
+         :cc:content-type;
+        bh=vNnNxwldiGWE+QNX8n6NGJ2ClFtUleL1HEny7ptc+1Y=;
+        b=EFw7wRo3E7vs3/T+gvTgGmHG6HG1sG/b/8ZZ6gDJixQ2L1hsINoL59uisB+NaEteEG
+         Lu28VlKLabMwOq65uSeO3S9ecJz5lQX3DsfE80ij53v/iaerpJpeeBJoxdCnW0Y9okkN
+         YjHh7lltvudXnFdI8Zuo4/9Al4++rQiEGPeT8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Brian Fallon <bfallon@hillaryclinton.com>
+        bh=vNnNxwldiGWE+QNX8n6NGJ2ClFtUleL1HEny7ptc+1Y=;
+        b=Cgwbh4QtdfXRhJNx3eLY84ccmGr+I3fPHwBVXV0dJ7Rj2HXrzK2QIgQvZvVqCfX0rn
+         3e+e8BpbXHbKGR7P7pHZ3ovlD5gaUqCD1FvHu0+QnzNS7GYQG1nrNn4ut3X9/nDzbjFL
+         BtEKX93t/TA4VXxN8O5Zgm5wFfzhm9kF+qmCWjz6qMC4Pvy2qZlwvMX98iD3PebR/MIt
+         snd7S15/BIV6YFqDeXCbDJ39DYhMbnzJIethMTHCeqI/NrLRGYpJjpGogxclqTRllo5m
+         Dp0FOMM0Kq9AFvk1BiNWcmU8PBWv9lKJnGOx4aDfCsAEIqmZnpuuh4VWp/HOj70s7jB5
+         MUWQ
+X-Gm-Message-State: ALoCoQnO0699ZkBzfRJyFB5A/3M3+6dC6PYpkxYMsqprrmnNRy5OBc/PLKrW79Fcc4VV//70aJba
+MIME-Version: 1.0
+X-Received: by 10.202.196.211 with SMTP id u202mr4543835oif.10.1433974334159;
+ Wed, 10 Jun 2015 15:12:14 -0700 (PDT)
+Received: by 10.60.114.73 with HTTP; Wed, 10 Jun 2015 15:12:14 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <CACWw=rTTJVPNyH5cJew6CrLWtkQnJgnH4253WggwdyhmKXn+user@domain.com>
+	<user@domain.com>
+	<-2068198124412431922@unknownmsgid>
+	<user@domain.com>
+	<user@domain.com>
+Date: Wed, 10 Jun 2015 18:12:14 -0400
+Message-ID: <CANqZgL_+m-uj5uBqATbtR+user@domain.com>
+Subject: Re: Policy Heads Up: Warren on Debt-Free College & Bernie on Paid Leave
+From: Brian Fallon <bfallon@hillaryclinton.com>
+To: "User" <user@domain.com>
+CC: John user <user@domain.com>, 
+ Amanda Renteria <user@domain.com>, 
+ Robby Mook <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Marlon Marshall <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Maya Harris <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113e4334ce162e0518312ad3
+
+Ann - Politico has learned of your meeting tomorrow with "CAP folks" and is
+using that, combined with Warren's announcement today, as the hook for a
+story on the "Clinton campaign at work on a debt-free college proposal."
+She intends to name Gene, Neera, James Kwaal, domain.com Chopra, and Mark
+Huelsman as people the campaign has consulted over the previous months. The
+story intends to say that among the things on the table in the discussion:
+(1) having the proposal contemplate "Cost of attendance," not just tuition;
+(2) a college student's "bill of rights"; and (3) a responsibility
+provision that would make colleges bear some of the liability for students
+who default on their obligations. The story intends to say that nothing has
+been finalized yet, but the goal is to unveil the proposal as soon as July.
+The story is planned for tomorrow morning. we don't have to do anything
+unless we want to play down any of the ideas being described as "on the
+table."
+
+On Wed, Jun 10, 2015 at 5:46 PM, Ann O'Leary <user@domain.com>

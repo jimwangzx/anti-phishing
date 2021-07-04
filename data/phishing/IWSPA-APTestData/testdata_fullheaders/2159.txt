@@ -1,0 +1,105 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp1529860lfr;
+        Fri, 14 Aug 2015 08:05:37 -0700 (PDT)
+X-Received: by 10.50.79.202 with SMTP id l10mr2996451igx.7.1439564736901;
+        Fri, 14 Aug 2015 08:05:36 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::22e])
+        by domain.com with ESMTPS id au10si1494452igc.81.2015.08.14.08.05.36
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Aug 2015 08:05:36 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::22e as permitted sender) client-ip=2607:f8b0:4001:c06::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-io0-domain.com with SMTP id t126so87431736iod.2
+        for <user@domain.com>; Fri, 14 Aug 2015 08:05:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Dan Schwerin <dschwerin@hillaryclinton.com>
+         :content-type;
+        bh=8HozgC0P4YcGWvMlqweuEtv0dR5zE1QUzXtc0B205qI=;
+        b=cPx+3nRY0ssfWz4ETs4oZac2NrqdpVPGfssA2uGghT+qwJJUb/w+TtzI6+d/4lXTVF
+         fRG8KdYpvWcCzla35r1pbiICn8Iy5GNzDKM38gpVCHlHv35DvilAbpTtvT3vMhstbjw0
+         RXrX6Go8kD9YRU75l7xb00woMeeUqZt1PCoPM
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Dan Schwerin <dschwerin@hillaryclinton.com>
+        bh=8HozgC0P4YcGWvMlqweuEtv0dR5zE1QUzXtc0B205qI=;
+        b=dbthJ82pyfyPSSKlojsn2H06dUimNXwvNUwo8lIbMV1CcyTn5IhDsP/uBSWVuZCHbP
+         ELtzCUmlw9FDXJD9+W8hiAMpe2Cb2sBVQ4YGcP1ez2GuK/oZ5bYiHb1AY7dTfRdmCJS9
+         SLpU7QjuwjSmSuaLSCf/SKIik6q9dmpSv+t7sJ7Zl5tpOhyT3BC/KxBK+jIE5ECB220r
+         oA+W/SD5zkuIEkVkfFqwMFvHJxe6Pis8l/dG+OWRtobF9jiwTziHl7LrjfgEVyWWHem3
+         Xt0vJYLOn8xrnidtjkHM7xovbU5Fr7rk9ifh3KlA6ErU+E10GYpizxxWPAfFrGVWEfpM
+         Tlow
+X-Gm-Message-State: ALoCoQnWjPvnuUm7RwM7rdvck2JHAiTOvF/i3yvnt4Nn8+JXvIWla3lXWFFRHBi8vKr2XaPCtYFx
+MIME-Version: 1.0
+X-Received: by 10.107.8.11 with SMTP id 11mr41215212ioi.125.1439564735914;
+ Fri, 14 Aug 2015 08:05:35 -0700 (PDT)
+Received: by 10.79.28.14 with HTTP; Fri, 14 Aug 2015 08:05:35 -0700 (PDT)
+In-Reply-To: <1user@domain.com>
+References: <user@domain.com>
+	<CAAEwKfxe+EEm6K++NOQntQo=rQ4KkhEMK3Oq-Ad+user@domain.com>
+	<1user@domain.com>
+Date: Fri, 14 Aug 2015 11:05:35 -0400
+Message-ID: <CAAEwKfycBvXULafh+user@domain.com>
+Subject: Fwd: Wing Ding
+From: Dan Schwerin <dschwerin@hillaryclinton.com>
+To: John user <user@domain.com>, 
+ Jake Sullivan <user@domain.com>
+Content-Type: multipart/mixed; boundary=001a113ece66b7a987051d46c88f
+
+Joel's comments on Iran
+---------- Forwarded message ----------
+From: Dan Schwerin <dschwerin@hillaryclinton.com>
+Date: Fri, Aug 14, 2015 at 10:58 AM
+Subject: RE: Wing Ding
+To: Dan Schwerin <user@domain.com>
+
+I=E2=80=99m on a plane and m first flight had spotty wifi.
+
+I don=E2=80=99t know what others comments are but you can read just the tra
+cked
+changes in Iran section and decide with her which she likes.   I don=E2=80
+=99t
+think the =E2=80=9Chard choices=E2=80=9D reference works but I=E2=80=99ll l
+eave that to you.  It=E2=80=99s
+the title of her book and while this may be one of them I would rather she
+just sound definitive about what she=E2=80=99s saying on this rather than d
+efining
+what leadership is about.  I think the point of her comments has to come
+through. Maybe I=E2=80=99m overthinking but it just doesn=E2=80=99t hit me 
+right.
+
+For what it=E2=80=99s worth, I hate the yelling/screaming/trump graph.  It 
+sounds
+completely contrived and doesn=E2=80=99t deliver a big joke or a big point.
+
+I realize I=E2=80=99m out of town given that I=E2=80=99m on a plane. So I w
+on=E2=80=99t weigh in on
+anything else. Obviously didn=E2=80=99t have much of chance given I had to 
+travel
+starting at 5 AM
+
+Joel
+
+*From: Dan Schwerin <dschwerin@hillaryclinton.com>
+user@domain.com] *On Behalf Of *Dan Schwerin
+*Sent:* Friday, August 14, 2015 2:25 AM
+*To:* Speech Drafts
+*Subject:* Re: Wing Ding
+
+Sharing my latest Wing Ding draft. I'm planning on making a few tweaks to
+the Iran section and looking to cut several hundred words, which I don't
+think will be tough. On first blush, HRC is liking this more than before,
+but we'll see.
+
+Thanks
+
+Dan
+
+On Thu, Aug 13, 2015 at 4:20 PM, Dan Schwerin <user@domain.com
+

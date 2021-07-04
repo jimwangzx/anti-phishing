@@ -1,0 +1,83 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 10 Dec 2015 10:45:49 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBAIjm4I004547	for <user@domain.com>; Tue, 10 Dec 2015 
+ 18:45:48 GMT
+Received: from mail161-ch1-domain.com (mail-domain.com
+ [216.32.181.170])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rBAIjmeG022873
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 10 Dec 2015 18:45:48 GMT
+Received: from mail161-ch1 (localhost [127.0.0.1])	by
+ mail161-ch1-domain.com (Postfix) with ESMTP id F07622000A8	for
+ <user@domain.com>; Tue, 10 Dec 2015 18:45:47 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:75.126.253.228;KIP:(null);UIP:(null);IPV:NLI;H:o4.email.foursquare.com;RD:o4.email.foursquare.com;EFVD:NLI
+X-SpamScore: 4
+X-BigFish: vps4(zzc89bhc857hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h17326ah8275bh1bc7b9h8275dh2ba5I1de097h186068h164c38j1ce121iz2fh5eh5fh839h1288h12a5h12bdh137ah13eah1441h1504h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h21e9h2216h2336h740i214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail161-ch1: domain of email.foursquare.com designates 75.126.253.228 as permitted sender) client-ip=75.126.253.228; envelope-from=bounces+3913-user@domain.com; helo=o4.email.foursquare.com ;ursquare
+Received: from mail161-ch1 (localhost.localdomain [127.0.0.1]) by mail161-ch1
+ (MessageSwitch) id 1386701146242964_4843; Tue, 10 Dec 2015 18:45:46 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.254])	by mail161-domain.com (Postfix) with ESMTP id
+ 37BD826004A	for <user@domain.com>; Tue, 10 Dec 2015 18:45:46 +0000
+ (UTC)
+Received: from o4.email.foursquare.com (75.126.253.228) by
+ domain.com (10.43.70.22) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 10 Dec 2015 18:45:44 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=foursquare.com; 
+	h=From: Foursquare <noreply@foursquare.com>
+	bh=3T0jBHXE9XNqwF26O/bs7ml5n3Q=; b=wbvteVkQm4Tpf7mgmC+cVp+Uq+wKT
+	7BXh6qQ1txfFcHmiLXvE6AWMpCwv+3FbcJapzw65gKhrb3m/Y9QG/DMAJHDcX3Cf
+	FaYZwIYj2pT33EqNG3LgkUuJRA66mlgSD8MFLwcjMs6ALPMCYv7ks8kymp1X1MAR
+	E3nKajUNqbbZj4
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=foursquare.com; 
+	h=From: Foursquare <noreply@foursquare.com>
+	=BJ0btez78y8SzYTMI/qdV7ucrHfpCJzJDiaWBzGKOaZZEG02m+7aQFsfi3pFs8t
+	2Tf1rOPEA4ew4tKA48Euh7z1O7cttgqxOXVLhDTVH0PzVSuJsg2Ren5VvQAaAHNt
+	t5t9LKBkNnzUoVQEglkZaR5TkBFsE99A/dZp/k08Uru0
+Received: by domain.com with SMTP id mf138.27435.52A761581        Tue,
+ 10 Dec 2015 18:45:44 +0000 (GMT)
+Received: from fsag8.prod.foursquare.com (unknown [199.38.177.8])	by mi57 (SG)
+ with ESMTP id 142ddd44014.5178.168fed	for <user@domain.com>; Tue,
+ 10 Dec 2015 12:45:44 -0600 (CST)
+From: Foursquare <noreply@foursquare.com>
+To: <user@domain.com>
+Message-ID: <134578487.1046511.1386701143507.user@domain.com>
+Subject: A smarter, more beautiful Foursquare is ready for you now
+Date: Tue, 10 Dec 2015 18:45:44 +0000
+X-SG-EID: SYFqsBWg2mXsGcU/NWBUTBWY28GJ4TRo6dycnOqQqbJo8E/bPoSlEK5LXFYqfQNCB+Q3OqePku6es4rfa/JqK4Ne0/5FSuSb1/SFZwARriLgkl68UU1iG0bapqPFi6jLJ70pKkRduZjz9oUoS6PIpJcCd2yBWdB/GK5E36sofp0
+Return-Path: bounces+3913-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-102571806_-_-"
+
+A smarter, more beautiful Foursquare is ready for you now
+
+
+
+
+ Foursquare logo        
+
+
+
+
+Hi Steven!
+
+Today, you can update to a completely re-designed Foursquare for iOS 7. It's smarter, faster, and has a sleeker design. Take a look: 
+
+Get Foursquare Now      
+
+
+
+
+It's smarter: When you arrive somewhere new, we tell you what you need to know (like the best thing to order or a money-saving special), even if you don't open the app. Here’s an example:
+
+
+
+
+More of what's nearby: We shuffle the deck every time you open 
+

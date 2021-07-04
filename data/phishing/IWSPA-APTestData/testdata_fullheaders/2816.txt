@@ -1,0 +1,206 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp1133602lfb;
+        Fri, 13 Nov 2015 10:19:58 -0800 (PST)
+X-Received: by 10.68.204.39 with SMTP id kv7mr34039255pbc.165.1447438798002;
+        Fri, 13 Nov 2015 10:19:58 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.111.65])
+        by domain.com with ESMTPS id gy9si28774926pbc.83.2015.11.13.10.19.57
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 13 Nov 2015 10:19:57 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.111.65 as permitted sender) client-ip=157.56.111.65;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.111.65 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Received: from domain.com (10.141.52.144) by
+ domain.com (10.141.199.15) with Microsoft SMTP
+ Server (TLS) id 15.1.318.15; Fri, 13 Nov 2015 18:19:55 +0000
+Received: from BN1AFFO11FD039.protection.gbl (2a01:111:f400:7c10::111) by
+ domain.com (2a01:111:e400:2414::16) with Microsoft
+ SMTP Server (TLS) id 15.1.325.17 via Frontend Transport; Fri, 13 Nov 2015 
+ 18:19:55 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=domain.com;domain.com; dmarc=none
+ action=none header.from=kirkpatrickforsenate.com;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.74;
+ helo=domain.com;
+Received: from domain.com (141.161.191.74) by
+ domain.com (10.58.52.243) with Microsoft SMTP
+ Server (TLS) id 15.1.325.5 via Frontend Transport; Fri, 13 Nov 2015 18:19:54
+ +0000
+Resent-From: Team Kirkpatrick <info@kirkpatrickforsenate.com>
+Received: from na01-bl2-domain.com (141.161.191.13)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Fri, 13 Nov 2015 13:19:51 -0500
+Received: from domain.com (10.141.205.16) by
+ domain.com (10.141.207.139) with Microsoft SMTP
+ Server (TLS) id 15.1.325.17; Fri, 13 Nov 2015 18:19:46 +0000
+Received: from domain.com (10.141.251.31) by
+ domain.com (10.141.205.16) with Microsoft SMTP
+ Server (TLS) id 15.1.318.15; Fri, 13 Nov 2015 18:19:44 +0000
+Received: from BL2FFO11FD026.protection.gbl (2a01:111:f400:7c09::139) by
+ domain.com (2a01:111:e400:2c61::31) with Microsoft
+ SMTP Server (TLS) id 15.1.325.17 via Frontend Transport; Fri, 13 Nov 2015 
+ 18:19:43 +0000
+Authentication-Results: spf=pass (sender IP is 69.25.74.143)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass
+ (signature was verified)
+ header.d=domain.com;domain.com; dmarc=none
+ action=none header.from=kirkpatrickforsenate.com;
+Received-SPF: Pass (domain.com: domain of
+ domain.com designates 69.25.74.143 as permitted sender)
+ receiver=domain.com; client-ip=69.25.74.143;
+ helo=mta-dock-front-15.domain.com;
+Received: from mta-dock-front-15.domain.com (69.25.74.143) by
+ domain.com (10.173.161.105) with Microsoft
+ SMTP Server (TLS) id 15.1.325.5 via Frontend Transport; Fri, 13 Nov 2015 
+ 18:19:42 +0000
+Received: from domain.com (unknown [10.0.200.61])	by
+ mta-dock-front-15.domain.com (Postfix) with ESMTP id
+ 3ny7P95VSvz1gwcT	for <user@domain.com>; Fri, 13 Nov 2015 18:19:41
+ +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1447438781;
+	bh=FNXg6XwpZ5mi/e2HqQrBiunm9EjvkYuil1XwbMg7DRQ=;
+	h=Date:To:From: Team Kirkpatrick <info@kirkpatrickforsenate.com>
+	b=Xw5uQB+zUzLx1jkwnSJVMJlY4sYzZaBT1NW8iWHEJD+jjhIJ+tb15t7WXFu1Fedus
+	 xuWGolCZzfTBOD6TlFoVQig+ZElJVxOmgTtfiV+t5qJKQoYGb/lpYiRitxxvt/Lqyb
+	 pJZHCLcADtjZ8FKTrc8YwAC8GYDOQjgq4/+69qr8
+Received: from phpmailer 	by domain.com with local
+ (PHPMailer);	Fri, 13 Nov 2015 18:19:41 +0000
+Date: Fri, 13 Nov 2015 18:19:41 +0000
+To: John user <user@domain.com>
+From: Team Kirkpatrick <info@kirkpatrickforsenate.com>
+Reply-To: <user@domain.com>
+Subject: We made another "most competitive Senate races" list
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 661f8e64c3b232bc
+X-rpcampaign: rp_20960
+X-maillist-guid: DgxEXhMFEkYMUFs8B1MCB1tcBgZXBAcBUQtQAD9EWgAAFkJUIwgHQ0tUVVpDAlYVDE5eHFFTEDpRAQU
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_f7e525d3f6ddd41966a39363966d7ed2"
+Return-Path: user@domain.com
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD026;1:upoFutfE9E1YQsitXJ9gBuRYbF+7tDaFMII50R0tZ+seTCtw6WH389g6H7x8ViLStTN8Sf9+Sp9nt8fNfmlp64AbDavPIIeB4WIgFtYcQ8PeGkcgI3793uz+WQXo6Bw8sCCgB8TqGsP2S6L3Va6wRCbdxJstYi6aUxDsGW5oYxH7pUE7uctHgRk6iwu705Zz6/DsWWxs9cTKDT7keOLLodOQ/ZoPmWZRfOhh/ZPuIotMF8emhH/pnIyEoelxAJwmYBctsHt/V6XEinFdM+t/FEEMVfHZwifi/JgKgn/lXPLyZbbFf+5ZI27HNLtWyV4YKSYjYusxXNI3cnKcrTBuxrioVIaKq9P1L30XYhjCRoOU2TL/pFLHi4We10SyAFaMI3afTvEsDo+Dfy9iaW2zNQ
+X-Forefront-Antispam-Report-Untrusted: CIP:69.25.74.143;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31620200002)(2980300002)(438002)(359002)(349900001)(349012);DIR:INB;SFP:;SCL:9;SRVR:BLUPR07MB546;H:mta-dock-front-15.domain.com;FPR:;SPF:Pass;PTR:mta-dock-front-15.domain.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB546;2:sWnvSadW4mfFt9YstiJiJczkJE8PbJdSr+OrkNuZ5iM02uEmyIlwj5AcS0kdV+d2B6Zjdm2tAo2Z+8DokwvNoVafSNFaJaabXMr+/RoOdk/ztCd4C0wBYHeP8qT6nnRQNqdbGpR3UYtCBZYBXJoh/KAzox1p2jn+VA7xUM1IlPI=;3:zVs/9VaSpL6veJVv2Dwga7vOhGHPngQ3QOYqqn/0wuNcmRweEWbWtbdhdr8k73aOfKo4s6F3zlOAIzknG1SPmJxAMNifRh0lBVOcr0p/nRCUchdGDwXXI4KAPdGY3NEzbrwVnLyFSd2k05fl918Ec84yVAQQ2UbG8dCGSPVuWqPeF85bmtCvt0chPn5mcNSfuDt0jUeQrffrx9Hr6nyUMeQvChyN+SnJeNShypr/Jw22KKiRRAld6u4yCS6bZ+9+sUGZelp9jWOjgWwH+JNYBNNX3CrAOF35dlbWfWQxpNT5Umwz27e4H0UXa87DoMTCVLh6Qgk4GBIy2ipKFfEcFV+W217RHoxSQYMwJye4tYzXNQi8Y05OiY+fua42HK26;25:ZtcBAwlzwdQle9XJLVnVSXnXjSZCVry1O6NFxuPjFX9h8svFeBxp+3updS4Ez7xSiY8QwMuzAdZ2XXqoJjblK6b/4gSaiZvawhUzjmi1YvXNA1xHDJ5zVlES3xgY2hw2gdmlpFlLJoOTm7bqo6tbxDyx4ikpacQuHQhsGjiWEUsV8VRXNJWv7+LTJ2xEWX+0ed0ba+UqewBYR0BJkg7iUd2NfWlTsbRGNMkxpNoOYBX2twgRXRbNupEXz9jrKnUyqXhLv+30ukrJBhX+IqvkmA
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(421252001)(42134001)(42139001)(42140001)(3001015)(71701003)(71702001);SRVR:BLUPR07MB546;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB546;20:zl8hm8pHT+QLCBztkWAgTERGxpmcXFTLqOG5NMITiGmBkIekTR7QqK2YbJJ4F4r3Sqp0v3UGnQYazrGYpwjaR0qAnQIjmu2unQeJ1dMNjWdM7FY6Ie9cMpE8pgR18EwgfyoAQmu8HTJ/QC9hH5MyYGWMj+NzpOTZjmNXwkFHnYiEcCjvkDk0kpx58rU5gDybToIPEmzY+rXpPHqtViVM/MHmGoUdizgInVaQGBxT4shS98ZEAKDUOtp/gmsgJAZUOJBj5f6KZvR2Lby/bXyUHserrVurqzv9n8bOEyo/Kc5Tekox5rOmgXNJZJ2S0yeepWIYBWQcjQsiOmNJrpVa5anz/DQKaIG0rshryILqo4WIUBCHgzv2BGLlf/CJPZyRNqq4otkAVRKCfIZ/QjfhtgW4OKwBzNCNBXLcGawZhxk=;4:i0WYvb1GlrzTJsv3mh7xzxmNCVbHtHH1EZYJYfrMaeyv+TqpzZGWsUDieuUXDZQ5hzpUAV7pFdVB0UGGdCYzpMsCC/rrk0j6RcB0BRmktBIWfsBEKCDOOYKEQ0vpOw5xE73VwIHgOX5bB6T3pR8irORoFXQl2eEgKDxdMxsbfjVLOgGZewukaw5zF+fYxA+iGiqBFwVkDmnSGfiLO3ZYQweVZ3EVe57jQpony1nFzP48y1A7qRhSef/KL4O7NQ9jn9FxOEjSnNObJQUFNnBJ5aThgW/FUW2ZFdkmx+c5RC3RFI68mbStUaKuCX83NdOh+tELXO6wdW9ZRGqsZOm9UibvK5M69Sj1RWOwJuSYwzuK+Kqxz45kim7uLz8v1OHu
+X-Exchange-Antispam-Report-Test: 
+	UriScan:(76009858676777)(6594202986349);UriScan:(76009858676777)(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(8121501046)(520078)(10201501046)(3002001);SRVR:BLUPR07MB546;BCL:6;PCL:0;RULEID:;SRVR:BLUPR07MB546;BCL:0;PCL:0;RULEID:(601004)(2401047)(8121501046)(5005006)(520078)(3002001)(10201501046);SRVR:CO2PR07MB538;BCL:0;PCL:0;RULEID:;SRVR:CO2PR07MB538;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB546;23:knhj8yMIMSax3vj+rQZyupmTaUVDsoYT7KlTqpx2F2Vh61iACEV80G1eWWE0DsDIK5O+0N6tku3Rqjah5H0CSoPonnuxm9KO0SDc6uqXEVGENjRdSVjo1s4D+pDJ8JgnH169vGzjP1x5Go4sYNIxZnnSwu9jJR6qJhf6lgyqcmJI/Qrx2pr5J0k9t/Jm+UA+tnNlOMMX7dw99BFqrlHcs5MjEUhRDX1Kt/Kmd4zIfyai12OvUwtbS+Da0/Z0uPUCOoAFrwJAnT55csdrPqwOPwySG2LA7g/kGSSCHnkV1cWkafwVqaCH8L7XP/8kWSGD;5:b7NHyx0lbtYml979JMVze+Q9LoXepL0iOOYU7qshcR4qcJ0LO3AIU37smJy0AuGfuY3XAYk9V/ToZxQYOIuIl1O1iXbtYXq2KcvvCZQrloNgFsIR2lbLZ2LAUF5az15URW5iaC505wTLYS7jndC5TQ==;24:Qt2Tv41lyl12LpJYSt7yUfsh7jMdyhu+m4j2u0GatSZAtO0kxL5XCLWQblmwqZouz54DINcpaoBQLcdtfzGUkw==;20:8s6UKss4Y0gHauLPTWqJrBHRwf5Cie8HsFRg3bsTmo7lJN8fDjvN+T6ufP0BHFqIF2jbj01djRkfiyk8V74V4g
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB546
+X-OrganizationHeadersPreserved: domain.com
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB625;2:yF0BH3UKaOSP5oJfVCxs5/XfxGZcqaPYdcW53Ffh5j4clPlsiIp6Zbo9n1ZsthubT0YuE+A60i5ulByA/2vtrpnxaFuGd0CsPWfs5fBdf0DYfGxlIUGMtmn+QXkDO/xk9r9IQWYHHrjXW2xyKs9H8euhxdZch8JVU3WKMLjVsJw=;23:3O1clpw4FxwAHvswrfA0FJo4ciIobDAXGV5pX7fSbIoOaaOtOTraNF7QRrvu7yku+azfUkGClSnjyjbeKMFLyWifwfe5z4Bfl7fGKKXGlb8YS2IpB1wenY/0ymbjyvyN4jjFCc/qCOZEyechw+m4sfmOyFdxVNCPIKh/2a9b/P+7ioDinynC7Pfrs+FYNWI6
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD039.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD039;1:CIejxllLj9OyS8PdO4CqUKhAGKqJR8QciabvSxo5KkIVMjLgupTiWJEP4egqeihWKSSlDrkS466zZgZ2YWoiAsL9rH1SvlJ469sA8/SuEvZ7Klwd9eV26/pm5yd0bMtMIV7/xkxGBgxJpWya1Bai8hXjBaB7aEsCobbgjCUwm3qZW34sBqYwYD1MZGTvMW36H0CxeIv2FUQgdSWVRhQM8jZUu1WFGweEgzPHbmSAyW/IMLWpOBOcl52r7t4e0mAIm3sw4Uc5KNptEesnDouwkn14yVJrsVIhFJlLyeW083ITY1VUpkk8adyQIY+3k79wp598V6OmYC5D5xCrwHGwQTdayzGgvOItPdU1eGEOpGbmQ0wH+z3GOHoa1pqh9oot1epafGfmQczpdHzAxcBKcw
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1109001)(1110001)(339900001)(189002)(199003)(6806005)(189998001)(57986006)(88552001)(89996002)(2171001)(43066003)(50986999)(84326002)(53806999)(47976999)(105606002)(33646002)(4290100001)(18206015028)(87936001)(81686999)(85426001)(960300001)(19617315012)(3820100002)(75432002)(15395725005)(19580405001)(110136002)(1720100001)(5007970100001)(46656002)(5008740100001)(108616004)(4001450100002)(97736004)(15975445007)(50226001)(24736003)(5002220100002)(450100001)(107886002)(16236675004)(18926415007)(229853001)(146001)(106466001)(5001920100001)(19580395003)(11100500001)(23466002)(5001960100002)(956001)(81156007)(512874002)(7099028)(7029013)(95576001)(35244002)(87552002)(42882005);DIR:OUT;SFP:1101;SCL:1;SRVR:CO2PR07MB538;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO2PR07MB538;2:k4lEGENi0QwG2NviIBnQe25d8XwAfFoZj6Q4Zzi2m1PUtLdVJX7zftB/1bBSrnIplZtp/2W7+wawJ69IjXO4shHluCaD6J7iFa/sDqDMOFhhiNsNN3vdcFIXBQKiZ/i46Gh2Nj2xxWwPeauGRP9V+jNP0xbv864kfL2t26Ow9IA=;3:kGr2sgeHpwbqftg5q8Pt2mWTYBcVZ5kixnKY9PIUGZ99I06Cr1bKOjpihquZR+PBIWjYnJvh/kLXwGgV4UtLZq7qjujj5Eg72rG2U8tRwPMJTzP7ma+Aj67qaeLNZm/cuZVT4eIYeGhUAuiH9xF7Zoa/iT/Mr4rxjVtkwLGpuKrqn2AozLf8cW0AnHOWP9NWY8zjKv4SZj6IFBQ05PB6I2y8BMOIBnYLe4SmpqUMWAagMGgQc65orsGjkE6sDvbeOfeMlocEpanCyUwn4YQJVoYJs9s4WVh+KiRZbvny1kRI9bEdpqGK4zezUIukW5z9zhvsuH9+gnzuASNp6e1iFg==;25:rZPeQoubA+q9wS6ziEVxJN0v6rqCn/atxD0jG4BFuCqqzmoaY8D17txATym6pIvgbGMBT9MdSWVZky/zOkqgvcTGH2kxVk9nOQZMjgUVLpuIAv927/Ag3AVHrxtiWpgM6FNZzGjU1NgR+OYhv7WiNWppb+Yx2oi0zpWPb8ke8vR7N654XQKx2c0USDR5V/5CYnrF8b31mjxTVxJxY54yzuOQmLt2hCRAv5bcRYdyAowu19B8vC3qEymaj+iq8sIVQsvTfNKGc4T1NtRZk0Oahw
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:;BCL:0;PCL:0;RULEID:(421252001)(42134001)(42139001)(42140001)(3002015);SRVR:CO2PR07MB538;
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO2PR07MB538;20:vhi9iltVXnq5423L6/Te3rm6LneQPDsl8l3Sd+mSGy2sjgt6LjQOmiiRgKhRO7szFFQ4Xoqi/RibWh2fV7c6vA8N1Wsx+2b0i0OHBZ/XTpSaT40TYt9NJVBtUHQ8lDBxVxXxYZsm886310e0ygWYR9QQD3/1lA5A8+ZB8tC9A/duR1KI/UZQqp/D5hmX1z/3U8c6x+k84X4u4fgB5yCIuyhanyI8tLSWiLzJN2hdBDEplC3z83KXC9Pk4cQ2zi4m1TZynKeRXtoD74OL7YiOa87krF70htkdu1uOuzPQcKWtpcoLph0OAgMqeM632a3ADUkgumLRWKPsTuwUv9/ptBrEpXzrFN4u/ST4Bg2dYNo0NXMw2EVQ9mW1bJYumpcz6gwi3IeHG4X6KGiWnSnCCsVb0pnfGfZgoFLi0F45qTo=;4:+4mq3FYGKbJ8RaTZUYbhazraNN64JnYqYILtD5K+j2Pia3tQOYgM7yYRcymXMVP1NCRW24C4JeQMT7pz2ahMeTbyl/YbYn3d9BXrHJMqJ7yrgYgy+lZs72u6MvuEfXEQhbMFpMjWD+wO8wcBfq2wM81VSV/kNAoNE1Ol8vuOA1yxsw5ONprwXjrIqXDhh7yJO+v6Y63jIi9jkoY5bGwHrzv8nxDYxSRLy7AiMRWSTmWg6CPEmPaq7qJ9Lov/HSkzYlL1/yWdLoNwv8quKLhiYTPB9hyCuqd6xbcVo/D1r3903YAlN/FQ6Lz+xbld+XlGWHAjCJeOSCxxFrZzrSnCEabREBrzLHDF2q1tSeSJpUVPgf22QMEdqVOt6p0wGMsR
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 0759F7A50A
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;CO2PR07MB538;23:+/9pY8NxVWtbNXFPj/e/AW8Gpd+72iGdnxATYlvoPX?
+ =?us-ascii?Q?j9m3zY2rGS7M98Eesu/koJD+lr94TZPy/Yq93HJTrIe2TFRjlr8iiCZAk0lx?
+ =?us-ascii?Q?pyJMGMFbdqchClvuUPLHKeFdcmR8HfTT+J2kNvl2FPGMmWqXcZOAlYKWkU3+?
+ =?us-ascii?Q?rAf3VuUP7zR8aozU6F7zPTtVkSHDgtyejRZbzJNdtMVBI+syUR6pOigI8jXL?
+ =?us-ascii?Q?caVwsbPg56/74h7Ns/Qm1QrNlYecZHU7EM8nYvwqt0taFPve/bVlIsALvAyW?
+ =?us-ascii?Q?mFBEMPzhm7r6BF6nlMqOBmqjfYjJuIwi6ZzEVAotyc34LwMZgn6HnvFRDsCx?
+ =?us-ascii?Q?3YI7K+Om9UXMGmIdLFMpdRnFmXgtYSK/1jc2gnIK+EdD9akSXPvJfSVWd9lc?
+ =?us-ascii?Q?t2i5JytHpD0qTV1q9cPNUUWodJ73wwldzy0vi/8IyF7Anftk5mJjKSOCWc8A?
+ =?us-ascii?Q?tZXM2hWB2mOdMplBwrLuzCe7YHlFq1OyffZqD7XCpzEOc/YoW9Lk1lYC+ZT2?
+ =?us-ascii?Q?PnU+JqhLERhqz1SAoYR+yQ3IibZv/ZKIU1DLd4Sf9Cx41HCOv7KZUbGXsX4r?
+ =?us-ascii?Q?6w3GFyfAf4alo5JL4J2nudHOMw0TVr29uTEnoYEDEbU6vw+pW7es5kJpQo0j?
+ =?us-ascii?Q?lKDOu1mJ5LyfG7KN+WfrJVR50Zkug+5JVvfTlLeKPBgKIJvG8hJo6DMvgLFp?
+ =?us-ascii?Q?tpXQeXTeFuR3Ps5GVzJGg9JTgMs4GAoRqqlczmQaqAaB4jR5baXB0w3RMQAC?
+ =?us-ascii?Q?JNF1TpNsUtazkBAxAR6fLr2YzDNecLPq1vcnvpg934P7IJtIXoP4WBVPx7HI?
+ =?us-ascii?Q?rAy07v6k//GRGjlkrZ8lIkXxnVOeBZ6EillsMsdJYrDX/l56U4cLLkFdmjAQ?
+ =?us-ascii?Q?n6JWMiwvZqS1G3rfStXdDpJhB8blkftE45Ig/w4pyS+35g+6JBi8ULolhMcn?
+ =?us-ascii?Q?GPDiDh+EoN4DJJe48bOvFv8on8Uzi+oY3WnZyRAHV4aKodIhqVxbVvmtneao?
+ =?us-ascii?Q?0OOPxKCHH+i602qY9Mg7uqg9ZHtk2dv+naedzfrCf1NOyeF2rPuLsWHOvpzg?
+ =?us-ascii?Q?KXUWSxilFGsHi79qJXV4O90xtJPd+DhjlWLqV/hqViUd0VaymCH0Ng0b+T0w?
+ =?us-ascii?Q?vl2Wc7aG997WpwK1TLZQTr8c1WgYRpm++MKRxbLQ4QCx0gJhifL1L2tkhPTS?
+ =?us-ascii?Q?UeppV4KGOSI3r3jkcZW7Ff8bUBqCxEDbnMj6zi1FpT13yxB4shpqROQdwsmw?
+ =?us-ascii?Q?DDWROkwHc4KTGhhqK2I0J6bvp9WKDblAP+I3/NLinxusPDlBwsjskGceU6Aa?
+ =?us-ascii?Q?4e/+dt+6SB/FtN1KeKRxVM5O5ccscXKVQ80c5Zn8xr4awzp+6UNzRMBhtAe3?
+ =?us-ascii?Q?GlXBaiefoYkt44NOjhwqVYWSeurU3vrSd+WtAjaTvKpwr4wNwk8ULJOgsGPY?
+ =?us-ascii?Q?dECHAFkGKTiFg/GLVHii8Lr34WWHEdn01//6gai5tQ4Ng9QILw+VT2y65FeB?
+ =?us-ascii?Q?+zbtMVr7UQn7zVZIXfhrJpIL6v3QC6x74J+8LN2zg+eS+WU3TzDBZBCYhfyd?
+ =?us-ascii?Q?mTJwgflaYadaQlEbv9MWC7+cQT+6eTnsseHMi6wUbiStU+wLiuvTENh+imT/?
+ =?us-ascii?Q?tzKwEoMbyvTWkRIdUFJk5iugUrFHmUrvuthrp3an0=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;CO2PR07MB538;5:DClZNihiZkKMrKL6G0LmtzqeMkgfuCPuffY1IgSusnBQnij1wiDKGVwv2vqYk5o18qgt89DG+Jav7GgFqKbOzLmsnFrvfplCOJyQWvevBZLm/kMDFnqfGulfHT+IC9u5keGydIjkKHyjnfsOqXlBiw==;24:BDYTCn4hSjLRn700D1L18cZjXbvrRsb7pZ2k9Hh0jo26eIF2H8CQE6ZBbQXeJx4Pj35tXoT4/GRyKQ18YWOKehrtSb8trzG2bBbC6mDRKc8=;20:Gy4gk4cUVc5dwVtNxPq1aPz/IZD4rdvuF7cUt8UqfAEMHq6ZBgg4sRSH2HbvDIVEGqtXtOO1yGFmf/kGZil4FA
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 13 Nov 2015 18:19:54.2452
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB538
+
+John,
+
+National Right to Life, a right-wing group that works to domain.com women's 
+access to reproductive care, just put Arizona on it's list of "most 
+competitive Senate races in the country."
+
+The good news: It's more validation that we've got John McCain on the 
+run.
+
+The bad news: NRL spends big money in elections. In the past two 
+elections, NRL's associated Super PAC spent more than $1.8 million in 
+federal elections.
+
+And now we know that Ann is on their target list.
+
+We are Ann's best defense against special interest attacks. We need to be 
+ready for anything that gets thrown our way. We need to reach $50,000 in 
+November to build up our strength. If you can, give $5 or more right now 
+to help us out.
+
+<<link>>
+&recurring=3Dtrue&amount=3D25.00
+
+Ann's the only person in this race that truly stands with Arizona women. 
+Let's make sure she's ready to win.
+
+Thanks!
+
+Team Kirkpatrick
+
+----
+
+This email was sent to user@domain.com
+
+To unsubscribe, go to:
+<<link>>
+
+Paid for by Kirkpatrick for Senate
+

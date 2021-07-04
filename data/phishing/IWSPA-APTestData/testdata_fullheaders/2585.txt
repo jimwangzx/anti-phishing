@@ -1,0 +1,119 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Mon, 14 Jul 2015 14:33:12 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s6ELXBfd005896	for <user@domain.com>; Mon, 14 Jul 2015 
+ 21:33:11 GMT
+Received: from mail41-va3-domain.com (mail-domain.com
+ [216.32.180.114])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s6ELZ7Yk013374
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 14 Jul 2015 21:35:07 GMT
+Received: from mail41-va3 (localhost [127.0.0.1])	by mail41-va3-domain.com
+ (Postfix) with ESMTP id D10EA460188	for <user@domain.com>; Mon, 14
+ Jul 2015 21:33:10 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:69.25.74.172;KIP:(null);UIP:(null);SRV:BULK;H:mta-dock-front-1.domain.com;RD:none;EFVD:NLI
+X-SpamScore: 20
+X-BigFish: vps20(z59c9h187lzc89bhc857hzz1f42h1ee6h1de0h2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch1fdahzz1de098h1df219h1bc7b9h17326ah1df2f4h1def87h8275bh8275dh1def86h1de097h1def03h186068h172c6ch1df2b0h1ce121i199020iz2fheh5fh839h8aah92ahd24h10d2h1239h1288h12a5h137ah139eh13eah1441h1537h162dh1631h16a6h1758h1898h18e1h19b5h1ad9h1b0ah1b2fh1bceh224fh1fb3h1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1ff5h20f0h2218h2216h226dh24afh2336h2461h2487h24d7h2516h2545h255eh25cch25f6h2605h268bh26d3h27e2h282bh28b0h29d0h2a24h2b05h9a9j2a6dm2555o41h2b04h2b06h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail41-va3: domain of domain.com designates 69.25.74.172 as permitted sender) client-ip=69.25.74.172; user@domain.com; helo=mta-dock-front-1.domain.com ;domain.com ;
+Received: from mail41-va3 (localhost.localdomain [127.0.0.1]) by mail41-va3
+ (MessageSwitch) id 1405373588187233_6413; Mon, 14 Jul 2015 21:33:08 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.253])	by
+ mail41-domain.com (Postfix) with ESMTP id 29C2B2A005E	for
+ <user@domain.com>; Mon, 14 Jul 2015 21:33:08 +0000 (UTC)
+Received: from mta-dock-front-1.domain.com (69.25.74.172) by
+ domain.com (10.7.99.16) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 14 Jul 2015 21:33:08 +0000
+Received: from domain.com (unknown [10.0.200.60])	by
+ mta-dock-front-1.domain.com (Postfix) with ESMTP id 3hByl74ywrzyRh
+	for <user@domain.com>; Mon, 14 Jul 2015 21:33:07 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1405373587;
+	bh=y0dJaY9uUAWWaQ2TC3rfcKfJvYfdIgMpR+1N1bmvhao=;
+	h=Date:To:From: "Rodney Freeman, The Jewish Federation" <JFC@JewishLA.org>
+	b=K42rqZAhawIPbIoeTjZt9Z6iPcS/psS+I+sdPUZp2h6XpDI3U21ylXo+EG7SryfXx
+	 zY576rns7r1/g9VtkOxcS82GGXn2S/kC1QBwTuD2UEufxw6v/OGXDvi8p4XaHg5Hxl
+	 x+2kCGOFc8rNqN6WByHFa8cqOAyqrb+XqKjb1syk
+Received: from build 	by domain.com with local (PHPMailer);
+	Mon, 14 Jul 2015 21:33:07 +0000
+Date: Mon, 14 Jul 2015 21:33:07 +0000
+To: Amy Pascal <user@domain.com>
+From: "Rodney Freeman, The Jewish Federation" <JFC@JewishLA.org>
+Reply-To: <user@domain.com>
+Subject: Win a Great Cannondale Bike - Sign up Now
+Message-ID: <17user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 79ceaf3073b17fe7
+X-rpcampaign: rp_1094752
+X-maillist-guid: DwNTUQ8FbwNcUFVUV1YDVlBbAQVSUlI6I1RLPEZVRgcECXZGEwFIRwpdSRtSCl5oUg4ABg
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+Return-Path: 
+ user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Win a Great Cannondale Bike - Sign up Now
+
+Tour de Summer Camps    
+
+
+
+
+         Dear Amy,
+
+ <<link>>
+
+How’d you like to win a brand new Cannondale bike?* This spectacular prize from Helen’s Cycles could be yours when you complete the Tour de Summer Camps Challenge!
+
+Ready to take on the Challenge? First, register for Tour de Summer Camps as an individual, join a team or create your own. Then, raise at least $100 between July 14th and July 25th to be entered into the drawing! If you’re already registered, you can enter the challenge too—by raising at least $100 between July 14th and July 25th!
+
+Raising $100 is easier than it sounds. Just ask two friends to sponsor you for $50, or e-mail six coworkers and ask them to sponsor you for $18 apiece. You can even include your “ask” in your e-mail signature! But hurry—you have just over one week to sign up and raise $100 to be entered to win a brand new Cannondale, so what are you waiting for? Take our Tour de Summer Camps Challenge and not only will local kids win by getting to go to Jewish summer camp, but you might end up a winner yourself!
+
+Taking place on September 21st, our Federation’s 2nd annual Tour de Summer Camps is the community-wide ride for the Jewish future that raises funds to enable even more local kids to get that magical connection to Judaism that only Jewish summer camp provides. Without our assistance, many would not be able to attend. And with four scenic routes—18 miles, 36 miles, 62 miles, 100 miles—anyone can cross the finish line in style, especially with a state-of-the-art Cannondale bike!
+
+I hope you’ll join me in the Tour de Summer Camps Challenge—and on September 21st!
+
+Ride on,
+
+Rodney Freeman
+Tour de Summer Camps Ride Master
+
+*$1,000 voucher toward any Cannondale bike at Helen’s Cycles. Redeemable at any Helen’s Cycles location.
+
+Thank You to Our 2015 Sponsors
+
+Presenting Sponsor
+The Rosalinde and Arthur Gilbert Foundation
+
+Century Sponsors
+Debbie & Mark Attanasio
+Julie & Marc Platt
+Anthony and Jeanne Pritzker Family Foundation
+
+Breakaway Sponsor
+Alyce & Philip de Toledo
+
+Camp Sponsor
+Tribe Media/Jewish Journal of Los Angeles
+
+Cycle Sponsors
+Ada & Jim Horwich
+American Jewish University
+The Held Foundation
+Mark Weinstein/MJW Investments
+
+Official Bike Shop
+ Helen's Cycles
+
+Breakfast Sponsor
+The Cayton Family
+
+Registration Sponsor
+
+

@@ -1,0 +1,374 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs52773wfw;
+        Wed, 5 Nov 2015 12:55:41 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.90.102.8 as permitted sender) client-ip=10.90.102.8;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.90.102.8 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.90.102.8])
+        by 10.90.102.8 with SMTP id z8mr959431agb.28.1225918540084 (num_hops = 1);
+        Wed, 05 Nov 2015 12:55:40 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:x-bigfish:x-spam-tcs-scl:received:received:x-mimeole
+         :content-class:mime-version:content-type:subject:date:message-id
+         :x-ms-has-attach:x-ms-tnef-correlator:thread-topic:thread-index:from
+         :to:reply-to:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=JNDI81f07A6P4tzjt2kUSxCQ1p9qriFD+DeFrRN9LXg=;
+        b=CUV9yZZuYco7f9LjN3HC2yiNCslIxv3LGyAuDJkHOeHz2MZnRSCS55es537pP673ff
+         gMPF0c/Nh3Ll6roSqyBt86Fvgfo0UwY7elyDsYE5M1f+W4FW2DlpVyFGgaOj11+yWqpO
+         e/qMWpeNAX7SCGaIU8GS5wLbvg5fgF/T+pGec
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :x-bigfish:x-spam-tcs-scl:x-mimeole:content-class:mime-version
+         :content-type:subject:date:message-id:x-ms-has-attach
+         :x-ms-tnef-correlator:thread-topic:thread-index:From: "Snyder, Kate" <KSnyder@americavotes.org>
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=XLYo195P7u3J8mfHdZ6JEWAdcw1QAQIZ/DZwSoQl4BOKgkY6o4sAbmcsSD8jJV4deh
+         HyDfa8qSTYQis5Kw4tJpiHYKj7vdhu1zt/Nu5Il9vTNSCZUEOY+IS/DVBv4ASuSK8YWh
+         b8qJ9Eg9DdwGClk7fHcQMUwJLykd5p1bgHwcU
+Received: by 10.90.102.8 with SMTP id z8mr83371agb.28.1225918530812;
+        Wed, 05 Nov 2015 12:55:30 -0800 (PST)
+Received: by 10.106.144.6 with SMTP id r6gr2691prd.0;
+	Wed, 05 Nov 2015 12:55:16 -0800 (PST)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.141.162.1 with SMTP id p1mr218763rvo.26.1225918515297; Wed, 05 Nov 2015 12:55:15 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (outbound-domain.com [207.46.51.80]) by domain.com with ESMTP id k19si2816612waf.2.2008.11.05.12.55.13; Wed, 05 Nov 2015 12:55:15 -0800 (PST)
+Received-SPF: neutral (domain.com: 207.46.51.80 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=207.46.51.80;
+Authentication-Results: domain.com; spf=neutral (domain.com: 207.46.51.80 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: from mail157-sin-domain.com (10.3.40.3) by domain.com (10.3.40.25) with Microsoft SMTP Server id 8.1.291.1; Wed, 5 Nov 2015 20:55:12 +0000
+Received: from mail157-sin (localhost.localdomain [127.0.0.1])	by mail157-sin-domain.com (Postfix) with ESMTP id 9A07DB68210	for <user@domain.com>; Wed,  5 Nov 2015 20:55:12 +0000 (UTC)
+X-BigFish: VPS-52(zz14c3MfadR13fcRa0dJ9370P18c1K936fO655Ozzzzz2dh6bh66h)
+X-Spam-TCS-SCL: 5:0
+Received: by mail157-sin (MessageSwitch) id 122591850456656_15819; Wed,  5 Nov 2015 20:55:04 +0000 (UCT)
+Received: from exchsvr.americavotes.org (h-66-166-190-131.domain.com [66.166.190.131])	by mail157-domain.com (Postfix) with ESMTP id 99C205A009B	for <user@domain.com>; Wed,  5 Nov 2015 20:55:01 +0000 (UTC)
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-Class: urn:content-classes:message
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----_=_NextPart_001_01C93F88.FD6DC6D2"
+Subject: [big campaign] America Votes Coalition's Grassroots Field Campaigns
+ Fuel Historic Progressive Gains in 2015 
+Date: Wed, 5 Nov 2015 15:55:54 -0500
+Message-ID: <user@domain.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: America Votes Coalition's Grassroots Field Campaigns Fuel Historic Progressive Gains in 2015 
+Thread-Index: Ack/iOTggMteO+xuSySlu0g1EB2jxQ
+From: "Snyder, Kate" <KSnyder@americavotes.org>
+To: user@domain.com
+Return-Path: user@domain.com
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+For Immediate Release                                              
+
+5 November 2015 
+
+Contact:     Kate Snyder  202-962-7258
+
+America Votes Coalition's Grassroots Field Campaigns Fuel Historic
+Progressive Gains in 2015 
+
+The America Votes partners, over 40 of the most powerful progressive
+organizations in the country, led an unprecedented grassroots campaign
+throughout 2015 that helped achieve historic progressive gains from the
+White House to Congress to key gubernatorial and state legislative races
+and ballot initiatives.
+
+"The America Votes partners played a vital role in achieving our
+historic victories in 2008. AV partners' grassroots campaigns reached
+millions of targeted voters thru door knocks, mailings and phone calls,"
+said America Votes President Martin Frost. "The progressive
+organizations in the AV coalition built a foundation this year that will
+work to advance a progressive agenda over the next two years that will
+solidify and expand our majorities in 2015 and beyond."
+
+The following table details the cumulative impact of independent
+progressive campaigns in America Vote's 14 states to persuade and
+turnout targeted voters.
+
+States
+
+Doors Knocked
+
+Phone
+
+Calls
+
+Mail Contacts
+
+Total Contacts
+
+AZ
+
+164,010
+
+114,988
+
+1,045,000
+
+1,323,998
+
+CO
+
+619,144
+
+1,872,449
+
+2,418,600
+
+4,910,193
+
+FL
+
+2,402,164
+
+297,975
+
+930,865
+
+3,631,004
+
+MI
+
+956,158
+
+558,634
+
+2,133,141
+
+3,647,933
+
+MN
+
+422,653
+
+710,870
+
+5,350,641
+
+6,484,164
+
+MO
+
+56,309
+
+257,857
+
+870,098
+
+1,184,264
+
+NV
+
+77,394
+
+488,300
+
+523,337
+
+1,089,031
+
+NH
+
+692,638
+
+318,843
+
+2,171,139
+
+3,182,620
+
+NM
+
+170,415
+
+830,726
+
+1,110,440
+
+2,111,581
+
+OH
+
+2,235,206
+
+499,772
+
+7,973,968
+
+10,708,946
+
+OR
+
+2,215,100
+
+882,900
+
+10,019,879
+
+13,117,879
+
+PA
+
+1,301,245
+
+839,336
+
+967,435
+
+3,108,016
+
+VA
+
+63,322
+
+562,812
+
+1,352,889
+
+1,979,023
+
+WI
+
+740,676
+
+2,229,235
+
+3,003,124
+
+5,973,035
+
+Total
+
+12,116,434
+
+10,464,697
+
+39,870,556
+
+62,451,687
+
+Important note: AV's labor partners and Working America conducted
+hundreds of millions of additional contacts to their members that were
+essential to progressive victories across the country and in many key
+states. Those member contacts are not included in the table.
+
+ America Votes State Highlights:
+
+*	Obama won 12 of 14 states (exceptions-Arizona, Missouri) where
+there are America Votes partners engaging in coordinated electoral
+activity;
+*	Democrats won Senate seats in four states where America Votes
+partners engaged in coordinated activity- Virginia, New Mexico, Colorado
+and New Hampshire; Oregon and Minnesota are too close to call;
+*	In several key states, AV partners focused heavily on successful
+down-ballot priorities. Progressives recaptured control of legislative
+chambers in Nevada, Ohio and Wisconsin, and expanded majorities in
+Michigan and Pennsylvania.
+
+*	Progressive backed initiatives were approved by voters in
+Michigan, Missouri, Montana, Washington, and Wisconsin and AV partners
+beat back right-wing efforts in Arizona, Colorado, Florida,
+Massachusetts, North Dakota, Ohio, Oregon, and South Dakota.
+
+	*	Choice: Initiatives that attacked a women's right to
+choice were rejected by voters in Colorado, California and South Dakota.
+
+	*	Labor Rights: Attacks on workers rights appear likely to
+go down to defeat in Colorado, Oregon and North Dakota.
+	*	Affirmative Action: Colorado became the first state to
+reject an anti-affirmative action measure.
+	*	Predatory Lending: Ohio and Arizona voters defeated
+measures pushed by the predatory lending industry that sought roll back
+pay day loan reforms in both states.
+	*	Progressive policy solutions advanced at the ballot box
+included stem cell research in Michigan, clean energy and home health
+care reform in Missouri, children's health care in Montana, health care
+reform (long term care) and a "Death with Dignity" initiative in
+Washington, and paid sick leave in Milwaukee, Wisconsin.
+
+*	In Michigan, the right-wing chief justice of the Michigan
+Supreme Court was defeated;
+*	In Missouri, Democrats won the Gubernatorial race, picked up
+three seats in the state senate, and passed a clean energy initiative;
+*	In New Hampshire, progressives retained control of the State
+Senate, which now will be the first majority-female legislative body.
+
+###
+
+For specific state or organization information please contact Kate
+Snyder at 202-962-7258.
+
+America Votes national coalition partners:  21st Century Democrats,
+ACORN, AFL-CIO, AFSCME, Alliance for Retired Americans, American
+Association for Justice, American Federation of Teachers, American
+Hunters and Shooters Association, Americans United for Change, Ballot
+Initiative Strategy Center, Brady Campaign to Prevent Gun Violence
+United with the Million Mom March, Campaign for America's Future,
+Campaign for Community Change, Change to Win, Civic Participation
+Campaign, Clean Water Action, Communities for Quality Education,
+Defenders of Wildlife Action Fund, Democracy for America, EMILY's List,
+Human Rights Campaign, INDN's List, International Brotherhood of
+Teamsters, League of Conservation Voters, League of Education Voters,
+League of Young Voters, LULAC, domain.com Political Action, My Rural
+America, NAACP National Voter Fund, NARAL Pro-Choice America, National
+Association of Social Workers, National Education Association, National
+Jewish Democratic Council, NDN, People For the American Way, Planned
+Parenthood Action Fund, Progressive Majority, Progressive Future,
+ProgressNow Action, SEIU, Sierra Club, USAction, VoteVets Action Fund,
+Women's Campaign Forum, Women's Voices. Women Vote, Working America,
+Young Democrats of America.
+
+###
+
+Kate Snyder
+Communications Director
+America Votes
+
+1401 New York Avenue
+Suite 720
+Washington DC
+
+202-962-7258 (o)
+301-237-4198 (c)
+user@domain.com
+
+**************************************
+NOTICE: This communication may contain privileged, proprietary or other con
+fidential information.  It is for the use of the intended recipient only.  
+If you have received it in error, please advise the sender by reply e-mail 
+and immediately delete the message and any attachments without copying or d
+isclosing the contents.  Thank you.
+**************************************
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

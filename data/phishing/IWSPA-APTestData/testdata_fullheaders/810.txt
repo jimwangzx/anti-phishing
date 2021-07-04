@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.31 with SMTP id o31csp381766lfi;
+        Sat, 21 Feb 2015 13:25:05 -0800 (PST)
+X-Received: by 10.152.43.193 with SMTP id y1mr3548753lal.35.1424553904613;
+        Sat, 21 Feb 2015 13:25:04 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-lb0-domain.com (mail-lb0-domain.com. [209.85.217.174])
+        by domain.com with ESMTPS id yf4si10710220lbb.85.2015.02.21.13.25.03
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 21 Feb 2015 13:25:04 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.174 as permitted sender) client-ip=209.85.217.174;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.217.174 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-lb0-domain.com with SMTP id z11so230lbi.5;
+        Sat, 21 Feb 2015 13:25:03 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Teddy Goff <teddy.goff@gmail.com>
+         :cc:content-type;
+        bh=IoE4VcpRZdTKQWbHIbf0cv3gl33+rqh1peTYX5tVboU=;
+        b=FLT1B4IdduJ0a/RwDSa9xxtHtiZ6FjqU7hEBHXNlZDFEHxOXu6i2xSLpQbSX1hiVNJ
+         p3+ajcNkybkTMrepkCMzoS3dCLINdAyuJir8rh0YbIfra/DwBM45IuAFQpcrajI0zXPv
+         qOAqfxebhUUIi6QFaHS+mWUaTxlYxENNfhyl/34NEFx0dB+NHzhXZMeYs1PUxnSKQNI0
+         B/r8hVSVPTmknGlVR5LZY+aRLz0B7QI4K+54ybL4HHYdRinL6IbCdfAjQgljIUg/hJMP
+         bq0DfHxBzQUt6dYLoPPngoT+AJuKSQ/6LD187UWhJYI5UJKGWCIsbAT9NYYaQsyyeOhA
+         dGVA
+MIME-Version: 1.0
+X-Received: by 10.152.120.8 with SMTP id ky8mr3364895lab.118.1424553903888;
+ Sat, 21 Feb 2015 13:25:03 -0800 (PST)
+Received: by 10.112.74.132 with HTTP; Sat, 21 Feb 2015 13:25:03 -0800 (PST)
+In-Reply-To: <CAB5o6bYgyH-9rdH7uB0ATewZFb0W4E+user@domain.com>
+References: <CAFwiqmfYo2q2XhFvtdjDzw9CHd+6user@domain.com>
+	<CAB5o6bYgyH-9rdH7uB0ATewZFb0W4E+user@domain.com>
+Date: Sat, 21 Feb 2015 14:25:03 -0700
+Message-ID: <user@domain.com>
+Subject: Re: video concepts
+From: Teddy Goff <teddy.goff@gmail.com>
+To: Robby Mook <user@domain.com>
+CC: Mandy Grunwald <user@domain.com>, Jim Margolis <user@domain.com>, 
+ Joel Benenson <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ John Anzalone <user@domain.com>, John user <user@domain.com>, 
+ "user@domain.com" <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e0122aef8679d96050f9fcd93
+
+I think that can fit into any of these concepts, either/both in a soundbite
+from the Secretary (or a staffer) and in text at the end. It won't affect
+numbers yet but I agree helps on the narrative.
+

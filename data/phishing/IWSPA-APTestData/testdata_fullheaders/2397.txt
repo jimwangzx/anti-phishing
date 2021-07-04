@@ -1,0 +1,83 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.101 with SMTP id o98csp2654557lfi;
+        Mon, 22 Jun 2015 14:11:49 -0700 (PDT)
+X-Received: by 10.180.73.145 with SMTP id l17mr35926059wiv.39.1435007509103;
+        Mon, 22 Jun 2015 14:11:49 -0700 (PDT)
+Return-Path: <bounces+243373-9709-user@domain.com>
+Received: from domain.com (domain.com. [50.31.32.206])
+        by domain.com with ESMTPS id p10si37286341wjf.65.2015.06.22.14.11.48
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Jun 2015 14:11:49 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of bounces+243373-9709-user@domain.com designates 50.31.32.206 as permitted sender) client-ip=50.31.32.206;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of bounces+243373-9709-user@domain.com designates 50.31.32.206 as permitted sender) smtp.mail=bounces+243373-9709-user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=ericgarcetti.com; 
+	h=From: Eric Garcetti <info@ericgarcetti.com>
+	s=smtpapi; bh=o4cMP1ngNTCm+/TJFOgtKcYtFdw=; b=c63OtJEFtJocNx6RVw
+	PnJ00VeNy3n5l49MbTPOrZYZklelpvpfdzTfQc+QfX81nrFYnwQolC/kaGDeBYnE
+	rWi2qAECT7pPzFPzeGdQM/L7RdFVUxSp36f5PWlYXiycDZnrbR8gwIPt3UVmyYkm
+	pTbmPUfSWlEulIqx2Xnmv7qaw
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.info; 
+	h=From: Eric Garcetti <info@ericgarcetti.com>
+	s=smtpapi; bh=o4cMP1ngNTCm+/TJFOgtKcYtFdw=; b=jm1L+uTNUE/hDuHvEy
+	dqHS9gTpT54UZrrJNY9dnIvrpx4Kf5oVuQvuWp0jB/aRG6UuoA0MUqBEKVqlFpqJ
+	78ZCZzRk+mmvKZKVh9EtltnwzmYmk9+uh7qw162OIA1y7qYEvXka/YrNKnk9uyK8
+	S0Cynp7n/OcCwMfx7HKXSve2g
+Received: by domain.com with SMTP id filter0576p1mdw1.7254.558877A115
+        2015-06-22 21:01:21.467196851 +0000 UTC
+Received: from domain.com (ip-162-219-220-2.rdns.3dna.io [162.219.220.2])
+	by ismtpd-010 (SG) with ESMTP id 14e1d134e18.5aef.4c2703
+	for <user@domain.com>; Mon, 22 Jun 2015 21:01:21 +0000 (UTC)
+Date: Mon, 22 Jun 2015 21:01:21 +0000
+From: Eric Garcetti <info@ericgarcetti.com>
+To: John user <user@domain.com>
+Message-ID: <558877user@domain.com>
+Subject: Minimum Wage. Now What?
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_558877a19dc5_32bfddd33035744";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-SG-EID: p7DGjev3kDhYNXGtfGO9jbmQ3Oi75URC5nx+Didgsq83XUTLieAYmlN161ldqOG3zAGbof1HaJhz4c
+ BNncaWnKesb2YyXVtkeehU6LwI16yKcF1m2g6dULIjFRqT1gYAPUd6Svt9yzfrqbFhPgy1VpZbip2h
+ cawmQsjt0YgR0yRTqMGS/I/c7IKP7oJbxzA3
+X-SG-ID: SolyLoj4M+6t0KZQOavh+L4vBMV6xuzFXS9kV5deQIkOAcUIEwehi/PPYhWtfSzsJsFTW0Ai+oiPQt
+ kxt+SlSBzDzmCkThw/fXY5dGwy5egYHQ7IFZghubErUUIG99sbS0vf8HOHlJUQOreSK5Zu8eWjFFaU
+ 2+S59ZriEzDwVVM
+X-Feedback-ID: 243373:uqAdwNuIdvxAspEj3pU38ijR3gvMmfYMKi5XoSPZVuc=:XORNgOH/E+0cw76qPOz4lp1Vqj5AnJbYt71k0MkhbSC7dkdMizk/rJJyALdrHZBk:SG
+
+John --
+
+Last week, LA became a national leader in the fight against poverty when I 
+signed an increase in the minimum wage into law.
+
+You were one of the first to believe in my back-to-basics vision for our ci
+ty in 2013. Now I=E2=80=99m running for re-election and=C2=A0I can=E2=80=99
+t do it without you <<<link>>>.
+
+We=E2=80=99ve already added 85,000 jobs, cut our business tax, reversed the
+ tide of runaway production, and seen new start-ups as well as major indust
+ry leaders choose LA as the place to build their future, but=C2=A0there is 
+more work to do <<<link>>>.
+
+Will you continue to make the economic future brighter for all Angelenos an
+d support my re-election campaign before the=C2=A0June 30th=C2=A0deadline?
+
+ <<<link>>>
+
+Thank you for all that you do,
+
+Eric
+
+-=3D-=3D-
+Eric Garcetti- Los Angeles Mayor 2015 - Los Angeles, CA, United States
+This email was sent to user@domain.com  To stop receiving emails: h
+ttp://www.ericgarcetti.com/unsubscribe
+-=3D-=3D-
+Paid for by Garcetti for Mayor 2015 
+FPPC ID# 1341339
+11326 Ventura Blvd. Los Angeles, CA 91364
+Additional Information is available at <<link>>
+Created with NationBuilder - <<link>>

@@ -1,0 +1,62 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.101 with SMTP id o98csp823058lfi;
+        Wed, 17 Jun 2015 14:17:53 -0700 (PDT)
+X-Received: by 10.112.220.7 with SMTP id ps7mr9794301lbc.72.1434575873087;
+        Wed, 17 Jun 2015 14:17:53 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-la0-domain.com (mail-la0-domain.com. [2a00:1450:4010:c03::234])
+        by domain.com with ESMTPS id vk4si3799724lbb.147.2015.06.17.14.17.53
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 17 Jun 2015 14:17:53 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::234 as permitted sender) client-ip=2a00:1450:4010:c03::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-la0-domain.com with SMTP id ny3so34985618lac.3
+        for <user@domain.com>; Wed, 17 Jun 2015 14:17:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Marlon Marshall <mmarshall@hillaryclinton.com>
+         :cc:content-type;
+        bh=4HN654zR5zuIibntG76fGY/43WWcN4xchqVokYHWrMg=;
+        b=NZCsIR1SfU24R74iHO9XxocZVrHeViiVBaPEoHa86AzmDMcMhnF9qWOJOnVgIbtcQ0
+         8itdoqGrXtKw9D5rEYmpH1a8imawABsCQpDfukH8QEhM+wXTFEu0kAf4hGSDp2G30jYS
+         SXh/SdFatuBqZ8YRn0FfbYXMwzP3LrM5HIjds
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Marlon Marshall <mmarshall@hillaryclinton.com>
+        bh=4HN654zR5zuIibntG76fGY/43WWcN4xchqVokYHWrMg=;
+        b=j97D0vDZhpjfnaq1WctyDdPlIRQu6Fz1R4MS/kRiwD5kLUEr7r6o8pXRjhB7u31zta
+         qKGlcIVtgJ0kMqbbPZtb0G6CP1zgliNNd73OGL2o2yomIls+9X/8t8mSeAZ18cXS33DR
+         HvrJPJq5ROvGex8Wlrd+ePOtUcd0hbCpDR4zuFv4xKGys0JpqToAqsFmqOFtFDxed3pt
+         bg4XuGMJDKhKQPVCCfww+crsHIGFCmHXtDJ8S//IxHu4uXpdBVauux9LPMHxZWTkqsvA
+         BSsxbU8Y5XzUQB/oZxkIMKU9DuGZKosC+mSSFZ2JSgC6XV/2S9sIxKgocEAj9ozEoN9H
+         RoGg
+X-Gm-Message-State: ALoCoQnuRLGvQHV7QMm47sf4GigJNyZhu34daDHyyc44RNAoB4YezukK7T4c3jrSI3+BwMh5c8sO
+MIME-Version: 1.0
+X-Received: by 10.112.57.20 with SMTP id e20mr9794822lbq.123.1434575872968;
+ Wed, 17 Jun 2015 14:17:52 -0700 (PDT)
+Received: by 10.114.82.194 with HTTP; Wed, 17 Jun 2015 14:17:52 -0700 (PDT)
+In-Reply-To: <CA+Z3wa32kU7Ex2GP3PdZU-9ZvH+user@domain.com>
+References: <CA+user@domain.com>
+	<8925502338620908842@unknownmsgid>
+	<-4843799490702950168@unknownmsgid>
+	<CA+Z3wa1+user@domain.com>
+	<CA+Z3wa32kU7Ex2GP3PdZU-9ZvH+user@domain.com>
+Date: Wed, 17 Jun 2015 17:17:52 -0400
+Message-ID: <CA+=gYAn5Qvx1t9wtm5Q3THWkAuqaoXz85r5drD65+user@domain.com>
+Subject: Re: Trade Update Today
+From: Marlon Marshall <mmarshall@hillaryclinton.com>
+To: Nikki Budzinski <user@domain.com>
+CC: Amanda Renteria <user@domain.com>, 
+ Robby Mook <user@domain.com>, 
+ Brynne Craig <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1133a6724fd6090518bd3950
+
+Since when have they trusted each other?
+
+On Wed, Jun 17, 2015 at 5:15 PM, Nikki Budzinski <

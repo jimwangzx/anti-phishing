@@ -1,0 +1,84 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 20 Feb 2015 14:43:18 -0800
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1KMhHvX027621	for <user@domain.com>; Thu, 20 Feb 2015 
+ 22:43:18 GMT
+Received: from mail73-co9-domain.com (mail-domain.com [207.46.163.16])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1KMhGfB010276	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 20 Feb 2015 22:43:17 GMT
+Received: from mail73-co9 (localhost [127.0.0.1])	by mail73-co9-domain.com
+ (Postfix) with ESMTP id 8E695240482	for <user@domain.com>; Thu, 20
+ Feb 2015 22:43:16 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:8.21.238.157;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 7
+X-BigFish: vps7(zzc89bhc857h4015Izz1f42h2148h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz177df4h17326ah8275bh1bc7b9h1de097h186068h1b778fh1ce120h1bc581mz2fh5fh839h8e2h8e3hd24he5bhe83h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h2336h2461h2487h24d7h2516h2545h255ehbe9i9a9j1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail73-co9: domain of domain.com designates 8.21.238.157 as permitted sender) client-ip=8.21.238.157; user@domain.com; helo=domain.com ;3.domain.com ;
+Received: from mail73-co9 (localhost.localdomain [127.0.0.1]) by mail73-co9
+ (MessageSwitch) id 1392936193932502_2956; Thu, 20 Feb 2015 22:43:13 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.238])	by
+ mail73-domain.com (Postfix) with ESMTP id DEEF84004B	for
+ <user@domain.com>; Thu, 20 Feb 2015 22:43:13 +0000 (UTC)
+Received: from domain.com (8.21.238.157) by
+ domain.com (10.236.130.38) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 20 Feb 2015 22:43:13 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1392936178;
+	h=Sender:From: John Walsh <info@johnwalsh2014.com>
+	Content-Type;
+	bh=1BfNWM2oFJo08K+cfoJv7mSRrJc=;
+	b=fLl/72VJE0Xpqp8WJM2yL2KkjRLFKj7ZQp2qh1xgUqf7OWrNXu6U84HkAjh9tNAe
+	jeZ1U8CXpbE64OmoDj4t6cdZSETKwvfTkYMXEgdFCu5LaUq54Tv2AxgX7ebfKcFC
+	LnOjxkeszjcLVQgHYRn7zhALFEredAfa1ukduzxmvVg=;
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AbWFpbG91dDI4M0BkZWZhdWx0Z3JvdXAw
+	NEBib3VuY2VfNTg5NjIzX3BvZDE
+Received: from [10.0.1.249] ([10.0.1.249:59849] helo=OBPROD114)	by nvmta04
+ (envelope-from <user@domain.com>)	(ecelerity 3.5.1.37854
+ r(Momo-dev:3.5.1.0)) with ESMTP	id 40/FB-17613-2F486035; Thu, 20 Feb 2015 
+ 17:42:58 -0500
+Sender: =?UTF-8?B?Sm9obiBXYWxzaA==?= <user@domain.com>
+X-Binding: default
+Reply-To: <user@domain.com>
+From: John Walsh <info@johnwalsh2014.com>
+To: Amy Pascal <user@domain.com>
+Message-ID: <user@domain.com>
+Date: Thu, 20 Feb 2015 17:42:57 -0500
+Subject: A blatant violation
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A blatant violation
+
+
+
+
+John Walsh for U.S. Senate
+
+Join me in supporting the USA FREEDOM Act Amy—
+
+Here in Montana, we value our privacy. But despite all the attention that it gets in the news, Washington has done little to stop the NSA from blatantly violating our constitutionally guaranteed freedoms.
+
+In one of my first acts as senator, I teamed up with many of my colleagues -- including my friend Jon Tester and Senator Mark Udall of Colorado -- to co-sponsor a bipartisan bill that would sharply domain.com the NSA’s surveillance program.
+
+Become a citizen co-cosponsor of the USA FREEDOM Act now to join me in protecting all Americans’ civil liberties and right to privacy.
+
+The NSA has collected the records of law-abiding Americans, chipping away at our fundamental right to privacy.
+
+Amy, the USA FREEDOM Act puts an end to all that. And if that’s not enough, it’s supported by the top names in the tech industry—Google, Facebook, Microsoft, Apple, and more.
+
+Here’s what our bipartisan bill would accomplish: 
+
+domain.com government from using ‘back-door searches’ to scan for Americans’ records in information collected on foreign targets.
+
+Establish reforms to the Foreign Intelligence Surveillance (FISA) Court, which oversees the NSA’s surveillance activities.
+
+Ends the FISA Amendments Act – the law that allows the government to spy on phone calls, text messages, and emails – in June 2015 – much earlier than originally planned.
+
+Fighting to fix irresponsible policies like this one is very important to me as a U.S. Senator and as a candidate. Montanans deserve a leader who has the courage to secure our nation without sacrificing our freedoms.
+

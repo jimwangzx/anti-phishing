@@ -1,0 +1,87 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp196553lfi;
+        Fri, 8 May 2015 14:43:39 -0700 (PDT)
+X-Received: by 10.70.101.2 with SMTP id fc2mr73465pdb.77.1431121418702;
+        Fri, 08 May 2015 14:43:38 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.111.64])
+        by domain.com with ESMTPS id ha1si8573124pbd.249.2015.05.08.14.43.37
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 08 May 2015 14:43:38 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.111.64 as permitted sender) client-ip=157.56.111.64;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.111.64 as permitted sender) user@domain.com
+Received: from domain.com (25.160.206.24) by
+ domain.com (25.160.108.146) with Microsoft
+ SMTP Server (TLS) id 15.1.154.19; Fri, 8 May 2015 21:43:35 +0000
+Received: from domain.com ([25.160.206.24]) by
+ domain.com ([25.160.206.24]) with mapi id
+ 15.01.0154.018; Fri, 8 May 2015 21:43:35 +0000
+From: Neera Tanden <ntanden@americanprogress.org>
+To: "User" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Jose Villarreal <user@domain.com>, "user@domain.com" <user@domain.com>, 
+ Tom Steyer <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Carol Browner <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "Glenn Hutchins" <user@domain.com>, 
+ John user <user@domain.com>, Donald Sussman <88user@domain.com>, 
+ Steve Daetz <user@domain.com>, 
+ Molly McUsic <user@domain.com>
+CC: "'Demesmin-Rodrigues, Jeannette'" <user@domain.com>, 
+ "Hyde, Susan" <user@domain.com>, 
+ "'Pollock, Veronica'" <user@domain.com>, 
+ Erin Suhr <user@domain.com>, 
+ "'user@domain.com'" <'user@domain.com'>, 
+ =?windows-1252?Q?=91Maggie_McCloud=92?= <user@domain.com>, 
+ =?windows-1252?Q?=27Debbie=0D=0A_Davis=27?= <user@domain.com>, 
+ 'Hutchins Office' <user@domain.com>, 
+ "Eryn Sepp (EG)" <user@domain.com>, 
+ 'Theo Chayegan' <user@domain.com>, 
+ "'user@domain.com'" <'user@domain.com'>, 
+ "'user@domain.com'" <'user@domain.com'>, 
+ Alex DeMots <user@domain.com>, 
+ "Audrey J. Juarez" <user@domain.com>
+Subject: CAP Board Dinner
+Thread-Topic: CAP Board Dinner
+Thread-Index: AdCJ14ZB+1qkpNj8Q9SK8D7/xEGpZg
+Date: Fri, 8 May 2015 21:43:35 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: domain.com; dkim=none (message not signed)
+ header.d=none;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [208.87.107.68]
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY1PR0501MB1494;
+x-microsoft-antispam-prvs: <user@domain.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(5005006)(3002001);SRVR:BY1PR0501MB1494;BCL:0;PCL:0;RULEID:;SRVR:BY1PR0501MB1494;
+x-forefront-prvs: 0570F1F193
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(6009001)(377454003)(51414003)(46102003)(102836002)(2501003)(229853001)(15975445007)(74316001)(92566002)(2201001)(2900100001)(122556002)(19625215002)(19300405004)(40100003)(189998001)(62966003)(77156002)(76576001)(16236675004)(87936001)(66066001)(2656002)(86362001)(50986999)(107886002)(5001770100001)(19580395003)(33656002)(99286002)(54356999)(5001960100002)(7059030)(921003)(1121003)(4001430100001);DIR:OUT;SFP:1101;SCL:1;SRVR:BY1PR0501MB1494;H:domain.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+Content-Type: multipart/alternative;
+	boundary="_000_BY1PR0501MB16403A97707DAF4C62A46536D7DE0BY1PR0501MB1640_"
+MIME-Version: 1.0
+X-OriginatorOrg: americanprogress.org
+X-MS-Exchange-CrossTenant-originalarrivaltime: 08 May 2015 21:43:35.2278
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 08d3764b-1fe7-4bfc-a551-4415fd4cfab2
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY1PR0501MB1494
+
+Dear Members and Friends of the Board,
+
+I wanted to reach out in advance of our Tuesday, May 26th meeting to invite
+ you to dinner the night of the meeting. We will be dining at Restaurant No
+ra, located at 2015 Florida Avenue NW (R Street), at 6:30 pm EST.
+
+I look forward to seeing you on the 26th, and hope that you will be able to
+ join me and several CAP senior staff for dinner.
+
+Best wishes,
+Neera
+

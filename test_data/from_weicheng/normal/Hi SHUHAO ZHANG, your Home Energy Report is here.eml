@@ -1,0 +1,1448 @@
+Delivered-To: zhangshuhao@gmail.com
+Received: by 2002:adf:b304:0:0:0:0:0 with SMTP id j4csp412111wrd;
+        Fri, 1 May 2020 09:13:28 -0700 (PDT)
+X-Google-Smtp-Source: APiQypJSziU5142Svry14qoVmZrhcQI/xk10RDAdvUs405/RG5RlO/5R8Kx8gWEOFy+90YlF8rGH
+X-Received: by 2002:a05:620a:1521:: with SMTP id n1mr4381322qkk.293.1588349608198;
+        Fri, 01 May 2020 09:13:28 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1588349608; cv=none;
+        d=google.com; s=arc-20160816;
+        b=NX6XCLQ3+TMIMoDntuQ1Xs6D6SBU+kGsKHnwzvqCogyrEqOBfiHxDvf6g/Ltdvovsl
+         PHS/f/sEQvqj9YzeubQKxW7dqzohlljS8aD3sXbMnd444bzzfBXw00Noe0kdYY0lWuJ3
+         eNlWB37lYiAm5gcD0pPmiAecEzE332AlbH18b0cKUaBp3b6PPDd8Fatb8Y2/r4Sd8a6f
+         yXb3utYlgTvGHgjxFo/wKDeEZcaDAmuEyfuBvD72NVPETGElvxxbvKjnAUIwew7ef6ZC
+         f1Cv7T2b8xUZH/wCV5gj9lg2WYdP1E0zZkAnrTq0i6/ibnLrcd8tjde66BHDL7rSnKar
+         R1wQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=sender:content-transfer-encoding:mime-version:subject:message-id:to
+         :reply-to:from:date:dkim-signature:dkim-signature;
+        bh=wmuBSfGuTZFQfBiO8cYUu4edAa0HO4Sebr14qScwp5E=;
+        b=u+nn6xkmsYqcOOx05orn7ytdqDIt4RpIkTk0YbpJI5WTCGerWyLIwt/vno7xRg/XaW
+         owcra4KWFkAKpC5bc6p7+fX2+W0Z2Xe5+bHRku8J3C2k9sN+N3r/S3pyt7PLv+aBM/np
+         rW/s6N8npXZmnssNGhzDrDsJIIGunbICPR0MzHVLYWycUyHtyVD0cRFfTsq+FNkAwiBo
+         sRwHKVtdUbOLHYDFe+1N4oqdzJiY3Bl8VGRat2CJKjYY0qTnVQfv4Ntlb1uHek0yHPJh
+         jqAivcROSuLGnmK2jz63KizEkRulqhwTAG/ZpFQsZyNVzBsZflFPVsDlHdn8D0CG0jRH
+         XceA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=temperror (no key for signature) header.i=@email.opower.com header.s=test-dyn-opwr header.b=MJMClr6v;
+       dkim=pass (test mode) header.i=@dynect.net header.s=dynect1213 header.b=oHc56a63;
+       spf=pass (google.com: domain of bounces+zhangshuhao=gmail.com@bounce.opower.com designates 216.146.33.225 as permitted sender) smtp.mailfrom="bounces+ZHANGSHUHAO=GMAIL.COM@bounce.opower.com"
+Return-Path: <bounces+ZHANGSHUHAO=GMAIL.COM@bounce.opower.com>
+Received: from mtaout-225-ewr.sendlabs.com (mtaout-225-ewr.sendlabs.com. [216.146.33.225])
+        by mx.google.com with ESMTPS id o8si1938285qvr.47.2020.05.01.09.13.28
+        for <ZHANGSHUHAO@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 01 May 2020 09:13:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+zhangshuhao=gmail.com@bounce.opower.com designates 216.146.33.225 as permitted sender) client-ip=216.146.33.225;
+Authentication-Results: mx.google.com;
+       dkim=temperror (no key for signature) header.i=@email.opower.com header.s=test-dyn-opwr header.b=MJMClr6v;
+       dkim=pass (test mode) header.i=@dynect.net header.s=dynect1213 header.b=oHc56a63;
+       spf=pass (google.com: domain of bounces+zhangshuhao=gmail.com@bounce.opower.com designates 216.146.33.225 as permitted sender) smtp.mailfrom="bounces+ZHANGSHUHAO=GMAIL.COM@bounce.opower.com"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=test-dyn-opwr; d=email.opower.com;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:
+ Content-Transfer-Encoding:Sender; i=pge@email.opower.com;
+ bh=wmuBSfGuTZFQfBiO8cYUu4edAa0HO4Sebr14qScwp5E=;
+ b=MJMClr6vcJq1z+4BesNYOggrrHCLYC46g6bsK7fbbWUCmlVvTAAHYK+n8A2AE8jjww+KbbLCVlyY
+   1TdgUA65/2pmXzyMUPYu3sQkEVCQU++1pMZ2g8YqF3nPiqg1D1/rNMDymSn7RpgHxveWX0XVilEc
+   Jo5F1skpabIWmkcu9vQ=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dynect1213; d=dynect.net;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:
+ Content-Transfer-Encoding:Sender;
+ bh=wmuBSfGuTZFQfBiO8cYUu4edAa0HO4Sebr14qScwp5E=;
+ b=oHc56a63Futzp2KuRgyUyXsozDeT4pvjb7EiWezE7Uj0vlakgHxv+bCLn/zPMKk4JLVhalb8iez0
+   CZa4iEy8Q/gHpNHdVmHIaAomBP6XJT5GZQkdUOVVOT1w/lvQVj5QM+YtBZ9RAVSqx4ucAWlI1egP
+   QBJ4xa4OGVYA1EZBato=
+Date: Fri, 1 May 2020 12:12:48 -0400 (EDT)
+From: Pacific Gas and Electric Company <pge@email.opower.com>
+Reply-To: homeenergyreport@pge.com
+To: ZHANGSHUHAO@GMAIL.COM
+Message-ID: <1937868875.186231588349568014.JavaMail.bertha@prod-bertha-worker-1268.va.opower.it>
+Subject: Hi SHUHAO ZHANG, your Home Energy Report is here
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-tier: prod
+X-event_type: HOME_ENERGY
+X-ids: {"batch_id":"a06a1870-579a-4a09-8cd5-35917898b55e","pipeline_key":"4312ddf5-6751-4e44-8d14-c83babe9be23","trigger_id":"PGE-7-292","communication_id":"PGE-8-36ae826","recipient_type":"STANDARD","recipient_id":"b7475e3c-706a-11e7-9e71-574c776fc9a3"}
+Sender: pge@email.opower.com
+X-DynectEmail-Msg-Hash: OiGFD0KnHnF2HlIE4QrwT100AhxM/6egOXUPK7mpg2wLsoJbGwxojYaF9shSNG6py+aWJw/4YuEKn4LcruC4GzxSnMmA+IgNMM0+fMoFXbgyrve4ZstWxV4j0rjqePiR
+X-DynEmail-Meta: mvG6BoAveDwsJ0GXkVXwZsPZoyy+WU9hZ+ZX27rTnp9FN57ofKrgd82VsQW
+ b3UKh2STdSmZLoJZKKBrh7VSWB5DJkixL0IQ9xLKBrI/J7wO9nk0HewX4EbZ1AJg8MikpekuwNn
+ 8Sc9E1BQvJR+WNTz7W9VsyiwAO4LUh5lVK51vcgOa8vaImH6zI9yEg7DLA5jnYXuf0yVU1dAy65
+ 4MoG0ZJviIlvbBuW0Imp8D2Bb/iAPye7DdZkIveeiUx+tWZf4p7cWxQ2qucwvQytXSIFUABDPEh
+ k11wNilT0aJEVAxiJnlDWkd4zbzhbH3TqJl2vbVaqWoitKLDGHK8T9wUFNVCzPXkckFMz9AIMCm
+ ihLO4a5R9o/4J5vmHHnj/kQa7Ngj07qfWr4ohCe5VAsB2lCd4ya7iVH79rU0Q3g4e24gd0OJHcA
+ quo/0URScBZPZAZe3UQ6lUQBNUJ9gGCk/cNRgdzZS0rDqNul5LoXsqEKk=
+X-DynectEmail-Msg-Key: 20200501161324.0000000db4f8@mail6-89-usnbn1
+X-DynectEmail-X-Headers: MHwxMDczMDQ2OnByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FUkdZOzJ8MTA3MzA0ODolN0IlMjJiYXRjaF9pZCUyMiUzQSUyMmEwNmExODcwLTU3OWEtNGEwOS04Y2Q1LTM1OTE3ODk4YjU1ZSUyMiUyQyUyMnBpcGVsaW5lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY3NTEtNGU0NC04ZDE0LWM4M2JhYmU5YmUyMyUyMiUyQyUyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0UtNy0yOTIlMjIlMkMlMjJjb21tdW5pY2F0aW9uX2lkJTIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyMiUyQyUyMnJlY2lwaWVudF90eXBlJTIyJTNBJTIyU1RBTkRBUkQlMjIlMkMlMjJyZWNpcGllbnRfaWQlMjIlM0ElMjJiNzQ3NWUzYy03MDZhLTExZTctOWU3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7
+X-Feedback-ID: TGl0ZVZNVEFz:489156:431187:dyn06
+
+<!doctype html><html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"en-US">=
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<!--
+            This is meta data to be used by delivery to configure the subje=
+ct line.
+-->
+
+<title>Hi SHUHAO ZHANG, your Home Energy Report is here</title>
+<meta name=3D"subject" content=3D"Hi SHUHAO ZHANG, your Home Energy Report =
+is here">
+
+<style type=3D"text/css">
+@media only screen and (min-width: 641px) {
+  .screenreader-only--desktop {
+    display: block;
+  }
+  .screenreader-only--mobile {
+    display: none;
+  }
+}
+.appleLink a {
+color: inherit; font-weight: inherit; text-decoration: inherit;
+}
+table.button:hover td {
+background-color: #64aacd !important;
+}
+table.button:visited td {
+background-color: #64aacd !important;
+}
+table.button:active td {
+background-color: #64aacd !important;
+}
+table.button:hover td a {
+border-color: #64aacd !important; color: #FFFFFF !important;
+}
+table.button:visited td a {
+border-color: #64aacd !important; color: #FFFFFF !important;
+}
+table.button:active td a {
+border-color: #64aacd !important; color: #FFFFFF !important;
+}
+table.button.secondary:hover td {
+background-color: #ececec !important;
+}
+table.button.secondary:hover td a {
+border-color: #ececec !important; color: #666666 !important;
+}
+.paragraph a:hover {
+color: inherit;
+}
+p a:hover {
+color: inherit;
+}
+a:hover {
+color: #3bb2ed;
+}
+a.quiet:hover {
+color: inherit;
+}
+a.important:hover {
+color: #3bb2ed;
+}
+aside p a:hover {
+color: inherit;
+}
+.aside a:hover {
+color: inherit;
+}
+table.button.send:hover td {
+background-color: #b5da82 !important;
+}
+table.button.send:hover td a {
+border-color: #b5da82 !important;
+}
+table.button.save:hover td {
+background-color: #b5da82 !important;
+}
+table.button.save:hover td a {
+border-color: #b5da82 !important;
+}
+table.button.accept:hover td {
+background-color: #b5da82 !important;
+}
+table.button.accept:hover td a {
+border-color: #b5da82 !important;
+}
+body {
+margin: 0; min-width: 100%; padding: 0; width: 100% !important;
+}
+.ExternalClass {
+width: 100%;
+}
+.ExternalClass {
+line-height: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .body {
+    min-width: 0 !important;
+  }
+  body[yahoofix] .body center {
+    min-width: 0 !important;
+  }
+  body[yahoofix] .container {
+    width: 90% !important;
+  }
+  body[yahoofix] .header {
+    display: block !important; width: 100% !important;
+  }
+  body[yahoofix] .row {
+    display: block !important; width: 100% !important;
+  }
+  body[yahoofix] .row-alt {
+    display: block !important; width: 100% !important;
+  }
+  body[yahoofix] .footer {
+    display: block !important; width: 100% !important;
+  }
+  body[yahoofix] .wrapper-last {
+    display: block !important; padding-right: 0 !important;
+  }
+  body[yahoofix] .wrapper {
+    display: block !important; padding-right: 0 !important;
+  }
+  body[yahoofix] .twelve-columns {
+    display: block !important; float: none !important; padding-left: 0px !i=
+mportant; padding-right: 0px !important; table-layout: fixed !important; wi=
+dth: 100% !important;
+  }
+  body[yahoofix] .ten-columns {
+    display: block !important; float: none !important; padding-left: 0px !i=
+mportant; padding-right: 0px !important; table-layout: fixed !important; wi=
+dth: 100% !important;
+  }
+  body[yahoofix] .offset-by-one {
+    padding-left: 0 !important;
+  }
+  body[yahoofix] .offset-by-one {
+    padding-right: 0 !important;
+  }
+  body[yahoofix] .column-content {
+    width: 100% !important;
+  }
+  body[yahoofix] .expander {
+    width: 1px !important;
+  }
+}
+</style>
+</head>
+<body yahoofix=3D"yahoofix" style=3D"margin: 0; min-width: 100%; padding: 0=
+; width: 100% !important;">
+<table class=3D"body" role=3D"presentation" style=3D"border-collapse: colla=
+pse; border-spacing: 0; height: 100%; min-width: 600px; padding: 0; width: =
+100%;">
+<tbody><tr style=3D"padding: 0;">
+<td class=3D"center" align=3D"center" valign=3D"top" style=3D"border-collap=
+se: collapse !important; border-spacing: 0; padding: 0;">
+<table class=3D"email_header_logo header" role=3D"presentation" style=3D"ba=
+ckground-color: #ffffff; border-bottom-width: 0; border-left-width: 0; bord=
+er-right-width: 0; border-top-color: #0089C4; border-top-style: solid; bord=
+er-top-width: 8px; padding-bottom: 0px; padding-left: 0px; padding-right: 0=
+px; padding-top: 0px; position: relative; width: 100%;" bgcolor=3D"#ffffff"=
+ cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center" align=3D"center" style=3D"border: 0; margin: 0; paddin=
+g: 0;"><center style=3D"min-width: 600px; width: 100%;">
+<table class=3D"container" role=3D"presentation" style=3D"border: 0; margin=
+-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; text-alig=
+n: inherit; width: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"wrapper-last" style=3D"border: 0; margin: 0; padding-bottom: 0=
+px; padding-left: 0px; padding-right: 0px; padding-top: 10px; position: rel=
+ative;">
+<table class=3D"twelve-columns" role=3D"presentation" style=3D"border: 0; m=
+argin-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; widt=
+h: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"column-content" style=3D"border: 0; margin: 0; padding-bottom:=
+ 10px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
+<table class=3D"header_content" role=3D"presentation" style=3D"border: 0; t=
+ext-align: left; width: 100%;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td style=3D"border: 0; margin: 0; padding: 0;">
+<a href=3D"http://link.email.dynect.net/link.php?DynEngagement=3Dtrue&amp;H=
+=3DOiGFD0KnHnF2HlIE4QrwT100AhxM%2F6egOXUPK7mpg2wLsoJbGwxojYaF9shSNG6py%2BaW=
+Jw%2F4YuEKn4LcruC4GzxSnMmA%2BIgNMM0%2BfMoFXbgyrve4ZstWxV4j0rjqePiR&amp;G=3D=
+0&amp;R=3Dhttps%3A%2F%2Fwww.pge.com&amp;I=3D20200501161324.0000000db4f8%40m=
+ail6-89-usnbn1&amp;X=3DMHwxMDczMDQ2OnByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FUkdZOzJ8=
+MTA3MzA0ODolN0IlMjJiYXRjaF9pZCUyMiUzQSUyMmEwNmExODcwLTU3OWEtNGEwOS04Y2Q1LTM=
+1OTE3ODk4YjU1ZSUyMiUyQyUyMnBpcGVsaW5lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY3NTEtNG=
+U0NC04ZDE0LWM4M2JhYmU5YmUyMyUyMiUyQyUyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0UtNy0yO=
+TIlMjIlMkMlMjJjb21tdW5pY2F0aW9uX2lkJTIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyMiUyQyUy=
+MnJlY2lwaWVudF90eXBlJTIyJTNBJTIyU1RBTkRBUkQlMjIlMkMlMjJyZWNpcGllbnRfaWQlMjI=
+lM0ElMjJiNzQ3NWUzYy03MDZhLTExZTctOWU3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7&amp;S=3Dm=
+IZallzPd406ps1uPOO7PT7zleMBzw-UmNllqAX9mwQ" style=3D"-moz-transition: color=
+ 0.4s; -webkit-transition: color 0.4s; color: #107cb2; text-decoration: non=
+e; transition: color 0.4s;"><img class=3D"email_header_logoImage" src=3D"ht=
+tps://static-content.opower.com/clients/pge/logo_tagline2.png" alt=3D"Pacif=
+ic Gas and Electric Company logo" style=3D"border-width: 0; height: 80px; w=
+idth: 240px;" width=3D"240" height=3D"80"></a>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_header_accountNumber" style=3D"border: 0; color: #666666=
+; font-family: Arial, sans-serif; font-size: 12px; margin: 0; padding-botto=
+m: 0; padding-left: 0; padding-right: 0; padding-top: 20px;">
+Acct # ******3834
+</td>
+</tr>
+</tbody></table>
+</td>
+<td class=3D"expander" style=3D"border: 0; margin: 0; padding-bottom: 0 !im=
+portant; padding-left: 0 !important; padding-right: 0 !important; padding-t=
+op: 0 !important; visibility: hidden; width: 0px;"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</center></td>
+</tr>
+</tbody></table>
+
+<table class=3D"email_marketing email_marketing_introductionV2 row" role=3D=
+"presentation" style=3D"background-color: #FFFFFF; border-bottom-width: 0; =
+border-left-width: 0; border-right-width: 0; border-top-color: #E1E1E1; bor=
+der-top-style: none; border-top-width: 0; padding-bottom: 0px; padding-left=
+: 0px; padding-right: 0px; padding-top: 0px; position: relative; width: 100=
+%;" bgcolor=3D"#FFFFFF" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center" align=3D"center" style=3D"border: 0; margin: 0; paddin=
+g: 0;"><center style=3D"min-width: 600px; width: 100%;">
+<table class=3D"container" role=3D"presentation" style=3D"border-bottom-wid=
+th: 0; border-left-width: 0; border-right-width: 0; border-top-color: #E1E1=
+E1; border-top-style: solid; border-top-width: 1px; margin-bottom: 0; margi=
+n-left: auto; margin-right: auto; margin-top: 0; text-align: inherit; width=
+: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"wrapper-last" style=3D"border: 0; margin: 0; padding-bottom: 0=
+px; padding-left: 0px; padding-right: 0px; padding-top: 10px; position: rel=
+ative;">
+<table class=3D"twelve-columns" role=3D"presentation" style=3D"border: 0; m=
+argin-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; widt=
+h: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"column-content" style=3D"border: 0; margin: 0; padding-bottom:=
+ 10px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
+<table style=3D"border: 0; width: 100%;" cellpadding=3D"0" cellspacing=3D"0=
+">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-30" style=3D"border: 0; font-size: 0; height: 30px; m=
+argin: 0; padding: 0;" height=3D"30"></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_marketing_title" style=3D"border: 0; margin: 0; padding:=
+ 0;">
+<h1 style=3D"color: #1D1D1D; font-family: Arial, sans-serif; font-size: 34p=
+x; font-weight: normal; line-height: 1.2; margin: 0; padding: 0; text-align=
+: center;" align=3D"center">2020 California Climate Credit</h1>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-40" style=3D"border: 0; font-size: 0; height: 40px; m=
+argin: 0; padding: 0;" height=3D"40"></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_marketing_text" style=3D"border: 0; color: #666666; font=
+-family: Arial, sans-serif; font-size: 16px; line-height: 1.4; margin: 0; p=
+adding-bottom: 30px; padding-left: 0; padding-right: 0; padding-top: 0; tex=
+t-align: center;" align=3D"center">
+This month your electric bill will include a credit identified as the =E2=
+=80=9CCalifornia Climate Credit.=E2=80=9D The electric credit is typically =
+distributed in April and October, while the gas credit is typically only in=
+ April. The California Public Utility Commission worked with us to move up =
+the October electric credit ($35.73) to be distributed in May ($17.87) and =
+June ($17.86), split evenly between the two months.<br><br>
+Learn more about the California Climate Credit <a href=3D"http://link.email=
+.dynect.net/link.php?DynEngagement=3Dtrue&amp;H=3DOiGFD0KnHnF2HlIE4QrwT100A=
+hxM%2F6egOXUPK7mpg2wLsoJbGwxojYaF9shSNG6py%2BaWJw%2F4YuEKn4LcruC4GzxSnMmA%2=
+BIgNMM0%2BfMoFXbgyrve4ZstWxV4j0rjqePiR&amp;G=3D0&amp;R=3Dhttps%3A%2F%2Fwww.=
+cpuc.ca.gov%2Fclimatecredit&amp;I=3D20200501161324.0000000db4f8%40mail6-89-=
+usnbn1&amp;X=3DMHwxMDczMDQ2OnByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FUkdZOzJ8MTA3MzA0=
+ODolN0IlMjJiYXRjaF9pZCUyMiUzQSUyMmEwNmExODcwLTU3OWEtNGEwOS04Y2Q1LTM1OTE3ODk=
+4YjU1ZSUyMiUyQyUyMnBpcGVsaW5lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY3NTEtNGU0NC04ZD=
+E0LWM4M2JhYmU5YmUyMyUyMiUyQyUyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0UtNy0yOTIlMjIlM=
+kMlMjJjb21tdW5pY2F0aW9uX2lkJTIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyMiUyQyUyMnJlY2lw=
+aWVudF90eXBlJTIyJTNBJTIyU1RBTkRBUkQlMjIlMkMlMjJyZWNpcGllbnRfaWQlMjIlM0ElMjJ=
+iNzQ3NWUzYy03MDZhLTExZTctOWU3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7&amp;S=3DD-kiNUM5l=
+XILPFxBXHcrlm1faLA5QWa-GJzN7CNh2so">here</a>.
+</td>
+</tr>
+</tbody></table>
+</td>
+<td class=3D"expander" style=3D"border: 0; margin: 0; padding-bottom: 0 !im=
+portant; padding-left: 0 !important; padding-right: 0 !important; padding-t=
+op: 0 !important; visibility: hidden; width: 0px;"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</center></td>
+</tr>
+</tbody></table>
+
+<table class=3D"email_marketing email_marketing_image-centered-flex row" ro=
+le=3D"presentation" style=3D"background-color: #FFFFFF; border-bottom-width=
+: 0; border-left-width: 0; border-right-width: 0; border-top-color: #E1E1E1=
+; border-top-style: solid; border-top-width: 1px; padding-bottom: 0px; padd=
+ing-left: 0px; padding-right: 0px; padding-top: 0px; position: relative; wi=
+dth: 100%;" bgcolor=3D"#FFFFFF" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center" align=3D"center" style=3D"border: 0; margin: 0; paddin=
+g: 0; text-align: center;">
+<table class=3D"container" role=3D"presentation" style=3D"border: 0; margin=
+-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; text-alig=
+n: inherit; width: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"wrapper-last" style=3D"border: 0; margin: 0; padding-bottom: 0=
+px; padding-left: 0px; padding-right: 0px; padding-top: 10px; position: rel=
+ative;">
+<table class=3D"twelve-columns" role=3D"presentation" style=3D"border: 0; m=
+argin-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; widt=
+h: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"column-content" style=3D"border: 0; margin: 0; padding-bottom:=
+ 10px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
+<table role=3D"presentation" style=3D"border: 0; width: 100%;" cellpadding=
+=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-30" style=3D"border: 0; font-size: 0; height: 30px; m=
+argin: 0; padding: 0;" height=3D"30"></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center email_marketing_padding_bottom_20" style=3D"border: 0; =
+margin: 0; padding-bottom: 20px; padding-left: 0; padding-right: 0; padding=
+-top: 0; text-align: center;" align=3D"center">
+<h1 class=3D"heading-primary email_marketing_title" style=3D"color: #1D1D1D=
+; font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; line-=
+height: 1.2; margin: 0; padding: 0; text-align: center;" align=3D"center">W=
+e are here to help</h1>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center" style=3D"border: 0; margin: 0; padding: 0; text-align:=
+ center;" align=3D"center">
+<img class=3D"email_marketing_image center" width=3D"292" src=3D"https://di=
+gital-asset.opower.com/asset_files/552545/pse_coronavirus_health_200316_02.=
+svg?width=3D600&amp;height=3D600&amp;primary-color=3D%230089C4&amp;efficien=
+t-color=3D%23FFA100&amp;neighbor-color=3D%23666666&amp;success-color=3D%239=
+9cc33&amp;good-color=3D%23f9e500&amp;great-color=3D%2399cc33&amp;fair-color=
+=3D%23f7941d&amp;summer-color=3D%23f7941d&amp;winter-color=3D%2300b7ce&amp;=
+smiley-eyes-color=3D%23000000&amp;icon-default-color=3D%23666666&amp;illust=
+ration-highlight=3D%23ffa100&amp;illustration-white=3D%23FFFFFF&amp;illustr=
+ation-lightest-gray=3D%23F1F1F1&amp;illustration-light-gray=3D%23E1E1E1&amp=
+;illustration-medium-gray=3D%23C1C1C1&amp;illustration-dark-gray=3D%2366666=
+6&amp;illustration-yellow=3D%23F9E500" alt=3D"laptop illustration" style=3D=
+"height: auto; max-width: 100%; text-align: center;">
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_marketing_text email_marketing_padding_top_40" style=3D"=
+border: 0; color: #666666; font-family: Arial, sans-serif; font-size: 16px;=
+ line-height: 1.4; margin: 0; padding-bottom: 0; padding-left: 0; padding-r=
+ight: 0; padding-top: 40px; text-align: center;" align=3D"center">
+We understand that many of our customers are facing severe economic challen=
+ges and increased home energy use during stay-at-home orders. We have finan=
+cial assistance programs, energy management tools, and saving tips availabl=
+e to help you save energy and money during this difficult time.
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td align=3D"center" class=3D"email_marketing_padding_top_40" style=3D"bord=
+er: 0; margin: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; pad=
+ding-top: 40px;">
+<table class=3D"marketing-message-button" role=3D"button" style=3D"border-b=
+ottom-width: 0; border-collapse: collapse; border-left-width: 0; border-rig=
+ht-width: 0; border-spacing: 0; border-top-width: 0; padding: 0; width: aut=
+o;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td style=3D"background-color: #0089C4; border-bottom-width: 0; border-left=
+-width: 0; border-radius: 4px; border-right-width: 0; border-top-width: 0; =
+margin: 0; padding: 0; text-align: center;" align=3D"center" bgcolor=3D"#00=
+89C4">
+<a class=3D"email_marketing_buttonText" href=3D"http://link.email.dynect.ne=
+t/link.php?DynEngagement=3Dtrue&amp;H=3DOiGFD0KnHnF2HlIE4QrwT100AhxM%2F6egO=
+XUPK7mpg2wLsoJbGwxojYaF9shSNG6py%2BaWJw%2F4YuEKn4LcruC4GzxSnMmA%2BIgNMM0%2B=
+fMoFXbgyrve4ZstWxV4j0rjqePiR&amp;G=3D0&amp;R=3Dhttps%3A%2F%2Fwww.pge.com%2F=
+en_US%2Fabout-pge%2Fcompany-information%2Fprotective-protocols%2Fcovid19-pr=
+otections.page%3FWT.mc_id%3DVanity_covid19&amp;I=3D20200501161324.0000000db=
+4f8%40mail6-89-usnbn1&amp;X=3DMHwxMDczMDQ2OnByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FU=
+kdZOzJ8MTA3MzA0ODolN0IlMjJiYXRjaF9pZCUyMiUzQSUyMmEwNmExODcwLTU3OWEtNGEwOS04=
+Y2Q1LTM1OTE3ODk4YjU1ZSUyMiUyQyUyMnBpcGVsaW5lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY=
+3NTEtNGU0NC04ZDE0LWM4M2JhYmU5YmUyMyUyMiUyQyUyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0=
+UtNy0yOTIlMjIlMkMlMjJjb21tdW5pY2F0aW9uX2lkJTIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyM=
+iUyQyUyMnJlY2lwaWVudF90eXBlJTIyJTNBJTIyU1RBTkRBUkQlMjIlMkMlMjJyZWNpcGllbnRf=
+aWQlMjIlM0ElMjJiNzQ3NWUzYy03MDZhLTExZTctOWU3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7&am=
+p;S=3DRTfpPH1D9FziRkVNuDbaXnH0HHkUKs_xc3CBb5B29d8" style=3D"-moz-transition=
+: color 0.4s; -webkit-transition: color 0.4s; border-bottom-color: #0089C4;=
+ border-bottom-style: solid; border-bottom-width: 1px; border-left-color: #=
+0089C4; border-left-style: solid; border-left-width: 1px; border-radius: 4p=
+x; border-right-color: #0089C4; border-right-style: solid; border-right-wid=
+th: 1px; border-top-color: #0089C4; border-top-style: solid; border-top-wid=
+th: 1px; color: #ffffff; display: inline-block; font-family: Arial, sans-se=
+rif; font-size: 14px; font-weight: normal; padding-bottom: 14px; padding-le=
+ft: 40px; padding-right: 40px; padding-top: 14px; text-decoration: none; te=
+xt-transform: uppercase; transition: color 0.4s;">LEARN MORE</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-40" style=3D"border: 0; font-size: 0; height: 40px; m=
+argin: 0; padding: 0;" height=3D"40"></td>
+</tr>
+</tbody></table>
+</td>
+<td class=3D"expander" style=3D"border: 0; margin: 0; padding-bottom: 0 !im=
+portant; padding-left: 0 !important; padding-right: 0 !important; padding-t=
+op: 0 !important; visibility: hidden; width: 0px;"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<table class=3D"email_neighborComparison row-alt" role=3D"presentation" sty=
+le=3D"background-color: #F1F1F1; border-bottom-width: 0; border-left-width:=
+ 0; border-right-width: 0; border-top-color: #E1E1E1; border-top-style: sol=
+id; border-top-width: 1px; padding-bottom: 0px; padding-left: 0px; padding-=
+right: 0px; padding-top: 0px; position: relative; table-layout: fixed; widt=
+h: 100%;" bgcolor=3D"#F1F1F1" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center" align=3D"center" style=3D"border: 0; margin: 0; paddin=
+g: 0;"><center style=3D"min-width: 600px; width: 100%;">
+<table class=3D"container" role=3D"figure" aria-label=3D"That is good" styl=
+e=3D"border: 0; margin-bottom: 0; margin-left: auto; margin-right: auto; ma=
+rgin-top: 0; text-align: inherit; width: 580px;" cellpadding=3D"0" cellspac=
+ing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"wrapper-last" style=3D"border: 0; margin: 0; padding-bottom: 0=
+px; padding-left: 0px; padding-right: 0px; padding-top: 10px; position: rel=
+ative;">
+<table class=3D"twelve-columns" role=3D"presentation" style=3D"border: 0; m=
+argin-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; widt=
+h: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"column-content usage-message-container" style=3D"border: 0; ma=
+rgin: 0; padding-bottom: 20px; padding-left: 0px; padding-right: 0px; paddi=
+ng-top: 20px;">
+<table role=3D"presentation" style=3D"border: 0; width: 100%;" cellpadding=
+=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"usage-message-wrapper" style=3D"border: 0; margin: 0; padding:=
+ 0; text-align: center; vertical-align: top;" align=3D"center" valign=3D"to=
+p">
+<h2 class=3D"email_neighborComparison_usageMessage usage-message" style=3D"=
+color: #1D1D1D; font-family: Arial, sans-serif; font-size: 20px; font-weigh=
+t: normal; line-height: 25px; margin: 0; padding: 0;">You used 38% more tha=
+n efficient homes.</h2>
+</td>
+</tr>
+</tbody></table>
+</td>
+<td class=3D"expander" style=3D"border: 0; margin: 0; padding-bottom: 0 !im=
+portant; padding-left: 0 !important; padding-right: 0 !important; padding-t=
+op: 0 !important; visibility: hidden; width: 0px;"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"wrapper-last offset-by-one" style=3D"border: 0; margin: 0; pad=
+ding-bottom: 0px; padding-left: 50px; padding-right: 50px; padding-top: 10p=
+x; position: relative;">
+<table class=3D"ten-columns" aria-hidden=3D"true" style=3D"border: 0; margi=
+n-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; width: 4=
+80px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"column-content smiley-container" style=3D"background-color: #F=
+FFFFF; border-bottom-color: #E1E1E1; border-bottom-style: solid; border-bot=
+tom-width: 1px; border-left-color: #E1E1E1; border-left-style: solid; borde=
+r-left-width: 1px; border-right-color: #E1E1E1; border-right-style: solid; =
+border-right-width: 1px; border-top-color: #E1E1E1; border-top-style: solid=
+; border-top-width: 1px; margin: 0; padding-bottom: 2px; padding-left: 30px=
+; padding-right: 30px; padding-top: 2px; text-align: left;" align=3D"left" =
+bgcolor=3D"#FFFFFF">
+
+<table role=3D"presentation" style=3D"border: 0; width: 100%;" cellpadding=
+=3D"0" cellspacing=3D"0">
+<tbody><tr class=3D"smiley-row great" style=3D"border: 0; height: 60px; mar=
+gin: 0; padding: 0; width: 100%;" height=3D"60">
+<td class=3D"smiley-image-container" style=3D"border: 0; height: 60px; marg=
+in: 0; padding: 0; width: 60px;">
+<span class=3D"smiley"><img src=3D"https://static-content.opower.com/images=
+/email/great-v2-grey.png" alt=3D"" style=3D"height: 46px; width: 46px;" wid=
+th=3D"46" height=3D"46"></span>
+</td>
+<td class=3D"smiley-text-container" style=3D"border: 0; height: 60px; margi=
+n: 0; padding: 0;" height=3D"60">
+<table style=3D"border: 0; height: 60px; width: auto !important;" height=3D=
+"60" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_neighborComparison_great smiley-text" style=3D"border-bo=
+ttom-color: #0089C4; border-bottom-style: none; border-bottom-width: 8px; b=
+order-left-width: 0; border-right-width: 0; border-top-width: 0; color: #66=
+6666; font-family: Arial, sans-serif; font-size: 16px; font-weight: normal;=
+ height: 60px; line-height: 1; margin: 0; padding: 0; text-align: left; ver=
+tical-align: middle;" align=3D"left" valign=3D"middle" height=3D"60">Great<=
+/td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"smiley-row-divider" colspan=3D"2" style=3D"background-color: #=
+E1E1E1; border-bottom-width: 0; border-left-color: #FFFFFF; border-left-sty=
+le: solid; border-left-width: 20px; border-right-color: #FFFFFF; border-rig=
+ht-style: solid; border-right-width: 20px; border-top-width: 0; font-size: =
+0; height: 1px; margin: 0; padding: 0;" bgcolor=3D"#E1E1E1" height=3D"1"></=
+td>
+</tr>
+<tr class=3D"smiley-row good" style=3D"border: 0; height: 70px; margin: 0; =
+padding: 0; width: 100%;" height=3D"70">
+<td class=3D"smiley-image-container" style=3D"border: 0; height: 60px; marg=
+in: 0; padding: 0; width: 60px;">
+<span class=3D"smiley"><img src=3D"https://static-content.opower.com/images=
+/email/good-v2-yellow.png" alt=3D"" style=3D"height: 46px; width: 46px;" wi=
+dth=3D"46" height=3D"46"></span>
+</td>
+<td class=3D"smiley-text-container" style=3D"border: 0; height: 70px; margi=
+n: 0; padding: 0;" height=3D"70">
+<table style=3D"border: 0; height: 70px; width: auto !important;" height=3D=
+"70" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_neighborComparison_good smiley-text" style=3D"border-bot=
+tom-color: #0089C4; border-bottom-style: solid; border-bottom-width: 8px; b=
+order-left-width: 0; border-right-width: 0; border-top-width: 0; color: #1D=
+1D1D; font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; h=
+eight: 70px; line-height: 1; margin: 0; padding: 0; text-align: left; verti=
+cal-align: middle;" align=3D"left" valign=3D"middle" height=3D"70">Good</td=
+>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"smiley-row-divider" colspan=3D"2" style=3D"background-color: #=
+E1E1E1; border-bottom-width: 0; border-left-color: #FFFFFF; border-left-sty=
+le: solid; border-left-width: 20px; border-right-color: #FFFFFF; border-rig=
+ht-style: solid; border-right-width: 20px; border-top-width: 0; font-size: =
+0; height: 1px; margin: 0; padding: 0;" bgcolor=3D"#E1E1E1" height=3D"1"></=
+td>
+</tr>
+<tr class=3D"smiley-row average" style=3D"border: 0; height: 60px; margin: =
+0; padding: 0; width: 100%;" height=3D"60">
+<td class=3D"smiley-image-container" style=3D"border: 0; height: 60px; marg=
+in: 0; padding: 0; width: 60px;">
+<span class=3D"smiley"><img src=3D"https://static-content.opower.com/images=
+/email/more-than-average-v2-grey.png" alt=3D"" style=3D"height: 46px; width=
+: 46px;" width=3D"46" height=3D"46"></span>
+</td>
+<td class=3D"smiley-text-container" style=3D"border: 0; height: 60px; margi=
+n: 0; padding: 0;" height=3D"60">
+<table style=3D"border: 0; height: 60px; width: auto !important;" height=3D=
+"60" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_neighborComparison_average smiley-text" style=3D"border-=
+bottom-color: #0089C4; border-bottom-style: none; border-bottom-width: 8px;=
+ border-left-width: 0; border-right-width: 0; border-top-width: 0; color: #=
+666666; font-family: Arial, sans-serif; font-size: 16px; font-weight: norma=
+l; height: 60px; line-height: 1; margin: 0; padding: 0; text-align: left; v=
+ertical-align: middle;" align=3D"left" valign=3D"middle" height=3D"60">Usin=
+g more than average</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+<td class=3D"expander" style=3D"border: 0; margin: 0; padding-bottom: 0 !im=
+portant; padding-left: 0 !important; padding-right: 0 !important; padding-t=
+op: 0 !important; visibility: hidden; width: 0px;"></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-30" colspan=3D"2" style=3D"border: 0; font-size: 0; h=
+eight: 30px; margin: 0; padding: 0;" height=3D"30"><span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody></table>
+</center></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center" align=3D"center" style=3D"border: 0; margin: 0; paddin=
+g: 0;"><center style=3D"min-width: 600px; width: 100%;">
+<table class=3D"container" role=3D"presentation" style=3D"border: 0; margin=
+-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; text-alig=
+n: inherit; width: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"wrapper-last" style=3D"border: 0; margin: 0; padding-bottom: 0=
+px; padding-left: 0px; padding-right: 0px; padding-top: 10px; position: rel=
+ative;">
+<table class=3D"twelve-columns" role=3D"presentation" style=3D"border: 0; m=
+argin-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; widt=
+h: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"column-content" style=3D"border: 0; margin: 0; padding-bottom:=
+ 10px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
+<table class=3D"bar-graph" role=3D"presentation" style=3D"border: 0; width:=
+ 100%;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+
+<tr class=3D"bar-graph-row" role=3D"img" aria-label=3D"Efficient homes used=
+ 516units" style=3D"border: 0; font-family: Arial, sans-serif; height: 52px=
+; margin: 0; padding: 0; text-align: left;" align=3D"left">
+<td class=3D"email_neighborComparison_barLabel bar-label" aria-hidden=3D"tr=
+ue" style=3D"border: 0; font-family: Arial, sans-serif; font-size: 16px; fo=
+nt-weight: normal; height: 44px; margin: 0; padding-bottom: 0; padding-left=
+: 0; padding-right: 40px; padding-top: 0; text-align: left; width: 100px;" =
+align=3D"left" width=3D"100" height=3D"44">
+Efficient Homes
+</td>
+<td class=3D"bar-container" aria-hidden=3D"true" style=3D"border: 0; margin=
+: 0; padding: 0; width: 440px;">
+<table role=3D"presentation" style=3D"border: 0; height: 52px; width: 100%;=
+" width=3D"100%" height=3D"52" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; height: 52px; margin: 0; padding: 0;" height=
+=3D"52">
+<td class=3D"email_neighborComparisonGraphBar bar" style=3D"background-colo=
+r: #FFA100; border: 0; height: 52px; margin: 0; padding: 0; width: 281px;" =
+bgcolor=3D"#FFA100">&nbsp;</td>
+<td class=3D"bar-spacing" style=3D"border: 0; font-size: 0; height: 52px; l=
+ine-height: 0; margin: 0; padding: 0; width: 11px;">&nbsp;</td>
+<td class=3D"data_barUsage bar-value" style=3D"border: 0; font-family: Aria=
+l, sans-serif; font-size: 16px; height: 52px; margin: 0; padding: 0; text-a=
+lign: left; vertical-align: middle; white-space: nowrap; width: 70px;" alig=
+n=3D"left" valign=3D"middle">516&nbsp;units</td>
+<td class=3D"data_barRemainder bar-value-remainder" style=3D"border: 0; fon=
+t-size: 0; height: 52px; line-height: 0; margin: 0; padding: 0; width: 143p=
+x;">&nbsp;</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-10" colspan=3D"2" style=3D"border: 0; font-size: 0; h=
+eight: 10px; margin: 0; padding: 0;" height=3D"10"><span></span></td>
+</tr>
+
+<tr class=3D"bar-graph-row" role=3D"img" aria-label=3D"You used 715units" s=
+tyle=3D"border: 0; font-family: Arial, sans-serif; height: 52px; margin: 0;=
+ padding: 0; text-align: left;" align=3D"left">
+<td class=3D"email_neighborComparison_barLabel bar-label" aria-hidden=3D"tr=
+ue" style=3D"border: 0; font-family: Arial, sans-serif; font-size: 20px; fo=
+nt-weight: bold; height: 44px; margin: 0; padding-bottom: 0; padding-left: =
+0; padding-right: 40px; padding-top: 0; text-align: left; width: 100px;" al=
+ign=3D"left" width=3D"100" height=3D"44">
+You
+</td>
+<td class=3D"bar-container" aria-hidden=3D"true" style=3D"border: 0; margin=
+: 0; padding: 0; width: 440px;">
+<table role=3D"presentation" style=3D"border: 0; height: 52px; width: 100%;=
+" width=3D"100%" height=3D"52" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; height: 52px; margin: 0; padding: 0;" height=
+=3D"52">
+<td class=3D"email_neighborComparisonGraphBar bar" style=3D"background-colo=
+r: #0089C4; border: 0; height: 52px; margin: 0; padding: 0; width: 386px;" =
+bgcolor=3D"#0089C4">&nbsp;</td>
+<td class=3D"bar-spacing" style=3D"border: 0; font-size: 0; height: 52px; l=
+ine-height: 0; margin: 0; padding: 0; width: 11px;">&nbsp;</td>
+<td class=3D"data_barUsage bar-value" style=3D"border: 0; font-family: Aria=
+l, sans-serif; font-size: 16px; height: 52px; margin: 0; padding: 0; text-a=
+lign: left; vertical-align: middle; white-space: nowrap; width: 70px;" alig=
+n=3D"left" valign=3D"middle">715&nbsp;units</td>
+<td class=3D"data_barRemainder bar-value-remainder" style=3D"border: 0; fon=
+t-size: 0; height: 52px; line-height: 0; margin: 0; padding: 0; width: 38px=
+;">&nbsp;</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-10" colspan=3D"2" style=3D"border: 0; font-size: 0; h=
+eight: 10px; margin: 0; padding: 0;" height=3D"10"><span></span></td>
+</tr>
+
+<tr class=3D"bar-graph-row" role=3D"img" aria-label=3D"Similar homes used 7=
+85units" style=3D"border: 0; font-family: Arial, sans-serif; height: 52px; =
+margin: 0; padding: 0; text-align: left;" align=3D"left">
+<td class=3D"email_neighborComparison_barLabel bar-label" aria-hidden=3D"tr=
+ue" style=3D"border: 0; font-family: Arial, sans-serif; font-size: 16px; fo=
+nt-weight: normal; height: 44px; margin: 0; padding-bottom: 0; padding-left=
+: 0; padding-right: 40px; padding-top: 0; text-align: left; width: 100px;" =
+align=3D"left" width=3D"100" height=3D"44">
+Similar Homes
+</td>
+<td class=3D"bar-container" aria-hidden=3D"true" style=3D"border: 0; margin=
+: 0; padding: 0; width: 440px;">
+<table role=3D"presentation" style=3D"border: 0; height: 52px; width: 100%;=
+" width=3D"100%" height=3D"52" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; height: 52px; margin: 0; padding: 0;" height=
+=3D"52">
+<td class=3D"email_neighborComparisonGraphBar bar" style=3D"background-colo=
+r: #666666; border: 0; height: 52px; margin: 0; padding: 0; width: 424px;" =
+bgcolor=3D"#666666">&nbsp;</td>
+<td class=3D"bar-spacing" style=3D"border: 0; font-size: 0; height: 52px; l=
+ine-height: 0; margin: 0; padding: 0; width: 11px;">&nbsp;</td>
+<td class=3D"data_barUsage bar-value" style=3D"border: 0; font-family: Aria=
+l, sans-serif; font-size: 16px; height: 52px; margin: 0; padding: 0; text-a=
+lign: left; vertical-align: middle; white-space: nowrap; width: 70px;" alig=
+n=3D"left" valign=3D"middle">785&nbsp;units</td>
+<td class=3D"data_barRemainder bar-value-remainder" style=3D"border: 0; fon=
+t-size: 0; height: 52px; line-height: 0; margin: 0; padding: 0; width: 0px;=
+">&nbsp;</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-10" colspan=3D"2" style=3D"border: 0; font-size: 0; h=
+eight: 10px; margin: 0; padding: 0;" height=3D"10"><span></span></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-30" colspan=3D"2" style=3D"border: 0; font-size: 0; h=
+eight: 30px; margin: 0; padding: 0;" height=3D"30"><span></span></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"footer-message-wrapper" colspan=3D"2" style=3D"border: 0; colo=
+r: #666666; font-family: Arial, sans-serif; font-size: 16px; line-height: 1=
+.4; margin: 0; padding-bottom: 20px; padding-left: 0; padding-right: 0; pad=
+ding-top: 0; text-align: left;" align=3D"left">
+<span class=3D"email_neighborComparison_reportInterval appleLink">
+Mar 24, 2020 - Apr 22, 2020
+</span>
+<br>
+<span class=3D"email_neighborComparison_footerDualFuelExplanation
+email_neighborComparison_footerMessageSimple
+email_neighborComparison_footerMessageWithHomeSize
+email_neighborComparison_footerMessageWithDistance
+email_neighborComparison_footerMessageWithHomeSizeAndDistance
+email_neighborComparison_footerEfficientNeighborsExplanation">
+Units represent a combination of electricity (kWh) and natural gas (therms)=
+.
+You=E2=80=99re compared with 95 homes an average of 1&nbsp;mi from you that=
+ are a similar size (2,129&nbsp;sq. ft.) and have gas heat.
+Efficient homes are the most efficient 20% of this group.
+<br>
+<a class=3D"email_neighborComparison_footerLinkText learn-more-link" href=
+=3D"http://link.email.dynect.net/link.php?DynEngagement=3Dtrue&amp;H=3DOiGF=
+D0KnHnF2HlIE4QrwT100AhxM%2F6egOXUPK7mpg2wLsoJbGwxojYaF9shSNG6py%2BaWJw%2F4Y=
+uEKn4LcruC4GzxSnMmA%2BIgNMM0%2BfMoFXbgyrve4ZstWxV4j0rjqePiR&amp;G=3D0&amp;R=
+=3D%3FmoduleId%3Dca48fa34-5c12-44a8-95b1-0c75f2e16e56%26communicationId%3DP=
+GE-8-36ae826&amp;I=3D20200501161324.0000000db4f8%40mail6-89-usnbn1&amp;X=3D=
+MHwxMDczMDQ2OnByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FUkdZOzJ8MTA3MzA0ODolN0IlMjJiYXR=
+jaF9pZCUyMiUzQSUyMmEwNmExODcwLTU3OWEtNGEwOS04Y2Q1LTM1OTE3ODk4YjU1ZSUyMiUyQy=
+UyMnBpcGVsaW5lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY3NTEtNGU0NC04ZDE0LWM4M2JhYmU5Y=
+mUyMyUyMiUyQyUyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0UtNy0yOTIlMjIlMkMlMjJjb21tdW5p=
+Y2F0aW9uX2lkJTIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyMiUyQyUyMnJlY2lwaWVudF90eXBlJTI=
+yJTNBJTIyU1RBTkRBUkQlMjIlMkMlMjJyZWNpcGllbnRfaWQlMjIlM0ElMjJiNzQ3NWUzYy03MD=
+ZhLTExZTctOWU3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7&amp;S=3DgrOthMAipgevJwxwyOwzQhTW=
+ZC7MjMEfg-LvB9etq_E" style=3D"-moz-transition: color 0.4s; -webkit-transiti=
+on: color 0.4s; color: #666666; text-decoration: underline; transition: non=
+e;"></a>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class=3D"expander" style=3D"border: 0; margin: 0; padding-bottom: 0 !im=
+portant; padding-left: 0 !important; padding-right: 0 !important; padding-t=
+op: 0 !important; visibility: hidden; width: 0px;"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</center></td>
+</tr>
+</tbody></table>
+
+<table class=3D"email_marketing email_marketing_image-centered-flex row" ro=
+le=3D"presentation" style=3D"background-color: #FFFFFF; border-bottom-width=
+: 0; border-left-width: 0; border-right-width: 0; border-top-color: #E1E1E1=
+; border-top-style: solid; border-top-width: 1px; padding-bottom: 0px; padd=
+ing-left: 0px; padding-right: 0px; padding-top: 0px; position: relative; wi=
+dth: 100%;" bgcolor=3D"#FFFFFF" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center" align=3D"center" style=3D"border: 0; margin: 0; paddin=
+g: 0; text-align: center;">
+<table class=3D"container" role=3D"presentation" style=3D"border: 0; margin=
+-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; text-alig=
+n: inherit; width: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"wrapper-last" style=3D"border: 0; margin: 0; padding-bottom: 0=
+px; padding-left: 0px; padding-right: 0px; padding-top: 10px; position: rel=
+ative;">
+<table class=3D"twelve-columns" role=3D"presentation" style=3D"border: 0; m=
+argin-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; widt=
+h: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"column-content" style=3D"border: 0; margin: 0; padding-bottom:=
+ 10px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
+<table role=3D"presentation" style=3D"border: 0; width: 100%;" cellpadding=
+=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-30" style=3D"border: 0; font-size: 0; height: 30px; m=
+argin: 0; padding: 0;" height=3D"30"></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center email_marketing_padding_bottom_20" style=3D"border: 0; =
+margin: 0; padding-bottom: 20px; padding-left: 0; padding-right: 0; padding=
+-top: 0; text-align: center;" align=3D"center">
+<h1 class=3D"heading-primary email_marketing_title" style=3D"color: #1D1D1D=
+; font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; line-=
+height: 1.2; margin: 0; padding: 0; text-align: center;" align=3D"center">N=
+eed more time to pay your bill?</h1>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center" style=3D"border: 0; margin: 0; padding: 0; text-align:=
+ center;" align=3D"center">
+<img class=3D"email_marketing_image center" width=3D"292" src=3D"https://di=
+gital-asset.opower.com/asset_files/552504/all_lowincome_budgetbilling_154x1=
+54.svg?width=3D600&amp;height=3D600&amp;primary-color=3D%230089C4&amp;effic=
+ient-color=3D%23FFA100&amp;neighbor-color=3D%23666666&amp;success-color=3D%=
+2399cc33&amp;good-color=3D%23f9e500&amp;great-color=3D%2399cc33&amp;fair-co=
+lor=3D%23f7941d&amp;summer-color=3D%23f7941d&amp;winter-color=3D%2300b7ce&a=
+mp;smiley-eyes-color=3D%23000000&amp;icon-default-color=3D%23666666&amp;ill=
+ustration-highlight=3D%23ffa100&amp;illustration-white=3D%23FFFFFF&amp;illu=
+stration-lightest-gray=3D%23F1F1F1&amp;illustration-light-gray=3D%23E1E1E1&=
+amp;illustration-medium-gray=3D%23C1C1C1&amp;illustration-dark-gray=3D%2366=
+6666&amp;illustration-yellow=3D%23F9E500" alt=3D"Calendar" style=3D"height:=
+ auto; max-width: 100%; text-align: center;">
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_marketing_text email_marketing_padding_top_40" style=3D"=
+border: 0; color: #666666; font-family: Arial, sans-serif; font-size: 16px;=
+ line-height: 1.4; margin: 0; padding-bottom: 0; padding-left: 0; padding-r=
+ight: 0; padding-top: 40px; text-align: center;" align=3D"center">
+During this difficult time we are offering flexible payment plans. You can =
+schedule payment of your current balance over several months to help addres=
+s any financial hardships you may be facing.
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td align=3D"center" class=3D"email_marketing_padding_top_40" style=3D"bord=
+er: 0; margin: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; pad=
+ding-top: 40px;">
+<table class=3D"marketing-message-button" role=3D"button" style=3D"border-b=
+ottom-width: 0; border-collapse: collapse; border-left-width: 0; border-rig=
+ht-width: 0; border-spacing: 0; border-top-width: 0; padding: 0; width: aut=
+o;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td style=3D"background-color: #0089C4; border-bottom-width: 0; border-left=
+-width: 0; border-radius: 4px; border-right-width: 0; border-top-width: 0; =
+margin: 0; padding: 0; text-align: center;" align=3D"center" bgcolor=3D"#00=
+89C4">
+<a class=3D"email_marketing_buttonText" href=3D"http://link.email.dynect.ne=
+t/link.php?DynEngagement=3Dtrue&amp;H=3DOiGFD0KnHnF2HlIE4QrwT100AhxM%2F6egO=
+XUPK7mpg2wLsoJbGwxojYaF9shSNG6py%2BaWJw%2F4YuEKn4LcruC4GzxSnMmA%2BIgNMM0%2B=
+fMoFXbgyrve4ZstWxV4j0rjqePiR&amp;G=3D0&amp;R=3Dhttps%3A%2F%2Fwww.pge.com%2F=
+assistance&amp;I=3D20200501161324.0000000db4f8%40mail6-89-usnbn1&amp;X=3DMH=
+wxMDczMDQ2OnByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FUkdZOzJ8MTA3MzA0ODolN0IlMjJiYXRja=
+F9pZCUyMiUzQSUyMmEwNmExODcwLTU3OWEtNGEwOS04Y2Q1LTM1OTE3ODk4YjU1ZSUyMiUyQyUy=
+MnBpcGVsaW5lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY3NTEtNGU0NC04ZDE0LWM4M2JhYmU5YmU=
+yMyUyMiUyQyUyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0UtNy0yOTIlMjIlMkMlMjJjb21tdW5pY2=
+F0aW9uX2lkJTIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyMiUyQyUyMnJlY2lwaWVudF90eXBlJTIyJ=
+TNBJTIyU1RBTkRBUkQlMjIlMkMlMjJyZWNpcGllbnRfaWQlMjIlM0ElMjJiNzQ3NWUzYy03MDZh=
+LTExZTctOWU3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7&amp;S=3DyQv8T9qgX9WnmpPun-3tH2mkPH=
+Mz6yFbyxTvlEINfsk" style=3D"-moz-transition: color 0.4s; -webkit-transition=
+: color 0.4s; border-bottom-color: #0089C4; border-bottom-style: solid; bor=
+der-bottom-width: 1px; border-left-color: #0089C4; border-left-style: solid=
+; border-left-width: 1px; border-radius: 4px; border-right-color: #0089C4; =
+border-right-style: solid; border-right-width: 1px; border-top-color: #0089=
+C4; border-top-style: solid; border-top-width: 1px; color: #ffffff; display=
+: inline-block; font-family: Arial, sans-serif; font-size: 14px; font-weigh=
+t: normal; padding-bottom: 14px; padding-left: 40px; padding-right: 40px; p=
+adding-top: 14px; text-decoration: none; text-transform: uppercase; transit=
+ion: color 0.4s;">Learn more</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-40" style=3D"border: 0; font-size: 0; height: 40px; m=
+argin: 0; padding: 0;" height=3D"40"></td>
+</tr>
+</tbody></table>
+</td>
+<td class=3D"expander" style=3D"border: 0; margin: 0; padding-bottom: 0 !im=
+portant; padding-left: 0 !important; padding-right: 0 !important; padding-t=
+op: 0 !important; visibility: hidden; width: 0px;"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<table class=3D"email_tips email_tips_image row" style=3D"background-color:=
+ #FFFFFF; border-bottom-width: 0; border-left-width: 0; border-right-width:=
+ 0; border-top-color: #E1E1E1; border-top-style: solid; border-top-width: 1=
+px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top=
+: 0px; position: relative; width: 100%;" bgcolor=3D"#FFFFFF" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center" align=3D"center" style=3D"border: 0; margin: 0; paddin=
+g: 0;"><center style=3D"min-width: 600px; width: 100%;">
+<table class=3D"container" style=3D"border: 0; margin-bottom: 0; margin-lef=
+t: auto; margin-right: auto; margin-top: 0; text-align: inherit; width: 580=
+px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"wrapper-last" style=3D"border: 0; margin: 0; padding-bottom: 0=
+px; padding-left: 0px; padding-right: 0px; padding-top: 10px; position: rel=
+ative;">
+<table class=3D"twelve-columns" style=3D"border: 0; margin-bottom: 0; margi=
+n-left: auto; margin-right: auto; margin-top: 0; width: 580px;" cellpadding=
+=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"column-content" style=3D"border: 0; margin: 0; padding-bottom:=
+ 10px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
+<table class=3D"tips-container" style=3D"border: 0; width: 100%;" cellpaddi=
+ng=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td colspan=3D"3" class=3D"module-heading" style=3D"border: 0; margin: 0; p=
+adding-bottom: 40px; padding-left: 0; padding-right: 0; padding-top: 40px;"=
+>
+<h2 class=3D"email_tipsWithImages_header" style=3D"color: #1D1D1D; font-fam=
+ily: Arial, sans-serif; font-size: 24px; font-weight: bold; line-height: 1.=
+2; margin: 0; padding-bottom: 5px; padding-left: 0; padding-right: 0; paddi=
+ng-top: 0; text-align: center;" align=3D"center">Ways to Save</h2>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"tip-image-container" style=3D"border: 0; height: auto; margin:=
+ 0; padding: 0; vertical-align: top; width: 90px;" valign=3D"top" width=3D"=
+90">
+<img class=3D"tip-image" src=3D"https://digital-asset.opower.com/asset_file=
+s/528273/tip033_clear_around_vents.svg?width=3D180&amp;height=3D180&amp;pri=
+mary-color=3D%230089C4&amp;efficient-color=3D%23FFA100&amp;neighbor-color=
+=3D%23666666&amp;success-color=3D%2399cc33&amp;good-color=3D%23f9e500&amp;g=
+reat-color=3D%2399cc33&amp;fair-color=3D%23f7941d&amp;summer-color=3D%23f79=
+41d&amp;winter-color=3D%2300b7ce&amp;smiley-eyes-color=3D%23000000&amp;icon=
+-default-color=3D%23666666&amp;illustration-highlight=3D%23ffa100&amp;illus=
+tration-white=3D%23FFFFFF&amp;illustration-lightest-gray=3D%23F1F1F1&amp;il=
+lustration-light-gray=3D%23E1E1E1&amp;illustration-medium-gray=3D%23C1C1C1&=
+amp;illustration-dark-gray=3D%23666666&amp;illustration-yellow=3D%23F9E500"=
+ alt=3D"" style=3D"height: 90px; width: 90px;" width=3D"90" height=3D"90">
+</td>
+<td class=3D"spacer-w-20" style=3D"border: 0; font-size: 0; margin: 0; padd=
+ing: 0; width: 20px;" width=3D"20"><span></span></td>
+<td class=3D"tip-text-container" style=3D"border: 0; margin: 0; padding: 0;=
+ text-align: left;" align=3D"left">
+<table style=3D"border: 0; width: 100%;" cellpadding=3D"0" cellspacing=3D"0=
+">
+
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"tip-heading" style=3D"border: 0; margin: 0; padding: 0;">
+<h3 class=3D"email_tips_title" style=3D"color: #0089C4; font-family: Arial,=
+ sans-serif; font-size: 20px; font-weight: normal; line-height: 1.4; margin=
+: 0; padding-bottom: 5px; padding-left: 0; padding-right: 0; padding-top: 0=
+; text-align: left;" align=3D"left">
+<a class=3D"email_tips_link" href=3D"http://link.email.dynect.net/link.php?=
+DynEngagement=3Dtrue&amp;H=3DOiGFD0KnHnF2HlIE4QrwT100AhxM%2F6egOXUPK7mpg2wL=
+soJbGwxojYaF9shSNG6py%2BaWJw%2F4YuEKn4LcruC4GzxSnMmA%2BIgNMM0%2BfMoFXbgyrve=
+4ZstWxV4j0rjqePiR&amp;G=3D0&amp;R=3Dhttps%3A%2F%2Fpge.opower.com%2Fei%2Fapp=
+%2Ftip%2Ftip033_clear_around_vents%3Flocale%3Den_US%26communicationId%3DPGE=
+-8-36ae826%26moduleId%3D1884595c-bd64-4886-9208-b954f22ac13a%26tip_id%3Dtip=
+033_clear_around_vents&amp;I=3D20200501161324.0000000db4f8%40mail6-89-usnbn=
+1&amp;X=3DMHwxMDczMDQ2OnByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FUkdZOzJ8MTA3MzA0ODolN=
+0IlMjJiYXRjaF9pZCUyMiUzQSUyMmEwNmExODcwLTU3OWEtNGEwOS04Y2Q1LTM1OTE3ODk4YjU1=
+ZSUyMiUyQyUyMnBpcGVsaW5lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY3NTEtNGU0NC04ZDE0LWM=
+4M2JhYmU5YmUyMyUyMiUyQyUyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0UtNy0yOTIlMjIlMkMlMj=
+Jjb21tdW5pY2F0aW9uX2lkJTIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyMiUyQyUyMnJlY2lwaWVud=
+F90eXBlJTIyJTNBJTIyU1RBTkRBUkQlMjIlMkMlMjJyZWNpcGllbnRfaWQlMjIlM0ElMjJiNzQ3=
+NWUzYy03MDZhLTExZTctOWU3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7&amp;S=3DegIU9FMCk4I8O0=
+5Cwpo63Y3IVLPv0JsrcT2SVI_IrRU" style=3D"-moz-transition: color 0.4s; -webki=
+t-transition: color 0.4s; color: #0089C4; text-decoration: none; transition=
+: color 0.4s;">
+Clear area around heating and cooling vents
+</a>
+</h3>
+</td>
+</tr>
+
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_tips_body tip-description" style=3D"border: 0; color: #1=
+D1D1D; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.4; m=
+argin: 0; padding: 0;">
+Furniture and carpets can block vents and prevent rooms from warming up or =
+cooling down efficiently. If your home is heated or cooled through vents, m=
+ove objects away from them to maximize circulation and save energy.
+</td>
+</tr>
+
+
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td style=3D"border: 0; margin: 0; padding: 0;">
+<table class=3D"tip-savings" style=3D"border: 0; margin-top: 10px; width: a=
+uto !important;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_tips_savings_text savings-text" style=3D"background-colo=
+r: #F1F1F1; border: 0; color: #1D1D1D; font-family: Arial, sans-serif; font=
+-size: 16px; margin: 0; padding-bottom: 5px; padding-left: 8px; padding-rig=
+ht: 8px; padding-top: 5px;" bgcolor=3D"#F1F1F1">
+Save up to $25 per year
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-40" colspan=3D"3" style=3D"border: 0; font-size: 0; h=
+eight: 40px; margin: 0; padding: 0;" height=3D"40"><span></span></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"tip-image-container" style=3D"border: 0; height: auto; margin:=
+ 0; padding: 0; vertical-align: top; width: 90px;" valign=3D"top" width=3D"=
+90">
+<img class=3D"tip-image" src=3D"https://digital-asset.opower.com/asset_file=
+s/528042/tip020_keep_out_solar_heat.svg?width=3D180&amp;height=3D180&amp;pr=
+imary-color=3D%230089C4&amp;efficient-color=3D%23FFA100&amp;neighbor-color=
+=3D%23666666&amp;success-color=3D%2399cc33&amp;good-color=3D%23f9e500&amp;g=
+reat-color=3D%2399cc33&amp;fair-color=3D%23f7941d&amp;summer-color=3D%23f79=
+41d&amp;winter-color=3D%2300b7ce&amp;smiley-eyes-color=3D%23000000&amp;icon=
+-default-color=3D%23666666&amp;illustration-highlight=3D%23ffa100&amp;illus=
+tration-white=3D%23FFFFFF&amp;illustration-lightest-gray=3D%23F1F1F1&amp;il=
+lustration-light-gray=3D%23E1E1E1&amp;illustration-medium-gray=3D%23C1C1C1&=
+amp;illustration-dark-gray=3D%23666666&amp;illustration-yellow=3D%23F9E500"=
+ alt=3D"" style=3D"height: 90px; width: 90px;" width=3D"90" height=3D"90">
+</td>
+<td class=3D"spacer-w-20" style=3D"border: 0; font-size: 0; margin: 0; padd=
+ing: 0; width: 20px;" width=3D"20"><span></span></td>
+<td class=3D"tip-text-container" style=3D"border: 0; margin: 0; padding: 0;=
+ text-align: left;" align=3D"left">
+<table style=3D"border: 0; width: 100%;" cellpadding=3D"0" cellspacing=3D"0=
+">
+
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"tip-heading" style=3D"border: 0; margin: 0; padding: 0;">
+<h3 class=3D"email_tips_title" style=3D"color: #0089C4; font-family: Arial,=
+ sans-serif; font-size: 20px; font-weight: normal; line-height: 1.4; margin=
+: 0; padding-bottom: 5px; padding-left: 0; padding-right: 0; padding-top: 0=
+; text-align: left;" align=3D"left">
+<a class=3D"email_tips_link" href=3D"http://link.email.dynect.net/link.php?=
+DynEngagement=3Dtrue&amp;H=3DOiGFD0KnHnF2HlIE4QrwT100AhxM%2F6egOXUPK7mpg2wL=
+soJbGwxojYaF9shSNG6py%2BaWJw%2F4YuEKn4LcruC4GzxSnMmA%2BIgNMM0%2BfMoFXbgyrve=
+4ZstWxV4j0rjqePiR&amp;G=3D0&amp;R=3Dhttps%3A%2F%2Fpge.opower.com%2Fei%2Fapp=
+%2Ftip%2Ftip020_keep_out_solar_heat%3Flocale%3Den_US%26communicationId%3DPG=
+E-8-36ae826%26moduleId%3D1884595c-bd64-4886-9208-b954f22ac13a%26tip_id%3Dti=
+p020_keep_out_solar_heat&amp;I=3D20200501161324.0000000db4f8%40mail6-89-usn=
+bn1&amp;X=3DMHwxMDczMDQ2OnByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FUkdZOzJ8MTA3MzA0ODo=
+lN0IlMjJiYXRjaF9pZCUyMiUzQSUyMmEwNmExODcwLTU3OWEtNGEwOS04Y2Q1LTM1OTE3ODk4Yj=
+U1ZSUyMiUyQyUyMnBpcGVsaW5lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY3NTEtNGU0NC04ZDE0L=
+WM4M2JhYmU5YmUyMyUyMiUyQyUyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0UtNy0yOTIlMjIlMkMl=
+MjJjb21tdW5pY2F0aW9uX2lkJTIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyMiUyQyUyMnJlY2lwaWV=
+udF90eXBlJTIyJTNBJTIyU1RBTkRBUkQlMjIlMkMlMjJyZWNpcGllbnRfaWQlMjIlM0ElMjJiNz=
+Q3NWUzYy03MDZhLTExZTctOWU3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7&amp;S=3DNA5SFsT4EdxR=
+xPLY1HpftD0Crls0rLd-g-J9PN6Wscg" style=3D"-moz-transition: color 0.4s; -web=
+kit-transition: color 0.4s; color: #0089C4; text-decoration: none; transiti=
+on: color 0.4s;">
+Close your shades in the summer
+</a>
+</h3>
+</td>
+</tr>
+
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_tips_body tip-description" style=3D"border: 0; color: #1=
+D1D1D; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.4; m=
+argin: 0; padding: 0;">
+Sunlight passing through windows heats your home and makes your air conditi=
+oner work harder. You can block this heat by keeping blinds or drapes close=
+d on sunny days.
+</td>
+</tr>
+
+
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td style=3D"border: 0; margin: 0; padding: 0;">
+<table class=3D"tip-savings" style=3D"border: 0; margin-top: 10px; width: a=
+uto !important;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_tips_savings_text savings-text" style=3D"background-colo=
+r: #F1F1F1; border: 0; color: #1D1D1D; font-family: Arial, sans-serif; font=
+-size: 16px; margin: 0; padding-bottom: 5px; padding-left: 8px; padding-rig=
+ht: 8px; padding-top: 5px;" bgcolor=3D"#F1F1F1">
+Save up to $10 per year
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-40" colspan=3D"3" style=3D"border: 0; font-size: 0; h=
+eight: 40px; margin: 0; padding: 0;" height=3D"40"><span></span></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"tip-image-container" style=3D"border: 0; height: auto; margin:=
+ 0; padding: 0; vertical-align: top; width: 90px;" valign=3D"top" width=3D"=
+90">
+<img class=3D"tip-image" src=3D"https://digital-asset.opower.com/asset_file=
+s/529484/tip017_install_ceiling_fan.svg?width=3D180&amp;height=3D180&amp;pr=
+imary-color=3D%230089C4&amp;efficient-color=3D%23FFA100&amp;neighbor-color=
+=3D%23666666&amp;success-color=3D%2399cc33&amp;good-color=3D%23f9e500&amp;g=
+reat-color=3D%2399cc33&amp;fair-color=3D%23f7941d&amp;summer-color=3D%23f79=
+41d&amp;winter-color=3D%2300b7ce&amp;smiley-eyes-color=3D%23000000&amp;icon=
+-default-color=3D%23666666&amp;illustration-highlight=3D%23ffa100&amp;illus=
+tration-white=3D%23FFFFFF&amp;illustration-lightest-gray=3D%23F1F1F1&amp;il=
+lustration-light-gray=3D%23E1E1E1&amp;illustration-medium-gray=3D%23C1C1C1&=
+amp;illustration-dark-gray=3D%23666666&amp;illustration-yellow=3D%23F9E500"=
+ alt=3D"" style=3D"height: 90px; width: 90px;" width=3D"90" height=3D"90">
+</td>
+<td class=3D"spacer-w-20" style=3D"border: 0; font-size: 0; margin: 0; padd=
+ing: 0; width: 20px;" width=3D"20"><span></span></td>
+<td class=3D"tip-text-container" style=3D"border: 0; margin: 0; padding: 0;=
+ text-align: left;" align=3D"left">
+<table style=3D"border: 0; width: 100%;" cellpadding=3D"0" cellspacing=3D"0=
+">
+
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"tip-heading" style=3D"border: 0; margin: 0; padding: 0;">
+<h3 class=3D"email_tips_title" style=3D"color: #0089C4; font-family: Arial,=
+ sans-serif; font-size: 20px; font-weight: normal; line-height: 1.4; margin=
+: 0; padding-bottom: 5px; padding-left: 0; padding-right: 0; padding-top: 0=
+; text-align: left;" align=3D"left">
+<a class=3D"email_tips_link" href=3D"http://link.email.dynect.net/link.php?=
+DynEngagement=3Dtrue&amp;H=3DOiGFD0KnHnF2HlIE4QrwT100AhxM%2F6egOXUPK7mpg2wL=
+soJbGwxojYaF9shSNG6py%2BaWJw%2F4YuEKn4LcruC4GzxSnMmA%2BIgNMM0%2BfMoFXbgyrve=
+4ZstWxV4j0rjqePiR&amp;G=3D0&amp;R=3Dhttps%3A%2F%2Fpge.opower.com%2Fei%2Fapp=
+%2Ftip%2Ftip017_install_ceiling_fan%3Flocale%3Den_US%26communicationId%3DPG=
+E-8-36ae826%26moduleId%3D1884595c-bd64-4886-9208-b954f22ac13a%26tip_id%3Dti=
+p017_install_ceiling_fan&amp;I=3D20200501161324.0000000db4f8%40mail6-89-usn=
+bn1&amp;X=3DMHwxMDczMDQ2OnByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FUkdZOzJ8MTA3MzA0ODo=
+lN0IlMjJiYXRjaF9pZCUyMiUzQSUyMmEwNmExODcwLTU3OWEtNGEwOS04Y2Q1LTM1OTE3ODk4Yj=
+U1ZSUyMiUyQyUyMnBpcGVsaW5lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY3NTEtNGU0NC04ZDE0L=
+WM4M2JhYmU5YmUyMyUyMiUyQyUyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0UtNy0yOTIlMjIlMkMl=
+MjJjb21tdW5pY2F0aW9uX2lkJTIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyMiUyQyUyMnJlY2lwaWV=
+udF90eXBlJTIyJTNBJTIyU1RBTkRBUkQlMjIlMkMlMjJyZWNpcGllbnRfaWQlMjIlM0ElMjJiNz=
+Q3NWUzYy03MDZhLTExZTctOWU3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7&amp;S=3D7fVZQ-SJ0EpW=
+hJiB_BBsrL_epsDyANQ7CWc2JFmJUyk" style=3D"-moz-transition: color 0.4s; -web=
+kit-transition: color 0.4s; color: #0089C4; text-decoration: none; transiti=
+on: color 0.4s;">
+Use a ceiling fan and raise the thermostat setting 4=C2=B0F
+</a>
+</h3>
+</td>
+</tr>
+
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_tips_body tip-description" style=3D"border: 0; color: #1=
+D1D1D; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.4; m=
+argin: 0; padding: 0;">
+ENERGY STAR<sup>=C2=AE</sup> certified ceiling fans allow you to set your t=
+hermostat 4=C2=B0F higher without sacrificing comfort. Adding fans to your =
+home can keep you cool while reducing AC costs.
+</td>
+</tr>
+
+
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td style=3D"border: 0; margin: 0; padding: 0;">
+<table class=3D"tip-savings" style=3D"border: 0; margin-top: 10px; width: a=
+uto !important;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_tips_savings_text savings-text" style=3D"background-colo=
+r: #F1F1F1; border: 0; color: #1D1D1D; font-family: Arial, sans-serif; font=
+-size: 16px; margin: 0; padding-bottom: 5px; padding-left: 8px; padding-rig=
+ht: 8px; padding-top: 5px;" bgcolor=3D"#F1F1F1">
+Save up to $10 per year
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-40" colspan=3D"3" style=3D"border: 0; font-size: 0; h=
+eight: 40px; margin: 0; padding: 0;" height=3D"40"><span></span></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center call-to-action-container" colspan=3D"3" align=3D"center=
+" style=3D"border: 0; margin: 0; padding: 0;">
+<table class=3D"tip-button" role=3D"presentation" style=3D"border-bottom-wi=
+dth: 0; border-collapse: collapse; border-left-width: 0; border-right-width=
+: 0; border-spacing: 0; border-top-width: 0; padding: 0; width: auto;" cell=
+padding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td style=3D"background-color: #0089C4; border-bottom-width: 0; border-left=
+-width: 0; border-radius: 4px; border-right-width: 0; border-top-width: 0; =
+margin: 0; padding: 0; text-align: center;" align=3D"center" bgcolor=3D"#00=
+89C4">
+<a class=3D"email_tips_see_more_tips" href=3D"http://link.email.dynect.net/=
+link.php?DynEngagement=3Dtrue&amp;H=3DOiGFD0KnHnF2HlIE4QrwT100AhxM%2F6egOXU=
+PK7mpg2wLsoJbGwxojYaF9shSNG6py%2BaWJw%2F4YuEKn4LcruC4GzxSnMmA%2BIgNMM0%2BfM=
+oFXbgyrve4ZstWxV4j0rjqePiR&amp;G=3D0&amp;R=3Dhttps%3A%2F%2Fpge.opower.com%2=
+Fei%2Fapp%2Fideas%2Ffree&amp;I=3D20200501161324.0000000db4f8%40mail6-89-usn=
+bn1&amp;X=3DMHwxMDczMDQ2OnByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FUkdZOzJ8MTA3MzA0ODo=
+lN0IlMjJiYXRjaF9pZCUyMiUzQSUyMmEwNmExODcwLTU3OWEtNGEwOS04Y2Q1LTM1OTE3ODk4Yj=
+U1ZSUyMiUyQyUyMnBpcGVsaW5lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY3NTEtNGU0NC04ZDE0L=
+WM4M2JhYmU5YmUyMyUyMiUyQyUyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0UtNy0yOTIlMjIlMkMl=
+MjJjb21tdW5pY2F0aW9uX2lkJTIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyMiUyQyUyMnJlY2lwaWV=
+udF90eXBlJTIyJTNBJTIyU1RBTkRBUkQlMjIlMkMlMjJyZWNpcGllbnRfaWQlMjIlM0ElMjJiNz=
+Q3NWUzYy03MDZhLTExZTctOWU3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7&amp;S=3DcsA4uYpqJlRE=
+F1_vAIjFX2SP_brgzT9flZdltoOEtsA" style=3D"-moz-transition: color 0.4s; -web=
+kit-transition: color 0.4s; border-bottom-color: #0089C4; border-bottom-sty=
+le: solid; border-bottom-width: 1px; border-left-color: #0089C4; border-lef=
+t-style: solid; border-left-width: 1px; border-radius: 4px; border-right-co=
+lor: #0089C4; border-right-style: solid; border-right-width: 1px; border-to=
+p-color: #0089C4; border-top-style: solid; border-top-width: 1px; color: #f=
+fffff; display: inline-block; font-family: Arial, sans-serif; font-size: 14=
+px; font-weight: normal; padding-bottom: 14px; padding-left: 40px; padding-=
+right: 40px; padding-top: 14px; text-decoration: none; text-transform: uppe=
+rcase; transition: color 0.4s;">See more ways to save</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+<td class=3D"expander" style=3D"border: 0; margin: 0; padding-bottom: 0 !im=
+portant; padding-left: 0 !important; padding-right: 0 !important; padding-t=
+op: 0 !important; visibility: hidden; width: 0px;"></td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"spacer-h-40" style=3D"border: 0; font-size: 0; height: 40px; m=
+argin: 0; padding: 0;" height=3D"40"><span></span></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</center></td>
+</tr>
+</tbody></table>
+
+<table class=3D"email_footer footer" role=3D"presentation" style=3D"backgro=
+und-color: #F1F1F1; border-bottom-width: 0; border-left-width: 0; border-ri=
+ght-width: 0; border-top-color: #E1E1E1; border-top-style: solid; border-to=
+p-width: 1px; color: #666666; font-family: Arial, sans-serif; font-size: 12=
+px; line-height: 1.4; padding-bottom: 0px; padding-left: 0px; padding-right=
+: 0px; padding-top: 0px; position: relative; text-align: left; width: 100%;=
+" bgcolor=3D"#F1F1F1" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"center" align=3D"center" style=3D"border: 0; margin: 0; paddin=
+g: 0;"><center style=3D"min-width: 600px; width: 100%;">
+<table class=3D"container" role=3D"presentation" style=3D"border: 0; margin=
+-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; text-alig=
+n: inherit; width: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"wrapper-last" style=3D"border: 0; margin: 0; padding-bottom: 0=
+px; padding-left: 0px; padding-right: 0px; padding-top: 10px; position: rel=
+ative;">
+<table class=3D"twelve-columns" role=3D"presentation" style=3D"border: 0; m=
+argin-bottom: 0; margin-left: auto; margin-right: auto; margin-top: 0; widt=
+h: 580px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"column-content" style=3D"border: 0; margin: 0; padding-bottom:=
+ 10px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
+<table class=3D"footer-container" role=3D"presentation" style=3D"border: 0;=
+ text-align: left; width: 100%;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"footer-actions" style=3D"border: 0; margin: 0; padding-bottom:=
+ 10px; padding-left: 0; padding-right: 0; padding-top: 0;">
+<a class=3D"email_footer_unsubscribe" href=3D"http://link.email.dynect.net/=
+link.php?DynEngagement=3Dtrue&amp;H=3DOiGFD0KnHnF2HlIE4QrwT100AhxM%2F6egOXU=
+PK7mpg2wLsoJbGwxojYaF9shSNG6py%2BaWJw%2F4YuEKn4LcruC4GzxSnMmA%2BIgNMM0%2BfM=
+oFXbgyrve4ZstWxV4j0rjqePiR&amp;G=3D0&amp;R=3Dhttps%3A%2F%2Fpreferences.opow=
+er.com%2Funsubscribe%2Fv1%2Fpge%2Fb7475e3c-706a-11e7-9e71-574c776fc9a3%2Fho=
+me_energy%3Flocale%3Den-US%26communicationId%3DPGE-8-36ae826%26ncId%3D18527=
+380&amp;I=3D20200501161324.0000000db4f8%40mail6-89-usnbn1&amp;X=3DMHwxMDczM=
+DQ2OnByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FUkdZOzJ8MTA3MzA0ODolN0IlMjJiYXRjaF9pZCUy=
+MiUzQSUyMmEwNmExODcwLTU3OWEtNGEwOS04Y2Q1LTM1OTE3ODk4YjU1ZSUyMiUyQyUyMnBpcGV=
+saW5lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY3NTEtNGU0NC04ZDE0LWM4M2JhYmU5YmUyMyUyMi=
+UyQyUyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0UtNy0yOTIlMjIlMkMlMjJjb21tdW5pY2F0aW9uX=
+2lkJTIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyMiUyQyUyMnJlY2lwaWVudF90eXBlJTIyJTNBJTIy=
+U1RBTkRBUkQlMjIlMkMlMjJyZWNpcGllbnRfaWQlMjIlM0ElMjJiNzQ3NWUzYy03MDZhLTExZTc=
+tOWU3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7&amp;S=3D8VFEKhhNLXSeIb_Y3LWrmbZkNzPVKShrc=
+FuJ8PZ0PfE" style=3D"-moz-transition: color 0.4s; -webkit-transition: color=
+ 0.4s; color: #666666; font-family: Arial, sans-serif; font-size: 12px; tex=
+t-align: left; text-decoration: underline; transition: none;">Unsubscribe f=
+rom Home Energy Report emails</a>
+<br>
+<a class=3D"email_footer_preference" href=3D"" style=3D"-moz-transition: co=
+lor 0.4s; -webkit-transition: color 0.4s; color: #666666; font-family: Aria=
+l, sans-serif; font-size: 12px; text-align: left; text-decoration: underlin=
+e; transition: none;"></a>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"footer-contact" style=3D"border: 0; margin: 0; padding-bottom:=
+ 10px; padding-left: 0; padding-right: 0; padding-top: 0;">
+<span class=3D"email_footer_client_address appleLink" style=3D"color: #6666=
+66; font-family: Arial, sans-serif; font-size: 12px; text-align: left;">We =
+respect your privacy. Please review our <a href=3D"http://link.email.dynect=
+.net/link.php?DynEngagement=3Dtrue&amp;H=3DOiGFD0KnHnF2HlIE4QrwT100AhxM%2F6=
+egOXUPK7mpg2wLsoJbGwxojYaF9shSNG6py%2BaWJw%2F4YuEKn4LcruC4GzxSnMmA%2BIgNMM0=
+%2BfMoFXbgyrve4ZstWxV4j0rjqePiR&amp;G=3D0&amp;R=3Dhttps%3A%2F%2Fwww.pge.com=
+%2Fen_US%2Fabout-pge%2Fcompany-information%2Fprivacy-policy%2Fprivacy.page&=
+amp;I=3D20200501161324.0000000db4f8%40mail6-89-usnbn1&amp;X=3DMHwxMDczMDQ2O=
+nByb2Q7MXwxMDczMDQ3OkhPTUVfRU5FUkdZOzJ8MTA3MzA0ODolN0IlMjJiYXRjaF9pZCUyMiUz=
+QSUyMmEwNmExODcwLTU3OWEtNGEwOS04Y2Q1LTM1OTE3ODk4YjU1ZSUyMiUyQyUyMnBpcGVsaW5=
+lX2tleSUyMiUzQSUyMjQzMTJkZGY1LTY3NTEtNGU0NC04ZDE0LWM4M2JhYmU5YmUyMyUyMiUyQy=
+UyMnRyaWdnZXJfaWQlMjIlM0ElMjJQR0UtNy0yOTIlMjIlMkMlMjJjb21tdW5pY2F0aW9uX2lkJ=
+TIyJTNBJTIyUEdFLTgtMzZhZTgyNiUyMiUyQyUyMnJlY2lwaWVudF90eXBlJTIyJTNBJTIyU1RB=
+TkRBUkQlMjIlMkMlMjJyZWNpcGllbnRfaWQlMjIlM0ElMjJiNzQ3NWUzYy03MDZhLTExZTctOWU=
+3MS01NzRjNzc2ZmM5YTMlMjIlN0Q7&amp;S=3DeMIiTSHFJQ_dhMxKZORSXq0j9fwByIK8BnWCZ=
+tVPtnI" style=3D"color:#1689C5">privacy policy</a> for more information.<br=
+>"PG&amp;E" refers to Pacific Gas and Electric Company, a subsidiary of PG&=
+amp;E Corporation.<br>77 Beale Street, San Francisco, CA 94105.</span>
+</td>
+</tr>
+<tr style=3D"border: 0; margin: 0; padding: 0;">
+<td class=3D"email_footer_copyright" style=3D"border: 0; color: #666666; fo=
+nt-family: Arial, sans-serif; font-size: 12px; margin: 0; padding: 0; text-=
+align: left;" align=3D"left">
+Copyright 2011-2020 Oracle. All rights reserved.
+</td>
+</tr>
+</tbody></table>
+</td>
+<td class=3D"expander" style=3D"border: 0; margin: 0; padding-bottom: 0 !im=
+portant; padding-left: 0 !important; padding-right: 0 !important; padding-t=
+op: 0 !important; visibility: hidden; width: 0px;"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</center></td>
+</tr>
+</tbody></table>
+
+</td>
+</tr>
+</tbody></table>
+
+
+<img src=3D"http://trk.email.dynect.net/trk.php?a=3D/o2/0/OiGFD0KnHnF2HlIE4=
+QrwT100AhxM%2F6egOXUPK7mpg2wLsoJbGwxojYaF9shSNG6py%2BaWJw%2F4YuEKn4LcruC4Gz=
+xSnMmA%2BIgNMM0%2BfMoFXbgyrve4ZstWxV4j0rjqePiR/i.gif&amp;i=3D20200501161324=
+.0000000db4f8%40mail6-89-usnbn1&amp;x=3DMHwxMDczMDQ2OnByb2Q7MXwxMDczMDQ3Okh=
+PTUVfRU5FUkdZOzJ8MTA3MzA0ODolN0IlMjJiYXRjaF9pZCUyMiUzQSUyMmEwNmExODcwLTU3OW=
+EtNGEwOS04Y2Q1LTM1OTE3ODk4YjU1ZSUyMiUyQyUyMnBpcGVsaW5lX2tleSUyMiUzQSUyMjQzM=
+TJkZGY1LTY3NTEtNGU0NC04ZDE0LWM4M2JhYmU5YmUyMyUyMiUyQyUyMnRyaWdnZXJfaWQlMjIl=
+M0ElMjJQR0UtNy0yOTIlMjIlMkMlMjJjb21tdW5pY2F0aW9uX2lkJTIyJTNBJTIyUEdFLTgtMzZ=
+hZTgyNiUyMiUyQyUyMnJlY2lwaWVudF90eXBlJTIyJTNBJTIyU1RBTkRBUkQlMjIlMkMlMjJyZW=
+NpcGllbnRfaWQlMjIlM0ElMjJiNzQ3NWUzYy03MDZhLTExZTctOWU3MS01NzRjNzc2ZmM5YTMlM=
+jIlN0Q7" alt=3D"" width=3D"2" height=3D"2"></body></html>

@@ -1,0 +1,92 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Fri, 30 May 2015 09:08:13 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4UG895i025112	for <user@domain.com>; Fri, 30 May 2015 
+ 16:08:09 GMT
+Received: from mail58-va3-domain.com (mail-domain.com
+ [216.32.180.117])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s4UG9jIq024819
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Fri, 30 May 2015 16:09:45 GMT
+Received: from mail58-va3 (localhost [127.0.0.1])	by mail58-va3-domain.com
+ (Postfix) with ESMTP id E49BD380521	for <user@domain.com>; Fri, 30
+ May 2015 16:08:08 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:65.39.215.146;KIP:(null);UIP:(null);SRV:BULK;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 7
+X-BigFish: vps7(z579eh551biz9371Ie0eah758Ic857hdbb0izz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h2ba5I1de097h186068h172c6ch1ce120h85bfl1df164i1a691ci177f16iz2fheh5fh839h8aahe5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h2565h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h214ai)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail58-va3: domain of domain.com designates 65.39.215.146 as permitted sender) client-ip=65.39.215.146; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail58-va3 (localhost.localdomain [127.0.0.1]) by mail58-va3
+ (MessageSwitch) id 1401466086192210_27766; Fri, 30 May 2015 16:08:06 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.234])	by
+ mail58-domain.com (Postfix) with ESMTP id 9F13B360181	for
+ <user@domain.com>; Fri, 30 May 2015 16:08:01 +0000 (UTC)
+Received: from mx-domain.com (65.39.215.146) by domain.com
+ (10.7.99.31) with Microsoft SMTP Server id 14.16.227.3; Fri, 30 May 2015 
+ 16:08:01 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Deadline.com <alerts@deadline.com>
+ bh=rDWQWMZlA3UKjJquf46THYaBwA4=;
+ b=Md0PnJEhqITTQYrgdcSeUjkJlhJIWOCFAqn47h9T93zf02IWev2lxRO5ceq9sPQKx7LYImj1v9QG
+   Eln/RYB9YQ2+7tlWdIvzu3k/kauXqEScZIckI97pGkehwMJvBjz0l+YdvCUWzmWMYewLspOuFxsx
+   yNEH7r2nOIZs9yxT9AU
+Received: from nyp1-p-p4129-prd-jma-05.sailthru.pvt (64.34.57.234) by
+ mx-domain.com id hh2mes1qqbsg for <user@domain.com>; Fri, 30 May
+ 2015 12:08:14 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1401466095;
+	s=sailthru; d=deadline.com;
+	h=Date:From: Deadline.com <alerts@deadline.com>
+	bh=UGA7Al/obM0yxz9p/SYCQvTIP12QdVXFRLV226xxokk=;
+	b=LSVXljIJlmnQmLTuJ/y+7XqKP6TPrELAU4LfOpnNIB67lKnWffS5oLd+9paKomtz
+	5PUYb7gI201PgrhR55ZAfJHOsBoZkTHc76AN+65et4GMRLT4+cw2hLjQ+8uE7Qh5EHS
+	ZW951PNwHNcLnLs+eeyyZrx9NSeIVfC7PCqMa3X8
+Date: Fri, 30 May 2015 12:08:15 -0400
+From: Deadline.com <alerts@deadline.com>
+To: <user@domain.com>
+Message-ID: <20140530160815.2699294.5636@domain.com>
+Subject: [domain.com] BOX OFFICE PREVIEW: Disney's 'Maleficent' Opens To
+ Magnificent $4.2M Late Nights; Seth MacFarlane's 'A Million Ways To Die In
+ The West' Looks To Tonight's Numbers
+Precedence: bulk
+X-TM-ID: 20140530160815.2699294.5636
+X-Info: Message sent by domain.com customer Deadline
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4129-prd-jma-05.sailthru.pvt
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stdgp2699294
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+[domain.com] BOX OFFICE PREVIEW: Disney's 'Maleficent' Opens To Magnificent $4.2M Late Nights; Seth MacFarlane's 'A Million Ways To Die In The West' Looks To Tonight's Numbers
+
+ <<link>>   
+
+<<link>>        
+
+ <<link>>   
+
+<<link>>        
+
+ <<link>>   
+
+Weekend Box Office News Alert:
+
+BOX OFFICE PREVIEW: Disney's 'Maleficent' Opens To Magnificent $4.2M Late Nights; Seth MacFarlane's 'A Million Ways To Die In The West' Looks To Tonight's Numbers 
+
+UPDATED: FRIDAY, 9:00 AM: Maleficent opened last night to a magnificent $4.2M for the Disney picture, readying for the weekend box office blast, clearly bringing in a more adult audience. It has been tracking anywhere between $60M to $70M and now you can bet a high end. Maleficent grossed above the $3.9M that Alice in Wonderland grossed in 2015 when it bowed at midnight and also the $2M gross at 9 Read more... 
+
+
+

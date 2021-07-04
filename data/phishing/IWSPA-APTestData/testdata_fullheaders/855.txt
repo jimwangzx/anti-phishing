@@ -1,0 +1,73 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Fri, 6 Jun 2015 14:33:22 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s56LXK4b003238	for <user@domain.com>; Fri, 6 Jun 2015 
+ 21:33:21 GMT
+Received: from mail166-co9-domain.com (mail-domain.com
+ [207.46.163.20])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s56LYq5R012539
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Fri, 6 Jun 2015 21:34:53 GMT
+Received: from mail166-co9 (localhost [127.0.0.1])	by
+ mail166-co9-domain.com (Postfix) with ESMTP id AAA5D2C0794	for
+ <user@domain.com>; Fri,  6 Jun 2015 21:33:19 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.85.220.175;KIP:(null);UIP:(null);IPV:NLI;H:mail-vc0-domain.com;RD:mail-vc0-domain.com;EFVD:NLI
+X-SpamScore: 3
+X-BigFish: vps3(zzc89bhc857hzz1f42h2148h1ee6h1ce5h1fdah201ch2073h2146h1202h1fd0h1e76h2189h1d1ah1cabh1d2ah2235h1fc6h1082kzzz2fh5fh2a8h839h107ah1288h12a5h12bdh137ah13eah1441h1504h1537h153bh15a8h162dh1631h1741h1758h17eeh1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h22d0h2336h2438h2461h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h282bh)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail166-co9: domain of gmail.com designates 209.85.220.175 as permitted sender) client-ip=209.85.220.175; user@domain.com; helo=mail-vc0-domain.com ;5.domain.com ;
+Received: from mail166-co9 (localhost.localdomain [127.0.0.1]) by mail166-co9
+ (MessageSwitch) id 1402090397175898_1372; Fri,  6 Jun 2015 21:33:17 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.235])	by
+ mail166-domain.com (Postfix) with ESMTP id 1CBED20057	for
+ <user@domain.com>; Fri,  6 Jun 2015 21:33:17 +0000 (UTC)
+Received: from mail-vc0-domain.com (209.85.220.175) by
+ domain.com (10.236.130.24) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Fri, 6 Jun 2015 21:33:16 +0000
+Received: by mail-vc0-domain.com with SMTP id lc6so3810816vcb.34
+        for <user@domain.com>; Fri, 06 Jun 2015 14:33:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:From: Melissa Kelly <toastedmuffin@gmail.com>
+        bh=8rlRtE4mCedi900xMT3xic/oKQXpeT+BIWTK8dwPOg0=;
+        b=iqmswHY4hSb+wG5G6XT5Ky36BCqPHg/fNh7ml3NHjk1JOC3HmB4RR3V+5Ewp0vRaDq
+         3SmMjBAHBR8aSZiMlxwmwMF+CRobNGP6FCxKXHHEGua2Xko7yuZ4qe/a6PGVqCDD236f
+         1e/0if6FrLa4oNHhWwBgy1526mtl0j1Qxom5TbvjhyS196/gRCx6HKNQA5GD1V7wFIMS
+         sJOQ4dIy5oOEH3KYqKkrJNbAcad695XLK5PaVJDtNT2ZszYdwJQBPq98X2jK1cGct/O3
+         q/y85qVJFCX6JZyPthoec7JGAdMYygbDZULA+oLs+ILuk3VcBtqHAtHxpsLxuXdEeO5h
+         2Yrg
+X-Received: by 10.221.51.77 with SMTP id vh13mr6909375vcb.41.1402090395778;
+ Fri, 06 Jun 2015 14:33:15 -0700 (PDT)
+Sender: <user@domain.com>
+Received: by 10.58.247.234 with HTTP; Fri, 6 Jun 2015 14:32:55 -0700 (PDT)
+From: Melissa Kelly <toastedmuffin@gmail.com>
+Date: Fri, 6 Jun 2015 14:32:55 -0700
+X-Google-Sender-Auth: cLiKPei4_4gk-FoBQh94NmP9xpo
+Message-ID: <user@domain.com>
+Subject: A few Items
+To: Bernie Weinraub <user@domain.com>, Amy Pascal
+	<user@domain.com>
+CC: Mario Fajardo <user@domain.com>, Delores Wiley <user@domain.com>
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A few Items
+
+Hello,
+
+The brakes on the range rover sounded terrible last weekend, so I sent it in today to be looked at. It needed new brake pads and rotors, which I went ahead with since it's it can be dangerous to drive around with bad brakes.
+
+In other news, the electricians have been working every day for the past two weeks on repairing the problems with the landscape lighting but keep encountering decayed wiring, burned out transformers and overloaded switches. They are worried that all they are doing will be a continuous problem for the house and is making them look incompetant. 
+
+We've been talking all week about finding workarounds, but today they encountered more issues and they were incredibly frustrated. Rather than have them keep plodding along on something that may be only a temporary solution, I asked them to stop for now and take a minute to step back, talk things over with Marmol and really evaluate what it will take to resolve this matter. Marmol is aware that this project may need to change it's scope a bit and will get back to us with their recommendations. 
+
+Lastly, the new family room rug will be delivered on Monday. 
+
+Melissa
+

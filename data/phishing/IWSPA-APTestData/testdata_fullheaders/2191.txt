@@ -1,0 +1,112 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 28 Jan 2015 05:41:17 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0SDfG8W005093	for <user@domain.com>; Tue, 28 Jan 2015 
+ 13:41:16 GMT
+Received: from mail111-co1-domain.com
+ (mail-domain.com [216.32.180.178])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0SDfEE9018015	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 28 Jan 2015 13:41:15 GMT
+Received: from mail111-co1 (localhost [127.0.0.1])	by
+ mail111-co1-domain.com (Postfix) with ESMTP id BBB034200CE	for
+ <user@domain.com>; Tue, 28 Jan 2015 13:41:14 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.15.214.50;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: -3
+X-BigFish: vps-3(z579eh1f2Kz9371Ic89bhdc43hc857hfafJdbf2izz1f42h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h18c673h2ba5I1de097h186068h172c6ch172d07h1b778fh1ce120h1d68deh1ce121iz2fh5fh839h8e2h8e3h10d2h1288h12a5h12bdh135dh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487h24d7hbe9i214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail111-co1: domain of em-sj-77.domain.com designates 199.15.214.50 as permitted sender) client-ip=199.15.214.50; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail111-co1 (localhost.localdomain [127.0.0.1]) by mail111-co1
+ (MessageSwitch) id 1390916472801551_19919; Tue, 28 Jan 2015 13:41:12 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.233])	by
+ mail111-domain.com (Postfix) with ESMTP id BDEC0A0004D	for
+ <user@domain.com>; Tue, 28 Jan 2015 13:41:12 +0000 (UTC)
+Received: from domain.com (199.15.214.50) by domain.com
+ (10.243.66.27) with Microsoft SMTP Server id 14.16.227.3; Tue, 28 Jan 2015 
+ 13:41:12 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=azulsystems.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1390916472;
+	h=From: "Azul Systems, Inc." <azul@azulsystems.com>
+	bh=HJhLeEJLONc2CmuYgx60/YXoS3zKFqseMqmSIX9jI/s=;
+	b=MEBAmRkSbImdhCWd+28voVyTfrDqp+EFw03dqiMHIf9CwxsWp4YqG2rbumUjziVI
+	uZ1TOpdiMuoQkjl17/6jAgwza0wC0igVL1fLxq27PvdsvA8OQsvWHGIIYfnWQkLV
+	RMoSfChK6WXar5LY8opyB2yo6c7ou69Tv/dCCtvxsBA=;
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AZHZwLTE5OS0xNS0yMTQtNTBAYmctc2ot
+	MDFAMDkwLU9LSy02NTk6MTIyMTk6OTY4MzoxOTkxMTowOjkzNDc6Nzo2ODIyNQ
+Received: from [10.0.8.1] ([10.0.8.1:33371] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.0.35861 r(Momo-dev:tip)) with ESMTP	id 6D/D3-59964-873B7E25; Tue, 28 Jan
+ 2015 07:41:12 -0600
+Date: Tue, 28 Jan 2015 07:41:12 -0600
+From: "Azul Systems, Inc." <azul@azulsystems.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <37400447.1247577860.1390916472512.user@domain.com>
+Subject: Azul Newsletter: Introducing Zulu Enterprise, a commercialized,
+ fully supported version of OpenJDK
+X-Report-Abuse: Please report abuse here: <<link>>
+X-PVIQ: 000326-001041-000001-000000-012244
+X-Binding: bg-sj-01
+X-MarketoID: 090-OKK-659:12219:9683:19911:0:9347:7:68225
+X-MailFrom: "Azul Systems, Inc." <azul@azulsystems.com>
+Return-Path: 090-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Azul Newsletter: Introducing Zulu Enterprise, a commercialized, fully supported version of OpenJDK
+
+
+
+
+Azul logo
+
+Facebook LinkedIn Twitter Google+ Email
+
+Subscribe
+
+The Azul Systems Newsletter for January, 2015 
+
+ Header
+
+ <<link>>      
+
+Azul Systems Launches Zulu™ Enterprise, a Commercialized, Fully-Supported Version of OpenJDK™
+
+Java Platform, Standard Edition (Java SE) compliant build for Linux, Windows, hypervisors and the Cloud.
+
+Based on Azul's Zulu, a free and 100% open source commercialized build of OpenJDK, Zulu Enterprise is ideal for companies that have key applications running on various versions of Java, including older versions such as Java 6, and have a need for cost-effective, high-quality ongoing support. 
+
+Download Zulu
+
+The first 500 people (US and Canada only) to join our free Zulu Community forums will receive either a Zulu t-shirt or $10 Starbucks gift card. The Zulu forums provide a way to get answers to your JVM questions, help other developers and architects, report bugs and get the latest Java news.
+
+ Industry News Banner
+
+ QCon   Oracle Releases Videos and Slides from the 2015 JVM Language domain.com
+
+This year's domain.com covered non-Java languages and recent work on the JVM.
+
+Learn More
+
+domain.com        How the Java Landscape will Change in 2015 
+
+TheServerSide checks in with high profile Java experts on what to expect this year.
+
+Learn more
+
+ Azul News Banner
+
+Duke Zulu        Azul Systems Extends Zulu to Support Java 6 and Major Linux Distributions
+
+Azul’s OpenJDK-based open source Java SE 6 and 7 platform now supports both Linux and Windows® in Cloud and on-premise environments.
+
+Read press release
+
+ Developers' Corner
+
+jHiccup graph    New jHiccup 
+

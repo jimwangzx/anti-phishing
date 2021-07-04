@@ -1,0 +1,55 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp5523092lfi;
+        Tue, 9 Jun 2015 16:08:42 -0700 (PDT)
+X-Received: by 10.50.59.211 with SMTP id b19mr23326138igr.42.1433891321818;
+        Tue, 09 Jun 2015 16:08:41 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::22e])
+        by domain.com with ESMTPS id b6si2436025ign.1.2015.06.09.16.08.41
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 09 Jun 2015 16:08:41 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22e as permitted sender) client-ip=2607:f8b0:4001:c05::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ig0-domain.com with SMTP id hj9so23330809igb.1
+        for <user@domain.com>; Tue, 09 Jun 2015 16:08:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Eryn Sepp <eryn.sepp@gmail.com>
+         :message-id:date:references:in-reply-to:to;
+        bh=jLigc4wb1K+cgllbmhvJgY50BdBqIZAKzmPvWVXj45w=;
+        b=Mke8KUfz8qYe4mRqPb7PhfkyKrVaPrP5CYoJ6E5UMNgQzRReY9icfZMUYhQ3e95V81
+         NMtNKD1zfSQw4wNKcSgijOUT50A4krs71/fLS5Ij+aKHQCYcX4+QN615iIWN11nOqfGE
+         yQEreF/6xudy4ZgzW3PEq5k0g9iEnbAJAeo0G7v7ZJ4uH0wPQ54DPDKNze2UQppCbeu7
+         vnW3HzvmoFv++mz5wtaoU61T+Vjo48H0BF+6+HVCX3RLAs0Toc7WQkkIva19oIpDwTd0
+         OZ15AtVmS51ibSBAX7/GcKbCwxZa0herkipQ/nDAX7fXHhyEAOItOyzKPzq34VDVfp+E
+         Tnaw
+X-Received: by 10.107.166.203 with SMTP id p194mr266842ioe.30.1433891321115;
+        Tue, 09 Jun 2015 16:08:41 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2600:1003:b00e:e76a:2d0d:b9dc:a200:9890? ([2600:1003:b00e:e76a:2d0d:b9dc:a200:9890])
+        by domain.com with ESMTPSA id av6sm2143993igc.17.2015.06.09.16.08.40
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 09 Jun 2015 16:08:40 -0700 (PDT)
+From: Eryn Sepp <eryn.sepp@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-28F114D3-EFD2-43C1-9480-7969D4CEFAB0
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Re: Ragner runners
+Message-Id: <user@domain.com>
+Date: Tue, 9 Jun 2015 19:08:39 -0400
+References: <6user@domain.com> <CAE6FiQ_Y1bCxEFUkHneyyd9c7oyxbEGu20c-0ahb56h46+3user@domain.com> <4554user@domain.com> <user@domain.com>
+In-Reply-To: <user@domain.com>
+To: John user <user@domain.com>
+X-Mailer: iPhone Mail (12B436)
+
+Bridget Ansel from equitable growth is 100% in if Amy Rosenbaum is still on t
+he fence. Might be nice to have Equitable Growth representation! (She's heat
+her's former asst, current copy editor and dev asst. Ran a marathon last yea
+r at 9:15s)
+

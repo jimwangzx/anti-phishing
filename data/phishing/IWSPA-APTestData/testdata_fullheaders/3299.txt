@@ -1,0 +1,39 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.71 with SMTP id o68csp68321lfi;
+        Mon, 16 Mar 2015 12:16:50 -0700 (PDT)
+X-Received: by 10.70.90.133 with SMTP id bw5mr142145279pdb.93.1426533406661;
+        Mon, 16 Mar 2015 12:16:46 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from nk11p18im-domain.com (nk11p18im-domain.com. [17.158.120.161])
+        by domain.com with ESMTPS id km1si24355606pab.14.2015.03.16.12.16.45
+        (version=TLSv1.2 cipher=AES128-GCM-SHA256 bits=128/128);
+        Mon, 16 Mar 2015 12:16:46 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 17.158.120.161 as permitted sender) client-ip=17.158.120.161;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 17.158.120.161 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=icloud.com
+Received: from [192.168.1.133] (unknown [64.206.61.18])
+ by nk11p18im-domain.com
+ (Oracle Communications Messaging Server 7.0.5.35.0 64bit (built Dec  4 2014))
+ with ESMTPSA id <0user@domain.com>; Mon,
+ 16 Mar 2015 19:16:43 +0000 (GMT)
+Date: Mon, 16 Mar 2015 19:16:42 +0000 (GMT)
+From: Marissa Astor <marissa.astor@icloud.com>
+Content-type: multipart/mixed;
+ boundary="Apple-Mail=_8B96C1EC-2EE1-44B1-933F-CDB0C243A46A"
+MIME-version: 1.0 (Mac OS X com.apple.MailServiceAgent 8.2 \(2070.6\))
+Subject: Event invitation: Fundraising Discussion
+Message-id: <user@domain.com>
+To: user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com
+X-Mailer: Apple Mail (2.2070.6)
+X-Proofpoint-Virus-Version: vendor=fsecure
+ engine=2.50.10432:5.13.68,1.0.33,0.0.0000
+ definitions=2015-03-16_04:2015-03-16,2015-03-16,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+ suspectscore=0 phishscore=0 adultscore=0 bulkscore=0 classifier=spam adjust=0
+ reason=mlx scancount=1 engine=7.0.1-1412110000 definitions=main-1503160192
+X-Mail-Calendar-Part: Yes
+
+user@domain.com has invited you to the event: Fundraising Discussion, scheduled for March 17, 2015 at 3:00 PM (America/New_York). To accept or decline this invitation, click the link below.

@@ -1,0 +1,58 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp2031229lfr;
+        Fri, 4 Sep 2015 10:09:27 -0700 (PDT)
+X-Received: by 10.152.45.69 with SMTP id k5mr4595443lam.13.1441386567668;
+        Fri, 04 Sep 2015 10:09:27 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-la0-domain.com (mail-la0-domain.com. [2a00:1450:4010:c03::232])
+        by domain.com with ESMTPS id an10si788782lbc.116.2015.09.04.10.09.27
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 04 Sep 2015 10:09:27 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::232 as permitted sender) client-ip=2a00:1450:4010:c03::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-la0-domain.com with SMTP id p12so4444581lam.0
+        for <user@domain.com>; Fri, 04 Sep 2015 10:09:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Dennis Cheng <dcheng@hillaryclinton.com>
+         :cc:content-type;
+        bh=IOrJGM8thYsp/qszf2SDsuXkEOLVT977U9rumzFmhmI=;
+        b=UPfVtzXBmt0DwUqYTBK7fM4VviLmqGAsRnw8WzEKatko9g0VOv+xkIUkQ16ZISaAj/
+         MpsXRPHeG6syjzkujxr12XHPG2juNpcEufjbs/EeMvAs4F1i3zkG8KtCc8aXeIbcKiWn
+         A47gsGEG3/1J9kdsLE9cayURYBcoqkKTe/OnE
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Dennis Cheng <dcheng@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=IOrJGM8thYsp/qszf2SDsuXkEOLVT977U9rumzFmhmI=;
+        b=FLAjdDsaUUe+36WpgiiI/irLw0TTEGBsCNWNpw1R6RBY3Zw8RjD/3CdxRTtf06UNGX
+         zMTdaOM8dflBbQylo8ow4iXPi9Fv2WKpEk0hNoWabiAL2gHCHQvFZR8DX1rHyA4/n5mK
+         0T7un9u/2WJN7OrPl9uAwSb4bYh69xH6N2ra8kDxAPCpqUjkDNm/H0il0XQn7upetm91
+         TFvis7rOOMKxKfKFMiNYhtMbszZeGkncmXxGoY3Uxm+WkVMiqunGnbqxJ6XwAzu6BFjn
+         UUxQubgcxoRuHDxzMzZn5l7kr08C/zd24qRoV9byCmSg9yDkkAWqAS7sPL7ksffqWGb2
+         ei4A
+X-Gm-Message-State: ALoCoQmSOdAxvrdnYIuqEQMG242/NSrtHRzgSV0Sk/avUGky1/m7b+7q+1lucidoQsKb45wGE41g
+X-Received: by 10.152.9.37 with SMTP id w5mr4523934laa.43.1441386567461; Fri,
+ 04 Sep 2015 10:09:27 -0700 (PDT)
+From: Dennis Cheng <dcheng@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <D20F46C5.5AD66%user@domain.com>
+In-Reply-To: <D20F46C5.5AD66%user@domain.com>
+Date: Fri, 4 Sep 2015 13:09:23 -0400
+Message-ID: <3277651189242858621@unknownmsgid>
+Subject: Re: Women business leaders
+To: Jim Doyle <user@domain.com>
+CC: Gary Gensler <user@domain.com>, 
+ John user <user@domain.com>, 
+ Robert Roche <user@domain.com>, 
+ Michael Smith <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e014946f4568cb6051eeef6a8
+
+That would be great! Who would be the most effective campaign surrogate to
+join for this call?  Would it be helpful to have a senior women campaign
+official? Perhaps Maya Harris who leads our policy team with Jake?
+

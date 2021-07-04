@@ -1,0 +1,75 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Tue, 10 Feb 2015 12:21:17 +0100
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 2C8EA6001A	for
+ <user@domain.com>; Tue, 10 Feb 2015 11:00:26 +0000 (GMT)
+Received: by domain.com (Postfix)	id CCD662BC0EF; Tue, 10 Feb 2015 
+ 12:21:17 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id C66182BC03D	for
+ <user@domain.com>; Tue, 10 Feb 2015 12:21:17 +0100 (CET)
+X-ASG-Debug-ID: 1423567273-066a751f0345770001-Aet2rw
+Received: from domain.com (domain.com
+ [192.40.180.210]) by domain.com with ESMTP id QFP83nQvJKZJIQgO for
+ <user@domain.com>; Tue, 10 Feb 2015 12:21:14 +0100 (CET)
+X-Barracuda-Envelope-From: Matthew Smith <enquire@defenceiq.com>
+X-Barracuda-Registry: Level1 [domain.com/192.40.180.210]
+X-Barracuda-Apparent-Source-IP: 192.40.180.210
+X-MSFBL: YS5jYXBhbGRvQGhhY2tpbmd0ZWFtLml0QDE5Ml80MF8xODBfMjEwQFBlbnRvbl9k
+	ZWRpY2F0ZWRfcG9vbF8xQA
+DKIM-Signature: v=1; a=rsa-sha256; d=domain.com; s=skyemailmarketingsmtp; c=relaxed/simple;
+	q=dns/txt; user@domain.com; t=1423567273;
+	h=From: Matthew Smith <enquire@defenceiq.com>
+	bh=HeVPLh7n9sXnlSxIfmcEgKh2NXmyfIfzLDe3sE42gN8=;
+	b=CKDQww0i4I2QbKy8UoaD6qNqY+LrYMAHLbm92MlG0vPsQd/yC3rwF2FVayWNwjSy
+	5gQvm53v+2zvNE94MoG0exybmLiRvtNYNuODt7JuoiAvm6veiKtyf0SFFjThwcSJ
+	kFMGfmQBjvo5DfqonBn/lgo8A2VAqAKMFIcIqEktCjE=;
+Received: from [54.208.154.186] ([54.208.154.186:2049] helo=domain.com)
+	by sl-mta04 (envelope-from <user@domain.com>)
+	(ecelerity 3.3.2.44647 r(44647)) with ESMTP	id DD/40-20428-8A9E9D45; Tue, 10
+ Feb 2015 11:21:13 +0000
+Date: Tue, 10 Feb 2015 11:23:52 +0000
+To: <user@domain.com>
+X-Mailer: Siebel 201309051825
+Sender: Matthew Smith <user@domain.com>
+Subject: Exclusive News: NATO ISR facing a "mounting threat", say intelligence chiefs
+From: Matthew Smith <enquire@defenceiq.com>
+X-ASG-Orig-Subj: Exclusive News: NATO ISR facing a "mounting threat", say intelligence chiefs
+Reply-To: Matthew Smith <user@domain.com>
+Message-ID: <user@domain.com>
+X-SMTPCOM-Tracking-Number: 2c7f051a-782d-451b-b711-c4646f183b75
+Feedback-ID: 6014501:SMTPCOM
+X-SMTPCOM-Sender-ID: 6014501
+X-SMTPCOM-Spam-Policy: domain.com is a paid relay service. We do not tolerate UCE of any kind. Please report it ASAP to user@domain.com
+X-Barracuda-Connect: domain.com[192.40.180.210]
+X-Barracuda-Start-Time: 1423567273
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.20
+X-Barracuda-Spam-Status: No, SCORE=0.20 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_SC0_SA038b, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.15103
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 BSF_SC0_SA038b         Custom Rule SA038b
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1505733112_-_-"
+
+Hi Antonella,
+I wanted to share with you, this exclusive and just released content; 'NATO ISR facing a "mounting threat"'.  The emergence of new conflicts in the past twelve months has forced new demands on airborne ISR assets. In response, intelligence chiefs are calling for major changes to spending priorities before these problems become insurmountable...    Download - Complimentary Article:NATO ISR facing a "mounting threat", say intelligence chiefs“We have a ten year equipment programme that is already stretched. The task is getting this to react to the opportunities that technology offers, so – for example – if we want to have UAVs, what are we willing to sacrifice?”... [READ MORE]>> Download the complete article here.>> Request a copy by email.This content has been conducted ahead of the Airborne ISR and C2 Battle Management 2015 symposium. Defence IQ's Richard de Silva speaks with Rear Admiral Brett Heimbigner, director of the Intelligence Division at the NATO International Military Staff; Brigadier David Evans, the Royal Navy’s Head of Information Superiority; and Matt Roper, group head and programme manager of NATO’s Joint ISR Team (NCI); all of whom will be briefing this year's delegation.
+To hear more from NATO, our international speakers and industry thought-leaders, register online now (**Early Bird ends in just 4 days! Friday 13/02).
+If you have questions or would like any assistance, please contact my by reply or call me on +44 (0) 20 7368 9737.Your feedback is welcome and I look forward to speaking with you!Best regards,
+Matthew
+Matthew Smith, DirectorAirborne ISR & C2 Battle Management 2015 (10-12 March 2015, London)T: +44 (0) 20 7368 9737 E: user@domain.com PS: If you missed my last email, you still download the free report: 'Global Airborne ISR & C2 Battle Management Holdings', online here.     If you are a resident of Canada: You are receiving this because you opted in or attended a similar event.To unsubscribe from future emails or to update your email preferences go here.
+IQPC Ltd: 129 Wilton Road, London, SW1V 1JZ, United Kingdom
+We respect your right to privacy. View our policy 

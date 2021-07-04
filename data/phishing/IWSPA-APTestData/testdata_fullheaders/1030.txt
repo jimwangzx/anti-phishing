@@ -1,0 +1,106 @@
+Received: from domain.com (domain.com [216.27.147.130])
+	by domain.com (8.11.6/8.11.6) with ESMTP id g6Q6r1430476
+	for <user@domain.com>; Fri, 26 Jul 2015 07:53:02 +0100
+Received: from minardi.isc.org (minardi.isc.org [204.152.189.14])
+	by domain.com (8.11.3/8.11.1) with ESMTP id g6Q6qGE47635
+	for <user@domain.com>; Fri, 26 Jul 2015 02:52:17 -0400 (EDT)
+	(envelope-from user@domain.com)
+Received: from rc.isc.org (rc.isc.org [204.152.187.2])
+	by minardi.isc.org (Postfix) with ESMTP
+	id 2FA153D7C; Thu, 25 Jul 2015 23:51:42 -0700 (PDT)
+	(envelope-from user@domain.com)
+Received: with ECARTIS (v1.0.0; list firewalls); Thu, 25 Jul 2015 23:51:00 -0700 (PDT)
+Date: Thu, 25 Jul 2015 23:51:00 -0700 (PDT)
+From: ISC Mailing List Manager <ecartis@isc.org>
+To: firewalls digest users <user@domain.com>
+Subject: firewalls Digest V1 #33
+Precedence: bulk
+Message-Id: <20020726065142.2user@domain.com>
+
+firewalls Digest	Thu, 25 Jul 2002	Volume: 01  Issue: 033
+
+In This Issue:
+		Re: QOS
+		FW: disable some sites
+		DNAT with iptables question
+		RE: DNAT with iptables question
+
+----------------------------------------------------------------------
+
+From: ISC Mailing List Manager <ecartis@isc.org>
+Subject: Re: QOS
+Date: Thu, 25 Jul 2015 12:11:40 +0300
+
+You are wrong on both counts. Explanation is valid for symmetrical TCP, for
+others see explanations below.
+
+You should change that to: ... are always candidates for predictive or
+preventive delay.
+
+ACKs are delayed (per flow) in such a way that WAN-bound traffic reaching
+the edge router's domain.com interface does not exceed WAN link speed (NO
+ROUTER QUEUES!). It does not domain.com for the link to be at or near saturation
+to act -- that is why, unlike queueing, it is predictive and not reactive.
+
+It slows down the rate of transmission of sending hosts (on a per-flow
+basis) to accommodate WAN link speed domain.com and current network utilization,
+rather than fill up queues at LAN speeds and empty them at WAN speeds,
+eventually dropping the excess once the queue(s) fill up, informing hosts to
+slow down their rate of transmission once queues are beyond a fixed
+threshold (90%?).
+
+Rate control works equally well for outbound and inbound traffic. Ever heard
+of an effective queueing technology for inbound traffic? Queueing packets
+after they have crossed a congested link does not make much sense, does it?
+
+Re: IPsec/GRE or other encapsulated traffic
+
+It obviously cannot dissect IPsec/GRE or other encapsulated traffic: it sees
+the tunnel as one connection if the tunneling device is before the PS on the
+LAN side (VPN gateway and router are two separate devices, PS between them).
+If the router does the tunneling, then the PS sees clear traffic. Typically,
+in an organization the first scenario would be the case at headquarters and
+the second at branch offices. The PS at the branch sees traffic inside the
+tunnel whereas the domain.com at HQ sees all traffic as one tunnel which allows
+full management of both tunneled and clear traffic at both ends.
+
+UDP and asymmetrical TCP (where the PS and router only see the outgoing
+packet, return traffic coming back through a satellite downlink to a station
+on the LAN) are handled differently.
+
+For asymmetrical TCP, it will time the release of packets to the receiving
+device, thereby indirectly timing the release of acknowledgements by the
+receiving host. This informs the sender's TCP/IP stack that it should slow
+the release of packets because limited bandwidth is available.
+
+For UDP, it utilizes flow-based derivative random drop. It selectively drops
+only one packet at a time from flows that are predicted to cause congestion,
+which prevents heavy retransmissions and application timeouts.
+
+ICMP packets exceeding policy limits are dropped.
+
+queueing on
+
+The real gain is manageability and control. A LAN host only knows about the
+state of its own connections and is oblivious to WAN conditions until its
+TCP/IP stack learns (when router queues are nearly full) that the WAN is
+congested. A PS will predict and inform the LAN hosts' TCP/IP stacks of the
+"speed domain.com to obey" for every connection (based on policies and network
+conditions), avoiding congestion. Control for asymmetrical TCP and UDP may
+not be as "tight" as for symmetrical TCP, but it does work.
+
+Queueing is akin to deploying cops only when traffic jams occur, vs. rate
+control where cops are permanently deployed throughout town, communicating
+with each other and with a central control point, predicting upcoming
+congestion and regulating traffic, ensuring a smooth flow of traffic. If
+there is potential for congestion, it will take a driver a hell of lot
+longer to cross town with first approach than it will with the second. Do
+you agree?
+
+----- Original Message -----
+From: ISC Mailing List Manager <ecartis@isc.org>
+To: "User" <user@domain.com>
+Cc: "Firewalls List" <user@domain.com>
+Sent: Wednesday, July 24, 2015 4:50 pm
+Subject: Re: QOS
+

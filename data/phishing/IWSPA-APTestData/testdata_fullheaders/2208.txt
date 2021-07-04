@@ -1,0 +1,81 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Mon, 26 May 2015 09:48:16 -0700
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4QGmFLc006017	for <user@domain.com>; Mon, 26 May 2015 
+ 16:48:15 GMT
+Received: from mail111-ch1-domain.com (mail-domain.com
+ [216.32.181.169])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s4QGnEex020987
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 26 May 2015 16:49:14 GMT
+Received: from mail111-ch1 (localhost [127.0.0.1])	by
+ mail111-ch1-domain.com (Postfix) with ESMTP id A41FC48044E	for
+ <user@domain.com>; Mon, 26 May 2015 16:48:14 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:198.2.130.216;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 15
+X-BigFish: vps15(z3e12h598nzc89bhe0eah758Ic857h77f5h879duzz1f42h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1a79M1e76h2189h1d1ah1d2ah1fc6hzz8275ch1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h186068h1ce121iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2534h2545h25f6h2605h268bh26d3h27e2h282bh28a1h1d9ci)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail111-ch1: domain of domain.com designates 198.2.130.216 as permitted sender) client-ip=198.2.130.216; user@domain.com; helo=domain.com ;01.domain.com ;
+Received: from mail111-ch1 (localhost.localdomain [127.0.0.1]) by mail111-ch1
+ (MessageSwitch) id 1401122891948639_5905; Mon, 26 May 2015 16:48:11 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.226])	by mail111-domain.com (Postfix) with ESMTP id
+ 732AB2000A7	for <user@domain.com>; Mon, 26 May 2015 16:48:03 +0000
+ (UTC)
+Received: from domain.com (198.2.130.216) by
+ domain.com (10.43.70.9) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 26 May 2015 16:48:03 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?TheWrap=20FirstTake?= <noreply@thewrap.com>
+ bh=cf4WiysGJ5cNeFgecqKsZaIh818=;
+ b=1RCWHD7eCh+RtZ77MeuuynVhblEm/pe1afrwNjCkJVg6FbsmWPOrJK9YmEIuaRVUGvGoJEy2jzsB
+   ViD/nkp9tNrEIumvhvi6IUBsG3LVaxE+RgO/stTTvI9+S3sm/Y+J+y9YhOI810svH/bbJqhYeAKq
+   A+zMOhyVe+yfqjoLRAI
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=N5gjblXHhqYos5egyD8cgO2GJ62QOlVEhdp4xOEuptyzJnoxCzCIDTZYzzn6Zn4sH5bT4KurlLyJ
+   u4m/C75ngACrW0rC3KQn2Sa1NQlZi65a+bdsV1hZfoo7kBtdn1Bam5LmA8xCS2PhOw81SMMaaszv
+   js2RYb19Yd+az3Gooew=;
+Received: from (127.0.0.1) by domain.com id hgdo461ohl83 for
+ <user@domain.com>; Mon, 26 May 2015 16:47:59 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?domain.com=20of=20a=20Psychopath=3A=20UCSB=20Shooter=20Elliot=20Rodger=20a=20Child=20of=20Hollywood=2C=20Privilege=2C=20Isolation=3B=20=27X=2DMen=27=20Rules=20World=20With=20$261=20Million=20Opening?
+From: =?utf-8?Q?TheWrap=20FirstTake?= <noreply@thewrap.com>
+Reply-To: =?utf-8?Q?TheWrap=20FirstTake?= <user@domain.com>
+To: =?utf-8?Q?Leah?= <user@domain.com>
+Date: Mon, 26 May 2015 16:47:59 +0000
+Message-ID: <4300user@domain.com>
+X-Mailer: MailChimp Mailer - **CIDe45eee84df6a0e7f14ce**
+X-Campaign: mailchimp4300eb945fab9dc8942c198f9.e45eee84df
+X-campaignid: mailchimp4300eb945fab9dc8942c198f9.e45eee84df
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 4300eb945fab9dc8942c198f9
+X-Feedback-ID: 112894:112894.2288957:us1:mc
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: TheWrap FirstTake <user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1224682741_-_-"
+
+domain.com of a Psychopath: UCSB Shooter Elliot Rodger a Child of Hollywood, Privilege, Isolation; 'X-Men' Rules World With $261 Million Opening
+
+TheWrap's First Take  TheWrap's First Take      May 26, 2014    
+
+<<link>>://thewrap.us1.list-domain.com/track/click?u=4300eb945fab9dc8942c198f9&id=a619da553e&e=6a0e7f14ce<<link>>://thewrap.us1.list-domain.com/track/click?u=4300eb945fab9dc8942c198f9&id=f57b5df71d&e=6a0e7f14ce<<link>>://thewrap.us1.list-domain.com/track/click?u=4300eb945fab9dc8942c198f9&id=dfe8d3d084&e=6a0e7f14ce<<link>>://thewrap.us1.list-domain.com/track/click?u=4300eb945fab9dc8942c198f9&id=353a892052&e=6a0e7f14ce<<link>>://thewrap.us1.list-domain.com/track/click?u=4300eb945fab9dc8942c198f9&id=32a327e23d&e=6a0e7f14ce        
+
+
+
+
+ <<link>>://thewrap.us1.list-domain.com/track/click?u=4300eb945fab9dc8942c198f9&id;=e17c33a052&e;=6a0e7f14ce 
+
+ <<link>>    
+
+domain.com of a Psychopath: UCSB Shooter Elliot Rodger a Child of Hollywood, Privilege, Isolation And:
+

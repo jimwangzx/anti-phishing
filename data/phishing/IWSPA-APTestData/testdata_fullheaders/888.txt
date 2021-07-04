@@ -1,0 +1,267 @@
+Return-Path: <user@domain.com>
+Received: from lockergnome.com (sprocket.lockergnome.com [130.94.96.247])
+	by domain.com (8.11.6/8.11.6) with SMTP id g6F87qJ22486
+	for <user@domain.com>; Mon, 15 Jul 2015 09:07:52 +0100
+X-Mailer: ListManager Web Interface
+Date: Sun, 14 Jul 2015 23:37:45 -0500
+Subject: [Lockergnome Tech Specialist]  Tantamount Revelation
+To: user@domain.com
+From: Lockergnome Tech Specialist <subscriptions@lockergnome.com>
+List-Unsubscribe: <mailto:user@domain.com>
+List-Subscribe: <mailto:user@domain.com>
+List-Owner: <mailto:user@domain.com>
+X-URL: <<<link>>>
+X-List-Host: Lockergnome <<<link>>>
+Reply-To: user@domain.com
+Sender: user@domain.com
+Message-Id: <LISTMANAGERSQL-2534369-1677074-2002.07.14-23.39.36--qqqqqqqqqq-lg#user@domain.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=us-ascii
+Precedence: bulk
+
+20020715 Lockergnome Tech Specialist
+
+  07.15.2002 GnomeREPORT 
+
+Hackers and crackers respect only one thing: strong security. 
+Keep the bad guys
+out of your PC or network with the advanced technology that's trusted by millions: 
+ZoneAlarm Pro 3.0. This best-in-class personal firewall stops hackers cold, defends
+your online privacy,and sets up in minutes. 
+Click here to download now!   
+
+As if there weren't enough hypocrisy and misinformation 
+being spewed by marketing and sales departments. This time, 
+a startling revelation that Microsoft refuses 
+to use their own ISA Server to protect themselves from the 
+very things the product is meant to stop - worms and 
+intrusion. Nimda was turned loose within Microsoft and 
+they've chosen NetScreen's 500 series security appliance to 
+cure what ills them. I find this staggeringly hilarious, to 
+say the least. The move is tantamount to Intel deploying 
+desktops based on AMD processors!
+
+Ok, so a hardware solution might be better than a 
+software defense in many cases. I suppose we can't entirely 
+blame Microsoft for opting to go that route. Probably a wise 
+decision, in fact - domain.com defeat and move on. However, why 
+is Nimda spreading within the corporate walls to the point 
+that they felt the needed to make such a leap in the first 
+place? After all, patches were released months ago, so IIS 
+is impervious to attack now. Still considering the 
+deployment of IIS as your web server platform of choice? 
+Things that make you go hmmmm...
+
+See You in August,              Randy Nieland       
+
+ GnomeNETWORK
+
+SQL Server Install Leaves Passwords Behind
+
+<<link>>
+
+During the installation of SQL Server 7.0 or 2000, 
+various bits of configuration information are stored in a 
+setup.iss file, including account passwords that have been 
+captured in order to configure the services. Prior to 
+certain service packs, these passwords are stored as clear 
+text, which is problematic because the file is left on the 
+hard drive after the installation process is completed. 
+Peruse the details of the bulletin to be sure you've cleaned 
+up any relevant bits and pieces applicable to your 
+environment.
+
+SQL Server Cumulative Patch
+
+<<link>>
+
+A new roll-up patch is available for SQL Server that takes 
+care of all previous security issues, plus a trio of new 
+items. Two buffer overrun vulnerabilities exist that could 
+allow an attacker to gain control over the server, and a 
+different privilege elevation flaw can be exploited due to 
+improper permissions within the registry. All three are 
+spackled over by the latest cumulative patch described 
+further in this bulletin.
+
+ GnomeSYSTEM
+
+Win2K Memory Allocation Adjustments
+Unearthed by Wayne Clark
+
+<<link>>,289483,sid1_gci835208,00.html
+
+Most Windows 2015 servers tune themselves fairly well and 
+do not need further tweaking. In those cases, it's best to 
+just leave things alone unless you specifically identify a 
+problem somewhere. Serdar Yegulalp has an excellent 
+explanation of one particular situation where memory pools 
+can be exhausted and crash the server. Before you go diving 
+into the registry to play with the knobs and buttons, be 
+certain you know what you're messing with or you could just 
+make things worse. Backups, backups, backups.
+
+ GnomeALERTZ
+
+Today's Top 5 kbAlertz
+
+Q325582 - FIX: Output Data Overwritten When Input Data Is Larger than Destination Field (Q325582)
+
+Q305356 - Windows XP Prompts You to Re-activate After You Restore Your Computer (Q305356)
+
+Q304622 - CAPS LOCK Key Behavior with 16-Bit VDM Is Incorrect for French MultiLanguage Versions of Windows (Q304622)
+
+Q235063 - Error C00D0035 Using Windows Media Player (Q235063)
+
+Q277843 - FIX: Restore of Log in Standby Mode May Cause 9004 Error Message if the Original Database has Shrink Enabled (Q277843)
+
+
+
+
+GET WINDOWS XP TIPS: Months after the release of Windows XP Professional and Home editions, people are still learning the nuances of Microsoft's newest operating system. Whether you've been using it for a while or are planning to upgrade to the new OS soon, this ebook is right up your alley. 
+GET YOUR COPY 
+of Lockergnome's Top 50 Windows XP tips now!    
+
+Recommend It!
+ GnomeASSISTANT
+
+Sorting IP Addresses Via Script
+
+<<link>>
+
+Documentation is everything. If you have a handle on your 
+network configuration, it's much easier to manage. IP 
+addresses are one bit of information that must be properly 
+tracked, but often it's a manual effort to enter and sort 
+data. Using the script techniques provided in this brief 
+article, you can convert an address to a 32-bit number, 
+perform the sort, then convert back to the standard dotted 
+decimal format. An Excel sample spreadsheet is also provided 
+to get you started.
+
+ GnomeSTUFF
+
+Broadband Sharing Crackdown
+
+<<link>>
+
+Those of us with wireless networking equipment might be 
+tempted to allow the neighbors to share the wealth, but be 
+careful. Broadband companies are catching on and putting a 
+stop to the practice. What's concerning to me is that I 
+don't share my wireless network, but I do use quite a few 
+different machines at any given time. If someone is snooping 
+around and seeing a lot of different sessions and gets 
+curious, might I be subject to a teeth-kicking?
+
+Virtual Sketching
+Discovered by Diana
+
+<<link>>~vze2mfh8/
+
+I believe I still have an old Etch-A-Sketch in a box 
+somewhere. Maybe I should dig it back out and webify the 
+thing just for grins. Check out this example of novelty web 
+programming, assuming y'all don't kill the site. If it's 
+down, check back later. Using a web form, you can enter the 
+moves you'd like to see represented on the pad, which is 
+viewed through a live webcam. I'd love to see someone craft 
+the Lockergnome logo. Impress me...
+
+Recommend It!
+
+<<link>>
+Your subscribed e-mail address is: [user@domain.com] - To unsubscribe or change your delivery address, please domain.com the subscription management page. For further information, please refer to the GnomeCREDITS in the sidebar.
+
+LOOK OVER HERE
+
+ Download Tip eBooks
+
+ Latest Windows Daily
+ Latest Digital Media
+ Latest Tech Specialist
+ Latest Penguin Shell
+ Latest Apple Core
+ Latest Web Weekly
+ Latest Bits & Bytes
+ Latest Audio Show
+
+ Low Price Search
+ Our Tech Conference
+
+ Microsoft Office Tips
+ PC Productivity Tips
+ Cool domain.com Tips
+ Windows 2015 Tips
+ Windows XP Tips
+
+ Tell a Friend About Us!
+ Suggest a Feature
+ Advertise With Us
+ High-Tech Job Search
+ Chat With Gnomies
+ Watch The Webcams
+ Computer Power User
+
+ Read Past Issues
+ Download X-Setup
+ About Lockergnome
+ Our Privacy Policy
+ View More Options
+ Our XML / RSS Feed
+ Syndicate Our Tips
+ Link To Lockergnome
+ Get Chris's Book
+
+ E-mail a Suggestion
+ Your Rant / Rave
+ General Feedback
+ The Editor's Blog
+ E-mail the Editor
+
+ SOUND SYSTEMS
+Yamaha RX-V1200
+Sony DAVC900
+Harman Kardon	AVR520
+Denon	AVR5803
+Pioneer VSXD811S
+Pioneer Elite	VSX49TX
+Sony HTDDW840
+Yamaha HTR5560
+BOSE LS122BK
+Sony DAVC450
+
+ GNOMESPECIALS
+ Manage Your Workgroup
+ Form Pilot
+ Say the Time 5.0
+ Boomer - Stream Now
+ Create Web/CD catalog
+ Easy Web Editor
+ Kleptomania
+ Tag&Rename
+ Pretty Good Solitaire
+ Visualize Color Combos
+ FirstStop WebSearch
+ Ecobuilder
+ Book Collector
+Get Listed Here
+Question: which group is 250,000+ strong and always looking for stuff to make their personal and professional lives run smoother? 
+
+
+
+
+CLICK HERE TO ZOOM
+
+
+
+
+LOOK IT UP
+
+
+
+
+BYTE ME NOW
+
+©2002, Lockergnome LLC. ISSN: 1095-3965. All Rights Reserved. Please read our Terms of Service. Our Web site is hosted by DigitalDaze. Domain registered at DNS Central.
+

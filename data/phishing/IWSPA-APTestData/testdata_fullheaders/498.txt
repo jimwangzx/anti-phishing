@@ -1,0 +1,111 @@
+Delivered-To: user@domain.com
+Received: by 10.220.73.199 with SMTP id r7cs253081vcj;
+        Wed, 16 Sep 2015 10:47:53 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.150.27.5 as permitted sender) client-ip=10.150.27.5;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.150.27.5 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.150.27.5])
+        by 10.150.27.5 with SMTP id a5mr534071yba.16.1253123273213 (num_hops = 1);
+        Wed, 16 Sep 2015 10:47:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received:received-spf:received:dkim-signature
+         :domainkey-signature:mime-version:content-type:received:date
+         :message-id:subject:From: Matthew DeLong <matthewedelong@gmail.com>
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        bh=a0gA6aMVm+71nTD0rd4N+XveaGlo8ffrEaIXWqghHcs=;
+        b=68BiexoC4Y0wqvl99hRXwv+cjAHs+hkGT2nurInsgpfNXIQira8ONItwvvM94KKm8j
+         0a8bv7OtZ3oCjMIW+lQrq8ZkIJSe4Ugy2GPBE/dEQrBi43F8zLTAlC9QxyDkVd9/4TEa
+         H8wfuTjK/2JKJ4ymSp8Rickj8XKN1YNCz/W8k
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :dkim-signature:domainkey-signature:mime-version:content-type:date
+         :message-id:subject:From: Matthew DeLong <matthewedelong@gmail.com>
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=kt5SDmYkl54FnJMsiXDyhFQtDzqpNxFI61IarZx9MdOGWLev4pNKJ1LVQBZXj8zNtg
+         SuNSvUIIunJslvrMdsVJT/mYjQ1YFVwdccehEFxSEZ0JfPYSV3er1U7l0GkwWYwfIsVV
+         Lz61BsK4si7r15kKzkHmfnx1Qydb9+gQBe7io
+Received: by 10.150.27.5 with SMTP id a5mr66121yba.16.1253123266564;
+        Wed, 16 Sep 2015 10:47:46 -0700 (PDT)
+Received: by 10.176.58.28 with SMTP id g28gr3470yqa.0;
+	Wed, 16 Sep 2015 10:47:33 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.211.144.19 with SMTP id w19mr302788ebn.2.1253123250943; Wed, 16 Sep 2015 10:47:30 -0700 (PDT)
+Received: by 10.211.144.19 with SMTP id w19mr302787ebn.2.1253123250841; Wed, 16 Sep 2015 10:47:30 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ew0-domain.com (mail-ew0-domain.com [209.85.219.207]) by gmr-domain.com with ESMTP id 15si1775006ewy.4.2009.09.16.10.47.29; Wed, 16 Sep 2015 10:47:29 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.219.207 as permitted sender) client-ip=209.85.219.207;
+Authentication-Results: gmr-domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.219.207 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by ewy3 with SMTP id 3so5642796ewy.42 for <user@domain.com>; Wed, 16 Sep 2015 10:47:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:mime-version:received:date:message-id:subject :From: Matthew DeLong <matthewedelong@gmail.com>
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=mime-version:date:message-id:subject:From: Matthew DeLong <matthewedelong@gmail.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="0016364d25ab271dba0473b57e22"
+Received: by 10.216.21.138 with SMTP id r10mr2156715wer.3.1253123249609; Wed,  16 Sep 2015 10:47:29 -0700 (PDT)
+Date: Wed, 16 Sep 2015 13:47:29 -0400
+Message-ID: <user@domain.com>
+Subject: [big campaign] Introducing TWI's New Senate Public Option Scoreboard
+From: Matthew DeLong <matthewedelong@gmail.com>
+To: user@domain.com
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+Hello,
+
+As the Senate debate over a government-run health insurance option evolves,
+so do senators=92 stances on the issue. That=92s why The Washington Indepen
+dent
+is rolling out an exciting new feature to track the upper chamber=92s views
+ on
+the public option (and its offshoots, such as a trigger mechanism). Our Sen
+ate
+Public Option Scoreboard<<<link>>
+ic-option-scoreboard>lists
+the positions of all 99 senators =97 in their own words.
+
+We=92ll be updating the scoreboard every time a senator offers a new take o
+n
+the public option, so be sure to check back often.
+
+You can find the scoreboard
+here<<<link>>
+
+Enjoy!
+Best,
+
+Matthew DeLong
+Managing Editor
+The Washington Independent
+<<link>>
+(o) 202.387.3670 x237
+(c) 202.503.6610
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

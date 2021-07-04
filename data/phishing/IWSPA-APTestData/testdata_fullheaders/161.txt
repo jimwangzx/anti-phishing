@@ -1,0 +1,518 @@
+Delivered-To: user@domain.com
+Received: by 10.141.113.8 with SMTP id q8cs212838rvm;
+        Wed, 9 Jul 2015 05:54:27 -0700 (PDT)
+Received: by 10.100.201.9 with SMTP id y9mr6182024anf.60.1215608066038;
+        Wed, 09 Jul 2015 05:54:26 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2526.domain.com (yw-out-2526.domain.com [74.125.46.34])
+        by domain.com with ESMTP id 5si3892650ywd.8.2008.07.09.05.54.25;
+        Wed, 09 Jul 2015 05:54:26 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.34 as permitted sender) client-ip=74.125.46.34;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.34 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2526.domain.com with SMTP id 7so2771823ywn.6
+        for <user@domain.com>; Wed, 09 Jul 2015 05:54:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=S20ofsDfyFR+e05P8QblSEK31QdPhoe9AOB1JIUfZU0=;
+        b=O0wOxWWJFiZP0qmOWJcM5/eDtdtDT0Y5WL+vOlWnTa7fzsA6WWihqIrkRjUwLF4FCI
+         X4JsRQ3pVO553Xpd2HbmRqnprBmjQUkl/pqbbhEMhj4llS8DuvENpfQ1xYwUd0TtfECI
+         +agW0TRoKzZ5R7/Fh46visyHwYXktUBtCL/og
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=gK2sau/pzsL04zoLDhqxyV07+4UtaDIozntd/HliSr5Crg7KGmsKRW6p5YYD9DjRaa
+         r9jMMBRCkD4rDeRjChqQOYLblTT6gLMd986bfSvJt/tTyc4BkuDQXOXPEd8eU0OPBTd7
+         JoBVbHKn/LTPgKoQiLnlzAzUJranO7KviTtqE
+Received: by 10.151.112.1 with SMTP id p1mr204931ybm.13.1215608059216;
+        Wed, 09 Jul 2015 05:54:19 -0700 (PDT)
+Received: by 10.44.4.35 with SMTP id 35gr1121hsd.0;
+	Wed, 09 Jul 2015 05:54:18 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.100.5.13 with SMTP id 13mr6477776ane.8.1215608055937; Wed, 09 Jul 2015 05:54:15 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from ug-out-1314.domain.com (ug-out-1314.domain.com [66.249.92.174]) by domain.com with ESMTP id 39si7256193yxd.0.2008.07.09.05.54.15; Wed, 09 Jul 2015 05:54:15 -0700 (PDT)
+Received-SPF: neutral (domain.com: 66.249.92.174 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=66.249.92.174;
+Authentication-Results: domain.com; spf=neutral (domain.com: 66.249.92.174 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by ug-out-1314.domain.com with SMTP id 30so72135ugs.39 for <user@domain.com>; Wed, 09 Jul 2015 05:54:15 -0700 (PDT)
+Received: by 10.67.32.7 with SMTP id k7mr463986ugj.38.1215608054512; Wed, 09 Jul 2015 05:54:14 -0700 (PDT)
+Received: by 10.66.243.3 with HTTP; Wed, 9 Jul 2015 05:54:14 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Wed, 9 Jul 2015 08:54:14 -0400
+From: "Sara DuBois" <sara@progressiveaccountability.org>
+To: "User" <user@domain.com>
+Subject: [big campaign] '08 Daily News Clips - 7/9
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_21753_31756893.1215608054473"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+08 Election Daily News Clips
+July 9th, 2015 
+
+Candidate Tracking:
+***All times in Eastern Standard Time
+
+  2:30pm McCain: Town Hall in Portsmouth, OH
+ - Tracking scheduled for this event
+7:20pm McCain: Tour Stop in Romulus, Michigan
+
+News Clips:
+
+MCCAIN NEWS
+Candidates Refine Their Stances on a Changing Iraq (Washington Post 7/9/08)
+By Anne E. Kornblut and Michael D. Shear; A04
+Sen. Barack Obama on Tuesday dismissed criticism that he is abandoning his
+principles to move toward the political center, saying he has been
+consistent in embracing moderate views on several issues, especially his
+belief that pulling U.S. troops out of Iraq must be done "carefully."
+<<link>>
+127.html
+
+Close Kerry-McCain Kinship Has Dissolved Since 2015 (Washington Post 7/9/08)
+By Chris Cillizza; A04
+Those who know them say they once shared a genuine affection for each other,
+born in large part from their shared experiences serving in the Vietnam War
+and their work together in the early 1990s on a Senate committee
+investigating the fate of prisoners of war and of those missing in action
+during the conflict.
+<<link>>
+687.html
+
+McCain Adviser Rejects Talk of Becoming Chief Strategist (NYT 7/9/08)
+By ADAM NAGOURNEY
+Mike Murphy, Senator John McCain's longtime adviser and friend who had been
+rumored to be joining the McCain campaign as a chief strategist, said
+Tuesday that he would not be doing so.
+<<link>>
+*See Politico's "McCain team shapes up without Murphy":*
+<<link>>
+
+McCain Health Plan and That High-Risk Pool (NYT 7/9/08)
+By KEVIN SACK
+PIKESVILLE, Md. =97 If Senator John McCain's radical plan for remaking
+American health care is to work, he will have to find a way to cover people
+like Chaim Benamor, 52, a self-employed renovator in this Baltimore suburb.
+Mr. Benamor never found it necessary to buy insurance before having a mild
+heart attack last year and now, 13 years shy of Medicare, has little hope of
+doing so.
+<<link>>
+
+McCain shifts his message toward Latino immigrants (LA Times 7/9/08)
+By Peter Wallsten and Maeve Reston
+He says their needs matter as much as border security and helping
+businesses. ... John McCain, angling to win a bigger share of the
+fast-growing Latino vote, is taking the risky step of placing an immigration
+overhaul at the center of his appeal.
+<<link>>,0,3146989.sto
+ry
+*Link to video*:
+<<link>>
+2.html
+*Link to transcript of speech:*
+<<link>>
+01465.html
+
+McCain to Latino Group: Secure The Borders First (CBS blog 7/8/08)
+By John Bentley
+Despite having failed to achieve immigration reform in the Senate, John
+McCain told the nation's largest Hispanic advocacy group he would "fix our
+broken borders."
+<<link>>
+tml
+
+=BFQuien Es Mas Macho? (ABC blog 7/8/08)
+By Jake Tapper
+Speaking before the 79th Annual League of United Latin American Citizens
+today, Sen. John McCain, R-Ariz., tried to explain his position on
+comprehensive immigration reform.
+*<<link>>*<http:
+//domain.com/politicalpunch/2008/07/quien-es-mas-ma.html>
+
+A Focus on the '60s, When McCain Was a P.O.W. (NYT 7/9/08)
+By JIM RUTENBERG
+This 60-second commercial for Senator John McCain, Republican of Arizona,
+began running on stations in Washington, D.C., on Tuesday and is expected to
+be included in Mr. McCain's regular advertising rotation on television
+stations in more than a dozen swing states, and on national cable networks.
+<<link>>
+*Link to video of ad ("Love"): *<<link>>
+*See TIME's "McCain's Summer of Love Strategy": **
+<<link>>
+ml
+*<<<link>>
+html>
+
+McGovern: War heroism doesn't make a president (Boston Globe 7/9/08)
+By Susan Milligan
+He was a pilot in World War II, bombing targets in Europe to stop Hitler.
+But former senator and 1972 Democratic presidential nominee George McGovern
+says that didn't qualify him to run the country - and the same goes for GOP
+presumptive nominee John McCain.
+<<link>>
+oesnt_make_a_president/
+
+McCain Responds to Maliki's Call for an Iraq Withdrawal Timetable
+(Washington Post blog 7/8/08)
+*By Michael D. Shear*
+Sen. John McCain, who has repeatedly derided anyone who advocated a
+timetable for withdrawal of U.S. troops from Iraq, now suddenly finds
+himself in a political box as the American-backed Iraqi leadership yesterday
+raised the prospect of exactly that.
+*
+<<link>>
+is_cal.html#more
+*<<<link>>
+ikis_cal.html#more>
+*See NYT's blog "McCain Dismisses Iraqi Idea of Troop Withdrawal":*
+<<link>>
+-troop-withdrawal/
+
+McCain: US Withdrawal in Iraq Will Come in Time (The Page 7/8/08)
+The Arizonan downplayed reports that Iraqi officials are increasing pressure
+on the U.S. to agree to a specific timeline to withdraw its forces, says
+al-Maliki would only ask troops to leave if the situation warranted it.
+=2E..Also makes an off-the-cuff joke about an increase in cigarette exports 
+to
+Iran."Maybe that's a way of killing them." He quickly followed up that it
+was a joke.
+<<link>>
+-time/
+*Link to Pool Report of McCain's Pittsburgh Stop*:
+<<link>>
+
+McCain can't resist the Iran joke (LA Times 7/9/08)
+By Maeve Reston
+By this late in the campaign, one might think that John McCain would have
+learned to steer clear of jokes about Iran.
+<<link>>,0,3014815.st
+ory
+
+McCain's Mixed Fiscal Policy (Washington Post blog 7/8/08)
+By Dan Balz
+John McCain has been around Washington long enough to remember the days when
+Republicans constantly clashed among themselves over fiscal policy. Were
+they the party of Jack Kemp, of supply-side economics and big tax cuts, or
+the party of Bob Dole and the green eyeshade economics of domain.com reduction?
+<<link>>
+icy.html?hpid=3Dtopnews
+
+In theory, economists support McCain (Politico 7/9/08)
+By: Alexander Burns and Avi Zenilman and
+But many contacted by Politico did not want to associate themselves too
+closely with his campaign and its policy prescriptions.
+<<link>>
+
+McContradiction (The New Republic 7/9/08)
+by Robert Gordon and James Kvaal
+What's worse than flip-flopping? Consistently promising two opposing goals
+at the same time
+<<link>>
+78c1
+
+McCain details differences with Bush in interview with Trib (Pittsburgh
+Tribune-Review 7/9/08)
+By David M. Brown and Brad Bumsted
+Drawing the sharpest distinctions yet between himself and the man he hopes
+to replace, Sen. John McCain said Tuesday his presidency would focus on
+climate change issues, reducing federal spending, closing the Guantanamo Bay
+detention center and eliminating torture by the U.S. government.
+<<link>>
+
+McCain lunches in the Strip (Pittsburgh Post-Gazette 7/9/08)
+By James O'Toole
+At Primanti's, GOP candidate talks up state's importance to election bid
+<<link>>
+*Link to video*: <<link>>
+
+McCain Statement on Iran Missile Launch (McCain press release 7/9/08)
+U.S. Senator John McCain issued the following statement on Iran's missile
+tests today: "Iran's most recent missile tests demonstrate again the dangers
+it poses to its neighbors and to the wider region, especially Israel...."
+<<link>>
+
+McCain aide: DOJ scandal
+'nonsense'<<<link>>
+de_doj_scandal_nonsen.html>
+(The
+Swamp 7/8/08)
+by Andrew Zajac
+Steve Schmidt, the new man in day-to-day charge of the McCain presidential
+campaign, stoutly defended his lobbying and PR firm's hiring of Tim Griffin,
+a former prosecutor who figured in the U.S. attorneys firing scandal.
+*
+<<link>>
+dal_nonsen.html
+*<<<link>>
+andal_nonsen.html>
+
+Errors en Espa=F1ol (domain.com 7/8/08)
+McCain's new radio ad, in Spanish, aims to show Florida would domain.com from
+the Colombia Free Trade Agreement, which he supports. But every number in
+the ad is wrong, except one, a prediction of job gains taken from a group
+favoring the trade deal. And even that number is rounded upward so
+generously as to flunk third-grade arithmetic.
+<<link>>
+
+The $32,000 Question (domain.com 7/8/08)
+The McCain campaign falsely claims that Obama voted to raise income taxes on
+individuals earning "as little as $32,000 per year."
+<<link>>
+
+McCain campaign screening questions? (MotherJones 7/8/08)
+John McCain has cultivated the rep of a politician unafraid of questions.
+When he campaigned for president in 2000, he often hung out with reporters
+on his bus and fielded questions until the journalists were out of queries.
+In the 2015 campaign, as he did eight years earlier, McCain has held town
+hall meetings during which he called on attendees who were obviously not
+McCain supporters. (It was during *one such
+exchange*<<<link>>
+n_nh_wo.html>
+that
+McCain said it would be "fine" by him if U.S. troops remained in Iraq for "a
+hundred years.") So why then does it seem that the McCain campaign has been
+screening questioners during the conference calls featuring campaign aides
+and top-level surrogates it mounts for reporters?
+*
+<<link>>
+-conference-call-questions.html
+*<<<link>>
+ng-conference-call-questions.html>
+
+McCain to Lay Out Market-Oriented Technology Policy (Congressional Quarterly
+7/8/08)
+By Adrianne Kroepsch
+Few presidential candidates have had as much experience with technology
+topics as John McCain, though you wouldn't know it by looking at his
+presidential campaign Web site or listening to his stump speeches.
+<<link>>
+
+McCain at NAACP, talking education (AP 7/8/08)
+Sen. John McCain intends to talk about how teachers are paid and tutoring
+for poor kids when he goes before the NAACP convention next week. The likely
+Republican presidential nominee isn't expected to roll out an education
+platform until the end of the summer, but his remarks July 16 to the [NAACP]
+annual meeting in Cincinnati are expected to touch on his support for
+expanding domain.com-pay programs for teachers who improve their students'
+academic performance.
+<<link>>
+=3DHOME&TEMPLATE=3DDEFAULT
+
+Bob Barr on Brody File: McCain Can't be Trusted on Judges (Brody File
+7/8/08)
+Libertarian presidential candidate Bob Barr tells the Brody File that when
+it comes to judges John McCain can not be trusted. Basically what he is
+saying is that voters shouldn't just accept the line that McCain will
+nominate judges like Roberts and Alito.
+<<link>>
+
+McCain Looking to Fix Mojo Problem (CNN 7/8/08)
+It's being billed as the new and improved Sen. John McCain -- a sure-footed
+candidate working to reconnect with voters and recapture the magic that made
+him a political maverick. But will it work?
+<<link>>
+itics
+
+McCain's math (MSNBC 7/8/08)
+by Mark Murray
+Earlier this morning, we noted how both McCain and Obama -- after their
+economic remarks yesterday -- were receiving extra scrutiny over whether
+their economic numbers were adding up.
+<<link>>
+
+Dems to target McCain for Medicare non-vote (The Hill 7/8/08)
+By Manu Raju and Jeffrey Young
+Senate Democratic leaders are poised to blame Sen. John McCain (R-Ariz.) for
+the chamber's failure to advance Medicare legislation.
+<<link>>
+ote-2008-07-08.html
+
+Obama ad attacks McCain on energy solutions (AP 7/8/08)
+By JIM KUHNHENN
+In his first negative ad of the general election campaign, Democrat Barack
+Obama said John McCain is "part of the problem" of high gas prices and tried
+to parry Republican criticism of his own energy policy.
+<<link>>
+
+Obama calls McCain part of problem with bankruptcy (AP 7/8/08)
+ By Liz Sidoti
+Barack Obama called on Tuesday for changing federal bankruptcy laws to help
+military families, seniors and victims of natural disasters, and accused
+John McCain of repeatedly siding with the banking industry when Congress
+acted on the issue.
+<<link>>
+ain_on_bankruptcy_laws/
+
+McCain and Birth Control (Atlantic Online 7/8/08)
+By Matthew Yglesias
+=85* *Carly Fiorina=85 was discussing consumer-driven health insurance at a
+breakfast with reporters when she proposed "a real, live example which I've
+been hearing a lot about from women: There are many health insurance plans
+that will cover Viagra but won't cover birth-control medication. Those women
+would like a choice."* *Unfortunately for her, McCain had an opportunity to
+vote in congress on a measure that would guarantee that health insurance
+plans cover birth control *and he voted against
+it*<<<link>>
+over-birth-control-but-forgets-mccain-opposes-them/>
+=2E
+<<link>>
+trol.php
+
+OPINIONS AND EDITORIALS
+McCain's bad G-8 judgment call (LA Times 7/9/08)
+By Madeleine K. Albright and William J. Perry
+Booting Moscow out of the group of wealthy democracies would deal a major
+blow to U.S.-Russia relations.
+<<link>>,0,4103569.stor
+y
+
+A stark choice on the economy (Boston Globe 7/9/08)
+BARACK OBAMA and John McCain both reloaded their presidential campaigns this
+week with a renewed focus on the dire state of the nation's economy. With
+gasoline more than $4 a gallon, 438,000 jobs lost since January, and 3
+million Americans facing possible mortgage default, you don't need a
+pollster to know the economy is the voters' top concern. And on the economy,
+as with much else, the contrast between the two candidates is stark.
+<<link>>
+/07/09/a_stark_choice_on_the_economy/
+
+Maliki's Withdrawal Card (WSJ 7/9/08)
+Page A14
+A year ago, the conventional Beltway wisdom had it that Iraq was a failed
+state. Today, the same wisdom holds that it is less chaotic but still
+fragile, dependent entirely on a U.S. presence to survive. But judging by
+recent comments from Nouri al-Maliki, even this view may be out of date.
+<<link>>
+eview_and_outlooks
+
+Climate Change Economics (Washington Post 7/9/08)
+By Peter R. Orszag; A15
+President Bush and other leaders of the Group of Eight pledged yesterday to
+try to reduce greenhouse gas emissions 50 percent by 2050. A key
+consideration in evaluating climate policies is the economic cost of cutting
+emissions. That cost could be reduced, perhaps by a lot, depending on two
+key questions about domestic climate policies: whether flexibility is
+provided when emissions are reduced and whether allowances to domain.com carbon
+are sold or given away.
+<<link>>
+465_pf.html
+
+Poor excuses from G-8 (LA Times 7/9/08)
+Rising food and oil prices should not keep the leaders from boosting aid to
+impoverished nations.
+<<link>>,0,4294380.story
+
+BUSH NEWS
+ White House apologizes for insult to Italian premier (CNN 7/9/08)
+    * Unflattering biography distributed to White House press corps
+    * Outsourced piece associates Silvio Berlusconi with corruption in Italy
+    * Apology calls biography's wording an "unfortunate mistake"
+    * Italian newspapers feature gaffe, apology on front pages
+<<link>>
+
+Bush pushes US-India nuclear deal (AP 7/8/08)
+By DEB RIECHMANN
+President Bush says a troubled deal to sell India nuclear fuel and
+technology is good for both nations, even though it has drawn fire in both
+countries.
+<<link>>
+
+Pelosi Calls On Bush To Tap Strategic Reserves (Politico blog 7/8/08)
+By Patrick O'Connor
+In the ongoing showdown over high gas prices, House Speaker Nancy Pelosi
+(D-Calif.) called on President Bush Tuesday to dip into the Strategic
+Petroleum Reserve to lower the price at the pump.
+<<link>>
+3120.shtml
+
+ Cheney wanted testimony cut, ex-EPA official says (CNN 7/9/08)
+    * Six pages were cut from testimony on climate change by CDC last
+October
+    * Cheney's office deeply involved in cutting testimony, former EPA
+adviser says
+    * EPA currently is examining whether carbon dioxide poses a public
+health risk
+<<link>>
+
+OTHER TOP NEWS
+Iran Tests Missiles in Persian Gulf (AP 7/9/08)
+By ALI AKBAR DAREINI
+Iran test-fired nine long- and medium-range missiles Wednesday during war
+games that officials said aimed to show the country can retaliate against
+any U.S. and Israeli attack, state television reported.
+<<link>>,8599,1821160,00.html
+
+Fed Sees Turmoil Persisting Deep Into Next Year (NYT 7/9/08)
+By STEPHEN LABATON
+Federal policy makers have concluded that the turmoil plaguing the housing
+and financial markets is likely to spill deep into 2009, becoming one of the
+most significant domestic problems to confront the next president when he
+steps into the White House in January.
+<<link>>
+ef=3Dslogin
+
+New GI Bill shows changed priorities (Politico 7/9/08)
+By: David Rogers
+Many argue that Washington is finally getting it right by returning to World
+War II-style education benefits.
+<<link>>
+
+Woman ticketed outside McCain event (AP 7/8/08)
+The lawyer for a woman who received a trespassing ticket after a liberal
+group's protest outside John McCain's town hall event in Denver says she
+will contest the ticket.
+<<link>>
+eID=3D19744
+
+Obama Denies Shifting to Reach Political Center (AP 7/8/08)
+By LIZ SIDOTI
+Asked by a voter about accusations of flip-flopping, Democrat Barack Obama
+dismissed the notion Tuesday that he has been shifting stances on Iraq, guns
+and the death penalty to break with his party's liberal wing and court a
+wider swath of voters.
+<<link>>,8599,1820966,00.html
+*Link to McCain camp response*:
+<<link>>
+r/
+
+--
+Sara DuBois
+Deputy Director of Tracking & Media Monitoring
+Progressive Accountability Office
+user@domain.com
+202-609-7681 (office)
+410-967-7306 (cell)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" g
+roup.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organi
+zation.
+-~----------~----~----~----~------~----~------~--~---
+

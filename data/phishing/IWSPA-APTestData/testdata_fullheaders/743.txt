@@ -1,0 +1,154 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 20 Nov 2015 09:22:09 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAKHM8de028376	for <user@domain.com>; Wed, 20 Nov 2015 
+ 17:22:08 GMT
+Received: from mail186-co1-domain.com
+ (mail-domain.com [216.32.180.181])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAKHM7pI015951	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Wed, 20 Nov 2015 17:22:08 GMT
+Received: from mail186-co1 (localhost [127.0.0.1])	by
+ mail186-co1-domain.com (Postfix) with ESMTP id D34BE840163	for
+ <user@domain.com>; Wed, 20 Nov 2015 17:22:06 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:8.21.239.223;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: -2
+X-BigFish: vps-2(z579eh5109h5105h4c5Iz2130I9371Ic89bh1431J1454I1be0I1436Iec9Ic857h1415Izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1de098h17326ah1bc7b9h8275dh1de097h186068h1b778fh1ce120h1bc581mz2fh5fh839h8e2h8e3hd24he5bhe83h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216hbe9i9a9j1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail186-co1: domain of domain.com designates 8.21.239.223 as permitted sender) client-ip=8.21.239.223; user@domain.com; helo=domain.com ;5.domain.com ;
+Received: from mail186-co1 (localhost.localdomain [127.0.0.1]) by mail186-co1
+ (MessageSwitch) id 1384968124106162_6674; Wed, 20 Nov 2015 17:22:04 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.240])	by
+ mail186-domain.com (Postfix) with ESMTP id D2EA8720051	for
+ <user@domain.com>; Wed, 20 Nov 2015 17:22:03 +0000 (UTC)
+Received: from domain.com (8.21.239.223) by
+ domain.com (10.243.66.29) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 20 Nov 2015 17:22:03 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=dscc.org; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1384968121;
+	h=Sender:From: Emily Sullivan <sullivan@dscc.org>
+	Content-Type;
+	bh=wuGEub2b2loOe4NRC3pcj2EmzrM=;
+	b=wBUcscfm7yW/eDRylDC9hy7r7D+UWjeg6kdZc5Hjiw6SkCdL5U6dCz5euBxZw0tr
+	jLUt38EyNFu9HB8U7UgeQGC82A38W51s1G5VDdl+WdGJyyS5rE94eTubasNRmtlh
+	3OR9dha3AENaVVorlq4bgFXzMaUxQOVwxl8SvXFM+wY=;
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AbWFpbG91dDYwNUBkZWZhdWx0QGJvdW5j
+	ZV82NzYyNzQ2MzlfcG9kMw
+Received: from [10.0.1.150] ([10.0.1.150:49393] helo=OBPROD309)	by nvmta03
+ (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.1.37854 r(Momo-dev:3.5.1.0)) with ESMTP	id 88/2A-05941-9BFEC825; Wed, 20
+ Nov 2015 12:22:01 -0500
+Sender: =?UTF-8?B?RW1pbHkgU3VsbGl2YW4=?= <user@domain.com>
+X-Binding: mailout605
+Reply-To: <user@domain.com>
+From: Emily Sullivan <sullivan@dscc.org>
+To: Amy Pascal <user@domain.com>
+Message-ID: <6user@domain.com>
+Date: Wed, 20 Nov 2015 12:22:01 -0500
+Subject: =?utf-8?B?UmVtaW5kZXI6IFBsZWFzZSBKb2luIFVzIGZvciBhIFJlY2VwdGlvbiBhbmQgRGlubmU=?
+	=?utf-8?B?ciB3aXRoIEJhcmFjayBPYmFtYSDigJMgTG9zIEFuZ2VsZXMg4oCTIE5vdmVtYmVyIDI=?
+	=?utf-8?B?NQ==?
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Reminder: Please Join Us for a Reception and Dinner with Barack Obama – Los Angeles – November 25
+
+Dear Friends,
+
+
+
+
+I just wanted to make sure you saw the invitation for these two special events with President Barack Obama in Los Angeles on Monday, November 25.  We’d love for you to join us and support the House Senate Victory Fund. First, Cookie & Earvin “Magic” Johnson will be hosting a reception at their home.  Immediately thereafter, Cheryl & Haim Saban will be hosting a small dinner at their Beverly Hills home. Please feel free to contact me at (202) 485-3128 or at user@domain.com if you have any questions or if you would like to attend. The deadline to RSVP is tomorrow, Thursday, November 21 at 3:00 p.m. PST. 
+
+
+
+
+Thank you for your consideration!
+
+
+
+
+Emily Sullivan
+
+
+
+
+From: Emily Sullivan <sullivan@dscc.org>
+
+Sent: Thursday, October 31, 2015 10:58 AM
+
+Subject: Please Join Us for a Reception and Dinner with Barack Obama – Los Angeles – November 25
+
+
+
+
+Dear Friends,
+
+
+
+
+I hope you can join Senate Majority Leader Harry Reid, House Democratic Leader Nancy Pelosi, DCCC Chairman Steve Israel and me on Monday, November 25, 2015 for a very special reception & dinner to domain.com the House Senate Victory Fund with special guest President Barack Obama. Cookie & Earvin “Magic” Johnson will be hosting a reception at their home, immediately followed by a small dinner at Cheryl & Haim Saban's Beverly Hills home. 
+
+
+
+
+Please click here or on the image below for the detailed invitation. With your support and investment in the House Senate Victory Fund, we will continue to build the foundation to maintain and grow our majority in the Senate and take back a majority in the House in 2014. 
+
+
+
+
+If you have any questions or would like to RSVP, please contact Emily Sullivan at (202) 485-3128 or user@domain.com or Dan Boysen (202) 485-3448 at or user@domain.com I look forward to hearing from you soon. 
+
+
+
+
+Kind regards, 
+
+Senator Michael domain.com
+
+
+
+
+<<link>>
+
+
+
+
+The maximum amount each individual may contribute to the house Senate victory fund in a calendar year is $64,800 
+
+($129,600 per couple). the house Senate victory fund will not accept contributions from currently registered federal 
+
+lobbyists, registered foreign agents, political action committees, or minors under the age of 16 for this event. 
+
+Contributions from corporations, labor unions, and foreign nationals are prohibited under federal law.
+
+Contributions to hSvf will be domain.com equally between the DSCC and DCCC. Any contributor may designate his or her 
+
+contribution for a particular participant. the allocation formula may change if any contributor makes a contribution 
+
+that, when allocated, would exceed the amount that the contributor may lawfully give to any participant.
+
+
+
+
+Federal law requires us to use our best efforts to collect and report the name, mailing address,
+
+occupation and name of employer of individuals whose contributions exceed $200 in a calendar year
+
+
+
+
+Contributions or gifts to the house senate Victory fund are not tax deductible
+
+Democratic Senatorial Campaign Committee
+120 Maryland Ave. NE
+
+Washington, D.C. 20002
+
+If you believe you received this message in error or wish to no longer receive emails from us, please 
+

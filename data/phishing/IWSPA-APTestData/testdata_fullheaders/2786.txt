@@ -1,0 +1,215 @@
+Delivered-To: user@domain.com
+Received: by 10.204.116.130 with SMTP id m2cs138072bkq;
+        Mon, 22 Mar 2015 07:51:12 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 10.229.127.94 as permitted sender) client-ip=10.229.127.94;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of 3user@domain.com designates 10.229.127.94 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.229.127.94])
+        by 10.229.127.94 with SMTP id f30mr7414392qcs.10.1269269469541 (num_hops = 1);
+        Mon, 22 Mar 2015 07:51:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:From: Jeremy Funk <funk@americansunitedforchange.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-original-authentication-results:x-original-sender:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :x-thread-url:x-message-url:sender:list-unsubscribe:content-language
+         :content-type;
+        bh=NgtuojffG83LEsXVRUoEKrDhAEX3BGih8oaTbVSEdyg=;
+        b=I3snyEFmD1MVnYrxoIIN7axFufeAw3GOOKVoFC7BPseX2l9ZKyyF2xH2QqkVXmxMxl
+         MtEfX16urgCq4FmAO8Z9/sQ7wIBuLJ4EGjTvfkU8Mhu0NQrj+sSedCrQjHsHlJpKRft/
+         jWHhKiEC/2e4gLHt2QtH9Ue5iW4Fq1QmkWV38
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:From: Jeremy Funk <funk@americansunitedforchange.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-original-authentication-results:x-original-sender:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :x-thread-url:x-message-url:sender:list-unsubscribe:content-language
+         :content-type;
+        b=4QeYRjopZjn5ftU0FzsAgtN1WM/dNQsBrP8JWpaRZhAHPmgEVDSw89LOpCftb80Y6y
+         qy9uDKqAZCNnko11wpJuRq9Qc4cz7BNTcDmA0Kg7aiqhFQljLoDs1ElZHtoRjq+EKKoQ
+         igUp2oVn5bzDz6kYjHtv8EIYl4SgPyMUL8Hrg
+Received: by 10.229.127.94 with SMTP id f30mr1008076qcs.10.1269269446542;
+        Mon, 22 Mar 2015 07:50:46 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.224.81.20 with SMTP id v20ls2352079qak.5.p; Mon, 22 Mar 2015 
+	07:50:42 -0700 (PDT)
+Received: by 10.224.96.215 with SMTP id i23mr1749451qan.0.1269269441411;
+        Mon, 22 Mar 2015 07:50:41 -0700 (PDT)
+Received: by 10.224.96.215 with SMTP id i23mr1749450qan.0.1269269441285;
+        Mon, 22 Mar 2015 07:50:41 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com ([66.253.44.162])
+        by gmr-domain.com with ESMTP id 25si295590qyk.11.2010.03.22.07.50.40;
+        Mon, 22 Mar 2015 07:50:41 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.253.44.162 as permitted sender) client-ip=66.253.44.162;
+Received: from AUFC-domain.com ([::1]) by AUFC-domain.com ([::1]) with
+ mapi; Mon, 22 Mar 2015 10:50:35 -0400
+From: Jeremy Funk <funk@americansunitedforchange.org>
+To: "User" <user@domain.com>
+Date: Mon, 22 Mar 2015 10:50:34 -0400
+Subject: [big campaign] TV Ad Part of New Offensive Holding Republicans 
+	Accountable for Voting Against Health Insurance Reform
+Thread-Topic: TV Ad Part of New Offensive Holding Republicans Accountable
+ for Voting Against Health Insurance Reform
+Thread-Index: AcrJzwakX+Ro7XaJQxGq1QvJR1XXUQ
+Message-ID: <95user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com: 
+	domain of user@domain.com designates 66.253.44.162 as 
+	permitted sender) user@domain.com
+X-Original-Sender: user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, 
+	<mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+X-Thread-Url: <<link>>
+X-Message-Url: <<link>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>, 
+	<mailto:bigcampaign+user@domain.com>
+Content-Language: en-US
+Content-Type: multipart/related;
+	boundary="_005_95AFEEF8AB22CE4E8CA3F8E6FBCB8CD117E40ED784AUFCS1AUFCloc_";
+	type="multipart/alternative"
+
+[cid:image001.jpg@01CAC9AD.7F897340]
+www.americansunitedforchange.org<<<link>>>
+FOR IMMEDIATE RELEASE                             CONTACT:                 
+   Jeremy Funk, 202-470-5878
+DATE: March 22, 2015                                                       
+                   Lauren Weiner, 202-470-5870
+
+New TV Ad: Rep. Michele Bachmann Voted to Deny Minnesotans Access to the Sa
+me Kind of Insurance She Enjoys as a Congresswoman
+
+Americans United for Change Goes on the Offensive with Bachmann Spot and Ro
+bocalls in 12 Additional Republican Districts as Part of Major Coalitional 
+Advertising and Grassroots Effort<<<link>>
+ontent/on_our_side_release> from Pro-Health Insurance Reform Forces Spotlig
+hting Where Members of Congress Stood During the Historic Passage of Patien
+t Protection and Affordable Care Act
+
+Health Insurance Reform on a Clear Path to the President's Desk, Paving the
+ Way for Quality, Affordable Health Care for All Americans and a New Era of
+ Accountability for the Big Insurance Companies
+
+[cid:image003.jpg@01CAC9AD.7F897340]<<<link>>
+Ohxgao>
+Click Here to Watch "Good Enough for Her"<<<link>>
+KvAcDOhxgao>
+
+Washington DC - As part of a major, coalitional advertising and grassroots 
+effort from pro-health insurance reform forces<<<link>>
+domain.com/site/content/on_our_side_release> spotlighting where Members of Cong
+ress stood during the historic passage of the Patient Protection and Afford
+able Care Act<<<link>>> in the
+ U.S. House of Representatives Sunday night, Americans United for Change un
+veiled a new television ad criticizing Michele Bachmann's (MN-6) vote to de
+ny Minnesotans access to the same insurance choices she enjoys as a Member 
+of Congress. See script below for "Good Enough for Her" which will air in t
+he Twin Cities media market starting on Tuesday with more than $100,000 beh
+ind the effort.
+
+In addition, Americans United launched more than 700,000 robocalls in the f
+ollowing districts today with a similar message (see script below):  Roy Bl
+unt (MO-7), Charles Dent (PA-15), Joseph Cao (LA-2), Parker Griffith (AL-5)
+, Daniel Lungren (CA-3), Mary Bono (CA-45), Mark Kirk (IL-10), Lee Terry (N
+E-2), Jean Schmidt (OH-2), Pat Tiberi (OH-12), Jim Gerlach (PA-6), David Re
+ichert (WA-8).
+
+Tom McMahon, Acting Executive Director, Americans United for Change: "In a 
+monumental victory for average Americans over powerful special interests, S
+unday's vote in the U.S. House put comprehensive and long overdue health in
+surance reform on a clear path to the President's desk -- reform that will 
+usher in a new era of accountability for the insurance industry and ensure 
+all Americans access to the quality and affordable health care they deserve
+. With 32 million Americans poised to gain coverage that many avoided neces
+sary treatment without, and with all Americans poised to gain piece of mind
+ that the insurance companies can't exclude them for pre-existing condition
+s or drop them if they get sick, this is a moment every bit as historic as 
+the passage of Social Security and Medicare in the 20th Century.
+
+"And just like Social Security or Medicare or civil rights, those like Cong
+resswoman Michele Bachmann who voted to protect the status quo will find th
+emselves on the wrong side of history," continued McMahon. "On this day, ho
+wever, Congressional Republicans seem very proud of themselves for voting t
+o protect the profits of insurance companies that see nothing wrong with ra
+ising premiums as high as 75 percent.  They're patting themselves on the ba
+ck for siding with the big insurance companies over their constituents that
+ went bankrupt<<<link>>
+bankruptcy-on-rise-medical-debt-medical-bills-how-to-avoid-bankruptcy.html>
+ after they got sick and saw their coverage rescinded.  These Republicans m
+ade a different kind of history today by voting to deny giving the struggli
+ng families they represent access to the same kind of insurance they enjoy 
+very much as members of Congress.  If it's good enough for them, shouldn't 
+it be good enough for their constituents?
+
+"When the Patient Protection and Affordable Care Act is ultimately signed i
+nto law, it will be interesting to see if these Republicans will campaign o
+n a promise to repeal it and effectively strip 32 million Americans of thei
+r health coverage, roll back the ban on lifetime and annual insurance caps,
+ restore the 'donut hole' prescription drug coverage gap for seniors, kick 
+young adults from their parents' policies, take back the tax credits issued
+ to families and small businesses in their districts, take the nation off a
+ path towards reducing the domain.com by $1.2 trillion<<<link>>
+domain.com/wp-dyn/content/article/2010/03/18/AR2010031801153_pf.html>, and undo
+ the sweeping new protections for all Americans from the worst insurance in
+dustry practices."
+
+-30-
+
+SCRIPT: "Good Enough For Her"
+
+Finally, Congress passed the health reform bill to reign in the power of th
+e big insurance companies and guarantee that all Minnesotans can get the sa
+me kind of health insurance as members of congress.
+
+But our Congresswoman Michele Bachmann voted against that.
+
+She may think she's an "important" politician in Washington,
+
+... but when it comes to health insurance, if it's good enough for her... s
+houldn't it be good enough for the rest of us?
+
+Call Michele Bachmann at 320-253-5931 or at 651-731-5400
+
+Robocall script:
+
+Last weekend, Congress passed the health reform bill to reign in the power 
+of the big insurance companies and guarantee that regular people can get th
+e same kind of insurance as members of congress.
+
+But Congressman ____________vote against that.
+
+Call Congressman___________at _______________.  Ask him (her) why if his he
+alth insurance is good enough for him, shouldn't it be good enough for the 
+rest of us.
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+
+To unsubscribe from this group, send email to bigcampaign+unsubscribegoogle
+domain.com or reply to this email with the words "REMOVE ME" as the subject
+.

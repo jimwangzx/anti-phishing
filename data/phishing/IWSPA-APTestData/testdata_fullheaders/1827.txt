@@ -1,0 +1,248 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp364602lfb;
+        Sat, 27 Feb 2015 08:54:48 -0800 (PST)
+X-Received: by 10.98.14.146 with SMTP id 18mr10502086pfo.35.1456592088264;
+        Sat, 27 Feb 2015 08:54:48 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [12.130.139.101])
+        by domain.com with ESMTPS id vz3si13042974pab.93.2016.02.27.08.54.47
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 27 Feb 2015 08:54:48 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 12.130.139.101 as permitted sender) client-ip=12.130.139.101;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 12.130.139.101 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=hotwire; d=domain.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From: "Hotwire Deals" <Hotwire@e.Hotwire.com>
+ bh=bUGjoViNcvXMVi4Y5PwhxigMORQ=;
+ b=GHh/UO5keGPQOPTfeKCIPPiZhXXGizS7gHB0uj/iRBmkz3bfdJlX6cnjfd9zcZt3MzFUk84Hf+Ew
+   txudTncpPHZLs21Gnw4SNXWXK0Ar2F6puX+KvkI8hXhBjnUSaFIJ/0PNb2QxLy2CmOlR06kYcWnZ
+   Y0NQsdy51jSNI5QgJrg
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=oraclersys; d=domain.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From: "Hotwire Deals" <Hotwire@e.Hotwire.com>
+ bh=bUGjoViNcvXMVi4Y5PwhxigMORQ=;
+ b=VuJsEFpyVqaZ8lEQHeiCgFAv96vHxV4eOYZYLdTm2e3YVdI13tbflzfj+oINi8N1uKg8BKKYmk/n
+   hbqt4mjm+p/9ztdVM+mOBq+hID7OrE87KeTWqk1bzjof5MdnnMB4gP77/e8mvzskbWCPqs12Wrfj
+   JkPX5Hc+js2H4l5iS/Q
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=hotwire; d=domain.com;
+ b=fUYy34vAikm1wDWFr3QE6h2fEpNVZ5IXp5hWttRpUbAZXToXh+Tk6r3Eif6C1wKSZ2boD/wSjPMo
+   cxN79yFUYdYIkJn2MdsbFWO+jDCebijEDvVB64PtSLMXj2mvGxyUs8iRdLU09muFeBvgySMGU4vQ
+   pv4FhSbo1GQbisSTEZ0=;
+Received: by domain.com id hq7adg1607gb for <user@domain.com>; Sat, 27 Feb 2015 08:24:44 -0800 (envelope-from <user@domain.com>)
+X-CSA-Complaints: user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=oraclersys; d=domain.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From: "Hotwire Deals" <Hotwire@e.Hotwire.com>
+ bh=bUGjoViNcvXMVi4Y5PwhxigMORQ=;
+ b=VuJsEFpyVqaZ8lEQHeiCgFAv96vHxV4eOYZYLdTm2e3YVdI13tbflzfj+oINi8N1uKg8BKKYmk/n
+   hbqt4mjm+p/9ztdVM+mOBq+hID7OrE87KeTWqk1bzjof5MdnnMB4gP77/e8mvzskbWCPqs12Wrfj
+   JkPX5Hc+js2H4l5iS/Q
+Received: by domain.com id hq76so1607gu for <user@domain.com>; Sat, 27 Feb 2015 08:23:06 -0800 (envelope-from <user@domain.com>)
+X-CSA-Complaints: user@domain.com
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Sat, 27 Feb 2015 08:23:06 -0800
+To: user@domain.com
+From: "Hotwire Deals" <Hotwire@e.Hotwire.com>
+Reply-To: "User" <user@domain.com>
+Subject: One takeoff is worth a thousand adventures
+Feedback-ID: 1343:1279265:oraclersys
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com?subject=List-Unsubscribe>
+X-sgxh1: rhogQihKLklHxnuHptQJhu
+X-rext: 5.interact2.Eu-IjhwIbhfuIOFd3zARcmKLw9k5uBScE0bGFddfMdgwbz37BD0
+X-cid: hwire.11266025
+Message-ID: <0.1.70.80user@domain.com>
+
+<=21--=5Bif gte mso 9=5D>
+
+=2Elhfix=7B mso-line-height-rule: exactly;=7D
+
+<=21=5Bendif=5D-->   
+
+<=21-- module 1=2E1 -->
+
+
+
+
+                &nb;
+sp;
+
+
+
+                            Take flight for less
+
+
+
+                &nb;
+sp;
+
+
+
+
+Ho
+tels
+
+
+
+Ca
+rs
+
+
+
+Fl
+ights
+
+
+
+Va
+cations
+
+
+
+                &nb;
+sp;
+
+
+
+                &nb;
+sp;
+
+
+
+<=21-- /module 1=2E1 -->
+
+
+
+
+Your runwa
+y is waiting
+
+
+
+                            Book your next destination for less
+
+
+
+Find a flight
+
+
+
+                            <=21--CROSS SELL-->
+                                        <=21--CARS-->
+
+
+
+
+                        <=21--=5Bif =21mso=5D><=21-->
+
+
+
+                        <=21--<=21=5Bendif=5D-->
+
+
+
+Did someone say road trip?
+
+
+
+Sa
+ve on cars with our incredible deals=2E
+
+
+
+Find a car
+
+
+
+                   <=21--/CARS-->
+
+
+
+
+                        <=21--=5Bif =21mso=5D><=21-->
+
+
+
+                        <=21--<=21=5Bendif=5D-->
+
+
+
+Live the suite life=2E
+
+
+
+Sa
+ve on hotels with our incredible deals=2E
+
+
+
+Find a hotel
+
+
+
+                                  <=21--/HOTELS-->
+<=21-- module 1=2E2 -->
+
+
+
+
+                &n;
+bsp;
+
+
+
+                                    Download the free app
+
+
+
+                                    Connect with us
+
+
+
+<
+/a>
+
+
+
+Custo
+mer Care           &n;
+bsp;    
+                            Terms
+ of Use           &nb;
+sp;    
+                            Updat
+e Zip Code       
+;    
+                            Privacy Policy   &nbs;
+p;          
+                            Unsub
+scribe
+
+
+
+                            This commercial message is from Hotwire, Inc=2E
+ Please do not reply to this message, as we cannot respond to messages sent
+ to this address=2E You may reach Hotwire at Contact Us or via postal mail at: Hotwire, PO Box 26285, San Francisco, CA 94126
+                            © 2015 Hotwire, Inc=2E All rights reserved
+=2E Hotwire, the Hotwire logo, Hot Fare, and Hot Rate are either registered
+ trademarks or trademarks of Hotwire, Inc=2E Other product and company name
+s shown may be trademarks of their respective owners=2E
+                            CST 2053390-40; NST 20003-0209=2E
+
+
+
+                    (NID: N-PC-022716) (VID: V-P
+C-022716) (HWID: 2389661922) (MD: 2/27/2016)
+
+
+
+<=21-- gmail app fix -->
+
+<=21-- /gmail app fix -->
+<=21-- /module 1=2E2 --><
+/td>

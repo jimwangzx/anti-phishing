@@ -1,0 +1,249 @@
+Delivered-To: user@domain.com
+Received: by 10.220.94.71 with SMTP id y7cs68252vcm;
+        Wed, 17 Jun 2015 12:19:56 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.114.178.1 as permitted sender) client-ip=10.114.178.1;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.114.178.1 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.114.178.1])
+        by 10.114.178.1 with SMTP id a1mr931379waf.22.1245266396124 (num_hops = 1);
+        Wed, 17 Jun 2015 12:19:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results
+         :x-asg-debug-id:x-barracuda-url:received:received:x-asg-whitelist
+         :received:From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+         :thread-index:message-id:accept-language:content-language
+         :x-ms-has-attach:x-ms-tnef-correlator:acceptlanguage:mime-version
+         :content-type:x-barracuda-connect:x-barracuda-start-time
+         :x-barracuda-encrypted:x-barracuda-virus-scanned:reply-to:sender
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=Xidka9RG5Hj3CcMo9OCDljxnatdyJibEhAtDwn2mBs4=;
+        b=sJt5ruZ04NlAWT6IJRzw+7MTu2iAZpq/Rbay3v6ro66nzo6MU9fB8JsDHy/p2pCfxB
+         qEmv0jZtSJ2l6LadWNcQv0TZqbWtFSQnFS96aAf3vvhKkT5drKar+vvwT/LBHM2ESDGb
+         QUcyFpgOYBsveG0jcqebHgRmMjVE1v7XzdljE
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :x-asg-debug-id:x-barracuda-url:x-asg-whitelist:From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+         :x-asg-orig-subj:subject:thread-topic:thread-index:message-id
+         :accept-language:content-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version:content-type
+         :x-barracuda-connect:x-barracuda-start-time:x-barracuda-encrypted
+         :x-barracuda-virus-scanned:reply-to:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=iSA6rE4m1GvnbrU+7d7yX9Zu5ECJhmVTUbPg/mD5jebrk/dTBXGNA0OngGlaSYlPAP
+         FWtT4Hlzvdrz4/0TdkocQeR00nZR2PmnWzYKqDPySfuNVxwoJ7v6jG/WBA1Un4IUsCXc
+         +idAd1Vg4vJhfFFomnpakNVtiPNEEAkzVp8IU
+Received: by 10.114.178.1 with SMTP id a1mr107415waf.22.1245266385701;
+        Wed, 17 Jun 2015 12:19:45 -0700 (PDT)
+Received: by 10.106.168.10 with SMTP id q10gr3234pre.0;
+	Wed, 17 Jun 2015 12:19:40 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.229.82.69 with SMTP id a5mr283744qcl.27.1245266378721; Wed, 17 Jun 2015 12:19:38 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com [76.74.8.245]) by gmr-domain.com with ESMTP id 20si108552qyk.3.2009.06.17.12.19.38; Wed, 17 Jun 2015 12:19:38 -0700 (PDT)
+Received-SPF: neutral (domain.com: 76.74.8.245 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=76.74.8.245;
+Authentication-Results: gmr-domain.com; spf=neutral (domain.com: 76.74.8.245 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+X-ASG-Debug-ID: 1245266377-5efb012e0000-QLVFix
+X-Barracuda-URL: <<link>>:8000/cgi-bin/mark.cgi
+Received: from domain.com (localhost [127.0.0.1]) by domain.com (Spam Firewall) with ESMTP id 28E34158A1B for <user@domain.com>; Wed, 17 Jun 2015 15:19:37 -0400 (EDT)
+Received: from domain.com ([172.16.10.1]) by domain.com with ESMTP id 8jeJqC0xGcmMiQr8 (version=TLSv1 cipher=RC4-MD5 bits=128 verify=NO) for <user@domain.com>; Wed, 17 Jun 2015 15:19:37 -0400 (EDT)
+X-ASG-Whitelist: Client
+Received: from domain.com ([172.16.10.17]) by domain.com ([172.16.10.19]) with mapi; Wed, 17 Jun 2015 15:19:36 -0400
+From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+To: "User" <user@domain.com>, 
+ Adam Jentleson <user@domain.com>
+Date: Wed, 17 Jun 2015 15:19:34 -0400
+X-ASG-Orig-Subj: FW:  MarkUpdate: 400 Ways To Say "No" To Reform; Coburn Plan Would Keep Insurance Companies In Charge
+Subject: [big campaign] FW:  MarkUpdate: 400 Ways To Say "No" To Reform;
+ Coburn Plan Would Keep Insurance Companies In Charge
+Thread-Topic: MarkUpdate: 400 Ways To Say "No" To Reform; Coburn Plan Would Keep Insurance Companies In Charge
+Thread-Index: AcnvfiNVTKpkNcJ6Sxij+uUMDtmxwwAAFZWgAAAI59AAAFurgAAAEW4A
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="_000_A28459BA2B4D5D49BED0238513058A7F01251CB54B03CAPMAILBOXa_"
+X-Barracuda-Connect: UNKNOWN[172.16.10.1]
+X-Barracuda-Start-Time: 1245266377
+X-Barracuda-Encrypted: RC4-MD5
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at domain.com
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+Fyi -- our pushback on Day 1 of the HELP markup.
+
+-Adam
+
+________________________________
+From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+Sent: Wednesday, June 17, 2015 3:02 PM
+To: Adam Jentleson
+Subject: MarkUpdate: 400 Ways To Say "No" To Reform; Coburn Plan Would Keep
+ Insurance Companies In Charge
+
+View in your web browser<<<link>>
+x?s=3D785&e=3Dc39e3641ae534147a034d5c06cab62a5&elq=3DFF7F3164F1874AF8B288CE
+0B3CDC1A75>
+
+[<<link>>]
+
+A PROJECT OF CENTER FOR AMERICAN PROGRESS ACTION FUND<<<link>>
+domain.com/e/er.aspx?s=3D785&lid=3D216&elq=3DFF7F3164F1874AF8B288
+CE0B3CDC1A75> AND MEDIA MATTERS ACTION<<<link>>
+n.org/e/er.aspx?s=3D785&lid=3D19774&elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75>
+
+June 17, 2015 
+MARKUPDATE
+
+GOP Senators Introduce 400 Ways To "Just Say No" To Reform
+
+ *   Senators Coburn, Enzi, McCain and other obstructionist senators today 
+introduced nearly 400 ways to "just say no" to health care reform that will
+ lower costs and increase choice for hard-working Americans.
+
+ *   Playing politics instead of pursuing reform, they are introducing ridi
+culous amendments whose sole goal is to delay and obstruct the process. For
+ instance, they have introduced:
+
+    *   Two separate amendments that would force doctors to spy on each oth
+er (Coburn 11, 87).
+
+    *   "Name-calling" amendments that do nothing except make silly title c
+hanges - like an amendment to rename the prevention and public health inves
+tment fund - the "Slush Fund for Special Interests" (Coburn 18).
+
+    *   For more examples, see the illustrative list below.
+
+ *   At a time when health care costs are crushing hard-working American fa
+milies, businesses and dragging down our economy<<<link>>
+s.org/issues/2008/12/health_imperative.html> - is this really a productive 
+use of time?
+
+ *   By contrast, today a bipartisan group led by former Senators Tom Dasch
+le, Bob Dole and former Secretary of State Howard Baker released<<<link>>
+.domain.com/hostednews/ap/article/ALeqM5hL8Vyx9jlIHpOKVVVGk0V62TgrRwD98S9AD
+O0> a good-faith, intellectually serious effort at crafting a bipartisan so
+lution to our health care crisis.
+
+The Coburn/Burr Alternative Unravels The Employer-Based System And Keeps In
+surance Companies In Charge.
+
+ *   The Coburn/Burr plan does not provide sufficient protection for patien
+ts against abusive insurance company practices - like denying coverage to p
+eople with pre-existing conditions.
+
+    *   Today, insurance companies use the flimsiest reasons to deny people
+ coverage - for instance, a woman in Los Angeles was denied coverage for he
+r breast cancer because she failed to disclose that she had visited a derma
+tologist<<<link>>
+22926&elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75>.
+
+    *   Under the Coburn plan, insurance companies could continue this prac
+tice - called "rescission," which "has left thousands of Americans burdened
+ with costly medical bills despite paying insurance premiums<<<link>>
+.americanprogressaction.org/e/er.aspx?s=3D785&lid=3D22926&elq=3DFF7F3164F18
+74AF8B288CE0B3CDC1A75>," according to the L.A. Times.
+
+ *   The Coburn/Burr plan would unravel the employer based system, and domain.com
+ace it with an insufficient tax domain.com that doesn't even cover half of the 
+average family's medical costs.
+
+    *   The $5,700-per-family tax subsidy<<<link>>
+domain.com/e/er.aspx?s=3D785&lid=3D21614&elq=3DFF7F3164F1874AF8B288CE0B3CDC1A
+75> proposed in the Coburn plan is less than half of the $12,680 that the a
+verage American family paid for health care in 2008<<<link>>
+domain.com/e/er.aspx?s=3D785&lid=3D21615&elq=3DFF7F3164F1874AF8B288
+CE0B3CDC1A75>.
+
+Bipartisan Group Proposes Health Reform That Mirrors Many Obama Principles
+
+Baker And Dole Agree The Time For Reform Is Now. According to the Bipartisa
+n Policy Center website, Howard Baker noted that the "the time for health r
+eform had come." [Bipartisan Policy Center, accessed 6/17/09<<<link>>
+.americanprogressaction.org/e/er.aspx?s=3D785&lid=3D22927&elq=3DFF7F3164F18
+74AF8B288CE0B3CDC1A75>]
+
+Baker And Dole's Proposal Calls For A Mandate. The Associated Press reporte
+d: "A summary of the plan calls for an individual requirement to carry heal
+th insurance." [Associated Press, 6/17/09<<<link>>
+domain.com/e/er.aspx?s=3D785&lid=3D22928&elq=3DFF7F3164F1874AF8B288CE0B3CDC1A
+75>]
+
+Baker And Dole's Proposals Calls For $1.2 Trillion Plan. The Associated Pre
+ss reported: "Democrats Tom Daschle and George Mitchell are set to join Rep
+ublicans Bob Dole and Howard Baker on Wednesday to release a $1.2 trillion 
+proposal that would be fully paid for with a combination of spending cuts a
+nd tax increases." [Associated Press, 6/17/09<<<link>>
+domain.com/e/er.aspx?s=3D785&lid=3D22928&elq=3DFF7F3164F1874AF8B288CE0B3C
+DC1A75>]
+
+Republicans Are Standing In The Way Of Real Health Care Reform: A Sample Of
+ Proposed Republican Amendments<<<link>>
+/er.aspx?s=3D785&lid=3D22929&elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75>.
+
+ *   Coburn 17: To clarify the intent of the prevention and public health i
+nvestment fund - would rename it the "Public Health Earmark Fund."
+
+ *   Coburn 18: To clarify the intent of the prevention and public health i
+nvestment fund - would rename it the "Slush Fund for Special Interests."
+
+ *   Coburn 19: To restate the purpose of the Prevention and Public health 
+Investment Fund - would insert the following: "It is the purpose of this se
+ction to circumvent the regular budget process in order to ignore revenue c
+onstraints and other spending priorities ..."
+
+ *   Coburn 43: To rename the community health program subtitle IV - would 
+rename it the "Federal Takeover of Local Communities."
+
+ *   Coburn 51: To domain.com the use of funds to build football stadiums.
+
+ *   Coburn 111: To domain.com the Department of Health and Human Services fr
+om providing funding for fashion shows.
+
+For more information, contact:
+Adam Jentleson, 202.682.1611
+user@domain.com
+
+Center for American Progress Action Fund | 1333 H Street NW, 10th Floor | W
+ashington, DC 20005
+
+[<<link>>
+g]
+
+ <<<link>>
+lq=3DFF7F3164F1874AF8B288CE0B3CDC1A75>
+
+Unsubscribe from Progressive Media emails
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

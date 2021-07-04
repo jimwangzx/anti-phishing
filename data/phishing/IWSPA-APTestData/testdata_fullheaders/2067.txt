@@ -1,0 +1,80 @@
+Delivered-To: user@domain.com
+Received: by 10.25.30.9 with SMTP id e9csp364597lfe;
+        Sat, 30 Aug 2015 09:40:23 -0700 (PDT)
+X-Received: by 10.68.236.227 with SMTP id ux3mr4452486pbc.159.1409416822369;
+        Sat, 30 Aug 2015 09:40:22 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.254.108])
+        by domain.com with ESMTPS id rk5si5441949pab.204.2014.08.30.09.40.21
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Sat, 30 Aug 2015 09:40:22 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.254.108;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.254.67:40646] by server-12.bemta-7.domain.com id FC/94-05501-47EF1045; Sat, 30 Aug 2015 16:40:20 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-4.tower-196.domain.com!1409416818!7940027!2
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 2015 invoked from network); 30 Aug 2015 16:40:20 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-4.tower-196.domain.com with AES128-SHA encrypted SMTP; 30 Aug 2015 16:40:20 -0000
+Resent-From: Democratic Rapid Response Team <democrats@thehousemajoritypac.com>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Sat, 30 Aug 2015 12:40:18 -0400
+Received: from [216.82.254.83:51173] by server-7.bemta-7.domain.com id
+ A7/9E-02060-17EF1045; Sat, 30 Aug 2015 16:40:17 +0000
+X-Env-Sender: DQpDRgYJB14VUlM8VwFXVVQIAlFSBlEHVg4CUT9EWgAAFkJUIwgHQ0tUVVp
+  user@domain.com
+X-Msg-Ref: server-11.tower-197.domain.com!1409416815!5704999!1
+X-Originating-IP: [70.42.50.132]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNzAuNDIuNTAuMTMyID0+IDE5ODk5OA==\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 25031 invoked from network); 30 Aug 2015 16:40:16 -0000
+Received: from mta-dock-front-3.domain.com (HELO
+ mta-dock-front-3.domain.com) (70.42.50.132)  by
+ server-11.tower-197.domain.com with SMTP; 30 Aug 2015 16:40:16 -0000
+Received: from domain.com (unknown [10.0.200.87])	by
+ mta-dock-front-3.domain.com (Postfix) with ESMTP id 3hljzY5vtlzjgV7
+	for <user@domain.com>; Sat, 30 Aug 2015 16:38:33 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1409416713;
+	bh=LSzP9nHRketlasNFHobi6y/V6/18zp2+Q3Jw6MMKYq4=;
+	h=Date:To:From: Democratic Rapid Response Team <democrats@thehousemajoritypac.com>
+	b=sZiGtFSg/fl6hn5UbpOC/Fq3L9RaIEvSR4tA+eLeb0uXQbGAGJsZz3bC21y3MzIID
+	 U+l4YrvEr0RiaXMr7phFgG+xkqGPEs/fYcsV1WmAiqdTO+GZ8sf7X50VKFYLtSc/Py
+	 rQ9CehejlHOkEKXyvTYSi+/U7e8a0UERBPdq5eEA
+Received: from build 	by domain.com with local (PHPMailer);
+	Sat, 30 Aug 2015 16:38:33 +0000
+Date: Sat, 30 Aug 2015 16:38:33 +0000
+To: John user <user@domain.com>
+From: Democratic Rapid Response Team <democrats@thehousemajoritypac.com>
+Reply-To: <user@domain.com>
+Subject: don't skip this (PLEASE)
+Message-ID: <4user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: fdd4712cf1444702
+X-rpcampaign: rp_2480
+X-maillist-guid: DQpDRgYJB14VUlM8VwFXVVQIAlFSBlEHVg4CUT9EWgAAFkJUIwgHQ0tUVVpDAlYVDE5eHFFTEDpTCQdQ
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_4a3e51c1262ea3f676c7facf16f4b91f"
+
+Contributions or gifts to House Majority PAC are not tax deductible
+
+Paid for by House Majority PAC. www.thehousemajoritypac.com. Not 
+authorized by any candidate or candidate's committee.
+
+<<link>>
+

@@ -1,0 +1,65 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp158829lfb;
+        Sun, 2 Nov 2015 11:24:33 -0800 (PST)
+X-Received: by 10.224.152.18 with SMTP id e18mr32748109qaw.65.1414956272232;
+        Sun, 02 Nov 2015 11:24:32 -0800 (PST)
+Return-Path: <>
+Received: from domain.com (domain.com. [216.82.243.51])
+        by domain.com with ESMTPS id g38si3848405qgd.63.2014.11.02.11.24.31
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Sun, 02 Nov 2015 11:24:32 -0800 (PST)
+Received-SPF: pass (domain.com: domain of domain.com designates 216.82.243.51 as permitted sender) client-ip=216.82.243.51;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 216.82.243.51 as permitted sender) smtp.mail
+Return-Path: <>
+Received: from [216.82.241.243] by server-16.bemta-8.domain.com id 84/22-12670-FE486545; Sun, 02 Nov 2015 19:24:31 +0000
+X-Msg-Ref: server-2.tower-192.domain.com!1414956270!10046113!3
+X-Originating-IP: [141.161.191.75]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 31271 invoked from network); 2 Nov 2015 19:24:31 -0000
+Received: from unknown (HELO LAW-CAS2.law.georgetown.edu) (141.161.191.75)
+  by server-2.tower-192.domain.com with AES256-SHA encrypted SMTP; 2 Nov 2015 19:24:31 -0000
+Received: from LAW-MBX01.law.georgetown.edu ([169.254.1.206]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0210.002;
+ Sun, 2 Nov 2015 14:24:23 -0500
+From: James Feinerman <feinerma@law.georgetown.edu>
+To: Law Faculty and Visitors <user@domain.com>
+CC: Sharon Sullivan <user@domain.com>, 
+ Elisa Marie Smith <user@domain.com>
+Subject: Invitation to Magna Carta Luncheon Event, Nov. 7, 2015 
+Thread-Topic: Invitation to Magna Carta Luncheon Event, Nov. 7, 2015 
+Thread-Index: Ac/20iaeHSz+I2V/QEemLd0rE/MLCA
+Date: Sun, 2 Nov 2015 19:24:22 +0000
+Message-ID: <777user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.191.13]
+Content-Type: multipart/alternative;
+	boundary="_000_777F33DD900B6B4F89977B690E9096D429E3788FLAWMBX01lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+
+Please join us for an event at Georgetown Law celebrating
+ the shared legal history of
+the United Kingdom and the United States
+
+Eight Centuries of the Magna Carta:
+A Discussion with The Rt. Hon. Lord Judge, PC QC
+Treasurer to the Middle Temple
+Former Lord Chief Justice and President of the Courts
+Of England and Wales
+
+November 7, 2015 
+12:15 p.m. - 2:00 p.m.
+Georgetown University Law Center
+Fifth Floor Faculty Lounge
+McDonough Hall
+
+ Kindly respond by Tuesday, November 4th
+202-662-9548 or user@domain.com
+

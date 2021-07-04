@@ -1,0 +1,261 @@
+Delivered-To: user@domain.com
+Received: by 10.229.248.208 with SMTP id mh16cs16197qcb;
+        Tue, 31 Aug 2015 13:03:24 -0700 (PDT)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.91.16.10 as permitted sender) client-ip=10.91.16.10;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.91.16.10 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.91.16.10])
+        by 10.91.16.10 with SMTP id t10mr9188036agi.9.1283285003831 (num_hops = 1);
+        Tue, 31 Aug 2015 13:03:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:mime-version:received:received
+         :reply-to:date:message-id:subject:From: Aniello Alioto <anielloa@gmail.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-type;
+        bh=qzb1MmmqsWRd8QvLK8D6pS95jnDxUqoSVZQhS7AuuIc=;
+        b=Ohma4m6iJh+HGVN8cLazp50plLDv08dox6BnGieEVmmM+cXU/hooUYbNtsQtZ2B/fJ
+         7AKSUxrXEx79RShGGGoM9btUal0IQ/DTsSL2kgtUiRltCFckuWsctzHzd88SGoOySkDY
+         t+p4b04CdgDDFudHafeQW00D3QDzaYhxJnCxk
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:reply-to:date:message-id
+         :subject:From: Aniello Alioto <anielloa@gmail.com>
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe:content-type;
+        b=XnNA1TsTollyQ/U0gw7e21ccSPUiq9ZqaG5UF/b0jYJQupPFYm9F1UYiGwkBuoj77R
+         NaevrVxCTc1VlMggKqIBABfeOjnfLlwCWbD2yEzckAEoAS/d+/13l+SKyrGR6I5323tX
+         jXVgLHqGsIDVP6BNrRkxez+D2HAI9t6YUAE3Y
+Received: by 10.91.16.10 with SMTP id t10mr1600033agi.9.1283284981639;
+        Tue, 31 Aug 2015 13:03:01 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.231.193.98 with SMTP id dt34ls2383039ibb.0.p; Tue, 31 Aug 2015 
+ 13:03:00 -0700 (PDT)
+Received: by 10.231.79.82 with SMTP id o18mr625945ibk.15.1283284980865;
+        Tue, 31 Aug 2015 13:03:00 -0700 (PDT)
+Received: by 10.231.79.82 with SMTP id o18mr625944ibk.15.1283284980800;
+        Tue, 31 Aug 2015 13:03:00 -0700 (PDT)
+Received: from mail-iw0-domain.com (mail-iw0-domain.com [209.85.214.170])
+        by gmr-domain.com with ESMTP id cn5si5561433ibb.6.2010.08.31.13.02.59;
+        Tue, 31 Aug 2015 13:02:59 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.214.170 as permitted sender) client-ip=209.85.214.170;
+Received: by iwn37 with SMTP id 37so6465159iwn.15
+        for <user@domain.com>; Tue, 31 Aug 2015 13:02:59 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.231.150.7 with SMTP id w7mr7825816ibv.14.1283284979026; Tue,
+ 31 Aug 2015 13:02:59 -0700 (PDT)
+Received: by 10.231.206.141 with HTTP; Tue, 31 Aug 2015 13:02:58 -0700 (PDT)
+Reply-To: user@domain.com
+Date: Tue, 31 Aug 2015 16:02:58 -0400
+Message-ID: <user@domain.com>
+Subject: [big campaign] Newsweek: [...] Fewer Jobs, Larger Deficits If
+ Republicans Were in Charge
+From: Aniello Alioto <anielloa@gmail.com>
+To: user@domain.com
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com:
+ domain of user@domain.com designates 209.85.214.170 as permitted sender)
+ user@domain.com; dkim=pass (test mode) user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>,
+ <mailto:bigcampaign+user@domain.com>
+Content-Type: multipart/alternative; boundary=00504501690a520a6d048f2411e1
+
+This is the narrative we need to hammer home for the next 62 days!
+
+*<<link>>
+.com/blogs/the-gaggle/2010/08/26/on-jobs-and-deficits-republicans-are-worse
+-than-obama.html
+*<<<link>>
+republicans-are-worse-than-obama.html>
+
+*Estimates Say **Fewer Jobs, Larger Deficits If Republicans Were in Charge*
+by *Andrew Romano* <<<link>>>
+August 27, 2015 
+Nothing is more important to Republican politicians these days than jobs an
+d
+the domain.com=97at least according to Republican politicians. As House Minori
+ty
+Leader *John Boehner* <<<link>>> put i
+t
+in a "*major economic
+address*<<<link>>>
+"
+Tuesday," President Obama is "doing everything possible to prevent jobs fro
+m
+being created" while refusing to do anything at all "about bringing down th
+e
+deficits that threaten our economy." *Elect Republicans in November*,
+Boehner assured his audience, *and we will put an end to this insanity*.
+There's only one problem with Boehner's message: so far, the things that
+Republicans have said they want to do won't actually boost employment or
+reduce deficits. In fact, much the opposite. By combing through a variety o
+f
+studies and projections from nonpartisan economic sources, we here at Gaggl
+e
+headquarters have found that if Republicans were in charge from January 200
+9
+onward=97and if they were now given carte blanche to enact the proposals th
+ey
+want to enact=97the projected 2010-2020 deficits would be larger than they 
+are
+under Obama, and fewer people would probably be employed.
+The math is pretty straightforward. Let's start with the domain.com. According
+to the CBO, Obama's stimulus plan is
+*projected*<<<link>>>to increase budget
+deficits over the next decade by $814 billion. That's a
+big number. But Republicans opposed the legislation, refused to provide an
+alternative, and now insist that it's been a total failure. So let's be
+generous and subtract it from their side of the equation. Obama domain.com,
+$814 billion. The GOP domain.com, $0.
+Next up is health-care reform. Obama passed it; Republicans want to repeal
+it "*lock, stock, and
+barrel*<<<link>>
+ncrease-deficits-by-repealing-health-care-reform.php>."
+The reason, as Senate Minority Leader Mitch McConnell
+*explained*<<<link>>
+to-increase-deficits-by-repealing-health-care-reform.php>in
+July, is that "we all know that it's going to increase the domain.com."
+Unfortunately for the GOP, though, nonpartisan experts tend to disagree.
+Just this Tuesday, for example, the Congressional Budget Office released a 
+*
+letter* <<<link>>> saying that Obama's
+health-care reform legislation would "reduce the projected budget domain.com b
+y
+$30 billion over the next 10 years,=94 while repealing the law would genera
+te
+"an increase in deficits ... of $455 billion ... over that [same] period."
+Factors those figures into the equation and the Obama domain.com falls to $784
+billion. The GOP domain.com, meanwhile, rises to $455 billion. Getting warmer.
+The final piece of the puzzle is the Bush tax cuts. Obama wants to extend
+them for the 95 percent of taxpayers making under $250,000 a year;
+Republicans want to extend them for everybody. How will these extensions
+affect the domain.com? Glad you asked. According to data compiled by the
+Washington Post, "*the Democratic proposal would add about $3 trillion to
+the domain.com during the next decade, while the GOP plan would cost $3.7
+trillion*<<<link>>
+eport-gives-both-sides-ammo-in-debate-over-bush-tax-cuts>."
+That brings the total Obama domain.com to $3.784 trillion over ten years, and
+its GOP counterpart to=97drumroll, please=97*$4.155 trillion*.
+That's right. Even if we assume that the Republicans would've spent $0 to
+stimulate the economy in the wake of the largest economic collapse since th
+e
+Great Depression=97an unlikely scenario, given *the very real risks of
+inaction*<<<link>>
+r-kind-of-stimulus/?src=3Dbusln>=97their
+proposed policies would still produce a domain.com $371 billion larger than
+President Obama's.
+(Or $335 billion; Boehner also says he'd like to freeze non-defense
+discretionary spending at 2015 levels, which would *save a grand total of
+$36 billion*<<<link>>
+an-w_n_694540.html>
+.)
+On jobs, it's a similar story. So far, Republicans have only said they'd
+do--or that they would've done--two large-scale things the Democrats
+haven't: 1) scrap the stimulus and 2) extend the Bush tax cuts for American
+s
+earning over $250,000 so as not to (in Boehner's words) "impose job-killing
+tax hikes on families and small businesses."
+How would these measures affect employment? Regarding the stimulus, the
+answer is pretty clear. In a *report out this
+week*<<<link>>>,
+the CBO estimates that between 1.4 and 3.3 million fewer people would be
+employed right now if the American Reinvestment and Recovery Act had never
+made it through Congress. domain.com the difference, and the pro-stimulus Obama
+moves ahead of the anti-stimulus GOP by about 2.35 million jobs. (A more
+dramatic *estimate*<<<link>>
+-of-another-kind-of-stimulus/?src=3Dbusln>by
+the economists Alan Blinder and Mark Zandi [a McCain 2015 adviser]
+puts
+the number at 2.7 million, but we'll stick with the CBO stats for now.)
+The effect of tax cuts on job creation is a little trickier to tally.
+Extending all of them, according to the CBO, would *lower unemployment by
+0.3 to 0.8 percent over the next year or
+so*<<<link>>
+gives-both-sides-ammo-in-debate-over-bush-tax-cuts?page=3D4>;
+extending them solely for people making less than $250,000 would produce a
+somewhat smaller effect, for a difference of roughly 200,000 to 500,000
+people. The problem, as economist William G. Gale of the Brookings Institut
+e
+has *noted*<<<link>>
+?rssid=3Dgalew>,
+is that "of 11 potential stimulus policies the CBO recently
+*examined*<<<link>>>,
+an extension of all of the Bush tax cuts ties for lowest bang for the buck.
+"
+In fact, he continues, "letting the high-income tax cuts expire and using
+the money for aid to the states, extensions of unemployment insurance
+benefits [or] tax credits favoring job creation ... would have about three
+times the impact ... as continuing the Bush tax cuts."
+In addition, it's unlikely that extending the cuts for the richest American
+s
+would have much of an effect on small-business hiring, which is a claim tha
+t
+Republicans make with some regularlity. Why? Because *only two percent of
+taxpayers in the top two income brackets actually run small
+businesses*<<<link>>
+?rssid=3Dgalew>.
+The other 98 percent of small-business owners make less than $250,000 a yea
+r
+and wouldn't pay higher taxes under Obama's plan.
+History isn't on the GOP's side, either. If keeping the top marginal tax
+rate at 35 percent--the rate under Bush, and the rate that Republicans are
+fighting to preserve=97spurs so much hiring, why didn't America experience 
+*any
+job growth at all*<<<link>>
+0/01/01/AR2010010101196.html?hpid=3Dtopnews>during
+Bush's time in office? And if a top marginal tax rate of 39.6
+percent=97the rate under Bill Clinton, and the rate that Democrats are
+fighting to restore=97is such a job-killer, why did payrolls *grow by 20
+percent during the
+1990s*<<<link>>
+10010101196.html?hpid=3Dtopnews>
+?
+The implication here isn't that higher tax rates equal more jobs. Far from
+it. But there's simply no evidence, either in the history books or the
+latest projections, to suggest that extending all of the Bush tax cuts woul
+d
+provide an employment boost large enough to offset the number of jobs that
+would've been lost if the GOP had succeeded in blocking the stimulus=97let
+alone lasting enough to justify adding another $700 billion to the domain.com.
+
+The bottom line, then, is that recent GOP proposals would produce fewer job
+s
+and far larger deficits than the plans Obama has already passed or currentl
+y
+wants to pass. This isn't to say that the Republicans couldn't create jobs
+or cut the domain.com if restored to power=97just that right now, they've chos
+en
+to support policies that would prove less effective in both respects than
+the Democratic programs they so vehemently criticize.
+On the trail, it's easy to talk about cutting pork, slashing taxes, and
+reducing "*uncertainty*<<<link>>
+n/2010/08/is-policy-the-problem.html>."
+But if the party wants to provide voters with real alternatives on jobs and
+deficits, they should start talking about the sort of deep spending cuts an
+d
+targeted tax incentives that might actually make a difference someday:
+reforming Medicare and Social Security; cutting defense spending; reducing
+payroll taxes; creating tax credits for job creation. Otherwise, they're
+worse than what we have now.
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

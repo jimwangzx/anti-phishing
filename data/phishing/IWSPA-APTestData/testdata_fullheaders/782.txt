@@ -1,0 +1,128 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp1649109lfy;
+        Sun, 10 Jan 2015 17:03:50 -0800 (PST)
+X-Received: by 10.98.87.221 with SMTP id i90mr22366712pfj.72.1452474230768;
+        Sun, 10 Jan 2015 17:03:50 -0800 (PST)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-pa0-domain.com (mail-pa0-domain.com. [2607:f8b0:400e:c03::245])
+        by domain.com with ESMTPS id p73si10734480pfi.236.2016.01.10.17.03.50
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 10 Jan 2015 17:03:50 -0800 (PST)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400e:c03::245 as permitted sender) client-ip=2607:f8b0:400e:c03::245;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400e:c03::245 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pa0-domain.com with SMTP id cy9sf78239013pac.1
+        for <user@domain.com>; Sun, 10 Jan 2015 17:03:50 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:From: Christina Reynolds <creynolds@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=2wsWiO36Yc0hfLWeNLNSUint6SD4PtknKlxRiGglOeQ=;
+        b=BU/YNnnzhH5RNdK9BpQsqC68P5BfYXLDqEjZxQ+zaLtsxHj7ZnTt/zfgvb4+PX4VdA
+         yOZfe1Gv3DCWjsWVPExRE7qgUxANskXTHXa8F2k71dOQKSrXm0A9mPNAlalb7yVK89Fx
+         QX4SLxlPhd/DMZz1DSHGd01dnMlyCTF0OYDOU
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:From: Christina Reynolds <creynolds@hillaryclinton.com>
+         :thread-index:date:message-id:subject:to:cc:content-type
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-unsubscribe;
+        bh=2wsWiO36Yc0hfLWeNLNSUint6SD4PtknKlxRiGglOeQ=;
+        b=EArH2y3f7vkWeCuaXR+OMKf85gCslrNgCHaqSKhODgC1B3h52j8nztF8dmQb5p46V0
+         SnyRmFss1EPJQBNeW/LUWunqK0TU6mc5grtKc6qDuNRQ7wCT5KuxjBN1cgzLngXi1CFW
+         Skm8qT+7V7HEbQRCb4nD6dGySrhMhUUgvQGgXYB0vQWULvwpMkKljAFuQDGuTNnRkeC4
+         ficJQxpLrGOVqdlrwlW+SUpI5vxYLysfrXwOC3eIoDy/u1M7iULDVSiOFdwPQPV1Qp4Z
+         3jRHSWADdr7YwYCMDOjGXdUQweEGCJqH/Ilaatc7KyQ0SzB4snCyP69ZD6HwRdpD8V8l
+         yEHw
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQmRwM5OewBm2KZfPZ2JowmDoc7w7sqaq+NVoFs7tnITTUbZDB6vKIqpMoTISjd3s1QoRM1djfX+TpQDcYjtt7OxTGnFtA
+X-Received: by 10.66.124.131 with SMTP id mi3mr8146243pab.1.1452474230457;
+        Sun, 10 Jan 2015 17:03:50 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.140.30.163 with SMTP id d32ls1979240qgd.38.gmail; Sun, 10 Jan
+ 2015 17:03:50 -0800 (PST)
+X-Received: by 10.13.218.198 with SMTP id c189mr99395653ywe.165.1452474229822;
+        Sun, 10 Jan 2015 17:03:49 -0800 (PST)
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22b])
+        by domain.com with ESMTPS id e187si14642940ywf.197.2016.01.10.17.03.49
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 10 Jan 2015 17:03:49 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22b as permitted sender) client-ip=2607:f8b0:4002:c07::22b;
+Received: by mail-yk0-domain.com with SMTP id a85so338588023ykb.1
+        for <user@domain.com>; Sun, 10 Jan 2015 17:03:49 -0800 (PST)
+X-Received: by 10.129.136.199 with SMTP id y190mr76022290ywf.267.1452474229600;
+ Sun, 10 Jan 2015 17:03:49 -0800 (PST)
+From: Christina Reynolds <creynolds@hillaryclinton.com>
+References: <user@domain.com>
+ <CAFjSERBZfkaizfkoXC6TW5_+GYKC0E5qdvNQ=r7RLZxekUD2+user@domain.com>
+ <CA+xFL8edMoZ9yzD8fBQcQgZoTQAoeWa8ohd9Cg2X9vi=d+user@domain.com>
+ <user@domain.com> <2052640963728586180@unknownmsgid>
+ <CA+user@domain.com>
+ <3275649557572582856@unknownmsgid> <CA+user@domain.com>
+ <CA+xFL8dXd37b+1dn9+xvjviwDpc3TsSc6Wakfp+user@domain.com>
+ <1user@domain.com>
+ <-578910451566918665@unknownmsgid>
+In-Reply-To: <-578910451566918665@unknownmsgid>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQKjJWXRTj0d1Ub5tevk//jTHwEEywInJcllAWd9kjkBgNtXTgI85ZY8AlD8YMwB0iL0nwMNeD/qAvTzJwQC6ywR9AJDuvlFnJzGHPA
+Date: Sun, 10 Jan 2015 20:03:50 -0500
+Message-ID: <137user@domain.com>
+Subject: RE: DRAFT: Stump Inserts for Iowa on Monday
+To: Jennifer Palmieri <user@domain.com>, 
+ Joel Benenson <user@domain.com>
+CC: Lily Adams <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ Robby Mook <user@domain.com>, Mandy Grunwald <user@domain.com>, 
+ Emily Aden <user@domain.com>, 
+ Speech Drafts <user@domain.com>, 
+ Matt Paul <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a114c5e36806b15052904820e
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:4002:c07::22b as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+Tend to agree. On getting a story pitched, think that=E2=80=99s going to be
+ very
+tough with the national press, but will check in with some people. Lily,
+would anyone in Iowa be interested in that story?
+
+*From: Christina Reynolds <creynolds@hillaryclinton.com>
+user@domain.com] *On Behalf Of *Jennifer Palmieri
+*Sent:* Sunday, January 10, 2015 7:56 PM
+*To:* Joel Benenson <user@domain.com>
+*Cc:* Lily Adams <user@domain.com>; Dan Schwerin <
+user@domain.com>; Robby Mook <user@domain.com>; Mandy
+Grunwald <user@domain.com>; Emily Aden <user@domain.com>; Speech
+Drafts <user@domain.com>; Matt Paul <
+user@domain.com>
+*Subject:* Re: DRAFT: Stump Inserts for Iowa on Monday
+
+I gotta say I think it's weird for her to say Bernie is attacking her. That
+will be what press focuses on.  It also sets up everything she says after
+that comment as an attack on Bernie.  So would not do.
+
+Sent from my iPhone
+

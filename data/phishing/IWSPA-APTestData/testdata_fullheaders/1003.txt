@@ -1,0 +1,147 @@
+Delivered-To: user@domain.com
+Received: by 10.220.75.4 with SMTP id w4cs28208vcj;
+        Tue, 14 Jul 2015 05:59:00 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.224.67.140 as permitted sender) client-ip=10.224.67.140;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.224.67.140 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.224.67.140])
+        by 10.224.67.140 with SMTP id r12mr6143257qai.23.1247576340001 (num_hops = 1);
+        Tue, 14 Jul 2015 05:59:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:x-mimeole
+         :content-class:mime-version:content-type:subject:date:message-id
+         :x-ms-has-attach:x-ms-tnef-correlator:thread-topic:thread-index:from
+         :to:reply-to:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=GU1CAP4c1l9Caw6IcUXgC/IB/KrtKB2ebCG5USLlt8k=;
+        b=VnpziI7GG8Fyk3sQwh2ZwSmjq5h/dV6GKryGet6GcC+pw/+uVr2xh6WTbvBDViMOsH
+         kZzrkqFoIZgAkcAf5Y/hJuEPn9hcxzDBSfY8CFmhHzIuTBZDNkJfX9vpRcCRCVOesbzN
+         MnOF8T3JeZbNaRJPOwaytSkXo7K7uk9LM2Q9g
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :x-mimeole:content-class:mime-version:content-type:subject:date
+         :message-id:x-ms-has-attach:x-ms-tnef-correlator:thread-topic
+         :thread-index:From: "Jeremy Funk" <funk@americansunitedforchange.org>
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=W1xNXEh+JKBnMAS2QS3yX9dCqQm4hXwVd7oJILaX/R+4YCG5l7VCRUKAEtacw7P/AZ
+         M51M32/fMScw95qkj+mJRiGESQRXTdCTo1lc+awbXvC/vHDM2+Jfwy7ODIEceJ8fjgQf
+         p0tZ3BooH18iqc1zKGj741V5u1lW/xedcMRJY
+Received: by 10.224.67.140 with SMTP id r12mr870281qai.23.1247576328986;
+        Tue, 14 Jul 2015 05:58:48 -0700 (PDT)
+Received: by 10.176.46.26 with SMTP id t26gr3300yqt.0;
+	Tue, 14 Jul 2015 05:58:39 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.224.73.137 with SMTP id q9mr1080359qaj.12.1247576319242; Tue, 14 Jul 2015 05:58:39 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail.americansunitedforchange.org ([66.253.44.162]) by gmr-domain.com with ESMTP id 20si68776qyk.13.2009.07.14.05.58.38; Tue, 14 Jul 2015 05:58:39 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.253.44.162 as permitted sender) client-ip=66.253.44.162;
+Authentication-Results: gmr-domain.com; spf=pass (domain.com: domain of user@domain.com designates 66.253.44.162 as permitted sender) user@domain.com
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+Mime-Version: 1.0
+Content-Type: multipart/related; boundary="----_=_NextPart_001_01CA0482.CB584839"
+Subject: [big campaign] UPDATE/REMINDER - Press Conf Call TODAY, 3PM ET:
+ National Security Experts to Discuss How the Obama Clean Energy Jobs Bill
+ Will Make America More Secure
+Date: Tue, 14 Jul 2015 08:58:32 -0400
+Message-ID: <29user@domain.com>
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+Thread-Topic: UPDATE/REMINDER - Press Conf Call TODAY, 3PM ET: National Security Experts to Discuss How the Obama Clean Energy Jobs Bill Will Make America More Secure
+Thread-Index: AcoBiaFGZdB08tw2T7i08a1qyY5vBQABKTyAAJFgVCAAAlyLgAAAeJKgAAEl+CAAACw7EAAAGEcgAAAWkRAAAC+q0AAACCvQAAAF8FAAABpE8AAABdkQAAAK9zAAAANbIAAHl3VAAB9DAMAAAByCQA
+From: "Jeremy Funk" <funk@americansunitedforchange.org>
+To: user@domain.com
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+***UPDATE - The call will also be joined by Lawrence Korb, Senior Fellow
+at the Center for American Progress and a Senior Advisor to the Center
+for Defense Information***
+
+www.americansunitedforchange.org
+
+FOR IMMEDIATE RELEASE                                  CONTACT:
+Jeremy Funk, 202-470-5878
+
+DATE: July 14, 2015 
+Lauren Weiner, 202-470-5870
+
+***Press Conference Call - July 14th at 3:00 p.m. EDT***
+
+National Security Experts to Discuss How the American Clean Energy and
+Security Act Will Make America More Secure
+
+Call-in#: 877-542-4963
+
+Conference ID # 20056143
+
+Washington D.C. - On Tuesday, July 14th at 3 p.m. EDT, Americans United
+for Change will host a press conference call with leading national
+security experts, including Lieutenant General Donald L. Kerrick, USA
+(Ret.), to discuss how the American Clean Energy and Security Act
+<<<link>>
+.pdf> , which passed in the U.S. House last month with bipartisan
+support, will make America more secure by reining our dependence on
+foreign oil and stemming the effects of climate change, which the
+National Intelligence Council has called a major threat to the stability
+of American security.
+
+WHAT:           Press Conference Call with National Security Experts to
+Discuss How the American Clean Energy and Security Act Will Make America
+More Secure
+
+WHO:             Lieutenant General Donald L. Kerrick, USA (Ret.),
+former Deputy National Security Advisor under President Clinton and a
+member of the National Security Network
+
+
+
+
+Lawrence J. Korb, Senior Fellow at the Center for American Progress and
+a Senior Advisor to the Center for Defense Information
+
+Jon Soltz, Iraq War veteran and Co-Founder and Chair of domain.com
+
+                        Jonathan Powers, Iraq War veteran and Chief
+Operating Officer, Truman National Security Project
+
+
+
+
+WHEN:           Tuesday, July 14th at 3:00 p.m. EDT
+
+Call-in#: 877-542-4963
+
+Conference ID # 20056143
+
+###
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

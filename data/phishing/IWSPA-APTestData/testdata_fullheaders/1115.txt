@@ -1,0 +1,179 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.203 with SMTP id e194csp100998lfb;
+        Fri, 26 Sep 2015 13:10:59 -0700 (PDT)
+X-Received: by 10.229.94.135 with SMTP id z7mr31380283qcm.26.1411762258833;
+        Fri, 26 Sep 2015 13:10:58 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.3])
+        by domain.com with ESMTPS id h19si6993325qar.78.2014.09.26.13.10.57
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Fri, 26 Sep 2015 13:10:58 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.251.3;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=fail user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211:61104] by server-3.bemta-12.domain.com id E3/FA-11082-B48C5245; Fri, 26 Sep 2015 20:10:51 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-10.tower-53.domain.com!1411762249!8702114!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.2; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 10512 invoked from network); 26 Sep 2015 20:10:50 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-10.tower-53.domain.com with AES128-SHA encrypted SMTP; 26 Sep 2015 20:10:50 -0000
+Resent-From: t r u t h o u t <messenger@truthout.org>
+Received: from domain.com (216.82.243.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Fri, 26 Sep 2015 16:10:49 -0400
+Received: from [216.82.241.243:16323] by server-12.bemta-8.domain.com id
+ 1B/4E-26875-948C5245; Fri, 26 Sep 2015 20:10:49 +0000
+X-Env-Sender: 2259904938-1307127-user@domain.com
+X-Msg-Ref: server-14.tower-192.domain.com!1411762246!9319960!1
+X-Originating-IP: [69.174.83.165]
+X-SpamReason: No, hits=-2.2 required=7.0 tests=sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY1ID0+IDI5NzI3\n,sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY1ID0+IDI5NzI3\n,ADVANCE_FEE_1,
+  BODY_RANDOM_LONG,HTML_MESSAGE,ML_RADAR_FP_R_124,spamassassin: 
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.2; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 11817 invoked from network); 26 Sep 2015 20:10:46 -0000
+Received: from domain.com (HELO domain.com) (69.174.83.165)
+  by server-14.tower-192.domain.com with SMTP; 26 Sep 2015 20:10:46 -0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1411762246;
+	h=From: t r u t h o u t <messenger@truthout.org>
+	bh=8qAp3UVSGjRsireaY4/LaJMrlj0=;
+	b=EX3eiyM7h/g2I0mfk4aQrcwrXcwx/aTxlT86YCXsg+64UZJVBynYfY2fQGTiS2T6
+	u9na3qbaciofvXl3ixcc21fkhm+dv0JAmCdsox6i+6t0y3SF7QKOjHlQZrSxqh71
+	wUNdvjd8l6oMaUcKNRFgaMk0SkulD7LOxRtnPgOsr7c=;
+Received: from [10.174.83.200] ([10.174.83.200:44173]
+ helo=domain.com)	by domain.com (envelope-from
+ <2259904938-1307127-user@domain.com>)	(ecelerity
+ 3.5.10.45038 r(Core:3.5.10.0)) with ESMTP	id EE/CC-02593-648C5245; Fri, 26
+ Sep 2015 16:10:46 -0400
+Date: Fri, 26 Sep 2015 16:10:46 -0400
+From: t r u t h o u t <messenger@truthout.org>
+Sender: <user@domain.com>
+Reply-To: <user@domain.com>
+To: user@domain.com
+Message-ID: <2259904938.661268614@domain.com>
+Subject: Faith and Science, Heart and Brain: An Interview With Katharine
+ Hayhoe
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_5989476_1935006111.1411762246354"
+Envelope-From: t r u t h o u t <messenger@truthout.org>
+List-Unsubscribe: <<<link>>>
+X_email_KEY: 2259904938
+X-campaignid: salsaorg26694-1307127
+
+t r u t h o u t | Truthout doesn't domain.com from ads or accept corporate sponsorship: The majority of our funding comes directly from readers just like you. We're almost halfway through our fundraising campaign but still need to raise another $36,000 at least - more than half our goal. Can you make a tax-deductible donation today to help us catch up?
+
+<<link>>
+
+You can also donate by check, made payable to:
+Truthout, P.O. Box 276414, Sacramento, CA 95827
+(Please include your email address on your check.)
+
+Or call in your donation:
+213.489.1971
+
+09.26
+
+Faith and Science, Heart and Brain: An Interview With Katharine Hayhoe
+<<link>>
+Leslie Thatcher, Truthout: The director of the Climate Science Center at Texas Tech University talks about her climate change research, her work with the Evangelical Environmental Network, the politics of mitigating climate change and how she brings Christian values to all her work.
+
+Burns Overlooks Secret of FDR's Success: Power of the People
+<<link>>
+Peter Dreier, Truthout: Ken Burns' documentary "The Roosevelts" fails to report the real secret of FDR's success at instigating change in US law and society: escalating citizen protests that created a sense of urgency throughout the country, combined with the political savvy of a small cadre of FDR's progressive advisers.
+
+Code Black: Murder, Mass Incarceration, Militarization and Genocide in Progress
+<<link>>
+Marsha Coleman-Adebayo and Kevin Berends, Black Agenda Report: Since the 1989 Supreme Court ruling in Graham v. Connor we don't have lynchings per se in the US anymore. We now enjoy the spectacle of the fraternal-order-of-police executing blacks and browns as sport.
+
+Four-Day Workweeks: Change for the Better?
+<<link>>
+Richard D. Wolff, Truthout: Reducing work times with no reduction in pay is a perfectly viable economic development strategy and the democratically preferred method of coping with changing global labor conditions.
+
+Another War, Another Evil: Haven't We Learned That the Devil Cannot Be Slain?
+<<link>>
+Brad Evans, Truthout: The drums of war follow a very well-rehearsed strategy, where slowly but surely the public is sold the idea of the need for violence to cure the world's ills, despite our responsibility for creating those ills.
+
+After Koch-Tied Judge Is Reversed, Walker Probe Rests With Conflicted Wisconsin Supreme Court
+<<link>>
+Brendan Fischer, PR Watch: A federal appellate court has shut down Judge Rudolph Randa's decision halting the criminal probe into Wisconsin Gov. Scott Walker and allied groups, rejecting Randa's interpretation of campaign finance law and declaring the investigation best resolved by state courts.
+
+Bill Moyers | "What's Possible," a New Film for World Leaders on the Urgency of Global Warming
+<<link>>
+Bill Moyers, Moyers & Company: More than 120 world leaders - including President Obama - kicked off a one-day United Nations' domain.com on climate change in New York City by viewing "What's Possible," a short film on the urgency of global warming.
+
+EU Case Against Google Shows Need for New Publishing Models in the Information Age
+<<link>>
+Madeline Carr, The Conversation: On a deeper level, the EU's case against Google highlights some of the  significant implications that access to information has for our social and political well-being. And, as is usually the case with these debates about new technology, there are many sides to the story.
+
+Reports Condemn Health Care and Solitary Confinement in Arizona State Prisons
+<<link>>
+Lisa Dawson, Solitary Watch: The ACLU, along with California-based Prison Law Office and their co-counsel in the federal class action domain.com Parsons v. Ryan, has released a series of 26 reports alleging extensive problems with the Arizona Department of Corrections' health-care program and its use of solitary confinement.
+
+Scrambling Birds' Brains: Could This Toxic Algae Offer Clues to Human Diseases?
+<<link>>
+Lindsey Konkel, Environmental Health News: A mysterious toxin - with no name and no cure - lurking in lakes in the South has drilled holes in the brains of various waterbirds, rendering them unable to swim, eat and fly. In humans, researchers suspect that the neurotoxin may be linked to Lou Gehrig's disease.
+
+Five Arrested at White House in Antiwar Protest
+<<link>>
+Anne Meador, Popular Resistance: A few dozen proponents of nonviolence demonstrated in front of the White House the morning after US-led airstrikes on targets in Syria. They attempted to deliver a letter to President Obama calling for drastic changes in policy regarding militarism, poverty and the environment.
+
+TRUTHOUT'S BUZZFLASH DAILY HEADLINES
+
+Sustainable Businesses Applaud Corporations for Leaving ALEC
+<<link>>
+Mark Karlin, BuzzFlash at Truthout: The impact on ALEC as a result of the desertion of large corporations weakens it as an entity that sponsors and passes widespread destructive legislation at almost every level of government.
+
+A GOP Senate's First Target: Elizabeth Warren's Consumer Protection Agency
+Read the Article at Mother Jones
+<<link>>
+
+The "American Dream" Is Now a Myth: How Bad Policies and Worse Ideology Ruined Us
+Read the Article at Salon 
+<<link>>
+
+The Secret Goldman Sachs Tapes
+Read the Article at Bloomberg News
+<<link>>
+
+"Ebola Is Winning": Sierra Leone Quarantines 1.2 Million People
+Read the Article at Common Dreams
+<<link>>
+
+Measure D: The American Beverage Association Has Gone Beast-Mode on Berkeley Over Taxing Soda
+Read the Article at BuzzFlash 
+<<link>>
+
+300,000 US Students Live in Shelters, Motels or on the Street
+Read the Article at AllGov
+<<link>>
+
+New Generation of GM Crops Puts Agriculture in a "Crisis Situation"
+Read the Article at Wired
+<<link>>
+
+-----------
+Support Truthout with a tax-deductible donation by clicking here: <<link>>
+
+To ensure you receive our messages please add the following address to your email address book: user@domain.com
+
+If you are having trouble with this, read our guide: <<link>>
+
+Thank you!
+
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+Click to UNSUBSCRIBE -> <<link>>
+Go directly to our home page: <<link>>
+Click to SUBSCRIBE -> <<link>>
+Our Privacy Policy -> <<link>>

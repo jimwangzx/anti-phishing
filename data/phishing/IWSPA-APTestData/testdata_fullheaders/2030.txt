@@ -1,0 +1,210 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp602156lfb;
+        Thu, 12 Nov 2015 12:59:22 -0800 (PST)
+X-Received: by 10.129.108.198 with SMTP id h189mr16570244ywc.317.1447361962447;
+        Thu, 12 Nov 2015 12:59:22 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [198.2.190.21])
+        by domain.com with ESMTP id t7si10938109ywa.47.2015.11.12.12.59.22
+        for <user@domain.com>;
+        Thu, 12 Nov 2015 12:59:22 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 198.2.190.21 as permitted sender) client-ip=198.2.190.21;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 198.2.190.21 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=americansecurityproject.org;
+ h=Subject:From: =?utf-8?Q?Maggie=20Feldman=2DPiltch?= <mfeldmanpiltch@americansecurityproject.org>
+ bh=xjuCZroHBoFhPKKJmI7AmVk4jfQ=;
+ b=rtBB1gXMYTIOiJ3wL3bx0lmqw033zA7nedsjXkiZgnP3jBXBgyhOkVXJL93tdVs6OWSBYy30Ises
+   fZivYVThYCGOQ4w0RAawHTR4Q+ubnYXVupioxCi0ilgTN30NPNh4tk4xqDKhe+00rwDRr0BMUy9A
+   v2azrHFuJdr6SKvw73E
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Maggie=20Feldman=2DPiltch?= <mfeldmanpiltch@americansecurityproject.org>
+ bh=xjuCZroHBoFhPKKJmI7AmVk4jfQ=;
+ b=NJrKUICmngGf88+q8o0qC0R50i0zz4LJyg2tuYbQJm+NEFtw2+ooDMShu/3yzuKs9raj3QbsqEOF
+   YjoJL/feXsWPry2tRwzbeNAnvNOZEkJ84YaBUxRFYn6t9gCI+r1OLwOZS//3odff/HS5bOkk2v/L
+   ksG4pTIYOsB1XzJWpKU
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=americansecurityproject.org;
+ b=rwQbMNPs+ItWtGKUd9LWd5Z/1uTIqw/eBvmhoicWLqRPKt3l4c8ONfIk/HCc71GQpR4e4KOLnQuT
+   CbFlfMkk4geC3fVHBMgJbYHyzqeJUPUK8ViCV/03r4Nmic5N9LFrhb6CnFQRl9/ZnM8foNgY0y7H
+   AsWcgrqSf+ERwP5Qv2o=;
+Received: from (127.0.0.1) by domain.com id h8juqk1sb5gp for <user@domain.com>; Thu, 12 Nov 2015 20:59:15 +0000 (envelope-from <user@domain.com>)
+Subject: =?utf-8?Q?ASP=20Event=3A=20TPP=2D=20Implications=20of=20the=20Trans=2DPacific=20Partnership=20on=20Global=20and=20Regional=20Stability?
+From: =?utf-8?Q?Maggie=20Feldman=2DPiltch?= <mfeldmanpiltch@americansecurityproject.org>
+Reply-To: =?utf-8?Q?Maggie=20Feldman=2DPiltch?= <user@domain.com>
+To: John <user@domain.com>
+Date: Thu, 12 Nov 2015 20:59:15 +0000
+Message-ID: <2768user@domain.com>
+X-Mailer: MailChimp Mailer - **CIDae506a5422477e2b071c**
+X-Campaign: mailchimp2768ea8e53da1b3ff17fb6a6f.ae506a5422
+X-campaignid: mailchimp2768ea8e53da1b3ff17fb6a6f.ae506a5422
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 2768ea8e53da1b3ff17fb6a6f
+X-Feedback-ID: 2479418:2479418.1003681:us2:mc
+List-ID: 2768ea8e53da1b3ff17fb6a6fmc list <2768ea8e53da1b3ff17fb6a6f.77593.list-domain.com>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_964861882"
+MIME-Version: 1.0
+
+Friends of ASP: Upcoming TPP Event and ASP Business Council for American S
+ecurity Launch Celebration
+
+View this email in your browser (<<link>>
+8ea8e53da1b3ff17fb6a6f&id=3Dae506a5422&e=3D477e2b071c)
+
+** Special Event Announcement
+------------------------------------------------------------
+Friends of ASP=2C
+
+I am writing to share final information regarding our upcoming event  TPP-
+ Implications of the Trans-Pacific Partnership for Global and Regional Sta
+bility (<<link>>
+rans-pacific-partnership-for-global-and-regional-stability/)  on November
+ 19th. Should your schedule allow for you to join us please let me know (m
+ailto:user@domain.com?subject=3DUpcoming%20ASP%
+20Events) so I may reserve seating and time with the featured speaker(s) o
+n your behalf.
+
+Thank you again for your continued support of ASP's work. We look forward
+ to celebrating another year- and the official launch of the Business Coun
+cil for American Security (<<link>>
+siness-council-for-american-security/) =2C with you on December 15th from
+ 5:30pm to 7:30pm at 1776 Crystal City.
+
+Very respectfully=2C
+Maggie Feldman-Piltch (mailto:user@domain.com?s
+ubject=3DEarly%20Fall%20Newsletter)
+Upcoming Events
+
+TPP: Implications of the Trans-Pacific Partnership for Global and Regional
+ Stability (<<link>>
+of-trans-pacific-partnership-for-global-and-regional-stability/) : Novembe
+r 19 from 12:30 PM - 2:00 PM with lunch availability from 12:00 PM - 12:30
+ PM. This event will include a panel discussion including Minister Kanji Y
+amanouchi=2C Minister of Economic Affairs=2C Japanese Embassy; Dr. Ron Sha
+piro=2C former Under Secretary of Commerce; Mr. Nelson Cunningham=2C Presi
+dent=2C McLary Associates and conclude with a keynote address from Represe
+ntative Don Beyer (D=2C VA-8)=2C former Ambassador to Switzerland and Liec
+htenstein and ASP Board Member. If you are interested in attending this ev
+ent=2C please let me know and I would be happy to reserve seats on your be
+half. Contact. (mailto:user@domain.com?subject
+=3DFriends%20of%20ASP%20Newsletter%3A%20Minister%20de%20Brum)
+ASP Holiday Party: Save the date for this year's ASP Holiday Party on Dece
+mber 15th at 1776's brand new Crystal City location (<<link>>)
+ . ASP will host a private end-of-year gathering for Business Council for
+ American Security members=2C members of our Consensus for American Securi
+ty=2C Board of Trustees=2C our adjunct fellow network=2C and other friends
+ of the organization. Join us for drinks and hors d'oevours from 5:30 PM t
+o 7:30PM. Formal invitation to follow.
+Recent Publications
+What Constitutes Credibility in US Public Diplomacy (<<link>>
+domain.com/what-constitutes-credibility-in-us-public-diplomacy/)
+As discussion ensues over how to combat ISIS online (<<link>>
+edu/research/papers/2015/10/combating-isis-propaganda-fernandez)  or count
+er Russian propaganda=2C it=E2=80=99s worth taking a look at the elements
+ that lend to credible messaging. The importance of credibility cannot be
+ underestimated=2C as it provides the initial basis by which members of a
+ target audience decide to listen to one=E2=80=99s message in the first pl
+ace.
+Click here for more (<<link>>
+es-credibility-in-us-public-diplomacy/) . (<<link>>
+domain.com/winning-the-social-media-war-against-isis/)
+
+A Conversation on Climate Diplomacy with FM user de Brum of Marshall Islan
+ds  =E2=80=93 Event Summary (<<link>>
+recap-climate-change-foreign-minister-user-de-brum-marshall-islands/)
+On Wednesday=2C October 28=2C 2015=2C the American Security Project hosted
+ an event featuring Minister user de Brum=2C Foreign Minister of the Marsh
+all Islands. He discussed the devastating effects climate change is alread
+y having on the islands=2C as well as the international cooperation needed
+ to tackle this problem quickly and effectively.
+Click here for more (<<link>>
+imate-change-foreign-minister-user-de-brum-marshall-islands/) .
+BGen. Cheney and Gov. Whitman on Why We Should Export Nuclear Energy (http
+://www.americansecurityproject.org/gen-stephen-cheney-and-christine-witman
+-on-why-we-should-export-nuclear-energy/)
+ASP CEO BGen. Stephen Cheney=2C USMC (Ret.) and ASP Board Chairperson and
+ Board member of the Clean and Safe Energy Coalition (CASE)  Gov. Christin
+e Whitman discussed the importance of exporting nuclear power in Fortune.
+Click here for more (<<link>>
+bW2n0x6l2B9nMJW7t5XYg3LjCrxW3LqXNx4XXD_dW5v_Sgz56dDS-f8sczTd02?t=3Dhttp%3A
+%2F%2Fwww.americansecurityproject.org%2Ficeland-like-all-arctic-nations-is
+-drilling-for-oil%2F&si=3D6607168811302912=CF=80=3Db7b4aefb-cd94-4426-b49e
+-c0504367a027<<link>>
+-christine-witman-on-why-we-should-export-nuclear-energy/) .
+
+Cyber Security: Risk=2C Resilience=2C Recovery =E2=80=93 Event Summary
+Keynote Address: (<<link>>
+n0x6l2B9nMJW7t5XYg3LjCrxW3LqXNx4XXD_dW5v_Sgz56dDS-f8sczTd02?t=3Dhttp%3A%2F
+%2Fwww.americansecurityproject.org%2Fevent-recap-the-keynote-speech-cyber-
+security-risk-recovery-and-resilience%2F&si=3D6607168811302912=CF=80=3Db7b
+4aefb-cd94-4426-b49e-c0504367a027)  The Keynote Speech | Cyber Security: R
+isk=2C Recovery=2C and Resilience (<<link>>
+event-recap-the-keynote-speech-cyber-security-risk-recovery-and-resilience
+/)
+Panel One: (<<link>>
+B9nMJW7t5XYg3LjCrxW3LqXNx4XXD_dW5v_Sgz56dDS-f8sczTd02?t=3Dhttp%3A%2F%2Fwww
+=2Eamericansecurityproject.org%2Fevent-recap-panel-1-lessons-from-opm-hack%2
+F&si=3D6607168811302912=CF=80=3Db7b4aefb-cd94-4426-b49e-c0504367a027)  Les
+sons from OPM Hack (<<link>>
+nel-1-lessons-from-opm-hack/)
+Panel Two: (<<link>>
+B9nMJW7t5XYg3LjCrxW3LqXNx4XXD_dW5v_Sgz56dDS-f8sczTd02?t=3Dhttp%3A%2F%2Fwww
+=2Eamericansecurityproject.org%2Fevent-review-panel-2-cyber-security-consequ
+ences-for-the-military%2F&si=3D6607168811302912=CF=80=3Db7b4aefb-cd94-4426
+-b49e-c0504367a027) Cyber Security & Consequences for the Military (https:
+//www.americansecurityproject.org/event-review-panel-2-cyber-security-cons
+equences-for-the-military/)
+Panel Three: (<<link>>
+l2B9nMJW7t5XYg3LjCrxW3LqXNx4XXD_dW5v_Sgz56dDS-f8sczTd02?t=3Dhttps%3A%2F%2F
+www.americansecurityproject.org%2Fevent-review-panel-3-defense-diplomacy-a
+nd-deterrence%2F&si=3D6607168811302912=CF=80=3Db7b4aefb-cd94-4426-b49e-c05
+04367a027) Defense=2C Diplomacy=2C and Deterrence (<<link>>
+domain.com/event-review-panel-3-defense-diplomacy-and-deterrence/)
+The Arctic at the Center of World Affairs (<<link>>
+/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg3LjCrxW3LqXNx4XXD_dW5v_Sgz56dDS
+-f8sczTd02?t=3Dhttp%3A%2F%2Fwww.americansecurityproject.org%2Fthe-arctic-a
+t-the-center-of-world-affairs%2F&si=3D6607168811302912=CF=80=3Db7b4aefb-cd
+94-4426-b49e-c0504367a027)
+America is an Arctic nation=2C and has been since the purchase of Alaska f
+rom Russia in 1867 for $7.2 million dollars in gold=2C about two cents an
+ acre. Then called =E2=80=9CSeward=E2=80=99s Folly=2C=E2=80=9D that decisi
+on would prove to be one of the most consequential for America=2C the peop
+le of Alaska=2C and the world.
+Click here for more (<<link>>
+bW2n0x6l2B9nMJW7t5XYg3LjCrxW3LqXNx4XXD_dW5v_Sgz56dDS-f8sczTd02?t=3Dhttp%3A
+%2F%2Fwww.americansecurityproject.org%2Fthe-arctic-at-the-center-of-world-
+affairs%2F&si=3D6607168811302912=CF=80=3Db7b4aefb-cd94-4426-b49e-c0504367a
+027) .
+
+** Facebook (<<link>>)
+** Facebook (<<link>>)
+** Twitter (<<link>>)
+** Twitter (<<link>>)
+** Website (<<link>>)
+** Website (<<link>>)
+Copyright =C2=A9 2015 American Security Project=2C All rights reserved.
+ You are receiving this email as a valued supporter of American Security P
+roject's work.
+
+Our mailing address is:
+American Security Project
+1100 New York Ave
+Washington=2C DC 20005
+USA
+U** pdate subscription preferences (<<link>>
+t-domain.com/profile?u=3D2768ea8e53da1b3ff17fb6a6f&id=3D444b231a9d&e=3D
+477e2b071c)
+This email was sent to user@domain.com (mailto:user@domain.com)
+why did I get this? (<<link>>
+out?u=3D2768ea8e53da1b3ff17fb6a6f&id=3D444b231a9d&e=3D477e2b071c&c=3Dae506a5
+422)     unsubscribe from this list (<<link>>
+st-domain.com/unsubscribe?u=3D2768ea8e53da1b3ff17fb6a6f&id=3D444b231a9d&e
+=3D477e2b071c&c=3Dae506a5422)     update subscription preferences (<<link>>
+ericansecurityproject.us2.list-domain.com/profile?u=3D2768ea8e53da1b3ff17
+fb6a6f&id=3D444b231a9d&e=3D477e2b071c)
+American Security Project . 1100 New York Ave . Washington=2C DC 20005 . U
+SA

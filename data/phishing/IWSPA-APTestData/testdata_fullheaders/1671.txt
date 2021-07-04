@@ -1,0 +1,96 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.30 with SMTP id o30csp161416lfi;
+        Fri, 27 Mar 2015 15:46:19 -0700 (PDT)
+X-Received: by 10.70.28.5 with SMTP id x5mr39427765pdg.13.1427496378947;
+        Fri, 27 Mar 2015 15:46:18 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.111.96])
+        by domain.com with ESMTPS id p10si4550519pdl.181.2015.03.27.15.46.17
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 27 Mar 2015 15:46:18 -0700 (PDT)
+Received-SPF: neutral (domain.com: 157.56.111.96 is neither permitted nor denied by domain of user@domain.com) client-ip=157.56.111.96;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 157.56.111.96 is neither permitted nor denied by domain of user@domain.com) user@domain.com
+Received: from domain.com (25.160.78.140) by
+ domain.com (10.255.230.26) with Microsoft SMTP
+ Server (TLS) id 15.1.112.19; Fri, 27 Mar 2015 22:46:15 +0000
+Received: from domain.com ([25.160.78.140]) by
+ domain.com ([25.160.78.140]) with mapi id
+ 15.01.0125.002; Fri, 27 Mar 2015 22:46:15 +0000
+From: Nick Merrill <nmerrill@hrcoffice.com>
+To: Cheryl Mills <user@domain.com>
+CC: Jennifer Palmieri <user@domain.com>, 
+ Philippe Reines <user@domain.com>, "Kendall, David" <user@domain.com>, 
+ John user <user@domain.com>, 
+ Heather Samuelson <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, Huma Abedin <user@domain.com>, 
+ =?windows-1252?Q?Turner=2C=0D=0A_Katherine?= <user@domain.com>, 
+ "Abrams, Tanya" <user@domain.com>
+Subject: Re: Draft Gowdy Letter
+Thread-Topic: Draft Gowdy Letter
+Thread-Index: AQHQaLLUXZJplMTryE+bEkivDooi1p0wljyA///PKYCAAGWKAIAAAmwAgAAGWYCAABS6NoAABVWA//+9WQA
+Date: Fri, 27 Mar 2015 22:46:15 +0000
+Message-ID: <D13B55C9.109188%user@domain.com>
+References: <D13A0873.108411%user@domain.com>
+ <CALk44aDjoyxc4SGLag717e+user@domain.com>
+ <D13AD8D9.108768%user@domain.com>
+ <CAE6FiQ9V0=P3c8ZWcF2O_Vtd8Ye6Cp+user@domain.com>
+ <user@domain.com>
+ <09436.115032713234903949@us-mta-24.us.mimecast.lan>
+ <user@domain.com>
+ <D13B1B03.108C78%user@domain.com>
+ <user@domain.com>
+ <user@domain.com>
+ <4user@domain.com>
+ <9user@domain.com>
+ <CALk44aB6TqDGsfGjFNczx50QKNPwtMGNSiJE+user@domain.com>
+In-Reply-To: <CALk44aB6TqDGsfGjFNczx50QKNPwtMGNSiJE+user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+user-agent: Microsoft-MacOutlook/14.4.8.150116
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [166.170.33.238]
+authentication-results: domain.com; dkim=none (message not signed)
+ header.d=none;
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BL2PR03MB115;
+x-forefront-antispam-report: BMV:1;SFV:NSPM;SFS:(10009020)(377454003)(243025005)(102836002)(99286002)(106116001)(2656002)(16236675004)(87936001)(36756003)(77156002)(62966003)(19617315012)(551944002)(50986999)(76176999)(54356999)(2950100001)(2900100001)(93886004)(19580405001)(19580395003)(66066001)(122556002)(15975445007)(110136001)(5890100001)(92566002)(18206015028)(46102003)(86362001);DIR:OUT;SFP:1101;SCL:1;SRVR:BL2PR03MB115;H:domain.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+x-microsoft-antispam-prvs: <user@domain.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(5002010)(5005006);SRVR:BL2PR03MB115;BCL:0;PCL:0;RULEID:;SRVR:BL2PR03MB115;
+x-forefront-prvs: 0528942FD8
+Content-Type: multipart/alternative;
+	boundary="_000_D13B55C9109188nmerrillhrcofficecom_"
+MIME-Version: 1.0
+X-OriginatorOrg: hrcoffice.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 27 Mar 2015 22:46:15.5808
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: cd8891aa-8599-4062-9818-7b7cb05e1dad
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL2PR03MB115
+
+See my other note.  The minority put it up.
+
+<<link>>
+s/documents/2015_03_27_Kendall_to_TG_re_Response_to_March_4_Subpoena.pdf
+
+From: Nick Merrill <nmerrill@hrcoffice.com>
+Date: Friday, March 27, 2015 at 6:44 PM
+To: NSM <user@domain.com<mailto:user@domain.com>>
+Cc: Jennifer Palmieri <user@domain.com<mailto:jennifer.m.palm
+user@domain.com>>, Philippe Reines <user@domain.com<mailto:user@domain.com
+om>>, David Kendall <user@domain.com<mailto:user@domain.com>>, John user
+ <user@domain.com<mailto:user@domain.com>>, Heather Samuelson
+ <user@domain.com<mailto:user@domain.com>>, Kristin
+a Schake <user@domain.com<mailto:user@domain.com>>, Jac
+ob Sullivan <user@domain.com<mailto:user@domain.com>>, Huma
+ Abedin <user@domain.com<mailto:user@domain.com>>, "Turner, Katherine
+" <user@domain.com<mailto:user@domain.com>>, "Abrams, Tanya" <user@domain.com<
+mailto:user@domain.com>>
+Subject: Re: Draft Gowdy Letter
+
+so are we putting out then ?
+
+On Fri, Mar 27, 2015 at 6:25 PM, Nick Merrill <user@domain.com<mailt

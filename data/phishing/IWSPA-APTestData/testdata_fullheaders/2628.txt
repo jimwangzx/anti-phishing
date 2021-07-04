@@ -1,0 +1,68 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp1969446lfi;
+        Fri, 15 May 2015 06:26:00 -0700 (PDT)
+X-Received: by 10.140.92.165 with SMTP id b34mr12032490qge.13.1431696359588;
+        Fri, 15 May 2015 06:25:59 -0700 (PDT)
+Return-Path: <>
+Received: from domain.com (domain.com. [216.82.255.51])
+        by domain.com with ESMTPS id l135si1580846qhl.16.2015.05.15.06.25.58
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Fri, 15 May 2015 06:25:59 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of domain.com designates 216.82.255.51 as permitted sender) client-ip=216.82.255.51;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 216.82.255.51 as permitted sender) smtp.mail
+Return-Path: <>
+Received: from [216.82.254.83] by server-4.bemta-7.domain.com id BD/BB-03604-3E3F5555; Fri, 15 May 2015 13:25:55 +0000
+X-Msg-Ref: server-14.tower-197.domain.com!1431696353!5289376!4
+X-Originating-IP: [141.161.191.75]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.15; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 15043 invoked from network); 15 May 2015 13:25:54 -0000
+Received: from unknown (HELO LAW-CAS2.law.georgetown.edu) (141.161.191.75)
+  by server-14.tower-197.domain.com with AES256-SHA encrypted SMTP; 15 May 2015 13:25:54 -0000
+Received: from LAW-MBX01.law.georgetown.edu ([169.254.1.128]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0210.002;
+ Fri, 15 May 2015 09:25:48 -0400
+From: Facilities Management <facilitiesmgmt@law.georgetown.edu>
+To: All Faculty and Staff <user@domain.com>
+CC: Facilities Management <user@domain.com>
+Subject: Law Center Campus Window Cleaning
+Thread-Topic: Law Center Campus Window Cleaning
+Thread-Index: AdCPEqdsGD1YxympSTa7G77jj+0UFg
+Date: Fri, 15 May 2015 13:25:48 +0000
+Message-ID: <041user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.215.66]
+Content-Type: multipart/alternative;
+	boundary="_000_041FCE3558628844B2C8F552872894F25E6C7CBFLAWMBX01lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+
+Beginning Monday, May 25, Rojani Facilities Management will be cleaning the
+ exterior and interior windows in all the Law Center buildings. We expect t
+he work to be completed on Thursday, June 4.  The schedule is listed below 
+and the cleaning contractor will be escorted to all interior offices and se
+cured areas by a member of the Facilities Management staff.
+
+Mon     05/25/15          Gewirz Student Center
+Tue      05/26/15          Gewirz Student Center and Sport and Fitness
+Wed    05/27/15          Sport and Fitness
+Thu      05/28/15          McDonough Hall
+Fri        05/29/15          McDonough Hall
+Sat       05/30/15          McDonough Hall Atrium
+Mon     06/01/15          Hotung
+Tue      06/02/15          Hotung
+Wed    06/03/15          EBW Library
+Thu      06/04/15          EBW Library
+
+Should you have questions or scheduling concerns please contact Facilities 
+Management.
+
+Facilities Management
+202-662-9330
+

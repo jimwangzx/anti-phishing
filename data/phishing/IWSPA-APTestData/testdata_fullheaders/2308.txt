@@ -1,0 +1,61 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp2578057lfy;
+        Tue, 19 Jan 2015 10:13:20 -0800 (PST)
+X-Received: by 10.112.157.101 with SMTP id wl5mr11252492lbb.88.1453227200351;
+        Tue, 19 Jan 2015 10:13:20 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-lf0-domain.com (mail-lf0-domain.com. [2a00:1450:4010:c07::234])
+        by domain.com with ESMTPS id m206si12009958lfd.84.2016.01.19.10.13.20
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 19 Jan 2015 10:13:20 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c07::234 as permitted sender) client-ip=2a00:1450:4010:c07::234;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c07::234 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lf0-domain.com with SMTP id m198so191482969lfm.0
+        for <user@domain.com>; Tue, 19 Jan 2015 10:13:20 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Sara Solow <ssolow@hillaryclinton.com>
+         :cc:content-type;
+        bh=Qx8kASqj5cCCq6r2nNwl36Ba5Ql/J5VW2gU8+S4W3Es=;
+        b=hlueMyaemgDNBghL4XHskYiiW1ri7nViZB6FFOq6AMpz1Ivwi5J6eCtq3dzCvqyIju
+         Q2NdLROiTTHSI7IYPbJQ+7ScyWj6sp3pFGglK779w8H2jfpfq+5u2c1UAOXWSdoLKDAD
+         yY6IhuGPLE9j2vtYTbyWf6rQg2Jtij0axhluE
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Sara Solow <ssolow@hillaryclinton.com>
+        bh=Qx8kASqj5cCCq6r2nNwl36Ba5Ql/J5VW2gU8+S4W3Es=;
+        b=Ejpx8WWR2/E4zSzMleJnoQhT3lkDCxFTXTqgXXH87yHjUTRR5UzpenAToV/j+Klita
+         pBxnyeTmpKyclVN49fZne5M7HYdCEd93oM7yJ8U9J+R06RuQo4CVaKZ7ncz8CumhIwy7
+         A2E1smfcW8Xvjk43dzQVSWEuyMJnV2i4D4djE/Wt1ub6IDE3clm1P1NfUqeEVEQgbTSy
+         buVc/meGbKt91Ye0h8DFYyZ2kI9mERHf/L71AdMB/bnKWC+Xd+4rZZWczbl0SD9Zm9Lx
+         +Q0k1OTLz7a42AM9FFuoxRGIH3GW7tGfwX1kri+KBFldgpVUVrMsQigrqmszLaPZLzCf
+         GxCA
+X-Gm-Message-State: ALoCoQkOhRPvQSUC/mwE0Kxh8eoL1QwMLCLAraxa9doOp7XnjuaQlJq6g6Wfd4QRQG/tQa4Ygm49XzWWXF3fk2DeOKbdFu6YK+EIihLXfFyR9l5uVjK2EnY
+MIME-Version: 1.0
+X-Received: by 10.25.42.16 with SMTP id q16mr9350758lfq.58.1453227200210; Tue,
+ 19 Jan 2015 10:13:20 -0800 (PST)
+Received: by 10.112.219.136 with HTTP; Tue, 19 Jan 2015 10:13:20 -0800 (PST)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+	<user@domain.com>
+Date: Tue, 19 Jan 2015 13:13:20 -0500
+Message-ID: <CALGS4wSDvFZjHvW8U9SZ+87o9w-4X7D+user@domain.com>
+Subject: Re: charter-time/warner
+From: Sara Solow <ssolow@hillaryclinton.com>
+To: John user <user@domain.com>
+CC: Jake Sullivan <user@domain.com>, 
+ Teddy Goff <user@domain.com>, 
+ Michael Shapiro <user@domain.com>, 
+ Kristina Costa <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a114039b00c01350529b3d3d1
+
+Yes - I definitely do not think we should support it.  But when it comes
+around, my impression is that we should pause before holding it up as a
+bogeyman merger.
+
+On Tue, Jan 19, 2015 at 1:04 PM, John user <user@domain.com>

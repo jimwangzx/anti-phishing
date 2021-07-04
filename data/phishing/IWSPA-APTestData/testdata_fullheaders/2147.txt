@@ -1,0 +1,103 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 15 May 2015 23:46:48 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 31A4660062;	Thu, 15 May 2015 
+ 22:35:40 +0100 (BST)
+Received: by domain.com (Postfix)	id BE8DAB6603E; Thu, 15 May 2015 
+ 23:46:48 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id B2345B6603D	for
+ <user@domain.com>; Thu, 15 May 2015 23:46:48 +0200 (CEST)
+X-ASG-Debug-ID: 1400190404-066a756ba4061a0001-boL4EW
+Received: from mx108.b2b-domain.com (mx108.b2b-domain.com [209.162.194.108]) by
+ domain.com with ESMTP id t8hUVwo564mnfL2x for
+ <user@domain.com>; Thu, 15 May 2015 23:46:45 +0200 (CEST)
+X-Barracuda-Envelope-From: Isaiah Archuleta <isaiah.archuleta@vssmonitoring.com>
+X-Barracuda-Apparent-Source-IP: 209.162.194.108
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k2; d=b2b-domain.com;
+ h=Message-ID:Date:From: Isaiah Archuleta <isaiah.archuleta@vssmonitoring.com>
+ bh=lbbeoVzbo+9fVDsNgkH+E2uk3fU=;
+ b=gboKseBZuI/Lud1/JH3DmCmuRgle5R1azA1jCa84xE/UkhuyoQ3WygLgDKRdeJ14pl7uwOj44Xwu
+   3k8I4MPUozbvigINtl8fVXSQYdjatZfKVccOf56GXDx/9+vaNzI5dSOxC4qt60ruU1x7dgDInL0b
+   m1OU3VkjeIH+6yuWN1Q
+Received: from est-mta.b2b-domain.com (172.16.0.16) by mx108.b2b-domain.com id
+ hekqsa1gs50f for <user@domain.com>; Thu, 15 May 2015 14:46:44
+ -0700 (envelope-from <user@domain.com>)
+Message-ID: <AZCCUXYWT$UXTTUCTXTXUZZ@10.10.40.64>
+Date: Thu, 15 May 2015 14:46:44 -0700
+From: Isaiah Archuleta <isaiah.archuleta@vssmonitoring.com>
+Reply-To: Isaiah Archuleta <user@domain.com>
+To: Alberto Pelliccione <user@domain.com>
+Subject: In Just a Few Days - Learn How to Tame the Network Data Monster
+X-ASG-Orig-Subj: In Just a Few Days - Learn How to Tame the Network Data Monster
+X-MESSAGEID: ZXBW.rEVZVL.LAW.mEUVIUEVYUZ
+X-COD: ^^10.11.10.39:8080/acton/delivery?accountid=5372&msuid=s-01c0-1405&rcptid=l-151f%3Af62&srcid=l-151f
+X-Barracuda-Connect: mx108.b2b-domain.com[209.162.194.108]
+X-Barracuda-Start-Time: 1400190404
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.5839
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-814839175_-_-"
+
+body, table, tr, td, div, textarea, input
+{
+    color: 			black;
+    font-family: 	Trebuchet MS, Arial, Helvetica, sans-serif;
+    font-size: 		11px;
+}
+
+
+
+
+Click here to view this message in a browser window.
+
+
+
+
+In just a few days, VSS Monitoring booth # (2211) will be at  at Cisco Live in San Francisco so don't forget to stopby and we’ll show you how to “tame the network data monster” using a Unified Visibility Plane for network tools and security systems. You’ll learn about: 
+
+Core and standalone solutions that provide performance, scale and optimization for monitoring 1G to 100G networks
+A unique visibility architecture that’s modular and scalable across the Enterprise (including physical & virtual links)
+In series service chaining for simplified proof-of-concept and defense-in-depth security
+Monitoring big data using adaptive software defined monitoring and open network captures for storage and big data platforms
+
+Stopby the booth for a combat game challenge with an opportunity to win several great prizes!
+Unable to attend? We have you covered with our Virtual Solutions Center, which will be available during the show. 
+We look forward to seeing you!
+
+ Share this message 
+
+
+
+Register Now
+
+Title: Scale your Network Security and Monitoring infrastructure to Keep up with Advanced Targeted Attacks and Big Data Flows
+Speaker: user Zirnoon - Sr. Director of Security Strategy, VSS Monitoring, Inc. Date / Time:May 21, 2015 at 11:00 a.m. PDT / 2:00 p.m. EDT
+
+FREE 30-mins
+
+Schedule a FREE 30-mins Consultation
+Take advantage of this free offer and talk to our experts to see how we can help address your network's critical challenges. 
+
+
+
+
+Copyright © 2015 VSS MonitoringOur address is 930 De Guigne Drive, Sunnyvale, CA, 94085, United States If you do not wish to receive future email, click here.(You can also send your request to Customer Care at the street address above.)
+
+
+

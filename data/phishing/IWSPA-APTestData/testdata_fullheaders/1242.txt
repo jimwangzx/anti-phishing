@@ -1,0 +1,78 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp251021lfr;
+        Fri, 24 Jul 2015 17:03:42 -0700 (PDT)
+X-Received: by 10.60.63.20 with SMTP id c20mr17279710oes.22.1437782621430;
+        Fri, 24 Jul 2015 17:03:41 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::22f])
+        by domain.com with ESMTPS id q82si7620607oib.30.2015.07.24.17.03.40
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 24 Jul 2015 17:03:41 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::22f as permitted sender) client-ip=2607:f8b0:4003:c06::22f;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::22f as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-oi0-domain.com with SMTP id e126so25486739oig.0
+        for <user@domain.com>; Fri, 24 Jul 2015 17:03:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Oren Shur <oshur@hillaryclinton.com>
+         :message-id:subject:to:content-type;
+        bh=koOqjN+59cphLeGF+yYPib2Gel5g61bdtq+tlqopaQI=;
+        b=Vdbout+V7ZhbbX4tsVWyh7ntyHm2XTjeAQI506J2jqDRxPGvPviWVy40uZzsRieQnc
+         8iKTyUt1fpY2tNxXouorNaFb8glNa3J9cGMXlHP3pQMOHEQOEP+ZCFl4lVoVIBvS92kG
+         +zNbGUMu3tLAeuhFbYyRysnhd4uhu9nyjyGfU
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Oren Shur <oshur@hillaryclinton.com>
+         :thread-index:date:message-id:subject:to:content-type;
+        bh=koOqjN+59cphLeGF+yYPib2Gel5g61bdtq+tlqopaQI=;
+        b=nMk1egiPQu2Hzp+wGYmAVd6qoDpaUx5ziN6X1SSCInHDwmbnaWKPxGji8zEzhMM17S
+         NzvqFdZA8LUyJYCKhtDJZdNtq9HaOrCpi5yb4uq6AAhwp7Cgzhxo6Bs049X0JZz3cwPT
+         qwjTvAgq3a9sOEdW6rtkCPUXmJGeyZxI75Ayq3xYB3OigESeCpcVCFM8e2NzkpiC6fJu
+         Y6T7W11NJbgRS/jSetYglAo/cBvgy1tsbRayGnYgKujoCtXurYIfzHR9CrLg9EOY0LXP
+         6G6lRPsT6h1z8AGfk5iDqNFZz4z93qWnUGggbE0CBQsywa6pO8CKG8Ud6VXY4WSo/dnl
+         mbcQ
+X-Gm-Message-State: ALoCoQlpUA6nCnYJkJhRAixD/KVvHFT93ZgKoNpiggmnK0E/7ub3rvJBlEOAz3z+5bYFCoKlKghN
+X-Received: by 10.202.58.215 with SMTP id h206mr16620136oia.23.1437782620630;
+ Fri, 24 Jul 2015 17:03:40 -0700 (PDT)
+From: Oren Shur <oshur@hillaryclinton.com>
+References: user@domain.com
+In-Reply-To: user@domain.com
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdDGbKIDnIesa02cRDmxkYv4MhK9cwAALAiA
+Date: Fri, 24 Jul 2015 20:03:30 -0400
+Message-ID: <user@domain.com>
+Subject: RE: Jews on Iran deal
+To: Robby Mook <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Dennis Cheng <user@domain.com>, 
+ John user <user@domain.com>, 
+ Elan Kriegel <user@domain.com>, 
+ Jake Sullivan <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113ce0025e0ac6051ba7da16
+
++ Jake
+
+*From: Oren Shur <oshur@hillaryclinton.com>
+*Sent:* Friday, July 24, 2015 8:03 PM
+*To:* Robby Mook (user@domain.com) <user@domain.com>;
+Kristina Schake <user@domain.com>; Jennifer Palmieri <
+user@domain.com>; Christina Reynolds <
+user@domain.com>; Dennis Cheng <user@domain.com>;
+'John user' <user@domain.com>; Elan Kriegel <
+user@domain.com>
+*Subject:* Jews on Iran deal
+
+*American Jews support deal 49-31. =E2=80=9CThe bottom line: American Jews,
+ more
+than Americans generally, tend to support the Iran deal and they want
+Congress to approve it.=E2=80=9D*
+
+<<link>>
+_deal_despite_misgivings

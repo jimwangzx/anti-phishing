@@ -1,0 +1,49 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1328462lfr;
+        Mon, 7 Sep 2015 05:08:49 -0700 (PDT)
+X-Received: by 10.170.218.84 with SMTP id k81mr19864807ykf.19.1441627729362;
+        Mon, 07 Sep 2015 05:08:49 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from Brutus.whca.mil (eve.whmo.mil. [214.3.140.16])
+        by domain.com with ESMTPS id n82si6978528ykn.81.2015.09.07.05.08.48
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 07 Sep 2015 05:08:49 -0700 (PDT)
+Received-SPF: softfail (domain.com: domain of transitioning user@domain.com does not designate 214.3.140.16 as permitted sender) client-ip=214.3.140.16;
+Authentication-Results: domain.com;
+       spf=softfail (domain.com: domain of transitioning user@domain.com does not designate 214.3.140.16 as permitted sender) user@domain.com
+Received: from CN399Exch3.whca.mil (cn399exch3.whca.mil [10.75.26.103])
+	by Brutus.whca.mil with ESMTP id t87CAKu7076473;
+	Mon, 7 Sep 2015 08:10:20 -0400 (EDT)
+Received: from CN399Exch3.whca.mil (10.75.26.103) by CN399Exch3.whca.mil
+ (10.75.26.103) with Microsoft SMTP Server (TLS) id 15.0.1104.5; Mon, 7 Sep
+ 2015 08:08:01 -0400
+Received: from CN-399-EXCH2.whca.mil (10.75.26.203) by CN399Exch3.whca.mil
+ (10.75.26.103) with Microsoft SMTP Server (TLS) id 15.0.1104.5 via Frontend
+ Transport; Mon, 7 Sep 2015 08:08:01 -0400
+Received: from CN-399-EXCH1.whca.mil ([169.254.1.151]) by
+ CN-399-EXCH2.whca.mil ([169.254.2.172]) with mapi id 14.03.0210.002; Mon, 7
+ Sep 2015 08:08:01 -0400
+From: DMCOS <DMCOS@who.eop.gov>
+To: "User" <user@domain.com>, 
+ "'user@domain.com'" <user@domain.com>
+Subject: Hey, guys
+Thread-Topic: Hey, guys
+Thread-Index: AdDpZddvQ575inkgRD6aHDmoE+YLcA
+Date: Mon, 7 Sep 2015 12:08:01 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.75.20.214]
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Just to say again that we're thinking of you. You're crushing it. Loved the
+ opioids/heroin/treatment business.
+
+John, will make sure I'm around and free b4 and after you're here.
+
+Keep crushing,
+DM

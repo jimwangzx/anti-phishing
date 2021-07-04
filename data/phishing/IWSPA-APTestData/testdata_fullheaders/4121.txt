@@ -1,0 +1,72 @@
+Return-Path: <user@domain.com>
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.6.4])
+	by domain.com (Postfix) with ESMTP id 63C5C2A88C
+	for <user@domain.com>; Mon, 15 Aug 2015 17:57:24 -0400 (EDT)
+Received: by domain.com (Example mail relay)
+	id 4FFA4621C90; Mon, 15 Aug 2015 17:57:24 -0400 (EDT)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.3.6])
+	by domain.com (Example mail relay) with ESMTP id 34C9A621C89
+	for <user@domain.com>; Mon, 15 Aug 2015 17:57:24 -0400 (EDT)
+Received: (from user@domain.com)
+	by domain.com id RAA28782
+	for user@domain.com; Mon, 15 Aug 2015 17:57:23 -0400
+Received: from franz.inode.at (franz.inode.at [213.229.60.16])
+	by domain.com with ESMTP id RAA28774
+	for <user@domain.com>; Mon, 15 Aug 2015 17:57:22 -0400
+Received: from www-data by franz.inode.at with local (Exim 4.31)
+	id 1E4mxF-0007Ty-Td
+	for user@domain.com; Mon, 15 Aug 2015 23:57:13 +0200
+To: user@domain.com
+Subject: updated your billing information
+From: "security@wellsfargo.com" <security@wellsfargo.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <user@domain.com>
+Date: Mon, 15 Aug 2015 23:57:13 +0200
+Content-Length: 3298
+Lines: 74
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 85
+
+Dear customers:
+
+Wells Fargo is constantly working to increase security for all Online Banking 
+users. To ensure the integrity of our online payment system, we periodically 
+review accounts.
+
+Your account might be place on restricted status. Restricted accounts continue 
+to receive payments, but they are limited in their ability to send or withdraw 
+funds.
+
+To lift up this restriction, you need to login into your account (with your 
+username or SSN and your password), then you have to complete our verification 
+process. You must confirm your domain.com card details and your billing information 
+as well. All restricted accounts have their billing information unconfirmed, 
+meaning that you may no longer send money from your account until you have 
+updated your billing information on file.
+
+To initiate the billing update confirmation process, please follow the link 
+bellow and fill in the necessary fields:
+
+<>
+
+Thank you,
+
+Wells Fargo - Online Banking
+
+					About Wells Fargo |
+
+					Employment |
+
+					Report Email Fraud |
+
+					Privacy, Security & Legal |
+
+					Home 
+
+					 1995 - 2015 Wells Fargo. All rights reserved.

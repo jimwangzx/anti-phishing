@@ -1,0 +1,72 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 18 Mar 2015 22:51:45 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2J5pi2Z030025	for <user@domain.com>; Wed, 19 Mar 2015 
+ 05:51:44 GMT
+Received: from mail93-ch1-domain.com (mail-domain.com
+ [216.32.181.172])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s2J5phKd019238
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Wed, 19 Mar 2015 05:51:43 GMT
+Received: from mail93-ch1 (localhost [127.0.0.1])	by mail93-ch1-domain.com
+ (Postfix) with ESMTP id E1E7C80116	for <user@domain.com>; Wed, 19 Mar
+ 2015 05:51:43 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.255.203.12;KIP:(null);UIP:(null);IPV:NLI;H:mta-1.domain.com;RD:mta-1.domain.com;EFVD:NLI
+X-SpamScore: -1
+X-BigFish: vps-1(zzc89bh1431J1dbaIc857hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1def03h172cfch17326ah8275bh1bc7b9h1de097h186068h1b778fh1ce120h1deb3aiz2fheh5fh839ha12he5bh10d2h1288h12a5h137ah139eh13eah1441h14ddh1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h2668h1889i1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail93-ch1: domain of domain.com designates 209.255.203.12 as permitted sender) client-ip=209.255.203.12; user@domain.com; helo=mta-1.domain.com ;domain.com ;
+Received: from mail93-ch1 (localhost.localdomain [127.0.0.1]) by mail93-ch1
+ (MessageSwitch) id 139520830340396_1399; Wed, 19 Mar 2015 05:51:43 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.241])	by mail93-domain.com (Postfix) with ESMTP id 043D14C0058
+	for <user@domain.com>; Wed, 19 Mar 2015 05:51:43 +0000 (UTC)
+Received: from mta-1.domain.com (209.255.203.12) by
+ domain.com (10.43.70.2) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 19 Mar 2015 05:51:42 +0000
+Date: Wed, 19 Mar 2015 05:51:42 +0000
+From: Jessica <customerservice@buygarciniaplus.com>
+To: Amy Pascal <user@domain.com>
+Reply-To: <user@domain.com>
+Subject: A Few Helpful Tips...
+Message-ID: <1395208302.206241@domain.com>
+X-Serial: s56eZE7Kd6nf3Gp8HW5xeH3BbdOz6GwncaqeifedZwYOabDhGpylv5Ss60UUy7OQ5/Gjc+G1Rlvu9KU
+X-Complaints-To: user@domain.com
+Sender: <user@domain.com>
+Require-Recipient-Valid-Since: user@domain.com; Tue, 18 Mar 2015 05:51:20 +0000
+List-Unsubscribe: <mailto:user@domain.com?subject=s56eZE7Kd6nf3Gp8HW5xeH3BbdOz6GwncaqeifedZwYOabDhGpylv5Ss60UUy7OQ5/Gjc+G1Rlvu9KU=>, <<<link>>>
+X-Mailer: GetResponse 360
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=domain.com; s=s1024a; h=sender:From: Jessica <customerservice@buygarciniaplus.com>
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A Few Helpful Tips...
+
+Hi Amy,
+
+Jessica here again from Garcinia Cambogia Plus...
+
+Just wanted to give you a few links today that will help you get your diet off to a great start. I dug four of these up from WebMD and one from Cosmo.
+
+They don't hold any "secrets", but they all have really solid and helpful info for accomplishing the most with your diet.
+
+And a lot of our GCP customers really like them as well.
+
+Read through them and let me know what you think. Just shoot an email back here to this address.
+
+We're always glad to hear from our customers. 
+
+<<link>>
+
+<<link>>
+
+<<link>>
+
+<<link>>
+

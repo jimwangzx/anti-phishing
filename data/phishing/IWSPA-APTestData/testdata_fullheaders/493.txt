@@ -1,0 +1,45 @@
+Delivered-To: user@domain.com
+Received: by 10.140.18.137 with SMTP id 9csp257396qgf;
+        Wed, 12 Mar 2015 12:04:29 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.236.24.196 as permitted sender) client-ip=10.236.24.196
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 10.236.24.196 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+X-Received: from domain.com ([10.236.24.196])
+        by 10.236.24.196 with SMTP id x44mr30570963yhx.92.1394651068984 (num_hops = 1);
+        Wed, 12 Mar 2015 12:04:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Megan Rouse <meganrouse@gmail.com>
+        bh=pFE5ADX4WfJdjQmRsjwh/HupRdNKbOM0vOjjm2D8RDk=;
+        b=oyss9wa4LflxpHv/a7UW/SGbpOnZrDxZqA+xI5eV5BiTbwqJ3vAjv2U0pN8+Fz2/D0
+         YM84Ggt95PEmhpdci6IV0FcEnNDAFL/8EDba1ninyNGg4FnIY6U8OHaej+gHOm/jBzMC
+         bKPqI4e1ZSbOqcX/ipjpM/5MnqOoBrC7NS8CTv3GdYYry9FuBv1BX1AO5rpxHxZyei0V
+         XweFS5dZhIBDalMQ4ktbk0AFMb7xv4f5cCVCwhEhm8MRuIGu+1Epdv8YQQUs0IZWLF43
+         uSvkyoAEjEcua23waYVb3qM687DTM1V/qAzmVCSseAfZx0C7V17Y/9fIuFNepRr2iQAo
+         lILg
+MIME-Version: 1.0
+X-Received: by 10.236.24.196 with SMTP id x44mr30570963yhx.92.1394651068980;
+ Wed, 12 Mar 2015 12:04:28 -0700 (PDT)
+Received: by 10.170.171.130 with HTTP; Wed, 12 Mar 2015 12:04:28 -0700 (PDT)
+Date: Wed, 12 Mar 2015 12:04:28 -0700
+Message-ID: <CAAVDwMLOAUccbiL7caZ=wDKepeEayObAR_+user@domain.com>
+Subject: data collection and privacy - students
+From: Megan Rouse <meganrouse@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e0122a26e8d629f04f46d8167
+
+Data collection, usage, and privacy for students is a hot topic right now
+for my district as well as others.  With common core and the new online
+assessments school districts are implementing device programs for students,
+and we're doing it fairly quickly.  How students are kept safe from the
+data collectors and "profilers" is a real concern.
+
+I'm eager to know if and how this is addressed at your data summits, or
+elsewhere.  I'd be happy to provide input and perspective as a board
+member, though you probably have a lot of voices already. In any event I'd
+like to keep up with what's going on.
+
+Thanks,
+Megan

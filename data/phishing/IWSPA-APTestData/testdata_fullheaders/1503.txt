@@ -1,0 +1,46 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.203 with SMTP id e194csp18235lfb;
+        Sat, 20 Sep 2015 09:29:15 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.236.53.69 as permitted sender) client-ip=10.236.53.69
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 10.236.53.69 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+X-Received: from domain.com ([10.236.53.69])
+        by 10.236.53.69 with SMTP id f45mr10979726yhc.53.1411230554828 (num_hops = 1);
+        Sat, 20 Sep 2015 09:29:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Megan Rouse <meganrouse@gmail.com>
+         :content-type;
+        bh=JTMVvmfnBYqHJEbITzvlSWGp6kPk3pOxTeDfsCmEsIw=;
+        b=w1mvTQTK80iFSaY5YGmbUlKi/FP5TDWjNKr5jVv+nHBwbh358oX6Vkl8echYqkVdQz
+         E35L7U9RIfvmLVA0qZWgTV4T6pnUF1qBUa70yCw65b2EGnSg5uZxQpJnHoC4rq4/M9Ny
+         DomTQNY98l0c5kGBmPpCdpMj3ucg8YBjM+oQ52axoRpOvSeBCj3+QNGaQ9FSeW+GB82Q
+         qu7xK0g2zJw5BX9MtdnWw7FpBx4Fw/B+bMVrRxz2TQc/TOwUUiNuF/DYqaalq08f0Igp
+         RzzIN2vYRTXbO4E7QNQHoKnPPJVmToPIt1E2zli7H9ID2yfZMcSZ0Q0YdKmKMs3Hr/wa
+         9yUg
+MIME-Version: 1.0
+X-Received: by 10.236.53.69 with SMTP id f45mr10979726yhc.53.1411230554824;
+ Sat, 20 Sep 2015 09:29:14 -0700 (PDT)
+Received: by 10.170.210.68 with HTTP; Sat, 20 Sep 2015 09:29:14 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+	<user@domain.com>
+Date: Sat, 20 Sep 2015 09:29:14 -0700
+Message-ID: <CAAVDwMLS7Bb-ZuHvLpt1+gLKGQYOM73B0XMH6Dm3M+user@domain.com>
+Subject: Re: Orthopedic dr
+From: Megan Rouse <meganrouse@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e0122971ceaa459050381b7b3
+
+the running / working out injury from late may - early june.  although i
+havent used the cane in months and i have returned to some activity, i
+can't run, and it hurts when walking, especially the first few steps after
+sitting.
+
+i am getting an MRA on oct 3rd, where they inject something into the joint
+and do an MRI. looking for either torn cartilage in the hip joint, stress
+fracture, or arthritis.
+
+On Fri, Sep 19, 2015 at 7:25 PM, John user <user@domain.com>

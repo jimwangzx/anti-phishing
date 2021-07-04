@@ -1,0 +1,83 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp1437707lfy;
+        Sun, 17 Jan 2015 07:36:56 -0800 (PST)
+X-Received: by 10.28.146.145 with SMTP id u139mr8253350wmd.81.1453045016656;
+        Sun, 17 Jan 2015 07:36:56 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-wm0-domain.com (mail-wm0-domain.com. [2a00:1450:400c:c09::22b])
+        by domain.com with ESMTPS id l10si27722313wjx.231.2016.01.17.07.36.56
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 17 Jan 2015 07:36:56 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c09::22b as permitted sender) client-ip=2a00:1450:400c:c09::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c09::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wm0-domain.com with SMTP id u188so62932316wmu.1
+        for <user@domain.com>; Sun, 17 Jan 2015 07:36:56 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Kristina Costa <kcosta@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=BHwB5JuEWsiXpAvWtIZ2wpEWVCAPCWzs5izMEm6iZ9I=;
+        b=TXUysSpZudYEg0qBRST3JBOxtAu2yhDhe7dMMGpR9PV8cCKH4e0Q3gasIAVnCKqBkB
+         vEC121qaeItK/iAolP40iEwNBS/2XsYV1pvNONzzP8LD714DQLarzlGeW7Kv+vs+IFzM
+         gWgjg+JoRxsn+IOqy7axxDq0W3SKun3wjwhTo
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Kristina Costa <kcosta@hillaryclinton.com>
+         :thread-index:date:message-id:subject:to:cc:content-type;
+        bh=BHwB5JuEWsiXpAvWtIZ2wpEWVCAPCWzs5izMEm6iZ9I=;
+        b=Forhi6nFRSBkz9KPDm/QwoaN58mPQ5iWzp8o4Lc86TImAAGHrrbTEOvFek3LE9c8jb
+         khhU1uGiQ49a12rctncBW3pRX5XjlklZyRREih50Ulx1NfthpRIoCI16D/eA/rPR5TrN
+         9DvB6S6aKq4Q3fxuXdXAb9MIu7ycnBoodxx1Zf+UBoKMjzdAg9kuVslcXHfCqpmPXLon
+         esH9zS4QnzScX8Top6grSQH9xsL15IzzbMFr0khkRLt20ODgMletgM7UCPf2dGVIdDgE
+         eKd53m8gjU9+sQzb9/N6JN9BYPxm4fo8km5yHvNf+JgA/z+vCjPGkfqch8fTEAndQkkJ
+         npWg
+X-Gm-Message-State: AG10YOTACtiuhFKeK66rFqvn/Yk7UPxurNoNV8oiQEzuRS7v6KMWgI7Oqo384z68u6Ia/9D9yi+7PUWUoubX3kHx
+X-Received: by 10.28.35.6 with SMTP id j6mr8959489wmj.80.1453045016267; Sun,
+ 17 Jan 2015 07:36:56 -0800 (PST)
+From: Kristina Costa <kcosta@hillaryclinton.com>
+References: <user@domain.com>
+	<-5316362359217326535@unknownmsgid>	<1009492353932709881@unknownmsgid>
+	<-8456600051257091535@unknownmsgid>	<080560user@domain.com>
+ <user@domain.com>
+In-Reply-To: <user@domain.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQGf6oxR8BzBjYGLCRwenVKKG6xeHAGNc740AjiM5SACiCHimwG/wFz3AacQ+wWfFP0EoA
+Date: Sun, 17 Jan 2015 10:36:56 -0500
+Message-ID: <20user@domain.com>
+Subject: RE: CNN's State of the Union, Interview with Bernie Sanders
+To: Sara Solow <user@domain.com>
+CC: Michael Shapiro <user@domain.com>, 
+ user Carrk <user@domain.com>, 
+ John user <user@domain.com>, Ron Klain <user@domain.com>, 
+ Karen Dunn <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11497b0009b87f0529896817
+
+user, can you please have someone on your team listen?
+
+=E2=80=9Cif hillary clinton said look, new zealand a tough political fight,
+ i agree
+with her. i'm not saying you're going to get this done the first two
+days of my presidency=E2=80=9D
+
+*From: Kristina Costa <kcosta@hillaryclinton.com>
+*Sent:* Sunday, January 17, 2015 10:36 AM
+*To:* Kristina Costa <user@domain.com>
+*Cc:* Michael Shapiro <user@domain.com>; user Carrk <
+user@domain.com>; John user <user@domain.com>; Ron
+Klain <user@domain.com>; Karen Dunn <user@domain.com>; Jake
+Sullivan <user@domain.com>; Jennifer Palmieri <
+user@domain.com>; Mandy Grunwald <user@domain.com>
+*Subject:* Re: CNN's State of the Union, Interview with Bernie Sanders
+
+They have universal h/c there -- might not be a mistake in transcription
+
+On Sun, Jan 17, 2015 at 10:31 AM, Kristina Costa <user@domain.com
+

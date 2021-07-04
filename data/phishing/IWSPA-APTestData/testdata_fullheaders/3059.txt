@@ -1,0 +1,86 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.101 with SMTP id o98csp223379lfi;
+        Tue, 16 Jun 2015 18:10:10 -0700 (PDT)
+X-Received: by 10.194.59.98 with SMTP id y2mr745057wjq.42.1434503410391;
+        Tue, 16 Jun 2015 18:10:10 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::231])
+        by domain.com with ESMTPS id g9si26470523wix.19.2015.06.16.18.10.10
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 16 Jun 2015 18:10:10 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::231 as permitted sender) client-ip=2a00:1450:400c:c05::231;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::231 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-domain.com with SMTP id dq8so33882531wib.1
+        for <user@domain.com>; Tue, 16 Jun 2015 18:10:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+         :cc:content-type;
+        bh=Kbq0IxcceggGpVD87Up4vCY9Ilabnyfn3ea1z2njbWw=;
+        b=cjsJSd1RYvAWHH7FyxD4O9HAYlSf7mYOxnc729zYTDGEc2CTd90a4wqNDiaC2fXlgU
+         GzRoVF6VaFAvhtXLglHUaJvfHJZdD8wap03xx454cxUL/AP8Lv2x4iIsmmLYxjU8rzMk
+         p3QdvSBv7tiHJJlOKJ78+9MWZBSf6psDxZyGI
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=Kbq0IxcceggGpVD87Up4vCY9Ilabnyfn3ea1z2njbWw=;
+        b=TRLObWYgLa3DYDhTJwK0ls+8lSfEZjiw+gcOlQ0kidYCNpnoi3iBRo2gj0Zi9XzSs8
+         4ERK8B2a3MQXx0kjQmqfRvEU5FYtDF5U/lNat4KV20FK5WyyfISlZdbdqfV9Fz486Nps
+         QgJTeAPn35QEi3XM0idcXipIkD10CnvMARAPzi51j3ytdMwwdzOcuGXP0hTtPV7WQHRU
+         D41p18CF5hdFlq27c2gYfwtv1ZTkeEuAwmAtvNsUBsF1W5G7kPcgjGHw61BQQqZi8uPH
+         CZOS2zulLdANyhFr5u3rNYJ+53zrc0odu0bI3a4yozCDPhtXPqSLnOuzh3F1/1M70pLY
+         HASg
+X-Gm-Message-State: ALoCoQmGDhKNYNfEZnmhUj9Zx+r59ethrw+RTS8lyfnBPeHEBJmmVtX82LvexyZATggP4ickXlTL
+X-Received: by 10.194.62.228 with SMTP id b4mr727206wjs.2.1434503410098; Tue,
+ 16 Jun 2015 18:10:10 -0700 (PDT)
+From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <-5253269989506350455@unknownmsgid> <-3701355125886681421@unknownmsgid>
+ <user@domain.com>
+In-Reply-To: <user@domain.com>
+Date: Tue, 16 Jun 2015 21:10:08 -0400
+Message-ID: <-7910761766760350358@unknownmsgid>
+Subject: Re: IAFF
+To: Brynne Craig <user@domain.com>
+CC: Robby Mook <user@domain.com>, 
+ Marlon Marshall <user@domain.com>, 
+ Amanda Renteria <user@domain.com>, 
+ Lona Valmoro <user@domain.com>, 
+ John user <user@domain.com>, 
+ Huma Abedin <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7bacc1103039c40518ac5a13
+
+Yep, this is coordinated with Kevin and David.
+
+These are our coordinated ideas for your decision.  They are heavily
+pressuring for a answer tomorrow AM if not tonight.
+
+1.  Keep it in DC or VA.  Schaitberger will call a special board meeting
+and the endorsement event will immediately follow.  They wanted August 24,
+although the scheduling sounds like it won't work on our end.
+
+2.  Option to host board meeting/endorsement event in early state.  If you
+want this option (which I strongly favor) Robby needs to call HAS one more
+time and propose.  It's teed up for him to say yes.
+
+My opinion, I think Iowa would be best.  It gives our IA team a labor bump
+when they've been struggling with labor/trade/Bernie.  It would be done
+well and would be good messaging.
+
+If possible tonight, could I get consensus that Iowa is the way we'd like
+to go, Robby will be calling HAS and the DC date of August 24 is now off
+the books?  We can schedule the Iowa date a later time.
+
+The IAFF is trying to be helpful and are very anxious to get back to Harold
+with our decision.
+
+What do you think?  Appreciate and apologize for the rush.
+Nikki
+
+Sent from my iPhone
+

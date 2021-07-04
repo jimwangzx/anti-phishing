@@ -1,0 +1,77 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp396238lfr;
+        Thu, 30 Jul 2015 12:25:34 -0700 (PDT)
+X-Received: by 10.52.7.170 with SMTP id k10mr18460963vda.81.1438284333575;
+        Thu, 30 Jul 2015 12:25:33 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-vk0-domain.com (mail-vk0-domain.com. [2607:f8b0:400c:c05::22e])
+        by domain.com with ESMTPS id if3si2411734vdb.10.2015.07.30.12.25.33
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 Jul 2015 12:25:33 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::22e as permitted sender) client-ip=2607:f8b0:400c:c05::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400c:c05::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-vk0-domain.com with SMTP id i6so13782262vkc.3
+        for <user@domain.com>; Thu, 30 Jul 2015 12:25:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Stephanie Hannon <hannon@hillaryclinton.com>
+        bh=XsrWYThAViQqpnE6e0FANZ9pnwNuCYmrDxlsye10gdY=;
+        b=UD2QWuxWCtA+xWQ8ynouIuFmRnvMy6pOPjKjovja7JP6GEADI7t+6qjD7r6cYe5qj1
+         ZG50b1SDPDO9M32ElNEUIHo6HRqfavfT7puDr5gVdL2FxN1lvStzxwG25VZx557mOCmF
+         SWA8pDS5y6PexBBKzkSywaqyweBbXDehwCdMI
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Stephanie Hannon <hannon@hillaryclinton.com>
+         :content-type;
+        bh=XsrWYThAViQqpnE6e0FANZ9pnwNuCYmrDxlsye10gdY=;
+        b=DX3Uj7Ux1WndqOEn5wCN6Xvbl3LUbVeiRkfJtb0ZjDL7M6e3Tu6hiYugixHfohSidg
+         bJ41h6JwUMbIyDwhedZYJbvezp81JCnp3Lpy/V0X0aBN5uzOPZW4CwRp7hPzL6FalASO
+         +HytaPIoH8msV0AGdI4uI0zuJUZrhUuSSUji4CiZHsDDo7cOogUpEUYl76aEchU64I38
+         DDGj+9u3WbzVLWGkgCn7iTfMmHfKl0evCBI/XnxJm0X3tH2KE6G70W6scD9EF+Iesaeh
+         /2Sk1TXfXEQY6rSFSSzbnGwDSKo0wuEdfwCNDSfhELpOEfWu4hGmcWV15nsV7oxTeWt2
+         kR2w
+X-Gm-Message-State: ALoCoQk06JPbolS5pVFG/Qu40hlzRO0pC8kPnrW9nQy2FrrWIo2kZwsEv22PxqS2XCoWPcgHSOOQ
+MIME-Version: 1.0
+X-Received: by 10.52.138.50 with SMTP id qn18mr50427975vdb.72.1438284332881;
+ Thu, 30 Jul 2015 12:25:32 -0700 (PDT)
+Received: by 10.31.67.71 with HTTP; Thu, 30 Jul 2015 12:25:32 -0700 (PDT)
+Date: Thu, 30 Jul 2015 15:25:32 -0400
+Message-ID: <user@domain.com>
+Subject: HRC Tech Roundtable on Aug 6th: Request for John to moderate
+From: Stephanie Hannon <hannon@hillaryclinton.com>
+To: Milia Fisher <user@domain.com>, 
+ John user <user@domain.com>, 
+ "Ann O'Leary" <user@domain.com>, 
+ Michael Smith <user@domain.com>
+Content-Type: multipart/alternative; boundary=bcaec52d4ea7bf712f051c1caa47
+
+John:
+
+Ann might have already written you. If so, I apologize, just trying to move
+extremely fast to get this organized.
+
+We need a senior campaign person to be with Hillary @ the Aug 6th Tech
+Roundtable from 11am to 12:30pm for support and facilitation. Brief on the
+invite we are sending out below, will be ~15 Silicon Valley leader (invite
+list will be final tomorrow). Not that we are better choices (we are not)
+but Ann, Teddy and I cannot be there. I know you'll already be in SF, can
+you take on this role?
+
+Thanks,
+Steph
+
+On Thursday, August 6th, Secretary Clinton will meet with a group of
+technology entrepreneurs, investors, and professionals, to discuss
+technological innovation and how it is contributing to economic growth and
+shaping the future of work in America.  Secretary Clinton looks forward to
+meeting with innovators and leaders from established software and IT firms,
+to new social media companies, to several =E2=80=9Con demand=E2=80=9D or 
+=E2=80=9Csharing economy=E2=80=9D
+companies.  She is excited to discuss with them=E2=80=94through a roundtabl
+e
+discussion=E2=80=94everything from their business models to their policy pr
+iorities.

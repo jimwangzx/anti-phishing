@@ -1,0 +1,454 @@
+Delivered-To: user@domain.com
+Received: by 10.52.171.33 with SMTP id ar1cs88378vdc;
+        Wed, 9 Mar 2015 10:32:20 -0800 (PST)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.3.67 as permitted sender) client-ip=10.229.3.67;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.3.67 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.229.3.67])
+        by 10.229.3.67 with SMTP id 3mr4756854qcm.3.1299695538122 (num_hops = 1);
+        Wed, 09 Mar 2015 10:32:18 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:x-beenthere:received-spf:mime-version:From: Sara DuBois <dubois.sara@gmail.com>
+         :message-id:subject:to:x-original-sender
+         :x-original-authentication-results:x-google-group-id:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe:content-type;
+        bh=d+d+7gd8NtDwIxkPqmLWI+CFdFHkklkiUyi1bCeNKTA=;
+        b=0VtHngF/c+lpRQKQmWjvIJohBzmz1ztOYyYxAjkA2RfMo2JKRmKUiYTp6KuNtREwH8
+         yBcDrnsEzFxkLEjud/LOCg7UriVEJqG2aVL0lLETtADk83q+wBb4NygNBY9bnbQ+A5En
+         Dm/TnfL4DB1swEGSwH+B/xrB3+ySgDBEHMl48
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:mime-version:From: Sara DuBois <dubois.sara@gmail.com>
+         :to:x-original-sender:x-original-authentication-results
+         :x-google-group-id:reply-to:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-type;
+        b=KuaISMIDWcnk3M+5sQ0s8rxTvSKZk74PGluVYeJWOvIdbJiFNQByAT0TZtnqbYC1Ek
+         kVgiVdy1EkeBKeLZmAJ7J6G2z9AgKPzyhmqOpGR9S2ZlGMtUv174Rei6fyYbpfpzR7Dr
+         2+6bEpzaftaram6GqhE5aWlMhYIx7BYNunuyY
+Received: by 10.229.3.67 with SMTP id 3mr1185558qcm.3.1299695516903;
+        Wed, 09 Mar 2015 10:31:56 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.229.205.76 with SMTP id fp12ls2329095qcb.0.p; Wed, 09 Mar 2015 
+ 10:31:56 -0800 (PST)
+Received: by 10.229.183.20 with SMTP id ce20mr717370qcb.17.1299695516132;
+        Wed, 09 Mar 2015 10:31:56 -0800 (PST)
+Received: by 10.229.183.20 with SMTP id ce20mr717369qcb.17.1299695516057;
+        Wed, 09 Mar 2015 10:31:56 -0800 (PST)
+Received: from mail-vx0-domain.com ([209.85.220.176])
+        by gmr-domain.com with ESMTPS id s6si439018qco.13.2011.03.09.10.31.54
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 09 Mar 2015 10:31:55 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.220.176 as permitted sender) client-ip=209.85.220.176;
+Received: by mail-vx0-domain.com with SMTP id 40so795168vxi.7
+        for <user@domain.com>; Wed, 09 Mar 2015 10:31:54 -0800 (PST)
+Received: by 10.52.91.78 with SMTP id cc14mr9953186vdb.75.1299695513184; Wed,
+ 09 Mar 2015 10:31:53 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.220.118.18 with HTTP; Wed, 9 Mar 2015 10:31:32 -0800 (PST)
+From: Sara DuBois <dubois.sara@gmail.com>
+Date: Wed, 9 Mar 2015 13:31:32 -0500
+Message-ID: <user@domain.com>
+Subject: =?windows-1252?Q?=5Bbig_campaign=5D_King_Hearings=3A_Security_Experts_Agree?
+	=?windows-1252?Q?_The_Biggest_Thing_To_Fear=85_Is_The_Fear=2DMongering?
+To: user@domain.com
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com:
+ domain of user@domain.com designates 209.85.220.176 as permitted
+ sender) user@domain.com; dkim=pass (test mode) user@domain.com
+X-Google-Group-Id: 329678006109
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>,
+ <mailto:bigcampaign+user@domain.com>
+Content-Type: multipart/related; boundary=20cf307f39dc61282e049e10f14b
+
+Hey folks, for those working on Peter King hearings on so-called Muslim
+"radicalization," here are  top security
+messages<%20<<link>>
+ty-points-03-09-11-1.pdf>and
+reading materials.  Please let me know if there's anything else.
+Thanks!
+
+ [image: NSNLogo.jpg]
+
+* *
+
+*On Muslim =93Radicalization=94 Hearings, National Security Experts Agree:
+The Biggest Thing To Fear=85 Is The Fear-Mongering*
+
+* *
+
+*On Thursday, March 10th, Chairman of the Homeland Security Committee Peter
+King (R-NY) is holding a hearing on =93The Extent of Radicalization in the
+American Muslim Community and that Community's Response.=94 HOWEVER=85*
+
+* *
+
+=B7         *What national security experts actually fear is fear itself=97
+and
+fear-mongering. * =93The most likely outcome of this hearing is that it wil
+l
+be a pointless political show. The worst-case scenario is that the hearing
+will actually play into the hands of al Qaeda
+recruiters<<<link>>
+dical-plots-20110222>
+=94 like top recruiter Anwar al Awalaki, who=92s issued ominous
+warnings<<<link>>>that =93The West will
+eventually turn against its Muslim citizens!=94 writes
+counterterrorism expert Brian Fishman. Juan Zarate, White House
+counterterrorism adviser under George W. Bush, citing concerns from nationa
+l
+security experts on =93all sides,=94 said the hearings could do
+damage<<<link>>>if they create a sense that
+there is a divide between Muslim organizations
+and mainstream America. [Brian Fishman, LA Times,
+2/22/11<<<link>>
+al-plots-20110222>.
+Juan Zarate via Washington Post,
+2/28/11<<<link>>
+011022703846_pf.html>
+]
+
+=B7         *Law enforcement officials dispute King=92s claims of
+non-cooperation. *LA County Sheriff Lee Baca has said, =93If [Peter King] h
+as
+evidence of non-cooperation, he should bring it forward... We have as much
+cooperation as we are capable of
+<<<link>>>acquiring through public trust
+relationships.=94 [Lee Baca, via Politico,
+2/7/10<<<link>>
+.html?showall>
+]
+
+=B7         *There=92s no empirical evidence of radicalization in American
+mosques. *Investigators for a Muslim American Public Opinion Survey
+concluded: =93To date, there has been no
+data<<<link>>>to
+demonstrate that mosques or devout Muslims are at risk of fostering
+radicalization.=94 Instead, King=92s claim that =9380 percent=94 of America
+n mosques
+are radicalized is based on =93a single, unsubstantiated
+claim<<<link>>>made by a
+California Muslim cleric in 1999,=94 according to a thorough
+examination by Media Matters. And this week, King newly suggested that *=93
+*only
+a =91very small minority=92<<<link>>
+/03/kings_witnesses_show_he_cant_s.html>of
+Muslims actually pose a danger to the U.S. [=85] exactly the opposite of
+what King has been saying all along.=94 [Matt Barreto & Karam Dana, Muslim
+American Public Opinion Survey,
+3/8/11<<<link>>>.
+Media Matters, 2/2/11 <<<link>>>. Adam
+Serwer, Washington Post,
+3/7/11<<<link>>
+how_he_cant_s.html>
+]
+
+=B7         *In fact, mosques - like churches and synagogues - draw
+communities together and help deter alienation and radicalization. *A 2015 
+Duke-UNC homeland security study found that mosques actually serve as a
+deterrent to terrorism <<<link>>>. The Muslim
+American Public Opinion Survey also concluded that, *=93*involvement with t
+he
+mosque, and increased religiosity increases civic engagement and support fo
+r
+American democratic
+values<<<link>>>,
+[=85] a finding in social science that is consistent with decades of resear
+ch
+on other religious groups such as Jews, Protestants.=94 [David Schanzer *et
+ al
+*, Triangle Center on Terrorism & Homeland Security,
+1/6/10<<<link>>
+nal.pdf>
+]
+
+=B7         *King=92s approach is not only ineffective, but counterproducti
+ve to
+American security. *As the Chairmen of 9/11 Commission have suggested,
+profiling one group =96as these hearings do- overloads the intelligence and
+law enforcement agencies with flimsy
+leads<<<link>>>and undersupplies
+them with crucial information <<<link>>> from
+community tips. [Peter Bergen and Bruce Hoffman, 9/11 Commissioners,
+9/10/10<<<link>>
+Threat%20Assessment.pdf>.
+David Schanzer,
+8/17/10<<<link>>
+us_do.html>
+]
+  **
+
+=B7         *Effective community policing requires a two-way
+conversation<<<link>>>that extends beyond
+conversations with and about cooperation with law
+enforcement, *writes counter-terrorism expert David Schanzer.  Americans
+worry about being able to pay their taxes, educate their kids and keep thei
+r
+families safe and healthy; Americans who practice Islam are no different.
+[David Schanzer,
+7/14/11<<<link>>
+anscript.pdfhttp:/domain.com/events/2010/07/inf/domain.com
+ytranscript.pdf>
+]
+
+=B7         *Fear not: Bipartisan leaders, including Presidents Barack Obam
+a
+and George W. Bush, remind us that America=92s diversity is its
+strength. *General
+Colin Powell asked <<<link>>> in 2008: "Is there
+something wrong with being a Muslim in this country? The answer's no, that'
+s
+not America.=94 George W. Bush
+said<<<link>>>in
+the days following Sept. 11
+th, 2001, =93The face of terror is not the true faith of Islam. That's not
+what Islam is all about. Islam is peace.=94 He concluded that Muslims
+practicing their faith =93must be not intimidated in America. That's not th
+e
+America I know.=94 Former Secretary of Homeland Security Michael
+Chertoff adds<<<link>>
+-homegrown-terror-threat/2/full/>that
+American values like =93social integration and religious tolerance=94 are
+=93important defenses against homegrown terrorists. We should be careful to
+maintain these traditional values even as we address new efforts by our
+enemies to establish footholds here at home.=94 [Colin Powell,
+10/19/08<<<link>>>.
+George W. Bush,
+9/12/01<<<link>>>
+.
+Michael Chertoff,
+1/1/10<<<link>>
+own-terror-threat/2/full/>
+]**
+
+* *
+
+=B7         *Divided we fall=85 Military and bipartisan security experts ag
+ree:
+This type of anti-Muslim fear-mongering is not only counter to our values
+but also our national security interests:
+
+General David Petraeus**,* U.S. Commander in Afghanistan, said that
+incidents like the proposed Koran burning in 2015 could "endanger troops an
+d
+it could endanger the overall
+effort<<<link>>
+igious-Freedom-Key-to-National-Security.pdf>here=85.
+[I]n fact, images from such activity could very well be used by
+extremists here and around the world." [David Petraeus via Human Rights
+First, 3/4/11<<<link>>
+ing-Religious-Freedom-Key-to-National-Security.pdf>
+]
+
+*Major General Paul Eaton*, US Army (Ret) and National Security Network
+senior advisor, explains how anti-Islamic rhetoric is harmful to the
+military's objectives: "This is unhelpful to the American fighting men and
+women and counter to the image we wish to portray in Afghanistan and Iraq."
+He added, "It is a slap in the
+face<<<link>>>to a great many people
+we wish to have as allies.=94 [Paul Eaton, via Media
+Matters, 8/16/10 <<<link>>>]
+
+*FBI interrogator Ali Soufan*, an American Muslim himself, warns that this
+sort of anti-Muslim rhetoric plays directly into the hands of our
+enemies<<<link>>>.
+Soufan, who successfully interrogated Abu Zubaydah and discovered that
+Khalid Sheikh Mohammad was the mastermind of the 9/11 attacks, writes: =93W
+hen
+demagogues appear to be equating Islam with terrorism, it's making young
+Muslims unsure about their place in the country. It bolsters the message
+that radicalizers are selling: That the war is against Islam, and Muslims
+are not welcome in America." [Ali Soufan,
+8/18/10<<<link>>
+nions-contributors-ali-soufan.html>
+]**
+
+=B7         *CONCLUSION: Counterterror experts, intelligence officials and 
+law
+enforcement agree: find terrorists based on behavior and engagement, not
+profiling and isolation. There are real threats, and the American system is
+handling them <<<link>>>. To improve security, we
+need to focus on actions and oversight and not abandon the values of
+tolerance and inclusion on which this country was formed. *[NSN,
+2/8/11<<<link>>>
+]
+
+<<link>>
+-09-11-1.pdf
+
+For more background on the security impact of the hearings, read
+here<<<link>>
+&e=3D001oRYRR2bKQY6dimRYo4PN1N4zwFJlV62EfveTnDpZs5ei1xU8cZNbZirRcqhOIvKxwVH
+WVHJjI8VzYmWzqvTqJRek6viPiE35D0yXj05YNSU67kBOhlzeAls3MEVU9sdD>
+.
+
+*
+*
+
+*ADDITIONAL READING MATERIALS on the King Hearings:*
+
+*National Security Experts*
+
+Scott Bates, "Homeland and Hometown Security," The
+Hill<<<link>>
+&e=3D001oRYRR2bKQY6MJDsZrbOLHo2aOmoOnpGXtH4TCytT1VwBYHv5gJqXGiLy7yqjaOeQU1I
+zqVlxX5uruMR5URvlqB1uNdY3GCo_oO35hSfSVWVFitPxh52rB-zdHy-rDIaR6ci-mkzmEBq_fE
+1afnSFPiSL_yjkk-6STAKrLZMRaKaVO-HcMrHVzsXlBWI-o8B11y-vepW7BqlC4ddRVyAnnw=3D
+=3D>,
+7 Mar 2011.
+
+Peter Beinart, "The Bigotry of Peter King," Daily
+Beast<<<link>>
+7&e=3D001oRYRR2bKQY5L7MQphtyzzDbSyrgXvYCkbtDKRsxVPp29zzxA1NKWMpMiPFzLosGCrb
+O7JnDUbKTeneeb_vNL0H_AF4ewfflNg1-gZhUX9xU5afLcAFamBW18tGqPOLv2gr95X9FMK-GNT
+TfEnJ1jcXY04VzePW0HRlbt-4LC2tZJLL6_LZpI1wsJN_89Uge8QKEUYrvHR8TDq1rfNDZt8Bdo
+nemBK3gfUJweTH6ywI3092SRIoOGpQ=3D=3D>
+,<<<link>>
+=3D001oRYRR2bKQY5L7MQphtyzzDbSyrgXvYCkbtDKRsxVPp29zzxA1NKWMpMiPFzLosGCrbO7J
+nDUbKTeneeb_vNL0H_AF4ewfflNg1-gZhUX9xU5afLcAFamBW18tGqPOLv2gr95X9FMK-GNTTfE
+nJ1jcXY04VzePW0HRlbt-4LC2tZJLL6_LZpI1wsJN_89Uge8QKEUYrvHR8TDq1rfNDZt8Bdonem
+BK3gfUJweTH6ywI3092SRIoOGpQ=3D=3D>6
+Mar 2011.
+
+Brian Fishman, "Talking Terrorism," LA
+Times<<<link>>
+7&e=3D001oRYRR2bKQY7BMmiIxoorodpTUO5eW6xSUzZymZaS2avghLBIvY2rN2yirKEAGjYn_0
+0GHsmmxcUnpZe6DeZsvIEhFtbHWOCzgyhUb-YU8rl3NoDCXAKxxELJA1NeE9k9np11TkF9OKxBN
+KWAjN5Szijdx2e8JRmaHCgSnkQ06OSsBxy9FcoWR0NLxnmMOggsuC8oso9b08I=3D>,
+22 Feb 2011.
+
+* *
+
+*National Columnists*
+
+Bob Herbert, "Flailing After Muslim," New York
+Times<<<link>>
+7&e=3D001oRYRR2bKQY4DsBc7wVTJAj5xmICOnBc9-domain.com
+Wj2yxE7ijgpWexC_n-mqEy78z-YUJjyN1_ca0tJpv2hjsx64Jd6szkCUnooao1pyJFSOiQyl3tJ
+IW0n-3lwnShrL5q8rv-9wQ-5rIT1aDEQ_9-3kX2v8SxSllSFWSrRcH8yvgc-jiyc-ag1_peL2t-
+iM2EB6YM>,
+8 Mar 2011.
+
+Eugene Robinson, "Stoking Irrational Fears About Islam," Washington
+Post<<<link>>
+&e=3D001oRYRR2bKQY4ASNZiWhjSoEmVDiFP_C-sfbvduriW95W0aZHMoDPtsKtgSJc9GVUPRDk
+T1gCf5-VUdnC0jbXM4k2ErRAaJKD6ssNCoKKCfU_oHTw8JUkwipK-7Ck6nK2PWobQGYyRfJbwiY
+V4AKwX-MWFgsuEZk1N57yb9P-1VFYQckpooVxD5CpDzccx467gazFyKhNj16UduPtyhxkBPA=3D
+=3D>
+,<<<link>>
+=3D001oRYRR2bKQY4ASNZiWhjSoEmVDiFP_C-sfbvduriW95W0aZHMoDPtsKtgSJc9GVUPRDkT1
+gCf5-VUdnC0jbXM4k2ErRAaJKD6ssNCoKKCfU_oHTw8JUkwipK-7Ck6nK2PWobQGYyRfJbwiYV4
+AKwX-MWFgsuEZk1N57yb9P-1VFYQckpooVxD5CpDzccx467gazFyKhNj16UduPtyhxkBPA=3D
+=3D>8
+Mar 2011.
+
+Roger Cohen, "Fuel for Bigots," Washington
+Post<<<link>>
+&e=3D001oRYRR2bKQY6q58suxuba-A0gL11hP-ETprl5JsJWXoQp9Tew4DHgPhcPD2T3jff39XJ
+zjwWFC-nPEVNWtIrAi-g5XFjMU4K0mm8RDTg2pSsh_QO_43ZAk2rz2-ZmWpFi_n3y77KvqxvQTw
+TahdpDiZDxfb3k370LFmZL8Qd2rtz40xc9Sd_u7MpCdwFdHyEL8zNxOTV50wtU_YzLq4l7gw=3D
+=3D>,
+8 Mar 2011.
+
+* *
+
+*Editorial Boards Across the Country*
+
+* *
+
+Editorial boards across the nation have spoken out against the hearings,
+including: the New York
+Times<<<link>>
+7&e=3D001oRYRR2bKQY61jz_6hXXayZvq3QNiBpeJfH3I_9YXq5VJoPnx39afWAUfNRswRyh5Vc
+tiSTancCY1zWEV0eivCFKrxXVedzPAuqTpG5pi5L6Tu9xHusxDSkaKL79tONvLOZkqm1zkwboY7
+tY4JzTzGuWAepM96uIPgTerPX1juOM=3D>,
+the Los Angeles
+Times<<<link>>
+7&e=3D001oRYRR2bKQY5MnnzK4Sejh67IbMQXVlDTXZqxwvafAz64YPd7Gf--KOyMgmHyRa9GV-
+bOLWV-lVaYVEgyjM9UTz1CWjXXdcWiNaXslwlJCylb3ileePDwnGyFa8e0pmVKP5_Xsu3YiYr-9
+gFjubGkaf8PmCDpfIuCCnZGlHKHet0EO2UK3UkFlQ=3D=3D>,
+the Star Tribune<<<link>>
+68&s=3D15897&e=3D001oRYRR2bKQY6dvdlr50wUjVmie8dLnjG9fRLXPvlISOGS5EXYI8Li3Mg
+qwfuyw7ONvLrRn-Lam72qi-qIZffyj9sTja9rZWNbdD1fYUTacmm7hLV7E8zsCMWFNbzYWpg7hd
+aRr0EIMJmssIlYRWV9bH7JOBVMT4hslDLhsSWi9jc=3D>(Minneapolis
+and St. Paul, MN), the Philadelphia
+Inquirer<<<link>>
+5897&e=3D001oRYRR2bKQY7fIy43BPRKbvdXDwMvOD8bbzdGpYeBOQauCBqbfYddgiwIZu_kA1R
+l993ZA6ylBmZzU_HmNF7y4QldEA4DJ_hedgQBeKRxDUNUTJWO33rNoDJDLrEU6eRUggAQzE1jNM
+WAco3fDmQ9-3fsG8qq7relQbgpmNdnxbLQTlSNFnvM79FJVzsCmyG5D4txdF3EbcoSTeWtYvTzs
+w=3D=3D>,
+The Scranton Times<<<link>>
+2768&s=3D15897&e=3D001oRYRR2bKQY53OGDDi2C4HpsnjDlvfCVJvVhuxDxtL5XWGHsdB5kgG
+Nf1CASgjOYGQfmS03tKzafysM5gWFcknjcH3eY7oHsn2L_fcYvLR8yS41rg3J7JYlIadUlY3DpF
+xiMQ8HCN893Z7LGBbqSkl1gQMXqZAebQcq1LUfQLrp4rVTbbksqFBXo4i8_qI_OuuLKJXz1zP2k
+=3D>,
+Newsday<<<link>>
+897&e=3D001oRYRR2bKQY6UyLYztDZ8QxOScOhX8XnqgKG2BlCBJqLdjSgGfBz6jNybwSPQi78o
+MAutybytm_iKKT35tBvJpgwjwVMwboVB-Dh6dHyRHzLdsaHizHi6hijXu1SCdk6eVhjNmKnrvl6
+kWgEvANMO-o8sqPhoW8xzdnaoW3cCQMw1BIbuiZOBKWlP5tFaLyZN>and
+the South
+Florida Sun-Sentinel<<<link>>
+162768&s=3D15897&e=3D001oRYRR2bKQY4GgYOBa5JM-uHMkt5LN1re8Bn-5SR8hN0c9CArii8
+ROFqFgMefgIqsClQEANAU1MBsUQFzATqmaeO_qPOpsDXthOtnCsd2f2LYpS1YrH2gi42mQQF4O0
+6ZJJcEN8j05llo-cKhtS5OcMRNyM-vbUyUIiwVhDRY4uPMQxtN8b7wd1VXBV6yj8-Vib-_UPBQ7
+UszNq6p2wp47dS6jbNDUPevisSdrMS1sZ5OcvreJ8Id-Wh8j380_sa49XtIP7EdKP6E9eZbKtGX
+XtmnQFtfnd_hcThVraDVBq2N2TP5OLd45AKvy_P2g8RUvbm-rHj0xNBUpqDFb-yXvdH18qNUsX_
+sFqDuW0-g_q3-vKBcJAP8sw=3D=3D>
+.
+
+*Interfaith Leaders*
+
+David Gushee, "Hearing on Muslims Could Harm Us All," USA
+Today<<<link>>
+7&e=3D001oRYRR2bKQY77YF6yQ9hGlUKXrgAFeKZ6U2ElPB3v129TvRobbucnUi2Kbcw4oeGRtJ
+NlxHsNXUfqMZ9cdt59P9wCfJ_t63ioM0VjGgCmYKY6gltUTergc72qTCi3iZ7i4Qfgz6hBQGjQV
+nr3SX_Eh-jWW0jXZrJNKxvqZEJgaksYBi683BBR_2r1P1pXXL6E>,
+7 Mar
+
+2011.
+
+* *
+
+*Leaders on Capitol Hill*
+
+Rep. Mike Honda (D-CA), "Hearings on Muslim Americans is un-American," San
+Francisco Chronicle<<<link>>
+62768&s=3D15897&e=3D001oRYRR2bKQY7yxqwRQ0rl4J2EaAt7Zrg0ywuHQgFBXg_239Ph6PFN
+YsVrycywyUIN6eVGdMPT-sMk5Xn1nBKQOAq1zD7cge365TpYndQi8H2CKym_3zKJ5Inq3ZFABGS
+ZrVSmdJsBl-J9r1JoIoNxvf5VVjRXfUAp7-EnBMw77HrBHev3PZSsqwt0Ktj1uf_PAYOsCxtu82
+01fIGmRRH9cA=3D=3D>,
+28 Feb 2011.
+
+Rep. Bennie Thompson (D-MS), "Home Grown Terrorists Are Not Just Muslim,"
+Politico<<<link>>
+5897&e=3D001oRYRR2bKQY7NpOlhW9E2YyA8zW1nsT_mjBtRuzePS2FHEY8u134hXCSNLbAB27c
+6sqDx61As0NkTfT4TFHXdKpp1H1No72_x0ryGXt_QTQ2X9TRjbXbujltVuDTlFNBttXZrYevnb_
+aMrDkJUp-YbmKh-x0mzY54>,
+27 Jan 2011.
+
+--
+Sara DuBois
+410.967.7306
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

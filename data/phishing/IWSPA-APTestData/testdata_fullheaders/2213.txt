@@ -1,0 +1,134 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.71 with SMTP id o68csp72232lfi;
+        Fri, 6 Mar 2015 13:54:03 -0800 (PST)
+X-Received: by 10.70.52.8 with SMTP id p8mr29037731pdo.27.1425678842900;
+        Fri, 06 Mar 2015 13:54:02 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.128])
+        by domain.com with ESMTPS id bs5si5123844pdb.127.2015.03.06.13.54.01
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 06 Mar 2015 13:54:02 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.55.169.128 as permitted sender) client-ip=65.55.169.128;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 65.55.169.128 as permitted sender) user@domain.com
+Received: from domain.com (25.160.131.24) by
+ domain.com (25.160.134.148) with Microsoft
+ SMTP Server (TLS) id 15.1.93.16; Fri, 6 Mar 2015 21:53:59 +0000
+Received: from domain.com ([25.160.131.24]) by
+ domain.com ([25.160.131.24]) with mapi id
+ 15.01.0106.007; Fri, 6 Mar 2015 21:53:59 +0000
+From: Heather Boushey <HBoushey@equitablegrowth.org>
+To: Ed Paisley <user@domain.com>, 
+ Eryn Sepp <user@domain.com>, 
+ John user <user@domain.com>
+CC: Elisabeth Jacobs <user@domain.com>
+Subject: Re: Sandler Education think tank startup info
+Thread-Topic: Sandler Education think tank startup info
+Thread-Index: AQHQWFcB9gK/XqPdDUqAY21vIOuDmZ0Pq48A
+Date: Fri, 6 Mar 2015 21:53:59 +0000
+Message-ID: <D11F8C07.808DA%user@domain.com>
+In-Reply-To: <D11F6739.1C065%user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [173.73.216.18]
+authentication-results: equitablegrowth.org; dkim=none (message not signed)
+ header.d=none;
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:;SRVR:DM2PR0801MB1102;
+x-microsoft-antispam-prvs: <user@domain.com>
+x-forefront-antispam-report: BMV:0;SFV:NSPM;SFS:(10019020)(164054003)(15374003)(69234005)(377454003)(92566002)(19625215002)(16236675004)(19580395003)(15975445007)(106116001)(66066001)(2656002)(87936001)(2900100001)(102836002)(2950100001)(99286002)(77156002)(86362001)(450100001)(46102003)(50986999)(19617315012)(19580405001)(40100003)(62966003)(16601075003)(36756003)(54356999)(19300405004)(122556002)(80792004);DIR:OUT;SFP:1102;SCL:1;SRVR:DM2PR0801MB1102;H:domain.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:;SRVR:DM2PR0801MB1102;
+x-forefront-prvs: 05079D8470
+Content-Type: multipart/alternative;
+	boundary="_000_D11F8C07808DAhbousheyequitablegrowthorg_"
+MIME-Version: 1.0
+X-OriginatorOrg: equitablegrowth.org
+X-MS-Exchange-CrossTenant-originalarrivaltime: 06 Mar 2015 21:53:59.2013
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 95240400-c9d6-4524-bb2a-c19c8db6111c
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM2PR0801MB1102
+
+Thanks, Ed.
+
+From: Heather Boushey <HBoushey@equitablegrowth.org>
+domain.com>>
+Date: Friday, March 6, 2015 at 4:46 PM
+To: Eryn Sepp <user@domain.com<mailto:user@domain.com>>
+, Heather Boushey <user@domain.com<mailto:user@domain.com
+domain.com>>, John user <user@domain.com<mailto:user@domain.com
+com>>, Ed Paisley <user@domain.com<mailto:user@domain.com
+domain.com>>
+Cc: Elisabeth Jacobs <user@domain.com<mailto:user@domain.com
+domain.com>>
+Subject: Sandler Education think tank startup info
+
+FYI earlier today I met with the two folk from the Sandler's new education 
+think tank. They are moving rapidly, having already signed a lease on space
+ at Dupont Circle and in the Stanford Research Center, hired two out of the
+ 15 anticipated staff in DC and three of the anticipated six in California,
+ and are now looking for the best systems (tech, pubs, legal, finance) to r
+oll into. I didn't probe too much but their questions indicate that they ar
+e considering how to ramp up quickly in hiring but debating the kind of bac
+k-end hires they need to make (legal, HR, finance, tech) either in house or
+ contracted.
+
+Final Sandler slides coming shortly
+
+From: Heather Boushey <HBoushey@equitablegrowth.org>
+
+Date: Friday, March 6, 2015 2:13 PM
+To: Heather Boushey <user@domain.com<mailto:user@domain.com
+domain.com>>, John user <user@domain.com<mailto:user@domain.com
+l.com>>
+Cc: Ed Paisley <user@domain.com<mailto:user@domain.com
+h.org>>, Elisabeth Jacobs <user@domain.com<mailto:user@domain.com
+domain.com>>
+Subject: RE: Slides + script for Monday
+
+Hi Heather-I have some changes to the competition matrix from John that I'l
+l start typing up now in tracked changes.  John would like to know why we c
+an't fit the longer substance in the slide presentation (or put more correc
+tly, why did we shorten it for the slide presentation?).
+
+I believe we're still waiting on #18, the 2015 objectives, is that correct?
+
+Also, he asks if we could number the slides?
+
+Thank you!  Here at 202-741-6386 if you need us,
+Eryn
+
+From: Heather Boushey <HBoushey@equitablegrowth.org>
+Sent: Friday, March 06, 2015 12:43 PM
+To: John user
+Cc: Eryn Sepp; Ed Paisley; Elisabeth Jacobs
+Subject: Slides + script for Monday
+
+Hello John,
+
+Here's the slides and a script I put together to go with them. The last sli
+des got cut off - our 2015 objectives, the budget, and the Appendix table o
+f contents, but those are both in the Appendix materials I just sent you an
+d we'll fix in the next iteration.
+
+The script has questions about two slides that emphasize the point, but are
+ a bit redundant and we're wondering if we should cut them for space.
+
+Thanks,
+HMB
+
+^^^^^^^^^^^^^^^^^^^^^^
+Heather Boushey
+Executive Director and Chief Economist
+Washington Center for Equitable Growth
+1333 H Street, NW, 2nd Floor
+Washington, DC 20005
+
+user@domain.com<mailto:user@domain.com>
+domain.com<<<link>>>
+Desk: (202) 545-3341
+Twitter: @hboushey
+

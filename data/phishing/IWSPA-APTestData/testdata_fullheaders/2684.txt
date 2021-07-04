@@ -1,0 +1,101 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp1040993lfi;
+        Sun, 12 Apr 2015 18:26:30 -0700 (PDT)
+X-Received: by 10.55.52.18 with SMTP id b18mr24711377qka.85.1428888390096;
+        Sun, 12 Apr 2015 18:26:30 -0700 (PDT)
+Return-Path: <hrcrapid+user@domain.com>
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [2607:f8b0:400d:c09::23c])
+        by domain.com with ESMTPS id g140si8525883qhc.92.2015.04.12.18.26.28
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 12 Apr 2015 18:26:30 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of hrcrapid+user@domain.com designates 2607:f8b0:400d:c09::23c as permitted sender) client-ip=2607:f8b0:400d:c09::23c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of hrcrapid+user@domain.com designates 2607:f8b0:400d:c09::23c as permitted sender) smtp.mail=hrcrapid+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=googlegroups.com
+Received: by mail-qk0-domain.com with SMTP id w1sf98653669qkb.1;
+        Sun, 12 Apr 2015 18:26:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20120806;
+        h=content-type:mime-version:subject:From: "'Mandy Grunwald' via HRCRapid" <hrcrapid@googlegroups.com>
+         :content-transfer-encoding:message-id:references:to
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive:sender
+         :list-unsubscribe:reply-to;
+        bh=5NzMLQRI0AE9rHgDji7g6B3EN1MkfY5goJCvM2z1hSI=;
+        b=gGRN2bZN+5GF7RDe4y5pwcvWqzRi4RBeOGwlMD31F6P/l09VmJxCR3/nW6uZ6UKFUF
+         NjUCkdqYbwwkhKgyP3ptqrVG4CFkBE9KEmZ3kPK5PhZVa61FWu+jYNClhrg+s/T4ijut
+         fFAqZc1EmZZ1q74EdRTPNZnvQLVyBAsVyV5kla6/Q3scOIWizSabqt4EtivDk5DRPRmS
+         4Kw+KDELooyL+otgJWz8X8Uqg8C+BBaddOXZZKvrlkjPzZp30jUxHk9Qt1AxJvhF8uEv
+         NcUcn77EZafzyJurQYjd3ytatIqypuYHIRKTDx5p+/VXlmKuj1EKvy8629oaf8LDAclR
+         2U4w
+X-Received: by 10.140.94.170 with SMTP id g39mr131777qge.34.1428888388716;
+        Sun, 12 Apr 2015 18:26:28 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.140.109.230 with SMTP id l93ls285989qgf.39.gmail; Sun, 12 Apr
+ 2015 18:26:28 -0700 (PDT)
+X-Received: by 10.52.137.141 with SMTP id qi13mr17197343vdb.5.1428888388557;
+        Sun, 12 Apr 2015 18:26:28 -0700 (PDT)
+Received: from omr-domain.com (omr-domain.com. [64.12.143.79])
+        by gmr-domain.com with ESMTPS id g6si367788qcg.2.2015.04.12.18.26.28
+        for <user@domain.com>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 12 Apr 2015 18:26:28 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.12.143.79 as permitted sender) client-ip=64.12.143.79;
+Received: from mtaout-domain.com (mtaout-domain.com [172.26.50.173])
+	by omr-domain.com (Outbound Mail Relay) with ESMTP id 66120704F571C;
+	Sun, 12 Apr 2015 21:26:28 -0400 (EDT)
+Received: from [10.112.166.236] (mobile-166-171-056-103.domain.com [166.171.56.103])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mtaout-domain.com (MUA/Third Party Client Interface) with ESMTPSA id 9A27A380000A2;
+	Sun, 12 Apr 2015 21:26:26 -0400 (EDT)
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-84F437F6-4039-46C7-8BC8-17A9AFAB6EE3
+Mime-Version: 1.0 (1.0)
+Subject: Re: Hillary Clinton 2015: She hits the road
+From: "'Mandy Grunwald' via HRCRapid" <hrcrapid@googlegroups.com>
+X-Mailer: iPhone Mail (12B440)
+In-Reply-To: <616909901495826832@unknownmsgid>
+Date: Sun, 12 Apr 2015 21:26:29 -0400
+CC: "Margolis, Jim" <user@domain.com>, 
+ Karen Finney <user@domain.com>, 
+ Jesse Ferguson <user@domain.com>, 
+ "user@domain.com" <user@domain.com>
+Content-Transfer-Encoding: 7bit
+Message-Id: <675user@domain.com>
+References: <user@domain.com> <-5716085714051651174@unknownmsgid> <user@domain.com> <616909901495826832@unknownmsgid>
+To: Robby Mook <user@domain.com>
+x-aol-global-disposition: G
+x-aol-sid: 3039ac1a32ad552b1b421403
+X-AOL-IP: 166.171.56.103
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com;       spf=pass
+ (domain.com: domain of user@domain.com designates 64.12.143.79 as permitted
+ sender) user@domain.com;       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact hrcrapid+user@domain.com
+List-ID: <hrcrapid.googlegroups.com>
+X-Google-Group-Id: 612515467801
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:hrcrapid+user@domain.com>
+List-Archive: <<<link>>
+Sender: user@domain.com
+List-Unsubscribe: <mailto:googlegroups-manage+612515467801+user@domain.com>,
+ <<<link>>>
+X-Original-From: "'Mandy Grunwald' via HRCRapid" <hrcrapid@googlegroups.com>
+Reply-To: Mandy Grunwald <user@domain.com>
+
+Amazing to have kept the road trip secret and be able to surprise everyone.
+
+
+
+Great job all.
+
+Go Scooby!
+
+Mandy Grunwald
+Grunwald Communications
+202 973-9400
+

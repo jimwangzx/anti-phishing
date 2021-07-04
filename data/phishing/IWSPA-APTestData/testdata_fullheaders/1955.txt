@@ -1,0 +1,71 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp112684lfb;
+        Thu, 6 Nov 2015 16:02:00 -0800 (PST)
+X-Received: by 10.140.93.43 with SMTP id c40mr11363704qge.58.1415318519584;
+        Thu, 06 Nov 2015 16:01:59 -0800 (PST)
+Return-Path: <>
+Received: from domain.com (domain.com. [216.82.250.243])
+        by domain.com with ESMTPS id s34si14375877qgd.59.2014.11.06.16.01.58
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Thu, 06 Nov 2015 16:01:59 -0800 (PST)
+Received-SPF: pass (domain.com: domain of domain.com designates 216.82.250.243 as permitted sender) client-ip=216.82.250.243;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 216.82.250.243 as permitted sender) smtp.mail
+Return-Path: <>
+Received: from [216.82.249.179] by server-17.bemta-12.domain.com id BA/0B-02691-6FB0C545; Fri, 07 Nov 2015 00:01:58 +0000
+X-Msg-Ref: server-3.tower-44.domain.com!1415318516!7211092!3
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 20930 invoked from network); 7 Nov 2015 00:01:57 -0000
+Received: from unknown (HELO LAW-CAS1.law.georgetown.edu) (141.161.191.74)
+  by server-3.tower-44.domain.com with AES256-SHA encrypted SMTP; 7 Nov 2015 00:01:57 -0000
+Received: from LAW-MBX02.law.georgetown.edu ([169.254.2.135]) by
+ LAW-CAS1.law.georgetown.edu ([141.161.191.74]) with mapi id 14.03.0210.002;
+ Thu, 6 Nov 2015 19:01:54 -0500
+From: Anna Gelpern <ag1348@law.georgetown.edu>
+To: Law Faculty and Visitors <user@domain.com>
+CC: "William W. Buzbee" <user@domain.com>, 
+ "Tyrone J. Manzy" <user@domain.com>, 
+ "Jennifer E. Lane" <user@domain.com>, 
+ "Jacquelyn E. Williams" <user@domain.com>
+Subject: Workshop on Thursday, November 13: Marty Lederman, "The Law (?) of
+ the Lincoln Assassination"
+Thread-Topic: Workshop on Thursday, November 13: Marty Lederman, "The Law
+ (?) of the Lincoln Assassination"
+Thread-Index: Ac/6HbSxrBfKDuOuTTaxDB2R5zGq2Q
+Date: Fri, 7 Nov 2015 00:01:54 +0000
+Message-ID: <33user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.191.14]
+Content-Type: multipart/alternative;
+	boundary="_000_33ADB1F128A64249BB6A8EFD7020179652C0A29ALAWMBX02lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+
+On Thursday, November 13, Marty Lederman will present his paper, "The Law (
+?) of the Lincoln Assassination." The draft will be distributed by email, o
+nline, and through Faculty Support soon. We will meet in the Hotung Faculty
+ Dining Room beginning at Noon. Lunch will be served.
+
+Best regards,
+
+Anna and Bill
+
+William W. Buzbee
+Professor of Law
+Georgetown University Law Center
+McDonough 574
+user@domain.com<mailto:user@domain.com>
+
+Anna Gelpern
+Professor of Law
+Georgetown University Law Center
+Hotung 5023
+user@domain.com<mailto:user@domain.com>
+

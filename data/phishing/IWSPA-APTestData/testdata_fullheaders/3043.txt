@@ -1,0 +1,99 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.9 with SMTP id o9csp421594lfi;
+        Fri, 6 Feb 2015 09:13:08 -0800 (PST)
+X-Received: by 10.140.20.83 with SMTP id 77mr9525684qgi.40.1423242788358;
+        Fri, 06 Feb 2015 09:13:08 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.193])
+        by domain.com with ESMTPS id ia1si3601739qcb.17.2015.02.06.09.13.07
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Fri, 06 Feb 2015 09:13:08 -0800 (PST)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.193;
+Authentication-Results: domain.com;
+       spf=none (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.241.243] by server-1.bemta-8.domain.com id 04/49-08840-326F4D45; Fri, 06 Feb 2015 17:13:07 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-12.tower-192.domain.com!1423242786!8887486!2
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 6336 invoked from network); 6 Feb 2015 17:13:06 -0000
+Received: from unknown (HELO LAW-CAS1.law.georgetown.edu) (141.161.191.74)
+  by server-12.tower-192.domain.com with AES256-SHA encrypted SMTP; 6 Feb 2015 17:13:06 -0000
+Resent-From: University Conflict of Interest Committee <coiadmin@georgetown.edu>
+Received: from domain.com (216.82.255.55) by
+ LAW-CAS1.law.georgetown.edu (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Fri, 6 Feb 2015 12:13:06 -0500
+Received: from [216.82.254.67] by server-3.bemta-7.domain.com id
+ D4/57-02996-126F4D45; Fri, 06 Feb 2015 17:13:05 +0000
+X-Env-Sender: user+user@domain.com
+X-Msg-Ref: server-4.tower-196.domain.com!1423242784!8081774!1
+X-Originating-IP: [209.85.216.174]
+X-SpamWhitelisted: domain whitelist
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 23387 invoked from network); 6 Feb 2015 17:13:05 -0000
+Received: from mail-qc0-domain.com (HELO mail-qc0-domain.com)
+ (209.85.216.174)  by server-4.tower-196.domain.com with RC4-SHA
+ encrypted SMTP; 6 Feb 2015 17:13:05 -0000
+Received: by mail-qc0-domain.com with SMTP id s11so12918458qcv.5
+        for <user@domain.com>; Fri, 06 Feb 2015 09:13:04 -0800
+ (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :date:From: University Conflict of Interest Committee <coiadmin@georgetown.edu>
+         :list-unsubscribe;
+        bh=Az7bpwPwJZ9Nw36tFQ1R3jRH8jk+QFQDpb9RrBrIhDo=;
+        b=jyM8JTydf0jIQ+dTOhJJKsZrVM1H3HMFMB4zq6J/uWZ116zLxJeHQFGIxGC2+dldi+
+         EW9grN/XejLArrs64Wv46LervSTJZOEOkg3k7ZuPF14JdhNUb8xXF6+tD4o4sFF98Npj
+         y1iJ0qAR7gTpnI5PrTkDX9zGgnDJWvrFCaudUeJPZs3b4ubbxJGuqm3ij77HqLjRZITj
+         FNE3yVZXXHuabpdzlPln40tuEFJzJEx7guzOgBFxB0L6XGAUWlNa3dxw/Q9lhk1epk3q
+         K1nxlGXqY0Q/owtouvxiAasVDTCg/pT6spskYubWvAA7QmrjYMjNbL9La+EtlytcLKji
+         8UXQ
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com: domain of user@domain.com designates 208.85.51.114 as permitted sender) user@domain.com
+X-Gm-Message-State: ALoCoQkcdnPC8Uc2zJNFqraRQLf5flKPkG6vTNKNLx1jCs6dPxJMsmZbDG7ZQhLy1ID7WmXGuWaI
+X-Received: by 10.224.79.82 with SMTP id o18mr10165398qak.3.1423242784720;
+        Fri, 06 Feb 2015 09:13:04 -0800 (PST)
+X-Forwarded-To: user@domain.com
+X-Forwarded-For: user@domain.com user@domain.com
+Delivered-To: user@domain.com
+Received: by 10.140.25.150 with SMTP id 22csp213462qgt;        Fri, 6 Feb 2015 
+ 09:13:04 -0800 (PST)
+X-Received: by 10.224.41.6 with SMTP id m6mr9997252qae.41.1423242784159;
+        Fri, 06 Feb 2015 09:13:04 -0800 (PST)
+Received: from domain.com
+ (domain.com. [208.85.51.114])        by domain.com
+ with ESMTP id y8si3495454qaj.83.2015.02.06.09.13.04        for
+ <user@domain.com>;        Fri, 06 Feb 2015 09:13:04 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.85.51.114 as permitted sender)
+Received: by domain.com id hqjr2019if4g for
+ <user@domain.com>; Fri, 6 Feb 2015 17:12:10 +0000 (envelope-from
+ <user@domain.com>)
+Date: Fri, 6 Feb 2015 17:12:10 +0000
+From: University Conflict of Interest Committee <coiadmin@georgetown.edu>
+Reply-To: <user@domain.com>
+To: user@domain.com
+Message-ID: <10456360.669443451423242730277.user@domain.com>
+Subject: Annual Conflict of Interest Disclosure Process
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_333528_220126374.1423242729786"
+x-mid: 22096075
+x-job: 22096075
+x-rpcampaign: sp22096075
+x-orgId: 15865
+List-Unsubscribe: <mailto:user@domain.com?subject=Unsubscribe>
+
+  Colleagues---I wanted to inform you th
+at last week's Financial Conflict of Interest Policy disclosure system prob
+lems have been resolved. You will receive shortly a message from your campu
+s COI Officer providing information and instructions about how to
+ access the disclosure system and complete your disclosure.  Please lo
+ok for this message and complete your disclosure by the new deadline, which
+ is February 23, 2015.Thank you.Jim W
+ardChair, University Conflict of Interest Committee

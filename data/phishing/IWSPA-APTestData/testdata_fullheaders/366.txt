@@ -1,0 +1,115 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.101 with SMTP id o98csp205595lfi;
+        Wed, 24 Jun 2015 20:08:42 -0700 (PDT)
+X-Received: by 10.140.147.14 with SMTP id 14mr53643780qht.97.1435201722044;
+        Wed, 24 Jun 2015 20:08:42 -0700 (PDT)
+Return-Path: <3user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::249])
+        by domain.com with ESMTPS id 35si25780283qga.22.2015.06.24.20.08.41
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 24 Jun 2015 20:08:41 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400d:c04::249 as permitted sender) client-ip=2607:f8b0:400d:c04::249;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400d:c04::249 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qg0-domain.com with SMTP id z60so1363140qgd.0
+        for <user@domain.com>; Wed, 24 Jun 2015 20:08:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: kofferdahl@hillaryclinton.com
+        bh=SeRIfmQTjWH23exF4lsu/Fnt3v2I6d4Lki7J/9fsgJA=;
+        b=NE4sjiWrDJriGJJyRqosqdaWRWC+z4pV8dh7ESj16Mf+rRjD6NpkZn0EfG1OoksMZz
+         KcWdgSKxY4zRbO9swoM30N7aQP1K7Da3JLG15C46tfo3l2A/csU6nci2CmTRhSYU0d79
+         DAXpyTu2CXJWB54thXd+LG9B8VXrxuW0AscIPVAt/41iYUKawU4n4qC+h018q+8skksN
+         wb1+JGjh91ykp+XEC/MudY58NrcEvvD3kDH2+Fw7fKCy/ixj6bN+yAhW8o/gLKH00uk6
+         mQJ/O14CDWyDTrA+uiyOxxYQbLXLmUj59kJXSI5kl3M6her1GE6WGjhm+0fTRMrsPCOf
+         0g4g
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: kofferdahl@hillaryclinton.com
+        bh=SeRIfmQTjWH23exF4lsu/Fnt3v2I6d4Lki7J/9fsgJA=;
+        b=NNXKSn+vncJSKobhXXduioxPQuhRPvKhut71qnABzNJBorRBYPRHzsClyoS60ld3wi
+         5qHQOysMu//WRaz/PcUxncR0N13RbQL4LYBBQW5+ZTETstbgr8VXzVwJTqRlbQwIYRvr
+         0L4EVelPwYgHBV8bsCaVyG1rgZrb9z63wo21U
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: kofferdahl@hillaryclinton.com
+        bh=SeRIfmQTjWH23exF4lsu/Fnt3v2I6d4Lki7J/9fsgJA=;
+        b=Rins7NHI6H+ZhgUQDt8+VCWgQohHC8cCiMmS/U7k56RM+U9YeSkhjdItA5bhbor3nj
+         4xBMKqd5rBVZCCPKmMEJU1kIOpw3kPzlY9CN+rCWHFOvv1P2vsQzgThq8vK68/xjdLXB
+         jghcyIO6FXt5jEjcv8K3rCHIzfda+iWX18wbouof7U3QQ9SHI974L70dXXk2mKScoenk
+         nPYpuVVSvwShzKHLyGBvioPlHlqsVID+esuLWfzsox+mhGeMrnPMKtMLfH4xhFqqbPLT
+         WMPQxkv6WtHANUZYUM512lw+4Zq44fIRcnlj1oNTks/P9TJC/ngFf0ewXYYI+UusFtib
+         PDlg
+X-Gm-Message-State: ALoCoQmcgTgjADJI9JWMW8R51G7ragL6GyR5WZKt+mh3HWSOzTf3ozvD3EPVLzNvzmunjKGfMDFa
+MIME-Version: 1.0
+X-Received: by 10.13.255.68 with SMTP id p65mr16366411ywf.39.1435201721338;
+ Wed, 24 Jun 2015 20:08:41 -0700 (PDT)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <94user@domain.com>
+Date: Thu, 25 Jun 2015 03:08:41 +0000
+Subject: Canceled Event: Daily Senior Staff Meeting @ Thu Jun 25, 2015 9am -
+ 9:30am (user@domain.com)
+From: kofferdahl@hillaryclinton.com
+To: user@domain.com
+Content-Type: multipart/mixed; boundary=94eb2c086512c82c8c05194ef021
+
+This event has been canceled and removed from your calendar.
+
+Title: Daily Senior Staff Meeting
+Purpose:  Flagging major issues, department daily updates and needs.
+
+Agenda:
+1. Robby's major issues
+2. Major issues today
+3. Department updates
+When: Thu Jun 25, 2015 9am - 9:30am Eastern Time
+Where: Iowa Conference Room / or Dial-In Number: (718) 766-5165 (no pin)
+Calendar: user@domain.com
+Who:
+     * Robby Mook - organizer
+     * Marissa Astor - creator
+     * Christina Reynolds
+     * user Carrk
+     * Maya Harris
+     * marlon marshall
+     * Dennis Cheng
+     * Katie Dowd
+     * Jake Sullivan
+     * Kristina Schake
+     * Teddy Goff
+     * John user
+     * Beth Jones
+     * Amanda Renteria
+     * Huma Abedin
+     * Oren Shur
+     * Jennifer Palmieri
+     * user@domain.com
+     * user@domain.com
+     * Marc Elias
+     * Stephanie Hannon
+     * Elan Kriegel
+     * user@domain.com
+     * Charles Baker
+     * user@domain.com - optional
+     * Sawsan Bay - optional
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for cancellations on calendar user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to modify your RSVP  
+response. Learn more at  
+<<link>>#forwarding

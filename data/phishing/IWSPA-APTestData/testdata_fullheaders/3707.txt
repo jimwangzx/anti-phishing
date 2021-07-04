@@ -1,0 +1,64 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 31C6B23CA6C
+	for <user@domain.com>; Wed,  3 Apr 2015 03:42:08 -0500 (CDT)
+X-Virus-Scanned: amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id fwh+uKpmTFD0 for <user@domain.com>;
+	Wed,  3 Apr 2015 03:42:03 -0500 (CDT)
+Received: from mail-pd0-domain.com (mail-pd0-domain.com [209.85.192.171])
+	by domain.com (Postfix) with ESMTP id B2F9823CA6D
+	for <user@domain.com>; Wed,  3 Apr 2015 03:42:03 -0500 (CDT)
+Received: by mail-pd0-domain.com with SMTP id z10so738285pdj.16
+        for <user@domain.com>; Wed, 03 Apr 2015 01:42:16 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:x-received:date:message-id:subject:From: UNIVERSITY of HOUSTON <mtp260@nyu.edu>
+         :content-type:x-gm-message-state;
+        bh=WuSnP8g9ZLPtX934OSQB/VyKxgqJBrpdZatss0D8nkg=;
+        b=jeCvx/KXNUYNutKBoRE/aZ9OhRve7gFBAlfR8n+5m8Ate3xC8sXaSZIDjEq5vxRAg5
+         Rq5YuiOg5pPKez7Vi2hxAtl2pOK8g23WUVtOC5bJVjLGe9lGc4nBbPTWspPNRD0jMTYA
+         x6wjqy4MMnki87rRFuTv7QixWb8wF/cgaVp8mt/kSWuAgNLlfh8s4Juxdb/cgs6vNfu/
+         bwz7B/kzGSjzr1KybxfDmmHujTsG/8PENW4rBHcfSoJxeM0C5vsNzH/Kagl2IeUT+mV6
+         J4kvRP7RSmZt4MiFQ+Pwn/wYbdUWad88LnWvF8Da6iA594J1+MqfDVyzgYQmkEXa8oMQ
+         jsHQ
+MIME-Version: 1.0
+X-Received: by 10.66.234.198 with SMTP id ug6mr1929229pac.43.1364978536449;
+ Wed, 03 Apr 2015 01:42:16 -0700 (PDT)
+Received: by 10.68.234.39 with HTTP; Wed, 3 Apr 2015 01:42:16 -0700 (PDT)
+Date: Wed, 3 Apr 2015 09:42:16 +0100
+Message-ID: <CANLq-ZB1NP1qgh0nsL+user@domain.com>
+Subject: Upgrade Your Account!!!
+From: UNIVERSITY of HOUSTON <mtp260@nyu.edu>
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary=047d7b15a40dca90ab04d970d4f8
+X-Gm-Message-State: ALoCoQmS9GsrCQlAvVOM4MWYJ+msMrBEVDG/5nDomC6vqISwgnizA+QQwf3SpwBQZqGnl7BFmLLi
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 175
+
+Dear User!!!
+
+Information Technology Services (ITS) are currently upgrading and
+maintaining all e-mail accounts.This will provide you the ability to store
+a greatly increased amount of e-mail correspondence in your e-mail account.
+
+Your account has been identified as one of the accounts which are to be
+upgraded and maintain.
+
+Please click the link below and follow the instruction. If you are unable
+to click the link copy and paste in on your browser.<>
+
+The new minimum quota level for e-mail accounts will be set to 1000mb.
+Warning!!!  Account owner that refuses to upgrade and maintain his or her
+account before 24 hours of receiving this warning may lose his or her
+account permanently.
+
+Computing Services Help Desk
+more information about the service.
+Sign.
+Helpdesk

@@ -1,0 +1,58 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.30 with SMTP id o30csp1078941lfi;
+        Sun, 29 Mar 2015 10:54:04 -0700 (PDT)
+X-Received: by 10.202.81.78 with SMTP id f75mr17493618oib.120.1427651642801;
+        Sun, 29 Mar 2015 10:54:02 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-oi0-domain.com (mail-oi0-domain.com. [2607:f8b0:4003:c06::232])
+        by domain.com with ESMTPS id u187si4461591oia.36.2015.03.29.10.54.01
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 29 Mar 2015 10:54:02 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::232 as permitted sender) client-ip=2607:f8b0:4003:c06::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c06::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-oi0-domain.com with SMTP id f142so99252098oic.3;
+        Sun, 29 Mar 2015 10:54:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Jennifer Palmieri <jennifer.m.palmieri@gmail.com>
+         :message-id:date:references:to;
+        bh=Uerp49wZZejDiSzH5OE0+vvC4qiL9Fw2YKW0K7ArqgA=;
+        b=boLarFbUziVvrh+NuoF88DBRuNAoy5qOvgfMQo7MOuIGO4hNplaXvgHakfKYB2E9Fq
+         X3VQKsh2072snls7xmXwOeshuF5CLCS3eBopl78ePXe7Uaaz8yavJc8O6NfiZugGKf07
+         5H0Yhjsb9M7ROIvFmLrOljnzMNMIWBKflSvCr5JsQHQDheKNpgcUarKvXSKq6Frn8Mij
+         xOayCtKl/AyI/wRiUpvzbaFvT5pJcb5rMTLNpgkzMLeMtvk4NqhIFWHFz7HBQewBIF/X
+         qx9sctykDN1ju+CfipqZZD2W4Ob0HBTwvsOSJ5Gmly4Kuoumn4AetlgvBleKFNQl3D88
+         /soA
+X-Received: by 10.182.20.237 with SMTP id q13mr23603970obe.82.1427651641339;
+        Sun, 29 Mar 2015 10:54:01 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [10.216.88.247] (mobile-166-176-122-236.domain.com. [166.176.122.236])
+        by domain.com with ESMTPSA id r83sm4730150oif.28.2015.03.29.10.53.59
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 29 Mar 2015 10:53:59 -0700 (PDT)
+From: Jennifer Palmieri <jennifer.m.palmieri@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-DE9CDAB4-9B1B-49E9-B6A2-A3006A951524
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Fwd: You should hire me for this
+Message-Id: <user@domain.com>
+Date: Sun, 29 Mar 2015 12:53:59 -0500
+References: <user@domain.com>
+To: John user <user@domain.com>, Robby Mook <user@domain.com>
+X-Mailer: iPhone Mail (12B440)
+
+Harris is volunteering.  Seems sound.
+
+Sent from my iPhone
+
+Begin forwarded message:
+
+t His Best,=E2=80=9D by Patrick Healy and Amy Chozick: =E2=80=9CIn hopes of c
+ollaborating with Mr. Clinton better than in 2015 ... advisers to Mrs. Clint
+on are involving him more closely in early campaign planning, and they are d
+iscussing whether to deploy a senior aide to travel with him to keep him foc
+used on his wife=E2=80=99s central message. ...

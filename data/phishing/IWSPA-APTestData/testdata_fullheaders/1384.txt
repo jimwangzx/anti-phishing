@@ -1,0 +1,220 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.71 with SMTP id o68csp815613lfi;
+        Tue, 17 Mar 2015 14:13:43 -0700 (PDT)
+X-Received: by 10.70.37.3 with SMTP id u3mr36580401pdj.143.1426626821373;
+        Tue, 17 Mar 2015 14:13:41 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [171.67.219.82])
+        by domain.com with ESMTPS id an6si31579726pad.182.2015.03.17.14.13.40
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 17 Mar 2015 14:13:41 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 171.67.219.82 as permitted sender) client-ip=171.67.219.82;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 171.67.219.82 as permitted sender) user@domain.com
+Received: from domain.com (dlp-domain.com [171.67.224.3])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by domain.com (Postfix) with ESMTPS id 40805341667
+	for <user@domain.com>; Tue, 17 Mar 2015 14:13:40 -0700 (PDT)
+Received: from domain.com (localhost.localdomain [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 3311462
+	for <user@domain.com>; Tue, 17 Mar 2015 14:13:40 -0700 (PDT)
+Received: from pps01-domain.com (pps01-domain.com [171.67.214.167])
+	by domain.com (Postfix) with ESMTP id 0B79A62
+	for <user@domain.com>; Tue, 17 Mar 2015 14:13:40 -0700 (PDT)
+Received: from pps.filterd (pps01-domain.com [127.0.0.1])
+	by pps01-domain.com (8.14.5/8.14.5) with SMTP id t2HLBp9R021384
+	for <user@domain.com>; Tue, 17 Mar 2015 14:13:39 -0700
+Received: from domain.com (domain.com [171.67.219.81])
+	by pps01-domain.com with ESMTP id 1t6qvu8ngv-3
+	for <user@domain.com>; Tue, 17 Mar 2015 14:13:39 -0700
+Received: from mail-oi0-domain.com (mail-oi0-domain.com [209.85.218.44])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by domain.com (Postfix) with ESMTPS id 1308F219F8
+	for <user@domain.com>; Tue, 17 Mar 2015 14:13:38 -0700 (PDT)
+Received: by oibu204 with SMTP id u204so20141444oib.0
+        for <user@domain.com>; Tue, 17 Mar 2015 14:13:38 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:From: David Hayes <dhayes@law.stanford.edu>
+         :content-type;
+        bh=BanWqI4Ov1aFw4vmm8oUlPeXsTOx+pt68R06J1hg9pE=;
+        b=bRuBWahEJUFo4d9xd4Y5hPoa1Qd8J2dL5DENYIQ5kES4sp3bYzSSXMqe3x4GusuKVd
+         kqjdb+aDdyPrOX3xSsz7G7fPaKhAtJXPXgc6oBFgnoLAmjmxhFkMr7GgGZeIU2Fg+Lhy
+         Ibj2MQizJvP2g22fRjYQgThWALCgUIOZq3gbMmQ9rgcTc4wTnZg38rottjdiKwUa2zAE
+         0I8wkNr6biSGRSvjbhd9zzr6jI4BgVKH8iKkw8OEmez9KAQIiK3NPueYYPRKtTMPIBn9
+         b7UtYUE58mANIvTISQQPrFKJnM5jjZF0uvpvU2raWQBBcnA69RYq3jraiNtJghGfqB8D
+         +48g
+X-Gm-Message-State: ALoCoQmrHOq4nBsh5avDsmf8nmOH4XB6KRpcQVppK2H4l9ajyGFh7ZPFb/sqdcemEEpahvlEHnpuaoyy94MWsw9hu955ye0FW+mIaE08M9kpul2QfiGV1ibcdCnzyXurvRWh5rG5jMQxZfshYC/NO8fTpZtL7CQqvQ
+X-Received: by 10.202.207.68 with SMTP id f65mr23998045oig.29.1426626818506;
+        Tue, 17 Mar 2015 14:13:38 -0700 (PDT)
+X-Received: by 10.202.207.68 with SMTP id f65mr23998037oig.29.1426626818354;
+ Tue, 17 Mar 2015 14:13:38 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.202.75.16 with HTTP; Tue, 17 Mar 2015 14:13:17 -0700 (PDT)
+From: David Hayes <dhayes@law.stanford.edu>
+Date: Tue, 17 Mar 2015 22:13:17 +0100
+Message-ID: <user@domain.com>
+Subject: Op-Ed re Alaska
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113dea80bc491805118270e7
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10432:5.13.68,1.0.33,0.0.0000
+ definitions=2015-03-17_05:2015-03-17,2015-03-17,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0 suspectscore=10
+ phishscore=0 adultscore=0 bulkscore=1 classifier=spam adjust=0 reason=mlx
+ scancount=1 engine=7.0.1-1402240000 definitions=main-1503170204
+
+John:
+
+I thought you would like my op-ed that the Seattle Times published today,
+with my new CAP by-line.  It was prompted by Senator Murkowski and
+company's over-the-top response to some of your and the President's
+excellent moves in Alaska.
+
+Hope all is well --
+
+David
+
+Rhetoric doesn=E2=80=99t square with reality in Alaska drilling debate
+Originally published March 16, 2015 at 5:01 pm
+
+Updated March 16, 2015 at 2:20 pm
+[image: The coastal plain of the Arctic National Wildlife Refuge in Alaska,
+with the Brooks Range in the distance. (Steve Ringman/The Seattle Times)]Th
+e
+coastal plain of the Arctic National Wildlife Refuge in Alaska, with the
+Brooks Range in the distance. (Steve Ringman/The Seattle Times)
+
+Some places in Alaska are simply too special to open up for oil drilling.
+By David J. Hayes <<<link>>>
+Special to The Times
+
+IN January, President Obama announced he will recommend that Congress
+permanently protect the Arctic National Wildlife Refuge in Alaska as a
+wilderness area.
+
+His decision, which preserves the status quo by keeping oil rigs out of the
+refuge=E2=80=99s coastal plain, triggered howls of protests from the oil in
+dustry
+and its allies. The president, according to one Alaska politician, is
+putting =E2=80=9CAlaska and America=E2=80=99s energy security in serious je
+opardy.=E2=80=9D U.S.
+lands in the state are being =E2=80=9Clocked up,=E2=80=9D said another.
+
+But this rhetoric doesn=E2=80=99t square with reality. The federal governme
+nt has
+sold enough drilling rights on Alaska lands to cover the state of Delaware,
+but 99 percent of those lands are sitting idle, waiting for oil and gas
+companies to decide to develop them.
+
+Offshore, the Obama administration=E2=80=99s latest drilling proposal puts 
+more
+than 92 percent of the Arctic waters off the coast of Alaska on the table
+for potential oil and gas development. The proposal also would sensibly set
+aside nearshore areas relied upon by Alaska Natives for subsistence hunting
+and a wildlife =E2=80=9Chot spot=E2=80=9D in the Chukchi Sea called the Han
+na Shoal.
+[image: hayesmug]
+
+David J. Hayes is a visiting senior fellow at the Center for American
+Progress. He served as deputy secretary of the interior in the Clinton and
+Obama administrations.
+
+With ample drilling opportunities already afforded to the oil and gas
+industry, we need not, and should not, spoil the pristine expanses of the
+Arctic National Wildlife Refuge or the most sensitive waters in the Arctic
+Ocean. Some places are simply too special to drill.
+
+To be sure, Alaska is facing its biggest energy challenge in a decade. With
+oil prices falling, production from the Prudhoe Bay area sagging, and the
+state government=E2=80=99s revenues from oil and gas potentially collapsing
+,
+Alaska=E2=80=99s elected officials are under intense pressure to reverse th
+eir
+state=E2=80=99s economic fortunes.
+
+Instead of scapegoating the federal government, however, now is the time to
+assess the reality of current energy markets and to build an energy plan
+for Alaska=E2=80=99s future.
+
+That plan can and should involve responsible oil development, but Alaska
+has the opportunity to diversify both its energy portfolio and a state
+budget that is more than 90 percent reliant on oil revenue. In particular,
+state and federal leaders should place a top priority on bringing Alaska=E2
+=80=99s
+now-stranded natural-gas resources to an eager world market. With 35
+trillion cubic feet of gas readily available in already-industrialized
+areas on the North Slope, Alaska could meet its own stateside need for
+energy and generate large profits. What is needed is a gas pipeline that
+would allow deliveries to energy-needy Alaskan cities and to a shipping
+terminal for export. Plans for such a pipeline are in the works, and the
+federal government should be an eager and willing partner to help make it
+happen.
+
+Second, renewable energy can play a growing role in Alaska=E2=80=99s energy
+ future.
+With its strong wind resources in coastal villages, round-the-clock solar
+energy availability during summer months, and ample biomass energy
+production opportunities in Southeast Alaska, Alaska=E2=80=99s renewable re
+sources
+can offer affordable, reliable energy supplies in even the most remote
+parts of the state. Here, too, a federal and state partnership is
+developing small-scale, affordable renewable-energy systems that are
+replicable and scalable, potentially providing breakthrough energy
+opportunities for small villages throughout the Arctic, and the world.
+
+Finally, when it comes to oil, state and federal leaders should take a
+realistic approach that incentivizes the industry to draw additional oil
+from existing industrialized fields, such as those in the Prudhoe Bay
+region. Advanced technologies that have unlocked oil deposits in the Lower
+48, for example, can be applied to Alaska=E2=80=99s shale fields, which are
+concentrated on the prolific oil-rich state lands on the North Slope and do
+not extend into the Arctic Refuge.
+
+On federal lands, the Obama administration has continued to offer ample
+opportunities for new drilling and has worked to improve coordination among
+federal agencies on Alaskan energy projects. The U.S. Interior Department,
+for example, recently greenlighted a major Conoco-Phillips project in an
+area west of Prudhoe Bay, known as the National Petroleum Reserve-Alaska,
+or NPR-A. And in each of the past five years, the Obama administration has
+offered a Connecticut-sized area within the NPR-A to the oil and gas
+industry for new leasing and development.
+
+Alaska energy challenges cannot be solved overnight. Shell=E2=80=99s troubl
+ed 2015 
+drilling season
+<<<link>>
+
+was
+a stark reminder of the risks, dangers and expenses of drilling in frontier
+areas with limited infrastructure. What is needed now is not rhetoric or
+hubris, but realism and thoughtful leadership.
+
+David J. Hayes is a visiting senior fellow at the Center for American
+Progress. He served as deputy secretary of the interior in the Clinton and
+Obama administrations.
+
+--
+
+*David J. Hayes*
+
+*Stanford Law School*
+Distinguished Visiting Lecturer in Law
+
+Crown Quadrangle
+
+559 Nathan Abbott Way
+
+Stanford, CA 94305-8610
+
+*user@domain.com <user@domain.com>*
+
+twitter:  @djhayes01
+
+office:  650-723-7778
+
+cell:  202-258-3909
+
+personal email:  user@domain.com

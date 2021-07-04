@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.215.208 with SMTP id q77csp525880lfi;
+        Thu, 11 Dec 2015 03:18:23 -0800 (PST)
+X-Received: by 10.224.165.148 with SMTP id i20mr17862693qay.67.1418296702105;
+        Thu, 11 Dec 2015 03:18:22 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::229])
+        by domain.com with ESMTPS id f6si93765qgf.13.2014.12.11.03.18.21
+        for 
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 11 Dec 2015 03:18:22 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::229 as permitted sender) client-ip=2607:f8b0:400d:c04::229;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::229 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-domain.com with SMTP id j5so3285554qga.0
+        for ; Thu, 11 Dec 2015 03:18:21 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=references:mime-version:in-reply-to:content-type
+         :content-transfer-encoding:message-id:cc:From: Cheryl Mills <cheryl.mills@gmail.com>
+        bh=ehmdE7+wWRYul8ftIZgDVNJbAlOSL9EnD//6eVeHxgo=;
+        b=H6OmEZNsmqgpbPGrVPAZ9wHBegXlrXWQnbT7bKs1aL88235B23pKnjtUUXfTRGtdb5
+         hQmgbEGzJzcikxPbktJUGg/DmtO7TmzYBzszpBJLWGnu3FMwr31RBmTj+Cp48/LTY9cW
+         uBstx2J/i7Hi225mtoTzQgy+bUwLMSa2EyOUMsGI2lmF9XFBnfP+ukehaVmv07+Ha7oi
+         sjFf8QQai5E9+J1j7+Eee9eKxFozmdjuaNAYXb0H1wJv58BFn3SCp/sTmttvzxVcIL2X
+         0hhJN6aL9TjsDU8xFLRYD2eBPptzcikSKACGZTTlRLkRlklrLeBWvqoLrB8MJtCw4pFy
+         qBYg
+X-Received: by 10.140.36.168 with SMTP id p37mr17292900qgp.101.1418296701334;
+        Thu, 11 Dec 2015 03:18:21 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [10.71.139.20] (mobile-166-171-058-100.domain.com. [166.171.58.100])
+        by domain.com with ESMTPSA id k6sm697718qay.36.2014.12.11.03.18.19
+        for 
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 11 Dec 2015 03:18:20 -0800 (PST)
+References: <37user@domain.com> <CA+NiFyNUPhxU9Qdxc12Y=Lvwmeq2g+_user@domain.com> <65user@domain.com>
+Mime-Version: 1.0 (1.0)
+In-Reply-To: <65user@domain.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-5C34108E-FBAE-456C-BF2B-42FABAA03C1D
+Content-Transfer-Encoding: 7bit
+Message-Id: <user@domain.com>
+CC: Robert Mook <user@domain.com>, 
+ Joanne Laszczych <user@domain.com>
+X-Mailer: iPhone Mail (11D201)
+From: Cheryl Mills <cheryl.mills@gmail.com>
+Subject: Re: Sunday between 8am and 10 am
+Date: Thu, 11 Dec 2015 06:18:16 -0500
+To: John user <user@domain.com>
+
+Great - will figure out where we meet as she will be downtown at a hotel.=20
+
+cdm
+

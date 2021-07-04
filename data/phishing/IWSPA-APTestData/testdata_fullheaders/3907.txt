@@ -1,0 +1,82 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id C3727536E6D
+	for <user@domain.com>; Fri,  7 Oct 2015 21:36:18 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id C5A536FA1D0
+	for <user@domain.com>; Fri,  7 Oct 2015 21:36:12 -0400 (EDT)
+Received: from localhost.localdomain (unknown [222.106.167.27])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Fri,  7 Oct 2015 21:36:12 -0400 (EDT)
+Received: from localhost.localdomain (Linux27 [127.0.0.1])
+	by localhost.localdomain (8.13.1/8.13.1) with ESMTP id e0HFlg86032471
+	for <user@domain.com>; Tue, 18 Jan 2015 00:47:47 +0900
+Received: (from user@domain.com)
+	by localhost.localdomain (8.13.1/8.13.1/domain.com) id e0HFlfUv032470;
+	Tue, 18 Jan 2015 00:47:41 +0900
+Date: Tue, 18 Jan 2015 00:47:41 +0900
+Message-Id: <200001171547.user@domain.com>
+To: user@domain.com
+Subject: Account Information Update (Routing Code: 15C886-L008-B180-T1853)
+From: Fulton Bank <FultonBank@fultonbank.com>
+Content-Type: text/html
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: *****
+X-Spam-Status: Yes, score=5.6 required=5.0 tests=HTML_50_60,HTML_MESSAGE,
+	MIME_HEADER_CTYPE_ONLY,MIME_HTML_ONLY,NUMERIC_HTTP_ADDR,RCVD_IN_XBL 
+	autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  2.1 NUMERIC_HTTP_ADDR URI: Uses a numeric IP address in URL
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.1 HTML_50_60 BODY: Message is 50% to 60% HTML
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [222.106.167.27 listed in sbl-domain.com]
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+Content-Length: 2015 
+Lines: 61
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 321
+
+ Dear Fulton Bank Member, 
+
+ This email is to inform you, that we had to 
+block your Fulton Bank account access because we have been
+notified that your account may have been compromised by outside
+parties.  
+ Our terms and conditions you agreed
+to state that your account must always be under your control or those
+you designate at all times. We have noticed some
+
+unusual activity related to your account that indicates that other
+parties may have access and or control of your details in your
+account. 
+
+    These parties have in the past been involved with
+money laundering, illegal drugs, terrorism and various Federal Title 18
+violations. 
+
+ Please follow this 
+link to complete your security verification and unlock your CARD  
+check
+card  
+:
+
+<>
+
+ Please be aware that until we can
+verify your identity no further access to your account will be allowed
+and we will have no other liability for your account or any
+transactions that may have occurred as a result of your failure to
+reactivate your account as instructed above.  
+ Thank you for your time and
+consideration in this matter .
+
+  2015 Fulton Bank , 
+
+U.S. State Department

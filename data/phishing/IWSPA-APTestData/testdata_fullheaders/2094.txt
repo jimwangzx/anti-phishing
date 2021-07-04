@@ -1,0 +1,147 @@
+Delivered-To: user@domain.com
+Received: by 10.220.75.4 with SMTP id w4cs382677vcj;
+        Tue, 21 Jul 2015 10:44:30 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.114.158.1 as permitted sender) client-ip=10.114.158.1;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.114.158.1 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.114.158.1])
+        by 10.114.158.1 with SMTP id g1mr2309040wae.0.1248198268111 (num_hops = 1);
+        Tue, 21 Jul 2015 10:44:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:x-mimeole
+         :content-class:mime-version:content-type:subject:date:message-id
+         :x-ms-has-attach:x-ms-tnef-correlator:thread-topic:thread-index:from
+         :to:reply-to:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=YLzewnJ4AKtx6V8tB8Wm6OOxsZ/tiwpCx8P+pnEaZi8=;
+        b=hfEwyVU9fM+u/xSZCOw8vFaHHflBX7nZL2w7KYwbdALUbmg8fmn1FOT+xmI3Cuazhq
+         G89QShjJLSYThF4vYET9QTQP825JuV2Ov94tRMa4nLMWgEWJHjvPlTubckuEA+07tuXd
+         z2tuj1Ow5iQLTYrYfWrAYycCMxTNNlfBvGkZ0
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :x-mimeole:content-class:mime-version:content-type:subject:date
+         :message-id:x-ms-has-attach:x-ms-tnef-correlator:thread-topic
+         :thread-index:From: "Lauren Weiner" <Weiner@americansunitedforchange.org>
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=SZcLpdlhBJtme25UG8Vol8FwKYoFJXrKNxlb50TE8aVBRFYflbJe4IV8W6ScnO4K0x
+         o8ecchtxDvFBYxvzIJSR7lKaTUpyAFQtDV4Q0AaCTi7ipYqJjL+PXwQJ4qWLD/viYsdf
+         CwvUdjQ3SEOUUWHVi5yJrIiOEfkkq/dhWWukM
+Received: by 10.114.158.1 with SMTP id g1mr419993wae.0.1248198257070;
+        Tue, 21 Jul 2015 10:44:17 -0700 (PDT)
+Received: by 10.176.46.26 with SMTP id t26gr3310yqt.0;
+	Tue, 21 Jul 2015 10:44:10 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.224.29.11 with SMTP id o11mr1094766qac.10.1248198249859; Tue, 21 Jul 2015 10:44:09 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail.americansunitedforchange.org ([66.253.44.162]) by gmr-domain.com with ESMTP id 24si500524qyk.11.2009.07.21.10.44.09; Tue, 21 Jul 2015 10:44:09 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.253.44.162 as permitted sender) client-ip=66.253.44.162;
+Authentication-Results: gmr-domain.com; spf=pass (domain.com: domain of user@domain.com designates 66.253.44.162 as permitted sender) user@domain.com
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+Mime-Version: 1.0
+Content-Type: multipart/related; boundary="----_=_NextPart_001_01CA0A2A.D03B3B07"
+Subject: [big campaign] ADVISORY: Financial Services Chair Frank, Subcommittee
+ Chairs and Advocates Push for Consumer Watchdog, JULY 22, 11:30 AM
+Date: Tue, 21 Jul 2015 13:43:52 -0400
+Message-ID: <29user@domain.com>
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+Thread-Topic: ADVISORY: Financial Services Chair Frank, Subcommittee Chairs and Advocates Push for Consumer Watchdog, JULY 22, 11:30 AM
+Thread-Index: AcoKJtPp+liI/ADKQrCy1MQj4ScTsQAAQeSgAABw1oAAAEpC8A
+From: "Lauren Weiner" <Weiner@americansunitedforchange.org>
+To: user@domain.com
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+domain.com <<<link>>> 
+
+FOR IMMEDIATE RELEASE                                CONTACT: Lauren
+Weiner, 202 470-5870
+
+DATE:  July 21, 2015 
+Jeremy Funk, 202-470-5878
+
+***Press Conference Wednesday, July 22 at 11:30 a.m. ***
+
+Financial Services Chair Barney Frank, Subcommittee Chairs, Advocates
+and Business Leaders Make the Case for Consumer Financial Watchdog 
+
+Washington, DC - On Wednesday, July 22 at 11:30 am, House Financial
+Services Committee Chairman Barney Frank, business leaders and other key
+Members of Congress will join Americans for Financial Reform to make the
+economic case for the Consumer Financial Protection Agency. This agency
+would serve as a watchdog for our wallets, protecting hard-working
+Americans from the kinds of predatory practices that helped topple our
+economy. The U.S. Chamber of Commerce and other financial institutions
+are looking to steamroll consumers by opposing this crucial reform.
+Recently, the financial services industry
+<<<link>>
+70603622.html>  and U.S. Chamber of Commerce
+<<<link>>>  launched
+multi-million dollar public relations and lobbying campaign to weaken
+and defeat the proposed consumer watchdog.
+
+Americans for Financial Reform <<<link>>>
+is a national coalition of nearly 200 state and local organizations
+<<<link>>>  ranging from
+financial experts to community working to reform the financial system
+and rebuild our economy.
+
+WHAT:          Press conference to push the proposed Consumer Financial
+Protection Agency
+
+WHO:          
+
+*         House Financial Services Committee Chairman Barney Frank
+(D-MA)
+
+*         Rep. Maxine Waters (D-CA), chairwoman of the Financial
+Services Committee Subcommittee on Housing and Community Opportunity
+
+*         Rep. User Gutierrez (D-IL), chairman of the Financial Services
+Committee Subcommittee on Financial Institutions and Consumer domain.com
+
+*         Rep. Brad Miller (D-NC)
+
+*         Heather Booth, Director, Americans for Financial Reform
+
+*         Tim Duncan, founder, Story Street Wealth Management
+
+*         Bennett Freeman, senior vice president, social research and
+policy, Calvert Investments <<<link>>>
+
+WHEN:         Wednesday, July 22 at 11:30 a.m.
+
+WHERE:       2015 Rayburn House Office Building
+
+###
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

@@ -1,0 +1,132 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 7 Jan 2015 10:27:34 -0800
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s07IRX4h025700	for <user@domain.com>; Tue, 7 Jan 2015 
+ 18:27:33 GMT
+Received: from mail210-co9-domain.com (mail-domain.com
+ [207.46.163.17])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s07IRWrU029828
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 7 Jan 2015 18:27:32 GMT
+Received: from mail210-co9 (localhost [127.0.0.1])	by
+ mail210-co9-domain.com (Postfix) with ESMTP id C498A600206	for
+ <user@domain.com>; Tue,  7 Jan 2015 18:27:31 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:69.64.74.76;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(z579ehzc89bhc85fhc857hdbf2izz1f42h208ch1ee6h1de0h1fdah2073h202I2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1d7338h1de098h1b1984h17326ah8275bh1bc7b9h8275dh18c673h1de097h186068h18602eh1d68dehz2dh54h49hfI11Ieh109h529h839hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h15ach162dh1631h1758h17f1h1898h18e1h1946h19b5h19ceh1b0ah1bceh2222h224fh1d0ch1d2eh1d3fh1d61h1dc1h1dffh1e00h1e1dh1e23h1ea5h1fe8h1ff5h20dbh20f0h2218h2216h226dh2327h2336h16di99di22eai34h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received: from mail210-co9 (localhost.localdomain [127.0.0.1]) by mail210-co9
+ (MessageSwitch) id 1389119249892956_18847; Tue,  7 Jan 2015 18:27:29 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.241])	by
+ mail210-domain.com (Postfix) with ESMTP id CCAE2280049	for
+ <user@domain.com>; Tue,  7 Jan 2015 18:27:29 +0000 (UTC)
+Received: from domain.com (69.64.74.76) by domain.com
+ (10.236.130.34) with Microsoft SMTP Server id 14.16.227.3; Tue, 7 Jan 2015 
+ 18:27:22 +0000
+Received: from domain.com (localhost [127.0.0.1])	by
+ domain.com (domain.com Postfix) with ESMTP id 455E3C7C55	for
+ <user@domain.com>; Tue,  7 Jan 2015 13:26:16 -0500 (EST)
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from cdptpa-domain.com (cdptpa-domain.com
+	[75.180.132.120])	by domain.com (domain.com Postfix) with ESMTP
+ id	F3F17C613C for <user@domain.com>;	Tue,  7 Jan 2015 
+ 13:24:16 -0500 (EST)
+X-Authority-Analysis: v=2.0 cv=Yc0/Fntf c=1 sm=0 a=BqwsM1/dLCxgE5GO0pmW1Q==:17
+	a=NK9tA4KIwuYA:10 a=05ChyHeVI94A:10 a=DGe9RqmllFEA:10
+	a=ayC55rCoAAAA:8 a=KGjhK52YXX0A:10 a=IAyy7m5djNwA:10
+	a=l5oSwX0uAAAA:8 a=1tfaowQ8lp7PfL_83lAA:9 a=QEXdDO2ut3YA:10
+	a=yMhMjlubAAAA:8 a=SSmOFEACAAAA:8 a=rJY7u6SoVHBatpaxioUA:9
+	a=gKO2Hq4RSVkA:10 a=UiCQ7L4-1S4A:10 a=hTZeC7Yk6K0A:10
+	a=frz4AuCg-hUA:10 a=4Rz1AWFbvQG-xm59PBQA:9 a=KQqxNPgzF0kA:10
+	a=CxohMq6lDaImHYZN:21 a=BtTLZDMCtWE0BO_b:21
+	a=TmZbi2ugebEgyBRV:18 a=BqwsM1/dLCxgE5GO0pmW1Q==:117
+X-Cloudmark-Score: 0
+X-Authenticated-User: 
+X-Originating-IP: 76.90.115.43
+Received: from [76.90.115.43] ([76.90.115.43:49714] helo=BigDaddyPC)	by
+ cdptpa-domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 2.2.3.46 r()) with ESMTP	id E9/E2-00868-1564CC25; Tue, 07 Jan 2015 18:24:18
+ +0000
+From: "Debbie Robins, M.A." <raybunch@ca.rr.com>
+To: <user@domain.com>
+Date: Tue, 7 Jan 2015 10:24:09 -0800
+Message-ID: <008401cf0bd5$a84ecd70$f8ec6850$@ca.rr.com>
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: Ac8L1ZJKgcIp+60RSEaTIRwFz4j5Ug
+Content-Language: en-us
+X-Mailman-Approved-At: Tue, 07 Jan 2015 13:25:53 -0500
+Subject: [Debbie Robins Author] 2014: The Year Of Intention from Debbie
+	Robins, M.A.
+X-BeenThere: user@domain.com
+X-Mailman-Version: 2.1.15z1
+Precedence: list
+Reply-To: <user@domain.com>
+List-Id: <domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com?subject=unsubscribe>
+List-Archive: <<<link>>>
+List-Help: <mailto:user@domain.com?subject=help>
+List-Subscribe: <<<link>>>,
+	<mailto:user@domain.com?subject=subscribe>
+Errors-To: debbierobinsauthor-bounces+user@domain.com
+Sender: DebbieRobinsAuthor
+	<debbierobinsauthor-bounces+user@domain.com>
+Return-Path: debbierobinsauthor-bounces+user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+[Debbie Robins Author] 2014: The Year Of Intention from Debbie	Robins, M.A.
+
+If you are having trouble viewing this email, please domain.com domain.com/mail 
+
+  _____  
+
+
+
+
+Dearest friends, clients and colleagues,
+Happy New Year! 
+
+In my consulting practice, where I interface with many global business leaders and entrepreneurs, it was my experience that 2015 was a challenging year for most people either professionally, personally or both.  
+
+As we head into the opportunities that domain.com us in 2014, please remember to be intentional about what you want to create this year.  
+
+Intention is action taken in a conscious, designed, deliberate, reasoned and purposeful way. 
+
+In my experience and training, intention setting is most successful when someone is witness to your vision and a plan is put in play. 
+
+My intention this year is to serve as many people as I can to create rapid success in their professional lives. 
+
+My intention is to assist more corporations, organizations and companies to create cultures that operate on the business model of a virtuous circle.  
+
+A virtuous circle (or work environment) is where the company serves the employees needs...the employees serve the companies needs...the company serves the consumers needs...the company serves the communities needs…the company serves the needs of the world. The act of Service is the hyper-charged energy that generates profitability, sustainability and grows a workforce of happy human beings. Everyone wins. 
+
+As an example, a virtuous circle is at the core of how Federal Express does business. The results are evident. 
+
+Fact: When we serve, everything lifts inside of us. 
+
+Fact: Winning in business (and in life) is an emotional experience. 
+
+Fact: Emotional alignment to an agreed upon vision that is in service to the higher good makes the impossible possible. 
+
+Be intentional this year. 
+
+Be of service. 
+
+You will get everything you want and more.
+With loving, Deb Robins, M.A. 
+
+
+
+
+Attachments:
+
+        image001.jpg (11976 Bytes)
+
+        ATT00001.txt (277 Bytes)
+

@@ -1,0 +1,47 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 9062A23CA91
+	for <user@domain.com>; Wed, 17 Jul 2015 16:59:20 -0500 (CDT)
+X-Virus-Scanned: amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id IBi1N0NrhO4L for <user@domain.com>;
+	Wed, 17 Jul 2015 16:59:14 -0500 (CDT)
+Received: from domain.com.au (domain.com.au [131.217.6.12])
+	by domain.com (Postfix) with ESMTP id 7C95E23CA8C
+	for <user@domain.com>; Wed, 17 Jul 2015 16:59:14 -0500 (CDT)
+X-IronPort-AV: E=Sophos;i="4.89,687,1367935200"; 
+   d="scan'208,217";a="83440642"
+Received: from unknown (HELO mmp-domain.com.au) ([10.10.146.73])
+  by ironport2-domain.com.au with ESMTP; 18 Jul 2015 07:59:34 +1000
+MIME-version: 1.0
+Content-type: multipart/alternative;
+ boundary="Boundary_(ID_h9r83YGU3APYk5i5Fex/Zw)"
+Received: from ITSSBYHC3.utas.ad.internal ([10.10.3.66])
+ by mmp-domain.com.au
+ (Sun Java(tm) System Messaging Server 7u3-17.01 64bit (built Jun  8 2010))
+ with ESMTP id <0user@domain.com> for
+ user@domain.com; Thu, 18 Jul 2015 07:59:33 +1000 (EST)
+Received: from MBXSBYN1.utas.ad.internal ([fe80::61e5:7f0d:a75b:d6c3])
+ by ITSSBYHC3.utas.ad.internal ([::1]) with mapi id 14.03.0123.003; Thu,
+ 18 Jul 2015 07:59:33 +1000
+From: Verna Wallroth <Verna.Wallroth@utas.edu.au>
+Subject: Your mailbox has exceeded
+Thread-topic: Your mailbox has exceeded
+Thread-index: Ac6DOOs17A931iOOQ+ORZO2o3s5P6A
+Date: Wed, 17 Jul 2015 21:59:33 +0000
+Message-id: <user@domain.com>
+Accept-Language: en-AU, en-US
+Content-language: en-AU
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+X-Originating-IP: [41.71.188.70]
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 181
+
+Your mailbox has exceeded the storage domain.com set by your administrator, you may not be able to send or receive new mail until you re-validate your mailbox To re-validate your mailbox please CLICK HERE<<>>: System Administrator

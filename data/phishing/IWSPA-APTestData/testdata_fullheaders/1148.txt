@@ -1,0 +1,230 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.101 with SMTP id o98csp1451286lfi;
+        Thu, 18 Jun 2015 13:52:46 -0700 (PDT)
+X-Received: by 10.129.38.70 with SMTP id m67mr3214102ywm.25.1434660766166;
+        Thu, 18 Jun 2015 13:52:46 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yh0-domain.com (mail-yh0-domain.com. [2607:f8b0:4002:c01::22e])
+        by domain.com with ESMTPS id h3si3313570yhb.65.2015.06.18.13.52.45
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 18 Jun 2015 13:52:46 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::22e as permitted sender) client-ip=2607:f8b0:4002:c01::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yh0-domain.com with SMTP id k3so64799731yha.2
+        for <user@domain.com>; Thu, 18 Jun 2015 13:52:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Josh Schwerin <jschwerin@hillaryclinton.com>
+        bh=AHUTGPfOqE/9NZwS3ZhyyQ3QCBXFqSsztuZ7PbfqLds=;
+        b=H99IYuItBf+2ylyE/QhyydP4KryXJdm8LPaP0XnjEVfssF4oYC48bQ5SFesps5h51L
+         36WZshUm9dlFKgVGZxgWDOKuaToh7Al5Tj45FhFJw30q6gAlcMmP5mrths/ENDVthoMe
+         FmMpNG1j49ECGdwQhGq41wvfAuuPqE7TI8w3E
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Josh Schwerin <jschwerin@hillaryclinton.com>
+         :content-type;
+        bh=AHUTGPfOqE/9NZwS3ZhyyQ3QCBXFqSsztuZ7PbfqLds=;
+        b=hVVqNlCrWREFIHDCobeYu3mfiuAOfhBBW9OqgiYx0lYaAHLYqgNm+P32FTbtMf7o0B
+         CXfMVBbEpzMNmkq2xXb3J5JTPKprnXuLWIJm7ocF7JnyCNZsDAv0MPKI9dhapaYhZggD
+         GtQ/SLp2gPmzwnAZJCNg+mUGXYMxG/75RtknZQp/dJHSBH6JOcm+SuA/l+uJwSnVnGUs
+         Ulm0U74BXQVZHp1s72XL0vzoLTdI1snMjLqOn0xEz6O9D9nlyFjrls0xP3l9hm5zWxdM
+         KYtA0RohYUjMH7mnScpeSiAj2SIojJzIOImHncgpVLtcJK41NoFpiOIus832kpbygLyl
+         hz3A
+X-Gm-Message-State: ALoCoQlvc1Hfwkc/hB/k9XKN+/BtURmlDQYhzZH2r+su5h7nA/i96e7K8BOMdiUlwRbqJvUOk50j
+MIME-Version: 1.0
+X-Received: by 10.129.106.214 with SMTP id f205mr16286652ywc.8.1434660765431;
+ Thu, 18 Jun 2015 13:52:45 -0700 (PDT)
+Received: by 10.129.108.142 with HTTP; Thu, 18 Jun 2015 13:52:44 -0700 (PDT)
+Date: Thu, 18 Jun 2015 16:52:44 -0400
+Message-ID: <CAPrY+5+pB1PfvGGMqFH1izQ0m5W7vC7rmfp0cDcxe+_user@domain.com>
+Subject: Fwd: Martin O'Malley: Zero out fossil fuels by 2015 
+From: Josh Schwerin <jschwerin@hillaryclinton.com>
+To: John user <user@domain.com>, 
+ Jake Sullivan <user@domain.com>
+CC: Brian Fallon <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1147039a4c55980518d0fdad
+
+Martin O'Malley published an op-ed this morning calling for 100% renewable
+energy by 2050.  Tom Steyer has praised it as well as some other
+environmental types.
+
+I don't know much about the issue but zeroing out fossil fuels in 35 years
+seems unrealistic.  We're considering asking friends to pitch a smart
+enviro reporter or columnist on a story about how this may be
+well-intentioned but its not a serious proposal.  Does that seem right to
+you?
+
+Martin O'Malley: Zero out fossil fuels by 2015 
+<<link>>
+ean-energy-technology-campaign-column/28859409/
+Martin O'Malley9:19 a.m. EDT June 18, 2015 
+
+Today, Pope Francis published his first encyclical =E2=80=94an official tea
+ching
+document to all 1.2 billion <<<link>>>
+Catholics =E2=80=94 on the moral imperative of addressing climate change. H
+e is not
+alone among leaders of world faiths making such a clarion call for action.
+
+We have come a long way as a nation in making
+<<<link>>>
+ourselves more energy independent. Now is the time to take this progress to
+the next level =E2=80=94 the future of our country and our domain.com depends o
+n it.
+
+New technologies <<<link>>> now
+put an independent clean energy future decidedly within our reach as a
+nation.
+
+But reach for it we must.
+
+Clean energy represents the biggest business and job creation opportunity
+<<<link>>> we've seen
+in a hundred years. And reliance on local, renewable energy sources means
+<<<link>>
+=3Dall>
+a more secure nation and a more stable world.
+
+Given the grave threat that climate change poses to human life on our
+domain.com, we have not only a business imperative but a moral obligation to
+future generations to act immediately and aggressively.
+
+This is why protecting the United States from the devastating impact of
+climate change =E2=80=94 while capitalizing on the job creation opportunity
+ of
+clean energy =E2=80=94 is at the center of my campaign for president
+<<<link>>
+alley-president-announcement/27330857/>
+.
+
+All of us can acknowledge that with an "all of the above strategy,"
+President Obama has made the United States more energy independent in every
+category of fuels, including oil and gas.
+
+But America did not land a man on the moon with an "all of the above
+strategy." It was an engineering challenge.
+
+Making the transition to a clean energy future is also an engineering
+challenge.
+
+We cannot meet the climate challenge with an all-of-the-above energy
+strategy, or by drilling off our coasts, or by building pipelines that
+bring oil from tar sands in Canada.
+
+Instead, we must be intentional and committed to one over-arching goal as a
+people: a full, complete transition to renewable energy =E2=80=94 and an en
+d to our
+reliance on fossil fuels.
+
+Saving the world is a goal worthy of a great people. It is also good
+business for the United States of America.
+
+I believe, within 35 years, our country can, and should, be 100% powered by
+clean energy, supported by millions of new jobs. To reach this goal we must
+accelerate that transition starting now.
+
+As president, on day one, I would use my executive power to declare the
+transition to a clean energy future the number one priority of our Federal
+Government.
+
+I would create a new Clean Energy Jobs Corps to partner with communities to
+domain.com buildings to be more energy efficient, improve local resiliency,
+create new green spaces, and restore and expand our forests so they can
+absorb
+<<<link>>
+s-emissions/p14919>
+more greenhouse gases.
+
+I would domain.com federal buildings to the highest efficiency standards and
+require new federal buildings to be net-zero, require the federal fleet to
+be subject to low- or zero-emissions purchasing agreements, and require all
+federally-funded infrastructure projects to meet climate resiliency
+standards <<<link>>>.
+
+As president, I would direct the Environmental Protection Agency to take
+aggressive action to domain.com greenhouse gases: expanding rules to other large
+sources of emissions beyond power plants, adopting a zero-tolerance policy
+for methane leaks from current oil and gas production, and setting higher
+energy efficiency standards for new buildings while requiring energy costs
+to be transparent to building tenants and purchasers.
+
+And I would reject projects like Keystone XL
+<<<link>>
+-xl-pipeline/24334099/>
+and drilling off our coasts
+<<<link>>
+-blast-atlantic-coast-drilling-plan/22511855/>
+and in Antarctica and Alaska
+<<<link>>
+il-shell-column/27962771/>.
+Furthermore, I would keep domestically produced oil and gas in the U.S.,
+instead of selling
+<<<link>>
+u-s-government-approval-1415140850>
+it abroad =E2=80=94 unless there is a clear strategic security rationale.
+
+Beyond executive actions, I would make clean energy deployment =E2=80=94 an
+d
+employment =E2=80=94 a first-order priority.
+
+I would set a national, cross-sector Renewable Electricity Standard so our
+nation is powered by 100% clean energy by 2050, and a national goal of
+doubling energy efficiency within 15 years. Many states like California and
+Maryland are already leading
+<<<link>>> the way forward for
+the United States.
+
+I would fight for federal legislation for a cap on carbon emissions from
+all sources, with proceeds from permits returned to lower and middle-class
+families, transition assistance, and new jobs with the Clean Energy Corps.
+
+As president, I would support a Clean Energy Financing Authority to support
+projects to increase efficiency and resiliency upgrades in cities, towns,
+and rural communities nationwide.
+
+I would prioritize modernizing our electric grid to evolve to support
+localized, renewable energy generation, reduce electricity waste and
+increase security from sabotage or attack.
+
+And I would increase our investment in basic clean energy research so the
+U.S. can reclaim the lead on energy innovation, including advancing
+development, deployment, transmission and storage for renewable energy and
+new efficiency technologies.
+
+The fact is, there is no either/or choice between our prosperity and
+protecting our domain.com =E2=80=94 we can create a future where there are more
+ jobs,
+and a future with a livable climate. And there is no future for humankind
+without a livable climate.
+
+The reality, as I learned in Maryland, is that the two goals are
+indivisible. Driven by ambitious targets, we created
+<<<link>>>
+thousands of new jobs while deploying clean energy technology and reducing
+<<<link>>
+Estimates/8cmy-9rim>
+greenhouse gas pollution by nearly 10% over just seven years.
+
+As the nation, we can do far more =E2=80=94 with a bold vision for America'
+s clean
+energy future and the strong leadership needed to get it done.
+
+*Martin O'Malley has served as the governor of Maryland, mayor of
+Baltimore, and a city councilor =E2=80=94 earning a reputation as a bold,
+progressive, and pragmatic executive who is willing to take on our toughest
+shared challenges.*
+
+*In addition to its own editorials, USA TODAY publishes diverse opinions
+from outside writers, including our Board of Contributors
+<<<link>>>. To read more columns like
+this, go to the Opinion front page <<<link>>>.*
+
+--
+Josh Schwerin
+Spokesperson
+Hillary for America
+@JoshSchwerin

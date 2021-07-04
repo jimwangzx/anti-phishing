@@ -1,0 +1,208 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 22 Apr 2015 13:55:13 -0700
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s3MKtBMr004925	for <user@domain.com>; Tue, 22 Apr 2015 
+ 20:55:12 GMT
+Received: from mail174-va3-domain.com (mail-domain.com
+ [216.32.180.115])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s3MKuCSe031225
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 22 Apr 2015 20:56:12 GMT
+Received: from mail174-va3 (localhost [127.0.0.1])	by
+ mail174-va3-domain.com (Postfix) with ESMTP id 679E91201F9	for
+ <user@domain.com>; Tue, 22 Apr 2015 20:54:05 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:69.64.74.76;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z579ehzc89bhc85fhe0eahc857hdbd5idbf2izz1f42h1ee6h1de0h1fdah2073h202I2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz1d7338h1de098h1def03h1b1984h17326ah8275bh1bc7b9h8275dh18c673h1de097h186068h1954cbh18602eh1d68dehz2fh54h49hfI11Ieh109h839hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h17f1h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1d61h1dc1h1dffh1e00h1e1dh1e23h1ea5h1fe8h1ff5h20dbh20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h16di99di22eai34h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail174-va3: domain of domain.com designates 69.64.74.76 as permitted sender) client-ip=69.64.74.76; envelope-from=debbierobinsauthor-bounces+user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail174-va3 (localhost.localdomain [127.0.0.1]) by mail174-va3
+ (MessageSwitch) id 1398200042425567_25416; Tue, 22 Apr 2015 20:54:02 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.226])	by
+ mail174-domain.com (Postfix) with ESMTP id 591E9E007E	for
+ <user@domain.com>; Tue, 22 Apr 2015 20:54:02 +0000 (UTC)
+Received: from domain.com (69.64.74.76) by domain.com
+ (10.7.99.13) with Microsoft SMTP Server id 14.16.227.3; Tue, 22 Apr 2015 
+ 20:53:59 +0000
+Received: from domain.com (localhost [127.0.0.1])	by
+ domain.com (domain.com Postfix) with ESMTP id 9EAA0C603E	for
+ <user@domain.com>; Tue, 22 Apr 2015 16:54:21 -0400 (EDT)
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from cdptpa-oedge-domain.com
+	(cdptpa-outbound-domain.com [107.14.166.230])	by domain.com
+ (domain.com Postfix) with ESMTP id	C999BC43B2 for
+ <user@domain.com>;	Tue, 22 Apr 2015 16:53:01 -0400 (EDT)
+Received: from [76.90.115.43] ([76.90.115.43:56889] helo=BigDaddyPC)	by
+ cdptpa-oedge03 (envelope-from <user@domain.com>)	(ecelerity 3.5.0.35861
+ r(Momo-dev:tip)) with ESMTP	id E1/80-10911-EA6D6535; Tue, 22 Apr 2015 
+ 20:53:02 +0000
+To: <user@domain.com>
+Date: Tue, 22 Apr 2015 13:52:55 -0700
+Message-ID: <00b301cf5e6c$d61ce310$8256a930$@domain.com>
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: Ac9ebLo3uwXWQWoWSQGWCt/AWL5ftw
+Content-Language: en-us
+X-RR-Connecting-IP: 107.14.168.142:25
+X-Cloudmark-Score: 0
+X-Mailman-Approved-At: Tue, 22 Apr 2015 16:53:54 -0400
+Subject: [Debbie Robins Author] Danger of Hierarchy in a Fast-Moving World
+	by Debbie Robins, M.A./guest blogger: John Kotter;
+	Leadership, Harvard Emeritus
+X-BeenThere: user@domain.com
+X-Mailman-Version: 2.1.17
+Precedence: list
+From: "Debbie Robins,	M.A. via DebbieRobinsAuthor"
+	<user@domain.com>
+Reply-To: <user@domain.com>,
+        "Debbie Robins, M.A."
+	<user@domain.com>
+List-Id: <domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com?subject=unsubscribe>
+List-Archive: <<<link>>>
+List-Help: <mailto:user@domain.com?subject=help>
+List-Subscribe: <<<link>>>,
+	<mailto:user@domain.com?subject=subscribe>
+Errors-To: debbierobinsauthor-bounces+user@domain.com
+Sender: DebbieRobinsAuthor
+	<debbierobinsauthor-bounces+user@domain.com>
+Return-Path: debbierobinsauthor-bounces+user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+[Debbie Robins Author] Danger of Hierarchy in a Fast-Moving World	by Debbie Robins, M.A./guest blogger: John Kotter;	Leadership, Harvard Emeritus
+
+If you are having trouble viewing this email, please domain.com domain.com/mail/huff_post.html 
+
+  _____  
+
+
+
+
+Read Debbie Robins new blog:
+
+DANGER OF HIERARCHY IN A FAST-MOVING WORLD
+
+domain.com/debbie-robins/danger-of-hierarchy-in-a-_b_5187316.html
+
+It's also permanently listed in the author's archive:
+domain.com/debbie-robins/
+
+Debbie’s work has been recognized by:
+
+Maria Shriver
+
+Arianna Huffington - Founder: Huffington Post
+
+Marshall Goldsmith - #1 Thought Leader
+
+Amy Pascal - Co-Chair: Sony Pictures Entertainment
+
+Hannah Minghella - President of Production: Columbia Pictures
+
+Michelle Raimo-Kouyate - President Sony Pictures Animation
+
+Carla Hendra - Chair: Ogilvy Red
+
+Jeffrey Hollander - Founder: Seventh Generation
+
+Francoise Legoues - CIO: IBM
+
+Dan Burrier - CEO: Common
+
+Mark Eckhardt - Co-CEO & Co-Founder: Common
+
+Fred Cooke - CEO: Golin Harris
+
+Mark Forchette - CEO: OptiMedica
+
+Marc Pollick - President/Founder: The Giving Back Fund
+
+Nick Segal - Founder & CEO: The Partners Trust
+
+Nova Spivak - CEO: Bottlenose
+
+Dave Hodge - Founder & CEO: FingerMusic
+
+Carolyn Bivens - Former commissioner of the LPGA
+
+Mark Stagen - Founder & CEO: Emerald
+
+Laura Nobles - Founder & CEO: Nobles Global Communications
+
+George Minardos - Founder & CEO: Minardos Group
+
+Heather MacPherson- President: Ogilvy West
+
+Peter Schlessel - President: Graham King Productions
+
+Ken Kahrs - EVP: NBC/Universal
+
+Robin Eletto - EVP: Paramount Pictures
+
+Nicola Albini - CEO: Alpi USA
+
+John Gibbons -  CEO: NeonGrid
+
+Tam St. Armand - CEO: Capstone Insurance
+
+Mark Sanor - Principal: Chiron Partners
+
+Walter and Andrew Kortshak - CoFounder's Audax Films
+
+Eric Bovim - Principal: McBee Strategic
+
+Matt Hanover - Serial entrepreneur
+
+Annette Alexander - Director Human Resources PayPal
+
+Justin Brukman - Executive Producer: MPC NYC
+
+Nancy Tate - SVP Marketing: Sony Pictures Entertainment
+
+Heide Banks - Nationally renowned relationship expert
+
+Dr. Ron Alexander - Internationally acclaimed psychotherapist
+
+James Scott - Star: Days Of Our Lives
+
+Penny Marshall - Director
+
+Jane Seymour - Actor
+
+Debbie Ford - Beloved best-selling author, teacher, guide
+
+Rosanna Arquette - Actor
+
+Julia Ormond - Actor
+
+Sandra Bernhard - Actor
+
+Kelly Meyer - Top environmentalist
+
+Dot Maver - President: National Peace Academy
+
+Annie Goeke - Founder: EarthRights Institute
+
+Nobel Peace Prize winners and more.
+
+To learn more about Debbie’s game changing work, please domain.com her website at <<link>>
+Or write to her directly at user@domain.com 
+
+Debbie Robins, M.A.
+Named one of the top Leadership, Executive and Culture Coaches (2009)
+Trained Chief Culture Officer/C
+
+Attachments:
+
+        image001.jpg (14664 Bytes)
+
+        image002.jpg (4087 Bytes)
+
+        ATT00001.txt (277 Bytes)
+

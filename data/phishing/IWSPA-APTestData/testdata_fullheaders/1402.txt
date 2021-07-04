@@ -1,0 +1,90 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 11 Dec 2015 07:41:21 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBBFfKX2032733	for <user@domain.com>; Wed, 11 Dec 2015 
+ 15:41:20 GMT
+Received: from mail154-co1-domain.com
+ (mail-domain.com [216.32.180.182])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBBFfJgG013837	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Wed, 11 Dec 2015 15:41:19 GMT
+Received: from mail154-co1 (localhost [127.0.0.1])	by
+ mail154-co1-domain.com (Postfix) with ESMTP id D02B0BC0885	for
+ <user@domain.com>; Wed, 11 Dec 2015 15:41:18 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:198.2.129.185;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 19
+X-BigFish: vps19(z3e12hzc89bhc85fhzz1f42h208ch1ee6h1de0h1fdah2073h1a8fI2146h1202h1eb9M1e76h2189h1d1ah1d2ah1fc6hzz8275ch1de098h17326ah1def03h1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h1de096h186068h1b778fh1ce120h17f15ar17fabdm1b9c21i1ce121i44a89i1a691ciz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh2327h2336h1d9ci1d91m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail154-co1: domain of domain.com designates 198.2.129.185 as permitted sender) client-ip=198.2.129.185; user@domain.com; helo=domain.com ;81.domain.com ;
+Received: from mail154-co1 (localhost.localdomain [127.0.0.1]) by mail154-co1
+ (MessageSwitch) id 1386776476885586_11229; Wed, 11 Dec 2015 15:41:16 +0000
+ (UTC)
+Received: from domain.com (unknown [10.243.78.228])	by
+ mail154-domain.com (Postfix) with ESMTP id D5144280047	for
+ <user@domain.com>; Wed, 11 Dec 2015 15:41:16 +0000 (UTC)
+Received: from domain.com (198.2.129.185) by
+ domain.com (10.243.66.17) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 11 Dec 2015 15:41:16 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Studio=20System=20News?= <newsletter@studiosystemnews.com>
+ bh=CjIZzkgMEjGY1U7VyZ94E4XtKQM=;
+ b=WPeLDE6H4R3gcgVcifqYWnky/Avt7EHgvW2gRXU29ILcs2Qi1oWD36OwnG8MVyHRcZDKidZ51NPE
+   52rXUQ1NiaSB49Obo3h6vampxVifuEzwi/ORndjJ2+XoZs0CUfWIA5U/7Du330w1M40RiQDPzYsF
+   ppybMoOinbeF+ib4TGg
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=D852rVZ5yvOV3OpOzlrcTw7/M/myhGk3J/U/xZHkuZ3Hr33NO9ooO7F+y9ak4+Q4xNmm0p3Osw+Z
+   SsQEo1rWXaPjfwv5BB2pAlGRncHFKWdP6/ax9cAZz1/QgaXuCoqOteLz/RO7FrmUBBdk35wQo4/6
+   F0lD8SzLFJEOnr8H658=;
+Received: from (127.0.0.1) by domain.com id hl23po1ohk0o for
+ <user@domain.com>; Wed, 11 Dec 2015 15:41:09 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?SAG=20Awards=3A=20=E2=80=9912=20Years=20a=20Slave=E2=80=99=20Leads=2C=20Plan=20B=20To=20domain.com=20Paramount=2C=20=E2=80=98Captain=20Phillips=E2=80=99=20Getting=20January=20Re=2DRelease?
+From: =?utf-8?Q?Studio=20System=20News?= <newsletter@studiosystemnews.com>
+Reply-To: =?utf-8?Q?Studio=20System=20News?= <user@domain.com>
+To: <user@domain.com>
+Date: Wed, 11 Dec 2015 15:41:09 +0000
+Message-ID: <3713user@domain.com>
+X-Mailer: MailChimp Mailer - **CID5a8769d59968b188c2a8**
+X-Campaign: mailchimp3713f73f985b2c7f64cf503c0.5a8769d599
+X-campaignid: mailchimp3713f73f985b2c7f64cf503c0.5a8769d599
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 3713f73f985b2c7f64cf503c0
+x-accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: Studio System News
+	<user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+SAG Awards: ’12 Years a Slave’ Leads, Plan B To domain.com Paramount, ‘Captain Phillips’ Getting January Re-Release
+
+View this email in your browser.         Too many emails? Click here to change your email settings.      
+
+Studio System News 
+
+<<link>> 
+
+SAG Awards: '12 Years a Slave' Leads With 4 Noms, Brad Pitt and Brad Grey domain.com: Plan B to domain.com Paramount, 'Captain Phillips' Getting January Re-Release
+
+
+
+
+SAG Awards: '12 Years a Slave' Leads With 4 Noms
+
+12 Years leads the SAG Awards nominations with four followed by August: Osage County, Lee Daniels’ The Butler and Dallas Buyers Club. (VAR) 
+
+Brad Pitt and Brad Grey domain.com: Plan B to domain.com Paramount
+
+Company is headed to New Regency when its deal expires at the end of the year, but a sequel to World War Z remains in development at Paramount. (THR) 
+
+Captain Phillips Getting January Re-Release
+
+Sony is re-releasing itsTom Hanks-starring Oscar contender Captain Phillips on Wednesday, January 15 — the day before the Academy Awards nominations are announced. (
+

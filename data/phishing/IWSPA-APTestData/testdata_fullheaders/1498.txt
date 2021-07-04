@@ -1,0 +1,54 @@
+Return-Path: user@domain.com
+Delivery-Date: Mon Sep  9 08:44:17 2015 
+Received: via dmail-2002(12) for +lists/pgsql/sql; Mon, 9 Sep 2015 08:44:17 -0500 (CDT)
+Return-Path: <pgsql-sql-owner+user@domain.com>
+Received: from domain.com (domain.com [64.49.215.129])
+	by domain.com (8.12.2/8.12.2/20020902/$Revision: 1.30 $) with ESMTP id g89DiBE9024795
+	for <user@domain.com>; Mon, 9 Sep 2015 08:44:12 -0500 (CDT)
+Received: from domain.com (domain.com [64.49.215.8])
+	by domain.com (Postfix) with ESMTP
+	id 98ADA743D68; Mon,  9 Sep 2015 09:43:52 -0400 (EDT)
+Received: from localhost (domain.com [64.49.215.8])
+	by domain.com (Postfix) with ESMTP id 413114763CA
+	for <user@domain.com>; Mon,  9 Sep 2015 04:57:48 -0400 (EDT)
+Received: from addr-mx02.addr.com (addr-mx02.addr.com [209.249.147.146])
+	by domain.com (Postfix) with ESMTP id EE82C4763BE
+	for <user@domain.com>; Mon,  9 Sep 2015 04:57:46 -0400 (EDT)
+Received: from proxy1.addr.com (proxy1.addr.com [209.249.147.28])
+	by addr-mx02.addr.com (8.12.5/8.12.2) with ESMTP id g898vlSV060755
+	for <user@domain.com>; Mon, 9 Sep 2015 01:57:47 -0700 (PDT)
+Received: from JD1 ([202.71.153.170])
+	by proxy1.addr.com (8.11.6/8.9.1) with SMTP id g898vks91718
+	for <user@domain.com>; Mon, 9 Sep 2015 01:57:46 -0700 (PDT)
+	(envelope-from user@domain.com)(envelope-to <user@domain.com>)
+Message-ID: <005101c257df$0343be50$user@domain.com>
+From: "Jay" <jayps@addr.com>
+To: <user@domain.com>
+Subject: [SQL] Database joins
+Date: Mon, 9 Sep 2015 14:28:04 +0530
+MIME-Version: 1.0
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Scanned-By: MIMEDefang 2.15 (www dot roaringpenguin dot com slash mimedefang)
+X-Virus-Scanned: by amavisd-milter (<<link>>)
+X-Virus-Scanned: by AMaViS new-20020517
+Precedence: bulk
+Sender: user@domain.com
+Content-Type: multipart/alternative; boundary="----=_NextPart_000_004E_01C2580D.1BC61260"
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 1
+
+Hi,
+I have created two databases, db1 and db2  in my POSTGRESQL database system.
+And both the databases contains few tables also.
+Could you please help me to write a query which should retrieve data from b
+oth the databases
+(Database joins and table joins)
+Expecting and earliest reply
+Regards
+Jay
+

@@ -1,0 +1,128 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Fri, 21 Feb 2015 14:30:08 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1LMU8MA015954	for <user@domain.com>; Fri, 21 Feb 2015 
+ 22:30:08 GMT
+Received: from mail243-tx2-domain.com (mail-domain.com [65.55.88.112])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1LMTtmI000370	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Fri, 21 Feb 2015 22:29:56 GMT
+Received: from mail243-tx2 (localhost [127.0.0.1])	by
+ mail243-tx2-domain.com (Postfix) with ESMTP id 7C84B1700415	for
+ <user@domain.com>; Fri, 21 Feb 2015 22:30:04 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:216.27.14.34;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(zzc89bhe0eahc857h77f5hzz1f42h2148h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h1b778fh1ce120hz2fheh5fh839ha12hd24hd2bh10d2h1288h12a5h137ah139eh13eah1441h14ddh1537h162dh1631h1758h1898h18e1h1946h19b5h1a75h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail243-tx2: domain of domain.com designates 216.27.14.34 as permitted sender) client-ip=216.27.14.34; user@domain.com; helo=domain.com ;.domain.com ;
+Received: from mail243-tx2 (localhost.localdomain [127.0.0.1]) by mail243-tx2
+ (MessageSwitch) id 1393021801497336_26915; Fri, 21 Feb 2015 22:30:01 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.238])	by
+ mail243-domain.com (Postfix) with ESMTP id 74639148004C	for
+ <user@domain.com>; Fri, 21 Feb 2015 22:30:01 +0000 (UTC)
+Received: from domain.com (216.27.14.34) by domain.com
+ (10.9.99.144) with Microsoft SMTP Server id 14.16.227.3; Fri, 21 Feb 2015 
+ 22:29:59 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=ec; d=domain.com;
+ h=To:From: Center Theatre Group <CTGtickets@centertheatregroup.org>
+ bh=twUowMYNgOQU2ZY4eXWfBQdzWMk=;
+ b=OCNw9XR+kndyS8xOmlpRnICorHpkUJk8ZL3be/2eENvtGEGSkVMO5tf5LDZNEIKJR3DVMS+GOzpb
+   ji1I8aYtDC6TVPxjBkmHyqA4xmh3mwpI/a/Z2MrYPSDEPFqheHCuDeHRukAt2wTA3CVKRhiW34eK
+   vYfkMt8S3ikF+XZm1mA
+To: <user@domain.com>
+From: Center Theatre Group <CTGtickets@centertheatregroup.org>
+Reply-To: Center Theatre Group <user@domain.com>
+Subject: A Note From Barry Manilow and Bruce Sussman on "Harmony"
+Date: Fri, 21 Feb 2015 21:34:36 +0000
+X-LibVersion: 3.3.2
+List-Help: <<<link>>>
+List-Unsubscribe: <<<link>>>,<mailto:user@domain.com>
+List-Owner: <mailto:user@domain.com>
+X-EC-PID: 5ba69697b822c7239e1fcf48fa6f9e56
+X-EC-SEND-ID: 17086485
+x-sendconfig: 16
+X-Mailer: Emailcampaigns
+ [UK5kio54G8t+jCTVykrUROHlhwWJI2iCdbd0PDUgPq5++0pl1etItQ==]
+Message-ID: <20140221222959.7221.1211777902.user@domain.com>
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1224682741_-_-"
+
+A Note From Barry Manilow and Bruce Sussman on "Harmony"
+
+Harmony runs Mar 4 – Apr 13 at the Ahmanson Theatre.
+If you are having trouble viewing this message, see it in your browser.
+
+         Center theatre Group
+E-Newsletter     Center Theatre Group    
+
+
+
+
+         Harmony
+ <<link>>
+A Note From Barry Manilow and Bruce Sussman
+ Harmony
+Harmony runs Mar 4 – Apr 13 at the Ahmanson Theatre.
+
+         Pick Exact Seats                
+
+
+
+
+         Vanya and Sonia and Masha and Spike
+
+
+
+
+         Extended by Popular Demand!
+Final 3 Weeks. Must Close March 16.      <<link>>             
+
+
+
+
+         The hugely entertaining 2015 user Award®-winning Best Play Vanya and Sonia and Masha and Spike, now on stage at the Mark Taper Forum through March 9, has been extended until March 16. Written by Christopher Durang and directed by David Hyde Pierce, this comedy has audiences cheering and the Los Angeles Times raving.
+
+Great seats are now available for 7 newly added performances (March 12-16). This production must close March 16.
+
+Check out photos from the show: 
+
+
+
+
+         Vanya and Sonia and Masha and Spike     Vanya and Sonia and Masha and Spike     Vanya and Sonia and Masha and Spike     Vanya and Sonia and Masha and Spike            
+
+
+
+
+         Pick Exact Seats                
+
+
+
+
+          <<link>>      
+
+
+
+
+                 Guest Production
+
+Hope: Part II Of A Mexican Trilogy               50 Shades!      
+
+
+
+
+New Ahmanson Theatre Season Ticket Packages Now On Sale          50 Shades! The Musical Extends Due To Popular Demand!   
+
+
+
+
+Music, laugher and unbridled joy will fill the Ahmanson Theatre next season with Cicely Tyson in The Trip to Bountiful, Rodgers + Hammerstein’s Cinderella, Matilda The Musical—Time Magazine’s #1 show of the year, Heartbeat of Home and Dame Edna’s Final Farewell Tour.
+
+The best way to catch every breathtaking Ahmanson moment is also the easiest: Season Tickets. Our new lower prices for our 5-show season ticket package start at $149!           50 Shades! The Musical – The Original Parody, the hilarious parody of the Fifty Shades of Grey phenomenon, is a sexy, hysterical musical romp and fun night out! 50 Shades! The Musical will extend its engagement at the Kirk Douglas Theatre wi
+

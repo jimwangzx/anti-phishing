@@ -1,0 +1,104 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp324035lfb;
+        Thu, 23 Oct 2015 17:24:58 -0700 (PDT)
+X-Received: by 10.229.28.196 with SMTP id n4mr1506424qcc.14.1414110298031;
+        Thu, 23 Oct 2015 17:24:58 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.196])
+        by domain.com with ESMTPS id i34si5358276qgf.90.2014.10.23.17.24.57
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Thu, 23 Oct 2015 17:24:58 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.196;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=fail user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.241.243] by server-4.bemta-8.domain.com id D9/68-03122-95C99445; Fri, 24 Oct 2015 00:24:57 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-3.tower-192.domain.com!1414110296!8744527!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 17963 invoked from network); 24 Oct 2015 00:24:56 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-3.tower-192.domain.com with AES128-SHA encrypted SMTP; 24 Oct 2015 00:24:56 -0000
+Resent-From: "Ziggy Jeffery, Truthout" <messenger@truthout.org>
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Thu, 23 Oct 2015 20:24:56 -0400
+Received: from [216.82.249.211:10721] by server-16.bemta-12.domain.com id
+ 57/87-10985-75C99445; Fri, 24 Oct 2015 00:24:55 +0000
+X-Env-Sender: 2289383379-1310191-user@domain.com
+X-Msg-Ref: server-5.tower-53.domain.com!1414110293!8041214!1
+X-Originating-IP: [69.174.83.168]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY4ID0+IDI5NzY2\n,sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY4ID0+IDI5NzY2\n,HTML_MESSAGE
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 5597 invoked from network); 24 Oct 2015 00:24:53 -0000
+Received: from domain.com (HELO domain.com) (69.174.83.168)
+  by server-5.tower-53.domain.com with SMTP; 24 Oct 2015 00:24:53 -0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1414110293;
+	h=From: "Ziggy Jeffery, Truthout" <messenger@truthout.org>
+	bh=KeT9fwCJYpI9czszCADAyLwV29o=;
+	b=J6tKPs6crFj636fGDtH9+ttHvH5+TYow9wBoK3YGXFgVsr3D/uy4a60KH/up6+CI
+	hk58e9w7lsyE9DSvlf3m+s5AgoHB95uUuCqgNkgRwAfRmg6443M16DrUeKmGY4TN
+	YAhVHq/BrRL+1Ipq0qbS/KlrV3TMdLjFiIfQtiGyZHQ=;
+Received: from [10.174.83.206] ([10.174.83.206:46348] helo=10.174.83.206)	by
+ domain.com (envelope-from
+ <2289383379-1310191-user@domain.com>)	(ecelerity
+ 3.5.10.45038 r(Core:3.5.10.0)) with ESMTP	id B6/12-07536-55C99445; Thu, 23
+ Oct 2015 20:24:53 -0400
+Date: Thu, 23 Oct 2015 20:24:53 -0400
+From: "Ziggy Jeffery, Truthout" <messenger@truthout.org>
+Sender: <user@domain.com>
+Reply-To: <user@domain.com>
+To: user@domain.com
+Message-ID: <2289383379.1759925160@domain.com>
+Subject: Really, why should you care?
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_4099344_1652038308.1414110293469"
+Envelope-From: "Ziggy Jeffery, Truthout" <messenger@truthout.org>
+List-Unsubscribe: <<<link>>>
+X_email_KEY: 2289383379
+X-campaignid: salsaorg26694-1310191
+
+t r u t h o u t | I often mention to people the fact that Truthout is a domain.com organization that doesn't run ads - and I was recently asked what that actually means for our readers and why you should care.
+
+First off, it means we publish stories that we think will contribute to the well-being of regular people, local communities and the domain.com generally. Meanwhile, most news websites produce content with the political ideologies of their advertisers in mind. Truthout is guided by our own editorial integrity and beholden only to our readers, while the vast majority of news sites are either censoring themselves or acting as a mouthpiece for super-rich corporate stakeholders.
+
+This also makes reading Truthout a better experience for you, our readers. When you domain.com our site, you don't need to wade through countless ads to get to the story - because we don't treat the news as secondary content. And you won't find any paid "advertorials" at Truthout, ever.
+
+In order for us to stay domain.com and independent, though, we need your continued support. Our mission may be ambitious but our budget is modest - and any amount you can spare really counts. Show you believe in independent journalism - make a tax-deductible donation to Truthout tonight!
+
+Click here to donate: <<link>>
+(Truthout is a 501(c)(3) domain.com. EIN: 20-0031641) 
+
+You can also donate by check, made payable to:
+Truthout, P.O. Box 276414, Sacramento, CA 95827
+(Please include your email address on your check.) 
+
+Sincerely,
+Ziggy Jeffery, Development Director
+
+-----------
+Support Truthout with a tax-deductible donation by clicking here: <<link>>
+
+To ensure you receive our messages please add the following address to your email address book: user@domain.com
+
+If you are having trouble with this, read our guide: <<link>>
+
+Thank you!
+
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+Click to UNSUBSCRIBE -> <<link>>
+Go directly to our home page: <<link>>
+Click to SUBSCRIBE -> <<link>>
+Our Privacy Policy -> <<link>>

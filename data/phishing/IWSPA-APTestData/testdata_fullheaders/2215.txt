@@ -1,0 +1,91 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 18 Feb 2015 07:50:26 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1IFoQK5030500	for <user@domain.com>; Tue, 18 Feb 2015 
+ 15:50:26 GMT
+Received: from mail157-co9-domain.com (mail-domain.com
+ [207.46.163.21])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s1IFoGRu009044
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 18 Feb 2015 15:50:18 GMT
+Received: from mail157-co9 (localhost [127.0.0.1])	by
+ mail157-co9-domain.com (Postfix) with ESMTP id 6858140025C	for
+ <user@domain.com>; Tue, 18 Feb 2015 15:50:24 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.15.215.103;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(zzdf7Ic89bhc857h77f5hzz1f42h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h17326ah172cdfh1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h186068h1b778fh1ce120h1ce121iz2fh5fh839h8e2h8e3h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487h24d7h2516h2545h255ehbe9i214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail157-co9: domain of em-sj-77.domain.com designates 199.15.215.103 as permitted sender) client-ip=199.15.215.103; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail157-co9 (localhost.localdomain [127.0.0.1]) by mail157-co9
+ (MessageSwitch) id 1392738621883635_27597; Tue, 18 Feb 2015 15:50:21 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.234])	by
+ mail157-domain.com (Postfix) with ESMTP id CFEF124007B	for
+ <user@domain.com>; Tue, 18 Feb 2015 15:50:21 +0000 (UTC)
+Received: from domain.com (199.15.215.103) by domain.com
+ (10.236.130.11) with Microsoft SMTP Server id 14.16.227.3; Tue, 18 Feb 2015 
+ 15:50:20 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=citrixonline.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1392738620;
+	h=From: "Mike Mansbach, Citrix" <mmansbach@citrixonline.com>
+	bh=+LGQrQUrw0DjIuObDRNg87een6foY/d8+LMfuGR7hNM=;
+	b=vPmeKJckjfwwHcTGUnV3yIoDPlY9X0eW6N/6/RKD2iuaVcFC4WQD6b5BekGZ8VCn
+	a6zIWb9bz+Pl1h8+hR1WuEJ3n275FxMN+TUrKsCYeQI7rmIz/+Gi5UtFT0oA/WnN
+	otzYTkOcFFknqqRu2cxgR9bPhovxJADxweYUJKIJVx4=;
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AZHZwLTE5OS0xNS0yMTUtMTAzQGJnLXNq
+	ZC0xM0A0MDMtQUdGLTkyMDoxMzI3Mjo1OTI1OjE3NDk5OjA6NTYyMzo3OjcyMzY3
+	Njg
+Received: from [10.0.12.43] ([10.0.12.43:34126] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.0.35861 r(Momo-dev:tip)) with ESMTP	id 98/49-59964-C3183035; Tue, 18 Feb
+ 2015 09:50:20 -0600
+Date: Tue, 18 Feb 2015 09:50:20 -0600
+From: "Mike Mansbach, Citrix" <mmansbach@citrixonline.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <1416181076.1489949817.1392738620840.user@domain.com>
+Subject: Infographic: A look at evolving workstyles for SMBs
+X-Report-Abuse: Please report abuse here: <<link>>
+X-PVIQ: 000326-001277-000001-000000-020028
+X-Binding: bg-sjd-13
+X-MarketoID: 403-AGF-920:13272:5925:17499:0:5623:7:7236768
+X-MailFrom: "Mike Mansbach, Citrix" <mmansbach@citrixonline.com>
+Return-Path: 403-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Infographic: A look at evolving workstyles for SMBs
+
+To view this email as a web page, click here     
+
+ <<link>>      
+
+ <<link>>      logo     
+
+Questions? 1 800 372 6207         <<link>>     
+
+ <<link>>       
+
+ <<link>>      
+
+ <<link>>      
+
+ <<link>>    
+
+ <<link>>      Evolution of a mobile, flexible workstyle         <<link>>     
+
+ <<link>>      
+
+ <<link>>      
+
+ <<link>>      Download the Infographic          <<link>>     
+
+ <<link>>      
+
+ <<link>>      Amy,
+
+A recen
+

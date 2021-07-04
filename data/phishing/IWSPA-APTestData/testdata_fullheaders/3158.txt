@@ -1,0 +1,138 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp92493lfb;
+        Mon, 14 Mar 2015 09:00:14 -0700 (PDT)
+X-Received: by 10.66.66.108 with SMTP id e12mr38921934pat.33.1457971214644;
+        Mon, 14 Mar 2015 09:00:14 -0700 (PDT)
+Return-Path: <>
+Received: from na01-by2-domain.com (mail-domain.com. [207.46.100.98])
+        by domain.com with ESMTPS id xw2si4061574pac.192.2016.03.14.09.00.14
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 14 Mar 2015 09:00:14 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 207.46.100.98 as permitted sender) client-ip=207.46.100.98;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 207.46.100.98 as permitted sender) smtp.helo=na01-by2-domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=domain.com;
+ s=selector1-gulaw-onmicrosoft-com;
+ h=From: Georgetown Law Events <rsvp2@law.georgetown.edu>
+ bh=ZH0gyUdUOzUm1/g7nDix2ELJXRnsVppd5lHg5Vri5z4=;
+ b=OlKzKACre5WZYOTXhqqj5dVXzdP54zjB2WEsg0PR7NUOWcuqSqngutNn0S7qE5UUFZrRBlluIR1T8mQwexztMMMJu2g4G8NsKvkrfnv/dRVa2SyjWrImz4/P/2K4uArjQQi/1WodcGijKgX9XWytB7W6PsCxKJ9WQnso7jSIWlA
+Received: from domain.com (10.163.126.50) by
+ domain.com (10.162.100.143) with Microsoft
+ SMTP Server (TLS) id 15.1.434.16; Mon, 14 Mar 2015 16:00:12 +0000
+Received: from BN1AFFO11FD017.protection.gbl (2a01:111:f400:7c10::140) by
+ domain.com (2a01:111:e400:52fd::50) with Microsoft
+ SMTP Server (TLS) id 15.1.434.16 via Frontend Transport; Mon, 14 Mar 2015 
+ 16:00:12 +0000
+Authentication-Results: spf=none (sender IP is 141.161.191.75)
+ smtp.helo=mail.law.georgetown.edu; domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Received-SPF: None (domain.com: mail.law.georgetown.edu does not
+ designate permitted sender hosts)
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ domain.com (10.58.52.77) with Microsoft SMTP
+ Server (TLS) id 15.1.434.11 via Frontend Transport; Mon, 14 Mar 2015 16:00:12
+ +0000
+Received: from LAW-MBX01.law.georgetown.edu ([169.254.1.238]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0279.002;
+ Mon, 14 Mar 2015 11:59:48 -0400
+From: Georgetown Law Events <rsvp2@law.georgetown.edu>
+To: Faculty and Visitors Lunch <user@domain.com>
+Subject: Dean's Wednesday Lunch
+Thread-Topic: Dean's Wednesday Lunch
+Thread-Index: AdF+Cogc1z3sL3djTT6czhSYj8htxA
+Date: Mon, 14 Mar 2015 15:59:48 +0000
+Message-ID: <6user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.129.181]
+Content-Type: multipart/alternative;
+	boundary="_000_6E4EDAD653578C4E9D219B5CD44D0D6A3BD5B4DBLAWMBX01lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Return-Path: <>
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(10009020)(6009001)(2970300002)(428002)(189002)(199003)(5003600100002)(42382002)(450100001)(15975445007)(107886002)(92566002)(11100500001)(104016004)(960300001)(260700001)(3846002)(5008740100001)(78352003)(1096002)(189998001)(6806005)(586003)(790700001)(6116002)(5004730100002)(102836003)(1220700001)(3480700003)(33656002)(5000100001)(16236675004)(55846006)(19300405004)(54356999)(81166005)(4001450100002)(2900100001)(2930100002)(19580395003)(87936001)(229853001)(2920100001)(2171001)(84326002)(89122001)(106466001)(512954002)(66066001)(105586002)(101416001)(50986999)(19625215002)(2906002)(110136002)(88552002)(53652003);DIR:OUT;SFP:1101;SCL:1;SRVR:SN1PR0701MB1789;H:mail.law.georgetown.edu;FPR:;SPF:None;MLV:sfv;MX:0;A:0;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD017;1:1J3JS/PfdS3cLxWimZMbRLPV+PuI+/Mp4EvJlrIyehSMkGlPAONcGoG5yf+/GGPcIeb7/YPHQcvyGyzf1mptQyXr1pxnqeABuXMhMTckojLDpRrMKc+4zGse1LXadYiowjzrir1knRMS53aGzxCD07+ScVc9WxxGHHS/IU7H7XrSu8MYH4+0HR0dIcdVqNU5feDCvze1lbhQQ64NmROOxzNYNDSQ8lEK6tmqyfQw0aPV8Ab9taypgaa0lVjSobmyFRYRdShRK6q2M//cFD326L4A0Rr77pl11QODB4cmfacKhikIQopdmGe+vCEAa9Fob+qSAfH+Uzm9jfihnCfXyUeumaO6JagiXRKqfRC6cv+C7fiNw/ufG8So4d0FzQcUsM7kgjhCdjApwg1GceR+XZDrOoUEhvxDq+Ag9mkBjBI
+X-MS-Office365-Filtering-Correlation-Id: 9a252965-7cf7-424f-d2ae-08d34c21ba13
+X-Microsoft-Exchange-Diagnostics: 
+	1;SN1PR0701MB1789;2:G0OqOVUjQpEudibFeodA1pXMiVprm1DfXgaT6wrpHqEZBGo+2FvOUgjMpP0w5DMvWJFj9nOwF1HPjN/hnn0QMt4aCdAO4fNYHyxDfiyqGoolPyE8LDdLu662riGv6sy/I/lSfZyPYrf3nXOw2ZJGDLHumUVbQ9MrEgFwqrsygGEZuEvwI36NpmzehO6LrJqL;3:9TfOTfC2ltCdLfqRfKASpfVHOhYHuDu9E3Cv5nJQ63hYYkIyKCXdXVlAiMxRKZ8JQ7s/mCJGGHlpox7MW7GyqPHluJdZgrG64YGuTbxE3kbfKb6yrPXtbS0OFRn3bulqcZ3oG03t8xYepoetZlGzvmiNppUysJesWmbu9KsH2ejJl3V1vdWZ0rAZqXDh8W1kjNFwjVmqDscRIiUw8i3taTJ4+WHNJ22wqlbh5FPj8yI=;25:HmfBWpldqbL7Go4sf6TWvQm+9J3i1Us2HleusDg9TyfQRgDSctQlGrna2w00MHJUwtRIi2ra10EZ5eCz0mSTiJuKFtWHxZpn7CBRNttyFjCK7eE99/9SLPB9T8S1GikGyCpDOq+r2MrUOIynIjiuDgiGvBvNQBtmxtb5I8skx+GoNwKpslU3Amywf4NThs2FomEIR+8Zer0/tp32QbGTxQObwJa+qE2goI24TVazWqAajFq8mA2xI6DSHbj8fU4jCwqelnjt5I0XCT3ftSFAY4SZBG6kBkB8Qa6DZyxSwVWdCsTQqnh2wtMEtQ2lhQBsRq6PkLCapApY5Rf508AAuQ
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:SN1PR0701MB1789;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr
+X-Microsoft-Exchange-Diagnostics: 
+	1;SN1PR0701MB1789;20:B2qP1R1vXuvWSxg3Txnr2duQxdB0kpW4aZUxcZ7ONASx72i9lt8bKChahL+yQhTvWHl4SmzxW3E3UJ6Re3JQn4Gfu0BguijhwzF+t2Fteaj7K6pHhivDiFo3PsrXHfozuEx7OviFl9gsYz6ainmOhuU/w6/7gR7T1zKLv/L6d4WlCAVzuTLVaD5re6miREkDy0LlaipnOn4/hxqIFE6AT9TUZbj9MKOioHaq+cNmCMuJTp5L6uHw2wG5dMQXbpOEe2s6AiCmK2ZlXuwmBNxKqJYRO/XKT6+dJjkcQNmpVMFXwXIs9ZZ9Ifva9sHq875j/Z048fu7EQgqSw+uyEwma7b1U5woOOhjDuA7oPuIzP+SrVy9ORuMOH7D9dTnVhd0vR1PrLHuVzJcztiJ6eSBCDoZBRTuYltM2NNXJWiVPP0=;4:vpoEcw0YdN8dXdqop7plLb8hg0NVnOEMmpg0eDwejJ0iVQD/5nuWQt7eIhDhOoBkXqrfWkyWYt51+DL/HgCbR7PMuqyD2WQ2LWbWVZLbFewn/13DXekYh0SvnTiS/2AaN9516+DWb2kchHRCVeJH7aedYhWNBXtVwt6Yn8/qwQwdLR7LWnDCFAGwAf+1EoUKSUJ91ARXe/NWY6vZ0TuEhTVlI/X4rDzo0joyRwWVV+B9c+U9i6XGvtgAmbMB28g3UY++eB/LXvCOsq+0BKgvRzLVI5s6ww+mAwrE2CEer6OpdvlPA3cdLY+GRlnjlhGyynA/MLHmPPK8yovyB8LRo19k+F74hw0wDh2lFC251H7TtJBPd2CMfAKAKF/bnQAx7w4ApnEPyZd/UIjoXULb7A
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:0;PCL:0;RULEID:(601004)(2401047)(13016025)(13018025)(8121501046)(5005006)(10201501046)(3002001);SRVR:SN1PR0701MB1789;BCL:0;PCL:0;RULEID:;SRVR:SN1PR0701MB1789;
+X-Forefront-PRVS: 0881A7A935
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;SN1PR0701MB1789;23:pcfrIJoX54FU4WRwZ+x46J9TwCj40tbvTD38Hh2?
+ =?us-ascii?Q?PUkhI6HwTJuwv8iUmGygwyhtfnrMQW1ubKQ9eZ7FJZe5BRKpiXQwuEUVkHVN?
+ =?us-ascii?Q?tvJ7/53qW/6nFkkPALlWHumHPCHUHUKFWtSyGIA8ic4TrmvZ4avpA55i2hGD?
+ =?us-ascii?Q?ZFrQeLrWwRi7YL06THzYLMTrTmcplo5ne2wzultcjV0kyPBxIKBr45uq6c/Q?
+ =?us-ascii?Q?17fLnoxxLpvUKu28neuLT80x2ZVMqMfC/BFCLnOf2h2WXC/wzChVEJ8PZmWt?
+ =?us-ascii?Q?BWIU1nwVaqArI/3nFIqb4kIznejd6bHp94aO6CGyH9rWKhDNXiqbxFuGxN1t?
+ =?us-ascii?Q?+iXq9Lrh/pbUQ3H9u096UzbFvDfSPQTUEmEb9Uq92KYc8WkG6xXCFp0nYpo3?
+ =?us-ascii?Q?hfFnN2xT6l7KcXWS1nBM1D1HD48B4sys0Mi4WRPLC/UjOEtZMuHwO/4vmqY9?
+ =?us-ascii?Q?XplKcN6i984ht9GRvbBkR2Rs2SR1L15502NkfyWbTWCrepchIJEKdTrJEhG5?
+ =?us-ascii?Q?lvn9VKWi8UK76yNdVrVkoWwpWd9OCXBELg9sn6OykDIMzi1uawOKhTZYYcBu?
+ =?us-ascii?Q?prBluH3UBkEnmv1d/gEzHWCqOQ1GNt6ibOnhu+kLZUMyhQyyvHH83YEUMhi7?
+ =?us-ascii?Q?6IrYVhgZRc24NQOTTnuuSPex/hMWTRwDZXDLRYPCCnt2XX2U3p2cyNxsClF8?
+ =?us-ascii?Q?7qxU05BqIY86CK3rB3ZS0czxSs+fD6xNCJLFXbiOJRB3yqrdlFDqwpVJtMDk?
+ =?us-ascii?Q?sXqaZANTsQCrLh9SzEU2yXLamJrQgSl7vTOj7Iasq/RoA1H93aOoLWtNbVPi?
+ =?us-ascii?Q?pAk3Q07bQ3xlXFZeSwhMlGMbCRrOWypkOseuhOzVG/HUGpQTs35fS7EqT53l?
+ =?us-ascii?Q?j67yGAL0IBOmwzFJqLnX4w/Xjh2+EXKe3NHOOMYjsDWBdpgI1szn+LyCLkEF?
+ =?us-ascii?Q?ECROzMMriqxRtAANeh78rQeO9ATcBORC+FRQre3L0LcRjpwzliZsKFvEbmCF?
+ =?us-ascii?Q?b8xx1L5G6M5oNmYp3Goq+IJVuA3GBqLXTPm76BOOiUsK4KHQgwYZ1Erq7BIP?
+ =?us-ascii?Q?S/hoiOWEUtJdR4g4LG+mmNJ4LjfkOt4F7iSFkgBgARxz4i+8BGID+EccUlOz?
+ =?us-ascii?Q?4+rvWeaKYeHchWmpzKvPSYgzUcz+TxNm/J4xgp6z8XrAgOzhMb3/iwSITRUC?
+ =?us-ascii?Q?9VD7NElpmAP43cwuFGzJQrAjkIKSWfB51ghVyt3cmleD7Tlus0x/K83jCJku?
+ =?us-ascii?Q?gy3iXOpIJrY0Fmtm3G0sJs4ApItyjxfZxWlpj9doH+5jl4+khQQsdUtB/m5I?
+ =?us-ascii?Q?oW5itAr+sUTGvnFXX8Ff6tmmDTJ4WUibXi54mz7YYsISID+sqGL7DKBIceHZ?
+ =?us-ascii?Q?7gH94wwQ0gIJAjnL/domain.com?
+ =?us-ascii?Q?v0Pes7KHZSDF8d7Ksb2/AHmYwjLKoJTQ=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;SN1PR0701MB1789;5:Nuzq2lt7yxkOnm14igsIB2oEtvVNMdY5d8w/PfBxC8ezAWArcHsIwYsAnFBihIArXY63wlwSNVALbmNUtWKbM208jE2ek0jEgIH+Lb7sfE5bRGZzBC2DcwEfvuoQZkbQDbR0rBUJJdlDAP05IklyAQ==;24:OtMRn4z8hNkhhaxzTQEHLgF5a0c7qu+ldhkMZHX/Uvu1Qzlijf++eqh9niafMWmu8QS0ngLEJ2xiSAxKXmkmEVP6Yki8dmEUa9GDlaxhvyQ
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 14 Mar 2015 16:00:12.5900
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1PR0701MB1789
+
+Dear Faculty Members:
+
+This is a friendly reminder that you are invited to join your fellow facult
+y for lunch on , Wednesday March 16,, 2016. Please note that the lunch will
+ commence at 12:00PM and end at 2:00PM.
+
+The Menu includes:
+
+*        Vegetable Tomato Bisque Soup
+
+*        Arugula and Beet Salad
+
+*        Grilled Chicken Wraps
+
+*        Smoked Turkey Sandwiches
+
+*        Falafel Wraps
+
+*        Chips and Pretzels
+
+*        Cookies
+
+*        Middle Eastern Platter with Humus, Stuffed Grape Leaves and Pita C
+hips
+
+Manger bien et juste!

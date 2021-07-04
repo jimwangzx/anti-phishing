@@ -1,0 +1,62 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp1159855lfi;
+        Sun, 19 Apr 2015 13:37:46 -0700 (PDT)
+X-Received: by 10.70.131.193 with SMTP id oo1mr7413312pdb.63.1429475865744;
+        Sun, 19 Apr 2015 13:37:45 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-pd0-domain.com (mail-pd0-domain.com. [2607:f8b0:400e:c02::22a])
+        by domain.com with ESMTPS id nn1si4871053pdb.231.2015.04.19.13.37.44
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 19 Apr 2015 13:37:45 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c02::22a as permitted sender) client-ip=2607:f8b0:400e:c02::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c02::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-pd0-domain.com with SMTP id a3so186761067pde.3
+        for <user@domain.com>; Sun, 19 Apr 2015 13:37:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=date:From: "Ronald E. Owens III" <owensron18@gmail.com>
+         :content-type;
+        bh=2+8YGwtpVU1TxEponAGe8WEQ3VZtzAQw7GcrdL4+poI=;
+        b=P7wKj1I/U0Xq2nZm2i7s47Gaty2Mquos1BOPbQkC+Yjk+12Vw3Ny1GU7SHXFrbYRHj
+         +cV+8psL2QTdVaIejG91h5uZWlvwTM5qhGtfwRwwDGNy272MEsmNiD/iSgfb8vbQXc1q
+         gPoXVHm2T/wh8uLtoM1ks5rOxZf76d+d6jGTv9UczcedKmS4cI8gLephhylf4MZJLNYK
+         CPAa6tX/1IGn+0ERfQK1wVYgVTcDPCGSyZ3VxlLxALrgrp90NYrk8MOz3mAMS+aIVf6U
+         a1q6Udiss6cuxSfVdbC2kwNf0Gi8G7KI2yZj+aAOcfwCfsg8y7LOBhX2ZpgIXr1JB0QA
+         4WQQ
+X-Received: by 10.68.93.68 with SMTP id cs4mr8707323pbb.139.1429475864827;
+        Sun, 19 Apr 2015 13:37:44 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (ec2-54-201-47-109.us-west-2.domain.com. [54.201.47.109])
+        by domain.com with ESMTPSA id ll2sm15997749pbc.11.2015.04.19.13.37.44
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 19 Apr 2015 13:37:44 -0700 (PDT)
+Date: Sun, 19 Apr 2015 20:37:43 +0000 (UTC)
+From: "Ronald E. Owens III" <owensron18@gmail.com>
+To: John user <user@domain.com>
+Message-ID: <4user@domain.com>
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+ <user@domain.com>
+Subject: Re: Michigan Campaign Office
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1428_1513250744.1429475863815"
+X-Mailer: Outlook for iOS and Android
+
+Thank you Mr. user! Your help is appreciated.=C2=A0
+
+Ronald E. Owens III
+Michigan State University
+James Madison College
+Political Theory and Constitutional Democracy
+Social Relations and Policy
+Public Relations
+Ph: 989.992.3395
+Email: user@domain.com
+
+On Sun, Apr 19, 2015 at 1:35 PM -0700, "John user" <user@domain.com

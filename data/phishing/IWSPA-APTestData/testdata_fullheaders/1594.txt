@@ -1,0 +1,109 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp2063352lfi;
+        Tue, 12 May 2015 06:53:08 -0700 (PDT)
+X-Received: by 10.55.31.90 with SMTP id f87mr32909409qkf.38.1431438787556;
+        Tue, 12 May 2015 06:53:07 -0700 (PDT)
+Return-Path: <hrcrapid+user@domain.com>
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [2607:f8b0:400d:c09::23c])
+        by domain.com with ESMTPS id d49si7511022qge.52.2015.05.12.06.53.05
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 12 May 2015 06:53:07 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of hrcrapid+user@domain.com designates 2607:f8b0:400d:c09::23c as permitted sender) client-ip=2607:f8b0:400d:c09::23c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of hrcrapid+user@domain.com designates 2607:f8b0:400d:c09::23c as permitted sender) smtp.mail=hrcrapid+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qk0-domain.com with SMTP id x191sf870721qkb.0;
+        Tue, 12 May 2015 06:53:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120806;
+        h=mime-version:date:message-id:subject:From: Emily Aden <eaden@hillaryclinton.com>
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive:sender
+         :list-unsubscribe;
+        bh=cThJkUg752X7dFsYY9L1u8xmorkLaZIi2eaSmnG/49U=;
+        b=I7j2/DAnqaLwk6wyrkSBAIYANfArH/h6AsNFTA9Xg8VIG4j2b7+P/MuciJrVnRbiWS
+         Hx9VKkJpJaRAPWrWJMNelGR5g2tmNAA6bcT/XvNwJ6hj2mVLzUlrqMvlOCyuFxyj25UE
+         DxVEDapA9mh+DiHaiO4XZDWGSKslQgim/P4qSWUx8wWERIH8ASs5IhP6xclXngPN5Wvg
+         XOVE3z5E1Guwo2Yp6eviAxPU/OxO0NAZrb+slK8QLKnIufIvnXWUG44lmWwsuRm7YGUl
+         31DfQRsKakl+mWEo6+j+MBjnd1k+7+wgkYEK3lx4mcOf0nvd72fdqR78kDSX1srivMSa
+         0fSg
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Emily Aden <eaden@hillaryclinton.com>
+         :content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe;
+        bh=cThJkUg752X7dFsYY9L1u8xmorkLaZIi2eaSmnG/49U=;
+        b=ZxLg3oRarpkyPqGDq4wxlemZXPSnZtxPys0KDrJAk6b5IctozlSaAp7nGR9oU/WL9R
+         HM78OLaPz6mxKhvXhGaCbnikqDWOU9BHorZmcUn/+s5pAZ0VCx3y9kfTwemi1yW5Sih/
+         wFMnSE1W09tN24thhq8wzaMMpJum15WK5Jurh7T9Lq1Kf7FTQrsGSd1oLJ6h/LrjkXdW
+         ft0Kh7VeTrRHrfZ5+YQ+n0lM9oIee9imJG1m2xqHLZPLNmrelr6TrDztRpgUycGwDeKF
+         kWatrBdDX/CBqxoMHc/JfXNES8e3GjTlknHlQnIneY9BaCCr4Kw6ILxyc01aifNb+MXG
+         RKNA
+X-Received: by 10.50.107.105 with SMTP id hb9mr330684igb.3.1431438785776;
+        Tue, 12 May 2015 06:53:05 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.107.14.70 with SMTP id 67ls105007ioo.38.gmail; Tue, 12 May
+ 2015 06:53:05 -0700 (PDT)
+X-Received: by 10.66.186.172 with SMTP id fl12mr25051887pac.10.1431438785493;
+        Tue, 12 May 2015 06:53:05 -0700 (PDT)
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [209.85.192.53])
+        by gmr-domain.com with ESMTPS id kg1si2582983qcb.1.2015.05.12.06.53.05
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 12 May 2015 06:53:05 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.192.53 as permitted sender) client-ip=209.85.192.53;
+Received: by qgdy78 with SMTP id y78so4204027qgd.0
+        for <user@domain.com>; Tue, 12 May 2015 06:53:05 -0700 (PDT)
+X-Gm-Message-State: ALoCoQl4euQ9USGWY5Uc6KcD11W3Bi1Xdcv1J6IITJgUFbg6atMejlYJnmON78S7WtDdHq+mu5QM
+MIME-Version: 1.0
+X-Received: by 10.140.235.216 with SMTP id g207mr21206109qhc.80.1431438785244;
+ Tue, 12 May 2015 06:53:05 -0700 (PDT)
+Received: by 10.140.91.81 with HTTP; Tue, 12 May 2015 06:53:03 -0700 (PDT)
+Date: Tue, 12 May 2015 09:53:03 -0400
+Message-ID: <CAFjSERBSbq7XKkn+user@domain.com>
+Subject: May 12 Morning News Roundup- Networks and Cables
+From: Emily Aden <eaden@hillaryclinton.com>
+To: hrcrapid <user@domain.com>
+Content-Type: multipart/mixed; boundary=001a11c1482450679f0515e2d0e7
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com;       spf=pass
+ (domain.com: domain of user@domain.com designates 209.85.192.53 as
+ permitted sender) user@domain.com;       dmarc=pass
+ (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact hrcrapid+user@domain.com
+List-ID: <domain.com>
+X-Google-Group-Id: 612515467801
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:hrcrapid+user@domain.com>
+List-Archive: <<<link>>
+Sender: user@domain.com
+List-Unsubscribe: <mailto:googlegroups-manage+612515467801+user@domain.com>,
+ <<<link>>>
+
+Sorry for the delay this morning!
+
+NBC: Coverage of Jeb Bush's interview clip that he would authorize the war
+in Iraq knowing what he knows now. Criticism from both Democrats and
+conservatives like Laura Ingraham. "As for his comments that Hillary
+Clinton would have also authorized the Iraq War, her campaign points to her
+many statements that she later regretted her vote in support of the war."
+
+ABC: Mention of DeBlasio presenting a progressive agenda today in
+Washington DC.
+
+CBS: No 2015 coverage.
+
+MSNBC: No 2015 coverage.
+
+Fox: Quick mention of Donald Trump tweet comparing HRC to Tom Brady
+
+CNN: No 2015 coverage.
+
+-- 
+You received this message because you are subscribed to the Google Groups "HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to hrcrapid+user@domain.com
+To post to this group, send email to user@domain.com
+For more options, domain.com <<link>>

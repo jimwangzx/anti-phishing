@@ -1,0 +1,50 @@
+Return-Path: <user@domain.com>
+Reply-To: <user@domain.com>
+From: "HT Srl" <support@Organization.com>
+To: <user@domain.com>
+Subject: [!VRV-128-49935]: Assignment - Export multiple evidence to a single file.
+Date: Tue, 28 Aug 2015 07:38:50 +0200
+Message-ID: <1346132330.503user@domain.com>
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQLoWCCZ4XrR8z+79YLi4us3CSxv2Q
+X-OlkEid: 000000007D2091DA92D3914ABB4C05769578F4790700A96A85A9D2A04643865EB2097E3CF3A30000000002080000A96A85A9D2A04643865EB2097E3CF3A3000000007C3D00006BEB80F4E02172479119AA089D4C610F
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-615933390_-_-"
+
+Alberto Ornaghi updated #VRV-128-49935
+--------------------------------------
+
+Staff (Owner): Alberto Ornaghi (was: -- Unassigned --)
+Status: In Progress (was: Open)
+
+Export multiple evidence to a single file.
+------------------------------------------
+
+Ticket ID: VRV-128-49935
+URL: <<link>>
+Full Name: Miguel Angel Corral
+Email: user@domain.com
+Creator: User
+Department: General
+Staff (Owner): Alberto Ornaghi
+Type: Issue
+Status: In Progress
+Priority: Normal
+Template Group: Default
+Created: 28 August 2015 12:54 AM
+Updated: 28 August 2015 12:54 AM
+
+Hi guys.
+
+Here´s the deal, when we save to the local PC multiple evidence objects we get one file for each object that we exported, for example, if we are tracing the position of a target and we select the last 20 positions we recieved from the agent and save them, we´re getting 20 .TXT files with the Lat & Long, Date, etc.
+
+The question is, how can I save those multiple objects to a single file???  Can I save them to a format different that .TXT, like .XLS or something like that???
+
+Hope you can help me with this, because there are son evidence processing tools that we want to use, but we need to have al the multiple objects into a single flat file to do so.
+
+Best regards.
+
+Staff CP:  <<link>>
+

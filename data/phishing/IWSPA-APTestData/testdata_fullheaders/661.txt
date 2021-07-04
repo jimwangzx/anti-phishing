@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.86 with SMTP id y83csp257665lfc;
+        Sat, 31 Oct 2015 04:06:29 -0700 (PDT)
+X-Received: by 10.129.133.195 with SMTP id v186mr9668595ywf.40.1446289589371;
+        Sat, 31 Oct 2015 04:06:29 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22b])
+        by domain.com with ESMTPS id w14si1020615ywa.180.2015.10.31.04.06.29
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 31 Oct 2015 04:06:29 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22b as permitted sender) client-ip=2607:f8b0:4002:c07::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-yk0-domain.com with SMTP id a4so47034395ykb.3;
+        Sat, 31 Oct 2015 04:06:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: user.mary@gmail.com
+         :message-id:date:to;
+        bh=jagU7UkqHHrbArr9cOQ1zSTGc5+H+TG1rsf+Vi/aLE0=;
+        b=zkGwFjX0c5GCi+rOsbSpCBXJ3hY7p8LaCwX0K2mp+a8/yPUX6BH0a3a1296H+6yNlH
+         TgockxVJMD+rBSdF6avxeiujPi83DOHSbOQIFBV+1DsqAc6pYd+NM7wfodOOkYWGCPlx
+         R6a9+n4pvgxZ2NrD9gMljxWgjfNemUzuRmrojcJbOqH/wxNNohBmgMakyBnN/jc/JSbC
+         K/sBNnFAXcHttxXGqenFkTP4XUnwCXvWkiBpJ0wwQPnKYRUb8NM2KG1IzA2sN2X4FNby
+         wAt/BkRMBjUJ1uqx6d+umLKwjmFZdc6T8Nk41IvZWLGJRNNRayWr71k/fF3uc0jAvt1j
+         i0UQ
+X-Received: by 10.129.5.213 with SMTP id 204mr9563865ywf.92.1446289588940;
+        Sat, 31 Oct 2015 04:06:28 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [192.168.1.159] (pool-108-18-211-194.domain.com. [108.18.211.194])
+        by smtp.gmail.com with ESMTPSA id f133sm6918777ywa.27.2015.10.31.04.06.28
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sat, 31 Oct 2015 04:06:28 -0700 (PDT)
+From: user.mary@gmail.com
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+Subject: Sunday night dinner
+Message-Id: <8user@domain.com>
+Date: Sat, 31 Oct 2015 07:06:27 -0400
+To: Mae user <user@domain.com>, John user <user@domain.com>
+X-Mailer: iPhone Mail (13B143)
+
+Looks like Sunday is the night for the three of us to cook dinner.
+
+Mae, did you want to ask anyone else?  I know that Alan and Kate plan to get
+ together that night (user is traveling).  Do we want to ask them to join us
+?  Entirely up to you guys. I am happy either just the three of us or others
+ too.
+
+Mae, have fun in NY and John safe travels today. 
+
+M

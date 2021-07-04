@@ -1,0 +1,148 @@
+Delivered-To: user@domain.com
+Received: by 10.229.241.141 with SMTP id le13cs69041qcb;
+        Wed, 21 Apr 2015 13:54:21 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.31.84 as permitted sender) client-ip=10.229.31.84;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.31.84 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.229.31.84])
+        by 10.229.31.84 with SMTP id x20mr2576087qcc.44.1271883260250 (num_hops = 1);
+        Wed, 21 Apr 2015 13:54:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:From: Lauren Weiner <Weiner@americansunitedforchange.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-original-authentication-results:x-original-sender:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe:content-language:content-type;
+        bh=8UeunPO3UogXpW/g0sewHBDY+MferS+P7jkjBdTioEw=;
+        b=ZelTB6HVq1hmhlw5mvnmbRkB0UsIDFWfMM2uOezRE7wzlikGtj5SbBsBfudEgD8Gp/
+         P6NIOXroYlubXQKdzBzCdtGbrOKLIQkOjs8gHV0FyspkAxep9E8Xu4p5BPer9P76d0AJ
+         GkuR2Jv3j7+F8jKu1swpdMD6ZTKIpdlX70uXg
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:From: Lauren Weiner <Weiner@americansunitedforchange.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-original-authentication-results:x-original-sender:reply-to
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe:content-language:content-type;
+        b=Fp8eoBoVsxQem1vVcJQd60+bCE335WNzL4GI6hv6Dn3RxNdOGXuRZquEfhFr0HoQY2
+         dLKCnqp+cBd+ySRedNfm2axIHBZzws6R/pyNqA6MxJGGncrIoiOpwiBkDn5/UmHWH0KQ
+         3QRBs6X/Lth+Nt3lwp9zh2jMF/eBUYtjd/XIc
+Received: by 10.229.31.84 with SMTP id x20mr603944qcc.44.1271883238553;
+        Wed, 21 Apr 2015 13:53:58 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.229.210.31 with SMTP id gi31ls23231787qcb.0.p; Wed, 21 Apr 
+	2010 13:53:58 -0700 (PDT)
+Received: by 10.229.38.69 with SMTP id a5mr1004178qce.3.1271883237690;
+        Wed, 21 Apr 2015 13:53:57 -0700 (PDT)
+Received: by 10.229.38.69 with SMTP id a5mr1004176qce.3.1271883237606;
+        Wed, 21 Apr 2015 13:53:57 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail.americansunitedforchange.org ([66.253.44.162])
+        by gmr-domain.com with ESMTP id 18si1504595qyk.4.2010.04.21.13.53.57;
+        Wed, 21 Apr 2015 13:53:57 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.253.44.162 as permitted sender) client-ip=66.253.44.162;
+Received: from AUFC-domain.com ([fe80::4471:3a32:78c1:35d9]) by
+ AUFC-domain.com ([fe80::4471:3a32:78c1:35d9%10]) with mapi; Wed, 21 Apr
+ 2015 16:53:56 -0400
+From: Lauren Weiner <Weiner@americansunitedforchange.org>
+To: "User" <user@domain.com>
+Date: Wed, 21 Apr 2015 16:53:54 -0400
+Subject: [big campaign] Why Stop Now, Senator McConnell?
+Thread-Topic: Why Stop Now, Senator McConnell?
+Thread-Index: AcrhlDUdiwbqL96vRmWTz3mpfbgzhAAAIWrQ
+Message-ID: <95user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com: 
+	domain of user@domain.com designates 66.253.44.162 as 
+	permitted sender) user@domain.com
+X-Original-Sender: user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, 
+	<mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>, 
+	<mailto:bigcampaign+user@domain.com>
+Content-Language: en-US
+Content-Type: multipart/related;
+	boundary="_004_95AFEEF8AB22CE4E8CA3F8E6FBCB8CD1268F370E13AUFCS1AUFCloc_";
+	type="multipart/alternative"
+
+[cid:image001.jpg@01CAE172.4CE5F260]
+domain.com<<<link>>>
+FOR IMMEDIATE RELEASE                 CONTACT:            Lauren Weiner, 20
+2-470-5870
+April 21, 2015                                                             
+         Jeremy Funk, 202-470-5878
+Shameless: McConnell to Fundraise Alongside Banking Executive a Day After V
+oting Against Regulating Shadowy Markets on Wall Street
+Why Stop Now, Mitch?: Fundraiser Follows Reports That McConnell Shook Down 
+Hedge Fund Managers for Campaign Cash at Private Meeting on Wall Street
+Washington, DC - Even as Republicans are reportedly backing away from attac
+king<<<link>>
+042005311.html> Wall Street reform, they're still looking to big banks for 
+marching orders.  After getting caught cozying up to lobbyists<<<link>>
+domain.com/story/markets/industries/government/street-execs-pols-earful
+-financial-reform/> in New York City, the GOP's leaders are now bringing Wa
+ll Street to them<<<link>>
+er-vote-against-derivatives-mcconnell-attends-industry-fundraiser>. Tomorro
+w, Republican Minority Leader Mitch McConnell will be co-hosting a fundrais
+er in Washington, D.C. along with financial industry lobbyists - a day afte
+r he voted against bringing transparency<<<link>>
+es/0410/36144.html> to secret Wall Street bets. Another co-sponsor of the e
+vent, to domain.com Sen. George Lemieux's (R-FL) Protect America PAC, is Wendy
+ Grubbs,<<<link>>> t
+he vice president for Government Affairs at Citigroup, a bank that refused 
+to take any blame<<<link>>
+n-financial-crisis.html> for their part in bringing down the economy and co
+sting 8 million Americans their jobs. The big bankers have never been shy a
+bout using Republicans to prevent any accountability for their actions, but
+ it's events like this which help remind us. (see Americans United for Chan
+ge's latest ad: Bailout Bandits<<<link>>
+M>)
+And the ties that bind get even tighter. McConnell's latest Wall Street eve
+nt comes to light the same day as reports show Goldman Sachs', accused of f
+raud by the S.E.C., fundraising for 2015 has overwhelming favored Republica
+ns<<<link>>>.
+Tom McMahon, Acting Executive Director, Americans United for Change: "With 
+Citigroup spending $5.5 million on lobbying this year and having a major st
+ake in the derivatives market, it's no wonder they'd want to reach out to S
+enator Mitch McConnell who has been spreading lies<<<link>>
+domain.com/2010/04/13/a-gop-financial-reform-bellwether/> about the pending bil
+l that were conjured up from a Wall Street pollster.  Of course, Cit isn't 
+alone as over 1,500 Wall Street lobbyists swarm the Hill this week<<<link>>
+domain.com/2010/04/a-matter-of-influence-lobbyists-and-fina
+ncial-execs-swarm-in-to-dc-to-push-against-wall-street-refor.php> to kill t
+he legislation they know full well will hold big banks to account for layin
+g waste to the economy. If, as their slogan says<<<link>>
+ch?v=3DneZQdPBfM2I>, Citi never sleeps, why are they jumping into bed with 
+McConnell and his party? Because Citi, Goldman Sachs and the other big bank
+s know it's the GOP who will be working to kill Wall Street reform."
+###
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+
+Subscription settings: <<link>>
+?hl=3Den

@@ -1,0 +1,181 @@
+Delivered-To: user@domain.com
+Received: by 10.229.240.19 with SMTP id ky19cs88902qcb;
+        Fri, 5 Nov 2015 09:24:31 -0700 (PDT)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.53.70 as permitted sender) client-ip=10.229.53.70;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.53.70 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.229.53.70])
+        by 10.229.53.70 with SMTP id l6mr747668qcg.25.1288974270027 (num_hops = 1);
+        Fri, 05 Nov 2015 09:24:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:From: Jeremy Funk <funk@americansunitedforchange.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-language:content-type;
+        bh=VeCbxH0rlZLXLMWFCgqdYpok8MKTqAFkGIxVw3gcoNY=;
+        b=oP520raetWEHMTLT+zTe0ijW0+jCUrsmLrFmkeJCqDusXfIJPne2fcu7S3hxk+Hnv7
+         iLgyc4D6sYdGx2HTnaXnmgQD2SMz+XzQxikfy6uo0d8IMWb5GO2/h5gM7gUWOqtxIvSX
+         n0yjem7/cLYlvvlY5JGm+KbjRVT8bobYzUGmU
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:From: Jeremy Funk <funk@americansunitedforchange.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-language:content-type;
+        b=iv5GbavhpQEcIkTAKMdfMoSKeVPtJ1IsUJb9inAwf4DWzEPrpcDGpldcdoHVYfid0e
+         +/o+eCLDnfO+Gf6pT7jk2mxjYHxiAtA/ZR0gDcaYhqvMx4V71YZUDGJJzyx6nNLSQPDk
+         Oa2gJBWaEvOj+AM7vtMabHqXu15abEQ05n7cA
+Received: by 10.229.53.70 with SMTP id l6mr166646qcg.25.1288974248674;
+        Fri, 05 Nov 2015 09:24:08 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.229.106.83 with SMTP id w19ls1080606qco.2.p; Fri, 05 Nov 2015 
+ 09:24:07 -0700 (PDT)
+Received: by 10.229.239.130 with SMTP id kw2mr286204qcb.4.1288974247462;
+        Fri, 05 Nov 2015 09:24:07 -0700 (PDT)
+Received: by 10.229.239.130 with SMTP id kw2mr286203qcb.4.1288974247410;
+        Fri, 05 Nov 2015 09:24:07 -0700 (PDT)
+Received: from mail.americansunitedforchange.org ([66.253.44.162])
+        by gmr-domain.com with ESMTP id t18si752140qcs.8.2010.11.05.09.24.06;
+        Fri, 05 Nov 2015 09:24:07 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.253.44.162 as permitted sender) client-ip=66.253.44.162;
+Received: from AUFC-domain.com ([fe80::4471:3a32:78c1:35d9]) by
+ AUFC-domain.com ([fe80::4471:3a32:78c1:35d9%10]) with mapi; Fri, 5 Nov
+ 2015 12:24:04 -0400
+From: Jeremy Funk <funk@americansunitedforchange.org>
+To: "User" <user@domain.com>
+Date: Fri, 5 Nov 2015 12:24:11 -0400
+Subject: [big campaign] FW: Just the Facts: Boehner, McConnell Currently
+ Proposing to Increase the domain.com by $833 Billion
+Thread-Topic: Just the Facts: Boehner, McConnell Currently Proposing to
+ Increase the domain.com by $833 Billion
+Thread-Index: Act9An0i9eQYMbcaQi25Fa5DtJvQcAAAEJ/QAABbRTAAAE3TgAAAGEIwAAACvZAAAAJpIA
+Message-ID: <95user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com:
+ domain of user@domain.com designates 66.253.44.162 as
+ permitted sender) user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, <mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>,
+ <mailto:bigcampaign+user@domain.com>
+Content-Language: en-US
+Content-Type: multipart/related;
+	boundary="_004_95AFEEF8AB22CE4E8CA3F8E6FBCB8CD1271C13C209AUFCS1AUFCloc_";
+	type="multipart/alternative"
+
+________________________________
+From: Jeremy Funk <funk@americansunitedforchange.org>
+Sent: Friday, November 05, 2015 12:22 PM
+To: 'user@domain.com'
+Subject: Just the Facts: Boehner, McConnell Currently Proposing to Increase
+ the domain.com by $833 Billion
+
+[cid:image001.jpg@01CB7CE0.F60C4970]
+www.americansunitedforchange.org<<<link>>>
+FOR IMMEDIATE RELEASE                 CONTACT:  Lauren Weiner, 202-470-5870
+November 5, 2015                                                           
+  Jeremy Funk, 202-470-5878
+
+Just the Facts: Boehner, McConnell Currently Proposing to Increase the Defi
+cit by $833 Billion
+
+?     Boehner/McConnell Proposal to Repeal the Affordable Care Act: +$143 B
+illion to domain.com
+
+Senate Minority Leader Mitch McConnell, November 4, 2010<<<link>>
+domain.com/public/index.cfm?FuseAction=3DBlogs.View&Blog_Id=3D5094359f-c864
+-4679-a9e7-2b54ba08e472>: "On health care, that means we can - and should -
+ propose and vote on straight repeal, repeatedly."
+
+House Minority Leader John Boehner, November 4, 2010<<<link>>
+domain.com/Stories/2010/November/04/health-reform-obama-republicans-election
+-news-conference-document.aspx?utm_source=3Dfeedburner&utm_medium=3Dfeed&ut
+m_campaign=3DFeed%3A+NewFromKaiserHealthNews+%28New+From+Kaiser+Health+News
+%29>: "[W]e have to do everything we can to try to repeal this bill and rep
+lace it with common-sense reforms that'll bring down the cost of health ins
+urance."
+
+Congressional Budget Office, March 21, 2010<<<link>>
+
+its of $143 billion over the 2010-2019 period as result of changes in direc
+t spending and revenues."
+
+?     Boehner/McConnell Proposal to Extend Bush Tax Cuts for Richest 2% of 
+Americans: +$690 Billion to domain.com
+
+Mitch McConnell, November 4, 2010<<<link>>
+_OBAMA_TAXES?SITE=3DCAANR&SECTION=3DHOME&TEMPLATE=3DDEFAULT>: "What I hope 
+we'll do is come together ... and agree to extend the current tax policy fo
+r everyone."
+
+Wall Street Journal, 11/2/10<<<link>>
+704462704575591171988213264.html?mod=3Dgooglenews_wsj>: At the top of the R
+epublican agenda will be renewing all the Bush-era tax cuts, including thos
+e for the highest earners that will domain.com some small business owners and 
+wealthy industry executives.  "To help our economy get back on track, we ha
+ve to stop all of the coming tax hikes and cut spending," Boehner said last
+ week.
+
+Center for American Progress<<<link>>
+/let_cuts_expire.html>: "We estimate, using Congressional Budget Office<htt
+p://domain.com/doc.cfm?index=3D10871&type=3D1> and Joint Committee on Tax<http
+://domain.com/publications.html?func=3Dstartdown&id=3D3691> projections, t
+hat maintaining the Bush tax cuts for the wealthiest 2 percent of Americans
+ will directly reduce revenues by about $690 billion over the next 10 years
+. But the true cost of those tax cuts is actually a bit bigger than that."
+
+domain.com's Ezra Klein: "Yes, tax cuts increase the domain.com"<http:
+//domain.com/ezra-klein/2010/09/yes_tax_cuts_increase_the_de
+fi.html>
+
+FLASHBACK: Think Progress, August 8, 2010: "domain.com Frauds Boehner And Penc
+e Can't Answer How Tax Cuts For Wealthy Will Be Paid For"<<<link>>
+domain.com/2010/08/08/pence-boehner-tax-cuts/>
+Flashback: The Hill: "Boehner to Obama: Find some 'ass to kick' on the budg
+et domain.com"<<<link>>
+-to-obama-find-ass-to-kick-on-budget>
+
+?     Level of Ire From Tea Party at Boehner/McConnell Proposals to Increas
+e domain.com by $833 Billion: Unknown
+
+Flashback: CNN: "Poll: Tea Party says federal debt extremely serious threat
+" <<<link>>
+ral-debt-extremely-serious-threat/>
+
+_____________________________________________
+Jeremy J. Funk
+Communications Director, Americans United for Change
+Office: 202.470.5878
+Cell: 605.366.3654
+user@domain.com<mailto:user@domain.com>
+domain.com<<<link>>>
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

@@ -1,0 +1,87 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 3 Dec 2015 15:30:13 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rB3NUCd3027929	for <user@domain.com>; Tue, 3 Dec 2015 
+ 23:30:13 GMT
+Received: from mail190-db9-domain.com
+ (mail-domain.com [213.199.154.241])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rB3NUA4T031103	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 3 Dec 2015 23:30:11 GMT
+Received: from mail190-db9 (localhost [127.0.0.1])	by
+ mail190-db9-domain.com (Postfix) with ESMTP id 8105C5402B5	for
+ <user@domain.com>; Tue,  3 Dec 2015 23:30:10 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.105;KIP:(null);UIP:(null);IPV:NLI;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z579ehzc545Ic89bhc857hdbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1def03h1d7338h1de098h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h1de096h186068h172c6ch1ce120h1a691ciz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh2327h2336h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail190-db9: domain of domain.com designates 192.64.236.105 as permitted sender) client-ip=192.64.236.105; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail190-db9 (localhost.localdomain [127.0.0.1]) by mail190-db9
+ (MessageSwitch) id 1386113408818731_28005; Tue,  3 Dec 2015 23:30:08 +0000
+ (UTC)
+Received: from domain.com (unknown [10.174.16.241])	by
+ mail190-domain.com (Postfix) with ESMTP id B889A40063	for
+ <user@domain.com>; Tue,  3 Dec 2015 23:30:08 +0000 (UTC)
+Received: from mx-domain.com (192.64.236.105) by domain.com
+ (10.174.14.42) with Microsoft SMTP Server id 14.16.227.3; Tue, 3 Dec 2015 
+ 23:30:08 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1386113408;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Gray's Gold <donotreply@variety.com>
+	bh=nfRDLz2yNjkOxlz4Vsd1QbAPdvID2GkGCLAnPBJEx7E=;
+	b=l7PqsZNUc8mYo1vsRsQLqu4WlqwamMy5fGUJz+ozQW0GxK/OXiQWy6UxWRW9yCoK
+	R0ezeyn+/Uj9iMJkduFcCf2JEnPnh/S1T9FY0mGz/82IuoSnR+h67iny92V3zNAFwZ3
+	t07+Rs3jdbyKUnnQ0PW2ZafIMjjKu6F/L9IgfGJs
+Date: Tue, 3 Dec 2015 18:30:08 -0500
+From: Variety Gray's Gold <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20131203233008.2082794.48008@domain.com>
+Subject: 'American Hustle' Hot, But Who Really Got a Boost From NY Film
+ Critics?
+Precedence: bulk
+X-TM-ID: 20131203233008.2082794.48008
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.105
+X-IADB-IP-REVERSE: 105.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2082794
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+'American Hustle' Hot, But Who Really Got a Boost From NY Film Critics?
+
+Today's New York Film Critics Circle prizes are a big boost to Fox Searchlight’s “12 Years a Sla... 
+
+​ 
+
+Variety         
+
+Gray's Gold     
+
+Awards Analysis By Tim Gray     
+
+​ 
+
+<<link>> 
+
+         tim-gray       'American Hustle' Hot, But Who Really Got a Boost From NY Film Critics?
+Today's New York Film Critics Circle prizes are a big boost to Fox Searchlight’s “12 Years a Slave” and Warner Bros.’ “Gravity.”  Not because they won big -- "12 Years" won d...       
+
+
+
+
+        Full Story              
+
+
+

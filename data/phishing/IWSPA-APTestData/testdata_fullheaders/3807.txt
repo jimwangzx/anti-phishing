@@ -1,0 +1,55 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.212])
+	by domain.com (Postfix) with ESMTP id 8813B46895
+	for <user@domain.com>; Tue,  3 Mar 2015 00:56:48 -0500 (EST)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id 554C2131F6FF
+	for <user@domain.com>; Tue,  3 Mar 2015 00:56:45 -0500 (EST)
+Received: by domain.com (Postfix)
+	id E44351B68D; Tue,  3 Mar 2015 06:56:39 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.108])
+	by domain.com (Postfix) with ESMTP id B5A1F1B686
+	for <user@domain.com>; Tue,  3 Mar 2015 06:56:38 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 8BFA3683
+	for <user@domain.com>; Tue,  3 Mar 2015 06:56:38 +0100 (CET)
+X-Quarantine-ID: <NXrQV+ZeV4hB>
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 14.543
+X-Spam-Level: **************
+X-Spam-Status: Yes, score=14.543 tagged_above=0 required=5 tests=[AWL=0.277,
+	BAYES_20=-0.74, HTML_MESSAGE=0.001, RAZOR2_CF_RANGE_51_100=0.5,
+	RAZOR2_CF_RANGE_E4_51_100=1.5, RAZOR2_CHECK=12, RCVD_IN_PBL=0.905,
+	RDNS_DYNAMIC=0.1]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id NXrQV+ZeV4hB for <user@domain.com>;
+	Tue,  3 Mar 2015 06:56:38 +0100 (CET)
+Received: from irs.gov (72-61-157-34.domain.com [72.61.157.34])
+	by domain.com (Postfix) with ESMTP id 8AB7F1B686
+	for <user@domain.com>; Tue,  3 Mar 2015 06:56:18 +0100 (CET)
+Received: from workstation ([192.168.0.1])
+	by (Merak 8.0.3) with SMTP id UB106958
+From: "Internal Revenue Service" <nonereply@irs.gov>
+To: "User" <user@domain.com>
+Subject: ***SPAM*** please see the attachment
+Message-ID: <6948330user@domain.com>
+Date: Tue, 03 Mar 2015 00:55:29 -0500
+MIME-Version: 1.0
+X-Priority: 3
+X-Mailer: Email Sender 2.0
+Content-Type: multipart/mixed;
+	boundary="------_=_NextPart_001_1E5A5F2D.159B3248"
+Content-Length: 113637
+Lines: 1502
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 996
+
+Please see the attachment make sure you fill all the columns 
+and send fax to: +1-646-308-1145.

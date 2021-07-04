@@ -1,0 +1,162 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp736788lfr;
+        Sun, 25 Oct 2015 12:46:49 -0700 (PDT)
+X-Received: by 10.140.98.183 with SMTP id o52mr37588845qge.70.1445802409878;
+        Sun, 25 Oct 2015 12:46:49 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::233])
+        by domain.com with ESMTPS id f75si26731725qkf.66.2015.10.25.12.46.49
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 25 Oct 2015 12:46:49 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::233 as permitted sender) client-ip=2607:f8b0:400d:c04::233;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::233 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-domain.com with SMTP id m9so97178944qge.1;
+        Sun, 25 Oct 2015 12:46:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=content-type:mime-version:subject:From: Richard Socarides <richard.socarides@gmail.com>
+         :content-transfer-encoding:message-id:references:to;
+        bh=zSK8411b6D+JPMEZ2dsPOMEYp/WMgpkuHqXersVDOH0=;
+        b=OsCpz7cvaY88nCPTLZZlzJ6DvHS8dTr6SypWYqWy9O2f1Z1MUColYjTPGJZ2PH93S9
+         IHF/873IWEo3Co331uFBTfRNQuaBdu3KDuFoid/GfITPCq/M0vw/v0LOv5H52t1VoKNQ
+         0lCKwOzHW0bnOzOHyqfRLx3MEkGART9adDDt2/8FQqfUeguS/wFvooiAhdG7hQs78NcZ
+         cT+SJBb93llggcQL93P5zPSM3n6vDSUeD0r8XVDd+zUQQP6o6JeYujG/1+th7e2BgAEz
+         n3rTSjShCtEO/4EmBkoT57BPhLExDQnlMCQzn29Rr0ujTjOejpZliLMcRpCf/IHcFzIx
+         31fw
+X-Received: by 10.140.233.196 with SMTP id e187mr38210082qhc.86.1445802409563;
+        Sun, 25 Oct 2015 12:46:49 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [10.172.250.68] (mobile-107-107-62-13.domain.com. [107.107.62.13])
+        by smtp.gmail.com with ESMTPSA id a49sm2812171qga.41.2015.10.25.12.45.37
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 25 Oct 2015 12:46:47 -0700 (PDT)
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-3F97BE4B-FD8E-440F-BCCB-2AE2ED19F2CD
+Mime-Version: 1.0 (1.0)
+Subject: Re: DOMA
+From: Richard Socarides <richard.socarides@gmail.com>
+X-Mailer: iPhone Mail (13B143)
+In-Reply-To: <CA+qFv2vRjN+wN03P7vnkH+user@domain.com>
+Date: Sun, 25 Oct 2015 15:45:36 -0400
+CC: Jennifer Palmieri <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Robby Mook <user@domain.com>, 
+ Nick Merrill <user@domain.com>, 
+ Maya Harris <user@domain.com>
+Content-Transfer-Encoding: 7bit
+Message-Id: <user@domain.com>
+References: <user@domain.com> <CA+qFv2vRjN+wN03P7vnkH+user@domain.com>
+To: John user <user@domain.com>
+
+And finally here are DOMA talking points from several years ago I did for pr
+esident Clinton, which give a complete historical perspective.  (Sorry for a
+ll the emails).
+
+The 1996 Defense of Marriage Act (DOMA) was a key strategic
+
+element of the Republican Party presidential campaign plan of that year.
+
+=E2=80=9CThe vehicle for Mr. Dole's mischief is the so-called Defense of Mar
+riage Act, of which he is a lead co-sponsor in the Senate. =E2=80=A6The legi
+slation's only real agenda, of course, is to turn same-sex marriage, hardly t
+he year's most pressing issue, into a flashpoint for a polarizing culture wa
+r in which gay people become the Willie Hortons of '96. The bill also forces
+ Mr. Clinton, who says he opposes both same-sex marriage and anti-gay discri
+mination, into a corner. If he vetoes it, his opponents can portray him as a
+ proponent of same-sex marriage; if he signs it, he endorses the gay-bashing
+ that the bill transparently is. He's presumably praying it will never reach
+ his desk.=E2=80=9D  Frank Rich, A Gay-Rights Victory Muffled, The New York T
+imes, May 22, 1996.
+
+=E2=80=9CMeanwhile, Senate Majority Leader Bob Dole is preparing to use Pres
+ident Clinton=E2=80=99s outreach to homosexuals as a wedge issue in the fall
+ campaign=E2=80=9D Paul Bedard, Gay =E2=80=98marriages=E2=80=99 likely to be
+come hot-button issue in presidential race, The Washington Times, May 2, 199
+6.
+
+=E2=80=9CAnd Republicans thought they had a sure winner in the gay marriage i
+ssue.=E2=80=9D Howard Fineman, Dulling a Sharp Wedge,Newsweek, June 3, 1996.
+
+=E2=80=9C=E2=80=A6a Bob Dole for President publicity stunt. The Senate major
+ity leader made a political calculation to become an original co-sponsor of [
+DOMA]=E2=80=A6 Clearly, Dole is trying to inject this issue into the preside
+ntial race=E2=80=A6=E2=80=9D Press Release, Human Rights Campaign, Anti-Gay M
+arriage Bill Unconstitutional Federal Intrusion, HRC Says =E2=80=93 Largest N
+ational Gay Political Group Dubs Congressional Hearing =E2=80=98a Bob Dole f
+or President Publicity Stunt,=E2=80=99 May 15, 1996.
+
+President Clinton =E2=80=93 the first president ever to support gay rights =E2
+=80=93
+
+had also been on record since at least 1992 as opposed to same-sex marriage.
+
+=E2=80=9CMr. Clinton has long supported gay rights, solicited financial supp
+ort from homosexuals and paid a heavy price for his effort to end the ban on
+ homosexuals in the military. =E2=80=A6George Stephanopoulos, a senior Presi
+dential adviser who has overseen the issue, said: =E2=80=9CIt's wrong for pe
+ople to use this issue to demonize gays and lesbians and it's pretty clear t
+hat that was the intent in trying to create a buzz on this issue. But the fa
+ct remains that if the legislation is in accord with the President's stated p
+osition, he would have no choice but to sign it.=E2=80=9D=E2=80=9D Todd S. P
+urdum, President Would Sign Legislation Banning Homosexual Marriages, The Ne
+w York Times, May 23, 1996.
+
+=E2=80=9CBill Clinton=E2=80=99s decision to support a ban on single-sex marr
+iage wasn=E2=80=99t a surprise to gay-rights leaders inside the beltway.=E2=80
+=9D Howard Fineman, Dulling a Sharp Wedge,Newsweek, June 3, 1996.
+
+President Clinton was an outspoken critic of the motives behind DOMA.
+
+=E2=80=9CClinton said gay marriage =E2=80=9Cis hardly a problem that is swee
+ping the country=E2=80=9D because no state had legalized it. Republicans, he
+ said, had brought it up as =E2=80=9Cone more attempt to divert the American
+ people from the urgent need to confront our challenges together.=E2=80=9D=E2
+=80=9D Barbara Vobejda, Clinton Defends Record on Gay Rights, Opposition to S
+ame-Sex Marriage, The Washington Post, May 24, 1996
+
+=E2=80=9CI have also said I have no intention of being a party to letting th
+is legislation moving through Congress become an excuse for diverting and di
+viding the American people and getting into a round of gay-bashing. I am bit
+terly opposed to that. I will not participate in it.=E2=80=9D Remarks by Pre
+sident Clinton from the Rose Garden, June 7, 1996
+
+=E2=80=9C=E2=80=A6gay baiting, pure and simple.=E2=80=9D Mike McCurry, White
+ House Press Secretary, July 12, 1996.
+
+DOMA passed both houses of Congress by wide, veto-proof margins
+
+ (there were only 14 =E2=80=9CNo=E2=80=9D votes in the entire Senate).
+
+Even in signing the legislation, President Clinton issued a warning.
+
+ =E2=80=9CI also want to make clear to all that the enactment of this legisl
+ation should not, despite the fierce and at times divisive rhetoric surround
+ing it, be understood to provide an excuse for discrimination, violence or i
+ntimidation against any person on the basis of sexual orientation. Discrimin
+ation, violence and intimidation for that reason, as well as others, violate
+ the principle of equal protection under the law and have no place in Americ
+an society.=E2=80=9DStatement by President Bill Clinton, September 20, 1996
+
+In 2009, Clinton called for the repeal of DOMA, specifically endorsed
+
+repeal legislation, and announced his support of full marriage equality.
+
+=E2=80=9CThroughout my life I have opposed discrimination of any kind," Clin
+ton said in the statement. "When the Defense of Marriage Act was passed, gay
+ couples could not marry anywhere in the United States or the world for that
+ matter. Thirteen years later, the fabric of our country has changed, and so
+ should this policy.=E2=80=9D Kerry Eleveld, Respect for Marriage Act Debuts
+,domain.com, September 15, 2015 
+
+=E2=80=9CSo I said, you know, I realized that I was over 60 years old, I gre
+w up at a different time, and I was hung up about the word. I had all these g
+ay friends, I had all these gay couple friends, and I was hung up about it. A
+nd I decided I was wrong=E2=80=A6. I had an untenable position. =E2=80=9D Pr
+esident Clinton to Anderson Cooper, domain.com, September 25, 2015 
+
+Richard
+917-400-6178
+

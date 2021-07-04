@@ -1,0 +1,68 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Sun, 23 Feb 2015 08:19:02 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1NGJ6Sv002273	for <user@domain.com>; Sun, 23 Feb 2015 
+ 16:19:07 GMT
+Received: from mail107-am1-domain.com (mail-domain.com
+ [213.199.154.203])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s1NGKGWL027865
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Sun, 23 Feb 2015 16:20:17 GMT
+Received: from mail107-am1 (localhost [127.0.0.1])	by
+ mail107-am1-domain.com (Postfix) with ESMTP id 8BDC6E0556	for
+ <user@domain.com>; Sun, 23 Feb 2015 16:19:05 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.126;KIP:(null);UIP:(null);SRV:BULK;H:mx126.b2b-domain.com;RD:mx126.b2b-domain.com;EFVD:NLI
+X-SpamScore: 9
+X-BigFish: vps9(z579eh5756hzc89bh12dbKc857h77f5h609Izz1f42h2148he68I208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h1082k10c0jzz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h1ce120hf9138oz2fh5eh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h1361i214ai1155h1362h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail107-am1: domain of b2b-domain.com designates 209.162.194.126 as permitted sender) client-ip=209.162.194.126; user@domain.com; helo=mx126.b2b-domain.com ;b2b-domain.com ;
+Received: from mail107-am1 (localhost.localdomain [127.0.0.1]) by mail107-am1
+ (MessageSwitch) id 1393172343143189_16775; Sun, 23 Feb 2015 16:19:03 +0000
+ (UTC)
+Received: from domain.com (unknown [10.3.201.249])	by
+ mail107-domain.com (Postfix) with ESMTP id 159AA2021E	for
+ <user@domain.com>; Sun, 23 Feb 2015 16:19:03 +0000 (UTC)
+Received: from mx126.b2b-domain.com (209.162.194.126) by
+ domain.com (10.3.207.158) with Microsoft SMTP Server id
+ 14.16.227.3; Sun, 23 Feb 2015 16:19:02 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=acton2012; d=techproductupdate.com;
+ h=Message-ID:Date:From: Resource Roundup <admin@techproductupdate.com>
+ bh=3AI+GM1S2iSG/04D4uoc5IKymWs=;
+ b=YUuqL23Xi4aGpG6CZ8vhIUfRmkxQ/dEq8gAUYm35COLgCzWdQ5VYu+RZ22IhQqZovI2FTzuQEd93
+   GIyLZf4yoDX+yI2ieXpYUkwK2+7HWgp6jBzxwr6MGLeSCcM4ftz3/WhZDfox9FqaogT83sRtxM4Q
+   sn/RH5eTkGULa9Cmwho
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=acton2012; d=techproductupdate.com;
+ b=W0dvbEVrZeY7lGjkpMF08ZEpYrFg8Ur3cn+XSjhV7p37VsZUOaGlKemXLdxPAjIfe3FR99TsSKbd
+   kMRE44ABiCPxEfpkyRSieGJK+Mzp/p4BT8CdQxTodx5podiNehDY1FXA1gvHfSGlU1siO1vK1YqF
+   yT8c+0IJOv8CvSQ1c54=;
+Received: from 10.10.40.64 (172.16.0.16) by mx126.b2b-domain.com id h18fnc1gs504
+ for <user@domain.com>; Sun, 23 Feb 2015 08:19:01 -0800 (envelope-from
+ <user@domain.com>)
+Message-ID: <UUUVXBBUVA$UWCWUAVWXUBTC@10.10.40.64>
+Date: Sun, 23 Feb 2015 08:19:01 -0800
+From: Resource Roundup <admin@techproductupdate.com>
+Reply-To: Resource Roundup <user@domain.com>
+To: AMY PASCAL <user@domain.com>
+Subject: Make Geography a Thing of the Past: How to Empower Your Contact
+ Center
+X-MESSAGEID: WCZX.rEUUUV.KVWHK.mEVKWXEVYUW
+X-COD: ^^184.169.176.89/acton/delivery?accountid=2853&msuid=s-1e23-1402&rcptid=l-0001%3Ae12be&srcid=q-036d
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Make Geography a Thing of the Past: How to Empower Your Contact Center
+
+View this message in a browser   Please add user@domain.com to your address book to ensure properly delivery        
+
+TechProduct Update       
+
+Make Geography a Thing of the Past: How to Empower Your Contact Center
+
+The world has grown both larger and smaller in these past years. Technology can reach to any point on the globe and yet geography can still play havoc on most any contact center, especially for multi-site operations. Creating additional problems are the enterprise "walls" between agents and the subject matter experts they must often collaborate with to resolve customer issues.
+
+Explore this white paper to discover a timely solution to this new and pressing problem. Read on to see Blair Pleasant of COMMfusion LLC and Brad Herrington of Interactive Intelligence spell out how cloud-based communications help overcome these boundaries and how the cloud can help businesses of all shapes and sizes expand their global reach.
+

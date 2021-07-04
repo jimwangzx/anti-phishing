@@ -1,0 +1,74 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 16 Jan 2015 14:16:56 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0GMGtUI015788	for <user@domain.com>; Thu, 16 Jan 2015 
+ 22:16:55 GMT
+Received: from mail63-co9-domain.com (mail-domain.com [207.46.163.16])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s0GMGrhs013766	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 16 Jan 2015 22:16:54 GMT
+Received: from mail63-co9 (localhost [127.0.0.1])	by mail63-co9-domain.com
+ (Postfix) with ESMTP id 1BD2ACC0261	for <user@domain.com>; Thu, 16
+ Jan 2015 22:16:53 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.15.213.92;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 16
+X-BigFish: vps16(z4240mzc89bhdc43hc857h15c7mzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h1082kzz172cfch17326ah8275bh1bc7b9h8275dh1de097h186068h1b778fh1ce120h1ce121iz2fh839h8e2h8e3h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h21e9h2216h2336h2438h2461h2487hbe9i214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail63-co9: domain of domain.com designates 199.15.213.92 as permitted sender) client-ip=199.15.213.92; user@domain.com; helo=domain.com ;1.domain.com ;
+Received: from mail63-co9 (localhost.localdomain [127.0.0.1]) by mail63-co9
+ (MessageSwitch) id 1389910611509651_5407; Thu, 16 Jan 2015 22:16:51 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.234])	by
+ mail63-domain.com (Postfix) with ESMTP id 7835084004D	for
+ <user@domain.com>; Thu, 16 Jan 2015 22:16:51 +0000 (UTC)
+Received: from domain.com (199.15.213.92) by
+ domain.com (10.236.130.13) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 16 Jan 2015 22:16:47 +0000
+X-MSFBL: YW15X3Bhc2NhbEBzcGUuc29ueS5jb21AZHZwLTE5OS0xNS0yMTMtOTJAYmctYWJk
+	LTI3QDAwNC1RU0stNjI0OjE2MzMyOjYxNDA6MzQ1Nzk6MDoyOTI3Ojc6MTY3Njkw
+	OA
+Received: from [10.1.12.141] ([10.1.12.141:42927] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.0.35861 r(Momo-dev:tip)) with ESMTP	id FB/1E-34624-E4A58D25; Thu, 16 Jan
+ 2015 16:16:46 -0600
+Date: Thu, 16 Jan 2015 16:16:46 -0600
+From: Steve Preston <marketing@everbridgemail.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <1033998727.211872735.1389910606776.user@domain.com>
+Subject: Take this brief assessment and get a $5 gift card!
+X-Report-Abuse: Please report abuse here: <<link>>
+X-Binding: bg-abd-27
+X-MarketoID: 004-QSK-624:16332:6140:34579:0:2927:7:1676908
+X-MailFrom: Steve Preston <marketing@everbridgemail.com>
+Return-Path: 004-user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Take this brief assessment and get a $5 gift card!
+
+Just complete this brief assessment and a $5 Amazon gift card is yours! 
+
+Dear Amy,
+
+In the first half of 2013, the US lost an estimated $65B to natural and manmade disasters. Virtually all threats to our safety and productivity are trending up, impacting people and organizations around the globe. If an emergency were to happen today, how prepared is your organization? 
+
+As a leader in your industry, you have been selected to participate in our Readiness Assessment. It takes only 10 minutes to complete this simple, web-based form. When you’re finished, you’ll learn how your procedures for incidents, emergencies, and disasters compare to industry best practices. 
+
+As a special thank you for completing the assessment, the first 100 respondents will be emailed a $5 Amazon gift card - just for answering a few questions! 
+
+Take the assessment now:
+
+<<link>>
+
+Sincerely,
+Everbridge Team 
+
+.Individual responses and ratings collected through the assessment will be kept confidential, and will never be shared publicly. To be eligible for the gift card reward, your response must be received before Friday, January 31st. Reward offer is limited to the first 100 respondents, and is valid for original invitation recipient ONLY.
+
+
+

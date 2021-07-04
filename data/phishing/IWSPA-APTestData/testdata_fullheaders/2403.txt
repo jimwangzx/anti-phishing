@@ -1,0 +1,104 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp506080lfb;
+        Tue, 28 Oct 2015 13:42:51 -0700 (PDT)
+X-Received: by 10.70.88.239 with SMTP id bj15mr3040563pdb.147.1414528970347;
+        Tue, 28 Oct 2015 13:42:50 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.254.112])
+        by domain.com with ESMTPS id k1si2312809pdj.98.2014.10.28.13.42.49
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Tue, 28 Oct 2015 13:42:50 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.254.112;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.254.67] by server-16.bemta-7.domain.com id E3/96-02697-9CFFF445; Tue, 28 Oct 2015 20:42:49 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-9.tower-196.domain.com!1414528955!8517058!13
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 12498 invoked from network); 28 Oct 2015 20:42:47 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-9.tower-196.domain.com with AES256-SHA encrypted SMTP; 28 Oct 2015 20:42:47 -0000
+Resent-From: MATCH ALERT <democrats@thehousemajoritypac.com>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Tue, 28 Oct 2015 16:42:30 -0400
+Received: from [216.82.254.67] by server-8.bemta-7.domain.com id
+ 7E/66-03121-4BFFF445; Tue, 28 Oct 2015 20:42:28 +0000
+X-Env-Sender: DQpDRgYJB14VUlM8BlYHBFMAVgQFB10EW1pUUj9EWgAAFkJUIwgHQ0tUVVp
+  user@domain.com
+X-Msg-Ref: server-14.tower-196.domain.com!1414528946!8497065!1
+X-Originating-IP: [70.42.50.132]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNzAuNDIuNTAuMTMyID0+IDE5ODk5OA==\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 31447 invoked from network); 28 Oct 2015 20:42:26 -0000
+Received: from mta-dock-front-3.domain.com (HELO
+ mta-dock-front-3.domain.com) (70.42.50.132)  by
+ server-14.tower-196.domain.com with SMTP; 28 Oct 2015 20:42:26 -0000
+Received: from domain.com (unknown [10.0.200.87])	by
+ mta-dock-front-3.domain.com (Postfix) with ESMTP id 3jS4Yh1J9gzkSXy
+	for <user@domain.com>; Tue, 28 Oct 2015 20:40:40 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1414528840;
+	bh=MZ7gTA3J4kUTMmUZLJtilr2ZSjcCbrGeZn2DoSp/iAg=;
+	h=Date:To:From: MATCH ALERT <democrats@thehousemajoritypac.com>
+	b=l/M/zDPxS5S0NCpjE68+f/8X7R9MEQCOsRaJubeoRRP0EZpcRu9r6ZL1Mqb5dJaqN
+	 qUbMdaCqMXASzR+rLgYa7H2sbvrwHf7ONK18146Tv2iQDsY6to4uhMfp6nIKuZZBrb
+	 jmF31dabaO+96POrJ2WPOmX06kEZDnUE3O01wXMY
+Received: from build 	by domain.com with local (PHPMailer);
+	Tue, 28 Oct 2015 20:40:40 +0000
+Date: Tue, 28 Oct 2015 20:40:40 +0000
+To: John user <user@domain.com>
+From: MATCH ALERT <democrats@thehousemajoritypac.com>
+Reply-To: <user@domain.com>
+Subject: what Hillary Clinton said
+Message-ID: <0user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 734e09f610879cf1
+X-rpcampaign: rp_2584
+X-maillist-guid: DQpDRgYJB14VUlM8BlYHBFMAVgQFB10EW1pUUj9EWgAAFkJUIwgHQ0tUVVpDAlYVDE5eHFFTEDpTDQZa
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_0a395897729b1006e4e79981455a8e2e"
+
+FIRST: Nancy Pelosi emailed you about our final media buy deadline we're 
+facing at midnight.
+
+THEN: HILLARY CLINTON EMAILED YOU.
+
+SINCE THEN: A DONOR STEPPED UP AND AGREED TO MATCH ALL DONATIONS BEFORE 
+MIDNIGHT UP TO $50,000!
+
+John, our media buy deadline is just 7 hours away. If you're able to 
+donate, honestly, there has never been a time it would go this far. Every 
+dollar in the door before midnight will go out the door tomorrow to defend 
+Democrats in tight races against the late flood of GOP money.
+
+Can you click here and donate before it's too late?
+
+<<link>>
+amp;amount=3D25.00&amp;firstname=3DJohn&amp;lastname=3Duser&amp;email
+=3user@domain.com&amp;zip=3D20016&amp;city=3DWashington&amp;st
+ate=3D&amp;phone=3D&amp;occupation=3D&amp;employer=3D&amp;recurring=3D1
+
+Thanks for all you,
+
+Democrats Who Fight Back
+
+Contributions or gifts to House Majority PAC are not tax deductible
+
+Paid for by House Majority PAC. www.thehousemajoritypac.com. Not 
+authorized by any candidate or candidate's committee.
+
+<<link>>
+

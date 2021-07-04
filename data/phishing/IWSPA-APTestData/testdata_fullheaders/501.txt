@@ -1,0 +1,111 @@
+Delivered-To: user@domain.com
+Received: by 10.140.48.70 with SMTP id n64csp409362qga;
+        Fri, 20 Jun 2015 11:23:45 -0700 (PDT)
+X-Received: by 10.140.38.169 with SMTP id t38mr7207451qgt.17.1403288625687;
+        Fri, 20 Jun 2015 11:23:45 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [70.42.50.132])
+        by domain.com with ESMTP id l9si11910746qaf.39.2014.06.20.11.23.45
+        for <user@domain.com>;
+        Fri, 20 Jun 2015 11:23:45 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 70.42.50.132 as permitted sender) client-ip=70.42.50.132;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 70.42.50.132 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (mta-domain.com [10.0.200.122])
+	by mta-domain.com (Postfix) with ESMTP id 3gw7gj3d4qz9rvk
+	for <user@domain.com>; Fri, 20 Jun 2015 14:23:45 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1403288625;
+	bh=gYkzjI/0PUe7QxhSEH1pYWhz7Uk2t5i6ClPgagFYH9Q=;
+	h=Date:To:From: Terry McAuliffe <events@commongoodva.org>
+	 MIME-Version:Content-Type;
+	b=vsNmBkdTeu/6CFbitY4GaoDhdgfoiYY/279y7j4JoVf5MLxvkXqts6+juuxpxoi6V
+	 9XXvCiSkAAxs2RqG8ZgdgO3H7Wn8rWYkhX8UkOZmZPXxKzuWZxbljTuNRUaw9jaU5F
+	 +ZSPxx+XFpNEdzaI+hffSpV9FTCTkzzjKUInk4uA
+Received: from build 
+	by domain.com with local (PHPMailer);
+	Fri, 20 Jun 2015 18:23:45 +0000
+Date: Fri, 20 Jun 2015 18:23:45 +0000
+To: user@domain.com
+From: Terry McAuliffe <events@commongoodva.org>
+Reply-to: user@domain.com
+Subject: Veto
+Message-ID: <36user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 694a90d3abf7f585
+X-rpcampaign: rp_1090875
+X-maillist-guid: CAZXQA8NAFIAOgYMBQQKUQcKUVBSAAMGWgw7CVlcW0oVClJQEBAHdAJeUVxdS1AODjAJCgc
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_36c6289ba23b9912a8ebdbca86fbe640"
+
+Friend, I made a promise to you during my
+campaign and I intend to keep it.
+
+That's why, earlier this morning, I announced my intent to
+line-item veto several items in the budget that prevented
+Virginia from closing the coverage gap and instructed my
+administration to do everything in our power to provide
+health care to all Virginians.
+
+In the face of demagoguery, fear, and hypocrisy from
+Republicans in the Virginia General Assembly, I remain
+committed to the central promise of my campaign: one of the
+wealthiest states in one of the wealthiest nations in the
+world has no excuse for not providing health care to its
+needy citizens.
+
+Please donate $5 today and declare that you think health care
+in Virginia is a moral imperative.
+
+<<link>>
+
+Unfortunately, these vetoes are not the final chapter in
+this story -- and I'm counting on you to support me, just as
+you did last year.
+
+By refusing any and all compromise on the expansion of
+Medicaid, the Republican leadership has elected to domain.com
+$5 million per day in funding that we have already sent to
+Washington. We have already lost $850 million as of
+this morning.
+
+That's why I will veto the Stanley Amendment and the Medicaid
+Innovation and Reform Commission. And it's why I've
+instructed Secretary of Health and Human Services Bill Hazel
+to work with our federal partners in Washington, the
+insurance industry, health care providers, our university
+medical centers, non-domain.com organizations, and the hospital
+industry itself to extend the promise of health care to our
+people.
+
+If you still believe that providing health care to hard
+working Virginians is a moral imperative, I'm counting on
+your support today.
+
+Make a $5 donation to help me in this fight.
+
+<<link>>
+
+During my campaign, you supported me and my deeply held
+conviction that closing the coverage gap was the right thing
+to do for Virginia's families and for our economy.
+
+I'm counting on you to continue fighting alongside me.
+
+Thank you,
+Terry McAuliffe
+
+DONATE NOW: 
+<<link>>
+
+---
+Paid for by Common Good VA.
+---
+
+Unsubscribe: <<link>>
+user@domain.com
+

@@ -1,0 +1,46 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 4E6EB23CA7E
+	for <user@domain.com>; Wed,  4 Sep 2015 02:22:05 -0500 (CDT)
+X-Virus-Scanned: amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id J-foA+yeDCwW for <user@domain.com>;
+	Wed,  4 Sep 2015 02:22:00 -0500 (CDT)
+Received: from domain.com.ar (domain.com.ar [190.220.128.100])
+	by domain.com (Postfix) with ESMTP id 5B97023CA7A
+	for <user@domain.com>; Wed,  4 Sep 2015 02:22:00 -0500 (CDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by domain.com.ar (Postfix) with ESMTP id 9FED13BE82E0
+	for <user@domain.com>; Wed,  4 Sep 2015 04:44:54 -0300 (ART)
+X-Virus-Scanned: amavisd-new at domain.com.ar
+Received: from domain.com.ar ([127.0.0.1])
+	by localhost (domain.com.ar [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id q17QYBazrAFh for <user@domain.com>;
+	Wed,  4 Sep 2015 04:44:49 -0300 (ART)
+Received: from [180.215.19.87] (unknown [180.215.19.87])
+	by domain.com.ar (Postfix) with ESMTP id 060DF3BE82D7
+	for <user@domain.com>; Wed,  4 Sep 2015 04:44:47 -0300 (ART)
+Content-Type: multipart/alternative; boundary="===============1713580439=="
+MIME-Version: 1.0
+Subject: Dear Outlook Account User
+To: user@domain.com
+From: Outlook Help Desk <hhadley@insightbb.com>
+Date: Wed, 04 Sep 2015 12:51:57 +0530
+Message-Id: <20130904074448.060user@domain.com>
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 183
+
+You have reached the domain.com of your mailbox set exceeded by your Web service
+, and you will be having problems sending and receiving emails, you may los
+e all your data when your account was disabled.
+To avoid click here
+
+
+
+Support Team
+Warning Code :ID67565434

@@ -1,0 +1,87 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 8 May 2015 16:02:57 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 14AE560063;	Thu,  8 May 2015 
+ 14:52:05 +0100 (BST)
+Received: by domain.com (Postfix)	id 1F58DB6603C; Thu,  8 May 2015 
+ 16:02:58 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 168F0B6600D	for
+ <user@domain.com>; Thu,  8 May 2015 16:02:58 +0200 (CEST)
+X-ASG-Debug-ID: 1399557774-066a75057c28650001-giSKWq
+Received: from em-sj-82.domain.com (em-sj-82.domain.com [199.15.215.82])
+ by domain.com with ESMTP id 4KFEzyvU18zoEcS3 for
+ <user@domain.com>; Thu, 08 May 2015 16:02:54 +0200 (CEST)
+X-Barracuda-Envelope-From: Adrian Fluckiger <a.fluckiger@klocwork.com>
+X-Barracuda-IPDD: Level1 [em-sj-77.domain.com/199.15.215.82]
+X-Barracuda-Apparent-Source-IP: 199.15.215.82
+DKIM-Signature: v=1; a=rsa-sha256; d=klocwork.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1399557773;
+	h=From: Adrian Fluckiger <a.fluckiger@klocwork.com>
+	bh=jUpBArV8JiHwxkklUFNqeEmz9ekvVTcRxn/gfA9d7Xo=;
+	b=BGwWHDeeNHvKvPq/MpLcvDJArOyR/rPwhM+wsUDCDf6ZIFGxglIHKRUN/KX5yCs9
+	+KlwGR7/feP5h1l/DHps+11gaIjPaQ3cboYrFtqBjzRhGCv76d6pkVzrdaneWEQc
+	+HfW58P5nAnh10R7l+93l0+JsBsxXxBm4VpuhS+cBv4=;
+X-MSFBL: YWNxdWlzdGlAaGFja2luZ3RlYW0uaXRAZHZwLTE5OS0xNS0yMTUtODJAYmctc2ot
+	MDFAMDY1LUhVUy0wODA6MjczNTozNjIzOjgxNzM6MDo0MDEyOjc6MTAxNjU0Mg
+Received: from [10.0.8.1] ([10.0.8.1:41189] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.0.35861 r(Momo-dev:tip)) with ESMTP	id A9/E4-62997-D8E8B635; Thu, 08 May
+ 2015 09:02:53 -0500
+Date: Thu, 8 May 2015 09:02:53 -0500
+From: Adrian Fluckiger <a.fluckiger@klocwork.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <1579304354.-1793162201.1399557773812.user@domain.com>
+Subject: Static code analysis: Four myths and a truth
+X-ASG-Orig-Subj: Static code analysis: Four myths and a truth
+X-Report-Abuse: Please report abuse here: <<link>>
+X-Binding: bg-sj-01
+X-MarketoID: 065-HUS-080:2735:3623:8173:0:4012:7:1016542
+List-Unsubscribe: <mailto:user@domain.com>
+X-MailFrom: Adrian Fluckiger <a.fluckiger@klocwork.com>
+X-Barracuda-Connect: em-sj-82.domain.com[199.15.215.82]
+X-Barracuda-Start-Time: 1399557774
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.60
+X-Barracuda-Spam-Status: No, SCORE=0.60 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_RULE7568M, BSF_SC0_SA085, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.5640
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.50 BSF_RULE7568M          Custom Rule 7568M
+	0.10 BSF_SC0_SA085          Custom Rule SA085
+Return-Path: 065-user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1505733112_-_-"
+
+
+
+
+Hi Valeriano,
+Heard comments that Static Code Analysis (SCA) is a “management blame tool”?  We have.  Among many other untruths.  In reality, professional developers see desktop SCA as a valuable  
+    addition to their other day-to-day tools.  We deliver SCA to the desktop, in environments you’re familiar with, so that you and your teams can craft more secure, reliable code before it gets checked in to the build.That eliminates others blaming you, as 
+you’re in control.
+  It also motivated us  to  create this paper: “Challenging Some of the   Myths About Static Code Analysis.”  If  you’d rather watch a short video, we have that too.
+       Give this or any of our other papers a read and you’ll come to see how desktop SCA really can help you create more secure, reliable code - code you’ll be proud of. Regards,AdrianPS: If you want to see desktop SCA action, just 
+request a demo.
+
+
+
+
+ 5500 Flatiron Parkway, Suite 200 | Boulder, CO  80301 |      
+1.866.556.2967 | www.klocwork.com © Klocwork Inc.
+      												All rights reserved.
+
+If you no longer wish to receive these emails, click on the following link: Unsubscribe
+

@@ -1,0 +1,175 @@
+Delivered-To: user@domain.com
+Received: by 10.151.98.20 with SMTP id a20cs7069ybm;
+        Wed, 25 Jun 2015 09:18:47 -0700 (PDT)
+Received: by 10.142.162.9 with SMTP id k9mr7014350wfe.211.1214410725588;
+        Wed, 25 Jun 2015 09:18:45 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-2122.domain.com (yx-out-2122.domain.com [74.125.44.26])
+        by domain.com with ESMTP id 34si10569228yxl.0.2008.06.25.09.18.44;
+        Wed, 25 Jun 2015 09:18:45 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.44.26 as permitted sender) client-ip=74.125.44.26;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.44.26 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yx-out-2122.domain.com with SMTP id 33so3559734yxl.45
+        for <user@domain.com>; Wed, 25 Jun 2015 09:18:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:reply-to:to:subject:date:organization:message-id
+         :mime-version:content-type:x-mailer:thread-index:content-language
+         :From: Jenni Lee <jlee@progressivemediausa.org>
+         :list-help:list-unsubscribe:x-beenthere;
+        bh=C1us1XxhL5nprrgMbce/6pqLpiswVSnkXgchgF4cydc=;
+        b=HI9l1XBSOk5c/5EIcGpZ/f3j4Wgo4A5hbgsvQZjRgw1wfPjOFBhV4nPlhbatMDB0rs
+         Qip1Wp8sFTWRbN+Fg7iRnafhkf9bDahpegSxZpvrlFbDl48/NsUx+NK2jWOiAs4E1YBZ
+         m6FL3nE84tqH/FoMVAd4+k2K2v957OFkQogys
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :reply-to:to:subject:date:organization:message-id:mime-version
+         :content-type:x-mailer:thread-index:content-language:From: Jenni Lee <jlee@progressivemediausa.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=ks0nWgYuCDIup7cKTlDDdWfthQoKgSKK0PVRR/neNM13W1auLDjbIVIV+sQY2biQt1
+         egDl+F331Qbtgrf9ptDXzmMmFIlRl1UugSUG3OgiC40aFaABkdHNZNmCEkijL3wBDkLn
+         mk+HYKZIbGGSMri97OPeWg6uvwSd355J/nQH4
+Received: by 10.114.199.1 with SMTP id w1mr316198waf.6.1214410717575;
+        Wed, 25 Jun 2015 09:18:37 -0700 (PDT)
+Received: by 10.107.3.34 with SMTP id f34gr1016pri.0;
+	Wed, 25 Jun 2015 09:18:22 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.114.155.1 with SMTP id c1mr2374897wae.1.1214410702527; Wed, 25 Jun 2015 09:18:22 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from an-out-0708.domain.com (an-out-0708.domain.com [209.85.132.240]) by domain.com with ESMTP id 22si8571169yxr.2.2008.06.25.09.18.22; Wed, 25 Jun 2015 09:18:22 -0700 (PDT)
+Received-SPF: neutral (domain.com: 209.85.132.240 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=209.85.132.240;
+Authentication-Results: domain.com; spf=neutral (domain.com: 209.85.132.240 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by an-out-0708.domain.com with SMTP id c35so758293anc.44 for <user@domain.com>; Wed, 25 Jun 2015 09:18:22 -0700 (PDT)
+Received: by 10.100.110.15 with SMTP id i15mr18508978anc.130.1214410702044; Wed, 25 Jun 2015 09:18:22 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from Cdalaptop03 ( [38.104.30.142]) by domain.com with ESMTPS id d36sm16378094and.8.2008.06.25.09.18.20 (version=TLSv1/SSLv3 cipher=RC4-MD5); Wed, 25 Jun 2015 09:18:21 -0700 (PDT)
+Reply-To: <user@domain.com>
+To: user@domain.com
+Subject: [big campaign] McCain's Fear-and-Smear, Politics-as-Usual campaign -
+ research attached
+Date: Wed, 25 Jun 2015 12:18:20 -0400
+Organization: Progressive Media USA
+Message-ID: <00ec01c8d6df$15958270$40c08750$@org>
+Mime-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_NextPart_000_00ED_01C8D6BD.8E83E270"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AcjW3iXc8DfWWad9RGy9Q0xrSTC6wgAAChwg
+Content-Language: en-us
+From: Jenni Lee <jlee@progressivemediausa.org>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+WITH FEAR-MONGERING LOBBYIST CHARLIE BLACK IN THE LEAD, MCCAIN CAN'T MAKE
+THE CASE FOR CHANGE
+
+Charlie Black is in the news again because of comments
+<<<link>>
+1979.html?nav=rss_politics>  he made saying that McCain would domain.com
+politically from another terrorist attack.  This controversy is just the
+latest for Black, who as a lobbyist has represented brutal human rights
+dictators, lobbied for a company that did business with Iran and helped sell
+the Iraq war. With Black and 134 lobbyists assisting the campaign, McCain is
+running a classic, fear-and-smear -politics-as-usual operation.
+
+
+
+
+"In terms of being able to distort or mislead people, you're never running
+in the clear . Back in the 1970s, you could say all kinds of outrageous
+things.  Now, in almost any state you go into, you've got at least one,
+maybe four or five state newspapers that will call your hand.  Some of these
+state capital press corps are tougher than the national guys." -- Charlie
+Black [Washington Post, 1/17/89]
+
+
+
+
+.         McCain and his campaign are taking a page right out of the
+GOP-Rove playbook, using fear-and smear tactics to make their case to
+voters. This week, it was reported that Charlie Black said that another
+terrorist attack would be politically beneficial to McCain.
+
+
+
+
+.         Charlie Black, lead McCain adviser, is an architect of fear and
+smear campaigns that have sought election victories by dividing people and
+scaring them.  He has mastered in his own words "being able to distort and
+mislead people."
+
+
+
+
+.         Like Bush, McCain has a history of using fear to help his
+political career.
+
+
+
+
+o      Days after the assassination of Benazir Bhutto, the McCain campaign
+released a web video using footage of riots in the street and other images
+of a dangerous world to question Mitt Romney's experience.  The Associated
+Press reported, "McCain's campaign released an domain.com-only ad featuring
+graphic images of a dangerous world and the tag line: 'Mitt Romney says the
+next president doesn't need foreign policy experience.'  McCain defended the
+images." [Associated Press, 1/2/08]
+
+
+
+
+o      In 2007, McCain said the Bhutto assassination would "enhance" his
+foreign policy credentials. McCain said "My theme has been throughout this
+campaign that I'm the one with the experience, the knowledge and the
+judgment. So perhaps it may serve to enhance those credentials to make
+people understand that I've been to Pakistan, I know Musharraf, I can pick
+up the phone and call him. I knew Benazir Bhutto." [Associated Press,
+12/28/07]
+
+
+
+
+o      In 2004, McCain commented on the October Bin Laden Tape: "I Think
+It's Very Helpful To President Bush." McCain said, "I think it's very
+helpful to President Bush.  It focuses America's attention on the war on
+terrorism. I'm not sure if it was intentional or not, but I think it does
+have an effect." [Associated Press, 10/30/04]
+
+
+
+
+.         Republicans consistently use fear to scare voters.  Republicans
+from President Bush to Karl Rove to Rudy Giuliani have used terrorism and
+fear to try to scare voters to their side. See the attached document for
+more information.
+
+
+
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

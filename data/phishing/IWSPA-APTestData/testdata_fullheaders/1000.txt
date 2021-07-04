@@ -1,0 +1,279 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1485280lfr;
+        Mon, 31 Aug 2015 08:16:50 -0700 (PDT)
+X-Received: by 10.107.4.210 with SMTP id 201mr24771107ioe.180.1441034209718;
+        Mon, 31 Aug 2015 08:16:49 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-io0-domain.com (mail-io0-domain.com. [2607:f8b0:4001:c06::231])
+        by domain.com with ESMTPS id x21si11974558iod.71.2015.08.31.08.16.49
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 31 Aug 2015 08:16:49 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::231 as permitted sender) client-ip=2607:f8b0:4001:c06::231;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c06::231 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-io0-domain.com with SMTP id s203so160411582iod.0
+        for <user@domain.com>; Mon, 31 Aug 2015 08:16:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: user Carrk <tcarrk@hillaryclinton.com>
+         :content-type;
+        bh=ijTO2H0tE4i/tv+/KD0U85tb+Keqeh8teLuiXm5+mqk=;
+        b=cfLzGTZoG3lIW/e/I7RB7gxZ/bpGJrtNT+d9aDmOiNK1j46tlNHsGbJIKmothh0MLZ
+         DqAQ5qZxKkPnACJkVChrVmf6dYoUQZvbMVA6HGlYMf16rLXTuxtWpmUgXQu2dh22zshF
+         sVQOLw/C0fYgy3lOVoM+nnsU4lhZZeZFwIG2E
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: user Carrk <tcarrk@hillaryclinton.com>
+         :subject:to:content-type;
+        bh=ijTO2H0tE4i/tv+/KD0U85tb+Keqeh8teLuiXm5+mqk=;
+        b=Pdk6UOFR0TYrGxTFmna5CAp6n+nCGEMwTX6PHS0bGB86B8En4y4PuPFCdZZh4lBLzX
+         f/UogQ9SwCE5tRZeZZm+trslmTa1AJgDsDlceW5cL5Khed6OOPaVK8ptt4tnxtjbuIhB
+         eVFELHDjgOKlZ5OLVudiHwNzy4Ql8oi0CtlW0MVR+K3sfOA82ea/1HJ2WZT67dB6OwBk
+         m2KmeEjE3cLoTaUjEvMJG0VAO+SvgDtZyq4MjkIvtrMNEY0f+uD80kzzSJcBsgbOa4tH
+         PkByUMAhFKf2UHrvBMUokWWj9HtbkGisSsb+cZPBANgcrohOQbVPgW2jUamFKFLTwb2E
+         UD5Q
+X-Gm-Message-State: ALoCoQn1GE+0yWPp3eX086G6UQbzMzzTu+pzSWITrpFQIifw9oRpY+Nq/W8gpbfQCzINyoEIenEE
+X-Received: by 10.107.151.194 with SMTP id z185mr25865228iod.63.1441034208754;
+ Mon, 31 Aug 2015 08:16:48 -0700 (PDT)
+From: user Carrk <tcarrk@hillaryclinton.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdDkAA28qK7u+WgqQ1qMTdUUWwjptA
+Date: Mon, 31 Aug 2015 11:16:47 -0400
+Message-ID: <user@domain.com>
+Subject: Sanders Transcript - CNN SOTU
+To: Heather Stone <user@domain.com>, 
+ Varun Anand <user@domain.com>, 
+ Amanda Renteria <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Caitlin Merchant <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ David Binder <user@domain.com>, 
+ Ellen Esterhay <user@domain.com>, 
+ Huma Abedin <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Jim Margolis <user@domain.com>, Joel Benenson <user@domain.com>, 
+ John Anzalone <user@domain.com>, John user <user@domain.com>, 
+ Karen Finney <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>, 
+ Marlon Marshall <user@domain.com>, 
+ Maya Harris <user@domain.com>, 
+ Mona Thinavongsa <user@domain.com>, 
+ Oren Shur <user@domain.com>, Robby Mook <user@domain.com>, 
+ Sawsan Bay <user@domain.com>, Shannon Currie <user@domain.com>, 
+ Teddy Goff <user@domain.com>, 
+ John user <user@domain.com>, 
+ Kate Offerdahl <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1140e36a1f5323051e9cec2e
+
+*CNN=E2=80=99s State of the Union with Jake Tapper*
+
+Link:
+
+Part 1:
+
+<<link>>
+82db-919a527774cb
+
+Part 2:
+
+<<link>>
+9ce2-5ed72b008dd0
+
+Rough Transcript:
+
+*JAKE TAPPER: *vermont senator bernie sanders, who joins us. thanks so much
+for being with us, senator. really appreciate it. i have to start by asking
+you abt this new poll which shows you winning over
+clinton supporters. you're at 30%. she's at 37%. you said earlier this week
+at the same old, same old cannot win as we heard in the open. is hillary
+clinton the same old, same old?
+
+*BERNIE SANDERS:* well, this is what i can tell you, jake. not only in
+iowa, not only in new hampshire, but all over this country we're
+generating enormous enthusiasm. people do not understand why the middle
+class of this country is collapsing at the same time as almost all of the
+new income and wealth is going to the top 1%. people do not like the idea
+that as a result of citizens united our campaign finance system has become
+corrupt. and politicians are dependent upon super pacs and billionaires for
+money. people want us to deal with climate change, make
+college affordable. those are the issues i have been talking about. those
+are the issues that are generating enormous enthusiasm from one end of this
+country to the other.
+
+*JAKE TAPPER: *you also talk about taking on the billionaire class. and
+you've said to hillary clinton you're not sure whether or not she will take
+on the billionaire class. give us some specifics where you think you would,
+and she might not.
+
+*BERNIE SANDERS:* i think that the business model of wall street is
+fraud. and i think these guys drove us into the worst economicdown
+turn into the modern history of america. i think they're at it again. i
+believe when you have so few banks with so much power you have to not only
+re-establish -- but you've got to break them up. that is not hillary
+clinton's position. i believe our trade policies with china have been a
+disaster. i am helping to lead the effort against the
+trans-pacific partnership. that is not hillary clinton's position. i
+believe, along with pope francis, and almost all scientists, that climate
+change is threatening this domain.com in horrendous ways. and that we have to
+be aggressive in transforming our energy system away from fossil fuel, and
+defeat, and defeat the keystone pipeline that is not hillary clton's
+position. i believe that as opposed to my republican colleagues who want to
+cut social security, i believe we should expand social security by lifting
+the cap on taxable income. that's not hillary clinton's position. i believe
+that we've got to raise the minimum wage over a period of several years to
+$15 an hour. not hillary clinton's position. i voted against the war in
+iraq. hillary clinton voted for it.
+
+*JAKE TAPPER: *so that's very ambitious agenda you just outlined there. you
+said this week that the biggest mistake president obama made was thinking
+he could negotiate with speaker boehner and the republican leader
+mitch mcconnell. how can you get this very ambitious agenda through,
+which includes, you didn't mention, an estate tax on those who domain.com more
+than $3.5 million. a trillion dollars spent on infrastructure. how are you
+going to do that without dealing with congress?
+
+*BERNIE SANDERS:* and that infrastructure program, jake, would create
+some 13 million jobs. i will tell you how i have a lot of respect for
+barack obama. he is a friend of mine. the biggest mistake i believe
+he made, and i disagree with him on a number of policy issues, but his
+biggest political mistake, 2015 political campaign when he rallied millions
+of people to stand up and fight back, basically what he said after he's
+elected, well, i will take it from here. i will negotiate with boehner and
+mitch mcconnell and republicans. two points, first of all these guys never
+had any intention of seriously negotiating. i think the president has
+caught on to that. but second of all, the powers that be in washington,
+wall street, the huge campaign donors, the koch brothers, are so powerful
+that the only way we bring about real change in this country, which
+republicans the needs of the middle class and working families, is
+when millions of people stand up and say enough is . they are organized,
+and that is what i'm talking about when i spoke about a
+political revolution. no president, not bernie sanders or anybody else, can
+do it unless millions of people say you know what? this country belongs to
+all of us, our government must represent all of us, and not just a handful
+of billionaires. it can't be done within the beltway itself. we need a mass
+movement, and that's what we are trying to create, and are succeeding
+in creating right now.
+
+*JAKE TAPPER:* i want to ask you about a story unfolding in the news right
+now, a deputy sheriff was gunned down at a gas station in texas. police
+have charge an murder saying the officer was african-american man with
+his targeted because he was wearing his law enforcement uniform. take a
+listen to what the sheriff had to say.
+
+*SHERIFF RON HICKMAN:* this rhetoric has gotten out of control. we've heard
+black lives matter. all lives matter. well cops' lives matter, too. so why
+don't we just drop the qualifier and just say lives matter and take that.
+
+*JAKE TAPPER: *what do you think of that, senator sanders? is the sheriff
+right, has the rhetoric got too high?
+
+*BERNIE SANDERS:* no, this is what i think. obviously it is an outrage
+that this police officer was basically assassinated. other police officers
+have been killed. i worked with police officers when i was mayor. they have
+a very, very difficult job and we need to make sure that we have the best
+trained, best paid, police departments in the world, and as president
+i would help bring that about. community policing, and so forth. on the
+other hand, what we also have to understand, it is not acceptable in this
+country, when unarmed black people get dragged out of cars, or get
+shot. that is happening too often. so in my view, we need major reforms of
+our criminal justice system, which, by the way, jake, means that our police
+officers are better paid, are better trained, and we end this absurdity in
+america of having more people in jail than any other major country on
+earth, includingchina. so, criminal justice reform, criminal justice reform
+is a big issue for me and making sure that we have the best
+police departments throughout this country is something we have got to make
+happen.
+
+*JAKE TAPPER:* another horrific news story took place in roanoke,
+virginia, wednesday morning with the shooting of those two individuals with
+the local news station.
+
+*BERNIE SANDERS:* terrible.
+
+*JAKE TAPPER:* your democratic rivals have been arguing that when it
+comes to guns, you are out of step with liberal and progressive primary
+voters on the issue of gun control. a surrogate for hillary
+clinton, connecticut governor dan malloy went to new hampshire and
+said your gun votes had been driven by quote political expediency and this
+is a dividing line between you and hillary clinton. your response?
+
+*BERNIE SANDERS: *let me tell you, i have as i understand it a lifetime
+voting record from the nra of d-minus. d-minus. i voted very strongly
+for instant background checks. i want to see them made stronger. probably
+the most important thing that we can do. number two, i voted in a state, by
+the way, jake, which have almost no gun control, not an easy vote, i voted
+against the nra, and i voted to ban certain types of semiautomatic
+weapons. i voted to eliminate this gun show loophole which allows people to
+purchase guns without a background check. and by the way, in addition
+to that, what i believe is we need to do a lot, lot better job in terms of
+mental health in this country. people call my office, they call offices all
+over this country, and say you know, my brother, my husband, i'm really
+worried about what he might do to himself or other people, we do not have
+the capability of treating those folks. when people have mental
+health issues, when they're a threat to others or themselves, they should
+be able to get counseling immediately. that is not the case right now. so i
+do not accept the fact that i have been weak on this issue. in fact, i've
+been strong on this issue. and, in fact, coming f a rural state which has
+almost no gun control, i think i can get beyond the noise and all of these
+arguments and people shouting at each other and come up with real,
+constructive, gun control legislation which most significantly gets guns
+out of the hands of people who should not have them.
+
+*JAKE TAPPER:* governor martin o'malley tore in to the democratic
+national committee on friday, as you know, accusing the party of rigging
+the debate process to favor hillary clinton. do you agree with
+governor o'malley?
+
+*BERNIE SANDERS:* i think rigging is a strong word. i think that at a time
+when so many of our people have given up on the political process. when 80%
+of young people did not vote in the last election, 63% of all americans did
+not vote, i think debates are a good thing. i think love debates. so i
+would like to see more debate debates. i would like to see
+groups representing working people have a debate to talk about why the rich
+get richer and everybody else gets poorer. i think
+environmentalists deserve a debate so we could talk about how we
+move aggressively to transform our energy system away from
+fossil fuel. debate. i think young people deserve a in terms of my idea and
+other ideas about how we make college education in this country in public
+colleges and universities tuition free. how we deal with student debt. how
+we deal with tax reform =E2=80=93
+
+*JAKE TAPPER:* senator sanders =E2=80=93
+
+*BERNIE SANDERS:* yeah?
+
+*JAKE TAPPER:* the Organizationas you know, is saying that if you or
+governor o'malley participate in any nonsanctioned debate, then you don't
+get to participate in the official ones. they are restricting the number of
+debates.
+
+*BERNIE SANDERS:* and i think that that is dead wrong and i have let
+the leadership of the democrats know that. again, i think this
+country benefits all people benefits, democracy benefits when we
+have debates. i want to see more of them.
+
+*JAKE TAPPER:* i know you have not been a particular fan of donald trump or
+his campaign rhetoric. he has called recently however for raising taxes on
+those who run hedge funds. is that an issue where you two agree?
+
+*BERNIE SANDERS: *absolutely. but, even more importantly, look, let's be
+clear. we have a situation where major corporations in this country make
+billions of dollars in domain.com. they stash their money in the cayman
+islands, they don't pay a nickel in taxes. i am funding my plan to
+make public colleges and universities tuition-free by a tax on wall street
+speculation. when you have hedge fund managers, as warren buffett reminds
+us, paying an effective tax rate lower than firemen or police officers,
+that's got to change. the rich are getting richer. they're going to have to
+start paying their fair share of taxes, as do major corporations.
+
+*JAKE TAPPER: *senator bernie sanders. congratulations on all the success
+you're having on the campaign trail. we hope to talk to you soon.
+
+*BERNIE SANDERS:* thank you very much.

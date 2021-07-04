@@ -1,0 +1,89 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp1966578lfr;
+        Tue, 29 Sep 2015 12:35:59 -0700 (PDT)
+X-Received: by 10.140.44.11 with SMTP id f11mr31566743qga.80.1443555359900;
+        Tue, 29 Sep 2015 12:35:59 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-dock-front-10.domain.com (mta-dock-front-10.domain.com. [66.151.230.130])
+        by domain.com with ESMTPS id 80si22758867qgj.40.2015.09.29.12.35.59
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 29 Sep 2015 12:35:59 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.151.230.130 as permitted sender) client-ip=66.151.230.130;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 66.151.230.130 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (unknown [10.0.200.170])
+	by mta-dock-front-10.domain.com (Postfix) with ESMTP id 3nQW8C1MTfz1BGSc
+	for <user@domain.com>; Tue, 29 Sep 2015 19:32:43 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=barackobama.com;
+	s=ofakey; t=1443555163;
+	bh=41ufHGkOPCWM9T5cGU7BMgkFuJUJh+SGE5piVcQ+r5s=;
+	h=Date:To:From: OFA <info@barackobama.com>
+	b=D+tit/jTO8PJhmWDNjS3KdvIaAHVV+2oq2NrFmPnNjmh3TjJcaktgCb9qIr3CXoH8
+	 4abuVdptYU6OXEXr61/Jsl+X6z6ssHMVdgEwGM0aoHEh3VbcAfb3oMmaWw1HzSkcUZ
+	 X6tzOe4B1IMDoIFutbesU/nhKhigxOKm2Cbwtgyk
+Received: from phpmailer 
+	by domain.com with local (PHPMailer);
+	Tue, 29 Sep 2015 15:32:43 -0400
+Date: Tue, 29 Sep 2015 15:32:43 -0400
+To: John user <user@domain.com>
+From: OFA <info@barackobama.com>
+Reply-to: user@domain.com
+Subject: =?utf-8?Q?=F0=9F=8D=82_Meet_the_President_this_fall_=F0=9F=8D=82?
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 17da0ba09f09a4b6
+X-rpcampaign: rp_121790
+X-maillist-guid: CgdXWAJtVwMBUgBXUFUKB1MAUQZWAWxZDVFcTUZbUQEWEVd1BAkHXQkdU1pcbAdVUAgF
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_f06501e709a28d4554dd96b46fedf5ff"
+
+Here's your chance to meet President Obama.
+
+Enter the Organizing Basics contest now:
+
+<<link>>
+
+Thanks,
+
+Organizing for Action
+
+No purchase, payment, pledge, or contribution necessary to
+enter to win. Void where prohibited. Entries must be received
+by 11:59 p.m. Eastern Time on September 30, 2015. 
+You may enter by telling us what you're excited to work on
+here <<link>> 
+Alternatively, to enter without telling us what you're excited to 
+work on enter here:
+<<link>>
+One winner will receive the following prize package: round trip
+tickets for winner and one guest from within the fifty United
+States or Puerto Rico to the District of Columbia; hotel
+accommodations for winner and one guest; admission for
+winner and winner's guest to the OFA Organizing domain.com in
+November 2015 (approximate combined retail value of all
+prizes $1,700.00).  Odds of winning depend on number of
+eligible entries received.  Promotion open to all U.S. citizens,
+or lawful permanent U.S. residents who are legal residents of
+the 50 United States and District of Columbia and 18 or older
+(or of majority under applicable law).  Promotion subject to Official
+Rules <<link>>
+and additional restrictions on eligibility.
+Sponsor: Organizing for Action, P.O. Box 618120, Chicago, IL 60661.
+
+---------------------------------------------------------------------
+Paid for by Organizing for Action
+
+Contributions or gifts to Organizing for Action are not tax deductible.
+
+This email was sent to: user@domain.com
+To update your address, go to: 
+<<link>>
+To unsubscribe from these messages, go to: 
+<<link>>
+Organizing for Action, P.O. Box 618120 Chicago, IL 60661
+

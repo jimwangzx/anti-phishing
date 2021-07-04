@@ -1,0 +1,104 @@
+Delivered-To: user@domain.com
+Received: by 10.141.82.1 with SMTP id j1cs230626rvl;
+        Fri, 18 Jul 2015 12:35:37 -0700 (PDT)
+Received: by 10.90.51.13 with SMTP id y13mr580178agy.67.1216409736185;
+        Fri, 18 Jul 2015 12:35:36 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wr-out-0708.domain.com (wr-out-0708.domain.com [64.233.184.250])
+        by domain.com with ESMTP id 36si889719aga.10.2008.07.18.12.35.35;
+        Fri, 18 Jul 2015 12:35:36 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.233.184.250 as permitted sender) client-ip=64.233.184.250;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 64.233.184.250 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by wr-out-0708.domain.com with SMTP id 34so1423156wra.9
+        for <user@domain.com>; Fri, 18 Jul 2015 12:35:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :message-id:x-mailer:date:From: "Tula Connell" <Tconnell@aflcio.org>
+         :content-transfer-encoding:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere;
+        bh=q7GMHR7LY4JkNUmsuIPSkwnTehFjZaOl1JRod8Fi3JM=;
+        b=zJG1PNTI/1nNM0XQSCnIxQs0Pt5cJ0fb/U1tIvv1N/YZ6k7TM2wgQ+14IlM0nxR8vS
+         YhCLpCNaqx3Z29qJcqPkKFozhZ0anc1ZxvTjxhxYdbY5iqQOMC2Pw4ynpbUXow+i5G00
+         OdXBldw5OF1wdkC0k0rM/S/Co1RHtwyCLGbEA
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:x-mailer:date:From: "Tula Connell" <Tconnell@aflcio.org>
+         :content-transfer-encoding:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere;
+        b=vapYDa2kc4Iwev0bPP2AZSnpis5pYDlXgW9y08JmxlN74t7qnf+qNHxPDpwNjiRoXW
+         6yuUbfr/+jZ/AxLjgRo4PzQ5emRtL6WQpLUCHR08lx8P/58wNCF+tlR38jm9n1OzBGw6
+         nCV1Cz8p6hUR3JOw7zytUI2MsdBXQzTkjy0ZY
+Received: by 10.100.44.4 with SMTP id r4mr25315anr.9.1216409729029;
+        Fri, 18 Jul 2015 12:35:29 -0700 (PDT)
+Received: by 10.106.151.40 with SMTP id y40gr1247prd.0;
+	Fri, 18 Jul 2015 12:35:24 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.86.81.14 with SMTP id e14mr1072062fgb.28.1216409723589; Fri, 18 Jul 2015 12:35:23 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from haymarket.aflcio.org (haymarket.aflcio.org [12.4.17.12]) by domain.com with ESMTP id 22si2164072yxr.2.2008.07.18.12.35.23; Fri, 18 Jul 2015 12:35:23 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 12.4.17.12 as permitted sender) client-ip=12.4.17.12;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 12.4.17.12 as permitted sender) user@domain.com
+Received: from GATE2DOM-MTA by haymarket.aflcio.org with Novell_GroupWise; Fri, 18 Jul 2015 15:35:23 -0400
+Message-Id: <4880user@domain.com>
+X-Mailer: Novell GroupWise domain.com Agent 7.0.2 HP
+Date: Fri, 18 Jul 2015 15:35:11 -0400
+From: "Tula Connell" <Tconnell@aflcio.org>
+To: user@domain.com
+Subject: [big campaign] McCain Pockets His Social Security checks
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+Hi, All:
+
+The AFL-CIO allied organization, the Alliance for Retired Americans, has a 
+question for John McCain:
+
+Will he return the Social Security check he calls a 'disgrace'?
+
+<<link>>
+s-why-shouldnt-we/
+
+Tula
+
+=2E.............................................
+Tula Connell
+AFL-CIO Managing Editor
+815 16th St., N.W.
+Washington, DC 20006
+
+www.aflcio.org/blog
+www.aflcio.org
+
+Phone: 202-637-5010
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---

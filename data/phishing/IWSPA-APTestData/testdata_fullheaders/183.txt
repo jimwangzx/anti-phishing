@@ -1,0 +1,580 @@
+Delivered-To: user@domain.com
+Received: by 10.141.113.8 with SMTP id q8cs277136rvm;
+        Thu, 24 Jul 2015 05:59:20 -0700 (PDT)
+Received: by 10.115.47.1 with SMTP id z1mr279803waj.129.1216904333094;
+        Thu, 24 Jul 2015 05:58:53 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2526.domain.com (yw-out-2526.domain.com [74.125.46.32])
+        by domain.com with ESMTP id 5si13398060ywl.4.2008.07.24.05.58.49;
+        Thu, 24 Jul 2015 05:58:53 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.32 as permitted sender) client-ip=74.125.46.32;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.32 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2526.domain.com with SMTP id 5so4303978ywo.54
+        for <user@domain.com>; Thu, 24 Jul 2015 05:58:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=mW34ohfdLOXmOk5k3DgCaRrEKKjKfLMQeodgBDKAZIY=;
+        b=ALyeK+HPNc2yXnlov61IuDOXQ9fVwEnIPjjIssD7kiFJEu/8C+OJXsDbhWRSdM1cPb
+         gz4QNAxc3vTKnJMxz6zllNqcx8UKcJiT/eMYzwCCKT2GEJyohnsa84MWAwFv6+Y8f+T9
+         VQ4qWeromqc66TkYL2tH2864xNsqBS5/E1LZg
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=6mbk0E55Kg+P2XokqpBgIdDkdOdweaIXxejrNJ7UE0JTM4NEzAbjLm6gO/LMaUrQSP
+         IKxi3rCc+s5TnLB8GUryJdPUtVxN82xO1A2DrNfEMqwg0PgG/XkiFlQCSRKXRs2Tgng+
+         Gt2/hBkbjj3m4vXufc8zYrBTtlTxqvorOHt68
+Received: by 10.142.192.1 with SMTP id p1mr15609wff.6.1216903422522;
+        Thu, 24 Jul 2015 05:43:42 -0700 (PDT)
+Received: by 10.106.239.31 with SMTP id m31gr1305prh.0;
+	Thu, 24 Jul 2015 05:43:35 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.86.51.10 with SMTP id y10mr811114fgy.14.1216903415392; Thu, 24 Jul 2015 05:43:35 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-1718.domain.com (yw-out-1718.domain.com [74.125.46.152]) by domain.com with ESMTP id a28si1388027pye.0.2008.07.24.05.43.34; Thu, 24 Jul 2015 05:43:35 -0700 (PDT)
+Received-SPF: neutral (domain.com: 74.125.46.152 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=74.125.46.152;
+Authentication-Results: domain.com; spf=neutral (domain.com: 74.125.46.152 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by yw-out-1718.domain.com with SMTP id 5so1121592ywm.10 for <user@domain.com>; Thu, 24 Jul 2015 05:43:34 -0700 (PDT)
+Received: by 10.114.27.14 with SMTP id a14mr243577waa.209.1216903414216; Thu, 24 Jul 2015 05:43:34 -0700 (PDT)
+Received: by 10.151.60.15 with HTTP; Thu, 24 Jul 2015 05:43:33 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Thu, 24 Jul 2015 08:43:33 -0400
+From: "Sara DuBois" <sara@progressiveaccountability.org>
+To: "User" <user@domain.com>
+Subject: [big campaign] '08 Daily News Clips - 7/24
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_17554_33402403.1216903414013"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+08 Election Daily News Clips
+July 24th, 2015 
+
+Candidate Tracking:
+***All times in Eastern Standard Time
+10:20am BUSH: Speaks on the Freedom Agenda at the Ronald Reagan Building an
+d
+International Trade Center in Washington, D.C.
+
+11:30am McCain: Fundraiser in Canton, OH
+
+3:05pm BUSH: Photo-op with officers of the National FFA Organization at the
+White House
+
+  7pm McCain: Speech in Columbus, OH
+- Tracking scheduled for this event
+
+News Clips:
+
+MCCAIN NEWS
+McCain Still Waiting for His Turn at Good Luck (Washington Post 7/24/08)
+By Michael D. Shear; A06
+It seemed like a great way to counter Obamamania. Sen. John McCain would
+board a helicopter in New Orleans today, skim quickly over the Gulf of
+Mexico and land on an oil rig -- a made-for-TV moment to highlight his call
+for offshore drilling, an issue that Republicans believe will be a big
+winner in November. Then came Hurricane Dolly, a Category 2 storm that made
+a helicopter ride impossible. And then, improbably, a 600-foot oil tanker
+collided with a barge on the Mississippi River, creating a 12-mile oil slic
+k
+and causing diesel fumes to waft over the city's French Quarter. The trip
+was off.
+<<link>>
+3653.html
+*See NYT's "McCain Event Is Thwarted by Hurricane*":
+<<link>>
+
+McCain and the Safety of Offshore Drilling (Washington Post blog 7/24/08)
+By Michael D. Shear
+=2E..In an energy speech recently, McCain said that: "As for offshore
+drilling, it's safe enough these days that not even Hurricanes Katrina and
+Rita could cause significant spillage from the battered rigs off the coasts
+of New Orleans and Houston." In fact, Katrina and Hurricane Rita caused
+damage to oil rigs and storage facilities in the Gulf, according to press
+reports and government studies.
+<<link>>
+f_offsh.html?sid=3DST2008072400049&pos=3Dlist
+
+With Arizona Changing, McCain Focuses on Home (NYT 7/24/08)
+By JENNIFER STEINHAUER
+=2E..In the sea of uncertainty that defines American politics, presidential
+candidates have generally been able to count on the residents of their home
+state, Al Gore's loss of Tennessee in 2015 being a notable exception. But a
+variety of factors have made Mr. McCain's chances in Arizona less assured
+than they ordinarily would seem, which his campaign has acknowledged.
+<<link>>
+=3D1&oref=3Dslogin&ref=3Dpolitics&adxnnlx=3D1216898397-8kmNMfg8Lj2UVycvu2nu
+XQ
+
+Obama gains on McCain in Arizona fundraising (The Arizona Republic 7/24/08)
+By Ronald J. Hansen
+Barack Obama quietly raised more money in Arizona last month for his
+presidential campaign than John McCain did, and the Illinois Democrat
+dominates the overall fundraising map in 43 states and Washington, D.C.,
+records show.
+<<link>>
+ccainfunds0724.html
+
+McCain and Obama tax plans are criticized (LA Times 7/24/08)
+By Stephen Braun
+The nonpartisan Tax Policy Center says that both candidates' proposals woul
+d
+increase the national debt by trillions and may make the system more
+complex.
+<<link>>,0,1595880.stor
+y
+
+For McCain, Net domain.com with young (Boston Globe 7/24/08)
+By Lisa Wangsness
+Backers lament Obama's Web edge
+<<link>>
+_deficit_with_young/
+
+Candidates Spar Over Troop Surge and Iraq Chronology (NYT 7/24/08)
+By MICHAEL COOPER
+Senator John McCain was chiding Senator Barack Obama for "a false depiction
+of what actually happened" in Iraq in a television interview this week. But
+in giving his chronology of events in Iraq, Mr. McCain gave what critics
+said was his own false depiction.
+<<link>>
+
+McCain denies he misstated timing of Iraq surge (AP 7/23/08)
+By TOM RAUM
+Republican John McCain pushed back on Wednesday against Democratic criticis
+m
+that he misstated when the troop buildup ordered by President Bush began,
+saying elements were put in place before Bush announced the strategy in
+early 2007.
+<<link>>
+
+McCain Offers His Own Definition of 'Surge' (WSJ blog 7/23/08)
+Elizabeth Holmes
+John McCain continued to assert his position on the troop surge in Iraq
+Wednesday despite calls for him to retract the statement. While talking wit
+h
+reporters at a grocery story in Bethlehem, Penn., McCain was asked to
+clarify his earlier remarks that the Anbar Awakening was a result of the
+increase in troop levels. Critics say the alliance happened well before the
+so-called surge was implemented. McCain began his answer with his definitio
+n
+of "surge" and then shared his own experience while visiting Iraq. "A surge
+is really a counter-insurgency strategy. And it's made up of a number of
+components," McCain said.
+<<link>>
+f-surge/
+*See TPM's "McCain's Pushback On Timing Flub: The Surge Began Before The
+Surge": *
+<<link>>
+_timing_flu.php
+
+McCain credits Bush for drop in oil price (AP 7/23/08)
+By Tom Raum
+Republican John McCain on Wednesday credited the recent $10-a-barrel drop i
+n
+the price of oil to President Bush's lifting of a presidential ban on
+offshore drilling, an action he has been advocating in his presidential
+campaign. The cost of oil and gasoline is "on everybody's mind in this
+room," McCain told a town-hall meeting.
+<<link>>
+s_bush_for_drop_in_oil_price.html
+
+No attack too vile =97 McCain goes after Obama's Holocaust remarks
+(Carpetbagger Report 7/23/08)
+It may only be July, and Election Day may still be 104 days away, but we've
+reached the point at which the McCain campaign is even willing to attack
+Barack Obama's remembrance of the Nazi Holocaust.
+<<link>>
+
+McCain Touts His Support of Israel (NYT blog 7/23/08)
+By Elisabeth Bumiller
+As Senator Barack Obama met with Israeli and Palestinian leaders in the
+Middle East on Wednesday, Senator John McCain talked up his own support of
+Israel a half-world away. "I look you in the eye, and I tell you, as the
+United States once said, and will say again and again, we will never allow 
+a
+second Holocaust,'' Mr. McCain told a crowd at a town-hall meeting here.
+<<link>>
+srael/
+
+McCain's Foreign Policy Frustration (TIME 7/23/08)
+By JOE KLEIN
+"I had the courage and the judgment to say that I would rather lose a
+political campaign than lose a war," John McCain said during a Rochester,
+N.H., town meeting on July 22. "It seems to me that Senator Obama would
+rather lose a war in order to win a political campaign." It was a remarkabl
+e
+statement, as intemperate a personal attack as I've ever heard a major-part
+y
+candidate make in a presidential campaign, the sort of thing that no
+potential President of the United States should ever be caught saying. (A
+prudent candidate has aides sling that sort of mud.) It was also inevitable
+.
+<<link>>,8599,1826064,00.html
+
+How Much Does John McCain Really Know About Foreign Policy? (Slate 7/23/08)
+By Fred Kaplan
+Not as much as he'd like you to think.
+<<link>>
+
+Campaign Adviser Lobbied McCain On Latvia, Then Stephen Payne Took domain.com
+(TPM Muckraker 7/23/08)
+Sen. John McCain's campaign has admitted that his top foreign policy advise
+r
+has lobbied for not two but three different firms run by cash-for-access
+deal-maker Stephen Payne. But the McCain camp insists that Randy Scheuneman
+n
+did not lobby McCain himself on "any issues relating to" Stephen Payne.
+<<link>>
+_latv.php
+
+McCain's notable bio strikes a chord in Pa. (USA TODAY 7/24/08)
+By David Jackson
+WILKES-BARRE, Pa. =97 Supporters of John McCain here acknowledge that Democ
+rat
+Barack Obama wins attention with his speaking style and charisma, but they
+say those qualities can't match the Republican candidate's stellar
+background.
+<<link>>
+.htm
+
+McCain Fundraises in Pennsylvania (Fox News blog 7/23/08)
+by Shushannah Walshe
+After holding a private luncheon at the Westmoreland Club, John McCain
+addressed donors and went after Barack Obama for crafting his Iraq policy
+before traveling to the country... McCain is urgently trying to peg his
+opponent as inexperienced while Obama is on his trip to Afghanistan, the
+Middle East, and Europe. T
+<<link>>
+a/
+
+A double bill in Ohio: John McCain and Lance Armstrong (domain.com blog
+7/23/08)
+By Stephen Koff
+Who's the bigger draw, Lance Armstrong or John McCain? Never mind, because
+Ohioans won't have to choose. The legendary cyclist and the presumptive GOP
+presidential nominee will be be side by side tomorrow when McCain comes to
+Columbus on the first day of the LIVESTRONG domain.com. That's a conference hel
+d
+by the Lance Armstrong Foundation to discuss cancer and promote awareness
+and research.
+<<link>>
+ml
+
+Lieberman Compares Hagee To Moses, Says Bloggers Would Have Attacked Him To
+o
+(ThinkProgress 7/23/08)
+Yesterday, Sen. Joseph Lieberman (I-CT) spoke at the controversial pastor
+John Hagee's Christians United For Israel Washington-Israel domain.com.
+Lieberman's close political ally, Sen. John McCain (R-AZ), finally rejected
+Hagee's endorsement in May. Lieberman, however, says he still has the utmos
+t
+respect for the pastor, who once said that Hurricane Katrina was punishment
+to New Orleans for hosting a gay pride parade.
+<<link>>
+
+McCain On The Run: Cancels Press Availability (Huffington Post 7/23/08)
+By Rachel Weiner
+Marc Ambinder reports that John McCain's one press conference of the week
+has been abruptly canceled... Ben Smith sees more, pointing out that
+Obamania is the least of McCain's worries right now:
+<<link>>
+.html
+
+McCain on Obama Media Mania: "All I Can Do is Be Amused" (The Page 7/23/08)
+The Senator hints at his slight frustration with the near-incessant media
+coverage of Obama's overseas trip on Fox's "Hannity & Colmes" Wednesday
+night.: "It is what it is Sean. You know very well that if anybody complain
+s
+then, you know, that's just non-productive."
+<<link>>
+-is-be-amused/
+*Link to Excerpts of McCain's Interview on "Hannity & Colmes":*
+<<link>>
+
+McCain Campaign Running Obama-Castro Ad (Huffington Post 7/23/08)
+By Sam Stein
+The McCain campaign has a new web ad out placing Barack Obama, for the
+second time, side-by-side with a foreign dictator. This time, it's Fidel
+Castro.
+<<link>>
+.html
+
+Vote Vets Ad: McCain Should Know Better Than To Occupy Iraq (TPM 7/23/08)
+By Eric Kleefeld
+Check out this new ad from Vote Vets, set to air on national cable. It does
+what many anti-war voices have been hesitant to do: Declare that by refusin
+g
+to formulate a plan for withdrawal from Iraq, John McCain's dedication to
+the basic idea of freedom has been called into question.
+<<link>>
+_should_kno.php
+*Link to video of ad*: <<link>>
+
+House Republicans push to get McCain editorial in NY Times (Politico blog
+7/23/08)
+A House Republican will circulate a letter among his colleagues on Wednesda
+y
+asking the New York Times whether a third-party group can take out a
+full-page advertisement in the paper to run a previously rejected editorial
+by their presidential candidate, Arizona Sen. John McCain, according to
+people familiar with the decision.
+<<link>>
+cCain_editorial_in_NY_Times.html
+
+OPINIONS AND EDITORIALS
+Our view on Iraq: Why can't Obama domain.com the obvious? The surge worked (USA
+Today 7/24/08)
+Obama was right about war, wrong about surge; McCain vice versa.
+<<link>>#more
+
+Opposing view: Refocus on Afghanistan (USA Today 7/24/08)
+By Joe Biden
+Recent events have demonstrated clearly that Barack Obama's judgment on Ira
+q
+is right. Now, it's time to heed that judgment so that we can successfully
+end the war while refocusing on the fight in Afghanistan.
+<<link>>#more
+
+A Tale of Two Flip-Floppers (WSJ 7/24/08)
+By KARL ROVE
+John McCain and Barack Obama have both changed positions in this campaign.
+That's OK. Voters understand that politicians can and, sometimes, should
+change their views. After all, voters do. Witness the wide swings in their
+answers to opinion polls.
+<<link>>
+commentaries
+
+The McCain Veep Hoax (WSJ 7/24/08)
+Barack Obama may be grabbing headlines overseas, but John McCain's campaign
+knew exactly how to grab a few of its own this week. His staff apparently
+encouraged a report that the Arizona senator was on the verge of stealing a
+march on Mr. Obama by announcing the name of his vice presidential running
+mate. Columnist Robert Novak reported that Mitt Romney was the most likely
+front-runner.
+<<link>>
+al_political_diary
+
+McCain's confusion on Iraq (Chicago Tribune 7/24/08)
+Steve Chapman
+If there is any fixed position in John McCain's policy agenda, it's that we
+must never, ever, set a timetable for leaving Iraq. He regularly flogs
+Barack Obama for proposing to withdraw by the summer of 2010. So it was a
+surprise to hear him say Monday, when asked if our troops might depart in
+the next two years, "Oh, I think they could be largely withdrawn, as I've
+said."
+<<link>>,0,38
+29013.column
+
+The Oil Man Cometh (NYT 7/24/08)
+By TIMOTHY EGAN
+=2E..Republicans are furious at their longtime benefactor. Senator John McC
+ain
+is currently running an ad in which he directly blames Barack Obama for
+$4-a-gallon gas at the pump =97 as bogus a claim as anything yet made in
+2008. Then along comes [T. Boone] Pickens, Texas oilman and billionaire
+corporate raider, overwhelming the McCain attack with a saturation message
+that has the added value of being true, as Henry Kissinger once said about
+another matter.
+<<link>>
+
+Can Romney buy the VP nomination? (Boston Globe 7/24/08)
+By Todd Domke
+MITT ROMNEY is running for vice president. He recently decided he would not
+seek donations to repay the $45 million in personal loans he made to his
+failed presidential campaign so he could instead concentrate on raising
+millions for John McCain.
+<<link>>
+4/can_romney_buy_the_vp_nomination/
+
+BUSH NEWS
+Housing flip puts Bush in GOP doghouse (Politico 7/24/08)
+By: David Rogers
+Massive mortgage rescue bill advances in Congress, creates tension between
+president and House GOP.
+<<link>>
+
+Bush Drops Opposition To Housing Rescue Bill (NPR 7/23/08)
+President Bush on Wednesday reversed his stance and moved to back a
+congressional plan to help Fannie Mae and Freddie Mac weather the mortgage
+crisis and to provide struggling homeowners with more affordable loans.
+<<link>>
+
+Foreign policy U-turn (USA Today 7/24/08)
+Lame-duck presidents traditionally turn to foreign policy as power ebbs fro
+m
+them at home, and George W. Bush is no exception. What's remarkable about
+the Bush administration's final year, however, is how different it is from
+its earlier ones.
+<<link>>#more
+
+Obama finds unlikely ally in Bush (The National 7/24/08)
+Erika Niedowski
+As he traverses the globe on a trip designed to promote his foreign policy
+proficiency, Barack Obama has a new, and unlikely, ally: George W Bush.
+<<link>>
+ile=3D1014
+
+Bush popular =97  on lawmakers' walls (Politico 7/24/08)
+By: Daniel domain.com
+For 27 senators, displaying a Bush photo is like a blue domain.com - not exactly
+stylish, but always in style.
+<<link>>
+
+Duke Cunningham asks Bush for clemency. (ThinkProgress 7/23/08)
+Last weekend, the New York Times reported that "[f]elons are asking
+President Bush for pardons and commutations at historic levels as he nears
+his final months in office, a time when many other presidents have granted 
+a
+flurry of clemency requests." The AP reports that former Rep. Randy "Duke"
+Cunningham (R-CA) is now among the applicants:
+<<link>>
+
+OTHER TOP NEWS
+Pentagon says Afghanistan needs troops (USA Today 7/24/08)
+By Tom Vanden Brook
+Pentagon planners are recommending dispatching hundreds of support troops t
+o
+Afghanistan before bad weather hinders fighting in the fall.
+<<link>>
+
+Fannie-Freddie aid clears first vote (USA Today 7/24/08)
+By Sue Kirchhoff
+WASHINGTON =97 The House on Wednesday approved compromise legislation to sh
+ore
+up mortgage giants Fannie Mae and Freddie Mac while helping hundreds of
+thousands of homeowners refinance into more affordable loans.
+<<link>>
+*See NYT's "House Approves Sweeping Effort to Help Housing":*
+<<link>>
+
+Housing Bill Will Extend Federal Role In Markets (WSJ 7/24/08)
+By DAMIAN PALETTA and JAMES R. HAGERTY; Page A1
+A sprawling bill that reaches deep into the U.S. housing industry is close
+to becoming law, in what will likely stand as the federal government's most
+expansive effort to stabilize the mortgage and financial markets.
+<<link>>
+news
+
+Ford Posts $8.7 Billion Loss on Write-Downs (NYT 7/
+By NICK BUNKLEY
+The Ford Motor Company said Thursday that it lost $8.7 billion in the secon
+d
+quarter as it wrote-off $8 billion in assets and as sales of its most
+profitable vehicles plunged.
+<<link>>
+
+Levees hold but waters rise as Dolly brings rain (AP 7/24/08)
+Hurricane Dolly slammed ashore and then loitered over deep south Texas as a
+tropical storm, dumping as much as a foot of rain in places and ripping
+roofs off buildings with 100 mph winds.
+<<link>>
+
+Interrogator Testifies About Hamdan's Work With Bin Laden (Washington Post
+7/24/08)
+By Jerry Markon; A16
+Osama bin Laden's driver witnessed the al-Qaeda leader being briefed on the
+day of the Sept. 11, 2001, attacks and overheard him express satisfaction
+that the death toll had exceeded expectations, an FBI interrogator testifie
+d
+Wednesday.
+<<link>>
+2430.html?hpid=3Dmoreheadlines
+
+Republican National Committee airs anti-Obama ads (AP 7/23/08)
+John McCain can be a Berliner, too. The Republican National Committee
+decided to have a little fun with Barack Obama's widely anticipated speech
+Thursday at Berlin's Victory Column. It is airing anti-Obama ads in Berlin'
+s
+namesakes in Pennsylvania, Wisconsin and New Hampshire.
+<<link>>
+htm
+*Link to audio of radio ad: *<<link>>
+
+Obama Bets $5 Million on Olympic Viewers (NYT blog 7/23/08)
+By Brian Stelter
+Senator Barack Obama's campaign will spend $5 million on advertisements
+during NBC's coverage of the Summer Olympic Games next month, an NBC
+spokeswoman confirmed on Wednesday.
+<<link>>
+ic-viewers/
+
+GOP losing the new-media war (Politico 7/24/08)
+By: Jonathan Martin
+The absence of any websites on the right devoted to reporting-as opposed to
+just commenting on the news-is proving politically costly to Republicans.
+<<link>>
+
+Kagan: 'The only way' to 'force' Iran to halt its nuclear program is an
+'attack.' (ThinkProgress 7/23/08)
+Appearing on MSNBC this afternoon, Iraq surge architect Fred Kagan
+criticized direct talks with Iran and made his case for attacking Iran,
+claiming it is the only means to "force" the country to halt its nuclear
+program:
+<<link>>
+t-nuclear-program-is-an-attack/
+
+POLLS
+Teasing the new NBC/WSJ poll (MSNBC 7/23/08)
+By Mark Murray
+Here's one result from the new NBC News/Wall Street Journal poll ... With
+the news that Iraq's prime minister wants the US to set a timetable for
+withdrawal, 60% of registered voters believe it's a good idea for the US to
+set such a timetable, while 30% say it's a bad idea.
+<<link>>
+
+NBC/WSJ Poll: Obama keeps lead over McCain (MSNBC 7/23/08)
+By Mark Murray
+A majority of Americans think Barack Obama is a riskier choice for the
+presidency, but he maintains a six-point lead over Republican John McCain,
+according to the latest NBC News/Wall Street Journal poll.
+<<link>>
+
+Obama in Israel (Washington Post blog 7/23/08)
+Barack Obama has a large, nearly 2 to 1 lead over John McCain among Jewish
+voters, according to the latest Gallup data. Obama's 60 to 33 percent
+advantage in polls conducted before his high-profile overseas trip is close
+to the average domain.com among Jewish voters in domain.com polls going back to 1972
+(65 to 32 percent), but if McCain gets a third of these voters on Election
+Day, he will do better than any GOP candidate has since 1988.
+<<link>>
+tml
+
+--
+Sara DuBois
+Deputy Director of Tracking & Media Monitoring
+Progressive Accountability Office
+user@domain.com
+202-609-7681 (office)
+410-967-7306 (cell)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

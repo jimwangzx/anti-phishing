@@ -1,0 +1,214 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp571286lfr;
+        Thu, 9 Jul 2015 07:39:29 -0700 (PDT)
+X-Received: by 10.55.51.12 with SMTP id z12mr24614690qkz.92.1436452769115;
+        Thu, 09 Jul 2015 07:39:29 -0700 (PDT)
+Return-Path: <hrcrapid+user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::247])
+        by domain.com with ESMTPS id g124si4828186qhc.60.2015.07.09.07.39.28
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 09 Jul 2015 07:39:29 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of hrcrapid+user@domain.com designates 2607:f8b0:400d:c04::247 as permitted sender) client-ip=2607:f8b0:400d:c04::247;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of hrcrapid+user@domain.com designates 2607:f8b0:400d:c04::247 as permitted sender) smtp.mail=hrcrapid+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qg0-domain.com with SMTP id b104sf44159581qga.2
+        for <user@domain.com>; Thu, 09 Jul 2015 07:39:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:From: Melissa Cantrell <mcantrell@hillaryclinton.com>
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-subscribe:list-unsubscribe;
+        bh=ezLc9KKNcfqNac6I8x2PWrgB3u7m9KxCx9lZTM6aWn0=;
+        b=HSDUkUyb389qxVEky+oTgrTPtZSz17pXmxNioGGLrJUc10IBnImhbNe7Kt0osbkXmb
+         OiXy3OJwVOYAeaSmW3YGvi2r3+CO8LZ7P5W1uOzta2UgG/cnPtrRwKgOaB3r/4FJiqcn
+         382iKiy0IhkOZNz/JITWHcrsYB9Mct7RFjNZ8
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:From: Melissa Cantrell <mcantrell@hillaryclinton.com>
+         :to:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-subscribe:list-unsubscribe;
+        bh=ezLc9KKNcfqNac6I8x2PWrgB3u7m9KxCx9lZTM6aWn0=;
+        b=Aukx/FMSPE2kbxL+CjjqaTy8gXR1b9EoLt3ZlC/Zill3Ibx8wNnbYmCYVUubAXqJE2
+         7lurtTW1MdQK0oCg2ytA0ZASqufr9T/VOCUoeTuaHbU30EsMUcrQj75q+BVXpWJ5PzsO
+         i13LNvAJEq0miX+4CdhcXLFj0Rk7RPE2cITlwxsP4cmCeaJI4lchK5BTz2CcD5vzEg8O
+         tyxoBtX81aAr2YEndHMDixIOkv9wE8UO8+32ZewS6zdVcVwoSF8mlwENtI7RSgYzUHNx
+         2j44okM8P3vEm2ZCxiQNY3+JGIktwyraQAMqAbezgoQAFDLITaUFmrBH0eP1NG3PAlKI
+         JP/Q
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQndqcDAeKr11O3H//apgABq8oo5u0B8dOWoVF60QDy2kWRtZsT2FqxkBc3pG+8fu7y0hOO6
+X-Received: by 10.129.103.70 with SMTP id b67mr21663158ywc.9.1436452768515;
+        Thu, 09 Jul 2015 07:39:28 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.107.169.6 with SMTP id s6ls3013479ioe.35.gmail; Thu, 09 Jul
+ 2015 07:39:28 -0700 (PDT)
+X-Received: by 10.50.79.230 with SMTP id m6mr27487139igx.46.1436452768174;
+        Thu, 09 Jul 2015 07:39:28 -0700 (PDT)
+Received: from mail-ie0-domain.com (mail-ie0-domain.com. [2607:f8b0:4001:c03::230])
+        by domain.com with ESMTPS id a17si5833942igm.8.2015.07.09.07.39.28
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 09 Jul 2015 07:39:28 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c03::230 as permitted sender) client-ip=2607:f8b0:4001:c03::230;
+Received: by iebmu5 with SMTP id mu5so177435342ieb.1
+        for <user@domain.com>; Thu, 09 Jul 2015 07:39:28 -0700 (PDT)
+X-Received: by 10.107.170.77 with SMTP id t74mr76267ioe.107.1436452767993;
+ Thu, 09 Jul 2015 07:39:27 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.107.16.106 with HTTP; Thu, 9 Jul 2015 07:39:08 -0700 (PDT)
+From: Melissa Cantrell <mcantrell@hillaryclinton.com>
+Date: Thu, 9 Jul 2015 10:39:08 -0400
+Message-ID: <CAGTda=BiPBKv8w5m+Bs4sxUqz4z=6JMqo9dAAXTd8X3aM_g+2user@domain.com>
+Subject: July 8 Evening Cable News Roundup
+To: HRC Rapid <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Julie McClain <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Meredith Thatcher <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11427d68f931ef051a72382f
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:4001:c03::230 as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact HRCRapid+user@domain.com
+List-ID: <HRCRapid.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 301712100758
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:HRCRapid+user@domain.com>
+List-Archive: <<<link>>>
+List-Subscribe: <<<link>>>,
+ <mailto:HRCRapid+user@domain.com>
+List-Unsubscribe: <mailto:googlegroups-manage+301712100758+user@domain.com>,
+ <<<link>>>
+
+*National:*
+
+--Report on HRC giving first national interview. Hannity shows clip of HRC
+saying that when you are subjected to the kind of constant barrage of
+attacks that are largely coming from the right people will question
+trustworthiness. In a clip shown she mentions this theme being used against
+the Clintons for years and that the American voter will weigh the evidence.
+Says that people should and do trust her. Carly Fiorina joins the show to
+comment on HRC=E2=80=99s interview. Hannity quotes Carl Bernstein saying HR
+C has,
+=E2=80=9Ca difficult relationship with the truth,=E2=80=9D and Fiorina resp
+onds that HRC
+did not accept accountability or answer any questions during the interview.
+ She
+says that HRC has lived in her own bubble for too long and just wants
+people to trust her. Hannity says that items were subpoenaed and HRC waited
+years to turn them over. Fiorina responds that the polls indicate that
+people don=E2=80=99t trust her. Mentions that HRC was not asked about her r
+ecord as
+secretary of state including the reset button with Putin and calling Assad
+a positive reformer. Hannity says HRC dismisses the idea of the Clinton
+Foundation taking money from countries with horrible human rights records.
+Fiorina says HRC wants to run as the first woman candidate but she took
+human rights and women=E2=80=99s rights off the table as secretary of state
+. Fox
+News Hannity
+<<<link>>
+-9851-62804eabc88e>.
+2015 07 08, Hillary Clinton, Commentary, National, HRC first national
+interview commentary with Fiorina.mp4
+
+--Commentary on HRC giving her first national interview. Megyn Kelly says
+fact checkers issued their report on statements HRC made including her
+saying she has never gotten a subpoena. Congressman Gowdy who sent her one
+says otherwise. Shows clip of HRC saying she never received a subpoena in
+the interview. Next shows clip of Rep. Gowdy saying HRC had a failure of
+memory and that she received on in March. Katy Pavlich joins to comment and
+says that HRC was subpoenaed on March 4, 2015 and notes that her lawyer
+acknowledged that the subpoena was received. Pavlich says that HRC=E2=80=99
+s
+understanding of the question was that she was not under subpoena at the
+time that she was deleting emails. Megyn Kelly then points to HRC saying
+that everything she did was under regulation. Pavlich says that in 2015 the
+law changed saying that she is required to turn over all government emails
+which HRC says she has done but Pavlich says there is no way to prove that.
+Megyn Kelly says that in 2011, HRC told state dept. employees not to use
+personal emails. Kelly then points to HRC said she went above and beyond
+turning over emails. Pavlich says that HRC is trying to make the case to
+American people that HRC was doing everyone a favor as if it wasn=E2=80=99t
+ a
+requirement. Kelly points to Jason Baron=E2=80=99s statement that HRC was r
+equired
+to turn over all State-business related emails and that she did not go
+above and beyond. Kelly finally points to the fact that all official
+business was already in the State Department server. Pavlich says that a
+lot of HRC=E2=80=99s top aids were also using personal email accounts. The 
+Kelly
+File
+<<<link>>
+-b2ec-3b905fed3c20>.
+2015 07 08, Hillary Clinton, Commentary, National, HRC first national
+interview commentary with Pavlich.mp4
+
+--Commentary on HRC giving her first national interview. Lisa Kennedy shows
+clip of HRC saying people should and do trust her and that she cannot
+decided what the attacks will be, no matter how unfounded. Kennedy says
+that HRC never says anything of substance and that she uses polling data
+instead of real evidence. Panelist says HRC is going to ride the victim
+train to the White House, citing examples of Benghazi and Monica Lewinski,
+which panelist calls, =E2=80=9Ca vast right wing conspiracy.=E2=80=9D Kenne
+dy says this was
+the only strategy that works for HRC. Panelist says they cut out the part
+of the interview where HRC said she was going to be attacked, most likely
+by a Hispanic male. Kennedy says that she can=E2=80=99t believe that was sa
+id on
+national TV and that HRC is her own worst enemy. HRC says illogical things,
+according to Kennedy, but somehow people still vote for her. Kennedy on Fox
+Business Network
+<<<link>>
+-b594-afb0aa4e6bcc>
+.
+2015 07 08, Hillary Clinton, Commentary, National, HRC first national
+interview commentary.mp4
+
+--Bill O=E2=80=99Reilly talks about immigration issues. Says that HRC wants
+ a
+policy where people are reportedly deported. Shows a clip of HRC saying San
+Francisco was a case where we have deported many times and the city made a
+mistake not to deport someone who the federal government strongly felt
+should be deported. O=E2=80=99Reilly says that HRC made a mistake and no ci
+ty can
+deport anyone, that is the job of the federal government and the Democratic
+Party has been very soft on border security and holding sanctuary cities
+accountable. Says that they will not change because they want Latino votes.
+ The
+O=E2=80=99Reilly Factor
+<<<link>>
+-9631-8d10dbed5ce0>.
+2015 07 08, Hillary Clinton, Commentary, National, Commentary on HRC=E2=80
+=99s
+stance on immigration.mp4
+
+--Bill O=E2=80=99Reilly comments on HRC=E2=80=99s record on immigration. Sh
+ows clip of his
+2008 interview with HRC in South Bend when he brought up the issue of
+sanctuary cities. In clip, HRC says that she will not crack down on
+sanctuary cities because they ensure that people report crimes. Martha
+MacCallum joins the show to analyze the interview segment. O=E2=80=99Reilly
+ says
+that there was another murder by an illegal immigrant in LA around the time
+of that interview. MacCallum says that there has been little progress since
+then. O=E2=80=99Reilly says that HRC still would not crack down of immigrat
+ion.
+MacCallum says that in HRC=E2=80=99s CNN interview, she said that she belie
+ves this
+case is a big deal. O=E2=80=99Reilly says that HRC would do nothing to the 
+people
+in San Francisco who do not uphold the law. The O=E2=80=99Reilly Factor
+<<<link>>
+-a2da-d30b5b63be79>.
+2015 07 08,Hillary Clinton,Commentary,National,Commentary on HRC=E2=80=99s
+long-term immigration stance.mp4

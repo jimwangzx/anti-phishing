@@ -1,0 +1,75 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Wed, 21 May 2015 20:04:08 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4M347IM014425	for <user@domain.com>; Thu, 22 May 2015 
+ 03:04:08 GMT
+Received: from mail61-ch1-domain.com (mail-domain.com
+ [216.32.181.174])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s4M35m8H016285
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 22 May 2015 03:05:49 GMT
+Received: from mail61-ch1 (localhost [127.0.0.1])	by mail61-ch1-domain.com
+ (Postfix) with ESMTP id 41CAD2004D7	for <user@domain.com>; Thu, 22
+ May 2015 03:04:07 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:74.63.194.124;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 10
+X-BigFish: vps10(zzdd29he0eahc857hef7Izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h2233kzz8275ch1de098h1def03h177df4h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h1954cbh1b778fh1ce120h1ce121i40e09iz2fh5fh839h93fhd24he5bh1288h12a5h12bdh137ah13eah1441h1504h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h282bh740i2188m)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail61-ch1: domain of email.ericgarcetti.com designates 74.63.194.124 as permitted sender) client-ip=74.63.194.124; envelope-from=bounces+243373-user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail61-ch1 (localhost.localdomain [127.0.0.1]) by mail61-ch1
+ (MessageSwitch) id 1400727845552119_14873; Thu, 22 May 2015 03:04:05 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.237])	by mail61-domain.com (Postfix) with ESMTP id 8230426021F
+	for <user@domain.com>; Thu, 22 May 2015 03:04:05 +0000 (UTC)
+Received: from domain.com (74.63.194.124) by
+ domain.com (10.43.70.18) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 22 May 2015 03:04:05 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=ericgarcetti.com; 
+	h=From: Eric Garcetti <info@ericgarcetti.com>
+	s=smtpapi; bh=+1xJGfdG12N4275u87B5+9Tn+8k=; b=afqKPDFpGGXP9/XC/q
+	hPr89Ft+QkjQheU4xsThfaX0QzeO3z9EbKcNSBJ6ewShks7s3j7GFqe/uLVo0sCL
+	xkW697gqwT/TbwHOYvmVWttlynEPYGwS1cUnxsuPdk20JPh0UhWX7B9aLCqFeXOi
+	24oZbHod7O0F8iyXxUfAPFUS8
+Received: by domain.com with SMTP id mf274.14604.537D69222        Thu,
+ 22 May 2015 03:04:02 +0000 (UTC)
+Received: from domain.com (535.domain.com [75.127.82.2])	by
+ ismtpd-028 (SG) with ESMTP id 14621e2ad1d.74e7.88fea	for
+ <user@domain.com>; Thu, 22 May 2015 03:04:02 +0000 (GMT)
+Date: Thu, 22 May 2015 03:04:01 +0000
+From: Eric Garcetti <info@ericgarcetti.com>
+To: Amy Pascal <user@domain.com>
+Message-ID: <537user@domain.com>
+Subject: A Lot Can Happen in One Year
+X-SG-EID: crjdrkBCnHFBAoM6m/Gp9m3skGmMR9d/9Wh2P3ndSBfCRj9Z+MTcNBA/33akh2hlkHsx0e3eh72dmMIRHJUYV8fpDA87A56oNeuZ9tj8xgEIFPvY3zbXa1zgVnNGLK4gspQO0QbVmw7T0SLV5LEWykii58X30jG/JI7qGKDETq8
+X-SG-ID: SolyLoj4M+6t0KZQOavh+P+i4WFragIBrc+aLJwtf2eRs+R5NNFsOMlzZVlNCP41lnaleLBVFueYN/odWFHI4v79BTsdng59lrnx8/L34PfySk6BIBnSmOPYmipcRCt7+yMqQ5OCL5dobFWVf6HALGuQNhehBVVZ3NZn3ZnAiTg
+Return-Path: 
+ bounces+243373-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A Lot Can Happen in One Year
+
+ <<link>>      
+
+Amy --
+
+At this time one year ago today, the polls closed and the voters entrusted me with the honor of serving as Mayor. I promised to get City Hall back to basics, focus on making our neighborhoods prosperous, safer, and more livable, and make our city the best run city in the nation. And I'm proud that with your help, we are changing L.A.
+
+I've just returned from Washington DC, where earlier today I joined with the Secretary of Transportation and Senator Boxer to secure $2.1 billion to extend the Purple Line into the Westside. It's something that will create thousands of jobs, cut traffic and reduce pollution, and it's just one of the ways we're advancing our back to basics agenda.
+
+I also just received news that City Council has passed my first budget as mayor. It's a balanced budget that restores city services and focuses spending on back to basics priorities. You can view the budget for yourself with easy-to-use visualization tools that show spending levels from department to program here.
+
+We've made city government more responsive by opening the first-ever help desk at City Hall, followed by similar one-stop help desks in Van Nuys and South L.A. I'm continuing to walk door-to-door and hold open office hours to hear directly from the people I serve. And you can get service anytime, anywhere online. If you haven't already, follow me at @ericgarcetti and @LAMayorsOffice or on Facebook here. You can ping any of those accounts with a question or service request and we'll get on it right away.
+
+We're making our city safer with new technology to reduce emergency response times and investing in summer programs to give hundreds of thousands of kids safe places to go and stay on track when school is out. Our new Summer of Success initiative has doubled the number of summer jobs for youth and includes job skills training.
+
+We're being smarter about fixing our streets -- our Neighborhood Blitz initiative has already hit every L.A. neighborhood once this year and we're in the middle of our second cycle of repairs that are identified by working with local stakeholders and Neighborhood Councils, who know better than anyone what the priorities should be.
+
+On Friday, we will open the new lane on the 405 months early because our office got personally involved to solve problems that cause delays.
+
+I promised to reform DWP, and today we
+

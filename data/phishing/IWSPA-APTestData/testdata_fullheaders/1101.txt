@@ -1,0 +1,87 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp2077197lfb;
+        Tue, 24 Nov 2015 10:26:37 -0800 (PST)
+X-Received: by 10.13.251.2 with SMTP id l2mr29575387ywf.44.1448389597417;
+        Tue, 24 Nov 2015 10:26:37 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail2997.e.leahyforvermont.com (mail2997.e.leahyforvermont.com. [208.85.51.243])
+        by domain.com with ESMTP id f3si11909827ywb.351.2015.11.24.10.26.37
+        for <user@domain.com>;
+        Tue, 24 Nov 2015 10:26:37 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.85.51.243 as permitted sender) client-ip=208.85.51.243;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 208.85.51.243 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=spop1024; d=leahyforvermont.com;
+ h=Date:From: Patrick Leahy <info@leahyforvermont.com>
+ bh=78pqh4T4Sgnvl5mdB7bPgCuRuD4=;
+ b=Q3uhbapx7zfj3hLjGqXXhCm+rq0UfY3JfnQgIWr0s8SJDZBYAi1oatSIy2bJQeRBpPc70TCwI5Nu
+   g33gW5s3MkaW9PcwM9ljIFOsn8UcYe7MaKmdDgdHULnmXOhiItSAn1VwcWKR2i5EWBzD0XFwb8Hs
+   mOERlGNoJQ5NMUFxlFo
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=spop1024; d=leahyforvermont.com;
+ b=DnoXEjNOmeM2OR74NofaFhQAsDePj4/xK92WRWiZ0/m//+A2l3CyG1XqDsTjfFdlH8UT2rpy+pNk
+   cOM9QDr9SQYP24CQB9TYHbnKbcZ3BpqTxFO3v/XQ+KGEed13rNqnmyrvPL4TY32HFcIi6/ZTw50H
+   7xatCE0aV0Vt6r/VUvc=;
+Received: by mail2997.e.leahyforvermont.com id hailtq19if4a for <user@domain.com>; Tue, 24 Nov 2015 18:26:17 +0000 (envelope-from <user@domain.com>)
+Date: Tue, 24 Nov 2015 18:26:17 +0000 (GMT)
+From: Patrick Leahy <info@leahyforvermont.com>
+Reply-To: user@domain.com
+To: user@domain.com
+Message-ID: <859432252.2002926221448389577454.user@domain.com>
+Subject: Before the feast
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_888300_976704617.1448389564818"
+x-mid: 8286028
+x-job: 8286028
+Feedback-ID: pod2_24128_8286028_802362885:pod2_24128:ibmsilverpop
+x-rpcampaign: sp8286028
+x-orgId: 24128
+List-Unsubscribe: <mailto:user@domain.com?subject=Unsubscribe>
+
+Thank a farmer by buying locally today.
+
+John,                                 
+
+Like you, Marcelle and I have so much to be thankful for this Thanksgiving -- our family, our friends, our country, our freedom, and much more. But we also want to take a moment to thank those who put food on our tables: local farmers. 
+
+Many farmers have just finished a busy season. I want to recognize the love, care, and commitment that they give to our communities -- and there is no better way to thank a local farmer than to buy local!
+
+Marcelle and I make a point of supporting our local farmers in Vermont. So before sitting down to your Thanksgiving meal with a house full of friends and family, I hope you'll consider doing the same near you. 
+
+Will you join Marcelle and me in thanking farmers by pledging to buy part of your Thanksgiving meal locally? 
+
+ <<link>> 
+
+I have supported the local and organic food movement throughout my time in public service. Last week, I was honored to receive a perfect score from the Food Policy Network to recognize my dedication to food and agriculture policy. One of my proudest accomplishments in the Senate is when I authored the original standards for organic food that became law as part of the 1990 Farm Bill. Those standards set the framework that was instrumental in creating the now $39 billion organic foods industry.
+
+Our food policy is an important topic that has a tremendous impact on local communities. I will continue to fight for organic standards and local agriculture in the Senate, just as local farmers across this country will continue their commitment to our communities. 
+
+I hope you'll join Marcelle and me in supporting your local farmers this week, and every week.
+
+Please, join us by pledging to buy at least part of your Thanksgiving meal locally.
+
+ <<link>> 
+
+Thank you. Marcelle and I wish you and your family a very happy Thanksgiving!
+
+Sincerely,
+
+Patrick Leahy
+U.S. Senator
+
+P.S. This Thanksgiving, let's also remember our friends and neighbors who may not have food to put on their tables. After signing our pledge to buy locally, we hope you'll also consider making a donation to your local food bank. We'll direct you to a link once you've taken the pledge.
+
+Take the pledge: <<link>> 
+
+
+
+This email was sent to user@domain.com Click here to unsubscribe <<link>>                                 
+
+Contributions or gifts to Leahy for Senate are not tax deductible.
+Paid for by Leahy for Senate
+All content (c) 2015 Leahy for Senate, All Rights Reserved                                 
+
+Privacy Policy <<link>> 
+
+

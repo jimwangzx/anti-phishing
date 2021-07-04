@@ -1,0 +1,111 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp271641lfb;
+        Mon, 1 Feb 2015 12:24:20 -0800 (PST)
+X-Received: by 10.60.131.147 with SMTP id om19mr19315851oeb.82.1454358260160;
+        Mon, 01 Feb 2015 12:24:20 -0800 (PST)
+Return-Path: <>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.64])
+        by domain.com with ESMTPS id t3si24193236obf.0.2016.02.01.12.24.19
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 01 Feb 2015 12:24:20 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.55.169.64 as permitted sender) client-ip=65.55.169.64;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 65.55.169.64 as permitted sender) smtp.mailfrom
+Received: from domain.com (10.162.96.20) by
+ domain.com (10.141.157.148) with Microsoft SMTP
+ Server (TLS) id 15.1.396.15; Mon, 1 Feb 2015 20:24:18 +0000
+Received: from BN1BFFO11FD014.protection.gbl (2a01:111:f400:7c10::1:115) by
+ domain.com (2a01:111:e400:5173::20) with Microsoft
+ SMTP Server (TLS) id 15.1.396.15 via Frontend Transport; Mon, 1 Feb 2015 
+ 20:24:18 +0000
+Authentication-Results: spf=none (sender IP is 141.161.191.74)
+ smtp.helo=domain.com; domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none
+ header.from=domain.com;
+Received-SPF: None (domain.com: domain.com does not
+ designate permitted sender hosts)
+Received: from domain.com (141.161.191.74) by
+ domain.com (10.58.144.77) with Microsoft SMTP
+ Server (TLS) id 15.1.409.7 via Frontend Transport; Mon, 1 Feb 2015 20:24:17
+ +0000
+Received: from LAW-domain.com ([169.254.1.174]) by
+ LAW-domain.com ([141.161.191.74]) with mapi id 14.03.0248.002;
+ Mon, 1 Feb 2015 15:24:01 -0500
+From: Georgetown Law Media Relations
+	<user@domain.com>
+To: Media Relations <user@domain.com>
+Subject: Ninth Annual GEMALaw Sports & Entertainment Law Symposium
+Thread-Topic: Ninth Annual GEMALaw Sports & Entertainment Law Symposium
+Thread-Index: AdFdLf2jCIDIF4OtQCWqJpuGtOSAhw
+Date: Mon, 1 Feb 2015 20:24:01 +0000
+Message-ID: <5user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.178.55]
+Content-Type: multipart/alternative;
+	boundary="_000_5CFB44D64A78CA459D19BE4B86C9F9E85F248CACLAWMBX01lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Return-Path: <>
+X-EOPAttributedMessage: 0
+X-Microsoft-Exchange-Diagnostics: 1;BN1BFFO11FD014;1:6g6yW0f3EdimlPNTozAClvZdKY1ea9oHeymAs3U/z/CnD1JMAy8ggeuvl2YFiM/tcyR4Bsgxxytos1BnV2xLmOWh9V+X21dDYNGLKPuvhs7GwRb3xxxCyrFLH+HUltEyaLPKELR21DHdXNvZOzp56y2fK3pAKiCuQ2Oo6KGxPyQSmjer7vZ278T9oJ+QbYc52RB+2r7o52y/V/712Fdb0cb5nzbHfK2ZDsvc3ARc4VNTlj2s2nk9hxKwsvd0DASHIJoP1yPxekJoTbXbjvrOFJozqJVqRBI1u+FWpLlLTDw8stjji/lPo8XASJEhvxu/jWDh/0SHR5csWdZoTA8tDaKGTMv6C09a0un8cNogK+HTIyp+M+Vl+hF3Hgm0dNXeTI5h3uEewIjiVG5f25ZdPg
+X-Forefront-Antispam-Report: CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(979002)(2970300002)(428002)(149424002)(199003)(111735001)(189002)(33656002)(16236675004)(92566002)(450100001)(960300001)(55846006)(104016004)(512944002)(6806005)(5001960100002)(102836003)(3846002)(66066001)(107886002)(1220700001)(586003)(5004730100002)(110136002)(6116002)(5008740100001)(300700001)(11100500001)(78352003)(1096002)(88552002)(84326002)(89122001)(2900100001)(19617315012)(2930100002)(85806002)(2920100001)(42382002)(50986999)(5003600100002)(19580395003)(2906002)(101416001)(54356999)(15975445007)(5000100001)(106466001)(87936001)(2171001)(189998001)(105586002)(229853001)(4001450100002)(53652003)(969003)(989001)(999001)(1009001)(1019001);DIR:OUT;SFP:1101;SCL:1;SRVR:DM2PR07MB544;H:domain.com;FPR:;SPF:None;MLV:ovrnspm;A:0;MX:0;PTR:InfoDomainNonexistent;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;DM2PR07MB544;2:2qGsY8lf/fM7KatR1FmAKzDc0ZugvUjl73qa/NHnwSd/00qT7RT8d2F0RvkxnlHrBD/0vskcDSXeD1bqEAZ0UGxKDipcQn5phVasIP0DtMHaqAOzl6iHucXoXrnsZo5MSvEizt54oO0k4Tn4omCHRQ==;3:jsb/ZSYy8HVA7ekb0ANBcq+QCN838Qtg3G5+uKuo9B+lfIEDH6eO1bd2OF9Wr/sMqNzyaEg1+DEf3V0umSfDR4oAK7RUdBDq2TTzKPdIskh/WPHGVKWZ5ZaXSLfo61fn2vvN8Tb31QOu0mePofAqxF4p5YcG8kJhZC0ye4VcxcwMA+jf7f+nw3gm9E8Xui+Thj9mJ613cypPvJU/BMh++3YVZeddpQtnAVdzpOsrT7A=;25:X5e5j8U0obaFrHTxyv6CHiEvv09BE1EzBZTuypzsjbPf7l+lX041r/JlWxIkBk7TzSEx9AKD28pxu3QPbdZt/ZXbc7leX2go2vwmNniIupUsHpmw7+hE6y53QRq0LRF2brsWE+oMHmGcXHWzzn43wBTjpCAylzjATogOGFJUx7QPbRq2g3wUxXE5p5hSFSnpr/JMw+tvHbzI66ZqW1tB9cGtyfwLmFM4kTAzWOGRHXpCFWjcEQbXVRGrLyupLl//
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:DM2PR07MB544;
+X-MS-Office365-Filtering-Correlation-Id: 2b76442b-1fb3-49c0-69cb-08d32b45a92c
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr
+X-Microsoft-Exchange-Diagnostics: 1;DM2PR07MB544;20:HKs1+l0x6ZUB/o7vROdFCwfxYa0zgIYsSvmk9xc2F4WPj2yipLC1Ir/BKfy37Oy+b2AIHVRpuzKoV6JeWe6tchG7/JYhxqd4yQHYFCacT5k5OCipWfBekpxYWoQml9DbFQvUY5s82ZINT04X1Z5DNjNMuVMiNir5tHD14UcAW9Btz6bGRFELcl/dRuKoqXU4jse61LxFsxvy4BgXN77XMNtMrGPkL8zqweqYKhLtojqZEDUUakH7UpcppNOay3O+wOR1HeiqunilOMMo0BdB2S1nPPp/7KQj7ZJ0EfYnXEooWq2rC5+F9+ZrFKHeG/rc6k88XWzK9X74xN7Gdp/L9xbD4BoIjtmev6Hp0ODjtlLK2PZ6WJFXNoVm8DsfeBXlclL+RL1fkrohtzg+ULB2jNHaEMJvdGxQbCUf8K6DlTM=;4:Ru+EKhb3aUJisrCUd1hlfDQae+9cCOE9dL/6YsTj7ozXxKvClGDryuK8sK7XcIy0Sc+5/agpcMseuAVqMwvq3KQByovxvau0c/pZyvvK6mnG2nPGvWIL26a22NIorwCKmFgI6KP3FE+2dYD/jpY6MknsdnogqdIobCqq7NEaslt3iKUSA1WOh4l4EdXTTLgp0ZxpYHThk8R2HZ0dIDsWXD6w1hulb6o7bmUlGhMacYaY7Bu6Tudf41wortlcz/fM42foyMvjCQAZAFkBAYFxAKJI+whyh0vksmpNwtLJx4GmNuWhCQ957lDraIG9HhkoZRL1aZtGCZBmZWILWfhTm9n9XkNTQpY1czRT/2X+NVDFsUvt0i+ST7OYkNlZqkKvOoMIwqQmRcCnO5gTS2A0dE9h+iGoDuGN82EAV8FkrzZi1pgFiY9W8sRY0hdW31VTo60i8BL6OMMjBpZrujXeM399Gnk2zR/LOjtSPI3R0A0
+X-Microsoft-Antispam-PRVS: <user@domain.com>
+X-Exchange-Antispam-Report-Test: UriScan:(76009858676777)(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(13018025)(13016025)(8121501046)(10201501046)(3002001);SRVR:DM2PR07MB544;BCL:0;PCL:0;RULEID:;SRVR:DM2PR07MB544;
+X-Forefront-PRVS: 0839D067E7
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;DM2PR07MB544;23:Qj+DOLrP7mgyq3OkgZavzm8cRTi7+F7L9QlgNQ8DVk?
+ =?us-ascii?Q?rnOmyNb0H7BbUGCxOZzVgB8Ks8ZdMBX5sm5IDPPhHlgr/AORQ1jFC5ldnlnz?
+ =?us-ascii?Q?4k1YYIfcITFIOhRZZnki3RM1xO9MwcXgD3JPSPcU41zEg4S1gBhxEbwgmuKG?
+ =?us-ascii?Q?6CzltnDhBgbXYwFVYbWc70c5CXOs9mknOcNXdsyM+1c1IZdYwbHUQJDlRvXF?
+ =?us-ascii?Q?2ZQZ3+3PNXC33v0Nmrr3YqCizh/gyENa/Yk3sE8RD38AxeWmHv8R+Bbno1kA?
+ =?us-ascii?Q?mQCMu69f0cuJEsAAQbe4LLeEgC5NXbeMrlH3Vo2NdFAiweAi2MeqmovsTI/0?
+ =?us-ascii?Q?DohcpGiWPvtxD2hX8WymCEVeYWYEsfPW8lWdlDZIhOGmYM21ChTlIotxnXkI?
+ =?us-ascii?Q?ECszx7WwrD/7lQFvFKPctXdQw8SgCSxwTqaFJd0vp+E8mLAkrs74fVUur8M3?
+ =?us-ascii?Q?C8Lef+7ktFW5MEZby0fHU26UA70vqIxSQRa3X19U9TZrWwqAiyrB+LQsM2X0?
+ =?us-ascii?Q?McdyyitseJSqty6yrJ4m/fhTBVx6uJYK2FY/GDoz1XzEjNYPTY4/VBY/DKqQ?
+ =?us-ascii?Q?S//JKekpTEy/yC9UZBikTs4Q/lptDBfc1zFQuTBDSkNryQHb+Dd+BHD/G43I?
+ =?us-ascii?Q?fjhQUOO+gDl1kdH3ovdk0IhfvuorEBNy+ruWB+mwUCFMJyjv9yjoeRHsQzvL?
+ =?us-ascii?Q?2GiiPFVPTWVg5eqU9liOGVoFfqdxsOyYTkQTORMDULK4AG72YGsbJopuuM+9?
+ =?us-ascii?Q?r41aJHlLwYfgtLdaUooCk7CIbXT0SHl2J6bCaXzUMwMKiX3AFg1LvQTzvypJ?
+ =?us-ascii?Q?wl6AEARoQeDAcaZo/XXLLKHeu+gi0DP73tBkYGG0ro/rpiIyntAWBRBAHH5u?
+ =?us-ascii?Q?INBl77AprPljFcvRyhmBbwt7aUAgtHp1uP0fmyeh93oTKhJrDDbZ/oYNoC6e?
+ =?us-ascii?Q?OEZqMvYHJaJu09+3/PPRoA9FOms426aMmxpjJPCL9AN5XfrWBxYbwkFykkub?
+ =?us-ascii?Q?AR3BjtPaMDkMmt2iNhRhu3xuPvid3FE/8HhqBakuHtYAE0O2ZsbOzyxWEpLw?
+ =?us-ascii?Q?Ye+qAtTXMIBwhrseAsS60j3ZRLp9/0QOtAMb+62P4O5RdIEsxFv4M0Z/eYAr?
+ =?us-ascii?Q?MbDJ7zRo69Pd21pWaZEPZlLEZu9EWPjiPBCj6Poam5QynwLIT8FmO8s1CQ0R?
+ =?us-ascii?Q?2NHHGI6dkv4SmpplbAmNoA+3Gnp2NQn+6Ek4QPZvm0ZtupbIT5K8og7XLf1O?
+ =?us-ascii?Q?hT+ZNLp9K8fIHgpviCA2B+rXrEB+YPcCT1KCjcG+fAEnBnXl1e3C2dm/y7dj?
+ =?us-ascii?Q?WCKfzpQyFtWQw4x77uXjAdHrDkNw+yWFTGEXMp3AskhzlB1d12hdDyooJlUu?
+ =?us-ascii?Q?BTgHIPJGdD+JtVF6snx1Y0dCRj4Ycbr40uVzg5y2PC1Xl8Hb6JpvqTppF36x?
+ =?us-ascii?Q?QsK9Y3L5C0oBIijS+VA60Bkgwpvc1QrxjxwMpum9g+R0oaZ3NcRTDtz44s8X?
+ =?us-ascii?Q?y3hEuvUAjk4BUwXSeT6WSUEJ3QyfZsdLRu4G3JFTRlB9Fm6EeXd26l?
+X-Microsoft-Exchange-Diagnostics: 1;DM2PR07MB544;5:z3JSPzjxUttdBWCZtg2DINhiot3dNRKJ/SN/irRc2/CzZpkkgLdog0sYpcp2b01dZjU3x8B0Z8leAAEMsM9gOAZsC3eJNkTmbj6LNOFnV3VVW9m73+P7JsBssUWD4LL3pt2kZ0LZK9DtNJfk6IjJoQ==;24:pA8s3eEw+kMJcJ7zMgYRXu74JUa9OOCPPKxDlfmblk5rXQ5Sr8IrFNuzdgnWDZMIFMxIhNkv2k9fnI/qDjkbI5eUoQzWUKBApb3MhWRM/p8
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Feb 2015 20:24:17.6781
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM2PR07MB544
+
+Georgetown Law hosts the Ninth Annual GEMALaw Sports & Entertainment Law Sy
+mposium, "Addressing the Intersection of Technology, Media and Entertainmen
+t," on Friday, February 5th.
+
+GEMALaw's annual Alumni Achievement Award will be presented to Steven Fabri
+zio (B=9285, L=9288), Senior Executive Vice President and Global General Co
+unsel of the Motion Picture Association of America.
+
+More information is available here.<<<link>>
+s-releases/ninth-annual-gemalaw-sports-entertainment-law-symposium.cfm>

@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp785941lfi;
+        Sat, 18 Apr 2015 16:31:19 -0700 (PDT)
+X-Received: by 10.194.20.67 with SMTP id l3mr17784711wje.94.1429399879720;
+        Sat, 18 Apr 2015 16:31:19 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-wg0-domain.com (mail-wg0-domain.com. [74.125.82.54])
+        by domain.com with ESMTPS id el1si9325809wib.120.2015.04.18.16.31.19
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 18 Apr 2015 16:31:19 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.82.54 as permitted sender) client-ip=74.125.82.54;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 74.125.82.54 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wg0-domain.com with SMTP id o17so145337606wgs.1
+        for <user@domain.com>; Sat, 18 Apr 2015 16:31:19 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=bKBL7nfrlaf3uWHG8CwZedKuc2iNUs2WZHsEU9J4zyQ=;
+        b=ao1VC6UEnSbhJEXwLBd3CPMer519bFUNOBg7aTBqtKuqny2AyZGX6My61Ra/SWjaWI
+         k13EXgnYGP5qgbnv1KACYZElT90DNXVrSJvttJ2am+RSRg7RUYGd4ZZLu/3IxcogvB5T
+         b9waHoMwA/emUF/1sph0l5p4c1aycl+KWzu3Wnjz6KYmOupIExHCdE8MkBDH4HMOgZc7
+         IEVVmRksTgC4h3MN95xwflo/lG/YA39+7cc3gUf40eSKQTHpFStCMD+tYdIqoUI0cBmu
+         Y32IVRSvihPZZAmqcilFB0jhH9wXwJbMwtXcGgHK+1T0qPBHpkciKym4IXO+9spGB0fj
+         XeHw
+X-Gm-Message-State: ALoCoQnrUcw751uPwbXKJAxFK85OONIHeF+wvCkvAOPmpusgJig2HIlpjYFJ91n9o7gIGG0EcHMf
+X-Received: by 10.180.186.99 with SMTP id fj3mr10683287wic.10.1429399879497;
+ Sat, 18 Apr 2015 16:31:19 -0700 (PDT)
+From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CANqZgL8KuTi6fCYTQoOmC+m0ANny-FDWRdn3jJVb0A+user@domain.com>
+ <user@domain.com>
+ <-1991184271505076972@unknownmsgid> <-8052360975562364360@unknownmsgid> <CANu9wN62cnFJoJj6j_avoS9FWLAptztM7VRNQ9ioq+7user@domain.com>
+In-Reply-To: <CANu9wN62cnFJoJj6j_avoS9FWLAptztM7VRNQ9ioq+7user@domain.com>
+Date: Sat, 18 Apr 2015 19:31:19 -0400
+Message-ID: <1815219507933453843@unknownmsgid>
+Subject: Re: ABC This Week
+To: Adrienne Elrod <user@domain.com>
+CC: Karen Finney <user@domain.com>, 
+ John user <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ hrcrapid <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c2677c0f4f1e05140818c4
+
+Great, thank you
+
+Sent from my iPhone
+
+On Apr 18, 2015, at 5:09 PM, Adrienne Elrod <user@domain.com>

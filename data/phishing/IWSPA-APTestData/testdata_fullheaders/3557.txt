@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp3386411lfr;
+        Wed, 26 Aug 2015 08:47:49 -0700 (PDT)
+X-Received: by 10.140.235.143 with SMTP id g137mr82889041qhc.102.1440604069007;
+        Wed, 26 Aug 2015 08:47:49 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from vmta006.mail.paperlesspost.com (vmta006.mail.paperlesspost.com. [66.117.40.86])
+        by domain.com with ESMTP id r24si13424241qkl.35.2015.08.26.08.47.48
+        for <user@domain.com>;
+        Wed, 26 Aug 2015 08:47:48 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.117.40.86 as permitted sender) client-ip=66.117.40.86;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 66.117.40.86 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=key1; d=paperlesspost.com;
+ h=To:From: Tom Nides <paperlesspost@paperlesspost.com>
+ bh=WGIZu0ohvL32ZI6ltV4WC6tr0JY=;
+ b=bscZ8KX5OnxBzcMewsZ08/Y00xHo9hwS9IvhFK1YouYH1GnLDO0Nwx3MZYHu04D6/HTwwzXkJVq6
+   ZseX7rtdeug3p8RvwhMHlW3j7nc4fAwmKD7Q1KlqG+L8b5tYoL/tpuSGYR/z+B70m/gizj7JQaBL
+   OYm4JaLlynM5hn3ZWos
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=key1; d=paperlesspost.com;
+ b=F9IrwtMmo9jT5NHQRGNAOpSfSP5c92LnRKHWn1vYhbs7iWW6s7oM7ojd4laqtlOwxwUy9/2yOKcV
+   gZCrluZXsSDLjcSmyC3LIukdpMNIv3YDQVqxIdJscwHg/je3H21UH+lVSuOU/NLqPe0XEUMCc//Q
+   NWrU97aEdQg/Xyk6G5Q=;
+To: user@domain.com
+From: Tom Nides <paperlesspost@paperlesspost.com>
+Reply-To: user@domain.com
+Date: Wed, 26 Aug 2015 15:34:39 +0000
+Subject: =?UTF-8?B?QW15IEtsb2J1Y2hhciBCb29rIFBhcnR5?
+X-Campaign: Paperlesspost 13766071-0c46d799
+List-Unsubscribe: <mailto:user@domain.com>, <<<link>>>
+Message-Id: <user@domain.com>
+X-Message-Tracking-Id: <user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary=related_part_1440189878
+
+You have received an invitation from Tom Nides.
+Please view it at <<link>>
+replies/223408561-9b98b20b.
+You can also copy and paste the link below into your browser to view your
+ invitation:
+<<link>>
+9b98b20b
+--
+paperlesspost.com
+If you found this email in your junk/bulk folder, please add paperlesspos
+user@domain.com to your address book to ensure that you'll receive al
+l future Paperless Post mail in your inbox.
+Paperless Post respects your privacy. To see how we treat your informatio
+n, please review our privacy policy.
+domain.com <<link>> to stop receiving emails f
+rom Paperless Post.
+Paperless Post
+115 Broadway, Suite 1803, New York, NY 10006

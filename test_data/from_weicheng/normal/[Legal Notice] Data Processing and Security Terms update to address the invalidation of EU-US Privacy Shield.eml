@@ -1,0 +1,446 @@
+Delivered-To: weicheng@edison.tech
+Received: by 2002:a0c:aa0d:0:0:0:0:0 with SMTP id d13csp287966qvb;
+        Mon, 10 Aug 2020 18:40:45 -0700 (PDT)
+X-Received: by 2002:a05:6602:2fcb:: with SMTP id v11mr20435926iow.121.1597110045455;
+        Mon, 10 Aug 2020 18:40:45 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1597110045; cv=none;
+        d=google.com; s=arc-20160816;
+        b=fyKM1t1qLhDzPrIwU4G/eiKrv+RAetmNSy2whDl97u06Wu5ldue1IXxd8wzdAmL0ZF
+         7wKghKyP74sGE/M4CYY+uXNywvDLdOfjd6ga5s8YpwSJbh2olwp2Dq8QGW3KJJI1DXcz
+         QW67ipPlt1QPwd1s/EImOIeqDyy6tW+gs6V2S1E4m4xAz1nrt/BF6JjhY6CSC50pzMlB
+         tbpIUUqG6whCT1Rx8bgM4qq8zyp/C3huFhlobKP+KGGru+hVHTiekraeFuoSKBupN2GN
+         Ftdebg+wd2QGtJL9zyimyijIFtn4BCmJ2T8CZcx2/9CZokwHgktofkb2Xe92YOXALkIT
+         Kd+A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:from:subject:message-id:feedback-id:reply-to:date:mime-version
+         :dkim-signature;
+        bh=br94ScAGdS1iDm6K4fJwH1nKERM3TAbtXWbfuTuBxsQ=;
+        b=Ilcpn1ABrIHdKq2BH9J0HsOsWZ3gVY1ALTgD5gE6nxVpX9kvyXYaMLb3wRQrIofY8Y
+         XjhvkDdOWsJRoxdka5qVdz68iHHKYEC7bvOLrmxXTGdua74rwlqWMtbeAcSkLcTri/Lv
+         BUWRgAzXGPJWbui395pJV4dqKZ0rZjR2Rxjw9nHCu4xPrKIC/W5JBgrBiHxxBPsdcIwk
+         fM7TtXdNYHu7/8AHJa6XeBwbjKZTCQo/YDx1o+SSKynDjz2CP6nK5OJssqAbu677thI6
+         d2yZklNFekjigWI49sS3afKrWlYcgLBY4lpeH5s17+A1vMn72eCqAcoCpK0mI7TZ58R3
+         rHrQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@google.com header.s=20161025 header.b=LLEH6lIy;
+       spf=pass (google.com: domain of 3hpcxxxakcne25e1yxf1-abe1c8l3bb381.zb9t15z41a3105fba.g1z4@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3HPcxXxAKCNE25E1yxF1-ABE1C8L3BB381.zB9t15z41A3105FBA.G1z4@scoutcamp.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com
+Return-Path: <3HPcxXxAKCNE25E1yxF1-ABE1C8L3BB381.zB9t15z41A3105FBA.G1z4@scoutcamp.bounces.google.com>
+Received: from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])
+        by mx.google.com with SMTPS id k14sor31484379jap.6.2020.08.10.18.40.45
+        for <Weicheng@edison.tech>
+        (Google Transport Security);
+        Mon, 10 Aug 2020 18:40:45 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3hpcxxxakcne25e1yxf1-abe1c8l3bb381.zb9t15z41a3105fba.g1z4@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@google.com header.s=20161025 header.b=LLEH6lIy;
+       spf=pass (google.com: domain of 3hpcxxxakcne25e1yxf1-abe1c8l3bb381.zb9t15z41a3105fba.g1z4@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3HPcxXxAKCNE25E1yxF1-ABE1C8L3BB381.zB9t15z41A3105FBA.G1z4@scoutcamp.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:date:reply-to:feedback-id:message-id:subject:from:to;
+        bh=br94ScAGdS1iDm6K4fJwH1nKERM3TAbtXWbfuTuBxsQ=;
+        b=LLEH6lIyXa6LOMa2zjf5hmDVd6diMqBBEWEcYAMen5LrDLO9ee9wEWClVU3MCJZEmq
+         DnwxIPvCSmGcE6hIY1/CxyxhmCW+NfFby2K66az2cYKmzV09LM5Gg0IC6Ldx4WJ7wCmm
+         B/HQOHNtjBYBcQM50L+oAfUsWV4BN4liOQc5Z3cH7wHJCpm6/o/I27Bvdg4VLhfIXWq9
+         8O4Dzmpl8wpDwbmBjBfrB7FKop2QqE0NoJeAqnyJ3Hi8fWIwB3z/+BBsDmmtSrzB0w3t
+         vRG1nQ44VpZrNdIXOkOxXbB+mAmHOH4Fp1/4vrsrPsl/K+CPY2jvt56NFUKJH0TQuqrv
+         fKJw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:date:reply-to:feedback-id
+         :message-id:subject:from:to;
+        bh=br94ScAGdS1iDm6K4fJwH1nKERM3TAbtXWbfuTuBxsQ=;
+        b=TOMqKlkri0GAPYDsJUAZdCiERvii3biRo56MI4gsWO2XOaHjDoM9y4QnHX9h+495D9
+         zjlcclqvVRL7nXVDZcjZur3jRLfqkBhr7RIIEJwH2D1SXF/O003i8ROj31R+Hd6qs1ij
+         ps99wHm/x9kGyFAnrEfqzNM8d82n0VVMzd9r8ghwfYlV+lQR8PHF15pk8E2vKcRS20y4
+         24ZIoDcFTSVgI35WIzenVjQ3zuw85EwlVL7zFWOirhNuLA43hF4rk87ovmyVCB1JZHit
+         Cl/dkWlRdL1JEE+R4ilIf/IITOYaEpa0i716GL5E4ysNn1Pxiv9NDeW3zQSRLMy604Jw
+         v5rg==
+X-Gm-Message-State: AOAM533g+QkLKTPghGup5D1VLeobpZS9h5tbQawl5OXm3mhGj8AfVPdr
+	NXVIj8UW+I4E6ck=
+X-Google-Smtp-Source: ABdhPJy1QDvGmcFWFV8l3IfW6YSXrUev9iAof4OtzkpcbsSwjs7Z2jk9tj0C/H5puadVNe9WxRc4R48=
+MIME-Version: 1.0
+X-Received: by 2002:a05:6638:2653:: with SMTP id n19mr23358532jat.34.1597110044904;
+ Mon, 10 Aug 2020 18:40:44 -0700 (PDT)
+Date: Mon, 10 Aug 2020 18:40:44 -0700
+Reply-To: Firebase <firebase-noreply@google.com>
+X-Google-Id: 4022905
+Feedback-ID: P-43-0:C20129528:M110348033-en:gamma
+X-Notifications: GAMMA:<e4704b519903ff3966b657493e4fdb1021ffb994-20129528-110804029@google.com>
+Message-ID: <e4704b519903ff3966b657493e4fdb1021ffb994-20129528-110804029@google.com>
+Subject: [Legal Notice] Data Processing and Security Terms update to address
+ the invalidation of EU-US Privacy Shield
+From: Firebase <firebase-noreply@google.com>
+To: Weicheng@edison.tech
+Content-Type: multipart/alternative; boundary="000000000000e4d11805ac90285f"
+
+--000000000000e4d11805ac90285f
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+RmlyZWJhc2UNCg0KDQoNCkluZm9ybWF0aW9uIHJlZ2FyZGluZyBGaXJlYmFzZSBhbmQgRVUtVVMg
+UHJpdmFjeSBTaGllbGQuDQoNCg0KDQpIaSBXZWljaGVuZywNCg0KV2UgYXJlIHdyaXRpbmcgdG8g
+bGV0IHlvdSBrbm93IHRoYXQgd2UgYXJlIHVwZGF0aW5nIHRoZSBGaXJlYmFzZSBEYXRhICANClBy
+b2Nlc3NpbmcgYW5kIFNlY3VyaXR5IFRlcm1zIGFuZCBDcmFzaGx5dGljcyBhbmQgQXBwIERpc3Ry
+aWJ1dGlvbiBEYXRhICANClByb2Nlc3NpbmcgYW5kIFNlY3VyaXR5IFRlcm1zLg0KDQpXaGF0IGhh
+cHBlbmVkPw0KDQpBIHJlY2VudCBydWxpbmcgYnkgdGhlIENvdXJ0IG9mIEp1c3RpY2Ugb2YgdGhl
+IEV1cm9wZWFuIFVuaW9uIGludmFsaWRhdGVkICANCnRoZSBFVS1VUyBQcml2YWN5IFNoaWVsZCBG
+cmFtZXdvcmssIGJ1dCBkaWQgbm90IGludmFsaWRhdGUgU3RhbmRhcmQgIA0KQ29udHJhY3R1YWwg
+Q2xhdXNlcyAoU0NDcykgYXMgYSBsYXdmdWwgdHJhbnNmZXIgbWVjaGFuaXNtIGZvciBwZXJzb25h
+bCBkYXRhICANCnRyYW5zZmVycmVkIG91dHNpZGUgb2YgdGhlIEVVLCBTd2l0emVybGFuZCBvciB0
+aGUgVUsuDQoNCldlIGFyZSB1cGRhdGluZyB0aGUgRmlyZWJhc2UgRGF0YSBQcm9jZXNzaW5nIGFu
+ZCBTZWN1cml0eSBUZXJtcyBhbmQgIA0KQ3Jhc2hseXRpY3MgYW5kIEFwcCBEaXN0cmlidXRpb24g
+RGF0YSBQcm9jZXNzaW5nIGFuZCBTZWN1cml0eSBUZXJtcyB0byBhZGQgIA0KdGhlIHJlbGV2YW50
+IFNDQ3MgYXMgYWRvcHRlZCBieSB0aGUgRXVyb3BlYW4gQ29tbWlzc2lvbiwgd2hpY2gsIGFzIHBl
+ciB0aGUgIA0KcnVsaW5nLCBjYW4gY29udGludWUgdG8gYmUgYSB2YWxpZCBsZWdhbCBtZWNoYW5p
+c20gdG8gdHJhbnNmZXIgZGF0YSBvdXRzaWRlICANCm9mIHRoZSBFVSwgU3dpdHplcmxhbmQgb3Ig
+dGhlIFVLLg0KDQpJZiB0aGUgRVUncyBHZW5lcmFsIERhdGEgUHJvdGVjdGlvbiBSZWd1bGF0aW9u
+IG9yIGVxdWl2YWxlbnQgbGVnaXNsYXRpb24gaW4gIA0KU3dpdHplcmxhbmQgb3IgdGhlIFVLIChj
+b2xsZWN0aXZlbHksIHRoZSBHRFBSKSBhcHBsaWVzIHRvIHlvdXIgdXNlIG9mICANCkZpcmViYXNl
+LCB0aGUgdXBkYXRlZCBEYXRhIFByb2Nlc3NpbmcgYW5kIFNlY3VyaXR5IFRlcm1zIHdpbGwgZGVl
+bSB0aGUgU0NDcyAgDQp0byBhcHBseSBhdXRvbWF0aWNhbGx5LiBJZiB0aGUgR0RQUiBkb2VzIG5v
+dCBhcHBseSB0byB5b3VyIHVzZSBvZiBGaXJlYmFzZSwgIA0KdGhlc2UgdXBkYXRlcyBoYXZlIG5v
+IHByYWN0aWNhbCBpbXBhY3QuDQoNCldoYXQgZG8geW91IG5lZWQgdG8gZG8/DQoNCk5vIGFjdGlv
+biBpcyByZXF1aXJlZCBvbiB5b3VyIHBhcnQgdG8gYWNjZXB0IHRoZXNlIHVwZGF0ZXMsIHdoaWNo
+IGFwcGx5ICANCmZyb20gQXVndXN0IDEyLCAyMDIwLg0KDQpJZiB5b3UgYXJlIG5vdCB0aGUgcmln
+aHQgcGVyc29uIHRvIHJldmlldyB0aGUgdXBkYXRlZCBEYXRhIFByb2Nlc3NpbmcgYW5kICANClNl
+Y3VyaXR5IFRlcm1zIG9yIHRoaXMgbm90aWNlLCBwbGVhc2UgZm9yd2FyZCB0aGlzIG5vdGljZSB0
+byB0aGUgIA0KYXBwcm9wcmlhdGUgY29udGFjdCBmb3IgeW91ciBvcmdhbml6YXRpb24sIHN1Y2gg
+YXMgeW91ciBsZWdhbCBvciBjb21wbGlhbmNlICANCnRlYW0uDQoNCklmIHlvdSBoYXZlIGFueSBx
+dWVzdGlvbnMgb3IgbmVlZCBhbnkgYXNzaXN0YW5jZSwgZmVlbCBmcmVlIHRvIHJlYWNoIG91dCB0
+byAgDQp1cy4NCg0KVGhhbmtzLA0KDQpNaWtlLCBvbiBiZWhhbGYgb2YgdGhlIEZpcmViYXNlIHRl
+YW0NCg0KDQoNCllvdSBoYXZlIHJlY2VpdmVkIHRoaXMgbWFuZGF0b3J5IHNlcnZpY2UgYW5ub3Vu
+Y2VtZW50IHRvIHVwZGF0ZSB5b3UgYWJvdXQgIA0KaW1wb3J0YW50IGNoYW5nZXMgdG8gRmlyZWJh
+c2Ugb3IgeW91ciBhY2NvdW50Lg0KDQoNCg0KDQpHb29nbGUgwqkgMjAyMCBHb29nbGUgTExDDQox
+NjAwIEFtcGhpdGhlYXRyZSBQYXJrd2F5DQpNb3VudGFpbiBWaWV3LCBDQSA5NDA0MyBVU0ENCg0K
+DQoNCg==
+--000000000000e4d11805ac90285f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+=20
+    <meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+    </meta>
+    <!-- [if !mso]><! -->
+    <meta http-equiv=3DX-UA-Compatible content=3DIE=3Dedge>
+    </meta>
+    <!-- <![endif] -->
+=20
+    <meta name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+    </meta>
+    <meta name=3Drobots content=3D"no index">
+    </meta>
+    <!--
+      [if mso | ie]> <style> .sup { vertical-align: 1px !important; font-si=
+ze: 100% !important; }
+      </style> <![endif]
+    -->
+    <!--
+      [if ie]> <style> .sup { vertical-align: 6px !important; font-size: 80=
+% !important; } </style>
+      <![endif]
+    -->
+    <style>
+      body{
+        font-family:Google Sans, Roboto,  sans-serif;
+        font-size:14px;
+        -webkit-text-size-adjust: none !important;
+        -webkit-font-smoothing: antialiased
+        !important;
+        -ms-text-size-adjust: none !important;
+      }
+      table, tr, td {
+        border-collapse:collapse;
+=20
+        mso-table-lspace:0pt;
+        mso-table-rspace:0pt;
+      }
+      a{
+        color:#0288d1;
+        text-decoration: none;">
+      }
+      a:link, a:visited, a:hover, a:active {
+        color: #4285f4;
+        text-decoration: none;
+      }
+      .appleLinks a {
+        color:#000000   !important;
+=20
+        text-decoration:none !important;
+      }
+      strong {
+        font-weight: bold !important;
+      }
+      em {
+        font-style: italic !important;
+      }
+      .yshortcuts a span {
+        color: inherit !important;
+        border-bottom: none !important;
+      }
+      html {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: 100%;
+      }
+      .ReadMsgBody {
+        width: 100%;
+      }
+      .ExternalClass {
+        width:
+        100%;
+      }
+      .ExternalClass * {
+        line-height: 100%
+      }
+      td {
+        -webkit-text-size-adjust: none;
+      }
+      a[href^=3Dtel] {
+        color:     inherit;
+        text-decoration:   none;
+      }
+      .mob-hide {
+        display:none !important;
+      }
+      div, p, a, li, td {
+        -webkit-text-size-adjust:none;
+      }
+      td {
+        text-decoration:none !important;
+      }
+      a[x-apple-data-detectors] {
+        color: inherit
+        !important;
+        text-decoration:   none !important;
+        font-size: inherit !important;
+=20
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height:   inherit
+        !important;
+      }
+      @media all and (max-width: 600px) {
+        .table-main-gmail {
+          /*   Forces
+          Gmail to display Desktop   view */
+          width: 100% !important;
+          min-width:100% !important;
+        }
+      }
+    </style>
+  </head>
+  <body style=3Dbackground-color:#F5F5F5;>
+    <div class=3Dmain style=3D"padding:10px 0;">
+        <!--
+        Note that you'll need to adjust the width of the whole email here i=
+f the email is set at
+        700px, etc. - set style=3D"min-width" to the pixel width of the ema=
+il on the TABLE and the
+        TD for Gmail App
+        -->
+        <!-- Main contentr style=3D"    vertical-align: top;
+            padding: 30px 25px;
+            border-top:1px solid #e0e0e0;
+    "t -->
+        <!-- [if !mso]><! -->
+        <table class=3D"table-main table-main-gmail" style=3D" border:1px s=
+olid #dedede;
+            border-spacing: 0px;
+            width: 600;
+            max-width:600px;
+            border:1px solid #dedede;
+            border-spacing: 0px;
+            width: 600;
+            max-width:600px;
+            background-color:white;" align=3Dcenter>
+        <!-- <![endif] -->
+        <!--
+        [if (gte mso 9)|(IE)]>
+        <table class=3D"table-main table-main-other">
+        <![endif]
+        -->
+          <tbody class=3Dmain>
+
+            <!-- PREHEADER START -->
+            <tr>
+              <td>
+                <table class=3Dlogo-table style=3D"width: 100%">
+                  <tbody>
+                    <tr>
+                      <td class=3Dlogo style=3D"align: center;
+                          vertical-align: top;
+                          padding:23px 23px;" align=3Dcenter>
+
+                        <img style=3D" height: 40px;
+                            vertical-align: middle" alt=3DFirebase src=3Dht=
+tp://gstatic.com/pantheon/images/iam/email/firebase_lockup.png title=3DFire=
+base>
+
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+
+<!-- Displayed in the inbox preview, but does not appear in the message bod=
+y. -->
+<div style=3D"height:0px; font-size:0px; max-height:0px; min-height: 0px; l=
+ine-height:0px; width: 100%; color: #fff; display:none;">    Information re=
+garding Firebase and EU-US Privacy Shield.
+</div> =20
+
+
+           =20
+            <!-- PREHEADER END -->
+
+            <!-- BODY START -->
+            <tr>
+
+              <td class=3Dcontent style=3D"
+                  vertical-align: top;
+                  padding: 30px 25px;
+                  border-top:1px solid #e0e0e0;
+                  font-weight:400;
+                  font-size:14px;
+                  line-height:22px;
+                  color: #455A64">
+
+<!-- Adds translation notice, the English version is empty-->
+<p></p>
+<p>Hi Weicheng,</p>
+
+<p>We are writing to let you know that we are updating the Firebase Data Pr=
+ocessing and Security Terms and Crashlytics and App Distribution Data Proce=
+ssing and Security Terms.</p>
+
+<div class=3Demphasis style=3D"padding:15px 0 0; color: #263238; font-famil=
+y: Google Sans, Roboto, sans-serif; font-size:16px;">What happened?</div>
+
+<p><a href=3Dhttps://www.google.com/appserve/mkt/p/AD-FnEwmgQDHb07DaO1pc-Y_=
+j0h-ALl5oNk6K2TqwL03K2D_7WWmIY3-hg0uhNS6stu4aVNdemiHJHQQsiBicDs0RBoHjPvb7DF=
+m_K2KwFhO7i5tUPTOTc1UumI9-FHBvQuq4cbnRWHTjZsKdm4aWkWcEtB5dQ style=3D"color:=
+#0288d1; font-family: Google Sans, Roboto, sans-serif; text-decoration:none=
+" target=3D_blank>A recent ruling</a> by the Court of Justice of the Europe=
+an Union invalidated the EU-US Privacy Shield Framework, but did not invali=
+date Standard Contractual Clauses (SCCs) as a lawful transfer mechanism for=
+ personal data transferred outside of the EU, Switzerland or the UK.</p>
+
+<p>We are updating the <a href=3Dhttps://www.google.com/appserve/mkt/p/AD-F=
+nExxlZP2gFmu9jNpA69qZqmwfJRLxNEjNcqmQmQyKyB1Oglo9CkIpWOJm3k-fZtmgh1WY6KvgJG=
+5bWvxaoeGtL-qMUfUaMDZIUMvaTVaTUcnvFwRsLVNjRInSg style=3D"color:#0288d1; fon=
+t-family: Google Sans, Roboto, sans-serif; text-decoration:none" target=3D_=
+blank>Firebase Data Processing and Security Terms</a> and <a href=3Dhttps:/=
+/www.google.com/appserve/mkt/p/AD-FnEyny3rtcjl9wXuo9u14XQ4nZ7ihm1OvtGzgMpuq=
+Y_DKk6o7ORvESvYOtvLI6qjE-IzmnHOMvhLJwmGUN78p07EMGLXsITamogRX-5C_Y67VQT0KQN4=
+OLKjrVr1WTWFcPapnrlHdWXYwM_sp9-BujdeAsh8zHA07 style=3D"color:#0288d1; font-=
+family: Google Sans, Roboto, sans-serif; text-decoration:none" target=3D_bl=
+ank>Crashlytics and App Distribution Data Processing and Security Terms</a>=
+ to add the relevant SCCs as adopted by the European Commission, which, as =
+per the ruling, can continue to be a valid legal mechanism to transfer data=
+ outside of the EU, Switzerland or the UK.</p>
+
+<p>If the EU=E2=80=99s General Data Protection Regulation or equivalent leg=
+islation in Switzerland or the UK (collectively, the GDPR) applies to your =
+use of Firebase, the updated Data Processing and Security Terms will deem t=
+he SCCs to apply automatically. If the GDPR does not apply to your use of F=
+irebase, these updates have no practical impact.</p>
+
+<div class=3Demphasis style=3D"padding:15px 0 0; color: #263238; font-famil=
+y: Google Sans, Roboto, sans-serif; font-size:16px;">What do you need to do=
+?</div>
+
+<p><strong>No action is required on your part</strong> to accept these upda=
+tes, which apply <strong>from August 12, 2020</strong>.</p>
+
+<p>If you are not the right person to review the updated Data Processing an=
+d Security Terms or this notice, please <strong>forward this notice to the =
+appropriate contact for your organization, such as your legal or compliance=
+ team</strong>.</p>
+
+<p>If you have any questions or need any assistance, feel free to <a href=
+=3Dhttps://www.google.com/appserve/mkt/p/AD-FnEybwtC96FbPoSJXyNVukf5s7RnRwQ=
+2-SeAey4k39Iy4dNjswN-8TPVfjsNB7PPdShzqynxM63-r1JALRQEqIrx2kTGoevPKQGcJHPU9B=
+7dkyJhcM4I34KGCwzrlIf0ARz3B1WC_ZKpjMv4_b4PfV6S1hVZbJ4-uB2JWSU94Ekd6rLILRJKK=
+ySo-tD0F1y2Jir5Dx2NPIA style=3D"color:#0288d1; font-family: Google Sans, Ro=
+boto, sans-serif; text-decoration:none" target=3D_blank>reach out to us</a>=
+.</p>
+
+<div style=3D"padding:20px 0 0;">Thanks,</div>
+
+<div class=3Dsignoff style=3D"color:#263238; font-weight:700; font-size:14p=
+x; line-height:20px;">Mike, on behalf of the Firebase team</div>
+
+</td>
+          </tr>
+        =20
+            <!-- BODY END -->
+
+
+          <!-- FOOTER START -->
+          <tr>
+            <td class=3Dtype-msa style=3D"
+                vertical-align: top;
+                background-color: #eceff1;
+                color:#757575;
+                font-weight:400;
+                font-size:12px;
+                line-height:16px;
+                padding:20px 25px;
+                text-align: center;">
+<p>You have received this mandatory service announcement to update you abou=
+t important changes to Firebase or your account.</p>            </td>
+          </tr>
+=20
+          <tr>
+            <td class=3Dgoogle-legal style=3D"
+                text-align: center;
+                vertical-align: top;
+                background-color: #78909c;
+                padding:24px 24px;">
+              <table style=3D"
+                  width:100%;
+                  border: 0;
+                  border-spacing: 0px;
+                  border-collapse: separate;
+                  padding: 0;">
+                <tbody>
+                  <tr>
+                    <td align=3Dleft valign=3Dmiddle>
+                      <img alt=3DGoogle src=3Dhttps://www.gstatic.com/image=
+s/branding/googlelogo/2x/googlelogo_light_color_74x24dp.png height=3D24 wid=
+th=3D70 title=3DGoogle style=3Ddisplay:block;>
+                    </td>
+=20
+                    <td align=3Dright valign=3Dmiddle style=3D"color:#D6DDE=
+1; font-weight:400; font-size:12px; line-height:14px; padding:0 0;">
+                      <a href=3D# style=3D"text-decoration: none; color:#D6=
+DDE1;">
+                        =C2=A9 2020 Google LLC
+                        <br>
+                        1600 Amphitheatre Parkway
+                        <br>
+                        Mountain View, CA 94043 USA
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          <!-- FOOTER END -->
+=20
+        </tbody>
+      </table>
+    <!-- MAIN CONTENT END -->
+    </div>
+  <img height=3D1 width=3D3 src=3Dhttps://www.google.com/appserve/mkt/img/A=
+D-FnEy_r8QUieju9OqoQ63tHjw14xQHOeTwQYFOHOiz4PkxSg.gif></body>
+</html>
+
+--000000000000e4d11805ac90285f--

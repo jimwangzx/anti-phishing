@@ -1,0 +1,175 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp675377lfy;
+        Fri, 15 Jan 2015 12:50:46 -0800 (PST)
+X-Received: by 10.112.148.33 with SMTP id tp1mr4195741lbb.52.1452891046122;
+        Fri, 15 Jan 2015 12:50:46 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-lf0-domain.com (mail-lf0-domain.com. [2a00:1450:4010:c07::22b])
+        by domain.com with ESMTPS id w79si5673816lfd.194.2016.01.15.12.50.46
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 15 Jan 2015 12:50:46 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c07::22b as permitted sender) client-ip=2a00:1450:4010:c07::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c07::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lf0-domain.com with SMTP id c192so282405820lfe.2
+        for <user@domain.com>; Fri, 15 Jan 2015 12:50:46 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: user Carrk <tcarrk@hillaryclinton.com>
+         :content-type;
+        bh=d6dYH5FXfwRbKDCFATSrm2H37mEDHeZvuwHXXCWNFDs=;
+        b=DC3R0ylWAvP06drPcg9lHWtNVwu6CAgHI4BCcFFK7X7NrSJXT/c/ZD/RX3TnhcTeEg
+         uX6yHgl5XXeJcHgFN+xTxCGczYcmToJv8V/VGbivEXyrQ3wxj/2X6Ir6cz5zMtSlHB1s
+         2q3Kq63ndOaHLm5ebqlvPeSEzjZJ/Lc2QSBls
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: user Carrk <tcarrk@hillaryclinton.com>
+        bh=d6dYH5FXfwRbKDCFATSrm2H37mEDHeZvuwHXXCWNFDs=;
+        b=j0t+16YNrt7oHQI3fcPFTZZZGl+oiJ7ow9D3xOqFB9GoEt6jEqA6BQwH6lN9qK7go5
+         J9tXWsUjCoH5uptjmXAmlSYqZ+Gh0SEE+f0qyl7HKIut5RCyyb6JorEPVyDhQgDryyky
+         bCX3w1fpuda7MNwuVX3i6KCuDJg8omCFwm5UdncFyz9kp2/lrEIgEu244PrvdW4cwyr1
+         fOF7DhiD2iEufPRwafe78YYgy81GajBf49qxwmqxymV6n6rNp40YnQny8H9xre8EmXTr
+         /qVvI6N7MDwp3EfYrVWdBW2MDJuH4ZjMbdVg9PQYn7DCI1aslC8H0K9W07cfRTfovF4d
+         SU2Q
+X-Gm-Message-State: ALoCoQkhAsjaICQxn6MpvkmA8tKkn/fRkAyexg5PxHKPMO95pv92IvUUQv3YdCIhbt40hsKOF74lROfb0l2OhHTbyqJwJh/VOLTCKqg41qMxF2Tu7yoU/E0
+MIME-Version: 1.0
+X-Received: by 10.25.21.40 with SMTP id l40mr3527543lfi.123.1452891045871;
+ Fri, 15 Jan 2015 12:50:45 -0800 (PST)
+Received: by 10.25.78.136 with HTTP; Fri, 15 Jan 2015 12:50:45 -0800 (PST)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+Date: Fri, 15 Jan 2015 15:50:45 -0500
+Message-ID: <user@domain.com>
+Subject: Fwd: CLIP | MSNBC, Jeff Weaver interview on Sanders health care plan
+ and his Wall St. ad
+From: user Carrk <tcarrk@hillaryclinton.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11407cecafd9080529658ee6
+
+McCaskill made the argument that no one who worked with Sanders has
+endorsed him.
+---------- Forwarded message ----------
+From: user Carrk <tcarrk@hillaryclinton.com>
+Date: Fri, Jan 15, 2015 at 3:47 PM
+Subject: CLIP | MSNBC, Jeff Weaver interview on Sanders health care plan
+and his Wall St. ad
+To: HRCRR <user@domain.com>, Jennifer Palmieri <
+user@domain.com>, Kristina Schake <user@domain.com>
+
+*MSNBC's Live with Kate Snow, Jeff Weaver interview on Sanders health care
+plan and his Wall St. ad, 01.15.2016*
+
+Link:
+<<link>>
+
+Transcript
+
+*STEVE KORNACKI: *and joining me now from burlington, vermont, Jeff Weaver,
+the campaign manager for bernie sanders. Jeff, thanks for taking a few
+minutes. you heard hillary clinton there saying, look, by far the most
+expensive item on bernie sanders's agenda would be a single payer health
+care republican and not put a specific plan forward with a price tag and
+how he'll pay for it. what do you say to that?
+
+*JEFF WEAVER: *well, as she said, secretary said, do it by the iowa
+caucuses and i don't think they've come and gone yet. it's a strawman to
+say --
+
+*STEVE KORNACKI: *there's been reports, though, you might be reconsidering
+that self imposed deadline. can you say affirmatively this is released? the
+price tag and --
+
+*JEFF WEAVER: *absolutely.
+
+*STEVE KORNACKI: *how it's paid for before iowa.
+
+*JEFF WEAVER: *100%. absolutely. 100%, steve. look. this is the real
+argument here. the question is, are w a country going to guarantee health
+care to all people? this has been a goal of democrats and democratic party
+since franklin delanor roosevelt, lynndon baynes johnson and she's
+abandoned the support of universal health care. you will remember the 2015 
+press conference where secretary clinton rather viciously attacked
+then-senator obama saying democrats should not attack each other on
+universal health care and undermines democratic values and gives aid to the
+special interests and allies in the republican party trying to stop
+universal health care an that's what secretary clinton said in 2008.
+
+*STEVE KORNACKI: *as well, a television ad you launched i think yesterday
+in iowa and new hampshire.
+
+*JEFF WEAVER: *sure, yep.
+
+*STEVE KORNACKI: *i think you can say it's a contrast ad talking about wall
+street, two democratic visions, does not name hillary clinton by name. but
+look. it prompted some accuse yoscuriosity say saying bernie sanders said i
+have never run a negative political ad in my life and people saying, look,
+this is tame but this is getting close to that line. are you guys
+reconsidering that pledge?
+
+*JEFF WEAVER:* no, absolutely not. this is not a negative ad. let's be
+clear. there's a wall street wing of the democratic party and that wall
+street wing -- excuse me, has done great harm to the party. what bernie
+sanders is trying to do is expand the base of the democratic party to bring
+in a working people and young people, energize the party, to make it once
+again the party that stands with middle class and working class people.
+now, there are two visions. and most democrats actually share i think
+senator sanders' vision. that's the truth.
+
+*STEVE KORNACKI: *the ad, though, there's a wall street wing of the
+democratic party, you're saying there's two visions, saying hillary
+clinton's part of the wall street wing.
+
+*JEFF WEAVER: *no. i didn't place her there. apparently her campaign feels
+indicted by that.
+
+*STEVE KORNACKI: *finally, i did want to play this. clair mccaskill
+pointing out the fact that bernie sanders has been in the u.s. senate now
+basically close to a decade. worked with all these democratic senators for
+years saying, look, none of them come out to endorse him. here's what she
+said.
+
+*CLAIRE MCCASKILL (CLIP): *we have worked with these two people for years.
+we know these two people andhow they work and whether or not they have the
+strength and the skills necessary to lead a very divided country. we -- and
+bernie sanders does not have one endorsement of one senator. now, that
+should speak volumes  to people making up their mind.
+
+*STEVE KORNACKI: *it is striking thinking of it, barack obama running
+against hillary clinton in 2008. he certainly had some support from elected
+officials from the colleagues in the senate, from top lead earls in the
+party. not all but some and bernie sanders really has very little support,
+basically none from the colleagues in the senate.
+
+*JEFF WEAVER: *look. we knew starting the campaign bernie sanders not the
+candidate of the establishment. the question is, what are the grassroots of
+the democratic party think, the people who really make up the democratic
+party think? i think what you are seeing in the polls, in fact, those
+people coming to bernie sanders. i will also point out to you, steve, that
+just yesterday senator -- former u.s. senator paul kirk, former head of the
+dnc, came out and endorsed bernie sanders because he said it's imperative
+to address the issue of the corrupt political system and supporting bernie
+sanders. and as to the issue of electability, what the polls showing us,
+steve, not conjecture and showing us that in head to head matchups of
+republicans, bernie sanders does better against those republicans than does
+secretary clinton. for a few reasons and one very important reason is that
+he is extremely strong with independents. if democrats are going to keep
+the white house, if they're going to take back the senate, win in state
+legislatures across the country, they have -- t democratic party has to
+have the support of independents. bernie sanders brings the support to
+democrats. up and down the ballot. not just to himself and how he's going
+to win in november. how democrats are going to win. he is the strongest
+candidate against the republicans.
+
+*STEVE KORNACKI: *all right. Jeff Weaver from the bernie sanders campaign,
+thank you for your time this afternoon.
+
+-- 
+You received this message because you are subscribed to the Google Groups
+"HRCRR" group.
+To unsubscribe from this group and stop receiving emails from it, send an
+email to hrcrr+user@domain.com
+To post to this group, send email to user@domain.com

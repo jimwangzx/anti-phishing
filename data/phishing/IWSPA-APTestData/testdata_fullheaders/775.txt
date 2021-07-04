@@ -1,0 +1,51 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1002279lfr;
+        Sun, 6 Sep 2015 12:56:52 -0700 (PDT)
+X-Received: by 10.202.222.132 with SMTP id v126mr5848455oig.23.1441569412719;
+        Sun, 06 Sep 2015 12:56:52 -0700 (PDT)
+Return-Path: <3user@domain.com>
+Received: from mail-ob0-x247.google.com (mail-ob0-x247.google.com. [2607:f8b0:4003:c01::247])
+        by mx.google.com with ESMTPS id pu4si3413027obb.76.2015.09.06.12.56.52
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 06 Sep 2015 12:56:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3user@domain.com designates 2607:f8b0:4003:c01::247 as permitted sender) client-ip=2607:f8b0:4003:c01::247;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of 3user@domain.com designates 2607:f8b0:4003:c01::247 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=google.com
+Received: by mail-ob0-x247.google.com with SMTP id hk5so70050483obb.2
+        for <user@domain.com>; Sun, 06 Sep 2015 12:56:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=mime-version:reply-to:references:message-id:date:subject:From: "Heather Stone (via Google Docs)" <drive-shares-noreply@google.com>
+         :content-type;
+        bh=ai2z6rrgNydLSMIfn07OOF3iM8XnHjigHsftsiAKHXE=;
+        b=LAhtwEHUdiZPIHopyMHcczW4Fz0FJh5srDs6px4eZKl2B2TG8kJUTpjbpkZd+s5oCR
+         YBNtKR0LdZLL04gDdvB+iLzEu3o7GFyhvqL/4YxsTUVvdGiue7cazDzcvkgXBLz7Jpdn
+         7dbJkw16/I558l/VVRj2Ct/2auo9GouNH5TGtYiQrHGNXjvvUyHdvN4T6OljZo3e6u+O
+         /T5sHoGGqO4Vcb2dlnVIKM+TY7CqDb23HoNN6VQNSPkfTAmRPrrIw8W4p7fDHXjQpVQh
+         W9wiDv1CONyk25mhMOJbVxNnwstutBis5ed7UlZnqC4gJgQCWADqNMZ9xfhkfUCYhqcR
+         LLVQ
+MIME-Version: 1.0
+X-Received: by 10.182.142.72 with SMTP id ru8mr15158782obb.47.1441569411969;
+ Sun, 06 Sep 2015 12:56:51 -0700 (PDT)
+Reply-To: Heather Stone <user@domain.com>
+X-Originating-IP: 104.247.47.194
+X-No-Auto-Attachment: 1
+References: <782811user@domain.com>
+Message-ID: <001user@domain.com>
+Date: Sun, 06 Sep 2015 19:56:51 +0000
+Subject: Retreat Items - Invitation to domain.com
+From: "Heather Stone (via Google Docs)" <drive-shares-noreply@google.com>
+To: user@domain.com
+CC: user@domain.com
+Content-Type: multipart/alternative; boundary=001a11c2e51cb83695051f1988c9
+
+I've shared an item with you:
+
+Retreat Items
+<<link>>
+
+It's not an attachment -- it's stored online. To open this item, just click  
+the link above.

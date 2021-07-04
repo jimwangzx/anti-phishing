@@ -1,0 +1,109 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Wed, 10 Sep 2015 16:18:19 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 49AA1621A2	for
+ <user@domain.com>; Wed, 10 Sep 2015 15:02:59 +0100 (BST)
+Received: by domain.com (Postfix)	id D6B06B6603F; Wed, 10 Sep 2015 
+ 16:18:19 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id CC5C2B6603E	for
+ <user@domain.com>; Wed, 10 Sep 2015 16:18:19 +0200 (CEST)
+X-ASG-Debug-ID: 1410358697-066a753e2537360001-4ddLus
+Received: from maile-domain.com (maile-domain.com [108.174.3.204])
+ by domain.com with ESMTP id Dwcy62MOtc3CLuoU for
+ <user@domain.com>; Wed, 10 Sep 2015 16:18:18 +0200 (CEST)
+X-Barracuda-Envelope-From: User Diaz <joseUser.diaz01@hotmail.com>
+X-Barracuda-Apparent-Source-IP: 108.174.3.204
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=domain.com;
+	s=proddkim1024; t=1410358684;
+	bh=MBCR79/wOsN+JHby5yrLhbZxKygfUSSBcttAErq2icg=;
+	h=From: User Diaz <joseUser.diaz01@hotmail.com>
+	 X-LinkedIn-Template:X-LinkedIn-fbl;
+	b=3Azvx+ltf8E81vvc2VatYH0cWzmok273gyVswevPOOy0Somc16v+MuXKag9ikrj27
+	 kitDrLIy0LVO5hUaDsQlsW/qsiVdKib/pGHuV2Itwz36I5+S3wHOubIOVX6sASmUyR
+	 3AEiVHSL3Sx5eSTFm9wMXz+4q/EPXPdW33ZBBcZo
+From: User Diaz <joseUser.diaz01@hotmail.com>
+Message-ID: <664242295.4496996.1410358683877.user@domain.com>
+Subject: =?UTF-8?Q?Me_gustar=C3=ADa_a=C3=B1adirte_a_mi_red_profesional_en_LinkedIn?
+X-ASG-Orig-Subj: =?UTF-8?Q?Me_gustar=C3=ADa_a=C3=B1adirte_a_mi_red_profesional_en_LinkedIn?
+To: Alex Velasco <user@domain.com>
+Date: Wed, 10 Sep 2015 14:18:03 +0000
+X-LinkedIn-Class: INVITE-GUEST
+X-LinkedIn-Template: invite_guest
+X-LinkedIn-fbl: s-519zlobeu9tjj2xgrg09nj4ppnke2twxbwh5uwijoy9rzkxccy5ivpep
+X-LinkedIn-Id: -63k6c3-hzwr4qjy-23
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe/AQGvYZ0NWxaWyAAAAUhf7ajlav5a8f679fE1onj_mSy-ye-53RCbgiwHbTX5m7NmxcYbl7xBZPd9lt69Y1vsjA/-63k6c3-hzwr4qjy-23/s-519zlobeu9tjj2xgrg09nj4ppnke2twxbwh5uwijoy9rzkxccy5ivpep>
+X-Barracuda-Connect: maile-domain.com[108.174.3.204]
+X-Barracuda-Start-Time: 1410358697
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 1.12
+X-Barracuda-Spam-Status: No, SCORE=1.12 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=FORGED_HOTMAIL_RCVD2, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.9341
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	1.12 FORGED_HOTMAIL_RCVD2   hotmail.com 'From' address, but no 'Received:'
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-2135562172_-_-"
+
+
+
+
+  @media all and (max-width:590px) { *[class].responsive { width:290px !important; } *[id]#center { width:50%; margin:0 auto; display:table; } *[class].responsive-spacer table { width:20px !important; } *[class].vspacer { margin-top:10px !important; margin-bottom:15px !important; margin-left:0 !important; } *[class].res-font14 { font-size:14px !important; } *[class].res-font16 { font-size:16px !important; } *[class].res-font13 { font-size:13px !important; } *[class].res-font12 { font-size:12px !important; } *[class].res-font10 { font-size:10px !important; } *[class].res-font18 { font-size:18px !important; } *[class].res-font18 span { font-size:18px !important; } *[class].responsive-50per { width:100% !important; } *[class].responsive-spacer70 { width:70px !important; } *[class].hideIMG { height:0px !important; width:0px !important; } *[class].res-height30 { height:30px !important; } *[class].res-height20 { height:20px !important; } *[class].res-height20 div { height:20px !important; } *[class].res-height10 { height:10px !important; } *[class].res-height10 div { height:10px !important; } *[class].res-height10.email-spacer div { height:10px !important; min-height:10px !important; line-height:10px !important; font-size:10px !important; } *[class].res-height0 { height:0px !important; } *[class].res-height0 div { height:0px !important; } *[class].res-width280 { width:280px !important; } *[class].res-width25 { width:25px !important; } *[class].res-width10 { width:10px !important; } *[class].res-width10 table { width:10px !important; } *[class].res-width120 { width:120px !important; } *[class].res-padding { width:0 !important; } *[class].res-padding table { width:0 !important; } *[class].cellpadding-none { width:0px !important; } *[class].cellpadding-none table { border:collapse !important; } *[class].cellpadding-none table td { padding:0 !important; } *[class].display-none { display:none !important; } *[class].display-block { display:block !important; } *[class].remove-margin { margin:0 !important; } *[class].remove-border { border:none !important; } *[class].res-img60 { width:60px !important; height:60px !important; } *[class].res-img75 { width:75px !important; height:75px !important; } *[class].res-img100 { width:100px !important; height:100px !important; } *[class].res-img320 { width:320px !important; height:auto !important; position:relative; } *[class].res-img90x63 { width:90px !important; height:63px !important; } *[class].res-border { border-top:1px solid #E1E1E1 !important; } *[class].responsive2col { width:100% !important; } *[class].center-content { text-align:center !important; } *[class].hide-for-mobile { display:none !important; } *[class].show-for-mobile { width:100% !important; max-height:none !important; visibility:visible !important; overflow:visible !important; float:none !important; height:auto !important; display:block !important; } *[class].responsive-table { display:table !important; } *[class].responsive-row { display:table-row !important; } *[class].responsive-cell { display:table-cell !important; } *[class].fix-table-content { table-layout:fixed; } *[class].res-padding08 { padding-top:8px; } *[class].header-spacer { table-layout:auto !important; width:250px !important; } *[class].header-spacer td, *[class].header-spacer div { width:250px !important; } } @media all and (-domain.com-min-device-pixel-ratio:1.5) { *[id]#base-header-logo { background-image:url(<<link>>) !important; background-size:95px; background-repeat:no-repeat; width:95px !important; height:21px !important; } *[id]#base-header-logo img { display:none; } *[id]#base-header-logo a { height:21px !important; } *[id]#base-header-logo-china { background-image:url(<<link>>) !important; background-size:133px; background-repeat:no-repeat; width:133px !important; height:21px !important; } *[id]#base-header-logo-china img { display:none; } *[id]#base-header-logo-china a { height:21px !important; } } 
+
+
+
+                   User Diaz quisiera mantener el contacto en LinkedIn.
+
+
+
+                         Hola, Alex:
+
+
+
+                         Construye tu red profesional, descubre oportunidades y mantente en contacto en LinkedIn.
+
+
+
+                         User
+
+
+
+                                 Confirma que conoces a User
+
+
+
+                             User Diaz
+
+
+
+                             Vents
+
+
+
+                             Toluca y alrededores, México
+
+
+
+                     Estás recibiendo mensajes sobre Invitación a conectarnos. Date de baja
+
+
+
+                     Este mensaje de correo electrónico estaba dirigido a Alex Velasco. Averigua por qué incluimos esto.
+
+
+
+                     ©2014, LinkedIn Corporation. 2015 Stierlin Ct., Mountain View, CA 94043 EE. UU.
+
+

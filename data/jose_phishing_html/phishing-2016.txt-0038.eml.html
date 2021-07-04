@@ -1,0 +1,715 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><!-- NAME: 1 COLUMN -->
+<META content="text/html; charset=unicode" http-equiv=Content-Type>
+<META name=viewport content="width=device-width, initial-scale=1.0">
+<STYLE type=text/css>
+		body,#bodyTable,#bodyCell{
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width:100% !important;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		img,a img{
+			border:0;
+			outline:none;
+			text-decoration:none;
+		}
+		h1,h2,h3,h4,h5,h6{
+			margin:0;
+			padding:0;
+		}
+		p{
+			margin:1em 0;
+			padding:0;
+		}
+		a{
+			word-wrap:break-word;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
+			line-height:100%;
+		}
+		table,td{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		body,table,td,p,a,li,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		#bodyCell{
+			padding:20px;
+			border-top:0;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+	/*
+	@tab Page
+	@section background style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		body,#bodyTable{
+			/*@editable*/background-color:#F2F2F2;
+		}
+	/*
+	@tab Page
+	@section background style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Page
+	@section email border
+	@tip Set the border for your email.
+	*/
+		#templateContainer{
+			/*@editable*/border:2px ridge #229ef1;
+		}
+	/*
+	@tab Page
+	@section heading 1
+	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#606060 !important;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:40px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:-1px;
+			margin:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#404040 !important;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:-.75px;
+			margin:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#606060 !important;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:-.5px;
+			margin:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#808080 !important;
+			display:block;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			margin:0;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Preheader
+	@section preheader style
+	@tip Set the background color and borders for your email's preheader area.
+	*/
+		#templatePreheader{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Preheader
+	@section preheader text
+	@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+	*/
+		.preheaderContainer .mcnTextContent,.preheaderContainer .mcnTextContent p{
+			/*@editable*/color:#606060;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:11px;
+			/*@editable*/line-height:125%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Preheader
+	@section preheader link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		.preheaderContainer .mcnTextContent a{
+			/*@editable*/color:#606060;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Header
+	@section header style
+	@tip Set the background color and borders for your email's header area.
+	*/
+		#templateHeader{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Header
+	@section header text
+	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+	*/
+		.headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
+			/*@editable*/color:#606060;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:15px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section header link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		.headerContainer .mcnTextContent a{
+			/*@editable*/color:#6DC6DD;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section body style
+	@tip Set the background color and borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Body
+	@section body text
+	@tip Set the styling for your email's body text. Choose a size and color that is easy to read.
+	*/
+		.bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
+			/*@editable*/color:#606060;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:15px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section body link
+	@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.
+	*/
+		.bodyContainer .mcnTextContent a{
+			/*@editable*/color:#6DC6DD;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section footer style
+	@tip Set the background color and borders for your email's footer area.
+	*/
+		#templateFooter{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Footer
+	@section footer text
+	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+	*/
+		.footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
+			/*@editable*/color:#606060;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:11px;
+			/*@editable*/line-height:125%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section footer link
+	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+	*/
+		.footerContainer .mcnTextContent a{
+			/*@editable*/color:#606060;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[id=bodyCell]{
+			padding:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcnTextContentContainer]{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcnBoxedTextContentContainer]{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcpreview-image-uploader]{
+			width:100% !important;
+			display:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		img[class=mcnImage]{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcnImageGroupContentContainer]{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageGroupContent]{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageGroupBlockInner]{
+			padding-bottom:0 !important;
+			padding-top:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		tbody[class=mcnImageGroupBlockOuter]{
+			padding-bottom:9px !important;
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcnCaptionTopContent],table[class=mcnCaptionBottomContent]{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcnCaptionLeftTextContentContainer],table[class=mcnCaptionRightTextContentContainer],table[class=mcnCaptionLeftImageContentContainer],table[class=mcnCaptionRightImageContentContainer],table[class=mcnImageCardLeftTextContentContainer],table[class=mcnImageCardRightTextContentContainer]{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardLeftImageContent],td[class=mcnImageCardRightImageContent]{
+			padding-right:18px !important;
+			padding-left:18px !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardBottomImageContent]{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardTopImageContent]{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardLeftImageContent],td[class=mcnImageCardRightImageContent]{
+			padding-right:18px !important;
+			padding-left:18px !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardBottomImageContent]{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnImageCardTopImageContent]{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		table[class=mcnCaptionLeftContentOuter] td[class=mcnTextContent],table[class=mcnCaptionRightContentOuter] td[class=mcnTextContent]{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnCaptionBlockInner] table[class=mcnCaptionTopContent]:last-child td[class=mcnTextContent]{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnBoxedTextContentColumn]{
+			padding-left:18px !important;
+			padding-right:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=mcnTextContent]{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section template width
+	@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+	*/
+		table[id=templateContainer],table[id=templatePreheader],table[id=templateHeader],table[id=templateBody],table[id=templateFooter]{
+			/*@tab Mobile Styles
+@section template width
+@tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.*/max-width:600px !important;
+			/*@editable*/width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 1
+	@tip Make the first-level headings larger in size for better readability on small screens.
+	*/
+		h1{
+			/*@editable*/font-size:24px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 2
+	@tip Make the second-level headings larger in size for better readability on small screens.
+	*/
+		h2{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 3
+	@tip Make the third-level headings larger in size for better readability on small screens.
+	*/
+		h3{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section heading 4
+	@tip Make the fourth-level headings larger in size for better readability on small screens.
+	*/
+		h4{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		table[class=mcnBoxedTextContentContainer] td[class=mcnTextContent],td[class=mcnBoxedTextContentContainer] td[class=mcnTextContent] p{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Preheader Visibility
+	@tip Set the visibility of the email's preheader on small screens. You can hide it to save space.
+	*/
+		table[id=templatePreheader]{
+			/*@editable*/display:block !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Preheader Text
+	@tip Make the preheader text larger in size for better readability on small screens.
+	*/
+		td[class=preheaderContainer] td[class=mcnTextContent],td[class=preheaderContainer] td[class=mcnTextContent] p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:115% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small screens.
+	*/
+		td[class=headerContainer] td[class=mcnTextContent],td[class=headerContainer] td[class=mcnTextContent] p{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		td[class=bodyContainer] td[class=mcnTextContent],td[class=bodyContainer] td[class=mcnTextContent] p{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section footer text
+	@tip Make the body content text larger in size for better readability on small screens.
+	*/
+		td[class=footerContainer] td[class=mcnTextContent],td[class=footerContainer] td[class=mcnTextContent] p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:115% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		td[class=footerContainer] a[class=utilityLink]{
+			display:block !important;
+		}
+
+}</STYLE>
+</HEAD>
+<BODY leftMargin=0 topMargin=0 offset="0" marginheight="0" marginwidth="0">
+<CENTER>
+<TABLE id=bodyTable height="100%" cellSpacing=0 cellPadding=0 width="100%" 
+align=center border=0>
+  <TBODY>
+  <TR>
+    <TD id=bodyCell vAlign=top align=center><!-- BEGIN TEMPLATE // -->
+      <TABLE id=templateContainer cellSpacing=0 cellPadding=0 width=600 
+border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top align=center><!-- BEGIN PREHEADER // -->
+            <TABLE id=templatePreheader cellSpacing=0 cellPadding=0 width=600 
+            border=0>
+              <TBODY>
+              <TR>
+                <TD class=preheaderContainer style="PADDING-TOP: 9px" 
+vAlign=top>
+                  <TABLE class=mcnTextBlock cellSpacing=0 cellPadding=0 
+                  width="100%" border=0>
+                    <TBODY class=mcnTextBlockOuter>
+                    <TR>
+                      <TD class=mcnTextBlockInner vAlign=top>
+                        <TABLE class=mcnTextContentContainer cellSpacing=0 
+                        cellPadding=0 width=366 align=left border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=mcnTextContent 
+                            style="PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 18px; PADDING-RIGHT: 0px" 
+                            vAlign=top></TD></TR></TBODY></TABLE>
+                        <TABLE class=mcnTextContentContainer cellSpacing=0 
+                        cellPadding=0 width=197 align=right border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=mcnTextContent 
+                            style="PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 0px; PADDING-RIGHT: 18px" 
+                            vAlign=top></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- // END PREHEADER --></TD></TR>
+        <TR>
+          <TD vAlign=top align=center><!-- BEGIN HEADER // -->
+            <TABLE id=templateHeader cellSpacing=0 cellPadding=0 width=600 
+            border=0>
+              <TBODY>
+              <TR>
+                <TD class=headerContainer vAlign=top>
+                  <TABLE class=mcnImageBlock cellSpacing=0 cellPadding=0 
+                  width="100%" border=0>
+                    <TBODY class=mcnImageBlockOuter>
+                    <TR>
+                      <TD class=mcnImageBlockInner 
+                      style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px" 
+                      vAlign=top>
+                        <TABLE class=mcnImageContentContainer cellSpacing=0 
+                        cellPadding=0 width="100%" align=left border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=mcnImageContent 
+                            style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px" 
+                            vAlign=top><IMG class=mcnImage 
+                              style="MAX-WIDTH: 640px; VERTICAL-ALIGN: bottom; PADDING-BOTTOM: 0px; DISPLAY: inline !important" 
+                              alt=a align=left 
+                              src="cid:image_0000" 
+                              width=600> 
+                </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- // END HEADER --></TD></TR>
+        <TR>
+          <TD vAlign=top align=center><!-- BEGIN BODY // -->
+            <TABLE id=templateBody cellSpacing=0 cellPadding=0 width=600 
+            border=0>
+              <TBODY>
+              <TR>
+                <TD class=bodyContainer vAlign=top>
+                  <TABLE class=mcnTextBlock cellSpacing=0 cellPadding=0 
+                  width="100%" border=0>
+                    <TBODY class=mcnTextBlockOuter>
+                    <TR>
+                      <TD class=mcnTextBlockInner vAlign=top>
+                        <TABLE class=mcnTextContentContainer cellSpacing=0 
+                        cellPadding=0 width=600 align=left border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=mcnTextContent 
+                            style="PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px" 
+                            vAlign=top>
+                              <H1 style="TEXT-ALIGN: justify"><SPAN 
+                              style="FONT-SIZE: 14px">Dear 
+                              Customer,&nbsp;</SPAN></H1>
+                              <DIV style="TEXT-ALIGN: justify">You may have 
+                              noticed that some limitations have been placed on 
+                              your PayPal account. We know this can be 
+                              frustrating but you can remove these limitations 
+                              in a few steps.<BR><BR><STRONG>Why my account is 
+                              limited</STRONG><BR>This is part of our security 
+                              process and helps ensure that PayPal continue to 
+                              be safer way to buy online. Often all we need is a 
+                              bit more information. While your account is 
+                              limited, some options in your account won't be 
+                              available such as sending and receiving money, 
+                              editing your details and closing your 
+                              account.<BR><BR><STRONG>How to remove my 
+                              limitation</STRONG><BR>You can resolve your 
+                              limitation by following these simple 
+                              steps:<BR>&nbsp; 1. Click on the Resolution Centre 
+                              button.<BR>&nbsp; 2. Provide the information 
+                              needed. The sooner your provide the information we 
+                              need, the sooner we can resolve the 
+                              situation.<BR><BR>If you need further assistance, 
+                              simply click on the &lsquo;Contact us&rsquo; link in the 
+                              footer to get in touch with our customer 
+                              service.&nbsp;</DIV><BR>Yours sincerely,<BR>PayPal 
+                            </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+                  <TABLE class=mcnButtonBlock cellSpacing=0 cellPadding=0 
+                  width="100%" border=0>
+                    <TBODY class=mcnButtonBlockOuter>
+                    <TR>
+                      <TD class=mcnButtonBlockInner 
+                      style="PADDING-BOTTOM: 18px; PADDING-TOP: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px" 
+                      vAlign=top align=center>
+                        <TABLE class=mcnButtonContentContainer 
+                        style="BORDER-TOP: #0d48db 2px dotted; BORDER-RIGHT: #0d48db 2px dotted; BORDER-COLLAPSE: separate !important; BORDER-BOTTOM: #0d48db 2px dotted; BORDER-LEFT: #0d48db 2px dotted; BACKGROUND-COLOR: #0d48db; border-radius: 7px" 
+                        cellSpacing=0 cellPadding=0 width="100%" border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=mcnButtonContent 
+                            style="FONT-SIZE: 16px; FONT-FAMILY: Arial, 'Helvetica Neue', Helvetica, sans-serif; PADDING-BOTTOM: 16px; PADDING-TOP: 16px; PADDING-LEFT: 16px; PADDING-RIGHT: 16px" 
+                            vAlign=middle align=center><A 
+                              title="Resolutions Center" class="mcnButton " 
+                              style="FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-ALIGN: center; TEXT-DECORATION: none; LETTER-SPACING: normal; LINE-HEIGHT: 100%" 
+                              href="http://goo.gl/CoFoVJ" 
+                              target=_blank>Resolutions Center</A> 
+                        </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+                  <TABLE class=mcnDividerBlock cellSpacing=0 cellPadding=0 
+                  width="100%" border=0>
+                    <TBODY class=mcnDividerBlockOuter>
+                    <TR>
+                      <TD class=mcnDividerBlockInner 
+                      style="PADDING-BOTTOM: 18px; PADDING-TOP: 18px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px">
+                        <TABLE class=mcnDividerContent 
+                        style="BORDER-TOP: #999999 1px solid" cellSpacing=0 
+                        cellPadding=0 width="100%" border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><SPAN></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- // END BODY --></TD></TR>
+        <TR>
+          <TD vAlign=top align=center><!-- BEGIN FOOTER // -->
+            <TABLE id=templateFooter cellSpacing=0 cellPadding=0 width=600 
+            border=0>
+              <TBODY>
+              <TR>
+                <TD class=footerContainer style="PADDING-BOTTOM: 9px" 
+vAlign=top>
+                  <TABLE class=mcnTextBlock cellSpacing=0 cellPadding=0 
+                  width="100%" border=0>
+                    <TBODY class=mcnTextBlockOuter>
+                    <TR>
+                      <TD class=mcnTextBlockInner vAlign=top>
+                        <TABLE class=mcnTextContentContainer cellSpacing=0 
+                        cellPadding=0 width=600 align=left border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=mcnTextContent 
+                            style="PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px" 
+                            vAlign=top>Copyright &#169; 2016 PayPal Inc. All rights 
+                              reserved.&nbsp;<BR><BR>Consumer advisory: PayPal 
+                              Pte Ltd, the Holder of the PayPal&trade; payment stored 
+                              value facility, does not require the approval of 
+                              the Monetary Authority of Singapore. Consumers 
+                              (users) are advised to read the terms and 
+                              conditions carefully.<BR><BR>Please do not reply 
+                              to this email. We are unable to respond to 
+                              inquiries sent to this address. For immediate 
+                              answers to your questions, visit our Help Center 
+                              by clicking "Help" at the top of any PayPal 
+                              page.&nbsp; 
+                  </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- // END FOOTER --></TD></TR></TBODY></TABLE><!-- // END TEMPLATE --></TD></TR></TBODY></TABLE></CENTER></BODY></HTML>
+

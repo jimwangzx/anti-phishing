@@ -1,0 +1,52 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.30 with SMTP id o30csp210717lfi;
+        Tue, 31 Mar 2015 14:26:32 -0700 (PDT)
+X-Received: by 10.55.54.19 with SMTP id d19mr81052704qka.98.1427837190695;
+        Tue, 31 Mar 2015 14:26:30 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [2a01:111:f400:fc10::1:611])
+        by domain.com with ESMTPS id i7si613359qcm.27.2015.03.31.14.26.27
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 31 Mar 2015 14:26:28 -0700 (PDT)
+Received-SPF: temperror (domain.com: error in processing during lookup of user@domain.com: DNS timeout) client-ip=2a01:111:f400:fc10::1:611;
+Authentication-Results: domain.com;
+       spf=temperror (domain.com: error in processing during lookup of user@domain.com: DNS timeout) user@domain.com
+Received: from domain.com (10.255.230.28) by
+ domain.com (10.255.230.14) with Microsoft SMTP
+ Server (TLS) id 15.1.112.19; Tue, 31 Mar 2015 21:26:25 +0000
+Received: from domain.com ([169.254.14.239]) by
+ domain.com ([169.254.14.239]) with mapi id
+ 15.01.0112.000; Tue, 31 Mar 2015 21:26:25 +0000
+From: Huma Abedin <huma@hrcoffice.com>
+To: John user <user@domain.com>
+Subject: Katzenberg
+Thread-Topic: Katzenberg
+Thread-Index: AQHQa/lXfKpE6N6pokOYA+5MPhZGPA
+Date: Tue, 31 Mar 2015 21:26:25 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [178.239.82.32]
+authentication-results: domain.com; dkim=none (message not signed)
+ header.d=none;
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BL2PR03MB114;
+x-forefront-antispam-report: BMV:1;SFV:NSPM;SFS:(10009020)(6009001)(66066001)(2656002)(50986999)(110136001)(450100001)(558084003)(107886001)(77156002)(106116001)(221733001)(229853001)(33656002)(76576001)(54356999)(86362001)(87936001)(40100003)(92566002)(102836002)(46102003)(62966003)(2900100001)(122556002);DIR:OUT;SFP:1101;SCL:1;SRVR:BL2PR03MB114;H:domain.com;FPR:;SPF:None;MLV:sfv;LANG:en;
+x-microsoft-antispam-prvs: <user@domain.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(601004)(5002010)(5005006);SRVR:BL2PR03MB114;BCL:0;PCL:0;RULEID:;SRVR:BL2PR03MB114;
+x-forefront-prvs: 0532BF6DC2
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginatorOrg: hrcoffice.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 31 Mar 2015 21:26:25.3609
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: cd8891aa-8599-4062-9818-7b7cb05e1dad
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL2PR03MB114
+
+Coming tomorrow at 12:30pm for 45 minutes. Only time that works for both of
+ them.

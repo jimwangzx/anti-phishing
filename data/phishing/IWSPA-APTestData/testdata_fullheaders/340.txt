@@ -1,0 +1,84 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp1609493lfb;
+        Mon, 8 Feb 2015 11:58:58 -0800 (PST)
+X-Received: by 10.194.242.2 with SMTP id wm2mr29807550wjc.155.1454961537988;
+        Mon, 08 Feb 2015 11:58:57 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-wm0-domain.com (mail-wm0-domain.com. [2a00:1450:400c:c09::236])
+        by domain.com with ESMTPS id c2si13995791wma.96.2016.02.08.11.58.57
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 08 Feb 2015 11:58:57 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c09::236 as permitted sender) client-ip=2a00:1450:400c:c09::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c09::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-wm0-domain.com with SMTP id g62so98521710wme.0
+        for <user@domain.com>; Mon, 08 Feb 2015 11:58:57 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:From: Faiz Shakir <faiz.shakir@gmail.com>
+        bh=MyVkQQu9qZOWp/ywyyyOtrR9AvR62vK0RrXN0szszEU=;
+        b=bd9Z0vf3v8wRvBBI0hY4g7znhQfVfQmXHGuUNpQmUxKrZW3FRHX8aFy4tPFEur1oKD
+         Qt8QbtxYlpX+QZD+jtkTZotPbLbX3hdmQs5lzckK5LcaONc6btyMokwFOk3idGqclbLo
+         twTejL9EhoiRZ/PL1A7N41aDIklgAE3EgskQLb3RAvb6Ma5NDNsGLoexyDkSNRAFaG+G
+         jtbHKgW1Q7j4Z+Q16ALycuYBILet+b5CvZyKtteDRCuBeUPjh2qU1Fa9sSO1uXWHs+JT
+         vDHM9BkB+r2nE6w5NLO2o3BI1t45m/7rMTGEZBgTT+phDcYooxUK15DFymDDL3+o2USd
+         SRBA
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:From: Faiz Shakir <faiz.shakir@gmail.com>
+         :content-type;
+        bh=MyVkQQu9qZOWp/ywyyyOtrR9AvR62vK0RrXN0szszEU=;
+        b=fv86kyeaIJl3rA3Jd5FwXP2dXhzIfJPbXOGKZIvvYUfzlr8yzdF9YzKQkP9dww4aQY
+         DGxz1Q6UrvB8g8mTevd0PFibEhFS6pjbusaZxS144Oe34TIRXZhnqp6csq1XgL75/x7n
+         1BuReSsHkCWylA6wqhFQk/ig7kww3+2ywYmfHRusQFzrEnqdU0Bjz/uoGfDLak+0yBDH
+         4cVf88r9+glUzJTGnPhSQ9QxA5jveuIFUHw3LQhb+cYmxzZt0k5PS7RwYgDlhVqi0kOO
+         MOVxPllHokP9CVlxuZjQNoddWeVIEk1DOhVgwT85br6aj/n08NtTwCH98UHJCfhudlew
+         PDTg
+X-Gm-Message-State: AG10YOTILJV1zbUF5rudqj12Q0IGKKZ+vTERtJCgLbkmKX3hID7M1CH+7xNFHkWUGCHCVHSbkBohF0b0dBYIcA
+X-Received: by 10.194.113.38 with SMTP id iv6mr29639717wjb.19.1454961537804;
+ Mon, 08 Feb 2015 11:58:57 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.28.37.131 with HTTP; Mon, 8 Feb 2015 11:58:38 -0800 (PST)
+From: Faiz Shakir <faiz.shakir@gmail.com>
+Date: Mon, 8 Feb 2015 14:58:38 -0500
+Message-ID: <user@domain.com>
+Subject: marathons
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1130ce1c9f70d5052b47a1f6
+
+For some reason, this reminded me of the time when you told me some guy
+died during one of crazy marathons you ran, and you couldn't stop laughing
+about it. I chuckled at this, and then felt sorry for having done so
+
+Runner Dies While Competing in 5-Mile Krispy Kreme Challenge
+
+A man died over the weekend in the middle of the Krispy Kreme Challenge
+race in Raleigh, North Carolina.
+
+The man, 58, dropped out of the race after he began experiencing chest
+pains within the first mile of the 5-mile race.
+[image: Photo domain.com: Shutterstock]
+<<<link>>
+jpg>
+
+Photo domain.com: Shutterstock
+
+Race organizers reported that the man was transported by EMS to Rex
+Hospital where he was pronounced dead.
+
+The Krispy Kreme Challenge <<<link>>> is an
+annual charity race organized by North Carolina State University students
+that benefits the N.C. Children=E2=80=99s Hospital.
+
+Participants must eat 12 Krispy Kreme doughnuts midway through the
+hour-long race.
+
+=E2=80=9CWe are deeply saddened and wish to convey our heartfelt condolence
+s to his
+loved ones,=E2=80=9D a post on the Krispy Kreme Challenge Facebook page rea
+d.
+
+The deceased man=E2=80=99s name has not been released.

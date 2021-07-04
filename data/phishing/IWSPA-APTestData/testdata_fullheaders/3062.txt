@@ -1,0 +1,62 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp1985132lfr;
+        Mon, 3 Aug 2015 18:29:43 -0700 (PDT)
+X-Received: by 10.170.217.84 with SMTP id j81mr1092239ykf.92.1438651781907;
+        Mon, 03 Aug 2015 18:29:41 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::230])
+        by domain.com with ESMTPS id 130si12204666ykp.162.2015.08.03.18.29.41
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 03 Aug 2015 18:29:41 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::230 as permitted sender) client-ip=2607:f8b0:4002:c07::230;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::230 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id x123so125489738yka.1
+        for <user@domain.com>; Mon, 03 Aug 2015 18:29:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+         :content-type;
+        bh=nQVvVXUSxchLgdgpMu4TOEM1qxcorS1fcHu/aI3IW5I=;
+        b=ThrP0qAmCOJd0nnxiv8EESvqKE408CEpP6dKzrBmwBlOayEl2wtnqnQSw2r1NeelBp
+         c2SOnsqlT3Lihc1NAzgqxaDzu5QR/YW0NxVbuGe3I1IvSNfhLs0x+2+bIsQ/HpU2SDVz
+         tJF8dPIYdWcT2jJZo4Zo3yRnAUelosqdB1yZI
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+        bh=nQVvVXUSxchLgdgpMu4TOEM1qxcorS1fcHu/aI3IW5I=;
+        b=TohqqweyZHD8K/vSo69fJG3UYtBOFWPY6Q6XEY4dd7Q/0oU43fAiIrTdLIEiR+vLzA
+         PU06llIjZQAYU9cIyVKtsK5aVJUahQd/MHvgeU/5/PPO4hQKieu/tKyjGZDtruJFkGyr
+         xoqmD84sXTT/eWwf0rl/+Jf9uz0ZogSTm4aNVyOUi0gxx5BVnWOSS7MXh6UO9NDjFl+g
+         OerkBgt6LhUbv7xh+yMyEYZzMW+JhccpgyTPA8t1vgVrKckz0HSFWEXqG/vPYhMGVLzi
+         jUi1n/8c04agLMOzJ5V691z/ACcACchFiYenSe4x+HzPd+XtD7FpV3kUQY86U81DspT0
+         j/Ug
+X-Gm-Message-State: ALoCoQlrfkg40XEN5NpHvsnGXLNM4pw57PmY8JvWfaKEjR1Ql2ln3h1hOhHUsjpMFF7HHiF1aBjh
+MIME-Version: 1.0
+X-Received: by 10.170.159.133 with SMTP id a127mr1114922ykd.4.1438651781200;
+ Mon, 03 Aug 2015 18:29:41 -0700 (PDT)
+Received: by 10.129.71.193 with HTTP; Mon, 3 Aug 2015 18:29:41 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+Date: Mon, 3 Aug 2015 21:29:41 -0400
+Message-ID: <user@domain.com>
+Subject: Fwd: "Hillary Most Organized in NV"
+From: Robby Mook <re47@hillaryclinton.com>
+To: Huma Abedin <user@domain.com>, John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113a736a5ff5ce051c7238fd
+
+This is really great.  Kudos to team NV
+
+---------- Forwarded message ----------
+From: Robby Mook <re47@hillaryclinton.com>
+Date: Mon, Aug 3, 2015 at 9:18 PM
+Subject: "Hillary Most Organized in NV"
+To: user@domain.com, Marlon Marshall <user@domain.com>
+
+Check it out!
+
+<<link>>

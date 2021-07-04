@@ -1,0 +1,272 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.3.4.5])
+	by domain.com (Postfix) with ESMTP id 41E9A5370B2
+	for <user@domain.com>; Sun, 18 Dec 2015 10:44:21 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 8621C6FA458
+	for <user@domain.com>; Sun, 18 Dec 2015 10:44:18 -0500 (EST)
+Received: from 10.3.4.5 (unknown [218.111.160.122])
+	by domain.com (Postfix) with SMTP
+	for <user@domain.com>; Sun, 18 Dec 2015 10:44:17 -0500 (EST)
+Received: from 127.64.135.244 by 218.111.160.122; Sun, 18 Dec 2015 20:39:13 +0500
+Message-ID: <U[20
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **************
+X-Spam-Status: Yes, score=14.9 required=5.0 tests=MISSING_HEADERS,
+	MISSING_SUBJECT,RCVD_BY_IP,RCVD_DOUBLE_IP_SPAM,RCVD_HELO_IP_MISMATCH,
+	RCVD_IN_BL_SPAMCOP_NET,RCVD_IN_DSBL,RCVD_IN_NJABL_DUL,
+	RCVD_IN_NJABL_PROXY,RCVD_IN_SORBS_HTTP,RCVD_IN_SORBS_MISC,
+	RCVD_NUMERIC_HELO autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  0.1 RCVD_BY_IP Received by mail server with no name
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  2.2 RCVD_HELO_IP_MISMATCH Received: HELO and IP do not match, but should
+	*  0.1 MISSING_HEADERS Missing To: header
+	*  0.0 RCVD_IN_SORBS_HTTP RBL: SORBS: sender is open HTTP proxy server
+	*      [218.111.160.122 listed in domain.com]
+	*  3.8 RCVD_IN_DSBL RBL: Received via a relay in domain.com
+	*      [<<>>]
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  0.3 RCVD_IN_SORBS_MISC RBL: SORBS: sender is open proxy server
+	*      [218.111.160.122 listed in domain.com]
+	*  0.4 RCVD_IN_NJABL_PROXY RBL: NJABL: sender is an open proxy
+	*      [218.111.160.122 listed in domain.com]
+	*  0.1 RCVD_IN_NJABL_DUL RBL: NJABL: dialup sender did non-local SMTP
+	*      [218.111.160.122 listed in domain.com]
+	*  4.1 RCVD_DOUBLE_IP_SPAM Bulk email fingerprint (double IP) found
+	*  1.2 MISSING_SUBJECT Missing Subject: header
+Date: Sun, 18 Dec 2015 10:44:18 -0500 (EST)
+From: aw-confirm@eBay.com
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 150
+
+From user@domain.com  Sun Dec 18 15:41:08 2015 
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.3.4.5])
+	by domain.com (Postfix) with ESMTP id 1797F53716A
+	for <user@domain.com>; Sun, 18 Dec 2015 15:41:08 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id BBA0B6FA440
+	for <user@domain.com>; Sun, 18 Dec 2015 15:41:04 -0500 (EST)
+Received: from 66.165.234.32 (unknown [66.165.234.32])
+	by domain.com (Postfix) with SMTP
+	for <user@domain.com>; Sun, 18 Dec 2015 15:41:04 -0500 (EST)
+Received: from 106.232.61.128 by ; Sun, 18 Dec 2015 14:35:04 -0600
+Message-ID: <user@domain.com>
+From: aw-confirm@eBay.com
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: TKO NOTICE: eBay request, please read!
+Date: Sun, 18 Dec 2015 14:33:04 -0600
+X-Mailer: Microsoft Outlook Express 5.00.2615.200
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--175564930688039390198"
+X-Priority: 1
+X-MSMail-Priority: High
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ******************
+X-Spam-Status: Yes, score=18.9 required=5.0 tests=FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,FORGED_OUTLOOK_TAGS,HTML_FONT_BIG,HTML_MESSAGE,
+	HTML_MIME_NO_HTML_TAG,HTML_NONELEMENT_00_10,HTML_TAG_EXIST_TBODY,
+	MIME_BOUND_DD_DIGITS,MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,
+	MISSING_MIMEOLE,MPART_ALT_DIFF,MSGID_SPAM_LETTERS,RCVD_IN_XBL,
+	RCVD_NUMERIC_HELO autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  2.7 MSGID_SPAM_LETTERS Spam tool Message-Id: (letters variant)
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 HTML_FONT_BIG BODY: HTML tag for a big font size
+	*  0.1 HTML_TAG_EXIST_TBODY BODY: HTML has "tbody" tag
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.0 HTML_NONELEMENT_00_10 BODY: 0% to 10% of HTML elements are non-standard
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [66.165.234.32 listed in sbl-domain.com]
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+	*  0.1 FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 151
+
+----175564930688039390198
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0 ?>
+
+<!--eBay V3- msxml 4.0 XXXXXXXXXXXXXXXXXXXXXXXXXX-->
+#message .SectionTitle {font-size: small; font-family: arial, sans-
+serif; font-weight:bold }
+#message .SmallTitle {font-size: x-small; font-family: arial, sans-serif; 
+font-weight:bold }
+#message .SectionBody {font-size: x-small; font-family: arial, sans-serif}
+
+#message .DetailTable, #message .DetailTable th {font-size: 10 pt; font-fa
+mily: arial, sans-serif; font-weight:normal }
+#message .Title {font-size: medium; font-family: verdana, arial, sans-seri
+f}
+#message .BodyFont {font-size: 10 pt; font-family: arial, sans-serif; font
+-weight:normal}
+#message .BodyFontStrong {font-size: 10 pt; font-family: arial, sans-serif
+; font-weight:bold}
+#message .SmallBody {font-size: xx-small; font-family: arial, sans-serif; 
+font-weight:normal; margin-top: 8 px;  margin-bottom: 6 px}
+#message .Separator { COLOR: #CCCCCC; height: 1px}
+#message .HighlightedSeparator { COLOR: #9999CC; height: 1px}
+#message .FooterSeparator { COLOR: #CCCCCC; height: 1px}
+#message .Footer, #message .Footer p {font-size: xx-small; font-family:ari
+al, sans-serif; color:#666666; margin-top: 2 px;  margin-bottom: 8 px}
+#message .SmallPara, #message .SmallParap {margin-top: 8 px;  margin-botto
+m: 6 px}
+
+    #message .ItemTitle {font-size: 10pt; font-family: arial, sans-
+serif; font-weight:bold }
+<XBODY bgcolor=3D"#FFFFFF">
+
+<TD style=3D"WORD-WRAP: break-word" width=3D600>
+<TABLE cellSpacing=3D0 cellPadding=3D2 width=3D"100%" bgColor=3D#eeeef8 bo
+rder=3D0 xmlns:x=3D"urn:schemas-microsoft-com:xslt">
+
+                          <A href=3D"<>" target=3D_b
+lank><IMG src=3D"<>" al
+ign=3Dright border=3D0><font size=3D"4" face=3D"Verdana">eBay 
+                            request: Confirm your eBay account.</TD
+
+
+
+
+                    <font size=3D"2" face=3D"Arial, Verdana">Dear eBay cus
+tomer,
+
+
+
+                    Due to recent activity, including possible unauthorize
+d listings 
+                    placed on your account, we will require a second confi
+rmation 
+                    of your identity with us in order to allow us to inves
+tigate 
+                    this matter further.Your account is not suspended, but
+ if 
+                    in 48 hours after you receive this message your accoun
+t is 
+                    not confirmed we reserve the right to suspend your eBa
+y registration. 
+                    If you received this notice and you are not the author
+ized 
+                    account holder, please be aware that it is in violatio
+n of 
+                    eBay policy to represent oneself as another eBay user.
+ Such 
+                    action may also be in violation of local, national, an
+d/or 
+                    international law. eBay is committed to assist law enf
+orcement 
+                    with any inquires related to attempts to misappropriat
+e personal 
+                    information with the intent to domain.com fraud or theft. 
+Information 
+                    will be provided at the request of law enforcement age
+ncies 
+                    to ensure that perpetrators are prosecuted to the full
+est 
+                    extent of the law.
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#cccccc xm
+lns:x=3D"urn:schemas-microsoft-com:xslt">
+
+                    <font size=3D"2" face=3D"Arial, Verdana">
+                      To confirm your identity with us click here:
+                      <a target=3D"_blank"  href=3D"<>
+domain.com/aw-cgi/SignIn.html" ><>
+ayISAPI.dll?OneTimePayment&ssPageName=3Dh:h:sin:US
+                    <font size=3D"2" face=3D"Arial, Verdana">After resp
+onding to 
+                      the message, we ask that you allow at least 72 hours
+ for 
+                      the case to be investigated. Emailing us before that
+ time 
+                      will result in delays. We apologize in advance for a
+ny inconvenience 
+                      this may cause you and we would like to thank you fo
+r your 
+                      cooperation as we review this matter. 
+                    <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100
+%" border=3D0 xmlns:x=3D"urn:schemas-microsoft-com:xslt">
+
+
+
+                          <IMG height=3D1 src=3D"<>
+c.com/aw/pics/spacer.gif" width=3D360>
+                          <IMG height=3D1 src=3D"<>
+c.com/aw/pics/spacer.gif" width=3D1>
+
+
+
+                    <BR xmlns:x=3D"urn:schemas-microsoft-com:xslt">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#cccccc xm
+lns:x=3D"urn:schemas-microsoft-com:xslt">
+
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0 xmlns:x=3D
+"urn:schemas-microsoft-com:xslt">
+
+<FONT face=3D"Arial, Verdana" size=3D2>
+                            eBay will request personal data (password, 
+domain.com 
+                              card/bank numbers, and so on) in this email.
+
+Thank you for using eBay! <A href=3D"<>" target=3D
+_blank><>
+<HR class=3DFooterSeparator xmlns:x=3D"urn:schemas-microsoft-com:xslt">
+
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0 xmlns:x=3D
+"urn:schemas-microsoft-com:xslt">
+
+<FONT face=3D"Arial, Verdana" color=3D#666666 size=3D1>
+                            This eBay notice was sent to you based on y
+our 
+                              eBay account preferences. If you would like 
+to review 
+                              your notification preferences for other type
+s of 
+                              communications, <A href=3D"<>
+com/aw-cgi/eBayISAPI.dll?OptinLoginShow&amp;ssPageName=3DADME:X:EOAS:US:11
+" target=3D_blank>click 
+                              here. If you would like to receive this 
+email 
+                              in text only, <A href=3D"<>
+m/aw-cgi/eBayISAPI.dll?OptinLoginShow&amp;ssPageName=3DADME:X:EOAS:US:12" 
+target=3D_blank>click 
+                              here. 
+As outlined in our User Agreement, eBay will periodically send you info
+rmation about site changes and enhancements. domain.com our <A href=3D"<>
+domain.com/help/policies/privacy-policy.html?ssPageName=3DADME:X:EOAS:U
+S:14" target=3D_blank>Privacy Policy and <A href=3D"<>
+com/help/policies/user-agreement.html?ssPageName=3DADME:X:EOAS:US:13" targ
+et=3D_blank>User Agreement if you have any questions. <FONT
+ face=3D"Arial, Verdana" color=3D#666666 size=3D1>
+Copyright =A9 2015 eBay Inc. All Rights Reserved.Des
+ignated trademarks and brands are the property of their respective owners.
+
+
+
+eBay and the eBay logo are trademarks of eBay Inc. <
+/FONT>
+
+----175564930688039390198

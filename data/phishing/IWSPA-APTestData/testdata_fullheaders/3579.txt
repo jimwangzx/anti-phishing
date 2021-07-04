@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.215.208 with SMTP id q77csp4467134lfi;
+        Sun, 4 Jan 2015 11:22:54 -0800 (PST)
+X-Received: by 10.229.248.69 with SMTP id mf5mr139315698qcb.29.1420399373404;
+        Sun, 04 Jan 2015 11:22:53 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qg0-domain.com (mail-qg0-domain.com. [2607:f8b0:400d:c04::232])
+        by domain.com with ESMTPS id d110si56391329qga.93.2015.01.04.11.22.52
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 04 Jan 2015 11:22:53 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::232 as permitted sender) client-ip=2607:f8b0:400d:c04::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c04::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qg0-domain.com with SMTP id z60so14332101qgd.9
+        for <user@domain.com>; Sun, 04 Jan 2015 11:22:52 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=subject:references:From: robbymook@gmail.com
+         :content-transfer-encoding:mime-version;
+        bh=weh3AvTllDCiMyZywuOvUzROm5GB4V4UN6TDLfPZaJU=;
+        b=08TwLUgq8EvlZaxZszU1q6ligyXykO3RW9gRo7lJVP1NI9XiwUJIO9DbU66RFyYPUN
+         F/9frlLxak3CCSt13RSMGHuZXiVoSBv/Bs7TjQO66AdNWfA1oKiLENIrm4e0Ma5l7gd7
+         aZxA96CbJeE8/fnSWf60l3fHNWbru20s6Gk7amoqJBZAZHhZXAlWzv5c5TqEplrRoFXc
+         gFm2bdQ7wyhocZGqJPVpxTSt4O7BiVMJ2LWjJlWaDRw9ca16sXoqFRl39+SOPe/WIQQe
+         TjRMAKjqTEF1GfJP03Md7CbnjHoaL8FourJv+zzHv1FIYpqyBmkoyMJh716aTUiHEeIt
+         DWSQ
+X-Received: by 10.229.124.4 with SMTP id s4mr139533772qcr.11.1420399372564;
+        Sun, 04 Jan 2015 11:22:52 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from [10.246.44.77] (203.sub-174-236-192.domain.com. [174.236.192.203])
+        by domain.com with ESMTPSA id t67sm48676227qgt.11.2015.01.04.11.22.51
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 04 Jan 2015 11:22:52 -0800 (PST)
+Subject: Re: 2015 Challenge--California Halfs
+References: <D0CEADDC.8335D%user@domain.com> <CAE6FiQ-uuxUR_d+=+KjVE0JywZRxYRu7=MGdzADc+user@domain.com>
+From: robbymook@gmail.com
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-2FF15E11-F003-4E5C-8897-DC9BD2F57AF5
+X-Mailer: iPhone Mail (11D257)
+In-Reply-To: <CAE6FiQ-uuxUR_d+=+KjVE0JywZRxYRu7=MGdzADc+user@domain.com>
+Message-Id: <57user@domain.com>
+Date: Sun, 4 Jan 2015 14:22:50 -0500
+To: John user <user@domain.com>
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+
+Oh totally.  He's great.  Good idea.  Do you think Tom will want him for his
+ campaign?
+

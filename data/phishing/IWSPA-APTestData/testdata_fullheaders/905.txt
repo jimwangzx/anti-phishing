@@ -1,0 +1,261 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp855975lfb;
+        Fri, 4 Dec 2015 13:01:28 -0800 (PST)
+X-Received: by 10.140.17.213 with SMTP id 79mr21617066qgd.49.1449262888093;
+        Fri, 04 Dec 2015 13:01:28 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bl2-domain.com (mail-domain.com. [65.55.169.71])
+        by domain.com with ESMTPS id u8si13316084qka.53.2015.12.04.13.01.27
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 04 Dec 2015 13:01:28 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.55.169.71 as permitted sender) client-ip=65.55.169.71;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 65.55.169.71 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Authentication-Results: spf=pass (sender IP is 209.85.223.180)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass (signature was
+ verified) header.d=advmail.georgetown.edu;domain.com;
+ dmarc=bestguesspass action=none header.from=advmail.georgetown.edu;
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=advmail.georgetown.edu;domain.com; dmarc=none action=none
+ header.from=advmail.georgetown.edu;
+Received: from domain.com (10.163.126.21) by
+ domain.com (10.141.217.152) with Microsoft SMTP
+ Server (TLS) id 15.1.331.20; Fri, 4 Dec 2015 21:01:24 +0000
+Received: from BN1AFFO11FD052.protection.gbl (2a01:111:f400:7c10::185) by
+ domain.com (2a01:111:e400:52fd::21) with Microsoft
+ SMTP Server (TLS) id 15.1.337.19 via Frontend Transport; Fri, 4 Dec 2015 
+ 21:01:24 +0000
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.75;
+ helo=domain.com;
+Received: from domain.com (141.161.191.75) by
+ domain.com (10.58.53.67) with Microsoft SMTP
+ Server (TLS) id 15.1.337.8 via Frontend Transport; Fri, 4 Dec 2015 21:01:23
+ +0000
+Resent-From: Georgetown University Loyalty Society <giving@advmail.georgetown.edu>
+Received: from na01-bl2-domain.com (141.161.191.14)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Fri, 4 Dec 2015 16:01:11 -0500
+Received: from domain.com (10.163.126.17) by
+ domain.com (10.242.46.142) with Microsoft SMTP
+ Server (TLS) id 15.1.331.20; Fri, 4 Dec 2015 21:01:05 +0000
+Received: from BY2FFO11FD054.protection.gbl (2a01:111:f400:7c0c::198) by
+ domain.com (2a01:111:e400:52fd::17) with Microsoft
+ SMTP Server (TLS) id 15.1.337.19 via Frontend Transport; Fri, 4 Dec 2015 
+ 21:01:04 +0000
+Received-SPF: Pass (domain.com: domain of domain.com
+ designates 209.85.223.180 as permitted sender)
+ receiver=domain.com; client-ip=209.85.223.180;
+ helo=mail-io0-domain.com;
+Received: from mail-io0-domain.com (209.85.223.180) by
+ domain.com (10.1.15.191) with Microsoft SMTP
+ Server (TLS) id 15.1.337.8 via Frontend Transport; Fri, 4 Dec 2015 21:01:02
+ +0000
+Received: by ioir85 with SMTP id r85so128972714ioi.1        for
+ <user@domain.com>; Fri, 04 Dec 2015 13:01:02 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:dkim-signature:From: Georgetown University Loyalty Society <giving@advmail.georgetown.edu>
+         :list-unsubscribe:mime-version:reply-to:message-id:content-type;
+        bh=dxHiS/iy1bCyLg2eH3GJVt8Yxj/y3J0Rtd+gmrmisBQ=;
+        b=ZldfZlveOHebhGcYkH1b3BCU3LJ5Uq4gui1VHLbWYFUS651G2oCkJWZHV+0Sr7ilXw
+         tNsOGcvghl2zooJVtAgFKiKiXmmZ0QK4GBp0edfSGdB3lgWOUdy/XmlblNPqLSlxtcVk
+         TyiD5lHFsyHnpqb1zzL5Xb4P07+bPcPjX4v3l5RN3l8eb1190gxK9TO3BDGf0Po17BfY
+         TVxp3egmsEporZM0Xj9nv4IBK7/GM5eji7QXFul2G+nl4ruYlY9T8H/oIZj6mK8N3kRY
+         RYLQf74iEYiqwlogQtVwhuD3VXKYcujKlseIbugDRMjr/6XUMzAkkrggXjBBiIfrYqVj
+         LKLg
+X-Gm-Message-State: ALoCoQlGa8DtqJDh58HKuoQNCUDLlNzUhYdGGAjknZL6Lq5pfXXjryZOFZ+9+Z7o6oTNnmGYogW8
+X-Received: by 10.107.136.210 with SMTP id s79mr18988272ioi.140.1449262861943;
+        Fri, 04 Dec 2015 13:01:01 -0800 (PST)
+X-Forwarded-To: user@domain.com
+X-Forwarded-For: user@domain.com user@domain.com
+Delivered-To: user@domain.com
+Received: by 10.64.227.243 with SMTP id sd19csp879792iec;        Fri, 4 Dec
+ 2015 13:01:01 -0800 (PST)
+X-Received: by 10.129.159.84 with SMTP id w81mr12924584ywg.233.1449262861329;
+        Fri, 04 Dec 2015 13:01:01 -0800 (PST)
+Return-Path: user@domain.com
+Received: from domain.com (domain.com.
+ [136.147.131.12])        by domain.com with ESMTP id
+ v63si9101794ywf.128.2015.12.04.13.01.01        for <user@domain.com>;
+        Fri, 04 Dec 2015 13:01:01 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 136.147.131.12 as permitted sender) client-ip=136.147.131.12;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=advmail.georgetown.edu;
+ h=From: Georgetown University Loyalty Society <giving@advmail.georgetown.edu>
+ bh=153VV4ZTkbZS6pXQ6H//ZBySdms=;
+ b=bPa6seEScOuXlKRbQQyH/raEL7levZ/O/Vrp4t7V0y8fsYz7sMZOUmsbVXqQIokP6erwIjwdokIS
+   y11xTUm6RuH7g2q+h4d6dQt1ZFhinxMfbSGQgDgMvjaffld47OqbQQVHQUBmUhHfoSYkaMq/+OMF
+   4oNCS7uNx7LP+BzT6s4
+Received: by domain.com id hc7vgq163hs6 for
+ <user@domain.com>; Fri, 4 Dec 2015 21:00:51 +0000 (envelope-from
+ <user@domain.com>)
+From: Georgetown University Loyalty Society <giving@advmail.georgetown.edu>
+To: user@domain.com
+Subject: Early Registration for John Carroll Weekend
+Date: Fri, 4 Dec 2015 15:00:51 -0600
+List-Unsubscribe: <mailto:user@domain.com>
+MIME-Version: 1.0
+Reply-To: Georgetown University Loyalty Society
+	<user@domain.com>
+x-job: 7201463_219962
+Message-ID: <18user@domain.com>
+Content-Type: multipart/alternative; boundary="lrxrn4KlaKDo=_?:"
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2FFO11FD054;1:IvxUoaQ2jcTPN8QeYBNnDB/4sZ3cO6Y9Ebp2hhTjMfctuX7F7Culd1YDDlSO/LoMZF1bVgnFdbmLohcwLYarqqw4f6sw/dsZje9m5Tc8TbviLp7syHOG4qOjQ3UcJ35E5Bw/QCWxPNl/AevVxQHLMIIPu/158xxdzKV5eVxzV1SZBUkRs8mOJ8ebaWJRmOoAliBcwAl+CN07rzB4RbW70JXPp/ibTPH/yyQjDuNFBwmQCrKYsc2+Oykgr62kOXgwcV8U2p1FwnLCdxiLS4l03BtMWGMUJ9OGecpBLVKFEH5/5mhXJNR7+QKAKwRYV+mFT/wDNRp97mgNiNvYDhHm5mGHkMtQLoE1v9T+xRqhrVbMAp94Bj1LHsdHKxx645Y8fw5tVuW7mveeuaBgK0VZTSw9bHPkslBthkK+fpiAs8UsWKt4UjAUw8orR479Xbm1O3QNbAXk+h699UEYI1E9xKEh7YKkzkftz943iu77HUc
+X-Forefront-Antispam-Report-Untrusted: CIP:209.85.223.180;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(2980300002)(1060300003)(438002)(189002)(36944003)(25584004)(504964003)(199003)(229853001)(270700001)(110136002)(450100001)(956001)(63696999)(33646002)(15975445007)(307094003)(95666005)(2171001)(10250500002)(260700001)(59646003)(19580395003)(606003)(50986999)(55176004)(4290100001)(47976999)(54356999)(18206015028)(19617315012)(31696002)(75432002)(53806999)(110436001)(101616003)(18926415007)(2351001)(512954002)(31686004)(6806005)(98436002)(107886002)(19618635001)(42186005)(19580405001)(88552001)(575784001)(89122001)(59536001)(5001970100001)(59656003)(84326002)(59286002)(146001)(106466001)(43066003)(5008740100001)(36036004)(22756006);DIR:INB;SFP:;SCL:1;SRVR:BY2PR07MB107;H:mail-io0-domain.com;FPR:;SPF:Pass;PTR:mail-io0-domain.com;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB107;2:WqUjaDjQyChnD11WRglOeoHxBKVm+6JWvKTYLTKHu09V4KqAQXPq5nqtzGL5Gc+eOp+hHd8dOMVToEMF9PRfBZ5ZlSwh7JQ5XimZdZHkE/iusRUynofPSJIOph6TxyiycpM7HoQChmc5bkfbbVkt6w==;3:CFg23ngnEWvCETokUISaF9bGpC26gCSZYHH3KTad0scmmqK+JpQpVpPBWboycCqwvuRGUlCDiUNWnj8a0HgUVUUBfSx2udPU6FJH6plyMROkXKoNJfOaWAqQ6gwYARzx/ukfAko1SOGE/A0YF8/ooQQVBqE6es8lS3QVRA2QgoaD9d6BTj6qcbmQZtJAlSFmubXf1p4UdCowUeiomPR55f/C7uzkEOBlBD2N47pnkgN3c8umsL6qzmgitXCVOcasXzmTMZs0nX05ig8dJPbhY6UZV9BBgJn5r0hA3g3fiil4OczDMT2P7PQRlBi0x4/RZjdzyaamh1Oj+mcKdVuRddcu+fTdMIsMFsqANBeVxY6ZfECyFG1tEsaVKVTkJ/4o;25:4Yc4HfuTEtUSwq9WOXu2x10n4skRBahM1DNcyrCteWKAnb4nPtSnvireoEhIl6P74nTEgAiJ13Qn9bHTNGiv9RjkIeVgqKLyxuLY5exTzAcOEx8jPjWJ+VgRZjGWaW4nbgyPbe+7evxMoqCM8KdyVknoR81HIWFcJHyXh7Zau4HoKmCNFeR/m4gAcrcsLfsFVMtKqUdzL7PxgoOOt8fgpbq2fi8w6w6OxR293A4CqdtxFznt4ELbLh0Hu8uhfVfr6bl2P4kmU1MVsMH7kqF1SA
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:1;PCL:0;RULEID:(421252001)(42139001)(8251501001)(3001015)(71701003)(71702001);SRVR:BY2PR07MB107;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB107;20:9ljxqZYFVuHuuGSSHpLwZcSy/9X8ejNz0bhYwbrPW64c5jUn3fKOcYp5EMC0HgQtpot+K+98t3LxIuLWUaYkwqUNTgeTRvJ0VxvGjWGdk2oEWUser9R030l2mqurrGmOnpSrA9Q03cCUIOhRbBLiUyQjehlGulo9jhBdTIkXCmRFZuePkrSZtQArHP8Wu7nL9UYokm+AXRaH/F6rt+h7xj8CSiU34X689PfXIx65SW2xX+krCTYE3Wh7bBEoa+Bj9SPmISU2yZLJPxnCozXDApg5gbVFiXFISd+LbQIv+fP9nNFUiMOUwtprfTze9G2g6v1yBHBwtNqv7Sgrhj43UyEthdFDlejvfIjq499kkoydbgpTNlGapxV6qQc2u+B2TKhbpQHZs7Z5EP+A09gQUGt1l7z5gbE9xuJIex2Nls8=;4:7Le6TOvzvpGqRHEEq7HBFfOADqXlPDrkn5X9gCvrUSNmMDsjLgvfRpE8cxkkUWXURKimmqwGVJvFLnuWZrH6spP2D90mMa+GLKelu89OgCuQV+WGngw2coFg5a33sIKQtF+8zTvkOx65tWnI6Get/yN90SOzovpBd+9yo0yHIF8PH+6TVeXbm0oCsA/lNnIUauwz9k23pqMR5oFw8t7BOuh7lesYrRY2goOzuHBVybFLzcQRpkwqNrYONVIPeA3K6+QkVFY4SqEo8QhvtvPK8sxDeBqRxVFU48UgGcDiFd8G0pIbEUdmNBvN9sdLVXzQW1VtG7sHGTetghbF621KZuolzc92YK2DiSHZO5OV+OCUud+dITTPn78MdZuArdzS2GgDKYzGp1dt2lIUlbesfECYDYqzzW4zuZSRch/167twAjd3tSn53o8YyM8M1VoZ
+X-Exchange-Antispam-Report-Test: 
+	UriScan:(76009858676777);UriScan:(76009858676777);
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:1;PCL:0;RULEID:(601004)(2401047)(520078)(1201001)(8121501046)(10201501046)(3002001);SRVR:BY2PR07MB107;BCL:1;PCL:0;RULEID:;SRVR:BY2PR07MB107;BCL:1;PCL:0;RULEID:(601004)(2401047)(5005006)(1201001)(520078)(8121501046)(10201501046)(3002001);SRVR:BY2PR07MB552;BCL:1;PCL:0;RULEID:;SRVR:BY2PR07MB552;
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;BY2PR07MB107;23:5InHC13mmU7WaW3/rq7MQNcBMM95aJxxRdQYtHJMCv?
+ =?us-ascii?Q?jh/cWFmdVVWaPMJ6vc1hjmsdKGopGw63BH5zJUETwgsHiCqKaLTyZQmNvDdk?
+ =?us-ascii?Q?jRNTLrfh+D4fcJ9JK0QKOJ2rVVJuQuS/NYjDah9Ad4cqcaXNNZhA25ChNiMR?
+ =?us-ascii?Q?4dzfe0kg5sZ2h7c0XebiuzesHmxLYNMo20GV2zCt069xRTNAmv/2wJv7jVzK?
+ =?us-ascii?Q?G7rpRLqjr8UWW1zpw/P/360iFLDSUBiHBcMYk9+tXj4e1oRJbSoVdZ1NiwAA?
+ =?us-ascii?Q?WfN5d2dI/xBFzd+8pWUu9/k/RxdQCzVUDmCs7jSdjkLSN6aLGjc8TrFnpAuA?
+ =?us-ascii?Q?XsBScYPLUhVxHdAv0UU1oZJOBn0dnfWkhPqODf0WWmyWf5qsl0IQ1BG+Yj4Y?
+ =?us-ascii?Q?Qe/Vxr+LAhifbO0CtsafJ9br6sx5qPfOhQkQ8bW7wRJU4GhlsvDk74DldxyQ?
+ =?us-ascii?Q?L322TCTMr/8JR/liXrlgqbWAIn1o/60FhFJNwEalV4x1eohpwTZgY0xefSJk?
+ =?us-ascii?Q?aA7ebDSLWzlTcANl0Hfud8WrOPIvP7bsTB6ARSi1n0Lef14uOtn1RJZl9D4B?
+ =?us-ascii?Q?kKg0eEThG+pkBGEqUidBK57pRTh5t7eDXv4IaYDvqGhvQn17hjGybDCanik9?
+ =?us-ascii?Q?vJ6p2KrMC7TgStr/tPbzsOSTfwvBER8pcTUtzM03lqayfZ/CInT11dyeQuaj?
+ =?us-ascii?Q?0h1bb7ht/J+jY+ioe+GfK4WGpFqjFSRFWJ3F+nd9Ie1oHp0tK6UXfEaaU4Ir?
+ =?us-ascii?Q?Hps6SRHXumWRMymmfidj0c6A5XhSjV+xFxKR7LJbdA8JpScTxXBMFSucNuba?
+ =?us-ascii?Q?iC+WnSaADj1BEX8Q9UCVYatJDj8XdnTaGXNvpYHNhtg0R7Pqyzv4X6Ka4PMD?
+ =?us-ascii?Q?nN3L6NcnwJZ8albINxY9jVhhLwU1bl7T8tXMFsln09eVHa0AwdLnw3xL53EP?
+ =?us-ascii?Q?7AUP/23fMtfg6TDhotAucRvx1eB4FZjJnfyRWtYsKOifPwZICGp85wNjJqyg?
+ =?us-ascii?Q?AnIAlXsRdSajYEAOigUo5JfRDv1lUbthWanszDScpP12aawr0J/ZD9RVF9C3?
+ =?us-ascii?Q?BYyosHFRXjpfxwCUJIn1iG6jg3DCxb9s9Y2LwBk5lwNuuo97eNGm8E3uA3Eb?
+ =?us-ascii?Q?AdNSLnQ2AYJwcaX27VcM2QNX7M3FuGS3LA0/M62yZerUd6s/foSKyMe9k/mS?
+ =?us-ascii?Q?iLtmHWbk0HGdaSInCgoDraP8g8WRnaBKqemzdT0TMBLNX13iAR1LGAvJvZ9M?
+ =?us-ascii?Q?0XGDblN5R0zoaG+wPNNr07WWdK0mqZTMkZrUzBD9JunlCB3UGp/lLo64oQN6?
+ =?us-ascii?Q?GjRHsg6ajnFLbqYVm/0gu4pLQPC2UF4Wo8Yab4lADrk7W6eifDPgYLD/Mar/?
+ =?us-ascii?Q?iWCKxtSkEFwgYyERKba6P8tVCqf+SyBzIhuaoA0P1AQMz5dzfG1p9mFHebUR?
+ =?us-ascii?Q?hJuRepTlltwMChzbxr0prtwiNk0hTxm0RCjVaH92O0jq4rqnfpGgibQqE+Ep?
+ =?us-ascii?Q?ThhMG4e8rmCdAghcn3+0b+vee8rLQxvsc=3D?
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB107;5:Qt3qTWEcpw0uV8fYkziZ1aeBFa1+1uHHWfwOWjQTDBznWiFA66LvaNYa+rLGJuUjJuje2rc7L9e4NNkCm9YSJ4t3Os3NBEdNp5O70/kUBg9mKu9y2a1PwKHNxzLBYuGYOYsbQe4fp9rW2R62af0aLA==;24:W455GaST/IEBvQn6UVPAqsKypmU8CrVkDqGYnHTrVpWGvdMLCusNVUIOmbD+MMbDXmsI+BT4NN0IFG9RC5Ua/zfIXvU3zL44icfrdcZi7nU
+SpamDiagnosticOutput: 1:5
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 1
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB107
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD052.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD052;1:+3V/yrCD8GpuZSKHZuoD1UHdLml9ZVGYpFVSO5083l3FwuZy+xkHanM+qPUfS3cPCpzVptU6Zqci4Ep2TB5KA/9rFGQ2o59nlasG7d6fmmNjk/T2TIio4RMkwI3HYVo6f8XKTnjiuSzF0Ei8Km9np3EWy+0/nz7qG6QNmlZQv/qfG33rUYk5+8Xu/idZMSBiBaYvldsQBm8X/hiFowurFoLk/gQubvdu2UqL8h9lmpVW2OyaaavO7DhyrlJMK/6LjefB3OW5g6rnmjCqJt7iNEgHyk2yjzNNwy0/q9erMas1ONgEu0YwPIQivjnGjvGsUvuTF0Rq8OdZ3FvC+qAo6QP7fOqe2Z+xMZUdxHq3beXJs3YNUMvlZ8+wqqMMg5yUUie4j0vHGPhvqf+RHspZPIglbY5VlNwwHFdUv6YEgkJa7HlU0IqRD8a99wQBffoz
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1060300003)(1109001)(1110001)(339900001)(504964003)(25584004)(36944003)(199003)(189002)(22756006)(42186005)(6806005)(106466001)(31686004)(575784001)(11100500001)(960300001)(31696002)(10250500002)(101616003)(146001)(19580395003)(956001)(18926415007)(50986999)(63696999)(1220700001)(47976999)(75432002)(54356999)(59646003)(53806999)(55176004)(105606002)(43066003)(36036004)(19580405001)(59656003)(5008740100001)(1096002)(606003)(229853001)(110436001)(2351001)(107886002)(307094003)(89122001)(110136002)(450100001)(512954002)(4290100001)(2171001)(15975445007)(5001960100002)(88552001)(81156007)(98436002)(4001450100002)(97736004)(19618635001)(85426001)(59286002)(87936001)(19617315012)(59536001)(33646002)(84326002)(270700001)(260700001)(18206015028)(95666005)(7039011)(7099028);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR07MB552;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB552;2:/0kYaMPXcq1fuiBaPsN+en2dgPLzHqiTf6qz35kTQ5SlIBKNtdenAz1odt+mdpiF3Ptfh8J3sM7m9o4CI2jpRgTn7MCqtBwD8y29K0sVvm8jAsg+VGWMV1P9W92iUOC6/28PZ7Zx5nfLYVm6FBAVAA==;3:Zpy2JHOOt8NZGaFFxsEO/MNGkxBy+B6ElSjUr45g9GBVDiOaKkelYtW0+bLthiZ8SlX4Fnubhqz11b+dFaoNHEMhAbr0luVKNLWHcRGYiLCedJAwfEOZ4Bakmrhmo6XSX4uSKqZN4ZC7J576iBOYdsGCylQoIIOLVjNij4D0aT3CVtVvKDGs8QB3LO+C6ajyJHUAbI75sZGGm/74T4313KrBlf1ELZ554uCYr2rI0/Bt5PuljBKwHwHhaXimid5ry81R42oodb4tYpRmq6EOh9jUxXZw0NoBCf9AOeovfWk=;25:OB+G2ouPUiRMCiUrtF11CXwCzB10j3warc3MVWAwj24NDGkOeeeUuDsNJTmMd+mwUkPFYGeKSmHS2pyX0IVxBvjmtEzernk5MA9hkxLPVSEmhVmxz/l8XlHRn61jjqAmUt+qYsyVslF5aucAC46R/WoQhAd4+DUaJWeP4q6dLriOy9AY7aboDlewNNTVlmfqamxVTptb5vGxf7YoTy1xYgSHqSI98i69mloyRT/4S+vKLMR5LspPoCbmh/ciwJjDpqVSJXCgQhXGnYY4h38Rmw
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:;BCL:1;PCL:0;RULEID:(421252001)(42139001)(3002015);SRVR:BY2PR07MB552;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB552;20:4UwQpgDd9Qe05RixzNbh7uImzWZz1Aovzl0zVmrTn8lf2rH1eglLn5lz34iQBRB99tf5FO1IfpmGU1jgck088KAhZwCivJvSBuzSL5Be+q+pX3cagRelRqsl/dnj3PwUL43kYr0KwMYqkNWmEsUgBMu8nprK0TvU7E5eaoFJ75iNACyGTg1D61j/CmguYw1HO+X2C94qu8oe8NvQdRJ/+sGb7MC+wCvUMahnrRqb3V2Dmdxry9xFxK2xrRbcSntTlS6/hfqjmkrZQkHmywwO2B4kMr3s0ACNM7E33I4fJAocoZrKZ3+oqJ+IcIJOvbAc9lEnEdQUC9K+UDlIPavKfLuujCveGeu3OCN8Syn6gqGwUjl83Y9CuNYSiOKh5+/tTjw9htnFP12dEjCz6PIn5ckSXldOGqlCaghykIpsscc=;4:3/GnxWew3VjhWwaOQRW/+1cdn4qoyCaBQs5tDd2k+TCt3GVrAtxGuQ+SEQLHGljclGpixEY/05mPBcMKoZZgMKmiBF21fpc+9gfz4n93SROnWevyvrbITuz9e2d0pOXgp4KnFEkmdAgMjbCJziXlfpMqhyXNaG4Eeli1LdyV8Nkl1kVJ4iGRCsjegQGlMQjKXYu4kDk0apMFYPcXUhnSERjjj1ZnZCrRNzYAhuFmjRVqsDhRR/jqKy5+g7vi7AJjxAKZ9viCmearuZsVcjOOwahNG0CBAm/PUsJ1BMtY8b74wGa6wV0NJjtpqotaI/Ml7lRdTrJ0seUfbIehavDVA1bCfzv3TBfkkO6OH7JR5a6bKMfVq1ImDl/x8Gp2PduMRNKUdbRv6VXf90NHsLnNytkDPxnu2Ri4Ty0T0aZQhxcG7pO0h8o1170i2IdSanG4
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 07807C55DC
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BY2PR07MB552;23:WElq92qzA4i8Y8fTk/pf7YAn8UmnpmL3pckF4Yn05P?
+ =?us-ascii?Q?9O5SVNAKagum54h4FwU/u0rpGe5pVVLFMFdVE/tvWhELKHQ1tYnsZ/i3mJDf?
+ =?us-ascii?Q?SlPNsVS+P+5eyOfR34Kv31pWwtbS1bpm2X3/DI6okmZzmrxWV/i6qnj1P+Lc?
+ =?us-ascii?Q?YVrKEA2hgVNzTK5U02qvIqAJpyVb5IqtYyM9S/dgQ0aJIa0dBAK0quVpIWjl?
+ =?us-ascii?Q?S64afIvPxp1oIT5bfpO1WnQVL04b15YyOl8+fhjoqZDzR6eHM6wn/51PNyQU?
+ =?us-ascii?Q?Lr411hhTDR7DQxTsfOqdsw7ecx/2Y8zCug0aa/xDTTk3VUGNY9/sF8lqJbj7?
+ =?us-ascii?Q?xCXkdGpRODX/BpaVbpxpHDvD5e744uW+aNSF7Bs8AA8zSUaemzY/2NeDEcdI?
+ =?us-ascii?Q?l9T9GaYd58ETQ/YdOGcxKGZnGPtsB0RCCAQ6qWoPltNHY2O5woLcQxUPUXzL?
+ =?us-ascii?Q?fB5y+NBKH1o9B2OmUj7I5RQF32FTcv5uCUMMp3eyv9BVKYoUzERVeFGj1sYG?
+ =?us-ascii?Q?tHVxt4Wn8y3f7p/tQ8If/QbcNjiTbjRFvq1ZgAZAfMSwVvuy/K2tiv7kJzmc?
+ =?us-ascii?Q?nD8UUkp6gMrjf93tzFTeJXmXOJattlN0odvPMac7XekSmRJ0TP0vjqKq6ArS?
+ =?us-ascii?Q?cv6cf+h1arcdPGgwC7sRyeTTLaR0bMKvztfmP3u0myoMtNwA+LwjGFCXP82x?
+ =?us-ascii?Q?XbzMK6PlP+rOxbOTxTuGQkI4gLr8ZCSVHsbUrYgYZpcbmhHvuCp8Xqg4S+UT?
+ =?us-ascii?Q?RsO9F0JeNPC4mC0zzjTi3GitsOsm5MaZDO9hz2jZH0OpYAY4JDaH8oeWgQZP?
+ =?us-ascii?Q?GtGBLEcVu2zYtDnRAlB/KEF8qXQwZrsjDP2w7CA8tukwaD3Y4W4wgkIcXBY8?
+ =?us-ascii?Q?uHXrQqiqsRZrNCudGngBkPojrE7y8viElds6n+d4uF1uaPsBAVbL2OmuGot9?
+ =?us-ascii?Q?+a9eu0E2JVw1/ymsIlQVxl7z95moICAccmRZcDqL3VjOABinqOE8To6QvV0z?
+ =?us-ascii?Q?xnwnFbc+4ymKrv7hr/VtvH64WYfByMF0tEsCosiIJzOM2pTHR/Sb/jciVlbS?
+ =?us-ascii?Q?FzekSwz7mrZYKBOut1ZSIEMSs4FrfC4WklAafN5zIwgJODZyGeiQW+O3J4Gv?
+ =?us-ascii?Q?//LdKanVBD1yxKs3rhsDHNEkmP2qDAMvcSsawvn9qptr2R8x+xRUQCoPBZRT?
+ =?us-ascii?Q?xJHrVHiw5Xa1w8oV2zu/uAIr+kT2euYkh5KlkboXZldKhbDCMeH7pig+swxN?
+ =?us-ascii?Q?qKrYFHisgOwC5GC8hXeSPVRGDu514Im2B8ALBezfCjZVigxnwvV5Nj3FrUR3?
+ =?us-ascii?Q?oSe9cnwlKDHBULMccIGiXO2yrGTCD4dy1aUIfDjzad+5/sTLj3Qm2oaFW7F9?
+ =?us-ascii?Q?gN5vapXMcMTDFpnzhuNi0GyYA46jLlPenxqt4E7JKM+SC9oD0iRMAHlLEJGS?
+ =?us-ascii?Q?iwlkHH7btSSnXLGgeTNlVI48sh0VYHWQ9RfY5I+Psoor+2Js8m5Zcip89dZv?
+ =?us-ascii?Q?OGrDR/p69d5Ary/ae2uHlI5KLjjBXlO6o6+HiIb29+DiJHzwmc9iDBTOzNOR?
+ =?us-ascii?Q?n/TuFN5wwiJhZCK4odO0GiLnH+S4WGPyoij/utriIui/1xiPsU9F1rTuQlX4?
+ =?us-ascii?Q?8zXZ6oMC20afqW51avoYdskv8g2nrlBvI65FrMuTQxb+NyQVCej2QoWX/XN1?
+ =?us-ascii?Q?mo1E0JXK827m0r72dZXdXlzobo19tjy/2NibcCPxFmmHHrwGYGK3ID3ulnLJ?
+ =?us-ascii?Q?mXJ7Bpw+nVjjugf9EfVdfUFsjBkXSHW3JNczTNt1TdRyCqRC/IHEzLXo5B78?
+ =?us-ascii?Q?20KZ2EvsvzAiT67R4NupIsMY1NzlJ6FCla9IQQiSa404YO1OVLhSU=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB552;5:ooDV+r70Fxv5g2ZpdF4D7sOqQ3Sa/hzGO7wyERFEp0DX4AUIKdwgOGO5YGaj5L60MJgJP6iGQFH6NerK3WdtIqbR2D0ZQ5hTU3U6wJ7vISQZnqERnCmFAraH8W2dIeuUG7EDmWA7IMM5cbMd7X+tuw==;24:iaZ1r680cIJ4HoYgpUUyHJYbPX4Z6AZO+6WWGbhGqesqD8AjwXazkxuZRGIPOUEgrkFhpWfiWsEGB6KULFkzax9cHs3BwGt8fneB79Rytx8
+SpamDiagnosticOutput: 1:5
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 1
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Dec 2015 21:01:23.8408
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB552
+
+To view this email as a web page, go to the link below, or copy and paste it into your browser's address window.
+<<link>> challenge is almost over-don't forget to make your gift to Georgetown today. 
+
+Earlier this month, we set a goal of 1,100 new Loyalty Society members by midnight tonight, allowing Georgetown to empower the best and brightest students to make the Hilltop their home.
+
+The response has been unprecedented-we are just 230 from our goal!
+
+Thank you for this outpouring of support. Loyal donors-those who give annually-are the cornerstone of the university's success, providing the means by which Georgetown can carry out its mission-to educate exceptional students who want to serve others.
+
+Don't miss out on the benefits package each summer and exclusive event invitations, webinars and more! 
+
+Make a recurring gift today and join over 20,000 Loyalty Society members again this year! 
+
+domain.com/gufund-gift?appealcode=oalpr4
+Thank you in advance for your loyalty, 
+
+William Reynolds (C'79, Parent'10,'13)
+Associate Vice President
+Annual Giving & Alumni Relations
+
+P.S. It's not too late to set up an annual recurring gift and join the Loyalty Society. Never miss another year of loyal support for Georgetown students. 
+
+This Stewardship email was sent to 
+mailto:user@domain.com 
+user@domain.com
+
+Please contact us at 
+mailto:user@domain.com 
+user@domain.com with any questions or comments.
+To ensure you continue receiving our emails, please add us to your address book or safe list.
+
+The Office of Advancement recently switched to a new email provider, and we apologize if you're receiving this email in error. 
+<<link>> 
+Update your email preferences.
+Georgetown University Office of Advancement | PO Box 571253 | Washington, DC 20057
+
+<<link>> 
+Unsubscribe/Manage email preferences | 
+<<link>> 
+Profile Center | 
+<<link>> 
+Privacy Policy | 
+<<link>> 
+Copyright
+
+Need your NetID, 
+<<link>> 
+please click here. | 
+<<link>> 
+Make a gift
+

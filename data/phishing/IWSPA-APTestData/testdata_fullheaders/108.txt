@@ -1,0 +1,572 @@
+Status: RO
+From: Amazon.com <digital-no-reply@amazon.com>
+Subject: domain.com order of Once Upon a Time in America [HD].
+To: Pascal, Amy
+Date: Sat, 20 Sep 2015 04:17:57 +0000
+Message-Id: <000001489147user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+
+
+
+body {
+	margin:0;
+	font-size:13px;
+	line-height:18px;
+	font-family:Arial, sans-serif; 	
+}
+
+a {
+	text-decoration:none;
+	color:#006699;
+	font-size:13px;
+	line-height:18px;
+	font-family:Arial, sans-serif; 	
+}
+
+a img {
+	border:0;	
+}
+
+h2 {
+	font-size:20px;
+	line-height:24px;
+	margin:0;
+	padding:0;
+	font-weight:normal;	
+	color:#000;
+}
+
+h3 {
+	font-size:18px;
+	color:#cc6600;
+	margin:15px 0 0 0;
+	font-weight:normal;
+}
+
+h4 {
+	font-size:14px;	
+	margin:0;
+	font-weight:normal;
+}
+
+p {
+	margin:4px 0 18px 0;
+	font-size:13px;
+	line-height:18px;
+	font-family:Arial, sans-serif; 
+}
+
+table {
+	border-collapse:collapse;	
+}
+
+td {
+	vertical-align:top;
+	font-size:13px;
+	line-height:18px;
+	font-family:Arial, sans-serif; 
+}
+
+/* container */
+#container {
+	width:655px;
+	color:#333;
+	margin:0 auto;
+}
+
+#container .frame {
+	padding:0 20px 20px 20px;	
+}
+
+/* content tables */
+#main, #header, #summary, #orderDetails, #itemDetails, #costBreakdown,
+#selfService, #closing, #marketingContent, #legalCopy, #refundDetails {
+	width:100%;
+}
+
+/* header */
+#header .logo {
+	width:115px;
+	padding:18px 0 0 0;	
+}
+
+#header .navigation {
+	text-align:right;
+	padding:5px 0;
+	border-bottom:1px solid #ccc;
+	white-space:nowrap;
+}
+
+/* We intentionally changed all padings to 0px and added "#header .navigation span" rule */
+#header .navigation a {
+	border-right:0px solid #CCC;
+	margin-right:0px;
+	padding-right:0px;
+}
+
+#header .navigation span {
+ text-decoration:none; color:#CCC;
+ font-size:15px;
+ font-family:Arial, sans-serif; 
+}
+
+#header .navigation div {
+	display:inline;
+}
+
+#header .navigation a.last {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+#header .title {
+	text-align:right;
+	padding:7px 0 5px 0;
+}
+
+#header .title img {
+	padding:0 4px 0 0;
+}
+
+/* critical info */
+#criticalInfo {
+	border-top:3px solid #2d3741;
+	width:100%;	
+	margin:0 0 20px 0;
+}
+
+#criticalInfo td {
+	font-size:14px;
+	padding:11px 18px 18px 18px;
+	background-color:#efefef;
+	width:50%;
+}
+
+#criticalInfo .label {
+	color:#666;	
+}
+
+#criticalInfo p {
+	margin:2px 0 9px 0;	
+}
+
+#criticalInfo a {
+	font-size:11px;
+	color:#006699;
+	text-decoration:none;	        
+}
+
+/* buttons */
+.button {
+	text-decoration:none;
+	display:block;
+	height:26px;
+	display:inline-block;
+	margin:0 0 2px 0;
+}
+
+.button.small {
+	height:20px;
+}
+
+.button .expandable {
+	float:left;
+	overflow:hidden;
+}
+
+.button .text {
+	color:#000f68;
+	font-size:12px;
+	position:relative;
+	z-index:10;
+	top:-22px;
+	left:-12px;	
+	text-align:center;
+}
+
+.button.secondary .text {
+	left:0;	
+}
+
+.button.small .text {
+	top:-20px;
+	left:0;
+	font-size:11px;
+}
+
+/* supporting details */
+#supportingDetails {
+	font-size:11px;
+	color:#666;
+	line-height:14px;
+	margin:10px 20px;
+}
+
+#supportingDetails {
+	margin:0 18px 0 18px;		
+}
+
+/* order details */
+#orderDetails h3 {
+	border-bottom:1px solid #ccc;
+	margin:0 0 3px 0;
+	padding:0 0 3px 0;
+}
+
+#orderDetails .frame {
+	padding:16px 20px 6px 20px;
+}
+
+/*Added "#orderDetails .orderDetailsFrame" as rule "#orderDetails .frame" is conflicting with "#container .frame".
+  This needs further investigation but as a temporary fix added "#orderDetails .orderDetailsFrame" */
+#orderDetails .orderDetailsFrame {
+	padding:16px 20px 6px 20px;
+}
+
+#orderDetails .orderDate {
+	color:#666666;
+	font-size:12px;
+}
+
+/* item details */
+#itemDetails .photo {
+	width:150px;
+	text-align:center;
+	padding:0 0 30px 0;
+}
+
+#itemDetails .photo .play img {
+	margin:3px 0 0 0;	
+}
+
+#itemDetails .name {
+	color:#666;
+	padding:10px 10px 30px 10px;
+}
+
+#itemDetails ul {
+	margin:0;
+	padding:0;
+}
+
+#itemDetails ul li {
+	list-style-type:none;
+	line-height:14px;
+	padding:0 0 4px 0;
+}
+
+/*entry "line-height:16px;" is this rule is intentionally removed.*/
+#itemDetails ul li a {
+	font-size:14px;
+}
+
+#itemDetails .name a {
+        font-size:14px;
+}
+
+#itemDetails .name p {
+	margin:0;
+	font-size:12px;
+	line-height:16px;
+}
+
+#itemDetails .name p a {
+	font-size:11px;
+}
+
+#itemDetails .name p a.itemDetailsLink {
+    font-size:12px;
+}
+
+/* Intentionally changed 
+#itemDetails .name .share to #itemDetails .name table
+and 
+#itemDetails .name .share a to #itemDetails .name div a
+This change makes html returned by share widget url to be displayed properly*/
+#itemDetails .name table {
+	/*margin:3px 0 15px 0;*/
+        border-collapse: separate;
+}
+
+#itemDetails .name div a {
+	/*margin:4px 5px 0 0;*/
+	font-size:0;
+}
+
+#itemDetails .name .supportingDetails, 
+#itemDetails .name .supportingDetails a {
+	margin:8px 0 0 0;
+	font-size:12px;
+}
+
+#itemDetails .price {
+	width:80px;
+	text-align:right;
+	font-size:14px;
+	padding:10px 0 30px 0;	
+}
+
+#itemDetails .divider {
+	border-top:1px solid #eaeaea;
+	padding:0 0 16px 0;
+	}
+
+
+
+#collection {
+	width:100%;
+	margin:10px 0 0;
+}
+
+#collection .test {
+	padding:0 10px 0 10px;
+}
+
+#itemDetails #collection .name {
+	padding:0 10px 30px 10px;
+}
+
+#itemDetails #collection .price {
+	padding:0;	
+}
+
+/* cost breakdown */
+#costBreakdown td {
+	text-align:right;
+	line-height:18px;
+	padding:0 0 10px 10px;	
+}
+
+#costBreakdown .price {
+	width:70px;
+}
+
+#costBreakdown .total {
+	font-size:14px;
+	font-weight:bold;
+}
+
+/* additional shipments */
+#additionalShipments {
+	font-size:11px;
+}
+
+#additionalShipments h3 {
+	margin:10px 0 0 0;	
+}
+
+#additionalShipments p {
+	margin:10px 20px 0px 20px;
+}
+
+#additionalShipments .orderDate {
+	color:#666666;
+	font-size:12px;
+}
+
+#additionalShipments .details {
+	padding:10px 20px 10px 20px;
+}
+
+#additionalShipments .details .label {
+	color:#666666;
+	font-weight:bold;	
+}
+
+#additionalShipments .details .edd, #additionalShipments .details .quantity {
+	font-weight:bold;	
+}
+
+/* self service */
+#selfService p {
+	border-top:1px solid #ccc;
+	padding:20px 0 0 0;
+	line-height:22px;
+}
+
+/* closing */
+#closing p {
+	padding:0 0 20px 0;
+	border-bottom:1px solid #eaeaea;
+	margin:0;	
+}
+
+#closing .signature {
+	font-size:16px;	
+	line-height:24px;
+	font-weight:bold;
+}
+
+/* marketing content */
+#marketingContent {
+	border-bottom:1px solid #eaeaea;	
+}
+
+#marketingContent td {
+	padding:20px 0;
+}
+
+#marketingContent td.right {
+	padding:20px 15px 0 0;
+}
+
+#marketingContent .dynamicMarketingContent td {
+	padding:0 0 0 0;
+}
+
+/* legal copy */
+#legalCopy {
+	margin:20px 0 0 0;
+}
+
+#legalCopy p {
+	font-size:11px;
+	color:#666;
+	line-height:16px;
+	margin:0 0 10px 0;	
+}
+
+#legalCopy a {
+	font-size:11px;
+}
+
+.note {
+	font-size:11px;
+	color:#666;	
+
+
+
+}
+
+table p.note
+{
+	font-size: 11px;
+
+
+
+}
+
+span.criticalTitle {
+	color: #666;	
+}
+.tableNote {
+	margin-top: -10px;	
+}
+
+.confidential {
+	color: #666;
+	font-size: 11px;	
+}
+
+.detailShipDateNo {
+	color: #C00;	
+}
+
+.detailShipDateYes{
+	color:#009900;	
+}
+
+.multipleItemDetailShip {
+	width: 100%;	
+}
+
+/*Other items shipping soon*/
+.subInfo {
+
+
+
+	padding: 20px;
+	font-size: 11px;	
+}
+
+.subInfo a {
+	font-size: 11px;
+}
+
+.criticalInfoImportant {
+	font-size: 14px;	
+}
+/*Notes*/
+.note {
+	font-size:11px;
+	color:#666;	
+
+
+
+}
+
+.giftNote {
+	padding: 20px 0 0 0;	
+}
+
+
+
+
+              Amazon Instant Video  |  Your Account  |  domain.com  
+
+
+
+             Order Confirmation Order #D01-7100675-6216607 
+
+
+
+             Hello Amy Pascal, Thank you for shopping with us. You can find all of your new and previous Amazon Instant Video purchases - movies, TV episodes and unexpired movie rentals - in Your Video Library.  
+
+
+
+                Instantly watch your videos anywhere with your Amazon Fire TV, Kindle Fire, iPad, Roku, PlayStation, XBox, Wii, PC, Mac, or compatible TVs, Blu-ray players and set-top boxes.   Learn more 
+
+
+
+             Order Details 
+
+
+
+             Order #D01-7100675-6216607  Placed on Friday, September 19, 2015 
+
+
+
+                     Once Upon a Time in America [HD]   
+                    Amazon Instant Video Sold by Amazon Digital Services , Inc.  Review this item  
+
+
+
+                 $9.99 
+
+
+
+                 Item Subtotal: 
+                 $9.99 
+
+
+
+                  Promotions:  
+                  -$0.00  
+
+
+
+                 Tax Collected: 
+                 $0.00 
+
+
+
+                 Grand Total: 
+                 $9.99 
+
+
+
+              You can update your device and settings in the Amazon Instant Video Settings and Devices page . Learn more about Amazon Instant Video in Help.  
+
+
+
+              We hope to see you again soon! domain.com  
+
+
+
+              Purchase Details When you buy a video you may watch and re-watch it as often as you like (subject to the limitations described in the Terms of Use). You may stream a purchased video while connected to the domain.com (by clicking the 'Watch Now' button) and access the video from Your Video Library on any other compatible device. You may also download the video. Learn more about downloading. Additional restrictions may apply (as provided in our Terms of Use). This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.  
+
+

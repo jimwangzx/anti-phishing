@@ -1,0 +1,80 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 31 Oct 2015 09:29:14 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id r9VGTD3Y016310	for <user@domain.com>; Thu, 31 Oct 2015 
+ 16:29:14 GMT
+Received: from mail159-va3-domain.com (mail-domain.com
+ [216.32.180.114])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id r9VGTBer013527
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 31 Oct 2015 16:29:11 GMT
+Received: from mail159-va3 (localhost [127.0.0.1])	by
+ mail159-va3-domain.com (Postfix) with ESMTP id 3B2153001C2	for
+ <user@domain.com>; Thu, 31 Oct 2015 16:29:11 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:65.39.215.55;KIP:(null);UIP:(null);SRV:BULK;H:mx-pmc-domain.com;RD:mx-pmc-domain.com;EFVD:NLI
+X-SpamScore: 6
+X-BigFish: vps6(zz758Ic857hdbb0izz1f42h208ch1ee6h1de0h1fdah2073h1202h1e76h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h17326ah8275bh1bc7b9h8275dh1def03h2ba5I1de097h1de096h186068h172c6ch1ce120h85bfl1a691ci177f16iz2fheh5fh839h8aaha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h19b5h1b0ah1bceh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h214ai1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail159-va3: domain of domain.com designates 65.39.215.55 as permitted sender) client-ip=65.39.215.55; user@domain.com; helo=mx-pmc-domain.com ;domain.com ;
+Received: from mail159-va3 (localhost.localdomain [127.0.0.1]) by mail159-va3
+ (MessageSwitch) id 1383236949322992_25289; Thu, 31 Oct 2015 16:29:09 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.231])	by
+ mail159-domain.com (Postfix) with ESMTP id 405DA4E0048	for
+ <user@domain.com>; Thu, 31 Oct 2015 16:29:09 +0000 (UTC)
+Received: from mx-pmc-domain.com (65.39.215.55) by
+ domain.com (10.7.99.48) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 31 Oct 2015 16:29:04 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1383236944;
+	s=sailthru; d=deadline.com;
+	h=Date:From: Deadline.com <alerts@deadline.com>
+	bh=yHp34Wf3NPTo+WNOjcCdS0zaKpRiTJWfbfb+9N1iYS4=;
+	b=fVa73ToGPx0tcaVB4ehaXL5FahuOul701UI+DAxG4vdBjfes3HDU18l01Gm691Oy
+	HBTlcfkcePRJqqtizBAXyjtDKglPfBpDZt7o9L5m8jcHdKUraw8heZXzShgHeC9qmH/
+	+BEqDjpEs7fE4Fn503sN9Gj/1eftwFa3VZ1dH6dI
+Date: Thu, 31 Oct 2015 12:29:04 -0400
+From: Deadline.com <alerts@deadline.com>
+To: <user@domain.com>
+Message-ID: <20131031162904.2014377.5021@domain.com>
+Subject: [domain.com] Ratings Rat Race: World Series Ends With A Bang;
+ What Comedies Will ABC Pick Up?
+Precedence: bulk
+X-TM-ID: 20131031162904.2014377.5021
+X-Info: Message sent by domain.com customer Deadline
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 65.39.215.55
+X-IADB-IP-REVERSE: 55.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stdgp2014377
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+[domain.com] Ratings Rat Race: World Series Ends With A Bang; What Comedies Will ABC Pick Up?
+
+ <<link>>   
+
+<<link>>        
+
+ <<link>>   
+
+<<link>>        
+
+ <<link>>   
+
+Nellie Andreeva's TV Ratings Alert:
+
+Ratings Rat Race: World Series Ends With A Bang; What Comedies Will ABC Pick Up? 
+
+First off, congratulations to the Boston Red Sox for winning their first World Series on home turf in almost a century. Fox sure wouldn't have minded a seventh game in this highly rated series, but the six games it got were two more than the last time the Red Sox and the Cardinals faced off in the finals nine years ago, a 4-0 sweep for Boston. Last night's Game 6 drew 18 million viewers and a 5.4 Read more... 
+
+
+

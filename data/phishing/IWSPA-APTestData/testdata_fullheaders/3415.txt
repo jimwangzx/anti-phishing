@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.71 with SMTP id o68csp2980750lfi;
+        Wed, 11 Mar 2015 17:47:37 -0700 (PDT)
+X-Received: by 10.66.224.164 with SMTP id rd4mr83003022pac.12.1426121255263;
+        Wed, 11 Mar 2015 17:47:35 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mx0a-0016domain.com (mx0a-0016domain.com. [67.231.148.137])
+        by domain.com with ESMTPS id di5si10049252pdb.83.2015.03.11.17.47.34
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 11 Mar 2015 17:47:35 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 67.231.148.137 as permitted sender) client-ip=67.231.148.137;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 67.231.148.137 as permitted sender) user@domain.com
+Received: from pps.filterd (domain.com [127.0.0.1])
+	by mx0a-0016domain.com (8.14.5/8.14.5) with SMTP id t2C0f3uZ002992;
+	Wed, 11 Mar 2015 17:47:33 -0700
+Received: from dc2svmhub01.perkinscoie.root.loc ([66.77.102.70])
+	by mx0a-0016domain.com with ESMTP id 1t2yyng1qw-2
+	(version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=FAIL);
+	Wed, 11 Mar 2015 17:47:33 -0700
+Received: from DC2SPPMAIL23A.perkinscoie.root.loc (10.170.0.88) by
+ dc2svmhub01.perkinscoie.root.loc (10.170.0.63) with Microsoft SMTP Server
+ (TLS) id 8.3.279.5; Wed, 11 Mar 2015 19:47:32 -0500
+Received: from DC2SPPMAIL22A.perkinscoie.root.loc ([10.170.0.89]) by
+ DC2SPPMAIL23A.perkinscoie.root.loc ([fe80::3929:df4b:f3da:dabc%21]) with mapi
+ id 14.03.0210.002; Wed, 11 Mar 2015 19:47:31 -0500
+From: "Elias, Marc  (Perkins Coie)" <MElias@perkinscoie.com>
+To: "User" <user@domain.com>, 
+ Robby Mook <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ =?iso-8859-1?Q?user@domain.com=29?= <user@domain.com>
+Subject: Press strategy call
+Thread-Topic: Press strategy call
+Thread-Index: AdBcXh7dgUZG8Kk9SoOj7NxlGr9G1QAAAABg
+Sender: "Bull, Leslie  (Perkins Coie)" <user@domain.com>
+Date: Thu, 12 Mar 2015 00:47:31 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.170.34.1]
+Content-Type: multipart/alternative;
+	boundary="_000_B698937001E4734DB8AB0E03376FD0AA175E4C1Cdc2sppmail22a_"
+MIME-Version: 1.0
+
+  ________________________________
+
+NOTICE: This communication may contain privileged or other confidential inf
+ormation. If you have received it in error, please advise the sender by rep
+ly email and immediately delete the message and any attachments without cop
+ying or disclosing the contents. Thank you.

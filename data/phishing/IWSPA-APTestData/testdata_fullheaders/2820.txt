@@ -1,0 +1,66 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Sat, 15 Mar 2015 08:52:11 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2FFqBiG008212	for <user@domain.com>; Sat, 15 Mar 2015 
+ 15:52:11 GMT
+Received: from mail4-va3-domain.com (mail-domain.com [216.32.180.116])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2FFq9ZV006511	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Sat, 15 Mar 2015 15:52:10 GMT
+Received: from mail4-va3 (localhost [127.0.0.1])	by mail4-va3-domain.com
+ (Postfix) with ESMTP id 9794B800F9	for <user@domain.com>; Sat, 15 Mar
+ 2015 15:52:10 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.128;KIP:(null);UIP:(null);SRV:BULK;H:mx128.b2b-domain.com;RD:mx128.b2b-domain.com;EFVD:NLI
+X-SpamScore: 6
+X-BigFish: vps6(zzc89bh12dbKc857h77f5h609Izz1f42h2148he68I208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h10c0jzz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h1ce120hf9138oz2fh5eh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h25f6h2605h1361i214ai1155h1362h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail4-va3: domain of b2b-domain.com designates 209.162.194.128 as permitted sender) client-ip=209.162.194.128; user@domain.com; helo=mx128.b2b-domain.com ;b2b-domain.com ;
+Received: from mail4-va3 (localhost.localdomain [127.0.0.1]) by mail4-va3
+ (MessageSwitch) id 1394898728305377_7376; Sat, 15 Mar 2015 15:52:08 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.250])	by
+ mail4-domain.com (Postfix) with ESMTP id 3BA8C4C006D	for
+ <user@domain.com>; Sat, 15 Mar 2015 15:52:08 +0000 (UTC)
+Received: from mx128.b2b-domain.com (209.162.194.128) by
+ domain.com (10.7.99.42) with Microsoft SMTP Server id
+ 14.16.227.3; Sat, 15 Mar 2015 15:52:04 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=acton2012; d=techproductupdate.com;
+ h=Message-ID:Date:From: White Paper Alert <admin@techproductupdate.com>
+ bh=YZPZG2mEeMU1nawo7e+KxQMgah0=;
+ b=OOiW/P/cANkiFSlBmatALe5EwDnC+tKAMKQr6h9CeNYOgchL3PAOCkliKB/HcncblXFGlvOibaGk
+   BbVsCaSHIGsaYUma8r9PgfiLBOYYqnlpKPFbnVbi6FSJPvQo2BB2TnceLyC45RbIPFJgl4SPPGCe
+   3OzraC1lWJS6Wgz4C34
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=acton2012; d=techproductupdate.com;
+ b=eeMzZfITJXRiKC3vCvDHKp8G2pH8+zVh+pozWpIIvKxw0kxhE2S2ANTnadn5S39yiC2lPbNuiGdF
+   lbd55lX9QjINU8pkeXfq0NbIMsNqyM3eto6mv/vl3sENHF8imQvYjOdPjDiicRvyhBQ/0/F2hFgs
+   UCI9XDiius62jU1a/YM=;
+Received: from 10.10.40.64 (172.16.0.16) by mx128.b2b-domain.com id h4hri81lgdc0
+ for <user@domain.com>; Sat, 15 Mar 2015 08:52:04 -0700 (envelope-from
+ <user@domain.com>)
+Message-ID: <ZCCWTBZYA$UWCXBCBAVXXBB@10.10.40.64>
+Date: Sat, 15 Mar 2015 08:52:04 -0700
+From: White Paper Alert <admin@techproductupdate.com>
+Reply-To: White Paper Alert <user@domain.com>
+To: AMY PASCAL <user@domain.com>
+Subject: How Cloud Unified Communications are a Total Game Changer
+X-MESSAGEID: WCZX.rEUUUV.KVWHK.mEWUHBEVYUX
+X-COD: ^^184.169.176.89/acton/delivery?accountid=2853&msuid=s-20b7-1403&rcptid=l-0001%3Ae12be&srcid=q-03c7
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+How Cloud Unified Communications are a Total Game Changer
+
+View this message in a browser   Please add user@domain.com to your address book to ensure properly delivery        
+
+TechProduct Update       
+
+How Cloud Unified Communications are a Total Game Changer
+
+Midsized and large enterprises tend to be tech savvy and have massive IT resources at their disposal. They can also afford to invest in any of a number of communication and collaboration solutions to fit their needs. And they already have systems in place. So why would they switch their critical enterprise communications to Voice over domain.com Protocol (VoIP)? The answer may surprise you.
+
+Read on to discover the huge number of benefits that VoIP provides to companies of all shapes and sizes. These benefits run the gamut from cost savings to better BYOD. The truth is that VoIP is ready for prime time and it’s time for companies to seize the moment in order to make the most of their communications. Read on to find out how.
+

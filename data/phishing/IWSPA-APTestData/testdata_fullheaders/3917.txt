@@ -1,0 +1,113 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id CDB29536EC2
+	for <user@domain.com>; Tue, 11 Oct 2015 08:42:22 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 6F9236FA3FF
+	for <user@domain.com>; Tue, 11 Oct 2015 08:42:15 -0400 (EDT)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Tue, 11 Oct 2015 08:42:15 -0400 (EDT)
+Received: by domain.com (Postfix)
+	id 1D87E1BC17; Tue, 11 Oct 2015 14:42:18 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from localhost (unknown [127.0.0.1])
+	by domain.com (Postfix) with ESMTP
+	id 3D8281BB41; Tue, 11 Oct 2015 12:42:17 +0000 (UTC)
+Received: from domain.com ([193.146.180.21])
+	by localhost (lujan [193.146.180.21]) (amavisd-new, port 10024)
+	with ESMTP id 30998-08; Tue, 11 Oct 2015 14:42:02 +0200 (CEST)
+Received: from 66.235.181.28 (unknown [66.235.181.28])
+	by domain.com (Postfix) with SMTP
+	id 405901BB16; Tue, 11 Oct 2015 14:41:58 +0200 (CEST)
+Received: from 160.235.128.12 by ; Tue, 11 Oct 2015 19:41:53 +0600
+Message-ID: <user@domain.com>
+From: "Credit Union National Association" <support@cuna.org>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com, user@domain.com, user@domain.com,
+	user@domain.com, user@domain.com, user@domain.com
+Subject: [*** POSIBLE SPAM***] IMPORTANT: CUNA Verification
+Date: Tue, 11 Oct 2015 18:36:53 +0500
+X-Mailer: domain.com Mail Service (5.5.2650.21)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--0586513251588996748"
+X-Priority: 1
+X-MSMail-Priority: High
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at domain.com
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: *******************
+X-Spam-Status: Yes, score=19.1 required=5.0 tests=FORGED_IMS_HTML,
+	FORGED_IMS_TAGS,FORGED_MUA_IMS,HTML_10_20,HTML_MESSAGE,
+	MIME_BOUND_DD_DIGITS,MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,
+	MISSING_MIMEOLE,MPART_ALT_DIFF,MSGID_SPAM_CAPS,NORMAL_HTTP_TO_IP,
+	RCVD_NUMERIC_HELO,WEIRD_PORT autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  3.8 MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.1 WEIRD_PORT URI: Uses non-standard port number for HTTP
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 HTML_10_20 BODY: Message is 10% to 20% HTML
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  2.4 FORGED_MUA_IMS Forged mail pretending to be from IMS
+	*  2.0 FORGED_IMS_HTML IMS can't send HTML message only
+	*  2.4 FORGED_IMS_TAGS IMS mailers can't send HTML in this format
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 337
+
+ domain.com Union is constantly working to ensure security by regularly 
+
+screening the accounts in our system. We recently reviewed your account, <
+br>
+and we need more information to help us provide you with secure service. <
+br>
+Until we can collect this information, your access to sensitive account 
+features will be limited. We would like to restore your access as soon 
+as possible, and we apologize for the inconvenience. 
+
+Why is my account access limited? 
+
+Your account access has been limited for the following reason(s): 
+
+* We would like to ensure that your account was not accessed by an 
+
+unauthorized third party. Because protecting the security of your 
+
+account is our primary concern, we have limited access to sensitive 
+
+domain.com Union account features. We understand that this may be an 
+
+inconvenience but please understand that this temporary limitation is 
+
+for your protection. 
+
+(Your case ID for this reason is PCU1-410-320-3334.) 
+
+At domain.com Union, one of our most important responsibilities to you, our 
+customer, is the safekeeping of the nonpublic personal ("confidential") 
+information you have entrusted to us and using this information in a 
+
+responsible manner. Appropriate use of the confidential information you 
+provide us is also at the heart of our ability to provide you with 
+
+exceptional personal service whenever you contact us. 
+
+How can I restore my account access? 
+
+Please confirm your identity here: Restore
+My
+Online Banking and complete the "Steps to Remove Limitations." 
+
+Completing all of the checklist items will automatically restore your 
+
+account access.

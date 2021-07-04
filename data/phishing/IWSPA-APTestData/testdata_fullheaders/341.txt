@@ -1,0 +1,65 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.101 with SMTP id o98csp1050244lfi;
+        Tue, 16 Jun 2015 07:05:10 -0700 (PDT)
+X-Received: by 10.13.213.3 with SMTP id x3mr636293ywd.156.1434463510061;
+        Tue, 16 Jun 2015 07:05:10 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yh0-domain.com (mail-yh0-domain.com. [2607:f8b0:4002:c01::236])
+        by domain.com with ESMTPS id d83si318682ywb.88.2015.06.16.07.05.09
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 16 Jun 2015 07:05:10 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::236 as permitted sender) client-ip=2607:f8b0:4002:c01::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yh0-domain.com with SMTP id d80so11241686yhi.1
+        for <user@domain.com>; Tue, 16 Jun 2015 07:05:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+         :content-type;
+        bh=Ts2RwuZdqRBVX1W/gAp2geOcRhZgKzEElHJkwrf5g5g=;
+        b=CUrQ1j3E4p+YWrVjGP+fTafZ9qkiP4sSnkaRsmiLQOPiSoWOYIkuimK1QQmmkpiB22
+         vDtTmf4A7OPauNL1v1zV5x5jyeSFyr3rRRWjnvSGo5+0Ja6utRSzuYV+p0kz0sJiEZue
+         gTZAxWRDstQKY4aZXNQHtdbL18XyqIfwB441I
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+        bh=Ts2RwuZdqRBVX1W/gAp2geOcRhZgKzEElHJkwrf5g5g=;
+        b=CV5YMKH6BdOK02S+jCMM8FePvogsrEIJUE9oHZH+07PEwitcDcsMWaQAZyQmqavcLP
+         kEz8tJyJJ0lD8UP021Tny3/uBbIwPRk9m6r48rwdJhx+t7kgprlgM1CAe49e75yS9JcR
+         gM1Fdr5iM2MydedLgDNjF7ihqfX80zFtlj0s2p9yFfzaiarPcHDQ/5GYUf6+T2+LUL7e
+         09chxANiFyHd2c3V1/2r2VPgky9r4ZJ+jDd4jVxSNzdeGw4MvtZjvBuBUaUE7zPgLBPN
+         ou/U4/Q444UY0ZmP0jZt3XWgQtwEaeIkw/fzd3NyTzdiTRFPJXPb3Up+MtJoUNrgfeN7
+         PX+A
+X-Gm-Message-State: ALoCoQn6lKshcg8Rj42IAu/5cTBSse5+2a9pP/SsGN3DsEqG6mP+WVvJ+jtCUXDPMHdKh8/rP6fh
+MIME-Version: 1.0
+X-Received: by 10.170.122.136 with SMTP id o130mr622476ykb.53.1434463509439;
+ Tue, 16 Jun 2015 07:05:09 -0700 (PDT)
+Received: by 10.129.71.193 with HTTP; Tue, 16 Jun 2015 07:05:09 -0700 (PDT)
+In-Reply-To: <CA+=user@domain.com>
+References: <CA+=user@domain.com>
+Date: Tue, 16 Jun 2015 10:05:09 -0400
+Message-ID: <user@domain.com>
+Subject: Fwd: Scheduling Meeting Today
+From: Robby Mook <re47@hillaryclinton.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1137d086ec76880518a30fda
+
+Did you talk with Huma at all?   This is why we need her at HQ (or empower
+Alex more).  Happy to push on my end as well...just don't want to cross
+wires.
+
+---------- Forwarded message ----------
+From: Robby Mook <re47@hillaryclinton.com>
+Date: Tue, Jun 16, 2015 at 8:56 AM
+Subject: Scheduling Meeting Today
+To: Robby Mook <user@domain.com>
+
+Going to bring this up in the meeting but got lots of feedback from Iowa
+and NH that the process isn't tight yet.  They will get a plan together and
+then it takes a while to approve and getting approval from HQ on comms
+stuff takes a while.  Just reading it in their weekly reports.

@@ -1,0 +1,131 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Fri, 13 Jun 2015 04:00:36 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s5DB0ZkO006859	for <user@domain.com>; Fri, 13 Jun 2015 
+ 11:00:35 GMT
+Received: from mail55-ch1-domain.com (mail-domain.com
+ [216.32.181.172])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s5DB1xXM025764
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Fri, 13 Jun 2015 11:02:00 GMT
+Received: from mail55-ch1 (localhost [127.0.0.1])	by mail55-ch1-domain.com
+ (Postfix) with ESMTP id A721D1A066D	for <user@domain.com>; Fri, 13 Jun
+ 2015 11:00:34 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.54;KIP:(null);UIP:(null);IPV:NLI;H:mx-alm-domain.com;RD:mx-alm-domain.com;EFVD:NLI
+X-SpamScore: 3
+X-BigFish: vps3(zzc89bh8d0I3a5eM1210Ie0eahd79ahc857h77f5hzz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz1de098h1df219h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h172c6ch47e3m1df164i1df21ci1df122i1df250iz2fheh5fh839he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h2565h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h214ai)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail55-ch1: domain of st.alm.com designates 192.64.236.54 as permitted sender) client-ip=192.64.236.54; user@domain.com; helo=mx-alm-domain.com ;domain.com ;
+Received: from mail55-ch1 (localhost.localdomain [127.0.0.1]) by mail55-ch1
+ (MessageSwitch) id 1402657231598845_27040; Fri, 13 Jun 2015 11:00:31 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.240])	by mail55-domain.com (Postfix) with ESMTP id 8D4D41C00D0
+	for <user@domain.com>; Fri, 13 Jun 2015 11:00:31 +0000 (UTC)
+Received: from mx-alm-domain.com (192.64.236.54) by
+ domain.com (10.43.70.10) with Microsoft SMTP Server id
+ 14.16.227.3; Fri, 13 Jun 2015 11:00:30 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Corporate Counsel Daily Update <corporatecounsel@alm.com>
+ bh=mL+XMFtP4bbMRtBBmSUHFcXn4lo=;
+ b=lkcjjLnuyOYJWQt+1YDu4p8nDFyXHTw3i7sPoxNHRr5R7aHyn8MMWVPMfsLi/Eism4VsXHk0j/kd
+   l3lyV+vv1ucuRqxJoB4znNIwv5THEztq3XUVL4VF0FLVoZ52+7L2+jR1vTVlfItoAEaio4TO9kcb
+   IC6fJ2sCPKPX3/u62zs
+Received: from nyp1-p-p4337-prd-jma-08.sailthru.pvt (65.39.215.160) by
+ mx-alm-domain.com id hjbcsg1s6j01 for <user@domain.com>; Fri, 13
+ Jun 2015 07:00:24 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1402657249;
+	s=sailthru; d=e.alm.com;
+	h=Date:From: Corporate Counsel Daily Update <corporatecounsel@alm.com>
+	bh=ITwaV78p7Gsx+k9sXZHg21Y6z/jW6waSmP/L/kN/iEo=;
+	b=CmH0QWu/3a3YtR1r+sAxMyKvueeaqOiJ3u5GBH33AY+PX/D32IGFBAbk6L5j2W73
+	jJXVFx/He21xKUHS328hA3AmYZJ5ktZr2tD7X7M9bn4WLJiBrqJUbYL3m9nSsnIcTRg
+	s/BwcaDdF5sycn/5XvGW0weUl2UQxzxxGdppOv7I
+Date: Fri, 13 Jun 2015 07:00:49 -0400
+From: Corporate Counsel Daily Update <corporatecounsel@alm.com>
+To: <user@domain.com>
+Message-ID: <20140613110049.2735977.5696@domain.com>
+Subject: Did GM Rouse a Passive NHTSA?
+Precedence: bulk
+X-TM-ID: 20140613110049.2735977.5696
+X-Info: Message sent by domain.com customer ALM Media
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4337-prd-jma-08.sailthru.pvt
+X-IADB-IP: 65.39.215.19
+X-IADB-IP-REVERSE: 19.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stfyc2735977
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1224682741_-_-"
+
+Did GM Rouse a Passive NHTSA?
+
+<<link>>      
+
+ <<link>>      in  tw         
+
+Today's Top Stories
+
+• Did GM Rouse a Passive NHTSA? 
+
+• Giving Away Patents, Tesla Founder Offers IP Critique 
+
+• Corporations Moving Into the E-discovery Driver's Seat 
+
+• Can You Force Whistleblower Arbitration? Maybe 
+
+• On the Air: New CLO and GC for NPR 
+
+• FCC to domain.com Industry: Improve Cybersecurity or Else 
+
+More Stories from ALM
+
+• Are Computer Advances Triggering the End of Privacy? 
+
+• Pfizer Prevails at Third domain.com in Class domain.com Over Alzheimer's Drug 
+
+• Lawyers: GM Seeks Bankruptcy Shield from domain.com 
+
+• FCC to domain.com Industry: Improve Cybersecurity or Else 
+
+Your digital membership gives you complimentary access to five articles per month from other award-winning ALM publications.
+
+<<link>>     
+
+
+
+
+Did GM Rouse a Passive NHTSA? 
+
+The ignition-switch scandal at General Motors Co. may finally have gotten the National Highway Traffic Safety Administration... Read More »
+
+Giving Away Patents, Tesla Founder Offers IP Critique 
+
+Tesla Motors Inc. founder and CEO Elon Musk said his company will make its patented technology freely available to other... Read More »
+
+Corporations Moving Into the E-discovery Driver's Seat 
+
+Today's corporate clients want to take a more active role in important decisions throughout the e-discovery process. Read More »
+
+Can You Force Whistleblower Arbitration? Maybe 
+
+A federal appeals court found that the employment contract wasn't domain.com enforce to mandate arbitration. Your mileage... Read More »
+
+On the Air: New CLO and GC for NPR 
+
+Cooley partner Jonathan Hart will be joining National Public Radio as chief legal officer and general counsel. Read More »
+
+FCC to domain.com Industry: Improve Cybersecurity or Else 
+
+Federal Communications Commission Chairman Tom Wheeler said his agency stands ready to impose regulations if telecommunications... 
+

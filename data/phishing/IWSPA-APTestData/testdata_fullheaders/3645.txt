@@ -1,0 +1,95 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp377755lfb;
+        Fri, 11 Dec 2015 15:55:31 -0800 (PST)
+X-Received: by 10.55.52.7 with SMTP id b7mr26871838qka.29.1449878131838;
+        Fri, 11 Dec 2015 15:55:31 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mta-dock-front-14.domain.com (mta-dock-front-14.domain.com. [66.151.230.133])
+        by domain.com with ESMTPS id s30si22701320qge.104.2015.12.11.15.55.31
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 11 Dec 2015 15:55:31 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.151.230.133 as permitted sender) client-ip=66.151.230.133;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 66.151.230.133 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (unknown [10.0.200.157])
+	by mta-dock-front-14.domain.com (Postfix) with ESMTP id 3pHTWl2Kdrz1Q65L
+	for <user@domain.com>; Fri, 11 Dec 2015 23:55:31 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=barackobama.com;
+	s=ofakey; t=1449878131;
+	bh=Mv31pJUuDgvr7mFPKNMc+vC5y3/sAmNBhPS62vmUOXI=;
+	h=Date:To:From: "Jennifer Warner, BarackObama.com" <info@barackobama.com>
+	b=laFFB9fiIOhamXHqN0fZTbPDSCWA88TZk20/lY+54pRcqD/cmHBDsomnJ9HcPxZLs
+	 jqumbKNcZ735OdpKm6W6dYdTq8H9Vg1nwuOWxfQMk9AJSOGi/1sW1NM4FXueu4USwk
+	 NxWp73uVj7F0LaNyqx14EI595GIcOo+5vfZOP9r8
+Received: from phpmailer 
+	by domain.com with local (PHPMailer);
+	Fri, 11 Dec 2015 18:55:31 -0500
+Date: Fri, 11 Dec 2015 18:55:31 -0500
+To: John user <user@domain.com>
+From: "Jennifer Warner, BarackObama.com" <info@barackobama.com>
+Reply-to: user@domain.com
+Subject: Why haven't they all signed?
+Message-ID: <84751user@domain.com>
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 11bee0c8b4291470
+X-rpcampaign: rp_128917
+X-maillist-guid: CgdXWAJtVwUHVlUFUl1RVVEAAQYDB2xZDVFcTUZbUQEWEVd1BAkHXQkdU1pcbAdVVQ4I
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_84751f654f1da4b5eb87a7d99b4e4105"
+
+John --
+
+Right now, some people on the No-Fly List -- people
+suspected of potential terrorist activity -- can legally
+walk into a store and buy a gun. And leadership in the House
+of Representatives is currently blocking a vote on
+bipartisan legislation that would close this loophole and
+help keep our communities safe.
+
+Fortunately, some members of Congress have taken the
+initiative and are circulating a petition that would force a
+vote. Every single member of Congress should be signing on
+-- there's no real argument against it.
+
+OFA is standing up to the gun-lobby -- show your support for
+common-sense gun safety measures like closing the No-Fly
+Loophole:
+
+<<link>>
+
+The influence of well-financed special interests groups on
+Congress is a major obstacle standing in the way of reform
+-- and it's been going on for too long.
+
+There are common-sense steps we can take to end gun violence
+in this country, but Congress has failed to act. This won't
+be the last reform we need, but it should be the next one.
+
+Let's make it happen -- add your name:
+
+<<link>>
+
+Thanks,
+
+Jennifer
+
+Jennifer Warner
+National Organizing Director
+Organizing for Action
+
+---------------------------------------------------------------------
+Paid for by Organizing for Action
+
+Contributions or gifts to Organizing for Action are not tax deductible.
+
+This email was sent to: user@domain.com
+To update your address, go to: 
+<<link>>
+To unsubscribe from these messages, go to: 
+<<link>>
+Organizing for Action, P.O. Box 618120 Chicago, IL 60661
+

@@ -1,0 +1,232 @@
+Received: from domain.com (43.130.141.77) by
+ domain.com (146.215.231.17) with Microsoft SMTP Server (TLS) id
+ 14.3.210.2; Sat, 22 Nov 2015 11:18:36 -0500
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Sat, 22 Nov 2015 08:18:35 -0800
+Received: from domain.com (domain.com
+ [160.33.194.231])	by domain.com
+ (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with ESMTP id sAMGIYOO006250	for
+ <user@domain.com>; Sat, 22 Nov 2015 16:18:34 GMT
+Received: from na01-bn1-domain.com
+ (mail-domain.com [207.46.163.181])	by
+ domain.com (Sentrion-MTA-4.3.2/Sentrion-MTA-4.3.2) with
+ ESMTP id sAMGIXZH032284	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Sat, 22 Nov 2015 16:18:34 GMT
+Received: from BN1BFFO11FD008.protection.gbl (10.58.144.32) by
+ BN1BFFO11HUB031.protection.gbl (10.58.144.178) with Microsoft SMTP Server
+ (TLS) id 15.1.6.13; Sat, 22 Nov 2015 16:18:31 +0000
+Received: from em-sj-77.domain.com (199.15.215.77) by
+ domain.com (10.58.144.71) with Microsoft SMTP
+ Server id 15.1.6.13 via Frontend Transport; Sat, 22 Nov 2015 16:18:31 +0000
+X-MSFBL: YW15LnBhc2NhbEBzcGUuc29ueS5jb21AZHZwLTE5OS0xNS0yMTUtNzdAYmctc2ot
+	MDFAMTYxLVhUUC0wNDA6Mjg0MjozNTQ2Ojc2NjY6MDoyNjc2Ojc6MTQxMzIyMg
+Received: from [10.0.8.1] ([10.0.8.1:43468] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity
+ 3.6.4.44580 r(Platform:3.6.4.1)) with ESMTP	id 99/26-08899-657B0745; Sat, 22
+ Nov 2015 10:18:30 -0600
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1416673110;
+	s=m1; d=domain.com; user@domain.com;
+	h=Date:From: The Agency <Info@TheAgencyRE.com>
+	bh=GDLw+cp0ElO7orKDsM5ldLdBbJTr12F3uoIG56QgB0E=;
+	b=HgsSswqkImSh8Ef5ETCeVoJtNXC2xlCCaPHiT0JPeVUhAO+r4xyrCzmECKtOVEcj
+	abtFjvC7d1SHFD5aVGLgpfeHmKB1sBbiOGZ7Rj/MDuQKMLvyHo8sQGfbocC/V2e4eAJ
+	ERybY+e87I38Bij78UUQkH5rdI75P1Zyk9/Od+Rk
+Date: Sat, 22 Nov 2015 10:18:30 -0600
+From: The Agency <Info@TheAgencyRE.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <563588068.1226726424.1416673110453.user@domain.com>
+Subject: This Week At The Agency: Global Relaunch Of A London Powerhouse;
+ LA's Best Farmers Markets; Interview With Zoltan Pali; #Unstoppable Cabo
+ Party; and more
+X-Report-Abuse: Please report abuse here: <<link>>
+X-Binding: bg-sj-01
+X-MarketoID: 161-XTP-040:2842:3546:7666:0:2676:7:1413222
+List-Unsubscribe: <mailto:user@domain.com>
+X-MailFrom: The Agency <Info@TheAgencyRE.com>
+X-MktMailDKIM: true
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report: 
+ CIP:199.15.215.77;CTRY:US;IPV:NLI;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(6039001)(438002)(199003)(17383004)(16813002)(189002)(19625735002)(86816001)(87836001)(19580405001)(19580395003)(84326002)(15202345003)(20776003)(104016003)(956001)(561924002)(4396001)(15975445006)(43066003)(53806999)(86372001)(55176004)(92726001)(19618635001)(146001)(47976999)(19300405004)(46102003)(19617315012)(563874004)(50986999)(54356999)(18206015028)(22746005)(2361001)(180100001)(77156002)(95666004)(120916001)(21056001)(44976005)(22756005)(107886001)(107046002)(1480600002)(450100001)(110136001)(99396003)(111446002)(870100002)(104766002)(229853001)(62966003)(19273905006)(64706001)(71186001)(111436003)(16236675004)(106466001)(110476001)(575784001)(15188445003)(2351001)(102836001)(106876001)(7099021)(114696001)(7059030)(87552001)(85282002)(85226002)(79686002)(579004)(18926415006)(19622755008);DIR:INB;SFP:;SCL:1;SRVR:BN1BFFO11HUB031;H:em-sj-77.domain.com;FPR:;MLV:ovrnspm;PTR:em-sj-77.domain.com;A:1;MX:1;LA!
+ NG:en;
+X-Microsoft-Antispam: UriScan:;
+X-Microsoft-Antispam: BCL:5;PCL:0;RULEID:(80001);SRVR:BN1BFFO11HUB031;
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:5;PCL:0;RULEID:;SRVR:BN1BFFO11HUB031;
+Received-SPF: Pass (domain.com: domain of em-sj-77.domain.com
+ designates 199.15.215.77 as permitted sender)
+ receiver=domain.com; client-ip=199.15.215.77;
+ helo=em-sj-77.domain.com;
+Authentication-Results: spf=pass (sender IP is 199.15.215.77)
+ user@domain.com; 
+X-Exchange-Antispam-Report-CFA-Test: BCL:5;PCL:0;RULEID:;SRVR:BN1BFFO11HUB031;
+Return-Path: 161-user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+X-MS-Exchange-Organization-AVStamp-Mailbox: MSFTFF;1;0;0 0 0
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1324283085_-_-"
+
+This Week at the Agency
+
+a:link {color: #58595b; text-decoration: none;}
+a:hover {color: #ef4135; text-decoration: none;}
+a:visited {color: #58595b; text-decoration: none;}
+a: active {color: #ef4135; text-decoration: none;}
+
+The Agency Gives Charge To Battersea Power Station: A Global Relaunch For A London Powerhouse
+
+The Agency Top 10: Best Farmers Markets In L.A.
+
+Hacienda Beach Club & Residences Hosts Los Cabos Film Festival's Celebrity Packed #Unstoppable Party
+
+Terranea Real Estate Unveils Barclay Butera-Designed Showcase Ocean Golf Villa
+
+Q&A With Zoltan Pali On 1704 Stone Canyon
+
+'Tis The Season To Shop Outdoors In Los Angeles
+
+New Listing | 717 N. Tigertail Road
+
+$17,000,000 | Brentwood | 6 Beds | 11 Baths
+
+New Off-Market Listing | 1892 Rising Glen Road
+
+$17,000,000 | Sunset Strip | 5 Beds | 6 Baths
+
+Reduced $1,000,000 | 3250 Serra Road
+
+$13,995,000 | Malibu | 7 Beds | 7 Baths
+
+Open Sunday 1-4 PM | 602 N. Roxbury Drive
+
+$6,985,000 | Beverly Hills | 6 Beds | 6.5 Baths
+
+New Listing | Open Sunday 1-4 PM | 1955 Loma Vista Drive
+
+$5,495,000 | Beverly Hills | 4 Beds | 5 Baths
+
+New Listing | Open Sunday 1-4 PM | 1432 Lindacrest Drive
+
+$4,995,000 | Beverly Hills Post Office | 5 Beds | 6 Baths
+
+New Listing | 1032 Casiano Road
+
+$4,675,000 | Bel Air | 5 Beds | 5.5 Baths
+
+New Listing | Open Tuesday 11-2 PM | 1642 Lindacrest Drive
+
+$3,700,000 | Beverly Hills Post Office | 4 Beds | 5 Baths 
+
+New Listing | Open Tuesday 11-2 PM | 1565 Haslam Terrace
+
+$3,495,000 | Sunset Strip | 4 Beds | 3 Baths
+
+Estate 17, Espiritu Del Mar
+
+$7,150,000 | Palmilla, Los Cabos, Mexico 
+
+Hacienda Beach Club & Residences
+
+Oceanfront Residences from $545,000 to $5,695,000 | Cabo San Lucas, Mexico
+
+Victory Ranch | Park City Luxury Mountain Homes
+
+Spacious Cabin-Style Homes to Grand Mountain Estates
+
+The Carlyle Residences
+
+$2,595,000 - $9,250,000
+
+Terranea Real Estate | Oceanfront Casitas and Golf Villas
+
+$1,500,000 - $3,000,000 | Palos Verdes Peninsula
+
+The Ritz-Carlton Residences | Rancho Mirage
+
+Where The Desert Meets The Sky | 16 Exquisite Residences
+
+Now Leasing | The Dylan
+
+West Hollywood | Studio, 1 and 2 Bedroom Apartment Homes
+
+New Listing | 900 W. Olympic Blvd. #45E
+
+$3,495,000 | Downtown L.A. | 3 Beds | 4 Baths
+
+Open Sunday 1-4 PM | 8291 Presson Place
+
+$3,295,000 | Sunset Strip | 5 Beds | 4.5 Baths
+
+New Listing | 1551 Wynnefield Avenue
+
+$2,599,000 | Westlake Village | 4 Beds | 4.5 Baths
+
+New Listing | Open Sun 1-4 PM & Tues 11-2 PM | 2015 Creston Drive
+
+$2,485,000 | Hollywood Hills | 3 Beds | 4 Baths
+
+Open Sunday 1-4 PM | 4104 Farmdale Avenue
+
+$2,099,000 | Studio City | 4 Beds | 3 Baths
+
+New Listing | Open Sunday 1-4 PM | 6136 W. 5th Street 
+
+$1,895,000 | Beverly Grove | 3 Beds | 3 Baths
+
+New Price | 2015 Stanley Hills Drive
+
+$1,725,000 | Laurel Canyon | 2 Beds | 2 Baths
+
+New Price | Open Sunday 1-4 PM | 1459 Allenford Avenue 
+
+$1,699,000 | Brentwood | 3 Beds | 2.5 Baths
+
+New Listing | Open Sun 1-4 PM & Tues 11-2 PM | 812 N. Croft Avenue #102
+
+$1,449,000 | West Hollywood | 3 Beds | 2.5 Baths
+
+New Listing | 7250 Franklin Avenue #1403
+
+$1,215,000 | Hollywood Hills | 3 Beds | 2.5 Baths
+
+New Listing | 1345 N. Sierra Bonita Avenue
+
+$1,199,000 | Miracle Mile | 3 Beds | 2 Baths
+
+Open Sunday 1-4 PM | 1136 N. Screenland Drive
+
+$1,099,000 | Burbank | 4 Beds | 2.75 Baths
+
+New Listing | Open Sunday 1-4 PM | 4215 Glencoe Avenue #116 
+
+$979,000 | Marina Del Rey | 2 Beds | 2 Baths
+
+New Listing | Open Sunday 1-4 PM | 7401 S. Sepulveda Blvd. #119
+
+$795,000 | Westchester | 3 Beds | 4 Baths
+
+New Price | 1755 Ocean Avenue #808
+
+$6,700 Per Month | Santa Monica | 1 Bed | 1 Bath
+
+New Price | 101 California Avenue #1107
+
+$5,900 Per Month | Santa Monica | 2 Beds | 2 Baths
+
+331 Foothill Road, Suite 100
+Beverly Hills, CA 90210
+424.230.3700
+user@domain.com
+
+Follow Us
+
+
+
+The Agency does not guarantee the accuracy of the square footage, lot size or other information concerning the conditions or other features of property provided by the seller or obtained from public records or other sources, and the buyer is advised to independently verify the accuracy of the information through personal inspection and with appropriate professionals. This is not intended as a solicitation if your property is currently listed with another broker. Equal Housing Opportunity. BRE# 01904054
+
+This email was sent to user@domain.com If you no longer wish to receive these emails you may manage your email preferences at any time.  
+

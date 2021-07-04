@@ -1,0 +1,118 @@
+Delivered-To: user@domain.com
+Received: by 10.140.37.194 with SMTP id r60csp307557qgr;
+        Sun, 17 Aug 2015 09:03:32 -0700 (PDT)
+X-Received: by 10.140.41.38 with SMTP id y35mr45127787qgy.69.1408291412862;
+        Sun, 17 Aug 2015 09:03:32 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.5])
+        by domain.com with ESMTPS id f19si20616383qaq.68.2014.08.17.09.03.32
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Sun, 17 Aug 2015 09:03:32 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.251.5;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.249.179:25379] by server-5.bemta-12.domain.com id 59/19-20612-352D0F35; Sun, 17 Aug 2015 16:03:31 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-11.tower-44.domain.com!1408291410!9340356!1
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 17037 invoked from network); 17 Aug 2015 16:03:30 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-11.tower-44.domain.com with AES128-SHA encrypted SMTP; 17 Aug 2015 16:03:30 -0000
+Resent-From: Stop The Tea Party <democrats@thehousemajoritypac.com>
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Sun, 17 Aug 2015 12:03:29 -0400
+Received: from [216.82.249.211:56747] by server-14.bemta-12.domain.com id
+ D0/FD-11901-152D0F35; Sun, 17 Aug 2015 16:03:29 +0000
+X-Env-Sender: DQpDRgYJB14VUlM8B1xSB1JcB1ADBwcKVg5QAT9EWgAAFkJUIwgHQ0tUVVp
+  user@domain.com
+X-Msg-Ref: server-8.tower-53.domain.com!1408291407!9807597!1
+X-Originating-IP: [70.42.50.132]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNzAuNDIuNTAuMTMyID0+IDE5ODk5OA==\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.11.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 4218 invoked from network); 17 Aug 2015 16:03:27 -0000
+Received: from mta-dock-front-3.domain.com (HELO
+ mta-dock-front-3.domain.com) (70.42.50.132)  by
+ server-8.tower-53.domain.com with SMTP; 17 Aug 2015 16:03:27 -0000
+Received: from domain.com (unknown [10.0.200.87])	by
+ mta-dock-front-3.domain.com (Postfix) with ESMTP id 3hbjq26PM3zjWxR
+	for <user@domain.com>; Sun, 17 Aug 2015 16:03:26 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1408291406;
+	bh=l39Tfjn8E+fh9HeLcR6qZXEjEGgd1w1TQ7lak7gc+zg=;
+	h=Date:To:From: Stop The Tea Party <democrats@thehousemajoritypac.com>
+	b=krfwhjVU8dJ/ZOOzvg4GJfRHlbGNFG34v08enML8qZJi9djyRNl29bn4DftpEB6UB
+	 mE4fZZAc77oyn06KuvOde+u8MR0aDW5UaClJNV86fqV61eMFgLcDAUZnKZ/1q3MNux
+	 qqc8akWreKMJ+Xne1HN3JcOPgpve8jr+MIE5oYlE
+Received: from build 	by domain.com with local (PHPMailer);
+	Sun, 17 Aug 2015 16:03:26 +0000
+Date: Sun, 17 Aug 2015 16:03:26 +0000
+To: John user <user@domain.com>
+From: Stop The Tea Party <democrats@thehousemajoritypac.com>
+Reply-To: <user@domain.com>
+Subject: this isn't a good news email
+Message-ID: <300user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 69af1e7b70b947bb
+X-rpcampaign: rp_216
+X-maillist-guid: DQpDRgYJB14VUlM8B1xSB1JcB1ADBwcKVg5QAT9EWgAAFkJUIwgHQ0tUVVpDAlYVDE5eHFFTEDpbAAs
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_300b0a5c8f306e7dedeb73dca94a79b9"
+
+John:
+
+Tonight is our last chance to respond to Rove's latest attacks.
+
+We just have $12,412 before we meet our goal -- and we can't afford to 
+miss it.
+
+We can't let Rove's attacks go unanswered and let the Tea Party win. 
+Because if they do, President Obama's agenda will fail.
+
+We can't let that happen.
+
+Can you click here and donate before it's too late? <<link>>
+.com/contribute/page/hmpcrossroads?refcode=3Dem081714_1text&amp;amount=3D2
+5.00&amp;recurring=3Dtrue&amp;firstname=3DJohn&amp;lastname=3Duser&amp;
+user@domain.com&amp;zip=3D20016&amp;city=3DWashington&a
+mp;state=3D&amp;phone=3D&amp;occupation=3D&amp;employer=3D
+
+If you've saved your payment information with ActBlue Express, your 
+donation will go through immediately:
+
+Chip in $3 instantly >> <<link>>
+sroads?express_lane=3Dtrue&amp;amount=3D3&amp;refcode=3Dem081714_1text
+
+Chip in $15 instantly >> <<link>>
+ssroads?express_lane=3Dtrue&amp;amount=3D15&amp;refcode=3Dem081714_1text
+
+Chip in $25 instantly >> <<link>>
+ssroads?express_lane=3Dtrue&amp;amount=3D25&amp;refcode=3Dem081714_1text
+
+Or chip in another amount instantly >> <<link>>
+te/page/hmpcrossroads?refcode=3Dem081714_1text&amp;amount=3D25.00&amp;recu
+rring=3Dtrue&amp;firstname=3DJohn&amp;lastname=3Duser&amp;email=3Dpodes
+user@domain.com&amp;zip=3D20016&amp;city=3DWashington&amp;state=3D&a
+mp;phone=3D&amp;occupation=3D&amp;employer=3D
+
+Stop the Tea Party
+
+Contributions or gifts to House Majority PAC are not tax deductible
+
+Paid for by House Majority PAC. www.thehousemajoritypac.com. Not 
+authorized by any candidate or candidate's committee.
+
+<<link>>
+

@@ -1,0 +1,155 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp2808827lfb;
+        Thu, 3 Mar 2015 08:04:58 -0800 (PST)
+X-Received: by 10.182.196.104 with SMTP id il8mr2273150obc.71.1457021098181;
+        Thu, 03 Mar 2015 08:04:58 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [64.244.122.202])
+        by domain.com with ESMTP id l63si3078038oib.16.2016.03.03.08.04.57
+        for <user@domain.com>;
+        Thu, 03 Mar 2015 08:04:58 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.244.122.202 as permitted sender) client-ip=64.244.122.202;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 64.244.122.202 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com ([10.64.116.28])
+	by mta-domain.com (-); Thu, 03 Mar 2015 10:04:05 -0600
+X-VirtualServer: Bulk0, mta-domain.com, 10.64.119.160
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: user@domain.com
+X-SMFBL: am9obi5wb2Rlc3RhQGdtYWlsLmNvbQ
+X-VirtualServerGroup: Bulk0
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=mta-domain.com; s=selector1; t=1457021045;
+	user@domain.com; h=From: Jake Sullivan <jake.sullivan@gmail.com>
+	Return-Path:Reply-To:Message-ID:X-campaignid:X-Gateway:
+	Organization:Date:MIME-Version:Content-Type; bh=EPEvDN25e7uUgd8M
+	2l/3tkVh/1Y=; b=ltyOHnnzB5IFQ5qBgGWZPiTWd1sspzN+O6R88hOiqb5wuRRR
+	tw2beGp8NkWV0cRMvFHtVBqpHNpjxOmUsR25oPPyg7bwmb0i0enjdGTCs3PdRm2d
+	6GSOcl1S9lwRkZ50pTH/z+1MLKfrULoj0/uCfiSGKRBhpdB+7P3xWPK2RIA
+From: Jake Sullivan <jake.sullivan@gmail.com>
+SUBJECT: Global Update: Speaking Up for the UN
+To: "User" <user@domain.com>
+X-MailingID: 00000::Bulk::75191889-7957-4d08-ad06-6bf0ffc78caa::c233deb4-9a11-43f1-b32a-9ef7f7971013::4491805_72349_1924_E-mail-2::0
+Return-Path: user@domain.com
+Reply-To: United Nations Foundation <user@domain.com>
+Message-ID: <user@domain.com>
+X-campaignid: Convio-poola-unf-95015
+X-Gateway: poola2
+Organization: S80:AffiliateSecCatId]]::1641::United Against Malaria::United Nations Foundation]]
+Date: Thu, 03 Mar 2015 10:04:25 -0600
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="NextPart_e7738c2e_208b_408d_9682_4712d7dca3ed"
+
+UNITED NATIONS FOUNDATION GLOBAL UPDATE - MARCH 2015 
+
+U.S. Supporters Meet at the UN
+
+Nearly 700 members of the United Nations Association of the USA met at
+UN Headquarters last month to participate in Members' Day, a series of
+exclusive briefings and discussions on some of the world's most
+pressing issues.
+
+Learn about the top themes at this year's Members' Day and find out
+how to get involved with UNA-USA: <<link>>
+
+White House Announces Malaria Funding at Nothing But Nets domain.com
+
+Joining more than 125
+advocates at the Nothing But Nets Champion domain.com, Ambassador Susan
+Rice announced the Administration's plans to use increased malaria
+funding to expand the President's Malaria Initiative's work in 6
+countries.
+
+Read more about the announcement and the domain.com: <<link>>
+
+Champions Celebrate 5 Years at user@domain.com domain.com
+
+More than 150 adv
+ocates came
+together in Washington, D.C., for the 5th annual user@domain.com Champion
+domain.com, where they to prepared to lead the fight for global access to
+vaccines and attended meetings on Capitol Hill to urge Congress to
+make vaccine funding a priority.
+
+Get the news from the user@domain.com Champion domain.com: <<link>>
+
+TOP NEWS
+=C2=A0
+Energy Access: A Superpower to Transform Lives
+<<link>>
+
+Family Planning 2015 Calls for Rights-Based Response to Zika
+<<link>>
+
+A Look at the UN's New Humanitarian Agenda
+<<link>>
+
+What Leonardo DiCaprio's Oscars Speech Means for Climate Action
+<<link>>
+
+On World Cancer Day, Towards A Cervical Cancer-Free W
+orld
+<<link>>
+
+Better World Campaign: President's Budget Is Legacy for Next
+Administration
+<<link>>
+
+3 Ways Young People Are Engaging With the Global Goals
+<<link>>
+
+New Studies To Measure Cardiopulmonary Benefits of Clean Cooking
+<<link>>
+
+Global Daily: 4 Ways the Paris Agreement Supports Climate Action Now
+<<link>>
+
+Shadowhunters Star Katherine McNamara Named New
+Girl Up Champion
+<<link>>
+
++SocialGood Voices On the Future of Government
+<<link>>
+
+--
+
+UN Foundation is on Snapchat as "unf
+oundation." Follow us: <<link>>
+
+--
+
+TOP VIDEO
+
+It's time for the world to have "the talk," said UN Foundation
+President and CEO Kathy Calvin at TEDxBerkeley last month.
+
+Watch the video to find out why:
+<<link>>
+
+----
+UN FOUNDATION
+<<link>>
+
+ABOUT
+<<link>>
+
+PRESS
+<<link>>
+
+CONTACT
+<<link>>
+
+TAKE ACTION
+<<link>>
+
+United Nations Foundation | 1750 Pennsylvania Ave - Suite 300 - NW,
+Washington, D.C., 20006 | Tel: 202.887.9040
+
+=C2=A0
+
+To unsubscribe from all future email, paste the followi
+ng URL into your browser:
+<<link>> 
+=00

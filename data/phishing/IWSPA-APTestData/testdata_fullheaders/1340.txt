@@ -1,0 +1,166 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp1609014lfb;
+        Mon, 8 Feb 2015 11:58:05 -0800 (PST)
+X-Received: by 10.66.156.195 with SMTP id wg3mr44266869pab.54.1454961485082;
+        Mon, 08 Feb 2015 11:58:05 -0800 (PST)
+Return-Path: <bounces+1666821-16user@domain.com>
+Received: from o68.list.prochoiceamerica.org (o68.list.prochoiceamerica.org. [50.31.62.82])
+        by domain.com with ESMTPS id q28si48495846pfi.178.2016.02.08.11.58.04
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 08 Feb 2015 11:58:05 -0800 (PST)
+Received-SPF: pass (domain.com: domain of bounces+1666821-16user@domain.com designates 50.31.62.82 as permitted sender) client-ip=50.31.62.82;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of bounces+1666821-16user@domain.com designates 50.31.62.82 as permitted sender) smtp.mailfrom=bounces+1666821-16user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; 
+	d=list.prochoiceamerica.org; 
+	h=content-type:mime-version:subject:From: "Renee Bracey Sherman, NARAL Pro-Choice America" <can@prochoiceamerica.org>
+	s=smtpapi; bh=DeYLKq8dh5lMKv2VsiJA+dkXhu8=; b=hFUAPyywcxyes/+bnE
+	3WPoqI2FEDWInB34ejbVDtfwYf7BD10jgeNXJjM2pIuSGi9HxoiHOxcW/1pEfItq
+	0IoynKJ3CxB0B5N4Zq/ESsudSCKdB1tHzGKsrMFvKiNM0uqSuwbhquhEXZ6rg/NK
+	cGglR054YLJKI/M3B2LYW+y4Q
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.info; 
+	h=content-type:mime-version:subject:From: "Renee Bracey Sherman, NARAL Pro-Choice America" <can@prochoiceamerica.org>
+	s=smtpapi; bh=DeYLKq8dh5lMKv2VsiJA+dkXhu8=; b=Tg0VQt2mnCsZlYzq4p
+	5XEQGnk/pmoizcH1ABCsPJEvHyzwR+PxbVpup2rbfEpw2ohZtqp3VLPOUTuVAltt
+	uSIIs9d00UQXGib5FIUbqwJ8/6z2F5OCbLk92SBw/HyTGNLvL2qklLfTP9JQo2sc
+	dVmNGJBQ6vsBL4fwm+Y2P6hG4
+Received: by domain.com with SMTP id filter0080p1las1.25321.56B8F34CB
+        2016-02-08 19:58:04.006188942 +0000 UTC
+Received: from domain.com (domain.com [198.202.148.30])
+	by domain.com (SG) with ESMTP id wWocCymZRSm4NSM80FbCxw
+	for <user@domain.com>; Mon, 08 Feb 2015 19:58:03.805 +0000 (UTC)
+Content-Type: multipart/alternative;
+	boundary="----=9943263e326673e9c633ba23da6f4ce5"
+MIME-Version: 1.0
+Subject: 5 debates and still no abortion question?!
+From: "Renee Bracey Sherman, NARAL Pro-Choice America" <can@prochoiceamerica.org>
+To: "User" <user@domain.com>
+Date: Mon, 08 Feb 2015 19:57:30 +0000
+Message-ID: <2280user@domain.com>
+Reply-To: "User" <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com>
+X-SG-EID: p7DGjev3kDhYNXGtfGO9jbmQ3Oi75URC5nx+Didgsq/26edQ3iOp2okOA4o2g8SDnbAbB5sy8w6I4e
+ 97bKd5nglrg8/7PJE9NLsJ8pDZf3wx1imguReUkBwN/y+OTqJvz1uVUiy+8uA3v3DOxDv2w9njLQ+o
+ Y/ikz9lltI77o272DuYacH7fcrKk3BqQllx5n6U0siS0lst4l/mIGTuqYPd1+mbe1+Tsma4zIOP8p9
+ zUUZQmQuD/X3GDTazBnqm/LuRfoNBJM1VD3V4z046suw
+X-SG-ID: VGe5/xjN+I+4B3VTA8MwtDv4B943q8kLOi1V38D/mVAr/C5+wSuF2AMASkpCdoufqjTGwOpXC2Gr0n
+ Acbv+mdGehTxSBAuKR0266HHC5JNw
+X-Feedback-ID: 1666821:Y8iGXa7nrufQNt6P9r22I9ltDYTtd/U/Pc9UDN7M/D0=:Y8iGXa7nrufQNt6P9r22I9ltDYTtd/U/Pc9UDN7M/D0=:SG
+
+NARAL Pro-Choice America
+_____________________________
+   Sign the petition to ask the moderators to #AskAboutAbortion!
+
+   John,
+
+   The last few Democratic debates have left me astounded.
+
+   Reproductive freedom is at serious risk in this country. But still, not a
+   single question about abortion rights has been asked at ANY of the five
+   Democratic debates. Not one.
+
+   On Thursday night, PBS NewsHour's Gwen Ifill and Judy Woodruff will make
+   up the first all-woman moderating team of any debate. [1]Click here to
+   tell them to ask the candidates a question about how they'll defend and
+   expand abortion rights in the face of historic challenges to reproductive
+   freedom.
+
+   Lately, a lot of people have been asking me why it's important to have t
+he
+   two Democratic candidates debate abortion, when they both clearly have
+   strong pro-choice voting records.
+
+   I can tell you exactly why it matters: Being *just* pro-choice is not
+   enough anymore. Not now, when we face an anti-choice majority in Congress
+   and anti-choice state governments and a field of rabidly anti-choice GOP
+   presidential candidates who are determined to ban abortion.
+
+   The voters deserve a chance to watch Bernie Sanders and Hillary Clinton
+   race to the top on this issue.
+
+   In the first few weeks of 2015 alone, state legislatures have introduced
+   147 anti-choice bills. That's an average of five per day. And in just
+   three weeks, the Supreme Court will hear the case out of Texas that could
+   redefine abortion access for a generation. What will the candidates do to
+   address the very real crisis of abortion clinics shuttering across the
+   country?
+
+   Women on Medicaid are already barred from using their insurance to cover
+   the cost of abortion, which means low-income people and women of color a
+re
+   overwhelmingly affected. How will these candidates, who are far surpassi
+ng
+   the Republicans when it comes to addressing the issues that matter to
+   people of color, reconcile this and make substantive change?
+
+   [2]Will you add your name to tell the moderators to ask a question about
+   abortion access at the next Democratic debate?
+
+   Access to abortion is central to the values we hold dear as Americans--t
+he
+   ability to plan one's future and control one's own destiny, the power to
+   decide when and if and how to become a parent and start a family. When I
+   was 19, I had an abortion because I wasn't ready to become a parent, and
+   it was the best decision for me.
+
+   What's important now is a candidate's willingness to go above and beyond,
+   to demonstrate that they're a die-hard supporter of reproductive freedom
+   and will do whatever it takes to make sure access to abortion is protect
+ed
+   and expanded.
+
+   We need as many people as possible to sign this petition so we can make 
+an
+   impact on the moderators as they're finalizing their question choices for
+   the debate Thursday night. [3]Click here to add your name and call on PBS
+   moderators Gwen Ifill and Judy Woodruff to #AskAboutAbortion on Thursday.
+
+   Thank you for all you do for reproductive freedom.
+
+   Renee Bracey Sherman
+   Board Member, NARAL Pro-Choice America
+
+   P.S.: If you're on Twitter, be sure to tweet with [4]#AskAboutAbortion
+   from now until the Democratic debate Thursday night.
+
+References
+
+   Visible links
+   1. Sign the petition
+	<<link>>
+0208emailfull&t=3D1001&akid=3D786.2261225.EFpdvQ
+   2. Sign the petition
+	<<link>>
+0208emailfull&t=3D1002&akid=3D786.2261225.EFpdvQ
+   3. Sign the petition
+	<<link>>
+0208emailfull&t=3D1003&akid=3D786.2261225.EFpdvQ
+   4. Use the hashtag
+	<<link>>
+vQ
+
+_____________________________
+															This message was sent to: user@domain.com | If you'd 
+like to sign up for emails in a different account, <<link>>
+domain.com/signup/email_signup/?source=3Demailfooter&akid=3D786.2261225.EFp
+dvQ.
+
+If we need to update your contact information, please <<link>>
+domain.com/me/update/?akid=3D786.2261225.EFpdvQ.
+
+We believe that emails are a crucial way for NARAL to stay in touch with su
+pporters. However, if you'd like to unsubscribe, go to <<link>>
+domain.com/cms/unsubscribe/unsubscribe/?akid=3D.2261225.RO8qJg&akid
+=3D786.2261225.EFpdvQ .
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+
+Our campaign to protect and expand reproductive freedom is powered by suppo
+rters like you. If you'd like to make an online donation, <<link>>
+domain.com/donate/supportnaral/?source=3Demailfooter&akid=3D786.226
+1225.EFpdvQ. Thanks for your support of NARAL!
+													&copy; Copyright 2015 NARAL Pro-Choice America. 1156 15th Stre
+et, Suite 700, Washington, DC 20005 All rights reserved.

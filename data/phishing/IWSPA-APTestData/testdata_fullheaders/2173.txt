@@ -1,0 +1,72 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Tue, 18 Mar 2015 13:23:13 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2IKNCxr020067	for <user@domain.com>; Tue, 18 Mar 2015 
+ 20:23:13 GMT
+Received: from mail85-ch1-domain.com (mail-domain.com
+ [216.32.181.175])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s2IKNBZs029839
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 18 Mar 2015 20:23:11 GMT
+Received: from mail85-ch1 (localhost [127.0.0.1])	by mail85-ch1-domain.com
+ (Postfix) with ESMTP id 4C82A3C0118	for <user@domain.com>; Tue, 18
+ Mar 2015 20:23:12 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:84.40.11.45;KIP:(null);UIP:(null);IPV:NLI;H:mail.generatormail.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z579ehzc85fhbf3Wbf2Izz1f42h2148h208ch1ee6h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1fc6h1082kzz1def03h177df4h17326ah8275bh1bc7b9h1de097h186068h18602eh1ce121iz2fh95h839h947hc61hd24h119dh1288h12a5h12bdh137ah13eah1441h14ddh1504h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1b2fh1bceh224fh1fb3h1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h2668h99di22eai2673i1a29s41h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail85-ch1: domain of generatormail.com designates 84.40.11.45 as permitted sender) client-ip=84.40.11.45; user@domain.com; helo=mail.generatormail.com ;domain.com ;
+Received: from mail85-ch1 (localhost.localdomain [127.0.0.1]) by mail85-ch1
+ (MessageSwitch) id 1395174189818039_27061; Tue, 18 Mar 2015 20:23:09 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.248])	by mail85-domain.com (Postfix) with ESMTP id B92F04A00B8
+	for <user@domain.com>; Tue, 18 Mar 2015 20:23:09 +0000 (UTC)
+Received: from mail.generatormail.com (84.40.11.45) by
+ domain.com (10.43.70.18) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 18 Mar 2015 20:23:08 +0000
+Received: from mail2.generatormail.com (server88-208-229-225.live-domain.com
+ [88.208.229.225])	by mail.generatormail.com (Postfix) with ESMTPSA id
+ 7E7FB5186AC	for <user@domain.com>; Tue, 18 Mar 2015 19:55:04 +0000
+ (GMT)
+Received: from mail.generatormail.com (domain.com
+ [84.40.11.45])	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)	by mail2.generatormail.com (Postfix) with
+ ESMTPSA id C0ED6840236	for <user@domain.com>; Tue, 18 Mar 2015 
+ 19:55:03 +0000 (GMT)
+Subject: Inside Business Insider: Reverse Engineering a Successful Online News
+ Business
+From: Andrew Sheehy <aps@generatormail.com>
+To: <user@domain.com>
+Date: Tue, 18 Mar 2015 19:55:04 +0000
+Message-ID: <user@domain.com>
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Inside Business Insider: Reverse Engineering a Successful Online News Business
+
+Inside Business Insider: Reverse Engineering a Successful Online News Business
+
+Founded by Henry Blodget in 2007, and having recently attracted two separate investments from Amazon CEO Jeff Bezos, Business Insider is a great example of a new type of online news business that reverses the business model that has underpinned news publishing for decades.
+
+Emboldened by the apparent success of sites like Business Insider, plus others like Huff Post, Gawker, and BuzzFeed the last few months have seen the launch of a new wave of online news businesses; for example Re/Code (Kara Swisher, Walt Mossberg), Vox (Ezra Klein) and The Information (Jessica Lessin) - plus others (see our new report on Newspapers and the domain.com for a full list).
+
+(Indeed, we find this emerging sector so interesting that we're seriously considering launching an online news tech service ourselves, and we'll be inviting you to provide feedback on a pre-beta site we've developed in the coming days...)
+
+Henry Blodget has been kind enough to publish a lot of interesting data about his business (see below), and when that data is enhanced with some sensible analysis you can start to see a kind of 'blueprint' for how to run a successful online news operation.
+
+So, first up, here's what we know about Business Insider...
+
+Click here to read the full article.
+
+Best regards,
+
+Andrew Sheehy
+Chief Analyst
+---------------------------
+

@@ -1,0 +1,495 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp705398lfr;
+        Thu, 8 Oct 2015 12:10:10 -0700 (PDT)
+X-Received: by 10.69.0.132 with SMTP id ay4mr9754723pbd.87.1444331410590;
+        Thu, 08 Oct 2015 12:10:10 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.110.92])
+        by domain.com with ESMTPS id pm1si68547835pbb.183.2015.10.08.12.10.10
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 08 Oct 2015 12:10:10 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.110.92 as permitted sender) client-ip=157.56.110.92;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.110.92 as permitted sender) user@domain.com;
+       dkim=fail user@domain.com
+Received: from domain.com (10.255.193.14) by
+ domain.com (10.242.216.24) with Microsoft SMTP
+ Server (TLS) id 15.1.286.20; Thu, 8 Oct 2015 19:10:08 +0000
+Received: from BL2FFO11FD018.protection.gbl (2a01:111:f400:7c09::108) by
+ domain.com (2a01:111:e400:45::14) with Microsoft
+ SMTP Server (TLS) id 15.1.293.16 via Frontend Transport; Thu, 8 Oct 2015 
+ 19:10:07 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=domain.com;domain.com; dmarc=permerror action=none
+ header.from=haroldfordjr.com;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.75;
+ helo=domain.com;
+Received: from domain.com (141.161.191.75) by
+ domain.com (10.173.161.36) with Microsoft SMTP
+ Server (TLS) id 15.1.293.9 via Frontend Transport; Thu, 8 Oct 2015 19:10:07
+ +0000
+Resent-From: "Harold Ford, Jr." <jr@haroldfordjr.com>
+Received: from na01-bl2-domain.com (141.161.191.14)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Thu, 8 Oct 2015 15:09:55 -0400
+Received: from domain.com (10.141.52.171) by
+ domain.com (10.141.204.154) with Microsoft SMTP
+ Server (TLS) id 15.1.286.20; Thu, 8 Oct 2015 19:09:27 +0000
+Received: from BY2FFO11FD029.protection.gbl (2a01:111:f400:7c0c::171) by
+ domain.com (2a01:111:e400:2414::43) with Microsoft
+ SMTP Server (TLS) id 15.1.293.16 via Frontend Transport; Thu, 8 Oct 2015 
+ 19:09:26 +0000
+Authentication-Results: spf=pass (sender IP is 128.136.37.67)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass (signature was
+ verified) header.d=domain.com;domain.com; dmarc=permerror action=none
+ header.from=haroldfordjr.com;
+Received-SPF: Pass (domain.com: domain of domain.com designates
+ 128.136.37.67 as permitted sender) receiver=domain.com;
+ client-ip=128.136.37.67; helo=domain.com;
+Received: from domain.com (128.136.37.67) by
+ domain.com (10.1.14.212) with Microsoft SMTP
+ Server (TLS) id 15.1.293.9 via Frontend Transport; Thu, 8 Oct 2015 19:09:24
+ +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=e2ma; d=domain.com;
+ h=Content-Type:MIME-Version:Subject:From: "Harold Ford, Jr." <jr@haroldfordjr.com>
+ bh=XnVgx9t5nbsYKsdnOX5Swl76SMw=;
+ b=qxOj+NbitaKTENyD3fuOc3qBfPijwsvVr/8IU0ydYGQs/W1kLAmR2IkIush2qZ5/9hE2hHamsfCf
+   7Zuyt3dk8tznqcfCwzVLkxst103VhN54s3hhRs2nvFx5bCms2hoxATbCfK3m8ouFgK32FfPadN6t
+   EZoe9YrLff6zyQH4W3Q
+Received: by domain.com id h2qvm818eagl for <user@domain.com>;
+ Thu, 8 Oct 2015 14:09:24 -0500 (envelope-from
+ <1127472444.2364.281104700@domain.com>)
+Content-Type: multipart/alternative; boundary="==144433136407898=="
+MIME-Version: 1.0
+Subject: Ford: CNBC Squawk Box
+From: "Harold Ford, Jr." <jr@haroldfordjr.com>
+Reply-To: <user@domain.com>
+To: user@domain.com
+Date: Thu, 8 Oct 2015 19:09:24 +0000
+Precedence: bulk
+Return-Path: user@domain.com
+Message-ID: <user@domain.com>
+List-Unsubscribe: <<<link>>>,<mailto:61user@domain.com>
+X-Test-Mailing: no
+Feedback-ID: 2364:1127472444:mainstream:EMMAFBL
+X-EOPAttributedMessage: 1
+X-Matching-Connectors: 130888049665277555;(96486ba5-fc92-4a05-1cd7-08d272898b0c,8721167c-8741-4be3-8b82-08d1e2022796,d7982164-20ee-4c64-7f86-08d1c27f8a02,a071aaeb-ac8f-4880-c12d-08d21f783db9);()
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2FFO11FD029;1:pI/jHHxUGR003Qdt+Z010fwBuUG00650rQSTgNOmwLi7G3XAgjVhNWYH0dGKLcb3SGH+6I93D0ObHhJGYB68/T/YvlOJZdepHi3dIKeu8bS7cI0rFdZps1Dn7WaSR5mvye/12qa75y/6GqCnq4ESsnsq1jal10nUWKVDjou6ppJ/sidXvaeMLelOKM8SOyegtEFy5vKogseevDLHXpIKx/Gtfo2q1XVJmoNLqYrszrAqYKjPVuL5ldNkeyiN9tA8AglE2ZZYij3p7fIZQ3BBMBZHsmOpsYXQehECOz6bMWanTd1YkK8bgJeNC6YuYmIym01qIqQD4hx3KqNzuqWWDKN+fuJhTwPMo3avs30vtQpoWTu547X7oWFhZJl7WXjJRivddRe1G7lewHSTLKhQpVXZbpIogTCDHayeluJOJpa23+KAxaW6BCpkbW/3mfWfzWDNA1iaDBMQ+bR9WJAGwg
+X-Forefront-Antispam-Report-Untrusted: CIP:128.136.37.67;CTRY:US;IPV:CAL;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31620200002)(1080300003)(2980300002)(438002)(359002)(189002)(199003)(349900001)(377454003)(349012);DIR:INB;SFP:;SCL:9;SRVR:BLUPR07MB532;H:domain.com;FPR:;SPF:Pass;PTR:domain.com;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 
+	1;BLUPR07MB532;2:Ws1TydxJrmmuiRLRQ/FV+PYidp+f1Ht2uc6P1tGC67ZQ8F/5EfKj07/4950yoHjqJemd4Kql4r/CAXgdLvitUP8fAex7LDXLKl2t08J5X0xpSuaqrniwqZx30hhs7LfvDBwuOTRcpOeGHOGvTdyO1th29VbZNczWsFNlLI+Ox2k=;3:FDNR1NIp3w9bMKXiUHyJTi4Y56k6j5qPsO+8VhoCxThvlk2kpEBtV6Ri9KidcXZmnI/nhkkY/hO2cPw4fNeYfXMR4ns83hIIwwT4IUuOAs/bc2lCX297IBIbmL3dsG67GTwSA5vJptvmWTOatGuXjv5qwIY7LPUof6E9KIcBPsdw9kVzEv6Sbzf+E9H1CxKnWR/5/ULR4D3JjBN6W4CeZ6lBVIqZDMGJCjEJS3G/T1pwa5b2sp9Tf/cyoaDKQfXRlgI7uHncM5kSmGFWICjCptjVCp+WAF69vY0V9/EZcM0GOXuATk5B4O/DKP+9HgyKwESSLuT1WYfq26xO9Rh1zg==;25:/xbolrRdXHJF5gmcmlKktifg5LPXlfxhqkypI08eY7MuqQQA0X+Wl3Eozu1ULntDN8A1FllBaO9S4SG0uH5O00WhsfOjqp7kdbNfRXRkoovQDbEfNddRxftuQgya5WABkc6WMozeJH0rG+ecd4ClWDe/40bdewI1WmeC05GQ74LOylX3+0ScVqQMqCh6gsN20BOC38fVOEZ+HLMrcuSZ07+mJ3cZ74syM6lOwKvAzX0iUdVyFntR2hy0CBWUktTb;20:fnu+bj6smd5WuSz8iaSct63YfcSTjfIgkCAMfrpr8iiMUsWUmG8d5JzeneQfgELuKmZHAmg9zFpz0qthfxJLPuMh70dj4X25rJjFxeN029Bz7tdN3YiPKSsljP6yzR4MwuvPhIgrAj651sWAc4UtF8HRCaN+22g63c2op3rDr/M
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(421252001)(42143001)(3001015)(71701003)(71702001);SRVR:BLUPR07MB532;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(520078)(8121501046)(3002001);SRVR:BLUPR07MB532;BCL:6;PCL:0;RULEID:;SRVR:BLUPR07MB532;BCL:4;PCL:0;RULEID:(601004)(2401047)(520078)(5005006)(8121501046)(3002001);SRVR:BN1PR07MB101;BCL:4;PCL:0;RULEID:;SRVR:BN1PR07MB101;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB532;4:PCKN4ednOs54mYwOb3mxZBJs16304qnfycP97CmOiUE+/DjYDguPRFRG95i5o6pKpglUUTXrsbtHfp9CEsUmPrwSYfxeBT+lsVRL5w1hbGKHPj4SlyJIDuI1a7h2aJAPcHSgoRr+G3jCd5PjTEAkL7wQx8qPrS7+AWYCs9+N4PKbovIBsoFL6WH0f0fS70/Rd/dQgSXtex8AmayfYXwaxM0kMpiT51DH4c2fTp4m6k5tocy8HPdIjE4AEED74vZFzC45ORQM4/wxLToXVGTSZ4RziusvFPNQZlSFYSGFnxPGb+1qkq+icKhkbWo174FAAE3i6Ym3J3KXMdVgun4Xvg==;23:ak7IP+iv7bfcQMXAAxVriCxJa01FEps3af4NIaa1ey4oUG33WsEcsE6RqCxmjT6UXLvszwkW9yl+9ZQqZzUP4JxloLm+W+JwsuVU9YYtIuQUcUhf/Ips/b5cRZZX0+7bN/IYR1PHp+YtX+C9UlIHPRXEjSXZfylloxHdInQ/K0ZkVab/WvCQV3iFzWBL2ZkNqHTEeu15l+jwOeQxhgwMKBXdt4qMCs3WNLgoHAfV+sx+jQjk1sjAH+ilL6Xbyw7cHJw5oRubRT5ZTt0rk9VkBQjsGt2Rgg2owEmh0LiPim0byCje/iGqkF338ayF0+oZkIwpQ9BktK2CEIw8H0l63KrHBuUnn0TBrgufsI8AL2BEBlAiFjdxtdTcQAiB5wN7fTgRU2G+OUhzw+2w+KV+6A==;5:GDu0NM4Ej3zk02PamkCjaeh4Qdof1WAbVFVZGQAVHwvbUZGquUkduGRqrsVUlRCQcSWdlChkNWs/d8wxgaYX81oSqIJ0bUtOGKnJRicB1mw0pMlIlRApsAJgX5lh8rFFSa5tByXLj1KfPEyY4v9rLA
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB532;24:m5SQtUpzLsWMDdv+d3cEZQ2QSFJDG6MN9fY7A5DvjkES5xbitaBYHBO19v5RdbweE2YkvLS2fLL5D3ziFUqFCQ==;20:1WzLe7Nrc8HekMxFkrU5oQvc01urJtJuQpn1zUXKTeOeTqszVNSlt7gV7i2g+CZLH0zBGkTND7mb1IR7T75rXQ
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB532
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BL2FFO11FD018.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BL2FFO11FD018;1:+ZifitKrIP4IHBNyaISN8/DhjSfMdUgz3h8l116hL9MnDVyMlpf23tP6T2jykzXcQTyTU/7D2ARFe/P72EZSrK+uwTp8ac+A6UhfMAWbcOH9iSCNA1qoRDIPBCqAkBRjdK5P9ytdjc+CKkup8juR6apADCp3w+cuv1V0zXrAR/387/KulYFUty3oltIDhyjvmarEytMQNi6/vXZ7Jm+zWMnogTfPbm1GbosPm6DExMPkW9oGFHhmXJi8fUx57a9fiYH0XnWskLv+G83BvAOaNFgFyVSn2GLN24RCE9HsKwGOyK/ath1X601lBU3nauwWGVhcaH5BQkkLHEgCNfpxPmjwidpkHQYgit1Q/rfJ3/Mk627LbuHhvRWRSfEy3KQL++pAlcq2DztozBXw2rLr3eiA91qHkfVyjK6EAsSG3pg
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1080300003)(1110001)(1109001)(339900001)(377454003)(199003)(189002)(5001960100002)(110136002)(19580405001)(2351001)(146001)(19580395003)(19626245003)(43066003)(33646002)(88552001)(36756003)(47976999)(81156007)(4290100001)(50986999)(107886002)(84326002)(53806999)(97736004)(18926415007)(960300001)(229853001)(5002220100002)(75432002)(512874002)(105606002)(15975445007)(2171001)(450100001)(87936001)(5008740100001)(956001)(54356999)(11100500001)(19627405001)(42186005)(19618635001)(6806005)(18206015028)(575784001)(64706001)(85426001)(5007970100001)(4001450100002)(106466001)(980100002)(88526003)(19617315012)(46102003)(110466001)(104016004)(95666005)(7029012)(7099028)(82556003)(42882005)(2657375003);DIR:OUT;SFP:1101;SCL:1;SRVR:BN1PR07MB101;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB101;2:KC2q18Ou1UVpLqead/+pJ2L9/JiziX89DjNi6iLZucoPpnrT3eOS4Ux0fQ72/HpVShBnj/j7bEX4yS4/4i3AlSgCSR0yIqlcMT2hbG1Ekp+nFmCgjCy62yziGacQBy3iqvIdLxdJioiRHn6g7djnCrYiWq9fpDw09TYLX7FxPv0=;3:+/bYAMeTPiq/W4/C24q0RWjKG+aVZ0J3YOXmSw2Z5ZV2EDJ0Daa8awcFe0fRm/Ea1Cx54U4Ukb7bDDGGUN2cMnmctlrKofDq/GKt7byIG91HB/7MGkvxi+0W4jml/5f8r22J/H+zRqhBLaHkvZYDs4O4l6fb1pE4mnpe0Cs1IL+RwqMDi2z0MdqGu99+1scbQjMvscuhF7M3kgP9c57n5z3Jkgy4iNkdAV3O2mTFIN5kvOTO8Zpx88+TqDn84+Sc8ROCcfAnjyx7aIdVfL53DyGiUhu1CNT10wU1ya0Ht6k=;25:fnNmR3lhwfvCb+MHbWD/QcOd81FPMkV+9iSMboYntXhNpq3iq00Y6RjJtSJb1fUwbx3F7QB9+YAR49mgfFWEDh2ObiCGgH/n1qjw64KYJjTTpH6h5vjeEyqhZ8B7m1Teoq3GSKWyw/iZlLY8iiMuC1p3Ko2jsuNZSIe1l3tXWDvh4ndMAqnztaOdYQwPMH+q59rhZpNBqsPFyEXVB+doDnZMDF8bPjD3CsbjQDMksaZ93wqqItjuNC8ZDkq45oB2;20:A9fk45Q1k7Mq6srTa+6YXXNKOin8Q/x8O0afDACs0t74r5QhkQSU1mjedR9AQm6uqJUgeTIKwzeKeSxcE6l9SCBWbiTDkziCVZYoJ+AZowrUsO2Qfi2jDXc/1/mMczsMxNetdP5BGidaX/6MOZh0juIByQyrYZRa8HIl8tCwq34
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:;BCL:4;PCL:0;RULEID:(421252001)(42143001)(3002015);SRVR:BN1PR07MB101;
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB101;4:zS30nUIcU4RCB4jjtG2xg6ZuW2jZxgs66/tBCrdXPHTaHHKVF+X85uKLZinL9WQK6/tqSDqSHi4asBbBpVIilr5VdE1BogU5DjGm043YNX3u+kJbGGCxfrBYqpsvoM5reqUjq4uQtbrKW9IKknQkJZRDyxWNWekjanOrSQbiZwhFrMvTbt8oIm+g0XnmC1a++wAfMCGApS7mZvr9T4KuTkui1pWMfPtPFtrKAzowV2KKm2mq8xR++08DchE2ieZmdiUkbpnDunXZmwMHQNit5wmA9jEy0dwy5FKvbEudt1fFGxTEkOAndUB0Qdk1kfnv0Ogn8odySWqX9nqnXTjO1Z8OUQCSA4gazTzAFHMHm1U
+X-Forefront-PRVS: 0723A02764
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BN1PR07MB101;23:xG4OxQQB249LLdX1mBhNtgxva4fnhliGoIXl1GfUXF?
+ =?us-ascii?Q?tUrYdoMSArw88ZVGks/LgwWGjVtRif89X4m5RkV8M2Lv9cA7j0+9krAK0aUF?
+ =?us-ascii?Q?PVu6mvoNoudv8l0RFyvuSZi27szDTO+w8yawmmzQYmseURc855LZMlF3AJ/z?
+ =?us-ascii?Q?vMCxdUvV82BPs5z3fVjPGTIi5SpGU19wqOBHCkVM1s2uXxuAYG3Wnp/fNjnL?
+ =?us-ascii?Q?O7rS5zs8Jc90pe2I+VqPucTgL7VjYIhij9CiJxap3blSHDzhhhTtowLdeedV?
+ =?us-ascii?Q?PKCeUh3K3c5DARnrgAm2F5N7pI/bGIQaEmvgYf8v8Sl5pBpPj+Lwp/nV+uz8?
+ =?us-ascii?Q?Y4RDsTjkSWj7IcLsCEn3iFYgUrgtD8Z7SBOgZ7WM4viFPkwoJ3icC5oosKuR?
+ =?us-ascii?Q?Op6H778Y5tXyu5/22u6dzkDxFbTUOCbH8k1ArbodGYB7jrPWVVsOrBRAOG0d?
+ =?us-ascii?Q?umxh+eQlgjR20Me19KMPd9zgih0+RgWrZrRJaNz8hwkAS2mXKl5NjA5LgG7B?
+ =?us-ascii?Q?hEs2AIS86kl764Z/Gnb7N+ZEtaRRHVqDtFiO/rKqkgXlnhiDtINZxeSM/a1G?
+ =?us-ascii?Q?A5CUey0XbsIQRqdgY0n8xgOAy/+d3MhTngVhstoNDOiK2SZDyqNUDg4Wo2+j?
+ =?us-ascii?Q?HdIN9/MlY4eYEQrIksaahkENE5QyduNDHaTsvPzfI3a3m1OU5YOoNgDGUJZe?
+ =?us-ascii?Q?p2DYWxheBM2qYrMC20bXDFDBVNyuLkUBg3SwG2IJHgDnt8N7AFEfSmfnvk8r?
+ =?us-ascii?Q?50wqEapPpnYSMxn3ycbZ9kTkfzqdOW7UvP0OFQpxJAJskUufA9X0mpfuI+1V?
+ =?us-ascii?Q?A+/GYohAmeXp6B5ERAqgk19Z7nHfpmh+o0mEzlSD6gXDi02cPAeBUsAbpxPe?
+ =?us-ascii?Q?DpRzlfAlVfZr/daLm5Yb53/tyJLiRCK+LNbERj46geqcbkQ4zuA7lk46HTpO?
+ =?us-ascii?Q?HERaB7WtuHsLLbYv728ziBid4wB9R1i+pNA8tocQSILVmx/lrehL3J37LPKx?
+ =?us-ascii?Q?ZwAL1Je/gL0MgGOjzL2gbUeHH1rqDr0XMcb8c07O8XFtiSn9g+zGVQ6X1XNZ?
+ =?us-ascii?Q?Dh6UhW03QQXfybrGJJgs3qVsukmYA1tHKzonusMQd7FuLdlKpmMDRDjTue6z?
+ =?us-ascii?Q?b/fj2W5cj9d9UqbP+ntmssY/qaKrgU6dcsixeX+uHbfysZTJlhhEe6Zl341n?
+ =?us-ascii?Q?1YqgkQokqr7vTe1NmjOdCG9Aq3RRM72O9OKO6jtyl3aynL1RSFe//OpPnOZU?
+ =?us-ascii?Q?brxPfDJaFKeQCL6aT+kB2GrhL1kHozT0HYvGcDdfjqfMQW6k+Qf1T9j6P4q8?
+ =?us-ascii?Q?TQLvvCVOCvwyBoihT8EDlzT3TX5sinScv9k/KmjslyVVxkQbEMsgrlHaWKdO?
+ =?us-ascii?Q?nMdr/3Ton2/MRxVEeupA2vxofIfRR54huj+M+9RSv8KP7EYE4mWHEzhnyNUO?
+ =?us-ascii?Q?X/5kV6g5TKZTCFrCFGUlQRIKdv2dBdvAcPrxiFp2rMpgzUdWW01Zemm1pHIf?
+ =?us-ascii?Q?jrojAAokGL/tBA1fMQlq7mvZPDksyHqo5oZgG6Os3jH9zRFpcuAw/69qE6nS?
+ =?us-ascii?Q?kluUdumXcBJ+s2vnjCp+NwoIGdR5z61HbPRh2pOeHzvOg46QCVNXv3aA4CoP?
+ =?us-ascii?Q?1RiFF1YcwqbBeIuLZhBTHa3yWfewOZ14OeP5dh+RmQvZAqg4Nr59uPTlrhk7?
+ =?us-ascii?Q?NJjfOLn/GI9S6IDb7nQfkWmQ=3D=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BN1PR07MB101;5:YiMyLrh2jwsIbiD3Ab9NE2Ya76ewPBGywddsnMOfYQ0K6Ua6WjDf+0zLdua9HYWn+tE6BEeXwrOs9NKnB1qyta27biWUZ07cgLNanbjFBxoyWsIaaHMFepMy81ojQfIf8doHe1tSkA+e+9RHgF4Rmg==;24:IwqRBnOEPxazikywgtE/MYVnQBUDnQ23EDIJrF60C8cCMhJMm2LRoJLujC3EgNvvcbg4hL4HNPS3kZhsRG8i5tcEM3xNOGQ4sv0h5QpBLhc=;20:WegaFVPKL1chz0y87cFB14y72+RRwF3SEjDQcA54oQq5/haL/GdT2UXK3u+WF3hRPKlXUKMfR3kP/e7fKQpAdg
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 4
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Oct 2015 19:10:07.6328
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN1PR07MB101
+
+--==144433136407898
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+To view this email online, paste this link into your browser:
+<<link>>
+
+October 8, 2015 
+
+=C2=A0
+
+Dear John,
+
+I will appear on CNBC's "Squawk Box" tomorrow, Friday,=C2=A0October 9,=C2
+=A0at 7:15 am EST/6:15 am CST, to discuss=C2=A0the news of the day. =C2=A0
+
+=C2=A0
+
+Check local listings for channel.
+
+=C2=A0
+
+-Harold=C2=A0
+
+151 park ave | New York , NY 10010 US
+
+This email was sent to user@domain.com
+To ensure that you continue receiving our emails,
+please add us to your address book or safe list.
+
+manage your preferences (<<link>>
+4/281104700/?v=3Da)
+opt out (<<link>>
+5uZXQvYXBwMi9hdWRpZW5jZS9vcHRfb3V0LzI2NzEvMjM2NC8yODExMDQ3MDAvP3Y9YQ=3D=3D)
+ using TrueRemove(r).
+
+Got this as a forward? Sign up (<<link>>
+671/2364.1127472444/?v=3Da) to receive our future emails.
+--==144433136407898
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+
+@media screen and (max-width: 480px) {
+    html {
+        -domain.com-text-size-adjust: none
+        }
+    *[class].e2ma-content-block div.e2ma-p-div, *[class].e2ma-combo-block d
+iv.e2ma-p-div, *[class].e2ma-combo-content div.e2ma-p-div, *[class].e2ma-co
+ntent-block li, *[class].e2ma-combo-block li, *[class].e2ma-combo-content l
+i {
+        font-size: 15px !important
+        }
+    *[class].e2ma-holder table, *[class].e2ma-holder table td {
+        display: table !important;
+        float: none !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important
+        }
+    *[class].e2ma-single-column-layout table {
+        float: none !important;
+        margin: 0 auto
+        }
+    *[class].e2ma-unsubscribe span {
+        font-size: 12px !important
+        }
+    *[class].business_rsvp {
+        font-size: 12px !important
+        }
+    *[class].social-sharing {
+        text-align: center !important;
+        padding-bottom: 10px
+        }
+    *[class].e2ma-layout-column-content img, *[class].e2ma-single-column-la
+yout img, *[class].e2ma-layout-column-sidebar img, *[class].e2ma-layout-col
+umn-sidebar-2 img, *[class].e2ma-layout-column-sidebar-3 img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto
+        }
+    *[class].footer-social img {
+        width: 44px !important;
+        height: 43px !important;
+        margin: 0 auto
+        }
+    *[class].share-block {
+        text-align: center !important;
+        margin: 0 auto !important
+        }
+    *[class].footer-text {
+        text-align: center !important
+        }
+    *[class].mobile-width {
+        width: 100% !important;
+        padding-left: 10px;
+        padding-right: 10px
+        }
+    *[class].mobile-width-nopad {
+        width: 100% !important
+        }
+    *[class].stack, *[class].e2ma-layout-column-content, *[class].e2ma-layo
+ut-column-sidebar, *[class].e2ma-layout-column-sidebar-2, *[class].e2ma-lay
+out-column-sidebar-3 {
+        display: block !important;
+        width: 100% !important
+        }
+    *[class].hide {
+        display: none !important
+        }
+    *[class].center, *[class].center img {
+        text-align: center !important;
+        margin: 0 auto
+        }
+    *[class].scale img, *[class].editable_image img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto
+        }
+    *[class].addpad {
+        padding: 10px !important
+        }
+    *[class].addpad-top {
+        padding-top: 10px !important
+        }
+    *[class].sanpad {
+        padding: 0 !important
+        }
+    *[class].sanborder {
+        border: none !important
+        }
+    }<div class=3D"e2ma-template">
+<meta content=3D"telephone=3Dno" name=3D"format-detection"/>
+<body class=3D"e2ma-design-option-backdrop" data-e2ma-styles=3D"background"
+ style=3D"width: 100% !important;padding: 0;margin: 0;background-color: #ff
+f">
+<div class=3D"e2ma-design-option-backdrop" data-e2ma-styles=3D"background" 
+style=3D"width: 100% !important;padding: 0;margin: 0;background-color: #fff
+">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" data-e2ma-color=3D"
+#282828, #f5f5f5" style=3D"font-family: Helvetica;font-size: 12px" width=3D
+"100%">
+
+<td class=3D"sanpad" style=3D"padding:15px 0px">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl
+ass=3D"mobile-width-nopad" style=3D"font-family: Helvetica;font-size: 12px"
+ width=3D"640">
+
+<td valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"template_cont
+ainer" style=3D"font-family: Helvetica;font-size: 12px" width=3D"100%">
+
+<td align=3D"center" class=3D"editable_image" style=3D"padding-bottom:10px">
+<div class=3D"ff-max-width">
+<a href=3D"<<link>>" style=3D"font-we
+ight: normal;font-weight: normal;color: #333;text-decoration: underline">
+<img alt=3D"" height=3D"120" src=3D"<<link>>
+151008/6c/6e/6b/38/3a17889b8a3c021044510a7b_120x120.png" style=3D"display: 
+block;border: 0" width=3D"120"/>
+
+<td style=3D"padding-bottom:10px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-row-r
+egion-content" style=3D"font-family: Helvetica;font-size: 12px" width=3D"10
+0%"><td class=3D"e2ma-layout-column-content"><div cla
+ss=3D"e2ma-single-column-layout"><table border=3D"0" cellpadding=3D"0" cell
+spacing=3D"0" style=3D"font-family: Helvetica;font-size: 12px" width=3D"100
+%"><td class=3D"e2ma-design-option-template" data-e2ma-styles=3D"backgr
+ound,border-left,border-right" style=3D"background-color: transparent">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-block
+-outer" id=3D"block_dacephzx" style=3D"font-family: Helvetica;font-size: 12
+px" width=3D"100%">  <td style=3D"padding-bottom:5px">   
+<td class=3D"e2ma-wrapper" style=3D"padding-right: 5px;padding-bottom: 5px;
+padding-left: 5px" valign=3D"top"> <table border=3D"0" cellpadding=3D"0" ce
+llspacing=3D"0" style=3D"font-family: Helvetica;font-size: 12px" width=3D"1
+00%">  <td class=3D"e2ma-holder" style=3D"padding: 0;background-color: 
+transparent" valign=3D"top"> <table align=3D"left" border=3D"0" cellpadding
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica;font-size: 12px" w
+idth=3D"1%">  <td style=3D" padding: 10px 10px 10px 10px; " valign=3D"t
+op" width=3D"1%"> <div align=3D"center" style=3D"mso-table-lspace:0;mso-tab
+le-rspace:9"> <img alt=3D"" border=3D"0" height=3D"300" src=3D"<<link>>
+domain.com/20151008/e4/e0/30/36/7d0e6f1ecf6494eb005e9603_300x
+300.jpg" style=3D"display: block" width=3D"300"/> 
+   <div class=3D"e2ma-combo-content e2ma-content-block" s
+tyle=3D"font-size: 12px;line-height: 1.5"> <div style=3D"line-height: norma
+l; font-size: medium; vertical-align: baseline">
+
+<div style=3D"line-height: normal; font-size: medium; vertical-align: basel
+ine"><span class=3D"e2ma-style" style=3D"font-size: 16px; vertical-align: b
+aseline">October 8, 2015 
+<div style=3D"line-height: normal; font-size: medium; vertical-align: basel
+ine">=C2=A0
+<div style=3D"line-height: normal; font-size: medium; vertical-align: basel
+ine"><span class=3D"e2ma-style" style=3D"font-size: 16px; vertical-align: b
+aseline">Dear John,
+<div style=3D"line-height: normal; font-size: medium; vertical-align: basel
+ine">
+
+<div style=3D"line-height: normal; font-size: medium; vertical-align: basel
+ine"><span class=3D"e2ma-style" style=3D"font-size: 16px; vertical-align: b
+aseline">I will appear on CNBC's "Squawk Box" tomorrow, Friday,=C2=A0Octobe
+r 9,=C2=A0at 7:15 am EST/6:15 am CST, to discuss=C2=A0the news of the day. 
+=C2=A0
+<div style=3D"line-height: normal; font-size: medium; vertical-align: basel
+ine"><span class=3D"e2ma-style" style=3D"font-size: 16px; vertical-align: b
+aseline">=C2=A0
+<div style=3D"line-height: normal; font-size: medium; vertical-align: basel
+ine"><span class=3D"e2ma-style" style=3D"font-size: 16px; vertical-align: b
+aseline">Check local listings for channel.
+<div style=3D"line-height: normal; font-size: medium; vertical-align: basel
+ine">=C2=A0
+<div style=3D"line-height: normal; font-size: medium; vertical-align: basel
+ine"><span class=3D"e2ma-style" style=3D"font-size: 16px; vertical-align: b
+aseline">-Harold=C2=A0
+
+
+
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"e2ma-row-r
+egion-content" style=3D"font-family: Helvetica;font-size: 12px" width=3D"10
+0%"><td class=3D"e2ma-layout-column-content">
+
+<td align=3D"center" class=3D"e2ma-design-option-footer" data-e2ma-styles
+=3D"background" style=3D"background-color: #ccc">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil
+y: Helvetica;font-size: 12px" width=3D"100%">
+
+<td align=3D"center" style=3D"padding:10px"><div class=3D"e2ma-tag-outer">
+<div class=3D"e2ma-p-div" style=3D"font-size: domain.com">
+
+<td align=3D"center" bgcolor=3D"#F6F7F8" class=3D"e2ma-unsubscribe" style
+=3D"padding-bottom: 10px;padding:50px 0px" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mobile-wid
+th" style=3D"font-family: Helvetica;font-size: 12px" width=3D"640">
+
+<td align=3D"left" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil
+y: Helvetica;font-size: 12px" width=3D"100%">
+
+<td align=3D"left" class=3D"stack" valign=3D"top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil
+y: Helvetica;font-size: 12px" width=3D"100%">
+
+<td align=3D"left" class=3D"share-block center" valign=3D"top">
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas
+s=3D"mobile-width" style=3D"font-family: Helvetica;font-size: 12px" width
+=3D"166">  <td align=3D"center" valign=3D"top"> <table border=3D"0" cel
+lpadding=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica;font-size:
+ 12px" width=3D"166">  <td align=3D"left" class=3D"center" style=3D"fon
+t-family:Helvetica, Arial, sans-serif; color:#9d9e9f; font-size:12px; line-
+height:1.5; letter-spacing:1px; text-align:left; padding-bottom:5px" valign
+=3D"top"> Share this email:    <td align=3D"
+left" valign=3D"top"> <table border=3D"0" cellpadding=3D"0" cellspacing=3D"
+0" class=3D"center" style=3D"font-family: Helvetica;font-size: 12px" width
+=3D"auto">  <td align=3D"left" class=3D"footer-social" style=3D"width:3
+4px;padding-right:10px" valign=3D"top"> <a href=3D'<<link>>
+/outbound/e/alxjxs/61bnxe' style=3D"font-weight: normal;font-weight: normal
+"><img border=3D"0" class=3D"footer-social" height=3D"33" src=3D"<<link>>
+4domain.com/media/images/themes/default/img/socialnetworks/s
+ocial-email.png" style=3D"display:block" width=3D"34"/>  <td align
+=3D"left" class=3D"footer-social" style=3D"width:34px;padding-right:10px" v
+align=3D"top"> <a href=3D'<<link>>
+' style=3D"font-weight: normal;font-weight: normal"><img border=3D"0" class
+=3D"footer-social" height=3D"33" src=3D"<<link>>
+t/media/images/themes/default/img/socialnetworks/social-twitter.png" style
+=3D"display:block" width=3D"34"/>  <td align=3D"left" class=3D"foo
+ter-social" style=3D"width:34px;padding-right:10px" valign=3D"top"> <a href
+=3D'<<link>>' style=3D"font-weight
+: normal;font-weight: normal"><img border=3D"0" class=3D"footer-social" hei
+ght=3D"33" src=3D"<<link>>
+default/img/socialnetworks/social-facebook.png" style=3D"display:block" wid
+th=3D"34"/>  <td align=3D"left" class=3D"footer-social" style=3D"w
+idth:34px" valign=3D"top"> <a href=3D'<<link>>
+lxjxs/61bnxe' style=3D"font-weight: normal;font-weight: normal"><img border
+=3D"0" class=3D"footer-social" height=3D"33" src=3D"<<link>>
+domain.com/media/images/themes/default/img/socialnetworks/social-linkedi
+n.png" style=3D"display:block" width=3D"34"/>         
+
+<td align=3D"left" class=3D"footer-text" style=3D"font-family:Helvetica, Ar
+ial, sans-serif; color:#9d9e9f; font-size:11px; line-height:1.8; text-align
+:left; padding:20px 0px" valign=3D"top">
+<a href=3D"<<link>>
+=3Da" style=3D"font-weight: normal;font-weight: normal;color:#63c4ee; text-
+decoration:none">Manage your preferences | <a href=3D'
+<<link>>
+wMi9hdWRpZW5jZS9vcHRfb3V0LzI2NzEvMjM2NC8yODExMDQ3MDAvP3Y9YQ=3D=3D' style=3D
+"font-weight: normal;font-weight: normal;color:#63c4ee; text-decoration:non
+e">Opt out using TrueRemove=E2=84=A2<
+br/>
+
+Got this as a forward? <a href=3D"<<link>>
+/2671/2364.1127472444/?v=3Da" style=3D"font-weight: normal;font-weight: nor
+mal;color:#63c4ee; text-decoration:none">Sign up to re
+ceive our future emails.
+
+View this email <a href=3D'<<link>>' style
+=3D"font-weight: normal;font-weight: normal;color:#63c4ee; text-decoration:
+none">online.
+
+
+
+<td align=3D"left" class=3D"footer-text" style=3D"font-family:Helvetica, Ar
+ial, sans-serif; font-size:11px; line-height:1.5; text-align:left" valign
+=3D"top">
+<a href=3D"#" style=3D"font-weight: normal;font-weight: normal;color:#9d9e9
+f; text-decoration:none; pointer-events:none">151 park ave 
+
+											New York , NY | 10010 US
+
+<td align=3D"left" class=3D"footer-text" style=3D"font-family:Helvetica, Ar
+ial, sans-serif;font-size:11px; line-height:1.5; text-align:left; padding-t
+op:20px" valign=3D"top">
+<a href=3D"user@domain.com" style=3D"font-weight: normal;font-we
+ight: normal;color:#9d9e9f; text-decoration:none">
+This email was sent to user@domain.com 
+To continue receiving our emails, add us to your address book.
+
+<td align=3D"center" class=3D"stack" valign=3D"bottom" width=3D"146">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil
+y: Helvetica;font-size: 12px" width=3D"100%">
+
+<td align=3D"center" style=3D"padding-top:20px" valign=3D"bottom">
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-famil
+y: Helvetica;font-size: 12px">
+
+<a href=3D"<<link>>
+&amp;utm_medium=3DRegular&amp;utm_campaign=3DPoweredBy-Regular-2364" no_tra
+ck=3D"no_track" style=3D"font-weight: normal;font-weight: normal" target=3D
+"_blank"><img alt=3D"powered by emma" border=3D"0" height=3D"51" src=3D"htt
+p://domain.com/userdata/24/images/templates/footer/powered-emma-standard.
+png" width=3D"146"/> 
+
+<td align=3D"left" style=3D"line-height:0px; font-size:0px" valign=3D"top">
+<div style=3D"line-height:0px; font-size:0px"><img src=3D"<<link>>
+t/track/alxjxs/61bnxe" width=3D"1" height=3D"1">
+

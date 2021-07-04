@@ -1,0 +1,86 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Wed, 12 Feb 2015 18:11:58 -0800
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1D2BwuN016517	for <user@domain.com>; Thu, 13 Feb 2015 
+ 02:11:58 GMT
+Received: from mail137-tx2-domain.com (mail-domain.com [65.55.88.115])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1D2BvZj012003	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Thu, 13 Feb 2015 02:11:57 GMT
+Received: from mail137-tx2 (localhost [127.0.0.1])	by
+ mail137-tx2-domain.com (Postfix) with ESMTP id 12B9E100127	for
+ <user@domain.com>; Thu, 13 Feb 2015 02:11:57 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.236.105;KIP:(null);UIP:(null);IPV:NLI;H:mx-domain.com;RD:mx-domain.com;EFVD:NLI
+X-SpamScore: 7
+X-BigFish: vps7(z3a1alzc89bhc857hc545Idbb0izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1defc1h1def86h1de097h186068h172c6ch1ce120h1a691ciz2fheh5fh839ha12he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh2565h214ai24c8i1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail137-tx2: domain of domain.com designates 192.64.236.105 as permitted sender) client-ip=192.64.236.105; user@domain.com; helo=mx-domain.com ;domain.com ;
+Received: from mail137-tx2 (localhost.localdomain [127.0.0.1]) by mail137-tx2
+ (MessageSwitch) id 1392257515514683_3882; Thu, 13 Feb 2015 02:11:55 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.249])	by
+ mail137-domain.com (Postfix) with ESMTP id 685D14E0049	for
+ <user@domain.com>; Thu, 13 Feb 2015 02:11:55 +0000 (UTC)
+Received: from mx-domain.com (192.64.236.105) by domain.com
+ (10.9.99.112) with Microsoft SMTP Server id 14.16.227.3; Thu, 13 Feb 2015 
+ 02:11:49 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1392257509;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=0WuD78e7qbZgXHxgKKFmQe77QGeIxmVXlXzy2S69Pk0=;
+	b=xfdSw1WC3vKeF7KgeGrGnezO1PvAt9fEsb3k9my068SJ2yTqqjxSeqDORuwj5tdm
+	dnuq+4WD2dBTGn3tbbTO2cE77t+o/U9VUcYBHDQMFptXCgVNick63XsHUwpyIKiNg5C
+	gVSh1IVN36M7n/CMJM62vikX2AZTVo0/SriSOB2g
+Date: Wed, 12 Feb 2015 21:11:49 -0500
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140213021149.2417145.11588@domain.com>
+Subject: Sid Caesar: A Larger-Than-Life Figure, With a Longer Shadow
+Precedence: bulk
+X-TM-ID: 20140213021149.2417145.11588
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-IADB-IP: 192.64.236.105
+X-IADB-IP-REVERSE: 105.236.64.192
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2417145
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1224682741_-_-"
+
+Sid Caesar: A Larger-Than-Life Figure, With a Longer Shadow
+
+Sid Caesar can be judged, in part, by the company he kept. As the star of “Your Show of Shows,” ... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Wednesday, February 12, 2015    
+
+​ 
+
+<<link>> 
+
+        Sid Caesar: A Larger-Than-Life Figure, With a Longer Shadow             
+
+        Sid Caesar can be judged, in part, by the company he kept. As the star of “Your Show of Shows,” he famously provided a spawning g...            
+
+        Full Story              
+
+
+
+
+Subscribe to Other Variety Newsletters   
+

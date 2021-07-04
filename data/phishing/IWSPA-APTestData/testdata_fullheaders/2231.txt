@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp112777lfb;
+        Mon, 10 Nov 2015 08:18:10 -0800 (PST)
+X-Received: by 10.66.144.106 with SMTP id sl10mr32584453pab.96.1415636289618;
+        Mon, 10 Nov 2015 08:18:09 -0800 (PST)
+Return-Path: <>
+Received: from domain.com (domain.com. [216.82.255.51])
+        by domain.com with ESMTPS id wa3si11680687pab.74.2014.11.10.08.18.08
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Mon, 10 Nov 2015 08:18:09 -0800 (PST)
+Received-SPF: pass (domain.com: domain of domain.com designates 216.82.255.51 as permitted sender) client-ip=216.82.255.51;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 216.82.255.51 as permitted sender) smtp.mail
+Return-Path: <>
+Received: from [216.82.254.83] by server-17.bemta-7.domain.com id 53/86-02679-045E0645; Mon, 10 Nov 2015 16:18:08 +0000
+X-Msg-Ref: server-14.tower-197.domain.com!1415636284!5797938!11
+X-Originating-IP: [141.161.191.75]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 29827 invoked from network); 10 Nov 2015 16:18:08 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.75)
+  by server-14.tower-197.domain.com with AES256-SHA encrypted SMTP; 10 Nov 2015 16:18:08 -0000
+Received: from LAW-domain.com ([169.254.1.206]) by
+ LAW-domain.com ([141.161.191.75]) with mapi id 14.03.0210.002;
+ Mon, 10 Nov 2015 11:17:50 -0500
+From: Georgetown Law Media Relations
+	<user@domain.com>
+To: Media Relations <user@domain.com>
+Subject: G'town Law: "After Argentina: Government Debt Crises, Global
+ Finance and the Law" 11/12
+Thread-Topic: G'town Law: "After Argentina: Government Debt Crises, Global
+ Finance and the Law" 11/12
+Thread-Index: Ac/9APmlrOJhmutHTduxhicx+uBZqg
+Date: Mon, 10 Nov 2015 16:17:49 +0000
+Message-ID: <5user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.178.50]
+Content-Type: multipart/alternative;
+	boundary="_000_5CFB44D64A78CA459D19BE4B86C9F9E8255801C5LAWMBX01lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+
+Georgetown Law hosts "After Argentina: Government Debt Crises, Global Finan
+ce and the Law" on Wednesday, November 12 at 3:30 p.m. on the 12th floor of
+ the Gewirz Student Center, located on the Georgetown Law campus at 120 F S
+treet, NW, Washington, D.C.
+
+More information is available here:
+<<link>>

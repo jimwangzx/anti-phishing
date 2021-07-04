@@ -1,0 +1,49 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp418044lfr;
+        Sat, 29 Aug 2015 07:37:37 -0700 (PDT)
+X-Received: by 10.170.196.78 with SMTP id n75mr14025590yke.4.1440859056827;
+        Sat, 29 Aug 2015 07:37:36 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::231])
+        by domain.com with ESMTPS id i188si6104596ykd.24.2015.08.29.07.37.36
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 29 Aug 2015 07:37:36 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::231 as permitted sender) client-ip=2607:f8b0:4002:c07::231;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::231 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-yk0-domain.com with SMTP id z80so41060115ykd.0
+        for <user@domain.com>; Sat, 29 Aug 2015 07:37:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: Neera Tanden <ntanden@gmail.com>
+        bh=YBPoIfUuBSgvsoqvi8T2q/xZ7StdP+21d3DlheUn6qI=;
+        b=kwsdKvY7D0Y0CyC+A+3G+MZ8hVRshlfaAsw24S+L+qF86otojOfJM9qpDweFO2FCef
+         ENFwtZ0MISVak2Gb2SyNVY6heHhiqn788e9nH6UuSMV26IEY3/d0JQYmgU0Tt4hw8LU/
+         Ehle1h9Pr+j8LtBOVpmqt8Ry0p1q93TSf2Hlb9MK8WZCepEpwSpLdGQFBEejFhMbIKmg
+         tnj77bhS9h0gTpDZUMOQTlT6LBhLLJzG46ro5z6xMkUc2iWBpTsXODxpCSccB+951666
+         sNPbmAAonyIoviKJFdflMdkHxoC23Wvy3eZbVaCziVFBvihs2PMaqpRNgvbH+DRAijHA
+         wiDg
+MIME-Version: 1.0
+X-Received: by 10.170.98.6 with SMTP id p6mr13404083yka.106.1440859056134;
+ Sat, 29 Aug 2015 07:37:36 -0700 (PDT)
+Received: by 10.13.219.137 with HTTP; Sat, 29 Aug 2015 07:37:36 -0700 (PDT)
+Date: Sat, 29 Aug 2015 10:37:36 -0400
+Message-ID: <user@domain.com>
+Subject: suggestion
+From: Neera Tanden <ntanden@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113a738e36674b051e7424f1
+
+Instead of events with political folks, maybe she should go the other
+way...emphasizing her bio points that aren't political.
+
+Event in New Haven with child development folks emphasizing advocacy for
+kids from her time at Yale.  domain.com Arkansas Hippy program.  A meeting with
+foster kids, emphasizing her work as First Lady.
+
+Maybe go the other way to get her out of being a traditional politician.
+
+Anyway, just a thought.

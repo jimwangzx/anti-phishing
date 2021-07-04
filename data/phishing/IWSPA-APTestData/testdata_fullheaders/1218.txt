@@ -1,0 +1,212 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp8037121lfb;
+        Thu, 31 Dec 2015 18:22:52 -0800 (PST)
+X-Received: by 10.66.122.72 with SMTP id lq8mr104725620pab.1.1451614971876;
+        Thu, 31 Dec 2015 18:22:51 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.110.64])
+        by domain.com with ESMTPS id 29si30068140pfs.22.2015.12.31.18.22.51
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 31 Dec 2015 18:22:51 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 157.56.110.64 as permitted sender) client-ip=157.56.110.64;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 157.56.110.64 as permitted sender) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Received: from domain.com (10.162.170.151) by
+ domain.com (10.141.205.16) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Fri, 1 Jan 2015 02:22:48 +0000
+Received: from BL2FFO11FD032.protection.gbl (2a01:111:f400:7c09::132) by
+ domain.com (2a01:111:e400:3000::23) with Microsoft
+ SMTP Server (TLS) id 15.1.361.13 via Frontend Transport; Fri, 1 Jan 2015 
+ 02:22:48 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=domain.com; domain.com; dkim=fail (signature did not
+ verify) header.d=domain.com;domain.com; dmarc=permerror
+ action=none header.from=turnoutpac.org;
+Received-SPF: Fail (domain.com: domain of domain.com does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=domain.com; client-ip=141.161.191.75;
+ helo=domain.com;
+Received: from domain.com (141.161.191.75) by
+ domain.com (10.173.160.73) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Fri, 1 Jan 2015 02:22:47
+ +0000
+Resent-From: Progressive Turnout Project <admin@turnoutpac.org>
+Received: from na01-bn1-domain.com (141.161.191.14)
+ by LAW-domain.com (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Thu, 31 Dec 2015 21:22:47 -0500
+Received: from domain.com (10.255.193.43) by
+ domain.com (10.141.204.151) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Fri, 1 Jan 2015 02:22:41 +0000
+Received: from BN1AFFO11FD014.protection.gbl (2a01:111:f400:7c10::132) by
+ domain.com (2a01:111:e400:45::43) with Microsoft
+ SMTP Server (TLS) id 15.1.361.13 via Frontend Transport; Fri, 1 Jan 2015 
+ 02:22:40 +0000
+Authentication-Results: spf=pass (sender IP is 64.94.250.108)
+ smtp.mailfrom=domain.com; domain.com; dkim=pass
+ (signature was verified)
+ header.d=domain.com;domain.com; dmarc=permerror
+ action=none header.from=turnoutpac.org;
+Received-SPF: Pass (domain.com: domain of
+ domain.com designates 64.94.250.108 as permitted sender)
+ receiver=domain.com; client-ip=64.94.250.108;
+ helo=mta-dock-front-19.domain.com;
+Received: from mta-dock-front-19.domain.com (64.94.250.108) by
+ domain.com (10.58.52.74) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Fri, 1 Jan 2015 02:22:40
+ +0000
+Received: from domain.com (unknown [10.0.200.136])	by
+ mta-dock-front-19.domain.com (Postfix) with ESMTP id
+ 3pWqk943ZZz22yJM	for <user@domain.com>; Fri,  1 Jan 2015 02:17:21
+ +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1451614641;
+	bh=O3UReOU5mOX5rmycnEfa+YyTbFakV+Upvo8usVhUd0w=;
+	h=Date:To:From: Progressive Turnout Project <admin@turnoutpac.org>
+	b=SKKI9asU64ohUnoyuzPAS6WkUEw63xx6NCoBUjAKk+b9uQiiebyOzXKfT00+mfAFu
+	 /y0Ws0IKat4ToabSGlQ03BVJachsVUhihTSl0hnDJQfQRk8j7EdPT5MKO4oM753BaL
+	 2rSduq+f8Tyc+qLU8gRbCJ26hPSBt640Ju5h0P2c
+Received: from phpmailer 	by domain.com with local
+ (PHPMailer);	Fri, 1 Jan 2015 02:17:21 +0000
+Date: Fri, 1 Jan 2015 02:17:21 +0000
+To: John user <user@domain.com>
+From: Progressive Turnout Project <admin@turnoutpac.org>
+Reply-To: <user@domain.com>
+Subject: =?utf-8?Q?=E2=8F=B0Time=E2=80=99s_Up_=E2=86=92_J._user's_response_is_CRITICAL!?
+Message-ID: <507user@domain.com>
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 56807aa7a4bacbcb
+X-rpcampaign: rp_2627
+X-maillist-guid: ERBEWwwREj1QBQgFBgRSVgINUlNXVQZRa0ldB1NHQQUlCVdCTQMDWxdUVUFeEl1PBl1FOwECUw
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_507c6801428b43903e881eb7aa3f07a1"
+Return-Path: user@domain.com
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1AFFO11FD014;1:5HD+XAIcWqP1sPMCV2Igm5CnLkj/+NWXO2tKlaj8IYVPLQdsIUoslrvQyIyBthLP4TrR45rd4OHZCjaYjDIfOmTRHucGuWlfBwhVM/FUWl/q+SewllgK1WS+F+gnsP/UZ+ZKKmqiAgoQRAmi9Zbq4S2WtGYvNb+fj/Nt8OF0zO0RurvoXaJFNWoA9ZKGzgwiTGwi8jnnOSZH9YOa8CoL+tbrvzArQ9NTWmbJ+ewqFWK52c8E4c4NmHq5VUt+OgxaJRizcUoHX6qeYh33kX6xBQp+OE2HqnOQlGcrMZKDiJuFr5mwU16nb9d+c04y45qoGV1qTR63kOlVjelY2by0Ruug7CjOiwILXHvJxxTYNFKT7PNAbolFoD29g0qSiz5/Vr8HF6ZQlZXxCMImIts9EA
+X-Forefront-Antispam-Report-Untrusted: CIP:64.94.250.108;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31620200002)(2980300002)(438002)(359002)(189002)(349012);DIR:INB;SFP:;SCL:9;SRVR:BLUPR07MB531;H:mta-dock-front-19.domain.com;FPR:;SPF:Pass;PTR:mta-dock-front-19.domain.com;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB531;2:fgwTWgtSU+esMLUQNBlAs+7iGcydLRGrQMuriSWoF+s5QZFkciTWtilPsIm3nZCcmeUk7ryzD45L+wVrXWhyoBCTSLjWSOIVRO/+MWiVyay40GjTUAYCVS+d2r4sVcgf5H38yMaJ4pMyxiJZZdXogw==;3:n9U53klXi95W4rzq6U0esJcCwEd3D6IQqDCgsdrAMnNdgixxhTupvlGcF0Tg6Letid/bXNUVWp3PkFWhYbZVXXtOLwCVHOnXZ/TiBYG/ksuexgR4iQn/MeabIrik3VRXyd12IfBSHNKqFX5tlbcIoKUo2X1PeQqqRJhAKO9xkQd6lwHIY0AOONmdIWk6S/KOufevOalS4NzsSQyW8wqkwwMEz/CH/Ba1g4RwBBE0GRsdYkkHqHHiZ3HFz/zevY+t17at/x8FcXik7PfC6w8TC/Q4tXPIrF8K35IzGIgRldhfH5cFcNo5pcOhAyx0pIg1rG1OHgpuMvsl0NNlcRlMK/2Wta1S4U6YmTiYPonndj0=;25:wSGX8CJ+ZyAJaj3dR26VBqBVLMc+cQgpkbw6M1yX449v04fbfa+gjitpNF9k1QpBEl1vcSyakf/SE3pprUOBb9ojKI1Jkiu3yxllXHK0A/xriBE0+sbTLrzmwueujw1I/M67WGIFszMSWoJzyhr1K4LJs6RSzDzjQxHP+iC9qBDDomCkN9Zf7GAhhmyDAUaf80iawZVuWHynXr1ID9BlUveowSL5BYtT6Ituaej+2TzStLnnGkE3Z2TayPLtJl3plt2KTtQH8RSLcA5O9Vd1Zg
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(421252001)(42134001)(42139001)(3001015)(71701003)(71702001);SRVR:BLUPR07MB531;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB531;20:sbneV5Yi9z001K5HS55k/0vUwWIZWVRNqvFTKD4u9V0h/+9IJgNk2Bu4DLtxdn89KmArmgdItZIAql3VpO1dgapaZDHc8yP9frqZyfsORfDfOCJAaeW31M/tA0aAta/oG7CRzXt3CLQhhvBUwrDSYZ63AE1Jg4KTtF7Oam6Ya0N1GQCbUqLVHu+Pvh07A8U5ygIDR1KFCzELeFeg8m7HAbYvgp083LX7SqxC2DD4I1Lw5IPpn//gTg15zTiugKcO5nd89GFfYHNshf/3v4rRERcvtEwwDgu4sSTHljUbvKTGCno0vp5g8TkrSBZmsORX6NmLS5Q5sgZ9FEU/tUO42IXd9oy/rfjQrsjASc7qsMWtqGVqtR08Jl6SE9dXcvf9WXCNVh5syVzhMfDDeM9bZaVjCW5sYxFiVtv60ieJd4g=;4:ZuaVWdbWNhOI//IRQHUNiatZcWVR4wQGzzE/1tPwQb7cv+0n3+vHjPp4inUTKjrMtmFEPPdhusRDVKhYoD994H1QvIzvZXV2xY+8comp3ZCabkWSyJ3XktDznz8QIkkaoWEb2A6t680Rk1VX2FBWq+sbCLQ21dZD0YEnvXUHjkdYVSDbJNpnhl6aDRl41rq++fhgUZnq0LB1EP51N7dglEFs2CfLM+S5jNrb5q6/ssm9y1f6rxqe7msbfYq/8Xfz2LAMsYvauNoF4EXue7Fwz6ocsrWaCNqTVGNPUnzHpm7SoT6XGrkpXmrn9RzYWa2MEYWQW/Wuc4wxUExWFy6YHPSi2eE2kaLMNdMpdXyKby1B/ZKCu/gvLrRZREGq3lpQb63O0KWOCZpBqS4i4eW/lNO3sHT0qC3TF6Y6grcPyma4+I2/WaDKGyWFuAH+DdJv
+X-Exchange-Antispam-Report-Test: 
+	UriScan:(76009858676777)(6594202986349);UriScan:(76009858676777)(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(8121501046)(520078)(3002001)(10201501046);SRVR:BLUPR07MB531;BCL:6;PCL:0;RULEID:;SRVR:BLUPR07MB531;BCL:0;PCL:0;RULEID:(601004)(2401047)(8121501046)(520078)(5005006)(3002001)(10201501046);SRVR:BLUPR07MB546;BCL:0;PCL:0;RULEID:;SRVR:BLUPR07MB546;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB531;23:JAk9LoCf4BXvhw5j7loKhMrKdhkDP6vh3+T8mHdDx/k29fWgbELiCHuXW+xDQDwSTujh5aju03vukGwTsDryG0SnJtYZsJXuKPG0ljiyDJdfpWxWcy3eHq1hCzoCDT4iCdHkGiBLPIKzQiJ9f5Trv1W8Jvcgkn0F9zGgv+DSBwz1kbgkAJpxDbRUwkFFuSq9RlHF+ioUvAfQRUeX9n9B1qCCpfcbT4gTYKrDqfovpRSSbs0Vbxfpg93qCiUrSqly3chlCpSsK8CmfqS9Sz6i7GHFkH6tMYzRXdZFpbXy64dmrVEa0EP5U4MXO0NR8yLDG3x2Oc2cDlVBGSTM6KqiiA==;5:AEK0v8EN+CE6ADO5bI12AMgttPyax1FXXONNcEagMMb3hSUzoMpLG4TGPzv0fe+TbyfeJSpkFJnZcaRE9ukDBsu4kR5uzgjx4n4W6yySgeqQJn646PIS6eHxlLMuhPsw5wh+IgAm3U/D+4++QBAgsg==;24:NbF81M1fPstTf3Ky5iueMEiRzP46eLwr6Pc6G2n09DJRW9MdVkGbvpJRW0NQ7yOJVD6cGQe9f9xGZo6Of4HQkw
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB531
+X-OrganizationHeadersPreserved: domain.com
+X-CrossPremisesHeadersFiltered: LAW-domain.com
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BL2FFO11FD032.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BL2FFO11FD032;1:CAV/4BtxAuQrwsYsfelo4e7ZDGuu8llCS6qRyANBfrlq3eTsebnhH0EENqA7kRVblJYab8dgZ1vpobwhEW+MQQA4GlNIgR7vxgwV+Jexcx4oCMinQVyOssrQfIcqBWkwu1nXa9YfFduR8YCUoWYAtQVSlH1RiRTnxqMjL8BJG8FRBjHhF++hBu4sv0iKSsjoQ3+2MDChXTHptVZPpjAjoJ1pTJGeJUb7ylkGLGOaidKUtWOpXhZgJT+apDf96IDc+H69aQLQwlUoZFfKBkGHlOsmExX3SmhRWF3R9Prr8jjDhTs+o4oehlk3XxNhnEAhzW9Uunk9WOHAjM7vtrWQftfEKpWuGYQMNqgQ6tUFnzKQNYG8e3vTEHNzV1YaOBB+MAJGsILoxJlZDCQwkf8YXw
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1109001)(1110001)(339900001)(36944003)(52604005)(189002)(36882002)(199003)(189998001)(53806999)(97736004)(75432002)(106466001)(1720100001)(5002220100002)(50986999)(960300001)(107886002)(57986006)(50226001)(15395725005)(81156007)(3820100002)(18926415007)(105606002)(226693001)(229853001)(33646002)(15975445007)(87936001)(110136002)(89996002)(512874002)(4290100001)(14971765001)(956001)(84326002)(23466002)(85426001)(2171001)(19617315012)(5001960100002)(19580405001)(47976999)(11100500001)(19580395003)(19625735002)(88552001)(4001450100002)(450100001)(19625215002)(24736003)(19618635001)(146001)(18206015028)(1220700001)(1096002)(19627405001)(43066003)(6806005)(19630485002)(16799955002)(108616004)(1860700003)(5008740100001)(46656002)(586003)(7029013)(7099028)(95576001)(42882005);DIR:OUT;SFP:1101;SCL:1;SRVR:BLUPR07MB546;H:domain.com;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB546;2:bW/MBOXXwqVNx27JtCRZhNNp1pTx7cvYIogb/ck1I8ICbJUdRNWnyCkdb1EVH24eAYFIgPykVb4u5NlT0GRwv1R1CXIj1mu7UdqXLEALr98GyiiHycAPRJPb2zlkUnxZwuZdy4kZ0svGDHPOY1sUIA==;3:EV5R+vLf1JKY1+F5dcpKo6QBpTwDr3McrdH3sAuS71+XUcWa0i6Cvzm5tvvbjSj6wIBmq97NEP8IS2R0p6ykH/xVJm7CdqWRE74xQXZivEMtxQ09KS2gmD1p2qDzaV77OZ4Tams1ixKyfhVUaKO0Tbp2BRWCO7FVVzJh4sX4zFKPuKjzSbqYzdZ5I6JmyN5Djg9w2QWVw+i1I8GlLQzAVeAJJUgPRKc27LmtwViAbDse+DbwkSIJw38u24ZlAT2S/0EKJxfxi11ibZn0xRZZTcku0hoHqYEQnC7eR0pacOpyTSn+XEqDTPHYsCKU1JWA;25:mSVDvCJWaf82dbRsD1sWiEy43a4EKrjxZuUyTTmqU9WLzZkA8u7WW3Q1AIOWqH5S2dIa5T95RJSVZEuEW3G+EHlGpPkNyqVKU9HzmZTu6HUFPLop4j89YbPKDwP2DBI2m0m3YAgrDOnD8OUQk8kJ4rNPNzG272al02mTRAUmDRmcsElSDTha4W4KwOHlHYQL2JHWWd/gQbu7PRvgb5BbfZZVqqz76dSNhh7s0aO1MBi5SmVn07enL9Nil8TZezftMx4noMP3x5EGHjKgyCpkKw
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam: 
+	UriScan:;BCL:0;PCL:0;RULEID:(421252001)(42134001)(42139001)(3002015);SRVR:BLUPR07MB546;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB546;20:cWgA3Zau3btBxOnTJNOmvGtowJKvodUerTYtr2BURxUlxCGmMnTlPbI0wc4pg9JhlVFQC/TDcKnU5+hik0btqZ4q5EUTHOhpiMf26AP24V6CF13+xhO59ZUlLo0HVhB9/034fitspT62MEdJnKV8T3dx8t7bnyC1HfA8A1ERN3J/5IPnFgfAfic+jCRAvajIzEfkVrKbElsOrk7Si7enVcFLqsk5cM3Q6STB/6bRTvGV9qI7X4LlwYhoulx8i4DhdZGJxirbOKHMc7Q87Kutw+Byr+dN77G6qhIo17Ab5hMjr52924DgSHBoFY2h43VHsp6RW2JYknMtUbTs/T3I8IaSpNTuMp+AqldmWAxg/9l3IjR/nYLuGThldf6pM97hcGUMGoacGnFP8vT+lvmqjCBIB95m4agNKwvevrllews=;4:08MebrdSkuUg0a4avVC1DF5yUIm9zw03Z2wTiwgqnmjE509YJidztqhrOGGGL7Z3JG90vwWHOLjzzlVftt4MDRfeCVegfq+gpCw6ja49a0sdMUNY/eliHMIPsrd4sygtDuB+bBNLd2yKO7jRrxa9+Oq4P46jvfKEkAVWpHjZJkBvlKDvO4GO0FQT68XDPEBPmBCgY1kk5EWJuCDXO+w4AGy6W/XlI+fiwf9XFx2/Z6TC5+0PbK7BmC2pA9vm9Exok5ZjcTF2w+jv+a+oFT3hgu4DFz0YB4B3VuB4oRnU/UlDrQvntSKZ/6h888oGQx3OfkCdum2byJbe3aplCrW0wfswP1lejIz9R1tvYNRIAc1/Ao/YmLZuHE4ZMemrx9vTts4kFoTO6ouijwUrZ3XlQQWVGXwjUkvJX1QP1TB/afmVVMrJjSUVn+EF63eN/6Iav/0xwmf6WI6NBdbQNGX3Sw
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Forefront-PRVS: 0808323E97
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BLUPR07MB546;23:BTuoorZs/nNPuTvmgAnIdQGW1BunAEgagA6GNQ3J84?
+ =?us-ascii?Q?NyQ7kvfUMvgZcW9AOhpKrK3tPu3PllhbqzDfxxNU5cT22l91MMFlyZT8LbUm?
+ =?us-ascii?Q?LS2jAQ5I8t0zHhV41V3J3EHhAOcd/SR9EamD/ApHzv+D++9/DYV9Yi4RU9eN?
+ =?us-ascii?Q?O8rWgNN9MhZohMTIsqYV8QOTMkl6V9x5RuMnnDcLWaNlYDBrWMv6yEgi5WR4?
+ =?us-ascii?Q?+3Dsn7RNfWbvwLlS3oDkqI+YvG+vRWmtdQ2iiGLTtOwKL7DDaPncx74lzmXL?
+ =?us-ascii?Q?askVqDx9xrwQn90YjdTl0UbxNbo80fAidpxMaV7DV1MsDXNIKxaLyNoVC39A?
+ =?us-ascii?Q?0iZvduLuha0firqyw3Y33cYXLyRUgxdRmahJTlhaPsSIAmxTWsa37ebGWoBB?
+ =?us-ascii?Q?yVEIobw63SDNPBvqQzXpG0X91bg4hshleR2GAVSVFrloE2hRfy8JmTayKwF1?
+ =?us-ascii?Q?/FBS9asNDXTdQN3my/PcNbea5M8+fqKTbSdNYV9utZo8y0PL+n6nonzUjx/C?
+ =?us-ascii?Q?JnlyHQNPm0Bf8OljsJpXs/60YDsOHojuDjzv2NpdBokP/AIYq0c+j6DMFOYw?
+ =?us-ascii?Q?pwVt4V3+qgww+5sCROZ/ELL17VeNBrCz+yzfkFgdEMF8oZpH1mv7WzUa6u4l?
+ =?us-ascii?Q?ml0A/KuPKvBA5p/iQ0XK2UT95uIn5V/aUqc6+K1FabAyzcGh1wTe7BxmdqJK?
+ =?us-ascii?Q?O0p7hXCADYkMar95y+z7re//W3/cS2Qhh0LxweAezKD6Hf8/tuR3PLhG9IKv?
+ =?us-ascii?Q?RqXK7JTdgIpma6dl7bd7FNVap3yTcSTpnKqbXSnqQCM0lb40a5CBAWkySDdR?
+ =?us-ascii?Q?D75UdKH5wHNkLmfGyt+799Dgc8tzF0OdWNGNo4adTGPF7IPtq6TxOJXfmr9M?
+ =?us-ascii?Q?34zPwSwtL/EC9EYK8wNnVEB23e1kdKBiCtDAVMliIY7bEe/P4D5F4wYG2QQR?
+ =?us-ascii?Q?5t7gaEHjXYZT3rzFU62K6YZhItafQur5kKgFb9IAXsXAbjWmBD/KAabVVkMs?
+ =?us-ascii?Q?7tdKsUToQW4TvuQ6vAXeZvqBsORwI5mFv0b7NvMDt00FmBPaWnCxtSIAL6Bi?
+ =?us-ascii?Q?k/9KfijscZQnsLWbnmdMW8Uo2VQTU68HMjKOVtxB8QnC5bw19FXhUqLhcRib?
+ =?us-ascii?Q?sW3EJ4MUX7Uf220JP/FskCOJKx8FaRgpPN57xWxz9eZAOhJEE9zZSyd1WsB3?
+ =?us-ascii?Q?TiQuVAaujUlQg06tnJ4FluxT92Ba3x3/Y2Lfrdewnokudy99K5bntRVsnzw6?
+ =?us-ascii?Q?XA5UEyNp+bRNmNP0bRUpThhQZxeRTdK4Tb3pP1YCdmzzX43Ey8Sscar2dgdY?
+ =?us-ascii?Q?zyfUXD37cZTZVtq/ZLtf0BrXVssGTQtDKKfZFffzsiv2fjbR+9zXx+2nDATF?
+ =?us-ascii?Q?paL4n8GaXJN7kJ+24kCN+iElcSQtrJU3+U3TjR9eShLp11+uH+ll+MJ8Njbo?
+ =?us-ascii?Q?rvRU6vLTiSE1kgCsRBRYDNyCWh1dqBPHtb6medX7bPk9w0jxxzhGl2OVylDq?
+ =?us-ascii?Q?VasBecSi2DNjDW+oOWexdbkJNunVvVbDsvZVMiBytaD0NQd4NFFUfd294dXX?
+ =?us-ascii?Q?7RwhMj9qTkYcKHFuwHLSH4rBiqnnFXCr5RfosvQIEY8YW6iBokBCOBJFtqXZ?
+ =?us-ascii?Q?LX0H9pLj88m0381i0VzdA5g3M8A8cecdv62aL+R6nPPVcwHh2/CIPT3veF1p?
+ =?us-ascii?Q?3mZ6exYfM6ICfRqJ4ugM3ugvxzrhXwMq3Tyt3eqx0VpF43fkboduyINopayI?
+ =?us-ascii?Q?JivCy6+QDOG3K1ECMeowCxszH5Q7qkpLV29ZpU/k5tsa5vhUPZFUYYFcOSYW?
+ =?us-ascii?Q?K8jmHbbE5raqSZGsgjajNHSGwWcW0M+9zt6RR1Wtdq7yb03JSJB/w=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BLUPR07MB546;5:TVb7OoE5CnQ874byF2KXv5MvF2RYBFm71NJBrdAPL1CdiMDRBZobIq5VAhYjdMoV0/v/k3six5GpmARJfpcWYdPvBnJPITv13OmZj27EZQvKw3Sot5EDrE4oEHUUCxR2qpOq0Ci4MNwSPBRHUUiWqg==;24:qftBBeIWCEN/bbSevDoeh9/Ianu9ngBaBRygUbZ/Q1t5HcEZxM8lGwMPdHR2hwp9xoz4WsrIl6u1Hp90oMVkHqWf/YX8El+43j7ceC7UYuA
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: domain.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Jan 2015 02:22:47.7954
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[domain.com]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB546
+
+Time is running out , John.
+
+ELECTION YEAR BEGINS TOMORROW
+
+Our plan for boosting Democratic voter turnout goes live after the clock 
+strikes MIDNIGHT TONIGHT.
+
+In the morning, we'll start preparing our first ever public fundraising 
+report.
+
+It's almost game time, and we need your help to make sure we're ready.
+
+Chip in $5 right now to send us into 2015 strong and you'll also become an 
+Original Member of the Progressive Turnout Project >>
+
+<<link>>
+
+Here's how far we have to go on reaching our critical $1OO,OOO fundraising 
+goal:
+
+$96,368 raised online this month and counting...
+
+Time is ticking down to New Year's!
+
+Boosting Democratic voter turnout rests on what happens within the next 
+few hours. This is why we need you.
+
+Please chip in right now:
+
+<<link>>
+
+Thanks for standing strong.
+
+Happy New Year's Eve!
+
+- The entire Progressive Turnout Project team
+
+----
+
+This email was sent to user@domain.com
+
+To unsubscribe, go to:
+  <<link>>
+
+Paid for by Progressive Turnout Project and not authorized by any 
+candidate or candidate's committee.
+

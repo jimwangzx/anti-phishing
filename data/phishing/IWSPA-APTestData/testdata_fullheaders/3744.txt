@@ -1,0 +1,57 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 6A76423CA82;
+	Mon,  1 Apr 2015 18:19:26 -0500 (CDT)
+X-Virus-Scanned: amavisd-new at domain.com
+X-Amavis-Alert: BAD HEADER, Duplicate header field: "Cc"
+X-Spam-Score: 3.786
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.786 tagged_above=2 required=5
+	tests=[BAYES_00=-2.599, HTML_40_50=0.496, HTML_MESSAGE=0.001,
+	RCVD_IN_BL_SPAMCOP_NET=1.558, RCVD_IN_XBL=3.897,
+	X_PRIORITY_HIGH=0.433]
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id joMOMiNkuobx; Mon,  1 Apr 2015 18:19:23 -0500 (CDT)
+Received: from mail.minerva.ro (mail.minerva.ro [89.42.16.27])
+	by domain.com (Postfix) with ESMTP id B263223CA7D;
+	Mon,  1 Apr 2015 18:19:23 -0500 (CDT)
+Received: from apache by domain.com with local (Exim 4.67)
+	(envelope-from <user@domain.com>)
+	id LPIFVU-9UYKUH-WT
+	for <user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>
+Cc: <user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>; Tue, 2 Apr 2015 01:19:36 +0200
+To: <user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>
+Cc: <user@domain.com>,
+	<user@domain.com>,
+	<user@domain.com>
+Subject: Payment ID 098687945503 rejected
+X-PHP-Script: domain.com/sendmail.php for 89.42.16.27
+From: =?koi8-r?B?IunM2NEu59Xdyc5AZGlyZWN0Lm5hY2hhLm9yZyI=?
+	<user@domain.com>
+X-Sender: =?koi8-r?B?IunM2NEu59Xdyc5AZGlyZWN0Lm5hY2hhLm9yZyI=?= 
+	<user@domain.com>
+X-Mailer: PHP
+X-Priority: 1
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------04090700408070902060602"
+Message-Id: <4user@domain.com>
+Date: Tue, 2 Apr 2015 01:19:36 +0200
+Content-Length: 1811
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 174
+
+Dear Business owner,Please be informed, that your latest Direct domain.com via ACH transaction (IN378590269423) was rejected,because your current Direct domain.com software version was out of date. The details regarding this matter are available in our secure section::Click here for more informationPlease apply to your financial institution to get the new version of the software.Kind regards,ACH Network Rules DepartmentNACHA - The Electronic Payments Association16615 Sunrise Valley Drive, Suite 366Herndon, VA 20141Phone: 703-561-9776 Fax: 703-787-4502

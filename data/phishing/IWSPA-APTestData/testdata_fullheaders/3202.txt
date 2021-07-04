@@ -1,0 +1,96 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Fri, 15 Nov 2015 13:31:19 -0800
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rAFLVIUi028542;	Fri, 15 Nov 2015 21:31:18 GMT
+Received: from mail222-ch1-domain.com (mail-domain.com
+ [216.32.181.172])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rAFLVHX1018534
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL);	Fri, 15 Nov 2015 
+ 21:31:17 GMT
+Received: from mail222-ch1 (localhost [127.0.0.1])	by
+ mail222-ch1-domain.com (Postfix) with ESMTP id 320ED1A04F0;	Fri, 15 Nov
+ 2015 21:31:17 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.36.142.247;KIP:(null);UIP:(null);IPV:NLI;H:mail.amptp.org;RD:mail.amptp.org;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(zbebI6eaIz9371I12d2I10e3Ic857hde40hzz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h1d1ah1d2ah1fc6hz70kz12d5dfiz2dh109h839he5bh1288h12a5h12bdh137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h19ceh1b0ah1bceh2222h224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e23h1fe8h1ff5h20f0h21e9h2218h2216h214ai34h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received: from mail222-ch1 (localhost.localdomain [127.0.0.1]) by mail222-ch1
+ (MessageSwitch) id 1384551074661733_7016; Fri, 15 Nov 2015 21:31:14 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.236])	by mail222-domain.com (Postfix) with ESMTP id
+ 8CF5E4009B;	Fri, 15 Nov 2015 21:31:14 +0000 (UTC)
+Received: from mail.amptp.org (199.36.142.247) by domain.com
+ (10.43.70.23) with Microsoft SMTP Server id 14.16.227.3; Fri, 15 Nov 2015 
+ 21:31:14 +0000
+Received: from localhost (localhost [127.0.0.1])	by mail.amptp.org (Postfix)
+ with ESMTP id 104A0DE059;	Fri, 15 Nov 2015 15:31:13 -0600 (CST)
+Received: from mail.amptp.org ([127.0.0.1])	by localhost (mail.amptp.org
+ [127.0.0.1]) (amavisd-new, port 10032)	with ESMTP id c2PKM0SPMBGC; Fri, 15
+ Nov 2015 15:31:12 -0600 (CST)
+Received: from localhost (localhost [127.0.0.1])	by mail.amptp.org (Postfix)
+ with ESMTP id 3C6CADE05E;	Fri, 15 Nov 2015 15:31:12 -0600 (CST)
+X-Virus-Scanned: amavisd-new at mail.amptp.org
+Received: from mail.amptp.org ([127.0.0.1])	by localhost (mail.amptp.org
+ [127.0.0.1]) (amavisd-new, port 10026)	with ESMTP id RLHDrgPCx8_k; Fri, 15
+ Nov 2015 15:31:11 -0600 (CST)
+Received: from mail.amptp.org (mail.amptp.org [172.18.62.5])	by mail.amptp.org
+ (Postfix) with ESMTP id 99E4BDE059;	Fri, 15 Nov 2015 15:31:11 -0600 (CST)
+Date: Fri, 15 Nov 2015 15:31:11 -0600
+From: "Carol A. Lombardini" <carol@amptp.org>
+To: Anne X Sweeney <user@domain.com>, Barry Meyer
+	<user@domain.com>, Jim Gi <user@domain.com>, alan horn
+	<user@domain.com>, alan n brusern <user@domain.com>,
+	<user@domain.com>, kevin tsujihara <user@domain.com>,
+	"leslie moonves" <user@domain.com>, meyer meyer
+	<user@domain.com>, michael lynton <user@domain.com>
+CC: Ellie Stockwell <user@domain.com>, kari zirkle
+	<user@domain.com>, susan scott <user@domain.com>,
+	<user@domain.com>, <user@domain.com>, david diamond
+	<user@domain.com>, Dawn Knepley <user@domain.com>, "sherry
+ foley" <user@domain.com>, robert bishop <user@domain.com>,
+	marti anderson <user@domain.com>, sita laba
+	<user@domain.com>, billy bowers <user@domain.com>,
+	<user@domain.com>, marian olson <user@domain.com>, "ann
+ calfas" <user@domain.com>, molly wilson <user@domain.com>, "marc l
+ sandman" <user@domain.com>, Alan Raphael
+	<user@domain.com>, Hank Lachmund <user@domain.com>,
+	robert w johnson <user@domain.com>, harry isaacs
+	<user@domain.com>, "keith gorham" <user@domain.com>,
+	<user@domain.com>, nicole gustafson <user@domain.com>, helayne
+ antler <user@domain.com>
+Message-ID: <2101073679.116535.1384551071279.user@domain.com>
+In-Reply-To: <1073154213.116459.1384550723103.user@domain.com>
+Subject: DGA Negotiations -- Conference call Saturday, Nov 16 at 8:00 a.m.
+X-Originating-IP: [216.31.141.200]
+X-Mailer: Zimbra 8.0.4_GA_5737 (ZimbraWebClient - FF25 (Win)/8.0.4_GA_5737)
+Thread-Topic: DGA Negotiations -- Conference call Saturday, Nov 16 at 8:00 a.m.
+Thread-Index: hdA13CfX2U0kNl0dwAJj0wPUG4MEUA
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1646860881_-_-"
+
+DGA Negotiations -- Conference call Saturday, Nov 16 at 8:00 a.m.
+
+NOTICE TO CHIEF EXECUTIVE OFFICERS (with cc: to CEO Assistants and AMPTP Board of Directors):
+
+Attached is a short deck that briefly sets out the issues to be discussed on our conference call tomorrow (Saturday) morning at 8:00 a.m.
+
+As a reminder, the dial-in number is 800-747-5150 and the passcode is 3821724#.
+
+Best regards, Carol
+
+Carol A. Lombardini
+President
+Alliance of Motion Picture and Television Producers
+15301 Ventura Blvd, Bldg E, Sherman Oaks, CA  91403
+818.935.5930 [direct] | 818.285.4450 [fax]
+
+Attachments:
+
+        CEO Update_2014 DGA Negs 11-15-13_v4-1.pptx (131274 Bytes)
+

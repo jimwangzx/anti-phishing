@@ -1,0 +1,109 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Wed, 26 Mar 2015 10:19:19 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2QHJI6I017823	for <user@domain.com>; Wed, 26 Mar 2015 
+ 17:19:18 GMT
+Received: from mail212-ch1-domain.com (mail-domain.com
+ [216.32.181.168])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s2QHKegQ023593
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Wed, 26 Mar 2015 17:20:41 GMT
+Received: from mail212-ch1 (localhost [127.0.0.1])	by
+ mail212-ch1-domain.com (Postfix) with ESMTP id DB5BE601D6	for
+ <user@domain.com>; Wed, 26 Mar 2015 17:19:17 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:198.37.148.27;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(zz9371Ic89bhf52Iec9Ic857hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1de098h1def03h177df4h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h18602eh1ce121i40e09iz2fh5fh839h93fhd24he5bh1288h12a5h12bdh137ah13eah1441h1504h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh740i1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail212-ch1: domain of domain.com designates 198.37.148.27 as permitted sender) client-ip=198.37.148.27; envelope-from=bounces+941624-user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail212-ch1 (localhost.localdomain [127.0.0.1]) by mail212-ch1
+ (MessageSwitch) id 1395854356242806_3625; Wed, 26 Mar 2015 17:19:16 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.236])	by mail212-domain.com (Postfix) with ESMTP id
+ 3783D3C01AA	for <user@domain.com>; Wed, 26 Mar 2015 17:19:16 +0000
+ (UTC)
+Received: from domain.com (198.37.148.27) by
+ domain.com (10.43.69.248) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 26 Mar 2015 17:19:14 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=bobbyshriver.com; 
+	h=From: Bobby Shriver <bobby@bobbyshriver.com>
+	s=smtpapi; bh=l4Pg76g2yELQaHk8NU5kXXjuEVM=; b=Fq/Lc/wes9461eBZEM
+	1TAIObwfWS4FyTQKc3AuhTMzBjY3WNmxL669+Ju0yrO7gfMso44GnGmtxkx0mTJK
+	illQoPjcKqVwlQsgGGUCe5xlZILLHCxVxGzcOUw6zkG9DqsbXIl6Rep3v2DmTC7x
+	7sHXY4wnSj8wNodRFJ3fjxe50
+Received: by domain.com with SMTP id mf199.21599.53330C109        Wed,
+ 26 Mar 2015 17:19:12 +0000 (UTC)
+Received: from domain.com (535.domain.com [75.127.82.2])	by
+ ismtpd-006 (SG) with ESMTP id 144ff6720f1.3817.e49e9a	for
+ <user@domain.com>; Wed, 26 Mar 2015 17:19:12 +0000 (GMT)
+Date: Wed, 26 Mar 2015 17:19:12 +0000
+From: Bobby Shriver <bobby@bobbyshriver.com>
+To: Amy Pascal <user@domain.com>
+Message-ID: <53330user@domain.com>
+Subject: Up For A Debate?
+X-SG-EID: crjdrkBCnHFBAoM6m/Gp9m3skGmMR9d/9Wh2P3ndSBdIGCNq9Qt+M5PIbUz4E9IMIkmBFAUM6GpT9Rm13KXbvtshOHCqtV1NOKz+i4HV2iikBmselgWrM8Ooi++H0phDT/QoS4IuDosT2Tc00nKRpeegFi9hV6++Wdy4a9PBO6Y
+X-SG-ID: SolyLoj4M+6t0KZQOavh+AXBcK23mfoFm3UmYg7LFQRP2mTSR06rC4Yb8VYNYR2vKLQZrQLyErgojVIx3izB501Pc80KhpxoTtx39r0wkPbUL5KjEy02jH/ywIK/LCdawDMJ6FAIHezYAjCdwLPcyE1KdIQFchO1XUnJO3NFATs
+Return-Path: 
+ bounces+941624-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Up For A Debate?
+
+Bobby Shriver for Los Angeles County Supervisor          <<link>>   
+
+Volunteer       
+
+Contact         
+
+Donate  
+
+ <<link>>   
+
+ <<link>>   
+
+ <<link>>   
+
+Amy --
+
+Debates are springing up everywhere, because for the first time in decades we have a competitive race for County Supervisor in the Third District. This is great for LA County: Issues that directly affect everyone’s lives being discussed in front of many people all over the place.
+
+Here are a few upcoming debates, hope you can come check them out. Seeing supporters in the audience means a lot to me!
+
+Best,
+
+Bobby
+
+  _____  
+
+Los Angeles Press Club (this one needs an RSVP)
+
+
+
+
+Date: Thursday, March 27 
+
+
+
+
+Location: Steve Allen Theater, 4773 Hollywood Blvd., Los Angeles, CA 90027. Free parking
+
+
+
+
+Time: Doors open 6:00 pm. Debate 7:00-8:00 p.m., followed by questions from the audience, time permitting. domain.com questions on cards that night or by email to user@domain.com
+
+
+
+
+Moderator: LA Times columnist Patt Morrison
+
+
+
+
+Media: Live-streamed by NBC and also, possibly, 
+

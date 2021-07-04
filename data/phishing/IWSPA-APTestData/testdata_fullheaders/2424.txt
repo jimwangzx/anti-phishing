@@ -1,0 +1,83 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Fri, 28 Mar 2015 11:56:05 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2SIu4XD009948	for <user@domain.com>; Fri, 28 Mar 2015 
+ 18:56:04 GMT
+Received: from mail214-tx2-domain.com (mail-domain.com [65.55.88.116])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2SItZ4k029893	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Fri, 28 Mar 2015 18:55:35 GMT
+Received: from mail214-tx2 (localhost [127.0.0.1])	by
+ mail214-tx2-domain.com (Postfix) with ESMTP id B914AC800DF	for
+ <user@domain.com>; Fri, 28 Mar 2015 18:56:03 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:50.31.38.166;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 17
+X-BigFish: vps17(z187l623kzc89bhc857hzz1f42h2148h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h17326ah8275bh1bc7b9h8275dh1de097h186068h1b778fh1ce120h1ce121iz2fh5eh5fh839h8aah8e2h8e3hd24h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h2336h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh740ibe9i9a9j783m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail214-tx2: domain of domain.com designates 50.31.38.166 as permitted sender) client-ip=50.31.38.166; envelope-from=bounces+187456-user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail214-tx2 (localhost.localdomain [127.0.0.1]) by mail214-tx2
+ (MessageSwitch) id 1396032961518609_15577; Fri, 28 Mar 2015 18:56:01 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.226])	by
+ mail214-domain.com (Postfix) with ESMTP id 78158DC0061	for
+ <user@domain.com>; Fri, 28 Mar 2015 18:56:01 +0000 (UTC)
+Received: from domain.com (50.31.38.166) by domain.com
+ (10.9.99.126) with Microsoft SMTP Server id 14.16.227.3; Fri, 28 Mar 2015 
+ 18:55:59 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=fleetmatics.com; 
+	h=subject:From: Craig Paulette <craig.paulette@fleetmatics.com>
+	bh=F1/8izEyZJ+bsLFR8VdE2u8hdU4=; b=i2vE9gvOw3gGeZ6AHwjd3xR+CXwS6
+	y7Uua1oWQlhiTaZarBfZ7VaQEjabupmf5oYFGxW1hgGTi3RhoLHLAjiONo1G4nMA
+	rTYBgFEmiSUFggD0fG7d0v5h8DYI6JwoTr5K4pffUojmvCy/wFBlwMv0tmUEIa+n
+	fCMTinSqiEP/Pg
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=fleetmatics.com; 
+	h=subject:From: Craig Paulette <craig.paulette@fleetmatics.com>
+	s=smtpapi; b=q00E3G6iB0InF1ziGgFm0LT7lXwqJraH/0vaxT87hfBZ7IRsw1Q
+	eicEjjyrsvvmhNPY7ksRU0B5lLlFIbhU5JWFmjWBDK7yIdwL7YECK833Cc7f9GdX
+	IRFOnwPh3SFMTCYSpGnvYYh2Rw4w8xzyB4o1/DeiXmFO5i/6MkQJBLBg
+Received: by filter-169.domain.com with SMTP id
+ filter-169.14756.5335C5BE8        Fri, 28 Mar 2015 18:55:58 +0000 (UTC)
+Received: from [127.0.0.1] (208.43.203.139-domain.com
+ [208.43.203.139])	by ismtpd-030 (SG) with ESMTP id 1450a0c719b.6562.c89764
+	for <user@domain.com>; Fri, 28 Mar 2015 18:55:58 +0000 (GMT)
+Message-ID: <8user@domain.com>
+Date: Fri, 28 Mar 2015 14:55:58 -0400
+Subject: Meet with Fleetmatics at NAFA, enter to win a driver!
+From: Craig Paulette <craig.paulette@fleetmatics.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+X-SG-EID: V1pZY6LJ9PtEH4mvLqfR5YWX/k+NpYpqay8VZENn5hUCGAE8p0I/e7jONViU5dqiQ6Q3FFB/vDFCMGp5BRz5s+7pIYRMqxh2CcpXgTiUX6BN5Lbxu1qyf07PT2SfOZir0yukGP6Nw4rJAqs1zypwQ9uCp3Owjt38+tDvPeejy54
+X-SG-ID: s78jXjc54Sh5tx9yFLGsWSVgP7deeyi89jjwqux6R/VJx+TFU9JgGBS5NCWarGqBjgd4S7D9oEFJlPl+JcjQ9iVmqa9c0ubxwbbV/OS11x+moJdfkjFStetI+KWsfuDB
+Return-Path: bounces+187456-user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Meet with Fleetmatics at NAFA, enter to win a driver!
+
+Hi Amy,
+
+Fleetmatics has some exciting news to share, and we’d like you to be the first to hear! Stop by Fleetmatics Booth #920 at the NAFA Institute & Expo, April 9-10, and you can enter to win a TaylorMade RocketBallz Stage 2 driver. 
+
+
+
+Even better, take this brief survey in advance and we’ll bring you a Columbia fleece jacket as our thanks*.  You can still sign up to win a driver, too!
+
+
+
+See you there,
+
+Craig Paulette 
+
+user@domain.com
+
+
+
+* Promotion limited to fleet management employees of organizations with a business fleet of 25 or more vehicles.  Offer valid April 9-10 at NAFA Institute & Expo in Minneapolis, MN only.  Offer good while supplies last, and only one winner per person or organization.  This offer is not transferable and is made without warranty of any kind, express or implied.  No purchase necessary.  Offer void where prohibited, taxed, or restricted by law. In the event a Taylormade Rocketballz Stage 2 Driver or Columbia fleece jacket is not available, a replacement of equal value will be provided at Fleetmatics’ sole discretion.  TaylorMade and Columbia are not participating partners or sponsors in this offer.
+
+Fleetmatics
+31500 Bainbridge Rd
+Solon, OH 4413
+

@@ -1,0 +1,88 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.31 with SMTP id o31csp756700lfi;
+        Thu, 12 Feb 2015 18:19:59 -0800 (PST)
+X-Received: by 10.180.92.226 with SMTP id cp2mr11813615wib.67.1423793998932;
+        Thu, 12 Feb 2015 18:19:58 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::22b])
+        by domain.com with ESMTPS id da6si741769wjb.92.2015.02.12.18.19.58
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 12 Feb 2015 18:19:58 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22b as permitted sender) client-ip=2a00:1450:400c:c05::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-wi0-domain.com with SMTP id hi2so8081143wib.4;
+        Thu, 12 Feb 2015 18:19:58 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Cheryl Mills <cheryl.mills@gmail.com>
+         :cc:content-type;
+        bh=sH+fFVjrITx6Enhh6GLbfmnlnfAchwHDZSizuZwCyFk=;
+        b=X1td3r3LZrLQk4TiRxzpqW/kkM8CYA8Z2GKndzygEOL58V1qrmj6FwKDaijCN4n1lG
+         GxmRDU3xch2o7BCcPA99+KJJyoju4pFh4KEK5fD5jq078d8nkwQ3l+d48dR+kM4uC6Ud
+         MhCaz20t4P2okyv551McRLv/sPlqcdABCqndAErBz9Q7rLfxG8UYXl0qaOT6d0xVlLIK
+         +69JY/Mg/jdBO4c3XUU4pBTbtBieYX3/AfYl0A2h4HA+vF9sZMBGXGqSYVd7yhQ7RA80
+         9sAaDRN+DbulqC9+8I3Emq9gxOAZGsSjb4XRqwBGXJgsYCjpXaCBISa/ByCccf3WidPW
+         KCFw
+MIME-Version: 1.0
+X-Received: by 10.194.60.205 with SMTP id j13mr14059720wjr.42.1423793998427;
+ Thu, 12 Feb 2015 18:19:58 -0800 (PST)
+Received: by 10.27.94.1 with HTTP; Thu, 12 Feb 2015 18:19:58 -0800 (PST)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+	<user@domain.com>
+Date: Thu, 12 Feb 2015 21:19:58 -0500
+Message-ID: <CALk44aAdqdoPgJo+user@domain.com>
+Subject: Fwd: Top Latino Donors Warn Clinton: Do Better With Latinos Than Dems
+ Did In Florida, Colorado
+From: Cheryl Mills <cheryl.mills@gmail.com>
+To: Robby Mook <user@domain.com>
+CC: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7b86de4e827bbd050eeedf46
+
+fysa
+---------- Forwarded message ----------
+From: Cheryl Mills <cheryl.mills@gmail.com>
+Date: Thu, Feb 12, 2015 at 5:14 PM
+Subject: Fwd: Top Latino Donors Warn Clinton: Do Better With Latinos Than
+Dems Did In Florida, Colorado
+To: Cheryl Mills <user@domain.com>, Huma Abedin <
+user@domain.com>
+
+hi CDM and Huma --
+
+I don't want to get out in front of anything folks are thinking about, but
+I'd certainly urge everyone to check in with Lorena about Hispanic
+efforts.  She is the best in the business right now at reaching both
+English-and Spanish-dominant latinos, and did a great job for Robby and his
+team on behalf of Terry M in Virginia last year (the record # of Hispanic
+votes that she got out in a Southern state in an off-year election -- I
+think it was 63K -- was bigger than his margin of victory).  She's been
+talking with Steyer's enviro fund, the DCCC, and Priorities about the next
+cycle, but her heart is of course with Team Chappaqua.  And, she is the
+only woman other than Mandy G to ever have done Presidential level
+commercials.   I'd rave about her even if I wasn't married to her, but
+since I am, it is even easier to vouch for her work!
+
+I hope you are well
+
+--LOU
+---------- Forwarded message ----------
+From: Cheryl Mills <cheryl.mills@gmail.com>
+Date: Thu, Feb 12, 2015 at 4:29 PM
+Subject: Top Latino Donors Warn Clinton: Do Better With Latinos Than Dems
+Did In Florida, Colorado
+To: Ambassador Lou de Baca <user@domain.com>
+
+Again no women in his article
+
+<<link>>
+
+Get the BuzzFeed App: <<link>>#
+
+Lorena
+Chambers Lopez Strategies
+202-650-5525 office
+@chamberslopez

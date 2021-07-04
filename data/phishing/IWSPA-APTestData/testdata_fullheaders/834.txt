@@ -1,0 +1,114 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp1621290lfr;
+        Thu, 3 Sep 2015 19:54:25 -0700 (PDT)
+X-Received: by 10.13.250.198 with SMTP id k189mr1446467ywf.153.1441335265718;
+        Thu, 03 Sep 2015 19:54:25 -0700 (PDT)
+Return-Path: <34user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::24a])
+        by domain.com with ESMTPS id w135si571090ykb.59.2015.09.03.19.54.25
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 03 Sep 2015 19:54:25 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 34user@domain.com designates 2607:f8b0:4002:c07::24a as permitted sender) client-ip=2607:f8b0:4002:c07::24a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 34user@domain.com designates 2607:f8b0:4002:c07::24a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id f83so553125yka.1
+        for <user@domain.com>; Thu, 03 Sep 2015 19:54:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: brubin@hillaryclinton.com
+        bh=iLuxIEDjRGXwJSg04biFwrF/8/c+9IBXreR/veQsedA=;
+        b=bG4g4Lv2aTv+Sr9YP9vmgAW74Hg114JHd9OtkFMOaJWBaSOCQuURb7/wB7aLegpYJI
+         1/l7daZ9ElvAagSSP88vf9PrHcyAbc2BERT90yuCRfGjUbzBykXRh+dqJ8dlkc3LyRWJ
+         c1MMiZTLTBLsKPGAi9nw4u0LwP/Z3iXeuSOZdvjjiUxZYDI7qcmDfVjIf8aM+KCeY0k5
+         pJ8lOJu/XiBd8JL/Yk9EIDQJfvUe3lUIHlbaHeSK6IICuI49tC3GSsz2OS5eLaCTgNbG
+         kymqDsQAuXCb3H1OaVHoTx12wl6XZjih+Arm1kuDRQvPb4NjXJoBYTBA6CDarEDWsiDy
+         AmHQ
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: brubin@hillaryclinton.com
+        bh=iLuxIEDjRGXwJSg04biFwrF/8/c+9IBXreR/veQsedA=;
+        b=KiraA7UGgUpN9DcMlzQyBmJwR2qMDgLLjMfSqxRgxlfYtwnSxiWP/d3Tq7xj3jJdJN
+         QBr9ejC0oCfNTeyEOhwVVYh5/zIEv/STyZAop+wsZX6KF97XnvBGdsbK64v0FjTBFpwd
+         xmZBccBDYXvDtOIBOO9wfzSk8D7SALciUuQQ0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: brubin@hillaryclinton.com
+        bh=iLuxIEDjRGXwJSg04biFwrF/8/c+9IBXreR/veQsedA=;
+        b=DA/AuNvWNAdZqCesVnGiYC5QL2zHDdAoUBraN3E723Tj/BsjQr9QHTR6mZ3nV1XhGz
+         mroodtQCAZgFMUD0QwLeCJCPSXQd0rf2MX8l718Ar8U3neJk/c/3LgAJhY1j1edb5c6u
+         S0TVi4KAXrFQtoImDFeUTcVMQtq+8A27SOtDKBR/1RxNwO1Mr/74KcYEW6uoEGk4CK7t
+         FrTqxRl5H5OLpCJFPtG5wkdsF62puKamB7yphLnCLUupkMKdsGZws0Owmc+0WUOjEK6V
+         wC99YCBXSH9JQL+jED8O2+ZOay6QLrkfJNua0CDzuXF5USARxpDwxPimp4U1+XsLIbds
+         OJGA
+X-Gm-Message-State: ALoCoQn5DAVlQEzK7VqGiQ0DyBcWhT2OaG75xDt/W5/6GaF6WarteP0czTKhmW3EH9QF9DrRq8vT
+MIME-Version: 1.0
+X-Received: by 10.52.107.106 with SMTP id hb10mr1235652vdb.1.1441335264988;
+ Thu, 03 Sep 2015 19:54:24 -0700 (PDT)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <user@domain.com>
+Date: Fri, 04 Sep 2015 02:54:24 +0000
+Subject: Invitation: 8:15am ET Call with HRC @ Fri Sep 4, 2015 8:15am - 9am (user@domain.com)
+From: brubin@hillaryclinton.com
+To: user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com, David Binder <user@domain.com>, 
+ user@domain.com, user@domain.com
+Content-Type: multipart/mixed; boundary=bcaec548608478ef4e051ee30471
+
+You have been invited to the following event.
+
+Title: 8:15am ET Call with HRC
+Dial-In: 718-406-9705
+Participant Code: 14417
+When: Fri Sep 4, 2015 8:15am - 9am Eastern Time
+Video call:  
+<<link>>  
+<<<link>>>
+Calendar: user@domain.com
+Who:
+     * user@domain.com - organizer
+     * user@domain.com
+     * user@domain.com
+     * John user
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * David Binder
+     * user@domain.com
+     * user@domain.com
+
+Event details:  
+<<link>>
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for invitations on calendar user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to modify your RSVP  
+response. Learn more at  
+<<link>>#forwarding

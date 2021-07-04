@@ -1,0 +1,135 @@
+Delivered-To: user@domain.com
+Received: by 10.229.190.72 with SMTP id dh8cs214086qcb;
+        Wed, 7 Jul 2015 13:20:26 -0700 (PDT)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.1.195 as permitted sender) client-ip=10.229.1.195;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.1.195 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.229.1.195])
+        by 10.229.1.195 with SMTP id 3mr5005964qcg.32.1278534024661 (num_hops = 1);
+        Wed, 07 Jul 2015 13:20:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:received:From: David Donnelly <ddonnelly@campaignmoney.org>
+         :thread-topic:thread-index:message-id:in-reply-to:accept-language
+         :x-ms-has-attach:x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-originalarrivaltime:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-language:content-type;
+        bh=UzUIFSp6UM1U2ZjOB0MM5pKf1j6dorQ6ZLdysU3AHro=;
+        b=0lLYMQi0AIORNqgEKtXutTYGP0ezwpqa7mQQEEptE7YOxojF12SWjhnMK2nVIB7jPi
+         uL9tbU2t7/UwXpS7eebdP15qN4tx5Pb9Xzg0k6aRLL/1FVQ06tiVvWwN0SV3hIY3P26A
+         ksE5KepVJEQU1z5rflHnjSsKD8mknGyy1f77Y
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:From: David Donnelly <ddonnelly@campaignmoney.org>
+         :thread-index:message-id:in-reply-to:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-originalarrivaltime:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-language:content-type;
+        b=L7PmWMRtXTKSU+/fgjbFPE79SILu+Ay0QN3HCVkFsPWHXLYD6MElFwYEG6+8r1XEgn
+         bcPlUMhMY+is2AALPBOZfdc4AycgxrVrzeO408fVmPw0SSQrqrVpae/ZJ4z6OpU5CBLi
+         /WOnl5RMqmtOMV5RB+cT0GBUcLR/S3w5iNtao
+Received: by 10.229.1.195 with SMTP id 3mr918509qcg.32.1278534002736;
+        Wed, 07 Jul 2015 13:20:02 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.229.248.75 with SMTP id mf11ls2615178qcb.1.p; Wed, 07 Jul 2015 
+	13:20:01 -0700 (PDT)
+Received: by 10.229.185.84 with SMTP id cn20mr237834qcb.9.1278534001518;
+        Wed, 07 Jul 2015 13:20:01 -0700 (PDT)
+Received: by 10.229.185.84 with SMTP id cn20mr237833qcb.9.1278534001442;
+        Wed, 07 Jul 2015 13:20:01 -0700 (PDT)
+Received: from domain.com ([206.205.33.98])
+        by gmr-domain.com with ESMTP id h19si3167868qcp.3.2010.07.07.13.20.01;
+        Wed, 07 Jul 2015 13:20:01 -0700 (PDT)
+Received-SPF: neutral (domain.com: 206.205.33.98 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=206.205.33.98;
+Received: from domain.com ([192.168.132.10]) by domain.com with Microsoft SMTPSVC(5.0.2195.6713);
+	 Wed, 7 Jul 2015 16:20:00 -0400
+Received: from domain.com ([fe80::31b4:9998:34e8:3f02]) by
+ domain.com ([fe80::31b4:9998:34e8:3f02%12]) with mapi; Wed, 7 Jul
+ 2015 16:20:00 -0400
+From: David Donnelly <ddonnelly@campaignmoney.org>
+To: "User" <user@domain.com>
+Date: Wed, 7 Jul 2015 16:19:52 -0400
+Subject: [big campaign] Join us for "Money, Politics and Public Opinion: 
+	Talking Fair Elections"
+Thread-Topic: Join us for "Money, Politics and Public Opinion: Talking Fair
+ Elections"
+Thread-Index: AcsdV6yZW2/H4AOhTiCDzq1Id8kq2wAljPVgAAj4RX8
+Message-ID: <C85A59AA.2A9FB%user@domain.com>
+In-Reply-To: <C85A1D78.26F52%user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-OriginalArrivalTime: 07 Jul 2015 20:20:00.0762 (UTC) FILETIME=[C6BB1DA0:01CB1E11]
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=neutral (domain.com: 
+	206.205.33.98 is neither permitted nor denied by best guess record for domain 
+	of user@domain.com) user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, 
+	<mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>, 
+	<mailto:bigcampaign+user@domain.com>
+Content-Language: en
+Content-Type: multipart/mixed;
+	boundary="_004_C85A59AA2A9FBddonnellycampaignmoneyorg_"
+
+Hi All,
+
+Drew Westen, Celinda Lake, and Mark McKinnon did a significant messaging pr
+oject for us over the past few months. They're all joining us for a webinar
+ to present their findings tomorrow at 4:00. Please register if you want to
+ take part. See below.
+
+David
+
+Money, Politics and Public Opinion: Talking Fair Elections with Citizens Re
+ady for Change
+Join us for a Webinar on July 8
+ <<<link>>>
+
+Space is limited.
+Reserve your Webinar seat now at:
+<<link>>
+Join the Campaign for Fair Elections Thursday, July8 at 4:00 PM ET (1:00 PM
+ PT) for a special phone and online briefing on the campaign's recent messa
+ging results.
+
+Title: Money, Politics and Public Opinion: Talking Fair Elections with Citi
+zens Ready for Change
+Date: Thursday, July 8, 2015 
+Time: 4:00 PM - 5:00 PM EDT
+
+After registering you will receive a confirmation email containing informat
+ion about joining the Webinar.
+
+System Requirements
+PC-based attendees
+Required: Windows=AE 7, Vista, XP, 2015 Server or 2015 
+Macintosh=AE-based attendees
+ Required: Mac OS=AE X 10.4.11 (Tiger=AE) or newer
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

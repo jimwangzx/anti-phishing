@@ -1,0 +1,63 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp615947lfi;
+        Sat, 13 Jun 2015 13:57:08 -0700 (PDT)
+X-Received: by 10.13.208.134 with SMTP id s128mr26424717ywd.141.1434229027469;
+        Sat, 13 Jun 2015 13:57:07 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yh0-domain.com (mail-yh0-domain.com. [2607:f8b0:4002:c01::22c])
+        by domain.com with ESMTPS id y72si3198576yke.45.2015.06.13.13.57.06
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 13 Jun 2015 13:57:07 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::22c as permitted sender) client-ip=2607:f8b0:4002:c01::22c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::22c as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yh0-domain.com with SMTP id k3so24684503yha.2
+        for <user@domain.com>; Sat, 13 Jun 2015 13:57:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=references:From: Kristina Schake <kschake@hillaryclinton.com>
+         :cc:content-type;
+        bh=yx2pDcNUj+zS2uRdDwfPbM1ima/hl3lp/oMZFxxu2lI=;
+        b=SsCD5EhoNrDzup/LRrsnxm4Bpf5ODijI36Ghuf0x+hucCxS3kRns9yF29xv1PTOFAB
+         Yj7JpsHWzfdPhe7b8nyhnuJZBI+NUxUq055jrYPxaZqONy+lNqxxtjLhkDHIqxWuXHYQ
+         kvagpfEgquVEEZbqNZ6Lutqub/zKnaEe90Z9Q
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:references:From: Kristina Schake <kschake@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=yx2pDcNUj+zS2uRdDwfPbM1ima/hl3lp/oMZFxxu2lI=;
+        b=U/eq9ATeKbCd84LH59I2zrN417HapWAwlsV36fofKWIRWcfqg059J2jgTuS7+kIKxD
+         LKd0m1YTxMDqAoEywbVradtNgCmq1Ge0UC/ugcLsOIiQltY3x+ttVU8JXNezLYbnuUc7
+         YiAh+TRZ6NjQaDln/8wBOYCyScZcJzIQfZMVNeuAIX/snu6207lZMqm0IoM12gIczBqI
+         Sy8SSnQkkIh0RJWWe9zI/ep/dkirgwzt8bxfnqDl8gzvB7KAGCFWcpB3gtQ7u1W/jZRy
+         JAzHR/VpRuNcleUa+WWypUPiSpRHAUoRjz7AOlBNQ27ofCHkGaaLGqhpkuchwX8zxYKN
+         LoBg
+X-Gm-Message-State: ALoCoQlc9ophbdQG4ej5/l0yI/KQQI2zHVjpqgx9ZB+D5tphzbx+RB0D6rO3ZT6gN6DkC9QZN88u
+X-Received: by 10.13.217.147 with SMTP id b141mr26429405ywe.22.1434229026838;
+ Sat, 13 Jun 2015 13:57:06 -0700 (PDT)
+References: <user@domain.com>
+ <user@domain.com>
+ <CAOLO1-mATthF=9F0arG+65user@domain.com> <CA+=gYAkez=Nh1KG83mNKAuEsZjcpC+user@domain.com>
+From: Kristina Schake <kschake@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+In-Reply-To: <CA+=gYAkez=Nh1KG83mNKAuEsZjcpC+user@domain.com>
+Date: Sat, 13 Jun 2015 16:57:06 -0400
+Message-ID: <840641985112945980@unknownmsgid>
+Subject: Re: Trade
+To: Marlon Marshall <user@domain.com>
+CC: Matt Paul <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ John user <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Robby Mook <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a114fd9aaabec0b05186c7796
+
+user is available at 6:15 pm. Does that work? I will send around a
+number.
+
+Sent from my iPhone
+
+On Jun 13, 2015, at 4:46 PM, Marlon Marshall <user@domain.com>

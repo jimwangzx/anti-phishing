@@ -1,0 +1,158 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp682572lfb;
+        Sat, 6 Feb 2015 15:50:28 -0800 (PST)
+X-Received: by 10.55.79.5 with SMTP id d5mr25759348qkb.30.1454802628512;
+        Sat, 06 Feb 2015 15:50:28 -0800 (PST)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [2607:f8b0:400d:c09::248])
+        by domain.com with ESMTPS id s104si15964840qgd.51.2016.02.06.15.50.28
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 06 Feb 2015 15:50:28 -0800 (PST)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400d:c09::248 as permitted sender) client-ip=2607:f8b0:400d:c09::248;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2607:f8b0:400d:c09::248 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qk0-domain.com with SMTP id e124sf132665000qkc.3
+        for <user@domain.com>; Sat, 06 Feb 2015 15:50:28 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:date:From: "'Mandy Grunwald' via Speech Drafts" <speechdrafts@hillaryclinton.com>
+         :content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-unsubscribe:reply-to;
+        bh=9jsfhgJRmfwd363VZ9PakSBOfTlSAR+ybpwxyGFFe+c=;
+        b=A4zo1rWzEoJWalGTwk4lbUj1X6Zt5DA9jJuqIPLZ+0glO0bXwva/wXno4IuX5ejzfW
+         JjZrD4UEo77Ic0jme89GobMNaXTqEBDJ9TZdNv37dro235qe3z+OhdPCNxwm+GwP2Iwf
+         NzLEqLH/anNkE5y89fMet0VekgIiahpNcOFaM
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:date:From: "'Mandy Grunwald' via Speech Drafts" <speechdrafts@hillaryclinton.com>
+         :subject:mime-version:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe:reply-to;
+        bh=9jsfhgJRmfwd363VZ9PakSBOfTlSAR+ybpwxyGFFe+c=;
+        b=VkCh2m/FmEgGkQeqEt1J7iyulVYfKPKKKQfEXH2KEabNAhqOpAp/0gnfPTSyO61Myq
+         YGbbD/g16skIdtVClT7RFhnMVcDHjOmRPk+ICI6GNTlM+eIwIF/pif1tTbx7wu1p0YPX
+         ppZl2gey6OkkRvWpnYDDNddqVFYyhv94nNplE+7xBtJz9sVT98fRWzHPOP5dQvv//29C
+         9T6BtXFhi72zRJBQFH8jMTwfTjxq7iHmUzPOD8aW7g6s98cIx1z7AiXZ8eBVPvJLPujm
+         MLSylswKq/+jko71ZVTGK+7dY4I50uGt3qmRYRJNaCAbs1oscIzb7e6N2k7XH9HbEHej
+         l9Lg
+Sender: user@domain.com
+X-Gm-Message-State: AG10YOS4JYWz/okCLmc6Qj1Od3/wYroOIpTJrwOK2wid3GjM4LYAd/zGBD1T9MfdVcXkPkzv
+X-Received: by 10.129.156.66 with SMTP id t63mr19915897ywg.38.1454802628231;
+        Sat, 06 Feb 2015 15:50:28 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.140.46.73 with SMTP id j67ls1902470qga.13.gmail; Sat, 06 Feb
+ 2015 15:50:27 -0800 (PST)
+X-Received: by 10.140.156.212 with SMTP id c203mr27345979qhc.96.1454802627794;
+        Sat, 06 Feb 2015 15:50:27 -0800 (PST)
+Received: from omr-domain.com (omr-domain.com. [204.29.186.7])
+        by domain.com with ESMTPS id u5si23701020qhu.25.2016.02.06.15.50.27
+        for <user@domain.com>
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Sat, 06 Feb 2015 15:50:27 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 204.29.186.7 as permitted sender) client-ip=204.29.186.7;
+Received: from mtaomg-domain.com (mtaomg-domain.com [172.26.253.80])
+	by omr-domain.com (Outbound Mail Relay) with ESMTP id 90C26380009D;
+	Sat,  6 Feb 2015 18:50:27 -0500 (EST)
+Received: from core-domain.com (core-domain.com [172.27.61.1])
+	by mtaomg-domain.com (OMAG/Core Interface) with ESMTP id 308BB38000082;
+	Sat,  6 Feb 2015 18:50:27 -0500 (EST)
+Received: from 73.200.105.233 by webprd-domain.com (10.72.57.67) with HTTP (WebMailUI); Sat, 06 Feb 2015 18:50:27 -0500
+Date: Sat, 6 Feb 2015 18:50:27 -0500
+From: "'Mandy Grunwald' via Speech Drafts" <speechdrafts@hillaryclinton.com>
+To: user@domain.com, user@domain.com, 
+ user@domain.com
+CC: user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com
+Message-Id: <152user@domain.com>
+In-Reply-To: <1user@domain.com>
+Subject: Re: DRAFT: Remarks for Flint events
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_7912_1124311899.1454802627032"
+X-MB-Message-Source: WebUI
+X-MB-Message-Type: User
+X-Mailer: JAS STD
+X-Originating-IP: [73.200.105.233]
+x-aol-global-disposition: G
+x-aol-sid: 3039ac1afd5056b686c3243c
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 204.29.186.7 as permitted sender)
+ user@domain.com;       dkim=pass user@domain.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+X-Original-From: "'Mandy Grunwald' via Speech Drafts" <speechdrafts@hillaryclinton.com>
+Reply-To: Mandy Grunwald <user@domain.com>
+
+Two questions for the group.
+
+Is it a good time to say something tougher about the Governor? 
+
+Is it over the top to say this:
+
+=C2=B7     =E2=80=A6.if what happened in Flint hadhappened in Grosse Pointe
+, or in Bloomfield Hills, I think we all know that wewould have had a solut
+ion yesterday.  They would have been trucking in Perrier by the caseload an
+d laying miles of copperpipes.
+
+Mandy Grunwald
+Grunwald Communications
+
+202-973-9400
+
+-----Original Message-----
+From: "'Mandy Grunwald' via Speech Drafts" <speechdrafts@hillaryclinton.com>
+To: Kristina Costa <user@domain.com>; Speech Drafts <speechdrafts
+@hillaryclinton.com>
+Cc: LaDavia Drane <user@domain.com>; Amanda Renteria <user@domain.com
+domain.com>; Xochitl Hinojosa <user@domain.com>; Mike S
+chmidt <user@domain.com>; Ann O'Leary <user@domain.com
+om>; Maya Harris <user@domain.com>
+Sent: Sat, Feb 6, 2015 6:16 pm
+Subject: RE: DRAFT: Remarks for Flint events
+
+Electeds --- only major change is in last graph to bring together people of
+ Flint and the people in the room.
+
+From: "'Mandy Grunwald' via Speech Drafts" <speechdrafts@hillaryclinton.com>
+om]On Behalf Of Kristina Costa
+Sent: Saturday, February 06, 2015 5:46 PM
+To: Speech Drafts
+Cc: LaDavia Drane; Amanda Renteria; Xochitl Hinojosa; Mike Schmidt; Ann O'L
+eary; Maya Harris
+Subject: DRAFT: Remarks for Flint events
+
+Attached are draft bullets for the two Flint events tomorrow =E2=80=93 one 
+set for the church, which incorporates high-level feedback from Dan, and on
+e short page of TPs for the top of the meeting with the mayor. These track 
+guidance from the mayor=E2=80=99s office, the MI delegation, and folks who 
+have been involved in the response.
+
+As I understand it, the format of the community event in the church is stil
+l in flux. It is possible the QA in the middle will be dropped in favor of 
+testimonials before HRC speaks. Will adjust the final accordingly.
+
+Still waiting for word from political on who she should thank/acknowledge a
+t top, so please let me know that ASAP as well.
+
+Thanks all,
+
+Kristina
+

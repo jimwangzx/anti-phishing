@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.31 with SMTP id o31csp1892396lfi;
+        Mon, 16 Feb 2015 19:12:23 -0800 (PST)
+X-Received: by 10.140.109.55 with SMTP id k52mr442761qgf.99.1424142743004;
+        Mon, 16 Feb 2015 19:12:23 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qc0-domain.com (mail-qc0-domain.com. [2607:f8b0:400d:c01::22f])
+        by domain.com with ESMTPS id w102si16528168qgd.53.2015.02.16.19.12.22
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 16 Feb 2015 19:12:22 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22f as permitted sender) client-ip=2607:f8b0:400d:c01::22f;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22f as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qc0-domain.com with SMTP id b13so21055909qcw.6;
+        Mon, 16 Feb 2015 19:12:22 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date:message-id:subject
+         :From: Robert Mook <robbymook2015@gmail.com>
+        bh=w837lJj9ilb9WMi+C2XqWdbG1fLpcTUX4vP9SOlqRPI=;
+        b=UH0vE5C8NJBVBm97zVj5nMEDANOUR1Vf6guNApenF6jVg0iv1lDzaEokGUwKcQIntK
+         5t/B3yJQqltan7AK9F4h4lyOfzrZ7J2wuB4xjOlaNbwdR2wJ5x4xgfDKcXCKtwbgFnzk
+         NA+TO+b/GnmwkchZvh+NtQiiB81V1WEwd+TqfNUQbPRYiY55EsUb5ErQVQmHwzSbpzAR
+         /lDH6kiSFganR2O1f2Pc8InQ85lFkbeFzJvosgQv0sRaYNk11jsrGKxpsPGMKjJ3yQ3v
+         4carxBnIcawSu1zI0Rpc7Bno+IP83jIHVheiqFX/ZqlDiD+DYV87fmTrrf9LsmpeKDMp
+         Pj7A
+MIME-Version: 1.0
+X-Received: by 10.140.235.197 with SMTP id g188mr376968qhc.86.1424142742189;
+ Mon, 16 Feb 2015 19:12:22 -0800 (PST)
+Sender: user@domain.com
+Received: by 10.96.32.164 with HTTP; Mon, 16 Feb 2015 19:12:22 -0800 (PST)
+In-Reply-To: <CALk44aB7hn50y5jF6uM2VqzR-Hhz97cC6UMNpYCpw5GA+mb+user@domain.com>
+References: <CADRr0XA3e9yUM0cKpxiUKpM1bWECmLCb0=ZLWQxFuYh_+user@domain.com>
+	<CALk44aB7hn50y5jF6uM2VqzR-Hhz97cC6UMNpYCpw5GA+mb+user@domain.com>
+Date: Mon, 16 Feb 2015 22:12:22 -0500
+X-Google-Sender-Auth: dbAOguHHynC_8-F0Ba--eobJHFE
+Message-ID: <CA+NiFyPZPxxVJKeRjXa57fmCJkVk86dt5hLR1kh8KN-2t+user@domain.com>
+Subject: Re: Following up Re: Predictive Analytics for Political Campaigns:
+ Introduction to QuantiFind.
+From: Robert Mook <robbymook2015@gmail.com>
+To: Cheryl Mills <user@domain.com>, 
+ Elan Kriegel <user@domain.com>
+CC: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11357ace41fb79050f4012ff
+
+Adding Elan who is interested in reaching out but was waiting until we're a
+bit farther along on our end (our analytics needs are fairly simple for the
+first few months).  If we need to reach out sooner for politics, I'm sure
+we can do that.  Elan?
+
+On Mon, Feb 16, 2015 at 10:08 PM, Cheryl Mills <user@domain.com>

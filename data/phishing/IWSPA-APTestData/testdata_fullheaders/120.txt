@@ -1,0 +1,107 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp352379lfb;
+        Mon, 20 Oct 2015 14:06:36 -0700 (PDT)
+X-Received: by 10.70.100.6 with SMTP id eu6mr10948046pdb.120.1413839195692;
+        Mon, 20 Oct 2015 14:06:35 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.254.97])
+        by domain.com with ESMTPS id qe5si9046952pdb.2.2014.10.20.14.06.34
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Mon, 20 Oct 2015 14:06:35 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.254.97;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.254.83:34581] by server-1.bemta-7.domain.com id 7A/71-12534-D3975445; Mon, 20 Oct 2015 21:06:05 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-6.tower-197.domain.com!1413839162!5376306!2
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 16237 invoked from network); 20 Oct 2015 21:06:04 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-6.tower-197.domain.com with AES128-SHA encrypted SMTP; 20 Oct 2015 21:06:04 -0000
+Resent-From: "Abby, Project On Government Oversight" <aevans@pogo.org>
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.181.6; Mon, 20 Oct 2015 17:06:02 -0400
+Received: from [216.82.249.179:9198] by server-12.bemta-12.domain.com id
+ 32/7D-09687-93975445; Mon, 20 Oct 2015 21:06:01 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-3.tower-44.domain.com!1413839159!7184128!1
+X-Originating-IP: [69.48.252.164]
+X-SpamReason: No, hits=0.0 required=7.0 tests=sa_preprocessor: 
+  VHJ1c3RlZCBJUDogNjkuNDguMjUyLjE2NCA9PiA2OTk0NTA=\n
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.2; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 9754 invoked from network); 20 Oct 2015 21:05:59 -0000
+Received: from mta-domain.com (HELO
+ mta-domain.com) (69.48.252.164)  by
+ server-3.tower-44.domain.com with SMTP; 20 Oct 2015 21:05:59 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=selector1; d=mta-domain.com;
+ h=Message-ID:Date:From: "Abby, Project On Government Oversight" <aevans@pogo.org>
+ bh=g/83vjbId837LTQA5H1ymaTWqZU=;
+ b=FP1qCnhLkigB+OnMOv7GJRR88WsbScI6gkS0IIFnyspZB/LfzcHoS/FPsqaDOBLZL2tVB8lfYuv6
+   4dGf7azY4beDHFgBuOSLQ6vzLKQ9rO6syagltIa2zIDKG1QaQ0Ii+WOMatdOMLXsT5LT7YJJc+m6
+   FmxTeae48pR3gK0EWf8
+Received: from 10.0.31.216 (10.0.31.71) by mta-domain.com id
+ h8lsje1arf0i for <user@domain.com>; Mon, 20 Oct 2015 16:05:59
+ -0500 (envelope-from
+ <user@domain.com>)
+Message-ID: <1058854030.1413839159424.user@domain.com>
+Date: Mon, 20 Oct 2015 16:05:39 -0500
+From: "Abby, Project On Government Oversight" <aevans@pogo.org>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: John, will I see you Thursday night?
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_16675939_1921475137.1413839159424"
+Organization: Project On Government Oversight
+X-campaignid: Convio-poolb-pogo-20541
+X-Gateway: c3poolb1
+XData: 1010,4949E9M@4user@domain.com@i-Wwjq-e
+X-ConvioDeliveryGroup: poolb
+
+<<link>>
+
+Dear John,
+
+Will I see you on Thursday at our Beth Daley Night Fundraiser? I hope so!
+=A0
+
+It's going to be a fantastic night of cocktails, casino games and food at o
+ne of the best speakeasies in D.C.
+
+Buy your tickets here!
+<<link>>
+
+Remember: Proceeds will go towards the Beth Daley Impact Fund, which is an 
+annual fellowship meant to help train the next generation of government wat
+chdogs who believe as you do in transparency, accountability, and oversight
+.
+
+When:=A0October 23, 2014, from 6 p.m. to 9 p.m.
+Where:=A0Harold Black, a speakeasy above the restaurant=A0Aqua Al 2.
+Dress:=A0Roaring '20s theme encouraged, but not required.
+Tickets are $100.=A0Your ticket will give you one cocktail voucher, $10 in 
+funny money to start you off, and great food to keep you going. Your ticket
+s will be available at the door. You can buy tickets by clicking here. http
+://getinvolved.pogo.org/site/R?i=3DJwHzfrG0byg7YHxEyIRrXg
+
+Let me know if you have any questions. I'd love to see you there.=A0
+
+Best,
+Abby Evans
+Donor Relations Manager
+
+<<link>>
+
+To Unsubscribe Click Here
+<<link>>
+d=3D1061
+

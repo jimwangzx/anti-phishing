@@ -1,0 +1,208 @@
+Delivered-To: user@domain.com
+Received: by 10.220.92.200 with SMTP id s8cs100088vcm;
+        Thu, 8 Oct 2015 14:11:08 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.220.16.211 as permitted sender) client-ip=10.220.16.211;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.220.16.211 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.220.16.211])
+        by 10.220.16.211 with SMTP id p19mr2950440vca.26.1255036267301 (num_hops = 1);
+        Thu, 08 Oct 2015 14:11:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received:received-spf:x-asg-debug-id
+         :x-barracuda-url:received:received:x-barracuda-envelope-from
+         :x-asg-whitelist:received:From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+         :thread-topic:thread-index:message-id:accept-language
+         :content-language:x-ms-has-attach:x-ms-tnef-correlator
+         :acceptlanguage:mime-version:content-type:x-barracuda-connect
+         :x-barracuda-start-time:x-barracuda-encrypted
+         :x-barracuda-virus-scanned:reply-to:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        bh=ljPEcaSCtd1jURO7pzyilEOlvI3K6glI4btJ1peOVEk=;
+        b=jGWGcvjWgSJWayBbivsZ0vVYoGdFTmlPv3BnUzTekPv2H8Smc0BvsT3T7Pa38lhu2J
+         1gaoIgFjUeamAqx25ylQyu9Fbo5jtdiTnuCQVYRTZLzx6/D1WI842ITnKEgl4A3u/UxR
+         UQtx1Dg9rpA06rXuffh5TZ9D5wzIcEjG9P+7s
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :x-asg-debug-id:x-barracuda-url:x-barracuda-envelope-from
+         :x-asg-whitelist:From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+         :thread-index:message-id:accept-language:content-language
+         :x-ms-has-attach:x-ms-tnef-correlator:acceptlanguage:mime-version
+         :content-type:x-barracuda-connect:x-barracuda-start-time
+         :x-barracuda-encrypted:x-barracuda-virus-scanned:reply-to:sender
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=EIhr905cMyfh90Yuzk5/km8l2dHmVXOMvlqd2yo0fNQl7JLXAA4eV9XXeSy1kRsYOI
+         QFrBRVKdX0Jay5o73Q00fdaRxTCxSKkrjw81aYlVkGLE3V+cGJtQ/5aGBA0tnVrq+736
+         qVy1fAJWig20J6qwVZKq8xb5EoXIQRNOztVYY
+Received: by 10.220.16.211 with SMTP id p19mr273172vca.26.1255036260542;
+        Thu, 08 Oct 2015 14:11:00 -0700 (PDT)
+Received: by 10.230.12.222 with SMTP id y30gr3537vby.0;
+	Thu, 08 Oct 2015 14:10:57 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.220.102.212 with SMTP id h20mr788790vco.27.1255036254742; Thu, 08 Oct 2015 14:10:54 -0700 (PDT)
+Received: by 10.220.102.212 with SMTP id h20mr788789vco.27.1255036254604; Thu, 08 Oct 2015 14:10:54 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com [76.74.8.245]) by gmr-domain.com with ESMTP id 23si27498vws.2.2009.10.08.14.10.54; Thu, 08 Oct 2015 14:10:54 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 76.74.8.245 as permitted sender) client-ip=76.74.8.245;
+Authentication-Results: gmr-domain.com; spf=pass (domain.com: domain of user@domain.com designates 76.74.8.245 as permitted sender) user@domain.com
+X-ASG-Debug-ID: 1255036253-76a8026d0000-QLVFix
+X-Barracuda-URL: <<link>>:8000/cgi-bin/mark.cgi
+Received: from domain.com (localhost [127.0.0.1]) by domain.com (Spam & Virus Firewall) with ESMTP id E9126393349 for <user@domain.com>; Thu,  8 Oct 2015 17:10:53 -0400 (EDT)
+Received: from domain.com ([172.16.10.1]) by domain.com with ESMTP id wkPPEmI2NNIGjI0l (version=TLSv1 cipher=RC4-MD5 bits=128 verify=NO) for <user@domain.com>; Thu, 08 Oct 2015 17:10:53 -0400 (EDT)
+X-Barracuda-Envelope-From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+X-ASG-Whitelist: Client
+Received: from domain.com ([172.16.10.18]) by domain.com ([172.16.10.19]) with mapi; Thu, 8 Oct 2015 17:10:53 -0400
+From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+To: "User" <user@domain.com>
+Date: Thu, 8 Oct 2015 17:10:53 -0400
+X-ASG-Orig-Subj: FW: The Conservative Response to Our Health Care Crisis: 37 Bills, No Solutions
+Subject: [big campaign] FW: The Conservative Response to Our Health Care
+ Crisis: 37 Bills, No Solutions
+Thread-Topic: The Conservative Response to Our Health Care Crisis: 37 Bills, No Solutions
+Thread-Index: AcpILUcJ3uw11fMJTvyZ9m7hlCsFjQAAO3RgAAs+fBAAACQ0wA
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="_000_A28459BA2B4D5D49BED0238513058A7F012730B272EFCAPMAILBOXa_"
+X-Barracuda-Connect: UNKNOWN[172.16.10.1]
+X-Barracuda-Start-Time: 1255036253
+X-Barracuda-Encrypted: RC4-MD5
+X-Barracuda-Virus-Scanned: by Barracuda Spam & Virus Firewall at domain.com
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+Wanted to make sure you all had our new anaylsis of the 37 bill that House 
+GOPers claim constitute an "alternative"...
+
+________________________________
+From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+Sent: Thursday, October 08, 2015 11:38 AM
+To: Jason Rahlan
+Subject: The Conservative Response to Our Health Care Crisis: 37 Bills, No 
+Solutions
+
+[<<link>>
+]<<<link>>>
+
+For Immediate Release
+October 8, 2015 
+
+Contact
+Jason Rahlan, 202.481.8132
+user@domain.com<mailto:user@domain.com>
+
+The Conservative Response to Our Health Care Crisis: 37 Bills, No Solutions
+
+A new analysis from the Center for American Progress Action Fund shows that
+ in reality, the 37 bills that conservatives in the House of Representative
+s point to as their alternatives for fixing our nation's broken health care
+ system add up to very little, as far as actual solutions are concerned.
+
+Please find a summary of the findings below. A chart examining each of the 
+37 bills can be found here<<<link>>
+9/10/republicans_health_solutions.html>.
+
+The Conservative Response to Our Health Care Crisis: 37 Bills, No Solutions
+
+October 8, 2015 
+
+CAP Action's scrutiny of the 37 bills that Republicans waved at President B
+arack Obama during his recent speech on health care reform to the joint ses
+sion of the Congress show that Republicans are being disingenuous about bot
+h the scope of these so-called solutions and the fact that they have not be
+en considered by the Democratic leadership. These bills were put together b
+y the Republican Study Committee under the title "Health Care Solutions by 
+RSC Members."
+
+Our analysis of these bills shows:
+
+ *   There is a paucity of new ideas and solutions for health care reform i
+n the Republican camp. Many of these bills echo only a few themes-medical l
+iability and tax cuts, for example-and five of them are reworkings of McCai
+n election proposals, which were rejected by the majority of American voter
+s.
+ *   A small number of smart ideas proposed by Republicans (eight) have bee
+n incorporated into the House and Senate bills.
+ *   Some of these bills (five) lie outside of the jurisdiction of committe
+es that have reported bills, and since no bill has yet come to the House fl
+oor there has been no opportunity for their consideration or inclusion in t
+he reform legislation. In these cases, claiming that House Speaker Nancy Pe
+losi and the Democratic majority have not considered these bills in committ
+ee or on the House floor fails to recognize the procedural rules of the Hou
+se.
+ *   Only five amendments relating to these bills were offered during marku
+p of the bills that do lie within the jurisdiction of the House committees 
+that have reported out H.R. 3200. The obvious explanation is that Republica
+ns don't really care whether these bills are enacted or not.
+ *   In 18 cases there were opportunities for these legislative provisions 
+to be included in other more appropriate legislative vehicles that have mov
+ed through the House, and Republicans have not worked to make this happen.
+ *   A number of these bills (five) have been around since the 106th Congre
+ss-over a decade ago-so claiming that Speaker Pelosi is responsible for fai
+lure to ensure their consideration ignores the fact that the House was cont
+rolled by Republicans for the major part of that time.
+ *   Nine bills were introduced after July 1, so it's unreasonable to expec
+t their inclusion in legislative packages that were already being written a
+t that time.
+ *   Thirteen bills have no or only one cosponsor, so we assume they have l
+ittle Republican support.
+
+All in all it's a bit rich for Republicans to claim they have solutions and
+ that these solutions have been ignored by the Democrats. It takes more tha
+n a few sentences of legislative language on paper waved rudely at the pres
+ident to tackle
+
+View the full analysis of the 37 Republican Study Committee health bills<ht
+tp://www.americanprogressaction.org/issues/2009/10/republicans_health_solut
+ions.html>
+
+###
+
+The Center for American Progress Action Fund<<<link>>
+domain.com/> is the sister advocacy organization of the Center for American Pr
+ogress<<<link>>>. The Action Fund transforms progre
+ssive ideas into policy through rapid response communications, legislative 
+action, grassroots organizing and advocacy, and partnerships with other pro
+gressive leaders throughout the country and the world. The Action Fund is a
+lso the home of the Progress Report.
+
+If you would rather not receive future communications from Center for Ameri
+can Progress Action Fund, let us know by clicking here.<<<link>>
+domain.com/OptOut.aspx?513917x24389x0x1x0x24000x6&Email=3DJRahlan%40america
+domain.com>
+Center for American Progress Action Fund, 1333 H St. NW, Washington, DC 200
+05-4707 United States
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

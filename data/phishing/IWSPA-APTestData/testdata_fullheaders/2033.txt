@@ -1,0 +1,75 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp856484lfb;
+        Tue, 2 Feb 2015 11:08:39 -0800 (PST)
+X-Received: by 10.55.76.84 with SMTP id z81mr36485717qka.17.1454440119406;
+        Tue, 02 Feb 2015 11:08:39 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [2607:f8b0:400d:c09::22a])
+        by domain.com with ESMTPS id 107si56102qgx.12.2016.02.02.11.08.39
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 02 Feb 2015 11:08:39 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c09::22a as permitted sender) client-ip=2607:f8b0:400d:c09::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c09::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qk0-domain.com with SMTP id x1so62290595qkc.1
+        for <user@domain.com>; Tue, 02 Feb 2015 11:08:39 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+         :cc:content-type;
+        bh=NF5crwx6GL21LtXYWA07VkH2oRTi1Db4zYdXPpob0oM=;
+        b=GWR6TaadPssevXxreQcHJmdeCw+ig16n2XApDIU4u6EPIftpFTqVWJEB+ak6S7nIZg
+         un9giDkjQakEsy2lRUJwRSvx62L8DBdkVKmN/XjXuxhFJnnyOD3/Sn9mfWxDVma+jIcD
+         d1oxjDt/WPFPnBEar6CKKfT0c/47lHl0zu6yU
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=NF5crwx6GL21LtXYWA07VkH2oRTi1Db4zYdXPpob0oM=;
+        b=EyT+5qoVihoy4JxjWxaZhWi2luWJgnXajmcAch01IhbaH5220bQzlTQP0zNwDqwtwc
+         qwl9bFseLX62gdbDXrIFvIGVQIgqk9uQUUVPJuV4I3ned4dsqgN2MDI8Oz/ILuY4nCic
+         9GegOg0dRcl/jCTsuh9bK4B4x0X2DKils6pUGWOj7NYjsrjLDE75/7wTXXOX2/7ZreAh
+         FSH6m5ApHnnGjZgw9oi0sFfUU67WzC+7vzvSRbAXWRuO9lIWHGHUCIIQl5klpV3G5Jdm
+         ZUliFxCgtPmocj2MJk/FtrvqHMS7G7V8EQKRg204SSaLuX2sQc/IETsezR8Ff7GPfI4t
+         t9kw
+X-Gm-Message-State: AG10YOSe47zTrqv1R6d6+wuAZg1DGNyzcJrsDVFIqFvtrCOvj0KOrkyG14jUq9c8bj+bbQSABVXhQnpgGMjKUb3B
+X-Received: by 10.55.73.68 with SMTP id w65mr36574897qka.68.1454440118993;
+ Tue, 02 Feb 2015 11:08:38 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.55.129.65 with HTTP; Tue, 2 Feb 2015 11:08:19 -0800 (PST)
+In-Reply-To: <3462545972176810533@unknownmsgid>
+References: <-8071428915050625460@unknownmsgid> <user@domain.com>
+ <3462545972176810533@unknownmsgid>
+From: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+Date: Tue, 2 Feb 2015 14:08:19 -0500
+Message-ID: <CA+Z3wa36Qe0B-uZNtHc_x0UG+user@domain.com>
+Subject: Re: CALL REQ: Labor political directors call
+To: Sara Latham <user@domain.com>
+CC: Milia Fisher <user@domain.com>, 
+ John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a114a6c20a3e87a052ace3a03
+
+Here is some additional background too on why I was requesting a separate
+labor call....
+
+1.  Give John a opportunity to say thank you directly to national labor
+political directors for Iowa.  There are domain.com polls showing that their work
+made a (the) difference.  21% of union householders made up the Iowa
+electorate, and they voted for HRC over Sanders by 9 points.  If the voter
+did not come from a union household, HRC beat Sanders by 1 point.  This is
+big deal, and demonstrates their program.
+
+<<link>>
+
+2.  I have A LOT of NH asks for labor.  I can walk thru those and having
+John on the call helps give the call muscle and urgency.
+
+Both of these things would be really helpful and is the reasoning for my
+separate call ask.
+
+Let me know what you think!  Thanks!!!
+
+On Tue, Feb 2, 2015 at 1:33 PM, Nikki Budzinski <

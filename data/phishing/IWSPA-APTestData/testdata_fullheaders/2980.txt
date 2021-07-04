@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.204.162.79 with SMTP id u15csp258604bkx;
+        Wed, 8 Jan 2015 05:20:06 -0800 (PST)
+X-Received: by 10.49.94.212 with SMTP id de20mr210817481qeb.51.1389187205374;
+        Wed, 08 Jan 2015 05:20:05 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-qc0-domain.com (mail-qc0-domain.com [2607:f8b0:400d:c01::22a])
+        by domain.com with ESMTPS id l8si963455qey.104.2014.01.08.05.20.04
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 08 Jan 2015 05:20:05 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22a as permitted sender) client-ip=2607:f8b0:400d:c01::22a;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c01::22a as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-qc0-domain.com with SMTP id e9so1238498qcy.29
+        for <user@domain.com>; Wed, 08 Jan 2015 05:20:04 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Marc Schloss <marcschloss@gmail.com>
+         :message-id:date:to;
+        bh=h/AnVT+P8MAzOnQfY+SGOM2wcpSGXD1afzbrfhs1Pwk=;
+        b=z1azIkXuku5k8mkVj96/ZtQI+II9UjS1iBYrjsb6wwROkk5B6+iX94wEIH1t8wrDxp
+         3uBuVYL5FIllgxH66U81iDUT/+CbrvB3vRrFdJ7Qg5AsSuNbidqYq33c200zLbt5NxEE
+         k7S55K52DN1g4wddA+6VZVoY8Kz3H+B9dhO5u8Gg6I9fkLRHjNaoEGxLGwI/s8S1NTpe
+         8RWaifJiAuiZgWDz6k/KzDov83Bugk8ProALOJAplU1FMXZsuIZzN9pApixCLOkIX9f1
+         94bLYmnn5fSyj0hBsuNlCkkaWP2WtdEWk/jumWzb7aMKboqlDFVZXe3r1imzDV9tc1C7
+         fXGg
+X-Received: by 10.49.3.72 with SMTP id a8mr11172379qea.41.1389187204864;
+        Wed, 08 Jan 2015 05:20:04 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from ?IPv6:2600:1003:b02e:1f5e:54b2:2b88:fd72:aab4? ([2600:1003:b02e:1f5e:54b2:2b88:fd72:aab4])
+        by domain.com with ESMTPSA id f10sm1078634qej.1.2014.01.08.05.20.01
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 08 Jan 2015 05:20:02 -0800 (PST)
+From: Marc Schloss <marcschloss@gmail.com>
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Mime-Version: 1.0 (1.0)
+Subject: Happy Birthday! 
+Message-Id: <user@domain.com>
+Date: Wed, 8 Jan 2015 08:20:00 -0500
+To: "User" <user@domain.com>
+X-Mailer: iPhone Mail (11B554a)
+
+Happy Birthday John!
+
+Hope you have a great day and best of luck in your new role in the White Hou
+se!
+
+Best wishes,
+
+Marc Schloss

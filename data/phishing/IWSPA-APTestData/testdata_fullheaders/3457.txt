@@ -1,0 +1,285 @@
+Delivered-To: user@domain.com
+Received: by 10.220.75.4 with SMTP id w4cs254305vcj;
+        Sun, 19 Jul 2015 21:22:17 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.150.140.6 as permitted sender) client-ip=10.150.140.6;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.150.140.6 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.150.140.6])
+        by 10.150.140.6 with SMTP id n6mr7040004ybd.7.1248063736382 (num_hops = 1);
+        Sun, 19 Jul 2015 21:22:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:From: Creamer2@aol.com
+         :x-mailer:x-spam-flag:x-aol-ip:reply-to:sender:precedence
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=8EQ3+VtjdfGcci5lByW4i3uOyzaVtz905673UA4ygBw=;
+        b=n8Y1JAG4QPdOY+qnSwaJsQx21JY6RKk+qNe4YX+kYrqwrERomIZuXRtIEZoDbn2ItN
+         53M+UYKvIQu80NXiLCAmwVpvg37Zyn3VMiG10MtCKCU2eV6CjDCTV9c8K+DaYfzb4qxa
+         za8I0CYqpiS2rhDXEXjwA//ThJUZWSnBOtSjA
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results:from
+         :message-id:date:subject:to:mime-version:content-type:x-mailer
+         :x-spam-flag:x-aol-ip:reply-to:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=zCgkg3ygAXDpkY0SVXK2lilMSEGgEDlUTMoThHhDxN9z0TUQZCSInJ+2V+Ht3ua3AQ
+         C6M7l0LERMhZzvz5fxQzhfm8kBKytKENzMFTFi5IrjQJ3zIuxZF4BeI4wyDzqDcIFQh7
+         KG0onp++dsFMGMN23vy4+e0ABouzQLpDrMtwc
+Received: by 10.150.140.6 with SMTP id n6mr1050473ybd.7.1248063725364;
+        Sun, 19 Jul 2015 21:22:05 -0700 (PDT)
+Received: by 10.177.124.26 with SMTP id b26gr3306yqn.0;
+	Sun, 19 Jul 2015 21:21:56 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.229.85.15 with SMTP id m15mr537703qcl.6.1248063715468; Sun, 19 Jul 2015 21:21:55 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from imr-m07.mx.aol.com (imr-m07.mx.aol.com [64.12.138.209]) by gmr-domain.com with ESMTP id 22si310778qyk.6.2009.07.19.21.21.55; Sun, 19 Jul 2015 21:21:55 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.12.138.209 as permitted sender) client-ip=64.12.138.209;
+Authentication-Results: gmr-domain.com; spf=pass (domain.com: domain of user@domain.com designates 64.12.138.209 as permitted sender) user@domain.com
+Received: from  imo-ma04.mx.aol.com (imo-ma04.mx.aol.com [64.12.78.139]) by imr-m07.mx.aol.com (v107.10) with ESMTP id RELAYIN2-34a63f0aad7; Mon, 20 Jul 2015 00:20:58 -0400
+Received: from user@domain.com by imo-ma04.mx.aol.com  (mail_out_v40_r1.5.) id r.c47.5edf03bd (39955); Mon, 20 Jul 2015 00:21:22 -0400 (EDT)
+From: Creamer2@aol.com
+Message-ID: <user@domain.com>
+Date: Mon, 20 Jul 2015 00:21:22 EDT
+Subject: [big campaign] New Huff Post from Creamer -- Don't be on the Wrong
+ Side of History
+To: user@domain.com, user@domain.com
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="-----------------------------1248063681"
+X-Mailer: AOL 9.1 sub 5006
+X-Spam-Flag: NO
+X-AOL-IP: 64.12.78.139
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+Memo to Members of Congress: Don=E2=80=99t Be on the Wrong Side  of History
+
+Today it would be hard to find one member of Congress who openly  advocates
+
+the abolition of Medicare or Social Security.  It=E2=80=99s true that durin
+g the
+Bush  Presidency right-wing Republicans tried to weaken, dilute and privati
+ze 
+both.  But their proposals were  always passed off as attempts to =E2=80=9C
+strengthen=E2=80=9D these programs that have become  two of the most popula
+r and widely
+respected institutions of  government.
+Of course it wasn=E2=80=99t always so.  Both Social Security and Medicare w
+ere
+incredibly controversial when they  were passed =E2=80=93 the first in 1937
+ and the
+second in 1964. In fact, their opponents  sounded very much like today=E2
+=80=99s
+Republicans as they denounced them for being =E2=80=9Cbig  government takeo
+vers=E2=80=9D =E2=80=93 or, in
+the case of Medicare, =E2=80=9Csocialized  medicine.=E2=80=9D
+But it wasn=E2=80=99t long after they were enacted that Social Security and
+
+
+
+Medicare became =E2=80=9Cthird rails=E2=80=9D in American politics.  Former
+ Senator Bob Dole once
+made a  speech where he said: =E2=80=9CI was there, fighting against Medica
+re.=E2=80=9D 
+The TV spot reprising that speech during  his 1996 campaign against Bill
+Clinton helped seal Dole=E2=80=99s defeat. 
+The view shared by most Americans =E2=80=93 and all senior citizens =E2=80
+=93 was summed 
+up in the slogan for the 2015 campaign to defeat Bush=E2=80=99s privatizati
+on
+program:  =E2=80=9CHands off my Social Security.=E2=80=9D
+No one brags that their father or grandfather lead the fight to oppose 
+Social Security or Medicare =E2=80=93 any more than they brag that their fo
+rbearer lead
+ the fight against civil rights.  But  of course in the 1960=E2=80=99s, civ
+il
+rights did not have the universal acclaim it has  today.  
+Dr. Martin Luther King, Jr. had many detractors who thought his agitation 
+
+for justice was downright subversive. Others thought that he wanted to move
+
+too  fast. That extended to the Pastors =E2=80=93 many men of good will =E2
+=80=93 who asked
+him to  call off his protests in Birmingham, Alabama in 1963.  It was to
+those Pastors that he wrote  his famous letter from the Birmingham jail: 
+=E2=80=9CWhy
+We Can=E2=80=99t domain.com.=E2=80=9D  
+In 1963 most people would not have dreamed that just a few decades hence, 
+
+a national holiday would be named after the young organizer and agitator,
+
+Martin  Luther King. 
+Every major social advance is  surrounded by controversy and conflict.  Tha
+t
+=E2=80=99s because every time there is change in the status quo there are  
+winners
+and losers.  The controversy  over President Obama=E2=80=99s health care re
+form does
+not center mainly on =E2=80=9Cdifferences  in approach=E2=80=9D or academic
+ disagreements
+over the way that health care systems  should be designed in some ideal
+world.  They center instead on battles over wealth and power =E2=80=93 just
+ as they did 
+when the Congress created Social Security or Medicare, or passed the Civil 
+
+Rights Act of 1964.  
+That=E2=80=99s why the 19th Century abolitionist leader Frederick  Douglass
+ was
+right: =E2=80=9CYou can=E2=80=99t have the rain without the thunder and lig
+htning,=E2=80=9D  he said. 
+Of course Douglass was  referring to the granddaddy of all major social
+change in our history -- the end  of slavery. That required a horrific civi
+l
+war.  
+Health care reform involves one out of every six dollars spent in  America
+
+today.  It involves the jobs and livelihoods of  millions of people and the
+
+fortunes of huge corporations. Of course change in the health care system 
+
+is going to be controversial. Luckily it is not controversial with average 
+
+Americans.  On the health care  issue, Democrats =E2=80=93 and the Presiden
+t =E2=80=93 have
+the political high ground.  But that doesn=E2=80=99t mean it isn=E2=80=99t 
+ controversial
+with the insurance companies or with wealthy Americans who may be  asked to
+
+pay a small increase in taxes (bringing their rates to the level they  were
+
+in the Reagan Administration) in order to pay for needed  reform.
+Members of Congress can=E2=80=99t avoid  the controversy.  If they want to,
+  they
+should look for another line of work.  All they can do is hope to be on the
+
+right side of history =E2=80=93 to take  positions that their grandchildren
+ will brag
+about after they are long  gone.  
+All that they can hope =E2=80=93 or any of us can hope =E2=80=93 is that th
+e things we do 
+will stand up to the test of history =E2=80=93 that they will make future
+
+generations  proud. 
+Forty years ago today, for the first time in history, human beings first 
+
+set foot on another celestial object when Neil Armstrong planted his boot
+
+print  on the moon. I was one of the millions of Americans who got up in th
+e
+early  morning hours to witness first-hand the historic event live on
+television. It  was extraordinary =E2=80=93 a phenomenal evolutionary advan
+ce for our
+species =E2=80=93 brought  to us live from outer space. 
+Less than a decade before, another young President challenged American to 
+
+put that man on the moon. John Kennedy=E2=80=99s vision put America in the 
+
+forefront of the technological revolution that created the jobs of the futu
+re -- 
+for a generation of Americans.
+This year, President Obama challenged us again =E2=80=93 to create the jobs
+ of  the
+future for our generation: millions of clean energy jobs. 
+Last month, the House of Representatives voted to meet that challenge =E2
+=80=93 
+passing an energy bill that will finally begin to break our dependence on 
+
+foreign oil and make America a world leader in clean  energy technologies o
+f
+the future.  Now, members of the Senate will have to decide which side of
+
+history they  will be on when it comes to creating a clean energy economy.
+
+In the next two weeks, Members of both the House and Senate will be  called
+
+upon to decide which side of history they will be on when it comes to 
+ending our status as the only nation in the industrial world that does not 
+
+guarantee health care as a human right. 
+The Obama health  care bill is controversial because it will control the
+growth of health care  premiums for American families.  That, in turn, will
+
+take money from the pockets of some of the most  powerful special interests
+ in
+the country =E2=80=93 most notably the insurance  industry.  
+But it is safe to say that one  day, future generations will look back on
+
+this battle and wonder way it wasn=E2=80=99t  obvious to everyone that ever
+y person
+has a right to health care =E2=80=93 they same way  we look back today and 
+wonder how
+anyone could have supported slavery.  Remember we still had slavery in 
+America just 150 years ago. 
+Our grandkids will wonder why anyone would balk at beginning to 
+rationalize the bloated, inefficient American health care system that leave
+s us  37th
+in the world in health care outcomes and costs us 50% more per  person than
+
+any other country on the domain.com. 
+They will look back on those who  tried to stand in the way of serious
+health care reform, the way we look back on  those who tried to block the
+
+creation of Social Security or Medicare or the  Civil Rights Act. 
+Often, when political leaders are faced with historic choices, they are 
+forced to choose between the next election =E2=80=93 and the next generatio
+n.  This
+time, with the political wind at  our back, they don=E2=80=99t have to make
+ that
+choice.  But they do have to choose to stand up  against special interest
+
+pressure and act decisively to take the actions that  are necessary to buil
+d a
+foundation for the long-term economic success of future  generations of
+Americans. 
+So in the next few weeks, talk to  your Members of Congress.  Ask them 
+each what kind of legacy they want to leave after their political career is
+
+
+
+done.  Tell them to stop worrying so  much what the lobbyists and big
+contributors think about their decisions and ask  themselves how those deci
+sions
+will be viewed by history.
+Robert Creamer is a long-time  political organizer and strategist, and
+author of the recent book: =E2=80=9CStand Up  Straight: How Progressives Ca
+n Win,=E2=80=9D
+available on _amazon.com_
+(<<link>>
+95/ref=3Dpd_bbs_sr_1?ie=3DUTF8&s=3Dbooks&qid=3D1206567141&sr=3D8-1
+) .
+
+**************An Excellent domain.com Score is 750. See Yours in Just 2 Easy
+Steps!
+(<<link>>
+<<link>>
+=3DJul
+yExcfooterNO62)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

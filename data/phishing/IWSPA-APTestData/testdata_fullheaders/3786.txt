@@ -1,0 +1,176 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id ED2E2536F23
+	for <user@domain.com>; Thu, 20 Oct 2015 10:26:25 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 87F896FA34A
+	for <user@domain.com>; Thu, 20 Oct 2015 10:26:24 -0400 (EDT)
+Received: from domain.com (domain.com [65.23.81.140])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Thu, 20 Oct 2015 10:26:24 -0400 (EDT)
+Received: by domain.com (Postfix, from userid 6)
+	id 3E0CF536E2C; Thu, 20 Oct 2015 10:25:54 -0400 (EDT)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 38819536E29
+	for <user@domain.com>; Thu, 20 Oct 2015 10:25:54 -0400 (EDT)
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+X-Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 21307536ED9
+	for <user@domain.com>; Thu, 20 Oct 2015 09:27:33 -0400 (EDT)
+X-Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 0D2B76FA3D9
+	for <user@domain.com>; Thu, 20 Oct 2015 09:27:32 -0400 (EDT)
+X-Received: from server1.i-domain.com (server1.i-domain.com [207.58.137.37])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Thu, 20 Oct 2015 09:27:32 -0400 (EDT)
+X-Received: from nobody by server1.i-domain.com with local (Exim 4.52)
+	id 1ESaSA-0007UG-Jv
+	for user@domain.com; Thu, 20 Oct 2015 16:27:30 +0300
+To: user@domain.com
+Subject: Monthly Update: October 2015 (Require User Verification)
+From: Paypal <accounts@email.paypal.com>
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <user@domain.com>
+Date: Thu, 20 Oct 2015 16:27:30 +0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server1.i-domain.com
+X-AntiAbuse: Original Domain - domain.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 504] / [47 12]
+X-AntiAbuse: Sender Address Domain - server1.i-domain.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: domain.com:/public_html/upload/images/.send
+ReSent-Date: Thu, 20 Oct 2015 10:25:51 -0400 (EDT)
+Resent-From: Paypal <accounts@email.paypal.com>
+Resent-To: Jose Nazario <user@domain.com>
+ReSent-Subject: Monthly Update: October 2015 (Require User Verification)
+ReSent-Message-ID: <user@domain.com>
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ****
+X-Spam-Status: No, score=4.2 required=5.0 tests=HTML_40_50,HTML_IMAGE_ONLY_24,
+	HTML_MESSAGE,HTML_TITLE_EMPTY,IP_LINK_PLUS,MIME_HTML_ONLY,
+	NORMAL_HTTP_TO_IP,RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,REPLY_TO_EMPTY 
+	autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  1.6 REPLY_TO_EMPTY Reply-To: is empty
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.2 IP_LINK_PLUS URI: Dotted-decimal IP address followed by CGI
+	*  0.0 HTML_40_50 BODY: Message is 40% to 50% HTML
+	*  0.5 HTML_IMAGE_ONLY_24 BODY: HTML: images with 2000-2400 bytes of words
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.0 HTML_TITLE_EMPTY BODY: HTML title contains no text
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (<>)
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 386
+
+LEGAL NOTICE
+
+The following message is an email sent to you by an 
+administrator of "domain.com".
+If this message is spam, contains abusive or other comments you find offensive please 
+contact the webmaster at the following address:
+user@domain.com
+
+Message sent to you follows:
+
+Dear PayPal client,
+
+While performing it's regular scheduled 
+monthly billing address check our system found incompatible information which seams to be no longer the same with your 
+current domain.com card information that we have on file. If you changed your billing information or if you moved from you 
+previous address please follow up the link bellow and update your billing information: If you didn't change any of this 
+information you still need to follow up the previous link and update your existing billing information because it means 
+that our database regular scheduled update wasn't made correctly. Choosing to ignore this message will result in to a 
+temporary suspension of your account within 24 hours, until you will choose to solve this unpleasant situation.
+
+	We apologies for any inconvinience this may caused you and we strongly advise you to update your information 
+you have on file with us. Clicking <> 
+you will avoid any possible futuring billing problems with your account.
+
+Best regards,
+
+	- PayPal Team.
+
+From user@domain.com  Thu Oct 20 18:10:47 2015 
+Return-Path: 
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 01783536E13
+	for ; Thu, 20 Oct 2015 18:10:47 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id F28026FA31D
+	for ; Thu, 20 Oct 2015 18:10:44 -0400 (EDT)
+Received: from domain.com.cn (unknown [210.51.9.11])
+	by domain.com (Postfix) with ESMTP
+	for ; Thu, 20 Oct 2015 18:10:44 -0400 (EDT)
+Received: (qmail 11805 invoked by uid 0); 20 Oct 2015 15:15:52 -0000
+Date: 20 Oct 2015 15:15:52 -0000
+To: user@domain.com
+Subject: Amazon Notice: Error on file
+Message-ID: <1129821352.24206.user@domain.com>
+From: Paypal <accounts@email.paypal.com>
+Content-Type: text/html
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.5 required=5.0 tests=HOT_NASTY,HTML_80_90,
+	HTML_FONT_FACE_BAD,HTML_MESSAGE,HTML_TAG_EXIST_TBODY,
+	MIME_HEADER_CTYPE_ONLY,MIME_HTML_ONLY,NORMAL_HTTP_TO_IP,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,RCVD_IN_BL_SPAMCOP_NET 
+	autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.1 HOT_NASTY BODY: Possible porn - Hot, Nasty, Wild, Young
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.1 HTML_80_90 BODY: Message is 80% to 90% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.0 HTML_FONT_FACE_BAD BODY: HTML font face is not a word
+	*  0.1 HTML_TAG_EXIST_TBODY BODY: HTML has "tbody" tag
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf:  55]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (<>)
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see ]
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 387
+
+domain.com 
+
+Dear Amazon member,
+
+We regret to inform you that your Amazon account was been suspended for a period of 3-4 days,after that it will be terminated.
+During our regularly schedule account maintenance and verification we have detected a slight error in your billing information on file with Amazon. 
+This might be due to either following reasons:
+
+             - A recent change in your personal information (i.e. change of address)
+             - Submitting invalid information during the initial sign up process.
+             - An inability to accurately verify your selected option of payment due an internal                 error within processors.
+
+Your domain.com card on file with Amazon
+
+Card number: 
+                  XXXX-XXXX-XXXX-XXXX (Not shown for security 
+                purposes) 
+
+Expiration date: XX/XX
+
+Please sign in to your Amazon account and update your billing information:
+
+If your account information is not update, your account on Amazon will be terminated.
+
+Thank you for your time!
+Amazon Security Departament

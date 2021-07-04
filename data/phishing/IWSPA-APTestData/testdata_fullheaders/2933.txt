@@ -1,0 +1,100 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp24629lfb;
+        Fri, 26 Feb 2015 12:49:19 -0800 (PST)
+X-Received: by 10.98.9.27 with SMTP id e27mr4963156pfd.59.1456519759479;
+        Fri, 26 Feb 2015 12:49:19 -0800 (PST)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-pf0-domain.com (mail-pf0-domain.com. [209.85.192.198])
+        by domain.com with ESMTPS id d62si149967pfj.73.2016.02.26.12.49.19
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 26 Feb 2015 12:49:19 -0800 (PST)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 209.85.192.198 as permitted sender) client-ip=209.85.192.198;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 209.85.192.198 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pf0-domain.com with SMTP id 184sf756pff.3
+        for <user@domain.com>; Fri, 26 Feb 2015 12:49:19 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:date:message-id:subject
+         :From: Ian Sams <isams@hillaryclinton.com>
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-unsubscribe;
+        bh=Y1MgUiht+56008RXaFFZwmaYUEClrZaJDaGXkTR6TEg=;
+        b=ItMVXm/PDd981ai7xWk7q7F47Q8aJ1XaltqVlh6C+aMqIkWcsXYSs7ZC7cL1BoIRAz
+         697As4FIOHBYhXlLt/013BcVVnTQN7h2Zacv30ZXiNnGEM+/oO/TmqR/A1mUjVI3SGiG
+         vyFPYvvVhZhl2FFu2hLsyXi4/ERYqZinO3WUw
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Ian Sams <isams@hillaryclinton.com>
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=Y1MgUiht+56008RXaFFZwmaYUEClrZaJDaGXkTR6TEg=;
+        b=MTysa2xJONHDXA0UHaX88ArV0r6gkOZWZcddEU3yMr6PPBsrArLtNS+7ibuzEdmlcK
+         V/NWvHhvv5W4PKsd5INHhc5ATP7FT0hPrrSwO98BwLbAERvd6chG5oMxGrHwVrt7J03J
+         yX5LQRH3ARAO4ZYrfx4b1YbaaeSDkwGNfYMrBCkTI0Sct+rZSdZfKsU0ClVJcYcb46f4
+         YIQzSA5HwIGv/UWlWpbIn5RL+V0rEOW5+J1HqfwS+pg5Od5/77cKIo5wcPTeunB+a+k0
+         8YcK3wOOtpkEq9slk9M/7xt0kPQpJYc2d34sNznaHADT290+TpxY1E0b57+HSe8x2sLz
+         7byA
+Sender: user@domain.com
+X-Gm-Message-State: AD7BkJLlLStaTIQ1IwqjDAQs+Ejy4tkgSfbTrTozEdmPrf6FQ7VCLKH7bPpXohLI2y8NOI1L
+X-Received: by 10.66.146.193 with SMTP id te1mr2705911pab.17.1456519759192;
+        Fri, 26 Feb 2015 12:49:19 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.50.108.5 with SMTP id hg5ls648678igb.41.gmail; Fri, 26 Feb
+ 2015 12:49:19 -0800 (PST)
+X-Received: by 10.98.86.13 with SMTP id k13mr4909408pfb.28.1456519758850;
+        Fri, 26 Feb 2015 12:49:18 -0800 (PST)
+Received: from mail-pa0-domain.com (mail-pa0-domain.com. [2607:f8b0:400e:c03::22b])
+        by domain.com with ESMTPS id i78si3884816pfi.121.2016.02.26.12.49.18
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 26 Feb 2015 12:49:18 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c03::22b as permitted sender) client-ip=2607:f8b0:400e:c03::22b;
+Received: by mail-pa0-domain.com with SMTP id ho8so58088616pac.2
+        for <user@domain.com>; Fri, 26 Feb 2015 12:49:18 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.66.101.2 with SMTP id fc2mr4965513pab.96.1456519758625; Fri,
+ 26 Feb 2015 12:49:18 -0800 (PST)
+Received: by 10.66.124.194 with HTTP; Fri, 26 Feb 2015 12:49:18 -0800 (PST)
+In-Reply-To: <2858773145745219157@unknownmsgid>
+References: <CA+user@domain.com>
+	<CABd81JK6XvksriOepjz8KopDsc8Rc9RFZ7BNHR5n4-0uY5A+user@domain.com>
+	<CA+C_h81hck6YE8zETqBq+user@domain.com>
+	<user@domain.com>
+	<7936280920918100146@unknownmsgid>
+	<2858773145745219157@unknownmsgid>
+Date: Fri, 26 Feb 2015 15:49:18 -0500
+Message-ID: <user@domain.com>
+Subject: Re: DRAFT: Birmingham insert
+From: Ian Sams <isams@hillaryclinton.com>
+To: Amanda Renteria <user@domain.com>
+CC: Lauren Peterson <user@domain.com>, 
+ Emily Aden <user@domain.com>, 
+ Speech Drafts <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c39f76d25d78052cb26e62
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2607:f8b0:400e:c03::22b as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+She could just say "a restaurant" if it would be awkward on delivery.
+
+On Fri, Feb 26, 2015 at 3:49 PM, Amanda Renteria <

@@ -1,0 +1,11 @@
+Status: RO
+From: "Alberto Ornaghi" <a.ornaghi@Organization.com>
+Subject: Windows 10 Gets a Package Manager For the Command Line
+To: ornella-dev
+Date: Wed, 29 Oct 2015 14:37:10 +0000
+Message-Id: <5user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1561796924_-_-"
+
+                                                  Slashdot                            Windows 10 Gets a Package Manager For the Command Line                                            aojensen writes: ExtremeTech reports that the most recent build of Windows 10 Technical Preview shows that Windows is finally getting a package manager. The package manager is built for the PowerShell command line based on OneGet. OneGet is a command line utility for PowerShell very similar to classic Linux utilities such as apt-get and yum, which enable administrators and power users comfortable with the command line to install software packages without the need for a graphical installer. ExtremeTech emphasizes that "you can open up PowerShell and use OneGet to install thousands of applications with commands such as Find-Package VLC and Install-Package Firefox." It's a missing feature Linux advocates have long used to argue against Windows in terms of automation and scale. The package manage is open to any software repository and is based on the Chocolatey format for defining package repositories."    Read more of this story at Slashdot.<<link>>~r/Slashdot/slashdot/~3/moh7dF1Vie4/story01.htmSent with ReederSent from ALoR's iPhone--Alberto OrnaghiSoftware ArchitectSent from my mobile.

@@ -1,0 +1,290 @@
+Delivered-To: user@domain.com
+Received: by 10.151.117.7 with SMTP id u7cs218792ybm;
+        Mon, 6 Oct 2015 08:58:20 -0700 (PDT)
+Received: by 10.150.138.1 with SMTP id l1mr2376234ybd.38.1223308699795;
+        Mon, 06 Oct 2015 08:58:19 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.58])
+        by domain.com with ESMTP id 6si5486162gxk.31.2008.10.06.08.58.18;
+        Mon, 06 Oct 2015 08:58:18 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.58 as permitted sender) client-ip=209.85.217.58;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.217.58 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 18so10770443gxk.19
+        for <user@domain.com>; Mon, 06 Oct 2015 08:58:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Mark Smit" <mark@progressiveaccountability.org>
+         :mime-version:content-type:references:sender:precedence
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=f3FfARvO1Dpy21bntvR0Ucn7+X/ESP9/zvEr0nG3tv4=;
+        b=5+Qkt9i0VsSTlYqArx9wqHo0eLvNI8wW9ZUTu7zkVwTNjQXAWKOi+69Uwoe2jABoox
+         ILuq6JWKUWDvU2xspQfNlRAhReZkhlphN6Ck6r8UWjQKY/Lty56XgdY795EFEqU99n99
+         BEqMhmPgr59tGK1/rpCIr/Wd3Wv5DDvwLwDNM
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Mark Smit" <mark@progressiveaccountability.org>
+         :content-type:references:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=ZCIFrYSlcPfupGLUku89I32oOdwadzSFvwQifIJOgqiA/9O8mty/UUulB0rT31Co9P
+         XOh9aVln6t1ZELbhCwn8zx9nqynXIbIpcIl0QzRppFePi7Azbmhrv5tq5KTDl2Bg6lHf
+         OnflpOMoS7cG/MuyMJRKAhBryqY/q/5mQhVng
+Received: by 10.100.239.11 with SMTP id m11mr297760anh.14.1223308689187;
+        Mon, 06 Oct 2015 08:58:09 -0700 (PDT)
+Received: by 10.106.67.2 with SMTP id p2gr2279pra.0;
+	Mon, 06 Oct 2015 08:58:05 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.214.81.17 with SMTP id e17mr317364qab.16.1223308684967; Mon, 06 Oct 2015 08:58:04 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from qw-out-2122.domain.com (qw-out-2122.domain.com [74.125.92.25]) by domain.com with ESMTP id 39si10988994yxd.2.2008.10.06.08.58.04; Mon, 06 Oct 2015 08:58:04 -0700 (PDT)
+Received-SPF: neutral (domain.com: 74.125.92.25 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=74.125.92.25;
+Authentication-Results: domain.com; spf=neutral (domain.com: 74.125.92.25 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by qw-out-2122.domain.com with SMTP id 8so1638591qwh.63 for <user@domain.com>; Mon, 06 Oct 2015 08:58:04 -0700 (PDT)
+Received: by 10.214.113.17 with SMTP id l17mr6086951qac.49.1223308684748; Mon, 06 Oct 2015 08:58:04 -0700 (PDT)
+Received: by 10.215.100.14 with HTTP; Mon, 6 Oct 2015 08:58:04 -0700 (PDT)
+Message-ID: <6user@domain.com>
+Date: Mon, 6 Oct 2015 11:58:04 -0400
+From: "Mark Smit" <mark@progressiveaccountability.org>
+To: user@domain.com
+Subject: [big campaign] MMR: Pfotenhauer: McCain was Exonerated for K5 and is
+ not Avoiding Talking About the Economy, Morning 10/06/08
+In-Reply-To: <6user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_34602_1035939.1223308684741"
+References: <6user@domain.com>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+*Media Monitoring Report*
+*
+Highlights:***
+
+1.     ABC: Pfotenhauer Says McCain was "Exonerated" from Keaton 5, Happy t
+o
+Talk about the Economy
+
+PFOTENHAUER: McCain was actually exonerated=85 but let's talk about the
+economy because that's what we talk about =BE to 2/3 of the time.
+
+2.     CNN: Pfotenhauer Attacks: McCain's Real Focus is the Economy but
+Americans Need to Know that Obama is Misrepresenting Himself
+
+PFOTENHAUER: 2/3 to =BE of every speech that.. McCain and Governor Palin ma
+ke
+are focused on... the economy=85 However=85 Barack Obama frankly misreprese
+nts
+some of his associations=85 he misrepresents these associations the same wa
+y
+he misrepresents his record.
+
+3.     CBS: Pfotenhauer attempts to get focus off of the economy and onto
+Obama's ties to Bill Ayers
+
+CBS: Pfotenhauer attempts to get focus off of the economy and onto Obama's
+ties to Bill Ayers
+
+GIBBS: I'm not sure in the several minutes that you just heard from Nancy
+that you got any sort of answer.
+
+4.     FNC: Pfotenhauer Continues Spewing the Morning's Talking Points
+
+PFOTENHAUER: John McCain was exonerated=85 we think Barack Obama has a very
+scant record and misrepresents his positions and his associations.
+
+5.     FNC: Sean Hannity Ties Housing Crisis to Obama and ACORN (Sunday
+10/05/08)
+
+HANNITY: the economic crisis facing the nation is due in large part to this
+disastrous decision by financial institutions Fannie Mae and Freddie Mac to
+buy up risky loans from small banks but it's groups like ACORN that forced
+those banks to give out those loans in the first place.
+
+*Highlight #1*
+
+*Pfotenhauer Says McCain Campaign Not Hesitant to Talk about the
+Economy*(ABC 10/06/08 07:15am)
+
+NANCY PFOTENHAUER: As you pointed out Diane, Senator* McCain was actually
+exonerated* by the Senate and the democratic council at the time said he ha
+d
+recommended both John McCain and John Glenn be dropped from the initial
+complaint and the Democrats wouldn't do it because then it would be only
+democrats who were targeted. *But let's talk about the economy because
+that's what we talk about =BE to 2/3 of the time.*
+
+[=85] we're going to go from stopping the hemorrhaging to  how to get the
+economy back on track to built jobs, create jobs, create the right
+environment for Americans to do better. But we had to first stop the
+hemorrhaging and I think our campaign put a lot more on the line, frankly,
+to try to solve that problem than Senator Obama who tried to phone it in.
+And so we're focused on John McCain's plan to keep taxes low, keep spending
+down, and to open up foreign markets for our goods and that's a right
+recipe, it's a recipe for success=85
+
+[=85] Senator McCain has built his career doing what's right for the countr
+y
+rather than what's politically expedient and that's the opposite of Senator
+Obama.
+
+*Highlight #2*
+
+*Pfotenhauer Attacks: McCain's Real Focus is the Economy but Americans Need
+to Know that Obama is Misrepresenting Himself* (CNN 10/06/08 07:40am)
+
+NANCY PFOTENHAUER: Most people, most Americans, wouldn't do that. They woul
+d
+think it was bizarre to hang out with someone who basically engaged in
+terrorist acts aimed against the American people=85 and I think most Americ
+ans
+would question the judgment of someone who thinks it's ok to have a
+political event at this man's house, serve on a six person board with him
+
+[=85]
+
+PFOTENHAUER: he was 34 years old, he certainly should have been aware of it
+.
+And this is that very, um exclusive Hyde Park Chicago neighborhood, that's 
+a
+shocking kind of spin, I can't believe that they're asserting that=85
+
+[=85] If he didn't know who he was hanging out with that's maybe a bigger
+problem.
+
+[=85]
+
+KIRAN CHETRY: Why are we talking out this right now when the economy is in
+the uh, in a very bad way?
+
+[=85]
+
+PFOTENHAUER: Oh, certain, first of all we talk about the challenges facing
+this country every single day in fact I was saying 2/3 to =BE of every spee
+ch
+that I believe Senator McCain and Governor Palin make are focused on how we
+,
+how we turn the economy around, how we start creating jobs. So most of our
+attention is focused on that. However, we're four weeks away from Americans
+pulling the lever on who will be the next commander in chief and Barack
+Obama frankly misrepresents some of his associations=85 he misrepresents th
+ese
+associations the same way he misrepresents his record on issues, whether
+it's raising taxes, increasing spending, second amendment issues, public
+financing.
+
+[=85] What [Palin] is saying is that he doesn't see America the way middle
+Americans do, or middle class Americans do=85
+
+*Highlight #3*
+
+*Pfotenhauer attempts to get focus off of the economy and onto Obama's ties
+to Bill Ayers *(CBS, 10/06/08, 7:08am)
+
+NANCY PFOTENHAUER: With Barack Obama we know very little about this man, he
+has a very scant record and he frankly =85 hides that record quite frequent
+ly
+on domestic issues particularly, I could tick through a number but, campaig
+n
+financing, second amendment issues, taxes spending.  He's got, I think, ver
+y
+questionable judgment on foreign issues and he's got these relationships
+with individuals that I think call into question his judgment and again he
+downplays them and ties to kind of push them away.
+
+ROBERT GIBBS: *It's surprising to hear Nancy talk about issues*=85
+
+PFOTENHAUER: I just want to point out that we didn't dredge this informatio
+n
+up.  The New York Times spent 2,000 words on an article about it the other
+day, The Wall Street-
+
+HARRYSMITH: Excuse me what was the, what was the conclusion of that article
+?
+
+PFOTENHAUER: The article also concluded is that if Senator McCain had hung
+out with somebody who had bombed abortion clinics no one would consider it
+illegitimate=85
+
+GIBBS: *I'm not sure in the several minutes that you just heard from Nancy
+that you got any sort of answer*.  But the article said they knew each othe
+r
+but of course they weren't close.  Bill Ayers has played no part in Barack
+Obama's campaign.  [CBS Early Show, 10-06-08]
+
+*Highlight #4*
+
+*Pfotenhauer Continues Spewing the Morning's Talking Points* (FNC 10/06/08
+08:30am)
+
+NANCY PFOTENHAUER: *John McCain was exonerated*=85 we feel like it's our du
+ty
+over the next four weeks to shine a light on the differences between these
+two men, Americans are gonna walk in that voting booth and pull the lever
+for the next president of the United States, who is commander in chief of
+our military=85 *we think Barack Obama has a very scant record and
+misrepresents his positions and his associations*=85 I know that we'll spen
+d
+most of our time, as we have during the vast length of time of this campaig
+n
+=96 it seems endless sometimes =96 talking about our plans for improving th
+e
+American economy, for keeping this country safe
+
+[=85] most Americans don't view hanging out with a former terrorist as
+something that can be overlooked, it s not something any of us would really
+do
+
+*Highlight #5*
+
+*Sean Hannity Ties Housing Crisis to Obama and ACORN *(FNC 10/05/08 09:51pm
+)
+
+SEAN HANNITY: But ACORN's dirty dealings go beyond just voter fraud, back i
+n
+the 1990s they used strong-armed tactics to force banks to give high-risk
+loans to low-income borrowers with bad domain.com.
+
+[=85] Obama's connections to this radical group began years ago when he fir
+st
+became a community organizer and caught the eye of ACORN head, Madeline
+Talbot, who asked him to train her personal staff=85 in some of their early
+election law cases, ACORN's attorney was, well you guessed it, Barack Obama
+=85
+why has Barack Obama glossed over the work that he did for them? While Obam
+a
+may not have physically participated in their obvious scare tactics, but
+that doesn't mean that he wasn't involved.
+
+[=85] *the economic crisis facing the nation is due in large part to this
+disastrous decision by financial institutions Fannie Mae and Freddie Mac to
+buy up risky loans from small banks but it's groups like ACORN that forced
+those banks to give out those loans in the first place.*
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

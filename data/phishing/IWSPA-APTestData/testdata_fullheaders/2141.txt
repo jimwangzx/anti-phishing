@@ -1,0 +1,96 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp2111908lfy;
+        Mon, 18 Jan 2015 15:00:10 -0800 (PST)
+X-Received: by 10.129.119.130 with SMTP id s124mr8038436ywc.235.1453158010759;
+        Mon, 18 Jan 2015 15:00:10 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [205.201.130.174])
+        by domain.com with ESMTP id x143si15875609ywx.233.2016.01.18.15.00.10
+        for <user@domain.com>;
+        Mon, 18 Jan 2015 15:00:10 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 205.201.130.174 as permitted sender) client-ip=205.201.130.174;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 205.201.130.174 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Clyde=20Williams=20For=20Congress?= <contact@clyde2016.com>
+ bh=GKSG+m84xbx/iY4VAYqguLY1WyQ=;
+ b=ngR4DTvSbYx1itucwjvrcud+FqhGV1geOHIafTMn5DkLSJ7CRddK5G4lWUQMwfbw6oCn289CDkKB
+   A9z9OMcfYLLDY5IqI9SWyjo/7CU3WepFgCqZ9gGOTqsL5mSiFcJAnHE2GF4knVmHTxkydB602DOY
+   ATVPvEtFiMT7wpvcykI
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Clyde=20Williams=20For=20Congress?= <contact@clyde2016.com>
+ bh=GKSG+m84xbx/iY4VAYqguLY1WyQ=;
+ b=d7evbd4NNvZjPO+0CbjMfjZQdf2I/DgXYiLarSbXn9vWdOYyHQsGCtHufty+24IEoQQPuceQ8kR+
+   oE8NQH5+B5WH0N61223bzKuJH6KNiw/Rdf+8WC+OM92RLJQpJiwAGwCwxdtbfzhf9iG4EJrVgroE
+   geg6HL35y4E2bSEPYsw
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=1KTNLN7lpwKMl+6gsQyns7vhV7IkbjfEx7dS0ETbaaDsUrk5tNH+xQ08ES/Yse2S5POOt92e47R7
+   RGmklKUsBXf9wtBwkIzxvJ9lq59Wuy8/VWHgWTyNmpEOEIp0i+QuaNkYzmESESD55UUka9973Uql
+   c9ayC4+HcQrz1nCIsGg=;
+Received: from (127.0.0.1) by domain.com id hjln7k1jvmgo for <user@domain.com>; Mon, 18 Jan 2015 22:59:47 +0000 (envelope-from <user@domain.com>)
+Subject: =?utf-8?Q?Honor=20Dr.=20King=E2=80=99s=20Legacy=3A=20=20100=20Meals=20for=20100=20Needy=20Families=21?
+From: =?utf-8?Q?Clyde=20Williams=20For=20Congress?= <contact@clyde2016.com>
+Reply-To: =?utf-8?Q?Clyde=20Williams=20For=20Congress?= <user@domain.com>
+To: user@domain.com
+Date: Mon, 18 Jan 2015 22:59:47 +0000
+Message-ID: <13user@domain.com>
+X-Mailer: MailChimp Mailer - **CID25a4c444af30c8959f18**
+X-Campaign: mailchimp13d0c4ee04919a2127f6c5960.25a4c444af
+X-campaignid: mailchimp13d0c4ee04919a2127f6c5960.25a4c444af
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 13d0c4ee04919a2127f6c5960
+X-Feedback-ID: 46146517:46146517.721925:us11:mc
+List-ID: 13d0c4ee04919a2127f6c5960mc list <13d0c4ee04919a2127f6c5960.311097.list-domain.com>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: "Clyde Williams For Congress" <user@domain.com>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1113135179"
+MIME-Version: 1.0
+
+<<link>>
+Dear Friend=2C
+
+Today=2C as we honor the legacy of Dr. Martin Luther King=2C I wanted to s
+hare my recent op-ed (<<link>>
+nfinished-legacy-e_b_9001608.html) that highlights the ongoing need to add
+ress poverty and the challenge of food insecurity.
+
+<<link>>
+In NY-13=2C 160=2C000 residents live in food insecure homes=2C including 1
+ in 5 children.  One solution is to ensure a livable wage =E2=80=93 and I
+ was proud to join today=E2=80=99s =E2=80=98March for $15=E2=80=99 to advo
+cate for an increase for the minimum wage.
+
+But I believe we must do more=2C so I also have launched a 2-week food dri
+ve to provide meals to the neediest families in the District.  (<<link>>
+domain.com/forms/d/1MQK_MsNTnBR2zOeL53qL7IrPWNukL6LmUycRTchVnjE/viewfor
+m)
+
+By bringing the community together=2C we can help achieve Dr. King=E2=80
+=99s vision for civil rights and advancement for the poor =E2=80=93 and in
+ doing so=2C strengthen our own communities and build a stronger society f
+or all.
+
+Clyde
+
+<<link>>
+My Tribute to Dr. Martin Luther King
+
+** (<<link>>)
+** (<<link>>)
+** (<<link>>)
+Copyright =C2=A9 2015 Clyde Williams for Congress=2C All rights reserved.
+Clyde Williams for Congress
+
+Contact us at
+user@domain.com
+
+Want to change how you receive these emails?
+You can ** update your preferences (<<link>>
+/profile?u=3D13d0c4ee04919a2127f6c5960&id=3D804e337017&e=3D30c8959f18)
+or ** unsubscribe from this list (<<link>>
+subscribe?u=3D13d0c4ee04919a2127f6c5960&id=3D804e337017&e=3D30c8959f18&c=3D2
+5a4c444af)

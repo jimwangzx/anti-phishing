@@ -1,0 +1,61 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp459241lfb;
+        Wed, 10 Feb 2015 15:26:55 -0800 (PST)
+X-Received: by 10.182.118.137 with SMTP id km9mr41233721obb.50.1455146815822;
+        Wed, 10 Feb 2015 15:26:55 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::22e])
+        by domain.com with ESMTPS id e62si983454oig.7.2016.02.10.15.26.55
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Feb 2015 15:26:55 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22e as permitted sender) client-ip=2607:f8b0:4003:c01::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ob0-domain.com with SMTP id wb13so41227336obb.1
+        for <user@domain.com>; Wed, 10 Feb 2015 15:26:55 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: David Wolf <davidwolf4@gmail.com>
+        bh=5/gGTli9o2Se9Xha35Kr4ToQYCVfkPJ8Iu29SVeQ1ig=;
+        b=SVoLdLaNGLLhkme8KaOL/7cGKfxZeWAR5Z9ISoIm839eT5DEspT/Arm7SgSpPJvAst
+         /xo7Rj8DjK/CNbzzIxRX2/eH4V+jeQojcm/3woDb4B1UL3zJ1krWAa8+sLpYihC3wBpc
+         TRjzaxfNFy7ZmYpJlQSaX2Cm6Zzvq3eNXIPo3H90oeUt5WuU79UV08Q2OpSqOlQNszSk
+         vhHh5c0PupdTGZFRVhG+Sg41hE1JbKp2HgoSier3ZMOFVUfyExyoWy09/Y1sgqliNo2C
+         pYCo375noClOB3pGKVdsOEILKK+0U4MXKry0H8HypYbOIyBwAUccRixKB4i1dLVzzSSm
+         OXEA
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: David Wolf <davidwolf4@gmail.com>
+         :content-type;
+        bh=5/gGTli9o2Se9Xha35Kr4ToQYCVfkPJ8Iu29SVeQ1ig=;
+        b=dkQ/a/zhV6Vo6CCrvmT0W5/WtFiRg6dGhfA25qTWh0/YHjQkAsp1d8mtg0N4PxnYA9
+         cTcvvTuDQA/14KGmtNCj7a3vLti1dSFvX+QFOLgyCmaYLb6aEL4R9pcOCoUmdUeX/sJK
+         N4/rU+jyW6sG7Q2fLiPhwbi0zvmc35fTYAQZpVnLfNnqDfFWBrjm//l7N0voxpAe1i3X
+         oYqsX/qybpcyGF8tQn6FwVonkjWJyh83joAtMLhXLJzDHPoG+A+dpb7cObOJdMNRoN9Q
+         D6tSBVhJihHkCc72sUb29R+mBJOTLil26/Q9XIU1AvSqzId3C3CBhzEBWj7oeg5cVNTU
+         baow
+X-Gm-Message-State: AG10YOQwine3GXB8QQtj2+PaK5uDfZ342Q6k0BO0KTm+T5ZL6OAwJ4wyt6/eQww5ZWItj6/AutNAi7Wa1PkFbw
+MIME-Version: 1.0
+X-Received: by 10.60.135.10 with SMTP id po10mr42921954oeb.56.1455146815440;
+ Wed, 10 Feb 2015 15:26:55 -0800 (PST)
+Received: by 10.202.104.134 with HTTP; Wed, 10 Feb 2015 15:26:55 -0800 (PST)
+Received: by 10.202.104.134 with HTTP; Wed, 10 Feb 2015 15:26:55 -0800 (PST)
+Date: Wed, 10 Feb 2015 15:26:55 -0800
+Message-ID: <user@domain.com>
+Subject: Good to hear you on call
+From: David Wolf <davidwolf4@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=e89a8f50370c07e86c052b72c5d6
+
+John,
+
+Great seeing you in Des Moines! Good Finance call today. Frustrating
+hearing Sanders bash Super PACs while the Nurses Union spends tons on him.
+Keep fighting the good fight! I have a group going to Nevada soon. See you
+there!
+
+Best regards,
+David

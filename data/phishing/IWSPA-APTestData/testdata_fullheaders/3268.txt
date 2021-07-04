@@ -1,0 +1,57 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp41071lfi;
+        Wed, 1 Apr 2015 12:18:15 -0700 (PDT)
+X-Received: by 10.68.215.9 with SMTP id oe9mr58549670pbc.146.1427915894346;
+        Wed, 01 Apr 2015 12:18:14 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [74.125.149.77])
+        by domain.com with SMTP id j16si4146707pbq.32.2015.04.01.12.18.13
+        for <user@domain.com>;
+        Wed, 01 Apr 2015 12:18:14 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.149.77 as permitted sender) client-ip=74.125.149.77;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 74.125.149.77 as permitted sender) user@domain.com
+Received: from mail-ig0-domain.com ([209.85.213.173]) (using TLSv1) by domain.com ([74.125.148.12]) with SMTP
+	ID DSNKVRxEdbGe+user@domain.com; Wed, 01 Apr 2015 12:18:14 PDT
+Received: by igbud6 with SMTP id ud6so57522336igb.1
+        for <user@domain.com>; Wed, 01 Apr 2015 12:18:12 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Peter Colavito <peter.colavito@seiu.org>
+         :content-type;
+        bh=l04e6PAP7owEIZ2hdF3qQv+J12e8T/Nhl0qagw5S7zk=;
+        b=YyRIJ0DY9xneBH0ifdX/Zvi1NqbZZXUvnjb+7LlB2WrF8YzSbon5IBnQ88SmWSFC3I
+         Pbb34q9Xq9aSmHI8Ptu8atk3+9AuRWn1V4M0zS9mBgjqikPambldUKeHI/GuxmViHPH+
+         WiT+XfrG6Pf8Hvy6IZPMszWY5rNMMOcVtbD27vUy/YNnu/SaiGmxEY8leD+ffvNFkbNR
+         j04vbPkUFeFdV4ynXVYcg0woL95MXmh8YyPicVT+qQx9v8+Jz1Xo8uI2J91aH3jK7jJ0
+         ljSJJH4awjXdnIb5x+S/XqKMHhcA9fSyjqO3PptnLm+bGky62rme9WmhZpf7gdkMuKTk
+         P6mg
+X-Gm-Message-State: ALoCoQnuxoCLmhljVQLdmflJt8DySQAgTaOlnxsiQJc06Gvl730fFx7AAzfDDkcooiL0LfPbKgP2VaC2P+CQ8hBD+bOmhy2LQWSKIPTWr8Kngfd6JMX39tMmKk7tHSJiF2uCJ6UsgPUV+mSsuCIIZVsU4s2Ke07XDA
+X-Received: by 10.43.110.136 with SMTP id ek8mr78565289icc.87.1427915892718;
+        Wed, 01 Apr 2015 12:18:12 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.43.110.136 with SMTP id ek8mr78565278icc.87.1427915892612;
+ Wed, 01 Apr 2015 12:18:12 -0700 (PDT)
+Received: by 10.50.40.101 with HTTP; Wed, 1 Apr 2015 12:18:12 -0700 (PDT)
+Date: Wed, 1 Apr 2015 14:18:12 -0500
+Message-ID: <CALd0n2n+user@domain.com>
+Subject: McDonalds and following up
+From: Peter Colavito <peter.colavito@seiu.org>
+To: John user <user@domain.com>, user@domain.com
+Content-Type: multipart/alternative; boundary=bcaec5171ab18c9a660512ae9314
+
+I know you're out of country, but wanted to make sure you saw that they are
+likely announcing a wage increase tonight.   We want to share some of our
+reaction with you as it comes together.
+
+=E2=80=8BAlso=E2=80=8B, would love to grab a quick coffee when you're back.
+
+Peter
+
+-- =E2=80=8B
+Peter Colavito
+Director of Government Relations
+Service Employees International Union (SEIU)
+1800 Massachusetts Avenue, NW
+Washington, DC 20036
+(202) 730-7727

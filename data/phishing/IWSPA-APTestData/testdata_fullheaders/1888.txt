@@ -1,0 +1,99 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 3 Jul 2015 02:47:20 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s639lKQI001464	for <user@domain.com>; Thu, 3 Jul 2015 
+ 09:47:20 GMT
+Received: from mail201-co9-domain.com (mail-domain.com
+ [207.46.163.22])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s639mQvj002024
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 3 Jul 2015 09:48:27 GMT
+Received: from mail201-co9 (localhost [127.0.0.1])	by
+ mail201-co9-domain.com (Postfix) with ESMTP id BE9D43403D9	for
+ <user@domain.com>; Thu,  3 Jul 2015 09:47:18 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:199.122.124.136;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 5
+X-BigFish: vps5(z59c9hz8d0Ie0eahc857h77f5hzz1ee6h2073h2146h1202h1e76h2189h1d2ah1fc6h208ch1fdahzebhz8275ch1de098h1def03h17326ah1df2f4h1def87h8275bh1bc7b9h1def86h1de097h186068h18602eh1b778fh1ce120h1ce121iz2fheh5eh5fh839hc60hc61hd24he13h107ah10d2h1288h12a5h137ah13eah1441h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h25f6h2605h2673h268bh26d3h27e2h282bh28a1h29d0h2a24h2af6h1017j27b1k)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail201-co9: domain of domain.com designates 199.122.124.136 as permitted sender) client-ip=199.122.124.136; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail201-co9 (localhost.localdomain [127.0.0.1]) by mail201-co9
+ (MessageSwitch) id 1404380836730486_15902; Thu,  3 Jul 2015 09:47:16 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.240])	by
+ mail201-domain.com (Postfix) with ESMTP id ACC61BA004C	for
+ <user@domain.com>; Thu,  3 Jul 2015 09:47:16 +0000 (UTC)
+Received: from domain.com (199.122.124.136) by
+ domain.com (10.236.130.38) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 3 Jul 2015 09:47:16 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=comms.retail-domain.com;
+ h=From: Retail Week <RetailWeek@comms.retail-week.com>
+ bh=YBv9F6e2JG9WEFh1h71aohQBpmU=;
+ b=s9NUfbdGNUr210ESJ/Xe4SfQW2DTuizkTSZ5gCQyU+LfRgaH+9R5aDF4sq1Fyt6SESSzE1oXAmNR
+   tDQ3ReDP3/AnwyB4RLL9QNxaqVT2B+mPg+py6cC64ho7olha0Kd0y/dayrAIi1zw8RAahfvlzP5U
+   3UfT8H/blYDs5zYZXfE
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=comms.retail-domain.com;
+ b=K6Gqa7L8n57vF2jI8cQl6S8G+MTRK/amWT+/v0mOqDYFRWjMPsTNGLLwJNQi2Gd2Av5xXVlnPDfr
+   VFSwwKPewYmJVxATHFjrWri/o7kzFezUFhdrV/jVYgiPjZvfz9V1g2ycO7RS8rE3NdDXXc7VV5Wa
+   nWWwmn+Bq3iaLTsIN5c=;
+Received: by domain.com id hmkja8163hsb for <user@domain.com>;
+ Thu, 3 Jul 2015 03:46:37 -0600 (envelope-from
+ <user@domain.com>)
+From: Retail Week <RetailWeek@comms.retail-week.com>
+To: <user@domain.com>
+Subject: Amy, could you domain.com from a subscription to Retail Week?
+Date: Thu, 3 Jul 2015 03:46:37 -0600
+List-Unsubscribe: <mailto:user@domain.com>
+Reply-To: customerservicesteam
+	<user@domain.com>
+x-job: 7003745_700424
+Message-ID: <095user@domain.com>
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Amy, could you domain.com from a subscription to Retail Week?
+
+Special Subscription Offer - Save 10%
+
+Latest news and analysis from Retail Week        View email in browser | Forward to a colleague  
+
+Retail Week      Don't miss out  
+
+Subscribe to Retail Week today   
+
+With a subscription to Retail Week you can be sure you have the expert retail perspective all day, every day. Our industry leading journalism, analysis and insight delivers the knowledge you need to make the right decisions and to drive your business forward. 
+
+Make sure you are not missing out, subscribe today and save 10%. 
+
+
+
+
+The latest news and analysis from Retail Week    
+
+
+
+
+<<link>>       How can we use digital marketing to attract more shoppers? 
+
+Smartphones and tablets have become a ubiquitous part of people’s lives, with shoppers now instinctively turning to their phones throughout the day for a multitude of reasons. 
+
+Alastair Lockhart, insight director at Savvy Marketing, says: "As these devices have become more powerful, shoppers are increasingly looking to them to carry out a much wider range of tasks. For retailers, this provides exciting opportunities to directly interact with the shopper." Full story
+
+
+
+
+<<link>>       
+
+
+
+
+Infographic: The 2015 Retail Week Power List in numbers         
+
+
+
+
+The Retail Week Power List 2015 was announced today, here are some interesting facts and figures about the new list. 
+

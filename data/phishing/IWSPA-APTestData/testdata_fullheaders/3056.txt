@@ -1,0 +1,70 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.86 with SMTP id y83csp792661lfc;
+        Thu, 29 Oct 2015 14:31:50 -0700 (PDT)
+X-Received: by 10.202.91.65 with SMTP id p62mr3082545oib.86.1446154310532;
+        Thu, 29 Oct 2015 14:31:50 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::236])
+        by domain.com with ESMTPS id z10si1554060oex.16.2015.10.29.14.31.50
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 29 Oct 2015 14:31:50 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::236 as permitted sender) client-ip=2607:f8b0:4003:c01::236;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::236 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id tp1so24504192obc.2
+        for <user@domain.com>; Thu, 29 Oct 2015 14:31:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Matt Paul <mpaul@hillaryclinton.com>
+         :content-type;
+        bh=HukVciNx8hEaDjDCnL92T+S0cwDbOnSVSzVAaVqIk1E=;
+        b=CnHYWJPjd1uqRxqorbjK5RgPCxJtJI0lsG3Eu/kHoUVNjgmXdhZ4iNY9Ox1dKT6yHT
+         MMOsO3O8ViZdm08aVzgHKI7ZjIiUAgbr5F79JuxOOdQxzDqw8IEM6LZ+19bIGz+qA+p5
+         LHntlbRNZ867kXYbBVPh0FRMzAa8urDk0MbJ0
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Matt Paul <mpaul@hillaryclinton.com>
+        bh=HukVciNx8hEaDjDCnL92T+S0cwDbOnSVSzVAaVqIk1E=;
+        b=UbZGD4aut30nSyzCuoyUuMZRKcEfwRvcUTpd/HRZYUp4U+IYxN1N8+6PwGbLNVjWlI
+         fhFBuggalz33VH/XFPZ/w1c6aLPIW8AX/3gXb9cu5C2qGcCVHQrHm3sPLiNu0T5+hqpG
+         wKFLDDEzaAJlrNamlkCt6lAVWRZmnoORE1UlTJvec6SQnbSsouWQu9fQOtCKa+0kCL8q
+         pHGK9dtDacXtPebxzl9KjbRFPxmdJ6RyMpcb3hqGCMJftoyqeicNoxi71N1BAAFVcRVL
+         LlD51Q8DwzKj6MyCjdppoZriRrg56fjZP+NQ0zhfJuL5r6sZ/o/dl+aHRA6B8KgxSH84
+         lNKQ
+X-Gm-Message-State: ALoCoQlyOHsNJsg58A8tBYlxluxmZaJPSxNkWzo+mKO6mK7c6iusCmSDIWF6fpuu633qKxpn/bBg
+MIME-Version: 1.0
+X-Received: by 10.182.181.42 with SMTP id dt10mr3116013obc.54.1446154310059;
+ Thu, 29 Oct 2015 14:31:50 -0700 (PDT)
+Received: by 10.202.78.199 with HTTP; Thu, 29 Oct 2015 14:31:49 -0700 (PDT)
+In-Reply-To: <150user@domain.com>
+References: <150user@domain.com>
+Date: Thu, 29 Oct 2015 16:31:49 -0500
+Message-ID: <user@domain.com>
+Subject: Fwd: Memo to John user
+From: Matt Paul <mpaul@hillaryclinton.com>
+To: John user <user@domain.com>
+Content-Type: multipart/mixed; boundary=089e01161dc0f348d2052345093b
+
+---------- Forwarded message ----------
+From: Matt Paul <mpaul@hillaryclinton.com>
+Date: Thu, Oct 29, 2015 at 4:25 PM
+Subject: Memo to John user
+To: user@domain.com
+
+Matt:
+
+Attached is the Memo Dave sent on to John user.
+
+Thank you for making the time for the two of them to talk on Tuesday.
+
+Hope the rest of the trip went well.
+
+Please let us know if you need anything from us.
+
+Good to see you, again.  Thanks for letting me wear your nice jacket.
+
+Deb.

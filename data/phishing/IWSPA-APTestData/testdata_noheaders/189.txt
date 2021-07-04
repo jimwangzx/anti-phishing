@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+WikiLeaks
+
+img{ border: 0px;}
+body{ margin: 30px auto; width: 900px; font-family: verdana, tahoma; font-size: medium;}
+.pane{ float: left; width: 60%; text-align: left; margin: 10px;}
+.pane p{ text-align: justify;}
+.pane h1{ font-size: x-large; margin-top: 10px;}
+.small{ width: 30%; }
+
+Error
+Bad request or the file you have requested does not exist.
+Please domain.com few minutes and try again.

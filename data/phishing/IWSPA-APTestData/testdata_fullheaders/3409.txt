@@ -1,0 +1,582 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.194 with SMTP id 63csp2062896lfy;
+        Mon, 26 Jan 2015 11:22:07 -0800 (PST)
+X-Received: by 10.194.77.97 with SMTP id r1mr47845770wjw.51.1422300127070;
+        Mon, 26 Jan 2015 11:22:07 -0800 (PST)
+Return-Path: <ctrfriendsfamily+user@domain.com>
+Received: from mail-wg0-domain.com (mail-wg0-domain.com. [74.125.82.70])
+        by domain.com with ESMTPS id q6si21485092wiz.104.2015.01.26.11.22.06
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 26 Jan 2015 11:22:07 -0800 (PST)
+Received-SPF: pass (domain.com: domain of ctrfriendsfamily+user@domain.com designates 74.125.82.70 as permitted sender) client-ip=74.125.82.70;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of ctrfriendsfamily+user@domain.com designates 74.125.82.70 as permitted sender) smtp.mail=ctrfriendsfamily+user@domain.com
+Received: by mail-wg0-domain.com with SMTP id b13sf5329164wgh.1
+        for <user@domain.com>; Mon, 26 Jan 2015 11:22:06 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:sender:date:message-id:subject:from
+         :to:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :list-subscribe:list-unsubscribe;
+        bh=N57qFDxYPfYQNyqOeogC2DJfFIAZtWv+Rw2yvIukplI=;
+        b=D4MDHfw7zl8Ui2UZysI5vMmMhRyPKyZ4Pa8IRJ1N/GaAitHQigy3A2c6/DHdZr5gnY
+         G/eGQRpQt2UY+mw3OSkqOhxRdlFdBZo3XRvqSVFp/hOCPu/UpiQpvj6CVN64/86Ay/VY
+         ZiwHkvJOF4lxjnWz4stjtMvsWaYmkB9lTwMW4nCf0NmQ8yHgEgv95me4rNqGSywn9czf
+         fTOaekoVX8PntnqRyGCImk6tNIYxcICL5hHWUx06T9qxllyXCkDTgH8BZEtoMZk3GPwY
+         /vQX6WjIYRHvoLvZMpL5AyhLbcup/zHnEXYqg+A3zq1RapLQqAgiBZqyJft/EM1lr50h
+         gPbw
+X-Gm-Message-State: ALoCoQkWr7SMEXCXh407XoDqRed0UtveGENmA5NzV1V38/FmLvF4BFrwcaph4MMirTPeOAaz4kdm
+X-Received: by 10.194.142.174 with SMTP id rx14mr1791849wjb.4.1422300126690;
+        Mon, 26 Jan 2015 11:22:06 -0800 (PST)
+X-BeenThere: user@domain.com
+Received: by 10.180.85.5 with SMTP id d5ls66987wiz.7.gmail; Mon, 26 Jan 2015 
+ 11:22:06 -0800 (PST)
+X-Received: by 10.194.189.77 with SMTP id gg13mr44622543wjc.81.1422300126060;
+        Mon, 26 Jan 2015 11:22:06 -0800 (PST)
+Received: from mail-we0-domain.com (mail-we0-domain.com. [74.125.82.169])
+        by domain.com with ESMTPS id k2si22074605wja.117.2015.01.26.11.22.06
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 26 Jan 2015 11:22:06 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.82.169 as permitted sender) client-ip=74.125.82.169;
+Received: by mail-we0-domain.com with SMTP id u56so10964663wes.0
+        for <user@domain.com>; Mon, 26 Jan 2015 11:22:06 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.181.29.201 with SMTP id jy9mr28008262wid.17.1422300125768;
+ Mon, 26 Jan 2015 11:22:05 -0800 (PST)
+Sender: user@domain.com
+X-Google-Sender-Delegation: user@domain.com
+Received: by 10.194.44.39 with HTTP; Mon, 26 Jan 2015 11:22:05 -0800 (PST)
+Date: Mon, 26 Jan 2015 14:22:05 -0500
+Message-ID: <user@domain.com>
+Subject: =?UTF-8?Q?=E2=80=8BCorrect_The_Record_Monday_January_26=2C_2015_Aftern?
+	=?UTF-8?Q?oon_Roundup?
+From: Burns Strider <burns.strider@americanbridge.org>
+To: CTRFriendsFamily <user@domain.com>
+Content-Type: multipart/related; boundary=001a11c37ae8c2f96c050d930d54
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 74.125.82.169 as
+ permitted sender) user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact CTRFriendsFamily+user@domain.com
+List-ID: <CTRFriendsFamily.americanbridge.org>
+X-Google-Group-Id: 1010994788769
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:CTRFriendsFamily+user@domain.com>
+List-Archive: <<<link>>>
+List-Subscribe: <<<link>>>,
+ <mailto:CTRFriendsFamily+user@domain.com>
+List-Unsubscribe: <mailto:googlegroups-manage+1010994788769+user@domain.com>,
+ <<<link>>>
+
+*=E2=80=8B**Correct The Record Monday January 26, 2015 Afternoon Roundup:*
+
+*Tweets:*
+
+*Pres. Bill Clinton* @billclinton: Congratulations Bill Haas. What an
+exciting finish! [1/25/15, 9:00 p.m. EST
+<<<link>>>]
+
+*Pres. Bill Clinton* @billclinton: Meeting future champions in Bob Hope
+Square! Kids Day at @HumanaChallenge in partnership w/@ClintonFdn
+[1/25/15, 8:08
+p.m. EST <<<link>>>]
+
+*Correct The Record* @CorrectRecord: .@HillaryClinton
+<<<link>>> strove to address and relieve student
+debt #HRC365 <<<link>>>
+<<link>> 
+=E2=80=A6
+<<<link>>> [1/25/15, 8:02 p.m. EST
+<<<link>>>]
+
+*Headlines:*
+
+*ABC News: =E2=80=9CHillary Clinton Has Been M.I.A. Lately -- and Here=E2
+=80=99s Why=E2=80=9D
+<<<link>>
+63>*
+
+=E2=80=9CUnlike lesser known candidates, Clinton doesn=E2=80=99t have to ma
+ke a name for
+herself. Plus, Clinton has outside groups =E2=80=93like Ready for Hillary a
+nd
+Correct the Record=E2=80=94 doing some of the early organizing work for her
+.=E2=80=9D
+
+*USA Today: =E2=80=9CPoll: For 2016, many Republicans but just one Democrat
+=E2=80=9D
+<<<link>>
+22344379/>*
+
+=E2=80=9CAmong Democrats, Hillary Clinton commands the broadest support in 
+memory
+of any prospective nominee at this point in the race when no incumbent
+president is running. Even among those who describe themselves as liberal
+or very liberal =E2=80=94 the group most likely to back Warren =E2=80=94 57
+% name Clinton
+as their preference.=E2=80=9D
+
+*Rasmussen Reports: =E2=80=9CClinton vs. Warren, and the Winner Among Democ
+rats
+Is=E2=80=A6=E2=80=9D
+<<<link>>
+anuary_2015/clinton_vs_warren_and_the_winner_among_democrats_is>*
+
+=E2=80=9CMassachusetts Senator Elizabeth Warren is increasingly the domain.com
+e of
+left-leaning Democrats, but Hillary Clinton trounces her in a head-to-head
+matchup for their party=E2=80=99s 2015 presidential nomination.=E2=80=9D
+
+*MSNBC: =E2=80=9CIn Iowa, GOP women take aim at Hillary=E2=80=9D
+<<<link>>
+im-hillary>*
+
+=E2=80=9CAt Saturday=E2=80=99s Iowa Freedom domain.com, the men in the ever-wid
+ening pool of
+potential 2015 GOP presidential candidates used their speeches to call for
+the best ways to crush Obamacare and immigration reform. But the women
+focused on one target: the likely 2015 Democratic standard bearer, Hillary
+Clinton.=E2=80=9D
+
+*Huffington Post: =E2=80=9CJoe Scarborough: Hillary Clinton Leads The 'Most
+ Elite,'
+'Gatsby-Like Existence' Of Any Politician=E2=80=9D
+<<<link>>
+rough_n_6546710.html>*
+
+=E2=80=9CHillary Clinton leads the =E2=80=98most Gatsby-like existence=E2
+=80=99 of any politician
+today, MSNBC=E2=80=99s =E2=80=98Morning Joe=E2=80=99 host Joe Scarborough s
+aid during his show
+Monday.=E2=80=9D
+
+*Articles:*
+
+*ABC News: =E2=80=9CHillary Clinton Has Been M.I.A. Lately -- and Here=E2
+=80=99s Why=E2=80=9D
+<<<link>>
+63>*
+
+By Liz Kreutz
+
+January 26, 2015, 10:27 a.m. EST
+
+At a time when many potential 2015 presidential contenders appear to be
+starting the ignition of their campaigns, Hillary Clinton has pressed the
+brake pedal.
+
+Or so it seems.
+
+Clinton=E2=80=99s calendar, which was jam-packed throughout most of last ye
+ar with
+paid speeches, award ceremonies, fundraisers, book tour stops, campaign
+appearances and official Clinton Foundation business, is now virtually
+empty.
+
+Over the past six weeks, the likely Democratic presidential candidate has
+made just two public appearances =E2=80=93 both on the same day, and both i
+n
+Canada. She doesn=E2=80=99t have another event scheduled until late next mo
+nth.
+
+Although Clinton still insists she hasn=E2=80=99t decided whether she=E2=80
+=99ll run, it is
+widely believed that she will, and an announcement is expected this spring.
+
+Until then, Clinton appears to be lying low and staying out of the public
+eye. Meanwhile, much of the focus has turned toward potential Republican
+candidates like Mitt Romney, Jeb Bush and Rand Paul. A dozen others tested
+out their possible stump speeches at a domain.com in Iowa last weekend.
+
+A Clinton spokesman declined to comment on reasons for her light public
+schedule. But, according to Democratic strategists and Clinton insiders,
+this is exactly how it should be.
+
+Here=E2=80=99s why:
+
+*Playing It Safe*
+
+After a rocky book rollout last summer and a few flubs on the midterm
+campaign trail, some see Clinton as politically rusty. Keeping out of the
+spotlight now lowers the chances of making mistakes that could come back to
+haunt her later.
+
+=E2=80=9CWhy take the risk?=E2=80=9D said one prominent Democrat with ties 
+to Clinton, who
+requested anonymity in order to speak candidly about Clinton=E2=80=99s
+vulnerabilities. =E2=80=9CThe more you=E2=80=99re out there -- I don=E2=80
+=99t care how prepared
+you are or how experienced you are -- she=E2=80=99s going to slip up.=E2=80
+=9D
+
+But, the source added, it=E2=80=99s about the optics, too. And her high-dol
+lar
+speaking fees aren=E2=80=99t a good look for a potential presidential candi
+date.
+The closer Clinton gets to an announcement, =E2=80=9Cthe more she really ne
+eds to
+pay attention to the arguments that she=E2=80=99s going to make about the e
+conomy,
+and other issues. And doing speeches for $250,000 a pop will detract from
+that,=E2=80=9D the source said.
+
+*Above the Fray*
+
+By lowering her profile, Clinton has avoided what Democratic strategist and
+ABC News contributor Donna Brazile described as =E2=80=9Cday-to-day, flash 
+and burn
+politics.=E2=80=9D
+
+"There=E2=80=99s no reason Hillary Clinton should be involved in what I cal
+l
+partisan, insular, inside-the-beltway politics,=E2=80=9D Brazile explained.
+ =E2=80=9CShe
+doesn=E2=80=99t need to be a part of what happens in Obama=E2=80=99s White 
+House and the
+Republican Congress. Her campaign is not predicated on what budget decision
+they make now, or what compromise they forge.=E2=80=9D
+
+This also gives Clinton the ability to cherry pick when she wants to weigh
+in. Recently, for instance, Clinton sent out unsolicited tweets criticizing
+Republicans attempts to roll back financial reform laws in Congress and
+supporting President Obama following the State of the Union.
+
+Clinton can swing this because she is technically still a private citizen.
+
+*Party Timing*
+
+At this point in 2007, Clinton had already announced her candidacy, but the
+playing field was different: There was a Republican president and Democrats
+were the opposition.
+
+There is no upside, some strategists say, to coming out early when your own
+party occupies the White House.
+
+=E2=80=9CIf Clinton were out there right now, they=E2=80=99d say, =E2=80=98
+What is she doing?=E2=80=99=E2=80=9D
+Brazile said. =E2=80=9CWhat advantage does she have in this battle?=E2=80
+=9D
+
+This time around, Republicans have more of a reason to be out there early.
+
+*Gearing Up, Getting Ready*
+
+Another likely reason Hillary Clinton is limiting her public events: To
+focus on her behind-the-scenes operation.
+
+In recent weeks, Clinton has begun staffing up, hiring longtime strategists
+and former Obama advisers to be part of her senior leadership team. She=E2
+=80=99s
+been digging into her 2015 polling numbers. And, as the Washington Post
+reported, she has been holding daily strategy meetings in her Chappaqua,
+New York home.
+
+=E2=80=9CShe=E2=80=99s hunkered down, preparing, and making a decision,=E2
+=80=9D said one Clinton
+insider with knowledge of the situation, =E2=80=9CThe idea that she=E2=80
+=99s off the
+radar, laying low, precludes the fact that she=E2=80=99s working really har
+d and
+being very much the Hillary Clinton that everyone knows.=E2=80=9D
+
+*Because She Can*
+
+A break from the public, strategists say, is a luxury Clinton can afford at
+the moment.
+
+Unlike lesser known candidates, Clinton doesn=E2=80=99t have to make a name
+ for
+herself. Plus, Clinton has outside groups =E2=80=93like Ready for Hillary a
+nd
+Correct the Record=E2=80=94 doing some of the early organizing work for her
+. This
+allows her to focus on other things like spending time with her family and
+preparing for what=E2=80=99s to come.
+
+Because, as one top Clinton donor noted, =E2=80=9CThe day she announces, sh
+e=E2=80=99ll be
+ready to go=E2=80=9D -- and squarely in the spotlight.
+
+*USA Today: =E2=80=9CPoll: For 2016, many Republicans but just one Democrat
+=E2=80=9D
+<<<link>>
+22344379/>*
+
+By Susan Page
+
+January 26, 2015, 12:23 p.m. EST
+
+WASHINGTON =E2=80=94 No wonder so many Republicans are considering a bid fo
+r
+president in 2016: It may be the most wide-open field ever.
+
+A new USA TODAY/Suffolk University Poll finds Republican and
+Republican-leaning voters scattered among 18 prospective nominees when
+asked an open-ended question about whom they want the GOP to nominate for
+president next year. "Undecided" finishes first, at 45%, trailed by 2015 
+nominee Mitt Romney at 16% and former Florida governor Jeb Bush at 13%.
+
+No one else gets close to double digits, though potential contenders
+including Texas Sen. Ted Cruz, Florida Sen. Marco Rubio, New Jersey Gov.
+Chris Christie and others make the list of those mentioned.
+
+The contrast couldn't be sharper with the other side. A 51% majority of
+Democratic and Democratic-leaning voters name former secretary of State
+Hillary Rodham Clinton as their preferred nominee; 31% are undecided. Just
+5% name Massachusetts Sen. Elizabeth Warren, a favorite of progressive
+activists, and 4% Vice President Biden.
+
+The telephone survey of 395 Democrats and 319 Republicans, taken Wednesday
+ through Sunday, has a margin of error of plus or minus 5 percentage points
+for the Democratic question and 6 for the Republican one.
+
+The Republican contest unofficially was launched in Des Moines over the
+weekend, when a procession of presidential prospects delivered speeches to
+the Iowa Freedom domain.com, a gathering of conservatives. The opening Iowa
+presidential caucuses are now about a year away.
+
+To be sure, a survey this far from the election can be largely a test of
+name identification. "The fact is that people are recalling the names
+they're most familiar with," says David Paleologos, director of Suffolk's
+Political Research Center, in Boston. "So it has its limitations."
+
+But the survey does spotlight the lack of a front-runner to define the
+early contest among Republicans. Before the last election, an open-ended
+question asked in an ABC News/Washington Post Poll in April 2015 also
+showed Romney at 16% =E2=80=94 but that was double the standing of anyone e
+lse.
+
+Among Democrats, Hillary Clinton commands the broadest support in memory of
+any prospective nominee at this point in the race when no incumbent
+president is running. Even among those who describe themselves as liberal
+or very liberal =E2=80=94 the group most likely to back Warren =E2=80=94 57
+% name Clinton
+as their preference.
+
+That's not to say Democrats are necessarily happy with their choices. In
+all, 58% of Democrats say the two parties don't do a good job of
+representing Americans' political views and say a third party or multiple
+parties are necessary. That's also the view of 45% of Republicans and 65%
+of independents.
+
+*Rasmussen Reports: =E2=80=9CClinton vs. Warren, and the Winner Among Democ
+rats
+Is=E2=80=A6=E2=80=9D
+<<<link>>
+anuary_2015/clinton_vs_warren_and_the_winner_among_democrats_is>*
+
+[No Writer Mentioned]
+
+January 26, 2015 
+
+Massachusetts Senator Elizabeth Warren is increasingly the favorite of
+left-leaning Democrats, but Hillary Clinton trounces her in a head-to-head
+matchup for their party=E2=80=99s 2015 presidential nomination. One-in-five
+Democratic voters, however, say they=E2=80=99ve never heard of Warren at th
+is early
+stage of the game.
+
+A new Rasmussen Reports national telephone survey finds that Clinton beats
+Warren 62% to 22% among Likely Democratic Voters asked whom they would vote
+for if their state=E2=80=99s primary was held today. But 16% are undecided 
+given
+those two choices only. (To see survey question wording, click here.)
+
+While just one percent (1%) of these voters say they=E2=80=99ve never heard
+ of
+Clinton, Warren is an unknown to 18%.
+
+Tomorrow at 10:30 a.m. Eastern, we=E2=80=99ll give you a better picture of 
+how the
+2016 Democratic field looks at this early stage when we open up the ballot
+to some of the other prominent hopefuls.
+
+In our last look at the Democratic race in mid-November, Clinton led a pack
+of potential candidates with 62% of the vote. Warren was a distant second
+with 17% support among her fellow Democrats.
+
+(Want a free daily e-mail update? If it's in the news, it's in our polls).
+Rasmussen Reports updates are also available on Twitter or Facebook.
+
+The survey of 648 Likely Democratic Voters was conducted on January 18-19,
+2015 by Rasmussen Reports. The margin of sampling error is +/- 4 percentage
+points with a 95% level of confidence. Field work for all Rasmussen Reports
+surveys is conducted by Pulse Opinion Research, LLC. See methodology.
+
+Generally, with an election this far in the future, it=E2=80=99s mostly abo
+ut name
+recognition, and Mitt Romney, the Republican presidential nominee in 2012,
+is the leader in the race to be his party=E2=80=99s standard-bearer in 2015 
+. Most
+voters, however, think the GOP should find a fresh face to be its
+presidential nominee.
+
+Among Democrats, men and those 40 and over prefer Warren more than women
+and younger voters do. Clinton is noticeably less popular with married
+Democrats compared to those who are not married.
+
+Clinton leads, though, in every demographic group, including liberal
+Democrats. Warren is still an unknown commodity to many of these voters.
+
+It=E2=80=99s important to remember that Clinton dominated the race for the 
+2008
+Democratic presidential nomination three years before the election,  but
+when Illinois Senator Barack Obama formally entered the race in January
+2007, it suddenly was a tie contest.
+
+Only 28% of all voters think Clinton and Obama like each other, but 75%
+think the president is likely to endorse Clinton over other Democratic
+contenders if she runs for the party=E2=80=99s presidential nomination in 2
+016.
+
+*MSNBC: =E2=80=9CIn Iowa, GOP women take aim at Hillary=E2=80=9D
+<<<link>>
+im-hillary>*
+
+By Anna Brand
+
+January 26, 2015, 12:10 p.m. EST
+
+At Saturday=E2=80=99s Iowa Freedom domain.com, the men in the ever-widening poo
+l of
+potential 2015 GOP presidential candidates used their speeches to call for
+the best ways to crush Obamacare and immigration reform. But the women
+focused on one target: the likely 2015 Democratic standard bearer, Hillary
+Clinton.
+
+Former Hewlett-Packard CEO Carly Fiorina, though relatively unknown in a
+field of thunderous voices, is actively exploring a 2015 run =E2=80=93 and 
+in Iowa
+she made it clear she=E2=80=99d be running as the anti-Hillary.
+
+=E2=80=9CLike Hillary Clinton, I too, have traveled hundreds of thousands o
+f miles
+around the globe,=E2=80=9D Fiorina said of the former secretary of state, d
+rawing
+cheers. =E2=80=9CBut unlike her, I have actually accomplished something. Mr
+s.
+Clinton, flying is an activity not an accomplishment.=E2=80=9D
+
+Only six of 24 speakers at the Iowa Freedom domain.com were women =E2=80=93 and
+ none of
+them have made waves as big as their male counterparts like Texas Sen. Ted
+Cruz and New Jersey Gov. Chris Christie. (Missing from the event were
+notable 2016ers former Florida Gov. Jeb Bush and former presidential
+candidate Mitt Romney.)
+
+Fiorina lost the only political campaign she=E2=80=99s run so far when she
+challenged Democratic Sen. Barbara Boxer of California in 2010. But she
+made headlines last summer when she launched a Super PAC, Unlocking
+Potential Project, aimed at teaching her male Republican counterparts how
+best to speak to women.
+
+But in her speech at Iowa=E2=80=99s crowded Hoyt Sherman Place, it wasn=E2
+=80=99t about
+raising women, it was about tearing one woman down.
+
+Sneaking Benghazi into her address (another topic glazed over by the male
+candidates who took the stage) Fiorina said: =E2=80=9CUnlike Hillary Clinto
+n, I
+know what difference it makes that our ambassador to Libya and three other
+brave Americans were killed in a deliberate terrorist attack on the
+anniversary of 9/11.=E2=80=9D
+
+Sarah Palin joined Fiorina in the Hillary-hating. The 2015 Republican vice
+presidential candidate, who recently said that she=E2=80=99s =E2=80=9Cserio
+usly interested=E2=80=9D
+in running for president in 2016, delivered a bizarre and often incoherent
+speech, but one aspect was clear: she=E2=80=99s got her sights on Hillary.
+
+=E2=80=9CI=E2=80=99m ready for Hillary, are you? Are you coming?=E2=80=9D P
+alin said, raising a
+Time magazine from last year with a headline =E2=80=9CCan Anyone Stop Hilla
+ry.=E2=80=9D
+
+Palin said she doesn=E2=80=99t feel there=E2=80=99s a rush to make a decisi
+on about 2016.
+Fiorina might have an opinion about whether Palin runs too, whether they
+compete for the party=E2=80=99s 2015 nomination or not. Back in 2015 as one
+ of John
+McCain=E2=80=99s economic advisers, Fiorina said that Palin, McCain=E2=80
+=99s VP pick,
+would not be qualified to be CEO of a corporation like Hewlett-Packard. She
+tried to salvage her comments on msnbc.
+
+Longtime Republican pollster Kellyanne Conway also dug into Hillary Clinton
+at the Freedom domain.com. =E2=80=9CDon=E2=80=99t worry about being called mean
+. Let=E2=80=99s talk
+about Hillary Clinton,=E2=80=9D she said. =E2=80=9CHillary Clinton is the s
+econd most
+influential person in her own household. I would say Hillary Clinton has
+the wrong vision for America, but I don=E2=80=99t know what it is.=E2=80=9D
+
+Tennessee GOP Rep. Marsha Blackburn also jumped on the bandwagon, mocking
+several TV networks for their coverage of Clinton. =E2=80=9CABC: All About 
+Clinton
+network; NBC: Nothing But Clinton; CNN: Clinton News Network; CBS - - just
+think about it!=E2=80=9D Translation: Clinton b.s.,=E2=80=9D she said.
+
+*Huffington Post: =E2=80=9CJoe Scarborough: Hillary Clinton Leads The 'Most
+ Elite,'
+'Gatsby-Like Existence' Of Any Politician=E2=80=9D
+<<<link>>
+rough_n_6546710.html>*
+
+By Dominique Mosbergen
+
+January 26, 2015, 10:40 a.m. EST
+
+Hillary Clinton leads the =E2=80=9Cmost Gatsby-like existence=E2=80=9D of a
+ny politician
+today, MSNBC=E2=80=99s "Morning Joe" host Joe Scarborough said during his s
+how
+Monday.
+
+Discussing Mitt Romney=E2=80=99s recent attempts to paint himself as a popu
+list
+leader, Scarborough said that the former Massachusetts governor may not
+have to worry about looking too elite next to Clinton, if the pair are
+indeed pitted against each other during next year=E2=80=99s presidential el
+ection.
+
+=E2=80=9CHillary Clinton has just as many billionaire friends, and has led 
+over the
+past 25 years the most elite, the most insular, the most Gatsby-like
+existence of any person in the political world today,=E2=80=9D Scarborough 
+said.
+=E2=80=9CHer friends are at Davos, her friends are at Goldman Sachs. I mean
+,
+Hillary Clinton, when she said we=E2=80=99re not really that rich -- do you
+ know
+why she said that? Because everybody she hangs out with are billionaires.
+=E2=80=9D
+
+During a speech at the Republican National Committee's winter meeting
+earlier this month, Romney, who appears to be eyeing a third run for
+president, said he plans to make poverty and income inequality the
+cornerstones of his campaign.
+
+=E2=80=9CUnder President [Barack] Obama, the rich have gotten richer, domain.com
+e
+inequality has gotten worse and there are more people in poverty than ever
+before,=E2=80=9D Romney said. =E2=80=9CUnder this president, his policies h
+ave not worked.
+Their liberal policies are good every four years for a campaign, but they
+don=E2=80=99t get the job done.=E2=80=9D
+
+Romney may have a difficult time convincing the general public that this
+latest reinvention is genuine, however.
+
+=E2=80=9CThe problem for Romney is that he is regarded by many, at least to
+day, as
+a wealthy plutocrat primarily concerned with feathering the nests of his
+affluent friends," The Washington Post's Chris Cillizza noted earlier this
+month. "Romney might have the right message -- frustration and anxiety over
+income inequality is everywhere in the country -- but he seems like a
+uniquely poor messenger to carry it."

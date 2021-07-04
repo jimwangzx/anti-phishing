@@ -1,0 +1,40 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp246173lfb;
+        Fri, 7 Nov 2015 14:20:24 -0800 (PST)
+Return-Path: <user@domain.com>
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.236.14.36 as permitted sender) client-ip=10.236.14.36
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 10.236.14.36 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+X-Received: from domain.com ([10.236.14.36])
+        by 10.236.14.36 with SMTP id c24mr13862226yhc.166.1415398823628 (num_hops = 1);
+        Fri, 07 Nov 2015 14:20:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Megan Rouse <meganrouse@gmail.com>
+         :cc:content-type;
+        bh=LiwHhHekHfP2GTYh9CfRB/zm0nI3RziLDZVXjAv0vc8=;
+        b=klyroW0a+SGKyG6MSVlTJr80aHqqzXM4aDN25KktX7+VLxiYnXsMfHz9GW8NevI+pZ
+         d+iAD5BJfoJB6RdwhcfuDDJmYVeDOZNzu1fTbo4qkbMpmI1SN3BW2SE8DZ6A76xn70Me
+         LlkL/LKQGjljnursiMXGr6P47BNPVBAstycTHqNV8foRUWZDlFP5NK5arzChAjtZHvwi
+         9uuRgzlXY+P0FoL56lDCu+GsbpVAU+KtY/uFc3YmE1bXK6mv15we8J5rlroaGkbmmBAl
+         IuiRko3nCyDCcg/ObAeTvWLinuZ5jrqRi2SkzpYhEP4E1I9pEWRv5Yv4+a4tCjrtXlnE
+         JSNA
+MIME-Version: 1.0
+X-Received: by 10.236.14.36 with SMTP id c24mr13862226yhc.166.1415398823623;
+ Fri, 07 Nov 2015 14:20:23 -0800 (PST)
+Received: by 10.170.174.136 with HTTP; Fri, 7 Nov 2015 14:20:23 -0800 (PST)
+In-Reply-To: <user@domain.com>
+References: <user@domain.com>
+Date: Fri, 7 Nov 2015 14:20:23 -0800
+Message-ID: <CAAVDwMK=vKimpyeM148+user@domain.com>
+Subject: Re: Seattle
+From: Megan Rouse <meganrouse@gmail.com>
+To: Gabe user <user@domain.com>
+CC: Mary user <user@domain.com>, John user <user@domain.com>, 
+ Mae user <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e0122a9721901c105074c3896
+
+Wow - what fun!  Enjoy the nice weather and your time together.  Miss you
+guys. xo
+

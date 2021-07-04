@@ -1,0 +1,86 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.66 with SMTP id e63csp226184lfb;
+        Sun, 16 Nov 2015 18:45:29 -0800 (PST)
+X-Received: by 10.66.184.111 with SMTP id et15mr25990057pac.58.1416192328690;
+        Sun, 16 Nov 2015 18:45:28 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mkt16-domain.com (mkt16-domain.com. [63.251.246.27])
+        by domain.com with ESMTP id fv5si13361969pac.49.2014.11.16.18.45.27
+        for <user@domain.com>;
+        Sun, 16 Nov 2015 18:45:28 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 63.251.246.27 as permitted sender) client-ip=63.251.246.27;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 63.251.246.27 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Return-Path: <user@domain.com>
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=dkim; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1416192327;
+	h=From: "John Catsimatidis Radio Roundtable" <John_Catsimatidis_Radio_Roundtab@mail.vresp.com>
+	bh=kX3U4ibMm773VUczNyUfd9w0ACc=;
+	b=lqdOifTvmlQLlEb/4RCznZuqyBDMHi06fY0YFXNuFbRdPqWZwLdHT0sD1H8jOCv+
+	M3HM0eNmLrkPnpLUvzJMMi5FfavkrnSVKfgjGxBDEXHZcLbp1ssMuJqp9VmvZ7RA
+	yEzTW2q/ZlErRXDBLzFI5Px/wQhjICJk2LNr6iQhaq8=;
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=mkt; d=domain.com;
+	h=Received:From: "John Catsimatidis Radio Roundtable" <John_Catsimatidis_Radio_Roundtab@mail.vresp.com>
+	b=KNdnG/8rcCPKYI4nlkLg+go/bZjerf+ELT8mjkXQ+wQ2OJ9esTJo1NcSXR6AiMjL
+	hm7i+n/AZQ/Kli0UDlKegui3WLGzIBNTfWWnNC6dE2Q34eEarjiRw9qBOtR5oXzT
+	bCB+Gh9+aBicdPq1WN6FFvS2Q9kosvxNB3OXwWjCEbI
+Received: from [10.4.33.153] ([10.4.33.153:54241] helo=vm-domain.com)
+	by tahoe (envelope-from <user@domain.com>)
+	(ecelerity 3.1.6.41536 r(41536)) with ESMTP
+	id 4A/AA-22166-74169645; Sun, 16 Nov 2015 18:45:27 -0800
+From: "John Catsimatidis Radio Roundtable" <John_Catsimatidis_Radio_Roundtab@mail.vresp.com>
+Reply-To: "User" <user@domain.com>
+To: user@domain.com
+Subject: Manhattan DA Cy Vance on the radio now    Tune in on 970 AM Radio
+Date: Mon, 17 Nov 2015 02:45:27 +0000
+Message-ID: <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>
+MIME-Version: 1.0
+X-Company_ID: 892154
+X-vrfbldomain: domain.com
+X-vrpod: p0
+X-CTS-Enabled: fda2b21f89-b809c5b342
+X-Campaign: fda2b21f89
+X-vrrpmm: 892154-fda2b21f89
+X-Feedback-ID: fda2b21f89:892154:vr1
+Content-Type: multipart/alternative;
+    boundary="__________MIMEboundary__________";
+    charset="UTF-8"
+
+What do the new marijuana guidelines mean?  Initiative on rape kits.
+Cy Vance is a great District Attorney.. tune in   Tune in to 970AM on
+your radio dial or
+<<link>>  on 
+your computer or smartphone.   Forward this message to a friend -
+<<link>>
+2229&ldh=3Db809c5b342    Previous programs here -
+<<link>>
+ppleGroup/c3a4b10fc4/TEST/ca788565d4
+<<link>> -
+<<link>> cats
+roundtable
+
+______________________________________________________________________
+Click to view this email in a browser
+<<link>>
+
+If you no longer wish to receive these emails, please reply to this
+message with "Unsubscribe" in the subject line or simply click on the
+following link:
+
+<<link>>
+
+______________________________________________________________________
+This message was sent by John Catsimatidis Radio Roundtable using
+VerticalResponse
+
+Red Apple Group
+823 11th ave
+New York, New York 10019
+US
+
+Read the VerticalResponse marketing policy:
+<<link>>
+

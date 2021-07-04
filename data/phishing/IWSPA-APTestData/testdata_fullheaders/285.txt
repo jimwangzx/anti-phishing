@@ -1,0 +1,255 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs76116wfw;
+        Sun, 26 Oct 2015 10:09:46 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.150.12.4 as permitted sender) client-ip=10.150.12.4;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 10.150.12.4 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Received: from domain.com ([10.150.12.4])
+        by 10.150.12.4 with SMTP id 4mr900487ybl.10.1225040985727 (num_hops = 1);
+        Sun, 26 Oct 2015 10:09:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Jacob Roberts" <jacob@progressiveaccountability.org>
+         :content-type:reply-to:sender:precedence:x-google-loop:mailing-list
+         :list-id:list-post:list-help:list-unsubscribe:x-beenthere-env
+         :x-beenthere;
+        bh=Y/MP8jo2pN2b/ym/JK9h2vd31FlwxA7n+KiyrsAJa/w=;
+        b=lhVYJUAIc2bLgUpIDXiwWzItnX4TPTF2s0vdjxb5HWEK/0z0XjYk13w2Ggn/bfXC1F
+         7pNGeH022MeEW7AJCOdCBV/bnYw1XyWnPfcYJ6Ne4wF8w1a0Q0Jq6TrejHnRQ0eSj9K7
+         HIyjH0Lssl58aW1y8joQJ9GP9qNTMQWUJMu/4
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Jacob Roberts" <jacob@progressiveaccountability.org>
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=Ox6ga9G3Aoip4DMX+SFVKxwyGgXl50pgGJ/1T+9G5ZhzPDI03xkgiwr4cVjWmW+GHs
+         DlyeF4nsc1AgsjJLcimCaC2TOrjqIpDkCtriq0RR+kM8Z8ekGP48wA9eOlyxYC0oqEsI
+         9l/0dQU9tOw//p0baIRZxGX33m7ApjUDXhQZY
+Received: by 10.150.12.4 with SMTP id 4mr99360ybl.10.1225040976675;
+        Sun, 26 Oct 2015 10:09:36 -0700 (PDT)
+Received: by 10.106.212.23 with SMTP id k23gr2570prg.0;
+	Sun, 26 Oct 2015 10:09:29 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.151.108.5 with SMTP id k5mr1387214ybm.23.1225040966682; Sun, 26 Oct 2015 10:09:26 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from fg-out-1718.domain.com (fg-out-1718.domain.com [72.14.220.155]) by domain.com with ESMTP id 22si4259538yxr.1.2008.10.26.10.09.26; Sun, 26 Oct 2015 10:09:26 -0700 (PDT)
+Received-SPF: neutral (domain.com: 72.14.220.155 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=72.14.220.155;
+Authentication-Results: domain.com; spf=neutral (domain.com: 72.14.220.155 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by fg-out-1718.domain.com with SMTP id l26so1528759fgb.35 for <user@domain.com>; Sun, 26 Oct 2015 10:09:26 -0700 (PDT)
+Received: by 10.86.3.4 with SMTP id 4mr2344744fgc.44.1225040966035; Sun, 26 Oct 2015 10:09:26 -0700 (PDT)
+Received: by 10.86.62.1 with HTTP; Sun, 26 Oct 2015 10:09:25 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Sun, 26 Oct 2015 13:09:25 -0400
+From: "Jacob Roberts" <jacob@progressiveaccountability.org>
+To: user@domain.com
+Subject: [big campaign] Tracking Update: Palin Rally in Tampa, FL 10/26/08
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_49976_4487709.1225040966010"
+Reply-To: user@domain.com
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+Hello All,
+Unfortunately we weren't able to send a tracker to this event. But good
+news: we were able to capture the event via online-streaming video. Below
+are the notes from that effort.
+
+Big Highlights*
+
+   - Speaks to RNC-financed wardrobe: The clothes like the lighting and
+   everything else isn't mine It doesn't belong to me. The RNC bought it. I
+ am
+   back to wearing my favorite consignment shop dress from anchorage Alaska
+,
+   Earing made my native Alaskan mother in law =96 goes through the rest of
+ her
+   accessories
+   - Says America isn't the problem - it's the solution
+   - Gets large amount of boos from audience when she says Obama has alread
+y
+   written his inaugural speech; says we don't assume your votes - we
+   respectfully ask for hem
+   - Hammers the Obama-Pelosi-Reid agenda mainly on taxes; claims it will
+   erode American work ethic and pushes it as socialist (even un-American -
+ "We
+   don't believe America is the problem. We believe America is the solution
+!")
+
+*
+Tampa, FL: Palin Rally 10/26/08
+(Disclaimer: The following are notes, not direct quotes. If you'd like a
+quotable transcript or video of any part below, please email us.)
+
+Background details
+
+   - Sean Hannity in the vicinity
+   - There with first dude and fam; Palin couldn't seem to find one of her
+   children
+   - Talks up the Rays
+   - Event closes to song about how "She's not just a pretty face."
+
+Speech Highlights Let me address the clothes thing, glad Elizabeth gave me 
+a
+chance to talk about this. The clothes like the lighting and everything els
+e
+isn't mine It doesn't belong to me. The RNC bought it. I am back to wearing
+my favorite consignment shop dress from anchorage Alaska, Earing made my
+native Alaskan mother in law =96 goes through the rest of her accessories
+
+Thanks soldiers for being there, and their service and sacrifice
+
+Talks up Tampa Rays =96 who would have thought =96 you know something about
+being an underdog into a victor
+
+Florida are your eady to help us carry your state to victory? Are you ready
+to make John McCain the next president of the United States? Are you ready
+to send us to Washington to shake things up? This is about the future of
+America
+
+It was reported that Obama's inaugural speech is already written, 9 days
+out. BO and I have spent some time on the basketball court. You have to win
+the game before you cut down the net. Its like the seal, germany and the
+stadium they have already rented, its like they think the whole election
+thing is a matter formality
+
+We need John McCain, someone who will fight for you
+
+With our economic plan, we will help Americans keep their home by cleaning
+up the corruption in Washington, we will help all of us to afford healthcar
+e
+and help our students afford college.
+
+Small business are the backbone of the American economy
+
+We are going to let you keep more of your money, we will cut taxes and
+business taxes to help keep American business in America
+
+We already know with National security the difference with the tickets and
+how you will have a winning hand with our ticket
+
+We need to hear the difference on the economy, our opponent is not being
+honest with his plan, it is not negative campaigning to question plans and
+proposals
+
+He says he is now for a tax domain.com =96 that is where the government takes y
+our
+money and distributed it based on the their priorities
+
+Thanks to Joe the Plumber =96 he got our opponent to say what his real plan
+ is
+=96to take your money and dolling it out how he wants =96 Joe the plumber c
+alled
+it socialism and it is not the time to experiment with that
+
+Talks about Tito the builder =96 he isn't pleased with how the Obama camp h
+as
+been roughing up Joe the plumber. Tito wants to know, why the heck are you
+going after Joe the Plumber? Tito is an immigrant from Colombia =96 everyth
+ing
+is possible in America. Tito said I was born in Colombia but I was made in
+the USA. Tito is not the only supporter that feels that way. Doesn't seem
+like many of you will be supporting Barack the wealth spreader
+
+Out opponents is for bigger government =96and that is not the solution. We 
+are
+going to spread opportunity around =96so you can create new wealth. We have
+ a
+fundamental difference in our views
+
+He voted 94 times for higher taxes =96 he had the opportunity to be on your
+side and he voted 94 times to be on big governments side. Do the math or go
+with your gut either way Barack Obama will raise your taxes
+
+We think bureaucracy should do more with less =96 so Florida lets fight for
+what is right, lets elect John McCain to be your next president. Simply Joh
+n
+and I do not think you should be working for government, we think it should
+work for you. We need to get it back on your side.
+
+We have a 10 trillion dollar debt, we need to stop digging the hole we are
+in. We will put a sending freeze on everything but the most vital of
+programs.  We have not been talking the talk we have been walking the walk,
+John McCain as a Sen has been taking on corruption and abuses and has the
+scares to prove it. Now I will tell you of some of my accomplishments as
+Gov. Up their in AK I eliminated property taxes, reducing and eliminating
+other taxes and fees, as Governor also I had to take on the good ol boys in
+my own party used the veto pen on wasteful spending, you come out of that
+with scars too but it is the right thing to do. We are returning the surplu
+s
+to the people of AK because it is their money. We got back to basics =96 we
+will use the same common sense conservatism to make the government work for
+you.
+
+Florida will you hire us? Will you send us back to Washington? You Betcha!
+We can not domain.com to work for you. We will put us back on a path to energy
+independence.
+
+[CHANT: Drill baby Drill]
+
+Some of our energy dollars is ending up in volatile countries that use
+energy as a weapon. We need to spend that money here in America creating
+jobs.
+
+We will develop the technologies needed =96 clean coal and we will drill he
+re
+and drill now
+
+We need American energy resources brought to you by American ingenuity.
+
+Talks about helping Families with Special needs =96 too often children with
+special needs have been set apart and excluded =96 that attitude is such a
+disservice to those kids to their family and to this country I will work to
+change that. John and I have a vision of America where every innocent life
+counts. Where everyone has a chance to contribute, and that is the domain.com I
+want to bring to Washington DC
+
+As Vice President I want to do more, let these kids and families know they
+come first and that they have a friend in the White House.
+
+As the election draws near you are getting a clearer vision of your choice.
+A politician who puts his trust in government or a leader who puts his trus
+t
+in you. It's the difference between spreading wealth and opportunity.
+
+Remember we are at war and we need someone who isn't afraid to use the word
+victory when talking about those wars. J Mac won't cut troop funding. Thank
+God J Mac knows how to win a war and as a mother I know we need him as POTU
+S
+
+We believe the best of America is not gathered in DC. We believe it's here
+in the hard-working Americans who toil and die for us. We believe America i
+s
+not the problem. America is the solution
+
+--
+Jacob Roberts
+PAO
+208.420.3470 (c)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---
+

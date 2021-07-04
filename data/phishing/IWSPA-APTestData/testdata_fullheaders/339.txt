@@ -1,0 +1,35 @@
+Delivered-To: user@domain.com
+Received: by 10.142.213.11 with SMTP id l11cs517786wfg;
+        Sat, 13 Dec 2015 10:19:36 -0800 (PST)
+Received: by 10.151.150.20 with SMTP id c20mr8895485ybo.139.1229192374581;
+        Sat, 13 Dec 2015 10:19:34 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-external-PLS-SMTP-02.ptt.gov (mail-pls-smtp-02.ptt.gov [72.164.179.9])
+        by domain.com with ESMTP id p33si6586016elf.8.2008.12.13.10.19.34;
+        Sat, 13 Dec 2015 10:19:34 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 72.164.179.9 as permitted sender) client-ip=72.164.179.9;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 72.164.179.9 as permitted sender) user@domain.com
+X-HAT-SENDERGROUP: GROUPWARE_OUTBOUND
+X-HAT-SENDER_IP: 10.10.17.95
+X-IronPort-AV: E=Sophos;i="4.36,216,1228107600"; 
+   d="scan'208,217";a="363040"
+Received: from pls-excas-01.ptt.gov ([10.10.17.95])
+  by mail-internal-PLS-SMTP-02.ptt.gov with ESMTP; 13 Dec 2015 13:19:33 -0500
+Received: from MBX-01.ptt.gov ([10.10.17.97]) by PLS-EXCAS-01.ptt.gov
+ ([10.10.17.95]) with mapi; Sat, 13 Dec 2015 13:19:33 -0500
+From: Sara Latham <Sara.Latham@ptt.gov>
+To: "User" <user@domain.com>
+Date: Sat, 13 Dec 2015 13:19:31 -0500
+Subject: 
+Thread-Index: AcldT1gihFAcWqiDSSa8bW5MXmq7ew
+Message-ID: <2user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: multipart/alternative;
+	boundary="_000_2D9BF548D5515F438B3AA0B0BE7BF5F6303403E523MBX01pttgov_"
+MIME-Version: 1.0
+
+name from Denis to run by Deutch -  Mary Margaret Graham

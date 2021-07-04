@@ -1,0 +1,141 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.3.4.5])
+	by domain.com (Postfix) with ESMTP
+	id 99C46536FF4; Sat, 10 Dec 2015 21:37:52 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id ECF626FA270;
+	Sat, 10 Dec 2015 21:37:34 -0500 (EST)
+Received: from pc-120-40-239-201.domain.com (pc-120-40-239-201.domain.com [201.239.40.120])
+	by domain.com (Postfix) with SMTP;
+	Sat, 10 Dec 2015 21:37:31 -0500 (EST)
+Received: from 52.9.22.16 by 201.239.40.120; Sat, 10 Dec 2015 21:34:27 -0500
+Message-ID: <I[20
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ******************
+X-Spam-Status: Yes, score=18.0 required=5.0 tests=HELO_DYNAMIC_IPADDR,
+	MISSING_HEADERS,MISSING_SUBJECT,RCVD_BY_IP,RCVD_DOUBLE_IP_SPAM,
+	RCVD_IN_BL_SPAMCOP_NET,RCVD_IN_DSBL,RCVD_IN_XBL autolearn=spam 
+	version=3.0.2
+X-Spam-Report: 
+	*  4.4 HELO_DYNAMIC_IPADDR Relay HELO'd using suspicious hostname (IP addr 1)
+	*  0.1 RCVD_BY_IP Received by mail server with no name
+	*  0.1 MISSING_HEADERS Missing To: header
+	*  3.8 RCVD_IN_DSBL RBL: Received via a relay in domain.com
+	*      [<<>>]
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [201.239.40.120 listed in sbl-domain.com]
+	*  4.1 RCVD_DOUBLE_IP_SPAM Bulk email fingerprint (double IP) found
+	*  1.2 MISSING_SUBJECT Missing Subject: header
+Date: Sat, 10 Dec 2015 21:37:34 -0500 (EST)
+From: service@paypal.com
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords: 
+X-UID: 113
+
+From user@domain.com  Sat Dec 10 23:28:18 2015 
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [10.3.4.5])
+	by domain.com (Postfix) with ESMTP id BDC09536E76
+	for <user@domain.com>; Sat, 10 Dec 2015 23:28:17 -0500 (EST)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 981206FA2F3
+	for <user@domain.com>; Sat, 10 Dec 2015 23:28:15 -0500 (EST)
+Received: from 10.3.4.5 (cpe-24-221-14-2.domain.com [24.221.14.2])
+	by domain.com (Postfix) with SMTP
+	for <user@domain.com>; Sat, 10 Dec 2015 23:28:15 -0500 (EST)
+Received: from domain.com [117.253.248.121] by 10.3.4.5 with ESMTP id D48B2C96A5F; Sun, 11 Dec 2015 07:08:21 +0100
+Message-ID: <user@domain.com>
+From: service@paypal.com
+To: <user@domain.com>
+Subject: domain.com Union Services: update your account records
+Date: Sun, 11 Dec 05 07:08:21 GMT
+X-Mailer: Microsoft Outlook, Build 10.0.2616
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="CF728.034.CD84DEB"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ********************
+X-Spam-Status: Yes, score=20.9 required=5.0 tests=DATE_SPAMWARE_Y2K,
+	FORGED_MUA_OUTLOOK,FORGED_OUTLOOK_HTML,HTML_40_50,HTML_MESSAGE,
+	MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,MISSING_MIMEOLE,MPART_ALT_DIFF,
+	MSGID_RANDY,RCVD_BY_IP,RCVD_HELO_IP_MISMATCH,RCVD_IN_BL_SPAMCOP_NET,
+	RCVD_IN_XBL,RCVD_NUMERIC_HELO autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  3.9 DATE_SPAMWARE_Y2K Date header uses unusual Y2K formatting
+	*  0.1 RCVD_BY_IP Received by mail server with no name
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  2.2 RCVD_HELO_IP_MISMATCH Received: HELO and IP do not match, but should
+	*  0.0 HTML_40_50 BODY: Message is 40% to 50% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in domain.com
+	*      [Blocked - see <<>>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [24.221.14.2 listed in sbl-domain.com]
+	*  1.9 MSGID_RANDY Message-Id has pattern used in spam
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 114
+
+This is a multi-part message in MIME format.
+
+--CF728.034.CD84DEB
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1
+">
+<META content=3D"MSHTML 6.00.2900.2668" name=3DGENERATOR>
+
+<p style=3D"margin-top: 0; margin-bottom: 0" align=3D"right">
+<font face=3D"Arial" size=3D"2" color=3D"#FF0000">0000-3748-PSI-0934</font
+
+<p align=3D"left" style=3D"margin-top: 0; margin-bottom: 0">
+<font face=3D"Arial" size=3D"2">Dear domain.com Union Member,
+
+This Notice informs you that your domain.com Union bank has joined our Federal
+ domain.com Union (FCU) network. 
+For both, our and your security, we are asking you to activate an online a
+ccount on our database. 
+
+You must domain.com the FCU activation page and fill in the form to activate yo
+ur online account.  
+<p align=3D"left" style=3D"margin-top: 0; margin-bottom: 0"> 
+<font face=3D"Arial" size=3D"2">
+<p style=3D"margin-top: 0; margin-bottom: 0">
+<font size=3D"2" style=3D"font-size: 100%" face=3D"Arial">To activate your
+ online account 
+records please <a href=3D"<>
+ted_session/0000-3748-PSI-0934">click here.
+
+In accordance with NCUA User Agreement, you can use your online account in
+ 24 hours after activation. 
+We thank you for your prompt attention to this matter. Please understand t
+hat this is a 
+ security measure intended to help protect you and your account.
+
+We apologize for any inconvenience.
+
+Sincerely, NCUA Account Review Department
+
+
+
+--CF728.034.CD84DEB

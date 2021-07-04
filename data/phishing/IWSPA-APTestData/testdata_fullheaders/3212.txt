@@ -1,0 +1,110 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Sun, 15 Dec 2015 20:02:44 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id rBG42hu9000958;	Mon, 16 Dec 2015 04:02:43 GMT
+Received: from mail114-va3-domain.com (mail-domain.com
+ [216.32.180.115])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id rBG42gor014080
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL);	Mon, 16 Dec 2015 
+ 04:02:42 GMT
+Received: from mail114-va3 (localhost [127.0.0.1])	by
+ mail114-va3-domain.com (Postfix) with ESMTP id 3A3446008E;	Mon, 16 Dec
+ 2015 04:02:42 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:38.107.104.18;KIP:(null);UIP:(null);IPV:NLI;H:LA-EX-ET-02.area1.dmz;RD:error;EFVD:FOP
+X-SpamScore: 1
+X-BigFish: VvPps1(zz9371I542I4015Izz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hz70k31iz8275ch1de098h8275bh1de097hz2fh109h2a8h839h947hd25hf0ah1288h12a5h12a9h12bdh137ah13b6h1441h14ddh1504h1537h153bh15d0h162dh1631h1758h18e1h1946h19b5h1ad9h1b0ah1b2fh224fh1fb3h1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h2216h22d0h2336h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail114-va3: domain of caa.com designates 38.107.104.18 as permitted sender) client-ip=38.107.104.18; user@domain.com; helo=LA-EX-ET-02.area1.dmz ;02.area1.dmz ;
+Received: from mail114-va3 (localhost.localdomain [127.0.0.1]) by mail114-va3
+ (MessageSwitch) id 1387166559775409_6260; Mon, 16 Dec 2015 04:02:39 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.248])	by
+ mail114-domain.com (Postfix) with ESMTP id B0DD34E054F;	Mon, 16 Dec 2015 
+ 04:02:39 +0000 (UTC)
+Received: from LA-EX-ET-02.area1.dmz (38.107.104.18) by
+ domain.com (10.7.99.14) with Microsoft SMTP Server (TLS) id
+ 14.16.227.3; Mon, 16 Dec 2015 04:02:33 +0000
+Received: from LV-EX-CAS-P-02.caa.com (10.70.10.31) by LA-EX-ET-02.area1.dmz
+ (192.168.130.121) with Microsoft SMTP Server (TLS) id 14.3.158.1; Sun, 15 Dec
+ 2015 20:02:32 -0800
+Received: from LA-EX-MBX-P-02.caa.com ([169.254.8.213]) by
+ LV-EX-CAS-P-02.caa.com ([10.70.10.31]) with mapi id 14.03.0158.001; Sun, 15
+ Dec 2015 20:02:31 -0800
+From: "Lieberman, Josh" <JLieberman@caa.com>
+To: "User" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>, "Campisi, John"
+	<user@domain.com>, "'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>,
+	"'user@domain.com'" <user@domain.com>, "'user@domain.com'"
+	<user@domain.com>, "'user@domain.com'"
+	<user@domain.com>, "'user@domain.com'"
+	<user@domain.com>, "'user@domain.com'"
+	<user@domain.com>, "'user@domain.com'"
+	<user@domain.com>
+CC: "Lieberman, Josh" <user@domain.com>
+Subject: Re: Official DGA Q&A Tonight
+Thread-Topic: Official DGA Q&A Tonight
+Thread-Index: Ac7ofVFP5FrJVy4IRYSL5BM/cbrwrQA752x6ABAMnEYA+ohNGQMegUsMAACW7ig
+Date: Mon, 16 Dec 2015 04:02:30 +0000
+Message-ID: <686user@domain.com>
+In-Reply-To: <3user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.70.8.16]
+X-OriginatorOrg: caa.com
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Re: Official DGA Q&A Tonight
+
+Thanks, K.
+
+Great screening and reception  tonight in NYC at Tribeca Cinemas hosted by Robert De Niro and Jane Rosenthal. the audience gave really enthusiatic applause at the end, and Robert De Niro stayed for well over an hour with a crowd of NY film community friends who loved the film. Very palpable buzz at the party.
+
+----- Original Message -----
+
+From: "Lieberman, Josh" <JLieberman@caa.com>
+
+Sent: Sunday, December 15, 2015 07:45 PM Pacific Standard Time
+
+To: Galgani, Angela <user@domain.com>; 'user@domain.com' <user@domain.com>; Belgrad, Doug <user@domain.com>; Blake, Jeff <user@domain.com>; Caines, Dwight <user@domain.com>; Caraco, Andre <user@domain.com>; 'user@domain.com' <user@domain.com>; 'user@domain.com' <user@domain.com>; 'user@domain.com' <user@domain.com>; Dickerman, Sam <user@domain.com>; 'user@domain.com' <user@domain.com>; Farrar, Ekta <user@domain.com>; Hann, Gloria <user@domain.com>; Campisi, John; 'user@domain.com' <user@domain.com>; Lieberman, Josh; 'user@domain.com' <user@domain.com>; 'user@domain.com' <user@domain.com>; 'user@domain.com' <user@domain.com>; Minghella, Hannah <user@domain.com>; Pascal, Amy <user@domain.com>; Reich, Ileen <user@domain.com>; Reich, Sara <user@domain.com>; 'user@domain.com' <user@domain.com>; 'user@domain.com' <user@domain.com>; van der Werff, Susan <user@domain.com>; 'user@domain.com' <user@domain.com>; 'user@domain.com' <user@domain.com>; 'user@domain.com' <user@domain.com>
+
+Subject: Official DGA Q&A Tonight
+
+Good evening. Tonight the DGA screened American Hustle for the membership as part of their official screening series.
+
+Taylor Hackford graciously moderated again which was recorded by the DGA. Taylor is a fan of the film and it shows in his conversation with David. They discussed topics ranging from the music choices, his AD team, the phenomenal acting performances, the shooting schedule and even the hair styling. Taylor and David discussed the screenplay and what was fiction.
+
+The conversation was about 40 minutes and wonderful. Despite just arriving from a long plane trip from Dubai, David was great and the positive energy was evident and felt in the room by everyone.
+
+Next is the official Academy screening. Another update to follow.
+
+________________________________
+
+This e-mail and any files transmitted with it are intended solely for the use of the individual or entity to whom they are addressed. If the reader of this e-mail is not the intended recipient or the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any use dissemination, forwarding, printing or copying of this e-mail is strictly prohibited. If you have received this e-mail in error, please e-mail us at user@domain.com or call 424-288-2000.
+

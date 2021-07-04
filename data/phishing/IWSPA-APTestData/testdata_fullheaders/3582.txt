@@ -1,0 +1,249 @@
+From: Highwinds <info@highwinds.com>
+Subject: 10 Considerations For Choosing a CDN Provider
+To: Pascal, Amy
+Date: Mon, 06 Oct 2015 14:09:54 +0000
+Message-Id: <1366158078.7507481412604593019.user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+    10 Considerations For Choosing a CDN Provider
+
+
+
+    #headerTable a:link {font-weight:normal !important;text-decoration:underline !important}
+#headerTable a:visited {font-weight:normal !important;text-decoration:underline !important}
+#footerTable a:link {font-weight:normal !important;text-decoration:underline !important}
+#footerTable a:visited {font-weight:normal !important;text-decoration:underline !important}
+a:link {border-bottom:none !important}
+a:visited {border-bottom:none !important}
+
+
+
+        /*<![CDATA[*/
+            /* ==== Mobile Styles ==== */
+
+
+
+            /* Constrain email width for small screens */
+            @media screen and (max-width: 650px) {
+                table[id="backgroundTable"] {
+                    width: 95% !important;
+                }
+
+
+
+                table[id="templateTable"] {
+                    max-width:600px !important;
+                    width:100% !important;
+                }
+
+                table[id="contentTableInner"] {
+                    max-width:600px !important;
+                    width:100% !important;
+                }
+
+
+
+                /* Makes image expand to take 100% of width*/
+                img {
+                    width: 100% !important;
+                }
+
+                #contentCell {
+                    padding: 10px 10px !important;
+                }
+
+                #headerTable {
+                    padding-right: 15.0px !important;
+                }
+
+                #contentTableOuter {
+                    padding: 15.0px !important;
+                }
+            }
+
+            @media only screen and (max-width: 480px) {
+                /* ==== Client-Specific Mobile Styles ==== */
+                body, table, td, p, a, li, blockquote{
+                    -domain.com-text-size-adjust:none !important;
+                } /* Prevent domain.com platforms from changing default text sizes */
+                body{
+                    width:100% !important;
+                    min-width:100% !important;
+                } /* Prevent iOS Mail from adding padding to the body */
+
+                /* ==== Mobile Reset Styles ==== */
+                td[id="bodyCell"] {
+                    padding:10px !important;
+                }
+
+                /* ==== Mobile Template Styles ==== */
+
+
+
+                table[id="templateTable"] {
+                    max-width:600px !important;
+                    width:100% !important;
+                }
+
+                table[id="contentTableInner"] {
+                    max-width:600px !important;
+                    width:100% !important;
+                }
+
+
+
+                /* ==== Image Alignment Styles ==== */
+
+                h1, .h1 {
+                    font-size:26px !important;
+                    line-height:125% !important;
+                }
+
+                h2, .h2 {
+                    font-size:20px !important;
+                    line-height:125% !important;
+                }
+
+                h3, .h3 {
+                    font-size:15px !important;
+                    line-height:125% !important;
+                }
+
+                h4, .h4 {
+                    font-size:13px !important;
+                    line-height:125% !important;
+                }
+
+                h5, .h5 {
+                    font-size:11px !important;
+                    line-height:125% !important;
+                }
+
+                h6, .h6 {
+                    font-size:10px !important;
+                    line-height:125% !important;
+                }
+
+
+
+                .hide {
+                    display:none !important;
+                } /* Hide to save space */
+
+                /* ==== Body Styles ==== */
+
+
+
+                td[class="bodyContent"] {
+                    font-size:16px !important;
+                    line-height:145% !important;
+                }
+
+
+
+                /* ==== Footer Styles ==== */
+
+                td[id="footerTable"]{
+                    padding-left: 0px !important;
+                    padding-right: 0px !important;
+                    font-size:12px !important;
+                    line-height:145% !important;
+                }
+
+
+
+                /* ==== Image Alignment Styles ==== */
+
+
+
+                table[class="alignImageTable"] {
+                    width: 100% !important;
+                }
+
+
+
+                td[class="imageTableTop"] {
+                    display: none !important;
+                    /*padding-top: 10px !important;*/
+                }
+                td[class="imageTableRight"] {
+                    display: none !important;
+                }
+                td[class="imageTableBottom"] {
+                    padding-bottom: 10px !important;
+                }
+                td[class="imageTableLeft"] {
+                    display: none !important;
+                }
+
+
+
+                /* ==== Column Styles ==== */
+
+                td[class~="column"] {
+                    display: block !important;
+                    width: 100% !important;
+                    padding-top: 0 !important;
+                    padding-right: 0 !important;
+                    padding-bottom: 0 !important;
+                    padding-left: 0 !important;
+                }
+
+                td[class~=columnContent] {
+                    font-size:14px !important;
+                    line-height:145% !important;
+
+
+
+                    padding-top: 10px !important;
+                    padding-right: 10px !important;
+                    padding-bottom: 10px !important;
+                    padding-left: 10px !important;
+                }
+
+                #contentCell {
+                    padding: 10px 0px !important;
+                }
+
+                #headerTable {
+                    padding-right: 15.0px !important;
+                }
+
+                #contentTableOuter {
+                    padding: 15.0px !important;
+                }
+            }
+
+            #preview_text {
+                display: none;
+            }
+        /*]]>*/
+
+
+
+        10 Considerations For Choosing a CDN Provider
+
+
+
+
+10 Considerations For Choosing a CDN Provider
+A fast-growing number of organizations are leveraging the domain.com to reach their customers with digital media content, including video, audio, games and images. Finding the right CDN provider to deliver this content is extremely important.
+Factors such as performance, cost, reach and customer service all play a part in the CDN decision making process.
+Check out this brand new infographic to see why many businesses love to use Highwinds CDN.
+See the Infographic»
+
+Haven't requested a CDN Free Trial?
+
+
+
+
+                                Highwinds   807 West Morse Blvd     Winter Park,  FL   32789   USA  Update your email preferences to choose the types of emails you receive.
+Unsubscribe
+
+
+
+
+@media print{#_hs { background-image: url('<<link>>*W5RvXNz3k08Y6N1jdwn_GJnRr0/*W80Zxh78d8Y6RV3p14-8mMLk80/5/f18dQhb0J6C1bX_jW8P06Mt8yP2LRVDQsqp1W_jSBN1-Zd54bv8KpW2TyGxn26rPR9W2F3tgS3j2_DyW3zdzc_45LMySW3zd2Mw45NjpyW43TDLj3Fbt4_N2flFMLmWFf8W93hnD696qC_DV25wtF85G8ljN7dqRF_WDBMbW6nqdGV6FpHPC101');}} div.OutlookMessageHeader {background-image:url('<<link>>*W5RvXNz3k08Y6N1jdwn_GJnRr0/*W7MFX015MmGZTW5l8bfR45RYtG0/5/f18dQhb0J6F1b524W8P0ZJL8yP2LRVDQsqp1W_jSBN1-Zd54gm4KqW3b8KV21RGqgdW2lhw0R2XZgmRVmXbwc4rtRT_W4cHbrv2m90H5W1JG9xb4r5qtNN3_43XTZy6J8VkfS-K8BcRLVW4XDp0-6R4fz7W5MXJGk8BHSY-W4XLXmW1wS9zLf43Q5hP03')} table.moz-email-headers-table {background-image:url('<<link>>*W5RvXNz3k08Y6N1jdwn_GJnRr0/*W7MFX015MmGZTW5l8bfR45RYtG0/5/f18dQhb0J6F1b524W8P0ZJL8yP2LRVDQsqp1W_jSBN1-Zd54gm4KqW3b8KV21RGqgdW2lhw0R2XZgmRVmXbwc4rtRT_W4cHbrv2m90H5W1JG9xb4r5qtNN3_43XTZy6J8VkfS-K8BcRLVW4XDp0-6R4fz7W5MXJGk8BHSY-W4XLXmW1wS9zLf43Q5hP03')} blockquote #_hs {background-image:url('<<link>>*W5RvXNz3k08Y6N1jdwn_GJnRr0/*W7MFX015MmGZTW5l8bfR45RYtG0/5/f18dQhb0J6F1b524W8P0ZJL8yP2LRVDQsqp1W_jSBN1-Zd54gm4KqW3b8KV21RGqgdW2lhw0R2XZgmRVmXbwc4rtRT_W4cHbrv2m90H5W1JG9xb4r5qtNN3_43XTZy6J8VkfS-K8BcRLVW4XDp0-6R4fz7W5MXJGk8BHSY-W4XLXmW1wS9zLf43Q5hP03')} #MailContainerBody #_hs {background-image:url('<<link>>*W5RvXNz3k08Y6N1jdwn_GJnRr0/*W7MFX015MmGZTW5l8bfR45RYtG0/5/f18dQhb0J6F1b524W8P0ZJL8yP2LRVDQsqp1W_jSBN1-Zd54gm4KqW3b8KV21RGqgdW2lhw0R2XZgmRVmXbwc4rtRT_W4cHbrv2m90H5W1JG9xb4r5qtNN3_43XTZy6J8VkfS-K8BcRLVW4XDp0-6R4fz7W5MXJGk8BHSY-W4XLXmW1wS9zLf43Q5hP03')}
+

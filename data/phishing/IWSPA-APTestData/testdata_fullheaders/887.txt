@@ -1,0 +1,83 @@
+Delivered-To: user@domain.com
+Received: by 10.142.226.9 with SMTP id y9cs105665wfg;
+        Wed, 24 Sep 2015 12:13:42 -0700 (PDT)
+Received: by 10.151.15.9 with SMTP id s9mr11521475ybi.205.1222283621677;
+        Wed, 24 Sep 2015 12:13:41 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.61])
+        by domain.com with ESMTP id 6si8177646ywc.9.2008.09.24.12.13.40;
+        Wed, 24 Sep 2015 12:13:41 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.61 as permitted sender) client-ip=209.85.217.61;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.217.61 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 21so29814gxk.1
+        for <user@domain.com>; Wed, 24 Sep 2015 12:13:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :dkim-signature:domainkey-signature:received:received:message-id
+         :date:From: "David Donnelly" <david.a.donnelly@gmail.com>
+         :references:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=5kBAa9zOBCzgbdmnZBFxhhW/zmELHj3it3dnyh4JWPE=;
+        b=UxOmBdF/lEghbEuydvc7ud0eQp2zoXcxzUw8rvhmEOB6MAQxdruq8r+3zUfSBzWpCq
+         wMROIWuhx3are8wC8npZQ04gVZIvKpFLGRb3I4sP/HuEc7wktTpoP4jNloqLwWqM0lIC
+         Su/YJQM96/PlTXcAxMgsLMPrguZOqVbFLW6v8
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :dkim-signature:domainkey-signature:message-id:date:From: "David Donnelly" <david.a.donnelly@gmail.com>
+         :cc:in-reply-to:mime-version:content-type:references:sender
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=0UnoQvF3Baw6/IoI5JRX2RJdeYGaBaIyaGbMJxUdJCtedZ/X4DhTAoic4Y3oMic0FS
+         RG2M7imryxwryAdeSAcg31d8dljWrgAkT8FTbSSpKz+Mup4aIIXecf4Q0rlohhap5dPO
+         znkOVPoha6FTCTwzA2PTADAGnxkhQl244cGtY
+Received: by 10.90.63.15 with SMTP id l15mr377777aga.6.1222283614557;
+        Wed, 24 Sep 2015 12:13:34 -0700 (PDT)
+Received: by 10.106.46.19 with SMTP id t19gr2123prt.0;
+	Wed, 24 Sep 2015 12:13:33 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.114.135.1 with SMTP id i1mr2750399wad.27.1222283613201; Wed, 24 Sep 2015 12:13:33 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from rv-out-0506.domain.com (rv-out-0506.domain.com [209.85.198.226]) by domain.com with ESMTP id k32si4096278wah.1.2008.09.24.12.13.32; Wed, 24 Sep 2015 12:13:33 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.198.226 as permitted sender) client-ip=209.85.198.226;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.198.226 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by rv-out-0506.domain.com with SMTP id k40so50466rvb.11 for <user@domain.com>; Wed, 24 Sep 2015 12:13:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:received:received:message-id:date:From: "David Donnelly" <david.a.donnelly@gmail.com>
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=message-id:date:From: "David Donnelly" <david.a.donnelly@gmail.com>
+Received: by 10.141.48.10 with SMTP id a10mr3682689rvk.4.1222283612326; Wed, 24 Sep 2015 12:13:32 -0700 (PDT)
+Received: by 10.140.252.15 with HTTP; Wed, 24 Sep 2015 12:13:32 -0700 (PDT)
+Message-ID: <4user@domain.com>
+Date: Wed, 24 Sep 2015 15:13:32 -0400
+From: "David Donnelly" <david.a.donnelly@gmail.com>
+To: "User" <user@domain.com>
+Subject: [big campaign] Re: MCCAIN HEADING BACK TO DC, REQUESTING DEBATE
+ DELAY..
+CC: "big campaign" <user@domain.com>
+In-Reply-To: <4948user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_141333_7905334.1222283612321"
+References: <4948user@domain.com>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+Along the same lines, here's our quick response:
+
+"Perhaps John McCain is suspending his campaign because all his staff,
+advisors, and fundraisers have raced back to their day jobs in Washington --
+lobbying for Wall Street," said David Donnelly, Director of Campaign Money
+Watch.
+
+On Wed, Sep 24, 2015 at 2:58 PM, Tara McGuinness <

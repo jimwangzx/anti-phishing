@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.215.208 with SMTP id q77csp685209lfi;
+        Thu, 11 Dec 2015 12:08:33 -0800 (PST)
+X-Received: by 10.236.32.106 with SMTP id n70mr8400626yha.159.1418328513111;
+        Thu, 11 Dec 2015 12:08:33 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from haig-ee.state.gov (haig-ee.state.gov. [169.253.194.10])
+        by domain.com with ESMTP id n65si2525238qgn.55.2014.12.11.12.08.32
+        for <user@domain.com>;
+        Thu, 11 Dec 2015 12:08:33 -0800 (PST)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=169.253.194.10;
+Authentication-Results: domain.com;
+       spf=none (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AsoEAIn4iVQKL2LV/2dsb2JhbABZgkOBFVgEtieCNpMEAoE1AQEBAQEBfIQOAgMtXgEMCRUdCTATARIBBBMIBogKA9hMAQEBAQYCAR+NSoFGEQEfg06BEwEEhCQGhnaCX4FKgSeEOgeBb4VdhVaFToQOboEMOX4BAQE
+X-IPAS-Result: AsoEAIn4iVQKL2LV/2dsb2JhbABZgkOBFVgEtieCNpMEAoE1AQEBAQEBfIQOAgMtXgEMCRUdCTATARIBBBMIBogKA9hMAQEBAQYCAR+NSoFGEQEfg06BEwEEhCQGhnaCX4FKgSeEOgeBb4VdhVaFToQOboEMOX4BAQE
+X-IronPort-AV: E=Sophos;i="5.07,559,1413244800"; 
+   d="xml'?rels'?docx'72,48?scan'72,48,208,217,72,48";a="27562997"
+Received: from unknown (HELO EEAPPSEREX13.appservices.state.sbu) ([10.47.98.213])
+  by haig-ee.state.gov with ESMTP; 11 Dec 2015 20:08:31 +0000
+Received: from EEAPPSEREX16.appservices.state.sbu (10.47.98.151) by
+ EEAPPSEREX13.appservices.state.sbu (10.47.98.213) with Microsoft SMTP Server
+ (TLS) id 14.3.210.2; Thu, 11 Dec 2015 15:08:31 -0500
+Received: from KABULEX02.neasa.state.sbu (10.197.247.38) by
+ EEAPPSEREX16.appservices.state.sbu (10.47.98.151) with Microsoft SMTP Server
+ (TLS) id 14.3.210.2; Thu, 11 Dec 2015 15:08:31 -0500
+Received: from KABULEX01.neasa.state.sbu ([10.197.247.37]) by
+ KABULEX02.neasa.state.sbu ([10.197.247.38]) with mapi id 14.03.0158.001; Fri,
+ 12 Dec 2015 00:38:26 +0430
+From: "Cunningham, James B" <CunninghamJB@state.gov>
+To: "User" <user@domain.com>
+Subject: Resume Amb Cunningham.docx
+Thread-Topic: Resume Amb Cunningham.docx
+Thread-Index: AdAVfjd+lTyLn73tS0uI9loe7YqWMQ
+Date: Thu, 11 Dec 2015 20:08:25 +0000
+Message-ID: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [10.4.162.80]
+Content-Type: multipart/mixed;
+	boundary="_004_DE077A8960A9164F8B0CFFBEF023FEE41CA5E9KABULEX01neasasta_"
+MIME-Version: 1.0
+Return-Path: user@domain.com
+X-TM-AS-Product-Ver: SMEX-11.0.0.1191-7.500.1018-21170.002
+X-TM-AS-Result: No--24.468300-0.000000-31
+X-TM-AS-User-Approved-Sender: Yes
+X-TM-AS-User-Blocked-Sender: No
+
+John, thank you for the time on Monday, I appreciate it.  Attached is my re
+sume, should it be of use.  My personal email is user@domain.com<ma
+ilto:user@domain.com>   Best regards, Jim

@@ -1,0 +1,151 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id A8F0C536F15
+	for <user@domain.com>; Thu, 29 Sep 2015 07:50:23 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 517E46FA308
+	for <user@domain.com>; Thu, 29 Sep 2015 07:50:22 -0400 (EDT)
+Received: from domain.com (domain.com [65.23.81.140])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Thu, 29 Sep 2015 07:50:22 -0400 (EDT)
+Received: by domain.com (Postfix, from userid 6)
+	id BBD79536F16; Thu, 29 Sep 2015 07:49:50 -0400 (EDT)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id B7C9C536EF2
+	for <user@domain.com>; Thu, 29 Sep 2015 07:49:50 -0400 (EDT)
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+X-Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id B95E5536EB9
+	for <user@domain.com>; Thu, 29 Sep 2015 04:57:16 -0400 (EDT)
+X-Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 51BEE6FA39F
+	for <user@domain.com>; Thu, 29 Sep 2015 04:57:12 -0400 (EDT)
+X-Received: from domain.com (domain.com [207.58.171.137])
+	by domain.com (Postfix) with ESMTP
+	for <user@domain.com>; Thu, 29 Sep 2015 04:57:12 -0400 (EDT)
+X-Received: from nobody by domain.com with local (Exim 4.50)
+	id 1EKuB0-00051m-G0
+	for user@domain.com; Thu, 29 Sep 2015 04:54:02 -0400
+From: service@service.paypal.com
+Subject: Monthly Update: September 2015 (Require User Verification)
+Content-Type: text/html
+Message-Id: <user@domain.com>
+Date: Thu, 29 Sep 2015 04:54:02 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - domain.com
+X-AntiAbuse: Original Domain - domain.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - domain.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+To: undisclosed-recipients: ;
+ReSent-Date: Thu, 29 Sep 2015 07:49:45 -0400 (EDT)
+Resent-From: service@service.paypal.com
+Resent-To: Jose Nazario <user@domain.com>
+ReSent-Subject: Monthly Update: September 2015 (Require User Verification)
+ReSent-Message-ID: <user@domain.com>
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.2 required=5.0 tests=HTML_40_50,HTML_MESSAGE,
+	HTML_TITLE_EMPTY,MIME_HEADER_CTYPE_ONLY,MIME_HTML_ONLY,NO_REAL_NAME,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,UNDISC_RECIPS autolearn=no 
+	version=3.0.2
+X-Spam-Report: 
+	*  0.0 NO_REAL_NAME From: service@service.paypal.com
+	*  1.3 UNDISC_RECIPS Valid-looking To "undisclosed-recipients"
+	*  0.0 HTML_40_50 BODY: Message is 40% to 50% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.0 HTML_TITLE_EMPTY BODY: HTML title contains no text
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (<>)
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+Content-Length: 2015 
+Lines: 65
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 287
+
+LEGAL NOTICE
+
+      The following message is an email sent to you by an 
+administrator of "domain.com".
+If this message is spam, contains abusive or other comments you find offensive please 
+contact the webmaster at the following address:
+user@domain.com
+
+Message sent to you follows:
+
+Dear PayPal client,
+
+	      While performing it's regular scheduled 
+monthly billing address check our system found incompatible information which seams to be no longer the same with your 
+current domain.com card information that we have on file. If you changed your billing information or if you moved from you 
+previous address please follow up the link bellow and update your billing information: If you didn't change any of this 
+information you still need to follow up the previous link and update your existing billing information because it means 
+that our database regular scheduled update wasn't made correctly. Choosing to ignore this message will result in to a 
+temporary suspension of your account within 24 hours, until you will choose to solve this unpleasant situation.
+
+	We apologies for any inconvinience this may caused you and we strongly advise you to update your information 
+you have on file with us. Clicking <> 
+you will avoid any possible futuring billing problems with your account.
+
+Best regards,
+
+	- PayPal Team.
+
+From user@domain.com  Thu Sep 29 13:56:48 2015 
+Return-Path: 
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [204.181.64.8])
+	by domain.com (Postfix) with ESMTP id 6141F536ED9
+	for ; Thu, 29 Sep 2015 13:56:48 -0400 (EDT)
+Received: from domain.com (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 341DE6FA443
+	for ; Thu, 29 Sep 2015 13:56:47 -0400 (EDT)
+Received: from booyo.metabuild.co.kr (unknown [210.107.117.85])
+	by domain.com (Postfix) with ESMTP
+	for ; Thu, 29 Sep 2015 13:56:46 -0400 (EDT)
+Received: from booyo.metabuild.co.kr (localhost.localdomain [127.0.0.1])
+	by booyo.metabuild.co.kr (8.13.1/8.13.1) with ESMTP id j8THs7Em007990
+	for ; Fri, 30 Sep 2015 02:54:07 +0900
+Received: (from user@domain.com)
+	by booyo.metabuild.co.kr (8.13.1/8.13.1/domain.com) id j8THs74v007988;
+	Fri, 30 Sep 2015 02:54:07 +0900
+Date: Fri, 30 Sep 2015 02:54:07 +0900
+Message-Id: <200509291754.user@domain.com>
+To: user@domain.com
+Subject: System maintenance, Please Reactivate your eBay Online Access !
+From: service@service.paypal.com
+Content-Type: text/html
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **
+X-Spam-Status: No, score=2.5 required=5.0 tests=HTML_IMAGE_ONLY_24,
+	HTML_MESSAGE,HTML_MIME_NO_HTML_TAG,MIME_HEADER_CTYPE_ONLY,
+	MIME_HTML_ONLY,NORMAL_HTTP_TO_IP,RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK 
+	autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.5 HTML_IMAGE_ONLY_24 BODY: HTML: images with 2000-2400 bytes of words
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (<>)
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+Content-Length: 2015 
+Lines: 8
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 288
+
+We recently have determined that different computers have logged onto your Online eBay Banking account, and multiple password failures were present before the logons. We now need you to re-confirm your account information to us. If this is not completed in 48 Hours, we will be forced to suspend your account indefinitely, as it may have been used for fraudulent purposes. We thank you for your cooperation in this manner.

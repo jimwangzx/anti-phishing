@@ -1,0 +1,83 @@
+Delivered-To: user@domain.com
+Received: by 10.142.49.14 with SMTP id w14cs39646wfw;
+        Thu, 2 Oct 2015 14:02:28 -0700 (PDT)
+Received: by 10.151.155.12 with SMTP id h12mr427940ybo.136.1222981347343;
+        Thu, 02 Oct 2015 14:02:27 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.60])
+        by domain.com with ESMTP id 12si892879gxk.11.2008.10.02.14.02.23;
+        Thu, 02 Oct 2015 14:02:25 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.60 as permitted sender) client-ip=209.85.217.60;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.217.60 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 20so4904814gxk.16
+        for <user@domain.com>; Thu, 02 Oct 2015 14:02:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :dkim-signature:domainkey-signature:received:received:message-id
+         :date:From: "Josh Glasstetter" <glasstetter@gmail.com>
+         :references:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=vFrCPmwIXNM+EQAmM8fbWzAeOSwPvFCvzauWTCIE34Y=;
+        b=avTRBfECi8gWlhjgrZygqTGVlOOnVovC2/azbw4XD5JNH2W2pEJnoUrGXJOO2E1PmW
+         gOUzQoZXXKPhI5CeC5ktSnLIvocjtXm9KMQwGeSLdp+kY6lfkwFVCPuWCqd91svHfCC0
+         KiFckMDJ4uJqRh6gy3BHJFvIDMOLl8TlX24Rk
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :dkim-signature:domainkey-signature:message-id:date:From: "Josh Glasstetter" <glasstetter@gmail.com>
+         :in-reply-to:mime-version:content-type:references:sender:precedence
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        b=YSfE7vVJMgQTlaUo7sBDGgby/yu/aayoKdySksaDbi6SQo6kHlz98Xf6h7SKyBJZYZ
+         j7v9SEhwMaQ6HmaDATrIV+gfMFIaFdHQmWcDlYS3ExlguFZSNwsCPxcP5VxAF5OZ3JaU
+         DPPAKetHeZcICh9+v6pRT7rfRA48+eXb3lmXg
+Received: by 10.90.33.5 with SMTP id g5mr9370agg.5.1222981337377;
+        Thu, 02 Oct 2015 14:02:17 -0700 (PDT)
+Received: by 10.44.187.78 with SMTP id k78gr2239hsf.0;
+	Thu, 02 Oct 2015 14:02:03 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.214.215.4 with SMTP id n4mr55068qag.29.1222981323107; Thu, 02 Oct 2015 14:02:03 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from rn-out-0910.domain.com (rn-out-0910.domain.com [64.233.170.188]) by domain.com with ESMTP id 22si3223797yxr.1.2008.10.02.14.02.02; Thu, 02 Oct 2015 14:02:02 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.233.170.188 as permitted sender) client-ip=64.233.170.188;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 64.233.170.188 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by rn-out-0910.domain.com with SMTP id m61so936780rnd.8 for <user@domain.com>; Thu, 02 Oct 2015 14:02:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:received:received:message-id:date:From: "Josh Glasstetter" <glasstetter@gmail.com>
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=message-id:date:From: "Josh Glasstetter" <glasstetter@gmail.com>
+Received: by 10.151.113.11 with SMTP id q11mr466353ybm.25.1222981321935; Thu, 02 Oct 2015 14:02:01 -0700 (PDT)
+Received: by 10.151.116.13 with HTTP; Thu, 2 Oct 2015 14:02:01 -0700 (PDT)
+Message-ID: <66user@domain.com>
+Date: Thu, 2 Oct 2015 17:02:01 -0400
+From: "Josh Glasstetter" <glasstetter@gmail.com>
+To: user@domain.com
+Subject: [big campaign] Re: McCain camp's pre-debate spin
+In-Reply-To: <2user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_6366_11064625.1222981321937"
+References: <2user@domain.com>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+along those lines, here's user perkins on palin:
+
+Mr. Perkins said his biggest concern is that she not be "overscripted,"
+adding that Mr. Will and Miss Noonan make important contributions but are
+applying an overly demanding standard for articulateness to Mrs. Palin.
+
+*"Not everybody's an intellectual," he said.*
+
+<<link>>
+

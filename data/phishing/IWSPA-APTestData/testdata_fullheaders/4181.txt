@@ -1,0 +1,83 @@
+Return-Path: <user@domain.com>
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.6.4])
+	by domain.com (Postfix) with ESMTP id 777162A69F
+	for <user@domain.com>; Tue, 27 Feb 2015 09:34:36 -0500 (EST)
+Received: from domain.com (domain.com [192.168.1.2])
+	by domain.com (Example mail relay) with ESMTP id 001D4621E1D
+	for <user@domain.com>; Tue, 27 Feb 2015 09:34:34 -0500 (EST)
+Received: by domain.com (Example mail relay)
+	id 1E3AD16515; Tue, 27 Feb 2015 09:39:02 -0500 (EST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [207.115.36.72])
+	by domain.com (Example mail relay) with ESMTP id 051A116513
+	for <user@domain.com>; Tue, 27 Feb 2015 09:39:01 -0500 (EST)
+X-ORBL: [75.28.30.155]
+Received: from fsfdsd (adsl-75-28-30-155.domain.com [75.28.30.155])
+	by domain.com (8.13.8 out.dk.spool/8.13.8) with SMTP id l1REXjvP021389;
+	Tue, 27 Feb 2015 08:33:45 -0600
+Message-Id: <200702271433.user@domain.com>
+From: "Wells Fargo" <security@wellsfargo.com>
+Subject: IMPORTANT : Security Measures Notification of Limited Account Access
+Date: Tue, 27 Feb 2015 06:32:57 -0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients: ;
+X-Keywords: 
+Status: RO
+Content-Length: 2015 
+Lines: 71
+
+Dear Wells Fargo
+                valued customer,
+
+During our regularly schedule account maintenance and verification we have detected a slight error in your billing information on file with Wells Fargo.
+ This might be due to either following reasons:
+
+- A recent change in your personal information (i.e. change of address)
+
+- An inability to accurately verify your selected option of payment due an internal error within
+our processors.
+
+We recently noticed one or more attempts to log in your
+				Wells Fargo account from a foreign IP address and we have
+reasons to believe
+                that your account was hijacked by a third party without
+your
+                authorization. If you recently accessed your account while 
+                traveling, the log
+                in attempts may have initiated by you.
+
+                However if you are the rightful holder of the account, click on 
+                the link below and domain.com, as we try to verify your account.
+
+				<>
+
+The log in attempt was made From: "Wells Fargo" <security@wellsfargo.com>
+
+                IP address: 211.72.153.170
+
+                ISP host: 211.72.153.170-mail.tw
+
+                If you choose to ignore our request, you leave us no
+choice but to
+                temporally suspend your account.
+
+                We ask that you allow at least 72hrs for the case to be
+investigated and
+                we strongly recommend not making any changes to your
+account in that
+                time.
+
+* Please do not respond to this
+email as your
+                reply will not be received.
+
+                Thank you for your patience as we work together to protect
+your account.

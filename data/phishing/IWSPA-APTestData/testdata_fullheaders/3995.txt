@@ -1,0 +1,51 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from localhost (domain.com [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 70BBA23CA79
+	for <user@domain.com>; Tue,  3 Jun 2015 11:18:48 -0500 (CDT)
+X-Virus-Scanned: amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id NIGRwUvhPAIW for <user@domain.com>;
+	Tue,  3 Jun 2015 11:18:48 -0500 (CDT)
+Received: from domain.com (domain.com [128.193.15.47])
+	by domain.com (Postfix) with ESMTP id 4607423CA77
+	for <user@domain.com>; Tue,  3 Jun 2015 11:18:48 -0500 (CDT)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id 112F134365E
+	for <user@domain.com>; Tue,  3 Jun 2015 09:18:48 -0700 (PDT)
+X-Virus-Scanned: Debian amavisd-new at domain.com
+Received: from domain.com ([127.0.0.1])
+	by localhost (domain.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id hMmSqLDA883q for <user@domain.com>;
+	Tue,  3 Jun 2015 09:18:47 -0700 (PDT)
+Received: from domain.com (domain.com [128.193.12.16])
+	by domain.com (Postfix) with ESMTP id E8BB93436B9
+	for <user@domain.com>; Tue,  3 Jun 2015 09:18:47 -0700 (PDT)
+Received: by domain.com (Postfix, from userid 14293)
+	id DF75A833B1; Tue,  3 Jun 2015 09:14:04 -0700 (PDT)
+To: user@domain.com
+Subject: Service Maintenance Alert
+X-PHP-Originating-Script: 14293:pay.php
+From: System <notifications@system.net>
+Content-Type: text/html
+Message-Id: <20140603161847.user@domain.com>
+Date: Tue,  3 Jun 2015 09:14:04 -0700 (PDT)
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 195
+
+Good Morning!
+
+We are pleased to inform you that a scheduled maintenance has been successfully 
+completed.
+
+In order to ensure your account remains active and protected, please confirm 
+your account immediately.
+
+Click here to 
+confirm your account now
+
+We apologize for any inconveniences caused.

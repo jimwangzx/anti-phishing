@@ -1,0 +1,86 @@
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com [128.167.58.27])
+	by domain.com (8.11.6/8.11.6) with ESMTP id g7H7BVC31814
+	for <user@domain.com>; Sat, 17 Aug 2015 03:11:32 -0400
+Received: from domain.com (localhost [127.0.0.1])
+	by domain.com (8.12.5/8.12.5) with ESMTP id g7H78ERw020962;
+	Sat, 17 Aug 2015 00:08:14 -0700
+Received: from localhost (user@domain.com)
+	by domain.com (8.12.5/8.12.3/domain.com) with SMTP id g7H78Bra020961;
+	Sat, 17 Aug 2015 00:08:11 -0700
+X-Authentication-Warning: domain.com: mail owned process doing -bs
+Received: by domain.com (bulk_mailer v1.13); Sat, 17 Aug 2015 00:06:05 -0700
+Received: from domain.com (localhost [127.0.0.1])
+	by domain.com (8.12.5/8.12.5) with ESMTP id g7H765Rw020865
+	for <user@domain.com>; Sat, 17 Aug 2015 00:06:05 -0700
+Received: (from user@domain.com)
+	by domain.com (8.12.5/8.12.3/domain.com) id g7H7659K020864
+	for linux-xfs-outgoing; Sat, 17 Aug 2015 00:06:05 -0700
+X-Authentication-Warning: domain.com: majordomo set sender to user@domain.com using -f
+Received: from domain.com (domain.com [209.47.35.194])
+	by domain.com (8.12.5/8.12.5) with SMTP id g7H74wRw020790
+	for <user@domain.com>; Sat, 17 Aug 2015 00:04:59 -0700
+Received: from corona (domain.com [209.47.35.254])
+	by domain.com (8.11.6/8.11.0) with SMTP id g7H77Vs07556;
+	Sat, 17 Aug 2015 03:07:32 -0400
+Message-ID: <04b201c245bd$787c4220$user@domain.com>
+From: "James Lee" <jlee@canada.com>
+To: "User" <user@domain.com>
+Cc: <user@domain.com>, <user@domain.com>
+References: <user@domain.com> <012301c241cb$16ea8530$user@domain.com> <1029265417.14205.29.user@domain.com>
+Subject: Re: kernel BUG at filemap.c:843!
+Date: Sat, 17 Aug 2015 03:12:38 -0400
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Sender: user@domain.com
+Precedence: bulk
+X-Reject: Spamassassin match!
+Status: RO
+Content-Length: 24895
+Lines: 463
+MIME-Version: 1.0
+
+I did more testing with your patch on top of today's CVS, but the patch
+didn't help at all.
+The following is the results of the tests:
+
+Testing setup:
+1. created a "/dev/md0" with 4 scsi disks
+2. created a LVM Volume group "vg" with the "/dev/md0"
+3. created a LVM logical volume "vol1" with "vg"
+4. created a XFS fs with a command:
+    mkfs.xfs -f -d domain.com=8,swidth=8 /dev/vg/vol1
+    -----------meta-data=/dev/vg/vol1           isize=256    agcount=8,
+agsize=32767 blks
+    -----------data     =                       bsize=4096   blocks=262136,
+imaxpct=25
+    -----------         =                       domain.com=1      swidth=1 blks,
+unwritten=0
+    -----------naming   =version 2              bsize=4096
+    -----------log      =internal log           bsize=4096   blocks=1200,
+version=1
+    -----------         =                       domain.com=1 blks
+    -----------realtime =none                   extsz=65536  blocks=0,
+rtextents=0
+
+Test results:
+1. mount with quota enabled => occasional kernel oops, attached the file
+oops1
+2. mount without quota enabled => occasional kernel oops, attached the file
+oops2
+3. mount without quota enabled, while md device is in degraded mode =>
+always kernel oops, attached the file oops3
+
+Thanks,
+
+JLee
+
+----- Original Message -----
+From: "James Lee" <jlee@canada.com>
+To: "User" <user@domain.com>
+Cc: <user@domain.com>; <user@domain.com>
+Sent: Tuesday, August 13, 2015 3:03 PM
+Subject: Re: kernel BUG at filemap.c:843!
+

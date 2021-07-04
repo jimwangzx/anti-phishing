@@ -1,0 +1,104 @@
+Delivered-To: user@domain.com
+Received: by 10.140.16.184 with SMTP id 53csp121318qgb;
+        Mon, 26 May 2015 08:32:08 -0700 (PDT)
+X-Received: by 10.229.89.65 with SMTP id d1mr33602359qcm.14.1401118328423;
+        Mon, 26 May 2015 08:32:08 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [69.25.74.172])
+        by domain.com with ESMTP id w7si13912534qaj.53.2014.05.26.08.32.08
+        for <user@domain.com>;
+        Mon, 26 May 2015 08:32:08 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 69.25.74.172 as permitted sender) client-ip=69.25.74.172;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 69.25.74.172 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (localhost [127.0.0.1])
+	by mta-domain.com (Postfix) with ESMTP id 3gcj3D186mzdZLp
+	for <user@domain.com>; Mon, 26 May 2015 11:32:08 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1401118328;
+	bh=5Z421iQppAdk6Ts5/WcgnGzt7mvRs1FqRbuwczROzJo=;
+	h=Date:To:From: Sean Patrick Maloney <info@seanmaloney.com>
+	 MIME-Version:Content-Type;
+	b=VG2VykL1I6dEXu41tfol0apRlZoBV5u19PFOmb91E0Pm0cIhIM9OKgP+veaeR6vmh
+	 8qAbTWkXciTWtUrmJ8SStspHQsmfrjIVGQW9kyWs+sN3ZVV4J9YwPKi2Rz0zwxG3CD
+	 uRC20IzZ2g1Fip3omHuS3xSzbN5wRFdtldvlnanM
+Received: from maillist-b 
+	by domain.com with local (PHPMailer);
+	Mon, 26 May 2015 15:32:08 +0000
+Date: Mon, 26 May 2015 15:32:08 +0000
+To: John user <user@domain.com>
+From: Sean Patrick Maloney <info@seanmaloney.com>
+Reply-to: user@domain.com
+Subject: Saluting our heroes
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 67dc60f22cb5414a
+X-rpcampaign: rp_2625
+X-maillist-guid: CARaWg0BHz1TBFRWB1VVU1FaUgcABlFSa1NdC1gaRQsBAEVBAiQBWQRaXBtSCl5oUQEI
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_f7478faae1c859442fb42ec9fa9405a7"
+
+
+
+
+John,
+
+On Memorial Day, we remember the men and women who gave their lives in 
+service of our country over the past 239 years. We salute their honor and 
+their bravery today and every day.
+
+I've been honored to meet so many local veterans and members of the next 
+generation of military leaders currently studying at West Point. Today I 
+am thinking of them and the millions of servicemen and women, veterans, 
+military families, and countless others who are bravely serving our 
+country and protecting our freedom.
+
+In their honor, I want to draw your attention to an amazing organization, 
+Honor Flight, which helps aging veterans from around the country fulfill 
+their dreams of visiting the World War II memorial in Washington.
+
+Click here to learn more about the wonderful work Honor Flight is doing 
+for our nation's veterans.
+
+<<link>>
+
+Honor Flight began in Ohio shortly after the World War II memorial opened 
+in 2004. Physician Assistant and retired Air Force Captain Earl Morse saw 
+that many of his patients were WWII veterans who, because of health or 
+financial reasons, had no foreseeable way of getting to Washington to see 
+the monument erected to honor them and their fallen comrades.
+
+Soon after that Earl, also a private pilot, used his own time and 
+resources to escort a patient to the memorial -- it was the first honor 
+flight and was a resounding success. Since then, Honor Flight has taken 
+almost 100,000 veterans to see their memorial in Washington. This past 
+April, Hudson Valley Honor Flight took their fourth journey with more than 
+100 World War II veterans.
+
+It's an amazing story. Veterans' rights are an issue extremely close to my 
+heart, so I'm happy to see an organization providing such a valuable 
+service to our veterans.
+
+I hope you'll join me and take a minute this Memorial Day to check out 
+Honor Flight and see how they're honoring our veterans every day.
+
+<<link>>
+
+Don't forget to show the veterans in your life a little extra love today.
+
+Thanks,
+
+Sean
+
+---
+
+This email was sent to user@domain.com
+To unsubscribe from the Sean Patrick Maloney for Congress email list, 
+please click here: <<link>>
+
+PAID FOR BY SEAN PATRICK MALONEY FOR CONGRESS
+

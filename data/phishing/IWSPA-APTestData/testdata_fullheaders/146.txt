@@ -1,0 +1,124 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.226 with SMTP id 95csp56557lfy;
+        Thu, 7 Jan 2015 12:25:43 -0800 (PST)
+X-Received: by 10.66.101.36 with SMTP id fd4mr156054299pab.76.1452198343200;
+        Thu, 07 Jan 2015 12:25:43 -0800 (PST)
+Return-Path: <>
+Received: from na01-bn1-domain.com (mail-domain.com. [157.56.111.94])
+        by domain.com with ESMTPS id rw4si11000349pac.72.2016.01.07.12.25.42
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 07 Jan 2015 12:25:43 -0800 (PST)
+Received-SPF: pass (domain.com: domain of na01-bn1-domain.com designates 157.56.111.94 as permitted sender) client-ip=157.56.111.94;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of na01-bn1-domain.com designates 157.56.111.94 as permitted sender) smtp.mailfrom
+Received: from domain.com (10.160.24.49) by
+ domain.com (10.141.218.28) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Thu, 7 Jan 2015 20:25:41 +0000
+Received: from BN1BFFO11FD005.protection.gbl (2a01:111:f400:7c10::1:122) by
+ domain.com (2a01:111:e400:8ae::49) with Microsoft
+ SMTP Server (TLS) id 15.1.365.9 via Frontend Transport; Thu, 7 Jan 2015 
+ 20:25:40 +0000
+Authentication-Results: spf=none (sender IP is 141.161.191.75)
+ smtp.helo=mail.law.georgetown.edu; domain.com; dkim=none (message not signed)
+ header.d=none;domain.com; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Received-SPF: None (domain.com: mail.law.georgetown.edu does not
+ designate permitted sender hosts)
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ domain.com (10.58.144.68) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Thu, 7 Jan 2015 20:25:39
+ +0000
+Received: from LAW-MBX01.law.georgetown.edu ([169.254.1.174]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0248.002;
+ Thu, 7 Jan 2015 15:24:59 -0500
+From: David Cole <cole@law.georgetown.edu>
+To: Announcements <user@domain.com>
+Subject: Emerson String Quartet tickets - Jan. 17
+Thread-Topic: Emerson String Quartet tickets - Jan. 17
+Thread-Index: AdFJiXQCCIxodHNXSISYFOtagEeLiw
+Date: Thu, 7 Jan 2015 20:24:59 +0000
+Message-ID: <98923user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.130.204]
+Content-Type: multipart/alternative;
+	boundary="_000_98923E0AC8DF60479F6921F2685C865563F18FE1LAWMBX01lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Return-Path: <>
+X-EOPAttributedMessage: 0
+X-Microsoft-Exchange-Diagnostics: 1;BN1BFFO11FD005;1:CifZTZZrM1bSUeEBqpjz5ACQGBpm1aYM7TLwVwTMjOByB+fIOlejKwIfi0ilAzAT1Lef0G+YiIbw2iUVB63Vj7oxevsuxMz37V8L1k1in+Xivs8lHjreHHQQn/z2rt6aPjub7xetmfHqCmpGWvh9x6uWSiW75aJkEavugg33uB5o2CCa+1ZdYOiMfeV/E6xllZrX96Q3OYQk9Q83O8iR1Izb1rRk3sN6yvQIn1hrqQGokxm8JBDFY9t8+eGsFTlZN5qprtJGDcgVOSTUMZ4ibHWbDudR37gCeaF0oK5gtd0hjnXqV6OI25iR9m0HnHpzDtTwmcYTwpPM5nOzB6iy6EBFwAZSJcD+Cyv+eZD+H0DIbQKcOYOPHbyjH9VHouho+gkb98r1IFsDvsBVoWSugg
+X-Forefront-Antispam-Report: 
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(6009001)(2970300002)(428002)(164054003)(189002)(199003)(300700001)(450100001)(42382002)(6806005)(89122001)(87936001)(106466001)(97736004)(101416001)(81156007)(50986999)(105586002)(1096002)(5008740100001)(5004730100002)(107886002)(2900100001)(1220700001)(92566002)(66066001)(512934002)(229853001)(2920100001)(54356999)(189998001)(55846006)(110136002)(88552001)(2906002)(960300001)(33656002)(586003)(85806002)(104016004)(5001960100002)(78352003)(5003600100002)(102836003)(2930100002)(16236675004)(4001450100002)(3846002)(84326002)(2171001)(6116002)(46342002)(510974002)(53652003);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR07MB536;H:mail.law.georgetown.edu;FPR:;SPF:None;PTR:InfoDomainNonexistent;MX:0;A:0;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB536;2:wUqxCX+Dd10KT/RKRzEwS+UUTTFmx8Ncu0bl/G2EzkOltlYCXs9MDXkpmce9xObV/si8Vm53fNx7G1Hhm4W3jp8r2eLvHZ7DHOKl/OWxSjJTYa2oJhGMv+X2pSq2fZiq5ICju3Q9yxz+7JlqpLOEZw==;3:Jg9MbyCwBXBjGpQ4VkThm6Yl65YgIbvPaFSjbd4I68RpuOkVw6SAzEDKYzz/XNhzmz2USD9hQodqzaZFCDOEycQSrjrpZmpB2hldFaTmv1w8rM19qmv7lUvTdBWbdYsO+Ak40nbU3oTzG2WeE0tDh9HMGqFArua+3uLwmPRKOiqK1tvSfAzxoWty8MwRn9Dd9K2PfRz+uacbdBfygmLhmMOHZQ366MXPFcjO5Kt15Ik=;25:Lzh+emEqqKO2P7I0uuxVc1xS7hkUsg5mmopL3zxjM56lF4HCOpZV1nkRMuMlmuWDMzjvZJjgQRHWXcOtBhwC44/dTnX1fjdByEj8tIUdedT/1E3ei2PoFAtU3KH6PZF+TQYAu29K25m1hyfdAUENX4K2drYz3O9cW0ZUFirLqkJukymfgEPwq8qAVLcBxndRG5H9Ztmg9kUJ090DZ2WrbrvA2Qy+SqYkUZkOiua5ptyo7IJ4sJQVU/dL8ILiFI/I
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB536;
+X-MS-Office365-Filtering-Correlation-Id: 2006d112-813d-4c70-e6cf-08d317a0b5cc
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB536;20:4CThiqD0qDm7HyqQAbRUEvqtL3zRLfMg7rS2VxFtwPv3PpmvJ98o//rC/8DFvoZg/ZHY2Hq6fFDt88zkAUpS1Z6aLx+sQ2buD+P0WZOQtBvQeg57KuiEKQSpBUmgE1DxoJ2FLMyofZoIQhUg/Uy7MbBlQliAX3cPmZdRiMa6KnCFjLGu0Pt241+jWbKSChnYz1mOTuyJqtKfvBCcCN713wvk9FDWOUfiA+hlWc4mWGNF60rwBCw6GwxjWlhyCuy3pR+4x8jJ18/WbMlpDXx01PxqOfwiAgV5gY5B+SPm9qndV9ey5Hu37PZbXrzU/G18z54ejtYFSS1ewWa5Lv3xHTdhIdbBN5l49IVWjp7wUrlR3nvGgnInpoeg8YzQITaC6hz3jpAadWGVatGpvoVL9qZONqVYniep9YwCS8ZNp+0=;4:6KfGQl12QTOVuVyJRjIMWzpO3V0DNEyEFpYLqvTofPa1wfIuji/nWBp5GRoXxQZnbcpZxJ27x5JqFza0rYGUiguKwfboJcpp4t2M5T2i53jxzkZ4dCFhhKEE0uNcGcspxCJTcyGjNgJUfpmuDprOGfuEE4Y33VQKxcTP3tC+FMu9gW7Uri0OLaM9Bo05zpXJuXeMKqzvqECiUAtTcESb4EWa6xc8EM6mK+undnJid0JCwILUBxbIbwt8VZNhQlMZjk9wuP1BSANPNprbE4wEUZ4kN/RbLrtN9jeYNLkUAkVfTI6wSdKyxyFkcCqv1raKOGcG+uKyELmYxJUl0WdV4ynqIN5aaaDJupyBHy2ENBgxsu338wIcoqPuWrxed+wbDVGzn5BjDX4JSNmhicXgyQ
+X-Microsoft-Antispam-PRVS: 
+	<user@domain.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: 
+	BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(520078)(13016025)(8121501046)(10201501046)(3002001);SRVR:BY2PR07MB536;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB536;
+X-Forefront-PRVS: 0814A2C7A3
+X-Microsoft-Exchange-Diagnostics: 
+	=?us-ascii?Q?1;BY2PR07MB536;23:QgNZpyKozr/7KBjSDrwgV+7dvdxdYLWKMdLqkLjtNQ?
+ =?us-ascii?Q?U05CEFYvO2MtgNFc47lWNbMhEHTsVWuuQr4vZI+zi8mBeb34Vemev7GyNfQM?
+ =?us-ascii?Q?RARxNitE1tmgdPM8o63iju//rDgWkrgtvkhN0sFLjY9vjc9iDJNof1TwvWDg?
+ =?us-ascii?Q?dcrnfQTM9enEYCY12SbiER7ljTQx+Vw/hgVwJ1dfZ1VcAKFzB/PF80yjwqsL?
+ =?us-ascii?Q?yT7lsgknBY4ND4jZD3bBIN3eBQTqUvCffrCxZPO6kCC4TfJLxNLB23tz8gwe?
+ =?us-ascii?Q?vJ5auotpbvd68dAaJIaHvjXhKQg46fa+NPCrcy7/hXsAOPoIauiSHKoMW1z8?
+ =?us-ascii?Q?lWh1xcphdbyzGuYQtUpYswEXz/lTtlS7/RoynH5QvdV65ek3eqWvWs4gaEez?
+ =?us-ascii?Q?Ab5HS3L0YToKCwevGM52jIEDdeXGRwcDKHbtn+wYPtJNui/MDewVsrCAyehL?
+ =?us-ascii?Q?HffAXyNsGL8SHungz2+bkiC8rPYVDZIhKymdwaXdNM/9+jhWCRNzUX503iIo?
+ =?us-ascii?Q?vTuuXqfSl3mzFnJRznjlb5As4LFNMHcRz0a2kAwODR6dEglqU0MPejLvs68H?
+ =?us-ascii?Q?MtKY0KfZDWPnPHEA7wj93AeErskoa6huVX3Pwce98aAK79Jgpy6cWEnwWcpj?
+ =?us-ascii?Q?27Y/H2SGrWODUo+PBmN+JqrnBHKxn6nAuy/aKaL4q8MdxMpG2KynxtcDcOzs?
+ =?us-ascii?Q?Ih0swjJqb6hTcgzpPJ4LODVFyzQRnpqoiNc2lrPpVivTyZRd4LJvCo6AWwld?
+ =?us-ascii?Q?0JdSy1uIFk8vCncY0z7u2nzKtgrLe0LkBwJnWg/uiwKIuq3lVdcaP6HCsObb?
+ =?us-ascii?Q?0zd4WAZDXkvQYWVzr//Y4oYsUzDB4Xfhp6t3OCY3bmIyx58HgDEUBmSs3AK4?
+ =?us-ascii?Q?bUNQ3+DF3hu3V+SdL42yggIAcUt1e7WpTSjG+xeUKAN8f6n2WLwj35SjMdog?
+ =?us-ascii?Q?0PcxkgEWBEJOQ+xfN4o9581pxwokzGS8clWJIHBK1rlsYQqbeRgGsTRVuQaY?
+ =?us-ascii?Q?a62rXrEMNecq3OLwP3GmQHzAz5UgS0bjENAf8XiIKuuqioY06NHfHZKStF4D?
+ =?us-ascii?Q?/LEBzZhovyi3Q12CY25wSDoeQiksJfPXC/GUXV3Yj8ROjlkStBTNNK/fVaaD?
+ =?us-ascii?Q?lKFDidWdmFUmXN7ZXL4AWek7IIDSz2VdPex9F79GUmOXpKSvDNl4u81GeWwr?
+ =?us-ascii?Q?Dl4jnGOv3bOYXwcn88WbUHe1cG4OPQ+h4oKWFmweGVkkb51Vg4S9F6xBa2qS?
+ =?us-ascii?Q?wFu83YPafNkh9Z+fpgzXhbcBhjQEniuOAG1wc+7D/d33TPrpxZEg6ET43Itu?
+ =?us-ascii?Q?N0hgvdRL2HUAeoKemc0UGX0+OzMcUAfB0xl6rN4NcLDrNTAvWXx0HZOIbXuJ?
+ =?us-ascii?Q?PPYUc2TngZ4gGbxyEcRop6tkg=3D?
+X-Microsoft-Exchange-Diagnostics: 
+	1;BY2PR07MB536;5:folR/6aF5TtHXKB+NKpS8C/5Io7PZOZLXyT+olH1UaSAdAxDTIX5MNjkHI48+Dz8+3i39EqvcMrvxrEACtyh65vVxXYmzKt2+RFt2emxv+2O/Ds7z1YH7zW/b/xLAJ0Ko0fEI1OO4KUc6FB8QSWuCA==;24:rxOOrqTPXZ0UTfbRejFvWl1OxleR7sCnXeLJMoXDjozcJ5HcCzy9TC4ZIYUkcDhxAGFL3QFMXdWXSsxrJRqTu5cNcf3bUH896hMzd8qgW5I
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Jan 2015 20:25:39.9342
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB536
+
+I have two tickets available for the Emerson String Quartet series concert 
+on Sunday, Jan. 17 at 6 PM at Baird Auditorium, in the Smithsonian Museum o
+f Natural History.  The concert features the violist, Lawrence Dutton, who 
+is fantastic. Here is the program:
+
+Matt Van Brink: The Heart Grows Fonder, Duo for Violin and Viola (Washingto
+n D.C. premiere)
+Arvo P=E4rt: Fratres for Violin and Piano
+Rebecca Clarke: Sonata for Viola and Piano
+---------------------------
+Johannes Brahms: Trio In E-flat major, Opus 40, For Violin, Viola and Piano
+
+Lawrence Dutton, viola, with Elizabeth Lim Dutton, violin
+Michael Brown, piano
+
+Tickets were $112 for the pair.  I will take best offer.
+
+Thanks, David
+

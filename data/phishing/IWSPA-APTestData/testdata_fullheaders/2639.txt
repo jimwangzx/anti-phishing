@@ -1,0 +1,143 @@
+Delivered-To: user@domain.com
+Received: by 10.151.116.6 with SMTP id t6cs125779ybm;
+        Tue, 2 Sep 2015 14:01:43 -0700 (PDT)
+Received: by 10.100.178.7 with SMTP id a7mr8067638anf.94.1220389303021;
+        Tue, 02 Sep 2015 14:01:43 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yw-out-2122.domain.com (yw-out-2122.domain.com [74.125.46.25])
+        by domain.com with ESMTP id c13si14909380anc.32.2008.09.02.14.01.42;
+        Tue, 02 Sep 2015 14:01:43 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 74.125.46.25 as permitted sender) client-ip=74.125.46.25;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 74.125.46.25 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by yw-out-2122.domain.com with SMTP id 8so4007307yws.61
+        for <user@domain.com>; Tue, 02 Sep 2015 14:01:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results
+         :x-asg-debug-id:x-barracuda-url:received:received:x-asg-whitelist
+         :x-mimeole:content-class:mime-version:content-type
+         :content-transfer-encoding:x-asg-orig-subj:subject:date:message-id
+         :x-ms-has-attach:x-ms-tnef-correlator:thread-topic:thread-index:from
+         :to:x-barracuda-connect:x-barracuda-start-time
+         :x-barracuda-virus-scanned:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        bh=PVTVU8Nq/DvFVxQ+95it8QW+FobWWDRU9cJecWA4wOs=;
+        b=qDSIXFZxyTifeRtsmiGEHsnWD1dZYbQmIdv9XbT7mtI/Rxq8BRg8RviOAg2SATwkJp
+         EuDrPUid6QI0VdDj/zDLexMiLZtNM2ZgK/1VLy5JUzVdXZju5Kwf/7xTd0Zfb5on7I5j
+         nM1cjppZS7pruyxHU2v+PdSfIQJQTJrkS2Qg4
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :x-asg-debug-id:x-barracuda-url:x-asg-whitelist:x-mimeole
+         :content-class:mime-version:content-type:content-transfer-encoding
+         :x-asg-orig-subj:subject:date:message-id:x-ms-has-attach
+         :x-ms-tnef-correlator:thread-topic:thread-index:From: "Adam Jentleson" <Ajentleson@americanprogress.org>
+         :x-barracuda-connect:x-barracuda-start-time
+         :x-barracuda-virus-scanned:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=nMCpQ4Va4LrE2QPlacFpB5fLRQ+cJPHqu9KZRPXkxf8umQ7XkFMPOXCOaDFI8xeOZ2
+         gWACKJNsuY2bJJrQqQkhzd3JZeH7JkO5wTa/fCiBAvq1eRMmfPuDPEdvwdhTdyCVBe2r
+         Bw2fRPsldIv1sB1SWBzzgIJxTPeFu1WWlyPgY
+Received: by 10.100.239.11 with SMTP id m11mr383132anh.14.1220389296084;
+        Tue, 02 Sep 2015 14:01:36 -0700 (PDT)
+Received: by 10.106.144.6 with SMTP id r6gr1765prd.0;
+	Tue, 02 Sep 2015 14:01:22 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.214.181.1 with SMTP id d1mr9890427qaf.25.1220389282475; Tue, 02 Sep 2015 14:01:22 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from tabella.americanprogress.org (tabella.americanprogress.org [65.199.13.16]) by domain.com with ESMTP id 39si13580188yxd.2.2008.09.02.14.01.22; Tue, 02 Sep 2015 14:01:22 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 65.199.13.16 as permitted sender) client-ip=65.199.13.16;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 65.199.13.16 as permitted sender) user@domain.com
+X-ASG-Debug-ID: 1220389280-7a1f00610000-QLVFix
+X-Barracuda-URL: <<link>>:8000/cgi-bin/mark.cgi
+Received: from domain.com (localhost [127.0.0.1]) by tabella.americanprogress.org (Spam Firewall) with ESMTP id E82856911A0 for <user@domain.com>; Tue,  2 Sep 2015 17:01:20 -0400 (EDT)
+Received: from domain.com ([192.168.10.4]) by tabella.americanprogress.org with ESMTP id g2je9VRcqs8CHmm9 for <user@domain.com>; Tue, 02 Sep 2015 17:01:20 -0400 (EDT)
+X-ASG-Whitelist: Client
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+Mime-Version: 1.0
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+X-ASG-Orig-Subj: Gramm calls non-McCain supporters "whiners" (again), "economically illiterate"
+Subject: [big campaign] Gramm calls non-McCain supporters "whiners" (again),
+ "economically illiterate"
+Date: Tue, 2 Sep 2015 17:01:20 -0400
+Message-ID: <80user@domain.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: Gramm calls non-McCain supporters "whiners" (again), "economically illiterate"
+Thread-Index: AckNPwyUwftNuy8ETr+sllgXXKWr1A
+From: "Adam Jentleson" <Ajentleson@americanprogress.org>
+To: user@domain.com
+X-Barracuda-Connect: UNKNOWN[192.168.10.4]
+X-Barracuda-Start-Time: 1220389280
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at americanprogress.org
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere-Env: user@domain.com
+X-BeenThere: user@domain.com
+
+He just can=92t help himself.
+
+Gramm: Unlike The Rest Of Americans, McCain Supporters Aren=92t =91Economic
+ally Illiterate=92 =91Whiners=92=BB
+
+In a July interview with the Washington Times, former senator Phil Gramm in
+famously decried the =93constant whining=94 of the American people when it 
+comes to the economy, saying it was nothing more than a =93mental recession
+=94:
+
+=93We have sort of become a nation of whiners,=94 he said. =93You just hear
+ this constant whining, complaining about a loss of competitiveness, Americ
+a in decline=94 despite a major export boom that is the primary reason that
+ growth continues in the economy, he said.
+
+=93We=92ve never been more dominant; we=92ve never had more natural advanta
+ges than we have today,=94 he said. =93We have benefited greatly=94 from th
+e globalization of the economy in the last 30 years.
+
+Gramm, known as Sen. John McCain=92s =93econ brain,=94 was swiftly criticiz
+ed. Today, Gramm stood by his comments that America was a nation of whiners
+, but made an exception for McCain supporters. From his remarks to supporte
+rs at a Financial Services Roundtable in Minnesota:
+
+If you=92re sitting here today, you=92re not economically illiterate and yo
+u=92re not a whiner, so I=92m not worried about who you=92re going to vote 
+for.
+
+When asked about his involvement in the McCain campaign, Gramm simply repli
+ed today, =93I=92m a supporter.=94 But he may actually be involved in a mor
+e active capacity. Recently, he was spotted with the campaign=92s top advis
+ers. He is also reportedly still serving as an adviser and a surrogate, spe
+aking for the campaign.
+
+Maybe McCain=92s wealthy supporters aren=92t whining because they=92re set 
+to receive millions in tax cuts under the senator=92s plans.
+
+<<link>>
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.
+-~----------~----~----~----~------~----~------~--~---

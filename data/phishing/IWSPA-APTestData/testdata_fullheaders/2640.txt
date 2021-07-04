@@ -1,0 +1,88 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Mon, 19 May 2015 09:17:04 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4JGH3JV024847	for <user@domain.com>; Mon, 19 May 2015 
+ 16:17:03 GMT
+Received: from mail2-co9-domain.com (mail-domain.com [207.46.163.16])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s4JGG1CZ013719	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Mon, 19 May 2015 16:16:02 GMT
+Received: from mail2-co9 (localhost [127.0.0.1])	by mail2-co9-domain.com
+ (Postfix) with ESMTP id 002E420132	for <user@domain.com>; Mon, 19 May
+ 2015 16:17:02 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:68.232.192.198;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: -1
+X-BigFish: vps-1(zzc89bh1102Ie0eahc857h77f5hzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h17326ah1777e0h1def87h8275bh1bc7b9h1def86h1de097h186068h1ce121iz2fh11bfMeh5eh5fh839hc60hc61hd24he13h107ah10d2h1288h12a5h137ah13eah1441h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h25f6h2605h268bh26d3h27e2h282bh2673i27b1k)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail2-co9: domain of domain.com designates 68.232.192.198 as permitted sender) client-ip=68.232.192.198; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail2-co9 (localhost.localdomain [127.0.0.1]) by mail2-co9
+ (MessageSwitch) id 1400516219253323_2473; Mon, 19 May 2015 16:16:59 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.246])	by
+ mail2-domain.com (Postfix) with ESMTP id 3960D2C0052	for
+ <user@domain.com>; Mon, 19 May 2015 16:16:59 +0000 (UTC)
+Received: from domain.com (68.232.192.198) by
+ domain.com (10.236.130.41) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 19 May 2015 16:16:58 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=20120411; d=198.domain.com;
+ h=From: Bentley Motors Limited <email@bentleymotors.com>
+ bh=OQLcDDNgEeinHN+DRLZrjrKLThc=;
+ b=Nr7vhKzOsMR+7Wsx+TedNmE7MxFZ6vGPQOVLBQElXOGi9evYFdEtctD5WPypNE+gyG3TP1x2PSSq
+   mma0OxCWzwajFolQp4oF2F9FIEC7jpsGjGL+QT7NXLp+KmkZ3pB/NVRZZczOFnR1NeM/+7SYECUE
+   vxT4eLiFOv9XOlDzBMA
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=bentleymotors.com;
+ b=jYBKzw8EZLlTeImYqLVrRI/BMYRa+Dv7g/k+PqWfQUCMuYHVfJ4Mx5jyl1CnJ1E0JjS3k09UrU/V
+   sp1Nlt7GTxICB9Ybg/PqI1PDVB/wcb/Kqi38K3ltVRf1wK0QebUCxc2dhdoay7aVsONc/Ermr5Lw
+   Jggk2w6kjuWe8j0V36M=;
+Received: by domain.com id hf8n7k163hsr for
+ <user@domain.com>; Mon, 19 May 2015 10:16:58 -0600 (envelope-from
+ <user@domain.com>)
+From: Bentley Motors Limited <email@bentleymotors.com>
+To: <user@domain.com>
+Subject: A personal invitation from Bentley Motors
+Date: Mon, 19 May 2015 10:16:58 -0600
+List-Unsubscribe: <mailto:user@domain.com>
+Reply-To: Bentley Motors Limited
+	<user@domain.com>
+x-job: 1064202_2290112
+Message-ID: <0user@domain.com>
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A personal invitation from Bentley Motors
+
+ <<link>>
+
+Please add user@domain.com to your address book to make sure you don't miss out on future email communication. Having trouble reading this email? <<link>>
+
+ <<link>>
+
+ <<link>>
+
+ <<link>>     
+Dear Amy,
+
+We would like to welcome you to the heart of our luxury automotive world. It is therefore my pleasure to invite you to a day at our Crewe home.  
+
+Bentley makes perfection into something personal.  A personal guide can tailor every detail of your unique experience to your time, interests and tastes.  
+The day will centre around an individual factory tour followed by lunch and refreshments on our behalf.
+
+We would be delighted to offer you an insight into our rich 90 year motoring heritage and show you how behind every stitch lie generations of knowledge and skill.
+So please, join us on an exclusive journey of powerful luxury.
+
+A Bentley requires an entirely tailor-fit production process in which every detail can be custom-made and we intend that your day with Bentley is equally individual.
+In order to do so, please contact Alejandra Guerra, who will help take care of every aspect of your domain.com.
+
+Please confirm your participation by June 10th, 2015 
+
+user@domain.com / +34 615 531 513
+
+We look forward to welcoming you.
+
+Bart 
+

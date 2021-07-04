@@ -1,0 +1,97 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Wed, 18 Jun 2015 05:31:24 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s5ICVN7b001224	for <user@domain.com>; Wed, 18 Jun 2015 
+ 12:31:23 GMT
+Received: from mail204-ch1-domain.com (mail-domain.com
+ [216.32.181.169])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s5ICWhFa001620
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Wed, 18 Jun 2015 12:32:43 GMT
+Received: from mail204-ch1 (localhost [127.0.0.1])	by
+ mail204-ch1-domain.com (Postfix) with ESMTP id A3B0942041E	for
+ <user@domain.com>; Wed, 18 Jun 2015 12:31:22 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:91.194.248.150;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z588dh1fem187l623kz9371Ic89bh7f0J8d0Idddahcc3Ie0eah1996Ic857h77f5hdc3ahc545Izz1f42h2148h1ee6h1de0hce0R1fdah2073h2146h1202h1e76h2189h1d1ah1d2ahe7fR1fc6h208chzz1de098h1def03h17326ah1def87h8275bh1ce122h1bc7b9h1def86h1de097h186068h18602eh172c6ch1dec70q1df239o1ce121iz2fheh5eh5fh839hd25h1288h12a5h137ah13eah1441h14ddh1504h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h255dh25f6h2605h268bh26d3h27e2h282bh2847h28a1h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail204-ch1: domain of reply1.ebay.com designates 91.194.248.150 as permitted sender) client-ip=91.194.248.150; user@domain.com; helo=domain.com ;.domain.com ;
+Received: from mail204-ch1 (localhost.localdomain [127.0.0.1]) by mail204-ch1
+ (MessageSwitch) id 1403094677101128_4009; Wed, 18 Jun 2015 12:31:17 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.245])	by mail204-domain.com (Postfix) with ESMTP id
+ 2FB9F1200BA	for <user@domain.com>; Wed, 18 Jun 2015 12:31:16 +0000
+ (UTC)
+Received: from domain.com (91.194.248.150) by
+ domain.com (10.43.70.11) with Microsoft SMTP Server id
+ 14.16.227.3; Wed, 18 Jun 2015 12:31:15 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=emarsys2007; d=reply1.ebay.com;
+ h=List-Unsubscribe:List-Id:MIME-Version:To:From: eBay <eBay@reply1.ebay.com>
+ bh=ezqfLLmeSdeFvAXU2BVRNJzp7SY=;
+ b=QYl6XTROHSO4w3Bl1QrL6tdpA7rWAX0eoZ26YKgxVL3z6+IcZMfvZfGrV0ovvSNzTIgA3M/OkS4K
+   3dhpi313kXxYbKa8LEprAXAM0tceoU0AE40Hh8ITaOmwAOy/+bAmRXU+u8z77sqnwQKTWdeFcZd0
+   wH+8BHvBLCd7sRwnyY0
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=emarsys2007; d=reply1.ebay.com;
+ b=ZgEvktLZ7DP3Jh9FoTKJws+5Ynx1Fel66d8cEJxN/dQSnO0u4HCJHAb0/ns8zXEnabH/Omkm57SF
+   Gn4QMEbs2Cou6VddgaOaczaUgJeDUXv+aoItYFPDURIdlpnWt9/VI1J5Rgvydyl/g3qjQ+/SI1Pz
+   nkWAQ5x+Cy236lqISfE=;
+Received: from domain.com (10.105.0.83) by domain.com id
+ hk639616nmc5 for <user@domain.com>; Wed, 18 Jun 2015 14:31:15 +0200
+ (envelope-from <user@domain.com>)
+X-EMarSys-Identify: 1301_1757458363159_1758098900704_bf16f2II3900a8II19956dc46e0II1
+X-EMarSys-Environment: e3us
+List-Unsubscribe: <<<link>>>
+List-Id: 1301 
+X-CSA-Complaints: user@domain.com
+To: <user@domain.com>
+From: eBay <eBay@reply1.ebay.com>
+Subject: List free and enter to win a $100K car!
+Message-ID: <0.1.user@domain.com>
+Date: Wed, 18 Jun 2015 14:31:15 +0200
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+List free and enter to win a $100K car!
+
+ <<link>>
+
+ <<link>>    
+
+ <<link>>    List your items free with a chance to win a car.
+View this message in your browser       eBay Seller Protection
+Learn more       <<link>>    
+
+eBay    
+
+ <<link>>        
+
+ <<link>>     <<link>>    
+
+ <<link>>    SUMMER
+SELL-EBRATION WEEK      
+
+June 18–24      
+
+ <<link>> 
+
+I started selling on eBay to travel     
+
+ <<link>> 
+
+image    
+
+ <<link>>             <<link>>    
+
+        Sell to fund your summer fun    
+
+ <<link>>    
+
+List for free plus get a chance to win a car of your choice up to $100K!* Ends June 24.         
+
+ <<link>>    <<link>>
+

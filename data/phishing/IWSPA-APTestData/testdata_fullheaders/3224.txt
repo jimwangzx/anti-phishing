@@ -1,0 +1,101 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 25 Mar 2015 07:54:15 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2PEsFIA003699	for <user@domain.com>; Tue, 25 Mar 2015 
+ 14:54:15 GMT
+Received: from mail34-co9-domain.com (mail-domain.com [207.46.163.23])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2PErkSa017294	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 25 Mar 2015 14:53:47 GMT
+Received: from mail34-co9 (localhost [127.0.0.1])	by mail34-co9-domain.com
+ (Postfix) with ESMTP id C61901C00D8	for <user@domain.com>; Tue, 25
+ Mar 2015 14:54:13 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:198.37.159.128;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 14
+X-BigFish: vps14(z579ehzc89bhdd5ehc857h4f15kdbb0izz1f42h2148h208ch1ee6h1de0h1fdah21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068h1954cbh1ce121iz2fh5eh5fh839h8aah8e2h8e3hd24h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h2336h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh740ibe9i9a9j783m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail34-co9: domain of domain.com designates 198.37.159.128 as permitted sender) client-ip=198.37.159.128; envelope-from=bounces+554242-74user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail34-co9 (localhost.localdomain [127.0.0.1]) by mail34-co9
+ (MessageSwitch) id 1395759250979356_26932; Tue, 25 Mar 2015 14:54:10 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.237])	by
+ mail34-domain.com (Postfix) with ESMTP id E9DDE24004E	for
+ <user@domain.com>; Tue, 25 Mar 2015 14:54:10 +0000 (UTC)
+Received: from domain.com (198.37.159.128) by
+ domain.com (10.236.130.20) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 25 Mar 2015 14:54:10 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=crowdtwistmail.com; 
+	h=subject:From: Eric_ Rosenthal <eric_r@crowdtwistmail.com>
+	bh=PPl0NmUisaJPW9vqm7NeD2hFtts=; b=mtdL+BqgPUGVbwQpreEWCXVbacP2k
+	O+sVH2DzRT3xG8EjEB4V9piJIV3A8WHdmTErjyig5DfWlR6W4Tr4Lv6+WCnq1g0Q
+	wHoZY3M1r9N+SatWESJVO0IqKMjCla4DJueux/duwIiqgnlx3B/ODOyJW5fYzYnB
+	EzslJPXtRNG15k
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=crowdtwistmail.com; 
+	h=subject:From: Eric_ Rosenthal <eric_r@crowdtwistmail.com>
+	s=smtpapi; b=ViycU3POl0w9iWYOzDlItGRZzy+PpZ8yhOj8wcI3kHkoUaFYb3a
+	EmiumHkTSXRYBCucAKqMawDAdpeSMwjSd3sRMjcjCz38Xp+wMUl7bGV2/cFn+B2u
+	XNee6qDf/gWGinGJkqW3PDFgm10NjrC+xnAlKH7Fi2STtFg1L6rn/Rd8
+Received: by filter-170.domain.com with SMTP id
+ filter-170.6307.533198929        Tue, 25 Mar 2015 14:54:10 +0000 (UTC)
+Received: from [127.0.0.1] (184.173.91.84-domain.com
+ [184.173.91.84])	by ismtpd-025 (SG) with ESMTP id 144f9bbfb75.1e481.905d5	for
+ <user@domain.com>; Tue, 25 Mar 2015 14:54:10 +0000 (GMT)
+Message-ID: <user@domain.com>
+Date: Tue, 25 Mar 2015 10:54:10 -0400
+Subject: Acquisition vs. Retention: A new role for loyalty & analytics
+ solutions
+From: Eric_ Rosenthal <eric_r@crowdtwistmail.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+X-SG-EID: crjdrkBCnHFBAoM6m/Gp9m3skGmMR9d/9Wh2P3ndSBf+XZKZ532oz6rboWix8XUgYeslx8DkzpMx/eOWwMU5C/joEMDSMzaYju7VDsCc5nfLA5NelAwwLQz5j7FeUtx6eaqlWhBFsWdKQ1DrI9UfR2myzvToijbfAh62UJvYkMo
+X-SG-ID: s78jXjc54Sh5tx9yFLGsWSVgP7deeyi89jjwqux6R/V+axlbFtDMsl9n6qLktPmhSFbBFJNugnaaPyp6BXr7JfZ1cwfqPnZPdCCPNOX11hcdRxLFTZbs5QkggoKYdv7e
+Return-Path: bounces+554242-74user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Acquisition vs. Retention: A new role for loyalty & analytics solutions
+
+Acquisition vs. Retention: A new role for loyalty & analytics solutions
+
+Is this email not displaying correctly?
+View it in your browser.
+
+ <<link>>
+
+ <<link>>    
+
+
+
+
+ <<link>>
+
+Hi Amy,
+
+As I mentioned in my previous email, a new approach to loyalty is giving our clients a better way of protecting the investments they make in both their acquisition and retain efforts.
+
+
+
+Do you have some time to discuss how we can help ensure that all the investments you make deliver a positive ROI that's both sustainable and truly measurable?
+
+Best,
+Eric
+
+ Signature Logo
+
+
+
+ERIC ROSENTHAL | SVP Sales | 110 E. 23rd St. 7th FL New York, NY 10010 
+
+m: 917.968.9965 | t: 646.845.0646
+
+domain.com | user@domain.com
+
+        <<link>>
+
+Investing in Acquisition & Retention
+
+In the never-ending debate over where marketing budgets should be allocated, we believe that regardless of how much and where you invest, loyalty should be a key component of ensuring that your investments pay off. A multi-channel loyalty program provides customers with the kinds of incentives that get them engaged and keep them coming back, while also providing marketers with the insights that allow them to more effectively
+

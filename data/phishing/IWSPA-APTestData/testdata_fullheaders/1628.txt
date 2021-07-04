@@ -1,0 +1,129 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Wed, 16 Jul 2015 14:52:39 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 0004E600EE	for
+ <user@domain.com>; Wed, 16 Jul 2015 13:39:19 +0100 (BST)
+Received: by domain.com (Postfix)	id 1E6D92BC1FA; Wed, 16 Jul 2015 
+ 14:52:40 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 035CC2BC031	for
+ <user@domain.com>; Wed, 16 Jul 2015 14:52:40 +0200 (CEST)
+X-ASG-Debug-ID: 1405515157-066a75113073820001-qirN0v
+Received: from mail.ic.fbi.gov (mail.ic.fbi.gov [153.31.119.142]) by
+ domain.com with ESMTP id Cx9xnXhGY1jSKQZQ; Wed, 16 Jul 2015 
+ 14:52:38 +0200 (CEST)
+X-Barracuda-Envelope-From: "Houck, James M." <James.Houck@ic.fbi.gov>
+X-Barracuda-Apparent-Source-IP: 153.31.119.142
+X-IronPort-AV: E=Sophos;i="5.01,672,1400040000"; 
+   d="scan'208";a="187040650"
+Received: from unknown (HELO fbi-hte-01.domain.com) ([10.90.16.72])  by
+ dmzamxll02-private-domain.com.cjis with ESMTP; 16 Jul 2015 08:52:37 -0400
+Received: from fbi-exvmw-22.FBI.GOV ([172.18.16.53]) by fbi-hte-01.domain.com
+ ([172.18.16.72]) with mapi; Wed, 16 Jul 2015 08:52:37 -0400
+From: "Houck, James M." <James.Houck@ic.fbi.gov>
+To: Alessandro Scarafile <user@domain.com>,
+	"user@domain.com" <user@domain.com>
+CC: "Solano, John M." <user@domain.com>, "Wallace, Jacob B."
+	<user@domain.com>, "user@domain.com"
+	<user@domain.com>
+Date: Wed, 16 Jul 2015 08:52:36 -0400
+Subject: Still need a little help
+Thread-Topic: Still need a little help
+X-ASG-Orig-Subj: Still need a little help
+Thread-Index: AQHPoN6CLTYn/8Q0WUGwlfyhJqBi6g
+Message-ID: <user@domain.com>
+References: <user@domain.com>,<1user@domain.com>
+In-Reply-To: <1user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+X-Barracuda-Connect: mail.ic.fbi.gov[153.31.119.142]
+X-Barracuda-Start-Time: 1405515158
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.7546
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-2135562172_-_-"
+
+Daniele and Alessandro,
+
+Thank you again for your help over the past few days.
+
+Our time critical need for support has passed, but our executive management is now interested in the RCS tool set.  They are asking for a presentation and demonstration.
+
+I think I have worked through the initial issues with Alessandro.  We are up and running with 9.3.
+
+Thanks,
+Mick.
+
+________________________________________
+From: "Houck, James M." <James.Houck@ic.fbi.gov>
+Sent: Tuesday, July 15, 2015 6:31 AM
+To: Houck, James M.
+Subject: Re: CentOS 64bit Libraries Update
+
+Hi Mick, sure.
+I'll be back on PC in 15 minutes.
+
+Alessandro
+
+--
+Alessandro Scarafile
+Field Application Engineer
+
+Sent from my mobile.
+
+----- Original Message -----
+From: "Houck, James M." <James.Houck@ic.fbi.gov>
+Sent: Tuesday, July 15, 2015 12:20 PM
+To: Alessandro Scarafile
+Subject: RE: CentOS 64bit Libraries Update
+
+Thanks.  If you can, please find me on skype for a quick question.  Not sure about the context of the second command (sh install)
+
+Mick.
+________________________________________
+From: "Houck, James M." <James.Houck@ic.fbi.gov>
+Sent: Tuesday, July 15, 2015 3:40 AM
+To: Houck, James M.
+Subject: CentOS 64bit Libraries Update
+
+Hello Mick,
+please find below 2 commands to run on a CentOS 64 bit VPS, to install libraries needed by RCS Anonymizer.
+
+These lines are intended to be launched as root before the RCS Anonymizer installation script.
+
+yum install glibc.i686
+sh install
+
+Best regards,
+Alessandro
+
+--
+Alessandro Scarafile
+Field Application Engineer
+
+Hacking Team
+Milan Singapore Washington DC
+domain.com
+
+email: user@domain.com
+mobile: +39 3386906194
+phone: +39 0229060603
+

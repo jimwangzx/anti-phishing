@@ -1,0 +1,56 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp161394lfr;
+        Wed, 8 Jul 2015 05:59:21 -0700 (PDT)
+X-Received: by 10.112.189.1 with SMTP id ge1mr9453121lbc.10.1436360361665;
+        Wed, 08 Jul 2015 05:59:21 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-la0-domain.com (mail-la0-domain.com. [2a00:1450:4010:c03::22b])
+        by domain.com with ESMTPS id dx6si1719977lbc.64.2015.07.08.05.59.21
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 08 Jul 2015 05:59:21 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::22b as permitted sender) client-ip=2a00:1450:4010:c03::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2a00:1450:4010:c03::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-la0-domain.com with SMTP id r3so223656942laa.0
+        for <user@domain.com>; Wed, 08 Jul 2015 05:59:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Jake Sullivan <jsullivan@hillaryclinton.com>
+         :content-type;
+        bh=DMQUoDAf5UTzbV2I2SJlDGBczVOHMVNvSi8h7plqQeE=;
+        b=DgUfqJ3sFm1gMcl1Y4rzN+5J6E0ZsbjyYbKvW0+rD6wGuV5Vl/JItseDmAQH1ctdGr
+         X541ccdo4s9KKmhh+CYNjNvmacGRGYtP19XZV5yHE6F5hQPpo24k87+CombBGUIZlUOI
+         DixRKopA7aQwWYFy+KXIavFvlERLDKReJguVI
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Jake Sullivan <jsullivan@hillaryclinton.com>
+         :message-id:subject:to:content-type;
+        bh=DMQUoDAf5UTzbV2I2SJlDGBczVOHMVNvSi8h7plqQeE=;
+        b=EvUIu7K4TkRrSRC/Xs+dtWTBOa8rZMQYlb4mX8cMD7/TpbgM0cnUyAz1ozAMMyOFUu
+         nqcTwhFW3XWRhLLE+9l+ItGpRelbASaVHb7/jEnVLVG/+82RjcXKtH2aJFMsrp3w95fp
+         7LhdzWZYakav6eYsGh/8+mizeaDSNBgzXvQQqbDISRYDDdQAYhwrpmImOaNER81HKXG0
+         th6IED+p0fdn9PL/i5ah00NG8o8xAKuaMUJeNuVvJ/qsL22IM9b8BIdfxKko7Lzmmm2b
+         02Ge2HexduYQgLh9bw8mitAmSOAM2lnamZNWoNBjSHfkEZJo30gmhRTYxy6oZiJYhxmZ
+         la+A
+X-Gm-Message-State: ALoCoQmi1sNMAmU3OlJMZ3V3XquKtSQyt7XsK90JKmlcT67g6sXtmV3/EUnWRXXOkY7CcH9Fo6+W
+X-Received: by 10.112.147.201 with SMTP id tm9mr9381290lbb.40.1436360361532;
+ Wed, 08 Jul 2015 05:59:21 -0700 (PDT)
+From: Jake Sullivan <jsullivan@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <1436227657828.90307@domain.com> <1436331145628.26821@domain.com>
+ <CAE6FiQ8vdkdcsgLqWJou2DbbgD+user@domain.com>
+In-Reply-To: <CAE6FiQ8vdkdcsgLqWJou2DbbgD+user@domain.com>
+Date: Wed, 8 Jul 2015 08:57:49 -0400
+Message-ID: <-1749591170262005166@unknownmsgid>
+Subject: Re: Greece
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7b34391a1e73b1051a5cb536
+
+I wonder if he saw her comments yesterday where she leaned into supporting
+the Greek people.
+
+She did not, however, talk plan b.
+

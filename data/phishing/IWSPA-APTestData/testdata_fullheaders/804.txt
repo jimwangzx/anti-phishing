@@ -1,0 +1,86 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 25 Feb 2015 06:04:07 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1PE4RWe032295	for <user@domain.com>; Tue, 25 Feb 2015 
+ 14:04:27 GMT
+Received: from mail26-co9-domain.com (mail-domain.com [207.46.163.19])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1PE4EHE010976	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 25 Feb 2015 14:04:15 GMT
+Received: from mail26-co9 (localhost [127.0.0.1])	by mail26-co9-domain.com
+ (Postfix) with ESMTP id 0E25F1200E0	for <user@domain.com>; Tue, 25
+ Feb 2015 14:04:26 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:65.98.228.88;KIP:(null);UIP:(null);SRV:BULK;H:extinmta-domain.com;RD:extinmta-domain.com;EFVD:NLI
+X-SpamScore: 21
+X-BigFish: vps21(z1677ioz19b8Mde5fh15e4kzz1f42h2148h208ch1ee6h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz8275ch1def03h17326ah1def87h8275bh1bc7b9h1def86h18c673h1de097h186068hz2fheh5eh5fh839h8aah93fh950h107ah10d2h1288h12a5h137ah139eh13b6h13eah1441h1537h162dh1631h1758h1898h18e1h19b5h1b0ah224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail26-co9: domain of domain.com designates 65.98.228.88 as permitted sender) client-ip=65.98.228.88; user@domain.com; helo=extinmta-domain.com ;domain.com ;
+Received: from mail26-co9 (localhost.localdomain [127.0.0.1]) by mail26-co9
+ (MessageSwitch) id 1393337064548688_32539; Tue, 25 Feb 2015 14:04:24 +0000
+ (UTC)
+Received: from domain.com (unknown [10.236.132.230])	by
+ mail26-domain.com (Postfix) with ESMTP id 7732D1000A1	for
+ <user@domain.com>; Tue, 25 Feb 2015 14:04:24 +0000 (UTC)
+Received: from extinmta-domain.com (65.98.228.88) by
+ domain.com (10.236.130.34) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 25 Feb 2015 14:04:22 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dked; d=domain.com;
+ h=From: Great American Health
+ bh=Utca1VGY3sCLMb2wypN3umgzIyE=;
+ b=RzCU7IE1qPFAHB6hZOkzYp9U5zCV6zOd16+ax8rWfEXr079XOfGLc4t5fo6+vGbc0K1zvJ3P//Y3
+   c3jQ1ewrTEiVpLQYZ8DPXxDqMnrfpuIIArVBD+Q8nF7+y5mtn95zNQfArxfYPImt3L0uj9XM7jlT
+   h020gqbnpYudqxvQ42A
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dked; d=domain.com;
+ b=njlZ37aJGKzDmFCYliL8zlPOXf4HQfsYIa38GXBQcvjYfPgUBl58QpZQ01VzreWUEQ6ZxCDx8JSz
+   B0tKpwS+jZPqu3dw2SsOPPnuALYSAKuSBqNDrnVkFIIviR9wnbG2aMgCCwNOY2WBx7cULjl78AOJ
+   kqLx/Z7ML2+3HNaXqUo=;
+Received: by extinmta-domain.com id h1ihec16h9kq for
+ <user@domain.com>; Tue, 25 Feb 2015 06:04:22 -0800 (envelope-from
+ <user@domain.com>)
+X-IADB-IP: 65.98.228.88
+X-IADB-IP-REVERSE: 88.228.98.65
+X-IADB-URL: <<link>>
+From: Great American Health
+	<user@domain.com>
+To: Amy <user@domain.com>
+Reply-To: <user@domain.com>
+Subject: A Healthy Discount on Your Health Supplements.
+Message-ID: <user@domain.com>
+X-PPCI: bavx6kr3yjrn2mrx8afx69qx8arn6jeu6s
+X-PPRI: bjrt2mw3ujvz2jkxtjfn6ur3ygt34
+X-MID: MjgzOTs0MzsyMzg0OTg7Mzs2MzUyODkwNTA2MjQxODUwNjg
+X-SNDRINF: 43::AGENT-11::ED_D_Greatamericanproducts::GreatAmericanProducts::2/25/2014-06:04:22Z-8
+X-Mailer: EmailDirect 2015 v30319
+List-Unsubscribe: <<<link>>>,<mailto:user@domain.com?subject=u:=Part.2839.43.238498>
+Date: Tue, 25 Feb 2015 06:04:22 -0800
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+A Healthy Discount on Your Health Supplements.
+
+Great American Products         Having trouble viewing? View online
+Read something interesting? Forward to a friend
+
+Facebook Twitter YouTube Google Plus    
+
+Shop by Category        See All Products        Rewards Health News     About Us        Gift Cards      FAQ     Contact Us       
+
+Great American Products
+
+Dear Amy,
+
+
+
+
+Being a Great American Health customer has its' advantages. Are you making the most of your shopping experience? Do you know about our rewards program? What about the preferred customer program?
+
+
+
+
+Did you know that and order over $100 gets FREE S&H? Heck, we'll even add a healthy 10% off orders over $100 this week. Just enter promo code HEALTHY10 when you checkout online. Offer valid u
+

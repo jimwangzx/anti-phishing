@@ -1,0 +1,65 @@
+Return-Path: <user@domain.com>
+X-Original-To: user@domain.com
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [152.160.49.220])
+	by domain.com (Postfix) with ESMTP id 8DB7546AB7
+	for <user@domain.com>; Fri,  7 Dec 2015 16:08:43 -0500 (EST)
+Received: from domain.com (bio.hgy.es [193.146.180.21])
+	by domain.com (Postfix) with ESMTP id F27861320004
+	for <user@domain.com>; Fri,  7 Dec 2015 16:08:42 -0500 (EST)
+Received: by domain.com (Postfix)
+	id 34BDD1B91E; Fri,  7 Dec 2015 22:08:23 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [193.146.180.90])
+	by domain.com (Postfix) with ESMTP id CDE931B910
+	for <user@domain.com>; Fri,  7 Dec 2015 22:08:22 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by domain.com (Postfix) with ESMTP id BE920A0D
+	for <user@domain.com>; Fri,  7 Dec 2015 22:08:22 +0100 (CET)
+X-Quarantine-ID: 
+X-Virus-Scanned: Debian amavisd-new at domain.com
+X-Spam-Flag: YES
+X-Spam-Score: 29.462
+X-Spam-Level: *****************************
+X-Spam-Status: Yes, score=29.462 tagged_above=0 required=5 tests=[BAYES_60=1,
+	FORGED_MUA_OUTLOOK=4.056, FORGED_OUTLOOK_HTML=2.713,
+	FORGED_OUTLOOK_TAGS=2.492, HTML_MESSAGE=0.001, MIME_HTML_ONLY=0.001,
+	RAZOR2_CF_RANGE_51_100=0.5, RAZOR2_CF_RANGE_E4_51_100=1.5,
+	RAZOR2_CHECK=12, RCVD_IN_BL_SPAMCOP_NET=1.558, UNDISC_RECIPS=0.841,
+	URIBL_PH_SURBL=2.8]
+Received: from domain.com ([193.146.180.21])
+	by localhost (domain.com [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id Uv1xzAj41bhQ for <user@domain.com>;
+	Fri,  7 Dec 2015 22:08:16 +0100 (CET)
+Received: from cenn-smtp.mc.mpls.visi.com (cenn.mc.mpls.visi.com [208.42.156.9])
+	by domain.com (Postfix) with ESMTP id 6ED9B1B7F3
+	for <user@domain.com>; Fri,  7 Dec 2015 22:08:16 +0100 (CET)
+Received: from service (jim.montague.dsl.visi.com [209.98.138.26])
+	by cenn-smtp.mc.mpls.visi.com (Postfix) with SMTP
+	id A4F3515D820; Fri,  7 Dec 2015 15:07:51 -0600 (CST)
+Reply-To: user@domain.com
+From: PayPal Inc. <assistance@visi.com>
+Subject: ***SPAM*** Your account access is limited. Remove this limitation.
+Date: Fri, 7 Dec 2015 15:09:43 -0600
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20071207210751.user@domain.com>
+To: undisclosed-recipients: ;
+Content-Length: 906
+Lines: 18
+Status: RO
+X-Status: 
+X-Keywords: 
+X-UID: 457
+
+Your Online PayPal Password was blocked on 08/12/2007
+
+	      Log In into your account to resolve the problem.
+
+  Click here to Log In

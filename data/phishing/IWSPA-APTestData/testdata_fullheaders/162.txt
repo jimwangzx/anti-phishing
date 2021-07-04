@@ -1,0 +1,176 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp175191lfi;
+        Fri, 22 May 2015 14:51:39 -0700 (PDT)
+X-Received: by 10.60.82.67 with SMTP id g3mr8297422oey.29.1432331498523;
+        Fri, 22 May 2015 14:51:38 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::22d])
+        by domain.com with ESMTPS id f132si2077493oig.72.2015.05.22.14.51.37
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 22 May 2015 14:51:38 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22d as permitted sender) client-ip=2607:f8b0:4003:c01::22d;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22d as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id us9so22113236obc.2
+        for <user@domain.com>; Fri, 22 May 2015 14:51:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:From: Tyson Brody <tbrody@hillaryclinton.com>
+         :cc:content-type;
+        bh=fo43SYA8u59P9zNVdD4b0IJ6IX1+58VUmgusfJQBEfI=;
+        b=KY0O/9ry8pRWhDStIfnHcbgoTu+hYwQcOAkOJCA+QsSL3yblpicHMCRYKiRDildpL8
+         hUmbs05jRNQxIPrzAhXfzg0NfGoWruDOtIgNSOwCVqN36sTtsfUQFm52M7QxUNhSGVrr
+         IeSlAOeAb8DrPOIYOGXo5REL92ObxzC9F7qco
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:From: Tyson Brody <tbrody@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=fo43SYA8u59P9zNVdD4b0IJ6IX1+58VUmgusfJQBEfI=;
+        b=TrAA1UjluqjXsiUfrwLH9fwwTOXTLAVtFuzfxwAVAbkmpu/9pSmQpQiPuVtgtOHzz6
+         D4SNms7xyvqy4gbdfdiFLsJchAr4+za7k9tz8FkkZrTadSDy/Tu8tMcGEbdZdl/+/Jri
+         hP5aXcPbcKXoKjNPwJ7tZMRQE+winC7P5GVIdLIEEwaoC3M/oXpYftjmYVYDWPtERF38
+         AXv/nRkIIy5zySh14EBw2UQc4jhD+3F1vjoF0PxpZF4s4/JRroAGokKfoyaY37UyzIzG
+         E1FK4WnkzZ1zO7iidZgzJGJ9Av0WX4amPwPVkTUwhhJ28SzveIHza0W132uNAIohJyKf
+         B3Vg
+X-Gm-Message-State: ALoCoQn99cotzAmF+kSKEN4cQNF+ie46HaZslIW7SjHtPZR6lCHQWQOEE2b5SS9RMUNNe0S9AhSX
+X-Received: by 10.202.192.7 with SMTP id q7mr7844763oif.85.1432331497482; Fri,
+ 22 May 2015 14:51:37 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.182.181.73 with HTTP; Fri, 22 May 2015 14:51:16 -0700 (PDT)
+In-Reply-To: <user@domain.com>
+References: <6user@domain.com>
+ <CAMGPAat8PKLuV0WBT2Vj+8user@domain.com>
+ <CAMGPAat5pzYxeZAm0y=eo25j0xdq_e9CzeGThuWdCMyVm+user@domain.com>
+ <CAPrY+5user@domain.com>
+ <user@domain.com>
+ <CAPrY+5Js+2user@domain.com>
+ <6359user@domain.com> <3user@domain.com>
+ <CAMGPAaviRFNu3SGWNgxfVpKo=k_EQ_Ch+user@domain.com>
+ <CAMGPAauUxNTXdxunSZ61o6svfzVV1+8user@domain.com>
+ <user@domain.com> <CAPrY+5user@domain.com>
+ <user@domain.com>
+ <7528685876769027991@unknownmsgid> <user@domain.com>
+ <112001418762281453@unknownmsgid> <user@domain.com>
+ <897user@domain.com> <-5430132974812497554@unknownmsgid>
+ <CAPrY+5+75user@domain.com>
+ <CALk44aCBCSh8fEo1YUCJDrrj4M7iGs8xOeY=9z+user@domain.com>
+ <CAPrY+5user@domain.com>
+ <user@domain.com> <CAMGPAatNkdK91+dW9vd8WCEc7y4V_1=m4m9MtHGqC+user@domain.com>
+ <-3223510968006482606@unknownmsgid> <user@domain.com>
+ <user@domain.com>
+ <7653832662859670479@unknownmsgid> <user@domain.com>
+ <CAMGPAasWH6vxNF3OrzDyQ2hwq9Pr4rRHknuVVxD+user@domain.com> <user@domain.com>
+From: Tyson Brody <tbrody@hillaryclinton.com>
+Date: Fri, 22 May 2015 17:51:16 -0400
+Message-ID: <user@domain.com>
+Subject: Re: CLIPS ON EMAIL RELEASE
+To: Adrienne Elrod <user@domain.com>
+CC: Nick Merrill <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Ian Sams <user@domain.com>, 
+ Josh Schwerin <user@domain.com>, 
+ Cheryl Mills <user@domain.com>, 
+ Karen Finney <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ HRCRR <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ John user <user@domain.com>, Robby Mook <user@domain.com>, 
+ Huma Abedin <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a113dcdd21bc50f0516b2aa28
+
+People
+
+<<link>>
+-personal-life
+
+Hillary Clinton Emails Give Peek into Personal Life, Habits and Style
+
+BY SANDRA SOBIERAJ WESTFALL
+ @sswestfall <<<link>>>
+
+05/22/2015 AT 04:20 PM EDT
+James Bond had Q. Barack Obama had H.
+
+In the 296 Hillary Clinton
+<<<link>>,,personsTax:HillaryRodhamClin
+ton,00.html>
+emails
+released Friday afternoon by the State Department, we see a lot of
+backstage back-and-forth discussion
+<<<link>>> of the deadly
+2012 terrorist attack on the U.S. diplomatic post in Benghazi, Libya.
+
+We also get a rare peek at some of the peculiarities of her daily life as
+President Obama's secretary of state =E2=80=93 starting with the fact that,
+ in
+email, her staff addressed her, simply, as "H."
+
+And with the famously buttoned-up former First Lady, some staffers were
+fairly casual in their parlance.
+
+On Dec. 20, 2012, as she was at home recovering from a concussion due to a
+fall <<<link>>,,20657095,00.html>, Clinton
+emailed two top aides, Thomas Nides and William Burns, who were headed to
+Capitol Hill to testify before Congress on her behalf.
+
+"I'll be nursing my cracked head and cheering you on as you 'remain calm
+and carry on!' " Clinton wrote.
+
+Nides wrote back with shoddy punctuation and spelling: "Thanks I wish I
+could tell u I am looking forward to this but it would be a lie! Get
+better...."
+
+Then there are the idiosyncrasies of Clinton's tightly scheduled days.
+Clinton's daily planner from her scheduler was often broken down into
+5-minute blocks (as in the five minutes Clinton was to "drop by" the
+surprise birthday party of communications strategist Philippe Reines) and
+included the day's weather report, plus the planned overnight whereabouts
+of Clinton and her husband.
+
+The schedule for Nov. 26, 2012, noted: "HRC RON Washington, DC; WJC RON
+Chappaqua, NY."
+
+Translation: Hillary Rodham Clinton, remain overnight Washington, DC;
+William Jefferson Clinton, remain overnight Chappaqua, NY.
+
+That same schedule quaintly listed Undersecretary Pat Kennedy as Clinton's
+"plus one" for an afternoon meeting in the White House Situation Room.
+
+Perhaps the most colorful commentary in the entire collection comes from
+Reines, describing for colleagues how Monica Langley of *The Wall Street
+Journal* moved her chair uncomfortably close to Clinton during an Oct. 10,
+2012, interview in the Secretary's outer office at the State Department:
+
+"...she moved that yellow chair as close as it went. Knee to knee. Amazed
+she didn't try knee in between knee. And if that wasn't enough, she leaned
+forward. More like a pivot, as far as her torso could fold forward to
+minimize the space between their heads. Was like the dental hygienist
+rolling around the floor to get the best access to your mouth depending on
+what tooth she was trying to get access to I've never seen a Westerner
+invade her space like that And even the non Westerners I've seen do it
+based on cultural differences have been only briefly to greet, This went on
+like that for 51 minutes =E2=80=93 unacceptable in any culture. I don't eve
+n think
+you see that behavior among any type of mammal. The touching the leg and
+repeatedly calling her 'Hillary' was just gravy. But it was wonderful. One
+of the best interviews I've ever witnessed. Wish it were on live tv."
+
+The emails, which you can read for yourself here
+<<<link>>>, are
+just the first batch of some 30,000 pieces of electronic correspondence
+Clinton turned over to State from her controversial private server
+<<<link>>
+
+.
+
+From the presidential campaign trail
+<<<link>>> on
+Friday, Clinton said of the remaining emails that she is pressing the State
+Department to release "all of them as soon as possible."
+
+On Fri, May 22, 2015 at 5:45 PM, Adrienne Elrod <user@domain.com>

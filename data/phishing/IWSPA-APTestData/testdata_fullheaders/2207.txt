@@ -1,0 +1,55 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.203 with SMTP id e194csp393008lfb;
+        Tue, 23 Sep 2015 08:28:58 -0700 (PDT)
+X-Received: by 10.140.32.102 with SMTP id g93mr413937qgg.13.1411486138318;
+        Tue, 23 Sep 2015 08:28:58 -0700 (PDT)
+Return-Path: <>
+Received: from domain.com (domain.com. [216.82.243.51])
+        by domain.com with ESMTPS id s5si12696786qai.108.2014.09.23.08.28.57
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Tue, 23 Sep 2015 08:28:58 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of domain.com designates 216.82.243.51 as permitted sender) client-ip=216.82.243.51;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 216.82.243.51 as permitted sender) smtp.mail
+Return-Path: <>
+Received: from [216.82.241.131:39974] by server-14.bemta-8.domain.com id D4/09-01453-9B191245; Tue, 23 Sep 2015 15:28:57 +0000
+X-Msg-Ref: server-7.tower-54.domain.com!1411486136!8091129!2
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.2; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 7746 invoked from network); 23 Sep 2015 15:28:57 -0000
+Received: from unknown (HELO LAW-CAS1.law.georgetown.edu) (141.161.191.74)
+  by server-7.tower-54.domain.com with AES128-SHA encrypted SMTP; 23 Sep 2015 15:28:57 -0000
+Received: from LAW-MBX01.law.georgetown.edu ([169.254.1.6]) by
+ LAW-CAS1.law.georgetown.edu ([141.161.191.74]) with mapi id 14.03.0181.006;
+ Tue, 23 Sep 2015 11:28:53 -0400
+From: Georgetown Law Events <rsvp2@law.georgetown.edu>
+Subject: REMINDER: Dean's Wednesday Luncheon
+Thread-Topic: REMINDER: Dean's Wednesday Luncheon
+Thread-Index: Ac/MNnXmC5xGHF3gR1ejxvTGzv0CtQLDIZIA
+Date: Tue, 23 Sep 2015 15:28:52 +0000
+Message-ID: <user@domain.com>
+References: <user@domain.com>
+In-Reply-To: <user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.129.143]
+Content-Type: multipart/alternative;
+	boundary="_000_A1DC97038FFD894F8D98DB750350519324984CD0LAWMBX01lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+
+Dear Faculty,
+
+This is a reminder that the Dean's Wednesday Luncheon will take place tomor
+row, Wednesday, September 24, in the Faculty Lounge at 12:00pm.  We hope yo
+u can make it!
+
+Thank you,
+
+Office of Special Events
+

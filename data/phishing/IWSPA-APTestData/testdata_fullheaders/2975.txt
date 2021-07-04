@@ -1,0 +1,59 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.136 with SMTP id r130csp2982428lfr;
+        Tue, 25 Aug 2015 18:19:48 -0700 (PDT)
+X-Received: by 10.170.159.198 with SMTP id a189mr9173063ykd.46.1440551988213;
+        Tue, 25 Aug 2015 18:19:48 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22c])
+        by domain.com with ESMTPS id z82si850150ykz.12.2015.08.25.18.19.47
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 25 Aug 2015 18:19:48 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22c as permitted sender) client-ip=2607:f8b0:4002:c07::22c;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22c as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id t205so172803737ykd.1
+        for <user@domain.com>; Tue, 25 Aug 2015 18:19:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Robby Mook <re47@hillaryclinton.com>
+         :cc:content-type;
+        bh=RladglFon0LUuyAiSfIUU7N4FR6Xu+705vEfmLIBUMs=;
+        b=InRzXZQK1VJQaikE3M6LwDnKaLLU+8FaVnLeL5Uwi1zXSJKXA38WmV9GA1VoCgkNGU
+         +HMe+EsRcmSRl6hhedM7OPODXgo7pe+tAjDeAdvup5VmsuUbdl5wnGL1+fqsD1rbV30r
+         U6TkkDBiT/tL4+Eh5hc5lXaqMHAc94De+5OqU
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Robby Mook <re47@hillaryclinton.com>
+         :message-id:subject:to:cc:content-type;
+        bh=RladglFon0LUuyAiSfIUU7N4FR6Xu+705vEfmLIBUMs=;
+        b=Bctb1yK4qaxZedrqto5H1eRnTwLfEgBzgwHxnErvwOjwQxmp9UyHfAKm+0AVEgubaz
+         722kMoeQOUJ9MspRIeC1o3w0YahsWLrkSBgXZipRR0M2IcLS9VeGrbUILcnnrObuuw07
+         ZcIgfyCn//yBz6caYczdjwT4Oa6oBp9rvrgLaXy4J9FeWvGyc4F6tvB4oi8rT6YsD2+G
+         rcuDm1flqsZP8DvhJycODKNGEKEK6KhP8QJJEnF1TtFgq3KmJALV/rGzpfe0Fcb1b8QG
+         VJeYvIyZhAXBGpt580o3nbYP9cOOmFXf8xPzwDwrAF4K5kXayEOL0cyUZins20lLTF5N
+         DWNA
+X-Gm-Message-State: ALoCoQmVKpw2+xI4AdQvXu+DQnoi+Y5dn3V8dOa4O9d5dX528JtVTqgKnz+ccsWLZ639vO8CqxWF
+X-Received: by 10.129.95.87 with SMTP id t84mr42223839ywb.29.1440551987160;
+ Tue, 25 Aug 2015 18:19:47 -0700 (PDT)
+From: Robby Mook <re47@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <D2024F3D.169B85%user@domain.com> <3user@domain.com>
+ <user@domain.com>
+ <CADHYb1_uRZZx+8sbHct7rB2BjmhwwOYJcyT9iCRox+user@domain.com>
+ <-5891107768448660947@unknownmsgid> <user@domain.com>
+ <CAE6FiQ-CpgcfK=oDvi+Z=-AMEYozrDO7OryzmCV+user@domain.com> <7852079637785181701@unknownmsgid>
+In-Reply-To: <7852079637785181701@unknownmsgid>
+Date: Tue, 25 Aug 2015 20:19:46 -0500
+Message-ID: <460352830523637427@unknownmsgid>
+Subject: Re: Hillary
+To: Jennifer Palmieri <user@domain.com>
+CC: John user <user@domain.com>, Teddy Goff <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a1147f85879d030051e2ca572
+
+Agree
+
+On Aug 25, 2015, at 8:15 PM, Jennifer Palmieri <user@domain.com
+m>

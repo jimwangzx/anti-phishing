@@ -1,0 +1,97 @@
+Delivered-To: user@domain.com
+Received: by 10.141.49.9 with SMTP id b9cs134713rvk;
+        Thu, 22 May 2015 15:20:08 -0700 (PDT)
+Received: by 10.35.34.18 with SMTP id m18mr1076995pyj.13.1211494807688;
+        Thu, 22 May 2015 15:20:07 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from py-out-1314.domain.com (py-out-1314.domain.com [64.233.166.172])
+        by domain.com with ESMTP id w38si13348709pyg.3.2008.05.22.15.20.05;
+        Thu, 22 May 2015 15:20:07 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.233.166.172 as permitted sender) client-ip=64.233.166.172;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 64.233.166.172 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by py-out-1314.domain.com with SMTP id u10so866621pyb.7
+        for <user@domain.com>; Thu, 22 May 2015 15:20:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to:received:received:received-spf:authentication-results:received:dkim-signature:domainkey-signature:received:received:message-id:date:From: "Leighton Woodhouse" <lwoodhouse@gmail.com>
+        bh=BeDEjH+0h0SZMRI9hr+XhRwTtAoNampZOZ7Jaxl/+wo=;
+        b=ei6CrudN5Xp5v1rGBacFbc6nPBKH3ostOHj93GiHT2zQwr5zxHFNvfL2c/udWD91Fe7Om24ROgdAD7ywcBz88v3sTbHrzV+ztiBbMiN9lDdUc1NO0C7m7tcMKuqvWhrzf4xICJgCd5TutKP1mBY4FD4ZntSzRjeaxmeHIQFeR2E
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results:dkim-signature:domainkey-signature:message-id:date:From: "Leighton Woodhouse" <lwoodhouse@gmail.com>
+        b=BfLC8p7Q3IKdxOeJ1U6CjK1kjFWidno5AEwMXzFtFeOAB72UJX18chg6YlqShTRJBrf4EdITbqeVtDN3DO7PuKZUPZdbyQngrKvyPEOBc4k/+DVXXaBw5bZL72F8cZfqso5xlrv8DfcL/YfTq01P623rtEkMAFvriVIzUI2TsAE
+Received: by 10.141.4.3 with SMTP id g3mr34053rvi.29.1211494798514;
+        Thu, 22 May 2015 15:19:58 -0700 (PDT)
+Received: by 10.106.239.31 with SMTP id m31gr642prh.0;
+	Thu, 22 May 2015 15:19:57 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.35.22.9 with SMTP id z9mr1234125pyi.0.1211494797561; Thu, 22 May 2015 15:19:57 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wx-out-0506.domain.com (wx-out-0506.domain.com [66.249.82.232]) by domain.com with ESMTP id z53si34701111pyg.1.2008.05.22.15.19.56; Thu, 22 May 2015 15:19:57 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.249.82.232 as permitted sender) client-ip=66.249.82.232;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 66.249.82.232 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by wx-out-0506.domain.com with SMTP id s18so317741wxc.0 for <user@domain.com>; Thu, 22 May 2015 15:19:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma; h=domainkey-signature:received:received:message-id:date:From: "Leighton Woodhouse" <lwoodhouse@gmail.com>
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma; h=message-id:date:From: "Leighton Woodhouse" <lwoodhouse@gmail.com>
+Received: by 10.70.36.12 with SMTP id j12mr649319wxj.31.1211494795913; Thu, 22 May 2015 15:19:55 -0700 (PDT)
+Received: by 10.70.53.19 with HTTP; Thu, 22 May 2015 15:19:55 -0700 (PDT)
+Message-ID: <2user@domain.com>
+Date: Thu, 22 May 2015 15:19:55 -0700
+From: "Leighton Woodhouse" <lwoodhouse@gmail.com>
+To: user@domain.com
+Subject: [big campaign] Story building in MSM on McCain+Parsley
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+
+McCain's relationship with Rod Parsley, the OTHER controversial
+pastor, is finally beginning to get the press attention it deserves.
+Here's the Brave New Films/Mother Jones video that's been making the
+rounds on YouTube for a couple weeks:
+
+<<link>>
+
+And here's the story on Good Morning America today:
+
+<<link>>
+
+Accompanying written story:
+
+<<link>>
+
+domain.com:
+
+<<link>>
+
+The Columbus Dispatch:
+
+<<link>>
+
+And we're told that tonight the story will air on Anderson Cooper.
+
+McCain has rejected Hagee's endorsement -- now it's time to reject
+Parsley's as well.
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---

@@ -1,0 +1,474 @@
+Delivered-To: user@domain.com
+Received: by 10.141.82.1 with SMTP id j1cs168657rvl;
+        Fri, 11 Jul 2015 14:27:50 -0700 (PDT)
+Received: by 10.70.73.12 with SMTP id v12mr14303855wxa.57.1215811668641;
+        Fri, 11 Jul 2015 14:27:48 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wr-out-0708.domain.com (wr-out-0708.domain.com [64.233.184.246])
+        by domain.com with ESMTP id i13si1779744wxd.5.2008.07.11.14.27.47;
+        Fri, 11 Jul 2015 14:27:48 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.233.184.246 as permitted sender) client-ip=64.233.184.246;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 64.233.184.246 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by wr-out-0708.domain.com with SMTP id 63so9197685wra.10
+        for <user@domain.com>; Fri, 11 Jul 2015 14:27:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Cammie Croft" <cammie@progressiveaccountability.org>
+         :mime-version:content-type:references:sender:precedence
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        bh=dMuISCBnlm6E4oJor9e39M7FlDyqs1clsD47OlTZNsY=;
+        b=QsEUpjiJIXuq2a+aJUwhGdt8LGUKswZEwzN7VKf8rACKDIkJAUXcWylIf8/gIeN0gb
+         v3Rf9Dgqo/AP8wJ6xmNprMhtK3nsTCBWRof0WQIO79T6lPRZGJfvvIzIkoQDc2fLW21W
+         tLS9l8g0yKvMNEVC2bEPTjWJizspkEjFSALVA
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Cammie Croft" <cammie@progressiveaccountability.org>
+         :content-type:references:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere;
+        b=Zmq/mWcRoOhZGswZNIunBShRobQF/JVrYB5o+z0blY+XXnn+mXPdO0qGbJykCL7zSB
+         kAShFGUts5Dl9d79DE6mjyoJsJlNrWlNZqHkpcUUjfoaPFwNdE1K4e6APvnYIljeh4tl
+         aqijFuPTpuqjD0eIa5JVTD4ATzfOM2PBnmi38
+Received: by 10.150.49.2 with SMTP id w2mr335519ybw.18.1215811660591;
+        Fri, 11 Jul 2015 14:27:40 -0700 (PDT)
+Received: by 10.107.3.34 with SMTP id f34gr1170pri.0;
+	Fri, 11 Jul 2015 14:27:25 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.114.155.1 with SMTP id c1mr6666133wae.1.1215811644097; Fri, 11 Jul 2015 14:27:24 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from fk-out-0910.domain.com (fk-out-0910.domain.com [209.85.128.189]) by domain.com with ESMTP id 39si1296581yxd.0.2008.07.11.14.27.23; Fri, 11 Jul 2015 14:27:24 -0700 (PDT)
+Received-SPF: neutral (domain.com: 209.85.128.189 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=209.85.128.189;
+Authentication-Results: domain.com; spf=neutral (domain.com: 209.85.128.189 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by fk-out-0910.domain.com with SMTP id z22so1955815fkz.6 for <user@domain.com>; Fri, 11 Jul 2015 14:27:23 -0700 (PDT)
+Received: by 10.125.138.7 with SMTP id q7mr3239949mkn.167.1215811642524; Fri, 11 Jul 2015 14:27:22 -0700 (PDT)
+Received: by 10.125.136.16 with HTTP; Fri, 11 Jul 2015 14:27:22 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Fri, 11 Jul 2015 17:27:22 -0400
+From: "Cammie Croft" <cammie@progressiveaccountability.org>
+To: user@domain.com
+Subject: [big campaign] John McCain Tracking Video: Week in Review 07/11/08
+In-Reply-To: <user@domain.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_21990_6760978.1215811642516"
+References: <user@domain.com>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+Hi All,
+
+In case you missed it, check out the top clips we captured this week at
+McCain town hall meetings:
+
+   - In "women's event" McCain misrepresents himself, record on equal pay
+   <<link>>
+
+   - McCain to woman in wheelchair: Program to support disabled Americans is
+   not the "right kind of legislation*" *
+   <<link>>
+
+   - McCain on Social Security: "It's an absolute disgrace."* *
+   <<link>>
+
+   - McCain referring to young blond woman, tells college student, "you have
+   very attractive friends" <<link>>
+
+   - McCain gets into tense exchange with Vietnam Vet; falsely claims he has
+   a perfect voting record from "all =85 veterans service organizations"
+   <<link>>
+
+   - McCain on FISA: Telecommunications companies "should not be held
+   responsible in the way that they're to be sued"
+   <<link>>
+
+   - McCain on education: Thankful we had "the money to send =85 our kids to
+   Catholic school" <<link>>
+
+   - McCain tells woman who's parents died of cancer "Nuclear power is
+   safe... a vital part of our nation's energy future"
+   <<link>>
+
+   - McCain gives crying woman losing her job "some straight talk," doubts
+   he'll be able to help keep her job
+   <<link>>
+
+   - McCain Predicts War With Iran, Calls 16-Year-Old Boy "Attractive"
+   <<link>>
+
+*Blast from the Past: *
+With Phil Gramm dominating the news, here's an old clip with some new
+meaning.
+*McCain, "I want you to judge me by the company that I keep =85"
+*JOHN MCCAIN: "I do want you to judge me by the company that I keep... I do
+want you to judge me by the company that I keep... Every homeowner in this
+state and across the gulf region that are threatened by hurricanes we will
+work together and get the insurance that you need so that you will be able
+not to risk everything you worked for in your life."
+(Speech; Orlando, FL 01/28/08)
+TO VIEW: <<link>>
+TO DOWNLOAD: <<link>>
+Enjoy!
+
+- Cammie
+
+--
+Cammie L. Croft
+Tracking/Media Monitoring Director
+Progressive Accountability Office
+user@domain.com
+202-609-7679 (office)
+206-999-3064 (cell)
+
+P.S. Here are full transcripts:
+
+ <<<link>>>
+
+*VIDEO with FULL TRANSCRIPTS*
+
+*In "womens event" McCain misrepresents himself, record on equal Pay  *
+
+JOHN MCCAIN: "We haven't done enough. We have not done enough. And I'm
+committed to making sure that there's equal pay for equal work. That there
+is equal opportunity in every aspect of our society. And that is my record
+and you can count on it."
+(Town Hall Meeting; Hudson, WI 07/11/08)
+TO VIEW: <<link>>
+
+*McCain to woman in wheelchair: Program to support disabled Americans is not
+the "right kind of legislation" *
+QUESTIONER (in wheelchair): "Senator McCain, [...] my friends and I=97we are
+members of a group called ADAPT. We were in Washington in April. And 40
+people with disabilities were arrested. We came to your office to ask you to
+support our national legislation, the Community Choice Act. What that would
+do is it would end the institutional bias and allow people with disabilities
+to choose where we would live and would receive services. [...] We come from
+all over the country [...] Will you sign on to support the Community Choice
+Act?
+
+JOHN MCCAIN: "I will not because I don't think that it's the right kind of
+legislation. [...] The Community Choice Act is not a piece of the
+legislation that I support [...]"
+
+(Town Hall Meeting; Denver, CO 07/07/08)
+
+TO VIEW: <<link>>
+
+TO DOWNLOAD: <<link>>
+
+*McCain on Social Security: "It's an absolute disgrace."*
+
+QUESTIONER: "[...] Many of the proposals that are being created for people
+of my generation no longer include Social Security because of the belief it
+will not be there. Tell me how you plan to fix it."
+
+JOHN MCCAIN: "Thank you very much. *I'd like to start out by giving you a
+little straight talk. Under the present setup, because we've mortgaged our
+children's futures, you will not have Social Security benefits that
+present-day retirees have unless we fix it. And Americans have got to
+understand that. Americans have got to understand that we are paying
+present-day retirees with the taxes paid by young workers in America today.
+And that's a disgrace. It's an absolute disgrace, and it's gotta be fixed*."
+
+MCCAIN: "Now how do you fix it? [...] You fix it by reaching across the
+aisle and you say to the Democrats: sit down with me at the table. Sit down
+with me the way Ronald Reagan and Tip O'Neill did the last time that Social
+Security was in deep trouble. And that was way back in 1983. Ronald Reagan,
+conservative President from California, and Tip O'Neil, the liberal Democrat
+from Massachusetts, sat down together and they walked out of the White House
+together and they say, we're gonna fix Social Security. And they did for
+about 20, 30 years. Right, Hank? Hank and I were part of the Congress at the
+time. And we were proud. We were proud to see the kind of bipartisanship
+that was exhibited for future generations.
+
+MCCAIN: "Well now it's broken again. [...] Nothing is forever in American. I
+want to promise you, that I'll say to the Democrats and I'll say to the
+American people, here's a chart, here's a chart, here's how much is coming
+in, here's how much is going out, and here's where there's more money going
+out than coming in, and here's where there's no money left. Now are we going
+to hand it off to your generation to fix it, or are we gonna do the hard
+things? I wanna be President to do the hard things. [...] It's gonna change
+and it's got to change. And I will change it."
+
+(Town Hall Meeting; Denver, CO 07/07/08)
+
+TO VIEW: <<link>>
+
+TO DOWNLOAD: <<link>>
+
+*McCain referring to young blond woman, tells college student, "you have
+very attractive friends"*
+JOHN MCCAIN: "Do you have any passion?"
+
+STUDENT: "Senator, [...] college students are graduating with an
+unprecedented rate of debt [...]. What do you plan to do to alleviate these
+student loans and reduce the cost of school?"
+
+JOHN MCCAIN: "Thank you. [turning to blond girl sitting next to student
+asking question] Is this, [...] You're the photographer here, is that--?"
+
+FRIEND: [inaudible]
+
+*MCCAIN: "Oh the paparazzi for this rock star, I see." [points to blond
+woman next to her] I see. Thank you. Skylar, thank you; you have very
+attractive friends."*
+
+(Town Hall Meeting; Denver, CO 07/07/08)
+
+TO VIEW: <<link>>
+
+TO DOWNLOAD: <<link>>
+
+*McCain gets into tense exchange with Vietnam Vet; falsely claims he has a
+perfect voting record from "all =85 veterans service organizations"*
+JOHN MCCAIN: "I see a person with a funny hat on that says Vietnam Veterans,
+so I'd love to recognize you first, sir."
+[...]
+QUESTIONER: "Senator, veterans and all Americans admire your service [...]
+but we know that you voted against=97well, actually you didn't vote on the G
+I
+bill and you spoke out against it. We understand you have a difference on
+that but we [...] haven't heard an explanation of why you voted against your
+colleagues' proposals to increase health care funding in 2004, [2005],
+[2006] and [2007] when we had troops coming back from two wars."
+
+MCCAIN: "[...] I have great respect for Sen. Webb and I appreciate his
+efforts. [...] The problem that some of us had [...] was that there were
+studies that showed that we didn't have incentives for people to become
+career military people. [...]"
+
+MCCAIN: "With that all I can say is, I don't know what you're pointing to
+but I've received every award from every major veterans' organization in
+America=97I've received every organization in America their awards=97but sir
+ I
+don't know what you're referring to [...] But the reason *why I have a
+perfect voting record from organizations like the Veterans of Foreign Wars,
+the American Legion and all the other veterans service organizations is
+because of my support of them*. But you can go ahead and respond if you want
+to. Go ahead."
+
+QUESTIONER: "*You do not have a perfect voting record by the DAB and the
+VFW; that's where these votes are recorded*. And the votes were proposals
+[...] by your colleagues in the Senate to increase health care funding of
+the VA in 2003, [2004], [2005] and [2006] for troops returning from Iraq and
+Afghanistan. And you voted against those proposals. I can give specific
+Senate votes, the numbers of those Senate votes right now."
+
+(Town Hall Meeting; Denver, CO 07/07/08)
+
+TO VIEW: <<link>>
+
+TO DOWNLOAD: <<link>>
+
+*McCain on FISA: Telecommunications companies "should not be held
+responsible in the way that they're to be sued"*
+JOHN MCCAIN: "On FISA, I believe it's very dangerous [...] to hold the
+telecommunications corporations liable for them acting in cooperation with
+the govnernment after 9/11 to help us monitor the communications of Al-Qaeda
+and terrorists. [...] *I believe the telecommunications company, or any
+other organization, when called upon by their government, to do something
+that is in the national security interest, that they should not be held
+responsible in the way that [...] they're to be sued*."
+
+MCCAIN: "[...] Now it's my view that we should have the ability, with
+certain court procedures observed, to monitor the
+communications=97particularly with the dramatic modernization and ability of
+communicate [sic] between organizations that want to do America harm. And
+so, I'm glad you're recording this because I'd like to make sure you show it
+to all your friends. Have no doubt where I stand: that the
+telecommunications companies should not be held liable for cooperation they
+provided the government of the United States after 9/11, when we were trying
+to stop further attacks on the United States of America. And to say that you
+want them to be held liable is something in my view that would be a trial
+lawyer's dream. And I strongly oppose it. Sen. Obama supports it. That's the
+difference in our views."
+
+(Town Hall Meeting; Denver, CO 07/07/08)
+
+TO VIEW: <<link>>
+
+*McCain on education: Thankful we had "the money to send =85 our kids to
+Catholic school"
+*QUESTIONER: "I've been a teacher for about 31 years. What is your feeling
+about No Child Left Behind?"
+
+JOHN MCCAIN: "Thank you. By the way, *did I mention that Cindy was a teacher
+of special education before I took her out of that honest line of work*?
+
+MCCAIN: "[...] I think No Child Left Behind needs to be fixed. However, I
+think it was a right beginning. I think we need to be able to judge [...]
+students' performance all over America. [...] But now [...] we need to go
+back and sit down together again Republican and Democrat and fix what needs
+to be fixed.
+
+MCCAIN: "And [...] some of what needs to be fixed is more full funding for
+some of the programs that were never adequately funded, as you know.
+Including special education. Including this terrible problem that you're
+very aware of in this rise in autism amongst children in America. It's a
+terrible thing that's happening. And it's going to require additional
+educational capabilities.
+
+MCCAIN: "So I want to fix it but I also have to give you a little more
+straight talk. I'm for choice and competition. *Now Cindy and I had the
+money to send=97the ability to send our kids to Catholic school. I want ever
+y
+American to be able to send their child to the school of their choice.
+*
+MCCAIN: "[...] Charter schools work. Charter schools are good competition.
+Some of them don't work. Some of them don't work, so they should fail. But
+if you look at New York City today and if you look at New Orleans [...] New
+York City's education has improved rather dramatically. And also, New
+Orleans because they had to start from Square One because of the tragedy of
+Katrina; they know have 30 charter schools there. And the quality of
+education is improving.
+
+MCCAIN: "Learn the lessons of No Child Left Behind. Fix the problem. Reward
+good teachers. Find bad teachers another line of work. Fix education, which
+is the future of America."
+
+(Town Hall Meeting; Portsmouth, OH 07/09/08)
+
+TO VIEW: <<link>>
+
+*McCain tells woman who's parents died of cancer "Nuclear power is safe... a
+vital part of our nation's energy future"*
+JOHN MCCAIN: "I did see a person over here with a 'no nukes' sign so maybe
+we can't start with you. Because obviously you know I am a supporter of
+nuclear power. [...]"
+
+QUESTIONER: "[...] I live here in Portsmouth. And my father also worked in
+the Piketon plant and he also died young of cancer. He had 4 cancers. My
+mother died of cancer as well. And I feel strongly about getting the Piketon
+plant cleaned up and bringing alternative energy industry into Portsmouth
+[...] We've done this for 50 years. We deserve better. We don't want our
+young people to continue to have to work in a highly toxic industry. And I
+believe that a lot of people here probably feel the same way and are afraid
+to say anything. Because I know the outcome in my personal life has been
+very detrimental to me in fighting this nuclear industry."
+
+MCCAIN: "I know I speak on behalf of all of us [...] and extend our sympathy
+at the loss of your parents. There's no way that I can provide proper
+consolation except to say to you that I believe that nuclear power is and
+can be safe. [...] We have sailed Navy ships around the world for more than
+60 years with nuclear power plants on them. There has never been any
+recorded case that I know of that someone was either injured or killed or
+had any effects of, of those nuclear power plants. I know that there's been
+Three Mile Island. And we know about Chernoble. But I do believe that
+nuclear power is safe. [...] But the evidence that I have that I'd like to
+share with you, is that nuclear power is safe. And it is, I think, a vital
+part of our nation's energy future[...]
+
+QUESTIONER: "One of the things that I've been striving for is to make sure
+that workers that go into the Piketon site are protected, and I haven't been
+able to get that affirmation from the NRC or the EPA or any of the DOE or
+any of the groups that are in charge of that cleanup and that site. And I
+think that's one of the things that many people are concerned about here.
+
+MCCAIN: "Well I will (1) try to get that information from you, (2) myself
+try to contact the nuclear regulatory [...] commission and any other
+oversight organization and get the information [...] I promise you I will
+learn, and I will read the information that you send me, and I will act on
+it as I think would be appropriate."
+
+(Town Hall Meeting; Portsmouth, OH 07/09/08)
+
+TO VIEW: <<link>>
+
+*McCain gives crying woman losing her job "some straight talk," doubts he'll
+be able to help keep her job*
+QUESTIONER: "[...] I'm the founder of a small, non-domain.com hospice in
+Wilmington, Ohio. [...] I'm sure you are aware that DHL is closing that
+airpark in Wilmington. We will lose 8,600 jobs. [starts to cry] Will you
+call for Senate hearings to investigate the DHL-UPS joint venture, which
+could be an antitrust issue? [...] We're just small people trying to live a
+life. And I want to be able to keep our nonprofits alive. Thank you."
+
+JOHN MCCAIN: "I have been briefed, and I know about this situation. [...]
+This is a terrible blow. Um, if there's an anitrust implication that's
+associated with this, I certainly would seek a thorough investigation [...]
+*We are in a period of transition to a global economy. That is of no
+consolation to anyone who is losing their job. *[...] But we have to offer
+them an opportunity to get the education and re-training programs so they
+can re-enter the job market.
+
+MCCAIN: "[...] *I've got to look you in the eye and give you some straight
+talk; I don't know if I can stop it or not. Or if it will be stopped it.
+[...] In fact, some more straight talk: I doubt it. Ok? But I am for a
+thorough examination of this situation.* [...]
+
+MCCAIN: "In the meantime, there are manufacturing jobs that have been lost
+all over the state of Ohio, and it's been a terrible trauma and we have got
+to give people another opportunity. And you do that by going to the
+community colleges and saying: design education and training programs that
+are designed for the local job market and implement those programs. The
+private programs today do not work. They are total failures.
+
+MCCAIN: "[...] But I also want to make a commitment [...] if someone has a
+high-paying job, particularly an older worker, and that worker has to take a
+low-paying job just to survive [...] that we would subsidize, with some of
+this job training money that's being wasted, that worker's salary [...]
+while they're undergoing their re-training and education programs.
+
+MCCAIN: "[...] I believe in free trade; I believe that it's important to the
+economy."
+(Town Hall Meeting; Portsmouth, OH 07/09/08)
+TO VIEW: <<link>>
+
+*McCain Predicts War With Iran, Calls 16-Year-Old Boy "Attractive"*
+QUESTIONER: "Senator McCain, how can world leaders take the President of
+Iran seriously with his outrageous claims to wipe Israel off the face of the
+earth? And, as a follow-up question, would you consider a 16-year-old
+running mate?"
+
+JOHN MCCAIN: "If that individual happens to be as *attractive and articulate
+* as you are, I certainly would=97consider it. Thank you.
+
+MCCAIN: "Um, I'm worried that the President of Iran, Ahmadinejad's comments
+are not just crazy talk. [...] We all know that they just tested uh, uh a
+missile. Uh, which,by the way, was done by the Iranian Revolutionary Guard.
+Which is a terrorist organization that supports terrorists and in my view--
+We had a vote on the floor of the Senate to label the same organization as a
+terrorist organization.
+
+MCCAIN: "[...] If there is a outbreak of conflict [...] with Iran and
+Israel, or because of Iran's continued aggressive behavior-- [...] *If
+there's an outbreak of conflict, then I worry very much that the United
+States will be drawn into it*. [...] And I worry about brave young Americans
+who are serving in the military today."
+
+MCCAIN: "[...] By the way, if there's anyone concerned about the fact that
+we don't have communications with Iran, we have plenty of communications
+with them."
+
+(Town Hall Meeting; Portsmouth, OH 07/09/08)
+
+TO VIEW: <<link>>
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" g
+roup.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organi
+zation.
+-~----------~----~----~----~------~----~------~--~---
+

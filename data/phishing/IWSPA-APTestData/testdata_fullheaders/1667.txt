@@ -1,0 +1,112 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Mon, 10 Feb 2015 11:19:55 -0800
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1AJJtSO003557	for <user@domain.com>; Mon, 10 Feb 2015 
+ 19:19:55 GMT
+Received: from mail54-va3-domain.com (mail-domain.com
+ [216.32.180.117])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s1AJJpI4001059
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 10 Feb 2015 19:19:51 GMT
+Received: from mail54-va3 (localhost [127.0.0.1])	by mail54-va3-domain.com
+ (Postfix) with ESMTP id 7269A4803E8	for <user@domain.com>; Mon, 10
+ Feb 2015 19:19:54 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:207.254.213.241;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 14
+X-BigFish: vps14(zz1462I103dKec9Ic857hcbnzz1f42h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1de098h1def03h17326ah172cdfh1def87h8275bh1bc7b9h8275dh1def86h19a27bh1de097h186068h1ce121i18b566iz2fheh5fh839h8aaha12hd25h1288h12a5h137ah13eah1441h1504h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h255dh255eh255fs1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail54-va3: domain of domain.com designates 207.254.213.241 as permitted sender) client-ip=207.254.213.241; envelope-from=bounces+597282.83253598.636178@domain.com; helo=domain.com ;domain.com ;
+Received: from mail54-va3 (localhost.localdomain [127.0.0.1]) by mail54-va3
+ (MessageSwitch) id 1392059991652507_26711; Mon, 10 Feb 2015 19:19:51 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.249])	by
+ mail54-domain.com (Postfix) with ESMTP id 8540346004C	for
+ <user@domain.com>; Mon, 10 Feb 2015 19:19:51 +0000 (UTC)
+Received: from domain.com (207.254.213.241) by
+ domain.com (10.7.99.17) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 10 Feb 2015 19:19:48 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=default; d=domain.com;
+ h=Mime-Version:From: "Angela M. Hutchinson" <angela@breakingintohollywood.org>
+ bh=6KwFrkdTIk3vgqjLMXetLA1caetlMAaU2bc1K7d96lI=;
+ b=IO4CCFJj9QrN2Wxmj1+yHgv6PHPoWkwK8PUGWG0EP36sDM7LII0qF33gjKAtY0Qtb88oqo+Ma8JE
+   /Aqi3fiB/++iyg6Qeq1U3UXXllMIHqdNpv/U+0fCY3IRjoQc8S4cAntZTPvoNOXtkfX2bJthf5eT
+   iE7AaDKAB8TwDsfomNk
+From: "Angela M. Hutchinson" <angela@breakingintohollywood.org>
+To: <user@domain.com>
+Date: Mon, 10 Feb 2015 14:19:48 -0500
+Subject: TONIGHT:  Punch TV Network Q&A
+Errors-To: bounces+597282.83253598.636178@domain.com
+List-Unsubscribe: <<<link>>>, <mailto:bounces+597282.83253598.636178@domain.com>
+X-List-Unsubscribe: <<<link>>>
+X-Unsubscribe-Web: <<<link>>>
+X-Feedback-ID: 01_597282_636178:01_597282:01:vocus
+X-ICPINFO: 
+X-Return-Path-Hint: bounces+597282.83253598.636178@domain.com
+Message-ID: <0.1.4user@domain.com>
+Return-Path: bounces+597282.83253598.636178@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+TONIGHT:  Punch TV Network Q&A
+
+Hey, Happy Monday!  So often I receive emails from writers seeking agents, or producers looking to meet TV/film executives for the purpose of getting their script, short film, web series or feature film sold.  Tonight is a GREAT opportunity for writers, producers and even savvy actors to learn about Punch TV Network's programming slate and needs.  Join us this evening (Mon, Feb. 10) from 7-9PM for a "Q&A with Television Executive" in Los Angeles.  Bring your  project one-sheets, sizzles, screeners, etc. The Director of Programming for Punch TV Network will join us for an intimate Q&A discussion on television programming. To RSVP, click here or see below for more details. Investing in your career is a crucial aspect of breaking into Hollywood. The event is $45 for Non-BiH Members; BiH Members get to attend for FREE - so no excuses!  The opportunities that we often seek as artists are not always found at the obvious events nor the obvious speakers.  Hope to see you there!
+
+
+
+
+NEXT BiH EVENTS: (Must Always RSVP in Advance!)
+
+Q&A with Television Executive
+
+Mon, February 10th from 7-9PM @ The Westside Pavilion in Los Angeles
+
+$45 for Non-BiH Members; always FREE for BiH Members
+
+Who should attend? Writers, Producers, Directors and curious industry professionals
+
+To RSVP or for more info on the speaker's bio, domain.com www.breakingintohollywood.org/21014
+
+
+
+
+  _____  
+
+Click on magazine cover image to check out our Winter 2015 issue of Hollywood & Vine.
+
+<<link>>
+
+
+
+
+To be removed from our email list, follow the iContact instructions at the very end of original email. Thanks! 
+
+
+
+
+Angela M. Hutchinson
+
+BiH Founder
+
+H&V Editor-in-Chief
+
+HVFF Executive Director
+
+
+
+BReaKiNG iNTo HoLLyWooD (BiH)
+
+Hollywood & Vine (H&V)
+
+Hollywood & Vine Film Festival (HVFF)
+
+9595 Wilshire Blvd., 9th Floor
+
+Beverly Hills, CA 90212
+
+310.712.3459
+
+www.breakingintohollywood.org 
+

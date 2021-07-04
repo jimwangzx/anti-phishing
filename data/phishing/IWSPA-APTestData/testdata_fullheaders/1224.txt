@@ -1,0 +1,109 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp2753130lfb;
+        Wed, 18 Nov 2015 18:43:08 -0800 (PST)
+X-Received: by 10.107.133.16 with SMTP id h16mr5781802iod.79.1447900988455;
+        Wed, 18 Nov 2015 18:43:08 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mta921.e.footlocker.com (mta921.e.footlocker.com. [8.7.42.161])
+        by domain.com with ESMTP id g189si8764703iog.156.2015.11.18.18.43.08
+        for <user@domain.com>;
+        Wed, 18 Nov 2015 18:43:08 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 8.7.42.161 as permitted sender) client-ip=8.7.42.161;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 8.7.42.161 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=e.footlocker.com;
+	s=20111007; t=1447900967; x=1463625767;
+	bh=Wjzx2JrQYUOIdARUGaIrEDCVdHvfasac8cUeXQV44yo=; h=From: "Foot Locker" <Footlocker@e.footlocker.com>
+	b=b5bGUwjfpNw8VUbYHKHynL45GPa0NzxyJz4stk4Srvf6DitKDiG+xe1K/bScM3Jgx
+	 OgoSyvWXmgMJyl16cINIb8/S86PVrKSGianv6p6wQBloVJFpcvgFxd3nBZNsXk4/sm
+	 Tyr+oBXOxDftIQfMaTuMjQQZrfwRjaMyJZrxCDrA
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=200505; d=e.footlocker.com;
+  b=Dgb7WmNzbpr2fGcTrbfg2o1GuunBS+U5t/m8sTxdWUT3U3nAgUKiDYfflBCtUtzgMDsxsxkaHygYYAbBQvIXdaCegOQpcCrqhKNgcid5gHBGB6t/pUGzGBBnzwFCdoUbzEt4Mwryfzsw9WUDk/+uEezBpOpMcg+mSR3K+8sncvE=;
+ h=Date:Message-ID:List-Unsubscribe:From: "Foot Locker" <Footlocker@e.footlocker.com>
+Date: Thu, 19 Nov 2015 02:42:47 -0000
+Message-ID: <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com>
+From: "Foot Locker" <Footlocker@e.footlocker.com>
+To: user@domain.com
+Subject: Update your Shoemojis!
+MIME-Version: 1.0
+Reply-To: "User" <user@domain.com>
+Content-type: multipart/alternative; boundary="=b8b6s7ub57hq1qaujfb72qd9bc3kqk"
+
+Trouble viewing this email? Click here for easier viewing!
+<<link>>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Get free shipping on more than 10,000 items,* or on orders of $75 or more.** 
+Use promo code EMFL5NJ2 at checkout. 
+<<link>>
+
+The Foot Locker App
+Check out the latest updates, and now get new Shoemojis without leaving the app!
+
+DOWNLOAD NOW 
+<<link>>
+
+The Week of Greatness returns November 21!
+More than 20 releases of the year's hottest product
+
+COUNT DOWN NOW 
+<<link>>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+domain.com
+<<link>>
+
+Men's
+<<link>>
+
+Women's
+<<link>>
+
+Kids'
+<<link>>
+
+VIP 
+<<link>>
+
+Facebook
+<<link>>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Offer valid only on eligible items. Eligible items will indicate "this item ships FREE"
+in blue type on the product's description page. Items in your cart that are not eligible
+are subject to shipping charges. Shipping will be automatically deducted at checkout.
+Valid only at domain.com. Offer is limited to standard delivery within the 48
+contiguous United States and APO/FPO addresses. Excludes bulk orders and drop ships.
+Entire order must ship to a single address. Does not apply to prior purchases or open
+orders and cannot be combined with any other offer. Customer is responsible for shipping
+costs on returned merchandise. May not be used toward purchase of gift cards or team
+orders. Promotion may be modified or terminated at any time. Certain restrictions and
+exclusions may apply.
+
+**Use promotion code EMFL5NJ2 at checkout. Order value must total $75 or more before
+services, taxes, and shipping & handling. Valid online at domain.com, by phone, or
+mail. Offer is limited to standard ground delivery within the 48 contiguous United States
+and APO/FPO addresses. Excludes bulk orders and drop ships. Entire order must be shipped
+to a single address. Does not apply to prior purchases or open orders and cannot be
+combined with any other offer. Customer is responsible for shipping costs on returned
+merchandise. May not be used toward purchase of Gift Cards or team orders. Promotion may
+be modified or terminated at any time. Any order that includes a new release launch item
+does not apply and will incur standard shipping rates. Other restrictions and exclusions
+may apply. Offer expires 11/28/2015 (11:59 pm CT).
+
+To keep getting Foot Locker newsletters,
+add "user@domain.com" to your email address book.
+
+To contact customer service, email us at:
+user@domain.com
+
+Foot Locker
+111 S. 1st Avenue
+Wausau, WI 54401
+
+This email was sent to user@domain.com
+If you would like to unsubscribe, please click here:
+<<link>>

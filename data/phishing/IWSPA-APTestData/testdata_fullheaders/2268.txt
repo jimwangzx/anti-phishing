@@ -1,0 +1,76 @@
+Delivered-To: user@domain.com
+Received: by 10.25.215.208 with SMTP id q77csp4087729lfi;
+        Fri, 2 Jan 2015 18:39:10 -0800 (PST)
+X-Received: by 10.140.49.5 with SMTP id p5mr99959085qga.15.1420252749447;
+        Fri, 02 Jan 2015 18:39:09 -0800 (PST)
+Return-Path: <>
+Received: from domain.com (domain.com. [216.82.243.51])
+        by domain.com with ESMTPS id m64si14234859qge.85.2015.01.02.18.39.08
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Fri, 02 Jan 2015 18:39:09 -0800 (PST)
+Received-SPF: pass (domain.com: domain of domain.com designates 216.82.243.51 as permitted sender) client-ip=216.82.243.51;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of domain.com designates 216.82.243.51 as permitted sender) smtp.mail
+Return-Path: <>
+Received: from [216.82.241.131] by server-7.bemta-8.domain.com id 0E/D4-31452-C4657A45; Sat, 03 Jan 2015 02:39:08 +0000
+X-Msg-Ref: server-14.tower-54.domain.com!1420252745!11865168!15
+X-Originating-IP: [141.161.191.75]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.5; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 21017 invoked from network); 3 Jan 2015 02:39:07 -0000
+Received: from unknown (HELO LAW-CAS2.law.georgetown.edu) (141.161.191.75)
+  by server-14.tower-54.domain.com with AES256-SHA encrypted SMTP; 3 Jan 2015 02:39:07 -0000
+Received: from LAW-MBX01.law.georgetown.edu ([169.254.1.145]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0210.002;
+ Fri, 2 Jan 2015 21:38:55 -0500
+From: Campus Broadcast <broadcast@law.georgetown.edu>
+To: Campus Broadcast <user@domain.com>
+Subject: Door and Parking Lot Access Disruption
+Thread-Topic: Door and Parking Lot Access Disruption
+Thread-Index: AdAm/mp2DMWjPENRRQeZsirtCv/bLQ
+Date: Sat, 3 Jan 2015 02:38:55 +0000
+Message-ID: <6user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [141.161.191.14]
+Content-Type: multipart/alternative;
+	boundary="_000_6A7194B319BC974A8DEA71A7DEA53EAB316E0CB9LAWMBX01lawgeor_"
+MIME-Version: 1.0
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+
+The following message is being forwarded on behalf of UIS:
+
+From: Campus Broadcast <broadcast@law.georgetown.edu>
+domain.com>
+Reply-to: user@domain.com<mailto:user@domain.com>
+Subject: Door and Parking Lot Access Disruption
+
+Dear Faculty and Staff,
+
+A UIS technical issue caused Faculty and Staff to lose access to doors and 
+parking lots using their
+
+GOCards on January first.
+
+GOCard access to parking lots has been fully restored.
+
+GOCard access to most doors has been restored.
+
+If you experience problems accessing doors or parking lots with your GOCard
+, please notify us at:
+
+user@domain.com<mailto:user@domain.com>
+
+We apologize for the inconvenience and thank you for your patience.
+
+Sincerely,
+
+Roman Fahrmann
+Director of GOCard Services
+Georgetown University
+202-687-7002
+

@@ -1,0 +1,70 @@
+Received: from domain.com (146.215.230.104) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.297.1; Tue, 7 Jan 2015 05:23:43 -0800
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s07DNckI022640	for <user@domain.com>; Tue, 7 Jan 2015 
+ 13:23:38 GMT
+Received: from mail134-tx2-domain.com (mail-domain.com [65.55.88.115])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s07DNbRg002796	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Tue, 7 Jan 2015 13:23:38 GMT
+Received: from mail134-tx2 (localhost [127.0.0.1])	by
+ mail134-tx2-domain.com (Postfix) with ESMTP id 6ADCDA020C	for
+ <user@domain.com>; Tue,  7 Jan 2015 13:23:37 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:69.25.195.202;KIP:(null);UIP:(null);SRV:BULK;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 4
+X-BigFish: vps4(zzc89bhc857h77f5h609Izz1f42h2148he68I208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6hzz1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h1de096h186068h1954cbh1ce120h1ce121iz2fheh5eh5fh839h8aaha12h1288h12a5h137ah13eah1441h14ddh1504h1537h153bh158dh162dh1631h1758h18e1h19b5h1a75h1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h213dh2216h2336h12d8m1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail134-tx2: domain of domain.com designates 69.25.195.202 as permitted sender) client-ip=69.25.195.202; user@domain.com; helo=domain.com ;domain.com ;
+Received: from mail134-tx2 (localhost.localdomain [127.0.0.1]) by mail134-tx2
+ (MessageSwitch) id 1389101015509793_8306; Tue,  7 Jan 2015 13:23:35 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.233])	by
+ mail134-domain.com (Postfix) with ESMTP id 69FECC0055	for
+ <user@domain.com>; Tue,  7 Jan 2015 13:23:35 +0000 (UTC)
+Received: from domain.com (69.25.195.202) by domain.com
+ (10.9.99.111) with Microsoft SMTP Server id 14.16.227.3; Tue, 7 Jan 2015 
+ 13:23:34 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; q=dns/txt; l=7263;
+ d=enterpriseguide.com;s=nacusdkim;
+ h=from;
+ bh=oLJ24qWXTmtwOhKkT1t0cr54TyVyV3TFPaOmdgqh4zE=;
+ b=plQ7r9EBDhD7WQBIaa8ha5EWFSdB9r5Ol3uCYQmQ7ue4cxevJ9MyJxLIHCefLvlgGPHQk9go
+ Aox+UTosyjOideSa8h37Rb8tTsuyTJAfC4tUs/C5mvX4m3EW2jzpXRncljPzHWlwHOsqzT+k
+ j1X+p1fAYDcQ0NLhNf+BIQJfQ3o=;
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=nacusdkim; d=enterpriseguide.com;
+ h=from;
+ b=cFoPkA7EO+Ukj70uJ7O5FaG7m5uW/cfBq+9J7f2IzD8qL0+JP7F1q83IPILPJ1P6DX56uZ0u O60QQ+pC7Nt+gkPoqDeq5kBjy/4+3GiE58esmaLnO1J8qJcVf8mb6iHwCxzOSEOcy/ZLLDRV
+ j0C16Q4ZabUbv1O7KpeJcegqEF0
+From: Enterprise Guide <admin@enterpriseguide.com>
+To: <user@domain.com>
+Subject: Make Capital Constraints A Trend of the Past With These 5 Steps
+Date: Tue, 7 Jan 2015 07:00:00 -0500
+List-Unsubscribe: <mailto:user@domain.com>
+Message-ID: <LYRIS-271110524-5619484-2014.01.07-07.00.04--amy_pascal#user@domain.com>
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Make Capital Constraints A Trend of the Past With These 5 Steps
+
+Please add user@domain.com to your address book to ensure properly delivery   
+
+Having trouble viewing this email? View in your browser
+
+Please add user@domain.com to your email address book to ensure proper delivery.       
+
+Enterprise Alert         
+
+
+
+
+Make Capital Constraints A Trend of the Past With These 5 Steps
+
+Enterprises business needs are changing, and as a result, organizations are altering the way they spend money and invest in IT initiatives. After years of restricted spending as companies coped with the effects of the economic recession, IT budgets are starting to thaw and are enabling businesses to put more resources into their IT strategies.
+
+As IT budgets grow, CIOs are pressured to find ways to invest in technology that will reduce operating expenditures in the near term. Such goals are difficult to attain in the data center – where a greater reliance on technology can frequently make systems more comple
+

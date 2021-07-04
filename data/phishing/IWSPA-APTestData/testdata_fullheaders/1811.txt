@@ -1,0 +1,120 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.78 with SMTP id m75csp18941lfb;
+        Wed, 16 Mar 2015 12:15:13 -0700 (PDT)
+X-Received: by 10.98.87.216 with SMTP id i85mr8450057pfj.72.1458155713571;
+        Wed, 16 Mar 2015 12:15:13 -0700 (PDT)
+Return-Path: <3user@domain.com>
+Received: from mail-pf0-domain.com (mail-pf0-domain.com. [2607:f8b0:400e:c00::249])
+        by domain.com with ESMTPS id w13si6404432pas.67.2016.03.16.12.15.13
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 16 Mar 2015 12:15:13 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400e:c00::249 as permitted sender) client-ip=2607:f8b0:400e:c00::249;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400e:c00::249 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pf0-domain.com with SMTP id 4so7935065pfd.0
+        for <user@domain.com>; Wed, 16 Mar 2015 12:15:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:cc:auto-submitted:message-id:date
+         :subject:From: sbay@hillaryclinton.com
+        bh=ipUT1d6RHlbXyysigIpXAH+MelJqltvcIOAgV1BDYA4=;
+        b=Inyv4vRVSQKp3uJUTMMLdwgoRkABuMJNDSTVUBMpd2AEn5vsErx22oORcvxN4qef5g
+         JwFsfd+T5iBO7bvbRjZWeBxeI+t1O5+oP0a/zlbjv/r21FbW+kFfstoDuBwHeelW9RDx
+         HfIncdNorI8h4FzHc2JWjpGyo4+osJmYWRRoQb8y9j4PRTYQY+WhMCoAWuhdmEZ11Ma6
+         uK7AvFTXrO6seD4g9oICXxk3C8XO+2+dtjsVJ/0wNCRrJP/GObkn7tZc3pAPGU8miMMM
+         XvHnvqDSZpkFXYx8TRmk6yDyvLjfCPerBQIJaTitoRtEGaac5uUcBdGudcHp8HxqEx7D
+         Ct1w
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:cc:auto-submitted:message-id:date
+         :subject:From: sbay@hillaryclinton.com
+        bh=ipUT1d6RHlbXyysigIpXAH+MelJqltvcIOAgV1BDYA4=;
+        b=CXsxYQxZ3vRzXH872JEOSPdMRCiW2mAUJ94ktcH8LqFfDEcwHc2mcl1enAJ8d0HtMg
+         7dH1WiPT5Ll5NkWtW1ctO7IwU4t4QZzRuFGaWHWhA4Gei8u4w/zW+Snc9AEfaYbtx20W
+         T47JsRDGGewQvFQHar06Rc7MtOXxPaWgNK1/E
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:cc:auto-submitted
+         :message-id:date:subject:From: sbay@hillaryclinton.com
+        bh=ipUT1d6RHlbXyysigIpXAH+MelJqltvcIOAgV1BDYA4=;
+        b=APJtVcubgguX5gcR3UCSZhP2sUB+CKdkpINZEsc2Lddhb8WL2ED+aY1Wo03Qe68AAm
+         xwtzjj/0ZNjLhq/sE0etO22LC+MBy1mBkkuqbQ2kyanLiD5IaUQ30JwClJbMadyrTbPX
+         6hHkt0P8R9oggfBdjsR2+D+vA8VcyHqigE69TaP7WxwFjNcUCsiBAwyYIUqHcezz69dt
+         clkJHZ18Y2qPk218aE9PLBIAIuqOBcuUq5hHwu9Z6EpYYST209CyyVoNqBymYZ4LyLoT
+         DYPE6JaylUxNDmJ4BpQGmj0oUUYHDAUwgU0l0QkYvB1pwuoZ9sltzRHLdqZTMZePynPu
+         7COQ
+X-Gm-Message-State: AD7BkJK8cWVnmOtdAJp7SWsTK81c1pMdUr0RcxLQj3VAVN0vYbldZhsJA7PWCklEpbKrzXQ5G/hL3O/AGYZnk/qP+WgFAadic4c
+MIME-Version: 1.0
+X-Received: by 10.66.102.106 with SMTP id fn10mr4061014pab.36.1458155713205;
+ Wed, 16 Mar 2015 12:15:13 -0700 (PDT)
+Reply-To: user@domain.com
+Sender: Google Calendar <user@domain.com>
+CC: user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com
+Auto-Submitted: auto-generated
+Message-ID: <047user@domain.com>
+Date: Wed, 16 Mar 2015 19:15:13 +0000
+Subject: [Update] Strategic Scheduling Follow Up 
+From: sbay@hillaryclinton.com
+To: user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, 
+ user@domain.com, user@domain.com, user@domain.com, 
+ user@domain.com
+Content-Type: multipart/alternative; boundary=047d7bd90708503b1c052e2f557f
+
+For those at HQ, this meeting will be in South Carolina.
+Thanks
+
+You have been invited to the following event.
+
+Title: Strategic Scheduling Follow Up
+When: Wed Mar 16, 2015 3:30pm - 4pm Eastern Time
+Where: 772-212-0079 or Room TBD
+Video call: <<link>>  
+<<<link>>>
+Who:
+     * user@domain.com - organizer
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * John user
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com
+     * user@domain.com

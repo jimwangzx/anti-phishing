@@ -1,0 +1,89 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Sun, 22 Jun 2015 09:06:00 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s5MG60Qo004123	for <user@domain.com>; Sun, 22 Jun 2015 
+ 16:06:00 GMT
+Received: from mail21-ch1-domain.com (mail-domain.com
+ [216.32.181.173])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s5MG5rmm019525
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Sun, 22 Jun 2015 16:05:53 GMT
+Received: from mail21-ch1 (localhost [127.0.0.1])	by mail21-ch1-domain.com
+ (Postfix) with ESMTP id 4F57620369	for <user@domain.com>; Sun, 22
+ Jun 2015 16:05:59 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:205.201.133.72;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(z3e12hzc89bhc857h11fbIzz1f42h1ee6h1de0h21bdh2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch1fdahzz1def03h17326ah1def87h8275bh1bc7b9h8275dh1def86h18c673h19a27bh1de097h186068h1ce121iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2534h2545h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h298fh1d9ci)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail21-ch1: domain of domain.com designates 205.201.133.72 as permitted sender) client-ip=205.201.133.72; user@domain.com; helo=mail72.atl11.rsgsv
+Received: from mail21-ch1 (localhost.localdomain [127.0.0.1]) by mail21-ch1
+ (MessageSwitch) id 1403453156200907_11364; Sun, 22 Jun 2015 16:05:56 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.226])	by mail21-domain.com (Postfix) with ESMTP id 2A6B61000A3
+	for <user@domain.com>; Sun, 22 Jun 2015 16:05:56 +0000 (UTC)
+Received: from domain.com (205.201.133.72) by
+ domain.com (10.43.70.2) with Microsoft SMTP Server id
+ 14.16.227.3; Sun, 22 Jun 2015 16:05:51 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?Jim=20Amos=2FBox=20Office=20Insider?
+ bh=bQyu+MIsNJsPceBdmniR5Nsh/FY=;
+ b=QB9h2THlMYPIKs1gGlAu/jaMKbbdtDfQi35w+F2kONSLqPo8l0x7r9w95blSDSKXavgZiS1AkgW3
+   gxC7j3/+Eb68snpZSUe95HCVgLV8y6ZcyfN6Wk8LcClKr0sSnECfeQOvGQon/MDdvJTMusUTrmqp
+   DLj10D5IxXtPYAcQxxM
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=oH5G1LClK8tpt5RFxUPzTnFEW/z/GzyTUFSYYVc5BSVEmCL2xVHbyD4r2k/0GiAHOazZ6tYPJTbQ
+   Hc2owkx543n+Xb81II39EAhomLfceNxtjc0igtKD1M0h/6nnMh/Nuj9lPXEpMxDu0Wn39hS3qgcC
+   huI5YxC8VJEBysemt/I=;
+Received: from (127.0.0.1) by domain.com id hkrvdu1lgi04 for
+ <user@domain.com>; Sun, 22 Jun 2015 16:05:50 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?Sonyapalooza=20Reigns=20At=20The=20Box=20Office=20As=20=22Think=20Like=20A=20Man=20Too=22=20Edges=20Out=20=2222=20Jump=20Street=22?
+From: =?utf-8?Q?Jim=20Amos=2FBox=20Office=20Insider?
+	<user@domain.com>
+Reply-To: =?utf-8?Q?Jim=20Amos=2FBox=20Office=20Insider?
+	<user@domain.com>
+To: =?utf-8?Q?Steven?= <user@domain.com>
+Date: Sun, 22 Jun 2015 16:05:50 +0000
+Message-ID: <user@domain.com>
+X-Mailer: MailChimp Mailer - **CID44d716de80733fe13f77**
+X-Campaign: mailchimpd2841dba55d25b7b4fa347700.44d716de80
+X-campaignid: mailchimpd2841dba55d25b7b4fa347700.44d716de80
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: d2841dba55d25b7b4fa347700
+X-Feedback-ID: 26128611:26128611.621689:us3:mc
+X-Accounttype: ff
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: Jim Amos/Box Office Insider
+	<user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-406539735_-_-"
+
+Sonyapalooza Reigns At The Box Office As "Think Like A Man Too" Edges Out "22 Jump Street"
+
+
+
+
+View this email in your browser         
+
+ <<link>>    
+
+Sunday Estimates
+
+Sonyapalooza continues as "Think Like A Man Too" and "22 Jump Street" rumble through the box office this weekend.  The Kevin Hart starrer ended up at $30 million, far outdistancing Clint Eastwood's disappointing "Jersey Boys".  If the crowd coming out of the 4:15PM  show yesterday in Malibu yesterday is any reflection, perhaps some sort of Groupon tie-in with Ensure might help grosses.
+
+Elsewhere, "How To Train Your Dragon 2" took a precipitous drop of 49% to land squarely in third place, "Maleficent" held well and Open Road's "Chef" keeps cooking with another $1.8 million and a paltry 15% decline.
+
+domain.com/boxofficeinsider
+
+-Jim
+
+Follow me on Twitter @boxofficejim
+Like us on Facebook at 
+

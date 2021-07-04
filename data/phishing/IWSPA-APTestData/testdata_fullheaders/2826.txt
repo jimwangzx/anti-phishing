@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp833125lfb;
+        Sun, 15 Nov 2015 10:09:46 -0800 (PST)
+X-Received: by 10.202.48.212 with SMTP id w203mr16792043oiw.97.1447610986319;
+        Sun, 15 Nov 2015 10:09:46 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::22b])
+        by domain.com with ESMTPS id n2si17160643obx.86.2015.11.15.10.09.46
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 15 Nov 2015 10:09:46 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22b as permitted sender) client-ip=2607:f8b0:4003:c01::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-ob0-domain.com with SMTP id ww6so100678814obb.0
+        for <user@domain.com>; Sun, 15 Nov 2015 10:09:46 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:From: David Wolf <davidwolf4@gmail.com>
+        bh=Ri+gY24zMy97yPgrMJAGFC043I+HYwCdBFSYmPoRKHk=;
+        b=BA+cLlnh31Yjkklq3jKWiViBRVkINXZ3zKj0qfEg++JZRbhhd9o4DkEvcc/7oBckxj
+         5lMdm8D3b4ePRv/OuD8GQ/NTR6dRQY5gqY13DR17apcbcpll9ksYyoQTuQXZMkcAvekB
+         LLZ5LXx/pjTCHpbs5gJzpvRZtI/zoENG6IMFP60mXLpCXDdzsWMU/Z40hkC2/YW5egJJ
+         DsF9hSQnr6VqH81wkG9pkhl+8RPmIqjkT9W/EHScEXq80/7fO1MypHok1ASsecqNfbLA
+         W819mlGYkXHSnAqCldCGawvcIk8ClXfYePrBUVs/fE5Idvdvq4BakhghTAulXMuOXHc2
+         ToXg
+MIME-Version: 1.0
+X-Received: by 10.182.251.170 with SMTP id zl10mr18435614obc.8.1447610985929;
+ Sun, 15 Nov 2015 10:09:45 -0800 (PST)
+Received: by 10.202.82.208 with HTTP; Sun, 15 Nov 2015 10:09:45 -0800 (PST)
+Received: by 10.202.82.208 with HTTP; Sun, 15 Nov 2015 10:09:45 -0800 (PST)
+Date: Sun, 15 Nov 2015 10:09:45 -0800
+Message-ID: <CAHVoUKx+Xs+n6Sg2UoiC7HdEX5zd+user@domain.com>
+Subject: NY domain.com
+From: David Wolf <davidwolf4@gmail.com>
+To: John user <user@domain.com>
+Content-Type: multipart/alternative; boundary=001a11c2003e96e0f3052498326e
+
+Hello John,
+
+HRC was terrific in the debate! Know you are very busy, just checking to
+see if you have time for a quick drop by at the office  tomorrow. I am
+visiting NY this weekend and Mon.
+
+Best regards,
+David
+
+David Wolf
+Principal
+David A. Wolf Consulting
+(310) 497-7242

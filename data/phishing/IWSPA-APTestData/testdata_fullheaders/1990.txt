@@ -1,0 +1,99 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Tue, 11 Mar 2015 11:00:28 +0100
+Received: from domain.com (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 919A66005F	for
+ <user@domain.com>; Tue, 11 Mar 2015 09:51:38 +0000 (GMT)
+Received: by domain.com (Postfix)	id 8657BB6603D; Tue, 11 Mar 2015 
+ 11:00:28 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from domain.com (domain.com [192.168.100.25])
+	by domain.com (Postfix) with ESMTP id 7AC39B6603C	for
+ <user@domain.com>; Tue, 11 Mar 2015 11:00:28 +0100 (CET)
+X-ASG-Debug-ID: 1394532021-066a75682d5a6e0003-4b75iv
+Received: from em-sj-48.domain.com (em-sj-48.domain.com [199.15.214.48])
+ by domain.com with ESMTP id GUGSAPwz6LeEI2wW for
+ <user@domain.com>; Tue, 11 Mar 2015 11:00:27 +0100 (CET)
+X-Barracuda-Envelope-From: "SS8, Inc." <info@ss8.com>
+X-Barracuda-Apparent-Source-IP: 199.15.214.48
+DKIM-Signature: v=1; a=rsa-sha256; d=ss8.com; s=m1; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1394532027;
+	h=From: "SS8, Inc." <info@ss8.com>
+	bh=4xFWe8xI5f+forHYSzcss1dXr7l8U/Cg8ViojAkOd88=;
+	b=NjnKouWquDuk3E2XbLP1uGWntmNzhTzHpPw2E73I6HVRl9sTiiATHOl/0mbfIjoS
+	S//snqOBGJQnAg+UegWTYid7j00JQYiW2fkjFITKi+bh8eMqT2pFlWZ3y506mpMY
+	hCq1lLXiGhMiG1g6GPnIPw9eVxMS35Lx5COVt6bnQ/I=;
+X-MSFBL: YS5vcm5hZ2hpQGhhY2tpbmd0ZWFtLml0QGR2cC0xOTktMTUtMjE0LTQ4QGJnLXNq
+	LTAxQDc4OC1ZU0MtOTA5OjM3MzoyODA4OjY4MDE6MDoxOTI0Ojc6MTAzNzI3NQ
+Received: from [10.0.8.1] ([10.0.8.1:54484] helo=domain.com)	by
+ domain.com (envelope-from <user@domain.com>)	(ecelerity 3.5.0.35861
+ r(Momo-dev:tip)) with ESMTP	id 12/A4-10269-BBEDE135; Tue, 11 Mar 2015 
+ 05:00:27 -0500
+Date: Tue, 11 Mar 2015 05:00:27 -0500
+From: "SS8, Inc." <info@ss8.com>
+Reply-To: <user@domain.com>
+To: <user@domain.com>
+Message-ID: <1214577538.1736986932.1394532027101.user@domain.com>
+Subject: Alberto, meet us at ICDDF - Get a $10 gift card!
+X-ASG-Orig-Subj: Alberto, meet us at ICDDF - Get a $10 gift card!
+X-Report-Abuse: Please report abuse here: <<link>>
+X-Binding: bg-sj-01
+X-MarketoID: 788-YSC-909:373:2808:6801:0:1924:7:1037275
+List-Unsubscribe: <mailto:user@domain.com>
+X-MailFrom: "SS8, Inc." <info@ss8.com>
+X-Barracuda-Connect: em-sj-48.domain.com[199.15.214.48]
+X-Barracuda-Start-Time: 1394532023
+X-Barracuda-URL: <<link>>:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at domain.com
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.90
+X-Barracuda-Spam-Status: No, SCORE=0.90 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=1000.0 KILL_LEVEL=8.0 tests=BSF_SC0_SA085, BSF_SC7_SA_HREF_WWW_MISMATCH, HTML_MESSAGE, REMOVE_BEFORE_LINK
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.3785
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.80 BSF_SC7_SA_HREF_WWW_MISMATCH BODY: Custom Phishing Mismatch
+	0.00 REMOVE_BEFORE_LINK     BODY: Removal phrase right before a link
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.10 BSF_SC0_SA085          Custom Rule SA085
+Return-Path: 788-user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1267958284_-_-"
+
+SS8, Inc.
+
+
+
+
+Meet with us at ICDDF and get a $10 Starbucks Gift Card!
+
+Hi Alberto,
+Let's meet at ICDDF next week! In just 30 minutes, we'll show you how to:
+
+Provision intercepts
+Convert raw network traffic and signaling into a standard format
+Map traffic to the appropriate intercept order
+Generate metadata
+Deliver collected information in real-time to law enforcement and government agencies
+
+You can also sign up for a quick demo of SS8 Intellego, our Advanced Monitoring Center and communications intelligence tool.
+Sign up now and get your $10 gift card when we meet.
+
+
+
+
+ About SS8: SS8 solutions help service providers get the most return on their compliance investments. We also enable LEAs and national governments to collect and monitor current and evolving voice and IP data communications in accordance with local laws and standards.
+
+Follow us on Twitter & LinkedIn, and please be sure to subscribe to our blog for industry related news, events, and more.
+
+
+
+SS8, Inc. | 750 Tasman Drive Milpitas, CA 95035 USA | +1 408 428-3732 | www.ss8.com
+
+This email was sent to user@domain.com If you no longer wish to receive these emails you may unsubscribe at any time.  
+

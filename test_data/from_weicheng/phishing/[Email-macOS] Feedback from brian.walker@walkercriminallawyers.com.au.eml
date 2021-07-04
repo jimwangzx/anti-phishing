@@ -1,0 +1,122 @@
+Delivered-To: mailsupport@edison.tech
+Received: by 2002:a05:6808:99a:0:0:0:0 with SMTP id a26csp2542459oic;
+        Sat, 27 Jun 2020 23:37:36 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJw6hPF5RALLgqzSZzAH5FxWrrA6tAVU+pMqEqduoEFc7/lUg+FLkdu1JdkYEAYVYG+UvFLi
+X-Received: by 2002:a2e:9a44:: with SMTP id k4mr5080045ljj.139.1593326256690;
+        Sat, 27 Jun 2020 23:37:36 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1593326256; cv=none;
+        d=google.com; s=arc-20160816;
+        b=oBlD2b3qqHfCqTKcgHW5K7/H5OEcaksDfKilg99SvuiSDJs92Ni31pA7pYHH94NOQQ
+         RUfFDu+0C/Zvlh7E1UvBjUZ86W2l8BI7Rmgj4WgHtc+WfO078SpJtZdiUmEXdFFps0eM
+         SBdDRvfohMZqDCr417sTSpqMnqDdP13fp5xX8QBkijknElom8575ZTLcQW8KJCnF2Fv7
+         qZlFR8JeGBfpFS9scpP+aGboU8lZfL27jESK5UAshdE2Y5Zgwm1za4HlSpd6njNkYC9L
+         Kf6nNMz/7L/xaSHaKFdo/TOLfjNhenLAWaXqptJpiTB6kObOhChZzIUHNz4nfxt9F3mR
+         WF9A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:message-id:to:from:date:dkim-signature;
+        bh=3uI8VkNo3u5WXm+TdzubSDbWdTgXAldKs+IrAj/3kGU=;
+        b=TNJJMaJU39wLAY1W5PTNhizNjKWbYDvKZ8EU4AdEF2ZPp41qg/jJwBhgg6lFi9nomw
+         iiP85VL0VE448Xr1Y2rASmZHWjE67YlHq/CLSidCpU08P+QQgNcED4OEbJFPA5JjeJ+R
+         YJ9WXupywUw2/JXHx4tnXZqNyQGCkl405PyFVpgNdU5dzlgnBl65usFBNB3AfwxfERrr
+         MonpA4p+UfkA4XrEPUzmgAwH8vXFGUfELWaTIhiRIgXvipdFIxx8SYmzdVWM7wj/IqOg
+         43ojgtfx6d8eG5eo2o7kGD+ZFkjvcYWA7fn8xco6fcAsfU97fFT/cAVXZTQivPqw3PiY
+         sf9A==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@walkercriminallawyers.com.au header.s=default header.b=nhcqPFFk;
+       spf=pass (google.com: domain of brian.walker@walkercriminallawyers.com.au designates 27.111.89.15 as permitted sender) smtp.mailfrom=brian.walker@walkercriminallawyers.com.au
+Return-Path: <brian.walker@walkercriminallawyers.com.au>
+Received: from server-f-r77.ipv4.per01.ds.network (server-f-r77.ipv4.per01.ds.network. [27.111.89.15])
+        by mx.google.com with ESMTPS id t10si21533300lfe.176.2020.06.27.23.37.34
+        for <mailsupport@edison.tech>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 27 Jun 2020 23:37:36 -0700 (PDT)
+Received-SPF: pass (google.com: domain of brian.walker@walkercriminallawyers.com.au designates 27.111.89.15 as permitted sender) client-ip=27.111.89.15;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@walkercriminallawyers.com.au header.s=default header.b=nhcqPFFk;
+       spf=pass (google.com: domain of brian.walker@walkercriminallawyers.com.au designates 27.111.89.15 as permitted sender) smtp.mailfrom=brian.walker@walkercriminallawyers.com.au
+Received: from cp-wc16.syd02.ds.network (cp-wc16.syd02.ds.network [122.201.124.50])
+	by halon-out01.au.ds.network (Halon) with ESMTPS
+	id d778aca6-b909-11ea-b518-f8db88ea9a09;
+	Sun, 28 Jun 2020 06:37:31 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=walkercriminallawyers.com.au; s=default; h=Content-Type:MIME-Version:
+	Subject:Message-ID:To:From:Date:Sender:Reply-To:Cc:Content-Transfer-Encoding:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	 bh=3uI8VkNo3u5WXm+TdzubSDbWdTgXAldKs+IrAj/3kGU=; b=nhcqPFFkz774aRIzIVrZ3Afkq
+	70V61l7LvAo0n/v/8PYGLiF/wxkUCNfiMd6sXmGlL2iU7jZakZQ8LIdT3eyprkBoJ3sXX00YirRaI
+	fK1FF9Wq7DDncO69VEI3hAKss3oGrPD9zmYhUfeDpzA+cf77AiczjOfr2cT76lQRq1Uj41c36rMHj
+	f2PHh0O5hVJ0Y8x1pkBcT8wjREvIiC+3mgiUyP9f3ZfSMFYBYjeb13RFB3Zkig/iwnfRor+QRkZ+F
+	bdOxH2jcsKlUmbYZH4Jynwd0MV85r0Yh75MbWt9Zh6GGrtg3aEvfj9hhHk/4IG+OmjH9SuaijpoIr
+	13Sss8RwA==;
+Received: from [103.217.166.238] (port=51253 helo=Brians-Air.lan)
+	by cp-wc16.syd02.ds.network with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <brian.walker@walkercriminallawyers.com.au>)
+	id 1jpQwU-0001pw-Of
+	for mailsupport@edison.tech; Sun, 28 Jun 2020 14:37:30 +0800
+Date: Sun, 28 Jun 2020 16:37:29 +1000
+From: "=?utf-8?Q?brian.walker=40walkercriminallawyers.com.au?="
+ <brian.walker@walkercriminallawyers.com.au>
+To: Mac Feedback <mailsupport@edison.tech>
+Message-ID: <1995cab4-f530-45fd-8325-b648d99d754e@edison.tech>
+Subject: [Email-macOS] Feedback from
+ brian.walker@walkercriminallawyers.com.au
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="5ef83aa9_238e1f29_9bfa"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cp-wc16.syd02.ds.network
+X-AntiAbuse: Original Domain - edison.tech
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - walkercriminallawyers.com.au
+X-Get-Message-Sender-Via: cp-wc16.syd02.ds.network: authenticated_id: brian.walker@walkercriminallawyers.com.au
+X-Authenticated-Sender: cp-wc16.syd02.ds.network: brian.walker@walkercriminallawyers.com.au
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+--5ef83aa9_238e1f29_9bfa
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+     
+ 
+User bug report:
+ Not a bug but it would be good to include a feature where you can schedule sending your emails in the future at a certain time. -----User bug report end-----
+ 
+[MacOS] 1.0.28-mas
+ 
+ 
+SupportId: 977ca440a3be70b2c342fe2e48cffd1e971dc4283496292baed2908759d10f5f
+ 
+ 
+[LogID]ea2c49ea-85ad-4280-a14a-8ce09aca3147
+ 
+     
+--5ef83aa9_238e1f29_9bfa
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<div>
+            <div>
+            User bug report:<br>
+            Not a bug but it would be good to include a feature where you=
+ can schedule sending your emails in the future at a certain time.
+            -----User bug report end-----<br>
+            </div>
+            <div>
+            =5BMacOS=5D 1.0.28-mas
+            </div><br>
+            <div>
+            SupportId: 977ca440a3be70b2c342fe2e48cffd1e971dc4283496292bae=
+d2908759d10f5f
+            </div><br>
+            <div>
+            =5BLogID=5Dea2c49ea-85ad-4280-a14a-8ce09aca3147
+            </div>
+</div>
+--5ef83aa9_238e1f29_9bfa--
+

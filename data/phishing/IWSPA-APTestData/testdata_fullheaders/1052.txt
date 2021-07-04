@@ -1,0 +1,91 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp3130050lfi;
+        Wed, 6 May 2015 09:47:45 -0700 (PDT)
+X-Received: by 10.140.108.74 with SMTP id i68mr40727961qgf.73.1430930864378;
+        Wed, 06 May 2015 09:47:44 -0700 (PDT)
+Return-Path: <3user@domain.com>
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [2607:f8b0:400d:c09::249])
+        by domain.com with ESMTPS id n33si377413qkh.21.2015.05.06.09.47.43
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 06 May 2015 09:47:44 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400d:c09::249 as permitted sender) client-ip=2607:f8b0:400d:c09::249;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of 3user@domain.com designates 2607:f8b0:400d:c09::249 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qk0-domain.com with SMTP id w1so383046qkb.1
+        for <user@domain.com>; Wed, 06 May 2015 09:47:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :From: "re47@hillaryclinton.com" <re47@hillaryclinton.com>
+        bh=0k2L+Seg00yFeLYLjFyJeNcE5Tuz4tchleWG9gEysnY=;
+        b=iMojR4ee3OusTRbehKTYHyQ81RS7dx2tHRxGagQYd0l7hWx7I+FUJLPrJn6MBo0fI1
+         jzzLniYepmuEkvw32yKjLBr2YuBUo43N61VQajG8BTxOmXbtw0GsIKgTusDnz4B9SZgT
+         4k5YNYjrNYjck6sID3E4d4Qjx6sccua9Dsv7P+/hLL0vpjUxyhhn4oLpkwar9/IoZfeZ
+         aFm0d/sb7ofXbha47SlAHzkqobkiVSF4X9QJ27Lsscq6S4reMd54snN7CsQNKojCqE+L
+         ph1Vuf8NkQBD3C3+gG5fHzAORn1AlyWthtezUfi9wCt5o8Pk17xOjOqTW7VJK42QfxSR
+         TpzQ
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:From: "re47@hillaryclinton.com" <re47@hillaryclinton.com>
+        bh=0k2L+Seg00yFeLYLjFyJeNcE5Tuz4tchleWG9gEysnY=;
+        b=Je6IxBKdW019r3Ug0Td9Iyj8HRz+GXhpZlGSccnIT+wbjox2RagTI/hrgxP1hafG5Z
+         fgYa0jp4/TPqGyetwwGk/Bcxw54gK+s7oYaOMUBMPXxRsd9N7EH6EwYM5KRZqDXPI1MK
+         gbxr5ds30L/F/rPLSh8F+cw3ilq0BBDTYIsX8wdRqRNyW4DzULgxLj8Z0SiUnHm0YUPd
+         Mzk/sMfOiUNRXakG9WunFqqAvho000VBel6Qs3jczYQP8kbBG+2V+6Tq7/Y7Zle5nFJP
+         qwNI3hHWAaq6jLzZxhQkjNncw8025tWQUAR/bd+00Uiz5tKi1ByPiT0KHUYliiiP81ob
+         BzRw
+X-Gm-Message-State: ALoCoQnGCrJFQhRbrrBGDN83qoamglnTYkJFyQuiMvgs5H9ZltydqSKR5JMvGFWjyh51ZTKx+MU4
+MIME-Version: 1.0
+X-Received: by 10.52.7.2 with SMTP id f2mr6283001vda.11.1430930863759; Wed, 06
+ May 2015 09:47:43 -0700 (PDT)
+Reply-To: "User" <user@domain.com>
+Sender: Google Calendar <user@domain.com>
+Auto-Submitted: auto-generated
+Message-ID: <20user@domain.com>
+Date: Wed, 06 May 2015 16:47:43 +0000
+Subject: Invitation: Arkansas Debrief Call @ Wed May 6, 2015 10:15pm - 10:35pm (user@domain.com)
+From: "re47@hillaryclinton.com" <re47@hillaryclinton.com>
+To: "User" <user@domain.com>, 
+ Lona Valmoro <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Marlon Marshall <user@domain.com>, 
+ "user@domain.com" <user@domain.com>, 
+ Alex Hornbrook <user@domain.com>
+CC: Sawsan Bay <user@domain.com>
+Content-Type: multipart/mixed; boundary=20cf3030c275d54c7805156c8deb
+
+You have been invited to the following event.
+
+Title: Arkansas Debrief Call
+Dial-In Number: (202) 794-7025 // No PIN needed
+When: Wed May 6, 2015 10:15pm - 10:35pm Eastern Time
+Where: Dial-In Number: (202) 794-7025 // No PIN needed
+Calendar: user@domain.com
+Who:
+     * user@domain.com - organizer
+     * Marissa Astor - creator
+     * Lona Valmoro
+     * John user
+     * Kristina Schake
+     * Jennifer Palmieri
+     * Marlon Marshall
+     * user@domain.com
+     * Alex Hornbrook
+     * Sawsan Bay - optional
+
+Event details:  
+<<link>>
+
+Invitation from Google Calendar: <<link>>
+
+You are receiving this email at the account user@domain.com because  
+you are subscribed for invitations on calendar user@domain.com
+
+To stop receiving these emails, please log in to  
+<<link>> and change your notification settings for  
+this calendar.

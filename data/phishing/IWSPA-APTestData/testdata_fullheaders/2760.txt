@@ -1,0 +1,53 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp949534lfi;
+        Sat, 2 May 2015 11:51:03 -0700 (PDT)
+X-Received: by 10.66.145.74 with SMTP id ss10mr28918815pab.28.1430592661087;
+        Sat, 02 May 2015 11:51:01 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-pd0-domain.com (mail-pd0-domain.com. [209.85.192.173])
+        by domain.com with ESMTPS id kn6si13131254pab.75.2015.05.02.11.50.59
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 02 May 2015 11:51:01 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.192.173 as permitted sender) client-ip=209.85.192.173;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 209.85.192.173 as permitted sender) user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by pdbnk13 with SMTP id nk13so124349271pdb.0
+        for <user@domain.com>; Sat, 02 May 2015 11:50:59 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:From: Emanuel Yekutiel <eyekutiel@hillaryclinton.com>
+         :content-type;
+        bh=wCe61TsTavNfS8w46PJj1/GdPBrFPCsJJHe3zUKcfwo=;
+        b=NU1Eqhj5hdSCyqYVwTIX961gaaZAzgs2evb5AeupcuBY57xOLOaXJtUwU787oXIlBL
+         NmBe7xUMdEgLIzMRA4R0o7O/92f5Mo2FmWTEp15SDXb3WQNeAI3HR8QOaVnjE3ohm+hS
+         jZgANTCwN485kizcLDytkmMgP6DfOgohbdOTpkQavcsARH41tLsQJsDnmly2mPr7uSPM
+         fAbuZijCFmXvOKAb1cfAWJHXO8UQ8z53rJ8RuMj4iyWcmijUDiVJn9+t+kgsN00UbjYr
+         10Pr3XLet+VAZRgEm7YPLUYH6StU2vrzAkcS6b5D5ctwRlfPd4ipm2qa67awULeFKi9m
+         WNXA
+X-Gm-Message-State: ALoCoQnhFE/SZgEb92RHA6/uZuoCAFHDx9VMOrl49XPumAo4JeQREAdn4tlkW5CKuejQfqaPSGdq
+X-Received: by 10.68.107.97 with SMTP id hb1mr28405088pbb.122.1430592659608;
+ Sat, 02 May 2015 11:50:59 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.70.138.46 with HTTP; Sat, 2 May 2015 11:50:39 -0700 (PDT)
+From: Emanuel Yekutiel <eyekutiel@hillaryclinton.com>
+Date: Sat, 2 May 2015 11:50:39 -0700
+Message-ID: <CA+user@domain.com>
+Subject: Thanks for all the help yesterday
+To: user@domain.com
+Content-Type: multipart/alternative; boundary=047d7b6daa224b725d05151dcf44
+
+John,
+
+It's Manny from the NorCal team. Just a quick note to say thank you for
+coming to our area and speaking to our supporters and leaders out here. It
+meant a lot and I thought the day went well!
+
+Thanks again,
+
+-- 
+Manny Yekutiel
+Deputy Finance Director - Northern California
+Hillary for America
+415-203-7122

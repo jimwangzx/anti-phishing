@@ -1,0 +1,84 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp607971lfr;
+        Wed, 5 Aug 2015 18:25:47 -0700 (PDT)
+X-Received: by 10.13.245.69 with SMTP id e66mr11907275ywf.128.1438824347248;
+        Wed, 05 Aug 2015 18:25:47 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::22d])
+        by domain.com with ESMTPS id u66si2985803yke.127.2015.08.05.18.25.46
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 05 Aug 2015 18:25:47 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22d as permitted sender) client-ip=2607:f8b0:4002:c07::22d;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::22d as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-domain.com with SMTP id q64so45693575ykc.2
+        for <user@domain.com>; Wed, 05 Aug 2015 18:25:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+        bh=j9sQIq2SnPQPPFBFj1Bf8P5VlHJJdoRQQqC63sPPdQ4=;
+        b=TiC82yy3fXJ2fxDAfFodaCOwQyebFBQtxcmOZkTYQMVvOADG8FfrGSjrGFzxS5kCGx
+         qfxyaafpx9H12RhJlJDllLVaLq94W02kHWlHIJzM950m+QtpCT9jFDEtY4XRABHO4OVC
+         EuExl4pQ3tgEsHByX++n8KndKucw7CLVRaPSw
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+         :content-type;
+        bh=j9sQIq2SnPQPPFBFj1Bf8P5VlHJJdoRQQqC63sPPdQ4=;
+        b=c5Fdo4KxsxmiHqAcIa51ZSsAtrUDZCEdMRT0hcFjSWlCu4S6CpnF+3kdeTtYFdJu5K
+         tmKn5hWLA1cu6nlIfqLXnf0RAWOAZS9ppC06gVWpwKHZbMd/X7WY38FyBiO01FrD2hs1
+         5nVqGtzYT5RWsG4nJHDG+N5ImkfMut1oTYTFgwG13rkhdXAe1JBISkocFZK0kGxvQCqq
+         nlesH7ZFzhx3G9iXRXD+RKIyE9NVUUV6UpasmxbwmvwtHfaXaMHJ95IlygBo49wC9KQr
+         atlZVINzdVQLVHdyqsNj+GnxOUHptiztoruMu7eV5J4C6/hTELBYjm7picmHf/dorors
+         aGrw
+X-Gm-Message-State: ALoCoQm+6AjrsefeAlfzSVHUl4wy/5/kP0Yn70cdRRcyO3TiUCVFZRQcygNOTFsTrzz6gHZos296
+MIME-Version: 1.0
+X-Received: by 10.129.95.198 with SMTP id t189mr12869708ywb.29.1438824346266;
+ Wed, 05 Aug 2015 18:25:46 -0700 (PDT)
+Received: by 10.129.71.193 with HTTP; Wed, 5 Aug 2015 18:25:46 -0700 (PDT)
+Date: Wed, 5 Aug 2015 21:25:46 -0400
+Message-ID: <CAMhPeA93hK+4Lq++user@domain.com>
+Subject: Action Items from Strategy Mtg
+From: Robby Mook <re47@hillaryclinton.com>
+To: Alex Hornbrook <user@domain.com>, 
+ Amanda Renteria <user@domain.com>, 
+ Brian Fallon <user@domain.com>, 
+ Christina Reynolds <user@domain.com>, 
+ Dan Schwerin <user@domain.com>, 
+ David Binder <user@domain.com>, 
+ Elan Kriegel <user@domain.com>, 
+ Huma Abedin <user@domain.com>, 
+ Jake Sullivan <user@domain.com>, 
+ Jenna Lowenstein <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Jim Margolis <user@domain.com>, Joel Benenson <user@domain.com>, 
+ John Anzalone <user@domain.com>, John user <user@domain.com>, 
+ Karen Finney <user@domain.com>, 
+ Katie Dowd <user@domain.com>, 
+ Kristina Schake <user@domain.com>, 
+ Mandy Grunwald <user@domain.com>, 
+ Marlon Marshall <user@domain.com>, 
+ Maya Harris <user@domain.com>, 
+ Oren Shur <user@domain.com>, Teddy Goff <user@domain.com>, 
+ user Carrk <user@domain.com>, user@domain.com
+Content-Type: multipart/alternative; boundary=001a11470b260dddf8051c9a662d
+
+Below are the action items I recorded from today's meeting:
+
+1. Circulate a home base for staff prep--Kristina
+2. Stump speech revision (not full text)--Dan
+3. Keystone press plan--Brian
+4. Talk to JP about WH plan--Jake
+5. Language on college rollout--Dan
+6. Language on arguments about why key policies are better than Bernie's
+(Wall St, College, Social Security); identify key framing choices (costs,
+ability to get things done)--Oren
+7. Tax policy/message call--Kristina
+8. State of the campaign video concept--Teddy
+9. Add more "soft" media/"fun shows" to the calendar in Aug and Sept--Huma
+and Kristina
+10. More social media on the road--Huma and Katie
+11. More staff Twitter personalities--Teddy

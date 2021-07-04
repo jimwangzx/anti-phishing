@@ -1,0 +1,442 @@
+Delivered-To: user@domain.com
+Received: by 10.100.139.5 with SMTP id m5cs450557and;
+        Tue, 12 Aug 2015 12:46:26 -0700 (PDT)
+Received: by 10.142.148.7 with SMTP id v7mr2873756wfd.314.1218570384709;
+        Tue, 12 Aug 2015 12:46:24 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from wa-out-0708.domain.com (wa-out-0708.domain.com [209.85.146.246])
+        by domain.com with ESMTP id 24si6577136wfc.6.2008.08.12.12.46.23;
+        Tue, 12 Aug 2015 12:46:24 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.146.246 as permitted sender) client-ip=209.85.146.246;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.146.246 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by wa-out-0708.domain.com with SMTP id n36so853445wag.10
+        for <user@domain.com>; Tue, 12 Aug 2015 12:46:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :content-type:sender:precedence:x-google-loop:mailing-list:list-id
+         :list-post:list-help:list-unsubscribe:x-beenthere;
+        bh=Vsx82Vz7oBGLUd45/n5vWLxZU792wss+uwP66zcUcZc=;
+        b=Vg9U4HRsYzC7hyZoNUEnQe5+rrVvn/5Nu/BP3MujiQ1aNzm6S2p/1JaU7zi5LRbqdf
+         6JzXTIB5+owypr6J84dG+Axl5L1T91Anev3iP/uepQcPOILa5y36L360UUfWpsVwIOfn
+         K/nWiapWpHIjhXAUVSYa52CK1+WEo4o3TAVfE
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Sara DuBois" <sara@progressiveaccountability.org>
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        b=qkebZr4XYjdQYmJq25ogIGYYLbxLftem5Kt5q4ZN54fPWQmpO2+1UiLw0SpOzmIzgN
+         UexqY+Ea3iKdmMaWtO22C7LWzEXnQQsLwW6NSWd5GymN4o7y8aRZ3HECQz0y1sQcH5bs
+         c3cVUDGnaVTniSmilTUDLcjqWuDBqxBMq9nDI
+Received: by 10.140.134.15 with SMTP id h15mr382959rvd.12.1218564280393;
+        Tue, 12 Aug 2015 11:04:40 -0700 (PDT)
+Received: by 10.106.144.11 with SMTP id r11gr1541prd.0;
+	Tue, 12 Aug 2015 11:04:35 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.214.184.3 with SMTP id h3mr1288091qaf.2.1218564274925; Tue, 12 Aug 2015 11:04:34 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.19]) by domain.com with ESMTP id 7si14677243yxg.0.2008.08.12.11.04.34; Tue, 12 Aug 2015 11:04:34 -0700 (PDT)
+Received-SPF: neutral (domain.com: 209.85.217.19 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=209.85.217.19;
+Authentication-Results: domain.com; spf=neutral (domain.com: 209.85.217.19 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 12so103456gxk.10 for <user@domain.com>; Tue, 12 Aug 2015 11:04:34 -0700 (PDT)
+Received: by 10.150.143.5 with SMTP id q5mr14744608ybd.148.1218564274705; Tue, 12 Aug 2015 11:04:34 -0700 (PDT)
+Received: by 10.151.62.14 with HTTP; Tue, 12 Aug 2015 11:04:34 -0700 (PDT)
+Message-ID: <user@domain.com>
+Date: Tue, 12 Aug 2015 14:04:34 -0400
+From: "Sara DuBois" <sara@progressiveaccountability.org>
+To: user@domain.com
+Subject: [big campaign] Tracking Update: McCain Town Hall in York, PA 08/12/08
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_87546_12744026.1218564274691"
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+Hello All,
+Just got off the phone with our tracker, Jacob, on the ground in York, PA.
+Below are the notes from our call.
+
+BIG HIGHLIGHTS:
+
+   - Unprecedented fanfare, incl. pulling Straight Talk Express into the
+   venue itself, Lieberman comments "It's great to be here with Rocky McCain"
+   - Begins stump with 5 min explanation of situation in Georgia, mentions
+   pipeline and that he spoke to Georgian Pres. to offer support
+   - Promises we will be "largely" out of Iraq in next 4 years, says "I will
+   bring the peace"
+   - Says he knows about Three Mile Island, but Navy ships haven't 'had an
+   accident--never a serious accident' w/ nuclear
+   - Says he understands the problems of Social Security so well that it's a
+   compelling reason for him to be President
+   - Repeats that he thinks people cherish their 2nd Amendment rights and
+   religion b/c of patriotism
+   - ONE camp. rep asks his thoughts on poverty as major cause of most of
+   problems we've seen since 9/11, McCain says countries need wherewithal to
+   want positive change themselves, and he won't give aid to corrupt dictators
+
+York, PA: McCain Town Hall 08/12/08
+(Disclaimer: The following are notes, not direct quotes. If you'd like a
+quotable transcript or video of any part below, please email us.)
+
+Background Details
+
+   - 15-20 demonstrators outside before event: from NOW and local
+   bricklayers - signs hitting McCain's on women's issues and same as Bush on
+   economy [tracker footage available]
+   - Ticket-only event
+   - About 2015 people in audience: mostly white, older, casual dress
+   - Uncharacteristically enthusiastic crowd
+   - Meghan McCain in bus; Nicole Wallace
+   - Pre-event fanfare
+      - Unusual plethora of RNC paraphenalia outside event
+      - Arlen Specter gives brief remarks
+      - Showed 2 new videos: (1) showing McCain as sportsman/conservationist
+      like T. Roosevelt (2) showing McCain in POW camp, juxtaposed w/
+clips of him
+      cheerleading 'action'
+      - *S**pectacular entrance: Straight Talk Express pulls** into** venue
+      while 'Rocky' theme plays and giant flag raised*
+      - *sports-event announcing: please welcome Gov. Tom Ridge, Lieberman,
+      and Sen. John McCain. Ton of music and fanfare, like leadup to a
+big concert
+      (or some sort of... 'celebrity' event)*
+   - Lieberman gives intro remarks
+      - *"It's great to be here with Rocky McCain"*
+   - To make sure the crowd is friendly, they put the Dem on first.
+      - Why am I as an indep Dem supporting a GOP? B/c we're all Americans.
+      - "I am supporting John McCain b/c he is ready to lead America
+      forward- he's the best" (really slow) And in doing so, I'm just following
+      the role model that McCain has been - always put America first, working
+      across party lines to get things done.
+      - Choice couldn't be more clear b/t McCain (tested in war and in
+      peace, with experience; always put the country first vs. not --
+a talker vs.
+      leader the country needs)
+      - never know when America will face a crisis, like in Georgia, and
+      McCain responded strong, clear, principled; the kind of guy we
+need in the
+      WH
+      - We helped create Homeland Security - Bush turned to someone the
+      country needs, Tom Ridge - and since we've not had another
+terrorist attack
+      in USA
+   - Tom Ridge gives intro remarks
+      - Lieberman said it better than anyone could say it b/c in his heart
+      and his head, he understands the values America needs
+      - [story of Lieberman and McCain understand that you run to win and
+      win to govern
+      - PA is a state of independents- GOPs are going to support McCain but
+      independents too. Why? America is desperate for leadership - these are
+      perilous times--Russia/Georgia put exclamation point on this--  we need
+      someone ready to lead.
+      - There are red states adn blue states - we need a President that is
+      red, white, and blue
+      - McCain will bring both natl and internatl leadership
+
+*Speech Highlights*
+
+   - Ridge is a great friend - not an accident we haven't had another  we
+   owe a debt of gratitude to "gov. John--Tom Ridge"
+   - Cong. John Platz in attendance; And arlen specter is here fighting a
+   battle and he's winning
+   - TY GOPs, Dems, Indeps, libertarians, vegeterians - THs are essence of
+   democracy - we are facing tough times here and abroad and we need great
+   courage; TY vets
+   - We have to be serious for a few min here - over the past several days,
+   we've seen that internatl aggression is tragically not a thing of the past -
+   we thought we'd put it behind us, but we see it  rearing it's head in 21st
+   century. Some Americans might wonder why we should care about Georgia, but
+   history is often made in remote, obscure places and it was made today.
+   Georgia was a 4th century convert to Christianity - if you go to Georgia, as
+   I have several times, you see churches that date back - Georgia's been
+   attacked again and again but have maintained their language and cultural
+   pride. they were part of USSR, but were able to maintain their independence
+   after its dissolution.
+   - They're at a strategic crossroads - the Russians tried to bomb their
+   pipeline - and I dont have to tell you
+   - On Fri, Russian troops moved into Georgian province of S Ossetia -- I
+   traveled to S Ossetia and it had a billboard that suggested Russia's
+   ambitions there - on Sat, started bombing apt bldgs, etc. etc. Yesterday
+   Russian troops drove Georgians out of S Ossetia and started up in Khakazia -
+   Georgians asked for a ceasefire and Russians bombed the airport - Yesterday
+   they started attacking other cities, e.g. Gori and Tbisili -- Pres. Mdevev
+   stated he has halted the offensive but reports suggest attacks continue.
+   Foreign minister suggests they want regime change in Georgia and Pres has
+   'gotta go'  --
+   - Russia has used violence ag/ Georgia to send a signal to any country
+   that seeks to ally with West. We learned at great cost what happens when we
+   let aggression go unchecked. We need independent peacekeeping mission and
+   increased humanitarian, etc. aid
+   - We need to remind Russian leaders what comes along with being part of
+   civilized countries
+   - I spoked to Sashkishvili - knows American support is with him and he
+   wanted to give his thanks to you for this tiny little democracy - i told him
+   that i speak for them when i said today we are all Georgians
+   - these events are a long way from home - the energy crisis that we have
+   today derives in pat from the fact that we get most of our energy from that
+   part of the world - Georgians have a pipeline that carries oil to Caspian
+   Sea
+   - Another reminder that we need to stop spending billions to countries
+   that don't like us very much
+   - And the msg we want to send to Washington is Come back from your
+   vacation and fix this problem! Drill here and drill now! Drill offshore!
+   it's no wonder we have 9% Cong approval rating - maybe Arlen, some of your
+   staff is here today, but I'm not so sure about them
+   - This has been coming for 30 years. We have to have a Lex Project. We
+   have to have an all-of-the-above project. We sit on one of the largest coal
+   reserves - incl. here in PA. We need clean coal - we need to invest $2B in
+   R&D
+   - Nuclear - I know about Chernobyl and *3 Mile Island,* but we've been
+   sailing Navy ships around the world for 60 years and *'we've never had an
+   accident- never had a serious accident'. *The French do it. We need to
+   store and reprocess.
+   - So we can! You hear on the radio we can't we can't we can't - that's
+   not America - America has met every challenge and we can overcome with
+   technology, we can do it. 700k new jobs with 45 nuclear power plants.
+   - Yesterday we visited locomotive-producing GE - and some think that's
+   not high-tech - but they make the best in the world. So my friends we can do
+   it
+   - Lieberman is great. Americans are tired of the fighting, the gridlock,
+   the putting our parties above our country - they want us to stand up and do
+   what's right. I have a record of reaching across the aisle adn that's what I
+   will do b/c America wants us to put our country first. We may have
+   disagreeements from time to time and those are healthy and good for us
+   - I didn't talk to you about the war in Iraq or a lot of things I want to
+   talk to you about, but ever since I was 17 and raised my hand and took oath
+   as midshipmen I've always put my country first. Long ago and far away i was
+   offered a chance by the N Vietnamese to leave POW camp early-- 'i'm sure it
+   was b/c my father was a high-ranking Navy admiral' but my friend, Everett
+   Alvarez had been there first and it was against our code of conduct and I
+   will always put my country first
+
+*Questions and Answers*
+
+   - [jokes we have a work-release person here]
+   - 1Q) How do you plan to help our schools acquire new technology and
+   train our teachers?
+      - JM It's very important to provide our newest and best technology.
+      and some of it is spreading-- there are online classes, etc. But, esp in
+      low-income America, there are still blackboards, etc. We need to upgrade
+      technology there. This is the civil rights issue of 21st century. WE all
+      have opportunity to send our kids to school, but is it an
+opportunity if we
+      send them to a failing school? I want every American to have choice Cindy
+      and I had when we sent our kids to private schools in Phoenix. Charter
+      schools, home-schooling (great cheers). By upgrading quality of
+      education [?], we'll upgrade our facilities. NCLB was good start, now we
+      have to fix it. Education improvement in NYC and NOLA (charter
+schools not
+      better than public schools, but theyr'e competition, so the quality has
+      improved). *Children should not be penalized for the economic
+      situation they reside in.*
+
+   - [little girl - when you're done talking, can you sign my book?]
+   - JM: there was a veteran... was it you, sir? oh! there!
+
+   - 2Q) Will you maintain our military to stay at current level or greater?
+   And what will you do for vets' benefits?
+      - JM: We have to expand the size of the military adn we're doing that
+      now. One of the many mistakes in Iraq was that we didn't expand
+the size of
+      the military and we've put enormous strain on Guard and Reserve.
+      - Yes, incl. educational benefits. And another thing. We've had an
+      increase in PTSD and good news - we've been able to save more ppl b/c of
+      efficiency in getting ppl from battlefield to medical care. So we need to
+      increase our ability to treat PTSD and those battle wounds. But
+for avg vets
+      in need of routine care, they should have a plastic card to go
+to physician
+      of their choice and not have to domain.com in line to domain.com in line.
+
+   - 3Q) For those of us who are headed into miliitary service, how are
+   things going to look for us in next 4 years?
+      - JM: *By end of next 4 years ,we will be largely out of Iraq.* And
+      not bc wev'e set a date for withdrawal, but b/c we will ahve
+one. But that
+      withdrawal will be based on conditions on the ground, not on a
+set date for
+      withdrawal. Obama said sruge wouldnt work, voted not to fund men
+and women
+      fighting there, still refuses to acknowledge it's succeeded; hadn't been
+      there in over 900 days and gave a speech before he went--hard to
+believe. So
+      there's a great difference. He wanted us out last March. The surge has
+      succeeded, Petraeus is great. Men and women like you are the greatest and
+      I'm proud of you. "We have succeeded--it's not we are succeeding--we have
+      succeeded and we are winnign" and if we had had this convo 2 wks ago, we
+      wouldnt have consumed our convo with tiny little Georgia. I've
+been in wars,
+      i know wars, I hate wars - no one hates war more than the vet.
+So at the end
+      of 4 years, *I will bring the peace*
+
+*
+*
+
+   - 4Q) Value of homes is declining. Plans to turn it around?
+      - JM: These are tough times in America. I shouldve mentioned it.  The
+      housing crisis is probs one of the most if not the most severe
+aspect of it
+      b/c it's the American Dream. We just passed thru the Senate
+something that
+      will incentivize ppl to stay in their homes. And I hope we dont'
+get to this
+      b/c Senate bill will work--What I'd like to see is a homeowner
+to be able to
+      get a 30 year FHA mortgage rate at new value of home--not the person who
+      bought 2 houses and let them idle hoping the value would increase.
+
+   - 5Q) What will you do to bring jobs?
+      - [gov-chow line joke]
+      - JM: We can bring jobs to PA and the heartland of America. At GE
+      plant, they make the most efficient and fuel-efficient locomotives in the
+      world. And they're hiring b/c demand overseas is going up, e.g.
+Brazil. And
+      i mentioned nuclear, creating jobs. I believe USA will lead in green
+      technology and green innovation. So if you have a fundamental faith in
+      America, then you know we're the best workers, best producers. Every
+      technology has come from USA. We will become energy independent.
+Yes we have
+      challenges: education, housing. But somehow to believe America is not
+      capable of this is a fundamental contradiction of teh history of this
+      country. And I believe in it.
+
+   - 6Q) For the longest time you didn't have an Ag policy. now you do -
+   hooray! but yours now is based on foreign trade. How do you plan for us to
+   become energy independent in terms of what goes into your body? Problems for
+   farmers w imports and exports.
+      - JM: I believe US farmers are best in the world and can compete w/
+      best of the world. And i think it's outrageous that our biggest overseas
+      market for our products, Colombia, whose leader BTW just carried out a
+      daring rescue, and Pelosi refuses to hold a vote on trade agreement with
+      them. And Pelosi also won't hold vote on drilling. I say things you
+      sometimes dont like. I opposed ethanol subsidies b/c they distort the
+      market.
+
+   - 7Q) Conservatives believe you dismiss our requests for serious
+   conservative stance on issue. In your quest for POTUS, is it in you to take
+   a serious stance with conservative policy to fight the lure of socialistic
+   policies and the Dems?
+      - JM [pretends to grimace / sigh]: Yes.
+      - Can I say something: Judges. 2-3 vacancies on SCOTUS "according to
+      ppl who decide these things"--err, [corrects himself] Alito and
+Roberts were
+      2 of the greatest justices we ever had. Obama didn't support them. I will
+      only nominate strict-constructionists.
+
+   - 8Q) I'm paying into a SS system that I'm not going to reap benefits
+   from. What's your proposal?
+      - JM: jokes- 'I should've recognized the guy behind you.' Sometimes we
+      have to have straight talk. Benefits won't be there unless we fix the
+      system.  If there's ever a compelling argument for
+bipartisanship, it's SS.
+      Why should we lay a multitrillion dollar debt on next generation of
+      Americans? Ridge and I came to DC together - I was proud to be
+there w/ only
+      other Viet vet. and btw, he graduated Harvard and could've
+gotten deferment,
+      but he served in Vietnam - so we came and SS broken, adn O'Neill
+and Reagan
+      worked together and fixed SS for 25 years. So we have an
+example. Lieberman
+      and I aren't going to invent a way. *I understand SS problem so well
+      that I think I should be your next POTUS.*
+
+   - 9Q) I was a diehard HRC fan. I'm deciding between you adn Obama. I'm
+   not sure where you stand. Where do you stand on college; gas prices?
+      - JM: First of all, I appreciate that you would take the time to be a
+      part of this. Also, on HRC- she ran a great campaign, she inspired young
+      women. Education-- if your grades are good, universities adn colleges are
+      competing to get you. We've got to make education affordable. Like
+      healthcare, we've got double-domain.com inflation on education. This
+fall might
+      be a problem of availability of student loans - we need to make sure
+      Governors will keep that from being a problem.
+      - JM: If you have specialty like math, science, engineering, we need
+      to find a way to keep you in school b/c we need that. And I say
+this w/ my
+      daughter who graduated with degree in Art History.
+      - And 2nd thing, we need to reward service, e.g. TFA, Peace Corps. I
+      will continue to expand those programs and their rewards. And
+rewards should
+      be last thing to motivate toward service, but we need to provide
+educational
+      benefits.
+      - *And tell your friends to come. Some straight-talk, I need to do a
+      better job w/ young voters.*
+
+   - 10Q) Costs of health care and uncertainty of Medicare.
+      - JM: Before the housing crisis, HC was #1 issue at town hall mtgs.
+      Prob is system today has no real breaks or incentives to bring
+down costs.
+      I'd like to give families $5k tax domain.com so they can go across
+state lines
+      and get HC they need. Health and wellness (Shaq's challenge). What about
+      so-called uninsurables? We're going to have to advocate GAPs w/
+      contributions by state and fed so we can pool risks and provide
+HC. If you
+      like govt-run HC systems, go to Canada or England and see if you
+like it -
+      that's what Obama's proposing. We have to preserve quality of HC, and
+      improve accessibility and affordability
+
+   - JM: ONE organization is here. Cindy & co went to Rwanda with them,
+   where there were 800k killed. Adn btw, it was inspired by Bono.
+   - *ONE rep: we realized after 9/11 that a lot of the probs USA faces,
+   incl. military, is result of poverty around the world. *What is your plan
+   for combating that?
+      - JM: 1 of the ways for addressing all this that Cindy saw and
+      Huckabee and Frist saw -- and BTW, best line of debates was Huckabee's
+      'jesus would be smart enough not to run for public office'. One
+of the most
+      impressive parts of Rwanda was the women, who have decided
+theyre not going
+      to stand for this and are assuming poistions of responsibility and power.
+      These countries need wherewithal to make postive change themselves. Aid
+      money we give these 3rd world countries end up in Swiss bank
+accounts and I
+      won't stand for it. Bill Gates and etc do great work  Provide
+help but not
+      to corrupt govts.
+
+   - we're going to be up late on Election Night. And I'm the underdog and I
+   love it, I always relish that position.* I don't believe Pennsylvanians
+   cherish their 2nd Amendment rights or their religion b/c they're bitter, but
+   b/c they love America. *And I'll tell them they're the heart of America.
+   And they're why the ppl of Georgia are looking to America. We will continue
+   to be beacon of hope.
+
+-- 
+Sara DuBois
+Tracking / Communications Manager
+domain.com
+user@domain.com
+202-609-7681 (office)
+410-967-7306 (cell)
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+

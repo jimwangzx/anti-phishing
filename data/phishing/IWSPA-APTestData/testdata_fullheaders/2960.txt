@@ -1,0 +1,91 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 22 Apr 2015 08:40:25 -0700
+Received: from domain.com ([160.33.194.228])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s3MFePBd029132	for <user@domain.com>; Tue, 22 Apr 2015 
+ 15:40:25 GMT
+Received: from mail168-va3-domain.com (mail-domain.com
+ [216.32.180.115])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s3MFfWqS004638
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 22 Apr 2015 15:41:32 GMT
+Received: from mail168-va3 (localhost [127.0.0.1])	by
+ mail168-va3-domain.com (Postfix) with ESMTP id 1B19D60154	for
+ <user@domain.com>; Tue, 22 Apr 2015 15:39:26 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.167.231.114;KIP:(null);UIP:(null);IPV:NLI;H:mail03.connect.vmware.com;RD:mail03.connect.vmware.com;EFVD:NLI
+X-SpamScore: 0
+X-BigFish: vps0(z579ehz9371Ic89bhe0eah55dIc857h77f5hzz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1fc6h208chzz1d7338h1def03h172cfch17326ah1def87h8275bh1bc7b9h8275dh1def86h18c673h1de097h186068h1d68dehz2fh5fh839hd24hd2bh10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1fe8h1ff5h20f0h2216h2336h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h9a9j1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail168-va3: domain of connect.vmware.com designates 209.167.231.114 as permitted sender) client-ip=209.167.231.114; user@domain.com; helo=mail03.connect.vmware.com ;domain.com ;
+Received: from mail168-va3 (localhost.localdomain [127.0.0.1]) by mail168-va3
+ (MessageSwitch) id 1398181164255330_13864; Tue, 22 Apr 2015 15:39:24 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.244])	by
+ mail168-domain.com (Postfix) with ESMTP id 34DF62C006E	for
+ <user@domain.com>; Tue, 22 Apr 2015 15:39:24 +0000 (UTC)
+Received: from mail03.connect.vmware.com (209.167.231.114) by
+ domain.com (10.7.99.19) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 22 Apr 2015 15:39:23 +0000
+DKIM-Signature: v=1; a=rsa-sha1; d=connect.vmware.com; s=dk; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1398181221;
+	h=From: VMware <vmwareteam@connect.vmware.com>
+	bh=WYNmQn4dHqmKtCRMUykQHohpWOg=;
+	b=bPVbKXorj+/oVxWqwrm8vgNqP+BLlHqCEpFW7d1SuZUrUGUrf52EUKfj0y+DbPtp
+	I8AAVzYdxnzye0ivE0SCrQ==;
+Received: from [10.4.1.10] ([10.4.1.10:46348] helo=P01INJECT010)	by
+ msm-mta06-tor6 (envelope-from <user@domain.com>)	(ecelerity
+ 3.5.4.38585 r(Platform:3.5.4.0)) with ESMTP	id 48/0F-27281-56D86535; Tue, 22
+ Apr 2015 11:40:21 -0400
+Message-ID: <24fc0db68c204a3b9b807e1258df021a@524>
+X-Binding: 524
+X-elqPod: 0x04D4AA276AEFAC548AF4C2541180280C6E4E16410A533B620AAC2EC8FC2601D8
+From: VMware <vmwareteam@connect.vmware.com>
+To: <user@domain.com>
+Reply-To: VMware <user@domain.com>
+Date: Tue, 22 Apr 2015 11:40:22 -0400
+Subject: Coming to a City Near You: VMware Desktop & App Virtualization
+ Seminars
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Coming to a City Near You: VMware Desktop & App Virtualization Seminars
+
+ <<link>>  VMware   Share On:        <<link>> Facebook          <<link>> Twitter   <<link>> LinkedIn          <<link>> Share via Email   <<link>> 
+
+VMware Tech Talk Live - Extend the Benefits of Desktop Application Virtualization with VMware Horizon 6  
+
+ <<link>>  
+
+Register Now     
+
+ <<link>>  
+
+Free Seminar
+8:30 a.m. – 11:50 a.m.   
+
+ <<link>>  
+
+ <<link>>  
+
+Visiting 35 cities in
+North America
+
+See full list below. 
+
+ <<link>>  
+
+On April 9th, VMware announced the next-generation of desktop and application virtualization with VMware® Horizon™ 6.
+
+Now we’re heading out on the road with our leading technical experts to bring you a first-hand look at the latest technology, which allows you to manage your desktops and applications in one unified workspace.
+
+Join us for this free, interactive half-day seminar to learn more about how VMware is changing the world of end-user computing and see demonstrations of the latest features in Horizon – enabling you to: 
+
+Deliver virtual desktops, RDS remote apps, packaged apps with ThinApp®, SaaS apps and even virtualized apps from Citrix, in a single platform – Horizon 6
+
+Leverage Virtual SAN™ as a cost effective solution for deploying VDI 
+
+Better manage VDI with vCenter™ Operations Manager for View and image management with VMware Mirage
+

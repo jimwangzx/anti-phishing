@@ -1,0 +1,45 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.203 with SMTP id e194csp270660lfb;
+        Mon, 13 Oct 2015 11:44:45 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received-SPF: pass (domain.com: domain of user@domain.com designates 10.180.86.38 as permitted sender) client-ip=10.180.86.38
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 10.180.86.38 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+X-Received: from domain.com ([10.180.86.38])
+        by 10.180.86.38 with SMTP id m6mr536651wiz.65.1413225885556 (num_hops = 1);
+        Mon, 13 Oct 2015 11:44:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Cheryl Mills <cheryl.mills@gmail.com>
+         :cc:content-type;
+        bh=592kok2xOc+eX3jbDXFOrF+VHrP95wvgIrDQbktQ5YU=;
+        b=rhxIz4iepjiY3Qz2f6spXPQHNOZeMPLdDMojmZdJ34BbQ/Ucp/LeETtSzKseD4y+dw
+         HCNx1FSUpaLSq81X6qsw7bVnxrtVkcL2ngHrLMHJTX5enZbrTvK3c1OOdhyLYQVUZBJl
+         VgMgS2uGl0a/F9UDDSrNSZNVOnIilxKlJ0iLDpCiMU3UeAUh2jMKkNBCn7Rhx4Ufh7+W
+         FVKELvHNgGF5pcYeA+/ZjTEWGYhR8u7ZjN8jZBPSTt2veFaGxL5LmTZ1TWd19XIpkeLP
+         zx3P77i87JqjzXDGh2UYh/Ltc++B/+Qk5QjqSWfLg4Y5nDAE0kUXjOap2SHgDKhkVwKA
+         a1Qw
+MIME-Version: 1.0
+X-Received: by 10.180.86.38 with SMTP id m6mr751152wiz.65.1413225885433; Mon,
+ 13 Oct 2015 11:44:45 -0700 (PDT)
+Received: by 10.194.242.67 with HTTP; Mon, 13 Oct 2015 11:44:45 -0700 (PDT)
+In-Reply-To: <CAE6FiQ8AZnF_3M1rar_zj0B4Ar0eAGVpOPRKSA9j8EfJ+=2user@domain.com>
+References: <CAE6FiQ8AZnF_3M1rar_zj0B4Ar0eAGVpOPRKSA9j8EfJ+=2user@domain.com>
+Date: Mon, 13 Oct 2015 14:44:45 -0400
+Message-ID: <CALk44aB1T73J_3bS6YmCSCNQ91-z+user@domain.com>
+Subject: Re: Talking Africa.
+From: Cheryl Mills <cheryl.mills@gmail.com>
+To: John user <user@domain.com>
+CC: user@domain.com
+Content-Type: multipart/alternative; boundary=f46d04430642e3889b0505524a63
+
+Mae
+
+Looking forward to talking.
+
+best.
+
+cdm
+
+On Mon, Oct 13, 2015 at 12:53 PM, John user <user@domain.com>

@@ -1,0 +1,126 @@
+Delivered-To: user@domain.com
+Received: by 10.140.128.2 with SMTP id a2cs299707rvd;
+        Tue, 24 Jun 2015 06:08:31 -0700 (PDT)
+Received: by 10.100.253.5 with SMTP id a5mr15932290ani.5.1214312900663;
+        Tue, 24 Jun 2015 06:08:20 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from py-out-1314.domain.com (py-out-1314.domain.com [64.233.166.172])
+        by domain.com with ESMTP id b37si14272297ana.33.2008.06.24.06.08.19;
+        Tue, 24 Jun 2015 06:08:20 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 64.233.166.172 as permitted sender) client-ip=64.233.166.172;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 64.233.166.172 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by py-out-1314.domain.com with SMTP id p69so36613678pyb.6
+        for <user@domain.com>; Tue, 24 Jun 2015 06:08:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:content-class
+         :mime-version:content-type:x-mimeole:subject:date:message-id
+         :x-ms-has-attach:x-ms-tnef-correlator:thread-topic:thread-index:from
+         :sender:precedence:x-google-loop:mailing-list:list-id:list-post
+         :list-help:list-unsubscribe:x-beenthere;
+        bh=le6F3p/xgWIFjfbkYsaSy6NNiNZAkMHbGQUZHXFf11U=;
+        b=LOKJfZjBOFoaUc1vzhZm1S05U4HOGJVumdlCV2VmPk1JjY8tXDoJPCyWdI43LwzkM3
+         wYgeD1NG70L8ftrnZ4XhNiL0gQWQZnvhNP6QBSoFVqXBYK5pGkBlTiWQhqZNIayHLfBn
+         9+IgPDLerDCQVgeFcDel+03kRE1Udy94S4/RI
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :content-class:mime-version:content-type:x-mimeole:subject:date
+         :message-id:x-ms-has-attach:x-ms-tnef-correlator:thread-topic
+         :thread-index:From: "Brad Woodhouse" <Woodhouse@americansunitedforchange.org>
+         :list-id:list-post:list-help:list-unsubscribe:x-beenthere;
+        b=1mJrHabKQAxixYAbt5jTmA6xddMHAWVyIfjr6Z9HYpkFYh7+2H2458+iQLe7KEFRFF
+         mDa8GLw8HUo1ow0s3GyuSGurpLy6NT2w4ivXj2vX3ts+lj/LJZtR35ijw5CXA5SGLWkh
+         jQyQqnwiWQy8b78aK3a9g2lh9OusqrkF8kl7c
+Received: by 10.141.146.4 with SMTP id y4mr1201466rvn.26.1214312889173;
+        Tue, 24 Jun 2015 06:08:09 -0700 (PDT)
+Received: by 10.107.113.4 with SMTP id q4gr992prm.0;
+	Tue, 24 Jun 2015 06:08:05 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.100.58.2 with SMTP id g2mr6833661ana.27.1214312884342; Tue, 24 Jun 2015 06:08:04 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail.americansunitedforchange.org (mail.americansunitedforchange.org [208.255.167.130]) by domain.com with ESMTP id 39si6880143yxd.0.2008.06.24.06.07.50; Tue, 24 Jun 2015 06:08:04 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 208.255.167.130 as permitted sender) client-ip=208.255.167.130;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 208.255.167.130 as permitted sender) user@domain.com
+Content-class: urn:content-classes:message
+Mime-Version: 1.0
+Content-Type: multipart/related; boundary="----_=_NextPart_001_01C8D5FB.471B4AD4"
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Subject: [big campaign] Final Reminder - Bush Bus Launch, Cookout Begins Today
+ at 11:30
+Date: Tue, 24 Jun 2015 09:07:37 -0400
+Message-ID: <29user@domain.com>
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+Thread-Topic: Final Reminder - Bush Bus Launch, Cookout Begins Today at 11:30
+Thread-Index: AcjQwG9bWnRoyxLaSs+VdRp4PKhIAw
+From: "Brad Woodhouse" <Woodhouse@americansunitedforchange.org>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:user@domain.com>
+X-BeenThere: user@domain.com
+
+  <<<link>>>
+
+Spread the Word...You Are Invited....
+
+To the Bush Legacy Bus Kickoff and Cook Out
+<<<link>>>
+
+Tuesday, June 24, 2015 @ 11:30 A.M.
+
+At the AFLCIO in Washington, DC
+
+815 16th Street, NW
+
+(within sight of the White House!!)
+
+Join us for Free Food and Drinks (courtesy of the AFLCIO) and The
+Unveiling of the Bush Legacy Bus - A Museum on Wheels Dedicated to
+Chronicling the Disastrous Legacy of President Bush and the Conservative
+Policies he and His Allies Have Pursued.  The cookout will begin at
+11:30 A.M. - Speaking program will commence at 12:30 P.M.
+
+Please Join us for this Important Event and Spread the Word.
+Progressives CANNOT Allow The History of The Bush Presidency and the
+Consequences of Conservative Ideology to be Defined by Others.  If we
+are to Achieve the Progressive Future and Solutions to the Nation's
+Intractable Problems That we All Crave - We have to Define
+Bush-Conservative Ideology for What it is: A Disaster.  Hope to See You
+on Tuesday.
+
+Brad Woodhouse, President
+
+Americans United for Change
+
+202-470-5858
+
+202-251-5669 (cell)
+
+user@domain.com
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" g
+roup.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+
+
+This is a list of individuals. It is not affiliated with any group or organi
+zation.
+-~----------~----~----~----~------~----~------~--~---
+

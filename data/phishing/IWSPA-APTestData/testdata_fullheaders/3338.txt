@@ -1,0 +1,39 @@
+Received: from relay.Organization.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 5 Feb 2015 13:23:45 +0100
+Received: from domain.com (unknown [192.168.100.50])	by
+ relay.Organization.com (Postfix) with ESMTP id BFD54600EA	for
+ <user@domain.com>; Thu,  5 Feb 2015 12:03:04 +0000 (GMT)
+Received: by domain.com (Postfix)	id A404D2BC0F1; Thu,  5 Feb 2015 
+ 13:23:45 +0100 (CET)
+Delivered-To: user@domain.com
+Received: from ALESSANDROHT (unknown [192.168.1.209])	(using TLSv1 with cipher
+ AES256-SHA (256/256 bits))	(No client certificate requested)	by
+ domain.com (Postfix) with ESMTPSA id 8A1DE2BC03E;	Thu,  5 Feb 2015 
+ 13:23:45 +0100 (CET)
+From: Alessandro Scarafile <a.scarafile@Organization.com>
+To: 'Eduardo Pardo' <user@domain.com>
+CC: 'Daniele Milan' <user@domain.com>, 'Marco Bettini'
+	<user@domain.com>, 'Alex Velasco' <user@domain.com>,
+	=?UTF-8?Q?'Sergio_Rodriguez-Sol=C3=ADs_y_Guerre?= =?UTF-8?Q?ro'?
+	<user@domain.com>
+References: <1user@domain.com> <48user@domain.com>
+In-Reply-To: <48user@domain.com>
+Subject: R: Colombia MDNP status pre follow up
+Date: Thu, 5 Feb 2015 13:24:03 +0100
+Organization: Hacking Team
+Message-ID: <00f701d0413e$a104d290$e30e77b0$@Organization.com>
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQMUvPyFrWaxDVl0/Kf/7sp8BQPk7QGYEJPvmkxCmYA
+Content-Language: it
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+X-libpst-forensic-sender: /O=Organization/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=ALESSANDRO SCARAFILED45
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-2135562172_-_-"
+
+Eduardo,can you tell me if the VPS to be replaced was assigned by HT? If yes, can you send me the IP address? Thank you,Alessandro Da: Eduardo Pardo [mailto:user@domain.com] Inviato: giovedì 5 febbraio 2015 13:21A: Alessandro ScarafileCc: Daniele Milan; Marco Bettini; Alex Velasco; Sergio Rodriguez-Solís y GuerreroOggetto: Re: Colombia MDNP status pre follow up Ciao guys, I would need a new VPS for MDNP because ROBOTEC hasn't found the password. Could you please provide one?Thank you,Eduardo PardoField Application EngineerHacking Team email: user@domain.com: +39 3666285429Mobile: +57 3003671760El 4/02/2015, a las 5:35 p.m., Alessandro Scarafile <user@domain.com> escribió:Sure Eduardo.If needed we can direcly provide another VPS, replacing the previous one.Let me know if you need a new system to configure.Alessandro-- Alessandro Scarafile Field Application Engineer Sent from my mobile. From: Alessandro Scarafile <a.scarafile@Organization.com>

@@ -1,0 +1,54 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.94 with SMTP id o91csp692924lfi;
+        Tue, 21 Apr 2015 09:40:56 -0700 (PDT)
+X-Received: by 10.68.210.46 with SMTP id mr14mr38601104pbc.73.1429634456030;
+        Tue, 21 Apr 2015 09:40:56 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mx0a-0016domain.com (mx0a-0016domain.com. [67.231.148.137])
+        by domain.com with ESMTPS id w15si3655156pbt.81.2015.04.21.09.40.55
+        for <user@domain.com>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 21 Apr 2015 09:40:56 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 67.231.148.137 as permitted sender) client-ip=67.231.148.137;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 67.231.148.137 as permitted sender) user@domain.com
+Received: from pps.filterd (domain.com [127.0.0.1])
+	by mx0a-0016domain.com (8.14.5/8.14.5) with SMTP id t3LGd5X0019377
+	for <user@domain.com>; Tue, 21 Apr 2015 09:40:54 -0700
+Received: from dc1svmhub02.perkinscoie.root.loc (198-22-100-254.perkinscoie.com [198.22.100.254] (may be forged))
+	by mx0a-0016domain.com with ESMTP id 1tw96b1u6d-1
+	(version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=FAIL)
+	for <user@domain.com>; Tue, 21 Apr 2015 09:40:54 -0700
+Received: from dc2svmhub01.perkinscoie.root.loc (10.170.0.63) by
+ dc1svmhub02.perkinscoie.root.loc (10.168.0.180) with Microsoft SMTP Server
+ (TLS) id 8.3.279.5; Tue, 21 Apr 2015 09:40:53 -0700
+Received: from dc2mail21.perkinscoie.root.loc ([169.254.1.190]) by
+ dc2svmhub01.perkinscoie.root.loc ([10.170.0.63]) with mapi; Tue, 21 Apr 2015 
+ 11:40:53 -0500
+From: "Patterson, Mark A.  (Perkins Coie)" <MPatterson@perkinscoie.com>
+To: "User" <user@domain.com>
+Date: Tue, 21 Apr 2015 11:40:52 -0500
+Subject: Is there a good time for me to call you this afternoon?
+Thread-Topic: Is there a good time for me to call you this afternoon?
+Thread-Index: AdB8Ue5oiIgpm49nT2aLH5gvOtUKsg
+Message-ID: <7742user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10432:5.13.68,1.0.33,0.0.0000
+ definitions=2015-04-21_06:2015-04-21,2015-04-21,1970-01-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0 suspectscore=0 phishscore=0
+ adultscore=0 bulkscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=7.0.1-1402240000 definitions=main-1504210175
+
+Sent from my iPhone
+
+NOTICE:  This communication may contain privileged or other confidential in
+formation. If you have received it in error, please advise the sender by re
+ply email and immediately delete the message and any attachments without co
+pying or disclosing the contents. Thank you.

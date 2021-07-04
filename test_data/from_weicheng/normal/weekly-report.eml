@@ -1,0 +1,139 @@
+Delivered-To: weicheng@edison.tech
+Received: by 2002:a0c:aa0d:0:0:0:0:0 with SMTP id d13csp1681363qvb;
+        Sun, 9 Aug 2020 17:39:08 -0700 (PDT)
+X-Received: by 2002:a17:902:d907:: with SMTP id c7mr22788696plz.132.1597019948540;
+        Sun, 09 Aug 2020 17:39:08 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1597019948; cv=none;
+        d=google.com; s=arc-20160816;
+        b=jLE/ZeS0lMxkwTCodnzNgiHuCbBL55h+AGC5PxEeY3fOGyoDYkaRjiSCz2kaQB1Iod
+         RIJ7XwIjuCEMJOaZr247e4ZYLOpBpew8DkCYv50NUH5fzMRdJ8B7yqpI+FL0qcktTmM/
+         I2qWjtdNX87Ni3GHiRo5NM0FV9R68cBYKDH9pbfi2DsXkn6ihf70ehGAHbTZpqkCIsfx
+         Wuz8U9L/BEc4yK7Mh+qW4cmK2S7BK5tXhfbPSkPyjCtrmCt2nOHUsfjMYcGqz3g6fI8i
+         Lublb78WjH1qvfQgmChE6AFazpOqo2Ntv6q/rwavzKhFOIGjQYexCXkTfQfYGla0LuF1
+         5KMw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:message-id:cc:to:from:date:dkim-signature;
+        bh=l6hwHRSGul1zF9V+IrpZRAqv/PsAjKFIvr/NXN6Eoqw=;
+        b=jQh7AGAQwxaPnEQWfEJQAXoBrWePEmMy883qZ+VdzlecrA/BSvY3dzcGMCErWvKWp/
+         VgVfaHtuVLHEBMAQaVbeVNJDqqiPxkbFNJrxpy5Kj7WNVnJn5q/E/BWtyIPYf6fcFHcI
+         tZWAGjwu4Iy3uI8lu9NQ3v7bPKaWSlSFSadI4nLO8umNEYQ1/RQOsYABjyKVsGuuWS2M
+         yhTISDsUOLRNQKIRI8MG6ez8Cx6nwsO8Bmxaqh++jywaSEZIDytIdoq1pZHf+5FHkfG6
+         J4rexU73m18IjKc4Q7xFMgogGjQDwDq69SAcj/K1YnVnp81NKvvMabHNTYA8+66fOqmu
+         XsKw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@edison-tech.20150623.gappssmtp.com header.s=20150623 header.b=VQtlhuxZ;
+       spf=neutral (google.com: 209.85.220.41 is neither permitted nor denied by best guess record for domain of liang@edison.tech) smtp.mailfrom=liang@edison.tech
+Return-Path: <liang@edison.tech>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g22sor18275429pfi.52.2020.08.09.17.39.08
+        for <weicheng@edison.tech>
+        (Google Transport Security);
+        Sun, 09 Aug 2020 17:39:08 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.220.41 is neither permitted nor denied by best guess record for domain of liang@edison.tech) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@edison-tech.20150623.gappssmtp.com header.s=20150623 header.b=VQtlhuxZ;
+       spf=neutral (google.com: 209.85.220.41 is neither permitted nor denied by best guess record for domain of liang@edison.tech) smtp.mailfrom=liang@edison.tech
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=edison-tech.20150623.gappssmtp.com; s=20150623;
+        h=date:from:to:cc:message-id:subject:mime-version;
+        bh=l6hwHRSGul1zF9V+IrpZRAqv/PsAjKFIvr/NXN6Eoqw=;
+        b=VQtlhuxZUJteQvkc2VFAy8tksylDO8TVyMqoXMEAV5U47fwJOa+xogi/JroeoM4R9v
+         07J41V+QIC2VKmwII4kvRz5dIPrbm1KpbfyiAZYIfSqTUnQoOoKxzmlZxDEA/vgRHpnt
+         /vHCNsqe4y54XuqqQ4iYlHAbmchacuKySHgGIFDC3P43kZjcCIfImZrEnLWy5yJfd/4p
+         brWnfkb9da11dcZ8fVAQxbQ7gDoboDgrrni4zU7jplXOcvOzZm8VaDUxoEEA/a31yMAz
+         av9MMg2ti54lAUu+d6BCCgZ/YwnO/rNllEnLezakSyZZKRR7UAhDe/37afFTjvRcX4g0
+         8bRA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:date:from:to:cc:message-id:subject:mime-version;
+        bh=l6hwHRSGul1zF9V+IrpZRAqv/PsAjKFIvr/NXN6Eoqw=;
+        b=FzB989JpQ08uFkKbpvHzzdK+Zymu1rkXKbiZoOKmC/GBGu2xVJy34i6GqjU3QpOQqT
+         RyqZVNH5PSejsJOGST9zQ1D+oE6a6ihjIUc3oRK6W/ZZhHkRw5TWn+GqwsiAPpB0wRQR
+         yl/6LpYxZJj04Cc5sBSjDYDT5TL50MJnncizIjS46qG3zUYHy7wPVuruoF8wBcigFMf2
+         XzJyNPV8V1W2DFX2pFA9lsjuTXktPjhR20FawnBhew2ghe93RslgDy0byze4MDNpL7gb
+         xacW08zzgjkgeqJx8eFPkuf8LGpH+bt16i3gjAHLU4M5z8ZVo+2+IQc0YcuCqNwfCPmP
+         jYVw==
+X-Gm-Message-State: AOAM531YBLSZ6brCQ+p21fOuEDrYxS7Jw2VqU+o2p/Qc3fVDziy8OiRv
+	PZyL9jH7h0PhhzEF5W2iOEBMQd7AchiU8A==
+X-Google-Smtp-Source: ABdhPJznYD62sixArSVkAxDacUPkM/WHUac9PZbOUqtvwBrLkzpI14XaOk5GlJut0gUkPQbNwq7gpQ==
+X-Received: by 2002:a05:6a00:44:: with SMTP id i4mr24188791pfk.276.1597019947738;
+        Sun, 09 Aug 2020 17:39:07 -0700 (PDT)
+Return-Path: <liang@edison.tech>
+Received: from wangliangdeMacBook-Pro.local ([2001:19f0:7001:235:5400:2ff:fe83:666b])
+        by smtp.gmail.com with ESMTPSA id o17sm10261488pgn.73.2020.08.09.17.39.05
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 09 Aug 2020 17:39:07 -0700 (PDT)
+Date: Mon, 10 Aug 2020 08:39:04 +0800
+From: Liang Wang <liang@edison.tech>
+To: Weicheng Qian <weicheng@edison.tech>
+Cc: Jun Wang <jun@edison.tech>, Shixi Zheng <shixi@edison.tech>
+Message-ID: <b272b464-d58b-408a-bbc7-69f15545d829@edison.tech>
+Subject: =?utf-8?Q?=E5=91=A8=E6=8A=A5(2020/8/3_?= -- 2020/8/7)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="5f309728_327b23c6_8167"
+
+--5f309728_327b23c6_8167
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+     =20
+ =20
+ =20
+1. =E4=B8=BB=E8=A6=81=E8=BF=9B=E8=A1=8C Verify Sender =E6=89=B9=E9=87=8F=E6=
+=A3=80=E6=B5=8B=E6=8E=A5=E5=8F=A3=E7=9A=84=E5=BC=80=E5=8F=91=E3=80=81=E4=BF=
+=AE=E6=94=B9=E3=80=81=E8=B0=83=E8=AF=95
+ =20
+2. =E5=85=B6=E4=BB=96=EF=BC=9A=E5=92=8C andoid =E5=9B=A2=E9=98=9F=E5=88=86=
+=E4=BA=AB=E5=85=B3=E4=BA=8E Premium =46eatures=E3=80=81=E6=8E=92=E6=9F=A5=
+ paywall, yearly =E4=BA=A7=E5=93=81=E4=B8=8D=E6=98=BE=E7=A4=BA=E9=97=AE=E9=
+=A2=98
+ =20
+ =20
+TODO:
+ =20
+ =20
+1. =E6=A0=B9=E6=8D=AE=E8=AE=BE=E8=AE=A1=E8=B0=83=E8=AF=95=E6=89=B9=E9=87=8F=
+=E6=8E=A5=E5=8F=A3=E5=92=8C Nudge card
+ =20
+2. andoird security =E7=9B=B8=E5=85=B3=E5=86=85=E5=AE=B9=E7=9A=84=E5=BC=80=
+=E5=8F=91
+ =20
+ =20
+
+ =20
+ =20
+Liang
+ =20
+Edison
+ =20
+Software Engineer
+ =20
+Sent from  EdisonMail (https://www.edison.tech/), the best free email app=
+ for work
+ =20
+ =20
+     
+--5f309728_327b23c6_8167
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<br><div><div><font size=3D=224=22>1. =E4=B8=BB=E8=A6=81=E8=BF=9B=E8=A1=8C=
+ Verify Sender =E6=89=B9=E9=87=8F=E6=A3=80=E6=B5=8B=E6=8E=A5=E5=8F=A3=E7=9A=
+=84=E5=BC=80=E5=8F=91=E3=80=81=E4=BF=AE=E6=94=B9=E3=80=81=E8=B0=83=E8=AF=95=
+</font></div><div><font size=3D=224=22>2. =E5=85=B6=E4=BB=96=EF=BC=9A=E5=92=
+=8C andoid =E5=9B=A2=E9=98=9F=E5=88=86=E4=BA=AB=E5=85=B3=E4=BA=8E Premium=
+ =46eatures=E3=80=81=E6=8E=92=E6=9F=A5 paywall, yearly =E4=BA=A7=E5=93=81=
+=E4=B8=8D=E6=98=BE=E7=A4=BA=E9=97=AE=E9=A2=98</font></div><br><div><font =
+size=3D=224=22>TODO:</font></div><br><div><font size=3D=224=22>1. =E6=A0=B9=
+=E6=8D=AE=E8=AE=BE=E8=AE=A1=E8=B0=83=E8=AF=95=E6=89=B9=E9=87=8F=E6=8E=A5=E5=
+=8F=A3=E5=92=8C Nudge card</font></div><div><font size=3D=224=22>2. andoi=
+rd security =E7=9B=B8=E5=85=B3=E5=86=85=E5=AE=B9=E7=9A=84=E5=BC=80=E5=8F=91=
+</font></div></div><div><br><edo-signature id=3D=22initial=22><div><div>L=
+iang</div><div>Edison</div><div>Software Engineer</div><div>Sent from <a =
+href=3D=22https://www.edison.tech/=22 title=3D=22https://www.edison.tech/=
+=22>EdisonMail</a>, the best free email app for work</div></div></edo-sig=
+nature></div>
+--5f309728_327b23c6_8167--
+

@@ -1,0 +1,94 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp1210323lfr;
+        Fri, 23 Oct 2015 10:08:00 -0700 (PDT)
+X-Received: by 10.112.155.232 with SMTP id vz8mr11988624lbb.20.1445620080287;
+        Fri, 23 Oct 2015 10:08:00 -0700 (PDT)
+Return-Path: <speechdrafts+user@domain.com>
+Received: from mail-lf0-domain.com (mail-lf0-domain.com. [2a00:1450:4010:c07::246])
+        by domain.com with ESMTPS id i70si11494980lfg.167.2015.10.23.10.08.00
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 23 Oct 2015 10:08:00 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of speechdrafts+user@domain.com designates 2a00:1450:4010:c07::246 as permitted sender) client-ip=2a00:1450:4010:c07::246;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of speechdrafts+user@domain.com designates 2a00:1450:4010:c07::246 as permitted sender) smtp.mailfrom=speechdrafts+user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lf0-domain.com with SMTP id 67sf16263517lfu.2
+        for <user@domain.com>; Fri, 23 Oct 2015 10:08:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:date:message-id:subject:From: Dan Schwerin <dschwerin@hillaryclinton.com>
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-unsubscribe;
+        bh=ZHKsO9wX7JlMfkA3tzrvelrvLtxFsTRtKuNCLJFxZUA=;
+        b=PNMla9B159cmzdUpU0SubLWUXpCB+HN+8ZgqE+NkJL+Xy8qL7kbCxwnPr6mQdQ7DMJ
+         7/duwOXlq7/kMhaIdG5+oLlqzELFlRCkkQ0KMethBNgiD8hOfCu7vhf4JTYWJPOZ5F6o
+         jie0vSau0To3VbT8GiTl7QLUkvaw2VZGldXCA
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:date:message-id:subject:from
+         :to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=ZHKsO9wX7JlMfkA3tzrvelrvLtxFsTRtKuNCLJFxZUA=;
+        b=KkC9Vwuz24WVDt26ILsZBzNvASH987LShB+WYU0Vg3rPfnh+HEQpoEzf1ZEEg7wAEg
+         9yDEQ1y/H1LZM9WzUm5mXWa1OiShtj0jrPooEXVixLyhgpWpol2SltRw/ESLPtUouw5e
+         HVxYgS41q71Lumr3pKO+vzh7HBMOipDIdtd9T50Q7+9WR0gYwheLQI1uqcuCcpQ5rS66
+         Z+ul7dr+W10NNeLUQ0e1qTKhLlEUoT+HIqQwXyAjLG/4pXZSV2tMNq3ZnmC/zs3/f+Kv
+         QhE1b9fHOTb9RLgtJqxQMCVuq+fV5GvHm4JA2Jrph7QQHcOfzFSVaEUaeUtDDJfAvyQ1
+         55Mw
+Sender: user@domain.com
+X-Gm-Message-State: ALoCoQlK0hAxhtlEwKYLR+TgCNdxpkmFugVxZzOnI3ckLTlNztSJ0kEUTxOnTInRIcZGup4Z5iME
+X-Received: by 10.180.86.227 with SMTP id s3mr1116341wiz.0.1445620080143;
+        Fri, 23 Oct 2015 10:08:00 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.180.206.66 with SMTP id lm2ls178000wic.49.canary; Fri, 23 Oct
+ 2015 10:07:59 -0700 (PDT)
+X-Received: by 10.194.76.178 with SMTP id l18mr5928022wjw.75.1445620079724;
+        Fri, 23 Oct 2015 10:07:59 -0700 (PDT)
+Received: from mail-wi0-domain.com (mail-wi0-domain.com. [2a00:1450:400c:c05::22e])
+        by domain.com with ESMTPS id lq4si6233856wic.28.2015.10.23.10.07.59
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 23 Oct 2015 10:07:59 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2a00:1450:400c:c05::22e as permitted sender) client-ip=2a00:1450:400c:c05::22e;
+Received: by wicll6 with SMTP id ll6so40290180wic.1
+        for <user@domain.com>; Fri, 23 Oct 2015 10:07:59 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.180.211.109 with SMTP id nb13mr5618262wic.52.1445620079498;
+ Fri, 23 Oct 2015 10:07:59 -0700 (PDT)
+Received: by 10.194.94.230 with HTTP; Fri, 23 Oct 2015 10:07:59 -0700 (PDT)
+Date: Fri, 23 Oct 2015 13:07:59 -0400
+Message-ID: <user@domain.com>
+Subject: DRAFT: JJ Dinner - Revised
+From: Dan Schwerin <dschwerin@hillaryclinton.com>
+To: Speech Drafts <user@domain.com>, 
+ Matt Paul <user@domain.com>, 
+ Molly Scherrman <user@domain.com>, 
+ Lily Adams <user@domain.com>
+CC: Megan Rooney <user@domain.com>
+Content-Type: multipart/mixed; boundary=001a11c3819e51e45a0522c8a725
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: domain.com;       spf=pass (domain.com:
+ domain of user@domain.com designates 2a00:1450:400c:c05::22e as
+ permitted sender) user@domain.com;       dkim=pass
+ user@domain.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list user@domain.com; contact speechdrafts+user@domain.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: user@domain.com
+X-Google-Group-Id: 112021531214
+List-Post: <<<link>>>,
+ <mailto:user@domain.com>
+List-Help: <<<link>>>,
+ <mailto:speechdrafts+user@domain.com>
+List-Archive: <<<link>>>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+user@domain.com>,
+ <<<link>>>
+
+All, here's latest JJ draft. Would love your thoughts this afternoon.
+Thanks
+Dan

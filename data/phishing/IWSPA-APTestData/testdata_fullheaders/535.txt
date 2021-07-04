@@ -1,0 +1,84 @@
+Delivered-To: user@domain.com
+Received: by 10.100.139.5 with SMTP id m5cs222852and;
+        Fri, 8 Aug 2015 11:01:52 -0700 (PDT)
+Received: by 10.214.243.18 with SMTP id q18mr3959103qah.40.1218218512512;
+        Fri, 08 Aug 2015 11:01:52 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-gx0-domain.com (mail-gx0-domain.com [209.85.217.56])
+        by domain.com with ESMTP id 4si1730732yxj.7.2008.08.08.11.01.51;
+        Fri, 08 Aug 2015 11:01:52 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 209.85.217.56 as permitted sender) client-ip=209.85.217.56;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 209.85.217.56 as permitted sender) user@domain.com; dkim=pass (test mode) user@domain.com
+Received: by mail-gx0-domain.com with SMTP id 16so9761110gxk.10
+        for <user@domain.com>; Fri, 08 Aug 2015 11:01:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:message-id:date:From: "Justin Ruben" <justin@moveon.org>
+         :mime-version:content-type:references:sender:precedence
+         :x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere;
+        bh=Zptur4yjX1uq2tGSJ9/J3mxtxi5nBxbv6Dq+LnXMEFQ=;
+        b=GvXtfB0Iti+nWsoLYXR5+vv/lLJeGA8qf6tJ5P0pTM6IVvLWybWmz1g7UI/3yU8r9c
+         GTIMpBDx5x2Xr+cjfSvJlU0Guu2iuBRxfYjfyzMvTbkkQlpBfaju+aOAqhJnvkQwQ9ym
+         tyhFm87I1EIk8k8xGesnbZ7h9n9MUvn2m0wUE
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :message-id:date:From: "Justin Ruben" <justin@moveon.org>
+         :content-type:references:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere;
+        b=k9/F7rZZlbvV2y24vHHR65EpBwpeIOUZwjvoHFVigQSJc3B0VGSTjhhGvWNxbKiug6
+         gXf4nFSjKlkBbBXALfPXMYSKiMHf4vYE37s3fsFiXz5yQ0Dx+TzUHwIqmpXFL16GpufX
+         xcEuaj6rtAs5U8EUthD9oOGMch/AMPVY0waE4
+Received: by 10.142.83.4 with SMTP id g4mr185733wfb.7.1218218505568;
+        Fri, 08 Aug 2015 11:01:45 -0700 (PDT)
+Received: by 10.44.4.35 with SMTP id 35gr1507hsd.0;
+	Fri, 08 Aug 2015 11:01:32 -0700 (PDT)
+X-Sender: user@domain.com
+X-Apparently-To: user@domain.com
+Received: by 10.215.41.20 with SMTP id t20mr5442838qaj.17.1218218491478; Fri, 08 Aug 2015 11:01:31 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from yx-out-1718.domain.com ([172.21.16.4]) by domain.com with ESMTP id 7si3201368yxg.0.2008.08.08.11.01.31; Fri, 08 Aug 2015 11:01:31 -0700 (PDT)
+Received-SPF: neutral (domain.com: 172.21.16.4 is neither permitted nor denied by domain of user@domain.com) client-ip=172.21.16.4;
+Authentication-Results: domain.com; spf=neutral (domain.com: 172.21.16.4 is neither permitted nor denied by domain of user@domain.com) user@domain.com
+Received: by yx-out-1718.domain.com with SMTP id 4so231849yxp.34 for <user@domain.com>; Fri, 08 Aug 2015 11:01:31 -0700 (PDT)
+Received: by 10.150.204.12 with SMTP id b12mr7644740ybg.245.1218218490538; Fri, 08 Aug 2015 11:01:30 -0700 (PDT)
+Received: by 10.150.230.2 with HTTP; Fri, 8 Aug 2015 11:01:30 -0700 (PDT)
+Message-ID: <606user@domain.com>
+Date: Fri, 8 Aug 2015 13:01:30 -0500
+From: "Justin Ruben" <justin@moveon.org>
+To: user@domain.com
+Subject: [big campaign] Re: McBush visuals for TV
+CC: user@domain.com
+In-Reply-To: <004501c8f97f$c5ee7100$51cb5300$@com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_72612_5984389.1218218490510"
+References: <004501c8f97f$c5ee7100$51cb5300$@com>
+Sender: user@domain.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list user@domain.com;
+	contact bigcampaign+user@domain.com
+List-Id: <domain.com>
+List-Post: <mailto:user@domain.com>
+List-Help: <mailto:bigcampaign+user@domain.com>
+List-Unsubscribe: <<<link>>>,
+	<mailto:bigcampaign+user@domain.com>
+X-BeenThere: user@domain.com
+
+We developed out a full guide and set of materials for folks to give our
+Pepsi Challenge-style Bush-McCain
+challenge<<<link>>>as a quiz on the
+street. (key message - you can't actually tell them apart)
+
+Earlier in the summer we tried having folks do it the day before McCain mad
+e
+an appearance somewhere. We also had folks do it all over the country.
+Earned media results were mixed. but it's kinda fun. and the environment ma
+y
+have changed.
+
+On Fri, Aug 8, 2015 at 12:54 PM, Jason Salzman <

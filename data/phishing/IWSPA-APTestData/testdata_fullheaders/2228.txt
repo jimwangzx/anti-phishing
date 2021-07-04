@@ -1,0 +1,57 @@
+Delivered-To: user@domain.com
+Received: by 10.64.48.201 with SMTP id o9csp319893ien;
+        Thu, 6 Sep 2015 05:30:20 -0700 (PDT)
+Received: by 10.236.108.202 with SMTP id q50mr1572049yhg.6.1346934619577;
+        Thu, 06 Sep 2015 05:30:19 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [8.21.238.6])
+        by domain.com with ESMTP id g5si715682ani.22.2012.09.06.05.30.18;
+        Thu, 06 Sep 2015 05:30:19 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 8.21.238.6 as permitted sender) client-ip=8.21.238.6;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of user@domain.com designates 8.21.238.6 as permitted sender) user@domain.com; dkim=pass user@domain.com
+Return-Path: <user@domain.com>
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=ngpweb2; d=domain.com;
+	h=DKIM-Signature:X-MSFBL:Received:X-CampaignID:X-BroadcastID:X-ContactID:X-Binding:Sender:List-Unsubscribe:Reply-To:From: "John Douglass " <info@johndouglassforcongress.com>
+	b=jNSDTsHhH2vAdxp+3e4lwiux4tl384dbIcaJ81s3hk1lmNYb41e3urj3Z+CLZSou
+	w5bzK9luGizi+i/8RlkcjQ
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb1; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1346934467;
+	h=From: "John Douglass " <info@johndouglassforcongress.com>
+	bh=DeA5mQJ89T4tDIdp8JV+z3P0sbE=;
+	b=o/qrV/GHf85JsmXIgYluwHI6W4Brn0h4ZZVaZkAnm0CfFbDmN5zIZtimSllTbMS+
+	BpmnAdyrXHNmlZVf9Ut89Q==;
+X-MSFBL: am9obi5wb2Rlc3RhQGdtYWlsLmNvbUBtYWlsb3V0MTMyQGRlZmF1bHRAYm91bmNl
+	XzgwMDIxNC0zODQxLTU5MTA4NjUzLTg5NTgzNzFfVA
+Received: from [10.0.1.53] ([10.0.1.53:3037] helo=TIAPP02B)
+	by domain.com (envelope-from <user@domain.com>)
+	(ecelerity 3.3.2.44647 r(44647)) with ESMTP
+	id 1C/D5-17662-3C698405; Thu, 06 Sep 2015 08:27:47 -0400
+X-CampaignID: 3841
+X-BroadcastID: 800214
+X-ContactID: 8958371
+X-Binding: mailout132
+Sender: "John Douglass " <user@domain.com>
+List-Unsubscribe: <<<link>>>
+Reply-To: user@domain.com
+From: "John Douglass " <info@johndouglassforcongress.com>
+To: user@domain.com
+Message-ID: <user@domain.com>
+Date: Thu, 06 Sep 2015 08:30:15 -0400
+Subject: Re: before the speech...
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----8957AD6461024B2DB96C232F31818E99"
+
+John --=A0
+
+President Obama goes on stage in just a few hours and we are just a cou
+ple hundred dollars short of our big grassroots fundraising goal=2E Wil
+l you help let him know that he can count on Victory in Virginia, from 
+the bottom up?=A0Donate before it's too late=2E
+
+<<link>>
+nt=3D5=2E00
+
+-- John=A0
+

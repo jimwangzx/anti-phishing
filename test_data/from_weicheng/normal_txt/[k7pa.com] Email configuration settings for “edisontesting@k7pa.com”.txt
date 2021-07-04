@@ -1,0 +1,77 @@
+Email configuration settings for “edisontesting@k7pa.com”.
+
+
+Mail Client Manual Settings
+---------------------------
+
+Secure SSL/TLS Settings (Recommended)
+
+Username:
+
+edisontesting@k7pa.com
+
+Password:
+
+Use the email account’s password.
+
+Incoming Server:
+
+p3plcpnl0742.prod.phx3.secureserver.net
+
+  * IMAP Port: 993
+
+  * POP3 Port: 995
+
+Outgoing Server:
+
+p3plcpnl0742.prod.phx3.secureserver.net
+
+  * SMTP Port: 465
+
+IMAP, POP3, and SMTP require authentication.
+
+Non-SSL Settings (NOT Recommended)
+
+Username:
+
+edisontesting@k7pa.com
+
+Password:
+
+Use the email account’s password.
+
+Incoming Server:
+
+mail.k7pa.com
+
+  * IMAP Port: 143
+
+  * POP3 Port: 110
+
+Outgoing Server:
+
+mail.k7pa.com
+
+  * SMTP Port: 587
+
+IMAP, POP3, and SMTP require authentication.
+
+A .mobileconfig file for use with iOS for iPhone/iPad/iPod and MacOS® Mail.app® for Mountain Lion (10.8+) is attached to this message.
+
+This notice is the result of a request made by a computer with the IP address of “174.17.230.105” through the “cpanel” service on the server.
+
+A reverse DNS lookup on the remote IP address returned the host name “174-17-230-105.phnx.qwest.net”.
+
+The remote computer’s location appears to be: United States (US).
+
+The remote computer’s IP address is assigned to the provider: “CenturyLink Communications, LLC”
+
+The provider supplied the following remarks about the IP address allocation: “ADDRESSES WITHIN THIS BLOCK ARE NON-PORTABLE ANY ISP ANNOUNCING PORTIONS WITHIN OUR RANGE SHOULD NOT RELY ON PRESENTED LOA'S UNLESS THOSE RANGES ARE ALSO ANNOUNCED TO A CENTURYLINK ASN. For abuse issues, please email abuse@centurylinkservices.net All abuse reports MUST include: * src IP * dest IP (your IP) * dest port * Accurate date/timestamp and timezone of activity * Intensity/frequency (short log extracts) * Your contact details (phone and email) Without these we will be unable to identify the correct owner of the IP address at that point in time. For subpoena or court order please fax 844.254.5800 or refer to our Law Enforcement Support page http://www.centurylink.com/static/Pages/AboutUs/Legal/LawEnforcement/”
+
+The system generated this notice on Sunday, February 2, 2020 at 5:33:24 AM UTC.
+
+Do not reply to this automated message.
+
+cP
+
+Copyright© 2020 cPanel, Inc.

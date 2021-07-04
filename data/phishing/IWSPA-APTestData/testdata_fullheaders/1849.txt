@@ -1,0 +1,71 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.297.1; Thu, 20 Feb 2015 05:27:32 -0800
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s1KDRVNR004947	for <user@domain.com>; Thu, 20 Feb 2015 
+ 13:27:31 GMT
+Received: from mail220-ch1-domain.com (mail-domain.com
+ [216.32.181.175])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s1KDSgsv015068
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 20 Feb 2015 13:28:42 GMT
+Received: from mail220-ch1 (localhost [127.0.0.1])	by
+ mail220-ch1-domain.com (Postfix) with ESMTP id AFBC3320076	for
+ <user@domain.com>; Thu, 20 Feb 2015 13:27:30 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:103.20.19.33;KIP:(null);UIP:(null);IPV:NLI;H:amta1.oberoiresponse.com;RD:amta1.oberoiresponse.com;EFVD:NLI
+X-SpamScore: 12
+X-BigFish: vps12(zz12d4Ia6c0uzz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah21bch1fc6hzz1de098h1def03h177df4h17326ah1def87h8275bh1bc7b9h8275dh1def86h1de097h186068hc704dhz2fh5eh5fh839h93fh950hd24he5bh10d2h1288h12a5h12bdh137ah139eh13b6h13eah1441h152ch1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h255eh1155h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail220-ch1: domain of oberoiresponse.com designates 103.20.19.33 as permitted sender) client-ip=103.20.19.33; user@domain.com; helo=amta1.oberoiresponse.com ;domain.com ;
+Received: from mail220-ch1 (localhost.localdomain [127.0.0.1]) by mail220-ch1
+ (MessageSwitch) id 1392902847643760_32492; Thu, 20 Feb 2015 13:27:27 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.243])	by mail220-domain.com (Postfix) with ESMTP id
+ 8D9763A0057	for <user@domain.com>; Thu, 20 Feb 2015 13:27:27 +0000
+ (UTC)
+Received: from amta1.oberoiresponse.com (103.20.19.33) by
+ domain.com (10.43.70.32) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 20 Feb 2015 13:27:26 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=x; d=oberoiresponse.com;
+ h=Message-ID:Date:From: Oberoi Hotels & Resorts <crm@oberoiresponse.com>
+ bh=PTf0jDWZxhABvjEmtXlPRPtp9hQ=;
+ b=hrX54J0pVVPrwcEJPctUbjEn5dmxDn60ipaVSR4ShV6fKFCRBmcmPV1Uq8KvwNqFNDADgFNTpDfw
+   LiSzf3EXdGRkKNVBL6u4bj6adPzOEcCztUoWhjUhuJzTlJy90LBdgG28W1eOSLdPEA0hAamOxhNR
+   7f95T/Tf2KPJxBIb3Bk
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=x; d=oberoiresponse.com;
+ b=ONsi7dbAodBAPHFMwap2/UU4FptfUdBX7n3t+dBLt0+xBx0MhOtfu4iss751qPf54JRvYO64bO4b
+   nWB00wuzM77+e0G5fY0RSqY5RLbh839gZ5sfUn37dXoA/vh/1iFYFJzPgS4Jn8Tjwdle5kMEdndt
+   LHMu6GRUc38XTsTX6bg=;
+Received: from SYDEMMTA003 (127.0.0.1) by amta1.oberoiresponse.com
+ (PowerMTA(TM) v3.5r17) id h0o1bu1l4l4s for <user@domain.com>; Fri, 21
+ Feb 2015 00:26:52 +1100 (envelope-from <user@domain.com>)
+Message-ID: <user@domain.com>
+Date: Thu, 20 Feb 2015 13:26:52 +0000
+From: Oberoi Hotels & Resorts <crm@oberoiresponse.com>
+Reply-To: <user@domain.com>
+To: "User" <user@domain.com>
+Subject: Enjoy a memorable journey through India with Oberoi Hotels
+X-Mailer: UFMNKF M1SLZAC FAUPHTP 2CLHOUSUPJ
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Enjoy a memorable journey through India with Oberoi Hotels
+
+View this message in your browser | View this message in your mobile phone       Stay Connected         <<link>>://domain.com/OberoiGroup   <<link>>://domain.com/OberoiHotels    <<link>>://domain.com/oberoihotels      <<link>>://domain.com/102835944435458562831/posts      
+
+ <<link>>    <<link>>://domain.com/      
+
+         Online Reservations             
+
+         Email           
+
+         TOLL FREE               
+
+         Gallery                 
+
+
+

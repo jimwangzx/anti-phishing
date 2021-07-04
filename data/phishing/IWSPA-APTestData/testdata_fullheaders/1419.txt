@@ -1,0 +1,100 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Mon, 9 Jun 2015 15:57:23 -0700
+Received: from domain.com ([160.33.194.229])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s59MvNoX020622	for <user@domain.com>; Mon, 9 Jun 2015 
+ 22:57:23 GMT
+Received: from mail28-ch1-domain.com (mail-domain.com
+ [216.32.181.171])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s59Mwo8F002818
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Mon, 9 Jun 2015 22:58:50 GMT
+Received: from mail28-ch1 (localhost [127.0.0.1])	by mail28-ch1-domain.com
+ (Postfix) with ESMTP id 63D7A2004F7	for <user@domain.com>; Mon,  9
+ Jun 2015 22:57:22 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:198.2.130.176;KIP:(null);UIP:(null);IPV:NLI;H:domain.com;RD:domain.com;EFVD:NLI
+X-SpamScore: 2
+X-BigFish: vps2(z3e12hzc89bhc85fhc857hzz1ee6h1fdah21bdh2073h2146h1202h1e76h2189h1d2ah1fc6h208chzz1de098h1def03h177df4h17326ah172cdfh8275bh1bc7b9h8275dh18c673h19a27bh1de097h186068h1ce121iz2fheh5eh5fh839ha45hd24h10d2h1288h12a5h137ah139eh13eah1441h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e00h1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2534h2545h25f6h2605h268bh26d3h27e2h282bh28a1h28b0h1d9ci)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail28-ch1: domain of domain.com designates 198.2.130.176 as permitted sender) client-ip=198.2.130.176; user@domain.com; helo=domain.com ;01.domain.com ;
+Received: from mail28-ch1 (localhost.localdomain [127.0.0.1]) by mail28-ch1
+ (MessageSwitch) id 1402354639493820_14478; Mon,  9 Jun 2015 22:57:19 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.245])	by mail28-domain.com (Postfix) with ESMTP id 73D90440076
+	for <user@domain.com>; Mon,  9 Jun 2015 22:57:19 +0000 (UTC)
+Received: from domain.com (198.2.130.176) by
+ domain.com (10.43.70.31) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 9 Jun 2015 22:57:18 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?James=20Hood=20A=20Midsummer=20Ceremony?= <hello@arts-la.com>
+ bh=t4TdlJusN6fakXn814LCggrAtys=;
+ b=vL/LCY+4ZdOjZxNLfTFz2T93lgYkqFj6oF7GE2KHAnF5p3L78Ebg5a6vWaJSbISkhYz8pwUqFtPP
+   7q2ZzbB9yuP+sAVDhS5SX8l+XDbiyetdJl//3Nd2aPjWeGyqi5m4L5SK+9meBNOS03DdEHEee3uB
+   pd2uQJ+AL0orVAxpI34
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=HqyDRghhkAJxJenZVYlKEg8lRR+hoCPzJS8Bq50ZBm6BWSmgDXEDYY6ER8f2/s0EfZSMyRSgTdal
+   joB8wyZqzC1gskHjl+R+SLtgaPAahVMFtlpS/AQTU15mw+jTPBYed8n0mh9/DhCMMx4RuQjE/tc/
+   iuR71dAOpmZKrFpnsYo=;
+Received: from (127.0.0.1) by domain.com id hiotss1ohl8j for
+ <user@domain.com>; Mon, 9 Jun 2015 22:57:17 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?James=20Hood=20Presents=20A=20Midsummer=20Ceremony=3A=20Now=20with=20Two=20Shows?
+From: =?utf-8?Q?James=20Hood=20A=20Midsummer=20Ceremony?= <hello@arts-la.com>
+Reply-To: =?utf-8?Q?James=20Hood=20A=20Midsummer=20Ceremony?
+	<user@domain.com>
+To: =?utf-8?Q??= <user@domain.com>
+Date: Mon, 9 Jun 2015 22:57:17 +0000
+Message-ID: <45user@domain.com>
+X-Mailer: MailChimp Mailer - **CID4441a81e331d936fb67b**
+X-Campaign: mailchimp45c2eff560d948146ebbda785.4441a81e33
+X-campaignid: mailchimp45c2eff560d948146ebbda785.4441a81e33
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 45c2eff560d948146ebbda785
+X-Feedback-ID: 24989539:24989539.629057:us3:mc
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: James Hood A Midsummer Ceremony
+	<user@domain.com>
+x-mcda: FALSE
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+James Hood Presents A Midsummer Ceremony: Now with Two Shows
+
+Ceremony        
+
+View this email in your browser         
+
+ <<link>> 
+
+Midsummer is a sacred time
+
+Join our celebration, next week in DTLA
+
+James Hood Presents
+A Midsummer Ceremony
+Friday 20 June now with TWO shows
+Tickets are selling out here
+
+All ages festival 3pm-8pm
+Second show 9pm-late
+
+We invite you to join us for a Midsummer Ceremony, in downtown Los Angeles. James Hood, multi instrumentalist and hang player has gathered together a band of entertainers to stimulate your every sense over an enchanted evening.
+
+Taking place in The Vortex, a 360 degree dome, the evening will include a special live performance of "Ceremony" by James Hood with stunning immersive visuals featuring original art work by Tatiana Plakhova for Complexity Graphics and other celestial sounds, hypnotronic music , performance and food and drink.
+
+The event is set to be a sensual happening from start to finish, definitely an evening to remember.
+
+With drinks from Moonjuice Silverlake and food from Fred 62 of Los Feliz.
+
+We would love to see our guests dressed as Gods and Goddesses wearing all white to enjoy the event. But we want everyone to feel comfortable so the dress code is not enforced.
+
+Bring
+
+Flowers / Incense / Feathers / Candles / Banners / Flags / Fami
+

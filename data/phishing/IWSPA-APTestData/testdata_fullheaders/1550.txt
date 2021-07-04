@@ -1,0 +1,74 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.68 with SMTP id r65csp637225lfr;
+        Sat, 10 Oct 2015 10:12:13 -0700 (PDT)
+X-Received: by 10.202.98.2 with SMTP id w2mr11050117oib.83.1444497133749;
+        Sat, 10 Oct 2015 10:12:13 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-ob0-domain.com (mail-ob0-domain.com. [2607:f8b0:4003:c01::22d])
+        by domain.com with ESMTPS id qr9si2427442oeb.42.2015.10.10.10.12.13
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 10 Oct 2015 10:12:13 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22d as permitted sender) client-ip=2607:f8b0:4003:c01::22d;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4003:c01::22d as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-domain.com with SMTP id bh8so74914897obb.0
+        for <user@domain.com>; Sat, 10 Oct 2015 10:12:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+         :cc:content-type;
+        bh=8zJIvJAaRFuSytpndQJhbkMxWNLLjaxUuT1RFQJoyYw=;
+        b=Jy7eO5om5WUswbssDzkQmLUWgV8faPXQuEep35xPPQOA+ZN9s9MH99v3I7qHX2TQ20
+         6mhR0CXJ0dUBp098bsGrPALOIVRGr5kcO40o/y/TfM/w/2cURN8hIs4WycONzcf3OGyG
+         kRfmnqM9N+7tAPmKGXdzBrYlge4HHMGDvT37I
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Milia Fisher <mfisher@hillaryclinton.com>
+        bh=8zJIvJAaRFuSytpndQJhbkMxWNLLjaxUuT1RFQJoyYw=;
+        b=JXFFUURfU/I8suoxtI3lmkUx+YYf2KcBTt8xDay+NW0ghG6E1brEte8TsQcOKz0Bht
+         OnsB0B+x/UM0coxxSYHwL2Epd8WDSGe025/kdufoQ9SQZNAR+nLumlsu/1PJJ2jUp/w/
+         L+ztbYl67GNApCXHI7hS+rlB3a1YhiPjFUBBVuDon9IjTlCvZhPT0HcjnqXW7QetSJ28
+         lIGj/bE6qW+6v71Ml0y+peKFl3zFGHNmKZQarMXC6I4NFyeHoRuLDxxUA8b2d+6g+z2P
+         Aq/VIWPcupQ+18SyaNzFe+vAuBp1Jimd8zn2slPYfmTgWDefeEoQmrVDq96X9AdU118W
+         aOog
+X-Gm-Message-State: ALoCoQl9ly1+4dElAMVCc+/1y0AyUm9DYlkjtR+j/P8sdPzDITZqvaQnV97Ci7S/+wh9ibSqV2Lg
+MIME-Version: 1.0
+X-Received: by 10.182.219.131 with SMTP id po3mr11370392obc.39.1444497133158;
+ Sat, 10 Oct 2015 10:12:13 -0700 (PDT)
+Received: by 10.202.183.135 with HTTP; Sat, 10 Oct 2015 10:12:13 -0700 (PDT)
+In-Reply-To: <CANvypvBiOrqQuV7cpdLr8Hq4pj_wqfHjf3ZViP291+user@domain.com>
+References: <CA+user@domain.com>
+	<user@domain.com>
+	<-4264094001585685987@unknownmsgid>
+	<CANvypvBiOrqQuV7cpdLr8Hq4pj_wqfHjf3ZViP291+user@domain.com>
+Date: Sat, 10 Oct 2015 13:12:13 -0400
+Message-ID: <CAEMn5Qm+user@domain.com>
+Subject: Re: Monday and Tuesday - Surrogate Schedule and Wishlist
+From: Milia Fisher <mfisher@hillaryclinton.com>
+To: Sara Latham <user@domain.com>
+CC: John user <user@domain.com>
+Content-Type: multipart/related; boundary=089e011844ac8222e90521c33297
+
+You are currently booked on *nonstop* American Airlines flight 210 LAS- JFK
+departing 8:00 AM and arriving at 4:15 PM (was originally $750-- now sold
+out).
+
+Comms team just wrote back that they think you should be able to finish
+both hits by 5:45 AM to make your 8:00 AM flight and that these times are
+all estimates so we can request other timing. Of course, we might want to
+put you on a later flight just to be safe/less crunched on timing.
+
+Two good *1 stop* options on American that leave later from LAS and arrive
+into LGA:
+
+=E2=80=8BOnly other *nonstop* option on American (this one was always reall
+y
+pricey):
+
+=E2=80=8B
+
+On Sat, Oct 10, 2015 at 12:27 PM, Sara Latham <user@domain.com>

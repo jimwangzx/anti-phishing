@@ -1,0 +1,95 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp627513lfb;
+        Thu, 10 Dec 2015 12:25:32 -0800 (PST)
+X-Received: by 10.140.25.227 with SMTP id 90mr17800828qgt.73.1449779132706;
+        Thu, 10 Dec 2015 12:25:32 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mta-dock-front-17.domain.com (mta-dock-front-17.domain.com. [66.151.230.154])
+        by domain.com with ESMTPS id a73si16450366qkb.126.2015.12.10.12.25.32
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 10 Dec 2015 12:25:32 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.151.230.154 as permitted sender) client-ip=66.151.230.154;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 66.151.230.154 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (unknown [10.0.200.81])
+	by mta-dock-front-17.domain.com (Postfix) with ESMTP id 3pGmvw1bXzz1xm5S
+	for <user@domain.com>; Thu, 10 Dec 2015 20:25:32 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=domain.com; s=bsdkey; t=1449779132;
+	bh=rrR1oj0e3fcEk9W122AbsL+gm3ZC3MG/Qbw4SQtdxKg=;
+	h=Date:To:From: "Shumway Marshall, Business Forward" <info@businessfwd.org>
+	b=N0NiCMWjr+ojiih0+sVfP/Pac/BhdA+4bmtVRIgBlH5iN8utcRR1mUjKs/8MAqzvQ
+	 TJXTOtNP2rXKu9tVmj61eyPK2G0iqiRgw6wJgkvN5Z7w4kR/ek228hd4tnk7VIgcaz
+	 NA1wVuN2JALrbUp0JwnCK03xuOMxp0UDXS+4AkN0
+Received: from phpmailer 
+	by domain.com with local (PHPMailer);
+	Thu, 10 Dec 2015 20:25:32 +0000
+Date: Thu, 10 Dec 2015 20:25:32 +0000
+To: John user <user@domain.com>
+From: "Shumway Marshall, Business Forward" <info@businessfwd.org>
+Reply-to: user@domain.com
+Subject: INVITE: Conf. Call on the Fed and Interest Rates
+Message-ID: <884user@domain.com>
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 6942658c714a7c75
+X-rpcampaign: rp_1094977
+X-maillist-guid: BxBFXA0BFUcDRFQ8B1wHU1UMCFEDBlFSVVoFVj9-WgwLS2ZaBwEVQARzV1hQDF9PAFZdOw0AUw
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_884d9de2ed0ee699423b0f8af880414d"
+
+John--
+
+As economists speculate whether the Federal Reserve will raise its 
+benchmark interest rate for the first time since 2006, learn how various 
+scenarios could affect your business, consumers, and the broader economy.
+
+The day before the Fed's next regular meeting and interest rate 
+announcement, please join Business Forward for a webinar with leading 
+economists from PwC and the National Association of Realtors(R).
+
+Can you join our webinar on interest rates and the Federal Reserve?
+
+YES > <<link>>
+RZ2VV
+NO > 
+<<link>>
+
+Here are the details:
+
+WHAT:
+Webinar on the Federal Reserve and a potential interest rate increase
+
+WITH:
+Andrew Lyon, Leader of National Economics and Statistics and Principal, 
+PwC US
+Lawrence Yun, Chief Economist and Senior Vice President of Research, 
+National Association of Relators(R)
+
+WHEN: Tuesday, December 15 at 2:00 p.m. ET / 11:00 a.m. PT
+
+WHERE: You will receive a custom phone number and link when you register.
+
+Here's the link to register: <<link>>
+ence/register/LZX5W6MYPRZ2VV
+
+Can't make it? Sign up to receive a recording > 
+<<link>>
+
+I hope you can make it,
+
+Shumway Marshall
+Digital Director
+Business Forward
+
+P.S. There is no cost to attend Business Forward's programming so please 
+feel free to forward this invitation to your colleagues.
+
+PAID FOR BY BUSINESS FORWARD
+
+This email was sent to user@domain.com If you wish to unsubscribe, 
+go to <<link>>
+

@@ -1,0 +1,187 @@
+Delivered-To: user@domain.com
+Received: by 10.229.191.143 with SMTP id dm15cs68132qcb;
+        Mon, 21 Jun 2015 07:23:18 -0700 (PDT)
+Return-Path: <bigcampaign+user@domain.com>
+Received-SPF: pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.9.20 as permitted sender) client-ip=10.229.9.20;
+Authentication-Results: domain.com; spf=pass (domain.com: domain of bigcampaign+user@domain.com designates 10.229.9.20 as permitted sender) smtp.mail=bigcampaign+user@domain.com; dkim=pass header.i=bigcampaign+user@domain.com
+Received: from domain.com ([10.229.9.20])
+        by 10.229.9.20 with SMTP id j20mr957524qcj.35.1277130197030 (num_hops = 1);
+        Mon, 21 Jun 2015 07:23:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=domain.com; s=beta;
+        h=domainkey-signature:received:x-beenthere:received:received:received
+         :received:received-spf:received:From: Jeremy Funk <funk@americansunitedforchange.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-language:content-type;
+        bh=2cMkRHKiXkcOd2foA4ge+kvgI5r38zNL82LHNXCOe3c=;
+        b=5+h7WE71wIA/qtANIaJBl0CQbVggFLfHKNjTopkjqUr/axitrmm+eNaW4zOBdsgpHR
+         hbrJiRDnMvv+Oc/bPM+joeXQf6E3UW24MXArirNuu/DAuuzA/eVBS9AZT+rj4IZfeau7
+         sVDDyGAGMk7MQJpQ+SxmLGfB4tVU3lTiW3TjY
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=domain.com; s=beta;
+        h=x-beenthere:received-spf:From: Jeremy Funk <funk@americansunitedforchange.org>
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-language:content-type;
+        b=E+4cioVnCvn7KcDFqlf9gFfMufhGxIcz7qDPajfT08fyNiH6i9JpCm9+2NEOJpcPJ8
+         iSetkdbNUvGUrqx4iKrATsUa89cXELHgplSk3wJ2nZ53dqiF1tOc9Aca8nKkZ55v2mGe
+         yYP92TJ1xRahMCqh/Vf7RfLVE0U7cRMMy3mQQ
+Received: by 10.229.9.20 with SMTP id j20mr118832qcj.35.1277130174915;
+        Mon, 21 Jun 2015 07:22:54 -0700 (PDT)
+X-BeenThere: user@domain.com
+Received: by 10.229.210.31 with SMTP id gi31ls2572644qcb.0.p; Mon, 21 Jun 2015 
+	07:22:53 -0700 (PDT)
+Received: by 10.229.95.76 with SMTP id c12mr208708qcn.21.1277130172983;
+        Mon, 21 Jun 2015 07:22:52 -0700 (PDT)
+Received: by 10.229.95.76 with SMTP id c12mr208707qcn.21.1277130172905;
+        Mon, 21 Jun 2015 07:22:52 -0700 (PDT)
+Received: from mail.americansunitedforchange.org ([66.253.44.162])
+        by gmr-domain.com with ESMTP id q8si6621047qcu.12.2010.06.21.07.22.52;
+        Mon, 21 Jun 2015 07:22:52 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 66.253.44.162 as permitted sender) client-ip=66.253.44.162;
+Received: from AUFC-domain.com ([fe80::4471:3a32:78c1:35d9]) by
+ AUFC-domain.com ([fe80::4471:3a32:78c1:35d9%10]) with mapi; Mon, 21 Jun
+ 2015 10:22:51 -0400
+From: Jeremy Funk <funk@americansunitedforchange.org>
+To: "User" <user@domain.com>
+Date: Mon, 21 Jun 2015 10:22:50 -0400
+Subject: [big campaign] NEW REPORT: Insurers, Allies Falsely Link New Health 
+	Care Law to Huge Premium Increases
+Thread-Topic: NEW REPORT: Insurers, Allies Falsely Link New Health Care Law
+ to Huge Premium Increases
+Thread-Index: AcsPHtmw+DMbLy6eQnCB+VlNPSEBgAAA+HEwAAAZF4AAAEtz4AAAP8xwAAALI4AAAAe/wAAAB5DAAAAlVsAAAAiXIAAACOeQAAAJR7AAAAkh0AAACbCQAAAFzCAAAAkhwAAAF3EgAAARTyAAABQoQAAAExbwAAARsYAAAA/vwAAAHrhAAAAIZ/AAAA0y4AAAGm8gAAA1/lAAAAu1MAAACh/wAIfMc1AAAJ1SIA
+Message-ID: <95user@domain.com>
+Accept-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-Original-Sender: user@domain.com
+X-Original-Authentication-Results: gmr-domain.com; spf=pass (domain.com: 
+	domain of user@domain.com designates 66.253.44.162 as 
+	permitted sender) user@domain.com
+Reply-To: user@domain.com
+Precedence: list
+Mailing-list: list user@domain.com; contact bigcampaign+user@domain.com
+List-ID: <domain.com>
+List-Post: <<<link>>>, 
+	<mailto:user@domain.com>
+List-Help: <<<link>>>, <mailto:bigcampaign+user@domain.com>
+List-Archive: <<<link>>>
+Sender: user@domain.com
+List-Unsubscribe: <<<link>>>, 
+	<mailto:bigcampaign+user@domain.com>
+Content-Language: en-US
+Content-Type: multipart/related;
+	boundary="_004_95AFEEF8AB22CE4E8CA3F8E6FBCB8CD1270010B305AUFCS1AUFCloc_";
+	type="multipart/alternative"
+
+Fyi...
+
+[cid:image002.jpg@01CB112A.89A87B90]
+
+domain.com<<<link>>>
+For Immediate Release                                                      
+               Contact: Melinda Gibson, (202) 454-6189
+June 21, 2015 
+Consumers to Health Insurance Industry: Stop Lying About Big Premium Hikes
+
+NEW REPORT: Insurers, Allies Falsely Link New Health Care Law to Huge Premi
+um Increases
+
+***Click Here to Download the New Report from Health Care for America Now!*
+**<<<link>>
+N%20Report%20Insurance%20Industry%20Inflates%20Rates%202010%200618i%20FINAL
+.pdf>
+
+Washington, D.C. - Health Care for America Now<<<link>>
+domain.com/> (HCAN), the nationwide coalition that led the successful fight
+ for health reform, demanded today that the health insurance industry stop 
+misleading the public, regulators and lawmakers by blaming massive rate hik
+es on the new health care law. Key voices from the health insurance industr
+y and its political allies have attributed their double-domain.com premium incre
+ases this year to the new law and rising medical costs, even though both of
+ these assertions have proved false. In a report released today, HCAN detai
+led the industry's strong first quarter this year and the banner year of 20
+09 for health insurers whose shares are traded on Wall Street. The five lar
+gest for-domain.com health insurance companies cashed in on the higher rates to
+ record huge domain.com gains in the first three months of 2015 while providing
+ skimpier benefits to hard-pressed consumers.
+
+"It's the height of cynicism for the insurance companies to blame the new h
+ealth care law for their excessive and unjustifiable rate increases," said 
+Ethan Rome, executive director of HCAN. "They planned these premium hikes l
+ong before the law even passed. The numbers show that these rate hikes were
+ fueled by runaway greed, and that's what the new law will help to rein in.
+"
+
+The report gives examples of industry leaders and allies explicitly attribu
+ting higher premiums to the new law. The rate increases have been substanti
+al. Leading health insurance companies pursued 2015 rate hikes as large as 
+72 percent in Georgia; 60 percent in Illinois; 50 percent in New Jersey; 40
+ percent in Virginia; and so on across the nation, according to media accou
+nts and surveys. In California, WellPoint was proposing increases as high a
+s 39 percent until an independent auditor retained by California officials 
+concluded they were based on highly inaccurate data. The auditor found the 
+company could not justify raising average rates more than 15 percent-a monu
+mental difference.
+
+For years health insurance rate hikes have greatly surpassed the growth of 
+any of several key measurements, such as medical costs, wages and overall i
+nflation. From 2015 to 2008, premiums for families enrolled in employer-spo
+nsored health plans increased 97 percent and rates for individuals in workp
+lace health plans climbed 90 percent, according to the HCAN report. During 
+that same period, medical inflation increased 39 percent, wages grew 29 per
+cent and overall inflation climbed 21 percent. Profits have increased 249 p
+ercent. All the while, insurers have continued to decrease the proportion o
+f premium dollars that are spent on actual health care services. In 1993, t
+he leading health insurers used about 95 cents of every premium dollar on h
+ealth care. Today, investor-owned health insurers have cut spending on actu
+al medical care to around 81 cents on the dollar.
+
+"The insurance companies are squeezing more and more domain.com out of America'
+s families and businesses," Rome said. "They've become domain.com machines that
+ exist to accumulate mountains of cash, not to provide the care we pay for.
+"
+
+The industry trade group, America's Health Insurance Plans (AHIP), used sca
+re tactics to warn Congress and the American public that insurance premiums
+ would soar if health care legislation passed. As promised, the health insu
+rance industry filed huge premium increases for 2015 with state regulators,
+ but these rate increases were locked in long before anyone knew whether he
+alth care legislation would pass. The truth is that the Congressional Budge
+t Office (CBO) estimates that premiums in the large-group and small-group m
+arkets will not increase due to the new law. Even PricewaterhouseCoopers, a
+ regular consultant to AHIP and the insurance industry, concluded as much i
+n a new report outlining medical cost trends in 2011: "Health reform delive
+rs only a minor impact on the underlying medical cost trends in 2015 and in
+troduces hundreds of changes in the healthcare system designed to reduce co
+sts and improve efficiencies in the long-term.  These changes could bring s
+ignificant cost saving opportunities for employers and payers as well as ne
+w choices and transparency for workers buying insurance."
+
+-30-
+
+Health Care for America Now is a national grassroots coalition of more than
+ 1,000 organizations in 46 states representing 30 million people. HCAN spen
+t $51 million over the past two years in the fight to win passage of health
+ reform and to keep Congress from being steamrolled by corporate special in
+terests.
+
+--
+You received this message because you are subscribed to the "big campaign" 
+group.
+
+To post to this group, send to user@domain.com
+
+To unsubscribe, send email to user@domain.com
+
+E-mail user@domain.com with questions or concerns
+
+This is a list of individuals. It is not affiliated with any group or organ
+ization.

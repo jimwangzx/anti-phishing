@@ -1,0 +1,257 @@
+Delivered-To: user@domain.com
+Received: by 10.31.16.37 with SMTP id g37csp1827158vki;
+        Tue, 18 Aug 2015 09:05:19 -0700 (PDT)
+X-Received: by 10.68.65.77 with SMTP id v13mr14728889pbs.157.1439913919014;
+        Tue, 18 Aug 2015 09:05:19 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.254.109])
+        by domain.com with ESMTPS id nz7si30956109pbb.105.2015.08.18.09.05.18
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 18 Aug 2015 09:05:19 -0700 (PDT)
+Received-SPF: neutral (domain.com: 216.82.254.109 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=216.82.254.109;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 216.82.254.109 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com;
+       dkim=neutral (body hash did not verify) user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.254.83] by server-13.bemta-7.domain.com id 0F/58-28439-CB753D55; Tue, 18 Aug 2015 16:05:16 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-9.tower-197.domain.com!1439913850!18939075!18
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.16; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 28528 invoked from network); 18 Aug 2015 16:05:13 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-9.tower-197.domain.com with AES256-SHA encrypted SMTP; 18 Aug 2015 16:05:13 -0000
+Resent-From: =?utf-8?Q?EnergyEfficiencyMarkets.com?
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Tue, 18 Aug 2015 12:04:36 -0400
+Received: from [216.82.249.211] by server-15.bemta-12.domain.com id
+ 46/0C-09905-C8753D55; Tue, 18 Aug 2015 16:04:28 +0000
+X-Env-Sender: user@domain.com
+  domain.com
+X-Msg-Ref: server-4.tower-53.domain.com!1439913867!23436558!1
+X-Originating-IP: [205.201.133.188]
+X-SpamWhitelisted: domain whitelist
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.16; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 22530 invoked from network); 18 Aug 2015 16:04:27 -0000
+Received: from domain.com (HELO domain.com)
+ (205.201.133.188)  by server-4.tower-53.domain.com with SMTP; 18 Aug
+ 2015 16:04:27 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=domain.com;
+ h=Subject:From: =?utf-8?Q?EnergyEfficiencyMarkets.com?
+ bh=YISY/c74GA2vujrsnaPZvrpcuBQ=;
+ b=YVyNJjhVU/cVc5KAaUXx+2ZTLem9F24lk0bLoiFpPfiC/7rP07deY7uLbh/MRX7+zG77MByc0hgT
+   sjOV8Ero7xbTwdFRrHerB/R2U5SBNDFxjP3At8vGTqybyuN43IoE+4nn2715HM80HYdbdGZ0tWYF
+   jX9c0JE/RduYlZiwMFY
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=domain.com;
+ b=b3XwyYoOq2gJkHWWcvFi/hTegeoEXTsgW80PZSZf+oaDOqV2lUMwHQgXiURwAz5aTxPLFe574gC5
+   CbEunTove73coEnwWpyz8EEp37eA8ofhW/pq4/UolZvtXW67q5FO65UzgoXfOOKiYuU3g8lSoQDg
+   iIBnfJhx6hPOXfAJvlI=;
+Received: from (127.0.0.1) by domain.com id hqdbom1lgi4h for
+ <user@domain.com>; Tue, 18 Aug 2015 16:04:26 +0000 (envelope-from
+ <user@domain.com>)
+Subject: =?utf-8?Q?Posts=20from=20Energy=20Efficiency=20Markets=20for=2008=2F18=2F2015?
+From: =?utf-8?Q?EnergyEfficiencyMarkets.com?
+	<user@domain.com>
+Reply-To: =?utf-8?Q?domain.com?
+	<user@domain.com>
+To: user@domain.com
+Date: Tue, 18 Aug 2015 16:04:26 +0000
+Message-ID: <25user@domain.com>
+X-Mailer: MailChimp Mailer - **CID0cfbf1ccecd335b7960a**
+X-Campaign: mailchimp25b85319ed833b816410d639b.0cfbf1ccec
+X-campaignid: mailchimp25b85319ed833b816410d639b.0cfbf1ccec
+X-Report-Abuse: Please report abuse for this campaign here: <<link>>
+X-MC-User: 25b85319ed833b816410d639b
+X-Feedback-ID: 18310731:18310731.351901:us7:mc
+List-ID: 25b85319ed833b816410d639bmc list <25b85319ed833b816410d639b.11729.list-domain.com>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:user@domain.com?subject=unsubscribe>, <<<link>>>
+Sender: domain.com
+	<user@domain.com>
+x-mcda: FALSE
+Content-Type: multipart/alternative;
+	boundary="_----------=_MCPart_1563144398"
+MIME-Version: 1.0
+
+Energy Efficiency Markets :: Tracking New Business Opportunities
+------------------------------------------------------------
+Email not displaying correctly?
+View it in your browser ( <<link>>
+833b816410d639b&id=3D0cfbf1ccec&e=3Dd335b7960a ) .
+<<link>> <<link>>
+/55432/0/9/37484125
+
+Energy Efficiency Markets
+
+** Weekly Newsletter for 08/18/2015
+------------------------------------------------------------
+
+** Energy Efficiency Instead of a New Natural Gas Pipeline for New England
+? ( <<link>>
+natural-gas-pipeline-for-new-england/ )
+------------------------------------------------------------
+
+** By Elisa Wood on Aug 18=2C 2015 11:04 am
+------------------------------------------------------------
+<img width=3D"430" height=3D"329" src=3D"<<link>>
+m/wp-content/uploads/2015/08/Natural-gas-pipeline-1024x783.jpg" class=3D"a
+ttachment-large wp-post-image" alt=3D"energy efficiency" style=3D"float: l
+eft; margin-right: 5px;" border=3D"0">A new report sponsored by GDF Suez E
+nergy North America challenges the need for a subsidized natural gas pipel
+ine=2C in part because of New England=E2=80=99s aggressive campaign to inc
+rease energy efficiency=2C demand response and renewable energy.
+
+Get the full story here ( <<link>>
+ency-instead-of-a-new-natural-gas-pipeline-for-new-england/ ) .
+
+<<link>>
+
+** How the Best States Support Energy Efficiency ( <<link>>
+domain.com/best-states-support-energy-efficiency/ )
+------------------------------------------------------------
+
+** By Lisa Cohn on Jan 26=2C 2015 05:50 pm
+------------------------------------------------------------
+<img width=3D"430" height=3D"319" src=3D"<<link>>
+m/wp-content/uploads/2015/01/map-of-united-states.gif" class=3D"attachment
+-large wp-post-image" alt=3D"map-of-united-states" style=3D"float: left; m
+argin-right: 5px;" border=3D"0">What are states that support energy effici
+ency doing that other states are not? And the states that don't support en
+ergy efficiency--what are they doing wrong and why?
+
+Listen to the podcast here ( <<link>>
+s-support-energy-efficiency/ ) .
+
+** Other Recent Articles
+------------------------------------------------------------
+
+* Quick Energy Efficiency News=E2=80=A6Phone App to Navigate City Traffic
+ Efficiently=E2=80=A6Storage witout Solar in Homes=E2=80=A6BP Group=E2=80
+=99s New Building Play ( <<link>>
+fficiency-news-phone-app-to-navigate-city-traffic-efficiently-storage-wito
+ut-solar-in-homes-bp-groups-new-building-play/ )
+* Why Did this Energy Efficiency Company Attract $6.9 Million? ( <<link>>
+domain.com/why-did-this-energy-efficiency-company-attract-6
+-9-million/ )
+* Energy Efficiency Programs Help Save Oregon Utility Customers $326 Milli
+on in 2015 ( <<link>>
+-help-save-oregon-utility-customers-6-8-million-in-2014/ )
+* Turning California=E2=80=99s Big Ship toward the New Decentralized Elect
+ric Grid ( <<link>>
+ectric-grid/ )
+
+** Industry Perspectives
+------------------------------------------------------------
+
+* Law Would Double Building Energy Efficiency=2C Create 50% Renewables in
+ California ( <<link>>
+uilding-energy-efficiency/ )
+* Tennessee Energy Efficiency and Advanced Energy Program Expected to Cut
+ Utility Costs by 28% ( <<link>>
+y-efficiency-and-advanced-energy-program-expected-to-cut-utility-costs-by-
+28/ )
+
+Read more Industry Perspectives here ( <<link>>
+com/category/industry-perspectives/ ) .
+<<link>> <<link>>
+ml-domain.com/ic2?634=2C1166=2C12737=2C668=2C0=2C2
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+<<link>>
+
+** Latest RFPs
+------------------------------------------------------------
+
+* NYSERDA RFP Offers Advanced Building Funds ( <<link>>
+domain.com/nyserda-offers-advanced-building-funds/ )
+* California to Offer $47M in Grants for Advanced Energy Communities ( htt
+p://domain.com/california-to-offer-47m-in-grants-for-adva
+nced-energy-communities/ )
+
+See all the RFPs here ( <<link>>
+ps/ ) .
+
+** Events
+------------------------------------------------------------
+
+See our comprehensive listing of upcoming industry events on our website a
+t: <<link>>
+
+Follow Us
+
+** facebook (<<link>>)
+** ( <<link>> )
+** linkedin ( <<link>>
+5095376 )
+
+Interested in Sponsoring the Energy Efficiency Markets Newsletter? ** Clic
+k Here. ( <<link>>
+iency-markets/ )
+
+Copyright =C2=A9 2015 Energy Efficiency Markets=2C All rights reserved.
+ You are receiving this email because you opted for our newsletter at Ener
+gy Efficiency Markets (formerly known as Real Energy Writers).
+
+Our mailing address is:
+Energy Efficiency Markets
+PO Box 113
+Westborough=2C MA 01581
+USA
+** unsubscribe from this list ( <<link>>
+domain.com/unsubscribe?u=3D25b85319ed833b816410d639b&id=3D1774229f01&e=3D
+d335b7960a&c=3D0cfbf1ccec )
+** update subscription preferences ( <<link>>
+st-domain.com/profile?u=3D25b85319ed833b816410d639b&id=3D1774229f01&e=3D
+d335b7960a )

@@ -1,0 +1,137 @@
+Delivered-To: user@domain.com
+Received: by 10.25.80.78 with SMTP id e75csp199525lfb;
+        Fri, 31 Oct 2015 06:12:12 -0700 (PDT)
+X-Received: by 10.229.102.72 with SMTP id f8mr36815474qco.9.1414761131891;
+        Fri, 31 Oct 2015 06:12:11 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.8])
+        by domain.com with ESMTPS id n14si16904623qae.122.2014.10.31.06.12.11
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Fri, 31 Oct 2015 06:12:11 -0700 (PDT)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.251.8;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.249.211] by server-8.bemta-12.domain.com id 25/1E-03124-6AA83545; Fri, 31 Oct 2015 13:12:06 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-8.tower-53.domain.com!1414761124!9155491!3
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.3; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 24456 invoked from network); 31 Oct 2015 13:12:06 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-8.tower-53.domain.com with AES256-SHA encrypted SMTP; 31 Oct 2015 13:12:06 -0000
+Resent-From: Lou Bertuca <info@quinnforillinois.com>
+Received: from domain.com (216.82.250.247) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Fri, 31 Oct 2015 09:11:08 -0400
+Received: from [216.82.249.179] by server-13.bemta-12.domain.com id
+ 1A/5E-02696-C6A83545; Fri, 31 Oct 2015 13:11:08 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-5.tower-44.domain.com!1414761066!7073703!1
+X-Originating-IP: [8.21.238.154]
+X-SpamReason: No, hits=0.5 required=7.0 tests=HTML_60_70,
+  HTML_ATTR_UNIQUE,HTML_MESSAGE
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 23798 invoked from network); 31 Oct 2015 13:11:06 -0000
+Received: from domain.com (HELO domain.com)
+ (8.21.238.154)  by server-5.tower-44.domain.com with SMTP; 31 Oct 2015 
+ 13:11:06 -0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; user@domain.com; t=1414761066;
+	h=Sender:From: Lou Bertuca <info@quinnforillinois.com>
+	Content-Type;
+	bh=D2pcSC5yGdoWk/iL3nl0DXT4tnk=;
+	b=fbALo/e5Nyd8kOrVQQVM+SX3xC0jq2XSFPgmp6X9M43r26FYL6LldF4XVdrJea+U
+	4SCvlQEdljWpZwyCJe3U/V/8wO2kG6Onr0C9ecHzQY5bzQH+D2BuWhbs8OzQlV+U
+	uX4u7H8LphRUeDL1tl40eWpffDgiD7zj6W9vyT5WW6U=;
+X-MSFBL: cG9kZXN0YUBsYXcuZ2VvcmdldG93bi5lZHVAbWFpbG91dDI4MEBkZWZhdWx0Z3Jv
+	dXAwNEBib3VuY2VfMjEwMDAwMDEyNDUzMjE4Ml9wb2Qy
+Received: from [10.0.1.171] ([10.0.1.171:57015] helo=OBPROD12)	by nvmta03
+ (envelope-from <user@domain.com>)	(ecelerity
+ 3.6.3.44158 r(Platform:3.6.3.2)) with ESMTP	id B7/70-13030-A6A83545; Fri, 31
+ Oct 2015 09:11:06 -0400
+Sender: =?UTF-8?B?TG91IEJlcnR1Y2E=?= <user@domain.com>
+X-Binding: default
+Reply-To: <user@domain.com>
+From: Lou Bertuca <info@quinnforillinois.com>
+To: user@domain.com
+Message-ID: <user@domain.com>
+Date: Fri, 31 Oct 2015 09:11:06 -0400
+Subject: This is actually scary:
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----52EEC692B85540918F6FE4E922BD8A23"
+
+Friend,
+
+I love Halloween, but this is actually scary =2E=2E=2E
+
+In less than a week, Bruce Rauner could be the governor-elect of Illino
+is=2E
+
+If that happens, you can forget about raising the minimum wage, and bra
+ce yourself for devastating cuts to education and services=2E
+
+That's my nightmare=2E
+
+This race is a coin toss right now -- but we're not leaving it to chanc
+e=2E
+
+For the next five days, we're going to do everything we can to prevent 
+that nightmare from becoming real=2E
+
+Tonight is the last fundraising deadline of this campaign=2E That means
+ you can do something about it right now=2E
+
+Chip in $5 or more before the clock strikes midnight:
+
+<<link>>
+
+Lou
+
+Lou Bertuca
+Campaign Manager
+Quinn for Illinois
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+Contributions are not tax deductible=2E State law requires that the occ
+upation and name of the employer be reported for any individual who con
+tributes over $500=2E Taxpayers for Quinn does not accept contributions
+ from State employees=2E In addition, the Illinois Procurement Code pro
+hibits certain businesses and their affiliates that have contracts, bid
+s, and proposals with state agencies from making political contribution
+s to state office holders responsible for awarding the contract=2E For 
+more information about this campaign contribution limitation, please co
+nsult the State Board of Elections website=2E
+
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+----------------------------------------------------
+|    Paid for by Taxpayers for Quinn=2E A copy of our report, filed wit
+h the IL State Board of Elections is (or will be) available on the boar
+d's website (elections=2Eil=2Egov) or for purchase from the State Board
+ of Elections in Springfield, IL=2E Taxpayers for Quinn    |
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+----------------------------------------------------
+
+Quinn for Illinois
+676 N LaSalle Street
+Ste=2E 340
+Chicago IL 60654 United States
+
+If you believe you received this message in error or wish to no longer 
+receive email from us, please <<link>>
+cribe?mmid=3D-2993359512834603264&tiid=3D-7014626508908722432=2E

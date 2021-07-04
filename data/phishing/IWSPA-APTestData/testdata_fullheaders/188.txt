@@ -1,0 +1,71 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.10 with SMTP id r10csp1091280lfr;
+        Sun, 26 Jul 2015 17:23:56 -0700 (PDT)
+X-Received: by 10.66.253.40 with SMTP id zx8mr61018878pac.56.1437956636276;
+        Sun, 26 Jul 2015 17:23:56 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-pa0-domain.com (mail-pa0-domain.com. [2607:f8b0:400e:c03::231])
+        by domain.com with ESMTPS id c11si39483604pat.225.2015.07.26.17.23.55
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 26 Jul 2015 17:23:56 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c03::231 as permitted sender) client-ip=2607:f8b0:400e:c03::231;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400e:c03::231 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-pa0-domain.com with SMTP id hj5so41543447pac.3;
+        Sun, 26 Jul 2015 17:23:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: "Trevor Houser" <tghouser.hrc@gmail.com>
+         :mime-version:content-type:thread-index:content-language;
+        bh=SpCk9MVU91RZiAqu9Zfb4WD9Q2kzZKUgs7z8w1FussE=;
+        b=bpj7J9UgZCl3IY5kwnr3Imjt5Sp+BgTFBiYibL/zEzShQpMHl3AXuGlrs+OMHyoh2S
+         IF35373eHcOz3U5Bw0yNTLgcXOJcJJ9Fxd8Bp+6eXjtXUwCmhkaNzcNJM7U9xSVAim4F
+         Kf7LmKr8xxJ6mR+1hywJeAquJpMYdrp1WtP+RgfvugkKrROO8BuhzskReWy7TzD+ReuE
+         lwEK/P1wRI1xS/QKEJ5ZPMA3lVau9vK8eFENFkFNULxXtSJ5cw8gYrm25eLqKiE+9f5d
+         /HYLWLjqhrFMkJtZVndLpJKPeI+lOhDXypUBmFFbM6XtBwEo5VXOEZS8MC1wmoRXMjoB
+         SmCw
+X-Received: by 10.66.155.102 with SMTP id vv6mr60334118pab.150.1437956635410;
+        Sun, 26 Jul 2015 17:23:55 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from TGHLaptop (host-184-167-5-70.jcs-domain.com. [184.167.5.70])
+        by smtp.gmail.com with ESMTPSA id b10sm25943554pdo.84.2015.07.26.17.23.53
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Sun, 26 Jul 2015 17:23:54 -0700 (PDT)
+From: "Trevor Houser" <tghouser.hrc@gmail.com>
+To: "User" <user@domain.com>, 
+ "'user Carrk'" <user@domain.com>
+CC: "'Dan Schwerin'" <user@domain.com>, 
+ "'John user'" <user@domain.com>, 
+ "'Pete Ogden'" <user@domain.com>, "'Ben Kobren'" <user@domain.com>, 
+ "'Tyson Brody'" <user@domain.com>, 
+ "'Emily Aden'" <user@domain.com>, 
+ "'Carter Hutchinson'" <user@domain.com>
+References: <user@domain.com> <61user@domain.com> <9121901724574502533@unknownmsgid>
+In-Reply-To: <9121901724574502533@unknownmsgid>
+Subject: RE: HRC remarks on clean energy
+Date: Sun, 26 Jul 2015 17:24:01 -0700
+Message-ID: <0a7e01d0c802$8a4398c0$9ecaca40$@gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0A7F_01D0C7C7.DDEA3F00"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQHLN5H8lFT67YqltT95JTk38eZpSgIq3qrLAjff+9qd1n/x4A
+Content-Language: en-us
+
+Making a couple edits now.
+
+From: "Trevor Houser" <tghouser.hrc@gmail.com>
+Sent: Sunday, July 26, 2015 5:16 PM
+To: user Carrk <user@domain.com>
+Cc: Dan Schwerin <user@domain.com>; John user 
+<user@domain.com>; Trevor Houser <user@domain.com>; Pete 
+Ogden <user@domain.com>; Ben Kobren <user@domain.com>; Tyson Brody 
+<user@domain.com>; Emily Aden <user@domain.com>; 
+Carter Hutchinson <user@domain.com>
+Subject: Re: HRC remarks on clean energy
+
+I'd cut bracketed language.  Team is RFS language good?
+
+On Jul 26, 2015, at 8:13 PM, user Carrk <user@domain.com 

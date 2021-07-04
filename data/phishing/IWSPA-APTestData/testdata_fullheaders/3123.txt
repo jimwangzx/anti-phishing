@@ -1,0 +1,67 @@
+Delivered-To: user@domain.com
+Received: by 10.25.81.205 with SMTP id f196csp724487lfb;
+        Sat, 12 Dec 2015 08:30:26 -0800 (PST)
+X-Received: by 10.28.182.134 with SMTP id g128mr13775340wmf.95.1449937826551;
+        Sat, 12 Dec 2015 08:30:26 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mx0b-00176domain.com (mx0b-00176domain.com. [67.231.157.49])
+        by domain.com with ESMTPS id fu17si33376021wjc.73.2015.12.12.08.30.25
+        for <user@domain.com>
+        (version=TLS1_2 cipher=AES128-SHA bits=128/128);
+        Sat, 12 Dec 2015 08:30:26 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 67.231.157.49 as permitted sender) client-ip=67.231.157.49;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 67.231.157.49 as permitted sender) user@domain.com
+Received: from pps.filterd (domain.com [127.0.0.1])
+	by domain.com-00176a04. (8.15.0.59/8.15.0.59) with SMTP id tBCGSksu029188
+	for <user@domain.com>; Sat, 12 Dec 2015 11:30:25 -0500
+Received: from domain.com ([173.213.212.135])
+	by domain.com-00176a04. with ESMTP id 1yrfq9tn0b-1
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=NOT)
+	for <user@domain.com>; Sat, 12 Dec 2015 11:30:24 -0500
+Received: from unknown (HELO domain.com) ([10.40.78.204])
+  by domain.com with ESMTP; 12 Dec 2015 11:30:22 -0500
+Received: from domain.com ([169.254.2.215]) by
+ domain.com ([3.3.179.21]) with mapi id 14.03.0195.001; Sat,
+ 12 Dec 2015 11:30:23 -0500
+From: "Harwood, John (NBCUniversal)" <John.Harwood@nbcuni.com>
+To: "User" <user@domain.com>
+Subject: Fwd: dinner in NY Monday or Tuesday?
+Thread-Topic: dinner in NY Monday or Tuesday?
+Thread-Index: AdE0Z3+y5JNCCHJ9Ty61uPp4EfW0ygAkuZyX
+Date: Sat, 12 Dec 2015 16:30:23 +0000
+Message-ID: <6user@domain.com>
+References: <826user@domain.com>
+In-Reply-To: <826user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-exclaimer-md-config: 47edc00f-f2d6-45ef-be83-8a353bd47e45
+Content-Type: multipart/alternative;
+	boundary="_000_6F5967CCF4994430A6419CCA0ADC5C9Bnbcunicom_"
+MIME-Version: 1.0
+X-CFilter-Loop: Forward
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10432:,, definitions=2015-12-12_14:,,
+ signatures=0
+X-Proofpoint-Spam-Details: rule=outbound_notspam policy=outbound score=0 spamscore=0 suspectscore=0
+ malwarescore=0 phishscore=0 adultscore=0 bulkscore=0 classifier=spam
+ adjust=0 reason=mlx scancount=1 engine=8.0.1-1507310007
+ definitions=main-1512120304
+
+You around?
+
+John Harwood
+CNBC/NYT
+202 669 0751
+
+Begin forwarded message:
+
+From: "Harwood, John (NBCUniversal)" <John.Harwood@nbcuni.com>
+Date: December 11, 2015 at 5:58:49 PM EST
+To: <user@domain.com<mailto:user@domain.com>>
+Subject: dinner in NY Monday or Tuesday?
+
+John Harwood
+CNBC/NYT
+202 669 0751

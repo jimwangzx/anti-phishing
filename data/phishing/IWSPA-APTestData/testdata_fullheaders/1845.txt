@@ -1,0 +1,57 @@
+Delivered-To: user@domain.com
+Received: by 10.25.125.86 with SMTP id y83csp298831lfc;
+        Mon, 26 Oct 2015 13:22:22 -0700 (PDT)
+X-Received: by 10.129.131.70 with SMTP id t67mr30621231ywf.157.1445890942059;
+        Mon, 26 Oct 2015 13:22:22 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yk0-domain.com (mail-yk0-domain.com. [2607:f8b0:4002:c07::232])
+        by domain.com with ESMTPS id o76si14389038ywd.154.2015.10.26.13.22.21
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 26 Oct 2015 13:22:22 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::232 as permitted sender) client-ip=2607:f8b0:4002:c07::232;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c07::232 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-yk0-domain.com with SMTP id a4so163234835ykb.3
+        for <user@domain.com>; Mon, 26 Oct 2015 13:22:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: antonio.r.garciapadilla@gmail.com
+         :message-id:date:to;
+        bh=ivobNfJ4HyyRRzqo0uCoxoK+fs8qqdv0XL9jzJwHjlg=;
+        b=Lik9eBMaM+LfrHJOiWgvdMB29UiDNPVX64HB5Y8n7nkTRzBaZklf96y+EDZfcOZayM
+         sgVRACrRUOroToKLnzTOWxtfHiN+jRUfCUQUd20QbQtk4c8JB5H53GrL9jjMgzk/FvOu
+         h58nXAkx4IaLxRZuc0PjZOZMpsTv3QmuCKyqJYPn85lgNl51vbj0CsxAme1XFfThCbsW
+         w1CSBIpLHADEWsrk4U8Mj3sYblq2OrVNilf6Z5MqdsJMkEUx/b1aAwapMmjYai++Fh1Q
+         GMS6KVkImJDZ8dJCzFnVazBQBFZP5bo4wuozcR1AYmdmRFODWYYpnJttO+i1qyDGBWk8
+         mWJg
+X-Received: by 10.129.77.68 with SMTP id a65mr30398705ywb.180.1445890941826;
+        Mon, 26 Oct 2015 13:22:21 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from [10.136.229.47] (mobile-166-172-186-007.domain.com. [166.172.186.7])
+        by smtp.gmail.com with ESMTPSA id g65sm6309031ywa.30.2015.10.26.13.22.20
+        for <user@domain.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 26 Oct 2015 13:22:20 -0700 (PDT)
+From: antonio.r.garciapadilla@gmail.com
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Puerto Rico
+Message-Id: <33user@domain.com>
+Date: Mon, 26 Oct 2015 16:22:30 -0400
+To: user@domain.com
+X-Mailer: iPhone Mail (13A342)
+
+Hi John:
+
+Can we talk some time this week?  This is about Puerto Rico's efforts in DC. 
+
+Thanks so much.
+
+All the best,  user Garcia Padilla
+
+Sent from my iPhone

@@ -1,0 +1,74 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.194 with SMTP id 63csp2176026lfy;
+        Mon, 2 Feb 2015 06:31:00 -0800 (PST)
+X-Received: by 10.52.13.73 with SMTP id f9mr1057479vdc.7.1422887459228;
+        Mon, 02 Feb 2015 06:30:59 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.201])
+        by domain.com with ESMTPS id b9si9016492vda.7.2015.02.02.06.30.57
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Mon, 02 Feb 2015 06:30:59 -0800 (PST)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.201;
+Authentication-Results: domain.com;
+       spf=none (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.241.243] by server-9.bemta-8.domain.com id 7E/E4-03006-51A8FC45; Mon, 02 Feb 2015 14:30:45 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-15.tower-192.domain.com!1422887442!8992944!4
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.5; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 22868 invoked from network); 2 Feb 2015 14:30:45 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-15.tower-192.domain.com with AES256-SHA encrypted SMTP; 2 Feb 2015 14:30:45 -0000
+Resent-From: Shibley Telhami <sadat@umd.edu>
+Received: from domain.com (216.82.243.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Mon, 2 Feb 2015 09:30:44 -0500
+Received: from [216.82.241.243] by server-17.bemta-8.domain.com id
+ 22/50-02755-41A8FC45; Mon, 02 Feb 2015 14:30:44 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-2.tower-192.domain.com!1422887441!8997663!1
+X-Originating-IP: [128.8.162.151]
+X-SpamReason: No, hits=0.1 required=7.0 tests=HTML_MESSAGE,TO_CC_NONE
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.5; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 31098 invoked from network); 2 Feb 2015 14:30:43 -0000
+Received: from sdc-mx2.umd.edu (HELO sdc-mx2.umd.edu) (128.8.162.151)  by
+ server-2.tower-192.domain.com with RC4-SHA encrypted SMTP; 2 Feb 2015 
+ 14:30:43 -0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: A2F9JgAYg89U/5MVCIBbgkOBFVoDshoBAQEBAQEGUwEBIYJHjwWFbQIogTMBAQEBAQN6gnUsHkUKBS1eAQweViYBH4VpgjwNr0mgFQGFN4YEiUODLiCBEwWZRYMDjkIigUUMYYE8gjN+AQEF
+X-IronPort-AV: E=Sophos;i="5.09,506,1418101200"; 
+   d="scan'208,217";a="318206930"
+Received: from oitmx1003.umd.edu (HELO exch.mail.umd.edu) ([128.8.21.147])  by
+ sdc-mx2-relay.umd.edu with ESMTP/TLS/AES128-SHA; 02 Feb 2015 09:30:36 -0500
+Received: from OITMX1006.AD.UMD.EDU ([169.254.6.22]) by OITMX1003.AD.UMD.EDU
+ ([169.254.3.80]) with mapi id 14.03.0224.002; Mon, 2 Feb 2015 09:30:34 -0500
+From: Shibley Telhami <sadat@umd.edu>
+Subject: The Foreign Policy Essay: The Prisms Through Which Americans View
+ the Middle East
+Thread-Topic: The Foreign Policy Essay: The Prisms Through Which Americans
+ View the Middle East
+Thread-Index: AdA+9MPX33HRT6iUR0O2kHB44v9IOg
+Date: Mon, 2 Feb 2015 14:30:33 +0000
+Message-ID: <6271user@domain.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [128.8.1.161]
+Content-Type: multipart/alternative;
+	boundary="_000_6271B897D5480C4EB454A5BFCA6B5A0B0B457113OITMX1006ADUMDE_"
+MIME-Version: 1.0
+To: Undisclosedrecipients:
+
+Below, please find an article by Shibley Telhami and Katayoun Kishi in Lawf
+are on the prisms through which Americans view the Middle East.
+
+<<link>>
+ugh-which-americans-view-the-middle-east/
+

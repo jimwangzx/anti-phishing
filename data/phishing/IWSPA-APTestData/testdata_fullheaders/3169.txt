@@ -1,0 +1,74 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.264.0; Mon, 10 Mar 2015 06:37:57 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2ADbvWk003161	for <user@domain.com>; Mon, 10 Mar 2015 
+ 13:37:57 GMT
+Received: from mail242-tx2-domain.com (mail-domain.com [65.55.88.112])
+	by domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s2ADdEPR023384	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128
+ verify=FAIL)	for <user@domain.com>; Mon, 10 Mar 2015 13:39:15 GMT
+Received: from mail242-tx2 (localhost [127.0.0.1])	by
+ mail242-tx2-domain.com (Postfix) with ESMTP id F0E5D240080	for
+ <user@domain.com>; Mon, 10 Mar 2015 13:37:55 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:209.162.194.127;KIP:(null);UIP:(null);SRV:BULK;H:mx127.b2b-domain.com;RD:mx127.b2b-domain.com;EFVD:NLI
+X-SpamScore: 10
+X-BigFish: vps10(z579ehzc89bhc857h77f5h609Izz1f42h2148h208ch1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h10c0jzz1de098h1def03h17326ah1def87h8275bh1bc7b9h1def86h1de097h186068h1ce120hf9138oz2fh5eh5fh594h839h8aahd25h10d2h1288h12a5h12bdh137ah13eah1441h1537h153bh162dh1631h1758h18e1h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h25f6h2605h1361i214ai1155h1362h)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail242-tx2: domain of b2b-domain.com designates 209.162.194.127 as permitted sender) client-ip=209.162.194.127; user@domain.com; helo=mx127.b2b-domain.com ;b2b-domain.com ;
+Received: from mail242-tx2 (localhost.localdomain [127.0.0.1]) by mail242-tx2
+ (MessageSwitch) id 1394458674130511_5418; Mon, 10 Mar 2015 13:37:54 +0000
+ (UTC)
+Received: from domain.com (unknown [10.9.14.225])	by
+ mail242-domain.com (Postfix) with ESMTP id 0074FC01A3	for
+ <user@domain.com>; Mon, 10 Mar 2015 13:37:53 +0000 (UTC)
+Received: from mx127.b2b-domain.com (209.162.194.127) by
+ domain.com (10.9.99.142) with Microsoft SMTP Server id
+ 14.16.227.3; Mon, 10 Mar 2015 13:37:51 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=aodkim; d=whitepaperwizard.com;
+ h=Message-ID:Date:From: Whitepaper Wizard <wizard@whitepaperwizard.com>
+ bh=/qTX0zK1CVU0zMRSEPBRXm/U3Y4=;
+ b=p/foVPR3wt/FeEVnkf7Z485x1vJB33zqOrVeVovV4Vox8iMxysToo5sn7obhZmJqeRZGiY/HQGG5
+   3KfQEPcBZ9xTdKHxx3zdliiiVw6xSl8ZKYA5y5JRW+Q9kXB1O3vPPyiJ26Nx9YbZ5NCm3l6ersil
+   TQdJerg9GoxqwgmRIlc
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=aodkim; d=whitepaperwizard.com;
+ b=NOtvvYZag/iEHQ+ONz6yqRbkicqu5bJIXvda8UHJUZWy5wuzBPGn8OlACAWUTZpu3yW6ar4iGltS
+   teHl6hPwxzPETa4Hy5BJeOC0gNLswGcVLsWREAtlxIhs+ZkuufHc108/UB5ttwzJJnFoR50Ej+7N
+   Uk8S46xcP1B0jScRVis=;
+Received: from 10.10.40.64 (172.16.0.16) by mx127.b2b-domain.com id h3n02u1gs50h
+ for <user@domain.com>; Mon, 10 Mar 2015 06:37:51 -0700 (envelope-from
+ <user@domain.com>)
+Message-ID: <XBVYATZXB$UWCXXYBZAUXAW@10.10.40.64>
+Date: Mon, 10 Mar 2015 06:37:51 -0700
+From: Whitepaper Wizard <wizard@whitepaperwizard.com>
+Reply-To: Whitepaper Wizard <user@domain.com>
+To: AMY PASCAL <user@domain.com>
+Subject: How to Give Your Collaboration Process a Smooth, Visual, Social
+ Edge
+X-MESSAGEID: WCZX.rEUUUV.KVWHK.mEWUZVEVYUX
+X-COD: ^^184.169.176.89/acton/delivery?accountid=2853&msuid=s-2051-1403&rcptid=l-0001%3Ae12be&srcid=q-03b9
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+How to Give Your Collaboration Process a Smooth, Visual, Social Edge
+
+Tech Flash       
+
+
+
+
+How to Give Your Collaboration Process a Smooth, Visual, Social Edge
+
+Today, the pressure of fierce competition, cost reduction, and regulatory compliance makes long application delivery cycles unacceptable to business stakeholders. Many organizations get held back in the development cycle due to requirements problems that stem from poor communication between IT and business stakeholders. But what if we tell you that with the right enterprise requirements collaboration platform, you can say goodbye to these woes and ensure collaboration between teams for a smooth requirements management process?
+
+This paper introduces an enterprise requirements platform that enables business and IT stakeholders to author, validate, and manage the requirements process collaboratively. Download this reader and find out how you can take your collaboration capacity and efficiency to a whole new level.
+
+View Report
+
+
+
+ <<link>>
+

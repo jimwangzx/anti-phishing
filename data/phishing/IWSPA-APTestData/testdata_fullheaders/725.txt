@@ -1,0 +1,151 @@
+Received: from domain.com (146.215.230.105) by
+ domain.com (43.130.141.78) with Microsoft SMTP Server id
+ 8.3.342.0; Tue, 1 Jul 2015 10:52:59 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s61Hqwxe029178	for <user@domain.com>; Tue, 1 Jul 2015 
+ 17:52:59 GMT
+Received: from mail114-va3-domain.com (mail-domain.com
+ [216.32.180.113])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s61HlVrg027559
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 1 Jul 2015 17:47:31 GMT
+Received: from mail114-va3 (localhost [127.0.0.1])	by
+ mail114-va3-domain.com (Postfix) with ESMTP id 2FAE81C0278	for
+ <user@domain.com>; Tue,  1 Jul 2015 17:52:58 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:66.117.251.193;KIP:(null);UIP:(null);IPV:NLI;H:enews.sbmedianews.com;RD:enews.sbmedianews.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(z59c9hz9371Idddah3a5eM77f5hzz1f42he68I1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzebhz1d7338h1de098h1def03h17326ah16fI1def87h8275bh1bc7b9h8275dh1defc1h1def86h18c673h1de097h186068h1954cbh122ac1I70ddl178338k1ce121iz2fheh5eh5fh839h93fh950ha12h10d2h1288h12a5h137ah13b6h13eah1441h14ddh1537h153bh158dh162dh1631h1758h18e1h1946h19b5h224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h2216h2336h2438h2461h2487h24d7h2516h2545h255eh25f6h2605h268bh26d3h27e2h282bh28a1h29d0h2a24h259bi27ebi)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail114-va3: domain of enews.sbmedianews.com designates 66.117.251.193 as permitted sender) client-ip=66.117.251.193; user@domain.com; helo=enews.sbmedianews.com ;domain.com ;
+Received: from mail114-va3 (localhost.localdomain [127.0.0.1]) by mail114-va3
+ (MessageSwitch) id 140423717526443_22537; Tue,  1 Jul 2015 17:52:55 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.244])	by
+ mail114-domain.com (Postfix) with ESMTP id ECD04600EA	for
+ <user@domain.com>; Tue,  1 Jul 2015 17:52:54 +0000 (UTC)
+Received: from enews.sbmedianews.com (66.117.251.193) by
+ domain.com (10.7.99.26) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 1 Jul 2015 17:52:54 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; q=dns/txt; l=51235;
+ d=enews.sbmedianews.com;s=03092012;
+ h=from : list-unsubscribe : from : list-unsubscribe;
+ bh=hJrivf4Cl11OeItAL8MWPxw/xKuXgyKFzYrMUeRX69Q=;
+ b=jyLUL4zyM0V97Me7n5qmvf+kDZfX6vFqOKJFpewL2w59NJWIIs/ET5GOW5l1gfa6vE45S0bo
+ 77W1FE8xzXIPXMSi0W60yZHdFBL86aNZpm/29aaSUwgyxILh/Qm/G0bMo7sHPKhcJv29h9SL
+ tSxp9BCIbgl4GprOtaHeAbnCWrY=;
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=03092012; d=enews.sbmedianews.com;
+ h=From: WIPL <admin@enews.sbmedianews.com>
+ b=GtQaF51yRPQUGBsDlOZ8VW5G7MWdaT4R+Bb6SzXryH3IhodrutwOLbnbXlwHU/I8vT/XyGkU 2+MDNRf9CE3E+avHS4nEdiShc8uxGpILRJQWKAfxK27ohowJYwfr9ieLsPtPWWszFSadvr9q
+ HSTw+FryoTjazspFFEpjnJHMd+I
+From: WIPL <admin@enews.sbmedianews.com>
+To: <user@domain.com>
+Subject: Klobuchar scrutinizes AT&T/Direct TV deal, transparency after a compliance failure, and more
+Date: Tue, 1 Jul 2015 13:46:38 -0400
+Reply-To: <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com>
+Message-ID: <LYRIS-167857118-5331202-2014.07.01-13.50.06--leah_weil#user@domain.com>
+Return-Path: user@domain.com
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1224682741_-_-"
+
+Klobuchar scrutinizes AT&T/Direct TV deal, transparency after a compliance failure, and more
+
+View this email in your browser         
+
+Women, Influence and Power in Law Network        
+
+Accelerating the economic empowerment of women   ::   July 1, 2014       
+
+Inside   Compliance      Litigation      Intellectual Property   Technology      
+
+Featured Story   
+
+<<link>>   
+
+Minn. senator scrutinizes AT&T/DirectTV deal    
+
+Klobuchar, who chairs the Judiciary Antitrust Subcommittee, questioned top officials from AT&T and DirectTV about how the proposed merger would impact prices,  
+
+Power Plays      
+
+Orrick’s Higgins advises on Southern Star $450M private offering        
+
+Baker & McKenzie advises on $5.7B international insurance deal  
+
+Hughes Hubbard’s Downie and Voisin advise on Merck acquisition  
+
+Inside Moves     
+
+Kennedy named acting GC at VA   
+
+Senomyx names Lee VP, GC and corporate secretary        
+
+Costin to sign off from Pandora         
+
+Coverys names Bagley VP, GC     
+
+Perspectives     
+
+Transparency after a compliance failure: FAQs finally answered  
+
+IP protection: What are trademarks, service marks and logos?    
+
+Employers fight back against whistleblowers     
+
+Navigating ITC rules and practices      
+
+         Twitter         LinkedIn        Email          
+
+<<link>>     
+
+<<link>>     
+
+<<link>>     
+
+Litigation       
+
+ <<link>>    Hobby Lobby decision creates controversy about contraception, Obamacare         
+
+The Burwell vs. Hobby Lobby Stores, Inc. case, which was narrowly decided by the U.S. Supreme Court, has led to a lot of controversy.   
+
+Plus:    
+
+Facebook researchers apologize for unconsented user research    
+
+GM announces more recalls on top of record numbers      
+
+Lawyers, experts may earn close to $400M from American Airlines bankruptcy      
+
+         Profile         
+
+InsideScoop      
+
+Heidi Levine, DLA Piper         
+
+Levine is the co-managing partner of the New York office        
+
+Commercial Transactions  
+
+ <<link>>        Priceline to purchase restaurant booking company OpenTable Inc. for $2.6 billion        
+
+The Priceline Negotiator picks up another sale, connecting Priceline Group Inc. itself to a valuable property in the restaurant bookings business: OpenTable Inc.       
+
+Plus:    
+
+Rightscorp’s service poised to become the online copyright monetization of entertainment        
+
+Bayer purchases Merck’s consumer care business for $14.2 billion        
+
+Intellectual property drives M&A transactions   
+
+         Profile         
+
+InsideScoop      
+
+Christine LaFollette, Akin Gump         
+
+LaFollette is partner
+

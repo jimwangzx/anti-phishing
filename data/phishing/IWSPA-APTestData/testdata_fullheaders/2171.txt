@@ -1,0 +1,168 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.194 with SMTP id 63csp108052lfy;
+        Tue, 3 Feb 2015 13:28:47 -0800 (PST)
+X-Received: by 10.140.86.75 with SMTP id o69mr50949115qgd.98.1422998926042;
+        Tue, 03 Feb 2015 13:28:46 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.243.202])
+        by domain.com with ESMTPS id hd10si29557824qcb.6.2015.02.03.13.28.45
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=RC4-SHA bits=128/128);
+        Tue, 03 Feb 2015 13:28:46 -0800 (PST)
+Received-SPF: none (domain.com: user@domain.com does not designate permitted sender hosts) client-ip=216.82.243.202;
+Authentication-Results: domain.com;
+       spf=none (domain.com: user@domain.com does not designate permitted sender hosts) user@domain.com;
+       dkim=fail user@domain.com
+Return-Path: <user@domain.com>
+Received: from [216.82.241.243] by server-10.bemta-8.domain.com id 6E/3E-02752-D8D31D45; Tue, 03 Feb 2015 21:28:45 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-13.tower-192.domain.com!1422998920!8401958!9
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.4; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 8158 invoked from network); 3 Feb 2015 21:28:44 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-13.tower-192.domain.com with AES256-SHA encrypted SMTP; 3 Feb 2015 21:28:44 -0000
+Resent-From: t r u t h o u t <messenger@truthout.org>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server id
+ 14.3.210.2; Tue, 3 Feb 2015 16:28:43 -0500
+Received: from [216.82.254.83] by server-13.bemta-7.domain.com id
+ 8B/93-02772-A8D31D45; Tue, 03 Feb 2015 21:28:42 +0000
+X-Env-Sender: 2403165433-1320020-user@domain.com
+X-Msg-Ref: server-12.tower-197.domain.com!1422998919!6050841!1
+X-Originating-IP: [69.174.83.168]
+X-SpamReason: No, hits=-2.2 required=7.0 tests=sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY4ID0+IDI5NzY2\n,sa_preprocessor: 
+  QmFkIElQOiA2OS4xNzQuODMuMTY4ID0+IDI5NzY2\n,BODY_RANDOM_LONG,HTML_MESSAGE,
+  ML_RADAR_FP_R_124,spamassassin: 
+X-StarScan-Received: 
+X-StarScan-Version: 6.12.5; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 20546 invoked from network); 3 Feb 2015 21:28:39 -0000
+Received: from domain.com (HELO domain.com) (69.174.83.168)
+  by server-12.tower-197.domain.com with SMTP; 3 Feb 2015 21:28:39 -0000
+DKIM-Signature: v=1; a=rsa-sha1; d=domain.com; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; user@domain.com; t=1422998919;
+	h=From: t r u t h o u t <messenger@truthout.org>
+	bh=JeikM865X1UitfbIiMxqJR2PbUw=;
+	b=A2paHvYxHqsvA9QRxFOyYB/JNvFM5HPvPEA+CfVehQKn4vb5caXIBUP4SqVUvR5+
+	/JxPSrr3eG5mco+0RqGEaKoIAbBn/zLxFv6vHxSLg35q0hY9LWuQ3FUVKPK7sCCg
+	lludhZBoFalZ9BIhlGzQOIJGYwCfpFBZDkY02NK25VQ=;
+Received: from [10.174.83.200] ([10.174.83.200:33475]
+ helo=domain.com)	by domain.com (envelope-from
+ <2403165433-1320020-user@domain.com>)	(ecelerity
+ 3.5.10.45038 r(Core:3.5.10.0)) with ESMTP	id 68/22-07566-78D31D45; Tue, 03
+ Feb 2015 16:28:39 -0500
+Date: Tue, 3 Feb 2015 16:28:39 -0500
+From: t r u t h o u t <messenger@truthout.org>
+Sender: <user@domain.com>
+Reply-To: <user@domain.com>
+To: user@domain.com
+Message-ID: <2403165433.-1030024170@domain.com>
+Subject: David Harvey: Looking Toward a Moneyless Economy and Sleeping Well
+ at Night
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_2337258_980688944.1422998919482"
+Envelope-From: t r u t h o u t <messenger@truthout.org>
+List-Unsubscribe: <<<link>>>
+X_email_KEY: 2403165433
+X-campaignid: salsaorg26694-1320020
+
+t r u t h o u t | 02.03
+
+Laura Flanders | David Harvey: Looking Toward a Moneyless Economy and Sleeping Well at Night
+<<link>>
+Laura Flanders, Truthout: Author and professor David Harvey speaks with Laura Flanders on some of the contradictions of capitalism, the loss of meaningful jobs and possible alternatives to the current social and economic system.
+
+Wheeler to Take Title II Route in Net Neutrality Proposal
+<<link>> 
+Mike Ludwig, Truthout: Federal Communications Commission Chairman Tom Wheeler is expected to propose regulating the domain.com more like a public utility, a move that activists argue is the only way to establish strong net neutrality rules that will stand up to court challenges from the broadband industry.
+
+Jesse Hagopian: "I Was Pepper-Sprayed by Seattle Police on MLK Day"
+<<link>>
+Jesse Hagopian, The Nation: "I still don't know how to talk to my kids about what happened. What do I have to do so that when my sons have grown up and recall the 63rd annual MLK Day celebration, it is about remembering past trials of injustice rather than endlessly reliving them?"
+
+Beware the Best of Times
+<<link>>
+Martin Kirk, Truthout: The UN, large corporations and NGOs want us to believe that poverty has been halved in the last 15 years and can be eradicated by 2030. Are their claims justified, and their motivations pure?
+
+Wildlife Conservation Efforts Are Violating Tribal Peoples' Rights
+<<link>>
+Stephen Corry, Truthout: Conservation is failing to achieve its stated objectives, partly because it routinely violates tribal peoples' rights. From tiger reserves in India, to ancestral forests in Cameroon, the work of conservation organizations like the World Wildlife Fund is forcing indigenous peoples off their land in the name of protecting nature.
+
+The Super-Rich Can't Hide From the Rest of Us
+<<link>>
+Michael Winship, Moyers & Company: The rich are getting ready to run away from the mess they've helped create. The wealthy hedge fund managers buying up remote retreats far from the madding crowd shouldn't be hiding out of fear. They should be hiding out of shame.
+
+Amy Goodman | Amid Violence Against Journalists Worldwide, Egypt Releases One of Three Jailed Al Jazeera Reporters
+<<link>>
+Amy Goodman, Democracy Now!: Al Jazeera journalist Peter Greste has been released from an Egyptian prison after 400 days behind bars. Greste and two of his Al Jazeera colleagues, Mohamed Fahmy and Baher Mohamed, were convicted on terrorism charges in a case widely denounced as a sham.
+
+Fracking Industry Showdown Preceding Stricter Fugitive Emissions Ordinances in Mansfield, Texas
+<<link>>
+Julie Dermansky, DeSmogBlog: The issue of fugitive emissions is one of the reasons that the Mansfield City Council is struggling with how to handle a request from another oil and gas company, Edge Resources, to renew an expired domain.com. Approving the domain.com would allow Edge Resources to pursue fracking in a neighborhood.
+
+What Is the Houthi Takeover in Yemen About?
+<<link>>
+Lizabeth Paulat, Care2: In just under two weeks, Yemen has been plunged into chaos that, analysts are saying, could change the face of the nation forever. It started on January 22 when Yemeni President Abdu Rabbu Mansour Hadi resigned amid pressure from Houthi rebel forces.
+
+Unbought Slate Wins Against Democrats-for-Chevron
+<<link>>
+Jane Slaughter, Labor Notes: It's not often that a city council race in a city of 100,000 draws national attention. It happened in Richmond, California, this past fall, because one big corporation was so shameless in its open attempt to buy the election.
+
+On the News With Thom Hartmann: Obama Administration Releases Plan for Offshore Drilling, and More
+<<link>>
+In today's On the News segment: The Obama administration proposes opening up new areas along our coastline to fossil fuel extraction; Maine may be stuck with Gov. Paul LePage for another four years, but at least the state's got a coal-free university system; North Dakota's oil industry is tired of all those pesky regulations; and more.
+
+TRUTHOUT'S BUZZFLASH DAILY HEADLINES
+
+Massive Deaths in Border Desert Caused by US Immigration Policy
+<<link>>
+Mark Karlin, BuzzFlash at Truthout: The situation is a full-blown humanitarian catastrophe, and US government border enforcement strategy is directly implicated in the dramatic increase in attempted Mexican border crossing deaths.
+
+"American Sniper" Takes a Shot at History and Turns It Into Deadly Jingoism
+Read the Article at BuzzFlash
+<<link>>
+
+The United States' Real National Security Budget: A Trillion Dollars a Year
+Read the Article at Medium
+<<link>>
+
+Vaccination Debate Flares in GOP Presidential Race, Alarming Medical Experts
+Read the Article at The Washington Post
+<<link>>
+
+How the Roberts Supreme Court Has Strengthened the Powerful and Screwed Everyone Else
+Read the Article at The Nation
+<<link>>#
+
+Leader of War Crimes Inquiry Into 2015 Gaza Conflict Resigns
+Read the Article at The New York Times
+<<link>>
+
+Charles P. Pierce: The President Picks a Fight Over the Budget
+Read the Article at Esquire
+<<link>>
+
+The Real Reason the US Military Was So Secretive About Afghanistan
+<<link>>
+Read the Article at Vice
+
+-----------
+Support Truthout with a tax-deductible donation by clicking here: <<link>>
+
+To ensure you receive our messages please add the following address to your email address book: user@domain.com
+
+If you are having trouble with this, read our guide: <<link>>
+
+Thank you!
+
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+
+Click to UNSUBSCRIBE -> <<link>>
+Go directly to our home page: <<link>>
+Click to SUBSCRIBE -> <<link>>
+Our Privacy Policy -> <<link>>

@@ -1,0 +1,98 @@
+Received: from domain.com (146.215.230.102) by
+ domain.com (43.130.141.76) with Microsoft SMTP Server id
+ 8.3.342.0; Thu, 8 May 2015 13:25:14 -0700
+Received: from domain.com ([160.33.194.231])	by
+ domain.com (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with
+ ESMTP id s48KPC7q010798	for <user@domain.com>; Thu, 8 May 2015 
+ 20:25:12 GMT
+Received: from mail230-va3-domain.com (mail-domain.com
+ [216.32.180.117])	by domain.com
+ (Sentrion-MTA-4.2.2/Sentrion-MTA-4.2.2) with ESMTP id s48KQm92014135
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Thu, 8 May 2015 20:26:49 GMT
+Received: from mail230-va3 (localhost [127.0.0.1])	by
+ mail230-va3-domain.com (Postfix) with ESMTP id 1663C4401F4	for
+ <user@domain.com>; Thu,  8 May 2015 20:25:12 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:192.64.237.139;KIP:(null);UIP:(null);IPV:NLI;H:mx-about-domain.com;RD:mx-about-domain.com;EFVD:NLI
+X-SpamScore: 1
+X-BigFish: vps1(zzc89bh758Ic857hc545Idbb0izz1f42h2148h1ee6h1de0h1fdah2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208chzz8275ch1d7338h1de098h1def03h17326ah1def87h8275bh1bc7b9h8275dh1defc1h1def86h1de097h186068h172c6ch1ce120h1a691ciz2fheh5fh839he5bh1288h12a5h137ah139eh13eah1441h14ddh1504h1537h162dh1631h1758h1898h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1e23h1fe8h1ff5h20f0h2218h2216h226dh24afh2327h2336h2438h2461h2487h24d7h2516h2545h2565h25f6h2605h268bh26d3h27e2h214ai)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail230-va3: domain of domain.com designates 192.64.237.139 as permitted sender) client-ip=192.64.237.139; user@domain.com; helo=mx-about-domain.com ;domain.com ;
+Received: from mail230-va3 (localhost.localdomain [127.0.0.1]) by mail230-va3
+ (MessageSwitch) id 1399580710515136_32139; Thu,  8 May 2015 20:25:10 +0000
+ (UTC)
+Received: from domain.com (unknown [10.7.14.228])	by
+ mail230-domain.com (Postfix) with ESMTP id 79B7E4800A6	for
+ <user@domain.com>; Thu,  8 May 2015 20:25:10 +0000 (UTC)
+Received: from mx-about-domain.com (192.64.237.139) by
+ domain.com (10.7.99.43) with Microsoft SMTP Server id
+ 14.16.227.3; Thu, 8 May 2015 20:25:10 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=domain.com;
+ h=Date:From: Variety Breaking News <donotreply@variety.com>
+ bh=HXwAJheh//MsX0CjjD925h+LGd4=;
+ b=eOJWiZjIoDON9GLKmroPeZk7lETIIrDA7QrE30crFfqZaMSIpTb72c7cRstzpTGb+hgQ5tamuTaI
+   TUsSP0KywfUud2Qu4g0KPdHCVT9d5059GGwBE8kN/HOu2Pg31KX5KrINUNbqZQUvzcaqgkuxmaC8
+   8sUrOqCOC6/7SC83WDw
+Received: from nyp1-p-p4136-prd-jma-04.sailthru.pvt (64.34.57.233) by
+ mx-about-domain.com id hdfk2m1qqbs5 for <user@domain.com>; Thu, 8
+ May 2015 16:25:15 -0400 (envelope-from <user@domain.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1399580707;
+	s=sailthru; d=variety.com;
+	h=Date:From: Variety Breaking News <donotreply@variety.com>
+	bh=KMNLeKOnvIxf7wO+qCbQb95E2OglE33vePaNdVF0jns=;
+	b=G4SCsY/C/sH3JPjlnPOzCOvQ4JNimgiufwWDF5e9f+ukFVKtGWpArK1fsZi3kcMk
+	4gNhB5gnTQg3xC6b45dkEObyd4NCG6SDE0J20TdS5tr2fa+KJQLgCWqSdujm0gk85Pz
+	aG58efoLU+Yvb294BjSxm0WiKrkTuDb/e2wYcQVk
+Date: Thu, 8 May 2015 16:25:07 -0400
+From: Variety Breaking News <donotreply@variety.com>
+To: <user@domain.com>
+Message-ID: <20140508202507.2638360.18900@domain.com>
+Subject: NBC Orders Comedy 'A to Z'; More to Come
+Precedence: bulk
+X-TM-ID: 20140508202507.2638360.18900
+X-Info: Message sent by domain.com customer Variety
+X-Info: We do not domain.com unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: user@domain.com
+X-Mailer: domain.com
+X-JMailer: nyp1-p-p4136-prd-jma-04.sailthru.pvt
+X-IADB-IP: 65.39.215.25
+X-IADB-IP-REVERSE: 25.215.39.65
+X-IADB-URL: <<link>>
+X-Unsubscribe-Web: <<link>>
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+X-rpcampaign: stcoy2638360
+Return-Path: user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+NBC Orders Comedy 'A to Z'; More to Come
+
+NBC has given a series order to romantic comedy "A to Z," from scribe Ben Queen and exec produce... 
+
+​ 
+
+Variety         
+
+Breaking News   
+
+Thursday, May 8, 2015   
+
+​ 
+
+<<link>> 
+
+        NBC Orders Comedy 'A to Z'; More to Come                
+
+        NBC has given a series order to romantic comedy "A to Z," from scribe Ben Queen and exec producer Rashida Jones. Warner Bros. TV ...            
+
+        Full Story              
+
+
+
+
+Check out the redesigned Variety411      <<link>>         
+
+This email was sent to user@domain.com by Variety. To ensure delivery to your inbox (and no
+

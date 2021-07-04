@@ -1,0 +1,329 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp2405011lfi;
+        Tue, 26 May 2015 10:23:54 -0700 (PDT)
+X-Received: by 10.236.8.97 with SMTP id 61mr24565481yhq.95.1432661033693;
+        Tue, 26 May 2015 10:23:53 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-yh0-domain.com (mail-yh0-domain.com. [2607:f8b0:4002:c01::22e])
+        by domain.com with ESMTPS id u84si3691800ykb.107.2015.05.26.10.23.53
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 26 May 2015 10:23:53 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::22e as permitted sender) client-ip=2607:f8b0:4002:c01::22e;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4002:c01::22e as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yh0-domain.com with SMTP id r66so32479192yhr.3
+        for <user@domain.com>; Tue, 26 May 2015 10:23:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:From: Adrienne Elrod <aelrod@hillaryclinton.com>
+        bh=CwNtIz9jFNQ6N8T1tZ6jcVu0vS5GKAX1Ib0un4TJ+Kk=;
+        b=OyEG4jGT5KIc+evZ6Jf4/aTDak2Zc/lizRnxA5eFjOsrhJ5U6KUWCGJiz4JFPHSXGy
+         dEWRQScx9nFJiHvZHQVoHSYsLtsQhYju5TXgNy7aZFKcYF8l2Fu71qO3qJX5FsROgQkr
+         +XDrMpiL1/qtQtEEhruPc/5Nwb2t2Jhwtg3h4
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:From: Adrienne Elrod <aelrod@hillaryclinton.com>
+         :content-type;
+        bh=CwNtIz9jFNQ6N8T1tZ6jcVu0vS5GKAX1Ib0un4TJ+Kk=;
+        b=A27ItgUDVr0Fu60nUq8yXr1xYO0hyZwuNw9LFEItLl3Uw7N/r6bBrDufcD/ms5Gq75
+         YKfwJbBkulKVaxCFQsSNW+i3KZeW5ObbZkQuARWep0CBgfbmk0uQVExOQP3OoR0ep7NR
+         ajzpcZ696fwJqT7GA6yZmztpNiSlYst4eF283xkzNgZYg2ISw0LdDrsHYq3S0zpb+DH8
+         SPm9IbmC6HVjsFyhPIU+ejMf+pnMW0DMCBXTfIb7aqGUIm+HBUj50aBtfBtK0BvDEFO2
+         xg3EMwsQfkmzvDnc//cCxh6MPOC3sFMkqOqjUFTEGMImyTT0taopSfPEIC8v7OsNTmFb
+         SkRA
+X-Gm-Message-State: ALoCoQl3GAZmquaOWdQWtacEh6Kva3hZuutXHs0XaguLjQQ1qnE2l80FbgvIhjioqp4CDjLKyAeI
+MIME-Version: 1.0
+X-Received: by 10.236.38.41 with SMTP id z29mr24415825yha.103.1432661032921;
+ Tue, 26 May 2015 10:23:52 -0700 (PDT)
+Received: by 10.13.235.200 with HTTP; Tue, 26 May 2015 10:23:52 -0700 (PDT)
+Date: Tue, 26 May 2015 13:23:52 -0400
+Message-ID: <CANu9wN4TyB4fpQQyB+user@domain.com>
+Subject: **Hillary Clinton to domain.com the Palmetto State Tomorrow**
+From: Adrienne Elrod <aelrod@hillaryclinton.com>
+To: Adrienne Elrod <user@domain.com>
+Content-Type: multipart/alternative; boundary=089e011842ecf386900516ff6391
+BCC: user@domain.com
+
+Friends -
+
+Hope all of you had a great Memorial Day weekend!
+
+Hillary Clinton will be making her first trip as a 2015 presidential
+candidate to South Carolina tomorrow and as such, we wanted to share with
+you a smattering of the grassroots energy and enthusiasm that's happening
+on the ground.
+
+Please see a sample of local news clips below, previewing Clinton's trip
+below.
+
+Thanks!
+
+AE
+
+*Here=E2=80=99s what South Carolinians are hearing: *
+
+ABC News 4 Charleston - Morning News
+<<<link>>
+%206:36:31%20AM&playclip=3Dtrue>
+
+Hillary Clinton will make her first campaign domain.com to the Palmetto State
+Wednesday. She will deliver a key note address to the House Women's Caucus
+and the South Carolina women's council. A grassroots phone bank opened last
+week in Colombia.
+
+ABC Columbia =E2=80=93 6 PM Evening News
+<<<link>>
+%206:05:58%20PM&playclip=3Dtrue>
+
+The Clinton campaign is open for business in South Carolina. Happening
+right now Hillary Clinton staffers are
+celebrating the opening of the democratic presidential candidate's palmetto
+state headquarters on Richland Street. Hillary Clinton is scheduled to
+domain.com South Carolina next week.
+
+WCCB Charlotte =E2=80=93 6 PM Evening News
+<<<link>>
+%206:12:29%20PM&playclip=3Dtrue>
+
+It's a block party for Hillary Clinton, a few dozen people, came out to
+celebrate the run for President and, find out how they can get involved
+in the campaign, this the last of the palmetto state and, should get her
+pumped-up.
+
+ABC Columbia =E2=80=93 Morning News
+<<<link>>
+%206:05:32%20AM&playclip=3Dtrue>
+
+A Democratic presidential hopeful will have her sights set on South
+Carolina next week. Hillary Clinton has a domain.com set for Wednesday, but
+tonight her campaign is hosting a neighborhood party here in the capital
+city. It starts at 7:30 on Killian Green Drive. Volunteers say the ideas
+to share ways for the community to get involved in the political process.
+
+Count on 2 NBC Charleston =E2=80=93 Morning News
+<<<link>>>
+
+Hillary Clinton's campaign hosting neighborhood parties across South
+Carolina. It begins at 6:30 tonight at south Hampton community room.
+Friends will meet with their neighbors to share their stories and get
+involved in Hillary Clinton's run for the White House.
+
+WACH Fox Columbia =E2=80=93 10 PM Evening News
+<<<link>>
+%2010:08:57%20PM&playclip=3Dtrue>
+
+The Hillary Clinton campaign is opening its first office in
+Columbia. The 2015 presidential candidate will be in the state one
+week from today. It will be her first domain.com to the state since announcing
+her second white house bid. TheClinton campaign plans to host a dozen
+neighborhood parties from low country to the upstate.
+
+WIS News 10 Columbia - 10 PM Evening News
+<<<link>>>
+
+The 2015 presidential election is less than 18 months away, but already
+volunteers for democratic front- runner Hillary Clinton are making calls
+try to drum-up support. The Hillary for South Carolina campaign opened its
+first state office in Columbia this evening. It was a busy night for
+volunteers making calls at tonight's phone bank, located on Richland
+Street. Next week, Clinton will make her first domain.com to the palmetto state
+since announcing her candidacy for the 2015 primary.
+
+Fox Carolina Greenville =E2=80=93 6 AM Morning News
+<<<link>>
+206:12:29%20AM&playclip=3Dtrue>
+
+Tuesday's launch is Clinton's first grassroots event, which is a
+volunteer phone bank organizers say they're focused on sharing Clinton's
+vision to build the south Carolina economy --and that Clinton will work
+hard to earn every vote in the first southern primary [=E2=80=A6.] We're to
+ld that
+in the coming weeks the campaign will kick off nearly a dozen house parties
+from the Lowcountry to theUpstate. You like that, don=E2=80=99t you? Keep i
+t
+real. The good old house party.
+
+CBS News 19 Columbia =E2=80=93 6 PM Evening News
+<<<link>>
+%206:07:35%20PM&playclip=3Dtrue>
+
+Meanwhile, the Hillary Clinton Presidential campaign announced that its
+first office in the state with the grassroots phone bank on Wednesday.
+The office
+is located in Columbia at 1529 Richland Street. Mrs. Clinton will be
+visiting South Carolina on Wednesday, May 27.
+
+ABC Columbia =E2=80=93 Morning News <<<link>>
+EUwXCmo>
+
+The campaign to elect Hillary Clinton for president has launched in South
+Carolina. Campaign staffers hosted a house party in Greenville Saturday.
+Supporters and friends were able to come out and learn how they could get
+involved.
+
+WSOC ABC Charlotte =E2=80=93 Midday News
+<<<link>>
+%2012:10:48%20PM&playclip=3Dtrue>
+
+Hilary Clinton will domain.com South Carolina later this month [=E2=80=A6] Her c
+ampaign
+in thestate will also hold grassroots events, including one in Rock Hill
+in the next few weeks.
+
+ABC News 4 Charleston =E2=80=93 Morning News
+<<<link>>
+%205:37:00%20AM&playclip=3Dtrue>
+
+Every vote counts. Hillary Clinton has pledged to work hard every day to
+earn every vote. The democrat's South Carolina campaign launched its
+first midlands grassroots eventWednesday. Volunteers held a phone
+bank focused on sharing Clinton's vision to build an economy to help
+South Carolinians get ahead and stay ahead.
+
+WBTW Myrtle Beach =E2=80=93 Morning News
+<<<link>>>
+
+With more presidential hopefuls announcing their candidacy, campaigning has
+started across the county. In the upstate, Hillary Clinton supporters
+started a phone bank. Addie Hampton reports: It's the first local campaign
+event for Clinton voters.
+
+*Here=E2=80=99s what South Carolinians are reading:*
+
+Hillary Clinton to speak at SC Democratic women=E2=80=99s event in Columbia
+<<<link>>
+e-buzz/article22149219.html#storylink=3Dcpy>
+
+Jamie Self // The State
+
+Democratic presidential hopeful Hillary Clinton is coming to Columbia on
+Wednesday for her first trip back to the Palmetto State since her 2015 
+presidential campaign.  The former secretary of state will give the keynote
+address at the third annual 2015 Day in Blue, the event=E2=80=99s co-hosts
+announced Sunday.
+
+Get ready for presidential politics
+<<<link>>
+residential-politics/70911876/>
+
+Greenville News // Dolph Bell
+
+South Carolina Democrats, meanwhile, are anticipating the arrival of their
+party=E2=80=99s presidential frontrunner, former First Lady, Senator and
+Secretary ofState Hillary Clinton, whose campaign has said she will
+domain.com the state this month, though details haven=E2=80=99t been released. C
+linton=E2=80=99s
+South Carolina campaign gathered volunteers for a phone bank in Greenville 
+on
+Tuesday and is promising nearly a dozen house parties at various locations
+around thestate in coming weeks.
+
+Clinton camps in Columbia
+<<<link>>
+e-buzz/article21183912.html#storylink=3Dcpy>
+
+The State // Jamie Self
+
+Hillary Clinton has a home in South Carolina. The campaign for the 2015 
+Democratic presidential front-runner has opened its South Carolina
+headquarters at 1529 Richland St. in Columbia=E2=80=99s Robert Mills Distri
+ct.
+
+Clinton campaign holding house party in Greenville
+<<<link>>#sto
+rylink=3Dcpy>
+
+AP
+
+The campaign to elect Hillary Rodham Clinton president is kicking off in
+South Carolina with a house party in Greenville. Campaign staffers
+for theDemocratic presidential candidate are hosting an event Saturday at
+Allen Temple AME Church's Community Room where supporters and friends can
+meet and learn how they can get involved. More are planned for other
+cities. Clinton is planning her first trip to the early voting state since
+announcing her second White House bid on May 27.
+
+Hillary Clinton opens Columbia campaign headquarters
+<<<link>>
+adquarters/http:/domain.com/2015/05/21/hillary-clinton-opens-columbia-ca
+mpaign-headquarters/>
+
+Cola Daily // Allen Wallace
+
+The race to be the next president of the United States is heating up, and
+Hillary Clinton on Wednesday became the first candidate to establish a
+South Carolina campaign headquarters [=E2=80=A6]=E2=80=9CI knew I wanted to
+ support Hillary
+Clinton as soon as I found out about her campaign,=E2=80=9D said volunteer 
+Rachel
+Catalano. Catalano is an Irmo resident, who is home for the summer after
+her freshman year at the University of Virginia. She was one of the younger
+volunteers on hand Wednesday in a very diverse group in terms of age, race,
+and gender.
+
+Hillary Clinton's Campaign to Open SC Office
+<<<link>>
+nson>
+
+Columbia Free Times // Chris Trainor
+
+Presidential candidate Hillary Clinton's Hillary for South Carolina
+campaign is set to open its first South Carolina office in Columbia [=E2=80
+=A6]
+"Hillary will work hard to earn every vote in the First in the South
+primary and not take anything for granted," Hillary for America state
+director Clay Middleton said.
+
+Presidential Race "Lucrative" To Upstate
+<<<link>>>
+
+WSPA // Addie Hampton
+
+With more presidential hopefuls announcing their candidacy, you might
+notice a rise in campaign stops in the Upstate, as well as grassroots
+efforts. Tuesday marked the first local campaign event for the Hillary
+Clinton camp in an election that experts say could be lucrative
+for the Upstate. =E2=80=9CThey've been waiting 8 years for this,=E2=80=9D s
+aid volunteer,
+Meghan Meier of Greenville.
+
+Hillary Clinton kicks off her S.C. campaign
+<<<link>>
+754>
+
+WYFF // Liz Lohuis
+
+Days before a huge Republican domain.com in downtown Greenville, Presidential
+hopeful Hillary Clinton kicks off her South Carolina grassroots campaign.
+
+Clinton campaign officials promise 'different kind of campaign' in 2015 
+<<<link>>
+-different-kind-of-campaign-in-2016>
+
+Live 5 // Nick Minock
+
+Hillary Clinton is taking no vote for granted in South Carolina, according
+to Senior Campaign Officials. In a phone call Friday afternoon, two senior
+campaign officials with Hillary Clinton's 2015 Presidential campaign
+said theformer U.S. Secretary of State will run a campaign that is
+technology driven with an emphasis on =E2=80=9Cold school organizing.
+
+Independent Mail Letter to the Editor: Clinton backs everyday Americans
+<<<link>>
+-everyday-americans>
+
+As a longtime Hillary Clinton supporter, I am more excited than ever to
+support her candidacy. Already in her campaign, she is making it clear that
+her priorities are education and supporting those who are not in the top
+one percent.
+
+--
+
+Adrienne K. Elrod
+Spokesperson
+Hillary For America
+*www.hillaryclinton.com <<<link>>>*
+@adrienneelrod

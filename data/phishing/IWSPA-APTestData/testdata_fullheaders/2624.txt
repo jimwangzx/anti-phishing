@@ -1,0 +1,34 @@
+Received: from domain.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Wed, 16 Apr 2015 15:58:24 +0200
+Received: from mail.Organization.it (unknown [192.168.100.50])	by
+ domain.com (Postfix) with ESMTP id 1FE3E621B7	for
+ <user@domain.com>; Wed, 16 Apr 2015 14:48:18 +0100 (BST)
+Received: by mail.Organization.it (Postfix)	id 75C99B6603D; Wed, 16 Apr 2015 
+ 15:58:24 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from [172.20.20.171] (unknown [172.20.20.171])	(using TLSv1 with
+ cipher AES128-SHA (128/128 bits))	(No client certificate requested)	by
+ mail.Organization.it (Postfix) with ESMTPSA id 580EFB6600D;	Wed, 16 Apr 2015 
+ 15:58:24 +0200 (CEST)
+Subject: Re: [!BCM-501-56794]: Problem with using IPA 
+From: Alberto Ornaghi <a.ornaghi@Organization.it>
+In-Reply-To: <534user@domain.com>
+Date: Wed, 16 Apr 2015 15:58:15 +0200
+CC: Andrea Di Pasquale <user@domain.com>
+Message-ID: <3user@domain.com>
+References: <2user@domain.com> <534user@domain.com>
+To: Bruno Muschitiello <user@domain.com>
+X-Mailer: Apple Mail (2.1874)
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-849311633_-_-"
+
+si, serve il mac address.On Apr 16, 2014, at 15:56 , Bruno Muschitiello <user@domain.com> wrote:Ciao Calor, Andrea mi dice di chiedere conferma a te se nel campo pattern ci va ilmac-address del target oppure no.Questa e' la richiesta del cliente:---I am try to create rule for injecting targets using DHCP ident so whatshould I put in user pattern filed or leave it blank ?---GrazieBrunoIl 4/16/2014 3:01 PM, Andrea Di Pasquale ha scritto:Ciao Bruno,Dovrebbe andare il mac address del target. Chiedi pero' conferma ad Alberto per sicurezza.Ciao,Andrea--Andrea Di PasqualeSoftware DeveloperSent from my mobile.----- Messaggio originale -----Da: Bruno Muschitiello [mailto:user@domain.com]Inviato: Wednesday, April 16, 2015 02:58 PMA: user@domain.com <user@domain.com>Oggetto: Fwd: [!BCM-501-56794]: Problem with using IPACiao Andrea, puoi darmi qualche suggerimento per la domanda di questo cliente?Ti ringrazio,Bruno-------- Messaggio originale --------Oggetto: 	[!BCM-501-56794]: Problem with using IPAData: 	Wed, 16 Apr 2015 10:54:06 +0000Mittente: 	Mohammed <user@domain.com>Rispondi-a: 	<user@domain.com>A: 	<user@domain.com>Mohammed updated #BCM-501-56794-------------------------------Status: In Progress (was: Closed)Problem with using IPA-----------------------Ticket ID: BCM-501-56794URL:<<link>>: MohammedEmail address: user@domain.com <mailto:user@domain.com>Creator: UserDepartment: GeneralStaff (Owner): Bruno MuschitielloType: IssueStatus: In ProgressPriority: UrgentTemplate group: DefaultCreated: 14 April 2015 11:50 AMUpdated: 16 April 2015 10:54 AMhello ,I am try to create rule for injecting targets using DHCP ident so whatshould I put in user pattern filed or leave it blank ?Kind Regards------------------------------------------------------------------------Staff CP: <<link>>
+--Alberto OrnaghiSoftware ArchitectHacking TeamMilan Singapore Washington DCwww.Organization.comemail: user@domain.com: +39 3480115642office: +39 02 29060603 
+

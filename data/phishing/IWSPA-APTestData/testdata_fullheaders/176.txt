@@ -1,0 +1,59 @@
+Delivered-To: user@domain.com
+Received: by 10.25.88.12 with SMTP id m12csp971612lfb;
+        Tue, 2 Feb 2015 15:43:30 -0800 (PST)
+X-Received: by 10.50.108.111 with SMTP id hj15mr392565igb.17.1454456610278;
+        Tue, 02 Feb 2015 15:43:30 -0800 (PST)
+Return-Path: <user@domain.com>
+Received: from mail-ig0-domain.com (mail-ig0-domain.com. [2607:f8b0:4001:c05::22d])
+        by domain.com with ESMTPS id y25si7215727ioi.55.2016.02.02.15.43.30
+        for <user@domain.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 02 Feb 2015 15:43:30 -0800 (PST)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22d as permitted sender) client-ip=2607:f8b0:4001:c05::22d;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:4001:c05::22d as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-domain.com with SMTP id t15so71621897igr.0
+        for <user@domain.com>; Tue, 02 Feb 2015 15:43:30 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+         :cc:content-type;
+        bh=oW03FwiofJSBVLx/DGr4ngNKVd5uv+TyzVd3EqJtZ9Q=;
+        b=ds14RpcfsMN/O5YYPjinqYPV0myyby9Wie22iDeX7XbG2KRBEZj6KnOxWEN6TiAssz
+         D9J5qbOdPtz+8roRk9A4sbi96aSl0zCd23O0qlKS17T5+bB4isPSM2dpIE4Fvft2S9cX
+         ZrQ3cNlybctNHe06pF0m4zM0CuIMv4UtFHc7k
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:From: Robby Mook <re47@hillaryclinton.com>
+        bh=oW03FwiofJSBVLx/DGr4ngNKVd5uv+TyzVd3EqJtZ9Q=;
+        b=XZ2P/3hD/MJEqiTDtaykvGNGvkOq5fVF6X2IPT/jlaebWiOPA+zyfjsm1UbNdq2VzU
+         mZ0cf3AUNphT57ON3I/2R1y/EanIouuFFwS/qBOJtMOB01cvAWBKntWzVV7lBcoVhP7H
+         A/y1BTSUkKYb+pJhxN1kNC5WjvmN9iqu/IRWZEhVG3skdJBIxjEwUVbddsbzJ1m+MAXr
+         gTgQ23iSRvdpehEz/gXArtw1rYTJAXctU+fIfNmj+AFirnTizVqqqqY5L5RctupYXP29
+         0AObdEDnrE4zCwp6lHO+rhAYeCHrcKHBuX13vBe8QdfEaHhHPHV8CCsevK6no/9ZYinV
+         bFig
+X-Gm-Message-State: AG10YOQ8hdibS/aqeODA2XzTRNLjXur+O5oXRHsjrI8ms1kAN0v/COaak0OPh4no2p/kDM4664Ts80wU06jKssb0
+MIME-Version: 1.0
+X-Received: by 10.50.66.179 with SMTP id g19mr421233igt.94.1454456609907; Tue,
+ 02 Feb 2015 15:43:29 -0800 (PST)
+Received: by 10.36.59.5 with HTTP; Tue, 2 Feb 2015 15:43:29 -0800 (PST)
+In-Reply-To: <813441346-1454456558-user@domain.com>
+References: <132020721-1454455699-user@domain.com>
+	<CAMhPeA9WdvOxBcM=EXRPif-AhvLkn9MBE8+user@domain.com>
+	<813441346-1454456558-user@domain.com>
+Date: Tue, 2 Feb 2015 18:43:29 -0500
+Message-ID: <user@domain.com>
+Subject: Re: Coin Flip
+From: Robby Mook <re47@hillaryclinton.com>
+To: Tina Flournoy <user@domain.com>, 
+ Christina Reynolds <user@domain.com>
+CC: John user <user@domain.com>, Huma Abedin <user@domain.com>, 
+ Jennifer Palmieri <user@domain.com>, 
+ Angel Urena <user@domain.com>
+Content-Type: multipart/alternative; boundary=047d7bdc15b2933d13052ad21122
+
+Yet again, they fundraise off of lies.  Christina is pushing this around.
+

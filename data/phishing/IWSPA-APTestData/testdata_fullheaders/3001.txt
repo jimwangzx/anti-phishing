@@ -1,0 +1,137 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp572688lfi;
+        Wed, 27 May 2015 14:49:46 -0700 (PDT)
+X-Received: by 10.55.18.144 with SMTP id 16mr60094999qks.17.1432763386288;
+        Wed, 27 May 2015 14:49:46 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com ([216.82.254.108])
+        by domain.com with ESMTPS id m202si297307qhb.84.2015.05.27.14.49.45
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 27 May 2015 14:49:46 -0700 (PDT)
+Received-SPF: neutral (domain.com: 216.82.254.108 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=216.82.254.108;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 216.82.254.108 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Return-Path: <user@domain.com>
+Received: from [216.82.254.67] by server-12.bemta-7.domain.com id B2/B6-16335-9FB36655; Wed, 27 May 2015 21:49:45 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-8.tower-196.domain.com!1432763382!9111557!3
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.15; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 15311 invoked from network); 27 May 2015 21:49:44 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-8.tower-196.domain.com with AES256-SHA encrypted SMTP; 27 May 2015 21:49:44 -0000
+Resent-From: Ambassador Kounalakis <kounalakiset@gmail.com>
+Received: from domain.com (216.82.255.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server (TLS)
+ id 14.3.210.2; Wed, 27 May 2015 17:49:44 -0400
+Received: from [216.82.254.67] by server-16.bemta-7.domain.com id
+ 67/AE-22481-6FB36655; Wed, 27 May 2015 21:49:42 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-3.tower-196.domain.com!1432763380!9147031!1
+X-Originating-IP: [209.85.220.49]
+X-SpamReason: No, hits=3.3 required=7.0 tests=HTML_20_30,HTML_MESSAGE,
+  MIME_QP_LONG_LINE,MISSING_SUBJECT
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.15; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 18761 invoked from network); 27 May 2015 21:49:41 -0000
+Received: from mail-pa0-domain.com (HELO mail-pa0-domain.com)
+ (209.85.220.49)  by server-3.tower-196.domain.com with RC4-SHA encrypted
+ SMTP; 27 May 2015 21:49:41 -0000
+Received: by pacwv17 with SMTP id wv17so7346649pac.2        for
+ <user@domain.com>; Wed, 27 May 2015 14:49:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=From: Ambassador Kounalakis <kounalakiset@gmail.com>
+         :message-id:references:to;
+        bh=AxFY2KBVIfnPeAcv+rpW191LiArUFH2nQPCtnRdZuuo=;
+        b=S5nc2f/BxMg6Pua6nChG7+6I8zCW/WBh21HDn3ekKR8pv+nHj0gcsRkN0HxHMBJvXl
+         p6vIeSYMHYmHHHQ3TUS7xvmtf9ixWF5TEwWF7nfwlXvzK67f7mpj4bR1G8fusjwMR2FF
+         tWCdhhg7i1Mjzm+aWzWzEXlQcFl1qboi7ZVZmP9sH9IQP68bgNBoHkfTVWNQXmoBvNMI
+         vi5hTl3J/956wbzszRAsqh/LYxGyQ0AFXedd3kyq3tYs+RB3UjUUsSuzgOIVdd2qQVZL
+         yK/zytvIsrprLeTd8KCPZgNeZ1x6m5YitlV/xwxgBK4WL8NnoJzlZ06MujjUnVyugwwZ
+         nIIw
+X-Received: by 10.68.215.97 with SMTP id oh1mr61961910pbc.88.1432763380625;
+        Wed, 27 May 2015 14:49:40 -0700 (PDT)
+Received: from [192.168.1.75] (107-223-8-77.domain.com.
+ [107.223.8.77])        by domain.com with ESMTPSA id
+ fs16sm149208pdb.12.2015.05.27.14.49.38        for
+ <user@domain.com>        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA
+ bits=128/128);        Wed, 27 May 2015 14:49:38 -0700 (PDT)
+From: Ambassador Kounalakis <kounalakiset@gmail.com>
+Content-Type: multipart/alternative;
+	boundary="Apple-Mail-4321C614-8BDE-42EF-996E-67485CF6A73A"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0 (1.0)
+Date: Wed, 27 May 2015 14:49:36 -0700
+Message-ID: <user@domain.com>
+References: <06user@domain.com>
+To: user John <user@domain.com>
+X-Mailer: iPad Mail (12B410)
+
+John -
+
+I'm forwarding an email I sent to Jake last night that you might also be int
+erested in seeing.
+
+Also, I had coffee today with Darian Swig, whose family, I'm sure you know, i
+s very prominent in San Francisco. Darian is on the national board of Human R
+ights Watch, and has quite a bit of international experience and understandi
+ng. She'd like to meet with you about how she might be able to help with the
+ campaign. You may want to put her on your list for future trips to town - o
+r maybe have Dennis Cheng take a meeting with her. She's really terrific.
+
+All best,
+
+Eleni
+
+PS Jake said that advisors would be named after the mid-June announcement an
+d sometime after his wedding!
+
+Ambassador Eleni Kounalakis
+2500 Steiner Street, Ninth Floor
+San Francisco, CA 94115
+user@domain.com
+
+Sent from my iPad
+
+Begin forwarded message:
+
+bout granting TPA when she and her members have serious concerns about TPP. S
+he also said that the Republicans are the ones who want it, their constituen
+ts are the ones pushing for it, so they should be the ones who vote for it. 
+For every one of her members who votes yes, there is a Republican who is off
+ the hook. Why should they do that?
+
+r rights/wages and other issues to be included in the deal.
+
+nsion), and that if the Republicans win in 2016, Congress would be handing t
+hem TPA too.
+
+ and I took the opportunity to engage him on the issue. He said that at the m
+oment Ami Bera was the only democratic member from California who has come o
+ut in favor of TPA. Aguilar said he is against it, and raised some of the sa
+me concerns as Nancy, and added a few - including that since there is an ope
+n door to amend TPP to add members, its possible that this TPA vote could ef
+fectively be used to adopt a trade deal with China.
+
+ossibility that the votes are there. NP said that 'having the president pers
+onally appeal to members is a very hard thing for them to resist'. Also, Agu
+ilar told me that she told members that they should do what is right for the
+m, and that it would be a good thing to 'find a way to yes.' (He then added t
+hat USTR does not seem to want to make any more concessions to address the c
+oncerns he raised, so he doesn't see how they 'get to yes' under those circu
+mstances.)
+
+ew other conversations in the last few weeks. My gut is that the same, under
+lying, unspoken sentiments that got TPA though the Senate (essentially that t
+hese deals are the right thing to do), also exists in the House. The questio
+n is, will it be enough?
+
+e:
+

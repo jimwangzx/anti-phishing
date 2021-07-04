@@ -1,0 +1,133 @@
+Delivered-To: user@domain.com
+Received: by 10.25.24.103 with SMTP id o100csp447588lfi;
+        Wed, 27 May 2015 10:32:32 -0700 (PDT)
+X-Received: by 10.70.101.106 with SMTP id ff10mr61193216pdb.162.1432747951811;
+        Wed, 27 May 2015 10:32:31 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from domain.com (domain.com. [216.82.251.13])
+        by domain.com with ESMTP id fj8si26940863pdb.93.2015.05.27.10.32.30
+        for <user@domain.com>;
+        Wed, 27 May 2015 10:32:31 -0700 (PDT)
+Received-SPF: neutral (domain.com: 216.82.251.13 is neither permitted nor denied by best guess record for domain of user@domain.com) client-ip=216.82.251.13;
+Authentication-Results: domain.com;
+       spf=neutral (domain.com: 216.82.251.13 is neither permitted nor denied by best guess record for domain of user@domain.com) user@domain.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Return-Path: <user@domain.com>
+Received: from [216.82.249.179] by server-13.bemta-12.domain.com id 2D/E8-02790-EAFF5655; Wed, 27 May 2015 17:32:30 +0000
+X-Env-Sender: user@domain.com
+X-Msg-Ref: server-5.tower-44.domain.com!1432747948!7385862!2
+X-Originating-IP: [141.161.191.74]
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.15; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 25326 invoked from network); 27 May 2015 17:32:30 -0000
+Received: from unknown (HELO LAW-domain.com) (141.161.191.74)
+  by server-5.tower-44.domain.com with AES256-SHA encrypted SMTP; 27 May 2015 17:32:30 -0000
+Resent-From: "Sandy Theis, ProgressOhio" <no-reply@progressohio.org>
+Received: from domain.com (216.82.243.55) by
+ LAW-domain.com (141.161.191.74) with Microsoft SMTP Server (TLS)
+ id 14.3.210.2; Wed, 27 May 2015 13:32:28 -0400
+Received: from [216.82.241.131] by server-7.bemta-8.domain.com id
+ 1B/16-27558-CAFF5655; Wed, 27 May 2015 17:32:28 +0000
+X-Env-Sender: bounces+908065-95user@domain.com
+  domain.com
+X-Msg-Ref: server-6.tower-54.domain.com!1432747944!8850786!1
+X-Originating-IP: [192.254.120.153]
+X-SpamReason: No, hits=0.2 required=7.0 tests=HTML_MESSAGE,
+  HTML_TEXT_AFTER_BODY
+X-StarScan-Received: 
+X-StarScan-Version: 6.13.15; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 12129 invoked from network); 27 May 2015 17:32:25 -0000
+Received: from o1.list.progressohio.org (HELO o1.list.progressohio.org)
+ (192.254.120.153)  by server-6.tower-54.domain.com with
+ DHE-RSA-AES128-SHA encrypted SMTP; 27 May 2015 17:32:25 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=list.progressohio.org; 
+	h=content-type:mime-version:subject:From: "Sandy Theis, ProgressOhio" <no-reply@progressohio.org>
+	s=smtpapi; bh=bHto3qpx96JxO0cqXaxdk+OsrSM=; b=qnA4pffG7qAKZvypOD
+	be72zxhnJ3v7bop5oGeOWR1sc3V3JIav8tjnqdtxn/esDVPiTIzYaMYFmYzcSvwX
+	Mhu2asIHBTxMKIbVmI/ZYuZoakF+Wee/NNRA/HOjh5/HKZzDVTkm3GCrwLFz4j5R
+	wRI+DOhouHzl5zDp0Srbnvrho
+Received: by filter-490.domain.com with SMTP id
+ filter-490.11089.5565FFA89        2015-05-27 17:32:24.121142581 +0000 UTC
+Received: from domain.com (domain.com
+ [198.202.148.30])	by ismtpd-049 (SG) with ESMTP id 14d966ea808.3af1.424946
+	for <user@domain.com>; Wed, 27 May 2015 17:32:23 +0000 (UTC)
+Content-Type: multipart/alternative;
+	boundary="----=9943263e326673e9c633ba23da6f4ce5"
+MIME-Version: 1.0
+Subject: Restore Workers' Rights
+From: "Sandy Theis, ProgressOhio" <no-reply@progressohio.org>
+To: john user <user@domain.com>
+Date: Wed, 27 May 2015 17:32:23 +0000
+Message-ID: <7user@domain.com>
+Reply-To: "User" <user@domain.com>
+List-Unsubscribe: <mailto:user@domain.com>
+X-SG-EID: zDgaTeTzrvevqaPg9TMHVUocbQkXZLhjAm2GZyvPC1t/M0c7Yg3vdHO5iwsGdDU25vRfo+TdBIUqs3
+ cdqGNoPH2PqLFaop0fgkEAimdoxIjHSl7RUct//quBUISrJk7bf7m23k6yvgyWIDw/EiF7nJ7dhAHi
+ uXTvPIMfBJKaDhg
+X-SG-ID: VGe5/xjN+I+4B3VTA8MwtNRv2sUGYLrIg+bY8QbIMwC/BcSpnt76WAIyftJKasEAqUbiMf0WVR3tQK
+ 0Av++aMd+LxCvnjBVaYCffZXbrbMI
+
+                                [1]ProgressOhio
+
+   ------------------------------------------------------------------------
+--
+
+                [2]Click here to view this mail in your browser.
+      Gov. Kasich promised to bring good jobs to Ohio but he's bringing too
+ many
+   [1]low-wage jobs.
+
+   He's trying to give millionaires more [2]tax cuts, but just took away
+   [3]collective bargaining rights that could lead to pay cuts for home care
+   and childcare workers.
+
+   Please help these workers advocate for their families and clients, and
+   help Ohio preserve quality care and services to children, seniors and
+   people with disabilities.
+
+   Call Gov. Kasich at 614-466-3555 and tell him to restore the rights he
+   stripped from these workers.
+
+   Ohio deserves better.
+
+   Sincerely,
+   Sandy Theis, ProgressOhio
+
+References
+
+   Visible links
+   1. <<link>>
+   2. <<link>>
+   3. <<link>>
+
+             [3]you_tube[4]facebook[5]twitter[6]google+[7]dribbble
+                                    [8][IMG]
+
+             Copyright =C2=A9 *2014 ProgressOhio, All rights reserved.
+                            Our Mailing Address is:
+               172 East State St | Suite 600 | Columbus, OH 43215
+                    This email was sent to: user@domain.com
+            [9]unsubscribe from this list    [10]Update Your Profile
+
+You can unsubscribe from this mailing list at any time:
+<<link>>
+exJr7z
+
+References
+
+   Visible links
+   1. <<link>>
+   2. <<link>>
+   3. <<link>>
+   4. <<link>>
+   5. <<link>>
+   6. <<link>>
+   7. <<link>>
+   8. <<link>>
+Jr7z
+   9. <<link>>
+8.exJr7z
+  10. <<link>>
+

@@ -1,0 +1,50 @@
+Delivered-To: user@domain.com
+Received: by 10.25.43.200 with SMTP id r191csp1087971lfr;
+        Thu, 13 Aug 2015 14:06:23 -0700 (PDT)
+X-Received: by 10.140.144.208 with SMTP id 199mr75424289qhq.47.1439499983427;
+        Thu, 13 Aug 2015 14:06:23 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mail-qk0-domain.com (mail-qk0-domain.com. [2607:f8b0:400d:c09::22b])
+        by domain.com with ESMTPS id b39si3464302qkh.20.2015.08.13.14.06.22
+        for <user@domain.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 13 Aug 2015 14:06:23 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c09::22b as permitted sender) client-ip=2607:f8b0:400d:c09::22b;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 2607:f8b0:400d:c09::22b as permitted sender) user@domain.com;
+       dkim=pass user@domain.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-qk0-domain.com with SMTP id v3so14567312qkd.3
+        for <user@domain.com>; Thu, 13 Aug 2015 14:06:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=From: Lindsay Roitman <lroitman@hillaryclinton.com>
+        bh=Cd8AP2N9sBXgVuqUMENoxYB3Am6cPZv9sOljSAO1QrM=;
+        b=Uc1kgLVkFCI+fN6XB9Sq0eaVD4Iw8+QVGtVV2xO+1kOdTvUhqo4YdwN66GkiKI1Ua5
+         wxcGSogx65KoyUn0HdtgIShJw8axfXvX+KR2wchElWXMNHJB6uMEJtljgif6vhPu9DBK
+         rQmeWbYcGjYvKL1frxkxm3tki8U/wjhMMS4Bg
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:From: Lindsay Roitman <lroitman@hillaryclinton.com>
+         :content-type;
+        bh=Cd8AP2N9sBXgVuqUMENoxYB3Am6cPZv9sOljSAO1QrM=;
+        b=Y0WTLmfCykFejrgDJDQuBK4mpNWsKLIbcY0gzOXkYAVLhIUFlQtRRn0AC6wlp84Y9o
+         fr6/tInn8k6Z+wsK3BasU1N90dMGge23GcLTTOTwZaof4NBp8+WXYAHe8/XHjJ1OGaHY
+         gFSVtmpA/nmbtxWPl++ecAeIBkqBneEsFQfjdIIxmwid6YKRFW+xJNOSS2494SVnM2Yq
+         JZ9DMHAH0V8l4I0K1oLycZvrmASLJh9nOsW16ldRnKYfqkvldbXV8m9TriH8u3+IKIQo
+         9TDPoQXzpqhdY3q78Y2GfqTxUpQyguA48MMMIU7fYtcNxAPdGopBE2CTx2JEq/njiQBY
+         Qr3w
+X-Gm-Message-State: ALoCoQnYbgWsl7kqKqcnek977e8PWr5U/VR8MZyZBH+TfVjg/loJ7cSKnKf7XG06KR1WuFP4bwmZ
+X-Received: by 10.55.33.34 with SMTP id h34mr72624741qkh.69.1439499982712;
+ Thu, 13 Aug 2015 14:06:22 -0700 (PDT)
+From: Lindsay Roitman <lroitman@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+Date: Thu, 13 Aug 2015 14:06:21 -0700
+Message-ID: <-227235300345707370@unknownmsgid>
+Subject: Vinod Khosla
+To: John user <user@domain.com>
+Content-Type: text/plain; charset=UTF-8
+
+John, at one point you said "it's not the right time" when we proposed
+a meeting for you and Vinod. Joel Beneson is in the Bay Area next week
+and I was wondering if that meeting would make sense?  Thoughts?

@@ -1,0 +1,83 @@
+Received: from domain.com (146.215.230.103) by
+ domain.com (43.130.141.77) with Microsoft SMTP Server id
+ 8.3.342.0; Mon, 21 Jul 2015 17:32:08 -0700
+Received: from domain.com ([160.33.194.230])	by
+ domain.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with
+ ESMTP id s6M0W7uZ000610	for <user@domain.com>; Tue, 22 Jul 2015 
+ 00:32:07 GMT
+Received: from mail38-ch1-domain.com (mail-domain.com
+ [216.32.181.168])	by domain.com
+ (Sentrion-MTA-4.3.1/Sentrion-MTA-4.2.2) with ESMTP id s6M0QZrR030579
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=FAIL)	for
+ <user@domain.com>; Tue, 22 Jul 2015 00:26:36 GMT
+Received: from mail38-ch1 (localhost [127.0.0.1])	by mail38-ch1-domain.com
+ (Postfix) with ESMTP id DEE3A2E04C4	for <user@domain.com>; Tue, 22
+ Jul 2015 00:32:06 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:64.132.89.196;KIP:(null);UIP:(null);IPV:NLI;H:mta22.microsoftstoreemail.com;RD:mta22.microsoftstoreemail.com;EFVD:NLI
+X-SpamScore: -3
+X-BigFish: vps-3(z59c9hzbb2dI8d0Idddahe0eahc857hzz1f42h1ee6h1de0h2073h2146h1202h1e76h2189h1d1ah1d2ah1fc6h208ch1fdahzebhz8275ch177df4h17326ah1df2f4h1def87h8275bh1def86h186M1bc7b9h1de097h1def03h186068hc704dh172c6ch1ce121iz2fheh5eh5fh839hc60hc61hd24he13h107ah1288h12a5h137ah13eah1441h1504h1537h153bh158dh162dh1631h1758h18e1h1946h19b5h1b0ah1bceh224fh1d0ch1d2eh1d3fh1dc1h1dfeh1dffh1e1dh1fe8h1ff5h20f0h2216h2336h2438h2461h2487h24d7h2516h2545h25f6h2605h2673h268bh26d3h27e2h282bh28a1h29d0h2a24h2b05h27b1k)
+X-FFO-Routing-Override: domain.com%sentrionwest-1422.domain.com;
+Received-SPF: pass (mail38-ch1: domain of domain.com designates 64.132.89.196 as permitted sender) client-ip=64.132.89.196; user@domain.com; helo=mta22.microsoftstoreemail.com ;domain.com ;
+Received: from mail38-ch1 (localhost.localdomain [127.0.0.1]) by mail38-ch1
+ (MessageSwitch) id 1405989123820041_4722; Tue, 22 Jul 2015 00:32:03 +0000
+ (UTC)
+Received: from domain.com (domain.com
+ [10.43.68.247])	by mail38-domain.com (Postfix) with ESMTP id C4AD4480179
+	for <user@domain.com>; Tue, 22 Jul 2015 00:32:03 +0000 (UTC)
+Received: from mta22.microsoftstoreemail.com (64.132.89.196) by
+ domain.com (10.43.69.245) with Microsoft SMTP Server id
+ 14.16.227.3; Tue, 22 Jul 2015 00:32:01 +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=102420140131; d=domain.com;
+ h=From: Microsoft Store <microsoftstore@microsoftstoreemail.com>
+ bh=d4T4Kgjsqwz0x8wPErv6M4RU11w=;
+ b=Cre0Ax70E9JWmULGVQWXIC+csZGfLgjh8e8a3EyjrNdfLFGl8ddnm9lOQ8dExFk4qygByO5My96Y
+   difBAoKO2Mkr3UOc5a0uv3VIS1/Y0ERfUohkVWdIyMLQSiRHz7JDunblQ+HwNODG/VnDC8GbTzMx
+   E+TCnw346MPhthAy5Vo
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=microsoftstoreemail.com;
+ b=jN0GSjGOa2jMIYlhHlELcap7j+B0Bp0eA7Asy8XkZ6ZtcpMC9e6wpQE3ZhQiBk/UY74pm7x2ODQg
+   F5RDLLjTKKRPqogaJ0OJf1vTGNtQT4zU0zk0jlgbx9pLpOhZXMr3LgpOAVW+6nrO78cS6b8PUuFD
+   /n9L0wqvnKamuBLFesQ=;
+Received: by mta22.microsoftstoreemail.com id hpmog2163hst for
+ <user@domain.com>; Mon, 21 Jul 2015 18:31:23 -0600 (envelope-from
+ <user@domain.com>)
+From: Microsoft Store <microsoftstore@microsoftstoreemail.com>
+To: <user@domain.com>
+Subject: Big savings on a new Dell PC
+Date: Mon, 21 Jul 2015 18:31:22 -0600
+List-Unsubscribe: <mailto:user@domain.com>
+x-job: 10359607_2966592
+Message-ID: <25066user@domain.com>
+Return-Path: 
+ user@domain.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-1369549809_-_-"
+
+Big savings on a new Dell PC
+
+Get $150 towards a new PC + Office 365           View in a browser       
+
+Microsoft
+
+Surface
+
+Xbox
+
+Windows Phone
+
+Computers
+
+Sale
+
+Find a store
+
+Free Shipping
+
+Your Microsoft Retail Store Westfield Century City
+10250 Santa Monica Blvd., Los Angeles, CA 90067   -   (310) 228-3550   
+Hours, events, and more         
+
+ Back to school SAVINGS (See, we told you it’s really big). Purchase a new PC ($599 or more) and Office 365 and get $150 towards your purchase.*
+
+ <<link>>
+

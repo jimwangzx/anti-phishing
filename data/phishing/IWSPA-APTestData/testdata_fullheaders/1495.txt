@@ -1,0 +1,88 @@
+Received: from relay.Organization.com (192.168.100.52) by
+ domain.com (192.168.100.51) with Microsoft SMTP Server id
+ 14.3.123.3; Thu, 18 Sep 2015 16:47:46 +0200
+Received: from domain.com (unknown [192.168.100.50])	by
+ relay.Organization.com (Postfix) with ESMTP id 49E3A60030	for
+ <user@domain.com>; Thu, 18 Sep 2015 15:32:09 +0100 (BST)
+Received: by domain.com (Postfix)	id 2AEFEB6603E; Thu, 18 Sep 2015 
+ 16:47:47 +0200 (CEST)
+Delivered-To: user@domain.com
+Received: from domain.com (exchange.Organization.com
+ [192.168.100.51])	(using TLSv1 with cipher AES128-SHA (128/128 bits))	(No
+ client certificate requested)	by domain.com (Postfix) with ESMTPS id
+ 238E7B6603C	for <user@domain.com>; Thu, 18 Sep 2015 16:47:47 +0200
+ (CEST)
+Received: from domain.com ([fe80::755c:1705:6a98:dcff]) by
+ domain.com ([fe80::755c:1705:6a98:dcff%11]) with mapi id
+ 14.03.0123.003; Thu, 18 Sep 2015 16:47:46 +0200
+From: Daniele Milan <d.milan@Organization.com>
+To: "User" <user@domain.com>
+Subject: Fw: [confluence] Alessandro Scarafile removed a event from the
+ "TENTATIVE ACTIVITY" calendar
+Thread-Topic: [confluence] Alessandro Scarafile removed a event from the
+ "TENTATIVE ACTIVITY" calendar
+Thread-Index: AQHP00+CcJjxTidvtECPyvCXWcOqXw
+Date: Thu, 18 Sep 2015 14:47:46 +0000
+Message-ID: <2808user@domain.com>
+Accept-Language: en-US, it-IT
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+x-originating-ip: [fe80::755c:1705:6a98:dcff]
+Return-Path: user@domain.com
+X-MS-Exchange-Organization-AuthSource: domain.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 10
+Status: RO
+X-libpst-forensic-sender: /O=Organization/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=DANIELE MILAN5AF
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--boundary-LibPST-iamunique-615933390_-_-"
+
+Alessandro Scarafile removed a event from the "TENTATIVE ACTIVITY" calendar
+
+Ale, dobbiamo riprendere in mano questa attività appena possibile.
+
+Dici che si puo provare a ripianificarla per la settimana del 29? Chi c'è libero?
+
+Grazie,
+Daniele 
+-- 
+Daniele Milan 
+Operations Manager 
+
+Sent from my mobile.
+
+
+
+From: Daniele Milan <d.milan@Organization.com>
+
+Sent: Thursday, September 18, 2015 04:41 PM
+To: Daniele Milan 
+Subject: [confluence] Alessandro Scarafile removed a event from the "TENTATIVE ACTIVITY" calendar
+
+
+
+
+This event has been removed
+
+Alessandro Scarafile removed a event from the
+
+TENTATIVE ACTIVITY calendar
+
+Sep 15, 2015 
+
+All day
+
+Upgrade KATIE (from 9.1.5 to 9.3.1)
+
+You are receiving this notification because you are watching the following:
+
+TENTATIVE
+ ACTIVITY 
+
+Sent by
+
+Atlassian Confluence 5.4.4, the 
+Enterprise Wiki 
+

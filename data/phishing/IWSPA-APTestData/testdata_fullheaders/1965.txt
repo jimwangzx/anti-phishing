@@ -1,0 +1,85 @@
+Delivered-To: user@domain.com
+Received: by 10.205.118.144 with SMTP id fq16csp201700bkc;
+        Thu, 27 Jun 2015 09:27:06 -0700 (PDT)
+X-Received: by 10.49.30.200 with SMTP id u8mr11588543qeh.79.1372350426079;
+        Thu, 27 Jun 2015 09:27:06 -0700 (PDT)
+Return-Path: <user@domain.com>
+Received: from mta-domain.com (mta-domain.com. [70.42.57.86])
+        by domain.com with ESMTP id i1si1607093qen.95.2013.06.27.09.27.05
+        for <user@domain.com>;
+        Thu, 27 Jun 2015 09:27:06 -0700 (PDT)
+Received-SPF: pass (domain.com: domain of user@domain.com designates 70.42.57.86 as permitted sender) client-ip=70.42.57.86;
+Authentication-Results: domain.com;
+       spf=pass (domain.com: domain of user@domain.com designates 70.42.57.86 as permitted sender) user@domain.com;
+       dkim=pass user@domain.com
+Received: from domain.com (localhost [127.0.0.1])
+	by mta-domain.com (Postfix) with ESMTP id 3bh62K3vwtz2cl0p
+	for <user@domain.com>; Thu, 27 Jun 2015 12:27:05 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=votevets.org;
+	s=votevetskey; t=1372350425;
+	bh=LqKtdaFVQ8cDw9uPrpn8twkExd5ZxSmMXbdjfy7b2Dc=;
+	h=Date:To:From: "Jon Soltz, VoteVets.org" <info@votevets.org>
+	 MIME-Version:Content-Type;
+	b=DLACsN8LdU7ZSY1RHNK0tu5ScpNVFFmH5OuDiw+eULGLVqhKzOAfwo/yy+AbHx8CH
+	 fk1sK2H/k/o321fG4HncOGxSrVNPXsiWgIy7T7Zq0xy2+shu6jwrN/n+HpHVBfpYOj
+	 E1qdz8L8iz8OQEMyMXP3uEyqVOvLQydozCO10uHs
+Received: from maillist-b 
+	by domain.com with local (PHPMailer);
+	Thu, 27 Jun 2015 16:27:05 +0000
+Date: Thu, 27 Jun 2015 16:27:05 +0000
+To: John user <user@domain.com>
+From: "Jon Soltz, VoteVets.org" <info@votevets.org>
+Reply-to: user@domain.com
+Subject: Koch brothers take aim at veterans
+Message-ID: <user@domain.com>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 5708f1e90a37d9e0
+X-rpcampaign: rp_598
+X-CampaignID: xgreenarrow:EwpCUBUBEkdsBQE
+X-maillist-guid: EwpCUBUBEkdsBgcFCQMCBFoJUQEDU1xWUjBYDF5aGxQKAVNGFwUmUwhSWVkfBlwM
+List-Unsubscribe: <<<link>>>, <mailto:user@domain.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_e81d751d7d21a4632ca764d1d5379281"
+
+Dear John -
+
+Every summer, hundreds of veterans head to Bristol Bay, Alaska to earn a 
+living as commercial fishermen.
+
+It's not easy work and it separates them from their families -- again -- 
+but in this tough economy it pays well and takes care of things back home.
+
+Unfortunately, two foreign mining companies with connections to the Koch 
+Brothers are trying to dig a mine near the Bay that would destroy these 
+jobs and lay waste to the environment.
+
+So VoteVets wrote a letter to the Environmental Protection Agency and had 
+it co-signed by over 15,000 veterans and military family members as part 
+of their "public comment" period.
+
+But now we want to organize more Alaska veterans around this issue, stop 
+the development of the mine, and save these jobs. Will you contribute $5 
+or more to domain.com to help us take this fight to the next level? You 
+can contribute here.
+
+<<link>>
+
+Bristol Bay is one of those places where you can still find true solitude 
+while catching trophy rainbow trout and hunting moose and game birds.
+
+It's a place where many veterans travel as tourists, earn a living as 
+fishing guides, professional fisherman, or work on the shore supporting 
+the fishing industry.
+
+Thanks for joining me in defense of their jobs.
+
+Jon Soltz
+@jonsoltz
+Iraq War Veteran and Chairman
+domain.com
+
+<<link>>
+Paid for by VoteVets Action Fund
+
